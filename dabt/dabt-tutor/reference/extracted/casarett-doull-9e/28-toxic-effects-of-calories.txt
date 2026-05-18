@@ -1,0 +1,2376 @@
+# 28 Toxic Effects of Calories
+# Casarett & Doull's Toxicology, 9th Edition
+# Pages: 1380-1399
+# Unit: Unit V Toxic Agents
+
+28
+chapter
+Toxic Effects of Calories
+Martin J.J. Ronis, Kartik Shankar, and Thomas M. 
+Badger
+BIOLOGY OF EATING AND DIGESTION
+All biotic organisms derive energy from food to sustain life and 
+this energy “drives” various cellular functions, including digestion, 
+metabolism, pumping blood, and muscle contractions. Nutrients can 
+broadly be defined as chemical substances (typically found in foods 
+or supplements) that are necessary for proper growth and develop-
+ment, reproduction, cellular function and maintenance, and repair 
+following injury. Based on their chemical nature, nutrients can be 
+grouped into organic (carbon-containing) and inorganic classifica-
+tions. Carbohydrates, proteins, fats, and vitamins comprise the for-
+mer, while minerals and water are inorganic nutrients essential for 
+life (Stipanuk, 2006). Inorganic nutrients such as minerals can be 
+absorbed into the body through food and are generally incorporated 
+into the food chain through environmental sources (soil, water). 
+Minerals comprise about 4% of the body weight in humans and in 
+combination with water furnish a major part of the obligatory milieu 
+necessary for cellular functioning (pH, osmolarity). Macrominerals 
+are those whose abundance is generally 0.01% of body weight or 
+daily required amounts exceed 100 mg/day. Calcium, phosphorous, 
+sodium, and magnesium fall in this group. Other minerals that are 
+not as abundant can be equally important for an organism. Trace 
+minerals are defined as minerals whose concentration is less than 
+0.01% of total body weight. Other alternative definitions include 
+nutrients whose requirements are below 1 ppm. Iron, zinc, ­copper, 
+iodine, selenium, and molybdenum are six essential trace ­elements 
+with established recommended dietary allowances. Overall, trace 
+nutrients perform a variety of important functions, including trans-
+port of oxygen (iron as a part of hemoglobin), catalysis of biological 
+reactions as component of enzymes (iron, zinc), and as part of other 
+organic molecules (selenocysteine). While inorganic compounds 
+serve important roles in physiology, the energy in food is derived 
+from metabolism of organic substances. Organic compounds are 
+generally synthesized by living cells from simpler molecules. For 
+example, green plants and marine phytoplankton utilize photosyn-
+thesis to convert the very simple molecule carbon dioxide into more 
+complex, energy-rich compounds such as carbohydrates using the 
+energy from the sunlight. Because most bacteria and higher organ-
+isms cannot carry out photosynthesis, they derive their energy by 
+metabolism of preformed organic molecules, such as carbohydrates. 
+In general, bacteria utilize simpler organic ­molecules and animals 
+and humans require more complex macronutrients (­proteins, fats, 
+and carbohydrates) to meet their energy needs.
+Biology of Eating and  
+Digestion
+Digestion of Foods
+Integrated Fuel Metabolism
+Set-Point Theory and Neural 
+Control of Energy Balance
+Methods to Assess Energy 
+Balance
+Assessing Caloric Intake
+Assessing Caloric Content  
+of Foods
+Assessing Energy Expenditure
+Assessing Body Composition
+Anthropometric Analysis
+Hydrodensitometry
+Air Displacement Plethysmography
+Absorptiometry
+Computerized Tomography
+Nuclear Magnetic Resonance
+Electrical Impedance
+Total Body Water
+Assessing Physical Activity
+Biology of Obesity
+Obesity Risk: Genes, Epigenetics, 
+and Fetal Environment
+Toxicity Related to Excess 
+Caloric Intake/Obesity
+Adaptation of Liver and  
+Adipose Tissue to Excess  
+Calories
+Ectopic Fat Deposition
+Metabolic Syndrome
+Therapeutic Options for Managing 
+Metabolic Syndrome
+Nonalcoholic Steatohepatitis
+Alteration in Drug 
+Pharmacokinetics  
+and Metabolism in Obesity  
+and NAFLD
+Endocrine Dysfunction in  
+Obesity, Metabolic Syndrome, 
+and NAFLD
+Obesity and Cancer Risk
+Health Benefits and Life 
+Extension Associated with 
+Caloric Restriction
+Treatment of Obesity
+Lifestyle Modification: Dieting  
+and Exercise
+Toxic Effects of Dieting
+Drug Therapy for Weight Loss
+Surgical Interventions
+Economic, Sociological, and 
+Legal Aspects of the Obesity 
+Epidemic
+Health Insurance and Obesity
+Changing the Environment: Family 
+and Community Approaches to 
+Healthy Eating and Physical 
+Activity
+Food Labels
+Governmental and Corporate Issues
+References
+
+1362
+Toxic Agents
+unit V
+Digestion of Foods
+Common foods are a complex matrix and before the nutrients in 
+food can be utilized they invariably need to undergo digestion. The 
+process of digestion is a remarkable orchestration of many complex 
+biochemical and physiological events, which occurs throughout 
+the gastrointestinal (GI) tract, involving mechanical and chemi-
+cal breakdown of food into simpler nutrients that are amenable 
+for absorption. The upper GI tract consists of oral cavity, esopha-
+gus, and stomach. Breakdown of food begins in the mouth via the 
+actions of enzymes in saliva. Movement of food between sections 
+of the GI tract is restricted via sphincters or valves. In the stomach, 
+food is acted upon by gastric juices, which are secretions from the 
+cardiac, oxyntic, and pyloric glands in the stomach. Gastric juice 
+contains high amounts of hydrochloric acid that is secreted from 
+gastric parietal cells. This along with the enzymes such as pepsin 
+and α-amylase act upon proteins and carbohydrates, respectively, 
+to generate polypeptides and simpler sugars (such as dextrins 
+from starch). Digestion in the small intestine is aided by numerous 
+enzymes supplied by the pancreas, which drains into the proximal 
+portion of the small intestine, the duodenum. Bile is made in the liver 
+and stored in the gall bladder until secreted to aid in the absorption 
+of dietary fats. Pancreatic juice contains digestive enzymes includ-
+ing carboxypeptidases, lipases, amylases, and nucleases. Pancreatic 
+secretions also contain bicarbonate and divalent cations (mostly 
+sodium and potassium) that help neutralize the gastric acid. Almost 
+half of ingested carbohydrates and proteins, and 90% of ingested fat 
+are digested by pancreatic enzymes. In addition to the enzymes, the 
+small intestine itself secretes numerous enzymes including amino-
+peptidases, lipases, and disaccharidases.
+The latter parts of the small intestine, the jejunum and ileum, 
+are primary sites of absorption of nutrients. The surface of the small 
+intestine is uniquely adapted to facilitate the absorption of digested 
+dietary nutrients. The surface area of the intestinal mucosa available 
+for absorption is greatly increased due to a combination of folds 
+called valvulae conniventes (folds of Kerckring) and finger-like pro-
+jections (villi) that are lined with enterocytes. The luminal surface 
+of the enterocytes is further lined by microvilli that give the mucosal 
+surface brush-border-like appearance. The luminal and basolateral 
+surfaces of the enterocytes are rich in transporters that mediate 
+uptake of nutrients into the enterocytes. Absorption of nutrients 
+into enterocytes may be accomplished by diffusion, facilitated dif-
+fusion, or active transport. Luminal digestion of complex carbo-
+hydrates involves breakdown via salivary and pancreatic amylases 
+into dextrins that undergo further digestion to simple monosac-
+charides in the membrane. Furthermore commensal gut microbiota 
+play important roles in breakdown of complex carbohydrates (such 
+as dietary fiber) into substrates that can be utilized by the host. 
+Monosaccharides are transported into the enterocytes by active 
+transport (glucose, galactose) or via facilitated diffusion (fructose). 
+Digestion of proteins begins in the stomach and continues in the 
+lumen of the small intestine. The jejunum is the site of absorption of 
+amino acids and dipeptides and tripeptides. Specific carriers for free 
+amino acid and small peptides in the enterocyte brush border aid 
+absorption. Dietary lipids, such as triacylglycerols, are hydrolyzed 
+by pancreatic and intestinal lipases to free fatty acids or monoacylg-
+lycerol. Bile salts along with phospholipids facilitate the absorption 
+of lipids by forming emulsified complexes called micelles, which 
+allows uptake into the enterocyte, where fatty acids are reesterified 
+and packaged into chylomicrons that exit the enterocyte into the 
+lymphatic system. Macronutrient molecules (amino acids, sugars, 
+and fatty acids) that end up in the circulation undergo metabolism 
+in various tissues to be either oxidized to extract energy or stored 
+for future utilization.
+Integrated Fuel Metabolism
+The requirement for energy to fuel cellular functions in all organ-
+isms is continuous. However, food consumption is intermittent. 
+Hence, most organisms have developed processes to store energy 
+from a meal to be utilized until the next meal. Energy in the body 
+is derived from three main nutrient classes: carbohydrates, protein, 
+and fat, which in turn are made up of sugars, amino acids, and free 
+fatty acids, respectively. The principal circulating fuels in the body, 
+glucose and free fatty acids, are stored as glycogen and triglycer-
+ides, respectively. Highest concentrations of glycogen are present 
+in the liver and skeletal muscle, it is a macromolecule consisting of 
+branching chains of glucose held together by α-1,4 and 1,6 link-
+ages. Triglycerides are stored in adipose depots in specialized cells 
+(adipocytes) within large lipid droplets. While total body protein 
+constitutes a large percentage of the energy, unlike fats and carbo-
+hydrate, protein is not normally utilized as storage form of energy. 
+Proteins are critical in maintaining structure and function and are 
+catabolized for energy only as a last-ditch effort, under extreme 
+conditions. The energetic value of macromolecules per gram of 
+tissue is influenced based on their hydration. While the theoreti-
+cal energy content of glycogen is approximately 4 kcal/g, due to 
+its highly hydrophilic nature, each gram of glycogen is associated 
+with two to three times its weight of water. Hence, in reality glyco-
+gen provides approximately 1 kcal/g of actual energy. This makes 
+storage of energy predominantly in the form of glycogen quite 
+inefficient. In contrast, because triglycerides are stored in a mostly 
+nonaqueous milieu, fat tissue is energy dense, yielding close to 
+the theoretical 9.4 kcal/g of triglyceride. Hence, most animals have 
+developed systems to convert glucose into lipids (lipogenesis) and 
+adipose depots to store de novo synthesized lipids.
+The interconversion of fuel sources and release in the time 
+of need is designed to address three priorities of fuel utilization 
+(Shulman et al., 2003). Maintaining a stable supply of substrate for 
+utilization by the brain is the first priority. Because the brain has 
+little to no stored energy in the form of glycogen or triglycerides, it 
+exclusively depends on the liver for maintaining a continuous sup-
+ply of glucose. Blood glucose concentrations are maintained within 
+a narrow range (55 to 140 mg/dL) via a number of interrelated 
+mechanisms that are highly conserved. Unlike the brain, the heart 
+and to some degree the liver and skeletal muscles derive most of 
+their energy needs through the oxidation of fatty acids. Maintenance 
+of protein reserves and replenishment of proteins (enzymes, cyto-
+skeletal proteins, contractile proteins) following feeding are the 
+next important functions of fuel metabolism. Finally, conversion of 
+existing nutrients into their storage forms (glycogen and triglycer-
+ides) is carried via anabolic biological pathways (glycogenesis and 
+lipogenesis).
+Hormonal messages generated by the endocrine cells of the 
+pancreas, adipose tissue (adipokines), and GI tract (gut neuropep-
+tides) are critical to orchestrating the multiple processes associated 
+with fuel flux and metabolism. Insulin is the principal hormone 
+required to manage nutrient fuels in both fed and fasted states. The 
+presence and subsequent absorption of food in the GI tract and rise 
+in blood glucose stimulate insulin secretion from the pancreas. 
+Through its actions on various signaling pathways, insulin promotes 
+glucose uptake in peripheral tissues, glycogen synthesis in the liver 
+and muscle, lipid synthesis in adipocytes, and amino acid and pro-
+tein synthesis in most cells. Insulin also acts to restrain catabolic 
+processes such as lipolysis, gluconeogenesis, and protein degrada-
+tion, which classically occur under states of low insulin (such as 
+fasting). Following the immediate disposal of absorbed nutrients, 
+the body enters a postabsorptive (early fasting) state, during which 
+the energy derived from glucose supplied directly from the meal is
+
+Toxic Effects of Calories
+Chapter 28
+1363
+diminished (Ruderman et al., 2005). In this state, serum levels of 
+insulin start to decrease, and the liver begins metabolic actions to 
+maintain glucose levels by glycogenolysis to release stored glucose 
+and by de novo synthesis of glucose (from gluconeogenic precur-
+sors, lactate and fatty acids, and glycerol). Energy for these cata-
+bolic and anabolic processes can be derived from metabolism of 
+triglycerides and fatty acids (in adipose tissues). If food remains 
+unavailable for a protracted period, glycogen levels become almost 
+completely depleted in both the muscle and liver, and protein catab-
+olism releases amino acids which become the primary source for 
+glucose production. A rise in glucagon and glucocorticoids (such 
+as cortisol) also characterize this state. These hormones promote 
+lipolysis and breakdown of glycogen.
+Set-Point Theory and Neural Control 
+of Energy Balance
+A number of redundant feedback mechanisms operate to maintain 
+the homeostasis of energy in living systems. These mechanisms 
+eventually regulate the balance between food intake and energy 
+expenditure to maintain fuel reserves at preset levels. Energy 
+consumed is normally metabolized and utilized to maintain basic 
+metabolic rate and thermogenesis, and carry out cellular processes, 
+organ-specific functions, and movement (muscle contractions). 
+Excess fuels are converted to triglycerides and stored in adipose 
+tissues. Because adipose tissue is the major depot of preserving 
+energy, signals derived from the periphery signal to regions in the 
+brain that coordinate energy balance. When total energy consumed 
+equals the total energy required to meet basal metabolic needs, 
+growth, thermogenesis, and physical activity, the individual is in 
+energy balance, and maintaining this balance will result in rela-
+tively stable weight and healthy body composition. When energy 
+intake exceeds the actual energy expenditure, weight gain ensues 
+and body composition can become problematic. The existence of 
+a precise energy balance system is illustrated by considering nor-
+mal variations in weight among groups of individuals over time. 
+Over the course of a year, the average adult male consumes about 1 
+million calories, yet body weight of most weight-stable individuals 
+does not fluctuate more than 1 lb. Even a small (about 5%) error in 
+matching intake and expenditure would result in a net change of 
+approximately 6 kg of body weight. Therefore, it is obvious that 
+mechanisms operating within the body can regulate energy balance 
+with exquisite precision.
+One theory called the “set-point” theory proposes that food 
+intake and energy expenditure are coordinately regulated by defined 
+regions in the central nervous system that signal to maintain a rela-
+tively constant level of energy reserve and body weight (Keesey 
+and Hirvonen, 1997). It is posited that the status of energy stores is 
+sensed by the central nervous system and changes in the afferent sig-
+nal result in adjustments in food intake and/or energy expenditure. 
+Implicitly, the model requires the existence of four major compo-
+nents of an energy homeostasis system: afferent signals relaying the 
+levels of energy stores, efferent processes regulating energy storage 
+and expenditure, efferent mechanisms controlling ingestive behav-
+ior, and integrative centers in the brain to coordinate these processes. 
+Studies have shown that the hypothalamus plays a central role in 
+the control of energy balance, especially food intake. The hormone 
+leptin, secreted in proportion to body fat stores from the adipose tis-
+sue, was the first signal to be identified to be a homeostatic regulator 
+of energy balance. Leptin acts on metabolic-sensing neurons in the 
+brain with receptor-mediated actions regulating signaling pathways 
+that in effect decrease food intake (Friedman and Leibel, 1992). 
+Leptin also has potent neurotrophic actions in the brain.
+Two populations of neurons are seat of appetite control 
+machinery in the brain, both of which are sensitive to leptin’s 
+actions (among other neuropeptides), one expressing orexigenic 
+peptides neuropeptide-Y (NPY) and agouti-related peptide (AGRP) 
+and the other expressing anorexigenic peptides proopiomelanocor-
+tin (POMC) and cocaine- and amphetamine-regulated transcript 
+(CART). These are located in the arcuate nucleus of the hypothala-
+mus. Downstream projections from these neurons interact with 
+the melanocortin receptor neurons and the neurons in the paraven-
+tricular nucleus of the hypothalamus. In addition to the hypotha-
+lamic control of appetite per se, reward and hedonic processes of 
+“liking” and “wanting” food occur in the ventral striatum of the 
+midbrain in conjunction with the mesolimbic dopamine system. In 
+addition, the corticolimbic system of reward is controlled by areas 
+in the ­prefrontal cortex, which integrates sensory, emotional, and 
+­cognitive information to coordinate behavioral responses (Lenard 
+and Berthoud, 2008). Hence, the homeostatic control of energy 
+­balance fits into the larger decision scheme of choice behavior via 
+a ­complex neural system.
+METHODS TO ASSESS ENERGY BALANCE
+Assessing Caloric Intake
+In animal studies, caloric intake can be quantitatively monitored by 
+measuring the amount of food consumed by animals in metabolic 
+cages. Caloric intake can be derived by multiplying the quantity 
+(grams per day) of diets consumed with the caloric density of the 
+diet. Knowledge of caloric intake is important in many experi-
+mental designs where pair-feeding a parallel cohort of animals is 
+necessary. In clinical studies, assessment of caloric intake can be 
+performed in a number of ways, each with its strengths and limita-
+tions. A prospective method to collect information about current 
+intake is maintenance of food records. These are usually carried 
+out for a specific duration of time (3 to 7 days, generally including 
+both week and weekend days) during which a written record of all 
+food and beverages consumed is maintained. Quantification is per-
+formed by estimation of weights or actual weighing of foodstuff, 
+and hence food records provide both qualitative and quantitative 
+data. Advantages include high reliability, as records do not rely on 
+memory but will be more detailed and accurate records of diet and 
+nutrient intake. However, weighed records are both labor and cost 
+intensive and place higher burden on participants. Habitual eating 
+habits can be influenced by the process of recording, and the reli-
+ability of the method decreases over long periods of data collection. 
+Collected data are analyzed using a nutritional database such as 
+the Nutrition Data System for Research (University of Minnesota). 
+Several methods of dietary assessment rely on retrospective col-
+lection of food intake. The diet history and food recall are com-
+monly used methods in clinical research, where a trained individual 
+obtains details of participant’s habitual dietary intake in-person or 
+over the phone. Details may include portion sizes, cooking meth-
+ods, and patterns of eating. The techniques allow a large amount 
+of descriptive data to be collected. Most usually, the interviewer 
+incorporates a 24-hour or 3-day window in which detailed recall 
+is obtained. Burden on the participant is low; however, the tech-
+nique involves considerable training and time on the part of the 
+researcher. Recall interviews can sometimes be time-consuming 
+and several recalls may be necessary to obtain useful information. 
+Again, analysis of the collected data using a nutritional database 
+is necessary to get quantitative measures of nutrient and caloric 
+intakes. Food frequency questionnaires (FFQ) are tools that can be 
+self-administered or provided in an interview setting to participants. 
+FFQ collect information about consumption of each food from a
+
+1364
+Toxic Agents
+unit V
+list of foods over a specified period of time (e.g., last 6 months). 
+They are devoid of specific data regarding the portion sizes and 
+cooking method and are not an appropriate method for quantify-
+ing intakes. However, FFQ are useful in gathering information on 
+long-term food patterns, in a low-burden and inexpensive method. 
+Both of these methods are merely estimations and can have signifi-
+cant errors. With the rapid increase in mobile devices and smart-
+phones a number of research and commercial “apps” have been 
+developed to assess and track caloric and nutritional intake by 
+adapting the principles of food diaries and the convenience of digi-
+tally capturing images of meals.
+Assessing Caloric Content of Foods
+Accurate assessment of the caloric value of foods is essential for 
+effective nutritional management in clinical and public policy 
+arenas. Classical investigations by Professor Atwater and his col-
+leagues providing the general calorie factors of 4, 9, and 4 for the 
+major sources of energy—carbohydrate, fat, and protein—have 
+been widely used. Both fats and carbohydrates can be completely 
+oxidized to water and carbon dioxide, while protein is incom-
+pletely oxidized and partly excreted from the body as urea. The 
+heat released by combustion of a food in a bomb calorimeter is a 
+measure of its gross energy. However, not all the ingested energy 
+will be available for metabolism and digestible energy refers to the 
+fraction following losses of energy as fecal energy and gases from 
+microbial fermentation. The truly metabolizable energy can be 
+derived by accounting for lost energy in urine (mainly from nitro-
+gen) and on the body surface. Analytical methods to determine the 
+macronutrients in food, protein, fat, and carbohydrates in ­addition 
+to alcohol and other organic acids have been described widely 
+(Tontisirin et al., 2003). Protein content is mainly determined via 
+estimating nitrogen content by either the Kjeldahl method or hydro-
+lysis of proteins into amino acids and then measuring concentra-
+tions using gas or high-pressure liquid chromatography. Fat ­content 
+can be assessed by measuring the sum of methanol–chloroform 
+extractable total fatty acids that can be expressed as triglyceride 
+equivalents. Total fat can also be assessed by gravimetric methods. 
+Carbohydrate content is generally measured by difference as the 
+remaining energy after accounting for protein, fat, alcohol, and 
+ash. This measure of carbohydrate included energy from fiber as 
+well as some components that may strictly not be carbohydrates 
+(organic acids).
+Assessing Energy Expenditure
+The process of oxidative phosphorylation couples the oxidation 
+of nutrients with the synthesis of high-energy molecules (viz. 
+­adenosine triphosphate [ATP]), the main energy currency of the 
+cell. The energy stored with these molecules is utilized to power all 
+the biochemical processes in cells, which encompass metabolism, 
+growth, and cell division. The total energy expenditure (TEE) or 
+metabolic cost for an average adult ranges from 1500 to 3000 kcal/
+day. A calorie is defined as a unit of energy that is required to raise 
+the temperature of 1 g of water by 1°C. TEE is ­primarily composed 
+of three components: (1) basal energy expenditure, (2)  ­thermic 
+effect of food (TEF), and (3) energy expenditure associated with 
+physical activity (EEPA). While most of the variance in daily 
+TEE is accounted for by the three aforementioned ­components, a 
+small fraction of energy expenditure is accounted for by adaptive 
+­thermogenesis (energetic cost of cold adaptation). Basal energy 
+expenditure, also called as resting energy expenditure (REE), is the 
+energy expended when the individual is lying down and at complete 
+rest, generally after sleep in the postabsorptive state. REE accounts 
+for almost 60% of TEE (Gropper et al., 2005). A close surrogate 
+of REE is the resting metabolic rate (RMR). TEF, which accounts 
+for 10% to 15% of TEE, is the energy expenditure associated with 
+the digestion, absorption, and storage of food. EEPA consists of 
+(1)  expenditure related to planned exercise and (2) nonexercise 
+activity thermogenesis (NEAT). The former refers to purposeful 
+physical activity, which varies in most individuals and is negligible 
+in individuals who do not participate in exercise. However, even in 
+individuals who do undertake regular exercise, NEAT contributes 
+the greater proportion to EEPA. NEAT includes all energy expen-
+diture from occupational and leisure activities (­sitting, climbing 
+stairs, walking, fidgeting, etc.).
+Components of energy expenditure can be measured using 
+either (1) direct or (2) indirect calorimetry. The basic principle in 
+direct calorimetry is to measure the actual heat produced by the 
+organism in a highly controlled environment as an estimate of 
+energy expenditure. In large organisms (such as human subjects) 
+direct calorimetry is generally impractical due to the large inher-
+ent capacity to store heat. Further, due to limitations in the design, 
+complexity, and cost of carrying out direct calorimetry, this meth-
+odology is seldom utilized. The most commonly used methods to 
+estimate energy expenditure, therefore, involve indirect calorimetry. 
+Because most aerobic organisms derive energy from oxidation reac-
+tions, consumption of oxygen can serve as reliable surrogate for 
+heat production. Using experimentally derived estimates for energy 
+yields per mole of oxygen for the main fuel substrates, heat produc-
+tion can be calculated based on the quantity of oxygen consumed. 
+Indirect calorimetry can be coupled with specific tracer techniques 
+to examine the utilization and metabolism of specific substrates in 
+both whole-body and tissue-specific compartments. The ratio of car-
+bon dioxide expired and oxygen consumed is called the respiratory 
+quotient (RQ). RQ estimates can be useful in understanding both 
+energy expenditure and overall substrate oxidation. An RQ value 
+of 1.0 suggests that carbohydrate is being oxidized, because under 
+these conditions the amount of oxygen required for oxidation of 
+glucose is equal to the amount of carbon dioxide produced. The rep-
+resentative average RQ values for carbohydrate, fat, and protein are 
+1.0, 0.7, and 0.8, respectively. Indirect calorimetry can be assessed 
+in animals by placing them in closed chambers in which airflow 
+is controlled at specified flow rates. Oxygen and carbon dioxide 
+concentrations are assessed using gas analyzers to calculate RQ val-
+ues. Specialized chambers that are commercially available integrate 
+measurement of body weights, food and water intake, activity, and 
+oxygen consumption in a single chamber.
+In human subjects, the same principle is utilized to assess 
+oxygen consumption in a variety of designs. A simple metabolic 
+cart can be utilized to assess basal metabolic rate (BMR) in indi-
+viduals over a short 30-minute period while the individual is in the 
+supine position, but not asleep. Estimates of 24-hour RMR can 
+be calculated by extrapolation. Metabolic carts can be adapted to 
+estimate energy expenditure during physical activity such as tread-
+mill running to estimate maximal oxygen consumption (VO2 max). 
+However, these measurements only estimate the REE component of 
+TEE. Room calorimeters allow estimating the true TEE by measur-
+ing oxygen consumption during all aspects of free living, including 
+postmeal thermic expenditure and during physical activity. These 
+studies require the participant to be isolated in a room calorimeter 
+and are expensive to undertake and maintain. Another method to 
+estimate TEE in free-living subjects utilizes measurement of sta-
+ble isotopes 2H2 (deuterium) and 18O. In this technique, referred 
+to as “doubly labeled water,” a stable isotope of water is given to 
+individuals (H2
+18O and 2H2O) and the disappearance of the labeled 
+tracer in blood and urine is assessed over a 3- to 6-week time period.
+
+Toxic Effects of Calories
+Chapter 28
+1365
+The labeled water incorporates into the body water pool and esti-
+mates either the water turnover alone (2H label) or the turnover of 
+water and production of CO2 (18O label). The difference between 
+the two rates of loss of the two labels corresponds to the rate of 
+production of CO2. The amount of oxygen consumed is indirectly 
+calculated via food records (food quotient) over the assessment 
+period. RQ and energy expenditure can then be calculated using 
+the volumes of oxygen and carbon dioxide. RMR estimates can 
+also be calculated nonexperimentally based on derived equations. 
+Equations such as the Harris–Benedict equation and the Mifflin–
+St. Jeor equation utilize the person’s body weight, body surface 
+area, age, gender, and height (Mifflin et al., 1990).
+Assessing Body Composition
+Body composition assessments are aimed at describing the overall 
+mass of an individual organism in terms of its molecular or nutrient 
+components: water, fat mass, lean mass, protein, and minerals. In a 
+simple two-compartment model of body composition assessment, 
+total body mass is divided into fat mass (essential and nonessen-
+tial fat) and fat-free mass (including lean mass and water). Lean 
+mass in this scenario includes protein, carbohydrate, and minerals. 
+A number of techniques have been developed to indirectly assess 
+either specific components or all measures of body composition.
+Anthropometric Analysis  Body mass is an obvious, but poor 
+surrogate to relative fat mass. While individuals with greater body 
+weight (mass) per height tend to have greater fat mass, total body 
+weight may also be determined by increased muscle mass. Taller 
+people on average have greater weight, and weight and/or body 
+composition also change more dynamically with age. Hence, the 
+simplest indirect measure of body fatness is the relative propor-
+tion of weight to height, more commonly referred to as body mass 
+index (BMI). BMI is derived by ratio of mass (in kilograms) and 
+square of height (in meters). The advantage of BMI is that it is easy 
+to compute and large worldwide reference data sets exist. BMI, 
+however, is only an estimate and because BMI does not always 
+reflect fat mass, care must be taken when using BMI as a fat index. 
+Other anthropometric estimates of body composition include 
+­measurement of skin folds and circumference at various sites 
+(abdomen, waist, hip). The general assumption is that total body fat 
+is proportional to the fat deposited beneath the skin. Measurements 
+can be analyzed by utilizing several regression models that predict 
+percent body fat. Five commonly employed sites include triceps, 
+subscapula, suprailiac, abdomen, and thigh. While the technique 
+is inexpensive to perform, sites chosen for analysis and skill of the 
+anthropometrist influence the accuracy of the results.
+Hydrodensitometry  The principle used to calculate body 
+density using hydrostatic weighing has been known since antiq-
+uity when the Greek mathematician Archimedes showed that the 
+density of an object is the ratio of its weight in air to its loss of 
+weight in water. Using the density of the whole body and correct-
+ing for residual air in the lungs and GI tract, the relative body fat 
+can be estimated using derived equations by Siri or Brozek (Nord 
+and Rayne, 1995). This procedure is also known as underwater 
+weighing.
+Air Displacement Plethysmography  This procedure employs 
+the same principles as underwater weighing described above, 
+except rather than the body displacing water, it displaces air. This 
+allows the body volume to be calculated and then body fat can 
+be calculated. This is probably the most accurate, precise, and 
+­cost-effective measure of total body fat, and is employed widely in 
+clinical research in the United States.
+Absorptiometry  This is one of the most widely used tools in 
+assessing body composition. In this technique imaging is performed 
+throughout the entire body by a photon beam. Most investigations 
+using this technique use either a dual-photon source (gadolinium) 
+or x-ray at two different energy levels (dual-energy x-ray absorp-
+tiometry [DXA]). Hence, this allows imaging of both soft tissues 
+and bone. The attenuation of the x-ray signal received on the detec-
+tor is proportional to the density of the tissue. Percentage of body 
+fat, lean tissue, and bone mineral density can be computed for the 
+whole body or specific sites based on the analysis of images.
+Computerized Tomography  While utilizing similar princi-
+ples of differential x-ray attenuation through a body, computer-
+ized tomography is used to produce three-dimensional “slices” 
+or cross-sectional images of the subject. This is made possible by 
+positioning the x-ray source and detectors on opposite poles of a 
+circular tube within which the subject is imaged. The ability to 
+generate 3D images allows regional localization of adipose tissues, 
+muscles, and organs (liver). Using the image data, percent body fat 
+and lean mass can be calculated.
+Nuclear Magnetic Resonance  Nuclear magnetic resonance 
+(NMR) works by interpreting radio-frequency signals of excited 
+nuclei in an external magnetic field. The physical characteristics 
+of the hydrogen atom differ when the hydrogen is located on pro-
+tein, fat, or water and this can be detected and quantitated to deter-
+mine body composition. Magnetic resonance imaging (MRI) is an 
+extremely powerful imaging technique with high-­resolution capacity 
+and employed widely as a clinical diagnostic tool. Images acquired 
+are three-dimensional allowing detailed analysis of body composi-
+tion and regional fat and lean mass distribution with depots and ecto-
+pic deposition within tissues. While MRI has several advantages in 
+terms of assessing the distribution of body fat, its expense relative to 
+NMR makes it less used, and other considerations such as the require-
+ment for the participant to lay still during the scanning period and the 
+extreme noise make MRI less ­applicable than NMR for children.
+Electrical Impedance  Bioelectrical impedance analysis (BIA) 
+and total body electrical conductivity (TOBEC) measure total body 
+composition based on measuring electrical impedance (the inverse 
+of conductance) of an electric current passed through the body. The 
+conductance of a weak painless current through the body (which 
+serves as an electrolytic medium) is utilized to infer lean body mass 
+and fat mass. Lean mass has more water and greater conductivity 
+than fat mass, and predictive equations are employed to derive fat 
+and lean body mass.
+Total Body Water  Body fat and lean mass can be calculated 
+by estimating total body water using stable isotopes. Dilution of 
+water containing specific concentrations of labeled isotope (either 
+deuterium or 18O) is usually assessed. Concentrations of isotopes 
+are measured in blood or urine over a timecourse following a 2- to 
+6-hour equilibration period. Because body water occupies 73.2% of 
+lean mass, fat-free mass can be computed based on total body water. 
+Using a three-compartment model fat mass can be ­calculated. 
+The method is significantly influenced by hydration status and 
+­assumptions are confounded by water present in fat tissue. While 
+the cost of chemicals and collection of samples is not high, analysis 
+of ­stable isotopes can be expensive.
+Assessing Physical Activity
+Accurate quantification of physical activity in free-living subjects 
+is challenging. Methods utilizing self-reported diaries and ques-
+tionnaires tend to overestimate physical activity. Devices such as
+
+1366
+Toxic Agents
+unit V
+accelerometers and pedometers can be utilized to empirically esti-
+mate activity. Accelerometers are versatile and cost-effective and 
+can measure activity with little subject burden. Existing acceler-
+ometers and wearable fitness trackers come in varying degrees of 
+sophistication from simple pedometers that count steps to models 
+that can assess motion in three dimensions. An important chal-
+lenge in utilizing accelerometers is to convert the count data into 
+energy expenditure, which is done using different regression mod-
+els. A widely used and lay-friendly translatable “unit” of ambu-
+latory physical activity is the number of steps in a unit of time 
+(steps/day).
+BIOLOGY OF OBESITY
+Obesity Risk: Genes, Epigenetics,  
+and Fetal Environment
+Access to plentiful food has been unpredictable throughout most 
+of human (and animal) developmental history, marked by periods 
+of feast or famine. In evolutionary terms, fitness and survival of an 
+individual were likely to be closely related to the ability to maxi-
+mally seek, acquire, consume, and store energy (as fat) when food 
+was available, and to select for mechanisms that reduce energy 
+expenditure during times when food is scarce. Thus, selection 
+favored so-called thrifty genes that orchestrate anabolic processes 
+over energy-consuming ones and provide selective advantage to 
+those who possessed them during periods of food deprivation (Neel, 
+1962). However, the advent of agrarian lifestyle and recent indus-
+trialization has meant that much of the developed and emerging 
+world now has a drastically altered environment. Food is generally 
+available for most people and our lifestyles require less physical 
+activity and exertion. Hence, the genetic legacy of once beneficial 
+thrifty genes placed in an environment of caloric abundance acts 
+as a powerful engine for weight gain, obesity, and its associated 
+metabolic dysfunction.
+Recently, questions have been raised whether the selection of 
+thrifty genes occurred because of a true advantage contributing to 
+survival. Speakman has proposed that natural variation and random 
+mutation (genetic drift) in genes controlling hypothalamic energy 
+balance set-points occurred in human evolution as human beings 
+developed fire and social behaviors, and were released from risk of 
+predation. This theory, referred to as the “drifty gene” hypothesis, 
+better explains why even in societies where obesity is high, not 
+everyone becomes obese (Speakman, 2008). Obesity is a highly 
+heritable trait and studies comparing monozygotic with dizygotic 
+twins indicate that 40% to 75% of the interindividual difference in 
+trait is accounted for by genetic variability. Several genes whose 
+disruption causes severe monogenic forms of familial obesity have 
+been described. Remarkably, most of these genes impair central 
+control of food intake. However, the genetic basis of nonsyndromic 
+(common) obesity has remained elusive.
+Recent genome-wide association studies (GWAS) have 
+been highly effective in identifying common genetic variants that 
+impact adiposity and other aspects of the metabolic syndrome 
+(MetS). To date 50 such obesity-associated loci have been iden-
+tified with high confidence (O’Rahilly and Farooqi, 2008). Of 
+these the FTO (fat mass and obesity associated) is unequivocally 
+associated with increased risk of obesity. Individuals who are 
+homozygous for the high-risk (AA) allele weigh on average 3 kg 
+more than individuals who do not carry any risk allele. New meta-
+analysis of GWAS including about 250,000 subjects has revealed 
+18 novel loci associated with BMI. Overall, the presently identi-
+fied loci in combination still explain only a small proportion of 
+obesity. Epigenetic regulation of gene expression is another area 
+that might explain the underlying differences in susceptibility 
+to obesity. Epigenetics is loosely defined as heritable changes in 
+­modifications to the DNA that do not alter the DNA sequence. 
+DNA ­methylation, ­covalent ­modification of histone tails that affect 
+chromatin structure and accessibility, and regulation via noncoding 
+RNAs are examples of epigenetic regulation. It is clear that epigen-
+etic mechanisms are involved in basic cell functions including pro-
+liferation, ­differentiation, and growth. Because DNA methylation 
+and histone modifications can also be affected by environmental 
+influences (in utero environment, exposure to xenobiotics, stress), 
+it is plausible that interaction of certain risk alleles and epigenetic 
+mechanisms are responsible for susceptibility to obesity.
+The incidence of obesity continues to rise and prevalence even 
+among infants is rapidly rising. As for many chronic diseases, it is 
+now widely accepted that increased susceptibility to obesity can 
+be programmed in utero and early postnatal life. This hypothesis 
+referred to as the “developmental origins of health and disease” is 
+derived from the findings by Professor David Barker and colleagues 
+at the University of Southampton, who discovered an inverse rela-
+tionship between birth weight and risk of mortality due to coronary 
+heart disease (Barker et al., 1989). Over the last two decades, epi-
+demiological studies have extended the initial associations between 
+birth weight and later cardiovascular disease to include associations 
+between early growth patterns and risk for hypertension, insulin 
+resistance, type 2 diabetes, and obesity in later life. Experimentally 
+manipulating birth weights in a variety of animal models (rats, mice, 
+sheep, pigs) also recapitulates the developmental programming 
+phenotype (McMillen and Robenson, 2005). Another important 
+influence on risk of obesity in later life is maternal body composi-
+tion (fat mass) at conception and gestational weight gain. Studies 
+in women and experimental models clearly indicate that maternal 
+diet and body composition during pregnancy influence aspects of 
+metabolism and appetite regulation in the offspring (Shankar et al., 
+2008). The mechanisms of such programming presumably involve 
+epigenetic mechanisms.
+TOXICITY RELATED TO EXCESS CALORIC 
+INTAKE/OBESITY
+Many of the adaptive, physiological responses to a positive energy 
+balance produced as a result of overeating and inadequate physical 
+activity result in toxicity over the long term. Short-term coordinated 
+changes in metabolic pathways in white adipose tissue in response 
+to overfeeding result in excess energy storage in the form of triglyc-
+erides and increased size of preexisting adipocytes (hypertrophy), 
+and this also leads to formation of new adipocytes through hyper-
+plasia (Virtue and Vidal-Puig, 2010). However, management of 
+excess ingested energy over the long term can be complex. Under 
+such conditions, the efficiency of energy storage in adipose tissue is 
+decreased and the body has to resort to several different options to 
+store energy in addition to fat, such as in ectopic sites, which may 
+in fact be detrimental. As plasma concentrations of nonesterified 
+fatty acids (NEFA) increase as a result of ingestion of high-fat diets 
+and as a result of hydrolysis of triglycerides in the fat, triglycerides 
+begin to accumulate in nonadipose tissues such as the liver, skeletal 
+muscle, and the pancreas as lipid droplets. The presence of excess 
+NEFA and lipid metabolites in these tissues results in direct and 
+indirect toxic actions leading to insulin resistance, inflammation, 
+and tissue damage.
+In addition, adipose tissue from obese individuals releases 
+chemokines and cytokines, the so-called adipokines, which con-
+tribute to a state of “metabolic inflammation” (Dulloo et al., 2010;
+
+Toxic Effects of Calories
+Chapter 28
+1367
+Gustafson, 2010). Fat is also an endocrine organ and the pattern of 
+adipokines produced by adipose tissue in obesity differs substan-
+tially from that seen in lean individuals (Cornier et al., 2008).
+NEFA and the other factors released from adipose tissue con-
+tribute to the development of the metabolic syndrome (MetS) in 
+some overweight and obese individuals. This is a cluster of com-
+ponents including insulin resistance, disruptions in lipid homeosta-
+sis (dyslipidemia), and elevated blood pressure that substantially 
+increase the risk for development of cardiovascular disease and type 
+2 diabetes. MetS is also associated with other comorbidities includ-
+ing nonalcoholic fatty liver disease (NAFLD) and reproductive 
+dysfunction and elevated serum insulin in response to insulin resis-
+tance contributes to increased cancer risk associated with ­obesity. 
+As a consequence, overall mortality is increased and life span is 
+shortened with increasing caloric intake, body weight, and adipos-
+ity, whereas caloric restriction (CR), at least in animal models, has 
+been shown to substantially increase life span.
+Adaptation of Liver and Adipose Tissue 
+to Excess Calories
+Triglycerides and glycogen are used by the body to store excess 
+caloric energy. This is a homeostatic mechanism that maintains 
+energy sources such as blood glucose levels between meals. Dietary 
+fats are transported in blood from the gut to the liver and adipose 
+tissue by lipoprotein particles called chylomicrons. In both tissues, 
+local hydrolysis of triglycerides in the capillary bed by the enzyme 
+lipoprotein lipase results in the release of free fatty acids that are 
+subsequently taken up into hepatocytes and adipocytes via fatty 
+acid transport proteins (FATPs) and the scavenger receptor CD36. 
+As they enter the cell, free fatty acids that are toxic are immediately 
+conjugated with acetyl CoA and are bound to intracellular fatty 
+acid–binding proteins before reesterification with glycerol to form 
+triglyceride lipid droplets in the cytosol. Such droplets are highly 
+dynamic and are coated with PAT proteins (named after perilipin, 
+adipophilin, and the tail-interacting protein). Adipophilin and per-
+ilipin have important roles in droplet stabilization and regulation 
+of triglyceride turnover. The hepatocyte cytosol contains many 
+small droplets that vary in size depending on the length of time 
+after a meal, dietary fat to carbohydrate ratio, type of dietary fat, 
+and overall caloric intake relative to metabolic requirements. The 
+small hepatic lipid droplets function as a temporary energy storage 
+site, whereas in adipocytes the small lipid droplets fuse to form a 
+single large storage droplet and can serve as a longer-term storage 
+site. In the hours after a meal, triglycerides from the hepatic drop-
+lets are incorporated into the lipoprotein VLDL, which is secreted 
+into the plasma and which transports hepatic triglycerides to the 
+adipose tissue for storage. Removal of triglycerides from VLDL 
+by lipoprotein lipase in adipose and other peripheral tissues results 
+in generation of the more dense lipoprotein LDL, which is subse-
+quently recycled by the liver as a result of endocytosis on binding 
+to the LDL receptor (Olson, 1998).
+Obesity is often associated with consumption of high-fat diets. 
+In addition to being more energy dense, recent studies have sug-
+gested that, at least in part, the obesogenic effects of these diets 
+stem from changes in composition of the gut microbiota (Shen 
+et al., 2014). Transplantation of gut microbiota from donor mice 
+made obese by high fat feeding into germ-free mice has been shown 
+to increase adiposity in these mice relative to mice receiving gut 
+microbes from lean mice. Decreases in populations of Bacteroidetes 
+and increases in populations of Firmicutes in the gut of obese ani-
+mals change the spectrum of microbial fermentation products, 
+which may in turn change energy harvest and expenditure, alter 
+satiety signals such as the gut peptides YY or ghrelin, and impact 
+insulin action through changes in synthesis of the gut peptide, glu-
+cagon-like peptide (GLP-1). In addition, increased bacterial synthe-
+sis of short-chain fatty acids (SCFA) may increase obesity as they 
+are substrates for lipid synthesis.
+However, obesity can also develop from excessive caloric 
+intake of any food energy source, including carbohydrates and 
+proteins. Although overall consumption of dietary fat has declined 
+in the United States over the past two decades, the proportion 
+of obesity has increased to epidemic levels. In part, this is due 
+to excessive intake of simple carbohydrates that have increased 
+as dietary fat consumption has decreased. Dietary carbohydrates 
+are converted to monosaccharides, mainly glucose and fructose, 
+which are further metabolized in the liver and peripheral tissues. 
+Excess glucose can be stored in the liver in the form of the glucose 
+polymer glycogen that accumulates as cytosolic granules and can 
+make up as much as 7% of liver weight. However, the majority of 
+excess hepatic glucose is metabolized via glycolysis and the citric 
+acid cycle to acetyl CoA and is shunted into de novo fatty acid and 
+triglyceride synthesis.
+Recent DNA microarray analysis of gene expression in 
+human adipose tissue biopsies suggests that coordinated upregu-
+lation of lipogenesis occurs in fat rapidly and directly as a result 
+of increased caloric intake independent of changes in body weight 
+(Franck et al., 2011). Evidence for increases in adipose tissue glu-
+cose transport, and fatty acid and triglyceride biosynthesis has also 
+been obtained from microarray analysis of fat from rats overfed 
+a mixture of simple carbohydrates and fat (Shankar et al., 2010). 
+The increase in triglyceride synthesis in both the liver and fat after 
+consumption of excess calories appears to be driven by activation 
+of two important diet-sensitive transcription factors: sterol regu-
+latory element–binding protein 1c (SREBP-1c) and carbohydrate 
+response element–binding protein (ChREBP) (Postic and Girard, 
+2008), and this process in fat ultimately drives adipose tissue hyper-
+trophy. In addition to fat cells getting larger, excess calories also 
+trigger ­proliferation and differentiation of preadipocytes in adipose 
+tissue depots into new adipocytes, a process known as hyperplasia. 
+However, the degree to which hyperplasia contributes to the ability 
+of fat stores to expand in response to the need to store excess energy 
+relative to hypertrophy remains unclear.
+What is clear is that in some individuals, there is a limit to 
+which adipocytes can expand safely and that when this limit is 
+reached, toxicity results. This limit appears to depend on which 
+fat depot the adipocytes are in. Subcutaneous adipocytes can attain 
+a greater size than adipocytes in visceral fat and this may explain 
+why metabolic dysfunction and diseases such as type 2 diabetes 
+are linked to visceral adiposity. Hypertrophic adipocytes develop 
+ultrastructural abnormalities including calcium accumulation and 
+cholesterol crystals and show evidence of oxidative and endo-
+plasmic reticulum (ER) stress ultimately leading to cell death and 
+release of intracellular components that can serve as metabolic 
+damage–­associated molecular patterns (DAMPs) (Giordano et al., 
+2013; Khan and Wang, 2014). Recent data from high fat-induced 
+obese mice suggest that DAMP release from dying adipocytes 
+results in activation of the Nod-like receptor NLRP3 inflamma-
+some in remaining hypertrophic adipocytes. This amplifies obese 
+adipocyte cell death by pyroptosis, a form of proinflammatory 
+programmed cell death mediated via NLRP3-dependent caspase 1, 
+and also results in a sterile inflammatory response characterized by 
+­activation of interleukin 1β (Giordano et al., 2013). Macrophage 
+infiltration of metabolically stressed adipose tissue to remove cell 
+debris associated with adipocyte death results in further inflam-
+mation and the formation of characteristic crown-like structures.
+
+1368
+Toxic Agents
+unit V
+When fat mass increases excessively, adipose tissue also 
+undergoes extensive structural remodeling. An extracellular matrix 
+(ECM) with high concentrations of collagen fibrils and fibronectin 
+appears to be essential for maintenance of the structural integrity 
+of adipocytes and for preadipocyte differentiation (Divoux and 
+Clement, 2011). However, at the point when adipocytes reach a 
+certain size limit within a particular fat pad, hypoxia appears to 
+develop possibly as a result of restricted blood flow. This triggers 
+expression of the transcription factor hypoxia-inducible factor 1α 
+(HIF-1α). Evidence from HIF-1α transgenic and knockout mice 
+suggests that HIF-1α regulates inappropriate ECM remodeling and 
+development of fibrosis in adipose tissue in response to hypoxia 
+and obesity (Halberg et al., 2009). Fibrosis has been reported to 
+be increased in subcutaneous adipose tissue from obese subjects 
+compared with lean subjects both by staining of collagen fibrils and 
+by analysis of col6a3 gene expression. The percentage of fibrosis 
+in white adipose tissue has further been shown to correlate with 
+inflammation in morbidly obese subjects (Divoux and Clement, 
+2011). Further evidence linking adipose tissue ECM with limita-
+tions in the ability of fat pads to expand to store excess caloric 
+energy and for limited adipocyte hypertrophy to precede the devel-
+opment of obesity-linked pathologies such as inflammation and 
+MetS comes from studies with mice in which genes involved in 
+ECM formation have been knocked out. The protein SPARC is 
+required for appropriate collagen synthesis during ECM remod-
+eling. Both SPARC–/– mice and obesity-prone ob/ob mice where 
+the collagen VI gene has been deleted display increased adipocyte 
+and fat pad size, loose ECM structure, and reduced inflammation 
+and metabolic disturbances after high-fat feeding. It is thought that 
+complex interactions between enlarging adipocytes and a fibrotic 
+ECM trigger activation of MAP kinase pathways such as c-Jun 
+N-terminal kinase (JNK) resulting in development of adipocyte 
+insulin resistance (Divoux and Clement, 2011) (see Fig. 28-1).
+Ectopic Fat Deposition
+In general, there is a positive correlation between increased BMI and 
+inappropriate accumulation of lipids in tissues other than fat. The 
+major sites for this ectopic fat deposition are the liver and ­skeletal 
+muscle. However, lipid accumulation in other tissues such as small 
+intestine, pancreas, and uterus has also been reported to be associated 
+with chronic consumption of high-fat diets and ­development of obe-
+sity. Correlation between central (visceral) adiposity, waist circum-
+ference, and ectopic fat deposition is better than for BMI and is also 
+highly correlated with progressive insulin resistance. However, the 
+relationship between adiposity, ectopic fat accumulation in the liver 
+and muscle, and insulin resistance is highly ­complex and is strongly 
+affected by diet composition, ­exercise, and race (Lara-Castro and 
+Garvey, 2008).
+In the liver, intrahepatocellular lipid accumulation, also known 
+as fatty liver, or steatosis, is defined as an increase in hepatic lipid 
+content above 5% by weight and is characterized in paraffin-stained 
+sections by the appearance of multiple round empty vacuoles in hepa-
+tocytes displacing the nucleus to the periphery of the cell. To confirm 
+that steatosis is actually present, additional staining of frozen sections 
+for triglycerides using stains such as Oil Red O is required. Abnormal 
+Lean fat
+Excess calories
+Triglyceride synthesis,
+hypertrophy hyperplasia,
+hypoxia, matrix production,
+macrophage accumulation, and
+activation
+Thiazolidinediones
+(PPARγ activation)
+Excess calories
+Lean fat
+SPARC–/–, HIF-1α–/–, Coll 6–/– Mice
+Obese fat
+Pyroptosis
+Metabolic syndrome
+NEFA
+Chemokines (MIP-1)
+Cytokines (TNF-α, IL-6)
+Inﬂammasome activation
+(IL-1β)
+Adipokines
+(increased leptin,
+resistin, decreased
+adiponectin)
+Increased weight gain
+Normal metabolism
+Obese fat
+Size limited adipocyte
+surrounded by ﬁbrous matrix
+Activated macrophage
+Enlarged adipocyte surrounded
+by disorganized matrix
+Triglyceride synthesis,
+hypertrophy hyperplasia,
+blockage of hypoxia, or
+matrix production
+Figure 28-1.   Effects of excess calories (energy) on fat morphology under conditions leading to metabolic syndrome (left) or following stimulation of ­adipocyte 
+differentiation and hyperplasia by thiazolidinedione treatment/in knockout mice incapable of normal responses to hypoxia (HIF-1α–/–)/in knockout mice 
+­incapable of normal extracellular matrix production (SPARC–/–, Coll 6–/–) (right).
+
+Toxic Effects of Calories
+Chapter 28
+1369
+lipid accumulation in the liver in the absence of heavy alcohol usage 
+is referred to as nonalcoholic fatty liver disease (NAFLD) and is 
+associated with a wide spectrum of hepatic dysfunction. The inci-
+dence of NAFLD in the general population including children has 
+increased in line with increasing incidence of obesity and is observed 
+in more than 50% of adult obese patients (Browning et al., 2004). 
+Simple steatosis is generally reversible with weight loss and/or life-
+style modification (diet and exercise). However, a small proportion 
+of patients progress to more severe liver pathologies (see the section 
+“Nonalcoholic Steatohepatitis” later in this chapter). Hepatic lipid 
+accumulation can occur as a result of one or more of the following: 
+(1) increased fatty acid supply to the liver and increased fatty acid 
+transporter expression; (2) increased de novo fatty acid and triglyc-
+eride synthesis; (3) decreased fatty acid oxidation; and (4) decreased 
+synthesis and/or secretion of VLDL. Which of these processes pre-
+dominates depends on the degree of obesity, total caloric intake, 
+and diet composition. As the capacity of adipose tissue to expand is 
+compromised with increasing BMI and insulin resistance develops 
+in adipocytes, there is an increase in plasma nonesterified free fatty 
+acids (NEFA) as a result of increased hydrolysis of triglycerides in fat 
+by two enzymes—hormone-sensitive lipase and adipose triglyceride 
+lipase. Increased hepatic exposure to NEFA derived from adipose 
+tissue or from dietary fats has been reported to increase fatty acid 
+transporter expression in hepatocytes (Baumgardner et al., 2008a; 
+Marecki et al., 2011). In contrast, excess calories in the form of 
+simple carbohydrates results in increased de novo hepatic fatty acid 
+synthesis (Shankar et al., 2010). The type of dietary fat can also influ-
+ence the development of steatosis. For example, it has been shown 
+that saturated and polyunsaturated fatty acids can interfere with 
+VLDL secretion relative to monounsaturated fatty acids via differ-
+ent mechanisms; while polyunsaturated fatty acids provoke oxidative 
+stress and degradation of ApoB100 in hepatocytes, saturated fatty 
+acids appear to block VLDL secretion via stimulation of an unfolded 
+protein response and ER stress (Pan et al., 2004; Caviglia et al., 
+2011). In addition to increased NEFA, adipose tissue inflammation 
+also appears to significantly contribute to development of NAFLD. 
+Positive correlations have been reported between expression of mac-
+rophage markers in adipose tissue and liver fat content independent 
+of total fat mass (Lara-Castro and Garvey, 2008).
+Moreover, disrupted adipokine secretion also plays a role. The 
+adipokine adiponectin acts on the liver to inhibit fatty acid synthesis 
+and increase fatty acid degradation through activation of the AMP 
+kinase cascade, downstream inhibition of SREBP-1c, and activa-
+tion of the transcription factor peroxisome proliferator–activated 
+receptor α (PPARα). Reduced serum concentrations of adipokine 
+adiponectin that accompany development of obesity will result in 
+increased hepatic fatty acid synthesis and reduced fatty acid deg-
+radation and thus contribute to development of steatosis (Shankar 
+et al., 2010).
+The other major site of ectopic fat deposition in obesity is skel-
+etal muscle in the form of intramyocellular lipid (IMCL). Skeletal 
+muscle contains an intracellular pool of stored triglyceride that 
+exchanges with circulating free fatty acids. Although older meth-
+ods such as biochemical extraction and computer tomography scans 
+could quantitate muscle tissue triglycerides, more recent approaches 
+such as Oil Red O staining of frozen sections and proton NMR 
+spectroscopy are capable of quantifying IMCL distinct from extra-
+myocellular fat in muscle tissue. Using these methods, IMCL has 
+been shown to positively correlate with visceral adiposity. Various 
+mechanisms have been proposed to underlie accumulation of IMCL 
+in obesity. In adults it has been suggested that changes in intracel-
+lular distribution of the fatty acid transporter CD36 from soluble 
+to membrane-associated pools are responsible for increased import 
+of NEFA and triglyceride accumulation (Nickerson et al., 2007). 
+In contrast, data from a pediatric model of obesity demonstrated 
+increased CD36 mRNA and protein expression in skeletal muscle 
+associated with appearance of IMCL (Marecki et al., 2011).
+Metabolic Syndrome
+The development of central obesity as a result of overnutrition and 
+a sedentary lifestyle leads to a clustering of metabolic and physi-
+ological components in some individuals that is associated with 
+a doubling of cardiovascular disease risk and a fivefold increase 
+in incidence of type 2 diabetes originally described as “syndrome 
+X” by Reaven (1988) or “insulin resistance syndrome” and more 
+recently as metabolic syndrome (MetS) (Cornier et al., 2008). 
+Although the definition of MetS differs by health agency, all tend 
+to agree that the core components include central obesity (waist 
+circumference), insulin resistance (increased fasting glucose above 
+100 mg/dL and increased fasting insulin, as a result of impaired 
+glucose uptake into skeletal muscle/fat and increased glucose out-
+put by the liver, resulting from end-organ insensitivity to insulin), 
+dyslipidemia (decreased serum HDL below 40 mg/dL in men and 
+50 mg/dL in women, and increased serum triglycerides above 150 
+mg/dL), and hypertension (blood pressure higher than 130/85). The 
+worldwide incidence of MetS is increasing rapidly with the obe-
+sity epidemic and is influenced by sex, age, and ethnicity. In the 
+United States, prevalence of MetS is around 30% with higher rates 
+in Mexican Americans than in white non-Hispanics and African 
+Americans and increases with age into the sixth decade. Although 
+there are no established criteria for MetS in children and adoles-
+cents and prevalence values depend on age, population studied, 
+and definition, among adolescents, overall incidence has been esti-
+mated to be 4.2% rising to 28.7% in those classified as obese (Cook 
+et al., 2008).
+Although there does not appear to be a common unifying 
+pathophysiological cause for all components of MetS, central obe-
+sity and insulin resistance appear to be the major drivers of this 
+condition. The majority of obese individuals are insulin resistant 
+but the correlation between obesity and insulin resistance is better 
+for abdominal obesity/waist circumference than it is for overall BMI 
+and better for whites than for African Americans. Moreover, weight 
+loss following the feeding of low-calorie diets or following bariatric 
+surgery rapidly leads to marked improvements in insulin sensitivity. 
+However, the relationship between obesity and whole-body insulin 
+resistance is not direct but appears to be mediated through increased 
+circulating fatty acids and ectopic fat deposition particularly in 
+intramyocellular lipid (IMCL) in skeletal muscle (Fig. 28-2). 
+Consumption of a very low calorie diet in obese subjects for as little 
+as 5 days has been shown to produce marked decreases in IMCL 
+and enhanced insulin sensitivity without significant changes in 
+body fat mass (Lara-Castro et al., 2008). It has been suggested that 
+reductions in glucose import into skeletal muscle with IMCL result 
+from inhibition of translocation of the glucose transporter GLUT-4 
+from cytosolic- to membrane-associated compartments through the 
+action of IMCL metabolites such as diacylglycerol, long-chain fatty 
+acid CoAs, ceramides, and oxidized lipids (Pan et al., 1997). Insulin 
+resistance in muscle is accompanied by evidence of impaired mito-
+chondrial function. However, it is unclear if this is a consequence of 
+or contributor to IMCL (Lara-Castro and Garvey, 2008). Reduced 
+glucose transport also occurs in insulin-resistant adipose tissue 
+itself, and the negative effects of obesity are exacerbated because 
+reduced insulin signaling in adipocytes also enhances expression 
+of hormone-sensitive and adipose triglyceride lipases to further 
+increase the release of NEFA (Cornier et al., 2008).
+
+1370
+Toxic Agents
+unit V
+The relationship between liver steatosis and hepatic insulin 
+resistance is less clear and the question of whether NAFLD is a 
+cause or a consequence of hepatic insulin resistance remains unre-
+solved (Cohen et al., 2011). Insulin resistance in the liver leads to 
+excess glucose production as a result of a reduced ability of insu-
+lin to suppress the gluconeogenic enzyme phosphoenolpyruvate 
+carboxykinase (PEPCK). This contributes to systemic hypergly-
+cemia and increased pancreatic insulin production. Insulin resis-
+tance and steatosis are strongly correlated and interventions that 
+lead to lower plasma insulin levels also decrease liver triglyceride 
+content. Moreover, patients producing hepatic insulin as a result 
+of metastatic insulin-secreting tumors develop steatosis in the sur-
+rounding hepatocytes. However, the suggestion that steatosis causes 
+hepatic insulin resistance is contradicted by data from genetically 
+manipulated mouse models where reduced fatty acid mobilization, 
+reduced fatty acid oxidation, and defective choline synthesis are all 
+associated with development of steatosis, but where hepatic insulin 
+sensitivity is maintained (Cohen et al., 2011).
+The dyslipidemia associated with MetS is thought to be a direct 
+consequence of increased VLDL secretion by the liver. Increased 
+serum triglycerides are generally associated with a change in HDL 
+size and lipid composition, and reduction of serum HDL concentra-
+tion as a result of increased clearance via the kidney. Several different 
+mechanisms have been proposed to explain the rise in blood pressure 
+associated with MetS. Insulin acts both directly as a vasodilator and 
+secondarily to increase sodium resorption from the kidney. Evidence 
+suggests that under conditions of insulin resistance, the vasodilatory 
+effects of insulin are lost while the renal effect on sodium resorp-
+tion is maintained. In addition, fatty acids can act directly to medi-
+ate vasoconstriction and both fatty acids and insulin can increase 
+the activity of the sympathetic nervous system. Adipokines, such as 
+leptin and resistin, have also been implicated in the pathogenesis of 
+obesity-associated hypertension (Cornier et al., 2008).
+Therapeutic Options for Managing 
+Metabolic Syndrome
+Because it is unclear that there is a unifying mechanism underly-
+ing the constellation of metabolic and physiological abnormalities 
+that make up MetS, management can be problematic. Lifestyle 
+modifications in the obese, including diets producing stable weight 
+loss and long-term increased physical activity or bariatric surgery 
+(discussed in the section “Surgical Interventions” later in this 
+­chapter), are of benefit in treating all the components of MetS, but 
+suffer from limited compliance and significant risk of complica-
+tions in the case of surgery. Therefore, routine clinical manage-
+ment of MetS has focused on pharmaceutical therapies for insulin 
+­resistance/hyperglycemia, dyslipidemia, and hypertension to reduce 
+the risks of cardiovascular disease and type 2 diabetes.
+Several classes of drugs are used to target insulin resistance. 
+Metformin acts on the liver to reduce hepatic glucose production 
+as a result of activation of the AMP kinase pathway (Boyle et al., 
+2010). Moreover, metformin is relatively nontoxic and has been 
+shown to reduce progression from hyperglycemia to type 2 dia-
+betes and the incidence of cardiovascular disease (Knowler et al., 
+2002; Ratner et al., 2005). Thiazolidinediones such as pioglitazone 
+and rosiglitazone also improve insulin sensitivity and slow pro-
+gression of diabetes in about 50% of patients as a result of activa-
+tion of the transcription factor PPARγ in extrahepatic tissues and 
+increasing circulating levels of adiponectin (Gerstein et al., 2006; 
+Cho and Momose, 2008). However, increased insulin ­sensitivity 
+is associated with an expansion of adipose tissue and significantly 
+increased body weight because PPARγ regulates adipocyte dif-
+ferentiation. Moreover, a recently discovered adverse effect of 
+thiazolidinediones is increased bone loss and an increased risk of 
+osteoporosis; PPARγ activation in bone inhibits osteoblastogenesis 
+and ­stimulates accumulation of fat cells in bone marrow (Lecka-
+Czernik, 2010). Additional concerns have been raised regarding 
+potential for increased cardiovascular problems in patients taking 
+rosiglitazone (Palee et al., 2011).
+Dyslipidemia associated with MetS is a major modifiable risk 
+factor for cardiovascular disease. Increased triglycerides and low 
+HDL levels are often accompanied by increased total and LDL 
+cholesterol and LDL is a primary target for cholesterol-lowering 
+therapy. Standard first-line therapy is statin inhibitors of 3-hydroxy-
+3-methylglutaryl coenzyme A (HMG-CoA), the rate-limiting step 
+in cholesterol biosynthesis, such as atorvastatin (Lipitor®). These 
+compounds improve overall lipid profiles by decreasing LDL con-
+centrations 20% to 40%, increasing HDL 5% to 10%, and decreas-
+ing triglycerides 7% to 30% (McFarlane et al., 2002). Although 
+NEFA
+Obese fat
+Liver
+Glucose
+Adipokines
+Glucose
+Size limited adipocyte surrounded by ﬁbrous matrix
+Activated macrophage
+Lipid droplet
+Pancreas
+Insulin
+Insulin
+Skeletal muscle
+NEFA
+NEFA
+Cytokines
+Cytokines
+Blood vessels
+Hypertension
+Cytokines
+VLDL
++
++
++
++
++
++
++
+C-reactive protein
+Sympathetic
+tone
+↓ HDL
+Figure 28-2.   Pathogenesis of metabolic syndrome.
+
+Toxic Effects of Calories
+Chapter 28
+1371
+generally well tolerated, atorvastatin results in muscle or joint pain 
+in 5% of patients. Muscle pain can be an indication of rhabdomy-
+olysis (muscle breakdown). In addition, liver injury as indicated 
+by elevated serum values of liver enzymes such as alanine amino-
+transferase (ALT) has been reported in some users (Bakker-Arkema 
+et al., 1996). Statins are often used in combination with ezetimibe or 
+niacin to further reduce LDL and triglycerides and raise HDL lev-
+els. In addition to statins, high doses of 2 to 4 g of fish oil omega-3 
+fatty acids such as eicosapentaenoic acid (EPA) and docosahexae-
+noic acid (DHA) have been shown to reduce serum triglycerides by 
+20% to 40% (Cornier et al., 2008).
+Control of hypertension is also the key to prevention of cardio-
+vascular events. Many antihypertensive drugs are available and are 
+taken chronically. The most commonly prescribed are adrenergic 
+β-blockers, which inhibit sympathetic inputs to reduce cardiovas-
+cular output and slow heart rate. Despite substantial decreases in 
+systolic and diastolic blood pressure, long-term prospective stud-
+ies suggest that treated hypertensive men continue to have a much 
+greater risk of stroke and coronary heart disease than normotensive 
+men of the same age in the second decade of treatment (Deshmukh 
+et al., 2008). This may be due to metabolic side effects, particularly 
+increased serum triglycerides and lowering of HDL. In addition, 
+diuretics are often given in combination with β-blockers. This can 
+result in reductions of serum potassium and increased occurrence of 
+gout in patients with marginal uric acid concentrations. Other front-
+line antihypertensive drugs are the angiotensin-converting enzyme 
+(ACE) inhibitors. ACE inhibitors work on the renin–angiotensin 
+system by preventing the conversion of angiotensin I to angiotensin 
+II and reducing production of the hormone aldosterone. Aldosterone 
+acts to reduce sodium and water excretion and is a direct vasocon-
+strictor. ACE inhibitors reduce arteriolar resistance, increase venous 
+capacity, and increase cardiac output while increasing sodium excre-
+tion. ACE inhibitors in general have favorable effects on lipid profile.
+Data linking obesity development and MetS with dysbiosis 
+of the gut microbiota have resulted in increasing interest in the 
+use of probiotics as a potential therapeutic option. Recent stud-
+ies of probiotic supplementation with a highly proliferative strain 
+of Bifidobacterium animalis spp. lactis in mice fed high-fat diets 
+resulted in reduced visceral fat accumulation and improved glucose 
+tolerance associated with increased levels of the most abundant 
+bacterial short-chain fatty acids (SCFA), acetate, and an increase 
+in levels of glucagon-like peptide 1 (GLP-1) in both the gut and 
+the plasma. Acetate has been implicated in the protective effects 
+of probiotics. It has been shown to bind to a G protein–coupled 
+receptor GPR43 to inhibit fat accumulation in adipocytes, to poten-
+tiate pancreatic β-cell function, and to reduce appetite via a central 
+hypothalamic mechanism (Aoki et al., 2017).
+Nonalcoholic Steatohepatitis
+As described above, ectopic fat deposition in the liver is strongly 
+correlated with obesity and insulin resistance. Although NAFLD is 
+not considered a core symptom of MetS, it is often a comorbidity. 
+Fatty liver is very common being found in 30% of autopsies and 
+in more than 80% of the obese. However, for reasons that remain 
+unclear, in the majority of cases, steatosis is reversible and rela-
+tively asymptomatic. The disease progression of NAFLD begins 
+with simple steatosis which progresses to nonalcoholic steatohepa-
+titis (NASH), which is characterized by cell death, inflammation, 
+and fibrosis, then to cirrhosis in which liver function is significantly 
+impaired, and ultimately to hepatocellular carcinoma (Cohen et al., 
+2011) (Fig. 28-3). Only about 30% of individuals with NAFLD 
+show evidence of progression of pathology to NASH, and of these 
+only 20% to 30% progress further to cirrhosis within 10 years. Of 
+those with NASH-induced cirrhosis, 4% to 27% ultimately develop 
+liver cancer. NASH was first described by Ludwig et al. (1980) in 
+a group of obese adults without a history of alcohol abuse and has 
+increased in prevalence with the obesity epidemic to about 2% to 
+3% of the U.S. population. It is also increasingly observed in the 
+pediatric population including cases in children as young as 2 years 
+of age (Loomba et al., 2009). Although steatosis can be diagnosed 
+noninvasively using ultrasound or imaging, improved methods for 
+early detection of NASH are urgently required. Although elevated 
+serum ALT values increase the likelihood of NASH, up to 59% of 
+Obese fat
+Gut microbiota
+dysbiosis, leakage
+inflammation  
+Excess calories/high-fat diet
+ROS
+ER stress
+Microvesicle release
+Inflammasome activation
+Stellate cell activation
+Pancreas
+Insulin
+resistance
+Insulin
+NEFA
+Normal liver
+Fatty liver
+NASH
+Cirrhosis
+Liver
+cancer
+Adipokines
+Endotoxin
+Toll-like receptor
+activation
+Cytokines
+Size limited adipocyte surrounded by fibrous matrix
+Activated macrophage
+Lipid droplet
+Collagen fiber
+Figure 28-3.   Progression of nonalcoholic fatty liver disease (NAFLD). ER stress, endoplasmic reticulum stress; ROS, reactive oxygen species.
+
+1372
+Toxic Agents
+unit V
+NASH patients had normal ALT values and at present, only liver 
+biopsy can provide accurate diagnosis.
+Our understanding of the molecular mechanisms whereby 
+NAFLD pathology progresses is hampered by lack of an animal 
+model that recapitulates all aspects of the human disease (Hebbard 
+and George, 2011). Until recently, a widely held “two-hit” hypoth-
+esis held that progression of NAFLD to NASH requires initial 
+development of steatosis followed by several possible second hits. 
+These include oxidative stress resulting from lipid peroxidation and 
+mitochondrial dysfunction and ER stress triggered by protein mis-
+folding resulting from direct lipotoxicity of saturated fatty acids. 
+In addition, bacterial overgrowth and increased gut permeability 
+resulting from chronic consumption of high-fat diets can increase 
+plasma endotoxin levels resulting in Kupffer cell activation and 
+inflammation. An initiating role for steatosis in NASH progression 
+is supported by human studies of NAFLD heritability. NAFLD, 
+NASH, and cirrhosis cluster in families and one genetic variant 
+consistently associated with appearance of NAFLD is a missense 
+mutation in the PNPLA3 (adiponutrin) gene. PNPLA3 has triglyc-
+eride hydrolase activity that is lost on mutation, consistent with the 
+accumulation of liver fat. More recent GWA association analysis of 
+SNPs from subjects with biopsy-proven NAFLD has yielded addi-
+tional genetic variants associated with dysregulated lipid homeosta-
+sis. These include lysophospholipase-like 1 (LYPLAL1), which like 
+PNPLA3 is linked to triglyceride breakdown, and glucokinase regu-
+lator (GCKR), which regulates glucose storage and provides sub-
+strates for de novo lipogenesis (Speliotes et al., 2011). Treatment 
+with insulin sensitizers, bariatric surgery, and lifestyle modification 
+(diet and exercise) resulting in weight loss and reduction of hepatic 
+fat content improve NASH liver pathology (Cohen et al., 2011).
+More recently the two-hit hypothesis has been modified into 
+a multiple interrelated hit theory as evidence has accumulated that 
+factors derived from obese adipose tissue such as adipokines and 
+the proinflammatory cytokine tumor necrosis factor (TNF-α), acti-
+vation of the endogenous immune system through Toll-like recep-
+tors, ER stress, and signals from the gut microbiota can all increase 
+hepatic fat accumulation (Tilg and Moschen, 2010; Hebbard 
+and George, 2011). The progression of steatosis to necroinflam-
+matory injury and fibrosis in NASH livers appears to depend on 
+­oxidative stress mediated by reactive oxygen species generated by 
+­cytochrome P450 CYP2E1 and NADPH-oxidase enzymes (Liang 
+et al., 2016; Abdelmegeed et al., 2017). Treatment with dietary anti-
+oxidants such as the glutathione precursor N-acetylcysteine and vita-
+min E has recently been shown to prevent increases in serum ALT, 
+­suppress hepatic production of TNF, and improve NASH pathol-
+ogy (Baumgardner et al., 2008a, 2008b; Sanyal et al., 2010). Lipid 
+peroxidation resulting from ROS action on accumulated fats has 
+also been linked to NASH progression. Highly reactive short-chain 
+­aldehydes such as malondialdehyde and 4-hydroxynonenal (4HNE), 
+which are the end products of lipid peroxidation, accumulate in 
+steatotic livers and can react with cellular proteins to form adducts, 
+especially in the mitochondria. These adducted proteins may have 
+impaired function and may also be recognized as foreign haptens by 
+the immune system triggering an autoimmune response involving 
+the formation of autoantibodies. Consistent with this hypothesis, 
+studies of high fat feeding using genetically manipulated mice made 
+steatotic by loss of the peroxisome proliferator–activated receptor 
+α (PPARα) and unable to degrade 4HNE as a result of deletion 
+of glutathione-S-transferase A4-4 have shown greater progression 
+of liver pathology relative to wild-type mice or mice lacking each 
+gene separately (Ronis et al., 2017). In addition, prior immuniza-
+tion with 4HNE-adducted albumin has been shown to exacerbate 
+liver injury in a mouse model of NASH utilizing a methionine- and 
+choline-deficient diet (Sutti et al., 2016). Damage to hepatocytes in 
+steatotic livers has also recently been linked to release of extracellu-
+lar microvesicles/exosomes containing micro RNAs, and to release 
+of damage-associated molecular patterns (DAMPs), which appear 
+to play a role in development of inflammation including inflam-
+masome activation in other parenchymal cells and resident macro-
+phages (Wan et al., 2016; Cannito et al., 2017).
+Development of fibrosis subsequent to NASH appears to 
+involve activation of hepatic stellate cells by the cytokine transform-
+ing growth factor β (TGF-β) and factors associated with disruption 
+of lipid homeostasis including the sphingosine metabolite, sphin-
+gosine 1-phosphate (Basaranoglu et al., 2013; Mercer et al., 2017). 
+Stellate cell activation is associated with inappropriate secretion of 
+matrix components, particularly collagen, as a result of regenera-
+tive wound-healing responses to chronic liver injury. Proliferative 
+regenerative responses also ultimately promote development of 
+hepatocellular carcinomas in NASH patients (Dooley et al., 2009; 
+Matsuzaki, 2009; Nejak-Gowen and Monga, 2011).
+Alteration in Drug Pharmacokinetics  
+and Metabolism in Obesity and NAFLD
+Obesity and fatty liver disease can have significant effects on drug 
+pharmacokinetics, metabolism, and therapeutic efficacy with the 
+potential to result in adverse drug reactions (Hanley et al., 2010; 
+Merrell and Cherrington, 2011).
+The most significant change in drug pharmacokinetics asso-
+ciated with obesity is likely to be in volume of distribution (Vd), 
+and this determines loading dose selection. Vd estimates the 
+extent to which a drug distributes into extravascular tissues and 
+this in turn will depend on the drug’s physiochemical proper-
+ties, binding to plasma proteins, and tissue blood flow (see Chap. 
+7, “Toxicokinetics”). The Vd of lipid-soluble drugs that partition 
+readily into adipose tissue is likely to be significantly increased in 
+obesity because obese individuals have a larger fat compartment 
+into which the drug can distribute. In contrast, Vd for hydrophilic 
+drugs that do not readily partition into fat may be relatively unaf-
+fected (Hanley et al., 2010). For example, while the Vd for the 
+highly lipophilic chemotherapeutic drug docetaxel is increased by 
+more than 400 L in the obese, the Vd for the water-soluble antibiotic 
+daptomycin is increased by only 2 to 4 L. There are little data to 
+suggest that obesity significantly alters drug binding to albumin or 
+other plasma proteins. However, reductions in tissue blood flow and 
+altered ­cardiovascular function have been observed in obesity and 
+may further alter Vd. Increases in Vd in obesity may significantly 
+alter drug ­efficacy. For example, the disposition of lipid-soluble oral 
+contraceptives such as ethinyl estradiol has been shown to be altered 
+in obesity and increased weight may be associated with increased 
+risk of failure of contraception. In such circumstances drug loading 
+dose should be adjusted by total body weight or BMI.
+The major influence determining the steady-state plasma con-
+centration of a drug in a maintenance dose regimen is clearance 
+(CL). This in turn depends on rate of metabolism and expression 
+of drug transporters. Obesity and NAFLD appear to have variable 
+effects on hepatic phase I and II drug metabolism and on transport-
+ers. However, significant species differences in regulation of these 
+enzymes and transporters and lack of appropriate animal models 
+for NAFLD/NASH make extrapolation of much of the experimen-
+tal data to the clinic problematic (Merrell and Cherrington, 2011). 
+Obesity and NAFLD have been shown to increase expression of 
+the cytochrome P450 enzyme CYP2E1 in both animal models and 
+human clinical studies. CYP2E1 is involved in the metabolism 
+of ethanol, solvents, and volatile anesthetics such as halothane
+
+Toxic Effects of Calories
+Chapter 28
+1373
+and enflurane. In contrast, hepatic expression of CYP1A2 that 
+metabolizes approximately 15% of therapeutic drugs including 
+anticoagulants, antidepressants, antihypertensive drugs, and cyclo-
+oxygenase-2 inhibitors appears to be consistently suppressed. The 
+effects of NAFLD/NASH on expression of other cytochrome P450 
+enzymes are inconsistent. However, increases have been observed 
+in expression of other phase I enzymes including NAD(P)H qui-
+none oxidoreductase, the mitochondrial form of epoxide hydrolase, 
+and several aldehyde dehydrogenases in animal models of NAFLD. 
+Less is known about the effects of NAFLD/NASH on drug con-
+jugation and transport. Decreased expression of sulfotransferases 
+has been reported in NASH patients, but effects on drug gluc-
+uronidation are inconsistent and glutathione conjugation appears 
+mixed despite observations of GSH depletion in human NAFLD 
+patients. Recent studies in experimental rat models of NAFLD sug-
+gest decreased expression of hepatic uptake transporters such as 
+the sodium/taurocholate co-transporting polypeptide (NTCP) and 
+the organic anion transporting polypeptides (OATPs) and increased 
+expression of efflux transporters, such as the multidrug resistance–
+associated proteins Mrp2, Mrp3, and Mrp4 (Lickteig et al., 2007; 
+Fischer et al., 2009). This was accompanied by a proportional shift 
+in elimination of acetaminophen metabolites from bile to urine 
+(Lickteig et al., 2007).
+Drug elimination as measured by half-life is affected by both 
+Vd and CL and thus may also be altered in obesity. Half-life is cal-
+culated using the following formula: t1/2 = (ln 2 × Vd)/CL, and 
+thus changes in both Vd and CL can influence drug half-life. For 
+example, the t1/2 of the antianxiety drug diazepam is markedly 
+increased in obese subjects as a result of increased Vd even though 
+CL is unchanged.
+Endocrine Dysfunction in Obesity, 
+Metabolic Syndrome, and NAFLD
+A wide spectrum of endocrine disruption is associated with obesity 
+and MetS. Obesity in pregnancy can result in many complications 
+including gestational diabetes, pregnancy-associated hyperten-
+sion, preeclampsia, and fetal abnormalities including neural tube 
+defects, spina bifida, heart defects, and cleft palate (Kulie et al., 
+2011). In addition, delays in milk production and decreased dura-
+tion of breast-feeding have been associated with obesity in women 
+as a result of hormonal and metabolic effects on mammary gland 
+development during pregnancy.
+As discussed above, hyperglycemia resulting from systemic 
+insulin resistance provokes a compensatory increase in insulin 
+secretion from the pancreas in obese individuals. Hyperinsulinemia 
+then appears to have secondary effects on other endocrine systems. 
+For example, growth hormone (GH) secretion is dramatically sup-
+pressed by obesity in both adults and children, but can be reversed by 
+weight loss (Kreitschmann-Andermahr et al., 2010). Mechanisms 
+appear to involve direct feedback effects of insulin on the pitu-
+itary and a reduction in secretion of the endogenous GH-releasing 
+peptide ghrelin that is produced by the stomach and hypothalamic 
+centers. In addition, although reductions in GH lead to a decrease 
+in hepatic synthesis and serum concentrations of total insulin-like 
+growth factor 1 (IGF-1) in the obese, paradoxically obesity results 
+in a suppression of IGF-binding proteins and thus an increase in free 
+IGF-1. Free IGF-1 can also exert a negative feedback on GH secre-
+tion. In addition to effects on the GH–IGF axis, hyperinsulinemia 
+also appears to increase adrenal androgen production and reduce 
+plasma concentrations of sex hormone–binding globulin (SHBG) 
+in obese prepubertal girls (Burt Solorzano and McCartney, 2010). 
+Increased serum concentrations of free androgens appear to explain, 
+in part, why childhood obesity is associated with earlier pubertal 
+development. Rodent studies of high-fat feeding have demonstrated 
+accelerated vaginal opening that was reversed by both androgen 
+receptor blockade and normalization of glucose homeostasis with 
+metformin. Hyperandrogenization also appears to explain the 
+increased incidence of polycystic ovary syndrome (PCOS) in obese 
+adolescent girls with MetS, anovulatory cycles, and subfertility in 
+obese women of childbearing age. Increased adipose tissue mass 
+also results in increased estrogen production as a result of andro-
+gen aromatization in fat tissues. This may also contribute to accel-
+erated puberty in girls. Surprisingly, in obese boys, data suggest 
+that puberty may be delayed. This may also be related to increased 
+aromatization of androgens in adipose tissue because negative feed-
+back of estrogens at the level of the hypothalamic–pituitary axis 
+may result in reduced luteinizing hormone secretion and reduced 
+testosterone production (hypogonadotropic hypogonadism). In 
+addition to suppression in GH and gonadotropin secretion, hypo-
+thyroidism is common in individuals with MetS. Reduced thyroid 
+hormone concentrations may exacerbate NASH progression in the 
+liver by increasing triglyceride synthesis, reducing fatty acid oxida-
+tion, and increasing hepatic cholesterol concentrations by reducing 
+conversion to bile acids (Loria et al., 2009).
+Obesity and Cancer Risk
+Increased BMI is well known to be associated with signifi-
+cantly increased risk of a number of cancers. These include 
+sex-steroid-dependent endometrial, breast, and prostate cancer, 
+GI tract ­cancers such as esophageal adenocarcinoma, and colon 
+cancer and renal cancer (Table 28-1). Several mechanisms have 
+been proposed related to endocrine and metabolic disturbances 
+associated with obesity (Roberts et al., 2010). As described ear-
+lier, systemic ­insulin resistance results in hyperinsulinemia and 
+reduces plasma IGF-1-binding protein levels to increase free 
+IGF-1 concentrations. Insulin and IGF-1 signaling interact to 
+stimulate cell proliferation via activation of MAP-kinase cas-
+cades resulting in increased phosphorylation of ERK and via 
+activation of Wnt-β-catenin pathways. In addition, they exert 
+antiapoptotic effects through PI-3 kinase pathways. Increased 
+Table 28-1  
+Estimated Risk Ratios* for Cancer in Relation to BMI
+CANCER TYPE
+MEN
+WOMEN
+Colon cancer
+1.24
+1.09
+Gallbladder cancer
+—
+1.59
+Leukemia
+1.08
+1.17
+Malignant melanoma
+1.17
+—
+Multiple myeloma
+1.11
+1.11
+Esophageal adenocarcinoma
+1.52
+1.51
+Renal cancer
+1.24
+1.34
+Thyroid cancer
+1.33
+1.14
+Prostate cancer
+1.03
+—
+Postmenopausal breast cancer
+—
+1.12
+Endometrial cancer†
+—
+1.73
+*Per increase in BMI by 5 kg/m2 (Roberts et al., 2010).
+†For BMIs above 27 kg/m2.
+
+1374
+Toxic Agents
+unit V
+sex steroid concentrations in obesity promote growth of tumors 
+in the mammary gland, endometrium, and prostate. Adipokines 
+may also play a role in promotion of obesity-associated cancers. 
+Leptin that is increased as fat mass increases is proproliferative, 
+antiapoptotic, and proinflammatory and promotes new blood ves-
+sel formation (angiogenesis). In contrast, adiponectin that is sup-
+pressed in obesity has the opposite properties and is inversely 
+associated with the presence of cancer. Additional potential asso-
+ciations between obesity and cancer may involve depletion of 
+cellular antioxidant systems as a result of the low-grade chronic 
+systemic inflammation that accompanies morbid obesity and the 
+possibility that mesenchymal stromal cells arising from expand-
+ing white adipose tissue may be recruited to tumors to promote 
+angiogenesis and drive tumor progression (Roberts et al., 2010).
+HEALTH BENEFITS AND LIFE 
+EXTENSION ASSOCIATED WITH 
+CALORIC RESTRICTION
+The opposite of overfeeding is caloric restriction (CR) (also known as 
+dietary restriction). Over the past two decades, experimental CR has 
+been repeatedly shown to increase life span and reduce age-related 
+disease in comparison with ad libitum feeding in a wide variety of 
+organisms including yeast, nematodes, fruit flies, fish, many rodent 
+species, and dogs (Smith et al., 2010). Recently, Colman et al. (2009) 
+have reported similar findings in rhesus monkeys and a multisite 
+human randomized clinical research study is currently in progress 
+funded by the National Institute on Aging (NIA): Comprehensive 
+Assessment of Long-Term Effects of Reducing Intake of Energy 
+(the CALERIE study, available at: http://calerie.dcri.duke.edu/index.
+html). Preliminary data suggest replication of many of the results from 
+animal studies, including reduced fat and lean mass; reduced insu-
+lin; reduced energy expenditure; lower core body temperature; and 
+improved lipid profiles. It has been suggested that the increased health 
+and longevity ­associated with CR are related to reduced energy flow, 
+increased insulin sensitivity, and reduced inflammation (Ye and Keller, 
+2010). Studies in yeast, Caenorhabditis elegans, and Drosophila have 
+suggested that the life span–enhancing effects of CR are mediated 
+through activation of a family of histone deacetylases known as the 
+sirtuins (Sir), which act as sensors of nutrient flux (Smith et al., 2010). 
+Intensive studies are underway to identify CR mimetics that might 
+have the same benefits as CR on long-term health and longevity with-
+out the necessity for imposed food restriction. Most work has focused 
+on the grape polyphenol resveratrol that has been shown to activate 
+Sir2 and to mimic CR effects to increase life span in yeast, C. elegans, 
+Drosophila, and fish in the absence of nutrient alteration. A second 
+CR mimetic receiving significant attention is rapamycin, an inhibitor 
+of the nutrient signaling mediator target of rapamycin (TOR).
+TREATMENT OF OBESITY
+Lifestyle Modification: Dieting 
+and Exercise
+Attaining a healthy body composition usually requires trimming 
+excess body fat by reductions in total caloric intake, modifica-
+tions in diet composition, and increases in total energy expenditure 
+(TEE) via increased physical activity. This combined strategy is 
+intended to develop a metabolic state in which energy expenditure 
+exceeds energy intake, and which in turn requires total body energy 
+requirements to come from utilization of body fat stores, thereby 
+burning body fat and improving body composition.
+Adhering to almost any commercially available diet plan on 
+the market can achieve body weight loss and reduction of total fat 
+mass. For example, people who use the Atkins diet, which is a diet 
+high in protein and fat and very low in carbohydrates, lose weight. 
+The major problem is sustaining a healthy body composition. Most 
+dieters return to their predieting weight and body composition (or 
+worse) because they never achieve a true lifestyle change that meets 
+their expectations. Comprehensive lifestyle changes that promote 
+sustainability include two major and closely linked components: 
+(1) learning to consume only the number of calories from high-
+quality foods necessary to support basal body energy requirements, 
+plus energy needs to maintain physical activity; and (2) selecting a 
+reasonable physical activity plan that fits into the dieters’ overall 
+lifestyle patterns. Sustaining healthy body composition after signifi-
+cant weight loss seems to occur only in those individuals who can 
+find a way to limit their intake of a healthy diet that they find accept-
+able in terms of taste, costs, and ease (food availability and ease and 
+speed of preparation), plus an exercise regime that is acceptable 
+in terms of access (e.g., equipment, facilities, and walking trails), 
+appropriateness (e.g., age-related and intensity levels), and time 
+(e.g., duration required and timing within a workday). Thus, los-
+ing weight and getting a healthy body composition comes down to 
+energy balance, that is, consuming only enough energy to maintain 
+a given body composition. Maintaining a healthy body composition 
+requires that energy intake equals energy expenditure. Promoting 
+health in the context of a healthy body composition can be best 
+achieved by including a physical activity plan, and this usually leads 
+to healthier muscle, improved insulin sensitivity, normalization of 
+blood lipid profiles, and improved cardiovascular measures.
+Determining the energy needs is the easiest part of a plan, 
+whereas limiting caloric intake, increasing physical activity, and 
+sustaining these components of a plan are more difficult. In terms 
+of energy, 3500 cal is stored in 1 lb of fat. So, to lose or take off that 
+pound of fat, the body needs to be forced to “burn” 3500 cal from 
+adipose tissue. That pound of fat was formed over time and under 
+conditions in which calorie intake exceeded caloric output. The 
+energy in food eaten can be “cost accounted” roughly as follows: 
+(1) energy required to digest and absorb food; (2) energy utilized 
+to support basal functions such as pumping blood and breathing; 
+(3) energy for body functions other than basal metabolism, such as 
+walking and playing golf; and (4) nonutilized food calories, such 
+as food components not fully digested or absorbed. Most generally 
+healthy people have similar energy expenditure needs as described 
+in points 1, 2, and 4 above, although there clearly are individual 
+differences. The energy expenditure of a body at rest is termed the 
+basal metabolic rate (BMR) and it can be estimated by the Harris–
+Benedict equations (Roza and Shizgal, 1984). Energy expenditures 
+also differ by age, gender, and body size (height and weight). For 
+example, per the Harris–Benedict equations, a man and a woman 
+(each healthy and normal body composition) of age 66 years, weigh-
+ing 160 lb, and 70 in. tall would have a BMR of 1528 and 1372 cal, 
+respectively. However, if they were each age 18 years, their BMR 
+would be 1854 and 1598 cal, respectively. No matter what a person’s 
+excess weight might be, there will always be the need for energy 
+to meet the BMR. The energy needs of BMR could be met by diet 
+or, in the case of overweight individuals, body energy stores such 
+as fat. Because there are other nutrient needs besides energy (e.g., 
+nitrogen, amino acids, essential fatty acids, vitamins, minerals, and 
+trace elements), an overweight individual will always have needs 
+for a healthy diet, even for the short term, so fasting is usually not 
+a long-term option to burn all excess stored body fat. Thus, to burn 
+excess body fat, daily energy expenditure needs to exceed the energy 
+expenditure of BMR and this comes mainly from physical activity.
+
+Toxic Effects of Calories
+Chapter 28
+1375
+The public tends to overestimate the energy expenditure for 
+various physical activities. It also finds it difficult to practically 
+translate the often-recommended amount of physical activity 
+(30 minutes of activity per day) into a daily regimen. Part of this is 
+due to the difficulty in determining the energy expenditure amount, 
+because the energy expended by an individual on 30 minutes of 
+physical activity differs according to body weight, body composi-
+tion, health, physical conditioning, the activity itself (e.g., walk-
+ing, jogging, running, or swimming), and intensity of the activity 
+(e.g., running at 6 mph vs. 4 mph). In addition, many overweight 
+people are usually not accustomed to physical activity at the inten-
+sity level and duration needed to induce the body to burn body 
+fat stores that lead to significant body fat reduction. This, when 
+combined with the necessary changes in the diet composition and 
+reductions in caloric intake, makes it difficult to lose body fat and 
+more difficult to maintain a healthy body composition. The most 
+common physical activity used in weight loss programs is walk-
+ing. Walking 30 minutes at a rate of 4 mi/h for the 160-lb man or 
+woman described above will burn approximately 180 cal. So, if an 
+overweight individual were to maintain the same caloric intake (and 
+same diet) and just increase his or her activity level to 30 minutes of 
+walking at 4 mi/h (a total of 2 mi/day), the calculated fat loss would 
+be 1 lb every 20 days. If he or she also reduced the caloric intake by 
+180 cal a day and has the same walk schedule, he or she theoreti-
+cally would reduce the time to lose 1 lb of weight to about 10 days. 
+Thus, the way to reduce body fat (adipose tissue) is to consume less 
+calories than expended (energy deficit) and the rate of fat loss is 
+directly related to the level of the energy deficit (i.e., caloric intake 
+vs. caloric expenditure).
+Complicit in any plan to burn body fat stores is that some 
+portion of the total energy expenditure (TEE) must be met by 
+fat stores. This requires a diet intake situation that (1) provides 
+fewer calories than required to meet BMR + any physical activity 
+expenditure; (2) reduces or prevents lipogenesis; and (3) promotes 
+lipolysis. There are several ways and several commercially avail-
+able diet systems in which this can be accomplished. One of the 
+most widely used diet systems, the Atkins diet, claims to accom-
+plish this by increasing protein (and consequently fat) and limiting 
+carbohydrates.
+Following a meal containing an abundance of simple car-
+bohydrates, blood glucose levels rise and glucose gets converted 
+into glycogen by the liver and stored there for future energy use. 
+Maximal glycogen storage is between about 8 and 14 hours, 
+depending on factors such as an individual’s metabolism. As glu-
+cose enters cells, blood glucose concentrations would fall if not 
+for the liver converting the glycogen back to glucose and releas-
+ing it back into the blood. This is a mechanism for maintaining 
+glucose in the normal range between meals. Glucose is the body’s 
+energy source of choice. Use of glucose as the primary energy 
+source seems to be prioritized by cell and organ type, with nerve 
+cells having the highest priority. This means that if body glucose 
+stores become scarce, the brain will be the last organ able to use 
+glucose as its primary source. In this case, if another carbohy-
+drate-containing meal is not consumed and blood glucose levels 
+dropped to very low levels, lower priority organs (such as muscle) 
+would need another source of energy and this source is fatty acids 
+released from fat stores (lipolysis). Just like glycogen is the stor-
+age form for glucose, fat is the storage source for fatty acids and 
+tissues can easily burn fatty acids when glucose is absent. As liver 
+glycogen stores become minimal, amino acids are converted to 
+glucose (gluconeogenesis). This can support nerve cell metabo-
+lism for a while, but eventually the brain will switch from burning 
+pure glucose and start to utilize ketone bodies produced in the 
+liver from fatty acids as an additional energy source. High ketone 
+levels in the blood and tissues are known as ketosis.
+Insulin has a major influence on carbohydrate, fat, and protein 
+metabolism. Under conditions of adequate carbohydrate intake, 
+insulin causes excess sugar not utilized as fuel to be stored as fat 
+and prevents utilization of fat as an energy source. Thus, a high-­
+carbohydrate diet. In theory, the low carbohydrate, high protein 
+intake promoted in the Atkins diet forces the body to burn more 
+fat. This would call for the body to switch from using pure carbo-
+hydrates for fuel to using more fat for fuel and the source of this 
+fat is the adipose tissue. Thus, when insulin levels are normal, the 
+body will begin to burn its own fat as fuel, thereby resulting in body 
+weight loss. In addition to these potential metabolic effects, the 
+high dietary fat content is thought to reduce appetite and thus total 
+caloric intake. The combination of altered metabolism and reduced 
+caloric intake leads to weight loss and better body composition.
+Theoretically, environmental factors (such as diet composi-
+tion, dietary intake, and physical activity) are the key factors in 
+­obesity treatment. However, genetics can also play a major role. For 
+example, Bouchard et al. (1983) have reported that genetic charac-
+teristics can be responsible for substantial differences or heteroge-
+neity in the response to training or physical activity and this may 
+be an important obstacle to achieving a healthy body composition 
+in some people. So, although research has shown that obesity can 
+be reversed by the combination of consuming a healthy diet and 
+reducing caloric intake to below calories expended, maintaining 
+a healthy body composition with a caloric intake equal to energy 
+expenditure often is as complicated as the factors leading to obesity 
+in the first place.
+Clinical and basic research studies have shown that ade-
+quate physical activity is essential to maintaining good physical 
+health, and a sedentary lifestyle leads to several common chronic 
+health problems. However, the mechanisms underlying the posi-
+tive effects of physical activity or the negative effects of insuf-
+ficient activity are not known. An ongoing NIH study, “Molecular 
+Transducers of Physical Activity in Humans,” aims to determine 
+the molecular changes produced by “movement” (i.e., physical 
+activity) and how these changes improve cellular and organ func-
+tions (Robinson et al., 2017). Current literature in the field of 
+physical activity as it relates to body composition, health, and 
+disease suggests there is a healthy “fitness range” for individuals 
+based upon genetics and issues such as age, sex, body composi-
+tion, diet, and total caloric intake. These factors are important in 
+understanding human development, health status, and the effects 
+of medications and toxicants.
+Toxic Effects of Dieting
+There are potential toxic effects associated with some diet plans. 
+Dieting as prescribed by dieticians, nutritionists, or physicians 
+is based on the use of a healthy diet that meets the daily nutrient 
+needs of the body, but at a reduced caloric intake and with increased 
+moderate physical activity. The overarching premise is to provide 
+adequate nutrients for normal cellular function while reducing 
+caloric intake to a level that forces the use of fat stores as an energy 
+source to meet the energy expenditure above the caloric intake. If 
+the diet does not include all the required nutrients (an imbalanced 
+diet), metabolism will suffer and with time this can result in health 
+problems. This is true in the case of deficiency of specific nutrients 
+(deficiency disorders such as anemia or osteoporosis) or toxicity 
+caused by excesses of a nutrient (such as thyroid impairment, vita-
+min deficiencies, and mental confusion). Some popular diet plans 
+call for excess intake of a particular food and these can not only alter
+
+1376
+Toxic Agents
+unit V
+metabolism but also interfere with medications. For example, the 
+popular grapefruit diet can lead to inhibition of drug-­metabolizing 
+enzymes such as the cytochrome P450 CYP3As that metabolize 
+60% of all therapeutic medications. This may increase drug con-
+centrations to toxic levels, increase drug–drug interactions, and 
+result in potential health problems (Ameer and Weintraub, 1997; 
+Kiani and Imam, 2007).
+Another potential adverse effect of dieting is known as the 
+yo-yo effect or weight cycling. This occurs with repeated dieting 
+interspersed with periods of no dieting. This is caused when a dieter 
+starts one diet and loses a significant amount of body weight and 
+body fat, but cannot maintain the diet and stops to return to the 
+prediet routine. The fat and body weight are regained, often to an 
+even greater body fat content. In fact, the yo-yo experience may 
+result in a condition in which the dieter is more efficient in gain-
+ing weight. This causes the dieter to select another diet plan, loss 
+of weight, failure to maintain the diet, and return to overweight 
+or obese conditions. There are often periods of depression and 
+fatigue associated with this cycling behavior and the end results are 
+extreme emotional and physical ramifications.
+Drug Therapy for Weight Loss
+In addition to the diet plans described earlier, many overweight 
+individuals turn to drug therapy to help lose body weight. Appetite 
+suppressants, for example, sympathomimetics such as diethyl-
+propion, attempt to lessen the psychological motivation for food, 
+usually by acting on central nervous system appetite control cen-
+ters, such as those in the hypothalamus (Guaraldi et al., 2011). 
+Although sympathomimetics can be used for long periods of time, 
+their appetite-reducing effects tend to decrease after a few weeks 
+in many people. Thus, appetite suppressants are often used in the 
+early stages of a weight loss program. People are likely to lose 
+weight while taking sympathomimetics, but the weight loss is 
+generally temporary without modifications in diet composition, 
+eating behavior, and physical activity. Short-term use is usually 
+accompanied by minor side effects such as thirst, irritability, con-
+stipation, ­stomach pain, dizziness, dryness of mouth, heightened 
+sense of well-being, headache, irritability, nausea, nervousness or 
+restlessness, trembling or shaking, and trouble sleeping. However, 
+long-term use of appetite suppressants often lead to more serious 
+side effects: intracerebral hemorrhage, acute dystonia, myocar-
+dial injury, psychosis, cerebral arteritis, cardiac arrhythmias, heart 
+valve damage, and even fatal pulmonary hypertension. These side 
+effects have led to the withdrawal of several such products from 
+the market. Drug interactions are also known to occur, especially 
+with high blood pressure medicine, stimulants, MAO inhibitors 
+(e.g., furazolidone, linezolid, phenelzine, selegiline, and tranyl-
+cypromine), any other weight loss medicine, and decongestants 
+such as are commonly found in over-the-counter cough and cold 
+medicines.
+Surgical Interventions
+Surgery is another avenue to improve body composition in obesity. 
+One of the most radical surgical treatments is the class operations 
+known as bariatric surgeries. The end goal is to limit food intake 
+by reducing the capacity of the stomach, and also having patients 
+feel satiated. Bariatric surgery is a term that includes several surgi-
+cal procedures (such as sleeve gastrectomy, gastric plication, gastric 
+banding, and gastric bypass surgery); all are aimed at helping obese 
+patients lose weight. Weight loss is achieved by resecting and link-
+ing the small intestines to a small stomach pouch (gastric bypass sur-
+gery), removal of a portion of the stomach (sleeve gastrectomy), or 
+reducing the size of the stomach with an implanted medical device 
+(gastric banding) or sutures (gastric plication). These procedures are 
+generally credited with significant long-term loss of body fat and 
+body weight, which leads to improvement of secondary conditions 
+caused by obesity, including type 2 diabetes, risk of cardiovascular 
+disease, and the rate of mortality (Robinson, 2009). Very promis-
+ing preliminary results concerning bariatric surgery bear watching 
+in the future, suggesting the procedure may have effects in a wide 
+range of areas, including changes in the gut microbiome and type 2 
+diabetes mellitus in nonobese patients (Nguyen and Varela, 2017).
+These operations are most commonly used to treat morbid 
+obesity and the comorbidities associated with it. Thus, bariatric 
+surgery may be recommended for people with a BMI greater than 
+40. These procedures have also been used successfully with obese 
+individuals with BMI 30 to 40, especially when there are serious 
+coexisting medical conditions such as hypertension, impaired glu-
+cose tolerance, diabetes mellitus, hyperlipidemia, and obstructive 
+sleep apnea. Most bariatric procedures result in relatively rapid 
+weight loss, which is also associated with gallstones, and many 
+surgeons prefer to remove the gallbladder at the time of bariatric 
+surgery. Malabsorption and nutritional deficiency can occur because 
+of reduced absorptive area. This can reduce calcium and vitamin 
+absorption. Poor calcium absorption can occur because calcium 
+transporters located in areas of the intestine (duodenum) may be 
+removed with bariatric surgery. This can cause metabolic bone dis-
+ease (osteopenia) and secondary hyperparathyroidism that increase 
+in bone turnover. Combined, these conditions decrease bone mass 
+and increase risk of fracture. Other deficiencies including iron and 
+micronutrients such as vitamin B12, fat-soluble vitamins, thiamine, 
+and folate are common. Many patients will need to take a daily 
+multivitamin pill for life to compensate for reduced absorption of 
+essential nutrients. Because patients cannot eat a large quantity of 
+food, physicians typically recommend a diet that is relatively high 
+in protein and low in fats and alcohol.
+Liposuction is another surgical procedure widely used to 
+improve body composition by physically and surgically removing 
+body fat. It is the most common “plastic surgical procedure” in the 
+United States. However, there are significant risks with this proce-
+dure and these are mainly associated with (1) the aggressiveness 
+with which the procedure is performed, especially the amount of 
+tissue sucked from the body; (2) the venues in which the procedures 
+are performed; and (3) the amount of anesthesia used to sedate 
+patients during increasingly lengthy procedures. The mortality rate 
+of the late 1990s was approximately 20 per 100,000 or 1 per 5000 
+cases (de Jong and Grazer, 2001).
+ECONOMIC, SOCIOLOGICAL, AND LEGAL 
+ASPECTS OF THE OBESITY EPIDEMIC
+Health Insurance and Obesity
+Obesity is not considered an illness for most insurance purposes. 
+However, obesity can affect the cost of health insurance because as 
+a group, obese people have a significantly greater risk of cardiovas-
+cular disease, hypertension, type 2 diabetes, and other health issues 
+than lean people. Thus, insurance companies factor obesity into the 
+cost of first-time insurance purchasers. Furthermore, ­people who 
+are already insured may unknowingly not have sufficient insurance 
+to cover health problems associated with obesity. Several health 
+insurance companies use BMI as a measure of obesity and use BMI 
+to compute disease risk and health insurance premiums. Obesity 
+can result in high premiums and in the case of morbidly obese 
+individuals, insurers may decline their application. Obesity is also
+
+Toxic Effects of Calories
+Chapter 28
+1377
+regarded by insurance companies as a substantial risk for both life 
+and disability policies.
+Mortality statistics for life insurance were the earliest indicator 
+that the cost of obesity to the individual was decreased life span and 
+increased illness, particularly diseases affecting the cardiovascu-
+lar and musculoskeletal systems. The prevalence of coronary heart 
+disease rises with increases in the BMI in both men and women. 
+Hypertension and diabetes in the obese add further to the risks 
+of vascular disease. Cigarette smoking also greatly augments the 
+health risks of obesity in both sexes.
+The risk of death and medical problems increase with the 
+degree or severity of obesity (as indicated by fat mass or BMI). 
+The type of obesity (as indicated by body shape or fat distribution) 
+is another aspect of obesity considered by insurance companies. 
+Abdominal obesity has been positively correlated with the risk of 
+heart disease and stroke. Thus, some insurance companies set rates 
+based in part on fat distribution. Disability insurance rates are also 
+affected by body composition, as cardiovascular disease or mus-
+culoskeletal illness associated with obesity greatly increases the 
+chances of disabilities. These factors are used in decision making 
+as to whether to insure an individual and the cost of premiums. 
+Clearly, costs increase proportionally with the degree of obesity.
+Changing the Environment: Family  
+and Community Approaches to Healthy 
+Eating and Physical Activity
+The development of obesity within an individual, a community, or 
+a country is complex and the central cause(s) or reason(s) underly-
+ing the rapid rise in obesity in the United States and the world is 
+not well understood. The end results in terms of body composition 
+and secondary medical problems associated with obesity are better 
+understood than the root causes of the obesity epidemic. One factor, 
+however, that has received much attention relates to basic practices 
+that were common in past decades when the general population was 
+leaner but are lacking now when obesity is so prevalent.
+Prior to 1970, the average BMI was 25.1 for men and 24.9 for 
+women in the United States. Physical education (PE) classes were 
+a regular feature of school curriculums; most meals were prepared 
+at home using fresh produce, meats, and dairy products. School 
+lunches were prepared at schools. It was common for children to 
+walk or ride bicycles to school and to participate in games requiring 
+physical activity during school recess and after school and on week-
+ends. There were no computer games and fast food restaurants did 
+not supply such a large proportion of the daily total calories. In the 
+1990s and 2000s, there are few schools with PE classes and fewer 
+meals cooked from fresh components consumed at home and the 
+lifestyle of today’s children and adults is far more sedentary than 
+that prior to 1970. Therefore, by 2002, average BMI for U.S. men 
+had risen to 27.8 and average BMI for U.S. women to 28.1.
+One approach to fighting the obesity issue is to bring back 
+many of those practices used in the past. There are initiatives to 
+establish community gardens, build community walking and rid-
+ing trails, and teach people cooking and shopping skills that lead 
+to healthier meal preparation. School systems are starting to return 
+to PE classes on a regular basis and remove high-density foods and 
+drinks from vending machines. Although these efforts have been 
+increasing in effort throughout the United States, it is still too early 
+to confirm their effectiveness in reversing the obesity trend.
+Food security and access to quality foods are an important 
+issue throughout the United States, regardless of whether in rural 
+America or in the inner city. In many areas, there is ready access 
+only to convenience food stores where there is a lack of fresh 
+vegetable and meats and the prices are higher than in a conventional 
+supermarket. The type of food available is poor quality and energy 
+dense, which leads to obesity. These areas have been termed “food 
+deserts.” Providing access to higher-quality fresh food to people 
+living in these areas will improve nutrition, and when combined 
+with education on how to select and prepare the food and linked to 
+some form of physical activity it is hoped that body composition 
+and health will improve in these areas.
+Food Labels
+The Food and Drug Administration (FDA) is responsible for 
+assuring that foods sold in the United States are properly labeled 
+(see Chap. 27, “Food Toxicology: Fundamental and Regulatory 
+Aspects”). This applies to foods produced domestically and foods 
+from foreign countries. The Federal Food, Drug, and Cosmetic 
+Act (FD&C Act) and the Fair Packaging and Labeling Act are the 
+­federal laws governing food products under the FDA’s jurisdic-
+tion. The Nutrition Labeling and Education Act (NLEA), which 
+amended the FD&C Act, requires most foods to bear nutrition 
+labeling. The FDA requires food labels that bear nutrient con-
+tent claims and ­certain health messages to comply with specific 
+requirements.
+Food labeling is required for most prepared foods, such as 
+breads, cereals, canned and frozen foods, snacks, desserts, and 
+drinks. Nutrition labeling for raw produce (fruits and vegetables) 
+and fish is voluntary. Dietary supplements are a special category of 
+products under the general umbrella of foods, but which has sepa-
+rate labeling requirements. “Functional foods” or “nutraceuticals” 
+are regulated by the FDA under the authority of the FD&C Act, but 
+they are not specifically defined by law. Evidence-based updates of 
+labeling requirements occur when “new data on the associations 
+between nutrients and chronic diseases, health-related conditions, 
+physiological endpoints, and/or maintaining a healthy dietary pat-
+tern reflects current public health conditions in the United States.” 
+Revisions in the format and appearance of the Nutrition Facts label 
+was last performed in 2016 and full industry-wide compliance with 
+the new regulations must occur by July 2019.
+Food labels can be an important factor to help consumers in 
+their food choices that can help prevent obesity and other diseases. 
+Federal law requires that a minimal amount of information be listed 
+on food packaging, including ingredients and nutrition data. The 
+FDA monitors labeling language for such issues as fat, protein, car-
+bohydrate, and other nutrient contents and the purported ability of a 
+particular food to prevent medical problems. Suspicious or doubtful 
+claims or misleading statements about nutrition and health benefits 
+on food packages can be challenged by the FDA and companies that 
+receive warning letters have 15 days to inform the agency of cor-
+rective action. Although there has been a formal process by which 
+a health claim can be made, foods generally are not permitted to 
+make disease-fighting claim. The types of claims often challenged 
+by the FDA include warding off maladies such as arthritis, cancer, 
+and heart disease.
+The Patient Protection and Affordable Care Act of 2010 estab-
+lishes requirements for nutrition labeling of standard menu items 
+for chain restaurants, similar retail food establishments, and chain 
+vending machine operators. The most important information that 
+must be provided for standard menu items is the number of calories 
+in each standard menu item and a statement on the menu that puts 
+the calorie information in the context of a recommended total daily 
+caloric intake. In addition to restaurant menus, food sold from vend-
+ing machines operated by persons who own or operate 20 or more 
+vending machines must disclose the number of calories in a clear 
+and conspicuous manner.
+
+1378
+Toxic Agents
+unit V
+Governmental and Corporate Issues
+There has been increasing pressures from local, state, and federal 
+governments to regulate various aspects of food as a means of 
+promoting health and reducing obesity and the secondary conse-
+quences of obesity. Food labeling is just one example of govern-
+ment intervention, whereby food processors and restaurants must 
+provide a measure of nutrient and/or caloric content. New York 
+City was the first to pass a law requiring calorie counts to be posted 
+next to prices on menus in some restaurants so consumers would 
+also know the “caloric cost” of each food selection, with the hope 
+that they will make healthy food choices. California became the 
+first state to prohibit restaurants from using “artery-clogging trans 
+fats” in preparing their food. Airlines and the FAA are dealing with 
+complaints from passengers being “infringed on” by overlapping 
+obese passengers and obese passengers complaining about abuse 
+taken from leaner passengers. In an effort to reduce insurance costs 
+and improve work performance, there is also a trend for the busi-
+ness community to set standards associated for overweight and 
+obese workers in a manner similar to that employed for smokers. 
+Civil rights advocates and others are concerned that there is a grow-
+ing impetus for government intervention and one wonders if the 
+time will come when “big brother” mandates what and how much 
+one can eat.
+REFERENCES
+Abdelmegeed MA, Choi Y, Godlewski G, et al. Cytochrome P450-2E1 
+­promotes fast food-mediated hepatic fibrosis. Sci Rep. 2017;7:39764.
+Ameer B, Weintraub RA. Drug interactions with grapefruit juice. Clin 
+Pharmacokinet. 1997;33:103–121.
+Aoki R, Kamikado K, Suda W, et al. A proliferative probiotic Bifidobacterium 
+strain in the gut ameliorates progression of metabolic disorders via 
+microbiota modulation and acetate elevation. Sci Rep. 2017;7:43522.
+Bakker-Arkema RG, Davidson MH, Goldstein RJ, et al. Efficacy and safety 
+of a new HMG-CoA reductase inhibitor atorvastatin, in patients with 
+hypertriglyeridemia. JAMA. 1996;275:128–133.
+Barker DJ, Winter PD, Osmond C, et al. Weight in infancy and death from 
+ischemic heart disease. Lancet. 1989;2:577–580.
+Basaranoglu M, Basaranoglu G, Senturk H. From fatty liver to fibrosis: a 
+tale of “second hit.” World J Gastroenterol. 2013;19:1158–1165.
+Baumgardner JN, Shankar K, Hennings L, et al. A new rat model for nonal-
+coholic steatohepatitis utilizing overfeeding of diets high in polyunsatu-
+rated fat by total enteral nutrition. Am J Physiol. 2008a;294:G27–G38.
+Baumgardner JN, Shankar K, Hennings L, et al. N-Acetylcysteine attenu-
+ates progression of liver pathology in a rat model of non-alcoholic steato-
+hepatitis. J Nutr. 2008b;138:1872–1879.
+Bouchard C. Human adaptability may have a genetic basis. In: Landry 
+F, ed. Health Risk Estimation, Risk Reduction and Health Promotion. 
+Proceedings of the 18th Annual Meeting of the Society of Prospective 
+Medicine. Ottawa: Canadian Public Health Association; 1983:463–476.
+Boyle JG, Salt IP, McKay GA. Metformin action on AMP-activated protein 
+kinase: a translational research approach to understanding a potential 
+new therapeutic target. Diabet Med. 2010;27:1097–1106.
+Browning JD, Szczepaniak LS, Dobbins R, et al. Prevalence of hepatic ste-
+atosis in an urban population in the United States: impact of ethnicity. 
+Hepatology. 2004;40:1387–1395.
+Burt Solorzano CM, McCartney CR. Obesity and the pubertal transition in 
+girls and boys. Reproduction. 2010;140:399–410.
+Cannito S, Morello E, Bocca C, et al. Microvesicles released from fat-laden 
+cells promote activation of hepatocellular NLRP3 inflammasome: a pro-
+inflammatory link between lipotoxicity and non-alcoholic steatohepatitis. 
+PLoS One. 2017;10:1371.
+Caviglia JM, Gayet C, Ota T, et al. Different fatty acids inhibit apolipo-
+protein B100 secretion by different pathways: unique roles for endo-
+plasmic reticulum stress, ceramide and autophagy. J Lipid Res. 2011;52: 
+1636–1651.
+Cho N, Momose Y. Peroxisome proliferator-activated receptor gamma ago-
+nists as insulin sensitizers: from the discovery to recent progress. Curr 
+Top Med Chem. 2008;8:1483–1507.
+Cohen JC, Horton JD, Hobbs HH. Human fatty liver disease: old questions 
+and new insights. Science. 2011;332:1519–1523.
+Colman RJ, Anderson RM, Johnson SC, et al. Caloric restriction 
+delays disease onset and mortality in rhesus monkeys. Science. 
+2009;325(5937):201–204.
+Cook S, Weitzman M, Auinger P, et al. Prevalence of a metabolic syndrome 
+phenotype in adolescents: findings from the third National Health and 
+Nutrition Examination Survey 1999–2002. J Pediatr. 2008;152:160–164.
+Cornier MA, Dabelea D, Hernandez TL, et al. The metabolic syndrome. 
+Endocr Rev. 2008;29:777–822.
+de Jong RH, Grazer FM. Perioperative management of cosmetic liposuc-
+tion. Plast Reconstructr Surg. 2001;107:1039–1044.
+Deshmukh M, Lee HW, McFarlane SI, et al. Antihypertensive medications 
+and their effects on lipid metabolism. Curr Diab Rep. 2008;8:214–220.
+Divoux A, Clement K. Architecture and the extracellular matrix: 
+the still unappreciated components of adipose tissue. Obes Rev. 
+2011;12:e494–e503.
+Dooley S, Weng H, Mertens PR. Hypotheses on the role of TGF beta in 
+the onset and progression of hepatocellular carcinoma. Dig Dis. 2009; 
+27:93–101.
+Dulloo AG, Jacquet J, Solinas G, et al. Body composition phenotypes in 
+pathways to obesity and the metabolic syndrome. Int J Obes. 2010; 
+34:S4–S17.
+Fischer CD, Lickteig AJ, Augustine LM, et al. Experimental non-alcoholic 
+fatty liver disease results in decreased hepatic uptake transporter expres-
+sion and function in rats. Eur J Pharmacol. 2009;613:119–127.
+Franck N, Gummesson A, Jernas M, et al. Identification of adipo-
+cyte genes regulated by caloric intake. J Clin Endocrinol Metab. 
+2011;96:E413–E418.
+Friedman JM, Leibel RL. Tackling a weighty problem. Cell. 1992;69: 
+217–220.
+Gerstein HC, Yusuf S, Bosch J, et al. Effect of rosiglitazone on the frequency 
+of diabetes in patients with impaired glucose tolerance or impaired fast-
+ing glucose: a randomized controlled trial. Lancet. 2006;368:1096–1105.
+Giordano A, Murano I, Mondini E, et al. Obese adipocytes show ultra-
+structural features of stressed cells and die of pyroptosis. J Lipid Res. 
+2013;54:2423–2436.
+Gropper SS, Smith JL, Groff JL. Body composition and energy expenditure. 
+In: Gropper SS, Smith JL, Groff JL, eds. Advanced Nutrition and Human 
+Metabolism. Belmont, CA: Thomson Wadsworth; 2005:519–550.
+Guaraldi F, Pagotto U, Pasquali R. Predictors of weight loss and mainte-
+nance in patients treated with antiobesity drugs. Diabetes Metab Syndr 
+Obes. 2011;4:229–243.
+Gustafson B. Adipose tissue, inflammation and atherosclerosis. J Atheroscler 
+Thromb. 2010;17:332–341.
+Halberg N, Khan T, Trujillo ME, et al. Hypoxia-inducible factor 1 alpha 
+induces fibrosis and insulin resistance in white adipose tissue. Mol Cell 
+Biol. 2009;29:4467–4483.
+Hanley MJ, Abernethy DR, Greenblatt DJ. Effect of obesity on the phar-
+macokinetics of drugs in humans. Clin Pharmacokinet. 2010;49:71–87.
+Hebbard L, George J. Animal models of nonalcoholic fatty liver disease. 
+Nat Rev Gastroenterol Hepatol. 2011;8:35–44.
+Khan S, Wang CH. ER stress in adipocytes and insulin resistance: mecha-
+nisms and significance. Mol Med Rep. 2014;10:2234–2240.
+Keesey RE, Hirvonen MD. Body weight set-points: determination and 
+adjustment. J Nutr. 1997;127:1875S–1883S.
+Kiani J, Imam SZ. Medicinal importance of grapefruit juice and its interac-
+tion with various drugs. Nutr J. 2007;6:33.
+Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the inci-
+dence of type 2 diabetes with lifestyle intervention or metformin. N Engl 
+J Med. 2002;346:393–403.
+Kreitschmann-Andermahr I, Suarez P, Jennings R, et al. GH/IGF-1 regula-
+tion in obesity—mechanisms and practical consequences in children and 
+adults. Horm Res Pediatr. 2010;73:153–160.
+Kulie T, Slattengren A, Redmer J, et al. Obesity and women’s health. An 
+evidence-based review. J Am Board Fam Med. 2011;24:75–85.
+
+Toxic Effects of Calories
+Chapter 28
+1379
+Lara-Castro C, Garvey T. Intracellular lipid accumulation in liver and mus-
+cle and the insulin resistance syndrome. Endocrinol Metab Clin North 
+Am. 2008;37:841–856.
+Lara-Castro C, Newcomer BR, Rowell J, et al. Effects of short term very 
+low-calorie diet on intramyocellular lipid and insulin sensitivity in non-
+diabetic and diabetic subjects. Metabolism. 2008;57:1–8.
+Lecka-Czernik B. Bone loss in diabetes: use of antidiabetic thiazolidinedio-
+nes and secondary osteoporosis. Curr Osteoporosis Res. 2010;8:178–184.
+Lenard NR, Berthoud HR. Central and peripheral regulation of food intake 
+and physical activity: pathways and genes. Obesity. 2008;16:S11–S22.
+Liang S, Kisseleva T, Brenner DA. The role of NADPH oxidases in liver 
+fibrosis and the activation of myofibroblasts. Front. Physiol. 2016;7:17.
+Lickteig AJ, Fischer CD, Augustine LM, et al. Efflux transporter expres-
+sion and acetaminophen metabolite excretion are altered in rodent 
+models of non-alcoholic fatty liver disease. Drug Metab Dispos. 
+2007;25:1970–1978.
+Loomba R, Sirlin CB, Schwimmer JB, et al. Advances in pediatric nonalco-
+holic fatty liver disease. Hepatology. 2009;50:1282–1293.
+Loria P, Carulli L, Bertolotti M, Lonardo A. Endocrine and liver interaction: 
+the role of endocrine pathways in NASH. Nat Rev Gastroenterol Hepatol. 
+2009;6:236–247.
+Ludwig J, Viggiano TR, McGill DB, et al. Nonalcoholic steatohepatitis: 
+Mayo Clinic experiences with a hitherto unnamed disease. Mayo Clin 
+Proc. 1980;55:434–438.
+Marecki JC, Ronis MJJ, Badger TM. Ectopic fat disposition and insulin resis-
+tance develop after overfeeding of a high fat diet to prepubertal rats despite 
+increased adiponectin signaling, J Nutr Biochem. 2011;22:142–152.
+Matsuzaki K. Modulation of TGF beta signaling during progression of 
+chronic liver diseases. Front Biosci. 2009;14:2923–2934.
+McFarlane SI, Muniyappa R, Francisco R, et al. Clinical review 145: pleio-
+tropic effects of statins: lipid reduction and beyond. J Clin Endocrinol 
+Metab. 2002;87:1451–1458.
+McMillen IC, Robenson JS. Developmental origins of the metabolic 
+syndrome: prediction, plasticity and programming. Physiol Rev. 
+2005;85:571–633.
+Mercer KE, Pulliam CF, Pedersen KB, et al. Soy protein isolate inhibits 
+high fat-induced hepatic tumor promotion in DEN-treated mice. Exp Biol 
+Med. 2017; 242:635-644.
+Merrell M, Cherrington NJ. Drug metabolism alterations in nonalcoholic 
+steatohepatitis. Drug Metab Rev. 2011;43:317–334.
+Mifflin MD, St Jeor ST, Hill LA, et al. A new predictive equation for 
+resting energy expenditure in healthy individuals. Am J Clin Nutr. 
+1990;51:241-247.
+Neel JV. Diabetes mellitus a “thirfty” genotype rendered detrimental by 
+“progress”? Am J Hum Genet. 1962;14:352–362.
+Nejak-Gowen KN, Monga SP. Beta catenin signaling, liver regeneration 
+and hepatocellular cancer: sorting the good from the bad. Semin Cancer 
+Biol. 2011;21:44–58.
+Nguyen NT, Varela JE. Bariatric surgery for obesity and metabolic disor-
+ders: state of the art. Nat Rev Gastroenterol Hepatol. 2017;14:160–169.
+Nickerson JG, Momken I, Benton CR, et al. Protein-mediated fatty acid 
+uptake: regulation by contraction, AMP-activated protein kinase and 
+endocrine signals. Appl Physiol Nutr Metab. 2007;32:865–873.
+Nord RH, Rayne RK. Dual-energy X-ray absorptiometry vs underwater 
+weighing comparison of strengths and weaknesses. Asia Pac J Clin Nutr. 
+1995;4:173–175.
+Olson RE. Discovery of the lipoproteins, their role in fat transport and their 
+significance as risk factors. J Nutr. 1998;128:439S–443S.
+O’Rahilly S, Farooqi IS. Human obesity: a heritable neurobehavioral dis-
+order that is highly sensitive to environmental conditions. Diabetes. 
+2008;57:2905–2910.
+Palee S, Chattipakorn S, Phromminitikul A, et al. PPAR gamma activator, 
+rosiglitazone: is it beneficial or harmful to the cardiovascular system? 
+World J Cardiol. 2011;26:144–152.
+Pan DA, Lilloja S, Kriketos AD, et al. Skeletal muscle triglyceride levels are 
+inversely related to insulin action. Diabetes. 1997;46:983–988.
+Pan M, Cederbaum AI, Zhang YL, et al. Lipid peroxidation and oxidant 
+stress regulate hepatic apolipoprotein B degradation and VLDL produc-
+tion. J Clin Invest. 2004;113:1277–1287.
+Postic C, Girard J. Contribution of de novo fatty acid synthesis to hepatic 
+steatosis and insulin resistance: lessons from genetically engineered 
+mice. J Clin Invest. 2008;118:829–838.
+Ratner R, Goldberg R, Haffner S, et al. Impact of intensive lifestyle and 
+metformin therapy on cardiovascular disease risk factors in the diabetes 
+prevention program. Diabetes Care. 2005;26:977–980.
+Reaven GM. Banting lecture 1988, role of insulin resistance in human dis-
+ease. Diabetes. 1988;37:1595–1607.
+Roberts DL, Dive C, Renehan AG. Biological mechanisms linking obesity 
+and cancer risk: new perspectives. Annu Rev Med. 2010;61:301–316.
+Robinson MK. Editorial, surgical treatment of obesity—weighing the facts. 
+N Engl J Med. 2009;361:520.
+Robinson MM, Dasari S, Konopka AR, et al. Enhanced protein transla-
+tion underlies improved metabolic and physical adaptations to different 
+exercise training modes in young and old humans. Cell Metab. 2017: 
+25:581–592.
+Ronis MJJ, Mercer KE, Engi B, et al. Global deletion of glutathione-
+S-transferase A4 exacerbates developmental nonalcoholic steatohepatitis. 
+Am J Pathol. 2017;187:418–430.
+Roza AM, Shizgal HM. The Harris–Benedict equation reevaluated: rest-
+ing energy requirements and body cell mass. Am J Clin Nutr. 1984;40: 
+168–182.
+Ruderman NB, Myers MG, Chipkin SR, Tornheim K. Hormone–fuel inter-
+relationships: fed state, starvation and diabetes mellitus. In: Kahn CR, 
+Weir GC, King GL, Jacobson AM, Moses AC, Smith RJ, eds. Joslin’s 
+Diabetes Mellitus. Boston, MA: Lippincott Williams & Wilkins; 2005: 
+127–144.
+Sanyal AJ, Chalasani N, Kowdley KV, et al. Pioglitazone, vitamin E, or pla-
+cebo for nonalcoholic steatohepatitis. N Engl J Med. 2010;362:1675–1685.
+Shankar K, Harrell A, Kang P, et al. Carbohydrate-responsive gene expres-
+sion in the adipose tissue of rats. Endocrinology. 2010;151:153–164.
+Shankar K, Harrell A, Liu X, et al. Maternal obesity at conception pro-
+grams obesity in the offspring. Am J Physiol Regul Integr Comp Physiol. 
+2008;294:R528–R538.
+Shen W, Gaskins HR, McKintosh MK. Influence of dietary fat on intestinal 
+microbes, inflammation, barrier function and metabolic outcomes. J Nutr 
+Biochem. 2014;25:270–280.
+Shulman GI, Barrett EJ, Sherwin RS. Integrated fuel metabolism. In: Porte 
+D, Sherwin RS, Baron A, Ellenberg M, Rifkin H, eds. Ellenberg and 
+Rifkin’s Diabetes Mellitus. New York: McGraw-Hill; 2003:1–14.
+Smith DL, Nagy T, Allison DB. Calorie restriction: what recent results sug-
+gest for the future of aging research. Eur J Clin Invest. 2010;40:440–450.
+Speakman JR. Thrifty genes for obesity, an attractive, but flawed idea and 
+an alternative perspective: the “drifty gene” hypothesis. Int J Obes. 2008; 
+32:1611–1617.
+Speliotes E, Yerges-Armstrong LM, Wu J, et al. Genome-wide associa-
+tion analysis identified variants associated with nonalcoholic fatty liver 
+disease that have distinct effects on metabolic traits. PLoS Genetics. 
+2011;7:e1001324.
+Stipanuk M. Nutrients: history and definitions. In: Stipanuk M, ed. Biochemical, 
+Physiological, Molecular Aspects of Human Nutrition. St. Louis, MO: 
+Saunders Elsevier; 2006:3–12.
+Sutti S, Bruzzi S, Albano E. The role of immune mechanisms in alcoholic 
+and nonalcoholic steatohepatitis: a 2015 update. Expert Rev Gastroenterol 
+Hepatol. 2016;10:243–253.
+Tilg H, Moschen AR. Evolution of inflammation in nonalcoholic fatty 
+liver disease: the multiple parallel hits hypothesis. Hepatology. 
+2010;52:1836–1846.
+Tontisirin K, Maclean WC, Warwick P. Food Energy: Methods of Analysis 
+and Conversion Factors. Report of a technical workshop. Vol 77 of FAO 
+Food and Nutrition Paper, Issue 77 of Food Energy, Rome, December 
+3–6, 2002; 2003. Rome: FAO.
+Virtue S, Vidal-Puig A. Adipose tissue expandability, lipotoxicity and the 
+metabolic syndrome—an allostatic perspective. Biochem Biophys Acta. 
+2010;1801:338–349.
+Wan X, Xu C, Yu C, Li Y. Role of NLRP3 inflammasome in the progression 
+of NAFLD to NASH. Can J Gastroenterrol Hepatol. 2016;2016:6489012.
+Ye J, Keller JN. Regulation of energy metabolism by inflammation: a feed-
+back response in obesity and calorie restriction. Aging. 2010;2:361–368.
+
+This page intentionally left blank

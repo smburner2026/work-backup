@@ -1,0 +1,240 @@
+{
+  "source": "Hayes' Principles and Methods of Toxicology, 7th Edition",
+  "total_chapters": 39,
+  "chapters": [
+    {
+      "title": "1 History, Understanding, and a Possible Future of Toxicology: Harming and Helping through Time",
+      "unit": "Volume I",
+      "file": "1-history-understanding-and-a-possible-future-of-toxicology-harming-and-helping-.txt",
+      "pages": "33-70"
+    },
+    {
+      "title": "2 Use of Toxicology in the Regulatory Process",
+      "unit": "Volume I",
+      "file": "2-use-of-toxicology-in-the-regulatory-process.txt",
+      "pages": "71-124"
+    },
+    {
+      "title": "3 Dose-Response: A Fundamental Concept in Toxicology",
+      "unit": "Volume I",
+      "file": "3-dose-response-a-fundamental-concept-in-toxicology.txt",
+      "pages": "125-172"
+    },
+    {
+      "title": "4 Metabolism: A Determinant of Toxicity",
+      "unit": "Volume I",
+      "file": "4-metabolism-a-determinant-of-toxicity.txt",
+      "pages": "173-240"
+    },
+    {
+      "title": "5 Toxicokinetics",
+      "unit": "Volume I",
+      "file": "5-toxicokinetics.txt",
+      "pages": "241-272"
+    },
+    {
+      "title": "6 Physiologically Based Pharmacokinetic and Toxicokinetic Models",
+      "unit": "Volume I",
+      "file": "6-physiologically-based-pharmacokinetic-and-toxicokinetic-models.txt",
+      "pages": "273-318"
+    },
+    {
+      "title": "7 Toxicopanomics: Application of Genomics, Transcriptomics, Proteomics, Metabolomics, and Lipidomics in Predictive Mechanistic Toxicology",
+      "unit": "Volume I",
+      "file": "7-toxicopanomics-application-of-genomics-transcriptomics-proteomics-metabolomics.txt",
+      "pages": "319-360"
+    },
+    {
+      "title": "8 Toxicologic Assessment of Pharmaceutical, Medical Device and Biotechnology Products",
+      "unit": "Volume I",
+      "file": "8-toxicologic-assessment-of-pharmaceutical-medical-device-and-biotechnology-prod.txt",
+      "pages": "361-428"
+    },
+    {
+      "title": "9 Statistics and Experimental Design for Toxicologists",
+      "unit": "Volume I",
+      "file": "9-statistics-and-experimental-design-for-toxicologists.txt",
+      "pages": "429-508"
+    },
+    {
+      "title": "10 The Practice of Exposure Assessment",
+      "unit": "Volume I",
+      "file": "10-the-practice-of-exposure-assessment.txt",
+      "pages": "509-596"
+    },
+    {
+      "title": "11 Epidemiology for Toxicologists",
+      "unit": "Volume I",
+      "file": "11-epidemiology-for-toxicologists.txt",
+      "pages": "597-634"
+    },
+    {
+      "title": "12 Pathology Principles and Practices for Toxicity Studies",
+      "unit": "Volume I",
+      "file": "12-pathology-principles-and-practices-for-toxicity-studies.txt",
+      "pages": "635-710"
+    },
+    {
+      "title": "13 Chemical Toxicology Information Resources",
+      "unit": "Volume I",
+      "file": "13-chemical-toxicology-information-resources.txt",
+      "pages": "711-728"
+    },
+    {
+      "title": "14 Food Safety and Foodborne Toxicants",
+      "unit": "Volume I",
+      "file": "14-food-safety-and-foodborne-toxicants.txt",
+      "pages": "731-784"
+    },
+    {
+      "title": "15 Plant and Animal Toxins",
+      "unit": "Volume I",
+      "file": "15-plant-and-animal-toxins.txt",
+      "pages": "785-860"
+    },
+    {
+      "title": "16 Safety Assessment of Cosmetics and Personal Care Products",
+      "unit": "Volume I",
+      "file": "16-safety-assessment-of-cosmetics-and-personal-care-products.txt",
+      "pages": "861-882"
+    },
+    {
+      "title": "17 Solvents and Industrial Hygiene",
+      "unit": "Volume I",
+      "file": "17-solvents-and-industrial-hygiene.txt",
+      "pages": "883-916"
+    },
+    {
+      "title": "18 Crop Protection Chemicals: Mechanismof Action and Hazard Profiles",
+      "unit": "Volume I",
+      "file": "18-crop-protection-chemicals-mechanismof-action-and-hazard-profiles.txt",
+      "pages": "917-1024"
+    },
+    {
+      "title": "19 Metals",
+      "unit": "Volume I",
+      "file": "19-metals.txt",
+      "pages": "1025-1092"
+    },
+    {
+      "title": "20 Radiation Toxicity",
+      "unit": "Volume I",
+      "file": "20-radiation-toxicity.txt",
+      "pages": "1093-1177"
+    },
+    {
+      "title": "21 Humane Care and Use of Laboratory Animals in Toxicology Research",
+      "unit": "Volume II",
+      "file": "21-humane-care-and-use-of-laboratory-animals-in-toxicology-research.txt",
+      "pages": "1210-1273"
+    },
+    {
+      "title": "22 Novel Approaches and Alternative Models: Validation and Regulatory Acceptance of Toxicological Testing Methods and Strategies",
+      "unit": "Volume II",
+      "file": "22-novel-approaches-and-alternative-models-validation-and-regulatory-acceptance-.txt",
+      "pages": "1274-1297"
+    },
+    {
+      "title": "23 Modern Instrumental Methods for Studying Mechanisms of Toxicology",
+      "unit": "Volume II",
+      "file": "23-modern-instrumental-methods-for-studying-mechanisms-of-toxicology.txt",
+      "pages": "1298-1367"
+    },
+    {
+      "title": "24 Acute Toxicity and Eye Irritancy",
+      "unit": "Volume II",
+      "file": "24-acute-toxicity-and-eye-irritancy.txt",
+      "pages": "1368-1421"
+    },
+    {
+      "title": "25 Short-Term, Subchronic, and Chronic Toxicology Studies",
+      "unit": "Volume II",
+      "file": "25-short-term-subchronic-and-chronic-toxicology-studies.txt",
+      "pages": "1422-1467"
+    },
+    {
+      "title": "26 Genetic and Epigenetic Toxicology",
+      "unit": "Volume II",
+      "file": "26-genetic-and-epigenetic-toxicology.txt",
+      "pages": "1468-1513"
+    },
+    {
+      "title": "27 Carcinogenicity Bioassays and Related Assays; Human Relevance",
+      "unit": "Volume II",
+      "file": "27-carcinogenicity-bioassays-and-related-assays-human-relevance.txt",
+      "pages": "1514-1555"
+    },
+    {
+      "title": "28 Assessment of Behavioral Toxicity",
+      "unit": "Volume II",
+      "file": "28-assessment-of-behavioral-toxicity.txt",
+      "pages": "1556-1613"
+    },
+    {
+      "title": "29 Dermatotoxicology",
+      "unit": "Volume II",
+      "file": "29-dermatotoxicology.txt",
+      "pages": "1616-1657"
+    },
+    {
+      "title": "30 Inhalation Toxicology",
+      "unit": "Volume II",
+      "file": "30-inhalation-toxicology.txt",
+      "pages": "1658-1729"
+    },
+    {
+      "title": "31 Gastrointestinal Toxicology",
+      "unit": "Volume II",
+      "file": "31-gastrointestinal-toxicology.txt",
+      "pages": "1730-1777"
+    },
+    {
+      "title": "32 Hepatotoxicology",
+      "unit": "Volume II",
+      "file": "32-hepatotoxicology.txt",
+      "pages": "1778-1813"
+    },
+    {
+      "title": "33 Principles and Methods for Renal Toxicology",
+      "unit": "Volume II",
+      "file": "33-principles-and-methods-for-renal-toxicology.txt",
+      "pages": "1814-1839"
+    },
+    {
+      "title": "34 Cardiovascular Toxicology Methods",
+      "unit": "Volume II",
+      "file": "34-cardiovascular-toxicology-methods.txt",
+      "pages": "1840-1857"
+    },
+    {
+      "title": "35 Neurotoxicology",
+      "unit": "Volume II",
+      "file": "35-neurotoxicology.txt",
+      "pages": "1858-1883"
+    },
+    {
+      "title": "36 Toxicology of the Endocrine System",
+      "unit": "Volume II",
+      "file": "36-toxicology-of-the-endocrine-system.txt",
+      "pages": "1884-1927"
+    },
+    {
+      "title": "37 Assessment of Male Reproductive Toxicity",
+      "unit": "Volume II",
+      "file": "37-assessment-of-male-reproductive-toxicity.txt",
+      "pages": "1928-1955"
+    },
+    {
+      "title": "38 Female Reproductive and Developmental Toxicology",
+      "unit": "Volume II",
+      "file": "38-female-reproductive-and-developmental-toxicology.txt",
+      "pages": "1956-2009"
+    },
+    {
+      "title": "39 Immunotoxicology: The Immune System Response to Toxic Insult",
+      "unit": "Volume II",
+      "file": "39-immunotoxicology-the-immune-system-response-to-toxic-insult.txt",
+      "pages": "2010-2057"
+    }
+  ]
+}

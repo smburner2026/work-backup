@@ -1,0 +1,4040 @@
+# TG497.pdf
+# Category: oecd
+# Pages: 82
+
+Guideline No. 497
+Defined Approaches on Skin Sensitisation
+25 June 2025
+OECD Guidelines for the 
+Testing of Chemicals
+Section 4
+Health effects
+
+OECD/OCDE                          497 
+Adopted:  
+25 June 2025   
+ 
+© OECD (2025) 
+ 
+You are free to use this material subject to the terms and conditions available at http://www.oecd.org/termsandconditions/ 
+1 
+ 
+OECD GUIDELINE FOR TESTING OF 
+CHEMICALS 
+ 
+Defined Approaches for Skin Sensitisation
+
+OECD/OCDE                          497 
+           
+© OECD (2025) 
+ 
+2 
+Table of contents 
+Section 1-Introduction 
+4 
+1.1. General Introduction 
+4 
+1.2 DAs included in the Guideline 
+7 
+1.2.1 DAs in Part I and Part II. 
+7 
+1.2.2. DAs in Part III 
+12 
+1.3 Limitations 
+14 
+1.3.1. 
+Limitations of individual in chemico/in vitro information sources 
+14 
+1.3.2. 
+Limitations of in silico information sources 
+15 
+1.3.3. 
+Limitations of DAs 
+15 
+1.4 References 
+17 
+Part I. – Section 2 - Defined Approaches for Skin Sensitisation Hazard Identification 
+19 
+2.1 “2 out of 3” Defined Approach 
+19 
+2.1.1. 
+Summary 
+19 
+2.1.2. 
+Data interpretation procedure 
+20 
+2.1.3. 
+Description and limitations of the individual information sources 
+20 
+2.1.4. 
+Confidence in the 2o3 DA predictions 
+21 
+2.1.5. 
+Predictive capacity of the 2o3 DA vs. the LLNA-based reference data 
+24 
+2.1.6. 
+Predictive capacity of the 2o3 DA vs. Human Data 
+25 
+2.1.7. 
+Predictive capacity of the LLNA vs. Human Data 
+26 
+2.1.8. 
+Proficiency chemicals 
+26 
+2.1.9. 
+Reporting of the DA 
+27 
+2.2 References 
+28 
+Part II. –SECTION 3 - Defined Approaches for Skin Sensitisation Potency Categorisation30 
+3.1 “Integrated Testing Strategy (ITS)” Defined Approach 
+30 
+3.1.1. 
+Summary 
+30 
+3.1.2. 
+Data interpretation procedure 
+31 
+3.1.3. 
+Description and limitations of the individual information sources 
+32 
+3.1.4. 
+Confidence in the ITS DA predictions 
+33 
+3.1.5. 
+Predictive capacity of the ITS DA vs the LLNA-based reference data 
+35 
+3.1.6. 
+Predictive capacity of the ITS DA vs Human Data 
+36 
+3.1.7. 
+Predictive capacity of the LLNA vs. Human Data 
+37 
+3.1.8. 
+Proficiency chemicals 
+38 
+3.1.9. 
+Reporting of the DA 
+38 
+3.2 References 
+39
+
+OECD/OCDE                          497      
+           
+© OECD (2025) 
+ 
+3 
+Part III–SECTION 4 - Defined Approaches for Derivation of a Quantitative Point of-Departure
+ 
+41 
+4.1 “SARA-ICE” Defined Approach for derivation of a point of departure 
+41 
+4.1.1. Summary 
+41 
+4.1.2. Data Interpretation Procedure 
+42 
+4.1.3. Description and limitations of the predictive model and its information sources 
+44 
+4.1.4. Confidence in the SARA-ICE DA predictions 
+46 
+4.1.5. Proficiency of SARA-ICE DA 
+47 
+4.1.6. Predictive Capacity of the SARA-ICE DA 
+48 
+4.1.7. Reporting of the DA 
+49 
+4.2 References 
+50 
+Annex 1: Prediction models for the individual in chemico/in vitro tests with multiple runs for 
+use in 2o3 DA 
+51 
+DPRA Prediction Model 
+52 
+ADRA Prediction Model 
+53 
+KeratinoSens Prediction Model 
+54 
+LuSens Prediction Model 
+55 
+EpisensA Prediction Model 
+56 
+h-CLAT Prediction Model 
+57 
+U-SENS Prediction Model 
+58 
+IL-8 Luc Prediction Model 
+59 
+GARDSkin Prediction Model 
+59 
+References 
+60 
+Annex 2: Assessing confidence in DASS ITS predictions 
+61 
+Introduction 
+61 
+Applicability domain of the individual information sources 
+61 
+In chemico/in vitro information source 
+61 
+In silico information source 
+61 
+Confidence in ITS predictions 
+63 
+How to apply the data interpretation procedure (DIP) for the ITS 
+63 
+References 
+67 
+Appendix I: Description, applicability domain, and protocol for Derek Nexus predictions 
+68 
+Description of Derek Nexus 
+68 
+Applicability domain of Derek Nexus 
+68 
+Protocol for generating predictions for skin sensitisation hazard using Derek Nexus v.6.1.0 with Derek 
+KB 2020 1.0 
+69 
+References 
+72 
+Appendix II: Description, applicability domain, and protocol for OECD QSAR Toolbox predictions 73 
+Description of OECD QSAR Toolbox 
+73 
+Applicability domain of OECD QSAR Toolbox 
+73 
+Protocol for generating predictions for skin sensitisation hazard using DASS AW in Toolbox 4.5.76 
+References 
+77 
+Appendix III: Protocol for Generating SARA-ICE Predictions 
+78 
+1. Establishing SARA-ICE Inputs 
+78 
+2. Running the SARA-ICE Model 
+80 
+3. SARA-ICE Model Outputs 
+80
+
+OECD/OCDE                          497 
+           
+© OECD (2025) 
+ 
+4 
+1.1. General Introduction 
+ 
+1. 
+A skin sensitiser refers to a substance that will lead to an allergic response 
+following repeated skin contact as defined by the United Nations Globally 
+Harmonized System of Classification and Labelling of Chemicals (UN GHS) (1). 
+There is general agreement on the key biological events underlying skin 
+sensitisation. The current knowledge of the chemical and biological mechanisms 
+associated with skin sensitisation initiated by covalent binding to proteins has been 
+summarised as an Adverse Outcome Pathway (AOP) (2) that begins with a 
+molecular initiating event, leading to intermediate key events (KEs), and 
+terminating with the adverse effect, allergic contact dermatitis. 
+2. 
+The skin sensitisation AOP focuses on chemicals that react with amino acid 
+residues (i.e. cysteine or lysine) such as organic chemicals. In this instance, the 
+molecular initiating event (i.e. the first KE), is the covalent binding of electrophilic 
+substances to nucleophilic centres in skin proteins. The second KE in this AOP 
+takes place in the keratinocytes and includes inflammatory responses as well as 
+changes in gene expression associated with specific cell signalling pathways such 
+as the antioxidant/electrophile response element (ARE)-dependent pathways. The 
+third KE is the activation of dendritic cells, typically assessed by expression of 
+specific cell surface markers, chemokines and cytokines. The fourth key event is 
+T-cell proliferation, and the adverse outcome is presentation of allergic contact 
+dermatitis. 
+3. 
+The assessment of skin sensitisation has typically involved the use of 
+laboratory animals. The classical methods that use guinea pigs, the Guinea Pig 
+Maximisation Test (GPMT) and the Buehler Test (OECD TG 406) (3) assess both 
+the induction and elicitation phases of skin sensitisation. The murine tests, such as 
+the local lymph node assay (LLNA) (OECD TG 429) (4) and its three non-
+radioactive modifications — LLNA: DA (OECD TG 442A) (5), LLNA: BrdU-ELISA, 
+and BrdU-FCM (OECD TG 442B) (6) — all assess the induction phase exclusively 
+and have gained acceptance, since they provide an advantage over the guinea pig 
+tests in terms of animal welfare together with an objective measurement of the 
+induction phase of skin sensitisation. 
+4. 
+Mechanistically-based in chemico and in vitro test methods (OECD TG 
+442C, 442D, 442E) (7, 8, 9) addressing the first three KEs of the skin sensitisation 
+AOP can be used to evaluate the skin sensitisation hazard potential of chemicals. 
+With the exception of the kinetic Direct Peptide Reactivity Assay (k-DPRA) 
+(TG442C), none of these test methods are considered sufficient stand-alone 
+replacements of animal data to conclude on the skin sensitisation potential of 
+chemicals or to provide information for potency sub-categorisation according to the 
+Section 1-Introduction
+
+OECD/OCDE                          497      
+           
+© OECD (2025) 
+ 
+5 
+UN GHS (sub-categories 1A and 1B). However, data generated with these in 
+chemico and in vitro methods addressing multiple KEs of the skin sensitisation 
+AOP can be used together, as well as with information sources such as in silico 
+and read-across predictions from chemical analogues, within integrated 
+approaches to testing and assessment (IATA) or defined approaches (DAs). 
+Results from the individual information sources can only be used in DAs if the 
+substances fall within the applicability domains of the methods, which are described 
+in the “Initial Considerations, Applicability and Limitations” sections of the 
+respective methods (TG 442C, Appendices I-II; TG 442D, Appendices IA-IC; TG 
+442E Annexes 1-4) (7, 8, 9), and in Appendices I-V of this guideline for the in silico 
+information sources. 
+5. 
+Results from multiple information sources can be used together in DAs to 
+achieve an equivalent or better predictive capacity than that of the animal tests to 
+predict responses in humans. A DA consists of a fixed data interpretation 
+procedure (DIP) (e.g. a mathematical model, a rule-based approach) applied to 
+data (e.g. in silico predictions, in chemico, in vitro data) generated with a defined 
+set of information sources to derive a prediction without the need for expert 
+judgment. Individual DAs for skin sensitisation and their respective information 
+sources were originally described in Guidance Document 256, Annex I/II (10) and 
+a preliminary assessment was published in Kleinstreuer et al (11). The DAs use 
+method combinations intended to overcome some of the limitations of the individual 
+methods to provide increased confidence in the overall result obtained. The 
+ultimate goal of DAs is to provide information that is equivalent to that provided by 
+animal studies, i.e. information that can be used for hazard identification, potency 
+(sub)-categorisation, and/or a quantitative measure of sensitisation potency, used 
+to derive a point of departure (PoD). 
+6. 
+Testing laboratories should consider all relevant available information on 
+the test chemical prior to conducting the studies as directed by a DA. All available 
+information could include, for example, the identity and chemical structure of the 
+test chemical and its physicochemical properties. Such information should be 
+considered in order to determine whether the individual OECD test guideline 
+methods and any in silico information source used under a specific DA are 
+applicable for the test chemical.
+
+OECD/OCDE                          497 
+           
+© OECD (2025) 
+ 
+6 
+7. 
+When performing a hazard evaluation, potency (sub)-categorisation, and/or 
+PoD prediction based on the output from an in vivo (e.g. LLNA) test, an in chemico 
+test, an in vitro test, an in silico approach, a DA, or any combination thereof, the 
+same principles always apply. That is, all available information relevant to the 
+chemical in question as well as toxicological data on structurally related test 
+chemicals, if available, should be taken into consideration. 
+8. 
+This Guideline was developed with the input of an OECD Expert Group on 
+Defined Approaches for Skin Sensitisation (EG DASS) comprised of scientific 
+experts 
+from 
+regulatory 
+agencies, 
+validation 
+bodies, 
+non-governmental 
+organisations, and industry. 
+9. 
+Multiple rule-based DAs are included in this Guideline and are described in 
+the context of their primary intended regulatory purpose: hazard identification, i.e. 
+discrimination between skin sensitisers and non-sensitisers (Part I), potency sub-
+categorisation (Part II), or derivation of a point of departure (Part III)1. The DA 
+included in Part II is also suitable for hazard identification (Part I). The DA(s) 
+included in Part III cannot be used in Part I or Part II unless mentioned specifically 
+for their use. The evaluation and review of the DAs are described in detail in the 
+Supporting document to the Guideline (GL) on Defined Approaches (DAs) for Skin 
+Sensitisation (12). 
+10. 
+A comprehensive dataset of 196 chemicals with DA predictions, data on 
+individual information sources, highly curated LLNA and Human Patch Predictive 
+Test (HPPT) data, and physicochemical properties, was compiled and is attached 
+as Annex 2 to the Supporting document to the Guideline (GL) on Defined 
+Approaches (DAs) for Skin Sensitisation (12). Information on the curation of this 
+data is detailed in Annexes 3 and 4 of the Supporting document to the Guideline 
+(GL) on Defined Approaches (DAs) for Skin Sensitisation (12). Out of the 196 
+chemicals, 168 chemicals have classifications based on LLNA data and 66 
+chemicals have classifications based on human data, which were all agreed upon 
+by the EG DASS and used to evaluate the performance of the DAs when using the 
+initially included (see paragraph 11) test methods and in silico models. Due to the 
+availability of data, this dataset contains mainly cosmetic ingredients but also other 
+types of chemicals that are used across sectors such as preservatives, dyes, or 
+food ingredients. The dataset is chemically diverse as shown by the range of 
+physicochemical properties covered by these chemicals: it contains small and large 
+molecules (molecular weight ranges from 30 to 512 g/mol), hydrophilic and 
+hydrophobic substances (Log P ranges from -3.9 to 9.4), liquids and solids (melting 
+point ranges from -122 to 253 ºC), volatile and non-volatile substances (boiling point 
+ranges from -19 to 445 ºC). Further details on the chemical space 
+characterization of the reference database are available in Section 4 of the 
+Supporting document to the Guideline (GL) on Defined Approaches (DAs) for Skin 
+Sensitisation 
+(12). 
+ 
+11. 
+This Guideline, when initially adopted, included DAs developed to be 
+performed with a specific set of methods, i.e. the Direct Peptide Reactivity Assay 
+(DPRA), KeratinoSens™, and the Human Cell Line Activation Test (h-CLAT), for 
+the “2 out of 3” approach (2o3), and DPRA, h-CLAT, and either Derek Nexus or 
+OECD quantitative structure-activity relationship ((Q)SAR) Toolbox for the 
+ 
+1 Point of departure – The point on a dose response curve established from experimental data used to derive a safe level
+
+OECD/OCDE                          497      
+           
+© OECD (2025) 
+ 
+7 
+integrated testing strategy (ITS). These DAs are referred as ‘classic DAs’ together 
+or ‘classic 2o3 DA’ and ‘classic ITS DA’ throughout this Guideline. In the course of 
+evaluating and developing the first DAs and specific information sources, a number 
+of analyses were conducted by the EG DASS members. These include the drafting 
+of an evaluation framework for each DA, building, curating, and characterising 
+chemical reference lists of human and murine data, and developing decision trees 
+and other tools to incorporate in silico information sources into the relevant DAs 
+and guideline. The group also identified sources of uncertainty and potential 
+limitations of the DAs and information sources, as well as borderline test results, 
+and assessed the impact of these on the performance of the DAs. These analyses 
+are specific to the creation of the original DASS guideline and information sources 
+published in 2021 and can be found in the main document and Annexes 1 & 3-8 
+of the Supporting document to the Guideline (GL) on Defined Approaches (DAs) 
+for Skin Sensitisation (12).  
+ 
+12. 
+ In 2025, this guideline was updated to (i) include similar methods2 to the 
+methods (see paragraph 11) used for the initial adoption of this guideline and (ii) 
+to include part III on Defined Approaches for derivation of PoD. Based on the 2025 
+revision, Annex 2 of the supporting document has been updated with new 
+performance information relevant to the new information sources and DAs that 
+have 
+been 
+added 
+to 
+the 
+guideline.  
+ 
+13. 
+ Since the original guideline adoption, other in chemico (included in TG 
+442C) and in vitro (included in TGs 442D/E) methods have been proposed and 
+inserted into this Guideline as alternative information sources in the DAs (see 
+Table 1.1 and subsequent sections of this document for the list of methods 
+permitted for use in each DA). The performances of the DAs using the alternative 
+information sources have been evaluated with available datasets for each 
+permutation and can be found in Tables 1.1-1.3 below and in Annexes 2 and 9 of 
+the Supporting document to the Guideline (GL) on Defined Approaches (DAs) for 
+Skin Sensitisation (12).  
+ 
+1.2 DAs included in the Guideline  
+1.2.1 DAs in Part I and Part II.   
+ 
+14. 
+The DAs currently described in Part I and Part II of this guideline are: 
+• The 2o3 defined approach to skin sensitisation hazard identification based 
+on in chemico (KE1) and in vitro (KE2/KE3) data (13, 14). See Part I. 
+• The integrated testing strategy (ITS) for UN GHS potency categorisation 
+based on in chemico (KE1) and in vitro (KE3) data, and in silico predictions 
+(15), with a DIP developed with EG DASS input. See Part II. 
+ 
+2 Similar methods in this guideline refer to methods that target a same key event (KE) and/or that are based on a similar 
+technology.
+
+OECD/OCDE                          497 
+           
+© OECD (2025) 
+ 
+8 
+15. 
+The DAs described in this guideline are based on the use of validated OECD 
+test 
+methods for 
+which 
+transferability, 
+within- 
+and 
+between-laboratory 
+reproducibility have been characterised in the validation phase (OECD 442C/D/E, 
+(7, 8, 9)).  
+16. 
+The ITS DAs make use of well-defined in silico information sources. 
+Information on each model, including its description, applicability domain, and 
+protocol to generate predictions is available in Appendices I-II. Additionally, key 
+information related to the OECD Principles for the Validation, for Regulatory 
+Purposes, of (Q)SAR Models (16), is described in individual QSAR Model 
+Reporting Format (QMRF) documents (17).  
+17. 
+All DAs described in Parts I and II of this guideline can be used to address 
+countries' requirements for discriminating sensitisers (i.e. UN GHS Category 1) and 
+non- sensitisers (UN GHS Not Classified (NC)), though they do so with different 
+sensitivities and specificities (detailed in the respective descriptions of each DA 
+and in Annexes 2 and 9 of the Supporting document to the Guideline (GL) on 
+Defined Approaches (DAs) for Skin Sensitisation) (12)). 
+18. 
+The ITS DA can also be used to discriminate chemicals into three UN GHS 
+potency categories (Category 1A = strong sensitisers; Category 1B = other 
+sensitisers), and NC. 
+19. 
+The known limitations and applicability domains of the individual information 
+sources were used to design workflows for assigning confidence to each of the 
+predictions produced by the DAs described in this guideline. In order to have a high 
+confidence prediction, the underlying data must meet criteria in the respective in 
+chemico/in vitro TGs (see TG 442C, Appendices I-II; TG 442D, Appendices IA-IC; 
+TG 442E Annexes 1-4 (7, 8, 9)); for the ITS DA, in silico predictions must fall within 
+the applicability domain of the model used (see Appendices I-II). DA predictions 
+with high confidence for hazard identification and/or potency categorisation are 
+considered conclusive. DA predictions with low confidence are considered 
+inconclusive for hazard identification and/or potency categorisation (see Sections 
+2.1.4 and 3.1.4 for further information).These inconclusive predictions may 
+nevertheless be considered in a weight-of-evidence approach and/or within the 
+context of an IATA together with other information sources (e.g. demonstration of 
+exposure to the test system, existing in vivo data, clinical data, read-across, other 
+in chemico/in vitro/in silico data, etc.). 
+20. 
+The performance of the classic DAs in this guideline (see paragraph 11) were 
+evaluated using a curated dataset of up to 168 test chemicals with classifications 
+based on LLNA and up to 66 chemicals with classifications based on human data 
+and corresponding information source data, where available. For additional details 
+see Annex 3 of the Supporting document to the Guideline (GL) on Defined 
+Approaches (DAs) for Skin Sensitisation (12). The performances of the DAs using 
+the alternative information sources3 have been evaluated against both LLNA and 
+human-based reference data, according to available datasets for each 
+permutation, and can be found in Table 1.1 below and in Annexes 2 and 9 of the 
+Supporting document to the Guideline (GL) on Defined Approaches (DAs) for Skin 
+Sensitisation (12).  
+ 
+3 Alternative Information Sources: Information sources based on similar methods to the specific set of methods used for the initial 
+adoption of this guideline for Part I and Part II
+
+OECD/OCDE                          497      
+           
+© OECD (2025) 
+ 
+9 
+21. 
+The performance range of the 2o3 and ITS DAs (high confidence 
+predictions only) against the LLNA-based reference data for predicting skin 
+sensitisation hazard (2o3 and ITS DAs) and potency (ITS DA only) is summarized 
+in Table 1.1. Note that specificity measures are more uncertain than sensitivities 
+due to lower number of negative reference chemicals. In addition, Table 1.2 and 
+Table 1.3 show the Balanced Accuracy (BA) for hazard, and Accuracy (Acc) for 
+potency, of all 2o3 and ITS DA permutations against LLNA-based reference data 
+and human-based reference data, respectively. For the ITS DA, there were no 
+strong sensitisers (1A) that were incorrectly predicted as being a non-sensitiser 
+(NC) or vice versa. Detailed performance statistics for each permutation of the ITS 
+DA are reported in Annex 2 and 9 the Supporting document to the Guideline (GL) 
+on Defined Approaches (DAs) for Skin Sensitisation (12). 
+22. 
+The performance range of the 2o3 and ITS DAs (high confidence predictions 
+only) against the human-based reference data for predicting skin sensitisation 
+hazard (2o3 and ITS DAs) and potency (ITS DA only).  Two ITS permutations 
+(Table 1.3) had lower accuracy than the LLNA when compared to human-based 
+reference data which was due to several underpredictions of 1A sensitisers as 1B 
+sensitisers. These underpredictions may be attributed to several considerations, 
+including human-based sub-categorizations derived from human data where the 
+predicted sensitising dose was close to the threshold between GHS 1A and GHS 
+1B sub-categorizations (termed GHS 1A- in Annex 4 of the Supporting document 
+to the OECD Guideline 497 on Defined Approaches for Skin Sensitisation for more 
+information on how this was derived). This lower accuracy is specific to these ITS 
+DA permutations only and should be taken into consideration when selecting 
+specific DAs to use.  The underprediction cases are discussed further in Annex 9 
+of the Supporting Document to the Guideline (GL) on Defined Approaches (DAs) 
+for Skin Sensitisation (12). Detailed performance statistics for each permutation of 
+the 2o3 and ITS DAs are reported in Annexes 2 and 9 of the Supporting document 
+to the Guideline (GL) on Defined Approaches (DAs) for Skin Sensitisation (12). 
+23. 
+The performance of the LLNA against the human-based reference data for 
+predicting skin sensitisation hazard (2o3 and ITS DAs) and potency (ITS DA only). 
+Note that the specificity measure is more uncertain than the sensitivity due to a 
+lower number of negative reference chemicals. Detailed performance statistics are 
+reported in Annex 2 of the Supporting Document to the Guideline (GL) on Defined 
+Approaches (DAs) for Skin Sensitisation (12).
+
+OECD/OCDE                          497 
+           
+© OECD (2025) 
+ 
+10 
+ 
+ 
+Table 1.1. Summary of the DAs Included in Part I/II of this Guideline 
+ 
+DA/ 
+Method 
+Information 
+Sources (one 
+each per KE 
+and/pr in 
+silico, where 
+applicable 
+Capability 
+Hazard 
+Performance 
+vs. LLNA 
+Hazard 
+Performance vs. 
+Human 
+Potency 
+Performance vs. 
+LLNA 
+ 
+Potency 
+Performance vs. 
+Human 
+2o3 DA 
+KE1: ADRA, DPRA 
+KE2: KeratinoSensTM, 
+LuSens, EpiSensA 
+KE3: GARD®skin, h- 
+CLAT, IL-8 Luc, U-
+SENSTM 
+Hazard 
+80-95% BA, 
+82-97% Sens, 
+72-100% Spec 
+72-97% BA, 
+84-97% Sens, 
+50-100% Spec 
+- 
+- 
+ITS DA 
+KE1: ADRA, DPRA 
+KE3: GARD®skin, h-
+CLAT, U-SENSTM 
+In silico: Derek 
+Nexus, OECD QSAR 
+Toolbox 
+Hazard, 
+Potency 
+78-88% BA, 
+91-94% Sens, 
+65-82% Spec 
+67-76% BA, 
+87-96% Sens, 
+44-57% Spec 
+ 
+66-80% 
+Accuracy 
+4-17% 
+overpredicted 
+13-18% 
+underpredicte
+d 
+ 
+54-75% 
+Accuracy 
+13-18% 
+overpredicted 
+13-31% 
+underpredicted 
+LLNA 
+(provided for 
+comparison) 
+in vivo 
+Hazard, 
+Potency 
+- 
+58% BA, 
+94% Sens, 
+22% Spec 
+- 
+60% 
+Accuracy 
+19% 
+overpredicted 
+21% 
+underpredicted 
+Note: The performance ranges are illustrated here, when evaluated against the maximal common dataset4. 
+For individual permutations of each DA, please refer to Annexes 2 and 9 of the Supporting document to the 
+Guideline (GL) on Defined Approaches (DAs) for Skin Sensitisation (12). For hazard performance, sensitivity 
+(Sens) is the true positive rate, specificity (Spec) is the true negative rate, and balanced accuracy (BA) is the 
+average of sensitivity and specificity. Due to the imbalanced nature of the reference data, the measures of 
+specificity are more uncertain than the measures of sensitivity. For potency performance, accuracy reflects 
+the overall correct classification rate for all UN GHS sub-categories (Category 1A = strong sensitisers; 
+Category 1B = other sensitisers, and Not Classified (NC). Overprediction refers to chemicals misclassified as 
+more potent, i.e., a NC predicted to be 1A/1B or a 1B sensitiser predicted to be a 1A sensitiser. 
+Underprediction refers to chemicals misclassified as less potent, i.e., a 1A sensitiser predicted to be a 1B/NC, 
+a 1B sensitiser predicted to be NC. Due to the imbalanced nature of the reference data, the measures of 
+Specificity, and consequently also Balanced Accuracy, are more uncertain for classes that contain a low 
+number of chemicals, e.g. NC chemicals. This is especially true for the human reference data set. Statistics 
+reflect conclusive DA predictions only. This represents the information sources evaluated for inclusion under 
+the initial adoption and 2025 update of this guideline.  
+Model Abbreviations: ADRA: Amino acid Derivative Reactivity Assay; DPRA: Direct Peptide Reactivity Assay; 
+EpiSensA; Epidermal Sensitization Assay; GARD: Genomic Allergen Rapid Detection; h-CLAT: Human Cell 
+Line Activation Test; IL-8 Luc: Interleukin-8 Reporter Gene Assay; U-SENS: U-937 cell line activation test. 
+ 
+24. 
+Table 1.1 provides an overview of the DAs included in this Guideline, their 
+information sources used, whether they provide hazard and/or potency prediction, 
+and summarises their performance range against the LLNA and human-based 
+reference data. The LLNA performance against human-based reference data is 
+included in Table 1.1 as a basis for comparison. More details are provided in Part 
+Iand Part IIof this Guideline, as well as in the Supporting document to the Guideline 
+(GL) on Defined Approaches (DAs) for Skin Sensitisation (12). 
+ 
+4 Datasets which use all available data points for a specific permutation of the 2o3 or ITS DA (see Annex 9 of the Supporting 
+document to the Guideline (GL) on Defined Approaches (DAs) for Skin Sensitisation (12)).
+
+OECD/OCDE                          497      
+           
+© OECD (2025) 
+ 
+11 
+ 
+ 
+Table 1.2. List of the 2o3 DA Permutations Included in this Guideline and Their Balanced Accuracy 
+(hazard) Against LLNA- and Human-based Reference Data 
+2o3 DA Permutation 
+BA 
+% 
+(LLNA) 
+BA 
+% 
+(Human) 
+ADRA, EpiSensA, GARDskin 
+93.2 
+80.3 
+ADRA, EpiSensA, IL-8 
+87.9 
+76.7 
+ADRA, EpiSensA, U-SENS 
+83.9 
+86.1 
+ADRA, EpiSensA, h-CLAT 
+88.3 
+82.8 
+ADRA, KeratinoSens, GARDskin 
+88.4 
+80.5 
+ADRA, KeratinoSens, IL-8 
+88.3 
+81.3 
+ADRA, KeratinoSens, U-SENS 
+80.1 
+85.9 
+ADRA, KeratinoSens, h-CLAT 
+87.3 
+81.9 
+ADRA, LuSens, GARDskin 
+94.9 
+78.0 
+ADRA, LuSens, IL-8 
+90.8 
+85.6 
+ADRA, LuSens, U-SENS 
+83.6 
+92.1 
+ADRA, LuSens, h-CLAT 
+92.3 
+84.3 
+DPRA, EpiSensA, GARDskin 
+92.7 
+78.5 
+DPRA, EpiSensA, IL-8 
+88.6 
+71.9 
+DPRA, EpiSensA, U-SENS 
+83.8 
+96.2 
+DPRA, EpiSensA, h-CLAT 
+89.4 
+81.9 
+DPRA, KeratinoSens, GARDskin 
+85.3 
+87.1 
+DPRA, KeratinoSens, IL-8 
+85.3 
+89.0 
+DPRA, KeratinoSens, U-SENS 
+80.9 
+86.9 
+DPRA, KeratinoSens, h-CLAT* 
+83.5 
+88.4 
+DPRA, LuSens, GARDskin 
+94.6 
+86.4 
+DPRA, LuSens, IL-8 
+91.4 
+97.0 
+DPRA, LuSens, U-SENS 
+83.3 
+94.7 
+DPRA, LuSens, h-CLAT 
+93.3 
+97.4 
+LLNA 
+ 
+57.9 
+Note: The accuracy of each 2o3 DA permutation is illustrated here when evaluated against the maximal 
+common dataset5. For more detailed performance statistics of each DA permutation, please refer to Annexes 
+2 and 9 of the Supporting document to the Guideline (GL) on Defined Approaches (DAs) for Skin Sensitisation 
+(12). For hazard performance, balanced accuracy (BA) is the average of sensitivity and specificity. This 
+represents the information sources evaluated for inclusion under the update of this guideline in 2025. * refers 
+to the classic 2o3 DA,  
+Model Abbreviations: ADRA: Amino acid Derivative Reactivity Assay; DPRA: Direct Peptide Reactivity Assay; 
+EpiSensA; Epidermal Sensitization Assay; GARD: Genomic Allergen Rapid Detection; h-CLAT: Human Cell 
+Line Activation Test; IL-8 Luc: Interleukin-8 Reporter Gene Assay; U-SENS: U-937 cell line activation test. 
+ 
+ 
+ 
+ 
+5 Datasets which use all available data points for a specific permutation of the 2o3 or ITS DA (see Annex 9 of the Supporting 
+document to the Guideline (GL) on Defined Approaches (DAs) for Skin Sensitisation (12)).
+
+OECD/OCDE                          497 
+           
+© OECD (2025) 
+ 
+12 
+Table 1.3. List of the ITS DA Permutations Included in this Guideline and Their Balanced Accuracy 
+(hazard) and Accuracy (potency) Against LLNA- and Human-based Reference Data 
+ITS DA Permutation 
+Hazard 
+Potency 
+BA 
+% 
+(LLNA) 
+BA 
+% 
+(Human) 
+Acc 
+% 
+(LLNA) 
+Acc 
+% 
+(Human) 
+ADRA, GARDskin, Derek 
+82.2 
+70.7 
+77.3 
+62.2 
+ADRA, GARDskin, OECD.TB 
+84.9 
+70.5 
+79.2 
+60.5 
+ADRA, U-SENS, Derek 
+81.5 
+67.6 
+70.4 
+55.2 
+ADRA, U-SENS, OECD.TB 
+82.3 
+70.0 
+70.3 
+53.8 
+ADRA, h-CLAT, Derek 
+82.8 
+67.7 
+73.0 
+62.7 
+ADRA, h-CLAT, OECD.TB 
+82.1 
+71.2 
+72.8 
+64.9 
+DPRA, GARDskin, Derek 
+81.5 
+76.5 
+78.7 
+75.0 
+DPRA, GARDskin, OECD.TB 
+87.8 
+76.4 
+79.7 
+73.7 
+DPRA, U-SENS, Derek 
+79.8 
+69.4 
+67.6 
+66.1 
+DPRA, U-SENS, OECD.TB 
+78.0 
+68.4 
+66.2 
+63.6 
+DPRA, h-CLAT, Derek* 
+80.7 
+68.6 
+70.2 
+72.7 
+DPRA, h-CLAT, OECD.TB* 
+79.8 
+69.4 
+70.6 
+71.4 
+LLNA 
+ 
+57.9 
+ 
+59.6 
+Note: The accuracy of each ITS DA permutation is illustrated here when evaluated against the maximal 
+common dataset6. For more detailed performance statistics of each DA permutation, please refer to Annexes 
+2 and 9 of the Supporting document to the Guideline (GL) on Defined Approaches (DAs) for Skin Sensitisation 
+(12). For hazard performance, balanced accuracy (BA) is the average of sensitivity and specificity. For potency 
+performance, accuracy (Acc) reflects the overall correct classification rate for all UN GHS sub-categories 
+(Category 1A = strong sensitisers; Category 1B = other sensitisers, and Not Classified (NC). This represents 
+the information sources evaluated for inclusion under the update of this guideline in 2025. * refers to the 
+classic ITS DAs. 
+Model Abbreviations: ADRA: Amino acid Derivative Reactivity Assay; DPRA: Direct Peptide Reactivity Assay; 
+EpiSensA; Epidermal Sensitization Assay; GARD: Genomic Allergen Rapid Detection; h-CLAT: Human Cell 
+Line Activation Test; IL-8 Luc: Interleukin-8 Reporter Gene Assay; U-SENS: U-937 cell line activation test. 
+ 
+1.2.2. DAs in Part III  
+25. 
+The DA(s) currently described in Part III of this guideline are: 
+• 
+The Skin Allergy Risk Assessment – Integrated Chemical Environment 
+(SARA-ICE) defined approach which is a Bayesian Statistical model for the 
+derivation of a quantitative point of departure based on in Chemico (KE1), in vitro 
+(KE2/KE3), and/or (existing) in vivo (KE4/AO) data (4-9). See Part III.   
+26. 
+The SARA-ICE DA in part III allows for the use of existing in vivo data from 
+the LLNA or from human predictive patch tests as available; no new in vivo data 
+should be generated for use in this DA.  
+27. 
+SARA-ICE in Part III is a Bayesian statistical model which estimates a 
+probabilistic distribution from which a quantitative point of departure for skin 
+ 
+6 Datasets which use all available data points for a specific permutation of the 2o3 or ITS DA (see Annex 9 of the Supporting 
+document to the Guideline (GL) on Defined Approaches (DAs) for Skin Sensitisation (12)).
+
+OECD/OCDE                          497      
+           
+© OECD (2025) 
+ 
+13 
+sensitisation risk assessment can be derived. SARA-ICE is freely available for 
+download within a graphical user interface (LINK TO SARA-ICE APP7) 
+28. 
+The SARA-ICE DA derives a point of departure for risk assessment. The 
+model estimates the does at which skin sensitisation is likely to occur in 1% of an 
+eligible human population (estimated dose, ED01), reported as a distribution with 
+associated confidence intervals. An upper bound is imposed on ED01 values, at a 
+threshold of 60,000 µg cm-2. This reflects the bound for a GHS classification of NC 
+and an implicit assumption that the chemical under consideration for PoD based 
+risk assessment is a sensitiser at some exposure level. The PoD is therefore 
+defined as the best estimate (geometric mean) of the distribution of the ED01 
+truncated at 60,000 µg cm-2.   
+29. 
+SARA-ICE PoDs, computed as the mean of the ED01 distribution conditional 
+on it being less than 60,000 µg cm-2, were compared to reference DSA1+ values8 
+reported in literature (18). The reference value is termed the median sensitization 
+potency estimate (MSPE) and is reported as a weight-of-evidence potency metric 
+calculated from human data. SARA-ICE PoD estimates were computed for the 196 
+chemicals in the defined approaches for skin sensitisation (DASS) reference data 
+(12) using a) NAM data also reported in the evaluation set (single input for DPRA, 
+KeratinoSens and h-CLAT) and b) a single kDPRA sourced from (Natsch and 
+Gerberick, 2022). A DSA1+ MSPE value was defined for 54 / 66 chemicals with 
+human reference data in the DASS evaluation set. A positive correlation exists 
+(Pearson correlation coefficient is 0.64) and 46 / 54 (85%) of SARA-ICE PoDs are 
+within 10-fold of the reference value. Roughly one third, 19 / 54 (35%) of SARA-
+ICE PoDs are within 2-fold of the reference value. SARA-ICE PoDs, calculated in 
+the same way as above, were also compared to 154 chemicals with reference 
+LLNA MLLPs sourced from OECD DASS reference data (12). A positive correlation 
+exists (Pearson correlation coefficient is 0.71) and 122 / 154 (79%) of SARA-ICE 
+PoDs are within 10-fold of the reference value. Again, roughly one third, 49 / 154 
+(32%) of SARA-ICE PoDs are within 2-fold of the reference value. Figure 1.1 shows 
+SARA-ICE PoDs compared to reference MSPEs (left) and reference LLNA MLLPs 
+(right). Further analyses are made in Appendix 3 of the Supporting document to 
+the Guideline (GL) on Defined Approaches (DAs) for Skin Sensitisation (12). 
+ 
+ 
+ 
+ 
+7 https://ntp.niehs.nih.gov/whatwestudy/niceatm/test-method-evaluations/skin-sens/da/SARA-ICE 
+8 The hypothetical dose per skin area (DSA) that sensitizes exactly one test subject
+
+OECD/OCDE                          497 
+           
+© OECD (2025) 
+ 
+14 
+Figure 1.1. Comparison of SARA-ICE PoDs estimated vs. reference values  
+ 
+Left: Comparison of SARA-ICE PoDs estimated from in chemico and in vitro inputs against reference DSA1+ MSPE values. 
+Right: Comparison of SARA-ICE PoDs against reference LLNA MLLPs. Red points indicate compounds which are negative 
+in the LLNA. The grey zone indicates the region in which PoDs and reference values are within 10-fold of each other. 
+ 
+ 
+1.3 Limitations 
+30. 
+The identified limitations of the DAs and their individual components are 
+summarised below. The limitations of the DAs are based on the limitations of the 
+individual in chemico/in vitro/in silico information sources. Details on the limitations 
+of individual in chemico/in vitro and in silico information sources to determine 
+confidence in Part I/Part II DA predictions are provided in Sections 2.1.4 and 3.1.4 
+and in the respective TGs (TG 442C, Appendices I-II; TG 442D, Appendices IA-IC; 
+TG 442E, Annexes 1-4) (7, 8, 9) and in Appendices I-II of this Guideline. 
+31. 
+The SARA-ICE DA is intended to predict a point of departure for use in risk 
+assessment, so the performance assessment is based on quantitative regression 
+(Figure 1.1). More details are provided in Part III of this Guideline, as well as in the 
+Supporting Document to the Guideline (GL) on Defined Approaches (DAs) for Skin 
+Sensitisation (12).  
+ 
+1.3.1. 
+Limitations of individual in chemico/in vitro information sources 
+32. 
+Users should refer to the limitations of the individual in chemico/in vitro test 
+methods as specified in their respective TGs, which are revised as new data 
+become available and should be consulted regularly (TG 442C, Appendices I-II; TG 
+442D, Appendices IA-IC; TG 442E Annexes 1-4) (7, 8, 9). The most up-to-date 
+published version of the respective TGs should always be used. For example,
+
+OECD/OCDE                          497      
+           
+© OECD (2025) 
+ 
+15 
+some types of chemicals such as metals, inorganic compounds, lipophilic 
+substances, substances of unknown or variable compositions, complex reaction 
+products and biological materials (UVCBs) and mixtures, may not be within the 
+applicability domain for certain test methods. When considering testing of mixtures, 
+difficult-to-test chemicals (e.g. unstable), or test chemicals not clearly within the 
+applicability domain, upfront consideration should be given to whether the results 
+of such testing will yield results that are meaningful scientifically. In cases where 
+evidence can be demonstrated on the non-applicability of the information source 
+to specific categories of chemicals, the information source should not be used for 
+those specific categories of chemicals. 
+33. 
+Individual assay results within borderline ranges (BRs; Annex 1) may yield 
+inconclusive 2o3 DA predictions. The applicability of individual information sources 
+is described in the relevant Test Guideline (in chemico/in vitro). The consideration 
+of limitations of individual in chemico/in vitro test methods in each 2o3 and ITS DA 
+is detailed in Section 2.1.4 (Figure 2.1) and Section 3.1.4 (Figure 3.1). 
+ 
+1.3.2. 
+Limitations of in silico information sources 
+34. 
+The ITS DA includes an in silico tool as an information source. These tools 
+can either perform automated read-across or (Q)SAR predictions. (Q)SARs include 
+both structure- activity relationship (SAR) models (i.e. structural alerts, expert 
+systems) and quantitative structure-activity relationship (QSAR) models (i.e. 
+statistical tools). (Q)SAR models should fulfil the OECD Principles for the 
+Validation, for Regulatory Purposes, of (Q)SAR Models and be described in a 
+QSAR Model Reporting Format (QMRF) document (16, 17)9. One of the OECD 
+QSAR validation principles refers to a defined domain of applicability. The 
+applicability domain is the response and chemical structure space in which the 
+model makes predictions with a given reliability and the applicability domain should 
+therefore consider the parametric, structural, mechanistic, metabolic and response 
+space of the model. Where a DA for skin sensitisation includes an in silico tool, 
+users should refer to the limitations and applicability domain of the individual in silico 
+tool as detailed in Appendices I-II of this Guideline. Depending on the DIP, 
+chemicals outside the in silico model’s applicability domain may result in DA 
+predictions of low confidence that are considered inconclusive. 
+1.3.3. 
+Limitations of DAs 
+35. 
+  For the 2o3 DA, BRs have been defined for the individual assays 
+addressing the three KE of the DA, in order to define areas where lower confidence 
+may exist (for details see Section 2.1.4 and Annex 1 of this Guideline, and 
+Section 3.3 and Annex 7 of the Supporting document to the Guideline (GL) on 
+Defined Approaches (DAs) for Skin Sensitisation) (12). Positive and/or negative 
+test results falling within these BRs and/or individual assay limitations have lower 
+confidence and may result in inconclusive 2o3 DA predictions. Inconclusive 
+predictions are also possible for the ITS DA (for details see Section 3.1.4 (Figure 
+3.1) and Annex 2 of this Guideline. Inconclusive predictions are not relevant for 
+ 
+9 The QMRF has been slightly adapted for reporting other in silico model predictions in the context of DASS. The adapted QPRF 
+can be found on the OECD site for spreadsheets and software associated with OECD Test Guidelines on Health Effects: 
+https://www.oecd.org/en/topics/sub-issues/testing-of-chemicals/software-test-guidelines.html
+
+OECD/OCDE                          497 
+           
+© OECD (2025) 
+ 
+16 
+SARA-ICE for PoD determination as this is a continuous metric (not categorical) 
+made upon the assumption a chemical is a sensitiser. 
+36. 
+Inconclusive DA predictions may nevertheless be considered in a weight-
+of- evidence approach and/or within the context of an IATA together with other 
+information sources (e.g. demonstration of exposure to the test system, existing in 
+vivo data, clinical data, read-across, other in vitro/in chemico/in silico data, etc.). 
+ 
+37. 
+As the available data for each method and in silico tool differ slightly, 
+maximal common datasets were used for each permutation to allow direct 
+comparison to the performance of the classic DAs, i.e. 2o3 (original: DPRA, 
+KeratinoSens™, h-CLAT) and ITS (original: DPRA, h-CLAT, Derek Nexus 
+(ITSv1)/OECD (Q)SAR Toolbox (ITSv2). The maximal common datasets use all 
+available data points for a specific permutation of the DA. Beyond specific method 
+or tool applicability domain limitations, no notable differences in performance 
+among the DAs, including substitution of original with alternate information sources 
+based on similar methods 10 , were noted based on specific physicochemical 
+properties or chemical classes. Hazard identification performance of the DAs in 
+comparison to LLNA-based reference data is broadly equivalent to that of the 
+classic DAs. Further, for hazard, all DAs offer better performance than the LLNA 
+against human-based reference data. For potency, when compared against 
+human-based reference data, 8/10 (80%) ITS permutations have equivalent or 
+better accuracy than the LLNA. (60%). Two ITS permutations (Table 1.3) had lower 
+accuracy than the LLNA when compared to human-based reference data which 
+was due to several underpredictions of 1A sensitisers as 1B sensitisers. These 
+underpredictions may be attributed to several considerations, including human-
+based sub-categorizations derived from human data where the predicted 
+sensitising dose was close to the threshold between GHS 1A and GHS 1B sub-
+categorizations (termed GHS 1A- in Annex 4 of the Supporting document to the 
+OECD Guideline 497 on Defined Approaches for Skin Sensitisation for more 
+information on how this was derived). This lower accuracy is specific to these ITS 
+DA permutations only and should be taken into consideration when selecting 
+specific DAs to use; use of these specific iterations needs to be justified. These 
+underprediction cases are discussed further in Annex 9 of the Supporting 
+document to the Guideline (GL) on Defined Approaches (DAs) for Skin 
+Sensitisation (1). In addition, in determining which DA to use, the applicability 
+domain of the substance should be the primary driver on prioritising the selection 
+of a method from TG 442C-E and/or in silico supporting documentation 
+(Appendices I-II of this Guideline). DAs that utilise methods outside the applicability 
+domain of the test substance are not appropriate for use. Additional considerations 
+in selecting a DA may be related to the ultimate regulatory need. 
+ 
+ 
+10 Similar methods in this guideline refer to methods that target a same key event (KE) and/or that are based on a similar 
+technology.
+
+OECD/OCDE                          497      
+           
+© OECD (2025) 
+ 
+17 
+1.4 References 
+ 
+1. United Nations (UN) (2023). Globally Harmonized System of Classification 
+and Labelling of Chemicals (GHS). Tenth revised edition, New York and 
+Geneva, 
+United 
+Nations 
+Publications. 
+Available 
+at: 
+[https://unece.org/transport/dangerous-goods/ghs-rev10-2023] 
+2. OECD (2012). Series on Testing and Assessment No. 168. The Adverse 
+Outcome Pathway for Skin Sensitisation Initiated by Covalent Binding to 
+Proteins. Part 1: Scientific Evidence. Organisation for Economic 
+Cooperation 
+and 
+Development, 
+Paris. 
+Available 
+at: 
+[https://www.oecd.org/chemicalsafety/testing/series-testing-assessment-
+publications-number.htm] 
+3. OECD (2022). OECD Guidelines for the Testing of Chemicals No. 406. Skin 
+Sensitisation. Organisation for Economic Cooperation and Development, 
+Paris. Available at: (oecd-ilibrary.org). 
+4. OECD (2010). OECD Guidelines for Chemical Testing No. 429. Skin 
+sensitisation: Local Lymph Node assay. Organisation for Economic 
+Cooperation and Development, Paris. Available at :(oecd-ilibrary.org). 
+5. OECD (2010). OECD Guidelines for Chemical Testing No. 442A.Skin 
+sensitisation: Local Lymph Node assay: DA. Organisation for Economic 
+Cooperation and Development, Paris. Available at:(oecd-ilibrary.org).. 
+6. OECD (2024). OECD Guidelines for Chemical Testing No. 442B. Skin 
+sensitisation: Local Lymph Node assay: BrdU-ELISA or –FCM. 
+Organisation for Economic Cooperation and Development, Paris. Available 
+at: (oecd-ilibrary.org). 
+7. OECD (2024). OECD Guideline for the Testing of Chemicals No. 442C: In 
+chemico Skin Sensitisation: Assays addressing the Adverse Outcome 
+Pathway key even on covalent binding to proteins).In chemico. Paris, 
+France: Organisation for Economic Cooperation and Development. 
+Available at: (oecd-ilibrary.org). 
+8. OECD (2024), OECD Key Event based test Guideline 442D: In vitro Skin 
+Sensitisation Assays Addressing AOP Key Event on Keratinocyte 
+Activation. Organisation for Economic Cooperation and Development, 
+Paris. Available at:(oecd-ilibrary.org). 
+9. OECD (2024). OECD Key event-based test Guideline 442E: In vitro Skin 
+Sensitisation Assays Addressing the Key Event on Activation of Dendritic 
+Cells on the Adverse Outcome Pathway for Skin Sensitisation. 
+Organisation for Economic Cooperation and Development, Paris. Available 
+at: (oecd-ilibrary.org). 
+10. OECD (2016). Series on Testing & Assessment No. 256: Guidance 
+Document On The Reporting Of Defined Approaches And Individual 
+Information Sources To Be Used Within Integrated Approaches To Testing 
+And Assessment (IATA) For Skin Sensitisation, Annex 1 and Annex 2. 
+Organisation 
+for 
+Economic 
+Cooperation 
+and 
+Development,
+Paris. 
+Available 
+at:
+
+OECD/OCDE                          497 
+           
+© OECD (2025) 
+ 
+18 
+[https://www.oecd.org/chemicalsafety/testing/series-testing-assessment-
+publications-number.htm]. 
+11. Kleinstreuer, NC, Hoffmann, S, Alépée, N, Allen, D, Ashikaga, T, Casey, 
+W, Clouet, E, Cluzel, M, Desprez, B, Gellatly, N, Göbel, C, Kern, PS, Klaric, 
+M, Kühnl, J, Martinozzi-Teissier, S, Mewes, K, Miyazawa, M, Strickland, J, 
+van Vliet, E, Zang, Q, Petersohn, D. (2018). Non-Animal Methods to Predict 
+Skin Sensitization (II): an assessment of defined approaches. Crit Rev 
+Toxicol Feb 23:1-16. doi: 10.1080/10408444.2018.1429386. 
+ 
+12. OECD (2021). Series on Testing and Assessment No. 336: Supporting 
+document to the Guideline (GL) on Defined Approaches (DAs) for Skin 
+Sensitisation. Organisation for Economic Cooperation and Development, 
+Paris. Available at: [https://www.oecd.org/chemicalsafety/testing/series-
+testing-assessment-publications-number.htm]. 
+13. Bauch C, Kolle SN, Ramirez T, Eltze T, Fabian E, Mehling A, Teubner W, 
+van Ravenzwaay B, Landsiedel R. (2012). Putting the parts together: 
+combining in vitro methods to test for skin sensitizing potentials. Regul 
+Toxicol Pharmacol, 63:489-504. 
+14. Urbisch D, Mehling A, Guth K, Ramirez T, Honarvar N, Kolle S, Landsiedel 
+R, Jaworska J, Kern PS, Gerberick F, Natsch A, Emter R, Ashikaga T, 
+Miyazawa M, Sakaguchi H. (2015). Assessing skin sensitization hazard in 
+mice and men using non-animal test methods, Regul Toxicol Pharmacol, 
+71:337-51. 
+15. Takenouchi, O., Fukui, S., Okamoto, K., Kurotani, S., Imai, N., Fujishiro, M., 
+Kyotani, D., Kato, Y., Kasahara, T., Fujita, M., Toyoda, A., Sekiya, D., 
+Watanabe, S., Seto, H., Hirota, M., Ashikaga, T., & Miyazawa, M. (2015). 
+Test battery with the human cell line activation test, direct peptide reactivity 
+assay and DEREK based on a 139 chemical data set for predicting skin 
+sensitizing potential and potency of chemicals. J Appl Tox, 35:1318-1332.  
+ 
+16. OECD Principles for The Validation, For Regulatory Purposes, Of 
+(Quantitative) Structure-Activity Relationship Models, Organisation for 
+Economic 
+Cooperation 
+and 
+Development, 
+Paris. 
+Available 
+at: 
+[https://www.oecd.org/env/ehs/risk-assessment/37849783.pdf].  
+17. OECD (2025) Webpage for Software to be used with Test Guidelines: 
+https://www.oecd.org/en/topics/sub-issues/testing-of-chemicals/software-
+test-guidelines.html 
+18. Herzler M,  Abedini J, Allen DG, Germolec D, Gordon J, Ko HS, Matheson 
+J, Reinke E, Strickland J, Thierse HJ, To K, Truax J, Vanselow JT, 
+Kleinstreuer N. (2024) Use of human predictive patch test (HPPT) data for 
+the classification of skin sensitization hazard and potency, Arch Toxicol, 98: 
+1253- 1269
+
+OECD/OCDE                          497      
+           
+© OECD (2025) 
+ 
+19 
+ 
+ 
+38. 
+Part I of this guideline applies to Defined Approaches (DAs) that are 
+intended solely for hazard identification, i.e. distinguishing between sensitisers and 
+non-sensitisers. A summary of the DAs for hazard identification is provided below; 
+additional detailed information can be found in the Supporting document to the 
+Guideline (GL) on Defined Approaches (DAs) for Skin Sensitisation (1). Note that 
+the ITS DAs can also be used for hazard characterization; please see Part II for 
+more detail.  
+ 
+ 
+2.1 “2 out of 3” Defined Approach 
+2.1.1. 
+Summary 
+39. 
+The 2 out of 3 (2o3) DA is intended for the identification of the skin 
+sensitisation hazard of a chemical (i.e. UN GHS Cat. 1 vs. UN GHS NC) without 
+the use of animal testing, The data interpretation procedure (DIP) is currently not 
+designed to provide information on the potency of a skin sensitiser. 
+40. 
+The combination of test methods included in the 2o3 DA covers at least two 
+of the first three KEs of the AOP leading to skin sensitisation, i.e. KE1: protein binding 
+(OECD TG 442C) (2); KE2: keratinocyte activation (OECD TG 442D) (3); and KE3: 
+dendritic cell activation (OECD TG 442E) (4). 
+41. 
+The DIP requires that two concordant results obtained from methods 
+addressing at least two of the first three KEs of the skin sensitisation AOP 
+determine the final classification. For the classic 2o3 DA was evaluated against a 
+curated dataset of up to168 chemicals with LLNA-based reference data and up to 
+66 chemicals with human-based reference data agreed upon by the EG DASS 
+(Annex 2 of the Supporting Document to the Guideline (GL) on Defined 
+Approaches (DAs) for Skin Sensitisation (1). The performance of the DAs using 
+the original (i.e., classic DAs) and alternative information sources has been 
+Part I. – Section 2 - Defined Approaches 
+for 
+Skin 
+Sensitisation 
+Hazard 
+Identification
+
+OECD/OCDE                          497 
+           
+© OECD (2025) 
+ 
+20 
+evaluated against both LLNA and human-based reference data, according to 
+available datasets for each permutation, and can be found in Tables 2.2-2.4 below 
+and in Annexes 2 and 9 of the Supporting Document to the Guideline (GL) on 
+Defined Approaches (DAs) for Skin Sensitisation (1). It should be noted that due to 
+the imbalanced nature of the reference data (higher numbers of UN GHS Cat. 1 
+than UN GHS NC), the measures of balanced accuracy are more uncertain, 
+particularly in the case of the human data comparison. 
+2.1.2. 
+Data interpretation procedure 
+42. 
+The DIP in the 2o3 DA is a transparent, rule-based approach requiring no 
+expert judgment (5, 6, 7). The approach predicts skin sensitisation hazard by 
+sequential testing, in an undefined order, in up to three of the internationally 
+accepted non-animal assays mapping to KE1-3. In other words, the assays are run 
+for two KEs, and if these assays provide consistent results, then the chemical is 
+predicted accordingly as skin sensitiser or non-sensitiser. If the first two assays 
+provide discordant results, the assay for the remaining KE is run. The overall result 
+is based on the two concordant findings considering the confidence of the obtained 
+predictions as described in Section 2.1.4. 
+43. 
+The performance of the 2o3 DA was found to be impacted by the 
+consideration of BRs for each of the methods, as described below in Section 2.1.4, 
+and further detailed in Section 3.3 and Annex 7 of the Supporting Document to 
+the Guideline (GL) on Defined Approaches (DAs) for Skin Sensitisation (1). A 
+decision tree is provided in Figure 2.1 of Section 2.1.4 to derive predictions for the 
+2o3 DA, with no modification of the 2o3 DA DIP.  
+2.1.3. 
+Description and limitations of the individual information sources 
+44. 
+The individual information sources in the DA are assays included in OECD 
+KE- based TGs for skin sensitisation (OECD TG 442C, 442D, 442E) (2, 3, 4), and 
+the details for the individual protocols are provided therein. 
+45. 
+The following assays from those TGs have been characterised and included 
+in the 2o3 DA. 
+• 
+KE1 (Amino acid Derivative Reactivity Assay (ADRA), Direct Peptide 
+Reactivity Assay (DPRA); TG 442C) (2): Skin sensitisers are generally electrophilic 
+and react with the nucleophilic moieties of proteins. The ADRA and DPRA measure 
+depletion of two peptides/amino acids containing either cysteine or lysine residues 
+due to covalent binding. Test protocols and prediction models are found in the TG. 
+If borderline results are obtained for peptide depletion, additional testing should be 
+conducted, as specified in OECD TG 442C and in Annex 1. 
+• 
+KE2 (EpiSensA, LuSens, KeratinoSens™; TG 442D) (3): Activation of 
+keratinocytes is demonstrated via either a) reaction of human, immortalized 
+keratinocytes harbouring a reporter gene construct via the Nrf2-Keap1 pathway 
+(KeratinoSens, LuSens), or b) quantification of changes in the expression of 
+marker genes associated with keratinocyte activation in a reconstructed human 
+epidermis model (EpiSensA). Test protocols and prediction models are found in 
+the TG. If borderline results are obtained for luciferase induction, additional testing 
+should be conducted, as specified in Annex 1.
+
+OECD/OCDE                          497      
+           
+© OECD (2025) 
+ 
+21 
+• 
+KE3 (Genomic Allergen Rapid Detection test (GARD®Skin), Human Cell 
+Line Activation Test (h-CLAT), Interleukin-8 Reporter Gene Assay (IL-8 Luc), U937 
+Cell Line Activation Test (U-SENS); TG 442E) (4): Activation of antigen presenting 
+cells is characterised by either a) a change in the expression of cell surface 
+marker(s) associated with the process of activation of monocytes and DC following 
+exposure to sensitisers (e.g. CD86, CD54; h-CLAT, U-SENS),b) changes in IL-8 
+expression, a cytokine associated with the activation of DC (IL-8 Luc) or c) an end-
+point specific genomic biomarker signature (GARD®skin). Test protocols and 
+prediction models are found in the TG. If borderline results are obtained for the 
+assays, additional testing should be conducted, as specified in Annex 1. 
+46. 
+The current limitations of individual in chemico and in vitro test methods, 
+such as limited solubility, are described in their respective TGs (TG 442C, 
+Appendices I-II; TG 442D, Appendices IA-I1C; TG 442E, Annexes 1-4) and the 
+validation studies cited therein (2, 3, 4). 
+2.1.4. 
+Confidence in the 2o3 DA predictions 
+47. 
+The limitations of the in chemico and in vitro methods used in the 2o3 DA 
+dictate whether test results can be used to support hazard identification and are 
+reported in their respective TGs (TG 442C, TG 442D, TG 442E) (e.g. for 
+substances that do not provide conclusive results in the individual methods due to 
+solubility reasons) (2, 3, 4). Additionally, assay results are subject to variability (due 
+to, for example, minor fluctuations in cell response) and these variations increase 
+the uncertainty of a test result especially when close to a (classification) cut-off. In 
+order to define areas where lower confidence in the DA results may exist, 
+borderline ranges (BRs) have been statistically derived for each assay addressing 
+the three KE of the 2o3 DA, (see Annex 1 of this document, and Section 3.3and 
+Annex 7 of the Supporting document to the Guideline (GL) on Defined Approaches 
+(DAs) for Skin Sensitisation) (1). The specific BRs for each assay, as derived from 
+their respective validation study data, are summarised in Table 2.1: 
+Table 2.1: Borderline ranges for each assay defined for use in the 2o3 DA 
+ 
+Method  
+Parameter: Borderline Range  
+ADRA  
+4.1%  ≤ Mean percent depletion:  - ≤ 5.9% or  
+4.7%  ≤ NAC-only depletion ≤ 6.8%  
+DPRA  
+4.95% ≤ Mean peptide depletion ≤  8.32% or  
+10.56% ≤ Cys-only depletion ≤  18.47%  
+KeratinoSensTM  1.35-fold  ≤  Luciferase induction ≤  1.67-fold  
+ 
+LuSens  
+EpiSensA  
+1.28-fold ≤  Luciferase induction≤  1.76    
+ 
+10.71-fold ≤ Imax for ATF3 ≤ 21.02  
+1.64-fold ≤ Imax for GCLM ≤ 2.45  
+1.61-fold ≤ Imax for DNAJB2 ≤ 2.52  
+3.11-fold ≤ Imax for IL-8 ≤ 5.16  
+ 
+ 
+GARD®skin  Mean DV:  -0.450 - +0.450  
+h-CLAT  
+157% ≤  RFI CD54 ≤ 255%  
+122% ≤ RFI CD86≤  184%  
+IL-8 Luc  
+1.25 ≤ Ind-IL8LA  ≤ 1. 57  
+U-SENSTM  
+128% ≤ SI CD86 ≤  176%
+
+OECD/OCDE                          497 
+           
+© OECD (2025) 
+ 
+22 
+Note: BR values were derived according to the methodologies described in (8-11). See 
+Annex 1 for decision tree and Annex 7 (Supplemental Materials) for additional derivation 
+information.
+
+OECD/OCDE                          497      
+           
+© OECD (2025) 
+ 
+23 
+ 
+48. 
+The incorporation of BRs into the prediction models (PM) for each of the 
+individual information sources is described in detail in Annex 1 of this guideline. 
+49. 
+Positive and negative test results falling within these BRs as well as 
+inconclusive results due to limitations in the in chemico/in vitro TGs are of lower 
+confidence, and affect the outcome of the 2o3 DA as described below: 
+• In case the result of one of the 2o3 DA test methods falls into the respective 
+test method’s BR, a 2o3 DA prediction can still be made if the outcomes of 
+the other two test methods composing the 2o3 DA are concordant and have 
+high confidence (i.e., results falling outside of the respective BRs). 
+• Similarly, in case a result is obtained in one test method that is considered 
+inconclusive due to limitations or the chemical falling outside the applicability 
+domain of the method, a 2o3 DA prediction can still be made if the outcomes 
+of the other two test methods composing the 2o3 DA are concordant and 
+have high confidence (i.e., results falling outside of the respective BRs). 
+• However, if the result of one of the 2o3 DA test methods falls into the 
+respective test method’s BR or limitation, and the other two methods 
+composing the 2o3 do not provide concordant and high confidence results, 
+the 2o3 DA prediction is considered ‘inconclusive’. These inconclusive 
+predictions may nevertheless be considered in a weight-of- evidence 
+approach and/or within the context of an IATA together with other 
+information sources. Depending on the intended use, including regulatory 
+context, results in the borderline range above the decision threshold of the 
+prediction model might still be considered positive; in this case, two positive 
+outcomes can lead to an overall positive (sensitiser) prediction. 
+50. 
+These borderline considerations and their impact on the confidence of the 
+2o3 DA predictions are visualised in Figure 2.1. DA predictions with high 
+confidence for hazard identification are considered conclusive. DA predictions with 
+low confidence are considered inconclusive for hazard identification. These 
+‘inconclusive’ predictions may nevertheless be considered in a weight-of-evidence 
+approach and/or within the context of an IATA together with other information 
+sources.
+
+OECD/OCDE                          497 
+           
+© OECD (2025) 
+ 
+24 
+ 
+ 
+(and non- 
+results*? 
+no 
+KE of the 2o3 DA 
+three KE of the 2o3 DA 
+Figure 2.1. Decision tree to be used for the 2o3 DA, taking into account borderline results 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Note: *Borderline results are determined based on workflows given in Annex 1 and assay limitations 
+are described in their respective test guidelines (TG 442C, Appendices I-II; TG 442D, Appendices IA-
+IC; TG 442E, Annexes 1-4). DA = defined approach; DIP = data interpretation procedure; KE = key 
+event; 2o3 = 2 out of 3 DA. 
+2.1.5. Predictive capacity of the 2o3 DA vs. the LLNA-based reference data 
+51. 
+The predictive capacity of the 2o3 DA is reported based on data generated 
+by the LLNA (see Table 2.2 and Annex 3 of the Supporting document to the 
+Guideline (GL) on Defined Approaches (DAs) for Skin Sensitisation) (1). The BR 
+analyses were applied as described above to assign confidence to the 2o3 DA 
+predictions. Performance statistics are reported for conclusive (high confidence) 
+predictions as compared to LLNA-based reference data. Detailed performance 
+statistics and further details for each permutation of the 2o3 DA are available in 
+Annexes 2 and 9 of the Supporting Document to the Guideline (GL) on Defined 
+Approaches (DAs) for Skin Sensitisation (1). 
+ 
+ 
+Table 2.2. Hazard identification performance of the 2o3 DA in comparison to LLNA 
+reference data 
+DA Performance (N=74-129) 
+Accuracy (%) 
+81-95% 
+Sensitivity (%) 
+82-97% 
+Specificity (%) 
+72-100% 
+Balanced Accuracy (%) 
+80-95% 
+Note: (i) Accuracy is the correct classification rate, sensitivity is the true positive rate, specificity is the 
+true negative rate, and balanced accuracy is the average of sensitivity and specificity with respect to 
+LLNA reference data. Statistics reflect conclusive predictions only. Additional performance 
+characterisation is available in the Supporting document to the Guideline (GL) on Defined 
+2o3 DA conclusive; use DIP: 
+sensitiser or non-sensitiser 
+ 
+ 
+(and non- 
+results*? 
+no 
+2o3 DA inconclusive; 
+Further data / information needed 
+above the decision threshold of the prediction model, might be considered positive. In this case, 
+two positive outcomes can lead to sensitiser prediction.
+
+OECD/OCDE                          497      
+           
+© OECD (2025) 
+ 
+25 
+Approaches (DAs) for Skin Sensitisation. (ii) the full range of performance is shown here for transparency, 
+and the broad range is attributed to different data availability for each permutation of 2o3 DA. However, it 
+should be noted that the equivalent performance of all methods when substituted in 2o3 DA for the same set of 
+chemicals as the classic 2o3 DA has been demonstrated (for more information see Annex 2 and Annex 9)     
+ 
+52. 
+The application of the BR analyses and the designation of high/low 
+confidence for the 2o3 DA predictions are applied as described above in Section 
+2.1.4 and Annex 1, and further detailed in Section 3.3 and Annex 7 of the 
+Supporting document to the Guideline (GL) on Defined Approaches (DAs) for Skin 
+Sensitisation (1). 
+53. 
+Due to the imbalanced nature of the reference data, the measure of 
+specificity (based on 9-25 LLNA negative chemicals) is more uncertain than the 
+measure of sensitivity (based on 65-105 LLNA positive chemicals).11 
+2.1.6. 
+Predictive capacity of the 2o3 DA vs. Human Data 
+54. 
+The predictive capacity of the 2o3 DA is also reported based on human data 
+(see Table 2.3). The BR analyses were applied as described above to assign 
+confidence to the 2o3 DA predictions. Performance statistics are reported for 
+conclusive (high confidence) predictions as compared to human-based reference 
+data. Detailed performance statistics for each permutation of the 2o3 DA are 
+available in predictions for specific chemicals and further details are available in 
+Section 5 and Annexes 2 and 9 of the Supporting document to the Guideline (GL) 
+on Defined Approaches (DAs) for Skin Sensitisation (1). 
+ 
+ 
+Table 2.3. Hazard identification performance of the 2o3 DA in comparison to 
+human-based reference data 
+DA Performance vs. Human Data (N=35-55) 
+Accuracy (%) 
+83-95% 
+Sensitivity (%) 
+84-97% 
+Specificity (%) 
+50-100% 
+Balanced Accuracy (%) 
+72-97% 
+Note: (i) Accuracy is the correct classification rate, sensitivity is the true positive rate, specificity is the 
+true negative rate, and balanced accuracy is the average of sensitivity and specificity with respect to 
+human data. Statistics reflect conclusive predictions only. Additional performance characterisation is 
+available in the Supporting document to the Guideline (GL) on Defined Approaches (DAs) for Skin 
+Sensitisation (1). (ii) the full range of performance is shown here for transparency, and the broad range is 
+attributed to different data availability for each permutation of 2o3 DA. However, it should be noted that the 
+equivalent performance of all methods when substituted in 2o3 DA for the same set of chemicals as the classic 
+2o3 DA has been demonstrated (for more information see Annex 2 and Annex 9)     
+ 
+55. 
+The application of the BR analyses and the designation of high/low 
+confidence for the 2o3 DA predictions are applied as described above in Section 
+2.1.4 and Annex 1, and further detailed in Section 3.3 and Annex 7 of the 
+ 
+11 Because the balance of positive and negative LLNA chemicals differs depending on the DA permutation assessed, the sum 
+of the range of positive and negative chemicals will not equal the total “N” in Table 2.2.
+
+OECD/OCDE                          497 
+           
+© OECD (2025) 
+ 
+26 
+Supporting document to the Guideline (GL) on Defined Approaches (DAs) for Skin 
+Sensitisation (1). 
+56. 
+Due to the imbalanced nature of the reference data, the measure of 
+specificity (based on 4-8 human negative chemicals) is more uncertain than the 
+measure of sensitivity (based on 30-45 human positive chemicals).12 
+ 
+2.1.7. 
+Predictive capacity of the LLNA vs. Human Data 
+57. 
+To provide a basis for comparison for the DA performance statistics given 
+above, the predictive capacity of the LLNA is reported based on human data (see 
+Table 2.4). Data for specific chemicals and further details are available in Section 
+5 and Annex 2 of the Supporting document to the Guideline (GL) on Defined 
+Approaches (DAs) for Skin Sensitisation (1). 
+ 
+ 
+Table 2.4. Hazard identification performance of the LLNA in comparison to 
+Human-based reference data 
+LLNA Performance vs. Human Data (N=56) 
+Accuracy (%) 
+82% 
+Sensitivity (%) 
+94% 
+Specificity (%) 
+22% 
+Balanced Accuracy (%) 
+58% 
+Note: Accuracy is the correct classification rate, sensitivity is the true positive rate, specificity is the 
+true negative rate, and balanced accuracy is the average of sensitivity and specificity with respect to 
+human data. Additional performance characterisation is available in the Supporting document to the 
+Guideline (GL) on Defined Approaches (DAs) for Skin Sensitisation (1). 
+ 
+58. 
+The hazard identification performance of the conclusive 2o3 DA predictions 
+vs. human data was 83-95% accuracy, 84-97% sensitivity, 50-100% specificity, and 
+72-97% balanced accuracy, comparable to or exceeding the performance of the 
+LLNA- vs human-based data. 
+59. 
+As previously noted, due to the imbalanced nature of the reference data, 
+the measures of specificity are more uncertain than the measures of sensitivity. 
+ 
+2.1.8. 
+Proficiency chemicals 
+60. 
+The 2o3 DA relies on a simple, rule-based data interpretation procedure 
+and requires no expert judgment. Proficiency chemicals for the individual 
+information sources (KE1-3) are defined in the respective guidelines (2, 3, 4). 
+Proficiency for the individual information sources demonstrates proficiency for the 
+DA. 
+ 
+12 Because the balance of positive and negative LLNA chemicals differs depending on the DA permutation assessed, the sum 
+of the range of positive and negative chemicals will not equal the total “N” in Table 2.3.
+
+OECD/OCDE                          497      
+           
+© OECD (2025) 
+ 
+27 
+2.1.9. 
+Reporting of the DA 
+61. 
+The reporting of the DA application should follow the template described in 
+OECD GD 255 (12), and should include at a minimum the following 
+elements: 
+• Test chemical identification (e.g. chemical name, structural formula, 
+composition, isomers, impurities including their quantities as available, CAS 
+number, batch and lot number, and other relevant identifiers) 
+• Indicate the DA and justify the specific information sources used 
+• Individual test reports performed per corresponding guideline (OECD TG 
+442C, 442D, 442E). Note that the chemical identity for each test report 
+should match that above 
+• Application of the individual prediction models adapted to be used within the 
+2o3 DA to determine borderline outcomes, as described in Annex 1 
+• Outcome of the DA application (hazard identification, i.e. skin sensitiser or 
+not skin sensitiser or inconclusive result) 
+• Any deviation from or adaptation of the 2o3 DA 
+ 
+• Conclusion
+
+OECD/OCDE                          497 
+           
+© OECD (2025) 
+ 
+28 
+2.2 References 
+ 
+1. OECD (2021). Series on Testing and Assessment No. 336: Supporting 
+document to the Guideline (GL) on Defined Approaches (DAs) for Skin 
+Sensitisation. Organisation for Economic Cooperation and Development, 
+Paris. Available at: [https://www.oecd.org/chemicalsafety/testing/series-
+testing-assessment-publications-number.htm]. 
+2. OECD (2024). OECD Guideline for the Testing of Chemicals No. 442C: In 
+chemico Skin Sensitisation: Assays addressing the Adverse Outcome 
+Pathway key even on covalent binding to proteins). In chemico. Paris, 
+France: Organisation for Economic Cooperation and Development. 
+Available at: (oecd-ilibrary.org). 
+3. OECD (2024). OECD Key Event based test Guideline 442D: In vitro Skin 
+Sensitisation Assays Addressing AOP Key Event on Keratinocyte 
+Activation. Organisation for Economic Cooperation and Development, 
+Paris. Available at:(oecd-ilibrary.org). 
+4. OECD (2024). OECD Key event based test Guideline 442E: In vitro Skin 
+Sensitisation Assays Addressing the Key Event on Activation of Dendritic 
+Cells on the Adverse Outcome Pathway for Skin Sensitisation. Organisation 
+for Economic Cooperation and Development, Paris. Available at: (oecd-
+ilibrary.org). 
+5. OECD (2016). Series on Testing & Assessment No. 256: Guidance 
+Document On The Reporting Of Defined Approaches And Individual 
+Information Sources To Be Used Within Integrated Approaches To Testing 
+And Assessment (IATA) For Skin Sensitisation, Annex 1 and Annex 2. 
+Organisation 
+for 
+Economic 
+Cooperation 
+and 
+Development,
+Paris. 
+Available 
+at: 
+[https://www.oecd.org/chemicalsafety/testing/series-testing-assessment-
+publications-number.htm]. 
+6. Bauch C, Kolle SN, Ramirez T, Eltze T, Fabian E, Mehling A, Teubner W, 
+van Ravenzwaay B, Landsiedel R. (2012). Putting the parts together: 
+combining in vitro methods to test for skin sensitizing potential. Regul 
+Toxicol Pharmacol, 63:489- 504. 
+7. Urbisch D, Mehling A, Guth K, Ramirez T, Honarvar N, Kolle S, Landsiedel 
+R, Jaworska J, Kern PS, Gerberick F, Natsch A, Emter R, Ashikaga T, 
+Miyazawa M, Sakaguchi H. (2015). Assessing skin sensitization hazard in 
+mice and men using non-animal test methods, Regul Toxicol Pharmacol, 
+71:337-51. 
+8. Kolle SN, Mathea M, Natsch A, Landsiedel R. (2021). Assessing 
+Experimental Uncertainty in Defined Approaches: Borderline Ranges for In 
+Chemico and In Vitro Skin Sensitization Methods Determined from Ring 
+Trial Data, Appl In Vitro Toxicol, 7:3: 102-111. 
+9. Correction to: Assessing Experimental Uncertainty in Defined Approaches: 
+Borderline Ranges for In Chemico and In Vitro Skin Sensitization Methods 
+Determined from Ring Trial Data, by Kolle, et al. Appl In Vitro Toxicol
+
+OECD/OCDE                          497      
+           
+© OECD (2025) 
+ 
+29 
+2021;7(3):102–111; 
+doi: 
+10.1089/aivt.2021.0003. 
+Applied 
+In 
+Vitro 
+Toxicology 2024 10:1, 29-30. 
+10. Kasahara T, Yamamoto Y, Nakashima N, Imamura M, Mizumachi H, 
+Suzuki S, Aiba S, Kimura Y, Ashikaga T, Kojima H, Ono A, Matsumoto K. 
+(2025). Borderline Range Determined Using Data From Validation Study 
+of Alternative Methods for Skin Sensitization: ADRA, IL-8 Luc Assay, and 
+EpiSensA, J Appl Toxicol, 45(3):432-439. 
+11. Nardelli, L. (2025) Determination of U-SENSTM borderline range thresholds 
+to address uncertainty for skin sensitization assessment in a regulatory 
+context, ALTEX- Alternatives to animal experimentation. doi: 
+10.14573/altex.2411282.  
+ 
+12. OECD (2016). Series on Testing & Assessment No. 255: Guidance 
+Document On The Reporting Of Defined Approaches To Be Used Within 
+Integrated Approaches To Testing And Assessment. Organisation for 
+Economic Cooperation and Development, Paris. Available 
+at: 
+[https://www.oecd.org/chemicalsafety/testing/series-testing-assessment-
+publications-number.htm].
+
+OECD/OCDE                          497 
+           
+© OECD (2025) 
+ 
+30 
+62. 
+Part II of this Guideline includes Defined Approaches that allow the 
+allocation of skin sensitisers into UN GHS sub-category 1A, strong sensitisers, or 
+sub-category 1B for other (moderate to weak) skin sensitisers. These DAs may 
+also be used to distinguish between sensitisers (UN GHS Category 1) and non-
+sensitisers (no classification; NC) for hazard identification. Additional detailed 
+information can be found in the Supporting document to the Guideline (GL) on 
+Defined Approaches (DAs) for Skin Sensitisation (1). 
+ 
+3.1 “Integrated Testing Strategy (ITS)” Defined Approach 
+ 
+3.1.1. Summary 
+63. 
+This defined approach was constructed as an Integrated Testing Strategy 
+(ITS) for prediction of the skin sensitisation hazard potential and potency sub-
+categorisation according to the UN GHS (sub-categories 1A and 1B) classification 
+system. 
+64. 
+The ITS DA uses test methods that address key events (KEs) 1 and 3 in the 
+Adverse Outcome Pathway (AOP) leading to skin sensitisation as: KE1: protein 
+binding (TG 442C) (2); KE3: dendritic cell activation formally described by the 
+OECD (TG 442E) (3) and includes an in silico prediction of skin sensitisation. The 
+in silico prediction of skin sensitisation is provided by Derek Nexus (4) or the OECD 
+QSAR Toolbox (5).  
+65. 
+The DIP requires a score to be calculated from each information source 
+based on the assay-specific thresholds and the total score used to determine the 
+final classification (Table 3.1). the classic ITS DA was evaluated for hazard and 
+potency identification against a curated dataset of up to 168 chemicals with LLNA-
+based reference data and up to 66 chemicals with human-based reference data as 
+found in Annex 2 of the Supporting document to the Guideline (GL) on Defined 
+Approaches (DAs) for Skin Sensitisation (1). The performance of the DAs 
+containing alternate information sources was evaluated against between 72-159 
+and 37-64 substances with both LLNA-based and human-based reference data, 
+respectively. When compared against the LLNA- and human-based reference data 
+for hazard, the ITS DA demonstrated balanced accuracies in the range of 78-88% 
+Part II. –SECTION 3 - Defined 
+Approaches for Skin Sensitisation 
+Potency Categorisation
+
+OECD/OCDE                          497      
+           
+© OECD (2025) 
+ 
+31 
+and 67-76%, comparable to the classic ITS DA (see Table 3.2 and Table 3.4). The 
+ITS DA demonstrated accuracies in the range of 66-80% when evaluated against 
+LLNA-based potency data (see Table 3.3). When evaluated against the human 
+data for potency, the ITS DA demonstrated comparable accuracy to the LLNA, with 
+a range of 54-75% (vs 60% for the LLNA) (see Table 3.5 and 3.7).  When compared 
+against human-based reference data, 8/10 (80%) ITS permutations have 
+equivalent or better accuracy than the LLNA. (60%). Two ITS permutations (Table 
+1.3) had lower accuracy than the LLNA when compared to human-based reference 
+data which was due to several underpredictions of 1A sensitisers as 1B sensitisers. 
+These underpredictions may be attributed to several considerations, including 
+human-based sub-categorizations derived from human data where the predicted 
+sensitising dose was close to the threshold between GHS 1A and GHS 1B sub-
+categorizations (termed GHS 1A-) in Annex 4 of the Supporting document to the 
+OECD Guideline 497 on Defined Approaches for Skin Sensitisation for more 
+information on how this was derived). This lower accuracy is specific to these ITS 
+DA permutations only and should be taken into consideration when selecting 
+specific DAs to use; selection of these specific DAs needs to be justified. These 
+underprediction cases are discussed further in Annex 9 of the Supporting 
+document to the Guideline (GL) on Defined Approaches (DAs) for Skin 
+Sensitisation (1). 
+3.1.2. Data interpretation procedure 
+66. 
+The ITS DIP uses scores assigned to the quantitative results from a KE3 
+(3) and a KE1 assay (1), and from an in silico tool to discriminate chemicals into 
+UN GHS category 1A (strong sensitiser); category 1B (other sensitiser), or Not 
+Classified (non-sensitiser) (Table 3.1). 
+67. 
+The DIP was amended from the original published version of the ITS (6-7) 
+to change the cut-off for 1A sensitisers from a score of 7 to a score of 6 to optimize 
+the ability of the DA to detect strong sensitisers and to extend the applicability of 
+the ITS to chemicals for which in silico predictions cannot be generated. The DIP 
+was also altered from the published version in that it was originally applied to 
+ECETOC categories13, and is here applied to the UN GHS subcategories. 
+68. 
+The quantitative results of the KE1 and KE3 assays are converted into a 
+score from 0 to 3 for each assay, as shown in Table 3.1. For the in silico prediction, 
+a positive outcome is assigned a score of 1; a negative outcome is assigned a 
+score of 0. Further details on the respective protocols are available in Annexes 1 
+and 2 and Appendices I-II). When these scores have been assessed, a total 
+battery score ranging from 0 to 7, calculated by summing the individual scores, is 
+used to predict the sensitising potential (hazard identification; UN GHS Cat. 1 vs. 
+UN GHS NC) and potency (UN GHS Cat. 1A, Cat. 1B and NC). The positive criteria 
+for identifying skin sensitisers (UN GHS Cat. 1) are set as a total battery score of 2 
+or greater. Based on the updated DIP, a total battery score is assigned into three 
+ranks: score of 6-7 is defined as a strong (UN GHS Cat. 1A) sensitiser; score of 2-5 
+ 
+13 ECETOC Technical Report 087 (2003), Contact Sensitisation: Classification According to Potency. 
+Available at: [https://www.ecetoc.org/publication/tr-087-contact-sensitisation- classification-according-to-
+potency/]
+
+OECD/OCDE                          497 
+           
+© OECD (2025) 
+ 
+32 
+as moderate/weak (UN GHS Cat. 1B) sensitiser; score of 1 or 0, as not classified 
+(i.e. a non-sensitiser). 
+ 
+ 
+ 
+Table 3.1. Schematic of the ITS defined approach. The DA is a score-based 
+system depending on KE1 and KE3 assays from TG 442E and 442C, and an in 
+silico prediction, as shown. 
+Information 
+Source Type  
+KE1   
+(OECD TG 442C)  
+KE3  
+(OECD TG 442E)  
+In silico  
+Information 
+Sources Permitted  
+ADRA, DPRA  
+GARD®skin, h-CLAT, U-
+SENSTM  
+Derek Nexus, OECD 
+QSAR Toolbox 
+Score  
+ADRA  
+mean 
+NAC   & 
+NAL %   
+depletion 
+ADRA  
+NAC %   
+depletion* 
+DPRA   
+mean 
+Cys   & 
+Lys % 
+depletion 
+DPRA    
+Cys % 
+depletion†  
+GARD  
+®Skin   
+(µg/mL)  
+h-CLAT   
+MIT   
+(µg/mL)  
+U-
+SENSTM  
+EC150 
+(µg/mL)  
+Please refer to 
+individual protocol to 
+apply score  
+3  
+≥46.4  
+≥67.4  
+≥42.47  ≥98.24  
+≤13.03  ≤10  
+≤3  
+ 
+2  
+≥15.5,  
+<46.4  
+≥17.5, 
+<67.4  
+≥22.62, 
+<42.47  
+≥23.09, 
+<98.24  
+>13.03,   
+≤56.44  
+>10,  
+≤150  
+>3,   
+≤35  
+ 
+1  
+≥4.9,  
+<15.5  
+≥5.6,  
+<17.5  
+≥6.38,   
+<22.62  
+≥13.89, 
+<23.09  
+>56.44  >150,   
+≤5000  
+>35,   
+≤200  
+Positive  
+0  
+<4.9  
+<5.6  
+<6.38  
+<13.89  
+-  
+not   
+calculated 
+not 
+calculated 
+/ >200  
+Negative  
+Potency 
+Total Battery Score 
+ 
+ 
+ 
+ 
+ 
+UN GHS 1A 
+6-7 
+ 
+ 
+ 
+ 
+ 
+UN GHS 1B 
+2-5 
+ 
+ 
+ 
+ 
+ 
+Not classified 
+0-1 
+ 
+ 
+ 
+ 
+ 
+ 
+Source: Adapted from Takenouchi (6) and Imamura (8) 
+Abbreviations: ADRA: Amino acid Derivative Reactivity Assay; NAC: N-(2-(1-naphthyl) acetyl)-L-
+cysteine, NAL: α-N-(2-(1-naphthyl) acetyl)-L-lysine; DPRA: Direct Peptide Reactivity Assay; Cys: 
+cysteine, Lys: Lysine; GARD: Genomic Allergen Rapid Detection; h-CLAT: Human Cell Line Activation 
+Test; MIT: minimum induction threshold; U-SENS: U-937 cell line activation test; EC: effective 
+concentration.  
+Note: UN GHS 1A correspond to strong sensitisers and UN GHS 1B correspond to other (moderate to 
+weak) sensitisers. Not classified are considered non-sensitisers. For KE1, KE3, and in silico, only one 
+assay is selected from each is used for determining a score. *NAC-only depletion thresholds are used in 
+the case of co-elution with the NAL peptide. †Cysteine-only depletion thresholds are used in the case of 
+co-elution with the lysine peptide. 
+ 
+3.1.3. Description and limitations of the individual information sources 
+69. 
+The individual in chemico and in vitro information sources are existing KE-
+based OECD TGs (TG 442C, 442E) (2, 3), and the protocols and limitations of each 
+assay are detailed therein. For information on the in silico tools, including the 
+description, limitations and applicability domain, users should refer to the individual 
+relevant Appendix, as detailed in Appendices I-II.
+
+OECD/OCDE                          497      
+           
+© OECD (2025) 
+ 
+33 
+3.1.4. Confidence in the ITS DA predictions 
+70. 
+The level of confidence of the ITS DA prediction is assigned based on the 
+total DA score and applicability domain of the individual information sources, as 
+shown via the flow chart in Figure 3.1. The first decision on whether all information 
+elements can be used is dictated by the limitations of the in chemico and in vitro 
+methods, as found in TG 442C (2) and TG 442E (3), and by the applicability domain 
+of the in silico prediction (Annex 2). Partial information sources (i.e. two in 
+chemico/in vitro outcomes only, or one in chemico/in vitro outcome and an in silico 
+prediction) may be used to obtain a DA prediction as shown via the flow chart in 
+Figure 3.1. 
+71. 
+DA predictions with high confidence for hazard identification and potency 
+are considered conclusive. DA predictions with low confidence are considered 
+inconclusive for hazard identification and/or potency. These ‘inconclusive’ 
+predictions may nevertheless be considered in a weight-of-evidence approach 
+and/or within the context of an IATA together with other information sources. 
+Details including applicability domain and confidence considerations are provided 
+in Annex 2.
+
+OECD/OCDE                          497 
+           
+© OECD (2025) 
+ 
+34 
+Figure 3.1. Decision tree for assigning confidence to the ITS DA predictions
+
+OECD/OCDE                          497      
+           
+© OECD (2025) 
+ 
+35 
+3.1.5. Predictive capacity of the ITS DA vs the LLNA-based reference data 
+72. 
+The predictive capacity of the ITS DA is reported based on data from the 
+LLNA (see Tables 3.2-3.3) (see Section 1.1 and Annexes 3 and 9 of the 
+Supporting document to the Guideline (GL) on Defined Approaches (DAs) for Skin 
+Sensitisation) (1). The workflow shown in Figure 3.1 was applied to assign 
+confidence to the ITS DA predictions. The designation of conclusive/inconclusive 
+for the ITS DA predictions is further detailed in Annex 2. Performance statistics are 
+reported for conclusive predictions as compared to LLNA-based reference data. 
+DA predictions for specific chemicals and further details are available in Section 5 
+and Annexes 2 and 9 of the Supporting document to the Guideline (GL) on Defined 
+Approaches (DAs) for Skin Sensitisation (1). 
+ 
+Table 3.2. Hazard identification performance of the ITS DA in comparison to 
+LLNA reference data 
+ 
+ITS Performance vs. LLNA (N=122-159) 
+Accuracy (%) 
+86-93% 
+Sensitivity (%) 
+91-94% 
+Specificity (%) 
+65-82% 
+Balanced Accuracy (%) 
+78-88% 
+Note: (i) Accuracy is the correct classification rate, sensitivity is the true positive rate, specificity is the true negative 
+rate, and balanced accuracy is the average of sensitivity and specificity with respect to LLNA-based data. Statistics 
+reflect high confidence predictions only. Additional performance characterisation is available in the Supporting 
+document to the Guideline (GL) on Defined Approaches (DAs) for Skin Sensitisation (1). (ii) the full range of performance 
+is shown here for transparency, and the broad range is attributed to different data availability for each permutation of ITS DA. 
+However, it should be noted that the equivalent performance of all methods when substituted in ITS DA for the same set of 
+chemicals as the classic ITS DA has been demonstrated (for more information see Annex 2 and Annex 9)      
+ 
+73. 
+Due to the imbalanced nature of the reference data, the measure of 
+specificity (based on 11-30 LLNA negative chemicals) is more uncertain than the 
+measure of sensitivity (based on 111-129 LLNA positive chemicals).14 
+ 
+Table 3.3. ITS DA vs. LLNA-based reference data: Statistics based on the UN GHS 1A/1B 
+sub-categorisation 
+ 
+ITS Sub-categorisation Performance vs. LLNA (N=72-141) 
+Correct classification (%) 
+66-80% 
+Underpredicted (%) 
+13-18% 
+Overpredicted (%) 
+4-17%  
+Note: Statistics reflect high confidence predictions only. Overprediction refers to chemicals misclassified as more 
+potent; a NC predicted to be 1A/1B or a 1B sensitiser predicted to be a 1A. sensitiser. Underprediction refers to 
+chemicals misclassified as less potent; a 1A sensitiser predicted to be a 1B/NC, a 1B sensitiser predicted to be NC. 
+For more details on within-class performance, please see Annexes 2 and 9 of the Supporting document to the Guideline 
+(GL) on Defined Approaches (DAs) for Skin Sensitisation (1). 
+ 
+14 Because the balance of positive and negative LLNA chemicals differs depending on the DA permutation assessed, the sum 
+of the range of positive and negative chemicals will not equal the total “N” in Tables 3.2 and 3.3.
+
+OECD/OCDE                          497 
+           
+© OECD (2025) 
+ 
+36 
+74. 
+The designation of high/low confidence for the ITS DA predictions is applied 
+as described above in Figure 3.1 and further detailed in Annex 2. 
+3.1.6. Predictive capacity of the ITS DA vs Human Data 
+75. 
+The predictive capacity of ITS DA is reported based on human data (see 
+Tables 3.4-3.5), curated as agreed upon by the EG DASS. The designation of 
+high/low confidence for the ITS DA predictions is further detailed in Annex 2. 
+Performance statistics are reported for high confidence predictions as compared to 
+human-based reference data, and inconclusive results are indicated. DA 
+predictions for specific chemicals and further details are available in Section 5 and 
+Annexes 2 and 9 of the Supporting document to the Guideline (GL) on Defined 
+Approaches (DAs) for Skin Sensitisation (1). 
+Table 3.4 Hazard identification performance of the ITS DA in comparison to 
+human-based reference data 
+ 
+ITS Performance vs. Human Data (N=52-64) 
+Accuracy (%) 
+83-91% 
+Sensitivity (%) 
+87-96% 
+Specificity (%) 
+44-57% 
+Balanced Accuracy (%) 
+67-76% 
+Note: (i) Accuracy is the correct classification rate, sensitivity is the true positive rate, specificity is the true negative 
+rate, and balanced accuracy is the average of sensitivity and specificity with respect to human data. Statistics reflect 
+conclusive predictions only. Additional performance characterisation is available in the Supporting document to the 
+Guideline (GL) on Defined Approaches (DAs) for Skin Sensitisation (1). (ii) The full range of performance is shown here 
+for transparency, and the broad range is attributed to different data availability for each permutation of ITS DA. However, it should 
+be noted that the equivalent performance of all methods when substituted in ITS DA for the same set of chemicals as the classic 
+ITS 
+DA 
+has 
+been 
+demonstrated 
+(for 
+more 
+information 
+see 
+Annex 
+2 
+and 
+Annex 
+9)      
+ 
+76. 
+Due to the imbalanced nature of the reference data, the measure of 
+specificity (based on 7-9 human negative chemicals) is more uncertain than the 
+measure of sensitivity (based on 44-55 human positive chemicals).15 
+ 
+Table 3.5 Potency categorisation performance of the ITS DA in comparison to 
+human-based reference data, based on the UN GHS 1A/1B sub-categorisation 
+ 
+ITS Sub-categorisation Performance vs. Human Data (N=37-59) 
+Correct classification (%) 
+54-75% 
+Underpredicted (%) 
+13-31% 
+Overpredicted (%) 
+13-18% 
+Note. Overprediction refers to chemicals misclassified as more potent; a NC predicted to be 1A/1B or a 1B sensitiser 
+predicted to be a 1A. sensitiser. Underprediction refers to chemicals misclassified as less potent; a 1A sensitiser 
+predicted to be a 1B/NC, a 1B sensitiser predicted to be NC. For more details on within- class performance, please 
+see Annexes 2 and 9 of the Supporting document to the Guideline (GL) on Defined Approaches (DAs) for Skin 
+Sensitisation 
+(1). 
+ 
+ 
+15 Because the balance of positive and negative LLNA chemicals differs depending on the DA permutation assessed, the sum 
+of the range of positive and negative chemicals will not equal the total “N” in Tables 3.4 or 3.5.
+
+OECD/OCDE                          497      
+           
+© OECD (2025) 
+ 
+37 
+77. 
+The designation of conclusive/inconclusive for the ITS DA predictions is 
+applied as described above in Figure 3.1 and further detailed in Annex 2. 
+78. 
+Due to the imbalanced nature of the reference data and the small numbers 
+of chemicals, the measures of specificity, and consequently also balanced 
+accuracy, are more uncertain for classes that contain a low number of chemicals 
+(e.g. for NC chemicals). 
+79. 
+The hazard identification performance of the conclusive ITS DA predictions 
+vs. human data was 83-91% accuracy, 87-96% sensitivity, 44-57% specificity, and 
+67-76% balanced accuracy, comparable to or exceeding the performance of the 
+LLNA (Table 3.4). 
+80. 
+As previously noted, due to the imbalanced nature of the reference data, 
+the measures of specificity are more uncertain than the measures of sensitivity. 
+81. 
+The performance of the conclusive ITS DA predictions vs. human data for 
+potency sub-categorisation showed 54-75% correct classification overall, with 
+overpredictions between 13-18% and underpredictions of 13-12%, comparable to 
+or exceeding the performance of the LLNA (Table 3.5). 
+82. 
+As previously noted, due to the imbalanced nature of the reference data and 
+the small numbers of chemicals, the measures of specificity, and consequently also 
+balanced accuracy, are more uncertain for classes that contain a low number of 
+chemicals, e.g. for NC chemicals. 
+ 
+3.1.7. Predictive capacity of the LLNA vs. Human Data 
+83. 
+To provide a basis for comparison for the DA performance, the predictive 
+capacity of the LLNA is reported based on data from the Human Predictive Patch 
+Test (HPPT) (see Table 3.6 and 3.7). Data for specific chemicals and further details 
+are available in Section 5 and Annex 2 of the Supporting document to the Guideline 
+(GL) on Defined Approaches (DAs) for Skin Sensitisation (1). 
+Table 3.6 Hazard identification performance of the LLNA in comparison to 
+human-based reference data 
+ 
+LLNA Hazard ID Performance vs. Human Data (N=56) 
+Accuracy (%) 
+82% 
+Sensitivity (%) 
+94% 
+Specificity (%) 
+22% 
+Balanced Accuracy (%) 
+58% 
+Note: Accuracy is the correct classification rate, sensitivity is the true positive rate, specificity is the 
+true negative rate, and balanced accuracy is the average of sensitivity and specificity with respect to 
+HPPT-based data. Additional performance characterisation is available in the Supporting document 
+to the Guideline (GL) on Defined Approaches (DAs) for Skin Sensitisation (1).
+
+OECD/OCDE                          497 
+           
+© OECD (2025) 
+ 
+38 
+Table 3.7 Potency categorisation performance of the LLNA in comparison to 
+human-based reference data, based on the UN GHS 1A/1B sub-categorisation 
+ 
+LLNA Sub-categorisation Performance vs. Human Data (N=47) 
+Correct classification (%) 
+60% 
+Underpredicted (%) 
+21% 
+Overpredicted (%) 
+19% 
+Note: Overprediction refers to chemicals misclassified as more potent; a NC predicted to be 1A/1B or a 1B 
+sensitiser predicted to be a 1A. sensitiser. Underprediction refers to chemicals misclassified as less potent; a 
+1A sensitiser predicted to be a 1B/NC, a 1B sensitiser predicted to be NC. For more details on within- class 
+performance, please see Annexes 2 and 9 of the Supporting document to the Guideline (GL) on Defined 
+Approaches (DAs) for Skin Sensitisation (1). 
+ 
+3.1.8. Proficiency chemicals 
+84. 
+The ITS DA relies on a simple, rule-based data interpretation procedure and 
+no expert judgment is required. Proficiency chemicals for the individual in chemico 
+and in vitro information sources (KE1 and KE3) are defined in the respective 
+guidelines (TG 442C, 442E) (2, 3). The protocol details for the in silico information 
+source options are included in Appendices I-II of this guideline. Proficiency has 
+been demonstrated for the in silico information source versions stated in the 
+protocols in Appendices I-II by predicting the entire Annex 2 database (See Annex 
+9 of the Supporting document to the Guideline (GL) on Defined Approaches (DAs) 
+for Skin Sensitisation (1). More up to date versions may be used if proficiency 
+matches or exceeds that of the original version. Proficiency for the individual 
+information sources demonstrates proficiency for the DA. 
+3.1.9. Reporting of the DA 
+85. 
+The reporting of the ITS DA should follow the template described in OECD 
+GD 255 (9), and should include at a minimum the following elements: 
+• Test chemical identification (e.g. chemical name, structural formula, 
+composition, isomers, impurities including their quantities as available, CAS 
+number, batch and lot number, and other relevant identifiers). 
+• Indicate the DA and justify the specific information sources (methods and in 
+silico model) used. 
+• Individual test reports for the individual tests performed per corresponding 
+guideline (OECD TG 442C, 442E). Note that the chemical identity for each 
+test report should match that above. 
+• Description of protocol used for in silico prediction (Appendices I-II) and outcome 
+reported via the most recent QPRF (e.g., v 2.0 in March 2025) (10). 
+• Outcome of the DA application (hazard identification and potency 
+categorisation according to UN GHS categories, or inconclusive result). 
+• Any deviation from the ITS DA. 
+• Conclusion.
+
+OECD/OCDE                          497      
+           
+© OECD (2025) 
+ 
+39 
+3.2 References 
+ 
+1. OECD (2021). Series on Testing and Assessment No. 336: Supporting 
+document to the Guideline (GL) on Defined Approaches (DAs) for Skin 
+Sensitisation. Organisation for Economic Cooperation and Development, 
+Paris. Available at: [https://www.oecd.org/chemicalsafety/testing/series-
+testing-assessment-publications-number.htm]. 
+2. OECD (2024). OECD Guideline for the Testing of Chemicals No. 442C: In 
+chemico Skin Sensitisation: Assays addressing the Adverse Outcome 
+Pathway key even on covalent binding to proteins). In chemico. Paris, 
+France: Organisation for Economic Cooperation and Development. 
+Available at:(oecd-ilibrary.org). 
+3.  OECD (2024). OECD Key event based test Guideline 442E: In vitro Skin 
+Sensitisation Assays Addressing the Key Event on Activation of Dendritic 
+Cells on the Adverse Outcome Pathway for Skin Sensitisation. Organisation 
+for Economic Cooperation and Development, Paris. Available at: (oecd-
+ilibrary.org). 
+4. Lhasa 
+Limited 
+(2020), 
+Derek 
+Nexus 
+v6.1.0, 
+Lhasa 
+Limited. 
+(https://www.lhasalimited.org/products/derek-nexus.htm)  
+5. Yordanova et al., (2019). Automated and standardized workflows in the 
+OECD 
+QSAR 
+Toolbox. 
+Computational 
+Toxicology, 
+10, 
+89–104. 
+https://doi.org/10.1016/j.comtox.2019.01.006 
+Link: https://qsartoolbox.org/download/ 
+6. Takenouchi O, Fukui S, Okamoto K, Kurotani S, Imai N, Fujishiro M, Kyotani 
+D, Kato Y, Kasahara T, Fujita M, Toyoda A, Sekiya D, Watanabe S, Seto H, 
+Hirota M, Ashikaga T, Miyazawa M. (2015). Test battery with the human cell 
+line activation test, direct peptide reactivity assay and DEREK based on a 
+139 chemical data set for predicting skin sensitizing potential and potency 
+of chemicals. J Appl Toxicol, 35:1318-32. 
+7. OECD (2016). Series on Testing & Assessment No. 256: Guidance 
+Document on The Reporting of Defined Approaches and Individual 
+Information Sources to Be Used Within Integrated Approaches to Testing 
+and Assessment (IATA) For Skin Sensitisation, Annex 1 and Annex 2. 
+Organisation for Economic Cooperation and Development, 
+Paris.
+ Available 
+at: 
+[https://www.oecd.org/chemicalsafety/testing/series-
+testing-assessment-publications-number.htm]. 
+8. Imamura M, Yamamoto Y, Fujita M, Wanibuchi S, Nakashima N, Kojima H, 
+Ono A, Kasahara T (2022). Applicability of amino acid derivative reactivity 
+assay (4 mM) for the prediction of skin sensitization by combining multiple 
+alternative methods to evaluate key events, J Appl Toxicol, 42(7):1159-
+1167. 
+9. OECD (2016). Series on Testing & Assessment No. 255: Guidance 
+Document On The Reporting Of Defined Approaches To Be Used Within 
+Integrated Approaches To Testing And Assessment. ENV/JM/HA(2016)28. 
+Organisation for Economic Cooperation 
+and 
+Development,
+Paris. 
+Available at:
+
+OECD/OCDE                          497 
+           
+© OECD (2025) 
+ 
+40 
+[https://www.oecd.org/chemicalsafety/testing/series-testing-assessment-
+publications-number.htm]. 
+10. OECD (2024) Support Materials for (Q)SAR Assessment Framework: 
+Guidance for the regulatory assessment of (Quantitative) Structure Activity 
+Relationship 
+models 
+and 
+predictions, 
+second 
+edition: 
+https://www.oecd.org/en/publications/q-sar-assessment-framework-
+guidance-for-the-regulatory-assessment-of-quantitative-structure-activity-
+relationship-models-and-predictions-second-edition_bbdac345-
+en/support-materials.html
+
+OECD/OCDE                          497      
+           
+© OECD (2025) 
+ 
+41 
+86. 
+Part III of the Guideline includes Defined Approaches that allow for the 
+derivation of a quantitative point of departure (PoD) for use in risk assessment. 
+Additional detailed information can be found in the Supporting document to the 
+Guideline (GL) on Defined Approaches (DAs) for Skin Sensitisation (1). 
+4.1 “SARA-ICE” Defined Approach for derivation of a point of departure 
+4.1.1. Summary 
+86. 
+The Skin Allergy Risk Assessment-Integrated Chemical Environment 
+(SARA-ICE) DA is a Bayesian statistical model which estimates an ED01, which is 
+provided as a probability distribution. The ED01 is an estimate of a dermal dose (µg 
+cm-2) at which there is a 1% chance of inducing sensitization from a human 
+predictive patch test (HPPT). The SARA-ICE DA uses a set of defined input data 
+and specifies a single point, computed as the geometric mean of the ED01 
+distribution conditional on it being less than 60,000 µg cm-2, which provides a point 
+of departure (PoD) that can be applied within a quantitative risk assessment for 
+skin sensitisation.  
+ 
+87. 
+The SARA-ICE DA is based on data from test methods from KEs 1-4 of the 
+adverse outcome in the AOP.  The SARA-ICE DA is based on a previously 
+published SARA model which initially included 81 chemicals in the database and 
+was subsequently expanded to 434 chemicals, leveraging chemicals contained 
+within the Integrated Chemical Environment (ICE, https://ice.ntp.niehs.nih.gov/, 
+(2,3)). Further description of the database on which SARA-ICE is trained is 
+provided in Annex 10 of Supporting document to the Guideline (GL) on Defined 
+Approaches (DAs) for Skin Sensitisation (1). Evaluation of SARA-ICE is described 
+in paragraph 100 and performance is described in section 4.1.4. Test methods 
+which can be used as input information sources include: the Direct Peptide 
+Reactivity Assay (DPRA; OECD TG 442C ), kinetic DPRA (kDPRA; OECD TG 
+442C), KeratinoSens (OECD TG 442D), the human cell line activation test (h-
+CLAT; OECD TG 442E), and U-SENS (OECD TG 442E), as well as in vivo 
+methods such as the local lymph node assay (LLNA; OECD TG 429, OECD TG 
+442A, OECD TG 442B) and the human predictive patch test (HPPT) methods i.e., 
+Part III–SECTION 4 - Defined Approaches 
+for Derivation of a Quantitative Point of-
+Departure
+
+OECD/OCDE                          497 
+           
+© OECD (2025) 
+ 
+42 
+human repeat insult patch tests (HRIPT) and human maximization tests (HMT) (4–
+10). Data in any combination from these test methods can also be used to predict 
+the ED01. Note that the SARA-ICE model may accept existing LLNA data and HPPT 
+data as inputs; however, new in vivo data should not be generated. The SARA-ICE 
+model should be run using a minimum of two in chemico and/or in vitro information 
+sources based on different KEs.  
+ 
+88. 
+The SARA-ICE DA was evaluated first using posterior predictive checks, 
+which are recommended for any Bayesian statistical model. Checks included a 
+comparison of prior marginal distributions against posterior marginals to ensure 
+model parameters are identifiable from the data. The SARA-ICE DA uses latent 
+variables to represent average quantities for each input type. Checks that latent 
+variables are both correlated with the ED01 and their respective input data in the 
+SARA-ICE database were performed. Generating ED01 estimates for chemicals not 
+within the core SARA-ICE database requires the joint posterior for the full database 
+be approximated analytically. This approximation is then used as a prior within a 
+SARA-ICE production DA to generate ED01 estimates for new input data. Further 
+checks were performed to ensure the production version returns the correct 
+estimates. Details of these analyses can be found in Annex 11 of Supporting 
+document to the Guideline (GL) on Defined Approaches (DAs) for Skin 
+Sensitisation (1). The database on which the model was evaluated is static 
+(finalized December 2022) and in case of subsequent version changes, it will be 
+evaluated per OECD procedures. 
+ 
+4.1.2. Data Interpretation Procedure 
+89. 
+The SARA-ICE DA uses a Bayesian statistical model to estimate the ED01. 
+A PoD is computed as the geometric mean of the ED01 distribution conditional on 
+it being less than 60,000 µg cm-2. Technically, the model can be run with no 
+chemical-specific inputs, in which case the resulting ED01 estimates will be taken 
+directly from the prior distribution. Using chemical-specific data to inform estimates 
+will, for any typical input, return an ED01 estimate whose variance (uncertainty) is 
+reduced relative to the prior. The magnitude of reduction in uncertainty is a function 
+of several factors including input type(s), input numbers, and input concordance. 
+To ensure an appreciable level of uncertainty reduction is achieved, a minimum 
+of 2 test methods per compound, covering 2 separate KEs from within OECD 
+TG 442C, 442D, or 442E, should be entered into the input template used to run the 
+model (LINK TO SARA-ICE APP16). Admissible data types are indicated in Table 
+4.1 and Paragraph 87. There is no restriction to the maximum number of stated 
+data inputs, in type or experimental repeats, the model can include. Any available 
+in vivo data may also be included, but new in vivo data should not be produced to 
+be used in this DA. Figure 4.1 demonstrates the workflow for use of SARA-ICE, 
+and further details are provided in Appendix III of this document. 
+ 
+ 
+ 
+16 https://ntp.niehs.nih.gov/whatwestudy/niceatm/test-method-evaluations/skin-sens/da/SARA-ICE
+
+OECD/OCDE                          497      
+           
+© OECD (2025) 
+ 
+43 
+Table 4.1. Summary of Acceptable Test Methods for SARA-ICE 
+Test Methods 
+Test Guideline 
+Key Event 
+Data Input 
+DPRA 
+TG 442C 
+1 
+Percent depletion (Cys and 
+Lys) 
+kDPRA 
+TG 442C 
+1 
+log kmax (units M-1 s-1) 
+KeratinoSens 
+TG 442D 
+2 
+EC1.5 and IC50 (µM) 
+h-CLAT 
+TG 442E 
+3 
+EC200 (CD54) EC150 (CD85) 
+CV75 (µg mL-1) 
+U-SENS 
+TG 442 E 
+3 
+EC150 and CV70 (µg mL-1) 
+LLNA 
+TG 429, TG 442A, TG 
+442B 
+4 
+EC3 (percent) 
+HPPT 
+N/A 
+AO* 
+Dermal dose (µg cm-2, N test 
+subjects, 
+N 
+subjects 
+sensitised) 
+*Adverse Outcome 
+Figure 4.1 Workflow for the SARA-ICE DA 
+ 
+ 
+ 
+ 
+90. 
+The model estimates the ED01 as a probability distribution which is typically 
+summarized as a 90% credible interval (the interval between the 5th and 95th 
+percentiles of the distribution). The variance of the distribution is a measure of the 
+uncertainty in the estimate and its width is dependent on the provided input data, 
+such as the number, type, and concordance between inputs. For the purposes of 
+defining a PoD for use in quantitative risk assessment for skin sensitisation, this
+
+OECD/OCDE                          497 
+           
+© OECD (2025) 
+ 
+44 
+distribution is truncated at 60,000 µg cm-2 which is the maximum possible dose for 
+a standard HRIPT. A PoD (geometric mean of the ED01 distribution) is then 
+calculated as a summary statistic of the distribution.  The SARA-ICE Technical 
+Specification in the Supporting Document to the Guideline (GL) on Defined 
+Approaches (DAs) for Skin Sensitisation (Appendix 2[1]) provides further detail on 
+the SARA-ICE PoD.  
+4.1.3. Description and limitations of the predictive model and its information sources 
+91. 
+The individual in chemico, in vitro, and in vivo information is generated using 
+existing OECD test guidelines (OECD TG 429, 442A, 442B, 442C, 442D, 442E (4-
+10)) and the protocols detailed therein. In the case of the kDPRA and KeratinoSens 
+assays, commonly reported units are expressed as molar concentrations. If these 
+are provided as inputs, the model also requires the specification of the chemical’s 
+molecular weight to enable conversion to mass concentrations. Note that the 
+SARA-ICE model may accept existing LLNA data and HPPT data as inputs; 
+however, new in vivo data should not be generated.  
+ 
+92. 
+The following assays have been characterized and included as potential 
+input 
+information 
+sources 
+in 
+the 
+SARA-ICE 
+DA: 
+ 
+• 
+Direct Peptide Reactivity Assay (DPRA; OECD TG 442C; KE1 [7]): Skin 
+sensitisers are generally electrophilic and react with the nucleophilic 
+moieties of proteins. The DPRA measures depletion of two peptides 
+containing either cysteine or lysine residues due to covalent binding. A test 
+chemical that induces mean peptide depletion of cysteine- and lysine-
+containing peptide above 6.38% (or in the case of co-elution, cysteine-only 
+depletion above 13.89%) is considered to be positive. The SARA-ICE DA 
+does not make use of this classification rule. Instead, the input into SARA-
+ICE is the percentage depletion of both peptides. The SARA-ICE DA then 
+determines the maximum depletion of either of the peptides. Depletions less 
+than 1% are interpreted as < 1%, whilst depletions greater than 99% are 
+interpreted as > 99%. It is noted that while the DPRA gravimetric method 
+has not been specifically evaluated for use in the SARA-ICE DA, given that 
+the DPRA gravimetric evaluation that was conducted under OECD TG 442C 
+found that the approaches are equivalent, it is expected to provide data 
+within an acceptable range for use as an input into SARA-ICE.  
+ 
+• 
+Kinetic Direct Peptide Reactivity Assay (kDPRA; OECD TG 442C; KE1 [7]): 
+The kDPRA is intended to quantify the reactivity of test chemicals in a time 
+and concentration dependent manner. The rate of depletion of the cysteine 
+peptide (used within the DPRA) is determined. Kinetic rate constants are 
+calculated and reported as the log Kmax value with Kmax having units M-1 
+s-1. The kDPRA is used in the discrimination of UN GHS subcategory 1A 
+from those not categorized as sub-category 1A. For SARA-ICE, the log 
+Kmax is converted to units g L-1 s-1 and multiplied by -1 (such that higher 
+potency chemicals are associated with lower values). This is handled by the 
+model, assuming the molecular weight of the chemical has been specified. 
+If the reactivity rate is too slow to measure, then the input should be < X 
+where X is the limit of detection of the test. For training purposes, this has
+
+OECD/OCDE                          497      
+           
+© OECD (2025) 
+ 
+45 
+been assumed to be -3.5 M-1 s-1, thus, for chemicals exhibiting negligible 
+reactivity in the kDPRA, the input should be <-3.5. 
+ 
+• 
+KeratinoSens: (In vitro Skin Sensitisation: ARE-Nrf2 Luciferase Test 
+Method; OECD TG 442D; KE2 [6]): Keratinocytes harbouring a reporter 
+gene construct react to possible sensitisers via the Nrf2-Keap1 pathway. A 
+test chemical that causes > 1.5 fold luciferase induction, at viabilities > 70% 
+when compared to the vehicle control, is considered to be positive. The 
+SARA-ICE input is the EC1.5 (µM) and the IC50 (µM). These are converted 
+by the template to units of µg mL-1, assuming molecular weight has been 
+provided. The model also accepts inputs as > X or < X where X is a test 
+concentration within the assay. This is required, for example, to input a 
+negative test into the model (for which no EC1.5 is defined). If the test is 
+negative, then no luciferase induction occurs at any test concentration and 
+the input into the model should > X where X is the maximum tested 
+concentration. Similarly, if > 1.5 fold induction is observed at all test 
+concentrations (i.e., the test is positive at all test concentrations), the input 
+into SARA-ICE should be provided as < X where X is the minimum test 
+concentration.  
+ 
+• 
+Human Cell Line Activation Test (h-CLAT; OECD TG442E; KE3 [4]): 
+Activation of antigen presenting cells is characterized by the up-regulation 
+of CD86 and/or CD54. The h-CLAT is considered to be positive if CD86 
+induction exceeds 1.5 fold and/or CD54 exceeds 2 fold at viabilities > 50% 
+when compared to the vehicle control. The SARA-ICE input is both the 
+CD54 EC200 and the CD86 EC150 (µg mL-1) and the CV75 (µg mL-1). If 
+either value is not reported because no change in the biomarker was 
+observed, the input is > X where X is the maximum concentration tested. In 
+the case that induction exceeds thresholds at all test concentrations for 
+either biomarker (i.e., the test is positive for that biomarker at all test 
+concentrations), the model may also accept < X where X is the minimum 
+test 
+concentration.  
+ 
+• 
+U-SENS (OECD TG 442E; KE3 [4]): Activation of antigen presenting cells 
+is characterised by the up-regulation of CD86. The U-SENS is considered 
+positive if the CD86 induction exceeds 1.5-fold at viabilities > 70% 
+compared to vehicle control. The SARA-ICE input is the CD86 EC150 (µg 
+mL-1) and CV70 (µg mL-1). If the test is negative, the input to the model is > 
+X where X is the maximum concentration should be used. In the event that 
+CD86 induction exceeds the 1.5-fold at all test concentrations, the input 
+should be < X where X is the minimum test concentration. 
+ 
+• 
+Local Lymph Node Assay (LLNA; OECD TG429, 442A, 442B; KE4 [5,8,9]): 
+The induction phase of skin sensitization (KE4) is characterized by 
+lymphocyte proliferation in the lymph nodes draining the site of the exposure 
+and is proportional to the dose and potency of the substance. The LLNA 
+measures proliferation relative to the vehicle control treated group for mice 
+exposed on their ear to a test substance of interest. The ratio of the mean 
+proliferation for each treatment group compared to the vehicle control is the 
+Stimulation Index (SI). An SI ≥ 3 is considered to be indicative of skin 
+sensitization. The input for SARA-ICE template is the EC3 expressed as a
+
+OECD/OCDE                          497 
+           
+© OECD (2025) 
+ 
+46 
+percent. These are converted to µg cm-2 by the model. The model may also 
+accept an input for negative tests expressed as > X where X is the maximum 
+tested concentration. Alternatively, if all test concentrations result in an SI 
+greater than 3, the recommended input into SARA-ICE is < X where X is the 
+lowest concentration tested. This also allows single-dose LLNA studies to 
+be input in the SARA-ICE DA. If a single-dose LLNA is run at concentration 
+X and the SI < 3, then the input into SARA-ICE is > X. Conversely, if the SI 
+> 3, the study result can be entered as < X. Only existing LLNA data are 
+recommended for use in the SARA-ICE model. 
+ 
+• Human Predictive Patch Test (HPPT [10]): HPPT methods include the 
+human maximization test (HMT) and the human repeat insult patch test 
+(HRIPT). Both test methods quantify an empirical sensitization rate 
+following exposure to a (potential) allergen at some chosen dermal dose. 
+The HMT incorporates a pre-treatment with an irritant and typically has a 
+smaller test pool than HRIPT. Required HPPT inputs into the SARA-ICE DA 
+are the dermal dose expressed as µg cm-2, the total number of test subjects 
+and the total number of subjects sensitized following the challenge.  
+ 
+93. 
+The current limitations of the individual test methods, such as with respect 
+to solubility, are described in the respective test guidelines and the validation 
+studies cited therein. No filtering of assay data was performed prior to training the 
+SARA-ICE DA, therefore uncertainty measures provided by the DA should reflect 
+such limitations. However, caution is advised when selecting inputs since biases 
+may nevertheless occur (e.g., when using a DPRA input for a chemical whose 
+sensitization potential is enhanced via metabolic activation). Only valid assay 
+results, i.e. results within the applicability domain of each assay used as input, 
+should be used to run the DA for regulatory purposes. Evaluation of data quality 
+should be made prior to use in the DA, this includes use of human data for which 
+Strickland et al., 2023 [10] can be used for reference.  
+4.1.4. Confidence in the SARA-ICE DA predictions 
+94. 
+The SARA-ICE DA is built upon a Bayesian statistical model and as such 
+provides potency estimates with a numerical measure of precision. The provided 
+distribution represents the range of ED01 values that are both consistent with user-
+specified input data and the model – where the model is a characterization of the 
+association between ED01 estimates and assay data for a training set of 434 
+chemicals. Further information on the SARA-ICE database can be found in the 
+Technical Specification in Appendix 2. A decision on whether to use specific source 
+data is dictated by the limitations of the different input methods found within the 
+Annex of the requisite test method (TG 429, TG 442A, TG 442B, TG 442C, TG 
+442D, TG 442E). As indicated, for a higher confidence estimate, at least 2 methods 
+that cover 2 key events should be used as input data. A greater number of data 
+inputs will likely also increase confidence (e.g. decrease the width of the 
+distribution) of the model ED01 output depending on the concordance of the 
+additional data utilized [3]. All available high-quality data is encouraged to be used.
+
+OECD/OCDE                          497      
+           
+© OECD (2025) 
+ 
+47 
+95. 
+A number of basic model checks were carried out to ensure that the SARA-
+ICE model is behaving as expected. Posterior predictive checks show that the 
+marginal posterior distribution of each parameter is not concentrating in the 
+extreme tail of the prior, indicating that the chosen prior is only weakly informative 
+on the posterior estimate. Therefore, estimates of model parameters would be 
+unlikely to change if prior choices were relaxed. Further checks were completed to 
+confirm the model assumption that there is a linear relationship with non-zero slope 
+to the predictors included in the model. Figure 4.2 shows that each of the possible 
+inputs is informative towards estimation of the ED01. Further analysis shows that 
+location-like latent variables for each predictor are both correlated with the ED01 
+and experimental repeats for chemical. The SARA-ICE Technical Specification in 
+the Supporting Document to the Guideline (GL) on Defined Approaches (DAs) for 
+Skin Sensitisation (Appendix 2[1]) provides a detailed explanation of the basic 
+model checks carried out. 
+ 
+Figure 4.2. Correlations between the SARA-ICE representation of sensitiser potency (abscissa) 
+versus SARA-ICE representation of the average assay result (ordinate), after transformation. Each 
+point corresponds to a distinct compound within the SARA-ICE database provided that the 
+compound has both HPPT and assay-specific data available. 
+ 
+4.1.5. Proficiency of SARA-ICE DA 
+96. 
+The SARA-ICE DA uses a statistical interpretation procedure, and no expert 
+judgement is required to derive the PoD and its probability distribution using the 
+model. Proficiency chemicals for the individual in chemico and in vitro information
+
+OECD/OCDE                          497 
+           
+© OECD (2025) 
+ 
+48 
+sources (KE1, KE2, KE3) are defined in the respective guidelines (OECD TG 442C, 
+442D, 442E) ([2,4,5]). The protocol details for the SARA-ICE DA are included in 
+Annex 3 of this guideline. Proficiency has been demonstrated for the SARA-ICE 
+DA v1, and this is the software version that is intended for use with this DA. 
+Proficiency for the individual information sources demonstrates proficiency for the 
+DA. 
+4.1.6. Predictive Capacity of the SARA-ICE DA 
+97. 
+SARA-ICE derives a point of departure for risk assessment. The model 
+estimates the dose at which skin sensitisation is likely to occur in 1% of an HPPT-
+eligible human population (ED01), reported as a distribution with associated 
+confidence intervals. For PoD estimation, an upper bound is imposed on the ED01 
+distribution at a threshold of 60,000 µg cm-2. This reflects the bound for a GHS 
+classification of NC and encodes an implicit assumption that the chemical under 
+consideration for PoD based risk assessment is a sensitiser. The PoD is therefore 
+defined as the geometric mean of the distribution of the ED01 conditional on the 
+ED01 being less than 60,000 µg cm-2. 
+ 
+98. 
+PoDs were computed for all 196 chemicals in the DASS evaluation set 
+(Annex 2) using a) in chemico and in vitro data also reported in the evaluation set 
+(which consists of a single input for DPRA, KeratinoSens and h-CLAT) and b) a 
+single kDPRA sourced from Natsch et al., 2022 [12], if available). It should be noted 
+that 187 / 196 (95%) of chemicals in the DASS evaluation set are presented in the 
+SARA-ICE database. However, the data used for training versus evaluation differs 
+for most chemicals. For training purposes, a chemical may have both in vivo and 
+in vitro data with multiple studies per data type. For evaluation, inputs are restricted 
+to a single DPRA, single  KeratinoSens, single h-CLAT and, if available, a single 
+kDPRA study. It follows that ED01 estimates obtained during training may be 
+considerably different from those obtained in the evaluation. 
+    
+99. 
+SARA-ICE PoDs, were compared to reference DSA1+ values reported in 
+Herzler et al., 2024 [11]. The reference value is termed the median sensitization 
+potency estimate (MSPE) and is reported as weight-of-evidence potency metric 
+calculated from human data. A DSA1+ MSPE value was defined for 54 / 196 
+chemicals in the DASS evaluation set. A positive correlation exists (Pearson 
+correlation coefficient is 0.64) and 46 / 54 (85%) of SARA-ICE PoDs are within 10-
+fold of the reference value. Roughly one third, 19 / 54 (35%) of SARA-ICE PoDs 
+are within 2-fold of the reference value. The same SARA-ICE PoDs were also 
+compared to 154 chemicals with reference LLNA MLLPs sourced from OECD 
+DASS reference list [1]. A positive correlation exists (Pearson correlation 
+coefficient is 0.71) and 122 / 154 (79%) of SARA-ICE PoDs are within 10-fold of 
+the reference value. Again, roughly one third, 49 / 154 (32%) of SARA-ICE PoDs 
+are within 2-fold of the reference value. SARA-ICE PoDs exhibit almost no bias 
+relative to human reference values (mean and median fold-differences are 1.1). 
+Relative to LLNA reference values, the SARA-ICE PoD is nearly 2-fold lower, on 
+average. These comparisons are presented in Figure 1.1, section 1.2. Further 
+analysis was conducted based upon fewer inputs, no appreciable difference in
+
+OECD/OCDE                          497      
+           
+© OECD (2025) 
+ 
+49 
+prediction bias was observed for the minimum input requirement of two separate 
+key event based model inputs. Further analyses are made in Appendix 3 of the 
+Supporting document to the Guideline (GL) on Defined Approaches (DAs) for Skin 
+Sensitisation. 
+ 
+4.1.7. Reporting of the DA 
+100. 
+The reporting of the SARA-ICE DA should follow the template described in 
+OECD GD 255 [13], and should include at a minimum the following elements: 
+• 
+Test chemical identification (e.g. chemical name, structural formula, composition, isomers, 
+impurities including their quantities as available, CAS number, batch and lot number, and 
+other relevant identifiers) 
+• 
+Individual test reports including raw data for the individual tests performed per corresponding 
+guideline (OECD TG 429, 442A, 442B, 442C, 442D, 442E, or the HPPT methods, Strickland 
+et al., 2023 [10]). Note that the chemical identity for each test report should match that above. 
+• 
+The input template containing individual assay datapoints used for computation in SARA-
+ICE. 
+• 
+Outcome of the DA application (PoD (geometric mean and 90th credible interval of the 
+distribution of the ED01 conditional on the ED01 being less than 60,000 µg cm-2)) 
+• 
+Any deviation from the SARA-ICE DA 
+• 
+Conclusion
+
+OECD/OCDE                          497 
+           
+© OECD (2025) 
+ 
+50 
+ 4.2 References 
+1. OECD (2021). Series on Testing and Assessment No. 336: Supporting document to the 
+Guideline (GL) on Defined Approaches (DAs) for Skin Sensitisation. Organisation for 
+Economic 
+Cooperation 
+and 
+Development, 
+Paris. 
+Available 
+at: 
+[https://www.oecd.org/chemicalsafety/testing/series-testing-assessment-publications-
+number.htm]. 
+2. Reynolds J, MacKay C, Gilmour N, Miguel-Vilumbrales D, Maxwell G.(2019) Probabilistic 
+prediction of human skin sensitiser potency for use in next generation risk assessment. 
+Computational Toxicology. 9:36–49. https://doi.org/10.1016/j.comtox.2018.10.004. 
+3. Reinke EN, Reynold J, Gilmour N, Reynolds G, Strickland J, Germolec D, Allen DG, 
+Maxwell G, Kleinstreuer NC (2025). The Skin Allergy Risk Assessment-Integrated 
+Chemical Environment (SARA-ICE) Defined Approach to Derive Points of Departure for 
+Skin Sensitization. Cur. Res. Toxicol. https://doi.org/10.1016/j.crtox.2024.100205 2025. 
+4. OECD (2024). OECD Test Guideline 442E: In vitro Skin Sensitisation assays addressing 
+the Key Event on activation of dendritic cells on the Adverse Outcome Pathway for Skin 
+Sensitisation. Organisation for Economic Co-operation and Development, Paris.  
+5. OECD (2010). OECD Test Guideline 429: Skin Sensitisation Local Lymph Node Assay. 
+Organisation for Economic Co-operation and Development, Paris. 
+6. OECD (2024). OECD Test Guideline 442D: In Vitro Skin Sensitisation assays addressing 
+the Adverse Outcome Pathway Key Event on Keratinocyte activation.  Organisation for 
+Economic Co-operation and Development, Paris. 
+7. OECD (2024). OECD Test Guideline 442C: In Chemico Skin Sensitisation assays 
+addressing the Adverse Outcome Pathway key event on covalent binding to proteins. 
+Paris. Organisation for Economic Co-operation and Development, Paris. 
+8. OECD (2024). OECD Test Guideline 442B: Skin Sensitisation Local Lymph Node Assay: 
+BrdU-ELISA or – FCM. Organisation for Economic Co-operation and Development, Paris. 
+9. OECD (2010). OECD Test Guideline 442A: Skin Sensitisation LLNA: DA. Organization for 
+Economic Co-Operation and Development, Paris. 
+10. Strickland J, Abedini J, Allen DG, Gordon J, Hull V, Kleinstreuer NC, et al (2023). A 
+database of human predictive patch test data for skin sensitization. Arch Toxicol 
+https://doi.org/10.1007/s00204-023-03530-3. 
+11. Herzler M, Abedini J, Allen DG, Germolec D, Gordon J, Ko H-S, et al (2024). Use of 
+human predictive patch test (HPPT) data for the classification of skin sensitization hazard 
+and potency. Arch Toxicol 98:1253–69. https://doi.org/10.1007/s00204-023-03656-4. 
+12. Natsch, A. and G.F. Gerberick (2022), Integrated skin sensitization assessment based on 
+OECD methods (I): Deriving a point of departure for risk assessment. ALTEX-Alternatives 
+to animal experimentation, 39(4): p. 636-646. DOI: 10.14573/altex.2201141 
+13. OECD (2016). Series on Testing & Assessment No. 255: Guidance Document on the 
+reporting of defined approaches to be used within integrated approaches to testing and 
+assessment. Organisation for Economic Cooperation and Development, Paris. Available 
+at: [https://www.oecd.org/chemicalsafety/testing/series-testing-assessment-publications-
+number.htm]
+
+OECD/OCDE                          497      
+           
+© OECD (2025) 
+ 
+51 
+101. 
+Each of the test methods included in the 2o3 DA have different prediction 
+models that may require multiple runs (independent repetitions) dependent upon 
+the outcome of an individual run. An adaptation of the prediction model was used 
+to determine borderline cases in the individual runs for the purpose of making 
+predictions within the 2o3 DA. These adaptations (Figures 1.1-1.8) below should 
+be used in these methods to come to the final conclusion of the individual tests. 
+Methods included in the 2o3 include: DPRA, ADRA, KeratinoSens™, LuSens, 
+EpiSensA, h-CLAT, U-SENS™, IL-8 Luc assay, and GARD®skin. The 
+methodologies to derive BRs for LuSens, ADRA, EpiSensA, IL-8 Luc and U-
+SENSTM are available in publications (1-4). BRs for GARD®skin was derived using 
+same methodologies as found in (1). Further details for the derivation of the BRs 
+for DPRA, EpiSensA, h-CLAT, and KeratinoSens are available in Annex 7 of the 
+Supporting document to the Guideline (GL) on Defined Approaches (DAs) for Skin 
+Sensitisation (5). 
+ 
+Annex 1: Prediction models for the 
+individual in chemico/in vitro tests with 
+multiple runs for use in 2o3 DA
+
+OECD/OCDE                          497 
+           
+© OECD (2025) 
+ 
+52 
+DPRA Prediction Model  
+ 
+Annex 1, Figure 1.1. Flow-chart of the DPRA prediction model (mean depletion) taking into borderline ranges and 
+multiple runs conclude on borderline results within the 2o3 DA. The original threshold for a positive classification is 
+6.38%, and the statistically derived borderline range around this threshold is 4.95% - 8.32%. The same flowchart 
+applies to the cysteine-only prediction model, whereby the following thresholds apply: 10.56 % instead of 4.95% 
+and > 18.47 % instead of >8.32%.
+
+OECD/OCDE                          497      
+           
+© OECD (2025) 
+ 
+53 
+ADRA Prediction Model 
+ 
+ 
+Annex 1, Figure 1.2. Flow-chart of the ADRA prediction model (mean depletion) taking into account 
+borderline ranges and multiple runs to conclude on borderline results within the 2o3 DA. The original 
+threshold for a positive classification is a depletion value of 4.9% or greater for either probe, and the 
+statistically derived borderline range around this threshold is 4.1% - 5.9%. The same flowchart applies 
+to the NAC-only prediction model, whereby the following thresholds apply: 5.6% instead of 4.9%, 4% 
+instead of 3%, >11% instead of 10%, 4.7% instead of 4.1% and > 6.8% instead of 5.9%.
+
+OECD/OCDE                          497 
+           
+© OECD (2025) 
+ 
+54 
+KeratinoSens Prediction Model  
+ 
+ 
+Annex 1, Figure 1.3. Flow-chart of the KeratinoSensTM prediction model taking into account borderline 
+ranges and multiple runs to conclude on borderline results within the 2o3 DA. The original threshold 
+for a positive classification is 1.5-fold induction, and the statistically derived borderline range around 
+this threshold is 1.35 – 1.67-fold. Note: An independent run is referred to as ‘repetition’ in 442D, while 
+it is called a ‘run’ in 442C and 442E; these nomenclatures do mean the same thing.
+
+OECD/OCDE                          497      
+           
+© OECD (2025) 
+ 
+55 
+ 
+ 
+LuSens Prediction Model  
+ 
+ 
+ 
+Annex 1, Figure 1.4. Flow-chart of the LuSens prediction model, taking into account borderline ranges and multiple 
+runs to conclude on borderline results within the 2o3 DA. The original threshold for a positive classification is 1.5-
+fold induction, and the statistically derived borderline range around this threshold is 1.28 – 1.76-fold.
+
+OECD/OCDE                          497 
+           
+© OECD (2025) 
+ 
+56 
+ 
+ 
+EpisensA Prediction Model  
+ 
+ 
+ 
+ 
+Annex 1, Figure 1.5. Flow-chart of the EpiSensA prediction model, taking into account borderline ranges  to 
+conclude on borderline results within the 2o3 DA. The original threshold for a positive classification for the four 
+genes detected in the EpiSensA (see TG 442E) is ATF3 >15-fold, GCLM >2-fold, DNAJB4 > 2-fold, IL-8 > 4-fold 
+induction with statistically derived borderline ranges of: 10.71 ≤ ATF3 ≤ 21.02; 1.64 ≤ GCLM ≤ 2.45; 1.61 ≤ 
+DNAJB4 > 2.52 ; 3.11≤ IL-8 ≤5.16 fold induction
+
+OECD/OCDE                          497      
+           
+© OECD (2025) 
+ 
+57 
+h-CLAT Prediction Model   
+ 
+ 
+Annex 1, Figure 1.6. Flow-chart of the h-CLAT prediction model taking into account borderline ranges and 
+multiple runs to conclude on borderline results within the 2o3 DA. The original threshold for a positive 
+classification is 150% induction of CD86 with a statistically derived borderline range around this threshold of 
+122 – 184% and 200% induction of CD54 with a statistically derived borderline range around this threshold 
+of 157 – 255%.
+
+OECD/OCDE                          497 
+           
+© OECD (2025) 
+ 
+58 
+U-SENS Prediction Model  
+ 
+Annex 1, Figure 1.7. Flow chart of the U-SENS™ prediction model taking into account borderline 
+ranges and multiple runs to conclude on borderline results within the 2o3 DA. The original threshold 
+for a positive classification is 150% induction of the CD86 with a statistically derived borderline range 
+around this threshold of 128% - 176%.
+
+OECD/OCDE                          497      
+           
+© OECD (2025) 
+ 
+59 
+IL-8 Luc Prediction Model  
+ 
+ 
+ 
+Annex 1, Figure 1.8. Flow chart of the IL-8 Luc assay prediction model taking into account borderline ranges 
+and multiple runs to conclude on borderline results within the 2o3 DA. The original threshold for a positive 
+classification is 1.4-fold luciferase induction with a statistically derived borderline range around this threshold 
+of 1.25 – 1.57.  
+ 
+GARDSkin Prediction Model  
+ 
+ 
+ 
+Annex 1, Figure 1.9. Flow chart of the GARD®™skin assay prediction model taking into account borderline ranges 
+and multiple runs to conclude on borderline results within the 2o3 DA. The original threshold for a positive 
+classification is a mean DV > 0 with a statistically derived borderline range around this threshold of  -0.450 – +0.450.
+
+OECD/OCDE                          497 
+           
+© OECD (2025) 
+ 
+60 
+References 
+1. Kolle SN, Mathea M, Natsch A, Landsiedel R. (2021). Assessing Experimental 
+Uncertainty in Defined Approaches: Borderline Ranges for In Chemico and In Vitro Skin 
+Sensitization Methods Determined from Ring Trial Data, Appl In Vitro Toxicol, 7:3: 102-
+111. 
+2. Correction to: Assessing Experimental Uncertainty in Defined Approaches: Borderline 
+Ranges for In Chemico and In Vitro Skin Sensitization Methods Determined from Ring 
+Trial Data, by Kolle, et al. Appl In Vitro Toxicol 2021;7(3):102–111; doi: 
+10.1089/aivt.2021.0003. Applied In Vitro Toxicology 2024 10:1, 29-30. 
+3.  Kasahara T, Yamamoto Y, Nakashima N, Imamura M, Mizumachi H, Suzuki S, Aiba S, 
+Kimura Y, Ashikaga T, Kojima H, Ono A, Matsumoto K. (2025). Borderline Range 
+Determined Using Data From Validation Study of Alternative Methods for Skin 
+Sensitization: ADRA, IL-8 Luc Assay, and EpiSensA, J Appl Toxicol, 45(3):432-439. 
+4. Nardelli, L. (2025) Determination of U-SENSTM borderline range thresholds to address 
+uncertainty for skin sensitization assessment in a regulatory context, ALTEX-Alternatives 
+to animal experimentation. doi: 10.14573/altex.2411282. 
+5. OECD (2021). Series on Testing and Assessment No. 336: Supporting document to the 
+Guideline (GL) on Defined Approaches (DAs) for Skin Sensitisation. Organisation for 
+Economic 
+Cooperation 
+and 
+Development, 
+Paris. 
+Available 
+at: 
+[https://www.oecd.org/chemicalsafety/testing/series-testing-assessment-publications-
+number.htm].
+
+OECD/OCDE                          497      
+           
+© OECD (2025) 
+ 
+61 
+ 
+ 
+ 
+Introduction 
+ 
+102. 
+As described in Section 3.1, the ITS defined approach (DA) are based on 
+three information sources: an in chemico assay (DPRA, ADRA, TG 442C) (1), an 
+in vitro assay (h-CLAT, U-SENS™, GARD®Skin, TG 442E) (2), and one in silico 
+method (Derek Nexus or OECD Toolbox) prediction from the models listed in 
+Appendices I-II of this guideline (referred to hereafter as in silico)) (3-4). For each 
+information source a score is given depending on the outcome of the individual assay 
+and/or prediction, that is then summed to obtain the DA prediction (5). 
+ 
+Applicability domain of the individual information sources 
+In chemico/in vitro information source  
+103. 
+A test chemical is considered to be within the in chemico/in vitro information 
+source domain (i.e. applicable) if it can be tested according to the individual 
+protocols, taking into account the technical and chemical type limitations of each 
+assay (as defined in the respective TGs (442C and 442E (1, 2)). The in chemico/in 
+vitro results are considered applicable, in case there are no technical or chemical 
+space specific limitations and no reason why the results obtained from the assay 
+cannot be considered. 
+ 
+In silico information source 
+104. 
+The ITS DAs use in silico information sources that are based on chemical 
+structures. These in silico sources rely on molecular representation of the 
+chemicals: input usually by drawing the chemical structure, or by entering the 
+Simplified Molecular-Input Line-Entry System (SMILES) or the IUPAC International 
+Chemical Identifier (InChi). A test chemical is considered to be within the in silico 
+information source domain if it is a single chemical (i.e. mixtures  and UVCBs are 
+outside the applicability domain) and a prediction can be made, taking into account 
+Annex 2: Assessing confidence in DASS 
+ITS predictions
+
+OECD/OCDE                          497 
+           
+© OECD (2025) 
+ 
+62 
+the individual applicability domain of the in silico model (as defined in Appendix I-
+II). As a single chemical can be represented by several CAS or EC numbers (due 
+to differences in composition, e.g. stereochemical differences, present as varied 
+salt forms, present as the main component in a mixture), it is important to specify 
+the exact structure. Resources such as the US EPA CompTox Chemicals 
+Dashboard (https://comptox.epa.gov/dashboard) 
+or 
+NIH
+ 
+PubChem (https://pubchem.ncbi.nlm.nih.gov/) may be useful in mapping 
+chemical names or structures to SMILES or InChi format. Available guidance can 
+be consulted regarding minimum purity level of substances used in in silico 
+predictions based on molecular structure.34 
+ 
+ 
+ 
+3 OECD (2017), Guidance on Grouping of Chemicals, Second Edition, OECD Series on 
+Testing 
+and 
+Assessment, 
+No. 
+194, 
+OECD 
+Publishing, 
+Paris, 
+https://doi.org/10.1787/9789264274679-en. 
+4 ECHA (2008) CHAPTER R.6 – QSARS AND GROUPING OF CHEMICALS in Guidance 
+on 
+Information Requirements and Chemical Safety Assessment. European Chemicals Agency 
+[Guidance on Information Requirements and Chemical Safety Assessment - ECHA 
+(europa.eu)
+
+OECD/OCDE                          497      
+           
+© OECD (2025) 
+ 
+63 
+Confidence in ITS predictions 
+ 
+105. 
+The applicability domain of the individual information sources used in the 
+ITS DA are assessed and this determines whether the ITS predictions can be 
+considered conclusive (i.e. high confidence) or inconclusive (i.e. low confidence) 
+for hazard identification and/or potency. 
+ 
+How to apply the data interpretation procedure (DIP) for the ITS 
+106. 
+The ITS uses three information sources based on in chemico (KE1) (1) and 
+in vitro (KE3) data (2), and an in silico prediction (3), with a DIP developed with EG 
+DASS input. Where all three information sources are applicable, a conclusive ITS 
+prediction can be made. In some cases, a conclusive ITS prediction can be made, 
+if there are only two information sources with applicable results (Figure A2.1).
+
+OECD/OCDE                          497 
+           
+© OECD (2025) 
+ 
+64 
+Annex 2, Figure 1. Workflow for data interpretation procedure for the ITS 
+ 
+ 
+Note: The ITS defined approach (DA) are based on three information sources: an in chemico assay (DPRA, 
+ADRA, TG 442C) (1), an in vitro assay (h-CLAT, U-SENS™, GARD®Skin, TG 442E) (2), and one in silico
+
+OECD/OCDE                          497      
+           
+© OECD (2025) 
+ 
+65 
+method (Derek Nexus or OECD Toolbox prediction from the models listed in Appendices I-II of this 
+guideline) (3-4). For each information source a score is given depending on the outcome of the individual 
+assay and/or prediction, that is then summed to obtain the DA prediction. Scoring information can be found 
+in Table 3.1. 
+ 
+ 
+ 
+107. 
+Depending on the applicability of the individual information sources, three 
+different scenarios for the ITS DA are possible (see Appendices I-II, Annex 2 
+Figure 1 and Annex 2 Table 1). In Scenario 1, all three information sources are 
+applicable. In Scenarios 2 and 3, only two information sources are applicable. 
+Details are provided below: 
+108. 
+Scenario 1: all of the information sources i.e. in chemico/in vitro outcomes 
+are applicable and can be considered (as prescribed in each individual assay) and 
+the in silico prediction is in domain. The obtained ITS DA prediction is conclusive 
+and of high confidence 
+109. 
+Scenario 2: in silico prediction out of domain, however in chemico/in vitro 
+methods are in domain and provide conclusive predictions (i.e. in chemico/in vitro 
+methods are applicable). 
+• Combined DA score of 0, 2, 3, 4 or 6, in silico prediction out of in silico 
+domain: DA conclusion is possible based on the two in chemico/in vitro 
+outcomes. Conclusive prediction as the in silico prediction would not lead to 
+a different DA prediction. 
+• Combined DA score of 5, in silico prediction out of in silico domain: DA 
+conclusion possible for hazard identification (conclusive positive DA 
+prediction for hazard identification). DA conclusion not possible for potency 
+(inconclusive DA prediction for potency). 
+• Combined DA score of 1, in silico prediction out of in silico domain: DA 
+conclusion not possible. Inconclusive DA prediction for hazard identification 
+and potency. 
+110. 
+Scenario 3: one in chemico/in vitro method out of domain or the result of 
+that method cannot be considered (inapplicable): 
+• Combined DA score of 2 based on one in chemico/in vitro and in silico 
+prediction: DA conclusion possible. Conclusive DA prediction as UN GHS 
+1B, as the outcome of the other in chemico/in vitro method would not lead 
+to a different DA prediction. 
+• Combined DA score of 3 or 4, based on one in chemico/in vitro and in silico 
+prediction: DA conclusion possible for hazard identification (conclusive 
+positive DA prediction for hazard identification). DA conclusion not possible 
+for potency (inconclusive DA prediction for potency). 
+• Combined DA score of 0 or 1, one in chemico/in vitro and in silico prediction: 
+DA conclusion not possible. Inconclusive prediction for hazard identification 
+and potency.
+
+OECD/OCDE                          497 
+           
+© OECD (2025) 
+ 
+66 
+Annex 2 Table 1. Applicability domain and confidence of the ITS. 
+ 
+Scenario 
+Combined 
+score5 
+ITS prediction 
+Confidence 
+DA prediction including confidence considerations 
+1 
+0-1 
+NC 
+High 
+Conclusive prediction Not Classified (NC). 
+2-5 
+UN GHS 1B 
+High 
+Conclusive prediction UN GHS 1B. 
+6-7 
+UN GHS 1A 
+High 
+Conclusive prediction UN GHS 1A. 
+2 
+0 
+NC 
+High 
+Conclusive prediction NC. 
+1 
+Inconclusive 
+Low 
+Inconclusive prediction whether 
+positive or negative. 
+2-4 
+UN GHS 1B 
+High 
+Conclusive prediction UN GHS 1B. 
+5 
+UN GHS 1 
+High 
+Conclusive positive prediction for hazard identification. 
+Low 
+Inconclusive prediction for potency. 
+6 
+UN GHS 1A 
+High 
+Conclusive prediction UN GHS 1A. 
+3 
+0-1 
+Inconclusive 
+Low 
+Inconclusive prediction whether 
+positive or negative. 
+2 
+UN GHS 1B 
+High 
+Conclusive prediction UN GHS 1B. 
+3-4 
+UN GHS 1 
+High 
+Conclusive positive prediction for hazard identification. 
+Low 
+Inconclusive prediction for potency. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+5Total scores calculated only from information sources that are applicable/in domain.
+
+OECD/OCDE                          497      
+           
+© OECD (2025) 
+ 
+67 
+References 
+ 
+1. 
+OECD (2024). OECD Guideline for the Testing of Chemicals No. 442C: In 
+chemico Skin Sensitisation: Assays addressing the Adverse Outcome Pathway key 
+even on covalent binding to proteins). In chemico. Paris, France: Organisation for 
+Economic Cooperation and Development. Available at:(oecd-ilibrary.org). 
+2. 
+OECD (2024). OECD Key event based test Guideline 442E: In vitro Skin 
+Sensitisation Assays Addressing the Key Event on Activation of Dendritic Cells on 
+the Adverse Outcome Pathway for Skin Sensitisation. Organisation for Economic 
+Cooperation and Development, Paris. Available at: (oecd-ilibrary.org). 
+3. 
+Lhasa 
+Limited 
+(2020), 
+Derek 
+Nexus 
+v6.1.0, 
+Lhasa 
+Limited. 
+(https://www.lhasalimited.org/products/derek-nexus.htm)  
+4. 
+Yordanova et al., (2019). Automated and standardized workflows in the 
+OECD 
+QSAR 
+Toolbox. 
+Computational 
+Toxicology, 
+10, 
+89–104. 
+https://doi.org/10.1016/j.comtox.2019.01.006  
+5. 
+Takenouchi O, Fukui S, Okamoto K, Kurotani S, Imai N, Fujishiro M, Kyotani 
+D, Kato Y, Kasahara T, Fujita M, Toyoda A, Sekiya D, Watanabe S, Seto H, Hirota 
+M, Ashikaga T, Miyazawa M. (2015). Test battery with the human cell line activation 
+test, direct peptide reactivity assay and DEREK based on a 139 chemical data set 
+for predicting skin sensitizing potential and potency of chemicals. J Appl Toxicol, 
+35:1318-32
+
+OECD/OCDE                          497 
+           
+© OECD (2025) 
+ 
+68 
+Appendix I: Description, applicability domain, and protocol for Derek Nexus predictions 
+ 
+Description of Derek Nexus  
+ 
+111. 
+Derek is an expert, knowledge-based software tool comprising alerts on 
+several toxicity endpoints, including skin sensitisation. Derek fires alerts based on 
+structural features, i.e. whether a hapten has potential for electrophilic binding to 
+skin proteins either directly or following metabolism/auto-oxidation (1).  Additional 
+information on this model can be found in the QSAR Model Reporting Format 
+(QMRF) 
+(2). 
+ 
+Applicability domain of Derek Nexus  
+ 
+112. 
+To each skin sensitisation alert, a likelihood level is associated. Chemicals 
+firing an alert with a likelihood of certain, probable, plausible, or equivocal are 
+considered to be positive. Chemicals with a negative prediction of ‘non-sensitiser 
+with no misclassified or unclassified features’ are considered to be negative.   
+ 
+113. 
+Skin sensitisation predictions from Derek Nexus v6.1.0  are used in the ITS 
+DA. All positive predictions (likelihood = certain, probable, plausible or equivocal) 
+are considered to be inside the applicability domain. Negative predictions 
+(likelihood = doubted, improbable, impossible or non-sensitiser) are also 
+considered to be in the applicability domain unless they contain misclassified 
+and/or unclassified features. A prediction of non-sensitiser with misclassified 
+features indicates the presence of a fragment that has been observed exclusively 
+in known sensitisers which Derek fails to alert for. A prediction of non-sensitiser 
+with unclassified features indicates the presence of a fragment that has not been 
+observed in publicly available data (although Derek may have seen this in 
+proprietary data) (3). Usually, expert review is recommended for predictions 
+containing these features but as a fixed data interpretation procedure, required in 
+a DA, does not permit expert review these are best considered as out of domain 
+for use in the ITS DA (Figure A1).
+
+OECD/OCDE                          497      
+           
+© OECD (2025) 
+ 
+69 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure A1. Applicability domain for Derek Nexus skin sensitisation predictions 
+used in the ITS DA 
+ 
+ 
+ 
+ 
+Protocol for generating predictions for skin sensitisation hazard using Derek Nexus v.6.1.0 with 
+Derek KB 2020 1.0 
+ 
+114. 
+The following protocol should be used to generate predictions for skin 
+sensitisation hazard using Derek Nexus v.6.1.0 with Derek Knowledge Base (KB) 
+2020 1.0 to be used as the in silico information source for the ITSv1 defined 
+approach. 
+ 
+Single chemical 
+1. Open Nexus 
+2. Input structure using one of the following options: 
+a. Input structure manually by drawing on the canvas 
+b. Go to File>Open Structure(s) to input a single structure from a file (.mol, .sdf, .smi, .csv, 
+.cdx (file list not exhaustive)) 
+c. Go to File>Type Chemistry to enter or paste SMILES, InChi or MOL file 
+d. Go to File>New Structure to input structure by drawing a structure 
+3. Set up prediction 
+a. Go to Prediction>Derek Prediction>Derek Prediction Setup 
+4. Apply processing constraints
+
+OECD/OCDE                          497 
+           
+© OECD (2025) 
+ 
+70 
+a. Knowledge Bases 
+i. For Nexus v6.1.0, ensure Derek KB 2020 1.0 is selected 
+b. Perception 
+i. Ensure ‘Perceive tautomers’ and Perceive mixtures’ are selected 
+ii. Ensure ‘Match alerts without rules’ is unselected 
+c. Species 
+i. Select ‘mammal’ 
+d. Endpoints 
+i. Click ‘Deselect all’ then expand ‘Skin sensitisation (ALL)’ to view 
+‘Photoallergenicity’ and ‘Skin sensitisation’. Select ‘Skin sensitisation’ 
+e. Structure properties 
+i. Ensure the ‘Overwrite’ box(es) for logP, logKp, and average molecular 
+mass are unselected to use the values calculated by Derek Nexus, 
+otherwise, check the ‘Overwrite’ box(es) to input own values. 
+5. Generate prediction 
+a. Click ‘Start Prediction’ 
+b. If an alert is fired: Knowledge base, endpoint, species, reasoning level, alert fired, 
+EC3 prediction (if applicable), and example matched (if applicable) are shown in 
+the prediction navigator. 
+i. Click the likelihood (certain, probable, plausible, equivocal) to view the 
+reasoning rules leading to the likelihood level. 
+ii. Click the Alert in the prediction navigator to view alert match(es), 
+description image, comments, validation comments, endpoint, references, 
+patterns, and examples associated with the alert. 
+c. If no alert is fired, a negative prediction is generated: Knowledge base, endpoint, 
+species and negative prediction reasoning (non-sensitiser) and negative 
+prediction overview (absence or presence of misclassified and/or unclassified 
+features) are shown in the prediction navigator. 
+i. Click the negative prediction overview (‘No misclassified or unclassified 
+features’, 
+‘Contains 
+misclassified/unclassified 
+features’) 
+to 
+view 
+information about the negative prediction. Similar nearest neighbours are 
+available to view for misclassified features. 
+d. Use the Derek likelihood to classify each compound as positive or negative (alert 
+fired with certain, probable, plausible, or equivocal is classified as positive, alert 
+fired with doubted, improbable, impossible, or a negative prediction of non-
+sensitiser with no misclassified or unclassified features is classified as negative). 
+i. Negative predictions of non-sensitiser with misclassified and/or 
+unclassified features are of lower confidence and are not used in ITSv1. 
+ii. In cases where more than one alert is fired or structures in a mixture 
+generate different likelihoods, the most conservative classification is 
+applied (positive > negative). 
+iii. A positive outcome from Derek is scored as 1 in the ITSv1 and a negative 
+outcome is scored as 0.
+
+OECD/OCDE                          497      
+           
+© OECD (2025) 
+ 
+71 
+Multiple chemicals 
+1. Open Nexus 
+2. Input structures 
+a. 
+Go to File>Open Structure(s) to input a file containing multiple structures (.mol, .sdf, 
+.smi, .csv, .cdx (file list not exhaustive)) 
+b.  Select the fields from the file which will be mapped to structure properties used 
+during the prediction (Name, Average Molecular Mass, LogP, LogKp). If left 
+unchanged then the values set by Derek will be used. 
+3. Set up batch prediction 
+a. 
+Go to Prediction>Derek Prediction>Derek Batch Setup 
+4. Apply processing constraints 
+a. 
+Knowledge Bases 
+i. For Nexus v6.1.0, ensure Derek KB 2020 1.0 is selected 
+b. 
+Perception 
+i. Ensure ‘Perceive tautomers’ and Perceive mixtures’ are selected 
+ii. Ensure ‘Match alerts without rules’ is unselected 
+c. 
+Species 
+i. Select ‘mammal’ 
+d. 
+Endpoints 
+i. Click ‘Deselect all’ then expand ‘Skin sensitisation (ALL)’ to view 
+‘Photoallergenicity’ and ‘Skin sensitisation’. Select ‘Skin sensitisation’ 
+e. 
+Report configuration 
+i. Directory - Leave as default directory or map to preferred location. 
+ii. Pick type - Select report for batch (left side icon) 
+iii. Pick format - Select desired file type (e.g. Excel) 
+iv. Pick design - Select desired design (e.g. Tabular Report) 
+v. Filename - input desired filename 
+f. 
+Report display options 
+i. Ensure ‘Show predictions of at least impossible’ is selected 
+ii. Select ‘Show Negative Predictions’ 
+iii. Select ‘Filter All Nearest Neighbours by Misclassified Features’ 
+iv. Select ‘Show Open Likelihood’ 
+v. Select ‘Show Rapid Prototypes’ 
+5. Generate batch prediction 
+a. 
+Click ‘Start Batch Prediction’ 
+i. Once the batch prediction is finished, select the ‘Open Report Directory’ 
+when prompted 
+b.  Use the Derek likelihood to classify each compound as positive or negative (alert 
+fired with certain, probable, plausible, or equivocal is classified as positive, alert 
+fired with doubted, improbable, impossible, or a negative prediction of non-
+sensitiser with no misclassified or unclassified features is classified as negative). 
+i. Negative predictions of non-sensitiser with misclassified and/or 
+unclassified features are of lower confidence and are not used in ITSv1.
+
+OECD/OCDE                          497 
+           
+© OECD (2025) 
+ 
+72 
+ii. In cases where more than one alert is fired or structures in a mixture 
+generate different likelihoods, the most conservative classification is 
+applied (positive > negative). 
+c.  A positive outcome from Derek is scored as 1 in the ITSv1 and a negative 
+outcome is scored as 0. 
+ 
+References  
+ 
+1. 
+Lhasa 
+Limited 
+(2020), 
+Derek 
+Nexus 
+v6.1.0, 
+Lhasa 
+Limited. 
+(https://www.lhasalimited.org/products/derek-nexus.htm) 
+2. 
+OECD (2024) Webpage for Software to be used with Test Guidelines: 
+https://www.oecd.org/en/topics/sub-issues/testing-of-chemicals/software-test-
+guidelines.html 
+3. 
+Chilton, M. L., Macmillan, D. S., Steger-Hartmann, T., Hillegass, J., Bellion, 
+P., Vuorinen, A., Etter, S., Smith, B. P. C., White, A., Sterchele, P., De Smedt, A., 
+Glogovac, M., Glowienke, S., O’Brien, D., & Parakhia, R. (2018). Making reliable 
+negative predictions of human skin sensitisation using an in silico fragmentation 
+approach. 
+Regulatory 
+Toxicology 
+and 
+Pharmacology, 
+95, 
+227–235. 
+https://doi.org/10.1016/j.yrtph.2018.03.015
+
+OECD/OCDE                          497      
+           
+© OECD (2025) 
+ 
+73 
+ 
+Appendix II: Description, applicability domain, and protocol for OECD QSAR Toolbox 
+predictions 
+ 
+Description of OECD QSAR Toolbox  
+ 
+115. 
+The OECD QSAR Toolbox is a freely available software application that 
+supports reproducible and transparent chemical hazard assessment. It offers 
+functionalities for retrieving experimental data, simulating metabolism and profiling 
+properties of chemicals. These information and tools can be used to find 
+structurally and mechanistically defined analogues and chemical categories, which 
+can serve as sources for read-across and trend analysis for data gap filling 
+(1)].  Additional information on this model can be found in the QSAR Model 
+Reporting Format (QMRF) (2). 
+ 
+Applicability domain of OECD QSAR Toolbox  
+ 
+Technical aspects  
+ 
+116. 
+The Toolbox prediction used by the DA ITS is calculated using the DASS 
+automated workflow (DASS AW) included in OECD QSAR Toolbox v.4.5. The 
+workflow also includes the automatic calculation of the applicability domain.  
+ 
+Calculation of the in silico domain of Toolbox  
+ 
+117. 
+Applicability domain of the QSAR Toolbox Skin sensitisation predictions for 
+use in the ITS defined approach automated workflow (DASS AW) is defined by 
+based on the training set substances of the same automated workflow. The training 
+set (TS) consists of 2268 substances having LLNA and/or GPMT skin sensitisation 
+experimental data17 (the full list of substances can be consulted in the QSAR 
+Toolbox). The TS substances are part of the following OECD QSAR Toolbox 
+databases:  
+ 
+1. 
+Skin sensitisation;  
+2. 
+REACH Skin sensitisation (normalized) databases.  
+ 
+118. 
+Based on the correctly predicted training set substances, three layers of 
+applicability domain are automatically calculated by the Toolbox: 1) parametric; 2) 
+ 
+17 In case of multiple data points for one substance, the most conservative scenario is taken into account.
+
+OECD/OCDE                          497 
+           
+© OECD (2025) 
+ 
+74 
+structural and 3) mechanistic layers. Depending on the Toolbox prediction 
+approach (read-across or profiling predictions) and prediction outcomes (positive 
+or negative), one or more of these layers are taken into account to establish the 
+overall Toolbox domain of the specific prediction.  
+ 
+119. 
+The applicability domain layers considered for different types of Toolbox 
+predictions are summarised in the table here:  
+ 
+ 
+Toolbox 
+DASS 
+AW 
+outcome  
+ 
+Applicability domain layer  
+Structural  
+Parametric  
+Mechanistic  
+Positive  
+Read-across  
+Not considered  
+Not considered  
+Considered  
+Profiling  
+Not considered  
+Not considered  
+Met by definition  
+Negative  
+Read-across  
+Not considered  
+Not considered  
+Considered  
+Profiling  
+Considered  
+Considered  
+Met by definition  
+ 
+ 
+120. 
+Explanation and rationale for the use of different domain layers:  
+ 
+1. Positive predictions (both by read-across and profiling): the presence of an 
+alert (which is the requirement for positive Toolbox prediction to be 
+considered within in the mechanistic domain) is sufficient to consider the 
+prediction to be within the Toolbox domain. Substances triggering an alert 
+are considered as in domain because they contain the toxicophore that has 
+been observed experimentally in skin sensitisers. No further checks are 
+needed in this context to consider the prediction within the Toolbox in silico 
+domain.  
+2. Negative predictions by read-across: the structural and parametric domains 
+are not taken into account because the Toolbox has already ensured some 
+level of similarity with other substances in its training set that met the 
+requirements to be selected as suitable analogues for read-across (these 
+requirements are explained in detail in the DASS AW description).  
+3. Negative prediction by profiling predictions: all domain layers are taken into 
+account to ensure the highest possible reliability level for the Toolbox 
+prediction. Stricter requirements are needed mainly for two reasons: 1. lack 
+of alerts is not equal to proof of lack of sensitisation potential and 2. to apply 
+a cautious approach since acceptance of negative predictions may lower 
+the human health protection level risk in case of a false negative 
+predictions.  
+ 
+Calculation of applicability domain layers  
+1. Parametric layer
+
+OECD/OCDE                          497      
+           
+© OECD (2025) 
+ 
+75 
+Four physicochemical parameters of the substances are taken into consideration: 
+log Kow, molecular weight, vapour pressure and water solubility18. The ranges of 
+variation for the selected parameters are defined based on the training set 
+substances that are correctly predicted by the DASS AW.  
+ 
+A substance is considered within the parametric domain of the DASS AW if its 
+physicochemical parameter values as calculated by the QSAR Toolbox fall into the 
+ranges of variation given in the table below. It is noted that the ranges include 
+parametric values calculated using EPISuite models implemented in Toolbox that 
+in some cases are wider than that covered by existing test methods.  
+ 
+ 
+ 
+ 
+ 
+Physicochemical 
+parameter  
+Calculated Parameter 
+range  
+Log Kow  
+-9.66 ÷ 18.6  
+Molecular weight  
+16 Da ÷ 2290 Da  
+Vapour pressure*  
+0 Pa ÷ 3.45 x 107 Pa  
+Water solubility  
+2.48 x 10-15 mg/L ÷ 1.00 x 106 
+mg/L  
+ 
+ 
+*EPIWIN Vapor Pressure (Antoine method) is used for calculation  
+ 
+2. Structural layer   
+ 
+The structural layer is defined based on the atom centred fragments (ACF) derived 
+from the structural characteristics of the TS substances that are correctly 
+predicted19 by the DASS AW.  
+The ACF are defined according to the following Toolbox default values for ACF:  
+ 
+• 
+Any atom distance = 1  
+• 
+Heteroatom distance = 1  
+• 
+Extract C (sp3) fragments = YES  
+• 
+Include whole aromatic rings = NO  
+ 
+For 
+each 
+substance, 
+the 
+following 
+values 
+are 
+calculated:  
+ 
+• 
+% Correct fragments: percentage of ACF occurring in correctly predicted 
+structures in the training set  
+• 
+% incorrect fragments: percentage of ACF occurring in incorrectly predicted 
+structures in the training set  
+• 
+% unknown fragments: percentage of ACF not occurring in the training set.  
+ 
+18 QSAR Toolbox is used for the calculation of the physico-chemical properties. 
+19 All ACF that are extracted from the correctly predicted TS test chemicals “good space”. The “bad space” is formed from the 
+ACF present in the incorrectly predicted test chemicals. The default QSAR Toolbox settings for ACF are used. Supplementary 
+file with the ACF forming the good and the bad space are available.
+
+OECD/OCDE                          497 
+           
+© OECD (2025) 
+ 
+76 
+ 
+A substance is considered within the structural domain of the DASS AW if 100% of 
+its ACF belong to the correct fragments.  
+ 
+3. Mechanistic layer   
+The predicted capability of a substance to interact with the skin proteins without 
+and after (a)biotic activation is taken into consideration. The Toolbox endpoint-
+specific profiler Protein binding for skin sensitization by OASIS and two metabolic 
+simulators – Autoxidation simulator and Skin metabolism simulator are used to 
+predict such interaction.   
+ 
+A positive prediction is considered within the mechanistic domain if the substance 
+triggers alerts from the profiler “Protein binding for skin sensitization by OASIS” 
+without or after (a)biotic activation.  
+ 
+A negative prediction is considered within the mechanistic domain if the 
+substance does not trigger alerts from the profiler “Protein binding for skin 
+sensitization by OASIS” without or after (a)biotic activation.  
+ 
+  
+Note that predictions obtained by profiling results will meet the mechanistic layer 
+requirements by definition because positive Toolbox predictions by profiler are 
+triggered exactly by the presence of alert. If the test chemical cannot be tested or 
+the outcome/prediction cannot be considered in at least two of the information 
+sources (in chemico/in vitro and/or in silico) then the DA cannot be applied.  
+ 
+Protocol for generating predictions for skin sensitisation hazard using DASS AW in Toolbox 4.5. 
+ 
+121. 
+The following protocol should be used to generate predictions for skin 
+sensitisation hazard using OECD QSAR Toolbox v.4.5 with the automated 
+workflow for defined approaches for skin sensitisation (DASS AW) to be used as 
+the in silico information source for the ITSv2 defined approach.    
+ 
+Step 1: Input the chemical in the “Input module”. SMILES is the preferred way to 
+input the structure. (If other identifiers such as the CAS number are used as input, 
+the Toolbox will assign the SMILES based on its internal database. In this case, the 
+user needs to make sure that Toolbox identifies and consequently uses for the 
+prediction the correct structure.) 
+Step 2: Go to the “Data gap filling module” and click on “Automated” button. Select 
+“EC3 from LLNA or Skin sensitization from GPMT assays for defined approaches” 
+and click OK. The scheme with the implemented logic will be shown. 
+Step 3: Click the Run button - 
+ or press F5 key of the keyboard and confirm with 
+“Yes”. The workflow will run automatically. 
+Step 4: If a substance is predicted “positive” or “negative” as a result of read-
+across, the prediction will appear on the data matrix with “R” in front of the result 
+(e.g. “R: Negative). If a substance is predicted “positive” or “negative” as a result of
+
+OECD/OCDE                          497      
+           
+© OECD (2025) 
+ 
+77 
+profiling, then the result will appear next to the name of the customized profiler 
+“Skin sensitization for DASS”. 
+ 
+Step 5: Affiliation of the substance to the domain of the automated workflow for 
+DASS will be automatically determined and presented. 
+ 
+References  
+1. 
+OECD QSAR Toolbox, https://qsartoolbox.org/, accessed: 20 February 
+2025. 
+2. 
+OECD (2024) Webpage for Software to be used with Test Guidelines: 
+https://www.oecd.org/en/topics/sub-issues/testing-of-chemicals/software-test-
+guidelines.html
+
+OECD/OCDE                          497 
+ 
+           
+© OECD (2025) 
+ 
+78 
+Appendix III: Protocol for Generating SARA-ICE Predictions 
+The following protocol should be used to generate predictions for point of departure for skin sensitisation 
+risk assessment using SARA-ICE DA v.1.0.  
+1. Establishing SARA-ICE Inputs 
+1. Click ‘Download Template’ 
+An example template is available if needed. Click ‘Download Example’.    
+A key is provided on the final tab.  
+2. Select ‘Substances’ tab. Add distinct chemical substances (1 or more). 
+a. Input name for the chemical(s) in column A ‘Substance Name’  
+b. Optional: Add an abbreviated/shorter substance name that will appear in tables, figures 
+etc. in column B ‘Abbreviated Substance Name’.  
+If this is not used the tool will automatically revert to the substance name in column A.  
+c. Input CAS number (or other unique identifier) in column C 
+Whichever unique identifier is used here will also be used within the data tabs to ensure 
+data for this chemical is linked across data types 
+d. Input Molecular weight (MW) in g/mol, in column D, if using kDPRA and/or KeratinoSens 
+data inputs. This allows automatic conversion from molar to mass concentrations.  
+3. Populate data tabs  
+Although the model can technically be run with no chemical specific information (in which case the 
+resulting ED01 estimates will be taken directly from the prior distribution), any inputted chemical 
+specific data will inform the ED01 distribution. A minimum of 2 test methods per compound, covering 
+minimum of two key events, should be entered into the data template as per the guideline to ensure 
+adequate uncertainty reduction in the ED01 distribution. Reference methods which can be used as 
+SARA-ICE DA inputs include: the Direct Peptide Reactivity Assay (DPRA; OECD TG 442C), kinetic 
+DPRA (kDPRA; OECD TG 442C), KeratinoSens (OECD TG 442D), the human cell line activation test 
+(h-CLAT; OECD TG 442E), and U-SENS (OECD TG 442E), as well as in vivo methods such as the 
+local lymph node assay (LLNA; OECD TG 429, OECD TG 442A, OECD TG 442B) and HPPT test 
+methods human repeat insult patch tests and human maximization tests. No new in vivo data should 
+be produced for use in SARA-ICE DA. 
+a. HPPT 
+i. Optional: Input ‘Substance Name’ in column A   
+ii. Input CAS number (or other chosen unique identifier) in column B 
+Whichever unique identifier is used here will also be used within the data tabs to 
+ensure data for this chemical is linked across data types 
+iii. Input dose per skin area (µg/cm2) in column C 
+iv. Input number of test subjects in column D 
+v. Input number of test subjects with positive sensitisation responses (post 
+elicitation phase of the HPPT study) in column E 
+vi. Optional: Input data source reference in column F 
+Note, this is not used within the model but will be included in output reports  
+b. LLNA  
+i. Optional: Input ‘Substance Name’ in column A   
+ii. Input CAS number (or other chosen unique identifier) in column B
+
+OECD/OCDE                          497 
+           
+           
+© OECD (2025) 
+ 
+79 
+Whichever unique identifier is used here will also be used within the data tabs to 
+ensure data for this chemical is linked across data types 
+iii. Input the (estimated) EC3 (%) in column C 
+Negative studies should be entered as >X where X is the maximum concentration 
+tested. Studies were the  SI > 3 at the lowest reported/tested concentration should 
+be entered as <X where X is the lowest concentration reported/tested. 
+iv. Optional: Input data source reference in column D 
+Note, this is not used within the model but will be included in output reports  
+c. DPRA 
+i. Optional: Input ‘Substance Name’ in column A   
+ii. Input CAS number (or other chosen unique identifier) in column B 
+Whichever unique identifier is used here will also be used within the data tabs to 
+ensure data for this chemical is linked across data types 
+iii. Input percentage depletion of the cysteine peptide in column C 
+iv. Input percentage depletion of the lysine peptide in column D 
+v. Optional: Input data source reference in column E 
+Note, this is not used within the model but will be included in output reports  
+d. kDPRA 
+i. Optional: Input ‘Substance Name’ in column A   
+ii. Input CAS number (or other chosen unique identifier) in column B 
+Whichever unique identifier is used here will also be used within the data tabs to 
+ensure data for this chemical is linked across data types 
+iii. Input log Kmax value in column C 
+When reactivity rate is too low to measure, input as <X where X is the lowest 
+possible measurable reactivity rate. Typically X=-3.5 M-1 s-1 
+iv. Optional: Input data source reference in column D 
+Note, this is not used within the model but will be included in output reports  
+e. KeratinoSensTM 
+i. Optional: Input ‘Substance Name’ in column A   
+ii. Input CAS number (or other chosen unique identifier) in column B  
+Whichever unique identifier is used here will also be used within the data tabs to 
+ensure data for this chemical is linked across data types 
+iii. Input EC1.5 (µM) (concentration resulting in a 1.5-fold increase in luciferase 
+activity) in column C 
+iv. Input IC50 (µM) (concentration resulting in 50% cell death in the KeratinoSens 
+study) in column D 
+v. Optional: Input data source reference in column E 
+Note, this is not used within the model but will be included in output reports  
+f. h-CLAT 
+i. Optional: Input ‘Substance Name’ in column A   
+ii. Input CAS number (or other chosen unique identifier) in column B 
+Whichever unique identifier is used here will also be used within the data tabs to 
+ensure data for this chemical is linked across data types 
+iii. Input CD54 EC200 (µg/ml) in column C 
+Concentration resulting in a 200% increase in expression of the CD54 biomarker. 
+Input can be entered as >X where X is the maximum concentration tested if not 
+concentration-dependent response is observed in the assay. If a biomarker shows 
+a response at the minimum tested concentration, input result as <X where X is the 
+minimum concentration tested.
+
+OECD/OCDE                          497 
+ 
+           
+© OECD (2025) 
+ 
+80 
+iv. Input CD86 EC150 (µg/ml) in column D 
+Concentration resulting in a 150% increase in expression of the CD86 biomarker. 
+Input can be entered as >X where X is the maximum concentration tested if not 
+concentration-dependent response is observed in the assay. If a biomarker shows 
+a response at the minimum tested concentration, input result as <X where X is the 
+minimum concentration tested. 
+v. Input CV75 (µg/ml) in column E 
+Concentration at which there is 75% cell viability.  
+vi. Optional: Input data source reference in column F 
+Note, this is not used within the model but will be included in output reports  
+g. USENSTM 
+i. Optional: Input ‘Substance Name’ in column A   
+ii. Input CAS number (or other chosen unique identifier) in column B 
+Whichever unique identifier is used here will also be used within the data tabs to 
+ensure data for this chemical is linked across data types 
+iii. Input EC150 (µg/ml) in column C 
+Concentration resulting in a 150% increase in expression of the CD86 biomarker. 
+Input can be entered as >X where X is the maximum concentration tested if not 
+concentration-dependent response is observed in the assay. If a biomarker shows 
+a response at the minimum tested concentration, input result as <X where X is the 
+minimum concentration tested. 
+iv. Input CV70 (µg/ml) in column D 
+Concentration at which there is 70% cell viability  
+v. Optional: Input data source reference in column E 
+Note, this is not used within the model but will be included in output reports  
+4. Save completed template file 
+2. Running the SARA-ICE Model 
+1. Click ‘Choose input’ on the SARA-ICE DA user interface 
+2. Select saved completed template file  
+3. Click ‘Run Analysis’ 
+Running the model involves drawing samples from the posterior distribution using the No-U-
+Turn sampler implemented within the probabilistic programming language Stan. By default, a 
+sample of 10,000 draws of the ED01 is returned to the user. Summary statistics such as 
+quantile estimates of the distribution are calculated empirically on this sample.  
+The No-U-Turn sampler produces a Markov Chain whose stationary distribution is the 
+posterior distribution of the model. A successful model run is achieved when the Markov Chain 
+converges to the target distribution. The Stan software provides several measures of 
+convergence to assess whether convergence may be assumed.  
+3. SARA-ICE Model Outputs 
+1. The 5th, 50th and 95th percentiles of the ED01 (µg cm-2) are provided in tabular format and the 
+prediction interval is presented in a graphical format within the user interface.  
+These data are also available within a downloadable template format (.xlsx or .csv), click 
+‘Download Analysis’ for the appropriate file format. The downloadable template also provides 
+the ED01 at all percentiles ranging from 0.5th to 95.5th (in 0.5 increments). This template also
+
+OECD/OCDE                          497 
+           
+           
+© OECD (2025) 
+ 
+81 
+provides the full set of draws from which summary statistics are computed. 
+ 
+2. The SARA-ICE PoD (computed as the geometric mean of the ED01 distribution conditional 
+on it being less than 60,000 µg cm-2) is provided in a tabular format within the user interface.  
+A conservative PoD (calculated at the 5th percentile of the ED01 conditional on it being less 
+than 60,000 µg cm-2 is also provided and these data are also available within a downloadable 
+template format (.xlsx or .csv), click ‘Download Analysis’ for the appropriate file format. 
+ 
+3. The SARA-ICE probability of binary (S/NC) and GHS subcategory (1A, 1B, NC) are given in 
+a tabular format within the user interface.   
+Note, this is a capability of the SARA-ICE model shared through the user interface but does 
+not form part of the SARA-ICE DA within OECD TG 497. These data are also available within 
+a downloadable template format (.xlsx or .csv), click ‘Download Analysis’ for the appropriate 
+file format. 
+ 
+4. The SARA-ICE GHS category call is provided in a tabular format within the user interface. 
+The classification is dependent on the confidence in the prediction, e.g., a probability 
+threshold. The probability threshold for a high-confidence prediction must be higher than the 
+prior probability of 0.67. Sliders within the user interface are provided to the user in order to 
+set the probability threshold as per their requirements.  
+Note, this is a capability of the SARA-ICE model shared through the user interface but does 
+not form part of the SARA-ICE DA within OECD TG 497. A full sensitivity analysis on the 
+impact of varying the probability threshold can be found in supporting documentation. These 
+data are also available within a downloadable template format (.xlsx or .csv), click ‘Download 
+Analysis’ for the appropriate file format.

@@ -1,0 +1,2356 @@
+# 32 Analytical and Forensic Toxicology
+# Casarett & Doull's Toxicology, 9th Edition
+# Pages: 1530-1549
+# Unit: Unit VII Applications of Toxicology
+
+32
+chapter
+Analytical and Forensic Toxicology
+Bruce A. Goldberger, Dayong Lee, and Diana G. Wilkins
+What is there that is not poison? All things are poison and nothing without 
+poison. Solely the dose determines that a thing is not a poison.
+—Paracelsus
+It is impossible to consider the topic of forensic toxicology without 
+discussing analytical toxicology in detail, as analytical toxicology 
+has its roots in forensic applications. Therefore, it is logical to dis-
+cuss these mutually dependent areas together. Analytical toxicol-
+ogy involves the application of the tools of analytical chemistry to 
+the qualitative and/or quantitative estimation of chemicals that may 
+exert effects on living organisms. Generally, the chemical that is to 
+be measured (the analyte) is a xenobiotic that may have been altered 
+or transformed by metabolic actions of the organism. Frequently, 
+the specimen that is to be analyzed consists of a matrix composed 
+of body fluids or solid tissues removed from the organism. Both the 
+identity of the analyte and the complexity of the matrix can present 
+formidable problems to an analytical toxicologist.
+Forensic toxicology involves the use of toxicology for the pur-
+poses of the law (Cravey and Baselt, 1981). Although this broad 
+definition includes a wide range of applications, such as regulatory 
+toxicology and workplace urine testing to detect drug use, by far 
+the most common application is to identify any chemical that may 
+serve as a causative agent in inflicting injury or death on humans, or 
+in causing damage to property. Frequently, as a result of such unfor-
+tunate incidents, charges of liability or criminal intent are brought 
+that must be resolved by the judicial system. At times, indirect or 
+circumstantial evidence is presented in an attempt to prove cause 
+and effect. However, there is no substitute for the unequivocal iden-
+tification of a specific chemical substance that is demonstrated to 
+be present in tissues from the victim at a sufficient concentration to 
+explain the injury with certainty. For this reason, forensic toxicol-
+ogy and analytical toxicology have long shared a mutually sup-
+portive partnership.
+To aid in deciding whether adverse effects of xenobiotics 
+contribute to death, injury, or other harm to persons or property, 
+great efforts are made to initiate and implement analytical proce-
+dures in a forensically credible manner. Laws prescribing punish-
+ment to drug-impaired drivers are evidence of attempts to mitigate 
+impaired driving. The measurement of ethanol in blood or breath 
+at specific concentrations is generally required to prove impair-
+ment by this agent (Fisher et al., 1968). Similarly, the decade of 
+the 1980s saw a growing response by society to the threat of drug 
+abuse. Identification of drug users through testing urine for the pres-
+ence of drugs or their metabolites, using methods and safeguards 
+developed by forensic toxicologists, has become required by law 
+(Department of Health and Human Services, 1988).
+The diagnosis and treatment of health problems induced by 
+chemical substances and the closely allied field of therapeutic drug 
+monitoring also rely greatly on analytical toxicology. Although the 
+analytes are present in biological matrices similar to those obtained 
+for traditional forensic toxicology, the results must be reported rap-
+idly to be of use to clinicians in treating patients. This requirement 
+of a rapid turnaround time often limits the number of chemicals 
+that can be measured because analytical methods, equipment, and 
+personnel must all be available for a swift response to toxicologi-
+cal emergencies. More recently, analytical toxicology methods have 
+also been employed for the detection of drugs and other chemi-
+cals used for the purpose of performance-enhancement, which can 
+also require rapid reporting in selected settings, including athletic 
+events.
+Occupational toxicology and regulatory toxicology also 
+require analytical procedures for their implementation or moni-
+toring. In occupational toxicology, the analytical methods used to 
+monitor threshold limit values and other criteria for estimating the 
+exposure of workers to toxic hazards may utilize simple, nonspe-
+cific, but economical screening devices. However, to determine the 
+actual exposure of a worker, it is necessary to analyze blood, urine, 
+breath, or another specimen by employing methods similar to those 
+used in clinical or forensic toxicology. For regulatory purposes, a 
+variety of matrices (e.g., food, water, and air) must be examined for 
+Analytical Toxicology
+Role in General Toxicology
+Role in Forensic Toxicology
+Toxicological Investigation  
+of a Poison Death
+Case History and Specimens
+Toxicological Analysis
+Interpretation of Analytical Results
+Criminal Poisoning of the  
+Living
+Forensic Drug Testing
+Human Performance Testing
+Courtroom Testimony
+Role in Clinical Toxicology
+Role in Therapeutic Monitoring
+Summary
+Acknowledgments
+References
+
+1512
+Applications of Toxicology
+Unit VII
+extremely small quantities of analytes. Frequently, this requires the 
+use of sophisticated methodology with extreme sensitivity. Both 
+of these applications of analytical toxicology impinge on forensic 
+toxicology because an injury or occupational disease in a worker 
+can result in a legal proceeding, as well as can occur with a violation 
+of a regulatory law.
+Other applications of analytical toxicology occur frequently 
+during the course of experimental studies. Confirmation of the con-
+centration of dosing solutions and monitoring of their stability often 
+can be accomplished with the use of simple analytical techniques. 
+The bioavailability of a dose may vary with the route of administra-
+tion and the vehicle used. Blood concentrations can be monitored 
+as a means of establishing this important parameter. In addition, an 
+important feature in the study of any toxic substance is the charac-
+terization of its metabolites as well as the distribution of the parent 
+drug, together with its metabolites, to various tissues. This requires 
+sensitive, specific, and valid analytical procedures. Similar analyti-
+cal studies can be conducted within a temporal framework to gain 
+an understanding of the dynamics of the absorption, distribution, 
+metabolism, and excretion of toxic chemicals.
+It is evident that analytical toxicology is intimately involved 
+in many aspects of experimental and applied toxicology. Because 
+toxic substances include all chemical types and the measurement 
+of toxic chemicals may require the examination of biological or 
+nonbiological matrices, the scope of analytical toxicology is broad. 
+Nevertheless, a systematic approach and a reliance on the practical 
+experience of generations of forensic toxicologists can be used in 
+conjunction with the sophisticated tools of analytical chemistry to 
+provide the data needed to better understand the hazards of toxic 
+substances.
+ANALYTICAL TOXICOLOGY
+In light of the statement by Paracelsus five centuries ago, “All sub-
+stances are poisons: there is none which is not a poison,” analyti-
+cal toxicology potentially encompasses all chemical substances. 
+Forensic toxicologists learned long ago that when the nature of a 
+suspected poison is unknown, a systematic, standardized approach 
+must be used to identify the presence of most common toxic sub-
+stances. An approach that has stood the test of time was first sug-
+gested by Chapuis in 1873 in Elements de Toxicologie. It is based 
+on the origin or nature of the toxic agent (Petersen et al., 1923). 
+Such a system can be characterized as follows:
+	 1.	 Gases
+	 2.	 Volatile substances
+	 3.	 Corrosive agents
+	 4.	 Metals
+	 5.	 Anions and nonmetals
+	 6.	 Nonvolatile organic substances
+	 7.	 Miscellaneous
+Closely related to this descriptive classification is the method 
+for separating a toxic agent from the matrix in which it is embedded. 
+The matrix is generally a biological specimen such as a body fluid 
+or tissue. The agent of interest may exist in the matrix in a simple 
+solution or may be bound to protein and other cellular constituents. 
+The challenge is to separate the toxic agent in sufficient purity and 
+quantity to permit it to be characterized and quantified. At times, the 
+parent compound is no longer present in large enough amounts to be 
+separated. In this case, known metabolites may indirectly provide a 
+measure of the parent substance (Hawks and Chiang, 1986). With 
+other substances, interaction of the poison with tissue components 
+may require the isolation or characterization of a protein adduct 
+(San George and Hoberman, 1986; Stockham and Blanke, 1988). 
+Methods for separation have long provided a great challenge to ana-
+lytical toxicologists. Over the previous 20 years, improved methods 
+have become available that permit direct measurement of some ana-
+lytes without prior separation from the matrix.
+Gases are most simply measured by means of gas chroma-
+tography. Some gases are extremely labile, and the specimen must 
+be collected and preserved at temperatures as low as that of liquid 
+nitrogen. Generally, the gas is carefully liberated by incubating the 
+specimen at a predetermined temperature in a sealed container. 
+The gas, freed from the matrix, collects in the empty “headspace” 
+between the specimen and the sealed container, where it can be 
+sampled and injected into the gas chromatograph. Other gases, such 
+as carbon monoxide, interact with proteins. These gases can be 
+carefully released from the protein, or the adduct can be measured 
+independently, as in the case of carboxyhemoglobin.
+Volatile substances are generally liquids of a variety of chemi-
+cal types. The temperature at which they boil is sufficiently low 
+such that older methods of separation employed microdistillation or 
+diffusion techniques. Gas chromatography is the simplest approach 
+for simultaneous separation and quantitation of volatile substances. 
+The simple alcohols (e.g., ethanol) can be measured by injecting 
+a diluted body fluid directly onto the analytical column of the gas 
+chromatograph. A more common approach is to use the headspace 
+technique, as is done for gases, after incubating the specimen in a 
+sealed vial at an elevated temperature.
+Corrosives include mineral acids and bases. Many corrosives 
+consist of ions that are normal tissue constituents. Clinical chemical 
+techniques can be applied to detect these ions when they are in great 
+excess over normal concentrations. Because these ions are endog-
+enous constituents, the corrosive effects at the site of contact of the 
+chemical, together with other changes in blood chemistry values, 
+can confirm the ingestion of a corrosive substance.
+Metals are encountered frequently as occupational and environ-
+mental hazards. Elegant analytical methods are available for most 
+metals even when they are present at extremely low concentrations. 
+Classic separation procedures involve destruction of the organic 
+matrix by chemical or thermal oxidation. This leaves the metal to 
+be identified and quantified in the inorganic residue. Unfortunately, 
+this prevents the determination of the metal in the oxidation state 
+or in combination with other elements, as it existed when the metal 
+compound was absorbed. For example, the toxic effects of metallic 
+mercury, mercurous ion, mercuric ion, and dimethylmercury are 
+all different. Selected analytical methods must be capable of deter-
+mining the speciation and relative amount of each form present to 
+interpret the degree of toxicity. The analytical difficulty in doing so 
+has resulted in the unfortunate practice of describing the toxicity of 
+metals as if each metal existed as a single entity.
+Toxic anions and nonmetals present an analytical challenge. 
+With the exception of phosphorus, these agents are rarely encoun-
+tered in an uncombined form. Some anions can be trapped in com-
+bination with a stable cation, after which the organic matrix can be 
+destroyed, as with metals. Others can be separated from the bulk of 
+the matrix by dialysis, after which they are detected by colorimetric 
+or chromatographic techniques. Still others are detected and mea-
+sured by ion-specific electrodes.
+The nonvolatile organic substances constitute the largest group 
+of substances that must be considered by analytical toxicologists. 
+This group includes drugs, both prescribed and illicit, pesticides, 
+natural products, pollutants, and industrial compounds. These sub-
+stances are solids or liquids with high boiling points. Thus, separa-
+tion procedures generally rely on differential extractions of biological
+
+Analytical and Forensic Toxicology
+Chapter 32
+1513
+fluids and tissues (Fig. 32-1). These extractions often are inefficient, 
+and recovery of the analyte from the matrix may be poor. When the 
+nature of the analyte is known, immunoassay procedures, if avail-
+able, are useful because they allow a toxicologist to avoid using sepa-
+ration procedures. These compounds can be classified as follows:
+	 1.	 Organic strong acids
+	 2.	 Organic weak acids
+	 3.	 Organic bases
+	 4.	 Organic neutral compounds
+	 5.	 Organic amphoteric compounds
+Separation of the classes specified above is generally achieved 
+by adjusting the acidity of the aqueous matrix and extracting with a 
+water-immiscible solvent or a solid-phase sorbent material. Finally, 
+a miscellaneous category must also be included to cover the large 
+number of compounds that cannot be detected by the routine applica-
+tion of the methods described above. Venoms and other toxic mix-
+tures of proteins, or uncharacterized constituents, fall into this class. 
+Frequently, if antibodies can be produced against the active constitu-
+ent, an immunoassay may be the most practical means of detecting 
+and measuring these highly potent and difficult-to-isolate substances. 
+Unfortunately, unless highly specific monoclonal antibodies are used, 
+the analytical procedure may not be acceptable for forensic purposes. 
+Most frequently, specific analytical procedures must be developed for 
+each analyte of this type. At times, biological endpoints are utilized 
+to semiquantify the concentration of the isolated product.
+ROLE IN GENERAL TOXICOLOGY
+In almost all experimental studies in toxicology, an agent, generally 
+a single chemical substance is administered in known amounts to an 
+organism. It is universally acknowledged that the chemical under 
+study must be either pure, or the nature of any contaminant well-
+characterized, to enable interpretation of the experimental results 
+with validity. However, it is a common practice to proceed with the 
+experimental study without verifying the identity and purity of the 
+compound. Not only does this practice lead to errors in establishing 
+an accurate dose, but also, depending on the nature of the study, other 
+erroneous conclusions may be drawn. For example, the presence of 
+related compounds in the dosage form of a tricyclic antidepressant 
+led to erroneous conclusions about the metabolic products of the drug 
+when it was administered together with the unidentified contami-
+nants (Saady et al., 1981). An even greater error may result when a 
+small amount of a contaminant may be supertoxic. A well-publicized 
+Test for metals
+Spectroscopy
+Residue
+Tissue sample
+(Minced)
+Acidify & steam-distill
+Discard
+Evaporate, residue
+contains acidic drugs
+GC-MS
+LC (HPLC)-MS/MS
+Make basic & extract
+with organic solvent
+Screen
+Immunoassay, GC-MS,
+LC-HRMS
+Acidify & extract
+with organic solvent
+Aqueous
+Test for volatiles
+GC-FID
+GC-MS
+Distillate
+Extract with
+acid
+Organic
+Make basic
+extract with
+organic solvent
+Aqueous
+Organic
+Organic
+Evaporate, residue
+contains neutral drugs
+GC-MS
+LC (HPLC)-MS/MS
+Organic
+Evaporate, residue
+contains basic drugs
+GC-MS
+LC (HPLC)-MS/MS
+Aqueous
+Discard
+Aqueous
+Figure 32-1.   A scheme of separation for poisons from tissues.
+
+1514
+Applications of Toxicology
+Unit VII
+example of this error involved the presence of dioxin in mixtures of 
+the defoliants 2,4-D and 2,4,5-T (Panel on Herbicides, 1971) used 
+during the Vietnam War as Agent Orange. Some of the adverse effects 
+of Agent Orange are considered to be due to the low concentration 
+of dioxin in those mixtures. Other researchers have reported that 
+the toxicity of mixtures of polybrominated biphenyls may be due to 
+the high toxicity of specific components, whereas other brominated 
+biphenyls are relatively nontoxic (Mills et al., 1985).
+A related application of analytical toxicology is the monitor-
+ing of dosage forms or solutions for stability throughout the course 
+of an experimental study. Chemicals may degrade when in contact 
+with air, by exposure to ultraviolet or other radiation, by interaction 
+with constituents of the vehicle or dosing solution, and by other 
+means. Developing an analytical procedure by which these changes 
+can be recognized and corrected is essential in achieving consistent 
+and reliable results over the course of a study (Blanke, 1987; Peters 
+et al., 2007).
+Finally, analytical methods are necessary to determine the bio-
+availability of a compound that is under study. Some substances 
+with low water solubility are difficult to introduce into an animal, 
+and a variety of vehicles may be investigated. However, a com-
+parison of the blood concentrations for the compound under study 
+provides a simple means of comparing the effectiveness of vehicles. 
+Introducing a compound into the stomach in an oil vehicle may not 
+be the most effective means of enhancing the absorption of that 
+compound (Granger et al., 1987). Rather than observing dose–effect 
+relationships, it may be more accurate to describe blood (or serum) 
+concentration–effect relationships.
+ROLE IN FORENSIC TOXICOLOGY
+The duties of a forensic toxicologist in postmortem investigations 
+include the qualitative and quantitative analysis of drugs or poisons 
+in biological specimens collected at autopsy and the interpreta-
+tion of the analytical findings with respect to the physiological and 
+behavioral effects of the detected chemicals on the deceased at the 
+time of injury and/or death.
+The complete investigation of the cause or causes of sudden 
+death is an important civic and legal responsibility. The responsibility 
+of establishing the cause of death rests with the medical examiner or 
+coroner, but success in arriving at the correct conclusion often depends 
+on the combined efforts of the pathologist and the toxicologist. The 
+cause of death in cases of poisoning cannot be proved beyond conten-
+tion without toxicological analysis that confirms the presence of the 
+toxicant in either body fluids or tissues of the deceased.
+Many drugs or poisons do not produce characteristic patho-
+logical lesions; their presence in the body can be demonstrated only 
+by chemical methods of isolation and identification. If toxicological 
+analyses are limited, deaths resulting from poisoning may be erro-
+neously ascribed to an entirely different cause or poisoning may be 
+designated as the cause of death without empirical proof. Thus, lim-
+iting analysis may have significant legal and social consequences.
+Additionally, a toxicologist can furnish valuable evidence 
+concerning the circumstances surrounding a death. Such cases 
+commonly involve demonstrating the presence of intoxicating con-
+centrations of ethanol in victims of automotive or industrial acci-
+dents, or measurements of concentrations of carbon monoxide in 
+fire victims. Arson may be used to conceal homicide. The degree 
+of carbon monoxide saturation of the blood may indicate whether 
+the deceased died as a result of the fire or was dead before the 
+fire started. Also, licit or illicit psychoactive drugs often play a sig-
+nificant role in the circumstances associated with sudden or violent 
+death. The behavioral toxicity of many illicit drugs may explain 
+the bizarre or “risk-taking” behavior of the deceased that led to 
+his or her demise. At times, a negative toxicological finding is of 
+particular importance in assessing the cause of death. For example, 
+toxicology studies may demonstrate that a person with a seizure 
+disorder was not taking the prescribed medication and that this non-
+compliance contributed to the fatal event.
+Additionally, the results of postmortem toxicological testing 
+provide valuable epidemiological and statistical data. Forensic 
+toxicologists are often among the first to alert the medical com-
+munity to new epidemics of substance abuse (Poklis, 1982) and the 
+dangers of abusing over-the-counter drugs (Garriott et al., 1985). 
+Similarly, they often determine the chemical identity and toxicity 
+of novel analogs of psychoactive agents that are subject to abuse, 
+including “designer drugs” such as “china white” (methylfen-
+tanyl) (Henderson, 1988), “ecstasy” (methylenedioxymethamphet-
+amine) (Dowling et al., 1987), and GHB (gamma-hydroxybutyric 
+acid) (Andresen et al., 2011). Subsequently, several newer groups 
+of designer drugs, including the synthetic cathinones and deriva-
+tives such as 4-methylmethcathinone (mephedrone) and methylone 
+(Cawrse et al., 2012; Prosser and Nelson, 2012), 3,4-methyl-
+enedioxypyrovalerone and 5,6-methylenedioxy-2-aminoindane 
+(MDAI) (Coppola and Mondola, 2012; Gallagher et al., 2012; 
+Ross et al., 2012), and products containing synthetic cannabinoids, 
+such as “K2” and “Spice” (Seely et al., 2012), among others, have 
+emerged as new trends, particularly among young age groups 
+(Rosenbaum et al., 2012). More recently, the increasing abuse of 
+fentanyl, fentanyl analogs, and other synthetic opioids (Table 32-1) 
+became a serious threat to the public health. Fentanyl is a synthetic 
+opioid 50 to 100 times more potent than morphine, and carfent-
+anil is a fentanyl analog estimated to be 10,000 times more potent 
+morphine. These highly potent synthetic opioids contributed to 
+Table 32-1  
+List of Fentanyl Analogs and Other Synthetic Opioids 
+Reported
+FENTANYL ANALOGS
+OTHER SYNTHETIC 
+OPIOIDS
+Acetylfentanyl
+AH-7921
+Acrylfentanyl
+MT-45
+4-ANPP
+U-47700
+Butyrylfentanyl
+U-49900
+Carfentanil
+U-50488
+Cyclopropylfentanyl
+ortho-Fluorofentanyl
+para-Fluorobutyryl fentanyl (FIBF)
+para-Fluorofentanyl
+Furanylfentanyl
+Isobutyrylfentanyl
+Methoxyacetylfentanyl
+4-Methoxybutyrylfentanyl
+4-Methylphenethylacetylfentanyl
+3-Methylfentanyl
+Beta-hydroxythiofentanyl
+Valerylfentanyl
+
+Analytical and Forensic Toxicology
+Chapter 32
+1515
+approximately 20,000 overdose deaths in 2016, a fivefold increase 
+from 3105 deaths in 2013 (O’Donnell et al., 2017).
+Today, there are numerous specialized areas of study in the field 
+of toxicology; however, it is the forensic toxicologist who is obliged 
+to assist in the determination of the cause of death for a court of law 
+and who has been historically recognized by the title “toxicologist.”
+Until the 19th century, physicians, lawyers, and law enforce-
+ment officials harbored extremely faulty notions about the signs and 
+symptoms of poisoning (Thorwald, 1965). Unless a poisoner was 
+literally caught in the act of the crime, there was no way to establish 
+whether the victim died from poisoning. In the early 18th century, 
+a Dutch physician, Hermann Boerhoave, theorized that various 
+poisons in a hot, vaporous condition yield characteristic odors. He 
+placed substances suspected of containing poisons on hot coals and 
+evaluated their smells. Although Boerhoave was not successful in 
+applying his method, he was the first to suggest a chemical method 
+for proving the presence of poison.
+White arsenic (arsenic trioxide) has been widely used with 
+murderous intent for over a thousand years. Therefore, it is not sur-
+prising that the first milestones in the chemical isolation and iden-
+tification of a poison in body tissues and fluids were described for 
+arsenic. In 1775, Karl Wilhelm Scheele, a Swedish chemist, dis-
+covered that white arsenic is converted to arsenous acid by chlorine 
+water. The addition of metallic zinc reduced the arsenous acid to poi-
+sonous arsine gas. If gently heated, the evolving gas would deposit 
+metallic arsenic on the surface of a cold vessel. In 1821, Serullas 
+utilized the decomposition of arsine for the detection of small quan-
+tities of arsenic in stomach contents and urine in poisoning cases. 
+In 1836, James M. Marsh, a chemist at the Royal British Arsenal 
+in Woolwich, applied Serullas’ observations in developing the first 
+reliable method to determine the presence of an absorbed poison 
+in body tissues and fluids such as liver, kidney, and blood. After 
+acid digestion of the tissues, Marsh generated arsine gas, which 
+was drawn through a heated capillary tube. The arsine decomposed, 
+leaving a dark deposit of metallic arsenic. Quantitative measures 
+were performed by comparing the length of the deposit from known 
+concentrations of arsenic with those of the test specimens.
+The 1800s witnessed the development of forensic toxicology as 
+a scientific discipline. In 1814, Mathieiv J. B. Orfila (1787 to 1853), 
+widely considered the “father of toxicology,” published Traité des 
+Poisons, the first systematic approach to the study of the chemical 
+and physiological nature of poisons (Gettler, 1977). Orfila’s role 
+as an expert witness in many famous murder trials, particularly his 
+application of the Marsh test for arsenic in the trial of the poisoner 
+Marie Lafarge, aroused both popular and scholarly interest in the 
+new science. As dean of the medical faculty at the University of 
+Paris, Orfila trained numerous students in forensic toxicology.
+The first successful isolation of an alkaloidal poison was per-
+formed in 1850 by Jean Servias Stas, a Belgian chemist, using a 
+solution of acetic acid in warm ethanol to extract nicotine from 
+the tissues of the murdered Gustave Fougnie. As modified by the 
+German chemist Fredrick Otto, the Stas–Otto method was quickly 
+applied to the isolation of numerous alkaloidal poisons, including 
+colchicine, coniine, morphine, narcotine, and strychnine. In the 
+latter half of the 19th century, European toxicologists were in the 
+forefront of the development and application of forensic sciences, 
+providing valuable evidence of poisoning. A number of these trials 
+became “causes célèbres” and the testimony of forensic toxicolo-
+gists captured the imagination of the public and increased aware-
+ness of the development and application of toxicology. It was 
+thought that murderers could no longer poison with impunity.
+In the United States, Rudolph A. Witthaus, professor of 
+chemistry at Cornell University Medical School, made many 
+contributions to toxicology and called attention to the new science 
+by performing analyses for the city of New York in several famous 
+morphine poisoning cases, including the murder of Helen Potts by 
+Carlyle Harris and that of Annie Sutherland by Robert W. Buchanan. 
+In 1911, Witthaus and Tracy C. Becker edited a four-volume work 
+on medical jurisprudence, forensic medicine, and toxicology—the 
+first standard forensic textbook published in the United States. In 
+1918, the city of New York established a medical examiner’s sys-
+tem, and the appointment of Alexander O. Gettler as toxicologist 
+marked the beginning of modern forensic toxicology in this country. 
+Although Gettler made numerous contributions to the science, per-
+haps his greatest was the training and direction he gave to future 
+leaders in forensic toxicology. Many of his associates went on to 
+direct laboratories in medical examiner and coroner systems in 
+major urban centers throughout the country.
+In 1949, the American Academy of Forensic Sciences (AAFS) 
+was established to support and further the practice of legal (foren-
+sic) medicine in the United States. The members of the Toxicology 
+Section represented the vast majority of forensic toxicologists work-
+ing in medical examiners’ and coroners’ offices, as well as numer-
+ous referral laboratories. Several other international, national, and 
+local forensic science organizations, such as the Society of Forensic 
+Toxicologists and the California Association of Toxicologists, 
+offer a forum for the exchange of scientific data pertaining to ana-
+lytical techniques and case reports involving new or infrequently 
+used drugs and poisons. The International Association of Forensic 
+Toxicologists (TIAFT) founded in 1963 with members from all 
+regions of the world facilitates worldwide collaboration in resolv-
+ing the technical problems confronting toxicology.
+In 1975, the American Board of Forensic Toxicology (ABFT) 
+was formed to examine and certify forensic toxicologists. One of 
+the stated objectives of the board is “to make available to the judi-
+cial system, and other publics, a practical and equitable system 
+for readily identifying those persons professing to be specialists 
+in forensic toxicology who possess the requisite qualifications and 
+competence.” Those certified as Fellows of the Board must have 
+a doctor of philosophy or science degree, have at least 3 years of 
+full-time professional experience, and pass a written examina-
+tion. Diplomates of the Board must have a bachelor’s or master’s 
+degree, 3 years of full-time professional experience, and must pass a 
+written examination.
+In 1998, the ABFT began an accreditation program for foren-
+sic toxicology laboratories. ABFT-accredited laboratories must con-
+form to standards of having qualified, experienced personnel and 
+forensically sound procedures for the handling of evidence, analysis 
+of specimens, and reporting of results. Laboratories must pass bi-
+annual on-site inspections, which include a review of laboratory 
+procedures and casework.
+TOXICOLOGICAL INVESTIGATION  
+OF A POISON DEATH
+The toxicological investigation of a poison death may be divided 
+into three steps: (1) obtaining the case history and suitable speci-
+mens, (2) the toxicological analyses, and (3) the interpretation of 
+the analytical findings.
+Case History and Specimens
+Today, thousands of compounds are readily available that are 
+lethal if ingested, injected, or inhaled. Usually, a limited amount 
+of specimen is available on which to perform analyses; therefore, 
+it is imperative that, before the analyses are initiated, as much
+
+1516
+Applications of Toxicology
+Unit VII
+information as possible concerning the facts of the case be col-
+lected. The age, sex, weight, medical history, and occupation of 
+the decedent as well as any treatment administered before death, 
+the gross autopsy findings, the drugs available to the decedent, and 
+the interval between the onset of symptoms and death should be 
+noted. In a typical year, a postmortem toxicology laboratory will 
+perform analyses for such diverse poisons as over-the-counter med-
+ications (e.g., analgesics and antihistamines), prescription drugs 
+(e.g., benzodiazepines and opioids), drugs of abuse (e.g., cocaine, 
+marijuana, and methamphetamine), and gases (e.g., inhalants and 
+carbon monoxide). Obviously, a thorough investigation of the death 
+scene including a tentative identification of the administered poison 
+is helpful prior to beginning the analysis (Ernst et al., 1982).
+The pathologist at autopsy usually performs the collection of 
+postmortem specimens for analysis. Specimens of many different 
+body fluids and organs are necessary, as drugs and poisons display 
+varying affinities for body tissues (Fig. 32-2). Therefore, detection 
+of a poison is more likely in a tissue in which it accumulates. A large 
+quantity of each specimen is needed for thorough toxicological anal-
+ysis because a procedure that extracts and identifies one compound 
+or class of compounds may be ineffective in extracting and identify-
+ing others (Table 32-2). Autolytic and putrefactive changes, how-
+ever, may reduce specimen quality and therefore alter the selection 
+and utility of individual specimens on a case-by-case basis. Further 
+improvements in our knowledge regarding degradation mechanisms, 
+as well as specimen-handling protocols to increase storage stability, 
+may enable the forensic toxicologist to circumvent possible analyti-
+cal and interpretive difficulties (Dinis-Oliveira et al., 2010).
+When collecting the specimens, the pathologist labels each 
+container with the date and time of autopsy, the name of the dece-
+dent, the identity of the sample, an appropriate case identification 
+number, and his or her signature or initials. It is paramount that the 
+handling of all specimens be authenticated and documented. A form 
+developed at the collection site that identifies each specimen is sub-
+mitted to the laboratory with the specimens. The form is signed and 
+dated by the pathologist, and subsequently by any individual han-
+dling, transferring, or transporting the specimens. In legal terms, this 
+form constitutes a “chain-of-custody” of specimens documenting all 
+transfers. The chain-of-custody enables a toxicologist to introduce 
+his or her results into legal proceedings, having established that the 
+specimens analyzed were obtained from the decedent.
+Fluids and tissues should be collected before embalming, as 
+this process will dilute or chemically alter the poisons present, ren-
+dering their detection difficult or impossible. Conversely, methyl 
+or ethyl alcohol may be a constituent of embalming fluid, thereby 
+affecting interpretation of the analytical findings.
+Although forensic toxicology laboratories typically receive 
+blood, urine, liver tissue, and/or stomach contents for identification 
+of xenobiotics, they have been increasingly called upon to meet the 
+analytical challenges of many alternative types of samples (Skopp, 
+2004; Flanagan et al., 2005; Kronstrand and Druid, 2006; Gallardo 
+and Queiroz, 2008). Nontraditional matrices, such as bone marrow, 
+hair, and nails, among others, may be submitted to the laboratory. For 
+example, on occasion, toxicological analysis is requested for cases of 
+burned, exhumed, putrefied, and skeletal remains. In such instances, 
+it is necessary to analyze unusual specimens such as bone marrow, 
+hair, nails, skeletal muscle, and even insects (Inoue and Seta, 1992). 
+Numerous drugs have been successfully identified in bone marrow and 
+bone washings from skeletal remains even after decomposition and 
+burial (Benko, 1985; Drummer, 2010; Cartiser et al., 2011). Similarly, 
+the vitreous humor of the eye is isolated and sequestered from putrefac-
+tion, charring, and trauma; thus, it is a useful specimen for the detec-
+tion of most drugs, anions, and even volatile poisons such as alcohols, 
+ketones, and glycols (Coe, 1993; Bévalot et al., 2011). Hair analysis is 
+a rapidly growing technique in forensic toxicology and has been used to 
+measure individual exposure to heavy metals, such as arsenic, mercury, 
+and lead, as well as many drugs of abuse and other pharmaceuticals, 
+pesticides, and plastics (Hambidge, 1973; Yamaguichi et al., 1975; 
+McKenzie, 1978; Baumgartner et al., 1981; Puschel et al., 1983; Suzuki 
+et al., 1984; Marigo et al., 1986; Martz, 1988; Harkey and Henderson, 
+1989; Schroeder and Nason, 1989; Strang et al., 1990; Shen et al., 
+2002; Boumba et al., 2006). Analysis of hair for selected drugs has 
+been utilized as an adjunct specimen in forensic settings for postmortem 
+examinations for many years (Baumgartner et al., 1979; Couper et al., 
+1995; Gaillard and Pepin, 1997; Pragst et al., 1997; Rollins et al., 1997; 
+Yegles et al., 1997; Muller et al., 2000; Villain et al., 2005; Pragst and 
+Balikova, 2006; Kintz, 2010; Barroso et al., 2011). Nails, another kera-
+tinized matrix, have also been used to determine exposure to selected 
+xenobiotics in both antemortem and postmortem cases (Palmeri et al., 
+2000; Garside, 2010). Limited data are available to support a direct 
+Blood
+Bile
+Brain
+Heart
+Kidney
+Liver
+Lung
+Spleen
+Muscle
+Adipose
+Vitreous
+0
+10
+Cocaine, mg/mL or mg/kg
+20
+30
+Figure 32-2.   Cocaine tissue distribution in a fatal poisoning. (Data drawn 
+from Poklis et al. [1985].)
+Table 32-2  
+Suggested List of Specimens and Amounts to Be 
+Obtained at Autopsy
+SPECIMEN
+QUANTITY
+Brain
+50 g
+Liver
+50 g
+Kidney
+50 g
+Heart blood
+25 mL
+Peripheral blood
+10 mL
+Vitreous humor
+All available
+Bile
+All available
+Urine
+All available
+Gastric contents
+All available
+SOURCE: Data from SOFT/AAFS Forensic Toxicology Laboratory 
+Guidelines (2006).
+
+Analytical and Forensic Toxicology
+Chapter 32
+1517
+correlation between quantitative hair and nail values and drug doses 
+in forensic cases; however, qualitative results have been accepted as 
+indicators of previous drug or xenobiotic exposure.
+Finally, in severely decomposed bodies, the absence of blood 
+and/or the scarcity of solid tissues suitable for analysis have led to 
+the collection and testing of maggots (fly larvae) feeding on the 
+body (Pounder, 1991). The fundamental premise underlying mag-
+got analysis is that if drugs or intoxicants are detected, they could 
+only have originated from the decedent’s tissues on which the larvae 
+were feeding. Surprisingly, analysis of maggots is rather straight-
+forward, requiring no special methodology beyond that routinely 
+applied in toxicology laboratories. Case reports have documented 
+the detection of numerous drugs and intoxicants in maggots col-
+lected from decomposed bodies. The compounds detected include 
+barbiturates, benzodiazepines, phenothiazines, morphine, and mala-
+thion. Controlled studies in which maggots were allowed to feed 
+on tissues to which drugs had been added have demonstrated the 
+accumulation of propoxyphene, amitriptyline and nordiazepam, 
+among others, in the larvae (Goff et al., 1993; Gagliano-Candela 
+and Aventaggiato, 2001; Pien et al., 2004).
+Toxicological Analysis
+Before the analysis begins, several factors must be considered, 
+including the amount of specimen available, the nature of the 
+poison sought, and the possible biotransformation of the poison. 
+In cases involving oral administration of the poison, the gastro-
+intestinal (GI) contents are analyzed first because large amounts 
+of residual unabsorbed poison may be present. The urine may be 
+analyzed next, as the kidney is the major organ of excretion for 
+most poisons and high concentrations of toxicants and/or their 
+metabolites often are present in urine. After absorption from the 
+GI tract, drugs or poisons are carried to the liver before entering 
+the general systemic circulation; therefore, the first analysis of 
+an internal organ is conducted on the liver. If a specific poison is 
+suspected to have caused or contributed to a death, the toxicolo-
+gist may first analyze the tissues and fluids in which the poison 
+concentrates.
+A thorough knowledge of drug biotransformation is often 
+essential before an analysis is performed. The parent compound and 
+any major pharmacologically active metabolites should be isolated 
+and identified. In some instances, the metabolites provide the only 
+evidence that a drug or poison has been administered. Many screen-
+ing tests, such as immunoassays, are specifically designed to detect 
+not the parent drug but its major urinary metabolite. An example of 
+the relationship of pharmacokinetic and analytical factors is pro-
+vided by cocaine. The major metabolites of cocaine biotransforma-
+tion are benzoylecgonine and ecgonine methyl ester (Fig. 32-3). The 
+co-ingestion of alcohol with cocaine results in the hepatic transester-
+ification of cocaine to form cocaethylene (Hime et al., 1991), a psy-
+choactive metabolite. The disposition of these compounds in various 
+body fluids and tissues (including hair) is shown in Fig. 32-4. Thus, 
+Benzoylecgonine
+Cocaine
+Norcocaine
+Cocaethylene
+Anhydroecgonine
+methyl ester
+Ecgonine methyl ester
+N
+COOH
+OCOC6H5
+H
+CH3
+N
+COOCH3
+OCOC6H5
+H
+H
+N
+COOCH3
+OH
+H
+CH3
+N
+COOCH3
+OCOC6H5
+H
+CH3
+N
+COOCH2CH3
+OCOC6H5
+H
+CH3
+N
+COOCH3
+CH3
+CH3CH2OH
+Smoking
+Figure 32-3.   Biotransformation and pyrolysis products of cocaine.
+
+1518
+Applications of Toxicology
+Unit VII
+the initial testing of urine to determine cocaine use is performed 
+with immunoassays specifically designed to detect the presence of 
+benzoylecgonine, the major urinary metabolite. In contrast, if oral 
+fluid (saliva) or hair is tested, parent cocaine, as well as metabolites, 
+is also sought. To determine a profile of each analyte present in a 
+specimen, chromatographic procedures such as gas chromatography 
+(GC) and liquid chromatography (LC) coupled with mass spectrom-
+etry (MS) or tandem MS are commonly used, which facilitates the 
+simultaneous separation and quantification of each compound.
+Besides GC- and LC-MS targeted analysis, clinical and foren-
+sic toxicologists increasingly utilize high-resolution MS technolo-
+gies including time-of-flight (TOF) and Orbitrap mass analyzers. 
+This analytical advance offers retrospective data interrogation and 
+versatile screening methods where new analytes can be rapidly 
+included in the test panel (Wu et al., 2012; Kronstrand et al., 2014). 
+The more recent generation of MS technologies interfaces quadru-
+pole mass analyzer with TOF allowing higher resolution and greater 
+mass accuracy for simultaneous screening and quantitative analy-
+ses of over a hundred drugs and metabolites (Bidny et al., 2017). 
+Such analytical development is imperative to address the growing 
+complexity and transience of the recreational drug market as the 
+popularity of synthetic psychoactive substances known as designer 
+drugs or novel/new psychoactive substances (NPS) has exponen-
+tially grown in the past decade (Pasin et al., 2017).
+The analysis may be complicated by the normal chemical 
+changes that occur during the decomposition of a cadaver. The 
+autopsy and toxicological analysis should be started as soon after 
+death as possible. The natural enzymatic and nonenzymatic pro-
+cesses of decomposition and microbial metabolism may destroy a 
+poison that was present at death or produce substances or com-
+pounds with chemical and physical properties similar to those of 
+commonly encountered poisons. As early as the 1870s, the so-called 
+cadaveric alkaloids isolated from the organs of putrefied bodies were 
+known to produce color test reactions similar to those produced 
+by morphine and other drugs. These cadaveric alkaloids resulted 
+from the bacterial decarboxylation of the amino acids ornithine and 
+lysine, producing putrescine and cadaverine, respectively (Evans, 
+1963). Similarly, during decomposition, phenylalanine is converted 
+to phenylethylamine, which has chemical and physical properties 
+very similar to those of amphetamine. The hydrolysis, oxidation, 
+or reduction of proteins, nucleic acids, and lipids may generate 
+numerous compounds, such as hydroxylated aliphatic and aromatic 
+carboxylic acids, pyridine and piperidine derivatives, and aromatic 
+heterocyclics such as tryptamine and norharmane (Kaempe, 1969). 
+All these substances may interfere with the isolation, identification, 
+and quantitation of the toxicants being sought. The concentration of 
+cyanide and ethyl alcohol and the carbon monoxide saturation of the 
+blood may be decreased or increased, depending on the degree of 
+putrefaction and microbial activity. However, many poisons—such 
+as arsenic, barbiturates, mercury, and strychnine—are extremely 
+stable and may be detectable many years after death.
+Before analysis, the purity of all chemicals used in laboratory 
+procedures should be established. The purity of the primary refer-
+ence material used to prepare calibrators and controls should be 
+verified, and the salt form or degree of hydration should be deter-
+mined (Blanke, 1989). All reagents and solvents should be of the 
+highest grade possible and should be free of contaminants that may 
+interfere with or distort analytical findings. For example, the chlo-
+roform contaminants phosgene and ethyl chloroformate may react 
+with primary or secondary amine drugs to form carbamyl chloride 
+and ethyl carbamate derivatives (Cone et al., 1982). Specimen con-
+tainers, lids, and stoppers should be free of contaminants such as 
+plasticizers, which often interfere with chromatographic or GC/
+LC-MS determinations. Care should be exercised to ensure a clean 
+laboratory environment. This is of particular concern in the analysis 
+of metals, as aluminum, arsenic, lead, and mercury are ubiquitous 
+environmental and reagent contaminants.
+Forensic toxicology laboratories analyze specimens by using a 
+variety of analytical procedures. Initially, nonspecific tests designed 
+to determine the presence or absence of a class or group of analytes 
+may be performed directly on the specimens. Examples of tests 
+used to rapidly screen urine are the FPN (ferric chloride, perchloric, 
+and nitric acid) color test for phenothiazine drugs and immunoas-
+says for the detection of amphetamines, benzodiazepines, and opi-
+ate derivatives, among others. Positive results obtained with these 
+tests must be confirmed by a second analytical procedure that iden-
+tifies the particular drug. The detection limit of the confirmatory 
+test should be lower than that of the initial nonspecific test. Some 
+analytical procedures identify specific compounds. Even in such 
+instances, a second test should be performed to identify and confirm 
+the presence of the analyte. The second test should be based on a 
+chemical or physical principle different from that of the first test. 
+Such additional testing is performed to establish an unequivocal 
+identification of the drugs or poisons present. Whenever possible, 
+the most specific test for the compound of interest should be per-
+formed. Today, GC-MS and LC-MS are the most widely applied 
+methodology in toxicology and are generally accepted as unequivo-
+cal identification for all drugs. Analyte identification is typically 
+based on the retention time in the chromatographic system coupled 
+with the characteristic ion fragmentation spectrum in the mass 
+spectrometer. The analyte mass spectrum is the pattern of mass-to-
+charge ion fragments and their relative abundance.
+Analytical methods must be of sufficient rigor to provide 
+accurate and reliable qualitative and quantitative data. Numerous 
+approaches for the use of quality control have been suggested, 
+and professional organizations have developed recommendations 
+for the implementation of quality control in forensic laboratories 
+(Goldberger et al., 1997; Ferrara et al., 1998; Scientific Working 
+Group for Forensic Toxicology, 2013). The limit of detection, the 
+lowest concentration of analyte reliably identified by the assay, and 
+the specificity of all qualitative methods should be well documented. 
+The laboratory must demonstrate that the assay response of blank or 
+negative calibrators (controls) does not overlap with the response 
+of the lowest-positive calibrator. In certain instances, qualitative 
+identification of a poison or drug is sufficient to resolve forensic 
+Percent
+0
+10
+20
+30
+40
+50
+60
+70
+80
+Blood
+Saliva
+?
+Urine
+Hair
+Cocaine
+Ecgonine methyl ester
+Benzoylecgonine
+Cocaethylene
+Figure 32-4.   Disposition of cocaine and cocaine metabolites in human 
+fluids and hair. (Data redrawn from Spiehler [1994].)
+
+Analytical and Forensic Toxicology
+Chapter 32
+1519
+toxicology issues. However, most cases require reliable estimates 
+of poison concentrations for forensic interpretation. For quantita-
+tive analysis, the accuracy, precision, linearity, and specificity of the 
+procedure must also be established. Linearity should be determined 
+by using multiple drug-fortified calibrators whose concentrations 
+bracket the anticipated concentrations in the biological specimen. 
+Precision, which statistically demonstrates the variance in the value 
+obtained, is determined by replicate analyses of a specimen of a 
+known concentration. Additional assay parameters, such as analyte 
+stability and recovery from the biological matrix, for example, can 
+also be determined. For a variety of reasons, a quantitative result 
+occasionally will deviate spuriously from the true value. Therefore, 
+replicate quantitative determinations are highly recommended when 
+sufficient specimen volume is available (Blanke, 1987).
+When unusual samples such as bone marrow, fingernails, hair, 
+and maggots are analyzed, the extraction efficiency of a proce-
+dure may vary greatly, depending on the complexity of the matrix. 
+Therefore, all calibrators and controls should be prepared in the 
+same matrix type as the specimens and analyzed concurrently with 
+the specimens. Often the matrix is “unique” or impossible to match, 
+such as decomposed or embalmed tissue. In these instances, the 
+method of “standard additions” may be used. Known amounts of 
+the analyte of interest are added to specimen aliquots and these 
+are analyzed. The concentration of poison in the test specimen is 
+determined by comparing the proportional response of the “poison 
+fortified” specimens to that of the test specimens.
+Interpretation of Analytical Results
+Once the analysis of the specimens is complete, the toxicologist 
+must interpret his or her findings with regard to the physiological 
+or behavioral effects of the toxicants on the decedent at the con-
+centrations found. Specific questions may be answered, such as 
+the route of administration, the dose administered, and whether the 
+concentration of the toxicant present was sufficient to cause death 
+or alter the decedent’s actions enough to cause his or her death. 
+Assessing the physiological or behavioral meanings of analytical 
+results is often the most challenging aspect confronted by the foren-
+sic toxicologist.
+In determining the route of administration, the toxicologist 
+notes the results of the analysis of the various specimens. As a gen-
+eral rule, the highest concentrations of a poison are found at the 
+site of administration. Therefore, the presence of large amounts of 
+drugs and/or poisons in the GI tract and liver indicates oral inges-
+tion, while higher concentrations in the lungs than in other visceral 
+organs can indicate inhalation or intravenous injection. The ratio or 
+relative distribution of drugs in different tissues may also differenti-
+ate oral from parenteral administration (Fig. 32-5). Drugs may also 
+be detected in the tissue surrounding an injection site following 
+intramuscular or intravenous injection. Smoking is a popular route 
+of administration for abusers of controlled substances (illicit) such 
+as cocaine, heroin, marijuana, and phencyclidine. Pyrolysis of these 
+drugs leads to the inhalation not only of the parent drug, but also of 
+characteristic breakdown products of combustion. For example, a 
+major pyrolysis product of “crack” cocaine smoking is anhydroec-
+gonine methyl ester (Martin et al., 1989) (Fig. 32-3). Thus, identi-
+fication of relatively high concentrations of this compound along 
+with cocaine or cocaine metabolites in urine or other body fluids or 
+tissues may indicate smoking as the route of cocaine administration 
+(Jacob et al., 1990).
+The presence of a toxic material in the GI tract, regardless 
+of the quantity, does not provide sufficient evidence to establish 
+that agent as the cause of death. It is necessary to demonstrate that 
+absorption of the toxicant has occurred and that it has been trans-
+ported by the general circulation to the target organ in order to exert 
+its lethal effect. This is established by blood and tissue analyses. 
+An exception to the rule is provided by strong, corrosive chemicals 
+such as sulfuric acid, lye, and phenol, which exert their deleterious 
+effects by directly digesting tissue, causing hemorrhage and shock. 
+The results of urinalysis are often of little benefit in determining 
+the physiological effects of a toxic agent. Urine results establish 
+only that the poison was present in the body at some time before 
+death. Correlation of urine values with physiological effects is poor 
+because of various factors that influence the rate of excretion of 
+specific compounds and the urine volume.
+The physiological effects of most drugs and poisons are gener-
+ally correlated with their concentrations in blood or blood fractions 
+such as plasma and serum. Indeed, in living persons, this associa-
+tion is the basis of therapeutic drug monitoring. However, postmor-
+tem blood has been described as a fluid resembling blood that is 
+obtained from the vasculature after death. Therefore, interpretation 
+of postmortem blood results requires careful consideration of the 
+case history, the site of collection, and postmortem changes. The 
+survival time between the administration of a poison and death may 
+be sufficiently long to permit biotransformation and excretion of 
+the agent. Blood values may appear to be nontoxic or consistent 
+with therapeutic administration. Death from hepatic failure after 
+an acetaminophen overdose usually occurs at least 3 to 4 days after 
+ingestion. Postmortem acetaminophen concentrations in blood may 
+be consistent with the ingestion of therapeutic doses. Therefore, 
+fatal acetaminophen overdose is determined by case history, central 
+lobular necrosis of the liver, and, if available, analysis of serum 
+specimens collected from the decedent when he or she was admit-
+ted to the emergency department (Price et al., 1991). Furthermore, 
+emergency medical treatment—such as the administration of fluids, 
+plasma extenders, bicarbonate, diuretics, and blood transfusions—
+may dilute, remove, or enhance the elimination of toxic agents. 
+Similarly, prolonged survival on a mechanical respirator, hemodi-
+alysis, or hemoperfusion may substantially reduce initially lethal 
+blood concentrations of poisons.
+For a long time, it was generally assumed that postmortem 
+blood drug concentrations were more or less uniform throughout the 
+0
+Brain
+Liver
+Kidney
+10
+Pentazocine, mg/kg
+20
+30
+Oral
+IV
+Figure 32-5.   Comparison of pentazocine distribution in fatal poisonings 
+due to intravenous injection and oral administration. (Data from Baselt 
+[1982]; Poklis and MacKell [1982].)
+
+1520
+Applications of Toxicology
+Unit VII
+body. However, in the 1970s, several investigators noted that post-
+mortem concentrations of digoxin in heart blood greatly exceeded 
+those in simultaneously collected femoral blood. They also observed 
+that postmortem blood concentrations, particularly in heart blood, 
+exceeded the expected values at the time of death (Vorpahl and 
+Coe, 1978; Aderjan et al., 1979). This postmortem increase in 
+blood digoxin concentrations was apparently due to release of the 
+drug from tissue stores, particularly the myocardium. Subsequently, 
+other researchers demonstrated that for many drugs, blood concen-
+trations in the same body vary greatly depending on the site from 
+which the specimen is collected—subclavian vein, thoracic aorta, 
+inferior vena cava, femoral vein, and so forth. For example, in a 
+case of fatal multiple drug ingestion, analysis of postmortem blood 
+collected from 10 different sites demonstrated imipramine concen-
+trations that differed by as much as 760% (2.1 to 16.0 mg/L) (Jones 
+and Pounder, 1987). In an extensive investigation, Prouty and 
+Anderson (1990) demonstrated that postmortem blood drug con-
+centrations were not only site-dependent but also increased greatly 
+over the interval between death and specimen collection, particu-
+larly in heart blood. This increase over the postmortem interval was 
+most pronounced for basic drugs with large apparent volumes of 
+distribution, such as tricyclic antidepressants.
+In an overt drug overdose, postmortem blood concentrations 
+are elevated sufficiently to render an unmistakable interpretation of 
+fatal intoxication. However, in many cases, the postmortem redis-
+tribution of drugs may significantly affect the interpretation of ana-
+lytical findings. For drugs whose volume of distribution, plasma 
+half-life, and renal clearance vary widely from person to person 
+or that undergo postmortem redistribution, tissue concentrations 
+readily distinguish therapeutic administration from drug overdose 
+(Apple, 1989). Therefore, to provide expert opinions with a sound 
+scientific foundation in regard to the role of a drug in the death of 
+an individual, it is recommended that, in addition to heart blood, a 
+peripheral blood specimen and tissues be analyzed.
+The analysis of tissue specimens is important for the estima-
+tion of a “minimal administered dose” or body burden of a drug or 
+poison. In order to calculate a minimum body burden, it is necessary 
+to analyze as many different body tissues and fluids as possible to 
+determine the concentrations of the drug present. The concentration 
+of drug in each separate specimen is then multiplied by the total 
+weight or volume of that particular tissue or fluid. In this manner, 
+the total amount of drug in each different tissue or fluid is deter-
+mined. The amounts of drug in each separate tissue and fluid are 
+then added together to give the total body burden or minimal admin-
+istered dose. This simple approach has often proven extremely 
+effective in resolving legal medical issues. For example, lidocaine 
+is commonly administered in 50- to 100-mg bolus injections as an 
+antiarrhythmic agent for ventricular arrhythmia during resuscita-
+tion efforts. Because of poor circulation and tissue perfusion dur-
+ing arrhythmias, lidocaine is not well distributed in the body of 
+the victim of a fatal heart attack. Postmortem bloods often exceed 
+50 mg/L in such cases, whereas values for effective antiarrhythmic 
+prophylaxis do not exceed 5 mg/L. Therefore, a blood lidocaine 
+value of 50 mg/L may be an artifact of resuscitation efforts or might 
+represent a fatal overdose. Tissue distribution studies have resolved 
+this issue in both accidental and homicidal poisoning with lidocaine 
+(Poklis et al., 1984).
+Postmortem toxicology results are often used to corroborate 
+investigative findings. Improved methods for determining drug expo-
+sure, with respect to longer timeframes, are advantageous because 
+drug concentrations in plasma, urine, and liver often reflect only the 
+dosage taken within (at most) the last several days prior to sampling. 
+Compared to traditional biological matrices, keratinized tissues such 
+as hair and nails provide a longer window of detection for drugs and 
+other compounds due to their slow growth and possible permanent 
+retention of drugs. The presence of certain xenobiotics and their 
+metabolites has been demonstrated in human hair or nails at times 
+when plasma and urine drug concentrations are not measurable 
+(Rollins et al., 1997; Garside, 2010), which can provide evidence of 
+exposure to these agents weeks, months, or even years prior to death. 
+It has been suggested that for some xenobiotics, hair also serves to 
+characterize the drug exposure over time. For example, the analysis 
+of sequential sections of hair provides a reliable correlation with the 
+pattern of arsenic exposure (Smith, 1964). Significant increases in 
+the arsenic content of the root and the first 5 mm of the hair occur 
+within hours after the ingestion of arsenic. The germinal cells are in 
+relatively close equilibrium with circulating arsenic; thus, as arsenic 
+concentrations in blood rise or fall, so does arsenic deposition in 
+growing hair. Normal arsenic content in hair varies with nutritional, 
+environmental, and physiological factors; however, the maximum 
+upper limit of normal deposition with a 99% confidence limit in 
+persons not exposed to arsenic is 5 mg/kg (Shapiro, 1967). Hair 
+grows at a rate of approximately 1.06 cm per month (LeBeau et al., 
+2011). Therefore, analysis of 1.0-cm segments provides a monthly 
+pattern of exposure (Fig. 32-6). Such analyses can be performed in 
+cases of homicidal poisoning to demonstrate that increases in arsenic 
+deposition in the victim’s hair correlate with times when a poisoner 
+had an opportunity to administer the poison. Continuously elevated 
+hair arsenic values indicate chronic rather than acute poisoning as 
+the cause of death. A similar approach using segmental analysis of 
+hair has been used to determine patterns of exposure for various 
+drugs and their metabolites; however, care must be taken in order 
+to account for the potential effects of haircuts, chemical treatments, 
+and other environmental insults that may have occurred to the hair 
+during the timeframe of interest.
+An extension of forensic toxicology is the analysis of impuri-
+ties of illicit drug synthesis in biological specimens. Many drugs 
+of abuse, particularly methamphetamine, are illicitly manufactured 
+0
+0
+Proximal
+Mar
+Feb
+Jan
+1986
+1985
+Dec
+Nov
+Oct
+Sept
+Aug
+Hair length (cm)
+Distal
+1
+2
+3
+4
+5
+6
+50
+100
+150
+200
+Hair arsenic, mg/kg
+250
+Figure 32-6.   Results of neutron activation analysis for arsenic in sequen-
+tial sections of hair, demonstrating chronic arsenic poisoning. Increased 
+exposure in the first two sections is consistent with fatal events. Lower val-
+ues in section three are consistent with 2 weeks of hospitalization. (Data 
+from Poklis and Saady [1990].)
+
+Analytical and Forensic Toxicology
+Chapter 32
+1521
+in clandestine laboratories. There are several popular methods of 
+methamphetamine synthesis; when these are applied in clandestine 
+laboratories, side reactions or incomplete conversion of the reac-
+tants yield an impure mixture of methamphetamine and synthetic 
+impurities. These impurities can be characteristic of a particular 
+synthetic method, and their detection in biological specimens can 
+indicate the use of an illicitly produced drug that is not a legal phar-
+maceutical product, suggest the synthetic method that was used to 
+produce the drug, point to a possible common source of illicit pro-
+duction, and provide a link between manufacturers, dealers, and 
+users. An example of impurity analysis was the detection of metab-
+olites of α-benzyl-N-methylphenethylamine (BNMPA) in the urine 
+of abusers of methamphetamine (Moore et al., 1996b) and in a case 
+of fatal drug overdose involving methamphetamine (Moore et al., 
+1996a). BNMPA is an impurity arising from the synthesis of meth-
+amphetamine via the Leukart reaction using phenyl-2-propanone 
+(P2P) synthesized from phenylacetic acid. Clandestine laboratories 
+often must synthesize the P2P starting material, as its sale and dis-
+tribution is regulated by the U.S. Drug Enforcement Administration.
+As discussed above, a wide range of tissues are available for 
+the purpose of identifying xenobiotics in postmortem specimens. In 
+contrast, for many years, traditional specimens used for the detec-
+tion and quantification of substances in antemortem biological 
+specimens have been limited to whole blood, plasma, serum, and 
+urine, largely due to their ease of collection and accessibility in the 
+living. More recently, the advent of improved analytical techniques 
+with greater sensitivity and selectivity, including GC-MS/MS and 
+LC-MS/MS, have expanded the array of biological specimens in 
+which substances can be detected. These specimens include oral 
+fluid (saliva), sweat, meconium, amniotic fluid, breast milk, and 
+semen among others. In oral fluid, for example, the pharmacokinet-
+ics of many drugs and metabolites is closely aligned to that of blood 
+pharmacokinetics, and thus can serve as an alternative matrix for 
+illicit and therapeutic drug detection (Bosker and Huestis, 2009; 
+Spiehler and Cooper, 2010), as well as detection of exposure to 
+environmental toxicants and pesticides (Lanaro et al., 2011; Yang 
+et al., 2011).
+CRIMINAL POISONING OF THE LIVING
+Over the past few decades, forensic toxicologists have become 
+more involved in the analysis of specimens obtained from living 
+victims of criminal poisonings. Generally, this increase in testing is 
+a result of two types of cases: (1) administration of drugs to inca-
+pacitate victims of kidnapping, robbery, or sexual assault and (2) 
+poisoning as a form of child abuse.
+For centuries, those severely intoxicated from alcohol often 
+became victims of kidnapping, robbery, or sexual assault. The kid-
+napping of drunks in seaports was a common way of obtaining sail-
+ors for long commercial voyages such as those involved in whaling. 
+Late in the 19th century, the mixing of the powerful hypnotic chlo-
+ral hydrate with alcohol produced the legendary “Mickey Finn.” 
+While alcohol is still often a primary factor in cases of alleged 
+sexual assault, common drugs of abuse or other psychoactive drugs 
+are often involved (Table 32-3). Of particular concern are the many 
+potent inductive agents medically administered prior to general 
+anesthesia. Many of these drugs, such as benzodiazepines and 
+phenothiazines, are available today through illicit sources or legal 
+purchase in foreign countries. When administered surreptitiously, 
+they cause sedation and incapacitate the victim while also produc-
+ing amnesia in the victim as to the events while drugged, without 
+causing severe central nervous system depression. These cases often 
+present a difficult analytical challenge to the toxicologist. Usually, 
+the victim does not bring forth an allegation of assault until 24 hours 
+to several days after the attack. Thus, the intoxicating drug may 
+have been largely eliminated or extensively metabolized such that 
+extremely low concentrations of drug or metabolites are present 
+in the victim’s blood, urine, and/or hair specimens. Sophisticated, 
+highly sensitive analytical methods such as GC-MS or LC-MS 
+may be required to accurately identify drugs in such specimens. 
+To provide guidance in the choice of analytical approaches to such 
+cases, recommendations for the toxicological investigation of drug-
+facilitated crimes including sexual assaults have been formulated 
+(LeBeau et al., 1999; Society of Forensic Toxicologists).
+Poisoning as a form of child abuse involves the deliberate 
+administration of toxic or injurious substances to a child, usually by 
+a parent or other caregiver. The victims of such poisonings range in 
+age from a few months to the teens. Common agents used to inten-
+tionally poison children have included syrup of ipecac, table salt, 
+laxatives, diuretics, antidepressants, sedative-hypnotics, and narcot-
+ics (Yin, 2010; American Association of Poison Control Centers, 
+2011; Oral et al., 2011). The motivation for such heinous behavior 
+is in the province of psychiatry, not toxicology. However, toxicolo-
+gists must have some understanding of the nature of these poison-
+ings to aid in the investigation of such cases. In some instances, it is 
+a form of child battering committed by persons with low tolerance 
+to the child’s upsetting behaviors. The poison may be given to an 
+infant to stop its crying or be force-fed to older children as a form 
+of punishment. Such behavior is characteristic of persons with a 
+cultural background where violence toward children is common 
+or who have severe personality disorders or other mental illnesses. 
+“Munchausen syndrome by proxy” is another form of child poison-
+ing (Murray, 1997). The term Munchausen syndrome (MS) is used 
+to describe patients who seek admission to hospitals with appar-
+ent illness along with plausible, dramatic, albeit fictitious medical 
+histories. Such people seek medical treatment solely to assume the 
+role of a patient and receive the attention derived from this decep-
+tion. “MS by proxy” refers to the situation in which an individual, 
+usually a parent, presents not himself or herself but a child with 
+Table 32-3  
+Distribution of Drugs of Abuse Encountered Urine 
+Specimens in 1179 Cases of Alleged Sexual Assault*
+RANK
+DRUG/DRUG GROUP
+INCIDENCE
+1
+No drugs found
+468
+2
+Ethanol
+451
+3
+Cannabinoids
+218
+4
+Benzoylecgonine (cocaine 
+metabolite)
+97
+5
+Benzodiazepines
+97
+6
+Amphetamines
+51
+7
+Gamma-hydroxybutyrate 
+(GHB)
+48
+8
+Opiates
+25
+9
+Propoxyphene
+17
+10
+Barbiturates
+12
+*Thirty-five percent of the drug-positive specimens were positive for 
+more than one drug.
+SOURCE: Data from ElSohly and Salamone (1999).
+
+1522
+Applications of Toxicology
+Unit VII
+a fictitious illness often induced by physical or chemical means. 
+The purpose of the poisoning is not to kill the child but to induce 
+signs and symptoms of illness that will assure medical attention. 
+Thereby, the parent as caregiver gains the craved attention. Given 
+a fictitious case history and the obvious illness of the child, these 
+cases are almost always and understandably misdiagnosed. Often, 
+the child may be chronically poisoned at home and in the hospital 
+for as long as a year before suspicion leads to the collection of 
+specimens for extensive toxicological testing. Although the parent 
+may not have intended such an outcome, some children have died 
+from fatal poisoning in these situations. As in the case of sexual 
+assault, sophisticated MS testing methods may be required to detect 
+such chemicals as emetine and cephaeline, the emetic alkaloids in 
+syrup of ipecac. Testing in these cases is best performed in a labora-
+tory with forensic experience, as positive drug findings will usually 
+result in some form of legal proceeding.
+FORENSIC DRUG TESTING
+Concerns regarding the potentially adverse consequences of sub-
+stance abuse for the individual, the workplace, and society have 
+led to widespread urine analysis for controlled or illicit drugs (Gust 
+and Walsh, 1989). Currently, such testing is conducted routinely by 
+the military services, regulated transportation and nuclear indus-
+tries, many federal and state agencies, public utilities, federal and 
+state criminal justice systems, and numerous private businesses and 
+industries. Significant ethical and legal ramifications are associated 
+with such testing. Those having positive test results may not receive 
+employment, be dismissed from a job, be court-martialed, or suffer 
+a damaged reputation.
+To assure the integrity of workplace urine testing, two cer-
+tification programs currently accredit forensic urine-testing labo-
+ratories. Laboratories conducting testing of federal employees 
+are required to be certified under the Department of Health and 
+Human Services (HHS) Mandatory Guidelines for Workplace Drug 
+Testing as published in the April 11, 1988, Federal Register, which 
+has been periodically revised; the latest revision was published in 
+the January 23, 2017, Federal Register where HHS allowed collec-
+tion of an alternative specimen such as oral fluid (Department of 
+Health and Human Services, 1988, 2017). The College of American 
+Pathologists (CAP) also conducts a certification program for urine 
+drug testing laboratories. The federal program regulates the process 
+from specimen collection through testing to the reporting of results, 
+whereas the CAP program allows flexibility in the construction of 
+programs servicing a broad range of clients. Both programs involve 
+proficiency testing and periodic on-site inspection of laboratories.
+Forensic drug testing differs from other areas of forensic toxi-
+cology in which urine or an alternative specimen is the only speci-
+men analyzed and testing is performed for a limited number of drugs 
+and metabolites. While urine remains as the most prevalent biologi-
+cal matrix for forensic drug testing, the popularity of oral fluid as an 
+alternative matrix is increasing because the collection is more con-
+venient and less invasive (Tsanaclis et al., 2012). Under the federal 
+certification program, analyses are performed for a limited num-
+ber of classes or drugs of abuse (Table 32-4). While HHS-certified 
+laboratories may typically analyze hundreds to thousands of urine 
+specimens daily, only a relatively small number of those speci-
+mens are positive for drugs. To handle this large workload, initial 
+testing is performed by immunoassays on rapid, high-throughput 
+chemistry analyzers. A confirmation analysis in HHS-certified labo-
+ratories is performed by GC-MS and LC-MS/MS.
+Proper forensic drug testing is a challenge to good laboratory 
+management. As with all forensic activities, every aspect of the 
+laboratory operation must be thoroughly documented—specimen 
+collection, chain of custody, quality control procedures, method 
+validation, testing, qualifications of personnel, and the reporting of 
+results. The laboratory facility must be constructed and operated to 
+assure total security of specimens and documents. Confidentiality 
+of all testing results is paramount; only specifically authorized 
+persons should receive the results. The presence of a controlled or 
+illicit drug in a single random urine specimen is generally accepted 
+as proof of recent or past substance abuse. However, positive urine 
+drug findings are only evidence that, at some time before the col-
+lection of the sample, the individual was administered the drug, 
+self-administered it, or was exposed to it. Positive urine tests do not 
+prove impairment from drug abuse or addiction.
+Forensic drug test results are reported only as positive or nega-
+tive for the drugs sought. Cutoff values are established for both 
+Table 32-4  
+Forensic Urine Drug Testing Analytes and Cutoff 
+Concentrations
+ANALYTE
+CONCENTRATION (ng/mL)
+INITIAL TEST
+CONFIRMATORY 
+TEST
+Marijuana metabolites
+50
+∆-9-tetrahydrocannabinol-
+9-carboxylic acid
+–
+15
+Cocaine metabolite
+150
+Benzoylecgonine
+–
+100
+Opiates
+2000
+Morphine
+–
+2000
+Codeine
+–
+2000
+Hydrocodone/
+hydromorphone
+300
+Hydrocodone
+–
+100
+Hydromorphone
+–
+100
+Oxycodone/oxymorphone
+100
+Oxycodone
+–
+100
+Oxymorphone
+–
+100
+6-Acetylmorphine (heroin 
+metabolite)
+10
+10
+Phencyclidine
+25
+25
+Amphetamines
+500
+Amphetamine
+–
+250
+Methamphetamine
+–
+250
+MDMA/MDA
+500
+MDMA
+–
+250
+MDA
+–
+250
+SOURCE: Department of Health and Human Services: Manda-
+tory guidelines for federal workplace drug testing programs. Fed 
+Reg. 53(69), 11983, April 11, 1988; revised: Fed Reg. 82(13), 
+7920, October 1, 2017. https://www.federalregister.gov/docu-
+ments/2017/01/23/2017-00979/mandatory-guidelines-for-federal-
+workplace-drug-testing-programs.
+
+Analytical and Forensic Toxicology
+Chapter 32
+1523
+the initial and confirmation assays (Table 32-4). The cutoff value 
+is a concentration at or above which the assay is administratively 
+considered positive. Below the cutoff value, the assay is reported 
+to be negative for that drug or drug class. Obviously, drugs may be 
+present below the cutoff concentration. However, the use of cutoff 
+values allows uniformity in the drug testing and reporting of results. 
+All test reports indicate the drug tested and its cutoff value. The 
+testing laboratories must be thoroughly familiar with all regulatory 
+and analytical issues related to urine testing and devise strategies to 
+resolve uncertainties.
+Many individuals who are subject to regulated urine testing 
+have devised techniques to mask their drug use either by physi-
+ological means such as the ingestion of diuretics or by attempting 
+to adulterate the specimen directly with bleach, vinegar, or other 
+products that interfere with the initial immunoassay tests (Warren, 
+1989; George and Braithwaite, 1996; Ferslew et al., 2003; Paul, 
+2004; Burrows et al., 2005). Thus, specimens are routinely tested 
+for adulteration by checking urinary pH, creatinine, and specific 
+gravity, nitrates, chromates, and noting any unusual color or smell. 
+A mini-industry has developed to sell various products that are 
+alleged to “beat the drug test.” These products contain chemicals 
+that, when added to a urine specimen, interfere with either the ini-
+tial or confirmatory drug test (Dasgupta, 2007; Jaffee et al., 2007; 
+Larson et al., 2008). For example, several of these products con-
+tain glutaraldehyde, which will react with the nitrogen atoms of 
+the antibody proteins of the immunoassay screening test, thereby 
+cross-linking the antibodies and inactivating the assay. However, 
+this disruption of the test is so complete that the immunoassay ana-
+lyzer records almost no signal, thus indicating possible adulteration 
+of the specimen. Another adulterant, for the marijuana metabolite 
+urine test, contains sodium nitrite. In acidic urine, the nitrite salt is 
+converted to nitrous acid that then converts the marijuana metabo-
+lites to nitroso derivatives, rendering them undetectable by routine 
+GC-MS analysis (Lewis et al., 1999). Often, the pH of the urine is 
+insufficiently acidic for complete nitroso conversion of the tetrahy-
+drocannabinol (THC) metabolite, THC-carboxylic acid. Thus, the 
+urine will screen positive by the initial immunoassay. When urine 
+is acidified to extract the THC acid metabolite for MS confirma-
+tion testing, the metabolite is completely oxidized and undetectable. 
+However, the deuterated THC–carboxylic acid added to the sample 
+as the internal standard of the confirmation test is also completely 
+destroyed. Failure to detect the internal standard readily alerts the 
+analyst that an oxidant adulterant had been added to the urine. In 
+such cases, a quantitative test for nitrite is performed. Nitrite may be 
+present in urine from numerous internal and external sources such 
+as foods, drugs, pathological conditions, and infection from nitrate-
+reducing microorganisms. However, none of these sources produces 
+urinary nitrite concentrations that even begin to approach those 
+obtained by the addition of adulterant amounts of potassium nitrite 
+equal to 1000 mg/L (Urey et al., 1998). Most chemical adulterants 
+can be detected in urine by specific colorimetric tests that can be 
+readily adapted to high-volume auto-analyzers (Table 32-5). Thus, 
+the laboratories now routinely test not only for drugs of abuse but 
+also for a wide variety of chemical adulterants. In most instances, 
+a positive test result for adulteration has a consequence similar to 
+a positive drug test.
+There may be valid reasons other than substance abuse for pos-
+itive drug findings, such as therapeutic use of controlled substances, 
+inadvertent intake of drugs via food, and passive inhalation. For 
+example, the seed of Papaver somniferum, poppy seed, is a com-
+mon ingredient in many pastries and breads. Depending on their 
+botanical source, poppy seeds may contain significant amounts of 
+morphine. Several studies have demonstrated that the ingestion of 
+certain poppy-seed foods results in the urinary excretion of readily 
+detectable concentrations of morphine (ElSohly and Jones, 1989). 
+Morphine is a major urinary metabolite of heroin. Therefore, to 
+readily differentiate heroin abuse from poppy-seed ingestion, analy-
+sis may be performed for 6-acetylmorphine, a unique heroin metab-
+olite (Fehn and Megges, 1985).
+Even over-the-counter medications may present poten-
+tial problems for laboratories conducting urine drug testing. 
+Methamphetamine may occur as a racemic mixture of d- and 
+l-optical isomers. d-Methamphetamine, a Schedule II controlled 
+substance, is a potent central nervous system stimulant subject 
+to illicit drug abuse, while l-methamphetamine (l-desoxyephed-
+rine) is an alpha-adrenergic stimulant available in over-the-coun-
+ter Vicks® inhalers as a nasal decongestant. Cross-reactivity of 
+l-­desoxyephedrine with the initial immunoassay screening test may 
+occur after excessive use of the Vicks inhaler (Poklis and Moore, 
+1995). Additionally, the most popular conformational GC-MS prod-
+ucts for amphetamines are achiral. Therefore, if such analyses are 
+performed, a “false-positive” result for d-methamphetamine may be 
+reported. This dilemma is easily resolved if confirmation testing is 
+done with a chiral GC-MS procedure, which can readily resolve the 
+stereoisomers of methamphetamine (Fitzgerald et al., 1988).
+HUMAN PERFORMANCE TESTING
+Forensic toxicology activities also include the determination of the 
+presence of ethanol and other drugs and chemicals in blood, breath, 
+or other specimens and the evaluation of their role in modifying 
+human performance and behavior. The most common application 
+of human performance testing is to determine impairment while 
+driving under the influence of ethanol (DUI) or drugs (DUID). 
+Although operation of a motor vehicle is a common experience to 
+most people, few appreciate the complexity of mental and physical 
+functioning involved. A driver must simultaneously coordinate fine 
+motor skills in tracking the road course and applying pressure to 
+accelerator or brake—with visual attention immediately in front, 
+to the horizon, and to the periphery of the vehicle—while continu-
+ously judging distance, speed, and appropriateness of response to 
+signals, traffic, and unexpected events. The threshold blood alco-
+hol concentration (BAC) for diminished driving performance of 
+these complex functions in many individuals is as low as 0.04 g/dL, 
+the equivalent of ingestion of two beers within an hour’s time to 
+Table 32-5  
+Urine Adulterants Detected by Chemical Test
+ADULTERANT
+DETECTION METHOD
+Acids, baking soda
+pH
+Bleach
+Smell, color test
+Detergents, diuretics, salt
+Specific gravity
+Diuretics
+Creatinine, specific gravity
+Glutaraldehyde
+Color test, gas 
+chromatography
+Nitrite
+Color test
+Pyridinium chlorochromate
+Color test, atomic absorption 
+spectrophotometry 
+(chromate), gas 
+chromatography (pyridine)
+
+1524
+Applications of Toxicology
+Unit VII
+an average size person. The statutory definition of DUI in all 50 
+states is a BAC of 0.08 g/dL; the state of Utah recently passed the 
+law that lowers the legal threshold to 0.05 g/dL, which will take 
+effect in December 2018 (Utah Department of Public Safety, n.d.). 
+These concentrations are consistent with diminished performance 
+of complex driving skills in the vast majority of individuals. Over 
+the past half century, an enormous amount of data has been devel-
+oped correlating blood ethanol concentrations with intellectual and 
+physiological impairment, particularly of the skills associated with 
+the proper operation of motor vehicles. Numerous studies have 
+demonstrated a direct relationship between an increased BAC in 
+drivers and an increased risk of involvement in vehicular acci-
+dents (Council on Scientific Affairs, 1986). For example, alcohol-
+impaired driving fatalities accounted for 28% of all motor vehicle 
+traffic fatalities in the United States in 2016 (National Highway 
+Traffic Safety Administration, 2017).
+During the past decade, there has been growing concern about 
+the deleterious effects of drugs other than ethanol on driving perfor-
+mance. Several studies have demonstrated a relatively high occur-
+rence of drugs in impaired or fatally injured drivers (White et al., 
+1981; Mason and McBay, 1984; Van der Linden et al., 2013). These 
+studies tend to report that the highest drug-use accident rates are 
+associated with the use of such illicit or controlled drugs as cocaine, 
+benzodiazepines, marijuana, and phencyclidine. However, most 
+studies test for only a few drugs or drug classes, and the repeated 
+reporting of the same drugs may be a function of limited testing. 
+Before “driving under the influence of drugs” testing is as readily 
+accepted by the courts as ethanol testing, many legal and scien-
+tific problems concerning drug concentrations and driving impair-
+ment must be resolved (Consensus Report, 1985). The ability of 
+analytical methodology to routinely quantify minute concentrations 
+of drug in blood must be established. Also, drug-induced driving 
+impairment at specific blood concentrations in controlled tests and/
+or actual highway experience must be demonstrated.
+COURTROOM TESTIMONY
+The forensic toxicologist often is called upon to testify in legal 
+proceedings. As a general rule of evidence, a witness may testify 
+only to facts known to him or her. The witness may offer opinions 
+solely on the basis of what he or she has observed (Moenssens et 
+al., 1973). Such a witness is called a “lay witness.” In contrast, the 
+toxicologist is referred to as an “expert witness.” A court recognizes 
+a witness as an expert if that witness possesses knowledge or expe-
+rience in a subject that is beyond the range of ordinary or common 
+knowledge or observation. An expert witness may provide two types 
+of testimony: objective testimony and “opinion.” Objective testi-
+mony by a toxicologist usually involves a description of his or her 
+analytical methods and findings. When a toxicologist testifies as to 
+the interpretation of his or her analytical results or those of others, 
+that toxicologist is offering an “opinion.” Lay witnesses cannot offer 
+such opinion testimony, as it exceeds their ordinary experience.
+Before a court permits opinion testimony, the witness must be 
+“qualified” as an expert in his or her particular field. In qualifying 
+someone as an expert witness, the court considers the witness’s edu-
+cation, on-the-job training, work experience, teaching or academic 
+appointments, and professional memberships and publications as 
+well as the acceptance of the witness as an expert by other courts. 
+Qualification of a witness takes place in front of the jury members, 
+who consider the expert’s qualifications in determining how much 
+weight to give to his or her opinions during their deliberations.
+Whether a toxicologist appears in criminal or civil court, work-
+ers’ compensation, or parole hearings, the procedure for testifying 
+is the same: direct examination, cross-examination, and redirect 
+examination. The attorney who has summoned the witness to testify 
+conducts direct examination. Testimony is presented in a question-
+and-answer format. The witness is asked a series of questions that 
+allow him or her to present all facts or opinions relevant to the suc-
+cessful presentation of the attorney’s case. During direct examina-
+tion, an expert witness has the opportunity to explain to the jury the 
+scientific bases of his or her opinions. Regardless of which side has 
+called the toxicologist to court, the toxicologist should testify with 
+scientific objectivity. Bias toward his or her client and prejudgments 
+should be avoided. An expert witness is called to provide informed 
+assistance to the jury. The jury, not the expert witness, determines 
+the guilt or innocence of the defendant.
+After direct testimony, the opposing attorney questions the 
+expert. During this cross-examination, the witness is challenged as 
+to his or her findings and/or opinions. The toxicologist will be asked 
+to defend his or her analytical methods, results, and opinions. The 
+opposing attorney may imply that the expert’s testimony is biased 
+because of financial compensation, association with an agency 
+involved in the litigation, or personal feelings regarding the case. 
+The best way to prepare for such challenges before testimony is to 
+anticipate the questions the opposing attorney may ask.
+After cross-examination, the attorney who called the witness 
+may ask additional questions to clarify any issues raised during 
+cross-examination. This allows the expert to explain apparent dis-
+crepancies in his or her testimony raised by the opposing attorney. 
+Often, an expert witness is asked to answer a special type of ques-
+tion, the “hypothetical question.” A hypothetical question contains 
+only facts that have been presented in evidence. The expert is then 
+asked for his or her conclusion or opinion based solely on this hypo-
+thetical situation. This type of question serves as a means by which 
+appropriate facts leading to the expert’s opinion are identified. 
+These questions are extremely long and convoluted. The witness 
+should be sure he or she understands all the facts and implications 
+in the question. Like all questions, this type should be answered as 
+objectively as possible.
+ROLE IN CLINICAL TOXICOLOGY
+Analytical toxicology in a clinical setting plays a role very similar 
+to its role in forensic toxicology. As an aid in the diagnosis and 
+treatment of toxic incidents, as well as in monitoring the effec-
+tiveness of treatment regimens, it is useful to clearly identify the 
+nature of the toxic exposure and measure the amount of the toxic 
+substance that has been absorbed. Frequently, this information, 
+together with the clinical state of the patient, permits a clinician to 
+relate the signs and symptoms observed to the anticipated effects of 
+the toxic agent. This may permit a clinical judgment as to whether 
+the treatment must be vigorous and aggressive or whether simple 
+observation and symptomatic treatment of the patient are sufficient.
+A cardinal rule in the treatment of poisoning cases is to remove 
+any unabsorbed material, limit the absorption of additional poison, 
+and hasten its elimination. The clinical toxicology laboratory serves 
+an additional purpose in this phase of the treatment by monitoring 
+the amount of the chemical remaining in circulation or measuring 
+what is excreted. In addition, the laboratory can provide the data 
+needed to permit estimations of the total dosage or the effectiveness 
+of treatment by changes in known pharmacokinetic parameters of 
+the drug or other chemical ingested.
+Although the instrumentation and the methodology used in 
+a clinical toxicology laboratory are similar to those utilized by a 
+forensic toxicologist, a major difference between these two appli-
+cations is responsiveness. In emergency toxicology testing, results
+
+Analytical and Forensic Toxicology
+Chapter 32
+1525
+must be communicated to the clinician within hours to be meaning-
+ful for therapy. A forensic toxicologist may carefully choose the 
+best method for a particular test and conduct replicate procedures 
+to assure maximum accuracy. A clinical laboratory cannot afford 
+this luxury and may sacrifice accuracy for a rapid turnaround time. 
+Additionally, because it is impossible to predict when toxicological 
+emergencies will occur, a clinical laboratory must provide rapid 
+testing 24 hours a day, every day of the year.
+Primary examples of the usefulness of emergency toxicology 
+testing are the rapid quantitative determination of acetaminophen, 
+salicylate, alcohols, and glycol serum concentrations in instances 
+of suspected overdose. Acetaminophen serum values related to the 
+time after ingestion (see Chap. 33) not only indicate an overdose, 
+but provide a prognosis for possible delayed hepatotoxicity and the 
+need to continue administration of N-acetylcysteine antidote. In 
+addition, continuous monitoring of serum values permits an accu-
+rate pharmacokinetic calculation of the ingested dose (Melethil 
+et al., 1981). Similarly, salicylate serum values related to the time 
+after ingestion may indicate an overdose, providing a prognosis for 
+possible delayed severe metabolic acidosis and the need for lifesav-
+ing dialysis treatment. Continuous monitoring of serum salicylate 
+values permits an accurate assessment of the efficacy of dialysis.
+Ethanol is the most common chemical encountered in emer-
+gency toxicology. Although relatively few fatal intoxications occur 
+with ethanol alone, serum values are important in the assessment of 
+behavioral, physiologic, and neurological function, particularly in 
+trauma cases where the patient is unable to communicate and sur-
+gery with the administration of anesthetic or analgesic drugs is indi-
+cated. Intoxications from accidental or deliberate ingestion of other 
+alcohols or glycols—such as methanol from windshield deicer or 
+paint thinner, isopropanol from rubbing alcohol, and ethylene glycol 
+from antifreeze—are often encountered in emergency departments. 
+Following ingestion of methanol or ethylene glycol, patients often 
+present with similar neurological symptoms and severe metabolic 
+acidosis due to the formation of toxic aldehyde and acid metabo-
+lites. A rapid quantitative serum determination for these intoxicants 
+will indicate the severity of intoxication and the possible need for 
+dialysis therapy. Alcohol infusion, in order to saturate the enzyme 
+alcohol dehydrogenase, blocks the conversion of methanol and eth-
+ylene glycol to their toxic metabolites. Continuous monitoring of 
+serum values not only permits an assessment of the clearance of 
+the intoxicant by dialysis, but also assures a proper infusion rate of 
+alcohol for effective antidotal concentrations (Fig. 32-7). To provide 
+effective service to the emergency department, laboratories should 
+have available chromatographic methods for the rapid separation 
+and detection of alcohols and glycols (Edinboro et al., 1993).
+The utilization of the analytical capabilities of a clinical toxicol-
+ogy laboratory has increased enormously in recent years. Typically, 
+the laboratory performs testing not only for the emergency depart-
+ment but also for a wide variety of other medical departments, as 
+drugs and toxic chemicals may be a consideration in diagnosis. 
+Urine is analyzed from substance abuse treatment facilities to moni-
+tor the administration of methadone or other therapeutic agents and/
+or to assure that patients do not continue to abuse drugs. Similarly, 
+psychiatrists, neurologists, and physicians treating patients for 
+chronic pain need to know whether patients are self-administering 
+drugs before such patients undergo psychiatric or neurological 
+examinations. Analysis for drugs of abuse in meconium and urine 
+obtained from neonates is used to corroborate the diagnosis of with-
+drawal symptoms in newborns and document fetal exposure to con-
+trolled substances. Toxic metal determinations, such as blood lead 
+concentration, are often performed to assess possible toxic metal 
+exposure or severity of toxicity. Analysis of heavy metals in 24-hour 
+urine specimens is often used to rule out toxic metal exposure as a 
+cause of symmetrical peripheral neuropathy prior to the diagnosis of 
+neurological disorders such as Guillian–Barré syndrome. The clini-
+cal toxicology laboratory may often perform unique diagnostic tests 
+that require sophisticated analytical capabilities such as GC-MS 
+and LC-MS analysis for organic acids and amino acids to detect 
+inborn errors of metabolism in infants and children. Methods for 
+the analysis of abnormal organic acids will also detect acidic drugs 
+and other intoxicants such as salicylates, ethylene glycol, GHB, and 
+valproic acid. Another such diagnostic test requiring sensitive chro-
+matography is the timed metabolism of lidocaine to its monoethylg-
+lycinexylidide (MEGX) metabolite (O’Neal and Poklis, 1996). The 
+rate of this conversion is a sensitive indicator of hepatic dysfunction 
+and is often used to assess hepatic viability in donor livers prior to 
+transplantation. MEGX formation may also be useful in monitoring 
+the severity of the histological condition of patients with chronic 
+hepatitis and cirrhosis (Shiffman et al., 1994).
+ROLE IN THERAPEUTIC MONITORING
+Historically, the administration of drugs for long-term therapy was 
+based largely on experience. A dosage amount was selected and 
+administered at appropriate intervals based on what the clinician 
+had learned was generally tolerated by most patients. If the drug 
+seemed ineffective, the dose was increased; if toxicity developed, 
+the dose was decreased or the frequency of dosing was altered. At 
+times, a different dosage form might be substituted. Establishing 
+an effective dosage regimen was particularly difficult in children 
+and the elderly.
+The factors responsible for individual variability in responses 
+to drug therapy include the rate and extent of drug absorption, dis-
+tribution, and binding in body tissues and fluids, rate of metabolism 
+and excretion, pathological conditions, and interaction with other 
+drugs (Blaschke et al., 1985). Monitoring of the plasma or serum 
+concentration at regular intervals will detect deviations from the 
+average serum concentration, which, in turn, may suggest that one 
+or more of these variables need to be identified and corrected.
+With multiple administrations of a given drug at regular 
+intervals, plasma drug concentrations will gradually increase and 
+eventually reach a plateau over the course of therapy. The plateau 
+is referred to as a steady-state condition, whereas the amount of 
+drug absorbed is in equilibrium to the amount of drug eliminated. 
+Dosage regimes are calculated so that plasma drug concentrations 
+during steady-state conditions are within the therapeutic range, and 
+monitoring such conditions assures that an effective concentration 
+3500
+3000
+2500
+2000
+1500
+1000
+500
+Concentration, mg/L
+0
+5
+10
+15
+20
+Time postingestion, h
+25
+30
+35
+40
+Ethylene glycol
+Ethanol
+Hemodialysis
+*
+*
+*
+Figure 32-7.   Serum ethylene glycol and ethanol concentrations monitored 
+during dialysis and ethanol infusion therapy. (Data from the Toxicology 
+Laboratory, Medical College of Virginia Hospital, Richmond, VA.)
+
+1526
+Applications of Toxicology
+Unit VII
+is present. For drugs that have a defined correlation between serum 
+concentrations and undesired toxic effects, the lowest serum con-
+centration immediately prior to dosing (trough) and the highest 
+expected serum concentration (peak) are monitored to assure effi-
+cacy and minimize toxicity.
+Because the drug being administered is known, qualitative 
+characterization of the analyte generally is not required. Quantitative 
+accuracy is required, however. Frequently, the methodology applied 
+is important, particularly in regard to its selectivity. For example, 
+methods that measure the parent drug and its metabolites are not 
+ideal unless the individual analytes can be quantified separately. 
+Depending on the drug, metabolites may or may not be active to 
+a different degree than the parent drug. The cardiac antiarrhyth-
+mic drug procainamide is acetylated during metabolism to form 
+N-acetylprocainamide (NAPA). This metabolite has antiarrhythmic 
+activity of almost equal potency to that of the parent drug procain-
+amide. There is bimodal genetic variation in the activity of the 
+N-acetyltransferase for procainamide, so that, in “fast acetylators,” 
+the concentration of NAPA in the serum may exceed that of the par-
+ent drug. For optimal patient management, information should be 
+available about the concentrations of both procainamide and NAPA 
+in serum (Bigger and Hoffman, 1985).
+Because absolute characterization of the analyte is not neces-
+sary for many drugs, immunoassay procedures are commonly used. 
+This is particularly true of drugs with extremely low serum concen-
+trations, such as cardiac glycosides, and drugs that are difficult to 
+extract because of a high degree of polarity, such as the aminoglyco-
+side antibiotics. In these cases, serum can be conveniently assayed 
+directly by using commercially available kits for immunoassays.
+The chromatographic methods in which an appropriate internal 
+standard is added are favored when more than one analyte is to be 
+quantified or if metabolites with structures similar to those of the 
+parent drugs must be distinguished. Because the nature of drugs is 
+varied, many different analytical techniques may be applied, includ-
+ing atomic absorption spectrophotometry for measuring lithium used 
+to treat manic disorders. Virtually all the tools of the analyst may be 
+used for specific applications of analytical toxicology. Drugs that are 
+commonly monitored during therapy are presented in Table 32-6.
+SUMMARY
+The analytical techniques employed by forensic toxicologists have 
+continued to expand in complexity and improve in reliability and 
+sensitivity. Many new analytical tools have been applied to toxico-
+logical problems in almost all areas of the field, and the technology 
+continues to open new areas of research. Forensic toxicologists con-
+tinue to be concerned about conducting unequivocal identification 
+of toxic substances in such a manner that the results can withstand 
+a legal challenge. The issues of substance abuse, designer drugs, 
+increased potency of therapeutic agents, and widespread concern 
+about pollution, and the safety and health of workers present chal-
+lenges to the analyst’s knowledge, skills, and abilities. As these 
+challenges are met, analytical toxicologists will continue to play 
+a substantial role in the expansion of the discipline of toxicology.
+ACKNOWLEDGMENTS
+The Editor and Authors acknowledge the previous contributions of 
+Randy Baselt and Robert Cravey (1st and 2nd ed), Irving Sunshine 
+(3rd ed), R.V. Blanke and Alphonse Poklis, (4th ed), and Alphonse 
+Poklis (5th to 7th ed).
+REFERENCES
+Aderjan R, Bahr H, Schmidt G. Investigation of cardiac glycoside levels 
+in human postmortem blood and tissues determined by a special RIA 
+procedure. Arch Toxicol. 1979;42:107–114.
+American Association of Poison Control Centers. Drugs used in child mal-
+treatment. Prescrire Int. 2011;20(120):236–237.
+Andresen H, Aydin BE, Mueller A, Iwersen-Bergmann S. An overview of 
+gamma-hydroxybutyric acid: pharmacodynamics, pharmacokinetics, 
+Table 32-6  
+Drugs Commonly Indicated for Therapeutic Monitoring
+Antiarrhythmics
+ Digoxin
+ Digitoxin
+ Lidocaine
+ Procainamide and N-acetylprocainamide
+ Quinidine
+Antibiotics
+ Amikacin
+ Chloramphenicol
+ Gentamicin
+ Tobramycin
+ Vancomycin
+Anticancer
+ Methotrexate
+Anticonvulsants
+ Carbamazepine
+ Gabapentin
+ Lamotrigine
+ Levetiracetam
+ Phenobarbital
+ Phenytoin
+ Primidone
+ Topiramate
+ Valproic acid
+ Zonisamide
+Antidepressants
+ Amitriptyline and nortriptyline
+ Doxepin and nordoxepin
+ Fluoxetine and norfluoxetine
+ Impramine and desipramine
+ Paroxetine
+ Sertraline and desmethylsertraline
+Antipsychotics
+ Clozapine
+ Pimozide
+Bronchodilators
+ Caffeine
+ Theophylline
+Immunosuppressants
+ Azathioprine
+ Cyclosporine
+ Mycophenolic acid
+ Sirolimus
+ Tacrolimus
+Mood stabilizing
+ Lithium
+
+Analytical and Forensic Toxicology
+Chapter 32
+1527
+toxic effects, addiction, analytical method, and interpretation of results. 
+Drug Test Anal. 2011;3(9):660–668.
+Apple FS. Postmortem tricyclic antidepressant concentrations: assessing 
+cause of death using parent drug to metabolite ratio. J Anal Toxicol. 
+1989;13:197–198.
+Barroso M, Gallardo E, Vieira DN, López-Rivadulla M, Queiroz JA. Hair: 
+a complementary source of bioanalytical information in forensic toxicol-
+ogy. Bioanalysis. 2011;3(1):67–79.
+Baselt RC. Disposition of Toxic Drugs and Chemicals in Man. 2nd ed. 
+Davis, CA: Biomedical Publications; 1982:603–606.
+Baumgartner A, Jones P, Baumgartner W. Detection of phencyclidine in 
+hair. J Forensic Sci. 1981;26:576–581.
+Baumgartner W, Jones P, Baumgartner W, Black C. Radioimmunoassay of 
+hair for determining opiate-abuse histories. J Nucl Med. 1979;20:748–752.
+Benko A. Toxicological analysis of amobarbital and glutethimide from 
+bone tissue. J Forensic Sci. 1985;30:708–714.
+Bévalot F, Gustin MP, Cartiser N, Le Meur C, Malicier D, Fanton L. 
+Interpretation of drug concentrations in an alternative matrix: the case of 
+meprobamate in vitreous humor. Int J Legal Med. 2011;25(3):463–468.
+Bidny S, Gago K, Chung P, Albertyn D, Pasin D. Simultaneous screen-
+ing and quantification of basic, neutral and acidic drugs in blood using 
+UPLC-QTOF-MS. J Anal Toxicol. 2017;41:181–195.
+Bigger JT Jr, Hoffman BF. Antiarrhythmic drugs. In: Gilman AG, Goodman 
+LS, Rall TW, Murad F, eds. The Pharmacological Basis of Therapeutics. 
+7th ed. New York: Macmillan; 1985:763.
+Blanke RV. Quality assurance in drug-use testing. Clin Chem. 1987;33:41B–45B.
+Blanke RV. Validation of the Purity of Standards. Irving, TX: Abbott 
+Laboratories, Diagnostic Division; 1989.
+Blaschke TF, Nies AS, Mamelock RD. Principles of therapeutics. In: 
+Gilman AG, Goodman LS, Rall TW, Murad F, eds. The Pharmacological 
+Basis of Therapeutics. 7th ed. New York: Macmillan; 1985:52.
+Bosker WM, Huestis MA. Oral fluid testing for drugs of abuse. Clin Chem. 
+2009;55(11):1910–1931.
+Boumba VA, Ziavrou KS, Vougiouklakis T. Hair as a biological indicator of 
+drug use, drug abuse or chronic exposure to environmental toxicants. Int 
+J Toxicol. 2006;25(3):143–163.
+Burrows DL, Nicolaides A, Rice PJ, Dufforc M, Johnson DA, Ferslew KE. 
+Papain: a novel urine adulterant. J Anal Toxicol. 2005;29(5):275–295.
+Cartiser N, Bévalot F, Fanton L, Gaillard Y, Guitton J. State-of-the-art of 
+bone marrow analysis in forensic toxicology: a review. Int J Legal Med. 
+2011;125(2):181–198.
+Cawrse BM, Levine B, Jufer RA, et al. Distribution of methylone in four 
+postmortem cases. J Anal Toxicol. 2012;36(6):434–439.
+Chapuis E. Elements de Toxicologie, 1873, cited in Peterson F, Haines WS, 
+Webster RW. Legal Medicine and Toxicology. 2nd ed. Vol 2. Philadelphia, 
+PA: WB Saunders; 1923.
+Coe JI. Postmortem chemistry update: emphasis on forensic applications. 
+Am J Forensic Med Pathol. 1993;14:91–117.
+Cone EJ, Buchwald WF, Darwin WD. Analytical controls in drug metabo-
+lism studies: 11. Artifact formation during chloroform extraction of drugs 
+and metabolites with amine substitutes. Drug Metab Dispos. 1982;10: 
+561–567.
+Consensus Report. Drug concentrations and driving impairment. JAMA. 
+1985;254:2618–2621.
+Coppola M, Mondola R. Synthetic cathinones: chemistry, pharmacology 
+and toxicology of a new class of designer drugs of abuse marketed as 
+“bath salts” or “plant food”. Toxicol Lett. 2012;211(2):144–149.
+Council on Scientific Affairs. Alcohol and the driver. JAMA. 1986;255:522–527.
+Couper FJ, McIntyre IM, Drummer OH. Detection of antidepressant and 
+antipsychotic drugs in postmortem human scalp hair. J Forensic Sci. 
+1995;40(1):87–90.
+Cravey RH, Baselt RC. The science of forensic toxicology. In: Cravey 
+RH, Baselt RC, eds. Introduction to Forensic Toxicology. Davis, CA: 
+Biomedical Publications; 1981:3–6.
+Dasgupta A. The effects of adulterants and selected ingested compounds on 
+drugs-of-abuse testing in urine. Am J Clin Pathol. 2007;128(3):491–503.
+Department of Health and Human Services, SAMHSA. Mandatory guide-
+lines for federal workplace drug testing: final guidelines—notice. Fed 
+Reg. 1988;53(69):11970–11989.
+Department of Health and Human Services, SAMHSA. Mandatory 
+guidelines for federal workplace drug testing programs. Fed Reg. 
+2017;82(13):7920–7970.
+Dinis-Oliveira RJ, Carvalho F, Duarte JA, et al. Collection of biological sam-
+ples in forensic toxicology. Toxicol Mech Methods. 2010;20(7):363–414.
+Dowling GP, McDonough ET, Bost RO. “Eve” and “ecstasy”: a report 
+of five deaths associated with the use of MDEA and MDMA. JAMA. 
+1987;257:1615–1617.
+Drummer O. Drugs in bone and bone marrow. In: Jenkins A, ed. Drug 
+Testing in Alternate Biological Specimens. Totowa, NJ: Humana Press; 
+2010:131–136:chap 8.
+Edinboro LE, Nanco CR, Soghoian DM, Poklis A. Determination of eth-
+ylene glycol in serum utilizing direct injection on a wide-bore capillary 
+column. Ther Drug Monit. 1993;15:220–223.
+ElSohly MA, Jones AB. Morphine and codeine in biological fluids: 
+approaches to source differentiation. Forensic Sci Rev. 1989;1:13–22.
+ElSohly MA, Salamone SJ. Prevalence of drugs used in cases of alleged 
+sexual assault. J Anal Toxicol. 1999;23(3):141–146.
+Ernst MF, Poklis A, Gantner GE. Evaluation of medicolegal investiga-
+tors’ suspicious and positive toxicology findings in 100 drug deaths. J 
+Forensic Sci. 1982;27:61–65.
+Evans WED. The Chemistry of Death. Springfield, IL: Charles C Thomas; 
+1963.
+Fehn J, Megges G. Detection of O6-monoacetylmorphine in urine samples 
+by GC-MS as evidence for heroin use. J Anal Toxicol. 1985;9:134–138.
+Ferrara DS, Tedeschi L, Frison G, Brusini G. Quality control in toxicologi-
+cal analysis. J Chromatogr B Biomed Sci Appl. 1998;713(1):227–243.
+Ferslew KE, Nicolaides AN, Robert TA. Determination of chromate adul-
+teration of human urine by automated colorimetric and capillary ion elec-
+trophoretic analyses. J Anal Toxicol. 2003;27(1):36–39.
+Fisher RS, Hine CH, Stetler CJ (Committee on Medicolegal Problems). 
+Alcohol and the Impaired Driver: A Manual on the Medicolegal Aspects 
+of Chemical Tests for Intoxication. Chicago, IL: American Medical 
+Association; 1968.
+Fitzgerald RL, Ramos JM, Bogema SC, Poklis A. Resolution of meth-
+amphetamine stereoisomers in urine drug testing: urinary excretion of 
+R(-)-methamphetamine following use of nasal inhalers. J Anal Toxicol. 
+1988;12:255–259.
+Flanagan RJ, Connally G, Evans JM. Analytical toxicology: guidelines for 
+sample collection postmortem. Toxicol Rev. 2005;24(1):63–71.
+Gagliano-Candela R, Aventaggiato L. The detection of toxic substances in 
+entomological specimens. Int J Legal Med. 2001;114(405):19–203.
+Gaillard Y, Pepin G. Screening and identification of drugs in human hair by high-
+performance liquid chromatography-photodiode-array UV detection and 
+mass gas chromatography-mass spectrometry after solid phase extraction. 
+A powerful tool in forensic medicine. J Chromatogr. 1997;762:251–267.
+Gallagher CT, Assi S, Stair JL, et al. 5,6-Methylenedioxy-2-aminoindane: 
+from laboratory curiosity to “legal high”. Hum Psychopharmacol. 
+2012;27(2):106–112.
+Gallardo E, Queiroz JA. The role of alternative specimens in toxicological 
+analysis. Biomed Chromatogr. 2008;22(8):795–821.
+Garriott JS, Simmons LM, Poklis A, Mackell MS. Five cases of fatal 
+overdose from caffeine-containing “look-alike” drugs. J Anal Toxicol. 
+1985;9:141–143.
+Garside D. Drugs-of-abuse in nails. In: Jenkins A, ed. Drug Testing in Alternate 
+Biological Specimens. Totowa, NJ: Humana Press; 2010:43–63:chap 3.
+George S, Braithwaite RA. The effect of glutaraldehyde adulteration of 
+urine specimens on syva EMIT II drugs-of-abuse assays. J Anal Toxicol. 
+1996;20(3):195–196.
+Gettler AD. Poisoning and toxicology, forensic aspects: Part 1: historical 
+aspects. Inform. 1977;9:3–7.
+Goff ML, Brown WA, Omori AI, LaPointe DA. Preliminary observations of 
+the effects of amitriptyline in decomposing tissue on the development of 
+Parasarcophaga ruficornis (Diptera: Sarcophagidae) and implications of this 
+effect to estimation of postmortem interval. J Forensic Sci. 1993;38:316–322.
+Goldberger BA, Huestis MA, Wilkins DG. Commonly practiced qual-
+ity control and quality assurance procedures for gas chromatography 
+mass spectrometry analysis in forensic urine drug-testing laboratories. 
+Forensic Sci Rev. 1997;9(2):59–80.
+
+1528
+Applications of Toxicology
+Unit VII
+Granger RH, Condie LW, Borzelleca JF. Effect of vehicle on the relative 
+up-take of haloalkanes administered by gavage. Toxicologist. 1987;40:1.
+Gust SW, Walsh JM. Drugs in the Workplace: Research and Evaluation 
+Data. NIDA Research Monograph 91. Washington, DC: US Government 
+Printing Office; 1989.
+Hambidge KM. Increase in hair copper concentration with increasing dis-
+tance from the scalp. Am J Clin Nutr. 1973;26:1212–1215.
+Harkey MR, Henderson GL. Hair analysis for drugs of abuse. Adv Anal 
+Toxicol. 1989;2:298–329.
+Hawks RL, Chiang CN. Examples of specific drug assays. In: Hawks RL, 
+Chiang CN, eds. Urine Testing for Drugs of Abuse. NIDA Research 
+Monograph 73. Rockville, MD: US Department Health and Human 
+Services, PHS, ADAMHA; 1986:93.
+Henderson GL. Designer drugs: past history and future prospects. J Forensic 
+Sci. 1988;33:569–575.
+Hime GW, Hearn WL, Rose S, Cofino J. Analysis of cocaine and cocaeth-
+ylene in blood and tissues by GC-NPD and GC-Ion Trap mass spectrom-
+etry. J Anal Toxicol. 1991;15:241–245.
+Inoue T, Seta S. Analysis of drugs in unconventional samples. Forensic Sci 
+Rev. 1992;4:89–107.
+Jacob P, Lewis ER, Elias-Baker BA, Jones RT. A pyrolysis product, anhy-
+droecgonine methyl ester (methylecgonidine), is in the urine of cocaine 
+smokers. J Anal Toxicol. 1990;14:353–357.
+Jaffee WB, Trucco E, Levy S, Weiss RD. Is this urine really negative? A 
+systematic review of tampering methods in urine drug screening and test-
+ing. J Subst Abuse Treat. 2007;33(1):33–42.
+Jones GR, Pounder DJ. Site-dependence of drug concentrations in postmor-
+tem blood—a case study. J Anal Toxicol. 1987;11:186–190.
+Kaempe B. Interfering compounds and artifacts in the identification of drugs 
+in autopsy material. In: Stolman A, ed. Progress in Chemical Toxicology. 
+Vol 4. New York: Academic Press; 1969:1–57.
+Kintz P. Drug testing in hair. In: Jenkins A, ed. Drug Testing in Alternate 
+Biological Specimens. Totowa, NJ: Humana Press; 2010:67–79:chap 4.
+Kronstrand R, Brinkhagen L, Birath-Karlsson C, Roman M, Josefsson M. 
+LC-QTOF-MS as a superior strategy to immunoassay for the compre-
+hensive analysis of synthetic cannabinoids in urine. Anal Bioanal Chem. 
+2014;406:3599–3609.
+Kronstrand R, Druid H. Hair in postmortem toxicology. In: Kintz P, ed. 
+Analytical and Practical Aspects of Drug Testing in Hair [International 
+Science and Forensic Investigation]. Boca Raton, FL: CRC Press; 
+2006:223–240:chap 10.
+Lanaro R, Costa JL, Fernandes LC, Resende RR, Tavares MF. Detection of 
+paraquat in oral fluid, plasma, and urine by capillary electrophoresis for 
+diagnosis of acute poisoning. J Anal Toxicol. 2011;35(5):274–279.
+Larson SJ, Holler JM, Magluilo J Jr, Dunkley CS, Jacobs A. Papain adulter-
+ation in 11-nor-delta9-tetrahydrocannabinol-9-carboxylic acid-positive 
+urine samples. J Anal Toxicol. 2008;32(6):438–443.
+LeBeau M, Andollo W, Hearn WL, et al. Recommendations for toxico-
+logical investigation of drug-facilitated sexual assaults. J Forensic Sci. 
+1999;44:227–230.
+LeBeau M, Montgomery MA, Brewer JD. The role of variations in growth 
+rate and sample collection on interpreting results of segmental analyses 
+of hair. Forensic Sci Int. 2011;210(1–3):110–116.
+Lewis SA, Lewis LA, Tuinman A. Potassium nitrite reaction with 11-nor-
+delta-9-tetrahydrocannabinol-9-carboxylic acid in urine in relation to 
+drug screening analysis. J Forensic Sci. 1999;44:951–955.
+Marigo M, Tagliaro F, Poiesi C, Lafisca S, Neri C. Determination of mor-
+phine in the hair of heroin addicts by high performance liquid chroma-
+tography with fluorometric detection. J Anal Toxicol. 1986;10:158–161.
+Martin BR, Lue LP, Boni JP. Pyrolysis and volatilization of cocaine. J Anal 
+Toxicol. 1989;13:158–162.
+Martz R. The identification of cocaine in hair by GC-MS and MS/MS. 
+Crime Lab Dig. 1988;15:67–73.
+Mason AP, McBay AJ. Ethanol, marijuana, and other drug use in 600 driv-
+ers killed in single-vehicle crashes in North Carolina. J Forensic Sci. 
+1984;29:987–1026.
+McKenzie JM. Alteration of zinc and copper concentration of hair. Am J 
+Clin Nutr. 1978;31:470–476.
+Melethil S, Poklis A, Schwartz HS. Estimation of the amount of drug 
+absorbed in acetaminophen poisoning: a case report. Vet Hum Toxicol. 
+1981;23:421–423.
+Mills RA, Millis CD, Dannan GA, et al. Studies on the structure-activity 
+relationships for the metabolism of polybrominated biphenyls by rat liver 
+microsomes. Toxicol Appl Pharmacol. 1985;78:96–104.
+Moenssens AA, Moses RE, Inbau FE. Scientific Evidence in Criminal 
+Cases. Mineola, NY: Foundation Press; 1973.
+Moore KA, Daniel J, Fierro M, et al. Detection of a metabolite of α-benzyl-
+N-methylphenylamine synthesis in a mixed drug fatality involving meth-
+amphetamine. J Forensic Sci. 1996a;41:524–526.
+Moore KA, Ismaiel A, Poklis A. α-Benzyl-N-methylphenethylamine 
+(BNMPA) an impurity of illicit methamphetamine synthesis: III. 
+Detection of BNMPA and metabolites in urine from methamphetamine 
+users. J Anal Toxicol. 1996b;20:89–92.
+Muller C, Vogt S, Goerke R, Kordon A, Weinmann W. Identification of 
+selected psychopharmaceuticals and their metabolites in hair by LC/ESI-
+CID/MS and LC/MS/MS. Forensic Sci Int. 2000;113(1–3):415–421.
+Murray JB. Munchausen syndrome/Munchausen syndrome by proxy. J 
+Psychol. 1997;131:343–352.
+National Highway Traffic Safety Administration, Traffic safety facts—2016 
+data: alcohol-impaired driving, DOT HS 812 450, October 2017.
+O’Donnell JK, Halpin J., Mattson CL, Goldberger BA, Gladden RM. Deaths 
+involving fentanyl, fentanyl analogs, and U-47700—10 States, July-
+December 2016. MMWR Morb Mortal Wkly Rep. 2017;66:1197–1202.
+O’Neal CL, Poklis A. A sensitive HPLC assay for the simultaneous quan-
+titation of lidocaine and its metabolites; monoethylglycinexylididie and 
+glycinexylidide in serum. Clin Chem. 1996;42:330–331.
+Oral R, Bayman L, Assad A, et al. Illicit drug exposure in patients evaluated for 
+alleged child abuse and neglect. Pediatr Emerg Care. 2011;27(6):490–495.
+Palmeri A, Pichini S, Pacifici R, Zuccaro P, Lopez A. Drugs in nails: physi-
+ology, pharmacokinetics and forensic toxicology. Clin Pharmacokinet. 
+2000;38(2):95–110.
+Panel on Herbicides. Report on 2,4,5-T. In: A Report of the Panel on 
+Herbicides of the President’s Science Advisory Committee. Executive 
+Office of the President, Office of Science and Technology. Washington, 
+DC: US Government Printing Office; 1971.
+Pasin D, Cawley A, Bidny S, Fu S. Current applications of high-resolution 
+mass spectrometry for the analysis of new psychoactive substances: a 
+critical review. Anal Bioanal Chem. 2017; Epub ahead of print.
+Paul BD. Six spectroscopic methods for detection of oxidants in urine: 
+implication in differentiation of normal and adulterated urine. J Anal 
+Toxicol. 2004;28(7):599–608.
+Peters FT, Drummer OH, Musshoff F. Validation of new methods. Forensic 
+Sci Int. 2007;165(2-3):216–224.
+Petersen F, Haines WS, Webster RW. Legal Medicine and Toxicology. Vol 2. 
+2nd ed. Philadelphia, PA: WB Saunders; 1923.
+Pien K, Laloup M, Pipeleers-Marichal M, et al. Toxicological data and 
+growth characteristics of single post-feeding larvae and puparia of 
+Calliphora vicina (Diptera: Calliphoridae) obtained from a controlled 
+nordiazepam study. Int J Legal Med. 2004;118(4):190–193.
+Poklis A. Pentazocine/tripelennamine (T’s and blues) abuse: a five year 
+survey of St. Louis, Missouri. Drug Alcohol Depend. 1982;10:257–267.
+Poklis A, MacKell MA. Toxicological findings in deaths due to pentazo-
+cine: a report of two cases. Forensic Sci Int. 1982;20:89–95.
+Poklis A, Mackell MA, Graham M. Disposition of cocaine in a fatal poison-
+ing in man. J Anal Toxicol. 1985;9:227–229.
+Poklis A, Mackell MA, Tucker EF. Tissue distribution of lidocaine after 
+fatal accidental injection. J Forensic Sci. 1984;29:1229–1236.
+Poklis A, Moore KA. Response of EMIT amphetamine immunoassays to 
+urinary desoxyephedrine following Vicks inhaler use. Ther Drug Monit. 
+1995;17:89–94.
+Poklis A, Saady JJ. Arsenic poisoning: acute or chronic? Suicide or murder? 
+Am J Forensic Med Pathol. 1990;11:226–232.
+Pounder DJ. Forensic entomo-toxicology. J Forensic Sci Soc. 1991;31: 
+469–472.
+Pragst F, Balikova MA. State of the art in hair analysis for detection of drug 
+and alcohol abuse. Clin Chim Acta. 2006;370(1–2):17–49.
+
+Analytical and Forensic Toxicology
+Chapter 32
+1529
+Pragst F, Rothe M, Hunger J, Thor S. Structural and concentration effects 
+on the deposition of tricyclic antidepressants in human hair. Forensic Sci 
+Int. 1997;84(1–3):225–236.
+Price LM, Poklis A, Johnson DE. Fatal acetaminophen poisoning with 
+evidence of subendocardial necrosis of the heart. J Forensic Sci. 
+1991;36:930–935.
+Prosser JM, Nelson LS. The toxicology of bath salts: a review of synthetic 
+cathinones. J Med Toxicol. 2012;8(1):33–42.
+Prouty BS, Anderson WH. The forensic science implications of site and 
+temporal influences on postmortem blood-drug concentrations. J 
+Forensic Sci. 1990;35:243–270.
+Puschel K, Thomasch P, Arnold W. Opiate levels in hair. Forensic Sci Int. 
+1983;21:181–186.
+Rollins DE, Wilkins DG, Gygi SP, Slawson MH, Nagasawa PR. Testing for 
+drugs of abuse in hair—experimental observations and indications for 
+future research. Forensic Sci Rev. 1997;9:23–25.
+Rosenbaum CD, Carreiro SP, Babu KM. Here today, gone tomorrow . . . and 
+back again? A review of herbal marijuana alternatives (K2, Spice), syn-
+thetic cathinones (bath salts), kratom, Salvia divinorum, methoxetamine, 
+and piperazines. J Med Toxicol. 2012;8(10):15–32.
+Ross EA, Reisfield GM, Watson MC, Chronister CW, Goldberger BA. 
+Psychoactive “bath salts” intoxication with methylenedioxypyrova-
+lerone. Am J Med. 2012;125:854–858.
+Saady JJ, Narasimhachari N, Friedel RO. Unsuspected impurities in imip-
+ramine and desipramine standards and pharmaceutical formulations. Clin 
+Chem. 1981;27:343–344.
+San George RC, Hoberman RD. Reaction of acetaldehyde with hemoglo-
+bin. J Biol Chem. 1986;261:6811–6821.
+Schroeder HA, Nason AP. Trace metals in human hair. J Invest Dermatol. 
+1989;53:71–78.
+Scientific Working Group for Forensic Toxicology. Standard practices 
+for method validation in forensic toxicology. J Anal Toxicol. 2013;37: 
+452–474.
+Seely KA, Lapoint J, Moran JH, Fattore L. Spice drugs are more than 
+harmless herbal blends: a review of the pharmacology and toxicology 
+of synthetic cannabinoids. Prog Neuropsychopharmacol Biol Psychiatr. 
+2012;39(2):234–243.
+Shapiro HA. Arsenic content of human hair and nails: its interpretation. J 
+Forensic Med. 1967;14:65–71.
+Shen M, Xiang P, Wu H, Shen B, Huang Z. Detection of antidepressant and 
+antipsychotic drugs in human hair. Forensic Sci Int. 2002;126(2):153–161.
+Shiffman ML, Luketic VA, Sanyal AJ, et al. Hepatic lidocaine metabo-
+lism and liver histology in patients with chronic hepatitis and cirrhosis. 
+Hepatology. 1994;31:933–940.
+Skopp G. Preanalytic aspects in postmortem toxicology. Forensic Sci Int. 
+2004;142(2–3):75–100.
+Smith H. The interpretation of the arsenic content of human hair. J Forensic 
+Sci Soc. 1964;4:192–199.
+Society of Forensic Toxicologists. Available at: www.soft-tox.org/dfcc.
+Spiehler V. Society of Forensic Toxicology Conference on Drug Testing in 
+Hair; October 29, 1994; Tampa, FL.
+Spiehler V, Cooper G. Drugs-of-abuse testing in saliva and oral fluid. In: 
+Jenkins A, ed. Drug Testing in Alternate Biological Specimens. Totowa, 
+NJ: Humana Press; 2010:83–95:chap 5.
+Stockham TL, Blanke RV. Investigation of an acetaldehyde-hemoglobin 
+adduct in alcoholics: alcoholism. Clin Exp Res. 1988;12:748–754.
+Strang J, Marsh A, Desouza N. Hair analysis for drugs of abuse. Lancet. 
+1990;26:740.
+Suzuki O, Hattori H, Asano M. Nails and hair as useful material for detec-
+tion of methamphetamine of amphetamine abuse. Forensic Sci Int. 
+1984;24:9–16.
+Thorwald J. The Century of the Detective. New York: Harcourt; 1965.
+Tsanaclis LM, Wicks JF, Chasin AA. Workplace drug testing, different 
+matrices different objectives. Drug Test Anal. 2012;4:83–88.
+Urey FM, Komaromy-Hiller G, Staley B, et al. Nitrite adulteration of work-
+place urine drug-testing specimens: Part 1: sources and associated con-
+centrations of nitrite in urine and distinction between natural sources and 
+adulteration. J Anal Toxicol. 1998;22:89–95.
+Utah Department of Public Safety. Commissioner Squires releases infor-
+mation on .05 BAC change. n.d. Available at: https://publicsafety.utah.
+gov/2017/03/31/commissioner-squires-releases-information-on-05- 
+bac-change/.
+Van der Linden T, Isalberti C, Silverans P, Legrand SA, Verstraete AG. 
+Comparison of drug concentrations measured in roadside surveys and in 
+seriously injured drivers in Belgium. Drug Test Anal. 2013;5:541–548.
+Villain M, Concheiro M, Cirimele V, Kintz P. Screening method for ben-
+zodiazepines and hypnotics in hair at pg/mg level by liquid chroma-
+tography-mass spectrometry/mass spectrometry. J Chromatogr B Anal 
+Technol Biomed Life Sci. 2005;825(1):72–78.
+Vorpahl TE, Coe JI. Correlation of antemortem and postmortem digoxin 
+levels. J Forensic Sci. 1978;23:329–334.
+Warren A. Interference of common household chemicals in immunoassay 
+methods for drugs of abuse. Clin Chem. 1989;35:648–651.
+White JM, Clardy MS, Groves MH, et al. Testing for sedative-hypnotic 
+drugs in the impaired driver: a survey of 72,000 arrests. Clin Toxicol. 
+1981;18:945–957.
+Wu AH, Gerona R, Armenian P, French D, Petrie M, Lynch LK. Role of 
+liquid chromatography-high-resolution mass spectrometry (LC-HR/MS) 
+in clinical toxicology. Clin Toxicol (Phila). 2012;50:733–742.
+Yamaguichi S, Matsumoto H, Kaku S, Tateishi M, Shiramizu M. Factors 
+affecting the amount of mercury in human scalp hair. Am J Pub Health. 
+1975;65:484–488.
+Yang SH, Morgan AA, Nguyen HP, Moore H, Figard BJ, Schug KA. 
+Quantitative determination of bisphenol A from human saliva using 
+bulk derivatization and trap-and-elute liquid chromatography coupled 
+to electrospray ionization mass spectrometry. Environ Toxicol Chem. 
+2011;30(6):1243–1251.
+Yegles M, Mersch F, Wennig R. Detection of benzodiazepines and 
+other psychotropic drugs in human hair in GC-MS. Forensic Sci Int. 
+1997;84(1–3):211–218.
+Yin S. Malicious use of pharmaceuticals in children. J Pediatr. 
+2010;157(5):832–836.
+
+This page intentionally left blank

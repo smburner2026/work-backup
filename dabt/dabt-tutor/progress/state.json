@@ -1,0 +1,225 @@
+{
+  "session": {
+    "number": 2,
+    "date": "2025-05-14",
+    "mode": "drill",
+    "questions_drilled": 20,
+    "questions_correct": 5,
+    "questions_asked_ids": [
+      "not-tracked"
+    ],
+    "note": "Session 1 completed before Hermes migration. Question IDs not tracked. Starting fresh tracking from Session 2."
+  },
+  "cumulative": {
+    "by_domain": {
+      "domain-i-conduct-of-studies": {
+        "correct": 0,
+        "total": 7
+      },
+      "domain-ii-mechanistic-tox": {
+        "correct": 2,
+        "total": 3
+      },
+      "domain-iii-risk-assessment": {
+        "correct": 1,
+        "total": 7
+      },
+      "domain-iv-applied-tox": {
+        "correct": 2,
+        "total": 3
+      }
+    },
+    "by_subdomain": {},
+    "by_bloom": {
+      "remember-understand": {
+        "correct": 2,
+        "total": 10
+      },
+      "apply": {
+        "correct": 2,
+        "total": 9
+      },
+      "analyze": {
+        "correct": 1,
+        "total": 1
+      }
+    },
+    "by_topic": {
+      "Mechanisms of Toxicity": {
+        "correct": 1,
+        "total": 1
+      },
+      "Risk Assessment & Regulatory": {
+        "correct": 1,
+        "total": 2
+      },
+      "Carcinogenesis & Mutagenesis": {
+        "correct": 2,
+        "total": 3
+      },
+      "Metals & Metalloids": {
+        "correct": 1,
+        "total": 3
+      },
+      "Drugs & Therapeutics \u2013 Toxicology": {
+        "correct": 0,
+        "total": 1
+      },
+      "Hematology & Blood Toxicity": {
+        "correct": 0,
+        "total": 1
+      },
+      "Liver / Hepatotoxicity": {
+        "correct": 0,
+        "total": 1
+      },
+      "Toxicokinetics / ADME": {
+        "correct": 0,
+        "total": 1
+      },
+      "Immunotoxicology / Allergy": {
+        "correct": 0,
+        "total": 2
+      },
+      "Pesticides \u2013 Insecticides": {
+        "correct": 0,
+        "total": 1
+      },
+      "Nervous System / Neurotoxicity": {
+        "correct": 0,
+        "total": 1
+      },
+      "General Principles & Concepts": {
+        "correct": 0,
+        "total": 1
+      },
+      "Skin / Dermatotoxicity": {
+        "correct": 0,
+        "total": 1
+      },
+      "Eye / Ocular Toxicity": {
+        "correct": 0,
+        "total": 1
+      }
+    }
+  },
+  "weak_intersections": [
+    {
+      "domain": "domain-iv-applied-tox",
+      "bloom": "remember-understand",
+      "topic": "Metals & Chelation Therapy",
+      "misses": 1
+    },
+    {
+      "domain": "domain-i-conduct-of-studies",
+      "bloom": "apply",
+      "topic": "Antiviral MOA / Acyclovir-Genotoxicity",
+      "misses": 1
+    },
+    {
+      "domain": "domain-iii-risk-assessment",
+      "bloom": "remember-understand",
+      "topic": "Hematology & Blood Toxicity",
+      "misses": 1
+    },
+    {
+      "domain": "domain-iii-risk-assessment",
+      "bloom": "apply",
+      "topic": "Metals & Metalloids",
+      "misses": 1
+    },
+    {
+      "domain": "domain-i-conduct-of-studies",
+      "bloom": "remember-understand",
+      "topic": "Liver / Hepatotoxicity",
+      "misses": 1
+    },
+    {
+      "domain": "domain-i-conduct-of-studies",
+      "bloom": "remember-understand",
+      "topic": "Toxicokinetics / ADME",
+      "misses": 1
+    },
+    {
+      "domain": "domain-ii-mechanistic-tox",
+      "bloom": "apply",
+      "topic": "Carcinogenesis & Mutagenesis",
+      "misses": 1
+    },
+    {
+      "domain": "domain-iii-risk-assessment",
+      "bloom": "apply",
+      "topic": "Immunotoxicology / Allergy",
+      "misses": 1
+    },
+    {
+      "domain": "domain-iii-risk-assessment",
+      "bloom": "remember-understand",
+      "topic": "Pesticides \u2013 Insecticides",
+      "misses": 1
+    },
+    {
+      "domain": "domain-i-conduct-of-studies",
+      "bloom": "remember-understand",
+      "topic": "Immunotoxicology / Allergy",
+      "misses": 1
+    },
+    {
+      "domain": "domain-i-conduct-of-studies",
+      "bloom": "remember-understand",
+      "topic": "Nervous System / Neurotoxicity",
+      "misses": 1
+    },
+    {
+      "domain": "domain-iii-risk-assessment",
+      "bloom": "remember-understand",
+      "topic": "General Principles & Concepts",
+      "misses": 1
+    },
+    {
+      "domain": "domain-iii-risk-assessment",
+      "bloom": "apply",
+      "topic": "Risk Assessment & Regulatory",
+      "misses": 1
+    },
+    {
+      "domain": "domain-i-conduct-of-studies",
+      "bloom": "apply",
+      "topic": "Skin / Dermatotoxicity",
+      "misses": 1
+    },
+    {
+      "domain": "domain-i-conduct-of-studies",
+      "bloom": "apply",
+      "topic": "Eye / Ocular Toxicity",
+      "misses": 1
+    }
+  ],
+  "deep_dived_topics": [
+    {
+      "topic": "metals-foundations",
+      "date": "2026-05-14",
+      "artifact": "deep-dives/2026-05-14-metals-foundations-dive.md",
+      "coverage": ["HSAB theory", "chelator matrix", "thiol chemistry", "metal toxicity mechanisms", "blood lead thresholds", "chromium exception"]
+    }
+  ],
+  "confidence_calibration": "well-calibrated",
+  "asked_question_ids": [
+    "DABT-0234",
+    "DABT-0273",
+    "DABT-0111",
+    "DABT-0157",
+    "DABT-0427",
+    "DABT-0294",
+    "DABT-0403",
+    "DABT-0258",
+    "DABT-0036",
+    "DABT-0369",
+    "DABT-0141",
+    "DABT-0078",
+    "DABT-0233",
+    "DABT-0391",
+    "DABT-0336"
+  ],
+  "deduplication_ids": []
+}

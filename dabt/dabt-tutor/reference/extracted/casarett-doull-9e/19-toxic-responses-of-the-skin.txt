@@ -1,0 +1,2964 @@
+# 19 Toxic Responses of the Skin
+# Casarett & Doull's Toxicology, 9th Edition
+# Pages: 972-995
+# Unit: Unit IV Target Organ Toxicity
+
+19
+chapter
+Toxic Responses of the Skin
+Donald V. Belsito
+INTRODUCTION
+As the body’s first line of defense against external insult, the skin’s 
+vast surface area (1.5 to 2 m2) is repeatedly exposed to chemical 
+assaults and other types of injuries. As such, it may serve as a portal 
+of entry for topical contactants. Recognizing the potential hazards 
+of skin exposure, the National Institute of Occupational Safety and 
+Health (NIOSH) characterizes skin disease as one of the most per-
+vasive occupational health problems in the United States. In 2012, 
+NIOSH ranked skin disease as the second leading work related ill-
+ness based on frequency, and estimated its annual cost at greater 
+than 1 billion dollars (NIOSH, 2017a). Although substantial reduc-
+tion in the reported incidence has occurred in recent years due to 
+better workplace environments and personal protective equipment, 
+further improvements in prevention and management are clearly 
+needed. Skin conditions resulting from occupational or consumer 
+exposures not resulting in lost work are poorly recorded. Hence, 
+their incidence is likely to be greatly underestimated.
+NIOSH recently changed its cutaneous categorization to 
+more accurately reflect the risks to workers after topical exposures 
+(NIOSH, 2017b). Previously, inhalation exposures were thought to 
+produce the most risk to workers, with skin exposure being only 
+a secondary pathway. The new guidelines reflect increased under-
+standing of several mechanisms by which skin exposure can lead to 
+disease: systemic toxicity via skin absorption (SYS), direct effects 
+that damage the skin (DIR), and immune-mediated responses to 
+chemicals that contact the skin (SEN). The new notations utilize 
+these categories to designate hazard specific skin exposures, and 
+have incorporated standardized criteria to allow for consistency in 
+how chemicals are designated. Determining the hazard potential of 
+a particular chemical is based upon physicochemical properties of 
+the substance, toxicokinetic studies, epidemiological data, in vitro 
+or in vivo laboratory testing, and in silico computational predic-
+tions. These criteria are specified in the revised chemical designa-
+tion issued by NIOSH (NIOSH, 2017b).
+SKIN AS A BARRIER
+A large (10% of body mass) and highly accessible organ, the skin 
+protects the body against external insults, thus maintaining homeo-
+stasis. Its biochemical properties allow it to perform a myriad of 
+functions beyond that of barrier. Physiologically, the skin partici-
+pates directly in thermal, electrolyte, hormonal, metabolic, anti-
+microbial, and immune regulation. Rather than merely repelling 
+noxious agents, the skin may react to them with a variety of defen-
+sive mechanisms preventing widespread cutaneous and/or internal 
+injuries. If an insult is severe or sufficiently intense to overwhelm 
+the protective function of the skin, acute or chronic injury manifests 
+in various ways. The specific presentation depends upon a variety 
+of intrinsic and extrinsic factors (Belsito, 1989) including body 
+site, duration of exposure, other environmental conditions, and the 
+physicochemical properties of the insult (Table 19-1).
+Skin Histology
+The skin consists of two major components: the outer epidermis 
+and the underlying dermis, which are separated by a basement 
+membrane (Fig. 19-1). The junction ordinarily is not flat, but rather 
+Introduction
+Skin as a Barrier
+Skin Histology
+Percutaneous Absorption
+Transdermal Drug Delivery
+Measurements of Penetration
+Biotransformation
+Contact Dermatitis
+Irritant Dermatitis
+Chemical Burns (Corrosion)
+Acute Irritation
+Chronic Cumulative Irritant 
+­Dermatitis
+Allergic Contact Dermatitis
+Immunoregulation
+Diagnosis and Testing
+Photosensitivity
+Phototoxicity
+Photoallergy
+In Vitro Determination 
+of Phototoxicity and 
+Photoallergenicity
+Endogenous Photosensitivities
+Other Responses to 
+Electromagnetic Radiation
+Urticaria
+Pigmentary Disturbances
+Hypopigmentation
+Acne
+Chloracne
+Granulomatous Disease
+Sclerodermatous Skin Disorders
+Toxic Epidermal Necrolysis
+Hair
+Skin Cancer
+UV-Induced Skin Cancer
+Chemically Induced Skin Cancers
+Skin Tumor Promotion
+Arsenic
+Acknowledgments
+References
+
+954
+TARGET ORGAN TOXICITY
+Unit IV
+Table 19-1 
+Factors Influencing Cutaneous Responses
+VARIABLE
+COMMENT
+Body site
+ Palms/soles
+Thick stratum corneum—good physical barrier
+Common site of contact with chemicals
+Occlusion with protective equipment
+Intertriginous areas (axillae, groin, neck,  
+finger webs, umbilicus, and genitalia)
+Moist, occluded areas
+Chemical trapping
+Enhanced percutaneous absorption
+ Face
+Exposed frequently
+Surface lipid interacts with hydrophobic substances
+Chemicals frequently transferred from hands
+ Eyelids
+Poor barrier function—thin epidermis
+Sensitive to irritants/allergens
+ Postauricular area
+Chemical trapping
+Occlusion
+ Scalp
+Chemical trapping
+Hair follicles susceptible to metabolic damage
+Predisposing cutaneous illnesses
+ Atopic dermatitis
+Increased sensitivity to irritants
+Impaired barrier function
+ Psoriasis
+Impaired barrier function
+Genetic factors
+Predisposition to skin disorders
+Variation in sensitivity to irritants
+Susceptibility to contact sensitization
+Temperature
+Vasodilation—improved percutaneous absorption
+Increased sweating—trapping
+Humidity
+Increased sweating—trapping
+Season
+Variation in relative humidity
+Chapping and wind-related skin changes
+Stratum corneum
+Stratum granulosum
+Stratum spinosum
+Stratum
+germinativum
+Sweat duct
+Sweat gland
+Blood vessel
+Connective tissue
+Fat
+Hair follicle
+Capillary
+Dermis
+Epidermis
+Muscle
+Sebaceous gland
+Figure 19-1.   Diagram of a cross-section of human skin. The epidermis and 
+pilosebaceous units are shown in pink and purple.
+undulating (rete ridges). In addition, epidermal appendages (hair 
+follicles, sebaceous glands, and eccrine glands) span the epider-
+mis and embed into the dermis. In thickness, the dermis com-
+prises approximately 90% of the skin, and largely has a supportive 
+function. It has a high content of collagen and elastin secreted by 
+fibroblasts, thus providing the skin with resilience and elasticity. 
+Separating the dermis from underlying tissues is a layer of fat (adi-
+pocytes), whose accumulation of lipids has a cushioning and ther-
+moregulatory action. The blood supply to the epidermis originates 
+in the capillaries located in the rete ridges at the dermoepidermal 
+junction. Capillaries also supply the bulbs of the hair follicles and 
+the secretory cells of the sebaceous and eccrine glands. The ducts 
+from the eccrine glands carry a dilute salt solution to the surface 
+of the skin, where its evaporation provides thermoregulation. The 
+ducts of the sebaceous gland provide a protective oil covering to 
+the skin.
+The interfollicular epidermis is stratified squamous epithe-
+lium consisting primarily of keratinocytes. These cells are tightly 
+attached to each other by desmosomes and to the basement mem-
+brane by hemidesmosomes. Melanocytes, whose melanin granules 
+give the skin its color, are interspersed among the basal cells and 
+distributed in the papillae of hair follicles. Migrating through the 
+epidermis are numerous Langerhans cells, which are dendritic, anti-
+gen presenting cells involved in the immune response of skin to 
+foreign xenobiotics.
+
+Toxic Responses of the Skin
+Chapter 19
+955
+The cellular composition of the epidermis is dominated by the 
+keratinocyte. Keratinocytes of the basal layer comprise the germi-
+native component. When a basal cell divides, one of the progeny 
+detaches from the basal lamina and migrates upwards. As cells 
+move toward the skin surface, they undergo a programmed ter-
+minal differentiation, gradually expressing new protein markers, 
+and accumulating keratin proteins. These keratins form insoluble 
+intermediate filaments, which account for nearly 40% of the total 
+cellular protein in the spinous layer of the epidermis. At the granu-
+lar layer of the epidermis, keratinocytes undergo a striking mor-
+phological transformation, becoming flattened and increasing in 
+volume nearly 40-fold. Lipid granules fuse with the plasma mem-
+brane at the granular layer/stratum corneum interface, filling the 
+intercellular spaces of the stratum corneum with lipid, as opposed 
+to the aqueous intercellular environment of the underlying viable 
+epidermis. These surface lipids perform a variety of defensive func-
+tions, both in preventing diffusion of water and ions out of the body, 
+and preventing access of toxicants and bacteria into the skin (Elias, 
+2005). Meanwhile, the plasma membranes of the now moribund 
+keratinocytes become permeable, lose their reducing environment, 
+and undergo extensive disulfide bonding of the keratin proteins. 
+Cell organelles are degraded, while a protein envelope is synthe-
+sized immediately beneath the plasma membrane. These membrane 
+alterations are characterized by the loss of phospholipids and the 
+addition of sphingolipids.
+This programmed terminal differentiation and cell death, 
+beginning as keratinocytes leave the basal layer, produces the outer 
+most layer of the skin, the stratum corneum. No longer viable, the 
+mature cells (called corneocytes) are approximately 80% keratin 
+in content. They are gradually shed from the surface and replaced 
+from beneath. Epidermal turnover typically takes 28 days: 2 weeks 
+for basal cells to reach the stratum corneum, and another 2 weeks 
+to be shed from the surface. In psoriasis, the migration of cells to 
+the surface is nearly 10-fold faster than normal, resulting in a stra-
+tum corneum populated by cells that are not completely mature. 
+In instances in which the outer layer is deficient due to disease 
+(e.g., atopic dermatitis) or physicochemical trauma, the barrier to 
+the environment that the skin provides is suboptimal (Elias and 
+Schmuth, 2009).
+Percutaneous Absorption
+During the past 50 years, the stratum corneum has been recognized 
+as the primary barrier (Scheuplein and Blank, 1971). Diseases (e.g., 
+atopic dermatitis) or other conditions (e.g., abrasions/wounding) in 
+which this barrier is compromised can permit greatly increased 
+uptake of poorly permeable substances, as does removal of the 
+stratum corneum by tape stripping (under experimental conditions) 
+or organic solvents such as toluene (in occupational settings). The 
+viable layer of epidermis provides a much less protective barrier 
+than does the stratum corneum, because hydrophilic chemicals 
+can readily diffuse into the intercellular water, while hydrophobic 
+chemicals can partition into the cell membranes, and each can gain 
+access to the blood supply in the rete ridges of the dermis.
+The stratum corneum is the perfect biologic membrane to 
+prevent water loss from underlying tissues by evaporation. Its 
+hydrophobic characteristics result from the lipid content of its 
+intercellular spaces, approximately 15% of the total volume (Elias, 
+1992). The lipids, a major component being sphingolipids, have a 
+high content of long chain ceramides, removal of which seriously 
+compromises barrier function as measured by transepidermal water 
+loss (TEWL). The stratum corneum is hydrated (approximately 
+20% water), the moisture residing in its protein content. However, 
+the stratum corneum can take up a great deal more water upon pro-
+longed immersion, thereby reducing the effectiveness of the barrier 
+to hydrophilic chemicals. Indeed, occlusion of the skin with imper-
+meable wraps, permitting the retention of perspiration underneath, 
+is commonly employed to enhance uptake of chemicals, particularly 
+medications, applied to the skin’s surface. Although penetration 
+from air is generally too low to be of concern, protection from skin 
+uptake may be advisable for some compounds (e.g., organophos-
+phates) at concentrations sufficient to require respiratory protection.
+Finding the rate at which the uptake of xenobiotics through 
+the skin occurs is important for estimating the consequences of 
+exposure to the many agents encountered environmentally. Uptake 
+through the skin is now incorporated into pharmacokinetic model-
+ing to estimate potential risks from exposures. The degree of uptake 
+depends upon exposure conditions, and is typically proportional to 
+solute concentration (assuming it has been diluted), time, and the 
+exposed skin surface. In addition, intrinsic factors contribute to the 
+absorption rate of a given compound; most notably, its hydropho-
+bicity that affects its ability to partition into the epidermal lipid and 
+its rate of diffusion through the corneal barrier. A measure of hydro-
+phobicity is the commonly used octanol/water partitioning ratio 
+(Kow). However, partitioning of a chemical into the skin is greatly 
+affected by its solubility in, or adhesion to, the medium in which 
+it is contained (including soil). Similarly, very hydrophobic com-
+pounds, once in the stratum corneum, may diffuse only very slowly 
+into the less hydrophobic regions below. Another important factor 
+relates to molecular weight, where there is an inverse relationship 
+with absorption. Thus, hydrophobic agents of low molecular weight 
+permeate the skin better than those of high-molecular-weight, or 
+low-molecular-weight hydrophilic agents. For small molecules, 
+hydrophobicity is the dominant factor in penetration.
+Although only small amounts of chemical may penetrate the 
+stratum corneum, those particularly potent may lead to significant 
+systemic effects (Table 19-2). Previous findings of percutaneous 
+N-nitrosamines absorption (e.g., N-nitrosodiethanolamine) from 
+cosmetics raised concerns, and led to their monitoring in consumer 
+products (Fan et al., 1977). Children and adolescents harvesting 
+tobacco have been found to be especially susceptible to poison-
+ing by contact with nicotine, a natural pesticide present in the 
+leaves (McKnight and Spiller, 2005). Conditions of topical treat-
+ment of livestock for pest control must take into consideration not 
+only the tolerance of the animals, but also the residuals in meat 
+and milk resulting from skin penetration. High level skin exposure 
+to chemicals considered safe at low levels can be dangerous (e.g., 
+the nervous system toxicity and deaths of infants exposed to hexa-
+chlorophene mistakenly added to talcum powder for their diapers 
+[Martin-Bouyer et al., 1982]). Percutaneous toxicity in neonates 
+is of particular concern given their increased body surface area to 
+weight, the known skin barrier defects in premature infants, and 
+controversy surrounding at what point in the neonatal process the 
+cutaneous barrier is fully mature.
+Considerable empirical information has been collected on 
+some compounds of particular interest (pharmaceuticals, pesticides, 
+and pollutants) to allow for in silico quantification of penetration 
+based upon structural/activity relationships. Thus, mathematical 
+formulas to estimate skin penetration (Pcw) have been put forward 
+using empirically derived constants (C1, C2, C3) as noted below 
+(Potts and Guy, 1992).
+log
+log
+(
+)
+P
+C
+C
+C
+K
+cw
+ow
+MW
+=
+−
++
+1
+2
+3
+Such relations describe steady-state conditions, in which a 
+chemical leaves the stratum corneum at the same rate it enters.
+
+956
+TARGET ORGAN TOXICITY
+Unit IV
+Because rates of transfer of various hydrophobic chemicals into the 
+aqueous phase of the spinous layer are slow, saturation of the stra-
+tum corneum can provide a depot leading to continued penetration 
+into the body for relatively long periods after external exposure to 
+a given chemical has stopped. Recognition that such estimates over 
+predict uptake from short exposures has led to modeling of limited 
+doses (Guy, 2010a).
+Diffusion through the epidermis is considerably faster at some 
+anatomical sites than others. A list in order of increasing permea-
+bility gives the following: foot/sole, palm, forehead, and abdomen 
+(Scheuplein and Blank, 1971). Scrotal skin has the highest perme-
+ability for most topical chemicals (Fisher, 1989). Under ordinary 
+conditions, absorption through the epidermal appendages is usually 
+neglected, despite the ability of chemicals to bypass the stratum cor-
+neum by this route, because the combined appendageal surface area 
+is a relatively small fraction of the total available area for uptake. 
+However, if loading of the stratum corneum is slow, penetration 
+through the appendages can constitute an appreciable fraction of the 
+total amount following short exposures. In some cases, the effects of 
+appendageal absorption can even be dominant. For example, benzo[a]
+pyrene penetrates the skin of haired mice severalfold faster than that 
+of hairless strains (Kao and Hall, 1987). The hair follicles thus serve 
+as important routes of entry for hydrophilic agents, and could poten-
+tially be exploited for therapeutic purposes (Otberg et al., 2008).
+Transdermal Drug Delivery  The ability of the stratum corneum 
+to serve as a reservoir for exogenously applied chemicals is the basis 
+for transdermal delivery of pharmaceuticals. Application of drugs 
+to the skin can produce systemic affects, a phenomenon observed 
+unintentionally before the ability of the skin to serve as a delivery 
+system was appreciated. For example, topical exposure of young 
+girls to estrogen has led to reports of pseudoprecocious puberty, 
+while in young males, such exposure has produced gynecomastia 
+(Amin et al., 1998). Transfer of topically applied hormonal medica-
+tion from a treated to an untreated individual has been reported to 
+cause adverse effects (Busse and Maibach, 2011).
+Eloquently designed patches are currently used to deliver an 
+increasing number of different drugs (including estradiol, testos-
+terone, nitroglycerin, scopolamine, etc.) for therapeutic purposes 
+(Guy, 2010b). The advantage of the transdermal approach over oral 
+dosing include (a) providing a steady infusion of drug over extended 
+periods, thereby avoiding large variations in plasma concentrations; 
+(b) preventing exposure to the acidic pH of the stomach, thus pre-
+venting biodegradation; and (c) avoiding biotransformation in the 
+gastrointestinal tract from first pass removal by the liver. The con-
+trast in plasma concentration kinetics between different methods 
+of delivery is evident for chemicals that are rapidly metabolized, 
+such as nitroglycerin, which has a half-life of minutes. A vari-
+ety of chemicals, chosen to minimize irritation and allergenicity, 
+have been incorporated into the delivery systems of pharmaceu-
+tical preparations to enhance absorption and penetration. In addi-
+tion, encapsulation of drug into small vesicles of phospholipids/
+nonionic surfactants (micelles) and nanoparticle technologies can 
+improve delivery through the epidermis and hair follicles (Desai et 
+al., 2010). Finally, various microneedle systems (Prausnitz et al., 
+2009) have been used to deliver drugs, vaccines, and gene therapy 
+across the skin; these systems have been critical to the delivery of 
+insulin to brittle diabetics (continuous glucose monitoring devices).
+Measurements of Penetration  Traditionally, a pharmacoki-
+netic approach to penetration has used experimental animals. To 
+simplify determination of penetration kinetics, skin flaps have been 
+employed and the capillary blood-flow monitored. For this purpose, 
+pig skin was useful (Riviere and Brooks, 2005). Because penetra-
+tion through rodent skin is usually faster than through human skin, 
+the former can provide an overestimate for behavior of the latter. 
+Therefore, human skin grafts onto athymic mice have been used 
+to minimize species differences, since human skin survives well 
+on athymic mice and retains its normal barrier properties. For 
+risk assessment and pharmaceutical design, the most useful sub-
+ject for experimentation is, of course, human. In pharmaceutical 
+studies, volunteers are dosed, plasma and/or urine concentrations 
+are quantified at suitable intervals, and amounts excreted from the 
+body are estimated. Previously, isotopic labels were used coupled 
+with an ultrasensitive detection by accelerator mass spectrometry 
+(Buchholz et al., 1999). For in vitro work, there is one European 
+Center for the Validation of Alternative Methods (ECVAM) 
+model that has been accepted by the Organisation for Economic 
+Co-operation and Development (OECD TG 428). In this procedure, 
+skin static or flow-through diffusion cells consisting of rat, pig, or 
+human skin are used under standardized in vitro conditions. This 
+accepted OECD test guideline (OECD TG 428) is not only for cos-
+metic testing, but also for regulatory issues. In this model, various 
+concentrations of the test substance are typically used to reflect the 
+realistic range of potential human exposures: normally 1 to 5 mg/
+cm2 of skin for a solid and up to 10 µL/cm2 for liquids. The temper-
+ature is kept constant because fluctuations could affect the passive 
+diffusion of chemicals. The absorption of a test substance during a 
+given time period (normally 24 hours) is measured by analysis of 
+the receptor fluid and the distribution of the test substance within 
+the skin. However, the guideline is not very specific and additional 
+recommendations for the conduct of dermal absorption studies have 
+Table 19-2 
+Percutaneous Systemic Toxicity
+Neurotoxicity
+Hexachlorophene
+Organophosphates
+Lindane
+Acrylamide
+Epichlorohydrin
+n-Hexane
+Methyl hexane derivatives  
+(Lucel-7)
+Methyl-n-butyl ketone
+Lead tetraethyl
+Musk tetralin (AETT)
+Reproductive Toxicity
+Formamides
+Glycol ethers
+Hexachlorophene
+Benzene
+Chlorinated hydrocarbons
+Carcinogenicity
+Chemicals found unsafe for use 
+in cosmetics by the Cosmetic 
+Ingredient Review due to the 
+potential for percutaneous 
+­carcinogenicity:
+HC Blue No. 1
+4-Methoxy-m-Phenylenediamine 
+& salts
+Pyrocatechol
+Possibly Disperse Yellow 3: 
+­dermal absorption data needed  
+to assess the safety because  
+Disperse Yellow 3 has 
+­carcinogenic potential.
+
+Toxic Responses of the Skin
+Chapter 19
+957
+been provided by European Scientific Committee on Consumer 
+Safety (SCCS, 2016). Indeed, for dermal absorption, key factors 
+such as xenobiotic permeability, octanol/water partition coefficient 
+(Kow), the partition coefficient (Log P), acid dissociation constant 
+(pKa), and molecular weight are being used for in silico methods, 
+which have not yet been validated.
+Biotransformation  The ability of the skin to metabolize chemi-
+cals that diffuse through it contributes to its barrier function. Phase 
+I metabolism of skin usually is only a small fraction (approximately 
+3%) of that in the liver (Rolsted et al., 2008), but it is capable of 
+affecting the outcome of exposure. Biotransformation influences 
+the biological activity of xenobiotics and can result in skin sensiti-
+zation, carcinogenesis, or other toxicities (Svensson, 2009). While, 
+overall, these activities are normally low, they can be induced (or 
+suppressed). In fact, a significant fraction of the pharmaceuti-
+cals used in clinical dermatology are cytochrome P450 inducers, 
+inhibitors, or substrates (Ahmad and Mukhtar, 2004). Well-known 
+xenobiotic inducers of these isozymes include tetrachlorodibenzo-
+p-dioxin (TCDD), polycyclic aromatic hydrocarbons, and coplanar 
+polychlorinated biphenyls. Exposure to such inducers could influ-
+ence skin biotransformation, and even sensitize epidermal cells to 
+chemicals that are not good inducers by themselves, a phenomenon 
+observable in vivo and in vitro cell cultures (Walsh et al., 1995).
+Biotransformation of a variety of compounds in the skin has 
+been detected, including arachidonic acid derivatives, steroids, reti-
+noids, amines, and polycyclic aromatic hydrocarbons, suggesting 
+that multiple P450 activities are expressed. Using sensitive meth-
+odologies, it is now evident that numerous distinct isoenzymes are 
+expressed at varying levels in the skin. Greater than 30 CYP genes 
+have been detected by DNA microarray and real-time polymerase 
+chain reaction (Luu-The et al., 2009; Hu et al., 2010). In addition 
+to the P450 cytochromes, other phase I enzymes expressed in the 
+skin include flavin-dependent monooxygenases, aldehyde dehydro-
+genases, carboxylesterases, and glutathione peroxidases (Hu et al., 
+2010). The extent to which phases I and II metabolism influences 
+sensitization to exogenous chemicals may rationalize species differ-
+ences in the allergic response (Svensson, 2009).
+Enzymes participating in phase II metabolism are expressed 
+in skin. Several isozymes, such as UDP glucuronosyltransferase, 
+sulfotransferase, and glutathione S-transferase, have been detected 
+in human (Luu-The et al., 2009; Hu et al., 2010) and rodent skin 
+(Oesch et al., 2007). In general, these activities occur at a lower rate 
+than observed in the liver, but exceptions are evident, as in the case 
+of quinone reductase (Khan et al., 1987). Various species express 
+different relative amounts of the various isoenzymes, which could 
+alter resulting target specificities or degrees of responsiveness.
+A variety of other metabolic enzyme activities have also 
+been detected in human epidermal cells, including sulfatases, 
+β-glucuronidase, N-acetyl transferases, esterases, and reductases 
+(Luu-The et al., 2009; Hu et al., 2010). In addition, the intercellular 
+region of the stratum corneum has catabolic activities, for example, 
+protease, lipase, glycosidase, and phosphatase (Elias, 1992). The 
+epidermis and pilosebaceous units are important drug targets, and 
+are the major sources of biotransformation in the skin. As a result, 
+they are most susceptible to the toxic effects of external xenobiotics. 
+However, other cell types (such as fibroblasts) can also actively bio-
+transform, helping to rationalize observation that organotypic cell 
+cultures containing underlying fibroblasts resemble natural skin to 
+a better extent than those without fibroblasts, especially when using 
+these cell cultures to estimate biotransformation (Gibbs et al., 2007; 
+Luu-The et al., 2009; Hu et al., 2010). The development of these 
+“3D skin models” has stimulated in vitro methods to replace animal 
+testing of cosmetics and other potential skin toxicants.
+CONTACT DERMATITIS
+Overall, contact dermatitis falls into two major categories: irritant 
+and allergic (Watkins and Maibach, 2009). Both involve inflamma-
+tory processes and can have indistinguishable clinical characteris-
+tics of erythema (redness), induration (thickening and firmness), 
+scaling (flaking), and vesiculation (blistering) in areas of direct 
+contact with the chemical. Biopsies from affected sites of allergic 
+contact dermatitis reveal a mixed inflammatory cellular infiltrate 
+of lymphocytes, histiocytes and eosinophils, as well as spongio-
+sis (intercellular edema), but often are insufficient to distinguish 
+this conditions from chronic cumulative irritant contact dermatitis 
+(the most frequent subtype) or from other eczematous dermatitides. 
+Indeed, allergic and chronic cumulative irritant contact dermatitis 
+may coexist. For example, cement is alkaline and hygroscopic, pro-
+ducing chronic irritation, and may contain hexavalent chromium, 
+an allergen.
+Irritant Dermatitis
+Accounting for nearly 80% of all contact dermatitis, irritant derma-
+titis arises from the direct action of agents on the skin. A chemical 
+in this category is anticipated to give an adverse reaction to anyone 
+if the concentration is high enough, the amount supplied sufficient, 
+and the exposure conditions (frequency and duration) long enough. 
+Irritant dermatitis can be broadly subcategorized as corrosive 
+(chemical burns), acute, and chronic cumulative irritation.
+Information on the irritancy of chemicals toward human skin 
+has traditionally been obtained using laboratory animals (mice, rats, 
+rabbits, and guinea pigs). The prototypical methodology has been 
+Draize testing for irritation (Draize et al., 1944), which produces 
+few false negatives (type II errors), but many false positives (type I 
+errors). In this methodology, 0.5 ml (liquid) or 0.5 g (solid) of the 
+target material is applied to a 1×1" gauze patch onto abraded and 
+intact skin for 24 hours. Six or more albino rabbits or guinea pigs 
+(Hartley) are used and the patches secured to immobilized animals 
+wrapped with an impervious membrane. After 24 hours, the patches 
+are removed and scored for the following endpoints:
+	 1.	 Erythema and eschar: 0 = none; 1 = barely perceptible; 2 = 
+well-defined; 3 = moderate to severe; 4 = severe w/ or w/out 
+eschar
+	 2.	 Edema: 0 = none; 1 = barely perceptible; 2 = slight with 
+edges well-defined; 3 = moderate, less than 1 mm; 4 = severe, 
+more than, or equal to 1 mm
+The irritancy is determined numerically depending upon the 
+final cumulative scores on abraded and normal skin: less than 0.9 = 
+nonirritating; 1 to 1.9 = mildly irritating, safe with limitations; and 
+more than or equal to 2 = irritating.
+For development of new cosmetics, particularly in the 
+European Union, a great need exists for an in vitro system to deter-
+mine the potential for irritant responses. Since 2004, animal tests 
+are prohibited in the EU for cosmetic products. Animal tests have 
+also been banned for cosmetic ingredients (European Council and 
+Parliament Regulation, 2009). The currently accepted in vitro meth-
+ods for assessment of the different subtypes of irritant contact der-
+matitis are reviewed below.
+Chemical Burns (Corrosion)  A chemical burn produces imme-
+diate coagulative necrosis resulting in considerable tissue damage 
+with ulceration and sloughing. Also referred to as a severe 2nd or 
+3rd degree burn, it does not have a primary inflammatory compo-
+nent. Examples of such include burns from strong acids and alka-
+lies, ethylene oxide, and other severe dermatotoxicants. Examples
+
+958
+TARGET ORGAN TOXICITY
+Unit IV
+are shown in Figs. 19-2A and B. If the chemical is not quickly and 
+completely removed, damage to the skin may continue and, with 
+increased access to the circulation, systemic injury can occur. Table 
+19-3 lists some important corrosive agents found in the occupa-
+tional setting.
+Given its severity, in vitro models for corrosion were con-
+sidered essential given the EU’s stance on animal testing. Five 
+validated in vitro alternatives are included in the EU regulations 
+for skin corrosion testing, mainly the TER (rat skin transcutane-
+ous electrical resistance test; OECD TG 430) and tests on recon-
+structed human epidermis (EpiSkinTM, EpiDermTM, SkinEthicTM, 
+and epiCS® (Netzlaff et al., 2005; OECD TG 431 and TG 435). 
+In the TER, a liquid (150 μL) or solid (“sufficient to cover sur-
+face”) target material is applied to rat skin for 24 hours. At that 
+time, electrical resistance is measured and corrosivity assessed as 
+follows: TER more than 5 kΩ, noncorrosive; less than 5 kΩ, corro-
+sive. Unfortunately, TER is not applicable to surfactants or neutral 
+organics. In the reconstructed epidermal models, liquid (500 μL) or 
+solid (500 mg) target material is applied to the reconstructed model 
+and either “breakthrough time” or cell viability is used as an index 
+for corrosivity. Details of these methodologies can be found in the 
+OECD documents and in Almeida et al. (2017).
+Acute Irritation  Certain chemicals at sufficient concentration 
+can produce an acute irritant response, sometimes called a 1st 
+degree or mild 2nd degree chemical burn. These acute irritants 
+include acid, alkalies, and oxidizing or reducing chemicals that 
+substantially disrupt the cornified layer producing cytotoxicity 
+directly. In 2003, ECVAM started analyzing skin irritation valida-
+tion models using the previously described “3D models.” In 2007, 
+the EpiSkinTM and EpiDermTM models were approved by ECVAM 
+to replace the in vivo Draize irritation test. A number of in vitro skin 
+irritation models have now been officially validated in the OECD 
+guidelines (OECD TG 439), such as EpiSkinTM, EpiDermTM, and 
+SkinEthicTM RHEA. In these systems, 25 μL/cm2 (liquid) or 25 
+mg/cm2 (solid) is applied for 3 hours and cell viability assessed, 
+typically using mitochondrial dehydrogenases to reduce the vital 
+dye MTT. Depending upon the methodology, different viability 
+endpoints are used. A detailed description of these models can be 
+found in the OECD guideline and in Almeida et al. (2017).
+Chronic Cumulative Irritant Dermatitis  The most common 
+irritation is chronic cumulative from repeated exposures to mild irri-
+tants such as soaps, detergents, solvents, and cutting oils. An exam-
+ple from cutting oil is shown in Fig. 19-2C. Currently, there is no 
+A
+E
+H
+I
+J
+F
+G
+B
+C
+D
+Figure 19-2.   Examples of occupational skin toxicity. (A) Burn from ethylene oxide; (B) Burn from alkali exposure; (C) chronic cumulative irritant contact 
+dermatitis from cutting oil; (D) atopic dermatitis; (E) allergic contact dermatitis to dichromate; (F) phototoxicity from lime juice; (G) leukoderma from rubber 
+antioxidants; (H) post-inflammatory hyperpigmentation following allergic contact dermatitis due to mercaptobenzothiazole; (I) acne from cutting oil; and (J) 
+beryllium granulomas. The panels, available at the NIOSH Web site (http://www.cdc.gov/niosh/ocderm1.html), are a small selection from the 140-slide NIOSH 
+program “Occupational Dermatoses—A Program for Physicians” prepared by Drs E. Shmunes, M. M. Key, J. B. Lucas, and J. S. Taylor.
+
+Toxic Responses of the Skin
+Chapter 19
+959
+in vitro test to predict chronic cumulative irritation. This typically 
+has been done using human volunteers in what has been termed the 
+Human Repeat Insult Patch Test (HRIPT; McNamee et al., 2008).
+In addition to chemical irritants, chronic friction and trauma 
+can mechanically damage the stratum corneum, leading to further 
+loss of its cohesiveness. As a result, the penetration of exogenous 
+chemicals is enhanced at sites of barrier damage. Some chemicals 
+may elicit subsequent toxic effects not evident when the barrier is 
+intact; for example, polyethylene glycol in burn patients (Herold 
+et al., 1982).
+The skin at some anatomic sites is more easily irritated than at 
+other sites, which can be demonstrated by measurement of TEWL 
+(Murahata et al., 1986). The eyelids have a thin epidermis and are 
+quite sensitive. Furthermore, the back is more sensitive than the 
+forearm (Zhai et al., 2004). Individuals can vary greatly in their 
+sensitivity to irritant dermatitis, especially the chronic cumulative 
+variety. Although certain genetic contributions to irritant dermatitis 
+have been more clearly defined (Liang et al., 2016), the influence 
+of age and gender remain controversial (reviewed in Belsito, 2005).
+Patients with atopic dermatitis (Fig. 19-2D) are especially 
+prone to irritation. The incidence of atopic dermatitis is increasing 
+rapidly in industrialized societies. Reports of its incidence in the 
+pediatric population within these societies vary widely, but gener-
+ally exceed 20% (Pols et al., 2016). Atopic individuals are not only 
+more sensitive to irritants, but exhibit a propensity to produce spe-
+cific IgE antibodies to allergens, and typically suffer from hayfever 
+and allergic asthma. These individuals usually have a higher fre-
+quency of persistent contact dermatitis than non-atopics (Nethercott 
+and Holness, 1994). Atopic dermatitis has a strong genetic compo-
+nent. In many atopics, defects in the intermediate filament aggregat-
+ing protein, filaggrin, among other defective genetic barrier genes, 
+are detectable (Palmer et al., 2006; Liang et al., 2016).
+Allergic Contact Dermatitis
+Allergic contact dermatitis (ACD) is a delayed (T-cell mediated) 
+hypersensitivity reaction (Gell and Coombs Type IV immune 
+response). To induce sensitization through the skin, chemical hap-
+tens generally penetrate the lipid barrier and, to be detected by the 
+immune system, attach themselves to carrier proteins. The complete 
+antigens are processed by Langerhans cells (epidermal dendritic 
+cells) and displayed on their surfaces with major histocompatibility 
+complex II molecules. Following migration to the paracortical area 
+of the draining lymph nodes, the Langerhans cells present the pro-
+cessed peptide to naive T-helper cells (Th0) with specific receptors 
+for the complexed allergen. This antigen presentation leads to the 
+release of a variety of interferons, growth factors, and chemokines, 
+which result in a proliferation of a specific clone of sensitized Th1 
+(Belsito, 2008). This phase of the response is termed the induction, 
+during which, over a 1 to 3 week period, memory T-cells are gener-
+ated and enter the circulation.
+Upon subsequent exposure to a specific antigen that has pre-
+viously been recognized by the immune system, a more vigorous 
+and rapid response occurs due to homing of specific memory T 
+cells to the skin, where they release cytokines and chemokines that 
+attract a variety of other nonspecific inflammatory cells. This phase 
+of the immune response is termed elicitation, which may develop 
+within hours to several days following antigenic exposure (Mark 
+and Slavin, 2006). The “delay” in the response depends upon the 
+potency and amount of allergen applied (Friedmann, 2007). The 
+resultant epidermal spongiosis (intercellular edema) and perivascu-
+lar dermal infiltrate of lymphohistiocytic cells is characteristic, but 
+not pathognomonic, of ACD.
+Thousands of chemicals have been reported to give rise to 
+allergic contact dermatitis, many across a variety of occupations and 
+consumer products. Table 19-4 lists some common contact aller-
+gens, four of which, among other potent allergens, are shown in 
+Fig. 19-3. Because most chemicals in the universe are only weakly 
+active or infrequently encountered, much effort has focused on find-
+ing the major allergens in the population by systematic patch testing 
+of patients presenting with suspected allergic contact dermatitis. 
+Although not measuring sensitivity in the general population, these 
+results are useful.
+Table 19-3 
+Selected Chemicals Causing Skin Burns
+CHEMICAL
+COMMENT
+Ammonia
+Potent skin corrosive
+Contact with compressed gas can 
+cause frostbite
+Calcium oxide (CaO)
+Severe chemical burns
+Extremely exothermic reaction—
+dissolving in water can cause 
+heat burns
+Chlorine
+Liquid and concentrated vapors 
+cause cell death and ulceration
+Ethylene oxide
+Solutions and vapors may burn
+Compressed gas can cause frostbite
+Hydrogen chloride 
+(HCl)
+Severe burning with scar formation
+Hydrogen fluoride (HF)
+Severe, painful, slowly healing 
+burns from high concentration
+Lower concentration causes de-
+layed cutaneous injury
+Systemic absorption can lead to elec-
+trolyte abnormalities and death
+Calcium-containing topical medica-
+tions and quaternary ammonium 
+compounds are used to limit 
+damage
+Hydrogen peroxide
+High concentration causes severe 
+burns and blistering
+Methyl bromide
+Liquid exposure produces blistering 
+and deep burns
+Nitrogen oxides
+Moist skin facilitates the forma-
+tion of nitric acid causing severe 
+yellow-colored burns
+Phosphorus
+White phosphorus continues to burn 
+on skin in the presence of air
+Phenol
+Extremely corrosive even in low 
+concentrations
+Systemic absorption through burn 
+sites may result in cardiac arrhyth-
+mias, renal disease, and death
+Sodium hydroxide
+High concentration causes deep 
+burns, readily denatures keratin
+Toluene diisocyanate
+Severe burns with contact
+Contact rarely may also result in re-
+spiratory and/or skin sensitization
+
+960
+TARGET ORGAN TOXICITY
+Unit IV
+Table 19-4 
+Common Contact Allergens
+SOURCE
+COMMON ALLERGENS
+Antibiotics
+Therapeutics
+Topical medications
+Bacitracin
+Neomycin
+Polymyxin
+Aminoglycosides
+Sulfonamides
+Benzocaine
+Corticosteroids
+Preservatives
+Others
+Personal care products
+Formaldehyde
+Formaldehyde releasers
+ • Quaternium-15
+ • Imidazolidinyl urea
+ • Diazolidinyl urea
+ • DMDM hydantoin
+ • 2-bromo-2-nitropropane-1,3-diol
+Methylchloroisothiazolone/ 
+Methylisothiazolinone (MCI/MI)
+Ethylenediamine
+Lanolin
+p-Phenylenediamine
+Propylene glycol
+Fragrances
+Plants and trees
+Mixtures:
+ • Balsam of Peru
+ • Rosin (colophony)
+Defined chemical structure:
+ • Pentadecylcatechols (poison ivy/oak/sumac)
+ • Sesquiterpene lactones
+ • Tuliposide A
+Antiseptics
+Chlorhexidine
+Chloroxylenol
+Dichlorophene
+Glutaraldehyde
+Hexachlorophene
+Thimerosal (merthiolate)
+Mercurials
+Triphenylmethane dyes
+Rubber products
+Diphenylguanidine
+Hydroquinone
+Mercaptobenzothiazole
+p-Phenylenediamine derivatives
+Resorcinol monobenzoate
+Benzothiazolesulfenamides
+Dithiocarbamates
+Thiurams
+Leather
+Formaldehyde
+Glutaraldehyde
+Hexavalent chromium
+Cobalt
+Glues and bonding agents
+Bisphenol A/Epichlorohydrin
+Phenol formaldehyde resins
+Acrylic monomers
+Cyanoacrylates
+Epoxy resins
+Toluene sulfonamide resins
+Urea formaldehyde resins
+Metals
+Chromium
+Cobalt
+Gold
+Nickel
+The chemicals chosen for patch testing vary with the geo-
+graphic location to account for local exposures. Additionally, the 
+choice may be directed to specific anatomic sites, such as the foot 
+(Shackelford and Belsito, 2002). Panels may also be adapted to 
+detect emerging trends, as new products appear and others decline 
+in use. Table 19-5 lists the 25 materials most commonly giving posi-
+tive results in recent patch tests conducted by the North American 
+Contact Dermatitis Group (deKoven et al., 2017). The increasing 
+prevalence of reactions to nickel, especially among younger sub-
+jects (Zug et al., 2014), likely reflects increasing exposure, espe-
+cially through body piercing (Warshaw et al., 2014). A number of 
+agents (nickel, chromium, paraphenylenediamine, and formalde-
+hyde) have shown high prevalence of reactivity for several decades, 
+while others, once thought innocuous, have more recently become 
+recognized as reactive, as evidenced by the recent epidemic of 
+methylisothiazolinone allergy (Urwin and Wilkinson, 2013). The 
+high prevalence of allergic contact dermatitis to metals has raised 
+concern about possible reactions to metallic surgical implants. 
+(Basko-Plluska et al., 2011; Guenther et al., 2016). An example 
+of contact allergy to hexavalent chromium in cement is shown in 
+Fig. 19-2E.
+Sensitization to ingredients in topical preparations is a com-
+mon problem and one that changes as formulations evolve (Pascoe 
+et al., 2010). As with other consumer products, reduction in use of 
+the most prevalent allergenic chemicals, and their replacement by 
+less allergenic substitutes in topicals, is advocated. Caution in using 
+less characterized chemicals as a replacement must be exercised, 
+because their allergenicity may not become evident until they reach 
+large populations of users, as has happened in several prominent 
+cases (Uter et al., 2005). For example, methyldibromo glutaronitrile
+
+Toxic Responses of the Skin
+Chapter 19
+961
+OH
+C15H27
+OH
+NH2
+NH2
+Tetramethylthiuram
+2,4-Dinitrochlorobenzene
+2-Mercaptobenzothiazole
+Pentadecylcatechol
+Urushiol antigen in Toxicodendron
+(poison ivy, oak, sumac, and others)
+Pentaerythritol triacrylate
+p-Phenylenediamine
+NO2
+Cl
+NO2
+N
+S
+SH
+H3C
+H3C
+CH3
+CH3
+C
+S
+S
+N
+N
+S
+C
+S
+CH2OCOCH
+CH2
+C(CH2OCOCH
+CH2)2
+CH2OH
+Figure 19-3.   Structural formulas of some potent contact sensitizers.
+Table 19-5 
+Prevalence of Positive Reactions in Patch Test Patients: The Top 25 Allergens
+ALLERGEN
+PATIENTS WITH POSITIVE  
+PATCH TEST REACTIONS (%)
+Nickel sulfate hexahydrate, 2.5% pet
+20.1
+Fragrance mix I, 8.0% pet
+11.9
+Methylisothiazolinone, 0.2% aq
+10.9
+Neomycin sulfate, 20.0% pet
+8.4
+Cobalt (ii) chloride hexahydrate, 1.0% pet
+7.4
+Bacitracin, 20.0% pet
+7.4
+Myroxylon pereirae resin (balsam of Peru), 25.0% pet
+7.2
+Formaldehyde, 2.0% aq
+7.0
+p-Phenylenediamine base, 1.0% pet
+7.0
+MCI/MI, 0.01% aq
+6.4
+Fragrance mix II, 14.0% pet
+5.7
+Lanolin alcohol (Amerchol L 101), 50% pet
+5.4
+Quaternium-15, 2.0% pet
+4.8
+Carba mix, 3.0% pet
+4.8
+Iodopropynyl butylcarbamate, 0.5% pet
+4.7
+Diphenylguanidine, 1.0% pet
+3.8
+Methyldibromo glutaronitrile/phenoxyethanol (Euxyl K 400), 2.0% pet
+3.7
+Oleamidopropyl dimethylamine, 0.1% aq
+3.5
+Thiuram mix, 1.0% pet
+3.1
+Propylene glycol, 100.0% aq
+2.8
+2-Hydroxyethyl methacrylate
+2.6
+Potassium dichromate, 0.25% pet
+2.2
+Tixocortol-21-pivalate, 1.0% pet
+2.1
+2-Bromo-2-nitropropane-1,3-diol (Bronopol), 0.5% pet
+2.1
+Benzophenone-4, 10.0% pet
+2.1
+SOURCE: Data from deKoven et al. (2017).
+
+962
+TARGET ORGAN TOXICITY
+Unit IV
+was introduced as a replacement preservative in combination with 
+phenoxyethanol. In initial screens, this combination did not cause 
+allergic contact dermatitis. However, upon widespread use, methyl-
+diboromo glutaronitrile was shown to be a significant contact aller-
+gen in Europe (Kynemund Pedersen et al., 2004), and subsequently 
+it has been removed from the European cosmetic market.
+Unlike contact irritants, where the response is generally pro-
+portional to the applied dose and time, contact allergens can elicit 
+reactions at very small doses. In contrast, at significantly higher 
+doses, saturation of the response, or even inhibition (tolerance), 
+may become evident (Marker and Thomsen, 1986). Nevertheless, 
+careful analysis from human and animal testing (Friedmann, 2007) 
+show that a higher dose confers a greater likelihood of sensitiza-
+tion to a given allergen. Moreover, the dose dependence for the 
+induction of sensitization displays nonlinearity, suggesting that the 
+response is sub-linear, and probably sigmoidal (Friedmann, 2007). 
+These observations have practical implications: as the number of 
+cosmetic preservatives becomes more restrictive due to regulatory 
+activities, especially in the European Union, the likelihood increases 
+that a given biocide will be used in more products and/or at higher 
+concentrations in a given product, and that this higher cumulative 
+exposure will result in sensitization to what otherwise are weak 
+allergens, a phenomenon referred to as the Dillarstone effect.
+Immunoregulation  Although animal studies have shown strain 
+(presumably genetic) variation in cell-mediated immunity, the evi-
+dence for a genetic influence in humans has been slight. Skog (1958) 
+found that 5% of a defined population could not be sensitized to 
+dinitrochlorobenzene and suggested that this was due to inheritance. 
+In another study, significant genetic association with the capacity 
+to become sensitized to para-nitrosodimethylaniline was reported 
+(Walker et al., 1967). However, multiple attempts to correlate HLA 
+haplotype and other factors (including T-cell receptor genes) with 
+nickel sensitivity or other contact allergies have yielded conflicting 
+results. In atopic dermatitis, gene variants are thought to contrib-
+ute to the observed abnormalities in innate and adaptive immune 
+responses (Liang et al., 2016). Nonetheless, definitive evidence of a 
+genetic predisposition to ACD in humans has been meager, probably 
+because of the diverse genetic pool and the limitations of technology.
+The route of primary sensitization has a profound effect on the 
+subsequent immunologic response. Sulzberger (1929) demonstrated 
+that intracardiac injection of neoarsphenamine induced tolerance 
+rather than sensitization. Tolerance induction has also been reported 
+after primary oral ingestion of allergens (Chase, 1946), as well as 
+after primary epicutaneous application of allergens to areas defi-
+cient in HLA-DR-positive Langerhans cells (Elmets et al., 1983). 
+The exact mechanism by which tolerance ensues is controversial, 
+and may depend on the route of exposure (oral, intravenous, epi-
+cutaneous, or intraperitoneal) and the precise subset of dendritic 
+cells responsible for antigen presentation (Akbari and Umetsu, 
+2005). There are data to suggest that the expression of indoleamine 
+2,3-dioxygenase, an intracellular heme-enzyme that catalyzes oxi-
+dative catabolism of indole rings by dendritic cells, results in sup-
+pression of T cell responses and promotion of tolerance (Mellor and 
+Munn, 2004). In general, either induction of hapten-specific CD4+/
+CD25+ or Th3 suppressor T cells (Elmets et al., 1983; Girolomoni 
+et al., 2004; Cavani, 2005) and/or clonal deletion of the responding 
+T cells (Nossal, 1991) seems responsible for the observed tolerance. 
+Readers interested in a better understanding of the mechanism(s) of 
+tolerance induction are referred elsewhere. (Girolomoni et al., 2004; 
+Akbari and Umetsu, 2005; Cavani, 2005).
+Aged individuals have been shown to have various defects 
+in the induction and/or elicitation of ACD (Kwangsukstith and 
+Maibach, 1995). The precise reason is unknown and many aspects 
+of cell-mediated responses are likely involved (Belsito et al., 1987). 
+Experiments in which contact-sensitized aged mice were injected 
+with naive young T cells and subsequently demonstrated normal 
+responses upon antigenic challenge suggest that a failure of T cell 
+amplification signals and/or the generation of sufficient T effec-
+tor cells may be among the primary deficiencies in aged animals 
+(Belsito and Possick, 1988).
+The competency of immune responses in children is also con-
+troversial (Kwangsukstith and Maibach, 1995). In the past, it was 
+thought that children rarely developed ACD because of an immature 
+immune system and that patch testing of children with standard 
+concentrations of allergens resulted in a high percentage of irri-
+tant reactions (Marcussen, 1963). However, other data suggest that 
+patch testing of children with the allergens commercially available 
+in the United States does not result in increased, and confounding, 
+irritant responses (Rietschel et al., 1990; Zug et al., 2014). Of note, 
+Strauss (1931) was able to sensitize 35 of 48 infants (1 to 4 days 
+old) to Toxicodendron oleoresin, suggesting that the apparent hypo-
+responsiveness of children may be due to limited exposure and not 
+to deficient immunity. Similarly, the effects of gender on the inci-
+dence of ACD seem related to the likelihood of exposure (Schubert 
+et al., 1987; Kwangsukstith and Maibach, 1995).
+In experimental models and clinical practice, downregula-
+tion of ACD has been achieved with ultraviolet radiation (UVB or 
+PUVA), glucocorticoids, and calcineurin inhibitors. Each of these 
+acts somewhat differently. UVB and PUVA significantly decrease 
+the density of epidermal LCs, induce epidermal hyperplasia (mak-
+ing it more difficult for the antigen to reach any remaining epider-
+mal antigen-presenting cells), upregulate IL-10, and induce CD4+/
+CD25+ regulatory T cells (Belsito, 1989; Aubin and Mousson, 
+2004). Glucocorticoids also inhibit the type IV reaction at multiple 
+points (Belsito, 1989): epidermal LCs are decreased in number, 
+the production and function of IL-1, IL-2, and IFN-γ are inhibited, 
+and T cell proliferation is decreased. In contrast, cyclosporine A 
+and other macrolactams act primarily to inhibit activation of cNF-
+AT via inhibition of calcineurin (Bornhövd et al., 2001). Finally, a 
+variety of other pharmacologic agents have been reported to inter-
+fere with the induction and/or elicitation of ACD in murine models 
+(Belsito, 1997).
+Diagnosis and Testing  When a patient exhibits allergic con-
+tact dermatitis, finding the responsible chemical is important to 
+avoid continued exposure. For this purpose, patch testing is the 
+gold standard that has been employed and refined since it was first 
+described by Jadassohn (1895). On the washed back of patients 
+who are not exhibiting dermatitis at the sites to be tested, nor using 
+corticosteroids or other immunosuppressive treatments, patches 
+are placed that contain a small amount of the putative allergen. 
+Many of these materials are commercially available at standard-
+ized concentrations too low to produce significant irritant reac-
+tions, although induction of the allergic response has been reported 
+to occur (Tomb, 1992). Certain chemicals are usually not tested 
+because they induce too strong a response or might produce sensi-
+tization (e.g., urushiol from poison ivy). After 2 days, during which 
+time a reaction begins to develop, the patches are removed and the 
+sites of exposure are scored for degree of response. These sites 
+are additionally re-evaluated at any time from 1 to 5 days after-
+wards (3 to 7 days after the initial application). The relevance of 
+any positive reaction to the patient’s actual environment must be 
+considered so that exposure to putative allergens in daily life can be 
+minimized to appropriate chemicals. Interpretation of the results, 
+and resulting modifications in lifestyle, should take into account the
+
+Toxic Responses of the Skin
+Chapter 19
+963
+phenomenon of cross-sensitivity, where reactivity to a compound 
+may occur because it shares functional groups that have provoked 
+sensitization with another compound. Fig. 19-4 illustrates this prin-
+ciple with three amine compounds and Table 19-6 lists some com-
+mon cross reacting chemicals.
+Animal testing to predict allergenicity has an extensive history 
+and the prototypical test has been the Guinea Pig Maximization Test 
+by Magnusson and Kligman (1969). In this assay, a chemical is 
+injected intradermally with or without Freund’s complete adjuvant. 
+The reaction of the skin to subsequent challenge with a chemical 
+can then be observed and graded. While this approach has been 
+successful, the extrapolation of sensitivity measurements from labo-
+ratory animals to humans presented large uncertainties. Therefore, 
+in the last couple decades, the local lymph node assay (LLNA), per-
+formed in mice, has become the predominant in vivo animal tool to 
+measure the sensitization capacity of a specific chemical (Basketter 
+et al., 2012). Not only does the LLNA use a smaller number of 
+laboratory animals than the Magnusson-Kligman assay, it also has 
+the capability to rank the potency of allergens from very strong to 
+weak. Because sensitizers can differ in potency over four orders of 
+magnitude, this quantitative assay has been extremely helpful.
+As is the case with irritation, the European Union directive 
+eliminating animal use in cosmetic testing has stimulated the devel-
+opment of integrated in vitro and in silico testing strategies, where 
+predictions for potential skin sensitization by a particular material 
+include its physicochemical structure and its performance in vari-
+ous in vitro tests. There are four key biological components in the 
+“adverse outcome pathway” (AOP) for skin sensitization classified 
+as: (1) the molecular initiating event; (2) activation of keratinocytes 
+as detected by gene expression associated with specific cell signal-
+ing pathways and inflammatory responses; (3) dendritic cell activa-
+tion as determined by specific expression of cell surface markers; 
+and (4) T-cell proliferation. There is general agreement in the sci-
+entific arena that assessment of only one aspect of the AOP will not 
+provide sufficient information to replace the use of animals for the 
+assessment of chemical allergenicity (reviewed in Maxwell et al., 
+2014). Rather, information from non-testing methods (in silico data, 
+analogue based “read across” information) and in vitro approaches 
+that evaluate the key events in the AOP will be needed. Information 
+garnered from these approaches will need to be further combined to 
+address the sensitization end point in a weight of evidence frame-
+work, which is an area of intense research (Patlewicz et al., 2014; 
+Tollefsen et al., 2014).
+As far as addressing the key events in the sensitization 
+AOP, four assays have been endorsed at the OECD level at this 
+time. The first event in the AOP for sensitization can be assessed 
+by the Direct Peptide Reactivity Assay or “DPRA” (Gerberick 
+et al., 2004, 2008; OECD TG 442C), which measures the ability of 
+a chemical to react with peptides, specifically histidine and cyste-
+ine. To address the second step of the AOP, keratinocyte activation, 
+KeratinoSens™ has been validated by ECVAM and has accepted 
+OECD guidelines (OECD TG 442D). In the KeratinoSens™ assay, 
+the sensitizing potential of a chemical is assessed using immor-
+talized adherent human keratinocytes (HaCaT cell-line), trans-
+fected with a plasmid to quantify luciferase gene induction as a 
+measure of activation of Keap1-NRF2-antioxidant/electrophile 
+response element (ARE)-1. Assessment of the third step in the 
+AOP, dendritic cell activation, can be undertaken using either the 
+ECVAM-validated MUSST or h-CLAT methodologies, the latter 
+of which have OECD guidelines (OECD 442E). In the MUSST 
+assay, expression of CD86 and CD54 on a myeloid dendritic cell 
+line is measured, while h-CLAT measures only CD54 expression. 
+Currently there is no validated methodology to assess the fourth 
+component of the AOP, T-cell activation.
+The integration of the results of testing the first three steps of 
+the AOP to predict sensitization and hazard has yet to be resolved. 
+It is an area of active research and various models (Bayesian net-
+work, Artificial Neural Network and Weight of Evidence) have been 
+proposed. Currently, the Weight of Evidence or the best “two out 
+of three” approach in assessing sensitization based upon the testing 
+of the first three key events in the AOP has found the greatest suc-
+cess. This was initially proposed by Bauch et al. (2012) and later 
+updated by Natsch et al. (2013) and Urbisch et al. (2015). In this 
+approach, chemicals are identified as non-sensitizers if they are neg-
+ative in both the DPRA and either the KeratinoSens™ assay or the 
+MUSST/h-CLAT assays. However, using the current approaches 
+does have drawbacks. An issue of significant concern among der-
+matotoxicologists is the ability of the current in vitro test to detect 
+pre-haptens (abiotically transformed materials; e.g., oxidized in the 
+environment) and pro-haptens (biotically transformed materials via 
+metabolism in the skin). Clearly, one or more of the current meth-
+odologies must be adapted to detect pre-and pro-haptens (Patlewicz 
+et al., 2016). Efforts to further improve these systems is already 
+underway as evidenced by the peroxidase peptide reactivity assay 
+“PPRA” (Gerberick et al., 2009; Gerberick, 2016), which looks at 
+identification of pro-haptens via the use of peroxidase in the DPRA.
+NH2
+SO2NH2
+Sulfonamide
+NH2
+COOH
+para-Aminosalicylic
+acid
+OH
+NH2
+COOH
+para-Aminobenzoic
+acid
+Figure 19-4.   Structural formulas of selected para-amino compounds that 
+show cross-reactions in allergic contact sensitization.
+Table 19-6 
+Common Cross-Reacting Chemicals
+CHEMICAL
+CROSS REACTOR(S)
+Balsam of Peru
+Pine resin, cinnamates, benzoates
+Bisphenol A
+Diethylstilbestrol, monobenzyl 
+ether of hydroquinone
+Canaga oil
+Benzyl salicylate
+Chlorocresol
+Chloroxylenol
+Diazolidinyl urea
+Imidazolidinyl urea
+Hydroquinone
+Resorcinol
+Alkyl hydroxybenzoates
+Parabens, hydroquinone, mono-
+benzyl ether of hydroquinone
+p-Aminobenzoic acid
+p-Aminosalicylic acid, sulfon-
+amide
+Para-phenylenediamine
+p-Aminobenzoic acid, aminoben-
+zoate anesthetics
+Propyl hydroxybenzoate
+Hydroquinone monobenzyl ether
+Phenol
+Resorcinol, cresols, hydroqui-
+none
+
+964
+TARGET ORGAN TOXICITY
+Unit IV
+PHOTOSENSITIVITY
+The ultraviolet and visible spectra of solar radiation that reach 
+the earth’s atmosphere extend from 290 to 700 nm. Wavelengths 
+beyond this range are either filtered by the earth’s atmosphere or 
+are insufficiently energetic to cause cutaneous pathology. Adequate 
+doses of artificially produced UVC (100 to 289 nm) or x-rays (less 
+than 10 nm) can produce profound physical and toxicologic skin 
+changes; however, these would occur only accidentally and more 
+typically in the occupational or laboratory environment. The pro-
+tective skin pigment, melanin, synthesized by the melanocytes, 
+absorbs a broad range of radiation from ultraviolet B (290 to 320 
+nm) through the visible spectrum (400 to 700 nm). Other chromo-
+phores in the skin include amino acids, particularly tryptophan and 
+tyrosine, and their breakdown products (e.g., urocanic acid), which 
+absorb light in the UVB range. Biologically, the most significant 
+chromophore in the skin is DNA and, as such, damage from radia-
+tion can have lasting effects on the genetic information of the target 
+cells, as outlined under the section “Skin Cancer,” below.
+Phototoxicity
+Phototoxic reactions from exogenous chemicals may be produced 
+either by systemic or topical exposures. In acute reactions, the 
+skin can become red and blistered within minutes to hours fol-
+lowing ultraviolet light exposure, typically UVA (320 to 400 
+nm). Occupational examples include coal tar, which, in combina-
+tion with sunlight, can produce an immediate stinging sensation 
+referred to as “tar smarts.” Over time, this damage can result in 
+significant hyperpigmentation of the skin.
+Phototoxic chemicals most commonly absorb in the UVA 
+range, thereby assuming a higher energy, excited, triplet state; the 
+subsequent transfer of electrons to other molecules or reduction 
+to more highly reactive-free radicals results in the observed tissue 
+damage (Moan and Peng, 2003; Deleo, 2004). Oxygen dependent 
+photodynamic reactions commonly occur as these excited mole-
+cules return to their ground state and transfer their energy to oxy-
+gen, forming high reactive singlet oxygen. These reactive products 
+then damage cellular macromolecules, especially unsaturated mem-
+brane lipids, which results in cell death. The release of a variety of 
+immune mediators from the dying keratinocytes and the recruitment 
+of inflammatory cells to the skin are the histopathologic signs of 
+phototoxicity. Those  chemicals most often associated with photo-
+toxic reactions are listed in Table 19-7.
+As opposed to many phototoxins that require oxygen radicals, 
+psoralens are an example of chemicals producing phototoxicity with-
+out production of singlet oxygen. Psoralens intercalate within DNA 
+to form covalent adducts, and cross-link when activated by UVA. 
+The result is inhibition of DNA synthesis and repair causing the 
+cells to die. Psoralens can be found in various foods, including lime 
+and celery. Production of photodermatitis in occupational settings 
+where such foods are routinely handled has been reported (Seligman 
+et al., 1987). An example of phototoxicity from furocoumarin pres-
+ent in lime peel is given in Fig. 19-2F. Psoralens in combination 
+with UVA (PUVA) have been used therapeutically to inhibit kera-
+tinocyte growth and lymphocyte proliferation in diseases such as 
+psoriasis and cutaneous T-cell lymphoma; however, this modality 
+is infrequently used today because of better treatment options for 
+these diseases, and an enhanced risk of both squamous cell car-
+cinoma and malignant melanoma with prolonged PUVA therapy 
+(Stern, 1992; Stern, 2001).
+Nails, an appendage of the skin, may also suffer phototoxic 
+reactions to drugs and, less commonly, to topically applied chemi-
+cals. While various types of nail pathology may result, including 
+changes in cell growth and pigmentation, detachment of the various 
+layers of the nail plate from each other (onycholysis) is the most 
+commonly observed effect of phototoxicity. Agents such as coal 
+tar and tetracyclines produce photodynamic onycholysis, which 
+requires generation of oxygen radicals. In contrast, topical or sys-
+temic psoralens produce onycholysis by a non-photodynamic mech-
+anism that does not require oxygen (reviewed in Epstein, 1999).
+Photoallergy
+Like phototoxins, most photoallergens respond to light in the 
+UVA range (Table 19-8). Except for the need for photoactivation 
+of the allergen, photoallergy is a typical delayed type hypersen-
+sitivity response. The reaction may take hours to days to develop 
+and can persist for several weeks following exposure if the agent 
+is retained within the skin. Use of halogenated salicylanilides in 
+consumer products led to thousands of cases of photoallergy in the 
+1960s and 1970s. Subsequent to salicylanilides, fragrances, espe-
+cially musk ambrette, in cosmetics, became conspicuous sources 
+of photoallergy until these materials were banned. Nowadays, 
+sunscreening agents and topical nonsteroidal anti-inflammatory 
+drugs (NSAIDS, e.g., ketoprofen) are the more commonly found 
+photoallergens (European Multicentre Photopatch Test Study 
+(EMCPPTS) Taskforce, 2012). Although a photoallergic response 
+to these agents is rare, they have become widely used as the long-
+term risks effects of sun exposure and systemic intake of NSAIDS 
+have become appreciated.
+Photoallergy is immunopathologically distinguishable from 
+phototoxicity, because the former, like all delayed type hypersensi-
+tivities, may result from exposure to a chemical too low to produce 
+Table 19-7 
+Selected Phototoxic Chemicals
+Furocoumarins
+ 8-Methoxypsoralen
+ 5-Methoxypsoralen
+ Trimethoxypsoralen
+Polycyclic aromatic hydrocarbons
+ Anthracene
+ Fluoranthene
+ Acridine
+ Phenanthrene
+ Pyridine
+Drugs
+ Amiodarone
+ Tetracyclines
+ Sulfonamides
+ Sulfonylureas
+ Nalidixic acid
+ Thiazides
+ Phenothiazines
+ Nonsteroidal anti-inflammatories
+Dyes
+ Anthraquinones
+ Eosin
+ Acridine orange
+ Rose Bengal
+Porphyrin derivatives
+ Hematoporphyrin
+
+Toxic Responses of the Skin
+Chapter 19
+965
+a phototoxic irritant response, but sufficient to elicit photoallergy. 
+Chemicals causing phototoxicity, because reactivity is generated 
+upon light exposure, may also be photoallergenic. However, this 
+combination is not common.
+Among individuals with a history of photosensitivity, 11% 
+exhibited photoallergy (Victor et al., 2010). The diagnosis of pho-
+toallergy is best confirmed by photopatch testing, which includes 
+exposure of the allergens to light and a control of nonirradiated 
+allergens. Because the offending agent may not be obvious from the 
+patient’s history due to the delay between exposure to the agent and 
+sunlight, a standard panel of photoallergens, as well as the patient’s 
+own sunscreen(s) and personal care products containing potentially 
+photoactivated materials, are tested. The methodology for photo-
+patch testing has been extensively reviewed by Honari (2014).
+In Vitro Determination of Phototoxicity 
+and Photoallergenicity
+One way to assess the ability of a material to cause a phototoxic 
+or photoallergic reaction is its ultraviolet absorption spectrum. If 
+absorption is below the molar extinction coefficient (MEC) of less 
+than 1000 L × mol−1 × cm−1, then the material has little to no 
+phototoxic or photosensitization hazard (Henry et al., 2009). If 
+absorption occurs, then phototoxicity and photosensitization are 
+both possible. In the reactive oxygen species (ROS) assay, the gen-
+eration of ROS (superoxide anions and singlet oxygen) following 
+irradiation of the target material by light, while not measuring pho-
+totoxicity directly, had 100% sensitivity (with some false positives) 
+in predicting phototoxicity (Haranosono et al., 2014); however, this 
+methodology has not been validated by ECVAM.
+According to the OECD, the 3T3 Neutral Red Uptake in vitro 
+phototoxicity test can be used to predict the phototoxic potential 
+of a chemical (OECD TG 432). The 3T3 Neutral Red assay evalu-
+ates cytotoxicity in BALB/c 3T3 mouse fibroblasts exposed to the 
+test material in the presence or absence of UVA light, in order to 
+determine the concentration-dependent reduction in Neutral Red 
+Uptake by the cells. Although this method is accepted by the 
+OECD, drawbacks do exist. According to Prieto et al. (2013), the 
+following caveats must be considered: (1) a false negative result 
+can occur since the toxicological hazard of a chemical is primarily 
+due to a mechanism of action not captured by the cell line used; 
+(2) a false positive can occur given a compound’s limited bioavail-
+ability in vivo due to poor absorption and distribution, or a rapid 
+biotransformation and excretion; and (3) the cell lines have a lack 
+of metabolic capacity, thus some compounds that are metabolized 
+in vivo to biologically active forms may be missed. As a result, 
+intense efforts are underway to evaluate other in vitro phototoxicity 
+test methodologies using photo-exposed “3D skin models” (Portes 
+et al., 2002), as well as a fluorometric ROS assay (Seto et al., 2016).
+As opposed to phototoxicity, there is currently no ECVAM-
+validated or OECD approved guideline for photoallergenicity. 
+However, a number of in vitro testing methodologies utilizing 
+KeratinoSensTM and h-CLAT with the addition of exposure to 5 J/
+cm2 of UVA have been undertaken. Tsujita-Inoue et al. (2016) have 
+assessed the second step in the adverse outcome pathway (keratino-
+cyte activation) using the photo-KeratinoSensTM assay. Additionally, 
+Hoya et al. (2009) have evaluated the photo-h-CLAT assay. The 
+development of in vitro systems to assess photosensitization is 
+critical given the ban in Europe in testing cosmetic ingredients in 
+animals, since testing for photoallergenicity in humans is consid-
+ered unethical because of the potential for the induction of per-
+sistent light reactivity, in which the individual remains extremely 
+sensitive to sunlight even in the absence of the initially inducing 
+photoallergen.
+As is the case for non-photoactivated allergens, there remains a 
+concern that in vitro testing may miss pre- and pro-photoallergens. 
+To date, two models of photoantigen formation, the photohapten 
+model and the pro-hapten model, have been reported (Tokura et al., 
+1996; Tokura, 2000). In the induction phase of photoallergy, photo-
+allergens can produce ROS and induce apoptosis in keratinocytes, 
+but the use of either or both biomarkers would detect both photoal-
+lergy and phototoxicity, and would not distinguish the two (Onoue 
+and Tsuda, 2006; Kurita et al., 2007). Therefore, other investigators 
+have focused on the in vitro formation of photo-antigens (Lovell 
+and Jones, 2000). In these studies, the photobinding properties of 
+putative photoallergens to human serum albumin have been used, 
+similar to the approach used in the DPRA.
+Endogenous Photosensitivities
+Endogenous photosensitivity results from both endogenous and 
+exogenous factors (reviewed in Bylaite et al., 2009). In a variety of 
+genetic diseases, such as xeroderma pigmentosum, the cell’s ability 
+to repair ultraviolet light induced damage is significantly impaired. 
+Systemic lupus erythematosus, an autoimmune connective tissue 
+disease, features an abnormal sensitivity to UVB; however, the 
+exact reasons are unclear. In hereditary or chemically induced por-
+phyria, enzyme abnormalities disrupt the biosynthetic pathways 
+that produce heme (the building block for hemoglobin, myoglobin, 
+catalases, peroxidases, and cytochromes), leading to accumulation 
+of protoporphyrin precursors throughout the body, including the 
+skin, which are activated by visible light (400 to 410 nm). One 
+such porphyria, porphyria cutanea tarda, can be precipitated by 
+alcohol, estrogens, or certain antibiotics in individuals with heredi-
+tary abnormalities in porphyrin synthesis. Pellagra (photodermati-
+tis, diarrhea, dementia, and death), due to alteration in tryptophan 
+metabolism, can be induced by such drugs as isonicotinic acid and 
+hydralazine; the treatment for pellagra is oral niacin (vitamin B3).
+Table 19-8 
+Selected Photoallergens
+Halogenated salicylanilides
+ Tetrachlorosalicylanilide
+ Dibromosalicylanilide
+ Trichlorocarbanilide
+ Bithionol
+Whiteners
+ Stilbene
+Fragrances
+ Musk ambrette
+ 6-methyl coumarin
+Drugs
+ Ketoprofen
+ Phenothiazines
+ Chlorpromazine
+ Promethazine
+ Fentichlor
+Sunscreens
+ PABA esters
+ Benzophenones
+ Octocrylenes
+
+966
+TARGET ORGAN TOXICITY
+Unit IV
+Other Responses to Electromagnetic 
+Radiation
+The dermatologic toxicity induced by electromagnetic radiation is 
+not limited to the development of phototoxicity or photosensitiza-
+tion (reviewed in Krutmann et al., 2017). Indeed, the most evident 
+acute feature of ultraviolet radiation exposure is erythema (redness 
+or sunburn). The minimal erythema dose (MED), the smallest dose 
+of ultraviolet light that induces an erythematous response, varies 
+greatly from person to person, largely dependent upon skin pig-
+mentation. In the sunburn reaction, vasodilatation, responsible for 
+the color change, is accompanied by the production of a variety of 
+inflammatory mediators from injured keratinocytes. These media-
+tors are responsible for the systemic symptoms that may be associ-
+ated with sunburn: fever, chills, and malaise. UVB (290 to 320 nm) 
+is the most effective wavelength for inducing erythema in human 
+skin. Substantially greater amounts of UVA reach earth compared 
+to UVB (as much as 100-fold greater); however, UVA’s efficiency 
+in generating erythema in humans is about 1000-fold less than that 
+of UVB. Both UVA and UVB have been implicated in the develop-
+ment of melanoma and non-melanoma skin cancers. Because of its 
+wavelengths and greater depth of penetration, UVA is more respon-
+sible for some of the long-term effects of sun exposure: wrinkling, 
+thinning (atrophy), and easy bruisability.
+Overt pigment darkening is another response to ultraviolet 
+exposure and is accomplished by enhanced melanin production by 
+melanocytes and/or photo-oxidation of melanin. Tanning (increased 
+pigmentation occurring within 3 days of ultraviolet exposure) is 
+to be contrasted with the immediate pigment darkening of photo-
+oxidation. The tanning response is most readily produced by expo-
+sure to UVB and may be induced, along with erythema and DNA 
+repair, by DNA damage. Tanning serves to augment the protective 
+effects of melanin in the skin; however, this protective effect may 
+be insufficient in preventing the damage it induces, especially in 
+fair-skinned individuals (Sheehan et al., 2002).
+Chronic exposure to radiation results in a variety of charac-
+teristic skin changes (reviewed in Krutmann et al., 2017). These 
+changes accelerate or mimic aging, but the rate depends greatly 
+on the baseline skin pigmentation of the individual. Lighter skin 
+people suffer from chronic sun exposure with a greater frequency 
+than more darkly pigmented individuals. Photo-exposed areas 
+(head, neck, backs of hands, and the sternal area of the chest) are 
+more readily damaged by light. Pigmentary changes, such as freck-
+ling and hypomelanotic areas (idiopathic guttate hypomelanosis), 
+wrinkling, telangiectasias (fine dilated superficial blood vessels), 
+pre-cancerous lesions (actinic keratoses and porokeratoses), and 
+malignant skin lesions (basal and squamous cell carcinoma; malig-
+nant melanoma) are all consequences of chronic exposure to ultra-
+violet light. One significant pathophysiologic response of chronic 
+exposure to light is a pronounced decrease in the Langerhans 
+cells. Chronically sun exposed skin may have up to 50% fewer of 
+these cells compared to photo-protected areas (Lim et al., 1983). 
+This decrease may lessen immune surveillance of neoantigens on 
+malignant cells, and may allow for such transformations to proceed 
+unchecked. For these reasons, a tan obtained either naturally or in a 
+tanning salon is not to be recommended (Lim et al., 2011).
+Aside from the toxic nature of electromagnetic radiation, 
+natural and environmental exposures to certain bands of light are 
+vital for survival. Ultraviolet radiation is critical for the conversion 
+of 7-dehydrocholesterol to pre-vitamin D3, without which normal 
+endogenous production of vitamin D would not take place. Blue 
+light (420 to 490 nm) can be lifesaving in premature infants due to 
+its ability to photoisomerize bilirubin in the skin. In addition, the 
+toxic effects of ultraviolet light have been exploited for decades 
+through artificial light sources for treatment of skin disorders such 
+as psoriasis.
+URTICARIA
+The skin is capable not only of delayed type hypersensitivity reac-
+tions involving T-cells, but also IgE-mediated reactions resulting 
+in allergic urticaria. For those allergens to which IgE antibodies 
+have been elicited by previous or ongoing systemic or topical expo-
+sures, subsequent cutaneous and/or systemic contact can lead to 
+development of hives, typically in minutes, through an immediate, 
+Gell and Coombs type I, hypersensitivity reaction. Hives are raised 
+wheals that usually itch or sting and appear reddish. The symptoms 
+of allergic urticaria result from degranulation of cutaneous mast 
+cells induced by binding of IgE to receptors on the cell surface, 
+leading to release of histamine and other vasoactive substances. 
+Food allergies (Sicherer and Sampson, 2010) and pharmaceuticals 
+(Limsuwan and Demoly, 2010) are major causes of acute allergic 
+urticaria. Some agents (e.g., opiates) can bring about the direct 
+release of histamine from mast cells without antibody mediation, 
+while others (NSAIDs) do so through effects on arachidonic acid 
+metabolism or other uncertain mechanisms. Urticaria lasting longer 
+than 6 weeks, if not attributable to allergen exposure, frequently has 
+an autoimmune basis, that is, the development of autoantibodies to 
+the high infinity IgE receptor. True urticaria generally disappears 
+within hours and, at the most, by 1 day. A hive persisting in a given 
+location longer than 24 hours is more likely related to a non-urticar-
+ial process, such as vasculitis. The lifetime prevalence of urticaria 
+has been estimated at 9%, of which nearly 2% occurs chronically 
+(Zuberbier et al., 2010).
+Contact urticaria can arise from cutaneous exposure to a plant, 
+animal, or other protein sources (allergic), but can also have a non-
+allergic basis (Table 19-9). Allergic contact urticaria appears more 
+commonly in atopic individuals and among certain occupational 
+groups, for example, food workers due to proteins in food and the 
+medical profession due to natural rubber latex proteins in gloves 
+(Doutre, 2005). As opposed to the accelerators (carbamates, thiu-
+rams, benzothiazoles, and 1,3-diphenylguanidine) and anti-oxidants 
+(p-phenylenediamine derivatives) that cause delayed type hypersen-
+sitivity, the hevein proteins in latex have caused severe, life threat-
+ening reactions and deaths in some individuals following cutaneous 
+or mucosal exposure. In response to the epidemic of latex hyper-
+sensitivity, labeling for latex has been required on all medically 
+related products in the United States. Additionally, manufactures 
+have largely eliminated the more highly allergenic hevein proteins 
+(Hev b1, Hev b3, Hev b5, and Hev b6.02) found in natural rubber 
+latex from their products (Koh et al., 2005)
+In addition to latex, other allergic contact urticants that result 
+in massive IgE-mediated release of vasoactive agents from the mast 
+cells have been reported. These include certain foods (e.g., nuts, 
+fish, and shellfish) and pharmaceutical products (e.g., penicillins, 
+cephalosporins, sulfonamides, macrolides, vancomycin, tetracy-
+clines, and fluoroquinolones), among others. Insect allergens, such 
+as those present in the stings of bees and wasps, are also known to 
+cause an anaphylactic response.
+PIGMENTARY DISTURBANCES
+Hypopigmentation
+Melanocytes help protect the skin from the harmful effects of 
+ultraviolet light by producing melanin, the production of which
+
+Toxic Responses of the Skin
+Chapter 19
+967
+CHEMICALLY DEFINED
+CHEMICALLY 
+UNDEFINED
+Acetylsalicylic acid
+Acrylic monomer
+Alcohols (amyl, ethyl, benzyl, 
+butyl, isopropyl, propyl)
+Aliphatic polyamide
+Alpha amylase
+Aminophenazone
+Aminothiazole
+Ammonium
+Ampicillin
+Bacitracin
+Balsam of Peru
+Benzocaine
+Benzoic acid
+Benzophenone
+Black rubber mix
+Butylhydroxytoluene (BHT)
+Carba mix
+Cellulose
+Cephalosporins
+Chloramine
+Chloramphenicol
+Chlorhexidine
+Chlorocresol
+Chlorpromazine
+Citric anhydride
+Rosin (colophony)
+Cornstarch
+Denatonium benzoate
+Diethyltoluamide
+Epoxy resin
+Formaldehyde and its resins
+Gentamicin
+Glucocorticoids
+Hydrolyzed wheat
+Iodohydroxyquinone
+Lidocaine
+Lindane
+Mechlorethamine
+Menthol
+Mercaptobenzothiazole
+Methimazole
+Mezlocillin
+Monoamylamine
+Neomycin
+Nickel
+Oleyl amide
+Papain
+Parabens
+para-aminodiphenylamine
+para-phenylenediamine
+Penicillin
+Pentamidine
+Phenylmercury propionate
+Phosphorus sesquisulfide
+Platinum salts
+Propylene glycol
+Polysorbate
+Polyvinylpyrrolidone
+Animals:
+Amniotic fluid
+Blood
+Brain
+Cockroaches
+Hair
+Dandruff
+Intestine
+Collagen
+Placenta
+Saliva
+Seminal fluid
+Serum
+Food:
+Cheese/milk
+Eggs
+Flour
+Honey
+Rice
+Fruits and vegetables:
+Beans
+Asparagus
+Carrot
+Olives
+Cauliflower
+Eggplant
+Endives
+Pepper
+Onion
+Spinach
+Pea
+Parsley
+Yucca
+Watercress
+Latex (cross reaction)
+Grains:
+Barley
+Oats
+Rye
+Wheat
+Meat:
+Beef
+Chicken
+Liver
+Turkey
+Lamb
+Nuts/Seeds:
+Almond
+Peanut
+Sesame
+Seafood:
+Fish
+Spices:
+Cilantro
+Cumin
+Curry
+Dill
+Garlic
+Paprika
+CHEMICALLY DEFINED
+CHEMICALLY 
+UNDEFINED
+Potassium ferrocyanide
+Promethazine
+Propyphenazone
+Proteases
+Reactive paints
+Rhodium
+Rifampicin
+Salicylic acid
+Sodium hypochlorite
+Sodium silicate
+Sodium sulfite
+Sorbitan monolaurate
+Streptomycin
+Sulfur dioxide
+Terpinyl acetate
+Vanilla
+Virginiamycin
+Vinyl pyridine
+Xylanase
+Zinc diethyldithiocarbamate
+Textiles: silk, cotton
+Plants and wood: birch, 
+chrysanthemum, 
+tulip, lichens, teak, 
+mahogany
+Cosmetics: hair gel, 
+henna, hydrolyzed 
+collagen, hydrolyzed 
+wheat, nail polish, 
+perfume, blush
+Miscellaneous: copy 
+paper chemical, 
+plastic, rubber, 
+tinofix S
+SOURCES: Abstracted from Amaro and Goossens (2008); Amin  
+et al. (1997); Burdick and Mathias (1985); Brancaccio and Alvarez 
+(2004); Lahti (1986); von Krogh and Maibach (1982).
+results from a series of oxidative reactions involving the amino 
+acid tyrosine in the presence of the enzyme tyrosinase. As indi-
+cated in Table 19-10, a variety of agents can interfere with normal 
+pigmentation to yield either excessive or reduced amounts of mela-
+nin. Depigmentation can occur following exposure to phenols, cat-
+echols, quinones, and related compounds (McGuire and Hendee, 
+1971), several of which are shown in Fig. 19-5. Many chemicals 
+inducing leukoderma (depigmentation) do so as a result of their 
+metabolism by tyrosinase to ROS that are toxic to melanocytes. An 
+illustration of depigmentation caused by exposure to monobenzyl 
+ether of hydroquinone, an anti-oxidant once found in rubber gloves, 
+is shown in Fig. 19-2G.
+Other causes of toxic leukoderma may occur via effects on 
+melanocytic signaling pathways. In case reports, the cancer chemo-
+therapeutic drug, imatinib mesylate, has been found to give pigment 
+loss in the epidermis, likely through an inhibition of c-kit tyrosine 
+kinase pathway essential for melanocyte function (Arora et al., 
+2004). Paradoxically, imatinib mesylate may cause hyperpigmenta-
+tion over the hard palate (Mattsson et al., 2011) and repigmentation 
+of gray hair (Etienne et al., 2002).
+In many parts of the world, the use of skin lightening creams 
+containing hydroquinone, corticosteroids or mercurials is common, 
+especially among women. These agents produce their effects by 
+inhibiting tyrosinase activity or expression, but long-term hyper-
+pigmentation, referred to as pseudo-ochronosis, may paradoxically 
+occur. Furthermore, certain of these materials, especially the mer-
+curials, pose the risk of systemic effects, such as nephropathy and 
+neuropathy, if systemically absorbed (Ladizinski et al., 2011).
+Pigmentary alterations may also be seen in the nails. 
+Characteristic pigmentation of the nail beds has followed systemic 
+exposure to phenolphthalein, arsenic, silver, anti-neoplastics, anti-
+malarials, and other pharmaceutical agents. For a comprehensive 
+review of drug-induced nail disorders, readers are referred to 
+Valeyrie-Allanore et al. (2007).
+Table 19-9 
+Substances Reported to Elicit Contact Urticaria
+
+968
+TARGET ORGAN TOXICITY
+Unit IV
+OH
+OH
+CH
+NH2
+OH
+CH
+COOH
+O
+OH
+CH2
+C
+CH3
+OH
+CH3
+CH3
+C
+CH3
+OH
+CH2
+CH3
+CH2
+p-Tert-butylphenol
+p-Tert-amylphenol
+Hydroquinone
+Tyrosine
+Monobenzyl ether
+of hydroquinone
+Figure 19-5.   Chemical structure of tyrosine and of selected hypopigment-
+ing and depigmenting agents.
+Table 19-10 
+Selected Causes of Cutaneous Pigmentary 
+Disturbances
+	I.	 HYPERPIGMENTATION
+Ultraviolet light exposure
+Post-inflammatory changes (melanin and/or hemosiderin 
+deposition)
+Hypoadrenalism
+Internal malignancy
+Chemical exposures
+Coal tar volatiles
+Anthracene
+Picric acid
+Mercury
+Lead
+Bismuth
+Furocoumarins (psoralens)
+Hydroquinone (paradoxical)
+Drugs
+Chloroquine
+Amiodarone
+Bleomycin
+Zidovudine (AZT)
+Minocycline
+	II.	 HYPOPIGMENTATION/DEPIGMENTATION/
+LEUKODERMA
+Post-inflammatory pigmentary loss
+Chemical leukoderma/hypopigmentation
+Hydroquinone
+Monobenzyl, monoethyl, and monomethyl ethers of 
+hydroquinone
+p-(t-Butyl)phenol
+Mercaptoamines
+Phenolic germicides
+p-(t-Butyl)catechols
+Butylated hydroxytoluene
+Vitiligo (autoimmune)
+Hyperpigmentation, termed post-inflammatory, is well-known 
+to result from exposure to phototoxic agents including coal tars, 
+furocoumarin found in certain food such as limes (see Fig. 19-2F), 
+and azo-aniline dyes present in the printing and textile industries. 
+Furthermore, many inflammatory conditions of the skin may result in 
+hyperpigmentation (Fig. 19-2H). Pseudo-hyperpigmentation may also 
+occur due to deposition of materials within the skin (mainly metals 
+such as lead, bismuth, and arsenic). Finally, a number of therapeutic 
+drugs and other xenobiotics may result in hyperpigmentation via their 
+effect on synthesis/release of melanocortin peptides, tyrosinase activ-
+ity, melanocyte signaling pathways, and other unknown mechanisms.
+ACNE
+Acne is a common affliction of the pilosebaceous units especially 
+of the face, chest, and back. The condition arises from blockage of 
+the duct leading from the sebaceous gland to the cutaneous surface. 
+This results in retention of sebum and enlargement of the gland. 
+In its most common form (acne vulgaris), hormones associated 
+with puberty lead to high sebum production, hyperproliferation 
+and cornification of the ductal cells, plugging of the orifice, and 
+retention of corneocytes in the follicular lumen (Cunliffe et al., 
+2004). Proliferation of resident bacteria and inflammation within 
+the blocked pore/sebaceous gland result. Topically, long chain 
+fatty acids can give an acne-like response in animal models, and 
+appear to do so in some individuals exposed to cosmetics. Likely 
+acting in a similar fashion, petroleum products (oils, coal tar) in the 
+workplace can give rise to acneiform eruptions (Ancona, 1986). 
+Insoluble cutting oils used in the machine industry may have this 
+effect, as illustrated in Fig. 19-2I. Such agents, which may contain 
+chlorinated paraffins, stimulate excessive stratification of the duc-
+tile cells thus staunching the egress of sebum from the gland.
+Chloracne
+The most disfiguring form of acne in humans, chloracne, is caused 
+by exposure to halogenated aromatic hydrocarbons. Chloracnegenic 
+chemicals, such as polychlorinated biphenyls (PCBs) and naphtha-
+lenes, are often found together with the highly potent polychlo-
+rinated dibenzofuran and dioxin contaminants formed during the 
+synthesis of these agents. Chloracne is a rare disease, but still 
+occurs sporadically from industrial and environmental exposures 
+(Gawkrodger et al., 2009; Passarini et al., 2010). It was seen among 
+returning veterans during the Vietnam War following exposure to 
+“Agent Orange.” The most recent publicized example has been the 
+poisoning of the Ukrainian President, Viktor Yushchenko; the diag-
+nosis of chloracne and poisoning was made by a Swiss dermatolo-
+gist, Jean Hilaire Saurat, and his colleagues (Sorg et al., 2009).
+The recalcitrant nature of chloracne and its preventability mark 
+it as an important occupational and environmental illness. Typically, 
+blackheads (comedones) and cysts are present behind the ears and 
+about the eyes, on the shoulders, back, and genitalia. As opposed 
+to acne vulgaris, the nose is almost invariably spared. In addition 
+to acne, increased hair in atypical locations (hypertrichosis), hyper-
+pigmentation, brown discoloration of the nails, conjunctivitis, and 
+eye discharge may be present. Because chloracne is a marker of sys-
+temic exposure, concurrent effects in the liver and nervous system 
+may accompany the cutaneous findings. Chloracne exhibits pro-
+gressive degeneration of the sebaceous units with transformation
+
+Toxic Responses of the Skin
+Chapter 19
+969
+of the sebocytes to keratinized cells. The prominent hyperkeratosis 
+plugs the follicular canal resulting in acne. A proposed mechanism 
+to account for the observed changes is that chloracnegens shift the 
+differentiation of sebaceous follicular stem cells to that of epider-
+mal stem cells, accounting for the lasting changes (Panteleyev and 
+Bickers, 2006).
+Since the original recognition of the syndrome a century 
+ago, effects of chloracnegens on humans have been clearly dem-
+onstrated over the last five decades, not only during the Vietnam 
+War, but also through industrial disasters. In 1953, a chemical 
+plant in Ludwigshafen exploded, discharging 2,4,5-trichlorophe-
+nol; in 1976, in Seveso, Italy, a reactor explosion liberated tetra-
+chlorodibenzo-p-dioxin (TCDD); and in 1968 and 1979 in Japan 
+and Taiwan, respectively, rice cooking oil was contaminated with 
+polychlorinated biphenyls, polychlorinated dibenzofurans, and 
+related polychlorinated aromatic hydrocarbons. Individual poi-
+sonings involving remarkably high TCDD body burdens have not 
+been lethal despite severe chloracne (Geusau et al., 2001; Sorg 
+et al., 2009). Skin toxicity can occur within months after exposure 
+and, depending on the severity, may either clear quickly or remain 
+manifest even for decades after exposures cease, reflecting the high 
+lipid solubility of the inciting chemicals. The highly potent TCDD 
+has a half-life in humans of approximately 8 years (Geyer et al., 
+2002), and chlorinated dibenzofurans and biphenyls may be simi-
+larly persistent. Given the persistence of its inducers, the long-term 
+consequences of chloracne have been of particular interest given 
+speculation that individuals developing this condition may be more 
+prone to other adverse health outcomes. So far, however, chloracne 
+has not proven to be a biomarker for cancer (Pesatori et al., 2009).
+GRANULOMATOUS DISEASE
+Foreign body reactions, isolating invading substances that cannot 
+be readily removed, occur following the introduction of a variety 
+of foreign agents into the skin through injection or subsequent to 
+a laceration or abrasion. These reactions can take three forms: (1) 
+nontoxic (the mere presence of an inert substance in the dermis); 
+(2) toxic, in which the substance induces activations of macro-
+phages; and (3) immunologic, in which T cells are activated. Toxic 
+and immunologic granulomas can produce persistent lesions with 
+abundant inflammatory cells resembling chronic infectious condi-
+tions (e.g., tuberculosis, leprosy, Leishmaniasis, etc.), and can pres-
+ent diagnostic challenges (Del Rosario et al., 2005).
+The cutaneous response to graphite intradermally injected into 
+the skin via puncture with a “lead pencil” is a common example of 
+the nontoxic granuloma. The resultant “carbon tattoo” may persist 
+as a grayish dot visible on the skin surface for years. However, there 
+is no inflammatory reaction, and, hence, no sequela following this 
+intradermal injection.
+Silica or talc (magnesium silicate) is a prime example of an 
+agent causing toxic granulomas. After a latent period of months to 
+years following introduction into the abdominal cavity as a result 
+of the use of powdered surgical gloves, the original large particles 
+desegregate to assume a colloidal state that may incite significant 
+macrophage activation with resultant granuloma formation, which 
+has led to bowel obstruction and other complications. The US Food 
+and Drug Administration (FDA) issued a final rule banning pow-
+dered medical gloves beginning on January 19, 2017 (FDA, 2016). 
+Injections of paraffin or mineral oil into the skin have long been 
+known to induce sclerosing lipogranulomas (Heidingsfeld, 1906).
+Delayed allergic sensitization (immunologic granulomas) may 
+occur with beryllium. Analogous to the reaction in the lung, skin 
+lesions have been reported in individuals intracutaneously exposed 
+to beryllium. An example of beryllium granuloma of the skin is 
+shown in Fig. 19-2J. Cutaneous gadolinium deposition and fibrosis 
+are seen in the nephrogenic systemic fibrosis syndrome that arises 
+following gadolinium exposure in patients with compromised renal 
+function (Wilford et al., 2010). Metallic mercury and zirconium 
+compounds, formerly used as deodorants, and tattoo dyes (includ-
+ing cobalt, chromium, mercury, and others) can also induce immu-
+nologic granulomatous reactions (Kaur et al., 2009) that, in rare 
+cases, can be induced or intensified by intense light (laser) treatment 
+(Tourlaki et al., 2010).
+SCLERODERMATOUS SKIN DISORDERS
+Scleroderma encompasses a group of rare diseases that involve 
+the hardening and tightening of the skin and connective tissues. In 
+some, scleroderma affects only the skin. But it may also involve 
+structures beyond the skin, including blood vessels and internal 
+organs (heart, lung, kidney, and digestive tract). Signs and symp-
+toms vary, depending on which structures are affected.
+Scleroderma results from the overproduction and accumula-
+tion of collagen in body tissues. What prompts abnormal collagen 
+production is not precisely known, but the disease appears to be 
+autoimmune. In some genetically susceptible people, symptoms 
+may be triggered by exposure to silica, polyvinyl chloride, epoxy 
+resins, meta-phenylenediamine, bleomycin, and denatured rape-
+seed oil. The most devastating epidemic of “toxic (rapeseed) oil 
+syndrome” occurred in Spain in May of 1981, and is reviewed by 
+Posada de la Paz et al. (2001).
+TOXIC EPIDERMAL NECROLYSIS
+Toxic epidermal necrolysis (TEN) is a rare life-threatening skin dis-
+ease with an incidence of one to two cases per million person years. 
+In patients with acquired immune deficiency syndrome (AIDS), the 
+incidence appears to be 1000-fold higher (Harr and French, 2010). 
+At the most severe end of the spectrum of adverse cutaneous hyper-
+sensitivity reactions to drugs, this syndrome involves detachment of 
+≥30% of the epidermal surface from the dermis, commonly accom-
+panied by severe erosions of the mucous membranes. Mucous 
+membrane involvement can result in gastrointestinal hemorrhage, 
+respiratory failure, ocular abnormalities, and genitourinary compli-
+cations. Even with intensive treatment and prompt identification of 
+causality, it may have a fatality rate of approximately 30%.
+Stevens–Johnson syndrome is a milder, but still serious, condi-
+tion that has been considered by some to fall within the spectrum of 
+TEN; however, many dermatologists consider this a separate entity 
+induced by drugs, viruses, and other often unknown precipitating 
+factors. In Stevens–Johnson syndrome, up to 10% of skin surface 
+area may be affected and there is a proportionally lower fatality rate. 
+The two syndromes may be difficult to separate when 10% to 30% 
+of the skin surface is involved.
+TEN is most commonly associated with drugs; however, the 
+disorder has other potential etiologies, including infection, malig-
+nancy, and vaccinations. At onset, it may resemble an upper respi-
+ratory tract infection (fever, cough, sore throat, and malaise), but 
+prompt diagnosis when the cutaneous lesions develop several days 
+later improves survival. Ongoing exposure to drugs first encoun-
+tered during the previous month should be stopped, and treatment is 
+initiated similar to that for severe burn patients: fluid and electrolyte 
+replacement, protection from infection, and nutritional assistance. 
+Nearly 200 drugs have been reported to cause this syndrome with 
+the major contributors being the anticonvulsants, NSAIDs, sulfon-
+amides, and allopurinol.
+
+970
+TARGET ORGAN TOXICITY
+Unit IV
+The mechanisms leading to TEN continue to be evaluated, 
+but are not clear. Studies of genetic predisposition have revealed 
+striking correlation between HLAB*1502+ in Han Chinese patients 
+and susceptibility to carbamazepine (Chung et al., 2004). The U.S. 
+Food & Drug Administration recommends that Asian patients 
+be screened for this genotype before prescribing carbamazepine 
+(Farkas and Feeney, 2007).
+TEN is an immune-related, cytotoxic T cell reaction that 
+causes apoptosis of keratinocytes, which presumably express a for-
+eign antigen. In many ways, it mimics a hypersensitivity reaction, 
+with its characteristic delayed reaction to an initial exposure and 
+a more rapid response following repeated exposure. The proposed 
+immunopathologic pathways leading to TEN include the follow-
+ing: Fas ligand activation on keratinocyte membranes leading to 
+death receptor–mediated apoptosis (Abe et al., 2003); release of 
+destructive proteins (perforin and granzyme B) from cytotoxic T 
+lymphocytes generated following an interaction with cells express-
+ing major histocompatability complex (MHC) class I (Posadas 
+et al., 2002); overproduction of T cell– and/or macrophage-
+derived cytokines, such as interferon-γ, tumor necrosis factor-α, 
+and various interleukins (Paul et al., 1996; Nassif et al., 2004); 
+and drug-induced secretion of granulysin from cytotoxic T cells, 
+natural killer cells, and natural killer T cells (Chung et al., 2008). 
+In addition to treating the inciting cause (usually discontinuation 
+of a drug), blockage of death receptor ligands using intravenous 
+immunoglobin therapy can be extremely beneficial (Ardern-Jones 
+and Friedmann, 2011).
+HAIR
+Hair, like the nail, is an “appendage” of the skin. It is a keratinous 
+protein filament that grows from follicles found in the dermis of the 
+skin. The highly structural and organized cortex, or middle layer 
+of the hair, is the primary source of mechanical strength and water 
+uptake. The cortex contains melanin, which gives the hair its color. 
+Hair is one of the defining characteristics of mammals, where it 
+primarily has thermoregulatory and tactile (whiskers) functions. 
+The human body, apart from areas of mucosa and glabrous skin, is 
+covered in follicles which produce thick (terminal) and fine (vellus) 
+hairs. Human hair growth can last from 2 to 6 years and is divided 
+into three phases: (1) anagen (growth) lasting 2 to 6 years; (2) cata-
+gen (involution) occurring over 1 month; and telogen (the shedding 
+phase) lasting 3 months.
+Toxic effects on hair occur from systemic exposures affecting 
+the anagen phase. The most commonly encountered toxic effect is 
+hair loss (alopecia) and is referred to as anagen effluvium. The prin-
+cipal causes are systemic cancer chemotherapeutics and heavy met-
+als (mercury, bismuth, and thallium). Indeed, thallium salts were 
+previously used in early 20th century for the treatment of ringworm 
+of the scalp (tinea capitis) to induce hair loss and thus cure this 
+fungal infection (Percival, 1930). This use has long ago disappeared 
+due to its narrow therapeutic index and the development of safer and 
+more effective treatment modalities. Kanwar and Narang (2013) 
+have reviewed the multiple etiologies of anagen affluvium.
+While loss of hair is more frequently seen as the toxic effect 
+of chemicals on hair, overstimulation of the anagen phase can result 
+in excess hair (hypertrichosis). Acquired, toxic hypertrichosis, may 
+be seen with certain drugs (minoxidil and anabolic steroids), but 
+has also been associated with various cancers and eating disorders. 
+Hexachlorobenzene has also been reported to cause hypertrichosis, 
+although this is usually seen in hexachlorophene-induced porphyria 
+cutanea tarda (see “Endogenous Photosensitivities” section, above), 
+where hypertrichosis is one of the manifestations.
+SKIN CANCER
+Both ultraviolet radiation and chemical exposures can result in skin 
+cancers. Shortly after the discovery of radioactive elements at the 
+turn of the 20th century, it was observed that x-rays could cause 
+severe burns, squamous cell carcinomas, and basal cell carcinomas 
+of the skin. In addition, the linkage between chemical exposure and 
+scrotal carcinoma was long ago recognized among chimney sweeps 
+(see Potter, 1963 that includes Pott’s original 1775 treatise).
+UV-Induced Skin Cancer
+Most skin cancers in the United States are UV-induced, and may 
+be aggravated by genetic variations in the melanocortin receptor, 
+which are associated with an increased skin cancer risk that is 
+independent of hair type or skin color (Lynde and Sapra, 2010). 
+The most common are the non-melanoma skin cancers, and less 
+commonly malignant melanoma. In data summarized by the Skin 
+Cancer Foundation (Skin Cancer Foundation: Skin Cancer Facts 
+& Statistics, 2017), there were over 5.4 million cases of non-mela-
+noma skin cancer in approximately 3.3 million people in the United 
+States in 2012, the last year in which data was available. It is esti-
+mated that one in five Americans will develop skin cancer in the 
+course of a lifetime and that 40% to 50% of Americans who live to 
+age 65 will develop at least one basal or squamous cell carcinoma.
+Basal cell carcinoma (BCC) is the most common form of 
+skin cancer with more than 4 million cases diagnosed yearly in the 
+United States. Squamous cell carcinoma is the second most com-
+mon form with more than 1 million cases per year in the United 
+States. Organ transplant patients, especially those undergoing renal 
+transplantation, are approximately 100 times more likely than the 
+general public to develop squamous cell carcinoma. Actinic kera-
+tosis is the most common pre-cancer, affecting more than 58 mil-
+lion Americans (Skin Cancer Foundation: Skin Cancer Facts & 
+Statistics, 2017).
+Melanoma is the most lethal form of not only skin cancer, but 
+most other malignancies. One person dies of melanoma every hour. 
+An estimated 87,110 new cases of invasive melanoma will be diag-
+nosed in the United States and 9730 people will die of melanoma 
+in 2017. Thus, although melanoma accounts for less than 1% of 
+skin cancers, it causes most skin cancer-related deaths (Skin Cancer 
+Foundation: Skin Cancer Facts & Statistics, 2017). The vast major-
+ity of melanoma is caused by ultraviolet radiation—both natural and 
+artificial (tanning salons). In a UK study, 86% of melanomas could 
+be attributed to UV exposure (Parkin et al., 2011). The estimated 
+5-year survival rate for patients whose melanoma is detected early 
+is about 98% in the United States. The survival rate falls to 62% 
+when the disease reaches the lymph nodes, and 18% when the dis-
+ease metastasizes to distant organs (Skin Cancer Foundation: Skin 
+Cancer Facts & Statistics, 2017). The risk for melanoma appears 
+to double in individuals who have had more than five lifetime sun-
+burns (Pfahlberg et al., 2001).
+Regular daily use of an SPF 15 or higher sunscreen reduces 
+the risk of developing squamous cell carcinoma by about 40% 
+(Green et al., 1999) and the risk of developing melanoma by 50% 
+(Green et al., 2011). The annual cost of treating skin cancers in the 
+United States is estimated at $8.1 billion: about $4.8 billion for 
+non-melanoma skin cancers and $3.3 billion for melanoma (Guy 
+et al., 2014). In the EU, there have been intense efforts to further 
+elucidate, prevent, and recognize that skin cancer is an occupational 
+disease among outdoor workers (John et al., 2016).
+UVB induces pyrimidine dimers and 8-oxoguanine modifica-
+tions, thereby eliciting mutations in critical genes (Melnikova and 
+Ananthaswamy, 2005; Nishigori, 2006). The p53 tumor suppressor
+
+Toxic Responses of the Skin
+Chapter 19
+971
+gene is a major target in which damage occurs and is detectable 
+in most UV-induced squamous cells carcinomas. Because the p53 
+protein arrests cell cycling until DNA damage is repaired, and may 
+also induce apoptosis, thus, its loss destabilizes the genome of 
+initiated cells and gives them a growth advantage. UV light also 
+has immunosuppressive effects that may help skin tumors survive. 
+Skin cancer incidence is highest in the tropics in pale complexioned 
+individuals, particularly at sites on the head and neck that receive 
+the most intense exposure. Individuals with xeroderma pigmentosa, 
+who are deficient in repair enzymes for pyrimidine dimers, must 
+strictly avoid sun exposure to prevent the occurrence of pre-malig-
+nant and malignant lesions at an extremely early age.
+Chemically Induced Skin Cancers
+As previously mentioned, a landmark epidemiological investiga-
+tion by Percivall Pott in 1775 connected soot with scrotal squa-
+mous cell cancer, which was prevalent among chimney sweeps in 
+England. Since that time, substances rich in polycyclic aromatic 
+hydrocarbons (coal tar, creosote, etc.) have become recognized as 
+skin carcinogens both in humans and animals (Voelter-Mahlknecht 
+et al., 2007). With their variable content of polycyclic aromatic 
+hydrocarbons and nitrosamines, mineral oils have a long history of 
+causing skin cancer in the occupational arena among, for example, 
+metal workers (Tolbert, 1997). Polycyclic aromatic compounds 
+alone are relatively inert chemically, but they can accumulate in 
+cellular membranes and thus perturb function if not removed. They 
+are hydroxylated by a number of cytochrome P450 isoenzymes, 
+primarily 1A1 and 1B1 in epidermal cells, and then conjugated 
+for disposal from the body. Oxidative biotransformation, how-
+ever, produces electrophilic epoxides that can form DNA adducts. 
+Phenols, produced by rearrangements of the epoxide, can be oxi-
+dized further to electrophilic quinones that generate ROS leading to 
+DNA adducts, oxidized bases, and abasic sites (Park et al., 2006). 
+Occupations at risk of skin cancer from exposure to these com-
+pounds (e.g., roofing) often involve considerable sun exposure as 
+well. As a major regulator of induction of CYP1A1, and to a lesser 
+extent CYP1B1, the aryl hydrocarbon receptor (AhR) plays a criti-
+cal role in the response of epidermal cells to polycyclic aromatic 
+hydrocarbons (Swanson, 2004). While the role of AhR polymor-
+phisms in the development of skin cancers has been well demon-
+strated in murine models (Shimizu et al., 2000; De Souza et al., 
+2009), screening efforts have not confirmed that this observation is 
+relevant to humans.
+Skin Tumor Promotion
+As with all cancers, the development of skin cancers can be sim-
+plistically viewed as a three-step model: initiation, promotion, and 
+progression. Initiation is a rapid and irreversible event following 
+limited exposure, and the cellular changes persist until cell death. 
+Promotion is reversible and requires frequent exposure to the pro-
+moter to enhance survival of the transformed cell. Progression 
+follows sufficient exposure to the promoter and is irreversible, 
+leading to chromosomal rearrangements during mitosis. It is this 
+final trigger to genetic instability that subsequently leads to a cell’s 
+malignant potential. In this model, the skin is treated once with 
+a low dose of an initiator, such as a polycyclic aromatic hydro-
+carbon. However, tumors do not develop unless there is subse-
+quent treatment with a promoter, which must be applied numerous 
+times and at frequent intervals (e.g., twice per week for 3 months). 
+Application of the promoter need not start immediately after ini-
+tiation, but if it is not continued long enough, or if it is applied 
+before or without the initiator, tumors do not develop. Analysis of 
+the results with this three-stage model can be extrapolated to more 
+complicated (and likely realistic), multi-hit, multi-stage models 
+(Owens et al., 1995)
+A number of natural products are tumor promoters, many of 
+which alter phosphorylation pathways. The best studied example, 
+and one of the most potent, is the active ingredient of croton oil, 
+12-O-tetradecanoylphorbol-13-acetate, which transiently stimulates 
+then chronically depletes protein kinase C in epidermis (Fournier 
+and Murray, 1987). A number of other phorbol esters have similar 
+promoting effects.
+Another groups of promoting agents, for example, okadaic 
+acid, act as phosphatase inhibitors. Calcium channel modulators 
+and free radical generators can also act as skin cancer promoters. 
+Sensitivity to tumor promotion is an important factor in the relative 
+sensitivity to skin carcinogenesis among different animal species 
+(Poland et al., 1982). Much effort is currently focused on the sig-
+nal transduction pathway(s) that is (are) perturbed by the treatment 
+with these chemicals. The findings that chromate (a human lung 
+carcinogen) in drinking water enhances tumor yield in mouse skin 
+initiated by ultraviolet light suggest that generation of ROS can be 
+an effective skin cancer promoter, and raises concerns about drink-
+ing water standards for hexavalent chromium in the United States 
+(Davidson et al., 2004).
+Arsenic
+Arsenic is an abundant element near the earth’s crust that is encoun-
+tered routinely in small doses in the air, water, and food. It has long 
+been known to affect human health (Hughes et al., 2011). In earlier 
+times, high exposures occurred from medication (such as Fowler’s 
+solution, potassium arsenite, for asthma) and from pesticides 
+(sodium arsenite and lead arsenite), all of which have been phased 
+out in the United States. Around the world, substantial exposures 
+can occur as a result of dust from mining operations, smelting 
+fumes, or from leachate in waterways. Glass manufacturing and 
+food dried using coal with high arsenic content can also contribute 
+to exposures. The environmental burden is increased by disposal of 
+large volumes of wood preserved with chromated copper arsenic, 
+among other sources. Well water derived from geological forma-
+tions with high arsenic content is now recognized as a major health 
+concern, highlighted by populations in the tens of millions at risk 
+in Bangladesh and India (Tapio and Grosche, 2006). However, even 
+in the United States, arsenic in drinking water remains a concern 
+(Mayer and Goldman, 2016).
+Studies in Southwestern Taiwan have shown an association 
+between high arsenic exposure and altered skin pigmentation, 
+hyperkeratosis of the palms and soles, impaired circulation reflect-
+ing endothelial cell damage (“black foot” disease), and carcinoma 
+(skin, lung, bladder, liver, and other organs). More recent concen-
+tration dependent studies in Bangladesh show hyperpigmentation 
+and keratoses occurring with drinking water concentrations close 
+to 50 ppb (Argos et al., 2011), which was the former U.S. drinking 
+water standard. In 2006, the United States reduced its standard for 
+drinking water to 10 ppb. Furthermore, there appears to be syner-
+gism between the toxic effects of arsenic and smoking (lung and 
+bladder), sun exposure (skin), and fertilizer use (liver) (Melkonian 
+et al., 2011).
+Due to the observation that even low exposures to arsenic 
+can have adverse health effects, much effort has been devoted to 
+understanding its mechanism of action. Arsenic is a very weak 
+mutagen in bacterial and mammalian cell lines, but it does induce 
+DNA deletions and chromosome aberrations. It appears to act as a 
+co-mutagen by interfering with DNA repair (Rossman et al., 2004).
+
+972
+TARGET ORGAN TOXICITY
+Unit IV
+Consistent with this view, high arsenic exposure from drinking 
+water promotes skin lesions in chewers of betel nut (McCarty et al., 
+2006), a source of genotoxic nitrosamines that are activated by oral 
+mucosal cytochrome p450 (Miyazaki et al., 2005). The ability of 
+arsenic to inactivate poly-(ADP-ribose) polymerase-1 by binding to 
+its zinc finger motifs may be a significant factor in this regard (Zhou 
+et al., 2011). Generation of ROS in target cells is another proposed 
+mechanism of arsenic’s carcinogenicity, and its other pathologi-
+cal effects. The generation of ROS may result from activation of 
+NADPH oxygenases (Cooper et al., 2009), damage to mitochondria 
+(Liu et al., 2005), or, in the case of methylated forms, autoxidation 
+(Kitchin and Ahmad, 2003). Inorganic arsenic is a transplacental 
+carcinogen for various tissues in mice (Waalkes et al., 2004), most 
+likely because it amplifies stem cell compartments, including those 
+in the epidermis (Tokar et al., 2011). Consistent with this observa-
+tion, arsenite derivatives prevent differentiation and preserve stem 
+characteristics in human keratinocyte culture lines (Reznikova 
+et al., 2010).
+ACKNOWLEDGMENTS
+The editor and author recognize the contributions of previous 
+authors of this chapter: Edward A. Emmett (4th edition), Robert H. 
+Rice and David E. Cohen (5th and 6th editions), and Robert H. Rice 
+and Theodora M. Mauro (7th and 8th editions).
+REFERENCES
+Abe R, Shimizu T, Shibaki A, et al. Toxic epidermal necrolysis and Stevens-
+Johnson syndrome are induced by soluble Fas ligand. Am J Pathol. 
+2003;162:1515–1520.
+Ahmad N, Mukhtar H. Cytochrome p450: a target for drug development for 
+skin diseases. J Invest Dermatol. 2004;123:417–425.
+Akbari O, Umetsu DT. Role of regulatory dendritic cells in allergy and 
+asthma. Curr Allergy Asthma Rep. 2005;5:56–61.
+Almeida A, Sarmento B, Rodrigues F. Insights on in vitro models for 
+safety and toxicity assessment of cosmetic ingredients. Int J Pharm. 
+2017;519:178–185.
+Amaro C, Goossens A. Immunological occupational contact urticaria 
+and contact dermatitis from proteins: A review. Contact Dermatitis. 
+2008;58:67–75.
+Amin S, Freeman S, Maibach HI. Systemic toxicity in man secondary to per-
+cutaneous absorption. In: Roberts MS, Walters KA, eds. Dermal Absorption 
+and Toxicity Assessment. New York: Marcel Dekker; 1998:103–125.
+Amin S, Tanglertsampan C, Maibach HI. Contact urticatia syndrome: 1997. 
+Am J Contact Dermatitis. 1997;8:15–19.
+Ancona AA. Occupational acne. Occup Med. 1986;1:229–243.
+Ardern-Jones MR, Friedmann PS. Skin manifestations of drug allergy. Br J 
+Clin Pharmacol. 2011;71:672–683.
+Argos M, Kalra T, Pierce BL, et al. A prospective study of arsenic exposure 
+from drinking water and incidence of skin lesions in Bangladesh. Am J 
+Epidemiol. 2011;174:185–194.
+Arora B, Kumar L, Sharma A, Wadhwa J, Kochupillai V. Pigmentary 
+changes in chronic myeloid leukemia patients treated with imatinib 
+mesylate. Annals Oncol. 2004;15:358–359.
+Aubin F, Mousson C. Ultraviolet light-induced regulatory (suppressor) T 
+cells: an approach for promoting induction of operational allograft toler-
+ance? Transplantation. 2004;77:S29–31.
+Basketter D, Crozier J, Hubesch B, et al. Optimised testing strategies for 
+skin sensitization—the LLNA and beyond. Regul Toxicol Pharmacol. 
+2012;64:9–16.
+Basko-Plluska JL, Thyssen JP, Schalock PC. Cutaneous and systemic hyper-
+sensitivity reactions to metallic implants. Dermatitis. 2011;22:65–79.
+Bauch C, Kolle SN, Ramirez T, et al. Putting the parts together: combin-
+ing in vitro methods to test for skin sensitizing potentials. Regul Toxicol 
+Pharmacol. 2012;63:489–504.
+Belsito DV. The pathophysiology of allergic contact hypersensitivity. Clin 
+Rev Allergy. 1989;7:347–379.
+Belsito DV. Patch-testing: after 100 years, still the gold standard in diag-
+nosing cutaneous delayed-type hypersensitivity. In: Kurth R, ed. 
+Regulatory Control and Standardization of Allergenic Extracts: The 
+Eighth International Paul-Ehrlich-Seminar. Stuttgart (Germany): Gustav 
+Fischer; 1997:195–202.
+Belsito DV. Occupational contact dermatitis: etiology, prevalence, and 
+resultant impairment/disability. J Am Acad Dermatol. 2005;53:303–313.
+Belsito DV. Contact dermatitis: allergic and irritant. In: Gaspari AA, Tyring 
+SK, eds. Clinical and Basic Immunodermatology. London: Springer-
+Verlag; 2008:171–192: chap. 12.
+Belsito DV, Dersarkissian RM, Thorbecke RJ, et al. Reversal by lympho-
+kines of the age-related hyporesponsiveness to contact sensitization 
+and reduced Ia expression on Langerhans cells. Arch Dermatol Res. 
+1987;279:S76–80.
+Belsito DV, Possick LE. Age-related changes in allergic contact hypersen-
+sitivity: functional T cell deficiencies are primarily responsible. J Invest 
+Dermatol. 1988;90:546.
+Bornhövd E, Burgdorf WH, Wollenberg A. Macrolactam immunomodu-
+lators for topical treatment of inflammatory skin diseases. J Am Acad 
+Dermatol. 2001;45:736–743.
+Brancaccio RR, Alvarez MS. Contact allergy to foods. Dermatol Ther. 
+2004;17:302–313.
+Buchholz BA, Fultz E, Haack KW, et al. HPLC-accelerator MS measure-
+ment of atrazine metabolites in human urine after dermal exposure. 
+Analyt Chem. 1999;71:3519–3525.
+Burdick AE, Mathias CGT. The contact urticaria syndrome. Dermatol Clin. 
+1985;3:71–84.
+Busse KL, Maibach HI. Transdermal estradiol and testosterone transfer in 
+man: existence, models, and strategies for prevention. Skin Pharmacol 
+Physiol. 2011;24:57–66.
+Bylaite M, Grigaitiene J, Lapinskaite GS. Photodermatoses: classification, 
+evaluation and management. Br J Dermatol. 2009;161(suppl 3):61–68.
+Cavani A. Breaking tolerance to nickel. Toxicology. 2005;209:119–121.
+Chase MW. Inhibition of experimental drug allergy by prior feeding of the 
+sensitizing agent. Proc Soc Exp Biol Med. 1946;61:257–263.
+Chung WH, Hung SI, Hong HS, et al. Medical genetics: a marker for 
+Stevens-Johnson syndrome. Nature. 2004;428:486.
+Chung WH, Hung SI, Yang JY, et al. Granulysin is a key mediator for dis-
+seminated keratinocyte death in Stevens-Johnson syndrome and toxic 
+epidermal necrolysis. Nat Med. 2008;14:1343–1350.
+Cooper KL, Liu KJ, Hudson LG. Enhanced ROS production and redox 
+signaling with combined arsenite and UVA exposure: contribution of 
+NADPH oxidase. Free Radical Biol Med. 2009;47:381–388.
+Cunliffe WJ, Holland DB, Jeremy A. Comedone formation: etiology, clini-
+cal presentation, and treatment. Clin Dermatol. 2004;22:367–374.
+Davidson T, Kluz T, Burns F, et al. Exposure to chromium (VI) in the drink-
+ing water increases susceptibility to UV-induced skin tumors in hairless 
+mice. Toxicol Appl Pharmacol. 2004;196:431–437.
+deKoven JG, Warshaw EM, Belsito DV, et al. North American contact der-
+matitis group patch test results 2013–2014. Dermatitis. 2017;28:33–46.
+Deleo VA. Photocontact dermatitis. Dermatol Ther. 2004;17:279–288.
+Del Rosario RN, Barr RJ, Graham BS, Kaneshiro S. Exogenous and 
+endogenous cutaneous anomalies and curiosities. Am J Dermatopathol. 
+2005;27:259–267.
+Desai P, Patlolla RR, Singh M. Interaction of nanoparticles and cell-pene-
+trating peptides with skin for transdermal drug delivery. Mol Membrane 
+Biol. 2010;27:247–259.
+De Souza VR, Cabrera WK, Galvan A, et al. Aryl hydrocarbon receptor 
+polymorphism modulates DMBA-induced inflammation and carcinogen-
+esis in phenotypically selected mice. Int J Cancer. 2009;124:1478–1482.
+Doutre MS. Occupational contact urticaria and protein contact dermatitis. 
+Eur J Dermatol. 2005;15:419–424.
+Draize JH, Woodard G, Calvery HO. Methods for the study of irritation and 
+toxicity of substances applied topically to the skin and mucous mem-
+branes. J Parmacol Exp Ther. 1944;82:377–390.
+Elias PM. Role of lipids in barrier function of the skin. In: Mukhtar H, ed. 
+Pharmacology of the Skin. Boca Raton, FL: CRC Press; 1992:29–38.
+
+Toxic Responses of the Skin
+Chapter 19
+973
+Elias PM. Stratum corneum defensive functions: an integrated view. J Invest 
+Dermatol. 2005;125:183–200.
+Elias PM, Schmuth M. Abnormal skin barrier in the etiopathogenesis of 
+atopic dermatitis. Curr Opin Allergy Clin Immunol. 2009;9:437–446.
+Elmets CA, Bergstresser PR, Tigelaar RE, et al. Analysis of the mechanism 
+of unresponsiveness produced by haptens painted on skin exposed to low 
+dose ultraviolet radiation. J Exp Med. 1983;158:781–794.
+Epstein JH. Phototoxicity and photoallergy. Semin Cutan Med Surg. 
+1999;18:274–284.
+Etienne G, Cony-Makhoul P, Mahon FX. Imatinib mesylate and gray hair. 
+N Engl J Med. 2002;347:446.
+European Council and Parliament, Regulation (EC) No. 1223/2009, 30 
+November, 2009. Available at: http://eur-lex.europa.eu/legal-content/
+EN/TXT/?qid=1489942612995&uri=CELEX:32009R1223. Accessed 
+March 13, 2017.
+European Multicentre Photopatch Test Study (EMCPPTS) Taskforce. 
+A European multicentre photopatch test study. Br J Dermatol. 
+2012;166:1002–1009.
+Fan TY, Goff U, Song L, et al. N-Nitrosodiethanolamine in cosmetics, 
+lotions and shampoos. Food Cosmet Toxicol. 1977;15:423–430.
+Farkas R, Feeney J. Clinical review: Adverse event, Carbamazepine. 2007. 
+Available at: http://www.accessdata.fda.gov/drugsatfda_docs/nda/200
+7/016608s098,020712s029,021710_ClinRev.pdf. Accessed March 13, 
+2017.
+Federal Drug Administration. Banned devices; ban powdered surgeon’s 
+gloves, powdered patient examination gloves, and absorbable powder for 
+lubricating a surgeon’s glove. Federal register: 81 FR 91722, December 
+19, 2016.
+Fisher AA. Unique reactions of scrotal skin to topical agents. Cutis. 
+1989;44:445–447.
+Fournier A, Murray AW. Application of phorbol ester to mouse skin causes a 
+rapid and sustained loss of protein kinase C. Nature. 1987;330:767–769.
+Friedmann PS. The relationships between exposure dose and response in 
+induction and elicitation of contact hypersensitivity in humans. Br J 
+Dermatol. 2007;157:1093–1102.
+Gawkrodger DJ, Harris G, Bojar RA. Chloracne in seven organic chemists 
+exposed to novel polycyclic halogenated chemical compounds (triazolo-
+quinoxalines). Br J Dermatol. 2009;161:939–943.
+Gerberick F, Aleksic M, Basketter D, et al. Chemical reactivity measure-
+ment and the predicitve identification of skin sensitisers. The report 
+and recommendations of ECVAM Workshop 64. Altern Lab Anim. 
+2008;36:215–242.
+Gerberick GF. The use of peptide reactivity assays for skin sensitisa-
+tion hazard identification and risk assessment. Altern Lab Anim. 
+2016;44:437–442.
+Gerberick GF, Troutman JA, Foertsch LM, et al. Investigation of peptide 
+reactivity of pro-hapten skin sensitizers using a peroxidase-peroxide oxi-
+dation system. Toxicol Sci. 2009;112:164–174.
+Gerberick GF, Vassallo JD, Bailey RE, Chaney JG, Morrall SW, Lepoittevin 
+JP. Development of a peptide reactivity assay for screening contact aller-
+gens. Toxicol Sci. 2004;81:332–343.
+Geusau A, Abraham K, Geissler K, Sator MO, Stingl G, Tschachler E. 
+Severe 2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD) intoxication: clini-
+cal and laboratory effects. Environ Health Perspect. 2001;109:865–869.
+Geyer HJ, Schramm KW, Feicht EA, et al. Half-lives of tetra-, penta-, hexa-, 
+hepta-, and octachlorodibenzo-p-dioxin in rats, monkeys, and humans: a 
+critical review. Chemosphere. 2002;48:631–644.
+Gibbs S, van de Sandt JJ, Merk HF, Lockley DJ, Pendlington RU, Pease 
+CK. Xenobiotic metabolism in human skin and 3D human skin recon-
+structs: a review. Curr Drug Metab. 2007;8:758–772.
+Girolomoni G, Gisondi P, Ottaviani C, et al. Immunoregulation of allergic 
+contact dermatitis. J Dermatol. 2004;31:264–270.
+Green A, Williams G, Neale R, et al. Daily sunscreen application and 
+betacarotene supplementation in prevention of basal-cell and squamous-
+cell carcinomas of the skin: a randomized controlled trial. Lancet. 
+1999;354:723–729.
+Green AC, Williams GM, Logan V, Strutton GM. Reduced melanoma 
+after regular sunscreen use: randomized trial follow-up. J Clin Oncol. 
+2011;29:257–263.
+Guenther D, Thomas P, Kendoff D, et al. Allergic reactions in arthroplasty: 
+myth or serious problem? Int Orthop. 2016;40:239–244.
+Guy GP, Machlin SR, Ekwueme DU, Yabroff KR. Prevalence and costs of 
+skin cancer treatment in the U.S., 2002-2006 and 2007-2011. Am J Prev 
+Med. 2014;104(4):e69–e74.
+Guy RH. Predicting the rate and extent of fragrance chemical absorption 
+into and through the skin. Chem Res Toxicol. 2010a;23:864–870.
+Guy RH. Transdermal drug delivery. In: Schäfer-Korting M, ed. Drug 
+Delivery, Handbook of Experimental Pharmacology. Vol 197. Berlin, 
+Germany: Springer Verlag; 2010b:399–410.
+Haranosono Y, Kurata M, Sakaki H. Establishment of an in silico photo-
+toxicity prediction method by combining descriptors related to photo-
+absorption and photo-reaction. J Toxicol Sci. 2014;39:655–664.
+Harr T, French LE. Toxic epidermal necrolysis and Stevens-Johnson syn-
+drome. Orphanet J Rare Dis. 2010;5:39.
+Heidingsfeld ML. Histopathology of paraffin prosthesis. J Cutan Dis. 
+1906;24:513–521.
+Henry B, Foti C, Alsante K. Can light absorption and photostability data be 
+used to assess the photosafety risks in patients for a new drug molecule? 
+J Photchem Photobiol B. 2009;96:57–62.
+Herold DA, Rodeheaver GT, Bellamy WT, et al. Toxicity of topical polyeth-
+ylene glycol. Toxicol Appl Pharmacol. 1982;65:329–335.
+Honari G. Photoallergy. Rev Environ Health. 2014;29:233–242.
+Hoya M, Hirota M, Suzuki M, et al. Development of an in vitro photosen-
+sitization assay using human monocyte-derived cells. Toxicol In Vitro. 
+2009;23:911–918.
+Hughes MF, Beck BD, Chen Y, Lewis AS, Thomas DJ. Arsenic expo-
+sure and toxicology: a historical perspective. Toxicol Sci. 2011;123: 
+305–332.
+Hu T, Khambatta ZS, Hayden PJ, et al. Xenobiotic metabolism gene expres-
+sion in the EpiDermin vitro 3D human epidermis model compared to 
+human skin. Toxicol In Vitro. 2010;24:1450–1463.
+Jadassohn J. Zur Kenntnis der medikamentössen Dermatosen. In: Jarisch 
+A, Neisser A, eds. Verhandlungen der Deutschen Dermatologischen 
+Gesellschaft Graz (Austria): V. Kongress; 1895:103–129.
+John SM, Trakatelli M, Gehring R, et al. Consensus Report: recognizing 
+non-melanoma skin cancer, including actinic keratosis, as an occu-
+pational disease—a call to action. J Eur Acad Dermatol Venereol. 
+2016;30(suppl 3):38–45.
+Kanwar AJ, Narang T. Anagen effluvium. Indian J Dermatol Venereol 
+Leprol. 2013;79:604–12.
+Kao J, Hall J. Skin absorption and cutaneous first pass metabolism of topical 
+steroids: in vitro studies with mouse skin in organ culture. J Pharmacol 
+Exp Ther. 1987;241:482–487.
+Kaur RR, Kirby W, Maibach H. Cutaneous allergic reactions to tattoo ink. J 
+Cosmet Dermatol. 2009;8:295–300.
+Khan WA, Das M, Stick S, Javed S, Bickers DR, Mukhtar H. Induction of 
+epidermal NAD(P)H:quinone reductase by chemical carcinogens: a pos-
+sible mechanism for the detoxification. Biochem Biophys Res Commun. 
+1987;146:126–133.
+Kitchin KT, Ahmad S. Oxidative stress as a possible mode of action for 
+arsenic carcinogenesis. Toxicol Lett. 2003;137:3–13.
+Koh D, Ng V, Leow Y-H, Goh CL. A study of natural rubber latex aller-
+gens in gloves used by healthcare workers in Singapore. B J Dermatol. 
+2005;153:954–959.
+Krutmann J, Bouloc A, Sore G, Bernard BA, Passeron T. The skin aging 
+exposome. J Dermatol Sci. 2017;85:152–161.
+Kurita M, Shimauchi T, Kobayashi M, et al. Induction of keratinocyte 
+apoptosis by photosensitizing chemicals plus UVA. J Dermatol Sci. 
+2007;45:105–112.
+Kwangsukstith C, Maibach HI. Effect of age and sex on the induction and elici-
+tation of allergic contact dermatitis. Contact Dermatitis. 1995;33:289–298.
+Kynemund Pedersen L, Agner T, Held E, Johansen JD. Methyldibro­
+moglutaronitrile in leave-on products elicits contact allergy at low con-
+centration. Br J Dermatol. 2004;151:817–822.
+Ladizinski B, Mistry N, Kundu RV. Widespread use of toxic skin light-
+ening compounds: medical and psychosocial aspects. Dermatol Clin. 
+2011;29:111–123.
+Lahti A. Contact urticaria to plants. Clin Dermatol. 1986;4:127–136.
+
+974
+TARGET ORGAN TOXICITY
+Unit IV
+Liang Y, Chang C, Lu Q. The genetics and epigenetics of atopic derma-
+titis—filaggrin and other polymorphisms. Clin Rev Allergy Immunol. 
+2016;51:315–328.
+Lim HW, James WD, Rigel DS, Maloney ME, Spencer JM, Bhushan R. 
+Adverse effects of ultraviolet radiation from the use of indoor tanning 
+equipment: time to ban the tan. J Am Acad Dermatol. 2011;64:893–902.
+Lim HW, Thorbecke GJ, Baer RL, Gigli I. Effect of indomethacin on 
+alteration of ATPase-positive Langerhans cell density and cutaneous 
+sunburn reaction induced by ultraviolet-B radiation. J Invest Dermatol. 
+1983;81:455–458.
+Limsuwan T, Demoly P. Acute symptoms of drug hypersensitivity (urti-
+caria, angioedema, anaphylaxis, anaphylactic shock). Med Clin North 
+Am. 2010;94:691–710.
+Liu SX, Davidson MM, Tang X, et al. Mitochondrial damage mediates geno-
+toxicity of arsenic in mammalian cells. Cancer Res. 2005;65:3236–3242.
+Lovell WW, Jones PA. Evaluation of mechanistic in vitro tests for the dis-
+crimination of photoallergic and photoirritant potential. Altern Lab Anim. 
+2000;28:707–724.
+Luu-The V, Duche D, Ferraris C, Meunier JR, Leclaire J, Labrie F. 
+Expression profiles of phases 1 and 2 metabolizing enzymes in human 
+skin and the reconstructed skin models Episkin and full thickness model 
+from Episkin. J Steroid Biochem Mol Biol. 2009;116:178–186.
+Lynde CW, Sapra S. Predictive testing of the melanocortin 1 receptor for 
+skin cancer and photoaging. Skin Therapy Lett. 2010;15:5–7.
+Magnusson B, Kligman AM. The identification of contact allergens by 
+animal assay. The guinea pig maximization test. J Invest Dermatol. 
+1969;52:268–276.
+Marcussen PV. Primary irritant patch-test reactions in children. Arch 
+Dermatol. 1963;87:378–382.
+Mark BJ, Slavin RG. Allergic contact dermatitis. Med Clin North Am. 
+2006;90:169–185.
+Marker O, Thomsen AR. T-cell effector function and unresponsiveness 
+in the murine lymphocytic choriomeningitis virus infection. I. On the 
+mechanism of a selective suppression of the virus-specific delayed-type 
+hypersensitivity response. Scand J Immunol. 1986;24:127–135.
+Martin-Bouyer G, Lebreton R, Toga M, Stolley PD, Lockhart J. Outbreak of 
+accidental hexachlorophene poisoning in France. Lancet. 1982;1:91–95.
+Mattsson U, Halbritter S, Morner Serikoff E, Christerson L, Warfvinge G. 
+Oral pigmentation in the hard palate associated with imatinib mesylate 
+therapy: a report of three cases. Oral Surg Oral Med Oral Pathol Oral 
+Radiol Endod. 2011;111:e12–e16.
+Maxwell G, MacKay C, Cubberley R, et al. Applying the skin sensitisation 
+adverse outcome pathway (AOP) to quantitative risk assessment. Toxicol 
+In Vitro. 2014;28:8–12.
+Mayer JE, Goldman RH. Arsenic and skin cancer in the USA: the current 
+evidence regarding arsenic-contaminated drinking water. Int J Dermatol. 
+2016;55:e585–e591.
+McCarty KM, Houseman EA, Quamruzzaman Q, et al. The impact of diet 
+and betel nut use on skin lesions associated with drinking-water arsenic 
+in Pabna, Bangladesh. Environ Health Perspect. 2006;114:334–340.
+McGuire J, Hendee J. Biochemical basis for depigmentation of skin by phe-
+nolic germicides. J Invest Dermatol. 1971;57:256–261.
+McKnight RH, Spiller HA. Green tobacco sickness in children and adoles-
+cents. Public Health Rep. 2005;120:602–605.
+McNamee PM, Api AM, Basketter DA, et al. A review of critical factors in 
+the conduct and interpretation of the human repeat insult patch test. Regul 
+Toxicol Pharmacol. 2008;52:24–34.
+Melkonian S, Argos M, Pierce BL, et al. A prospective study of the syner-
+gistic effects of arsenic exposure and smoking, sun exposure, fertilizer 
+use, and pesticide use on risk of premalignant skin lesions in Bangladeshi 
+men. Am J Epidemiol. 2011;173:183–191.
+Mellor AL, Munn DH. IDO expression by dendritic cells: tolerance and 
+tryptophan catabolism. Nat Rev Immunol. 2004;4:762–774.
+Melnikova VO, Ananthaswamy HN. Cellular and molecular events leading 
+to the development of skin cancer. Mutation Res. 2005;571:91–106.
+Miyazaki M, Sugawara E, Yoshimura T, Yamazaki H, Kamataki T. 
+Mutagenic activation of betel quid-specific N-nitrosamines catalyzed 
+by human cytochrome P450 coexpressed with NADPH-cytochrome 
+P450 reductase in Salmonella typhimurium YG7108. Mutation Res. 
+2005;581:165–171.
+Moan J, Peng Q. An outline of the hundred-year history of PDT. Anticancer 
+Res. 2003;23:3591–3600.
+Murahata RI, Crowe DM, Roheim JR. The use of transepidermal water loss 
+to measure and predict the irritation response to surfactants. Int J Cosmet 
+Sci. 1986;8:225–231.
+Nassif A, Moslehi H, Le Gouvello S, et al. Evaluation of the potential 
+role of cytokines in toxic epidermal necrolysis. J Invest Dermatol. 
+2004;123:850–855.
+Natsch A, Ryan CA, Foertsch L, et al. A dataset on 145 chemicals tested in 
+alternative assays for skin sensitization undergoing prevalidation. J Appl 
+Toxicol. 2013;33:1337–1352.
+National Institute for Occupational Safety and Health. Workplace Safety & 
+Health Topics: skin exposures & effects. Available at: https://www.cdc.
+gov/niosh/topics/skin/default.html. Accessed March 13, 2017a.
+National Institute for Occupational Safety and Health. Workplace Safety & 
+Health Topics: Skin Notation (SK) Profiles. Available at: https://www.
+cdc.gov/niosh/topics/skin/skin-notation_profiles.html. Accessed March 
+13, 2017b.
+Nethercott JR, Holness DL. Disease outcome in workers with occupational 
+skin disease. J Am Acad Dermatol. 1994;30:569–574.
+Netzlaff F, Lehr CM, Wertz PW, Schaefer UF. The human epidermis models 
+EpiSkin, SkinEthic and EpiDerm: an evaluation of morphology and their 
+suitability for testing phototoxicity, irritancy, corrosivity, and substance 
+transport. Eur J Pharm Biopharm. 2005;60:167–178.
+Nishigori C. Cellular aspects of photocarcinogenesis. Photochem Photobiol 
+Sci. 2006;5:208–214.
+Nossal GJ. Molecular and cellular aspects of immunologic tolerance. Eur J 
+Biochem. 1991;202:729–737.
+Oesch F, Fabian E, Oesch-Bartlomowicz B, Werner C, Landsiedel R. Drug-
+metabolizing enzymes in the skin of man, rat, and pig. Drug Metab Rev. 
+2007;39:659–698.
+Onoue S, Tsuda Y. Analytical studies on the prediction of photosensi-
+tive/phototoxic potential of pharmaceutical substances. Pharm Res. 
+2006;23:156–164.
+Organisation for Economic Co-operation and Development. OECD guide-
+lines for the testing of chemicals, Section 4, Test No. 428: skin absorption: 
+in vitro method. Available at: http://www.oecd-ilibrary.org/environ-
+ment/test-no-428-skin-absorption-in-vitro-method_9789264071087-en. 
+Accessed March 13, 2017.
+Organisation for Economic Co-operation and Development. OECD guide-
+lines for the testing of chemicals, Section 4, Test No. 430: in vitro 
+skin corrosion: transcutaneous electrical resistance test method (TER). 
+Available at: http://www.oecd-ilibrary.org/environment/test-no-430-in-
+vitro-skin-corrosion-transcutaneous-electrical-resistance-test-method-
+ter_9789264203808-en. Accessed March 13, 2017.
+Organisation for Economic Co-operation and Development. OECD guide-
+lines for the testing of chemicals, Section 4, Test No. 431: in vitro skin 
+corrosion: human skin model test. Available at: http://www.oecd-ilibrary.
+org/environment/test-no-431-in-vitro-skin-corrosion-human-skin-
+model-test_9789264071148-en. Accessed March 31, 2017.
+Organisation for Economic Co-operation and Development. OECD guide-
+lines for the testing of chemicals, Section 4, Test No. 432: in vitro 3T3 
+NRU phototoxicity test. Available at: http://www.oecd-ilibrary.org/con-
+tent/book/9789264071162-en. Accessed March 13, 2017.
+Organisation for Economic Co-operation and Development. OECD guide-
+lines for the testing of chemicals, Section 4, Test No. 435: in vitro mem-
+brane barrier test method for skin corrosion. Available at: http://www.
+oecd-ilibrary.org/environment/test-no-435-in-vitro-membrane-barrier-
+test-method-for-skin-corrosion_9789264242791-en. Accessed March 
+13, 2017.
+Organisation for Economic Co-operation and Development. OECD guide-
+lines for the testing of chemicals, Section 4, Test No. 439: in vitro skin 
+irritation: reconstructed human epidermis test method. Available at: 
+http://www.oecd-ilibrary.org/environment/test-no-439-in-vitro-skin-irri-
+tation-reconstructed-human-epidermis-test-method_9789264242845-en. 
+Accessed March 13, 2017.
+Organisation for Economic Co-operation and Development. OECD 
+guidelines for the testing of chemicals, Section 4, Test No. 442C: in 
+chemico skin sensitisation, direct peptide reactivity assay (DPRA). 
+Available at: http://www.oecd-ilibrary.org/environment/test-no-442c-in-
+
+Toxic Responses of the Skin
+Chapter 19
+975
+chemico-skin-sensitisation_9789264229709-en. Accessed March 13, 
+2017.
+Organisation for Economic Co-operation and Development. OECD 
+guidelines for the testing of chemicals, Section 4, Test No. 442D: in 
+vitro skin sensitisation are-nrf2 luciferase test method. Available at: 
+http://www.oecd-ilibrary.org/environment/test-no-442d-in-vitro-skin-
+sensitisation_9789264229822-en. Accessed March 13, 2017.
+Organisation for Economic Co-operation and Development. OECD guide-
+lines for the testing of chemicals, Section 4, Test No. 442E: in vitro 
+skin sensitisation human cell line activation test (h-CLAT). Available 
+at: 
+http://www.oecd-ilibrary.org/content/book/9789264264359-en. 
+Accessed March 13, 2017.
+Otberg N, Patzelt A, Rasulev U, et al. The role of hair follicles in the percu-
+taneous absorption of caffeine. Br J Clin Pharmacol. 2008;65:488–492.
+Owens DM, Spalding JW, Tennant RW, Smart RC. Genetic alterations 
+cooperate with v-Ha-ras to accelerate multistage carcinogenesis in 
+Tg.AC transgenic mouse skin. Cancer Res. 1995;55:3171–3178.
+Palmer CN, Irvine AD, Terron-Kwiatkowski A, et al. Common loss-of-
+function variants of the epidermal barrier protein filaggrin are a major 
+predisposing factor for atopic dermatitis. Nat Genet. 2006;38:441–446.
+Panteleyev AA, Bickers DR. Dioxin-induced chloracne–reconstructing the 
+cellular and molecular mechanisms of a classic environmental disease. 
+Exp Dermatol. 2006;15:705–730.
+Park JH, Troxel AB, Harvey RG, Penning TM. Polycyclic aromatic hydro-
+carbon (PAH) o-quinones produced by the aldo-keto-reductases (AKRs) 
+generate abasic sites, oxidized pyrimidines, and 8-oxo-dGuo via reactive 
+oxygen species. Chem Res Toxicol. 2006;19:719–728.
+Parkin DM, Mesher D, Sasieni P. Cancers attributable to solar (ultraviolet) 
+radiation exposure in the UK in 2010. Br J Cancer. 2011;105:S66–S69.
+Pascoe D, Moreau L, Sasseville D. Emergent and unusual allergens in cos-
+metics. Dermatitis. 2010;21:127–137.
+Passarini B, Infusino SD, Kasapi E. Chloracne: still cause for concern. 
+Dermatology. 2010;221:63–70.
+Patlewicz G, Casati S, Basketter DA, et al. Can currently available non-ani-
+mal methods detect pre and pro-haptens relevant for skin sensitization? 
+Regul Toxicol Pharmacol. 2016;82:147–155.
+Patlewicz G, Kuseva C, Kesova A, et al. Towards AOP application--imple-
+mentation of an integrated approach to testing and assessment (IATA) 
+into a pipeline tool for skin sensitization. Regul Toxicol Pharmacol. 
+2014;69:529–545.
+Paul C, Wolkenstein P, Adle H, et al. Apoptosis as a mechanism of keratinocyte 
+death in toxic epidermal necrolysis. Br J Dermatol. 1996;134:710–714.
+Percival GH. The treatment of ringworm of the scalp with thallium acetate. 
+Br J Dermatol. 1930;42:59–69.
+Pesatori AC, Consonni D, Rubagotti M, Grillo P, Bertazzi PA. Cancer inci-
+dence in the population exposed to dioxin after the “Seveso accident”: 
+twenty years of follow-up. Environ Health. 2009;8:39.
+Pfahlberg A, Kolmel K-F, Gefeller O. Timing of excessive ultraviolet radia-
+tion and melanoma: epidemiology does not support the existence of a 
+critical period of high susceptibility to solar ultraviolet radiation-induced 
+melanoma. Brit J Dermatol. 2001;144(3):471–475.
+Poland A, Palen D, Glover E. Tumour promotion by TCDD in skin of 
+HRS/J hairless mice. Nature. 1982;300:271–273.
+Pols DH, Wartna JB, Moed H, et al. Atopic dermatitis, asthma and allergic 
+rhinitis in general practice and the open population: a systematic review. 
+Scand J Prim Health Care. 2016;34:143–150.
+Portes P, Grandidier MH, Cohen C, Roguet R. Refinement of the Episkin 
+protocol for the assessment of acute skin irritation of chemicals: follow-
+up to the ECVAM prevalidation study. Toxicol In Vitro. 2002;16:765–770.
+Posada de la Paz M, Philen RM, Borda AI. Toxic oil syndrome: the perspec-
+tive after 20 years. Epidemiol Rev. 2001;23:231–247.
+Posadas SJ, Padial A, Torres MJ, et al. Delayed reactions to drugs show lev-
+els of perforin, granzyme B, and Fas-L to be related to disease severity. J 
+Allergy Clin Immunol. 2002;109:155–161.
+Potter M. Percivall Pott’s contribution to cancer research. Natl Cancer Inst 
+Monogr. 1963;10:1–13.
+Potts RO, Guy RH. Predicting skin permeability. Pharm Res. 
+1992;9:663–669.
+Prausnitz MR, Mikszta JA, Cormier M, Andrianov AK. Microneedle-based 
+vaccines. Curr Top Microbiol Immunol. 2009;333:369–393.
+Prieto P, Cole T, Curren R, et al. Assessment of the predictive capacity of the 
+3T3 Neutral Red Uptake cytotoxicity test method to identify substances 
+not classified for acute oral toxicity (LD50 >2000 mg/kg): results of an 
+ECVAM validation study. Reg Toxicol Pharmacol. 2013;65:344–365.
+Reznikova TV, Phillips MA, Patterson TJ, Rice RH. Opposing actions of 
+insulin and arsenite converge on PKCdelta to alter keratinocyte prolifera-
+tive potential and differentiation. Mol Carcinog. 2010;49:398–409.
+Rietschel RL, Rosenthal LE, Adams RM, et al. Standard patch test screen-
+ing series used diagnostically in young and elderly patients. Am J Contact 
+Dermatitis. 1990;1:53–55.
+Riviere JE, Brooks JD. Predicting skin permeability from complex chemi-
+cal mixtures. Toxicol Appl Pharmacol. 2005;208:99–110.
+Rolsted K, Kissmeyer AM, Rist GM, Hansen SH. Evaluation of cytochrome 
+P450 activity in vitro, using dermal and hepatic microsomes from four 
+species and two keratinocyte cell lines in culture. Arch Dermatol Res. 
+2008;300:11–18.
+Rossman TG, Uddin AN, Burns FJ. Evidence that arsenite acts as a cocar-
+cinogen in skin cancer. Toxicol Appl Pharmacol. 2004;198:394–404.
+Scheuplein RJ, Blank IH. Permeability of the skin. Physiol Rev. 
+1971;51:702–747.
+Schubert H, Berova N, Czernielewski A, et al. Epidemiology of nickel 
+allergy. Contact Dermatitis. 1987;16:122–128.
+Scientific Committee for Consumer Safety. The SCCS notes of guidance 
+for the testing of cosmetic ingredients and their safety evaluation, 9th 
+revision (SCCS/1514/15, revised 25 April, 2016). Available at: http://
+ec.europa.eu/health/scientific_committees/consumer_safety/docs/
+sccs_o_190.pdf. Accessed March 13, 2017.
+Seligman PJ, Mathias CG, O’Malley MA, et al. Phytophotodermatitis 
+from 
+celery 
+among 
+grocery 
+store 
+workers. 
+Arch 
+Dermatol. 
+1987;123:1478–1482.
+Seto Y, Ohtake H, Kato M, Onoue S. Development of fluorometric reac-
+tive oxygen species assay for photosafety evaluation. Toxicol In Vitro. 
+2016;34:113–119.
+Shackelford K, Belsito DV. The etiology of allergic appearing foot dermati-
+tis: a five year retrospective study. J Am Acad Dermatol. 2002;47:715–721.
+Sheehan JM, Cragg N, Chadwick CA, Potten CS, Young AR. Repeated 
+ultraviolet exposure affords the same protection against DNA photodam-
+age and erythema in human skin types II and IV but is associated with 
+faster DNA repair in skin type IV. J Invest Dermatol. 2002;118:825–829.
+Shimizu Y, Nakatsuru Y, Ichinose M, et al. Benzo[a]pyrene carcinogenicity 
+is lost in mice lacking the aryl hydrocarbon receptor. Proc Natl Acad Sci 
+U S A. 2000;97:779–782.
+Sicherer SH, Sampson HA. Food allergy. J Allergy Clin Immunol. 
+2010;125:S116–S125.
+Skin Cancer Foundation: Skin Cancer Facts & Statistics. 2017. Available 
+at: http://www.skincancer.org/skin-cancer-information/skin-cancer-facts. 
+Accessed March 14, 2017.
+Skog E. The influence of pre-exposure to alkyl benzene sulphonate deter-
+gent, soap and acetone on primary irritant and allergic eczematous reac-
+tions. Acta Derm Venereol (Stockh). 1958;38:1–9.
+Sorg O, Zennegg M, Schmid P, et al. 2,3,7,8-tetrachlorodibenzo-p-dioxin 
+(TCDD) poisoning in Viktor Yushchenko: identification and measure-
+ment of TCDD metabolites. Lancet. 2009;374:1179–1185.
+Stern RS. Risks of cancer associated with long-term exposure to PUVA in 
+humans: current status–1991. Blood Cells. 1992;18:91–97.
+Stern RS. PUVA Follow up Study: The risk of melanoma in association with 
+long-term exposure to PUVA. J Am Acad Dermatol. 2001;44:755–761.
+Strauss HW. Artificial sensitization of infants to poison ivy. J Allergy. 
+1931;2:137–146.
+Sulzberger MB. Hypersensitiveness to arsphenamine in guinea pigs. Arch 
+Dermatol. 1929;20:669–673.
+Svensson CK. Biotransformation of drugs in human skin. Drug Metab 
+Dispos. 2009;37:247–253.
+Swanson HI. Cytochrome P450 expression in human keratinocytes: an 
+aryl hydrocarbon receptor perspective. Chem Biol Interact. 2004;149: 
+69–79.
+Tapio S, Grosche B. Arsenic in the aetiology of cancer. Mutat Res. 
+2006;612:215–246.
+Tokar EJ, Qu W, Waalkes MP. Arsenic, stem cells, and the developmental 
+basis of adult cancer. Toxicol Sci. 2011;120:S192–S203.
+
+976
+TARGET ORGAN TOXICITY
+Unit IV
+Tokura Y. Immune responses to photohaptens: implications for the 
+mechanisms of photosensitivity to exogenous agents. J Dermatol Sci. 
+2000;23(suppl 1):S6–S9.
+Tokura Y, Nishijima T, Yagi H, Furukawa F, Takigawa M. Photohaptenic 
+properties of fluoroquinolones. Photochem Photobiol. 1996;64:838–844.
+Tolbert PE. Oils and cancer. Cancer Causes Control. 1997;8:386–405.
+Tollefsen KE, Scholz S, Cronin MT, et al. Applying Adverse Outcome 
+Pathways (AOPs) to support Integrated Approaches to Testing and 
+Assessment (IATA). Regul Toxicol Pharmacol. 2014;70:629–640.
+Tomb RR. Patch testing with frullania during a 10-year period: hazards and 
+complications. Contact Dermatitis. 1992;26:220–223.
+Tourlaki A, Boneschi V, Tosi D, Pigatto P, Brambilla L. Granulomatous 
+tattoo reaction induced by intense pulse light treatment. Photodermatol 
+Photoimmunol Photomed. 2010;26:275–276.
+Tsujita-Inoue K, Hirota M, Atobe T, Ashikaga T, Tokura Y, Kouzuki H. 
+Development of novel in vitro photosafety assays focused on the Keap1-
+Nrf2-ARE pathway. J Appl Toxicol. 2016;36:956–968.
+Urbisch D, Mehling A, Guth K, et al. Assessing skin sensitization hazard in 
+mice and men using non-animal test methods. Regul Toxicol Pharmacol. 
+2015;71:337–351.
+Urwin R, Wilkinson M. Methylchloroisothiazolinone and methyliso-
+thiazolinone contact allergy: a new ‘epidemic’. Contact Dermatitis. 
+2013;68:253–255.
+Uter W, Johansen JD, Orton DI, Frosch PJ, Schnuch A. Clinical update on 
+contact allergy. Curr Opin Allergy Clin Immunol. 2005;5:429–436.
+Valeyrie-Allanore L, Sassolas B, Roujeau JC. Drug-induced skin, nail and 
+hair disorders. Drug Saf. 2007;30:1011–1030.
+Victor FC, Cohen DE, Soter NA. A 20-year analysis of previous and emerg-
+ing allergens that elicit photoallergic contact dermatitis. J Am Acad 
+Dermatol. 2010;62:605–610.
+Voelter-Mahlknecht S, Scheriau R, Zwahr G, et al. Skin tumors among 
+employees of a tar refinery: the current data and their implications. Int 
+Arch Occup Environ Health. 2007;80:485–495.
+von Krogh G, Maibach HI. The contact urticaria syndrome – 1982. Semin 
+Dermatol. 1982;1:59–66.
+Waalkes MP, Liu J, Ward JM, Diwan BA. Animal models for arsenic car-
+cinogenesis: inorganic arsenic is a transplacental carcinogen in mice. 
+Toxicol Appl Pharmacol. 2004;198:377–384.
+Walker FB, Smith PD, Maibach HI, et al. Genetic factors in human allergic 
+contact dermatitis. Int Arch Allergy Appl Immunol. 1967;32:453–462.
+Walsh AA, deGraffenried LA, Rice RH. 2,3,7,8-Tetrachlorodibenzo-p-
+dioxin sensitization of cultured human epidermal cells to carcinogenic 
+heterocyclic amine toxicity. Carcinogenesis. 1995;16:2187–2191.
+Warshaw EM, Kingsley-Loso JL, deKoven JG, et al. Body piercing and 
+metal allergic contact sensitivity: North American Contact Dermatitis 
+Group data from 2007 to 2010. Dermatitis. 2014;25:255–264.
+Watkins SA, Maibach HI. The hardening phenomenon in irritant contact der-
+matitis: an interpretative update. Contact Dermatitis. 2009;60:123–130.
+Wilford C, Fine JD, Boyd AS, Sanyal S, Abraham JL, Kantrow SM. 
+Nephrogenic systemic fibrosis: report of an additional case with granulo-
+matous inflammation. Am J Dermatopathol. 2010;32:71–75.
+Zhai H, Fautz R, Fuchs A, Bhandarkar S, Maibach HI. Human scalp 
+irritation compared to that of the arm and back. Contact Dermatitis. 
+2004;51:196–200.
+Zhou X, Sun X, Cooper KL, Wang F, Liu KJ, Hudson LG. Arsenite interacts 
+selectively with zinc finger proteins containing C3H1 or C4 motifs. J Biol 
+Chem. 2011;286:22855–22863.
+Zuberbier T, Balke M, Worm M, Edenharter G, Maurer M. Epidemiology 
+of urticaria: a representative cross-sectional population survey. Clin Exp 
+Dermatol. 2010;35:869–873.
+Zug KA, Pham AK, Belsito DV, et al. Patch testing in children from 2005 
+to 2012: results from the North American Contact Dermatitis Group. 
+Dermatitis. 2014;25:345–355.

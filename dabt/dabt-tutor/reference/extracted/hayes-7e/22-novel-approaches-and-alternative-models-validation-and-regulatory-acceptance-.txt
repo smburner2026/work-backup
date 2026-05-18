@@ -1,0 +1,2544 @@
+# 22 Novel Approaches and Alternative Models: Validation and Regulatory Acceptance of Toxicological Testing Methods and Strategies
+# Hayes' Principles and Methods of Toxicology, 7th Edition
+# Pages: 1274-1297
+# Unit: Volume II
+
+1215
+22
+Novel Approaches and Alternative Models: 
+Validation and Regulatory Acceptance of 
+Toxicological Testing Methods and Strategies
+Nicole C. Kleinstreuer and David Allen
+CONTENTS
+22.1	 Introduction.......................................................................................................................................................................1216
+22.1.1	 The 3Rs in Toxicology Testing.............................................................................................................................1216
+22.1.1.1	 Regulatory Requirements for Consideration of Alternative Methods..................................................1216
+22.1.1.2	 Replacement Alternatives......................................................................................................................1216
+22.1.1.3	 Reduction Alternatives..........................................................................................................................1217
+22.1.1.4	 Refinement Alternatives........................................................................................................................1217
+22.1.2	 Interagency Coordinating Committee on the Validation of Alternative Methods (ICCVAM): Harmonizing 
+Efforts to Advance Alternatives............................................................................................................................1217
+22.1.2.1	 Re-envisioning ICCVAM......................................................................................................................1218
+22.1.2.2	 Strategic Roadmap for Establishing New Approaches to Evaluate the Safety of Chemicals and 
+Medical Products...................................................................................................................................1219
+22.1.3	 Validation of NAMs..............................................................................................................................................1219
+22.1.4	 Global Efforts to Advance Alternatives............................................................................................................... 1220
+22.1.5	 Toxicity Testing in the 21st Century: Tox21........................................................................................................ 1220
+22.2	 Key Approaches................................................................................................................................................................ 1221
+22.2.1	 In Vivo Alternatives............................................................................................................................................. 1221
+22.2.1.1	 Invertebrates......................................................................................................................................... 1221
+22.2.1.2	 Aquatic Vertebrate Models................................................................................................................... 1221
+22.2.2	 In Vitro Alternatives............................................................................................................................................. 1221
+22.2.3	 In Chemico Alternatives...................................................................................................................................... 1222
+22.2.4	 In Silico Alternatives............................................................................................................................................ 1222
+22.3	 Regulatory Testing and Available Alternatives................................................................................................................ 1223
+22.3.1	 Acute Systemic Toxicity...................................................................................................................................... 1223
+22.3.1.1	 Acute Oral Toxicity.............................................................................................................................. 1223
+22.3.1.2	 Acute Inhalation Toxicity..................................................................................................................... 1224
+22.3.1.3	 Acute Dermal Toxicity......................................................................................................................... 1224
+22.3.2	 Acute Eye Irritation and Corrosion...................................................................................................................... 1225
+22.3.3	 Acute Skin Irritation and Corrosion.................................................................................................................... 1226
+22.3.4	 Skin Sensitization................................................................................................................................................. 1227
+22.4	 Repeat Dose Chronic Endpoints....................................................................................................................................... 1228
+22.4.1	 Developmental and Reproductive Toxicity.......................................................................................................... 1229
+22.4.2	 Cardiovascular Toxicity....................................................................................................................................... 1229
+22.4.3	 Carcinogenicity.................................................................................................................................................... 1230
+22.5	 Computational Resources................................................................................................................................................. 1230
+22.5.1	 FAIR Data Repositories........................................................................................................................................1231
+22.5.2	 Computational Models and Workflows.................................................................................................................1231
+22.6	 Future Perspectives........................................................................................................................................................... 1232
+22.7	 Questions.......................................................................................................................................................................... 1232
+References.................................................................................................................................................................................. 1232
+DOI: 10.1201/9781003390008-25
+
+1216
+Hayes’ Principles and Methods of Toxicology
+22.1  Introduction
+Toxicological test methods are necessary to assess the hazard 
+and safety of various substances such as medicines, agrochem-
+icals, consumer products, and industrial chemicals. Many of 
+these methods have traditionally used laboratory animals as 
+the test system. However, there has been increasing interest in 
+the development of new approach methodologies (NAMs) that 
+incorporate advances in science and technology and leverage 
+more human-relevant systems to provide improved accuracy 
+and efficiency compared to existing animal-based methods. 
+NAMs are broadly defined as any technology, methodology, 
+approach, or combination thereof that can be used to provide 
+information on chemical hazard and risk assessment to avoid 
+the use of animal testing [1]. NAMs also have the potential to 
+provide more detailed insight into the mechanisms by which 
+chemicals may cause toxicity. There are continuing national 
+and international interests and legislative mandates to develop 
+alternative test methods that can replace animal use, reduce 
+the number of animals required for a test procedure, and where 
+animals are still required, refine testing procedures to lessen 
+or eliminate unrelieved pain and distress.
+Prior to regulatory use, any new method or approach must 
+first be demonstrated as scientifically valid. Historically, this 
+validation process involved lengthy multilaboratory ring tri-
+als to test large numbers of chemicals to demonstrate test 
+method accuracy, reproducibility, and reliability as compared 
+to the reference test method (typically the in vivo test method). 
+However, new approaches developed with 21st-century science 
+require new approaches for establishing confidence in NAMs 
+that incorporate the overarching principles of validation more 
+flexibly and efficiently. This chapter provides a historical 
+overview and contemporary perspective of the fundamental 
+concepts underlying alternatives development, the ongoing 
+modernization of toxicology testing, and the principles of test 
+method validation by highlighting available alternatives to 
+animal testing and key components in the process for estab-
+lishing confidence in and facilitating regulatory acceptance of 
+NAMs. Specific examples are provided of toxicity endpoints 
+for which NAMs are available as well as those for which more 
+work is yet to be done.
+22.1.1  The 3Rs in Toxicology Testing
+The concept of animal use alternatives was first described in 
+1959 by Rex Burch and William Russell in their book The 
+Principles of Humane Experimental Technique [2]. Commonly 
+referred to as the 3Rs of alternatives, this concept involves 
+replacing animals with nonanimal systems and approaches, 
+reducing the number of animals needed for a specific study, 
+and refining animal use to lessen or avoid unrelieved pain 
+and distress. Public concern and increased awareness about 
+animal use contributed to the passage of laws requiring con-
+sideration of alternative methods before the use of animals in 
+the United States in 1985 [3] and in Europe in 1986 and 2010 
+[4, 5]. Additional laws in 1993 and 2000 directed the National 
+Institutes of Health (NIH) to conduct research on alterna-
+tive methods, to develop and validate alternative methods for 
+testing, and to establish a formal process for consideration of 
+proposed alternative testing methods [6, 7].
+22.1.1.1  Regulatory Requirements for 
+Consideration of Alternative Methods
+In the United States, Animal Welfare Act regulations imple-
+mented in 1989 require investigators to consider alternative 
+methods prior to the use of animals for research or testing 
+whenever proposed procedures involve more than slight or 
+momentary pain or distress [8]. Before animals can be used, 
+the investigator must provide evidence of the sources used to 
+determine if alternative methods to procedures that cause more 
+than slight or momentary pain or distress are available. The 
+investigator must document this search, and both the search 
+for alternatives and the proposed animal use must be reviewed 
+and approved by an institutional animal care and use com-
+mittee (IACUC). Institutions using animals for research and 
+testing must register with the U.S. Department of Agriculture 
+(USDA) and are subject to periodic compliance inspections by 
+the Animal Care Unit of the USDA Animal and Plant Health 
+Inspection Service.
+Investigators subject to the provisions of the Public Health 
+Service (PHS) policy on the Humane Care and Use of 
+Laboratory Animals must also consider replacement, reduc-
+tion, and refinement alternatives prior to the use of animals [9]. 
+These include organizations that receive funding from PHS 
+agencies (e.g., NIH, Food and Drug Administration [FDA], 
+Center for Disease Control and Prevention [CDC], Agency for 
+Toxic Substances and Disease Registry [ATSDR]), as well as 
+organizations that participate in the voluntary animal facil-
+ity accreditation program of the Association for Assessment 
+and Accreditation of Laboratory Animal Care International. 
+The PHS policy implements relevant provisions of the Health 
+Research Extension Act of 1985 and requires that studies using 
+animals comply with the U.S. Government Principles for the 
+Utilization and Care of Vertebrate Animals Used in Testing, 
+Research, and Training [9]. These principles effectively require 
+the incorporation of replacement, reduction, and refinement 
+alternatives into animal studies to the extent that they are con-
+sistent with obtaining testing and research objectives.
+22.1.1.2  Replacement Alternatives
+Replacement alternatives are methods or approaches that 
+do not require the use of animals (e.g., cell, tissue, or organ 
+cultures; microphysiological systems [MPS]; computational 
+approaches) or that replace a traditional laboratory animal 
+model with a nonsentient phylogenetically lower species (e.g., 
+roundworms, insects) [2]. A complete replacement alternative 
+represents the “holy grail” in regulatory toxicology testing and 
+such approaches have been achieved for only a small number 
+of endpoints. For example, nonanimal test methods for assess-
+ing skin corrosivity have been adopted internationally (as 
+harmonized test guidelines [TGs] under the Organization for 
+Economic Cooperation and Development [OECD]) such that 
+no animal or other further testing is required when the sub-
+stance is identified as a corrosive.
+
+1217
+Novel Approaches and Alternative Models
+However, recognizing that a single approach is unlikely to 
+successfully address the mechanisms associated with most 
+toxicity endpoints, defined approaches (DAs) that combine 
+outputs from multiple nonanimal alternatives are being devel-
+oped to overcome some of the limitations of the individual 
+test methods and replace animal use for toxicity testing. DAs 
+consist of a fixed data interpretation procedure applied to data 
+generated using a defined set of information sources to derive 
+a prediction without the need for expert judgment. Their devel-
+opment has been stimulated by advances in new technologies 
+and an enhanced understanding of the molecular and cellular 
+mechanisms of toxicity. Such approaches potentially provide 
+more human-relevant information than traditional laboratory 
+animal-based toxicology test methods.
+In silico approaches that leverage the computational power 
+of artificial intelligence applications such as machine learn-
+ing are ever increasing in number as new opportunities are 
+created through the identification of reference datasets that 
+are sufficiently large to use in such modeling approaches 
+(e.g., high-throughput screening [HTS] data). These model-
+ing approaches are particularly exciting given their speed and 
+efficiency in evaluating the potential toxicities associated with 
+thousands of chemicals in just a few seconds. The number and 
+diversity of in vitro and in silico approaches will undoubtedly 
+only continue to expand greatly in the coming years.
+22.1.1.3  Reduction Alternatives
+As the name implies, reduction alternatives are alternative 
+approaches that result in fewer animals being used in an in 
+vivo method while still attaining the same study objective. For 
+example, minimizing one or more experimental variables can 
+often improve statistical power, allowing for fewer animals 
+per group. Optimal statistical designs of studies will also con-
+tribute to ensuring the use of the most appropriate number of 
+animals.
+One approach to reduction is to periodically conduct a ret-
+rospective review of testing results to determine if the num-
+ber of animals can be reduced without significantly affecting 
+the outcome of the study. For example, six rabbits were rou-
+tinely used to conduct an ocular irritation assay; however, a 
+retrospective statistical evaluation determined that the number 
+could be reduced to a maximum of three in most situations [10, 
+11]. The latest guideline for this endpoint reflects opportunities 
+for further animal reduction by testing one animal at a time 
+sequentially and stopping if evidence indicates severe irrita-
+tion or ocular corrosion in one animal (TG 405).
+Additional examples of such an approach are described in 
+guidance documents published by the U.S. Environmental 
+Protection Agency (EPA). Based on a retrospective of fish 
+bioconcentration factor studies for pesticide registration, the 
+EPA concluded that a single treatment level concentration 
+was adequate for most studies with the potential to reduce 
+fish used in these tests by 30% [12]. Additional retrospective 
+evaluations were conducted by the EPA on acute oral and der-
+mal systemic toxicity studies to determine that the oral LD50 
+would suffice for hazard classification and labeling of agro-
+chemicals, both active ingredients (AIs) and final formulations 
+[13, 14]. Accordingly, testing waivers can be granted for the 
+acute dermal toxicity endpoint thereby substantially reducing 
+the number of animals required for hazard classification and 
+labeling of agrochemicals.
+22.1.1.4  Refinement Alternatives
+The goals of refinement alternatives are to minimize or elimi-
+nate unrelieved pain and distress and to enhance the well-being 
+of animals used in testing and research when no alternative 
+nonanimal approaches exist. Refinements not only provide 
+for improved animal welfare but also enhance the quality of 
+experiments by reducing or eliminating pain and distress as an 
+experimental variable [15].
+Death has been used historically as an experimental endpoint 
+in toxicity testing; however, considerable pain and distress may 
+precede death, and therefore, the occurrence of spontaneous 
+deaths should be avoided during toxicity studies [16]. National 
+and international testing guidelines for acute toxicity were 
+updated in the 2000s to reflect that death is no longer a required 
+endpoint. Many of these guidelines now allow for humane 
+euthanasia of moribund animals, as well as animals that show 
+evidence of severe pain and distress (OECD TG 420, 423, 425). 
+International guidance has also been developed for selecting 
+appropriate endpoints for toxicity studies (OECD GD).
+Refinement can be achieved in toxicity studies by identify-
+ing earlier, more humane endpoints that are predictive of tra-
+ditional study endpoints involving pain and distress [15, 16]. 
+Clinical signs, physiologic parameters, biochemical measure-
+ments, and other parameters can serve as potential earlier 
+biomarkers of humane endpoints. Detailed data should be col-
+lected to confirm the validity of the earlier biomarker. When 
+it has been determined that the earlier biomarker provides the 
+same or better accuracy as the traditional biomarker, it can be 
+proposed for acceptance by regulatory authorities.
+22.1.2  Interagency Coordinating Committee 
+on the Validation of Alternative 
+Methods (ICCVAM): Harmonizing 
+Efforts to Advance Alternatives
+ICCVAM is a permanent committee of the National Institute of 
+Environmental Health Sciences (NIEHS). ICCVAM was for-
+mally established in 2000 by the ICCVAM Authorization Act 
+[7], “To establish, wherever feasible, guidelines, recommen-
+dations, and regulations that promote the regulatory accep-
+tance of new or revised scientifically valid toxicological tests 
+that protect human and animal health and the environment 
+while reducing, refining, or replacing animal tests and ensur-
+ing human safety and product effectiveness” [7]. The original 
+ICCVAM chartered in the Act was composed of representa-
+tives from 15 U.S. federal regulatory and research agencies. 
+In 2017, the National Institute of Standards and Technology 
+(NIST) became the 16th U.S. agency, followed shortly there-
+after in 2020 by the Department of Veteran’s Affairs Office of 
+Research and Development as the 17th and most recent addi-
+tion to the committee. The full list of ICCVAM agencies is 
+listed in Table 22.1. These regulatory and research agencies 
+require, use, generate, or disseminate toxicological and safety
+
+1218
+Hayes’ Principles and Methods of Toxicology
+testing information. The ICCVAM Authorization Act outlines 
+the following purposes of ICCVAM:
+•	 Increase the efficiency and effectiveness of U.S. fed-
+eral agency test method review.
+•	 Eliminate unnecessary duplication of effort and share 
+experience among U.S. federal regulatory agencies.
+•	 Optimize utilization of scientific expertise outside 
+the U.S. federal government.
+•	 Ensure that new and revised test methods are vali-
+dated to meet the needs of U.S. federal agencies.
+•	 Reduce, refine, or replace the use of animals in test-
+ing where feasible.
+ICCVAM facilitates interagency and international collabora-
+tions promoting the development, regulatory acceptance, and 
+use of alternative tests that encourage the reduction, refine-
+ment, or replacement of animal test methods. ICCVAM 
+provides guidance to test method developers and evaluates 
+recommendations from expert peer reviews of alternative 
+toxicological test methods. Where appropriate, ICCVAM also 
+makes recommendations on the use of reviewed test methods 
+to appropriate federal agencies.
+ICCVAM works with a range of stakeholders to carry out 
+alternative test method research, development, and validation 
+studies. These stakeholders include:
+•	 U.S. federal agencies that generate, require, or use 
+toxicological data
+•	 Agencies within governments of other countries that 
+use or generate toxicological data
+•	 Researchers and IACUC members in companies 
+or research institutions that perform toxicological 
+testing
+•	 Companies that develop toxicological tests
+•	 Animal welfare organizations
+•	 Consumer protection organizations
+•	 The public
+This interagency collaboration and cooperation in conjunc-
+tion with stakeholders outside of the U.S. federal government 
+ensure that expertise from all stakeholder organizations is 
+leveraged to harmonize efforts and maximize the effective-
+ness and applicability of ICCVAM activities. Operationally, 
+ICCVAM is a committee that functions voluntarily, with 
+no dedicated budget. Scientific and administrative sup-
+port to ICCVAM is provided by the National Toxicology 
+Program Interagency Center for the Evaluation of Alternative 
+Toxicological Methods (NICEATM) [17]. NICEATM’s activi-
+ties are determined based on ICCVAM agency priorities.
+22.1.2.1  Re-envisioning ICCVAM
+For much of the first 12 years of ICCVAM, activities were 
+focused on formal evaluations of test methods through peer 
+reviews of validation studies designed to demonstrate the 
+usefulness and limitations of alternative approaches. This 
+involved an extensive process of test method nomination, 
+validation, and evaluation through NICEATM and ICCVAM 
+that ultimately culminated in an ICCVAM test method evalu-
+ation report (TMER). Each TMER conveyed ICCVAM rec-
+ommendations on (1) test method usefulness and limitations; 
+(2) a standardized test method protocol; (3) future studies to 
+improve the usefulness and limitations of the test method; 
+and (4) performance standards that can be used to assess the 
+performance of functionally and mechanistically similar test 
+methods. The TMER was then routed through each ICCVAM 
+agency for clearance through their agency head such that test 
+method recommendations could be published and made pub-
+licly available for the stakeholder community. These were 
+productive years for ICCVAM, resulting in recommendations 
+for alternative approaches applicable to eye and skin irritation/
+corrosion, skin sensitization, acute toxicity, endocrine disrup-
+tors, and pyrogen testing. Many of these recommendations 
+were used as seminal publications supporting internally har-
+monized TGs.
+However, this was a lengthy process that required years of 
+effort to develop recommendations that in some cases were 
+met with limited stakeholder uptake and implementation. A 
+primary challenge was the reality that regulatory agencies 
+are required by statute to use toxicology test information for 
+a variety of purposes, including labeling and registration, and 
+these requirements are not uniform. In reality, some of the 
+TABLE 22.1
+Member Agencies of ICCVAM
+ICCVAM consists of the following 17 federal regulatory and research agencies that require, generate, use, or distribute toxicological testing results:
+Agency for Toxic Substances and Disease Registry (ATSDR)
+Food and Drug Administration (FDA)
+Consumer Product Safety Commission (CPSC)
+National Cancer Institute (NCI)
+Department of Agriculture (USDA)
+National Institute for Occupational Safety and Health (NIOSH)
+Department of Defense (DOD)
+National Institute of Environmental Health Sciences (NIEHS)
+Department of Energy (DOE)
+National Institute of Standards and Technology (NIST)*
+Department of the Interior (DOI)
+National Institutes of Health (NIH)
+Department of Transportation (DOT)
+National Library of Medicine (NLM)
+Department of Veterans Affairs (VA) Office of Research and Development**
+Occupational Safety and Health Administration (OSHA)
+Environmental Protection Agency (EPA)
+*Since 2017; ** Since 2020.
+
+1219
+Novel Approaches and Alternative Models
+alternative test methods recommended by ICCVAM, while 
+deemed valid, did not meet the specific needs of a regulatory 
+agency.
+Another driver for reconsidering ICCVAM operations was 
+the National Research Council report entitled, Toxicity Testing 
+in the 21st Century: A Vision and a Strategy [18]. This report, 
+published in 2007, envisioned a more efficient, predictive, and 
+economical approach that leveraged cell-based assays and 
+computational approaches to assess the effects of chemical 
+substances on human health. ICCVAM leadership recognized 
+the disconnect between their test method evaluation process 
+and its inability to keep pace with rapid scientific advance-
+ments that were occurring in biomedical research.
+These events culminated in 2013 when a new approach to 
+ICCVAM operations was announced [19]. This new approach 
+would be driven by regulatory agencies, those ICCVAM 
+member agencies that ultimately implement the ICCVAM-
+recommended methods. With ICCVAM regulatory agencies 
+taking ownership of the process, ICCVAM leadership envi-
+sioned a better match between the alternative test methods 
+validated and the tests required to meet regulatory guidelines.
+Another focus of this new approach was renewed emphasis 
+on external stakeholder engagement to maximize transpar-
+ency in ICCVAM activities and ensure a forum for stake-
+holders to interact directly with ICCVAM members [20]. The 
+committee identified four annual opportunities for such pub-
+lic engagement to ensure regular and anticipated comments 
+and feedback could be solicited: a Communities of Practice 
+Webinar; an ICCVAM open session at the annual meeting 
+of the Society of Toxicology; an ICCVAM Public Forum; 
+and ICCVAM’s annual advisory committee, the Scientific 
+Advisory Committee on Alternative Toxicological Methods 
+(SACATM) meeting.
+22.1.2.2  Strategic Roadmap for Establishing 
+New Approaches to Evaluate the Safety 
+of Chemicals and Medical Products
+The next few years of ICCVAM activities were driven by the 
+principles described above. The concept of developing a stra-
+tegic roadmap to establish new approaches for toxicity test-
+ing in the United States was proposed at the 2015 SACATM 
+meeting and further developed at the 2016 SACATM meet-
+ing. ICCVAM subsequently developed the key elements of the 
+roadmap over the next year, which included multiple opportu-
+nities for public stakeholder input and feedback. In 2018, the 
+ICCVAM report, A Strategic Roadmap for Establishing New 
+Approaches to Evaluate the Safety of Chemicals and Medical 
+Products in the United States was published to serve as the 
+directional principles under which ICCVAM will operate going 
+forward. The Roadmap describes three key processes that must 
+be established and integrated: (1) connecting end-users with the 
+developers of NAMs; (2) fostering the use of efficient, flexible, 
+and robust practices to establish confidence in new methods; 
+and (3) encouraging the adoption and use of new methods and 
+approaches by federal agencies and regulated industries.
+Ultimately this approach should expedite the development 
+and use of NAMs that provide information more relevant to 
+human health than existing animal-based methods. It pro-
+vides a conceptual framework to support the development, 
+evaluation, and use of NAMs and facilitate communication 
+and collaboration within and between governmental agencies, 
+stakeholders, and international partners. It is anticipated that 
+this will be a living document that is updated as appropriate to 
+remain current with modern approaches.
+22.1.3  Validation of NAMs
+Before NAMs may be used for regulatory decision making, or 
+even as part of research and development pipelines or chemi-
+cal prioritization steps, they must be validated. The traditional 
+validation process is outlined in the OECD guidance docu-
+ment on the validation and international acceptance of new 
+or updated test methods for hazard assessment (OECD GD34) 
+[21], which outlines the process methods must undergo to 
+be accepted as an OECD TG and by OECD member coun-
+tries under Mutual Acceptance of Data (MAD). Validation is 
+defined in OECD GD34 as “the process by which the reliabil-
+ity and relevance of a particular approach, method, process, 
+or assessment is established for a defined purpose” [21]. The 
+reliability of a method covers both its intra-laboratory repeat-
+ability and its interlaboratory reproducibility, while relevance 
+refers to “the extent to which the test correctly measures or 
+predicts the biological effect of interest” and also considers 
+“accuracy”, i.e., the concordance of the results from the new 
+test with results from the reference standard. Traditionally, 
+this has entailed a “ring trial”, where the method is transferred 
+between different laboratories which all test the same sets 
+of blinded chemicals to assess the method. This approach to 
+validation is also described in the “Validation and Regulatory 
+Acceptance of Toxicological Test Methods”, published by 
+ICCVAM in 1997 [22].
+Comparison to a reference standard is fundamental to the 
+concept of validation. Therefore, understanding the level of 
+variability of a reference standard, and reasons for the observed 
+variance, allows for a better characterization of the capabilities 
+of the standard and creates appropriate expectations about the 
+performance of NAMs that are compared against them. Many 
+recent publications have curated and analyzed large datas-
+ets of existing regulatory standard in vivo reference tests for 
+exactly this purpose and have demonstrated a high degree of 
+variability particularly with respect to regulatory classification 
+schemas. Examples include eye irritation [23], skin irritation 
+[24], endocrine disruption [25, 26], and acute systemic toxicity 
+[27, 28] endpoints. Efforts to understand and quantify this 
+degree of inherent variance in the reference standards have 
+resulted in proposed confidence intervals that could be applied 
+to NAM evaluation [29].
+While the OECD documents and the original ICCVAM 
+1997 guidance have provided an important foundation for 
+validating NAMs, the concept of validation has evolved sub-
+stantially over the last decade to acknowledge that one stan-
+dardized process may not fit every scenario. New ideas have 
+emerged related to the development of NAMs and the evalua-
+tion of their utility, namely the concept of “qualifying” a NAM 
+for a particular “context of use” (also known as fit-for-purpose 
+validation). This has evolved substantially from the traditional
+
+1220
+Hayes’ Principles and Methods of Toxicology
+validation approach and necessitates moving beyond reliance 
+upon multilaboratory ring trials to characterize NAM useful-
+ness and limitations, with a focus on establishing scientific 
+confidence in a method while keeping in mind the intended 
+objective and end-user needs. The extent of data needed to 
+qualify a NAM ultimately depends on the detailed descrip-
+tion of the purpose. Furthermore, validation by evolving con-
+fidence is an important aspect, as agencies may adopt assays 
+at various stages, for various purposes, and contexts of use can 
+broaden as assays are used, experience is gained via case stud-
+ies and applications, and more data are generated.
+The ICCVAM strategic roadmap provides a high-level guide 
+for establishing scientific and regulatory confidence in NAMs. 
+It also encourages agencies to investigate new approaches to 
+evaluate the robustness of NAMs without relying solely upon 
+in vivo animal reference data to define performance, focus-
+ing upon human mechanistic understanding [30]. In 2020, the 
+U.S. EPA published its work plan for the adoption of NAMs, 
+which includes developing a scientific confidence framework 
+to evaluate the relevance and reliability of NAMs by the third 
+quarter of 2022 [1]. The European Commission Joint Research 
+Centre (JRC) published a commentary on the different avail-
+able approaches to establishing scientific confidence and has 
+curated a list of credibility criteria to allow for comparison 
+between different predictive toxicology approaches [31]. One 
+commonality between many recently proposed frameworks is 
+the need to move toward assessing the validity of a NAM based 
+on the relevance to human biology [32–34]. This approach was 
+demonstrated in a recent publication that evaluated the abil-
+ity of in vitro, ex vivo, and rabbit test methods to assess eye 
+irritation/corrosion by focusing on the human anatomical eye 
+structure and the mechanisms that occur in the development of 
+eye irritation in humans [35].
+22.1.4  Global Efforts to Advance Alternatives
+There are many international organizations created to foster 
+communication among countries around the topic of alter-
+natives to animal testing and to encourage cooperation in 
+areas such as validation studies, independent peer review, 
+and development of harmonized guidelines and recommen-
+dations. The International Cooperation on Alternative Test 
+Methods (ICATM) [36] was originally established in 2009 
+among ICCVAM, the European Union Reference Laboratory 
+for Alternatives to Animal Testing (EURL-ECVAM); [37], 
+the Japanese Center for the Validation of Alternative Methods 
+(JaCAVM) [38], and Health Canada in partnership with 
+the Canadian Centre for Alternatives to Animal Methods 
+(CCAAM) [39]. The Korean Center for the Validation of 
+Alternative Methods (KoCVAM) [40]; formally joined 
+ICATM in 2011, and other countries such as China, Brazil, 
+Singapore, and Taiwan have participated in recent workshops 
+and activities. ICATM promotes voluntary international coop-
+eration, collaboration, and communication among national 
+validation organizations to ensure the optimal design and con-
+duct of validation studies to support national and international 
+regulatory use of alternative methods, to ensure high-quality 
+independent scientific peer reviews of NAMs, to support the 
+development of harmonized recommendations by national 
+validation organizations, to achieve greater efficiency and 
+effectiveness by avoiding duplication of effort and leverag-
+ing limited resources, and to support the timely international 
+adoption of alternatives.
+Representatives from ICCVAM agencies, ICATM partners, 
+and in total 37 member countries, participate in the devel-
+opment and national review of chemical testing guidelines 
+issued by the TGs Programme of the OECD [41]. Networks 
+of national coordinators and national experts provide input 
+from scientists in government, academia, and industry to con-
+tinuously update OECD TGs which are used in a regulatory 
+safety testing context and accepted by the 37 OECD member 
+countries under the MAD system. This legally binding frame-
+work states that tests that have been conducted according to an 
+OECD TG, under good laboratory practices, must be accepted 
+by all OECD member countries, avoiding duplicate testing and 
+creating a common basis for international cooperation. The 
+MAD system is estimated to save governments and industry 
+around 309 million Euros (EUR) each year, and substantially 
+reduces the number of animals used for chemical safety test-
+ing [42]. There are targeted OECD expert groups formed for 
+topic areas such as skin sensitization, ecotoxicology, eye irrita-
+tion, nanomaterials testing, and quantitative structure–activity 
+relationship modeling.
+There are many comprehensive efforts on developing and 
+applying alternatives within the European Union under the EU 
+Framework Programme for Research and Innovation, Horizon 
+2020 funding umbrella. EU-ToxRisk, an “Integrated European 
+‘Flagship’ Programme Driving Mechanism-based Toxicity 
+Testing and Risk Assessment for the 21st century”, began in 
+2016 with funding for 6 years, covering a wide range of case 
+studies applying alternative methods and next-generation risk 
+assessment practices [43]. Three additional multi-partner 
+research projects were funded in 2021 for 5-year durations. 
+PrecisionTox aims to identify molecular key event (KE) bio-
+markers that predict chemically induced adverse health effects 
+in humans using nonsentient animal species to replace mam-
+malian models, determine safety factors based on genetic 
+variability, and facilitate their uptake into regulatory and 
+industry practice. The ONTOX (ontology-driven and artificial 
+intelligence-based repeated dose toxicity testing of chemicals 
+for next-generation risk assessment) consortium is focused on 
+developing a generic strategy to predict systemic repeated dose 
+toxicity effects using NAMs addressing adverse outcomes in 
+the liver (steatosis and cholestasis), kidneys (tubular necrosis 
+and crystalopathy), and developing brain (neural tube clo-
+sure and cognitive function defects). The vision of the RISK-
+HUNT3R (RISK assessment of chemicals integrating Human 
+centric next generation testing strategies promoting the 3Rs) 
+consortium, coordinated by Leiden University, is to provide 
+a fully human-centric risk assessment strategy encompassing 
+exposure estimation, information on chemical distribution in 
+the body, hazard characterization, adverse outcome prediction, 
+and human (disease) genetics and exposome data.
+22.1.5  Toxicity Testing in the 21st Century: Tox21
+In 2007, the U.S. EPA asked the National Research Council to 
+review the state of the science and create a far-reaching vision
+
+1221
+Novel Approaches and Alternative Models
+of the future of toxicity testing, resulting in the seminal report 
+“Toxicity Testing in the 21st Century: A Vision and a Strategy” 
+[44]. As a response to the recommendations from this report, 
+the U.S. federal Tox21 Consortium [45] was formed as a mul-
+tiagency collaboration by the National Toxicology Program, 
+the NIH National Center for Advancing Translational Science, 
+the EPA National Center for Computational Toxicology, 
+and the FDA. The Tox21 partner agencies work together to 
+develop, validate, and translate innovative in vitro HTS meth-
+ods to characterize the impact of chemicals on key compo-
+nents in toxicity pathways. The goal of Tox21, and the EPA’s 
+ToxCast component, is to use HTS methods to rapidly and effi-
+ciently generate data on thousands of chemicals that will allow 
+risk assessors to more accurately predict the effects of unchar-
+acterized substances on human health and the environment. 
+Data collected in the Tox21 initiative have been used to priori-
+tize uncharacterized compounds for regulatory testing using 
+both traditional and novel test methods, and in some cases as 
+replacements for existing animal tests [46]. In 2018, Tox21 
+released a new strategic and operational plan to more broadly 
+address challenges in the field of toxicology [47] that expands 
+the focus of its research activities. New focus areas include 
+expanding its portfolio of alternative test systems, addressing 
+technical limitations of in vitro test systems, curating legacy in 
+vivo toxicity testing data, establishing scientific confidence in 
+in vitro test systems, and refining alternative methods for char-
+acterizing pharmacokinetics and in vitro assay disposition. 
+Strategies to accomplish NICEATM’s mission to facilitate the 
+development, validation, and regulatory acceptance of new 
+and revised test methods while maintaining and promoting 
+scientific quality are leveraged to support the Tox21 initiative, 
+particularly in the computational toxicology space.
+22.2  Key Approaches
+22.2.1  In Vivo Alternatives
+In addition to the obvious ethical concerns often associated 
+with in vivo mammalian toxicology studies, these studies 
+can also be very costly and time consuming. While high-
+throughput in vitro and computational approaches offer the 
+possibility of evaluating large numbers of compounds much 
+more efficiently, these methods still suffer from the potential 
+shortcoming of not fully recapitulating the developmental, 
+physiological, and disease processes observed in the whole 
+animal. For this reason, significant focus has been directed 
+toward alternative animal models using phylogenetically lower 
+species that could be considered replacement alternatives for 
+mammalian systems.
+22.2.1.1  Invertebrates
+For decades, a common tool for environmental biomonitor-
+ing and toxicity screening has been invertebrate models, 
+ranging from shellfish to sponges to earthworms. They pro-
+vide an opportunity to survey potential bioaccumulation and 
+toxicities of environmental chemicals using a wide variety 
+of cellular, physiological, behavioral, and morphological 
+endpoints [48–50]. However, they are also a useful predictive 
+tool in human health safety assessments that offer an in vivo 
+model that offers higher throughput and causes fewer ethical 
+concerns from an animal welfare perspective. The nematode 
+Caenorhabditis elegans is often used as an alternative model 
+organism in high-throughput toxicological screening [51].
+22.2.1.2  Aquatic Vertebrate Models
+Perhaps some of the most promising approaches to evaluat-
+ing potential toxicities without using mammalian species are 
+those involving fish models, particularly small fish models like 
+zebrafish (Danio rerio). Such methods offer many advantages 
+that are both practical and scientific. They generally have 
+low maintenance and husbandry costs, high fecundity, and 
+provide substantial genetic diversity [52]. Additionally, fish 
+models used in the embryonic stages have even further ben-
+efits associated with animal welfare stages. The NIH Office 
+of Laboratory Animal Welfare (NIH OLAW) [53]; considers 
+aquatic models “live, vertebrate animals at hatching”. Test 
+methods based on embryonic fish are not required for inclu-
+sion in the Animal Requirements section of an Animal Study 
+Protocol. Furthermore, NIH OLAW considers zebrafish larvae 
+younger than 8 days post-fertilization to be incapable of expe-
+riencing pain or distress, thereby supporting their use in lon-
+ger term studies without significant animal welfare concerns 
+[54]. This is particularly important when considering their use 
+beyond short-term exposures, which is one reason they are 
+popular choices for developmental toxicology research and 
+testing approaches. Zebrafish also have external fertilization 
+that can result in hundreds of offspring produced weekly, and 
+because of their small size, they can be plated in microplates 
+for higher throughput assay formats [55]. Internal organs and 
+structural effects can be visualized stereoscopically because 
+of the translucent chorion and embryo [56]. Zebrafish are 
+amenable to transgenic manipulation to visualize developing 
+structures and their susceptibility to perturbations from chem-
+ical exposures [57]. And perhaps most importantly, zebrafish 
+screening assays show good correlation to mammalian models, 
+particularly in the area of developmental neurotoxicity [58].
+22.2.2  In Vitro Alternatives
+The Oxford English dictionary defines in vitro as “performed 
+or taking place in a test tube, culture dish, or elsewhere out-
+side a living organism”. Clearly, the phrase “in vitro alterna-
+tive” encompasses a huge variety of test method types and 
+approaches. Such assay systems can be relatively simple 
+approaches comprised of a single monolayer of adherent cells 
+in a culture dish. These cells may be primary cells obtained 
+directly from a tissue of interest (e.g., primary keratinocytes 
+harvested from a dermatomed skin sample) with a limited life 
+span and passage number, or they could be transformed by 
+viral vectors to yield an immortalized cell line with a theoreti-
+cally infinite life span. However, such modified cell types can 
+be prone to genetic instability and thus drift toward altered 
+phenotypes relative to their original form. Cells can be co-
+cultured with other cell types to leverage interactions that
+
+1222
+Hayes’ Principles and Methods of Toxicology
+produce a more physiologically relevant environment than 
+when cultured alone.
+Popularized initially by the pharmaceutical industry for 
+lead compound identification, HTS approaches have been 
+increasingly applied to the identification of potential toxicants 
+in other sectors, particularly where there is so little toxic-
+ity information available (e.g., industrial chemicals). These 
+assays offer the promise of providing high-throughput deci-
+sion support tools for screening and assessing not only hazard 
+but also exposure and risk. They employ robotics to greatly 
+increase the volume and speed of testing. As detailed in 
+Section 1.5, these efforts have been led by the federal govern-
+ment, specifically in a multiagency collaboration among the 
+National Institute of Environmental Health Sciences-National 
+Toxicology Program (NIEHS-NTP), the NIH’s National 
+Center for Advancing Translational Sciences, the EPA’s 
+National Center for Computational Toxicology, and the FDA, 
+collectively referred to as Tox21 [59, 60]. The Tox21 program 
+provides an efficient approach to prioritizing substances for 
+more extensive toxicological evaluation and identifies poten-
+tial toxicity-associated and disease-associated pathways based 
+on mechanistic information. Most of the assays are based on 
+human cells intended to better predict how substances will 
+affect biological responses in humans [47].
+Increasing complexity can be realized through production 
+of three-dimensional (3D) models that more closely mimic 
+the tissue of interest and even recapitulate conditions that are 
+similar to an in vivo microenvironment [61]. Some of the sim-
+plest examples of such approaches are epithelial cell systems 
+cultured on a submerged monolayer on a synthetic membrane 
+and then raised to the air–liquid interface to create a strati-
+fied, differentiated epithelial surface. Such models have been 
+produced for both skin and lung epithelia, the latter of which 
+even possess beating cilia just like cells in the human airway.
+Stem cells have often been used as an in vitro model and 
+have become increasingly popular due to their intrinsic prop-
+erties of self-renewal, infinite proliferation, and the capacity 
+for differentiation into multiple tissue cell types [62]. While 
+more than 100 human embryonic human cell lines have been 
+derived, their use has largely been focused on studies associ-
+ated with understanding the pathophysiology of genetic dis-
+ease, regenerative medicine, and a variety of other clinical 
+applications [63]. However, they have been a very powerful 
+tool for identifying potential developmental toxicants because 
+the formation of the embryoid body is considered to represent 
+the key aspects of gastrulation [64]. The ethical controversies 
+associated with the use of embryonic stem cells have driven 
+the continued development and evaluation of induced pluripo-
+tent stem cells for screening and testing approaches relevant to 
+toxicology. Their use has been particularly widespread in the 
+areas of developmental and cardiac toxicity [65].
+Three-dimensional cell culture systems also construct cell–
+cell and cell–extracellular matrix interaction networks that 
+play a vital role in maintenance of normal cellular properties 
+and mechanisms [61]. Cells cultured in suspension can aggre-
+gate and assemble into spheroid cultures. These cultures facili-
+tate the aforementioned cell–cell and cell–extracellular matrix 
+interaction networks and more closely replicate the in vivo 
+microenvironment, thereby improving viability and overall 
+performance [66]. For example, the development of new and 
+improved liver toxicity screening assays has largely focused 
+on hepatocellular spheroids that show improved hepatocyte 
+differentiation, longevity, and functionality compared with 2D 
+cultures [67].
+More recently, advances in bioengineering have resulted 
+in the design and development of physiologically relevant 
+MPS that are microsystems capable of recreating aspects of 
+human organ physiology and function. While not yet at the 
+stage of practical application in routine toxicology testing, 
+MPS (also known as “tissue chips” or “organs-on-a-chip”) 
+can be designed to recapitulate human (or other animal) tis-
+sues as a multicellular environment applicable to a variety of 
+toxicology endpoints [68]. Initially, these systems were largely 
+organ-specific cell types co-cultured in a microenvironment 
+that fostered the cell–cell interactions noted above, particu-
+larly with regards to facilitating metabolic competence and 
+understanding the importance of mechanical stress on the nor-
+mal physiology of certain types [69, 70]. But the fruits of col-
+laborations among bioengineers, toxicologists, and physicians 
+were quickly realized in more sophisticated MPS that mimic 
+organ systems that can more fully interrogate potential toxici-
+ties of the cardiovascular, pulmonary, excretory, dermal, and 
+nervous systems [71–74]. As technology continues to advance 
+and practical challenges are addressed to make MPS more 
+approachable for routine testing, one can envision a pivotal 
+role of MPS in the identification of potential toxicities without 
+using animals.
+22.2.3  In Chemico Alternatives
+Methods that are not derived from living organisms and mea-
+sure chemical reactivity are known as “in chemico” methods. 
+These abiotic approaches can be applied in toxicology testing 
+based on the assumption that chemical reactivity and toxic-
+ity are directly proportional as covalent interactions between 
+a chemical and a biological molecule result in toxicity [75]. 
+Reference to such methods and their application to sensiti-
+zation reactions can be found as far back as the 1930s [76, 
+77]. However, they have seen a significant uptick in interest 
+since the start of the 21st century as our understanding of the 
+molecular initiating event associated with the adverse outcome 
+pathway (AOP) for allergic contact dermatitis has been solidi-
+fied. These methods and their application are more thoroughly 
+detailed in Section 3.4.
+22.2.4  In Silico Alternatives
+An emerging class of alternatives are those which typically 
+do not require experimental testing and instead rely upon 
+computer models to make predictions about chemical toxicity 
+based on inherent features of the chemical, such as molecu-
+lar structure or physicochemical properties, called “in silico” 
+methods. As computational power increases and publicly avail-
+able databases are becoming better annotated and accessible, 
+approaches such as machine learning and artificial intelligence 
+are increasingly playing a larger role in synthesizing large 
+datasets to build predictive models. For example, Quantitative
+
+1223
+Novel Approaches and Alternative Models
+Structure–Activity Relationship (QSAR) models are trained 
+on large numbers of chemicals with existing information, to 
+identify complex, nonlinear relationships between chemi-
+cal structure and toxicity, and then used to make predictions 
+about untested chemicals. There are many types of molecu-
+lar descriptor libraries and machine learning algorithms that 
+can be applied to building such models, but one particularly 
+effective approach has been demonstrated to be using multiple 
+methods and combining them in a collaborative fashion. This 
+consensus modeling framework has been successfully applied 
+to endocrine disruption [78, 79] and acute systemic toxicity 
+endpoints [80]. More information on QSAR and in silico pre-
+dictive models as important alternatives in chemical assess-
+ments is provided in Section 5 on Computational Resources.
+22.3  Regulatory Testing and 
+Available Alternatives
+Recently, a great deal of effort has been focused on finding 
+animal replacement or reduction alternatives for the “six-
+pack” of acute toxicity test methods required for pesticide 
+products, and often provided for other types of chemicals [81], 
+and used by a range of regulatory agencies for risk assessment 
+and decision-making purposes [82]. This package of in vivo 
+studies encompasses the evaluation of acute systemic toxic-
+ity by three exposure routes: oral, dermal, and inhalation, and 
+three acute topical toxicity endpoints: eye irritation/corrosion, 
+skin irritation/corrosion, and skin sensitization. In 2016, the 
+U.S. EPA Office of Pesticide Programs released a Letter to 
+Stakeholders [83] discussing EPA’s development of a process 
+for identifying and adopting alternatives to the traditional in 
+vivo acute toxicity studies. Substantial progress has been made 
+toward the replacement of animal tests for each of these end-
+points, as described in the following sections.
+22.3.1  Acute Systemic Toxicity
+Acute systemic toxicity tests are used to assess the potential 
+lethality of chemicals and formulations following oral, der-
+mal, or inhalation routes of exposure. The traditional test 
+method uses rats or mice to estimate the chemical dose or 
+concentration that would be lethal to 50% of animals tested 
+(i.e., the LD50 or LC50) [84–86]. Data generated in these tests 
+are used for a wide range of regulatory purposes including 
+to determine if substances need protective packaging, warn-
+ing labels, environment release guides, and require protective 
+equipment. Given the multiple mechanisms associated with 
+chemically induced lethality, a complete replacement for the 
+in vivo test method has yet to be developed. Initial 3Rs efforts 
+for this endpoint focused on reduction and refinement alterna-
+tives that resulted in new and updated TGs that required much 
+smaller numbers of animals and looked for ways to end the test 
+early to reduce significant pain and distress. More recently, 
+significant research efforts have focused on the development of 
+mechanistically based nonanimal testing approaches that may 
+provide more human-relevant data than in vivo rodent models, 
+as well as enhancing understanding of toxicity mechanisms.
+22.3.1.1  Acute Oral Toxicity
+As noted above, initial 3Rs efforts were principally focused 
+on refinement and reduction alternatives. For acute oral toxic-
+ity, new guidelines that minimized the number of dose groups 
+and the number of animals used overall were implemented in 
+harmonized TGs [87–89]. Multiple guidance documents were 
+developed by international expert groups to harmonize termi-
+nology associated with humane endpoints and provided guid-
+ing principles that would minimize animal use and limit pain 
+and distress [90, 91]. In fact, these alternatives were imple-
+mented globally such that, in 2002, the original TG adopted 
+in 1987 (OECD TG 401) was deleted by the OECD Council. 
+In vitro cytotoxicity methods were also explored as screening 
+approaches that would define in vivo starting doses, thereby 
+obviating the need for in vivo dose range finding studies. An 
+international interlaboratory validation study resulted in an 
+ICCVAM recommendation to use these methods in a weight-
+of-evidence approach to determine starting doses for acute 
+oral systemic toxicity test methods. However, they could not 
+be used on their own to determine the hazard classification 
+of chemicals, and thus were not a complete replacement. 
+The European Union Reference Laboratory for Alternatives 
+to Animal Testing-European Centre for the Validation of 
+Alternative Methods (EURL-ECVAM) further recommended 
+it in a weight-of-evidence approach to support identifying 
+substances that would not be classified for acute oral toxic-
+ity under CLP (Classification, Labeling and Packaging of sub-
+stances and mixtures) and REACH (Registration, Evaluation, 
+Authorisation and Restriction of Chemicals) regulations [92]. 
+This approach is also referenced in REACH guidance for use 
+in a weight-of-evidence approach to satisfy acute oral toxic-
+ity requirements [93]. An OECD guidance document is also 
+available with the intent of harmonizing approaches to be used 
+[94]. However, despite these recommendations and guidances, 
+in practice, it appears that these methods have gained little 
+traction.
+Over the past decade, efforts have increased toward identi-
+fying practical and predictive approaches for acute systemic 
+toxicity. Non-testing approaches, including waiving tests and 
+calculating the acute lethality of mixtures based on the LD50 
+values of mixture components (i.e., the Globally Harmonized 
+System of Classification and Labeling of Chemicals [GHS] 
+mixtures equation), are also being used, especially at the 
+extreme ends of the lethality spectrum (in the very toxic or 
+non-toxic classification ranges). A recent study conducted in 
+conjunction with the U.S. EPA demonstrated that the GHS 
+mixtures equation is promising for identifying substances 
+expected to induce minimal toxicity [95]. Additional efforts 
+have focused on international collaborations aimed at iden-
+tifying key areas to explore to better understand the mecha-
+nisms of acute lethality and in turn to develop and implement 
+approaches that target such mechanisms [96–98].
+Perhaps most promising in this area are newly developed in 
+silico approaches. Leveraging large, curated datasets of legacy 
+in vivo acute oral toxicity data, computational approaches pro-
+vide the promise of building high performing predictive mod-
+els based on chemical structural similarities. Computational 
+approaches such as QSARs are increasingly recognized
+
+1224
+Hayes’ Principles and Methods of Toxicology
+for their ability to use information about chemical proper-
+ties and predict their biological activities. Such models built 
+using existing data facilitate rapid acute toxicity predictions 
+without using animals. A recent international collaboration 
+of more than 30 independent research groups resulted in the 
+Collaborative Acute Toxicity Modeling Suite (CATMoS) [98]. 
+CATMoS, which predicts both quantitative (e.g., LD50) and cat-
+egorical (e.g., hazard classification) endpoints, uses consensus 
+predictions of each individual model built by the participating 
+research groups to leverage their collective strengths [80].
+22.3.1.2  Acute Inhalation Toxicity
+Acute inhalation toxicity tests identify substances that could 
+cause illness or death after a single inhaled exposure. This 
+endpoint includes challenges associated with dosimetry and 
+the potential impact of airway exposures to aerosols, vapors, 
+dusts, or mists [99]. Like acute oral toxicity, multiple OECD 
+TGs are available that describe in vivo approaches to assess-
+ing acute inhalation toxicity [85, 100, 101]. The original 
+study design was harmonized in OECD TG 403, which now 
+includes recommendations for minimizing animal usage. 
+For example, when the test article is known or expected to 
+be minimally toxic, a single-dose group can be used that is 
+exposed to the limit concentration (or maximum attainable 
+concentration if a limit concentration cannot be attained), 
+generally for 4 hours [85]. There are also reduction and refine-
+ment alternatives to the traditional study design that use fewer 
+animals by following a stepwise procedure to fixed concentra-
+tions or incorporates evident clinical signs of toxicity prior to 
+lethality [100, 101].
+Multiple in vitro approaches have been suggested to predict 
+acute inhalation toxicity, but there still is no single harmonized 
+test system considered adequate to fully replace inhalation 
+exposure studies [102]. Additionally, anatomical and physi-
+ological differences exist between rodent and human respira-
+tory tracts (e.g., breathing mode and ventilation rates, airway 
+architecture and branching pattern, cell types, and composi-
+tion within the regions of the respiratory tract). As a result, 
+differences in metabolism and the deposition pattern of an 
+inhaled substance can vary significantly, which impacts not 
+only the initial dose in the portal of entry but also the specific 
+pathways by which inhaled material is cleared and redistrib-
+uted [103, 104].
+Mathematical models have been developed to address the 
+challenges associated with inhalation dosimetry. For estimat-
+ing particle deposition in humans and laboratory species, mul-
+tiple-path particle dosimetry models allow predictions of the 
+inhaled dose based on the specific exposure scenarios [105, 
+106]. Computational kinetic models also allow the determina-
+tion of in vitro doses delivered to cells in culture [107, 108] or 
+to predict air-particle dynamics in vivo [109].
+While monolayer culture systems exist, a more human-
+relevant approach that allows direct exposure of the cultured 
+cells of the respiratory tract at the air–liquid interface to cre-
+ate reconstructed human airway models is needed. A com-
+prehensive review of the state of the science of nonanimal 
+approaches for acute inhalation toxicity testing details many 
+of these approaches and provides recommendations on the 
+next steps toward the development and implementation of 
+such approaches [110]. This review describes new approaches 
+under development to target specific mechanisms of toxicity 
+and incorporate relevant dosimetry depending on the physi-
+cal form of the material being tested. Importantly, the authors 
+summarize the AOPs available for nonanimal methods that 
+can be used to assess the KEs leading to lethality following 
+inhalation exposure. Such AOPs are critical to identifying 
+and addressing knowledge gaps and optimizing nonanimal 
+approaches that can be used to investigate KEs of toxicity 
+[104].
+22.3.1.3  Acute Dermal Toxicity
+Another common route of exposure is through the skin. 
+Chemicals considered to be relevant to this route (e.g., agro-
+chemicals) are evaluated in acute dermal toxicity tests for their 
+potential to cause lethality following topical exposure. Hazard 
+classification systems based on dermal LD50 values are associ-
+ated with specific signal words and hazard statements. These 
+categories are also associated with specific recommendations 
+for personal protective equipment to mitigate skin exposures.
+Much like the acute oral toxicity test, 3Rs approaches have 
+largely focused on protocol modifications to achieve reduc-
+tion and refinement of animal use, which is reflected in the 
+most recent version of the OECD TG, adopted in 2017 [86]. 
+In achieving these modifications, multiple study designs were 
+considered and a biometrical analysis was conducted to assess 
+and compare their relative performance [111]. This included 
+alterations of the study designs described for acute oral toxic-
+ity including a Fixed Dose Procedure (FDP), a modified Acute 
+Toxic Class design, and the Up-and-Down Procedure [88, 89, 
+112]. The dermal FDP was the highest performing design and 
+used the fewest number of animals, so a stepwise procedure 
+was added to OECD TG 402, with the use of up to three ani-
+mals of a single sex per step [86].
+While nonanimal methods have yet to be developed to 
+identify potential toxicants by the dermal route, significant 
+progress has been made to identify opportunities for waiving 
+the requirement for testing at all. Physicochemical properties 
+can certainly be used to establish whether or not a substance 
+is likely to traverse the stratum corneum and reach the sys-
+temic circulation, thereby presenting a systemic toxicity risk. 
+Where such a determination cannot be made, or where der-
+mal hazard needs to be assessed, data from acute oral toxicity 
+studies could potentially be used to assign relevant categories 
+without conducting additional in vivo studies via the dermal 
+route. A retrospective evaluation based on several hundred 
+agrochemicals (representing both AIs and final formula-
+tions) tested in both acute oral and dermal toxicity studies 
+was conducted to determine whether acute oral toxicity data 
+from pesticide formulations and AIs can be used in lieu of 
+acute dermal toxicity data for the purposes of dermal hazard 
+classification and labeling. With very few exceptions, these 
+evaluations demonstrated that acute oral hazard categories 
+are sufficiently protective as replacements for acute dermal 
+hazard classifications of pesticides [113]. These results were 
+used as the basis for waiver guidance published by EPA for 
+agrochemical registrants [13, 14].
+
+1225
+Novel Approaches and Alternative Models
+22.3.2  Acute Eye Irritation and Corrosion
+For more than 75 years, the in vivo rabbit eye test has been used 
+to identify the potential for eye irritation and corrosion asso-
+ciated with topical exposure to chemicals and other products 
+[114]. In the past three decades, numerous in vitro methods 
+have been brought forward as potential nonanimal alternatives, 
+several of which are available as internationally harmonized 
+TGs for regulatory use (OECD TGs). Many of these methods 
+have been comprehensively evaluated in international, multi-
+laboratory validation studies to demonstrate their usefulness 
+and limitations. However, there has yet to be a single method 
+or approach considered sufficiently predictive of human ocular 
+injury to be used as a complete replacement for the traditional 
+rabbit test [115]. More recently, efforts have focused on bet-
+ter characterizing the limitations of the rabbit test as a refer-
+ence comparator for new approach methods. These include the 
+inherent variability of the rabbit test, differences between rab-
+bits and humans in ocular anatomy, and differences in topical 
+exposures in the rabbit test versus what might be experience 
+in human exposure. Ultimately, it is expected that a combined 
+approach that leverages the strengths of multiple methods 
+described below will be necessary to achieve full replacement 
+given the multiple mechanisms of the eye irritation response. 
+For example, in 2015, the EPA published an accepted alterna-
+tive testing approach for evaluating the eye irritation potential 
+of certain pesticide products using a decision tree structure 
+based only on in vitro and ex vivo assays [116]. A compre-
+hensive summary of the available methods for eye irritation 
+testing, and their relevance to the mechanisms of chemically 
+induced eye irritation in humans is detailed [35].
+Monolayer cultures of human and animal cell types provide 
+a relatively simple approach to eye irritation testing, albeit 
+with the obvious limitation of requiring aqueous solubility 
+of the test substance (or inclusion of a vehicle that augments 
+solubility) to be used in such a system. These methods are 
+typically based on induced cytotoxicity or other alteration of 
+cell function following exposure to a test substance at a spe-
+cific time interval. Depending on the endpoint, they are scal-
+able to a higher throughput format to facilitate more efficient 
+screening. Many are based on monolayers of corneal cells, but 
+several other mammalian cell types have also been used as 
+predictive models. Those that have been adopted as interna-
+tional TGs are approved for identifying severe eye irritants/
+corrosives and substances that do not require hazard classi-
+fication because they are considered nonirritating to mini-
+mally irritating, but not for substances predicted to be mildly 
+or moderately irritating. The Short Time Exposure test mea-
+sures cytotoxicity in a confluent monolayer of rabbit corneal 
+cells (Statens Seruminstitut Rabbit Cornea cells) based on 
+changes in cell viability as a correlate to eye irritation poten-
+tial [117]. Decreased cell viability corresponds to increased 
+severity of eye irritation potential. Cell viability is assessed 
+quantitatively based on the blue formazan salt produced by the 
+living cells following enzymatic conversion of the vital dye 
+MTT (2,5-diphenyl-2H-tetrazolium bromide), also known as 
+Thiazolyl Blue Tetrazolium Bromide. The neutral red release 
+assay uses the extent of membrane damage in normal human 
+epidermal keratinocytes (NHEK) as a cytotoxic endpoint to 
+predict the severity of eye irritation potential. The vital dye 
+neutral red accumulates within lysosomes of cells upon expo-
+sure in culture medium. Cell membrane disruption follows 
+exposure to cytotoxicants which in turn results in neutral red 
+release [118]. Similarly, the fluorescein leakage assay detects 
+changes in membrane permeability to sodium fluorescein in 
+Madin-Darby Canine Kidney CB997 tubular epithelial cells. 
+Increased cellular uptake of sodium fluorescein corresponds to 
+increased severity of eye irritation potential [119].
+Cellular metabolism is tightly coupled to ATP usage and 
+the extracellular release of acidic byproducts. Cytotoxicants 
+disturb the metabolism of cells, thereby changing the rate at 
+which these metabolic byproducts are released by the cell 
+which can be measured by changes in the pH of the culture 
+medium surrounding the cells. Accordingly, using a pH meter 
+to detect changes in acidity, the Cytosensor Microphysiometer 
+test method quantifies the concentration of test substance that 
+reduces by 50% the acidification rate (MRD50) in mouse L929 
+fibroblasts. MRD50 is considered to be inversely proportional 
+to the severity of eye irritation potential of a test substance 
+where a lower MRD50 corresponds to more severe eye irrita-
+tion potential [120, 121].
+Reconstructed human corneal models are histologically, 
+morphologically, biochemically, and physiologically similar 
+to the human corneal epithelium. Since these tissues are cul-
+tured at the air–liquid interface, they avoid the requirements 
+for aqueous solubility in monolayer cultures and therefore pro-
+vide an assay system that can evaluate both mono-constituent 
+substances and final formulations. Several functionally and 
+mechanistically similar methods are now available and are 
+part of an internationally adopted TG [122]. The validated 
+reference methods are comprised of either normal human 
+corneal epithelial cells, transformed human corneal epithelial 
+cells, or NHEK. These test methods are all based on damage 
+to the epithelial cell barrier function and cell death indicated 
+by changes in cellular metabolic rate (e.g., as indicated in the 
+MTT assay described above). Data reported using the interna-
+tionally harmonized methods are the reduction in viability rel-
+ative to the negative control group and the extent of potential 
+ocular damage is inversely proportional to the potential sever-
+ity of eye irritant response. Additional study designs allow for 
+a time-to-toxicity to be established to further delineate relative 
+potency based on the time required to reach a certain thresh-
+old of viability reduction, often set at 50% (i.e., resulting in an 
+ET-50) [123].
+Ex vivo models are also commonly used to evaluate poten-
+tial eye irritants using ocular tissues obtained from slaughter-
+house animals such as chickens, cows, and pigs. The bovine 
+corneal opacity and permeability (BCOP) assay uses bovine 
+corneas dissected from whole eyes that are then mounted 
+in enclosed holders and maintained in culture medium. The 
+extent of corneal opacity is measured using an opacitometer 
+and fluorescein penetration across the corneal surface is mea-
+sured spectrofluorometrically. These quantitative measure-
+ments of corneal opacity and permeability are combined into 
+an In Vitro Irritancy Score, which is directly proportional to 
+the irritancy level of the test chemical [124]. Histopathology 
+can also be used to identify potential irritants that were not 
+detected using the BCOP quantitative scoring. This has been
+
+1226
+Hayes’ Principles and Methods of Toxicology
+particularly useful in the assessment of agrochemical prod-
+ucts, where the inclusion of histopathology greater improved 
+test method performance for these formulations.
+As its name suggests, the isolated chicken eye (ICE) test 
+method uses ex vivo chicken eyes that are mounted on spe-
+cialized whole globe eye holders to provide short-term main-
+tenance of normal conditions [125]. The ICE test method 
+measures chemically induced corneal swelling, corneal opac-
+ity, and corneal permeability, but unlike the BCOP, which is a 
+quantitative assay, two of the three ICE test method endpoints 
+are qualitative. Test and control eyes are evaluated using a slit-
+lamp microscope. Corneal opacity and fluorescein retention 
+are scored with a subjective scoring system, whereas corneal 
+swelling is measured quantitatively with an optical pachym-
+eter and is expressed as a percentage. The resulting scores are 
+combined to assign an overall prediction [126]. Although not 
+included in a standardized TG, a similar method has also been 
+developed that uses rabbit eyes [127]. Just as in the BCOP, his-
+topathology of the ocular tissues has been shown to improve 
+test method performance.
+The porcine corneal opacity/reversibility assay (PorCORA) 
+uses ex vivo porcine corneas that are maintained at the air 
+interface on a soft agar:culture medium matrix. This allows 
+the porcine corneal cells to be sustained for 21 days and dam-
+age to the epithelial barrier function is detected using a sodium 
+fluorescein stain. Accordingly, similar to the study design of 
+the in vivo rabbit test, PorCORA provides the opportunity to 
+evaluate reversibility of any adverse effects over an extended 
+period post-exposure [128, 129].
+Assays developed based on protein denaturation have also 
+been successfully demonstrated as useful approaches to pre-
+dict the eye irritation potential of certain types of chemicals. 
+These tests (e.g., the Ocular Irritection and Optisafe test meth-
+ods) measure the extent of denaturation within a molecular 
+matrix exposed to a test substance [87, 130]. The matrix is 
+comprised of lipids, proteins, glycoproteins, and low molecu-
+lar weight substances that are considered to be a biochemi-
+cal model of the cellular components of the cornea. The test 
+system is not a “live biological system” and therefore can be 
+performed in any laboratory and does not require cell culture 
+facilities. The tests also offer the practical advantages of an 
+objective measurement (via optical density readings) that can 
+be used as the decision criteria to identify eye irritation poten-
+tial (and potency).
+A fundamental challenge to the adoption and implementa-
+tion of alternatives for eye irritation and corrosion testing is 
+the reference data against which new approaches are com-
+pared (i.e., the rabbit eye test). While internationally harmo-
+nized TGs are available for methods that can identify either 
+end of the eye irritation spectrum (ocular corrosives or mini-
+mally irritating/nonirritants), there have yet to be any complete 
+replacements adopted due to their apparent inability to iden-
+tify mild and moderate eye irritants. However, recent efforts to 
+characterize the variability of the rabbit eye test, which is less 
+than 50% reproducible for mild and moderate eye irritation 
+categories [23], have brought to light consideration for chang-
+ing the paradigm for evaluating these new approaches. Efforts 
+are underway to better define a metric for establishing confi-
+dence in new approaches that considers both the variability of 
+the reference test method, along with the human relevance and 
+mechanistic basis in determining the usefulness and limita-
+tions of proposed alternatives [35].
+22.3.3  Acute Skin Irritation and Corrosion
+Skin irritation describes chemically induced reversible dam-
+age to the skin, whereas chemically induced skin corrosion 
+is irreversible damage characterized by necrosis and scar-
+ring. Just as is the case for eye irritation testing, skin irrita-
+tion testing has included an in vivo rabbit skin test since the 
+early 1940s [114]. And similar to the situation for eye irritation 
+testing, there are no nonanimal methods that are considered a 
+complete replacement for the existing animal test for all regu-
+latory applications. However, unlike testing for eye irritation, 
+alternative methods for skin corrosion are typically different 
+than those intended for identifying less severe skin irritants. 
+Many of these methods are internationally adopted TGs that 
+have been used for many years for a variety of internal and 
+regulatory decision scenarios.
+Several test methods are currently included in the OECD 
+health effects TGs program. These include methods that uti-
+lize biochemical membrane barrier systems, ex vivo rat skin, 
+and reconstructed human epidermal constructs [131–133].
+The membrane barrier systems have been developed for 
+predicting skin corrosion based on the time it takes for a test 
+substance to break through the membrane, which is inversely 
+proportional to the severity of the response (i.e., the most cor-
+rosive chemicals break through the membrane in the shortest 
+amount of time). Similar to the ocular models mentioned above, 
+the membranes are comprised of lipids, proteins, glycopro-
+teins, and low molecular weight substances that are intended 
+to model the stratum corneum barrier of the skin. As they are 
+artificial systems, these methods can also be performed in any 
+laboratory without the need for cell culture facilities because 
+as artificial systems, they do not require sterility. And, like 
+the ocular methods, they use an objective measurement that 
+can be used as the decision criteria to identify skin corrosion 
+potential (and potency) [132]. Importantly, these assays can be 
+used to identify corrosive chemicals as well as subcategorize 
+corrosive test chemicals based on potency according to the UN 
+GHS and U.S. Department of Transportation (DOT) classifica-
+tion systems.
+This transcutaneous electrical resistance (TER) assay relies 
+on skin discs collected from harvested rat skin [131]. The assay 
+is based on the premise that skin corrosives produce a loss 
+of normal stratum corneum integrity and barrier function that 
+can be measured by decreases in TER below a defined thresh-
+old. As many as 15 skin discs can be obtained from one rat, 
+thereby significantly reducing the number of animals required 
+for this endpoint, and eliminating pain and stress associated 
+with in vivo testing. While the rat skin TER can discriminate 
+between corrosive and non-corrosive substances, it cannot fur-
+ther subcategorize corrosive substances according to national 
+and international regulatory requirements.
+The 3D reconstructed human epidermal models use human 
+cells cultured at the air interface to recapitulate the viable epi-
+dermis, complete with an intact stratum corneum. They typi-
+cally include nontransformed human keratinocytes that grow
+
+1227
+Novel Approaches and Alternative Models
+into a stratified epithelium. These models closely mimic the 
+histological, morphological, biochemical, and physiological 
+properties of the upper parts of the human epidermis. Their 
+utility is based on the principle that corrosive chemicals pene-
+trate the stratum corneum by diffusion or erosion and are cyto-
+toxic to the cells in the epidermal cell layers. These methods 
+measure changes in cellular metabolic rate after a fixed expo-
+sure (e.g., MTT assay) to discriminate between non-corrosives, 
+and subcategories of corrosive substances. Chemicals that do 
+not reduce tissue viability below a certain threshold can be 
+considered non-corrosive, but additional testing is required to 
+determine if there is any irritation potential. At least five meth-
+ods have been developed and validated, which are all included 
+in the OECD TG [133].
+Chemically induced skin irritation is marked by damaged 
+cells that either release inflammatory mediators or induce 
+an inflammatory cascade. The same Reconstructed Human 
+Epidermis (RhE) methods used for skin corrosion have been 
+adapted for use in identifying skin irritation potential of chem-
+icals and formulations [134]. While the RhE models them-
+selves are identical histologically to those used for identifying 
+skin corrosivity potential, modified protocols are used to mea-
+sure the initiating events in the inflammatory cascade (i.e., cell 
+damage), again using cell viability as readout. The principal 
+difference between the corrosivity and irritation protocols is 
+the chemical exposure time and the length of post-exposure 
+incubation before cell viability is measured. At least six com-
+mercially available RhE test methods have been developed for 
+identifying potential skin irritants.
+Similar to the situation with eye irritation testing, skin 
+irritation testing has yet to benefit from a complete replace-
+ment in some jurisdictions (e.g., U.S. EPA) that avoids alto-
+gether the use of animals. Again, the challenge to establishing 
+such a replacement has been the mild and moderate irritants. 
+Therefore, similar analyses to those with in vivo rabbit eye test 
+data have been conducted on in vivo rabbit skin test data, and 
+again, the rabbit test falls short of reproducing itself in these 
+categories more than 50% of the time [24]. Efforts to fully 
+characterize the human relevance and mechanistic basis of 
+available and future skin models will be needed to best deter-
+mine the usefulness and limitations of proposed alternatives 
+without using in vivo data.
+22.3.4  Skin Sensitization
+Allergic contact dermatitis, or skin sensitization, is a prevalent 
+occupational and public health concern, affecting an estimated 
+20% of the population [135]. In 2013, OECD published an AOP 
+for skin sensitization linking molecular initiating events and 
+cellular and tissue effects in the sensitization process [136]. 
+Since then, several in vitro (cell-based) and in chemico (cell-
+free) testing methods for assessment of dermal hypersensitivity 
+mapped to KEs in the AOP have been validated in interna-
+tional interlaboratory ring trials. Currently, there are OECD 
+TGs based on four KEs of the AOP: (1) covalent binding with 
+skin proteins (haptenation) measured by in chemico assays, 
+e.g., the direct peptide reactivity assay (DPRA) [137]; (2) acti-
+vation of the Keap1/Nrf2 pathway by electrophilic substances, 
+as monitored by the antioxidant response element assay, e.g., 
+KeratinoSensTM [138]; (3) dendritic cell activation, which mod-
+els presentation of new antigens (hapten/carrier complexes), 
+e.g., via the human cell line activation test (hCLAT) [139]; 
+and (4) lymphocyte proliferation, as measured by the in vivo 
+murine local lymph node assay (LLNA) [140]. The LLNA is 
+currently the regulatory standard for assessing skin sensitiza-
+tion potential, although the guinea pig test method [141] is still 
+requested under specific circumstances (e.g., for certain medi-
+cal device products).
+At this stage, none of the individual in vitro or in chemico 
+methods are accepted as stand-alone replacements for the 
+LLNA, but combinations of these methods (so-called DAs) 
+have been developed and were submitted to the OECD as case 
+studies. These DAs providing chemical hazard and potency 
+prediction range from simple rule-based decision trees to 
+more complex machine learning algorithms that represent 
+nonlinear combinations of data from the in vitro/in chemico 
+approaches, chemical structural features, and physicochemi-
+cal properties. Work performed in collaboration with the 
+Cosmetics Europe industry consortium demonstrated that the 
+DAs provide superior performance to the existing animal tests 
+when compared to human data [142]. While no individual in 
+vitro test can recapitulate the hypersensitivity response in its 
+entirety, these analyses demonstrated that integrated strategies 
+using varying combinations of in vitro, in chemico, and/or in 
+silico methods (predictions from computer programs) could be 
+highly accurate in identifying potential skin sensitizers. Based 
+on this work, the U.S. EPA released a draft science policy in 
+2018 announcing the acceptance of multiple skin sensitiza-
+tion DAs as replacements for laboratory animal testing [143]. 
+The two DAs included in the EPA science policy (Figure 22.1) 
+are the “2 out of 3” approach, which provides a prediction for 
+hazard identification based on majority concordant results of 
+assays covering the first three KEs of the AOP, e.g., the DPRA, 
+KeratinoSensTM, and hCLAT, and the sequential testing strat-
+egy “STS”, which predicts hazard based on assays mapping to 
+KE 3 and KE 1.
+Beginning in 2017, an OECD project led by the United 
+States, Canada, and the European Union (EU) was established 
+to curate high-quality reference datasets of unprecedented size 
+and to develop a novel internationally harmonized DA guide-
+line. The ICATM used the DAs for skin sensitization as a case 
+study to develop an assessment framework for establishing 
+confidence in DAs, which can be applied to many additional 
+endpoints [144]. The OECD guideline on DAs for skin sensiti-
+zation, the first phase of which covers simple rule-based DAs, 
+was adopted in 2021 as the first of its kind and provides full 
+replacement alternatives to the existing in vivo methods [145]. 
+The validated DAs contained in the OECD guideline (Figure 
+22.1) were extensively characterized and shown to either pro-
+vide the same level of information or be more informative than 
+the murine LLNA (OECD TG 429) for hazard identification 
+(i.e., sensitizer versus non-sensitizer) and for GHS potency cat-
+egorization. The “2 out of 3” DA is equivalent to that found in 
+the EPA science policy, described above, and the integrated 
+testing strategy “ITS” DA predicts hazard and GHS potency 
+categorization based on the DPRA, hCLAT, and an in silico 
+computer model prediction. Other DAs for future consider-
+ation provide quantitative point of departure estimates, e.g.,
+
+1228
+Hayes’ Principles and Methods of Toxicology
+the probabilistic skin allergy risk assessment DA [146], and 
+other stand-alone in vitro methods are undergoing evaluation 
+to determine if they may also serve as adequate replacements 
+or as part of DAs, e.g., the SENS-IS 3D reconstituted epider-
+mis based model and the Genomic Allergen Rapid Detection 
+(GARD™) assay [147, 148].
+To further investigate the applicability of these alternative 
+approaches across a diverse chemical landscape, NICEATM 
+solicited chemical nominations for which there were exist-
+ing in vivo data but only limited in vitro evaluation from U.S. 
+federal agencies that belong to ICCVAM. Just under 200 
+substances, including pesticide formulations, excipients, and 
+industrial agents, were nominated by partner agencies and 
+have been tested to date in the in vitro methods, and as of 
+mid-2021 analysis of the data is ongoing. A subset of these 
+data and analysis provided by NICEATM have already been 
+used by the U.S. EPA in their 2020 “Draft Human Health and 
+Ecological Risk Assessments for Several Pesticides for Several 
+Isothiazolinones” [149]. This is the first use of such informa-
+tion in regulatory risk assessment and marks a major milestone 
+in the use of alternative methods. Overall, DAs have been 
+demonstrated to be more reliable and human relevant than the 
+commonly employed in vivo test methods for skin sensitiza-
+tion, and substantial progress has been made toward regula-
+tory acceptance in the United States and internationally.
+22.4  Repeat Dose Chronic Endpoints
+While substantial progress has been made toward the full 
+replacement of animal methods for acute toxicity endpoints, 
+the situation is more complicated for endpoints that repre-
+sent chemical contributions toward chronic health condi-
+tions such as cancer or cardiovascular disease, or those that 
+manifest over specific life stages following repeat exposures, 
+like developmental or reproductive toxicity. These diseases 
+involve multiple mechanisms and pathways, both adverse and 
+compensatory, interacting in complex ways over longer time 
+scales. This necessitates more complicated models to repre-
+sent this level of biological complexity, which has tradition-
+ally only been possible using animal studies. However, some 
+approaches break down these multifaceted disease endpoints 
+FIGURE 22.1  Nonanimal DAs for Skin Sensitization Hazard (a, b) and Potency (c, d) Assessment. The 2 out of 3 (2o3) DA (a) is accepted by U.S. EPA 
+and included in the OECD DASS Guideline and covers three KEs in the AOP: KE1 (TG 442C, e.g., DPRA), KE2 (TG 442D, e.g., KeratinoSens), KE3 
+(TG 442E, e.g., hCLAT) to provide a hazard prediction. The 2o3 DA does not weigh individual methods or specify a defined order of testing. The STS 
+DA (b) is accepted by U.S. EPA and covers two KEs in the AOP: KE1 (TG 442C, e.g., DPRA) and KE3 (TG 442E, e.g., hCLAT) to provide a hazard 
+prediction. The ITS is a score-based DA which is included in the OECD DASS Guideline and covers two KEs in the AOP: KE1 (TG 442C, e.g., DPRA) 
+and KE3 (TG 442E, e.g., hCLAT), plus an in silico prediction from either DEREK (v1; (c)) or OECD QSAR TB (v2; (d)) to provide a potency prediction.
+
+1229
+Novel Approaches and Alternative Models
+into discrete mechanisms which can each be modeled using 
+NAMs, and then integrated strategies can be built that yield 
+more comprehensive biological coverage than an individual 
+assay might be capable of providing.
+22.4.1  Developmental and Reproductive Toxicity
+As detailed in Sections 1.5 and 2.2, publicly available HTS 
+datasets are now available for widespread in vitro profiling 
+of bioactivities across large inventories of chemicals, and 
+substantial work has gone into mapping these HTS assays to 
+mechanistic targets and developmental modes of action [150]. 
+Coupling this tremendous amount of mechanistic data with a 
+more in-depth understanding of molecular embryology and 
+developmental signaling pathways facilitates using NAMs to 
+evaluate chemical toxicity, drug efficacy, and safety assessment 
+for embryo-fetal development. Platforms such as embryonic 
+or induced pluripotent stem cell assays [151], in silico virtual 
+tissues models [152], mechanistically informed testing batter-
+ies for endpoints like developmental neurotoxicity [153], small 
+model organisms like zebrafish [57], and developmentally 
+targeted MPS [154], just to name a few examples, are being 
+developed and applied to address a wide range of research 
+and regulatory needs and decision contexts. A comprehensive 
+review of the state of the science on NAMs in developmental 
+and reproductive toxicity may be found in [155].
+One example where NAMs have been successfully imple-
+mented in regulatory decision processes relevant to devel-
+opmental and reproductive toxicity testing is in the area of 
+endocrine disruption. The U.S. EPA Endocrine Disruptor 
+Screening Program (EDSP) was established in the late 1990s 
+to address both potential human and ecological effects by 
+examining chemical perturbations on estrogen, androgen, and 
+thyroid hormone-related processes, all of which are important 
+for normal development and reproduction. The validated bat-
+tery of assays for Tier 1 (screening) and Tier 2 (establishing 
+dose-response and adversity) consists of five in vitro and six in 
+vivo tests for Tier 1, and five additional in vivo tests for Tier 2. 
+Recognizing that it was not logistically feasible to screen thou-
+sands of chemicals in such a resource intensive battery, the 
+EPA began to investigate other NAM-based approaches to 
+fulfill the EDSP mandate. The ToxCast ER Pathway model, 
+part of the Tox21 research program, is a computational model 
+combining multiple in vitro assays along the estrogen signal-
+ing pathway that provides a weight-of-evidence assessment of 
+whether a chemical is estrogenic or not [156]. Using a per-
+formance-based approach, this model was validated against 
+the existing regulatory standard in vivo method for screening 
+chemicals for estrogenic activity, the rodent uterotrophic assay 
+[46]. This model is now accepted by the EPA as a replacement 
+for three of the Tier 1 assays, including the uterotrophic, and 
+is also accepted by the European Chemical Agency (ECHA) 
+and European Food Safety Authority (EFSA) as the pre-
+ferred data source for indicating an estrogenic modality for a 
+chemical. Following a similar approach, multiple assays were 
+integrated into a computational model for androgen receptor 
+pathway activity [157] and compared to data from the rodent 
+Hershberger test [158], and this work is under consideration for 
+its utility in the EDSP and elsewhere.
+There are substantial international activities in the area of 
+NAM development and evaluation under the auspices of the 
+OECD for developmental and reproductive toxicity, particu-
+larly for endocrine disruption [25]. Another example is the 
+development of integrated approaches for testing and assess-
+ment (IATA) of developmental neurotoxicity that rely on a 
+combination of multiple data sources (e.g., in vitro, in silico, 
+and non-mammalian in vivo models) that are supported by 
+mechanistic knowledge organized according to the AOP 
+framework [159]. Disruption of the retinoid signaling path-
+way at various stages leads to developmental effects on most 
+tissues, including lineage determination of pluripotent stem 
+cells; morphogenesis of the heart and lungs; segmentation of 
+the neural tube and vertebral column; growth of the limb-buds 
+and genital tubercle; orofacial and palate morphogenesis; mat-
+uration of neurosensory systems (eye, ear); and gametogenesis 
+in adults; hence, this has been an area of active focus in alterna-
+tives as well [160]. In the field of pharmaceutical development, 
+a recent guideline on reproductive toxicology: “Detection of 
+toxicity to reproduction for human pharmaceuticals – step 5 
+from the International Council for Harmonisation of Technical 
+Requirements for Pharmaceuticals for Human Use (ICH S5 
+R3)” describes qualification of alternative assays, including 
+recommended reference substances found in Annex 2 [161], 
+potential scenarios of use and provides options for deferral of 
+developmental toxicity studies as part of an ITS to support the 
+inclusion of women of childbearing potential prior to Phase 3 
+clinical trials [162].
+22.4.2  Cardiovascular Toxicity
+Cardiovascular disease is the leading cause of death for people 
+of most ethnicities in the United States and represents one of the 
+most pressing public health concerns. While some contribut-
+ing factors have been relatively well-characterized and include 
+lifestyle choices, genetic factors, and off-target effects from 
+various pharmaceuticals, there is accumulating evidence for 
+the contribution of environmental chemicals to cardiovascular 
+disease burden. Many cardiotoxic effects of pharmaceuticals, 
+including heart arrhythmia (QT prolongation), change in blood 
+pressure, altered cardiac contractility, or cardiomyocyte/myo-
+cardial injury, are identified in nonclinical animal models, but 
+others such as stroke, myocardial infarction, and heart fail-
+ure are more challenging to detect, underscoring the need for 
+better in vitro and in silico screening and testing programs. 
+Recently, the U.S. FDA committed to a major departure from 
+the status quo by initiating and utilizing the Comprehensive 
+In Vitro Proarrhythmia Assay program for evaluating adverse 
+cardiac events with in vitro data from engineered human cells 
+and stem cell-derived cardiomyocytes together with in silico 
+reconstruction of human cardiac action potential [163]. A divi-
+sion of the NTP has recently initiated a health effects inno-
+vation program centered around detecting and understanding 
+environmental chemical contributions to cardiotoxicity, with a 
+strong focus on alternative in vitro and in silico approaches as 
+key components of a translational toxicology pipeline. Recent 
+work applied the Tox21 HTS data, mapped by molecular and 
+cellular targets to six cardiovascular failure modes, to iden-
+tify cardio-relevant bioactivity signatures and screen over a
+
+1230
+Hayes’ Principles and Methods of Toxicology
+thousand chemicals using a “CardioToxPi” approach [164]. 
+This approach identified drugs with known cardiotoxic effects 
+and prioritized several classes of environmental chemicals for 
+further testing based on their demonstrated bioactivity against 
+cardiovascular targets.
+22.4.3  Carcinogenicity
+Perhaps the most complex chronic endpoint with evidence 
+for environmental chemical contributions in the field of toxi-
+cology is cancer, and while 2-year rodent bioassays remain 
+the regulatory standard at this stage, there are robust efforts 
+to develop NAMs that target mechanistic pathways and pro-
+vide the ability to screen chemicals for carcinogenic poten-
+tial. Recent research on the ability of chemicals to act via 
+multiple biological pathways, including immunosuppres-
+sion, inflammation, endocrine disruption, and mutagenesis, 
+provides strong support for the potential for chemicals and 
+chemical mixtures to influence carcinogenesis [165, 166]. 
+The Key Characteristics (KCs) of Carcinogens is a systematic 
+method for evaluating mechanistic data to support conclu-
+sions regarding human hazards from exposure to carcinogens 
+that was developed by the International Agency for Research 
+on Cancer (IARC) during a series of workshops in which an 
+international expert group identified ten KCs, one or more of 
+which are commonly exhibited by established human car-
+cinogens [167]. These KCs can be informed upon by in vitro 
+mechanistic assays and contribute to cancer hazard assess-
+ments being performed by IARC [168]. Similar approaches 
+are also being implemented by the U.S. EPA’s Integrated 
+Risk Information System Program and the U.S. National 
+Toxicology Program. More recently, this approach was com-
+bined and contrasted with the hallmarks of cancer, biologi-
+cal pathway perturbations, and phenotypes exhibited across 
+cancers, to map available assays and biomarkers and identify 
+data gaps, particularly those that would be ripe for alternative 
+method development [169]. In 2016, the OECD established an 
+expert group to develop an integrated approach to the testing 
+and assessment of non-genotoxic carcinogens [170]. Various 
+cancer models were developed using the AOP concept, over-
+arching mechanisms and modes of action were identified, and 
+a call for assays to help build out such an IATA is currently 
+open.
+22.5  Computational Resources
+Fundamental to the development of reliable alternative meth-
+ods that can eventually serve as replacements for animal 
+tests are robust datasets that are readily accessible by both 
+humans and machines. To support the development of robust, 
+integrated testing strategies and chemical assessments, these 
+datasets contain information ranging from chemical structural 
+features, to physicochemical properties, to in vitro screening, 
+to reference data from legacy in vivo animal studies, and much 
+more. To best support effective toxicological research and 
+decision making, data should adhere to the “FAIR” principles 
+(Box 1), meaning that datasets and data objects (e.g., analysis 
+code, computational models) should be Findable, Accessible, 
+Interoperable, and Reusable [171].
+BOX 22.1  FAIR DATA PRINCIPLES AS DEFINED IN WILKINSON ET AL. [171]. MORE 
+INFORMATION AVAILABLE AT HTTPS://WWW.FORCE11.ORG/FAIRPRINCIPLES
+Converting important resources into FAIR format is not always easy or straightforward. Take historical reference 
+data, for example. The validation workflow for most alternatives relies upon the curation of reliable reference data 
+from regulatory standard test methods. Those studies are typically found in PDFs and need to be manually curated to 
+identify high-quality studies and to extract the relevant information. One example project was undertaken in support 
+of the U.S. EPA EDSP to establish a reference database of rodent uterotrophic studies, the regulatory standard method 
+of determining whether a chemical is estrogenic, where sexually immature or ovariectomized rats or mice are exposed 
+to chemicals that may act as exogenous estrogens and cause uterine cell hypertrophy. This project [26] started with 
+a keyword search to identify over 700 papers in the literature that looked like uterotrophic studies, which were then 
+assessed based on their adherence to certain minimum criteria derived from the regulatory guideline study protocols 
+(e.g., correct animal model, dosing route, sufficient group size). The subset of high-quality studies meeting those guide-
+line criteria was used to identify a subset of in vivo reference chemicals with reproducible results that were then used to 
+validate the in vitro testing strategy known as the ToxCast ER pathway model, described in Section 4.1. This manually 
+curated reference dataset is now being used as a training set to apply natural language processing and machine learning 
+techniques to automate the process of identifying and curating high-quality reference data in the literature for many 
+other study types.
+FAIR Principles
+Findable
+A data object should be uniquely and persistently identifiable. 
+Accessible
+Data is accessible by authorized users (human and machine) through a well-defined protocol. 
+Interoperable
+(Meta) data assigned to the data object is syntactically parse-able and semantically machine accessible.
+Reusable
+Data objects must comply with the above three principles and sufficiently documented to allow integration/linkage with other 
+data sources.
+
+1231
+Novel Approaches and Alternative Models
+22.5.1  FAIR Data Repositories
+There are many databases under active development for stor-
+ing and accessing FAIR data resources, and a few examples are 
+detailed below. NICEATM has built the Integrated Chemical 
+Environment (ICE) [172], which is designed to provide intui-
+tive access to high-quality (curated) data and computational 
+workflows to support chemical evaluations, data integration, 
+informatics analyses, and model development [150, 173]. ICE 
+contains data and/or model predictions on ~800,000 chemi-
+cals, and a limited subset of chemical mixtures, derived from 
+validation studies, systematic literature reviews, the Tox21 
+HTS data, and many other sources. Users can query by user-
+provided chemical IDs or established reference chemical 
+lists, and results are provided in a flexible, exportable com-
+puter-friendly format as well as a human-friendly summary 
+format for quickly combining datasets and comparing data 
+between chemicals. The data in ICE are curated and anno-
+tated, particularly the HTS data, which has been mapped by 
+mechanistic target and mode of action to provide biological 
+context to those unfamiliar with the assay platforms. Using 
+standardized chemical identifiers, connections are provided 
+to other data resources such as the NTP’s Chemical Effects 
+in Biological Systems (CEBS) [174] database. The U.S. EPA’s 
+CompTox Chemicals Dashboard [175] provides a wealth of 
+information in a high-quality, structure-curated, easy-to-use, 
+open-data format to meet the various needs of the toxicology 
+and environmental sciences communities, with a focus on sup-
+porting alternatives assessments [176]. The EPA Dashboard is 
+built upon a database of curated substances linked to chemi-
+cal structures and uses this cheminformatics layer to integrate 
+diverse data types, including physicochemical, environmen-
+tal fate and transport, exposure, usage, in vivo toxicity, and 
+in vitro bioassay data. The Comparative Toxicogenomics 
+Database [177] is a robust, publicly available database that 
+provides manually curated information about chemical–gene/
+protein interactions, chemical–disease and gene–disease rela-
+tionships, with over 45 million toxicogenomic relationships for 
+over 16,000 chemicals in the 2021 version [178]. These data 
+are integrated with functional and pathway data with the aim 
+to understand how environmental exposures affect human 
+health and develop hypotheses about the mechanisms under-
+lying environmentally influenced diseases. In the EU, the 
+eChemPortal [179] is a collaborative effort between the OECD 
+and the European Chemicals Agency, with contribution from 
+governments and other stakeholders. The eChemPortal pro-
+vides free public access to information on chemical properties, 
+exposure and use information, and toxicity data on existing 
+chemicals, new industrial chemicals, pesticides, and biocides, 
+including national/regional classification results according to, 
+for example, the GHS.
+These important data resources are intended to democra-
+tize access for non-experts, further education, and training in 
+NAMs, and enable the wider scientific community to engage 
+in the use of alternative and computational approaches for 
+assessing chemical safety. The use of controlled vocabular-
+ies and ontologies (e.g., OBO Foundry [180], National Cancer 
+Institute [NCI] Metathesaurus [181], Gene Ontology [182], 
+Monarch Initiative [183], and standardized reporting formats 
+(e.g., OECD Harmonized Templates [184], Clinical Data 
+Interchange Standards Consortium [185]) ensures that multi-
+ple datasets from different species, technology platforms, and 
+study types can be optimally joined and leveraged to better 
+develop testing strategies that provide mechanistic insight into 
+chemical perturbations of health and disease pathways.
+22.5.2  Computational Models and Workflows
+Many of the resources detailed above include tools and work-
+flows designed to support the application of alternatives in 
+computational toxicology analyses for chemical hazard and 
+risk assessment. In the ICE tools section [186], the in vitro to 
+in vivo extrapolation workflow allows the user to translate in 
+vitro activity concentrations to predicted external exposures 
+and can be run with ICE data or user data via the template pro-
+vided online. The Physiologically Based Pharmacokinetics 
+tool predicts internal tissue-level concentrations resulting 
+from in vivo doses, allowing users to simulate experiments 
+or real-world human exposures. The chemical characteriza-
+tion tool allows for comparison between user-defined lists, 
+or for comparing user-selected chemicals with large chemi-
+cal libraries, by displaying distributions of physicochemical 
+properties, bioactivity- and structure-based projections, and 
+consumer product use case information derived from the U.S. 
+EPA’s Chemicals and Products Database [187]. Other tools 
+provided by the NTP include Tox21BodyMap [188], which 
+maps in vitro assay targets to the tissues in the body where 
+those genes are preferentially expressed, allowing the user 
+to develop hypotheses about target tissues where a chemi-
+cal might cause biological activity based on their patterns of 
+effects in almost 1,000 HTS assays [189]. ChemMaps [190] 
+provides an interactive visualization environment for project-
+ing chemical space and investigating properties of similar 
+chemical neighborhoods [191]. The EPA CompTox Chemicals 
+Dashboard [192] hosts a suite of tools as well, including the 
+ability to generate exposure predictions for different demo-
+graphic populations, the Generalized Read-Across function 
+[193] which allows for identification and evaluation of simi-
+lar compounds, and the PubMed Abstract Sifter [194] litera-
+ture searching tool where results from a PubMed search are 
+imported into an Excel sheet where the end-user can then use 
+a novel “sifter” methodology for quick, agile relevance rank-
+ing of articles and tagging functionality.
+As briefly described in Section 2.4, QSAR models rep-
+resent a powerful approach to link chemical structural and 
+molecular features with toxicity predictions. The OECD has 
+developed a guidance document with a validation framework 
+for QSAR models [195], and based on these principles, the 
+EURL-ECVAM JRC established a harmonized QSAR model 
+reporting format (QMRF) to ensure standardized information 
+is available across different modeling approaches. The JRC 
+QSAR Model Database [196] is a historical archive provid-
+ing information on submitted QSAR models and associated 
+QMRFs that can be used to identify valid QSARs, e.g., for 
+regulatory purposes. There are many examples of QSAR 
+modeling suites, both open-source and commercially avail-
+able, that are used to support chemical assessments. The 
+OECD and ECHA have led the development of the QSAR
+
+1232
+Hayes’ Principles and Methods of Toxicology
+Toolbox [197], a free software application that supports 
+reproducible and transparent chemical hazard assessment, 
+offers functionalities for retrieving experimental data, simu-
+lating metabolism, and profiling properties of chemicals. 
+NICEATM and the U.S. EPA have collaborated to develop 
+the Open Structure–Activity/Property Relationship App 
+(OPERA). OPERA is a free and open-source/open-data suite 
+of QSAR models providing predictions for physicochemi-
+cal properties, environmental fate parameters; absorption, 
+distribution, metabolism, and excretion (ADME) properties, 
+and toxicity endpoints [198]. All OPERA models are built on 
+curated data and QSAR-ready chemical structures standard-
+ized using an open-source workflow, and technical and per-
+formance details are described in OECD-compliant QMRF 
+reports. OPERA follows the five OECD principles for QSAR 
+modeling to provide scientifically valid, high-accuracy mod-
+els with minimal complexity that support mechanistic inter-
+pretation when possible. Predictive models yield prediction 
+accuracy estimates and applicability domain assessments, 
+and OPERA also provides a tool for standardizing chemical 
+structures and experimental values when available. OPERA 
+predictions are available through ICE and the EPA CompTox 
+Chemicals Dashboard, and the OPERA application can be 
+downloaded from the NIEHS GitHub repository [199] as a 
+stand-alone command-line or graphical user interface for 
+Windows and Linux operating systems.
+22.6  Future Perspectives
+This chapter provides an overview of many of the recent 
+developments in the field of alternatives and NAMs, but it is 
+by no means an exhaustive tome of the tremendous number 
+of efforts ongoing globally in this continuously expanding 
+field. Looking toward the future, the AOP conceptual frame-
+work, linking molecular to cellular, to tissue, to organism 
+level effects, has the potential to fundamentally transform 
+the way we address toxicology by emphasizing mechanis-
+tic understanding of chemical effects within the context of 
+human biology and toxicity pathways. Within the OECD 
+“AOP-Wiki”, there are over 340 proposed AOPs in various 
+stages of development or review, covering a huge range of 
+biological endpoints, many relying upon alternative methods 
+to provide the data for chemical assessments. Many of these 
+will go on to form the basis for IATA, which may then evolve 
+into regulatory guidelines that can replace animal testing 
+for endpoints with sufficient mechanistic understanding and 
+scientific confidence. Novel technologies such as next-gen-
+eration sequencing, high-content imaging, MPS, artificial 
+intelligence/machine learning, and multi-scale computa-
+tional models are rapidly evolving. While it is challenging 
+for regulatory policies to keep pace with cutting-edge sci-
+entific developments, a coordinated effort among all stake-
+holders will ensure that the field of alternatives continues to 
+grow and meets the needs of protecting human health and the 
+environment while upholding the 3Rs principles and mov-
+ing away from a reliance on animal models toward a human 
+biology-based approach.
+22.7  Questions
+	 22.1  What are the primary drivers for the development 
+and implementation of NAMs in toxicology?
+	 22.2  Why can’t computer models be used now to predict 
+every outcome/endpoint of interest?
+	 22.3  Are there any endpoints for which animal tests are 
+no longer needed? If so, why were they successful? 
+Where animal-based methods are still required, 
+what is precluding their replacement with NAMs?
+REFERENCES
+	
+1.	 EPA.New 
+Approach 
+Methods 
+Work 
+Plan/EPA-
+600/X-21/209. Available at https://www.epa.gov/system/
+files/documents/2021-11/nams-work-plan_11_15_21_508-
+tagged.pdf. 2021.
+	
+2.	 Russell, W. and R. Burch, The Principles of Humane 
+Experimental Technique, London: Methuen & Co., 1959 
+(reprinted and available from the Universities Federation 
+for Animal Welfare, 8 Hamilton Close, South Mimms, 
+Potters Bar, Herts EN6 3QD England).
+	
+3.	 U.S.C., 42 U.S.C. Health Research Extension Act of 1985 
+(P.L. 99–158, Section 495). 1985.
+	
+4.	 E.U., European Directive 2010/63/EU of the European 
+Parliament and of the Council of 22 September 2010 on 
+the Protection of Animals Used for Scientific Purposes. 
+Official J. L 276, 20.10.2010. 2010. pp. 33–79.
+	
+5.	 U.K., Statutory Instrument No. 473, The Animals (Scientific 
+Procedures) Act 1986, as Amended (http://www.opsi.gov.
+uk/si/si2002/20020473.htm). 1986.
+	
+6.	 NIH, National Institutes of Health Revitalization Act 
+of 1993, P.L. 103–43, 1993, Washington, DC: U.S. 
+Government Printing Office.
+	
+7.	 U.S.C., 42 U.S.C. §285l-2, ICCVAM Authorization Act of 
+2000 (P.L. 106–545). § 114 Stat. 2721, 2722, 2723, 2724 
+and 2725. 2000.
+	
+8.	 USDA, Animal Welfare, Final Rules: Code of Federal 
+Regulations, Title 9, Chapter 1, Subchapter A, Parts 1, 
+2, and 3, 1989, Washington, DC, U.S. Department of 
+Agriculture.
+	
+9.	 PHS, Public Health Service Policy on Humane Care and 
+Use of Laboratory Animals, 1986, Washington, DC: U.S. 
+Department of Health and Human Services.
+	 10.	 Haseman, J.K., et al., Using fewer animals to identify chem-
+ical eye hazards: revised criteria necessary to maintain 
+equivalent hazard classification. Regul Toxicol Pharmacol, 
+2011. 61(1): pp. 98–104.
+	 11.	 Springer, J.A., et al., Number of animals for sequential test-
+ing. Food Chem Toxicol, 1993. 31(2): pp. 105–109.
+	 12.	 EPA, Fish Bioconcentration Data Requirement: Guidance 
+for Selection of Number of Treatment Concentrations 
+[Supplement to OCSPP Test Guideline 850.1730], 
+O.o.C.S.a.P.P. 
+Office 
+of 
+Pesticide 
+Programs, 
+U.S. 
+Environmental Protection Agency, Editor. 2020.
+	 13.	 EPA, Guidance for Waiving Acute Dermal Toxicity Tests for 
+Pesticide Formulations & Supporting Retrospective Analysis, 
+O.o.C.S.a.P.P. US Environmental Protection Agency, U.S. 
+Environmental Protection Agency, Editor. 2016.
+
+1233
+Novel Approaches and Alternative Models
+	 14.	 EPA, Guidance for Waiving Acute Dermal Toxicity Tests for 
+Pesticide Technical Chemicals & Supporting Retrospective 
+Analysis, O.o.C.S.a.P.P. Office of Pesticide Programs, U.S. 
+Environmental Protection Agency, Editor. 2020.
+	 15.	 Stokes, W.S., Best practices for the use of animals in toxi-
+cological research and testing. Ann N Y Acad Sci, 2011. 
+1245: pp. 17–20.
+	 16.	 Stokes, W.S., Humane endpoints for laboratory animals used 
+in regulatory testing. Ilar J, 2002. 43 Suppl: pp. S31–S38.
+	 17.	 National Toxicology Program Interagency Center for 
+the Evaluation of Alternative Toxicological Methods 
+(NICEATM). Available from: https://ntp.niehs.nih.gov/go/
+niceatm.
+	 18.	 National Research Council (NRC): Toxicity Testing in the 21st 
+Century: A vision and a strategy. 2007. Available from: https://
+www.epa.gov/pesticide-science-and-assessing-pesticide-risks/
+overview-national-research-council-toxicity-testing.
+	 19.	 Birnbaum, L.S., 15 years out: reinventing ICCVAM. 
+Environ Health Perspect, 2013. 121(2): p. a40.
+	 20.	 Casey, W., et al., A new path forward: the Interagency 
+Coordinating Committee on the Validation of Alternative 
+Methods (ICCVAM) and National Toxicology Program’s 
+Interagency Center for the Evaluation of Alternative 
+Toxicological Methods (NICEATM). J Am Assoc Lab 
+Anim Sci, 2015. 54(2): pp. 170–173.
+	 21.	 OECD GD34, Joint Meeting of the Chemicals Committee 
+and the Working Party on Chemicals, Pesticides, and 
+Biotechnology (2005). Available from: https://ntp.niehs.
+nih.gov/iccvam/suppdocs/feddocs/oecd/oecd-gd34.pdf
+	 22.	 ICCVAM. Validation and Regulatory Acceptance of 
+Toxicological Test Methods. 1997 04 June 2021]; Available 
+from: 
+https://ntp.niehs.nih.gov/iccvam/docs/about_docs/
+validate.pdf.
+	 23.	 Luechtefeld, T., et al., Analysis of Draize eye irritation test-
+ing and its prediction by mining publicly available 2008–
+2014 REACH data. Altex, 2016. 33(2): pp. 123–134.
+	 24.	 Rooney, J.P., et al., Analysis of variability in the rabbit skin 
+irritation assay. Regul Toxicol Pharmacol, 2021. 122: p. 
+104920.
+	 25.	 Browne, P., L. Van Der Wal, and A. Gourmelon, OECD 
+approaches and considerations for regulatory evaluation 
+of endocrine disruptors. Mol Cell Endocrinol, 2020. 504: 
+p. 110675.
+	 26.	 Kleinstreuer, N.C., et al., A curated database of rodent 
+uterotrophic bioactivity. Environ Health Perspect, 2016. 
+124(5): pp. 556–562.
+	 27.	 Karmaus, A.L., et al., Evaluation of variability across rat 
+acute oral systemic toxicity studies. Manuscript in prepara-
+tion, 2021, in preparation.
+	 28.	 Karmaus, A., et al., Evaluation of Variability Across Rat 
+Acute Oral Systemic Toxicity Studies. Toxicol Sci, 2021 
+(submitted).
+	 29.	 Pham, L., et al., Variability infl in vivofl studies: Defining 
+the upper limit of performance for predictions of systemic 
+effect levels. Comput. Toxicol., 2020. 15(August 2020): pp. 
+1–100126. doi: 10.1016/j.comtox.2020.100126. 
+	 30.	 ICCVAM. A Strategic Roadmap for Establishing New 
+Approaches to Evaluate the Safety of Chemicals and 
+Medical Products in the United States. 2018. Available 
+from: https://ntp.niehs.nih.gov/go/natl-strategy.
+	 31.	 Patterson, E. A., M. P. Whelan, A. P. Worth, The role of val-
+idation in establishing the scientific credibility of predictive 
+toxicology approaches intended for regulatory application. 
+Comput Toxicol. 2021 Feb. 17: p. 100144. 
+	 32.	 Hartung, T., S. Hoffmann, M. Stephens, Mechanistic vali-
+dation. ALTEX. 2013. 30(2): pp. 119–130. 
+	 33.	 Hartung, T. From alternative methods to a new toxicology. 
+Eur J Pharm Biopharm, 2011 Apr. 77(3): pp. 338–349.
+	 34.	 Parish, S. T., M. Aschner, W. Casey, M. Corvaro, M. R. 
+Embry, S. Fitzpatrick, D. Kidd, N. C. Kleinstreuer, B. S. 
+Lima, R. S. Settivari, D. C. Wolf, D. Yamazaki, A. Boobis, 
+An evaluation framework for new approach methodologies 
+(NAMs) for human health safety assessment. Regul Toxicol 
+Pharmacol. 2020 Apr;112: 104592.
+	 35.	 Clippinger, A.J., et al., Human-relevant approaches to 
+assess eye corrosion/irritation potential of agrochemical 
+formulations. Cutan Ocul Toxicol, 2021: 40(2): pp. 145–167.
+	 36.	 The International Cooperation on Alternative Test Methods 
+(ICATM). Available from: https://ntp.niehs.nih.gov/go/icatm 
+	 37.	 European Union Reference Laboratory for Alternatives to 
+Animal Testing (EURL-ECVAM). Available from: https://
+eurl-ecvam.jrc.ec.europa.eu/.
+	 38.	 Japanese Center for the Validation of Alternative Methods 
+(JaCAVM). Available from: http://www.jacvam.jp/.
+	 39.	 Canadian Centre for Alternatives to Animal Methods (CCAAM). 
+Available from: http://www.uwindsor.ca/vp-research/350/
+canadian-centre-alternatives-animal-methods.
+	 40.	 Korean Center for the Validation of Alternative Methods 
+(KoCVAM). 
+Available 
+from: 
+http://www.nifds.go.kr/
+kocvamen/.
+	 41.	 TGs Programme of the OECD. Available from: http://
+www.oecd.org/chemicalsafety/testing/oecdguidelinesforth-
+etestingofchemicals.htm.
+	 42.	 OECD, Saving Costs in Chemicals Management: How 
+the OECD Ensures Benefits to Society, Paris: OECD 
+Publishing, 2019.
+	 43.	 Moné, M.J., et al., Setting the stage for next-generation risk 
+assessment with non-animal approaches: the EU-ToxRisk 
+project experience. Archiv Toxicol, 2020. 94(10): pp. 
+3581–3592.
+	 44.	 Council, N.R., Toxicity Testing in the 21st Century: A 
+Vision and a Strategy. 2007, Washington, DC: The National 
+Academies Press. 216.
+	 45.	 U.S. federal Tox21 Consortium. Available from: https://
+tox21.gov/.
+	 46.	 Browne, P., et al., Screening Chemicals for Estrogen 
+Receptor Bioactivity Using a Computational Model. 
+Environ Sci Technol, 2015. 49(14): pp. 8804–8814.
+	 47.	 Thomas, R.S., et al., The US Federal Tox21 Program: A 
+strategic and operational plan for continued leadership. 
+Altex, 2018. 35(2): pp. 163–168.
+	 48.	 Hutchinson, T.H., Small is useful in endocrine disrupter 
+assessment--four key recommendations for aquatic inver-
+tebrate research. Ecotoxicology, 2007. 16(1): pp. 231–238.
+	 49.	 Lewis, C. and A.T. Ford, Infertility in male aquatic inverte-
+brates: A review. Aquat Toxicol, 2012. 120–121: pp. 79–89.
+	 50.	 Ray, S., Levels of Toxicity Screening of Environmental 
+Chemicals Using Aquatic Invertebrates - A Review, in 
+Invertebrates—Experimental Models in Toxicity Screening, 
+M. Larramendy and S.Soloneski, Editors. 2016. Available 
+from: http://dx.doi.org/10.5772/61746.
+
+1234
+Hayes’ Principles and Methods of Toxicology
+	 51.	 Allard, P., et al., A C. elegans screening platform for the 
+rapid assessment of chemical disruption of germline func-
+tion. Environ Health Perspect, 2013. 121(6): pp. 717–724.
+	 52.	 Bugel, S.M., R.L. Tanguay, and A. Planchart, Zebrafish: A 
+marvel of high-throughput biology for 21st century toxicol-
+ogy. Curr Environ Health Rep, 2014. 1(4): pp. 341–352.
+	 53.	 The NIH Office of Laboratory Animal Welfare (NIH 
+OLAW). Available from: http://oacu.od.nih.gov/ARAC/
+documents/Zebrafish.pdf.
+	 54.	 Planchart, A., et al., Advancing toxicology research using 
+in vivo high throughput toxicology with small fish models. 
+Altex, 2016. 33(4): pp. 435–452.
+	 55.	 Quevedo, C., et al., Detection and prioritization of devel-
+opmentally neurotoxic and/or neurotoxic compounds using 
+Zebrafish. Toxicol Sci, 2019. 168(1): pp. 225–240.
+	 56.	 Bailey, J., A. Oliveri, and E.D. Levin, Zebrafish model sys-
+tems for developmental neurobehavioral toxicology. Birth 
+Defects Res C Embryo Today, 2013. 99(1): pp. 14–23.
+	 57.	 Tal, T., et al., Screening for angiogenic inhibitors in zebraf-
+ish to evaluate a predictive model for developmental vascu-
+lar toxicity. Reprod Toxicol, 2017. 70: pp. 70–81.
+	 58.	 Horzmann, K.A. and J.L. Freeman, Making waves: New 
+developments in toxicology with the Zebrafish. Toxicol Sci, 
+2018. 163(1): pp. 5–12.
+	 59.	 Schmidt, C.W., TOX 21: New dimensions of toxicity testing. 
+Environ Health Perspect, 2009. 117(8): pp. A348–A353.
+	 60.	 Kavlock, R. and D. Dix, Computational toxicology as 
+implemented by the U.S. EPA: Providing high throughput 
+decision support tools for screening and assessing chemi-
+cal exposure, hazard and risk. J Toxicol Environ Health B 
+Crit Rev, 2010. 13(2–4): pp. 197–217.
+	 61.	 Ryu, N.-E., S.-H. Lee, and H. Park, Spheroid culture sys-
+tem methods and applications for mesenchymal stem cells. 
+Cells, 2019. 8(12): p. 1620.
+	 62.	 Kim, T.W., J.H. Che, and J.W. Yun, Use of stem cells as 
+alternative methods to animal experimentation in predictive 
+toxicology. Regul Toxicol Pharmacol, 2019. 105: pp. 15–29.
+	 63.	 Ilic, D. and C. Ogilvie, Concise review: Human embryonic 
+stem cells-what have we done? What are we doing? Where 
+are we going? Stem Cells, 2017. 35(1): pp. 17–25.
+	 64.	 Liu, S., N. Yin, and F. Faiola, Prospects and frontiers of 
+stem cell toxicology. Stem Cells Dev, 2017. 26(21): pp. 
+1528–1539.
+	 65.	 Luz, A.L. and E.J. Tokar, Pluripotent stem cells in devel-
+opmental toxicity testing: A review of methodological 
+advances. Toxicol Sci, 2018. 165(1): pp. 31–39.
+	 66.	 Achilli, T.M., J. Meyer, and J.R. Morgan, Advances in the 
+formation, use and understanding of multi-cellular spher-
+oids. Expert Opin Biol Ther, 2012. 12(10): pp. 1347–1360.
+	 67.	 Ramaiahgari, S.C., et al., From the cover: Three-
+Dimensional (3D) HepaRG spheroid model with physi-
+ologically relevant xenobiotic metabolism competence 
+and hepatocyte functionality for liver toxicity screening. 
+Toxicol Sci, 2017. 159(1): pp. 124–136.
+	 68.	 Low, L.A., et al., Organs-on-a-Chip. Adv Exp Med Biol, 
+2020. 1230: pp. 27–42.
+	 69.	 Huh, D., et al., Reconstituting organ-level lung functions 
+on a chip. Science, 2010. 328(5986): pp. 1662–1668.
+	 70.	 Li, A.P., A. Uzgare, and Y.S. LaForge, Definition of metab-
+olism-dependent xenobiotic toxicity with co-cultures of 
+human hepatocytes and mouse 3T3 fibroblasts in the novel 
+integrated discrete multiple organ co-culture (IdMOC) 
+experimental system: Results with model toxicants a a -
+toxin B1, cyclophosphamide and tamoxifen. Chem Biol 
+Interact, 2012. 199(1): pp. 1–8.
+	 71.	 Abaci, H.E., et al., Human skin constructs with spatially 
+controlled vasculature using primary and iPSC-derived 
+endothelial cells. Adv Healthc Mater, 2016. 5(14): pp. 
+1800–1807.
+	 72.	 Agarwal, A., et al., Micro uidic heart on a chip for higher 
+throughput pharmacological studies. Lab Chip, 2013. 
+13(18): pp. 3599–3608.
+	 73.	 Esch, M.B., et al., Modular, pumpless body-on-a-chip plat-
+form for the co-culture of GI tract epithelium and 3D pri-
+mary liver tissue. Lab Chip, 2016. 16(14): pp. 2719–2729.
+	 74.	 Fernandez, C.E., et al., Human vascular microphysiologi-
+cal system for in vitro drug screening. Sci Rep, 2016. 6: p. 
+21579.
+	 75.	 Cronin, M.T., et al., The in chemico-in silico interface: 
+challenges for integrating experimental and computational 
+chemistry to identify toxicity. Altern Lab Anim, 2009. 
+37(5): pp. 513–521.
+	 76.	 Landsteiner, K. and J. Jacobs, Studies on the sensitiza-
+tion of animals with simple chemical compounds : III. 
+Anaphylaxis induced by arsphenamine. J Exp Med, 1936. 
+64(5): pp. 717–721.
+	 77.	 Landsteiner, K. and J. Jacobs, Studies on the sensitization 
+of animals with simple chemical compounds. II. J Exp Med, 
+1936. 64(4): pp. 625–639.
+	 78.	 Mansouri, K., et al., CERAPP: Collaborative estro-
+gen receptor activity prediction project. Environ Health 
+Perspect, 2016. 124(7): pp. 1023–1033.
+	 79.	 Mansouri, K., et al., CoMPARA: Collaborative model-
+ing project for androgen receptor activity. Environ Health 
+Perspect, 2020. 128(2): pp. 27002.
+	 80.	 Mansouri, K., et al., CATMoS: Collaborative acute toxicity 
+modeling suite. Environ Health Perspect, 2021. 129(4): pp. 
+47013.
+	 81.	 Manuppello, J., K. Sullivan, and E. Baker, Acute toxicity 
+“six-pack” studies supporting approved new drug appli-
+cations in the U.S., 2015–2018. Regul Toxicol Pharmacol, 
+2020. 114: pp. 104666.
+	 82.	 Strickland, J., et al., Status of acute systemic toxicity testing 
+requirements and data uses by U.S. regulatory agencies. 
+Regul Toxicol Pharmacol, 2018. 94: pp. 183–196.
+	 83.	 EPA. Letter to Stakeholders on EPA Office of Pesticide 
+Programs’s Goal to Reduce Animal Testing from Jack E. 
+Housenger, Director Office of Pesticide Programs. 2016, 
+04 June 2021; Available from: https://www.regulations.gov/
+document/EPA-HQ-OPP-2016-0093-0003.
+	 84.	 OECD, Test No. 401: Acute Oral Toxicity. 1987.
+	 85.	 OECD, Test No. 403: Acute Inhalation Toxicity. 2009.
+	 86.	 OECD, Test No. 402: Acute Dermal Toxicity. 2017.
+	 87.	 Eskes, C., et al., Validation study on the Ocular Irritection 
+assay for eye irritation testing. Toxicol In Vitro, 2014. 
+28(5): pp. 1046–1065.
+	 88.	 OECD, Test No. 425: Acute Oral Toxicity: Up-and-Down 
+Procedure. 2008.
+	 89.	 OECD, Test No. 423: Acute Oral toxicity - Acute Toxic 
+Class Method. 2002.
+	 90.	 OECD, Guidance Document on Acute Oral Toxicity 
+Testing. No. 24. 2001.
+
+1235
+Novel Approaches and Alternative Models
+	 91.	 OECD, 
+Guidance 
+Document 
+on 
+the 
+Recognition, 
+Assessment, and Use of Clinical Signs as Humane 
+Endpoints for Experimental Animals Used in Safety 
+Evaluation. 2000.
+	 92.	 ECVAM, E., EURL ECVAM Recommendation on the 
+3T3 Neutral Red Uptake Cytotoxicity Assay for Acute 
+Oral Toxicity Testing. 2013, European Commission 
+Joint Research Centre Institute for Health and Consumer 
+Protection (IHCP).
+	 93.	 ECHA, Guidance on Information Requirements and 
+Chemical Safety Assessment Chapter R.7a: Endpoint 
+Specific Guidance. 2017.
+	 94.	 OECD, Guidance Document on Using Cytotoxicity Tests to 
+Estimate Starting Doses for Acute Oral Systemic Toxicity 
+Tests. 2010.
+	 95.	 Hamm, J., et al., Performance of the GHS Mixtures 
+Equation for Predicting Acute Oral Toxicity. Regul Toxicol 
+Pharmacol, 2021. 125: pp. 105007.
+	 96.	 Sullivan, K., et al., Mind the gaps: Prioritizing activities to 
+meet regulatory needs for acute systemic lethality. Altex, 
+2021. 38(2): pp. 327–335.
+	 97.	 Hamm, J., et al., Alternative approaches for identifying 
+acute systemic toxicity: Moving from research to regula-
+tory testing. Toxicol In Vitro, 2017. 41: pp. 245–259.
+	 98.	 Kleinstreuer, N.C., et al., Predictive models for acute 
+oral systemic toxicity: A workshop to bridge the gap from 
+research to regulation. Comput Toxicol, 2018. 8: pp. 21–24.
+	 99.	 Kuempel, E.D., et al., Advances in inhalation dosimetry 
+models and methods for occupational risk assessment and 
+exposure limit derivation. J Occup Environ Hyg, 2015. 
+12(sup1): pp. S18–S40.
+	100.	 OECD, Test No. 433: Acute Inhalation Toxicity: Fixed 
+Concentration Procedure. 2018.
+	101.	 OECD, Test No. 436: Acute Inhalation Toxicity – Acute 
+Toxic Class Method. 2009.
+	102.	 Costa, D.L., Alternative test methods in inhalation toxicol-
+ogy: Challenges and opportunities. Exp Toxicol Pathol, 
+2008. 60(2–3): pp. 105–109.
+	103.	 BéruBé, K.A., Medical waste tissues — Breathing life back 
+into respiratory research. Altern Lab Anim, 2013. 41(6): 
+pp. 429–434.
+	104.	 Clippinger, A.J., et al., Alternative approaches for acute 
+inhalation toxicity testing to address global regulatory and 
+non-regulatory data requirements: An international work-
+shop report. Toxicol In Vitro, 2018. 48: pp. 53–70.
+	105.	 Avino, P., et al., Second-hand aerosol from tobacco and 
+electronic cigarettes: Evaluation of the smoker emission 
+rates and doses and lung cancer risk of passive smokers 
+and vapers. Sci Total Environ, 2018. 642: pp. 137–147.
+	106.	 Manojkumar, N., B. Srimuruganandam, and S.M. Shiva 
+Nagendra, Application of multiple-path particle dosimetry 
+model for quantifying age specified deposition of particu-
+late matter in human airway. Ecotoxicol Environ Saf, 2019. 
+168: pp. 241–248.
+	107.	 Hinderliter, P.M., et al., ISDD: A computational model of par-
+ticle sedimentation, diffusion and target cell dosimetry for in 
+vitro toxicity studies. Part Fibre Toxicol, 2010. 7(1): p. 36.
+	108.	 Thomas, D.G., et al., ISD3: A particokinetic model for 
+predicting the combined effects of particle sedimentation, 
+diffusion and dissolution on cellular dosimetry for in vitro 
+systems. Part Fibre Toxicol, 2018. 15(1): p. 6.
+	109.	 Kolanjiyil, A.V. and C. Kleinstreuer, Computational analy-
+sis of aerosol-dynamics in a human whole-lung airway 
+model. J Aerosol Sci, 2017. 114: pp. 301–316.
+	110.	 Clippinger, A.J., et al., Pathway-based predictive 
+approaches for non-animal assessment of acute inhalation 
+toxicity. Toxicol In Vitro, 2018. 52: pp. 131–145.
+	111.	 Mielke, H., et al., Biometrical evaluation of the performance 
+of the revised OECD Test Guideline 402 for assessing acute 
+dermal toxicity. Regul Toxicol Pharmacol, 2017. 89: pp. 26–39.
+	112.	 OECD, Test No. 420: Acute Oral Toxicity - Fixed Dose 
+Procedure. 2002.
+	113.	 Strickland, J., et al., Approaches to reducing animal use for 
+acute toxicity testing: retrospective analyses of pesticide 
+data. In Alternatives to Animal Testing, Kojima, H., Seidle, 
+T., Spielmann, H.., Editors. 2019, Singapore: Springer.
+	114.	 Draize, J., G. Woodard, and H. Calvery, Methods for the 
+study of irritation and toxicity of substances applied topi-
+cally to the skin and mucous membranes. J Pharmacol Exp 
+Ther, 1944. 8: pp. 377–390.
+	115.	 Lotz, C., et al., Alternative methods for the replacement of 
+eye irritation testing. Altex, 2016. 33(1): pp. 55–67.
+	116.	 EPA, Use of an Alternative Testing Framework for 
+Classification of Eye Irritation Potential of EPA Pesticide 
+Products, U.S.E.P.A. Office of Pesticide Programs, Editor. 
+2015.
+	117.	 OECD, Test No. 491: Short Time Exposure In Vitro Test 
+Method for Identifying i) Chemicals Inducing Serious Eye 
+Damage and ii) Chemicals Not Requiring Classification for 
+Eye Irritation or Serious Eye Damage. 2020.
+	118.	 Reader, S.J., et al., Neutral red release from pre-loaded 
+cells as an in vitro approach to testing for eye irritancy 
+potential. Toxicol In Vitro, 1990. 4(4): pp. 264–266.
+	119.	 OECD, Test No. 460: Fluorescein Leakage Test Method for 
+Identifying Ocular Corrosives and Severe Irritants. 2017.
+	120.	 NIH, ICCVAM Test Method Evaluation Report: Current 
+Validation Status of In Vitro Test Methods Proposed for 
+Identifying Eye Injury Hazard Potential of Chemicals and 
+Products. 2010, National Institute of Environmental Health 
+Sciences, National Institutes of Health.
+	121.	 Hartung, T., et al., First alternative method validated by a 
+retrospective weight-of-evidence approach to replace the 
+Draize eye test for the identification of non-irritant sub-
+stances for a defined applicability domain. Altex, 2010. 
+27(1): pp. 43–51.
+	122.	 OECD, Test No. 492: Reconstructed human Cornea-like 
+Epithelium (RhCE) test method for identifying chemicals 
+not requiring classification and labelling for eye irritation 
+or serious eye damage. 2019.
+	123.	 Kandarova, H., et al., CON4EI: CONsortium for in vitro 
+Eye Irritation testing strategy - EpiOcular™ time-to-tox-
+icity (EpiOcular ET-50) protocols for hazard identification 
+and labelling of eye irritating chemicals. Toxicol In Vitro, 
+2018. 49: pp. 34–52.
+	124.	 OECD, Test No. 437: Bovine Corneal Opacity and Permeability 
+Test Method for Identifying i) Chemicals Inducing Serious 
+Eye Damage and ii) Chemicals Not Requiring Classification 
+for Eye Irritation or Serious Eye Damage. 2020.
+	125.	 OECD, Test No. 438: Isolated Chicken Eye Test Method 
+for Identifying i) Chemicals Inducing Serious Eye Damage 
+and ii) Chemicals Not Requiring Classification for Eye 
+Irritation or Serious Eye Damage. 2018.
+
+1236
+Hayes’ Principles and Methods of Toxicology
+	126.	 OECD,  Test No. 438: Isolated Chicken Eye Test Method 
+for Identifying i) Chemicals Inducing Serious Eye Damage 
+and ii) Chemicals Not Requiring Classification for Eye 
+Irritation or Serious Eye Damage, OECD Guidelines for 
+the Testing of Chemicals, Section 4. 2018. Paris: OECD 
+Publishing.  https://doi.org/10.1787/9789264203860-en.
+	127.	 Earl, L., INVITTOX Protocol 85: The Rabbit Enucleated 
+Eye Test. ECVAM SIS Database. Isora, Italy: ECVAM, 
+European Commission JRC 1994..
+	128.	 Piehl, M., et al., Porcine Corneal Ocular Reversibility 
+Assay (PorCORA) predicts ocular damage and recovery 
+for global regulatory agency hazard categories. Toxicol In 
+Vitro, 2011. 25(8): pp. 1912–1918.
+	129.	 Piehl, M., et al., Novel cultured porcine corneal irritancy 
+assay with reversibility endpoint. Toxicol In Vitro, 2010. 
+24(1): pp. 231–239.
+	130.	 Choksi, N., et al., Validation of the OptiSafe™ eye irrita-
+tion test. Cutan Ocul Toxicol, 2020. 39(3): pp. 180–192.
+	131.	 OECD, Test No. 430: In Vitro Skin Corrosion: 
+Transcutaneous Electrical Resistance Test Method (TER). 
+2015.
+	132.	 OECD, Test No. 435: In Vitro Membrane Barrier Test 
+Method for Skin Corrosion. 2015.
+	133.	 OECD, Test No. 431: In Vitro Skin Corrosion: Reconstructed 
+Human Epidermis (RHE) Test Method. 2019.
+	134.	 OECD, Test No. 439: In Vitro Skin Irritation: Reconstructed 
+Human Epidermis Test Method. 2020.
+	135.	 Adler, B.L. and V.A. DeLeo, Allergic Contact Dermatitis. 
+JAMA Dermatol, 2021. 157(3): p. 364.
+	136.	 OECD. The Adverse Outcome Pathway for Skin 
+Sensitisation Initiated by Covalent Binding to Proteins. 
+2014.
+	137.	 OECD. Test No. 442C: In Chemico Skin Sensitization: 
+Assays Addressing the Adverse Outcome Pathway Key 
+Event on Covalent Binding Proteins. 2020.
+	138.	 OECD. Test No. 442D: In Vitro Skin Sensitization: ARE-
+Nrf2 Luciferase Test Method. 2018a.
+	139.	 OECD. Test No. 442E: In Vitro Skin Sensitization: In 
+Vitro Skin Sensitization Assays Addressing the Key Event 
+on Activation of Dendritic Cells on the Adverse Outcome 
+Pathway for Skin Sensitization. 2018b.
+	140.	 OECD. Test No. 429: Skin Sensitization: Local Lymph 
+Node Assay. 2010.
+	141.	 OECD. Test No. 406: Skin Sensitization. 1992.
+	142.	 Kleinstreuer, N.C., et al., Non-animal methods to predict 
+skin sensitization (II): An assessment of defined approaches 
+(*). Crit Rev Toxicol, 2018. 48(5): pp. 359–374.
+	143.	 EPA. Interim Science Policy: Use of Alternative Approaches 
+for Skin Sensitization as a Replacement for Laboratory 
+Animal Testing Draft for Public Comment. 2018. 04 
+June 2021; Available from: https://www.regulations.gov/
+document/EPA-HQ-OPP-2016-0093-0090
+	144.	 Casati, S., et al., Standardisation of defined approaches 
+for skin sensitisation testing to support regulatory use 
+and international adoption: Position of the International 
+Cooperation on Alternative Test Methods. Arch Toxicol, 
+2018. 92(2): pp. 611–617.
+	145.	 OECD. Draft OECD Guideline Defined Approaches for 
+Skin Sensitization. 2020. 04 June 2021; Available from: 
+https://www.oecd.org/chemicalsafety/testing/draft-guide-
+line-for-defined-approaches-for-skin-sensitisation.pdf
+	146.	 Reynolds, J., et al., Probabilistic prediction of human skin 
+sensitiser potency for use in next generation risk assess-
+ment. Comput Toxicol, 2019. 9: pp. 36–49.
+	147.	 Cottrez, F., et al., SENS-IS, a 3D reconstituted epidermis 
+based model for quantifying chemical sensitization potency: 
+Reproducibility and predictivity results from an inter-labo-
+ratory study. Toxicol In Vitro, 2016. 32: pp. 248–260.
+	148.	 Johansson, H., et al., Validation of the GARD™skin assay 
+for assessment of chemical skin sensitizers: Ring trial 
+results of predictive performance and reproducibility. 
+Toxicol Sci, 2019. 170(2): pp. 374–381.
+	149.	 EPA. Pesticide Registration Review: Draft Human Health 
+and Ecological Risk Assessments for Several Pesticides 
+for Several Isothiazolinones. 2020. 04 June 2021; 
+Available from: https://www.regulations.gov/document/
+EPA-HQ-OPP-2014-0159-0005.
+	150.	 Bell, S., et al., An integrated chemical environment with 
+tools for chemical safety testing. Toxicol in Vitro, 2020. 67: 
+pp. 104916.
+	151.	 Zurlinden, T.J., et al., Profiling the toxcast library with a 
+pluripotent human (H9) stem cell line-based biomarker 
+assay for developmental toxicity. Toxicol Sci, 2020. 174(2): 
+pp. 189–209.
+	152.	 Kleinstreuer, N., et al., A computational model predict-
+ing disruption of blood vessel development. PLoS Comput 
+Biol, 2013. 9(4): p. e1002996.
+	153.	 Behl, M., et al., Screening for developmental neurotoxic-
+ity at the national toxicology program: The future is here. 
+Toxicol Sci, 2019. 167(1): pp. 6–14.
+	154.	 Knudsen, T.B., B. Klieforth, and W. Slikker, Jr., 
+Programming microphysiological systems for children’s 
+health protection. Exp Biol Med (Maywood), 2017. 242(16): 
+pp. 1586–1592.
+	155.	 Knudsen, T.B., et al., FutureTox IV workshop summary: 
+Predictive toxicology for healthy children. Toxicol Sci, 
+2021. 180(2): pp. 198–211.
+	156.	 Judson, R.S., et al., Integrated model of chemical pertur-
+bations of a biological pathway using 18 in vitro high-
+throughput screening assays for the estrogen receptor. 
+Toxicol Sci, 2015. 148(1): pp. 137–154.
+	157.	 Kleinstreuer, N.C., et al., Development and validation of a 
+computational model for androgen receptor activity. Chem 
+Res Toxicol, 2017. 30(4): pp. 946–964.
+	158.	 Kleinstreuer, N.C., et al., Evaluation of androgen assay 
+results using a curated Hershberger database. Reprod 
+Toxicol, 2018. 81: pp. 272–280.
+	159.	 Sachana, M., T.J. Shafer, and A. Terron, Toward a better 
+testing paradigm for developmental neurotoxicity: OECD 
+efforts and regulatory considerations. Biology, 2021. 10(2): 
+p. 86.
+	160.	 Grignard, E., H. Håkansson, and S. Munn, Regulatory 
+needs and activities to address the retinoid system in the 
+context of endocrine disruption: The European viewpoint. 
+Reprod Toxicol, 2020. 93: pp. 250–258.
+	161.	 International Council for Harmonisation of Technical 
+Requirements for Pharmaceuticals for Human Use (ICH S5 
+R3). Available from: https://www.fda.gov/media/148475/
+download,
+	162.	 EMA/CHMP. ICH S5 (R3) guideline on reproductive 
+toxicology: Detection of Toxicity to Reproduction for 
+Human Pharmaceuticals, Step 5. 2020. 04 June 2021;
+
+1237
+Novel Approaches and Alternative Models
+Available from: https://www.ema.europa.eu/en/documents/
+scientific-guideline/ich-s5-r3-guideline-reproductive-toxi-
+cology-detection-toxicity-reproduction-human-pharmaceu-
+ticals_en.pdf.
+	163.	 Strauss, D.G., et al., Comprehensive In Vitro Proarrhythmia 
+Assay (CiPA) Update from a Cardiac Safety Research 
+Consortium / Health and Environmental Sciences Institute 
+/ FDA Meeting. Ther Innov Regul Sci, 2019. 53(4): pp. 
+519–525.
+	164.	 Krishna, S., B. Berridge, and N. Kleinstreuer, High-
+throughput screening to identify chemical cardiotoxic 
+potential. Chem Res Toxicol, 2021. 34(2): pp. 566–583.
+	165.	 Goodson, W.H., 3rd, et al., Assessing the carcinogenic 
+potential of low-dose exposures to chemical mixtures in the 
+environment: the challenge ahead. Carcinogenesis, 2015. 
+36(Suppl 1): pp. S254–S296.
+	166.	 Kleinstreuer, N.C., et al., In vitro perturbations of targets in 
+cancer hallmark processes predict rodent chemical carci-
+nogenesis. Toxicol Sci, 2013. 131(1): pp. 40–55.
+	167.	 Smith, M.T., et al., Key characteristics of carcinogens as 
+a basis for organizing data on mechanisms of carcinogen-
+esis. Environ Health Perspect, 2016. 124(6): pp. 713–721.
+	168.	 Guyton, K.Z., et al., Application of the key character-
+istics of carcinogens in cancer hazard identification. 
+Carcinogenesis, 2018. 39(4): pp. 614–622.
+	169.	 Smith, M.T., et al., The key characteristics of carcinogens: 
+Relationship to the hallmarks of cancer, relevant bio-
+markers, and assays to measure them. Cancer Epidemiol 
+Biomarkers Prev, 2020. 29(10): p. 1887.
+	170.	 Jacobs, M.N., et al., Chemical carcinogen safety test-
+ing: OECD expert group international consensus on the 
+development of an integrated approach for the testing and 
+assessment of chemical non-genotoxic carcinogens. Archiv 
+Toxicol, 2020. 94(8): pp. 2899–2923.
+	171.	 Wilkinson, M.D., et al., The FAIR Guiding Principles for 
+scientific data management and stewardship. Sci Data, 
+2016. 3(1): p. 160018.
+	172.	 Integrated Chemical Environment; ICE. Available from: 
+https://ice.ntp.niehs.nih.gov/.
+	173.	 Bell Shannon, M., et al., An integrated chemical environ-
+ment to support 21st-century toxicology. Environ Health 
+Perspect. 125(5): p. 054501.
+	174.	 NTP’s Chemical Effects in Biological Systems database 
+(CEBS). Available from: https://cebs.niehs.nih.gov/.
+	175.	 U.S. EPA’s CompTox Chemicals Dashboard. Available 
+from: https://comptox.epa.gov/dashboard.
+	176.	 Williams, A.J., et al., The CompTox Chemistry Dashboard: 
+A community data resource for environmental chemistry. J 
+Cheminf, 2017. 9(1): p. 61.
+	177.	 The Comparative Toxicogenomics Database. Available 
+from: http://ctdbase.org/.
+	178.	 Davis, A.P., et al., Comparative Toxicogenomics Database 
+(CTD): Update 2021. Nucleic Acids Res, 2021. 49(D1): pp. 
+D1138–D1143.
+	179.	 EU, the eChemPortal. Available from: https://www.
+echemportal.org/.
+	180.	 OBO Foundry. Available from: http://www.obofoundry.
+org/.
+	181.	 National Cancer Institute [NCI] Metathesaurus. Available 
+from: https://ncimeta.nci.nih.gov/.
+	182.	 Gene Ontology. Available from: http://geneontology.org/.
+	183.	 Monarch Initiative. Available from: https://monarchinitia-
+tive.org/.
+	184.	 OECD Harmonized Templates. Available from: https://
+www.oecd.org/ehs/templates/.
+	185.	 Clinical Data Interchange Standards Consortium. Available 
+from: https://www.cdisc.org/.
+	186.	 ICE tools. Available from: https://ice.ntp.niehs.nih.gov/
+Tools.
+	187.	 Dionisio, K.L., et al., The chemical and products database, 
+a resource for exposure-relevant data on chemicals in con-
+sumer products. Sci Data, 2018. 5(1): p. 180125.
+	188.	 Tox21BodyMap. Available from: https://sandbox.ntp.niehs.
+nih.gov/bodymap/,
+	189.	 Borrel, A., et al., Tox21BodyMap: A webtool to map chemi-
+cal effects on the human body. Nucleic Acids Res, 2020. 
+48(W1): pp. W472–W476.
+	190.	 ChemMaps. Available from: https://sandbox.ntp.niehs.nih.
+gov/chemmaps/.
+	191.	 Borrel, A., N.C. Kleinstreuer, and D. Fourches, Exploring 
+drug space with ChemMaps.com. Bioinformatics, 2018. 
+34(21): pp. 3773–3775.
+	192.	 EPA CompTox Chemicals Dashboard. Available from: 
+https://comptox.epa.gov/dashboard.
+	193.	 Helman, G., et al., Generalized Read-Across (GenRA): A 
+work ow implemented into the EPA CompTox Chemicals 
+Dashboard. Altex, 2019. 36(3): pp. 462–465.
+	194.	 Baker, N., T. Knudsen, and A. Williams, Abstract 
+Sifter: A comprehensive front-end system to PubMed. 
+F1000Research, Chem Inf Sci, 2017. 6: p. 2164.
+	195.	 OECD. Guidance Document on the Validation of 
+(Quantitative) Structure-Activity Relationships [(Q)SAR] 
+Models. 2007. 04 June 2021; Available from: https://www.
+oecd.org/officialdocuments/publicdisplaydocumentpdf/?do
+clanguage=en&cote=env/jm/mono(2007)2.
+	196.	 JRC. JRC QSAR Model Database. 2020. 04 June 2021; 
+Available 
+from: 
+https://data.jrc.ec.europa.eu/dataset/
+e4ef8d13-d743-4524-a6eb-80e18b58cba4.
+	197.	 QSAR Toolbox. Available from: https://qsartoolbox.org/.
+	198.	 Mansouri, K., et al., OPERA models for predicting physi-
+cochemical properties and environmental fate endpoints. J 
+Cheminform, 2018. 10(1): p. 10.
+	199.	 NIEHS GitHub repository. Available from: https://github.
+com/NIEHS/OPERA

@@ -1,0 +1,180 @@
+{
+  "source": "DABT Regulations",
+  "total_documents": 29,
+  "documents": [
+    {
+      "title": "ICH_M7(R2)_Guideline_Step4_2023_0216_0",
+      "category": "ich/M",
+      "file": "ich_m7r2_guideline_step4_2023_0216_0.txt",
+      "pages": 32
+    },
+    {
+      "title": "M3_R2__Guideline",
+      "category": "ich/M",
+      "file": "m3_r2__guideline.txt",
+      "pages": 31
+    },
+    {
+      "title": "S1A Guideline",
+      "category": "ich/S",
+      "file": "s1a-guideline.txt",
+      "pages": 8
+    },
+    {
+      "title": "S1B-R1_FinalGuideline_2022_0719",
+      "category": "ich/S",
+      "file": "s1b-r1_finalguideline_2022_0719.txt",
+      "pages": 25
+    },
+    {
+      "title": "S1C(R2) Guideline",
+      "category": "ich/S",
+      "file": "s1cr2-guideline.txt",
+      "pages": 12
+    },
+    {
+      "title": "S2(R1) Guideline",
+      "category": "ich/S",
+      "file": "s2r1-guideline.txt",
+      "pages": 29
+    },
+    {
+      "title": "S3A_Guideline",
+      "category": "ich/S",
+      "file": "s3a_guideline.txt",
+      "pages": 15
+    },
+    {
+      "title": "S3B_Guideline",
+      "category": "ich/S",
+      "file": "s3b_guideline.txt",
+      "pages": 4
+    },
+    {
+      "title": "S5-R3_Step4_Guideline_2020_0218_1",
+      "category": "ich/S",
+      "file": "s5-r3_step4_guideline_2020_0218_1.txt",
+      "pages": 120
+    },
+    {
+      "title": "S8_Guideline_0",
+      "category": "ich/S",
+      "file": "s8_guideline_0.txt",
+      "pages": 15
+    },
+    {
+      "title": "S9_Guideline",
+      "category": "ich/S",
+      "file": "s9_guideline.txt",
+      "pages": 13
+    },
+    {
+      "title": "FDA Least Burdensome Provisions",
+      "category": "fda",
+      "file": "fda-least-burdensome-provisions.txt",
+      "pages": 24
+    },
+    {
+      "title": "FDA Safety Testing of Drug Metabolites",
+      "category": "fda",
+      "file": "fda-safety-testing-of-drug-metabolites.txt",
+      "pages": 14
+    },
+    {
+      "title": "Redbook(Toxicological-Principles-for-the-Safety-Assessment-of-Food-Ingredients)",
+      "category": "fda",
+      "file": "redbooktoxicological-principles-for-the-safety-assessment-of-food-ingredients.txt",
+      "pages": 286
+    },
+    {
+      "title": "EPA_cancer_guidelines_2005",
+      "category": "epa",
+      "file": "epa_cancer_guidelines_2005.txt",
+      "pages": 166
+    },
+    {
+      "title": "Silverbook",
+      "category": "epa",
+      "file": "silverbook.txt",
+      "pages": 423
+    },
+    {
+      "title": "TG407",
+      "category": "oecd",
+      "file": "tg407.txt",
+      "pages": 15
+    },
+    {
+      "title": "TG408",
+      "category": "oecd",
+      "file": "tg408.txt",
+      "pages": 17
+    },
+    {
+      "title": "TG414",
+      "category": "oecd",
+      "file": "tg414.txt",
+      "pages": 14
+    },
+    {
+      "title": "TG416",
+      "category": "oecd",
+      "file": "tg416.txt",
+      "pages": 13
+    },
+    {
+      "title": "TG420",
+      "category": "oecd",
+      "file": "tg420.txt",
+      "pages": 14
+    },
+    {
+      "title": "TG423",
+      "category": "oecd",
+      "file": "tg423.txt",
+      "pages": 14
+    },
+    {
+      "title": "TG425",
+      "category": "oecd",
+      "file": "tg425.txt",
+      "pages": 29
+    },
+    {
+      "title": "TG443",
+      "category": "oecd",
+      "file": "tg443.txt",
+      "pages": 27
+    },
+    {
+      "title": "TG451",
+      "category": "oecd",
+      "file": "tg451.txt",
+      "pages": 15
+    },
+    {
+      "title": "TG452",
+      "category": "oecd",
+      "file": "tg452.txt",
+      "pages": 18
+    },
+    {
+      "title": "TG453",
+      "category": "oecd",
+      "file": "tg453.txt",
+      "pages": 20
+    },
+    {
+      "title": "TG471",
+      "category": "oecd",
+      "file": "tg471.txt",
+      "pages": 12
+    },
+    {
+      "title": "TG497",
+      "category": "oecd",
+      "file": "tg497.txt",
+      "pages": 82
+    }
+  ]
+}

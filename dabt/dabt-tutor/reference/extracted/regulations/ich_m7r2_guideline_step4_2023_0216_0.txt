@@ -1,0 +1,1680 @@
+# ICH_M7(R2)_Guideline_Step4_2023_0216_0.pdf
+# Category: ich/M
+# Pages: 32
+
+INTERNATIONAL COUNCIL FOR HARMONISATION OF TECHNICAL 
+REQUIREMENTS FOR PHARMACEUTICALS FOR HUMAN USE 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ICH HARMONISED GUIDELINE 
+ 
+ 
+ 
+ASSESSMENT AND CONTROL OF DNA REACTIVE (MUTAGENIC) 
+IMPURITIES IN PHARMACEUTICALS TO LIMIT POTENTIAL 
+CARCINOGENIC RISK 
+M7(R2) 
+ 
+ 
+Final version  
+Adopted on 3 April 2023 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This Guideline has been developed by the appropriate ICH Expert Working Group and has been 
+subject to consultation by the regulatory parties, in accordance with the ICH Process. At Step 4 
+of the Process the final draft is recommended for adoption to the regulatory bodies of the ICH 
+regions.
+
+M7(R2) 
+Document History 
+ 
+ 
+ Code 
+ History 
+ Date 
+M7 
+Approval by the Steering Committee under Step 2 and 
+release for public consultation. 
+6 February 2013 
+M7 
+Approval by the Steering Committee under Step 4 and 
+recommendation for adoption to the three ICH regulatory 
+bodies. 
+5 June 2014 
+M7 
+Corrigendum to fix typographical errors and replace word 
+“degradants” with “degradation products” throughout the 
+document. 
+23 June 2014 
+M7(R1) 
+Addendum 
+Endorsement by the Members of the ICH Assembly under 
+Step 2 and release for public consultation. 
+11 June 2015 
+M7(R1) 
+Addendum 
+Adoption by the Regulatory Members of the ICH 
+Assembly under Step 4 and recommendation for adoption 
+to the ICH regulatory bodies. 
+31 May 2017 
+M7(R2)  
+Endorsement by the Members of the ICH Assembly under 
+Step 2, including separation of the document into a 
+M7(R2) Guideline and a standalone M7(R2) Addendum, 
+and release for public consultation. 
+6 October 2021 
+ 
+Current Step 4 version 
+ 
+M7(R2) 
+Adoption by the Regulatory Members of the ICH 
+Assembly under Step 4. 
+3 April 2023 
+ 
+ 
+ 
+Legal notice: This document is protected by copyright and may be used, reproduced, incorporated 
+into other works, adapted, modified, translated or distributed under a public license provided that 
+ICH's copyright in the document is acknowledged at all times. In case of any adaption, modification 
+or translation of the document, reasonable steps must be taken to clearly label, demarcate or otherwise 
+identify those changes were made to or based on the original document. Any impression that the 
+adaption, modification or translation of the original document is endorsed or sponsored by the ICH 
+must be avoided. 
+The document is provided "as is" without warranty of any kind. In no event shall the ICH or the 
+authors of the original document be liable for any claim, damages or other liability arising from the 
+use of the document. 
+The above-mentioned permissions do not apply to content supplied by third parties. Therefore, for 
+documents where the copyright vests in a third party, permission for reproduction must be obtained 
+from this copyright holder.
+
+ICH Harmonised Guideline 
+ASSESSMENT AND CONTROL OF DNA REACTIVE (MUTAGENIC) IMPURITIES IN 
+PHARMACEUTICALS TO LIMIT POTENTIAL CARCINOGENIC RISK 
+M7(R2) 
+ 
+ 
+TABLE OF CONTENTS 
+1. 
+INTRODUCTION ................................................................................................................. 1 
+2. 
+SCOPE OF GUIDELINE ....................................................................................................... 1 
+3. 
+GENERAL PRINCIPLES ...................................................................................................... 2 
+4. 
+CONSIDERATIONS FOR MARKETED PRODUCTS .............................................................. 3 
+4.1 
+Post-Approval Changes to the Drug Substance Chemistry, Manufacturing, and Controls 
+3 
+4.2 
+Post-Approval Changes to the Drug Product Chemistry, Manufacturing, and Controls .. 4 
+4.3 
+Changes to the Clinical Use of Marketed Products .......................................................... 4 
+4.4 
+Other Considerations for Marketed Products .................................................................... 4 
+5. 
+DRUG SUBSTANCE AND DRUG PRODUCT IMPURITY ASSESSMENT ................................. 4 
+5.1 
+Synthetic Impurities .......................................................................................................... 5 
+5.2 
+Degradation Products ........................................................................................................ 5 
+5.3 
+Considerations for Clinical Development ......................................................................... 6 
+6. 
+HAZARD ASSESSMENT ELEMENTS ................................................................................... 6 
+7. 
+RISK CHARACTERIZATION ............................................................................................... 7 
+7.1 
+TTC-based Acceptable Intakes ......................................................................................... 7 
+7.2 
+Acceptable Intakes Based on Compound-Specific Risk Assessments ............................. 7 
+7.2.1 
+Mutagenic Impurities with Positive Carcinogenicity Data (Class 1 in Table 1)   7 
+7.2.2 
+Mutagenic Impurities with Evidence for a Practical Threshold ........................... 8 
+7.3 
+Acceptable Intakes in Relation to LTL Exposure ............................................................. 8 
+7.3.1 Clinical Development ............................................................................................... 9 
+7.3.2 Marketed Products ................................................................................................... 9 
+7.4 
+Acceptable Intakes for Multiple Mutagenic Impurities..................................................... 9 
+7.5 
+Exceptions and Flexibility in Approaches ...................................................................... 10 
+8. 
+CONTROL ........................................................................................................................ 10 
+8.1 
+Control of Process Related Impurities ............................................................................ 11 
+8.2 
+Considerations for Control Approaches .......................................................................... 12 
+8.3 
+Considerations for Periodic Testing ................................................................................ 12 
+8.4 
+Control of Degradation Products .................................................................................... 13 
+8.5 
+Lifecycle Management .................................................................................................... 13
+
+8.6 
+Considerations for Clinical Development ....................................................................... 14 
+9. 
+DOCUMENTATION ........................................................................................................... 14 
+9.1 
+Clinical Trial Applications .............................................................................................. 14 
+9.2 
+Common Technical Document (Marketing Application) ............................................... 15 
+NOTES ....................................................................................................................................... 15 
+GLOSSARY ................................................................................................................................ 20 
+REFERENCES ............................................................................................................................ 22 
+APPENDICES ............................................................................................................................. 23 
+Appendix 1: Scope Scenarios for Application of the ICH M7 Guideline ................................ 23 
+Appendix 2: Case Examples to Illustrate Potential Control Approaches ................................. 24 
+Appendix 3: List of Compounds in ICH M7 Addendum ......................................................... 27 
+ 
+ICH M7 Addendum ....................................................................................... Separate Document
+
+1 
+ 
+ 
+ASSESSMENT AND CONTROL OF DNA REACTIVE (MUTAGENIC) IMPURITIES IN 
+PHARMACEUTICALS TO LIMIT POTENTIAL CARCINOGENIC RISK 
+M7(R2) 
+ 
+1. 
+INTRODUCTION 
+The synthesis of drug substances involves the use of reactive chemicals, reagents, solvents, 
+catalysts, and other processing aids. As a result of chemical synthesis or subsequent 
+degradation, impurities reside in all drug substances and associated drug products. While ICH 
+Q3A(R2): Impurities in New Drug Substances and Q3B(R2): Impurities in New Drug 
+Products (Ref. 1, 2) provides guidance for qualification and control for the majority of the 
+impurities, limited guidance is provided for those impurities that are DNA reactive. The 
+purpose of this guideline is to provide a practical framework that is applicable to the 
+identification, categorization, qualification, and control of these mutagenic impurities to limit 
+potential carcinogenic risk. This guideline is intended to complement ICH Q3A(R2), Q3B(R2) 
+(Note 1), and ICH M3(R2): Nonclinical Safety Studies for the Conduct of Human Clinical 
+Trials and Marketing Authorizations for Pharmaceuticals (Ref. 3). 
+This guideline emphasizes considerations of both safety and quality risk management in 
+establishing levels of mutagenic impurities that are expected to pose negligible carcinogenic 
+risk. It outlines recommendations for assessment and control of mutagenic impurities that 
+reside or are reasonably expected to reside in final drug substance or product, taking into 
+consideration the intended conditions of human use. 
+ 
+2. 
+SCOPE OF GUIDELINE 
+This document is intended to provide guidance for new drug substances and new drug products 
+during their clinical development and subsequent applications for marketing. It also applies to 
+post-approval submissions of marketed products, and to new marketing applications for 
+products with a drug substance that is present in a previously approved product, in both cases 
+only where: 
+• Changes to the drug substance synthesis result in new impurities or increased 
+acceptance criteria for existing impurities; 
+• Changes in the formulation, composition or manufacturing process result in new 
+degradation products or increased acceptance criteria for existing degradation 
+products; 
+• Changes in indication or dosing regimen are made which significantly affect the 
+acceptable cancer risk level. 
+Assessment of the mutagenic potential of impurities as described in this guideline is not 
+intended 
+for 
+the 
+following 
+types 
+of 
+drug 
+substances 
+and 
+drug 
+products: 
+biological/biotechnological, peptide, oligonucleotide, radiopharmaceutical, fermentation 
+products, herbal products, and crude products of animal or plant origin. 
+This guideline does not apply to drug substances and drug products intended for advanced 
+cancer indications as defined in the scope of ICH S9 (Ref. 4). Additionally, there may be 
+some cases where a drug substance intended for other indications is itself genotoxic at 
+therapeutic concentrations and may be expected to be associated with an increased cancer 
+risk.   Exposure to a mutagenic impurity in these cases would not significantly add to the
+
+2 
+ 
+ 
+cancer risk of the drug substance. Therefore, impurities could be controlled at acceptable 
+levels for non-mutagenic impurities. 
+Assessment of the mutagenic potential of impurities as described in this guideline is not 
+intended for excipients used in existing marketed products, flavoring agents, colorants, and 
+perfumes. Application of this guideline to leachables associated with drug product packaging 
+is not intended, but the safety risk assessment principles outlined in this guideline for limiting 
+potential carcinogenic risk can be used if warranted. The safety risk assessment principles of 
+this guideline can be used if warranted for impurities in excipients that are used for the first 
+time in a drug product and are chemically synthesized. 
+ 
+3. 
+GENERAL PRINCIPLES 
+The focus of this guideline is on DNA reactive substances that have a potential to directly 
+cause DNA damage when present at low levels leading to mutations and therefore, potentially 
+causing cancer. This type of mutagenic carcinogen is usually detected in a bacterial reverse 
+mutation (mutagenicity) assay. Other types of genotoxicants that are non-mutagenic typically 
+have threshold mechanisms and usually do not pose carcinogenic risk in humans at the level 
+ordinarily present as impurities. Therefore to limit a possible human cancer risk associated 
+with the exposure to potentially mutagenic impurities, the bacterial mutagenicity assay is used 
+to assess the mutagenic potential and the need for controls. Structure-based assessments are 
+useful for predicting bacterial mutagenicity outcomes based upon the established knowledge. 
+There are a variety of approaches to conduct this evaluation including a review of the available 
+literature, and/or computational toxicology assessment. 
+A Threshold of Toxicological Concern (TTC) concept was developed to define an acceptable 
+intake for any unstudied chemical that poses a negligible risk of carcinogenicity or other toxic 
+effects. The methods upon which the TTC is based are generally considered to be very 
+conservative since they involve a simple linear extrapolation from the dose giving a 50% 
+tumor incidence (TD50) to a 1 in 106 incidence, using TD50 data for the most sensitive species 
+and most sensitive site of tumor induction. For application of a TTC in the assessment of 
+acceptable limits of mutagenic impurities in drug substances and drug products, a value of 1.5 
+μg/day corresponding to a theoretical 10-5 excess lifetime risk of cancer, can be justified. 
+Some structural groups were identified to be of such high potency that intakes even below the 
+TTC would theoretically be associated with a potential for a significant carcinogenic risk. 
+This group of high potency mutagenic carcinogens referred to as the “cohort of concern”, 
+comprises aflatoxin-like-, N-nitroso-, and alkyl-azoxy compounds. 
+During clinical development, it is expected that control strategies and approaches will be less 
+developed in earlier phases where overall development experience is limited. This guideline 
+bases acceptable intakes for mutagenic impurities on established risk assessment strategies. 
+Acceptable risk during the early development phase is set at a theoretically calculated level of 
+approximately one additional cancer per million. For later stages in development and for 
+marketed products, acceptable increased cancer risk is set at a theoretically calculated level of 
+approximately one in one hundred thousand. These risk levels represent a small theoretical 
+increase in risk when compared to human overall lifetime incidence of developing any type of 
+cancer, which is greater than 1 in 3. It is noted that established cancer risk assessments are 
+based on lifetime exposures. Less-Than-Lifetime (LTL) exposures both during development 
+and marketing can have higher acceptable intakes of impurities and still maintain comparable 
+risk levels. The use of a numerical cancer risk value (1 in 100,000) and its translation into 
+risk-based doses (TTC) is a highly hypothetical concept that should not be regarded as a 
+realistic indication of the actual risk.  Nevertheless, the TTC concept provides an estimate of
+
+3 
+ 
+ 
+safe exposures for any mutagenic compound. However, exceeding the TTC is not necessarily 
+associated with an increased cancer risk given the conservative assumptions employed in the 
+derivation of the TTC value. The most likely increase in cancer incidence is actually much 
+less than 1 in 100,000. In addition, in cases where a mutagenic compound is a non-carcinogen 
+in a rodent bioassay, there would be no predicted increase in cancer risk. Based on all the 
+above considerations, any exposure to an impurity that is later identified as a mutagen is not 
+necessarily associated with an increased cancer risk for patients already exposed to the impurity.  
+A risk assessment would determine whether any further actions would be taken. 
+Where a potential risk has been identified for an impurity, an appropriate control strategy 
+leveraging process understanding and/or analytical controls should be developed to ensure 
+that the mutagenic impurity is at or below the acceptable cancer risk level. 
+There may be cases when an impurity is also a metabolite of the drug substance. In such 
+cases the risk assessment that addresses mutagenicity of the metabolite can qualify the impurity. 
+ 
+4. 
+CONSIDERATIONS FOR MARKETED PRODUCTS 
+This guideline is not intended to be applied retrospectively (i.e., to products marketed prior to 
+adoption of this guideline). However, some types of post-approval changes warrant a 
+reassessment of safety relative to mutagenic impurities. This section applies to these post- 
+approval changes for products marketed prior to, or after, the adoption of this guideline. 
+Section 8.5 (Lifecycle Management) contains additional recommendations for products 
+marketed after adoption of this guideline. 
+4.1 
+Post-Approval Changes to the Drug Substance Chemistry, Manufacturing, and 
+Controls 
+Post-approval submissions involving the drug substance chemistry, manufacturing, and 
+controls should include an evaluation of the potential risk impact associated with mutagenic 
+impurities from changes to the route of synthesis, reagents, solvents, or process conditions 
+after the starting material. Specifically, changes should be evaluated to determine if the 
+changes result in any new mutagenic impurities or higher acceptance criteria for existing 
+mutagenic impurities. Reevaluation of impurities not impacted by changes is not 
+recommended. For example, when only a portion of the manufacturing process is changed, 
+the assessment of risk from mutagenic impurities should be limited to whether any new 
+mutagenic impurities result from the change, whether any mutagenic impurities formed during 
+the affected step are increased, and whether any known mutagenic impurities from up-stream 
+steps are increased. Regulatory submissions associated with such changes should describe the 
+assessment as outlined in Section 9.2. Changing the site of manufacture of drug substance, 
+intermediates, or starting materials or changing raw materials supplier will not require a 
+reassessment of mutagenic impurity risk. 
+When a new drug substance supplier is proposed, evidence that the drug substance produced 
+by this supplier using the same route of synthesis as an existing drug product marketed in the 
+assessor’s region is considered to be sufficient evidence of acceptable risk/benefit regarding 
+mutagenic impurities and an assessment per this guideline is not required. If this is not the 
+case, then an assessment per this guideline is expected.
+
+4 
+ 
+ 
+4.2 
+Post-Approval Changes to the  Drug  Product Chemistry, Manufacturing, and 
+Controls 
+Post-approval submissions involving the drug product (e.g., change in composition, 
+manufacturing process, dosage form) should include an evaluation of the potential risk 
+associated with any new mutagenic degradation products or higher acceptance criteria for 
+existing mutagenic degradation products. If appropriate, the regulatory submission would 
+include an updated control strategy. Reevaluation of the drug substance associated with drug 
+products is not recommended or expected provided there are no changes to the drug substance. 
+Changing the site of manufacture of drug product will not require a reassessment  of mutagenic 
+impurity risk. 
+4.3 
+Changes to the Clinical Use of Marketed Products 
+Changes to the clinical use of marketed products that can warrant a reevaluation of the 
+mutagenic impurity limits include a significant increase in clinical dose, an increase in duration 
+of use (in particular when a mutagenic impurity was controlled above the lifetime acceptable 
+intake for a previous indication that may no longer be appropriate for the longer treatment 
+duration associated with the new indication), or for a change in indication from a serious or 
+life threatening condition where higher acceptable intakes were justified (Section 7.5) to an 
+indication for a less serious condition where the existing impurity acceptable intakes may no 
+longer be appropriate. Changes to the clinical use of marketed products associated with new 
+routes of administration or expansion into patient populations that include pregnant women 
+and/or pediatrics will not warrant a reevaluation, assuming no increases in daily dose or 
+duration of treatment. 
+4.4 
+Other Considerations for Marketed Products 
+Application of this guideline may be warranted to marketed products if there is specific cause 
+for concern. The existence of impurity structural alerts alone is considered insufficient to 
+trigger follow-up measures, unless it is a structure in the cohort of concern (Section 3). 
+However, a specific cause for concern would be new relevant impurity hazard data (classified 
+as Class 1 or 2, Section 6) generated after the overall control strategy and specifications for 
+market authorization were established. This new relevant impurity hazard data should be 
+derived from high-quality scientific studies consistent with relevant regulatory testing 
+guidelines, with data records or reports readily available. Similarly, a newly discovered 
+impurity that is a known Class 1 or Class 2 mutagen that is present in a marketed product 
+could also be a cause for concern. In both of these cases when the applicant becomes aware 
+of this new information, an evaluation per this guideline should be conducted. 
+ 
+5. 
+DRUG SUBSTANCE AND DRUG PRODUCT IMPURITY ASSESSMENT 
+Actual and potential impurities that are likely to arise during the synthesis and storage of a 
+new drug substance, and during manufacturing and storage of a new drug product should be 
+assessed. 
+The impurity assessment is a two-stage process: 
+• Actual impurities that have been identified should be considered for their mutagenic 
+potential. 
+• An assessment of potential impurities likely to be present in the final drug substance is 
+carried out to determine if further evaluation of their mutagenic potential is required.
+
+5 
+ 
+ 
+The steps as applied to synthetic impurities and degradation products are described in Sections 
+5.1 and 5.2, respectively. 
+5.1 
+Synthetic Impurities 
+Actual impurities include those observed in the drug substance above the ICH Q3A reporting 
+thresholds. Identification of actual impurities is expected when the levels exceed the 
+identification thresholds outlined by ICH Q3A. It is acknowledged that some impurities 
+below the identification threshold may also have been identified. 
+Potential impurities in the drug substance can include starting materials, reagents and 
+intermediates in the route of synthesis from the starting material to the drug substance. 
+The risk of carryover into the drug substance should be assessed for identified impurities that 
+are present in starting materials and intermediates, and impurities that are reasonably expected 
+by-products in the route of synthesis from the starting material to the drug substance. As the 
+risk of carryover may be negligible for some impurities (e.g., those impurities in early synthetic 
+steps of long routes of synthesis), a risk-based justification could be provided for the point in 
+the synthesis after which these types of impurities should be evaluated for mutagenic potential. 
+For starting materials that are introduced late in the synthesis of the drug substance (and 
+where the synthetic route of the starting material is known) the final steps of the starting 
+material synthesis should be evaluated for potential mutagenic impurities. 
+Actual impurities where the structures are known and potential impurities as defined above 
+should be evaluated for mutagenic potential as described in Section 6. 
+5.2 
+Degradation Products 
+Actual drug substance degradation products include those observed above the ICH Q3A 
+reporting threshold during storage of the drug substance in the proposed long-term storage 
+conditions and primary and secondary packaging. Actual degradation products in the drug 
+product include those observed above the ICH Q3B reporting threshold during storage of the 
+drug product in the proposed long-term storage conditions and primary and secondary 
+packaging, and also include those impurities that arise during the manufacture of the drug 
+product. Identification of actual degradation products is expected when the levels exceed the 
+identification thresholds outlined by ICH Q3A/Q3B. It is acknowledged that some 
+degradation products below the identification threshold may also have been identified. 
+Potential degradation products in the drug substance and drug product are those that may be 
+reasonably expected to form during long term storage conditions. Potential degradation 
+products include those that form above the ICH Q3A/B identification threshold during 
+accelerated stability studies (e.g., 40°C/75% relative humidity for 6 months) and confirmatory 
+photo-stability studies as described in ICH Q1B (Ref. 5), but are yet to be confirmed in the 
+drug substance or drug product under long-term storage conditions in the primary packaging. 
+Knowledge of relevant degradation pathways can be used to help guide decisions on the 
+selection of potential degradation products to be evaluated for mutagenicity e.g., from 
+degradation chemistry principles, relevant stress testing studies, and development stability 
+studies. 
+Actual and potential degradation products likely to be present in the final drug substance or 
+drug product and where the structure is known should be evaluated for mutagenic potential as 
+described in Section 6.
+
+6 
+ 
+ 
+5.3 
+Considerations for Clinical Development 
+It is expected that the impurity assessment described in Sections 5.1 and 5.2 applies to 
+products in clinical development. However, it is acknowledged that the available information 
+is limited. For example, information from long term stability studies and photo-stability 
+studies may not be available during clinical development and thus information on potential 
+degradation products may be limited. Additionally, the thresholds outlined in ICH Q3A/B do 
+not apply to products in clinical development and consequently fewer impurities will be 
+identified. 
+ 
+6. 
+HAZARD ASSESSMENT ELEMENTS 
+Hazard assessment involves an initial analysis of actual and potential impurities by 
+conducting database and literature searches for carcinogenicity and bacterial mutagenicity 
+data in order to classify them as Class 1, 2, or 5 according to Table 1. If data for such a 
+classification are not available, an assessment of Structure-Activity Relationships (SAR) that 
+focuses on bacterial mutagenicity predictions should be performed. This could lead to a 
+classification into Class 3, 4, or 5. 
+ 
+Table 1: Impurities Classification with Respect to Mutagenic and Carcinogenic Potential 
+and Resulting Control Actions 
+ 
+Class 
+Definition 
+Proposed action for control 
+(details in Section 7 and 8) 
+1 
+Known mutagenic carcinogens 
+Control 
+at or below compound- 
+specific acceptable limit 
+2 
+Known mutagens with 
+unknown carcinogenic potential 
+(bacterial mutagenicity positive*, no rodent 
+carcinogenicity data) 
+Control at or  below acceptable limits 
+(appropriate TTC) 
+3 
+Alerting structure, unrelated to the 
+structure of the drug substance; 
+no mutagenicity data 
+Control at or below acceptable limits 
+(appropriate 
+TTC) 
+or 
+conduct 
+bacterial mutagenicity assay; 
+If non-mutagenic = Class 5 
+If mutagenic = Class 2 
+4 
+Alerting structure, same alert in drug 
+substance or compounds related to the drug 
+substance 
+(e.g., 
+process 
+intermediates) 
+which have been tested and are non- 
+mutagenic 
+Treat as non-mutagenic impurity 
+5 
+No structural alerts, or alerting structure 
+with sufficient data to demonstrate lack of 
+mutagenicity or carcinogenicity 
+Treat as non-mutagenic impurity 
+ 
+*Or other relevant positive mutagenicity data indicative of DNA-reactivity related induction 
+of gene mutations (e.g., positive findings in in vivo gene mutation studies) 
+ 
+A computational toxicology assessment should be performed using (Q)SAR methodologies 
+that predict the outcome of a bacterial mutagenicity assay (Ref. 6). Two (Q)SAR prediction 
+methodologies that complement each other should be applied.  One methodology should be
+
+7 
+ 
+ 
+expert rule-based and the second methodology should be statistical-based. (Q)SAR models 
+utilizing these prediction methodologies should follow the general validation principles set 
+forth by the Organisation for Economic Co-operation and Development (OECD). 
+The absence of structural alerts from two complementary (Q)SAR methodologies (expert rule- 
+based and statistical) is sufficient to conclude that the impurity is of no mutagenic concern, 
+and no further testing is recommended (Class 5 in Table 1). 
+If warranted, the outcome of any computer system-based analysis can be reviewed with the 
+use of expert knowledge in order to provide additional supportive evidence on relevance of 
+any positive, negative, conflicting or inconclusive prediction and provide a rationale to support 
+the final conclusion. 
+To follow up on a relevant structural alert (Class 3 in Table 1), either adequate control 
+measures could be applied or a bacterial mutagenicity assay with the impurity alone can be 
+conducted. An appropriately conducted negative bacterial mutagenicity assay (Note 2) would 
+overrule any structure-based concern, and no further genotoxicity assessments would be 
+recommended (Note 1). These impurities should be considered non-mutagenic (Class 5 in 
+Table 1). A positive bacterial mutagenicity result would warrant further hazard assessment 
+and/or control measures (Class 2 in Table 1). For instance, when levels of the impurity cannot 
+be controlled at an appropriate acceptable limit, it is recommended that the impurity be tested 
+in an in vivo gene mutation assay in order to understand the relevance of the bacterial 
+mutagenicity assay result under in vivo conditions. The selection of other in vivo genotoxicity 
+assays should be scientifically justified based on knowledge of the mechanism of action of the 
+impurity and expected target tissue exposure (Note 3). In vivo studies should be designed 
+taking into consideration existing ICH genotoxicity Guidelines. Results in the appropriate in 
+vivo assay may support setting compound specific impurity limits. 
+An impurity with a structural alert that is shared (e.g., same structural alert in the same 
+position and chemical environment) with the drug substance or related compounds can be 
+considered as non-mutagenic (Class 4 in Table 1) if the testing of such material in the 
+bacterial mutagenicity assay was negative. 
+ 
+7. 
+RISK CHARACTERIZATION 
+As a result of hazard assessment described in Section 6, each impurity will be assigned to one 
+of the five classes in Table 1. For impurities belonging in Classes 1, 2, and 3 the principles of 
+risk characterization used to derive acceptable intakes are described in this section. 
+7.1 
+TTC-based Acceptable Intakes 
+A TTC-based acceptable intake of a mutagenic impurity of 1.5 µg per person per day is 
+considered to be associated with a negligible risk (theoretical excess cancer risk of <1 in 
+100,000 over a lifetime of exposure) and can in general be used for most pharmaceuticals as a 
+default to derive an acceptable limit for control. This approach would usually be used for 
+mutagenic impurities present in pharmaceuticals for long-term treatment (> 10 years) and 
+where no carcinogenicity data are available (Classes 2 and 3). 
+7.2 
+Acceptable Intakes Based on Compound-Specific Risk Assessments 
+7.2.1 Mutagenic Impurities with Positive Carcinogenicity Data (Class 1 in Table 1) 
+Compound-specific risk assessments to derive acceptable intakes should be applied instead of 
+the TTC-based acceptable intakes where sufficient carcinogenicity data exist. For a known 
+mutagenic carcinogen, a compound-specific acceptable intake can be calculated based on
+
+8 
+ 
+ 
+carcinogenic potency and linear extrapolation as a default approach. Alternatively, other 
+established risk assessment practices such as those used by international regulatory bodies 
+may be applied either to calculate acceptable intakes or to use already existing values published 
+by regulatory authorities (Note 4). 
+Compound-specific calculations for acceptable intakes can be applied case-by-case for 
+impurities which are chemically similar to a known carcinogen compound class (class-specific 
+acceptable intakes) provided that a rationale for chemical similarity and supporting data can 
+be demonstrated (Note 5). 
+7.2.2 Mutagenic Impurities with Evidence for a Practical Threshold 
+The existence of mechanisms leading to a dose response that is non-linear or has a practical 
+threshold is increasingly recognized, not only for compounds that interact with non-DNA 
+targets but also for DNA-reactive compounds, whose effects may be modulated by, for 
+example, rapid detoxification before coming into contact with DNA, or by effective repair of 
+induced damage. The regulatory approach to such compounds can be based on the 
+identification of a No-Observed Effect Level (NOEL) and use of uncertainty factors (ICH 
+Q3C(R5), Ref. 7) to calculate a Permissible Daily Exposure (PDE) when data are available. 
+The acceptable intakes derived from compound-specific risk assessments (Section 7.2) can be 
+adjusted for shorter duration of use in the same proportions as defined in the following 
+sections (Section 7.3.1 and 7.3.2) or should be limited to not more than 0.5%, whichever is 
+lower. For example, if the compound specific acceptable intake is 15 µg/day for lifetime 
+exposure, the less than lifetime limits (Table 2) can be increased to a daily intake of 100 µg (> 
+1-10 years treatment duration), 200 µg (> 1-12 months) or 1200 µg (< 1 month). However, 
+for a drug with a maximum daily dose of, for instance, 100 mg the acceptable daily intake for 
+the < 1 month duration would be limited to 0.5% (500 µg) rather than 1200 µg. 
+7.3 
+Acceptable Intakes in Relation to LTL Exposure 
+Standard risk assessments of known carcinogens assume that cancer risk increases as a function 
+of cumulative dose. Thus, cancer risk of a continuous low dose over a lifetime would be 
+equivalent to the cancer risk associated with an identical cumulative exposure averaged 
+over a shorter duration. 
+The TTC-based acceptable intake of 1.5 µg/day is considered to be protective for a lifetime of 
+daily exposure. To address LTL exposures to mutagenic impurities in pharmaceuticals, an 
+approach is applied in which the acceptable cumulative lifetime dose (1.5 µg/day x 25,550 
+days = 38.3 mg) is uniformly distributed over the total number of exposure days during LTL 
+exposure. This would allow higher daily intake of mutagenic impurities than would be the 
+case for lifetime exposure and still maintain comparable risk levels for daily and non-daily 
+treatment regimens. Table 2 is derived from the above concepts and illustrates the acceptable 
+intakes for LTL to lifetime exposures for clinical development and marketing. In the case of 
+intermittent dosing, the acceptable daily intake should be based on the total number of dosing 
+days instead of the time interval over which the doses were administered and that number of 
+dosing days should be related to the relevant duration category in Table 2. For example, a 
+drug administered once per week for 2 years (i.e., 104 dosing days) would have an acceptable 
+intake per dose of 20µg.
+
+9 
+ 
+ 
+Table 2: Acceptable Intakes for an Individual Impurity 
+ 
+Duration of 
+treatment 
+< 1 
+month 
+>1 - 12 
+months 
+>1 - 10 
+Years 
+>10 years 
+to lifetime 
+Daily intake 
+[µg/day] 
+120 
+20 
+10 
+1.5 
+ 
+7.3.1 Clinical Development 
+Using this LTL concept, acceptable intakes of mutagenic impurities are recommended for 
+limited treatment periods during clinical development of up to 1 month, 1 to 12 months and 
+more than one year up to completion of Phase 3 clinical trials (Table 2). These adjusted 
+acceptable intake values maintain a 10-6 risk level in early clinical development when benefit 
+has not yet been established and a 10-5 risk level for later stages in development (Note 6). 
+An alternative approach to the strict use of an adjusted acceptable intake for any mutagenic 
+impurity could be applied for Phase 1 clinical trials for dosing up to 14 days. For this 
+approach, only impurities that are known mutagenic carcinogens (Class 1) and known 
+mutagens of unknown carcinogenic potential (Class 2), as well as impurities in the cohort of 
+concern chemical class, should be controlled (see Section 8) to acceptable limits as described 
+in Section 7. All other impurities would be treated as non-mutagenic impurities. This 
+includes impurities which contain structural alerts (Class 3), which alone would not trigger 
+action for an assessment for this limited Phase 1 duration. 
+7.3.2 Marketed Products 
+The treatment duration categories with acceptable intakes in Table 2 for marketed products 
+are intended to be applied to anticipated exposure durations for the great majority of patients. 
+The proposed intakes along with various scenarios for applying those intakes are described in 
+Table 4, Note 7. In some cases, a subset of the population of patients may extend treatment 
+beyond the marketed drugs categorical upper limit (e.g., treatment exceeding 10 years for an 
+acceptable intake of 10 µg/day, perhaps receiving 15 years of treatment).  This would result in 
+a negligible increase (in the example given, a fractional increase to 1.5/100,000) compared to 
+the overall calculated risk for the majority of patients treated for 10 years. 
+7.4 
+Acceptable Intakes for Multiple Mutagenic Impurities 
+The TTC-based acceptable intakes should be applied to each individual impurity. When there 
+are two Class 2 or Class 3 impurities, individual limits apply. When there are three or more 
+Class 2 or Class 3 impurities specified on the drug substance specification, total mutagenic 
+impurities should be limited as described in Table 3 for clinical development and marketed 
+products. 
+For combination products each active ingredient should be regulated separately. 
+Table 3: Acceptable Total Daily Intakes for Multiple Impurities 
+ 
+Duration of 
+treatment 
+< 1 month 
+>1 - 12 months 
+>1 - 10 years 
+>10 years to 
+lifetime 
+Total Daily 
+intake 
+[µg/day] 
+120 
+60 
+30 
+5
+
+10 
+ 
+ 
+Only specified Class 2 and 3 impurities on the drug substance specification are included in the 
+calculation of the total limit. However, impurities with compound-specific or class-related 
+acceptable intake limits (Class 1) should not be included in the total limits of Class 2 and 
+Class 3 impurities. Also, degradation products which form in the drug product would be  
+controlled individually and a total limit would not be applied. 
+7.5 
+Exceptions and Flexibility in Approaches 
+• Higher acceptable intakes may be justified when human exposure to the impurity will 
+be much greater from other sources e.g., food, or endogenous metabolism (e.g., 
+formaldehyde). 
+• Case-by-case exceptions to the use of the appropriate acceptable intake can be justified 
+in cases of severe disease, reduced life expectancy, late onset but chronic disease, or 
+with limited therapeutic alternatives. 
+• Compounds from some structural classes of mutagens can display extremely high 
+carcinogenic potency (cohort of concern), i.e., aflatoxin-like-, N-nitroso-, and alkyl- 
+azoxy structures. If these compounds are found as impurities in pharmaceuticals, 
+acceptable intakes for these high-potency carcinogens would likely be significantly 
+lower than the acceptable intakes defined in this guideline. Although the principles of 
+this guideline can be used, a case-by-case approach using e.g., carcinogenicity data 
+from closely related structures, if available, should usually be developed to justify 
+acceptable intakes for pharmaceutical development and marketed products. 
+The above risk approaches described in Section 7 are applicable to all routes of administration 
+and no corrections to acceptable intakes are generally warranted. Exceptions to consider may 
+include situations where data justify route-specific concerns that should be evaluated case-by- 
+case. These approaches are also applicable to all patient populations based upon the 
+conservative nature of the risk approaches being applied. 
+ 
+8. 
+CONTROL 
+A control strategy is a planned set of controls, derived from current product and process 
+understanding that assures process performance and product quality (ICH Q10, Ref. 8). A 
+control strategy can include, but is not limited to, the following: 
+• Controls on material attributes (including raw materials, starting materials, 
+intermediates, reagents, solvents, primary packaging materials); 
+• Facility and equipment operating conditions; 
+• Controls implicit in the design of the manufacturing process; 
+• In-process controls (including in-process tests and process parameters); 
+• Controls on drug substance and drug product (e.g., release testing). 
+When an impurity has been characterized as Classes 1, 2, or 3 in Table 1, it is important to 
+develop a control strategy that assures that the level of this impurity in the drug substance and 
+drug product is below the acceptable limit. A thorough knowledge of the chemistry associated 
+with the drug substance manufacturing process, and of the drug product manufacturing 
+process, along with an understanding of the overall stability of the drug substance and drug 
+product is fundamental to developing the appropriate controls. Developing a strategy to 
+control mutagenic impurities in the drug product is consistent with risk management processes 
+identified in ICH Q9 (Ref. 9). A control strategy that is based on product and process 
+understanding and utilisation of risk management principles will lead to a combination of 
+process design and control and appropriate analytical testing, which can also
+
+11 
+ 
+ 
+provide an opportunity to shift controls upstream and minimize the need for end-product 
+testing. 
+8.1        Control of Process Related Impurities 
+There are 4 potential approaches to development of a control strategy for drug substance: 
+Option 1 
+Include a test for the impurity in the drug substance specification with an acceptance criterion 
+at or below the acceptable limit using an appropriate analytical procedure. 
+For an Option 1 control approach, it is possible to apply periodic verification testing per ICH 
+Q6A (Ref. 10). Periodic verification testing is justified when it can be shown that levels of 
+the mutagenic impurity in the drug substance are less than 30% of the acceptable limit for at 
+least 6 consecutive pilot scale or 3 consecutive production scale batches. If this condition is 
+not fulfilled, a routine test in the drug substance specification is recommended.  See Section 
+8.3 for additional considerations. 
+Option 2 
+Include a test for the impurity in the specification for a raw material, starting material or 
+intermediate, or as an in-process control, with an acceptance criterion at or below the 
+acceptable limit using an appropriate analytical procedure. 
+Option 3 
+Include a test for the impurity in the specification for a raw material, starting material or 
+intermediate, or as an in-process control, with an acceptance criterion above the acceptable 
+limit of the impurity in the drug substance, using an appropriate analytical procedure coupled 
+with demonstrated understanding of fate and purge and associated process controls that assure 
+the level in the drug substance is below the acceptable limit without the need for any additional 
+testing later in the process. 
+This option can be justified when the level of the impurity in the drug substance will be less 
+than 30% of the acceptable limit by review of data from laboratory scale experiments (spiking 
+experiments are encouraged) and where necessary supported by data from pilot scale or 
+commercial scale batches. See Case Examples 1 and 2. Alternative approaches can be used 
+to justify Option 3. 
+Option 4 
+Understand process parameters and impact on residual impurity levels (including fate and 
+purge knowledge) with sufficient confidence that the level of the impurity in the drug substance 
+will be below the acceptable limit such that no analytical testing is recommended for this 
+impurity.  (i.e., the impurity does not need to be listed on any specification). 
+A control strategy that relies on process controls in lieu of analytical testing can be appropriate 
+if the process chemistry and process parameters that impact levels of mutagenic impurities 
+are understood and the risk of an impurity residing in the final drug substance above the 
+acceptable limit is determined to be negligible. In many cases justification of this control 
+approach based on scientific principles alone is sufficient. Elements of a scientific risk 
+assessment can be used to justify an option 4 approach. The risk assessment can be based on 
+physicochemical properties and process factors that influence the fate and purge of an 
+impurity including chemical reactivity, solubility, volatility, ionizability and any physical 
+process steps designed to remove impurities. The result of this risk assessment might be 
+shown as an estimated purge factor for clearance of the impurity by the process (Ref. 11).
+
+12 
+ 
+ 
+Option 4 is especially useful for those impurities that are inherently unstable (e.g., thionyl 
+chloride that reacts rapidly and completely with water) or for those impurities that are 
+introduced early in the synthesis and are effectively purged. 
+In some cases an Option 4 approach can be appropriate when the impurity is known to form, 
+or is introduced late in the synthesis, however process-specific data should then be provided to 
+justify this approach. 
+8.2 
+Considerations for Control Approaches 
+For Option 4 approaches where justification based on scientific principles alone is not 
+considered sufficient, as well as for Option 3 approaches, analytical data to support the control 
+approach is expected. This could include as appropriate information on the structural changes 
+to the impurity caused by downstream chemistry (“fate”), analytical data on pilot scale batches, 
+and in some cases, laboratory scale studies with intentional addition of the impurity (“spiking 
+studies”). In these cases, it is important to demonstrate that the fate/purge argument for the 
+impurity is robust and will consistently assure a negligible probability of an impurity residing 
+in the final drug substance above the acceptable limit. Where the purge factor is based on 
+developmental data, it is important to address the expected scale-dependence or 
+independence. In the case that the small scale model used in the development stage is 
+considered to not represent the commercial scale, confirmation of suitable control in pilot 
+scale and/or initial commercial batches is generally appropriate. The need for data from 
+pilot/commercial batches is influenced by the magnitude of the purge factor calculated from 
+laboratory or pilot scale data, point of entry of the impurity, and knowledge of downstream 
+process purge points. 
+If Options 3 and 4 cannot be justified, then a test for the impurity on the specification for a 
+raw material, starting material or intermediate, or as an in-process control (Option 2) or drug 
+substance (Option 1) at the acceptable limit should be included. For impurities introduced in 
+the last synthetic step, an Option 1 control approach would be expected unless otherwise 
+justified. 
+The application of “As Low As Reasonably Practicable” (ALARP) is not necessary if the 
+level of the mutagenic impurity is below acceptable limits. Similarly, it is not necessary to 
+demonstrate that alternate routes of synthesis have been explored. 
+In cases where control efforts cannot reduce the level of the mutagenic impurity to below the 
+acceptable limit and levels are ALARP, a higher limit may be justified based on a risk/benefit 
+analysis. 
+8.3 
+Considerations for Periodic Testing 
+The above options include situations where a test is recommended to be included in the 
+specification, but where routine measurement for release of every batch may not be necessary. 
+This approach, referred to as periodic or skip testing in ICH Q6A could also be called 
+“Periodic Verification Testing.” This approach may be appropriate when it can be 
+demonstrated that processing subsequent to impurity formation/introduction clears the 
+impurity. It should be noted that allowance of Periodic Verification Testing is contingent 
+upon use of a process that is under a state of control (i.e., produces a quality product that 
+consistently meets specifications and conforms to an appropriately established facility, 
+equipment, processing, and operational control regimen). If upon testing, the level of the 
+mutagenic impurity fails to meet the acceptance criteria established for the periodic test, the 
+drug producer should immediately commence full testing (i.e., testing of every batch for the 
+attribute specified) until the cause of the failure has been conclusively determined, corrective
+
+13 
+ 
+ 
+action has been implemented, and the process is again documented to be in a state of control. 
+As noted in ICH Q6A, regulatory authorities should be notified of a periodic verification test 
+failure to evaluate the risk/benefit of previously released batches that were not tested. 
+8.4 
+Control of Degradation Products 
+For a potential degradation product that has been characterized as mutagenic, it is important to 
+understand if the degradation pathway is relevant to the drug substance and drug product 
+manufacturing processes and/or their proposed packaging and storage conditions. A well- 
+designed accelerated stability study (e.g., 40°C/75% relative humidity, 6 months) in the 
+proposed packaging, with appropriate analytical procedures is recommended to determine the 
+relevance of the potential degradation product. Alternatively, well designed kinetically 
+equivalent shorter term stability studies at higher temperatures in the proposed commercial 
+package may be used to determine the relevance of the degradation pathway prior to initiating 
+longer term stability studies. This type of study would be especially useful to understand the 
+relevance of those potential degradation products that are based on knowledge of potential 
+degradation pathways but not yet observed in the product. 
+Based on the result of these accelerated studies, if it is anticipated that the degradation product 
+will form at levels approaching the acceptable limit under the proposed packaging and storage 
+conditions, then efforts to control formation of the degradation product is expected. In these 
+cases, monitoring for the drug substance or drug product degradation product in long term 
+primary stability studies at the proposed storage conditions (in the proposed commercial pack) 
+is expected unless otherwise justified. Whether or not a specification limit for the mutagenic 
+degradation product is appropriate will generally depend on the results from these stability 
+studies. 
+If it is anticipated that formulation development and packaging design options are unable to 
+control mutagenic degradation product levels to less than the acceptable limit and levels are as 
+low as reasonably practicable, a higher limit can be justified based on a risk/benefit analysis. 
+8.5 
+Lifecycle Management 
+This section is intended to apply to those products approved after the issuance of this guideline. 
+The quality system elements and management responsibilities described in ICH Q10 are 
+intended to encourage the use of science-based and risk-based approaches at each lifecycle 
+stage, thereby promoting continual improvement across the entire product lifecycle. Product 
+and process knowledge should be managed from development through the commercial life of 
+the product up to and including product discontinuation. 
+The development and improvement of a drug substance or drug product manufacturing process 
+usually continues over its lifecycle. Manufacturing process performance, including the 
+effectiveness of the control strategy, should be periodically evaluated. Knowledge gained from 
+commercial manufacturing can be used to further improve process understanding and process 
+performance and to adjust the control strategy. 
+Any proposed change to the manufacturing process should be evaluated for the impact on the 
+quality of drug substance and drug product. This evaluation should be based on 
+understanding of the manufacturing process and should determine if appropriate testing to 
+analyze the impact of the proposed changes is required. Additionally, improvements in 
+analytical procedures may lead to structural identification of an impurity. In those cases the 
+new structure would be assessed for mutagenicity as described in this guideline.
+
+14 
+ 
+ 
+Throughout the lifecycle of the product, it will be important to reassess if testing is 
+recommended when intended or unintended changes occur in the process. This applies when 
+there is no routine monitoring at the acceptable limit (Option 3 or Option 4 control 
+approaches), or when applying periodic rather than batch-by-batch  testing.  This  testing should 
+be performed at an appropriate point in the manufacturing process. 
+In some cases, the use of statistical process control and trending of process measurements can 
+be useful for continued suitability and capability of processes to provide adequate control on 
+the impurity. Statistical process control can be based on process parameters that influence 
+impurity formation or clearance, even when that impurity is not routinely monitored (e.g., 
+Option 4). 
+All changes should be subject to internal change management processes as part of the quality 
+system (ICH Q10). Changes to information filed and approved in a dossier should be reported 
+to regulatory authorities in accordance with regional regulations and guidelines. 
+8.6 
+Considerations for Clinical Development 
+It is recognized that product and process knowledge increases over the course of development 
+and therefore it is expected that data to support control strategies in the clinical development 
+trial phases will be less than at the marketing registration phase. A risk-based approach based 
+on process chemistry fundamentals is encouraged to prioritize analytical efforts on those 
+impurities with the highest likelihood of being present in the drug substance or drug product. 
+Analytical data may not be expected to support early clinical development when the 
+likelihood of an impurity being present is low, but in a similar situation analytical data may be 
+appropriate to support the control approach for the marketing application. It is also recognized 
+that commercial formulation design occurs later in clinical development and therefore efforts 
+associated with drug product degradation products will be limited in the  earlier phases. 
+ 
+9. 
+DOCUMENTATION 
+Information relevant to the application of this guideline should be provided at the following 
+stages: 
+9.1 
+Clinical Trial Applications 
+• It is expected that the number of structures assessed for mutagenicity, and the 
+collection of analytical data will both increase throughout the clinical development 
+period. 
+• For Phase 1 studies of 14 days or less a description of efforts to mitigate risks of 
+mutagenic impurities focused on Class 1, and Class 2 impurities and those in the 
+cohort of concern as outlined in Section 7 should be included. For Phase 1 clinical 
+trials greater than 14 days and for Phase 2a clinical trials additionally Class 3 impurities 
+that require analytical controls should be included. 
+• For Phase 2b and Phase 3 clinical development trials, a list of the impurities assessed 
+by (Q)SAR should be included, and any Class 1, 2 or 3 actual and potential impurities 
+should be described along with plans for control. The in silico (Q)SAR systems used 
+to perform the assessments should be described. The results of bacterial mutagenicity 
+tests of actual impurities should be reported. 
+• Chemistry arguments may be appropriate instead of analytical data for potential 
+impurities that present a low likelihood of being present as described in Section 8.6.
+
+15 
+ 
+ 
+9.2 
+Common Technical Document (Marketing Application) 
+• For actual and potential process related impurities and degradation products where 
+assessments according to this guideline are conducted, the mutagenic impurity 
+classification and rationale for this classification should be provided: 
+o This would include the results and description of in silico (Q)SAR systems used, 
+and as appropriate, supporting information to arrive at the overall conclusion for 
+Class 4 and 5 impurities. 
+o When bacterial mutagenicity assays were performed on impurities, study reports 
+should be provided for bacterial mutagenicity assays on impurities. 
+• Justification for the proposed specification and the approach to control should be 
+provided (e.g., ICH Q11 example 5b, Ref. 12). For example, this information could 
+include the acceptable intake, the location and sensitivity of relevant routine 
+monitoring. For Option 3 and Option 4 control approaches, a summary of knowledge 
+of the purge factor, and identification of factors providing control (e.g., process steps, 
+solubility in wash solutions, etc.) is important. 
+ 
+NOTES 
+Note 1 The ICH M7 Guideline recommendations provide a state-of-the-art approach for 
+assessing the potential of impurities to induce point mutations and ensure that such 
+impurities are controlled to safe levels so that below or above the ICH Q3A/B 
+qualification threshold no further qualification for mutagenic potential is required. 
+This includes the initial use of (Q)SAR tools to predict bacterial mutagenicity. In 
+cases where the amount of the impurity exceeds 1 mg daily dose for chronic 
+administration, evaluation of genotoxic potential as recommended in ICH Q3A/B 
+could be considered. In cases where the amount of the impurity is equal to or less than 
+1 mg, no further genotoxicity testing is required regardless of other qualification 
+thresholds. 
+Note 2 To assess the mutagenic potential of impurities, a single bacterial mutagenicity assay 
+can be carried out with a fully adequate protocol according to ICH S2(R1) and 
+OECD 471 guidelines (Ref. 13 and 14). The assays are expected to be performed in 
+compliance with Good Laboratory Practices (GLP) regulations; however, lack of full 
+GLP compliance does not necessarily mean that the data cannot be used to support 
+clinical trials and marketing authorizations. Such deviations should be described in 
+the study report. For example, the test article may not be prepared or analyzed in 
+compliance with GLP regulations. In some cases, the selection of bacterial tester 
+strains may be limited to those proven to be sensitive to the identified alert. For 
+impurities that are not feasible to isolate or synthesize or when compound quantity is 
+limited, it may not be possible to achieve the highest test concentrations 
+recommended for an ICH-compliant bacterial mutagenicity assay according to the 
+current testing guidelines. In this case, bacterial mutagenicity testing could be 
+carried out using a miniaturized assay format with proven high concordance to the 
+ICH-compliant assay to enable testing at higher concentrations with justification.
+
+16 
+ 
+ 
+Note 3 
+Tests to Investigate the in vivo Relevance of in vitro Mutagens (Positive Bacterial 
+Mutagenicity) 
+ 
+In vivo test 
+Factors to justify choice of test 
+as fit-for-purpose 
+Transgenic mutation assays 
+• For any bacterial mutagenicity positive. Justify 
+selection of assay tissue/organ 
+Pig-a assay 
+(blood) 
+• For directly acting mutagens (bacterial mutagenicity 
+positive without S9)* 
+Micronucleus test 
+(blood or bone marrow) 
+• For directly acting mutagens (bacterial mutagenicity 
+positive without S9) and compounds known to be 
+clastogenic* 
+Rat liver Unscheduled DNA 
+Synthesis (UDS) test 
+• In particular for bacterial mutagenicity positive with S9 
+only 
+• Responsible liver metabolite known 
+o to be generated in test species used 
+o to induce bulky adducts 
+Comet assay 
+• Justification needed (chemical class specific mode of 
+action to form alkaline labile sites or single-strand 
+breaks as preceding DNA damage that can potentially 
+lead to mutations 
+• Justify selection of assay tissue/organ 
+Others 
+• With convincing justification 
+*For  indirect  acting  mutagens  (requiring  metabolic  activation),  adequate  exposure  to 
+metabolite(s) should be demonstrated. 
+Note 4 
+Example of linear extrapolation from the TD50 
+It is possible to calculate a compound-specific acceptable intake based on rodent 
+carcinogenicity potency data such as TD50 values (doses giving a 50% tumor 
+incidence equivalent to a cancer risk probability level of 1:2). Linear extrapolation 
+to a probability of 1 in 100,000 (i.e., the accepted lifetime risk level used) is achieved 
+by simply dividing the TD50 by 50,000. This procedure is similar to that employed 
+for derivation of the TTC. 
+Calculation example: Ethylene oxide 
+TD50 values for ethylene oxide according to the Carcinogenic Potency Database are 
+21.3 mg/kg body weight/day (rat) and 63.7 mg/kg body weight/day (mouse). For the 
+calculation of an acceptable intake, the lower (i.e., more conservative) value of the 
+rat is used. 
+To derive a dose to cause tumors in 1 in 100,000 animals, divide by 50,000: 
+21.3 mg/kg  50,000 = 0.42 µg/kg 
+To derive a total human daily dose: 
+0.42 µg/kg/day x 50 kg body weight = 21.3 µg/person/day 
+Hence, a daily life-long intake of 21.3 µg ethylene oxide would correspond to a 
+theoretical cancer risk of 10-5 and therefore be an acceptable intake when present as 
+an impurity in a drug substance.
+
+17 
+ 
+ 
+Alternative methods and published regulatory limits for cancer risk assessment 
+As an alternative of using the most conservative TD50 value from rodent 
+carcinogenicity studies irrespective of its relevance to humans, an in-depth 
+toxicological expert assessment of the available carcinogenicity data can be done in 
+order to initially identify the findings (species, organ, etc.) with highest relevance to 
+human risk assessment as a basis for deriving a reference point for linear 
+extrapolation. Also, in order to better take into account directly the shape of the 
+dose-response curve, a benchmark dose such as a Benchmark Dose Lower 
+Confidence Limit 10% (BMDL10, an estimate of the lowest dose which is 95% 
+certain to cause no more than a 10% cancer incidence in rodents) may be used 
+instead of TD50 values as a numerical index for carcinogenic potency. Linear 
+extrapolation to a probability of 1 in 100,000 (i.e., the accepted lifetime risk level 
+used) is then achieved by simply dividing the BMDL10 by 10,000. 
+Compound-specific acceptable intakes can also be derived from published 
+recommended values from internationally recognized bodies such as World Health 
+Organization (WHO, International Program on Chemical Safety [IPCS] Cancer Risk 
+Assessment Programme) and others using the appropriate 10-5 lifetime risk level. In 
+general, a regulatory limit that is applied should be based on the most current and 
+scientifically supported data and/or methodology. 
+Note 5  A compound-specific calculation of acceptable intakes for mutagenic impurities may 
+be applied for mutagenic impurities (without carcinogenicity data) which are 
+structurally similar to a chemically-defined class of known carcinogen. For example, 
+factors that are associated with the carcinogenic potency of monofunctional alkyl 
+chlorides have been identified (Ref. 15) and can be used to modify the safe 
+acceptable intake of monofunctional alkyl chlorides, a group of alkyl chlorides 
+commonly used in drug synthesis. Compared to multifunctional alkyl chlorides 
+the monofunctional compounds are much less potent carcinogens with TD50 values 
+ranging from 36 to 1810 mg/kg/day (n=15; epichlorohydrin with two distinctly 
+different functional groups is excluded). A TD50 value of 36 mg/kg/day can thus 
+be used as a still very conservative class-specific potency reference point for 
+calculation of acceptable intakes for monofunctional alkyl chlorides. This potency 
+level is at least ten-fold lower than the TD50 of 1.25 mg/kg/day corresponding to 
+the default lifetime TTC (1.5 µg/day) and therefore justifies lifetime and less-than-
+lifetime daily intakes for monofunctional alkyl chlorides ten times the default ones. 
+Note 6 Establishing less-than-lifetime acceptable intakes for mutagenic impurities in 
+pharmaceuticals has precedent in the establishment of the staged TTC limits for 
+clinical development (Ref. 16). The calculation of less-than-lifetime Acceptable 
+Intakes (AI) is predicated on the principle of Haber’s rule, a fundamental concept in 
+toxicology where concentration (C) x time (T) = a constant (k). Therefore, the 
+carcinogenic effect is based on both dose and duration of exposure.
+
+18 
+ 
+ 
+ 
+ 
+Figure 1: Illustration of calculated daily dose of a mutagenic impurity corresponding 
+to a theoretical 1:100,000 cancer risk as a function of duration of treatment in 
+comparison to the acceptable intake levels as recommended in Section 7.3. 
+ 
+The solid line in Figure 1 represents the linear relationship between the amount of 
+daily intake of a mutagenic impurity corresponding to a 10-5 cancer risk and the 
+number of treatment days. The calculation is based on the TTC level as applied in 
+this guideline for life-long treatment i.e., 1.5 µg per person per day using the formula: 
+Less-than-lifetime AI = 1.5 µg x (365 days x 70 years lifetime = 25,550) 
+Total number of treatment days 
+The calculated daily intake levels would thus be 1.5 µg for treatment duration of 70 
+years, 10 µg for 10 years, 100 µg for 1 year, 1270 µg for 1 month and approximately 
+38.3 mg as a single dose, all resulting in the same cumulative intake and therefore 
+theoretically in the same cancer risk (1 in 100,000). 
+The dashed step-shaped curve represents the actual daily intake levels adjusted to 
+less-than-lifetime exposure as recommended in Section 7 of this guideline for 
+products in clinical development and marketed products. These proposed levels are 
+in general significantly lower than the calculated values thus providing safety factors 
+that increase with shorter treatment durations. 
+The proposed accepted daily intakes are also in compliance with a 10-6 cancer risk 
+level if treatment durations are not longer than 6 months and are therefore applicable 
+in early clinical trials with volunteers/patients where benefit has not yet been 
+established. In this case the safety factors as shown in the upper graph would be 
+reduced by a factor of 10.
+
+19 
+ 
+ 
+Note 7 
+Table 4:  Examples of clinical use scenarios with different treatment durations for 
+applying acceptable intakes 
+ 
+Scenario1 
+Acceptable Intake 
+(µg/day) 
+Treatment duration of < 1 month: e.g., drugs used in emergency 
+procedures (antidotes, anesthesia, acute ischemic stroke), actinic 
+keratosis, treatment of lice 
+120 
+Treatment duration of  > 1-12 months: e.g., anti-infective therapy 
+with maximum up to 12 months treatment (HCV), parenteral nutrients, 
+prophylactic flu drugs (~ 5 months),  peptic ulcer, Assisted 
+Reproductive Technology (ART), pre-term labor, preeclampsia, pre- 
+surgical (hysterectomy) treatment, fracture healing (these are acute use 
+but with long half-lives) 
+20 
+Treatment duration of >1-10 years:  e.g., stage of disease with short 
+life expectancy (severe Alzheimer’s), non-genotoxic anticancer 
+treatment being used in a patient population with longer term survival 
+(breast cancer, chronic myelogenous leukemia), drugs specifically 
+labeled for less than 10 years of use, drugs administered intermittently 
+to treat acute recurring symptoms2 (chronic Herpes, gout attacks, 
+substance dependence such as smoking cessation), macular 
+degeneration 
+10 
+Treatment duration of >10 years to lifetime: e.g., chronic use 
+indications with high likelihood for lifetime use across broader age 
+range (hypertension,  dyslipidemia, asthma, Alzheimer’s (except severe 
+Alzheimer disease), hormone therapy (e.g., growth hormone, thyroid 
+hormone, parathyroid hormone), lipodystrophy, schizophrenia, 
+depression, psoriasis,  atopic dermatitis, Chronic Obstructive 
+Pulmonary Disease (COPD), cystic fibrosis, seasonal and perennial 
+allergic rhinitis, HIV3 
+1.5 
+1 This table shows general examples; each example should be examined on a case-by-case 
+basis.  For example, 10 µg/day may be acceptable in cases where the life expectancy of the 
+patient may be limited e.g., severe Alzheimer’s disease, even though the drug use could 
+exceed 10-year duration. 
+2 Intermittent use over a period >10 years but based on calculated cumulative dose it falls 
+under the >1-10 years category. 
+3 Changed in M7(R2) from 1-10 years to >10 years to lifetime because of clinical treatment 
+advances. See Q&A.
+
+20 
+ 
+ 
+GLOSSARY 
+Acceptable intake: 
+In the context of this guideline, an intake level that poses negligible cancer risk, or for 
+serious/life-threatening indications where risk and benefit are appropriately balanced. 
+Acceptable limit: 
+Maximum  acceptable  concentration  of  an  impurity in  a  drug  substance  or  drug  product 
+derived from the acceptable intake and the daily dose of the drug. 
+Acceptance criterion: 
+Numerical limits, ranges, or other suitable measures for acceptance of the results of analytical 
+procedures. 
+Control strategy: 
+A planned set of controls, derived from current product and process understanding  that ensures 
+process performance and product quality. The controls can include parameters and attributes 
+related to drug substance and drug product materials and components, facility and equipment 
+operating conditions, in-process controls, finished product specifications, and the associated 
+methods and frequency of monitoring and control. 
+Cumulative intake: 
+The total intake of a substance that a person is exposed to over time. 
+Degradation Product: A molecule resulting from a chemical change in the drug molecule 
+brought about over time and/or by the action of light, temperature, pH, water, or by reaction 
+with an excipient and/or the immediate container/closure system. 
+DNA-reactive: 
+The potential to induce direct DNA damage through chemical reaction with DNA. 
+Expert knowledge: 
+In the context of this guideline, expert knowledge can be defined as a review of pre-existing 
+data and the use of any other relevant information to evaluate the accuracy of an in silico 
+model prediction for mutagenicity. 
+Genotoxicity: 
+A broad term that refers to any deleterious change in the genetic material regardless of the 
+mechanism by which the change is induced. 
+Impurity: 
+Any component of the drug substance or drug product that is not the drug substance or an 
+excipient. 
+Mutagenic impurity: 
+An impurity that has been demonstrated to be mutagenic in an appropriate mutagenicity test 
+model, e.g., bacterial mutagenicity assay. 
+Periodic verification testing: 
+Also known as periodic or skip testing in ICH Q6A. 
+(Q)SAR and SAR:
+
+21 
+ 
+ 
+In the context of this guideline, refers to the relationship between the molecular (sub) structure 
+of a compound and its mutagenic activity using (Quantitative) Structure-Activity 
+Relationships derived from experimental data. 
+Purge factor: 
+Purge reflects the ability of a process to reduce the level of an impurity, and the purge factor is 
+defined as the level of an impurity at an upstream point in a process divided by the level of an 
+impurity at a downstream point in a process. Purge factors may be measured or predicted. 
+Structural alert: 
+In the context of this guideline, a chemical grouping or molecular (sub) structure which is 
+associated with mutagenicity.
+
+22 
+ 
+ 
+REFERENCES 
+1. International Conference on Harmonisation (2006). Q3A(R2): Impurities in New Drug 
+Substances. 
+2. International Conference on Harmonisation (2006). Q3B(R2): Impurities in New Drug 
+Products. 
+3. International Conference on Harmonisation (2009). M3(R2): Guidance on Nonclinical 
+Safety Studies for the Conduct of Human Clinical Trials and Marketing Authorization for 
+Pharmaceuticals. 
+4. International Conference on Harmonisation (2009). S9: Nonclinical Evaluation for 
+Anticancer Pharmaceuticals. 
+5. International Conference on Harmonisation (1996). Q1B: Stability Testing: Photostability 
+Testing of New Drug Substances and Products. 
+6. Sutter A, Amberg A, Boyer S, Brigo A, Contrera JF, Custer LL, Dobo KL, Gervais V, 
+Glowienke S, van Gompel J, Greene N, Muster W, Nicolette J, Reddy MV, Thybaud V, 
+Vock E, White AT, Müller L. Use of in silico systems and expert knowledge for 
+structure-based assessment of potentially mutagenic impurities. Regul Toxicol Pharmacol 
+2013;67:39-52. 
+7. International Conference on Harmonisation (2011). Q3C(R5): Impurities: Guideline for 
+Residual Solvents. 
+8. International Conference on Harmonisation (2008). Q10: Pharmaceutical Quality System. 
+9. International Conference on Harmonisation (2005). Q9: Quality Risk Management. 
+10. International Conference on Harmonisation (2000). Q6A: Test Procedures and Acceptance 
+Criteria for New Drug Substances and New Drug Products: Chemical Substances. 
+11. Teasdale A, Elder D, Chang S-J, Wang S, Thompson R, Benz N, Sanchez Flores I. 
+Risk assessment of genotoxic impurities in new chemical entities: strategies to 
+demonstrate control. Org Process Res Dev 2013;17:221-230. 
+12. International Conference on Harmonisation (2012). Q11: Development and Manufacture 
+of Drug Substances (Chemical Entities and Biotechnological/Biological Entities). 
+13. International Conference on Harmonisation (2011). S2(R1): Guidance on Genotoxicity 
+Testing and Data Interpretation for Pharmaceuticals Intended for Human Use. 
+14. Test 471. Bacterial Reverse Mutation Test OECD Guideline for Testing of Chemicals 
+Section 4 1997 July 
+15. Brigo, A Müller, L. (2011) Development of the Threshold of Toxicological Concern 
+Concept and its Relationship to Duration of Exposure, in Genotoxic Impurities (Ed. A. 
+Teasdale), John Wiley & Sons, Inc., Hoboken, NJ, USA. doi: 10.1002/9780470929377.ch2 
+16. Müller L, Mauthe RJ, Riley CM, Andino MM, De Antonis D, Beels C, DeGeorge J, De 
+Knaep AGM, Ellison D, Fagerland JA, Frank R, Fritschel B, Galloway S, Harpur E, 
+Humfrey CDN, Jacks ASJ, Jagota N, Mackinnon J, Mohan G, Ness DK, O’Donovan MR, 
+Smith MD, Vudathala G, Yotti L. A rationale for determining, testing, and controlling 
+specific impurities in pharmaceuticals that possess potential for genotoxicity. Regul 
+Toxicol Pharmacol 2006;44:198-211.
+
+23 
+ 
+ 
+APPENDICES 
+ 
+Appendix 1: Scope Scenarios for Application of the ICH M7 Guideline 
+ 
+ 
+Scenario 
+Applies to 
+Drug 
+Substance 
+Applies 
+to Drug 
+Product 
+Comments 
+Registration of new drug 
+substances and associated 
+drug product 
+Yes 
+Yes 
+Primary intent of the M7 Guideline 
+Clinical trial applications 
+for new drug substances 
+and associated drug 
+product 
+Yes 
+Yes 
+Primary intent of the M7 Guideline 
+Clinical trial applications 
+for new drug substances 
+for a anticancer drug per 
+ICH S9 
+No 
+No 
+Out of scope of M7 Guideline 
+Clinical trial applications 
+for new drug substances 
+for an orphan drug 
+Yes 
+Yes 
+There may be exceptions on a case by 
+case basis for higher impurity limits 
+Clinical trial application 
+for a new drug product 
+using an existing drug 
+substance where there are 
+no changes to the drug 
+substance manufacturing 
+process 
+No 
+Yes 
+Retrospective application of the M7 
+Guideline is not intended for 
+marketed products unless there are 
+changes made to the synthesis.  Since 
+no changes are made to the drug 
+substance synthesis, the drug 
+substance would not require 
+reevaluation.  Since the drug product 
+is new, application of this guideline is 
+expected. 
+A new formulation of an 
+approved drug substance 
+is filed 
+No 
+Yes 
+See Section 4.2 
+A product that is 
+previously approved in a 
+member region is filed for 
+the first time in a different 
+member region. The 
+product is unchanged. 
+Yes 
+Yes 
+As there is no mutual recognition, an 
+existing product in one member 
+region filed for the first time in 
+another member region would be 
+considered a new product. 
+A new supplier or new 
+site of the drug substance 
+is registered.  There are no 
+changes to the 
+manufacturing process 
+used in this registered 
+application. 
+No 
+No 
+As long as the synthesis of the drug 
+substance is consistent with 
+previously approved methods, then 
+reevaluation of mutagenic impurity 
+risk is not necessary.  The applicant 
+would need to demonstrate that no 
+changes have been made to a 
+previously approved process/product. 
+See Section 4.1.
+
+24 
+ 
+ 
+ 
+An existing product 
+(approved after the 
+issuance of ICH M7 with 
+higher limits based on 
+ICH S9) associated with 
+an advanced cancer 
+indication is now 
+registered  for use in a 
+non-life threatening 
+indication 
+Yes 
+Yes 
+Since the patient population and 
+acceptable cancer risk have changed, 
+the previously approved impurity 
+control strategy and limits will 
+require reevaluation.  See Section 4.3. 
+New combination product 
+is filed that contains one 
+new drug substance and 
+an existing drug substance 
+Yes (new 
+drug 
+substance) 
+No 
+(existing 
+drug 
+substance) 
+Yes 
+M7 would apply to the new drug 
+substance.  For the existing drug 
+substance, retrospective application 
+of M7 to existing products is not 
+intended.  For the drug product, this 
+would classify as a new drug product 
+so the guideline would apply to any 
+new or higher levels of degradation 
+products. 
+ 
+ 
+ 
+Appendix 2:  Case Examples to Illustrate Potential Control Approaches 
+Case 1: Example of an Option 3 Control Strategy 
+An intermediate X is formed two steps away from the drug substance and impurity A is 
+routinely detected in intermediate X. The impurity A is a stable compound and carries over to 
+the drug substance. A spike study of the impurity A at different concentration levels in 
+intermediate X was performed at laboratory scale. As a result of these studies, impurity A 
+was consistently removed to less than 30% of the TTC-based limit in the drug substance even 
+when impurity A was present at 1% in intermediate X. Since this intermediate X is formed 
+only two steps away from the drug substance and the impurity A level in the intermediate X is 
+relatively high, the purging ability of the process has additionally been confirmed by 
+determination of impurity A in the drug substance in multiple pilot-scale batches and results 
+were below 30% of the TTC-based limit. Therefore, control of the impurity A in the 
+intermediate X with an acceptance limit of 1.0% is justified and no test is warranted for this 
+impurity in the drug substance specification. 
+Case 2: Example of an Option 3 Control Strategy: Based on Predicted Purge from a 
+Spiking Study Using Standard Analytical Methods 
+A starting material Y is introduced in step 3 of a 5-step synthesis and an impurity B is 
+routinely detected in the starting material Y at less than 0.1% using standard analytical 
+methods.  In order to determine if the 0.1% specification in the starting material is acceptable, 
+a purge study was conducted at laboratory scale where impurity B was spiked into starting 
+material Y with different concentration levels up to 10% and a purge factor of > 500-fold was 
+determined across the final three processing steps. This purge factor applied to a 0.1% 
+specification in starting material Y would result in a predicted level of impurity B in the drug 
+substance of less than 2 ppm. As this is below the TTC-based limit of 50 ppm for this 
+impurity in the drug substance, the 0.1% specification of impurity B in starting material Y is
+
+25 
+ 
+ 
+justified without the need for providing drug substance batch data on pilot scale or 
+commercial scale batches. 
+Case 3: Example of an Option 2 and 4 Control Strategy: Control of Structurally Similar 
+Mutagenic Impurities 
+The step 1 intermediate of a 5-step synthesis is a nitroaromatic compound that may contain 
+low levels of impurity C, a positional isomer of the step 1 intermediate and also a 
+nitroaromatic compound. The amount of impurity C in the step 1 intermediate has not been 
+detected by ordinary analytical methods, but it may be present at lower levels. The step 1 
+intermediate is positive in the bacterial mutagenicity assay. The step 2 hydrogenation reaction 
+results in a 99% conversion of the step 1 intermediate to the corresponding aromatic amine. 
+This is confirmed via in-process testing. An assessment of purge of the remaining step 1 
+nitroaromatic intermediate was conducted and a high purge factor was predicted based on 
+purge points in the subsequent step 3 and 4 processing steps. Purge across the step 5 
+processing step is not expected and a specification for the step 1 intermediate at the TTC- 
+based limit was established at the step 4 intermediate (Option 2 control approach). The 
+positional isomer impurity C would be expected to purge via the same purge points as the step 
+1 intermediate and therefore will always be much lower than the step 1 intermediate itself and 
+therefore no testing is required and an Option 4 control strategy for impurity C can be 
+supported without the need for any additional laboratory or pilot scale data. 
+Case 4: Example of an Option 4 Control Strategy: Highly Reactive Impurity 
+Thionyl chloride is a highly reactive compound that is mutagenic. This reagent is introduced 
+in step 1 of a 5-step synthesis. At multiple points in the synthesis, significant amounts of 
+water are used. Since thionyl chloride reacts instantaneously with water, there is no chance of 
+any residual thionyl chloride to be present in the drug substance. An Option 4 control 
+approach is suitable without the need for any laboratory or pilot scale data.
+
+26 
+ 
+ 
+Implementation of Guideline: 
+Implementation of M7 is encouraged after publication; however, because of the complexity of 
+the guideline, application of M7 is not expected prior to 18 months after ICH publication. 
+The following exceptions to the 18-month timeline apply. 
+1. Ames tests should be conducted according to M7 upon ICH publication. However, 
+Ames tests conducted prior to publication of M7 need not be repeated. 
+ 
+2. When development programs have started phase 2b/3 clinical trials prior to publication 
+of M7 these programs can be completed up to and including marketing application 
+submission and approval, with the following exceptions to M7. 
+o No need for two QSAR assessments as outlined in Section 6. 
+o No need to comply with the scope of product impurity assessment as outlined in 
+Section 5. 
+o No  need  to  comply  with  the  documentation  recommendations  as  outlined  in 
+Section 9. 
+ 
+3. Given the similar challenges for development of a commercial manufacturing process, 
+application of the aspects of M7 listed above to new marketing applications that do not 
+include Phase 2b/3 clinical trials would not be expected until 36 months after ICH 
+publication of M7.
+
+27 
+ 
+ 
+Appendix 3: List of Compounds in ICH M7 Addendum Acceptable Intakes 
+(AIs) or Permissible Daily Exposures (PDEs) 
+ 
+Compound 
+CAS# 
+Chemical 
+Structure 
+AI  or  PDE 
+(µg/day) 
+Comment 
+Linear extrapolation from TD50 
+Acrylonitrile 
+107-13-1 
+6 
+TD50 linear 
+extrapolation 
+Benzyl chloride 
+100-44-7 
+41 
+TD50 linear 
+extrapolation 
+Bis(chloromethyl)ether 
+542-88-1 
+0.004 
+TD50 linear 
+extrapolation 
+1-Chloro-4- 
+nitrobenzene 
+100-00-5 
+117 
+TD50 linear 
+extrapolation 
+p-Cresidine 
+120-71-8 
+45 
+TD50 linear 
+extrapolation 
+1,2-Dibromoethane 
+106-93-4 
+2 
+TD50 linear 
+extrapolation 
+Dimethylcarbamyl 
+chloride 
+79-44-7 
+0.6 (inhalation)* 
+5 (all other 
+routes) 
+ 
+TD50 linear 
+extrapolation 
+Epichlorohydrin 
+106-89-8 
+3 
+TD50 linear 
+extrapolation 
+Ethyl bromide 
+74-96-4 
+32 
+TD50 linear 
+extrapolation 
+Ethyl chloride 
+75-00-3 
+1,810 
+TD50 linear 
+extrapolation 
+Glycidol 
+556-52-5 
+4 
+TD50 linear 
+extrapolation 
+Hydrazine 
+302-01-2 
+0.2 (inhalation)* 
+39 (all other 
+routes) 
+TD50 linear 
+extrapolation 
+Methyl Chloride 
+74-87-3 
+1,361 
+TD50 linear 
+extrapolation 
+Styrene 
+100-42-5 
+ 
+154 
+TD50 linear 
+extrapolation 
+Threshold-based PDE
+
+28 
+ 
+ 
+Aniline 
+62-53-3 
+720 
+PDE based on 
+Aniline HCl 
+142-04-1 
+threshold mode of 
+action 
+(hemosiderosis) 
+Endogenous and/or Environmental Exposure 
+Acetaldehyde 
+75-07-0 
+2,000 (oral)* 
+185 (all other 
+routes) 
+Oral PDE is based 
+on average food 
+intake; all other 
+routes based on 
+TD50 linear 
+extrapolation from 
+an inhalation study 
+Formaldehyde 
+50-00-0 
+8,000 or 215 
+ppb, whichever 
+is lower 
+(inhalation)* 
+10,000 (all other 
+routes) 
+Inhalation route 
+based on TD50 
+linear extrapolation 
+or local irritation; 
+all other routes 
+based on average 
+food intake 
+Hydrogen peroxide 
+7722-84-1   
+68,000 or 0.5%, 
+whichever is 
+lower 
+68 mg/day is 1% of 
+estimated 
+endogenous 
+production 
+Vinyl acetate 
+108-05-4 
+2,000 (oral)* 
+758 (all other 
+routes) 
+Oral PDE is based 
+on average food 
+intake for 
+acetaldehyde; all 
+other routes based 
+on TD50 linear 
+extrapolation from 
+an inhalation study 
+Other Cases 
+p-Chloroaniline 
+p-Chloroaniline HCl 
+106-47-8 
+20265-96-7 
+ 
+34 
+AI based on liver 
+tumors for which 
+mutagenic mode of 
+action cannot be 
+ruled out 
+Dimethyl Sulfate 
+77-78-1 
+1.5 
+Carcinogenicity 
+data available, but 
+inadequate to 
+derive AI. Default 
+to TTC 
+* route specific limit

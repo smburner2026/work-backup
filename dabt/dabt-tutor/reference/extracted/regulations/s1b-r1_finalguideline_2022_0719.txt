@@ -1,0 +1,1000 @@
+# S1B-R1_FinalGuideline_2022_0719.pdf
+# Category: ich/S
+# Pages: 25
+
+INTERNATIONAL COUNCIL FOR HARMONISATION OF TECHNICAL 
+REQUIREMENTS FOR PHARMACEUTICALS FOR HUMAN USE 
+ 
+ 
+ICH HARMONISED GUIDELINE 
+ 
+ 
+TESTING FOR CARCINOGENICITY OF 
+PHARMACEUTICALS 
+S1B(R1) 
+ 
+ 
+Final version  
+Adopted on 4 August 2022 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This Guideline has been developed by the appropriate ICH Expert Working Group and has been subject 
+to consultation by the regulatory parties, in accordance with the ICH Process. At Step 4 of the Process 
+the final draft is recommended for adoption to the regulatory bodies of ICH regions.
+
+ICH S1B(R1) 
+Document History 
+ 
+First 
+Codification 
+History 
+Date 
+New 
+Codification 
+November 
+2005 
+S1B 
+Approval by the Steering Committee under 
+Step 2 and release for public consultation. 
+1 
+May 
+1996 
+S1B 
+S1B 
+Approval by the Steering Committee under 
+Step 4 and recommendation for adoption to 
+the three ICH regulatory bodies. 
+16 
+July 
+1997 
+S1B 
+ 
+    Current Step 4 version of the S1B(R1) 
+ 
+Code 
+History 
+Date 
+S1B(R1)* 
+Endorsement by the Members of the ICH Assembly 
+under Step 2 and release for public consultation. 
+10 May 2021 
+S1B(R1)* 
+Endorsement by the Regulatory Members of the ICH 
+Assembly under Step 4 and integration with the S1B 
+Guideline. 
+4 August 2022 
+ 
+*This addendum is complementary to the S1 Guidelines (S1A, S1B and S1C(R2)) and is not 
+intended to replace the existing S1B Guideline.  
+ 
+ 
+ 
+ 
+ 
+ 
+Legal notice: This document is protected by copyright and may, with the exception of the ICH logo, be 
+used, reproduced, incorporated into other works, adapted, modified, translated or distributed under a 
+public license provided that ICH's copyright in the document is acknowledged at all times.  In case of 
+any adaption, modification or translation of the document, reasonable steps must be taken to clearly 
+label, demarcate or otherwise identify that changes were made to or based on the original document. 
+Any impression that the adaption, modification or translation of the original document is endorsed or 
+sponsored by the ICH must be avoided. 
+The document is provided "as is" without warranty of any kind. In no event shall the ICH or the authors 
+of the original document be liable for any claim, damages or other liability arising from the use of the 
+document. 
+The above-mentioned permissions do not apply to content supplied by third parties. Therefore, for 
+documents where the copyright vests in a third party, permission for reproduction must be obtained 
+from this copyright holder.
+
+i 
+ 
+TESTING FOR CARCINOGENICITY OF PHARMACEUTICALS 
+TABLE OF CONTENTS 
+Part I: 
+TESTING FOR CARCINOGENICITY OF PHARMACEUTICALS 
+ 
+1.     OBJECTIVE ................................................................................................................ 1 
+2.     BACKGROUND ........................................................................................................... 1 
+3.     SCOPE OF THE GUIDELINE ................................................................................... 2 
+4.     THE GUIDELINE........................................................................................................ 2 
+4.1   Preamble ......................................................................................................................... 2 
+4.2   Experimental approaches to testing for carcinogenic potential ..................................... 2 
+4.2.1   Choice of species for a long-term carcinogenicity study ..................................... 2 
+4.2.2   Additional in vivo tests for carcinogenicity ......................................................... 3 
+4.2.3   Considerations in the choice of short or medium term tests                              
+for carcinogenicity. ............................................................................................. 3 
+5.      MECHANISTIC STUDIES ........................................................................................ 3 
+5.1    Cellular changes ............................................................................................................ 3 
+5.2    Biochemical measurements ........................................................................................... 3 
+5.3    Considerations for additional genotoxicity testing ........................................................ 4 
+5.4    Modified protocols ........................................................................................................ 4 
+6.      GENERAL CONSIDERATIONS IN THE CHOICE OF AN APPROPRIATE   
+SPECIES FOR LONG TERM CARCINOGENICITY TESTING ....................... 4 
+6.1    Information from surveys on pharmaceuticals .............................................................. 4 
+6.2    Potential to study mechanisms. ..................................................................................... 4 
+6.3    Metabolic disposition .................................................................................................... 5 
+6.4    Practicality ..................................................................................................................... 5 
+6.5    Testing in more than one species. ................................................................................. 5 
+6.6    Exceptions. .................................................................................................................... 5 
+7.     EVALUATION OF CARCINOGENIC POTENTIAL ............................................ 5 
+NOTES .................................................................................................................................. 6 
+ANNEX: OTHER ICH GUIDELINES CITED................................................................. 7
+
+Part II: 
+ADDENDUM TO TESTING FOR CARCINOGENICITY FOR   
+PHARMACEUTICALS 
+ 
+PREAMBLE ......................................................................................................................... 8 
+1. 
+INTRODUCTION ...................................................................................................... 8 
+1.1 
+Scope of the Addendum ............................................................................................... 8 
+1.2 
+Purpose of the Addendum ............................................................................................ 8 
+1.3 
+Background .................................................................................................................. 8 
+2. 
+A WEIGHT OF EVIDENCE APPROACH TO ASSESS THE HUMAN 
+CARCINOGENIC POTENTIAL OF PHARMACEUTICALS .............................. 9 
+2.1 
+Factors to Consider for a WoE Assessment................................................................ 10 
+2.2 
+Integration of WoE Factors for Assessing Human Carcinogenic Risk ...................... 11 
+2.3 
+Mouse Carcinogenicity Studies .................................................................................. 13 
+3. 
+CLARIFICATION ON CRITERIA FOR HIGH DOSE SELECTION BASED ON 
+EXPOSURE FOR RASH2-TG MOUSE CARCINOGENICITY STUDIES ....... 13 
+REFERENCES ................................................................................................................... 14 
+APPENDIX: CASE STUDIES APPLYING THE WEIGHT OF EVIDENCE 
+APPROACH ....................................................................................................................... 16
+
+1
+Part I: 
+TESTING FOR CARCINOGENICITY OF PHARMACEUTICALS 
+ 
+ICH Harmonised Tripartite Guideline 
+Having reached Step 4 of the ICH Process at the ICH Steering Committee meeting on 
+16 July 1997, this guideline is recommended for adoption 
+to the three regulatory parties to ICH 
+ 
+1.   OBJECTIVE 
+This document provides guidance on approaches for evaluating the carcinogenic potential of 
+pharmaceuticals. 
+2.   BACKGROUND 
+Historically, the regulatory requirements for the assessment of the carcinogenic potential of 
+pharmaceuticals in the three regions (E.U., Japan, U.S.) provided for the conduct of long-term 
+carcinogenicity studies in two rodent species, usually the rat and the mouse.  Given the cost of 
+these studies and their extensive use of animals, it is in keeping with the mission of ICH to 
+examine whether this practice requiring long term carcinogenicity studies in two species could 
+be reduced without compromising human safety. 
+This guideline should be read in conjunction with other guidelines (see Annex), especially: 
+ 
+S1.A: Guideline on the Need for Carcinogenicity Studies of Pharmaceuticals. 
+ 
+S1.C: Dose Selection for Carcinogenicity Studies of Pharmaceuticals. 
+Long-term rodent carcinogenicity studies for assessing the carcinogenic potential of chemicals 
+(including pharmaceuticals) to humans are currently receiving critical examination.  Since the 
+early 1970's, many investigations have shown that it is possible to provoke a carcinogenic 
+response in rodents by a diversity of experimental procedures, some of which are now 
+considered to have little or no relevance for human risk assessment.  This guideline outlines 
+experimental approaches to the evaluation of carcinogenic potential that may obviate the 
+necessity for the routine conduct of two long-term rodent carcinogenicity studies for those 
+pharmaceuticals that need such evaluation. The relative individual contribution of rat and 
+mouse carcinogenicity studies and whether the use of rats or mice alone would result in a 
+significant loss of information on carcinogenicity relevant to human risk assessment has been 
+addressed by six surveys of the data for human pharmaceuticals.  The surveys were those of the 
+International Agency for Research on Cancer (IARC), the U.S. Food and Drug Administration 
+(FDA), the U.S. Physicians’ Desk Reference (PDR), the Japanese Pharmaceutical 
+Manufacturers’ Association (JPMA), the EU Committee for Proprietary Medicinal Products 
+(CPMP), and the UK Centre for Medicines Research (CMR).  The dimensions of these surveys 
+and the principal conclusions of the analyses can be found in the Proceedings of the Third 
+International Conference (1995) on Harmonization. 
+Positive results in long-term carcinogenicity studies that are not relevant to the therapeutic use 
+of a pharmaceutical present a dilemma to all parties: regulatory reviewers, companies
+
+2
+developing drugs and the public at large.  The conduct of one long-term carcinogenicity study 
+(rather than two long term studies) would, in part, allow resources to be diverted to other 
+approaches to uncover potential carcinogenicity relevant to humans. A “weight of evidence” 
+approach, that is use of scientific judgment in evaluation of the totality of the data derived from 
+one long-term carcinogenicity study along with other appropriate experimental investigations, 
+enhances the assessment of carcinogenic risk to humans. 
+3.   SCOPE OF THE GUIDELINE 
+The guideline embraces all pharmaceutical agents that need carcinogenicity testing as indicated 
+in Guideline S1A. For biotechnology-derived pharmaceuticals refer to Guideline S6. 
+4.   THE GUIDELINE 
+4.1  Preamble 
+The strategy for testing the carcinogenic potential of a pharmaceutical is developed only after 
+the acquisition of certain key units of information, including the results of genetic toxicology 
+(Guidelines S2A and S2B), intended patient population, clinical dosage regimen (Guideline 
+S1A), pharmacodynamics in animals and in humans (selectivity, dose-response) (Guideline 
+S1C), and repeated-dose toxicology studies.  Repeated-dose toxicology studies in any species 
+(including nonrodents) may indicate that the test compound possesses immunosuppressant 
+properties, hormonal activity, or other activity considered to be a risk factor for humans, and 
+this information should be considered in the design of any further studies for the assessment of 
+carcinogenic potential (see also Note 1). 
+4.2  Experimental approaches to testing for carcinogenic potential 
+Flexibility and judgment should be exercised in the choice of an approach which should be 
+influenced by the information cited in the above preamble.  Given the complexity of the process 
+of carcinogenesis, no single experimental approach can be expected to predict the carcinogenic 
+potential of all pharmaceuticals for humans. 
+The basic principle: 
+The basic scheme comprises one long-term rodent carcinogenicity study, plus one other study 
+of the type mentioned in §4.2.2 that supplements the long term carcinogenicity study and 
+provides additional information that is not readily available from the long term assay. 
+4.2.1  Choice of species for a long-term carcinogenicity study 
+ 
+The species selected should be appropriate, based on considerations that include the 
+following: 
+(a) 
+Pharmacology. 
+(b) 
+Repeated-dose toxicology.  
+(c) 
+Metabolism (see also Guidelines S1C and S3A). 
+(d) 
+Toxicokinetics (see also Guidelines S1C, S3A, and S3B). 
+(e) 
+Route of administration (e.g., less common routes such as dermal and inhalation). 
+ 
+In the absence of clear evidence favoring one species, it is recommended that the rat be 
+selected.  This view is based on the factors discussed in §6.
+
+3
+4.2.2  Additional in vivo tests for carcinogenicity 
+ 
+Additional tests may be either (a) or (b) (see Note 2). 
+(a) 
+Short or medium-term in vivo rodent test systems. 
+ 
+Possibilities should focus on the use of in vivo models providing insight into 
+carcinogenic endpoints.  These may include models of initiation-promotion in 
+rodents, or models of carcinogenesis using transgenic or neonatal rodents (Note 3). 
+(b) 
+A long-term carcinogenicity study in a second rodent species is still considered 
+acceptable (see § 4.2.1 for considerations).  
+4.2.3  Considerations in the choice of short or medium term tests for carcinogenicity. 
+       Emphasis should be placed on selection of a test method that can contribute information   
+valuable to the overall “weight of evidence” for the assessment of carcinogenic potential. 
+The rationale for this choice should be documented and based on information available 
+at the time of method selection about the pharmaceutical such as pharmacodynamics and 
+exposure compared to human or any other information that may be relevant. This 
+rationale should include a scientific discussion of the strengths and weaknesses of the 
+method selected for the pharmaceutical(see Note 4). 
+5.  MECHANISTIC STUDIES 
+Mechanistic studies are often useful for the interpretation of tumor findings in a carcinogenicity 
+study and can provide a perspective on their relevance to human risk assessment.  The need for 
+or the design of an investigative study will be dictated by the particular properties of the drug 
+and/or the specific results from the carcinogenicity testing.  Dose dependency and the 
+relationship to carcinogenicity study conditions should be evaluated in these investigational 
+studies. Suggestions include: 
+5.1  Cellular changes 
+Relevant tissues may be examined for changes at the cellular level using morphological, 
+histochemical, or functional criteria.  As appropriate, attention may be directed to such changes 
+as the dose-relationships for apoptosis, cell proliferation, liver foci of cellular alteration, or 
+changes in intercellular communication. 
+5.2  Biochemical measurements 
+Depending on the putative mode of tumorigenic action, investigations could involve 
+measurements of: 
+• plasma hormone levels, e.g. T3/T4, TSH, prolactin 
+• growth factors 
+• binding to proteins such as  2-globulin 
+• tissue enzyme activity, etc. 
+In some situations, it may be possible to test a hypothesis of, for example, a hormone imbalance 
+with another study in which the imbalance has been, at least in part, compensated.
+
+4
+5.3  Considerations for additional genotoxicity testing  
+       (see Guidelines S2A and S2B) 
+Additional genotoxicity testing in appropriate models may be invoked for compounds that were 
+negative in the standard test battery but which have shown effects in a carcinogenicity test with 
+no clear evidence for an epigenetic mechanism.  Additional testing can include modified 
+conditions for metabolic activation in in vitro tests or can include in vivo tests measuring 
+genotoxic damage in target organs of tumor induction (e.g., DNA damage and repair tests, 32P-
+postlabeling, mutation induction in transgenes). 
+5.4  Modified protocols 
+Modified protocols may be helpful to clarify the mode of tumorigenic action of the test 
+substance.  Such protocols might include groups of animals to explore, for example, the 
+consequence of interrupted dosage regimens, or the reversibility of cellular changes after 
+cessation of dosing. 
+6.   GENERAL CONSIDERATIONS IN THE CHOICE OF AN APPROPRIATE         
+SPECIES FOR LONG TERM CARCINOGENICITY TESTING                              
+There are several general considerations which, in the absence of other clear indications, 
+suggest that the rat will normally be the species of choice for a long term carcinogenicity study. 
+6.1  Information from surveys on pharmaceuticals 
+In the six analyses, attention was given to data on genetic toxicology, tumor incidence, strain 
+of animal, route and dosage regimen, pharmacological or therapeutic activity, development 
+and/or regulatory status, and, if relevant, reason for termination of development.  Inevitably, 
+there was considerable overlap of the data, but that is not necessarily an impediment to drawing 
+valid conclusions. 
+The main overall conclusions from the analysis were: 
+a. 
+Although very few instances have been identified of mouse tumors being the sole reason 
+for regulatory action concerning a pharmaceutical, data from this species may have 
+contributed to a “weight of evidence” decision and in identifying agents that caused 
+tumors in two rodent species. 
+b. 
+Of the compounds displaying carcinogenic activity in only one species, the number of 
+"rat-only" compounds was about double the number of "mouse-only" compounds, 
+implying in a simplistic sense that the rat is more "sensitive" than the mouse. 
+c.   
+As with other surveys accessible in the literature, the data for pharmaceuticals were 
+dominated by the high incidence of rodent liver tumors.  The high susceptibility of mouse 
+liver to nongenotoxic chemicals has been the subject of many symposia and workshops.  
+These have concluded that these tumors may not always have relevance to carcinogenic 
+risk in humans and can potentially be misleading. 
+6.2  Potential to study mechanisms 
+The carcinogenic activity of nongenotoxic chemicals in rodents is characterized by a high 
+degree of species, strain, and target organ specificity and by the existence of thresholds in the 
+dose-response relationship.  Mechanistic studies in recent years have permitted the distinction 
+between effects that are specific to the rodent model and those that are likely to have relevance 
+for humans.  Progress has often been associated with increased understanding of species and
+
+5
+tissue specificity. For example, receptor-mediated carcinogenesis is being recognized as of 
+growing importance.  Most of these advances are being made in the rat, and only rarely in the 
+mouse. 
+6.3  Metabolic disposition 
+Neither rats nor mice would seem, on metabolic grounds, to be a priori generally more suitable 
+for the conduct of long term carcinogenicity studies.  However, much attention is now being 
+given to pharmacokinetic-pharmacodynamic relationships and rapid progress is occurring in 
+knowledge of the P-450 isozymes that mediate the biotransformation of drugs.  Most of this 
+research activity is confined to rats and humans.  Therefore, in the near future at least, where 
+specific information on the P-450 isozymes involved in biotransformation is critical for the 
+evaluation it appears that mice would be less likely to provide this mechanistic information. 
+6.4  Practicality 
+Pertinent to the above two topics is the question of feasibility of investigative studies.  Size 
+considerations alone put the mouse at a severe disadvantage when it comes to the taking of 
+serial blood samples, microsurgery/catheterization, and the weighing of organs.  Blood 
+sampling often requires the sacrifice of the animals, with the result that many extra animals 
+may be needed when mice are subject to such investigations. 
+6.5  Testing in more than one species 
+Most of the currently available short and medium term in vivo models for carcinogenicity 
+testing involve the use of mice.  In order to allow testing in more than one species for 
+carcinogenic potential, when this is considered important and appropriate, the rat will often be 
+used in the long term carcinogenicity study. 
+6.6  Exceptions 
+Despite the above considerations, there may be circumstances under which the mouse or 
+another rodent species could be justified on mechanistic, metabolic, or other grounds as being 
+a more appropriate species for the long term carcinogenicity study for human risk assessment 
+(c.f. §4.2.1). Under such circumstances it may still be acceptable to use the mouse as the short 
+term or medium term model. 
+7.   EVALUATION OF CARCINOGENIC POTENTIAL 
+Evidence of tumorigenic effects of the drug in rodent models should be evaluated in light of the 
+tumor incidence and latency, the pharmacokinetics of the drug in the rodent models as 
+compared to humans, and data from any ancillary or mechanistic studies that are informative 
+with respect to the relevance of the observed effects to humans. 
+The results from any tests cited above should be considered as part of the overall “weight of 
+evidence” taking into account the scientific status of the test systems.
+
+6
+Notes 
+Note 1. Data from in vitro assays, such as a cell transformation assay, can be useful at the 
+compound selection stage.  
+Note 2. If the findings of a short or long-term carcinogenicity study and of genotoxicity tests 
+and other data indicate that a pharmaceutical clearly poses a carcinogenic hazard to 
+humans, a second carcinogenicity study would not usually be useful. 
+Note 3. Several experimental methods are under investigation to assess their utility in 
+carcinogenicity assessment. Generally, the methods should be based on mechanisms 
+of carcinogenisis that are believed relevant to humans and applicable to human risk 
+assessment. Such studies should supplement the long term carcinogenicity study and 
+provide additional information that is not readily available from the long term assay.  
+There should also be consideration given animal numbers, welfare and the overall 
+economy of the carcinogenic evaluation process.  The following is a representative list 
+of some approaches that may meet these criteria and is likely to be revised in the light 
+of further information. 
+(a) The initiation-promotion model in rodent. One initiation-promotion model for the 
+detection of hepatocarcinogens (and modifiers of hepatocarcinogenicity) employs 
+an initiator, followed by several weeks of exposure to the test substance.  Another 
+multi-organ carcinogenesis model employs up to five initiators followed by 
+several months of exposure to the test substance. 
+(b) Several transgenic mouse assays including the p53+/- deficient model, the Tg.AC 
+model, the TgHras2 model,  the XPA deficient model, etc. 
+(c) The neonatal rodent tumorigenicity model.   
+Note 4. While there may be a number of approaches that will in general meet the criteria 
+described in Note 3 for use as the additional in vivo study, not all may be equally 
+suitable for a particular pharmaceutical. The following are examples of factors that 
+should be considered and addressed in the rationale: 
+1. Can results from the model provide new information not expected to be available 
+from the long-term study that is informative with respect to hazard identification 
+and/or risk assessment? 
+2. Can results from the model address concerns related to the carcinogenic process 
+arising from prior knowledge of the pharmaceutical or compounds with similar 
+structures and/or mechanisms of action?  These concerns may include genotoxic, 
+mitogenic, promotional, or receptor-mediated effects, etc. 
+3. Does the metabolism of the pharmaceutical shown in the animal model affect the 
+evaluation of carcinogenic risk for humans? 
+4. Is adequate systemic or local exposure attained in relation to human exposure? 
+5. How extensively has the model been evaluated for its intended use? Prior to using 
+any new in vivo methods in testing the carcinogenic potential of pharmaceuticals 
+for humans, it is critical that the method be evaluated for its ability to contribute to 
+the weight of evidence assessment. Many experimental studies are in progress 
+(1997) to evaluate the new short or medium tests for carcinogenic potential.  These 
+include selected pharmaceuticals with known potencies and known mechanism of 
+carcinogenic activity in rodents, and also putative human non-carcinogens. When 
+the results of these studies become available, it may be possible to offer clearer
+
+7
+guidance on which of these tests have the most relevance for cancer assessment in 
+humans.   
+ 
+ANNEX: Other ICH Guidelines Cited 
+Guideline S2A: Notes for Guidance on Specific Aspects of Regulatory Genotoxicity Tests.  
+Guideline S2B: A Standard Battery of Genotoxicity Testing of Pharmaceuticals.  
+Guideline S3A: Notes for Guidance on Toxicokinetics.  The Assessment of Systemic 
+Exposure in Toxicity Studies.  
+Guideline S3B: Guidance on Repeat-Dose Tissue Distribution Studies.  
+Guideline S6: 
+Preclinical Testing of Biotechnology-derived Pharmaceuticals.
+
+8
+Part II: 
+ADDENDUM TO TESTING FOR CARCINOGENICITY FOR PHARMACEUTICALS 
+ 
+PREAMBLE 
+This Addendum is to be used in close conjunction with ICH S1A Guideline on the Need for 
+Carcinogenicity Studies of Pharmaceuticals, S1B Testing for Carcinogenicity of 
+Pharmaceuticals, and S1C(R2) Dose Selection for Carcinogenicity Studies. The Addendum is 
+complementary to the S1 Guidelines.   
+1. INTRODUCTION 
+1.1  Scope of the Addendum 
+This Addendum applies to all pharmaceuticals that need carcinogenicity testing as described in 
+Guideline S1A. For biotechnology-derived pharmaceuticals, refer to Guideline S6(R1) 
+Preclinical Safety Evaluation of Biotechnology-Derived Pharmaceuticals. 
+1.2  Purpose of the Addendum     
+This Addendum expands the evaluation process for assessing human carcinogenic risk of 
+pharmaceuticals by introducing an additional approach that is not described in the original S1B 
+Guideline. This is an integrative approach that provides specific weight of evidence (WoE) 
+criteria that inform whether or not a 2-year rat study is likely to add value to a human 
+carcinogenicity risk assessment. The Addendum also adds a plasma exposure ratio-based 
+approach for setting the high dose in the rasH2-Tg mouse model,1 while all other aspects of the 
+recommendations for high dose selection in S1C(R2) Guideline still apply.  
+Application of this integrative approach reduces the use of animals in accordance with the 3R 
+(reduce/refine/replace) principles and shifts resources to focus on generating more scientific 
+mechanism-based carcinogenicity assessments, while continuing to promote safe and ethical 
+development of new pharmaceuticals. 
+1.3  Background     
+While the S1B Guideline calls for flexibility in considering approaches to address 
+pharmaceutical carcinogenicity testing, the basic paradigm generally recommends a long-term 
+rodent study which, in practice, is usually a 2-year study in rats, along with a second rodent 
+carcinogenicity study in mice (2-year or short-term study). Since publication of the ICH S1B 
+                                               
+1 The rasH2-Tg mouse was developed in the laboratory of Tatsuji Nomura of the Central Institute for Experimental 
+Animals (1).  The model is referred to in the S1B Guideline as the TgHras2 transgenic mouse.  The official 
+nomenclature for the model is CByB6F1-Tg(HRAS)2Jic which is maintained by intercrossing C57BL/6JJic-
+Tg(HRAS)2Jic hemizygous male mice with BALB/cByJJic female mice.  The littermates derived from these 
+intercrosses are the transgenic rasH2-Tg mice with the tg/wt genotype, and the wild type rasH2-Wt mice with a 
+wt/wt genotype.  
+Since other short-term models mentioned in S1B have not gained significant use compared to rasH2-Tg mouse 
+over the past 20 years, pharmaceutical development experience with these models is far more limited.  Therefore, 
+other short-term carcinogenicity models referred to in S1B would not qualify for a plasma exposure ratio-based 
+high dose selection.   
+It is appropriate to use wild-type rasH2-Wt littermates of rasH2-Tg mice for dose range-finding studies and for 
+generating exposure data.
+
+9
+Guideline, scientific advances toward elucidation of mechanisms of carcinogenicity, greater 
+understanding of the limitations of rodent models, and several retrospective analyses of 
+pharmaceutical datasets indicate that 2-year rat carcinogenicity studies might not add value to 
+human carcinogenicity risk assessment in some cases and the carcinogenic potential could have 
+been assessed adequately based on a comprehensive assessment of all available 
+pharmacological, biological, and toxicological data (2-9).     
+To determine whether the conclusions from these retrospective analyses could be confirmed in 
+a real-world setting (i.e., prior to knowledge of the 2-year rat carcinogenicity study outcomes), 
+a subsequent international prospective study was conducted under ICH S1(R1) Proposed 
+Change to Rodent Carcinogenicity Testing of Pharmaceuticals – Regulatory Notice Document.  
+The process and several status updates reporting results are posted and available at the ICH 
+website (10-14). Carcinogenicity assessment documents (CADs) and associated data from 2-
+year rat carcinogenicity studies for 45 compounds were received and evaluated by regulatory 
+members of the ICH EWG. The conclusion from this prospective evaluation confirmed that an 
+integrated WoE approach could be used to adequately assess the human carcinogenic risk for 
+certain pharmaceuticals in lieu of conducting a 2-year rat study.2 
+In addition, an exposure ratio endpoint based on animal to human plasma Area Under the Curve 
+(AUC) for high dose selection in 2-year rodent studies as per ICH S1C(R2) has not been 
+globally accepted for use in the rasH2-Tg mouse study.  Therefore, a comprehensive analysis 
+was conducted to assess exposures and outcomes in rasH2-Tg mouse studies from available 
+information (15). As described in Section 3, the results of this analysis indicate that a 50-fold 
+plasma AUC exposure ratio (rodent:human) is an adequate criterion for high dose selection.  
+2. A WEIGHT OF EVIDENCE APPROACH TO ASSESS THE HUMAN 
+CARCINOGENIC POTENTIAL OF PHARMACEUTICALS 
+Over the course of drug development, it is important for sponsors to develop a scientifically 
+robust strategy for carcinogenicity assessment that considers key biologic, pharmacologic, and 
+toxicologic information.   
+The integrative WoE assessment approach described in Sections 2.1 and 2.2 may support a 
+conclusion that the carcinogenic potential of the pharmaceutical in humans is: 
+• likely, such that a 2-year rat carcinogenicity study would not add value; or 
+• unlikely, such that a 2-year rat carcinogenicity study would not add value3; or 
+• uncertain, such that a 2-year rat carcinogenicity study would add value to human risk 
+assessment. 
+ 
+In cases where the WoE assessment leads to a conclusion of uncertainty regarding human 
+carcinogenicity potential, the approach described in S1B of conducting a long-term 
+carcinogenicity study together with an additional in vivo carcinogenicity study remains the most 
+appropriate strategy (Figure 1).  
+ 
+                                               
+2 Methods and results of the ICH S1 prospective evaluation study will be summarized in a future publication. 
+ 
+3 A WoE assessment may indicate that a compound is likely to be carcinogenic in rats. The compound may not be 
+considered carcinogenic in humans if there is sufficient evidence that the mechanism of carcinogenicity is 
+irrelevant to humans.
+
+10
+ 
+ 
+Figure 1: Flow scheme outlining key steps and options in developing a carcinogenicity 
+assessment strategy and determining the added value of a 2-year rat study. Note that key 
+biologic, pharmacologic, and toxicologic information should be assessed even when taking the 
+ICH S1B approach that utilizes a 2-year rat study.  When a sponsor decides to conduct a 2-year 
+rat study in accordance with ICH S1B, there is no obligation to seek concurrence with the Drug 
+Regulatory Agency (DRA). Refer to Sections 2.1 and 2.2 for additional detail. 
+2.1  Factors to Consider for a WoE Assessment    
+A WoE approach is based on a comprehensive assessment of the totality of data relevant to 
+carcinogenic potential available from public sources and from relevant drug development 
+studies.  These factors include, but are not limited to:  
+1) data that inform carcinogenic potential based on drug target biology and the primary 
+pharmacologic mechanism of the parent compound and major human metabolites; this 
+includes drug target distribution in rats and humans along with the pharmacologic 
+activity and potency of the parent compound and major metabolites in these species; 
+available information from genetically engineered models; human genetic association 
+studies; cancer gene databases; and carcinogenicity information on class effects, if 
+available,  
+2) results from secondary pharmacology screens for the parent compound and major 
+metabolites that inform selectivity and off-target potential, especially those that inform 
+carcinogenic risk (e.g., binding to nuclear receptors),
+
+11
+3) histopathology data4 from repeated-dose toxicity studies completed with the compound, 
+with particular emphasis on the 6-month rat study, including plasma exposure margin 
+assessments of parent drug and major metabolites,  
+4) evidence for hormonal perturbation5, including knowledge of drug target and 
+compensatory endocrine response mechanisms; weight, gross and microscopic changes 
+in endocrine and reproductive organs from repeated-dose toxicity studies; and relevant 
+results from reproductive toxicology studies, if available, 
+5) genetic toxicology study data using criteria from ICH S2(R1) Genotoxicity Testing and 
+Data Interpretation for Pharmaceuticals Intended for Human Use; equivocal genotoxicity 
+data that cannot be resolved in accordance with ICH S2(R1) recommendations increases 
+uncertainty with respect to the carcinogenic potential,  
+6) evidence of immune modulation in accordance with ICH S8 Immunotoxicity Studies for 
+Human Pharmaceuticals. Evidence of broad immunosuppression may provide sufficient 
+concern for human risk that would not be further informed by standard rat and mouse 
+carcinogenicity studies (16,17). 
+ 
+The above WoE factors may be sufficient to conclude whether or not a 2-year rat study would 
+add value to the assessment of human carcinogenic risk.  However, where one or more WoE 
+factors may be inconclusive or indicate a concern for carcinogenicity, the sponsor can apply 
+investigative approaches that could address the uncertainty or inform human relevance of the 
+identified risk.  Possible approaches may include, but are not limited to:  
+1) additional investigative studies or analyses of specimens collected from prior studies (e.g., 
+special histochemical stains, molecular biomarkers, serum hormone levels, immune cell 
+function, in vitro or in vivo test systems, data from emerging technologies), and  
+2) clinical data generated to inform human mechanistic relevance at therapeutic doses and 
+exposures (e.g., urine drug concentrations and evidence of crystal formation, targeted 
+measurements of clinical plasma hormonal alterations, human imaging data). 
+ 
+A rasH2-Tg mouse study is not expected to be completed to support a WoE assessment. 
+However, if rasH2-Tg mouse study results are available, they should be included in the WoE 
+document. 
+2.2  Integration of WoE Factors for Assessing Human Carcinogenic Risk 
+An integrated analysis of the WoE factors described above should be used to determine whether 
+or not a 2-year rat study would contribute to the human carcinogenic risk assessment. While all 
+                                               
+4 Histopathology findings from 6-month rat toxicity studies of particular interest for identifying carcinogenic 
+potential in a 2-year rat study include cellular hypertrophy, cellular hyperplasia, persistent tissue injury and/or 
+chronic inflammation, foci of cellular alteration, preneoplastic changes, and tumors. It is important to provide an 
+understanding of the likely pathogenesis, and/or address the human relevance of such findings.  While the 6-month 
+rat toxicity study is the primary study to be used for assessing the likely outcome and value of conducting a 2-year 
+rat study, shorter-term rat studies can sometimes also provide histopathologic conclusions of value. Data from 
+long-term toxicity studies in non-rodents and mice may also be useful for providing additional context on the 
+human relevance of rat study findings (e.g., species-specific mechanistic differences) and whether there is value 
+in conducting a 2-year rat study. 
+5 Findings from rat toxicity studies suggesting hormonal perturbation may include microscopic changes in 
+endocrine or reproductive tissues of atrophy, hypertrophy, and hyperplasia and/or biologically significant 
+endocrine and reproductive organ weight changes which are not explained as findings secondary to processes such 
+as stress or altered body weight.  Changes of this nature may be considered evidence of functional hormonal 
+perturbation even when changes in hormone levels are not documented.  Such findings may be suggestive of 
+potential carcinogenic risk unless investigated for human relevance and demonstrated otherwise.
+
+12
+factors will contribute to the integrated analysis, the relative importance of each factor will vary 
+depending on the compound being considered (Figure 2).  
+ 
+Figure 2: Integration of key WoE factors and potential investigative approaches to further 
+inform on the value of conducting a 2-year rat study for assessment of human carcinogenic risk. 
+When all WoE attributes align towards the right side of the figure, a conclusion that a 2-year 
+rat study would not add value is more likely. Note that for the genotoxicity WoE factor a 2-year 
+rat study is less likely to be of value either in cases where there is no genotoxicity risk or in 
+cases with unequivocal genotoxicity risk. Similarly, for the immune modulation WoE factor, a 
+2-year rat study is less likely to be of value in cases where there are either no effects on the 
+immune system or in cases where there is broad immunosuppression. 
+ 
+A summary of key outcomes and examples based on the experience accrued during the ICH S1 
+study (S1(R1) Proposed Change to Rodent Carcinogenicity Testing of Pharmaceuticals – 
+Regulatory Notice Document) are provided in the Appendix, demonstrating how the WoE 
+factors could be integrated to determine the value of conducting a 2-year rat study for 
+assessment of human carcinogenic risk.  
+Experience from the ICH S1 study indicates that an established profile of other compound(s) 
+in a drug class contributes substantially to assessing human carcinogenic risk associated with 
+modulation of the pharmacologic target. Compounds with novel drug targets (i.e., first-in-class) 
+are, nevertheless, considered eligible for an integrative WoE assessment. For such compounds, 
+further evidence that there is no cause-for-concern in regard to target biology is needed to 
+compensate for the lack of precedent. Case 4 in the Appendix describes an example for a novel 
+target where a 2-year rat study was not considered to add value given sufficient evidence to 
+compensate for the lack of precedent. In this example, a cause-for-carcinogenic-concern was
+
+13
+not identified regarding drug target biology or compound selectivity, and no proliferative 
+changes in any organs or tissues were observed at a high multiple of exposure in the 6-month 
+study in rats (a pharmacologically relevant species).  
+When the WoE assessment supports a conclusion that conduct of a 2-year rat study does not 
+add value to the assessment of human carcinogenic risk, the sponsor should seek consultation 
+with the applicable DRA in accordance with the established regulatory consultation procedure 
+for that region. When a sponsor decides to conduct a 2-year rat study in accordance with ICH 
+S1B, there is no obligation to seek consultation with the DRA. 
+2.3  Mouse Carcinogenicity Studies 
+A carcinogenicity study in mice, either a 2-year study in a standard strain of mice or a short-
+term study in a transgenic model as in ICH S1B, remains a recommended component of a 
+carcinogenicity assessment plan, even for those compounds for which the WoE assessment 
+indicates a 2-year rat study would not contribute significant value. Use of a transgenic model is 
+consistent with the 3R (reduce/refine/replace) principles and this model should be prioritized 
+unless there is a scientific rationale for conducting a 2-year study in mice.  
+There are cases where it may not be appropriate to conduct a mouse carcinogenicity study. As 
+one example, a mouse study may not be appropriate when the WoE evaluation strongly 
+indicates no carcinogenic risk to humans and the data indicate that only subtherapeutic and 
+pharmacologically inactive drug levels relative to human exposure can be achieved in the 
+mouse. As an additional example, when the WoE assessment indicates that a compound is likely 
+to be carcinogenic in humans, the conduct of a mouse study may not be appropriate.   
+3. CLARIFICATION ON CRITERIA FOR HIGH DOSE SELECTION BASED ON 
+EXPOSURE FOR RASH2-TG MOUSE CARCINOGENICITY STUDIES 
+A plasma exposure (AUC) ratio for high dose selection in the absence of dose limiting toxicity 
+or other criteria as outlined in ICH S1C(R2) has not been globally accepted as a dose-setting 
+criterion in the rasH2-Tg mouse model. A retrospective evaluation of available data from 53 
+compounds tested in this model determined that detection of compound-related tumors emerged 
+in all cases within a systemic rodent-to-human exposure ratio up to 50-fold (15). Based on this 
+analysis, it was concluded that a 50-fold plasma exposure ratio (rodent:human) is an adequate 
+criterion for high dose selection. Therefore, all criteria for selection of the high dose as specified 
+in S1C(R2) for 2-year rodent carcinogenicity studies are applicable to rasH2-Tg mice, including 
+a plasma exposure ratio, except that the plasma exposure ratio will be 50-fold in rasH2-Tg mice 
+rather than 25-fold as for 2-year studies conducted in standard strains of rodents.
+
+14
+REFERENCES 
+(1) Saitoh A, Kimura M, Takahashi R, Yokoyama M, Nomura T, Izawa M et al. Most 
+tumors in transgenic mice with human c-Ha-ras gene contained somatically activated 
+transgenes. Oncogene 1990;5(8):1195-200. 
+(2) Van Oosterhout JPJ, Van der Laan JW, De Waal EJ, Olejniczak K, Hilgenfeld M, 
+Schmidt V et al. The utility of two rodent species in carcinogenic risk assessment of 
+pharmaceuticals in Europe. Reg Toxicol Pharmacol 1997;25:6-17. 
+(3) Contrera JF, Jacobs AC, DeGeorge JJ. Carcinogenicity testing and the evaluation of 
+regulatory requirements for pharmaceuticals. Reg Toxicol Pharmacol 1997;25:130-45. 
+(4) Reddy MV, Sistare FD, Christensen JS, DeLuca JG, Wollenberg GK, DeGeorge JJ. An 
+evaluation of chronic 6- and 12-month rat toxicology studies as predictors of 2-year 
+tumor outcome. Vet Pathol 2010;47:614–29. 
+(5) Sistare FD, Morton D, Alden C, Christensen J, Keller D, De Jonghe S et al. An analysis 
+of pharmaceutical experience with decades of rat carcinogenicity testing: support for a 
+proposal to modify current regulatory guidelines. Toxicol Pathol 2011;39:716-44. 
+(6) Alden CL, Lynn A, Bourdeau A, Morton D, Sistare FD, Kadambi VJ et al. A critical 
+review of the effectiveness of rodent pharmaceutical carcinogenesis testing in predicting 
+for human risk. Vet Pathol 2011;48:772-84. 
+(7) Friedrich A, Olejniczak K. Evaluation of carcinogenicity studies of medicinal products 
+for human use authorised via the European centralised procedure (1995-2009). Reg 
+Toxicol Pharmacol 2011;60:225-48. 
+(8) Van der Laan JW, Kasper P, Lima BS, Jones DR, Pasanen M. Critical analysis of 
+carcinogenicity study outcomes. Relationship with pharmacological properties. Crit 
+Rev Toxicol 2016;46:587-614. 
+(9) Van der Laan JW, Buitenhuis WHW, Wagenaar L, Soffers AEMF, Van Someren EP, 
+Krul CAM et al. Prediction of the carcinogenic potential of human pharmaceuticals 
+using repeated dose toxicity data and their pharmacological properties. Frontiers in 
+Medicine 2016;3:45. doi: 10.3389/fmed2016.00045 
+(10) Proposed Change to Rodent Carcinogenicity Testing of Pharmaceuticals –Regulatory 
+Notice Document. ICH, 2016. URL: 
+https://database.ich.org/sites/default/files/S1%28R1%29_EWG_RND.pdf (last 
+accessed 31 May 2022) 
+(11) The ICHS1 Regulatory Testing Paradigm of Carcinogenicity in Rats - Status Report 
+Introduction Background: The RND Hypothesis and the Prospective Evaluation Study. 
+ICH, 2016. URL: 
+https://database.ich.org/sites/default/files/S1%28R1%29%20EWG_StatusReport_Mar
+2016.pdf.  (last accessed 31 May 2022) 
+(12) The ICHS1 Regulatory Testing Paradigm of Carcinogenicity in Rats: Status Report 
+December 2017. ICH, 2017. URL: 
+https://database.ich.org/sites/default/files/S1%28R1%29%20EWG_StatusReport_Dec
+2017.pdf. (last accessed 31 May 2022) 
+(13) The ICHS1 Regulatory Testing Paradigm of Carcinogenicity in Rats: Status Report 
+2019. ICH, 2019. URL:
+
+15
+https://database.ich.org/sites/default/files/S1_StatusReport_2019_0802.pdf. (last 
+accessed 31 May 2022) 
+(14) The ICHS1 Regulatory Testing Paradigm of Carcinogenicity in Rats: Status Report 
+2021. ICH, 2021. URL: 
+https://database.ich.org/sites/default/files/S1_StatusReport_2021_0823.pdf. (last 
+accessed 31 May 2022) 
+(15) Hisada S, Tsubota K, Inoue K, Yamada H, Ikeda T, Sistare FD. Survey of tumorigenic 
+sensitivity in 6-month rasH2-Tg mice studies compared with 2-year rodent assays. J 
+Toxicol Pathol 2022;35:53–73. 
+(16) Bugelski PJ, Volk A, Walker MA, Krayer JH, Martin P, Descotes J. Critical review of 
+preclinical approaches to evaluate the potential of immunosuppressive drugs to 
+influence human neoplasia. Int J Toxicol 2010;29:435-66.  
+(17) Lebrec H, Brennan FR, Haggerty H, Herzyk D, Kamperschroer C, Maier CC et al. 
+HESI/FDA workshop on immunomodulators and cancer risk assessment: Building 
+blocks for a weight-of-evidence approach. Reg Toxicol Pharmacol 2016;75: 72-80.
+
+16
+APPENDIX: CASE STUDIES APPLYING THE WEIGHT OF EVIDENCE 
+APPROACH 
+Preamble 
+One outcome of the ICH S1 study was the recognition that programs with the following WoE 
+attributes are more likely to support a conclusion that the results of a 2-year rat study would not 
+contribute value to human carcinogenicity risk assessment.  
+• Target biology is well-characterized and not associated with cellular pathways known 
+to be involved with human cancer development. Often, the pharmaceutical target was 
+non-mammalian (e.g., viral, microbial) and carcinogenicity data were available with 
+the pharmacologic drug class. 
+• No identified concerns from secondary pharmacology intended to inform off-target 
+potential for the pharmaceutical. 
+• Results from chronic toxicity studies indicate no hyperplastic, hypertrophic, atypical 
+cellular alterations, or degenerative/regenerative changes without adequate 
+explanation of pathogenesis or human relevance, indicative of no on- or off-target 
+potential of carcinogenic concern. 
+• No perturbation of endocrine and reproductive organs observed, or endocrine findings 
+adequately explained with respect to potential human relevance. 
+• The overall assessment of genotoxic potential is concluded to be negative based on 
+criteria from ICH S2(R1) Guidance. 
+• No evidence of immune modulation or immunotoxicity based on target biology and 
+repeat-dose toxicology studies. 
+ 
+Case studies are provided to illustrate the application of the WoE approach. These cases are 
+provided for illustrative purposes only and are not intended to be prescriptive nor to indicate 
+the sufficiency of data to support a WoE assessment. Cases 1 and 2 are examples of 
+pharmaceuticals for which the key WoE factors were integrated to conclude that a 2-year rat 
+study would not add value to the assessment of human carcinogenic risk. Case 3 describes how 
+data from the WoE factors were integrated to conclude that the carcinogenic potential for 
+humans was uncertain, and a 2-year rat carcinogenicity study would add value to the assessment 
+of human carcinogenic risk. Case 4 describes a pharmaceutical for which a 2-year rat 
+carcinogenicity study was concluded to not contribute value to the assessment of human 
+carcinogenic risk despite there being no data available for other compounds within the 
+pharmacologic class.  
+Case 1: An inhibitor of viral replication 
+Summary 
+Prospective WoE Assessment 
+• The carcinogenic potential in both rats and humans is unlikely such that a 2-year rat 
+study would not add value to the assessment of human carcinogenicity risk. 
+• The compound was sufficiently studied at high exposure margins and cause-for-
+concern was not identified for any of the WoE factors. 
+ 
+2-year Rat Study Results  
+• No compound-related carcinogenicity findings.
+
+17
+Supportive WoE Factors 
+Target Biology 
+• Non-mammalian (viral) target excludes intentional alteration of potential mammalian 
+carcinogenic pathways. 
+• No compound-related carcinogenicity findings in 2-year rat studies conducted with 
+other compounds with the same viral replication target. 
+ 
+Secondary Pharmacology 
+• No evidence of off-target interactions at drug concentrations up to 10 µM, including no 
+interaction with estrogen, androgen, glucocorticoid receptors. 
+ 
+Histopathology Data from Chronic Studies 
+Rat Study 
+• Chronic (6-month) toxicology study in Wistar rats dosed to saturation of absorption, 
+achieving up to a 31-fold margin to human exposure. 
+• No compound-related histopathologic findings observed in standard battery of tissues. 
+ 
+Non-rodent Study 
+• Chronic administration (9-month) to non-human primates identified bile duct 
+hyperplasia and hepatocellular hypertrophy, with reactive neutrophils and regenerative 
+hyperplasia. A No-Observed-Adverse-Effect-Level for these effects was identified 
+which provided a 5-fold margin to human exposure.  
+• Further evaluation in rats would not provide useful information, as similar findings were 
+not observed in the chronic rat study. 
+ 
+Hormonal Effects 
+• No compound-related findings on endocrine and reproductive organ weights or 
+histopathology. 
+ 
+Genotoxicity 
+• No evidence of genotoxic potential based on criteria from ICH S2(R1) Guidance. 
+ 
+Immune Modulation  
+• No compound-related changes in clinical pathology or histopathology of immune 
+tissues (e.g., lymph nodes, spleen, thymus, bone marrow). 
+ 
+Additional Investigations 
+• No data available 
+Case 2: An antagonist of a neuronal G-protein coupled receptor 
+Summary 
+Prospective WoE Assessment 
+• The carcinogenic potential is unlikely in humans but likely in rats through well-
+recognized mechanisms shown to be human irrelevant, such that a 2-year rat study 
+would not add value to the assessment of human carcinogenic risk.
+
+18
+• The potential for rodent-specific liver and thyroid tumors was based on the 
+toxicology observed in the chronic rat study and on tumor outcome with the 
+pharmacological class. Hormonal effects due to target pharmacology occurred at 
+high multiples of human exposure and were not considered a human carcinogenic 
+risk. Fluorosis, a potential carcinogenic risk, was observed in rats due to release of 
+fluoride from the compound; however, release of fluoride from the compound was 
+not observed in humans. 
+ 
+2-year Rat Study Results  
+• The 2-year rat study demonstrated hepatocellular hypertrophy but no compound-
+related carcinogenicity findings. 
+ 
+Supportive WoE Factors 
+Target Biology 
+• Predominate receptor expression in brain with lower expression in some peripheral 
+tissues, similar across species. 
+• Receptor activation increases adrenocorticotropic hormone (ACTH) release from 
+pituitary secondary to hypothalamic production of adrenocorticotropin-releasing 
+hormone. 
+• Target knock-out mice showed no findings related to carcinogenicity.  
+• A 2-year rat study with a comparable compound did not identify a carcinogenic effect 
+that could be ascribed to the intended pharmacological target (see secondary 
+pharmacology section for off-target effects). 
+ 
+Secondary Pharmacology  
+• Antagonist binding interaction identified for one off-target receptor with Ki 8-fold 
+higher than Cmax at maximum clinical dose. Known pharmacology of off-target 
+receptor not associated with tumorigenesis. 
+• Thyroid follicular cell adenoma/carcinoma was observed in a 2-year rat study with a 
+comparable compound which was associated with increased thyroid stimulating 
+hormone and ascribed to an off-target pathway related to drug metabolism.  
+ 
+Histopathology Data from Chronic Studies 
+Rat Study 
+• Increased liver hypertrophy and organ weight at 50-fold to 74-fold human exposure.  
+• Increased thyroid follicular hypertrophy at 170-fold to 670-fold human exposure.  
+ 
+Non-rodent Study  
+• Increased liver hypertrophy and organ weight at ~ 230-fold human exposure. 
+ 
+Hormonal Effects 
+• Reduced adrenal weight without histopathological correlates and reduced ACTH level 
+at > 74-fold human exposure in the 6-month rat study, consistent with inhibition of drug 
+target.  
+• Irregular estrous cycles and decreased pregnancy rate were observed at 60-fold human 
+exposure, and decreased numbers of corpora lutea, implantations, and live embryos 
+were observed at > 500-fold human exposure in a fertility study in rats. Considered
+
+19
+consistent with suppression of luteinizing hormone and gonadotropin release associated 
+with inhibition of the drug target.  
+• No treatment-related changes observed in reproductive organ weight or histopathology 
+in 6-month rat study. 
+ 
+Genotoxicity 
+• No evidence of genotoxic potential of parent or major human metabolite based on 
+criteria from ICH S2(R1) Guidance. 
+ 
+Immune Modulation 
+• No treatment-related changes in clinical pathology, lymphocyte subsets, or 
+histopathology of immune tissues (e.g., lymph nodes, spleen, thymus, bone marrow). 
+ 
+Additional Investigations 
+• Induction of CYP1A2 and CYP3A1 demonstrated. 
+• Bone and teeth fluorosis related to release of fluoride from the compound in rats and 
+demonstrated not to occur in humans. 
+Case 3: An inhibitor of a ubiquitously expressed serine/threonine kinase (novel target)  
+Summary 
+Prospective WoE Assessment 
+• The carcinogenic potential in humans is uncertain and a 2-year rat carcinogenicity 
+study would add value to the assessment of human carcinogenic risk. 
+• Carcinogenic uncertainty is related to the complex target pharmacology (e.g., 
+inhibition of cellular apoptosis), the lack of precedent with the drug target, and 
+histopathological changes of concern with inadequate mechanistic explanation from 
+the 6-month rat study which are supported by similar findings in cynomolgus 
+monkeys. While the immune toxicology findings in monkeys (i.e., suppression of T 
+cell-dependent antigen response) contributed to the assessment of human 
+carcinogenicity risk, this finding was not expected to be further informed by a rat 
+carcinogenicity study.   
+ 
+2-year Rat Study Results 
+• Increased incidence, lethality, and reduced latency of pituitary tumors was observed 
+in both sexes and may be attributed to target pharmacology. The outcome of the 2-
+year rat study contributed to the overall assessment of human carcinogenic risk.  
+Supportive WoE Factors 
+Target Biology 
+• Target activation by inflammation-related oxidative stress promotes cellular apoptosis 
+and is linked to control of cell proliferation; target inhibition suppresses apoptotic 
+signaling and impacts cell proliferation, theoretically promoting cancer growth.  
+• Drug target displays tissue-dependent roles in cancer development, both promotion and 
+suppression in animal models. 
+• No data available on tumor outcome from target inhibition in 2-year rodent or 6-month 
+transgenic mouse studies.
+
+20
+Histopathology Data from Chronic Studies 
+Rat Study  
+• Increased incidence and severity of renal basophilic tubules, eosinophilic droplets, and 
+brown pigment in renal cortex starting at 14-fold human exposure. Human relevance of 
+lesions was not addressed. 
+• Chronic irritation of limiting ridge in non-glandular stomach at 39-fold human 
+exposure. Human relevance of lesions was not addressed. 
+• Increased liver weight without microscopic correlates.  
+Non-rodent Study  
+• In monkeys, gastrointestinal epithelial degeneration, necrosis, reactive hyperplasia, 
+ectasia, inflammation, and ulceration were observed at doses 12-fold human exposure. 
+• Increased incidence of renal tubule degeneration /regeneration, necrosis, dilation, and 
+vacuolation observed at 12-fold human exposure. 
+ 
+Hormonal Effects 
+• Increased adrenal weight and cortical hypertrophy in rats at 17-fold human exposure. 
+Human relevance of lesions was not addressed. 
+ 
+Genotoxicity 
+• No evidence of genotoxic potential of parent or major human metabolite based on 
+criteria from ICH S2(R1) Guidance. 
+ 
+Immune Modulation 
+• In monkeys, suppression of T cell-dependent antigen response occurred with no effect 
+on natural killer cell cytotoxicity or granulocyte function. 
+• Decreased lymphoid cellularity observed in spleen, thymus, lymph nodes at 12-fold 
+human exposure.  
+ 
+Additional investigations 
+• Increases in hepatic enzymes CYPs 1A, 3A, and 2B demonstrated. 
+Case 4: An inhibitor of a prostaglandin receptor (novel target) 
+Summary 
+Prospective WoE Assessment 
+• The carcinogenic potential in both rats and humans is unlikely such that a 2-year rat 
+study would not add value to the assessment of human carcinogenic risk. 
+• The drug target is not associated with a role in cancer development, histopathological 
+findings were not observed in the 6-month rat study at a > 50-fold margin of human 
+exposure. Secondary pharmacology also indicated high target selectivity for the 
+compound.   
+ 
+2-year Rat Study Results  
+• No compound-related carcinogenicity findings.
+
+21
+Supportive WoE Factors 
+Target Biology 
+• Receptor activation on innate immune cells is associated with allergic inflammatory 
+responses and available data do not suggest a role in carcinogenesis. 
+• Knock-out mice lacking the drug target showed no histological abnormalities or effects 
+on immune function during one year of observation. 
+ 
+Secondary pharmacology  
+• Compound was at least 300-fold more selective for drug target when compared with 
+other receptors in the same class as well as for a sub-set of other receptors involved in 
+the inflammatory response. 
+• Compound was at least 2000-fold more selective for the drug target in a screen of 
+various receptors, ion channels, transporters, and enzymes. 
+ 
+Histopathology Data from Chronic Studies 
+Rat Study  
+• No proliferative changes observed in any organ or tissue at the highest dose tested  
+(~ 54-fold human exposure).  
+ 
+Non-rodent Study  
+• No proliferative changes in any organ or tissue at the highest dose tested (~ 45-fold 
+human exposure) in repeated-dose toxicity studies of up to 39 weeks. 
+ 
+Hormonal Effects 
+• No compound-related findings on endocrine and reproductive organ weights or 
+histopathology. 
+ 
+Genotoxicity 
+• No evidence of genotoxic potential based on criteria from ICH S2(R1) Guidance. 
+ 
+Immune Modulation 
+• In the 6-month rat toxicity study, there were no effects on immune function (including 
+in a T cell-dependent antibody response assay) or adverse effects on lymphocyte subsets 
+at the highest dose tested (~ 54-fold human exposure). 
+ 
+Additional Investigations 
+• No data available.

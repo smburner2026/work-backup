@@ -1,0 +1,1740 @@
+# 35 Regulatory Toxicology
+# Casarett & Doull's Toxicology, 9th Edition
+# Pages: 1592-1605
+# Unit: Unit VII Applications of Toxicology
+
+35
+chapter
+Regulatory Toxicology
+Gary E. Marchant*
+WHAT IS REGULATORY TOXICOLOGY?
+Regulatory toxicology is a subfield of regulatory science, which 
+addresses the intersection of science with regulation, namely how 
+the science of toxicology is developed, evaluated, and applied in 
+regulatory decision-making. Toxicology is one of the most com-
+mon fields of scientific knowledge utilized in regulatory science, 
+as regulatory agencies often are required to identify and quantify 
+the health risks of the products and activities they seek to regu-
+late. Regulatory toxicology, which must straddle traditional sci-
+entific methodologies with the public policy world of regulation, 
+strains to adhere to the standards of good toxicological science 
+while also providing relevant inputs to decision-making, which 
+often asks questions that science cannot answer completely or with 
+any certainty. It is the tension between these two different worlds 
+of science and policy that raise many of the most important and 
+challenging issues in regulatory toxicology, many of which are 
+addressed in this chapter.
+Over the past 50 years, the field of regulatory toxicology has 
+grown enormously as the intersection between regulation and toxi-
+cology has expanded dramatically. With the enactment of a series of 
+environmental, health, and safety laws in the United States, Europe, 
+and elsewhere in the 1970s and 1980s, regulatory agencies increas-
+ingly rely on toxicological science to identify potential hazards, 
+prioritize chemicals and other potentially toxic substances, and pro-
+vide the data used for assessing and managing risk. Regulators are 
+not merely consumers of toxicological studies but also help shape 
+toxicology science in important ways. Regulatory programs have 
+provided a major impetus for improvements in toxicology methods, 
+and they have stimulated a demand for toxicology studies that meet 
+various regulatory requirements. Some programs, such as regu-
+latory programs for licensing drugs, devices, food additives, and 
+pesticides, explicitly demand toxicology studies as a condition for 
+marketing products. Other statutory and regulatory requirements, 
+such as the recent program requiring agencies to screen chemicals 
+for their endocrine disruptor capability, or agencies to evaluate the 
+safety of new nanotechnology applications, are a major driver for 
+the development of new types of toxicological assays.
+Regulatory agencies have exercised important influence 
+over the design and conduct of toxicology studies. For example, 
+the United States Environmental Protection Agency (EPA) is 
+What Is Regulatory Toxicology?
+The Science/Policy Interface in 
+Regulatory Toxicology
+An Overview of Regulatory 
+Approaches
+Acceptable Risk
+Balancing Approaches
+Feasibility/Best Available 
+Technology
+Specific Regulatory 
+Programs Utilizing 
+Toxicological Data
+Food and Drug Administration 
+(FDA)
+Food
+Human Drugs and Biologicals
+Medical Devices
+Cosmetics
+Environmental Protection 
+Agency (EPA)
+IRIS Program
+Pesticides
+Industrial Chemicals
+Hazardous Wastes
+Toxic Water Pollutants
+Drinking Water
+Toxic Air Pollutants
+Occupational Safety and Health 
+Administration (OSHA)
+Consumer Product Safety 
+Commission (CPSC)
+Institutional Oversight and 
+Controls
+Advisory Committees
+Peer Review
+Risk Assessment Guidance/
+Guidelines
+Judicial Review
+Congressional Oversight
+Executive Oversight
+Regulatory Influences on 
+Toxicology
+Testing Guidelines
+Food and Drug Administration
+Testing Requirements for Food 
+­Additives
+Environmental Protection Agency
+Validation of Alternative Test 
+Methods
+Computational Toxicology
+Animal Welfare Requirements
+Animal Welfare Act
+Public Health Service Policy
+Acknowledgments
+References
+*The author acknowledges and appreciates the work of Professor Richard 
+Merrill, a pioneer in the legal study of regulation, who authored earlier ver-
+sions of this chapter and upon whose work this chapter builds.
+
+1574
+Applications of Toxicology
+Unit VII
+empowered by the Toxic Substances Control Act (TSCA) to promul-
+gate standards for different types of toxicology (and other scientific) 
+investigations. Likewise, the U.S. Food and Drug Administration 
+(FDA) has long issued guidelines for laboratory studies submitted 
+in support of food additives and drugs. Both agencies have adopted 
+requirements governing laboratory operations and practice, known 
+as Good Laboratories Practice (GLP). Communication between 
+government officials and laboratory scientists flows in both direc-
+tions. Government testing standards are influenced strongly by the 
+prevailing consensus among toxicologists, many of whom work 
+in regulatory agencies. Similar standards have been established 
+at the international level through the Organization for Economic 
+Co-operation and Development (OECD).
+THE SCIENCE/POLICY INTERFACE IN 
+REGULATORY TOXICOLOGY
+There are critical differences between the objectives and methods of 
+science and regulatory policy. Science seeks to understand natural 
+phenomena through objective, empirical, and neutral methodolo-
+gies, and is cautious, incremental, and evidence-based. In contrast, 
+government regulation seeks to affect human behavior and resolve 
+human disputes; it is episodic, peremptory, and normative, pursu-
+ing goals such as human welfare, safety, efficiency, and fairness.
+Science is open-ended and can continue to study a problem 
+indefinitely without coming to any final resolution. As the National 
+Research Council noted, “the scientific process of seeking the truth, 
+by design and to its credit, has no natural endpoint” (NRC, 2009). In 
+contrast, regulation usually does not have the luxury of waiting until 
+the science has matured, but rather must come to decisions based on 
+legislative, political, and societal deadlines. This creates two prob-
+lems. First, finality is essential for regulations, so that regulated 
+entities and other stakeholders have certainty about the applicable 
+regulatory requirements, which often involve significant resources 
+and lead time to achieve compliance. Consequently, regulations 
+are adopted as final decisions, which can only be reconsidered at 
+significant administrative burden. Science meanwhile continues to 
+develop, resulting in regulations that often become increasingly 
+outdated in relationship to constantly evolving scientific data and 
+understanding.
+The second problem created by the need to adopt regulations 
+on a set timetable is often that the scientific inputs into that regula-
+tory decision remain uncertain and underdeveloped. This leads to 
+what Alvin Weinberg referred to as the “regulator’s dilemma”: “the 
+regulator, by law, is expected to regulate even though science can 
+hardly help him; this is the regulator’s dilemma” (Weinberg, 1985). 
+Regulatory agencies are therefore required to make numerous 
+assumptions to fill the gaps in the available scientific data (NRC, 
+1983). This then has the inevitable effect of making agency determi-
+nations a mixture of science and policy, which can lead to confusion 
+and obfuscation.
+Scientists are often frustrated by the political and administra-
+tive requirements (often referred to colloquially as “red tape”) asso-
+ciated with regulatory utilization of toxicological data. A regulatory 
+proposal incorporating scientific evidence has to pass through many 
+layers within a regulatory office, including the agency scientists, 
+economists, program officers, office of the general counsel, politi-
+cal appointees, various centers, programs, and offices within the 
+agency that are affected by the proposed decision, external advisory 
+committees, and finally the agency head, subject at every stage to 
+a bevy of internal control requirements and processes. When the 
+agency has finally made its proposed decision, the proposal is often 
+then scrutinized by the Office of Information and Regulatory Affairs 
+(OIRA) in the White House, courts conducting judicial review, 
+Congressional oversight committees, and of course external stake-
+holders and the media. At every step along this pathway, the scien-
+tific findings of the agency are subject to challenge, prodding, and 
+second-guessing.
+This elaborate regulatory process has a number of implications. 
+First, regulatory agencies tend to attempt to buttress their regulatory 
+decisions with extensive analytical support. As a comparative study 
+of US and European regulation observed, “American regulators, 
+being more politically exposed than their European counterparts, 
+have a greater need to support their actions through formal analyti-
+cal arguments. Their demand for expertise necessitates a continu-
+ing build-up of technical capabilities and the development of more 
+sophisticated and detailed analytical methodologies. The structure 
+of the American rule-making process subjects the analytical case for 
+regulation to intense political scrutiny. Any weaknesses are quickly 
+exploited, and the uncertainties and shortcomings of the relevant 
+scientific base are readily exposed …” (Brickman et al., 1985). In 
+response to these pressures, regulatory agencies will often com-
+pile extensive scientific assessments of the toxicological and other 
+data supporting their regulatory decisions, sometimes thousands of 
+pages in length.
+Another consequence of the highly politicized and adversarial 
+nature of regulatory decision-making is that regulatory agencies 
+have an incentive to overstate the scientific basis of their decisions. 
+Although scientific data are a critical input into sound regulatory 
+decision-making, the actual decision of how much protection to 
+provide and which requirements or limits to impose is inevitably a 
+normative policy decision, even if informed by scientific informa-
+tion and knowledge. Yet, agencies receive greater deference from 
+Congress, the White House, reviewing courts, and even the media 
+and public if they justify their decision on scientific rather than 
+policy or normative grounds. Accordingly, regulatory agencies are 
+inclined to give disproportionate weight to scientific arguments and 
+evidence in trying to justify their decisions, a tendency that has been 
+labeled in the literature as the “science charade” (Wagner, 1995).
+AN OVERVIEW OF REGULATORY 
+APPROACHES
+Different agencies and even different regulatory programs within 
+the same agency use toxicological data in different ways. One 
+important difference relates to the extent of premarket analysis 
+or approval required before a new product may be commercial-
+ized. Some products require premarket approval from a regulatory 
+agency (e.g., drugs and medical devices by FDA and pesticides 
+by EPA), other products require only premarket notification to the 
+agency (e.g., new chemical substances), whereas still other products 
+require no premarket activity with a regulatory agency (e.g., foods, 
+cosmetics) before they can be sold commercially. There are also 
+differences in who has the burden of proof to demonstrate safety 
+or hazard. For example, the manufacturer of a new food additive 
+has the burden to demonstrate to the FDA the lack of hazard before 
+humans may be exposed, while laws such as the Occupational 
+Safety and Health Act (1970) put the burden on regulators to show 
+that a substance is hazardous before exposures can be restricted. 
+The approach chosen by Congress for a particular type of product 
+or activity greatly influences an agency’s ability to require com-
+prehensive toxicological investigation prior to commercialization.
+In determining what level of a substance to allow, regula-
+tory agencies generally use one of three different approaches: (i)
+
+Regulatory Toxicology
+Chapter 35
+1575
+acceptable risk, (ii) balancing, or (iii) feasibility. The determination 
+of which of these three approaches is used for a particular hazard is 
+generally determined by the applicable statutory framework.
+Acceptable Risk
+This approach determines the level of risk a substance presents, and 
+then seeks to lower that risk (if necessary) to a level that is “accept-
+able.” Because these risk-based programs only consider health 
+evidence, toxicological data play a central role in these regulatory 
+programs. In making the determination of acceptable risk, agencies 
+have traditionally distinguished between carcinogens and noncar-
+cinogens in their approach. For noncarcinogenic chemicals, regula-
+tors have generally embraced a standard safety assessment formula, 
+built around the concept of acceptable daily intake (ADI) for the 
+FDA or reference dose (RfD) or reference concentration (RfC) 
+in the case of EPA. These levels are derived by applying a series 
+of safety factors to the lowest “no observed adverse effect level” 
+from animal experiments. Human exposures to a chemical that fall 
+below the resulting ADI, RfD, or RfC are assumed to be “safe” or 
+acceptable. This traditional approach to noncarcinogenic toxicants 
+has not been considered appropriate for carcinogens. Regulators in 
+the United States and many of their counterparts in other countries 
+have operated on the premise that carcinogens as a class cannot be 
+assumed to have “safe” or threshold doses. Furthermore, they have 
+assumed that any chemical shown convincingly in animal studies to 
+cause cancer should be considered a potential human carcinogen. 
+Accordingly, for this group of compounds, regulators have generally 
+assumed that no finite level of human exposure can be considered 
+risk-free. As research has begun to illuminate the different mecha-
+nisms by which chemicals may cause cancer, however, regulatory 
+agencies have cautiously accepted the possibility that “safe” thresh-
+olds may be established for at least some non-genotoxic carcinogens.
+An example of an “acceptable” risk-regulatory program is the 
+national ambient air quality program under the Clean Air Act (CAA). 
+Under this program, EPA must set standards for criteria air pollut-
+ants such as particulate matter, ozone, and carbon monoxide that 
+protect against “adverse effects” in the most susceptible subgroup 
+with an adequate margin of safety. EPA may only consider risk data 
+in setting these standards; no consideration of costs or feasibility 
+is permitted (Whitman v ATA, 2001). A more stringent form of the 
+acceptable risk approach is a “zero” or “negligible” risk requirement, 
+epitomized by the famous Delaney clause, enacted in 1958 as part of 
+the Food Additives Amendment. The amendment itself requires that 
+any food additive be found “safe” before the FDA may approve its 
+use (Food Additive Amendment, 1958). The Delaney clause stipu-
+lated that this finding may not be made for a food additive that has 
+been shown to induce cancer in humans or in experimental animals. 
+In 1996, Congress amended the provisions of the Food, Drug, and 
+Cosmetics Act applicable to pesticide residues in food, revoking the 
+Delaney proviso as it applies to food additives (but not color addic-
+tives), and adopting a standard that, though not expressed in these 
+words, is understood to permit a tolerance for a carcinogenic pesti-
+cide if the estimated cancer risk is extremely small, on the order of 
+one in one million (Food Quality Protection Act, 1996).
+Balancing Approaches
+Other regulatory programs require the agency to balance the health 
+benefits of risk reduction against the costs of such reductions. 
+These approaches known as cost-benefit or risk-benefit analysis 
+generally require a quantified estimate of both the health risks and 
+costs associated with various regulatory options, and the agency 
+then chooses the regulatory option that offers the biggest estimated 
+net benefit. Both toxicological and economic data play key roles in 
+these statutory programs for calculating the benefits and costs of 
+regulation, respectively. The original TSCA statute enacted in 1976 
+is an example of a statute utilizing a balancing approach, requiring 
+EPA to set standards for toxic substances based on a quantified cost-
+benefit analysis (Corrosion Proof Fittings v EPA, 1991). The 2016 
+amendments to TSCA generally eliminate consideration of costs 
+and other non-risk factors in determining unreasonable exposures, 
+thereby converting TSCA from a cost-benefit to an acceptable risk 
+statute. Pharmaceutical drugs approved by the FDA continue to use 
+a risk-benefit approach, whereby safety is determined by consider-
+ing whether the health benefits of the drug exceed the health risks 
+associated with the drug.
+Feasibility/Best Available Technology
+The third major approach requires the agency to reduce exposures 
+to the lowest feasible level, or to require companies to install the 
+best available technology. This approach does not explicitly rely on 
+any health data, and this skirting of the complexities and uncertain-
+ties of toxicological evidence is seen by some as a major advan-
+tage of this approach. The consequence of ignoring health impacts, 
+though, is that the resulting standards may overprotect or underpro-
+tect health. An example of such a feasibility-based approach is the 
+Clean Water Act’s effluent standards, which requires dischargers 
+of pollutants to install the best available technology determined to 
+be feasible for that industrial category. A program using a hybrid 
+feasibility/acceptable risk approach is the Occupational Safety 
+and Health Act, which directs the Occupational Safety and Health 
+Administration (OSHA) to set workplace standards for hazardous 
+exposures to the level “which most adequately assures, to the extent 
+feasible … that no employee will suffer material impairment of 
+health or functional capacity” (Occupational Safety and Health 
+Act, 1970). This language has been interpreted by OSHA and the 
+courts as requiring the agency to set occupational health standards 
+at the lowest exposure level that is technologically and economi-
+cally feasible, to the extent necessary to reduce a “significant” risk 
+(American Textile Manufacturers Institute v Donovan, 1982).
+SPECIFIC REGULATORY PROGRAMS 
+UTILIZING TOXICOLOGICAL DATA
+At the federal level, four agencies are chiefly responsible for regu-
+lating human exposure to toxic materials: the FDA, EPA, OSHA, 
+and the Consumer Product Safety Commission (CPSC). Together 
+they administer over two-dozen statutes whose primary goal is the 
+protection of health. The statutes administered by these four agen-
+cies utilize different regulatory approaches and require divergent 
+safety benchmarks. This diversity has several explanations. The 
+statutes were enacted in different eras. They originated with dif-
+ferent political constituencies and remain under their influence. 
+Perhaps most significant, statutory standards often reflect differ-
+ences in the technical capacity to control different types of expo-
+sures, and they embody different Congressional judgments about 
+the economic implications of limiting exposures.
+Food and Drug Administration (FDA)
+The oldest of the major health regulation laws, the FFD&C Act, 
+was originally enacted in 1906 and, as amended over time, now 
+covers food for humans and animals, human and veterinary drugs, 
+biologics, medical devices, cosmetics, and tobacco products.
+
+1576
+Applications of Toxicology
+Unit VII
+Food  The initial Food and Drug Act enacted in 1906 prohibited 
+“adulterated” foods that contain “any poisonous or deleterious sub-
+stance, which may render it injurious to health.” This provision, 
+which remains in the statute to date [FFD&C Act § 402(a)], does 
+not require premarket approval of foods and puts the burden of 
+proof on FDA to demonstrate that a food meets the definition of 
+“adulterated.”
+Congress has since amended the act several times to strengthen 
+the FDA’s ability to ensure the safety of foods (FFD&C Act, 1938). 
+The most important of these amendments was the 1958 Food 
+Additives Amendments that require the safety of food additives to 
+be demonstrated prior to marketing (Food Additive Amendments, 
+1958). The manufacturer of a food additive must submit a petition 
+demonstrating that the substance is “reasonably certain to be safe”; 
+no inquiry into the benefits of an additive is undertaken or autho-
+rized (Cooper, 1978). The food additive regulations require that the 
+quantity of the substance added to food does not exceed the amount 
+reasonably required to accomplish its intended physical, nutritive, 
+or other technical effect in food. Two categories of nonnaturally 
+occurring food ingredients were exempted from this food additive 
+requirement: (a) substances generally recognized as safe among 
+experts qualified by scientific training and experience to evaluate 
+safety; and (b) substances that either FDA or the US Department of 
+Agriculture (USDA) had sanctioned for use in food prior to 1958 
+(so-called “prior sanction” substances).
+Separate regulatory standards have been developed for several 
+classes of indirect food constituents. For example, a food-contact 
+substance requires approval as a food additive if, when used as 
+intended, it “may reasonably be expected to become a component 
+of food.” In 1997 omnibus legislation that addressed most of FDA’s 
+regulatory programs, Congress created a new premarket notification 
+system for food-contact materials that permits the agency to delay 
+introduction if it questions a material’s safety, but does not require 
+affirmative agency approval (FDA Modernization Act, 1997).
+In 2011, Congress enacted the FDA Food Safety Modernization 
+Act (FSMA, 2011), which seeks to strengthen food safety by shift-
+ing the focus of federal regulators from responding to contamination 
+to preventing unsafe foods. The legislation mandates the FDA to 
+establish comprehensive, science-based preventive controls across 
+the food supply, which includes a requirement for food facilities to 
+adopt and implement written preventive control plans, a mandate 
+that FDA establish science-based, minimum standards for the safe 
+production and harvesting of fruits and vegetables, and new author-
+ity to prevent intentional contamination of food. The statute also 
+gives FDA enhanced enforcement and inspection authority, autho-
+rizes FDA to conduct mandatory recalls of unsafe foods, and new 
+powers to ensure that imported products meet U.S. standards and 
+are safe for U.S. consumers.
+Human Drugs and Biologicals  Preclinical studies in animals 
+play an important role in the FDA’s evaluation of human drugs and 
+biologicals. The current law requires premarket approval, for both 
+safety and efficacy, of all “new” drugs, a category that embraces 
+virtually all prescription drug ingredients introduced since 1938 
+(Hutt et al., 2007). Premarket approval of drugs for commercial 
+use primarily relies on randomized controlled trials in human sub-
+jects to establish safety and efficacy. However, animal and in vitro 
+studies are the primary source of information about a substance’s 
+biological effects before human trials are begun, and their results 
+influence not only the decision whether to expose human subjects 
+but also the design of clinical protocols.
+The FDA reviews the clinical evidence before authorizing 
+human clinical trials through review of an Investigational New 
+Drug (IND) application. The IND must include (i) preclinical data 
+to permit an assessment as to whether the product is reasonably safe 
+for initial testing in humans, including animal pharmacology and 
+toxicology studies (with the core battery of studies including the 
+assessment of effects on cardiovascular, central nervous, and respi-
+ratory systems, as well as acute toxicity, with other types of studies 
+conducted on a case-by-case basis as warranted), in vitro and in 
+silico data, and any previous experience with the drug in humans 
+(often foreign use); (ii) manufacturing information to ensure that 
+the company can adequately produce and supply consistent batches 
+of the drug, including data on the composition, manufacturer, stabil-
+ity, and controls used for manufacturing the drug; and (iii) clinical 
+protocols and investigator information, including detailed protocols 
+for proposed clinical studies, information on the qualifications of 
+clinical investigators, and commitments to obtain informed consent 
+from the research subjects and to obtain review of the study by an 
+institutional review board (IRB).
+Once an IND has been approved, the drug sponsor may pro-
+ceed with human clinical studies consistent with the IND. The drug 
+testing traditionally proceeds in three sequential phases. Phase 1 
+involves 20 to 100 healthy volunteers or people with the disease/
+condition and lasts several months, with the objective of evaluating 
+drug safety and dosage. Phase 2 trials involve up to several hun-
+dred patients with the disease/condition, and last several months 
+to 2 years, with the purpose of evaluating efficacy and side effects. 
+Finally, at least two Phase 3 trials are required, which involve 300 
+to 3000 subjects who have the disease or condition, and these tri-
+als take 1 to 4 years. In some cases, such as when the FDA grants 
+accelerated approval to a therapeutic, the agency can require a post-
+marketing study known as a Phase 4 study, to monitor the safety, 
+efficacy, and side effects of the drug in clinical use.
+Another category of drugs regulated by FDA is over-the-­
+counter (OTC) drugs, which do not require a prescription. An OTC 
+drug can receive regulatory authorization in two ways. First, the 
+sponsor of an FDA-approved prescription drug can petition the 
+FDA to change the status of the drug to OTC, a process referred to 
+as an “Rx-to-OTC switch,” if certain requirements regarding safety, 
+efficacy, risk-benefit ratio, and consumer understanding of label-
+ing can be demonstrated. The second method is the FDA “mono-
+graph” program, which consists of criteria for various categories 
+of OTC drugs (e.g., antacid, cough/cold, dandruff shampoo, and 
+sunscreens). A new product that meets the Monograph criteria for 
+the relevant category of OTC drug can be marketed without FDA 
+pre-approval.
+Medical Devices  In 1976, Congress overhauled the FFD&C 
+Act’s requirements for medical devices, providing the FDA major 
+new authority to regulate their testing, marketing, and use. The 
+elaborate new scheme contemplates three tiers of control, the most 
+restrictive of which (class III) is premarket approval similar to that 
+required for new drugs. To obtain FDA premarket approval of a 
+class III device, the sponsor must demonstrate safety and efficacy. 
+The bulk of the data supporting such applications will be derived 
+from clinical studies but also will include toxicology studies of any 
+constituents likely to be absorbed by the patient.
+Cosmetics  The statutory provisions governing cosmetics do 
+not require premarket approval of any ingredient, or demand that 
+manufacturers test their products for safety, though many manufac-
+turers routinely do so. The basic safety standard for cosmetics is 
+similar to that for food ingredients: no product may be marketed if 
+it contains “a poisonous or deleterious substance, which may ren-
+der it injurious to health” [FFD&C Act § 601(a)]. The case law 
+establishes that this language, too, bars distribution of a product
+
+Regulatory Toxicology
+Chapter 35
+1577
+that poses any significant risk of more than transitory harm when 
+used as intended, but it places on the FDA the burden of proving a 
+violation (Hutt et al., 2007). The FDA has brought few cases under 
+this standard, in part because acute toxic reactions to cosmetics 
+are readily detected and immediately result in abandonment of the 
+offending ingredient. The FDA encourages cosmetic firms to par-
+ticipate in its Voluntary Cosmetic Registration Program (VCRP), 
+which is an online registration system that cosmetic manufactur-
+ers, distributors, and packers can file information on their products 
+that are currently being marketed to consumers in the United States 
+and register their manufacturing and/or packaging facility loca-
+tions in the VCRP database. The FDA also relies on the Cosmetic 
+Ingredient Review (CIR), a private expert assessment body estab-
+lished in 1976 and operated by the Personal Care Products Council. 
+The CIR appoints an expert panel that conducts safety assessments 
+of cosmetics ingredients that are subject to public review and com-
+ment and then published as monographs.
+Environmental Protection Agency (EPA)
+The EPA is responsible for administering most of the nation’s envi-
+ronmental laws, which include protection of both human health and 
+the environment. A comprehensive review of the EPA’s numerous 
+programs is not possible here; the following summary focuses on 
+those EPA activities in which toxicology evidence plays a central 
+role: the agency-wide Integrated Risk Information System (IRIS) 
+program, pesticide regulation, regulation of industrial chemicals, 
+regulation of drinking water supplies, hazardous waste control, and 
+regulation of toxic pollutants of water and of air.
+IRIS Program  EPA’s IRIS provides an agency-wide scientific 
+assessment program to evaluate the carcinogenic and noncarci-
+nogenic human health risks of various chemicals. EPA prepares a 
+Toxicological Review for a chemical, which goes through a series 
+of internal and external reviews before being finalized, which is 
+then used to derive an RfD and/or inhalation RfC for noncarcino-
+genic effects, and a weight-of-evidence determination as well as 
+oral and inhalation unit risks for carcinogenic effects. IRIS val-
+ues are used to support a variety of agency regulatory programs, 
+including many of those described below. EPA has established IRIS 
+values for over 500 chemical substances. In response to a critical 
+National Research Council study of EPA’s IRIS assessment of 
+formaldehyde (NRC, 2011), the EPA has restructured its IRIS pro-
+cess to adopt systematic review methods and information manage-
+ment tools for study selection and analysis, and “data integration” 
+approaches to develop overall hazard findings. In addition, IRIS 
+assessments now derive organ-specific reference values (in addi-
+tion to overall RfD and RfC values) when health effects data are 
+available. The future of the IRIS program is in question, as both the 
+Trump Administration and Congress are calling for major changes 
+and possible funding cuts to the program.
+Pesticides  Pesticides are subject to two types of regulation: 
+(i) registration under the Federal Insecticide, Fungicide, and 
+Rodenticide Act (FIFRA, 1972), which is required for a pesticide 
+to be marketed in the United States; and (ii) tolerance (under the 
+FFD&C Act), which sets the allowable level of pesticide residue in 
+food for human consumption. Pesticide residues on raw agricultural 
+commodities for years were initially regulated by the EPA under a 
+1954 amendment to the FFD&C Act, which allowed the agency to 
+set tolerance levels based on weighing the potential adverse health 
+effects of residues against the benefits of pesticide uses. If the con-
+centration of a pesticide in a processed food exceeded the estab-
+lished tolerance, or the pesticide was a carcinogen, the Delaney 
+clause prohibited its approval for that use (Les v Reilly, 1992). This 
+framework was revised by Congress in 1996 by the Food Quality 
+Protection Act (FQPA) to exempt pesticide residues from the oper-
+ation of the Delaney clause but also restricted the consideration of 
+pesticide benefits in setting tolerances.
+The FQPA integrated the standard for registration and tolerance 
+of a pesticide to require a pesticide to be shown to be safe, a stan-
+dard defined as “reasonable assurance of no harm” (Food Quality 
+Protection Act, 1996). The 1996 amendments also introduced some 
+additional novel elements to the tolerance process. First, it required 
+EPA to determine the safe level of a pesticide residue in a cumulative 
+context, considering “all anticipated dietary exposures and all other 
+exposures for which there is reliable information” [21 USC § 346a(b)
+(2)(A)(ii)]. This includes other nonoccupational sources of exposure, 
+including food, drinking water, and residential exposures [21 USC § 
+346a(b)(2)(D)(vi)]. EPA must also base its safety determination on 
+a consideration of exposures to other pesticides that share the same 
+mechanism of toxicity [21 USC § 346a(b)(2)(C)(i)(III)].
+Second, the 1996 FQPA required EPA to give special consid-
+eration to the health of infants and children, by ensuring “that there 
+is a reasonable certainty that no harm will result to infants and chil-
+dren from aggregate exposure to the pesticide chemical residue …” 
+[21 USC § 346a(b)(2)(C)(ii)(I)]. To implement this requirement, the 
+statute directs EPA to “use an additional 10-fold margin of safety 
+in assessing the risks to infants and children to take into account 
+potential for pre- and postnatal toxicity and the completeness of 
+the toxicology and exposure databases.” EPA can deviate from 
+the 10-fold margin of safety “only if, based on reliable data, the 
+resulting margin would be safe for infants and children” [21 USC 
+§ 346a(b)(2)(C)(ii)(I)]. EPA’s failure to provide a legally sufficient 
+rationale for not applying the presumptive 10-fold extra safety fac-
+tor for children has been found to be arbitrary and capricious by 
+reviewing courts (Northwest Coalition for Alternatives to Pesticides 
+v EPA, 2008; NRDC v EPA, 2011).
+Third, EPA must develop a program to test for endocrine dis-
+rupting effects of pesticides. There has been a flurry of research over 
+the past couple of decades addressing the identification and mecha-
+nisms of toxicity from endocrine-disrupting chemicals (Marty et al., 
+2011). The FQPA required EPA to “develop a screening program, 
+using appropriate validated test systems and other scientifically 
+relevant information, to determine whether certain substances may 
+have an effect in humans that is similar to an effect produced by a 
+naturally occurring estrogen, or such other endocrine effect as the 
+Administrator may designate” [21 USC § 346a(p)(1)]. Although 
+EPA was required to establish this program by 1999, it did not meet 
+this deadline.
+EPA has been moving forward nevertheless and has created 
+an Endocrine Disruptor Screening Program, which involves a two-
+tier screening and testing process: In Tier 1 testing, EPA seeks to 
+identify chemicals that have the potential to interact with the endo-
+crine system. Tier 1 consists of 11 different assays, which are being 
+applied to 67 pesticide ingredients on EPA’s initial list of chemi-
+cals to be tested, which was released in 2009. EPA completed this 
+first round of Tier 1 testing in September 2015 with results for 52 
+chemicals (the other 15 chemicals on the original list were dropped 
+because they are no longer in use). Of these 52 chemicals, 34 were 
+found to have no significant endocrine disruptor activity, while the 
+other 18 were found to have some activity and were selected for 
+Tier 2 testing. EPA finalized in 2013 a second list of 109 additional 
+chemicals to be tested in Tier 1 (of which 2 were subsequently 
+removed from the list in 2014). In Tier 2, EPA will determine the 
+endocrine-related effects caused by each chemical that indicated 
+endocrine disruption activity in Tier 1, and obtain information
+
+1578
+Applications of Toxicology
+Unit VII
+about effects at various doses in order to enable risk assessment. 
+The agency finalized three Tier 2 testing guidelines in August 2015 
+(EPA, 2015a). Also in 2015, EPA published a proposal to allow 
+companies to use high-throughput assays and computational toxi-
+cology as an alternative screening method for endocrine disruptors 
+(EPA, 2015b).
+After the FQPA of 1996, the pesticide registration process now 
+includes a broader review of the human health impacts from com-
+mercial use of the pesticides on applicators and other individuals, as 
+well as effects on the environment. The manufacturer of a pesticide 
+must produce a variety of data from tests done according to EPA 
+guidelines. EPA’s test guidelines, most recently revised in 2013, 
+now encompass guidelines for several hundred types of tests recom-
+mended for pesticides (40 CFR 158 and 161). These tests evaluate 
+whether a pesticide has the potential to cause adverse effects on 
+humans, wildlife, fish, and plants, as well as possible contamina-
+tion of surface water or ground water from leaching, runoff, and 
+spray drift. The potential human risks that are evaluated include 
+both acute and chronic toxicity. The EPA then conditions the use of 
+the pesticide on various protections to ensure that the pesticide is 
+used safely, which are summarized on the pesticide label.
+The EPA has been engaged in a comprehensive review of 
+previously registered pesticides and “reregistration” of those that 
+meet contemporary standards for marketing for approximately 
+the past three decades. Under this program, many older pesticides 
+have been subjected to comprehensive toxicology testing, includ-
+ing carcinogenicity testing, for the first time, and the results have 
+required modification of the terms of approved use and, in some 
+instances, cancellation for several pesticides. The FQPA required 
+EPA to review the registration (“reregistration”) and tolerance of 
+older pesticides. In addition, EPA initiated a new program in 2006 
+called “registration review” in which it intends to re-evaluate all 
+pesticides every 15 years. Finally, EPA may initiate a “Pesticide 
+Special Review” process whenever it discovers that the use of a 
+registered pesticide may result in unreasonable adverse effects on 
+people or the environment.
+Industrial Chemicals  The Toxic Substances Control Act (TSCA) 
+was promulgated in 1976 to regulate all chemical substances manu-
+factured or processed in or imported into the United States, except 
+for substances already regulated under other laws (e.g., pesticides, 
+tobacco products, firearms, foods, drugs, and cosmetics). A chemical 
+substance is defined broadly as “any organic or inorganic substance 
+of a particular molecular identity.” Forty years after the initial adop-
+tion of TSCA in 1976, in 2016 the Frank R. Lautenberg Chemical 
+Safety for the 21st-Century Act was signed into law, the first major 
+amendments to the TSCA statute (TSCA, 2016).
+As amended, TSCA gives the EPA three main powers. First, 
+the agency is empowered to restrict or even ban the manufacturing, 
+processing, distribution, use, or disposal of a chemical substance 
+when there is a reasonable basis to conclude any such activity poses 
+an “unreasonable risk of injury to health or environment.” Prior to 
+the 2016 amendments, the agency was instructed to balance the 
+costs of restricting the substance against the health benefits of the 
+proposed regulation and to choose “the least burdensome require-
+ment” [TSCA § 6]. This trade-off approach to regulation proved a 
+major challenge to the EPA and the agency exercised its regulatory 
+authority under the original section 6 against only a handful of sub-
+stances, and its most significant regulations, such as its attempted 
+ban on asbestos products, have been struck down by the courts for 
+failing to do an adequate cost-benefit analysis (Corrosion Proof 
+Fittings v EPA, 1991). The statute itself imposes restrictions on two 
+types of chemicals: mercury and polychlorinated biphenyls (PCBs).
+The 2016 amendments to TSCA seek to rejuvenate section 
+6. The amended statute deletes the “the least burdensome require-
+ment” provision, and requires EPA to undertake a prioritization 
+process that involves screening existing chemicals based on factors 
+such as hazard, exposure potential, persistence, and bioaccumula-
+tion, but without considering cost. Any chemical that is found to 
+“may present an unreasonable risk” based on this screening analysis 
+must be categorized as high priority and is subject to a risk evalua-
+tion. The risk evaluation is intended to determine whether a chemi-
+cal presents an unreasonable risk, without considering costs or other 
+non-risk factors. EPA must then promulgate a risk management 
+standard for any chemical that is found to present an unreasonable 
+risk in the risk evaluation.
+The second major authority under TSCA is that if the EPA 
+suspects that a chemical may pose an unreasonable risk but lacks 
+sufficient data to take action, TSCA empowers the agency to require 
+testing to develop the necessary data. Similarly, it may order testing 
+if the chemical will be produced in substantial quantities that may 
+enter the environment and/or result in significant human exposure 
+whose effects cannot be predicted on the basis of existing data. In 
+either case, the EPA must consider the “relative costs of the various 
+test protocols and methodologies” and the “reasonably foreseeable 
+availability of the facilities and personnel” needed to perform the 
+tests [TSCA § 4]. The 2016 revisions to the TSCA testing author-
+ity require EPA to use tiered testing and screening approaches, and 
+to reduce and replace vertebrate animal testing when this can be 
+scientifically justified.
+Finally, to enable the EPA to evaluate chemicals before 
+humans are exposed, TSCA requires the manufacturer of a new 
+chemical substance to notify the agency 90 days prior to produc-
+tion or distribution [TSCA § 5(a)(1)]. The manufacturer’s or dis-
+tributor’s notice (called a pre-manufacturing notice or PMN) must 
+include (i) chemical identification, including the Chemical Abstract 
+(CA) name (when available), the chemical formula, and the molec-
+ular structure of the substance, and any synonyms, trade names, 
+or generic names for the chemical; (ii) information on the physi-
+cal properties of the substance; (iii) amounts and identities of any 
+impurities in the chemical substance; (iv) any byproducts that result 
+from the manufacture, processing, use, and disposal of the new 
+chemical substance; (v) production volume for the first 12 months 
+of production and estimate of the maximum production volume for 
+any consecutive 12-month period during the first 3 years of manu-
+facture; (vi) intended use of the substance including the degree of 
+containment; (vii) any information on manufacturing, processing, 
+and use operations involving the new chemical substance or prod-
+ucts containing the new substance; (viii) any hazard warning state-
+ment, label, material safety data sheet (MSDS), or safety data sheet 
+(SDS) available for the substance; (ix) anticipated environmental 
+release and disposal information; and (x) (optionally), information 
+on pollution prevention and recycling activities involving the new 
+substance. In addition, the manufacturer must submit any hazard, 
+toxicology, or safety data or studies it has on the substance.
+Prior to the 2016 amendments, if EPA did not take action 
+within 90 days, the manufacturer may proceed with commercializa-
+tion of the chemical substance. Under the 2016 amendments, EPA 
+must review all new chemicals and significant new uses (SNUs) 
+and must make one of three findings: (1) that the new chemical or 
+SNU presents an unreasonable risk of injury to health or the envi-
+ronment, in which case the EPA must regulate those risks; (2) that 
+there is insufficient information to make a reasoned evaluation of 
+the chemical or SNU, in which case the agency must obtain addi-
+tional information from the manufacturer; or (3) that the chemical 
+or SNU is not likely to present an unreasonable risk.
+
+Regulatory Toxicology
+Chapter 35
+1579
+In contrast, the European Union (EU) is implementing a com-
+prehensive regulatory program for chemical substances, known 
+as the Registration, Evaluation, Authorization, and Restriction of 
+Chemical substances (REACH) program. REACH puts the respon-
+sibility for ensuring the safety of chemicals on the companies that 
+produce, import, and use chemicals. The program applies to both 
+new and existing chemicals, and is phased-in over an 11-year period 
+based primarily on the production volume of individual chemicals. 
+REACH employs a tiered-testing approach, with the amount of ini-
+tial testing determined by production volume. A technical dossier is 
+required for all registered chemicals; however, only chemicals with 
+a production volume of 10 or more tons per year require a chemical 
+safety assessment documented in a chemical safety report. REACH 
+allows the use of alternative testing strategies to evaluate specific 
+endpoints in lieu of experimental testing; however, whole animal 
+testing requirements exist for each level based on production volume.
+Hazardous Wastes  The two primary statutes regulating hazard-
+ous wastes in the United States are the Resource Conservation and 
+Recovery Act (RCRA, 1976) and the Comprehensive Environmental 
+Response, Compensation, and Liability Act (CERCLA, 1980). With 
+some exceptions, the primary purpose of CERCLA is the cleanup 
+of contamination from pre-existing hazardous waste sites, whereas 
+RCRA regulates the generation, transport, and disposal of new haz-
+ardous wastes. Both RCRA and CERCLA have their own exten-
+sive lists of substances and waste streams of toxic materials that 
+are defined as hazardous wastes. In addition, under RCRA, wastes 
+that meet any of four “characteristics” are also treated as hazardous 
+wastes. The four characteristics are ignitability, corrosivity, reactiv-
+ity, and toxicity, and EPA has identified standardized protocols for 
+determining whether a particular waste stream meets one or more 
+of these characteristics. Under RCRA, EPA has developed stan-
+dards for generators, transporters, and those who treat, store, or dis-
+pose hazardous wastes that are required to “protect human health 
+and the environment.” The EPA’s regulations applicable to genera-
+tors and transporters establish a manifest system that is designed to 
+create a paper trail for every shipment of waste, from generator to 
+final destination, to ensure proper handling and accountability. The 
+agency has the broadest authority over persons who own or operate 
+hazardous waste treatment, storage, or disposal facilities. Pursuant 
+to the RCRA, it has issued regulations prescribing methods for 
+treating, storing, and disposing of wastes; governing the location, 
+design, and construction of facilities; mandating contingency plans 
+to minimize negative impacts from such facilities; setting quali-
+fications for ownership, training, and financial responsibility; and 
+requiring permits for all such facilities (RCRA, 1976).
+CERCLA, often referred to as Superfund, authorizes the 
+cleanup of hazardous waste sites and provides for liability of per-
+sons responsible for releases of hazardous waste at these sites. EPA 
+can conduct cleanup of hazardous waste sites itself, and then seek 
+recovery for the costs from potentially responsible parties (PRPs), 
+or it can direct one or more PRPs to conduct cleanup, who may then 
+seek contribution from other PRPs for their share of the cleanup. 
+Under CERCLA, EPA has created the National Priorities List 
+(NPL), which is a list of hazardous waste sites that are deemed 
+the most hazardous sites and eligible for use of federal funds for 
+long-term cleanup, and the National Contingency Plan (NCP), 
+which provides the guidelines and procedures needed to respond 
+to releases and threatened releases of hazardous substances, pol-
+lutants, or contaminants. For sites on the NPL, EPA conducts a 
+Remedial Investigation and Feasibility Study to support the risk 
+management process, which includes a site-specific human health 
+and ecological risk assessment.
+Toxic Water Pollutants  The EPA has had responsibility for 
+regulating toxic water pollutants since 1972. As originally enacted, 
+Section 307 of the Federal Water Pollution Control Act required 
+the EPA to adopt standards for toxic water pollutants that provided 
+an “ample margin of safety”—a difficult criterion to meet for most 
+toxic pollutants and arguably impossible for any known to be car-
+cinogenic. Given EPA’s difficulties in complying with this statutory 
+directive, Congress amended the statute in 1977 to focus standards 
+on economic cost and technologic feasibility. In 1987, Congress 
+amended the statute again to toughen standards for toxic pollutants. 
+Under the prior law, the EPA had developed health-based “water 
+quality criteria” for 126 compounds it had identified as toxic. These 
+criteria essentially described desirable maximum contamination 
+levels, which, because the EPA’s discharge limits were technology-
+based, generally were substantially lower than the levels actually 
+achieved. The 1987 amendments gave what had been advisory cri-
+teria real bite by requiring that states incorporate them in their own 
+mandatory standards for water quality and impose additional efflu-
+ent limits on operations discharging into below-standard water-
+ways (Heineck, 1989).
+Drinking Water  The 1974 Safe Drinking Water Act (SDWA) 
+was enacted to ensure that public water supply systems “meet 
+minimum national standards for the protection of public health.” 
+Under the SDWA, the EPA is required to regulate any contaminants 
+“which may have an adverse effect on human health.” Over time 
+and several Congressional amendments, this system has evolved 
+into a two-tier system in which EPA adopts for each contaminant a 
+maximum contaminant level goal (MCLG) that represents the opti-
+mal level to be achieved to ensure safety and the usually less strin-
+gent, feasibility-based maximum contaminant level (MCL). Only 
+the MCL is legally enforceable. As part of the 1996 Safe Drinking 
+Water Amendments, Congress directed EPA to use the “best avail-
+able science” in setting MCLGs and MCLs.
+Toxic Air Pollutants  The original 1970 version of the Clean 
+Air Act (CAA) provision for regulation of hazardous air pollutants 
+(section 112) required the agency to set emission standards for indi-
+vidual toxic pollutants that protect public health with “an ample 
+margin of safety.” The implication of this language—that standards 
+were to provide absolute safety without regard to the costs of emis-
+sions control—generated intense debate from the beginning and 
+contributed to the EPA’s glacial pace of implementation. The EPA 
+finally attempted to escape the strict language of section 112 when 
+it issued a standard for vinyl chloride in 1986 in which the agency 
+claimed it could consider costs and declined to adopt a standard 
+dictated solely by safety. A court ruled that the EPA had improperly 
+considered costs, but it did make clear that in determining what 
+emissions level was safe, even for a carcinogen, the EPA was not 
+obligated to eliminate exposure but rather was to “decide what risks 
+are acceptable in the world in which we live” (NRDC v EPA, 1987).
+Amendments to the CAA in 1990 responded to the difficul-
+ties presented by the strict health-based approach of old section 
+112. The statute now provides a list of 188 hazardous air pollutants, 
+which EPA may modify by adding or deleting items. The EPA must 
+establish national emissions standards for sources that emit any of 
+the listed pollutants with a two-tier system of regulation. The EPA 
+must first issue standards that are technology-based, designed to 
+require the “maximum achievable control technology” (MACT) 
+[CAA § 112(d)(2)]. If the MACT controls are insufficient to protect 
+human health with an “ample margin of safety,” the EPA must issue 
+residual risk standards [CAA § 112(f)]. The 1990 Amendments 
+essentially define “ample margin of safety” for carcinogens by 
+requiring the EPA to establish added residual risk limits for any
+
+1580
+Applications of Toxicology
+Unit VII
+pollutant that poses a lifetime excess cancer risk of greater than 
+one in one million. However, as subsequently clarified in a judi-
+cial decision, while EPA must promulgate residual risk standards if 
+the MACT standards do not reduce risks to one in one million, the 
+residual risk standards are not required to reduce the risks to one in 
+one million, but rather to 100 in one million (NRDC v EPA, 2008).
+Occupational Safety and Health 
+Administration (OSHA)
+The 1970 Occupational Safety and Health Act requires employers 
+to provide employees with safe working conditions and empowers 
+OSHA to prescribe mandatory occupational safety and health stan-
+dards (OSHA, 1970). OSHA’s most controversial actions involved 
+its attempts to set occupational exposure limits for hazardous 
+chemicals.
+The Act specifies that in regulating hazardous occupational 
+exposures, OSHA shall adopt the standard “which most adequately 
+assures, to the extent feasible, on the basis of the best available 
+evidence, that no employee will suffer material impairment of 
+health or physical capacity” [OSHA § 6 (b)(5)]. Judicial challenges 
+to OSHA standards have clarified OSHA’s responsibilities. In a 
+famous case, the U.S. Supreme Court overturned OSHA’s benzene 
+standard because the agency had not shown that prevailing worker 
+exposure levels posed a “significant” health risk (Industrial Union 
+Department, AFL-CIO, v American Petroleum Institute, 1980). 
+This prerequisite proved a major obstacle when OSHA attempted 
+to establish standards for 428 air contaminants in a single proceed-
+ing in 1989. Although it found that OSHA’s generic approach to 
+regulation was permissible in theory, a court vacated the standards 
+because OSHA failed to show that each individual contaminant 
+posed a “significant risk” at current levels (American Federation of 
+Labor v OSHA, 1992). However, the Supreme Court earlier upheld 
+OSHA’s cotton dust standard, rejecting arguments that the agency 
+was obligated to balance the costs of individual standards against 
+the benefits of reducing hazardous workplace exposures (American 
+Textile Manufacturers Institute v Donovan, 1982). The end result 
+of these judicial challenges is that OSHA may adopt standards that 
+reduce a “significant” risk to workers down to levels that are tech-
+nologically and economically feasible, but cannot base its standards 
+on a cost-benefit analysis.
+OSHA promulgates substance-specific occupational exposure 
+limits known as Permissible Exposure Limits (PELs), where com-
+pliance is measured with an 8-hour time-weighted average (TWA). 
+For a few hazardous exposures (e.g., 1,3-butadiene, benzene, and 
+ethylene oxide) OSHA has promulgated short-term exposure limits 
+(STELs), which sets an average exposure limit for any 15-minute 
+average that cannot be exceeded.
+Another important standard promulgated and enforced by 
+OSHA is the hazard communication standard (HCS). The HCS 
+requires chemical manufacturers and importers to evaluate the haz-
+ards of the chemicals they produce or import, and prepare labels 
+and material safety data sheets (MSDSs) to convey the hazard 
+information to their downstream customers; and requires employ-
+ers with hazardous chemicals in their workplaces to provide labels 
+and MSDSs for their exposed workers, and train them to handle the 
+chemicals appropriately. As of 2016, the HCS has been harmonized 
+with the United Nations’ (UN) Globally Harmonized System of 
+Classification and Labeling of Chemicals (GHS). OSHA has pro-
+vided detailed criteria in Appendix A to §1910.1200—Health Hazard 
+Criteria for determining whether a substance is hazardous under the 
+HCS. For example, any substance listed in the National Toxicology 
+Program (NTP) “Report on Carcinogens” (latest edition) or the 
+International Agency for Research on Cancer (IARC) “Monographs 
+on the Evaluation of Carcinogenic Risks to Humans” will be consid-
+ered a carcinogen or possible carcinogen under the HCS.
+In addition to the HCS and substance-specific exposure limits, 
+OSHA also enforces more generic standards such as the general 
+duty clause, the particles otherwise not regulated (total dust) stan-
+dard, and the respiratory protection standard. Unlike EPA, OSHA 
+does not have authority to require chemical safety testing.
+Other organizations also issue occupational exposure limits, but 
+unlike OSHA, these standards are guidance and not legally enforce-
+able. For example, the American Conference of Governmental 
+Industrial Hygienists (ACGIH) publishes recommended but non-
+enforceable exposure standards known as threshold limit values 
+(TLVs) which can be for an 8-hour time-weighted average expo-
+sure (TLV-TWA) or a 15-minute short-term time-weighted aver-
+age (TLV-STEL). The TLV is a level that a worker can be exposed 
+to day after day for a working lifetime without adverse effects. In 
+addition, ACGIH also publishes threshold limit value–Ceiling limit 
+(TLV-C) which is an absolute exposure limit that should not be 
+exceeded at any time. The National Institute of Occupational Safety 
+and Health (NIOSH) also publishes some Recommended Exposure 
+Limits or RELs (although as of January 2017, NIOSH recommends 
+a new value for carcinogens known as a Risk Management Limit 
+for Carcinogens, or RML-CA).
+Consumer Product Safety 
+Commission (CPSC)
+Of the four agencies discussed here, the CPSC has played the least 
+important role in federal efforts to control toxic chemicals to date. 
+The commission was created in 1972 by the Consumer Product 
+Safety Act (CPSA, 1972) with authority to regulate products that 
+pose an unreasonable risk of injury or illness to consumers. The 
+commission is empowered to promulgate safety standards “to pre-
+vent or reduce an unreasonable risk of injury” associated with a 
+consumer product. If no feasible standard “would adequately pro-
+tect the public from the unreasonable risk of injury” posed by a 
+consumer product, the commission may ban the product [CPSA § 
+8]. In assessing the need for a standard or ban, the agency must bal-
+ance the likelihood that a product will cause harm, and the severity 
+of harm it will likely cause, against the effects of reducing the risk 
+on the product’s utility, cost, and availability to consumers.
+The CPSC also administers the older Federal Hazardous 
+Substances Act (FHSA, 1976). The FHSA authorizes the CPSC to 
+regulate, primarily through prescribed label warnings, products that 
+are toxic, corrosive, combustible, or radioactive or that generate 
+pressure. The FHSA is unusual among federal health laws because 
+it contains detailed criteria for determining toxicity. It defines 
+“highly toxic” in terms of a substance’s acute effects in specified 
+tests in rodents; substances capable of producing chronic effects 
+thus fall within the “toxic” category. The FHSA contains another 
+unique provision [FHSA § 2(h)(2)] specifically addressing the pro-
+bative weight of animal and human data on acute toxicity: “If the 
+[commission] finds that available data on human experience with 
+any substance indicates results different from those obtained on ani-
+mals in the above-named dosages or concentrations, the human data 
+shall take precedence.”
+The CPSC has prescribed labeling for products containing 
+numerous substances that are acutely toxic. It has also acted to 
+ban from consumer products several substances that pose a cancer 
+risk, including asbestos, vinyl chloride as a propellant, benzene, 
+tris(hydroxymethyl)aminomethane, and formaldehyde (Merrill, 
+1981).
+
+Regulatory Toxicology
+Chapter 35
+1581
+In 2008, Congress adopted the Consumer Product Safety 
+Improvement Act (2008), which significantly strengthened the 
+CPSC’s enforcement authority, especially for children’s products, 
+in response to a number of high-profile recalls of children’s toys. 
+The Act imposes bans on products containing lead or phthalates that 
+exceed stringent levels, and requires third-party testing of certain 
+children’s products.
+INSTITUTIONAL OVERSIGHT AND 
+CONTROLS
+As the previous subsection describes, regulatory agencies are 
+required to evaluate and apply toxicological and other scientific 
+data in a variety of statutory contexts. In addition to the statutory 
+language, a number of internal and external institutional control 
+mechanisms and processes greatly influence the agencies’ treat-
+ment of toxicological data.
+Advisory Committees
+Regulatory agencies frequently rely on scientific advisory com-
+mittees composed of external scientific experts to help guide their 
+scientific determinations, including toxicological evaluations. For 
+example, the EPA has a Scientific Advisory Board (SAB), estab-
+lished by Congress in 1978, to advise the agency on the quality 
+and relevance of the scientific and technical information being used 
+in regulatory programs as well as to review the agency’s research 
+programs. The SAB’s work is done by a relatively large number of 
+subcommittees and panels that focus on special subjects. The EPA 
+also has two other independent scientific advisory committees asso-
+ciated with specific regulatory programs—the Clean Air Science 
+Advisory Committee for air pollution, and the Science Advisory 
+Panel for pesticides. These committees consist of external scientists 
+who are appointed to serve on the committees for specified terms. 
+Similarly, the FDA has over 50 external advisory committees that 
+provide advice on the agency’s significant product approvals and 
+other scientific issues.
+Regulatory agencies are not required to automatically follow 
+the advice of their external advisory committees, but frequently 
+do. Failure to follow the independent advice of their own advisory 
+committee tends to call into question the soundness of the agency’s 
+scientific findings, whereas advisory committee endorsement of the 
+agency’s position can provide important scientific credibility and 
+political cover to the agency.
+Peer Review
+Beyond peer review by agency advisory committees, regulatory 
+agencies frequently utilize external peer review of scientific reports 
+and assessments. In December 2004, the Office of Management 
+and Budget (OMB) formalized the requirement for peer review 
+by issuing its Final Information Quality Bulletin for Peer Review 
+(OMB, 2004). This Peer Review Bulletin requires federal regula-
+tory agencies to ensure that all “influential scientific information” 
+they disseminate is peer-reviewed. Influential scientific informa-
+tion is defined as “scientific information the agency reasonably can 
+determine will have or does have a clear and substantial impact on 
+important public policies or private sector decisions.” The Bulletin 
+specifically identifies “scientific assessments” as one type of infor-
+mation subject to the peer review requirement, which are defined 
+as “an evaluation of a body of scientific or technical knowledge, 
+which typically synthesizes multiple factual inputs, data, models, 
+assumptions, and/or applies best professional judgment to bridge 
+uncertainties in the available information.” These assessments 
+include, but are not limited to, state-of-science reports; technology 
+assessments; weight-of-evidence analyses; meta-analyses; health, 
+safety, or ecological risk assessments; toxicological characteriza-
+tions of substances; integrated assessment models; hazard determi-
+nations; or exposure assessments.
+The Peer Review Bulletin directs agencies to choose a peer 
+review mechanism that is appropriate and commensurate with how 
+the information will be used, giving due consideration to the nov-
+elty and complexity of the science involved, the relevance of the 
+information to regulatory decision-making, the extent of prior peer 
+reviews, and the expected benefits and costs of additional review. 
+The Peer Review Bulletin requires the most rigorous peer review 
+requirements for highly influential scientific assessments.
+Risk Assessment Guidance/Guidelines
+Regulatory agencies often adopt guidelines to promote consistency 
+and predictability in their treatment of toxicological data and the 
+conduct of risk assessment. For example, EPA has adopted risk 
+assessment guidelines for carcinogenicity, mutagenicity, develop-
+mental toxicity, chemical mixtures, exposure analysis, reproduc-
+tive toxicity, neurotoxicity, and ecotoxicity. The genesis of EPA’s 
+risk assessment guidelines was a series of “cancer principles” pre-
+pared largely at the instigation of EPA lawyers in the mid-1970s 
+(Albert, 1994). The agency lawyers were frustrated by the delays 
+in regulating pesticides as a result of scientific disagreement about 
+the mechanisms and causes of human cancer. In an attempt to cir-
+cumvent such scientific disputes, the lawyers developed a series of 
+17 “cancer principles” with the assistance of EPA scientists dur-
+ing hearings on the pesticides heptachlor and chlordane. The 17 
+principles were intended to be nonrebuttable guidelines that would 
+govern and simplify carcinogenicity determinations.
+Shortly thereafter, EPA began to develop a more comprehen-
+sive set of guidelines for evaluating carcinogens. This led to EPA 
+publishing its “interim” guidelines for carcinogenic risk assessment 
+in 1976, which were subsequently updated and finalized in 1986 
+(EPA, 1986). The 1986 guidelines primarily consisted of a series 
+of “default options” that were intended as presumptive principles 
+that would apply in the absence of sufficient data to establish an 
+alternative assumption. Some of the most important default options 
+included in EPA’s 1986 carcinogen guidelines are: (i) laboratory 
+animals are assumed to be a valid surrogate for humans in assess-
+ing risk; thus, positive cancer results in animal bioassays are taken 
+as evidence of human carcinogenicity; (ii) humans are assumed to 
+be as sensitive as the most sensitive animal species, strain, or sex 
+evaluated in an appropriately designed animal bioassay; (iii) benign 
+tumors are assumed to be as significant as malignant tumors; (iv) 
+the dose–response of humans to potential carcinogens is assumed to 
+be linear all the way to the zero exposure levels with no threshold; 
+and (v) a given intake of a substance is assumed to have the same 
+effect regardless of the rate or route of intake (EPA, 1986). Most of 
+the default options selected by EPA were deliberately chosen to be 
+“conservative,” in that they are intended to estimate the plausible 
+upper-bound of actual risk (NRC, 1994).
+EPA’s risk assessment guidelines not only promoted consis-
+tency in risk assessment approach and procedure across the broad 
+array of EPA regulatory programs, which use risk assessment, but 
+also furthered the objective of efficiency, by sparing the agency the 
+need to revisit the same controversial issues in each successive rule-
+making proceeding (Wiltse and Dellarco, 1996). The courts were 
+generally supportive of the predictability and consistency provided 
+by the agency’s risk assessment guidelines, giving greater deference
+
+1582
+Applications of Toxicology
+Unit VII
+to EPA risk assessments that comported with the guidelines. As one 
+court stated, “EPA’s specific enunciation of its underlying analytical 
+principles, derived from its experience in the area, yields meaning-
+ful notice and dialogue, enhances the administrative process, and 
+furthers reasoned agency decision making” (Environmental Defense 
+Fund, Inc, v Environmental Protection Agency, 1976).
+Notwithstanding these benefits of risk assessment guidelines, 
+EPA’s implementation of its guidelines was criticized in a 1994 
+NRC report that found that EPA applied the default principles too 
+rigidly and had failed to articulate clear criteria for departing from 
+the defaults (NRC, 1994). EPA itself acknowledged that “[i]n prac-
+tice, the agency’s assessments routinely have employed defaults 
+and, until recently, only occasionally departed from them” (EPA, 
+1996). EPA published draft revisions to its carcinogen guidelines in 
+1996 (EPA, 1996) that were finalized in 2005 (EPA, 2005), which 
+take a more flexible, data-based approach to default options. As 
+explained by EPA, the revised guidelines “are intended to be both 
+explicit and more flexible than in the past concerning the basis for 
+making departures from defaults, recognizing that expert judgment 
+and peer review are essential elements of the process” (EPA, 1996). 
+The revised guidelines incorporate “a weight-of-the-evidence 
+approach that considers all relevant data in reaching conclusions 
+about the potential human carcinogenicity of an agent” (EPA, 
+1996). In 2014, EPA published “Framework for Human Health Risk 
+Assessment to Inform Decision Making,” which adopts a frame-
+work for risk-based decision-making that maximizes the utility of 
+risk assessment (EPA, 2014).
+Judicial Review
+Agency regulations are often subject to legal challenges by stake-
+holders who disagree with the agency’s decision. Under the 
+Administrative Procedure Act, such judicial review tends to be def-
+erential to the agency’s decision, overturning the decision only if 
+it is “arbitrary and capricious” or lacking “substantial evidence.” 
+Nevertheless, a significant proportion of major agency regulations 
+are overturned in whole or in part, or sent back to the agency for 
+further explanation. Scientific determinations, such as toxicologi-
+cal findings, are generally given the highest level of deference 
+under a decision by the U.S. Supreme Court, which held that “[w]
+hen examining this kind of scientific determination, as opposed to 
+simple findings of fact, a reviewing court must generally be at its 
+most deferential” (Baltimore Gas & Elec v NRDC, 1983).
+Even with this deference to scientific determinations, there 
+have been many important judicial decisions impacting the way 
+regulatory agencies address toxicological information. One promi-
+nent example was a challenge to the EPA’s decision to retain an 
+MCLG of zero under the Safe Drinking Water Act for chloroform 
+in the face of evidence, accepted by its own scientific advisory com-
+mittee, that the mechanism by which chloroform produces tumors 
+in rodents is threshold-limited. The reviewing court held that given 
+its acceptance of the evidence of a threshold, the EPA was required 
+by the SDWA’s “best available” evidence provision to base its deci-
+sion on that evidence (Chlorine Chemistry Council v EPA, 2000). 
+This ruling marks the first time that a court has directed a federal 
+regulatory agency to recognize a “safe” finite level of exposure for 
+an animal carcinogen. Another example of proactive judicial over-
+sight is two recent decisions where the court second-guessed EPA’s 
+determination that there was sufficient toxicological evidence to 
+justify departing from the presumptive 10-fold extra safety factor 
+to protect children in pesticide regulatory decisions (Northwest 
+Coalition for Alternatives to Pesticides v EPA, 2008; NRDC v EPA, 
+2011).
+Congressional Oversight
+Congress has ultimate oversight of regulatory agencies, both by 
+delegating the authority to regulate in the form of statutes, and by 
+controlling the purse strings for the agencies. Regulatory statutes 
+determine many of the fundamental choices for regulatory programs 
+by specifying what factors may be considered in adopting regula-
+tory standards and the objectives of the standards in terms of the 
+level of safety to be attained. Statutes differ greatly on these ques-
+tions, with some mandating standards being based on technologi-
+cal feasibility, whereas others specifying health-based regulation. 
+The statutes can provide additional guidance that can influence the 
+agency’s consideration of toxicological evidence, such as the 1996 
+amendments to the Safe Drinking Water Act, which direct EPA to 
+use “the best available, peer-reviewed science and supporting stud-
+ies conducted in accordance with sound and objective scientific 
+practices” (Safe Drinking Water Act, 1996).
+Congress also controls regulatory programs through its budget-
+ary authority. By controlling how much money is directed to spe-
+cific activities or programs, Congress can directly influence agency 
+priorities and emphasis. If Congress is not pleased with an agency’s 
+actions, it can adopt appropriation riders prohibiting the agency from 
+spending money on controversial topics. In the past, for example, 
+Congress has prevented EPA from working on climate change or 
+radiofrequency issues by imposing annual riders for a time period.
+In addition to these primary legislative controls, Congress has 
+a number of other ways it can influence agency decision-making. 
+Congress can pressure agencies toward a preferred policy outcome 
+through oversight hearings, letters to agency officials, and press 
+releases. Congress has also adopted some oversight statutes to fur-
+ther control agency rulemaking. The Congressional Review Act 
+requires federal regulatory agencies to file final rules with Congress 
+before the rules can become effective. If the regulation meets the 
+definition of a major rule ($100-million impact on the economy), 
+Congress has 60 days to introduce a resolution of disapproval that, 
+if adopted by both the House and Senate, can nullify the agency’s 
+rule, unless vetoed by the President. If a disapproval resolution is 
+enacted, the rule may not take effect and the agency may issue no 
+substantially similar rule without subsequent statutory authoriza-
+tion. The Congressional Review Act was only used once prior to 
+2017 to disapprove an agency regulation (OSHA ergonomic stan-
+dard in 2001), the U.S. Congress has used this authority to disap-
+prove more than ten agency rules in the first half of 2017.
+Congress also enacted section 515 of the Treasury and General 
+Government Appropriations Act of 2001, known as the Information 
+Quality Act (IQA), which required the Office of Management and 
+Budget (OMB) to promulgate guidance to agencies ensuring the 
+quality, objectivity, utility, and integrity of information (including 
+statistical information) disseminated by federal agencies (IQA, 
+2001). Federal agencies were also required by the IQA to pub-
+lish their own agency-specific guidelines no later than 1 year after 
+OMB’s guidelines, and also provide a mechanism for stakehold-
+ers to file petitions challenging agency actions that allegedly fail 
+to comply with the data quality objectives. Private parties have 
+challenged a number of scientific determinations by federal agen-
+cies under this provision, but the courts have determined that the 
+agency decisions on these petitions are not judicially reviewable 
+(Salt Institute v Leavitt, 2006).
+Executive Oversight
+The Executive branch also exerts overview of regulatory decisions, 
+particularly through the Office of Information and Regulatory 
+Affairs (OIRA) within the White House OMB. OIRA reviews all
+
+Regulatory Toxicology
+Chapter 35
+1583
+draft significant regulations proposed by regulatory agencies, and 
+although its review most often focuses on the economic aspects of 
+the proposed rule, it also reviews the agency’s scientific assump-
+tions and findings. Although OIRA cannot itself revise the pro-
+posed regulation, it can hold up its publication until it has reached 
+agreement with the agency on acceptable revisions.
+The Executive Branch has other mechanisms for oversight 
+and influence of regulatory science determinations by agencies. 
+The White House under various Presidents has put out a series of 
+Executive Orders providing regulatory guidance that agencies must 
+follow to the extent consistent with the governing regulatory statute. 
+For example, Executive Order 13563 issued by President Obama 
+in January 2011 requires that federal regulations “must be based 
+on the best available science. It must allow for public participation 
+and an open exchange of ideas. It must promote predictability and 
+reduce uncertainty. It must identify and use the best, most inno-
+vative, and least burdensome tools for achieving regulatory ends. 
+It must take into account benefits and costs, both quantitative and 
+qualitative” (EO 13563, 2011).
+The White House also issued a memorandum on Scientific 
+Integrity in 2009 that required each regulatory agency to develop its 
+own scientific integrity policy that implemented several principles 
+of scientific integrity, including: “(a) The selection and retention 
+of candidates for science and technology positions in the executive 
+branch should be based on the candidate’s knowledge, credentials, 
+experience, and integrity; (b) Each agency should have appropriate 
+rules and procedures to ensure the integrity of the scientific process 
+within the agency; (c) When scientific or technological information 
+is considered in policy decisions, the information should be sub-
+ject to well-established scientific processes, including peer review 
+where appropriate, and each agency should appropriately and accu-
+rately reflect that information in complying with and applying rel-
+evant statutory standards …” (White House, 2009).
+REGULATORY INFLUENCES ON 
+TOXICOLOGY
+This chapter has focused thus far on how toxicological data are 
+used in federal regulatory programs. Yet, the relationship between 
+regulation and toxicology is reciprocal, in that regulatory programs 
+have also shaped and influenced the practice of toxicology. Modern 
+toxicology has developed, in substantial part, in response to the 
+information needs of contemporary regulation. But government 
+regulation impinges on the discipline of toxicology in more direct 
+ways as well. Regulatory agencies often prescribe the specific 
+objectives and design of studies that are conducted to satisfy regu-
+latory requirements. In addition, pressure to protect animals used 
+in research has produced laws and regulations that govern toxicolo-
+gists themselves.
+Testing Guidelines
+An agency’s influence over the conduct of toxicology studies 
+depends on its regulatory responsibilities. An agency such as the 
+FDA or the EPA, which must confirm the safety of new substances 
+before marketing, can dictate the kinds of tests that manufacturers 
+must conduct to gain approval. By contrast, an agency or program 
+that has no premarket approval function has less leverage.
+Agencies such as the FDA and EPA that have been authorized 
+to require premarket approval for certain categories of products 
+have generally specified the types of tests they require before they 
+will consider the safety of a compound (e.g., tests for acute toxic-
+ity, subchronic effects, and chronic effects). Within each of these 
+categories, an agency might set out more detailed requirements, 
+essentially enumerating its “base set” data demands. In addition, the 
+agencies usually adopt guidelines that describe preferred or accept-
+able methods for executing particular tests, such as a bioassay for 
+carcinogenesis (FDA, 2000; EPA, 2011a). In addition, the EPA has 
+established guidelines for several of the tests that it may mandate 
+by rule or consent agreement for individual chemicals under TSCA 
+§ 4 (EPA, 2011a). Multinational bodies such as the Organization 
+for Economic Cooperation and Development have sought to secure 
+multilateral adherence to standardized test guidelines and minimum 
+testing requirements for new chemicals (Page, 1982).
+Both the FDA and the EPA have adopted another set of require-
+ments that specify laboratory procedures for conducting tests required 
+or submitted for regulatory consideration. These GLP regulations 
+prescribe essential but often mundane features of sound laboratory 
+science, such as animal husbandry standards and record-keeping 
+practices (EPA, 2011b, 2011c; FDA, 2011a). The GLP regulations 
+including requirements for (i) organization and personnel responsi-
+bilities (e.g., study director should be “a scientist or other professional 
+of appropriate education, training, and experience, or combination 
+thereof”); (ii) a quality assurance program; (iii) facilities; (iv) equip-
+ment, reagents, and materials; (v) test systems; (vi) test and refer-
+ence items; (vii) standard operating procedures; (viii) performance of 
+study; (ix) reporting of results; and (x) archival storage of records and 
+reports. All of these requirements are intended to contribute to sound-
+regulatory decision-making by ensuring the quality and integrity of 
+toxicology data submitted to support agency decisions.
+Food and Drug Administration  The FDA exercises premar-
+keting approval authority over several classes of compounds, of 
+which the most important, for present purposes, are new human 
+drugs and direct additives to food.
+Toxicology Testing Requirements for Human Drugs  In 1962, 
+Congress expressly authorized the FDA to exempt investigational 
+drugs from the premarket approval requirement so that they could 
+be shipped for use in clinical testing, subject to conditions the 
+agency believed appropriate to protect human subjects [FFD&C Act 
+§ 505(i)]. One condition that the FDA established was that an inves-
+tigational drug first must have been evaluated in preclinical studies, 
+which are then submitted to FDA as an Investigational New Drug 
+(IND) application. This requirement appears in current regulations 
+that amplify, in the text and in referenced guidelines, the types of 
+tests that are to be performed and the design they should follow 
+(FDA, 2011b). A drug’s sponsor is encouraged to consult agency 
+personnel to get a precise understanding of what sorts of toxicology 
+studies the agency expects prior to submitting the IND. Preclinical 
+studies of substances that are candidates for use as human drugs 
+must also meet the standards set by the FDA’s GLP regulations 
+(FDA, 2011a). These regulations apply to all laboratories—uni-
+versity, independent, and manufacturer-owned—in which such 
+studies are conducted. The work of the International Conference 
+on Harmonization of Technical Requirements for Registration of 
+Pharmaceuticals for Human Use (ICH) highlights the trend toward 
+international agreement on test methods. Since its founding in 1990, 
+the ICH—comprising the pharmaceutical regulatory agencies and 
+industries from the European Union, Japan, and the United States—
+has issued over 50 harmonized guidelines on various aspects of 
+pharmaceutical regulatory approval, including numerous guidelines 
+on toxicology testing methods for human drugs.
+Testing Requirements for Food Additives  The Food 
+Additives Amendment and the Color Additive Amendments require 
+premarket approval of new additives to human food. Both laws
+
+1584
+Applications of Toxicology
+Unit VII
+assume that laboratory studies in animals will provide the principal 
+data for assessing safety. Thus, a petitioner must submit “full reports 
+of investigations made with respect to the safety for use of such addi-
+tives, including full information as to the methods and control used” 
+[FFD&C Act § 409(c)]. The FDA has adopted regulations specifying 
+the types of data that an applicant must submit (FDA, 2011c).
+The FDA’s regulations contain only general statements about 
+the need for and features of toxicology studies. For many years, the 
+agency maintained an advice-giving system in which it prescribed 
+the type and design of tests to be performed. In 1982, the FDA 
+first codified this “common law” in Toxicological Principles for the 
+Safety Assessment of Direct Food Additives and Color Additives 
+Used in Food, known thereafter as the “Red Book.” The Red Book, 
+revised in 2000, describes the types of tests the FDA believes nec-
+essary to evaluate an additive’s safety (FDA, 2000). The agency’s 
+requirements, which are in the form of guidelines rather than regu-
+lations, are calibrated to the purposes for which the additive will 
+be used, to estimated levels of human exposure, and to the results 
+of sequential studies. Tests of food color and additives must also 
+comply with the FDA’s GLP regulations (FDA, 2011a).
+Environmental Protection Agency  The EPA’s premarket 
+approval authority over pesticides places it, like the FDA, in a 
+position to dictate the design and conduct of studies on such com-
+pounds. The 1976 TSCA gave the EPA authority to mandate test-
+ing of other chemicals in use or scheduled for introduction and to 
+specify, by regulation, test standards.
+Toxicology Requirements for Pesticides  The Federal Insecticide, 
+Fungicide, and Rodenticide Act (FIFRA) requires the submission 
+of toxicology studies, as well as other types of investigations, to 
+support the EPA’s evaluation of a pesticide [FIFRA § 136(b)]. The 
+statute also requires the EPA to publish guidelines specifying the 
+kinds of information that will be required to support the registration.
+The agency has issued regulations outlining the procedures 
+for submission of registration petitions and their basic content (40 
+CFR part 158 and 161). The Office of Chemical Safety and Pollution 
+Prevention (formerly the Office of Prevention, Pesticides, and 
+Toxic Substances) has issued Harmonized Test Guidelines for all 
+toxicology testing done under both FIFRA (pesticides) and TSCA 
+(chemicals) (EPA, 2011a). For example, the Health Effects Test 
+Guidelines (Series 870) include guidelines for approximately 50 dif-
+ferent specific assays for acute toxicity, subchronic toxicity, chronic 
+toxicity, genetic toxicity, neurotoxicity, and other toxicity testing. 
+EPA has attempted to harmonize these guidelines whenever pos-
+sible with applicable Organization for Economic Cooperation and 
+Development (OECD) guidelines. Animal studies of pesticides must 
+also comply with EPA’s own GLP regulations, which were inspired 
+by the same investigations that led the FDA to promulgate its stan-
+dards for testing laboratories and impose similar requirements.
+Testing of Industrial Chemicals  The primary means by which 
+the EPA may mandate health effects testing of new or existing 
+industrial chemicals is Section 4(a) of the TSCA. Prior to the 2016 
+amendments to the TSCA (TSCA, 2016), the agency was required 
+to promulgate a regulation to require testing of a specific compound, 
+but the 2016 amendments provide more flexibility and allow EPA 
+to also require testing by administrative order. This obligation to 
+order testing is triggered by an administrative finding that a chemi-
+cal presents a potential risk (based on the suspicion of toxicity) 
+or that humans or the environment will be exposed to substantial 
+quantities. The statute creates an Interagency Testing Committee 
+(ITC) with members from EPA, CPSC, FDA, Department of the 
+Interior (DOI), OSHA, Council on Environmental Quality (CEQ), 
+National Institute for Occupational Safety and Health (NIOSH), 
+National Institute of Environmental Health Sciences (NIEHS), 
+National Cancer Institute (NCI), National Science Foundation 
+(NSF), Agency for Toxic Substances and Disease Registry 
+(ATSDR), National Library of Medicine (NLM), USDA, and the 
+Department of Commerce to recommend a list of chemicals that 
+should be tested and in what order of priority. Once the ITC has rec-
+ommended a chemical substance for testing, the EPA is required by 
+statute to either initiate testing or publish its reasons for not doing 
+so within 12 months, although given the administrative burdens of 
+such action the agency has frequently failed to meet this deadline.
+Validation of Alternative Test Methods
+Regulatory agencies have also been instrumental in encouraging the 
+development of new safety test methods. Federal agency validation 
+of new toxicological test methods was formalized and harmonized 
+by the Interagency Coordinating Committee on the Validation of 
+Alternative Methods (ICCVAM) Authorization Act of 2000, which 
+permanently established the ICCVAM. Some 15 federal agencies 
+participate in ICCVAM. Congress directed that one of the purposes 
+of ICCVAM was to “ensure that new and revised test methods are 
+validated to meet the needs of Federal agencies” [Pub L 106-545, 
+§3(b)(4)]. In that regard, ICCVAM is directed to review and evaluate 
+new or revised or alternative test methods and to provide test recom-
+mendations to federal agencies. Each federal agency administering a 
+program that “requires or recommends acute or chronic toxicological 
+testing” is required to adopt an alternative test method recommended 
+by ICCVAM unless the agency determines that the alternative test 
+method would not be consistent with its statutory goals.
+The ICCVAM statute also requires that each federal agency 
+“that requires or recommends acute or chronic toxicological testing 
+shall ensure that any new or revised acute or chronic toxicity test 
+method, including animal test methods and alternatives, is deter-
+mined to be valid for its proposed use prior to requiring, recom-
+mending, or encouraging the application of such test method” [Pub 
+L 106-545, §4(c)]. ICCVAM has established detailed criteria for 
+the validation and regulatory acceptance of toxicological test meth-
+ods (NIEHS, 1997). ICCVAM defines validation as “the process by 
+which the reliability and relevance of a test method are evaluated 
+for the purpose of supporting a specific use.” The ICCVAM criteria 
+stipulate that test methods that have been validated according to the 
+ICCVAM criteria are not automatically acceptable for regulatory 
+agencies. The ICCVAM criteria thus specify a second set of criteria 
+for regulatory acceptance, which address the existence of standard 
+operating procedures for the test method, its cost-effectiveness, its 
+utility for agency risk assessment, its potential for harmonization 
+with similar testing requirements by other entities, and its potential 
+for reducing the use of animals. The ICCVAM statute preserves 
+the individual agency’s final authority to accept or reject a specific 
+test method based on its statutory mandate and regulatory mission.
+The ICCVAM process has now been used to validate a sig-
+nificant number of alternative test methods, including for acute 
+oral toxicity, dermal irritation, acute inhalation toxicity, endocrine 
+disruptors, biologics testing, genetic toxicity, ecotoxicity, ocular 
+irritation, allergic contact dermatitis, and reproductive and devel-
+opmental toxicity. The ICCVAM Authorization Act also directs 
+federal agencies to reduce, refine, and/or replace the use of animals 
+in testing where feasible.
+Computational Toxicology
+Another area where regulatory demands and programs are push-
+ing the development of new toxicology tests is the field of compu-
+tational toxicology. Computational toxicology uses high-powered
+
+Regulatory Toxicology
+Chapter 35
+1585
+computers to discern patterns and findings from large data sets 
+derived from quantitative structure–activity relationships, in vitro 
+assays, and various ‘omic technologies (e.g., toxicogenomics, pro-
+teomics, and metabolomics). The regulatory driver for computa-
+tional toxicology is the need to evaluate much larger numbers of 
+chemicals much quicker and at lower costs, and perhaps eventually 
+even with more robust and relevant results, than traditional animal 
+studies. The shift toward computational toxicology was boosted by 
+a 2007 Natural Research Council report entitled Toxicity Testing in 
+the 21st Century: A Vision and a Strategy, which endorsed greater 
+reliance on computational methods (NRC, 2007). EPA has launched 
+an ambitious program to implement computational methods into 
+its regulatory programs, which is called the ToxCast program. The 
+ToxCast program has so far screened over 1800 chemicals using 
+over 700 high-throughput assays that cover a range of high-level 
+cell responses and approximately 300 signaling pathways.
+In 2008, EPA and the National Institutes of Health (NIH) 
+signed a memorandum of agreement to work together to develop 
+these new toxicological methods for regulatory applications 
+(Collins et al., 2008), which grew into an inter-agency collaboration 
+called Toxicology in the 21st century (Tox21). This federal collabo-
+ration among EPA, NIH, including National Center for Advancing 
+Translational Sciences and the National Toxicology Program at the 
+National Institute of Environmental Health Sciences, and the Food 
+and Drug Administration, has the objective of developing better 
+toxicity assessment methods to quickly and efficiently test whether 
+certain chemical compounds have the potential to disrupt processes 
+in the human body that may lead to negative health effects. Using 
+a high-throughput robotic screening system, the program is screen-
+ing 10,000 environmental chemicals (called the Tox21 10K library) 
+for their potential to disrupt biological pathways that may result in 
+toxicity.
+Animal Welfare Requirements
+Researchers who conduct studies funded by federal agencies 
+must comply with the Animal Welfare Act (AWA), and some are 
+also subject to restrictions imposed by the Public Health Service 
+(PHS). Recipients of grants from the Department of Education, the 
+Department of Agriculture, or the EPA are subject only to the AWA. 
+Those funded by the Department of Energy or by the PHS (which 
+includes all research agencies within the Department of Health and 
+Human Services, including the NIH) must also comply with PHS 
+policies. Restrictions on animal use also appear in the GLP regula-
+tions adopted by the FDA and the EPA (Reagan, 1986).
+Animal Welfare Act  The AWA was initially adopted in 1966 
+and has been subsequently amended several times (1970, 1976, 
+1985, 1990, 2002, 2007, and 2008). It is administered by the 
+Animal and Plant Health Inspection Service (APHIS), a part of the 
+USDA. The AWA, which protects only warm-blooded animals and 
+excludes birds, rats, and mice bred for research, requires all cov-
+ered research facilities to register with APHIS and agree to comply 
+with applicable AWA standards for humane treatment of animals. 
+Each facility must file an annual report signed by a responsible offi-
+cial that shows that “professionally acceptable standards governing 
+the care, treatment, and use of animals” were followed for the year 
+in question (Animal Welfare Act, 1988).
+Pursuant to the AWA, APHIS has established specific require-
+ments for the humane handling, care, and transportation of dogs and 
+cats, guinea pigs and hamsters, rabbits, nonhuman primates, marine 
+mammals, and other warm-blooded animals. The regulations gov-
+erning facilities address living space, heating, lighting, ventilation, 
+and drainage. The health and husbandry provisions address feeding, 
+watering, sanitation, veterinary care, grouping of animals, and the 
+number and qualifications of caretakers (APHIS, 2011).
+The AWA requires each research facility to establish an 
+Institutional Animal Care and Use Committee (IACUC), composed 
+of three or more members, one of whom must be a veterinarian and 
+one of whom must represent community interests and who may not 
+be affiliated with the institution. In 1989, the APHIS expanded the 
+responsibilities of the IACUC and increased the minimum size to 
+five members, and must include a veterinarian, an animal research 
+scientist, a nonscientist, and an individual not affiliated with the 
+institution. At least one member of the IACUC must now review 
+and approve the animal care and use components of all proposed 
+research activities. Prerequisites to approval include the avoidance 
+or minimization of discomfort, distress, and pain; the use of pain-
+relieving drugs where appropriate; the consideration of pain-free 
+alternatives; and euthanization when an animal would otherwise 
+experience severe or chronic pain or distress that cannot be relieved.
+The IACUC is also responsible for conducting semiannual 
+inspections of the facility itself and of the program for humane care 
+and use of animals. Committee reports are filed with the APHIS and 
+with any federal agency funding the research.
+Public Health Service Policy  The PHS Policy on Humane 
+Care and Use of Laboratory Animals applies to research funded 
+by the NIH and other federal agencies that uses any vertebrate 
+animals, and thus has a broader reach than the AWA. The PHS 
+policy requires each facility to submit an annual report, called an 
+“Assurance,” which is evaluated by the NIH Office of Laboratory 
+Animal Welfare (OLAW) to determine the sufficiency of animal 
+care.
+The PHS policy imposes two primary obligations on research-
+ers as a condition for receiving federal funding: each institution 
+must adopt an Institutional Program for Animal Care and Use, and it 
+must establish an IACUC. The IACUC must review all applications 
+for research funding and review the institution’s programs to ensure 
+compliance with NIH standards. The Health Research Extension 
+Act of 1985 requires that PHS-funded institutions provide training 
+on methods to reduce animal suffering similar to that mandated by 
+the AWA for its personnel. It also requires that researchers’ grant 
+applications justify any proposed use of animals (NRC, 1988).
+Research facilities subject to either the AWA or PHS may wish 
+to consult a National Academy of Sciences’ report that details sug-
+gestions for developing institutional compliance programs (NRC, 
+1991). Scientists working with no federal funding who expect their 
+research to be submitted to the FDA or the EPA are not subject to 
+the AWA or PHS policies, but they must comply with the animal 
+protection provisions of those agencies’ GLP regulations. These 
+regulations prescribe adequate living conditions, detail require-
+ments for veterinary treatment, and impose specific record-keeping 
+requirements (EPA, 2011b, 2011c; FDA, 2011a).
+ACKNOWLEDGMENTS
+The editor and author recognize the contributions of previous 
+authors of the chapter: Rob S. McCutcheon (1st and 2nd editions), 
+and Richard A. Merrill (3rd to 6th editions).
+REFERENCES
+Cases
+American Federation of Labor v OSHA, 965 F2d 962 (11th Cir 1992).
+American Textile Manufacturers Institute v Donovan, 452 US 490 (1982).
+Baltimore Gas & Elec v NRDC, 462 US 87 (1983).
+
+1586
+Applications of Toxicology
+Unit VII
+Chemical Manufacturers Association v EPA, 899 F2d 344 (5th Cir 1990).
+Chlorine Chemistry Council v EPA, 206 F3d 1286 (DC Cir 2000).
+Corrosion Proof Fittings v Environmental Protection Agency, 947 F2d 1201 
+(5th Cir 1991).
+Environmental Defense Fund, Inc, v Environmental Protection Agency, 548 
+F2d 998 (DC Cir 1976).
+Industrial Union Department, AFL-CIO, v American Petroleum Institute, 
+448 US 607 (1980).
+Les v Reilly, 968 F2d 985 (9th Cir 1992).
+Natural Resources Defense Council, Inc., v United States Environmental 
+Protection Agency, 595 F Supp 1255 (SD NY 1984).
+Natural Resources Defense Council, Inc., v United States Environmental 
+Protection Agency, 824 F2d 1146 (DC Cir 1987).
+Natural Resources Defense Council, Inc., v United States Environmental 
+Protection Agency, 529 F3d 1077 (DC Cir 2008).
+Natural Resources Defense Council, Inc., v United States Environmental 
+Protection Agency, 658 F3d 200 (2nd Cir 2011).
+Northwest Coalition for Alternatives to Pesticides v EPA, 544 F3d 1043 
+(9th Cir 2008).
+Salt Institute v Leavitt, 440 F3d 156 (4th Cir 2006).
+Whitman v American Trucking Associations, Inc, 531 US 457 (2001).
+Secondary Sources
+Albert RE. Carcinogen risk assessment in the U.S. Environmental Protection 
+Agency. Crit Rev Toxicol. 1994;24:75–85.
+Brickman R, Jasanoff S, Ilgen T. Controlling Chemicals: The Politics 
+of Regulation in Europe and the United States. Ithaca, NY: Cornell 
+University Press; 1985.
+Collins FS, Gray GM, Bucher JM. Transforming environmental health pro-
+tection. Science. 2008;319:906–907.
+Cooper R. The role of regulatory agencies in risk-benefit decision-making. 
+Food Drug Cosmet L J. 1978;33:755–757.
+GAO. EPA Implementation of Selected Aspects of the Toxic Substances 
+Control Act. Washington, DC: U.S. General Accounting Office; 1982.
+Heineck D. New clean water act toxics control initiatives. Nat Resour 
+Environ. 1989;4(1):10–12, 49–50.
+Hutt PB, Merrill R, Grossman LA. Food and Drug Law: Cases and 
+Materials. 3rd ed. Mineola, NY: Foundation Press; 2007.
+Marty MS, Carney EW, Rowlands JC. Endocrine disruption: historical per-
+spectives and its impact on the future of toxicology testing. Toxicol Sci. 
+2011;120(S1):S93–S108.
+Merrill R. CPSC regulation of cancer risks in consumer products: 1972–81. 
+Va L Rev. 1981;67:1261.
+National Research Council. Risk Assessment in the Federal Government: 
+Managing the Process. Washington, DC: National Academy; 1983.
+National Research Council. Use of Laboratory Animals in Biomedical and 
+Behavioral Research. Washington, DC: National Academy; 1988.
+National Research Council. A Guide for Developing Institutional Programs. 
+Washington, DC: National Academy; 1991.
+National Research Council. Science and Judgment in Risk Assessment. 
+Washington, DC: National Academy; 1994.
+National Research Council. Toxicity Testing in the 21st Century: A Vision 
+and a Strategy. Washington, DC: National Academy; 2007.
+National Research Council. Science and Decisions. Washington, DC: 
+National Academy; 2009.
+National Research Council. Review of the Environmental Protection 
+Agency’s Draft IRIS Assessment of Formaldehyde. Washington, DC: 
+National Academy; 2011.
+Page NP. Testing for health and environmental effects: The OECD guide-
+lines. Toxic Substances J. 1982;4:135.
+Reagan K. Federal regulation of testing with laboratory animals: future 
+directions. Pace Environ L Rev. 1986;3:165.
+Wagner W. The science charade in toxic risk regulation. Columbia L Rev. 
+1995;95:1613–1723.
+Weinberg A. Science and its limits: the regulator’s dilemma. Issues Sci 
+Tech. 1985;Fall:59–72.
+Wiltse J, Dellarco VL.U.S. Environmental Protection Agency guidelines for 
+carcinogen risk assessment: past and future. Mutat Res. 1996;365:3–15.
+Statutory and Regulatory Materials
+Animal Welfare Act, 7 USC § 2131 et seq (1988).
+APHIS, Animal Welfare, 9 CFR Parts 2 & 3 (2011).
+Comprehensive Environmental Response, Compensation and Liability Act, 
+42 USC § 9601 et seq (1980).
+Consumer Product Safety Act, 15 USC § 2051 et seq (1972).
+Consumer Product Safety Improvement Act, 15 USC § 2051 et seq (2008).
+EPA. Guidelines for carcinogen risk assessment. Fed Reg. 1986;51(185): 
+33992–34003.
+EPA. Proposed guidelines for carcinogenic risk assessment. Fed Reg. 
+1996;61(79):17960–18011.
+EPA. Notice of availability of the document entitled “Guidelines for car-
+cinogen risk assessment”. Fed Reg. 2005;70(66):17766–17817.
+EPA. Harmonized test guidelines. Available at: http://www.epa.gov/ocspp/
+pubs/frs/home/guidelin.htm (2011a).
+EPA. Good Laboratory Practice Standards (FIFRA), 40 CFR Part 160 (2011b).
+EPA. Good Laboratory Practice Standards (TSCA), 40 CFR Part 792 (2011c).
+EPA. Framework for Human Health Risk Assessment to Inform Decision 
+Making. EPA-100/R-14/001 April 2014.
+EPA. Final test guidelines; endocrine disruptor screening program test 
+guidelines (Series 890); Three Tier 2 non-mammalian tests; notice of 
+availability. Fed Reg. 2015a;80(164):5158–51560.
+EPA. Use of high throughput assays and computational tools; endocrine 
+disruptor screening program; notice of availability and opportunity for 
+comment. Fed Reg. 2015b;80(118):35350–35355.
+Executive Order 13563. Improving regulation and regulatory review, 76. 
+Fed Reg. 2011;3821–3823.
+FDA Food Safety Modernization Act (FSMA), Pub L No 111–353 (2011).
+FDA Modernization Act, Pub L No. 105–115 (1997).
+FDA. Toxicological Principles for the Safety Assessment of Food 
+Ingredients: Redbook 2000. Washington, DC: U.S. Food and Drug 
+Administration; 2000 (periodically updated).
+FDA. Good Laboratory Practice for Nonclinical Laboratory Studies, 21 
+CFR. Part 58 (2011a).
+FDA. Investigational New Drug Application, 21 CFR Part 312 (2011b).
+FDA. Food Additive Petitions, 21 CFR Part 171 (2011c).
+Federal Food, Drug, and Cosmetic Act, 21 USC § 321 et seq (1938).
+Federal Hazardous Substances Act, 15 USC § 1261 et seq (1976).
+Federal Insecticide, Fungicide, and Rodenticide Act, 7 USC § 135 et seq 
+(1972).
+Federal Water Pollution Control Act Amendments of 1972, 33 USC § 307.
+Food Additive Amendments to the Federal Food, Drug, and Cosmetic Act, 
+21 USC § 348 et seq (1958).
+Food Quality Protection Act, Pub L No. 104–170 (1996).
+ICCVAM Authorization Act of 2000, Pub L No. 106–545, 106th Congress.
+Information Quality Act, Pub L No. 106–554, 31 USC § 3516 note (2001).
+NIEHS. Validation and Regulatory Acceptance of Toxicological Test 
+Methods: A Report of the ad hoc Interagency Coordinating Committee 
+on the Validation of Alternative Methods. NIH Publication No. 97–3981. 
+Research Triangle Park, NC: NIEHS; 1997.
+Occupational Safety and Health Act, 29 USC § 651 et seq (1970).
+OMB. Memorandum for the Heads of Departments and Agencies, M-05-
+03 (2004). Available at: http://www.whitehouse.gov/omb/memoranda/
+fy2005/m05-03.pdf.
+Resource Conservation and Recovery Act, 42 USCA § 6901 et seq (1976).
+Safe Drinking Water Act, 42 USC §§ 300f to 300j-9 (1974, amended 1996).
+Toxic Substances Control Act (2016), 15 USC § 2601 et seq.
+White House. Memorandum for the Heads of Executive Departments and 
+Agencies. Subject: Scientific Integrity (March 9, 2009).

@@ -1,0 +1,216 @@
+{
+  "source": "Casarett & Doull's Toxicology, 9th Edition",
+  "total_chapters": 35,
+  "chapters": [
+    {
+      "title": "1. The Evolving Journey of Toxicology: A\u00a0Historical\u00a0Glimpse",
+      "unit": "Unit I General Principles of Toxicology",
+      "file": "1-the-evolving-journey-of-toxicology-a-historical-glimpse.txt",
+      "pages": "22-43"
+    },
+    {
+      "title": "2. Principles of Toxicology",
+      "unit": "Unit I General Principles of Toxicology",
+      "file": "2-principles-of-toxicology.txt",
+      "pages": "44-83"
+    },
+    {
+      "title": "3. Mechanisms of Toxicity",
+      "unit": "Unit I General Principles of Toxicology",
+      "file": "3-mechanisms-of-toxicity.txt",
+      "pages": "84-145"
+    },
+    {
+      "title": "4. Risk Assessment",
+      "unit": "Unit I General Principles of Toxicology",
+      "file": "4-risk-assessment.txt",
+      "pages": "146-175"
+    },
+    {
+      "title": "5 Absorption, Distribution, and Excretion of Toxicants",
+      "unit": "Unit II Disposition of Toxicants",
+      "file": "5-absorption-distribution-and-excretion-of-toxicants.txt",
+      "pages": "178-211"
+    },
+    {
+      "title": "6 Biotransformation of Xenobiotics",
+      "unit": "Unit II Disposition of Toxicants",
+      "file": "6-biotransformation-of-xenobiotics.txt",
+      "pages": "212-419"
+    },
+    {
+      "title": "7 Toxicokinetics",
+      "unit": "Unit II Disposition of Toxicants",
+      "file": "7-toxicokinetics.txt",
+      "pages": "420-449"
+    },
+    {
+      "title": "8 Chemical Carcinogenesis",
+      "unit": "Unit III Non-Organ-Directed Toxicity",
+      "file": "8-chemical-carcinogenesis.txt",
+      "pages": "452-515"
+    },
+    {
+      "title": "9 Genetic Toxicology",
+      "unit": "Unit III Non-Organ-Directed Toxicity",
+      "file": "9-genetic-toxicology.txt",
+      "pages": "516-565"
+    },
+    {
+      "title": "10 Developmental Toxicology",
+      "unit": "Unit III Non-Organ-Directed Toxicity",
+      "file": "10-developmental-toxicology.txt",
+      "pages": "566-609"
+    },
+    {
+      "title": "11 Toxic Responses of the Blood",
+      "unit": "Unit IV Target Organ Toxicity",
+      "file": "11-toxic-responses-of-the-blood.txt",
+      "pages": "612-651"
+    },
+    {
+      "title": "12 Toxic Responses of the Immune System",
+      "unit": "Unit IV Target Organ Toxicity",
+      "file": "12-toxic-responses-of-the-immune-system.txt",
+      "pages": "652-737"
+    },
+    {
+      "title": "13 Toxic Responses of the Liver",
+      "unit": "Unit IV Target Organ Toxicity",
+      "file": "13-toxic-responses-of-the-liver.txt",
+      "pages": "738-785"
+    },
+    {
+      "title": "14 Toxic Responses of the Kidney",
+      "unit": "Unit IV Target Organ Toxicity",
+      "file": "14-toxic-responses-of-the-kidney.txt",
+      "pages": "786-811"
+    },
+    {
+      "title": "15 Toxic Responses of the Respiratory System",
+      "unit": "Unit IV Target Organ Toxicity",
+      "file": "15-toxic-responses-of-the-respiratory-system.txt",
+      "pages": "812-857"
+    },
+    {
+      "title": "16 Toxic Responses of the Nervous System",
+      "unit": "Unit IV Target Organ Toxicity",
+      "file": "16-toxic-responses-of-the-nervous-system.txt",
+      "pages": "858-895"
+    },
+    {
+      "title": "17 Toxic Responses of the Cornea, Retina, and Central Visual System",
+      "unit": "Unit IV Target Organ Toxicity",
+      "file": "17-toxic-responses-of-the-cornea-retina-and-central-visual-system.txt",
+      "pages": "896-927"
+    },
+    {
+      "title": "18 Toxic Responses of the Heart and Vascular System",
+      "unit": "Unit IV Target Organ Toxicity",
+      "file": "18-toxic-responses-of-the-heart-and-vascular-system.txt",
+      "pages": "928-971"
+    },
+    {
+      "title": "19 Toxic Responses of the Skin",
+      "unit": "Unit IV Target Organ Toxicity",
+      "file": "19-toxic-responses-of-the-skin.txt",
+      "pages": "972-995"
+    },
+    {
+      "title": "20 Toxic Responses of the Endocrine System",
+      "unit": "Unit IV Target Organ Toxicity",
+      "file": "20-toxic-responses-of-the-endocrine-system.txt",
+      "pages": "996-1021"
+    },
+    {
+      "title": "21 Toxic Responses of the Reproductive System",
+      "unit": "Unit IV Target Organ Toxicity",
+      "file": "21-toxic-responses-of-the-reproductive-system.txt",
+      "pages": "1022-1071"
+    },
+    {
+      "title": "22 Toxic Effects of Pesticides",
+      "unit": "Unit V Toxic Agents",
+      "file": "22-toxic-effects-of-pesticides.txt",
+      "pages": "1074-1125"
+    },
+    {
+      "title": "23 Toxic Effects of Metals",
+      "unit": "Unit V Toxic Agents",
+      "file": "23-toxic-effects-of-metals.txt",
+      "pages": "1126-1181"
+    },
+    {
+      "title": "24 Toxic Effects of Solvents and Vapors",
+      "unit": "Unit V Toxic Agents",
+      "file": "24-toxic-effects-of-solvents-and-vapors.txt",
+      "pages": "1182-1275"
+    },
+    {
+      "title": "25 Toxic Effects of Radiation and Radioactive Materials",
+      "unit": "Unit V Toxic Agents",
+      "file": "25-toxic-effects-of-radiation-and-radioactive-materials.txt",
+      "pages": "1276-1293"
+    },
+    {
+      "title": "26 Toxic Effects of Plants and Animals",
+      "unit": "Unit V Toxic Agents",
+      "file": "26-toxic-effects-of-plants-and-animals.txt",
+      "pages": "1294-1333"
+    },
+    {
+      "title": "27 Food Toxicology: Fundamental and Regulatory Aspects",
+      "unit": "Unit V Toxic Agents",
+      "file": "27-food-toxicology-fundamental-and-regulatory-aspects.txt",
+      "pages": "1334-1379"
+    },
+    {
+      "title": "28 Toxic Effects of Calories",
+      "unit": "Unit V Toxic Agents",
+      "file": "28-toxic-effects-of-calories.txt",
+      "pages": "1380-1399"
+    },
+    {
+      "title": "29 Nanoparticle Toxicology",
+      "unit": "Unit V Toxic Agents",
+      "file": "29-nanoparticle-toxicology.txt",
+      "pages": "1400-1449"
+    },
+    {
+      "title": "30 Ecotoxicology",
+      "unit": "Unit VI Environmental Toxicology",
+      "file": "30-ecotoxicology.txt",
+      "pages": "1452-1483"
+    },
+    {
+      "title": "31 Air Pollution",
+      "unit": "Unit VI Environmental Toxicology",
+      "file": "31-air-pollution.txt",
+      "pages": "1484-1527"
+    },
+    {
+      "title": "32 Analytical and Forensic Toxicology",
+      "unit": "Unit VII Applications of Toxicology",
+      "file": "32-analytical-and-forensic-toxicology.txt",
+      "pages": "1530-1549"
+    },
+    {
+      "title": "33 Clinical Toxicology",
+      "unit": "Unit VII Applications of Toxicology",
+      "file": "33-clinical-toxicology.txt",
+      "pages": "1550-1569"
+    },
+    {
+      "title": "34 Occupational Toxicology",
+      "unit": "Unit VII Applications of Toxicology",
+      "file": "34-occupational-toxicology.txt",
+      "pages": "1570-1591"
+    },
+    {
+      "title": "35 Regulatory Toxicology",
+      "unit": "Unit VII Applications of Toxicology",
+      "file": "35-regulatory-toxicology.txt",
+      "pages": "1592-1605"
+    }
+  ]
+}

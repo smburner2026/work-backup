@@ -1,0 +1,3508 @@
+# 32 Hepatotoxicology
+# Hayes' Principles and Methods of Toxicology, 7th Edition
+# Pages: 1778-1813
+# Unit: Volume II
+
+1719
+32
+Hepatotoxicology
+Maksat Babayev, Luma Melo, and James E. Klaunig
+CONTENTS
+32.1  Introduction�����������������������������������������������������������������������������������������������������������������������������������������������������������������������1720
+32.2  Liver Structure and Function��������������������������������������������������������������������������������������������������������������������������������������������1720
+32.2.1  Structure���������������������������������������������������������������������������������������������������������������������������������������������������������������1720
+32.2.2  Liver Cells������������������������������������������������������������������������������������������������������������������������������������������������������������1721
+32.2.2.1  Hepatocytes�������������������������������������������������������������������������������������������������������������������������������������������1722
+32.2.2.2  Kupffer Cells�����������������������������������������������������������������������������������������������������������������������������������������1723
+32.2.2.3  Hepatic Stellate Cells (Ito Cells)����������������������������������������������������������������������������������������������������������1723
+32.2.2.4  Cholangiocytes�������������������������������������������������������������������������������������������������������������������������������������1723
+32.2.3  Biliary Tract����������������������������������������������������������������������������������������������������������������������������������������������������������1723
+32.2.4  Development��������������������������������������������������������������������������������������������������������������������������������������������������������1723
+32.2.5  Liver Function������������������������������������������������������������������������������������������������������������������������������������������������������1723
+32.2.5.1  Major Functions of the Liver����������������������������������������������������������������������������������������������������������������1724
+32.2.5.2  Carbohydrate, Lipid and Protein Regulation����������������������������������������������������������������������������������������1724
+32.2.5.3  Drug Metabolism����������������������������������������������������������������������������������������������������������������������������������1724
+32.3  Hepatocyte Toxicity����������������������������������������������������������������������������������������������������������������������������������������������������������1726
+32.3.1  Classification of Liver Injury�������������������������������������������������������������������������������������������������������������������������������1727
+32.3.2  Liver Injury and Disease��������������������������������������������������������������������������������������������������������������������������������������1727
+32.3.2.1  Necrosis������������������������������������������������������������������������������������������������������������������������������������������������1727
+32.3.2.2  Apoptosis����������������������������������������������������������������������������������������������������������������������������������������������1728
+32.3.2.3  Non-Alcoholic Fatty Liver Disease (NAFLD)�������������������������������������������������������������������������������������1729
+32.3.2.4  Alcohol Fatty Liver Disease (AFLD)���������������������������������������������������������������������������������������������������1729
+32.3.2.5  Fibrosis�������������������������������������������������������������������������������������������������������������������������������������������������1730
+32.3.2.6  Liver Cancer�����������������������������������������������������������������������������������������������������������������������������������������1731
+32.3.2.7  Biliary Secretory Function Measurement���������������������������������������������������������������������������������������������1735
+32.3.2.8  Mitochondrial Function������������������������������������������������������������������������������������������������������������������������1736
+32.3.2.9  Oxidative Stress������������������������������������������������������������������������������������������������������������������������������������1736
+32.3.2.10  Application of New Approaches to Liver Toxicity�����������������������������������������������������������������������������1737
+32.3.3  Models and Methods to Assess Liver Toxicity�����������������������������������������������������������������������������������������������������1739
+32.3.3.1  In Vivo Studies��������������������������������������������������������������������������������������������������������������������������������������1739
+32.3.3.2  In Vitro Models�������������������������������������������������������������������������������������������������������������������������������������1740
+32.3.4  Measuring Liver Toxicity�������������������������������������������������������������������������������������������������������������������������������������1743
+32.3.4.1  Serum Enzymes������������������������������������������������������������������������������������������������������������������������������������1743
+32.3.4.2  Histopathological Evaluation����������������������������������������������������������������������������������������������������������������1745
+32.3.5  The Role of miRNAs in Liver Disease and Toxicity��������������������������������������������������������������������������������������������1745
+32.3.5.1  miRNAs in Liver Fibrosis and Cirrhosis����������������������������������������������������������������������������������������������1746
+32.3.5.2  The Role of miRNAs in Liver Toxicity������������������������������������������������������������������������������������������������1747
+32.4  Overall Conclusions����������������������������������������������������������������������������������������������������������������������������������������������������������1747
+32.5  Questions���������������������������������������������������������������������������������������������������������������������������������������������������������������������������1747
+References����������������������������������������������������������������������������������������������������������������������������������������������������������������������������������1747
+DOI: 10.1201/9781003390008-36
+
+1720
+Hayes’ Principles and Methods of Toxicology
+32.1  Introduction
+Liver disease is a growing problem in Western cultures. 
+Estimates are that almost one-third of adults in the United 
+States have some level of liver damage secondary to poor diet, 
+obesity, exposure to environmental chemicals and pharmaceu-
+ticals, from chronic alcohol consumption or viral hepatitis. 
+Liver injury induced by chemicals has been well recognized as 
+a toxicological problem. The induction of liver injury follow-
+ing chemical exposure depends not only on the agent involved 
+but also on the duration of exposure, age of the subject, health 
+of the subject and concentration of the chemical agent. The 
+vulnerability of the liver to chemically induced damage is 
+related to its blood supply from the digestive tract and its role 
+in the uptake and biotransformation of xenobiotics. Both phar-
+maceutical and non-pharmaceutical chemicals are capable of 
+inducing liver toxicity. The effects of chemicals to the liver 
+can be classified based on the length of exposure to the toxic 
+agent – acute or chronic. Acute toxic effects can result in either 
+lethal or sublethal changes in the liver cell resulting in modi-
+fied function or cell death. Chronic toxicity is frequently mani-
+fested as cirrhosis or neoplasia. Biochemical and molecular 
+targets in the cell are modified by toxic chemicals resulting in 
+degenerative changes and alterations in function. Some forms 
+of liver injury are reversible, whereas others result in a per-
+manently deranged organ. The liver possesses multiple func-
+tions in maintaining homeostasis, as such a varied response 
+to injury is seen. This variability must be considered when 
+determining the appropriate testing model and procedure for 
+evaluating liver toxicity. This chapter will discuss the major 
+methods, approaches and models that are useful in the detec-
+tion and evaluation of liver injury.
+32.2  Liver Structure and Function
+The liver is the largest organ in mammals. The adult liver usu-
+ally comprises between 4% and 5% of total body weight of 
+the animal. It is located in the right upper quadrant of abdo-
+men touching the lower surface of the diaphragm. It consists of 
+multiple lobes which are separated by the falciform ligament. 
+The blood supply of the liver is very important for its normal 
+function as well as the response of the liver following expo-
+sure of xenobiotics. Oxygen-poor blood that is rich in mate-
+rials absorbed by digestive tract enters the liver through the 
+hepatic portal vein. The liver is also supplied by oxygen rich 
+blood via the hepatic vein. Blood leaves the liver through the 
+hepatic vein which subsequently drains into the inferior vena 
+cava (Figure 32.1).
+The liver is responsible for multiple physiological and bio-
+chemical processes required to maintain the homeostasis of 
+the organism. These include metabolism of macronutrients, 
+protein synthesis, lipid, glucose and cholesterol homeostasis, 
+regulation of growth-signaling pathways and metabolism of 
+xenobiotic compounds. The morphological and functional 
+integrity of the liver is vital for the health of the animal. 
+Most liver functions occur in the parenchymal liver cells or 
+hepatocytes.
+32.2.1  Structure
+The liver consists of liver lobes, which, in turn, are comprised 
+microscopically of hepatic lobules [1]. Each lobule is mor-
+phologically organized in a hexagonal shape around the cen-
+tral vein. At each of the six points of the hexagon are portal 
+triads where the branches of portal vein, hepatic artery and 
+bile ducts are found. Each lobule is approximately 1 mm in 
+diameter. The predominate cells of the liver, the hepatocytes, 
+are arranged in the lobule as plates of hepatocytes separated 
+by blood sinusoids. The vein is a branch of the hepatic portal 
+vein, and the artery is a branch of the proper hepatic artery. 
+Together the hepatic artery and the portal vein supply the 
+blood to the sinusoids providing a mixture of nutrient rich, 
+deoxygenated blood (from the portal vein) and freshly oxy-
+genated blood (from the hepatic artery). Blood flows from the 
+portal tract to the central vein through sinusoids. In addition, 
+bile canaliculi found between hepatocytes display an opposite 
+directional flow going to the portal triad and eventually to the 
+bile duct (Figure 32.1). It has been increasingly recognized 
+that under normal and pathological conditions, many hepa-
+tocyte functions are regulated by substances released from 
+neighboring nonparenchymal cells. Liver sinusoidal endothe-
+lial cells (SEC) perform important filtration function due to 
+the presence of small fenestrations blood and the hepatocyte 
+surface. Liver blood vessels and sinusoids occupy almost a 
+quarter of the mass and volume of the liver and approximately 
+12% of the body’s total blood volume. Thus, the liver serves 
+as a blood reservoir. Regular blood flow in the liver is around 
+1,500–2,000 mL/min comprising a quarter of the total cardiac 
+output that allow free diffusion of many substances, but not of 
+particles of the size of chylomicrons.
+Two models for the description of the liver lobule for mor-
+phologic and functional purposes have been used (Figure 32.2) 
+[1, 2]. In one, the classic lobule is based on hexagonal structure 
+of the liver lobule and describes the regions within the lob-
+ule as centrilobular (surrounding the central vein), periportal 
+(close to the portal triad) or midzonal (present between the two 
+zones). This classic description is founded by the blood flow 
+and morphologic appearance of the liver lobule. A second way 
+views the lobule as a functional unit, the liver acinus [2]. The 
+acinus model consists of the parenchymal hepatocytes, lying 
+between two or more hepatic venules with the portal triad as 
+the center of the acinus. Since there is no physical separation 
+between the acini, the hepatocytes of one acinus are in contact 
+with hepatocytes of the adjacent acini. However, despite the 
+close contact, the cells within the acinus model are exclusively 
+supplied by the blood arising from the centrally located portal 
+triad. As with the classic lobule description, the hepatocytes 
+within the acinus can be divided into three zones with zone 1 
+being the closest to the portal tract, while hepatocytes in zone 
+3 are furthest away from the portal tract and zone 2 in the 
+middle of the acinus. The importance of the zonal classifica-
+tion is important in describing liver pathology as well as help-
+ing to define the mechanism for the induction of the pathology. 
+In general, the classic lobule is the predominant classification 
+used in the description of liver toxicology and pathology.
+The lobule sinusoids are blood vessels lined by a fenestrated 
+endothelium which separates the hepatocytes from the blood
+
+1721
+Hepatotoxicology
+stream. A space of Disse separates the endothelium form the 
+hepatocytes. This structural arrangement allows for the selec-
+tive passage of blood plasma between the hepatocytes and 
+endothelium. The sinusoids participate in the filtering of blood 
+from the intestines via the portal vein. Hepatocytes secrete the 
+bile they make into narrow channels called the bile canaliculi 
+between the plates of hepatocytes. Bile flows through the can-
+aliculi and into the bile ductulus present in the triads. These 
+then merge to form the left and right hepatic ducts which 
+converge forming the common hepatic duct. The common 
+hepatic duct is joined by the cystic duct from the gallbladder, 
+forming the bile duct (Figure 32.1).
+32.2.2  Liver Cells
+The cells in the liver can be classified into two major types: 
+parenchymal cells and nonparenchymal cells. The paren-
+chymal cell in the liver is the hepatocyte. The hepatocyte is 
+FIGURE 32.1  Schematic diagram of the hepatic lobule. The hexagonal structure of the hepatic lobule is shown in panel A with the portal triad (PS) 
+and central vein (CV) identified. Cellular structures in the liver lobule are marked in panel B showing the portal triad containing the hepatic vein, bile 
+duct and portal vein. The plates of hepatocytes lining the blood sinusoid leading to the central vein. Panel C provides more detail into the cells within 
+the lobule and the orientation of the cells with respect to the sinusoid. KCs are embedded in the endothelium, while the stellate cells (Ito cells) reside 
+in the space of Disse between the hepatocytes and the endothelial cells.
+
+1722
+Hayes’ Principles and Methods of Toxicology
+approximately 60% of all liver cells in number and approxi-
+mately 80% of the liver by volume [3]. Nonparenchymal cells 
+constitute 40% of the total number of liver cells but only 6.5% 
+of the liver volume with the blood vessels (sinusoids) contrib-
+uting the remaining volume. The walls of hepatic sinusoid are 
+lined by three different cell types: SEC, Kupffer cells (KCs) 
+and hepatic stellate cells (HSCs) (Ito cells) (Figure 32.1). 
+Additionally, intrahepatic lymphocytes, including pit cells, 
+i.e., liver-specific natural killer (NK) cells, are often present in 
+the sinusoidal lumen. The HSCs (Ito cells), another group of 
+nonparenchymal cells, are located in the perisinusoidal space 
+(space of Disse), between the sinusoids and the hepatocytes.
+32.2.2.1  Hepatocytes
+The hepatocyte is the dominant structural and functional cell 
+of the liver. It is a polygonal cell with a diameter of 25–30 ōm. 
+Hepatocytes exhibit a polarity, with the side facing the endo-
+thelium displaying microvilli while the opposite side of the 
+hepatocyte being in contact with adjacent hepatocytes via 
+tight junctions [4]. The hepatocyte polarization is the result of 
+molecular differences on the surface membrane. Cell recep-
+tors, pumps, transport channels and carrier proteins all form 
+three domains of hepatocytes: the basolateral, lateral and 
+canalicular domains. The hepatocyte is rich in mitochondria, 
+peroxisomes, Golgi, lysosomes, rough and smooth endoplas-
+mic reticulum and microtubules/microfilaments. Glycogen 
+and lipid (droplets) are also present in the cytoplasm [4]. 
+Hepatocytes can differ morphologically and functionally from 
+each other based on their location within the liver lobule. 
+There are well-established differences in oxidative metabo-
+lism, mitochondria number and enzyme activity based on the 
+location of the hepatocyte within the lobule. Hepatocytes close 
+to the portal tracts receive highly oxygenated blood and con-
+tain enzymes involved in oxidative reactions. They make and 
+store glycogen and synthesize proteins. Hepatocytes closest 
+to the central veins are furthest from the oxygenated blood 
+supply, so they do not carry out oxidative activities, instead 
+are involved in detoxifying reactions. Hepatocytes in between 
+have intermediate metabolic properties. These differences 
+play an important role in determining the potential toxic 
+effects of xenobiotic chemicals. Hepatocytes are essential in 
+the synthesis and regulation of lipid, glucose and proteins in 
+the blood. They serve in the regulation of lipid, both synthe-
+sis and removal from the blood. The hepatocyte also regulates 
+the release of stored glucose into the circulation as the energy 
+needs of other organs occur. Circulating proteins including 
+albumin, coagulation factors and complement proteins are 
+FIGURE 32.2  Classic and acinar models of the liver lobule. Diagram of the liver lobule illustrating the two accepted models in defining the structure 
+and function of the liver lobules. In the classic lobule view, the lobule is defined as central vein centric with the flow of blood from portal triad to central 
+vein. The hepatocytes in the classic lobule are described as centrilobular, periportal or midzonal. The acinus model is portal triad centric and defines 
+the location of the hepatocytes in zones. Zone 1 is the closest to the portal tract (periportal in the classic lobule nomenclature), zone 3 hepatocytes are 
+the closest to the central vein (centrilobular) and zone 2 is a midzonal location.
+
+1723
+Hepatotoxicology
+synthesized in the hepatocytes. An important function of the 
+hepatocytes with respect to toxicology and pharmacology is 
+the removal of biologically active chemicals (both exogenous 
+and endogenous) from the blood through oxidative and conju-
+gative metabolisms.
+32.2.2.2  Kupffer Cells
+Hepatic macrophages are an important nonparenchymal com-
+ponent of the liver [5]. The liver macrophages can be classified 
+into two groups: resident macrophages and those derived from 
+bone marrow [6]. The KC is the resident hepatic macrophage. 
+They are thought to be formed from the yolk sac during the 
+embryonic development and renewed as needed. KCs reside in 
+sinusoidal lumen on the endothelial cells, located in the space 
+between adjacent endothelial cells and frequently extending 
+into the space of Disse. There is a zonal difference in the num-
+ber of KCs within the liver lobule with a greater concentration 
+seen in the periportal region [5]. A primary role of the KC, 
+as with most macrophages, is the uptake and breakdown of 
+particulate matter, particularly foreign bodies such as bacteria. 
+The greater number of KCs in the periportal region reflects 
+this function since the portal blood flow comes from the intes-
+tine where bacterial infiltration occurs. The KCs also play an 
+important role in the liver homeostasis by regulating inflam-
+matory processes, by generating cytokines, eicosanoids and 
+reactive oxygen species (ROS) as well as participating in the 
+fibrotic response [7, 8].
+32.2.2.3  Hepatic Stellate Cells (Ito Cells)
+The HSC was first described by Ito using the light micro-
+scope. Ito cells are fat-storing cells [9]. These cells are located 
+between hepatocytes and endothelial cells in the liver [10]. Ito 
+cells comprise approximately 10% of all liver cells [11]. They 
+maintain close contact with hepatic cells. Stellate cells pos-
+sess different functions depending on the status of the liver. 
+Under normal liver function, the Ito cells function for vita-
+min A storage, some drug metabolism and detoxification, and 
+blood flow regulation [12]. However, in conditions where hepa-
+tocyte necrosis and/or excess inflammation occurs, the stellate 
+cell functions in angiogenesis, regeneration and may initiate 
+liver fibrosis by synthesizing and secreting collagen and other 
+extracellular matrix (ECM) proteins [13–17].
+32.2.2.4  Cholangiocytes
+Cholangiocytes are biliary epithelial cells that line the bile 
+ducts both internally and externally in the liver. Cholangiocytes 
+form the Canal of Herring where the bile duct connects with 
+bile canaliculi in lobule [18]. As seen with other liver cells, 
+cholangiocytes are polarized, having different plasma mem-
+brane domains within the cell that are involved with differ-
+ent transport functions [18]. These cells produce most of the 
+bile by volume and function in an immunoregulatory role by 
+responding to xenobiotics and foreign antigens within biliary 
+tract.
+32.2.3  Biliary Tract
+The biliary tract is derived from the branches of the bile ducts. 
+The biliary tract is the path by which bile secreted by the liver 
+is transported to the duodenum [18]. The bile produced in the 
+liver is collected in bile canaliculi, between adjacent hepato-
+cytes. The canaliculi radiate to the edge of the liver lobule, 
+where they merge to form bile ducts. The hepatic ducts exit 
+the liver and merge to form the common hepatic duct. The cys-
+tic duct from the gallbladder joins with the common hepatic 
+duct to form the common bile duct. Bile either drains directly 
+into the duodenum via the common bile duct or is temporarily 
+stored in the gallbladder via the cystic duct. The common bile 
+duct and the pancreatic duct enter the second part of the duo-
+denum together at the hepatopancreatic ampulla.
+32.2.4  Development
+Understanding the embryonic development of the liver is 
+important considering the role that the various liver cells 
+play in response to toxic and pathologic conditions. The liver 
+develops from the third to the eighth week of embryogenesis. 
+Arising from the early GI tract in the embryo, hepatic endoder-
+mal cells (called hepatoblasts) undergo a morphological tran-
+sition from a columnar form to pseudostratified appearance 
+resulting in thickening of the early liver bud [19]. The hepato-
+blasts migrate into the septum transversum mesenchyme and 
+the liver architecture starts to form. These bipotential hepato-
+blasts then differentiate into either biliary epithelial cells or 
+hepatocytes. The biliary epithelial cells are seen around the 
+portal veins forming a bilayer of cuboidal cells. Hepatoblasts 
+not adjacent to portal veins differentiate into hepatocytes and 
+arrange themselves into cords lined by sinusoidal epithelial 
+cells and bile canaliculi. Once the hepatocytes differentiate 
+from the hepatoblasts, they take on the functions of a mature 
+hepatocyte including the expression of genes involved in drug 
+metabolism, carbohydrate metabolism, ammonia detoxifica-
+tion and bile production and secretion. The fetal liver also 
+participates in blood cell production. Prior to birth, the liver 
+releases blood stem cells to the fetal thymus, creating the 
+T-cells. After birth, the formation of blood stem cells shifts to 
+the red bone marrow.
+32.2.5  Liver Function
+The liver plays an essential role in carbohydrate, protein, 
+amino acid and lipid synthesis and metabolism (Table 32.1) 
+[20]. Most of the liver functions are performed by the hepa-
+tocytes. The liver performs several roles in carbohydrate 
+metabolism. The liver synthesizes and stores glycogen via 
+glycogenesis [21]. When required, hepatocytes release glu-
+cose into the blood by breaking down this stored glycogen. 
+In addition, hepatocytes can synthesize glucose from amino 
+acids, lactate or glycerol. The liver is also responsible for the 
+breakdown of insulin and other hormones. The liver plays a 
+significant role in protein synthesis, metabolism and degrada-
+tion. Proteins, including those involved in coagulation and red 
+blood cell production, are synthesized in the liver. The liver 
+is also the major site of production for thrombopoietin, the
+
+1724
+Hayes’ Principles and Methods of Toxicology
+glycoprotein hormone that regulates the production of platelets 
+by the bone marrow. Regarding lipid metabolism, the liver is 
+involved in cholesterol synthesis, lipogenesis and the produc-
+tion of triglycerides. Most lipoproteins are synthesized in the 
+liver. The liver also breaks down bilirubin via glucuronidation, 
+facilitating its excretion into bile. It is the primary site for the 
+metabolism and detoxification of xenobiotic chemicals as well 
+as endogenous hormones. The liver also converts ammonia 
+into urea as part of the urea cycle, and the urea is excreted in 
+the urine.
+32.2.5.1  Major Functions of the Liver
+Of the over 20,000 protein-coding genes that are expressed in 
+human cells, over 60% are expressed in a normal, adult liver 
+[22]. Over 400 genes are specifically expressed in the liver. 
+Most of the liver-specific proteins are expressed in hepatocytes 
+and secreted into the blood constituting the plasma proteins 
+[23]. Other liver-specific proteins are components of bile syn-
+thesis such as BAAT and SLC27A5 as well as transporter pro-
+teins involved in the metabolism of drugs including ABCB11 
+and SLC2A2 [24]. Other liver-specific proteins include apoli-
+poprotein A II, coagulation factors F2 and F9, complement-
+factor–related proteins and the fibrinogen beta chain protein.
+32.2.5.2  Carbohydrate, Lipid and 
+Protein Regulation
+It is critical for mammalian life to maintain proper concentra-
+tions of glucose in blood. An important function of the normal 
+liver is to maintain normal blood glucose levels over both short 
+and long periods of time. Hepatocytes contain the metabolic 
+pathways that control the maintenance of proper blood glucose 
+levels. Excess blood glucose is rapidly taken up by the liver 
+and sequestered in the form of glycogen (a process called gly-
+cogenesis). As blood glucose concentrations decline, the liver 
+depolymerizes the glycogen to reform the glucose and secrete 
+it back into the blood. Hepatocytes can also synthesize glu-
+cose from amino acids and non-hexose carbohydrates through 
+gluconeogenesis.
+Lipid metabolism is predominantly handled by the liver. It 
+oxidizes triglycerides to produce energy including the break-
+down of fatty acids to acetoacetate. The majority of lipopro-
+teins are synthesized in the liver and the liver is the major site 
+for converting excess carbohydrates and proteins into fatty 
+acids and triglycerides, which are then exported and stored in 
+adipose tissue. The liver also synthesizes cholesterol and phos-
+pholipids that is packaged with lipoproteins for blood transport 
+or excreted in bile as cholesterol and converted to bile acids.
+Regarding protein synthesis, the liver in general and hepato-
+cytes specifically are responsible for synthesis of most plasma 
+proteins. Albumin, the major plasma protein, is synthesized 
+almost exclusively by the liver. Also, the liver synthesizes 
+many of the clotting factors necessary for blood coagulation. 
+Bile production is also a function of the liver. Hepatocytes 
+make bile from cholesterol which is converted to bile salts. 
+Bile salts emulsify fats and break the fat down into smaller 
+units. This increases the surface area of the fat allowing for 
+lipases to further digest the fat. The removal of ammonia and 
+hemoglobin by products from the body is a major function of 
+the liver. Hemoglobin is metabolized to bilirubin in the liver 
+and then secreted in bile and removed from the body in feces. 
+The liver also participates in the storage of the fat-soluble vita-
+mins, A, B12, D, E and K as well as iron and copper. The sum-
+mary of the normal liver function is presented in Table 32.1.
+32.2.5.3  Drug Metabolism
+Metabolism is the process of transformation of chemicals from 
+one chemical form to another through enzymatic processes. 
+In the liver, the predominant drug-metabolizing enzymes are 
+cytochrome P450s (CYP450s) [25]. The primary purpose of 
+liver metabolism is to modify and remove endogenous and/or 
+exogenous molecules from the body. In general, the metabolism 
+process converts lipophilic chemicals to hydrophilic forms to 
+facilitate their elimination. While exogenous xenobiotics can 
+enter the body through multiple routes, most exogenous chemi-
+cals eventually end up in the liver where they are metabolized. 
+For example, approximately 70% of an orally administered 
+drug is absorbed through gastrointestinal tract and transported 
+to liver through hepatic portal vein [26]. The central role played 
+by liver in the clearance and transformation of chemicals makes 
+it susceptible to xenobiotic and drug-induced injury.
+The initial step toward metabolism of chemicals in the liver 
+is their uptake from the blood. This uptake is governed by pas-
+sive and/or active diffusion across the hepatocyte membrane. 
+The diffusion is determined by physicochemical properties of 
+the chemical. Passive transport consists of simple diffusion and 
+filtration, whereas special transport includes active and facili-
+tated transport types. While the charge of a drug can impact 
+its ability to permeate the cell membrane via passive diffusion, 
+TABLE 32.1
+Major Functions of the Liver
+Function
+Metabolism
+Detoxification of drugs and xenobiotics
+Metabolism of fatty acids, steroid 
+hormones
+Conversion of ammonia to urea
+Conversion of T4 to T3
+Cholesterol metabolism
+Sex hormones
+Vitamin D production
+Immune system
+Removal of viruses and bacteria
+Protein synthesis
+Synthesis of prothrombin and other 
+clotting factors
+Lipoprotein synthesis for cholesterol 
+transport
+Immunoglobulin synthesis
+Albumin synthesis
+Storage of micronutrients
+Minerals – copper, zinc, iron, magnesium
+Vitamins – A, D, E, K, B12
+Blood glucose maintenance
+Synthesis and storage of glycogen, 
+glycogenesis, gluconeogenesis
+Hemoglobin metabolism
+Formation of bilirubin
+Production of bile
+
+1725
+Hepatotoxicology
+measure of its lipophilicity (log P) and topological polar sur-
+face area (TPSA) are the other two properties that affect drug 
+permeation by passive diffusion [27]. TPSA is a number of 
+oxygen and nitrogen atoms in a molecule, which participate in 
+formation of hydrogen bonds with water molecules. Molecules 
+with higher TPSA have difficulty permeating membrane via 
+passive diffusion. Thus, TPSA and the rate of membrane per-
+meation via passive diffusion are inversely related [28, 29]. 
+Nonsteroidal anti-inflammatory drugs contain a carboxylic 
+acid functional group, and they tend to have better membrane 
+permeation via passive diffusion due to their physicochemical 
+properties. Antidepressant drugs that contain aliphatic amine 
+group follow the same pattern. However, antidepressants have 
+large volume of distribution (ratio of the amount of drug in 
+total body to the concentration of drug in plasma). This hap-
+pens due to the fact that antidepressants have rapid permeation 
+through tissues via passive diffusion and high partitioning into 
+phospholipid membranes and ion partitioning into lysosomes.
+Once in the hepatocyte, the chemical can be further metabo-
+lized. Xenobiotic metabolism can be divided into two phases: 
+Phase 1 and Phase 2 (Table 32.2) [30]. Phase 1 reactions prepare 
+the chemical for further metabolism in Phase 2. The Phase 1 
+reactions involve oxidation, reduction, hydrolysis, hydration 
+and many other rare chemical reactions. These processes tend 
+to increase water solubility of the lipophilic chemicals.
+Most Phase 1 metabolic enzymes are located in the endo-
+plasmic reticulum. This family of Phase 1 enzymes are known 
+as CYP450s (Table 32.3) [31]. CYP450s are the terminal oxi-
+dase component of an electron transport chain. It is not a single 
+enzyme, but rather consists of a closely related family of 50 
+isoforms. Diversity of individual P450 gene products is seen. 
+The P450 enzymes heterogeneity allows the liver to perform 
+oxidation on a vast array of chemicals (including almost all 
+drugs) in Phase 1 metabolism. The function of the P450 sys-
+tem is influenced by genetic diversity, modulation of enzyme 
+activity and inhibition of the P450 enzymes. Each of the P450 
+proteins is unique and accounts (to some extent) for the varia-
+tion in drug metabolism between individuals. Genetic varia-
+tions (polymorphism) in P450 metabolism can be linked to 
+observed unusual sensitivity or resistance to xenobiotics [32]. 
+In humans, such polymorphism is also responsible for variable 
+pharmaceutical response among patients of differing ethnic 
+backgrounds. Besides genetics, other substances can influence 
+the P450 enzyme activity. Xenobiotic compounds can interact 
+with the P450 enzyme family as either inhibitors or induc-
+ers of the enzymes. Enzyme inhibitors block the metabolic 
+activity of P450 enzymes. For example, grapefruit juice is an 
+inhibitor of the CYP450 3A4 enzyme and transporters such 
+as P-glycoprotein and organic anion transporting polypep-
+tides. This effect usually occurs immediately. This inhibition 
+can lead to increases in the bioavailability and serum levels 
+of drugs that are detoxified by CYP3A4 such as the benzodi-
+azepines. This results in longer sedation. On the other hand, 
+inducers increase P450 activity by increasing its synthesis. 
+Depending on the inducing drug’s half-life, there is usually 
+a delay before enzyme activity increases. There can also be 
+competitive inhibition of the P450 enzymes. Other xenobiotics 
+may share the same P450 enzyme specificity and in turn com-
+petitively inhibit the metabolism of the compound in question 
+leading to its accumulation and failure to be metabolized. This 
+competitive inhibition would lead to a failure to detoxify the 
+compound leading to liver toxicity
+Most biotransformation reactions happen in cellular com-
+partments within the hepatocyte [27]. For example, Phase 1 
+reactions predominantly occur in the smooth ER where the 
+cytochrome enzymes are found. Phase 2 reactions usually 
+take place in the cytosol. Enzymes involved in Phase 1 and 
+Phase 2 metabolism can be induced as a result of activation 
+of specific receptors and further increase in gene expression. 
+For example, the aryl hydrocarbon receptor (AhR) is linked 
+to the expression of CYP1 enzymes. While receptors such as 
+the constitutive androstane receptor (CAR), the pregnane X 
+receptor (PXR) and peroxisome proliferator-activated recep-
+tor − (PPAR−) control CYP enzyme activity through gene 
+expression of the CYP enzyme family, xenobiotic chemicals 
+during their metabolism can increase CYP enzymes concen-
+tration through increased receptor binding and subsequent 
+gene expression of the specific CYP. Besides exogenous com-
+pounds, endogenous molecules, including steroids and hor-
+mones that are generated in the body, are also metabolized 
+by the liver. Biotransformation of a chemical does not always 
+end with its detoxification. For example, in the case of ethanol, 
+TABLE 32.2
+Phase 1 and Phase 2 Liver Metabolism
+Chemical Reactions
+Hepatic Enzymes
+Phase 1 
+metabolism
+Oxidation
+Reduction
+Hydrolysis
+Acetylation
+CYP450
+Flavin monooxygenase
+Esterases
+ADH
+Monoamine oxidase
+Phase 2 
+metabolism
+Sulfate conjugation
+Glucuronide 
+conjugation
+Glutathione conjugation
+Amino acid conjugation
+Uridine diphosphate-
+glucuronic transferase
+Sulfotransferases
+N-acetyl transferase
+Glutathione S-transferase
+Methyl transferase
+Amino acid conjugation
+TABLE 32.3
+Selective Attributes of CYP450
+CYP450
+The CYP450s represent a superfamily of heme-based enzymes
+      Numerous isoforms
+      Nomenclature is based on family, subfamily and specific gene
+            In the case of CYP1A2,
+	 	
+  the 1 indicates the family,
+	 	
+  the A relates to the subfamily and
+	 	
+  the 2 indicates the specific gene
+Can catalyze multiple reaction but predominantly hydroxylation
+Can be induced or inhibited by chemical compounds
+Occur in many tissues, but highly expressed in the liver
+Found on the smooth endoplasmic reticulum
+Under gene expression control through specific receptors
+
+1726
+Hayes’ Principles and Methods of Toxicology
+metabolism converts some ethanol to an aldehyde which has 
+greater toxicity to the liver than the ethanol itself. Several 
+chemical carcinogen precursors (procarcinogens) can be acti-
+vated by CYP metabolism. These active metabolites can lead 
+to the production of reactive metabolites which in turn can 
+bind to and mutate genomic DNA. CYP metabolism can also 
+produce ROS that contribute to oxidative stress.
+Modification of xenobiotics is the Phase 1 of drug metabo-
+lism, where reactive and polar groups are introduced to drug 
+substrates by enzymes. The main modification reaction types 
+are hydrolysis, reduction and oxidation. Mentioned reactions 
+introduce or expose already present functional groups such 
+as hydroxides, amines, thiols and carboxylic acids. Common 
+examples of reaction types are aliphatic hydroxylation, aro-
+matic hydroxylation, alcohol dehydrogenation, aldehyde 
+oxidation, epoxidation etc. Phase 1 modifications that facili-
+tate xenobiotic elimination include increasing its TPSA and 
+decreasing its lipophilicity (or in other words, increasing its 
+hydrophilicity). Both these modifications negatively impact 
+membrane permeation via passive diffusion and decrease the 
+likelihood of further reabsorption of metabolites in the small 
+intestine or kidney.
+In Phase 2 biotransformation, conjugation of xenobiotic or 
+its metabolite with a glucuronic acid (or sulfonic acid) or zwit-
+terion takes place [33]. Phase 2 conjugation has higher impact 
+on drug physicochemical properties and leads to larger changes 
+in drug TPSA and its lipophilicity. Common Phase 2 reactions 
+include O-methylation, N-acetylation, O-glucuronidation and 
+glutathionuria. Phase 2 metabolites that form in the liver are 
+effluxes into bile by transporters (MRP1, MRP2, BCRP etc.) or 
+into blood with later elimination in urine. There can be a varia-
+tion in the elimination routes and ratios between the species 
+depending on the transporter expression. Interestingly, acety-
+lation and methylation are another conjugation types of Phase 
+2 biotransformation, but with a different effect. Methylation 
+decreases the TPSA and increases xenobiotic lipophilicity, and 
+as a result slows down elimination of a drug.
+Transporters also play significant role in eliminating drugs 
+that permeate membranes with high rate of passive diffusion; 
+however, metabolism is the rate-determining step in drug 
+elimination in this case [27, 34]. When a drug reaches liver 
+or small intestine, there are two ways of elimination: efflux 
+by transporters or biotransformation. CYP450s enzyme family 
+plays a major role in metabolizing xenobiotics. Hepatic CYP3A 
+enzymes rapidly metabolize drugs that are transported to liver 
+by OAPT1B1/3 [35]. Biotransformation of xenobiotics takes 
+place in the gut through combined actions of intestinal P-gp 
+transporters and intestinal CYP3A. This is true for xenobiot-
+ics that are substrates for the efflux transporter P-gp or for the 
+hepatic OATP uptake transporters. A number of acidic drugs 
+with large molecular weight are metabolized by CYP2C8. 
+Acidic drugs with lower molecular weights are substrates for 
+CYP2C9 [36].
+It is well established that there is interspecies variation in 
+chemical absorption, metabolism and elimination. Differences 
+in gastric pH among the species are thought to be one of the 
+reasons for variation in drug metabolism as it caused evolu-
+tionary pressure to select acid-metabolizing CYP enzymes in 
+humans [27]. Humans and cynomolgus monkeys are shown to 
+absorb acidic drugs by means of passive diffusion more read-
+ily than other species due to low gastric pH [37]. In general, 
+drugs that enter cells via passive diffusion and they do not 
+need efflux transporters in order to enter cells. Phase 2 metab-
+olites of these drugs, however, need efflux transporters for 
+their elimination. Xenobiotics that permeate membranes with 
+a high rate of passive diffusion but are not substrates of Phase 
+1 and Phase 2 enzymes are not common. They can be quickly 
+absorbed but take a long time to be eliminated from the body, 
+which is the case for polyhalogenated aromatic compounds.
+32.3  Hepatocyte Toxicity
+Every exogenous compound that is ingested and absorbed will 
+pass through the liver and become a target of liver metabolism. 
+Thus, depending on the dose that the liver is exposed to a cer-
+tain compound, it can cause liver toxicity (or hepatotoxicity) 
+and cause liver injury [38]. Liver damage caused by chemicals 
+has been documented for over a century. In the beginning of the 
+20th century, the link between cirrhosis and heavy alcohol con-
+sumption in humans and laboratory animals testing for hepatic 
+lesions caused by different chemicals such as carbon tetrachlo-
+ride and chloroform were discovered. Acetaminophen (APAP) 
+is an example of a commonly used, over-the-counter pain 
+reliever that, depending on dose, can be toxic to the liver. Its 
+misuse is viewed as a classic drug-induced liver injury (DILI) 
+[39]. The mechanism of APAP is well studied and linked to the 
+depletion of glutathione which detoxifies the APAP. A metabo-
+lite of APAP (N-acetyl-p-benzoquinone imine) then increases 
+and produces the liver toxicity. The issues of drug-induced 
+liver toxicity as well as non-pharmaceutical chemical liver 
+injury are recognized as important contributors to liver toxic-
+ity [40]. It has been estimated that over 900 pharmaceuticals 
+are capable of causing DILI, which results in approximately 
+5% of all hospital admissions, with half of those resulting in 
+liver failure. A web site, LiverTox® (https://livertox.nlm.nih.
+gov/), has been established by the National Institute of Health 
+(NIH) as a resource for DILI. LiverTox® provides up-to-date 
+information on liver injury that is linked to prescription and 
+nonprescription pharmaceuticals and some selected herbal and 
+dietary supplements. The LiverTox site is an excellent resource 
+for information in idiosyncratic drug-induced hepatotoxicity.
+The extent of liver injury produced by a xenobiotic is 
+related to concentration of the compound as well as duration 
+of exposure [41, 42]. In the case of acute exposure both func-
+tional and pathologic changes are observed. These changes 
+frequently involve a continuum from sublethal to lethal 
+changes in the cells. The sublethal changes can be reversible, 
+may be completely repaired or may result in permanently 
+impaired function. Lethal changes involve the death of the 
+cell(s) (necrosis). Depending on the extent of cell death in 
+the liver, the result may be total loss of function and nor-
+mal histology resulting in organ failure, or the replacement 
+(regeneration) of the liver resulting in return to normal func-
+tion and structure. A distinct species and strain difference 
+in the effect of toxic agent exposure on the liver has been 
+documented, and the differences seen in various species can 
+be related to pharmacokinetics and dose. The reason why
+
+1727
+Hepatotoxicology
+liver is highly vulnerable to damage caused by xenobiotic 
+chemicals is due to its role in the metabolism of the xeno-
+biotics. Below we address some of the important concepts, 
+approaches and models for detecting and evaluating liver 
+injury in laboratory animals. The ultimate result is the devel-
+opment of proper mechanistic-based data to assess human 
+risk to these xenobiotics [41–45].
+32.3.1  Classification of Liver Injury
+Following chemically induced liver damage, the morphologi-
+cal changes in the liver lobule can be characterized based on 
+the location and the type of the lesion produced. Liver damage 
+can appear morphologically in a variety of patterns [43, 46, 
+47]. Early toxic changes may include accumulation of the lip-
+ids in the hepatocytes [48]. Hydropic change in the hepatocyte 
+is reversible in a prelude to eventual death of the cell if the 
+injury is too severe to repair. Necrosis refers to the process of 
+cell death [49]. Various forms of necrosis are seen in the liver 
+depending on the extent of the damage and the location of the 
+damage [50, 51]. Cells in a hepatic lobule may become necrotic 
+as single cells (single cell necrosis) or in tiny clusters (focal 
+necrosis), or in all zones (centrilobular or periportal necrosis). 
+Zonal necrosis is seen in every lobule while focal necrosis 
+is more localized to a few lobules. If the injury is extensive 
+enough the liver may undergo massive necrosis resulting in 
+liver failure[51]. Lipid accumulation in the hepatocytes can be 
+related to uptake of more lipids into the hepatocyte, or the fail-
+ure to package the lipids for export. Lipid accumulation is a 
+sublethal and reversable change if the damage is not too exten-
+sive or prolonged. Besides direct damage to the hepatocytes by 
+xenobiotics, cholestatic toxicity, caused by bile flow reduction, 
+decrease in bile salt formation and retention of bilirubin are 
+retained, is also a common type of liver injury resulting in 
+jaundice [52].
+During long-term exposure, chemically caused liver dam-
+age can affect the entire liver structure and lead to prolif-
+erative and degenerative alterations. Neoplastic changes 
+including hepatocellular carcinoma (HCC), hepatic adenoma 
+and hepatoblastoma are seen especially in rodents following 
+chronic exposure to xenobiotics. Human liver cancer is one of 
+the most common cancers in the world, with about 500,000 
+deaths annually [53]. HCC is the most prevalent form of pri-
+mary human liver cancer [54]. While causes of HCC vary, the 
+most common etiology is chronic hepatitis B and C, early oral 
+contraceptives, Thorotrast imaging material, chronic alcohol 
+abuse, aflatoxin exposure, and iron or copper overload.
+32.3.2  Liver Injury and Disease
+Overexposure to drugs and other chemicals can cause liver 
+injury. The types of adverse liver responses include fatty liver, 
+cell death, cholestasis, damage to vascular system in the liver, 
+fibrosis and cancer. Liver diseases constitute a significant 
+global public health issue, with worldwide estimate showing 
+that 844 million people have chronic liver diseases with mor-
+tality of 2 million deaths per year [55]. Diseases such as liver 
+necrosis, non-alcoholic fatty liver disease (NAFLD), alcoholic 
+fatty liver disease (AFLD) and non-alcoholic steatohepatitis 
+(ASH) (NASH) are predominant in Western countries.
+32.3.2.1  Necrosis
+Death of hepatocytes is classified as liver necrosis [49, 56]. 
+Multiple causes of necrosis have been described including 
+overdose of pharmaceuticals (such as APAP), chemical expo-
+sure (CCL4, CCL3), and virus and bacterial exposure and 
+ischemic injury (termination of blood supply to the liver tis-
+sue) [49, 51]. The extent of the damage determines whether 
+the liver recovers from the necrosis or goes on to liver failure. 
+Other factors such as age, nutrition and previous injury also 
+contribute to the repair capability of the liver following necro-
+sis. The classic form of necrosis in the liver is coagulation 
+necrosis where the hepatocytes die but the liver architecture is 
+somewhat maintained [57].
+Changes that accompany hepatic necrosis include hemor-
+rhage, fatty change, cytoplasmic vacuolization, degeneration 
+and inflammatory cell infiltration [58]. The pathology term 
+degeneration is used to describe damage to cells that is revers-
+ible and is often a precursor to necrosis. The classification of 
+necrosis is based on type [59]. In the case of xenobiotic-induced 
+liver necrosis, the dose and intrinsic factors can determine 
+whether hepatocellular necrosis is panlobular or centrilobular, 
+FIGURE 32.3  Photomicrographs of hepatocellular necrosis. Photo­
+micrographs of H and E-stained sections of the liver from a C57Bl mice 
+after treatment with 250 mg/kg APAP by i.p. injection. In panel A, the 
+liver was from a mouse sampled 6 hours after treatment. In panel B, the 
+liver was from a mouse sampled after 24 hours. Areas of centrilobular 
+necrosis are seen. Dead hepatocytes showing pyknotic nuclei are present 
+in the cell free amorphous pink material.
+
+1728
+Hayes’ Principles and Methods of Toxicology
+or whether it is focal or diffuse (Figure 32.3). The pattern 
+and other features of the hepatocellular necrosis should be 
+described in the pathology narrative [49]. Accompanying 
+pathological changes such as fatty change or inflammation 
+should be noted in the evaluation. Considering that degen-
+eration is a part of the continuum of changes in the necrotic 
+process, it should be described in the necrosis context [60]. 
+The classification of liver necrosis is usually defined by the 
+region of the liver lobule affected. Centrilobular necrosis is 
+the most common type of zonal necrosis occurring in the cen-
+trilobular region of the lobule around the central vein [51]. 
+The hepatocytes in the centrilobular region have lower oxygen 
+content and are thus more susceptible to hypoxia. In addition, 
+these cells have high concentration of CYP450 enzymes and 
+therefore can metabolize chemicals to reactive toxic forms. 
+Therefore, toxic chemicals and conditions producing hypoxia 
+produce the centrilobular form of necrosis. In Figure 32.5, H- 
+and E-stained sections of the liver from two C57Bl mice after 
+treatment with 250-mg/kg APAP by i.p. injection are shown. 
+This figure shows the formation of centrilobular necrosis in 
+the liver. Early changes, as soon as 6 hours post treatment, are 
+observed, which shows further progression in a mouse sam-
+pled 24 hours post treatment. Periportal necrosis, while less 
+commonly seen than the centrilobular form, results in death of 
+cells around the portal triad. The classic compound that pro-
+duces the periportal necrosis is phosphorus.
+After necrosis is produced, the eventual outcome of the 
+liver depends on are several factors [49, 51, 57–59, 61, 62]. The 
+liver has an excellent ability to regulate its growth, increase, 
+loss or optimal mass regeneration [49]. Its regeneration has 
+been 
+studied 
+extensively. 
+Hepatocyte-nonparenchymal 
+cell involvement in the regeneration process is important. 
+Recovery of the injury is dependent on the concentration and 
+duration of toxic exposure as well as the size of the necrotic 
+lesion [57]. Recovery time is longer when the lesion is larger. 
+Mehendale and colleagues [63, 64] examined the role of tissue 
+repair in liver injury. After exposure to a low dose of CCl4, 
+two waves of cell divisions were seen. In an early phase of 
+regeneration, mitosis in hepatocytes was rapid, within 6 hours 
+post insult. A second phase of regeneration/ mitosis was seen 
+after 24 hours post insult. Mehendale suggested a two-stage 
+hepatotoxicity model following toxic injury in the liver In this 
+model the first stage, stage 1 would occur with the initiation 
+of the liver damage and resulting necrosis while thee second 
+stage would describe the recovery or further progression 
+(based on the size of the necrotic lesion) of the necrosis and 
+cell death. [63, 64].
+32.3.2.2  Apoptosis
+Hepatocyte necrosis is the typical cell death response follow-
+ing chemical exposure, as discussed above [49]. The process of 
+apoptosis can also be seen following xenobiotic exposure. In 
+necrosis, the dying cell undergoes increased hydropic changes 
+and blebbing due to damage to the energy-dependent mem-
+brane osmotic pumps [49]. This also results in membrane leak-
+age and loss of mitochondria function. The membrane dame to 
+the cell provokes an inflammatory response which can dam-
+age additional hepatocytes and thus potentiate the number of 
+cells dying and the extent of the necrotic lesion. In contrast, 
+the apoptotic cell shrinks the cellular organelles under frag-
+mentation and does not induce inflammation [49]. Apoptosis 
+has been attributed to programed cell death, which is prob-
+ably accurate when one is thinking about the process in tis-
+sue remodeling during embryogenesis and development. But 
+in the case of toxic response, apoptosis represents an effective 
+cell death mechanism that is regulated by proapoptotic and 
+anti-apoptotic genes and is a more controlled cell death than 
+necrosis. Morphologically, apoptosis shows chromatin con-
+densation, cell shrinkage and cell fragmentation without pro-
+voking an inflammatory reaction [57]. Figure 32.4 is an H- and 
+E-stained section of the liver from a F344 rat showing several 
+apoptosis cells are various stages of the apoptosis process.
+Necrosis, on the other hand, is characterized by cellular and 
+nuclear swelling, patchy chromatin condensation, mitochon-
+drial swelling, cytoplasmic vacuolization, plasma-membrane 
+rupture and the dissolution of DNA (karyolysis) [49, 57, 59, 60, 
+65, 66]. In addition, apoptosis only affects a few cells, while 
+necrosis affects whole liver lobules. Apoptosis and mitosis 
+are complementary in tissue homeostasis, but have opposing 
+roles: the first causes cell losses, while the latter leads to tissue 
+hyperplasia.
+Given this, in the cancer process, it has been shown that sev-
+eral nongenotoxic carcinogens prevent active cell death, lead-
+ing to an increase in the preneoplastic population that leads 
+to cancer progression [43]. For example, sustained activation 
+of the AhR by 2,3,7,8-tetrachlorodibenzodioxin (TCDD) 
+is believed to lead to the selection and proliferation of pre-
+neoplastic hepatocytes by preventing normal apoptosis [41]. 
+Similarly, activation of PPAR− by peroxisome proliferator 
+compounds has been reported to suppress apoptosis [44, 67]. 
+A wide range of toxic substances may trigger hepatocyte apop-
+tosis in animals in vivo and in vitro.
+There are several methods for measuring apoptosis [49]. 
+Considering the formation of DNA fragments in an apoptotic 
+cell, when nuclear DNA is extracted from apoptotic cells by 
+FIGURE 32.4  Apoptosis in liver cells. A photomicrograph of an H- and 
+E-stained section of the liver from a F344 rat showing several apoptosis 
+cells (arrows) at various stages of the apoptosis process.
+
+1729
+Hepatotoxicology
+an agarose gel, the components appear as a ladder. Individual 
+electrophoresis of the apoptotic cells can also be examined 
+using the comet assay protocol where high molecular weight 
+DNA forms a tail representing a fragment of the degraded 
+DNA. In situ labeling of DNA breakage strands, such as the 
+Nick End Laboratory, is a common technique. Flow or laser 
+cytometry is used in various methods for measuring apop-
+tosis [68]. Annexin V is a 36 kDa protein that binds with a 
+high affinity to phosphatidylserine lipid in the cell membrane, 
+which connects the inner membrane leaflet in apoptotic cells 
+with the external cell surface of the cell [69]. Annex V has 
+therefore been shown to be effective in the identification of 
+early stages of apoptosis.
+Caspase enzymes (cysteine-aspartyl-proteases) play a cen-
+tral role in the cell death mechanism. Caspases are either 
+initiators (caspase-2, -8, -9 and -10) or effectors are classified 
+(caspase-3, -6 and -7) [57, 59, 70, 71]. Two well-established 
+pathways in apoptosis are the road to death receptors and the 
+mitochondrial pathway. The first path requires membrane 
+receptors like Fas, which is part of a signal complex that acti-
+vates caspase-8 and activates caspase-3. The second path is 
+cytochrome c release, a small apoptogenic molecule, which 
+leads to apoptosis development and caspase-3 activation [49].
+32.3.2.3  Non-Alcoholic Fatty Liver 
+Disease (NAFLD)
+Fatty liver disease is the result of accumulation of fat (steato-
+sis) in hepatocytes. The diagnosis of steatosis is made when 
+fat in the liver exceeds 5–10% by weight. Fatty liver dis-
+ease has been classified into two general categories: ASH or 
+NASH. In the case of the former, chronic alcohol consump-
+tion results in fatty liver due to production of toxic metabo-
+lites of alcohol including aldehydes [72]. In NAFLD, multiple 
+(non-alcohol) factors including nutritional, drugs and hepatic 
+toxicants and metabolic disorders have been identified in the 
+initiation and progression of the disease [73]. While different 
+in etiology, the pathologic sequelae from the accumulation 
+of hepatocellular fat in alcoholic or non-alcoholic steato-
+sis are commonly accompanied by a progressive inflamma-
+tion of the liver and resulting hepatic fibrosis (steatohepatitis) 
+(Figure 32.5). NAFLD consists of a spectrum of liver dam-
+age, ranging from simple steatosis (NAFLD) to steatohepatitis 
+(NASH), fibrosis and cirrhosis, and HCC [74]. The early stage 
+of fat accumulation is reversible and is characterized by sim-
+ple steatosis. Continual fat accumulation results in hepatocyte 
+damage, inflammation and fibrosis producing the NASH phe-
+notype. NAFLD progresses to NASH in approximately 10% 
+of patients, and cirrhosis in 2–3% (15–25% of those that have 
+NASH) patients usually over a period of 10–20 years. Some 
+patients with advanced NASH may eventually develop HCC. 
+Multiple factors are involved in the progression from simple 
+steatosis to NAFLD to NASH to cirrhosis including diet, 
+genetic predisposition and the gut microbiota. These factors 
+form the background by which xenobiotics, including drugs 
+and environmental agents, may influence the progression 
+to steatohepatitis through modulation of multiple pathways 
+including oxidative stress, mitochondrial function, fatty acid 
+biosynthesis and inflammation.
+The accumulation of fat in the liver takes on two forms of ste-
+atosis: macrovesicular and microvesicular lipid droplets within 
+the hepatocytes. The progression from NAFLD to NASH 
+involves an increase in lipid droplet formation, hepatocellular 
+injury and inflammation [74]. The lobular inflammation indica-
+tive of NASH is predominantly in zone 3; however, with the 
+eventual progression to fibrosis, the lesions are not localized in 
+zone 3 [75]. The presence of apoptotic cells and necrotic cells are 
+also seen with NASH. The progression from NAFLD to NASH 
+is not a given. Only a small percentage of people develop NASH, 
+fibrosis, cirrhosis and HCC [76]. There have been several rodent 
+model developed to induce NAFLD including genetically modi-
+fied mice: leptin-deficient (ob/ob), leptin-resistant (db/db), Pten 
+knockout, SREBP-1c overexpressed, PPARα knockout mice as 
+well as mice given high-fat diets [77].
+32.3.2.4  Alcohol Fatty Liver Disease (AFLD)
+Excessive alcohol consumption can lead to several liver dis-
+eases from steatosis to HCC [78]. Ethanol is metabolized into 
+acetaldehyde by alcohol dehydrogenase (ADH) (Figure 32.6) 
+[79]. In humans, three major forms of ADH (ADH1, ADH2, 
+ADH3) are expressed in the liver. ADH oxidizes alcohol into 
+acetaldehyde and reduces NAD+ to NADH in cytosol. Chronic 
+exposure to ethanol triggers the expression of P450 isozyme 
+CYP2E1. Ethanol oxidation by CYP2E1 generates ROS and 
+free radicals. Additional minor ethanol metabolism pathway is 
+carried out by catalase. Resulting acetaldehyde is metabolized 
+to acetate by aldehyde dehydrogenase (ALDH) [79]. ALDH2 
+is the main form of this enzyme and is mainly expressed in 
+hepatocyte mitochondria. Resulting acetate enters the blood 
+circulation and is metabolized into acetyl-CoA by acetyl-CoA 
+synthetase. Finally, acetyl-CoA participates in Krebs cycle, 
+producing final products of carbon dioxide and water. The dif-
+ferences in the ALDH2 variants expression and polymorphisms 
+lead to significant differences in enzyme activity when it comes 
+to ethanol metabolism. People with heterozygous ALDH22/1 
+have 80–90% lower enzyme activity than those with homozy-
+gous ALDH21/1 alleles [78]. Fat accumulation in the liver is 
+one of the first liver responses following acute or chronic alco-
+hol consumption [80]. Chronic alcohol consumption results in 
+fatty liver and about 35% develop advanced AFLD. As the fat 
+continues to accumulate, subsequent changes in the liver follow 
+the same progression as seen in NAFLD (Figure 32.5).
+Excessive alcohol consumption also induces lipolysis and 
+causes adipocyte death, and consequently leads to increased 
+fatty acid levels in the circulation and accumulation in the liver 
+[81, 82]. Factors such as gender, diet, drinking patters, obesity, 
+genetic factors and cigarette smoking may affect the AFLD. 
+Females being in a higher risk to AFLD is explained by lower 
+levels of AHD in the stomach, higher ratio of body fat and 
+presence of hormones such as estrogen. Obesity was shown 
+to cause liver injury and inflammation in synergy with acute
+
+1730
+Hayes’ Principles and Methods of Toxicology
+and chronic ethanol exposure in mice [83]. Factors that lead 
+to liver injury are stress on endoplasmic reticulum, KC and 
+neutrophilic infiltration and lipid toxicity. Additionally, feed-
+ing high-fat diet to mice with ethanol-induced increased lev-
+els of serum alanine aminotransferase (ALT) caused hepatic 
+steatosis, inflammation and fibrosis by inducing nitrosative, 
+ER and mitochondrial stress and upregulated hepatic Toll-like 
+receptor 4 [84]. When it comes to non-sex-linked genetic fac-
+tors, I148M variant of PNPLA3 gene is known to have strong 
+correlations with high risk of steatosis, fibrosis, cirrhosis and 
+AFLD [85].
+32.3.2.5  Fibrosis
+Liver fibrosis occurs when ECM proteins including collagen 
+accumulate in excess in the liver [86]. Advanced liver fibrosis 
+can progress to cirrhosis, HCC and liver failure. The etiology 
+of liver fibrosis involves chronic hepatitis B and C infection, 
+excessive alcohol consumption, NAFLD and NASH. All these 
+lead to chronic damage to liver and accumulation of ECM pro-
+teins which in turn disrupt the normal liver architecture by 
+forming fibrous scar [87]. Appearance of patches of regenerat-
+ing hepatocytes indicates progression to cirrhosis with further 
+FIGURE 32.5  Stages of NAFLD initiation and progression from fatty change to fibrosis/cirrhosis/HCC. Diagram of the initiation and progression 
+from normal liver pathology after dietary uptake of high-fat diets. Approximately 30% of the Western population have NAFLD. This disease is revers-
+ible in early stages with modification of diet and exercise. Of those with NAFLD, approximately 10% go onto develop NASH, which can result in 
+increased fibrous changes and eventual progression to cirrhosis. A small percentage of these patients may develop HCC.
+
+1731
+Hepatotoxicology
+liver dysfunction and blood flow resistance in the liver [88]. 
+Liver insufficiency and portal hypertension are the end stage 
+effects of the fibrosis/cirrhosis [89].
+Inflammation is important in the progression liver fibrosis. 
+The inflammatory response involves activation of leukocytes, 
+release of cytokines including tumor necrosis factor (TNF-−), 
+interleukin (IL)-6 and IL-1μ [90]. The inflammation occurs 
+following chronic exposure to pathogens and xenobiotics. This 
+chronic inflammation is followed by hepatic fibrosis and cir-
+rhosis [16, 91]. The hepatic inflammation is also associated 
+with hepatic cell necrosis and apoptosis. Hepatocytes that are 
+undergoing apoptotic elimination activate HSCs and KCs that 
+in turn promote the fibrogenesis and inflammation, respec-
+tively [16]. Activated HSCs promote production of inflamma-
+tory chemokines, adhesion molecules and binding of antigens 
+to T lymphocytes and NKT cells [62, 92, 93]. These responses 
+perpetuate further fibrogenesis by promoting hepatocyte 
+necrosis and apoptosis [94–99]. Following injury, HSCs are 
+transformed into myofibroblasts by transforming growth fac-
+tor (TGF)-μ1 and platelet-derived growth factor (PDGF) [100]. 
+HSCs and portal fibroblasts are the major sources of myofi-
+broblasts in fibrotic liver [88, 101–104]. Bone-marrow–derived 
+fibrocytes and mesenchymal progenitor cells can be the minor 
+source of myofibroblasts in the liver [105–108]. Recent studies 
+have shown macrophages to play an important role in regu-
+lation of liver fibrosis by stimulating HSCs, releasing ROSs, 
+nitric oxides and chemotactic proteins [109]. At the early 
+stages of liver injury, collagen I and IV, procollagen III and 
+elastin are accumulated in the matrix, and matrix metallopro-
+teinases (MMP) are recruited to regulate the matrix [99, 110]. 
+Downregulation of macrophage expression leads to decreased 
+myofibroblast activation and the regression of fibrosis, indicating 
+profibrogenic nature of macrophages [111–113]. Interestingly, 
+the number of resident KCs is decreased, and the number 
+of recruited monocyte-derived macrophages is increased 
+during hepatic inflammation and fibrogenesis [114, 115]. 
+This macrophage population play role in expression of proin-
+flammatory cytokines TNF-− and IL-1μ, which promotes liver 
+injury, survival of myofibroblasts and fibrogenesis through 
+NF-ΕB activation [111]. NK cells can promote liver injury by 
+releasing cytotoxic granules containing perforin and gran-
+zymes, thus killing hepatocytes at the inflammation site [116]. 
+NK cells have also played a role in inhibiting fibrosis by killing 
+activated HSCs and producing interferon-ć [117].
+Liver fibrosis is a sequalae of many liver insults including 
+infection, necrosis, alcoholic liver and NAFLS. The major 
+pathways include inflammation and fibrosis triggered by cell 
+death and the Toll-like receptor pathway. MicroRNAs (miR-
+NAs) also play a role in liver inflammation and fibrosis. The 
+miR-122 was shown to be associated liver inflammation. 
+Mouse models of NAFLD and ASH were reported to have 
+increased levels of miR-155 [118].
+32.3.2.6  Liver Cancer
+HCC is the seventh most common human cancer in the world, 
+and it represents 75% of all liver cancer cases [119]. HCC rep-
+resents the fourth leading cause of cancer deaths worldwide. 
+Only small proportion of HCC tumors are detected at an early 
+stage [120]. There is an etiological association between hepati-
+tis B virus (HBV), hepatitis C virus (HCV) and alcoholic liver 
+disease (ALD) with HCC [121, 122]. Patients who are heavy 
+alcohol consumers are at an increased relative risk (1.5- to 
+3-fold) of HCC [123]. Additionally, patients with HCV who 
+also are heavy alcohol drinkers have a 2-fold increased risk 
+compared to heavy drinkers alone due to the apparent syner-
+gistic effect of the virus and the alcohol [121]. While most of 
+the HCC cases develop in the presence of cirrhosis, there is 
+a small percentage that can occur without cirrhosis. In HCC 
+cases related to HBV exposure, 10–30% of the cases develop 
+in the absence of cirrhosis that seem to be linked to the risk 
+factors seen with metabolic syndrome [124, 125]. Lipid 
+FIGURE 32.6  Ethanol metabolism. The diagram shows the metabolism of ethanol and the effect of excess ethanol on liver function a lipid accumula-
+tion. It illustrates the early changes seen in AFLD. In the case of AFLD, the lipid accumulates in a non-reversible manner, and the sequalae of events 
+follows that seen with NAFLD (Figure 32.5).
+
+1732
+Hayes’ Principles and Methods of Toxicology
+accumulation in the liver and metabolic syndrome can lead 
+to steatosis, NAFLD and NASH, which are precursors to the 
+HCC (Figure 32.5) [126, 127]. Laboratory animals, especially 
+mice and rats are also prone to development of liver neoplasms 
+following exposure to many of the tested chemical com-
+pounds. A fairly long list of chemicals, including pharmaceu-
+ticals, when examined in the 2-year chronic bioassay produce 
+liver tumors. It is also important to note that the laboratory 
+rodents also have a fairly high spontaneous liver tumor inci-
+dence as is evident by the untreated control tumor incidence. 
+In the mouse liver in particular, the spontaneous liver tumor 
+incidence approaches 50% in the male B6C3F1 mice and over 
+10% in the female mice. The laboratory rats have a much lower 
+spontaneous tumor incidence (around 5–10%).
+The mechanism of action of tumorigenic chemicals in 
+rodents has been researched for almost 100 years. Our cur-
+rent knowledge of the mechanisms allows for the separation 
+of carcinogenic chemicals into two general groups: genotoxic 
+and nongenotoxic (Table 32.4) [38]. The genotoxic carcino-
+gens usually require metabolism by the liver P450 system to 
+form a reactive metabolite that is capable of binding to nuclear 
+DNA. Genotoxic agents are frequently positive in short-term 
+mutagenicity assays. Table 32.5 illustrates the progression 
+of a genotoxic carcinogen from the procarcinogenic form to 
+the ultimate carcinogenic form that can bind to nuclear DNA. 
+With the formation of the chemical, adduct misrepair occurs 
+and a mutation produced. Figure 32.7 illustrates the metabo-
+lism benzopyrene, a genotoxic carcinogen needed to produce a 
+mutagenic form. Benzopyrene in its parent form is not carcino-
+genic or mutagenic but requires metabolism by CYP1A P450 
+to undergo two-step epoxidation to the ultimate DNA-binding 
+form, the 7,8-diol 9,10-epoxide metabolite.
+Rodents and cell lines (human, rodent) are the most com-
+mon HCC models used in research. Mouse models are pre-
+ferred as HCC models due to their physiological, molecular, 
+and genetic similarities to humans. Genomic studies of human 
+HCC have shown telomerase reverse transcriptase (TERT) to 
+be important in stem cells, aging and cancer [128, 129]. TERT 
+is reactivated during tumorigenesis and plays important role 
+in cancer cell proliferation. Mutation of the TERT promoter 
+appears to be common in human HCC [130, 131].
+32.3.2.6.1  Mode of Action
+Rodent tumorgenicity data is extensively used by regulatory 
+bodies in the classification of a chemical’s carcinogenic-
+ity. For many years, this led to controversy on how we use 
+rodent carcinogenesis data for human risk assessment [39]. In 
+the early 2000s, a framework approach was developed that 
+was accepted by the regulatory bodies. This framework was 
+adapted from the Bradford Hill criteria for cancer causation 
+(Table 32.6). It incorporates three questions to be address by 
+FIGURE 32.7  The metabolism of the indirect acting, genotoxic carcinogen, benzopyrene. The metabolism of the genotoxic carcinogen, benzopyrene 
+is illustrated. Benzopyrene in its parent form is not carcinogenic or mutagenic but requires metabolism by CYP1A P450 in the hepatocytes to produce 
+a DNA reactive form.
+TABLE 32.4
+Characteristics of Genotoxic and Nongenotoxic Carcinogens
+Genotoxic carcinogens
+Mutagenic
+Can be complete carcinogens
+Tumorigenicity is dose-responsive
+No theoretical threshold
+Nongenotoxic carcinogens
+Nonmutagenic
+Threshold, reversible
+Tumorigenicity is dose-responsive
+May function at tumor promotion stage
+No direct DNA damage
+Species-, strain-, tissue-specific
+TABLE 32.5
+Role of Metabolism in Indirect DNA Reactive Carcinogen 
+Activation
+DNA Reactive Carcinogens (Indirect Acting)
+            Pro-carcinogen
+                                          ↓   (metabolism (P450) → detoxification
+            proximate carcinogen
+                                          ↓   (metabolism (P450) → detoxification
+            ultimate carcinogen
+                                          ↓
+            electrophilic compound → binding to noncritical cellular 
+macromolecules
+                                         ↓
+            covalent binding to DNA
+
+1733
+Hepatotoxicology
+the reviewer: (1) is the weight of evidence sufficient to estab-
+lish a mode of action in animals? (2) Can human relevance 
+of this mode of action be reasonably excluded on the basis of 
+fundamental, qualitative differences in the key events (KE) 
+between animals and humans? And (3) can human relevance 
+of the mode of action be reasonably excluded based on quan-
+titative differences in kinetic or dynamic factors between ani-
+mals and humans [43]?
+Although originally developed to address rodent carci-
+nogenesis application to human risk, the mode of action 
+approach can be applied to any toxic endpoint. The mode of 
+action analysis can be used to define the essential cellular and 
+molecular processes by which a chemical induces liver toxic-
+ity [132, 133]. It has been extremely helpful to determine the 
+carcinogenesis of several chemicals. In this approach, the KE 
+are the necessary although not sufficient fundamental biologi-
+cal steps and processes involved in the effects of this chemical 
+in a specific adverse outcome [41, 42, 44, 132–134]. The first 
+KE is frequently designated as the molecular initiating event 
+(MIE). The KE are dependent on the chemical dose as well as 
+the temporal nature of the process. ssociative events (AE) and 
+modulating events (ME) can also be used as biomarkers for 
+the adverse outcomes and can contribute to the understanding 
+of the toxicity process. AE serve as biomarkers for the KE 
+that may reflect and indicate, for example, in the exposure to 
+a chemical or a subsequent effect [43]. Modulating factors, on 
+the other hand, are able to modulate the KE dose-response by 
+altering, for example, the magnitude or timing of a specific 
+adverse outcome. This can include a mechanism or a host bio-
+logical factor as variability in homeostasis or repair processes. 
+Thus, the modulating factors can vary depending on genetics, 
+disease onset, lifestyle and others. A diverse group of environ-
+mental, industrial chemicals and pharmaceuticals have been 
+shown to induce liver toxicity in rodents [41]. Several modes of 
+action in rodents have been identified through either genotoxic 
+or nongenotoxic mechanisms. Table 32.7 summarizes the major 
+modes of action for rodent hepatic carcinogens. The chemicals 
+can be broadly broken into two groups based on the ability to 
+interact, bind and mutate nuclear DNA. Genotoxic compounds 
+are DNA reactive when nongenotoxic compound function 
+through nonmutagenic means. The attributes of genotoxic and 
+nongenotoxic chemical are summarized in Table 32.4. The 
+nongenotoxic MOA also involves two major categories: (1) 
+receptor-mediated processes or (2) non-receptor-mediated [43]. 
+The latter includes cytotoxicity, oxidative stress, inflamma-
+tion and virus infection (Table 32.7). For rodent-liver-cancer–
+induced nongenotoxic compounds, the overall MOA and KEs 
+are similar: (1) cell proliferation and DNA synthesis increase, 
+(2) selective clonal expansion of preneoplastic hepatocytes and 
+possibly (3) the formation of hepatic adenomas and/or carci-
+nomas. The first KE is the activation of nuclear receptors here 
+one chemical can cause the activation of one or more nuclear 
+receptors. Along with this first KE, there could be an increase 
+in oxidative stress and epigenetic changes (AE). Subsequently, 
+the second KE consists in the activation of cell growth path-
+ways and gene expression, followed by the third KE, the 
+increase of hepatocyte growth shown by measuring DNA 
+synthesis and the expansion of preneoplastic cells assessed 
+by histopathology. As a final stage, liver cancer can develop. 
+Not all chemicals that undergo these KEs are undoubtedly 
+going to cause liver cancer. In some cases, chemicals cause 
+liver toxicity, but not necessarily liver cancer, by the same KE. 
+An AE for liver toxicity would be, for example, inflamma-
+tion, cytotoxicity and oxidative stress. AhR, CAR and PPAR− 
+are important liver xenobiotic-sensing receptors that, when 
+TABLE 32.6
+Modified Bradford Hill Criteria for Cancer Causation for Mode of Action Analysis
+Modifled Bradford Hill Criteria for Cancer Causation 
+for Mode of Action Analysis
+Questions to Address potential Human Relevance of the Rodent Mode of Action
+1.	 Consistency of the Mode of Action between chemicals
+Question 1. Is the weight of evidence sufficient to establish a mode of action in 
+animals?
+2.	 Species concordance
+3.	 Strength, consistency, specificity of association
+Question 2. Can human relevance of this mode of action be reasonably excluded on the 
+basis of fundamental, qualitative differences in the KE between animals and humans?
+4.	 Dose-response concordance
+5.	 Temporal relationship
+Question 3. Can human relevance of the mode of action be reasonably excluded based 
+on quantitative differences in kinetic or dynamic factors between animals and humans?
+6.	 Biological plausibility and coherence
+7.	 Rule out other Modes of Action
+TABLE 32.7
+Mode Rodent Liver Carcinogen Modes of Action
+Genotoxic/DNA reactive
+(AFB-1, BP, DMN, DENA)
+Nongenotoxic/non-DNA reactive
+Receptor-Mediated (activation)
+CAR
+(Phenobarbital)
+AhR
+(TCDD)
+PPAR−
+(DEHP, Fluor)
+Estrogen
+(DES/Estradiol)
+Other 
+Non-Receptor-Mediated
+Cytotoxicity
+(CHCl3, CCl4)
+Oxidative stress
+(Fe, Cu overload)
+Infection
+(HBV/HCV)
+Immunosuppression
+Compounds can be divided into genotoxic and nongenotoxic categories 
+based on the ability of the compound or its metabolite to bind to and 
+mutate nuclear DNA. Nongenotoxic carcinogens can be further divided by 
+their mode of action; receptor mediated or not. AFB-1: aflatoxin B1, BP: 
+benzo[a]pyrene, DMN: dimethylnitrosamine, DENA: diethylnitrosamine.
+
+1734
+Hayes’ Principles and Methods of Toxicology
+activated, result in downstream increased gene expression of 
+important processes in toxic pathways including cell growth, 
+metabolism, lipid metabolism and oxidative stress pathways 
+[43]. Therefore, the activation of a receptor can induce specific 
+CYP450s involved in the metabolism of the xenobiotic. For 
+example, receptor-mediated toxicity is the initial step in the 
+interaction of the chemical or its metabolite with the target 
+cell, followed by activation of the respective receptor. Thus, 
+the key MIE leads to clearly defined steps (KEs) toward an 
+adverse outcome. In this case, the MIE is the activation of a 
+receptor (AhR, CAR/PXR and PPAR−) leading to rodent liver 
+toxicity [44]. These specific P450s can be used, then, as surro-
+gate markers for the upstream activation of the receptors. The 
+induction of CYP450s could result in liver enlargement linked 
+to hepatocellular hypertrophy and sometimes transient hepa-
+tocyte hyperplasia. Various difficulties are frequent in animal 
+experimentation, especially the lack of detailed dose-response 
+and human relevance. The mode of action framework approach 
+allows for mechanistic assessment the human relevance of ani-
+mal findings. By determining the MOA of a chemical, one can 
+understand the initial events needed that lead to liver toxicity, 
+and this helps predict adverse outcomes with shorter animal 
+studies, as well as predict human health damage and potential 
+treatments after exposure [43]. Figure 32.8 provides a sum-
+mary of the mode of action of rodent hepatic carcinogens that 
+function through PPAR− receptor activation. As noted above, 
+the KEs are very similar for most nongenotoxic chemicals 
+with the exception, as seen in this case, with the early KEs. In 
+the case of PPAR−, activation of the PPAR− receptor occurs as 
+an early KE (Figure 32.8). Figure 32.9 summarizes the mode 
+of action for nongenotoxic rodent carcinogens functioning 
+through receptor-mediated activation.
+The foundation of the development of the mode of action 
+framework was to provide a standardized, transparent and 
+reproducible method to assess the mechanisms of chemically 
+induced rodent liver tumors for scientifically based human risk 
+evaluation. Using the model developed for the PPAR− rodent 
+liver tumor mode of action, Table 32.8 evaluates the potential 
+human relevance of PPAR− compounds inducing liver tumors. 
+As is summarized in the table, while the activation of the 
+PPAR− (receptor) has been demonstrated in human liver (and is 
+the basis for the hypolipidemic effects for the drugs clofibrate, 
+nafenopin and ciprofibrate), the other downstream KEs (cell 
+FIGURE 32.9  MOA commonalities of nongenotoxic carcinogens. This Figure illustrates the commonality of the modes of action of receptor-medi-
+ated rodent hepatic carcinogens.
+FIGURE 32.8  The mode of action framework for PPAR−-activating 
+compounds. An example of the use of the mode of action framework for 
+PPAR−-activating compounds that are rodent hepatocarcinogens. The KE 
+follow a temporal order. Upon absorption of the compound and uptake 
+by the liver the compound or its metabolite activates the nuclear receptor 
+PPAR− resulting in three major effects: induction of lipid-metabolizing 
+enzymes (hypolipidemic effects), induction of peroxisome proliferation 
+and activation of hepatocyte cell growth pathways. Only this latter event 
+is pertinent for the cancer inducing effects. The induction of cell growth 
+pathways results in the formation of new mutated preneoplastic hepato-
+cytes and/or causes selective proliferation of already present preneoplastic 
+hepatocytes. This clonal expansion continues and results in liver tumors
+
+1735
+Hepatotoxicology
+proliferation and selective clonal expansion) do not occur in 
+humans or non-human primates. Hence, humans are not at risk 
+for liver cancer from PPAR−-activating compounds [43, 44].
+32.3.2.6.2  Adverse Outcome Pathways
+The mode of action framework relies to a good extent on in 
+vivo data as a primary source to develop the proposed MOA 
+with the addition of other information, in vitro data, epi-
+demiology results etc. [132]. There was a need to develop 
+high-throughput cell-based bioassays to evaluate many more 
+compounds than is feasible with animal models [43]. Hence, 
+the development of the Tox21 and Toxcast approaches took 
+place [135]. In line with the high-throughput approach, the 
+adverse outcome pathway approach is being used. This relies 
+on the identification of KEs and more specific the MIE(s). The 
+overall adverse outcome pathway approach is very similar to 
+the mode of action approach in that KEs are identified in a 
+toxic pathway [41, 42, 44, 132–134]. One difference is that 
+the adverse outcome pathway may be at the individual or the 
+population level. An adverse outcome for an individual may 
+be impaired development, impaired reproduction, chronic dis-
+ease. For population-adverse outcomes, this would result in 
+modification of a population structure or even species extinc-
+tion [43]. One logistic difference is the reliance on the identifi-
+cation of the MIE (Figure 32.10). The MIE begins the toxicity 
+process and thus is required for the toxicity endpoint. Several 
+examples of the MIE include receptor binding, DNA binding 
+and protein oxidation [43].
+32.3.2.7  Biliary Secretory Function Measurement
+Two dyes have been used in vivo in laboratory animals as 
+well as in humans to assess liver function with regard to bile 
+production [136, 137]. Sulfobromophthalein (BSP) is a phtha-
+lein dye [138]. After intravenous administration, BSP distrib-
+utes through the blood and is removed from the circulatory 
+system by the liver. BSP removal from the blood requires 
+active transport across the hepatocyte plasma membrane 
+into the storage compartment, metabolic transformation and 
+adenosine triphosphate (ATP)-dependent transport to the 
+bile. The rate of removal from the blood and incorporation 
+FIGURE 32.10  The adverse outcome pathway.
+TABLE 32.8
+PPAR− Activation Risk in Humans
+Causal KE
+Plausible in 
+humans?
+Taking into account 
+kinetic and dynamic 
+factors, is the KE 
+plausible in humans
+Comments
+1.	 Activation of PPAR−
+Yes
+Yes
+PPAR− is a target of human hypolipidemic drugs
+2.	 Alteration in cell growth 
+pathways
+Yes
+Unknown
+Human liver has the capacity to regenerate. There is abundant 
+evidence that a number of pathways are involved
+3.	 Perturbation of cell 
+growth and survival
+Yes
+Not likely but plausible
+Not seen in independent studies of human hepatocytes in vitro; not 
+measured in vivo; not seen in non-human primates in vivo or in vitro; 
+not seen in guinea pigs; lack of or inconsistent effects in hamsters
+4.	 Selective clonal expansion 
+of preneoplastic foci
+Yes
+Not likely but plausible
+No response in hamsters, hepatic foci are a rare finding in humans
+5.	 Liver tumors 
+Yes
+Not likely but plausible
+Not measured in livers of humans exposed to PPAR− activators; no 
+tumors in hamsters with expression of PPAR− intermediate between 
+mice/rats and humans; no evidence of liver tumors in people exposed 
+to hypolipidemic PPAR− activators for up to 13 years
+The causal KE reflect the mode of action for rodent liver tumor induction by PPAR− chemicals. While the initial KE, the activation of PPAR− occurs 
+in both human liver and rodent liver, the subsequent KE are not observed in humans. It can be concluded that PPAR− compounds are not carcinogenic 
+in human liver.
+
+1736
+Hayes’ Principles and Methods of Toxicology
+of the dye into the bile is measured as the transport maxi-
+mum (Tm) [139]. The clearance of BSP from the blood incor-
+poration into bile can be used to detect specific functional 
+pathways involved in the clearance of BSP. These pathways 
+include BSP transfer from blood to liver, hepatocyte storage 
+BSP, glutathione conjugation with BSP or hepatocyte excre-
+tion of BSP into bile. As an example, Klassen and Plaa [140] 
+observed that CCl4’s major effect was to decrease BSP transit 
+from hepatocytes to bile. In studies performed in rats after 
+treatment with CCL4, it was observed that CCl4’s major 
+effect was to decrease BSP transit from hepatocytes to bile. 
+CCl4 decreased both BSP Tm and BSP conjugating activ-
+ity but did not affect BSP storage in the liver. Indocyanine 
+Green (ICG) is another dye (fluorescent dye) [141] that also 
+has been used to measure the function pathways of the liver. 
+ICG once administered intravenously should be rapidly elim-
+inated from the body with a half-life of 3–4 minutes. ICG 
+binds tightly to plasma proteins after injection and is actively 
+removed from circulation exclusively by the liver. As with 
+BSP, it is actively excreted into the bile. ICG has a similar 
+sensitivity to BSP.
+Rose Bengal (a dye) [141], while not widely used in lab 
+animals, was useful to detect hepatic disorders in humans, 
+especially young people. Rose Bengal, like ICG, is not bio-
+transformed before it is excreted in the bile. It is commer-
+cially available for measuring its concentration in small blood 
+samples in a radioactive form. Mehendale and colleagues [63, 
+64] have applied phenolphthalein glucuronide (PG), imipra-
+mine (IMP) as well as IMP polar metabolites (PMIMP) as 
+model molecules to measure hepatobiliary dysfunction caused 
+by mirex. The insecticide did not prevent IMP absorption or 
+metabolism in the liver but prevented PMIMP from moving 
+from a hepatocyte to the bile, and prevented PG, a non-bio-
+transformation model anionic substratum, from being excreted 
+into the bile. Other compounds including cyclosporin A, eryth-
+romycin and troleandomycin all inhibited bile acid production 
+using these dyes [141].
+32.3.2.8  Mitochondrial Function
+Mitochondria 
+are 
+double-membrane–bound 
+organelles 
+found in most eukaryotic organisms. Mitochondria generate 
+most of the cell’s ATP. The involvement of mitochondria in 
+hepatic dysfunction is well recognized [142]. Mitochondria 
+play a crucial part in fat oxidation and cell energy genera-
+tion, with components such as the oxidation and tricarboxylic 
+acid cycles, as well as the enzymes cytochrome c oxidase and 
+ATP synthase, being essential. It is caused by an interruption 
+in the oxidation of fatty acids in microvesicles that occurs 
+suddenly [56].
+Damage to the mitochondria and loss of ATP production 
+are the initial steps in ischemic injury and chemically induce 
+necrosis [43]. Once ATP production is decreased, the energy-
+dependent plasma membrane pumps are impaired allowing 
+for osmotic disruption of the cell. Maintenance of the mito-
+chondrial transition pore (MPT) is essential to maintaining a 
+functioning mitochondria [46]. Normally, the MPT channel 
+in the inner membrane of the mitochondria is closed; how-
+ever, when the channel is open, cells undergo apoptosis and 
+die. Mitochondria are also the primary source of ROS, which 
+can cause oxidative damage to mitochondrial DNA and cell 
+death [71, 142–144]. ROS are important cytotoxic and signal-
+ing factors in the development of inflammatory liver diseases. 
+Exposure to ethanol can cause oxidative stress by increasing 
+the generation of ROS. Several drugs, including valproic acid, 
+pirprofen, tetracyclines and amiodarone, have been shown to 
+specifically target the mitochondria, effecting ATP produc-
+tion [46].
+32.3.2.9  Oxidative Stress
+The production of ROS (superoxide, hydrogen peroxide, 
+single oxygen and hydrogen radical) during normal cellular 
+metabolism is countered by defense mechanisms in each cell 
+to avoid or minimize harm. Oxidative stress is defined as a 
+disruption in the balance between prooxidants and antioxi-
+dants [71]. Oxidative damage form oxidative stress can result 
+in lipid peroxidation, damage to macromolecules (DNA, 
+RNA, protein), formation of oxidative DNA adducts and 
+modification of gene expression. In a simplified view, three 
+general categories of compounds induce oxidative damage 
+in the liver. Compounds such as CCl4 and CBrCl3 are metab-
+olized to reactive free radicals resulting in lipid peroxidation 
+and membrane damage [70, 71]. APAP, which is detoxified 
+by glutathione, depletes glutathione when administered at 
+high concentrations. Since glutathione is a necessary anti-
+oxidant in the cell, its removal results in oxidative stress and 
+damage. A third group of chemicals including diquat and 
+menadione have redox properties and when metabolized by 
+the liver produce ROS [71]. Nonparenchymal cells also are 
+involved in the oxidative stress pathways in the liver [145]. 
+KCs and neutrophils produce hydrogen peroxide when acti-
+vated which in turn can produce hydroxyl and superoxide 
+radicals [146].
+Figure 32.11 illustrates the sources and effects of oxidative 
+stress on the cells. Endogenous sources include intracellular 
+organelles (mitochondria being the greatest source of ROS) 
+and extracellular sources (predominantly inflammation). 
+Exogenous sources include xenobiotics and pathogens. The 
+production of ROS is controlled by both enzymatic and nonen-
+zymatic antioxidants in other to maintain cellular homeostasis. 
+An overage of ROS can, depending on dose, induce functional 
+and structural effects on the cell or in the extreme lead to cell 
+death. Figure 32.12 illustrates the dose-response effect of ROS 
+production. Low levels of ROS may produce modification of 
+cell function and structure while high levels are not compatible 
+with life and results in cell death.
+Measurement of ROS and oxidative damage has been 
+studied extensively. Lipid peroxidative is measured by deter-
+mining malonaldehyde which is generated by the break-
+down of peroxided lipids in thiobarbituric acid [147, 148]. 
+Another lipid peroxidation product, the conjugated dienes 
+can be determined by measuring F2 isoprostane, which is 
+the result of arachidonic acid peroxidation in phospholip-
+ids. F2-isoprostane quantification in plasma and liver of rats 
+exposed to halothane has been performed and is indicative of 
+lipid peroxidation [147, 148].
+
+1737
+Hepatotoxicology
+32.3.2.10  Application of New Approaches 
+to Liver Toxicity
+The “omics” sciences are a new tool that can help develop a 
+more in-depth knowledge for liver diseases without definitive 
+diagnostic markers such as NAFLD and drug-induced liver 
+injury (DILI). As the name suggests, genomics provides the 
+complete genetic overview to better understand the genome 
+structure and can include techniques as DNA sequencing and 
+gene mapping. Along with the genomics, transcriptomics 
+focuses on the genome-produced RNA transcripts. It exclu-
+sively concentrates on the modulation of the RNA transcripts 
+instigated by environmental factors such as drugs or diet. 
+Proteomics, on the other hand, analyzes the protein products 
+and any connection between them, while metabolomics evalu-
+ates the entire metabolism.
+32.3.2.10.1  Genomics
+The 1980 Nobel Prize in Chemistry was shared between 
+Frederick Sanger and Walter Gilbert for the development of 
+sequencing method of DNA [149]. One year following that, 
+the first complete genome sequence of a human mitochondrion 
+was registered. Since then, genomics grew exponential, and a 
+draft of the human genome was completed in 2001. Genomics 
+involves three main steps: first, the sequencing of DNA, which 
+can be the traditional DNA sequencing performed in sequenc-
+ing centers and centralized facilities, or the new generation of 
+fast turnaround benchtop sequencing that sequences smaller 
+quantities of base pairs than compared to DNA sequencing: 
+shotgun and high-throughput (or next-generation) sequencing. 
+After sequencing is done, the assembly of that sequence needs 
+to be created for a representation of the original chromosome, 
+and the annotation and analysis of that representation.
+Genomics allows the researchers to identify previously unre-
+ported genetic variants associated with a specific outcome. In 
+FIGURE 32.11  Oxidative stress sources and results in cells. Illustration of the pathways by which ROS are produced, detoxified and affects cellular 
+function.
+FIGURE 32.12  Dose-response effects of ROS. The effect of dose-
+response of ROS in the cell on function and structure.
+
+1738
+Hayes’ Principles and Methods of Toxicology
+the liver, for example, one study [150] was able to identify >300 
+unreported genetic variants associated with circulating liver 
+enzyme concentrations. Since serum liver enzymes, such as 
+ALT and aspartate aminotransferase (AST), are the most used 
+clinical markers of liver disease, understanding the genetic 
+variances within these enzymes can broaden our understand-
+ing of liver disease and other metabolic disorders associ-
+ated with serum liver enzyme concentrations [150]. Another 
+great addition to liver diseases was how genomics improved 
+our understanding of NAFLD and HCC pathogenesis [151]. 
+There are genetic association studies now that identified sev-
+eral single-nucleotide polymorphisms (SNPs) associated with 
+NAFLD and HCC, and these SNPs can, in fact, be replicated 
+in large multi-ethnic populations. Also, genomics allowed the 
+identification of circadian rhythm mediators that can poten-
+tially be predictors of NAFLD progression [151], and novel 
+genetic variants that can liver diseases such as severe types of 
+NAFLD [48].
+32.3.2.10.2  Proteomics
+Nowadays, proteomics relies greatly on mass spectrometry 
+(MS) for its accuracy and large-scale characterization abilities 
+[152]. It can be gel-free, in which samples are directly used in 
+the MS, or gel-based, which takes an extra step in the sample 
+preparation before being measured [153]. Another peculiar-
+ity in the sample preparation in the proteomics approach is 
+that the samples of interest can be first separated before being 
+individually characterized, or in the case of the “shotgun” pro-
+teomics, it is first digested into a mixture of peptides and then 
+analyzed [152]. Proteomics is a multidimensional setup to ana-
+lyze not only the whole protein expression but also the interac-
+tions between proteins. Regardless of the sample preparation, 
+the MS downstream workflow included three main steps: 
+protein ionization by an ion source, ions separation for mass 
+analyzes and ion detection. When done in plasma samples, for 
+example for liver disease examination, the plasma proteome 
+is becoming more and more attractive due to its minimally 
+invasive diagnosis of liver disease, but it is extremely difficult 
+to analyze. So far, most of the studies focus on the later stages 
+of liver diseases, such as liver cancer [154]. The application 
+of proteomics has also significantly contributed to our under-
+standing of the phenotype and function of the various cells in 
+the liver [155]. MS-based proteomics showed the importance 
+of cell-type resolution when studying liver functions as previ-
+ously unidentified components of TGF-μ–signaling pathway 
+were identified in HSCs [154]. Also, hepatocytes and bile duct 
+cells together are equivalent to more than 80% of the liver vol-
+ume and can cause not specific results when the whole liver is 
+analyzed [154].
+When comparing proteomics to transcriptomics, more spe-
+cifically RNA sequencing, the data correlation is 0.5–0.6, 
+indicating that proteomics modulations cannot rely on the 
+transcript level modulation. In fact, there are around 10,000 
+proteins for one mRNA [154].
+Potential diagnosis, prognosis and progression biomarkers 
+have already been proposed by proteomics; however, there 
+is still the need for an easier and cheaper MS-based clinical 
+tool to be used by hepatologists and medicine practitioners for 
+diagnosis and prognosis assessment [154]. Also, expectations 
+on proteomics data analysis are expected for better workflows, 
+cloud computing and remote accesses to proteomics.
+32.3.2.10.3  Metabolomics
+Metabolomics is sometimes referred to as “postgenomics” 
+as it was developed after the genomics, transcriptomics and 
+proteomics approaches. It was first defined by Nicholson in 
+1999 [156]. The main purpose of metabolomics is to exam-
+ine small endogenous molecule related to metabolism in the 
+target organism. Metabolomics is not dependable of the other 
+“omics” approach; thus, it can be performed without full 
+genome sequencing. Indeed, small modulations in the gene 
+and protein level causes an amplified modulation in metab-
+olites, and the quantity of metabolites is considerably lower 
+than genes and proteins. In addition, metabolites of different 
+organisms tend to be similar, causing metabolomics to be a 
+very attractive common option. The earliest and most com-
+mon technique used for metabolomics is the nuclear magnetic 
+resonance. This technique measures the nuclear spin proper-
+ties after radiation absorption in a powerful magnetic field. 
+Because of that, it can be used in vivo and in situ in a nonin-
+vasive and nondestructive way [157]. Other most recent, but 
+equally common, techniques combine chromatography with 
+MS: liquid chromatography-MS (LC-MS) and gas chromatog-
+raphy-MS (GC-MS). The chromatography component works 
+on the principal of separating compounds and the mass-spec-
+trometry component identifies these components. Both tech-
+niques analyze small molecules; however, GC-MS evaluates 
+more volatile, gasified and thermally stable substances, and 
+LC-MS assesses nonvolatile, nonvaporized and consequently 
+more polar compounds. Because most of the biological stud-
+ies tend to use samples that are polar, such as blood, tissue 
+and urine, the LC-MS is the most used. Since some liver dis-
+eases (autoimmune liver diseases, DILI, ALD and NAFLD) 
+still lack diagnostic markers, metabolomics provides a new 
+possibility on broader prospective biomarkers. For ALD, for 
+example, urinary LC-MS metabolomic studies showed a cor-
+relation between indole-3-lactic acid and the disease [158], 
+opening doors for the possibility using it as a potential diag-
+nostic marker for ALD.
+32.3.2.10.4  RNA sequencing
+RNA sequencing (RNA-seq) is a next-generation sequenc-
+ing (NGS) developed more than a decade ago to examine 
+RNA quantity and sequences in a specific sample [159, 160]. 
+It allows researchers to explore and learn the entire cellular 
+content (transcriptome) of the RNA. With this, we can gather 
+information on which genes are regulated and expressed in the 
+sample, knowing precisely if they are upregulated (activated) 
+or downregulated (shut off). Thus, for example, the transcrip-
+tome analysis of a specific tissue with a specific condition 
+could potentially give us information on a gene of unknown 
+function [159]. If a particular gene is expressed, we can then 
+have an indication of what its role is. Not only that, but the 
+results from RNA-seq allow us to group the genes with the 
+help of a software to understand better the pathways related to
+
+1739
+Hepatotoxicology
+the expressed genes or differentially expressed genes (DEGs) 
+[161].
+When analyzing the RNA in a more focus and traditional 
+approach as the PCR, the researcher could potentially lose 
+the opportunity of exploring new genes and pathways do not 
+know before. The RNA-seq approach, along with the pathway 
+analysis, provides mechanistic insights and potential strate-
+gies. Unlike arrays, RNA-seq does not require specific probes 
+from species or transcript, thus providing previously unknown 
+changes that arrays cannot detect. On top of that, it can quan-
+tify expression across a larger dynamic range and has a higher 
+specificity and sensitivity to detect a higher percentage of 
+DEGs with low expression [162].
+For example, a recent study [163] showed that there are 
+differences in the hepatic genetic expression between 
+female and male mice, confirming that there is a physiologi-
+cal dimorphism that influences metabolism in general. Not 
+only that, but the use of RNA-seq also provided insights in 
+new pathways and genes in the genetic differences between 
+female and male. This subsequently can be translated to dif-
+ferent approaches on liver diseases and its treatments based 
+on the sex. In its early ages, RNA-seq, even though innova-
+tive at the time, was also costly and inaccurate. Just in the last 
+years that RNA-seq became what we know now [161]. To per-
+form RNA-seq, there are several steps to be accomplished for 
+a successful RNA-seq. The very first step involves isolating 
+the RNA from the tissue of interest. Even though basic, this 
+step is extremely important to guarantee good RNA quality. 
+The second step would be converting the population of RNA 
+into cDNA fragments and preparing the cDNA library [164]. 
+Only then the cDNA library can be analyzed by NGS. The 
+extent to which the library will be sequenced will depend on 
+and the sequencing can be done in single-read or paired-end 
+sequencing methods. Single-read sequencing is a faster and 
+less costly than the paired-end sequencing. These reads, that 
+by the end of the sequencing will be many millions, can be 
+then aligned to a genome of reference and gathered to pro-
+duce an RNA sequence map [161, 165].
+After this stage, the researcher can focus on analyzing 
+the data. For that, a tool like Sailfish or BitSeq can help, 
+but also analysis using R code and libraries like DESeq2 or 
+limma can help to quantify the expression levels [164, 166]. 
+With that, the researcher can explore the pathways through 
+pathway analysis, being the most common one the ingenu-
+ity pathway analysis. Pathway analysis can be used to iden-
+tify key genes within formerly identified pathways allowing 
+the scientist to compare it with a particular pathological 
+condition. On top of that, it allows the researcher to build 
+its own pathway de novo from the DEGs identified as key 
+affected elements [166]. RNA-seq, although being a multi-
+steps technique, can be a very useful tool in science and 
+is becoming more and more popular technique. With that, 
+it is also becoming less costly and different genomic and 
+bioinformatic centers as rising facilitating the availability 
+of this service.
+32.3.3  Models and Methods to 
+Assess Liver Toxicity
+Many laboratory approaches have been used to detect and 
+monitor liver diseases. Two major approaches have been and 
+continue to be used to assess the potential toxicity of chemical 
+agents. These include both in vivo animal studies, predomi-
+nantly in rodents (rats and mice) and in vitro studies employ-
+ing cells. The overall goal of these toxicological evaluations 
+is to provide meaningful, mechanistically data to be used to 
+determine the relative risk of exposure to a chemical on human 
+health. In evaluating the toxicity, it is important to note that the 
+liver, because of its role in metabolism and detoxification, is 
+frequently the target of the toxic effect of xenobiotics.
+32.3.3.1  In Vivo Studies
+For almost a century, animal species particularly rodents have 
+been used to evaluate toxicity of chemical compounds [66, 67, 
+167–171]. An underlying premise is that the toxic effects seen 
+in animal species following short-term and long-term exposure 
+will be predictive of the toxic effects of the chemicals in humans 
+[43, 168, 170]. This premise is supported by the fact that in vivo 
+rodent exposure obeys most of the same physiologic and pharma-
+cologic process seen in humans. in vivo studies also allow for the 
+utilization of exposure scenarios consistent with potential human 
+exposure. For example, orally administered pharmaceuticals can 
+be orally administered to a rodent. While the overall process of 
+absorption, distribution, metabolism and elimination of chemicals 
+in rodents is in general similar to that seen in humans, significant 
+differences between rodent and humans metabolism and detox-
+icifiation for specific compounds has been demonstrated [67, 171]. 
+Although multiple endpoints are evaluated using animals includ-
+ing developmental and reproductive effects, DNA altering effects, 
+as well as other target tissue, in this discussion, the liver will be the 
+primary subject. It is interesting to note that in the in vivo rodent 
+treatment studies, the liver is the primary target for toxicity. The 
+liver has also been shown to be the primary target for toxicity to 
+many pharmaceuticals and non-pharmaceuticals in humans.
+The standard toxicity testing for rodents involves the short-
+term (7-, 14-, 28- and 90-day) continuous exposure to the agent 
+and chronic (2 year) continuous exposure to the compound [56]. 
+Usually two species of rodents, mice and rats are employed 
+with both genders of each being tested [172]. Multiple con-
+centrations of the compound being tested are exposed to the 
+mice and rats continuously along with an untreated control 
+group for each gender and species [43]. At sacrifice, complete 
+necropsies are performed along with clinical pathology and 
+histopathology. In addition, additional mechanistic studies can 
+be incorporated into the bioassay [56]. For example, the effect 
+of the chemical on liver gene expression and cell prolifera-
+tion may be also examined. While the overall approach to the 
+rodent bioassay has not changed in many years, modifications 
+in the strains of rodents used as well as time and duration of 
+exposure have been made. Currently the National Toxicology 
+Program (part of the NIH) uses Harlan Sprague Dawley rats
+
+1740
+Hayes’ Principles and Methods of Toxicology
+and B6C3F1/N hybrid mice as the test subjects [173]. Recently, 
+the bioassay has been expanded to incorporate a perinatal 
+phase exposure. The perinatal phase includes exposure of rats 
+to the testing compound for the duration of pregnancy in utero 
+as well as during the lactation period via the mother’s milk. 
+Perinatal exposure studies are performed prior to the 13-week 
+and 2-year bioassays [174]. This approach was incorporated 
+to observe any in utero or post-birth effects of the compounds 
+being tested.
+32.3.3.1.1  Dose Selection for the In Vivo Toxicity Studies
+The selection of doses for the subsequent subchronic and 
+chronic bioassays is of utmost importance in obtaining a 
+proper understanding of the relative toxicity of the chemical 
+being tested [41, 42]. Different regulatory agencies have dif-
+ferent guidelines for determining the maximum dose to be 
+studied in subsequent subchronic and chronic studies. There 
+are typically five options for defining the highest dose. These 
+include the maximum tolerated dose (MTD), maximum feasi-
+ble dose, a limit dose (maximum of 1,000 mg of drug/kg body 
+weight), exposure saturation and dose providing a 50-fold mar-
+gin of exposure (from the anticipated clinical treatment dose. 
+The most common of these, the MTD, is defined as the highest 
+dose of a drug that does not cause unacceptable side effects 
+or overt toxicity in a specific period. These side effects can 
+range from mild effects such as reduced weight gain, moder-
+ate effects such as weight loss up to 20% or substantial other 
+effects. The MTD is determined in acute short duration toxic-
+ity studies with a small number of animals [41, 42]. The ratio-
+nale for using a high dose in the chronic studies is to maximize 
+the possibility of detecting any toxic effects in the laboratory 
+as a safeguard for human exposure.
+32.3.3.2  In Vitro Models
+In addition to in vivo models, methods for assessing the hepa-
+totoxic properties of chemical agents include hepatic slices, 
+isolated liver cells, ex vivo liver and primary hepatocyte 
+culture and cell cultures. With the increased emphasis to 
+reduce animal testingthere is a recognition to further develop 
+alternative non animal models to determine of the toxicity 
+of a compound (or mixtures)(175). The latter is particularly 
+important in developing scientifically and mechanistically 
+based information for potential human risk evaluation [39]. 
+In 2008, several federal governmental agencies proposed a 
+collaborative research approach to develop and validated in 
+vitro cell-based assays using quantitative high-throughput 
+screening [176]. This program, Tox21 program, includes three 
+charges: (1) identify mechanisms of chemically induced bio-
+logical activity, (2) prioritize chemicals for more extensive 
+testing and (3) develop more relevant and predictive mod-
+els of in vivo toxicological responses (as a continuum of the 
+Tox21, in 2019, the USEPA administrator issued a Directive 
+to phase out animal testing by 2035) [175]. Thus, in vitro and 
+in silico models of predictive toxicity will eventually replace 
+the rodent bioassay [177]. There are several benefits of using 
+in vitro approaches in comparison to the in vivo bioassays. In 
+vitro models are less costly and less time-consuming. Given 
+these two benefits, more chemicals and more doses can be 
+tested in vitro. In vitro models also allow for the evalua-
+tion of mixtures of compounds, which are too expensive to 
+be performed in the rodent bioassay [178, 179]. The regula-
+tory agencies have focused on the integration of liver toxic-
+ity data and the establishment of “toxicity signs” to predict 
+the potential toxicity of a compound. Approaches such as 
+the USEPA ToxCastTM system have been established to this 
+end. Of course, the push to use in vitro models as a replace-
+ment for animal in vivo testing has drawbacks. Specifically, 
+the properties of a chemical agent with regard to absorption, 
+metabolism and detoxification (pharmacokinetics) cannot be 
+completely duplicated in vitro. In addition, since the liver is a 
+multicellular tissue, maintaining the nonparenchymal cells in 
+the culture is important.
+Historically the most frequent models for in vitro study in 
+the liver have used primary hepatocyte cultures and immortal-
+ized cell lines [177, 180, 181]. Primary cultured hepatocytes 
+and some liver cell lines have several advantages in that many 
+hepatocytes can be secured from one animal, there is the 
+opportunity to compare the effects of chemicals on cultured 
+human hepatocytes with cultured rodent hepatocytes and the 
+CYP P450 enzymes are, at least for several days, maintained at 
+near in vivo levels [61, 167, 178, 179, 181, 182]. A problem with 
+the cultured hepatocyte model is that only hepatocytes are uti-
+lized in the system. In an attempt to maintain the multicellular 
+organization of the liver in an in vitro model, three-dimen-
+sional cell culture, co-cultures and bio-artificial liver models 
+have been developed. In addition, isolated perfused liver mod-
+els, while still are dependent of using an animal liver, have 
+seen application in measuring compound pharmacokinetics in 
+an in intact liver. These multiple in vitro models will be further 
+discussed below.
+32.3.3.2.1  Isolated Perfused Liver
+The isolated perfused liver probably is the closest model to 
+studying liver metabolism and function to the in vivo liver 
+itself [183]. The liver is removed and supplied artificially via 
+perfusion with medium and oxygen, thus preserving the liver’s 
+architecture and hemodynamic characteristics. Perfusing iso-
+lated livers requires many animals, as each liver is required 
+for one data point per experiment. Further descriptions of the 
+use and techniques involved in perfused liver preparations are 
+summarized in several reviews
+32.3.3.2.2  Liver Slices
+The culture of liver slices was developed to overcome some 
+of the limitations of the isolated perfused liver model and the 
+primary culture hepatocytes [184]. Brendel and coworkers 
+developed a reproducible method for procurement and cul-
+ture of the liver slices [185]. During incubation, their organ-
+culture technique exposes the upper and lower sides of the 
+cultivated tissues to the gas phase to overcoming the disinte-
+gration of the interface into the long-term incubating of tissue 
+slices. This precision liver slice technique of Brendel repro-
+ducibly produces slices thin enough that allow for the absorp-
+tion those compounds as well as nutrients and oxygen from 
+the medium into the innermost cells via passive diffusion 
+[184, 185]. The use of the precision-cut rat liver slices permits
+
+1741
+Hepatotoxicology
+the measurement of liver damage in a reproducible manner. 
+The viability of the liver slices has been reported as being 
+a maximum of between 120 and 240 hours. A roller incuba-
+tion system has been found to be the most effective way to 
+maintain the viability of precision-cut tissue slices in culture. 
+Using tissue slices Weldon showed a dose-dependent decrease 
+in the metabolism of L-leucine following CCl4 incubation 
+with liver slices [186]. Bromobenzene, o-bromobenzonitrile, 
+o-bromobenzene and other selective bromo compounds have 
+been examined for their relative toxicities in slices from rats, 
+guinea pigs and cynomolgus monkey liver. This identifies an 
+advantage of the liver slices in that from one liver, multiple 
+sample sources and be secured, thus reducing the number of 
+animals needed to supply livers. In addition, one can secure 
+slices from human liver, and thus, the precision slices allow 
+for comparison of metabolism and toxicity between species 
+[184–186].
+It has been demonstrated that the liver slices in culture are 
+capable of both phase I and II of metabolism. In addition, 
+peroxisome proliferation, glucose metabolism and DNA syn-
+thesis, all important toxicologic endpoints, have been dem-
+onstrated in cultured liver slices. Confocal microscopy is 
+required, because of the thickness of the slices, to examine the 
+slices while in culture. Slices of liver treated to benzo[a]pyrene 
+produced DNA adducts similar to that seen in vivo treatment. 
+Since Brendel and Smith et al. [185] introduced the precise 
+liver slice technique in 1985, the use of the slices for the mea-
+surement of hepatic function and toxicity has been successful, 
+the tissue slice preserves tissue architecture and the presence 
+of all liver cell types having an advantage over cultured indi-
+vidual cells.
+32.3.3.2.3  Hepatocyte Isolation
+Isolated hepatocytes can be easily obtained from an intact 
+liver using an established two-stage in situ perfusion method 
+[179, 187]. In this procedure, the liver is perfused through the 
+portal vein initially with a calcium-free buffer containing the 
+calcium-chelating agent (EGTA) (stage 1). This is followed by 
+perfusion of a collagenase-containing medium (stage 2). The 
+resulting suspension of individual hepatocytes is produced 
+with high viability (greater than 90%). The isolated cells can 
+be used in suspension for short-term metabolism studies or 
+plated onto plastic culture dishes and maintain as primary 
+cultures. The two-stage liver isolation has been applied to a 
+variety of rodent species including rabbits, mice, rats, guinea 
+pigs and hamsters. In addition, hepatocytes have been isolated 
+using liver lobes from human liver and non-human primate 
+liver successfully and place in culture. Modification to the 
+two-stage collagenase perfusion has been used to selectively 
+isolate and culture periportal versus centrilobular hepato-
+cytes. More recently, cryopreservation methods have been 
+successfully developed, which allow for the storage of iso-
+lated hepatocytes that can be subsequently placed in culture 
+[188, 189]. This is particularly valuable in the human hepa-
+tocyte culture since a large number of cells can be obtained 
+from the same human subject liver and stored for subsequent 
+studies [178].
+Isolated hepatocytes have been widely used in studies of 
+chemical biotransformation and toxicity. Metabolic enzymes 
+in the isolated cells are maintained for several hours, but the 
+limited viability of the isolated cells and hence the metabolic 
+activity of these isolated hepatocytes decrease relatively rap-
+idly and thus have a relative short window for use (approxi-
+mately 3 hours or less). Isolated hepatocytes have also been 
+used to assess toxicity. The cytotoxicity of newly isolated 
+hepatocyte suspensions is a useful method for xenobiotics to 
+be screened for hepatotoxic characteristics. Two predominant 
+methods have been used to determine hepatocyte viability. One 
+method involves the measurement of lactate dehydrogenase 
+(LDH) leakage [190]. LDH leakage reflects the breakdown of 
+membrane integrity which in turn reflects cell death. A second 
+method involves the staining of the cells in suspension with 
+trypan blue [191]. Trypan blue is excluded from viable hepa-
+tocytes. Thus, measurement and counting of stained cells ver-
+sus non-stained cells under a microscope reflects the relative 
+viability of the hepatocyte suspension. In addition, other indi-
+cators of membrane integrity have been reported including the 
+measurement of intracellular potassium, sodium or calcium 
+concentrations. Hepatocytes treated with Adriamycin showed 
+a 3-hour decline in potassium decline after treatment [192]. 
+Isolated hepatocytes exposed to the classic hepatotoxicants, 
+bromobenzene and APAP, showed decreases in glycogen and 
+protein production. In the examination of heavy metal toxicity, 
+Frazier noted that a decrease in protein synthesis in concert 
+with increased trypan blue staining proved to be the most sen-
+sitive indicators of cadmium, copper and zinc toxicity [193].
+Isolated hepatocytes have been evaluated for toxicity fol-
+lowing treatment with many of the classic hepatotoxicants 
+including APAP, ethanol, methotrexate, fentanyl, bromoben-
+zene and chlorinate hydrocarbons [183, 187, 191]. However, 
+using these established hepatic toxicants, investigators have 
+noted significant differences in the relative toxicity of these 
+compound in the isolated hepatocytes versus the in vivo toxic-
+ity data. In general, the toxicity observed in the isolated cells 
+was less, at comparable doses, to that seen in vivo. Therefore, 
+while the use of isolated hepatocytes has some application to 
+study short-term metabolism and cytotoxicity of chemical, 
+the steady decrease in viability within a short time limits this 
+model’s use to well-defined short-term questions.
+32.3.3.2.4  Hepatocyte Culture
+Hepatocyte cultures fall into two general categories 
+(Table 32.9). One is the primary culture. These are hepatocytes 
+that are taken from the liver of an animal using an in situ two-
+stage perfusion method noted above [185, 189]. The cells are 
+isolated and place in culture. They have the functional meta-
+bolic and molecular properties of the intact liver but a lim-
+ited in lifespan to a few days. These cells in culture maintain 
+their polygonal appearance, form tight and gap junctions and 
+exhibit most of the functions attributed to in vivo liver includ-
+ing producing albumin, maintaining functional P450 enzymes 
+and maintaining their cellular organelles (Figure 32.13) [194]. 
+The technical aspects and methods of isolation and cul-
+ture of hepatocytes from a variety of species have been well 
+described. The standard approach is to grow the hepatocytes 
+in primary culture as a monolayer on plastic culture dishes. 
+Modifications to the standard monolayer approach have been 
+made recently in an attempt to prolong viability and metabolic
+
+1742
+Hayes’ Principles and Methods of Toxicology
+function, hepatocytes have been grown in monolayers sand-
+wiched between two collagen layers of a spheroid [195]. The 
+microenvironment of the liver is critical for interacting with 
+endogenous and external substrates, which is a major develop-
+ment in 3D cell culture. The structural model can range from 
+a monolayer sandwich culture or spheroids to a more com-
+plex system of porous materials, pit fibers or perfusion flows 
+for three-dimensional cell cultures [195]. In monolayer 2D 
+hepatocyte culture, expression Cyp1a2, Cyp1a1, Cyp2b9 and 
+Cyp2b10 usually decreased over time but remained for several 
+days in 3D spheroids [182, 196]. 3D cultures, however, are lim-
+ited by their oxygen and nutrient dispersion, requiring further 
+progress in their models. The addition of gelled elements to 
+3D culture can also be observed. Despite phase I, metabolic 
+FIGURE 32.13  Rodent hepatocytes in culture. Mouse hepatocytes after one day in the primary culture. Panel on the left shows a phase contrast pho-
+tomicrograph of the mouse hepatocytes in culture. Panel on the right is a low power transmission electron micrograph of the same.
+TABLE 32.9
+Commonly Used Liver Cell Cultures in Toxicological Studies
+Derived From
+Properties and Characteristics 
+Liver cells
+Primary Hepatocyte culture 
+Isolated directly from 
+lab animals or humans 
+Functional Phase 1 and 2 activity for 2 days
+Short-term viability
+Does not proliferate in culture
+Well differentiated in function and structure
+CX 32 and 26 gap junction proteins
+Liver cell lines
+WBF344 cells (rat)
+Derived from rat liver 
+primary culture
+Immortalized cell line
+Has stem cell characteristics
+Poor Phase 1 and 2 enzymes
+Can be transfected
+Has CX43 gap junctions
+HepG2 (human)
+15 y/o male with well 
+differential HCC
+Immortalized cell line
+Epithelial like morphology
+Chromosome number 55
+Can be transfected
+Produce albumin, AFP
+HepaRG (human)
+From hepatitis patient 
+with tumor
+Immortalize cell line
+Can go into hepatic differentiation
+When differentiated,
+expresses Phase 1 and 2 functions
+express other hepatocyte functions
+The primary culture cells are in vivo liver-derived.
+The two human liver cell lines are derived from tumors of humans.
+The rat liver WBF344 cells were derived from a culture of F344 primary culture hepatocytes.
+
+1743
+Hepatotoxicology
+enzyme levels were the same as in vivo. In addition to being 
+long-term and requiring high volumes of chemicals, there was 
+the same problem with nutrition and oxygen deficits. Fluid 
+flow was shown to solve poor oxygenation and nutritional 
+equilibrium problems. Hollow fibers or another type of inte-
+grative medium microcirculation create a fluid flow in culture 
+that allows for a freer flow of nutrients and oxygen.
+The same biochemical and functional endpoints that are used 
+to assess the isolated hepatocyte system (see above) are used 
+in the primary hepatocyte cultures [197]. Phase 1 and Phase 
+2 metabolism has been demonstrated in the primary cultures. 
+However, it is documented that there is a decrease in P450 
+(Phase 1) enzymes with time in culture. Biotransformation 
+decreases in culture after 1–2 days. As a result, most studies 
+that require metabolic processes are usually evaluated during 
+the first day or two of primary culture. As with the isolated 
+liver cells and the liver slices, human hepatocytes can be iso-
+lated and cultured, thus providing a valuable tool to compare 
+toxicity between species.
+32.3.3.2.5  Cell Lines
+A second liver culture approach utilizes cell lines derived from 
+liver (Table 32.9). The advantages of the cell lines are that they 
+are clonal and can be cultured repeatedly, not requiring any in 
+vivo liver. A disadvantage is that to date most of the liver cell 
+lines are derived from neoplastic livers or from undefined cells 
+in the liver. The most used of immortalized human cell lines 
+are the HepG2, Hep3B, HBG and the newly created HepaRG 
+[194]. While in HepG2 cells expression of genes involved in 
+phases I and II metabolism has been shown to fluctuate after 
+multiple passages of the cell line. In contrast, the HepaRG cells 
+, also an immortalized cell line from a human primary liver 
+tumor appears to maintain the expression levels of CYP450s, 
+nuclear receptors and Phase II enzymes throughout multiple 
+passages [194].
+32.3.4  Measuring Liver Toxicity
+A variety of tests have been established to detect and evalu-
+ate liver function and toxicity. These tests range from indirect 
+evaluations, such as measuring liver enzymes in the serum in 
+vivo to histopathologic analysis. Multiple reviews and sum-
+maries have been reported in the scientific literature on these 
+tests, and the reader is referred to these.
+32.3.4.1  Serum Enzymes
+An effective indirect method for determining hepatic toxic-
+ity in the intact animal or human is to measure selective 
+hepatic enzymes released into the bloodstream by damaged 
+or dead liver cells [198]. The basis for the measurement of 
+serum enzymes is due to the fact that as cells are injured or 
+die, the cell membrane becomes porous and cytoplasmic com-
+ponents (including enzymes) in the cell are released into the 
+circulation [198–200]. This includes liver enzymes unique to 
+the liver and specific liver cells. Four serum enzymes, ALT, 
+AST, alkaline phosphatase (ALP) and ć-glutamyl transferase 
+(GGT) have been measured in the serum of animals as well 
+as humans to assess the functioning state of the liver in vivo 
+[201]. One or more of these enzymes are elevated in liver tox-
+icity and diseases. Blood elevations of ALT and AST may indi-
+cate the presence of hepatocyte damage and death (necrosis) 
+while elevations of ALP and GGT reflect damage to the bile 
+ducts and cholestatic function. A list of the commonly mea-
+sured biomarkers for liver function and toxicity is presented 
+in Table 32.10.
+In the liver, both sublethal and necrosis can result in an 
+increase in serum ALT [49, 51]. Although in high concentra-
+tions in hepatocytes, ALT is also found in the kidneys and 
+muscle. In humans, an increase of up to 300 IU/L of ALT may 
+not reflect just hepatocyte damage but could be due to the dam-
+age in the kidneys or muscles. ALT increases more than 500 
+IU/L are more specifically linked to liver damage, although 
+the cause of the liver damage will require further investigation 
+since infection and toxic injury will present similarly. ALD, 
+NAFLD, fat accumulation in liver and steatohepatitis show an 
+increase in serum ALT [78, 202]. AST is present in both a 
+mitochondrial form and a cytoplasmic form. While like ALT, 
+it is also found in other organs including heart, muscle, kidney 
+and lungs. It is in high concentrations in the liver, but the wide 
+TABLE 32.10
+Serum Biomarkers Used to Assess Liver Function In Vivo
+Biomarker
+Biomarker measurement
+Comments
+ALT
+Elevated in serum due to liver necrosis
+Most common biomarker used to assess liver necrosis
+AST
+Elevated in blood due to liver or extrahepatic injury
+Less specific for liver injury than ALT
+Total bilirubin
+Marker of hepatobiliary injury and reduce liver function; 
+cholestasis and liver function 
+Standard measure of biliary injury
+ALP
+Marker of hepatobiliary injury; cholestasis
+Standard measure of biliary injury
+GGT
+Marker of hepatobiliary injury; cholestasis
+Standard measure of biliary injury
+Albumin 
+Main component of serum; decreased in the blood with chronic 
+liver disease 
+Liver function measurement
+Ammonia
+Converted to urea in liver; elevation in blood to liver injury
+Liver function measurement
+Clotting time
+Increased with liver injury
+Liver is not producing coagulation factors
+Urobilinogen
+Low level in urine due to biliary obstruction
+Bilirubin not being removed
+Cholesterol/triglycerides
+Increased in blood could be due to the failure of bile elimination
+Bile removal is impaired
+
+1744
+Hayes’ Principles and Methods of Toxicology
+range of other organs with AST indicates less specificity for 
+liver damage compared to ALT. While more than 80% of liver 
+AST activity is found in the mitochondria, the AST measured 
+in the serum is predominantly the cytoplasmic form [198]. The 
+AST/ALT ratio is frequently used as a means to differentiate 
+the underlying cause of the liver damage [203–205]. While 
+most hepatocyte injury is associated with a greater increase 
+in ALT than AST, an AST-to-ALT ratio of 2:1 or greater is 
+suggestive of ALD. Figure 32.14 shows the results of a sin-
+gle i.p. injection of APAP to B6C3F1 male mice and C57 BL 
+male mice on ALT and AST levels 24 hours after treatment. 
+In both mouse strains, increase in liver toxicity as measure by 
+the serum levels of AST and ALT occurred in a dose-response 
+manner. This study showed that the B6C3F1 mouse at similar 
+doses of APAP was more sensitive to the liver damage induce 
+by APAP compared to the C57Bl mouse [206].
+As is apparent, increases in serum enzymes may reflect 
+liver injury but defining a specific cause of the liver damage, 
+whether viral, inflammatory or from chemicals and drugs, 
+is difficult. Hy Zimmerman, a renowned hepatologist, after 
+observing many cases of drug-induced liver injury concluded 
+that chemical- or drug-induced liver damage as a cause could 
+be defined if three components were met [207]. One, the drug 
+induces hepatocellular injury as seen with increased serum 
+ALT or AST 3-fold or greater of normal. Second, the drug also 
+causes an increase in serum bilirubin of 2-fold with apparent 
+cholestasis (normal serum ALP). And third, there is no other 
+apparent cause for the increase in ALT, AST and bilirubin such 
+as hepatitis, alcohol abuse or other preexisting liver disease. If 
+these three criteria are met, then the cause of the liver injury is 
+highly linked to chemical- or drug-induced liver injury.
+ALP is found in the cells lining the bile ducts. It is important 
+in lipid transposition to the intestine. An increased serum ALP 
+is linked to cholestasis from impaired bile formation or bile 
+flow obstruction [201]. As with other serum markers, ALP is 
+also present in other tissue and is particularly high in the bone. 
+Over a half of the normal serum ALP levels can be attrib-
+uted to bone as a source. GGT is a microsomal enzyme found 
+in hepatocytes, biliary epithelial cells, kidney and pancreas. 
+GGT participates in glutathione metabolism by transporting 
+glutathione-related peptides into the cell. Increased serum 
+GGT as seen with ALP is indicative of bile duct damage and 
+cholestasis [201]. Serum GGT is also elevated in a third of 
+hepatitis C patients. Serum GGT is also increased 2- to 3-fold 
+in non-ALD.
+Other serum enzymes, although not utilized as much as the 
+four above, have also been studies for the identifying liver 
+damage and possible causes of the liver damage. The glyco-
+protein 5´ nucleosidase is a membrane glycoprotein found 
+in many tissues. It is raised in the serum in jaundice, paren-
+chymal liver disease and liver metastases. Ceruloplasmin is a 
+carrier of the copper and is increased in liver infections, non-
+Wilson liver disease and jaundice [208]. In the case of Wilson 
+disease (where excess copper is present), the ceruloplasmin 
+levels are decreased resulting in copper accumulation in in 
+the liver [209]. Alpha-fetoprotein (AFP) is highly expressed 
+in fetal liver with less expression in the normal human liver. 
+Significant AFP levels in the serum is seen (400–500 ōg/L) 
+with HCC [210]. Oxytocin is produced in liver mitochondria. 
+In acute and chronic liver damage, serum levels of oxytocin 
+are significantly increased. Drotman reported a 6-fold increase 
+in serum OCT after exposure of rats to CCl4 [200]. The level 
+of OCT increase correlated with the dose of the CCL4. The 
+cytoplasmic enzyme SDH is a liver-specific enzyme that is 
+increased in the serum following liver damage. In a study 
+looking at the effect of CCL4 on rat liver, SDH was reported 
+to be the most sensitive enzyme measure of liver damage.
+LDH is found in many body tissues, including the liver. 
+Elevated levels of LDH may indicate liver damage [211, 212]. 
+Its widespread distribution throughout many tissues requires 
+the analysis of selected tissue-specific isoenzymes to identify 
+the specific target tissue undergoing injury. Cornish et al. [213] 
+investigated the pattern of LDH isoenzymes to identify organ 
+injury in rats. They found a difference in the isoenzyme pat-
+terns in the serum of rats with liver versus rats with kidney 
+injury. Rats with kidney injury had higher levels of LDH-1 
+and LDH-2 isoenzymes, whereas rats with liver damage had 
+higher levels of LDH-5. In contrast, Grice et al. reported that 
+rats treated with CCl4, mercuric chloride, thioacetamide or 
+diethanolamine at doses produced tissue damage [148, 213]. 
+While serum AST levels rose, there were no isoenzyme pat-
+terns of LDH that pointed to a specific target organ. It was also 
+FIGURE 32.14  AST/ALT serum levels after APAP injection in mice. B6C3F1 and C57BL male mice were treated with a single i.p. injection of APAP. 
+After 24 hours, the serum enzymes, AL and AST, were measured. In both mouse strains, an increase in liver toxicity as measured by the serum levels 
+of AST ad ALT occurred with regard to dose. The B6C3F1 mouse was more sensitive to the liver damage induced by APAP compared to the C57Bl 
+mouse.
+
+1745
+Hepatotoxicology
+noted that doses of the toxicants that histopathologic changes 
+were far lower than those that increased serum LDH. While 
+used as a specific marker of liver damage in serum in vivo, 
+LDH measurement is extensively used to assess the cell injury 
+and death in cultured hepatocytes and liver cells [213]. This 
+application works well since the cultures are liver-specific, and 
+thus, any toxicity seen is the result of liver injury.
+32.3.4.2  Histopathological Evaluation
+While the measurement of serum enzymes for the presence 
+and severity of liver injury is valuable, the evaluation of the 
+liver by histopathology is the true indicator of liver damage 
+[214, 215]. This is particularly important in rodent in vivo 
+studies. The procedure for histopathologic evaluation of the 
+liver is well defined and involves euthanizing the rats or mice 
+followed by collection of liver tissue [50, 52, 216, 217]. Blood 
+samples for serum enzyme analysis are usually also collected 
+at the same time to determine the correlation between the 
+serum enzyme measurement and the histopathologic finding. 
+The liver should be excised from the rodent within a minute 
+or two of death, examined grossly for any lesions, weighed 
+and sliced into 2–3 mm strips for subsequent histologic and 
+biochemical/molecular processing [214, 215, 218–220]. 
+Usually, alternate strips are collected with one going into 10% 
+neutral-buffered formalin (NBF) for histopathology process-
+ing and the other into liquid nitrogen (snap frozen) for fur-
+ther molecular biology evaluation [221]. The frozen samples 
+are stored at ′ 80 °C. The liver strips for histology are fixed 
+overnight (18–24 hours) in NBF, and then routinely processed 
+for paraffin embedding. Sections (5 um) are cut and placed 
+on slides and stained with hematoxylin and eosin [217, 222]. 
+Additional sections may be cut and stained for specific mark-
+ers using special stains and/or immunohistochemistry. The 
+slides are examined with light microscopy in a blinded fash-
+ion. Any pathology is noted as to classification and extend is 
+recorded. If liver necrosis is evident, the extent of the necrosis 
+and location are noted. The degree of necrosis is scored by 
+assigning a value from 0 to 4: with 0 = the absence of necro-
+sis, 1+ = minimal necrosis, 2+ = mild necrosis, 3+ = moderate 
+necrosis and 4+ = marked necrosis [217, 221, 222]. The pat-
+tern, whether it be focal or diffuse and location of the necro-
+sis, periportal or centrilobular, is also noted. Histopathologic 
+evaluations have been shown to correlate well with other 
+markers of hepatic injury and usually exhibit a dose-related 
+severity with the increasing dose of the toxic agent [214, 
+216–219, 221–223]. The percentage of deteriorated, necrotic 
+or abnormal hepatocytes is used to determine the severity 
+of the liver lesion (necrotic plus degenerate). Whatever the 
+parameters investigated, there is usually a linear relationship 
+between the degree of the biochemical change and the histo-
+pathologic detected lesion. Most investigators have found that 
+elevations in ALT serum activity were the most significantly 
+associated with histopathological changes [215, 217, 222]. In 
+contrast changes in liver weight were less correlated with the 
+severity of liver damage. Electron microscopy has also been 
+useful in examining the cellular changes seen in the liver 
+following toxic injury. Organelle changes and modifications 
+are easily detectable by electron microscopy. The ability to 
+correlate ultrastructural changes with functional alterations 
+makes electron microscopy a valuable tool in toxicological 
+studies [217, 218, 221, 222]. Ultrastructural analysis of liver 
+damage can detect intracellular changes before they become 
+apparent by light microscopy examination or serum enzyme 
+changes [218]. Minor ultrastructural anomalies in the early 
+stages of hepatic damage can help determine the origin and 
+biochemical processes involved in the liver pathogenesis [214, 
+216–219]. More recently immunohistochemistry approaches 
+have seen more use in helping to define the mechanisms of 
+chemical toxicity to the liver. For example, measurement 
+of cell proliferation and apoptosis in the liver is easily per-
+formed using immunohistochemical stains. This staining can 
+be quantitated with regard to the extent and of pathology and 
+location of these cells [56]. Even more exciting is the appli-
+cation of molecular techniques to histologic samples. Single 
+cells or small groups of cells within a tissue can be visual-
+ize by light microscopy and dissect out for traditional in situ 
+hybridization or using the latest technology and methodology 
+[215]. Advanced RNA-seq and pathway analysis of a single 
+cell can also be performed [163, 224].
+32.3.5  The Role of miRNAs in Liver 
+Disease and Toxicity
+miRNAs are a group of noncoding RNAs that are endoge-
+nously expressed in almost all eukaryotic cells. They regulate 
+gene expression at a post-transcriptional level by binding to the 
+untranslated region of target mRNAs. miRNAs were identi-
+fied in C. elegans, and so far, 1,800 miRNAs were identified in 
+humans. Computational models estimate that approximately 
+60% of genes that code proteins are regulated by miRNAs. 
+miRNAs have a length of 18–24 nucleotides and are tran-
+scribed by RNA polymerase II and III. Primary miRNAs have 
+stem-loop shape, which is recognized by DGCR8 protein. The 
+DGCR8 protein and primary miRNA form a complex with 
+protein DROSHA, followed by cutting the primary miRNA 
+and forming smaller precursor miRNA. Precursor miRNA 
+then carried from the nucleus into the cytoplasm through the 
+nucleopore by Exportin5 transporter protein. The precursor 
+miRNA then cleaved into double-stranded miRNAs by RNase 
+III endonuclease (Dicer). The argonaut molecule AGO 2 inter-
+acts with Dicer and binds to the double-stranded miRNA. The 
+miRNA is unwound, and one strand is released. The remain-
+ing guide strand interacts with AGO 2 and additional proteins 
+to form RNA-induced silencing complex (RISC). RISC can be 
+guided to its target and inactivate one or multiple genes. RISC 
+binds to a specific location of target gene’s mRNA, and mRNA 
+sequence is complementary to the sequence of miRNA. The 
+major ways how the mRNA is silenced are cutting the mRNA 
+by RISC, RISC inhibiting translation by preventing ribosome 
+subunit from binding to mRNA and destabilization of mRNA 
+by shortening its poly(A) tail. One of the reasons miRNAs are 
+involved in regulation of essential cellular processes is that a 
+single miRNA can have several target genes, and a single gene 
+can be regulated by several miRNAs. miRNAs were shown to 
+be involved in cell proliferation and differentiation. miRNAs 
+can be endogenous to a specific cell type or be present in sev-
+eral tissues; for example, miR-122 is found only in hepatocytes.
+
+1746
+Hayes’ Principles and Methods of Toxicology
+miR-122 is the most abundant miRNA in the liver, making 
+up 70% of all hepatic miRNAs [47]. Downregulation of miR-
+122 was found to lead to a reduction of cholesterol and FA 
+synthesis in liver, decreased cholesterol level in plasma and 
+elevated hepatic FA oxidation. Studies show that when miR-
+122 is inhibited, upregulation of hemochromatosis, hepcidin 
+antimicrobial peptide, bone morphogenic protein receptor type 
+1A and hemojuvelin. The miR-122 was also shown to be asso-
+ciated with circadian gene expression in the liver, as inhibition 
+of miR-122 led to a dysregulation of numerous mRNAs in a 
+circadian pattern. miRNAs were shown to be involved in liver 
+regeneration and hepatocyte proliferation. The HNF4−, liver-
+specific transcription factor, was shown to be a target gene of 
+miR-24 and miR-34a in HepG2 cells. In a study on the role of 
+miRNAs in liver development, knocking out DICER1 protein 
+in cells derived from hepatoblasts caused downregulation of 
+miR-122, miR-194 and miR-192. Glucose is stored as glycogen 
+when its blood levels are high. This process known as gluco-
+neogenesis is mediated by SIRT1, a positive insulin-signaling 
+regulator in cells, including hepatocytes. The miR-34a and 
+miR-181a were shown to be involved in gluconeogenesis by 
+inhibiting SIRT1 expression targeting its untranslated region.
+32.3.5.1  miRNAs in Liver Fibrosis and Cirrhosis
+As HSCs play the major role in liver fibrosis development by 
+producing collagens, proteoglycans, fibronectin and laminin 
+into ECM. Studies have shown that when miRNA profiles in 
+activated HSCs were compared to those in quiescent HSCs, a 
+significant number of miRNAs were dysregulated in former 
+cells. For example, miR-143, miR-328, miR-193, miR-501, 
+miR-325-5p, miR-349 and miR-29c were upregulated, while 
+miR-20b-3p, miR-16, miR-122, miR-146a, miR-92b, miR-375, 
+miR-15b and miR-341 were downregulated [61, 220, 225, 226]. 
+Among the number of miRNAs that are involved in liver fibro-
+sis, miR-29, miR-34 and miR-122 are the most important ones. 
+Downregulation of miR-29 (miR-29a, miR-29b, miR-29c) in 
+cardiac fibrosis drew the attention to this miRNA as a poten-
+tial biomarker for tissue fibrosis. Additionally, miRNA pro-
+filing in mice treated with CCl4 led to downregulation of all 
+three types of miR-29. miR-29b has the highest expression in 
+HSCs compared to hepatocytes, KCs and liver SEC. miRNA 
+is functionally linked to several cell-signaling pathways: 
+NFΕb pathway, TGF-μ and PI3K/AKT signaling related to 
+liver fibrosis progression. The transcription factor AP-1, which 
+is involved in miR-29 promotion, was shown to be activated 
+during hepatic fibrosis in TGF-μ stimulated HSCs, leading to 
+miR-29 decrease. Additionally, miR-29b overexpression led to 
+reduced levels of SMAD3 and TGF-μ1, indicating the involve-
+ment of miR-29b in TGF-μ1/SMAD3 pathway, thus in progres-
+sion of liver fibrosis. Downregulation of miR-29 and decrease 
+in ECM synthesis during HSC activation was reported in 
+patients diagnosed with HCV-induced fibrosis [227]. Trans-
+differentiation of HSC into myofibroblasts leads to reduced 
+miR-29 expression, which in turn leads to upregulation of 
+PDGF-C and IGF-1 [228]. As miR-29 plays an important role 
+in communication between profibrogenic and inflammatory 
+signals in HSC, it is considered a good therapeutic candidate 
+in fibrosis patients. miR-34a was shown to be upregulated in 
+rats with dimethylnitrosamine-induced liver fibrosis [229]. 
+miR-34a and miR-34c directly target acyl-CoA synthetase 
+long-chain family member 1 and peroxisome proliferator-
+activated receptor gamma (PPARć) [229–231]. Both miRNAs 
+were shown to negatively correlate with PPARć expression in 
+activated HSCs. It was also reported that miR-34a can contrib-
+ute to alcoholic liver injury by directly targeting Caspase-2 
+and Sirtuin 1. Additionally, alteration in expression of MMPs 
+1 and 2 was observed due to miR-34a dysregulation [232]. 
+Fibrosis severity was observed to inversely related with hepatic 
+miR-122 levels in chronic HBV-infected patients with fibrosis 
+[233]. The transcription factor KLF6 has pro-fibrogenic prop-
+erties, and being a direct target of miR-122, it was observed to 
+be activated in miR-122–deficient mice. miR-122 levels were 
+reported to decrease when fibrosis-related genes (−-SMA, 
+Col1A1 and FN1) are upregulated in TGF-μ1-activated HSCs 
+[234]. Furthermore, miR-122 can be utilized as a biomarker 
+for liver fibrosis in NAFLD, as its levels are upregulated in 
+mild fibrosis cases, compared to cases with severe liver fibrosis 
+[235].
+An analysis of miRNA in patients with HCC cases revealed 
+that miR-21 contributes to HCC development playing a role 
+of an oncogene. Interestingly, miR-21 is highly expressed in 
+HCCs and other types of cancer. One of the main roles of miR-
+21 in HCC is its inhibition of tumor suppressor gene PTEN. 
+PTEN is a direct target of miR-21, and it dephosphorylates 
+focal adhesion kinase (FAK). Activation of FAK is correlated 
+with aggressive nature of tumor in HCC [236]. For that reason, 
+when PTEN is downregulated, it leads to increased FAK phos-
+phorylation and aggressive type of tumor in HCC. It has been 
+shown that inhibition of miR-21 slows down the HCC cells 
+growth and promotes apoptosis [237]. Accordingly, overex-
+pression of miR-21 contributes to cell growth and consequent 
+migration and invasion of cancerous cells [238]. Expression of 
+miR-122 was shown to be downregulated in samples from HCC 
+patients and in animal models [239]. Expression of miR-122 
+is correlated with increased cell proliferation and decreased 
+apoptosis. One of the functions of miR-122 is inhibiting pro-
+liferation and migration. It promotes hepatocyte death in HCC 
+lines and in mouse models [240, 241]. Deletion of miR-122 is 
+correlated with fibrosis, steatohepatitis and in some instances 
+with progression of HCC [242, 243]. It has been shown that 
+miR-122 regulates proteins that promote HCC, among those 
+are A disintegrin and metalloprotease 10, serum response fac-
+tor and insulin-like growth factor 1 receptor (review paper). 
+Additionally, miR-122 regulates cyclin G1 expression, which 
+leads to increased p53 expression [244]. miR-199a was shown 
+to suppress tumor growth, to induce cell death and to promote 
+cell cycle arrest by regulating MMP-9, frizzled type 7 receptor 
+and hypoxia-inducible factor-1− in HCC cell lines [245–247]. 
+miR-199a-3p was artificially overexpressed in cell lines and 
+was shown to prevent HCC by suppressing cell proliferation 
+and migration, and by promoting controlled cell death. It 
+was also shown that miR-199a targets tumor-promoting p21 
+(RAC1)-activated kinase 4 (PAK4), the mammalian target of 
+rapamycin and c-Met [248–250]. miR-199a suppresses tumor 
+growth in HCC by regulating pro-angiogenic mediators [251]. 
+miRNAs, expression of which is increased in various cancers, 
+are known as “oncomiRs”. miR-21 is one of them, as well as
+
+1747
+Hepatotoxicology
+miR-17–92 polycistronic cluster: miR-17, miR-18a, miR-19a, 
+miR-20a, miR-19b and miR-92a [252]. The miR-17-92 cluster 
+was shown to be overexpressed in all human liver cancer cases.
+32.3.5.2  The Role of miRNAs in Liver Toxicity
+miRNAs are being studied extensively to investigate their 
+role as biomarkers of liver toxicity. The study conducted to 
+investigate the effect of APAP and CCl4 administration on 
+miRNA expression in rats has shown six miRNAs (miR-153, 
+miR-302b_AS, miR-337, miR-363, miR-409-5p, miR-542–3p) 
+to be upregulated and eight miRNAs (miR-29c_AS, miR-298, 
+miR-327, miR-342, miR-370, miR-376c, miR-494, miR-503) to 
+be downregulated [253]. The APAP administration was found 
+to increase miR-122 and miR-192 in mice sera samples in a 
+dose-dependent manner [254]. It must be noted that miRNA 
+levels in the mentioned study elevated earlier than serum 
+enzyme marker levels. Elevated miR-122 levels are in correla-
+tion with AST/ALT levels of I/R mice model [255]. Increased 
+levels of miR-122 and miR-192 were also confirmed in serum 
+samples of APAP-induced ALF patients [256]. Same results 
+were obtained in a study which investigated the sequencing 
+data of patients with APAP overdose. Overall, 36 circulat-
+ing miRNAs were found to be increased with miR-122, miR-
+192, miR-194, miR-483 and miR-210 having increased levels 
+in the liver [257]. An early increase in circulating miR-122 
+and miR-192 levels demonstrate the ability to perform the 
+early liver damage detection, which can improve the survival 
+rates in AFL cases. Another miRNA with a potential role of 
+acute liver injury biomarker is miR-223 [258]. It is involved 
+in regulating hematopoietic linage differentiation and vari-
+ous immune cell functions [259, 260]. A study with I/R-
+induced liver injury in mice revealed miR-233 upregulation 
+in mice liver [261]. Besides having a potential role of serving 
+as biomarkers, miRNAs can play a therapeutic role for ALF 
+patients. Overexpression of miR-125b-5p has reduced the 
+hepatotoxicity of APAP in mice [262]. This effect was linked 
+to expression of kelch-like ECH-associated protein1 (Keap1) 
+[262, 263]. In a similar fashion, the therapeutic potential of 
+miR-155 was investigated in mice with APAP-induced liver 
+injury, and upregulation of miR-155 was determined in liver 
+and blood samples [264]. miR-155 deficiency led to activation 
+of NF-ΕB via the expression of p65 and IKKω, while intro-
+duction of miR-155 agomir suppressed APAP-induced liver 
+damage, which was shown by decreased AST and ALT levels 
+[264]. In conclusion, investigating the deregulation in miRNA 
+expression and their target genes can help to close the knowl-
+edge gaps in understanding their role in the pathophysiology of 
+liver injury and help determine new potential biomarkers for 
+prognosis and diagnosis of liver toxicity.
+32.4  Overall Conclusions
+Although chemically induced liver injury is determined in 
+different ways in laboratory animals, no single technique is 
+suitable for the detection and quantification of all types of 
+injury. Thus, for an accurate assessment of a chemical agent’s 
+hepatotoxic potential, a battery of tests combining one or more 
+biochemical/functional assays with a histological study of the 
+liver are required.
+32.5  Questions
+	 32.1  What is the best way to assess drug hepatotoxicity 
+in humans?
+	 32.2  How can one choose the concentrations of hepato-
+toxic drugs for performing a dose-response study 
+using HepG2 cells?
+	 32.3  In which type of study or situation in vitro method-
+ology is more advantageous over in vivo method-
+ologies when studying the liver?
+	 32.4  Why does histopathology continue to be the gold 
+standard for diagnosis even with all advances on 
+liver research?
+REFERENCES
+	
+1.	 Rappaport, A.M., et al., Subdivision of hexagonal liver lob-
+ules into a structural and functional unit; role in hepatic 
+physiology and pathology. Anat Rec, 1954. 119(1): pp. 
+11–33.
+	
+2.	 Bloch, E.H., The termination of hepatic arterioles and 
+functional unit of the liver as determined by microscopy of 
+the living organ. Ann NY Acad Sci, 1970. 170: pp. 78–87.
+	
+3.	 Blouin, A., R.P. Bolender, and E.R. Weibel, Distribution of 
+organelles and membranes between hepatocytes and non-
+hepatocytes in the rat liver parenchyma. A stereological 
+study. J Cell Biol, 1977. 72(2): pp. 441–455.
+	
+4.	 Weibel, E.R., et al., Correlated morphometric and bio-
+chemical studies on the liver cell. I. Morphometric model, 
+stereologic methods, and normal morphometric data for 
+rat liver. J Cell Biol, 1969. 42(1): pp. 68–91.
+	
+5.	 Wake, K., et al., Cell biology and kinetics of Kupffer cells in 
+the liver. Int Rev Cytol, 1989. 118: pp. 173–229.
+	
+6.	 McCuskey, R., Anatomy and cellular functions of the 
+liver, in Zakim and Boyer’s Hepatology. A Textbook of 
+Liver Disease, W.T. Boyer TD, Manns M., Editor. 2006. 
+Saunders-Elsevier: Philadelphia. pp. 3–21.
+	
+7.	 Ju, C. and F. Tacke, Hepatic macrophages in homeostasis 
+and liver disease: from pathogenesis to novel therapeutic 
+strategies. Cell Moll Immunol, 2016. 13: pp. 316–327.
+	
+8.	 Laskin, D.L., Macrophages and in ammatory mediators 
+in chemical toxicity: a battle of forces. Chem Res Toxicol, 
+2009. 22(8): pp. 1376–1385.
+	
+9.	 Ito, T., Cytological studies on stellate cells of Kupffer and 
+fat-storing cells in the capillary wall of the human liver. 
+Acta Anat Nippon, 1951. 26: pp. 2–42.
+	 10.	 Friedman, S.L., Hepatic stellate cells: protean, multifunc-
+tional, and enigmatic cells of the liver. Physiol Rev, 2008. 
+88(1): pp. 125–172.
+	 11.	 Zhao, L. and A.D. Burt, The diffuse stellate cell system. J 
+Mol Histol, 2007. 38(1): pp. 53–64.
+	 12.	 Puche, J.E., Y. Saiman, and S.L. Friedman, Hepatic stel-
+late cells and liver fibrosis. Compr Physiol, 2013. 3(4): pp. 
+1473–1492.
+
+1748
+Hayes’ Principles and Methods of Toxicology
+	 13.	 Elpek, G.O., Angiogenesis and liver fibrosis. World J 
+Hepatol, 2015. 7(3): pp. 377–391.
+	 14.	 Seki, E. and R.F. Schwabe, Hepatic in ammation and 
+fibrosis: functional links and key pathways. Hepatology, 
+2015. 61(3): pp. 1066–1079.
+	 15.	 Mallat, A. and S. Lotersztajn, Cellular mechanisms of 
+tissue fibrosis. 5. Novel insights into liver fibrosis. Am J 
+Physiol Cell Physiol, 2013. 305(8): pp. C789–C799.
+	 16.	 Lee, U.E. and S.L. Friedman, Mechanisms of hepatic fibro-
+genesis. Best Pract Res Clin Gastroenterol, 2011. 25(2): pp. 
+195–206.
+	 17.	 Friedman, S.L., Molecular regulation of hepatic fibrosis, 
+an integrated cellular response to tissue injury. J Biol 
+Chem, 2000. 275(4): pp. 2247–2250.
+	 18.	 Banales, J.M., et al., Cholangiocyte pathobiology. Nat Rev 
+Gastroenterol Hepatol, 2019. 16(5): pp. 269–281.
+	 19.	 Gordillo, M., T. Evans, and V. Gouon-Evans, Orchestrating 
+liver development. Development, 2015. 142(12): pp. 
+2094–2108.
+	 20.	 Trefts, E., M. Gannon, and D.H. Wasserman, The liver. 
+Curr Biol, 2017. 27(21): pp. R1147–R1151.
+	 21.	 Kuntz, E. and H.-D. Kuntz, Hepatology: Principles and 
+Practice: History, Morphology, Biochemistry, Diagnostics, 
+Clinic, Therapy. 2nd ed. 2006, Heidelberg: Springer. xii, 
+906 p.
+	 22.	 Uhlen, M., et al., Proteomics. Tissue-based map of the 
+human proteome. Science, 2015. 347(6220): pp. 1260419.
+	 23.	 Miller, L.L. and W.F. Bale, Synthesis of all plasma protein 
+fractions except gamma globulins by the liver; the use of 
+zone electrophoresis and lysine-epsilon-C14 to define the 
+plasma proteins synthesized by the isolated perfused liver. 
+J Exp Med, 1954. 99(2): pp. 125–132.
+	 24.	 Kampf, C., et al., The human liver-specific proteome 
+defined by transcriptomics and antibody-based profiling. 
+FASEB J, 2014. 28(7): pp. 2901–2914.
+	 25.	 Jakoby, W.B. and D.M. Ziegler, The enzymes of detoxica-
+tion. J Biol Chem, 1990. 265(34): pp. 20715–20718.
+	 26.	 Rowland, M., In uence of route of administration on drug 
+availability. J Pharm Sci, 1972. 61(1): pp. 70–74.
+	 27.	 Andrew Parkinson, B.W.O., D.B. Buckley, F. Kazmi, and 
+O. Parkinson, Biotransformation of xenobiotics, in Casarett 
+and Doull’s Toxicology The basic Science of Poisons, C.D. 
+Klaassen, Editor. 2019. New York: McGraw-Hill Education. 
+pp. 193–375.
+	 28.	 Price, D.A., et al., Physicochemical drug properties associ-
+ated with in vivo toxicological outcomes: a review. Expert 
+Opin Drug Metab Toxicol, 2009. 5(8): pp. 921–931.
+	 29.	 Palm, K., et al., Polar molecular surface properties predict 
+the intestinal absorption of drugs in humans. Pharm Res, 
+1997. 14(5): pp. 568–571.
+	 30.	 Coleman, M.D., Human Drug Metabolism. Third edition. 
+ed. 2020, Hoboken, NJ: Wiley-Blackwell.
+	 31.	 Rendic, S. and F.P. Guengerich, Survey of human oxido-
+reductases and cytochrome P450 enzymes involved in the 
+metabolism of xenobiotic and natural chemicals. Chem 
+Res Toxicol, 2015. 28(1): pp. 38–42.
+	 32.	 Choi, J.R., et al., Genetic variations of drug transporters 
+can in uence on drug response in patients treated with 
+docetaxel chemotherapy. Cancer Res Treat, 2015. 47(3): 
+pp. 509–517.
+	 33.	 Jancova, P., P. Anzenbacher, and E. Anzenbacherova, 
+Phase II drug metabolizing enzymes. Biomed Pap Med Fac 
+Univ Palacky Olomouc Czech Repub, 2010. 154(2): pp. 
+103–116.
+	 34.	 Caldwell, J., I. Gardner, and N. Swales, An introduction to 
+drug disposition: the basic principles of absorption, dis-
+tribution, metabolism, and excretion. Toxicol Pathol, 1995. 
+23(2): pp. 102–114.
+	 35.	 Kalliokoski, A. and M. Niemi, Impact of OATP transport-
+ers on pharmacokinetics. Br J Pharmacol, 2009. 158(3): pp. 
+693–705.
+	 36.	 Rettie, A.E. and J.P. Jones, Clinical and toxicological rel-
+evance of CYP2C9: drug-drug interactions and pharma-
+cogenetics. Annu Rev Pharmacol Toxicol, 2005. 45: pp. 
+477–494.
+	 37.	 Beasley, D.E., et al., The evolution of stomach acidity and 
+its relevance to the human microbiome. PLoS One, 2015. 
+10(7): p. e0134116.
+	 38.	 Klaunig, J.E., Chemical carcinogenesis, in Casarett Doull’s 
+Toxicology the Basic Science of Poisons, C.D. Klaassen, 
+Editor. New York: McGraw-Hill Education, 2019. pp. 433–495.
+	 39.	 EPA, U., Guidelines for carcinogen risk assessment. 
+Washington, DC, 2005 [cited 2023 February 01]; Available 
+from: https://www3.epa.gov/airtoxics/cancer_guidelines_
+final_3-25-05.pdf EPA/630/P-03/001B).
+	 40.	 Tejo, J., Curcumin, antioxidant activity, and paracetamol 
+toxicity, in Oxidative Stress and Dietary Antioxidants, 
+V.B. Patel and V.R. Preedy, Editors. 2021. Cambridge, MA: 
+Academic Press. pp. 469–477.
+	 41.	 Budinsky, R.A., et al., Mode of action and dose-response 
+framework analysis for receptor-mediated toxicity: The 
+aryl hydrocarbon receptor as a case study. Crit Rev 
+Toxicol, 2014. 44(1): pp. 83–119.
+	 42.	 Simon, T.W., et al., The use of mode of action information 
+in risk assessment: quantitative key events/dose-response 
+framework for modeling the dose-response for key events. 
+Crit Rev Toxicol, 2014. 44 Suppl 3: pp. 17–43.
+	 43.	 Klaunig, J., L. Melo, and K. Tilmant, Mechanisms of 
+hepatic cancer by persistent organic pollutants. Curr Opin 
+Toxicol, 2020. 19: pp. 105–111.
+	 44.	 Corton, J.C., et al., Mode of action framework analysis for 
+receptor-mediated toxicity: The peroxisome proliferator-
+activated receptor alpha (PPARalpha) as a case study. Crit 
+Rev Toxicol, 2014. 44(1): pp. 1–49.
+	 45.	 Wang, Z., et al., Mechanistic investigation of toxaphene 
+induced mouse liver tumors. Toxicol Sci, 2015. 147(2): 
+pp. 549–561.
+	 46.	 Pessayre, D., Hepatotoxicity due to mitochnodrial injury, 
+in Drug-induced Liver Disease, M. Dekker, Editor. 2003. 
+New York: CRC Press. pp. 55–83.
+	 47.	 Schueller, F., et al., The role of miRNAs in the pathophysiology 
+of liver diseases and toxicity. Int J Mol Sci, 2018. 19(1): p. 261.
+	 48.	 Lammert, F., Clinical genomics of NAFLD, in The Liver: 
+Biology and Pathobiology, I.M. Arias, H.J. Alter, J.L. Boyer, 
+D.E. Cohen, D.A. Shafritz, S.S. Thorgeirsson, A.W. Wolkoff, 
+Editors. . 2020. Hoboken, NJ: Wiley-Blackwell. pp. 509–520.
+	 49.	 Guicciardi, M.E., et al., Apoptosis and necrosis in the liver. 
+Compr Physiol, 2013. 3(2): pp. 977–1010.
+	 50.	 Lefkowitch, J.H., The pathology of acute liver failure. Adv 
+Anat Pathol, 2016. 23(3): pp. 144–158.
+
+1749
+Hepatotoxicology
+	 51.	 Opie, E.L., Zonal necrosis of the liver. J Med Res, 1904. 
+12(1): pp. 147–168.
+	 52.	 Khoonsari, M., et al., Clinical manifestations and diagno-
+sis of nonalcoholic fatty liver disease. Iran J Pathol, 2017. 
+12(2): pp. 99–105.
+	 53.	 Bosch, F.X., et al., Primary liver cancer: worldwide inci-
+dence and trends. Gastroenterology, 2004. 127(5 Suppl 1): 
+pp. S5–S16.
+	 54.	 Di Bisceglie, A.M., et al., NIH conference. Hepatocellular 
+carcinoma. Ann Intern Med, 1988. 108(3): pp. 390–401.
+	 55.	 Morgan, M.Y., The prognosis and outcome of alcoholic 
+liver disease. Alcohol Alcohol Suppl, 1994. 2: pp. 335–343.
+	 56.	 Klaassen, C.D., Casarett and Doull’s Toxicology: The 
+Basic Science of Poisons. Ninth edition. 2019, New York: 
+McGraw-Hill Education. xiii, 1620 pages.
+	 57.	 Edinger, A.L. and C.B. Thompson, Death by design: apop-
+tosis, necrosis and autophagy. Curr Opin Cell Biol, 2004. 
+16(6): pp. 663–669.
+	 58.	 Gillette, J., Mechanism of hepatic necrosis induced by 
+halogenated aromatic hydrocarbons, in Pathogenesis and 
+Mechanisms of Liver Cell Necrosis, D. Keppler, Editor. 
+1975, Dordrecht: Springer. pp. 239–254.
+	 59.	 Columbano, A., Cell death: current difficulties in discrimi-
+nating apoptosis from necrosis in the context of pathological 
+processes in vivo. J Cell Biochem, 1995. 58(2): pp. 181–190.
+	 60.	 Rust, C. and G.J. Gores, Apoptosis and liver disease. Am J 
+Med, 2000. 108(7): pp. 567–574.
+	 61.	 Maubach, G., et al., miRNA studies in in vitro and in vivo 
+activated hepatic stellate cells. World J Gastroenterol, 
+2011. 17(22): pp. 2748–2773.
+	 62.	 Hellerbrand, C., et al., Expression of intracellular adhesion 
+molecule 1 by activated hepatic stellate cells. Hepatology, 
+1996. 24(3): pp. 670–676.
+	 63.	 Mehendale, H., Assessment of hepatobiliary function with 
+phenolphthalein and phenolphthalein glucuronide. Clin 
+Chem Enzyme Comm, 1990. 2: pp. 194–204.
+	 64.	 Mehendale, H.M., I.K. Ho, and D. Desaiah, Possible molec-
+ular mechanism of mirex-induced hepatobiliary dysfunc-
+tion. Drug Metab Dispos, 1979. 7(1): pp. 28–33.
+	 65.	 Corcoran, G.B., et al., Apoptosis: molecular control point in 
+toxicity. Toxicol Appl Pharmacol, 1994. 128(2): pp. 169–181.
+	 66.	 Wieckowska, A., et al., In vivo assessment of liver cell apop-
+tosis as a novel biomarker of disease severity in nonalcoholic 
+fatty liver disease. Hepatology, 2006. 44(1): pp. 27–33.
+	 67.	 Yang, Q., et al., The PPAR alpha-humanized mouse: a 
+model to investigate species differences in liver toxicity 
+mediated by PPAR alpha. Toxicol Sci, 2008. 101(1): pp. 
+132–139.
+	 68.	 Habeebu, S.S., J. Liu, and C.D. Klaassen, Cadmium-
+induced apoptosis in mouse liver. Toxicol Appl Pharmacol, 
+1998. 149(2): pp. 203–209.
+	 69.	 Keen, H.G., et al., Imaging apoptosis in vivo using 
+124I-annexin V and PET. Nucl Med Biol, 2005. 32(4): pp. 
+395–402.
+	 70.	 Comporti, M., Lipid peroxidation as a mediator of chem-
+ical-induced hepatocyte death, in Toxicology of the Liver, 
+G.L. Plaa and W.R. Hewitt, Editor. 1998. Boca Raton, FL: 
+CRC Press. pp. 233–274.
+	 71.	 Reed, D.J., Evaluation of chemical-induced oxidative stress 
+as a mechanism of hepatocyte death, in Toxicology of the 
+Liver, G.L. Plaa and W.R. Hewitt, Editor. 1998. Boca Raton, 
+FL: CRC Press. pp. 199–232.
+	 72.	 Gao, B., Alcoholic liver disease, in The Liver Biology and 
+Pathobiology, I.M. Arias, Editor. 2020. Hoboken, NJ: 
+Wiley-Blackwell. p. 682.
+	 73.	 Carr, R.M., A. Oranu, and V. Khungar, Nonalcoholic 
+fatty liver disease: pathophysiology and management. 
+Gastroenterol Clin North Am, 2016. 45(4): pp. 639–652.
+	 74.	 Hardy, T., et al., Nonalcoholic fatty liver disease: patho-
+genesis and disease spectrum. Annu Rev Pathol, 2016. 11: 
+pp. 451–496.
+	 75.	 Yeh, M.M. and E.M. Brunt, Pathological features of fatty 
+liver disease. Gastroenterology, 2014. 147(4): pp. 754–764.
+	 76.	 Wong, S.W., Y.W. Ting, and W.K. Chan, Epidemiology of 
+non-alcoholic fatty liver disease-related hepatocellular 
+carcinoma and its implications. JGH Open, 2018. 2(5): pp. 
+235–241.
+	 77.	 Anstee, Q.M. and R.D. Goldin, Mouse models in non-alco-
+holic fatty liver disease and steatohepatitis research. Int J 
+Exp Pathol, 2006. 87(1): pp. 1–16.
+	 78.	 Gao, B. and R. Bataller, Alcoholic liver disease: pathogen-
+esis and new therapeutic targets. Gastroenterology, 2011. 
+141(5): pp. 1572–1585.
+	 79.	 Zakhari, S. and T.K. Li, Determinants of alcohol use and 
+abuse: Impact of quantity and frequency patterns on liver 
+disease. Hepatology, 2007. 46(6): pp. 2032–2039.
+	 80.	 Purohit, V., B. Gao, and B.J. Song, Molecular mechanisms 
+of alcoholic fatty liver. Alcohol Clin Exp Res, 2009. 33(2): 
+pp. 191–205.
+	 81.	 Zhong, W., et al., Chronic alcohol exposure stimulates adi-
+pose tissue lipolysis in mice: role of reverse triglyceride 
+transport in the pathogenesis of alcoholic steatosis. Am J 
+Pathol, 2012. 180(3): pp. 998–1007.
+	 82.	 Sebastian, B.M., et al., Identification of a cytochrome 
+P4502E1/Bid/C1q-dependent axis mediating in ammation 
+in adipose tissue after chronic ethanol feeding to mice. J 
+Biol Chem, 2011. 286(41): pp. 35989–35997.
+	 83.	 Chang, B., et al., Short- or long-term high-fat diet feeding 
+plus acute ethanol binge synergistically induce acute liver 
+injury in mice: an important role for CXCL1. Hepatology, 
+2015. 62(4): pp. 1070–1085.
+	 84.	 Xu, M.J., et al., Fat-specific protein 27/CIDEC promotes 
+development of alcoholic steatohepatitis in mice and 
+humans. Gastroenterology, 2015. 149(4): pp. 1030–1041.
+	 85.	 Trepo, E., et al., PNPLA3 gene in liver diseases. J Hepatol, 
+2016. 65(2): pp. 399–412.
+	 86.	 Parola, M. and M. Pinzani, Liver fibrosis: pathophysiology, 
+pathogenetic targets and clinical issues. Mol Aspects Med, 
+2019. 65: pp. 37–55.
+	 87.	 Friedman, S.L., Liver fibrosis -- from bench to bedside. J 
+Hepatol, 2003. 38 Suppl 1: pp. S38–S53.
+	 88.	 Bataller, R. and D.A. Brenner, Liver fibrosis. J Clin Invest, 
+2005. 115(2): pp. 209–218.
+	 89.	 Popper, H. and S. Uenfriend, Hepatic fibrosis. Correlation 
+of biochemical and morphologic investigations. Am J Med, 
+1970. 49: pp. 707–721.
+
+1750
+Hayes’ Principles and Methods of Toxicology
+	 90.	 Spicer J, P. Brodt, L. Ferri, Role of inflammation in the 
+early stages of liver metastasis, in Liver Metastasis: Biology 
+and Clinical Management. Cancer Metastasis: Biology 
+and Treatment, B. P, Editor. 2011. New York: Springer. pp. 
+155–185.
+	 91.	 Czaja, A.J. and H.A. Carpenter, Progressive fibrosis dur-
+ing corticosteroid therapy of autoimmune hepatitis. 
+Hepatology, 2004. 39(6): pp. 1631–1638.
+	 92.	 Schwabe, R.F., R. Bataller, and D.A. Brenner, Human 
+hepatic stellate cells express CCR5 and RANTES to induce 
+proliferation and migration. Am J Physiol Gastrointest 
+Liver Physiol, 2003. 285(5): pp. G949–G958.
+	 93.	 Winau, F., et al., Ito cells are liver-resident antigen-pre-
+senting cells for activating T cell responses. Immunity, 
+2007. 26(1): pp. 117–129.
+	 94.	 Safadi, R., et al., Immune stimulation of hepatic fibrogen-
+esis by CD8 cells and attenuation by transgenic interleu-
+kin-10 from hepatocytes. Gastroenterology, 2004. 127(3): 
+pp. 870–882.
+	 95.	 Imamura, M., et al., Suppression of macrophage infiltration 
+inhibits activation of hepatic stellate cells and liver fibro-
+genesis in rats. Gastroenterology, 2005. 128(1): pp. 138–146.
+	 96.	 Tanaka, H., et al., Immunological orchestration of liver 
+fibrosis. Clin Rev Allergy Immunol, 2012. 43(3): pp. 
+220–229.
+	 97.	 Hintermann, E., et al., Mechanism of autoimmune hepatic 
+fibrogenesis induced by an adenovirus encoding the human 
+liver autoantigen cytochrome P450 2D6. J Autoimmun, 
+2013. 44: pp. 49–60.
+	 98.	 Czaja, A.J., Hepatic in ammation and progressive liver 
+fibrosis in chronic liver disease. World J Gastroenterol, 
+2014. 20(10): pp. 2515–2532.
+	 99.	 Cohen-Naftaly, M. and S.L. Friedman, Current status of 
+novel antifibrotic therapies in patients with chronic liver 
+disease. Therap Adv Gastroenterol, 2011. 4(6): pp. 391–417.
+	100.	 Iwaisako, K., D.A. Brenner, and T. Kisseleva, What’s new 
+in liver fibrosis? The origin of myofibroblasts in liver fibro-
+sis. J Gastroenterol Hepatol, 2012. 27 Suppl 2: pp. 65–68.
+	101.	 Xu, J., et al., The types of hepatic myofibroblasts contribut-
+ing to liver fibrosis of different etiologies. Front Pharmacol, 
+2014. 5: p. 167.
+	102.	 Kisseleva, T. and D.A. Brenner, Anti-fibrogenic strate-
+gies and the regression of fibrosis. Best Pract Res Clin 
+Gastroenterol, 2011. 25(2): pp. 305–317.
+	103.	 Kisseleva, T. and D.A. Brenner, Hepatic stellate cells and 
+the reversal of fibrosis. J Gastroenterol Hepatol, 2006. 21 
+Suppl 3: pp. S84–S87.
+	104.	 Parola, M., F. Marra, and M. Pinzani, Myofibroblast - like cells 
+and liver fibrogenesis: Emerging concepts in a rapidly moving 
+scenario. Mol Aspects Med, 2008. 29(1–2): pp. 58–66.
+	105.	 Russo, F.P., et al., The bone marrow functionally contrib-
+utes to liver fibrosis. Gastroenterology, 2006. 130(6): pp. 
+1807–1821.
+	106.	 Bucala, R., et al., Circulating fibrocytes define a new leuko-
+cyte subpopulation that mediates tissue repair. Mol Med, 
+1994. 1(1): pp. 71–81.
+	107.	 Kisseleva, T., et al., Bone marrow-derived fibrocytes par-
+ticipate in pathogenesis of liver fibrosis. J Hepatol, 2006. 
+45(3): pp. 429–438.
+	108.	 Xu, J., et al., Contribution of bone marrow-derived fibro-
+cytes to liver fibrosis. Hepatobiliary Surg Nutr, 2015. 4(1): 
+pp. 34–47.
+	109.	 Bhogal, R.H., et al., Reactive oxygen species mediate 
+human hepatocyte injury during hypoxia/reoxygenation. 
+Liver Transpl, 2010. 16(11): pp. 1303–1313.
+	110.	 Desmouliere, A., et al., Extracellular matrix deposition, 
+lysyl oxidase expression, and myofibroblastic differentia-
+tion during the initial stages of cholestatic fibrosis in the 
+rat. Lab Invest, 1997. 76(6): pp. 765–778.
+	111.	 Pradere, J.P., et al., Hepatic macrophages but not dendritic 
+cells contribute to liver fibrosis by promoting the survival 
+of activated hepatic stellate cells in mice. Hepatology, 2013. 
+58(4): pp. 1461–1473.
+	112.	 Duffield, J.S., et al., Selective depletion of macrophages 
+reveals distinct, opposing roles during liver injury and 
+repair. J Clin Invest, 2005. 115(1): pp. 56–65.
+	113.	 Seki, E., et al., TLR4 enhances TGF-beta signaling and 
+hepatic fibrosis. Nat Med, 2007. 13(11): pp. 1324–1332.
+	114.	 Holt, M.P., L. Cheng, and C. Ju, Identification and character-
+ization of infiltrating macrophages in acetaminophen-induced 
+liver injury. J Leukoc Biol, 2008. 84(6): pp. 1410–1421.
+	115.	 Ramachandran, P., et al., Differential Ly-6C expression 
+identifies the recruited macrophage phenotype, which 
+orchestrates the regression of murine liver fibrosis. Proc 
+Natl Acad Sci U S A, 2012. 109(46): pp. E3186–E3195.
+	116.	 Bryceson, Y.T. and E.O. Long, Line of attack: NK cell 
+specificity and integration of signals. Curr Opin Immunol, 
+2008. 20(3): pp. 344–352.
+	117.	 Min Cong, J.J., T. Kisseleva, D.A. Brenner, The liver’s 
+response to injury: inflammation and fibrosis, in Zakim and 
+Boyer’s Hepatology: A Textbook of Liver Disease, T.D.B. 
+Arun J. Sanyal, Norah A. Terrault, Keith D. Lindor, Editor. 
+2018, Elsevier: Philadelphia.pp. 77–83.
+	118.	 Bala, S., et al., Up-regulation of microRNA-155 in macro-
+phages contributes to increased tumor necrosis factor {alpha} 
+(TNF{alpha}) production via increased mRNA half-life in alco-
+holic liver disease. J Biol Chem, 2011. 286(2): pp. 1436–1444.
+	119.	 Forner, A., J.M. Llovet, and J. Bruix, Hepatocellular carci-
+noma. Lancet, 2012. 379(9822): pp. 1245–1255.
+	120.	 Bruix, J., M. Sherman, and D. American Association for the 
+Study of Liver, Management of hepatocellular carcinoma: 
+an update. Hepatology, 2011. 53(3): pp. 1020–1022.
+	121.	 Grant, B.F., et al., Prevalence and co-occurrence of sub-
+stance use disorders and independent mood and anxiety 
+disorders: results from the national epidemiologic survey 
+on alcohol and related conditions. Arch Gen Psychiatry, 
+2004. 61(8): pp. 807–816.
+	122.	 Tabor, E., Tumor suppressor genes, growth factor genes, 
+and oncogenes in hepatitis B virus-associated hepatocel-
+lular carcinoma. J Med Virol, 1994. 42(4): pp. 357–365.
+	123.	 Donato, F., et al., Alcohol and hepatocellular carcinoma: the 
+effect of lifetime intake and hepatitis virus infections in men 
+and women. Am J Epidemiol, 2002. 155(4): pp. 323–331.
+	124.	 Yang, J.D., et al., Cirrhosis is present in most patients 
+with hepatitis B and hepatocellular carcinoma. Clin 
+Gastroenterol Hepatol, 2011. 9(1): pp. 64–70.
+	125.	 Farrell, G., Insulin resistance, obesity, and liver cancer. 
+Clin Gastroenterol Hepatol, 2014. 12(1): pp. 117–119.
+
+1751
+Hepatotoxicology
+	126.	 Massarweh, N.N. and H.B. El-Serag, Epidemiology of hepa-
+tocellular carcinoma and intrahepatic cholangiocarci-
+noma. Cancer Control, 2017. 24(3): pp. 1073274817729245.
+	127.	 McGlynn, K.A., J.L. Petrick, and W.T. London, Global 
+epidemiology of hepatocellular carcinoma: an emphasis 
+on demographic and regional variability. Clin Liver Dis, 
+2015. 19(2): pp. 223–238.
+	128.	 Smogorzewska, A. and T. de Lange, Regulation of telom-
+erase by telomeric proteins. Annu Rev Biochem, 2004. 73: 
+pp. 177–208.
+	129.	 Bryan, T.M., et al., Telomerase reverse transcriptase genes 
+identified in Tetrahymena thermophila and Oxytricha trifal-
+lax. Proc Natl Acad Sci U S A, 1998. 95(15): pp. 8479–8484.
+	130.	 Totoki, Y., et al., Trans-ancestry mutational landscape 
+of hepatocellular carcinoma genomes. Nat Genet, 2014. 
+46(12): pp. 1267–1273.
+	131.	 Nault, J.C., et al., High frequency of telomerase reverse-
+transcriptase promoter somatic mutations in hepatocel-
+lular carcinoma and preneoplastic lesions. Nat Commun, 
+2013. 4: p. 2218.
+	132.	 Holsapple, M.P., et al., Mode of action in relevance of 
+rodent liver tumors to human cancer risk. Toxicol Sci, 
+2006. 89(1): pp. 51–56.
+	133.	 Elcombe, C.R., et al., Mode of action and human relevance 
+analysis for nuclear receptor-mediated liver toxicity: 
+A case study with phenobarbital as a model constitutive 
+androstane receptor (CAR) activator. Crit Rev Toxicol, 
+2014. 44(1): pp. 64–82.
+	134.	 Cohen, S.M., et al., Carcinogenic mode of action of folpet 
+in mice and evaluation of its relevance to humans. Crit Rev 
+Toxicol, 2010. 40(6): pp. 531–545.
+	135.	 Thomas, R., R.S. Paules, A. Simeonov, S.C. Fitzpatrick, 
+K.M. Crofton, W.M. Casey, and D.L. Mendrick, The US 
+Federal Tox21 program: a strategic and operational 
+plan for continued leadership. ALTEX, 2018. 35(2): pp. 
+163–168.
+	136.	 Fujimoto, J., Some in vivo methods for studying sites of 
+toxicant action in relation to bile formation. Toxicol Liver, 
+1982: pp. 121–145.
+	137.	 Fuhrman-Lane, C.L., et al., Altered hepatobiliary permea-
+bility induced by Amanita phalloides in the rat and the pro-
+tective role of bile duct ligation. Toxicol Appl Pharmacol, 
+1981. 58(3): pp. 370–378.
+	138.	 Charm, R.M., Sulfobromophthalein. JAMA, 1967. 202(10): 
+p. 979.
+	139.	 Binet, S., Y. Delage, and S. Erlinger, In uence of taurocho -
+late, taurochenodeoxycholate, and taurodehydrocholate 
+on sulfobromophthalein transport into bile. Am J Physiol, 
+1979. 236(1): pp. E10–E14.
+	140.	 Klaassen, C.D. and G.L. Plaa, Determination of sulfobro-
+mophthalein storage and exertory rate in small animals. J 
+Appl Physiol, 1967. 22(6): pp. 1151–1155.
+	141.	 Wheeler, H.O., W.I. Cranston, and J.I. Meltzer, Hepatic 
+uptake and biliary excretion of indocyanine green in the 
+dog. Proc Soc Exp Biol Med, 1958. 99(1): pp. 11–14.
+	142.	 Jaeschke, H., Reactive oxygen and mechanisms of in am -
+matory liver injury. J Gastroenterol Hepatol, 2000. 15(7): 
+pp. 718–724.
+	143.	 Klaunig, J.E., L.M. Kamendulis, and B.A. Hocevar, 
+Oxidative stress and oxidative damage in carcinogenesis. 
+Toxicol Pathol, 2010. 38(1): pp. 96–109.
+	144.	 Klaunig, J.E., et al., The role of oxidative stress in chemical 
+carcinogenesis. Environ Health Perspect, 1998. 106 Suppl 
+1: pp. 289–295.
+	145.	 Laskin, D.L. and C.R. Gardner, The role of nonparenchy-
+mal cells and inflammatory macrophages in hepatotoxic-
+ity, in Toxicology of the Liver, G.L. Plaa and W.R. Hewitt, 
+Editor. 1998. Boca Raton, FL: CRC Press. pp. 313–336.
+	146.	 Hoglen, N.C., et al., 1,2-Dichlorobenzene-induced lipid 
+peroxidation in male Fischer 344 rats is Kupffer cell 
+dependent. Toxicol Sci, 1998. 46(2): pp. 376–385.
+	147.	 Recknagel, R.O. and A.K. Ghoshal, New data on the ques-
+tion of lipoperoxidation in carbon tetrachloride poisoning. 
+Exp Mol Pathol, 1966. 5(2): pp. 108–117.
+	148.	 Plaa, G.L. and H. Witschi, Chemicals, drugs, and lipid 
+peroxidation. Annu Rev Pharmacol Toxicol, 1976. 16: pp. 
+125–141.
+	149.	 The Nobel Prize in Chemistry 1980. 1980 [cited 2022 April 
+6]; Available from: https://www.nobelprize.org/prizes/
+chemistry/1980/summary/.
+	150.	 Chen, V.L., et al., Genome-wide association study of 
+serum liver enzymes implicates diverse metabolic and liver 
+pathology. J Nat Commun, 2021. 12(1): pp. 1–13.
+	151.	 Naik, A. and D. Rozman, Genomic aspects of NAFLD 
+pathogenesis. J Genom, 2013. 102(2): pp. 84–95.
+	152.	 Timp, W. and G. Timp, Beyond mass spectrometry, the next 
+step in proteomics. J Sci Adv, 2020. 6(2): p. eaax8978.
+	153.	 Zhang, Y., et al., Protein analysis by shotgun/bottom-up 
+proteomics. J Chem Rev, 2013. 113(4): pp. 2343–2394.
+	154.	 Niu, L., P.E. Geyer, and M. Mann, Proteomics in the study 
+of liver diseases, in The Human Gut-Liver-Axis in Health 
+and Disease. A. Krag and T. Hansen, Editors. 2019. Cham: 
+Springer. pp. 165–193.
+	155.	 Gordillo, M., T. Evans, and V. Gouon-Evans, Orchestrating 
+liver development. J Dev, 2015. 142(12): pp. 2094–2108.
+	156.	 Hai, T. and L. Lian, The successful practice of metabolo-
+mics in medical research. J Prog Modern Biomed, 2007. 10: 
+pp. 1582–1584.
+	157.	 Rooney, O., et al., High−resolution diffusion and relax-
+ation−edited magic angle spinning 1H NMR spectroscopy 
+of intact liver tissue. J Magn Reson Med, 2003. 50(5): 
+pp. 925–930.
+	158.	 Yu, M., et al., Metabonomics research progress on liver 
+diseases. Can J Gastroenterol Hepatol, 2017. 2017.
+	159.	 Wang, Z., M. Gerstein, and M. Snyder, RNA-Seq: a revo-
+lutionary tool for transcriptomics. Nat Rev Genet, 2009. 
+10(1): pp. 57–63.
+	160.	 Ozsolak, F. and P.M. Milos, RNA sequencing: advances, 
+challenges and opportunities. Nat Rev Genet, 2011. 12(2): 
+pp. 87–98.
+	161.	 Costa-Silva, J., D. Domingues, and F.M. Lopes, RNA-Seq 
+differential expression analysis: An extended review and a 
+software tool. PLoS One, 2017. 12(12): pp. e0190152.
+	162.	 Han, Y., et al., Advanced applications of RNA sequencing 
+and challenges. Bioinform Biol Insights, 2015. 9(Suppl 1): 
+pp. 29–46.
+	163.	 Melo, L., et al., Effect of endurance exercise training on 
+liver gene expression in male and female mice. Appl Physiol 
+Nutr Metab, 2021. 46(4): pp. 356–367.
+	164.	 Love, M.I., W. Huber, and S. Anders, Moderated estima-
+tion of fold change and dispersion for RNA-seq data with 
+DESeq2. Genome Biol, 2014. 15(12): pp. 550.
+
+1752
+Hayes’ Principles and Methods of Toxicology
+	165.	 Zhao, S., et al., Comparison of stranded and non-stranded 
+RNA-seq transcriptome profiling and investigation of gene 
+overlap. BMC Genom, 2015. 16: pp. 675.
+	166.	 Khatri, P., M. Sirota, and A.J. Butte, Ten years of pathway 
+analysis: current approaches and outstanding challenges. 
+PLoS Comput Biol, 2012. 8(2): pp. e1002375.
+	167.	 Kanuri, G. and I. Bergheim, In vitro and in vivo models of 
+non-alcoholic fatty liver disease (NAFLD). Int J Mol Sci, 
+2013. 14(6): pp. 11963–11980.
+	168.	 Washburn, M.L., et al., A humanized mouse model to study 
+hepatitis C virus infection, immune response, and liver dis-
+ease. Gastroenterology, 2011. 140(4): pp. 1334–1344.
+	169.	 Gaemers, I.C., et al., Lipotoxicity and steatohepatitis in an 
+overfed mouse model for non-alcoholic fatty liver disease. 
+Biochim Biophys Acta, 2011. 1812(4): pp. 447–458.
+	170.	 Benten, D., et al., A humanized mouse model of liver fibro-
+sis following expansion of transplanted hepatic stellate 
+cells. Lab Invest, 2018. 98(4): pp. 525–536.
+	171.	 Cheung, C. and F.J. Gonzalez, Humanized mouse lines and 
+their application for prediction of human drug metabolism 
+and toxicological risk assessment. J Pharmacol Exp Ther, 
+2008. 327(2): pp. 288–299.
+	172.	 Melo, L. and A. Hagar, How to train a mouse-methodolog-
+ical issues in pre-clinical exercise oncology. Am J Cancer 
+Res, 2019. 9(6): pp. 1246–1253.
+	173.	 Maronpot, R.R., et al., National toxicology program 
+nomenclature for hepatoproliferative lesions of rats. 
+Toxicol Pathol, 1986. 14(2): pp. 263–273.
+	174.	 Ibrahim, S.H., et al., Liver diseases in the perinatal period: 
+interactions between mother and infant. Hepatology, 2020. 
+71(4): pp. 1474–1485.
+	175.	 EPA. Administrator Wheeler Signs Memo to Reduce Animal 
+Testing, Awards $4.25 Million to Advance Research on 
+Alternative Methods to Animal Testing. 2019 [cited 2022 
+March 31st].
+	176.	 Wiese, M., et al., Evaluation of liver disease progression in the 
+German hepatitis C virus (1b)-contaminated anti-D cohort at 
+35 years after infection. Hepatology, 2014. 59(1): pp. 49–57.
+	177.	 Jennings, P., The future of in vitro toxicology. Toxicol In 
+Vitro, 2015. 29(6): pp. 1217–1221.
+	178.	 Klaunig, J.E., et al., Mouse liver cell culture. I. Hepatocyte 
+isolation. In Vitro, 1981. 17(10): pp. 913–925.
+	179.	 Klaunig, J.E., et al., Mouse liver cell culture. II. Primary 
+culture. In Vitro, 1981. 17(10): pp. 926–934.
+	180.	 Guillouzo, A., Liver cell models in in vitro toxicology. 
+Environ Health Perspect, 1998. 106 Suppl 2: pp. 511–532.
+	181.	 Eisenbrand, G., et al., Methods of in vitro toxicology. Food 
+Chem Toxicol, 2002. 40(2–3): pp. 193–236.
+	182.	 Baharvand, H., et al., Establishment and in vitro differen-
+tiation of a new embryonic stem cell line from human blas-
+tocyst. Differentiation, 2004. 72(5): pp. 224–229.
+	183.	 Sweeny D.J. and R.B. Diasio, The Isolated Hepatocyte and 
+Isolated Perfused Liver as Models for Studying Drug-and 
+Chemical-Induced Hepatotoxicity, in Hepatotoxicology. 
+2020. Boca Raton, FL: CRC Press. pp. 215–239.
+	184.	 Palma, E., E.J. Doornebal, and S. Chokshi, Precision-cut 
+liver slices: a versatile tool to advance liver research. 
+Hepatol Int, 2019. 13(1): pp. 51–57.
+	185.	 Brendel, K., et al., Precision cut tissue slices in culture: a 
+new tool in pharmacology. Proc West Pharmacol Soc, 1987. 
+30: pp. 291–293.
+	186.	 Weldon, P.R., B. Rubenstein, and D. Rubinstein, The direct 
+action of CCL-4 on the metabolism of liver slices. Can J 
+Biochem, 1965. 43(6): pp. 647–659.
+	187.	 Ceddia, R.B., et al., Acute effects of leptin on glucose 
+metabolism of in situ rat perfused livers and isolated hepa-
+tocytes. Int J Obes Relat Metab Disord, 1999. 23(11): pp. 
+1207–1212.
+	188.	 Mudra, D.R. and A. Parkinson, Preparation of hepatocytes. 
+Curr Protoc Toxicol, 2001. Chapter 14: pp. Unit 14 2.
+	189.	 Rijntjes, P.J., et al., Cryopreservation of adult human hepato-
+cytes. The in uence of deep freezing storage on the viability, 
+cell seeding, survival, fine structures and albumin synthesis 
+in primary cultures. J Hepatol, 1986. 3(1): pp. 7–18.
+	190.	 Fisher, R.A., et al., Optimization of conditions for clinical 
+human hepatocyte infusion. Cell Transplant, 2004. 13(6): 
+pp. 677–689.
+	191.	 Wigg, A.J., et al., Assessment of cell concentration and 
+viability of isolated hepatocytes using  ow cytometry . Anal 
+Biochem, 2003. 317(1): pp. 19–25.
+	192.	 Goethals, F., et al., Critical biochemical functions of iso-
+lated hepatocytes as sensitive indicators of chemical toxic-
+ity. Fundam Appl Toxicol, 1984. 4(3 Pt 1): pp. 441–450.
+	193.	 Frazier, J., Multiple endpoint measurements to evaluate the 
+intrinsic cellular toxicity of chemicals. In Vitro Toxicol, 
+1990. 3(4): pp. 349–357.
+	194.	 Castell, J.V., et al., Hepatocyte cell lines: their use, scope 
+and limitations in drug metabolism studies. Expert Opin 
+Drug Metab Toxicol, 2006. 2(2): pp. 183–212.
+	195.	 Du, Y., et al., Synthetic sandwich culture of 3D hepatocyte 
+monolayer. Biomaterials, 2008. 29(3): pp. 290–301.
+	196.	 Nakamura, K., et al., Evaluation of drug toxicity with hepa-
+tocytes cultured in a micro-space cell culture system. J 
+Biosci Bioeng, 2011. 111(1): pp. 78–84.
+	197.	 Zhang, J.G., et al., A multi-endpoint evaluation of cyto-
+chrome P450 1A2, 2B6 and 3A4 induction response in 
+human hepatocyte cultures after treatment with beta-naph-
+tho avone, phenobarbital and rifampicin. Drug Metab 
+Lett, 2010. 4(4): pp. 185–194.
+	198.	 Ozer, J., et al., The current state of serum biomarkers of 
+hepatotoxicity. Toxicology, 2008. 245(3): pp. 194–205.
+	199.	 Chen, V.L., et al., Genome-wide association study of 
+serum liver enzymes implicates diverse metabolic and liver 
+pathology. Nat Commun, 2021. 12(1): p. 816.
+	200.	 Drotman, R.B., A study of kinetic parameters for the use of 
+serum ornithine carbamoyltransferase as an index of liver 
+damage. Food Cosmet Toxicol, 1975. 13(6): pp. 649–651.
+	201.	 Rodriguez-Garay, E.A., Cholestasis: human disease and 
+experimental animal models. Ann Hepatol, 2003. 2(4): pp. 
+150–158.
+	202.	 Preiss, D. and N. Sattar, Non-alcoholic fatty liver disease: 
+an overview of prevalence, diagnosis, pathogenesis and 
+treatment considerations. Clin Sci (Lond), 2008. 115(5): 
+pp. 141–150.
+	203.	 Nyblom, H., et al., High AST/ALT ratio may indicate 
+advanced alcoholic liver disease rather than heavy drink-
+ing. Alcohol Alcohol, 2004. 39(4): pp. 336–339.
+	204.	 Nyblom, H., et al., The AST/ALT ratio as an indicator of 
+cirrhosis in patients with PBC. Liver Int, 2006. 26(7): 
+pp. 840–845.
+
+1753
+Hepatotoxicology
+	205.	 Giannini, E., et al., The 1-year and 3-month prognostic 
+utility of the AST/ALT ratio and model for end-stage liver 
+disease score in patients with viral liver cirrhosis. Am J 
+Gastroenterol, 2002. 97(11): pp. 2855–2860.
+	206.	 Dunn, K.W., et al., Mitochondrial depolarization and repo-
+larization in the early stages of acetaminophen hepatotox-
+icity in mice. Toxicology, 2020. 439: p. 152464.
+	207.	 Zimmerman, H.J., Hepatotoxicity: the adverse effects of 
+drugs and other chemicals on the liver, in Hepatotoxicity: 
+The Adverse Effects of Drugs and Other Chemicals on the 
+Liver. Philadelphia, PA. 1999.
+	208.	 Raju, K.S., et al., Ceruloplasmin, copper ions, and angio-
+genesis. J Natl Cancer Inst, 1982. 69(5): pp. 1183–1188.
+	209.	 Yuan, D.S., et al., The Menkes/Wilson disease gene homo-
+logue in yeast provides copper to a ceruloplasmin-like oxi-
+dase required for iron uptake. Proc Natl Acad Sci U S A, 
+1995. 92(7): pp. 2632–2636.
+	210.	 Yuen, M.F. and C.L. Lai, Serological markers of liver can-
+cer. Best Pract Res Clin Gastroenterol, 2005. 19(1): pp. 
+91–99.
+	211.	 Shukla, P.K., D. Sharma, and R.K. Mandal, Serum lactate 
+dehydrogenase in detecting liver damage associated with 
+pre-eclampsia. Br J Obstet Gynaecol, 1978. 85(1): pp. 40–42.
+	212.	 Ferriero, R., et al., Pyruvate dehydrogenase complex and 
+lactate dehydrogenase are targets for therapy of acute liver 
+failure. J Hepatol, 2018. 69(2): pp. 325–335.
+	213.	 Cornish, H.H., M.L. Barth, and V.N. Dodson, Isozyme pro-
+files and protein patterns in specific organ damage. Toxicol 
+Appl Pharmacol, 1970. 16(2): pp. 411–423.
+	214.	 Angulo, P., Long-term mortality in nonalcoholic fatty liver 
+disease: is liver histology of any prognostic significance? 
+Hepatology, 2010. 51(2): pp. 373–375.
+	215.	 Mehta, S.H., et al., Exceeding the limits of liver histology 
+markers. J Hepatol, 2009. 50(1): pp. 36–41.
+	216.	 Brunt, E.M., Pathology of nonalcoholic fatty liver disease. 
+Nat Rev Gastroenterol Hepatol, 2010. 7(4): pp. 195–203.
+	217.	 Torbenson, M.S., Atlas of Liver Pathology: A Pattern-based 
+Approach, in Atlas of Liver Pathology: A Pattern-based 
+Approach. 2019. Philadelphia, PA: Lippincott Williams & 
+Wilkins.
+	218.	 Joseph, A.E., et al., Comparison of liver histology with 
+ultrasonography in assessing diffuse parenchymal liver 
+disease. Clin Radiol, 1991. 43(1): pp. 26–31.
+	219.	 Kleiner, D.E. and P. Bedossa, Liver histology and clinical 
+trials for nonalcoholic steatohepatitis-perspectives from 2 
+pathologists. Gastroenterology, 2015. 149(6): pp. 1305–1308.
+	220.	 Lakner, A.M., et al., Inhibitory effects of microRNA 19b 
+in hepatic stellate cell-mediated fibrogenesis. Hepatology, 
+2012. 56(1): pp. 300–310.
+	221.	 Lefkowitch, J.H., Scheuer’s Liver Biopsy Interpretation. 
+2020. New York: Elsevier Health Sciences.
+	222.	 Ryu, M. and Cho, A., New Liver Anatomy: Portal Segmentation 
+and the Drainage Vein. 2009. New York: Springer.
+	223.	 Liang, W., et al., Establishment of a general NAFLD scor-
+ing system for rodent models and comparison to human 
+liver pathology. PLoS One, 2014. 9(12): p. e115922.
+	224.	 Melo, L., et al., The effect of endurance training on non-
+alcoholic fatty liver disease in mice. Physiol Rep, 2021. 
+9(15): p. e14926.
+	225.	 Guo, C.J., et al., miR-15b and miR-16 are implicated in acti-
+vation of the rat hepatic stellate cell: An essential role for 
+apoptosis. J Hepatol, 2009. 50(4): pp. 766–778.
+	226.	 Guo, C.J., et al., Changes in microRNAs associated with 
+hepatic stellate cell activation status identify signaling 
+pathways. FEBS J, 2009. 276(18): pp. 5163–5176.
+	227.	 Bandyopadhyay, S., et al., Hepatitis C virus infection and 
+hepatic stellate cell activation downregulate miR-29: miR-
+29 overexpression reduces hepatitis C viral abundance in 
+culture. J Infect Dis, 2011. 203(12): pp. 1753–1762.
+	228.	 Kwiecinski, M., et al., Expression of platelet-derived 
+growth factor-C and insulin-like growth factor I in hepatic 
+stellate cells is inhibited by miR-29. Lab Invest, 2012. 92(7): 
+pp. 978–987.
+	229.	 Li, W.Q., et al., The rno-miR-34 family is upregulated and 
+targets ACSL1 in dimethylnitrosamine-induced hepatic 
+fibrosis in rats. FEBS J, 2011. 278(9): pp. 1522–1532.
+	230.	 Yan, G., et al., MicroRNA-34a promotes hepatic stellate 
+cell activation via targeting ACSL1. Med Sci Monit, 2015. 
+21: pp. 3008–3015.
+	231.	 Li, X., et al., microRNA-34a and microRNA-34c promote 
+the activation of human hepatic stellate cells by targeting 
+peroxisome proliferator-activated receptor gamma. Mol 
+Med Rep, 2015. 11(2): pp. 1017–1024.
+	232.	 Meng, F., et al., Epigenetic regulation of miR-34a expres-
+sion in alcoholic liver injury. Am J Pathol, 2012. 181(3): pp. 
+804–817.
+	233.	 Trebicka, J., et al., Hepatic and serum levels of miR-122 
+after chronic HCV-induced fibrosis. J Hepatol, 2013. 58(2): 
+pp. 234–239.
+	234.	 Zeng, C., et al., Identification of a novel TGF-beta-miR-
+122-fibronectin 1/serum response factor signaling cascade 
+and its implication in hepatic fibrogenesis. Oncotarget, 
+2015. 6(14): pp. 12224–12233.
+	235.	 Miyaaki, H., et al., Significance of serum and hepatic 
+microRNA-122 levels in patients with non-alcoholic fatty 
+liver disease. Liver Int, 2014. 34(7): pp. e302–e307.
+	236.	 Meng, F., et al., MicroRNA-21 regulates expression of the 
+PTEN tumor suppressor gene in human hepatocellular 
+cancer. Gastroenterology, 2007. 133(2): pp. 647–658.
+	237.	 Wagenaar, T.R., et al., Anti-miR-21 suppresses hepatocel-
+lular carcinoma growth via broad transcriptional network 
+deregulation. Mol Cancer Res, 2015. 13(6): pp. 1009–1021.
+	238.	 Xu, G., et al., MicroRNA-21 promotes hepatocellular car-
+cinoma HepG2 cell proliferation through repression of 
+mitogen-activated protein kinase-kinase 3. BMC Cancer, 
+2013. 13: p. 469.
+	239.	 Bandiera, S., et al., miR-122--a key factor and therapeutic 
+target in liver disease. J Hepatol, 2015. 62(2): pp. 448–457.
+	240.	 Nakao, K., H. Miyaaki, and T. Ichikawa, Antitumor func-
+tion of microRNA-122 against hepatocellular carcinoma. J 
+Gastroenterol, 2014. 49(4): pp. 589–593.
+	241.	 Thakral, S. and K. Ghoshal, miR-122 is a unique molecule 
+with great potential in diagnosis, prognosis of liver disease, 
+and therapy both as miRNA mimic and antimir. Curr Gene 
+Ther, 2015. 15(2): pp. 142–150.
+	242.	 Tsai, W.C., et al., MicroRNA-122 plays a critical role in 
+liver homeostasis and hepatocarcinogenesis. J Clin Invest, 
+2012. 122(8): pp. 2884–2897.
+
+1754
+Hayes’ Principles and Methods of Toxicology
+	243.	 Hsu, S.H., et al., Essential metabolic, anti-in ammatory, 
+and anti-tumorigenic functions of miR-122 in liver. J Clin 
+Invest, 2012. 122(8): pp. 2871–2883.
+	244.	 Gramantieri, L., et al., Cyclin G1 is a target of miR-122a, a 
+microRNA frequently down-regulated in human hepatocel-
+lular carcinoma. Cancer Res, 2007. 67(13): pp. 6092–6099.
+	245.	 Li, B., et al., Mutual regulation of MiR-199a-5p and HIF-
+1alpha modulates the warburg effect in hepatocellular car-
+cinoma. J Cancer, 2017. 8(6): pp. 940–949.
+	246.	 Song, J., et al., MiR-199a regulates cell proliferation and sur-
+vival by targeting FZD7. PLoS One, 2014. 9(10): p. e110074.
+	247.	 Zhou, M., et al., miR-199a-5p suppresses human bladder 
+cancer cell metastasis by targeting CCR7. BMC Urol, 2016. 
+16(1): p. 64.
+	248.	 Hou, J., et al., Identification of miRNomes in human liver 
+and hepatocellular carcinoma reveals miR-199a/b-3p as 
+therapeutic target for hepatocellular carcinoma. Cancer 
+Cell, 2011. 19(2): pp. 232–243.
+	249.	 Fornari, F., et al., MiR-199a-3p regulates mTOR and c-Met 
+to in uence the doxorubicin sensitivity of human hepato -
+carcinoma cells. Cancer Res, 2010. 70(12): pp. 5184–5193.
+	250.	 Henry, J.C., et al., miR-199a-3p targets CD44 and reduces pro-
+liferation of CD44 positive hepatocellular carcinoma cell lines. 
+Biochem Biophys Res Commun, 2010. 403(1): pp. 120–125.
+	251.	 Ghosh, A., et al., MiRNA199a-3p suppresses tumor growth, 
+migration, invasion and angiogenesis in hepatocellular 
+carcinoma by targeting VEGFA, VEGFR1, VEGFR2, HGF 
+and MMP2. Cell Death Dis, 2017. 8(3): p. e2706.
+	252.	 Yusuke Yamamoto, I.K. and T. Ochiya, miRNAs and 
+hepatocellular carninoma, in The Liver Biology and 
+Pathobiology, I.M. Arias, Editor. 2020. Hoboken, NJ: 
+Wiley-Blackwell. pp. 183–194.
+	253.	 Fukushima, T., et al., Changes of micro-RNA expression 
+in rat liver treated by acetaminophen or carbon tetrachlo-
+ride--regulating role of micro-RNA for RNA expression. J 
+Toxicol Sci, 2007. 32(4): pp. 401–409.
+	254.	 Wang, K., et al., Circulating microRNAs, potential bio-
+markers for drug-induced liver injury. Proc Natl Acad Sci 
+U S A, 2009. 106(11): pp. 4402–4407.
+	255.	 Roderburg, C., et al., Elevated miR-122 serum levels are 
+an independent marker of liver injury in in ammatory dis-
+eases. Liver Int, 2015. 35(4): pp. 1172–1184.
+	256.	 Starkey Lewis, P.J., et al., Circulating microRNAs as 
+potential markers of human drug-induced liver injury. 
+Hepatology, 2011. 54(5): pp. 1767–1776.
+	257.	 Krauskopf, J., et al., Application of high-throughput 
+sequencing to circulating microRNAs reveals novel bio-
+markers for drug-induced liver injury. Toxicol Sci, 2015. 
+143(2): pp. 268–276.
+	258.	 Schueller, F., et al., miR-223 represents a biomarker in acute 
+and chronic liver injury. Clin Sci (Lond), 2017. 131(15): pp. 
+1971–1987.
+	259.	 Taibi, F., et al., miR-223: An in ammatory oncomiR enters 
+the cardiovascular field. Biochim Biophys Acta, 2014. 
+1842(7): pp. 1001–1009.
+	260.	 Haneklaus, M., et al., miR-223: infection, in ammation and 
+cancer. J Intern Med, 2013. 274(3): pp. 215–226.
+	261.	 Yu, C.H., C.F. Xu, and Y.M. Li, Association of 
+MicroRNA-223 expression with hepatic ischemia/reper-
+fusion injury in mice. Dig Dis Sci, 2009. 54(11): pp. 
+2362–2366.
+	262.	 Yang, D., et al., MicroRNA-125b-5p mimic inhibits acute 
+liver failure. Nat Commun, 2016. 7: p. 11916.
+	263.	 Wakabayashi, N., et al., Notch-Nrf2 axis: regulation of 
+Nrf2 gene expression and cytoprotection by notch signal-
+ing. Mol Cell Biol, 2014. 34(4): pp. 653–663.
+	264.	 Yuan, K., et al., Fine-tuning the expression of microRNA-155 
+controls acetaminophen-induced liver in ammation . Int 
+Immunopharmacol, 2016. 40: pp. 339–346.

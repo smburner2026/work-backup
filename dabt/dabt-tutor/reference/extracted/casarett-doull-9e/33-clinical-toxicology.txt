@@ -1,0 +1,2487 @@
+# 33 Clinical Toxicology
+# Casarett & Doull's Toxicology, 9th Edition
+# Pages: 1550-1569
+# Unit: Unit VII Applications of Toxicology
+
+33
+chapter
+Clinical Toxicology
+Louis R. Cantilena, Jr.*
+HISTORY OF CLINICAL TOXICOLOGY
+Historical Aspects of the  
+Treatment of Poisoning
+The history of poisons and poisoners dates back to ancient times. One 
+of the earliest documented uses of poisons was for military use. The 
+use of toxic smoke can be tracked to as early as 2000 bc in ancient 
+India. Formulas for creating poisonous and noxious vapors have 
+also been found from 1000 bc in Chinese writings. The incorpora-
+tion of fire-generated arsenic-containing smoke from the burning of 
+wood covered with pitch and sulfur containing material was report-
+edly used by Sparta against Athens around 400 bc (Osius, 1957; 
+Mayor, 2003). Documentation regarding the use of antidotes can 
+be found in the Odyssey and Shastras from approximately 600 bc. 
+What is considered to be the first documented use of a specific anti-
+dote may be found in Homer’s Odyssey where it is suggested to 
+Ulysses that he take moli to protect himself from poisoning. Moli 
+may actually be Galanthus nivalis, a plant-derived cholinesterase 
+inhibitor that might counteract the effects of the anticholinergic 
+plant Datura stramonium (Plaitakis and Duvoisin, 1983).
+Galen (129 to 200 ad) wrote three books called De Antidotis I, 
+De Antidotis II, and De Theriaca ad Pisonem that described the 
+development of a universal antidote known as alexipharmic or the-
+riac by King Mithridates VI of Pontus who lived from 132 to 63 bc 
+(Wax, 1997). The antidote reportedly contained 36 or more ingre-
+dients that were ingested every day, conferring protection against a 
+broad spectrum of poisons such as venomous stings and bites from 
+vipers, spiders, and scorpions (Jarcho, 1972).
+History of Clinical Toxicology
+Historical Aspects of the Treatment 
+of Poisoning
+Modern Development of Effective 
+Antidotes for Poisoning
+Introduction of the Poison 
+Control Center
+Clinical Strategy for the 
+Treatment of the Poisoned 
+Patient
+Clinical Stabilization
+Clinical History in the Poisoned 
+Patient
+Physical Examination
+Laboratory Evaluation
+Radiographic Examination
+Prevention of Further Poison 
+Absorption
+Enhancement of Poison Elimination
+Use of Antidotes in Poisoning
+Supportive Care of the Poisoned 
+Patient
+Case Examples of Specific 
+Poisonings
+Acetaminophen
+Ethylene Glycol
+Serum Chemistries
+Valproic Acid
+Salicylate
+Summary
+Acknowledgments
+References
+*Deceased
+The refinement of theriac (antidote) formulations is docu-
+mented for nearly 2000 years. Andromachus (1st century ad) was a 
+physician to Nero and improved the Mithridates theriac by modify-
+ing the formula to include up to 73 ingredients (Wax, 1997). The 
+use of these ancient antidotes included treatment of acute poison-
+ing and prophylactic treatment to make one “poison proof.” The 
+Mithridates theriac with subsequent modifications remained in use 
+until the early 20th century. William Heberden wrote Antitheriaka: 
+An Essay on Mithridatium and Theriaca in 1745 in which he ques-
+tioned the effectiveness of these products (Jarcho, 1972). Despite 
+the skepticism concerning these antidote formulations, their use 
+continued for two millenniums.
+One of the earliest writings on the prevention of the gastro-
+intestinal absorption of poisons was by Nicander (Major, 1934). 
+In this ancient writing, the induction of emesis by ingestion of an 
+emetic agent or mechanical stimulation of the hypopharynx was 
+described as a method to prevent poison absorption. It would not be 
+until the 1600s when the use of ipecacuanha for induction of emesis 
+was recommended by William Piso (Reid, 1970).
+The use of oral charcoal, now a mainstay in the treatment of 
+many human poisonings, can be dated to early Greek and Roman 
+civilization when wood charcoal was used for the treatment of mal-
+adies such as anthrax and epilepsy (Cooney, 1995). The antidotal 
+properties of charcoal were demonstrated in the 1800s by the French 
+with dramatic demonstrations of a reduction in lethality when char-
+coal was ingested with potentially lethal dosages of arsenic trioxide 
+by Bertrand and strychnine by Touery (Holt and Holz, 1963). One 
+of the earliest reported human studies examining the efficacy of 
+charcoal in poisoning was in 1948 by the American physician Rand 
+(Holt and Holz, 1963). As recently as the early 1960s, poison treat-
+ment center employees were known to start their workday by burning 
+toast to create a supply of poison absorbent (charcoal) for the day’s
+
+1532
+Applications of Toxicology
+Unit VII
+work. The use of superheated steam to treat the charcoal to enhance 
+its absorption capacity was reported by Ostrejko, a Russian scientist 
+in 1900 (Greensher et al., 1987). By the 1960s, the use of activated 
+charcoal became routinely recommended for the treatment of patients 
+poisoned with substances thought to be adsorbed by charcoal.
+Modern Development of Effective 
+Antidotes for Poisoning
+The search for safe and effective antidotes has been challenging to 
+say the least. From the time of the early, self-experimenting propo-
+nents of effective antidotes to as recently as the later part of the last 
+century, discovery, refinement, and determination of conditions to 
+permit optimal use of antidotes has been less than ideal. Much the 
+same could be said for the state of drug development more broadly 
+during the same time period. It was not until the mid-20th century 
+that a more informed scientific and systematic approach to drug 
+development became possible and, in fact, became a requirement 
+by newly created regulatory agencies in charge of controlling the 
+sale and distribution of medicinal products.
+The therapeutic area of poison treatments and prophylaxis 
+presents several additional hurdles compared to drug development 
+for other, more prevalent disease categories. These challenges 
+include the inability to perform controlled human studies to evalu-
+ate efficacy, in part due to the small numbers of poisoned patients 
+available for enrollment in therapeutic trials and also due to the 
+often-sporadic occurrence of specific poisonings. These realities 
+make it difficult to easily perform acceptable evaluations of poison-
+ing antidotes. In addition, when trying to transition the nonclinical 
+data for poison treatments to humans, there are sometimes signifi-
+cant interspecies differences encountered that make extrapolation 
+of experimental efficacy or safety findings difficult. In recognition 
+of these challenges, in 2002 the Food and Drug Administration 
+enacted the Animal Efficacy Rule, which allows FDA to approve 
+products for serious or life-threatening conditions caused by expo-
+sure to lethal biological, chemical, radiological, or nuclear sub-
+stances without human efficacy testing. The rule allows the sponsor 
+of the product to demonstrate adequate efficacy of the product in a 
+valid animal or in vitro model of the toxicity and not humans, for 
+obvious ethical or in the setting of an infectious outbreak, logistic 
+reasons. The human safety data is then determined by controlled 
+clinical trials that involve administration of therapeutic dosages of 
+the chem/bio/rad treatment agent in the absence of the poisoning to 
+healthy volunteers (Gaffney, 2015).
+INTRODUCTION OF THE  
+POISON CONTROL CENTER
+Advances in the field of clinical toxicology and improvements in the 
+quality of care of the poisoned patient have paralleled the evolution 
+of poison control centers (PCCs). The introduction of the poison 
+center and subsequent formation of associations involving health-
+care professionals who work in these centers brought with it an 
+opportunity to share information through publications and national 
+conferences that ultimately resulted in systematic enhancements 
+in the treatment of the poisoned patient. One of the earliest local 
+efforts to systematically collect, analyze, and distribute to physi-
+cians, clinical information about poisoning was led by Jay Arena, 
+MD, a Duke University pediatrician. In 1939, he published a case 
+series detailing the clinical outcome of 50 cases of lye poisoning 
+(Martin and Arena, 1939). Interest in clinical information regarding 
+the treatment of poisoned patients and resultant patient outcomes 
+was also growing in Europe during approximately the same time. 
+During the 1940s, several European communities developed hos-
+pital-based treatment facilities for poisoning (Manoguerra and 
+Temple, 1984). This local poison information effort continued for 
+several years as further realization of the growing importance of the 
+problem of poisoning was appreciated. A study by the American 
+Academy of Pediatrics completed in 1952 reported that more than 
+half of childhood accidents involved unintentional poisoning in the 
+United States. Possibly in response to this study, Edward Press, 
+MD, and Louis Gdalman, RPh, started the first United States poi-
+son control center (PCC) in Chicago, Illinois in 1953. Mr Gdalman 
+collected toxicological information on more than 9000 commer-
+cial and noncommercial products throughout the 1940s and early 
+1950s. Their Chicago poison center provided telephone advice to 
+healthcare professionals as well as collected poisoning data sys-
+tematically during the telephone exchange. As more centers were 
+created they grew to become valuable resources for information 
+about product ingredients, potential toxicity, and recommendations 
+for the treatment of poisoned patients. PCCs proliferated over the 
+next two decades and peaked at 661 centers in 1978 (Scherz and 
+Robertson, 1978). At the peak of this proliferation, each state in the 
+United States had at least one poison center; several states had more 
+than 20 poison centers active at the same time, but there was little 
+standardization throughout the specialty. Information resources 
+gradually evolved from collected experiences of the individual 
+poison center to a centralized collection of product contents, toxici-
+ties, and recommended treatments provided in a microfiche data-
+base to today’s Internet-based globally available database that is 
+frequently updated and incorporates consensus recommendations 
+for various treatment protocols for specific poisonings. Through 
+regionalization, consolidation, and certification, the number of 
+PCCs decreased significantly over time to 55 centers in 2015 
+(Mowry et al., 2016).
+Today, poison centers are generally staffed by a medical direc-
+tor (Medical Toxicologist), administrator or managing director, 
+specialists in poison information, and educators for poison pre-
+vention programs. The medical toxicologist, managing director, 
+and specialists in poison information are healthcare professionals 
+who are credentialed by their respective boards. The American 
+Board of Medical Subspecialties offers a subspecialty certificate 
+in Medical Toxicology to physicians who successfully complete 
+the certifying examination. The American Board of Applied 
+Toxicology (ABAT) offers a certification examination for nonphy-
+sicians and the American Association of Poison Control Center 
+(AAPCC) provides a certification of the specialists in poison infor-
+mation who are usually nurses, pharmacists, or other healthcare 
+personnel. The managing director of the poison center is usually 
+either the same person as the medical director or a nonphysician 
+certified by the ABAT. The nonphysician toxicologists are referred 
+to as clinical toxicologists.
+Poison centers provide a significant service to the general pub-
+lic and to practicing healthcare providers. These services include 
+direct information to patients with expert recommendations for 
+needed treatment, critical diagnostic and treatment information for 
+healthcare professionals, education for healthcare personnel, and 
+poison prevention activities through public education. In recognition 
+of this valuable service, the “Poison Control Center Enhancement 
+and Awareness Act” was signed in 2000, which ensured that all 
+citizens had toll-free access to a PCC, and it was subsequently 
+amended to include partial federal funding in 2008 in part to serve 
+as an early-warning system for potential chemical, biological, or 
+radiologic terrorist attacks (Woolf et al., 2011). This funding was
+
+Clinical Toxicology
+Chapter 33
+1533
+recently extended through 2019 (Rep. Terry, 2014). Central data 
+collection via the National Poison Data System (NPDS) in near 
+real time has demonstrated the capability for the PCC network to 
+serve in the early warning role (Wolkin et al., 2012). Recent report-
+ing from this network shows that poisoning case data from PCCs 
+are uploaded every 8 minutes on average supporting this role on a 
+national level (AAPCC, 2017).
+In addition to this public health alert capability, the ability for 
+PCCs to provide data that can lead to the recognition of improper 
+use of medications, emergence of new illicit drug exposures or 
+practice, prescription product diversion, and product tampering 
+events has been demonstrated. Several examples can be found that 
+indicate that public access to a certified PCC is cost effective, in 
+terms of overall healthcare expenditures. One early publication 
+documented the economic consequence of a 1-year forced closure 
+of the Louisiana State Poison Center several years ago. Without 
+a poison center to call, residents of the community were left with 
+the expensive alternative of visiting a nearby hospital’s emergency 
+room or doctor’s office visit for possible treatment of their expo-
+sure. It was estimated that the increased costs to the state for emer-
+gency medical services (EMS) were $1.4 million for that year (King 
+and Palmisano, 1991). Since that study, several other studies have 
+shown that for each dollar spent to operate a PCC, a savings of 
+approximately $3 to $7.67 can be realized for the healthcare system 
+(Miller and Lestina, 1997; Blizzard et al., 2008).
+In 2004, the Institute of Medicine (IOM) affirmed the value 
+and need for a poison center system by their commissioned in-depth 
+study of poison prevention and control services in the United States. 
+Their report (IOM, 2004) recommended further standardization of 
+the regional poison centers, partial federal funding for the poison 
+center system to stabilize core functions of each center, and inte-
+gration of PCCs with public health agencies at the federal, state, 
+and local level including integration with the Centers for Disease 
+Control and Prevention for chemical and biological terrorism 
+preparedness. Since that time, other reports have shown the cost-­
+benefit value of the national poison control system for these func-
+tions (Lewin Group, 2012).
+CLINICAL STRATEGY FOR THE  
+TREATMENT OF THE POISONED PATIENT
+The setting for the initial treatment of a seriously poisoned patient 
+is usually in a hospital emergency room but can sometimes be in 
+other, less ideal settings such as the battlefield, workplace, home, 
+or street setting. In treatment environments that permit a complete 
+assessment and initiation of treatments, most clinical toxicolo-
+gists agree that a methodically executed, stepwise approach for the 
+evaluation and treatment of the poisoned patient is recommended 
+for optimal care (Ellenhorn, 1997a, 1997b; Hoffman, 2015). In this 
+section, an overview of the general approach to the treatment of 
+poisoned patients in the emergency department (ED) or acute inten-
+sive care setting of a hospital will be described. Please note that 
+once the patient is relatively stabilized, the early steps listed often 
+are initiated in parallel. In that setting, the following general steps 
+represent important elements of the initial clinical encounter for a 
+poisoned patient:
+	 1.	 Clinical stabilization of the patient
+	 2.	 Clinical evaluation (history, physical, laboratory, radiology)
+	 3.	 Prevention of further toxicant absorption
+	 4.	 Enhancement of toxicant elimination
+	 5.	 Administration of antidote (if available)
+	 6.	 Supportive care, close monitoring, and clinical follow-up
+Clinical Stabilization
+The first priority in the treatment of poisoning is to stabilize the 
+patient. Assessment of the patient’s airway (ability to move air into 
+and out of the lungs), breathing (the presence of spontaneous respi-
+rations), and circulation (adequate blood pressure and perfusion of 
+vital organs) is the initial step of emergency treatment. Some poi-
+soned patients, soon after even a potentially lethal exposure of the 
+toxicant has occurred, will not show significant symptoms. Most 
+poisoned patients, with a toxic exposure, will exhibit symptoms 
+early in their presentation. For this reason, the initial triage of a 
+poisoned patient can be difficult. On occasion, the patient is asymp-
+tomatic on presentation but by history has had a potentially seri-
+ous toxic exposure. Clinicians and medical support staff, who may 
+not be knowledgeable about the toxic exposure level of a specific 
+drug or chemical, may mistakenly stratify the patient to a lower 
+treatment priority, which can have disastrous results. The improper 
+stratification sometimes can include a delay in calling for a clinical 
+toxicology consultation from a regional PCC or a regional poison 
+treatment center. Some drugs, such as a benzodiazepine, can cause 
+significant sedation early after exposure but often have a compara-
+tively mild clinical course, whereas other chemicals, such as cam-
+phor, show little clinical effects initially but can produce a fatal 
+outcome. Some chemicals and drugs can cause seizures as part of 
+their toxic-effect profile. Control of drug/toxicant-induced seizures 
+can be an important component of the initial stabilization of the 
+poisoned patient. A full discussion of the various methods avail-
+able to treat abnormal conditions with a patient’s airway, breath-
+ing, circulation, and control of toxicant-induced seizures is beyond 
+the scope of this chapter. The reader is referred to textbooks of 
+Emergency Medicine and Critical Care Medicine for further infor-
+mation on this subject. After the initial stabilization of the patient, 
+the remainder of the assessment and treatment steps can proceed. 
+On occasion, especially in critically ill patients, treatment interven-
+tions are initiated before a patient is completely stable.
+Clinical History in the Poisoned Patient
+The primary goal of obtaining the medical history in poisoned 
+patients is to determine the substance the patient was exposed to 
+and the extent and timing of exposure. Unfortunately, in contrast 
+to most specialties of medicine, the clinical history from the ini-
+tial clinical encounter with the poisoned patient is sometimes not 
+available because either the patient is unresponsive and unable to 
+provide the history or the history provided is unreliable. The history 
+may be unreliable due to the inability of the patient to recall perti-
+nent facts relating to the ingestion or exposure, or in the setting of 
+an attempted suicide or a patient who has taken illegal substances, 
+the patient often is not willing to provide an accurate history. For 
+these reasons, additional sources for the clinical history are often 
+incorporated to aid the clinical team in determining the exposure 
+history. Examples of additional resources sometimes employed to 
+obtain an informative clinical history include interviewing fam-
+ily members and emergency medical technicians who were at 
+the scene, searching an electronic medical record, or contacting a 
+pharmacist who can sometimes provide a listing of prescriptions 
+recently filled or an employer who can provide a list of chemi-
+cals found in the work environment for an occupational exposure. 
+Many times, identification of the exact substance responsible for 
+the observed toxic effects is not known for hours to days after the 
+ingestion, or on occasion detected during autopsy in fatal cases.
+When estimating the extent of exposure to the poison, it is 
+generally recommended that one maximize the estimated dose 
+received. That is, one should assume that the entire contents of the
+
+1534
+Applications of Toxicology
+Unit VII
+prescription bottle were ingested, that the entire bottle of liquid was 
+consumed, most of the body surface area was exposed to a topi-
+cal chemical, or that the highest possible concentration of airborne 
+contaminant was present for a patient poisoned by inhalation unless 
+definite evidence exists to the contrary. Maximizing the potential 
+dose or exposure level allows one to prepare adequately for the 
+worst-case scenario, that is, the most clinically severe manifesta-
+tions of the poisoning rather than underestimating the exposure and 
+therefore the anticipated toxic effects and, as a result, be unprepared 
+for a serious clinical presentation in a poisoned patient.
+Once an appropriate estimate of the dose is made, the toxicolo-
+gist can refer to various information resources to determine what 
+the range of expected clinical effects might be from the estimated 
+exposure. This is one of the most important early functions of the 
+poison center. The estimation of expected toxicity greatly assists 
+with the triage of poisoned patients. Poison information specialists 
+working in the PCCs routinely give telephone recommendations 
+regarding the level of medical care required for a given ingestion 
+based on the expected clinical effects from the reported ingestion. 
+The majority of in-the-home accidental pediatric exposures are 
+treated with at-home observation and occasionally with the addi-
+tional recommendation for home-administered activated charcoal if 
+readily available. In the hospital setting, ED staff use the estimation 
+of expected clinical effects to effectively triage the poisoned patient. 
+For example, a 3-year-old patient who accidentally ingested 25 chil-
+dren’s chewable multivitamins without iron would likely be triaged 
+to a noncritical care area of the ED, whereas another similar patient 
+who ingested a large amount of a potent anticholinergic medication 
+would be triaged to a high-intensity care section of the ED.
+Estimating the timing of the exposure to the poison is fre-
+quently the most difficult aspect of the clinical history when treat-
+ing the poisoned patient. Often the toxicologist must turn detective 
+to determine the most likely window of time that the exposure 
+occurred. For example, if a pediatric patient was being watched 
+by a baby-sitter at all times except for a 20-minute period that 
+preceded the onset of symptoms and the discovery of an open 
+prescription bottle for a calcium channel blocking agent is found, 
+then it is straightforward to assume that the ingestion occurred in 
+that 20-minute window. Other situations require estimation of a far 
+broader window for exposure. For a person found down with sev-
+eral empty prescription bottles nearby who was not seen by anyone 
+for the preceding 24 hours, one would not be able to accurately 
+estimate the time of ingestion other than sometime in that 24-hour 
+window. Therefore, in view of these often-encountered limitations, 
+obtaining an accurate history in the poisoned patient can be very 
+challenging and occasionally completely lacking. When the history 
+is unobtainable or unreliable, the treating clinical toxicologist is left 
+in the setting of empirical treatment of an “unknown ingestion” poi-
+soning. This type of treatment will be discussed later in this chapter.
+Physical Examination
+One of the most important actions performed during the initial clin-
+ical encounter in the treatment of the poisoned patient is the physi-
+cal examination. A thorough examination of the patient is required 
+to assess the patient’s condition, determine the patient’s mental 
+status, and, if altered, determine possible nontoxicology expla-
+nations for the abnormal mental status such as trauma or central 
+nervous system infection. In addition, findings from the physical 
+examination allow one to categorize the patient’s physical exami-
+nation parameters into broad clinical presentation classes referred 
+to as toxic syndromes. These toxic syndromes have been called 
+toxidromes (Mofenson and Greensher, 1970; Holstege and Borek, 
+2012; Hoffman, 2015). A toxidrome is a constellation of clinical 
+signs and symptoms that, when taken together, are likely associated 
+with exposure from certain toxicological classes of chemicals. The 
+major toxic syndromes include narcotic, cholinergic, sympatho-
+mimetic, anticholinergic, sedative-hypnotic, and withdrawal from 
+ethanol/sedative-hypnotics and withdrawal from opioids. Table 33-1 
+lists the clinical features of these major toxic syndromes.
+Table 33-1 
+Clinical Features of Toxic Syndromes
+BLOOD PRESSURE
+PULSE
+TEMPERATURE
+PUPILS
+LUNGS
+ABDOMEN
+NEUROLOGICAL
+Sympathomimetic
+Incr.
+Incr.
+Slight Incr.
+Mydriasis
+NC
+NC
+Hyperalert, incr. 
+reflexes
+Anticholinergic
+Slight incr. or NC
+Incr.
+Incr.
+Mydriasis
+NC
+Decr. 
+bowel 
+sounds
+Altered mental 
+status
+Cholinergic
+Slight decr. or 
+NC
+Decr.
+NC
+Miosis
+Incr.  
+bronchial 
+sounds
+Incr. bowel 
+sounds
+Altered mental 
+status
+Opioid
+Decr.
+Decr.
+Decr.
+Miosis
+NC or rales 
+(late)
+Decr. 
+bowel 
+sounds
+Decr. level of 
+consciousness
+Ethanol-sedative 
+hypnotics
+Decr.
+Decr.
+Decr.
+Variable
+NC
+Decr. 
+bowel 
+sounds
+Agitation;  
+decr. level of  
+consciousness
+Withdrawal from 
+ethanol-sedative 
+hypnotics
+Incr.
+Incr.
+Incr.
+Mydriasis
+NC
+Incr. bowel 
+sounds
+Agitation;  
+hallucinations; 
+seizures
+Withdrawal from 
+opioids
+Incr.
+Incr.
+Variable
+Mydriasis
+NC
+Incr. bowel 
+sounds; 
+vomiting
+Anxious,  
+piloerection
+
+Clinical Toxicology
+Chapter 33
+1535
+In certain treatment settings, the precise agent responsible for 
+the poisoning is not known during the critically important phase of 
+initial treatment of the poisoned patient. When the treating physi-
+cians are able to categorize the patient’s presentation into a toxic 
+syndrome, it permits initiation of rationale treatment based on the 
+most likely category of toxicant responsible without knowing the 
+specific chemical causing the poisoning. For example, if a patient 
+presents with altered mental status, mydriasis (dilated pupils), mild 
+hypertension, tachycardia, warm skin, dry mucous membranes, and 
+diminished bowel sounds in the abdomen, the clinical toxicolo-
+gist can characterize the patient’s presentation as consistent with 
+the anticholinergic toxic syndrome. The treatment would then be 
+directed at support of respiration and potentially administering a 
+pharmacological antidote like physostigmine as well as additional 
+situation-requiring supportive care.
+Occasionally, a characteristic odor can be detected on the poi-
+soned patient’s breath or clothing, which may point toward expo-
+sure or poisoning by a specific chemical. Table 33-2 lists some of 
+the better-recognized odors and the substance associated with the 
+odor. Detection of one of these odors may provide an important 
+historical clue as to the agent responsible for the poisoning.
+Periodic re-examination of the patient is a very important 
+aspect of clinical toxicology treatment procedures. Follow-up 
+clinical examinations can help gauge the progression of the clini-
+cal course of poisoning as well as determine the effectiveness of 
+treatment interventions and assess the need for additional treatment 
+procedures.
+Laboratory Evaluation
+A common misconception concerning the initial treatment of poi-
+soned patients is that a definitive diagnosis of the specific agent 
+or poison responsible for the patient’s clinical presentation is fre-
+quently made based upon clinical laboratory testing in real time. 
+Unfortunately, the availability of an assay to identify the specific 
+drug or industrial chemical on a rapid turn-around basis (STAT, 
+e.g., within 1 hour) is very limited. Table 33-3 lists drugs or other 
+chemical tests that are typically available for STAT measurement 
+in a medical center-type hospital facility (UCSF, 2017). As one can 
+see, the number of chemicals for which quantitative detection is 
+possible in a rapid turn-around timeline is extremely limited, com-
+pared to the large number of possible chemicals that can poison 
+patients. This further emphasizes the importance of recognizing 
+clinical syndromes for poisoning and for the clinical toxicologist 
+to be able to initiate general treatment and supportive care for the 
+patient with poisoning from an unknown substance.
+For the relatively few chemicals that can be quantified on a 
+rapid turn-around basis in an ED setting, the quantitative measure-
+ment can often provide both prognostic and therapeutic guidance. 
+Several authors have suggested certain “action levels” for specific 
+therapeutic drugs and chemicals, which when met or exceeded in 
+the patient’s plasma should trigger specific interventions or predict 
+likely clinical outcomes. In some cases, measurement of an indica-
+tor of the biological effect of a poison provides sufficient infor-
+mation to render definitive treatment to the patient. Measurement 
+of methemoglobin concentration in a patient poisoned by one of 
+many chemicals that can cause this chemical transformation of the 
+hemoglobin molecule is sufficient to initiate treatment for methe-
+moglobinemia without identification of the specific toxicant that 
+caused the condition. Similarly, most hospital laboratories have the 
+capability for rapid measurement of carboxyhemoglobin concen-
+trations, which permits treatment of carbon monoxide poisoning 
+based on the laboratory test measuring a surrogate marker for car-
+bon monoxide exposure.
+For some commonly ingested drugs, a nomogram has been 
+established to predict the severity of the poisoning and is impor-
+tant in some cases to guide therapeutic intervention based on the 
+measured plasma concentration of the drug and the time elapsed 
+from the expose. Proper use of such nomograms is necessary for the 
+clinical management of poisoning cases where available.
+The clinical usefulness of a drug plasma concentration mea-
+sured by the clinical laboratory was suggested for salicylates 
+approximately 50 years ago. In 1960, Done published a nomogram 
+to predict the clinical outcome from poisoning with salicylates 
+(Done, 1960). After years of routine clinical use, further investi-
+gation led to the conclusion that the clinical utility of the Done 
+nomogram was insufficient to recommend continued applicability 
+to human salicylate poisoning. As a result, use of this nomogram 
+in practice is no longer recommended (Dugandzic et al., 1989; 
+American College of Medical Toxicology, 2015).
+In 1975, Rumack and Matthew published a nomogram for acet-
+aminophen poisoning shown in Fig. 33-1 (Rumack and Matthew, 
+1975). This nomogram predicts clinical outcome and has maintained 
+Table 33-2  
+Characteristic Odors Associated With Poisonings
+ODOR
+POTENTIAL POISON
+Apple blossoms
+Chloroacetophenone (tear gas)
+Bitter almonds
+Cyanide
+Carrots
+Cicutotoxin (water hemlock)
+Eggs
+Hydrogen sulfide, mercaptans
+Garlic
+As, organophosphates, DMSO, 
+thallium
+Mothballs
+Naphthalene, camphor
+Pear-like
+Paraldehyde, chloral hydrate
+Rotten eggs
+Hydrogen sulfide, mercaptans,  
+N-acetylcysteine
+Vinyl
+Ethchlorvynol
+Wintergreen
+Methylsalicylate
+Abbreviation: DMSO, dimethyl sulfoxide.
+Table 33-3  
+List of Tests that Are Commonly Measured in a 
+Hospital Setting on a STAT Basis
+Acetaminophen
+Osmolality
+Carbamazepine
+Phenobarbital
+Carboxyhemoglobin
+Phenytoin
+Digoxin
+Procainamide/NAPA
+Ethanol
+Quinidine
+Gentamicin
+Salicylates
+Iron
+Theophylline
+Lithium
+Tobramycin
+Magnesium
+Valproic acid
+Methemoglobin
+Vancomycin
+Abbreviation: NAPA, N-acetylprocainamide.
+
+1536
+Applications of Toxicology
+Unit VII
+its clinical utility over time as a valuable tool to guide the clinician 
+in the decision as to whether or not to administer N-acetylcysteine 
+(NAC), an antidote for significant acetaminophen ingestion. 
+Laboratory evaluation of a patient potentially poisoned with acet-
+aminophen is crucial to assess what hepatic injury may have already 
+occurred and to determine the plasma concentration of acetamino-
+phen for prognostic purposes. Accurate estimation of acetaminophen 
+in the plasma should be done on samples drawn at least 4 hours 
+after ingestion, when or past the time that peak plasma levels can 
+be expected. Once an accurate plasma concentration of acetamino-
+phen has been obtained at least 4 hours post ingestion, it should 
+be plotted on the Rumack–Matthew nomogram (Fig. 33-1) to 
+determine whether NAC therapy is indicated. This nomogram 
+is based on a series of patients with and without hepatotoxicity 
+and their corresponding acetaminophen plasma concentrations at 
+presentation.
+In the appropriate patient, the decision to treat an acetaminophen- 
+poisoned patient is based on the plasma concentration of parent 
+acetaminophen plotted on the nomogram. Although some authors 
+recommend that NAC treatment only be administered to a patient 
+with an acetaminophen plasma concentration in the “definite toxic” 
+range, many clinical toxicologists agree that NAC should be given 
+at or above the “probably toxic” action level due to the often present 
+uncertainty in the clinical history with respect to the exact time of 
+the ingestion. It should be noted, however, that proper use of this 
+nomogram is required, namely that certain conditions should be 
+met to apply the nomogram to a specific clinical case. The nomo-
+gram was validated for a single acetaminophen ingestion, the time 
+of ingestion is critically important to establish the X-axis coordi-
+nate for the data point and the plasma concentration should have 
+been obtained at least 4 hours after ingestion to assure that the peak 
+plasma concentration of parent acetaminophen has occurred.
+Similar, though, perhaps less well established, predictive rela-
+tionships of drug plasma concentration and clinical outcome and/
+or suggested concentrations that require therapeutic interventions 
+are available for several other drugs including lithium, digoxin, 
+iron, phenobarbital, and theophylline. Some authors have identified 
+“action levels” or toxic threshold values for the measured plasma 
+concentrations of various drugs or other chemicals (Ellenhorn, 
+1997a, 1997b). Generally, these values represent mean concentra-
+tions of the respective substance that have been shown to produce a 
+significant harmful effect during a retrospective analysis of clinical 
+case series. However, the pharmaco- (or toxico-) dynamic variabil-
+ity for a given toxicant or for a combination of toxicants is signifi-
+cant. For example, a patient with a “normal” or “nontoxic” digoxin 
+level may display significant toxic effects and conversely a patient 
+with an elevated or “toxic” plasma concentration of digoxin may 
+not show any sign of harmful effects. The clinical toxicologist is 
+required to critically evaluate the measured drug concentration in 
+context of the clinical presentation of the patient and not react to 
+the measured laboratory value alone. An additional confounding 
+factor is the often-encountered co-ingestion of another substance 
+in the poisoning. The applicability of exposure-response models 
+to predict clinical severity in the presence of a second or multiple 
+toxicants is unknown.
+Because of the limited clinical availability of rapidly available 
+“diagnostic” laboratory tests for poisons (Table 33-3), toxicologists 
+can sometimes gain important insight into what potential drugs 
+were ingested by performing simple calculations based on routine 
+clinical laboratory data. Two examples of these laboratory-derived 
+methods to potentially identify what substance was ingested are 
+the anion gap (AG) and the osmol gap calculations. An elevated 
+AG or osmol gap suggests a finite differential diagnosis for signifi-
+cant exposures in a poisoned patient. Both calculations are used as 
+diagnostic aids when the clinical history suggests poisoning and the 
+patient’s condition is consistent with exposure to chemicals known 
+to cause elevations of these parameters.
+The AG is calculated as the difference between the serum 
+Na ion concentration and the sum of the serum Cl and HCO3 ion 
+concentrations.
+AG
+NamEq/L
+(ClmEq/L
+HCO mEq/L)
+=
+−
++
+[
+]
+3
+NormalAG ≤12
+When there is laboratory evidence of metabolic acidosis (low 
+blood pH and low serum HCO3) in a poisoned patient, the finding 
+of an elevated AG would suggest systemic toxicity from a relatively 
+finite list of chemicals. A popular clinical mnemonic (AT MUD 
+PILES) is commonly employed as a memory aid for this differen-
+tial diagnosis. Table 33-4 lists the more common chemicals that 
+have metabolic acidosis with an elevated AG as part of the clinical 
+presentation that are included in this pneumonic. Additional sub-
+stances not included in this table, such as benzyl alcohol, carbon 
+monoxide, hydrogen sulfide, metformin, phenformin, formic acid, 
+and other organic or mineral acids, as well as the anti-seizure medi-
+cation valproic acid, can also result in elevated AG with systemic 
+metabolic acidosis.
+The second calculated parameter from clinical chemistry val-
+ues is the osmol gap. The osmol gap is calculated as the numerical 
+difference between the measured serum osmolality and the serum 
+osmolarity calculated from the clinical chemistry measurements of 
+the serum sodium ion, glucose, and blood urea nitrogen (BUN) con-
+centrations (Smithline and Gardner, 1976).
+Osmol gap
+measured serum osmolality (mOsm)
+calculated serum osm
+=
+−
+olarity (mOsm)
+where calculated serum osmolarity = 2 × Na mEq/L + glucose 
+mg/dL/18 + BUN mg/dL/2.8
+Normal osmol gap < 10 mOsm
+Hours after Ingestion
+2
+1000
+500
+400
+300
+200
+100
+50
+10
+5
+1
+4
+8
+12
+16
+20
+24
+No hepatic toxicity
+Probable hepatic toxicity
+Acetaminophen (µg/mL plasma)
+Semilogarithmic plot
+of plasma acetaminophen levels vs time
+Figure 33-1.  Rumack–Matthew nomogram for acetaminophen poisoning. 
+(From Rumack and Matthew [1975], with permission. Copyright American 
+Academy of Pediatrics [1975].)
+
+Clinical Toxicology
+Chapter 33
+1537
+Note that the serum osmolality must be measured by freez-
+ing point depression and not boiling point elevation as the latter 
+method can fail to detect the osmolality contribution of volatile, 
+low-molecular-weight substances due to vaporization of the sub-
+stance during measurement.
+An elevated osmol gap in the setting of a poisoned patient sug-
+gests the presence of an osmotically active substance in the plasma 
+that is not accounted for by the Na, glucose, or BUN concentrations. 
+Table 33-5 lists several substances that when ingested can be associ-
+ated with an elevated osmol gap in humans.
+Although calculation of both the AG and the osmol gap can 
+provide very useful information from readily available clinical 
+chemistry measurements, these determinations must be interpreted 
+cautiously in certain clinical settings. For example, even though 
+a patient may have ingested a large, significantly toxic amount of 
+methanol, if measured late in the clinical course of the exposure, 
+the osmol gap may not be significantly elevated as most of the 
+osmotically active methanol has left the plasma and has been bio-
+transformed or cleared but is still producing serious clinical effects.
+Radiographic Examination
+The utility of the plain x-ray radiographic examination to diag-
+nose specific poisonings is relatively limited. This is due primar-
+ily to the lack of radiopacity of many oral forms of medication. 
+Sometimes orally ingested toxicants can be visualized radiographi-
+cally, depending on the specific substance ingested. Early radio-
+graphic surveys of the radiopacity of oral medications revealed that 
+the vast majority of commercially available tablets and capsules 
+surveyed were essentially undetectable by a radiograph (Handy, 
+1971; O’Brien et al., 1986). These and other studies have shown 
+that relatively few formulations of drugs are radiopaque and would 
+likely be detectable by plain x-ray of the abdomen. Generally, plain 
+radiographs can detect a significant amount of ingested oral medi-
+cation containing ferrous or potassium salts. However, a study of 
+the in vitro and in vivo visualization of chewable oral formula-
+tions of iron supplements showed that once the chewable iron was 
+ingested, it was no longer detectable by plain abdominal radiograph 
+(Everson et al., 1989). However, certain formulations that have an 
+enteric coating or certain types of sustained release products are 
+radiopaque and can be visualized (Savitt et al., 1987; Nelson et al., 
+1993).
+The most useful radiographs ordered during the initial man-
+agement of the poisoned patient include the chest and abdominal 
+radiographs and the computed head tomography study. For example, 
+the abdominal radiograph has been used to detect recent lead paint 
+ingestion in children due to pica for many years. Although the pres-
+ence of radiographic evidence of lead-based paint chips probably 
+underrepresented the proportion of children with moderate-to-severe 
+lead poisoning in one study, an abdominal radiograph showing pica 
+was associated with significantly elevated blood lead concentrations 
+(McElvaine et al., 1992). Another situation in which an abdominal 
+radiograph may be helpful is the setting of the ingestion of a halo-
+genated hydrocarbon such as carbon tetrachloride or chloroform. 
+If a sufficient amount of either liquid is ingested, it is likely that 
+these organic solvents will be visualized as a radiopaque liquid in the 
+gut lumen on the abdominal film relatively recently after ingestion 
+(Dally et al., 1987). Finally, abdominal plain radiographs have been 
+helpful in the setting where foreign bodies are detected in the gas-
+trointestinal tract. The most common example of this is found when 
+a toddler is being evaluated for potential oral ingestion of a foreign 
+body, such as a watch battery. Early detection by plain radiograph 
+is essential to localize the battery to determine which interventional 
+approach is recommended (Kramer et al., 2015). Another example of 
+an important use of radiography in the acute management of the poi-
+soned patient is during the evaluation of an international traveler to 
+the United States who becomes acutely ill with signs of severe sym-
+pathomimetic excess and numerous foreign bodies are visualized 
+throughout the gastrointestinal tract. This type of patient is referred 
+to as a body packer who smuggles illegal substances, such as cocaine 
+(as in this case) or heroin, by swallowing latex or plastic storage ves-
+icles filled with the substance (McCarron and Wood, 1983; Beerman 
+et al., 1986; Sporer and Firestone, 1997). Occasionally, these storage 
+devices rupture and the drug is released into the gastrointestinal tract 
+with serious and sometimes fatal results. Aside from these relatively 
+uncommon situations, the overall clinical utility for detection and 
+diagnosis of poisons by radiography is limited.
+In contrast to the limited clinical utility of plain radiography 
+for the identification of a specific poison or to diagnose poisoning, 
+plain radiography and other types of diagnostic imaging in clinical 
+toxicology can be extremely valuable for the diagnosis of toxicant-
+induced pathology and to aid the clinical toxicologist in the ongo-
+ing treatment and patient-management phases of the drug overdose. 
+Detection of drug-induced noncardiac pulmonary edema as seen in 
+some cases of serious intoxication with salicylates and opioid ago-
+nists is an example of this occurrence (Stern et al., 1968; Heffner 
+et al., 1990). Plain chest radiography can detect this abnormality, 
+which would likely correlate with the findings observed during 
+physical examination of the lungs. This radiographic finding would 
+increase the severity stratification of the poisoning case and likely 
+alter the planned therapeutic strategy for the patient.
+Another example of the use of radiological imaging in clini-
+cal toxicology is with computed tomography (CT) of the brain. 
+Significant exposure to carbon monoxide (CO) has been associated 
+with focal CT lesions of the brain consisting of low-density areas, 
+Table 33-4 
+Differential Diagnosis of Metabolic Acidosis with 
+Elevated Anion Gap: “AT MUD PILES”
+A
+Alcohol (ethanol ketoacidosis)
+T
+Toluene
+M
+Methanol
+U
+Uremia
+D
+Diabetic ketoacidosis
+P
+Paraldehyde
+I
+Iron, isoniazid
+L
+Lactic acid
+E
+Ethylene glycol
+S
+Salicylate
+Table 33-5 
+Differential Diagnosis of Elevated Osmol Gap
+Methanol
+Ethanol
+Ethylene glycol
+Isopropanol
+Dimethyl sulfoxide (DMSO)
+Mannitol
+Propylene glycol
+
+1538
+Applications of Toxicology
+Unit VII
+also referred to as lucencies in the cerebral white matter and in the 
+basal ganglia, especially the globus pallidus. This finding is not spe-
+cific for CO poisoning and may be seen with other intoxications and 
+disease conditions that cause relative hypoxemia or hypoglycemia. 
+In the setting of CO intoxication however, these CT findings in the 
+brain can be useful for estimating the prognosis for a patient who 
+survives the initial phase of CO poisoning (Miura et al., 1985; Jones 
+et al., 1994). Similar correlations have been shown with magnetic 
+resonance imaging (MRI). Finally, concurrent intracranial pathol-
+ogy, such as trauma or hemorrhage, can be detected by CT or MRI 
+of the brain to aid in the diagnosis of additional injury or pathology 
+previously not appreciated during the early phases of treatment of 
+the poisoned patient.
+The initial clinical evaluation of the poisoned patient is a criti-
+cally important phase of the therapeutic process to treat poisoned 
+individuals. The physical, laboratory, and radiological examination 
+all contribute to the initial diagnostic steps for poison treatment. 
+The physical and laboratory examinations are generally utilized 
+more from a diagnostic and acute management standpoint, whereas 
+the radiological examination, with the exception of visualization of 
+foreign bodies or radiopaque toxicants, tends to be more useful for 
+detection and management of toxicant-induced pathology.
+Prevention of Further Poison Absorption
+During the early phases of treatment of a poisoned patient who has 
+had a toxic exposure via the oral, inhalation, or the topical route, the 
+opportunity to prevent further absorption of the poison to minimize 
+the total amount of chemical that reaches the systemic circulation 
+may be possible. For chemicals presented by the inhalation route, 
+the main intervention to prevent further absorption is removal of the 
+patient from the environment where the toxicant is found and to pro-
+vide adequate ventilation and ensure oxygenation for the patient. For 
+topical exposures, patient clothing containing the chemical must be 
+removed and properly disposed in airtight wrappings or containers 
+to ensure that the rescuers and healthcare providers are adequately 
+protected from secondary exposure. Most topical exposures require 
+gentle washing of the skin with water and mild soap taking care not 
+to cause cutaneous abrasions of the skin that may enhance dermal 
+absorption (Burgess et al., 1999; Braue et al., 2008).
+The optimal time to intervene to prevent continued absorption 
+of an oral poison is as soon as possible after the ingestion. Four 
+primary methods are currently available for this purpose: induction 
+of emesis with syrup of ipecac, gastric lavage, oral administration of 
+activated charcoal, and whole-bowel irrigation. Historically, induc-
+tion of emesis was accomplished by a variety of concoctions such 
+as tartar emetic, an antimony salt, mustard mixed in water, concen-
+trated solutions of copper and zinc salts, and various botanical sub-
+stances. In hospitals, apomorphine injection was given even in the 
+1980s to cause emesis in patients with a history of potentially toxic 
+ingestion. Since the 1980s, the primary agent used to induce emesis 
+to treat an oral ingestion of a potential toxicant is syrup of ipecac. 
+This product is available as an over-the-counter (OTC) emetic in 
+the United States since 1965 and, although a mainstay for poison 
+center-directed induction of emesis for decades, today the agent is 
+rarely used to treat poisonings. The reason for the decline in use is 
+primarily the recognition of the overall low, and highly variable, 
+effectiveness for syrup of ipecac as an agent for gastric decontami-
+nation (Auerbach et al., 1986). In addition, reports of the potential 
+adverse effects associated with ipecac use gained wider recognition, 
+especially in terms of the risk for aspiration of gastric contents. 
+Additionally, there were data to suggest that the administration 
+of syrup of ipecac could result in a delay in the administration of 
+activated charcoal, thought to be a more effective agent for pre-
+vention of oral absorption of toxicants, as discussed below. The 
+American Academy of Clinical Toxicology and the European 
+Association of Poisons Centres and Clinical Toxicologists issued 
+a position paper regarding the use of syrup of ipecac (Krenzelok 
+et al., 1997) followed by an additional, similar consensus publica-
+tion in 2004 (Krenzelok et al., 2004), which stated that the syrup 
+of ipecac should not be used routinely in the management of the 
+poisoned patient and that there was insufficient data to either sup-
+port or exclude ipecac administration soon after poison ingestion. 
+Many clinical toxicologists believe that there remains a limited role 
+for the clinical use of syrup of ipecac, mainly in rural areas where 
+the length of time before a poisoned patient can reach medical care 
+is significant, especially when the substance ingested is poorly 
+adsorbed to activated charcoal, as discussed below. Examples of 
+substances poorly absorbable to activated charcoal include etha-
+nol and other alcohols, ethylene glycol, potassium, mineral acids, 
+iron and other metals (variable), and halides such as fluoride. The 
+accepted contraindications for use of syrup of ipecac are (1) chil-
+dren less than 6 months of age; (2) in the ingestion of a caustic agent 
+(acid or alkali); (3) in a patient with a depressed level of conscious-
+ness or gag reflex or when the toxicant ingested is expected to cause 
+either condition within a short period of time; or (4) when there is a 
+significant risk of aspiration of gastric contents such as for ingestion 
+of a liquid hydrocarbon with high aspiration potential.
+The use of gastric lavage, the technique of placing an oro-
+gastric tube into the stomach and aspirating fluid then cyclically 
+instilling fluid and aspirating until the effluent is clear, has also 
+diminished in recent years. The reasons for the decline in the use of 
+this technique include a growing appreciation of the risk of aspira-
+tion during the lavage procedure and evolving evidence that the 
+overall clinical effectiveness of gastric lavage may be more lim-
+ited than originally thought. Like induction of emesis, where the 
+efficacy of the procedure declines with increasing time interval 
+between the use of the procedure and the time of ingestion, gastric 
+lavage too appears to have this important limitation (Vale and Kulig, 
+2004). Many toxicologists agree that if gastric lavage is to be used, 
+to optimize effectiveness, it should be performed within 1 hour of 
+ingestion of the oral poison. It is more likely to be recommended 
+if the patient ingested a highly toxic substance, especially in the 
+cases where it is likely that activated charcoal will not be effective 
+for the substance ingested. Careful attention to the patient’s gag 
+reflex prior to initiation of this procedure is important. If the patient 
+does not exhibit a gag reflex, then endotracheal intubation must be 
+performed to adequately protect the airway and prevent aspiration. 
+It is essential that the orogastric tube be of sufficient size (36 to 40 
+French for an adult; 22 to 28 French for a child) to be useful. Even 
+with a large bore orogastric tube some tablets or capsules may not 
+be able to pass through the tube. In the pediatric patient, there are 
+practical limitations to the use of large bore tubes. In this case, 
+­orogastric lavage may only be useful to attempt removal of liquid 
+toxicant or possibly dissolved tablets or capsules.
+As described earlier, the medicinal use of charcoal to prevent 
+the absorption of orally ingested toxins dates back more than 150 
+years. The first reported medicinal use of oral charcoal to adsorb an 
+ingested toxicant is credited to the American physician, Hort, who, 
+in 1834, used large amounts of powdered charcoal to successfully 
+treat a patient poisoned with a chloride salt of mercury. A dramatic 
+demonstration of the adsorptive effect of oral charcoal was that by 
+Tourey, a French pharmacist who reportedly mixed a lethal dose 
+of strychnine with charcoal and consumed the combination before
+
+Clinical Toxicology
+Chapter 33
+1539
+his colleagues at the French Academy in 1930 (Andersen, 1946). 
+Early in vitro investigations of the adsorptive properties of activated 
+charcoal demonstrated the effect of charcoal on various chemical 
+substances in aqueous solutions (Andersen, 1946), the effect of pH 
+on charcoal adsorption properties (Andersen, 1947), and the effect 
+of activated charcoal on the adsorption of strychnine from gastric 
+contents (Andersen, 1948).
+During the last two to three decades, there has been an increas-
+ing use of oral charcoal as a therapeutic intervention for oral poison-
+ing. For many years, orally administered activated charcoal has been 
+routinely incorporated into the initial treatment of a patient poi-
+soned by the oral route. The term “activated” refers to the substan-
+tially increased adsorptive capacity that results from the processing 
+of charcoal obtained from the burning of carbonaceous substances 
+such as wood pulp, sugars, organic material, and industrial wastes. 
+The processing involves extensive treatment with steam, carbon 
+dioxide, oxygen, zinc chloride, sulfuric acid, or phosphoric acid 
+at temperatures of 500°F to 900°F to “activate” the residue oxida-
+tion, which leads to a significant increase in surface area through 
+creation of small pores in the material. Many organic molecules are 
+significantly bound to activated charcoal. Generally, low-molecular-
+weight and polar compounds such as ethanol tend to be less well 
+bound to activated charcoal. Substances such as lithium, iron, and 
+certain inorganic salts are also not appreciably bound.
+In acute oral overdose, activated charcoal is typically admin-
+istered at a dosage of 1.0 to 1.5 g/kg. When the patient is unable to 
+safely drink, the charcoal is placed into the stomach via an orogas-
+tric or nasogastric tube. Proper use of activated charcoal to prevent 
+the absorption of orally administered toxicants requires that the 
+patient’s gag reflex be intact and expected to remain so in order 
+to minimize the risk for aspiration of the administered charcoal. 
+Once a recommendation to use a single dose of activated charcoal 
+routinely for oral poisonings, now many are more cautious regard-
+ing the use of this moiety for decontamination (Chyka et al., 2005). 
+The main reason cited for the reluctance is lack of definitive evi-
+dence of improvement in patient clinical outcomes. Given the 
+obvious limitations to conduct adequately statistically powered, 
+randomized, controlled clinical trials, many toxicologists are more 
+inclined to utilize this method for potentially serious ingestions with 
+appropriate clinical caution (Juurlink, 2016).
+The incorporation of the procedure of whole bowel irrigation 
+for the treatment of the poisoned patient has gained acceptance in 
+specific poisoning situations. Whole bowel irrigation is a procedure 
+that cleanses the lumen of the gastrointestinal tract. The procedure 
+is accomplished with a poorly absorbed, osmotically neutral poly-
+ethylene glycol electrolyte solution that is administered orally to 
+expel the contents of the intestines via the rectal route. This proce-
+dure is similar to that used to prepare a patient for endoscopic medi-
+cal procedures of the large intestine. A unique use of this procedure 
+in the setting of poisoning is for removal of ingested packets of 
+illegal drugs swallowed by people smuggling the material and hop-
+ing to avoid detection by concealing the drugs in their intestines. 
+Sometimes, the containers carried by body packers may leak and 
+begin to cause symptoms that often lead the carrier to detection and 
+treatment. Additional uses for this gastrointestinal decontamination 
+technique are to prevent the ongoing absorption of sustained release 
+formulations of drugs and for the early treatment of ingestions of 
+substantial amounts of iron preparations or other orally ingested 
+metallic poisons (Tenebein et al., 2004).
+In summary, many clinical toxicologists agree that, for the 
+prevention of further absorption following oral ingestion of most 
+chemicals, the administration of oral activated charcoal provides 
+an opportunity to lessen the systemic exposure of orally ingested 
+toxicants that are likely to bind to charcoal, and if given in a timely 
+fashion with appropriate clinical airway precautions. The other 
+modalities described above have either a more limited role (whole 
+bowel irrigation and gastric lavage) or a very rare place in gas-
+tric decontamination (syrup of ipecac) for use in the treatment of 
+a poisoned patient. Most poison treatment centers favor the use of 
+activated charcoal without lavage for treatment of oral poisoning 
+and drug overdose. Many PCCs recommend home use of activated 
+charcoal for immediate treatment of potentially significant poison-
+ings. The use of ipecac syrup is largely limited to individual patients 
+in whom it is likely to make a difference in outcome, such as the 
+patients in rural environments, hours away from more definitive 
+medical treatment, in whom it appears to be the most effective 
+method available in that particular set of circumstances, or in whom 
+it is the only method available to attempt gastric emptying.
+Enhancement of Poison Elimination
+There are several methods available to enhance the elimination of 
+specific poisons or drugs once they have been absorbed into the 
+systemic circulation. The primary methods employed for this use 
+today include alkalinization of the urine, hemodialysis, hemoper-
+fusion, hemofiltration, plasma exchange or exchange transfusion, 
+and the administration of oral activated charcoal serially during the 
+treatment time course.
+The use of urinary alkalinization results in the enhancement 
+of the renal clearance of certain weak acids. The basic principle 
+applied is to increase urinary filtrate pH to a level sufficient to 
+ionize the weak acid and prevent renal tubule reabsorption of the 
+molecule. This is also referred to as ion trapping. The ion-trapping 
+phenomenon occurs when the pKa of the chemical is such that after 
+the chemical undergoes glomerular filtration into the renal tubules, 
+alteration of the pH of the urinary filtrate can ionize and “trap” the 
+chemical in the urinary filtrate, lessening the extent to which it is 
+reabsorbed. This increases the amount of toxicant that is eliminated 
+in the urine per unit time, which is an indicator of the renal clear-
+ance of the toxicant. A schematic representation of this is shown for 
+salicylate in Fig. 33-2.
+Clinical use of this alkalinization procedure requires adequate 
+urine flow and close clinical monitoring including that of the pH of 
+the urine. The procedure is accomplished by adding sterile sodium 
+bicarbonate to sterile water with 5% dextrose for intravenous (IV) 
+infusion and administering the mixture intravenously to titrate the 
+urine pH to 7.5 to 8.5. The drugs for which this procedure has been 
+shown clinically efficacious include salicylate compounds and phe-
+nobarbital that have pKas of 3.2 and 7.4, respectively. The increase 
+in total body clearance for salicylate, for example, by increasing 
+urinary pH from 5.0 to 8.0 can be substantial. The AAPCC and the 
+European Association of Poisons Centres and Clinical Toxicologists 
+2004 Position Paper on Urinary Alkalinization recommend this pro-
+cedure for moderately severe salicylate poisoning for a patient not 
+meeting criteria for hemodialysis (Proudfoot et al., 2004).
+Theoretically, there could be similar advantages to be gained 
+from acidification of the urine regarding enhancement of clearance 
+of drugs such as amphetamine and phencyclidine; however, there 
+are significant adverse events associated with acidification such as 
+acute renal failure and acidosis and electrolyte disturbances. For 
+this reason, acidification of the urine is not recommended as a thera-
+peutic intervention in the treatment of poisoning.
+The dialysis techniques, either hemodialysis, continuous 
+venous filtration, or peritoneal dialysis, rely on passage of the
+
+1540
+Applications of Toxicology
+Unit VII
+toxic chemical through a semipermeable dialysis membrane (or 
+the patient’s peritoneal membrane for peritoneal dialysis) so that 
+it can equilibrate with the dialysate and subsequently be removed. 
+Hemodialysis incorporates a blood pump to pass blood in close 
+proximity to a dialysis membrane to allow chemicals permeable 
+to the membrane to pass through and reach equilibrium. In order 
+for this method to be clinically beneficial, the chemical must have 
+a relatively low volume of distribution, low protein binding, a rela-
+tively high degree of water solubility, and low molecular weight. 
+Use of hemodialysis to attempt to remove a chemical with the latter 
+three characteristics but with a high volume of distribution, such as 
+digoxin, would not be clinically beneficial, because the vast major-
+ity of the drug is not in the physiological compartment (blood) 
+accessible to the dialysis membrane. Therefore, despite hemodialy-
+sis being able to effectively clear the digoxin in plasma during the 
+dialysis run, most of the body burden of digoxin is located outside 
+of the blood compartment and is not appreciably affected by the 
+procedure. Similarly, if a drug is highly protein-bound, only a small 
+percentage (the free fraction of the circulating toxicant) would be 
+available to pass through the dialysis membrane and be cleared 
+from the body. Some drugs, such as phenobarbital, can readily cross 
+these membranes and go from a high concentration in plasma to a 
+lower concentration in the dialysate. Phenobarbital has a relatively 
+low volume of distribution (0.5 to 0.7 L/kg) and protein binding is 
+also relatively low (30% to 50%), so the characteristics of the drug 
+and its pharmacokinetic properties create appropriate conditions for 
+the drug to be removed from the total body burden to make the 
+technique valuable in serious cases of overdose (Brown et al., 1985; 
+Cutler et al., 1987). Drugs and other chemicals for which hemodi-
+alysis has been shown to be clinically effective in the treatment of 
+poisoning by these agents is shown in Table 33-6.
+The technique of hemoperfusion is similar to hemodialysis 
+except that there is no dialysis membrane or dialysate involved 
+in the procedure. The patient’s blood is pumped through a perfu-
+sion cartridge where it is in direct contact with adsorptive mate-
+rial (usually activated charcoal) that has a coating of material such 
+as cellulose or a heparin-containing gel to prevent the adsorptive 
+material from being carried back to the patient’s circulation. The 
+principle characteristics for a drug or other chemical to be success-
+fully removed by this technique are low volume of distribution and 
+adsorption by activated charcoal. This method can be used success-
+fully with lipid-soluble compounds and with higher-molecular-
+weight compounds than for hemodialysis. Protein binding does not 
+significantly interfere with removal by hemoperfusion. Because of 
+the more direct contact of the patient’s blood with the adsorptive 
+material, the medical risks of this procedure include thrombocyto-
+penia, hypocalcemia, and leukopenia. This technique is primarily 
+used for the treatment of serious toxic exposures to theophylline, 
+colchicine, paraquat, meprobamate, and possibly amanita phalloi-
+des toxin exposure. The technique is not often employed and, per-
+haps for this reason, not all healthcare facilities actively stock the 
+specialized, sterile hemoperfusion cartridge required for the proce-
+dure. This limitation results in the procedure usually only available 
+at major, metropolitan treatment centers.
+The use of the technique of hemofiltration for the treatment of 
+poisoning has been suggested as an additional modality for enhance-
+ment of chemical elimination. During this procedure, the patient’s 
+blood is delivered through hollow fiber tubes and an ultrafiltrate of 
+plasma is removed by hydrostatic pressure from the blood side of 
+the membrane. Different membrane pore sizes are available for use 
+so the size of the filtered molecules can be controlled during the 
+Renal plasma
+Urinary ﬁltrate
+Filtration
+Reabsorption
+1
+pH 6.0
+300
+0.01
+pH 8.0
+300
+Bicarbonate effect
+Urinary alkalinization:  Salicylate excretion
+OH
+OH
+O
+OH
+O–
+O
+OH
+OH
+OH
+O–
+O
+O
+Figure 33-2.  Ion-trapping schematic for salicylate in the renal tubule.
+Table 33-6 
+Chemicals for Which Hemodialysis Has Been Shown 
+Effective as a Treatment Modality for Poisoning
+Alcohols
+Lithium
+Antibiotics
+Meprobamate
+Boric acid
+Metformin
+Bromide
+Methotrexate
+Caffeine
+Paraldehyde
+Calcium
+Phenobarbital
+Chloral hydrate
+Potassium
+Carbamazepine
+Salicylates
+Diethylene glycol
+Strychnine
+Fluorides
+Theophylline
+Iodides
+Thiocynates
+Isoniazid
+Valproic acid
+Isopropanol
+
+Clinical Toxicology
+Chapter 33
+1541
+procedure. The perfusion pressure for the technique is either gener-
+ated by the patient’s blood pressure (for arteriovenous hemofiltra-
+tion) or by a blood pump (for venovenous hemofiltration). Needed 
+fluid and electrolytes removed in the ultrafiltrate are replaced intra-
+venously with sterile solutions. The procedure has the advantage of 
+running continuously as opposed to the 4- to 6-hour limitation for a 
+hemodialysis treatment cycle. One potential advantage of continu-
+ous filtration versus intermittent hemodialysis is that the rebound 
+phenomenon does not occur with continuous filtration. Rebound 
+phenomenon is the observed sharp increase in plasma toxicant con-
+centration shortly after hemodialysis is terminated due to redistribu-
+tion of the toxicant from the nonvascular, tissue, compartment to the 
+vascular space. This rebound is commonly seen during hemodialysis 
+for lithium overdose (Bosinski et al., 1998). Thus far, clinical evi-
+dence to support continuous filtration for enhancing total body clear-
+ance of toxicants in poisoning cases is insufficient to encourage wide 
+usage of the procedure (Goodman and Goldfarb, 2006).
+The use of either plasma exchange or exchange transfu-
+sions has been relatively limited in the field of clinical toxicology. 
+Although the techniques afford the potential advantage of being 
+able to remove high-molecular-weight and/or plasma protein–
+bound toxicants, the clinical utility in poison treatment has been 
+limited. Plasma exchange or plasma pheresis involves removal of 
+plasma and replacement with frozen donor plasma, albumin, or both 
+with IV fluid. The risks and complications of this technique include 
+allergic-type reactions, infectious complications, and hypotension 
+(Mokrzycki and Kaplan, 1994). Exchange transfusion involves 
+replacement of a patient’s blood volume with donor blood. The use 
+of this technique in poison treatment is relatively uncommon and 
+mostly confined to the setting of inadvertent drug overdose in a 
+neonate or premature infant in the setting of a neonatal intensive 
+care unit.
+Serial oral administration of activated charcoal, also referred 
+to as multiple-dose activated charcoal (MDAC), has been shown 
+to increase the systemic clearance of various drug substances. The 
+mechanism for the observed increase in total body clearance asso-
+ciated with the use of repeated doses of oral charcoal is thought to 
+be translumenal efflux of drug from blood to the charcoal passing 
+through the gastrointestinal tract (Berg et al., 1982). In addition, 
+MDAC is thought to produce a further enhancement in clearance 
+by interrupting the enteroenteric–enterohepatic circulation of drugs 
+that undergo that pharmacological route of elimination and recircu-
+lation. After systemic absorption, a drug may reenter the gut lumen 
+by passive diffusion if the intraluminal drug concentration is lower 
+than that in blood. The rate of this passive diffusion depends on the 
+concentration gradient and the intestinal surface area, permeability, 
+and blood flow. The activated charcoal in the gut lumen serves as a 
+“sink” for toxicants. A concentration gradient is maintained and the 
+chemical passes continuously into the gut lumen, where it is adsorbed 
+to charcoal. The characteristics of chemicals that favor enhanced 
+elimination by MDAC include (1) significant enteroenteric– 
+enterohepatic circulation, including the formation of active recircu-
+lating metabolites, (2) prolonged plasma half-life after an overdose, 
+(3) small (<1.0 L/kg) volume of distribution, (4) limited (<60%) 
+plasma protein binding, (5) a pKa that maximizes transport of the 
+drug across cell membranes, (6) sustained-release/resin-form tab-
+lets and/or capsules, and (7) onset of organ failure (e.g., kidney) that 
+results in reduced capacity of the major route of elimination of the 
+toxicant (for renally excreted chemicals) so that MDAC may make 
+a considerable contribution to total body clearance.
+The technique involves continuing oral administration of acti-
+vated charcoal beyond the initial dosage (described above) every 2 
+to 4 hours with approximately one-half the initial dose, or 0.5 g/kg. 
+The charcoal is generally mixed as an aqueous slurry and a cathartic 
+substance is not incorporated due to the potential for electrolyte 
+abnormalities with repeated administration of cathartic agents. An 
+alternative technique for MDAC is to give the activated charcoal 
+via an orogastric tube or nasogastric tube a loading dose of 1.0 g/kg 
+of an aqueous slurry of activated charcoal, followed by a continu-
+ous infusion intragastrically of 0.2 g/kg/h. The duration of gastric 
+infusion depends on the clinical status of the patient and repeated 
+monitoring of plasma drug concentrations where indicated (Pollack 
+et al., 1981; Van de Graaff et al., 1982; Park et al., 1983, 1986; 
+Mofenson et al., 1985; Ohning et al., 1986; Ilkhanipour et al., 1992; 
+Goulbourne et al., 1994; Chyka, 1995; Weisman, 1998).
+Studies in animals and human volunteers have shown that 
+MDAC increases drug elimination significantly, but few prospective 
+randomized controlled clinical studies in poisoned patients have 
+been published, demonstrating a significant reduction in patient 
+morbidity or mortality when MDAC is employed. One study, how-
+ever, does provide a striking example of clinical benefit from the 
+use of MDAC (de Silva et al., 2003). The study showed that patients 
+who intentionally poisoned themselves with yellow oleander seeds 
+(a cardiac poison) and were randomized to MDAC (after all patients 
+received an adequate initial single dose of activated charcoal) had a 
+statistically improved outcome in both mortality and cardiac mor-
+bidity. The early use of MDAC is an attractive alternative to more 
+complex methods of enhancing toxicant elimination, such as hemo-
+dialysis and hemoperfusion, although only in a relatively small sub-
+set of patients. The decision to use MDAC depends on the clinical 
+situation, including the specific chemical involved, the presence of 
+contraindications (e.g., intestinal obstruction) to the use of MDAC, 
+and the likely effectiveness of alternative methods of therapy. A 
+list of chemicals for which MDAC has been shown as an effective 
+means of enhanced body clearance is provided in Table 33-7.
+Use of Antidotes in Poisoning
+A relatively small number of specific antidotes are available for 
+clinical use in the treatment of poisoning. There are several reasons 
+for the overall paucity of available specific antidotes for poisonings. 
+The two primary reasons are the practical difficulties in performing 
+clinical research in poisoned patients, and the relatively small finan-
+cial incentives for commercial development of poisoning antidotes. 
+Shortly after the terrorist attack on the United States in 2001, the 
+federal government put in place an FDA authorization to stimulate 
+innovative development of therapeutic agents to treat chemical, bio-
+logic, and radioactive attacks. In 2002, the FDA enacted the Animal 
+Efficacy Rule (Animal Rule), a regulation that allows sponsors to 
+attain FDA approval of some products based on safety testing in 
+humans and efficacy testing only in animals (Gaffney, 2015). This 
+rule is intended to allow FDA to approve products intended to treat 
+serious or life-threatening conditions caused by exposure to lethal 
+or permanently disabling toxic biological, chemical, radiological, or 
+Table 33-7  
+Drugs for Which Multiple Dose Activated Charcoal 
+Has Been Shown Effective as a Treatment Modality 
+for Poisoning
+Carbamazepine
+Nadolol
+Dapsone
+Phenobarbital
+Digoxin
+Salicylates
+Digitoxin
+Theophylline
+
+1542
+Applications of Toxicology
+Unit VII
+nuclear substances for the indications of treatment of chemical, bio-
+logic, or radiologic mass poisonings, such as could be expected in a 
+terrorist attack. For obvious reasons, testing of therapeutic agents for 
+efficacy would not be possible for ethical and/or logistical reasons. 
+The Animal Rule allows the sponsor to establish product efficacy 
+in a validated animal model and then provide preapproval human 
+safety data, in healthy human volunteers. The human safety data 
+would involve administration of therapeutic dosages of the chem/
+bio/rad treatment agent in the absence of the poisoning. The phar-
+maceutical company-sponsor would also be expected to perform a 
+field study post-approval, in the event that the indicated exposure 
+occurs naturally for infectious outbreaks or during an attack.
+In addition to the Animal Rule Act, the FDA has in place, since 
+1983, the Orphan Drug Act that provides financial incentives to com-
+panies who develop therapies for treatment of rare diseases, defined 
+as affecting less than 200,000 persons in the United States (Orphan 
+Drug Act, 2013). Several treatments for poisoning have been 
+approved under the orphan regulations. Fomepizole (4-methylpyr-
+azole), a chemical inhibitor of alcohol dehydrogenase, was approved 
+as an antidote for ethylene glycol (and later methanol) poisoning 
+via the Orphan Drug pathway in December 1997. Two chelating 
+agents, insoluble Prussian blue and Pentetate Calcium Trisodium, 
+were approved in 2003 and 2004, respectively, for the treatment of 
+exposure to radioactive heavy metals. Another Orphan Drug Act 
+approval was hydroxocobalamin, a cyanide chelating agent. This 
+chemical was approved in the United States in December 2006 after 
+being approved in Europe many years earlier. Despite these early 
+successes, there have not been a large number of antidote products 
+approved to this point in time as a result of this regulatory incentive.
+The mechanism of action of various antidotes is quite differ-
+ent. For example, a chelating agent for heavy metal poisoning or 
+Fab fragments specific to digoxin or crotalid venom work by physi-
+cally binding the toxicant, preventing the chemical from exerting 
+a deleterious effect in vivo and, in some cases, facilitating body 
+clearance of the chemical. In essence, the Fab fragments serve as 
+biologically derived chelating agents to bind and render the spe-
+cific chemical inactive. Other antidotes pharmacologically antago-
+nize the effects of the toxicant at the endogenous receptor level. 
+Such is the case with atropine, an antimuscarinic, anticholinergic 
+drug used to pharmacologically antagonize at the receptor level, 
+the effects of organophosphate insecticides or acetylcholinester-
+ase-inhibiting nerve gases, which produce cholinergic, muscarinic 
+effects, which if sufficient, can be lethal. Certain chemicals exert 
+their antidote effects by chemically reacting with biological systems 
+to increase the detoxifying capacity for the toxicant. For example, 
+sodium nitrite is given to patients poisoned with cyanide to cause 
+formation of methemoglobin, which serves as an alternative bind-
+ing site for the cyanide ion, thereby making it less toxic to vital 
+body systems. Other chemicals, such as l-carnitine, are available to 
+mitigate the biochemical toxicity of high exposures to valproic acid 
+(an antiseizure medication) at the level of the mitochondria. Just as 
+in other therapeutic areas of drug development, basic research into 
+fundamental mechanisms can reveal viable drug targets that can be 
+exploited to produce a point of intervention for a drug/antidote to 
+lessen the effects of a toxic exposure.
+An example of an efficacious antidote with an uncertain mech-
+anism is intravenous lipid emulsion (ILE) therapy. ILE as a product 
+has been in clinical use for decades as a nutritional supplement for 
+seriously ill patients who were not able to receive nutrition via their 
+gastrointestinal tract. As an antidote, the 20% lipid emulsion solu-
+tion is most often employed. The discovery of the beneficial effects 
+of ILE comes from the anesthesiology community, through initial 
+basic science work and then experimental clinical use in potentially 
+fatal human accidental exposures. Briefly, the use of regional nerve 
+block local anesthesia has been longstanding. A significant and 
+potentially fatal adverse consequence of this procedure was inad-
+vertent IV injection of a local anesthetic (LA) drug that results in 
+high, likely cardiotoxic concentrations of the LA in the systemic 
+circulation. There were no effective treatments readily available to 
+prevent this toxicity once the misdirected injection had occurred. 
+Because LA drugs are generally highly lipophilic, the anesthesiolo-
+gists experimented with the immediate use of ILE in animal models 
+and found a beneficial effect on survival (Weinberg et al., 1998). 
+Subsequently, beneficial effects in patients having nerve block pro-
+cedures, who experienced inadvertent IV administration of the anes-
+thetic drugs, were published as case reports (Rosenblatt et al., 2006).
+The current understanding of the mechanism of action is that 
+the ILE serves as a lipid sink in the blood compartment, partitioning 
+the LA predominantly into the lipid phase in blood (ILE), reduc-
+ing the relative concentration of the cardiotoxic LA in the aqueous 
+phase of the blood. This partitioning then decreases the fraction of 
+the LA that is then available to penetrate target organ tissue and 
+exert a deleterious effect. Other mechanisms proposed as either 
+primary or contributory to the beneficial effect of ILE on LA toxic-
+ity include enhancement of cardiac metabolism, that is, fatty acids 
+from the ILE provide an energy source to cardiac myocytes; another 
+possible mechanism is that ILE activates cardiac Ca and Na chan-
+nels. While there is some evidence to support the energy enhance-
+ment and ion channel mechanisms, the partitioning mechanism at 
+this point in time is more strongly supported.
+The use of ILE therapy is recommended for treatment of sig-
+nificant systemic toxicity of LAs, including cardiac arrest from 
+inadvertent IV administration of the LA. ILE use for the treatment 
+of non-LA poisoning by lipophilic toxicants is not well supported 
+by evidence (Cao et al., 2015; Levine et al., 2016). Despite the lack 
+of evidence to support the use of ILE non-LA poisonings, many 
+clinical toxicologists will recommend a therapeutic trial of this 
+treatment in the setting of serious cardiovascular effects from lipo-
+philic toxicants such as a calcium channel blocker or beta-blocker 
+not responsive to first or second line treatments. More research is 
+needed to fully understand the optimum use of ILE outside of intra-
+venous poisoning with LA agents.
+The time course for antidote onset of action is highly variable 
+across currently available antidotes. Naloxone, given intravenously 
+(IV), can have a dramatic effect on the level of consciousness of an 
+opiate-poisoned patient within minutes of administration. Chelating 
+agents such as desferoxamine may require multiple dosages over 
+many days before a clinically detectable effect is seen.
+The skillful therapeutic use of antidotes is essential to opti-
+mize the treatment of the poisoned patient. Many antidotes have a 
+relatively narrow safety margin or low therapeutic index. Excessive 
+dosing with an antidote can in some instances be more harmful 
+than the expected effects of the toxicant itself. An example of this 
+is when physostigmine (a cholinergic agent) is given at an excessive 
+dose or dosing rate to a patient with mild-to-moderate anticholiner-
+gic poisoning, the antidote can cause a potentially fatal bradycardia 
+that can progress to a fatal cardiac arrest. Some antidotes require an 
+adjustment of their dosage based on a measured blood concentra-
+tion of the chemical (e.g., digoxin Fab fragments), or based on the 
+clinical assessment of the patient such as with sodium bicarbonate 
+usage in a tricyclic antidepressant overdose. A significant part of 
+the clinical training in the field of medical toxicology is devoted to 
+learning how to use antidotes skillfully.
+An important area of research in clinical toxicology has been 
+in the study of prognostic indicators of poisoning severity and pre-
+dictors for the level of treatment required. For practical reasons
+
+Clinical Toxicology
+Chapter 33
+1543
+much of this work has been retrospective in nature but has resulted 
+in significant aids to guide the treatment rendered by clinical toxi-
+cologists. Several authors have proposed “action levels” that are a 
+threshold for a certain level of clinical intervention based upon a 
+measured plasma concentration of the chemical or a clinical mani-
+festation of the poisoning. One of the best examples of a quanti-
+tative relationship between plasma concentrations and prognostic 
+stratification is the previously mentioned nomogram used for acet-
+aminophen concentration and risk of hepatotoxicity (Rumack et al., 
+1981). As discussed below as a case example, this retrospective 
+analysis of 662 patients with excess acetaminophen exposure was 
+the basis of a nomogram to aid in the risk stratification for signifi-
+cant hepatic toxicity that is still in use today. Similarly, a patient 
+with a measured plasma valproic acid concentration of 900 mcg/mL 
+after a single oral exposure would be expected to exhibit signifi-
+cant toxicity. If the patient’s clinical condition correlated with the 
+measured laboratory plasma concentration (i.e., laboratory error 
+was unlikely), the patient would likely require aggressive treatment 
+measures such as hemodialysis instead of only supportive care. Use 
+of a patient-derived prognostic indicator that correlates with clinical 
+outcome can also involve electrocardiographic measurements. An 
+example of this is the case series study considering the publication 
+that described the relationship of the QRS interval on the patient’s 
+12-lead electrocardiogram (ECG) and the severity of poisoning by 
+tricyclic antidepressant drugs (Boehnert and Lovejoy, 1985). This 
+important observational study helped to stratify patients poisoned 
+with an overdose of first-generation tricyclic antidepressants into 
+risk categories based on the drug-induced, lengthening of the QRS 
+on the patient’s ECG to predict the eventual development of sei-
+zures or cardiac arrhythmias in the course of the poisoning. This, 
+like the Rumack–Matthew nomogram for acetaminophen, is still 
+clinically useful more than 30 years after publication.
+Another way that prognostic information is studied is when a 
+constellation of clinical signs and symptoms is proven to correlate 
+with a clinical outcome following exposure to a specific poison. An 
+example of this would be a worker with a significant topical methanol 
+exposure who demonstrates a metabolic acidosis with an elevated 
+AG, an osmol gap, and visual symptoms. Based on clinical signs 
+and symptoms, this patient would likely undergo hemodialysis even 
+in the absence of a confirmatory measurement of the methanol con-
+centration in serum. These relationships, the correlation of serious 
+clinical effects with a valproic acid level above 900 mcg/mL or visual 
+symptoms in a methanol-poisoned patient (Ellenhorn, 1997a, 1997b), 
+have been derived from many years of observational study of poison-
+ing outcomes by investigators in the field of clinical toxicology.
+Early on in clinical toxicology, the majority of publications 
+were primarily case reports making it difficult to determine the 
+relative effectiveness of various treatments being assessed. There 
+were also significant discrepancies in the initial management of 
+the patients confounding the ultimate outcomes of the cases. The 
+case series or meta-analysis type of scientific analysis was a helpful 
+step to advance the study of clinical outcomes and assess the qual-
+ity of treatment provided to poisoned patients. The highest level 
+of evidence for establishing efficacy and safety for therapeutic 
+interventions is the prospective, double blinded, controlled, clini-
+cal trial. Whenever possible to successfully execute, these clinical 
+investigations are most likely to result in objective data with the 
+least confounding of results if properly conducted. These advan-
+tages better enable clinicians to validate (or dismiss) new therapeu-
+tic modalities and treatment strategies. Unfortunately, the ability to 
+perform these trials in the evaluation of new treatments for poison-
+ing is significantly limited due to ethical concerns when considering 
+withholding effective treatment (placebo treatment), or the ability 
+to effectively blind treatment groups in the poison treatment setting. 
+In addition, the heterogeneity between individual poisoning cases 
+would likely introduce potential unbalanced, confounding factors 
+into the study that could lead to inaccurate results.
+Supportive Care of the Poisoned Patient
+Once the initial treatment phase in the clinical management of the poi-
+soned patient has been successfully completed, the care of the patient 
+is generally shifted to an inpatient hospital setting for those patients 
+who will require admission. This supportive care phase of poison 
+treatment is very important. Poisoned patients who are unstable or at 
+risk for significant clinical instability during the later phases of their 
+poisoning are generally admitted to a critical care unit for close moni-
+toring. In addition, patients who are excessively sedated from their 
+poisoning or those who require mechanical ventilation or invasive 
+hemodynamic monitoring are also candidates for an intensive care 
+stay. Not only are there certain poisonings that have delayed toxic-
+ity such as acetaminophen, paraquat, and diphenoxylate, but there 
+are also toxicants that exhibit multiple phases of toxicity that include 
+delayed effects (i.e., ethylene glycol, salicylate, and buspirone).
+Similar to other seriously ill, hospitalized patients, patients 
+admitted for continued treatment of poisoning are at risk for nos-
+ocomial infections, iatrogenic fluid and electrolyte disturbances, 
+as well as potential harmful effects from the initial therapies that 
+they received for treatment of their poisoning. For example, gastric 
+lavage, or orogastric infusion of activated charcoal can cause aspira-
+tion and lead to pneumonitis. Any drug that severely alters a patient’s 
+mental status causing obtundation can allow aspiration of gastric 
+contents associated with a loss of the gag reflex. Organ system dys-
+function due to profound hypotension caused by a poisoning can 
+result in delayed complications such as acute renal failure, hepatic 
+failure, and permanent brain damage. Close clinical monitoring can 
+detect later phase poisoning complications and allow an opportunity 
+for prompt medical intervention to minimize patient morbidity and 
+mortality. These are but a few of the reasons that close vigilance is a 
+very important component of the support phase of poison treatment.
+Another important component of the supportive care phase of 
+poison treatment is the psychiatric assessment. For intentional self-
+poisonings, a formal psychiatric evaluation of the patient should be 
+performed prior to patient discharge. In many cases, it is not pos-
+sible to perform a psychiatric interview of the patient during the early 
+phases of treatment and evaluation. Once the patient has been stabi-
+lized and is able to effectively communicate, the psychiatric evalua-
+tion should be obtained prior to determining the patient’s disposition. 
+Generally, a patient who has attempted suicide should be constantly 
+observed until they have been evaluated by the psychiatric consultant 
+and judged to be at low risk for being without constant surveillance.
+CASE EXAMPLES OF  
+SPECIFIC POISONINGS
+Acetaminophen
+A 16-year-old female patient arrives in the ED by ambulance after 
+being found by a parent in what appeared to be an intoxicated state 
+with empty pill bottles scattered about her room. The parent reports 
+the patient was despondent recently after breaking up with her boy-
+friend. The patient is tearful and reports abdominal pain and admits 
+to drinking alcohol and taking over-the-counter (OTC) pills in an 
+apparent suicide attempt. The estimated time of ingestion is 6 hours 
+prior to arrival in the ED. The patient does not use prescriptions, 
+OTC medications, or dietary supplements on a regular basis and
+
+1544
+Applications of Toxicology
+Unit VII
+is not known to have a history of regular consumption of alcoholic 
+beverages or use illicit drugs. In addition, the patient did not have a 
+history of psychiatric disorders or previous suicide attempt.
+On physical examination the vital signs were blood pressure 
+118/80 mm Hg, pulse 88/min and regular, respiratory rate 18/min, 
+and temperature 37.0°C. She was awake and oriented to person, 
+place and time, responded to questions appropriately with slightly 
+slurred speech. Other pertinent findings included normal bowel 
+sounds with mild epigastric tenderness. The neurological examina-
+tion was only significant for slightly slurred speech.
+Routine clinical laboratory studies were ordered STAT (elec-
+trolytes, creatinine, BUN, glucose, complete blood count with dif-
+ferential, coagulation studies, urine analysis, and urine toxicology 
+screen) an ethanol level, salicylate level and a plasma acetamino-
+phen level. Chest and abdominal radiography were normal.
+The patient was given 1.5 g/kg oral activated charcoal as a slurry 
+in a sorbitol cathartic and placed in the intensive monitoring section 
+of the ED while the laboratory tests were being performed. Forty 
+minutes later, the laboratory results returned and showed a mildly 
+increased white blood cell count, liver transaminase values were 
+elevated at approximately three times the upper limit of normal, and 
+an acetaminophen concentration was 308 μg/mL. Salicylate was not 
+detected; ethanol level was 89 mg/dL (just above the legal threshold 
+for driving while intoxicated in most states). She denied taking any 
+other medications with the acetaminophen and alcohol. Based on the 
+Rumack–Matthew nomogram (Fig. 33-1), a plasma acetaminophen 
+concentration of 308 μg/mL at approximately 6 hours after ingestion 
+is well within the “probable hepatic toxicity” range, and therefore 
+treatment with N-acetylcysteine (NAC) was required.
+The patient received the first dose of IV NAC in the ED 
+and was admitted to the medical ward to complete the treatment 
+course of IV NAC. Hepatic transaminases remained elevated over 
+the ensuing 2 days of the hospitalization, peaking at five times the 
+upper limit of normal. The patient’s bilirubin remained within 
+the normal range as did indices of synthetic hepatic function 
+(coagulation pathway measurements). The patient was seen by 
+the Psychiatry Consultation service, which determined she was 
+not actively suicidal; she was discharged from the hospital 2 days 
+after admission with scheduled psychiatric and medical follow-up 
+appointments.
+Acetaminophen has been used as an analgesic and antipyretic 
+since the mid-1950s and has become more prominently recognized 
+as a potential hepatotoxicant in the overdose situation since the 
+original British reports in the late 1960s (Proudfoot and Wright, 
+1970). Work on the mechanisms of the liver toxicity of this drug 
+has provided a scientific basis for therapy (Mitchell et al., 1973).
+The clinical presentation of patients poisoned with acetamino-
+phen is sufficiently confusing in some cases; it is difficult to esti-
+mate the time of ingestion. Due to the paucity of clinical symptoms 
+with acute overdose, waiting for the appearance of symptoms is an 
+inadequate strategy for the clinical decision-making process regard-
+ing institution of treatment. Most clinicians will request an acet-
+aminophen concentration be measured for any patient suspected of 
+having a toxic exposure to any substance precisely for the reason 
+highlighted above—that is the paucity of signs and symptoms asso-
+ciated with an acetaminophen overdose makes inadvertent missing 
+of a potentially fatal overdose until the window for maximum anti-
+dote effectiveness has passed.
+Acetaminophen in normal individuals is inactivated by sul-
+fation (approximately 52%) and glucuronide conjugation (42%). 
+About 2% of the drug is excreted unchanged. The remaining 4% 
+is biotransformed by the cytochrome P-450 mixed-function oxi-
+dase system. The P-450 isozyme responsible for acetaminophen 
+biotransformation is CYP2E1. Metabolism by CYP2E1 results in a 
+potentially toxic metabolite that is normally detoxified by conjuga-
+tion with glutathione and excreted as the mercapturate. Evidence 
+extrapolated from animal studies estimates that when 70% of 
+endogenous hepatic glutathione is consumed, the toxic metabolite 
+becomes available for covalent binding to hepatic cellular com-
+ponents. However, patients who are concurrently using, or have 
+recently used, chemicals that induce CYP2E1, such as in the case 
+of chronic ethanol exposure or phenobarbital use, may produce 
+more than 4% of the toxic metabolite. It is therefore important to 
+determine, whenever possible, whether or not the patient’s CYP2E1 
+system may be induced when assessing the risk of hepatic necro-
+sis from acetaminophen overdose in any given individual. When 
+there is evidence (medical history) of concurrent chemicals that 
+induce CYP2E1, the treatment nomogram for acetaminophen does 
+not directly apply, and interpretation by the treating physician must 
+be modified to a lower threshold for treatment with NAC (Rumack 
+et al., 1981).
+Follow-up liver biopsy studies of patients who have recovered 
+3 months to a year after hepatotoxicity have demonstrated no long-
+term sequelae or chronic toxicity (Clark et al., 1973). A very small 
+percentage (0.25%) of patients in the national multi-clinic study con-
+ducted in Denver may progress to hepatic encephalopathy with subse-
+quent death. The clinical nature of the acetaminophen overdose is one 
+of sharp peaks of serum glutamic-oxaloacetic transaminase (SGOT) 
+by day 3, with recovery to less than 100 IU/L by day 7 or 8. Patients 
+with SGOT levels as high as 20,000 IU/L have shown complete recov-
+ery and no sequelae 1 week after ingestion (Arena et al., 1978).
+Laboratory evaluation of a potentially poisoned patient is 
+crucial in terms of both hepatic measures of toxicity and plasma 
+levels of acetaminophen. Accurate estimation of acetaminophen in 
+the plasma should be done on samples drawn at least 4 hours after 
+ingestion, when peak plasma concentrations are expected.
+Once an accurate plasma level has been obtained, it should be 
+plotted on the Rumack–Matthew nomogram to determine whether 
+NAC therapy is indicated (Fig. 33-1). This nomogram is based on 
+a series of patients with and without hepatotoxicity and their cor-
+responding measured plasma acetaminophen concentrations.
+Treatment should be instituted in any patient with a plasma con-
+centration in the potentially toxic range. Some clinical toxicologists 
+recommend withholding NAC treatment unless the plasma concen-
+tration is at or above the “probably toxic” demarcation, but most 
+often, due to the inherent uncertainty in the history regarding the time 
+of ingestion (the x-axis of the Rumack nomogram), the more conser-
+vative approach is recommended. Standard gastric decontamination 
+measures with administration of activated charcoal in the case of a 
+relatively recent oral ingestion should accompany the administration 
+of IV NAC. The protective effect of NAC in oral acetaminophen poi-
+soning was demonstrated when contrasted with controls not receiv-
+ing antidotal therapy (Rumack et al., 1981; Smilkstein et al., 1988). 
+Because NAC is most effective if it is given within 8 to 12 hours of 
+acetaminophen ingestion, patients in whom blood levels cannot be 
+obtained quickly should have NAC treatment instituted and therapy 
+terminated only if levels are nontoxic. The dosing regimen for oral 
+NAC is a loading dose of 140 mg/kg orally, followed by 70 mg/kg 
+orally for 17 additional doses (Peterson and Rumack, 1977). The dos-
+age regimen for IV NAC is 150 mg/kg loading dose over 15 minutes, 
+followed by 50 mg/kg over the next 4 hours then 100 mg/kg over 
+16 hours for a total dose of 300 mg/kg in 20 hours. Anaphylactoid 
+reactions have been associated with the use of IV NAC; there-
+fore, some authors do not recommend this route of administration 
+for adults with asthma. Children can receive IV NAC but the vol-
+ume required for the dilution can cause electrolyte abnormalities.
+
+Clinical Toxicology
+Chapter 33
+1545
+The advantage from using the IV form is that the complete dosage reg-
+imen is completed in 20 hours in contrast to the 72-hour oral regimen. 
+Children less than 9 to 12 years of age have a lower incidence of hepa-
+totoxicity after an overdose than do adults, but are still treated with 
+NAC according to the Rumack–Matthew nomogram. Patients with 
+trivial or “nontoxic” acetaminophen ingestions should not be given 
+NAC therapy because the antidote can produce clinical side effects.
+Ethylene Glycol
+A 37-year-old female was brought to the ED after being found 
+unresponsive in her home. The patient was comatose and unre-
+sponsive to pain and without obvious signs of trauma. At the scene, 
+emergency medical personnel administered oxygen and naloxone 
+and performed a finger stick for glucose (standard procedure for 
+encountering a person with altered mental status and suspected 
+toxic ingestion), which showed a normal value of 95 mg/dL. The 
+patient’s spouse reported that she had been depressed and despon-
+dent with the recent loss of her job. No empty pill bottles or liquid 
+containers were found with her at home.
+Upon arrival to the hospital, she remained comatose and had 
+the following vital signs: blood pressure 105/65 mm Hg, pulse 
+78/min, respiratory rate elevated at 32/min, and her body tem-
+perature was normal. The remainder of the physical examination 
+was significant as her pupils were 3 mm and sluggishly reactive to 
+light; the lung and heart examinations were normal; the abdomi-
+nal examination revealed diminished but present bowel sounds, 
+no tenderness, organomegaly, or masses were detected. The rectal 
+examination was normal; the stool was without detectable gross or 
+occult blood. Neuro examination was nonfocal with a diminished 
+gag reflex.
+The patient was placed on a cardiac monitor, an IV line was 
+started, clinical laboratory specimens were obtained, and she was 
+placed on oxygen, given naloxone, thiamine, and one dose of dex-
+trose (50%) intravenously. Similar to the EMSs, these treatments 
+are standard for patients presenting with an altered mental status to 
+an ED. Chest and abdominal radiography was without abnormality. 
+A 12-lead ECG was also normal. Faced with the uncertainty of oral 
+ingestion versus topical and inhalation exposure, a decision was 
+made to proceed with gastric decontamination. Because no direct 
+history from the patient was available, a mixed ingestion could 
+not be ruled out as well. Because of a diminished gag reflex, the 
+patient was endotracheally intubated to protect her airway before 
+an orogastric tube was placed. Gastric lavage was performed and 
+no blood or pill fragments were found. The gastric lavage fluid 
+withdrawn from the stomach was bright yellow in appearance and 
+slightly viscous. When a Wood’s lamp illuminated this fluid in a 
+darkened room, fluorescence was observed. This finding suggests 
+the presence of automotive antifreeze that contains ethylene glycol. 
+Activated charcoal (2.0 g/kg) was placed via the orogastric tube 
+into the stomach with a cathartic even though the efficacy for bind-
+ing ethylene glycol is limited; the use of activated charcoal here 
+was intended for other, potentially unknown coingestants. Clinical 
+laboratory results returned showing the following:
+Serum Chemistries 
+Na = 140 mEq/L
+K = 3.1 mEq/L
+Cl = 94 mEq/L
+HCO3 = 8 mEq/L
+BUN = 12 mg/dL
+Glucose = 100 mg/dL
+Arterial blood gas:
+pH = 7.20; pCO2 = 20 mm Hg; pO2 = 98 mm Hg
+The complete blood count was normal, the urine analysis was 
+normal, measured serum osmolarity was 330 mOsm/kg, and acet-
+aminophen and salicylate levels were below the limits of detection, 
+and the urine toxicology screen was negative.
+The laboratory results were interpreted as follows: a metabolic 
+acidosis with elevated AG (AG = 38; normal < 12) and an elevated 
+osmol gap (40 mOsm; normal < 10 mOsm). These findings are con-
+sistent with either methanol or ethylene glycol poisoning (Tables 
+33-4 and 33-5). A blood sample for measurement of methanol and 
+ethylene glycol was sent for analysis but based on the history and 
+finding of fluorescent, yellow fluid in the stomach and the acid–base 
+disorder detected, the working diagnosis of ethylene glycol poison-
+ing was established. The patient was treated with IV fomepizole 
+(4-methylpyrazole) and transfer to a nearby regional hospital that 
+has hemodialysis capability was requested. Sodium bicarbonate 
+was given intravenously for the profound metabolic acidosis and 
+the patient was successfully transferred to the regional medical cen-
+ter where she underwent hemodialysis shortly after arrival. After 4 
+hours of hemodialysis, the acid–base and electrolyte abnormalities 
+were corrected but the patient remained comatose. Approximately, 
+9 hours after the blood specimen was sent from the first hospital, the 
+laboratory reported a “toxic” serum ethylene glycol concentration 
+of 366 mg/dL, a likely fatal exposure to ethylene glycol. The patient 
+underwent a second 4-hour course of hemodialysis 8 hours follow-
+ing the initial hemodialysis treatment to again correct a recurrence, 
+although less severe, of her metabolic acidosis with the appearance 
+of minor renal injury (serum creatinine increased to 1.8 mg/dL). 
+She regained normal consciousness approximately 18 hours after 
+arrival at the second hospital; her renal function recovered com-
+pletely within 5 days. Subsequently, the patient admitted that she 
+intentionally drank more than half a container of antifreeze with 
+the intent of harming herself. She was evaluated by the psychiatry 
+consultation service and transferred to their service for further care.
+This case demonstrates the importance of utilizing the anion 
+and osmol gap calculations in overdose patients as well as all 
+available diagnostic tools (e.g., the Wood lamp) during the initial 
+evaluation of a potentially poisoned patient. It also highlights the 
+life-saving features of rapidly and competently applied therapeutic 
+modalities in poisoning treatment. Without a readily available drug 
+such as fomepizole (or sterile IV ethanol a substitute for fomepi-
+zole that also inhibits the alcohol dehydrogenase enzyme) and the 
+ability to rapidly transfer to a facility with definitive care capability 
+(hemodialysis), this patient would have likely succumbed to her 
+poisoning. Initiation of antidote therapy early and providing hemo-
+dialysis to increase removal of the poison prior to receipt of the 
+confirmatory laboratory test (measured serum concentration of the 
+specific poison—ethylene glycol) was also required in this case. 
+Although not considered diagnostic (Walker et al., 1986), the pres-
+ence of both a metabolic acidosis with an AG and an osmol gap is 
+highly suggestive of either methanol or ethylene glycol given the 
+patient’s presentation despite a scant history. It is commonplace for 
+hospital clinical laboratories to have to “send out” blood specimens 
+for ethylene glycol and methanol analysis as these are not routinely 
+performed on-site. A turn-around time of 6 to 12 hours for this test 
+result to be available is typical in most settings.
+Ethylene glycol exerts its primary toxicity after undergoing bio-
+transformation by alcohol dehydrogenase to glycolic acid and then to 
+glyoxylic and oxalic acid by the action of aldehyde dehydrogenase. 
+Fig. 33-3 contains a schematic representation of the metabolism of 
+ethylene glycol to its toxic metabolites. The latter two acid metabo-
+lites are thought to be responsible for both the renal and the acid–base 
+toxicity observed during poisoning by ethylene glycol (Swartz et al., 
+1981). If untreated or treated too late, ethylene glycol poisoning can
+
+1546
+Applications of Toxicology
+Unit VII
+result in fatal cerebral edema with seizures as well as irreversible renal 
+damage. Hemodialysis can remove the unmetabolized ethylene glycol 
+and toxic, more polar metabolites, eliminating the substrate for pro-
+duction of these harmful metabolites and the damaging metabolites 
+themselves. Administration of an inhibitor or competing substrate for 
+alcohol dehydrogenase can be instituted before and during transport 
+of the patient to a healthcare facility where hemodialysis is available. 
+Fomepizole (4-methylperazole) is a commercially available inhibi-
+tor of alcohol dehydrogenase that is FDA approved for the treatment 
+of methanol and ethylene glycol poisoning. Ethanol (sterile, for IV 
+administration) or oral, nonsterile ethanol (when the IV formulation 
+is not readily available) can also be given to effectively inhibit the 
+metabolism of methanol or ethylene glycol and prevent the potentially 
+devastating effects of the poisoning. Finally, in the specific case of 
+methanol poisoning, the administration of folic acid in animal models 
+has been shown to enhance the in vivo clearance of formate, the toxic 
+metabolite of methanol (McMartin et al., 1977). Folate or folinic acid 
+has been given to methanol-poisoned patients and is suggested to has-
+ten formic acid metabolism, thereby accelerating its clearance (Noker 
+et al., 1980). Many clinical toxicologists will include folic or folinic 
+acid in their therapeutic regimen for methanol-poisoned patients. 
+Poisoning with methanol or ethylene glycol is relatively common; 
+several thousand cases per year are reported to the AAPCCs. A review 
+of these cases has shown that even high exposures of either toxicant 
+can be survivable, given early recognition of the poisoning and rap-
+idly applied therapies (Kruse, 2012).
+Valproic Acid
+A 33-year-old male is brought to the ED after being found unre-
+sponsive by his brother at home with two empty prescription pill 
+bottles of extended release valproic acid at his side. He was last 
+seen 8 hours prior to being found unresponsive and was then in nor-
+mal health. No further history is available. The patient’s pharmacy 
+confirmed that three monthly prescriptions, each containing 30, 
+250 mg extended release valproic acid tablets had been dispensed 
+within the preceding 3 months. A call to the office of the prescrib-
+ing physician did not reach anyone who could verify the prescrip-
+tion or provide past medical history for the patient.
+The patient was unresponsive to verbal or tactile stimulation 
+with vital signs: blood pressure 85/55 mm Hg, pulse 94/min, respira-
+tory rate 20/min, and temperature 33.2°C. IV access was obtained 
+and IV fluids were administered as rapidly as possible. Naloxone 
+was administered without effect. The patient was placed on a car-
+diac monitor that showed sinus rhythm. The remainder of the physi-
+cal examination showed the patient to be without obvious signs of 
+trauma; the skin was cool and without track marks. The pupils were 
+2 mm and poorly reactive to light. Other significant findings included 
+the examination of the abdomen, which showed diminished bowel 
+sounds. The rectal examination was negative for occult blood. The 
+neurological examination revealed coma without focal motor abnor-
+malities and an absent gag reflex.
+Initial clinical laboratory results showed mild metabolic acido-
+sis with elevated serum lactate, an increased anion, slightly increased 
+serum ammonia, normal glucose, liver function tests, and renal func-
+tion tests. The chest and abdominal radiographs were normal. The 
+12-lead ECG showed a prolonged QT interval without arrhythmia. 
+The patient was endotracheally intubated to protect his airway prior 
+to gastric lavage that yielded some pill fragments only. The patient 
+was placed on a ventilator to support his respiration. Activated char-
+coal (1.5 g/kg) was administered via the orogastric tube immediately 
+following the lavage procedure. The blood pressure continued to 
+remain low despite IV fluid administration. A STAT valproic acid 
+serum measurement showed the concentration was 572 mcg/mL.
+Blood pressure responded to low-dose vasopressors (IV 
+dopamine) with continued IV fluid administration. A repeat serum 
+valproic acid concentration was 890 mcg/mL at 2 hours post admis-
+sion. Serial oral activated charcoal (every 4 hours) was initiated 
+via the orogastric tube and hemodialysis was started 3 hours after 
+admission. IV l-carnitine was given when a repeat serum ammonia 
+concentration returned further elevated at 94 mg/dL. Subsequent 
+measured plasma concentrations of vaproic acid gradually declined 
+to <100 mcg/mL over the next 48 hours after one additional hemo-
+dialysis session was conducted. The patient regained consciousness 
+24 hours after admission and made a full recovery by hospital day 4. 
+He was evaluated by the Psychiatry consult service, which accepted 
+the patient in transfer to their inpatient service after he was medi-
+cally cleared by the Toxicology service.
+This case illustrates the significance of increasing plasma con-
+centrations of the toxic substance despite gastric decontamination 
+procedures. In this case, the most likely cause for this observation 
+is the ingestion of an extended release formulation, which is phar-
+maceutically designed to slowly dissolve in the gastrointestinal tract 
+and provide for ongoing sustained release of the active drug product 
+as opposed to immediate release of the drug. Other drug substances 
+can demonstrate the “slow release” profile without having been for-
+mulated in a special sustained release dosage form. Examples of 
+these drug “bezoars” include salicylates and barbiturates as well as 
+formulations of iron supplements. The presence of a drug bezoar or 
+concretion can be dangerous because, without serial drug concen-
+tration measurements, the treating team could erroneously stratify 
+a patient based on the initial measured plasma concentration and be 
+unprepared for severe toxicity or prolonged toxicity time course not 
+expected from the initial concentration alone.
+The use of l-carnitine is an example of the application of 
+basic biochemical knowledge to apply and effective therapeutic 
+Ethylene glycol metabolism
+C
+H
+C
+H
+H
+ADH
+NAD+
+↓NADH + H+
+ALD
+H
+OH OH
+Ethylene glycol
+4-MP
+inhibition
+Glycolic acid
+Oxalic acid
+Glyoxylic acid
+C
+H
+C
+OH
+H
+OH O
+C
+C
+OH
+H
+O
+O
+C
+C
+OH
+HO
+O
+O
+NAD+
+NADH + H+
+Acidosis kidney tox
+Figure 33-3.  Metabolic pathway for the metabolism of ethylene glycol.
+
+Clinical Toxicology
+Chapter 33
+1547
+intervention. In the case of valproic acid intoxication, the biochemical 
+effects of valproate on fatty acid metabolism in liver mitochondria, 
+specifically the depletion of l-carnitine, are thought to be causative 
+for the hyperammonemia often observed in moderate and severe 
+cases of valproic acid intoxication (Bohan et al., 2001; Lheureux and 
+Hantson, 2009). Based on these findings and other experimental data, 
+the FDA has approved the use of IV l-carnitine for the treatment of 
+valproic acid poisoning in the setting of hepatotoxicity, hyperammo-
+nemia, large overdoses of valproate by history, or measured serum 
+concentrations of valproic acid exceeding 450 mcg/mL.
+Finally, the benefit of employing multiple methods simultane-
+ously to enhance the elimination of a toxicant is also demonstrated 
+in this case example. The total body clearance of valproic acid is 
+known to be enhanced when serial oral activated charcoal is admin-
+istered (Table 33-7). Hemoperfusion, or the more available method 
+of hemodialysis has been shown to increase the total body clear-
+ance of valproic acid in overdose (Guillaume et al., 2004). This 
+recommendation is based, in part, on the finding that the plasma 
+protein binding of valproic acid is easily saturated, and in large 
+overdoses, the free fraction (unbound) drug increases from 10% 
+to more than 30%, making more of the drug available for effective 
+removal during hemodialysis. Both modalities were likely benefi-
+cially employed in this potentially fatal valproic acid ingestion.
+Salicylate
+A 48-year-old female is brought to the ED by ambulance approxi-
+mately 2 hours after a witnessed ingestion of approximately 35 aspi-
+rin tablets (each 325 mg) at home in an apparent suicide attempt. 
+The patient complained of upper abdominal discomfort, nausea, and 
+ringing in her ears (tinnitus) and reported one episode of spontane-
+ous emesis at home before transport. The patient has a significant 
+past medical history for major depression disorder, mild osteoarthri-
+tis, and hypothyroidism. Her current medications include the anti-
+depressant agent sertraline, 50 mg per day and for hypothyroidism, 
+levothyroxine 100 mcg per day. The patient has been a heavy ciga-
+rette smoker (1.5 packs per day) for at least 20 years. No other infor-
+mation about potential illicit substance or alcohol use is available.
+Upon arrival in the ED, the vital signs were blood pressure 
+130/74 mm Hg, pulse 113/min, respiratory rate elevated at 28/min, 
+and body temperature slightly elevated at 38.0°C. She was awake, 
+but oriented only to person. The remainder of the physical exami-
+nation was significant for slightly dilated pupils (4 mm with nor-
+mal reactivity to light); heart and lung examinations revealed 
+an increased heart rate and a normal lung exam; the abdominal 
+examination revealed normal bowel sounds and slight epigastric 
+tenderness; no organomegaly or masses were detected. The rectal 
+examination was normal; the stool was without detectable gross or 
+occult blood. Neuro examination was altered mental status, non-
+focal with a diminished gag reflex.
+Clinical laboratory analysis upon arrival in the ED found the 
+following abnormalities: white blood cell count mildly elevated, 
+serum potassium was slightly low at 3.1 mEq/L, arterial pH 7.15 
+and serum bicarbonate 11 mEq/L, consistent with a significant 
+metabolic acidosis, anion gap calculation was 29 (normal < 12). At 
+2.5 hours after the reported ingestion time, salicylate was 36 mg/dL 
+(therapeutic concentrations 10 to 30 mg/dL), acetaminophen was 
+not detected, serum creatinine 1.9 mg/dL, the urine pH was 5.0, 
+and the urine toxicology screen was negative. Chest and abdominal 
+radiographs were normal.
+In the ED the patient received normal saline IV and two bolus 
+dosages of 50 mEq sodium bicarbonate to treat her acidosis. IV 
+anti-emetics were given for nausea. At 6 hours post ingestion, the 
+salicylate level was 51.4 mg/dL and no therapeutic action was taken. 
+Five hours later (approximately 11 hours post ingestion) the patient 
+became restless and displayed a tremor in her upper extremities and 
+cramps in her legs. The vital signs at that time were blood pressure 
+150/105 mm Hg, pulse 144/min, respiratory rate elevated at 30/min, 
+and body temperature slightly elevated at 38.5°C. A salicylate level 
+at that time was 81 mg/dL. Thirteen hours after presentation the 
+patient became significantly agitated, the heart rate increased to 
+224/min. An arterial blood gas demonstrated pH 7.25, pCO2 12 
+mm Hg, and calculated serum bicarbonate 6.6 mEq/L, indicating 
+that the significant metabolic acidosis has continued. Endotracheal 
+intubation and mechanical ventilation were initiated; hemodialysis 
+was not performed on this patient. Following a dose of IV labetalol, 
+given in an attempt to control heart rate, the patient suffered a car-
+diac arrest from which she could not be resuscitated.
+This unfortunate case demonstrates several potential pitfalls in 
+the management of serious salicylate ingestion. First, the witnessed 
+dose ingested was 35 tablets, each containing 325 mg, or more 
+than 11 g of salicylate, which by risk stratification by estimated 
+dose ingested should have alerted the ED staff that this ingestion 
+was very likely to result in severe toxicity. The initial salicylate 
+level was just above the upper limit of normal therapeutic values 
+for salicylate. This lower than expected laboratory result may have 
+steered the ED away from considering this to be a serious and 
+potentially fatal ingestion and toward the obvious under-treatment 
+that occurred. Gastric decontamination did not occur for unclear 
+reasons. Perhaps the ED team assumed that the reported spontane-
+ous emesis was sufficient to prevent significant absorption of the 
+toxicant. Furthermore, the rising salicylate levels over time were 
+apparently overlooked. This phenomenon is commonly seen with 
+extended release formulations (not a factor in this case) or when 
+there is the formation of a drug bezoar. Salicylates, in overdose, are 
+well-known to form drug bezoars in the proximal gastrointestinal 
+tract, which slowly dissolve over time, resulting in rising serum 
+concentrations of salicylate over time. The result of formation of 
+a drug bezoar is that, instead of rapid absorption and a relatively 
+short apparent half-life, the ongoing absorption creates a prolonged 
+and increasing systemic exposure profile for the drug being released 
+from the bezoar. The end result is that the time course to peak toxic 
+effects is delayed. Adequate dosage of activated charcoal upon 
+arrival in the ED, and perhaps use of multi-dose activated char-
+coal, would likely have reduced the amount of salicylate reaching 
+the systemic circulation. The administration of two bolus doses 
+of sodium bicarbonate was certainly inadequate to overcome the 
+systemic acidosis observed and achieve the needed alkalinizing of 
+the urine to enhance salicylate elimination. The patient should have 
+received a continuous IV sodium bicarbonate infusion with track-
+ing of her urine output and pH with a target pH of 8 for the urine. 
+Involvement of Nephrology consultants to initiate hemodialysis to 
+facilitate salicylate elimination should have also taken place once 
+rising plasma concentrations of salicylate, coincident with clinical 
+deterioration were apparent. In summary, this case reinforces the 
+importance of timely application of the basic, stepwise, procedures 
+available to treat severe, poison-induced toxicity, and demonstrates 
+the potential consequences of underestimating poisoning severity.
+SUMMARY
+The practice of Clinical Toxicology encompasses the expertise of 
+the specialties of Medical Toxicology, Applied Toxicology, and 
+Clinical Poison Information Specialists. Basic and clinical science 
+continues to provide new information that allows for more effec-
+tive diagnosis and treatment of the poisoned patient. The evolution 
+of the poison control (information) center and regional poisoning
+
+1548
+Applications of Toxicology
+Unit VII
+treatment centers has greatly aided advances in the field of Clinical 
+Toxicology. The incorporation of evidence-based, outcome-driven 
+practice recommendations has improved and standardized the eval-
+uation of treatment modalities for poisonings. Application of a step-
+wise approach to the poisoned patient as described in this chapter 
+remains an essential approach to the effective evaluation and treat-
+ment of the poisoned patient. This methodically performed, clinical 
+diagnostic and therapeutic approach applied in a parallel fashion 
+to the poisoned patient is essential, especially when the medical 
+history is absent or likely unreliable. Skillful use of antidotes is 
+an important component of the practice of Medical Toxicology. 
+Continued research will increase the repertoire of effective treat-
+ments for poisoning and ultimately improve patient outcomes.
+ACKNOWLEDGMENTS
+The editor and authors recognize the contributions of previous 
+authors of this chapter: Eric G. Comstock (1st edition), Barry H. 
+Rumack and Robert G. Peterson (2nd edition), Barry H. Rumack 
+and Frederick H. Lovejoy, Jr. (3rd and 4th editions), and Wayne R. 
+Snodgrass (5th edition).
+REFERENCES
+American Association of Poison Control Centers (AAPCC). National 
+Poison Data System. 2017. Available at: http://www.aapcc.org/data- 
+system/. Accessed March 31, 2017.
+American College of Medical Toxicology. Guidance document: Management 
+priorities in salicylate toxicity. J Med Toxicol. 2015;11(1):149–152.
+Andersen AH. Experimental studies on the pharmacology of activated char-
+coal: adsorption power of charcoal in aqueous solutions. Acta Pharmacol 
+Toxicol (Copenh). 1946;2:69–78.
+Andersen AH. Experimental studies on the pharmacology of activated char-
+coal: the effect of pH on the adsorption by charcoal from aqueous solu-
+tions. Acta Pharmacol Toxicol (Copenh). 1947;3:199–218.
+Andersen AH. Experimental studies on the pharmacology of activated char-
+coal. III. Adsorption from gastrointestinal contents. Acta Pharmacol. 
+1948;4:275–284.
+Arena JM, Rourk MHJ, Sibrack CD. Acetaminophen: report of an unusual 
+poisoning. Pediatrics. 1978;61:68–72.
+Auerbach PS, Osterloh J, Braun O, et  al. Efficacy of gastric emptying: 
+gastric lavage versus emesis induced with ipecac. Ann Emerg Med. 
+1986;15(6):692–698.
+Beerman R, Nunez D, Wetli C. Radiographic evaluation of the cocaine 
+smuggler. Gastrointest Radiol. 1986;11:351–354.
+Berg MJ, Berlinger WG, Goldberg MJ, et  al. Acceleration of the body 
+clearance of phenobarbital by oral activated charcoal. N Engl J Med. 
+1982;307:642–644.
+Blizzard J, Michels J, Richardson W, et  al. Cost-benefit analysis of a 
+regional poison center. Clin Toxicol. 2008;46(5):450–456.
+Boehnert MT, Lovejoy FH. Value of the QRS duration versus the serum drug 
+level in predicting seizures and ventricular arrhythmias after an acute 
+overdose of tricyclic antidepressants. N Engl J Med. 1985;313:474–479.
+Bohan TP, Helton E, MacDonald I, et al. Effect of L-carnitine treatment for 
+valproate-induced hepatotoxicity. Neurology. 2001;56:1405–1409.
+Bosinski T, Bailie GR, Eisele G. Massive and extended rebound of serum 
+lithium concentrations following hemodialysis in two chronic overdose 
+cases. Am J Emerg Med. 1998;16:98–100.
+Braue EH, Boardman CH, Hurst CG. Decontamination of chemical casual-
+ties. In: Tuorinsky SD, ed. Medical Aspects of Chemical Warfare. 2nd ed. 
+Washington, DC: United States Department of the Army, Office of the 
+Surgeon General at TMM Publications, Borden Institute; 2008:527.
+Brown TR, Evans JE, Szabo GK, et  al. Studies with stable isotopes II: 
+phenobarbital pharmacokinetics during monotherapy. J Clin Pharm. 
+1985;25:51–58.
+Burgess JL, Kirk M, Borron SW, Cisek J. Emergency department haz-
+ardous materials protocol for contaminated patients. Ann Emerg Med. 
+1999;34:205–212.
+Cao D, Heard K, Foran M, Koyfman A. Intravenous lipid emulsion in the 
+emergency department: a systematic review of recent literature. J Emerg 
+Med. 2015;48(3):387–397.
+Chyka PA. Multiple-dose activated charcoal enhancement of systematic 
+drug clearance: summary of studies in animals and human volunteers. 
+J Toxicol Clin Toxicol. 1995;33:399–405.
+Chyka PA, Seger D, Krenzelok EP, Vale JA. Position statement: single dose 
+activated charcoal. Clin Toxicol. 2005;43:61–87.
+Clark R, Borirakchanyavat V, Davidson AR, et  al. Hepatic damage and 
+death from overdose of paracetamol. Lancet. 1973;1:66.
+Cooney DO. Activated Charcoal in Medical Applications. New York: 
+Dekker; 1995.
+Cutler RE, Forland SC, Hammond PG, Evans JR. Extracorporeal removal 
+of drugs and poisons by hemodialysis and hemoperfusion. Annu Rev 
+Pharmacol Toxicol. 1987;27:169–191.
+Dally SL, Garneir R, Bismuth C. Diagnosis of chlorinated hydrocarbon 
+poisoning by x-ray examination. Br J Indus Med. 1987;44:424–425.
+de Silva HA, Foneska M, Pathmeswaran A, et al. Multiple dose activated 
+charcoal for treatment of yellow oleander poisoning: a single-blind, 
+randomized, placebo controlled trial. Lancet. 2003;361:1935–1938.
+Done AK. Salicylate intoxication, significance of measurements of salicy-
+late in blood in cases of acute intoxication. Pediatrics. 1960;26:800–807.
+Dugandzic RM, Tierney MG, Dickinson GE, Dolan MC, McKnight DR. 
+Evaluation of the validity of the Done nomogram in the management of 
+acute salicylate intoxication. Ann Emerg Med. 1989;18(11):1186.
+Ellenhorn MJ. Alcohols and glycols. In: Ellenhorn MJ, ed. Ellenhorn’s 
+Medical Toxicology, Diagnosis and Treatment of Poisoning. 2nd ed. 
+Philadelphia, PA: Williams & Wilkins; 1997a.
+Ellenhorn MJ. Ellenhorn’s Medical Toxicology, Diagnosis and Treatment of 
+Poisoning. 2nd ed. Philadelphia, PA: Williams & Wilkins; 1997b.
+Everson GW, Oudjhane K, Young LW, et al. Effectiveness of abdominal 
+radiographs in visualizing chewable iron supplements following over-
+dose. Am J Emerg Med. 1989;7:459–463.
+Gaffney A. FDA grants approval to new drug under rarely used animal rule 
+pathway. 2015. Available at: http://www.raps.org/Regulatory-Focus/
+News/2015/05/11/22135/FDA-Grants-Approval-to-New-Drug-Under-
+Rarely-Used-Animal-Rule-Pathway/. Accessed March 30, 2017.
+Goodman JW, Goldfarb DS. The role of continuous renal replacement 
+therapy in the treatment of poisoning. Semin Dial. 2006;19(5):402–407.
+Goulbourne KB, Cisek J, et al. Small-bowel obstruction secondary to acti-
+vated charcoal and adhesions. Ann Emerg Med. 1994;24:108–109.
+Greensher J, Mofenson HC, Caraccio TR. Ascendency of the black bottle 
+(activated charcoal). Pediatrics. 1987;80:949–950.
+Guillaume CP, Stolk L, Dejagere TF, et  al. Successful use of hemo-
+dialysis in acute valproic acid intoxication. J Toxicol Clin Toxicol. 
+2004;42(3):335–336.
+Handy CA. Radiopacity of oral non-liquid medications. Radiology. 
+1971;98:522–533.
+Heffner JE, Harley RA, Schabel SI. Pulmonary reactions from illicit sub-
+stance abuse. Clin Chest Med. 1990;11:151–162.
+Hoffman RS. In: Hoffman RS, Howland MA, Lewin NA, et  al., eds. 
+Goldfrank’s Toxicologic Emergencies. 10th ed. New York: McGraw-Hill; 
+2015:Chap 3.
+Holstege CP, Borek HA. Toxidromes. Crit Care Clin. 2012;28(4):479–498.
+Holt LE, Holz PH. The black bottle: a consideration in the role of charcoal 
+in the treatment on poisoning in children. J Pediatr. 1963;63:306–314.
+Ilkhanipour K, Yealy K, Krenzelok EP, et al. The comparative efficacy of 
+various multiple-dose activated charcoal regimens. Am J Emerg Med. 
+1992;10:298–300.
+Institute of Medicine (IOM). Forging a Poison Prevention and Control 
+System. Washington, DC: National Academy Press; 2004.
+Jarcho S. Medical numismatic notes. VII: Mithridates IV. Bull NY Cad Med. 
+1972;48:1059–1064.
+Jones JS, Lagasse J, Zimmerman G. Computed tomographic findings after 
+acute carbon monoxide poisoning. Am J Emerg Med. 1994;12:448–451.
+
+Clinical Toxicology
+Chapter 33
+1549
+Juurlink DN. Activated charcoal for acute overdose: a reappraisal. Br J Clin 
+Pharmacol. 2016;81(3):482–487.
+King WD, Palmisano PA. Poison control centers: can their value be mea-
+sured? South Med J. 1991;84:722–726.
+Kramer RE, Lerner DG, Lin T, et al. Management of ingested foreign bodies 
+in children: a clinical report of the NASPGHAN Endoscopy Committee. 
+J Pediatr Gastroenterol Nutr. 2015;60(4):562.
+Krenzelok EP, McGuigan M, Lheureuz P. Position statement: ipecac syrup. 
+J Toxicol Clin Toxicol. 1997;35(7):699–709.
+Krenzelok EP, McGuigan M, Lheureuz P; and the American Academy of 
+Clinical Toxicology and European Association of Poisons Centres and 
+Clinical Toxicologists. Position paper: ipecac syrup. J Toxicol Clin 
+Toxicol. 2004;42(2):133–143.
+Kruse JA. Methanol and ethylene glycol intoxication. Crit Care Clin. 2012; 
+28 (4): 661–711.
+Levine M, Hoffman RS, Lavergne V, et al. Systematic review of the effect 
+of intravenous lipid emulsion therapy for non-local anesthetics toxicity. 
+Clin Toxicol. 2016;54(3):194–221.
+Lewin Group. Final Report on the Value of the Poison Center System. 2012. 
+Available at: http://www.aapcc.org/about/lewin-group-report/. Accessed 
+March 31, 2017.
+Lheureux PE, Hantson P. Carnitine in the treatment of valproic acid-induced 
+toxicity. Clin Toxicol (Phila). 2009;47(2):101–111.
+Major RH. History of the stomach tube. Ann Med Hist. 1934;6:500–509.
+Manoguerra AS, Temple AR. Observations on the current status of poi-
+son control centers in the United States. Emerg Med Clin North Am. 
+1984;2:185–197.
+Martin JM, Arena JM. Lye poisoning and stricture of the esophagus: a 
+report of 50 cases. South Med J. 1939;32:286–290.
+Mayor A. Greek Fire, Poison Arrows, and Scorpion Bombs: Biological and 
+Chemical Warfare in the Ancient World. Woodstock, NY: Overlook Press; 
+2003.
+McCarron MM, Wood JD. The cocaine “body packer” syndrome. JAMA. 
+1983;250:1417–1420.
+McElvaine MD, DeUngria EG, Matte TD, et al. Prevalence of radiographic 
+evidence of paint chip ingestion among children with moderate to severe 
+lead poisoning. St. Louis, Missouri, 1989 through 1990. Pediatrics. 
+1992;89:740–742.
+McMartin KE, Martin-Amat G, Makar AT, et al. Methanol poisoning V: 
+role of formate metabolism in the monkey. J Pharmacol Exp Ther. 
+1977;201:564–572.
+Miller TR, Lestina DC. Costs of poisoning in the United States and savings 
+from poison control centers: a benefit-cost analysis. Ann Emerg Med. 
+1997;29(2):239–245.
+Mitchell JR, Jollow DJ, Potter WZ, et al. Acetaminophen induced hepatic 
+necrosis. J Pharm Exp Ther. 1973;187:185–194.
+Miura T, Mitomo M, Kawai R, Harada K. CT of the brain in acute car-
+bon monoxide intoxication: characteristic features and prognosis. Am J 
+Neuroradiol. 1985;6:739–742.
+Mofenson HC, Caraccio TR, Greensher J, et al. Gastrointestinal dialysis 
+with activated charcoal and cathartic in the treatment of adolescent intox-
+ications. Clin Pediatr. 1985;24:678–684.
+Mofenson HC, Greensher J. The nontoxic ingestion. Pediatr Clin North Am. 
+1970;17(3):583–590.
+Mokrzycki MH, Kaplan AA. Therapeutic plasma exchange: complications 
+and management. Am J Kidney Dis. 1994;23:817–827.
+Mowry JB, Spyker DA, Brooks DE, Zimmerman A, Schauben JL. 2015 
+annual report of the American association of poison control centers’ 
+national poison data system (NPDS): 33rd annual report. Clin Toxicol. 
+2016;54(10):924–1109.
+Nelson JC, Liu D, Olson KR. Radiopacity of modified release medications. 
+Vet Hum Toxicol. 1993;35:317.
+Noker PE, Eells JT, Tephly TR. Methanol toxicity: treatment with folic 
+acid and 5-formyl tetrahydrofolic acid. Alcohol Clin Exp Res. 1980; 
+4:378–383.
+O’Brien RP, McGeehan PA, Helmeczi AW, et  al. Detectability of drug 
+tablets and capsules by plain radiography. Am J Emerg Med. 1986; 
+4:302–312.
+Ohning BL, Reed MD, Blumer Jl, et al. Continuous nasogastric administra-
+tion of activated charcoal for the treatment of theophylline intoxication. 
+Ped Pharm. 1986;5:241–245.
+Orphan Drug Act. Relevant excerpts. In: Administration USFaD, ed. 
+21 CFR Part 316. Orphan Drugs: U.S. Government Publishing Office; 
+2013.
+Osius TG. The historic art of poisoning. Med Bull (Ann Arbor). 
+1957;23:111–116.
+Park GD, Radomski L, Goldberg MJ, et al. Effects of size and frequency 
+of oral doses of charcoal on theophylline clearance. Clin Pharm Ther. 
+1983;34:663–666.
+Park GD, Spector R, Goldberg MJ, Johnson GF. Expanded role of char-
+coal therapy in the poisoned and overdosed patient. Arch Intern Med. 
+1986;146(5):969–973.
+Peterson RG, Rumack BH. Treatment of acute acetaminophen poisoning 
+with acetylcysteine. JAMA. 1977;237:2406–2407.
+Plaitakis A, Duvoisin RC. Homer’s moly identified as Galanthus nivalis: 
+physiologic antidote to stramonium poisoning. Clin Neuropharmacol. 
+1983;6:1–5.
+Pollack MM, Dunbar BS, Holbrook PR, Fields AI, et  al. Aspiration of 
+activated charcoal and gastric contents. Ann Emerg Med. 1981;10: 
+528–529.
+Proudfoot AT, Krenzelok EP, Vale JA. Position paper on urine alkaliniza-
+tion. J Toxicol Clin Toxicol. 2004;42:1–26.
+Proudfoot AT, Wright N. Acute paracetamol poisoning. Br Med J. 
+1970;2:557.
+Reid DHS. Treatment of the poisoned child. Arch Dis Child. 1970;45: 
+428–433.
+Rep. Terry L. H.R. 3527. Poison Center Network Act. In: America tCotUSo, 
+ed. 2014; 113–177.
+Rosenblatt MA, Abel M, Fischer GW, Itzkovich CJ, Eisenkraft JB. 
+Successful use of a 20% lipid emulsion to resuscitate a patient after 
+a presumed bupivacaine-related cardiac arrest. Anesthesiology. 
+2006;105(1):217–218.
+Rumack BH, Matthew H. Acetaminophen poisoning and toxicity. 
+Pediatrics. 1975;55:871.
+Rumack BH, Peterson RC, Koch GG, et al. Acetaminophen overdose: 662 
+cases with evaluation of oral acetylcysteine treatment. Arch Intern Med. 
+1981;141:380–385.
+Savitt DL, Hawkins HH, Roberts JR. The radiopacity of ingested medica-
+tions. Ann Emerg Med. 1987;16:331–339.
+Scherz RG, Robertson WO. The history of poison control centers in the 
+United States. Clin Toxicol. 1978;12(3):291–296.
+Smilkstein MJ, Knapp GL, Kulig KW, et  al. Efficacy of oral 
+N-acetylcysteine in the treatment of acetaminophen overdose. N Engl J 
+Med. 1988;319:1557–1562.
+Smithline N, Gardner KD. Gaps: anionic and osmolal. JAMA. 1976;236: 
+1594–1597.
+Sporer KA, Firestone J. Clinical course of crack cocaine body stuffers. Ann 
+Emerg Med. 1997;29:596–601.
+Stern WZ, Spear PW, Jacobson HG. The roentgen findings in acute heroin 
+intoxication. Am J Roentgenol. 1968;103:522–532.
+Swartz RD, Millman RP, Billi JE, et  al. Epidemic methanol poison-
+ing: clinical and biochemical analysis of a recent episode. Medicine. 
+1981;60:373–382.
+Tenebein M, Lheureuz P; and the American Academy of Clinical 
+Toxicology and European Association of Poisons Centres and Clinical 
+Toxicologists. Position paper: whole bowel irrigation. J Toxicol Clin 
+Toxicol. 2004;42(6):843–854.
+University of California San Francisco (UCSF). University of California 
+San Francisco General Hospital Laboratory Lab Manual. 2017. Available 
+at: http://labmed.ucsf.edu/sfghlab/test/StatServices.html. Accessed April 
+11, 2017.
+Vale JA, Kulig K. Position paper: gastric lavage. J Toxicol Clin Toxicol. 
+2004;42(7):933–943.
+Van de Graaff WB, Thompson WL, Sunshine I, et  al. Adsorbent and 
+cathartic inhibition of enteral drug absorption. J Pharmacol Exp Ther. 
+1982;221:656–663.
+
+1550
+Applications of Toxicology
+Unit VII
+Walker JA, Schwartzbard A, Krauss EA, et al. The missing gap: a pitfall in 
+the diagnosis of alcohol intoxication by osmometry. Arch Intern Med. 
+1986;146:1843–1844.
+Wax PM. Analeptic use in clinical toxicology: a historical appraisal. 
+J. Toxicol Clin Toxicol. 1997;35:203–209.
+Weinberg GL, VadeBoncouer T, Ramaraju GA, et al. Pretreatment or resus-
+citation with a lipid infusion shifts the dose-response to bupivacaine-
+induced asystole in rats. Anesthesiology. 1998;88(4):1071–1075.
+Weisman RS. Theophylline. In: Goldfrank, ed. Goldfrank’s Toxicologic 
+Emergencies. 6th ed. Stanford, CT: Appleton & Lange; 1998.
+Wolkin AF, Martin CA, Law RK, Schier JG, Bronstein AC. Using poi-
+son center data for national public health surveillance for chemical and 
+poison exposure and associated illness. Ann Emerg Med. 2012;59(1): 
+56–61.
+Woolf AD, Karnes DK, Kirrane BM. Preserving the United States’ poison 
+control system. Clin Toxicol (Phila). 2011;49(4):284–286.

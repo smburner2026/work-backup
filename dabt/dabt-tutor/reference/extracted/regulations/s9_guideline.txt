@@ -1,0 +1,556 @@
+# S9_Guideline.pdf
+# Category: ich/S
+# Pages: 13
+
+INTERNATIONAL 
+CONFERENCE 
+ON 
+HARMONISATION 
+OF 
+TECHNICAL 
+REQUIREMENTS FOR REGISTRATION OF PHARMACEUTICALS FOR HUMAN USE 
+ 
+ 
+ 
+ICH HARMONISED TRIPARTITE GUIDELINE  
+ 
+NONCLINICAL EVALUATION FOR  
+ANTICANCER PHARMACEUTICALS 
+ 
+S9 
+ 
+ 
+Current Step 4 version 
+dated 29 October 2009 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This Guideline has been developed by the appropriate ICH Expert Working Group and 
+has been subject to consultation by the regulatory parties, in accordance with the ICH 
+Process. At Step 4 of the Process the final draft is recommended for adoption to the 
+regulatory bodies of the European Union, Japan and USA.
+
+S9 
+Document History 
+ 
+First 
+Codification 
+History 
+Date 
+S9 
+Approval by the Steering Committee under Step 2 
+and release for public consultation. 
+13 
+November 
+2009 
+Current Step 4 version 
+S9 
+Approval by the Steering Committee under Step 4 and 
+recommendation for adoption to the three ICH 
+regulatory bodies. 
+29 
+October 
+2009
+
+i 
+ 
+NONCLINICAL EVALUATION FOR ANTICANCER PHARMACEUTICALS 
+ICH Harmonised Tripartite Guideline 
+Having reached Step 4 of the ICH Process at the ICH Steering Committee meeting on 
+October 29, 2009, this guideline is recommended for adoption to the three regulatory 
+parties to ICH. 
+ 
+TABLE OF CONTENTS 
+1. 
+INTRODUCTION .................................................................................................. 1 
+1.1 
+Objectives of the Guideline ................................................................................ 1 
+1.2 
+Background ......................................................................................................... 1 
+1.3 
+Scope ................................................................................................................... 1 
+1.4 
+General Principles .............................................................................................. 2 
+2. 
+STUDIES TO SUPPORT NONCLINICAL EVALUATION .......................................... 2 
+2.1 
+Pharmacology ..................................................................................................... 2 
+2.2 
+Safety Pharmacology .......................................................................................... 3 
+2.3 
+Pharmacokinetics ............................................................................................... 3 
+2.4 
+General Toxicology ............................................................................................. 3 
+2.5 
+Reproduction Toxicology .................................................................................... 4 
+2.6 
+Genotoxicity ........................................................................................................ 4 
+2.7 
+Carcinogenicity ................................................................................................... 5 
+2.8 
+Immunotoxicity .................................................................................................. 5 
+2.9 
+Photosafety testing ............................................................................................. 5 
+3. 
+NONCLINICAL DATA TO SUPPORT CLINICAL TRIAL DESIGN AND MARKETING 5 
+3.1 
+Start Dose for First Administration in Humans ............................................... 5 
+3.2 
+Dose Escalation and the Highest Dose in a Clinical Trial ................................ 5 
+3.3 
+Duration and Schedule of Toxicology Studies to Support Initial Clinical Trials
+ ............................................................................................................................ 6 
+3.4  
+Duration of Toxicology Studies to Support Continued Clinical Development 
+and Marketing .................................................................................................... 6 
+3.5 
+Combination of Pharmaceuticals ....................................................................... 6 
+3.6 
+Nonclinical Studies to Support Trials in Pediatric Populations ....................... 7 
+4. 
+OTHER CONSIDERATIONS ................................................................................. 7 
+4.1 
+Conjugated Products .......................................................................................... 7 
+4.2 
+Liposomal Products ............................................................................................ 7 
+4.3 
+Evaluation of Drug Metabolites ......................................................................... 7 
+4.4 
+Evaluation of Impurities .................................................................................... 7 
+5. 
+NOTES ................................................................................................................. 9
+
+1 
+ 
+NONCLINICAL EVALUATION FOR ANTICANCER PHARMACEUTICALS 
+ 
+1. 
+INTRODUCTION 
+1.1 
+Objectives of the Guideline 
+The purpose of this guidance is to provide information to assist in the design of an 
+appropriate program of nonclinical studies for the development of anticancer 
+pharmaceuticals. The guidance provides recommendations for nonclinical evaluations 
+to support the development of anticancer pharmaceuticals in clinical trials for the 
+treatment of patients with advanced disease and limited therapeutic options.  
+This guideline aims to facilitate and accelerate the development of anticancer 
+pharmaceuticals and to protect patients from unnecessary adverse effects, while 
+avoiding unnecessary use of animals, in accordance with the 3R principles 
+(reduce/refine/replace), and other resources. 
+As appropriate, the principles described in other ICH guidelines should be considered 
+in the development of anticancer pharmaceuticals. Specific situations where 
+recommendations for nonclinical testing deviate from other guidance are described in 
+this document. 
+1.2 
+Background 
+Because malignant tumors are life-threatening, the death rate from these diseases is 
+high, and existing therapies have limited effectiveness, it is desirable to provide new, 
+effective anticancer drugs to patients more expeditiously. 
+There have been no internationally accepted objectives or recommendations on the 
+design and conduct of nonclinical studies to support the development of anticancer 
+pharmaceuticals in clinical trials for the treatment of patients with advanced disease 
+and limited therapeutic options. Nonclinical evaluations are conducted to: 
+1) identify the pharmacologic properties of a pharmaceutical;  
+2) establish a safe initial dose level for the first human exposure; and  
+3) understand the toxicological profile of a pharmaceutical (e.g., identification of 
+target organs, exposure-response relationships, and reversibility).  
+In the development of anticancer drugs, clinical studies often involve cancer patients 
+whose disease condition is progressive and fatal. In addition, the dose levels in these 
+clinical studies often are close to or at the adverse effect dose levels. For these 
+reasons, the type, timing and flexibility called for in the design of nonclinical studies 
+of anticancer pharmaceuticals can differ from those elements in nonclinical studies for 
+other pharmaceuticals.  
+1.3 
+Scope 
+This guideline provides information for pharmaceuticals that are intended to treat 
+cancer in patients with serious and life threatening malignancies. For the purpose of 
+this guideline, this patient population is referred to as patients with advanced cancer.
+
+Nonclinical Evaluation for Anticancer Pharmaceuticals 
+ 
+2 
+ 
+The 
+guideline 
+applies 
+to 
+both 
+small 
+molecule 
+and 
+biotechnology-derived 
+pharmaceuticals (biopharmaceuticals), regardless of the route of administration. This 
+guideline describes the type and timing of nonclinical studies in relation to the 
+development of anticancer pharmaceuticals in patients with advanced cancer and 
+references other guidance as appropriate. It describes the minimal considerations for initial 
+clinical trials in patients with advanced cancer whose disease is refractory or resistant to 
+available therapy, or where current therapy is not considered to be providing benefit. The 
+nonclinical data to support Phase I and the clinical Phase I data would normally be 
+sufficient for moving to Phase II and into second or first line therapy in patients with 
+advanced cancer. The guideline also describes further non-clinical data to be collected 
+during continued clinical development in patients with advanced cancer. When an 
+anticancer pharmaceutical is further investigated in cancer patient populations with long 
+expected survival (e.g., those administered pharmaceuticals on a chronic basis to reduce 
+the risk of recurrence of cancer), the recommendations for and timing of additional 
+nonclinical studies depend upon the available nonclinical and clinical data and the nature 
+of the toxicities observed. 
+This guideline does not apply to pharmaceuticals intended for cancer prevention, 
+treatment of symptoms or side effects of chemotherapeutics, studies in healthy 
+volunteers, vaccines, or cellular or gene therapy. If healthy volunteers are included in 
+clinical trials, the ICH M3 guideline should be followed. Radiopharmaceuticals are not 
+covered in this guideline, but some of the principles could be adapted. 
+1.4 
+General Principles 
+The development of each new pharmaceutical calls for studies designed to 
+characterize its pharmacological and toxicological properties according to its intended 
+use in humans. Modification of "standard" nonclinical testing protocols generally is 
+warranted to address novel characteristics associated with the pharmaceutical or with 
+the manner in which it is to be used in humans. 
+The manufacturing process can change during the course of development. However, 
+the active pharmaceutical substance used in nonclinical studies should be well 
+characterized and should adequately represent the active substance to be used in the 
+clinical trials. 
+In general, nonclinical safety studies that are used to support the development of a 
+pharmaceutical should be conducted in accordance with Good Laboratory Practices. 
+2. 
+STUDIES TO SUPPORT NONCLINICAL EVALUATION 
+2.1 
+Pharmacology 
+Prior to Phase I studies, preliminary characterization of the mechanism(s) of action 
+and schedule dependencies as well as anti-tumor activity of the pharmaceutical 
+should have been made. Appropriate models should be selected based on the target 
+and mechanism of action, but the pharmaceutical need not be studied using the same 
+tumor types intended for clinical evaluation.
+
+Nonclinical Evaluation for Anticancer Pharmaceuticals 
+ 
+3 
+ 
+These studies can: 
+● provide nonclinical proof of principle; 
+● guide schedules and dose-escalation schemes; 
+● provide information for selection of test species; 
+● aid in start dose selection and selection of investigational biomarkers, where 
+appropriate; and 
+● if relevant, justify pharmaceutical combinations. 
+Understanding the secondary pharmacodynamic properties of a pharmaceutical could 
+contribute to the assessment of safety for humans, and those properties might be 
+investigated as appropriate. 
+2.2 
+Safety Pharmacology 
+An assessment of the pharmaceutical’s effect on vital organ functions (including 
+cardiovascular, respiratory and central nervous systems) should be available before 
+the initiation of clinical studies; such parameters could be included in general 
+toxicology studies. Detailed clinical observations following dosing and appropriate 
+electrocardiographic measurements in non-rodents are generally considered sufficient. 
+Conducting stand-alone safety pharmacology studies to support studies in patients 
+with advanced cancer is not called for. In cases where specific concerns have been 
+identified that could put patients at significant additional risks in clinical trials, 
+appropriate safety pharmacology studies described in ICH S7A and/or S7B should be 
+considered. In the absence of a specific risk, such studies will not be called for to 
+support clinical trials or for marketing. 
+2.3 
+Pharmacokinetics 
+The evaluation of limited pharmacokinetic parameters (e.g., peak plasma/serum 
+levels, area under the curve (AUC), and half-life) in the animal species used for 
+nonclinical studies can facilitate dose selection, schedule and escalation during Phase 
+I studies. Further information on absorption, distribution, metabolism and excretion 
+of the pharmaceutical in animals should normally be generated in parallel with 
+clinical development.  
+2.4 
+General Toxicology 
+The primary objective of Phase I clinical trials in patients with advanced cancer is to 
+assess the safety of the pharmaceutical. Phase I assessments can include dosing to a 
+maximum tolerated dose (MTD) and dose limiting toxicity (DLT). Toxicology studies 
+to determine a no observed adverse effect level (NOAEL) or no effect level (NOEL) are 
+not considered essential to support clinical use of an anticancer pharmaceutical. As 
+the toxicity of the pharmaceutical can be greatly influenced by its schedule of 
+administration, an approximation of its clinical schedule should be evaluated in 
+toxicology studies. This is further discussed in Section 3.3 and 3.4.  
+Assessment of the potential to recover from toxicity should be provided to 
+understand whether serious adverse effects are reversible or irreversible. A 
+study that includes a terminal non-dosing period is called for if there is severe toxicity
+
+Nonclinical Evaluation for Anticancer Pharmaceuticals 
+ 
+4 
+ 
+at approximate clinical exposure and recovery cannot be predicted by scientific 
+assessment. This scientific assessment can include the extent and severity of the 
+pathologic lesion and the regenerative capacity of the organ system showing the effect. 
+If a study of recovery is called for, it should be available to support clinical 
+development. The demonstration of complete recovery is not considered essential.  
+For small molecules, the general toxicology testing usually includes rodents and non-
+rodents. In certain circumstances, determined case-by-case, alternative approaches 
+can be appropriate (e.g., for genotoxic drugs targeting rapidly dividing cells, a repeat-
+dose toxicity study in one rodent species might be considered sufficient, provided the 
+rodent is a relevant species). For biopharmaceuticals, see ICH S6 for the number of 
+species to be studied. 
+Toxicokinetic evaluation should be conducted as appropriate. 
+2.5 
+Reproduction Toxicology  
+An embryofetal toxicology assessment is conducted to communicate potential risk for 
+the developing embryo or fetus to patients who are or might become pregnant. 
+Embryofetal toxicity studies of anticancer pharmaceuticals should be available when 
+the marketing application is submitted, but these studies are not considered essential 
+to support clinical trials intended for the treatment of patients with advanced cancer. 
+These studies are also not considered essential for the purpose of marketing 
+applications for pharmaceuticals that are genotoxic and target rapidly dividing cells 
+(e.g., crypt cells, bone marrow) in general toxicity studies or belong to a class that has 
+been well characterized as causing developmental toxicity. 
+For small molecules, embryofetal toxicology studies are typically conducted in two 
+species as described by ICH S5(R2). In cases where an embryofetal developmental 
+toxicity study is positive for embryofetal lethality or teratogenicity, a confirmatory 
+study in a second species is usually not warranted. 
+For biopharmaceuticals, an assessment in one pharmacologically relevant species 
+should usually be sufficient. This assessment might be done by evaluating the toxicity 
+during the period of organogenesis or study designs as described by ICH S6. 
+Alternative approaches might be considered appropriate if scientifically justified. The 
+alternative approaches might include a literature assessment, assessment of placental 
+transfer, the direct or indirect effects of the biopharmaceutical, or other factors. 
+A study of fertility and early embryonic development is not warranted to support 
+clinical trials or for marketing of pharmaceuticals intended for the treatment of 
+patients with advanced cancer. Information available from general toxicology studies 
+on the pharmaceutical’s effect on reproductive organs should be used as the basis of 
+the assessment of impairment of fertility. 
+A pre- and postnatal toxicology study is generally not warranted to support clinical 
+trials or for marketing of pharmaceuticals for the treatment of patients with advanced 
+cancer.  
+2.6 
+Genotoxicity 
+Genotoxicity studies are not considered essential to support clinical trials for 
+therapeutics intended to treat patients with advanced cancer. Genotoxicity studies
+
+Nonclinical Evaluation for Anticancer Pharmaceuticals 
+ 
+5 
+ 
+should be performed to support marketing (see ICH S2). The principles outlined in 
+ICH S6 should be followed for biopharmaceuticals. If the in vitro assays are positive, 
+an in vivo assay might not be warranted. 
+2.7 
+Carcinogenicity  
+The appropriateness of a carcinogenicity assessment for anticancer pharmaceuticals is 
+described in ICH S1A. Carcinogenicity studies are not warranted to support 
+marketing for therapeutics intended to treat patients with advanced cancer.  
+2.8 
+Immunotoxicity 
+For most anticancer pharmaceuticals, the design components of the general toxicology 
+studies are considered sufficient to evaluate immunotoxic potential and support 
+marketing. For immunomodulatory pharmaceuticals, additional endpoints (such as 
+immunophenotyping by flow cytometry) might be included in the study design. 
+2.9 
+Photosafety testing 
+An initial assessment of phototoxic potential should be conducted prior to Phase I, based 
+on photochemical properties of the drug and information on other members in the class. If 
+assessment of these data indicates a potential risk, appropriate protective measures should 
+be taken during outpatient trials. If the photosafety risk cannot be adequately evaluated 
+based on nonclinical data or clinical experience, a photosafety assessment consistent with 
+the principles described in ICH M3 should be provided prior to marketing. 
+3. 
+NONCLINICAL DATA TO SUPPORT CLINICAL TRIAL DESIGN AND MARKETING 
+3.1 
+Start Dose for First Administration in Humans 
+The goal of selecting the start dose is to identify a dose that is expected to have 
+pharmacologic effects and is reasonably safe to use. The start dose should be 
+scientifically justified using all available nonclinical data (e.g., pharmacokinetics, 
+pharmacodynamics, toxicity), and its selection based on various approaches (see Note 
+2). For most systemically administered small molecules, interspecies scaling of the 
+animal doses to an equivalent human dose is usually based on normalization to body 
+surface area. For both small molecules and biopharmaceuticals, interspecies scaling 
+based on body weight, AUC, or other exposure parameters might be appropriate. 
+ 
+For biopharmaceuticals with immune agonistic properties, selection of the start dose 
+using a minimally anticipated biologic effect level (MABEL) should be considered. 
+3.2 
+Dose Escalation and the Highest Dose in a Clinical Trial 
+In general, the highest dose or exposure tested in the nonclinical studies does not 
+limit the dose-escalation or highest dose investigated in a clinical trial in patients 
+with cancer. When a steep dose- or exposure-response curve for severe toxicity is 
+observed in nonclinical toxicology studies, or when no preceding marker of severe
+
+Nonclinical Evaluation for Anticancer Pharmaceuticals 
+ 
+6 
+ 
+toxicity is available, smaller than usual dose increments (fractional increments rather 
+than dose doubling) should be considered.  
+3.3 
+Duration and Schedule of Toxicology Studies to Support Initial 
+Clinical Trials 
+In Phase I clinical trials, treatment can continue according to the patient’s response, 
+and in this case, a new toxicology study is not called for to support continued 
+treatment beyond the duration of the completed toxicology studies.  
+The design of nonclinical studies should be appropriately chosen to accommodate 
+different dosing schedules that might be utilized in initial clinical trials. It is not 
+expected that the exact clinical schedule always will be followed in the toxicological 
+study, but the information provided from the toxicity studies should be sufficient to 
+support the clinical dose and schedule and to identify potential toxicity. For example, 
+one factor that can be considered is the half-life in the test species and the projected 
+(or known) half-life in humans. Other factors could include exposure assessment, 
+toxicity profile, saturation of receptors, etc. Table 1 provides examples of nonclinical 
+treatment schedules that are commonly used in anticancer pharmaceutical 
+development and can be used for small molecules or biopharmaceuticals. In cases 
+where the available toxicology information does not support a change in clinical 
+schedules, an additional toxicology study in a single species is usually sufficient. 
+3.4  
+Duration of Toxicology Studies to Support Continued Clinical 
+Development and Marketing 
+The nonclinical data to support Phase I and the clinical Phase I data would normally be 
+sufficient for moving to Phase II and into second or first line therapy in patients with 
+advanced cancer. In support of continued development of an anticancer pharmaceutical 
+for patients with advanced cancer, results from repeat dose studies of 3 months’ 
+duration following the intended clinical schedule should be provided prior to initiating 
+Phase III studies. For most pharmaceuticals intended for the treatment of patients 
+with advanced cancer, nonclinical studies of 3 months duration are considered 
+sufficient to support marketing.  
+When considering a change in the clinical schedule, an evaluation of the existing 
+clinical data should be conducted to justify such change. If the clinical data alone are 
+inadequate to support the change in schedule, the factors discussed in Section 3.3 
+above should be considered. 
+3.5 
+Combination of Pharmaceuticals 
+Pharmaceuticals planned for use in combination should be well studied individually in 
+toxicology evaluations. Data to support a rationale for the combination should be 
+provided prior to starting the clinical study. In general, toxicology studies 
+investigating the safety of combinations of pharmaceuticals intended to treat patients 
+with advanced cancer are not warranted. If the human toxicity profile of the 
+pharmaceuticals has been characterized, a nonclinical study evaluating the 
+combination is not usually warranted. For studies in which at least one of these 
+compounds is in early stage development (i.e., the human toxicity profile has not been 
+characterized), a pharmacology study to support the rationale for the combination 
+should be provided. This study should provide evidence of increased activity in the
+
+Nonclinical Evaluation for Anticancer Pharmaceuticals 
+ 
+7 
+ 
+absence of a substantial increase in toxicity on the basis of limited safety endpoints, 
+such as mortality, clinical signs, and body weight. Based on available information, a 
+determination should be made whether or not a dedicated toxicology study of the 
+combination is warranted. 
+3.6 
+Nonclinical Studies to Support Trials in Pediatric Populations 
+The general paradigm for investigating most anticancer pharmaceuticals in pediatric 
+patients is first to define a relatively safe dose in adult populations and then to assess 
+some fraction of that dose in initial pediatric clinical studies. The recommendations 
+for nonclinical testing outlined elsewhere in this document also apply for this 
+population. Studies in juvenile animals are not usually conducted in order to support 
+inclusion of pediatric populations for the treatment of cancer. Conduct of studies in 
+juvenile animals should be considered only when human safety data and previous 
+animal studies are considered insufficient for a safety evaluation in the intended 
+pediatric age group. 
+4. 
+OTHER CONSIDERATIONS  
+4.1 
+Conjugated Products 
+Conjugated products are pharmaceuticals covalently bound to carrier molecules, such 
+as proteins, lipids, or sugars. The safety of the conjugated material is the primary 
+concern. The safety of the unconjugated material, including the linker used, can have 
+a more limited evaluation. Stability of the conjugate in the test species and human 
+plasma should be provided. A toxicokinetic evaluation should assess both the 
+conjugated and the unconjugated compound after administration of the conjugated 
+material.  
+4.2 
+Liposomal Products 
+A complete evaluation of the liposomal product is not warranted if the unencapsulated 
+material has been well characterized. As appropriate, the safety assessment should 
+include a toxicological evaluation of the liposomal product and a limited evaluation of 
+the unencapsulated pharmaceutical and carrier (e.g., a single arm in a toxicology 
+study). The principle described here might also apply to other similar carriers. A 
+toxicokinetic evaluation should be conducted as appropriate. If possible, such an evaluation 
+should assess both the liposomal product and the free compound after administration of the 
+liposomal product. 
+4.3 
+Evaluation of Drug Metabolites 
+In some cases, metabolites that have been identified in humans have not been 
+qualified in nonclinical studies. For these metabolites, a separate evaluation is 
+generally not warranted for patients with advanced cancer.  
+4.4 
+Evaluation of Impurities 
+It is recognized that impurity standards have been based on a negligible risk, as 
+discussed in ICH Q3A and Q3B. Exceeding the established limits for impurities 
+identified 
+in 
+these 
+ICH 
+guidelines 
+could 
+be 
+appropriate 
+for 
+anticancer
+
+Nonclinical Evaluation for Anticancer Pharmaceuticals 
+ 
+8 
+ 
+pharmaceuticals, and a justification should be provided in the marketing application. 
+The justification could include the disease being treated and the patient population, 
+the nature of the parent pharmaceutical (pharmacologic properties, genotoxicity and 
+carcinogenic potential, etc.), duration of treatment, and the impact of impurity 
+reduction on manufacturing. Further, the qualification assessment could include 
+consideration of either the dose or concentration tested in nonclinical study relative to 
+clinical levels. For genotoxic impurities, several approaches have been used to set 
+limits based on increase in lifetime risk of cancer. Such limits are not appropriate for 
+pharmaceuticals intended to treat patients with advanced cancer, and justifications 
+described above should be considered to set higher limits. Impurities that are also 
+metabolites present in animal and/or human studies are generally considered 
+qualified. 
+ 
+Table 1: Examples of Treatment Schedules for Anticancer Pharmaceuticals 
+to Support Initial Clinical Trials  
+Clinical Schedule 
+Examples of Nonclinical Treatment 
+Schedule1,2,3,4 
+Once every 3-4 weeks
+Single dose 
+Daily for 5 days every 3 weeks
+Daily for 5 days
+Daily for 5-7 days, alternating 
+weeks 
+Daily for 5-7 days, alternating weeks (2-dose cycles)
+Once a week for 3 weeks, 
+1 week off 
+Once a week for 3 weeks
+Two or three times a week 
+Two or three times a week for 4 weeks
+Daily
+Daily for 4 weeks
+Weekly
+Once a week for 4-5 doses 
+ 
+1 Table 1 describes the dosing Phase. The timing of the toxicity assessment(s) in the 
+non-clinical studies should be scientifically justified based on the anticipated toxicity 
+profile and the clinical schedule. For example, both a sacrifice shortly after the dosing 
+Phase to examine early toxicity and a later sacrifice to examine late onset of toxicity 
+should be considered.  
+2 For further discussion regarding flexibility in the relationship of the clinical 
+schedule and the non-clinical toxicity studies, see Section 3.3. 
+3 The treatment schedules described in the table do not specify recovery periods (see 
+Section 2.4 and Note 1 regarding recovery). 
+4 The treatment schedules described in this table should be modified as appropriate 
+for molecules with extended pharmacodynamic effects, long half-lives or potential for 
+anaphylactic reactions. In addition, the potential effects of immunogenicity should be 
+considered (see ICH S6).
+
+Nonclinical Evaluation for Anticancer Pharmaceuticals 
+ 
+9 
+ 
+5. 
+NOTES 
+1. For nonrodent studies, dose groups usually consist of at least 3 animals/sex/group, 
+with an additional 2/sex/group for recovery, if appropriate (see Section 2.4). Both sexes 
+should generally be used, or justification should be given for specific omissions. 
+2. A common approach for many small molecules is to set a start dose at 1/10 the 
+Severely Toxic Dose in 10% of the animals (STD 10) in rodents. If the non-rodent is 
+the most appropriate species, then 1/6 the Highest Non-Severely Toxic Dose (HNSTD) 
+is considered an appropriate starting dose. The HNSTD is defined as the highest dose 
+level that does not produce evidence of lethality, life-threatening toxicities or 
+irreversible findings.

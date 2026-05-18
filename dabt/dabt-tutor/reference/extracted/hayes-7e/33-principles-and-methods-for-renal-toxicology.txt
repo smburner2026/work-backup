@@ -1,0 +1,2540 @@
+# 33 Principles and Methods for Renal Toxicology
+# Hayes' Principles and Methods of Toxicology, 7th Edition
+# Pages: 1814-1839
+# Unit: Volume II
+
+1755
+33
+Principles and Methods for Renal Toxicology
+Jennifer G. Schnellmann and Rick G. Schnellmann
+CONTENTS
+33.1	 Introduction�����������������������������������������������������������������������������������������������������������������������������������������������������������������������1756
+33.2	 Renal Anatomy, Biochemistry, and Physiology����������������������������������������������������������������������������������������������������������������1756
+33.2.1	 Overall Structural Organization of the Kidneys��������������������������������������������������������������������������������������������������1756
+33.2.2	 Glomerular Filtration and Urine Formation���������������������������������������������������������������������������������������������������������1757
+33.3	 Nephron Heterogeneity: Physiological, Biochemical, and Toxicological Implications����������������������������������������������������1759
+33.3.1	 Nephron Cell Types: Structure and Function�������������������������������������������������������������������������������������������������������1759
+33.3.1.1	 Proximal Tubules����������������������������������������������������������������������������������������������������������������������������������1759
+33.3.1.2	 Thin Descending and Thin Ascending Limbs�������������������������������������������������������������������������������������1760
+33.3.1.3	 Thick Ascending Limb�������������������������������������������������������������������������������������������������������������������������1760
+33.3.1.4	 Distal Convoluted Tubule���������������������������������������������������������������������������������������������������������������������1760
+33.3.1.5	 Cortical Collecting Duct�����������������������������������������������������������������������������������������������������������������������1760
+33.3.1.6	 Cellular Energetics��������������������������������������������������������������������������������������������������������������������������������1760
+33.3.1.7	 OA∞ and OC+ Transport�����������������������������������������������������������������������������������������������������������������������1761
+33.3.1.8	 Drug Metabolism����������������������������������������������������������������������������������������������������������������������������������1763
+33.3.2	 Regulation of Renal Function������������������������������������������������������������������������������������������������������������������������������1764
+33.4	 Experimental Models for Assessing Renal Function and Toxicity����������������������������������������������������������������������������������1764
+33.4.1	 General Considerations for Choosing a Model���������������������������������������������������������������������������������������������������1764
+33.4.2	 Whole Animal and Clinical Assessments: Markers of Renal Function and Toxicity in Blood and Urine��������1764
+33.4.2.1	 Urinalysis����������������������������������������������������������������������������������������������������������������������������������������������1765
+33.4.2.2	 Clearance Methods�������������������������������������������������������������������������������������������������������������������������������1766
+33.4.3	 Isolated Perfused Kidney�������������������������������������������������������������������������������������������������������������������������������������1767
+33.4.3.1	 Micropuncture and Microperfusion Techniques����������������������������������������������������������������������������������1768
+33.4.3.2	 Renal Slices�������������������������������������������������������������������������������������������������������������������������������������������1769
+33.4.3.3	 Isolated Perfused Tubules���������������������������������������������������������������������������������������������������������������������1769
+33.4.3.4	 Isolated Tubular Fragments and Cells: Freshly Isolated and Primary Culture������������������������������������1770
+33.4.3.5	 Renal Cell Culture Lines����������������������������������������������������������������������������������������������������������������������1772
+33.4.4	 Kidneys on a Chip������������������������������������������������������������������������������������������������������������������������������������������������1772
+33.4.5	 Kidney Organoids�������������������������������������������������������������������������������������������������������������������������������������������������1772
+33.5	 Assays of Renal Cellular Function������������������������������������������������������������������������������������������������������������������������������������1772
+33.5.1	 Assays of Cell Death: Necrosis, Apoptosis����������������������������������������������������������������������������������������������������������1772
+33.5.2	 Renal Cellular Function���������������������������������������������������������������������������������������������������������������������������������������1774
+33.5.3	 Molecular Markers of Renal Cellular Repair, Regeneration, and Proliferation��������������������������������������������������1775
+33.5.4	 Use of Genomics, Proteomics, and Metabolomics in Renal Physiology and Toxicology�����������������������������������1776
+33.6	 Human Disease and Risk Assessment������������������������������������������������������������������������������������������������������������������������������1776
+33.6.1	 Experimental Models of Renal Diseases�������������������������������������������������������������������������������������������������������������1776
+33.6.2	 Extrapolation of Animal Data to Humans�����������������������������������������������������������������������������������������������������������1776
+33.6.3	 Future Considerations�������������������������������������������������������������������������������������������������������������������������������������������1776
+33.7	 Summary���������������������������������������������������������������������������������������������������������������������������������������������������������������������������1777
+33.8	 Questions���������������������������������������������������������������������������������������������������������������������������������������������������������������������������1777
+References����������������������������������������������������������������������������������������������������������������������������������������������������������������������������������1777
+DOI: 10.1201/9781003390008-37
+
+1756
+Hayes’ Principles and Methods of Toxicology
+33.1  Introduction
+This chapter focuses on guiding and underlying principles and 
+methods used to study kidney function and toxicity, ranging 
+from the whole animal or humans, to the organ, cellular and 
+subcellular components, and individual molecules. This range 
+reflects the need to have noninvasive means of measuring renal 
+function and toxicity in the clinic as well as more effective 
+therapeutic approaches to treat renal disease and renal injury 
+arising from exposures to toxic chemicals. The latter requires 
+an understanding of the molecular changes that accompany 
+renal exposures to toxic chemicals and various diseases that 
+affect the kidneys. To this end, biomarkers are focused on heav-
+ily. Although biomarkers or biological markers are not new for 
+assessing renal function or exposure to nephrotoxicants, recent 
+methodological advances and better understanding of renal 
+function have allowed the identification of new biomarkers that 
+can be useful for identifying chemical exposures or indicating 
+changes in renal function. However, to be clinically useful, the 
+biomarker must be something readily measured in a noninva-
+sive manner, such as from a blood or urine sample.
+Biomarkers can be considered to be of three types: bio-
+markers of exposure, biomarkers of effect, and biomarkers of 
+susceptibility. Biomarkers of exposure (to a drug or chemical 
+contaminant) are typically either the presence of the chemical 
+itself, a key stable metabolite, or a product derived from interac-
+tion between the chemical and a component in the target cell. 
+An example of the latter might be a protein with a specific 
+adduct or a chemically modified residue. Even so, the utility of 
+such markers for therapeutics is questionable because so many 
+drugs have common metabolites or produce similar molecular 
+changes in target cells. Biomarkers of effect are by far the most 
+common and include measurable cellular, physiologic, or bio-
+chemical changes. For these to be most useful, they must be 
+tissue- and chemical-specific and highly sensitive. Finally, bio-
+markers of susceptibility help to identify a genetic factor or pre-
+existing disease that alters the response to a chemical exposure. 
+Pharmacogenetics or pharmacogenomics has greatly increased 
+our understanding of potential variations in the response of 
+the human population. By identifying genetic polymorphisms 
+in processes such as drug metabolism or transport or ligand-
+receptor binding, for example, individuals can be identified who 
+are most likely to experience adverse effects from chemical 
+exposure and at lower doses of the chemical. From this idea, 
+the concept of personalized medicine has emerged. The text is 
+divided into four sections. First, key properties of renal struc-
+ture and function are reviewed as they relate to the kidneys as 
+a target organ for chemically induced toxicity, although much 
+more detailed information on renal structure and function can 
+be found in several texts.1
+It is important to provide some foundation to address what 
+makes the kidneys particularly susceptible to many forms of 
+injury. Next, various experimental models are described that 
+can be used to study renal function and toxicity, specifically, 
+their advantages and limitations in renal toxicology. Then, 
+selected examples of assays used to quantify renal cellular 
+function are discussed, ranging from substances measured 
+in blood or urine that are potentially clinically relevant to 
+cellular and subcellular components that can be used to elu-
+cidate mechanisms and develop novel therapeutic approaches 
+to treating renal injury. In the final section, human disease and 
+risk assessment is described, integrating experimental models 
+of renal disease and chemically induced nephrotoxicity and 
+how animal models are used to make predictions for humans.
+Although this chapter summarizes factors that determine 
+or contribute to nephrotoxicity and experimental models and 
+assays used to study renal function and toxicity, detailed step-
+by-step procedures are not included. Rather, highlights, advan-
+tages, and limitations are emphasized.
+33.2  Renal Anatomy, Biochemistry, 
+and Physiology
+The kidneys are uniquely sensitive to many toxicants because 
+they receive and filter a large quantity of blood relative to their 
+weight. On average, the two kidneys receive 25% of cardiac out-
+put while comprising only about 1% of body weight. Additionally, 
+plasma membranes of renal epithelial cells, especially those of 
+the proximal tubule, possess myriad transport proteins. Thus, 
+the combination of renal blood flow and membrane transport-
+ers can often lead to the accumulation of chemicals relative to 
+that in plasma within the tubular epithelial cells. The presence of 
+drug metabolism enzymes, which can bioactivate inert or non-
+toxic chemicals, further contributes to the potential susceptibil-
+ity of the kidneys to chemically induced injury.
+The major function of the kidneys is to excrete waste prod-
+ucts while maintaining total body salt, water, and acid-base 
+balance. The kidneys are thus the primary organs responsible 
+for maintaining the constancy of the internal environment. 
+This is accomplished by three mechanisms: (1) glomerular 
+filtration, (2) tubular reabsorption, and (3) tubular secretion. 
+Each mechanism, primarily with a focus on its contribution to 
+renal susceptibility and injury, is discussed later in this chapter. 
+The following subsection will briefly discuss some of the key 
+structural and functional features of the mammalian kidney. 
+A critical point is that the kidneys exemplify form following 
+function. It is also important how these functions, in a toxico-
+logical or pathological context rather than under normal physi-
+ological conditions, make the kidneys a unique target organ.
+33.2.1  Overall Structural  
+Organization of the Kidneys
+The major tissue types in the kidneys are vascular tissue and 
+tubular epithelia. Kidney structure can be considered at mul-
+tiple levels of organization. At the highest level, the kidney 
+is subdivided into cortex, outer stripe of the outer medulla, 
+inner stripe of the outer medulla, and inner medulla or papilla. 
+Humans and larger mammals have multi-papillate kidneys, 
+whereas small mammals, such as rat and rabbit, are uni-papil-
+late. Each papilla descends into a renal fornix. In multi-papil-
+late kidneys, fornices merge to form the renal pelvis, which is 
+an expanded upward extension of the ureter. There is a close 
+association, both physically and functionally, between the 
+renal vasculature and epithelial tissue. The renal artery enters
+
+1757
+Principles and Methods for Renal Toxicology
+the kidney alongside the ureter, branching to become progres-
+sively the interlobular arterioles that lead to the glomerular 
+capillary network. The venous system has subdivisions with 
+similar designations, terminating in the renal vein, which also 
+flows beside the ureter.
+At the closed end, the nephron is extended to form the 
+cup-shaped Bowman’s capsule. The lumen of the capsule is 
+continuous with the narrow lumen that extends through the 
+renal tubule. Associated with the capsule is the tuft of cap-
+illaries that forms the glomerulus inside Bowman’s capsule. 
+This structure is responsible for the initial step in urine forma-
+tion. A filtrate of plasma passes through the single-cell layer of 
+capillary walls, through the basement membrane, and finally 
+through another single-cell layer of epithelium that forms the 
+wall of Bowman’s capsule. The filtrate then passes into the 
+lumen of the tubules to begin its passage through the various 
+segments of the nephron, eventually passing into the collecting 
+duct and the renal pelvis. The wall of the renal tubule is one 
+cell layer thick, and this epithelium functions to separate the 
+plasma and urinary filtrate in the lumen from the interstitial 
+fluid.
+The nephron is considered the functional unit of the mam-
+malian kidney and consists of a glomerular capillary network 
+surrounded by Bowman’s capsule, a proximal tubule (con-
+voluted and pars recta or straight segment), a loop of Henle 
+(thin descending limb, thick ascending limb), a distal tubule 
+(convoluted tubule and collecting tubule), and a collecting duct 
+(Figure 33.1). The nephron is an epithelial tubule that is closed 
+on one end and opens into the renal pelvis and collecting ducts 
+at the other end. Nephrons are divided into three classes, based 
+on the location of their glomerulus: superficial, midcortical, 
+and juxtamedullary. Glomeruli located near the surface of 
+the kidney give rise to superficial nephrons, which generally 
+only descend into the outer medulla. These nephrons are also 
+called short-looped nephrons and lack thin ascending limbs. 
+Glomeruli located deep within the cortex, near the corticome-
+dullary border, give rise to juxtamedullary nephrons. These 
+nephrons are called long-looped nephrons and enter the inner 
+medulla and have thin descending limbs. In general, mammals 
+that produce highly concentrated urine have longer papillae 
+and a higher proportion of long-looped versus short-looped 
+nephrons. Glomeruli located between the superficial and 
+juxtamedullary glomeruli give rise to midcortical nephrons. 
+These may be either long-looped or short-looped, although the 
+deeper glomeruli are more likely to be associated with long-
+looped nephrons.
+Basic nephron structure can also be considered on the basis 
+of localization relative to the vascular or urinary poles. The uri-
+nary pole starts at the proximal convoluted tubule in the cortex. 
+The tubule enters the medulla where it forms the loop of Henle. 
+The distal tubule returns to the glomerulus of origin and then 
+enters the cortex where it is somewhat convoluted. The distal 
+tubule then leads into the collecting duct, which goes into the 
+medullary pyramid and then into the papillae. The nephron 
+ends at the junction of the distal tubule and the collecting duct. 
+Several nephrons feed into a single collecting duct. The vascular 
+pole is the juxtaglomerular region, which contains mesangial 
+cells and the returning distal portion of the distal tubule. This 
+region has many closely packed nuclei and is macula densa. The 
+afferent arteriole breaks up into eight to ten capillary loops in 
+the glomerulus. On the opposite side of the glomerulus is the 
+urinary pole where the proximal tubule begins.
+An important region of the nephron that is critically involved 
+in regulation of renal blood flow and urine formation is the 
+juxtaglomerular apparatus (JGA), which consists of special-
+ized epithelial cells, the macula densa cells, and specialized 
+secretory or granular cells at the vascular pole where the affer-
+ent and efferent arterioles enter and leave the glomerulus. The 
+JGA is thus a combination of specialized tubular and vascular 
+(i.e., smooth muscle) cells. A key function of the JGA is secre-
+tion of renin, which is involved in the formation of angiotensin 
+and, ultimately, in secretion of the mineralocorticoid aldoste-
+rone. This process is part of the feedback system that regulates 
+glomerular filtration and renal blood flow.
+33.2.2  Glomerular Filtration and Urine Formation
+Each kidney receives its blood supply from a single renal 
+artery and renal vein. The renal arteries originate from the 
+aorta and the renal veins drain into the interior vena cava. 
+The urine formed in each kidney is drained via a single ure-
+ter into the bladder. The initial stage of urine formation is fil-
+tration of plasma and accumulation of the ultrafiltrate in the 
+lumen of Bowman’s capsule. The glomerular filtrate contains 
+nearly all the constituents of the blood except for the blood 
+cells and large proteins. Approximately 15–25% of the water 
+and solutes are removed from the plasma during a single pass 
+through the renal circulation by filtration alone. In humans, the 
+glomerular filtrate is typically produced at a rate of 125 mL/
+min or about 200 L/day. Consideration of normal fluid intake 
+implies that most of the glomerular filtrate must be reabsorbed 
+into the bloodstream to maintain water balance and prevent 
+dehydration.
+Glomerular filtration refers to the movement of water and sol-
+utes across the glomerular membrane to form an ultrafiltrate of 
+plasma in the tubular lumen and is the first step in urine forma-
+tion. It depends on two factors: (1) a pressure gradient from the 
+lumen of the capillary to the lumen of Bowman’s capsule and 
+(2) the sieve-like properties of the three-layered tissue separating 
+the two compartments. Water and non-protein solutes (e.g., inor-
+ganic anions and cations, intermediary metabolites such as glu-
+cose and urea) are found in the filtrate at approximately the same 
+concentrations at which they occur in plasma. The exclusion of 
+most proteins above a threshold molecular weight from the glo-
+merular filtrate is critical for maintenance of the osmotic pres-
+sure difference across the glomerular membrane. As described 
+in the following text, appearance of significant amounts of high-
+molecular-weight proteins in the urine is an obvious indicator 
+of glomerular damage. Thus, filtration occurs because forces 
+moving fluid out of the capillary (i.e., hydrostatic pressure) 
+exceed forces preventing both, movement out of the capillary 
+(i.e., oncotic pressure due to plasma proteins) and into Bowman’s 
+space (i.e., hydraulic pressure within Bowman’s capsule).
+The glomerular filtration rate (GFR) is affected by changes 
+in blood pressure, plasma protein concentration, and the ultra-
+filtration coefficient (Kf). GFR varies directly with blood pres-
+sure and inversely with protein concentration in the afferent 
+arteriole. Although GFR is highly dependent on blood flow,
+
+1758
+Hayes’ Principles and Methods of Toxicology
+renal blood flow is normally independent of systemic blood 
+pressure and is autoregulated (i.e., to be approximately con-
+stant) as long as blood pressure is above about 80 mmHg. 
+Kf is not a constant but varies in response to agents such as 
+angiotensin II, vasopressin, and norepinephrine. Contraction 
+of the mesangium reduces Kf. Alterations of this coefficient 
+are thought to be important in the progression of glomerular 
+damage but not tubular damage.
+The two other processes, besides glomerular filtration, that 
+account for the ability of the kidneys to regulate electrolyte, 
+organic metabolite, and water balance are tubular reabsorp-
+tion and tubular secretion. Tubular reabsorption refers to the 
+movement of substances from the tubular fluid, through the 
+epithelial cell, back into plasma. In this manner, substances 
+that would otherwise have been excreted in urine are reab-
+sorbed. The functional significance of tubular reabsorption is 
+evident from an evaluation of the renal handling of Na+ ions 
+and glucose. The kidneys actively reabsorb >99% of the Na+ 
+ions and glucose that emerge in the tubular fluid after glomer-
+ular filtration. Although reabsorption of the filtered NaCl load 
+occurs along all segments of the nephron, the proximal tubules 
+account for approximately 60% of the total reabsorption under 
+normal conditions. The remainder is reabsorbed in the thick 
+ascending limb (~30%), distal convoluted tubule (DCT) (~7%), 
+and collecting duct (~2–3%). Depending on the filtered NaCl 
+load, however, these proportions can be greatly modified as 
+Na+ ion transport in the more distal portions of the nephron 
+and the collecting duct is under hormonal control. Tubular 
+secretion, in contrast, refers to the movement of substances 
+from plasma, through the epithelial cell, into the tubular fluid 
+and ultimately the urine. Tubular secretion is a critical com-
+ponent of how the body handles many drugs and xenobiotics.
+FIGURE 33.1  Diagram of basic nephron structure and the associated renal vasculature.2
+
+1759
+Principles and Methods for Renal Toxicology
+The processes described earlier lead to a glomerular filtrate 
+in the proximal tubular lumen that is isosmotic with plasma 
+(i.e., ~300 mOsM). As the filtrate progresses along the nephron, 
+however, there is a countercurrent mechanism that generates an 
+extremely high osmolarity in the medullary interstitium. Thus, 
+the medullary interstitium at the base of the loop of Henle in 
+long-looped nephrons can reach as high as 1,200 mOsM. As 
+fluid progresses through the thick ascending limb to the distal 
+and cortical collecting tubules, osmolarity decreases to ~100 
+mOsM. This behavior is dependent primarily on three factors: 
+(1) active chloride or sodium reabsorption in the ascending limb, 
+(2) the anatomical relationship between the descending and 
+ascending limbs (i.e., both limbs are close together and flow in 
+each is in the opposite direction), and (3) the parallel vascular 
+structure to the nephron structure that forms a countercurrent 
+exchange of blood and prevents solutes from coming out of the 
+descending limb and being washed away.
+33.3  Nephron Heterogeneity: Physiological, 
+Biochemical, and Toxicological Implications
+The mammalian kidney is a complex organ whose basic struc-
+tural unit, the nephron, is composed of several cell popula-
+tions, each exhibiting diverse morphological, biochemical, 
+and physiological properties.3,4 As briefly described earlier, 
+specific properties of each segment are critical to overall 
+kidney function in reabsorption and secretion. As presented 
+in the following text, each segment is both morphologically 
+and biochemically designed to perform specific functions in 
+urine formation and maintenance of electrolyte, fluid, and 
+metabolite homeostasis. Additionally, these features also give 
+each nephron segment a characteristic susceptibility to either 
+chemical toxicants or to pathological states, such as hypoxia or 
+ischemia/reperfusion. As will be briefly described in the fol-
+lowing subsections, these susceptibility differences are due in 
+part to the distinctive composition of membrane transporters 
+and enzymes in each segment but also to differences in cel-
+lular energetics and oxygenation.
+An important feature of all nephron cell types, and is also 
+characteristic of transporting epithelia in general, is that they 
+are polarized cells, meaning that the plasma membrane is phys-
+ically separated by tight junctions into distinct regions (lumi-
+nal or brush-border membrane and basolateral membrane). A 
+critical feature of this separation is that each region comprises 
+distinct enzymes, carriers, channels, and other proteins. This 
+separation is essential for functions such as vectorial transport 
+as part of tubular reabsorption and tubular secretion; distur-
+bances in the processing of key membrane proteins have been 
+identified as a response to nephrotoxicants and disease states.
+33.3.1  Nephron Cell Types:  
+Structure and Function
+The subsections that follow will summarize some key mor-
+phological and functional features of several major nephron 
+segments. Additional details and discussion of other nephron 
+segments can be found in any number of texts or book chap-
+ters.1 An overview of the major nephron segments, highlight-
+ing some of their key morphological features and physiological 
+roles, is presented in Table 33.1.
+33.3.1.1  Proximal Tubules
+The first nephron segment to which the tubular filtrate comes 
+in contact after glomerular filtration is the proximal tubule. 
+The proximal tubule is subdivided into three segments: S1, 
+S2, and S3. The first segment (S1) is located within the pars 
+convoluta or proximal convoluted tubule, and is found in the 
+cortex. The S2 segment is localized at the end of the convo-
+luted and beginning of the straight section (pars recta or proxi-
+mal straight tubule), and the S3 segment is localized entirely 
+within the proximal straight tubule, which is in the outer stripe 
+of the outer medulla.
+TABLE 33.1
+Morphology and Physiology of Selected Mammalian Kidney Nephron Segments
+Nephron Cell Type
+Morphology
+Physiology
+Proximal tubule
+Tall and prominent microvilli on luminal membrane (especially S1)
+75% of filtered Na+ removed by active transport
+Passive water and Cl∞ reabsorption, most glucose, 
+amino acid reabsorption
+ 
+Cuboidal, with extensive basolateral infoldings
+OA∞ secretion (S2, S3)
+ 
+Leaky epithelium, dense with mitochondria
+Tubular fluid isosmotic to plasma
+Thin descending limb
+Squamous epithelium with shallow tight junctions (types II and III)
+Extremely high osmotic water permeability
+Low density of mostly spherical mitochondria
+Tubular urine concentration
+Thin ascending limb
+Flat, moderately interdigitated cell with shallow tight junctions
+Water impermeable; no aquaporin
+Low density of mostly spherical mitochondria
+Thick ascending limb
+Extensive interdigitation with shallow tight junctions
+Water impermeable; no aquaporin
+Large number of elongated, rod-shaped mitochondria
+NKCC2 cotransport
+Dilution of hyperosmotic tubular urine
+Distal tubule (DCT)
+DCT appears bright under microscope short deep tight junctions; 
+numerous long mitochondria
+High Na+ reabsorption
+Thiazide-inhibitable NCC1 cotransporter
+Water impermeable
+Cortical collecting duct
+Two cell types: principal cells, intercalated cells (2:1)
+Vasopressin-dependent water permeability
+Active and passive transports of Cl∞ and K+ ions
+
+1760
+Hayes’ Principles and Methods of Toxicology
+The epithelial cells of the S1 segment are rather leaky, 
+allowing movement of solutes between cells by a paracellu-
+lar route. Approximately 60–70% of the initial tubular filtrate 
+is reabsorbed in the S1 segment. Reabsorption occurs via an 
+array of active and passive transport processes, with water 
+flowing passively down the osmotic gradient. Hence, the tubu-
+lar fluid remains isosmotic with respect to the plasma in spite 
+of the large reduction in fluid volume to approximately 25% 
+of its original volume. Cells of the S1 segment are tall and 
+have a prominent brush border, extensive infoldings of the 
+basal membrane, and interdigitations of the lateral borders of 
+adjacent cells. The extensive brush border, or microvilli, and 
+the infoldings of the basal membrane illustrate the correlation 
+between form and function, as these structures provide a large 
+surface area for reabsorption. The cells possess a high content 
+of mitochondria near the basal pole, a characteristic feature of 
+Na+-transporting epithelia. The vast majority of filtered glu-
+cose and amino acids are reabsorbed in this segment as well.
+Cells of the S2 segment are structurally less complex than 
+those of the S1 segment; S2 cells have a shorter, less dense 
+brush border, less basolateral interdigitation, and a fewer mito-
+chondria. While volume reabsorption is thought to decrease 
+in vivo going from the S1 to S2 segment, in vitro studies show 
+a similar capacity for the two segments. The results in vivo 
+are, therefore, likely due to fewer electrolytes in the S2 tubular 
+fluid due to reabsorption in the S1 segment. Certain carriers, 
+however, have greater activity in the S2 segment, such as many 
+of those for organic anions (OAs∞).
+The transition between S2 and S3 segments is relatively 
+subtle, and species-dependent differences exist in S3 ultra-
+structure. For example, S3 cells are shorter and less com-
+plex than S2 cells in rabbits, whereas S3 cells in rats have a 
+well-developed brush border that is longer than that in other 
+proximal segments. Although glucose reabsorptive capacity is 
+much lower in S3 segments than in either the S1 or S2 seg-
+ment, OA∞ and organic cation (OC+) transport (OCT) is high in 
+S3. Consistent with this distribution, several enzymes involved 
+in drug metabolism are present at the greatest concentrations 
+among the three proximal tubular segments in the S3 segment.
+33.3.1.2  Thin Descending and Thin Ascending Limbs
+Thin descending limbs are present in both short-looped and 
+long-looped nephrons. They are subdivided into three subtypes 
+in most mammalian species, types I, II, and III. A key physi-
+ological feature of types I, II, and III thin descending limb cells 
+is their extremely high osmotic water permeability, which is 
+mediated by aquaporin 1 water channels in both luminal and 
+basolateral plasma membranes. Thin ascending limbs are only 
+present in long-looped nephrons. Unlike the thin descending 
+limb, cells of the thin ascending limb are water impermeable in 
+all species studied and do not express aquaporin water channels.
+33.3.1.3  Thick Ascending Limb
+The thick ascending limb is divided into two segments, the 
+medullary thick ascending limb, which is located in the outer 
+medulla, and the cortical thick ascending limb, which is 
+located in the medullary rays within the cortex. Like the thin 
+ascending limb, both medullary and cortical thick ascending 
+limbs are water impermeable and do not express aquaporin 
+water channels. Unlike the thin ascending limb, medullary 
+and cortical thick ascending limbs have active ion transport 
+processes. Active transporters include the bumetanide-sensi-
+tive Na+-K+-2Cl∞ cotransporter (NKCC2, BSC1) on the lumi-
+nal plasma membrane, the (Na++K+)-stimulated adenosine 
+triphosphatase (ATPase) on the basolateral plasma membrane, 
+and the membrane-potential–dependent, divalent cation trans-
+porter for Ca2+ and Mg2+. These active solute reabsorption 
+processes provide the primary mechanism for dilution of the 
+luminal fluid as it moves up the nephron through the thick 
+ascending limbs.
+33.3.1.4  Distal Convoluted Tubule
+The DCT and connecting tubule exhibit high rates of Na+ 
+reabsorption that are mediated by the thiazide-inhibitable 
+Na+-Cl∞ cotransporter (NCC1, TSC). Potassium is transported 
+by the K+-Cl∞ cotransporter on the luminal plasma membrane. 
+Finally, the DCT is generally water impermeable.
+33.3.1.5  Cortical Collecting Duct
+Physiologically, the collecting duct regulates the final com-
+position of the urine. Although the collecting duct has a low 
+capacity for reabsorption, it is important in regulating the 
+reabsorption of water, solutes, electrolytes, bicarbonate, and 
+protons. Water permeability of the cortical collecting duct is 
+almost completely dependent on vasopressin. The cortical col-
+lecting duct has a low permeability for urea that is unaffected 
+by vasopressin. In the presence of vasopressin, therefore, this 
+property enables the kidneys to increase the concentration 
+of urea within the lumen of the cortical collecting duct. This 
+nephron segment also contains both active and passive trans-
+port processes for Cl∞ and K+ ions and plays an important role 
+in acid-base regulation.
+33.3.1.6  Cellular Energetics
+Patterns of cellular energy metabolism differ widely among 
+the cell types of the nephron. These patterns are based on 
+many factors, including cellular energy (i.e., adenosine tri-
+phosphate [ATP]) requirements, mitochondrial density, and 
+oxygenation.5 The first factor, cellular energy requirements, is 
+largely dependent on active transport capacity. As described 
+earlier, each nephron cell population exhibits markedly dif-
+ferent levels of various active transport pathways. Thus, while 
+the proximal tubules contain high activities of active Na+, OA∞, 
+glucose, and amino acid transport pathways, and have corre-
+spondingly high needs for ATP and high densities of mito-
+chondria, thin descending and ascending limb cells have low 
+activities of active transport pathways and correspondingly 
+low needs for ATP and low densities of mitochondria. Thick 
+ascending limb cells, particularly those in the medullary 
+region, have high activities of active Na+ and divalent cation 
+transport and high densities of mitochondria. Distal tubular 
+cells also have high rates of active Na+ transport and high 
+amounts of mitochondria.
+
+1761
+Principles and Methods for Renal Toxicology
+In terms of substrate utilization, each segment has a char-
+acteristic preference for energy needs and exhibits distinct 
+patterns of activity for pathways of carbohydrate utilization 
+and synthesis (Table 33.2). For example, although many seg-
+ments contain a high density of mitochondria, ATP generation 
+primarily comes from glycolysis in the more distal segments 
+of the nephron. Although fatty acids and ketone bodies can 
+be used by several nephron segments, they are the preferred 
+source of reducing equivalents for ATP generation in the prox-
+imal tubules. Because many toxicants target mitochondria as 
+an early step in their mechanism of action, cells such as those 
+in the proximal tubule are particularly susceptible to injury, 
+provided that the chemical is transported into the cell.
+Another factor that relates to differences in cellular energet-
+ics is in vivo oxygenation. Each nephron cell population has 
+different ATP consumption rates and differing mitochondrial 
+densities and that an O2 gradient exists in the kidneys as one 
+goes from cortex to medulla such that the inner medulla has 
+been described as being on the brink of anoxia. Accordingly, 
+the pars recta (S3) segment of the proximal tubule and the 
+medullary thick ascending limb in isolated, perfused rat kid-
+neys are particularly susceptible to injury from hypoxia.6–10
+33.3.1.7  OA and OC+ Transport
+As indicated earlier, an important component of suscepti-
+bility of a specific cell type to chemically induced injury is 
+whether that cell type possesses the capacity to transport and 
+accumulate the chemical. Although there are several classes 
+of transporters involved in renal physiology that are localized 
+in various nephron segments, perhaps the most important for 
+toxicology and experimental therapeutics relating to the kid-
+neys are those for transport of OAs∞ and OCs+ because most 
+therapeutically used drugs belong to these two classes of mol-
+ecules. Although these carriers are also distributed in multiple 
+segments of the nephron, they are expressed at the highest lev-
+els in the proximal tubules. As shown in Figures 33.2 and 33.3, 
+transport of OAs∞ and OCs+, respectively, occurs by multiple 
+carriers and mechanisms. While each carrier certainly has a 
+discrete substrate specificity pattern, there is also considerable 
+overlap between carriers, providing functional redundancy. 
+Most of these carriers are polyspecific, that is, they transport 
+multiple substrates. Several recent reviews have been pub-
+lished on the properties and regulation of these carriers and 
+their importance in renal function.11–20
+OAs∞, including many Phase II metabolites of xenobiotics 
+such as glucuronide, glutathione (GSH), and sulfate conjugates, 
+are transported across the basolateral and brush-border mem-
+branes of renal proximal tubular cells, which constitute the 
+mechanism for their secretion into tubular urine. Uptake 
+of OAs∞ across the basolateral plasma membranes of renal 
+proximal tubules from the renal plasma and interstitial space 
+occurs primarily by OA∞ transporters 1 and 3 (Oat1/Slc22a6 
+in rodents and OAT1/SLC22A6 in humans; Oat3/Slc22a8 in 
+rodents and OAT3/SLC22A8 in humans) (Figure 33.2). Oat1/
+OAT1 and Oat3/OAT3 are considered tertiary active trans-
+porters, because uptake of OAs∞ is dependent on the 2-oxo-
+glutarate concentration gradient, which is in turn determined 
+by counter transport with Na+ ions as mediated by the sodium-
+dicarboxylate carrier (NaC3/SLC13A3). The Na+ ion gradi-
+ent used to drive 2-oxoglutarate transport is achieved by the 
+(Na++K+)-stimulated ATPase, a primary active ion transporter. 
+An additional member of the SLC22 transporter family, OAT2, 
+is expressed in basolateral membranes of human kidney proxi-
+mal tubules; in contrast, Oat2 is expressed primarily in liver 
+and not in kidney of rodent kidney proximal tubules. OAT2 
+functions as an OA∞ uniporter. Finally, OA∞ uptake across the 
+basolateral membrane, particularly for Phase II conjugates of 
+xenobiotics, can occur by the multidrug resistance proteins 
+5 and 6 (Mrp5/6-Abcc5/6 in rodents; MRP5/6-ABCC5/6 in 
+humans), which are primary active transporters using the free 
+energy of ATP hydrolysis to drive uptake of OA∞.
+In some respects, less is known about the mechanisms of 
+the exit step by which OA∞ are transported across the lumi-
+nal or brush-border membrane of renal proximal tubules into 
+the tubular lumen (Figure 33.2). The major carriers involved 
+in the efflux step include the OA∞ transporting polypeptide-
+1a1 (Oatp1a1/OATP1A1; Slco1a1 in rats and mice, SLCO1A2 
+in humans), the rat-specific Oat-k1 and Oat-k2 (Slco1a3), and 
+two MRP isoforms (MRP2/4-ABCC2/4). Oatp1a1/OATP1A1 
+catalyzes uptake of OA∞ in exchange for the tripeptide GSH, 
+which may be the principal carrier responsible for the delivery 
+of intrarenal GSH to the active site of ć-glutamyltransferase 
+(GGT) for its turnover.21 A member of the SLC22 fam-
+ily, URAT1 (SLC22A12), is expressed exclusively in renal 
+proximal tubules and is responsible for the uptake of urate in 
+exchange for OA∞, thereby maintaining blood levels of uric 
+acid.
+Many important drugs are OCs+ or weak bases and 
+are secreted into the tubular lumen by an array of OCTs 
+(Figure 33.3). These carriers, which are mostly members of the 
+SLC22 carrier family, include two or three carriers, depend-
+ing on species, on the basolateral plasma membrane, and three 
+carriers on the brush-border plasma membrane of the renal 
+TABLE 33.2
+Substrate Preferences and Predominant Pathways for Energy Metabolism among Nephron Cell Types
+Nephron Cell Type
+Substrate Preference
+Mitochondrial 
+Density
+Pathway Preference for ATP 
+Generation
+Proximal tubule
+Fatty acids, ketone bodies, lactate, glutamine, 
+glutamate, pyruvate, citrate, acetate
+High
+Oxidative phosphorylation, citric acid 
+cycle, gluconeogenesis
+Thick ascending limb 
+Lactate, glucose, ketone bodies, fatty acids, acetate
+Moderate to high
+Oxidative phosphorylation and glycolysis
+DCT
+Glucose, lactate, μ-hydroxybutyrate
+High
+Glycolysis
+Cortical collecting duct
+Glucose, lactate, μ-hydroxybutyrate, fatty acids
+Low
+Glycolysis
+
+1762
+Hayes’ Principles and Methods of Toxicology
+FIGURE 33.3  Scheme for OC+ transport in renal proximal tubule. BBM, brush-border membrane; BLM, basolateral membrane; MRP, multidrug-
+resistance–associated protein; OCT, organic cation transporter. The “r” in front of some of the carriers indicates it has only been found in rats.
+FIGURE 33.2  Scheme for OA∞ transport in renal proximal tubule. BBM, brush-border membrane; BLM, basolateral membrane; MRP, multidrug-
+resistance–associated protein; NaC3, sodium-dicarboxylate 3 cotransporter; OAT, organic anion transporter; OATP, organic anion transporting poly-
+peptide; 2-OG∞, 2-oxoglutarate. The “h” in front of some of the carriers indicates it has only been found in humans ? = Unknown what, if anything, is 
+coupled to OA∞ efflux.
+
+1763
+Principles and Methods for Renal Toxicology
+proximal tubule. On the basolateral membrane, Oct1/OCT1 
+(Slc22a1/SLC22A1) is only expressed in the kidney in rodents 
+and is mainly expressed in the liver in humans. Oct1/OCT1 
+transports a variety of OCs+, some weak bases, noncharged 
+compounds, and some anions. Oct2/OCT2 and Oct3/OCT3 
+(SLC22A2/3) exhibit a similar, broad substrate specificity. All 
+three carriers are electrogenic, Na+-independent, and revers-
+ible with respect to direction. Driving force is solely based on 
+the electrochemical gradient of the transported substrate.
+On the luminal membrane, two SLC22A family car-
+riers, OCTN1 (SLC22A4) and OCTN2 (SLC22A5), are 
+present and catalyze efflux of OCs+ into the tubular lumen. 
+OCTN1 may function as either an OC+ uniporter or an H+/
+OC+ exchanger, with the H+ gradient generated by the Na+/
+H+ exchanger. OCTN2, in contrast, may function as either an 
+OC+ uniporter or an Na+/carnitine cotransporter. Finally, the 
+multidrug resistance P-glycoprotein (MDR1; P-gp; ABCB1) 
+catalyzes efflux of OC+ into the lumen and is driven by the 
+hydrolysis of ATP.
+In addition to tissue- and species-dependent differences 
+in expression of these various transporters, there exist both 
+sex-dependent differences in expression due to regulation by 
+estrogens and androgens21–24 and individual differences based 
+on genetic polymorphisms.25 OA∞ transport in rats is higher 
+in males than in females,23 and this difference in activity cor-
+relates with Oat1 and Oat3 protein expression. Wright and 
+colleagues22,24 made the interesting finding that while the 
+androgen-stimulatory and estrogen-inhibitory patterns exist in 
+rodents (i.e., rats and mice), no sex-dependent differences in 
+transport activity or Oat expression were observed in rabbits or 
+rabbit proximal tubules. These observations highlight two key 
+points: first, not all animal models are appropriate to reflect 
+sex-dependent differences in OA∞ or OC+ transport that might 
+occur in human kidney; second, the sex-dependent differences 
+indicate that males and females will exhibit pharmacokinetic 
+differences in the handling of many drugs that are OAs∞ or 
+OCs+, which could lead to a greater susceptibility to potential 
+drug overdose toxicity due to greater accumulation of drug. 
+Several plasma membrane transporters from human proximal 
+tubular cells have been documented to exhibit genetic poly-
+morphisms,25 which also indicates that some individuals will 
+exhibit pharmacokinetic differences in drug handling, lead-
+ing to altered accumulation and differences in susceptibility to 
+potential drug overdose toxicity.
+33.3.1.8  Drug Metabolism
+Another key component of the intoxication process for most 
+chemicals involves metabolism, as most chemicals are not 
+toxic in their native form but must be metabolized to exert 
+their injurious effects. Thus, for polar or hydrophilic chemi-
+cals, once they are transported into the renal cell by one of 
+the various carriers discussed earlier, they can then be bioac-
+tivated by a large array of Phase I and/or Phase II enzymes to 
+yield potentially reactive metabolites. The traditional view of 
+renal function is that the kidneys act as filters to remove toxic 
+waste products from the blood via glomerular filtration or 
+tubular secretion. Whereas the focus of most drug metabolism 
+studies has been the liver, it became apparent that the kidneys 
+have a significant capacity to carry out extensive oxidation, 
+reduction, hydrolysis, and conjugation reactions.26,27 Enzyme 
+systems similar to those present in the liver and other extrare-
+nal tissues are involved in renal drug metabolism. An impor-
+tant difference between the kidneys and other tissues is that 
+many of the drug metabolism enzyme systems, such as CYPs, 
+GSH S-transferases (GSTs), and others, are differentially dis-
+tributed among the different nephron cell populations.3,4,28 For 
+example, whereas CYPs are exclusively found in the cortex 
+(primarily the proximal tubules), prostaglandin synthetase, 
+which catalyzes co-oxidation of several drugs and xenobiotics, 
+is localized in the medulla.
+Knowledge of the nephron cell type localization of drug 
+metabolism enzymes and drug accumulation patterns are 
+critical to understanding nephrotoxicity. A clinically impor-
+tant example of this is acetaminophen.26 Whereas the acute 
+nephrotoxicity of acetaminophen is characterized by proximal 
+tubular necrosis and is associated with metabolism by CYP, 
+chronic nephrotoxicity of acetaminophen is characterized by 
+papillary necrosis and interstitial fibrosis and is dependent on 
+oxidation by prostaglandin synthetase in the inner medulla. 
+This difference is largely due to the accumulation of acetamin-
+ophen in the cortex under acute exposure conditions and in the 
+inner medulla under chronic exposure conditions. The differ-
+ential distribution of acetaminophen thereby provides access 
+to different drug metabolism enzymes.
+Nonpolar or hydrophobic chemicals may also be bioacti-
+vated within the kidneys. Because of their chemical nature, 
+these chemicals generally enter renal cells by passive diffu-
+sion rather than by specific membrane carrier proteins. Two 
+related examples of this process are for the halogenated sol-
+vents trichloroethylene29 and perchloroethylene.30 Each of 
+these related chemicals may be metabolized by either CYPs 
+or GSTs, although trichloroethylene is a far better substrate 
+than perchloroethylene for CYPs. Both chemicals, besides 
+sharing metabolism by multiple enzymatic pathways, also 
+share having multiple target organs. For the renal-specific 
+toxic effects of tri- and perchloroethylene, metabolism by 
+the GSTs is the relevant pathway. Both chemicals are con-
+verted, through a series of metabolic steps involving both 
+intracellular and plasma membrane-bound enzymes, to the 
+corresponding cysteine S-conjugates. These metabolites are 
+then substrates for either the cysteine conjugate μ-lyase or 
+the flavin-containing monooxygenase, which convert them to 
+chemically reactive species that are directly associated with 
+alkylation of DNA and protein, oxidative stress, and various 
+signal transduction mechanisms that lead to altered cellular 
+function.29–31
+In the study of drug metabolism, human tissue is often 
+unavailable and studies are conducted in animal models, 
+most typically rodents. One then extrapolates the animal data 
+to humans by using physiological parameters of the animal 
+model and humans to account for differences. Furthermore, 
+if information about relevant genetic polymorphisms in 
+drug-metabolizing enzymes or preexisting diseases or health 
+conditions is not available, uncertainty factors are included 
+in such human health risk assessments based on the animal 
+model data. For the kidneys, significant species differences 
+exist between rodents and humans such that drug metabolism
+
+1764
+Hayes’ Principles and Methods of Toxicology
+data from the former cannot be readily extrapolated to the 
+latter. Examination of renal activities of CYPs provides a 
+clear illustration of this. For example, whereas rodent kid-
+neys, particularly in the proximal tubular segments of the 
+nephron, contain a large array of CYP enzymes that is very 
+similar to that found in the liver, human kidney expresses a 
+much smaller number of CYP enzymes.26,27,32–36 Additionally, 
+the pattern of inducibility of both CYPs and Phase II enzymes 
+such as GSTs or UDP-glucuronosyltransferases in the kid-
+ney differs between rodents and humans.37,38 Enzyme induc-
+tion is the process by which prior or concurrent exposure to 
+certain chemicals causes the increased expression of specific 
+enzymes. For example, CYP1A1/2 metabolizes polycyclic aro-
+matic hydrocarbons, is expressed at low constitutive levels in 
+rodent kidney, and is highly inducible. This CYP enzyme is 
+not detectable and poorly inducible in human kidney. Another 
+example is CYP4A2/3 in rodent kidney; it is found in the prox-
+imal tubules and is inducible by fibrates. The human ortho-
+log, CYP4A11, is also expressed in renal proximal tubules but 
+is inducible by ethanol and dexamethasone. The toxicologi-
+cal implication is similar to that of genetic polymorphisms in 
+humans, namely that different capacities to metabolize drugs/
+toxicants will produce characteristic responses.
+33.3.2  Regulation of Renal Function
+Glomerular filtration is a primary function of the kidneys and 
+is typically measured by either direct or indirect methods to 
+gauge kidney function. GFR is primarily regulated by three 
+factors: (1) the balance of pressures acting across the capillary 
+wall (glomerular capillary hydraulic pressure and Bowman’s 
+space oncotic pressure tend to favor filtration, whereas glomer-
+ular capillary oncotic pressure and Bowman’s space hydraulic 
+pressure tend to retard filtration); (2) the rate of plasma flow 
+through the glomeruli; and (3) the permeability and total sur-
+face area of the filtering capillaries. Each of these factors is, in 
+turn, regulated by several physiologic factors, including local 
+and systemic hormones. GFR is also regulated by a process 
+called tubuloglomerular feedback, which involves transmis-
+sion of a stimulus at the macula densa to the arterioles of the 
+same nephron, based on the composition of the tubular fluid 
+flowing past the macula densa. Tubuloglomerular feedback 
+causes glomerular vasoconstriction when Na+ delivery to the 
+macula densa increases and glomerular vasodilatation when 
+Na+ delivery is decreased. The extent of the feedback response 
+is also modulated by extracellular fluid volume. Thus, because 
+Na+ ions are the major solute available for renal excretion and 
+Na+ ions are the major cationic component of the extracellular 
+fluid, changes in renal Na+ excretion provide a primary driving 
+force for these regulatory responses.
+Renal effector mechanisms that modulate body fluid vol-
+ume homeostasis include GFR, several peritubular and lumi-
+nal factors (e.g., peritubular capillary Starling forces, luminal 
+composition, medullary interstitial composition), humoral 
+mechanisms (e.g., the renin-angiotensin-aldosterone system, 
+vasopressin, prostaglandins, atrial peptides, and endothelium-
+derived factors), and renal nerves. The reader is referred to 
+textbooks of renal physiology1 for more detailed information 
+on these regulatory mechanisms.
+33.4  Experimental Models for Assessing 
+Renal Function and Toxicity
+33.4.1  General Considerations for 
+Choosing a Model
+A large variety of experimental models can be used to assess 
+renal function and toxicity. Each model has its advantages and 
+limitations. The choice of experimental model is often dictated 
+by the questions being asked and the extent of knowledge of 
+the process under investigation. Factors to be taken into con-
+sideration include the potential involvement of extrarenal pro-
+cesses and hormones in the renal response, knowledge of the 
+nephron cell type localization of any effects being studied, and 
+the molecular mechanisms mediating the renal response. Some 
+models are limited by an inability to distinguish nephron cell 
+type localization or by the lack of functional expression of cer-
+tain biochemical processes. The various experimental models 
+that can be used to study renal physiology and toxicological 
+responses are summarized in Table 33.3, and each is discussed 
+in more detail in the following text.
+To gain a full understanding of how a chemical may cause 
+nephrotoxicity, more than one experimental model is usu-
+ally necessary, both to enable different types of questions to 
+be addressed and to validate certain approaches (e.g., in vivo 
+model to validate an in vitro model). An example of a situation 
+in which the use of only one approach and experimental model 
+could lead to incorrect conclusions can be found in studies on 
+the cytotoxicity of inorganic mercury salts.39,40 In these stud-
+ies, Lash and colleagues found that inorganic mercury was a 
+more potent cytotoxicant in suspensions of freshly isolated 
+rat renal distal tubular cells than in rat renal proximal tubu-
+lar cells. In vivo, however, the proximal tubule is the primary 
+nephron-segment target for inorganic mercury and little cel-
+lular injury is seen in the distal nephron, except at very high 
+doses.41 The primary reason for the in vivo nephron-segment 
+selectivity for mercury is that the proximal tubules are the 
+first epithelial cells to be exposed to filtered or renal plasma 
+mercury and possess sufficient membrane transporters and 
+membrane and intracellular target molecules to bind and accu-
+mulate virtually all the mercury to which it is exposed. From 
+the in vitro studies, therefore, one might erroneously conclude 
+that it was the distal tubules and not the proximal tubules that 
+were the primary target for mercury.
+33.4.2  Whole Animal and Clinical Assessments: 
+Markers of Renal Function and 
+Toxicity in Blood and Urine
+Studies of renal function in whole animals or in humans typi-
+cally involve measurement of parameters in blood or urine.42 
+These types of studies permit the collection of large amounts 
+of data, but are often limited by the ability to define biochemi-
+cal or molecular mechanisms of injury. In vivo studies are 
+often necessary or are one necessary component to establish 
+target organ specificity, involvement of extrarenal processes 
+in nephrotoxicity, or when more invasive procedures are not 
+feasible, such as with humans in the clinic. In experimental
+
+1765
+Principles and Methods for Renal Toxicology
+animals, however, in vivo studies have the advantage of allow-
+ing for the isolation of tissue for morphological analysis fol-
+lowing chemical exposure or drug administration.
+33.4.2.1  Urinalysis
+Quantitative urine collection is used to more precisely deter-
+mine treatment-related changes in renal excretory function 
+and to define renal clearances (see next section). To enable 
+quantitative and complete urine collection in animals, they are 
+often housed in metabolism cages. A metabolism cage consists 
+of an animal chamber mounted above an excrement collection 
+system, which usually consists of a funnel and a urine/feces 
+separator. Both urine and feces are collected for metabolism 
+and metabolic balance studies. For assessment of renal func-
+tion, urinalysis is performed. Major parameters determined in 
+typical urinalysis are listed in Table 33.4.
+The various parameters provide indications of the func-
+tion of the kidneys in maintenance of fluid, pH, electrolyte, 
+and solute balance. Additionally, the appearance of specific 
+components in the urine at concentrations outside of the 
+physiological range can provide information about the func-
+tion of specific nephron segments. This application of urinal-
+ysis is particularly applicable in the clinical setting. Over the 
+past 10 years, extensive work has been conducted to identify 
+novel, more renal-specific, and sensitive biomarkers that can 
+provide early indications of exposure to nephrotoxic chemi-
+cals prior to the onset of irreversible injury. Biomarkers can 
+be divided into three categories: biomarkers of susceptibility, 
+biomarkers of exposure, and biomarkers of effect. A marker 
+of susceptibility is an indicator of an organism’s inherent or 
+acquired sensitivity to toxicity from exposure to a specific 
+xenobiotic. Some general factors that serve as markers of 
+susceptibility include age, gender, and environmental expo-
+sures. Genetic polymorphisms may also render an individual 
+more susceptible to the nephrotoxic effects of a given chemi-
+cal. In terms of a urinary biomarker, for example, one may 
+administer a test chemical that is metabolized by a specific 
+enzyme that is known to exhibit genetic polymorphisms and 
+then quantify urine metabolites. Because determinants of 
+susceptibility are multifactorial, validation of a marker of 
+susceptibility must be carefully performed.
+TABLE 33.3
+Summary of Selected Experimental Models Used to Study Renal Physiology and Toxicity
+Model System
+Uses/Advantages
+Limitations
+Clinical 
+measurements and 
+whole animals
+Assess integrated physiological responses and 
+regulatory mechanisms
+Measure noninvasive markers of renal function
+Applicable to humans
+Minimal control of experimental exposure conditions
+Limited ability to distinguish nephron cell type involved
+Limited ability to distinguish biochemical/molecular mechanisms
+Isolated perfused 
+kidney
+Intact tissue structure
+Distinguish intrarenal from extrarenal effects
+Short-term viability (≥2 hours)
+Interanimal variability
+Incomplete definition of conditions
+Expensive
+Micropuncture and 
+microperfusion
+Determine tubular site of action
+Quantitate transport processes in single nephrons
+Sophisticated technology
+Subject to technical errors and misinterpretation of results
+Renal slices
+Intact tissue structure
+Ease of preparation
+Drug screening
+Measurement of drug metabolism
+Short-term viability (≥2 hours)
+Often limited access to luminal membrane
+Poor oxygenation
+Multiple nephron cell types present
+Isolated perfused 
+tubules
+Determine tubular site of action
+Quantitate transport processes in specific nephron 
+segments
+Short-term viability (≥2 hours)
+Sophisticated technology
+Isolated tubules/
+tubular fragments
+Intact tubular structure
+Precise definition of conditions
+Ease of preparation
+Several test samples with paired controls
+Short-term viability (≥4 hours)
+Often limited access to luminal membrane
+Some mixture of cell types
+Freshly isolated 
+renal cells
+Bidirectional exposure
+Ease of preparation
+Several test samples with paired controls
+Cells from specific nephron segments
+Drug screening
+Short-term viability (≥4 hours)
+Loss of plasma membrane polarization
+Primary renal cell 
+cultures
+Similar to in vivo kidney
+Longer term viability
+Maintenance of polarity
+Difficult to maintain
+Dedifferentiation
+Limited lifetime relative to cell lines
+Renal cell culture 
+lines
+Precise definition of incubation conditions
+Immortalized
+Reproducible
+Easy to subculture
+Transfect with cDNAs
+Dedifferentiation
+Often of ill-defined origin
+
+1766
+Hayes’ Principles and Methods of Toxicology
+A marker of exposure is a chemical or a metabolite of the 
+chemical or a product of an interaction between the chemical 
+and some target molecule. One typically measures markers of 
+exposure as concentrations of chemicals or its metabolites in 
+blood, urine, or other body fluid or tissue. Difficulties in the use 
+of such markers include that many drugs and other chemicals 
+have the same or similar metabolites, making identification 
+of the causative agent uncertain. Exposures to large doses of 
+toxic chemicals may alter their rate of metabolism and/or excre-
+tion, thereby making a correlation between measured levels of 
+the chemical or metabolite and the actual exposure difficult to 
+obtain. Moreover, without taking susceptibility into account, a 
+marker of exposure in one individual may have markedly differ-
+ent functional implications than that in another individual.
+As suggested by its name, a marker of effect should indi-
+cate the influence of a chemical exposure on some biologi-
+cal process. Markers of adverse effects can be indicators of 
+altered biochemical processes in a target organ or cellular 
+signals of tissue toxicity. The effects that occur may only 
+be indirect in that they may only indicate a potential for 
+toxicity but by themselves cannot be construed to directly 
+produce toxicity. Examples of this type of marker are pro-
+tein or DNA adducts. As discussed earlier in the section on 
+whole animal and clinical assessments, parameters such as 
+blood urea nitrogen (BUN) and serum creatinine (SCr) and 
+urinary proteinuria can be indicators of renal injury. Their 
+disadvantages, however, include a lack of sensitivity and an 
+inability to indicate information about site or mechanism of 
+action. As noted earlier, BUN and SCr do not become sig-
+nificantly elevated until renal toxicity occurs to a significant 
+extent. Hence, an ideal biomarker of effect would be one that 
+is highly sensitive, is measurable prior to a significant degree 
+of renal toxicity has occurred, persists throughout the time 
+course of the alterations in renal function, is specific to the 
+kidneys, correlates in amount with the degree of injury, and 
+is specific to a nephron cell type or specifically indicates a 
+mechanism of action. Ideal markers should also be stable in 
+urine over a long enough period and at a wide range of urinary 
+pH values, and if they are enzymes, they should not be read-
+ily inactivated in the urine. Some of the more sensitive and 
+specific markers are shown in the bottom row of Table 33.4; 
+examples include the urinary secretion of enzymes that are 
+derived from various nephron segments. The ultimate goal 
+of using biomarkers of effect for nephrotoxicity is to have 
+an easily measured, sensitive, and stable indicator of renal 
+injury at very early stages so that measures to counter neph-
+rotoxicity can be instituted prior to a significant decrease in 
+renal function or to the advent of irreversible renal cell death.
+The traditional markers of renal function, BUN and SCr, 
+although considered the gold standards for assessment of 
+kidney injury, are not particularly sensitive.43–46 Rather, 
+a number of other urinary biomarkers have recently been 
+validated in both humans and experimental animals with 
+regard to both sensitivity and specificity, including kid-
+ney injury molecule-1 (Kim-1), cystatin C, clusterin, and 
+lipocalin-2.44,47
+33.4.2.2  Clearance Methods
+Methods to assess renal clearance are fundamental to whole 
+animal studies and have wide clinical applicability as well. 
+These procedures involve the measurement of blood or plasma 
+(Px in mg/mL) and urine (Ux in mg/mL) concentrations of a 
+substance. Urine flow rate (V in mL/min) is also taken into 
+account. Depending on the test substance used, either glo-
+merular or tubular function can be assessed. Combining these 
+parameters gives the classical clearance equation:
+	
+C
+U V
+P
+x
+x
+x
+=
+TABLE 33.4
+Parameters Often Determined in a Typical Urinalysis
+Parameter
+Purpose or Use of Measurement
+Urine osmolarity or specific gravity
+Overall fluid homeostasis
+Urinary pH
+Acid-base balance
+Urinary volume
+Overall fluid homeostasis
+Urinary electrolyte and solute concentrations: Na+, K+, Cl∞, urea
+Extracellular fluid balance
+Creatinine excretion
+Indicator of glomerular filtration
+Glucose excretion
+Proximal tubule function
+Aminoaciduria
+Proximal tubule function
+Proteinuria:
+Low-molecular-weight proteinuria (μ2-microglobulin, −1-microglobin, retinol-binding protein), Kim-1
+Proximal tubule function
+Albuminuria
+Glomerular damage
+Enzymuria:
+GST-alpha (; proximal tubule)
+GST-pi (; distal tubule)
+N-Acetyl-μ-glucosaminidase (; papillary collecting duct, proximal tubule > distal tubule)
+GGT (proximal tubule)
+Tamm-Horsfall glycoprotein (thick ascending limb)
+LDH (distal tubule > proximal tubule)
+Specific enzymes derive from specific 
+nephron segments
+
+1767
+Principles and Methods for Renal Toxicology
+The clearance, C, represents the quantity of blood or plasma 
+cleared of the substance per unit time and has units of volume 
+per unit time (usually mL/t).
+The most common substances monitored for determina-
+tion of renal clearance are inulin or creatinine. Inulin is the 
+preferred indicator of GFR, as it is a fructose polysaccharide 
+(Mr = 5,200 Da) that is freely filtered and then is neither reab-
+sorbed nor secreted. Hence, all of the inulin that appears in 
+the urine arises from plasma via glomerular filtration. Inulin 
+is considered the gold standard of exogenously administered 
+markers for GFR. Its scarcity and high cost, however, have 
+made its use less favored in the clinical setting. Inulin is readily 
+measured in plasma or urine by a colorimetric assay, although 
+glucose is also measured; separate measurement of glucose is 
+needed for correction to obtain the inulin concentration.
+Creatinine is also used to monitor GFR and has the advan-
+tage of not requiring infusion of an exogenous substance. This 
+makes creatinine useful for monitoring of GFR over a pro-
+tracted period of time in the same individual. Because creati-
+nine undergoes some reabsorption, however, measurement of 
+its clearance tends to underestimate that of inulin by 10% or 
+more, depending on species. Creatinine (Mr = 113) is a meta-
+bolic product of creatine and phosphocreatine, which are both 
+found almost exclusively in muscle. Creatinine production 
+is proportional to muscle mass and varies little from day to 
+day, although it can be affected by diet. Thus, because of its 
+convenience and low cost, creatinine is the most widely used 
+indirect measure of GFR. Correct interpretation of data in a 
+clinical setting, however, can be problematic.
+An additional parameter to indicate GFR that is popularly 
+used in whole animal toxicity screening studies is measurement 
+of BUN. As filtration slows, BUN rises and is generally paral-
+leled by levels of SCr. Thus, in the absence of changes in protein 
+intake or metabolism, BUN or SCr are useful indicators of GFR. 
+An important point to realize is that although BUN may be the 
+most commonly used measurement for glomerular filtration, 
+substantial loss of renal function (on the order of at least 50%) 
+must occur before BUN rises above normal levels. BUN, like 
+SCr, as discussed earlier, is thus not a very sensitive indicator 
+of renal injury and thus does not have much preventive value.
+Over the past 10 years, a new method has been developed to 
+measure GFR using transdermal GFR monitors and fluores-
+cein isothiocyanate (FITC)-sinistrin in mice and rats.48 The 
+advantages are greater sensitivity and accuracy compared to 
+SCr and BUN. Recent studies have also shown that sequen-
+tial analysis using transcutaneous GFR monitors can be used 
+to study early changes in renal function as well as functional 
+recovery after induction of acute kidney injury (AKI) without 
+interfering with the animals’ blood volume or hemodynam-
+ics, since the assay does not require sequential blood sampling 
+(Figure 33.4).7,49
+33.4.3  Isolated Perfused Kidney
+As compared with in vivo studies in whole animals, the iso-
+lated perfused kidney shares the advantage of being a model 
+that maintains intact renal structure. It also possesses the 
+advantage of enabling separation of extrarenal from intrare-
+nal factors that may be part of the mechanism of action. The 
+methods used in animal preparation and kidney isolation and 
+perfusion have been described in several reviews and will only 
+be highlighted briefly here.14,51
+Being at the highest level of structural organization for 
+in vitro kidney models, it is not surprising that the isolated 
+perfused kidney preparation has been in use for nearly 
+150 years. The basic isolated perfused kidney preparation 
+consists of the whole kidney isolated from the systemic 
+vasculature and usually removed from the animal, and per-
+fused through the renal artery with a synthetic plasma- or 
+bloodlike medium. Oxygenated perfusate is delivered into 
+the renal vasculature with an adjustable pump so that a 
+constant, mean arterial pressure can be achieved and main-
+tained during the course of experiments. Urine is collected 
+through a cannula placed in the ureter. Several variations 
+of the basic method have been implemented, depending on 
+the purpose of the experiment. For example, various in-line 
+monitoring devices have been included to measure perfus-
+ate temperature, pH, and oxygen content. The perfusate 
+leaving the renal vein can either be recirculated or collected 
+in a reservoir to achieve single-pass perfusion. The single-
+pass method has the advantage of ensuring a constant arte-
+rial perfusate composition, as it is not modified by renal 
+metabolism or excretion, but has the disadvantage of being 
+expensive because it consumes large amounts of perfusate, 
+particularly if the perfusate contains physiologic colloids 
+such as albumin. Although isolated perfused kidney prepa-
+rations have been described for several species, including 
+the dog, rabbit, guinea pig, pig, and toad, the most common 
+species used in recent years has been the rat.
+As summarized in Table 33.3, advantages of the isolated 
+perfused kidney preparation are that it retains kidney struc-
+ture, so is particularly well suited for studies requiring intact 
+renal morphology. It is the only in vitro preparation in which 
+glomerular filtration and tubular functions are both retained 
+in manners similar to the in vivo kidney. Control over many of 
+the aspects of the perfusate composition is possible, includ-
+ing concentrations of dissolved and gaseous metabolites 
+and electrolytes, colloids, oxygen carriers, drugs and their 
+metabolites, and other chemicals added to modify function. 
+This type of control enables establishment of reproducible 
+exposures to chemicals or drugs under investigation. Also, 
+because the isolated tissue is being used, higher concentra-
+tions of test chemicals are possible to achieve than could be 
+used or tolerated in vivo.
+Some of the limitations with the isolated perfused kidney 
+model are those that are inherent with any in vitro model. For 
+example, once the tissue is removed from the animal, func-
+tions (e.g., GFR and tubular function) decline progressively 
+over the course of experimentation. Hence, the model can 
+only be useful for a limited period of time, which is gener-
+ally on the order of 2 hours. Because of this time limitation, 
+studies are naturally restricted to acute effects as responses 
+that occur over longer periods of time, such as changes in 
+gene expression or enzyme induction, require longer expo-
+sure and/or study times. As explained by Diamond, the 
+isolated perfused kidney exhibits several functional abnor-
+malities that must be considered when evaluating results.51 
+These abnormalities include relatively high perfusion rates
+
+1768
+Hayes’ Principles and Methods of Toxicology
+and low filtration fractions as compared with the in vivo kid-
+ney, loss of urinary concentrating ability, and glomerular 
+proteinuria. Various structural abnormalities have also been 
+observed in tubules of isolated perfused kidneys, including 
+cellular necrosis of the medullary thick ascending limb and 
+the S3 segments of the proximal tubule. The latter is par-
+ticularly significant for drug metabolism and nephrotoxicity 
+studies because the S3 segment of the proximal tubule is the 
+site of a large proportion of the metabolism and toxic effects 
+of exogenous compounds. Finally, other limitations exist in 
+the ability of studies with the isolated perfused kidney to 
+discriminate mechanisms of action and localization of pro-
+cesses in specific nephron cell types.
+33.4.3.1  Micropuncture and 
+Microperfusion Techniques
+In vivo microperfusion and micropuncture are two techniques 
+that are used to study the function of individual nephron seg-
+ments in the intact kidney.52 For example, these methods can 
+be used to directly determine the tubular handling of drugs 
+and nephrotoxicants, characterize the function of specific car-
+rier proteins, or determine the effect of toxicant administration 
+on tubular function. A particular application of micropuncture 
+is to determine the in vivo concentration and profile of luminal 
+fluid along the nephron. Microperfusion, on the other hand, 
+is a valuable approach because a drug or other chemical of 
+FIGURE 33.4  Diagram of renal nephron indicating toxicant, area of injury, and origin of biomarker. (A) Passive filtration is the first process achieved 
+by the glomerulus where toxicant-induced AKI can result in thrombotic microangiopathy and/or hemodynamic alterations. (B) In juxtaposition to the 
+glomerulus, the proximal tubule is a primary location of toxicant-induced AKI resulting in proximal tubule injury and loss of integrity leading to down-
+stream accumulation of biomarkers in the urine. (C) The remaining tubule structures (Loop of Henle, Distal Tubule, Collecting Duct) are additional 
+structures of the nephron that can become compromised upon toxicant-induced AKI resulting in interstitial nephritis and biomarker accumulation 
+within the urine.50
+
+1769
+Principles and Methods for Renal Toxicology
+interest can be applied directly to the tubule in the luminal 
+perfusate and the effect on tubular function determined.
+Although micropuncture and microperfusion are performed 
+in several mammalian species, the rat is the most common 
+experimental animal that is used. Moreover, specific strains 
+of rats are often used in preference to others for particular 
+purposes; for example, the Munich-Wistar rat is often used in 
+studies of glomerular function because glomeruli are visible 
+and accessible at the surface of the kidneys. Micropuncture 
+or microperfusion is most often performed on the left kid-
+ney because of its accessibility and longer vascular pedicle as 
+compared with the right kidney. Significant skill and time are 
+required to conduct such microprocedures.
+33.4.3.2  Renal Slices
+Renal slices have been a useful tool for many years to study 
+renal physiology and biochemistry. OA∞ transport, for exam-
+ple, has been extensively studied with this technique. Most 
+studies using renal slices have used slices from the cortex, in 
+part because of the predominance of the proximal tubules in 
+renal transport and toxic responses, and because of its ready 
+accessibility. The simplest method to prepare renal slices is 
+freehand, using a razor blade and a glass microscope slide as 
+a slicing guide.53 Slices need to be uniform in thickness and 
+be taken only from the section of kidney desired. To address 
+the issue of uniformity of slice thickness and the attainment 
+of slices that are as thin as possible, several automated tis-
+sue slicers have been developed. The first slicer developed 
+to prepare the so-called precision-cut tissue slices was the 
+Krumdieck slicer.54 The slicer is filled with an oxygenated, 
+physiological buffer solution to preserve function and oper-
+ates on the principle that a core of tissue is fed into an oscil-
+lating blade that is drawn across the core to make a slice. The 
+slice is then swept away into a collection chamber. Slice thick-
+ness is adjustable, with optimum thickness considered to be 
+around 250 ōm.55 The diameter of the core is preset and typi-
+cally ranges from 4 to 8 mm. The Brendel-Vitron slicer was 
+developed more recently56 and differs from the Krumdieck 
+slicer in having a simpler design that is possibly more rugged 
+and user friendly.55
+Once prepared, slices are typically incubated in a Dubnoff 
+metabolic shaking bath that permits control over tempera-
+ture, shaking rate, and gas environment. Many assays are 
+carried out in a bicarbonate-based buffer system, such as 
+Krebs-Ringer, thus necessitating an atmosphere containing 
+CO2 (typically 95% O2, 5% CO2). There is some concern over 
+oxygenation of the tissue slice and nephron heterogeneity. 
+Improvement in procedures, however, has made poor tissue 
+slice oxygenation less of a problem. Incubations are typically 
+done as for short-term cell cultures, using a serum free, 1:1 
+mixture of Dulbecco’s Modified Eagle’s Medium (DMEM) 
+and Ham’s F-12. Medium is gassed with 95% O2, 5% CO2, and 
+pH is adjusted to 7.4. Other media, such as Waymouth’s culture 
+medium or a Krebs-HEPES buffer, have also been used.
+A variety of assays of renal function and toxicity have been 
+used with renal slices. In most cases, parameters are nor-
+malized to slice weight rather than other parameters, such 
+as cell number or protein, as this is the most convenient and 
+appropriate factor to use. If the tissue slice becomes edema-
+tous or dehydrated, then tissue weight will be an inappropriate 
+normalizing factor. Inasmuch as loss of protein may occur in 
+nephrotoxicity, slice DNA content is recommended to use to 
+normalize assays.55 Tissue slice K+ content is a good indica-
+tor of cell viability, as it reflects (Na++K+)-stimulated ATPase 
+activity and membrane integrity. Losses in K+ content are indi-
+cators of toxicity. As with other in vitro models, intracellular 
+enzyme leakage (e.g., lactic dehydrogenase (LDH)) is used as 
+an indicator of membrane disruption and necrosis. Both cel-
+lular ATP content and respiration (O2 consumption) are useful 
+to assess energetic status of the tissue slice. Protein synthesis 
+activity, as measured by incorporation of 3H-L-leucine, is also 
+used to assess functional competence. Because active trans-
+port of OAs∞ and OCs+ is a primary, energy-dependent func-
+tion of proximal tubular cells, measurements of medium:slice 
+ratios of transported substrates are often used as a measure of 
+tubular viability.
+Advantages of the renal slice technique include its versa-
+tility, correspondence with in vivo tissue, the general ease of 
+preparation, its relative low cost, and the ease with which incu-
+bation conditions can be manipulated. Limitations to the use 
+of renal slices exist, however, including the possibility of col-
+lapsed lumens, poor oxygenation, particularly if slices are too 
+thick, the presence of some damaged tubules, which is more 
+problematic if slices are too thin, and the presence of multiple 
+nephron cell types, thus making it difficult to ascribe observed 
+effects to specific cell populations.
+33.4.3.3  Isolated Perfused Tubules
+The techniques of isolating and perfusing individual nephron 
+segments in vitro have been widely used in transport physiol-
+ogy studies since their development in the 1960s. Although 
+nephron segments can be and have been obtained from many 
+species, tubules are the easiest to dissect from the rabbit kid-
+ney without the use of digestive enzymes. Detailed procedures 
+for the harvesting of renal tissue, dissection and identification 
+of nephron segments, and the design of perfusion and collec-
+tion pipettes are described by Zalups and Barfuss.57 S1, S2, 
+and S3 segments of the proximal tubule, cortical collecting 
+ducts, and medullary and cortical ascending thick limbs of 
+Henle’s loop have all been isolated from rabbit kidney, and 
+studied for their transport function and viability after exposure 
+to various xenobiotics.
+In most studies, perfusing and bathing solutions are sim-
+ple electrolyte solutions supplemented with D-glucose and 
+glutamine or glutamate, with pH adjusted to 7.4. When it is 
+desirable to more closely mimic the in vivo state, isolated 
+segments of the nephron can be perfused with an ultrafil-
+trate of rabbit plasma, made by passing the plasma through 
+a 50 kDa cutoff filter. Thus, a great deal of control over the 
+fluid environment can be achieved with this method. The 
+model can also be used to identify transepithelial trans-
+port of solutes, including nephrotoxicants. Thus, depending 
+on whether substrate is placed in the perfusate or bathing 
+medium, lumen-to-bath or bath-to-lumen fluxes can be 
+determined. Limitations in the application of this model for 
+renal toxicology include the requirement for sophisticated
+
+1770
+Hayes’ Principles and Methods of Toxicology
+and expensive equipment, the difficulty in preparing the 
+nephron segments, the rather poor ability to isolate and per-
+fuse nephron segments from species other than the rabbit, 
+and a relatively limited life span for the model once nephron 
+segments are isolated.
+33.4.3.4  Isolated Tubular Fragments and Cells: 
+Freshly Isolated and Primary Culture
+Tubular segments derived from specific nephron cell popula-
+tions can be isolated by microdissection. These preparations 
+maintain their normal tubular architecture, function, and 
+polarity. Because the isolation method is rather tedious and 
+yield of tubules is typically low, other procedures, most nota-
+bly treatment with collagenase, were developed. For example, 
+perfusions of renal cortical tissue with buffers containing che-
+lators such as EDTA and collagenase have been used to prepare 
+tubule fragments from mice, rats, and rabbits. One problem 
+was that these preparations comprised tubules from multiple 
+nephron segments. Hence, procedures, such as density-gradi-
+ent centrifugation in Percoll or Ficoll or electrophoresis, were 
+then applied to obtain enriched preparations of tubules from 
+either proximal or distal tubules.58–63 Although less commonly 
+used than proximal tubular suspensions as an experimental 
+model, tubule fragments from the medullary thick ascending 
+limb have also been used.64–68
+In general, procedures for the isolation of proximal tubu­
+les involve either enzymatic digestion and separation or 
+mechanical separation.69 With enzymatic methods, cortical 
+tissue can be digested either by perfusion with a collage-
+nase-containing, balanced salt buffer or medium or can be 
+dissected, minced, and incubated with the collagenase-con-
+taining buffer. Either of these methods provides a high yield 
+of highly enriched proximal tubules that are largely S1- and 
+S2-derived. Tubules can then be used for either short-term 
+studies of metabolism, transport, and toxicity or can serve as 
+seed material for primary culture.70–72 Variations of culture 
+and incubation conditions to increase oxygenation have also 
+been used to improve the ability of rabbit proximal tubule 
+primary cultures to maintain differentiated function.73,74
+Contamination with glomeruli can be minimized by includ-
+ing iron oxide in the initial perfusate, which collects in glom-
+eruli and can be removed with magnets.75 Individual epithelial 
+cells, rather than tubule fragments, can also be isolated and used 
+as either fresh suspensions for acute studies or as seed material 
+for primary culture.76 Isolation of single cells generally requires 
+somewhat more vigorous enzymatic treatment than for nephron 
+segments. As with methods to isolate tubules, once isolated, sus-
+pensions of cells require a secondary enrichment step to obtain 
+highly enriched cells derived from a specific nephron segment. 
+Hence, procedures such as Percoll density-gradient centrifuga-
+tion can be applied to enhance purity of a mixed cortical cell 
+population (see the following text).73,77
+The decision to use either tubule segments or single cells 
+as a model depends on several factors. First, the ease with 
+which either tubule fragments or single cells can be pre-
+pared varies with species, so that the choice of model is 
+partly dictated by the species of interest. As noted earlier, 
+tubule fragments are readily isolated from rabbit kidneys. 
+Although tubule fragments can also be isolated from rat, 
+it is easiest to obtain single cells.75 Isolation procedures 
+have also been adapted to prepare suspensions of proximal 
+tubular cells from human kidneys.34,35,78 This is a signifi-
+cant advance because the use of cells derived from human 
+kidneys eliminates the uncertainty involved in extrapola-
+tion of data from experimental animals to humans for risk 
+assessment purposes. A second consideration is experimen-
+tal design. One major difference between tubule fragments 
+and isolated cells is that epithelial polarity is lost in the lat-
+ter. Thus, all membrane surfaces have equal access to sub-
+strates in the suspending medium. Additionally, collapse 
+of the lumen in tubule fragments may occur, thus limiting 
+access of substrate to the brush-border membrane.
+Although single cells in suspension can be isolated from 
+nephron cell types derived from multiple regions of the kid-
+ney, most studies have been performed with cells derived from 
+the renal cortex and outer stripe of the outer medulla.75–77,79 
+The basic procedure involves perfusion of the kidneys through 
+the aorta below the renal arteries, first with a Ca2+-free Hank’s 
+buffer containing EGTA and then with a Hank’s buffer con-
+taining Ca2+ added back and collagenase. Because the inner 
+medulla is poorly perfused, it can be removed intact with for-
+ceps, thus yielding a preparation that is predominantly of prox-
+imal tubular origin but also containing other cell types from 
+the cortex and outer stripe of the outer medulla. Glomeruli, 
+tubular fragments, and multicellular aggregates are removed 
+by filtration through polypropylene mesh. The suspension of 
+isolated renal cortical cells can then serve as a starting mate-
+rial for additional purification or enrichment steps to prepare 
+multiple epithelial cell populations.75,76,79
+Advantages of the single-cell preparation include the high 
+degree of homogeneity of the biological material, the equal 
+access of all membrane surfaces to chemicals in the sus-
+pending medium (if membrane polarity is not important for 
+the process being studied), that there are adequate amounts 
+of material from a single animal to permit paired control and 
+treated samples, and control of incubation conditions (e.g., tem-
+perature, pH, osmolarity, buffer, and medium composition), 
+thereby eliminating some of the uncertainty for mechanistic 
+studies. Limitations of the procedure include potential damage 
+to the cells during the isolation procedure, the limited life span 
+of the cell suspensions (≥4 hours), and the loss of membrane 
+polarity (if membrane polarity is important for the process 
+being studied). Although potential damage can occur just by 
+the collagenase perfusion step, any damage is typically modest 
+and the versatility of the procedure allows paired controls and 
+treated samples to be used for incubation, thereby helping to 
+ensure that observed responses are due to treatments and not 
+to cell isolation artifacts. Moreover, cell viability is routinely 
+checked upon completion of the cell isolation by both trypan 
+blue exclusion and LDH leakage assays.
+As with the tubule fragments, specific nephron cell types 
+in the cortical cell preparation can be enriched by a vari-
+ety of methods. Although microdissection methods provide 
+material of extremely high purity, the procedure is not par-
+ticularly useful for most typical biochemical or toxicological 
+studies, particularly those with cells from the rat or mouse, 
+because of low yield of material. Additionally, such methods
+
+1771
+Principles and Methods for Renal Toxicology
+are fairly tedious and time consuming. The limited time 
+frame for which the isolated cells are viable necessitates that 
+they be used in studies as soon as possible after their iso-
+lation. Electrophoretic separation methods also suffer from 
+the same limitations. Hence, any procedure used to obtain 
+enriched populations of renal epithelial cells must satisfy 
+four primary criteria: (1) the procedure must be relatively 
+rapid, (2) any material used in the separation process must 
+be biologically inert, (3) final yield must be high enough to 
+enable performance of a sufficient number of paired control 
+and test incubations, and (4) purity must be high enough to 
+enable unambiguous conclusions regarding the nephron cell 
+type of origin.76
+Differences in cell density are one common means to sepa-
+rate different cell populations from one another. Although 
+methods relying on cell density differences provide enrich-
+ment rather than absolute purification (because cell density is 
+generally not a discrete property, but exhibits a range of values 
+for a given cell population), many of the procedures readily 
+satisfy the four criteria noted earlier. Procedures for applica-
+tion of density-gradient centrifugation with Percoll to separate 
+proximal tubular and distal tubular cells from cortical cell 
+suspensions from the rat are described in detail elsewhere.76,77 
+Percoll is a liquid consisting of microscopic, carbohydrate-
+coated beads that spontaneously forms a continuous density 
+gradient when placed in a centrifugal field. Colored, density 
+marker beads are commercially available to calibrate the den-
+sity gradients. Once distinct cell populations are obtained, 
+marker enzymes are used to confirm identity and to assess the 
+degree of enrichment. Markers include parathyroid hormone-
+sensitive adenylate cyclase, alkaline phosphatase, GGT, and 
+glucose-6-phosphatase for proximal tubules and hexokinase 
+and renal kallikrein for distal tubules.
+A limitation with the use of suspensions of either tubule 
+fragments or single cells is their short life span. To accommo-
+date experiments that study processes that occur on longer time 
+frames than the few hours that are possible with the freshly 
+isolated tubules or cells and yet retain the use of a model that 
+comprises material derived directly from the in vivo biologi-
+cal material, many investigators have established primary cul-
+tures of renal epithelial cells. The proximal tubule from rat, 
+rabbit, or mouse has been the most common biological source 
+for primary cell culture,26,70–73,80–87 although investigators have 
+also developed culture methods for thick ascending limb and 
+distal tubular cells.67,86–88 Although tissue from rodents is more 
+readily obtained, investigators have applied essentially iden-
+tical methods to grow primary cultures of human proximal 
+tubular cells.35,78,89–93 Regardless of their species of origin, pri-
+mary cultures of proximal tubular cells are generally grown 
+in a serum-free, hormonally defined medium, one version of 
+which is shown in Table 33.5. Serum is omitted because it 
+encourages or enables growth of fibroblasts, which comprise 
+a very minor contaminant of the cell preparation but can read-
+ily overtake the culture and prevent growth of the proximal 
+tubular epithelial cells. The disadvantage is that the cells do 
+grow more slowly in the absence of serum. Importantly, the 
+cell culture maintains their differentiated properties in the 
+serum-free, hormonally defined medium.
+The use of primary cell cultures has many advantages. 
+Inasmuch as cells grow in monolayers, plasma membrane 
+polarity is maintained. Depending on the growth surface used, 
+processes such as transepithelial transport can be studied. 
+Many studies use renal cells grown on collagen-coated, plastic 
+tissue culture flasks or dishes; cells will grow with their lumi-
+nal membrane face up. Thus, although membrane polarity is 
+maintained, components in media only have direct access to 
+the luminal membrane. This problem has been solved by the 
+use of semipermeable filters that are raised over the culture 
+dish surface, thereby creating both luminal and basolateral 
+compartments to enable media components to come in con-
+tact with both membrane surfaces. The only disadvantage of 
+using such filters is that they are usually somewhat opaque, 
+thus making it impossible to view the cells on the filter sur-
+face on a microscope. Another advantage is that the primary 
+cultures are relatively simple to prepare. Because these cells 
+remain viable in primary culture for up to 7 days (or longer if 
+passaged), there are a large variety of assays and tests that can 
+be done with them, including all the assays one can perform 
+with the freshly isolated tubules or cells (e.g., acute cellular 
+necrosis as determined by trypan blue exclusion or LDH leak-
+age, metabolism, transport, cellular oxygen consumption, lev-
+els of key intracellular metabolites, e.g., ATP, GSH), as well 
+as assessments of apoptosis, repair and proliferation, gene 
+expression, DNA damage, etc. Hence, the primary cell culture 
+model is extremely versatile and, if cultured properly, should 
+reflect very well the normal, in vivo biochemistry and physiol-
+ogy of the proximal tubule.25,35,36
+If not passaged, primary cultures remain viable only until 
+they become confluent, which is typically within 7 days. 
+Hence, if longer term studies are required, a different experi-
+mental model must be chosen, as will be discussed in the fol-
+lowing section. In some cases, primary cell cultures can be 
+passaged, thereby extending their usable lifetime to as much 
+as several weeks.89 In spite of the use of serum-free, hormon-
+ally defined media, such passaged cells often exhibit altered 
+phenotypes with respect to drug metabolism, cellular energet-
+ics, and membrane transport properties.35 This loss of differ-
+entiated function makes them a questionable model for use in 
+assessing cell-type–specific toxicity, but they may be useful 
+for study of specific processes whose expression and/or func-
+tion are retained.
+TABLE 33.5
+Composition of Medium Used in Primary Culture of Proximal 
+Tubular Cells from Rat or Human Kidney
+Basal medium: DMEM/Ham’s F12 (1:1)
+HEPES (15 mM, pH 7.4)
+NaHCO3 (20 mM)
+Antibiotics (only through Day 3): penicillin (192 IU/mL), streptomycin 
+sulfate (200 ōg/mL)
+Amphotericin B (2.5 ōg/mL)
+Bovine insulin (5 ōg/mL)
+Human transferrin (5 ōg/mL)
+Sodium selenite (30 nM)
+Hydrocortisone (100 ng/mL)
+Epidermal growth factor (100 ng/mL)
+3,3−,5-Triiodo-DL-thyronine (T3) (7.5 pg/mL)
+
+1772
+Hayes’ Principles and Methods of Toxicology
+33.4.3.5  Renal Cell Culture Lines
+In contrast with primary cell cultures, cell lines are cells that 
+have been transferred at least once to another culture surface 
+(i.e., subcultured) and, more often, have been transferred mul-
+tiple times. In some instances, cellular genetics have been 
+altered so that the cells become immortalized and can thus 
+be passaged indefinitely. Such immortalized cells are referred 
+to as continuous cell lines. The process by which cells can 
+be immortalized can be spontaneous or can be induced by 
+various agents (e.g., mutagenic chemicals, radiation, viruses). 
+Some continuous renal cell lines that have been used for study-
+ing renal cell function and toxicology are listed in Table 33.6.
+The development of immortalized cell lines of epithelial 
+cells generally requires transfection of short-term cultures 
+with plasmid or viral DNA containing an immortalizing gene 
+(e.g., an oncogene). Taub has reviewed in detail procedures 
+for obtaining such continuous cultures.94 Others have also 
+successfully developed immortalized cell lines from proxi-
+mal tubular and distal tubular primary cell cultures using the 
+SV40 virus as a transforming agent.95,96 The requirement of 
+an immortalizing agent is necessitated by the generally poor 
+ability of primary cultures to undergo and survive multiple 
+subculturing. Most of the short-term cultures have a limited 
+doubling potential and undergo senescence and eventually die. 
+It is unclear whether the limited doubling potential of normal 
+cells is an inherent property or is due to imperfections in the 
+tissue culture environment. For example, primary cultures of 
+human proximal tubular cells can be subcultured up to five or 
+six times, but it is important that cell density is not decreased 
+by more than 50% in each passage or cells will not grow.35,89
+There are several advantages and uses for continuous epi-
+thelial cell lines in renal toxicology studies. For example, 
+examination of processes that occur over relatively long time 
+periods can be studied in these cultures, whereas the life span 
+of primary cell cultures is insufficient for such studies. Other 
+advantages are that these cell lines are relatively easy to use 
+and produce highly reproducible results, without much of the 
+difficulties inherent in the use of primary cultures. That said, 
+however, the mere fact that the cell lines are immortalized 
+indicates that they have undergone genotypic and phenotypic 
+changes that make them different from the cell types from 
+which they were derived. Hence, it is critical to validate that 
+the processes under study are expressed and regulated prop-
+erly. Even when the process under investigation is expressed 
+in the cell line, other processes that are normally found in 
+the in vivo cell type or in the kidney as a whole may not be 
+expressed or not be regulated in the same manner. This makes 
+interpretations of physiological significance difficult and 
+highlights a point made at the beginning of this chapter that 
+multiple experimental models are needed to fully understand 
+the processes of physiological, pathological, or toxicological 
+importance. Nonetheless, immortalized cell lines have been 
+invaluable for numerous studies of renal function and will con-
+tinue to provide significant insight as long as the constraints 
+and limitations to their use are kept in mind.
+33.4.4  Kidneys on a Chip
+While primary cell culture models are valuable, they also 
+have limitations. In 2013, Jang’s group reported a microflu-
+idic device lined with human kidney epithelial cells exposed 
+to fluidic flow that mimics key functions of the human kid-
+ney proximal tubule.97 Human primary kidney epithelial cells 
+were isolated and cultured on the upper surface of an extracel-
+lular matrix-coated, porous, polyester membrane that splits the 
+main channel of the device into two adjacent channels, thereby 
+creating an apical “luminal” channel and a basal “interstitial” 
+space (Figure 33.5). An apical fluid shear stress, as found in 
+vivo, resulted in enhanced epithelial cell polarization and pri-
+mary cilia formation compared to traditional Transwell culture 
+systems. In addition, albumin transport, glucose reabsorption, 
+and brush-border alkaline phosphatase activity increased. 
+This microfluidic “organ-on-a-chip” microdevice provides in-
+vivo–like pathophysiology, and it may serve as a useful tool for 
+evaluating human-relevant renal toxicity in preclinical safety 
+studies. This technology has been used to measure transporter 
+function and aristolochic nephrotoxicity.98,99 Finally, a glom-
+erulus on a chip has been described.100
+33.4.5  Kidney Organoids
+In recent years, kidney organoids have been created. These are 
+three-dimensional structures developed from human kidney tis-
+sue or pluripotent stem cells and can comprise the glomerulus, 
+proximal tubule, loop of Henle, and distal tubule as well as the 
+collecting duct, endothelial network, and/or renal interstitium. 
+The advantage of this system is the integration of renal cells into 
+a functional-like nephron more similar to the kidney. The limi-
+tation of this approach is that nephrotoxicants may only target a 
+single cell type and inclusion of many cell types may limit the 
+ability to determine mechanisms of toxicity (Figure 33.6).
+33.5  Assays of Renal Cellular Function
+33.5.1  Assays of Cell Death: Necrosis, Apoptosis
+Most of our knowledge about mechanisms of renal cell injury 
+comes from studies that either focus on or use preparations 
+of proximal tubular cells. This is because the proximal tubule 
+TABLE 33.6
+Selected Immortalized, Continuous Renal Cell Lines
+Cell Line
+Species
+Presumed Cell Type of Origin
+SGE1
+Wistar rat
+Glomerulus
+NRK-52E
+Norway rat
+Proximal tubule
+LLC-PK1
+Hampshire pig
+Proximal tubule
+OK
+American opossum
+Proximal tubule
+MCT
+Mouse
+Proximal tubule
+JTC-12
+Cynomolgus monkey
+Proximal tubule
+HK-2
+Human
+Proximal tubule
+GRB-MAL
+Rabbit
+Medullary thick ascending limb
+M-m TAL-lc
+Mouse
+Medullary thick ascending limb
+MDCK
+Cocker spaniel
+Distal tubule and collecting duct
+A6
+African clawed toad
+Distal tubule and collecting duct
+
+1773
+Principles and Methods for Renal Toxicology
+is the easiest nephron cell type to obtain in high purity and 
+is the primary target site for the majority of drugs and other 
+toxic chemicals that target the kidneys, due to the large array 
+of plasma membrane carriers and drug metabolism enzymes 
+present. Although most of the mechanistic information about 
+cell death has come from in vitro studies, some information, 
+particularly about target cell identity and involvement of hor-
+monal, neuronal, or other extrarenal factors, has come from 
+in vivo studies. Renal cells that are intoxicated by drugs or 
+other chemicals can undergo several potential responses, 
+including cell death, growth arrest, or proliferation and repair. 
+It has become clear over the past several years of research, 
+FIGURE 33.5  Design for the human kidney proximal tubule-on-a-chip. (A) The microfluidic device consists of an apical channel (intraluminal chan-
+nel) separated from a bottom reservoir (interstitial space) by an ECM-coated porous membrane upon which primary human proximal tubule epithelial 
+cells are cultured in the presence of a physiological level of apical fluid shear stress. The basolateral compartment is readily accessible for fluid sam-
+pling and addition of test compounds for the study of active and passive epithelial transport. This design mimics the natural architecture, tissue-tissue 
+interface, and dynamically active mechanical microenvironment of the living kidney proximal tubule. (B) Device assembly: the upper layer, polyester 
+porous membrane, and lower layer are bonded together through surface plasma treatment. Human primary proximal tubular epithelial cells are seeded 
+through device inlet onto the porous ECM-coated membrane.97
+FIGURE 33.6  Kidney organoids derived from human pluripotent stem cells and the potential for renal regeneration. Phase 1, human pluripotent 
+stem cells, including human embryonic stem cells derived from donor embryos and human-induced pluripotent stem cells generated from patients with 
+kidney diseases, are promising candidates for renal regeneration. Phase 2, induction of human pluripotent stem cells differentiation toward the kidney 
+lineage to generate three-dimensional kidney-like organoids, or direct differentiation of human pluripotent stem cells (following genetic correction) 
+into specific kidney lineage cells such as podocytes. Phase 3, after further methods development such as transplantation and the use of flow systems, 
+the mature renal cells may be transferred back to patients as therapy to delay the progression of disease and potentially to improve kidney function.101
+
+1774
+Hayes’ Principles and Methods of Toxicology
+that for a very large number of toxic chemicals, exposure can 
+elicit all three responses in a cell population. The interplay 
+between these responses is illustrated in Figure 33.7. Hence, 
+as a response to a toxic insult, epithelial cells may either 
+exhibit altered regulation of cellular function or cytotoxicity. 
+The altered cells may either progress further to undergo neo-
+plastic transformation or may be repaired. Cells experiencing 
+cytotoxicity may either be repaired or, depending on expo-
+sure conditions, may undergo cell death by either apoptosis 
+or necrosis. The factors that determine which response occurs 
+and predominates are not completely understood, but certainly 
+include dose and time of exposure.
+Cell death, both in general and for renal tubular epithelial 
+cells in particular, can occur by two basic mechanisms, apop-
+tosis or necrosis (oncosis).102 Some basic features of necrosis 
+and apoptosis are compared in Table 33.7. The many differ-
+ences between the two forms of cell death are very dramatic. 
+Thus, whereas apoptosis is a highly regulated, energy-depen-
+dent process, necrosis can be viewed as an uncontrolled, path-
+ological response, whereas apoptosis involves events in single 
+cells, necrosis typically involves large numbers of cells in a 
+wide area of tissue and is often mediated in vivo by infiltrating 
+macrophages and similar inflammatory mechanisms.
+Several flow cytometry methods have been developed to 
+analyze the cell cycle or to label cellular components with, for 
+example, fluorescent tags, and then sort cells according to their 
+content of the fluorescently labeled component. Advantages of 
+methods using flow cytometry include their ability to identify 
+and readily quantify multiple subpopulations of cells based 
+on a large variety of parameters, and their ease of use. Flow 
+cytometers can quantify the proportion of cells in G0/G1, S, 
+and G2/M phases of the cell cycle by the use of fluorescent 
+DNA dyes. For example, one can easily identify cells in G2/M 
+phase as compared to those in G0/G1 phase because the former 
+have twice the amount of DNA as the latter. Besides emitted 
+light, the flow cytometer also analyzes scattered light from 
+cells passing through the laser beam. Forward scatter and side 
+scatter indicate cell size and granularity (density), respectively. 
+Because apoptotic cells are typically condensed, the flow 
+cytometer detects them as smaller, less fluorescent entities. 
+Cells are stained with propidium iodide (PI), which is a DNA-
+intercalating agent like ethidium bromide. The analytical pro-
+cedure used to detect the different cell populations is called 
+fluorescence-activated cell sorting (FACS) analysis.
+Another flow cytometric assay for apoptosis involves an 
+assessment of the changes in plasma membrane morphology, 
+which is an early effect involved in cells that undergo apopto-
+sis. In such cells, the membrane phospholipid phosphatidylser-
+ine is translocated to the outer face of the plasma membrane, 
+thereby exposing it to the extracellular environment. Annexin 
+V is a 35–36 kDa Ca2+-dependent, phospholipid-binding pro-
+tein with a high affinity for phosphatidylserine. When mea-
+suring apoptosis, Annexin V is conjugated to a fluorochrome 
+such as FITC, enabling binding of Annexin V-FITC to be a 
+sensitive probe of early apoptosis. Cells are stained with both 
+Annexin V-FITC and a vital dye such as PI, are subjected to 
+flow cytometry and FACS analysis, and are identified as early 
+apoptotic (Annexin V-FITC positive and PI negative), late 
+apoptotic or necrotic (Annexin V-FITC positive and PI posi-
+tive), or viable (Annexin V-FITC negative and PI negative).
+33.5.2  Renal Cellular Function
+Although measurements of cell death by necrosis or apoptosis 
+provide end-points for screening potentially nephrotoxic chem-
+icals, it is often important to assess the effects of chemical expo-
+sures or pathological states that are more subtle or that provide 
+an indication of potential toxic effects prior to irreversible cell 
+death. These would include measurements of cellular respira-
+tion, active ion transport (e.g., (Na++K+)-stimulated ATPase 
+TABLE 33.7
+Comparison of Selected Features of Necrotic and Apoptotic Mechanisms of Cell Death
+Parameter
+Necrosis
+Apoptosis
+Cell shape
+Swelling
+Shrinkage
+Membrane
+Increased permeability
+Intact
+Energy dependence
+No
+Yes
+Protein synthesis required
+No
+Yes
+Toxicant dose
+Relatively high
+Relatively low
+ATP depletion
+Yes; early effect
+Not until just before cell death
+Second messengers
+Not involved
+Often involved
+DNA damage
+Random SS/DS breaks
+Laddering
+Nuclear damage
+Chromatin damage, lysis
+Chromatin condensation
+FIGURE 33.7  General scheme of renal cellular responses to neph‑­ 
+rotoxicants.
+
+1775
+Principles and Methods for Renal Toxicology
+activity), cellular redox status, and concentrations of key intra-
+cellular metabolites, such as ATP and GSH. Mitochondria are 
+common and early targets for many nephrotoxic chemicals. 
+Hence, sensitive assessments of cellular energetics and mito-
+chondrial function should provide good indicators of agents 
+whose effects can be mediated through this organelle.103
+33.5.3  Molecular Markers of Renal Cellular 
+Repair, Regeneration, and Proliferation
+As illustrated in Figure 33.7, renal epithelial cells can respond 
+to toxicant exposures in a variety of ways, depending in part on 
+dose and time of exposure. Other factors are surely important 
+in determining whether the exposure leads to cell death, repair, 
+or uncontrolled proliferation. There are a number of markers 
+for repair and proliferation for the kidneys.104 For example, the 
+normal, differentiated proximal tubular cell expresses cytoker-
+atins but not vimentin, which is a marker for endothelial cells. 
+Renal proximal tubular cells that have either undergone neoplas-
+tic transformation or have dedifferentiated and are undergoing 
+repair and proliferation do express vimentin. Morphologically, 
+dedifferentiated proximal tubular cells exhibit differences from 
+the normal, differentiated state, such as the lack of a brush bor-
+der and an elongated rather than a cuboidal shape. While the 
+renal epithelium has regenerative capacity, the normal, termi-
+nally differentiated renal epithelium is nonproliferating, as evi-
+denced by the flow cytometry FACS analysis shown in Figure 
+33.8, which shows that <10% of control cells are in S phase. 
+Assays such as radiolabeled thymidine incorporation, 5-bromo-
+2−-deoxyuridine incorporation, and expression of proliferating 
+cell nuclear antigen can be used to demonstrate repair and pro-
+liferation of the renal tubular epithelium.
+FIGURE 33.8  Flow cytometry analysis of PI-stained hPT cells treated for 4 or 24 hours with 50-ōM DCVC. Confluent hPT cells were grown on 
+35-mm polystyrene culture dishes and were treated with PBS (= Control) for 4 hours (a) or 24 hours (b) or 50 ōM DCVC for 4 hours (c) or 24 hours (d). 
+Cells were then harvested by trypsin-EDTA digestion, washed in sterile PBS, fixed overnight in ethanol, stained with PI, and then analyzed by flow 
+cytometry with a Becton Dickinson FACSCalibur flow cytometer. Peaks from left to right represent apoptotic cells, cells in G0/G1, cells in S phase, and 
+cells in G2/M. Results are from a single preparation and are typical of those from six separate experiments. Note that G0/G1 peaks comprise the majority 
+of cells in most incubations and are somewhat broad because the cells are confluent. The coefficient of variation (CV) for these peaks ranged between 
+3% and 18%, with approximately 80% of the peaks in samples exhibiting CV values of 5–8%. Insets: Distribution of cells according to fluorescence 
+intensity. Cells outside the box are those that were excluded from the analysis due to aggregation.
+
+1776
+Hayes’ Principles and Methods of Toxicology
+33.5.4  Use of Genomics, Proteomics, 
+and Metabolomics in Renal 
+Physiology and Toxicology
+Recent advances in genomics, proteomics, and metabolomics 
+provide new opportunities for studying the molecular and cell 
+biology of the renal cellular response to toxicant exposure and 
+renal disease. Moreover, the increasing proportion of high-
+throughput assays creates both opportunities and challenges. 
+In terms of opportunities, large amounts of data are obtainable 
+that can uncover relationships that were previously unknown. 
+In terms of challenges, however, these same large amounts 
+of data generate a computational nightmare and can produce 
+both false negatives and, more importantly, false positives. 
+Nonetheless, a systems biology approach to understanding the 
+influence of environment and organ and cellular function is 
+now viewed by many as the only true way to provide a funda-
+mental understanding of physiological, pathological, and toxi-
+cological processes.105,106
+In the area of genomics, cDNA microarrays can be used to 
+determine genes or classes of genes that are either upregulated 
+or downregulated as a consequence of toxicant exposure. A 
+threshold for a change to be significant (1.5-fold or 2-fold if 
+being more conservative) is typically applied in the analysis. 
+Patterns of gene expression changes can provide a signature for 
+a chemical or class of chemicals that modulate renal function.
+While microarrays are indicative of changes in mRNA 
+expression, they may not translate into functional changes. 
+Hence, the additional application of proteomics approaches 
+can provide more detailed information on changes in both pro-
+tein expression and posttranslational modifications of proteins 
+(e.g., phosphorylation status), which can thus provide func-
+tional information.107 Proteomics can also be used to deter-
+mine the identity of proteins that are specifically modified by 
+reactive species generated by xenobiotic metabolism. In this 
+manner, detailed molecular information about how a toxicant 
+produces its effects can be gained.
+Metabolomics methods can also be used to provide insight 
+into how nephrotoxicants produce their effects.59,108,109 The gen-
+eral approach relies on measurements of intermediary metabo-
+lites in urine, using such techniques as 13C-nuclear magnetic 
+resonance spectroscopy or mass spectrometry. Just as cDNA 
+microarrays can provide a signature for the effects of a toxicant 
+on mRNA expression, metabolomics can provide a signature 
+for the effects of a toxicant on pathways such as glycolysis, oxi-
+dative phosphorylation, and amino acid metabolism.
+33.6  Human Disease and Risk Assessment
+33.6.1  Experimental Models of Renal Diseases
+An important experimental approach to improve the under-
+standing of disease etiology and to design improved treat-
+ments for human diseases is the development of experimental 
+models that mimic various aspects of the disease under study. 
+Genetically modified animals, such as transgenic mice, have 
+been used to study the functions of specific proteins.110 An inter-
+esting approach along these lines, designed to mimic conditions 
+that exist in a variety of human renal diseases, is the expres-
+sion of human proteins in mice, creating so-called humanized 
+mice.111 Renal diseases that have been studied include diabetic 
+nephropathy, polycystic kidney disease, various glomerular 
+nephropathies, to name a few. Special rat strains are also avail-
+able, such as the spontaneously hypertensive rat, to study the 
+role of renal function in specific pathologies. Experimental 
+approaches used to study renal function and toxicity will be 
+similar to these animals and normal animals. Caution must be 
+exercised, however, in the interpretation of findings because 
+a genetic modification may alter multiple processes. Hence, a 
+complete characterization of these animals is necessary.
+33.6.2  Extrapolation of Animal Data to Humans
+Although experimental animals such as rats and mice are fre-
+quently used to study nephrotoxicity and renal function, humans 
+are the ultimate species of interest. Laboratory animals or in 
+vitro preparations derived from such animals are used instead 
+of humans or tissue from humans for several reasons. First, the 
+design of clinical studies cannot include investigator-initiated 
+study of mechanisms of nephrotoxicity. It is only when humans 
+are inadvertently exposed to a nephrotoxic chemical, such as 
+might occur in an occupational setting, an environmental con-
+tamination, or a poisoning, can information about toxicity be 
+gleaned. Several limitations exist, however, with such studies. 
+For example, exposure information is often incomplete and/or 
+limited, requiring the use of assumptions and approximations. 
+Such control in experimental design that exists with animal 
+studies is not possible with clinical studies. Second, although 
+in vitro studies with renal tissue from humans are possible and 
+allow the investigator to exert the same degree of control over 
+exposure conditions as are available with in vitro studies from 
+animal tissues, human tissue is not always available and is sig-
+nificantly more expensive than studies with animal tissues.
+Nonetheless, mechanistic studies with renal tissue from 
+humans are feasible and have many advantages. The use of 
+human tissue for studies of chemically induced nephrotox-
+icity and renal function removes the need for interspecies 
+extrapolation. While such extrapolations have been applied 
+successfully for many chemicals, they have been much less 
+successful for other chemicals. A prime example of a situation 
+where rodent-to-human extrapolations have yielded equivocal 
+results for human health risk assessments is that of trichloro-
+ethylene.31 For halogenated solvents such as trichloroethylene, 
+rodents appear to be poor surrogates for humans because of 
+inherent differences that cannot be readily corrected. Hence, 
+while rodent data are used, the uncertainty factors applied to 
+the human health risk assessments are rather large compared 
+to those used for many other classes of chemicals.
+33.6.3  Future Considerations
+While many advances have been achieved in recent years 
+in the study of nephrotoxicity, several areas of research 
+require continued development or refinement. Fortunately, 
+new or improved technologies are available (e.g., knock-
+out and knock-in mice, kidney-on-a-chip, kidney organoids,
+
+1777
+Principles and Methods for Renal Toxicology
+mass-spectrometry–based metabolomics, RNAseq, Seahorse 
+respirometry). Although numerous biomarkers are available 
+for the kidneys, most do not satisfy enough of the criteria to be 
+truly useful as indicators of early stages of damage.
+33.7  Summary
+When considering the kidneys as a target organ for chemically 
+induced toxicity, unique features determine susceptibility: (1) the 
+high rate of renal blood flow, (2) the ability of the kidneys to 
+concentrate chemicals in the intraluminal fluid, (3) the ability to 
+actively reabsorb and/or secrete chemicals through the tubular 
+epithelial cells with high activity, and (4) the presence of enzymes 
+for the bioactivation of a pro-toxicant to reactive intermediates.
+When choosing an experimental model to study renal func-
+tion and toxicity, several questions must be asked: (1) What 
+is known about tissue and/or nephron cell type specificity? 
+(2) What is known about metabolism? (3) What is known 
+about the pharmacokinetics? (4) What is known about trans-
+port? (5) Are extrarenal factors or processes required for the 
+expression of nephrotoxicity? (6) What is the time frame over 
+which the nephrotoxic response occurs? Choices of models 
+using experimental animals (e.g., rat, mouse, rabbit) range 
+from the whole animal to a number of in vitro model systems, 
+including the isolated perfused kidney, renal slices, isolated 
+cells, primary cell culture, and immortalized renal cell lines. 
+Each model has distinct advantages and limitations and per-
+haps multiple models are best for addressing renal function 
+and toxicity.
+Once certain types of information about a putative nephro-
+toxicant are known, the model can then be chosen. The whole 
+animal model is important for determining target organ speci-
+ficity and the influence of extrarenal factors, including immu-
+nological and hormonal factors. A critical issue in using many 
+of the isolated tubule or cell models, including primary cell 
+culture and immortalized cell lines, is how well-differentiated 
+function is maintained. The importance of this issue is depen-
+dent on the process being studied, as some models that only 
+express some of the normal, in vivo phenotype will be good 
+models if the process being studied is retained. Several of the 
+in vitro models have the added advantage of being amenable 
+to being used for screening of potentially nephrotoxic chemi-
+cals. High-throughput assays, such as those that can use a plate 
+reader, are available for many of the assays of renal cellular 
+function and toxicity. The screening approach is particularly 
+useful for eliminating candidate drugs in the earliest phases 
+of investigation.
+33.8  Questions
+	 33.1  Describe procedures used to measure GFR.
+	 33.2  Explain the biological significance of high-molecu-
+lar-weight and low-molecular-weight proteinuria.
+	 33.3  Explain how nephron heterogeneity determines the 
+pattern of effects of nephrotoxicants.
+	 33.4  Explain how tubuloglomerular feedback regulates 
+GFR.
+	 33.5  Describe the properties of a chemical that would be 
+ideal for use in renal clearance measurements.
+	 33.6  Compare and contrast whole animals and various 
+in vitro models for their use in studies of nephro-
+toxicity and renal function in terms of their advan-
+tages and limitations.
+	 33.7  Describe the properties of an ideal biomarker of 
+effect for use in human health studies.
+	 33.8  Describe the differences between necrotic and apop-
+totic cell death at both cellular and organ levels.
+REFERENCES
+	
+1.	 Yu, A., G. Chertow, V. Luyckx, et al., The Kidney. 11th ed. 
+2020, Elsevier:  Amsterdam. p. 2793.
+	
+2.	 Biga, L., S. Dawson, A. Harwell, et al., Anatomy & 
+Physiology. Creative Commons Attribution-ShareAlike 4.0 
+International License.
+	
+3.	 Walker, L.A. and H. Valtin, Biological importance of neph-
+ron heterogeneity. Annu Rev Physiol, 1982; 44: pp. 203–219.
+	
+4.	 Guder, W.G. and B.D. Ross, Enzyme distribution along the 
+nephron. Kidney Int, 1984; 26(2): pp. 101–111.
+	
+5.	 Soltoff, S.P., ATP and the regulation of renal cell function. 
+Annu Rev Physiol, 1986; 48: pp. 9–31.
+	
+6.	 Brezis, M., S. Rosen, P. Silva, et al., Selective glutathione 
+depletion on function and structure of the isolated perfused 
+rat kidney. Kidney Int, 1983; 24(2): pp. 178–184.
+	
+7.	 Brezis, M., P. Shanley, P. Silva, et al., Disparate mecha-
+nisms for hypoxic cell injury in different nephron segments. 
+Studies in the isolated perfused rat kidney. J Clin Invest, 
+1985; 76(5): pp. 1796–1806.
+	
+8.	 Ruegg, C.E. and L.J. Mandel, Bulk isolation of renal PCT 
+and PST. II. Differential responses to anoxia or hypoxia. 
+Am J Physiol, 1990; 259(1 Pt 2): pp. F176–F185.
+	
+9.	 Shanley, P.F., M. Brezis, K. Spokes, et al., Hypoxic injury 
+in the proximal tubule of the isolated perfused rat kidney. 
+Kidney Int, 1986; 29(5): pp. 1021–1032.
+	 10.	 Shanley, P.F., M.D. Rosen, M. Brezis, et al., Topography of 
+focal proximal tubular necrosis after ischemia with reflow 
+in the rat kidney. Am J Pathol, 1986; 122(3): pp. 462–468.
+	 11.	 Koepsell, H. and H. Endou, The SLC22 drug transporter 
+family. P ugers Arch , 2004; 447(5): pp. 666–676.
+	 12.	 Koepsell, H., Polyspecific organic cation transporters: their 
+functions and interactions with drugs. Trends Pharmacol 
+Sci, 2004; 25(7): pp. 375–381.
+	 13.	 Burckhardt, G. and N.A. Wolff, Structure of renal organic 
+anion and cation transporters. Am J Physiol Renal Physiol, 
+2000; 278(6): pp. F853–F866.
+	 14.	 Bekersky, I., Use of the isolated perfused kidney as a tool in 
+drug disposition studies. Drug Metab Rev, 1983; 14(5): pp. 
+931–960.
+
+1778
+Hayes’ Principles and Methods of Toxicology
+	 15.	 Hagenbuch, B. and P.J. Meier, Organic anion transport-
+ing polypeptides of the OATP/SLC21 family: phylogenetic 
+classification as OATP/SLCO superfamily, new nomencla-
+ture and molecular/functional properties. P ugers Arch , 
+2004; 447(5): pp. 653–665.
+	 16.	 Lee, W. and R.B. Kim, Transporters and renal drug elimina-
+tion. Annu Rev Pharmacol Toxicol, 2004; 44: pp. 137–166.
+	 17.	 Markovich, D. and H. Murer, The SLC13 gene family of 
+sodium sulphate/carboxylate cotransporters. P ugers Arch , 
+2004; 447(5): pp. 594–602.
+	 18.	 Rizwan, A.N. and G. Burckhardt, Organic anion transporters 
+of the SLC22 family: biopharmaceutical, physiological, and 
+pathological roles. Pharm Res, 2007; 24(3): pp. 450–470.
+	 19.	 Wright, S.H. and W.H. Dantzler, Molecular and cellular 
+physiology of renal organic cation and anion transport. 
+Physiol Rev, 2004; 84(3): pp. 987–1049.
+	 20.	 Van Aubel, R.A., R. Masereeuw, and F.G. Russel, Molecular 
+pharmacology of renal organic anion transporters. Am J 
+Physiol Renal Physiol, 2000; 279(2): pp. F216–F232.
+	 21.	 Lash, L.H., Role of glutathione transport processes in kid-
+ney function. Toxicol Appl Pharmacol, 2005; 204(3): pp. 
+329–342.
+	 22.	 Groves, C.E., W.B. Suhre, N.J. Cherrington, et al., Sex dif-
+ferences in the mRNA, protein, and functional expression 
+of organic anion transporter (Oat) 1, Oat3, and organic cat-
+ion transporter (Oct) 2 in rabbit renal proximal tubules. J 
+Pharmacol Exp Ther, 2006; 316(2): pp. 743–752.
+	 23.	 Ljubojevic, M., C.M. Herak-Kramberger, Y. Hagos, et al., Rat 
+renal cortical OAT1 and OAT3 exhibit gender differences 
+determined by both androgen stimulation and estrogen inhibi-
+tion. Am J Physiol Renal Physiol, 2004; 287(1): pp. F124–F138.
+	 24.	 Pelis, R.M., R.C. Hartman, S.H. Wright, et al., Influence 
+of estrogen and xenoestrogens on basolateral uptake of tet-
+raethylammonium by opossum kidney cells in culture. J 
+Pharmacol Exp Ther, 2007; 323(2): pp. 555–561.
+	 25.	 Lash, L.H., D.A. Putt, and H. Cai, Membrane transport 
+function in primary cultures of human proximal tubular 
+cells. Toxicology, 2006; 228(2–3): pp. 200–218.
+	 26.	 Lash, L.H., Role of renal metabolism in risk to toxic 
+chemicals. Environ Health Perspect, 1994; 102 Suppl 11: 
+pp. 75–79.
+	 27.	 Lash, L., Role of metabolism in chemically induced neph-
+rotoxicity, in Mechanisms of Injury in Renal Disease and 
+Toxicity, R. Goldstein, Editor. 1994, CRC Press: Boca 
+Raton, FL. pp. 207–234.
+	 28.	 Mohandas, J., J.J. Marshall, G.G. Duggin, et al., Differential 
+distribution of glutathione and glutathione-related enzymes 
+in rabbit kidney. Possible implications in analgesic nephrop-
+athy. Biochem Pharmacol, 1984; 33(11): pp. 1801–1807.
+	 29.	 Lash, L.H., J.W. Fisher, J.C. Lipscomb, et al., Metabolism 
+of trichloroethylene. Environ Health Perspect, 2000; 108 
+Suppl 2: pp. 177–200.
+	 30.	 Lash, L.H. and J.C. Parker, Hepatic and renal toxicities 
+associated with perchloroethylene. Pharmacol Rev, 2001; 
+53(2): pp. 177–208.
+	 31.	 Lash, L.H., J.C. Parker, and C.S. Scott, Modes of action of 
+trichloroethylene for kidney tumorigenesis. Environ Health 
+Perspect, 2000; 108 Suppl 2: pp. 225–240.
+	 32.	 Cummings, B.S., R.C. Zangar, R.F. Novak, et al., Cellular 
+distribution of cytochromes P-450 in the rat kidney. Drug 
+Metab Dispos, 1999; 27(4): pp. 542–548.
+	 33.	 Lohr, J.W., G.R. Willsky, and M.A. Acara, Renal drug 
+metabolism. Pharmacol Rev, 1998; 50(1): pp. 107–141.
+	 34.	 Cummings, B.S. and L.H. Lash, Metabolism and toxicity of 
+trichloroethylene and S-(1,2-dichlorovinyl)-L-cysteine in 
+freshly isolated human proximal tubular cells. Toxicol Sci, 
+2000; 53(2): pp. 458–466.
+	 35.	 Cummings, B.S., J.M. Lasker, and L.H. Lash, Expression 
+of glutathione-dependent enzymes and cytochrome P450s 
+in freshly isolated and primary cultures of proximal tubu-
+lar cells from human kidney. J Pharmacol Exp Ther, 2000; 
+293(2): pp. 677–685.
+	 36.	 Lash, L.H., D.A. Putt, and H. Cai, Drug metabolism 
+enzyme expression and activity in primary cultures of 
+human proximal tubular cells. Toxicology, 2008; 244(1): 
+pp. 56–65.
+	 37.	 Lash, L., Sites of extra-hepatic metabolism Part III: Kidney, 
+in Handbook of Drug Metabolism, P. Pearson and L. 
+Wienkers, Editors. 2009, Informa Healthcare: New York. 
+pp. 299–325.
+	 38.	 Lash, L., Role of bioactivation reactions in chemi-
+cally induced nephrotoxicity, in Drug Metabolism in 
+Pharmaceuticals: Concepts and Applications, A. Nasar 
+and Hollenberg, Editors. 2009, John Wiley & Sons: New 
+York. pp. 761–781.
+	 39.	 Lash, L.H. and R.K. Zalups, Mercuric chloride-induced 
+cytotoxicity and compensatory hypertrophy in rat kid-
+ney proximal tubular cells. J Pharmacol Exp Ther, 1992; 
+261(2): pp. 819–829.
+	 40.	 Lash, L.H., D.A. Putt, and R.K. Zalups, Influence of exogenous 
+thiols on inorganic mercury-induced injury in renal proximal 
+and distal tubular cells from normal and uninephrectomized 
+rats. J Pharmacol Exp Ther, 1999; 291(2): pp. 492–502.
+	 41.	 Zalups, R. and L. Lash, Advances in understanding the renal 
+transport and toxicity of mercury. Journal of Toxicology 
+and Environmental Health, 1994; 42: pp. 1–44.
+	 42.	 Tarloff, J. and L. Kinter, In vivo methodologies used to assess 
+renal function, in Comprehensive Series in Toxicology, I.G. 
+Sipes, C.A. McQueen, A. J. Gandolfi xxxxxx, Editor. 1997, 
+Elsevier: Oxford. pp. 99–119.
+	 43.	 Waikar, S.S., R.A. Betensky, S.C. Emerson, et al., Imperfect 
+gold standards for kidney injury biomarker evaluation. J 
+Am Soc Nephrol, 2012; 23(1): pp. 13–21.
+	 44.	 Hoffmann, D., M. Adler, V.S. Vaidya, et al., Performance 
+of novel kidney biomarkers in preclinical toxicity studies. 
+Toxicol Sci, 2010; 116(1): pp. 8–22.
+	 45.	 Endre, Z.H., J.W. Pickering, and R.J. Walker, Clearance 
+and beyond: the complementary roles of GFR measurement 
+and injury biomarkers in acute kidney injury (AKI). Am J 
+Physiol Renal Physiol, 2011; 301(4): pp. F697–F707.
+	 46.	 Harpur, E., D. Ennulat, D. Hoffman, et al., Biological quali-
+fication of biomarkers of chemical-induced renal toxicity 
+in two strains of male rat. Toxicol Sci, 2011; 122(2): pp. 
+235–252.
+	 47.	 Vaidya, V.S., V. Ramirez, T. Ichimura, et al., Urinary kid-
+ney injury molecule-1: a sensitive quantitative biomarker 
+for early detection of kidney tubular injury. Am J Physiol 
+Renal Physiol, 2006; 290(2): pp. F517–F529.
+	 48.	 Scarfe, L., Schock-Kusch, D., Ressel, L., Friedemann, J., 
+Shulhevich, Y., Murray, P., Wilm, B., de Caestecker, M., 
+Transdermal measurement of glomerular filtration rate in 
+mice. J. Vis. Exp. 2018; 140: e58520. doi:10.3791/58520.
+
+1779
+Principles and Methods for Renal Toxicology
+	 49.	 Brezis, M., S. Rosen, P. Silva, et al., Selective vulnerabil-
+ity of the medullary thick ascending limb to anoxia in the 
+isolated perfused rat kidney. J Clin Invest, 1984; 73(1): pp. 
+182–190.
+	 50.	 Weber, E.J., J. Himmelfarb, and E.J. Kelly, Concise review: 
+current and emerging biomarkers of nephrotoxicity. Curr 
+Opin Toxicol, 2017; 4: pp. 16–21.
+	 51.	 Diamond, G., The isolated perfused kidney, in Methods 
+in Toxicology, R.K. Zalups, L.H. Lash, Editor. 1996, CRC 
+Press: Boca Raton, FL. pp. 59–77.
+	 52.	 Ramsey, C. and F. Knox, Micropuncture and microper-
+fusion techniques, in Methods in Toxicology, R. Zalups 
+and L. Lash. Editors. 1996, CRC Press: Boca Raton, FL. 
+pp. 79–96.
+	 53.	 Ford, S., In vitro toxicity systems, in vivo methodologies 
+used to assess renal function, in Comprehensive Series in 
+Toxicology, R. Goldstein, Editor. 1997, Elsevier: Oxford. 
+pp. 121–141.
+	 54.	 Krumdieck, C.L., J.E. dos Santos, and K.J. Ho, A new 
+instrument for the rapid preparation of tissue slices. Anal 
+Biochem, 1980; 104(1): pp. 118–123.
+	 55.	 Gandolfi, A., K. Brendel, and Q. Fernando, Preparation and 
+use of precision-cut renal cortical slices in renal toxicology, 
+in Methods in Toxicology, R.K. Zalups, L.H. Lash, Editor. 
+1996, CRC Press: Boca Raton, FL. pp. 109–122.
+	 56.	 Parrish, A.R., A.J. Gandolfi, and K. Brendel, Precision-cut 
+tissue slices: applications in pharmacology and toxicology. 
+Life Sci, 1995; 57(21): pp. 1887–1901.
+	 57.	 Zalups, R. and D. Barfuss, In vitro perfusion of isolated 
+nephron segments. A method for renal toxicology, in 
+Methods in Toxicology, R.K. Zalups, L.H. Lash, Editor. 
+1996, CRC Press: Boca Raton, FL. pp. 123–146.
+	 58.	 Gesek, F.A., D.W. Wolff, and J.W. Strandhoy, Improved 
+separation method for rat proximal and distal renal tubules. 
+Am J Physiol, 1987; 253(2 Pt 2): pp. F358–F365.
+	 59.	 Heidrich, H.G. and M.E. Dew, Homogeneous cell popula-
+tions from rabbit kidney cortex. Proximal, distal tubule, 
+and renin-active cell isolated by free-flow electrophoresis. J 
+Cell Biol, 1977; 74(3): pp. 780–788.
+	 60.	 Kreisberg, J.I., A.M. Pitts, and T.G. Pretlow, Separation of 
+proximal tubule cells from suspensions of rat kidney cells 
+in density gradients of Ficoll in tissue culture medium. Am 
+J Pathol, 1977; 86(3): pp. 591–602.
+	 61.	 Rodeheaver, D.P., M.D. Aleo, and R.G. Schnellmann, 
+Differences in enzymatic and mechanical isolated rabbit 
+renal proximal tubules: comparison in long-term incuba-
+tion. In Vitro Cell Dev Biol, 1990; 26(9): pp. 898–904.
+	 62.	 Scholer, D.W. and I.S. Edelman, Isolation of rat kidney cor-
+tical tubules enriched in proximal and distal segments. Am 
+J Physiol, 1979; 237(5): pp. F350–F359.
+	 63.	 Vinay, P., A. Gougoux, and G. Lemieux, Isolation of a pure 
+suspension of rat proximal tubules. Am J Physiol, 1981; 
+241(4): pp. F403–F411.
+	 64.	 Allen, M.L., A. Nakao, W.K. Sonnenburg, et al., 
+Immunodissection of cortical and medullary thick ascend-
+ing limb cells from rabbit kidney. Am J Physiol, 1988; 255(4 
+Pt 2): pp. F704–F710.
+	 65.	 Chamberlin, M.E., A. LeFurgey, and L.J. Mandel, Sus­
+pension of medullary thick ascending limb tubules 
+from the rabbit kidney. Am J Physiol, 1984; 247(6 Pt 2): 
+pp. F955–F964.
+	 66.	 Eveloff, J., W. Haase, and R. Kinne, Separation of renal med-
+ullary cells: isolation of cells from the thick ascending limb 
+of Henle’s loop. J Cell Biol, 1980; 87(3 Pt 1): pp. 672–681.
+	 67.	 Pizzonia, J.H., F.A. Gesek, S.M. Kennedy, et al., 
+Immunomagnetic separation, primary culture, and charac-
+terization of cortical thick ascending limb plus distal con-
+voluted tubule cells from mouse kidney. In Vitro Cell Dev 
+Biol, 1991; 27A(5): pp. 409–416.
+	 68.	 Trinh-Trang-Tan, M.M., N. Bouby, C. Coutaud, et al., 
+Quick isolation of rat medullary thick ascending limbs. 
+Enzymatic and metabolic characterization. P ugers Arch , 
+1986; 407(2): pp. 228–234.
+	 69.	 Groves, C.E. and R.G. Schnellmann, Suspensions of rab-
+bit renal proximal tubules, in Methods in Toxicology, R.K. 
+Zalups, L.H. Lash, Editor. 1996, CRC Press: Boca Raton, 
+FL. pp. 147–162.
+	 70.	 Aleo, M.D., M.L. Taub, P.A. Nickerson, et al., Primary cul-
+tures of rabbit renal proximal tubule cells: I. Growth and 
+biochemical characteristics. In Vitro Cell Dev Biol, 1989; 
+25(9): pp. 776–783.
+	 71.	 Chung, S.D., N. Alavi, D. Livingston, et al., Characterization 
+of primary rabbit kidney cultures that express proximal 
+tubule functions in a hormonally defined medium. J Cell 
+Biol, 1982; 95(1): pp. 118–126.
+	 72.	 Taub, M.L., I.S. Yang, and Y. Wang, Primary rabbit kid-
+ney proximal tubule cell cultures maintain differenti-
+ated functions when cultured in a hormonally defined 
+serum-free medium. In Vitro Cell Dev Biol, 1989; 25(9): 
+pp. 770–775.
+	 73.	 Aleo, M. and P.J. Kostyniak, Characterization and use of 
+rabbit renal proximal tubule cells in primary culture for 
+toxicological research, in Methods in Toxicology. 1996, 
+CRC Press: Boca Raton, FL. pp. 163–188.
+	 74.	 Nowak, G. and R.G. Schnellmann, L-ascorbic acid regulates 
+growth and metabolism of renal cells: improvements in cell 
+culture. Am J Physiol, 1996; 271(6 Pt 1): pp. C2072–C2080.
+	 75.	 Jones, D.P., G.B. Sundby, K. Ormstad, et al., Use of iso-
+lated kidney cells for study of drug metabolism. Biochem 
+Pharmacol, 1979; 28(6): pp. 929–935.
+	 76.	 Lash, L.H., Use of freshly isolated and primary cultures of 
+proximal tubular and distal tubular cells from rat kidney, 
+in Methods in Toxicology, R. Zalups and L. Lash, Editors. 
+1996, CRC Press: Boca Raton, FL. pp. 189–215.
+	 77.	 Lash, L.H. and J.J. Tokarz, Isolation of two distinct popu-
+lations of cells from rat kidney cortex and their use in the 
+study of chemical-induced toxicity. Anal Biochem, 1989; 
+182(2): pp. 271–279.
+	 78.	 Lash, L.H., Human proximal tubular cells as an in vitro 
+model for drug screening and mechanistic toxicology, in 
+AltTox Essay 2012: http://alttox.org/ttrc/toxicity-tests/
+repeated-dose/way-forward/lash/.
+	 79.	 Lash, L.H., In vitro methods of assessing renal damage. 
+Toxicol Pathol, 1998; 26(1): pp. 33–42.
+	 80.	 Nowak, G. and R.G. Schnellmann, Improved culture 
+conditions stimulate gluconeogenesis in primary cul-
+tures of renal proximal tubule cells. Am J Physiol, 1995; 
+268(4 Pt 1): pp. C1053–C1061.
+	 81.	 Blumenthal, S.S., D.L. Lewand, M.A. Buday, et al., Eff­
+ect of pH on growth of mouse renal cortical tubule cells 
+in primary culture. Am J Physiol, 1989; 257(3 Pt 1): 
+pp. C419–C426.
+
+1780
+Hayes’ Principles and Methods of Toxicology
+	 82.	 Boogaard, P.J., J.P. Zoeteweij, T.J. van Berkel, et al., 
+Primary culture of proximal tubular cells from normal rat 
+kidney as an in vitro model to study mechanisms of nephro-
+toxicity. Toxicity of nephrotoxicants at low concentrations 
+during prolonged exposure. Biochem Pharmacol, 1990; 
+39(8): pp. 1335–1345.
+	 83.	 Chen, T.C., N.P. Curthoys, C.F. Lagenaur, et al., 
+Characterization of primary cell cultures derived from rat 
+renal proximal tubules. In Vitro Cell Dev Biol, 1989; 25(8): 
+pp. 714–722.
+	 84.	 Elliget, K.A. and B.F. Trump, Primary cultures of normal 
+rat kidney proximal tubule epithelial cells for studies of 
+renal cell injury. In Vitro Cell Dev Biol, 1991; 27A(9): pp. 
+739–748.
+	 85.	 Hatzinger, P.B. and J.L. Stevens, Rat kidney proximal 
+tubule cells in defined medium: the roles of cholera toxin, 
+extracellular calcium and serum in cell growth and expres-
+sion of gamma-glutamyltransferase. In Vitro Cell Dev Biol, 
+1989; 25(2): pp. 205–212.
+	 86.	 Lash, L.H., J.J. Tokarz, and D.M. Pegouske, Susceptibility 
+of primary cultures of proximal tubular and distal tubu-
+lar cells from rat kidney to chemically induced toxicity. 
+Toxicology, 1995; 103(2): pp. 85–103.
+	 87.	 Miller, J.H., Restricted growth of rat kidney proximal 
+tubule cells cultured in serum-supplemented and defined 
+media. J Cell Physiol, 1986; 129(2): pp. 264–272.
+	 88.	 Scott, D.M., K. Zierold, and R. Kinne, Development of dif-
+ferentiated characteristics in cultured kidney (thick ascend-
+ing loop of Henle) cells. Exp Cell Res, 1986; 162(2): pp. 
+521–529.
+	 89.	 Detrisac, C.J., M.A. Sens, A.J. Garvin, et al., Tissue culture 
+of human kidney epithelial cells of proximal tubule origin. 
+Kidney Int, 1984; 25(2): pp. 383–390.
+	 90.	 Courjault-Gautier, F., J. Chevalier, C.C. Abbou, et al., 
+Consecutive use of hormonally defined serum-free media to 
+establish highly differentiated human renal proximal tubule 
+cells in primary culture. J Am Soc Nephrol, 1995; 5(11): pp. 
+1949–1963.
+	 91.	 Rodilla, V., A.T. Miles, W. Jenner, et al., Exposure of cul-
+tured human proximal tubular cells to cadmium, mercury, 
+zinc and bismuth: toxicity and metallothionein induction. 
+Chem Biol Interact, 1998; 115(1): pp. 71–83.
+	 92.	 Regec, A.L., A.L. Trifillis, and B.F. Trump, The effect of 
+gentamicin on human renal proximal tubular cells. Toxicol 
+Pathol, 1986; 14(2): pp. 238–241.
+	 93.	 Van der Biest, I., E.J. Nouwen, S.A. Van Dromme, et al., 
+Characterization of pure proximal and heterogeneous distal 
+human tubular cells in culture. Kidney Int, 1994; 45(1): pp. 
+85–94.
+	 94.	 Taub, M., Immortalized cell lines of renal cells, in Methods 
+in Toxicology, R. Zalups and L. Lash, Editors. 1996, CRC 
+Press: Boca Raton, FL. pp. 217–235.
+	 95.	 Lacave, R., M. Bens, N. Cartier, et al., Functional proper-
+ties of proximal tubule cell lines derived from transgenic 
+mice harboring L-pyruvate kinase-SV40 (T) antigen hybrid 
+gene. J Cell Sci, 1993; 104 (Pt 3): pp. 705–712.
+	 96.	 Vandewalle, A., B. Lelongt, M. Geniteau-Legendre, et al., 
+Maintenance of proximal and distal cell functions in SV40-
+transformed tubular cell lines derived from rabbit kidney 
+cortex. J Cell Physiol, 1989; 141(1): pp. 203–221.
+	 97.	 Jang, K.J., A.P. Mehr, G.A. Hamilton, et al., Human kidney 
+proximal tubule-on-a-chip for drug transport and neph-
+rotoxicity assessment. Integr Biol (Camb), 2013; 5(9): pp. 
+1119–1129.
+	 98.	 Chang, S.Y., E.J. Weber, K.V. Ness, et al., Liver and kidney 
+on chips: microphysiological models to understand trans-
+porter function. Clin Pharmacol Ther, 2016; 100(5): pp. 
+464–478.
+	 99.	 Chang, S.Y., E.J. Weber, V.S. Sidorenko, et al., Human 
+liver-kidney model elucidates the mechanisms of aristolo-
+chic acid nephrotoxicity. JCI Insight, 2017; 2(22). https://
+doi.org/10.1172/jci.insight.95978
+	100.	 Petrosyan, A., P. Cravedi, V. Villani, et al., A glomerulus-
+on-a-chip to recapitulate the human glomerular filtration 
+barrier. Nat Commun, 2019; 10(1): p. 3656.
+	101.	 Tian, P. and R. Lennon, The myriad possibility of kidney 
+organoids. Curr Opin Nephrol Hypertens, 2019; 28(3): pp. 
+211–218.
+	102.	 Harriman, J. and R. Schnellmann, Mechanisms of renal 
+cell death, in Toxicology of the Kidney, J. Tarloff and 
+L. Lash, Editors. 2005, CRC Press: Boca Raton, FL. 
+pp. 245–297.
+	103.	 Zalups, R. and L. Lash, Mitochondrial toxicity in renal 
+injury. Methods in toxicology. 1996, Boca Raton, FL: CRC 
+Press. 299–329.
+	104.	 Lash, L., Molecular and cell biology of normal and dis-
+eased or intoxicated kidney, in Toxicology of the Kidney, J. 
+Tarloff and L. Lash, Editors. 2005, CRC Press: Boca Raton, 
+FL. pp. 57–79.
+	105.	 Geenen, S., P.N. Taylor, J.L. Snoep, et al., Systems biol-
+ogy tools for toxicology. Arch Toxicol, 2012; 86(8): pp. 
+1251–1271.
+	106.	 He, J.C., P.Y. Chuang, A. Ma’ayan, et al., Systems biology of 
+kidney diseases. Kidney Int, 2012; 81(1): pp. 22–39.
+	107.	 Konvalinka, A., J.W. Scholey, and E. Diamandis, Searching 
+for new biomarkers of renal diseases through proteomics. 
+Clin Chem, 2012; 58(2): pp. 353–365.
+	108.	 Beger, R.D., J. Sun, and L.K. Schnackenberg, Metabolomics 
+approaches for discovering biomarkers of drug-induced 
+hepatotoxicity and nephrotoxicity. Toxicol Appl Pharmacol, 
+2010; 243(2): pp. 154–166.
+	109.	 Johnson, C.H. and F.J. Gonzalez, Challenges and oppor-
+tunities of metabolomics. J Cell Physiol, 2012; 227(8): pp. 
+2975–2981.
+	110.	 Boverhof, D.R., M.P. Chamberlain, C.R. Elcombe, et al., 
+Transgenic animal models in toxicology: historical per-
+spectives and future outlook. Toxicol Sci, 2011; 121(2): pp. 
+207–233.
+	111.	 Shen, H.W., X.L. Jiang, F.J. Gonzalez, et al., Humanized 
+transgenic mouse models for drug metabolism and phar-
+macokinetic research. Curr Drug Metab, 2011; 12(10): pp. 
+997–1006.
