@@ -1,0 +1,3204 @@
+# 20 Toxic Responses of the Endocrine System
+# Casarett & Doull's Toxicology, 9th Edition
+# Pages: 996-1021
+# Unit: Unit IV Target Organ Toxicity
+
+20
+chapter
+Toxic Responses of the  
+Endocrine System
+Patricia B. Hoyer and Jodi A. Flaws
+INTRODUCTION
+Higher animals, including humans, have developed the ability 
+to regulate their internal environment, independent of wide fluc-
+tuations in external factors, in the form of endocrine systems. An 
+endocrine system consists of (1) an endocrine gland that secretes 
+a hormone, (2) the hormone itself, and (3) a target tissue that 
+responds to the hormone. The classical definition of a hormone is 
+“a chemical substance produced by a ductless endocrine gland and 
+secreted into the blood, which carries it to a specific target organ to 
+produce an effect.” In addition to the humoral communication regu-
+lated by endocrine systems, the nervous system also regulates over-
+all bodily functions. The two systems are intimately interconnected 
+and normally work in close concert. One direct point at which the 
+two systems interface involves “neuroendocrine” cells, which are 
+special types of neurons capable of secreting humoral substances 
+(hormones) in response to synaptic input (neurotransmitters).
+The hormone-producing glands of humans include the pituitary 
+(hypophysis), the thyroid and parathyroids, the adrenals, the gonads, 
+and the pancreas. The mechanisms by which endocrine glands syn-
+thesize, store, and secrete hormones depend on the chemical proper-
+ties of the hormone. There are primarily three chemical classes of 
+hormones: amino acid derivatives, peptides and proteins, and ste-
+roids. The amino acid derivatives include the catecholamines, epi-
+nephrine, and norepinephrine (produced in the adrenal medulla), and 
+the thyroid hormones, triiodothyronine (T3), and thyroxine (T4). 
+A large number of hormones are peptides or proteins, such as the 
+neurohormones of the posterior pituitary, tropic hormones of the 
+anterior pituitary, and pancreatic hormones. Steroids are produced 
+by the adrenal cortex, the testes, the ovaries, and in pregnancy, the 
+placenta. These hormones are derivatives of cholesterol. In general, 
+designation of a hormone as hydrophilic (peptides and proteins, 
+catecholamines) or hydrophobic (thyroid hormones, vitamin D, 
+steroids) provides information useful in understanding the synthe-
+sis, secretion, transport, and target cell mechanism of action of that 
+particular hormone (Table 20-1).
+Circulating hormone levels are influenced by the rate of secre-
+tion from the endocrine gland, rate of metabolism, and method by 
+which hormone is transported in the blood. The rate of secretion 
+is regulated in the endocrine gland by a variety of physiological 
+factors. The rate of hormonal metabolism or degradation in the 
+bloodstream determines its half-life (t1/2) in blood. The cells of the 
+endocrine gland typically contain only a small store of synthesized 
+hormone, although one noted exception is the thyroid that stores 
+Introduction
+Pituitary Gland
+Pituitary Toxicity
+Adrenal Glands
+Adrenal Cortex
+Steroidogenesis
+Glucocorticoids
+Adrenocortical Toxicity
+In Vitro Testing
+Serum Binding Proteins
+Target Tissue Receptors
+Neuroendocrine Regulation
+Animal Testing
+Mineralocorticoids
+Fetal Adrenal
+X-Zone
+Adrenal Medulla
+Sympathetic Response
+Catecholamines
+Adrenergic Receptors
+General Toxicity
+Pheochromocytoma
+In Vitro Testing
+Thyroid Gland
+Thyroid Hormone Structure  
+and Synthesis
+Thyroid Hormone Binding  
+Proteins
+Thyroid Hormone Receptors
+Thyroid Hormone Clearance
+Regulation of Thyroid Hormone 
+Release
+Physiological Effects
+Thyroid Toxicity
+PCBs
+PBDEs
+Perchlorate
+Pesticides
+Perfluorinated Chemicals
+Bisphenol A
+Phthalates
+Parathyroid Gland
+Parathyroid Toxicity
+PTH Structure and Synthesis
+PTH Receptors
+PTH Clearance
+Physiological Effects
+Regulation of PTH Release
+Endocrine Pancreas
+Role of the Liver in Glucose Production
+Pancreatic Hormones
+Insulin
+Glucagon
+Somatostatin
+Interactions of Release
+Metabolic Responses in Diabetes
+Pancreatic Toxicity
+Insulin Resistance
+In Vitro Testing
+Acknowledgments
+References
+
+978
+TARGET ORGAN TOXICITY
+Unit IV
+hormone for several months. Therefore, in response to a specific 
+stimulus, the cells synthesize and secrete hormones directly into the 
+bloodstream where they are normally found in very low concentra-
+tions (10−8 to 10−12 M). Although most hormones are carried by the 
+blood, they are not all transported in the same way. Hydrophilic 
+hormones (peptides and proteins) are freely dissolved in plasma 
+and do not require a specialized transport system. In contrast, given 
+the limited aqueous solubilities of hydrophobic hormones (ste-
+roids, thyroid hormones), it is not possible for them to exist free in 
+solution in the aqueous environment of the blood so they circulate 
+bound to specialized serum binding proteins or to albumin. The two 
+major functions of serum binding proteins are to (1) solubilize the 
+hormone for transport in the blood, and (2) extend the life of the 
+hormone in circulation (t1/2) by protecting the small molecules from 
+enzymatic degradation in the blood stream. The extent to which a 
+hydrophobic hormone is protein bound varies from one hormone to 
+another. However, in all cases, the total hormone pool is predomi-
+nantly in the bound form. This is important because it is generally 
+accepted that only the pool of free hormone is biologically active. 
+Therefore, binding proteins also provide a large hormone reserve 
+that can be called upon to replenish the free pool. It is the magnitude 
+of the free pool rather than the total pool of hormone that is moni-
+tored and adjusted to maintain normal endocrine function.
+Hormones elicit a wide variety of biological responses. For 
+virtually all hormones, the initial step in this process is binding 
+of the hormone to a receptor in its target tissue. Those receptors 
+can be located on the plasma membrane (peptide, protein, and cat-
+echolamine hormones) or have their action in the cellular nucleus 
+(steroids, thyroid, and vitamin D hormones). The interaction of the 
+hormone with its receptor initiates a chain of intracellular events 
+leading to the physiological response specific to that hormone. 
+For each endocrine system in this chapter, the sections first briefly 
+describe the anatomy and physiology of the normal endocrine 
+gland because such a background is important for understand-
+ing the effects of xenobiotics on that gland. This is followed by 
+a description of some effects of environmental chemicals on vari-
+ous aspects of the system’s function. Mechanistic information is 
+included whenever possible to aid in the interpretation of findings 
+and to assess their potential for human risk.
+PITUITARY GLAND
+The pituitary may be divided into four major subdivisions. The 
+pars distalis (adenohypophysis or anterior pituitary) forms the larg-
+est subdivision. The pars intermedia forms the thin cellular zone 
+between the adenohypophysis and neurohypophysis. The pars 
+tuberalis (stalk) is a very small subdivision, highly vascularized, 
+and is not known to secrete hormones. Finally, the pars nervosa 
+(neurohypophysis or posterior pituitary) forms the second largest 
+subdivision of the pituitary. There are two basic types of communi-
+cation between the hypothalamus and pituitary (Fig. 20-1). (1) The 
+adenohypophysis receives vascular supply from the median emi-
+nence. The communication between the two is endocrine in nature 
+in that peptide hormones are released in nerve endings of tuber-
+oinfundibular neurons, which are neuroendocrine cells located in 
+the median eminence. Once secreted, the peptides are transported 
+in the blood via the pars tuberalis to the anterior pituitary. (2) The 
+neurohypophysis receives neuronal communication from the supra-
+optic nucleus (SON) and paraventricular nucleus (PVN). The type 
+of communication is neuroendocrine, the cell bodies are located 
+in the SON and PVN, and their axons stretch through the median 
+eminence of the hypothalamus, span the infundibular stalk, and ter-
+minate in the posterior lobe. These cells are called magnocellular 
+neurons and are neuroendocrine cells. Therefore, functionally and 
+anatomically, the posterior pituitary is an extension of the hypo-
+thalamus. In fact, the hormones produced in the posterior pituitary 
+are actually synthesized in the neuroendocrine cell bodies located 
+in the hypothalamus (SON and PVN).
+There are a variety of mechanisms that regulate the rate of 
+release of hormones in the neuroendocrine pathway. Superimposed 
+on endogenous rhythms of hormone release are a number of 
+feedback mechanisms. To maintain appropriate homeostasis, the 
+endocrine organ must constantly monitor systemic hormone con-
+centrations, or some function of it. This awareness is provided in 
+the form of negative feedback loops. By this mechanism, hormones 
+produced in the target organ feed back to reduce hypothalamic pep-
+tide and/or anterior pituitary hormone release. For example, high 
+circulating levels of cortisol produced in the adrenal cortex will 
+inhibit corticotropin releasing hormone (CRH) release from the 
+hypothalamus, and adrenocorticotropic hormone (ACTH) release 
+from the pituitary.
+Table 20-1  
+Groups of Hormones
+ROLE
+HYDROPHILIC
+HYDROPHOBIC 
+(LIPOPHILIC)
+Endocrine gland 
+­cellular storage
+Yes
+No
+Secretion
+Secretory vesicles
+Passive diffusion
+Transport in blood
+Free*
+Protein bound
+Target organ ­receptors
+Plasma membrane
+Nuclear
+*Catecholamines are transported on albumin.
+Artery
+Vein
+Hypothalamus
+Neurosecretory
+neuron
+Pars tuberalis
+Magnocellular
+neuron
+Pars distalis
+Pars nervosa
+Posterior
+pituitary
+Anterior
+pituitary
+Portal
+vessels
+Figure 20-1.   Communication between the hypothalamus and the pituitary. 
+The anterior pituitary receives endocrine input from the hypothalamus in 
+the form of peptide releasing hormones, which are transported in portal 
+vessels to stimulate release of hormones in the anterior pituitary cells. The 
+posterior pituitary is innervated by axons extending from magnocellular 
+neurons with their cell bodies located in the hypothalamus. Stimulation 
+of these cell bodies results in hormonal secretion in the posterior pituitary 
+(Modified from Hedge et al. [1987].)
+
+Toxic Responses of the Endocrine System 
+Chapter 20
+979
+Most of the blood supply from the hypothalamus to the pars 
+distalis (adenohypophysis, anterior pituitary) is derived from a por-
+tal system (hypothalamo-hypophyseal vessels), which arises from 
+a capillary network in the median eminence, transports down the 
+pituitary stalk, then terminates in the anterior lobe. Blood flowing 
+from the hypothalamus to the pituitary delivers hypothalamic pep-
+tides that regulate anterior pituitary hormone secretion. There are 
+six major protein hormones secreted by five distinctive cell types 
+in the anterior pituitary. Table 20-2 provides a summary of some of 
+the characteristics of these five cell types.
+Each type of endocrine cell in the adenohypophysis is under 
+the control of a specific releasing hormone from the hypothalamus 
+(Fig. 20-2). These releasing hormones are small peptides synthe-
+sized and secreted by tuberoinfundibular neurons of the hypothala-
+mus. They are transported by short axonal processes to the median 
+eminence, where they are released into capillaries and conveyed by 
+the hypophyseal portal system to specific trophic hormone-secreting 
+cells in the adenohypophysis. Each hormone stimulates the rapid 
+release of preformed secretory granules containing a specific tro-
+phic hormone. Specific releasing hormones have been identified for 
+thyroid-stimulating hormone (TSH), follicle-stimulating hormone 
+(FSH) and luteinizing hormone (LH), adrenocorticotropic hormone 
+(ACTH), and growth hormone (GH). Prolactin (PRL) secretion is 
+stimulated by a number of factors, the most important of which 
+appears to be thyrotropin-releasing hormone (TRH). Dopamine 
+serves as the major prolactin-inhibitory factor to suppress PRL 
+secretion. Another hypothalamic release-inhibitory factor is soma-
+tostatin, which inhibits secretion of growth hormone. Regulation 
+of the thyroid gland by TSH and the adrenal cortex by ACTH is 
+discussed in this chapter. Regulation of the gonads by LH and FSH 
+is discussed in Chap. 21.
+The pars nervosa (neurohypophysis; posterior pituitary) in 
+the human secretes two important hormones. These are vasopres-
+sin, VP (or antidiuretic hormone [ADH]), and oxytocin. They are 
+nonapeptides that share a strong structural homology. ADH plays an 
+important regulatory role in water conservation and maintenance of 
+body fluid osmolality, blood volume, and pressure. ADH (VP) has 
+two major effects corresponding to its two names: (1) it enhances 
+reabsorption of water by the distal tubule and collecting ducts of the 
+kidney producing an antidiuretic effect, which decreases osmotic 
+pressure of the blood, and (2) it causes contraction of vascular 
+smooth muscle producing a generalized pressor effect. Oxytocin 
+stimulates contraction of smooth muscles located in the uterine 
+myometrium to regulate fetal parturition, and in breast alveoli to 
+regulate milk letdown during lactation.
+Pituitary Toxicity
+Few studies have focused on the effects of xenobiotics on the 
+pituitary gland. However, studies consistently show that heavy 
+metals may target pituitary gland structure or function. Cadmium 
+affects many different cell types in the pituitary gland. It affects 
+the lactotrophs by inhibiting prolactin secretion after long-term 
+or acute exposure (Lafuente and Esquifino, 1999). The ability of 
+cadmium to inhibit prolactin secretion may depend on the route 
+of administration and age of the animals. In adult rats, oral and 
+subcutaneous administrations of cadmium inhibit prolactin secre-
+tion, whereas only oral administration inhibits prolactin in puber-
+tal animals (Lafuente and Esquifino, 1999). Cadmium also affects 
+the gonadotrophs by inhibiting LH and FSH secretion in male and 
+female rats (Lafuente and Esquifino, 1999; Ronchetti et al., 2016). 
+This effect of cadmium on the gonadotrophs may depend on the 
+route of exposure because oral, but not subcutaneous, administra-
+tion of cadmium inhibits gonadotropin levels. Further, the ability 
+of cadmium to affect gonadotrophs may differ with age. Studies 
+indicate that the degree of cadmium-induced inhibition of LH and 
+FSH is higher in older rats compared to younger rats (Lafuente and 
+Esquifino, 1999). Similarly, cadmium affects the corticotrophs by 
+altering ACTH levels in a manner that differs with age (Lafuente 
+and Esquifino, 1999). Cadmium exposure increases ACTH levels in 
+rodents exposed during puberty and decreases ACTH levels in ani-
+mals exposed during adulthood. Further, cadmium may also affect 
+the somatotrophs (Lafuente and Esquifino, 1999). Studies indicate 
+that acute exposure to cadmium decreases circulating GH levels, 
+while treatment for a longer period (14 days) increases circulating 
+GH levels (Lafuente and Esquifino, 1999). One study evaluated the 
+effect of chronic exposure (30 days in drinking water) to cadmium 
+in male Sprague–Dawley rats on circadian release of ACTH, GH, 
+and TSH (Caride et al., 2010a). Compared with controls, cadmium 
+delayed the 24-hour peak of ACTH release and eliminated that of 
+Table 20-2  
+Pituitary Cell Distribution
+CELL TYPE
+% CELLS IN 
+PITUITARY
+HORMONE SECRETED
+Somatotrophs
+50
+Growth hormone (GH)
+Lactotrophs
+10–20
+Prolactin (PRL)
+Corticotrophs
+15–20
+Adrenocorticotropic 
+­hormone (ACTH)
+Thyrotrophs
+5
+Thyroid stimulating
+Gonadotrophs
+5–15
+Luteinizing hormone 
+(LH)
+Follicle stimulating 
+­hormone (FSH)
+Hypothalamic releasing hormones
+Dopamine
+Somatostatin
+Anterior
+pituitary
+Target tissues
+Gonads
+Muscle,
+liver, etc.
+Thyroid Breasts
+Adrenal
+cortices
++
++
++
++
++
++
+–
+–
+–
+LH
+GH
+FSH
+TSH
+PRL
+ACTH
+PIH
+GnRH
+GHRH
+GHIH
+CRH
+TRH
+Figure 20-2.   Regulation of anterior pituitary hormone release (rectangles) 
+by hypothalamic releasing hormones (circles). Major target tissues for the 
+anterior pituitary hormones are indicated. ACTH, adrenocorticotropic hor-
+mone; CRH, corticotropin releasing hormone; FSH, follicle-stimulating 
+hormone; GH, growth hormone; GHIH, growth hormone inhibiting hor-
+mone (somatostatin); GHRH, growth hormone releasing hormone; GnRH, 
+gonadotropin releasing hormone; LH, luteinizing hormone; PIH, prolac-
+tin inhibiting hormone (dopamine); TRH, thyrotropin releasing hormone; 
+TSH, thyroid stimulating hormone. +, stimulatory; −, inhibitory. (Modified 
+from Hedge et al. [1987].)
+
+980
+TARGET ORGAN TOXICITY
+Unit IV
+GH. Interestingly, mean daily circulating levels of ACTH and TSH 
+were increased by the metal. These findings supported that cad-
+mium has chronotoxic effects at the level of the pituitary.
+Cadmium is not the only heavy metal that affects the pituitary. 
+Lead and mercury inhibit secretion of LH and FSH from the gonad-
+otropes (Sikka and Wang, 2008). Further, high lead levels have been 
+associated with increases in ADH secretion in case reports (Suarez 
+et al., 1992). Acute arsenic and manganese co-exposure decreases 
+levels of FSH and LH in rats (Adedara et al., 2017). In addition, 
+acute iron overload increases the production of superoxide anions 
+in the female rat pituitary (Rossi et al., 2016).
+Environmental contaminants such as polychlorinated biphe-
+nyls (PCBs) and polybrominated diphenyl ethers (PBDEs) also 
+affect the pituitary gland. PCBs inhibit release of LH and FSH 
+from gonadotrophs (Sikka and Wang, 2008). They also affect the 
+thyrotrophs by inhibiting TSH secretion (Patrick, 2009; Zoeller, 
+2010). The aryl hydrocarbon agonist 2,3,7,8-tetrachlorodibenzo-
+p-dioxin (TCDD) reduces expression of GH in mice (Takeda et al., 
+2014). In contrast, activation of the aryl hydrocarbon receptor with 
+α-naphthoflavone impairs expression of prolactin, but not GH in a 
+pituitary cell line (Moran et al., 2012).
+Several pesticides cause adverse effects on the pituitary. The 
+insecticide dimethoate causes pituitary tumors in male and female 
+rats (Reuber, 1984). The organochlorine pesticide methoxychlor 
+increases prolactin levels as well as LH levels (Lafuente et al., 
+2000). Both dieldrin and endosulfan stimulate prolactin secretion 
+from the pituitary cell line GH3 via a mechanism that involves 
+increasing calcium, which stimulates the release of prolactin 
+(Wozniak et al., 2005). Endosulfan also downregulates expression 
+of mRNA encoding prolactin, LH, GH, and TSH, and it stimulates 
+prolactin and inhibits TSH (Caride et al., 2010b). The pesticide 
+dichlorodiphenyltrichloroethane (DDT) stimulates expression of 
+gonadotropin genes and hormones in a pituitary cell line (Zhou 
+et al., 2014). The herbicide atrazine has been demonstrated in 
+vitro to also have direct pituitary effects by binding to the growth-­
+hormone-releasing hormone receptor and inhibiting GH expression 
+at the mRNA and protein levels (Fakhouri et al., 2010). The fungi-
+cide carbendazim increases the levels of LH and FSH in rats (Rama 
+et al., 2014).
+Several phytoestrogens affect pituitary cells. Coumestrol 
+reduces pulsatile LH secretion and suppresses the pituitary response 
+to exogenous gonadotropin-releasing hormone (GnRH) in female 
+rats (Dickerson and Gore, 2007; Gore, 2011). Acute genistein 
+exposure suppresses pulsatile LH release in ovariectomized ewes 
+(Dickerson and Gore, 2007). Chronic genistein exposure increases 
+the pituitary size in rodents (Dickerson and Gore, 2007). Equol 
+exposure decreases LH levels in male rats (Loutchanwoot et al., 
+2013). Isoliquiritigenin decreases proliferation and increases cell 
+death in pituitary explants, likely by a mechanism that involves 
+downregulation of cyclin D2 and E2 and induction of the cyclin-
+dependent kinase inhibitor Cdkn1a (Weis and Raetzman, 2016).
+A variety of chemicals used in industrial processes alter pitu-
+itary structure or function (Verma and Rana, 2009). Flame retar-
+dants (tetrabromobisphenol A and tetrachlorobisphenol A) increase 
+proliferation in GH3 cells, a pituitary cell line (Kitamura et al., 
+2002). The plasticizer bisphenol A (BPA) increases GH content in 
+rainbow trout (Aluru et al., 2010), increases LH secretion in adult 
+male rats, and increases GH content and receptors in juvenile rain-
+bow trout (Tohei et al., 2001; Aluru et al., 2010). Prenatal exposure 
+to BPA increases pituitary proliferation and gonadotroph number 
+in female mouse offspring (Brannick et al., 2012). Further, BPA 
+decreases expression of intracellular adhesion molecule-5 (Icam5) 
+in the female neonatal mouse pituitary (Eckstrum et al., 2016). 
+It also increases LH levels in prepubertal female rats (Gámez 
+et al., 2015). The plasticizer 2-ethyl-phthalate stimulates prolifera-
+tion in rat pituitary cells (Tapella et al., 2017). Further, a mixture of 
+BPA and di(2-ethylhexyl) phthalate (DEHP) increases levels of the 
+LHβ and FSHβ subunits in male rats (Abdel-Maksoud et al., 2015) 
+and a mixture of DEHP and PCB decrease the expression of genes 
+involved in pituitary-gonadal cross talk in male mice (Fiandanese 
+et al., 2016).
+2-Mercaptobenzothiazole, which is used in rubber prod-
+ucts and can come into contact with drinking water, causes pitu-
+itary tumors in chronically exposed rats and mice (Whittaker 
+et al., 2004).
+Finally, a few pharmaceutical agents have been linked to 
+changes in the pituitary. Cyanamide, a chemical used in the treat-
+ment of alcoholics, increases pro-opiomelanocortin mRNA in the 
+anterior pituitary when coadministered with ethanol (Kinoshita 
+et al., 2001). A safety evaluation of RO2910, a drug for treatment 
+of HIV infection, has shown that it causes hypertrophy in the thyro-
+trophs (Zabka et al., 2011). The neuroleptic agent sulpiride causes 
+the release of prolactin from the anterior pituitary in the rat and 
+stimulates DNA replication (Capen, 2001). The administration of 
+clomiphene prevents the stimulation of DNA synthesis produced 
+by sulpiride, but does not affect prolactin release from the gland. 
+These findings suggest that the intracellular prolactin content of the 
+pituitary plays a role in the regulation of DNA synthesis through a 
+mechanism mediated by estrogens.
+ADRENAL GLANDS
+The adrenals are two small glands situated on the superior poles of 
+the kidneys (Fig. 20-3). The major physiological role of the adre-
+nals is management of stress. Each adrenal gland is divided into 
+two morphologically and functionally distinct regions. The adrenal 
+cortex is the more exterior region, and the interior region is the 
+medulla. The cortex synthesizes and secretes steroid hormones that 
+function to regulate salt and fluid balance, glucose homeostasis, 
+and a long-term response to stress. The medulla can be likened to 
+a large postganglionic neuron, and secretes the catecholamines, 
+epinephrine, and norepinephrine, upon stimulation by pregangli-
+onic cholinergic sympathetic fibers. The medullary catecholamines 
+combine with norepinephrine from sympathetic nerve endings to 
+mediate a very rapid time frame of response to stress. Because of 
+the anatomic proximity of the two regions of the adrenal glands, 
+blood from the cortex perfuses the medulla. This provides a func-
+tional association because cortisol secreted by the cortex stimulates 
+expression of phenylethanolamine-N-methyltransferase (PNMT), 
+the enzyme that converts norepinephrine to epinephrine in the 
+medulla.
+The adrenals have not been as widely studied in toxicology 
+as other endocrine glands, even though it has been documented to 
+be the most common toxicological target of all (Ribelin, 1984). In 
+fact, the relative frequency of effects on endocrine systems reported 
+from in vivo toxicology studies has been adrenal > testes > thyroid 
+> ovary > pancreas > pituitary > parathyroid, with the adrenal 
+cortex most frequently targeted (Harvey et al., 2007). This relative 
+lack of attention in toxicology is surprising considering the critical 
+role of the adrenals in mediating endocrine homeostasis throughout 
+the body.
+ADRENAL CORTEX
+As seen in Fig. 20-3, the adrenal cortex can be divided at the cellular 
+level into three separate zones, the zona glomerulosa (outermost),
+
+Toxic Responses of the Endocrine System 
+Chapter 20
+981
+the zona fasciculata (intermediate), and the zona reticularis 
+­(innermost). The zona glomerulosa is responsible for production 
+of the mineralocorticoid hormone aldosterone. The glucocorticoid 
+hormones, cortisol and corticosterone, are both secreted by the 
+zona fasciculata and, to some extent, the zona reticularis. The zona 
+reticularis also secretes the androgens, dehydroepiandrosterone, 
+and androstenedione. These adrenal androgens are thought to be 
+involved in the onset of puberty and serve a function in postmeno-
+pausal women; however, they are of relatively little biological sig-
+nificance under normal circumstances.
+The adrenal cortex regulates many physiological functions 
+such as the immune system, inflammation, water and electrolyte 
+balance, and carbohydrate and protein metabolism involving such 
+target organs as the liver, kidney, heart, bone, and nervous system 
+(Harvey, 2010). The adrenal cortex is predisposed to the toxic 
+effects of xenobiotic chemicals for three apparent reasons (Harvey, 
+2016). First, the adrenocortical cells of most animal species contain 
+large stores of lipids used primarily as substrate for steroidogenesis. 
+Many adrenal cortical toxic compounds are lipophilic and, there-
+fore, can accumulate in these lipid-rich cells. Second, membranes 
+of these cells contain high levels of unsaturated fatty acids that are 
+susceptible to the generation of reactive species such as free radicals 
+via lipid peroxidation. Finally, adrenocortical cells express enzymes 
+involved in steroidogenesis, including those of the cytochrome 
+P450 (CYP) family, which are capable of metabolizing xenobiotic 
+chemicals. A number of toxic xenobiotic chemicals serve as pseu-
+dosubstrates for these enzymes and can be metabolized to reac-
+tive toxic species causing direct toxicity by covalent interactions 
+with cellular macromolecules, or through lipid peroxidation or the 
+­generation of free radicals.
+Steroidogenesis
+Adrenal steroids are synthesized from cholesterol by specific 
+enzyme-catalyzed reactions that involve a complex shuttling of 
+steroid intermediates between the mitochondria and endoplasmic 
+reticulum. Histologically, adrenal cortical cells are characterized by 
+an abundance of lipid droplets, mitochondria, and smooth endo-
+plasmic reticulum. Lipid droplets contain cholesterol, the precursor 
+substrate for steroid production. The specificity of mitochondrial 
+hydroxylation reactions in terms of precursor acted upon and 
+the position of the substrate that is hydroxylated is confined to a 
+Zona fasciculata
+Zona glomerulosa
+Connective tissue capsule
+Cortex
+Cortex
+Medulla
+Medulla
+Catecholamines
+Zona reticularis
+Cortisol, corticosterone,
+androgens
+Cortisol, corticosterone
+Aldosterone
+Figure 20-3.   Used with permission from Hadley M, Levine J. Endocrinology, 6th Ed., ©2007. Reprinted by permission of Pearson Education, Inc., New York, 
+New York.
+
+982
+TARGET ORGAN TOXICITY
+Unit IV
+specific CYP. The common biosynthetic pathway from cholesterol 
+is the formation of pregnenolone, the basic precursor for the three 
+major classes of adrenal steroids (Fig. 20-4).
+In the zonae fasciculata and reticularis, pregnenolone is first 
+converted to progesterone by two microsomal enzymes. Three 
+subsequent hydroxylation reactions involve carbon atoms at the 
+17, 21, and 11 positions. The resulting steroid is cortisol, which 
+is the major glucocorticoid in teleosts, hamsters, dogs, and nonhu-
+man and human primates. Corticosterone is the major glucocorti-
+coid produced in amphibians, reptiles, birds, rats, mice, and rabbits. 
+HO
+C
+CH3
+O
+HO
+C
+O
+OH
+HO
+O
+HO
+C
+O
+O
+C
+O
+OH
+O
+C
+O
+O
+O
+C
+O
+OH
+O
+C
+HO
+O
+O
+HO
+C
+CH
+O
+O
+O
+C
+OH
+O
+O
+Cholesterol
+Pregnenolone
+17α-Hydroxypregnenolone
+Dehydroepiandrosterone
+CYP11A1
+Side chain cleavage
+HSD3B1
+3 β-OH-Dehydrogenase,
+∆5∆4 Isomerase
+CYP21
+21-Hydroxylase
+CYP11B1
+11 β-Hydroxylase
+CYP11B2
+18-Hydroxylase
+and
+18-OH-Dehydrogenase
+CYP17A1
+17α-Hydroxylase
+CYP17A1
+17α-Hydroxylase
+Progesterone
+17α-Hydroxyprogesterone
+Androstenedione
+II-Deoxycorticosterone
+II-Deoxycortisol
+Corticosterone
+Aldosterone
+Cortisol
+CH3
+CH3
+CH3
+CH2OH
+CH2OH
+CH2OH
+CH2OH
+CH2OH
+O
+Figure 20-4.   Used with permission from Hadley M, Levine J. Endocrinology, 6th Ed., ©2007. Reprinted by permission of Pearson Education, Inc., New York, 
+New York.
+
+Toxic Responses of the Endocrine System 
+Chapter 20
+983
+It is produced in a manner similar to the production of cortisol, 
+except that progesterone does not undergo 17α-hydroxylation and 
+proceeds directly to 21-hydroxylation and 11β-hydroxylation.
+In the zona glomerulosa, pregnenolone is converted to aldo-
+sterone by a series of enzyme-catalyzed reactions similar to 
+those involved in cortisol formation; however, the cells of this 
+zone lack the 17α-hydroxyprogesterone that is required to pro-
+duce cortisol. Therefore, the initial hydroxylation product is cor-
+ticosterone. The corticosterone is acted on by 18-hydroxylase 
+to form 18-­hydroxycorticosterone, which in turn interacts with 
+18-hydroxysteroid dehydrogenase to form aldosterone. Because 
+18-hydroxysteroid dehydrogenase is expressed only in the zona 
+glomerulosa, it is not surprising that only this zone has the capacity 
+to produce aldosterone.
+Glucocorticoids
+To better appreciate the wide-ranging effects of glucocorticoids, 
+the effects of the hormone can be divided into normal physiologi-
+cal and pharmacological effects, since cortisol is therapeutically 
+quite effective and widely prescribed. The physiological effects 
+include (a) hepatic glucose production, gluconeogenesis (liver), (b) 
+protein catabolism (skeletal muscle), (c) fat catabolism (adipose 
+tissue), (d) increased bone resorption, (e) altered mood (CNS), (f) 
+increased gastric acidity (GI tract), and (g) PNMT synthesis (adre-
+nal medulla). Therapeutically, at pharmacological levels the effects 
+of cortisol include (a) preventing vascular collapse during over-
+whelming stress, (b) providing an anti-inflammatory effect, and (c) 
+invoking immunosuppression.
+Adrenocortical Toxicity
+The zonae fasciculata and reticularis appear to be the principal 
+targets of xenobiotic chemicals in the adrenal cortex. A number 
+of chemicals shown to cause adrenal toxicity by targeting specific 
+steroidogenic enzymes have been summarized (Harvey, 2016). 
+Classes of chemicals known to be toxic for the adrenal cortex 
+include short chain (three or four carbons) aliphatic compounds, 
+lipidosis-inducers, and amphiphilic compounds (Yarrington 
+et al., 1981, 1985). In general, compounds seen to frequently pro-
+duce necrosis, particularly in the zonae fasciculate and reticularis, 
+include 7,12-dimethyl benz[a]anthracene (DMBA), acryloni-
+trile, hexadimethrine bromide, polyanetholesulfonate (along with 
+amino-caprionic acid), thioacetamide, and basic polyglutamic acid 
+(Szabo and Lippe, 1989; Colby et al., 1994). By comparison, lipi-
+dosis inducers can cause accumulations, often coalescing, of neu-
+tral fats, which may be of sufficient quantity to cause a reduction or 
+loss of organellar function and eventual cell destruction. Examples 
+of chemicals that directly target glucocorticoid secretion in the 
+adrenal cortex include dimethoate, ketoconazole, spironolactone, 
+efonidipine, mibefradil, 1-aminobenzotriazole, and various PCBs 
+(Colby et al., 1995; Harvey, 2010). Lesions that are caused may 
+be classified as follows: endothelial damage (e.g., acrylonitrile), 
+mitochondrial damage (e.g., DMNM, o,p′-DDD, amphenone), 
+endoplasmic reticulum disruption (e.g., triparanol), lipid aggre-
+gation (e.g., aniline), lysosomal phospholipid aggregation (e.g., 
+chlorphentermine), and secondary effects due to embolization by 
+medullary cells (e.g., acrylonitrile). Tricresyl phosphate (TCP) 
+and other triaryl phosphates cause a defect in cholesterol metabo-
+lism by blocking both uptake from serum and storage pathways. 
+An inhibition of cytosolic neutral cholesteryl ester hydroxylase 
+(nCEH) by triaryl phosphate results in the progressive accu­
+mulation of cholesteryl ester in the form of lipid droplets in the 
+cytoplasm of adrenal cortical cells.
+Biologically active cationic amphiphilic compounds produce a 
+generalized phospholipidosis that involves primarily the zonae fas-
+ciculate and reticularis and produce microscopic phospholipid-rich 
+inclusions. These compounds affect the functional integrity of lyso-
+somes, which appear ultrastructurally to be enlarged and filled with 
+membranous lamellae of myelin figures. Examples of compounds 
+known to induce phospholipidosis include chloroquine, triparanol, 
+and chlorphentermine.
+Adrenocortical toxicity can also involve increased secretion 
+of endogenous glucocorticoids. Compounds that have been shown 
+to cause this include ethanol, chlordecone, carbon disulfide, can-
+nabinoids, cocaine, amitriptyline, and cytotoxic anticancer drugs 
+(Harvey, 2010). Furthermore, pharmacological treatment with glu-
+cocorticoid agonists that have been widely used as anti-­inflammatory 
+agents can produce symptoms that resemble Cushing’s syndrome 
+(Harvey, 2010).
+There have been documented cases of iatrogenically 
+­(physician-caused) induced adrenocortical toxicity. For example, 
+the anesthetic etomidate and the anticonvulsant aminoglutethimide 
+given as a sedative/antidepressant have been demonstrated to pro-
+duce significant morbidity and mortality because of their potency 
+as steroidogenic enzyme inhibitors. Etomidate blocks CYP11B1 
+(CYPβ/18), whereas aminoglutethimide inhibits CYP11A and 
+CYP11B1 and downregulates the ACTH receptor (Johansson 
+et al., 2002; Hinson and Raven, 2006; Harvey, 2016). This iat-
+rogenic suppression of steroidogenesis in the adrenal cortex can 
+result in Addisonian crisis (which can be associated with fatigue, 
+cardiovascular collapse, and death).
+In Vitro Testing
+In addition to in vivo testing for effects of xenobiotics on the adre-
+nal cortex, much recent work has used an in vitro approach to iden-
+tify the molecular targets of adrenocortical toxicity. Of particular 
+usefulness has been the human adrenocortical carcinoma–derived 
+NCI-H295R cell line. This cell line expresses all key enzymes nec-
+essary for steroidogenesis, and it produces all of the major steroids 
+including progesterone, androgens, estrogens, glucocorticoids, 
+and aldosterone (Harvey et al., 2007; Harvey, 2016). These cells 
+express functional receptors for CRH, angiotensin II, vasoactive 
+intestinal peptide, atrial natriuretic peptide, LH, human chorionic 
+gonadotropin (hCG), tumor necrosis factor, and activin A. They 
+also express functional receptors for ACTH, however, not as well 
+as normal cells. Thus, rather than performing ACTH challenge 
+on these cells, cAMP activators such as forskolin can be used to 
+stimulate corticosterone synthesis (Harvey, 2016). This cell line has 
+proven useful for identification of specific steroidogenic enzymes 
+that are targeted by xenobiotics. One review article provides a use-
+ful table listing over 60 compounds that have been shown to induce 
+functional adrenocortical and steroidogenic toxicity along with 
+the specific enzymes targeted (Harvey et al., 2007). Therefore, the 
+H295R cell line is a versatile tool for mechanistic assessment of 
+adrenocortical function and steroidogenesis in general. Because the 
+cell line is derived from a human source, it is also very worthwhile 
+for hazard risk assessment.
+Serum Binding Proteins
+Cortisol and corticosterone are transported in blood by corticoste-
+roid binding globulin (CBG), also called transcortin. When bound 
+to CBG, the steroid is biologically inactive and cannot have its 
+effects on target tissues, or provide negative feedback to the hypo-
+thalamic–pituitary–adrenal (HPA) axis. Thus, a chemical affecting 
+CBG could alter the balance between free and bound hormone,
+
+984
+TARGET ORGAN TOXICITY
+Unit IV
+and impact its availability in target tissues. Nonsteroidal anti-­
+inflammatory drugs (NSAIDs) have been reported to decrease the 
+binding capacity of CBG by a mechanism other than simple dis-
+placement of bound glucocorticoid (Harvey, 2010).
+Target Tissue Receptors
+In addition to direct effects on steroidogenesis, chemically induced 
+changes in adrenal function can result from blockage of the action 
+of adrenocorticoids at peripheral sites. Adrenocortical steroids and 
+HPA axis hormones exert their effects through receptors located in 
+target tissues throughout the body. These receptors can be upregu-
+lated or downregulated by the action of xenobiotic compounds. For 
+example, hexachlorobenzene reduces hepatic glucocorticoid recep-
+tors in rats (Lelli et al., 2007), and many antisteroidal compounds 
+(antagonists) act by competing with or binding to steroid hormone 
+receptor sites, thereby either reducing the number of available 
+receptor sites or altering their binding affinity. Spironolactone, an 
+antimineralocorticoid, is an example of a peripherally acting adre-
+nocortical hormone antagonist (Los and Colby, 1994).
+Neuroendocrine Regulation
+The zonae fasciculata and reticularis of the adrenal cortex are under 
+trophic control by the pituitary hormone ACTH, which stimu-
+lates them to produce cortisol. The level of output of cortisol by 
+the adrenal is almost entirely determined by the intensity of the 
+ACTH stimulus. The increased cortisol produced then provides 
+long-loop negative feedback on the hypothalamus and anterior 
+pituitary and decreases CRH and ACTH secretion, respectively 
+(Fig. 20-5). Stress is a major factor that can override the negative 
+feedback control system and stimulate cortisol secretion (Harvey, 
+2016). Persistent exposure of the adrenal cortex to high levels of 
+ACTH during chronic stress can result in adrenocortical hypertro-
+phy. Adrenal androgens are also produced in ACTH-sensitive cells; 
+therefore, abnormal conditions of stimulation of these cells by 
+ACTH, such as Cushing disease, can also raise androgen secretion 
+by the cortex. Conversely, conditions of reduced exposure of the 
+cortex to its tropic hormone ACTH can result in adrenal atrophy.
+Drugs that affect neuroendocrine function can indirectly affect 
+adrenal function. For example, synthetic glucocorticoids, valproic 
+acid, bromocriptine, cyproheptadine, ketanserin, ritanserin, soma-
+tostatin analogs, 4′-thio-beta-d-­arabinofuranosylcytosine, hexa-
+chlorobenzene, alcohol, and caffeine have been shown to suppress 
+ACTH or CRH secretion (Harvey, 2010). ACTH secretion can also 
+be pharmacologically stimulated by, for example, caffeine, meth-
+ylxanthines, adenosine analogs, 3,4-­methylenedioxymethamphet
+amine, and di-2-ethylhexyl phthalate (Harvey, 2010). Exogenous 
+steroids can disrupt normal function and structure of the adrenal 
+cortex. Agonists will cause negative feedback inhibition of ACTH 
+secretion in the pituitary and will result in atrophy of the zonae 
+fasciculata and reticularis. In contrast antagonists of steroids will 
+block hormone action in target tissues and on negative feedback, 
+which will lead to increased ACTH secretion, and differential 
+hyperplasia of the cortex. Generally, testing of compounds that 
+have a neuroendocrine site of action is only likely to be detected 
+by in vivo studies. The most commonly observed measure of 
+adrenal effects is an increase in adrenal weight (adrenal hypertro-
+phy). As a major role of the adrenal cortex in responding to stress, 
+adrenal hypertrophy occurs in response to elevated ACTH levels 
+that also cause increased cortisol secretion. Additionally, adrenal 
+hypertrophy can be caused by elevated ACTH levels that result 
+from toxicity of adrenocortical steroid synthesizing enzymes. The 
+elevated ACTH in that case would result from loss of negative 
+feedback by steroids on the pituitary. Thus, in cases of adrenal 
+hypertrophy, these two situations can be distinguished by mea-
+surement of circulating glucocorticoids. With stress, the levels 
+of steroid will be elevated, whereas with toxicity, they will be 
+very low.
+Animal Testing
+Special considerations for animal testing in adrenal toxicity were 
+outlined in recent reviews (Harvey et al., 2007; Harvey, 2016). A 
+number of things should to be taken into account. Animal test-
+ing of xenobiotics for toxicity often uses the laboratory rodent. 
+However, when screening for effects on adrenal steroidogenesis, 
+the rat may not be the most useful model. This is because rats lack 
+expression of CYP17 and, unlike humans, cannot produce cortisol 
+(Hinson and Raven, 2006). As a result, the major glucocorticoid 
+is corticosterone, and the rat may not detect effects of compounds 
+that interact with CYP17. Aquatic wildlife species are often con-
+sidered sentinel species for detecting adrenal effects of the envi-
+ronment as risk for other wildlife species as well as humans. This 
+could result from direct exposures to polluted waters or an impact 
+on the food chain as many of these chemicals are known to accu-
+mulate and form secondary exposure routes (Harvey, 2016). To 
+avoid increased glucocorticoid levels resulting from the stress of 
+handling, sham dosing should be conducted 7 to 10 days prior 
+to the onset of dosing. If females are used, their stage of estrous 
+cycle needs to be coordinated. Blood samples should be taken at 
+the same time of day and should be completed within 3 minutes 
+of cage disturbance to ensure nonstressed control values. Animal 
+dosing should be via oral gavage (or the route of human expo-
+sure) to provide adequate translational relevance. A particularly 
+useful method of testing of chemicals for effects on adrenocorti-
+cal competence is the ACTH stimulation test in which ACTH is 
+administered subcutaneously following a predetermined period 
+of exposure of test animals to the compound of interest. Blood 
+samples can be collected within 1 to 3 hours for assessment of glu-
+cocorticoid levels. A direct impact of the compound on the adre-
+nal gland will be assumed if ACTH fails to elevate corticosterone 
+levels to those seen in controls.
+Hypothalamic–pituitary–adrenal axis
+Cortisol
+ACTH
+CRH
+Anterior
+pituitary
+−
+Adrenal
+cortex
+Hypothalamus
+−
++
++
+Figure 20-5.   Hypothalamic–pituitary–adrenal axis of regulation. CRH 
+from the hypothalamus stimulates release of ACTH from the anterior pitu-
+itary. ACTH stimulates synthesis and secretion of cortisol from the adrenal 
+cortex. Cortisol provides inhibitory (negative) feedback on the hypothala-
+mus and pituitary. Stress, the major stimulator of the axis, can override the 
+feedback regulatory loop. +, stimulatory; −, inhibitory. (Modified from 
+Hedge et al. [1987].)
+
+Toxic Responses of the Endocrine System 
+Chapter 20
+985
+Mineralocorticoids
+The adrenals are essential to life, mainly because of the salt-­retaining 
+function of the zona glomerulosa, but to a lesser extent, because of 
+the stress management role of the adrenal cortex. Loss of miner-
+alocorticoid production by the cortex results in a life-threatening 
+retention of potassium and hypovolemic shock associated with the 
+excessive urinary loss of sodium, chloride, and water. Aldosterone, 
+the most important mineralocorticoid, participates in the regulation 
+of renal sodium and potassium balance, thereby affecting blood 
+pressure homeostasis. Aldosterone promotes sodium reabsorption 
+and increases the excretion of potassium and hydrogen ions by the 
+kidney (Fig. 20-6). The ratio of the concentrations in the urine of 
+Na+/K+ decreases when blood levels of aldosterone increase, and 
+vice versa. All routes of loss of sodium and potassium from the 
+body are controlled by aldosterone. Thus, an increase in the con-
+centration of aldosterone in blood also decreases the Na+/K+ ratio 
+of saliva, sweat, and feces.
+In theory, chemicals that target steroidogenic enzymes in the 
+pathway to aldosterone secretion could affect both aldosterone 
+and glucocorticoid (StAR, CYP11A1, and CYP21) or only aldo-
+sterone synthesis and secretion (CYP11B1; Harvey et al., 2007; 
+Harvey, 2016).
+The aldosterone-producing cells of the zona glomerulosa are 
+controlled separately by other tropic substances, but may require 
+permissive concentrations of ACTH. Unlike the cells of the zonae 
+fasciculata and reticularis, regulation of release from the zona glo-
+merulosa is not primarily via ACTH. The renin–angiotensin sys-
+tem is the primary regulator of aldosterone secretion in the adrenal 
+cortex. Renin is a proteolytic enzyme synthesized and secreted in 
+the renal juxtaglomerular apparatus (JGA). Release of renin from 
+the JGA is stimulated by decreases in blood pressure or volume, or 
+reduced plasma sodium. Once released, the enzyme (renin) encoun-
+ters renin substrate (angiotensinogen) of hepatic origin, which is 
+already in circulation and serves as a prohormone reservoir for 
+angiotensin. In the blood stream, renin cleaves angiotensinogen 
+to become angiotensin I (AgI, a decapeptide), and angiotensin 
+converting enzyme (ACE) further cleaves AgI to produce angio-
+tensin II (AgII). This octapeptide (AgII) is one of the most potent 
+known physiological vasoconstrictors. However, it also acts as a 
+tropic hormone for the zona glomerulosa cells of the adrenal cortex 
+to stimulate synthesis and secretion of aldosterone. Because AgII 
+constricts resistance vessels in the body to increase blood pres-
+sure, and decrease vascular capacity, this contributes to a feedback 
+mechanism to decrease secretion of renin by JGA cells. Further, by 
+stimulating aldosterone secretion (long loop feedback), the result-
+ing increase in Na+ and water retention returns blood volume and 
+osmolality to normal. This further inhibits release of renin, provid-
+ing a physiological feedback loop of regulation.
+Fetal Adrenal
+The adrenal cortex in the human fetus differs both structurally and 
+functionally from that in the adult. A specialized fetal adrenal cortex 
+exists in primates during late gestation (Garcia-Flores et al., 2017). 
+The cortex is composed of large polyhedral cells that produce abun-
+dant cortisol and estrogen precursors. The hormones secreted by 
+the cortex are important for normal development of the fetus, and 
+the steroid precursor dehydroepiandrosterone is converted to estriol 
+by the placenta. The cells of the fetal cortex are produced in the 
+outer cortex and migrate medially, where they undergo hypertro-
+phy and eventually apoptosis. After birth, there is a rapid regres-
+sion, apoptosis, and lysis of the fetal cortex with dilation of cortical 
+capillaries and replacement by the typical three cortical zones. The 
+fetal adrenal cortex is proportionately much larger than the adult 
+gland because of the large size of the fetal zone (Garcia-Flores 
+et al., 2017). It is important not to misinterpret this as a lesion in 
+neonatal primates since it represents physiological replacement of 
+the fetal cortex with the definitive postnatal adrenal cortex.
+X-Zone
+Similar to the fetal cortex in primates, the X-zone in the mouse 
+adrenal cortex is also a unique physiological phenomenon. In con-
+trast to the fetal cortex of primates, the X-zone develops postnatally 
+in the inner cortex of mice and is fully formed at weaning. Its func-
+tion is unknown, but it may be similar to the fetal zone in primates. 
+After weaning, the X-zone degenerates at variable rates, depend-
+ing on the sex of the mouse. In male mice, the X-zone undergoes 
+degeneration at puberty with accumulation of intracellular fat glob-
+ules. In females, the zone undergoes slow regression and degenera-
+tion during the first pregnancy. As with the fetal zone in primates, 
+it is important not to misinterpret the degeneration associated with 
+regression of the X-zone in mice as a lesion.
+ADRENAL MEDULLA
+Because it is classified as a specialized postganglionic (sympa-
+thetic) neuron, the adrenal medulla is a functional extension of 
+the nervous system and is also called the sympathoadrenal system. 
+Thus, the adrenal medulla comprises a branch of the sympathetic 
+division of the autonomic nervous system. Located in the center 
+of the adrenal gland, the physiological role of the medulla is to 
+help maintain the constant internal environment of the body. The 
+medulla is composed of cells called pheochromoblasts (specialized 
+sympathetic ganglia), also known as chromaffin cells, which are 
+the site of catecholamine synthesis and secretion. Chromaffin cells 
+derive their name from the chromaffin reaction, the formation of 
+a brown color due to oxidation of catecholamine stores (Tischler 
+et al., 2010). These cells are true neuroendocrine cells, which pro-
+vide a direct interface between the nervous and endocrine systems. 
+That is, sympathetic, cholinergic stimulation of the cell bodies 
+results in secretion of catecholamines, which behave as hormones 
+by entering the circulation and producing true endocrine effects 
+throughout the body. Secretory granules in the chromaffin cells 
+are the site of storage for the catecholamines, which are rapidly 
+released upon receipt of neuronal input from a preganglionic 
+neuron along the splanchnic nerve pathway. As a result of this 
+stimulation, the catecholamines, epinephrine, and norepineph-
+rine are released into the circulation. Peptides are also reported to 
+reside in chromaffin cells. These include chromogranins and the 
+Passive uptake
+Mild alkalosis
+Kidney
+Urine
+Blood
+Na+
+↑ K+
+K+
+↑ H+
+H+
+Na+
+H2O
+↑ H2O
+↑ Na+
+Figure 20-6.   Aldosterone effects on the kidney. Aldosterone stimulates 
+reuptake of Na+ from the filtrate while promoting K+ excretion into the 
+urine. Water (H2O) is reabsorbed by passive uptake, whereas protons (H+) 
+are excreted along with K+.
+
+986
+TARGET ORGAN TOXICITY
+Unit IV
+neuropeptides enkephalin (Schultzberg et al., 1978), neuropeptide 
+Y (NPY; Varndell et al., 1984), substance P (Kuramoto et al., 1985), 
+vasopressin and oxytocin (Hawthorn et al., 1987), galanin (Holgert 
+et al., 1994), and neurotensin (NT; Holgert et al., 1994).
+Sympathetic Response
+The general functions of the sympathetic division of the auto-
+nomic nervous system can be summarized as follows: (a) ensuring 
+reciprocity to counteract and balance the tonic effects of para-
+sympathetic stimulation to visceral structures, (b) assisting in the 
+maintenance of the steady-state functions of the body (digestion, 
+secretion, vasomotor tone, etc.), and (c) assisting in the mobiliza-
+tion of body reserves to meet unusual or emergency situations (fear, 
+fright, injury, etc.). Dr Walter Cannon in 1929 was the first to sug-
+gest that activation of the sympathetic nervous system prepares an 
+animal for “fright, fight, or flight.”
+Catecholamines
+The sites of catecholamine synthesis in the body are the CNS, post-
+ganglionic sympathetic neurons, and the adrenal medulla. It is the 
+adrenal medulla that is the major site of epinephrine production. 
+In fact, 80% of the medullary output of catecholamines in humans 
+is epinephrine. In the catecholamine biosynthetic pathway, tyro-
+sine is acted on by tyrosine hydroxylase to produce dopa, which is 
+converted to dopamine by dopa decarboxylase. Dopamine in turn 
+is acted on by dopamine β-hydroxylase to form norepinephrine, 
+which is converted to epinephrine by PNMT. Tyrosine hydroxylase 
+is the principal rate-limiting step in catecholamine synthesis. The 
+conversion of tyrosine to dopa then dopamine occurs within the 
+cytosol of chromaffin cells. Dopamine then enters the chromaffin 
+granule, where it is converted to norepinephrine. Norepinephrine 
+leaves the granule and is converted to epinephrine in the cytosol, 
+and epinephrine reenters and is stored in the chromaffin granule. In 
+contrast to the synthesis of catecholamines that occurs in the cyto-
+sol, neuropeptides and chromogranin-A proteins are synthesized in 
+the granular endoplasmic reticulum and are packaged into granules 
+in the Golgi apparatus. Release of the catecholamines is stimulated 
+by acetylcholine deriving from preganglionic neurons along the 
+splanchnic nerve. Acetylcholine activates nicotinic and muscarinic 
+cholinergic receptors, which cooperatively stimulate the secretory 
+response by increasing a Ca++ flux and activating protein kinase C. 
+This flux involves Ca++ from both extracellular influx and intracel-
+lular stores. Physiological activators of release include decreased 
+blood pressure, decreased blood glucose, decreased oxygen avail-
+ability, stress or anxiety, cold, exercise, and postural hypoten-
+sion. Rather than staining for the chromaffin reaction to identify 
+catecholamine-producing cells, more recently, immunostaining for 
+catecholamine-synthesizing enzymes tyrosine hydroxylase (TH), 
+dopamine-β-hydroxylase (DBH), and PNMT is used to identify 
+individual cells that produce catecholamines, and whether they 
+synthesize epinephrine (Tischler et al., 2010).
+Catecholamines generally affect all tissues. However, the most 
+pronounced effects are on the (a) heart, (b) liver, (c) skeletal mus-
+cle, (d) adipocytes, (e) vascular smooth muscle, and (f) bronchial 
+smooth muscle.
+Adrenergic Receptors
+Catecholamine actions are mediated through interactions with 
+specific classes of adrenergic receptors on target cell mem-
+branes. There are two major types of these receptors, known as α 
+and β adrenergic receptors. The α and β classification is further 
+divided into at least two subtypes of each, α1 and α2, and β1 and 
+β2 (Table 20-3). Each type of receptor has its own unique pattern 
+of distribution throughout the body. The relative number of each 
+receptor type in each target organ determines, in part, the nature 
+of the response of the organ to the catecholamines. For example, 
+α2 receptors predominate on insulin-secreting pancreatic B cells, 
+whereas β receptors predominate on glucagon-secreting pancre-
+atic A cells. The net effect is that catecholamines inhibit insulin 
+(decreased cAMP production) and stimulate glucagon (increased 
+cAMP production) release so that glucagon can facilitate an anti-
+insulin effect by increasing blood glucose. Epinephrine and nor-
+epinephrine display similar affinities for the different receptor 
+types, with the exception of β2 receptors that bind epinephrine 
+10 times greater than norepinephrine. As a result, epinephrine 
+participates more than norepinephrine in mediating its metabolic 
+effects. Therefore, receptor type variation on target tissues contrib-
+utes to the diversity with which the sympathetic response exerts its 
+specific effects.
+General Toxicity
+Examples of specific chemicals that target chromaffin cells include 
+toxins that block voltage-gated ion channels (Alvarez et al., 2008), 
+and bacterial toxins, which block exocytosis of secretory granules, 
+thereby preventing catecholamine release (Gasman et al., 1999). 
+The effects of these toxicants on whole animal physiology are rela-
+tively unimportant due to their more global and lethal effects on the 
+nervous system. Furthermore, the relevance of the adrenal medulla 
+as a target organ in toxicology is highly dependent on the species, 
+strain, and sex of the animals studied (Tischler et al., 2010). The 
+most common pathological changes seen in the adrenal medulla 
+in toxicological studies involve proliferative lesions classified 
+Table 20-3  
+Different Classes of Adrenergic Receptors
+RECEPTOR TYPE
+SIGNALING PATHWAY
+RELATIVE AFFINITY
+PHYSIOLOGICAL RESPONSES
+α1
+↑ IP3, DAG
+E = NE
+Vasoconstriction, uterine contraction, pupil dilation
+α2
+↓cAMP
+E = NE
+Sphincter muscle constriction (GI, bladder), ↓lipolysis, 
+­↓insulin secretion
+β1
+↑ cAMP
+E = NE
+↑heart rate, ↑cardiac output, ↑renin secretion
+β2
+↑ cAMP
+E >>> NE (10×)
+Bronchodilation, vasodilation, uterine relaxation, 
+­↑glycogenolysis, ↑lipolysis, smooth muscle relaxation  
+(GI, bladder), ↑insulin secretion
+
+Toxic Responses of the Endocrine System 
+Chapter 20
+987
+as nodular hyperplasia, although degenerative changes can also 
+­occasionally be observed.
+Pheochromocytoma
+The adrenal medulla can undergo a series of proliferative changes 
+ranging from diffuse hyperplasia to benign and malignant neo-
+plasms. The latter neoplasms have the capacity to invade locally 
+and metastasize to distant sites. Larger benign adrenal medullary 
+proliferative lesions are designated pheochromocytomas.
+Pheochromocytomas are relatively rare in humans (Greim 
+et al., 2009). The incidence is about 1/100,000, and both sexes are 
+affected equally. The peak incidence is ages 40 to 50, and the tumors 
+occur bilaterally in only 10% of the cases. About 10% are malignant, 
+10% occur outside of the adrenal gland, and 10% are considered to 
+be hereditary (Gimm, 2005). Pheochromocytomas in humans and 
+rats are both composed of chromaffin cells with variable numbers 
+of hormone-containing secretory granules. There appears to be a 
+striking species difference in the response of medullary chromaffin 
+cells to mitogenic stimuli, with rats being very sensitive compared 
+to humans. In humans, pheochromocytomas are uncommon except 
+in patients with inherited clinical syndromes of multiple endocrine 
+neoplasia (MEN). These tumors in rats usually do not secrete excess 
+amounts of catecholamines, whereas human pheochromocytomas 
+episodically secrete increased amounts of catecholamines, leading 
+to hypertension and other clinical disturbances. Further, no data are 
+available to suggest that pheochromocytomas may be inducible in 
+humans. In general, they are usually indolent tumors in humans and 
+mice. These observations have increasingly led regulatory agencies 
+to diminish the need of investigating rat pheochromocytomas for 
+purposes of risk assessment (Tischler et al., 2010).
+Proliferative lesions occur in the adrenal medulla with high 
+frequency in many strains of laboratory rats. The incidence of these 
+lesions varies with strain, age, sex, diet, and exposure to drugs and 
+a variety of environmental agents. Studies from the NTP historical 
+database of 2-year-old F344 rats have reported that the incidence of 
+pheochromocytomas was 17.0% and 3.1% for males and females, 
+respectively. Malignant pheochromocytomas were detected in 1% 
+of males and 0.5% of females. In addition to F344 rats, other strains 
+with a high incidence of pheochromocytomas include Wistar, 
+NEGH (New England Deaconess Hospital), Long–Evans, and 
+Sprague–Dawley. Pheochromocytomas are considerably less com-
+mon in Osborne–Mendel, Charles River, Holtzman, and WAG/Rij 
+rats. Most studies have revealed a higher incidence in males than 
+in females. Crossbreeding of animals with high and low frequen-
+cies of adrenal medullary proliferative lesions results in F1 ani-
+mals with an intermediate tumor frequency. For reasons not well 
+understood, spontaneous pheochromocytomas are largely observed 
+in aging male laboratory rats, but are relatively rare in mice (Greim 
+et al., 2009). The differences between rats and mice have led to 
+the suggestion that the mouse is a more suitable model for humans 
+as regards adrenal medullary risk assessment. These medullary 
+lesions, more frequently observed in males, can be induced by a 
+variety of xenobiotics (Tischler et al., 2010).
+Pheochromocytomas in rats differ from those in all other spe-
+cies in that they are common, often bilateral, and can be induced 
+by many chemicals. An extensive listing of chemicals that are 
+effective at producing proliferative lesions in rats and mice has 
+been provided in reviews by Greim et al. (2009) and Tischler et al. 
+(2010). Substances that have been shown in NTP studies to induce 
+pheochromocytoma in rats include metal compounds, halogenated 
+and nonhalogenated aliphatic or aromatic hydrocarbon, aromat-
+ics, aromatic amines as well as other dyestuff, pesticides, and 
+pharmaceuticals (Greim et al., 2009). Vitamin D is the most power-
+ful mitogenic stimulus to cause chromaffin cell proliferation in the 
+adrenal medulla in rats (Greim et al., 2009). Because the vitamin D 
+effect has been seen in vivo, but not in vitro, it is thought to result 
+from impaired calcium homeostasis, resulting in hypercalcemia.
+In animals, there is no indication as yet that pheochromo-
+cytomas are induced by chemicals working through genotoxic 
+mechanisms (Ozaki et al., 2002). Proliferation of chromaffin cells 
+in male rats occurred following exposure to aromatic amines such 
+as p-­chloroaniline (Chhabra et al., 1991). Rather, proliferation of 
+chromaffin cells in rats can be stimulated by chemicals that induce 
+uncoupling of mitochondrial respiration, hypoxia, disturbances in 
+calcium homeostasis, acute stress, and overfeeding (Greim et al., 
+2009). Many of the chemicals that induce pheochromocytoma in 
+animals are uncouplers of oxidative phosphorylation, for example, 
+acrylamide (Howland and Alli, 1986) or furan (Mugford et al., 1997).
+Unlike in humans, in which they secrete high levels of epi-
+nephrine, rat pheochromocytomas are usually characterized by 
+predominant or exclusive production of norepinephrine. Chemicals 
+that induce pheochromocytomas in rats are pharmacologically 
+diverse, and usually stimulate chromaffin cell proliferation by neu-
+trally derived signals, or agents that regulate catecholamine synthe-
+sis and release. An important class of compounds that affects the rat 
+adrenal medulla includes sugars and sugar alcohols, such as lactitol, 
+xylitol, and sorbitol (Lynch et al., 1996).
+Both nicotine and reserpine have been implicated in the devel-
+opment of adrenal medullary proliferative lesions in rats. Both 
+chemicals act by a shared mechanism, because nicotine directly 
+stimulates nicotinic acetylcholine receptors, whereas reserpine 
+causes a reflex increase in the activity of cholinergic nerve endings 
+in the adrenal. A short dosing regimen of reserpine administration 
+in vivo stimulates proliferation of chromaffin cells in the adult rat, 
+and the mechanism may involve a reflex increase in neurogenic 
+stimulation via the splanchnic nerve.
+Roe and Bar (1985) have suggested that environmental and 
+dietary factors may be more important than genetic factors as deter-
+minants of the incidence of adrenal medullary proliferative lesions 
+in rats because the incidence of adrenal medullary lesions can be 
+reduced by lowering the carbohydrate content of the diet. Several 
+of the chemicals that increase the incidence of adrenal medullary 
+lesions, such as sugar alcohols, increase absorption of calcium from 
+the gut. Calcium ions as well as cyclic nucleotides and prostaglan-
+dins may act as mediators capable of stimulating both hormonal 
+secretion and cellular proliferation. In summary, three dietary fac-
+tors have been suggested to lead to an increased incidence of adre-
+nal medullary proliferative lesions in chronic toxicity studies in rats 
+(Roe and Bar, 1985). These are excessive intake of (1) food asso-
+ciated with feeding ad libitum; (2) calcium and phosphorus; and 
+(3) other food components (e.g., vitamin D and poorly absorbable 
+carbohydrates), which increase calcium absorption.
+Tischler et al. (1995) reported that adult rat chromaffin cells 
+had a marked increase in bromodeoxyuridine (BrdU)-labeled nuclei 
+in vitro following the addition of forskolin (activator of adenylate 
+cyclase) and phorbol myristate (PMA, an activator of protein kinase C), 
+whereas mouse chromaffin cells had a minimal response to the same 
+mitogens. This striking difference in sensitivity to mitogenic stimuli 
+may explain the lower frequency of adrenal medullary proliferative 
+lesions in mice compared to many rat strains. The human adrenal 
+medulla, as in mice, has a low spontaneous incidence of prolifera-
+tive lesions of chromaffin cells. Human chromaffin cells also failed 
+to respond to a variety of mitogenic stimuli in culture (Tischler and 
+Riseberg, 1993). These findings and others suggest that chromaf-
+fin cells of the rat represent an inappropriate model to assess the
+
+988
+TARGET ORGAN TOXICITY
+Unit IV
+potential effects of xenobiotic chemicals on chromaffin cells of the 
+human adrenal medulla.
+A relationship exists between adenohypophyseal (anterior 
+pituitary) hormones and the development of adrenal medullary 
+proliferative lesions. For example, the long-term administration 
+of growth hormone is associated with an increased incidence of 
+pheochromocytomas as well as the development of tumors at other 
+sites. Prolactin-secreting pituitary tumors, which occur commonly 
+in many rat strains, also play a role in the development of prolifera-
+tive medullary lesions. In addition, several neuroleptic compounds 
+that increase prolactin secretion by inhibiting dopamine production 
+have been associated with an increased incidence of proliferative 
+lesions of medullary cells in chronic toxicity studies in rats.
+In long-term animal studies, pheochromocytomas often are 
+accompanied by tumors or toxic effects in other organs. They often 
+are seen in cases involving renal, lung, and hepatic toxicity, in 
+addition to endocrine disturbances (Greim et al., 2009). They are 
+associated with the following conditions: hypoxia, uncoupling of 
+oxidative phosphorylation, disturbances of calcium homeostasis, 
+or disturbances of the hypothalamic endocrine axis (Greim et al., 
+2009). Additionally, pheochromocytomas often develop following 
+treatment with substances that target enzymes in catecholamine 
+synthesis, receptor tyrosine kinase (RET), hypoxia-inducible fac-
+tor (HIF), succinate dehydrogenase, or fumarate hydratase. As with 
+humans, pheochromocytomas can also occur in mice and rats in 
+conjunction with MEN. This was seen in male rats after administra-
+tion of propyl gallate (National Toxicology Program, 1982).
+In Vitro Testing
+A commonly employed cell line used in neurobiology is the PC12 
+pheochromocytoma line derived from a rat adrenal medullary 
+tumor. These cells respond to nerve growth factor (NGF) by ceas-
+ing replication, extending neurites, and increasing a number of 
+neuronal markers. This cell line is widely used in neurotoxicologi-
+cal studies. Corticosterone and glutamate are often used to induce 
+cytotoxicity in this in vitro culture system (Mao et al., 2011; Kritis 
+et al., 2015). One study utilized phenolic acid derivatives and fla-
+vonoid extracts of daylily to protect against cytotoxicity caused by 
+these compounds (Tian et al., 2017). However, in using them, it 
+must be considered that rat PC12 cells are representative only of a 
+subset of chromaffin cells, and may differ in some ways from nor-
+mal and neoplastic chromaffin cells of other species. At this time, 
+there are no human chromaffin cell lines, despite numerous efforts 
+to establish such a cell line (Tischler et al., 2010).
+The PC12 cell line has been useful in determining intracellular 
+mechanisms at the molecular level that are involved in chromaf-
+fin cell signaling and proliferation. Studies with PC12 cells have 
+shown that substances which inhibit mitochondrial function (cya-
+nide, rotenone) or uncouple oxidative phosphorylation (dinitrophe-
+nol, p-trifluoromethoxyphenyl hydrazone) stimulate catecholamine 
+secretion in the same way as occurs under hypoxic conditions. This 
+is thought to be dependent upon Ca++ influx through voltage-gated 
+channels (Taylor et al., 2000). Proliferation of chromaffin cells 
+can also be induced in vitro by activators of adenylate cyclase that 
+stimulate neuropeptide receptors, as well as stimulators of protein 
+kinase C, which stimulates muscarinic cholinergic receptors.
+THYROID GLAND
+The thyroid gland consists of two lobes of endocrine tissue located 
+just below the larynx on each side of the trachea with an isthmus 
+connecting the two lobes (Fig. 20-7). A second cell type is also 
+present, the C cells, or parafollicular cells composing the intra-
+follicular spaces. The C cells synthesize and secrete calcitonin 
+(CT), a hormone involved in calcium homeostasis (see the section 
+“Parathyroid Gland” for more details).
+The thyroid secretes two hormones known as thyroxine (T4) 
+and triiodothyronine (T3). Both of these hormones are produced 
+in epithelial cells in the basic functional unit of the thyroid known 
+as the follicle (Fig. 20-8). Each follicle consists of a sphere of epi-
+thelial cells surrounding a colloidal core. The colloid material is 
+composed of the glycoprotein thyroglobulin (TGB), which acts 
+as a storage depot for T4 and T3 (Capen, 2001). In humans, about 
+3 months of thyroid hormone is stored as TGB in the colloid. This 
+represents the largest reserve of any stored hormone in the body. 
+Generally, the level of secretory activity of follicular cells can be 
+estimated as a direct function of their height. Cells involved in syn-
+thesizing thyroid hormone are columnar in shape, whereas quies-
+cent cells are cuboidal (Capen, 2001).
+T4 and T3 are important regulators of overall metabolism, and 
+their effects are regulated within a long time frame. Essentially all 
+Thyroid and parathyroid glands
+Larynx
+Parathyroid gland
+Trachea
+Thyroid gland
+Figure 20-7.   Anatomy of the thyroid and parathyroid glands. The sche-
+matic shows the thyroid gland in humans, which consists of two lobes of 
+endocrine tissue, located just below the larynx on each side of the trachea 
+with an isthmus connecting the two lobes. (Modified from Porterfield 
+[2001].)
+FC - Follicle (epithelial) cells
+Basal face
+Apical face
+Produce calcitonin
+FC
+TGB
+TGB
+CT
+TGB
+Thyroglobulin
+C
+Colloid
+C
+Interstitial cells
+Figure 20-8.   Histology of the thyroid gland. The micrograph shows thy-
+roid follicles (FC) composed of epithelial cells, the site of thyroid hormone 
+synthesis, with colloid (C), the site of thyroid hormone storage, contained 
+in the follicular lumen. The epithelial cell contains a basal and apical face. 
+The interstitial compartment is composed of C cells, the site of synthesis, 
+and secretion of calcitonin. (Modified from Porterfield [2001].)
+
+Toxic Responses of the Endocrine System 
+Chapter 20
+989
+tissues are to some degree targets for thyroid hormone. However, 
+the primary target tissues for thyroid hormone include the liver, kid-
+ney, heart, brain, pituitary, gonads, and spleen ( Zoeller et al., 2007).
+Some studies indicate that xenobiotics directly affect the struc-
+ture of the thyroid gland. For example, some environmental chemi-
+cals such as heavy metals and red dye #3 are known to decrease 
+the size of the colloid space (Capen, 2001; Bronnikov et al., 2005). 
+Similarly, iron deficiency reduces the size of follicular cavities in 
+pregnant rats (Hu et al., 2014). These morphological changes are 
+thought to reduce the space required for storing hormones, lead-
+ing to an impaired ability of the thyroid gland to synthesize and 
+store thyroid hormones. Chemicals such as PCBs are known to alter 
+the appearance of the epithelial cells so that they are hypertrophic 
+or hyperplastic in nature (Capen, 2001; Langer, 2010; Tang et al., 
+2013), and perchlorate is thought to increase angiogenesis and fol-
+licular cell proliferation in fish (Furin et al., 2015). This is thought 
+to lead to excessive thyroid hormone production.
+Thyroid Hormone Structure and Synthesis
+Thyroid hormones are composed of two modified, covalently 
+linked tyrosine amino acids (Fig. 20-9). Each of the aromatic rings 
+of the tyrosines contains one or two iodides. T4 contains two iodides 
+on each aromatic ring for a total of four, whereas T3 contains two 
+iodides on the tyrosine closest to the amino acid moiety (amino and 
+carboxy groups), and one iodide on the outer aromatic ring (Capen, 
+2001). The iodide is derived from dietary intake and is required for 
+biologic activity. Although the thyroid gland synthesizes and secretes 
+both T4 and T3, it primarily releases T4. In fact, about 90% of thyroid 
+hormone secreted by the thyroid gland is in the form of T4 in humans.
+TGB, a glycoprotein containing large numbers of tyrosine amino 
+acid residues, is synthesized in the epithelial cell and serves as the 
+backbone for thyroid hormone synthesis. Iodine in the form of iodide 
+(I−) is actively transported into the epithelial cell, where it is oxidized 
+to I2 by thyroid peroxidase. At the apical membrane, I2 combines with 
+DIT
+DIT
+DIT
+Colloid-lumen
+DIT
+MIT
+Thyroglobulin
+TGB
+MIT
+T3/T4 structure
+Diiodotyrosine
+DIT
+MIT
+Monoiodotyrosine
+Prohormone
+Active
+Inactive
+HO
+I
+CH2
+NH2
+CH
+COOH
+I
+HO
+I
+CH2
+NH2
+CH
+COOH
+HO
+I
+I
+O
+I
+CH2
+NH2
+CH
+COOH
+HO
+I
+O
+I
+I
+CH2
+NH2
+CH
+COOH
+3,5,3′ Triiodothyronine
+(T3)
+3,3′,5′ Triiodothyronine
+(Reverse T3 or rT3)
+HO
+I
+I
+O
+I
+I
+CH2
+NH2
+CH
+COOH
+3,5,3′,5′ Tetraiodothyronine
+(T4 or Thyroxine)
+5′ MD
+5 MD
+5′
+5
+3′
+3
+Figure 20-9.   Structure of thyroid hormone (T3 and T4). The schematic shows the structures required to make T3, T4, and reverse T3 (rT3). At the apical mem-
+brane of the follicular cells, I2 combines with tyrosine residues on thyroglobulin (TGB) to form monoiodotyrosine (MIT) and diiodotyrosine (DIT). Coupling 
+between MIT and DIT occurs such that combined MIT and DIT forms T3, whereas combined DIT and DIT forms T4. T4 from the thyroid gland can be peripher-
+ally converted to T3 (active hormone) or rT3 (inactive metabolite), then successively deiodinated by the monodeiodinases. (Modified from Hedge et al. [1987].)
+
+990
+TARGET ORGAN TOXICITY
+Unit IV
+tyrosine residues on TGB to form monoiodotyrosine (MIT) and diio-
+dotyrosine (DIT), which remain attached to TGB. Coupling between 
+MIT and DIT occurs such that a combined MIT and DIT forms T3, 
+whereas a combined DIT and DIT forms T4 (Capen, 2001).
+The iodinated TGB is stored in the follicular lumen as colloid 
+until the thyroid gland is stimulated to secrete hormone. Upon stim-
+ulation, iodinated TGB is endocytosed into the epithelial cell and 
+transported in the direction of the basal membrane where lysosomal 
+enzymes hydrolyze peptide bonds to release T3 and T4 for passive 
+diffusion into the circulation. Remaining MIT and DIT are recycled 
+in the epithelial cell for synthesis of new TGB (Capen, 2001).
+T4 from the thyroid gland can be peripherally converted to T3 
+(active hormone) or reverse T3 (rT3, the inactive metabolite) then 
+successively deiodinated by the monodeiodinases. About 40% of 
+circulating T4 is metabolized to T3 by 5′-monodeiodinase, and 40% 
+is converted to rT3 by 5-monodeiodinase (Capen, 2001; Zoeller 
+et al., 2007). Additionally, about two-thirds of T3 and all rT3 in cir-
+culation are produced from T4 by peripheral conversion. As a result, 
+the ratio of circulating T4 and T3 does not reflect the ratio of these 
+two substances when they were released from the thyroid gland. 
+Based on a variety of observations, it appears that circulating T4 
+levels provide a “sink” of prohormone that can serve as a ready 
+supply for peripheral conversion to T3 (the active form).
+Several studies indicate that xenobiotics can interfere with thy-
+roid gland function by adversely affecting the process of thyroid hor-
+mone synthesis (Kortenkamp, 2008). For example, environmental 
+chemicals such as perchlorate, chlorate, and bromate inhibit uptake 
+of iodide and thus decrease thyroid hormone synthesis (Crofton, 
+2008; Steinmaus et al., 2013; Šošic´-Jurjevic´ et al., 2014). Triclosan 
+and triclocarban inhibit iodide uptake and thyroperoxidase activity 
+(Wu et al., 2016). Some chemicals such as genistein and daidzein in 
+soy products, thionamides, and substituted phenols can inhibit thy-
+roid peroxidase, blocking incorporation of iodide into TGB (Doerge 
+and Chang, 2002; Delclos and Newbold, 2007). Further, some chem-
+icals may interfere with monodeiodinases, leading to decreased lev-
+els of thyroid hormones. Specifically, studies have shown that red 
+dye #3 and propylthiouracil inhibit 5′-monodeiodinase, leading to 
+reduced serum levels of T3 (Capen, 2001; Crofton, 2008).
+Thyroid Hormone Binding Proteins
+Once released into the blood, thyroid hormones are rapidly bound to 
+high-affinity serum binding proteins (Capen, 2001). The result is that 
+less than 1% of the T3 (99.7% bound) and less than 0.1% of the T4 
+(99.97% bound) are free in circulation. Only the small unbound frac-
+tion of the total hormone pool has access to receptors in target cells, 
+and thus only the unbound fraction can exert biological activity.
+There are three types of thyroid hormone binding proteins: 
+thyroid binding globulin (TBG), thyroxine-binding prealbumin 
+(TBPA), and albumin (Capen, 2001). TBG binds about 80% of the 
+thyroid hormones, whereas TBPA and albumin each bind about 
+10% of the thyroid hormones. Environmental chemicals such as 
+the PCBs and PBDEs are known to displace thyroid hormones 
+from serum binding proteins (Yamauchi and Ishihara, 2006; Patrick 
+2009; Jugan et al., 2010). The displacement of thyroid hormones 
+from the binding proteins often leads to a rapid decline in serum 
+thyroid hormone levels.
+Thyroid Hormone Receptors
+Thyroid hormones act by binding to thyroid hormone receptors 
+(TRs; Zoeller, 2005). TRs are members of the nuclear receptor 
+superfamily of ligand-inducible transcription factors. TRs can form 
+homodimers or heterodimers with other nuclear hormone receptors 
+such as the retinoid X receptor (Zoeller, 2005). The homodimers and 
+heterodimers bind to thyroid hormone response elements located 
+in target genes and interact with coactivators and corepressors to 
+regulate transcription. In humans, thyroid hormone receptors are 
+the products of two genes that encode three thyroid hormone recep-
+tor isoforms known as TRα, TRβ1, and TRβ2 (Zoeller, 2005). 
+While all three isoforms are present in most tissues, their expres-
+sion differs spatially and temporally during development (Zoeller, 
+2005). TRα is abundant in the brain, heart, and immune system, 
+whereas TRβ1 is particularly expressed in the brain, liver, and 
+kidney (Zoeller, 2005).
+Environmental chemicals can interfere with thyroid hormone 
+binding to TRs and thyroid hormone–related transcription at multi-
+ple levels (Kitamura et al., 2002; Zoeller, 2005; Patrick, 2009; Jugan 
+et al., 2010). First, some chemicals such as PBDEs can bind directly 
+to TRs and induce either agonistic or antagonist effects (Zoeller, 
+2005). Interestingly, some PBDE congeners have different affini-
+ties for TRα and TRβ, whereas some congeners can bind to more 
+than one isoform. Second, some environmental chemicals interfere 
+with thyroid hormone binding to receptors via indirect mechanisms 
+(Zoeller, 2005). In such cases, it is thought that the chemicals exert 
+their effects by promoting coactivators or inhibiting corepressors. 
+For example, BPA impairs thyroid hormone action by inhibiting 
+T3 binding to TR and by recruiting the nuclear corepressor N-CoR 
+to the TR, resulting in repression of transcription (Zoeller, 2005; 
+Patrick, 2009). Similarly, some PCBs are able to suppress TR/coact-
+ivator (SRC-1) complex–mediated transactivation, leading to sup-
+pression of TR-mediated transcription (Crofton, 2008). Third, some 
+xenobiotics can interfere with cross talk between TRs and other 
+nuclear receptors. For example, PCBs can partially dissociate the 
+heterodimer TR/retinoic acid receptor from the T3-response element 
+(Crofton, 2008). BPA suppresses TR transcription by interfering 
+with T3/T4-mediated β3 integrin/c-Src/MAPK/TR-β1 pathways 
+(Sheng et al., 2012). Finally, some chemicals such as BPA, phthal-
+ates, and acetochlor can inhibit expression of TRs (Patrick, 2009; 
+Yang et al., 2016).
+Thyroid Hormone Clearance
+The main pathway for clearance of thyroid hormones from the 
+serum is via conjugation to glucuronic acid or sulfate by phase 
+II enzymes such as glucuronyl transferases (UDPGTs) and sulfo-
+transferases (SULTs), respectively (Patrick, 2009; Zoeller, 2010). 
+The metabolites then are transported across plasma membranes 
+for elimination by transporters, including the multidrug resis-
+tance protein 1 and the multidrug resistance–associated protein 
+2 (MRP2).
+A number of studies indicate that some xenobiotics may 
+increase the clearance of thyroid hormones from the serum 
+(McClain et al., 1989). This effect limits the availability of thyroid 
+hormones to act on tissues and often results in symptoms of hypo-
+thyroidism (Brouwer et al., 1998; Yamauchi and Ishihara, 2006). 
+For example, coplanar and noncoplanar PCB congeners have been 
+shown to induce UDPGTs and SULTs, resulting in low serum T4 
+levels (Crofton, 2008; Patrick, 2009). In contrast, a few studies 
+have shown that xenobiotics such as pentachlorophenol or triclo-
+san may inhibit SULTs, increasing the availability of thyroid hor-
+mones to act on tissues (Jekat et al., 1994; Crofton, 2008; Patrick, 
+2009). Studies have also shown that xenobiotics such as dioxin, 
+rifampicin, and phenobarbital may decrease the transport of thy-
+roid hormones into the brain and liver by inhibiting transporters 
+(Crofton, 2008).
+
+Toxic Responses of the Endocrine System 
+Chapter 20
+991
+Regulation of Thyroid Hormone Release
+Thyroid hormone secretion is regulated by thyroid-stimulating 
+hormone (TSH) (thyrotropin) from the anterior pituitary gland. 
+The rate of release of TSH is under a hypothalamic–pituitary–
+thyroid regulatory axis involving negative feedback (Fig. 20-10). 
+Specifically, a hypothalamic releasing hormone known as TRH 
+directly stimulates release of TSH from the anterior pituitary gland. 
+TSH then increases secretion of T4 and T3 from the thyroid gland. 
+In turn, T4 and T3 can feed back to the anterior pituitary to inhibit 
+TSH release and they can feed back to the hypothalamus to inhibit 
+TRH release. Interestingly, most inhibition by thyroid hormones 
+is by T4, although T3 can also provide some degree of inhibition. 
+Further, the feedback effect is mediated primarily at the level of the 
+anterior pituitary, but some degree of negative feedback occurs at 
+the level of the hypothalamus.
+In addition to these methods of regulating thyroid hormone 
+secretion, there is a circadian rhythm of TRH and TSH release, with 
+a decrease following the onset of sleep. Overall, the thyroid axis 
+responds rapidly at the hypothalamo-pituitary unit, but beyond this 
+level, the system is governed by processes that have extremely long 
+time constants. Therefore, the long half-lives of thyroid hormones 
+in circulation dampen the diurnal rhythm that is obvious in TSH 
+levels. As a result, this rhythm is not reflected in circulating thyroid 
+hormone concentrations. This contributes to the “sluggishness” of 
+the system.
+Xenobiotics have been shown to alter the ability of the hypo-
+thalamic–pituitary–thyroid regulatory axis to control thyroid hor-
+mone levels (Zoeller, 2005; Patrick, 2009). For example, chemicals 
+such as PBDEs may increase TSH levels, leading to increased levels 
+of T4 and T3 (Darnerud et al., 2001). Alternatively, xenobiotics may 
+inhibit TRH or TSH levels, leading to decreased levels of T4 and T3 
+(Patrick, 2009).
+Physiological Effects
+Thyroid hormones influence nearly every tissue in the body, in a 
+variety of ways. In spite of complexities of hormone action on tar-
+get tissues, it is reasonably accurate to simply view thyroid hor-
+mone as the primary determinant of the overall metabolic rate of 
+the body. The effects are exaggerated in states of thyroid excess 
+(hyperthyroidism) or deficiency (hypothyroidism) and produce 
+the clinical and biochemical manifestations of these disorders. In 
+general, thyroid hormone stimulates both anabolic and catabolic 
+biochemical pathways; however, its overriding effect is catabolism 
+(energy mobilization).
+Thyroid hormone also produces significant effects on growth 
+and development (Zoeller et al., 2002). It is essential for normal 
+development of the CNS and for maturation of the skeleton (Zoeller 
+et al., 2002; Dickerson and Gore, 2007; Gore, 2011). A deficiency 
+of thyroid hormone in early life leads to a delay in development 
+of the brain in animal models and humans. Brain development is 
+especially dependent on thyroid hormone during the first several 
+months after birth in humans (Zoeller, 2005). If thyroid hormone 
+levels are inadequate during this period, severe irreversible mental 
+retardation in the form of cretinism occurs. Early diagnosis and 
+immediate replacement with thyroid hormones can prevent these 
+effects and are therefore essential.
+Thyroid Toxicity
+Given the influence of thyroid hormones on numerous tissues in 
+the body, it is not surprising that xenobiotics that affect thyroid 
+hormone levels often cause symptoms of hypothyroidism or hyper-
+thyroidism, or lead to significant impairment in brain development 
+and function. Below are some specific examples of environmental 
+chemicals that have been shown to affect thyroid hormone levels 
+through a variety of mechanisms, resulting in adverse ­physiological 
+outcomes.
+PCBs  PCBs are some of the best characterized thyroid-disrupting 
+chemicals (Dickerson and Gore, 2007; Boas et al., 2009; Patrick, 
+2009; Jugan et al., 2010; Zoeller, 2010; Gore, 2011). PCBs are 
+industrial chemicals that were widely used in capacitors and trans-
+formers. They are made of two phenyl rings with varying degrees 
+of chlorination, resulting in 209 different congeners. The produc-
+tion of PCBs was banned in the 1970s, but unfortunately, PCBs 
+are persistent chemicals and thus they are still routinely found in 
+humans and wildlife blood samples and tissues.
+PCBs are known to interfere with the thyroid system in a man-
+ner that leads to serious neurocognitive effects. Several human 
+studies indicate that PCB exposure in prenatal life is associated 
+with lower full-scale and verbal IQ scores and less short-term and 
+long-term memory and attention in postnatal life (Porterfield, 2000; 
+Zoeller et al., 2002). Rodent studies indicate that prenatal PCB 
+exposure increases hyperactivity. Further, rodent studies indicate 
+that PCB exposure causes hearing disorders because the developing 
+auditory system is sensitive to thyroid hormones (Porterfield, 2000; 
+Zoeller et al., 2002).
+Although PCBs may exert negative effects on animals and 
+humans via several mechanisms, the most common pathway is 
+thought to include PCB inhibition of thyroid hormone levels or 
+activity (Patrick, 2009; Gore, 2011). Several studies indicate that 
+PCBs decrease the levels of thyroid hormone by inhibiting thyroid 
+hormone synthesis and/or increasing the metabolism of thyroid hor-
+mones by increasing phase II enzymes (Zoeller, 2010). For example, 
+several studies have reported the ability of PCB and other micro-
+somal enzyme inducers to induce UDP-glucuronosyltransferase 
+(UDP-GT) expression (Barter and Klaassen, 1994; Hood et al., 
+2003). Increased UDP-GT activity decreases serum T4 levels in rats 
+and mice by increasing glucuronidation and biliary excretion of T4. 
+Other studies indicate that PCBs interfere with thyroid hormone 
+action by inhibiting the binding of thyroid hormones to binding 
+Hypothalamic–pituitary–thyroid axis
+T3, T4
+TSH
+TRH
+Anterior
+pituitary
+−
+Thyroid
+Hypothalamus
++
++
+Figure 20-10.   Hypothalamic–pituitary–thyroid axis. The hypothalamus 
+synthesizes and secretes thyroid-releasing hormone (TRH). TRH travels to 
+the anterior pituitary via the portal plexus and stimulates the thyrotropes to 
+synthesize and secrete TSH. TSH acts on the thyroid gland to stimulate pro-
+duction and/or release of T3 and T4. T3 and T4 can then exert negative feed-
+back control at the level of the anterior pituitary to inhibit further release of 
+TSH. (Modified from Hedge et al. [1987].)
+
+992
+TARGET ORGAN TOXICITY
+Unit IV
+proteins or blocking the ability of thyroid hormones to bind to TRs 
+(Zoeller, 2010). In addition, a study in Dutch infants indicates that 
+PCB exposure is associated with negative effects on deiodinase 
+activity (Soechitram et al., 2017).
+PBDEs  PBDEs are also well-known thyroid-disrupting chemi-
+cals (Boas et al., 2009; Jugan et al., 2010; Zoeller, 2010). These 
+chemicals are flame retardants that are used in a variety of prod-
+ucts, including electric equipment, clothing, furniture, carpeting, 
+plastics, and paints. PBDEs are not chemically bound to products 
+in which they are used; thus, they can leach from the products into 
+human and wildlife tissues and into the environment over time.
+The structure of PBDEs often resembles that of PCBs. Thus, it 
+is not surprising that many of the toxic effects of PBDEs are similar 
+to those elicited by PCBs. Like PCBs, PBDEs have been shown 
+to inhibit thyroid hormone levels and/action, leading to serious 
+neurocognitive deficits. PBDEs inhibit thyroid hormone levels by 
+inducing hepatic phase II enzymes, resulting in increased metabo-
+lism of circulating thyroid hormones (Zoeller, 2010). They also can 
+downregulate proteins required for transporting thyroid hormone 
+into target cells and they can bind to TRs, blocking the ability of 
+thyroid hormones to bind to TRs (Zoeller, 2010).
+Perchlorate  Perchlorate is another thyroid-disrupting chemical 
+(Crofton, 2008; Patrick, 2009; Jugan et al., 2010; Zoeller, 2010). 
+This chemical is widely used as a rocket propellant as well as a 
+chemical in fireworks and airbag deployment systems. Perchlorate 
+is also used in pharmaceutical industries. It is a highly stable and 
+water-soluble compound and thus it is known to persist in the 
+environment, particularly in the water and food supply (Abt et al., 
+2018). While less is known about the effects of perchlorate on the 
+thyroid system than about PCBs and PDBEs, a few studies indicate 
+that perchlorate exposure inhibits thyroid hormone levels, possi-
+bly leading to hypothyroid-like outcomes (Crofton, 2008; Patrick, 
+2009; Gardell et al., 2016). For example, in a longitudinal study 
+of girls in the United States, exposure to perchlorate along with 
+thiocyanate and nitrate was associated with slow growth in waist 
+circumference and body mass index, but not height (Mervish et al., 
+2016). In a study on the freshwater fish, threespine stickleback, per-
+chlorate exposure increases lipid droplet numbers, suggesting an 
+obesogenic effect (Gardell et al., 2016). The mechanism of action 
+of perchlorate is thought to be primarily by reducing iodide uptake, 
+which ultimately reduces thyroid hormone synthesis (Patrick, 2009; 
+Schlosser, 2016). It is important to note, however, that the effects of 
+perchlorate on the thyroid gland have not been well studied and the 
+results to date in humans are equivocal.
+Pesticides  Pesticides such as dichlorodiphenyltrichloroethane 
+(DDT) and hexachlorobenzene (HCB) are known thyroid-dis-
+rupting chemicals (Boas et al., 2009; Chiappini et al., 2013; Gore 
+et al., 2015; Campos and Freire, 2016). While both DDT and HCB 
+have been banned in many countries, they persist in the environ-
+ment due to their long environmental half-lives and thus they may 
+place humans and wildlife at risk for thyroid disorders. Pesticide 
+mixtures containing DDT have been shown to increase thyroid vol-
+ume and to induce antibodies that attack the thyroid gland, result-
+ing in autoimmune thyroid disease (Crofton, 2008; Boas et al., 
+2009; Patrick, 2009). Further, DDT has been shown to inhibit TSH 
+receptors, blocking the ability of TSH to induce secretion of T4 and 
+T3 and in turn resulting in low circulating T4 and T3 levels (Boas 
+et al., 2009; Patrick, 2009). The stable metabolite of DDT known as 
+p,p'-DDE has been shown to be positively associated with total T3 
+and T4 levels in floricultural workers (Blanco-Muñoz et al., 2016). 
+HCB has been shown to interfere with thyroid function by block-
+ing the ability of thyroid hormones to bind to TR (Crofton, 2008; 
+Boas et al., 2009; Patrick 2009). HCB also causes apoptosis in thy-
+roid cells by reactive oxygen species–mediated ERK1/2 activation 
+(Chiappini et al., 2013). Organochlorine pesticide exposure has 
+been associated with increased TSH and decreased T4 in a male 
+agricultural population (Piccoli et al., 2016).
+Perfluorinated Chemicals  Perfluorinated chemicals (PFCs) are 
+a family of chemicals used in many products due to their surface 
+protection properties. Such products include stains and oil-resistant 
+coatings, floor polishes, and insecticides. Some studies have shown 
+that a PFC known as perfluorooctane sulfonate (PFOS) decreases 
+T4 levels in pregnant dams as well as their pups (Boas et al., 2009). 
+The PFC known as perfluorooctanoic acid (PFOA) has been shown 
+to decrease T3 levels. PFOA and perfluorononanoic acid exposure 
+were associated with increased T3 and T4 levels in women (Wen 
+et al., 2013; Crawford et al., 2017). While the mechanisms by 
+which perfluorinated chemicals alter thyroid hormone levels are not 
+completely clear, studies suggest that they regulate phase II meta-
+bolic enzymes in the liver and increase deiodinases in the thyroid 
+gland (Boas et al., 2009). Further, studies indicate that PFOA and 
+PFOS enter thyroid cells by passive diffusion (Coperchini et al., 
+2015), which could result in prolonged in vivo exposure to PFCs 
+and lead to damage.
+Bisphenol A  Bisphenol A (BPA) is a suspected possible thyroid 
+hormone–disrupting chemical (Boas et al., 2009; Zoeller, 2010). It 
+is primarily used in the manufacture of polycarbonate plastics such 
+as those used in baby bottles, toys, and food containers. It is also a 
+component of dental sealants and the linings of food cans. BPA can 
+leach out of products and enter the blood and organs. In fact, recent 
+studies indicate that over 95% of human urine samples contain 
+BPA, indicating continuous and widespread exposure to this chem-
+ical. Given the vast exposure of humans to BPA, it is important to 
+consider its potential effects on the thyroid gland. Some laboratory 
+studies have shown that BPA blocks T3 action by antagonizing the 
+binding of T3 to its receptor (Zoeller, 2010). Further, some studies 
+have shown that BPA inhibits T3-mediated gene expression in cell 
+lines (Zoeller, 2010). Studies have also shown that BPA exposure 
+is associated with an increase in anti-thyroperoxidase antibodies 
+in men and women (Chailurkit et al., 2016), a decrease in thyroid 
+volume in school children (Wang et al., 2015), and decreased T4 
+levels in men (Sriphrapradang et al., 2013). While the effects of 
+BPA-induced inhibition of thyroid hormone action in humans are 
+not completely understood, several studies suggest that BPA leads 
+to symptoms of hypothyroidism or thyroid resistance syndrome 
+in animal models (Zoeller, 2010; Viguié et al., 2013; Gore et al., 
+2015). Further, prenatal BPA exposure has been shown to cause 
+attention deficit/hyperactivity-disorder-like symptoms in rodents in 
+postnatal life (Zoeller, 2010) and it has been associated with an 
+increased risk of behavior problems in boys (Evans et al., 2014). 
+These effects are thought to be due, in part, to the BPA-induced 
+inhibition of normal thyroid function, possibly by inhibiting sul-
+fotransferase activity, disrupting thyroid-specific gene expression, 
+and/or suppressing thyroid hormone receptor transcription (Zoeller, 
+2010; Sheng et al., 2012; Butt and Stapleton, 2013; Gentilcore 
+et al., 2013; Gore et al., 2015).
+Phthalates  A few recent studies suggest that phthalates may 
+act as thyroid-disrupting agents; however, they are not thought to 
+do so to the same degree as PCBs and PBDEs (Boas et al., 2009; 
+Jugan et al., 2010; Ye et al., 2017). Phthalates are used to improve 
+the flexibility of plastics used in a variety of products, including 
+toys, medical tubing, plastic bottles, and cosmetics. To date, a few 
+small human studies have shown that phthalate exposures may alter 
+the levels of T4 and T3 levels in adult men and pregnant women
+
+Toxic Responses of the Endocrine System 
+Chapter 20
+993
+(Jugan et al., 2010). Interestingly, a by-product of phthalates pro-
+duced by gram-negative bacteria has been shown to inhibit thyroper-
+oxidase, an enzyme required for thyroid hormone synthesis (Jugan 
+et al., 2010). This results in low thyroid hormone levels and to symp-
+toms of hypothyroidism in humans. A few rodent studies have shown 
+that a phthalate known as di-n-butyl phthalate decreases T4 and T3 
+in a dose-dependent manner (Boas et al., 2009; Jugan et al., 2010). 
+Rodent studies have also shown that di(2-ethylhexyl) phthalate 
+reduces thyroid hormone levels in rats (Liu et al., 2015). This likely 
+occurs through a mechanism involving the ability of phthalates to 
+activate the Ras/Akt/TRH receptor pathway (Ye et al., 2017) and/or 
+disrupt the hypothalamic–pituitary–thyroid axis (Dong et al., 2017).
+Studies on the consequences of phthalate-induced changes 
+in thyroid hormone levels in humans or rodents are limited at this 
+time. However, one study indicates that gestational exposure to 
+di-n-butyl phthalates alters the thyroid hormone profile in rats, lead-
+ing to defects in sensory motor, craniofacial development, and eye 
+formation (Mahaboob and Radha, 2017). Another study indicates 
+that phthalate exposure is associated with thyroid hormones in chil-
+dren and suggests that this association between phthalate exposure 
+and thyroid hormones may interfere with growth (Wu et al., 2017).
+PARATHYROID GLAND
+The parathyroid glands are embedded in the surface of the thyroid 
+gland (Fig. 20-7) (Capen and Rosol, 1989). Humans have four 
+parathyroid glands, which are located on the back of side of the 
+thyroid gland. The parathyroid glands are composed of chief cells 
+and oxyphil cells (Capen and Rosol, 1989). The main function of 
+chief cells is to produce parathyroid hormone (PTH), whereas the 
+function of the oxyphil cells is unknown (Capen and Rosol, 1989). 
+In humans, oxyphil cells are absent at birth, appear around puberty, 
+and increase in number with age. Thus, it is thought that they may 
+represent structurally and functionally modified chief cells.
+The parathyroid glands are critical for life (Capen and Rosol, 
+1989). This is largely because PTH helps maintain normal plasma 
+calcium levels (Capen and Rosol, 1989) (Fig. 20-11). Calcium is 
+required in optimal concentrations for many of life’s fundamen-
+tal processes: fertilization, vision, locomotion-muscle contraction, 
+nerve conduction, blood clotting, exocytosis, cell division, and the 
+activity of a number of enzymes and hormones. Therefore, the con-
+centrations of calcium in the cellular and extracellular fluids must 
+be maintained at a constant value. When the parathyroid glands are 
+removed or damaged, PTH levels drop, causing a major drop in cir-
+culating calcium levels. In turn, this can lead to tetanic convulsions 
+and death (Capen and Rosol, 1989).
+Parathyroid Toxicity
+Xenobiotic exposures may alter the structure of the parathy-
+roid gland. In some cases, chemicals such as the anticancer drug 
+l-asparaginase cause death of parathyroid cells (Capen and 
+Rosol, 1989; Capen, 2001). Specifically, studies have shown that 
+l-asparaginase selectively destroys chief cells in rabbits. This 
+results in a reduced size and capacity of the parathyroid to release 
+PTH, which eventually leads to tetany and death. Studies have also 
+shown that sublethal doses of heroin cause degenerative changes 
+in the rat parathyroid gland (Barai et al., 2009). These changes are 
+characterized by cytoplasmic vacuolization, pyknotic nuclei in the 
+chief cells, and dying Golgi complexes and mitochondria.
+Many xenobiotic exposures have been shown to increase the 
+size of the parathyroid gland. Lead exposure has been shown to 
+significantly increase parathyroid gland weight (Szabo et al., 1991). 
+Some pesticides such as rotenone, malathion, and malaoxon 
+increase proliferation of the chief cells and thus increase the size 
+of the parathyroid gland (Reuber, 1985; Abdo et al., 1988). This 
+scenario often results in parathyroid gland cancer. Further, fungi-
+cides such as hexachlorobenzene and bis(tri-n-butyltin)oxide, the 
+antifreeze ethylene glycol, the broad-spectrum germicide o-benzyl-
+p-chlorophenol, and the diuretic drug hydrochlorothiazide have 
+been shown to induce proliferation and/or adenomas in rat parathy-
+roid glands (Arnold et al., 1986; DePass et al., 1986; Lijinsky and 
+Reuber, 1987; Andrews et al., 1989; Bucher et al., 1990; Wester 
+et al., 1990; National Toxicology Program, 1994). Similarly, irradi-
+ation and coumarin exposure induce parathyroid gland adenomas in 
+rodents (National Toxicology Program, 1993). It is unclear whether 
+all of the effects of xenobiotics are due to a primary effect of the 
+chemical on the parathyroid gland or due to effects on the kidney or 
+bones, which in turn alter the parathyroid gland (secondary effects).
+PTH Structure and Synthesis
+PTH is a polypeptide hormone that is derived from a precursor mol-
+ecule called preproparathyroid hormone (Potts, 2005) (Fig. 20-12). 
+In humans, preproparathyroid hormone is composed of 115 amino 
+acid residues. The preproparathyroid hormone is cleaved by tryp-
+sin-like proteases in the Golgi zone of the chief cells to become 
+proparathyroid hormone, which is 90 amino acids in size. Six 
+amino acid residues are then removed from the proparathyroid hor-
+mone by proteases in the Golgi to make PTH. PTH is then pack-
+aged into secretory vesicles that migrate to the periphery of the cell, 
+where the hormone is secreted via vesicular exocytosis (Capen, 
+2001; Potts, 2005). Interestingly, the structure of this hormone is 
+highly conserved among many species, including humans, cows, 
+pigs, dogs, rats, and chickens (Potts, 2005).
+↓ Plasma [Ca2+]
+↑ PTH secretion
+↑Plasma [Ca2+]
+toward normal
+Intestine
+↑ Ca2+ absorption
+ (indirect via 1,25-
+ dihydroxy-
+   cholecalciferol)
+Kidney
+↓ Phosphate
+ reabsorption
+ (phosphaturia)
+↑ Ca2+ reabsorption
+↑ Urinary cAMP
+Bone
+↑ Bone resorption
+Figure 20-11.   Effects of calcium on target tissues. Low levels of circulat-
+ing Ca2+ stimulate an increase in secretion of parathyroid hormone (PTH). 
+PTH helps restore normal plasma Ca2+ levels by acting on bone, the kidney, 
+and the intestine. (Reproduced with permission from Boron and Boulpaep 
+[2005].)
+
+994
+TARGET ORGAN TOXICITY
+Unit IV
+A few studies indicate that xenobiotics may interfere with the 
+normal synthesis of PTH. Metals such as aluminum and cadmium 
+have been shown to inhibit PTH secretion in a variety of species, 
+including humans (Cannata et al., 1983; Kido et al., 1991; Jeffery 
+et al., 1996; Rignell-Hydbom et al., 2009). Similarly, alcohol con-
+sumption has been shown to decrease PTH levels in pregnant rats 
+(Keiver and Weinberg, 2003). Lithium, a drug widely used to man-
+age manic-depressive illnesses, has been associated with a rise in 
+PTH levels as well as abnormally high calcium levels (Matsis et al., 
+1989). Prenatal exposure to nicotine reduces the activity of parathy-
+roid chief cells, leading to hypertrophy and increased levels of calci-
+tonin in parafollicular cells (Abdelhafez et al., 2014). Interestingly, 
+a longitudinal study on Gulf War I veterans showed that depleted 
+uranium exposure was associated with significant decreases in 
+serum levels of PTH as well as significant increases in urinary cal-
+cium (Tissandie et al., 2006; McDiarmid et al., 2011). A study on 
+lead exposure in battery manufacturers showed that lead exposure 
+was associated with increased levels of PTH (Dongre et al., 2013). 
+Similarly, lithium treatment was associated with increased levels of 
+parathyroid hormones in patients (McKnight et al., 2012).
+PTH Receptors
+The PTH receptor is a single G protein–coupled receptor called 
+the PTH/PTHrP receptor (PTHR1; Potts, 2005). This receptor 
+is the primary receptor that mediates the traditional actions of PTH. 
+However, it is thought other receptors exist that bind to portions 
+of PTH or proparathyroid hormone. In humans, the gene for the 
+PTHR1 is located on chromosome 3 and consists of 14 exons. 
+PTHR1 has been extensively localized in bone and kidney cells 
+(Potts, 2005).
+Limited information is available about whether xenobiotics 
+bind PTHR1 and exert agonistic or antagonistic actions. However, 
+one study shows that xenobiotics may alter the expression of 
+PTHR1. Specifically, studies have shown that binge alcohol drink-
+ing significantly decreases expression of PTHR1 in male rats 
+(Callaci et al., 2009).
+PTH Clearance
+PTH is primarily metabolized by the liver and kidney (Capen and 
+Rosol, 1989). It is thought that the hormone is cleaved into two 
+major fragments (N-terminus and C-terminus) quite quickly by 
+metabolic enzymes. In cows, for example, the half-life of PTH is 
+estimated to be between 3 and 4 minutes. In dogs, the half-life of 
+PTH is between 5 and 6 minutes, with about 60% of PTH metabo-
+lism occurring in the liver.
+It is possible that xenobiotics increase the metabolism of PTH 
+and that this leads to abnormally low levels of PTH. Alternatively, 
+it is possible that xenobiotics decrease the metabolism of PTH and 
+that this leads to high levels of PTH. Unfortunately, these issues 
+have not been examined in detail and it is unclear which xenobiot-
+ics, if any, directly affect PTH metabolism.
+Physiological Effects
+The main physiological role of the parathyroid gland is to control 
+circulating calcium levels (Capen and Rosol, 1989; Capen, 2001). 
+Given the importance of maintaining normal levels of circulating 
+calcium, multicellular organisms have evolved a complex system of 
+controls to ensure this constancy. Thus, PTH works in concert with 
+CT and vitamin D (Capen, 2001). CT is secreted from the C cells of 
+the thyroid gland (Capen, 2001). Vitamin D is produced from pre-
+cursors in the skin, and it is obtained from the diet (Capen, 2001).
+PTH serves to increase circulating calcium levels by increas-
+ing the release of calcium from bone (Capen, 2001). Bone is remod-
+eled continuously during adulthood by the resorption of old bone 
+by osteoclasts and the subsequent formation of new bone by osteo-
+blasts. These two events are responsible for renewing the skeleton, 
+while maintaining its anatomical and structural integrity. Under 
+normal conditions, bone remodeling proceeds in cycles in which 
+osteoclasts adhere to bone and subsequently remove it by acidifica-
+tion and proteolytic digestion. Shortly after the osteoclasts have left 
+the resorption site, osteoblasts invade the area and begin the process 
+of forming new bone by secreting osteoid (a matrix of collagen and 
+other proteins), which is eventually mineralized (Capen, 2001). In 
+regulating bone remodeling, PTH binds to osteoblasts and increases 
+IL-6 which, along with other cytokines, causes osteoclast differen-
+tiation. In turn, this demineralizes bone and releases calcium from 
+the bone into circulation (Capen, 2001).
+PTH also serves to increase calcium levels by increasing the 
+tubular reabsorption of calcium by the kidney (Capen and Rosol, 
+1989). Further, it inhibits the renal reabsorption of phosphate, which 
+aids in increasing the solubility of calcium. PTH also enhances 
+magnesium reabsorption, inhibits bicarbonate ion reabsorption, and 
+blocks exchange of sodium ions by the tubules. These actions of 
+Parathyroid chief cell
+Circulation
+Extracellular ﬂuid
+PTH (1–84)
+PTH (1–84)
+PSP
+Cytosol
+RER
+GA
+SG
+Direct secretion
+(“By-pass”)
+Amino
+acids
+Amino
+acids
+Amino
+acids
+Time
+course
+(min)
+0
+5
+Parathyroid secretory protein (PSP)
+Degradation pathways
+15
+30
+Pre
+Pro
+PTH
+Pro
+PTH
+Active
+PTH
+“Mature”
+SG
+–25
+AA
+–6
+AA
+Figure 20-12.   Biosynthesis of PTH. Active PTH is synthesized as a larger biosynthetic precursor molecule (preproPTH) that undergoes rapid posttranslational 
+processing to proPTH prior to secretion as active PTH (amino acids 1 to 84) from chief cells in the parathyroid glands.
+
+Toxic Responses of the Endocrine System 
+Chapter 20
+995
+PTH result in metabolic acidosis, which favors removal of calcium 
+from plasma proteins and bones. In turn, this increases circulating 
+levels of ionized calcium (Capen, 2001).
+CT reduces circulating calcium levels by reversing the action 
+of PTH on bone resorption (Capen and Rosol, 1989). When circu-
+lating calcium levels become high, CT is secreted by the C cells of 
+the thyroid. CT serves to prevent hypercalcemia by shutting down 
+efflux of calcium from bone. It also negatively regulates PTH to 
+prevent kidney calcification (Capen, 2001).
+Vitamin D3 (cholecalciferol) is a steroid-like compound that 
+is essential for calcium absorption in the gastrointestinal tract. It is 
+derived from cholesterol, and the active form is produced from a 
+precursor 7-dehydrocholesterol. Exposure of the skin to ultraviolet 
+light causes formation of vitamin D, which is biologically inert and 
+must be activated by two sequential hydroxylations (Capen, 2001). 
+The first hydroxylation occurs in the liver, and the second occurs in 
+the kidney. The second conversion is stimulated by PTH activation 
+of 1-hydroxylase enzyme activity. Vitamin D also serves to inhibit 
+PTH actions and build bone.
+Some xenobiotics such as pesticides and fungicides can cause 
+excessive PTH secretion by the parathyroid gland and lead to hyper-
+parathyroidism (Capen, 2001). However, it is important to note that 
+most excessive PTH secretion is due to a parathyroid adenoma 
+that is no longer under the negative feedback control of calcium. 
+The traditional symptoms of PTH excess have been characterized 
+as “stones, bones, and groans” for several reasons. First, excessive 
+PTH levels lead to hypercalcemia, hypercalciuria, and hypophos-
+phatemia, which often lead to the formation of renal stones. The 
+constant supply of calcium released via unchecked bone resorption 
+must eventually be excreted, and even though PTH normally elic-
+its calcium reabsorption from the kidney, the consistently elevated 
+calcium exceeds the renal threshold for reabsorption such that cal-
+cium leaks into the urine. The hallmark of this disease is abnormally 
+increased bone resorption, leading to severe bone pain.
+Xenobiotic exposures such as those to heavy metals may cause 
+low PTH secretion and lead to hypoparathyroidism (Pounds, 1984; 
+Long et al., 1992). This condition leads to a very densely calcified 
+skeleton, hypocalcemia, and hyperphosphatemia. Of great concern is 
+that hypoparathyroidism often leads to tetany and death (Capen, 2001).
+Regulation of PTH Release
+PTH release is controlled by circulating calcium levels. The cells 
+in the parathyroid gland, kidney, and other cells that respond to cal-
+cium possess recognition sites for circulating calcium levels known 
+as calcium sensors or receptors. Recently, the calcium sensor or 
+calcium receptor on the parathyroid cell was cloned and determined 
+to belong to the 7-transmembrane class of G protein–coupled 
+receptors linked to phospholipase C.
+When the calcium receptors in the parathyroid gland sense low 
+calcium levels, they stimulate the parathyroid gland to release PTH 
+which functions to raise plasma calcium primarily by stimulating 
+bone resorption and secondarily by enhancing renal calcium reab-
+sorption. Further, PTH stimulates the metabolism in the kidney of 
+vitamin D to its active hormonal form, 1,25-dihydroxyvitamin D3 
+(1,25(OH)2D3) or 1,25-dihydroxycholecalciferol. This last effect 
+of PTH shifts calcium recovery from the skeletal reserve and the 
+kidney in the acute situation to intestinal absorption mediated by 
+1,25(OH)2D3 in the chronic situation, thereby sparing mineralized 
+bone.
+In general, xenobiotic exposures that interfere with the regula-
+tion of PTH could cause problems in controlling calcium levels. As 
+mentioned above, lithium has been shown to increase PTH levels 
+and in turn increase circulating levels of calcium. Depleted uranium 
+exposure has been associated with low PTH and consequently 
+abnormal levels of calcium in the urine (McDiarmid et al., 2011).
+ENDOCRINE PANCREAS
+The pancreas is an organ that has both endocrine and nonendo-
+crine functions. The acinar or exocrine portion of the pancreas is 
+concerned primarily with the regulation of gastrointestinal func-
+tion. Scattered among the pancreatic acini are the endocrine units 
+of the pancreas, the Islets of Langerhans. The Islets of Langerhans 
+comprise only 1% to 2% of the weight of the pancreas. The major 
+physiological function of the endocrine pancreas is to serve as the 
+primary homeostatic regulator of fuel metabolism, particularly 
+circulating glucose. Islet cells are sensors of glucose homeosta-
+sis (maintaining balance by regulation and counterregulation) that 
+respond to changes in their nutrient and hormonal environment. 
+The hormones secreted by islets have major effects directly on 
+the liver. Three major cell types within the endocrine pancreas are 
+known to produce the hormones involved in this regulation. The 
+most abundant cell type is the beta cell (β), the site of synthesis 
+and secretion of insulin. Glucagon is produced by the alpha cell (α) 
+and the delta cell (δ) is the site of somatostatin synthesis. It is likely 
+that a functional relationship exists between the various cell types 
+of the islets because it is known that both glucagon and somatosta-
+tin affect insulin secretion, and that somatostatin also influences 
+glucagon secretion.
+Role of the Liver in Glucose Production
+Energy for cellular metabolism can be derived from fatty acids 
+(β oxidation) or glucose (glycolysis, TCA cycle) in the blood. The 
+liver is the primary contributor to increasing blood glucose levels. 
+Fig. 20-13 summarizes physiological sources of energy for cellular 
+metabolism.
+Adipose
+tissue
+Triglyceride
+Muscle
+Protein
+Fatty acids
+Glycerol
+Amino acids
+pyruvate/lactate
+Keto
+genesis
+Ketones
+Glucose
+Starvation
+Non-
+CNS
+CNS
+Glyco
+genolysis
+Gluconeo
+genesis
+Liver
+Hepatic glucose production
+Figure 20-13.   Hepatic production of glucose. The liver provides most of 
+the circulating glucose in the fasting state by glycogen breakdown (gly-
+cogenolysis) and de novo synthesis (gluconeogenesis). Substrates for glu-
+coneogenesis are provided by adipose tissue (glycerol from triglyceride 
+breakdown) and muscle (amino acids from protein breakdown). Fatty acids 
+from triglyceride breakdown are used to produce ketones, which can be 
+used by the CNS for energy as an alternate to glucose during starvation.
+
+996
+TARGET ORGAN TOXICITY
+Unit IV
+Pancreatic Hormones
+Insulin  The overall effects of insulin are to stimulate anabolic 
+processes (energy storage). Specifically, insulin functions to lower 
+blood levels of glucose, fatty acids, and amino acids and to promote 
+their conversion to the storage form of each: glycogen, triglycer-
+ides, and protein, respectively. A number of factors affect the rate 
+of secretion of insulin. The most powerful physiological stimulus 
+is increased circulating blood glucose. In addition, an increase in 
+the concentration of amino acids (especially arginine and leucine) 
+and ketone bodies in blood also increase the rate of secretion of 
+insulin. Glucagon and the gastrointestinal peptides gastrin, secre-
+tin, and gastric inhibitory polypeptide also stimulate release of 
+insulin. Conversely, insulin secretion is inhibited by hypoglyce-
+mia, epinephrine, and norepinephrine via α2-adrenergic receptors 
+(inhibition of cAMP production) and somatostatin.
+The variety of physiological responses to insulin include (a) 
+increased cellular glucose uptake (in most tissues), (b) lower blood 
+glucose levels, (c) stimulated glycogen synthesis (liver, muscle), 
+(d) stimulated glycerol production (adipose tissue), (e) increased 
+amino acid uptake (liver, muscle), (f) inhibited lipolysis (adipose 
+tissue), and (g) stimulated protein synthesis (replication, transcrip-
+tion, and translation), a mitogenic response. As regards the patho-
+physiology of insulin, hypersecretion produces hypoglycemia and 
+hyposecretion produces diabetes mellitus.
+Glucagon  Glucagon is the primary hormone with action coun-
+terregulatory to insulin, because it stimulates catabolic processes 
+(energy mobilization) to prevent hypoglycemia. The most powerful 
+physiological stimulus of secretion of glucagon is reduced circulat-
+ing blood glucose. Thus, as blood glucose levels fall (hypoglyce-
+mia), glucagon secretion increases in an attempt to restore normal 
+homeostasis. Conversely, an increase in blood glucose levels inhib-
+its glucagon secretion. In addition to circulating levels of glucose, 
+glucagon secretion is regulated by other factors. The release of 
+glucagon is stimulated by epinephrine and norepinephrine (via 
+β-adrenergic receptors; stimulation of cAMP production), and by 
+the amino acids, arginine, leucine, and alanine (unless accompanied 
+by glucose ingestion). Conversely, glucagon secretion is inhibited 
+by insulin and somatostatin.
+The physiological responses to glucagon occur mostly in the 
+liver with a stimulation of glycogenolysis, gluconeogenesis (conver-
+sion of amino acids and glycerol to glucose), lipolysis, and ketogene-
+sis (over a long time). Additionally, glucagon stimulates the secretion 
+of insulin in pancreatic β cells. Due to the ability of other counter-
+regulatory hormones (epinephrine, growth hormone, and cortisol) 
+to compensate for a deficiency of glucagon, there are no significant 
+pathological conditions associated with abnormal glucagon secretion.
+Somatostatin  Somatostatin was first isolated from the hypo-
+thalamus; its role in regulation of neuroendocrine function is to 
+inhibit secretion of growth hormone in the anterior pituitary. After 
+its identification in hypothalamic tissue, somatostatin was found 
+in other cells of the brain, in various parts of the gastrointestinal 
+tract, and in the δ cells of the pancreas. The generalized function of 
+somatostatin appears to be as a hormone release inhibitor. Its physi-
+ological role within the pancreas is unknown; however, it inhibits 
+secretion of insulin and glucagon (paracrine effect), and inhibits its 
+own secretion (autocrine effect).
+Interactions of Release
+In addition to individual regulation of secretion of insulin and glu-
+cagon, the interactions of their release as relates to overall nutri-
+ent homeostasis of the individual must be considered. Although 
+glucagon and insulin exert opposing effects on carbohydrate 
+metabolism, they act in concert to preserve normoglycemia in 
+the face of any perturbations that might tend to elevate or lower 
+blood glucose. Many substances that influence insulin secretion 
+also affect glucagon secretion but usually in the opposite direction. 
+Fig. 20-14 shows how insulin and glucagon interact to maintain 
+glucose homeostasis (normoglycemia).
+Insulin and glucagon exert opposing effects on various meta-
+bolic processes (Table 20-4). Therefore, many investigators like 
+to think of the insulin-to-glucagon ratio in blood as an important 
+determinant of the overall metabolic status. Thus, when there is a 
+high ratio of insulin to glucagon, the effects of insulin dominate, 
+producing a relatively anabolic state. When the ratio of insulin to 
+glucagon is low, a catabolic state exists.
+Metabolic Responses in Diabetes
+Diabetes mellitus is the result of inadequate insulin action. It is 
+usually manifest in one of two forms. Type 1 (insulin-dependent) 
+results from autoimmune-based destruction of pancreatic β cells. 
+Type 2 involves end-organ insensitivity or resistance to insulin 
+Insulin–glucagon interactions
+Hyperglycemia
+α-cell
+β-cell
+↓ Glucagon
+↑ Insulin
++
+–
+Hypoglycemia
+α-cell
+β-cell
+↑ Glucagon
+Normoglycemia
+↓ Insulin
+–
++
+Figure 20-14.   Interactions between insulin and glucagon secretion as 
+regulated by circulating glucose levels. Hyperglycemia stimulates insulin 
+and inhibits glucagon secretion. Insulin lowers blood glucose to restore nor-
+moglycemia. Hypoglycemia inhibits insulin and stimulates glucagon secre-
+tion. Glucagon mobilizes glucose from the liver to restore normoglycemia. 
+(Modified from Hedge et al. [1987].)
+Table 20-4  
+Physiological Effects of Insulin and Glucagon
+ROLE
+INSULIN
+GLUCAGON
+1. Glucose 
+metabolism
+Incr. glucose uptake
+Incr. blood glucose
+Decr. blood glucose
+Incr. glycogen 
+­synthesis
+Incr. glycogenolysis
+Decr. gluconeogenesis
+Incr. gluconeogenesis
+2. Fat
+Incr. lipogenesis
+Decr. lipolysis
+Incr. lipolysis
+3. Protein
+Incr. protein 
+­synthesis
+–
+Abbreviations: incr., increased; decr., decreased; –, no effect.
+
+Toxic Responses of the Endocrine System 
+Chapter 20
+997
+(non-insulin-dependent). In type 2 diabetes, insulin levels also even-
+tually drop due to extended stress placed on pancreatic β cells. As a 
+result of the insufficient physiological insulin action, reduced glucose 
+removal from plasma causes hyperglycemia and a variety of meta-
+bolic alterations result. The net effect is that of increased counter-
+regulatory hormone dominance. These effects are summarized in 
+Fig. 20-15. The major clinical effects in poorly controlled diabetes 
+usually relate to progressive deterioration of function in a variety of 
+tissues. Diabetes mellitus constitutes a major public health issue with 
+a worldwide prevalence projected to become 366 million individuals 
+by the year 2030 (Lee et al., 2016). Thus, morbidity and mortality 
+resulting from this disease make diabetes among the most costly of 
+chronic diseases (Fischer, 2010). There is a genetic component associ-
+ated with diabetes; however, studies in identical twins have suggested 
+there is also most likely an environmental component to the disease. 
+Diet, viral disease, and exogenous chemical substances are thought 
+to trigger a genetic predisposition to its development (Fischer, 2010).
+Fig. 20-16 summarizes the clinical consequences of diabetes 
+mellitus in which the liver becomes an overproducer of glucose 
+resulting in glucose excretion from the kidneys. This results not 
+only from lack of insulin action, but increased glucagon secretion 
+(which is insulin-dependent in pancreatic α cells).
+Pancreatic Toxicity
+The insulin-secreting β cells are particularly sensitive to chemical 
+attack, compared with the glucagon-secreting α and somatostatin-
+secreting δ cells (Malaisse et al., 1982). Further, the clinical conse-
+quences of insulin deficiency are physiologically more severe than 
+those that would result from glucagon deficiency because the other 
+counterregulatory hormones that oppose insulin action can com-
+pensate for reduced glucagon regulation. For those reasons, there is 
+relatively little information about chemicals that affect α or δ cells; 
+thus, this section will focus mainly on β-cell effects. Two chemi-
+cals that have been widely used to generate animal models of diabe-
+tes are alloxan and streptozotocin (STZ). Both of these selectively 
+destroy pancreatic β cells, thereby causing insulin insufficiency 
+(Pisarev et al., 2009; Adeghate et al., 2010; Fischer, 2010). The 
+structures of these chemicals are very different. Alloxan is a cyclic 
+urea derivative, whereas STZ is an N-methylnitrosourea containing 
+a deoxyglucose moiety. Each of these, however, can produce β-cell 
+destruction following a single intraperitoneal injection.
+The mechanism by which alloxan is thought to have cytotoxic 
+effects involves the generation of reactive species of oxygen, particu-
+larly the hydroxyl free radical (OH•). Isolated intact pancreatic islets 
+synthesize and secrete insulin in response to high glucose (Fischer, 
+2010). A short exposure of isolated pancreatic islets to alloxan 
+eliminates glucose-stimulated insulin secretion. There is support 
+for this mechanism because this effect can be completely inhibited 
+by pretreatment of islets with superoxide dismutase (SOD), cata-
+lase, diethylenetriaminepentaacetic acid, or dimethylurea (Fischer 
+and Hamburger, 1980a, 1980b). Furthermore, pancreatic islets have 
+been shown to be deficient in the important protective factor, gluta-
+thione peroxidase (Malaisse et al., 1982). This probably contributes 
+to the selectivity of alloxan for pancreatic β cells.
+Two separate mechanisms are thought to be involved in the 
+effects of STZ on β cells (Fischer, 2010). A single high dose of 
+STZ causes generalized cytotoxicity and cell death, whereas low, 
+multiple doses cause nonlethal cell damage, which results in an 
+immune-based inflammatory response leading to cell death. High-
+dose exposure to STZ causes alkylation of proteins and toxicity in β 
+cells, where it decomposes to release nitric oxide. Thus, alkylation 
+and nitric oxide–mediated injury could play a role in STZ-induced 
+injury. Additionally, high-dose exposure to STZ causes a decrease 
+in cellular levels of nicotinamide adenine dinucleotide (NAD). Part 
+of the selectivity of STZ for pancreatic β cells is thought to be due 
+to its glucose moiety, which is taken up via the glucose transporter 
+GLUT-2 (Schnedl et al., 1994).
+A common target of alloxan and STZ in pancreatic β cells is 
+DNA (Uchigata et al., 1982). There are data to support that DNA 
+damage occurs, poly(ADP-ribose) synthetase is activated, polyad-
+enylation increases, and NAD declines. Pretreatment of rat pan-
+creatic islets with the poly(adenosine diphosphate ribose) inhibitor 
+nicotinamide prior to incubation with alloxan or STZ protects them 
+against inhibition of proinsulin synthesis. However, in rats given 
+Decreased
+insulin
+Decreased
+glycogen
+synthesis
+Increased
+glucagon
+Increased
+glycogeno-
+lysis
+Glycogen
+depletion-
+glucose in
+blood
+Decreased
+insulin
+Decreased
+lipid
+synthesis
+Increased
+glucagon
+Increased
+lipolysis
+Increased
+FFA glycerol
+ketones in
+blood
+Carbohydrate metabolism
+diabetes mellitus
+Lipid metabolism
+diabetes mellitus
+Decreased
+insulin
+Increased
+protein
+breakdown
+Increased
+glucagon
+Protein loss;
+amino
+acids in
+blood
+Increased
+gluconeo-
+genesis
+Protein metabolism
+diabetes mellitus
+Figure 20-15.   Effects of diabetes mellitus on metabolism. Decreased insu-
+lin (type 1) or insulin action (type 2) inhibits glycogen, lipid, and protein 
+synthesis. Increased glucagon stimulates glycogenolysis, lipolysis, and pro-
+tein breakdown. Glycogenolysis increases circulating glucose. Increased 
+glycerol and amino acids serve as substrates for gluconeogenesis to further 
+increase circulating glucose.
+Diabetes mellitus
+summary
+ Liver = overproducer of glucose
+• Increased glycogenolysis
+• Increased gluconeogenesis
+ 
+* ↑ a.a., glycerol, lactate/pyruvate
+ Glucose spills into urine
+• Polyurea
+• Polydypsia (thirst)
+Figure 20-16.   Physiological responses during diabetes mellitus. Because 
+of increased glycogenolysis and gluconeogenesis stimulated by increased 
+glucagon, the liver becomes an overproducer of glucose. High circulating 
+glucose levels exceed the renal threshold and glucose spills into the urine. 
+This results in polyuria and polydipsia (thirst). a.a., amino acid.
+
+998
+TARGET ORGAN TOXICITY
+Unit IV
+these combined treatments, several months later the animals exhibit 
+islet cell tumors (Yamagami et al., 1985).
+Multiple exposure of animals to low doses of STZ demon-
+strates evidence of an immune system component (Fischer, 2010). 
+There is a progressive series of changes involving infiltrating lym-
+phocytes and macrophages in the islets, which produce inflam-
+matory destruction of β cells 10 to 15 days after the initiation of 
+treatment (Like et al., 1978).
+Daily oral administration of the antihistamine–antiserotonin 
+drug cyproheptadine (CPH) to rats causes progressive ultrastruc-
+tural changes in the endoplasmic reticulum of β cells within 2 to 3 
+days of treatment (Fischer, 2010). This is accompanied by loss of 
+insulin secretory granules. This is followed by swelling and vesicu-
+lation of the ER. The loss of pancreatic insulin appears to be due to 
+a direct effect of CPH on insulin biosynthesis (Miller et al., 1993). 
+However, CPH also inhibits insulin secretion from β cells. This has 
+been attributed to an effect of CPH on calcium influx into β cells.
+CPH can be converted in rats to an epoxide metabolite des-
+methylcyproheptadine-10,11 (DMCPH)-epoxide. This is a major 
+metabolite of CPH found in urine and pancreatic tissue (Fischer, 
+2010). Decreasing the production of this metabolite using inhibitors 
+of drug metabolism reduces pancreatic insulin depletion caused by 
+CPH (Chow et al., 1988). Thus, DMCPH is likely the most toxic 
+form of the chemical.
+Diabetes mellitus was induced in male Wistar rats by STZ 
+injection. Diabetic rats fed a diet supplemented with Coccinia 
+indica fruits or leaves showed renoprotective effects as well as an 
+improvement in glucose tolerance (Gurukar et al., 2013).
+There appear to be big species differences in β-cell toxicity. 
+Human β-cell destruction has been demonstrated with the rodenti-
+cide Vacor (Prosser and Karam, 1978) and during treatment with the 
+drug pentamidine (Bouchard et al., 1982). While humans develop 
+Vacor-induced diabetes, no sensitive animal has been found. 
+Conversely, unlike in rats, STZ, when used as chemotherapy, has 
+not caused diabetes in humans (Fischer, 2010).
+Insulin Resistance
+Insulin resistance and defective function of pancreatic β cells usu-
+ally occur sometime before the development of type 2 diabetes. 
+Glucocorticoid treatment induces insulin resistance and enhances 
+insulin secretion in rodents and humans (Rafacho et al., 2010). In 
+that study, dexamethasone treatment of rats for 5 days resulted in 
+hyperinsulinemia at the end of dosing, whereas 10 days following 
+cessation of dexamethasone treatment hyperinsulinemia and insu-
+lin resistance had resolved. This provides important information as 
+regards the therapeutic use of glucocorticoids in humans.
+In a study investigating nondiabetic residents living near a 
+deserted pentachlorophenol and chloralkali factory in Taiwan, insu-
+lin resistance was associated with increased circulating levels of 
+dioxins and mercury (Chang et al., 2011). Furthermore, increased 
+levels of dioxins and mercury combined were associated with even 
+greater insulin resistance. Thus, simultaneous exposure to dioxins 
+and mercury appears to enhance the risk of insulin resistance.
+Bisphenol A (BPA), an endocrine disruptor, is a chemical 
+compound in the manufacture of polycarbonate plastics that is 
+widespread in the environment. BPA exposure of pregnant mice 
+resulted in increased insulin, leptin, triglyceride, and glycerol levels 
+and greater insulin resistance in the mothers 4 months postpartum 
+(Alonso-Magdalena et al., 2010). Further, male offspring of the 
+exposed mothers, at 6 months of age, demonstrated reduced glucose 
+tolerance and increased insulin resistance. Thus, BPA may represent 
+a risk factor for diabetes in exposed humans.
+In Vitro Testing
+Several cell lines are available for testing of insulin secretion. 
+Pancreatic β-cell-derived RINm5F cells which produce insulin 
+were exposed to a combination of the cytokines, IL-1β, TNF-α, 
+and IFNγ to simulate type 1 diabetes mellitus conditions (Gurgul-
+Convey et al., 2011). This study showed that hydrogen peroxide 
+produced by these cytokines reacted in the presence of trace metal 
+Fe++ with nitric oxide to form highly toxic hydroxyl radicals. The 
+authors concluded that pro-inflammatory cytokine-mediated β-cell 
+death is due to nitro-oxidative stress-mediated hydroxyl radical 
+formation in the mitochondria.
+Etoposide (VP-16) is an antitumor drug used as a chemothera-
+peutic agent to treat pancreatic and several other types of cancer. 
+However, a potential cytotoxic effect of etoposide on pancreatic 
+β cells has also been seen (Lee et al., 2016). A study in RIN5F 
+cells cultured with etoposide demonstrated this cytotoxic effect to 
+be mediated via proapoptotic signaling pathways (Lee et al., 2016). 
+These findings indicate a potential for this treatment to produce 
+unwanted diabetogenic side effects. Interestingly, a plant extract of 
+Coccinia grandis exerted dose-dependent radical scavenging and 
+antiglycation activities in suspended RIN5F cells cultured with eto-
+poside (Meenatchi et al., 2016).
+RINm5F cells were also used to investigate the role of oxida-
+tive stress in inorganic arsenic (iAs) exposure (Lu et al., 2011). A 
+number of proapoptotic mitochondrial and cytosolic markers were 
+investigated and found to be elevated during β-cell toxicity. The 
+iAs-induced apoptosis and its cellular signaling events could be 
+reversed by the antioxidant N-acetylcysteine. Therefore, it was con-
+cluded that iAs-induced oxidative stress causes apoptosis in β cells, 
+by the mitochondria-dependent and ER stress-triggered signaling 
+pathways. Rat-derived INS-1(832/13) cells that secrete insulin in 
+response to glucose were also studied for the effects of exposure 
+to iAs (Fu et al., 2010). Reactive oxygen species derived from glu-
+cose metabolism provide a metabolic signal for glucose-stimulated 
+insulin secretion from pancreatic β cells. Exposure of these cells 
+to low levels of iAs increased an antioxidant-mediated response, 
+and dampened glucose-stimulated insulin secretion. These findings 
+support that low levels of arsenic can induce a cellular adaptive oxi-
+dative stress response, and disrupt β-cell function. The apoptotic as 
+opposed to oxidative stress effects of iAs between these two studies 
+seem to be disparate. However, two different cell lines were used, 
+and the former study incubated the cells with higher levels of iAs 
+(2 and 5 μM), compared with the latter (0.05 to 0.5 μM). It is pos-
+sible that oxidative stress induced at the higher levels of iAs expo-
+sure (causing cell death) is sufficient to overwhelm that which, at 
+lower levels, plays a regulatory role in insulin secretion (inhibition). 
+This observation suggests that the nature of the cellular response 
+depends on the level of exposure.
+ACKNOWLEDGMENTS
+The editor and authors recognize the contributions of previous 
+author of this chapter: Charles C. Capen (5th to 7th editions).
+REFERENCES
+Abdelhafez AM, Eltony SA, Abdelhameed SY, Elgayar SA. Effect of 
+maternal nicotine/thiocyanate exposure during gestational period upon 
+pituitary, thyroid and parathyroid function/morphology of 1-month-old 
+rat offspring. J Endocrinol Invest. 2014;37(5):455–465.
+Abdel-Maksoud FM, Leasor KR, Butzen K, Braden TD, Akingbemi 
+BT. Prenatal exposures of male rats to the environmental chemicals
+
+Toxic Responses of the Endocrine System 
+Chapter 20
+999
+bisphenol A and di(2-ethylhexyl) phthalate impact the sexual differentiation 
+process. Endocrinology. 2015;156(12):4672–4683.
+Abdo KM, Eustis SL, Haseman J, et al. Toxicity and carcinogenicity of 
+rotenone given in the feed to F344/N rats and B6C3F1 mice for up to two 
+years. Drug Chem Toxicol. 1988;11(3):225–235.
+Abt E, Spungen J, Pouillot R, Gamalo-Siebers M, Wirtz M. Update on dietary 
+intake of perchlorate and iodine from U.S. food and drug administration’s 
+total diet study: 2008–2012. J Expo Sci Environ Epidemiol. 2018;28:21–30.
+Adedara IA, Abolaji AO, Awogbindin IO, Farombi EO. Suppression of 
+the brain–pituitary–testicular axis function following acute arsenic and 
+manganese co-exposure and withdrawal in rats. J Trace Elem Med Biol. 
+2017;39:21–29.
+Adeghate E, Hameed RS, Ponery AS, et al. Streptozotocin causes pancre-
+atic beta cell failure via early and sustained biochemical and cellular 
+alterations. Exp Clin Endocrinol Diabetes. 2010;118:699–707.
+Alonso-Magdalena P, Vieira E, Soriano S, et al. Bisphenol A exposure dur-
+ing pregnancy disrupts glucose homeostasis in mothers and adult male 
+offspring. Environ Health Perspect. 2010;118:1243–1250.
+Aluru N, Leatherland JF, Vijayan MM. Bisphenol A in oocytes leads to 
+growth suppression and altered stress performance in juvenile rainbow 
+trout. PLoS One. 2010;5(5):e10741.
+Alvarez YD, Ibanez LI, Uchitel OD, Marengo FD. P/Q Ca2+ channels are 
+functionally coupled to exocytosis of the immediately releasable pool in 
+mouse chromaffin cells. Cell Calcium. 2008;43:154–164.
+Andrews JE, Courtney KD, Stead AG, Donaldson WE. Hexachlorobenzene-
+induced hyperparathyroidism and osteosclerosis in rats. Fundam Appl 
+Toxicol. 1989;12(2):242–251.
+Arnold DL, Moodie CA, Collins BT, Zawidzka ZZ, Krewski DR. Two-
+generation chronic toxicity study with hexachlorobenzene in the rat. 
+IARC Sci Publ. 1986;77:405–410.
+Barai SR, Suryawanshi SA, Pandey AK. Responses of parathyroid gland, C 
+cells, and plasma calcium and inorganic phosphate levels in rat to sub-
+lethal heroin administration. J Environ Biol. 2009; 30:917–922.
+Barter RA, Klaassen CD. Reduction of thyroid hormone levels and alteration 
+of thyroid function by four representative UDP-glucuronosytransferase 
+inducers in rats. Toxicol Appl Pharmacol. 1994;128:9–17.
+Blanco-Muñoz J, Lacasana M, Lopez-Flores I, et al. Association between 
+organochlorine pesticide exposure and thyroid hormones in floriculture 
+workers. Environ Res. 2016;150:357–363.
+Boas M, Main KM, Feldt-Rasmussen U. Environmental chemicals and 
+thyroid function: an update. Curr Opin Endocrinol Diabetes Obes. 
+2009;16:385–391.
+Boron WF, Boulpaep EL, eds. Medical Physiology. Philadelphia, PA: 
+Elsevier; 2005.
+Bouchard P, Sai P, Reach G, et al. Diabetes mellitus following pentamidine-
+induced hypoglycemia in humans. Diabetes. 1982;31:40–45.
+Brannick KE, Craig ZR, Himes AD, et al. Prenatal exposure to low doses of 
+bisphenol A increases pituitary proliferation and gonadotroph number in 
+female mice offspring at birth. Biol Reprod. 2012;87(4):82.
+Bronnikov VI, Goldyreva TP, Tereshchenko IV. Influence of anthropo-
+genic pollution on thyroid structure in Perm population. Arkh Patol. 
+2005;67(6):18–21.
+Brouwer A, Morse DC, Lans MC, et al. Interactions of persistent environ-
+mental organohalogens with the thyroid hormone system: mechanisms 
+and possible consequences for animal and human health. Toxicol Ind 
+Health. 1998;14(1–2):59–84.
+Bucher JR, Huff J, Haseman JK, et al. Toxicology and carcinogenicity stud-
+ies of diuretics in F344 rats and B6C3F1 mice. 1. Hydrochlorothiazide. 
+J Appl Toxicol. 1990;10(5):359–367.
+Butt CM, Stapleton HM. Inhibition of thyroid hormone sulfotransferase 
+activity by brominated flame retardants and halogenated phenolics. Chem 
+Res Toxicol. 2013;26(11):1692–1702.
+Callaci JJ, Himes R, Lauing K, Wezeman FH, Brownson K. Binge alco-
+hol-induced bone damage is accompanied by differential expression of 
+bone remodeling-related genes in rat vertebral bone. Calcif Tissue Int. 
+2009;84(6):474–484.
+Campos E, Freire C. Exposure to non-persistent pesticides and thyroid 
+function: a systematic review of epidemiological evidence. Int J Hygiene 
+Environ Health. 2016;219(6):481–497.
+Cannata JB, Briggs JD, Junor BJ, Fell GS, Beastall G. Effect of acute alumi-
+num overload on calcium and parathyroid-hormone metabolism. Lancet. 
+1983;1(8323):501–503.
+Capen CC. Toxic responses of the endocrine system. In: Klaassen CD, ed. 
+Casarett & Doull’s Toxicology: The Basic Science of Poisons. New York: 
+McGraw-Hill; 2001:711–759.
+Capen CC, Rosol TJ. Recent advances in the structure and function of 
+the parathyroid gland in animals and the effects of xenobiotics. Toxicol 
+Pathol. 1989;17(2):333–345.
+Caride A, Fernandez-Perez B, Cabaleiro T, et al. Cadmium chronotoxicity 
+at pituitary level: effects on plasma ACTH, GH and TSH daily pattern. 
+J Physiol Biochem. 2010a;66:213–220.
+Caride A, Lafuente A, Cabaleiro T. Endosulfan effects on pituitary hormone 
+and both nitrosative and oxidative stress in pubertal male rats. Toxicol 
+Lett. 2010b;197:106–112.
+Chailurkit LO, Aekplakorn W, Ongphiphadhanakul B. The association of 
+serum bisphenol A with thyroid autoimmunity. Int J Environ Res Public 
+Health. 2016;13(11):pii: E1153.
+Chang JW, Chen HL, Su HJ, Liao PC, Guo HR, Lee CC. Simultaneous 
+exposure of non-diabetics to high levels of dioxins and mercury increases 
+their risk of insulin resistance. J Hazard Mater. 2011;185:749–755.
+Chhabra RS, Huff JE, Haseman JK, Elwell MR, Peters AC. Carcinogenicity 
+of p-chloroanaline in rats and mice. Food Chem Toxicol. 1991;29:119–124.
+Chiappini F, Pontillo C, Randi AS, Alvarez L, Kleiman de Pisarev DL. 
+Reactive oxygen species and extracellular signal-regulated kinase 1/2 
+mediate hexachlorobenzene-induced cell death in FRTL-5 rat thyroid 
+cells. Toxicol Sci. 2013;134(2):276–290.
+Chow SA, Rickert DE, Fischer LJ. Evidence that drug metabolites 
+are involved in cyproheptadine-induced loss of pancreatic insulin. 
+J Pharmcol Exp Ther. 1988;246:143–149.
+Colby HD, Abbott B, Cachovic, Debolt KM, Mico BA. Inactivation of adre-
+nal cytochromes P450 by 1-aminobenzotriazole. Divergence of in vivo 
+and in vitro actions. Biochem Pharmacol. 1995;18:1057–1062.
+Colby HD, Purcell H, Kominami, Takemori S, Kossor DC. Adrenal acti-
+vation of carbon tetrachloride: role of microsomal P450 isozymes. 
+Toxicology. 1994;94:31–40.
+Coperchini F, Pignatti P, Lacerenza S, et al. Exposure to perfluorinated 
+compounds: in vitro study on thyroid cells. Environ Sci Pollut Res Int. 
+2015;22(3):2287–2294.
+Crawford NM, Fenton SE, Strynar M, et al. Effects of perfluorinated chemi-
+cals on thyroid function, markers of ovarian reserve, and natural fertility. 
+Reprod Toxicol. 2017; 69:53–59.
+Crofton KM. Thyroid disrupting chemicals: mechanisms and mixtures. Int 
+J Androl. 2008;31:209–223.
+Darnerud PO, Erikson GS, Johannesson T, Larsen PB, Viluksela M. 
+Polybrominated diphenyl ethers: occurrence, dietary exposure, and toxi-
+cology. Environ Health Perspect. 2001;109(suppl 1):49–68.
+Delclos KB, Newbold R. NTP toxicity report of reproduction dose range-
+finding study of genistein (CAS No. 466-72-0) administered in feed to 
+Sprague–Dawley rats. Toxic Rep Ser. 2007;79:C1–C2.
+DePass LR, Garman RH, Woodside MD, et al. Chronic toxicity and oncoge-
+nicity studies of ethylene glycol in rats and mice. Fundam Appl Toxicol. 
+1986;7(4):547–565.
+Dickerson SM, Gore AC. Estrogenic environmental endocrine-disrupting 
+chemical effects on reproductive neuroendocrine function and dysfunc-
+tion across the life cycle. Rev Endocr Metab Disord. 2007;8:143–159.
+Doerge DR, Chang HC. Inactivation of thyroid peroxidase by soy isofla-
+vones, in vitro and in vivo. J Chromatogr B. 2002;777:269–279.
+Dong X, Dong J, Zhao Y, et al. Effects of long-term in vivo exposure to di-
+2-ethylhexylphthalate on thyroid hormones and the TSH/TSHR signaling 
+pathways in Wistar rats. Int J Environ Res Public Health. 2017;14(1):pii: 
+E44.
+Dongre NN, Suryakar AN, Patil AJ, Hundekari IA, Devarnavadagi BB. 
+Biochemical effects of lead exposure on battery manufacture workers 
+with reference to blood pressure, calcium metabolism and bone mineral 
+density. Indian J Clin Biochem. 2013; 28(1):65–70.
+Eckstrum KS, Weis KE, Baur NG, Yoshihara Y, Raetzman LT. Icam5 expres-
+sion exhibits sex differences in the neonatal pituitary and is regulated by 
+estradiol and bisphenol A. Endocrinology. 2016; 157(4):1408–1420.
+
+1000
+TARGET ORGAN TOXICITY
+Unit IV
+Evans SF, Kobrosly RW, Barrett ES, et al. Prenatal bisphenol A exposure 
+and maternally reported behavior in boys and girls. Neurotoxicology. 
+2014;45:91–99.
+Fakhouri WD, Nunez JL, Trail F. Atrazine binds to the growth hormone-
+releasing hormone receptor and affects growth hormone gene expression. 
+Environ Health Perspect. 2010;118:1400–1405.
+Fiandanese N, Borromeo V, Berrini A, et al. Maternal exposure to a mix-
+ture of di(2-ethylhexyl) phthalate (DEHP) and polychlorinated biphenyls 
+(PCBs) causes reproductive dysfunction in adult male mouse offspring. 
+Reprod Toxicol. 2016;65:123–132.
+Fischer LJ. Toxicity to the insulin secreting β-cell. In: McQueen CA, ed. 
+Comprehensive Toxicology, Richburg J, Hoyer PB, eds. Reproductive 
+and Endocrine Toxicology. 2nd ed. Vol 11. Oxford, UK: Elsevier; 
+2010:313–337.
+Fischer LJ, Hamburger SA. Inhibition of alloxan action in isolated pan-
+creatic islets by superoxide dismutase, catalase, and metal chelator. 
+Diabetes. 1980a;29:213–216.
+Fischer LJ, Hamburger SA. Dimethyl urea: a radical scavenger that pro-
+tects isolated pancreatic islets from the effects of alloxan and dihydroxy-­
+fumarate exposure. Life Sci. 1980b;26:1405–1409.
+Fu J, Woods CG, Yehuda-Shinaidman E, et al. Low-level arsenic impairs 
+glucose-stimulated insulin secretion in pancreatic beta cells: involvement 
+of cellular adaptive response to oxidative stress. Environ Health Perspect. 
+2010;118:864–870.
+Furin CG, von Hippel FA, Postlethwait JH, et al. Developmental timing 
+of sodium perchlorate exposure alters angiogenesis, thyroid follicle pro-
+liferation and sexual maturation in stickleback. Gen Comp Endocrinol. 
+2015;219:24–35.
+Gámez JM, Penalba R, Cardoso N, et al. Exposure to a low dose of bisphe-
+nol A impairs pituitary-ovarian axis in prepubertal rats: effects on early 
+folliculogenesis. Environ Toxicol Pharmacol. 2015; 39(1):9–15.
+Garcia-Flores J, Cruceyra M, Canamares M, et al. Sonographic evaluation 
+of fetal adrenal gland in gestational diabetes. J Ultrasound Med. 2017; 
+36(5):999–1007.
+Gardell AM, von Hippel FA, Adams EM, et al. Exogenous iodide amelio-
+rates perchlorate-induced thyroid phenotypes in threespine stickleback. 
+Gen Comp Endocrinol. 2016;243:60–69.
+Gasman S, Chasserot-Golaz S, Vitale N, Bader MF. Bacterial toxins: useful 
+for studying G-proteins implicated in the mechanism of exocytosis in 
+neuroendocrine cells. Soc Biol. 1999;193:451–456.
+Gentilcore D, Porreca I, Rizzo F, et al. Bisphenol A interferes with thyroid 
+specific gene expression. Toxicology. 2013; 304:21–31.
+Gimm O. Pheochromocytoma-associated syndromes: genes proteins and 
+functions of RET, VHL and SDHx. Fam Cancer. 2005;4:17–23.
+Gore AC. Neuroendocrine targets of endocrine disruptors. Hormones. 
+2011;9(1):16–27.
+Gore AC, Chappell VA, Fenton SE, et al. EDC-2: The Endocrine Society’s 
+Second Scientific Statement on Endocrine-Disrupting Chemicals. Endocr 
+Rev. 2015;36(6):E1–E150.
+Greim H, Hartwig A, Reuter U, Richter-Reichhelm HB, Thielmann HW. 
+Chemically induced pheochromocytomas in rats: mechanisms and rel-
+evance for human risk assessment. Crit Rev Toxicol. 2009;39:695–718.
+Gurgul-Convey E, Mehmeti I, Lortz S, Lenzen S. Cytokine toxicity in insu-
+lin-producing cells is mediated by nitro-oxidative stress-induced hydroxyl 
+radical formation in mitochondria. J Mol Med. 2011;89:785–798.
+Gurukar MS, Mahadevamma S, Chilkunda ND. Renoprotective effect of 
+Coccinia indica fruits and leaves in experimentally induced diabetic rats. 
+J Med Food. 2013;16:839–846.
+Hadley ME, Levine JE, eds. Endocrinology. 6th ed. Upper Saddle River, 
+NJ; Prentice Hall; 2007.
+Harvey PW. Toxic responses of the adrenal cortex. In: McQueen CA, ed. 
+Comprehensive Toxicology, Richburg J, Hoyer PB, eds. Reproductive 
+and Endocrine Toxicology. 2nd ed. Vol 11. Oxford, UK: Elsevier; 
+2010:265–289.
+Harvey PW. Adrenocortical endocrine disruption. J Steroid Biochem Mol 
+Biol. 2016;155:199–206.
+Harvey PW, Everett DJ, Springall CJ. Adrenal toxicology: a strategy for 
+assessment of functional toxicity to the adrenal cortex and steroidogen-
+esis. J Appl Toxicol. 2007;27:103–115.
+Hawthorn J, Nussey SS, Henderson JR, Jenkins JS. Immunohistochemical 
+localization of oxytocin and vasopressin in the adrenal glands of rat, cow, 
+hamster and guinea pig. Cell Tissue Res. 1987;250:1–6.
+Hedge GA, Colby HD, Goodman RL, eds. Clinical Endocrine Physiology. 
+Philadelphia, PA: W.B. Saunders; 1987.
+Hinson JP, Raven PW. Effects of endocrine-disrupting chemicals on adrenal 
+function. Best Pract Res Clin Endocrinol Metab. 2006;20:111–120.
+Holgert H, Dagerlind A, Hokfelt T, Lagercrantz H. Neural markers, peptides 
+and enzymes in nerves and chromaffin cells in the rat adrenal medulla 
+during postnatal development. Brain Res Dev Brain Res. 1994;83:35–52.
+Hood A, Allen ML, Liu Y, Liu J, Klaassen CD. Induction of T4 UDP-GT 
+activity, serum thyroid stimulating hormone, and thyroid follicular cell 
+proliferation in mice treated with microsomal enzyme inducers. Toxicol 
+Appl Pharmacol. 2003;188:6–13.
+Howland RD, Alli P. Altered phosphorylation of rat neuronal cytoskeletal 
+proteins in acrylamide induced neuropathy. Brain Res. 1986;363:333–339.
+Hu X, Teng X, Zheng H, Shan Z, et al. Iron deficiency without ane-
+mia causes maternal hypothyroxinemia in pregnant rats. Nutr Res. 
+2014;34(7):604–612.
+Jeffery EH, Abreo K, Burgess E, Cannata J, Greger JL. Systemic alumi-
+num toxicity: effects on bone, hematopoietic tissue and kidney. J Toxicol 
+Environ Health. 1996;48(6):649–665.
+Jekat FW, Meisel ML, Eckard R, Winterhoff H. Effects of pentachlorophe-
+nol (PCP) on the pituitary and thyroidal hormone regulation in the rat. 
+Toxicol Lett. 1994;71(1):9–25.
+Johansson MK, Sanderson JT, Lund BO. Effects of 3-MeSO2–DDE 
+and some CYP inhibitors on glucocorticoid steroidogenesis in the 
+H295R human adrenocortical carcinoma cell line. Toxicol In Vitro. 
+2002;16:131–121.
+Jugan ML, Levi Y, Blondeau JP. Endocrine disruptors and thyroid hormone 
+physiology. Biochem Pharmacol. 2010;79:939–947.
+Keiver K, Weinberg J. Effect of duration of alcohol consumption on calcium 
+and bone metabolism during pregnancy in the rat. Alcohol Clin Exp Res. 
+2003;27(9):1507–1519.
+Kido T, Honda R, Tsuritani I, et al. Assessment of cadmium-induced 
+osteopenia by measurement of serum bone Gla protein, parathy-
+roid hormone, and 1-alpha, 25-dihydroxyvitamin D. J Appl Toxicol. 
+1991;11(3):161–166.
+Kinoshita H, Jessop DS, Finn DP, et al. Acetaldehyde, a metabolite of etha-
+nol, activates the hypothalamic–pituitary–adrenal axis in the rat. Alcohol 
+Alcohol. 2001;36(1):59–64.
+Kitamura S, Jinno N, Ohta S, Kuroki H, Fujimoto N. Thyroid hormonal 
+activity of the flame retardants tetrabromobisphenol A and tetrachlorobi-
+sphenol A. Biochem Biophys Res Commun. 2002;293(1):554–559.
+Kortenkamp A. Low dose mixture effects of endocrine disrupters: 
+implications for risk assessment and epidemiology. Int J Androl. 
+2008;31:233–240.
+Kritis AA, Stamoula EG, Paniskaki KA, Vavilis TD. Researching 
+­glutamate-induced cytotoxicity in different cell lines: a comparative/­
+collective analysis/study. Front Cell Neurosci. 2015;9:91.
+Kuramoto H, Kondo H, Fujita T. Substance P-like immunoreactivity in adre-
+nal chromaffin cells and intra-adrenal nerve fibers in rats. Histochemistry. 
+1985;82:507–512.
+Lafuente A, Esquifino AI. Cadmium effects on hypothalamic activity and 
+pituitary hormone secretion in the male. Toxicol Lett. 1999;110:209–218.
+Lafuente A, Marquez N, Pousada Y, Pazo D, Esquifino AI. Possible estro-
+genic and/or antiandrogenic effects of methoxychlor on prolactin release 
+in male rats. Arch Toxicol. 2000;74(4–5):270–275.
+Langer P. The impacts of organochlorines and other persistent pol-
+lutants on thyroid and metabolic health. Front Neuroendocrinol. 
+2010;31(4):497–518.
+Lee KI, Su CC, Yang CY, et al. Etoposide induces pancreatic β-cells cyto-
+toxicity via the JNK/ERK/GSK-3 signaling-mediated mitochondria-
+dependent apoptosis pathway. Toxicol In Vitro. 2016;36:142–152.
+Lelli SM, Caballos NR, Mazzetti MB, Aldonatti CA, San Martin de 
+Viale LC. Hexachlorobenzene as hormonal disruptor—studies about 
+glucocorticoids: their hepatic receptors, adrenal synthesis and plasma 
+levels on relation to impaired gluconeogenesis. Biochem Pharmacol. 
+2007;73:873–879.
+
+Toxic Responses of the Endocrine System 
+Chapter 20
+1001
+Lijinsky W, Reuber MD. Pathologic effects of chronic administration of 
+hydrochlorothiazide, with and without sodium nitrite, to F344 rats. 
+Toxicol Ind Health. 1987;3(3):413–422.
+Like AA, Appel MC, Williams RM, Rossini AA. Streptozotocin-induced 
+pancreatic insulitis in mice. Morphologic and physiologic studies. Lab 
+Invest. 1978;38:470–486.
+Liu C, Zhao L, Wei L, Li L. DEHP reduces thyroid hormones via inter-
+acting with hormone synthesis-related proteins, deiodinases, transthyre-
+tin, receptors, and hepatic enzymes in rats. Environ Sci Pollut Res Int. 
+2015;22(16):12711–12719.
+Long GJ, Rounds JG, Rosen JF. Lead intoxication alters basal and parathy-
+roid hormone-regulated cellular calcium homeostasis in rat osteosarcoma 
+(ROS 17/2.8) cells. Calcif Tissue Int. 1992;50(5):451–458.
+Los LE, Colby HD. Binding of spironolactone metabolites in vivo to 
+renal mineralocorticoid receptors in guinea pigs. Pharmacology. 
+1994;48:86–92.
+Loutchanwoot P, Srivilai P, Jarry H. Effects of the natural endocrine dis-
+ruptor equol on the pituitary function in adult male rats. Toxicology. 
+2013;304:69–75.
+Lu TH, Su CC, Chen YW, et al. Arsenic induces pancreatic β-cell apop-
+tosis via the oxidative stress-regulated mitochondria-dependent and 
+endoplasmic reticulum stress-triggered signaling pathways. Toxicol Lett. 
+2011;201:15–26.
+Lynch BS, Tischler AS, Capen C, et al. Low digestible carbohydrates (poly-
+ols and lactose): significance of adrenal medullary proliferative lesions in 
+the rat. Regul Toxicol Pharmacol. 1996;23:256–297.
+Mahaboob B, Radha MJ. Gestational di-n-butyl phthalate exposure induced 
+developmental and teratogenic anomalies in rats: a multigenerational 
+assessment. Environ Sci Pollut Res Int. 2017;24:4537–4551.
+Malaisse WJ, Malaisse-Lagae F, Sener A. Determinants of the selective 
+toxicity of alloxan to the pancreatic B cell. Proc Natl Acad Sci U S A. 
+1982;79:927–930.
+Mao QQ, Xian YF, Ip SP, Tsai SH, Che CT. Protective effects of peony gly-
+cosides against corticosterone-induced cell death in PC12 cells through 
+antioxidant action. J Ethnopharmacol. 2011;133:1121–1125.
+Matsis PP, Fisher RA, Tasman-Jones C. Acute lithium toxicity—
+chorea, hypercalcemia, and hyperamylasemia. Aust N Z J Med. 
+1989;19(6):718–720.
+McClain RM, Levin AA, Posch R, Downing JC. The effect of phenobar-
+bital on the metabolism and excretion of thyroxine in rats. Toxicol Appl 
+Pharm. 1989;99:216–228.
+McDiarmid MA, Engelhardt SM, Dorsey CD, et al. Longitudinal health 
+surveillance in a cohort of Gulf War veterans 18 years after first expo-
+sure to depleted uranium. J Toxicol Environ Health A. 2011;74(10): 
+678–691.
+McKnight RF, Adida M, Budge K, et al. Lithium toxicity profile: a system-
+atic review and meta-analysis. Lancet. 2012;379(9817):721–728.
+Meenatchi P, Purushothaman A, Maneemegalai S. Antioxidant antiglyca-
+tion and insulinotrophic properties of coccinia grandis (L.) in vitro: pos-
+sible role in prevention of diabetic complications. J Tradi Complement 
+Med. 2016;7:54–64.
+Mervish NA, Pajak A, Teitelbaum SL, et al. Thyroid antagonists (perchlo-
+rate, thiocyanate, and nitrate) and childhood growth in a longitudinal 
+study of U.S. girls. Environ Health Perspect. 2016;124(4):542–549.
+Miller CP, Reape TJ, Fischer LJ. Inhibition of insulin production by 
+cyproheptadine in RINm5F rat insulinoma cells. J Biochem Toxicol. 
+1993;8:127–134.
+Moran TB, Brannick KE, Raetzman LT. Aryl-hydrocarbon receptor activ-
+ity modulates prolactin expression in the pituitary. Toxicol Appl Pharm. 
+2012;265(1):139–145.
+Mugford CA, Carfagna MA, Kedderis GL. Furan-mediated uncoupling of 
+hepatic oxidative phosphorylation in Fischer-344 rats—an early event in 
+cell death. Toxicol Appl Pharmacol. 1997;144:1–11.
+National Toxicology Program. NTP carcinogenesis bioassay of propyl gal-
+late. CAS No 121-79-9 in F344/N rats and B6C3F1 mice (feed study). 
+Technical Report Series No. 240. 1982.
+National Toxicology Program. NTP toxicology and carcinogenesis stud-
+ies of coumarin (CAS No. 91-64-5) in F344/N rats and B6C3F1 mice 
+(gavage studies). Natl Toxicol Program Tech Rep Ser. 1993;422:1–340.
+National Toxicology Program. NTP toxicology and carcinogenesis stud-
+ies of o-benzyl-p-chlorophenol (CAS No. 120-32-1) in F344/N rats and 
+B6C3F1 mice (gavage studies). Natl Toxicol Program Tech Rep Ser. 
+1994;424:1–304.
+Ozaki K, Haseman JK, Hailey JR, Maronpot RR, Nyska A. Association of 
+adrenal pheochromocytoma and lung pathology in inhalation studies with 
+particulate compounds in the male F344 rat: the National Toxicology 
+Program experience. Toxicol Pathol. 2002;30:263–270.
+Patrick L. Thyroid disruption: mechanisms and clinical implication in 
+human health. Altern Med Rev. 2009;14:326–346.
+Piccoli C, Cremonese C, Koifman RJ, Koifman S, Freire C. Pesticide 
+exposure and thyroid function in an agricultural population in Brazil. 
+Environ Res. 2016;151:389–398.
+Pisarev VB, Snigur GL, Spasov AA, Samokhina MP, Bulanov AE. 
+Mechanisms of toxic effect of streptozotocin on β-cells in the islets of 
+Langerhans. Bull Exp Biol Med. 2009;148:937–939.
+Porterfield SP. Thyroidal dysfunction and environmental chemicals-
+potential impact on brain development. Environ Health Perspect. 
+2000;108(suppl 3):433–438.
+Porterfield SP. Endocrine Physiology. 2nd ed. St. Louis, MO: Mosby; 2001.
+Potts JT. Parathyroid hormone: past and present. J Endocrinol. 
+2005;187:311–325.
+Pounds JG. Effect of lead intoxication on calcium homeostasis and cal-
+cium-mediated cell function: a review. Neurotoxicology. 1984;5(3): 
+295–331.
+Prosser PR, Karam JH. Diabetes mellitus following rodenticide ingestion in 
+man. J Am Med Assoc. 1978;239:1148–1150.
+Rafacho A, Quallio S, Ribeiro DL, et al. The adaptive compensations in 
+endocrine pancreas from glucocorticoid-treated rats are reversible after 
+the interruption of treatment. Acta Physiol. 2010;200:223–235.
+Rama EM, Bortolan S, Vieira ML, Gerardin DCC, Moreira EG. 
+Reproductive and possible hormonal effects of carbendazim. Regul 
+Toxicol Pharm. 2014;69(3):476–486.
+Reuber MD. Carcinogenicity of dimethoate. Environ Res. 1984;34(2): 
+193–211.
+Reuber MD. Carcinogenicity and toxicity of malathion and malaoxon. 
+Environ Res. 1985;37(1):119–153.
+Ribelin WE. The effects of drugs and chemicals upon the structure of the 
+adrenal gland. Fund Appl Toxicol. 1984;4:105–119.
+Rignell-Hydbom A, Skerfving A, Lundh T, et al. Exposure to cadmium and 
+persistent organochlorine pollutants and its association with bone min-
+eral density and markers of bone metabolism on postmenopausal women. 
+Environ Res. 2009;109(8):991–996.
+Roe FJC, Bar A. Enzootic and epizootic adrenal medullary proliferative dis-
+ease of rats: influence of dietary factors which affect calcium absorption. 
+Hum Toxicol. 1985;4:27–52.
+Ronchetti SA, Novack GV, Bianchi MS, et al. In vivo xenoestrogenic 
+actions of cadmium and arsenic in anterior pituitary and uterus. Reprod. 
+2016;152(1):1–10.
+Rossi EM, Marques VB, Nunes Dde O, et al. Acute iron overload leads 
+to hypothalamic–pituitary–gonadal axis abnormalities in female rats. 
+Toxicol Lett. 2016;240(1):196–213.
+Schlosser PM. Revision of the affinity constant for perchlorate binding to 
+the sodium-iodide symporter based on in vitro and human in vivo data. 
+J Appl Toxicol. 2016;36(12):1531–1535.
+Schnedl WJ, Ferber S, Johnson JH, Newgard CB. STZ transport and cyto-
+toxicity. Specific enhancement in GLUT-2 expressing cells. Diabetes. 
+1994;43:1326–1333.
+Schultzberg M, Lundberg JM, Hokfelt T, et al. Enkephalin-like immu-
+noreactivity in gland cells and nerve terminals of the adrenal medulla. 
+Neuroscience. 1978;3:1169–1186.
+Sheng ZG, Tang Y, Liu YX, et al. Low concentrations of bisphenol a sup-
+press thyroid hormone receptor transcription through a nongenomic 
+mechanism. Toxicol Appl Pharmacol. 2012;259(1):133–142.
+Sikka SC, Wang R. Endocrine disruptors and estrogenic effects on male 
+reproductive axis. Asian J Androl. 2008;10(1):134–145.
+Soechitram SD, Berghuis SA, Visser TJ, Sayer PJ. Polychlorinated biphe-
+nyl exposure and deiodinase activity in young infants. Sci Total Environ. 
+2017;574:1117–1124.
+
+1002
+TARGET ORGAN TOXICITY
+Unit IV
+Šošic´-Jurjevic´ B, Filipovic B, Wirth EK, et al. Soy isoflavones interfere 
+with thyroid hormone homeostasis in orchidectomized middle-aged rats. 
+Toxicol Appl Pharmacol. 2014;278(2):124–134.
+Sriphrapradang C, Chailurkit LO, Aekplakorn W, Ongphiphadhanakul B. 
+Association between bisphenol A and abnormal free thyroxine level in 
+men. Endocrine. 2013;44(2):441–447.
+Steinmaus C, Miller MD, Cushing L, Blount BC, Smith AH. Combined 
+effects of perchlorate, thiocyanate, and iodine on thyroid function in the 
+National Health and Nutrition Examination Survey 2007–08. Environ 
+Res. 2013;123:17–24.
+Suarez CR, Black LE III, Hurley RM. Elevated lead levels in a patient with 
+sickle cell disease and inappropriate secretion of antidiuretic hormone. 
+Pediatr Emerg Care. 1992;8(2):88–90.
+Szabo A, Merke J, Hugel U, et al. Hyperparathyroidism and abnormal 
+1,25(OH)2 vitamin D3 metabolism in experimental lead intoxication. Eur 
+J Clin Invest. 1991;21(5):512–520.
+Szabo S, Lippe IT. Adrenal gland: chemically induced structural and func-
+tional changes in the cortex. Toxicol Pathol. 1989;17:317–329.
+Takeda T, Taura J, Hattori Y, Ishii Y, Yamada H. Dioxin-induced retarda-
+tion of development through a reduction in the expression of pituitary 
+hormones and possible involvement of an aryl hydrocarbon receptor in 
+this defect: a comparative study using two strains of mice with different 
+sensitivities to dioxin. Toxicol Appl Pharmacol. 2014;278(3):220–229.
+Tang JM, Li W, Xie YC, et al. Morphological and functional deterioration 
+of the rat thyroid following chronic exposure to low-dose PCB118. Exp 
+Toxicol Pathol. 2013;65(7–8):989–994.
+Tapella L, Sesta A, Cassarino MF, et al. Benzene and 2-ethyl-phthalate induce 
+proliferation in normal rat pituitary cells. Pituitary. 2017;20(3):311–318.
+Taylor SC, Shaw SM, Peers C. Mitochondrial inhibitors evoke catechol-
+amine release from pheochromocytoma cells. Biochem Biophys Res 
+Commun. 2000;273:17–21.
+Tian H, Yang FF, Liu CY, et al. Effects of phenolic constituents of day-
+lily flowers on corticosterone- and glutamate-treated PC12 cells. BMC 
+Compl Alt Med. 2017;17:69.
+Tischler AS, Nyska A, Elmore SA. Toxic responses of the adrenal medulla. 
+In: McQueen CA, ed. Comprehensive Toxicology, Richurg J, Hoyer PB, 
+eds. Reproductive and Endocrine Toxicology. 2nd ed. Vol 11. Oxford, 
+UK: Elsevier; 2010:291–311.
+Tischler AS, Riseberg J. Different responses to mitogenic agents by adult 
+rat and human chromaffin cells in vitro. Endocr Pathol. 1993;4:15–19.
+Tischler AS, Riseberg JC, Gray R. Mitogenic and antimitogenic effects of 
+pituitary adenylate cyclase-activating polypeptide (PACAP) in adult rat 
+chromaffin cell cultures. Neurosci Lett. 1995;189:135–138.
+Tissandie E, Gueguen Y, Lobaccaro JM, et al. Effects of depleted uranium 
+after short-term exposure on vitamin D metabolism in rat. Arch Toxicol. 
+2006;80(8):473–480.
+Tohei A, Suda S, Taya K, Hashimoto T, Kogo H. Bisphenol A inhibits testic-
+ular functions and increases luteinizing hormone secretion in adult male 
+rats. Exp Biol Med (Maywood). 2001;226(3):216–221.
+Uchigata Y, Yamamoto H, Kawamura A, Okamato H. Protection by super-
+oxide dismutase, catalase, and poly(ADP-ribose) synthetase inhibitors 
+against alloxan- and streptozotocin-induced islet DNA strand breaks and 
+against the inhibition of proinsulin synthesis. J Biol Chem. 1982;257: 
+6084–6088.
+Varndell IM, Polak JM, Allen JM, Terenghi G, Bloom SR. Neuropeptide 
+tyrosine 
+(NPY) 
+immunoreactivity 
+in 
+norepinephrine-containing 
+cells and nerves of the mammalian adrenal gland. Endocrinology. 
+1984;114:1460–1462.
+Verma Y, Rana SV. Endocrinal toxicity of industrial solvents—a mini 
+review. Indian J Exp Biol. 2009;47(7):537–549.
+Viguié C, Collet SH, Gayrard V, et al. Maternal and fetal exposure to 
+bisphenol A is associated with alterations of thyroid function in pregnant 
+ewes and their newborn lambs. Endocrinology. 2013;154(1):521–528.
+Wang N, Zhou Y, Fu C, et al Influence of bisphenol A on thyroid vol-
+ume and structure independent of iodine in school children. PLos One. 
+2015;10(10):e0141248.
+Weis KE, Raetzman LT. Isoliquiritigenin exhibits anti-proliferative proper-
+ties in the pituitary independent of estrogen receptor function. Toxicol 
+Appl Pharm. 2016;313:204–214.
+Wen LL, Lin LY, Su TC, Chen PC, Lin CY. Association between serum 
+perfluorinated chemicals and thyroid function in U.S. adults: the National 
+Health and Nutrition Examination Survey 2007–2010. J Clin Endocrinol 
+Metab. 2013;98(9):E1456–E1464.
+Wester PW, Krajinc EI, van Leeuwen FX, et al. Chronic toxicity and car-
+cinogenicity of bis(tri-n-butyltin)oxide (TBTO) in the rat. Food Chem 
+Toxicol. 1990;28(3):179–196.
+Whittaker MH, Gebhart AM, Miller TC, Hammer F. Human health risk 
+assessment of 2-mercaptobenzothiazole in drinking water. Toxicol Ind 
+Health. 2004;20(6–10):149–163.
+Wozniak AL, Bulayeva NN, Watson CS. Xenoestrogens at picomolar to 
+nanomolar concentrations trigger membrane estrogen receptor-alpha-
+mediated Ca2+ fluxes and prolactin release in GH3/B6 pituitary tumor 
+cells. Environ Health Perspect. 2005;113(4):431–439.
+Wu W, Zhou F, Wang Y, Zhou YK. Exposure to phthalates in children aged 
+5-7years: associations with thyroid function and insulin-like growth fac-
+tors. Sci Tot Environ. 2017;579:950–956.
+Wu Y, Beland FA, Fang JL. Effect of triclosan, triclocarban, 2,2′,4,4′-tet-
+rabromodiphenyl ether, and bisphenol A on the iodide uptake, thyroid 
+peroxidase activity, and expression of genes involved in thyroid hormone 
+synthesis. Toxicol In Vitro. 2016;32:310–319.
+Yamagami T, Miwa A, Takasawa S, Yamamoto H, Okamoto H. Induction 
+of rat pancreatic B-cell tumors by the combined administration of strep-
+tozotocin or alloxan and poly(adenosine diphosphate ribose) synthesis 
+inhibitors. Cancer Res. 1985;45:1845–1849.
+Yamauchi K, Ishihara A. Thyroid system-disrupting chemicals: interference 
+with thyroid hormone binding to plasma proteins and the cellular thyroid 
+hormone signaling pathway. Rev Environ Health. 2006;21(4):229–251.
+Yang M, Hu J, Li S, Ma Y, Gui W, Zhu G. Thyroid endocrine disrup-
+tion of acetochlor on zebrafish (Danio rerio) larvae. J Appl Toxicol. 
+2016;36(6):844–852.
+Yarrington JT, Huffman KW, Gibson JP. Adrenocortical degeneration in 
+dogs, monkeys, and rats treated with α-(1,4-dioxido-3-methylquinoxalin-
+2-yl)-N-methylnitrone. Toxicol Lett. 1981;8:229–234.
+Yarrington JT, Loudy DE, Sprinkel DJ, et al. Degeneration of the rat and 
+canine adrenal cortex caused by α-(1,4-dioxido-3-methylquinoxalin-2-
+yl)-N-methylnitrone (DMNM). Fundam Appl Toxicol. 1985;5:370–381.
+Ye H, Ha M, Yang M,Yue P, Xie Z, Liu C. Di2-ethylhexyl phthalate disrupts 
+thyroid hormone homeostasis through activating the Ras/Akt/TRHr path-
+way and inducing hepatic enzymes. Sci Rep. 2017;7:40153.
+Zabka TS, Fielden MR, Garrido R, et al. Characterization of xenobi-
+otic-induced hepatocellular enzyme induction in rats: anticipated 
+thyroid effects and unique pituitary gland findings. Toxicol Pathol. 
+2011;39(4):664–677.
+Zhou J, Yang Y, Xiong K, Liu J. Endocrine disrupting effects of dichlorodi-
+phenyltrichloroethane analogues on gonadotropin hormones in pituitary 
+gonadotrope cells. Environ Toxicol Pharmacol. 2014;37(3):1194–1201.
+Zoeller RT, Dowling ALS, Herzig CTA, et al. Thyroid hormone, brain devel-
+opment, and the environment. Environ Health Perspect. 2002;110(suppl 3): 
+355–361.
+Zoeller RT, Tan SW, Tyl RW. General background on the hypothalamic–
+pituitary–thyroid (HPT) axis. Crit Rev Toxicol. 2007;37(1–2):11–53.
+Zoeller TR. Environmental chemicals as thyroid hormone analogues: new 
+studies indicate that thyroid hormone receptors are targets of industrial 
+chemicals? Mol Cell Endocrinol. 2005;242:10–15.
+Zoeller TR. Environmental chemicals targeting thyroid. Hormones. 
+2010;9(1):28–40.

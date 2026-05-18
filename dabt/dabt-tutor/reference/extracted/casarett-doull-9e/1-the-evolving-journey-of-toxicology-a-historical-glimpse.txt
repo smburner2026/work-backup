@@ -1,0 +1,2630 @@
+# 1. The Evolving Journey of Toxicology: A Historical Glimpse
+# Casarett & Doull's Toxicology, 9th Edition
+# Pages: 22-43
+# Unit: Unit I General Principles of Toxicology
+
+1
+chapter
+The Evolving Journey of 
+Toxicology: A Historical Glimpse
+Philip Wexler and Antoinette N. Hayes
+ABOUT TOXICOLOGY
+Humans are smart but vulnerable. We need to be prepared for 
+countless unforeseen events that could compromise our health and 
+well-being. Toxicology arose as a way to understand, prevent, miti-
+gate, and treat the potentially harmful consequences of many of the 
+substances we are exposed to.
+According to the Society of Toxicology (SOT) (http://
+www.toxicology.org/about/vp/vision.asp):
+Toxicology is the study of the adverse effects of chemical, physical, or bio-
+logical agents on living organisms and the ecosystem, including the preven-
+tion and amelioration of such adverse effects.
+The National Library of Medicine’s (NLM) Collection 
+Development Manual elaborates by noting:
+Toxicology studies the agents responsible for adverse effects, the mecha-
+nisms involved, the damage that may ensue, testing methodologies to deter-
+mine the extent of damage, and ways to avoid or repair it. Toxicology is 
+traditionally associated with chemical exposures, such as the effects of 
+drugs, industrial chemicals, pesticides, food additives, household products, 
+and personal care items. Toxinology, a sub discipline of toxicology, stud-
+ies biological exposures, such as insect stings, poisonous mushrooms and 
+plants, venomous snakes and aquatic life. The third category of toxicology 
+is concerned with physical hazards, such as radiation and noise.
+One of the key points to understand, as noted above, is that 
+although toxicology in the popular mind is confined to chemicals 
+and, probably, in practice most of the research and concern occur 
+in this realm, other agents such as radiation and substances derived 
+from biological organisms are equally relevant to the field.
+The word toxicology is derived from the Latinized form of the 
+Greek word toxicon, meaning “arrow poison.” Poison, as a noun, 
+dates back to the Old French poison or puison, meaning, originally, 
+a drink, especially a medical drink, but later signifying more of 
+a magical potion or poisonous drink. Another point of terminol-
+ogy concerns the commonly misused term toxin. Despite past and 
+informal uses of the term, it formally should be used to refer to toxic 
+substances produced biologically. Thus, technically, chemicals such 
+as formaldehyde or asbestos, say, would not be considered toxins. 
+There are any number of other terms which could be used to delin-
+eate the broader category of substances which are toxic, regardless 
+of origin. Examples are toxicant, toxic agent, and toxic substance. 
+Xenobiotics is a term referring to substances, whether toxic or not, 
+foreign to a given organism.
+Finally, in this brief lesson on toxicology nomenclature, one 
+needs to clarify the use of the words poisonous and venomous when 
+used as animal adjectives. Though often used interchangeably, they 
+are, in fact, rather distinct. A venom requires a delivery mechanism. 
+Thus, because a snake, for example, injects its venom (or toxin) 
+into its victim, it is considered a venomous animal. Instead, a toxic 
+mushroom must be ingested to make its effect felt. Thus, it should 
+instead be deemed poisonous.
+Toxicology is largely concerned with the interaction of toxi-
+cants and biological organisms. While toxicodynamics investigates 
+the effect of the toxicant on the organism, toxicokinetics looks at 
+how the organism affects the toxicant (e.g., absorption, biotransfor-
+mation, distribution, and elimination). Mechanisms of toxicity at 
+cellular and biochemical levels play a key role in determining why 
+an agent has the effects it does. Toxic responses may be directed to 
+particular organs or systems, for example, kidney, liver, and nervous 
+system. Another way to consider effects is as clastogenic or muta-
+genic, resulting in carcinogenic or teratogenic effects. Often the 
+focus of research is on a particular chemical or class of chemicals, 
+About Toxicology
+About History
+Toxicology in Antiquity
+Ancient China
+Ancient India
+Ancient Egypt
+Pontus, Mithridates, and Theriacas
+Ancient Greece
+Ancient Rome
+The Middle Ages and 
+Renaissance
+18th and 19th Centuries
+The Modern Era
+Radiation
+Food and Drugs
+Pesticides Research and Chemical 
+Warfare: A Surprising Alliance
+The Poison Control Center Movement 
+and High Profile Poisonings
+Mass Environmental Exposures, the 
+U.S. EPA, and Environmental 
+Legislation
+Occupational Safety and Health 
+and Industrial Toxicology
+Miscellaneous Organizations
+International Environmental 
+Conventions and Other Global 
+Efforts
+Animal Alternatives, Risk 
+Assessment, and Green 
+Chemistry
+Information Resources
+Where Are We Headed?
+Acknowledgments
+References
+Supplemental Reading
+
+4
+General Principles of Toxicology
+Unit I
+such as pesticides, metals, or solvents. Environmental contamina-
+tion and toxicology are tightly bound fields of study, and toxicol-
+ogy has much to contribute to an understanding of air, water, and 
+soil pollution. Establishing the safety of drugs relies upon toxi-
+cology as does ensuring the safety of our water and food supply. 
+Envenomations, whether by snakes, spiders, scorpions, aquatic life, 
+or other creatures, as well as poisoning by plants and fungi are also 
+within toxicology’s scope.
+Toxicology today is a highly interdisciplinary science that 
+borrows from and intersects with other sciences such as chemistry, 
+biology, pharmacology, medicine, physiology, biochemistry, molec-
+ular biology, pathology, and environmental science. Increasingly, 
+it is also appropriating the tools of the computational sciences as 
+one way to improve the precision of safety assessment, screen large 
+numbers of chemicals efficiently, cut costs, and reduce animal use. 
+Toxicology can be parsed into branches in a variety of ways. One 
+such set of groupings follows:
+Descriptive Toxicology: The emphasis is on the testing of toxi-
+cants, typically on animals. It focuses on the dose–response rela-
+tionship and extrapolation to humans.
+Mechanistic Toxicology: Looks at how the agent induces its bio-
+chemical or physiological effect on the organism, that is, modes 
+of action. Biochemical and Molecular Toxicology is a synonym 
+for this branch.
+Clinical Toxicology: This branch’s focus is on the effects of drugs 
+and other chemicals on humans, particularly, but also on other 
+animals. Its work is often involved with drug overdoses and 
+other poisonings, and determining the substance involved and 
+its amount in the body. Sometimes used synonymously with 
+Medical Toxicology although technically, in terms of profession, 
+a medical toxicologist tends to have an MD while a clinical toxi-
+cologist has a PharmD. A veterinarian who specializes in toxi-
+cology, typically, has a DVM.
+Forensic Toxicology: Concerned with the cause of death from toxic 
+agents, often in instances of drug abuse or misuse. With a focus 
+on homicides and suicides, this branch of toxicology goes hand-
+in-hand with the work of the police and medical examiners.
+Environmental Toxicology: Investigates the effects of toxicant expo-
+sures on the general environment and living organisms therein. Thus, 
+pollution of air, water, and soil, and effects on plants and wildlife 
+would fall within this branch. Ecotoxicology, a more specialized 
+area, is devoted to the effects of toxic chemicals on populations, 
+communities, and terrestrial, freshwater, and marine ecosystems. 
+Environmental toxicologists can further define their work in even 
+more specialized terms, for example, aquatic toxicology.
+Occupational Toxicology: Deals with the study of chemical and 
+other agents in the workplace, worker exposures, safety and 
+health, and standard setting. Industrial Hygiene covers a very 
+similar terrain.
+Regulatory Toxicology: Focuses on ways in which humans and the 
+environment can be protected from toxic effects, through regula-
+tions and standard setting. Considers scientific decision-making 
+within a societal and legal framework. Relies heavily upon risk 
+assessment.
+Toxicogenomics: Concerned with the compilation and synthe-
+sis of information regarding gene and protein expression in 
+order to understand molecular mechanisms involved in toxic-
+ity. Toxicogenomics calls upon proteomics, metabolomics, and 
+transcriptomics to identify biomarkers that predict toxicity and 
+genetic susceptibility to harmful substances. Environmental pol-
+lutants, pharmaceuticals, and other potentially toxic substances 
+are all within the scope of toxicogenomics research.
+Computational Toxicology: Deals with the use of modern com-
+putational approaches and information technologies to elu-
+cidate mechanisms of toxicity. May also be referred to as 
+toxicoinformatics.
+Virtually every branch of toxicology listed overlaps with at 
+least one other. Other ways to parse the discipline are by agents 
+under consideration, such as venoms, pesticides, metals, solvents, 
+drugs, and radiation. One can also look, instead, at target biological 
+systems which the agent may affect, for example, liver, kidney, skin, 
+and heart. As for toxins, they can be categorized by their biological 
+origin, such as insect-, plant-, reptile-, or marine-derived toxins. 
+Some toxicologists spend their careers focused very tightly on a 
+subject, while others graze across many research fields.
+ABOUT HISTORY
+History is about the past; it is not the past. The past is passive, 
+objective, all encompassing. History is active, subjective, and 
+selective. The further back in time that we look, the more prob-
+lematic it is for us to reach, in the present, conclusions about what 
+happened in the past. Examples, particularly from ancient eras, 
+described below, will show how tales accepted without question 
+are currently being re-examined and revised, and remind us that 
+history is also relative.
+Science begins with observation. In the distant past, our obser-
+vational skills did not extend beyond our senses. We put our senses, 
+to good use, nevertheless, in assessing toxicity and safety even in 
+prehistorical times (i.e., before the written record). Our hominin 
+ancestors used trial and error extensively to explore their environ-
+ment. In terms of toxicology, they would make careful note of which 
+substances, particularly potential food sources, were safe and which 
+were hazardous. Although it might very well be after the damage 
+was done, they and their tribe and descendants would quickly learn 
+to differentiate between the safe and toxic. Toxic substances, of 
+course, were to be avoided, although it soon became clear that they 
+could be used against enemies.
+There are numerous ways to approach the history of toxicol-
+ogy because there are many histories, such as those of the branches 
+outlined in the previous section. Complicating the presentation of 
+a uniform history is the fact that these individual histories over-
+lap. Given the space limitations of this chapter, we will focus on 
+chemicals and proceed chronologically, taking occasional detours 
+as necessary.
+TOXICOLOGY IN ANTIQUITY
+Ancient China
+Shen Nong, the legendary founder of Chinese Herbal Medicine, 
+also known as the farmer god (for he also taught his people how to 
+farm), and said to live circa 2800 bc, saved his subjects from the 
+worry of trying different potential food plants to decide whether 
+they were poisonous. He was said to have tasted hundreds of herbs 
+daily to differentiate the poisonous from the medicinal or just 
+plain edible. Although the toxins he encountered made him sick 
+frequently, he somehow survived them. He is also considered the 
+author of perhaps the world’s first pharmacological compendium, 
+Divine Farmer’s Classic of Materia Medica. His text, a compila-
+tion of oral traditions, was compiled in the 3rd century ad. Legend 
+also has it that Shen Nong discovered tea when, sitting under a 
+Camellia tree, dried leaves fell into the water he was boiling to 
+drink (Wilkinson, 2007; Yang, 1998).
+
+The Evolving Journey of Toxicology: A Historical Glimpse
+Chapter 1
+5
+Du (毒) is the standard word for poison or toxicity in Chinese. 
+It was understood by the ancient Chinese that drugs (herbals in this 
+instance) were potentially toxic and dose played a role. Aconite, 
+derived from the plant wolfsbane and possessing extreme potential 
+toxicity, was widely used medicinally in small doses in China over 
+2000 years ago. It was usually applied externally, often processed 
+in some way or mixed with other drugs, to treat various wounds, but 
+was also ingested as a tonic to restore qi (the vital energy defined by 
+Chinese medicine) and extend life. At the same time, sources from 
+that era show that unadulterated aconite in larger doses was often 
+used to murder (Liu, 2014). Today we know that the alkaloids in 
+aconite have a narrow therapeutic index and their use is not gener-
+ally recommended. Interestingly, it took several thousand years for 
+the role of dose in toxicity to be firmly articulated in the West by 
+Paracelsus, who is discussed later in this chapter.
+The ancient Chinese poison, Gu, is one of many potions 
+residing in that blurry historical space between fact and legend. 
+Presumably, a variety of venomous creatures such as snakes, liz-
+ards, scorpions, and insects were confined in a container and left 
+to devour each other until only one was left. This survivor thus 
+concentrated in its body the toxins of all its former cell mates and 
+the venom extracted from it was believed to be superbly potent.
+Ancient India
+Ancient India was no stranger to the knowledge and uses of poisons. 
+Poisoned weapons of various sorts were well known. A Sanskrit 
+verse reads, “Jalam visravayet sarmavamavisravyam ca dusayet,” or 
+“Waters of wells were to be mixed with poison and thus polluted” 
+(Khajja et al., 2011). Sushruta was an Indian surgeon. Volume 
+5 of his medical and surgical compendium, Sus´rutasam. hitaˉ, 
+a foundational work in Ayurveda (traditional Indian medicine), con-
+tains several chapters related to poisons and poisoning, including 
+descriptions of vegetable and mineral poisons (Sthavara) and ani-
+mal poisons (Jangama), as well as advice on medical treatment of 
+snake bites and insect bites (Wisdom Library, n.d.). Agada Tantra, 
+one of the eight clinical specialties of Ayurvedic medicine, is specif-
+ically associated with toxicology (Manohar, 2014; Wujastyk, 2003).
+India also has a long tradition of tales about the so-called “ven-
+omous virgin” (visakanya), first mentioned in the Sus´rutasam. hitaˉ. 
+This maiden, sometimes referred to as the “poison damsel,” would, 
+as a young girl, be fed “tolerably minute, but gradually increasing, 
+amounts of poison or snake venom, and that by the time she was an 
+attractive young woman, the level of toxin in her body would be so 
+high that she could be sent to an enemy king as a gift. Upon kissing 
+her, making love to her, or even just sharing glass of wine with her, 
+he would instantly fall dead” (Slouber, 2015). The Rig Veda itself, 
+one of the four texts sacred to Hinduism, includes hymns related to 
+poisons (Wikisource, n.d.-a).
+Ancient Egypt
+Ancient Egypt was for nearly 30 centuries one of the world’s pre-
+eminent civilizations and has left us a legacy of unrivalled art, 
+architecture, and religious traditions. Animals played an important 
+role in its belief systems. Egyptian gods and goddesses often took 
+on a hybrid human–animal physical form.
+Venomous snakes and insects were well known and the focus 
+of toxicology as it existed in ancient Egypt. One of the major docu-
+ments examining snakebite, and surviving in most of its entirety to 
+our time are the Brooklyn Papyri (held by the Brooklyn Museum), 
+525–600 bc (Sanchez and Harer, 2014). Its two sections describe 
+individual snakes and treatment for snakebites, respectively. 
+Paragraph 15 of the Papyri, for example, describes the snake known 
+by the Egyptians as Apophis which, mythologically, personified 
+evil. Scholars believe this may be the Boomslang (Dyspholidus 
+typhus) in the Colubridae family. Symptoms and signs of snake 
+envenomation are presented in the Papyri. The treatments offered 
+could be general, for any snakebite, or specific. Bites by snakes 
+known to be lethal generally received no treatment. Therapeutic 
+measures, overall, were largely symptomatic. One treatment that 
+comes up with frequency is the use of Allii Cepae, the onion, used 
+in various preparations depending on the bite. Often this was used 
+in conjunction with induced vomiting to rid the body of the poison:
+Paragraph 41: Very good remedies to be made for those suffering from all 
+snake bites: Onion, ground finely in beer. Eat and spit out for one day. (then 
+follows an incantation)
+Paragraph 42: As for the onion, it should be in the hand of the priest of 
+Serqet, wherever he is. It is that which kills the venom of every snake, male 
+or female. If one grinds it in water and one smears a man with it, the snake 
+will not bite him. If one grinds it in beer and sprinkles it all over the house 
+one day in the new year, no serpent male or female will penetrate therein. 
+(Nunn, 1996)
+Toxicity is addressed to a lesser extent in other important 
+papyri such as the Berlin, Edwin Smith, and Ebers papyri.
+Cleopatra VII, born in 69 bc, is one of the most fascinating 
+personalities to flourish in Egypt when Greece and Rome held sway. 
+During her reign as Pharaoh, Egypt was a Hellenistic (i.e., Greek) 
+province, part of the Ptolemaic dynasty, established after the death 
+of Alexander the Great. After Cleopatra’s death, Egypt was annexed 
+by Rome. And while her romantic exploits with Julius Caesar and 
+Mark Anthony have been grist for generations of writers and art-
+ists, it is her death that holds toxicological interest for us. After the 
+Battle of Actium (on Greece’s west coast), which ended in defeat 
+for the Egyptians, and learning that Marc Anthony killed himself by 
+a self-inflicted sword wound, Cleopatra decided to follow suit. It is 
+said that she had her servants bring her a basket of figs, in which 
+one or more asps (Egyptian cobra) were hidden, and holding one to 
+her breast, she succumbed to its venomous bite. A recent analysis 
+questions the feasibility of a maid capable of carrying a basket of 
+one or more Royal Cobras (9.8–13 ft in length, and weighing some 
+13 lbs) camouflaged by figs (Tsoucalas and Sgantzos, 2014). Other 
+evidence on the time frame of her dying support this doubt. It has 
+now been suggested that a more likely scenario was that she was 
+murdered, perhaps with a poisonous draught by Octavian, the victor 
+in their battle. He may have then spread the rumor of her suicide 
+to avoid turmoil in the streets (against him) by the subjects who 
+adored her.
+Pontus, Mithridates, and Theriacas
+The kingdom of Pontus in northeastern Turkey played an interest-
+ing role in the history of poisons and antidotes. Mithridates VI, its 
+ruler beginning in 120 bc, was a fierce adversary of Rome, engag-
+ing it in battle three times. Ultimately, he succumbed to defeat by 
+Pompey in the third war and committed suicide. Even as a boy, 
+Mithridates experimented with poisons and antidotes, even on him-
+self. Son of a father who was murdered with poison and a mother 
+who would have poisoned him in order to ascend to the throne, he 
+went into hiding for a period of years. He returned to capture his 
+rightful position by likewise using poison, probably arsenic. With 
+a background like that, one could hardly consider it paranoia that 
+he feared assassination by poison and took precautions to avoid it 
+(Mayor, 2010).
+His approach was to ingest small doses of toxicants to become 
+immune to them. His lifelong pursuit was to create a universal
+
+6
+General Principles of Toxicology
+Unit I
+antidote, which came to be known as a theriac, his particular one 
+called a Mithridatium, by creating a concoction of tiny amounts of 
+deadly poisons and antidotes. Not as far-fetched as it seems, recent 
+science reveals that exposure over thousands of years to arsenic 
+among certain Andean highland populations may have resulted in 
+a level of resistance in their modern-day descendants (Schlebusch 
+et al., 2013).
+There have been many speculations about what the ingredi-
+ents of the Mithridatium were, but we do not know for certain, and 
+may never know. Returning to Mithridates’ defeat by Pompey, leg-
+end holds that the ignominy of it led him to want to end his life. 
+He retreated, with a poison, to the highest tower of his castle with 
+his daughters. His daughters insisted that they be administered the 
+poison first. After they died, he drank the balance. He weakened, 
+but did not die, and his disorientation prevented him from stabbing 
+himself with his own sword as he attempted. Instead, at least in one 
+version of his actual death, he appealed to his bodyguard, Bituitus, 
+to impale him with a sword.
+Ancient Greece
+Nicander of Colophon (fl 130 bc), a Greek poet and physician, is 
+the author of two of the oldest extant works on poisons—Theriaka 
+and Alexipharmaka—both written in hexameter verse (Gow and 
+Scholfield, 2014; Touwaide, 2014b). The Theriaka concerns ven-
+omous animals. As such they have a delivery system through which 
+injection of their venom can be harmful to humans and other organ-
+isms. A large portion of this volume is devoted to snakes. Among 
+other information, he describes 15 snakes, including several cobras, 
+and the symptoms in humans associated with envenomation, fol-
+lowed by discussion of remedies. Additional narrative is devoted 
+to spiders, scorpions, insects, lizards, and fish. His Alexipharmaka, 
+a briefer poem, deals with 21 poisons from the vegetable, mineral, 
+and animal kingdoms. Among them are aconite, white lead, and 
+hemlock. As in his companion work, Nicander describes the poi-
+son, its symptoms, and antidotes.
+The Greek philosopher, Socrates (469–399 bc), whose wis-
+dom was kept alive through the ages via his disciple, Plato, became 
+an iconic figure in the history of toxicology through his death. 
+Convicted of corrupting the youth of Athens and disrespecting 
+the gods, he was sentenced to death. The received knowledge of 
+the ages, historiographically transmitted, is that his execution was 
+to be carried out in suicidal fashion, with Socrates condemned to 
+drink an extract of hemlock, a poisonous plant (Conium maculatum) 
+well known to the ancients. Recently, scientific evidence has called 
+this into question largely because the account provided in Plato’s 
+Phaedo describes a clinical disorder not caused by hemlock poison-
+ing (Dayan, 2009), although the debate has yet to be resolved and 
+some sources point to a possible mixture of hemlock and opium 
+(Arihan et al., 2014).
+Alexander the Great (born 356 bc) plays a role in the history 
+of toxicology in Greece in that the cause of his death is an unsolved 
+mystery as well (Mayor, 2014). He is said to have drunk vast quanti-
+ties of wine at a banquet in Babylon, after which he suffered severe 
+abdominal pain. Over days, things went from bad to worse and he 
+developed partial paralysis finally dying two weeks later. Rumors 
+of poisoning began circulating in no time. He had enough enemies. 
+Some even thought that Aristotle, his former tutor, poisoned him. 
+Some of his friends guessed that he succumbed to a legendary poi-
+son taken from the waterfall of the Styx River, not only the mytho-
+logical entrance to Hades, but an actual place in the north central 
+Peloponnese. Ancient writers have considered the river poisoned. 
+Though possibilities abound and speculation is widespread, the true 
+cause of Alexander’s death has never been confirmed.
+Recent discoveries suggest that even the Oracle at Delphi, per-
+haps the most important and sacred shrine in ancient Greece, is, in 
+a curious fashion, toxicologically significant. Associated with the 
+Greek god Apollo, people would pilgrimage to Delphi with ques-
+tions usually about what events would occur in the future. They 
+would address their questions to the Pythia, a role filled by various 
+women at different time. Plutarch, the celebrated Greek biographer 
+and essayist, served as one of the priests at the temple of Apollo at 
+Delphi. He noted that pneuma (a kind of gas or vapor) was emitted 
+in the adyton, a small inner sanctum type area (de Boer, 2014). The 
+Pythia would sit on a tripod-shaped chair, given a chance to inhale 
+the pneuma, and go into a trance, after which a priest would address 
+to her the questions asked by the petitioners. Similar accounts appear 
+in ancient texts by others including Plato. Modern-day research 
+attempted to assess the likelihood of an actual gas affecting the 
+mental states of these priestesses. A 2002 paper bringing together 
+the skills of a geologist, archaeologist, and clinical toxicologist 
+reviewed the various research studies, concluding that “the prob-
+able cause of the trancelike state used by the Pythia at the oracle of 
+Delphi during her mantic sessions was produced under the influence 
+of inhaling ethylene gas or a mixture of ethylene and ethane from a 
+naturally occurring vent of geological origin” (Spiller et al., 2002).
+Toxicology is also heir to a rich mythological tradition. After 
+Hercules, for example, killed the nine-headed sea monster known 
+as the Hydra, as part of his second labor, he cut it open and dipped 
+his arrows in its venom, providing him with what may have been 
+the first biological weapon for use in future battles. Achilles, one 
+of the prominent heroes in Homer’s Iliad was a victim of just such 
+a poison. Immersed as an infant in the river Styx by his mother to 
+make him immortal, she failed to realize that in holding him by 
+the heel, that very part of the body would make him susceptible to 
+future danger. And so, it was that in the final battle of the Trojan 
+War, he was killed by a poisoned arrow shot into this heel. These 
+are but two examples of how poisons were incorporated into myth 
+and legend in ancient Greece and elsewhere.
+Ancient Rome
+The Romans of antiquity were also knowledgeable in the principles 
+and practice of toxicology. Interestingly, the Latin word venenum 
+can mean either poison or remedy, and one would typically modify 
+the term according to the usage intended (i.e., bonum venenum or 
+malum venenum).
+Dioscorides (born 40 ad), a native of Anazardus, Cilicia, 
+Asia Minor, was a physician who traveled through the Roman 
+Empire with Emperor Nero’s army. He would collect samples of 
+local medicinal herbs as he encountered them. The information he 
+gleaned became material for his encyclopedic De materia medica, 
+compiled in the 1st century ad, and relied upon for centuries as 
+the most extensive and reliable herbal available. In it he classi-
+fied poisons as animal, plant, or mineral (Timbrell, 2005). More 
+specifically, De Venenis and De venenosis animalibus, ascribed to 
+Dioscorides but probably not written by him, covered poisons in 
+general and animal venoms, respectively, and were very influential 
+works in toxicology down through the ages (Touwaide, 2014a).
+Galen, another Roman Empire era physician, born (129 ad) in 
+Pergamon, had a monumental impact on the understanding and prac-
+tice of medicine. He became court physician to Marcus Aurelius. 
+He was a firm subscriber to the theory of the humors (blood, yel-
+low bile, black bile, and phlegm), the origins of which may go 
+back to ancient Egypt but which were first articulated about medi-
+cine by Hippocrates. Galen formulated his own Galeni Theriaca 
+and claimed it improved upon the one concocted by Mithridates 
+(Karaberopoulos et al., 2012). He wrote about assorted theriac
+
+The Evolving Journey of Toxicology: A Historical Glimpse
+Chapter 1
+7
+compounds in his books De Antidotis I and II and De Theriaca ad 
+Pisonem. Indeed, he tested them by bringing roosters into contact 
+with snakes.
+Poisoning, especially among the ruling classes, was frequently 
+practiced, typically (but not exclusively) by women upon their hus-
+bands or other inconvenient relatives. If they did not have the skills 
+to do the deed themselves, they sought professional poisoners, 
+usually women as well. One of the most notorious of the lot was 
+Locusta. As the story is told, she was summoned by Agrippina, the 
+wife of Emperor Claudius, to kill him so that Agrippina’s son, Nero, 
+from a previous marriage would become the new Roman emperor. 
+Locusta supplied Agrippina with a batch either of poisoned or poi-
+sonous mushrooms. Though taken quite ill, the mushrooms did 
+not kill Claudius outright. Quick thinking (though history is not 
+quite clear by whom) led Agrippina to convince Claudius to let 
+her run a feather down his throat to expel the poison. The feather 
+itself, though, was coated with a lethal dose of poison which killed 
+Claudius and thus Nero assumed the throne. Though Locusta was 
+imprisoned, it was not long before Nero had her released and, in 
+fact, employed her to poison Britannicus, a son of Claudius from a 
+previous marriage and thus a threat to the new emperor. Nero ulti-
+mately pardoned Locusta for all past crimes and she was allowed to 
+establish a school to train others in her art.
+The legal framework of toxicology is sometimes dated back 
+to the age of the Roman military and political leader Sulla. Under 
+the lex Cornelia de sicariis et veneficis (81 bc), punishment was 
+imposed for anyone who prepared, sold, bought, kept, or admin-
+istered a noxious poison (venenum malum) (Hobenreich and 
+Rizzelli, 2014).
+A theory proposed in 1983 by Jerome Nriagu popularized the 
+idea that the metal lead was responsible for the fall of the Roman 
+Empire. It has been stated that the ruling classes, in particular, were 
+exposed to lead contamination in water supplies, cooking, and the 
+production of wine, ultimately decreasing their fertility and repro-
+ductive capacity. More recent archaeological investigations have 
+found that although clinical lead poisoning probably did occur, the 
+mean skeletal lead content of populations at the time was less than 
+half that of present-day Europeans in the same regions. The asser-
+tion that lead was the primary culprit in Rome’s decline and fall has 
+been largely refuted (Cilliers and Retief, 2014a, 2014b).
+Lead has continued to plague mankind, in occupational and 
+other exposures, through the ages. Interestingly, in 1921 a global 
+treaty the White Lead (Painting) Convention was adopted. It was 
+meant to largely prohibit the use of white lead as a pigment in paint. 
+With no thanks to the Lead Industries Association, this was never 
+ratified by the United States (Hernberg, 2000). Herbert Needleman, 
+a physician, was instrumental in helping us understand how lead 
+affects children, particularly with his 1979 study in the New 
+England Journal of Medicine noting deficits in children with high 
+dental lead levels (Rosner and Markowitz, 2005). Still a concern in 
+inner cities, lead periodically makes the headlines, as in the case 
+of its seepage into the drinking water of Flint, Michigan, in 2016.
+THE MIDDLE AGES AND RENAISSANCE
+As we transition from antiquity to the Middle Ages at about 400 ad, 
+toxicology continues to have a presence in European society vis-à-
+vis both poisoning as a means of dispatching enemies but increas-
+ingly in trying to establish its scientific foundation. Some of the 
+well-accepted tenets of the toxicology of this time such as the 
+hypothesis that the saliva of rabid dogs was a poison on a par with 
+snake venom would see revision, but the scientific method was at 
+least beginning to take hold.
+The Venetian Council of Ten was a governing body in Venice 
+from around 1310 until 1797. They were known for conducting 
+secret tribunals whereby figures perceived as a threat to the state 
+were ordered executed. Many of these executions were carried out 
+by poisoning. There were several attempts on the life of Francesco 
+Sforza of Milan, while Mehmed II, Sultan of the Ottoman Empire, 
+was allegedly ordered to be poisoned by the Council (Jutte, 2015).
+Poisoners continued to find steady employment but some 
+reputations, as will be seen in the following paragraphs, were ill-
+deserved. Poisoning as an assassination method was widespread 
+during the 14th to 16th centuries in Europe. Letters to Grand Duke 
+Cosimo I de’Medici affirm as much. Animal venoms, phytotox-
+ins, and mineral poisons were all employed. Cosimo himself was 
+suspected of poisoning and was in possession of a poison recipe 
+among his confidential documents and his library contained several 
+books in which poisons were discussed. He was also involved in 
+a plot to assassinate Piero Strozzi, part of a rival banking empire, 
+by poisoning his wine. Poisoning was clearly a family affair with 
+the Medicis, and Cosimo’s sons Ferdinando and Francesco were 
+equally complicit in it. Despite persistent rumors that Francesco 
+and his wife, Bianca, were poisoned with arsenic by the former’s 
+brother, Ferdinando, the official cause of death was listed as 
+malaria. Although recent forensic examinations still do not entirely 
+agree, it now appears most likely that malaria was indeed the culprit 
+(Fornaciari and Bianucci, 2010). Many legends surround Catherine 
+de’Medici who moved to France to marry the future King Henry II. 
+Despite multiple purported victims, there is no definitive evi-
+dence that she poisoned anyone. Developing and testing antidotes 
+was also part of the Medicis’ stock-in-trade (Pratte et al., 2014; 
+Barker, 2017).
+Another powerful and infamous Italian family, originally 
+from Spain, and on whom were pinned numerous heinous crimes, 
+poisoning among them, were the Borgias. There were claims, for 
+example, that Cesare murdered a servant who was a lover of his 
+sister, Lucretia, in front of their father Pope Alexander. Cesare was 
+also said to have poisoned Cardinal Juan Borgia. The reputation 
+of Lucretia herself was stained with allegations, by enemies of the 
+Borgias, that she was a poisoner. Documents uncovered recently in 
+the Vatican archives refute these and other claims concerning the 
+Borgias and it is now thought that, though saints by no means, their 
+undeserved reputation for extensive poisonings and murders stems 
+from rumors spread and repeated by their enemies (Dal Bello, 2012; 
+Cobb, 2017).
+In 17th century France, during the reign of Louis XIV there 
+had been a series of poisonings which have not, at least to date, 
+been subject to any of the above revisionism. It became known 
+as L’affaire des poisons (the Affair of the Poisons) and originated 
+with the trial of Madame de Brinvilliers, convicted of poisoning 
+her father and two brothers and attempting to poison other family 
+members. Prior to her execution she implicated, without specifically 
+naming them, many others, who were subsequently prosecuted 
+and sentenced to death. One of the most notorious was the cel-
+ebrated Catherine Deshayes, also known as La Voisin, an acknowl-
+edged sorceress, who did a very good business in poisons, abortions, 
+and black masses. La Voisin was finally burned at the stake in 1680 
+for her crimes (Duramy, 2012; Somerset, 2014).
+Giulia Tofana was yet one more notorious 17th century Italian 
+poisoner, thoroughly skilled at her trade. It is thought that two 
+women in Palermo, Francesca la Sarda and Teofania di Adamo, 
+jointly concocted and marked a poison known as “Acqua Tufania” 
+for which they were executed. Some of their associates fled to Rome 
+and, under the leadership of Giulia Tofana, possibly Teofania’s 
+daughter, they carried on the business, even after the death of Giulia.
+
+8
+General Principles of Toxicology
+Unit I
+The poison became known as Aqua Tofana. Arsenic was likely a pri-
+mary ingredient. It was sold throughout Italy to domestically unsat-
+isfied women seeking freedom from their husbands. Aqua Tofana 
+became an almost generic term for particularly potent poisons 
+and the term has appeared in various sources, including medical 
+textbooks, for some two centuries. Although originally producing 
+violent symptoms, it ultimately became associated with a class of 
+toxicants known as “slow poisons,” which rather than existing in 
+fact may have simply been a speculative class of agents designed to 
+fuel the imaginations of the easily swayed (Dash, 2015).
+As already mentioned, the Middle Ages and Renaissance were 
+times not only of commonplace poisonings, particularly among the 
+aristocracy and ruling classes, but of an increasingly sophisticated 
+understanding of toxicology. Moses Maimonides, the great Jewish 
+philosopher, theologian, and scientist, wrote his Treatise on Poisons 
+and their Antidotes, originally in Arabic, in 1198. Part I was con-
+cerned with bites from snakes and rabid dogs (toxicology, remem-
+ber, was still in its formative stage), and stings of scorpions and 
+insects. Part II dealt with poisons in food and minerals, as well as 
+remedies. He made a distinction between “hot” and “cold” poisons 
+which, it has been claimed, may be equivalent to modern-day hemo-
+lysins and neurotoxins. Maimonides also emphasized preventive 
+measures (Rosner, 1968; Furst, 2001; Maimonides, 2009).
+The study of toxicants was so widespread in Persian and 
+Arabic countries during the Middle Ages that the era has come to be 
+known as the golden age of medieval toxicology. Among prominent 
+toxicologists who wrote noteworthy treatises on the subject were 
+Jābir (Jaber) ibn Hayyān (721–815 ad), Ibn Maāsawyah (Yuhanna 
+ibn Masawyah, Abu Zakariya, 777–857 ad), and Ibn Waḥshı̄̄yah al-
+Nabti (9–10th century ad). Known by his Latin name of Avicenna 
+in the West, Abū ʻAlı̄̄Aal-Ḥusayn ibn Abd Allāh ibn Sı̄nā was per-
+haps the most noteworthy physician/scientist/philosopher of the 
+Islamic world. His celebrated “Canon of Medicine” remained the 
+most popular medical textbook for some six centuries (Nasser 
+et al., 2009). Covering a broad range of topics, it includes detailed 
+descriptions of venoms and other poisons, such as opioids and ole-
+ander, as well as instructions related to antidotes (Ardestani et al., 
+2017). He even explored the effect of alcohol on opium poisoning:
+Patients may have concurrent alcohol poisoning. It can have a synergistic 
+effect with opium poisoning and decrease its lethal dose. On the other hand, 
+alcohol may serve as an opium antidote. This effect depends on the amount 
+of ingested alcohol.
+Many of his observations have been confirmed by current 
+medical knowledge (Heydari et al., 2013).
+On a very practical level, as was seen even in the Roman era, 
+it became clear to ordinary people, especially those whose work 
+entailed significant exposure to certain natural materials such as 
+minerals, that their very occupations could be harmful. Georgius 
+Agricola (1494–1555) born in the kingdom of Saxony, currently 
+part of Germany, studied many subjects and completed his medi-
+cal education in Padua. He has come to be known as “the father 
+of mineralogy” largely as a result of his best known monograph, 
+De Re Metallica, published in 1556.
+Inevitably we reach the point where we address the incal-
+culable contributions of the unorthodox medical revolutionary, 
+Theophrastus von Hohenheim, called Paracelsus (1493/94–1541). 
+Born in Einsiedeln, a municipality now in modern-day Switzerland, 
+he was a wanderer and iconoclast, and strongly tied to the alchemi-
+cal tradition. He theorized that there were four pillars of medicine: 
+natural philosophy, astronomy, alchemy, and medical virtue. He 
+went his own way and was not highly regarded by the medical 
+establishment or local government officials. Indeed, as a lecturer 
+at the University of Basel (as well as the city’s municipal physician 
+until being forced to flee), he burned the standard medical textbooks 
+of the day, such as those of Avicenna and Galen (Borzelleca, 1999). 
+History, though, has vindicated many of his teachings. In addition to 
+his medical works, he was a keen observer and investigator of toxic 
+effects of various agents and wrote a treatise about their effects 
+upon miners. He concludes this work with a discussion of metal-
+lic mercury and criticizes its use at the time as therapy for people 
+afflicted with syphilis (Gantenbein, 2017).
+The most famous toxicological adage associated with 
+Paracelsus is “The dose makes the poison,” which is a distillation 
+of what he wrote in his Seven Defenses, designed to defend his 
+controversial teachings in the face of his adversaries:
+Wenn jhr jedes Gifft recht wolt außlegen/ Was ist das nit Gifft ist? alle ding 
+sind Gifft/ vnd nichts ohn Gifft/ allein die Dosis macht/ dz ein ding kein 
+Gifft ist.
+When you want to correctly evaluate a poison, what is there that is not 
+poison? All things are poison and nothing is without poison; only the dose 
+determines that something is not a poison.
+This was surely known in various and sundry ways, certainly by 
+experience, long before the time of Paracelsus, but never had it been 
+so well articulated. We may, today, look upon the latter portion of 
+this statement as an oversimplification. After all, what about factors 
+other than dose which influence toxicity—gender, age, pre-existing 
+conditions, genetics, the microbiome, etc.? This is all well and good, 
+and it is not unusual for quite valid eureka moments to be refined 
+over time, but for a concise encapsulation of one of the key compo-
+nents of what and when something is a poison, and which continues 
+to serve as a bedrock of toxicology, Paracelsus deserves the lau-
+rel crown and the oft-cited appellation, “Father of toxicology.” An 
+understanding of the dose–response relationship is no less significant 
+to our understanding of toxicology today than it was 500 years ago.
+It is tempting to declare Paracelsus’ legacy as ironclad. 
+However, proponents of a theory originating in the 19th century 
+known as hormesis are today suggesting that substances known to 
+be toxic at elevated doses may actually have a beneficial effect at 
+very low doses. Non-monotonic dose–response (NMDR) curves 
+graphically describe hormesis. Hormesis remains a controversial 
+theory among toxicologists.
+Paracelsus was but one example of the tenuous link between 
+alchemy and toxicology. The alchemist Jan Baptist Van Helmont, 
+though once a disciple of Paracelsus, ultimately went his own way. 
+Van Helmont did acknowledge that almost everything in nature 
+is possessed of some secret poison but that somehow it overlay a 
+core of goodness. He referred to the bible and medical alchemical 
+theories to support his views and reveal ways to remove the poison 
+(Hedeson, 2017).
+Other key figures were Pietro d’Abano who compiled a treatise 
+devoted to poisons and their remedies, De venenis, which sought to 
+return to the pure Greek roots of toxicology; the Paduan physician 
+Girolamo Cardano who offered a careful analysis on the relation-
+ship between poison and putrefaction; Gerolamo Mercuriale who 
+focused on reconciling ancient and contemporary definitions of 
+poison; and Andrea Bacci who argued against a universal definition 
+of poison and also said that its unusual powers made it similar to 
+other natural substances such as the magnet (Gibbs, 2017; see http://
+fredgibbs.net/posts/universals-and-particulars-of-poison).
+Interest has always been keen on both preventing and treat-
+ing poisoning. Various products of biological origin, typically solid 
+and hard, were said to serve in this capacity. They include stones, 
+shark teeth, bezoars, and horns, sometimes embellished and worn as 
+jewelry, and used in table settings or even in some instances found
+
+The Evolving Journey of Toxicology: A Historical Glimpse
+Chapter 1
+9
+in graves. A bezoar stone is an indigestible mass found in the gastro-
+intestinal system, especially the stomach. Etymologically, the word 
+derives from the Farsi words, baˉk (purification) and zahr (poison) 
+and, indeed, the stones were described in ancient Arabic medical 
+literature since the 8th century and used as antidotes by Persian, 
+Arab, and Jewish physicians. Belief in bezoars made its way to 
+Europe and is mentioned in Johannes de Cuba’s Hortus Sanitatis 
+in 1485 and Pietro d’Abano described their use in 1565 (Barroso, 
+2014, 2017).
+Fossil shark teeth (Glossopetrae), as well, have found appli-
+cation as prophylactics, detectors, and neutralizers of poisons. 
+In medieval times, it was said that such teeth mounted in silver 
+announced poisons by “sweating” or changing color. Their abil-
+ity to detect poison and protect humans from poisoning is cited in 
+Lapidaries such as those of Marbode (11th century), Sloane (16th 
+century), and Jean de Mandeville. Miocence specimens of Otodus 
+megalodon from Malta were said to be the most efficacious of the 
+shark’s teeth. Due to a 16th century shortage of bezoar stones, a 
+substitute that came to be known as Goa Stones was formulated. 
+In addition to various precious stones, coral, ambergris, and musk, 
+they often contained pulverized fossil shark teeth. Often gold-
+plated, they could be housed in containers of elaborate silver or 
+gold. Scrapings from these stones mixed in wine, beer, or other 
+beverages could purportedly ward off the effects of any poisons 
+(Duffin, 2017).
+Alicorn, that is, the horn of the mythical unicorn, was thought 
+to have medicinal and poison detecting qualities. By the end of 
+the 14th century, the idea became established that it too like shark 
+teeth could detect poison by perspiring in the presence of adulter-
+ated food and drink. One of the earliest medieval sources about 
+the medicinal power of unicorns (though the horn per se is not 
+mentioned) is the Physica by Hildegard of Bingen (1098–1179) 
+(Lavers, 2017). James Primrose noted: “It can scarce be said, 
+whether to the Bezaar stone, or to the Unicornes horn the com-
+mon people attributes greater vertues, for those are thought to be 
+the prime Antidotes of all” (Primrose, 1651). Narwhal teeth or the 
+horns of many another animal were likely passed off as unicorn 
+horns. In 1389, John of Herse made a pilgrimage to Jerusalem and 
+observed, “Near the field Helyon in the Holy Land is the river Mara 
+whose bitter water Moses struck with his staff and made sweet so 
+that the children of Israel could drink thereof. Even now evil and 
+unclean beasts poison it after the going down of the sun; but in 
+the morning the unicorn comes from the sea and dips its horn into 
+the stream and thereby expels the poison so that the other animals 
+can drink of it during the day. The fact which I describe I have 
+seen with my own eyes” (Unitarian Review, 1879). There was not, 
+though, universal acceptance of the anti-toxic legitimacy of unicorn 
+products (including powder). Two respected French authorities, 
+Ambroise Paré (1510–1590), court physician to four French kings, 
+and the pharmacist Laurent Catelan (1568–1590) from Montpellier, 
+had differing views on alicorn, with the former a detractor of its 
+efficacy and the latter a proponent (Gerritsen, 2007). Eventually, as 
+with much else, the antidotal property of unicorn horns was con-
+signed to legend.
+18TH AND 19TH CENTURIES
+Hermetical traditions such as alchemy did not suddenly disappear 
+come 1700. Isaac Newton himself was a passionate alchemist, as 
+was Robert Boyle, often considered the father of modern chemis-
+try. That said, the scientific method gained increasing prominence 
+in the 18th and 19th centuries as a way of understanding our uni-
+verse, and toxicology benefited from this more sophisticated and 
+methodical approach. A number of scientists made important con-
+tributions to toxicology during this time.
+Richard Mead (1673–1754) is the author of the first book 
+in English devoted solely to poisons, A Mechanical Account of 
+Poisons in Several Essays. He described the signs and symptoms 
+of snake envenomation, performed chemical tests on venom, and 
+experimented on snakes (to study their venom delivery system) and 
+other animals (Seifert, 2011).
+Bernardino Ramazzini, born in Carpi, Italy, and educated at the 
+University of Parma, was a physician whose seminal achievements 
+have earned him the moniker Father of Occupational Medicine 
+(Pope, 2004). While the connection between workers’ illnesses 
+and their workplace environment, including materials to which they 
+are exposed, had been noted by the ancients, Ramazzini’s analysis 
+of this linkage raised the issue to an entirely new level. The first 
+edition of his most famous book, De Morbis Artificum Diatriba 
+(A Treatise on the Diseases of Workers), published in 1700, is the 
+first comprehensive and systematic work on occupational diseases 
+(Felton, 1997). It outlined the health hazards of chemicals and other 
+substances, including repetitive motions, encountered by workers 
+in over 50 occupations. Among Ramazzini’s many enlighten-
+ing observations, and one in which he quotes Hippocrates, is the 
+following:
+“When you come to a patient’s house, you should ask him what sort of pains 
+he has, what caused them, how many days he has been ill, whether the bow-
+els are working and what sort of food he eats.” So says Hippocrates in his 
+work Affections. I may venture to add one more question: what occupation 
+does he follow?
+The spirit of Ramazzini lives on in the Collegium Ramazzini 
+(CollegiumRazazzini), an independent, international academy 
+founded in 1982 by Irving J. Selikoff and others, to advance the 
+study of occupational and environmental health issues. It holds con-
+ferences, symposia, and training courses, and publishes statements 
+and research papers.
+Another key figure in occupational toxicology is Percivall 
+Pott (1714–1788), born in London. In 1774 he published an essay, 
+Chirurgical Observations Relative to the Cataract, the Polypus 
+of the Nose, the Cancer of the Scrotum. In this he made the link 
+between the profession of chimney sweeps (regarding soot lodg-
+ing in the folds of scrotal skin) and scrotal cancer (Brown and 
+Thornton, 1957). This was the first occupational link to cancer and 
+Pott’s investigations contributed to the science of epidemiology. It 
+wasn’t until the 1920s that benzo[a]pyrene was identified as the 
+actual chemical responsible (Dronsfield, 2006).
+There were many scientists spanning the 18th and 19th cen-
+turies who played significant roles in making toxicology the dis-
+cipline that it is. The ability to synthesize new chemicals and the 
+added ability to detect their presence, especially in small amounts, 
+marked the beginning of the modern era of toxicology. For centu-
+ries, poisonings were confirmed only by confession or eye witness 
+accounts. Making the leap from merely suspecting adulteration or 
+poisoning to irrefutable proof was a major milestone for toxicol-
+ogy. Four scientists who made remarkable advances in the area of 
+chemical detection were Karl Wilhelm Scheele, Christian Friedrich 
+Samuel Hahnemman, Johann Daniel Metzger, and Valentine Rose. 
+Scheele discovered oxygen before Joseph Priestley, although he 
+published his results later. He is also credited with the discovery 
+of hydrofluoric, hydrocyanic, and arsenic acids, and devised meth-
+ods for detecting arsenic in body fluids and corpses. Hahnemman 
+discovered a test for arsenic oxide. Rose and Metzger discovered 
+the first methods for detecting elemental arsenic and arsenic oxides 
+in fluids and tissues (Farrell, 1994). In 1836, the English chemist
+
+10
+General Principles of Toxicology
+Unit I
+James Marsh developed what came to be known as the Marsh test, 
+a groundbreaking method for detecting arsenic.
+The medical celebrity Mathieu Joseph Bonaventure Orfila 
+(1787–1853) is often claimed by Spain (where he was born and 
+studied) and France (where he continued his studies, worked, 
+and died) (Bertomeu-Sanchez and Nieto-Galan, 2006; Bertomeu-
+Sanchez, 2009). While very influential in applying the concepts 
+of chemistry to medicine, it was in toxicology that he excelled 
+and for which he is best known. He became Dean of the Paris 
+Medical Faculty and was a founding member of the Academy of 
+Medicine. At a time when animal experimentation was somewhat 
+less frowned upon, he experimented widely with dogs, varying the 
+amount of poison (such as arsenic) administered and the route of 
+administration, and tested antidotes and treatments. He authored 
+Traite des poisons, one of the most popular textbooks of the first 
+half of the 19th century (Orfila, 1814–1815). He subsequently 
+extracted the sections on antidotes and treatments and published 
+them in a compact free-standing volume designed not only for 
+physicians but also for lay audiences that may not have access to 
+medical care but need to know what to do in the event of a poison-
+ing emergency.
+Orfila was called to act as a medical expert in various crimi-
+nal cases. He is best known for a case involving Marie Lafarge, 
+charged with poisoning her husband. Eyewitnesses had seen her 
+buying arsenic (used to exterminate rats) and stirring a white pow-
+der into her husband’s food. Upon his exhumation, no evidence of 
+arsenic was found using the newly improved test for arsenic devised 
+by James Marsh, although doubts remained whether the physicians 
+were performing the test properly. Orfila was summoned and found 
+definite traces of arsenic in the body, and demonstrated that it did 
+not come from the surrounding soil. Marie Lafarge was found guilty 
+of murder and received a death sentence, later commuted to life in 
+prison. The case cemented Orfila’s reputation as the greatest toxi-
+cologist of the day.
+And yes, indeed, not only Paracelsus, but also Orfila has been 
+called “Father of Toxicology,” but of course representing a differ-
+ent era, and for different reasons. “Father of Forensic Toxicology,” 
+or “Father of Modern Toxicology,” might be more precise. Let’s 
+hope that all these “Father of Toxicology” claims don’t result in 
+any paternity suits.
+In France, Francois Magendie (1783–1855) was best known 
+for his pioneering contributions in neuroscience and neurosurgery, 
+and experimental physiology. His studies on the effects of drugs 
+on different parts of the body though led to the introduction of 
+compounds such as strychnine and morphine into medical practice 
+(Tubbs et al., 2008). His research into the mechanisms of toxicity 
+of these and other alkaloids furthered the science of toxicology.
+Claude Bernard (1813–1878), Magendie’s most celebrated 
+pupil, made several physiological discoveries including the role 
+of the pancreas in digestion, the regulation of the blood supply by 
+vasomotor nerves, and the glycogenic function of the liver. His 
+work also led to an understanding of the self-regulating process of 
+living organisms we now refer to as homeostasis. He won acclaim 
+for his book Introduction à l’Etude de la Médecine Expérimentale 
+(An Introduction to the Study of Experimental Medicine), a classic 
+in the field. He stressed the importance of starting with a hypoth-
+esis and having results which are reproducible, thereby further-
+ing the paradigm of the modern scientific method. In the realm of 
+toxicology, Bernard demonstrated that the mechanism of action 
+of curare resulted from its interference in the conduction of nerve 
+impulses from the motor nerve to skeletal muscle. The sensory 
+nerves were left intact. In addition to curare, he studied the toxico-
+logical properties of other neuroactive compounds such as opium, 
+atropine, strychnine, and nicotine (Bernard, 1857; Conti, 2002). 
+He was also the first to describe the hypoxic effects of carbon 
+monoxide. Bernard was attuned to how the perturbation of bio-
+logical systems by toxic agents can be of value to basic science. 
+He stated:
+Poisons can be employed as means for the destruction of life or as agents for 
+the treatment of the sick but in addition there is a third of particular interest 
+to the physiologist. For him the poison becomes an instrument which dis-
+sociates and analyses the most delicate phenomena of living structures and 
+by attending carefully to their mechanism in causing death he can learn 
+indirectly much about the physiological processes of life …
+While Orfila, as we have seen, also experimented on dogs, and 
+was one of many scientists, including Magendie, to subscribe to ani-
+mal experimentation, Bernard established it as part of the scientific 
+method. He stated:
+Experiments on animals are entirely conclusive for the toxicology and 
+hygiene of man. The effects of these substances are the same on man as on 
+animals, save for differences in degree.
+Bernard, though an acknowledged seminal figure in experi-
+mental medicine, was criticized over his vivisection experiments 
+on unanesthetized animals. The debate over the moral ramifica-
+tions of animal experimentation gained steam during his lifetime. 
+Interestingly, his wife was appalled by this part of his work. She 
+left him, took their daughters, and with them became ardent anti-
+vivisectionists (Cavan, n.d.).
+Greatly influenced by Orfila, Robert Christison (1797–1882), 
+a Scottish physician, was interested in underpinning medical juris-
+prudence, especially toxicology, with a scientific foundation. Early 
+on, he investigated the detection and treatment of oxalic acid poi-
+soning and followed this up with investigations on arsenic, lead, 
+opium, and hemlock. His celebrated book, Treatise on Poisons, first 
+published in 1829, went through four editions. In addition to his 
+work on poisons, he made important contributions in nephrology 
+(Wikisource, n.d.-b).
+Substance abuse, dependence, and addiction have plagued peo-
+ple throughout all time. Published in 1821, Thomas De Quincey’s 
+penetrating Confessions of an English Opium Eater is an autobio-
+graphical account of his opium (more properly laudanum, for he 
+took his opium with alcohol) addiction. His book covers both The 
+Pleasures of Opium and The Pains of Opium. This may have been 
+the first look at drug addiction but was followed by countless oth-
+ers, fact and fiction, in numerous artistic genres, literary, visual, 
+and even musical: to name a few (some made into movies) Aldous 
+Huxley (The Doors of Perception), Hunter S. Thompson (Fear and 
+Loathing in Las Vegas), William S. Burroughs (Naked Lunch and 
+Junky), and Irvine Welsh (Trainspotting). Billy Wilder’s film, The 
+Lost Weekend (1945), featuring Ray Milland, is a classic about alco-
+holism and Frank Sinatra stars as a heroin addict in The Man with 
+the Golden Arm (1955).
+THE MODERN ERA
+Radiation
+The late 19th century is about the time when an understanding of 
+radiation and its potentially hazardous effects began to surface. 
+As is the case with chemicals and biological agents, radiation can 
+be and has been of enormous benefit to society in general and has 
+resulted in countless positive health outcomes via diagnosis and 
+therapy. Nonetheless, precautions are necessary because radia-
+tion hazards can be devastating. In 1895, Wilhelm Röntgen dis-
+covered x-rays, electromagnetic energy waves with wavelengths
+
+The Evolving Journey of Toxicology: A Historical Glimpse
+Chapter 1
+11
+some 1000 times shorter than those of light. He also learned that 
+x-rays could penetrate human flesh. In 1896, Nikola Tesla inten-
+tionally exposed his fingers to x-rays and reported burns. In that 
+same year Henri Becquerel discovered that uranium salts naturally 
+emitted similar rays. Marie Curie, a student of Becquerel, named 
+the phenomenon “radioactivity.” She went on to discover thorium, 
+polonium, and radium, and received the Nobel Prize twice (once 
+with her husband and Becquerel in physics and later in chemis-
+try). Tragically, her death was attributed to aplastic anemia, likely 
+contracted from her extensive work with radioactive materials 
+(Jorgensen, 2016).
+Soon after radium’s discovery, it was manufactured syntheti-
+cally and was believed to have almost magical healing proper-
+ties. It appeared in food products such as bread, chocolate, toys 
+(because of its luminescence), toothpaste, cosmetics, supposito-
+ries, and products to treat impotence. One of the first revelations 
+about the true potency of radioactivity and the scope of its poten-
+tial danger concerned the unfortunate girls who became radium 
+watch dial painters in the early 1900s. These “radium girls” were 
+hired by the U.S. Radium Corporation to apply radium paint to 
+watch and clock faces so they would glow in the dark. They were 
+instructed to use their lips to shape the brushes to a fine point. 
+By 1927, over 50 women died due to radium paint poisoning, 
+and many of the survivors suffered significant health problems 
+(Mullner, 1999).
+The detonation of the world’s first atomic bomb in 1945, the 
+Trinity Test, an outgrowth of the Manhattan Project, took place in 
+the New Mexico desert where the nuclear age literally burst upon 
+the scene. There were no doubts, at this point, about the damage 
+such a bomb could inflict and did. On August 6, 1945, while World 
+War II was raging, an American B-20 aircraft dropped an atomic 
+bomb over the city of Hiroshima, killing nearly 100,000 people on 
+impact and decimating virtually the entire city. Maybe half of that 
+number of people were killed when a second atomic bomb was 
+dropped on Nagasaki. Tens of thousands of people in both cities 
+would later die of radiation exposure or otherwise suffer devas-
+tating injuries (Blow, 2015). The Treaty on the Non-Proliferation 
+of Nuclear Weapons (NPT), which entered into force in 1970 and 
+was extended indefinitely in 1995, seeks to “prevent the spread of 
+nuclear weapons and weapons technology, to promote cooperation 
+in the peaceful uses of nuclear energy and to further the goal of 
+achieving nuclear disarmament and general and complete disarma-
+ment” (UNODA, n.d.).
+Although nuclear weapons were developed and used to inten-
+tionally wreak destruction and havoc, nuclear power plants are 
+designed to harness the force of the atom for peaceful purposes, 
+that is, to generate energy. However, things do not always go as 
+planned. In 1979, the Three Mile Island plant in Pennsylvania 
+suffered a malfunction that led cooling water to escape from the 
+reactor, and the nuclear fuel rods suffered a partial meltdown. 
+Thankfully, there were no detectable health effects in the popula-
+tion at large. In contrast, the people in the area of the Ukraine 
+where the Chernobyl plant was located experienced a dramatic 
+meltdown in 1986 and were not so fortunate. There was no con-
+tainment structure and a plume of radioactive material was sent 
+skyward. An estimated 30 people died from radiation poisoning 
+over a period of weeks and several thousand more were put at 
+risk for cancer. In 2011, a massive earthquake and tsunami dis-
+abled the power supply and cooling of three Fukushima Daiichi 
+reactors in Japan. All three cores melted within days. No deaths 
+from radiation sickness was reported but over 100,000 people 
+were evacuated from their homes (NPR, n.d.; World Nuclear 
+Association, 2017).
+Food and Drugs
+The science of qualitative and quantitative chemical detection was 
+applied most effectively to the detection of chemicals in body flu-
+ids, drugs, and food. In modern society, we have grown so accus-
+tomed to regulations that ensure high standards of purity for most 
+commercial products that it is difficult to remember a time when 
+there were no such protections in place. The realization that there 
+was indeed a need for them evolved gradually. Events leading up to 
+the passage of the Pure Food and Drug Act of 1906 are a good place 
+to start since much of what we consider the modern era of toxicol-
+ogy occurred in and around early efforts to regulate the commerce 
+of food and drugs.
+Toxicology has developed and continues, to some extent, to 
+develop as a reactive (rather than proactive) field. Thus, chemi-
+cal laws and regulations often are enacted in reaction to major or 
+widespread exposure incidents. An early demonstration of this phe-
+nomenon is in the efforts to ensure the safety of certain substances 
+to which virtually everyone was exposed, that is, food and drugs. 
+As early as 1848, chemical analyses of agricultural products were 
+carried out in the U.S. Patent office under the Department of the 
+Interior by Lewis Caleb Beck, an American physician and chemist 
+who researched the adulterants in many drugs commonly prescribed 
+by physicians of the time (Kinch, 2016). In 1846 he published 
+Adulterations of Various Substances Used in Medicine and the 
+Arts with Means of Detecting Them: Intended as a Manual for the 
+Physician, the Apothecary, and the Artisan. His publication helped 
+promote the Drug Importation Act of 1848. At the time, there were 
+six major ports of entry within the United States, namely New York, 
+Boston, Baltimore, Philadelphia, New Orleans, and Charleston, 
+where pharmaceuticals entered the American market. The 1848 law 
+required the U.S. Customs Service to inspect and stop any adulter-
+ated drugs from entering the U.S. market. Inspectors were typically 
+experienced physicians and pharmacists who could more easily 
+detect a counterfeit substance. They were also armed with the added 
+ability to conduct qualitative tests, such as those detailed in Beck’s 
+publication, to determine if a drug was adulterated.
+The Department of Agriculture, which would eventually give 
+rise to the Food and Drug Administration (FDA), was established 
+under Abraham Lincoln in 1862. The Division of Chemistry rested 
+within this department and employed a single chemist Charles 
+Mayer Wetherill. In 1883, Harvey W. Wiley, who was to play a 
+highly influential role in safeguarding the country’s food and 
+drugs, took over as the Division’s fourth chemist. The Division of 
+Chemistry became the Bureau of Chemistry in 1901 and in 1902 
+Wiley was granted $5000 to administer what came to be called the 
+“Poison Squad” experiments. These experiments involved asking 
+healthy volunteers to consume measured amounts of preservatives 
+routinely added to food items to determine whether they were safe 
+for human consumption. The experiments were carried out in a 
+controlled setting with meals prepared by a designated cook and 
+chemist William R. Carter (Pray, 2003). Although cringeworthy by 
+today’s ethical standards, some of the chemicals fed to these young 
+men were borax, benzoic acids, and formaldehyde. While many still 
+question the validity of these sensational experiments, the publicity 
+helped to enlighten consumers about the potential dangers of adul-
+terated foods and the importance of accurate labeling.
+Wiley was not alone in his pursuit to rid the market of impure 
+foods and drugs. Journalists as well took up the cause of expos-
+ing quack medicines and adulterated food staples thereby fueling 
+Wiley’s efforts. The so-called muckraking journalists of the early 
+20th century exposed hundreds of patent medicines as misleading, 
+harmful, and sometimes deadly. One example (of many) was the
+
+12
+General Principles of Toxicology
+Unit I
+case of acetanilide, a nonsteroidal anti-inflammatory drug used 
+to treat pain and reduce fever, but highly toxic. In 1905, Samuel 
+Hopkins Adams published, in Collier’s Weekly, “The Great 
+American Fraud,” a sensational article exposing the hoax of pat-
+ent medicines (Adams, 1905). Upton Sinclair’s 1906 book, The 
+Jungle, detailed unsanitary conditions of workers in the meat pack-
+ing industry. “The Jungle” was published as a serial in 1905 and 
+then as a book in 1906. Despite the many efforts to pass legislation 
+to ensure food and drug safety prior to 1906, nothing seemed to get 
+through both the House and Senate and, unfortunately, many bills 
+languished for years. Wiley worked tirelessly to institute food and 
+drug legislation throughout his tenure at the FDA (1883–1912) and 
+during this time over 100 food and drug bills were introduced in 
+Congress with nearly all failing to gain any traction.
+The Pure Food and Drugs Act and the Meat Inspection Act were 
+passed on the very same day in 1906 by the then president Theodore 
+Roosevelt. The former law became known as the “Wiley Bill” due 
+to Harvey Wiley’s efforts. The Bureau of Chemistry was reorga-
+nized in 1927 into the Food, Drug, and Insecticide Administration, 
+later renamed the Food and Drug Administration and ultimately 
+moved out of the Department of Agriculture entirely and into what 
+is now the Department of Health and Human Services.
+To backtrack a bit in time, England’s attention to the adul-
+teration of food and drugs actually preceded that of the United 
+States by a half century. Friedrich Accum, Wiley’s counterpart 
+in the United Kingdom, published a book in the 1820s titled A 
+Treatise on the Adulterations of Food, and Culinary Poisons with 
+the subtitle There Is Death in the Pot. Accum wrote about hun-
+dreds of poisonous additives commonly used in food products to 
+either sweeten, color, or bulk up foods. He also pointed a finger 
+at the perpetrator, giving the names and addresses of the offend-
+ing manufacturers, which was unprecedented at the time (Accum, 
+1820; Oser, 1987). Accum became extremely unpopular among 
+wealthy shop owners and he eventually left the country. Friedrich 
+Accum and, later, Thomas Wakley and Arthur Hill Hassall were the 
+figures most responsible for the campaign to prevent food adultera-
+tion which eventually resulted in food and drug legislation in the 
+United Kingdom (Oser, 1987).
+The 1906 Pure Food and Drug Act in the United States did not 
+have the broad impact that was intended. Wiley and other supporters 
+were hopeful that the law would have far reaching implications and 
+broadly protect the food supply. However, as written, its main pur-
+pose was to ban foreign and interstate traffic of adulterated, falsely 
+advertised, or mislabeled food and drug products. It empowered the 
+U.S. Bureau of Chemistry to inspect products and refer offenders 
+to prosecutors, but gave no prosecutorial power to the agency itself. 
+For example, during the Jamaican Ginger poisonings detailed in 
+the next paragraph, the FDA was not involved in the investigation 
+or prosecution of the crime until well after the case was resolved 
+by a judge. The law required that the active ingredients be placed 
+on the label of a drug’s packaging and that drugs could not fall 
+below purity levels established by the United States Pharmacopeia 
+(USP) or the National Formulary. The USP and National Formulary 
+guidelines were established some years earlier by a group of phy-
+sicians and pharmacists, and served as a foundation for the Pure 
+Food and Drugs Act. Although the law was popular, it was virtu-
+ally impossible to enforce. The 1906 law prevented the manufac-
+ture, sale, or transportation of adulterated, misbranded, poisonous, 
+or deleterious foods, drugs, medicines, and liquors. The new law 
+led to the establishment of government-run analytical laboratories, 
+and the conditional removal of certain ingredients such as ethanol, 
+herbal mixtures, and coloring agents in most but not all cases. Many 
+sections of the Act were overturned by the then Associate Justice 
+Oliver Wendell Holmes and the U.S. Supreme Court in 1911. Wiley 
+left the Bureau of Chemistry in 1912. The 1906 Act was not per-
+fect, but it was a perfect jump start to the subsequent food and drug 
+reform laws in the United States.
+Prohibition in the United States ran from 1920 to 1933. During 
+this time, there were very few legal means for obtaining alcohol. 
+One of the few remaining options for alcohol consumption was via 
+a doctor’s prescription which would allow one to procure whis-
+key or rum from a pharmacist. Meanwhile, it was legal to purchase 
+over-the-counter patent medicines or elixirs containing alcohol. 
+Some disreputable drug companies began increasing the alcoholic 
+content of their medicines or inventing new ones composed almost 
+entirely of alcohol. One infamous concoction was Jamaica Ginger, 
+which contained between 70% and 80% alcohol by weight. The 
+U.S. Treasury Department required changes to the ingredients of 
+Jamaica Ginger to discourage its abuse. The minimum requirement 
+of ginger solids per cubic centimeter of alcohol resulted in a bitter 
+concoction that was not palatable. Inspectors would often boil down 
+the liquid and weigh the solids to ensure that the concoction was 
+formulated appropriately. Two bootleggers (Harry Gross and his 
+brother-in-law Max Reisman) developed an alternative recipe that 
+could pass the inspection and taste well enough to sell by adding 
+tri-ortho-cresyl phosphate (TOCP) to the mixture. In early 1930 
+reports began to pour in detailing strange paralysis of the legs, arms, 
+and wrists with little to no recovery in large numbers of people 
+throughout the midwest. By 1931 the disease, which had come to 
+be known colloquially as Ginger Jake paralysis, had reached epi-
+demic proportions affecting an estimated 10,000 people across the 
+country from New York to California. Doctors eventually traced 
+the illness back to the Jamaica Ginger elixir, but since the typical 
+ingredients (as listed in the U.S. Pharmacopeia) were not known 
+to cause disease they immediately suspected a contaminant was 
+responsible. The matter was taken up by the Public Health Service’s 
+National Institutes of Health (NIH), which was newly formed from 
+the Hygienic Laboratory in 1930. It was there that the adultera-
+tion with tri-ortho-cresyl phosphate was discovered. There were 
+over 35,000 members of the United Victims of Ginger Paralysis 
+Association (Morgan and Penovich, 1978). The Ginger Jake epi-
+sode and other cases of false therapeutic claims made it clear that 
+change needed to come to the 1906 law, and change it did, propelled 
+by the sulfanilamide poisonings of 1937–1978.
+Sulfa drugs were a 20th century miracle for the treatment 
+of bacterial and fungal infections. The first sulfa drug, Protonsil, 
+showed no effect in vitro with bacterial assays but was extremely 
+effective in vivo. It was later discovered that Protonsil is metabo-
+lized to sulfanilamide in vivo and the science of the bioactivation 
+of drugs was revealed. The discovery of sulfanilamide was heralded 
+as a major event in combating bacterial diseases. However, for a 
+drug to be effective there needed to be an equally effective delivery 
+system. Sulfanilamide is highly insoluble in an aqueous solution. 
+Originally prepared as an elixir in ethanol, chemists discovered that 
+the drug was more soluble in diethylene glycol. Therefore, the latter 
+solvent replaced it, and a sweet syrup was added to make it more 
+palatable to children. The new preparation was labeled an “elixir.” 
+Many patients, most of whom were children, died of acute kidney 
+failure resulting from metabolism of the glycol to oxalic acid and 
+glycolic acid. The drug and its metabolites crystallized in the kidney 
+tubules, leading to renal failure (Wax, 1994). This tragedy led to the 
+passage of the 1938 Food, Drug, and Cosmetic (FD&C) Act, also 
+known as the Copeland Bill, named for Senator Royal S. Copeland. 
+It contained provisions for both misbranding and adulteration. 
+A cosmetic was deemed to be adulterated if it “contains any poison-
+ous or deleterious substance that may render it injurious to users
+
+The Evolving Journey of Toxicology: A Historical Glimpse
+Chapter 1
+13
+under customary conditions of use.” The misbranding provisions 
+prohibited labeling that is “false or misleading in any particular.” 
+The law also required that a package’s ingredients and their amounts, 
+as well as the name and address of the manufacturer, packer, or dis-
+tributor, be clearly displayed on the label. To enforce the statute, the 
+FDA was given search, seizure, and prosecutorial powers.
+The sulfanilamide disaster played a critical role in the develop-
+ment of toxicology and inspired the research of Eugene Maximillian 
+Geiling in the Pharmacology Department of the University of 
+Chicago that elucidated the mechanism of toxicity of the sulfanil-
+amide elixir (diethylene glycol). These studies began at the heart of 
+the investigations in the late 1930s (Geiling et al., 1938). Studies of 
+the glycols were simultaneously carried out at the FDA by a group 
+led by Arnold Lehman, another legendary modern toxicologist.
+Frances Oldham Kelsey was a research assistant in Geiling’s 
+lab at the University of Chicago during the sulfanilamide investiga-
+tions and was responsible for conducting the animal toxicity test-
+ing with sulfanilamide. She earned a PhD from the University of 
+Chicago in 1938 and graduated from Chicago’s medical school in 
+1950. She started working at the FDA in 1960 where she was tasked 
+with reviewing new drug applications for U.S. approval. Among 
+her first assignments was a new drug thalidomide (Kevadon), an 
+anti-nausea medication, also used to alleviate morning sickness in 
+pregnant women, recently licensed by the William S. Merrell drug 
+company based in Cincinnati, Ohio. The company had already dis-
+tributed the drug to over 1200 U.S. doctors with the expectation 
+that it would be approved quickly. Drugs could go on the market 
+60 days after the manufacturer filed an application with the FDA. 
+It was often the practice of pharmaceutical companies to supply 
+doctors with the new drugs and they were encouraged to test them 
+on patients. Kelsey held up the application and asked Merrell for 
+more information regarding its safety. By 1961 it became clear that 
+thalidomide posed a serious safety risk. Infant deaths and defor-
+mities were occurring at an alarming rate across Europe and the 
+German manufacturer began pulling the drug from the market in 
+late 1961. By 1962 the application for approval in the United States 
+was withdrawn completely. Though never licensed in the United 
+States, physicians distributed the drug as samples to patients. 
+The government estimated that more than 2 million tablets were 
+distributed to around 20,000 patients in the United States and by 
+late 1962 there were at least 17 babies with thalidomide-related 
+defects. Worldwide, there were more than 10,000 babies born with 
+thalidomide-related defects and countless pregnancies that ended 
+in miscarriage (the exact number is unknown). The tragedy could 
+have been far worse in the United States if not for the efforts of 
+Frances Kelsey. The thalidomide tragedy led to the 1962 Kefauver-
+Harris Amendments to the FDA signed by the then President John F. 
+Kennedy. With these amendments, the FDA was given the authority 
+to require proof of efficacy (rather than just safety) before a new 
+drug could gain approval. The amendments created the ground-
+work for the multi-phased approval process involving clinical tri-
+als, which is still very much in use today. Interestingly, under strict 
+controls, in recent years thalidomide has been reintroduced as a 
+treatment for certain symptoms of leprosy.
+Even with the current laws in place, occasionally a drug 
+must be highly regulated, recalled, or removed from the open 
+market for reasons such as toxicity, impurities, lack of efficacy, 
+or abuse potential. Clinical trials are conducted on populations 
+significantly smaller than those eventually using the drug. Side 
+effects not detected prior to approval often become apparent in 
+the larger population. All other factors being equal, many effects 
+are harder to detect in a small sample size. Increasing the sample size 
+enhances the statistical power of a test which is the situation after 
+approval when the drug is taken by many more people. Although 
+drugs are often voluntarily removed from the market, there are 
+cases where the FDA orders a drug to be recalled or removed. 
+Mylotarg (gemtuzumab ozogamicin), for example, was approved 
+under an accelerated approval process in 2000 for the treatment 
+of acute myelogenous leukemia. In 2010 the drug was voluntarily 
+withdrawn from the market by its manufacturer Pfizer. A phase 3 
+comparative controlled clinical trial demonstrated an increase in 
+mortality. Additionally, the drug was not considered to be more 
+effective over conventional cancer therapies available at the time. 
+Vioxx (rofecoxib) was one of the largest worldwide (by Merck) 
+recalls ever. This nonsteroidal, anti-inflammatory medication for 
+arthritis was responsible for perhaps over 27,000 heart attacks and 
+cardiac deaths. These effects did not emerge in the original clinical 
+trials but subsequent trials confirmed the danger.
+From around 1938 to 1971, millions of pregnant women were 
+prescribed diethylstilbestrol (DES) as a hormone-replacement 
+therapy and to prevent miscarriages and premature births. Research 
+during the 1950s showed it was not effective. Before long it was 
+discovered that DES caused a rare vaginal cancer (clear cell adeno-
+carcinoma) in girls and young women who had been exposed to 
+DES in the womb (Herbst et al., 1971). It was recalled from the 
+market in 1971.
+In some cases, a drug may be removed from the market tem-
+porarily to protect consumers. In 1982, there were several deaths 
+eventually linked to Tylenol brand acetaminophen capsules. The 
+capsules were laced with potassium cyanide (Wolnik et al., 1984). 
+Several copycat crimes followed this incident; most notably, the 
+conviction of Stella Nickell in 1987. Stella Nickell laced Excedrin 
+capsules with cyanide, killing both her husband and a woman who 
+purchased the tampered product. Crimes such as these made clear 
+the need for tamper-evident packaging and led to the passage of 
+the Federal Anti-Tampering Act of 1983. Tamper-evident packag-
+ing created visual evidence for the consumer that a product was 
+opened or damaged prior to purchase. The new packaging didn’t 
+provide 100% protection against tampering but made it much more 
+difficult to tamper.
+The FDA is routinely scrutinized by Congress, the public, drug 
+companies, and consumer advocacy groups. Amendments and other 
+changes are issued as the need arises according to the changing 
+landscape of drug use, discovery, and development.
+Among the latest of these changes is the process by which 
+the FDA plans to review applications for new drugs in the future. 
+The FDA implemented an initiative to harmonize the review and 
+approval process for new drugs with the SEND initiative in 2016. 
+SEND stands for the Standard for Exchange of Nonclinical Data 
+and is an implementation of the Clinical Data Interchange Standards 
+Consortium (CDISC) Standard Data Tabulation Model (SDTM) for 
+nonclinical studies. The primary purpose of SEND is to present 
+nonclinical data consistently regardless of the source of the data.
+Pesticides Research and Chemical Warfare: 
+A Surprising Alliance
+Naturally derived pesticides have been used to protect crops for 
+thousands of years. The first recorded use of insecticides took place 
+some 4500 years ago with the Sumerians who dusted elemental 
+sulfur on their crops. Three thousand two hundred years ago, the 
+Chinese used mercury and arsenic compounds to control body 
+lice (Unsworth, 2010). Synthetic pesticide development and use is 
+a product of the 20th century. The histories of synthetic pesticide 
+use and chemical warfare agents go at least partially hand in hand. 
+Their research and development was widespread throughout the
+
+14
+General Principles of Toxicology
+Unit I
+United States and Europe during the early 20th century. Many of the 
+chemical warfare agents manufactured during World War I and II 
+were discovered while conducting pesticide research. The chemi-
+cals under investigation were typically noxious chlorine derivatives 
+and were discovered to be mildly to extremely toxic to humans. 
+Not surprisingly, the peacetime attention to pesticide research was 
+diverted to weaponizing many of these fortuitous discoveries dur-
+ing wartime. The effort behind the wartime manufacture of these 
+agents was immense and after the war there was a surplus of what 
+may arguably be considered the deadliest chemicals ever invented. 
+The post-war effort was primarily geared toward disposal of these 
+agents, although many were merely transferred and stockpiled in 
+various countries outside of Germany. From 1946 through 1948 
+large amounts of various chemical weapons confiscated during 
+World War II were dumped into the Baltic Sea after the war in a 
+military campaign known as “Operation Davy Jones’ Locker” 
+(Kaffka, 1995). These materials continue to contaminate the waters 
+and poison fishermen and wildlife as they are slowly released from 
+their containers. The containers were not suitable for long-term 
+storage and degraded over time.
+Germany was responsible for much of the large-scale produc-
+tion of pesticides and warfare gases used in the early to mid-1900s. 
+Fritz Haber, a German scientist, sought a way to capture nitrogen 
+in the air for use in large-scale fertilizer production. His success, 
+with further contributions from Carl Bosch, at nitrogen fixation 
+(the Haber-Bosch process), garnered him the Nobel Prize in 1918. 
+The Haber-Bosch process was instrumental in the manufacture of 
+nitrogen-based explosives for the German Army during World War I 
+(Hager, 2009). Some argue that the Germans would have run out 
+poisonous gases if not for Fritz Haber and Carl Bosch. Bosch also 
+researched the weaponization of toxic substances such as chlorine, 
+phosgene, and mustard gas, leading to the largest deployment of 
+chemical weapons in modern history. During World War I, the 
+Germans launched a chemical attack using chlorine gas in Ypres, 
+Belgium in 1915. Phosgene, which is now used in the manufac-
+ture of pesticides and plastics, was employed extensively by the 
+Germans during World War I and accounted for nearly 85% of all 
+gas-related fatalities during that war (Marrs et al., 2007). Tabun was 
+the first nerve agent to be synthesized in 1937 by the IG Farben sci-
+entist Gerhard Schrader during his research to discover new organo-
+phosphate insecticides. The human toxicity of tabun was realized by 
+accident during its development in 1935. Tabun causes acetylcholin-
+esterase inhibition in the peripheral and central nervous systems. The 
+symptoms that result include trembling, convulsions, and respiratory 
+paralysis. During World War II, tabun was manufactured as a part of 
+the Grün 3 program in Brzeg Dolny, Poland in 1942. The plant was 
+seized by the Soviet Army and moved to Russia. The production 
+and stockpiling of chemical warfare agents continued throughout 
+World War II. In the 1930s Willy Lange (a German biochemist) and 
+Gerhard Schrader also discovered organophosphate cholinesterase 
+inhibitors including sarin, soman, cyclosarin, and other less potent 
+organophosphate insecticides. This class of chemicals was destined 
+to become a driving force in the study of neurophysiology and toxi-
+cology for several decades (Sneader, 2006).
+The United States embarked upon an active research program 
+to study the effects of exposure to these nerve agents and to develop 
+a means of defense. Much of this early research occurred at the 
+University of Chicago. The growth of toxicology in academia grew 
+out of these studies of organophosphate pesticides. Eugene Geiling 
+and Kenneth Dubois at the University of Chicago in the 1940s were 
+instrumental in these early studies. Their dedication to fostering the 
+education of so many other scientists in the field of toxicology was 
+pivotal to the development of toxicology programs around the country.
+It should also be noted that, pesticides aside, the spread of 
+toxicology through academic development of eager scientists 
+was accomplished decades earlier through the work of Oswald 
+Schmiedeberg (1838–1921) and Louis Lewin (1850–1929) at the 
+University of Strasbourg and Berlin in Germany, respectively. 
+Schmiedeberg trained approximately 120 students in toxicology 
+and Lewin, who trained under Matthias Eugen Oscar Liebreich at 
+the Pharmacological Institute of Berlin (1881), studied the chronic 
+toxicity of narcotics and other alkaloids. Lewin also published much 
+of the early research on the toxicity of methanol, glycerol, acro-
+lein, and chloroform (Lewin, 1920, 1929). Lewin wrote in his book 
+Gifte und Vergiftungen (1929) of the causal connection between 
+dental amalgam fillings and illness. One of his famous patients was 
+the well-known chemistry professor Alfred Stock (1876–1946), 
+who suffered from mercury poisoning due to chronic exposure to 
+mercury vapors which was common among chemists at the time. 
+Lewin informed Stock of the toxicity of mercury exposure from 
+dental amalgams. In 1926 in an article in Zeitschrift für Angewandte 
+Chemie (Journal of Applied Chemistry), Stock sided with the claim 
+that mercury released from amalgam fillings caused poisoning and 
+demanded that the use of mercury for this purpose be stopped.
+Though Schmiedeberg and Lewin had a 60- to 70-year head 
+start, the efforts at the University of Chicago were no less signifi-
+cant. Geiling and Dubois’s toxicology lab there investigated the 
+effects of chemical warfare agents synthesized by chemists work-
+ing at the National Defense Research Council’s Office of Scientific 
+Research and Development. This organization (NDRC/OSRD) 
+was founded in 1940 by Franklin Delano Roosevelt to manage and 
+conduct scientific research related to the problems underlying the 
+development, production, and use of devices and materials used for 
+warfare. The university had a very large smokestack on the grounds 
+making it an ideal place on campus to study the effects of poisonous 
+gases. The toxicology lab at the University of Chicago was active 
+for about 30 years, dissolving in the late 1960s (Doull, 2001). The 
+lab produced many scientists who became leaders in the field of tox-
+icology. These scientists went to other academic institutions, gov-
+ernment agencies, and industrial laboratories and were instrumental 
+in establishing many toxicology laboratories and programs through-
+out the United States, consequently spreading their knowledge and 
+influence and lending credibility to the discipline. Members of 
+Geiling and DuBois’s group were the leaders in organophosphate 
+toxicology. DuBois’s colleagues, principally Sheldon Murphy, con-
+tinued to be in the forefront of this special area of study for many 
+years. Geiling and Dubois wrote the first undergraduate toxicology 
+text, Textbook of Toxicology, in 1959 (DuBois and Geiling, 1959). 
+In 1975, Louis Casarett and John Doull (1923–2017) followed with 
+what has become the most widely accepted toxicology text in aca-
+demic programs—Toxicology: The Basic Science of Poisons, cur-
+rently in its ninth edition and edited by Curtis D. Klaassen of the 
+University of Kansas. John Doull was a revered scientist and mentor 
+who remained active in toxicology through most of the first quarter 
+of the 21st century.
+The importance of the early research on the organophos-
+phates has taken on special meaning in the years since 1960. 
+Organophosphate insecticides are typically short-lived and do not 
+persist in the environment or bioaccumulate up the food chain. For 
+this reason, many were used as a replacement for DDT and other 
+persistent organochlorine insecticides. Today, a third generation of 
+insecticides, mainly pyrethroids, has replaced many of the organo-
+phosphates formerly used.
+DDT was recognized as an insecticide by Paul Hermann Müller 
+in 1939, a discovery which won him the Nobel Prize in Physiology 
+in 1972. DDT was extremely effective in preventing the spread of
+
+The Evolving Journey of Toxicology: A Historical Glimpse
+Chapter 1
+15
+malaria in developing countries. It was the chemical of choice for 
+controlling insect populations in the United States as well. Not long 
+after its introduction, it was discovered to have detrimental effects 
+on wildlife, particularly on certain species of birds. The chemical 
+caused fragility in eggshells and thus many birds didn’t reproduce 
+effectively and populations diminished over time. The work and 
+research of Rachel Carson brought this to the attention of environ-
+mental scientists and to the public when she published her find-
+ings in the book Silent Spring in 1962 (Carson, 1962). Although 
+she encountered considerable opposition from those in the research 
+community, her conclusions could not be refuted. The subsequent 
+1972 ban of DDT was a milestone in toxicological history for sev-
+eral reasons. For one, it was the first ban of a chemical based upon 
+its effects on wildlife. Further, the grassroots effort surrounding 
+the desire to ban DDT joined other environmental advocacy move-
+ments, which together were instrumental in influencing the gov-
+ernment to create the Environmental Protection Agency (EPA) in 
+1970. Although DDT can still be legally manufactured in the United 
+States, its use is prohibited. However, it is still used on some conti-
+nents such as South America and South Africa and has effectively 
+decreased the incidence of certain diseases such as malaria, typhus, 
+and bubonic plague.
+Another popular and critically important book which has had 
+a strong influence on toxicology as it relates to pesticides and other 
+chemicals (such as DES discussed above) is Theo Colburn’s Our 
+Stolen Future published in 1996 with a foreword by the then Vice 
+President Al Gore. It brought the concept of endocrine disruption, 
+while not a new one, to the public and scientific forefront. The 
+book argued that endocrine active (or estrogen mimicking) com-
+pounds may be eliciting effects at doses considerably lower than 
+toxicities caused by other mechanisms, and that reproductive and 
+developmental risks can be significant. U.S. federal agencies have 
+since funded a multitude of research projects related to endocrine 
+disruption.
+The Poison Control Center Movement and 
+High Profile Poisonings
+Pesticides were not the only class of chemicals synthesized and 
+used in great quantities in the mid-20th century. Many other poten-
+tially harmful industrial chemicals flooded the market. Poisoning in 
+the home increased principally in young children with the advent 
+and widespread use of laundry and cleaning agents. In the 1950s 
+the American Academy of Pediatrics formed a special committee 
+to consider the problem of poisoning in children. Louis Gdalman 
+had already begun the first poison information services, however 
+modest, in the 1930s at Saint Luke’s Hospital in Chicago. He kept 
+a detailed card index of the most common poisons along with their 
+treatments and antidotes and maintained and answered a call line 
+or hotline for emergencies as well. By 1953 the Chicago Area 
+Poisoning Control Program was established with Saint Luke’s at 
+its epicenter in Chicago and Louis Gdalman as its head. Today this 
+poison control center is known as the Chicago and Northeastern 
+Illinois Regional Poison Control Center. Poison control cen-
+ters were founded in Boston and New York soon after the one in 
+Chicago, and by 1955 there were a total of 17 centers. There were 
+661 poison control centers in 1978 at the height of the poison con-
+trol center movement. The number of active centers since then has 
+dramatically decreased due, largely, to federal and state funding 
+cuts (Institute of Medicine Committee on Poison Prevention and 
+Control, 2004). There were approximately 54 active poison con-
+trol centers nationwide in 2014 and they provided telephone guid-
+ance for nearly 2.2 million human poison exposures. Most poison 
+control centers are also able to handle queries related to companion 
+animals, and the ASPCA (American Society for the Prevention of 
+Cruelty to Animals), founded in 1866, manages its own special-
+ized Animal Poison Control Center, established in 1996. It operates 
+24 hours a day, 365 days a year. The invention of child-safety-lock 
+packaging reduced many accidental pediatric ingestions and the 
+iconic figure Mr. Yuk taught children to identify hazardous sub-
+stances in the home. Ways to protect consumers from chemical 
+products in the home was one issue that was fervently addressed 
+with numerous campaigns geared toward education and prevention.
+Poisonings, even apart from their irregular use in chemi-
+cal warfare or inadvertent household exposures, have continued 
+unabated from ancient times forward. Several of these have been of 
+high profile personalities and some have been suicides. In 1978, Jim 
+Jones, founder of the Peoples Temple, led over 900 of his followers, 
+one third of them children, to their deaths, by ordering them to drink 
+a cyanide-laced punch drink in Jonestown, Guyana. An umbrella 
+outfitted with a firing mechanism was used to administer the poison 
+ricin to the leg of Georgi Markov, a Bulgarian dissident and writer. 
+He died several days later. Nazi leaders such as Hitler, Himmler, 
+and Goering committed suicide with cyanide and were responsible 
+for the poisoning deaths of millions of Jews during World War II. 
+In 1995, five plastic bags of liquid sarin were punctured with metal-
+tipped umbrellas in Tokyo subway cars during rush hour releas-
+ing the deadly nerve gas. The Aum Shinrikyo religious cult, led by 
+Shoko Asahara, was found responsible. In 2004, prior to his election 
+as President of Ukraine, Viktor Yuschchenko was poisoned with 
+dioxin, resulting in severe facial disfigurement due to chloracne. In 
+2006, Alexander Litvinenko, a former officer of the Russian state 
+security organization FSB was poisoned by, and died from, radio-
+active polonium-210. In February 2017, Kim Jong Nam, the half-
+brother of North Korean Leader Kim Jong Un, was assassinated at a 
+Malaysian airport when two women rubbed his face with the lethal 
+nerve agent VX. It is clear that poisons continue to be a weapon of 
+choice in politics and in society (Famous Deaths).
+Mass Environmental Exposures, the U.S. 
+EPA, and Environmental Legislation
+Years prior to the advent of a full-fledged grassroots environmen-
+tal movement, a variety of events made clear the fragility of our 
+environment. The Donora Smog, for example, was a historic air 
+inversion in Pennsylvania that killed 20 people and sickened 7000 
+more in 1948. In 1952, during the so-called Great Smog of London, 
+over 5 days, more than normal coal emissions mixed with fog in 
+a temperature inversion resulted in thousands of deaths and tens 
+of thousands of hospitalizations. Recent research has determined 
+that Londoners were breathing in the fog equivalent of acid rain. 
+Sulfate was a big contributor to the fog, and sulfuric acid particles 
+were formed from sulfur dioxide released by coal-burning for resi-
+dential use and power plants (Wang et al., 2016). It was the Great 
+Smog that led to passage of the 1956 Clean Air Act in the United 
+Kingdom. In Cleveland, the Cuyahoga River is remembered as the 
+body of water polluted from decades of industrial waste which infa-
+mously caught fire in 1969 (and, in fact, on earlier occasions as 
+well). One seminal event, a harbinger of environmental awareness, 
+was the celebration of the first Earth Day on April 22, 1970, an 
+ongoing annual event.
+More direct cause–effect incidents involving chemicals also 
+began coming to light. Most companies didn’t originally have 
+built-in strategies for removing the waste they created. A common 
+modus operandi was to create landfills for dumping the chemical 
+byproducts that accumulated because of the manufacturing process.
+
+16
+General Principles of Toxicology
+Unit I
+The increase in the manufacture of chemicals translated to both an 
+increase in direct human exposure via ingestion of products kept in 
+the home, and an increase in indirect human exposure via leaching 
+of dumped chemicals into the ground water, air, and food supply. 
+One of the earliest and most pivotal demonstrations of the issue of 
+chemical dumping in the United States that is, and one that would 
+influence the course of toxicology, was the environmental disaster 
+that came to be known as Love Canal. Epidemiological and other 
+scientific studies confirmed the tragedy.
+Love Canal in Niagara Falls, New York was used as a dump 
+site by the Hooker Chemical Company for over a decade. In the 
+1970s, long after it was capped and an entire community built on 
+top of it, weather patterns forced chemical waste into the ground-
+water and at surface. The entire area was found to be contaminated 
+with a variety of toxic chemicals, which led to a cluster of illnesses 
+among the residents living in the area. The activism around the 
+contamination and subsequent cleanup led to legislation that would 
+ensure that other chemically contaminated sites would receive gov-
+ernment funding for cleanup and move families to prevent further 
+exposure. This law, the Comprehensive Environmental Response, 
+Compensation, and Liability Act (CERCLA), commonly known 
+as Superfund, was enacted by Congress on December 11, 1980. 
+Administered by the EPA, it authorizes the cleanup of uncontrolled 
+or abandoned hazardous-waste sites as well as accidents, spills, and 
+other emergency releases of pollutants and contaminants into the 
+environment.
+Love Canal paved the way for other communities and sites to 
+be cleaned up as well. Contaminated communities were found, for 
+example, in Times Beach, Missouri where dioxin was discovered, 
+and in Woburn, Massachusetts, where the primary contaminant of 
+concern was trichloroethylene. Hexavalent chromium was discov-
+ered in Hinkley, California, and asbestos contamination in Libby, 
+Montana. The EPA was given the responsibility to develop risk 
+assessment methodology to determine health risks from exposure 
+to effluents and to attempt to remediate these sites. Exposure to 
+chemicals from these waste sites tend to be highly variable and 
+unpredictable because they typically involve exposure to a mix-
+ture of chemicals. The effort behind the Love Canal incident led to 
+broad-based support for research into the mechanisms of action of 
+individual chemicals and complex mixtures.
+Regrettable as it is that the consequences of toxic environmen-
+tal exposure fall upon anyone, it is even more unfortunate that the 
+burden is often borne by communities otherwise disadvantaged or 
+in the minority, be it as a result, for example, of poverty, race, or 
+education. Environmental justice, which advocates for the fair treat-
+ment of people of all persuasions with regard to the development, 
+implementation, and enforcement of environmental laws, regula-
+tions, and policies, is but one example. The National Environmental 
+Justice Advisory Council (NEJAC), a federal advisory committee to 
+the EPA, was established in 1993.
+Superfund was amended as a virtually direct result of the 
+release of methyl isocyanate from a Union Carbide insecticide plant 
+in Bhopal, India, in 1984. With an immediate death toll of some 
+4000, a final death toll of many thousands more, and even more 
+victims who suffered and are still suffering lingering effects, Bhopal 
+disaster remains probably the worst industrial accident in history. 
+An important law authorized by Title III of the 1986 Superfund 
+Amendments and Reauthorization Act (SARA) is the Emergency 
+Planning and Community Right-to-Know Act (EPCRA). It requires 
+public records of chemicals managed at facilities, and provides 
+the EPA with the authority to work with states and localities to 
+prevent accidents and develop emergency plans in case of danger-
+ous releases of chemicals (“EPA Superfund”). The EPA’s Toxics 
+Release Inventory (TRI), a publicly accessible online database, is an 
+outgrowth of EPCRA. It lists, among other annually collected data, 
+the numbers of pounds of certain potentially hazardous chemicals 
+released to the environment.
+Outside of this fairly straight line to regulations protecting the 
+American public from chemical releases, there was no shortage of 
+other disasters throughout history. For decades in the early part of 
+the 20th century, one of Japan’s Chisso Corporation plants began 
+releasing methylmercury in industrial wastewater to Minamata Bay. 
+It bioaccumulated in the aquatic life in the Bay and was eaten by 
+the local populace, as well as animals. With the situation not discov-
+ered until 1956, it took a severe toll on the population. Over 2000 
+victims suffered from severe nervous system symptoms, and many 
+of those died (Hachiya, 2006). Referencing this disaster as well as 
+many other health concerns of the chemical, the 2013 Minamata 
+Convention on Mercury is a global treaty to protect human health 
+and the environment from the adverse effects of the chemical and 
+its compounds (“Mercury Convention”). Itai-itai, another disease 
+outbreak in Japan, was caused by cadmium poisoning, resulting 
+from the release of large quantities of this chemical into the Jinzū 
+River from mining operations. Weak and brittle bones are among 
+the main effects. Again, it took decades for this to come to light 
+and investigations were not undertaken in earnest by the Toyama 
+Prefecture until 1961. In Italy, the 1976 Seveso disaster was the 
+result of an industrial accident. Named after the Italian town of 
+Seveso, it resulted in the exposure of thousands of people to dioxin. 
+Chloracne was among the main sequelae and there was an excess 
+risk of lymphatic and hematopoietic tissue neoplasms in the most 
+exposed zones (Pesatori et al., 2009). Man-made as well as natu-
+rally occurring environmental accidents involving chemicals have 
+occurred throughout the world. Some of these exposures were 
+avoidable and some were not. When natural phenomenon leads to 
+chemical exposures we are often left without a clear understanding 
+of the cause. On August 15, 1984, Lake Monoun in West Province, 
+Cameroon exploded in a limnic eruption, in which dissolved car-
+bon dioxide suddenly erupted from deep lake waters, forming a 
+gas cloud with suffocating potential. The gas killed 37 people. At 
+that time, such eruptions involving volcanic lakes were unknown. It 
+was still unclear how to deal with this type of disaster 2 years later 
+when on August 21, 1986 a similar and even more deadly eruption 
+occurred at Lake Nyos, about 100 km (62 mi) NNW. The Lake 
+Nyos eruption killed approximately 1746 people and more than 
+3000 livestock. Lake Monoun, Lake Nyos, and Lake Kivu are the 
+only known volcanic lakes in the world to have high concentrations 
+of gas dissolved deep below the surface (Kling et al., 2005). The 
+buildup of these gases can result in a limnic eruption. Currently 
+efforts are underway to understand these volcanic lakes and devise 
+ways to safely degas them without harming humans or surround-
+ing plant and animal life. With each new environmental mishap or 
+disaster, we are reminded of the fragility of human life and the eco-
+system. We can learn by understanding how and why these expo-
+sures occur and either prevent or prepare for the next incident.
+The Toxic Substances Control Act (TSCA) is a U.S. law 
+passed by the United States Congress in 1976 and administered 
+by the United States Environmental Protection Agency. The law 
+regulates the introduction of new or already existing chemicals. 
+When the TSCA was put into place, all existing chemicals were 
+considered to be safe for use. There were, however, some 62,000 
+chemicals that were never tested by the EPA because they were 
+“grandfathered” in and statutorily not considered an “unreasonable” 
+risk. The TSCA did not require any toxicity testing before submit-
+ting a Pre-Manufacturing Notice (PMN). No safety information 
+was required to be included in the PMN. The EPA had to rely on
+
+The Evolving Journey of Toxicology: A Historical Glimpse
+Chapter 1
+17
+computer modeling to determine whether the new chemical “could” 
+present an unreasonable risk. The 2013 reform to the law aimed 
+to fix the key flaws in TSCA’s safety standard. These flaws led to 
+the EPA’s inability to ban asbestos. The new changes allowed the 
+EPA to order testing without first having to show potential risk, and 
+making more information about chemicals available to states, health 
+professionals, and the public by limiting trade-secret allowances. 
+The Frank R. Lautenberg Chemical Safety for the 21st Century Act 
+revised the standard TSCA used to determine whether regulatory 
+control of a certain chemical is warranted. If a chemical presents 
+an unreasonable risk of injury to health or the environment, TSCA 
+requires the EPA to initiate rulemaking to reduce risks to a reason-
+able level. The bill requires that standard to be based on exposure 
+to a chemical under its conditions of use.
+A sampling of other significant environmental legisla-
+tion administered by the EPA includes the Federal Insecticide, 
+Fungicide, and Rodenticide Act (FIFRA) (1947), which regulates 
+pesticides, the Clean Air Act (1970), the Clean Water Act (1972), 
+the Safe Drinking Water Act (1974), and the Resource Conservation 
+and Recovery Act (RCRA) (1976), giving the agency the authority 
+to control hazardous waste from “cradle to grave,” all strengthened 
+in various ways with amendments since their initial implementation.
+The Registration, Evaluation, Authorisation and Restriction 
+of Chemicals (REACH) is a European Union regulation dated 
+December 18, 2006. REACH requires all companies manufactur-
+ing or importing chemical substances into the European Union in 
+quantities of one ton or more per year to register these substances 
+with the European Chemicals Agency (ECHA) in Helsinki, Finland. 
+Since REACH applies to some substances that are contained in 
+products (“articles” in REACH terminology), any company import-
+ing goods into Europe could also be affected.
+Occupational Safety and Health and 
+Industrial Toxicology
+As we have seen, concerns about occupational safety date back 
+to antiquity. Modern industrial toxicology in the United States, 
+though, was born out of the Bureau of Labor Statistics (BLS) in 
+the early 1900s with the first report on industrial hygiene commis-
+sioned in 1903 by Carroll D. Wright, the Bureau’s first commis-
+sioner. Charles P. Neill, Commissioner of the Bureau when the 
+1906 Meat Inspection Act and Food and Drug Act were passed, 
+was responsible for inspecting the meat packing factories just prior 
+to the passage of these laws. Neill was an advocate for industrial 
+health and safety issues and made them a priority for the Bureau. 
+After the Federal Employees’ Compensation Act of 1908, Neill 
+began to put even greater emphasis on industrial hygiene and safety. 
+He was aware of and impressed by Alice Hamilton, Chief Medical 
+Examiner for the Illinois State Commission on Occupational 
+Diseases, and convinced her to work for the BLS. She was given 
+the official title of “Special Investigator of Industrial Diseases” and 
+one of her first assignments was to investigate companies in the 
+United States that manufactured white lead. She discovered 358 
+cases of lead poisoning between 1910 and 1911, 16 of which were 
+fatal. She also discovered incidents of lead poisoning in the pot-
+tery making industry and in the painter’s trade. Alice Hamilton 
+was a modern-day pioneer of occupational safety comparable to 
+Ramazzini in his day. She traveled the country documenting the 
+diseases associated with various occupations, and while not offi-
+cially employed by the government during her early excursions, 
+her research and reports were respected and procured by the gov-
+ernment. She conducted surveys throughout the United States 
+and abroad. She read extensively on worker protection. While the 
+subject was documented and recognized as an official branch of 
+medicine in Europe, workplace-related diseases and preventive 
+measures received scant attention in the United States. Government 
+officials at that time were unconcerned, and assured her that the 
+working conditions in the United States were better than those in 
+other countries so there was no need for industrial safety. However, 
+a survey conducted by the BLS under Carroll Wright proved oth-
+erwise. Investigations of the match-making industry revealed hun-
+dreds of workers suffering from “phossy jaw” after being exposed 
+to phosphorous dust particles. The disease caused painful swelling 
+of the gums and jaw. Abscesses in the jaw that resulted in partial 
+or total removal of the jawbone were common. Often the condi-
+tion led to organ failure and death. Phossy Jaw was well known in 
+both Europe and the United States at the time. European industrial 
+medicine experts warned of this occupational disease in their coun-
+tries, but the United States did little to protect or warn its workers. 
+Hamilton was determined to document and make public informa-
+tion about these diseases so that something could be done to pro-
+tect workers. During her surveys, she gained entry into countless 
+factories, becoming well informed of the manufacturing processes 
+for various trades. She was the leading authority on lead poison-
+ing and reported on the high mortality rates of workers in the lead 
+industries. Her reports undoubtedly invigorated the laws that were 
+passed, as many were a direct response to tragedies or diseases she 
+uncovered in workplaces across the country. The seed for occupa-
+tional safety was planted by a small group of concerned officials, 
+but it was cultivated by Hamilton who became the eyes and ears of 
+the movement (Hamilton, 1943).
+The BLS was not the only organization to address occupa-
+tional health and safety concerns. The Bureau of Mines, for exam-
+ple, was created in 1910, within the Department of the Interior, 
+and health and safety were within its purview. The National Safety 
+Council was established in 1911. An Office of Industrial Hygiene 
+and Sanitation was established within the Public Health Service 
+in 1914. The Journal of Industrial Hygiene started publication in 
+1918. By the late 1940s many of the country’s largest companies 
+(such as Dow, Du Pont, and Union Carbide) began to establish inter-
+nal toxicology laboratories to help ensure worker safety. Frank A. 
+Patty who served as Director of Industrial Hygiene for General 
+Motors authored Industrial Hygiene and Toxicology in 1948. His 
+book, now known as Patty’s Industrial Hygiene and Toxicology 
+has gone through many editions and is a standard of the field. 
+The Occupational Safety and Health Administration (OSHA) was 
+founded in 1971 with the first guidelines for standards of safety 
+following in 1972. Hamilton published Industrial Hygiene in 1925, 
+the first American textbook in the field. She published Industrial 
+Toxicology in 1934.
+Harriet Hardy was a physician from Massachusetts. She 
+became interested in industrial toxicology and began working for 
+the Massachusetts Division of Occupational Medicine. She began 
+studying the diseases of workers in the fluorescent bulb industries in 
+Ipswich, Lynn and Salem, Massachusetts around 1945 (Castleman, 
+1994). She discovered that many of the workers contracted beryl-
+liosis. Berylliosis is caused by the inhalation of dust or fumes con-
+taining beryllium. The disease presents itself with coughing, weight 
+loss, shortness of breath, and scarring of the lungs. While beryllium 
+was a main area of study for Dr. Hardy throughout her career, she 
+also studied anthrax and mercury poisoning. Alice Hamilton invited 
+Hardy to update Industrial Toxicology. Hamilton and Hardy’s 
+Industrial Toxicology, now in its 6th edition, is another classic of the 
+field. The OSHA passed in 1970 by President Nixon also created 
+the National Institute for Occupational Safety and Health (NIOSH). 
+Although OSHA is the regulatory agency that establishes limits to
+
+18
+General Principles of Toxicology
+Unit I
+chemical exposures in the workplace and investigates workplace 
+hazards, NIOSH conducts research to help to reduce workplace ill-
+nesses and accidents.
+MISCELLANEOUS ORGANIZATIONS
+While organizations are discussed throughout this chapter in the 
+context of the particular subject under consideration, we gather 
+together here several additional professional societies, governmental 
+organizations, and other bodies that been influential in toxicology.
+The discipline and profession of toxicology has grown enor-
+mously in the past century. There are numerous scholarly societ-
+ies, professional and government organizations, conferences, 
+textbooks, and educational programs, all dedicated to toxicology. 
+The Society of Toxicology (SOT) was founded in 1961 by Fredrick 
+Coulston, William Deichmann, Kenneth DuBois, Victor Drill, 
+Harry Hayes, Harold Hodge, Paul Larson, Arnold Lehman, and C. 
+Boyd Shaffer (Hays, 1986). There were 108 charter members who 
+joined SOT the first year. There are now thousands of members of 
+SOT in addition to members of affiliate organizations who attend 
+the annual conference. To name just a few other groups devoted 
+to more specialized areas of toxicology, consider the International 
+Society of Toxinology (est. 1962), the American Academy of 
+Clinical Toxicology (est. 1968), the Society of Forensic Toxicology 
+(est. 1970), the Society of Toxicologic Pathology (est. 1971), the 
+Society of Environmental Toxicology and Chemistry (est. 1979), 
+the American College of Toxicology (est. 1979), the Society of Risk 
+Analysis (est. 1980), and the International Society for the Study of 
+Xenobiotics (est. 1981).
+The FDA continues to play a primary role in toxicology 
+research and regulations. The National Center for Toxicological 
+Research (NCTR), founded in 1971 to support FDA’s ability to 
+make science-based decisions, is considered its research arm. The 
+National Institute of Environmental Health Sciences (NIEHS) is a 
+branch of the National Institutes of Health (NIH) and was founded 
+in 1969 to study the effects of the environment on human disease. 
+NIEHS is home to the National Toxicology Program, an interagency 
+program of the Department of Health and Human Service (DHHS), 
+and dedicated to testing and evaluating substances in the environ-
+ment. Other U.S. government agencies, although their mission does 
+not focus on toxicology, are in fact involved in it to one extent or 
+another. Examples are the Department of Transportation, which 
+regulates hazardous materials, and the Department of Housing and 
+Urban Development, which considers toxic chemicals in dwellings. 
+The Consumer Product Safety Commission is a regulatory agency 
+charged with protecting the public from unreasonable risks of injury 
+or death associated with the use of consumer products, including 
+household chemicals. Certainly, state and local jurisdictions also 
+must deal with issues relating to toxicology and environmental 
+health.
+The Gordon Research Conferences “provide an international 
+forum for the presentation and discussion of frontier research in the 
+biological, chemical, and physical sciences, and their related tech-
+nologies” (Gordon Research Conferences, n.d.). They have played 
+a key role in the history of toxicology and in furthering its research. 
+A series of conferences were held on toxicology and safety evalua-
+tion, beginning with one chaired by Bernard Oser in 1956. Indeed, 
+it was at the conference in 1961 at Kimball Union Academy in 
+Meriden, New Hampshire that the first organizational meeting 
+for SOT was held. There continue to be several Gordon Research 
+Conferences of toxicological relevance each year.
+There are also several organizations that offer certification in 
+toxicology. The American Board of Toxicology is considered the 
+“gold standard” in the field for many and its diplomats receive the 
+“DABT” designation upon successful completion of the exam. 
+The Academy of Toxicological Sciences, the American Board of 
+Medical Toxicology, the American Board of Forensic Toxicology, 
+and the American Board of Veterinary Toxicology are also among 
+the main certifying organizations within the various toxicology 
+disciplines.
+The Federation of European Toxicologists and European 
+Societies of Toxicology, or EUROTOX, fosters the science and 
+teaching of toxicology throughout Europe. On an even broader 
+global level, the International Union of Toxicology, founded in 
+1980, has as its members toxicology societies from around the 
+world, and hosts the triennial International Congress of Toxicology 
+(ICT) in addition to the Congress of Toxicology in Developing 
+Countries (CTDC).
+INTERNATIONAL ENVIRONMENTAL 
+CONVENTIONS AND OTHER GLOBAL 
+EFFORTS
+Given that toxic agents do not respect national borders, it is impor-
+tant to seek, where possible, international agreements on control-
+ling them. Globally, there are treaties that have had, and continue 
+to have, a strong component related to chemicals management. 
+Multilateral Environmental Agreements (MEAs) is the broad term 
+used to encompass such agreements, some of which are directly 
+relevant to toxicology in terms of managing potentially hazard-
+ous chemicals. While such international conventions were signed 
+even in the early years of the 20th century, most of them are an 
+outgrowth of several United Nations conferences, that is, the UN 
+Conference on the Human Environment (Stockholm, 1972), the 
+UN Conference on Environment and Development, aka the Earth 
+Summit (Rio de Janeiro, 1992), and the UN World Summit on 
+Sustainable Development (Johannesburg, 2002). The big three 
+MEAs particularly relevant to chemicals management are the 
+Basel Convention on the Control of Transboundary Movements 
+of Hazardous Wastes and their Disposal (adopted 1989; entered 
+into force 1992), the Rotterdam Convention on the Prior Informed 
+Consent Procedure for Certain Hazardous Chemicals and Pesticides 
+in International Trade (adopted 1998; entered into force 2004), 
+and the Stockholm Convention on Persistent Organic Pollutants 
+(adopted 2001; entered into force 2004).
+Complementing the treaties above is the Strategic Approach 
+to International Chemicals Management (SAICM), a non-binding 
+policy framework to promote chemical safety around the world. 
+Its overall objective is “the achievement of the sound management 
+of chemicals throughout their life cycle so that by the year 2020, 
+chemicals are produced and used in ways that minimize significant 
+adverse impacts on the environment and human health.” SAICM’s 
+objectives are grouped into five themes: risk reduction; knowledge 
+and information; governance; capacity-building and technical coop-
+eration; and illegal international traffic. SAICM’s final decision-
+making meeting before the 2020 goal, the fourth session of the 
+International Conference on Chemicals Management, was held in 
+Geneva in 2015.
+ANIMAL ALTERNATIVES, RISK 
+ASSESSMENT, AND GREEN CHEMISTRY
+While we have already seen how poisoning incidents and environ-
+mental accidents can spur legislation and consequently influence 
+and advance the course of toxicological science, another issue has
+
+The Evolving Journey of Toxicology: A Historical Glimpse
+Chapter 1
+19
+played a major role as well. The practice of using animals in sci-
+entific experiments with the ultimate aim of advancing biomedical 
+research and safeguarding human health has had a long and check-
+ered history. Greeks such as Aristotle and Erasistratus perfor­
+med experiments on living animals as early as the 4th century bc  
+(Hajar, 2011). Though animal experimentation was generally 
+well intentioned and has resulted in significant breakthroughs in 
+improving health, there have always been ethical concerns and 
+continued questions about relevance and cost. Over the years, more 
+and more, the public advocated for, and toxicologists employed, 
+alternative means to assess the toxicity and safety of toxicants. The 
+need for less expensive, and more efficient and germane, means of 
+testing were spurs to the search for animal alternatives, in support 
+of the significant argument of compassion.
+W.M.S. Russell and R.L. Burch first proposed the concept of 
+the Three Rs, standing for Replacement, Reduction, and Refinement, 
+in 1959 (Russell and Burch, 1959). These ethical principles are 
+widely adhered to throughout the world as a way to significantly 
+limit the number of animals used in scientific experimentation. The 
+term alternatives, as an approximate synonym for the Three Rs, 
+was coined by the distinguished physiologist David Smyth in 1978 
+(Smyth, 1978). The U.S. Animal Welfare Act, signed into law in 
+1966, regulates the treatment of animals in research and exhibition, 
+and was a good first step in addressing the issues of animal use but 
+it wasn’t until the technology advanced sufficiently that true inroads 
+were made into alternatives to animal testing, which in turn were an 
+impetus to strengthen the framework of risk assessment.
+The EPA defines human health risk assessment as “the process 
+to estimate the nature and probability of adverse health effects in 
+humans who may be exposed to chemicals in contaminated environ-
+mental media, now or in the future.” In 1983, the National Research 
+Council (NRC), in its publication, Risk Assessment in the Federal 
+Government (also known as the Red Book), set forth a critical para-
+digm for assessing risks consisting of four steps: (1) hazard iden-
+tification, (2) dose–response assessment, (3) exposure assessment, 
+and (4) risk characterization. They also drew a distinction between 
+this scientifically grounded process and the process of risk manage-
+ment, which ideally relies upon it, but brings into play economic, 
+legal, social, technological, and political factors, as well as public 
+values (National Research Council, 1983). A complementary NRC 
+publication in 2009 focused on improving both the technical analy-
+sis supporting risk assessment and the utility of risk assessment, 
+that is, making it more relevant to and useful for risk-management 
+decisions and offered several recommendations (National Research 
+Council, 2009). An NRC companion volume of another sort urged 
+strengthening activities in exposure science (National Research 
+Council, 2012). Given that exposure assessment is a critical step 
+in the risk assessment process, it has been surprisingly underem-
+phasized as a scientific companion to toxicology. The committee 
+preparing this report “envisions a shift toward a toxicologic assess-
+ment program that has an interface with exposure science and is 
+influenced by and responsive to human and environmental expo-
+sure data.” Most recently, in 2017, the National Academies issued 
+the report, “Using 21st Century Science to Improve Risk-Related 
+Evaluations” (https://www.nap.edu/catalog/24635/using-21st-
+century-science-to-improve-risk-related-evaluations). It considers 
+advances in molecular and cellular biology, omics technologies, 
+analytical methods, bioinformatics, and computations tools, look-
+ing as well at exposure science, and makes recommendations 
+for integrating these new scientific approaches into risk-based 
+evaluations.
+The Precautionary Principle is a relatively recent means of inte-
+grating ethical and common sense concerns into the risk assessment 
+process. The 1998 Wingspread Statement on the Precautionary 
+Principle summarizes it as follows:
+When an activity raises threats of harm to human health or the environment, 
+precautionary measures should be taken even if some cause and effect rela-
+tionships are not fully established scientifically. In this context the propo-
+nent of an activity, rather than the public, should bear the burden of proof.
+While not new conceptually (e.g., better safe than sorry), 
+formalizing it has helped incorporate the principle into vari-
+ous policies and laws. Although not scientifically grounded, it 
+invokes common sense for many people, scientists included. 
+The Stockholm Treaty on Persistent Organic Pollutants, for 
+example, invokes the Precautionary Principle to govern geneti-
+cally modified organisms and some toxic chemicals (http://sehn.
+org/wingspread-conference-on-the-precautionary-principle/).
+Tied in with both modern approaches to non-animal testing 
+and bringing risk assessment into the 21st century is the concept of 
+“Green Chemistry.” The term was coined in 1991 by Paul Anastas, at 
+the time an EPA staff chemist, who also developed and launched the 
+EPA’s Green Chemistry Program (Anastas, 2009). It was after pub-
+lication of his 1998 groundbreaking book Green Chemistry: Theory 
+and Practice that this approach to creating safer chemical products 
+was better appreciated by toxicologists (Anastas and Warner, 2000). 
+Sometimes called “sustainable chemistry,” its focus is on the design 
+of chemical products and processes that reduce or eliminate the use 
+or generation of hazardous substances and applies across the life 
+cycle of such products. Sustainability itself has become one of the 
+early 21st century’s buzzwords. There is no universal definition of 
+sustainable development, but one of the most widely quoted and 
+earliest comes from the 1987 Brundtland Commission Report, also 
+known as Our Common Future: “Development that meets the needs 
+of the present without compromising the ability of future genera-
+tions to meet their own needs” (Brundtland Commission, 1987). 
+This very broad definition easily encompasses green chemistry and 
+the direction toxicology should be taking in the future.
+INFORMATION RESOURCES
+Often overlooked in discussions, historical or otherwise, of any 
+science, is its informatics framework. The National Library of 
+Medicine (NLM), currently a component of the National Institutes 
+of Health (NIH), began life in 1836 in the office of the U.S. 
+Army Surgeon General. The Index Catalogue to its collection 
+of monographs and periodicals was launched in 1880 and Index 
+Medicus, the first comprehensive index of journal articles, in 1879. 
+Toxicology papers have been in scope since those early years. 
+The Toxicology Information Program was established at NLM in 
+1967 at the behest, a year earlier, of the President’s (i.e., Lyndon 
+Johnson) Science Advisory Committee. The Committee concluded 
+that “there exists an urgent need for a much more coordinated and 
+more complete computer based file of toxicological information 
+than any currently available and, further, that access to this file 
+must be more generally available to all those legitimately need-
+ing such information” (PSAC, 1966). The program was renamed 
+the Toxicology and Environmental Health Information Program 
+(TEHIP) in 1994.
+The TOXLINE database, intended to be a comprehensive 
+bibliographic resource for scientific literature on toxicology, 
+started operation in 1972 and ultimately was incorporated into 
+the larger TOXNET system (“Toxnet”). Today, TEHIP offers an 
+extensive array of free online databases including TOXLINE, the 
+Hazardous Substances Data Bank (HSDB), the chemical diction-
+ary ChemIDplus, the Household Products Database, Haz-Map, an
+
+20
+General Principles of Toxicology
+Unit I
+occupational health and toxicology database, EPA’s Toxics Release 
+Inventory, and many more.
+The EPA’s Aggregated Computational Toxicology Online 
+Resource (ACToR), with data on over 500,000 chemicals, is 
+another major portal as is the OECD’s eChemPortal, initiated in 
+2004 in response to the request by the World Summit on Sustainable 
+Development to improve the availability of hazard data on chemi-
+cals. Finally, the European Chemicals Agency (ECHA) offers a 
+unique source of information on well over 100,000 chemicals 
+(https://echa.europa.eu/information-on-chemicals).
+WHERE ARE WE HEADED?
+Looking to the future, toxicology, no differently than other sci-
+ences, will continue to rely heavily upon the knowledge gained 
+from basic research. New techniques and technologies have only 
+improved the field of toxicology. The sequencing of the human 
+and other genomes has markedly affected all biological sciences. 
+Toxicology is no exception. Today new animal models, especially 
+zebrafish, Caenorhabditis elegans, and Drosophila melanogaster 
+(all of which have orthologs of human genes), are widely used 
+in toxicology. The understanding of epigenetics is opening novel 
+approaches to the fetal origin of adult diseases including cancers, 
+diabetes, and neurodegenerative diseases and disorders. The dis-
+covery of micro RNAs and siRNAs has significantly improved our 
+ability to understand the function of certain genes. The 21st cen-
+tury genome editing tool CRISPR (Clustered Regularly Interspaced 
+Short Palindromic Repeats) will likely find its way into a variety of 
+toxicological applications.
+Small interfering RNA (siRNA) or short interfering RNA is a 
+class of double-stranded RNA molecules ranging from 20 to 25 base 
+pairs in length. Small interfering RNA functions through the RNA 
+interference (RNAi) pathway and works by blocking the expression 
+of specific genes with a complementary nucleotide sequence. The 
+result of this interaction prevents translation of the target mRNA. 
+David Baulcombe and Andrew Hamilton discovered these inhibitory 
+elements in plants, and later the phenomenon was discovered in C. 
+elegans by Craig Mello and Andrew Fire (Fire et al., 1998; Hamilton 
+and Baulcombe, 1999). Their discoveries gave rise to a new tool 
+for biomedical research and drug discovery. Significant therapeutic 
+advances have been made in rare genetic diseases, infectious dis-
+eases, and other more common illnesses based on the siRNA plat-
+form. RNAi-based therapeutics include drugs targeting age-related 
+macular degeneration (AMD), respiratory syncytial virus (RSV), 
+hepatitis C, cancer, and renal failure. The development of these 
+unique and specific therapies and the platform around gene silenc-
+ing is responsible for the increase in pharmaceutical companies and 
+academic centers devoted to this area of research. The number of 
+new and existing companies and academic programs with RNAi 
+programs is too numerous to list here, but they are the platform from 
+which new advances in research and drug discovery will mature.
+Contemporary toxicology is spreading its research tentacles 
+in a variety of directions. The toxicological study of nanomateri-
+als promises to yield significant findings based upon quantum 
+size effects and large surface area to volume ratios. They may 
+pose unique threats to the environment and humans. The recently 
+articulated concept of the exposome, in a sense of the environmen-
+tal equivalent of the human genome, considers the many complex 
+exposures we are subjected to throughout our lives, including 
+diet, lifestyle, and social influences. Systems biology is increas-
+ingly being used to identify biomarkers of toxicant exposure and to 
+understand molecular mechanisms of toxic pathways. Researchers 
+are uncovering the significant role of the microbiome in affecting 
+toxicity. Meanwhile, organs-on-chips are a new technology which 
+may, in the future, revolutionize toxicity testing.
+Few disciplines can point to both basic sciences, direct appli-
+cations, and societal influences at the same time. Toxicology may be 
+unique in this regard. The mechanisms of action of the xenobiotics 
+studied by toxicologists, in the tradition of Claude Bernard, con-
+tinue to be the tools of modern biology. Adverse outcome pathways 
+(AOPs), today, are being recognized as a new construct for orga-
+nizing biological information. Data, its generation and application, 
+have always been a critical element in science. Today, big data, open 
+data, and data science are all the rage, even though there seem to be 
+no uniform definitions. In general terms, though, big data refers to 
+data sets that are extremely large and require advanced computation 
+to reveal patterns and trends. Open data refers to data that can be 
+shared freely by all. One of the primary objectives is to accommo-
+date interoperability to allow different data sets to work in tandem. 
+Data science is an even more generic term encompassing big data, 
+open data, and more. The 2017 annual conference of the Society 
+of Toxicology convened an informational session on “Supporting 
+Open Data in Toxicology.” Its goals were “to provide basic con-
+ceptual frameworks to increase open access to toxicological data, 
+encourage cross-discipline collaboration, link existing toxicological 
+research data with computational toxicology and Tox21, and ensure 
+long-term sustainability for toxicological data resources into the 
+future.”
+Tox21 (Toxicology in the 21st Century) is a federal collabora-
+tion among the EPA and various NIH branches aiming to develop 
+better toxicity assessment methods to quickly and efficiently test 
+whether certain chemical compounds have the potential to disrupt 
+processes in the human body that may lead to negative effects 
+(https://www.epa.gov/chemical-research/toxicology-testing-21st-
+century-tox21). Since its inception in 2008, it has focused its 
+chemical screening initiatives on two themes: (1) generating fit-
+for-purpose cellular models for secondary screening, and (2) devel-
+oping a high-throughput gene expression core facility. In a related 
+vein, Evidence-based Toxicology took a cue from Evidence-based 
+Medicine to more coherently adapt assessment and validation of 
+toxicological test methods and testing strategies (Hoffmann et al., 
+2016). The Evidence-based Toxicology Collaboration (EBTC), 
+founded in 2011 at the Johns Hopkins Bloomberg School of Public 
+Health, sees itself as “guided by the themes of transparency, objec-
+tivity and consistency.”
+One of the great challenges remaining is the issue of mixtures. 
+While most research focuses on single chemicals, we are, in fact, 
+exposed to many chemicals at a time and over time. Learning how 
+they interact with each other in causing their effects upon organisms 
+is a critical question. Related to this is the issue of the effects of 
+chemicals or combinations thereof in common household products 
+including furniture, cars, electronics, and baby products.
+The history of toxicology is rich with fascinating narratives 
+that span many scientific disciplines. There are few fields which 
+have interacted so widely and intimately with its sister sciences. 
+Toxicologists are shaped in academia where they learn and develop 
+the primary skillset to conduct basic research to understand mecha-
+nisms of chemical interaction and biological processes. Graduate 
+and undergraduate programs continue to develop and improve. 
+Toxicology is taught in schools of public health, medical schools, 
+and schools of pharmacy inside and outside of the United States. 
+Toxicologists from academic laboratories continue to seed other 
+academic institutions, government organizations, and private indus-
+tries, as the guardians of human, animal, and environmental health.
+The upward trajectory of toxicology continues unabated. Its sci-
+entific foundation is becoming more assured, precise, and relevant.
+
+The Evolving Journey of Toxicology: A Historical Glimpse
+Chapter 1
+21
+Challenges will remain and part of the drag on its thrust will be inter-
+mittent funding and political constraints but these will not be pow-
+erful enough to interfere with long-term progress. Toxicology will 
+continue to build upon its history, and build a trail of new history. A 
+better understanding of toxicant exposures, individual and combined, 
+and their effects upon living organisms will lead to an era when the 
+global environment will be significantly safer and the world’s popu-
+lace healthier. Reaching this goal will take time and labor but it is 
+achievable as we look toward the future and learn from the past.
+ACKNOWLEDGMENTS
+The editor and authors recognize contributions of previous authors 
+of this chapter: Louis J. Casarett (1st and 2nd editions), Margaret C. 
+Bruce (2nd and 3rd editions), John Doull (3rd and 4th editions), 
+and Michael A. Gallo (4th to 8th editions).
+REFERENCES
+Accum F. A Treatise on Adulteration of Food, and Culinary Poisons, 
+Exhibiting the Fraudulent Sophistications of Bread, Beer, Wine, 
+Spirituous Liquors, Tea, Oil, Pickles, and Other Articles Employed in 
+Domestic Economy and Methods of Detecting Them. London: Longman, 
+Hurst, Rees, Orme, and Brown; 1820.
+Adams S. The Great American Fraud. New York: Collier and Son; 1905.
+Anastas P. Green Chemistry? He Invented the Term. New York: New York 
+Academy of Sciences; 2009.
+Anastas PT, Warner JC. Green Chemistry: Theory and Practice. New York: 
+Oxford University Press; 2000.
+Ardestani MM, Rahimi R, Esfahani MM, Habbal O, Abdollahi M. The 
+golden age of Medieval Islamic toxicology. In: Wexler P, ed. History of 
+Toxicology and Environmental Health. Toxicology in the Middle Ages 
+and Renaissance. Academic Press; 2017:11–30.
+Arihan O, Arihan SK, Touwaide A. The case against Socrates and his execu-
+tion. In: Wexler P, ed. History of Toxicology and Environmental Health; 
+Vol. 1: Toxicology in Antiquity. Academic Press; 2014:69–82:chap 8.
+Barker S. Poisons and the prince: toxicology and statecraft at the Medici 
+Grand Ducal Court. In: Wexler P, ed. History of Toxicology and 
+Environmental Health. Toxicology in the Middle Ages and Renaissance. 
+Academic Press; 2017:71–81.
+Barroso MS. Animal stones and the dark age of Bezoars. In: Wexler P, ed. 
+History of Toxicology and Environmental Health. Toxicology in Middle 
+Ages and Renaissance. Academic Press; 2017:115–124.
+Barroso MS. The Bezoar stone: a princely antidote, the Tavora Sequeir 
+Pinto Collection—Oporto. Aca Med-Hist Adriat. 2014;12(1):77–98.
+Bernard C. Leçons sur les Effets des Substances Toxiques et 
+Medicamenteuses. Paris: Baillière; 1857.
+Bertomeu-Sanchez JR. Popularizing controversial science: a popular trea-
+tise on poisons by Mateu Orfila (1818). Med Hist. 2009;53(3):351–378.
+Bertomeu-Sanchez JR, Nieto-Galan A, eds. Chemistry, Medicine, and 
+Crime (Mateu J.B. Orfila (1787-1853) and His Times. Sagamore Beach, 
+MA: Science History Publications; 2006.
+Blow M. The Atomic Bomb. New Word City, Inc.; 2015.
+Borzelleca JF. Paracelsus: herald of modern toxicology. Toxicol Sci. 
+1999;53(1):2–4.
+Brown JR, Thornton JL. Percivall Pott (1714–1788) and chimney sweepers’ 
+cancer of the scrotum. Br J Ind Med. 1957;14(1):68–70.
+Brundtland Commission. Our Common Future. New York: Oxford 
+University Press; 1987.
+Carson R. Silent Spring. Boston, MA: Houghton Mifflin; 1962.
+Castleman 
+B. 
+Remembering 
+Harriet 
+Hardy, 
+M.D. 
+New 
+Solut. 
+1994;4(3):33–34.
+Cavan S. Animal experimentation: the tragic legacy of science; n.d. 
+Available at: http://userwww.sfsu.edu/kazbeki/animexper.html. Accessed 
+August 8, 2017.
+Cilliers L, Retief F. Lead poisoning and the downfall of Rome: reality or 
+myth? In: Wexler P, ed. History of Toxicology and Environmental Health; 
+Vol. 1: Toxicology in Antiquity. Academic Press; 2014a:118–126:chap 11.
+Cilliers L, Retief F. Poisons, poisoners, and poisoning in ancient Rome. In: 
+Wexler P, ed. History of Toxicology and Environmental Health; Vol. 1: 
+Toxicology in Antiquity. Academic Press; 2014b:127–137:chap 12.
+Cobb C. The case against the Borgias. In: Wexler P, ed. History of 
+Toxicology and Environmental Health. Toxicology in the Middle Ages 
+and Renaissance. Academic Press; 2017:53–62.
+Conti F. Claude Bernard’s Des Fonctions du Cerveau: an ante litteram 
+manifesto of the neurosciences? Nat Rev Neurosci. 2002;3(12):979–985.
+Dal Bello M. La leggenda nera. I Borgia (a TV series). Città Nuova. 2012.
+Dash M. Aqua Tofana: slow poisoning and husband-killing in 17th 
+century Italy. A blast from the past; 2015. Available at: https://
+mikedashhistory.com/2015/04/06/aqua-tofana-slow-poisoning-and- 
+husband-killing-in-17th-century-italy/.
+Dayan AD. What killed Socrates? Toxicological considerations and ques-
+tions. Postgrad Med J. 2009;85:34–37.
+de Boer JZ. The oracle at Delphi: the Pythia and the pneuma, intoxicating 
+gas finds, and hypotheses. In: Wexler P, ed. History of Toxicology and 
+Environmental Health; Vol. 1: Toxicology in Antiquity. Academic Press; 
+2014:83–91.
+Doull J. Toxicology comes of age. Annu Rev Pharmacol Toxicol. 
+2001:41:1–21.
+Dronsfield A. Percival Pott, chimney sweeps and cancer. Education in 
+Chemistry. Royal Society of Chemistry; 2006. Available at: https://eic.rsc.
+org/feature/percival-pott-chimney-sweeps-and-cancer/2020205.article.
+DuBois K, Geiling EMK. Textbook of Toxicology. New York: Oxford 
+University Press; 1959.
+Duffin CJ. Fossil sharks’ teeth as alexipharmics. In: Wexler P, ed. History 
+of Toxicology and Environmental Health. Toxicology in the Middle Ages 
+and Renaissance. Academic Press; 2017:125–134.
+Duramy BF. Women and poisons in 17th century France. Chi-Kent L Rev. 
+2012;87(2):347–370.
+Farrell M. Pioneer forensic toxicologists: Marsh, Orfila and their predeces-
+sors. Criminologist. 1994;18(1):33–36.
+Felton JS. The heritage of Bernardino Ramazzini. Occup Med (Lond). 
+1997;47(3):167–179.
+Fire A, Xu S, Montgomery MK, Kostas SA, Driver SE, Mello CC. Potent and 
+specific genetic interference by double-stranded RNA in Caenorhabditis 
+elegans. Nature. 1998;391(6669):806–811.
+Fornaciari G, Bianucci R. I e Bianca: Una Scomoda Verita [Francesco I 
+and Bianca: An inconvenient truth]. Paleopatologia.It; 2010. Available 
+at: http://www.paleopatologia.it/attivita/pagina.php?recordID=24.
+Furst A. Moses Maimonides. Toxicol Sci. 2001;59(2):196–197.
+Gantenbein UL. Poison and its dose: Paracelsus on toxicology. In: Wexler 
+P, ed. History of Toxicology and Environmental Health. Toxicology in the 
+Middle Ages and Renaissance. Academic Press; 2017:1–10.
+Geiling EMK, Paul MD, Cannon MD. Pathologic effects of elixir of sulfa-
+nilamide (diethylene glycol) poisoning: a clinical and experimental cor-
+relation: final report. JAMA. 1938;111(10):919–926.
+Gerritsen SP. Gewina. 2007;30(1):1–20.
+Gibbs F. http://fredgibbs.net/posts/universals-and-particulars-of-poison; 
+2017. Accessed August 8, 2017.
+Gordon Research Conferences. https://www.grc.org; n.d.
+Gow ASF, Scholfield AF. Nicander: The Poems and Poetical Fragments. 
+London: Cambridge University Press; 2014.
+Hachiya N. The history and the present of Minamata disease: entering the 
+second half a century. Jpn Med Assoc J. 2006;49(3):112–118.
+Hager T. The Alchemy of Air: A Jewish Genius, a Doomed Tycoon, and the 
+Scientific Discovery That Fed the World but Fueled the Rise of Hitler. 
+New York: Broadway Books; 2009.
+Hajar R. Animal testing and medicine. Heart Views. 2011;12(1):42.
+Hamilton A. Exploring the Dangerous Trades. Boston, MA: Little, Brown; 
+1943. [Reprinted by Northeastern University Press, Boston, MA; 1985.]
+Hamilton AJ, Baulcombe D. A species of small antisense RNA in posttran-
+scriptional gene silencing in plants. Science. 1999;286(5441):950–952.
+Hays HW. Society of Toxicology History, 1961–1986. Washington, DC: 
+Society of Toxicology; 1986.
+Hedeson GD. Jan Baptist Van Helmont and the medical-alchemical 
+perspectives of poison. In: Wexler P, ed. History of Toxicology and 
+Environmental Health. Toxicology in the Middle Ages and Renaissance. 
+Academic Press; 2017:91–100.
+
+22
+General Principles of Toxicology
+Unit I
+Herbst AL, Ulfelder H, Poskanzer DC. Adenocarcinoma of the vagina. 
+Association of maternal stilbestrol therapy with tumor appearance in 
+young women. N Engl J Med. 1971;284:878–881.
+Hernberg S. Lead poisoning in a historical perspective. Am J Ind Med. 
+2000;38(3):244–254.
+Heydari M, Hashempu MH, Zargaran A. Medicinal aspect of opium as 
+described in Avicenna’s Canon of Medicine. Acta Medico-Historica 
+Adriatica. 2013;11(1):101–112.
+Hobenreich E, Rizzelli G. Poisoning in ancient Rome: the legal framework, 
+the nature of poisons, and gender stereotypes. In: Wexler P, ed. History 
+of Toxicology and Environmental Health; Vol. 2: Toxicology in Antiquity. 
+Academic Press; 2014:42–51:chap 12.
+https://echa.europa.eu/information-on-chemicals.
+https://www.epa.gov/chemical-research/toxicology-testing-21st-century- 
+tox21.
+https://www.nap.edu/catalog/24635/using-21st-century-science-to- 
+improve-risk-related-evaluations.
+http://sehn.org/wingspread-conference-on-the-precautionary-principle/.
+http://www.toxicology.org/about/vp/vision.asp.
+Hoffmann S, Hartung T, Stephens M. Evidence-based toxicology. Adv Exp 
+Med Biol. 2016;856:231–241.
+Institute of Medicine Committee on Poison Prevention and Control. 
+Historical context of poison control. In: Forging a Poison Prevention and 
+Control System. Washington, DC: National Academies Press, 2004:80–
+105:chap 4.
+Jorgensen TJ. Strange Glow: The Story of Radiation. Princeton, NJ: 
+Princeton University Press; 2016.
+Jutte D. The Age of Secrecy: Jews, Christians, and the Economy of Secrets, 
+1400–1800. New Haven, CT: Yale University Press; 2015:56–57.
+Kaffka A. Sea-Dumped Chemical Weapons: Aspects, Problems, and 
+Solutions. Boston, MA: Kluwer Academic; 1995.
+Karaberopoulos D, Karamanou M, Androutsos G. The art of medicine: the 
+theriac in antiquity. Lancet. 2012;376:1942–1943.
+Khajja BS, Sharma M, Singh R, Mathur GK. Forensic study of Indian tox-
+icological plants as botanical weapon (BW): a review. J Environ Anal 
+Toxicol. 2011;1(3):112.
+Kinch M. A Prescription for Change: The Looming Crisis in Drug 
+Development. Chapel Hill, NC: University of North Carolina Press; 2016.
+Kling GW, Evans WC, Tanyileke G, Kusakabe M, Ohba T, Yoshida Y, Hell 
+JV. Degassing lakes Nyos and Monoun: defusing certain disaster. Proc 
+Natl Acad Sci USA. 2005;102(40):14185–14190.
+Lavers D. Origin of myths related to curative, antidotal and other medicinal 
+properties of animal “horns” in the Middle Ages. In: Wexler P, ed. History 
+of Toxicology and Environmental Health; Toxicology in the Middle Ages 
+and Renaissance. Academic Press; 2017:101–114.
+Lewin L. Die Gifte in der Weltgeschichte: Toxikologische, allgemeinver-
+standliche Untersuchungen der historischen Quellen. Berlin: Springer; 
+1920.
+Lewin L. Gifte und Vergiftungen. Berlin: Stilke; 1929.
+Liu Y. Poisonous medicine in ancient China. In: Wexler P, ed. History of 
+Toxicology and Environmental Health; Vol. 2: Toxicology in Antiquity. 
+Academic Press; 2014:89–97.
+Maimonides M. On Poisons and the Protection against Lethal Drugs: A 
+Parallel Arabic-English Edition. Gerrit Bos, ed. McVaugh MR, trans. 
+Provo, UT: Brigham Young University; 2009.
+Manohar PR. Toxicity of Ayurveda medicines and safety concerns: the 
+need to revive the branch of toxicology in Ayurveda. Anc Sci Life. 
+2014;34(1):1–2.
+Mayor A. The Poison King: The Life and Legend of Mithradates, Rome’s 
+Deadliest Enemy. Princeton, NJ: Princeton University Press; 2010.
+Mayor A. Alexander the Great: a questionable death. In: Wexler P, ed. 
+History of Toxicology and Environmental Health; Vol. 1: Toxicology in 
+Antiquity. Academic Press; 2014:52–59.
+Marrs TT, Maynard RL, Sidell F. Chemical Warfare Agents: Toxicology and 
+Treatment. West Sussex, England: Wiley; 2007.
+Morgan JP, Penovich P. Jamaica ginger paralysis. Forty-seven-year follow-
+up. Arch Neurol. 1978;35(8):530–532.
+Mullner R. Deadly Glow: The Radium Dial Worker Tragedy. Washington, 
+DC: American Public Health Association; 1999.
+Nasser M, Tibi A, Savage-Smith E. Ibn Sina’s Canon of Medicine: 
+11the century rules for assessing the effects of drugs. J R Soc Med. 
+2009;102(2):78–80.
+National Research Council. Risk Assessment in the Federal Government: 
+Managing the Process. Washington, DC: National Academy Press; 1983.
+National Research Council. Science and Decisions: Advancing Risk 
+Assessment. Washington, DC: National Academies Press; 2009.
+National Research Council. Exposure Science in the 21st Century: A Vision 
+and a Strategy. Washington, DC: National Academies Press; 2012.
+NPR. http://www.npr.org/2011/03/17/134568383/japan-three-mile-island-
+chernobyl-putting-it-all-in-perspective; n.d.
+Nunn JF. Ancient Egyptian Medicine. Norman, OK: University of Oklahoma 
+Press; 1996:144.
+Orfila MJB. Traite des Poisons Tires des Regnes Mineral, Vegetal et Animal, 
+ou, Toxicologie Generale Consideree sous les Rapports de la Physiologie, 
+de la Pathologie et de la Medecine Legale. Paris: Crochard; 1814–1815.
+Oser B. Toxicology then and now. Regul Toxicol Pharmacol. 1987; 
+7:427–433.
+Pesatori AC, et al. Cancer incidence in the population exposed to dioxin 
+after the “Seveso accident” twenty years of follow-up. Environ Health. 
+2009;8:30.
+Pope MH. Bernardino Ramazzini: the father of occupational medicine. 
+Spine. 2004;29(20):2335–2338.
+Pratte ELH, Bryant S, Handley C, Hall M. Pick your poison. The Chemist. 
+2014;87(2):19–29.
+Pray S. A History of Nonprescription Product Regulation. New York: 
+Pharmaceutical Product Press; 2003.
+Primrose J. https://quod.lib.umich.edu/e/eebo2/A91017.0001.001?view=toc.
+PSAC (President’s Science Advisory Committee). Handling of Toxicological 
+Information. Washington, DC: White House; 1966.
+Rosner D, Markowitz G. Standing up to the lead industry: an interview with 
+Herbert Needleman. Public Health Rep. 2005;120:330–337.
+Rosner F. Moses Maimonides’ treatise on poisons. JAMA. 1968; 
+205(13):914–916.
+Russell WMS, Burch RL. The Principles of Humane Experimental 
+Technique. London: Methuen; 1959.
+Sanchez GM, Harer WB. Toxicology in ancient Egypt. In: Wexler P, ed. 
+History of Toxicology and Environmental Health; Vol. 1: Toxicology in 
+Antiquity. Academic Press; 2014:2–10:chap 1.
+Schlebusch CM, et al. Possible positive selection for an arsenic-protective 
+haplotype in humans. Environ Health Perspect. 2013;121(1):53–58.
+Seifert S. Richard Mead: one for the ages. Clin Toxicol (Phila). 
+2011;49(1):53–55.
+Slouber M. The venomous virgin: fact or fantasy? In: Wexler P, ed. History 
+of Toxicology and Environmental Health; Vol. 2: Toxicology in Antiquity. 
+Academic Press; 2015:98–103.
+Smyth D. Alternatives to Animal Experiments. Scolar Press in Association 
+with The Research Defence Society; 1978.
+Sneader W. Drug Discovery: A History. Wiley; 2006. Available at: http://
+onlinelibrary.wiley.com/book/10.1002/0470015535.
+Somerset A. The Affair of the Poisons: Murder, Infanticide, and Satanism at 
+the Court of Louis XIV. St. Martin’s Press; 2014.
+Spiller HA, Hale JR, De Boer JZ. The Delphic oracle: a multidisci-
+plinary defense of the gaseous vent theory. J Toxicol Clin Toxicol. 
+2002;40(2):189–196.
+The Unitarian Review and Religious Magazine, Boston: Office of the 
+Unitarian Review, 1879;12:130.
+Timbrell J. The Poison Paradox. Oxford, MI: Oxford University Press; 
+2005.
+Touwaide A. Harmful botanicals. In: Wexler P, ed. History of Toxicology 
+and Environmental Health; Vol. 1: Toxicology in Antiquity. Academic 
+Press; 2014a:60–68:chap 7.
+Touwaide A. Nicander, Thêriaka, and Alexipharmacka: venoms, poisons, and 
+literature. In: Wexler P, ed. History of Toxicology and Environmental Health; 
+Vol. 1: Toxicology in Antiquity. Academic Press; 2014b:44–51:chap 5.
+Tsoucalas G, Sgantzos M. The death of Cleopatra: suicide by snakebite or 
+poisoned by her enemies? In: Wexler P, ed. History of Toxicology and 
+Environmental Health; Vol. 1: Toxicology in Antiquity. Academic Press; 
+2014:12–20:chap. 2.
+
+The Evolving Journey of Toxicology: A Historical Glimpse
+Chapter 1
+23
+Tubbs RS, et al. Francois Magendie (1783–1855) and his contributions 
+to the foundations of neuroscience and neurosurgery. J Neurosurgery. 
+2008;108:1038–1042.
+UNODA (United Nations Office for Disarmament Affairs). https://www 
+.un.org/disarmament/wmd/nuclear/npt/; n.d.
+Unsworth J. History of pesticide use; 2010. http://agrochemicals.iupac.org/
+index.php?option=com_sobi2&sobi2Task=sobi2Details&catid=3&sob
+i2Id=31. Accessed August 8, 2017.
+Wang G, et al. Persistent sulfate formation from London fog to Chinese 
+haze. Proc Natl Acad Sci USA. 2016;113(48):13630–13635.
+Wax PM. Elixir sulfanilamide-Massengill revisited. Vet Hum Toxicol. 
+1994;36(6):561–562.
+Wikisource. Rig Veda; n.d.-a. Available at: https://en.wikisource.org/wiki/
+The_Rig_Veda/Mandala_1/Hymn_191. Accessed August 8, 2017.
+Wikisource. Christison, Robert (DNBoo). Dictionary of National Biography, 
+1885–1900, Volume 10; n.d.-b. Available at: https://en.wikisource.org/
+wiki/Christison,_Robert_(DNB00). Accessed August 8, 2017.
+Wilkinson P. Chinese Myth: A Treasury of Legends, Art, and History (The 
+World of Mythology). New York: Routledge; 2016.
+Wisdom Library. http://www.wisdomlib.org/hinduism/book/sushruta-sam-
+hita-volume-5-kalpasthana/d/doc142971.html; n.d. Accessed August 8, 
+2017.
+Wolnik KA, Fricke FL, Bonnin E, Gaston CM, Satzer RD. The Tylenol tam-
+pering incident-tracing the source. Anal Chem. 1984;56(3):466a–470a, 
+474a.
+World Nuclear Association. http://www.world-nuclear.org/information-
+library/safety-and-security/safety-of-plants/fukushima-accident.aspx; 
+2017.
+Wujastyk D. The Roots of Ayurveda: Selections from Sanskrit Medical 
+Writings. London: Penguin; 2003:144.
+Yang S, ed. The Divine Farmer’s Materia Medica: A Translation of the Shen 
+Nong Ben Cao. Boulder, CO: Blue Poppy Press; 1998.
+SUPPLEMENTAL READING
+Adams F, trans. The Genuine Works of Hippocrates. Baltimore, MD: 
+Williams & Wilkins; 1939.
+Albert A. Selective Toxicity. London: Methuen; 1951.
+Beeson BB. Orfila—pioneer toxicologist. Ann Med Hist. 1930;2:68–70.
+Bernard C. Analyse physiologique des proprietes des systemes musculaire 
+et nerveux au moyen du curare. C R Acad Sci (Paris). 1856;43:325–329.
+Bryan CP. The Papyrus Ebers. London: Geoffrey Bales; 1930.
+Clendening L. Source Book of Medical History. New York: Dover; 1942.
+Gaddum JH. Pharmacology. 5th ed. New York: Oxford University Press; 
+1959.
+Garrison FH. An Introduction to the History of Medicine. 4th ed. 
+Philadelphia, PA: Saunders; 1929.
+Holmstedt B, Liljestrand G. Readings in Pharmacology. New York: Raven 
+Press; 1981.
+http://www.ranker.com/list/death-by-poison-list-of-famous-poison-­
+victims/notable-famous-deaths.
+http://www.theaic.org/pub_thechemist_journals/Vol-87-No-2/Vol-87-No2-
+Article-4.pdf.
+Hutt PB, Hutt PB II. A history of government regulation of adulteration and 
+misbranding of food. Food Drug Cosmet J. 1984;39:2–73.
+Leung AY. Traditional toxicity documentation of Chinese Materia Medica—
+an overview. Toxicol Pathol. 2006; 34:319–326.
+Orfila MJB. Secours a Donner aux Personnes Empoisonees et Asphyxiees. 
+Paris: Feugeroy; 1818.
+Poland A, Knutson JC. 2,3,7,8-Tetrachlorodibenzo-p-dioxin and related 
+halogenated aromatic hydrocarbons, examination of the mechanism of 
+toxicity. Annu Rev Pharmacol Toxicol. 1982;22:517–554.
+Ramoutsaki IA, Ramoutsakis YA, Tsikritzis MD, Tsatsakis AM. The roots 
+of toxicology: an etymological approach. Vet Hum Toxicol. 2000;42:111.
+Unschuld PU. Medicine in China: A History of Pharmaceutics. Berkeley, 
+CA: University of California Press; 1986.
+US FDA. Toxicologic Principles for the Safety Assessment of Direct Food 
+Additives and Color Additives Used in Food. Washington, DC: U.S. Food 
+and Drug Administration, Bureau of Foods; 1982.
+Williams RT. Detoxication Mechanisms. 2nd ed. New York: Wiley; 1959.
+
+This page intentionally left blank

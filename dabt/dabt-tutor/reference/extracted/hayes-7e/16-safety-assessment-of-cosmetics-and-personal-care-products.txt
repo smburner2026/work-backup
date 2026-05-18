@@ -1,0 +1,2396 @@
+# 16 Safety Assessment of Cosmetics and Personal Care Products
+# Hayes' Principles and Methods of Toxicology, 7th Edition
+# Pages: 861-882
+# Unit: Volume I
+
+831
+16
+Safety Assessment of Cosmetics and Personal Care Products
+Christina Hickey, Siti Amelia Juraimi, Lauren Hutchison, Anne Marie Api, and Benjamin P.C. Smith
+CONTENTS
+16.1	 Introduction........................................................................................................................................................................ 831
+16.2	 Regulatory Definitions of Cosmetics and PCPs................................................................................................................. 832
+16.3	 Regulations, Legislative Frameworks, and Self-Regulation Frameworks......................................................................... 832
+16.3.1	 Overview of Cosmetics Laws and Regulations..................................................................................................... 832
+16.3.2	 Overview of Self-Regulatory Bodies..................................................................................................................... 835
+16.3.2.1	 CIR......................................................................................................................................................... 836
+16.3.2.2	 SCCS...................................................................................................................................................... 836
+16.3.2.3	 RIFM...................................................................................................................................................... 837
+16.3.2.4	 FEMA..................................................................................................................................................... 837
+16.4	 Safety and Risk Assessment of Hazardous Substances in Cosmetic and PCPs................................................................. 837
+16.4.1	 Hazard Characterization........................................................................................................................................ 837
+16.4.2	 Dose-Response Assessment................................................................................................................................... 839
+16.4.3	 Exposure Assessment.............................................................................................................................................840
+16.4.3.1	 Dermal Exposure Model........................................................................................................................ 841
+16.4.3.2	 Oral Exposure Model............................................................................................................................. 841
+16.4.3.3	 Inhalation Exposure Model.................................................................................................................... 841
+16.4.3.4	 Comparison of Deterministic and Probabilistic Approaches................................................................ 841
+16.4.4	 Risk Characterization............................................................................................................................................ 842
+16.4.4.1	 QRA........................................................................................................................................................ 843
+16.4.4.2	 Example of a RIFM Fragrance Ingredient Safety Assessment..............................................................844
+16.5	 Next-Generation Risk Assessment (NGRA)...................................................................................................................... 845
+16.6	 Safety Assessment of Natural Complex Substances..........................................................................................................846
+16.7	 Consumer Risk Perception................................................................................................................................................. 847
+16.8	 Summary............................................................................................................................................................................848
+16.9	 Questions............................................................................................................................................................................848
+References....................................................................................................................................................................................848
+16.1  Introduction
+The topic of safety assessment for cosmetics and personal care 
+products (PCPs) is expansive and diverse. Consumer products 
+are assessed depending on the sector of use as well as the 
+regulatory and legislative requirements of the region where 
+the product is sold. Depending on the type of ingredient and 
+final application, the approval of safety is determined through 
+legally mandated regulations set by government authorities, 
+self-regulatory frameworks implemented by industry or a 
+combination of both. In all cases, the ultimate responsibility 
+is on the manufacturer putting the product on market to ascer-
+tain safe use and to ensure there is no toxicological concern to 
+either humans or the environment.
+As with other chemical sectors, the assessment of cos-
+metics and PCPs is based largely on the safety of the indi-
+vidual ingredients including their toxicological profile and 
+anticipated level of exposure (1). However, when it comes to 
+assessing the risk of ingredients used in cosmetics and con-
+sumer care products, there are a number of unique factors to 
+consider. These include:
+•	 Broad population exposure: Since PCPs are widely 
+used across the entire population and are often used 
+daily, chemicals in these products will reach a larger 
+consumer population (so there is a high likelihood 
+and frequency of exposure but not necessarily high 
+concentration level).
+•	 Direct and intended contact: Many consumer prod-
+ucts, and consequently the ingredients within, are 
+meant to be applied directly to the body.
+•	 Multiple applications and uses: It is well under-
+stood that the same chemical may be used at differ-
+ent levels in different PCPs depending on function. 
+DOI: 10.1201/9781003390008-18
+
+832
+Hayes’ Principles and Methods of Toxicology
+Fragrance ingredients are a good example of this as 
+they are used broadly across different product types 
+and are incorporated at different levels depending 
+on the olfactory profile sought. Different levels of 
+risk may arise depending on the use and the route 
+of exposure. There is also a growing understanding 
+around the issue of aggregate/co-exposure of chemi-
+cals in various consumer products, potentially lead-
+ing to combined effects if the individual chemicals 
+are present at safe levels (2).
+•	 Ethics of animal testing. Traditional animal test-
+ing for cosmetics has ethical and legal issues. The 
+EU and other regions have banned the testing of 
+cosmetic ingredients for safety purposes. This has 
+caused new approaches for toxicity testing to be con-
+sidered and developed but still, challenges exist for 
+some data gaps.
+It is important to note that for cosmetics and PCPs, most often 
+the final product is composed of more than one substance. As 
+such, the final product must be evaluated for safety. While 
+much of risk assessment in PCP is done through looking at 
+the safety of individual ingredients, how they will behave in 
+the final product in aggregate must be considered. For exam-
+ple, the finished product may cause eye irritation, although 
+individual ingredients are not expected to cause eye irrita-
+tion. Additionally, final product formulations may need to be 
+assessed for acute toxicity (accidental ingestion), as well as 
+skin irritation and skin sensitization.
+For the purposes of this chapter, we focus on the human 
+safety and risk assessment of cosmetics and PCPs including 
+hazard and risk characterization, exposure assessment, and 
+dose-response assessment. Hazard identification has been cov-
+ered in other chapters and is defined as the process of testing 
+a substance to determine if it does or does not cause adverse 
+effects. This is an important step because many regulations that 
+may affect ingredients used by the cosmetics and PCP indus-
+try are based on hazard classification of chemicals. The other 
+key step is risk assessment, which assesses whether or not the 
+substance is likely to be a problem in real-world usage scenar-
+ios given practical issues, including how someone is exposed 
+(comes in contact with the substance) and at what amount (dose).
+While regulatory bodies have a role in regulating and moni-
+toring cosmetics and PCPs, manufacturers are ultimately 
+responsible to ensure the safety of their products and ingredi-
+ents. As a result, companies often go beyond testing require-
+ments (3,4) and design their products with safety in mind, 
+meaning they are designed to prevent risk to the consumer, and 
+ensure there is a sufficiently large Margin of Safety (MOS). 
+The MOS is the ratio of the no-observed-adverse-effect level 
+(NOAEL) obtained from toxicology studies to the predicted, 
+or estimated human exposure level or dose, for each substance 
+in the PCP. The safety of substances in PCPs is established 
+in various ways, including using ingredients that have a long 
+history of use without evidence of adverse effects, adhering 
+to good manufacturing practices, continually evaluating and 
+testing ingredients, screening new ingredients early in the 
+pipeline for potential hazards (e.g., in silico evaluation), and 
+providing consumers with usage instructions to ensure safe 
+exposure levels.
+16.2  Regulatory Definitions of 
+Cosmetics and PCPs
+Each region across the globe considers specific definitions for 
+cosmetics and PCPs (5–10), as shown in Table 16.1. In general 
+terms, cosmetics or PCPs are products that are applied to or 
+used on the body to clean, beautify, or change its appearance 
+without permanently altering or affecting the physical struc-
+ture and/or physiological functions of the body. Although this 
+description extends across most legal definitions (e.g., ASEAN 
+Cos Dir 2008; FD&C Act, 1938, sec. 321 (i); EU Cosmetics 
+Regulation (EC) 1223/2009), the activity of the ingredients 
+used in such products and/or claims made by the product can 
+determine if the product is actually regulated as a cosmetic 
+or if it falls into another category, for example, an over-the-
+counter (OTC) or even prescription drugs.
+When claims are made for the prevention or treatment of 
+disease or for affecting the structure or function of the body, 
+some products may meet the definition for both cosmetics and 
+drugs, and therefore must comply with the requirements for 
+both. For example, in the US, an anti-dandruff shampoo which 
+is intended to clean hair and treat dandruff, a toothpaste that 
+contains fluoride for a cavity prevention benefit, and antiper-
+spirant deodorants are viewed as OTC drugs, whereas in the 
+EU, these applications are treated only as cosmetics. While 
+regulations on how a product is classified may dictate how a 
+product is registered for sale in a country, any safety testing 
+that must be conducted, or what data must be kept on file by 
+the manufacturer of the product, (the process of substantiating 
+the safety of a PCP) largely remains the same regardless of 
+classification.
+16.3  Regulations, Legislative Frameworks, 
+and Self-Regulation Frameworks
+16.3.1  Overview of Cosmetics 
+Laws and Regulations
+The regulatory requirements of cosmetics and PCPs differ 
+from one country to another but all are aimed at protecting 
+the consumer and ensuring that the products brought to the 
+market are themselves safe and contain ingredients at safe 
+use levels. In the majority of regions, no government licens-
+ing or pre-market approval of products is required; however, 
+there are some exceptions (e.g., color additives and sunscreens 
+in the US) where responsibility is on the manufacturers to 
+ensure the products are safe according to the criteria laid out 
+in the respective country’s regulations. Table 16.2 provides the 
+various regulations to be aware of, in six key markets, while 
+Table 16.3 compares the key requirements under each regu-
+lation (11–17). In other regions, cosmetic safety is addressed 
+in various ways ranging from complex regulations (e.g., 
+Brazil), to self-regulatory processes through trade associations
+
+833
+Safety Assessment of Cosmetics and Personal Care Products
+TABLE 16.1
+Definitions of Cosmetics by Region
+Country
+Definition of “Cosmetics” (Source)
+a. Oral Care Included 
+in Cosmetics?
+US
+“articles intended to be rubbed, poured, sprinkled, or sprayed on, introduced into, or 
+otherwise applied to the human body…for cleansing, beautifying, promoting 
+attractiveness, or altering the appearance” (5)
+Products without OTC 
+activities
+EU and ASEAN
+“any substance or preparation intended to be placed in contact with the various 
+external parts of the human body (epidermis, hair system, nails, lips, and external 
+genital organs) or with the teeth and the mucous membranes of the oral cavity with a 
+view exclusively or mainly to cleaning them, perfuming them, changing their 
+appearance and/or correcting body odours and/or protecting them or keeping them 
+in good condition” (6)
+Yes
+Canada
+“any substance or mixture of substances, manufactured, sold or represented for use in 
+cleansing, improving or altering the complexion, skin, hair or teeth and includes 
+deodorants and perfumes” (7)
+Yes
+China
+“daily used industrial chemicals which can be spread on the outer surface of the 
+human body (e.g. skin, hairs, nails, lips, etc) for the purpose of cleaning, 
+deodorizing, providing skin care, beauty and make – up, by way of smearing, 
+spraying or other similar means” (8)
+No, except toothpaste
+Japan
+“articles with mild action on the human body, which are intended to be applied to the 
+human body through rubbing, sprinkling or other methods, aiming to clean, beautify 
+and increase the attractiveness, alter the appearance or to keep the skin or hair in 
+good condition” (9)
+No
+Korea
+“any item intended to be used by means of spreading, rubbing, spraying on or 
+otherwise applied to the human body for cleansing, beautifying, promoting 
+attractiveness or brightening the appearance, or maintaining or improving the health 
+of skin and hair, which have light effects on the human body” (10)
+No
+Abbreviations: OTC, over-the-counter.
+TABLE 16.2
+Summary of Global Cosmetic Regulations
+EU
+US
+Canada
+China
+Korea
+ASEAN
+Cosmetic 
+and 
+Personal 
+Care 
+Regulations
+Cosmetic 
+Regulation 
+(EC) No. 
+1223/2009
+FD&C Act 
+Chapter VI  
+ 
+US FDA Code of 
+Federal 
+Regulations 
+(CFR) Title 21
+F&D Act 
+ 
+Cosmetic Regulations (C.R.C., 
+c.869)
+Cosmetics 
+Supervision 
+and 
+Administration 
+Regulations
+Cosmetics Act 
+ 
+Enforcement decree of 
+the Cosmetics Act 
+ 
+Enforcement rule of 
+the Cosmetics Act
+ASEAN 
+Cosmetic 
+Directive
+Product 
+Safety 
+Regulations
+Cosmetic 
+Regulation 
+(EC) No. 
+1223/2009, 
+Articles 3, 
+10, 11 and 
+Annex I
+FD&C Act 
+Sections, 201, 
+601, 602, and 603 
+ 
+US FDA CFR 
+Title 21, Sections 
+700–740
+F&D Act, Section 16  
+ 
+Cosmetic Regulations (C.R.C., 
+c.869), Sections 29 and 30 
+ 
+Guidance on Heavy Metal 
+Impurities in Cosmetics
+CSAR Articles 
+16-25 and 
+46-58
+Cosmetics Act Articles 
+3(4), 4, 5(2) and 18  
+ 
+Enforcement rule of 
+the Cosmetics Act 
+Articles 7,9,10, 
+12,14(2), and 17
+ASEAN 
+Cosmetic 
+Directive, 
+Articles 3 
+and 8
+Chemical/
+Cosmetic 
+Ingredient 
+regulations
+Cosmetic 
+Regulation 
+(EC) No. 
+1223/2009, 
+Annexes 
+II, III, IV, 
+V, and VI
+US FDA CFR Title 
+21, 
+Sections 73, 74, 
+81, 82, 250, 
+700–740
+Cosmetic Ingredient Hotlist
+ 
+Canadian Environmental 
+Cosmetic Act  
+ 
+New Substance Notification 
+Regulations
+CSAR Articles 
+11–15
+Cosmetics Act, Article 8 
+ 
+Regulations on the 
+Safety Standards, etc. 
+of Cosmetics (Ministry 
+of Food and Drug 
+Safety Notice)
+ASEAN 
+Cosmetic 
+Directive, 
+Annexes 
+II, III, IV, 
+VI, VII
+Modified with permission SGS North America Inc. 2018. Cosmetics & Personal Care Products Major Standards and Regulations. Available from: https://
+www.sgsgroup.us.com/-/media/local/usa/documents/flyers-and-leaflets/cts/sgscosmetic-personal-care-intl-standardsa4en12v1.pdf (11). Abbreviations: 
+FD&C (US Federal Food, Drug, and Cosmetics ); F&D (Food and Drugs); CSAR (Cosmetics Supervision and Administration Regulations); ASEAN 
+(Association of Southeast Asian Nations), which includes ten member countries: Brunei Darussalam, Cambodia, Indonesia, Malaysia, Myanmar, Lao 
+PDR, Philippines, Singapore, Thailand, Vietnam.
+
+834
+Hayes’ Principles and Methods of Toxicology
+TABLE 16.3
+Comparison of Cosmetic Regulations and Safety Testing Approaches in Major Markets
+Main Features
+EU
+US
+Canada
+China
+Korea
+ASEAN
+General
+Manufacturer 
+responsible for product 
+safety?
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+In-market control by 
+authorities
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Pre-market requirements
+Notification of products
+Mandatory 
+notification before 
+placing product on 
+market
+Voluntary 
+notification
+Mandatory 
+notification within 
+10 days after 
+placing product 
+on the market
+Mandatory pre-market registration 
+and approval “for special use” 
+cosmetics, and record filing for 
+“non-special use” cosmetics (12)
+Mandatory notification for 
+general cosmetics; require 
+pre-market approval for 
+functional cosmetics (13)
+Mandatory notification 
+required by each 
+member’s state 
+authority
+Control over Ingredients
+Lists of prohibited/
+restricted substances
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Positive lists
+Coloring agents, 
+preservatives, UV 
+filters
+Color additives 
+and other 
+specific 
+ingredients
+Cosmetic 
+Ingredient Hotlist
+Coloring agents, hair dyes, UV 
+filters, preservatives
+Coloring agents, 
+preservatives, UV filters
+Coloring agents, 
+preservatives, UV 
+filters
+Scientific advisory 
+committees
+SCCS
+CIR
+Government 
+officials
+Government officials
+Government officials
+ACC and ACSB
+Testing and safety
+Data on product safety 
+and efficacy
+Manufacturers must 
+maintain a PIF 
+readily accessible 
+to authorities upon 
+request
+No proof of 
+safety requireda
+Safety data must be 
+available upon 
+request from the 
+authorities
+Product dossier provided to 
+authorities upon pre-market filing 
+or registration (12)
+Safety information reported 
+to authority every six 
+months (13)
+Manufacturers must 
+maintain a PIF, readily 
+accessible to 
+authorities upon 
+request
+Testing requirements
+SCCS publishes 
+guidelines
+No specific tests 
+required (19)
+No specific tests 
+required (14)
+NMPA provides guidelines (13)
+MFDS provides guidelines 
+(16)
+ACC provides 
+guidelines (17)
+Animal testing ban
+Yes
+No
+No (in process of phasing 
+out) (15)
+No
+Yes
+No
+Modified with permissions from Risk & Policy Analysts Limited (2004). Comparative Study on Cosmetics Legislation in the EU and Other Principal Markets with Special Attention to so-called 
+Borderline Products. 16 April 2021. Available at: https://rpaltd.co.uk/uploads/report_files/j457-final-report-cosmetics.pdf. 
+a	 Compulsory warning “The safety of this product has not been determined” required on packaging if manufacturer does not have safety data. Abbreviations: SCCS (Scientific Committee on Consumer 
+Safety); CIR (Cosmetic Ingredients Review); ACC (ASEAN Cosmetic Committee); ACSB (ASEAN Cosmetic Scientific Body); (PIF (Product Information File); NMPA(National Medical Products 
+Administration); MFDS(Ministry of Food and Drug Safety).
+
+835
+Safety Assessment of Cosmetics and Personal Care Products
+(e.g., Cosmetic Toiletries and Fragrance Association of South 
+Africa).
+All regions take precautionary measures and have “red 
+lists” which ban or restrict ingredients seen as having not 
+acceptable hazard properties. In general, these lists help relay 
+information that is easy to understand and are easily acces-
+sible to consumers. But without complete information or 
+understanding, public perception toward “chemicals of con-
+cern” can be greatly impacted. Currently, there are approxi-
+mately 1,300 substances that are banned for use in cosmetic 
+products in the EU (and similarly in the ASEAN Cosmetic 
+Directive), except under specified conditions or applications 
+according to Annex III (18). In addition to regulating sun-
+screens and color additives, the US FDA has ten regulations 
+that prohibit or restrict substances based on identified safety 
+concerns (19). Many of these substances are contaminants 
+such as polyaromatic hydrocarbons and mercury compounds, 
+but the list also includes ingredients that may be hazardous 
+but can be used safely at appropriate doses, e.g., preserva-
+tives such as chlorhexidine and formaldehyde precursors. 
+While there is notably a discrepancy between the regions, 
+much of this gap can be attributed to different legal frame-
+works and the EU’s precautionary approach, meaning that a 
+substance is more likely to be prohibited or restricted if it is 
+presumed to be hazardous regardless of potency and that the 
+majority of substances banned in the EU from cosmetics use 
+have never been used in cosmetics.
+Several non-governmental organizations (NGOs), which 
+are organizations that operate independently of a government 
+body and are typically focused on environmental, social, or 
+political issues, have also created lists of ingredients to avoid 
+as a consumers’ reference. Substances commonly found on 
+these lists include BHA/BHT, formaldehyde, lead, and heavy 
+metals, nanoparticles, petroleum, phthalates, silicones, triclo-
+san, nitrosamines, and parabens. Again, many of these lists do 
+not consider potency or dose and are based on hazard only and 
+the precautionary principle. Often these lists contain arbitrary 
+scoring of ingredients, inaccurate data, and misinterpreted 
+or incomplete assessments. Even if these chemicals are con-
+sidered safe when used as intended and, in some cases, have 
+supportive assessments for use from authoritative bodies, the 
+consumer perception is affected. This often results in manu-
+facturers unnecessarily reformulating safe products to avoid 
+negative publicity and meet consumer preferences.
+16.3.2  Overview of Self-Regulatory Bodies
+In addition to regulatory frameworks, expert committees to 
+advise on the safety of ingredients, safety programs, and stan-
+dards have been established by the cosmetic, personal care, 
+and fragrance industries and in some cases governmental 
+bodies. These programs are voluntary albeit often required 
+for trade association membership. They provide indepen-
+dent, risk-based standards designed to go beyond what is 
+required by existing regulations. Some key groups involved 
+include the Cosmetic Ingredient Review (CIR) Expert Panel, 
+The Scientific Committee on Consumer Safety (SCCS), the 
+Research Institute for Fragrance Materials (RIFM) with the 
+Expert Panel for Fragrance Safety, and the Flavor Extract 
+Manufacturers Association (FEMA) Expert Panel. Whereas 
+the CIR, RIFM, and FEMA Expert Panels are established via 
+industry support, the SCCS is a Committee formed under the 
+governance of the European Commission. A key point for all 
+these bodies is independent governance and transparency of 
+their assessment procedures. A comparison of these safety 
+assessment frameworks is provided in Table 16.4.
+TABLE 16.4
+Comparison of Self-Regulatory Safety Evaluation Frameworks
+ 
+CIR
+FEMA/IOFI
+RIFM
+SCCS
+Individual Ingredients vs. Finished Formulations
+Chemical Identifier
+INCI/CAS
+CAS
+INCI/CAS
+INCI/CAS/CIN/EN
+Assessment on 
+ingredient or 
+formulation?
+Ingredient
+Ingredient
+Ingredient
+Ingredient; also recommends 
+final product testing
+“Roll-up” ingredient 
+assessments to 
+product assessment?
+×
+×
+×
+✓
+Synergistic reactions 
+within a formulation 
+addressed?
+×
+×
+×
+✓
+Considerations for Ingredients with Specific Properties or Functions
+Designation between 
+intentionally added 
+and impurities?
+×
+×
+Separate limits of 
+impurities for mixture 
+to be accepted as an 
+ingredient
+×
+Chemical specific 
+recommendations 
+provided?
+Peer-reviewed 
+publications
+Database of 
+NOAEL values
+Peer-reviewed safety 
+assessmentsa
+Published opinionsb
+(Conitnued)
+
+836
+Hayes’ Principles and Methods of Toxicology
+16.3.2.1  CIR
+CIR is an independent Expert Panel established by the 
+Personal Care Product Council trade association. The CIR 
+Panel is made up of toxicologists, chemists, dermatologists, 
+industry representatives, and the US FDA (as a non-voting 
+member) who evaluate whether ingredients are safe under 
+current uses. The CIR process is described by Boyer et al. 
+(20). The CIR Panel evaluates ingredient safety by critically 
+evaluating published and unpublished data and literature for 
+individual ingredients or groups of chemically similar ingre-
+dients. The CIR Panel meetings are open to the public, and all 
+comments are considered. The CIR Panel then votes on the 
+safety evaluation and publishes a final safety evaluation in a 
+peer-reviewed journal. Guidance documents are then created 
+for the PCP industry.
+16.3.2.2  SCCS
+SCCS is a group of independent scientists that provide opin-
+ions to the European Commission. Their responsibility is 
+to evaluate Annex substances or substances directed by the 
+EU commission. The SCCS also provides guidance related 
+TABLE 16.4 (Continued)
+Comparison of Self-Regulatory Safety Evaluation Frameworks
+ 
+CIR
+FEMA/IOFI
+RIFM
+SCCS
+Toxicity Evaluation
+Separate evaluations 
+of hazard and risk 
+conducted?
+✓
+✓
+✓
+Some endpoints
+Regulatory lists 
+recommended to 
+establish hazard?
+×
+×
+GHS
+GHS
+Exposure Assessment
+An aggregate exposures 
+considered?
+=
+✓
+✓
+✓
+Sources of exposure 
+equations and 
+assumptions?
+US Voluntary Cosmetic 
+Registration Program
+IOFI poundage and 
+use level data
+Creme RIFM Aggregate 
+Exposure Model
+European study and 
+probabilistic analysis 90th 
+percentile
+Exposure assumptions 
+for infants described?
+Developing system
+×
+×
+×
+Safety Determination Comparisons – Uncertainty Assessment
+How is risk 
+characterization 
+determined?
+MOS
+PADI
+MOS and Maximum 
+Acceptable Concentrations 
+when necessary
+MOS
+How is uncertainty 
+characterized?
+Quantitative risk for 
+repeated exposure, 
+DART, 
+carcinogenicity, and 
+sensitization
+Quantitative risk for 
+chronic toxicity 
+and genotoxicity
+Quantitative risk for 
+repeated exposure, 
+DART toxicity, 
+carcinogenicity, and 
+sensitization
+Quantitative risk for repeated 
+exposure, DART toxicity, 
+carcinogenicity, and 
+sensitization
+How do the different 
+safety factors 
+compare across 
+assessments?
+×
+100
+100, 10,000 for 
+genotoxic carcinogens; 
+QRA2 for dermal 
+sensitization
+100–600 dependent on route 
+and endpoint (i.e. genotoxic 
+or not genotoxic)
+NAMs
+Alternative test 
+method approaches 
+provided?
+×
+✓
+✓
+×
+Updated and modified with permissions from UL. 2015. Assessing the safety of personal care products: Comparative analysis of health risk assessment 
+frameworks and recommendations for the best practices. Available from: https://msc.ul.com/wp-content/uploads/2019/05/UL-PCP-RA-Best-
+Practices-20156.pdf (4). × Not covered in framework; ✓ Explicitly covered by framework; = Covered in framework but no details on specific methods 
+provided. Abbreviations INCI (International Nomenclature Cosmetic Ingredient); CAS (Chemical Abstracts Service); NOAEL (No Observable Adverse 
+Effect Level); GHS (Globally Harmonized System of Classification and Labeling of Chemicals); MOS (Margin of Safety); DART (Developmental and 
+Reproductive Toxicity; PADI (Possible average daily intake); QRA (quantitative risk assessment). 
+a	 fragrancematerialsafetyresource.elsevier.com.
+b	 https://ec.europa.eu/health/scientific_committees/scientific_journals_en#cat_cosmetic.
+
+837
+Safety Assessment of Cosmetics and Personal Care Products
+to all aspects of safety evaluations for cosmetic ingredients 
+including information on how each product is used (includ-
+ing frequency, amount applied, and amount retained) which is 
+useful for conducting exposure assessments in their “Notes of 
+Guidance” document (21). The purpose of this document is to 
+assist authorities and the industry so there is conformity with 
+EU cosmetic legislation. The guidance document is regularly 
+updated to include the current status of the legislation as well 
+as the state-of-the science.
+16.3.2.3  RIFM
+RIFM is an independent international scientific authority for 
+the safe use of fragrance ingredients. RIFM conducts safety 
+assessments for all fragrance ingredients, based on a risk 
+assessment approach that incorporates current use levels, 
+product type, and the potential for exposure when products 
+are used as intended (3). The safety assessments are regularly 
+revised and updated to include new data, scientific advances, 
+and risk assessment tools. All of RIFM’s safety assessments 
+and research findings are reviewed and approved by the Expert 
+Panel for Fragrance Safety, which is an independent Expert 
+Panel made up of academic experts that have no ties to the fra-
+grance industry (www.fragrancesafetypanel.org). Approved 
+safety assessments and research then undergoes peer-reviewed 
+publication and is made freely available to the public on the 
+Fragrance Material Safety Resource Center (www.fragrance-
+materialsafetyresource.elsevier.com). Ingredient assessments 
+undertaken by RIFM are translated into Standards by the fra-
+grance industry trade association, The International Fragrance 
+Association (IFRA). This is a transparent and shared effort 
+across the industry as demonstrated in Figure 16.1. IFRA 
+develops standards based on the recommendations of maxi-
+mum acceptable concentrations (MACs) by the Expert Panel 
+for Fragrance Safety following their approval of RIFM safety 
+assessments. The IFRA Standards are key to the self-regula-
+tory approach of the fragrance industry. They are published on 
+the IFRA website (https://ifrafragrance.org/safe-use/library) 
+and are shared with their membership. The IFRA standards 
+are obligatory for all IFRA members – who produce around 
+90% of the global volume of fragrance, and are recognized 
+by many government authorities and trade bodies around the 
+world (such as in the ingredient restrictions in the Annexes 
+of the European Union Cosmetics Regulation (EC Regulation 
+1223/2009), the ASEAN Cosmetic Regulation, the Brazilian 
+Cosmetics Regulation, and the United Arab Emirates Scheme 
+for Perfume Standards).
+16.3.2.4  FEMA
+FEMA is responsible for the safety of flavors and does not 
+evaluate cosmetic product use. However, some flavors may 
+also be used in various cosmetic products (e.g., lipsticks, 
+toothpastes). The FEMA Expert Panel reviews published and 
+unpublished data to assess the safety of candidate flavoring 
+substances to determine if the ingredient has sufficient data 
+to be granted “Generally Recognized as Safe” (GRAS) status. 
+FEMA provides all GRAS determinations and scientific data 
+to the FDA, and flavor ingredients that are given GRAS status 
+by the FEMA Expert Panel are published in Food Technology. 
+Detailed summaries are published in peer-reviewed jour-
+nals and by the Joint FAO/WHO Expert Committee on Food 
+Additives (JECFA).
+16.4  Safety and Risk Assessment of Hazardous 
+Substances in Cosmetic and PCPs
+Most cosmetics and PCPs are applied to the skin, as a result, 
+the most frequent effects observed are local effects including 
+irritation, sensitization, and photo-mediated reactions. The 
+major routes of systemic exposure to ingredients in PCPs can 
+occur through skin penetration, ingestion through the oral 
+cavity as well as via inhalation. Considering the potential for 
+exposure to these products, there is a need for them to be fully 
+evaluated for safety. This means that PCPs need to be safe 
+under conditions of normal or foreseeable conditions of use 
+and misuse. Also, considering these products can be used over 
+a person’s lifetime, it is necessary to consider both acute and 
+long-term toxicological endpoints when conducting a safety 
+assessment.
+16.4.1  Hazard Characterization
+Chemical exposure may cause various effects, some are irre-
+versible while others are adaptive and reversible. The hazard 
+characterization of a chemical is based on its known intrin-
+sic properties. To identify potential hazards, it is necessary to 
+identify all types of adverse health effects that can result from 
+exposure to a chemical. Typical hazards for consideration for 
+cosmetic and PCP ingredients follow those of other chemi-
+cals and include acute toxicity; carcinogenicity, mutagenic-
+ity, reproductive toxicity; local effects (irritation and dermal 
+contact); systemic toxicity; phototoxicity; and developmental 
+toxicity. As shown in Table 16.5, there are many similarities 
+FIGURE 16.1  IFRA Standards Setting procedure. (Modified from and printed with permissions from IFRA, Guidance for the Use of IFRA 
+Standards, 2020 (22).)
+
+838
+Hayes’ Principles and Methods of Toxicology
+TABLE 16.5
+Summary of Toxicity Endpoints Evaluated by Each Framework 
+(Animal alternative option indicated where applicable)
+ 
+CIR
+FEMA/IOFI
+RIFM
+SCCS
+Repeated Dose Toxicology
+Endpoint required/
+assessed?
+✓
+✓
+✓
+✓
+Data 
+recommendations/
+requirements
+WoE on available 
+data; read-across
+90-Day rat; 
+read-across
+Extended 90-day rat preferred; 
+28 day with UFs; WoE; 
+read-across, TTC
+When accessible: 90-day rodent 
+preferred (OECD 408; 411; 413); 
+28 day with UF of 3; WoE, read-
+across, (Q)SAR
+Genotoxicity/Mutagenicity
+Endpoint required/
+assessed?
+✓
+✓
+✓
+✓
+Data 
+recommendations/
+requirements
+In vitro bacterial 
+and mammalian 
+cell; in vivo 
+genotoxicity 
+tests; read-across
+In vitro bacterial 
+and mammalian 
+cell; in vivo 
+genotoxicity 
+tests; read-across
+Bluescreen HCTM assay; in 
+vivo genotoxicity tests; in 
+vitro bacterial or mammalian 
+cell; read-across, TTC
+Bacterial and mammalian cell lines 
+(OECD 471 and 487); read-across
+Carcinogenicity
+Endpoint required/
+assessed?
+=
+=
+=
+✓
+Data 
+recommendations/
+requirements
+Genotoxicity; in 
+vivo 
+carcinogenicity 
+assays; 
+read-across, TTC
+Genotoxicity; 
+read-across, TTC
+Genotoxicity; read-across, 
+TTC
+Cell transformation assays following 
+genotoxicity battery; read-across, TTC
+Skin and Eye Irritation
+Endpoint required/
+assessed?
+✓
+×
+✓ (skin)
+✓
+Data 
+recommendations/
+requirements
+Human, available 
+animal, and in 
+vitro data
+N/A
+In vitro, available human, and 
+animal data
+Skin corrosion: RhE Test Method 
+(OECD 439, 430; 431)
+Skin irritation: RhE Test Method 
+(OECD 439) 
+Eye irritation: BCOP and ICE test 
+methods (OECD 437, 438)
+Developmental and Reproductive Toxicity (DART)
+Endpoint required/
+assessed?
+✓
+= 
+(if required)
+✓
+✓
+Data 
+recommendations/
+requirements
+Unspecified 
+DART studies; 
+read-across
+Unspecified 
+DART studies; 
+read-across
+DART studies; read-across, 
+TTC
+Unspecified DART studies; EOGRTS 
+(OECD 443); read-across
+General 
+methodology 
+considered?
+NOAEL and 
+MOS
+NOAEL and 
+MOS
+NOAEL and MOS
+NOAEL and LOAEL 
+GHS framework
+Sensitization
+Endpoint required/
+assessed?
+✓
+x
+✓
+✓
+Data 
+recommendations/
+requirements
+Human, available 
+animal, and in 
+vitro data; 
+read-across
+N/A
+In vitro or animal and human; 
+confirmatory data; read-
+across, DST
+Human (preferred) HRIPT; DPRA 
+(OECD 422C); KeratinoSensTM 
+(OECD 442D); h-CLAT (OECD 
+442E); Integrated WoE; read-across
+General 
+methodology 
+considered?
+QRA; WoE 
+determined 
+NESIL
+N/A
+QRA; WoE determined NESIL
+Annex 1 of OECD Guidance Document 
+No. 256
+Phototoxicity*
+Endpoint required/
+assessed?
+✓
+×
+✓
+✓
+(Continued)
+
+839
+Safety Assessment of Cosmetics and Personal Care Products
+in the endpoints evaluated and approaches taken, regardless of 
+which framework is followed. Details on regularly considered 
+test methods, approaches, and evaluation of specific endpoints 
+can be found in various chapters of this book (e.g., Chapters 
+24, 25, 26, 27, and 29). It should be noted, when epidemio-
+logical studies are available, any of the frameworks discussed 
+would consider the data, although this data is rare and there-
+fore not indicated in the table.
+A typical assessment starts with a systematic literature 
+review and assessment of available data quality and useful-
+ness (i.e., Klimisch scores). When data are not available or the 
+available data are not of sufficient quality, read-across to struc-
+turally related chemicals (analogs) can be considered before 
+conducting any testing to address data gaps. When designing 
+for the PCP industry, it should be noted that use of animal 
+tests for safety testing should be avoided unless required for 
+regulatory purposes. Along with ethical considerations, this 
+is also due to the fact that many regions have a ban on animal 
+testing for PCPs (e.g., EU Directive 76/768/EC). It has also 
+been suggested that animal models have inherent limitations, 
+namely a precautionary study design, limited predictivity, and 
+false-positive effects (23).
+When testing is necessary, non-animal methods (NAMs) 
+are applied when available and follow a tiered, weight-of-
+evidence (WoE) approach (24–26). Alternative methods that 
+have been validated, to date, through the European Union 
+Reference Laboratory on Alternatives to Animal Testing 27) 
+are provided in Table 16.6, and several are discussed in more 
+detail in Chapter 22. It is notable that the majority of these 
+models address local toxicity endpoints/ short-term effects 
+(e.g., eye and skin irritation and damage, skin sensitization, 
+genotoxicity, and phototoxicity). However, there are currently 
+no validated replacement tests for toxicokinetics, systemic 
+toxicity endpoints, reproductive or developmental toxicology. 
+For these endpoints, the use of in silico tools (computational 
+approaches such as quantitative structure-activity relationship 
+((Q)SAR) models (see Chapters 26 and 27 for more details 
+on (Q)SAR models) is increasingly important to predict bio-
+logical properties, support read-across, add to a WoE, reduce 
+uncertainty, and inform hypothesis generation. Importantly, 
+confidence in utilizing in silico tools in a regulatory context 
+is growing (28).
+16.4.2  Dose-Response Assessment
+As discussed in detail in Chapter 3, a dose-response is the rela-
+tionship between the dose of an ingredient and a measured 
+toxicological response. For endpoints and studies that have a 
+threshold effect (e.g., sub-chronic, chronic, and reproductive/
+developmental studies), a NOAEL can be determined. The 
+NOAEL is then divided by the estimated consumer exposure 
+to calculate an MOS considering the estimated consumer 
+exposure. In most cases for cosmetic and PCP ingredients, an 
+MOS greater than 100 is considered to be a sufficient margin 
+providing negligible risk for the consumer. When a NOAEL 
+cannot be determined, the lowest dose at which an effect is 
+observed (lowest observable adverse effect level (LOAEL)) 
+can be used, and an additional safety factor is applied in the 
+MOS calculation.
+The benchmark dose (BMD) can also be used as a point 
+of departure (POD) as an alternative to the NOAEL. A BMD 
+is a dose that causes a predetermined change in response, 
+referred to as the benchmark response (BMR). The BMR is 
+a change in the response rate of an adverse effect, typically 
+this is a default of 5% (as specified by European Food Safety 
+Authority) or 10% (as does the US EPA). Once the BMR is 
+TABLE 16.5 (Continued)
+Summary of Toxicity Endpoints Evaluated by Each Framework 
+(Animal alternative option indicated where applicable)
+ 
+CIR
+FEMA/IOFI
+RIFM
+SCCS
+Data 
+recommendations/
+requirements
+Human, available 
+animal, and in 
+vitro data; 
+read-across
+N/A
+3T3 Neutral Red Uptake 
+Phototoxicity Test; RhE 
+phototoxicity assay; 
+Confirmatory human 
+photoirritation study; 
+Historical animal and human 
+photosensitization data; 
+read-across
+3T3 Neutral Red Uptake Phototoxicity 
+Test (with reserve; OECD 432); Select 
+photomutagenicity tests; read-across
+Endocrine Activity
+Endpoint required/
+assessed?
+×
+×
+×
+=
+Updated and modified with permissions from UL. 2015. Assessing the safety of personal care products: Comparative analysis of health risk assessment 
+frameworks and recommendations for the best practices. Available from: https://msc.ul.com/wp-content/uploads/2019/05/UL-PCP-RA-Best-Practices-20156.
+pdf (4). × Not covered in framework; ✓ Explicitly covered by framework; = Covered in framework but no details on specific methods provided. *First UV 
+absorption is evaluated, if there is not significant absorption between 290 and 700 nm, then no further testing is needed to be considered (82). Abbreviations: 
+WoE (Weight-of-Evidence); UF (uncertainty factor); OECD (Organization for Economic Co-operation and Development); RhE (Reconstructed human 
+epidermis); BCOP (Bovine Cornea Opacity/Permeability test); ICE (Isolated Chicken Eye); TTC (Threshold for Toxicological Concern); (Q)SAR (Quantitative 
+structure-activity relationship; EOGRTS (Extended One-Generation Reproductive Toxicity Study); NOAEL (No observable adverse effect level); LOAEL 
+(lowest observable adverse effect level); MOS (Margin of Safety); GHS (Globally Harmonized System of Classification and Labeling of Chemicals); HRIPT 
+(Human Repeat Insult Patch Test); DPRA (Direct Peptide Reactivity Activation Assay); h-CLAT (human Cell Line Activation Test); QRA (Quantitative Risk 
+Assessment); NESIL (No Expected Sensitizing Induction Level).
+
+840
+Hayes’ Principles and Methods of Toxicology
+determined, various mathematical models are applied to fit 
+the dose-response data and estimate confidence intervals of 
+the BMD. In practice, the conservative benchmark dose lower 
+confidence limit is used to calculate a conservative estimate of 
+a daily exposure level which is compared to consumer expo-
+sure levels (CELs) to determine an MOS (29).
+In addition to MOS calculations, unlike in other sectors, 
+human confirmatory testing is sometimes undertaken for cos-
+metics and PCP products for both skin sensitization (e.g., con-
+firmation of no induction in humans) and photo irritation. This 
+is only done to confirm safe use levels identified by another 
+non-human testing. Strict guidelines and Internal Board 
+Review are in place for any human testing (30).
+16.4.3  Exposure Assessment
+Exposure is an essential part of all safety assessment pro-
+cesses, including cosmetics and PCPs. The whole concept of 
+risk assessment is based on determining if the level of expo-
+sure is significantly below the threshold for toxicity. This can 
+be a complex process since product use habits can vary widely 
+even with a single category of the product since different man-
+ufacturers may have different product use instructions or some 
+products may have dual uses (e.g., shampoo being used as a 
+body wash). Exposure assessment is often a tiered assessment 
+depending on need and includes understanding consumer uses 
+and habits, identifying potential exposure routes and expo-
+sure scenarios, and quantifying the duration and frequency of 
+exposure. Exposure data can be deterministic (point estimates) 
+or probabilistic (data distributions). Figure 16.2 demonstrates 
+that as exposure calculations become more precise, the uncer-
+tainty decreases, but the resources needed to generate the data 
+increases. Since a consumer will use a variety of products that 
+may contain the same ingredient, an aggregate exposure that 
+sums all single product exposures, from all product categories, 
+TABLE 16.6
+ECVAM Validated Animal Alternative Methods
+Endpoint
+Validated Alternative Test Method
+Eye irritation/Serious eye damage
+The Cytosensor Microphysiometer toxicity test 
+The Fluorescein Leakage test 
+Bovine Corneal Opacity and Permeability test* 
+Isolated Chicken Eye test* 
+EpiOcular™ Eye Irritation Test (EIT) 
+SkinEthic™ HCE EIT 
+Ocular irritation assay 
+Low Volume Eye Test 
+In vivo rabbit eye test template for pre-existing data
+Genotoxicity
+Ames test* 
+in vitro micronucleus*
+Carcinogenicity
+Bhas 42 cell transformation assay 
+Three cell transformation assays
+Phototoxicity
+3T3 Neutral Red Uptake phototoxicity test*
+Skin corrosion
+Rat Transcutaneous Electrical Resistance test 
+EpiSkin™ Skin corrosion test  
+EpiDerm™ Skin corrosion test 
+Corrositex® assay 
+SkinEthic™ RHE Skin corrosion test* 
+epiCS® Skin corrosion test 
+Skin irritation
+EpiSkin™ Skin irritation test 
+EpiDerm™ Skin irritation test 
+SkinEthic™ RHE Skin irritation test* 
+epiCS® Skin irritation test
+Skin sensitization
+The human Cell Line Activation Test (h-CLAT)* 
+The KeratinoSens™ assay* 
+The Direct Peptide Reactivity Assay (DPRA)* 
+U937 cell line activation test (U-SENS™) 
+LuSens assay
+*	 Assay regularly used and/or specifically mentioned as an acceptable method in the frameworks discussed 
+above (27).
+FIGURE 16.2  IFRA Uncertainty in Exposure Estimate Calculations.
+
+841
+Safety Assessment of Cosmetics and Personal Care Products
+and all relevant exposure routes can give the most realistic 
+estimate of exposure.
+The first step in an exposure assessment is to calculate 
+the local external dose (LED) which is available for sys-
+temic uptake. With regard to cosmetics and PCPs, the key 
+routes of exposure are dermal with limited oral and inha-
+lation exposure for certain applications, e.g., lipstick, tooth-
+paste, and mouthwash. When used as directed, cosmetics 
+and PCPs typically present limited risk of systemic toxicity; 
+however, it is important to understand the absorption poten-
+tial and systemic bioavailability of ingredients in such prod-
+ucts to estimated systemic doses. Various exposure models 
+and approaches can be used to estimate exposure from these 
+routes.
+An example of deterministic exposure methods required by 
+European regulators are those set out in the procedures of the 
+SCCS. Effectively, since cosmetics and PCPs are marketed 
+globally this intake approach is applied widely by the industry 
+for tier one exposure estimates.
+16.4.3.1  Dermal Exposure Model
+As described in the SCCS Notes of Guidance (21), the calcu-
+lation for dermal exposure for daily exposure to a cosmetic 
+ingredient, shown in Equation 16.1, takes into account that a 
+fraction of the product applied to the skin is actually retained 
+on the skin. So, a retention factor (Fret) is used to represent 
+the fraction that is available for uptake. The most conservative 
+assumption is that 100% (retention factor of 1) of the applied 
+dose is available for uptake. This assumption is most appli-
+cable for leave-on products like a body lotion, but for rinse-
+off products a smaller retention fraction can be applied, for 
+example, a shower-gel or hair styling products have retention 
+factors of 0.01 and 0.1, respectively. The amount applied (qx) is 
+also dependent on product type (e.g., body lotion and shower 
+gels are 7.82 and 18.67 g/d, respectively). Equation 16.2 is used 
+to normalize the amount of product applied to the surface area 
+of application (21).
+	
+=
+×
+×
+E
+C
+q
+F
+dermal x
+x
+x
+ret x	
+(16.1)
+where
+Edermal x (mg/day): external exposure available for dermal 
+uptake from product
+x: product category
+Cx (mg/day): concentration (or fraction) of a substance in a 
+product categoryx
+qx (mg/day): amount of product categoryx that is applied (or 
+received) per day
+Fret x: retention factor specific to product categoryx
+	
+= E
+x
+dermal x
+LED
+SSA 	
+(16.2)
+where
+LEDx: LED from a product categoryx
+Edermal x (mg/day): external exposure available for dermal 
+uptake from product categoryx
+SSA: skin surface area
+16.4.3.2  Oral Exposure Model
+Oral exposure is calculated in the same way as dermal expo-
+sure in Equation 16.1. Since oral exposure to cosmetic and PCP 
+ingredients is typically incidental because the products are not 
+meant to be ingested, the retention factors for toothpaste and 
+mouthwash are low 0.05 and 0.1, respectively. However, the 
+retention factor for lipstick is 1, given it is a leave-on applica-
+tion for the skin (21).
+16.4.3.3  Inhalation Exposure Model
+Since consumers can be exposed to cosmetics via inhalation 
+from non-volatile substances (e.g., powders) as well as vola-
+tiles, exposure estimates of the respiratory tract need to be 
+considered. Exposure to volatiles can be estimated based on 
+the concentration in the air using models such as ConsExpo 
+or the RIFM 2 Box Model Indoor Air Dispersion Model (31). 
+For aerosolized non-volatile particles and droplets, deposi-
+tion in the respiratory tract can be estimated with models like 
+the Multiple-Path Particle Dosimetry model (32). In addition 
+to room volume, spray (or application) duration, and ventila-
+tion rate, a key parameter in estimating inhalation exposure 
+is understanding if a droplet or particle is respirable (<10 µm) 
+if the formulation is not respirable no exposure assessment is 
+needed.
+16.4.3.4  Comparison of Deterministic and 
+Probabilistic Approaches
+16.4.3.4.1  Deterministic Approach
+The deterministic approach generates a point estimate of expo-
+sure from simple models using readily available use and habits 
+data (21,33–37). This approach assumes that consumers use 
+all products in 1 day and that an ingredient is present in each 
+product at a maximum use concentration. It also assumes that 
+exposure is additive across products and typically considers 
+high percentile values of product use (such as 90th or 95th) to 
+drive conservative exposure estimates. Such estimates, how-
+ever, do not take into account that it is highly unlikely that all 
+products used by a consumer on any given day will all contain 
+a particular cosmetic ingredient at significant concentrations, 
+let alone at the maximum current use levels in every product.
+A more accurate estimate of aggregate exposure can be 
+obtained by incorporating information on non-use and co-use. 
+This was demonstrated in the study by Cowan-Ellsberry and 
+Robison (38) which showed exposure to parabens in cosmet-
+ics could be lowered by 51%–92% over standard methods by 
+incorporating non-use and co-use statistics into the calcula-
+tion. The results of this study were supported by limited bio-
+monitoring data demonstrating that total systemic exposure 
+from all sources and routes of exposure is considerably lower 
+than previous deterministic estimates (39).
+16.4.3.4.2  Probabilistic Approach
+The probabilistic approach is a more complicated modeling 
+approach that uses distributions of data and gives a distribution 
+of possible exposure estimates, demonstrating the variability
+
+842
+Hayes’ Principles and Methods of Toxicology
+of exposure across a population. It relies on the availability 
+of accurate statistical distributions of consumer product hab-
+its and use practices. Such data can be challenging to collect; 
+however, the cosmetic industry has put significant effort into 
+understanding consumer product use (35–37,40,41), which has 
+facilitated the development of probabilistic methods to esti-
+mate consumer exposure (42). One such model which esti-
+mates the aggregate exposure to fragrance ingredients from a 
+range of common consumer products has been developed by a 
+collaboration between RIFM and Creme Global (43,44). This 
+model has been used by both the fragrance and cosmetic indus-
+tries to support exposure estimates for regulatory submissions. 
+The model incorporates different habits and practices data 
+from various population surveys, along with Monte Carlo sim-
+ulation, to derive use frequency and use amount distributions 
+that can be incorporated with ingredient concentration ranges 
+incorporated in products to derive a more realistic estimate 
+of exposure, including aggregate exposure from multi-product 
+use, of individuals across a population (45,46).
+16.4.4  Risk Characterization
+Conducting a risk assessment for a cosmetic or PCP ingredient 
+is an iterative process that integrates hazard data and estimates 
+of consumer exposure. The various frameworks described 
+above share many commonalities, including the endpoints 
+evaluated and the acceptable data used to make conclusions. 
+The RIFM framework (3) is important because fragrance 
+ingredients are used in many cosmetics and PCPs across the 
+globe and can be used to illustrate a general approach for 
+assessing cosmetic ingredients. Figure 16.3 shows the stepwise 
+approach of the RIFM framework which is applied for each 
+endpoint evaluated. The initial step involves identifying avail-
+able data for the ingredient and assessing the quality or robust-
+ness of the data (e.g., Klimisch scoring). If there is sufficient 
+data available for each endpoint, then a risk assessment can 
+be conducted. If not, the next step involves identifying suit-
+able analogs based on structure, physical-chemical properties, 
+and metabolism. Clustering fragrance ingredients for safety 
+assessment evaluation and identifying read-across analogs 
+to address data gaps have been explained by Date et al. (47). 
+When suitable analogs with sufficient available data are identi-
+fied, then a risk assessment can be conducted.
+The process moves to step three if no suitable analogs are 
+identified. Step three involves the application of the Threshold 
+of Toxicological Concern (TTC), a form of exposure-based 
+data waiving that relies on setting safe use limits or thresholds 
+of no safety concern based on data from groups of structurally 
+FIGURE 16.3  General stepwise approach for evaluating endpoint assessments. (Modified from and printed with permissions from Api, Belsito D, 
+Bruze M et al. 2015. Criteria for the Research Institute for Fragrance Materials, Inc. (RIFM) safety evaluation process for fragrance ingredients. Food 
+Chem Toxicol. 82(Suppl):S1–S19 (3).)
+
+843
+Safety Assessment of Cosmetics and Personal Care Products
+related materials (48–52). While TTC principles originated 
+in the food industry for trace ingredients in food, it has since 
+expanded and gained practice in the PCP industry as well. 
+Following a series of questions in the Cramer Class Decision 
+tree, chemicals can be separated into three structural groups 
+based on the likelihood of toxicity for certain structural fea-
+tures, natural occurrences in food, natural presence in the 
+body, and metabolism. This allows the toxicity of ingredients 
+belonging to determined structural groups (Cramer Class I, 
+II, or III) to be predicted as being of low, medium, or high 
+concern. Thresholds for systemic exposures by the oral route 
+have been established (e.g., 1,800, 540, and 90 µg/person/day 
+for Cramer Class I, II, and III substances, respectively), as 
+well as specific thresholds for non-genotoxic substances (1.5 
+µg/person/day or 0.025 µg/kg/day (53)), and thresholds for 
+site of contact effects via inhalation exposure (e.g., 1,400 and 
+470 µg/person/day for Cramer Class I and II/III materials, 
+respectively (54)).
+Cosmetics Europe has initiated a project to refine the TTC 
+by deriving internal TTC (iTTC) values based on plasma lev-
+els of an ingredient. This work will convert existing NOAELs 
+from various databases to internal exposure values and will 
+generate liver metabolism and oral absorption data, in vitro, 
+to enhance physiologically based pharmacokinetic (PBPK) 
+modeling to predict internal concentrations (55,56). These 
+iTTC values could then be applied to exposure-based safety 
+assessments.
+The basic concept of the TTC regarding presence of a 
+threshold can also be applied to evaluate potential skin sensi-
+tizers, by applying the Dermal Sensitization Threshold (DST) 
+which is a level below which there is no appreciable risk for 
+dermal sensitization to be induced, and is based on protein 
+reactivity. A DST of 900 µg/cm2 is used for non-reactive sub-
+stances, as a worst-case estimate of the no expected sensitiza-
+tion induction level (NESIL; (57,58)) while a lower DST of 64 
+µg/cm2 is used reactive substances. Nishijo et al. calculated 
+the DST for high-potency chemicals of 1.5 mg/cm2 (59). This 
+value presents a useful default approach for unidentified sub-
+stances in ingredients considering, as a worst-case scenario, 
+that the unidentified compound may be a potent skin sensi-
+tizer. The generated NESIL is then used in a dermal sensitiza-
+tion quantitative risk assessment (QRA) to set maximum limits 
+in products, as described below. If at this stage, the ingredient 
+cannot be adequately assessed, in vitro and/or in vivo testing 
+may be undertaken as the final step.
+16.4.4.1  QRA
+QRA is an exposure-based, risk assessment approach that has 
+been approved by the Expert Panel for Fragrance Safety and 
+has been adopted by RIFM for inclusion in fragrance ingredi-
+ent safety assessments for dermal effects, which are the basis 
+for the IFRA Standards. QRA is the key strategy for prevent-
+ing dermal sensitization by fragrance materials that are identi-
+fied as contact allergens. The original method was described 
+by Api et al. (60) and then revised as QRA2 (61) to update the 
+method to include aggregate exposure and to refine the uncer-
+tainty factors. The first step in the QRA is to determine the 
+NESIL which is a benchmark that is derived with WoE from 
+human, animal, and in vitro data, and is expressed as the dose 
+per unit area (µg/cm2). Next, uncertainty factors or sensitiza-
+tion assessment factors (SAFs) are applied to extrapolate from 
+experimental conditions to actual consumer exposure. A SAF 
+is determined by multiplying four factors: inter-individual 
+variability, product composition (role of product constituents), 
+frequency/duration of product use, and skin site considerations 
+(e.g., inflammation). Inter-individual variability is considered 
+similarly to general toxicology, and product constituent effects 
+consider different product forms with various formulations/
+matrices that can affect physical-chemical parameters and 
+bioavailability.
+The frequency or duration of use considers the use of the 
+products over extended periods of time which may result in 
+accumulation or a reservoir effect in the skin. The skin site 
+considerations include the presence of compromised or 
+inflamed skin on a body site, which can increase the amount 
+and speed at which an allergen crosses the epidermis. The final 
+step of the QRA is to compare the acceptable exposure level 
+(AEL) to the CEL.
+QRA2 incorporates aggregate exposure from multiple prod-
+uct uses as determined for fragrances from the Creme RIFM 
+Aggregate Exposure Model. The AEL is determined by divid-
+ing the NESIL by the product type SAF and is expressed as 
+dose/unit area/day. The Aggregate Consumer Exposure Level 
+(CELagg) calculation considers the aggregated consumer daily 
+exposure by skin site. The ratio of AEL/CELagg is calculated 
+for the fragrance ingredient in each product category, and a 
+favorable ratio, meaning the AEL is greater than the CELagg, 
+supports the safe use of the potential skin sensitizer.
+When considering the MAC for a fragrance ingredient in 
+a finished product, other endpoints must also be considered 
+(e.g., photoirritation and systemic toxicity). The MACs are 
+all reviewed based on aggregate exposure using the Creme 
+RIFM Aggregate Exposure Model. The MACs reported in the 
+RIFM safety assessments and therefore in the IFRA Standards 
+are the lower values derived from the comparison of all the 
+endpoints. Usually, this is a comparison of the dermal sensi-
+tization and the systemic toxicity endpoints. The MACs for 
+a fragrance ingredient, for practical reasons, are based on 
+product categories which are the basis of the IFRA Standards. 
+Product categorization was introduced in QRA1 (60), and this 
+approach is also applied with QRA2. Each category covers a 
+range of product types which can be grouped together based 
+on risk assessment considerations. The categories themselves 
+bring conservatisms to the risk assessment process because the 
+product which derives the lowest MAC is the one that drives 
+the category. Numerous consumer products are grouped into 
+12 general categories based on similar use patterns, critical 
+skin sites affected, similar SAFs, and levels of exposure.
+Most products are applied to more than one site. As such, 
+QRA2 introduces an adjustment factor for aggregate expo-
+sure. Thus, a series of iterations starting with the lowest AEL/
+CELagg, and adjusting upper concentration levels, provides 
+QRA2 aggregate adjustment factors (61). QRA2 aggregate 
+adjustment factors are considered by category because the rel-
+ative contribution of exposure from each product to the dermal 
+aggregate exposure to each application site for all fragrance 
+ingredients is the same. Table 16.7 provides all 12 categories
+
+844
+Hayes’ Principles and Methods of Toxicology
+for implementation of QRA2 into the RIFM safety assess-
+ments and the IFRA Standards. This table also provides the 
+adjustment factors taking into account aggregate exposure.
+16.4.4.2  Example of a RIFM Fragrance 
+Ingredient Safety Assessment
+16.4.4.2.1  Coumarin, CAS Registry Number 91-64-5
+A full safety assessment for a fragrance ingredient, cou-
+marin (CAS 91-64-5), following the approach described in 
+Figure 16.3 has been previously published and is available on 
+the Fragrance Material Safety Resource Center (62). Table 16.8 
+provides an example of how the QRA2 dermal sensitization is 
+calculated for coumarin, in two consumer products – a deodor-
+ant or antiperspirant and a hair spray. The WoE NESIL for 
+coumarin is 3,500 μg/cm2.
+Putting this together for all 12 categories and including the 
+QRA2 adjustment factors, the QRA2 MACs are provided in 
+Table 16.9.
+However, as described above, a MAC must consider all toxi-
+cological endpoints. One must consider the lowest NOAEL 
+for systemic toxicity, developmental, and reproductive toxic-
+ity. Once the NOAEL and the reference dose are determined, 
+the Creme RIFM optimization tool model determines MACs 
+TABLE 16.7
+SAF and Product Type Driving QRA2 Category Consumer Exposure Levels
+QRA2 Category
+SAF
+Calculated CEL 
+(mg/cm2/day)
+QRA2 Aggregate 
+Adjustment Factor
+Product Type That Drives 
+the Category CEL
+Category 1 – Products applied to the lips
+100
+11.8
+0.91
+Lip products
+Category 2 – Products applied to the axillae
+300
+9.1
+0.63
+Deodorants/antiperspirants of 
+all types including fragranced 
+body sprays
+Category 3 – Products applied to the face using 
+fingertips
+100
+2.17
+1
+Eye products
+Category 4 – Fine fragrance
+100
+2.21
+0.95
+Fine fragrance products
+Category 5 – Products applied to the face and body 
+using the hands (palms), primarily leave-on
+100
+3.02
+0.33
+Insect repellent (intended to be 
+applied to the skin)
+Category 6 – Products with oral and lip exposure
+100
+1.27
+0.32
+Toothpaste
+Category 7 – Products applied to the hair with 
+some hand contact
+30
+2.2
+0.58
+Hair sprays
+Category 8 – Products with significant anogenital 
+exposure
+300
+7.4
+N/A*
+Baby wipes
+Category 9 – Products with body and hand 
+exposure, primarily rinse off
+300
+0.2
+0.5
+Bar soap
+Category 10 – Household care products with 
+mostly hand contact
+100
+0.2
+0.6
+Hand dishwashing detergent
+Category 11 – Products with intended skin contact 
+but minimal transfer of fragrance to skin from 
+inert substrate
+300
+0.2
+N/A*
+Feminine hygiene liners
+Category 12 – Products not intended for direct skin 
+contact, minimal or insignificant transfer to skin
+N/A*
+–
+N/A*
+Products not intended for direct 
+skin contact, minimal or 
+insignificant transfer to skin
+Printed with permissions IFRA, Guidance for the Use of IFRA Standards, 2020 and Api A, Basketter, D, Bridges, J, et al. 2020. Updating exposure assess-
+ment for skin sensitization quantitative risk assessment for fragrance materials. Regul Toxicol Pharmacol. 118:104805 (22, 61). Abbreviations: SAF 
+(sensitization assessment factors); QRA (Quantitative Risk Assessment); CEL (consumer exposure level).
+TABLE 16.8
+Application of QRA2 to the Use of the Fragrance Ingredient, Coumarin (CAS 91-64-5) in Two Consumer Products
+Coumarin (91-64-5)
+Deodorant/Antiperspirant
+Hair Spray
+WoE NESIL
+3,500 μg/cm2
+3,500 μg/cm2
+SAF
+300
+30
+AEL= NESIL/SAF
+3,500/300 = 11.7 μg/cm2
+3,500/30 = 116.7 μg/cm2
+CEL
+9.1 mg/cm2/day
+2.2 mg/cm2/day
+AEL/CEL
+11.7 μg/cm2/9.1 mg/cm2/day*0.001 mg/µg 
+= 0.0013
+116.7 μg/cm2 / 2.2 mg/cm2/day *0.001 mg/µg = 0.053
+Concentration in the product giving AEL ≥ CEL
+≤0.13%
+≤5.3%
+QRA Risk Assessment
+Acceptable if coumarin is less than 0.13%
+Acceptable if coumarin is less than 5.3%
+Abbreviations: QRA (Quantitative Risk Assessment); WoE NESIL (weight-of-evidence no expected sensitization induction level); SAF (sensitization 
+assessment factors); acceptable exposure level (AEL); CEL (consumer exposure level).
+
+845
+Safety Assessment of Cosmetics and Personal Care Products
+for systemic endpoints for fragrance ingredient concentra-
+tions in finished consumer products. The batch optimization 
+tool allows the user to run custom optimization assessments, 
+producing an output that can be compared with user-supplied 
+QRA2 limits using a predetermined set of rules to deal with 
+specified corner cases, and thus determine concentration limits 
+for each product category, based on the more restrictive value, 
+for inclusion in the IFRA standards. Table 16.10 provides the 
+MACs for coumarin when both QRA2 and systemic toxicity 
+are considered. These can be found in the RIFM safety assess-
+ment on the material.
+16.5  Next-Generation Risk Assessment (NGRA)
+Following public and regulatory pressure, new assessment 
+approaches for cosmetic safety and risk are being developed, 
+as well as creation of an industry-NGO collaboration to cre-
+ate a training program for the implementation of non-animal 
+safety assessment for cosmetics (https://www.afsacollabora-
+tion.org/cosmetics/). A NGRA is a tiered iterative approach 
+which involves forming a hypothesis based on existing data, 
+and utilizes in silico, in chemico, and in vitro tools, as well as 
+TTC, toxicokinetics, and targeted non-animal testing to dem-
+onstrate ingredient safety without the use of animal testing. 
+All NGRA assessments need to be clearly documented since 
+there is limited regulatory guidance for decision-making with 
+many NAMs. The International Cooperation on Cosmetics 
+Regulation has defined the basic principles for using NGRA in 
+safety evaluations of cosmetics (63).
+NGRA is similar to traditional safety assessments in which 
+concentrations that do not elicit an adverse biological response 
+are compared to the estimated consumer exposure to calculate 
+a margin of exposure that protects the consumer from adverse 
+effects. However, in a NGRA, bioactivity in non-animal sys-
+tems is compared with expected levels of systemic exposure 
+through PBPK modeling and not the externally applied dose 
+(64). In NGRA, metabolism of the test item is carefully evalu-
+ated through PBPK modeling since the in vitro test systems 
+generally cannot take into account absorption, distribution, 
+metabolism, and excretion (ADME) as a whole organism can. 
+To improve predictability, testing of metabolites and predic-
+tion of their ADME behavior can be considered, although this 
+is considered a limitation of the NGRA approach, due to its 
+complexity.
+A stepwise workflow for NGRA developed by a joint 
+research initiative between the European Commission and 
+Cosmetics Europe has been previously described (65) and is 
+shown in Figure 16.4. The initial steps involved in a NGRA are 
+similar to the RIFM safety assessment framework discussed 
+above, with the exception that exposure and read-across steps 
+are reversed. The initial steps include understanding the 
+exposure scenario and identifying the molecular structure of 
+the ingredient, then exiting the workflow by completing the 
+risk assessment by applying TTC or read-across, if possible. 
+When an assessment cannot be completed, further refinement 
+TABLE 16.9
+QRA2 Aggregate Exposure Adjusted Upper Concentration Levels for Coumarin (CAS 91-64-5)
+QRA2 Category
+SAF
+Calculated CEL 
+(mg/cm2/day)
+QRA2 Aggregate 
+Adjustment Factor
+QRA2 Aggregate 
+Exposure Adjusted Upper 
+Concentration Levels (%)
+Category 1 – Products applied to the lips
+100
+11.8
+0.91
+0.27
+Category 2 – Products applied to the axillae
+300
+9.1
+0.63
+0.08
+Category 3 – Products applied to the face using 
+fingertips
+100
+2.17
+1
+1.6
+Category 4 – Fine fragrance
+100
+2.21
+0.95
+1.5
+Category 5 – Products applied to the face and body 
+using the hands (palms), primarily leave-on
+100
+3.02
+0.33
+0.38
+Category 6 – Products with oral and lip exposure
+100
+1.27
+0.32
+0.88
+Category 7 – Products applied to the hair with 
+some hand contact
+30
+2.2
+0.58
+3.1
+Category 8 – Products with significant anogenital 
+exposure
+300
+7.4
+NA*
+0.16
+Category 9 – Products with body and hand 
+exposure, primarily rinse off
+300
+0.2
+0.5
+2.9
+Category 10 – Household care products with 
+mostly hand contact
+100
+0.2
+0.6
+11
+Category 11 – Products with intended skin contact 
+but minimal transfer of fragrance to skin from 
+inert substrate
+300
+0.2
+NA*
+5.8
+Category 12 – Products not intended for direct skin 
+contact, minimal or insignificant transfer to skin
+NA*
+–
+NA*
+Not restricted
+Modified with permissions from Api A, Basketter, D, Bridges, J, et al. 2020. Updating exposure assessment for skin sensitization quantitative risk assess-
+ment for fragrance materials. Regul Toxicol Pharmacol. 118:104805 (61). *Not Applicable (NA): these product types are not incorporated in the Creme 
+RIFM exposure model, and aggregate exposure is not taken into account when calculating fragrance ingredient acceptable levels. Abbreviations: SAF 
+(sensitization assessment factors); QRA (Quantitative Risk Assessment); CEL (consumer exposure level).
+
+846
+Hayes’ Principles and Methods of Toxicology
+of exposure may be considered with physiologically based 
+kinetic modeling and iTTC may be applied. Alternatively, a 
+hypothesis is formed using existing data (human, animal, in 
+silico, and in vitro) to conduct targeted testing (based on the 
+mode of action (MoA)) using alternative methods to confirm or 
+demonstrate an absence of an effect. Results from this testing 
+can help support read-across to complete the risk assessment, 
+or confirm the hypothesis to predict PODs for a risk assess-
+ment after applying in vitro-in vivo extrapolation.
+While a safety assessment for coumarin is described above, 
+coumarin has also been used to demonstrate the application 
+of NGRA (66). In this example, coumarin is present in a face 
+cream and body lotion at 0.1%, and all existing animal data 
+were excluded in the assessment. Various in silico predic-
+tions and in vitro methods (e.g., Toxys Tox-Tracer(R), Eurofins 
+SafetyScreen44™, BioMap® Diversity8 Panel, and BioSpyder 
+TempO-Seq®) were used to cover different MoAs, and the 
+PODs were compared to exposure predictions generated with 
+PBPK modeling. This case study demonstrated that a safety 
+decision can be made following a tiered approach, without ani-
+mal data.
+16.6  Safety Assessment of Natural 
+Complex Substances
+While many consumers assume that “natural” ingredients are 
+inherently safe, this is not necessarily the case. In fact, various 
+reports demonstrate adverse effects from exposure to natural 
+ingredients. These effects include irritation, dermal sensitiza-
+tion, photosensitization, and allergic reactions (67–69), many 
+of these effects can be attributed to a lack of proper risk assess-
+ment of the ingredients.
+Natural ingredients are typically complex mixtures that 
+vary in composition due to natural variation from differing 
+growing conditions and geographical locations, different pro-
+cessing methods, and extractions from different parts of the 
+plant (e.g., leaves, roots, flowers, fruits, and seeds) all have an 
+affect the composition of the final product. The safe use of 
+natural ingredients is dependent on characterizing the com-
+position of its constituents. Various analytical methods are 
+available to identify constituents of complex mixtures includ-
+ing high performance liquid chromatography, high-resolution 
+TABLE 16.10
+The Maximum Acceptable Concentration (MAC) Values for Coumarin (CAS 91-64-5) When Both Dermal Sensitization (QRA2) and 
+Systemic Toxicity are Considered
+Category
+Product
+Combined Systemic and 
+QRA2 % in Final Product* 
+% in Final Product 
+Driven by
+1
+Products applied to the lips
+0.089
+Systemic toxicity
+2
+Products applied to the axillae
+0.08
+Dermal sensitization
+3
+Products applied to the face/body using fingertips
+0.089
+Systemic toxicity
+4
+Products related to fine fragrances
+1.5
+Dermal sensitization
+5 (5A)
+Products applied to the body using the hands (palms), primarily 
+leave-on (Body lotion)
+0.38
+Dermal sensitization
+5 (5B)
+Products applied to the face using the hands (palms), primarily 
+leave-on (Face moisturizer)
+0.011
+Systemic toxicity
+5 (5C)
+Products applied to the hands using the hands (palms), 
+primarily leave-on (hand cream)
+0.016
+Systemic toxicity
+5 (5D)
+Products applied to babies using the hands (palms), primarily 
+leave-on (baby cream, oil, talc)
+0.035
+Systemic toxicity
+6
+Products with oral and lip exposure
+0.0024
+Systemic toxicity
+7 (7A)
+Rinse-off products applied to the hair with some hand contact
+0.18
+Systemic toxicity
+7 (7B)
+Leave-on products applied to the hair with some hand contact
+0.18
+Systemic toxicity
+8
+Products with significant anogenital exposure (tampon)
+0.035
+Systemic toxicity
+9
+Products with body and hand exposure, primarily rinse off
+0.52
+Systemic toxicity
+10 (10A)
+Household care products with mostly hand contact (excluding 
+aerosol/spray products)
+0.52
+Systemic toxicity
+10 (10B)
+Household care products with mostly hand contact (household 
+aerosol/spray products)
+1.6
+Systemic toxicity
+11 (11A)
+Products with intended skin contact but minimal transfer of 
+fragrance to skin from inert substrate without UV exposure
+0.035
+Systemic toxicity
+11 (11B)
+Products with intended skin contact but minimal transfer of 
+fragrance to skin from inert substrate with potential UV 
+exposure
+0.035
+Systemic toxicity
+12
+Other air care products not intended for direct skin contact, 
+minimal or insignificant transfer to skin
+33
+Systemic toxicity
+Modified with permissions from Api A, Basketter, D, Bridges, J, et al. 2020. Updating exposure assessment for skin sensitization quantitative risk assess-
+ment for fragrance materials. Regul Toxicol Pharmacol. 118:104805 (61). *The combined systemic and QRA2 % in the final product can be the result of 
+various iterations in the optimization tool.
+
+847
+Safety Assessment of Cosmetics and Personal Care Products
+mass spectrometry, ultraviolet detection, and charged aerosol 
+detection (70). The constituents and levels (%) that are present 
+in the extract need to be identified and documented.
+Once the composition is understood, the safety assessment 
+process is similar to that described for synthetic ingredients 
+(3,21,71). This includes identifying hazards (including those 
+discussed above for synthetic ingredients, as well as the poten-
+tial for Type I allergy at the site of contact), and defining con-
+sumer exposure. Since many natural ingredients are complex 
+mixtures and lack sufficient toxicity testing, the TTC is an 
+important part of the safety assessment. A TTC of 10 μg per 
+person per day of botanical plant material, based on dry weight, 
+has been suggested to be sufficiently protective, but it cannot 
+be applied to concentrated extracts such as essential oils (72).
+If there is not sufficient data to complete a safety assessment 
+on the whole extract, and the estimated exposure exceeds the 
+TTC, then the safety of the individual constituents is evaluated 
+using available data or the TTC. Similarly, as described above, 
+non-animal testing approaches may be conducted to fill a data 
+gap. This testing can be done on the entire extract or on the 
+constituents in order to complete the assessment.
+16.7  Consumer Risk Perception
+More than ever, consumers are looking for assurance on the 
+safety of chemicals in the products they use in their daily lives 
+and are seeking information on the potential health impacts 
+such products may have. While there is much access to infor-
+mation, there is a general confusion or misunderstanding 
+around ingredient safety often stemming from beliefs that 
+regulations are not sufficient, or that ingredient transparency 
+is lacking. This has led to distrust in industry and a higher 
+perception of risk compared to how much harm an ingredi-
+ent can actually cause. A great deal of misperception around 
+the safety of cosmetic ingredients arises from the fact that 
+the basic principles of toxicology and risk assessment are not 
+understood nor applied. Most lay consumers and NGOs apply 
+heuristic approaches when assessing risk and do not consider 
+the probability of likelihood nor actual levels of exposure and 
+dose. In fact, for the average consumer, risk equates to “some-
+thing bad will happen to me”. Thus, people who are fearful 
+of cosmetics and chemicals in general, only consider hazard. 
+They assume there is similarity between responses observed 
+in high-dose animal studies and low-dose product exposure, 
+without considering the differences in route, duration, and 
+amount of exposure (73). Adding to consumer concerns and 
+the misperception of risk is also the way various chemical haz-
+ards are discussed. Statements like “endocrine disruptor” or 
+“hormone-like substances” are polarizing terms; they sound 
+hazardous and can raise concerns and fears in consumers. Yet, 
+in the absence of relevant human exposure and potency data, 
+these terms are meaningless related to human health risks (74).
+Building off public concern, some advocacy groups have 
+developed their own safety assessment systems. Unfortunately, 
+most of these systems only account for hazards associated with 
+FIGURE 16.4  Framework Summary of the NGRA. (Adapted from Berggren E, White A, Ouedraogo G et al. 2017. Ab initio chemical safety assess-
+ment: A workflow based on exposure considerations and non-animal methods. Comput Toxicol. 4:31–44 (65).) Ab initio assessment is a hypothesis-
+driven generation of new in vitro data and in vitro to in vivo extrapolation via mathematical modeling. MoA (mode of action); WoE (weight-of-evidence).
+
+848
+Hayes’ Principles and Methods of Toxicology
+ingredients and are akin to “red lists” but without consider-
+ations of exposure and valid scientific risk assessment. For 
+example, the Environmental Defense Fund produced a pocket 
+product guide list of “10 ingredients to avoid”; the Campaign 
+for Safe Cosmetics profiles nearly 20 “chemicals of concern”. 
+Many of these ingredients are now being voluntarily phased 
+out by major manufacturers even though safe levels in prod-
+ucts can be established. A classic example is diethyl phthalate 
+which has numerous studies supporting its safe use (75–77); 
+however, it has been tarnished by its association with other 
+phthalates. The safety profile of different phthalates are not 
+the same, some possess undesirable properties (e.g., di(2-eth-
+ylhexyl) phthalate (78) and butyl benzyl phthalate (79)), while 
+others do not (e.g., dimethyl phthalate and dibutyl phthalate 
+(75,80)).
+Adding to consumer concerns around cosmetic ingredients is 
+also the lack of perceived transparency. This is particularly seen 
+with fragrances, whose formulae are considered “trade secrets” 
+and are typically not disclosed, only being generally labeled as 
+“fragrance” or “parfum”. This lack of disclosure of the details of 
+“fragrance” on product labeling, coupled with incomplete pub-
+lic understanding of the approach undertaken to assess cosmetic 
+and PCP safety assessment, has led to a distrust of both the use 
+of fragrances as well as the companies that manufacture them. 
+As such, both IFRA and RIFM have put considerable effort 
+into risk communication platforms to explain the process the 
+fragrance industry uses to assess and regulate fragrance ingre-
+dients. This includes regular presentations and discussion fora 
+with consumers, regulators, and academic researchers in the 
+field, scientific publications, and dedicated dissemination por-
+tal for fragrance safety science (Food and Chemical Toxicology 
+Fragrance Material Safety Assessment Center: http://fragrance-
+materialsafetyresource.elsevier.com).
+In order to ensure safe cosmetics and PCPs, it is key that 
+consumers seek out factual information on the ingredients 
+used and that industry openly support access to data on the 
+chemicals they use. Misleading, or “phantom risk”, statements 
+are problematic because they can distract attention from actual 
+risks (81) and may lead manufacturers to substitute alternatives 
+that have not been as well characterized and/or have potential 
+data gaps. This is particularly pertinent in light of the move 
+toward non-animal testing since not all endpoints are able to 
+be adequately covered at this time.
+16.8  Summary
+The aim of this chapter was not to present a synopsis on the 
+safety of cosmetic and PCP products nor discuss the toxic-
+ity of the broad classes of ingredients used in these products. 
+Much of the data on chemical toxicities can be sought in other 
+chapters of this book. Cosmetic ingredients are not unique, 
+and the basic tenets of chemical risk assessment are the same. 
+However, the fact that cosmetic and PCPs are applied directly 
+to the body on a regular basis and may be used over a long 
+period of time has resulted in considerable attention and care 
+by the industry to appropriately assess, and communicate on, 
+their safety. A number of leading efforts have been undertaken 
+to ensure that the risk assessment frameworks applied by 
+industry and regulators reflect the everyday use and ubiqui-
+tous exposure of such products. Here we present an overview 
+of the general principles of risk assessment with an emphasis 
+on cosmetic and PCP ingredients. Primary reference is given 
+to examples from the fragrance industry; however, the overall 
+approaches are applicable to all cosmetic and PCP products 
+and their component ingredients.
+16.9  Questions
+	 16.1	 Who holds the responsibility for ascertaining the 
+safety of cosmetic ingredients?
+	 16.2	 What unique considerations need to be considered 
+in the safety assessment of cosmetic and personal 
+care ingredients versus other chemical entities?
+	 16.3	 What are the disadvantages of regulating solely on 
+the basis “red lists” (i.e. hazard)?
+	 16.4	 List the key steps involved in the safety assessment 
+of a new fragrance ingredient. Explain the concept 
+of endpoint-driven safety assessment.
+	 16.5	What is meant by an exposure-based, risk assess-
+ment approach?
+	 16.6	 Why is aggregate exposure a key consideration in 
+the safety assessment of cosmetic and consumer 
+care ingredients and products?
+	 16.7	 How does the RIFM safety assessment approach 
+consider new approach methodologies? What fac-
+tors need to be considered when applying new 
+approach methods to ingredient safety assessment?
+	 16.8	 Do natural ingredients pose additional safety con-
+cerns over artificial ingredients? Can the same 
+safety and risk assessment approaches be applied?
+	 16.9	 What are some of the key factors impacting con-
+sumer risk perception of cosmetic and consumer 
+care ingredients?
+REFERENCES
+	
+1.	 Pauwels M, and Rogiers V. 2004. Safety evaluation of cos-
+metics in the EU. Reality and challenges for the toxicolo-
+gist. Toxicol Lett. 151(1): 7–17.
+	
+2.	 Kortenkamp A, and Faust M. 2018. Regulate to reduce 
+chemical mixture risk. Science. 361(6399):224–226.
+	
+3.	 Api AM, Belsito D, Bruze M, et al. 2015. Criteria for the 
+Research Institute for Fragrance Materials, Inc. (RIFM) 
+safety evaluation process for fragrance ingredients. Food 
+Chem Toxicol. 82(Suppl):S1–S19.
+	
+4.	 UL. 2015. Assessing the safety of personal care products: 
+Comparative analysis of health risk assessment frameworks 
+and recommendations for the best practices. Available from: 
+https://msc.ul.com/wp-content/uploads/2019/05/UL-PCP- 
+RA-Best-Practices-20156.pdf (accessed July 14, 2021).
+	
+5.	 U.S. Food and Drug Administration. 2020. Available from: 
+https://www.fda.gov/cosmetics/cosmetics-laws-regulations/
+cosmetics-us-law (accessed July 14, 2021).
+
+849
+Safety Assessment of Cosmetics and Personal Care Products
+	
+6.	 Cosmetics Info. 2021. Cosmetics Regulation in the 
+European Union. Available from: https://cosmeticsinfo.org/
+Regulation-in-eu (accessed July 14, 2021).
+	
+7.	 Canada. 2021. Regulatory information for cosmetics. 
+Government of Canada. Available from: https://www.canada.
+ca/en/health-canada/services/consumer-product-safety/
+cosmetics/regulatory-information.html (accessed July 14, 
+2021).
+	
+8.	 Chemical Inspection and Regulation Service Limited 
+(CIRS). 2012. CFDA Registration of Imported Cosmetics 
+in China - Hygiene License & Record-keeping Certificate. 
+Available from: http://www.cirs-reach.com/Cosmetics_
+Registration/China_cosmetics_regulations_registration.
+html (accessed July 14, 2021).
+	
+9.	 Rannou E. 2015. Guidebook for Exporting/Importing 
+Cosmetics to Japan. Tokyo: EU-Japan Centre for Industrial 
+Cooperation. 
+https://www.eu-japan.eu/sites/default/files/
+publications/docs/cosmetics-japan.pdf (accessed July 14, 
+2021).
+	 10.	 CE.way. 2021. South Korea. Available from: https://www.
+canada.ca/en/health-canada/services/consumer-product-
+safety/cosmetics/regulatory-information.html 
+(accessed 
+July 14, 2021).
+	 11.	SGS North America Inc. 2018. Cosmetics & Personal 
+Care Products Major Standards and Regulations. 
+Available from: https://www.sgsgroup.us.com/-/media/
+local/usa/documents/flyers-and-leaflets/cts/sgscosmetic-
+personal-care-intl-standardsa4en12v1.pdf (accessed July 
+14, 2021).
+	 12.	CE.way. 2021 China. Available from: https://www.
+ceway.eu/international-services/china/ (accessed July 
+14, 2021).
+	 13.	 Shao E. 2019. China compliance: Cosmetic products. UL. 
+Available from: https://www.ul.com/news/china-compliance- 
+cosmetic-products (accessed July 14, 2021).
+	 14.	 CE.way. 2021. Canada. Available from: https://www.ceway.
+eu/international-services/canada/ (accessed July 14, 2021).
+	 15.	 Grum T. 2019. Global ban on animal testing: where are 
+we in 2019? Cosmetics design-europe.com. Available 
+from: 
+https://www.cosmeticsdesign-europe.com/Article/ 
+2019/03/05/Global-ban-on-animal-testing-where-are-
+we-in-2019 (accessed July 14, 2021).
+	 16.	 Ministry of Food and Drug Safety (MFDS). 2021. 
+Cosmetics. Available from: https://www.mfds.go.kr/eng/
+brd/m_28/list.do (accessed July 14, 2021).
+	 17.	 Hu A. 2020. ASEAN Cosmetic Regulation: ChemLinked. 
+Available from: https://cosmetic.chemlinked.com/cosme-
+pedia/asean-cosmetic-regulation#C9 (accessed July 14, 
+2021).
+	 18.	 ECHA. 2020. EU restricted substances: Annex III, 
+Regulation 1223/2009/EC on Cosmetic Products, as 
+amended by Regulation (EU) 2020/1683, 13 November 
+2020. Available from: https://echa.europa.eu/lv/cosmetics-
+restricted-substances (accessed July 14, 2021).
+	 19.	 U.S. FDA 2021. Authority over cosmetics: How cosmetics 
+are not FDA-approved, but are FDA-regulated. Available 
+from: https://www.fda.gov/cosmetics/cosmetics-laws-regu-
+lations/fda-authority-over-cosetics-how-cosmetics-are-not-
+fda-approved-are-fda-regulated (accessed July 14, 2021).
+	 20.	 Boyer IJ, Bergfeld WF, Heldreth B, Fiume MM, Gill LJ. 
+2017. The cosmetic ingredient review program-expert safety 
+assessments of cosmetic ingredients in an open forum. Int J 
+Toxicol. 36(5_suppl2):5S–13S.
+	 21.	 SCCS. 2021. The SCCS notes of guidance for the testing of 
+cosmetic ingredients and their safety evaluation 11th revision, 
+30–31 March 2021, SCCS/1628/21. Report No.: SCCS/1628/21.
+	 22.	 IFRA. 2020 Guidance for the use of IFRA standards. Available 
+from: https://ifrafragrance.org/docs/default-source/ifra-code- 
+of-practice-and-standards/49th-amendment/ifra-49th-
+amendment-(att-01)---guidance-for-the-use-of-
+ifra-standardsa7006c445f36499bbb0eb141e8c0d4be.
+pdf?sfvrsn=7fb244c8_2 (accessed July 14, 2021).
+	 23.	 Hartung T. 2009. Toxicology for the twenty-first century. 
+Nature. 460(7252):208–212.
+	 24.	 Pfuhler S, Kirst A, Aardema M, et al. 2010. A tiered 
+approach to the use of alternatives to animal testing for the 
+safety assessment of cosmetics: genotoxicity. A COLIPA 
+analysis. Regul Toxicol Pharmacol. 57(2–3):315–324.
+	 25.	 McNamee P, Hibatallah J, Costabel-Farkas M, et al. 2009. 
+A tiered approach to the use of alternatives to animal test-
+ing for the safety assessment of cosmetics: eye irritation. 
+Regul Toxicol Pharmacol. 54(2):197–209.
+	 26.	 Macfarlane M, Jones P, Goebel C, et al. 2009. A tiered 
+approach to the use of alternatives to animal testing for 
+the safety assessment of cosmetics: skin irritation. Regul 
+Toxicol Pharmacol. 54(2):188–196.
+	 27.	 European Commission. 2021. EU Reference Laboratory 
+for alternative to animal testing: European Commission 
+Science Hub. Available from: https://ec.europa.eu/jrc/en/
+eurl/ecvam (accessed July 14, 2021).
+	 28.	 Gellatly N, and Sewell, F. 2019. Regulatory acceptance of 
+in silico approaches for the safety assessment of cosmetic-
+related substances. Comput Toxicol. 11:82–89.
+	 29.	 U.S. EPA. 2012. Benchmark dose technical guidance docu-
+ment. U.S. Environmental Protection Agency. [cited June 
+19, 2021]. Available from: https://www.epa.gov/sites/pro-
+duction/files/2015-01/documents/benchmark_dose_guid-
+ance.pdf (accessed July 14, 2021).
+	 30.	 Na M, Ritacco G, O’Brien D, Lavelle M, Api AM, Basketter 
+D. 2020. Fragrance skin sensitization evaluation and human 
+testing: 30-Year experience. Dermatitis. epub. 2020 Nov 16.
+	 31.	 Petry T, Vitale D, Joachim FJ, Smith B, Mascarenhas R, 
+Schneider S, Singal M, Cruse L. 2014. Human health risk 
+evaluation of selected VOC, SVOC and particulate emis-
+sions from scented candles. Regul Pharmacol. 69(1):55–70.
+	 32.	 Anjilvel S, and Asgharian B. 1995. A multiple-path model 
+of particle deposition in the rat lung. Fundam Appl Toxicol. 
+1995;28(1):41–50.
+	 33.	 U.S. EPA. 2011. Exposure Factors Handbook: 2011 Edition. 
+Washington, DC: National Center for Environmental 
+Assessment; EPA/600/R-09/052F. Available from the 
+National Technical Information Service, Springfield, VA, 
+and online at http://www.epa.gov/ncea/efh.
+	 34.	 Bremmer HJ, Prud’homme de Lodder LCH, van Engelen 
+JGM. 2006. Cosmetics Fact Sheet: To Assess the Risks 
+for the Consumer: Updated Version for ConsExpo 4. 
+Bilthoven (NL): National Institute for Public Health and the 
+Environment. RIVM report 320104001/2006.
+
+850
+Hayes’ Principles and Methods of Toxicology
+	 35.	 Loretz L, Api AM, Barraj L, et al. 2006. Exposure data 
+for personal care products: Hairspray, spray perfume, liquid 
+foundation, shampoo, body wash, and solid antiperspirant. 
+Food Chem Toxicol. 44(12):2008–2018.
+	 36.	 Hall B, Tozer S, Safford B, et al. 2007. European consumer 
+exposure to cosmetic products, a framework for conduct-
+ing population exposure assessments. Food Chem Toxicol. 
+45(11):2097–2108.
+	 37.	 Hall B, Steiling W, Safford B, et al. 2011. European con-
+sumer exposure to cosmetic products, a framework for 
+conducting population exposure assessments Part 2. Food 
+Chem Toxicol. 49(2):408–422.
+	 38.	 Cowan-Ellsberry CE, and Robison SH. 2009. Refining 
+aggregate exposure: Example using parabens. Regul Toxicol 
+Pharmacol. 55(3):321–329.
+	 39.	 Ye W, Bishop, AM., Reidy, JA., Needham, LL., Calafat, 
+AM. 2006. Parabens as urinary biomarkers of exposure in 
+humans. Environ Health Perspect. 114(12):1843–1846.
+	 40.	 Loretz LJ, Api AM, Barraj LM, et al. 2005. Exposure 
+data for cosmetic products: Lipstick, body lotion, and face 
+cream. Food Chem Toxicol. 43(2):279–291.
+	 41.	 Loretz LJ, Api AM, Babcock L, et al. 2008. Exposure data 
+for cosmetic products: Facial cleanser, hair conditioner, and 
+eye shadow. Food Chem Toxicol. 46(5):1516–1524.
+	 42.	 McNamara C, Rohan D, Golden D, et al. 2007. Probabilistic 
+modelling of European consumer exposure to cosmetic 
+products. Food Chem Toxicol. 45(11):2086–2096.
+	 43.	 Comiskey D, Api AM, Barrett C, et al. 2017. Integrating 
+habits and practices data for soaps, cosmetics and air care 
+products into an existing aggregate exposure model. Regul 
+Toxicol Pharmacol. 88:144–156.
+	 44.	 Comiskey DAA, Barratt C, Daly EJ, et al. 2015. Integrating 
+habits and practices data for soaps, cosmetics and air care 
+products into an existing aggregate exposure model. Regul 
+Toxicol Pharmacol. 72(3):660–672.
+	 45.	 Safford RJ, Api AM, Roberts DW, Lalko JF. 2015. Extension 
+of the Dermal Sensitisation Threshold (DST) approach to 
+incorporate chemicals classified as reactive. Regul Toxicol 
+Pharmacol. 72(3):694–701.
+	 46.	 Safford B, Api AM, Barratt C, et al. 2017. Application of 
+the expanded Creme RIFM consumer exposure model to 
+fragrance ingredients in cosmetic, personal care and air 
+care products. Regul Toxicol Pharmacol. 86:148–156.
+	 47.	 Date MS, O’Brien D, Botelho DJ, et al. 2020. Clustering 
+a chemical inventory for safety assessment of fragrance 
+ingredients: Identifying read-across analogs to address data 
+gaps. Chem Res Toxicol. 33(7): 1709–1718.
+	 48.	 Kroes R, Renwick AG, Cheeseman M, et al. 2004. 
+Structure-based thresholds of toxicological concern (TTC): 
+Guidance for application to substances present at low levels 
+in the diet. Food Chem Toxicol. 42(1):65–83.
+	 49.	 Kroes R, Renwick AG, Feron V, et al. 2007. Application of 
+the threshold of toxicological concern (TTC) to the safety 
+evaluation of cosmetic ingredients. Food Chem Toxicol. 
+45(12):2533–2662.
+	 50.	 Munro IC, Ford RA, Kennepohl E, Sprenger JG. 1996. 
+Thresholds of toxicological concern based on structure-
+activity relationships. Drug Metab Rev. 28(1–2):209–217.
+	 51.	 Patel A, Joshi K, Rose J, Laufersweiler M, Felter SP, Api 
+AM. 2020. Bolstering the existing database supporting the 
+non-cancer Threshold of Toxicological Concern values with 
+toxicity data on fragrance-related materials. Regul Toxicol 
+Pharmacol. 116: 104718.
+	 52.	 Yang C, Barlow, SM., Muldoon Jacobs, KL., et al. 2017. 
+Thresholds of Toxicological Concern for cosmetics-related 
+substances: New database, thresholds, and enrichment of 
+chemical space. Food Chem Toxicol. 109:170–193.
+	 53.	 Rulis A. 1989. Establishing a Threshold of Concern. New 
+York: Plenum Press.
+	 54.	 Carthew P, Clapp C, Gutsell S. 2009. Exposure based waiv-
+ing: The application of the toxicological threshold of con-
+cern (TTC) to inhalation exposure for aerosol ingredients in 
+consumer products. Food Chem Toxicol. 47(6):1287–1295.
+	 55.	 Ellison CA, Blackburn KL, Carmichael PL, et al. 2019. 
+Challenges in working towards an internal threshold of 
+toxicological concern (iTTC) for use in the safety assess-
+ment of cosmetics: Discussions from the Cosmetics Europe 
+iTTC Working Group workshop. Regul Toxicol Pharmacol. 
+103:63–72.
+	 56.	 Ellison C, Api, AM, Becker, RA, et al. 2021. Internal 
+threshold of toxicological concern (iTTC): Where we are 
+today and what is possible in the near future. Front Toxicol. 
+2: 1–7.
+	 57.	 Safford RJ. 2008. The Dermal Sensitisation Threshold - A 
+TTC approach for allergic contact dermatitis. Regul Toxicol 
+Pharmacol. 51(2):195–200.
+	 58.	 Safford RJ, Aptula AO, Gilmour N. 2011. Refinement of 
+the Dermal Sensitisation Threshold (DST) approach using 
+a larger dataset and incorporating mechanistic chemistry 
+domains. Regul Toxicol Pharmacol. 60(2):218–224.
+	 59.	 Nishijo T, Api AM, Gerberick GF, et al. 2020. Application 
+of the dermal sensitization threshold concept to chemicals 
+classified as high potency category for skin sensitization 
+assessment of ingredients for consumer products. Regul 
+Toxicol Pharmacol. 117: 104732.
+	 60.	 Api AM, Basketter DA, Cadby PA, et al. 2008. Dermal sen-
+sitization quantitative risk assessment (QRA) for fragrance 
+ingredients. Regul Toxicol Pharmacol. 52(1):3–23.
+	 61.	 Api A, Basketter, D, Bridges, J, et al. 2020. Updating 
+exposure assessment for skin sensitization quantitative 
+risk assessment for fragrance materials. Regul Toxicol 
+Pharmacol. 118: 104805.
+	 62.	 Api AM, Belmonte F, Belsito D, et al. 2019. RIFM fra-
+grance ingredient safety assessment, coumarin, CAS 
+Registry Number 91-64-5. Food Chem Toxicol. 130(Suppl 
+1):110522.
+	 63.	 Dent M, Amaral, RT., Da Silva, PA., et al. 2018. Principles 
+underpinning the use of new methodologies in the risk assess-
+ment of cosmetic ingredients. Comput Toxicol. 7:20–26.
+	 64.	 Rogiers V, Benfenati E, Bernauer U, et al. The way forward 
+for assessing the human health safety of cosmetics in the 
+EU - Workshop proceedings. Toxicology. 436:152421.
+	 65.	 Berggren E, White A, Ouedraogo G, et al. 2017. Ab initio 
+chemical safety assessment: A workflow based on exposure 
+considerations and non-animal methods. Comput Toxicol. 
+4:31–44.
+
+851
+Safety Assessment of Cosmetics and Personal Care Products
+	 66.	 Baltazar MT, Cable S, Carmichael PL, et al. 2020. A next-
+generation risk assessment case study for coumarin in cos-
+metic products. Toxicol Sci. 176(1): 236–252.
+	 67.	 Corazza M, Borghi A, Gallo R, et al. 2014. Topical botani-
+cally derived products: Use, skin reactions, and usefulness 
+of patch tests. A multicentre Italian study. Contact Dermat. 
+70(2):90–97.
+	 68.	 Kiken DA, and Cohen DE. 2002. Contact dermatitis to 
+botanical extracts. Am J Contact Dermat. 13(3):148–152.
+	 69.	 Yagami A, Aihara M, Ikezawa Z, et al. 2017. Outbreak of 
+immediate-type hydrolyzed wheat protein allergy due to a 
+facial soap in Japan. J Allergy Clin Immunol. 140(3):879–81 
+e7.
+	 70.	 Baker TR, and Regg BT. 2018. A multi-detector chromato-
+graphic approach for characterization and quantitation of 
+botanical constituents to enable in silico safety assess-
+ments. Anal Bioanal Chem. 410(21):5143–5154.
+	 71.	 Cohen SM, Eisenbrand G, Fukushima S, et al. 2019. 
+FEMA GRAS assessment of natural flavor complexes: 
+Citrus-derived flavoring ingredients. Food Chem Toxicol. 
+124:192–218.
+	 72.	 Mahony C, Bowtell P, Huber M, et al. 2020. Threshold of 
+toxicological concern (TTC) for botanicals - Concentration 
+data analysis of potentially genotoxic constituents to sub-
+stantiate and extend the TTC approach to botanicals. Food 
+Chem Toxicol. 138: 111182.
+	 73.	 Ross G. 2006. A perspective on the safety of cosmetic prod-
+ucts: A position paper of the American Council on Science 
+and Health. Int J Toxicol. 25(4):269–277.
+	 74.	 Nohynek GJ, Borgert CJ, Dietrich D, Rozman KK. 2013. 
+Endocrine disruption: Fact or urban legend? Toxicol Lett. 
+223(3): 295–305.
+	 75.	 CIR. 1985. Final report on safety assessment of dibutyl 
+phthalate, dimethyl phthalate and diethyl phthalate. J Am 
+Coll Toxicol. 4(3):267–303.
+	 76.	 Api AM. 2001. Toxicological profile of diethyl phthalate: A 
+vehicle for fragrance and cosmetic ingredients. Food Chem 
+Toxicol. 39(2):97–108.
+	 77.	 SCCNFP. 2002. Opinion of the Scientific Committee on 
+Cosmetic Products and Non-Food Products Intended for 
+Consumers concerning diethyl phthalate. Report No.: 
+SCCNFP/0411/01.
+	 78.	 Rowdhwal SSS, Chen J. 2018. Toxic effects of di-
+2-ethylhexyl phthalate: An overview. Biomed Res Int. 
+2018:1750368.
+	 79.	 ECHA. 2014. Opinion of the Member State Committee 
+on the Identification of Benzyl Butyl Phthalate (BBP) as 
+a Substance of Very High Concern. Support Document to 
+MSC opinion Benzyl butyl phthalate (BBP) (Member State 
+Committee, provided to MSC on 19 November 2014 and 
+adopted on 11 December 2014).
+	 80.	 CIR. 2005. Annual review of cosmetic ingredient safety 
+assessments -2002/20031. Int J Toxicol. 24(Suppl.1):1–102.
+	 81.	 Daum C. 2006. Self-Regulation in the Cosmetic Industry: 
+A necessary reality or a cosmetic illusion? Harvard Law 
+School Student Papers. Available at: https://dash.harvard.
+edu/handle/1/8965615 (accessed July 12, 2021).
+	 82.	 Henry B, Foti C, Alsante K. 2009. Can light absorption and 
+photostability data be used to assess the photosafety risks in 
+patients for a new drug molecule? J Photochem Photobiol 
+B. 96(1): 57–62.

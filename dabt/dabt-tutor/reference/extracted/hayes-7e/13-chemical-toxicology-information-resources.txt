@@ -1,0 +1,1995 @@
+# 13 Chemical Toxicology Information Resources
+# Hayes' Principles and Methods of Toxicology, 7th Edition
+# Pages: 711-728
+# Unit: Volume I
+
+681
+13
+Chemical Toxicology Information Resources1
+Stephanie Holmgren, Jacqueline Patterson, Kristina Thayer, Philip Wexler, and Antony J. Williams
+13.1  Scope of Toxicology and the Framework 
+of Its Information Resources
+Informally defined as “the science of poisons,” toxicology 
+is further defined by the US Society of Toxicology (SOT) in 
+2005 as:
+Toxicology is the study of the adverse effects of 
+chemical, physical or biological agents on living 
+organisms and the ecosystem, including the preven-
+tion and amelioration of such adverse effects.
+This definition was elaborated by a consensus discussion:
+Toxicity is the adverse end product of a series of events 
+that is initiated by exposure to chemical, physical or 
+biological agents. Toxicity can manifest itself in a wide 
+array of forms, from mild biochemical malfunctions 
+to serious organ damage and death. These events, any 
+of which may be reversible or irreversible, include 
+absorption, transport, metabolism to more or less toxic 
+metabolites, excretion, interaction with cellular macro-
+molecules and other modes of toxic action. Toxicology 
+integrates the study of all of these events, at all levels 
+of biological organization, from molecules to complex 
+ecosystems. The broad scope of toxicology, from the 
+study of fundamental mechanisms to the measurement 
+of exposure, including toxicity testing and risk analy-
+sis, requires an extensively interdisciplinary approach. 
+This approach utilizes the principles and methods of 
+other disciplines, including molecular biology, chem-
+istry (analytical, organic, inorganic and biochemistry), 
+physiology, medicine (veterinary and human), com-
+puter science and informatics.
+To expand further upon the definition, toxicology can be con-
+sidered from additional perspectives. One option is by type of 
+agent – chemical, biological, or physical. Chemicals, singly as 
+well as in mixtures, in varying scales from nanoscale on up, 
+and as used in drugs, food, industrial applications, consumer 
+products, etc., or that show up as waste, can all be investi-
+gated from a toxicological perspective. Biological agents such 
+as animal venoms and plant toxins also fall within the wide 
+scope of toxicology. Finally, one can explore the toxic poten-
+tial of physical agents such as noise and radiation. For any such 
+CONTENTS
+13.1	 Scope of Toxicology and the Framework of Its Information Resources����������������������������������������������������������������������������681
+13.2	 Selective Information Resources: A Starting Point�����������������������������������������������������������������������������������������������������������682
+13.2.1	 Monographs�����������������������������������������������������������������������������������������������������������������������������������������������������������682
+13.2.1.1	 Principles of Toxicology������������������������������������������������������������������������������������������������������������������������683
+13.2.1.2	 Toxic Agents������������������������������������������������������������������������������������������������������������������������������������������684
+13.2.1.3	 Methods to Assess Toxicity�������������������������������������������������������������������������������������������������������������������684
+13.2.1.4	 Organ- and System-Specific Toxicology�����������������������������������������������������������������������������������������������684
+13.2.2	 Journals������������������������������������������������������������������������������������������������������������������������������������������������������������������685
+13.2.3	 Comprehensive Reviews and Assessments�����������������������������������������������������������������������������������������������������������685
+13.2.4	 Chemical Fact Sheets, Profiles, and Summaries���������������������������������������������������������������������������������������������������688
+13.2.5	 Chemical Data and Information Sources��������������������������������������������������������������������������������������������������������������689
+13.2.6	 Organizations��������������������������������������������������������������������������������������������������������������������������������������������������������692
+13.2.6.1	 Governmental and Multilateral International Organizations����������������������������������������������������������������692
+13.2.6.2	 Professional Certification in Toxicology�����������������������������������������������������������������������������������������������694
+13.2.6.3	 Professional Societies����������������������������������������������������������������������������������������������������������������������������694
+13.3	 Conducting a Literature Search and Bibliographic Resources������������������������������������������������������������������������������������������695
+13.3.1	 Bibliographic Resources����������������������������������������������������������������������������������������������������������������������������������������696
+13.4	 Social Media����������������������������������������������������������������������������������������������������������������������������������������������������������������������697
+13.5	 Conclusions������������������������������������������������������������������������������������������������������������������������������������������������������������������������698
+13.6	 Questions����������������������������������������������������������������������������������������������������������������������������������������������������������������������������698
+References������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������698
+DOI: 10.1201/9781003390008-14
+1	 Disclaimer: This article was reviewed in accordance with the policies of 
+the Office of Research and Development, US Environmental Protection 
+Agency, and approved for publication. Mention of trade names or commer-
+cial products does not constitute endorsement or recommendation for use.
+
+682
+Hayes’ Principles and Methods of Toxicology
+agent, toxicology can play a role in determining why and how 
+it is toxic, as well as how to avoid and lessen its effects.
+Another way to look at the subject would be via the effects 
+on target sites, such as liver, kidney, skin, nervous system, or 
+type of effect such as cancer, mutation, or inflammation. For 
+instances involving humans and other animals, the subject’s 
+susceptibilities due to gender, age, genetics, and general state 
+of health are criteria that should be considered. Furthermore, 
+one needs to know the extent to which acute, sub-chronic, or 
+chronic exposures or effects are involved.
+Toxicology is multidisciplinary, encompassing research 
+studies conducted, in various settings, on laboratory animals, 
+in vivo in humans (much less often, within ethically controlled 
+settings), in vitro (i.e., tissue or cell culture), and in silico (i.e., 
+using computer programs to estimate the toxicity of chemi-
+cals). Epidemiological investigations also play an important 
+role in toxicology. Despite an emphasis on laboratory research, 
+clinical toxicology is an important component and aligns with 
+the prevention and amelioration part of the SOT definition. 
+Clinical toxicology focuses on the diagnosis, management, 
+and prevention of poisoning due to toxic agents as does medi-
+cal toxicology, with the latter recognized as a medical sub-
+specialty by the American Board of Medical Specialties and 
+practiced by physicians. Translational science, that seeks for 
+ways to translate bench science or, increasingly, computer sci-
+ence to bedside clinical practice, is helping to bridge the gap in 
+toxicology between research and patient care. Poison Control 
+Centers take calls from physicians, pharmacists, and other 
+medical professionals with specific training in toxicology.
+Sometimes the setting in which one is exposed dictates the type 
+of toxicologist called upon to explore a problem. Occupational 
+toxicology attempts to assess the hazards and risks to health 
+posed by chemicals found in the workplace. Workers may be 
+exposed to chemicals at a significantly higher level than the gen-
+eral public and to chemicals not typically found in the general 
+ambient environment. Regulatory toxicology, which cuts across 
+the workplace and other settings, utilizes scientific knowledge 
+to develop regulations to reduce and control exposure to danger-
+ous chemicals and plays an important role in health and envi-
+ronmental safety. Yet another branch of toxicology, sometimes 
+intersecting clinical, regulatory, and workplace toxicology, is 
+forensic toxicology, which is concerned with determining the 
+presence or absence of toxic substances and their metabolites 
+in biological fluids or tissues to solve a medico-legal problem.
+Environmental toxicology considers the effects of toxic sub-
+stances intentionally or unintentionally released into the environ-
+ment. Ecotoxicology, a somewhat narrower discipline, depending 
+upon who is doing the defining, is devoted to the study of the 
+adverse effects of chemicals on ecosystems structure, functions, 
+and biodiversity. Pollutants altering elements of our natural envi-
+ronment, including plants, animals, and climate, can also have a 
+short- or long-term impact on human health.
+Risk assessment integrates numerous disciplines of toxicol-
+ogy. Consisting of qualitative and quantitative components, its 
+four steps have been traditionally defined as: hazard identifica-
+tion, dose-response assessment, exposure assessment, and risk 
+characterization. Risk assessments are performed to estimate the 
+nature and probability of adverse effects and are critical in help-
+ing understand the perils potentially posed by a variety of agents.
+While animal experimentation continues to be widespread, 
+it is expensive, labor and time intensive, and raises a host of 
+ethical concerns. New approach methodologies are increas-
+ingly being employed as alternatives to animal testing, and this 
+seems to be the future of toxicology testing.
+Many of the more recent advances in toxicological sciences 
+stem from the Human Genome Project and DNA mapping 
+efforts as well as the pharmaceutical industry’s projects to screen 
+for chemicals possessing specific biological functionality while 
+maintaining safety. Toxicology has embraced the -omics revolu-
+tion. Microarrays and next-generation RNA sequencing are just 
+two of the many newer technologies now within a toxicologist’s 
+arsenal. Big data, public access, and data sharing have all had 
+roles in moving toxicology forward and made it increasingly 
+interdisciplinary. Understanding how to map the molecular path-
+ways of toxicity in cells will play a major role in enhancing our 
+understanding of what makes a substance toxic. Bioinformatics 
+and computational toxicology, as well, are offering new ways to 
+not only evaluate and assess, but also predict chemical toxicity.
+As should be clear from the above, the breadth of toxicology as 
+a subject ranges far and wide. Toxicology information resources 
+are equally wide-ranging and cover foundational concepts, best 
+practices in experimental design to generate evidence, journals 
+and databases that present results of toxicological and epidemio-
+logical studies, approaches to conduct literature-based assess-
+ments, and conclusions from assessments conducted by Federal, 
+state, and international agencies. Resources that span these 
+concepts are inventoried below along with information on key 
+societies and organizations dedicated to the field of toxicology. 
+This chapter, though, does not attempt to comprehensively point 
+to information resources in every aspect of the field but instead 
+serves as a companion to the sub-disciplines discussed in the 
+book’s other chapters, with the focus on (non-pharmaceutical) 
+chemicals which pose a risk to health. Thus, it does not high-
+light areas such as drugs, foods, analytical and clinical toxicol-
+ogy, industrial health, and ecotoxicology/environmental health, 
+all of which would be relevant to the subject in an encyclopedic 
+treatise but more than can be encompassed here. This is also in 
+keeping in line with the range of chapters covered in this book.
+The remaining sections of this chapter are intended to high-
+light useful resources for toxicology information: books, com-
+prehensive reviews and assessments, journals, chemical data and 
+information resources, and organizations. A brief section guides 
+the reader on where and how to search for toxicology literature. 
+The final section spotlights recent trends that impact both the 
+generation and dissemination of toxicology information.
+13.2  Selective Information Resources: 
+A Starting Point
+13.2.1  Monographs
+Books, used here synonymously with monographs, describe, 
+summarize, and/or discuss information drawn from primary 
+research data and literature. Although books may have out-
+dated information, they are often a useful starting point for 
+learning the basics, obtaining an overview of a subject, and 
+identifying primary sources.
+
+683
+Chemical Toxicology Information Resources
+Readers can readily locate books by searching Google 
+Books, any of the large book suppliers such as Amazon, 
+or directly on publisher websites (e.g., Elsevier’s 
+ScienceDirect at sciencedirect.com). These suppliers usu-
+ally offer the ability to preview the table of contents and 
+may allow “search within this book” to view excerpted con-
+tent before purchasing. Major public library catalogs, both 
+technical and general, are also sources for locating books. 
+Examples are the National Library of Medicine (NLM) 
+(https://www.ncbi.nlm.nih.gov/nlmcatalog/), the New York 
+Public Library’s Shared Collection Catalog (https://www.
+nypl.org/research/collections/about/shared-collection-cata-
+log), and the Library of Congress (https://catalog.loc.gov/). 
+Also, consider searching the library catalog of your local 
+university. Most universities allow the public to purchase 
+an annual library card to borrow books in their collections. 
+Most ­publishers now make books available online as well 
+as in print.
+One book not fitting neatly into the following headings but 
+worth highlighting for readers interested in a more compre-
+hensive framework of toxicology information is Wexler P., ed. 
+et al. Information Resources in Toxicology, 5th edition (2020). 
+Academic Press. In two volumes, it is a comprehensive portal 
+to the information framework of toxicology and related fields, 
+and serves as a global, annotated bibliography and directory of 
+its major resources.
+The following compilation of books is not intended to be 
+comprehensive, nor even extensive, but rather to highlight 
+recently published and classic texts in general and special-
+ized areas of toxicology. Coverage includes standard books, 
+dictionaries, handbooks, textbooks, and encyclopedias that 
+address the key concepts covered elsewhere in this Hayes’ edi-
+tion. The selected titles appeal to a range of audiences, from 
+members of the public and toxicology students to public health 
+specialists, regulators, and practicing researchers. The books 
+are categorized by the section headings used here in Hayes’.
+13.2.1.1  Principles of Toxicology
+Boelsterli U.A. (2017). Mechanistic Toxicology: The Molecular 
+Basis of How Chemicals Disrupt Biological Targets, 2nd 
+edition. Boca Raton, FL: CRC Press.
+Boroujerdi M. (2015). Pharmacokinetics and Toxicokinetics. 
+Boca Raton, FL: CRC Press.
+Derelanko M.J. (2018). Toxicologist’s Pocket Handbook, 3rd 
+ed. Boca Raton, FL: CRC Press.
+Derelanko M.J. and Auletta C.S., eds. (2014). Handbook of 
+Toxicology, 3rd ed. Boca Raton, FL: CRC Press.
+Farland B., Klaunig J., and Paustenbach D., eds. (2021). Patty’s 
+Toxicology, 7th ed. Hoboken, NJ: Wiley.
+Fisher F., Gearhart J., and Lin Z., eds. (2020). Physiologically 
+Based Pharmacokinetic (PBPK) Modeling: Methods and 
+Applications in Toxicology and Risk Assessment. San Diego, 
+CA: Academic Press.
+Gad S.C., ed. (2018). Regulatory Toxicology, 3rd ed. Boca 
+Raton, FL: CRC Press.
+Gilbert S.G. (2012). A Small Dose of Toxicology: The Health 
+Effects of Common Chemicals, 2nd ed. Boca Raton, FL: 
+CRC Press.
+Greim H. and Snyder R., eds. (2018). Toxicology and Risk 
+Assessment: A Comprehensive Introduction, 2nd ed. 
+Hoboken, NJ: Wiley & Sons.
+Gupta P.K. (2016). Fundamentals of Toxicology: Essential 
+Concepts and Applications. San Diego, CA: Academic Press.
+Gupta P.K. (2018). Illustrated Toxicology. Amsterdam: 
+Academic Press.
+Gupta R.C., ed. (2014). Biomarkers in Toxicology. San Diego, 
+CA: Academic Press.
+Hayes A.W., Wang T. and Dixon D., eds. (2019). Loomis’s 
+Essentials of Toxicology, 5th ed. Cambridge, MA: Academic 
+Press.
+Hodgson E., Roe M., Mailman R. and Chambers J., eds. (2015). 
+Dictionary of Toxicology, 3rd ed. Amsterdam: Elsevier.
+Klaassen C.D. (2019). Casarett & Doull’s Toxicology: The 
+Basic Science of Poisons, 9th ed. New York: McGraw-Hill.
+Lee B-M., Kacew S. and Kim H.S., eds. (2017). Lu’s Basic 
+Toxicology: Fundamentals, Target Organs, and Risk 
+Assessment, 7th ed. Boca Raton, FL: CRC Press.
+Luttrell W.E., Still K.R., Church J.A., and Beyer L.A., eds. 
+(2019). Toxicology Principles for the Industrial Hygienist, 2nd 
+ed. Fairfax, VA: American Industrial Hygiene Association.
+McQueen C.A., ed. (2017). Comprehensive Toxicology, 3rd ed. 
+Amsterdam: Elsevier.
+Nelson L.S., Howland M.A., Lewin N.A., Smith S.W., 
+Goldfrank L.R. and Hoffman R.S., eds. (2019). Goldfrank’s 
+Toxicologic Emergencies, 11th ed. New York: McGraw-Hill.
+Ottoboni M.A. (2011) The Dose Makes the Poison: A 
+Plain Language Guide to Toxicology, 3rd ed. Hoboken, NJ: 
+Wiley.
+Pohanish, R. (2017). Sittig’s Handbook of Toxic and Hazardous 
+Chemicals and Carcinogens, 7th ed. Norwich, NY: William 
+Andrew Publishing.
+Pope C. and Liu J., eds. (2020). An Introduction to 
+Interdisciplinary Toxicology: From Molecules to Man. 
+Cambridge, MA: Academic Press.
+Robinson L. (2018). A Practical Guide to Toxicology and 
+Human Health Risk Assessment. Hoboken, NJ: John Wiley 
+& Sons.
+Smart R.C. and Hodgson E., eds. (2018) Molecular and 
+Biochemical Toxicology, 5th ed. Hoboken, NJ: Wiley.
+Stine K.E. and Brown T.M. (2015). Principles of Toxicology, 
+3rd ed. Boca Raton, FL: CRC Press.
+van Leeuwen C.J. and Vermeire T.G., eds. (2010). Risk 
+Assessment of Chemicals: An Introduction, 2nd ed. 
+Amsterdam: Springer.
+Wexler, P., ed. (2014). Encyclopedia of Toxicology, 4th ed. 
+2023. San Diego, CA: Academic Press.
+Winder C. and Stacey N.H., eds.(2019). Occupational 
+Toxicology. Boca Raton, FL: CRC Press.
+Woodward K. and Marrs T., eds. (2018). Regulatory Toxicology 
+in the European Union, 1st ed. Croydon: Royal Society of 
+Chemistry.
+Woolley D. and Woolley A. (2017). Practical Toxicology: 
+Evaluation, Prediction, and Risk, 3rd ed. Boca Raton, FL: 
+CRC Press.
+Yamamoto D.P., Phillips K.A. and Racz LA., eds. (2020). 
+Total Exposure Health: An Introduction, Boca Raton, FL: 
+CRC Press.
+
+684
+Hayes’ Principles and Methods of Toxicology
+13.2.1.2  Toxic Agents
+Bagchi D. and Swaroop A. eds. (2016). Food Toxicology. Boca 
+Raton, FL: CRC Press.
+Johnson T.E. (2017). Introduction to Health Physics, 5th ed. 
+New York: McGraw-Hill Education.
+Kaloyanova F.P. and El Batawi M.A. (2020). Human 
+Toxicology of Pesticides. Abingdon: Routledge.
+Krieger, R., ed. (2010). Hayes’ Handbook of Pesticide 
+Toxicology, 3rd ed. San Diego, CA: Academic Press.
+Kumar V., Dasgupta N. and Ranjan S., eds. (2018). 
+Nanotoxicology: Toxicity Evaluation, Risks Assessment and 
+Management, 1st ed. Boca Raton, FL: CRC Press.
+Lewis, R.J. (2012). Sax’s Dangerous Properties of Industrial 
+Materials, 12th ed. Hoboken, NJ: John Wiley & Sons.
+Nordberg G., Fowler B., Nordberg M., eds. (2014). Handbook 
+on the Toxicology of Metals, 4th ed. San Diego, CA: 
+Academic Press. Volume II: Specific Metals, 2021.
+Schecter, A. ed. (2012). Dioxins and Health: Including Other 
+Persistent Organic Pollutants and Endocrine Disruptors, 
+3rd ed. Hoboken, NJ: John Wiley & Sons.
+Stenerson J. (2004). Chemical Pesticides: Mode of Action and 
+Toxicology. Boca Raton, FL: CRC Press.
+Wood A.W. and Karipidis K. (2017). Non-Ionizing Radiation 
+Protection: Summary of Research and Policy Options. 
+Hoboken, NJ: John Wiley & Sons.
+Zalups R.K. and Koropatnick D.J., eds. (2010). Cellular and 
+Molecular Biology of Metals, 1st ed. Boca Raton, FL: CRC 
+Press.
+Zeliger H.I. (2011). Human Toxicology of Chemical Mixtures, 
+2nd ed. Norwich, NY: William Andrew.
+13.2.1.3  Methods to Assess Toxicity
+Allen D. and Waters M.D. (2013). Reducing, Refining and 
+Replacing the Use of Animals in Toxicity Testing. Croydon: 
+Royal Society of Chemistry.
+Bailer A.J. (2020). Statistics for Environmental Biology and 
+Toxicology. Boca Raton, FL: CRC Press.
+Bal-Price A. and Jennings P., eds. (2016). In Vitro Toxicology 
+Systems. New York: Springer.
+Barile F.A. (2013). Principles of Toxicology Testing, 2nd ed. 
+Boca Raton, FL: CRC Press.
+Burczynski, 
+M.E., 
+ed. 
+(2003). 
+An 
+Introduction 
+to 
+Toxicogenomics. Boca Raton, FL: CRC Press.
+Cronin M.T.D. and Madden J.C. (2010). In Silico Toxicology: 
+Principles and Applications. Croydon: Royal Society of 
+Chemistry.
+Dhawan A. and Kwon S., eds. (2017). In Vitro Toxicology. 
+Cambridge, MA: Academic Press.
+Eakins S., ed. (2018). Computational Toxicology. Risk 
+Assessment for Pharmaceutical and Environmental 
+Chemicals, 2nd ed. Hoboken, NJ: John Wiley & Sons.
+Eskes C., van Vliet E. and Maibach H.I., eds. (2017). 
+Alternatives for Dermal Toxicity Testing. Basel: Springer 
+International Publishing.
+Gad S.C., ed. (2016). Animal Models in Toxicology, 3rd ed. 
+Boca Raton, FL: CRC Press.
+Gad S.C., ed. (2019). Statistics and Experimental Design for 
+Toxicologists and Pharmacologists, 4th ed. Abingdon-on-
+Thames: Taylor & Francis Ltd.
+Garcia-Reyero N. and Murphy, C., eds. (2018). A Systems 
+Biology Approach to Advancing Adverse Outcome Pathways 
+for Risk Assessment. New York: Springer.
+Gopinath C. and Mowat V., eds. (2014). Atlas of Toxicological 
+Pathology, 1st ed. New York: Springer.
+Gupta R.C., ed. (2019). Biomarkers in Toxicology, 2nd ed. San 
+Diego, CA: Elsevier Academic Press.
+Haschek W.M., Rouseaux C.G., Wallig M.A., Bolon B., Ochoa 
+R. and Mahler B.W., eds. (2013). Haschek and Rouseaxu’s 
+Handbook of Toxicologic Pathology, 3rd ed. New York: 
+Academic Press.
+Hoeng J. and Peitsch M.C. (2015). Computational Systems 
+Toxicology. New York: Springer.
+Jacobson-Kram D. and Keller K.A. (2016). Toxicological 
+Testing Handbook: Principles, Applications and Data 
+Interpretation, 2nd ed. Boca Raton, FL: CRC Press.
+McInnes E. ed. (2017). Pathology for Toxicologists: Principles 
+and Practices of Laboratory Animal Pathology for Study 
+Personnel. Hoboken, NJ: Wiley-Blackwell.
+Mendrick, D.L. and Mattes, W.B., eds. (2008). Essential 
+Concepts in Toxicogenomics. Totowa, NJ: Humana Press.
+Percy D.H., Barthold S.W. and Griffey S.M. (2016) Pathology 
+of Laboratory Rodents and Rabbits, 4th ed. Hoboken, NJ: 
+Wiley-Blackwell.
+Razzaghi M. (2020). Statistical Models in Toxicology, 1st ed. 
+Boca Raton, FL: CRC Press.
+Sahota P.S., Popp J.A., Hardisty J.F., Gopinath C., and Bouchard 
+P., eds. (2018). Toxicologic Pathology: Nonclinical Safety 
+Assessment, 2nd ed. Boca Raton, FL: CRC Press.
+Sahota P.S., Spaet R.H., Bentley P., and Wojcinski Z.W., eds. 
+(2019). The Illustrated Dictionary of Toxicologic Pathology 
+and Safety Science. Boca Raton, FL: CRC Press.
+Sahu, S.C., ed. (2008). Toxicogenomics: A Powerful Tool for 
+Toxicity Assessment. Chichester: John Wiley & Sons.
+Sahu, S.C., ed. (2012). Toxicology and Epigenetics, 1st ed. 
+West Sussex: John Wiley & Sons.
+Salsburg D.S. (2019). Statistics for Toxicologists. Boca Raton, 
+FL: CRC Press.
+Selmy M.A. (2017). Toxicogenomics. Oakville: Delve Publishing.
+Treuting P.M., Dintzis S.M. and Montine K.S., eds. (2017). 
+Comparative Anatomy and Histology: A Mouse, Rat, and 
+Human Atlas, 2nd ed. New York: Academic Press.
+13.2.1.4  Organ- and System-Specific Toxicology
+Acosta Jr. D., ed. (2008). Cardiovascular Toxicology, 4th ed. 
+Abingdon-on-Thames: Taylor & Francis.
+Adami H.O., Hunter D.J., Lagiou P. and Mucci L., eds. (2018). 
+A Textbook of Cancer Epidemiology, 3rd ed. New York: 
+Oxford University Press.
+Bellinger D.C. (2006). Human Developmental Neurotoxicology. 
+Abingdon-on-Thames: Taylor & Francis.
+Berent S. and Albers J.W. (2008). Neurobehavioral Toxicology: 
+Neuropsychological 
+and 
+Neurological 
+Perspectives. 
+London: Taylor & Francis.
+
+685
+Chemical Toxicology Information Resources
+Broe M.E. and de Porter G.A., eds. (2008). Clinical 
+Nephrotoxins: Renal Injury from Drugs and Chemicals. San 
+Diego, CA: Springer.
+Chen M. and Will Y., eds. (2018). Drug-Induced Liver Toxicity. 
+New York: Springer.
+Chilcott R.P. and Price S., eds. (2008). Principles and Practice 
+of Skin Toxicology. Chichester: John Wiley & Sons.
+Corsini E. and van Loveren H. (2014). Molecular 
+Immunotoxicology. Hoboken, NJ: John Wiley & Sons.
+Debarre P.D., ed. (2015). Endocrine Disruption and Human 
+Health. Cambridge, MA: Academic Press.
+Gad SC., ed. (2019). Toxicology of the Gastrointestinal Tract, 
+2nd ed. Boca Raton, FL: CRC Press.
+Gore A.C., ed. (2007). Endocrine-Disrupting Chemicals: 
+From Basic Research to Clinical Practice. Hoboken, NJ: 
+Humana Press.
+Gupta R.C., ed. (2022). Reproductive and Developmental 
+Toxicology, 3rd ed. Cambridge, MA: Academic Press.
+Hales B., Scialli A. and Tassinari M.S., eds. (2017). Teratology 
+Primer, 3rd ed. Reston, VA: The Society for Birth Defects 
+Research and Prevention.
+Harry G.J. and Tilson H.A., eds. (2010). Neurotoxicology, 3rd 
+ed. New York: Informa Healthcare.
+Gardner D.E., ed. (2006) Toxicology of the Lung, 4th ed. 
+Philadelphia, PA: Taylor and Francis.
+Kim S.G., ed. (2013). Kidney: Toxicological Assessment. Boca 
+Raton, FL: CRC Press.
+Mattison D.R., ed. (2015). Computational Methods for 
+Reproductive and Developmental Toxicology. Boca Raton, 
+FL: CRC Press.
+Monteiro-Riviere N.A., ed. (2010). Toxicology of the Skin. 
+Philadelphia, PA: Taylor and Francis.
+Nohmi T. and Fukushima S., eds. (2016). Thresholds of 
+Genotoxic Carcinogens: From Mechanisms to Regulation. 
+San Diego, CA: Academic Press.
+Roberts M.S. and Walters K.A., eds. (2008). Dermal 
+Absorption and Toxicity Assessment, 2nd ed. New York: 
+Informa Healthcare.
+Sahu S., ed. (2008). Hepatotoxicity: From Genomics to In 
+Vitro and In Vivo Models. Chichester: John Wiley & Sons.
+Salem H. and Katz S.A., eds. (2015). Inhalation Toxicology, 
+3rd ed. Boca Raton, FL: CRC Press.
+Sheppard T.H. and Lemire R.J. (2010). Catalog of Teratogenic 
+Agents, 13th ed. Baltimore, MD: Johns Hopkins University 
+Press.
+Slicker W., Paule M.G. and Wang C., eds. (2018). Handbook 
+of Developmental Neurotoxicology, 2nd ed. New York: 
+Academic Press.
+Walker S.S., Murray P.T. and Singh A.K., eds. (2018). Core 
+Concepts in Acute Kidney Injury. New York: Springer.
+Wilhelm K.P., Zhai H. and Maibach H.I., eds. (2012). 
+Dermatotoxicology, 8th ed. Philadelphia, PA: Taylor & Francis.
+13.2.2  Journals
+Commercial publishers, government organizations, and profes-
+sional societies currently publish over 120 toxicology journals, 
+based on the Toxicology category listed at Scimago Journal 
+Rankings (scimagojr.com). Many of these journals emerged as a 
+result of the growth of sub-disciplines within the field of toxicology. 
+This number of journals does not even reflect toxicology research 
+published in other discipline-related literature journals such as 
+Biomarkers, Carcinogenesis, and Metabolism, or in data journals 
+such as Data in Brief, Genomics Data, or Scientific Data.
+Journals now use a standard electronic format which allows 
+for the delivery of information not only via personal computer 
+but also via mobile devices. The online availability of content 
+enables interactive graphics and the easy distribution of data in 
+reusable data formats. It also makes it easier for readers to stay 
+current by subscribing to alerting services that provide regu-
+lar updates on recently published research. Almost all journal 
+publishers as well as bibliographic resources; e.g., PubMed, 
+Scopus, and Google Scholar provide research alerts.
+Since 2003, with the Bethesda Statement on Open 
+Access 
+Publishing 
+(https://www.researchgate.net/publica-
+tion/48547523_The_Bethesda_Statement_on_Open-Access_
+Publishing), there has been an increasing shift to make online 
+published peer-reviewed literature free, immediate, and per-
+manently open access. With toxicology literature no longer 
+sitting behind a paywall, research results are now being dis-
+seminated to and accessed by a significantly wider audience.
+In support of this movement, many publishers currently offer 
+the ability for authors to pay fees to make their research open 
+access. Some publishers, such as Biomed Central and PLoS, 
+are open access only, and authors must pay a fee to publish 
+in their journals, whereas other publishers, e.g., Nature and 
+Springer, offer hybrid journals where authors have a choice 
+whether to pay the fees to make the article open access. The 
+government-sponsored Environmental Health Perspectives is 
+one of a few journals that do not impose author fees. Finally, 
+policies such as the National Institutes of Health (NIH) Public 
+Access Policy (https://publicaccess.nih.gov/) mandate that 
+NIH-funded researchers submit their peer-reviewed accepted 
+manuscript to PubMed Central (PMC). The Directory of Open 
+Access Journals (https://doaj.org/) and Free Medical Journals 
+(http://www.freemedicaljournals.com/) are useful resources 
+for readers to locate free and open access research.
+Table 13.1 lists some key toxicology journals, largely those 
+in English. An asterisk next to the journal title indicates it is 
+open access. These journals cover toxicology and the related 
+areas of occupational and environmental health, ecotoxicol-
+ogy, risk analysis, and medicine. Readers can easily locate 
+current websites for these journals or their publishers via 
+a standard Web search engine, such as Google. It should be 
+emphasized that this is a selective list of journals.
+13.2.3  Comprehensive Reviews and Assessments
+Comprehensive reviews typically involve evaluating the qual-
+ity of, and summarizing the key research regarding, the harm-
+ful effects of a chemical on people and/or the environment. 
+Assessments tend to extend that review by making conclusions 
+based on the evidence regarding the chemical’s hazard, the 
+dose-response and/or level of harmful exposure, and conclud-
+ing with a characterization of the known risk for that substance.
+Such comprehensive reviews and assessments usually evalu-
+ate and integrate information from peer-reviewed epidemio-
+logical, experimental model, and mechanistic studies. In some 
+cases, the publications may identify knowledge gaps and pro-
+pose areas for further study.
+
+686
+Hayes’ Principles and Methods of Toxicology
+The systematic review process typically used to appraise 
+medical evidence for healthcare has recently also been 
+applied to chemical risk assessment. Many organizations, 
+including the International Agency for Research on Cancer 
+(IARC), the National Toxicology Program (NTP), and the 
+US Environmental Protection Agency (EPA), have adopted 
+a systematic review approach to ensure rigor, transparency, 
+and objectivity to their assessment process. The World Health 
+Organization (WHO) (2010) published a toolkit that outlines 
+how to conduct a health risk assessment. In addition, the 
+WHO Chemical Risk Assessment Network is has developed 
+a high-level framework document on the use of systematic 
+review methods in chemical risk assessment (World Health 
+Organization 2021). A listing of reviews and assessments 
+follows.
+Agency for Toxic Substances and Disease Registry (ATSDR) 
+Toxicological Profiles
+https://www.atsdr.cdc.gov/toxprofiledocs/index.html
+The Toxicological Profiles are ATSDR’s reviews of all rel-
+evant peer-reviewed studies that describe a substance’s toxi-
+cologic and adverse health effect information. The profile 
+is not intended to be exhaustive and references more com-
+prehensive sources of specialty information. Each profile 
+includes a summary and interpretation of extent of human 
+exposure to the substance, whether adequate information 
+exists on the health effects of each substance, and identifi-
+cation of toxicologic testing needed to identify the types or 
+levels of exposure that present adverse health risks. ATSDR 
+extracts information within the Toxicological Profiles and 
+republishes it in two other publications (ToxFAQs and 
+ToxGuide) for different audiences.
+TABLE 13.1
+Selected Toxicology Journals
+Acta Pharmacologica et Toxicologica
+Adverse Drug Reaction Bulletin
+Adverse Drug Reactions and Toxicological Reviews
+American Journal of Industrial Medicine
+Annals of Occupational Hygiene
+Annals of the ICRP
+Annual Review of Pharmacology and Toxicology
+Aquatic Toxicology
+Archives of Environmental Contamination and Toxicology
+Archives of Environmental Health
+Archives of Toxicology
+Basis and Clinical Pharmacology and Toxicology
+Biomarkers
+Birth Defects Research
+Bulletin of Environmental Contamination and Toxicology
+Carcinogenesis
+Cardiovascular Toxicology
+Cell Biology and Toxicology
+Chemical Research in Toxicology
+Chemico-Biological Interactions
+Chemosphere
+Clinical Toxicology
+Comparative Biochemistry and Physiology. Part C: Pharmacology, 
+Toxicology, and Endocrinology
+Contact Dermatitis
+Critical Reviews in Toxicology
+Cutaneous and Ocular Toxicology
+Dose–Response
+Drug and Chemical Toxicology
+Drugs
+Ecotoxicology
+Ecotoxicology Reviews
+Environmental Health*
+Environmental Health Perspectives*
+Environmental Research
+Environmental Toxicology
+Environmental Toxicology and Chemistry
+Environmental Toxicology and Pharmacology
+Environmental Toxicology and Water Quality
+European Journal of Pharmacology
+Experimental and Toxicologic Pathology
+Expert Opinion on Drug Metabolism and Toxicology
+Food and Chemical Toxicology
+Forensic Toxicology
+Free Radical Biology and Medicine
+Human and Experimental Toxicology
+The Journal of Exposure Science and Environmental Epidemiology 
+(JESEE)
+Journal of Immunotoxicology
+The Journal of Occupational and Environmental Hygiene
+Journal of Pharmacological and Toxicological Methods
+Journal of Toxicological Sciences
+Journal of Toxicology: Clinical Toxicology
+Journal of Toxicology and Environmental Health
+Molecular Carcinogenesis
+Mutagenesis
+Nanotoxicology
+Natural Toxins
+Neurotoxicity Research
+NeuroToxicology
+Neurotoxicology and Teratology
+Open Toxicology Journal*
+Particle and Fibre Toxicology*
+(Continued)
+TABLE 13.1 (Continued)
+Selected Toxicology Journals
+Pharmacology and Toxicology
+Pharmacology and Toxicology
+Phytomedicine
+Regulatory Toxicology and Pharmacology
+Reproductive Toxicology
+Risk Analysis
+Science of the Total Environment
+Teratogenesis, Carcinogenesis, Mutagenesis
+Teratology
+Tobacco Induced Diseases*
+Toxicologic Pathology
+Toxicological Reviews
+Toxicological Sciences
+Toxicology
+Toxicology and Applied Pharmacology
+Toxicology and Industrial Health
+Toxicology In Vitro
+Toxicology Letters
+Toxicology Mechanisms and Methods
+Toxicon
+Xenobiotica
+* Indicates open access journal
+
+687
+Chemical Toxicology Information Resources
+Australian Industrial Chemicals Introduction Scheme Public 
+Report  https://www.industrialchemicals.gov.au/chemical- 
+information/search-assessments
+In support of the Industrial Chemicals Act of 2019, the Public 
+Report assesses the risks to human and environmental health 
+from the importation, manufacture, and use of industrial 
+chemicals in Australia. The reports typically encompass 
+chemical identity information, human health exposure and 
+health effects assessment, environmental fate and ecotoxic-
+ity results, and hazard classification and risk management 
+recommendations to regulators and standard setting bodies in 
+Australian and state and territory governments.
+Concise International Chemical Assessment Document 
+(CICAD)
+https://www.inchem.org/pages/cicads.html
+The IPCS (International Programme on Chemical Safety) 
+CICADs draw on existing national or regional evaluation docu-
+ments or existing Environmental Health Criteria (EHCs) docu-
+ments to provide a review of the potential effects of chemicals 
+on human health and/or the environment. CICADs do not sum-
+marize all known data on a chemical but emphasizes hazard 
+characterization and dose-response from chemical exposure. 
+They also provide examples of exposure estimation and risk 
+characterizations. International experts peer-review the content 
+to ensure completeness, accuracy, and validity of conclusions.
+Environmental Health Criteria (EHCs)
+https://www.inchem.org/pages/ehc.html
+Produced by the WHO, the criteria monographs provide a 
+comprehensive review of the human health risks and envi-
+ronmental effects associated with exposure to chemicals, 
+mixtures, and physical and biological agents. The review is 
+intended to support administrators and scientists who conduct 
+risk assessments and government bodies who set regulations 
+and standards. Although the reviews are predominantly based 
+on published data, unpublished data may be used when it is 
+critical to the assessment or when public data is not avail-
+able. The EHCs consist of two different series. The first series 
+addresses the human and environmental effects from a chemi-
+cal or agent while the second series evaluates toxicological and 
+epidemiological methods to promote harmonization of inter-
+national results.
+European Union Risk Assessment Reports (RARs)
+[no direct link available]
+RARs provide an in-depth assessment of risks to human 
+health and the environment from exposure to “existing” sub-
+stances that were in use within the European Community 
+prior to 1981 and listed in the European Inventory of Existing 
+Commercial Chemical Substances (EINECS). The assessment 
+covers general substance information, exposure information 
+based on production and use, environmental exposure and 
+effect assessment and risk characterization, as well as human 
+health effects. When appropriate, the report may also recom-
+mend strategies to minimize risks of exposure to the sub-
+stances. Unlike many other assessments, the evaluators may 
+request additional studies be conducted to address gaps in 
+knowledge needed for assessment.
+IARC Monographs on the Evaluation of Carcinogenic Risks 
+to Humans
+https://monographs.iarc.fr/
+The IARC Monographs are the result of interdisciplinary 
+groups of expert scientists who have reviewed the published 
+scientific evidence on the risk of human cancer from chemi-
+cals, complex mixtures, occupational exposures, physical and 
+biological agents, and lifestyle factors. Based on a critical eval-
+uation of the weight of evidence that a substance can increase 
+the risk of cancer, the expert group may classify an agent into 
+one of five hazard categories. More than 4,000 agents have 
+been evaluated, of which approximately 900 have been iden-
+tified as carcinogenic or potentially carcinogenic to humans. 
+National agencies may use information from the monographs 
+to regulate and minimize exposure to potential carcinogens.
+Nordic Expert Group for Criteria Documentation of Health 
+Risks from Chemicals
+https://www.av.se/en/the-nordic-expert-group/
+These criteria documents are developed by multidisciplinary 
+experts from the Nordic European countries with the aim 
+to evaluate all relevant published, peer-reviewed original 
+research to aid in setting occupational exposure limits for a 
+chemical substance. Although no numerical values for occu-
+pational exposure limits are proposed, the evaluation seeks 
+to define dose-response/dose-effect relationships and define a 
+critical effect. The documents are written in English with a 
+summary in Swedish.
+National Toxicology Program (NTP) Monographs
+https://ntp.niehs.nih.gov/whatwestudy/assessments/noncancer/
+index.html
+The NTP Monographs are literature-based evaluations using 
+systematic review methods to assess the evidence that environ-
+mental substances may be associated with adverse noncancer 
+health effects. An evaluation may develop hazard conclusions 
+as part of a comprehensive review or characterize the pub-
+lished evidence as a scoping review or interactive evidence 
+map. The NTP Monographs are the successor to the CERHR 
+Expert Panel Reports and NTP CERHR Monographs, which 
+assessed the evidence on whether environmental substances 
+cause adverse effects on reproduction and development.
+NTP Report on Carcinogens (RoC) Monographs
+https://ntp.niehs.nih.gov/whatwestudy/assessments/cancer/
+index.html
+The RoC Monographs are also extensive literature-based 
+assessments using systematic review methods. Evidence from 
+epidemiological, experimental animal, and mechanistic stud-
+ies is integrated and evaluated to determine whether the sub-
+stance is “known to be” or “reasonably anticipated to be” a 
+human carcinogen. If the substance meets established criteria, 
+then it is listed in the RoC.
+OECD Chemical Assessments
+https://www.oecd.org/chemicalsafety/risk-assessment/
+Through the OECD Cooperative Chemicals Assessment Pro­
+gram, member countries achieve OECD-wide consensus con-
+clusions on the human health and environmental hazards for a 
+range of high production volume (HPV) and non-HPV chemicals
+
+688
+Hayes’ Principles and Methods of Toxicology
+(HPVCs). The Screening Information Dataset (SIDS) provides 
+the reference data (chemical identity, production and use patterns, 
+physicochemical properties, environmental fate and toxicology 
+and mammalian toxicology) to perform the initial assessment. 
+Users can track the status of an assessment as well as obtain 
+the final consensus report from the OECD Existing Chemical 
+Database. The OECD has published a Manual for the Assessment 
+of Chemicals and Guiding Principles and Key Elements for 
+Establishing a Weight of Evidence for Chemical Assessment to 
+support systematic and consistent evidence-based evaluations.
+US EPA Integrated Risk Information System (IRIS) 
+Assess­ments
+https://www.epa.gov/iris
+IRIS assessments provide the noncancer and cancer toxicity 
+values for health effects resulting from chronic exposure to 
+chemicals. For noncancer effects, oral reference doses (RfDs) 
+or inhalation reference concentrations (RfCs) are developed. 
+For cancer, oral slope factor (OSF) and inhalation unit risk 
+(IUR) values are developed. IRIS assessments cover two of the 
+four steps in risk assessment: hazard identification and dose-
+response assessment. The IRIS Program also has a detailed 
+standard operating procedure document (IRIS Handbook) that 
+describes the systematic review and dose-response methods 
+used to develop IRIS assessments available at https://cfpub.
+epa.gov/ncea/iris_drafts/recordisplay.cfm?deid=356370. 
+See 
+also IRIS, below, under the heading, Chemical Data and 
+Information Sources, for more on the IRIS database.
+US EPA National Air Toxics Assessment (NATA)
+https://www.epa.gov/national-air-toxics-assessment
+NATA is EPA’s ongoing review of air toxics in the United 
+States and helps identify which pollutants, emission sources 
+and places may warrant further study to understand risk to 
+public health from air toxics. The 2014 NATA Assessment is 
+periodically updated, most recently in 2018.
+US EPA Office of Water Drinking Water Standards, Advisory 
+Tables and Chemical Health Effect Documents
+https://www.epa.gov/sdwa/drinking-water-contaminant-
+human-health-effects-information#hh1
+These tables summarize EPA’s drinking water regulations 
+and health advisory (HA) as well as RfD and cancer risk val-
+ues for drinking water contaminants. EPA updates the tables 
+periodically. The tables contain drinking water standards 
+in the form of non-enforceable concentrations of drinking 
+water contaminants, or Maximum Contaminant Level (MCL) 
+Goals, as well as enforceable MCLs. MCLs are the maximum 
+permissible level of a contaminant in water delivered to users 
+of a public water system. HAs provide information on con-
+taminants that can cause human health effects and are known 
+or anticipated to occur in drinking water. EPA’s HAs are non-
+enforceable and provide technical guidance to state agencies 
+and other public health officials on health effects, analytical 
+methodologies, and treatment technologies associated with 
+drinking water contamination. The tables contain HA values 
+for certain contaminants based on noncancer health effects 
+for different durations of exposure (for example, one-day, ten-
+day, and lifetime).
+US EPA Office of Pesticide Programs (OPP)
+https://iaspub.epa.gov/apex/pesticides/f?p=chemicalsearch:1
+OPP conducts risk assessments to make informed deci-
+sions about approving new pesticides and new uses of 
+registered pesticides, and during review of existing pes-
+ticides. These assessments include hazard identification, 
+dose-response assessment, exposure assessment, and risk 
+characterizations.
+US EPA Office of Pollution Prevention and Toxics Chemicals 
+Undergoing Risk Evaluations under Toxic Substances Control 
+Act (TSCA)
+https://www.epa.gov/assessing-and-managing-chemicals-under-
+tsca/chemicals-undergoing-risk-evaluation-under-tsca
+The TSCA, as amended by the Frank R. Lautenberg Chemical 
+Safety for the 21st Century Act, requires EPA to evaluate the 
+safety of existing chemicals via a three-stage process. The 
+three stages of EPA’s process for ensuring the safety of exist-
+ing chemicals are prioritization, risk evaluation, and risk man-
+agement. Additional detail on how EPA assesses and manages 
+chemicals under TSCA is available at https://www.epa.gov/
+assessing-and-managing-chemicals-under-tsca.
+US EPA Provisional Peer-Reviewed Toxicity Values (PPRTV)
+https://www.epa.gov/pprtv
+PPRTV assessments are developed in response to requests from 
+EPA’s Superfund Program within EPA’s Office of Research and 
+Development. PPRTVs are derived after a review of the relevant 
+scientific literature and using EPA methodologies, practices, and 
+guidance for the development of toxicity values (e.g., oral RfDs, 
+inhalation RfCs, provisional OSFs, and provisional IURs).
+US EPA Risk Assessment Guidance
+https://www.epa.gov/risk/risk-assessment-guidance
+EPA has developed guidance, handbooks, framework, and 
+general standard operating procedures. In some cases, these 
+resources are broad enough to be relevant across all statutes that 
+EPA administers while in other cases, they are more applicable 
+to specific EPA programs or regions. They are divided under 
+human health-related and ecological or environmentally related 
+topics.
+13.2.4  Chemical Fact Sheets, Profiles, 
+and Summaries
+For readers who want to know the “bottom line,” brief profiles 
+or fact sheets present summarized information that convey 
+the overall conclusions about the properties and/or effects of 
+chemicals. Before applying information from these publica-
+tions, it is important for the reader to be aware of standards of 
+interpretations used by the originator of the information and 
+whether it is appropriate for the reader’s situation.
+European Chemicals Agency (ECHA) Infocard and Brief 
+Profiles
+https://echa.europa.eu/information-on-chemicals
+The ECHA uses the Infocard as its “first tier” to dissemi-
+nate to the public high-level summary chemical information
+
+689
+Chemical Toxicology Information Resources
+housed in ECHA databases. Content covers substance name 
+and identifiers, hazard classification and labeling, properties 
+of concern, related legislation and regulatory lists, guidance 
+on safe use, and production volume and industrial sector use. 
+For more detailed information, ECHA offers the Brief Profile 
+for professional audiences providing more in-depth informa-
+tion on the substance’s physicochemical properties and envi-
+ronmental and human health effects. Both can be retrieved 
+when searching for a substance in ECHA’s Information on 
+Chemicals database.
+Health and Safety Guides (HSGs)
+http://www.inchem.org/pages/hsg.html
+The IPCS HSGs represent a more concise version of the EHCs 
+monograph. As such, they summarize in non-technical lan-
+guage the information on risks from exposure to chemicals 
+and offer advice on preventive and protective measures and 
+emergency actions in the case of exposure. The guides contain 
+practical advice on medical and administrative issues to assist 
+national chemical safety programs with implementing the 
+guidelines for setting exposure limits set out in the EHCs. A 
+Users’ Manual for the IPCS Health and Safety Guides makes 
+recommendations on how the information in the HSGs can be 
+put to practical use to improve the health and safety of workers 
+and the general public.
+International Chemical Safety Cards (ICSCs)
+https://www.ilo.org/safework/info/publications/WCMS_ 
+113134/lang--en/index.htm
+A product of the International Labour Organization (ILO), 
+WHO, and the European Commission, the ICSCs are devel-
+oped and peer-reviewed by experts in occupational safety 
+and health. The safety cards provide essential safety and 
+health information to workers and employers to promote 
+the safe use of chemicals in the workplace. Over 1,700 have 
+been developed that relay information on chemical identity 
+and properties, fire and explosion hazard, exposure first aid 
+and prevention, chemical handling, classification and label-
+ing, short-term and long-term health effects, exposure limits, 
+and environmental data. Although the original source is in 
+English, the full collection has been translated into six other 
+languages.
+NIOSH Pocket Guide to Chemical Hazards
+https://www.cdc.gov/niosh/npg/
+The Pocket Guide informs workers, employers, and occupa-
+tional health professionals about workplace chemicals and 
+their hazards. At the time of writing, it covers 677 chemicals or 
+substance groupings commonly found in the work environment 
+and for which NIOSH has recommended exposure limits and 
+those with permissible exposure limits. Content is extracted 
+from the NIOSH/OSHA Occupational Health Guidelines 
+for Chemical Hazards, as well as other NIOSH sources. The 
+guide includes information on chemical structures, identifica-
+tion codes, exposure limits, chemical and physical properties, 
+measurement methods, signs and symptoms of exposure, and 
+procedures for emergency treatment. A tabular format is used 
+for quick reference.
+Occupational Health Guidelines for Chemical Hazards
+https://www.cdc.gov/niosh/docs/81-123/default.html
+These NIOSH guidelines summarize information on permis-
+sible exposure limits, chemical and physical properties, and 
+health hazards. The guidelines provide recommendations for 
+medical surveillance, respiratory protection, and personal 
+protection and sanitation practices for specific chemicals that 
+have US federal occupational safety and health regulations.
+ToxFAQs and ToxGuide
+https://www.atsdr.cdc.gov/toxfaqs/index.asp
+https://www.atsdr.cdc.gov/toxguides/index.asp
+Extracted from the more extensive content in ATSDR’s 
+Toxicological Profiles, ToxFAQs is a two-page fact sheet that 
+answers the public’s most frequently asked questions associ-
+ated with exposure to and health effects from a substance. 
+ToxGuide is a tabular reference guide for workers and occupa-
+tional hygienists to quickly understand a chemical’s property 
+and physical information, sources and routes of exposure, toxi-
+cokinetics and normal human levels, biomarkers, and environ-
+mental and human health effects.
+13.2.5  Chemical Data and Information Sources
+An abundance of websites containing rich collections of toxi-
+cological data has exploded in recent years and growth con-
+tinues unabated. Much of these data are open access, mostly 
+driven by the establishment of the FAIR Guiding Principles 
+for scientific data management and stewardship, which pro-
+vides guidelines to improve the findability, accessibility, 
+interoperability, and reuse of digital assets (Wilkinson et al. 
+2016).
+The principles specifically emphasize how computer sys-
+tems find, access, and reuse data, and interoperate. These are 
+helpful, if not necessary, because of the increasing reliance 
+on computers to deal with data and the enormous increases in 
+volume, complexity, and rate at which data is produced. Data 
+can now be discovered, downloaded, and repurposed with just 
+a few clicks, thereby allowing scientists to aggregate data for 
+further investigation, for modeling, and for inclusion into their 
+research projects.
+The availability of public data allows for the conversion 
+of data into forms that can be fed into derivative informat-
+ics systems. For example, Luechtefeld et al. (2016) report on 
+the transformation of ECHA data into a structured, machine 
+readable, and searchable database. The European Registration, 
+Evaluation, Authorisation and Restriction of Chemicals 
+(REACH) data has also been made available via the AMBIT 
+cheminformatics data system (http://cefic-lri.org/toolbox/
+ambit/).
+A significant number of projects, especially in Europe, 
+have released toxicological data to the community. Various 
+industries including cosmetics and pharmaceutical companies 
+are interested in such toxicological data as they can utilize 
+it within their own informatics systems and models to sup-
+port their research. Member companies participate directly in 
+projects such as SEURAT-1 (Gocht et al. 2015), EUToxRisk 
+(Daneshian et al. 2016), and Innovative Medicines Initiative 
+projects focused on drug toxicology, e.g., eTOX (Sanz et al.
+
+690
+Hayes’ Principles and Methods of Toxicology
+2017) and OPEN PHACTS (Williams et al. 2012). Other 
+organizations benefit as well from the availability of data 
+to reuse and repurpose data for their own tools and models. 
+This includes government agencies such as ECHA, EPA, and 
+Food and Drug Administration (FDA), communities such as 
+Edelweiss Connect (https://www.edelweissconnect.com/), and 
+commercial entities such as IdeaConsult Ltd (https://www.
+ideaconsult.net/).
+In addition to accessing data via a myriad of websites, a num-
+ber of which are mentioned below, there has been an increasing 
+effort to provide access to data analysis tools and download-
+able software tools that are either free-to-use or open-source 
+and available to the community to extend and enhance with 
+their own contributions. The field of cheminformatics coupled 
+with advances in Internet-based technologies has had a sig-
+nificant impact in enabling many of these online tools espe-
+cially in regard to providing access to QSAR (Quantitative 
+Structure-Activity Relationship) and Quantitative Structure-
+Property Relationship prediction models. There are thus many 
+beneficiaries to the release of toxicological data and not just 
+the individual users of online applications. If data are made 
+available according to FAIR principles, then derivative appli-
+cations and models can be developed and delivered to the 
+community expanding on the availability of tools available to 
+support both research and regulatory applications.
+CAL/EPA-OEHHA Chemical Databases
+https://oehha.ca.gov/library/chemical-databases
+The CAL/EPA-OEHHA set of databases includes a general 
+chemical database as well as data for “air chemicals” and 
+“water chemicals.” The databases provide California public 
+health goals including MCLs for air and water and, for the 
+general chemical database, Proposition 65 chemical status in 
+terms of various types of toxicity.
+Chemical Effects in Biological Systems (CEBS)
+https://cebs.niehs.nih.gov/cebs/
+CEBS is an integrated public repository for toxicogenomics 
+data, including the study design and timeline, clinical chem-
+istry and histopathology findings, and microarray and pro-
+teomics data. CEBS contains data derived from studies of 
+chemicals and of genetic alterations and is compatible with 
+clinical and environmental studies (Waters et al. 2008). CEBS 
+has three specific purposes: (1) to create a reference toxi-
+cogenomic information system of studies on environmental 
+chemicals/stressors and their effects, (2) develop relational and 
+descriptive compendia on toxicologically important genes, 
+groups of genes, SNPs, mutants, and their functional pheno-
+types that are relevant to human health and environmental 
+disease, and (3) create a toxicogenomics knowledge base to 
+support hypothesis-driven research.
+Comparative Toxicogenomics Database (CTD)
+http://ctdbase.org/
+CTD provides manually curated information about chemical-
+gene/protein interactions, chemical-disease and gene-disease 
+relationships. The data are integrated with functional and 
+pathway data to aid in the development of hypotheses about the 
+mechanisms underlying environmentally influenced diseases. 
+Additional data include exposome data and chemical-phe-
+notype relationships to help identify pre-disease biomarkers 
+resulting from environmental exposures. CTD is maintained 
+by North Carolina State University.
+CompTox Chemicals Dashboard
+https://comptox.epa.gov/dashboard
+The US-EPA CompTox Chemicals Dashboard provides access 
+to data for ~900,000 chemicals. The database can be searched 
+by various identifiers including chemical names and syn-
+onyms, Chemical Abstracts Service (CAS) Registry Number 
+(CAS RN), systematic identifiers such as the InChI Key (to 
+allow structure searching), and other registration identifiers 
+such as European Chemical Numbers. The application pro-
+vides access to a broad array of toxicity-related data includ-
+ing experimental in vivo human and ecotoxicological data as 
+well as in vitro bioactivity (i.e., ToxCast and Tox21 datasets 
+(Richard et al. 2016, 2020)) data for ~8,000 chemicals. The 
+Dashboard also provides experimental physicochemical and 
+environmental fate and transport data for tens of thousands of 
+chemical substances and, when the QSAR modeling technolo-
+gies allow, predicted properties including toxicological end-
+points. A Safety Tab provides access to Globally Harmonized 
+System (GHS) associated data sourced via PubChem (see 
+below).
+eChemPortal
+https://www.echemportal.org/echemportal/
+The eChemPortal database is maintained and updated by the 
+OECD. This free database is a global portal to information 
+on chemical substances including physicochemical properties, 
+ecotoxicity, environmental fate and behavior, and toxicity. 
+Users can search 20+ different databases by these properties 
+or by chemical identity.
+ECHA Information on Chemicals Substances Information 
+System
+https://echa.europa.eu/information-on-chemicals
+In the European Union, the Regulation (EC) 1907/2006 
+(REACH) provides the legal basis for the REACH. It is inter-
+connected in multiple ways with the Regulation (EC) 1272/2008 
+(CLP) on the classification, labeling, and packaging of hazard-
+ous chemical substances and mixtures, which translates the 
+United Nations (UN) GHS into European Law. This database is 
+a wealth of information for European chemical information. The 
+following areas can be searched: EINECS, which contains gen-
+eral chemical information such as CAS RNs, EINECS numbers, 
+substance names, chemical formulas, structure, classification, 
+and labeling (risk and safety phrases, danger, etc.); European 
+List of Notified Chemical Substances; HPVCs and low pro-
+duction volume chemicals, including EU producer/importer 
+lists; International Uniform Chemical Information Database 
+(IUCLID) Chemical Data Sheets (in Adobe and OECD format); 
+classification and labeling in accordance with the CLP/GHS; pri-
+ority lists; and risk assessment processes and tracking systems in 
+relation to Council Regulation (EEC) 793/93, also known as the 
+Online European Risk Assessment Tracking System.
+
+691
+Chemical Toxicology Information Resources
+Haz-Map
+https://haz-map.com/
+Haz-Map® is an occupational health database designed for 
+seeking information about the adverse effects of workplace 
+exposures to chemical and biological agents. Haz-Map shows 
+the diseases linked to each agent and the agents linked to each 
+disease. The information in Haz-Map comes from textbooks, 
+journal articles, the Documentation of the Threshold Limit 
+Values (published by ACGIH), and electronic databases such 
+as NLM’s ChemIDplus.
+INCHEM
+http://www.inchem.org/
+INCHEM is a website with capabilities to search for inter-
+national chemical safety information from various organi-
+zations. The website is housed by the IPCS in cooperation 
+with Canadian Centre for Occupational Health and Safety 
+(CCOHS). CICADs, EHCs Monographs, IARC Summaries, 
+Joint Expert Committee on Food Additives – Monographs and 
+Evaluations, Joint Meeting on Pesticide Residues, and SIDS 
+for HPVCs are all accessible from this website.
+Integrated Chemical Environment (ICE)
+https://ice.ntp.niehs.nih.gov/
+The ICE provides curated data from the NTP Interagency 
+Center for the Evaluation of Alternative Toxicological Methods 
+(NICEATM) and tools to facilitate the safety assessment of 
+chemicals. ICE includes data from animal and non-animal 
+tests that measure toxic effects described in chemical safety 
+regulations. These effects include acute oral toxicity, skin and 
+eye irritation, skin sensitization, and endocrine activity. ICE 
+also contains curated, high-throughput screening data from 
+the Tox21 consortium and physicochemical property data. The 
+ICE Search tool enables users to easily query and integrate 
+data streams, and then to interactively explore the results.
+Integrated Risk Information System (IRIS)
+http://www.epa.gov/iris
+This database is managed by the Center for Public Health and 
+Environmental Assessment of the EPA and contains carcino-
+genic and non-carcinogenic health risk information for ~570 
+chemicals. These chemical files contain descriptive and quan-
+titative information about oral RfDs and inhalation RfCs for 
+chronic non-carcinogenic health effects and hazard identifica-
+tion, as well as OSFs and oral and IURs for carcinogenic effects. 
+IRIS risk assessment data have been scientifically reviewed by 
+EPA scientists and represent EPA consensus. IRIS is widely used 
+in the EPA for risk-based decision making. See also US EPA 
+IRIS Assessments, above, under the heading Comprehensive 
+Reviews and Assessments for more about IRIS Assessments.
+International Toxicity Estimates for Risk (ITER)
+https://tera.org/iter/
+Developed and managed by the non-profit Toxicology 
+Excellence for Risk Assessment (TERA), ITER assembles 
+peer-reviewed human health risk assessment data from multiple 
+authoritative sources (e.g., ATSDR Toxicological Profiles, EPA 
+IRIS, IARC Monographs, Health Canada’s Priority Substances 
+Assessment Reports). For those information sources not ini-
+tially peer-reviewed, TERA undertakes its own independent 
+review of the content before including in ITER. The risk values 
+include RfDs, minimal risk levels, tolerable concentration, and 
+cancer classifications. The information is categorized by four 
+levels of risk data: noncancer oral, cancer oral, noncancer inha-
+lation, and cancer inhalation. ITER’s value stems from display-
+ing these health risk values in a comparison table format. The 
+database is updated on a monthly basis.
+NIOSH Databases and Information Resources
+https://www.cdc.gov/niosh/chemicals/dbsandtools.html
+The NIOSH website contains a vast array of occupational 
+health and safety resources. The most popular databases 
+include the ICSCs, NIOSH Pocket Guide to Chemical Hazards, 
+Immediately Dangerous to Life and Health values, and the 
+Emergency Response Safety and Health Database.
+Pesticide Action Network Pesticide Database
+https://www.panna.org/
+The PAN Pesticide Database is a project of the PAN North 
+America and provides access to a diverse array of information 
+on pesticides that has been aggregated from many different 
+sources. The assembled data includes human toxicity (chronic 
+and acute), ecotoxicity, and regulatory information for over 
+5,400 pesticide active ingredients and their transformation 
+products, as well as adjuvants and solvents used in pesticide 
+products. The database has an infrequent update cycle.
+PubChem
+http://pubchem.ncbi.nlm.nih.gov
+The 
+PubChem 
+database 
+(https://pubchemdocs.ncbi.nlm.
+nih.gov/about), from the National Center for Biotechnology 
+Information (NCBI) at NIH’s National Library of Medicine, 
+provides information on the biological activities of small 
+molecules, and is organized as three linked databases, the 
+PubChem Substance, PubChem Compound, and PubChem 
+BioAssay, which includes the NCBI’s protein 3D structure 
+resource. The substance pages integrate data from multiple 
+sources and can provide safety and hazard data as well as tox-
+icity data. Available data can include: skin, eye, and respira-
+tory irritations data, first aid and accidental release measures, 
+handling and storage details, personal protection and exposure 
+guidance, exposure limits and threshold values, federal and 
+state drinking water standards and guidelines, and many other 
+forms of toxicity data. As of March 2023, PubChem contains 
+302 million substance descriptions, 114 million unique chemi-
+cal structures, contributed by 906 data sources from >40 coun-
+tries. It also contains 304 million bioactivity test results from 
+1.5 million biological assays, covering close to 200,000 protein 
+targets. These data are updated regularly and existing counts 
+can be found online (https://pubchemdocs.ncbi.nlm.nih.gov/
+statistics). PubChem has been online since 2004 and the many 
+applications of the system and its data are represented in mul-
+tiple peer-reviewed articles (https://pubchemdocs.ncbi.nlm.
+nih.gov/publications).
+
+692
+Hayes’ Principles and Methods of Toxicology
+Regional Screening Levels
+https://www.epa.gov/risk/regional-screening-levels-rsls
+RSLs are values primarily used for the evaluation and cleanup 
+of contaminated sites in the US Superfund and the Resource 
+Conservation and Recovery Act programs. They are risk-
+based concentrations derived by using risk assessment guid-
+ance from the EPA Superfund program and are intended to 
+assist risk assessors and others in initial screening-level evalu-
+ations of environmental measurements. RSLs are generic and 
+are calculated without site-specific information. However, the 
+website has an online calculator to recalculate the RSL using 
+data collected at a specific site.
+Registry of Toxic Effects of Chemical Substances (RTECS)
+https://www.3ds.com/products-services/biovia/products/
+scientific-informatics/biovia-databases/
+RTECS helps users find critical toxicological information by 
+providing citations for over 180,000 chemical substances from 
+more than 2,500 sources. The RTECS database covers sev-
+eral categories of toxicity data: acute toxicity, tumorigenicity, 
+mutagenicity, skin and eye irritation, reproductive effects, and 
+multiple dose effects. The RTECS® database was previously 
+maintained by NIOSH and is now licensed through Dassault 
+Systems Biovia Inc.
+Toxinfo.io
+https://www.toxinfo.io/
+Toxinfo.io is a freely available portal to search across most of 
+the chemical and toxicology information previously provided by 
+the NLM’s TOXicology Data NETwork (TOXNET). Included 
+among its current resources is content from the Hazardous 
+Substances Data Bank, IRIS, LiverTox, ITER, as well as many 
+archived resources such as GeneTox, Chemical Carcinogenesis 
+Research Information System, and Carcinogenic Potency 
+Database. In December 2019, NLM retired TOXNET. Although 
+content from the most frequently used databases has been 
+incorporated into NLM’s PubChem, PubMed, and Bookshelf 
+resources, the retirement of TOXNET resulted in the loss of a 
+single integrated system to search across the databases.
+ToxPlanet
+https://www.toxplanet.com/
+ToxPlanet consists of more than ~350 databases geared toward 
+environmental health and safety professionals and others who 
+need to understand the human health hazards associated with 
+chronic and acute exposures to chemicals. ToxPlanet pro-
+vides users with access to ~10 million documents covering 
+over 1,000,000 chemicals. It contains a blend of licensed con-
+tent, public domain content, and gray literature with links to 
+full-text documents when available. ToxPlanet also includes 
+domestic and international regulatory lists. The ToxPlanet 
+database is only available by subscription.
+13.2.6  Organizations
+While toxicology information and research are most frequently 
+found in monographs, journals, and online databases, organi-
+zations can also serve as an important toxicology informa-
+tion resource, particularly for members seeking professional 
+development and networking, and wanting to stay abreast of 
+current developments in the field. Scientific professional soci-
+eties, industry trade associations, governmental organiza-
+tions, and others share toxicology information and resources 
+through their journals and Web presences. Trade groups and 
+other organizations may produce and disseminate reports and 
+other “gray literature.” These societies and organizations are 
+valuable resources for basic and specialized information on 
+toxicology and chemical issues, summaries of research activi-
+ties and publications, tutorials in toxicology topics and meth-
+ods, and archives of webinars and presentations.
+13.2.6.1  Governmental and Multilateral 
+International Organizations
+Government organizations serving as toxicology information 
+resources are numerous and include federal, state/provisional, 
+and local government agencies, as well as international bod-
+ies representing or aiding multiple countries. Just a few are 
+highlighted below.
+Canadian Centre for Occupational Health and Safety
+http://www.ccohs.ca/
+The CCOHS promotes a safe and healthy working environ-
+ment by providing e-courses, publications, fact sheets, pocket 
+guides, Workplace Hazardous Materials Information System 
+criteria, and Web information service databases. The Web 
+databases associated with chemicals (https://www.ccohs.ca/
+topics/hazards/chemical/) include subscription databases (e.g., 
+RTECS®, CHEMINFO, and Occupational Safety and Health 
+references).
+Environment Canada and Health Canada
+https://www.canada.ca/en/services/environment.html 
+and 
+https://www.canada.ca/en/health-canada.html
+Environment Canada and Health Canada identify, priori-
+tize, and assess existing chemicals for risk to human health 
+under the Canadian Environmental Protection Act of 1999. 
+The Priority Substances List identifies substances that are 
+of priority for assessing risk to human health or the environ-
+ment. Sixty-nine priority substances have been evaluated in 
+depth, and over 23,000 chemical substances (the Domestic 
+Substances List) categorized to identify those that pose the 
+greatest potential for human exposure and “inherently toxic.”
+European Union, European Commission, Joint Research 
+Centre, European Chemicals Agency
+The ECHA is the driving force among European regula-
+tory authorities in implementing the EU’s REACH. Industry-
+prepared REACH dossiers, as well as classification and labeling 
+information, infocards, and fact sheets are available through 
+ECHA’s central database (https://echa.europa.eu/information-
+on-chemicals/registered-substances). The IUCLID is found at 
+https://iuclid6.echa.europa.eu/. ECHA maintains a close coop-
+eration with the European Commission’s JRC, which provides 
+scientific and technical support for food, consumer products, and 
+chemicals (https://joint-research-centre.ec.europa.eu/­scientific-
+activities-z/consumer-products_en). The JRC conducts research 
+and develops tools and test methods. The JRC also houses the
+
+693
+Chemical Toxicology Information Resources
+European Centre for the Validation of Alternative Methods 
+(ECVAM). ECVAM uses a broad network of international 
+experts to research promising methods to reduce, refine, or 
+replace the use of laboratory animals in toxicity testing.
+International Agency for Research on Cancer (IARC)
+http://www.iarc.fr/
+The IARC is a research organization that is part of the WHO 
+and promotes international collaboration in cancer research. 
+IARC coordinates international studies on the causes of 
+human cancer and the mechanisms of carcinogenesis, collects 
+worldwide cancer statistics in the Global Cancer Observatory, 
+and evaluates chemicals and other agents for their carcino-
+genic hazards to humans. National health agencies use IARC 
+cancer classifications and IARC Monographs to provide scien-
+tific support for public health actions.
+International Labor Organization (ILO)
+http://www.ilo.org/
+The ILO, an agency of the UN, is the international organiza-
+tion responsible for drawing up and overseeing international 
+labor standards. Of interest to toxicologists is its occupational 
+safety and health resources and the International Occupational 
+Safety and Health Knowledge Network (https://www.ilo.org/
+safework/lang–en/index.htm).
+International Programme on Chemical Safety (IPCS)
+https://www.who.int/health-topics/chemical-safety#tab=tab_1
+The IPCS is part of the WHO and works to establish the sci-
+entific basis for the sound management of chemicals and to 
+strengthen national capabilities and capacities for chemical 
+safety. IPCS promotes the development, harmonization, and 
+use of generally acceptable, scientifically sound methodolo-
+gies for the evaluation of risks to human health and the envi-
+ronment from exposure to chemicals. It publishes a variety of 
+high-quality, peer-reviewed monographs, such as the EHCs 
+documents and CICAD. The IPCS Harmonization Project 
+(https://www.who.int/ipcs/methods/harmonization/en/) works 
+to harmonize chemical risk assessment approaches and meth-
+ods to promote consistency.
+National Institute of Public Health and the Environment, 
+the Netherlands (RIVM)
+http://www.rivm.nl/en/
+The RIVM advises the Dutch government and the public in 
+the fields of health, nutrition, and environmental protection 
+(including the conduct of research, monitoring, modeling, and 
+chemical safety). RIVM reports and publications are available 
+at https://www.rivm.nl/en/rivm-reports.
+Organization for Economic Cooperation and Development 
+(OECD)
+http://www.oecd.org
+The OECD is an international organization of member coun-
+tries that promotes policies to improve the economic and 
+social well-being of people around the world. Its program 
+on chemical safety and biosafety seeks to assist countries in 
+managing chemicals while protecting human health and the 
+environment. OECD fosters the mutual acceptance of data 
+by developing internationally agreed upon toxicology test-
+ing guidelines. Member countries agree to accept chemical 
+test results that have been conducted using OECD guidelines 
+(https://www.oecd.org/env/ehs/testing/oecdguidelinesforthe-
+testingofchemicals.htm) and follow OECD Principles of Good 
+Laboratory Practice (https://www.oecd.org/chemicalsafety/
+testing/good-laboratory-practiceglp.htm).
+US Centers for Disease Control and Prevention, Department 
+of Health and Human Services 
+https://www.cdc.gov
+The ATSDR (http://www.atsdr.cdc.gov) is an agency within 
+the CDC. ATSDR develops toxicological profiles for hazard-
+ous substances found at waste sites as well as summarized 
+information in Tox-FAQs™.
+The NIOSH (https://www.cdc.gov/niosh/index.htm) is the 
+US federal agency, also organizationally within CDC, respon-
+sible for research and recommendations for the prevention of 
+work-related injury and illness. The NIOSH website provides 
+access to research publications, information, and worker safety 
+and health data and statistics.
+US Environmental Protection Agency (EPA)
+https://www.epa.gov/
+The mission of the US EPA is to protect human health and 
+the environment. Toxicology information and practice is at the 
+heart of many of EPA’s functions, where toxicity information 
+forms the basis for research and decisions in chemical safety 
+and human health protection. Program offices address evaluat-
+ing and managing chemicals in the air, water, drinking water, 
+and at contaminated sites. Hazards and exposures to pesti-
+cides and toxic substances are evaluated and risks managed 
+through regulation and testing. The agency conducts research 
+into chemical assessment and testing methods. Numerous 
+resources can be accessed through EPA’s website, including 
+toxicology testing data, toxicity test guidelines, risk assess-
+ment guidance, chemical specific risk information, and expo-
+sure models.
+The EPA established a Center for Computational Toxicology 
+and Exposure (https://www.epa.gov/aboutepa/about-center-
+computational-toxicology-and-exposure-ccte), previously the 
+National Center for Computational Toxicology up until 2019, 
+which is part of a broader Chemical Safety for Sustainability 
+Research 
+Program 
+(https://www.epa.gov/aboutepa/about-
+chemical-safety-sustainability-research-program), and offers 
+access to a suite of tools and databases including the Dashboard 
+discussed earlier (https://www.epa.gov/chemical-research/
+comptox-chemicals-dashboard).
+US Food and Drug Administration (FDA)
+http://www.fda.gov/
+The FDA works to protect the public health of Americans 
+by helping safe and effective products reach the market in a 
+timely way, monitoring products for continued safety after 
+they are in use, and helping the public get accurate, science-
+based information. The FDA has regulatory authority over 
+many types of foods, prescription and over-the-counter drugs, 
+biologics, medical devices, cosmetics, veterinary products,
+
+694
+Hayes’ Principles and Methods of Toxicology
+and tobacco products. FDA scientists conduct research and 
+prepare guidance to help the regulated community and oth-
+ers conduct clinical and toxicology testing and evaluation of 
+chemicals. FDA’s National Center for Toxicological Research 
+(NCTR, https://www.fda.gov/about-fda/office-chief-scientist/ 
+national-center-toxicological-research) 
+conducts 
+funda-
+mental and applied research specifically designed to define 
+biological mechanisms of action underlying the toxicity of 
+products regulated by the FDA. This research is aimed at 
+understanding critical biological events in the expression of 
+toxicity and at developing methods to improve the assess-
+ment of human exposure, susceptibility, and risk. NCTR also 
+offers a whole suite of bioinformatics tools for the analysis 
+and integration of genomics, transcriptomics, proteomics, 
+and metabolomics data (www.fda.gov/ScienceResearch/
+BioinformaticsTools/). In addition to the NCTR’s suite of 
+bioinformatics tools, there are other tools being developed 
+to make sense of the enormous amounts of toxicology data 
+being generated.
+US National Institutes of Health (NIH)
+https://www.nih.gov/
+The NIH is the focal point for federal medical research in the 
+United States and consists of 27 separate institutes and cen-
+ters. Of value for toxicology information is the NLM – the 
+world’s largest biomedical library. NLM resources include the 
+PubMed® database, digital collections, and reading rooms. 
+Another valuable source of toxicology information is the 
+National Institute for Environmental Health Sciences (NIEHS, 
+http://www.niehs.nih.gov). The NIEHS conducts research 
+on how the environment affects people and makes available 
+DNA, literature, and toxicology databases; protocols, soft-
+ware, journals, reports, and other information. The NIEHS 
+sponsors Environmental Genomics, Comparative Genomics, 
+and Human Metabolism Groups. The NTP is a federal inter-
+agency partnership to provide toxicological evaluations on 
+substances of public health concern and develop approaches 
+and generate data that strengthen the scientific basis for risk 
+assessments. NTP develops and validates test methods and 
+protocols for toxicity testing for key endpoints, toxicogenom-
+ics, toxicokinetics, and alternative testing models (https://ntp.
+niehs.nih.gov/whatwestudy/testpgm/index.html). The NTP 
+website (https://ntp.niehs.nih.gov/) also provides access to 
+NTP testing information and study results, the NTP RoC, and 
+the NICEATM.
+13.2.6.2  Professional Certification in Toxicology
+Professional certifications and registrations can provide 
+practicing toxicologists with recognized credentials beyond 
+their academic degrees and training. Some of the major cer-
+tifications for toxicologists are listed below. Each group has 
+established requirements for education, training, years of 
+experience, and additional qualifications. Some require writ-
+ten or oral examinations and most require periodic recertifica-
+tion. The American Board of Toxicology is the largest global 
+certification organization in general toxicology and endorses 
+a professional Standard of Knowledge for general toxicology 
+based on input from certified practicing professional toxicolo-
+gists (Hulla et al. 2015).
+Academy of Toxicological Sciences (ATS) – Confers 
+title of Fellow of the Academy of Toxicological 
+Sciences (FATS).
+American Board of Toxicology (ABT) – Confers 
+title of Diplomate of the American Board of 
+Toxicology (DABT).
+European Register of Toxicologists – EUROTOX 
+confers the title of European Registered Toxicologist 
+(ERT) to individuals that have been nominated by 
+their National Registry.
+Some country-specific registrations or certifications are also 
+available, including those listed below.
+Chinese Society of Toxicology (CSOT) – Confers 
+title of Certified Toxicologist (Diplomate of the 
+Chinese Society of Toxicology [DCST])
+German Society of Toxicology – Confers title of 
+Toxicologist, DGPT
+Japanese Society of Toxicology – Confers title 
+of Diplomat of the Japanese Society of Toxicology 
+(DJST)
+Korean Society of Toxicology – Confers title of 
+Certified Toxicologist
+UK Registry of Toxicologists – Confers title of 
+Registered Toxicologist
+In addition, subspecialty certificates are also conferred. Several 
+examples are provided below.
+American Board of Pediatrics (ABP), the American 
+Board of Preventive Medicine (ABPM), and the 
+American Board of Emergency Medicine offer a 
+subspecialty certification in Medical Toxicology for 
+physicians based on an exam.
+American Board of Forensic Toxicology (ABFT) – 
+The Forensic Toxicologist Certification Board certi-
+fies forensic toxicologists based on credentials and a 
+written examination
+American Board of Applied Toxicology – The 
+American Academy of Clinical Toxicology (AACT) 
+provides board certification to non-physician 
+clinical toxicologists based on credential and an 
+examination.
+13.2.6.3  Professional Societies
+Professional societies are valuable resources for practicing 
+toxicologists. In addition to providing information one may 
+not find elsewhere, scientific professional societies provide the 
+opportunity to stay up-to-date on the latest research presented 
+at society-sponsored conferences and to network and collabo-
+rate with others in the field. Many have member codes of eth-
+ics (or conduct) and conflict of interest policies that emphasize 
+transparency, honesty, objectivity, integrity, confidentiality, 
+and animal welfare.
+Highlighted below are key societies with a broader focus as 
+well as select societies that focus on specific sub-disciplines.
+
+695
+Chemical Toxicology Information Resources
+In addition, many regional toxicology professional societ-
+ies exist; e.g., ASIATOX and EUROTOX, and can be found 
+in the list of member societies of the International Union of 
+Toxicology (IUTOX) (see below).
+American Academy of Clinical Toxicology (AACT)
+https://www.clintox.org/
+The AACT is a multidisciplinary organization of scientists and 
+clinicians with a mission to advance research, education, pre-
+vention, and treatment of diseases caused by chemicals, drugs, 
+and toxins. It holds its annual meeting in North America and 
+publishes the journal Clinical Toxicology.
+American College of Toxicology (ACT)
+http://www.actox.org
+The ACT educates and serves professionals in toxicology 
+and related disciplines around the world by promoting the 
+exchange of information and perspectives on applied toxicol-
+ogy and safety assessment. ACT holds an annual meeting and 
+offers training courses and topical and e-Learning webinars. 
+ACT publishes the International Journal of Toxicology and 
+maintains an outstanding collection of toxicology-related 
+links (labeled “Good Stuff”) on its website.
+International Association of Forensic Toxicologists (TIAFT) 
+http://www.tiaft.org/
+TIAFT encourages research in forensic toxicology and pro-
+motes cooperation among its 1,500 members who are engaged 
+in analytical toxicology and allied areas. TIAFT holds annual 
+and regional meetings across the globe.
+International Society of Exposure Sciences (ISES)
+https://intlexposurescience.org/
+The ISES, formerly the International Society of Exposure 
+Analysis, is a global community of exposure science pro-
+fessionals from the broad range of disciplines needed for 
+exposure analysis, including toxicology. ISES promotes and 
+advances exposure science (methods, measurements, and 
+models). ISES publishes The Journal of Exposure Science and 
+Environmental Epidemiology (JESEE).
+International Union of Toxicology (IUTOX)
+http://www.iutox.org/
+The IUTOX has 63 affiliated societies from around the 
+world that together represent over 25,000 toxicologist mem-
+bers from industry, academia, and government. Its purpose 
+is to foster international scientific cooperation and promote 
+worldwide acquisition, dissemination, and utilization of 
+toxicology knowledge. Every three years IUTOX organizes 
+an International Congress on Toxicology and a Congress of 
+Toxicology in Developing Countries. The IUTOX website 
+(https://www.iutox.org/member-societies.asp) provides links 
+to member societies.
+Society for Risk Analysis (SRA)
+https://www.sra.org/
+The SRA is a multidisciplinary and international society 
+addressing risk analysis related to human health and the envi-
+ronment, including risk communication, risk management, 
+and policy. Specialty groups cover specific practice areas and 
+toxicologists are especially involved in the dose-response spe-
+cialty group. Regional organizations are on six continents to 
+promote professional networking and exchange of ideas. SRA 
+publishes Risk Analysis, which provides a focal point for new 
+developments in risk analysis for scientists from a wide range 
+of disciplines.
+Society of Environmental Toxicology and Chemistry 
+(SETAC)
+http://www.setac.org/
+The SETAC is a worldwide professional organization with 
+about 5,300 members in 90 countries. SETAC seeks to pro-
+vide a forum for environmental professionals to exchange 
+information on the use of multidisciplinary scientific prin-
+ciples and practices for sustainable environmental quality. It 
+organizes twice annual global meetings and frequently col-
+laborates with inter-government and government agencies to 
+hold meetings on specific topics. SETAC publishes two jour-
+nals: Environmental Toxicology and Chemistry and Integrated 
+Environmental Assessment and Management. Its website 
+includes the “Science Corner” resource, which highlights 
+SETAC work in select technical areas.
+Society of Forensic Toxicologists (SOFT)
+http://www.soft-tox.org/
+The SOFT is a member organization of practicing forensic 
+toxicologists and others organized to promote and develop 
+forensic toxicology. The society fosters friendship and coop-
+eration and its annual meetings provide a forum to exchange 
+information and ideas in a relaxed atmosphere.
+Society of Toxicology (SOT)
+https://www.toxicology.org/
+The SOT is perhaps the best-known and largest professional 
+society focused on toxicology and has a global, albeit mostly US 
+membership. SOT is a professional and scholarly organization of 
+scientists who practice toxicology in many sub-disciplines. The 
+society holds an annual meeting and ToxExpo, as well as topical 
+meetings on cutting-edge toxicological science. SOT publishes 
+the journal Toxicological Sciences and the Communique blog 
+and has a very active network of regional chapters, special inter-
+est groups, and specialty sections. The society offers continuing 
+education courses, a job bank, and career development resources.
+13.3  Conducting a Literature Search 
+and Bibliographic Resources
+A comprehensive literature review is typically considered nec-
+essary at the beginning of an assessment, research project, or 
+thesis. One should begin the literature review with an effective 
+literature search approach (Taylor 2002). A librarian can pro-
+vide useful assistance in guiding one through the steps. The 
+first step is to define a guiding concept (e.g., the research objec-
+tive, problem, issue, or thesis topic). After selecting the topic, 
+one must determine the appropriate keywords and databases to 
+use in the search (see the bibliographic resources and chemical 
+information resources sections below). The keywords should
+
+696
+Hayes’ Principles and Methods of Toxicology
+be a diverse set of related terms. The search results should be 
+reviewed to determine if the search was broad enough to cap-
+ture all the relevant material but still narrow enough to exclude 
+most irrelevant material, and the number of results is appro-
+priate for the topic. If there is a problem with any of these 
+areas (i.e., too little data for a common topic, too much data 
+for an obscure topic), then the keywords for the search should 
+be revised and the search conducted again until the results are 
+satisfactory.
+Once the literature search results are considered adequate, 
+they should be reviewed to identify relevant literature. All 
+relevant literature should be retrieved, read, and analyzed; 
+additional relevant literature may be identified through the 
+citations of reviewed literature, and then organizing the litera-
+ture into sections that represent themes or trends rather than 
+list a summary of each study. By organizing the literature, one 
+can critically analyze the data to synthesize and evaluate it 
+in relation to the guiding concept (e.g., the research objective, 
+problem, issue, or thesis topic). Increasingly, systematic review 
+methods are being used to conduct toxicological assessments.
+13.3.1  Bibliographic Resources
+While multiple commercial and free bibliographic resources 
+are available for researchers, a select few are highlighted 
+below.
+ProQuest Central™
+https://about.proquest.com/libraries/academic/databases/
+ProQuest_Central.html
+ProQuest Central is a vast database collection in science, 
+engineering, business, and intellectual property with full-text 
+access to most of the search results. The database offers com-
+prehensive, global coverage of biomedical research, chemicals, 
+computer science, energy and environment, health industry, 
+mechanical and civil engineering, medical practice, medical 
+devices, pharmaceuticals, food science, software, therapy and 
+treatment breakthroughs, drug interactions, and toxicology, as 
+well as many subject areas. Proquest Central is available by 
+subscription or by transactional access fees.
+PubMed® 
+https://pubmed.ncbi.nlm.nih.gov/
+PubMed is from the NCBI at the US NLM (NCBI/NLM) and 
+comprises more than 30 million citations for biomedical litera-
+ture from MEDLINE, life science journals, and online books. 
+PubMed includes links to many sites providing full-text arti-
+cles and other related resources. PubMed can be searched using 
+medical subject heading terms, author names, title words, text 
+words or phrases, journal names, or any combination of these. 
+PubMed offers a feature which displays related articles for any 
+citation and allows search results to be exported into reference 
+management software.
+Since PubMed offers an application programming interface 
+and Web services, both PubChem and the CompTox Chemicals 
+Dashboard integrate literature data at a substance level, with 
+the Dashboard offering its Abstract Sifter module as both an 
+integrated software module and Excel Add-in (Baker et al. 
+2017). Abstract Sifter performs real-time searches against 
+PubMed using the CAS RN and Preferred Name associated 
+with a chemical, together with a set of predefined queries, to 
+perform the search. The Sifter returns the number of occur-
+rences of each term found in the title and abstract combined 
+and the Web-based spreadsheet’s citation counts can be sorted 
+and viewed in an occurrence heat-map type of visualiza-
+tion. The module allows for further filtering with the option 
+to create or enter more granular keyword search terms. The 
+Excel add-in allows the user to work with batches of chemi-
+cals rather than be limited to the single chemicals view of the 
+Dashboard.
+PubMed Central and Europe PubMed Central 
+http://www.ncbi.nlm.nih.gov/pmc and https://europepmc.org/
+PMC, launched in 2000, is a free full-text archive of biomedi-
+cal and life sciences journal literature from NIH’s NLM. In 
+keeping with NLM’s legislative mandate to collect and pre-
+serve the biomedical literature, PMC serves as a digital coun-
+terpart to NLM’s extensive print journal collection. As of 
+2020, almost 10,000 journals contributed more 6.5 million 
+articles to PMC.
+Europe PMC offers alternative access to PubMed and PMC 
+content, but is expanded to include agricultural literature from 
+Agricola, biological patents, Chinese biological research, 
+National Health Service guidelines, books, and preprints from 
+various preprint servers and open research platforms (e.g., 
+bioRxiv and ChemRxiv).
+Science.gov
+https://www.science.gov/
+At the time of writing, Science.gov searches over 60 databases 
+and over 2,200 scientific websites to provide users with access 
+to more than 200 million pages of authoritative federal science 
+information including research and development results from 
+14 federal science agencies including but not limited to the 
+Departments of Defense, Energy, Health and Human Services, 
+the EPA, the National Aeronautics and Space Administration, 
+and the National Science Foundation. Science.gov allows 
+clustering or grouping of results by topic, year, or author, and 
+includes Wikipedia topics and EurekAlert items related to the 
+search. Search results can be imported into reference manage-
+ment software or e-mailed to colleagues.
+SciFinder
+http://scifinder.cas.org
+SciFinder, produced by CAS, contains a wide variety of con-
+tent from journal articles to information on chemical struc-
+tures, properties, and reactions. There are three separate 
+search sections in SciFinder: references, substances, and 
+reactions. The bibliographic records that are retrieved from 
+a reference search come from the CAplus and MEDLINE 
+databases. At the time of writing, it contains over 53 million 
+records from more than 180 countries and indexes more than 
+50,000 journals, 1,500 of which are core chemistry journals. 
+Coverage also includes patents from worldwide patent offices. 
+Records in SciFinder’s substance search section come from 
+the CAS REGISTRY, which contains more than 160 million 
+chemical substances dating back to the early 1800s and is 
+updated daily.
+
+697
+Chemical Toxicology Information Resources
+Scopus
+http://www.scopus.com/
+Scopus is an abstract and citation database covering more than 
+36,000 titles (approximately two-thirds of which are active and 
+one-third are inactive) from ~12,000 publishers. Greater than 
+34,000 of the titles are peer-reviewed journals in the life sci-
+ences, social sciences, physical sciences, and health sciences. 
+Sources covered include book series, journals, trade journals, 
+and patent databases. Seamless links to full-text articles and 
+other library resources make Scopus quick, easy, and compre-
+hensive. Access is only available through subscribing libraries 
+or institutions.
+Web of Science (WOS)
+https://www.webofscience.com
+WOS is the online successor to the original print citation 
+indexes published by Dr. Eugene Garfield. Similar to Scopus, 
+WOS is a multidisciplinary global literature database that 
+includes citations for books, conference proceedings, and peer-
+reviewed journal articles spanning 254 disciplines from the 
+arts and humanities, social sciences, and sciences. The WOS 
+Core Collection includes content from over 21,000 titles with 
+references dating back to 1900. A primary feature of WOS 
+is the ability to explore the citation network and generate a 
+citation report for articles of interest. Access is only available 
+through subscribing libraries or institutions.
+13.4  Social Media
+In the late 1990s, a new concept of information exchange was 
+introduced, push technology. Push technology is a style of 
+Internet-based communication in which the consumer initiates 
+a request for information that is set to be delivered directly 
+as the information becomes available. The first application of 
+this was with the Blackberry and the ability to access e-mail 
+directly on a handheld device. Other sources of push technol-
+ogy followed with such applications as listservs, e-subscrip-
+tions to newsletters or journals. More recently, the term push 
+technology has been merged with social media. This merger 
+has created a vast array of technologies such as RSS feeds, 
+Facebook, Twitter, Wikipedia, podcasts, webcasts, blogs, wid-
+gets, and mobile device applications (Apps). It is now possible 
+to receive information anywhere in almost any format desired, 
+and the underlying technologies are the catalysts to the efforts 
+of scientists to engage in online networking, data sharing, 
+and research activity distribution (Williams et al. 2017). The 
+majority of the newer technologies utilized in social media 
+have been viewed as personal resources, but many organiza-
+tions have utilized these technologies to better communicate 
+with others outside their organization whether it be colleagues 
+or the general public. Social allows for the bidirectional flow 
+of information among potentially millions of people in real 
+time. Until recently, scientific information was generally pro-
+vided by a few acknowledged experts in the field and was uni-
+directional in nature and relatively static.
+Today, many professional societies, such as SRA and SOT, 
+are utilizing social media. The SRA recently added a social 
+media subcommittee to manage all of its social media outlets, 
+including Twitter and LinkedIn. They are utilizing these ven-
+ues to communicate news to its members. The SOT utilizes 
+various e-newsletters and an RSS feed for communicating the 
+latest society news and research.
+Here are examples of organizations that provide useful toxi-
+cology and other health-related information via social media, 
+along with URLs that connect to their social media outlets or 
+specific mobile applications:
+Centers for Disease Control and Prevention (CDC)
+http://www.cdc.gov/SocialMedia/
+http://www.cdc.gov/mobile/mobileapp.html
+http://www2c.cdc.gov/podcasts/
+Food and Drug Administration (FDA)
+http://www.fda.gov/NewsEvents/InteractiveMedia/ucm20 
+0144.htm
+National Institute for Occupational Safety and Health 
+(NIOSH)
+https://www.cdc.gov/niosh/programs/cid/default.html
+http://www.cdc.gov/niosh/enews/default.html
+http://blogs.cdc.gov/niosh-science-blog/
+National Library of Medicine (NLM)
+https://nnlm.gov/about/connect
+Society for Risk Analysis (SRA)
+https://www.linkedin.com/company/society-for-risk-analysis/
+https://twitter.com/SocRiskAnalysis
+Society of Toxicology (SOT)
+https://www.newswise.com/institutions/newsroom/Society- 
+of-Toxicology-2758
+US Environmental Protection Agency (EPA)
+https://www.epa.gov/web-policies-and-procedures/epa- 
+social-media-platforms
+When utilizing information from social media venues, it 
+must be evaluated to determine the quality of the informa-
+tion provided. Fortunately, for most science-based informa-
+tion utilizing data from well-known organizations, such as 
+US government agencies or well-known reputable private 
+organizations. Certain social media venues, for example, 
+those of US government agencies, such as the CDC and 
+EPA, are closely vetted for the accuracy of information 
+presented. Others, such as Wikipedia, are self-regulated to 
+some extent, inasmuch as contributors serve as peer review-
+ers, limiting the amount of erroneous information that is 
+posted. However, most social media outlets do not monitor 
+their sites to ensure that the information presented is accu-
+rate or complete. Therefore, it is important for those seek-
+ing toxicology and other science-based information to have 
+the tools to evaluate each resource as regards the quality of 
+information content.
+
+698
+Hayes’ Principles and Methods of Toxicology
+13.5  Conclusions
+Information and data generated by advances in the toxicologi-
+cal sciences, in line with that of other scientific disciplines, 
+continue to grow at a phenomenal rate. The increasing com-
+plexity derives from the interdisciplinary nature of toxicol-
+ogy and the societal manifestations of science. Fortunately, 
+computers and the development and expansion of the Web 
+have allowed unprecedented access to and utilization of the 
+vast toxicological information base as it continues to expand. 
+Moreover, innovation in technology and software applications 
+have greatly expanded and diversified the ways in which toxi-
+cological information is presented, distributed, and shared.
+13.6  Questions
+	 13.1  Identify some of the key Web-based databases in tox-
+icology, environmental health, and risk assessment.
+	 13.2  What organizations consider toxicology from a 
+global perspective?
+	 13.3  What is the purpose of a literature review and what 
+should be included in the write-up?
+REFERENCES
+Baker N., Knudsen T., and Williams A. (2017). Abstract sifter: 
+A comprehensive front-end system to PubMed. F1000 
+Research 6(Chem Inf Sci): 2164.
+Daneshian M., Kamp H., Hengstler J., Leist M., and van deWa-
+ter B. (2016). Highlight report: Launch of a large integrated 
+European in vitro toxicology project: EUToxRisk. Archives 
+of Toxicology 90(5): 1021–1024.
+Gocht T, Berggren E., Ahr H.J., et al. (2015). The SEURAT-1 
+approach towards animal free human safety assessment. 
+Altex 32(1): 9–24.
+Hulla J.E., Kinter L.B., and Kelman B. (2015). A standard of 
+knowledge for the professional practice of toxicology. 
+Environmental Health Perspectives 123(8): 743–748.
+Luechtefeld T., Maertens A., Russo D.P., et al. (2016). Global 
+analysis of publicly available safety data for 9,801 sub-
+stances registered under REACH from 2008–2014. Altex 
+33(2): 95–109.
+Richard A.M, Judson R.S., Houck K.A., et al. (2016). ToxCast 
+chemical landscape: Paving the road to 21st Century toxi-
+cology. Chemical Research in Toxicology 29(8): 1225–1251.
+Richard A.M., Huang R., Waidyanatha S., et al. (2020). The Tox21 
+10K compound library: Collaborative chemistry advancing 
+toxicology. Chemical Research in Toxicology. doi: 10.1021/
+acs.chemrestox.0c00264.
+Sanz F., Pognan F., Steger-Hartmann T., and Díaz C. (2017). 
+Legacy data sharing to improve drug safety assessment: 
+The eTOX project. Nature Reviews Drug Discovery 16(12): 
+811–812.
+Taylor D. (2002). The literature review: A few tips on conduct-
+ing 
+it. 
+http://www.writing.utoronto.ca/advice/specific-
+types-of-writing/literature-review (Accessed December 
+21, 2020).
+Waters M., Stasiewicz S., Merrick B.A., et al. (2008). CEBS—
+Chemical Effects in Biological Systems: A public data 
+repository integrating study design and toxicity data with 
+microarray and proteomics data. Nucleic Acids Research 
+36(database issue): D892–D900.
+Wilkinson M.D., Dumontier M., Aalbersberg I.J., et al. (2016). 
+The FAIR guiding principles for scientific data management 
+and stewardship. Scientific Data 3: 160018.
+Williams A.J., Harland L., Groth P., et al. (2012). Open PHACTS: 
+Semantic interoperability for drug discovery. Drug 
+Discovery Today 17(21–22): 1188–1198.
+Williams A.J., Peck L., Ekins, S. (2017). The new alchemy: Online 
+networking, data sharing and research activity distribution 
+tools for scientists F1000Research 6: 1315.
+World Health Organization. (2010). WHO Human Health Risk 
+Assessment Toolkit: Chemical Hazards. Geneva: World 
+Health Organization. https://www.who.int/publications/i/
+item/9789240035720 (accessed March 15, 2023)
+World Health Organization (2021). Framework for use of system-
+atic review methods in chemical risk assessment. https://
+apps.who.int/iris/rest/bitstreams/1387316/retrieve (accessed 
+March 15, 2023).

@@ -1,0 +1,1702 @@
+# 34 Cardiovascular Toxicology Methods
+# Hayes' Principles and Methods of Toxicology, 7th Edition
+# Pages: 1840-1857
+# Unit: Volume II
+
+1781
+34
+Cardiovascular Toxicology Methods
+Barry Bleske and Matthew J. Campen
+CONTENTS
+34.1	 Introduction�����������������������������������������������������������������������������������������������������������������������������������������������������������������������1782
+34.2	 Cardiac Function and Toxicity������������������������������������������������������������������������������������������������������������������������������������������1782
+34.2.1	 Contraction and Pumping�������������������������������������������������������������������������������������������������������������������������������������1782
+34.2.2	 Cardiac Hypertrophy��������������������������������������������������������������������������������������������������������������������������������������������1783
+34.2.3	 Myocardial Cell Death�����������������������������������������������������������������������������������������������������������������������������������������1783
+34.2.4	 Electrophysiology�������������������������������������������������������������������������������������������������������������������������������������������������1783
+34.3	 Vascular Function and Toxicity����������������������������������������������������������������������������������������������������������������������������������������1786
+34.3.1	 Endothelial Cells��������������������������������������������������������������������������������������������������������������������������������������������������1786
+34.3.2	 Vascular Smooth Muscle Cells (VSMCs)������������������������������������������������������������������������������������������������������������1786
+34.3.3	 Atherosclerosis�����������������������������������������������������������������������������������������������������������������������������������������������������1787
+34.4	 Essential Methodology������������������������������������������������������������������������������������������������������������������������������������������������������1787
+34.4.1	 Ultrasound������������������������������������������������������������������������������������������������������������������������������������������������������������1787
+34.4.2	 Radiotelemetry�����������������������������������������������������������������������������������������������������������������������������������������������������1787
+34.4.3	 Ex Vivo Isolated Organ Systems��������������������������������������������������������������������������������������������������������������������������1789
+34.4.3.1	 Isolated Hearts��������������������������������������������������������������������������������������������������������������������������������������1789
+34.4.3.2	 Isolated Vessels�������������������������������������������������������������������������������������������������������������������������������������1789
+34.4.4	 Specialized In Vitro Approaches��������������������������������������������������������������������������������������������������������������������������1789
+34.4.4.1	 Cardiomyocytes������������������������������������������������������������������������������������������������������������������������������������1789
+34.4.4.2	 Vascular Cells���������������������������������������������������������������������������������������������������������������������������������������1789
+34.4.5	 Animal Models����������������������������������������������������������������������������������������������������������������������������������������������������1790
+34.4.6	 Histopathology and Molecular Biology��������������������������������������������������������������������������������������������������������������1790
+34.4.7	 Biomarkers for Human Research�������������������������������������������������������������������������������������������������������������������������1791
+34.4.7.1	 Translational and Clinical Biomarkers�������������������������������������������������������������������������������������������������1791
+34.5	 Selected Cardiotoxicants��������������������������������������������������������������������������������������������������������������������������������������������������1792
+34.5.1	 Drugs�������������������������������������������������������������������������������������������������������������������������������������������������������������������1792
+34.5.1.1	 Alcoholic Cardiomyopathy������������������������������������������������������������������������������������������������������������������1792
+34.5.1.2	 Cocaine�������������������������������������������������������������������������������������������������������������������������������������������������1793
+34.5.1.3	 Antidepressants and Antipsychotics�����������������������������������������������������������������������������������������������������1793
+34.5.1.4	 Androgenic–Anabolic Steroids�������������������������������������������������������������������������������������������������������������1793
+34.5.1.5	 Antineoplastic Agents���������������������������������������������������������������������������������������������������������������������������1793
+34.5.1.6	 Nonsteroidal Anti-Inflammatory Agents���������������������������������������������������������������������������������������������1794
+34.5.1.7	 Antimicrobial Agents���������������������������������������������������������������������������������������������������������������������������1794
+34.5.2	 Environmental and Occupational Toxicants�������������������������������������������������������������������������������������������������������1794
+34.5.2.1	 Air Pollution�����������������������������������������������������������������������������������������������������������������������������������������1794
+34.5.2.2	 Heavy Metals���������������������������������������������������������������������������������������������������������������������������������������1794
+34.5.2.3	 Radiation�����������������������������������������������������������������������������������������������������������������������������������������������1795
+34.5.2.4	 Tobacco Smoke and Electronic Cigarettes�������������������������������������������������������������������������������������������1795
+34.5.2.5	 Monocrotaline���������������������������������������������������������������������������������������������������������������������������������������1795
+34.5.3	 Endogenous Toxicants������������������������������������������������������������������������������������������������������������������������������������������1795
+34.5.3.1	 Cholesterol/Crystals������������������������������������������������������������������������������������������������������������������������������1795
+34.5.3.2	 Gut Microbiome Factors����������������������������������������������������������������������������������������������������������������������1796
+34.5.3.3	 Uremic Toxins��������������������������������������������������������������������������������������������������������������������������������������1796
+34.6	 Questions��������������������������������������������������������������������������������������������������������������������������������������������������������������������������1796
+References����������������������������������������������������������������������������������������������������������������������������������������������������������������������������������1796
+DOI: 10.1201/9781003390008-38
+
+1782
+Hayes’ Principles and Methods of Toxicology
+34.1  Introduction
+The cardiovascular system is largely protected from xenobiot-
+ics that must first pass through the gut, liver, lungs, or skin to 
+gain access to the heart or blood vessels. Many prototypical 
+cardiovascular toxicants are intentionally delivered as medi-
+cines orally or intravenously. Despite the relative protection, 
+the essential role of the cardiovascular system to mammalian 
+biology means that toxic outcomes to the heart of blood vessels 
+can be immediately life-threatening. Many toxicants can also 
+have chronic impacts on cardiovascular function through the 
+promotion of tissue remodeling that can lead to vulnerability 
+to acute events, such as thrombotic vaso-occlusion (i.e., infarc-
+tion or stroke) or ventricular arrhythmia, or decompensated 
+heart failure.
+Understanding toxicity to the cardiovascular system requires 
+knowledge of the normal function of the major components, 
+including the heart, vessels (arteries, capillaries, veins), and 
+the blood. Assessment of toxicity thus arises from identifica-
+tion of perturbations to normal physiology integrated with his-
+topathological assessments.
+34.2  Cardiac Function and Toxicity
+The heart is a four-chambered organ principally comprising 
+of cardiac muscle fibers, along with neural Purkinje fibers that 
+guide the propagation of each conduction from the pacemak-
+ing cells, and also the coronary vascular system. The heart 
+beats approximately 2.5 billion times in a human lifetime, 
+which requires a tremendous, continuous energy supply. 
+Cardiomyocytes therefore have high content of mitochondria 
+to provide that energy, principally through the metabolism of 
+fatty acids, but also glucose and other substrates. Toxins that 
+impact mitochondrial function are thus likely to have cardiac-
+specific effects.
+The chambers of the heart are designed to pump blood 
+throughout the body, with the smaller atrial chambers pumping 
+blood to fill the larger, more muscular ventricles, and the ven-
+tricles then pumping blood to the lungs (right ventricle (RV)) 
+or the rest of the body (left ventricle (LV)). There is an inti-
+mate connection between ventricular function and pulmonary 
+function. Impairments to cardiac output can lead to cardio-
+genic pulmonary hypertension and edema, due to congestion. 
+Similarly, toxicity or diseases affecting the pulmonary vascu-
+lature can lead to pulmonary hypertension, which causes right 
+ventricular hypertrophy and potentially failure. Timing of the 
+atrial contraction precedes the ventricular contraction by a 
+fraction of a second (typically 0.2 seconds in humans), such 
+that there is time to fill the ventricles with blood in an optimal 
+manner prior to ventricular ejection. This timing, controlled 
+by a delay of the conduction propagation through the atrio-
+ventricular (AV) node, can be altered by drugs and toxicants 
+in a way that impairs efficiency of the heart. Furthermore, 
+toxicants that stiffen or thicken the walls of the heart may also 
+impede filling, an early outcome of diastolic heart failure.
+Ejection of blood flows through either the pulmonary artery 
+or the aorta. From there, blood travels in a pulsatile manner 
+into sequentially smaller diameter vessels to the arterioles, 
+then capillaries, venules, veins, and then out through the pul-
+monary vein or vena cava and returns to the heart. The vas-
+cular network spreads through every organ system and thus 
+blood vessels are intimately involved in end-organ toxicity, 
+either by the delivery of toxicants or as a target themselves. 
+Numerous mathematical physiological relationships have been 
+established for cardiac function and hemodynamics which are 
+essential to our understanding of disease and toxicology; sev-
+eral key equations are shown in Table 34.1.
+34.2.1  Contraction and Pumping
+Contraction of the heart begins with opening of L-type cal-
+cium channels, which allows extracellular calcium to stimu-
+late the release on intracellular stores of calcium from the 
+sarcoplasmic reticulum in cardiomyocytes. Cytosolic calcium 
+facilitates actin-myosin contraction; the magnitude of calcium 
+flux from diastole to systole largely governs the strength of 
+each contraction. Essential proteins contributing to pulsatile 
+calcium flux include the ryanodine receptor, which enables the 
+calcium-induced calcium release mechanism, the sarcoplas-
+mic reticulum Ca2+-ATPase (SERCA2) pump, and phosphol-
+amban. SERCA2 pumps calcium out of the cytosol into the 
+sarcoplasmic reticulum after each contraction. Phospholamban 
+is a direct inhibitor of SERCA2. Adrenergic stimulation can 
+TABLE 34.1
+Essential Cardiovascular Equations
+Cardiac output                              = Stroke volume × Heart rate
+Stroke volume                              = End diastolic volume ′  End systolic volume
+Systemic vascular resistance       
+Mean arterial pressure
+Central venous pressure
+Cardiac output
+=
+−
+Vascular flow (Poiseuille’s Law) 
+(
+P )
+4
+1
+2
+r
+P
+L
+η
+=
+×
+−
+×
+ r, vessel radius; P, pressure; η, blood viscosity; L, length
+Ejection fraction                          
+End diastolic volume
+End systolic volume
+End diastolic volume
+100
+=
+−
+×
+Fractional shortening                   
+Diastolic dimension
+Systolic dimension
+Diastolic dimension
+100
+=
+−
+×
+
+1783
+Cardiovascular Toxicology Methods
+downregulate phospholamban activity via protein-kinase-A–
+mediated phosphorylation. Collectively, these proteins can be 
+directly or indirectly modified in concentration or activity by 
+toxicants, potentially altering cardiac contractility or provid-
+ing a substrate for arrhythmia.
+34.2.2  Cardiac Hypertrophy
+Cardiomyocyte growth can be stimulated by diverse stimuli. 
+Growth can be triggered indirectly in response to increased 
+vascular resistance, leading to sustained calcium increases 
+that upregulate calcineurin and promote NFAT transcriptional 
+activity (1). Hormonal factors such as angiotensin-II and endo-
+thelin-1 can promote hypertrophy through histone deacety-
+lase function, similarly downstream of calcium signaling. 
+Inflammation that triggers cardiomyocyte NFkB pathways 
+can also stimulate growth. Growth can be of a physiological 
+nature, such as in response to sustained physical training (e.g., 
+running a marathon). In pathological growth, however, the car-
+diac thickening tends to be inward, reducing the volume of the 
+cardiac volume. Concomitantly, the increased thickness of the 
+ventricular wall impeded diastolic filling. Thus, pathological 
+hypertrophy reduces the efficiency and reserve of the heart. 
+Over time, toxic or pathological conditions can lead to cardiac 
+cell death that weakens the muscle and causes dilatation of the 
+ventricle.
+34.2.3  Myocardial Cell Death
+Toxic insults trigger a series of reactions in cardiac cells lead-
+ing to measurable changes in calcium levels, mitochondrial 
+function, and transcriptional outcomes. Mild injuries can be 
+repaired; however, severe injuries will lead to cell death via 
+accidental (necrosis) or regulated (apoptosis and other) cell 
+death. If the cell survives the insults, structural and functional 
+adaptations will take place. Cell death, however, leads to weak-
+ening of the ventricular wall and the scarring that replaces 
+regions of dead cells can be an impediment to diastolic fill-
+ing. Apoptosis was found to be involved in cardiomyopathy in 
+1994 (2). The loss of cardiac myocytes is a fundamental part 
+of myocardial injury that initiates or aggravates cardiomyopa-
+thy. Apoptosis is an important mode of myocardial cell loss, as 
+has been demonstrated in heart failure patients (3). Myocardial 
+apoptosis has been shown to play an important role in the car-
+diac toxic effects induced by Adriamycin® (4, 5), an important 
+anticancer agent whose clinical application is limited by its 
+major side effect, cardiotoxicity. Exposure of primary cultures 
+of cardiomyocytes to cadmium also induces apoptosis (6).
+Many in vivo studies have shown that only a very small per-
+centage of myocardial cell population undergo apoptosis under 
+pathological conditions; for example, less than 0.5% of cells 
+appeared apoptotic in myocardial tissue under the stress of 
+dietary copper deficiency in mice (7). At first glance, this num-
+ber seems to be too insignificant to account for myocardial 
+pathogenesis; however, this would be a false statement. In a 
+carefully designed time course study (8), it has been estimated 
+that cardiomyocyte apoptosis may be completed in less than 
+20 hours in rats. Because the heart is a terminally differenti-
+ated organ, myocytes undergoing apoptosis will be lost; thus, 
+the total cell loss can simply be accounted for by the rate of 
+apoptosis plus necrosis. If apoptosis occurs at a constant rate 
+of about 0.5% myocytes a day (7), the potential contribution of 
+apoptosis to the overall loss of myocytes over a long period of 
+time is significant.
+Necrosis is a term that was widely used to describe myocar-
+dial cell death in the past. Myocardial infarction, in particular, 
+had been considered as a consequence of necrosis (9). Although 
+it is now recognized that apoptosis contributes significantly to 
+myocardial infarction (10), the significance of necrosis in myo-
+cardial pathogenesis cannot be underestimated. The contribu-
+tion of necrosis to cardiomyopathy induced by environmental 
+toxicants and pollutants is particularly important. A critical 
+issue is how to distinguish apoptosis from necrosis.
+Apoptosis and necrosis were originally described as two dis-
+tinct forms of cell death that can be clearly distinguished [36]; 
+however, these two modes of cell death can occur simultane-
+ously in tissues and cultured cells. In total, six specific types of 
+cell death have now been identified in cardiomyocytes, includ-
+ing apoptosis, necroptosis, mitochondrial-mediated necrosis, 
+pyroptosis, ferroptosis, and autophagic cell death (11). These 
+forms of cell death often overlap in terms of stimuli (e.g., TNFa, 
+pathogen- or damage-associated molecular patterns, oxidative 
+stress) and final signaling leading to death (e.g., caspase induc-
+tion and plasma membrane disruption), but each has unique 
+intracellular pathways that may be triggered. Necroptosis, for 
+instance, depends on receptor-interacting protein kinase 1 
+(RIP1) activation, while pyroptosis involves excessive NLRP3 
+inflammasomal stimulation and gasdermin-induced lysis. The 
+intensity and duration of insults may decide the outcome; thus, 
+triggering events can be common for both types of cell death. 
+A downstream controller, however, may direct cells toward a 
+programed execution of apoptosis. If the apoptotic program is 
+aborted before this control point and the initiating stimulus is 
+severe, cell death may occur by necrosis (12). Alternatively, in 
+acute injury, apoptotic cells can progress along a continuum to 
+eventual necrosis. To distinguish the nature of cell death, there 
+are specific markers that are prototypical for each that must be 
+identified (11).
+34.2.4  Electrophysiology
+Pacemaking cells of the heart initiate the propagation of each 
+cardiac cycle. Cells of the sinoatrial (SA) node are the normal 
+pacemakers of the heart and initiate each beat with the open-
+ing of voltage-gated calcium channels, that lead to a depo-
+larization of the cytosol, followed by a rapid repolarization 
+through the opening of potassium channels (Figure 34.1A). 
+This depolarization is spread initially through the atrial tis-
+sue via nerve-like Purkinje fibers and atrial myocytes. The 
+conduction is delayed at the point of the AV node, which is 
+the gate-keeper for transmission through to the ventricular 
+cardiomyocytes. The AV node is composed of a similar cell 
+type to the SA node pacemaking cells, but the AV node fires 
+at a slower rate, allowing them to be entrained by the SA node 
+cycle under normal circumstances, but acting as a pacemaking 
+“safety net” should issues arise with the SA node function. 
+The delay at the point of the AV node (only 0.1–0.2 seconds in 
+a human) optimizes the ventricular filling prior to contraction.
+
+1784
+Hayes’ Principles and Methods of Toxicology
+From the AV node, electrical transmission proceeds through 
+the Purkinje fibers of the bundle branch, located within the 
+ventricular septal wall, then spreads evenly through to ven-
+tricular cardiomyocytes. The monophasic action potential of 
+ventricular cardiomyocytes differs from the pacemaking cells, 
+being initiated in phase 0 by voltage-gated sodium channels 
+and having a prolonged phase 2 wherein calcium is released 
+into the cytosol to drive contraction (Figure 34.1B). Notably, 
+drugs and toxicants can influence the shape and timing of the 
+cardiac cells’ monophasic action potential, leading to changes 
+in the heart rate and potentially predisposing cells to abnormal 
+conductions (discussed below).
+The ECG is a non-invasive method for determining the 
+overall conduction of the heart. The overall ECG reflects 
+a summation of all of these coordinated depolarization and 
+repolarization events in the whole heart. The normal ECG 
+propagation depolarizes atrial cardiomyocytes first, to allow 
+well-timed filling of ventricles. Each normal ECG conduc-
+tion begins with the P-wave, reflecting SA node and atrial 
+depolarization (Figure 34.2A). Subsequently, the QRS com-
+plex is typically the largest inflection of the ECG signal as 
+the AV-node cells depolarize. The wave of depolarization to 
+the ventricles must pass through the AV node, which delays 
+the wavefront to allow for filling prior to ventricular depolar-
+ization and contraction. The timing of each beat is a highly 
+organized event, and can be altered by input from the nervous 
+system (sympathetic and parasympathetic), as well as from 
+the volume of blood returning to the heart. The overall repo-
+larization of the ventricular mass is reflected as the T-wave. 
+Human ECGs are most analogous to the ECG waveforms of 
+larger animals, including non-human primates, dogs, and pigs. 
+The most notable difference in rodent ECGs is the absence of 
+the isoelectric ST segment (Figure 34.2B). The timing of each 
+segment can be altered by physiological, pathological, or phar-
+macological mechanisms. Adenosine, for instance, can pro-
+long the PR-interval due to AV-node hyperpolarization. Many 
+drugs, including sotalol and hydroxychloroquine, can prolong 
+the QT interval. Excessive prolongation of the QT interval is 
+a major concern for drug development, as this can become a 
+substrate for a life-threatening ventricular arrhythmia known 
+as Torsades de Pointes (French for “twisting of the points”).
+In addition to Torsade de Pointes, many other negative 
+electrocardiographic outcomes can be induced by toxicants 
+(examples provided in Figure 34.2C–L). Ventricular arrhyth-
+mias such as fibrillation and tachycardia pose the greatest risk 
+of mortality. Atrial arrhythmias, such as flutter, fibrillation, 
+or conduction block (slowing of conduction between the SA 
+and AV nodes), may impair the efficiency of cardiac pumping 
+and even predispose the heart to a major ventricular arrhyth-
+mia. Notably, atrial fibrillation is also a major risk for blood 
+stagnation and coagulation in the left atria, which can provide 
+an embolic substrate for stroke. Thus, assessing the nature of 
+electrocardiographic abnormality is important in terms of risk 
+assessment.
+In vivo measures of hemodynamics and ECG are a hallmark 
+for toxicity and safety pharmacology studies and have been 
+frequently employed for a variety of acute and chronic toxicol-
+ogy studies. Surgical implantation of probes allows for either 
+unrestrained (via radiotelemetry), jacketed, or tethered assess-
+ments in real time in conscious, freely moving animals both 
+large (non-human primate, pig, dog) and small (mouse, rat, 
+rabbit). Numerous different approaches exist for blood pres-
+sure measurement, but direct arterial catheters, connected to 
+a force transducer, can be placed inside the lumen of major 
+arteries (e.g., aorta and femoral), which affords a highly pre-
+cise, continuous measure of pulsatile pressure. With direct 
+FIGURE 34.1  Monophasic action potentials are shown for (A) pacemaking cells and (B) cardiomyocytes and Purkinje fibers. Each monophasic 
+action potential begins in phase 0, with a rapid switch from baseline resting negative potential to a slightly positive potential. In pacemaking cells, this 
+upstroke is drive by voltage-gated calcium channels. The phase 4 slope in pacemaking cells is considered “leaky” to the inward rectifying Funny cur-
+rent of potassium, which helps regulated the interbeat interval (or heart rate). When this slope hits a specific threshold, the calcium channels open to 
+begin the phase 0 current. In cardiomyocytes and Purkinje fibers, the phase 2 plateau is dominated by intracellular calcium flux, which is required for 
+coupling the electrical changes to contraction, via actin-myosin interactions. This is largely absent in pacemaking cells. Outward potassium currents 
+in phase 3 permit the rapid recovery of the negative resting potential during diastole.
+
+1785
+Cardiovascular Toxicology Methods
+FIGURE 34.2  (A) Standard lead II ECG for a human or large animal, providing estimates of timing for the PR, QRS, and QT intervals. (B) Example 
+of a rodent ECG, which is similar in most ways, with the exclusion of the isoelectric ST segment, indicated by an arrow. Physiologically, this may 
+be essential for maintaining such high heart rates. (C–L) Examples of major arrhythmias are shown. (C) Normal ECG shown for reference, with an 
+interbeat interval of 1 second (or a heart rate of 60 bpm). (D) Tachycardia. (E) Bradycardia. (F) Premature atrial contraction (highlighted in red). 
+(G) Premature ventricular contraction (highlighted in red). (H) Skipped beat, or AV-node block (highlighted in red). (I) Atrial flutter, defined by the 
+organized, “saw-toothed” baseline, indicated by the arrow. (J) Atrial fibrillation, defined by the disorganized baseline with no clear P-waves. (K) QT 
+prolongation (highlighted in red). (L) Torsades de Pointes (highlighted in red).
+
+1786
+Hayes’ Principles and Methods of Toxicology
+arterial measures, endpoints such as systolic, diastolic, and 
+pulse pressure (difference between systolic and diastolic) can 
+be easily obtained, along with heart rate.
+Arrhythmias can arise from abnormalities at the cellular 
+level, or from abnormalities related to tissue remodeling or 
+interference with the normal conduction wavefront. Cellular 
+events are typically due to metabolic impairment, such as 
+during coronary flow obstruction (infarction), where insuf-
+ficient oxygen is available to a region of cardiomyocytes. In 
+such instances, the resting membrane potential is poorly main-
+tained, and the calcium plateau (phase 2) is typically shorter. 
+Such cells may have a more rapid firing rate owing to this 
+abnormal monophasic action potential. Alternatively, certain 
+drugs – especially potassium channel blockers like sotalol – 
+can prolong the repolarization of cardiomyocytes excessively, 
+to the point where phase 0 sodium channels reactivate prior to 
+complete action potential recovery. In such instances, a phe-
+nomenon called afterdepolarizations may occur. Early after-
+depolarizations occur during phase 3 of the monophasic action 
+potential; delayed afterdepolarizations occur during phase 4, 
+but prior to the normal SA-originating conduction wavefront. 
+In either case, the cell or cells that undergo afterdepolariza-
+tions can be obstructive to normal wavefront propagation 
+or may become ectopic pacemakers and capture the overall 
+rhythm of the heart, typically leading to tachyarrhythmias 
+such as Torsades de Pointes.
+34.3  Vascular Function and Toxicity
+The heart pumps blood through the aorta (outflow of the LV) 
+and pulmonary artery (outflow of the RV). From these major 
+conduit arteries, blood travels through successive bifurcations 
+to smaller arteries, arterioles, capillaries, venules, veins, and 
+then back to the main chambers of the heart from the vena 
+cava (flowing into the right atrium) or the pulmonary vein (left 
+atrium). Each successive stage of vessel has important but dis-
+tinct physiological roles. Arterioles, for instance, are crucial 
+to maintaining regional blood flow and vascular resistance. 
+Capillaries are the major point of gas and nutrient exchange 
+for distal organs. Venules and veins have a major role in bal-
+ancing fluid volume and venous return, or cardiac preload. An 
+essential function of arteries and arterioles is control of the 
+internal diameter of the vessel via constriction or dilation of 
+smooth muscles. Much of the regulation of this vascular tone 
+is controlled by molecular communication between endothe-
+lial cells that line the vessels and the smooth muscle cells that 
+actively contract or relax.
+34.3.1  Endothelial Cells
+The endothelium is an essential homeostatic system with roles 
+in target organ nutrient supply, regional blood flow, inflamma-
+tion, coagulation, angiogenesis, and metabolism. Endothelial 
+cells comprise the intimal, or inner surface lining, of all blood 
+vessels in the body. Endothelial cells orchestrate responses 
+to local injury, releasing cytokines to recruit leukocytes and, 
+in the case of hemorrhage, vasoconstrictor agents to reduce 
+flow and change the balance of coagulant (tissue factor) and 
+antiaggregatory (prostacyclin) signaling. In vitro approaches 
+to understanding endothelial responses to toxicants are numer-
+ous and can include functional assays along with biomolecular 
+(i.e., RNA, protein, metabolite) response assays. Novel co-
+culture and 3D tissue models are constantly being developed 
+to better understand the local environments relative to spe-
+cific organs of interest, such as the blood-brain barrier of the 
+cerebrovasculature or the gas exchange regions of the lungs 
+or placenta. Such models are providing new insights into how 
+toxicants may directly or indirectly impair endothelial func-
+tion, although many essential aspects of vascular physiology 
+are typically absent, including pressure and flow. As such, 
+there is still considerable motivation to confirm outcomes in 
+whole-animal models.
+Endothelial nitric oxide synthase is a crucial enzyme for 
+healthy vascular function. eNOS produces nitric oxide (NO), a 
+major signaling molecule for the control of vascular tone, from 
+the conversion of arginine to citrulline. eNOS is a dimerized 
+enzyme that requires several cofactors, including tetrahydro-
+biopterin (BH4). BH4 and NO react readily with superoxide, 
+making this system highly sensitive, directly and indirectly, to 
+many toxicants. In an intact vessel, NO diffuses to the smooth 
+muscle to trigger relaxation and vasodilation. NO is also valu-
+able as an inhibitor of platelet activation and inflammation. 
+The ability of many toxicants to impair eNOS function is pos-
+tulated to be an essential part of the broader risk for adverse 
+cardiovascular events. The endothelium generates a number of 
+other messengers that influence smooth muscle tone, including 
+constrictors such as endothelin and thromboxane, and dilators 
+such as hydrogen sulfide and prostacyclin.
+34.3.2  Vascular Smooth Muscle Cells (VSMCs)
+VSMCs, comprising the medial region of the vascular wall, 
+primarily regulate the vascular tone through calcium-depen-
+dent mechanisms, based largely on endothelial cell input and 
+circumferential strain (i.e., blood pressure). Unlike cardio-
+myocytes, which generate large intermittent contractions in 
+response to a large, rapid cytosolic flux of calcium, the VSMCs 
+regulated cytosolic calcium on a gradient of concentrations, 
+permitting stable changes in contractile protein interactions. 
+This means that blood vessels can maintain a specific inter-
+nal diameter depending on the local blood flow needs of the 
+tissue, rather than exhibit intermittent vasospasm. Calcium 
+binds with calmodulin in VSMCs, which in turn activates 
+myosin light chain kinase (MLCK). MLCK phosphorylates 
+myosin light chain to increase interactions with actin fibers, 
+driving contraction. The calcium release can be stimulated 
+by a number of agents, including angiotensin-II and endothe-
+lin-1. In certain pathologies, like hypertension, the contractile 
+proteins can become sensitized to calcium, typically through 
+activation of the RhoA-Rho Kinase pathway, which inhibits 
+myosin light chain phosphatase, shifting the balance of sig-
+naling toward force generation with lower levels of cytosolic 
+calcium.
+Under pathological conditions, VSMCs can dedifferentiate 
+into a proliferative, migratory, and synthetic phenotype, which 
+is central to the growth of atheromatous lesions. In chronic 
+hypertension, VSMCs hypertrophy can leads to narrowing of
+
+1787
+Cardiovascular Toxicology Methods
+the vascular lumen and stiffening of arteries. In atherosclero-
+sis, this hyperplasia is more localized, but VSMCs begin to 
+synthesize and release inflammatory factors that further con-
+tribute to the recruitment of monocytes into the vascular wall. 
+Numerous factors may contribute to dedifferentiation, includ-
+ing angiotensin-II and endothelin-1, along with growth factors 
+like insulin-like growth factor-1 and platelet-derived growth 
+factor.
+34.3.3  Atherosclerosis
+The principal vascular pathology is a chronic inflammatory 
+condition known as atherosclerosis, which is the root cause 
+of many diseases, including coronary artery disease, angina 
+pectoris, myocardial infarction, and many cerebrovascular/
+transient ischemic attacks that can promote vascular dementia. 
+Beginning in early life as lipid accumulation in the wall of the 
+major arteries (aorta, coronaries, carotids), atherosclerosis is a 
+progressive disease that can lead to fixed obstructions to blood 
+flow and major coagulative events. Many risk factors exist for 
+the development of atherosclerosis, including heritable predis-
+position, sex, age, physical inactivity, and a diet low in fruits 
+and vegetables. Inhaled toxicants such as particulate matter 
+and cigarette smoke can promote atherosclerosis development.
+The early atheroma lesions develop in response to mild vas-
+cular injury, loosely termed, and involve the recruitment of cir-
+culating leukocytes into the vascular wall. Once translocated 
+into the vessel wall, the leukocytes differentiate into macro-
+phages and begin to engulf accumulated lipids and cholesterol. 
+Excessive uptake of lipids leads to further differentiation into 
+inflammatory foam cells; thus, high levels of cholesterol are 
+a constant promoter of atherosclerotic remodeling. As the 
+lesion grows over decades, with accumulation of inflamma-
+tory cells and (as described above) proliferation of VSMCs, 
+the inner core of the lesion can become hypoxic, leading either 
+to a necrotic core or angiogenesis to further supply nutrients 
+and bolster the growth of the lesion. Furthermore, the endo-
+thelial cells lining the lesion become unhealthy, reducing the 
+generation of antiaggregatory molecules (NO, prostacyclin), 
+and ultimately eroding away leaving behind a fibrous cap. The 
+necrotic core and fibrotic cap are substrates of vulnerability for 
+plaque rupture, an often fatal coagulative and vaso-occlusive 
+outcome (infarction). Toxicants have been shown to play a role 
+in many of the stages of atheroma development, from exac-
+erbating the oxidative and inflammatory environment of the 
+lesion to activating matrix metalloproteinases in the vascular 
+wall that can lead to deterioration of the stabilizing extracel-
+lular matrix fibers and promote rupture.
+34.4  Essential Methodology
+Unlike many organ systems of fields of biomedical science, the 
+cardiovascular system demands that research extend beyond 
+molecular tools to embrace a wide range of functional out-
+comes (e.g., hemodynamics, cardiac pumping, ECG, vaso-
+motor function). In addition, histopathology, imaging, and 
+concrete knowledge of clinical/translation biomarkers are 
+essential skillsets to undertake comprehensive screening of 
+safety/toxicity of xenobiotics.
+34.4.1  Ultrasound
+Doppler ultrasound and flow measurements are a final essen-
+tial tool for studying in vivo hemodynamics. Echocardiography 
+applies ultrasound technology to permit imaging of the heart 
+and large vessels in real time to assess the movement of the 
+walls of the beating heart and flow of fluids (blood) through 
+the chambers and vessels. Cardiac function, in terms of stroke 
+volume and cardiac output, is easily obtained from even small 
+laboratory models using high-frequency (~30 MHz) ultrasound 
+probes. Additionally, alteration to the ventricular wall, in terms 
+of hypertrophy or dilatation, can also be easily and accurately 
+measured. Current technology permits advanced analysis of 
+rapidly contracting mouse and rat hearts to assess indices of 
+systolic and diastolic failure using tissue Doppler (13). High-end 
+systems that allow for high-frequency ultrasound probes (30–
+50 MHz) can even image fetal mouse hearts in the latter stages 
+of in utero development (Figure 34.3). Notably, there are com-
+plementary methods for in vivo imaging in preclinical models, 
+including SPECT/CT and MRI. However, the rapid beating of 
+the heart – at rates from 250 to 700 beats per minute depending 
+on the model – makes such alternative methods expensive and 
+time-consuming relative to the ultrasound technology. Vascular 
+investigations may be more justifiable with MRI or SPECT/CT, 
+and specific imaging markers of pathology can permit longi-
+tudinal and clinically translatable studies. Gadolinium contrast 
+imaging, for instance, can be used in conjunction with MRI to 
+examine blood-brain barrier disruption (14).
+34.4.2  Radiotelemetry
+A limitation of Doppler ultrasound technology is the inter-
+mittent measurements typically captured (e.g., once per day 
+or once per week). Implantable flow probes can be utilized to 
+capture continuous flow through arteries of interest (e.g., aorta 
+or carotid) in an unrestrained (implantable or jacketed teleme-
+try) or tethered preparation. While technology exists for rodent 
+applications, such preparations can be exceptionally valuable 
+for large animal research where reuse of the animal is possible 
+for safety studies. Radiotelemetry methodology also allows 
+for near-continuous collection of blood pressure, ECG, body 
+temperature, and physical activity. Innovative technologies in 
+this area are continuously being adapted, and devices can col-
+lect numerous outcomes simultaneously. Blood pressure can 
+be collected from various sites, including the carotid, aorta, 
+and femoral artery. While a challenging surgical preparation, 
+pulmonary pressure can also be collected in an instrumented 
+model (Figure 34.4). The value of the continuous collection 
+of unrestrained animals is in identifying relatively infrequent 
+events, such as runs of tachyarrhythmia, bradyarrhythmias, 
+skipped beats, or prolongation of QT interval (15). Measures of 
+heart rate variability, which reflects many homeostatic inputs 
+to the regulation of heart rate, including autonomic nervous 
+system activity (16), are also readily obtainable from telemet-
+ric recordings (13, 17).
+
+1788
+Hayes’ Principles and Methods of Toxicology
+FIGURE 34.4  Indwelling, fluid-filled catheters provide continuous readouts of arterial blood pressure and right ventricular blood pressure from a 
+chronically instrumented tethered mouse model (18).
+FIGURE 34.3  Ultrasound imaging of a fetal mouse (gestational day 17.5) heart. The LV and RV are shown in M-mode, highlighting the chamber 
+dimensions in diastole and systole.
+
+1789
+Cardiovascular Toxicology Methods
+34.4.3  Ex Vivo Isolated Organ Systems
+Because the integrated hemodynamic system is highly capable 
+of buffering stressors, it is often preferable to examine how a 
+toxicant or drug can alter a more limited component of the car-
+diovascular system. Isolated organ preparations have therefore 
+been developed and optimized to eliminate feedback loops 
+from neural networks.
+34.4.3.1  Isolated Hearts
+Isolated heart preparations have been used for roughly 
+100 years to examine cardiac contractility, metabolism, and 
+coronary flow (19). The Langendorff method uses a retrograde 
+perfusion of oxygenated solution (such as Krebs-Henseleit 
+solution or Tyrode’s) in the ex vivo heart, via the aorta. The 
+retrograde flow closes the aortic valve and allows for coronary 
+perfusion. The perfusion of nutrients keeps the heart pumping 
+and enables dosing with drugs or toxicants directly, or hearts 
+can be isolated from animals after exposures (20). A comple-
+mentary model, the working heart preparation, relies on flow 
+of blood/solutions in the normal physiologic direction but can 
+also be utilized to study cardiac contraction and metabolism 
+relative to toxic outcomes.
+34.4.3.2  Isolated Vessels
+Isolated vascular preparations have been a highly informative 
+tool for toxicology research. Isolated preparations vary in the 
+approach, allowing for in situ methods that leave much of the 
+relevant physiology intact (21), isolated perfused vessel prepa-
+rations at physiological (and controllable) internal pressures 
+(22), to force-transduction methods of vessel rings or strips 
+that eliminate a great deal of whole-body homeostatic feed-
+back factors (23). These approaches can allow for the direct 
+testing of toxicants by application in the vessel bath, or permit 
+in vivo exposures with subsequent isolation of vessels from 
+exposed animals. They also permit more concise and accurate 
+dissection of molecular mechanisms of toxicity, by testing spe-
+cific pathways of constriction (e.g., phenylephrine, thrombox-
+ane, endothelin) or dilation (e.g., acetylcholine, shear stress, 
+prostacyclin) or examining oxidative stress with antioxidants 
+or radical scavengers.
+34.4.4  Specialized In Vitro Approaches
+34.4.4.1  Cardiomyocytes
+In vitro approaches to understand electrophysiological effects 
+of toxicants on monophasic action potential were very time-
+consuming and challenging in terms of clinical/translational 
+interpretation until the advent of inducible pluripotent stem 
+cells (iPSCs), due to the differentiated and non-mitotic state of 
+cardiomyocytes. A typical approach has been to use rat fetal 
+cardiomyocytes, which still grew and divided in culture, or 
+isolated adult cardiomyocytes which could be probed electro-
+physiologically, but with very limited throughput. Adult car-
+diomyocytes can be isolated after digestion of whole hearts 
+using a Langendorff preparation, and used individually for 
+electrophysiological assays, but these procedures are extremely 
+time-consuming. However, electrophysiological assays permit 
+the investigation of monophasic action potential disturbances 
+and risk for afterdepolarizations and are therefore highly valu-
+able for drug safety assessment.
+The first advantage of the iPSC technique is that a consis-
+tent cardiomyocyte population can be grown and utilized for 
+electrophysiological tests of drug cardiotoxicity, especially in 
+concert with new high-throughput multielectrode array tech-
+nologies (24). The second benefit is the potential to utilize 
+patient-derived iPSCs that may allow for a personalized medi-
+cine approach to drug safety testing. Collectively, these tech-
+nologies with iPSC-derived cardiomyocytes are transforming 
+the methods for ensuring cardiac safety. Some studies, how-
+ever, have failed to show a correlation between drug effects 
+on subject-derived iPSC cardiomyocytes and subject QT pro-
+longation (25). Rigorous protocols have been shown to mini-
+mize variability, and improve prediction, while challenges 
+remain, including varying methods for deriving pluripotency 
+and redifferentiation into cardiomyocytes and intra-individual 
+variability, the technique holds much promise for improved 
+precision in cardiac safety testing.
+34.4.4.2  Vascular Cells
+In vitro approaches are often essential to understanding the 
+impacts of toxicants on the eNOS/NO system and other vaso-
+motor pathways. Direct toxicant impacts on eNOS can be iden-
+tified as alterations in eNOS mRNA or protein expression, loss 
+of dimerization of the eNOS protein, formation of peroxyni-
+trite (and nitrosation of vulnerable protein tyrosine moieties) 
+from the reaction of radicals superoxide and nitric oxide, and 
+BH4 oxidation. Direct measurement of NO production, usu-
+ally after experimental stimulation with acetylcholine, shear 
+stress, or a calcium ionophore, is possible with sensitive and 
+selective electrode detectors or spin-trap electron paramag-
+netic resonance spectroscopy. Assessment of uncoupling of 
+the eNOS dimer is also possible with modified electrophoretic 
+techniques.
+Endothelial cells can be obtained commercially or from 
+relatively straightforward explant techniques. While numer-
+ous cell lines exist and are used frequently (especially human 
+umbilical vein endothelial cells), the ease of isolation makes 
+primary endothelial cells a valuable option, as this approach 
+allows for vascular bed-specific (e.g., cerebrovascular, coro-
+nary, or placenta) research models. Furthermore, extracting 
+and culturing primary cells from unique transgenic mod-
+els or following in vivo exposures facilitates myriad creative 
+study approaches to address mechanistic questions of toxicity. 
+Emerging 3D tissue culture models are a further boon to the 
+field, as endothelial cells are readily integrated with other sys-
+tems to model the intracellular signaling at the vascular inter-
+face with other organotypic cell types.
+An essential role of endothelial cells is to maintain a barrier 
+between contents of the blood and all tissues of the body. This 
+varies between tissues, as endothelial cells of the liver have 
+large gaps, known as fenestrations, that allow for cells and 
+macromolecules and subcellular particles (e.g., lipoproteins) 
+easy access to hepatocytes. Endothelial cells of the brain,
+
+1790
+Hayes’ Principles and Methods of Toxicology
+however, maintain tight junctions forming the blood-brain 
+barrier, which is further buffeted by pericytes and astrocytes 
+that form the neurovascular unit. Toxicants can induce barrier 
+impairments that can be assessed by a variety of in vivo and 
+in vitro techniques. After exposures in vivo, brains can be pre-
+pared for histological imaging and specific blood components 
+can be stained, such as immunoglobulins or albumin, which 
+under normal circumstances should not penetrate the vascular 
+wall and be identifiable in the parenchymal region of the brain. 
+Other fluorophores such as fluorescein or labeled peptides can 
+be traced similarly, allowing for quantifiable measures of BBB 
+deficits at different molecular size ranges.
+In vitro approaches include testing electrical resistance 
+or impedance across endothelial monolayers or other trans-
+ference of dyes/labeled molecules using an insert approach. 
+Additionally, confocal and high content imaging approaches 
+allow for investigation of changes in major barrier/junction 
+proteins (zonula occludens-1, claudins, etc.) and their localiza-
+tion at the intracellular gaps. Drugs and toxicants can thus be 
+tested in multiple ways to address endothelial barrier function.
+34.4.5  Animal Models
+Cardiac hypertrophy can be manifested from a variety of 
+approaches in animal models, typically through induction of 
+hypertension, overuse of the heart, or through genetic models. 
+Certain transgenic models, such as the CREBA133-expressing 
+mouse or the spontaneous cardiomyopathic hamster model, 
+develop heart failure with many classic translational histo-
+logic, functional, and molecular features, such as ventricular 
+wall thinning, reduced ejection fraction, and fetal isoform 
+myosin heavy chain gene expression (26). Inducible mod-
+els include angiotensin-II or eNOS inhibitor (e.g., L-NAME) 
+infusion (typically using an osmotic minipump), or surgical 
+models like thoracic aortic banding or arterial-venous fistula 
+induction (27). Other long-term hypertension models will also 
+induce cardiac remodeling that can in some models lead to 
+failure, including treatment with doxorubicin and also genetic 
+models (28, 29). Of note, many pulmonary hypertension mod-
+els can be used to examine right heart remodeling, includ-
+ing the toxin monocrotaline (described below) and chronic, 
+continuous hypoxia (fraction of inspired air oxygen levels 
+reduced to approximately 10%) (30).
+Chronic vascular inflammation leads to remodeling and 
+lesion development that can become obstructive to flow and 
+a substrate for thrombosis, a pathology known as atheroscle-
+rosis. Atherosclerotic changes in the large vessels in humans 
+are the principal cause of life-threatening outcomes such as 
+myocardial infarction and stroke. Numerous rodent mod-
+els have been developed since the early 1990s that allow for 
+examination of the potential for toxicants to chronically pro-
+mote or acutely exacerbate atherosclerotic outcomes. The first 
+transgenic mouse model, the ApoE∞/∞ mouse, was generated 
+independently in separate labs in 1992 by Nobuyo Maeda (31) 
+and Jan Breslow (32). By removal of this essential gene for 
+cholesterol handling, mice exhibited levels of cholesterol far 
+in excess of normal and, as a result, rapidly developed fatty 
+streaks and more advanced vascular atheromatous lesions. A 
+key study by Qinghua Sun in 2005 demonstrated the value of 
+such vulnerable models for toxicology research, showing that 
+chronic inhalation exposure to concentrated ambient particu-
+late matter could augment the development and severity of ath-
+erosclerotic plaques (33). Newer transgenic models, including 
+the low-density lipoprotein (LDL) receptor knockout mouse, 
+exhibit similar atherogenic pathologies but have a circulating 
+lipid profile that better matches human disease. Prior to the 
+ApoE∞/∞ mouse, however, the Watanabe heritable hyperlipid-
+emic and New Zealand White rabbits were commonly used 
+for atherosclerosis research, albeit only in limited studies for 
+toxicology (34, 35).
+34.4.6  Histopathology and Molecular Biology
+The use of the transgenic models has been an essential tool 
+for vascular toxicology research, and is typically paired with 
+specific histopathological staining techniques that identify 
+key components of atheromas that help classify the severity 
+of lesion development (37, 38). Most common among these are 
+stains for lipids, such as Oil Red O or Sudan IV (Figure 34.5) 
+(33, 36). These stains are often also used for simply delineat-
+ing the size of plaques in select regions of the vascular tree, 
+including the aortic leaflets, the aortic arch or whole aorta, or 
+FIGURE 34.5  Example of Oil Red O staining of lipid-rich lesions around the aortic leaflets in the ApoE∞/∞ mouse model from a control (A) and 
+particulate matter exposed (B) mouse (36).
+
+1791
+Cardiovascular Toxicology Methods
+brachiocephalic artery, which is prone to relatively advanced 
+plaques due to the greater turbulence of blood flow in this ves-
+sel. More advanced techniques such as Movat’s pentachrome 
+stain allows for simultaneous visualization of additional com-
+ponents such as fibrin, collagen, and smooth muscle.
+Contemporary molecular biological approaches are dramati-
+cally evolving our understanding of the pathobiological under-
+pinnings of vascular remodeling and plaque formation. Flow 
+cytometry, proteomic, genomic, and metabolomic approaches 
+are ideal for dissecting out molecular and cellular changes in 
+the evolution of atherosclerosis. Novel microfluidics-based 
+single-cell transcriptional approaches add yet another layer of 
+information, being able to identify genomic responses to toxi-
+cants in delineated clusters of cells from whole organs.
+34.4.7  Biomarkers for Human Research
+34.4.7.1  Translational and Clinical Biomarkers
+The development and progression of cardiovascular patho-
+physiology and disease including atherosclerosis, left ven-
+tricular remodeling, and hypertension is multifaceted. Driving 
+these diverse pathophysiological outcomes include inflamma-
+tion, oxidative stress, fibrosis, cardiomyocyte injury, and neu-
+rohormonal regulation to highlight a few common processes. 
+Animal models are developed to share similarities with human 
+disease, but important aspects are typically missing, like the 
+chronicity of disease and multimorbidities. It is crucial there-
+fore to investigate biomarkers related to human cardiovascular 
+pathophysiology, to support investigations of safety or toxicity 
+in human populations.
+Translational and clinical biomarkers provide essential 
+and objective information that can be used to track changes 
+in the physiological (pathological, pharmacological) state of 
+single cells to whole-body models. Importantly, biomarkers 
+allow investigators to track physiological changes not only 
+from normal to diseased but also from diseased back to nor-
+mal physiology. The use of biomarkers can help to understand 
+the effects of a toxicological insult on molecular physiology, 
+the mechanism of action of therapeutic counter measures, and 
+ultimately clinical outcomes. There are many different types 
+of biomarkers that can be employed, and biomarkers can be 
+measured from single cells, tissues, and plasma to whole-body 
+measurements such as blood pressure.
+As mentioned, biomarkers consist of a diverse array of 
+markers that can identify a subtle change in molecular path-
+way to defining risk for a cardiovascular event in an individ-
+ual patient. Many biomarkers that are used in a translational 
+approach may not be validated as a clinical biomarker to assess 
+risk or therapeutic effectiveness. However, these biomarkers 
+are still useful and informative. For example, from labora-
+tory work (animal/cellular) and human studies, superoxide 
+dismutase is a known to help counter the effects of oxidative 
+stress. However, it is not clear how changing levels of superox-
+ide dismutase may either predict hard clinical outcomes (e.g., 
+death) or prevent cardiac events. In contrast, elevation of the 
+clinically validated C-reactive protein not only is predictive 
+of poor clinical outcomes but also by decreasing C-reactive 
+proteins with a therapeutic agent [i.e., HMG-CoA reductase 
+inhibitors (statins)], clinical outcomes are improved (39). For 
+the purpose of this discussion, biomarkers that are commonly 
+employed in the clinical setting are highlighted in Table 34.2, 
+and those biomarkers that are used more in a translational or 
+mechanistic aspect are highlighted in Table 34.3. In exploring 
+translational type of biomarkers (Table 34.3), these biomark-
+ers may be utilized in both the laboratory and clinical setting.
+TABLE 34.2
+Clinical Biomarkers of CVD
+Biomarker
+Description
+Clinical Relevance
+Blood pressure
+Pressure within circulatory system
+Hypertension, CVD risk factor
+B-type natriuretic peptides
+(BNP and NT-pro BNP)
+Peptide released with myocardial stretch
+Heart failure, predictive of short- and long-term outcomes 
+in HF. Help diagnosis of HF and may be used as a clinical 
+monitoring parameter
+Cardiac troponin (cTNI, cTNT)
+Cardiac regulatory proteins for myosin and actin
+Myocardial infarction (cardiomyocyte injury)
+Creatinine (serum)
+End product of muscle metabolism
+Kidney function (glomerular filtration rate marker) and 
+contributes to CV risk
+C-reactive protein 
+Acute phase protein
+Inflammation, CVD risk factor
+Cystatin C
+Serum protein filtered by the kidneys
+Kidney function (glomerular filtration rate marker) and 
+contributes to CV risk
+D-dimer
+Fibrin degradation product
+Thrombotic disease, disseminated intravascular coagulation
+Galectin-3
+-galactosidase-binding lectin
+Heart failure risk and outcome
+Hemoglobin A1C
+Glucose-bound hemoglobin
+Diabetes (measures glucose control) and may contribute to 
+CV risk in patients with diabetes
+LDL, high-density lipoproteins
+Lipoproteins
+CVD risk prediction
+Soluble ST2 (soluble 
+suppression of 
+tumorigenicity-2)
+Protein biomarker (member of the interleukin 1 
+receptor family) that may reflect wall stress, 
+inflammation, and fibrosis
+Heart failure prognosis, may or may not be useful to guide 
+medical therapy
+Uric acid
+End product of purine metabolism
+CVD risk prediction; gout; marker for oxidative stress, 
+inflammation
+Urinary albumin/creatinine ratio
+Evaluation of albuminuria
+Kidney damage (diabetes)
+
+1792
+Hayes’ Principles and Methods of Toxicology
+The search and identification of novel biomarkers is ongoing 
+in an effort to more clearly define pathological processes, aid 
+in diagnoses, and to help define therapeutic strategies for treat-
+ment. Recently, a new class of biomarkers known as non-cod-
+ing RNAs (ncRNAs) have come to the forefront. ncRNAs are 
+involved in gene regulation essential to cellular processes and 
+thus can directly affect disease development and progression. 
+The ncRNA includes microRNAs (miRNAs), long-coding 
+RNAs, and circular RNAs. Of the ncRNAs, miRNAs are most 
+well studied. Table 34.4 lists a sampling of potentially relevant 
+miRNAs as biomarkers for cardiovascular disease (CVD).
+34.5  Selected Cardiotoxicants
+This section will focus on representative chemicals and drugs, 
+which have been reported to have major cardiotoxic effects, 
+and will not describe the adverse effects of cardiovascular 
+drugs used therapeutically in the treatment of heart disease 
+and disorders. For example, these drugs, such as beta-blockers, 
+nitrates, calcium channel blockers, antihypertensive drugs, 
+antiarrhythmic drugs, and digitalis and other inotropic drugs 
+used for heart failure, are all prone to causing side effects that 
+impact cardiovascular function, including promoting risks for 
+arrhythmia. The remaining section discusses additional agents 
+with known cardiovascular toxicity, divided into subsections 
+of drugs (or self-administered substances), environmental and 
+occupational exposures, and endogenous toxicants.
+34.5.1  Drugs
+34.5.1.1  Alcoholic Cardiomyopathy
+Recognized for over 150 years, the abuse of alcohol in the 
+form of ethanol has been associated with a variety of CVDs. 
+Chronic, heavy use of alcohol may lead to nonischemic 
+dilated cardiomyopathy or alcoholic cardiomyopathy, which 
+results in decreased cardiac function and structural disease 
+(40). Clinically, a patient with alcoholic cardiomyopathy will 
+demonstrate low cardiac output, four chamber dilatation, wall 
+thinning, ventricular dysfunction, and heart failure. Alcohol 
+abuse may also be associated with arrhythmias, hypertension, 
+stroke, and sudden death.
+The pathogenesis of alcoholic cardiomyopathy is not clearly 
+understood, but several sources of research suggest that altera-
+tions in membrane stability of cardiac cells, decreased excita-
+tion/contraction coupling, and formation of reactive oxidative 
+metabolites may contribute to its pathogenesis. For example, 
+the hepatic biotransformation of ethanol by alcohol dehydro-
+genase and cytochrome P45O II EI to the toxic metabolite 
+acetaldehyde may damage the membranes of cardiomyocytes 
+(41). This reactive metabolite and other oxidative by-products 
+may cause lipid peroxidation of the cardiac cell membranes or 
+may damage cytosolic and membrane protein thiols.
+TABLE 34.4
+miRNA (tissue and circulating) and CVD
+CVD
+miRNAs
+Atherosclerosis/
+coronary artery 
+disease/myocardial 
+infarction
+miR-1, miR-21, miR-126, miR-133a, miR-145, 
+miR-146a, miR-155, miR-181b, miR-208a, 
+miR-210, miR-221, miR-222, miR-223, 
+miR-233, miR-294, miR-499
+Heart failure
+miR-1, miR-21, miR-34a, miR-92b, miR-192, 
+miR-194, miR-122, miR-126, miR-129, 
+miR-146a, miR-183, miR-195, miR-214
+Hypertension/
+endothelial 
+dysfunction
+miR-15b, miR-16, miR-26a, miR-126, miR-124, 
+miR-133, miR-143, miR-145, miR-146a, 
+miR-155, miR-221, miR-222, miR-223, miR-505
+TABLE 34.3
+Translational Biomarkers of CVD 
+Pathophysiological 
+Processes
+Biomarker
+Angiogenesis
+Angiopeptin, vascular endothelial growth factor, fibroblast growth factors, epidermal growth factor, platelet-
+derived growth factor, CD4+ T-cells
+Apoptosis
+DNA fragmentation, chromatin condensation, caspase activation, cytochrome C, Bcl-2
+Extracellular matrix turnover
+MMP-2, MMP-3, MMP-7, MMP-8, MMP-9, MMP-12, TIMP-1, TIMP-4
+Fibrosis
+CITP, Fibronectin, Galectin-3, PICP, PINP, PIIINP, Soluble ST2, TGF-μ
+In ammation
+C-reactive protein; Lp-PLA2, IL-6, IL-8, IL-10, MCP-1, Myeloperoxidase, sCD40L, TNF-−, uric acid
+Myocardial injury
+CK-MB, myoglobin, troponins (I or T)
+Neurohormonal
+Aldosterone, angiotensin, copeptin, endothelin-1, NE, renin
+Oxidative stress
+AGEs, hydrogen peroxide, isoprostanes, glutathione peroxidase, malondialdehyde; myeloperoxidase, oxidized-
+LDL, superoxide dismutase, TBARS, vitamins A, C, and E
+Remodeling
+Atrial natriuretic peptide, B-type natriuretic peptides (BNP and NT-pro BNP), Galectin-3, soluble ST2
+Thrombosis
+ICAM-1, VCAM-1, E-selectin, P-selectin
+Abbreviations: AGEs = Advanced glycation end products; CITP = C-terminal telopeptide of collagen Type I; CK-MB = Creatinine kinase MB; 
+ICAM = Intracellular adhesion molecule; MCP = Monocyte chemoattractant protein; MMP = Matrix metalloproteinase; PCIP = C-terminal pro-
+peptide of procollagen Type I; PINP = Procollagen Type 1 N-terminal propeptide; PIIINP = Procollagen Type III amino-terminal propeptide; 
+sCD40L = Soluble CD40 ligand; Soluble ST2 = Soluble suppression of tumorigenicity-2; TBARS = Thiobarbituric acid reactive substances; 
+TGF-μ = Transforming growth factor; TIMP = Tissue inhibitor of metalloproteinase; TNF-− = Tumor necrosis factor; VCAM = Vascular cell 
+adhesion molecule
+
+1793
+Cardiovascular Toxicology Methods
+The use of rats as an experimental model to investigate the 
+chronic effects of ethanol on cardiac structure and production 
+of myocardial fibrosis is difficult to reproduce the effects of 
+alcohol on the human heart because of the shorter life span of 
+the animals. However, a more recent study with a mouse model 
+of alcoholic cardiomyopathy produced heart hypertrophy and 
+fibrosis by genetically deleting the zinc-regulatory protein, 
+metallothionein (MT) (42). This study and others suggest a 
+role for zinc deficiency in the induction of alcohol-induced 
+myocardial fibrosis and the possible involvement of oxidative 
+stress in the fibrogenesis because of the antioxidant properties 
+of MT. Other possible hypotheses of alcoholic cardiomyopa-
+thy include inflammatory and immunologic changes, disrup-
+tion of calcium-mediated contractile elements, inhibition of 
+ATP formation, apoptosis, inhibition of protein synthesis, and 
+receptor alterations.
+34.5.1.2  Cocaine
+Pharmacologically, cocaine is a local anesthetic, which blocks 
+nerve impulses by reversible inhibition of Na+ channels and 
+subsequent decrease in transitory Na+ conductance in nerve 
+fibers. In addition, cocaine produces local vasoconstriction 
+as the result of the inhibition of norepinephrine (NE) reup-
+take. Cocaine may increase heart rate and blood pressure and 
+stimulate the CNS, resulting in enhanced alertness and self-
+confidence. Because of its euphoric-producing effects, cocaine 
+may be abused chronically, resulting in altered behavior and 
+addiction.
+Chronic use of cocaine may have adverse effects on the 
+heart because of its direct and indirect actions on myocardial 
+contractility, increase in cytosolic calcium and disruption of 
+NE reuptake, and subsequent stimulation of beta- and alpha-
+adrenergic receptors. The net effect of the chronic use of 
+cocaine is the production of cardiac arrhythmias, myocardial 
+ischemia, myocarditis, aortic dissection, cerebral vasocon-
+striction, and seizures. As pointed out by Kloner et al. (43), in 
+their review on cocaine effects on the heart, cocaine abuse is 
+a major risk factor for heart disease. It has been suggested that 
+cocaine may directly injure cardiomyocytes, cause cell death, 
+and result in myocardial infarction. The mechanism of cell 
+death is not clearly understood, although it is postulated that 
+coronary artery vasoconstriction, accelerated atherosclerosis, 
+and thrombus formation may be factors in the production of 
+myocardial infarction.
+34.5.1.3  Antidepressants and Antipsychotics
+Tricyclic antidepressants (TCAs) have been used since the 
+1960s for the treatment of major depressive disorder. It is now 
+well known that TCAs can have major cardiotoxic effects in 
+overdose situations, and cardiovascular side effects are well 
+documented (44). These adverse effects are linked to their 
+inhibitory actions on cardiac and vascular ion channels, anti-
+cholinergic- and quinidine-like actions, inhibition of reuptake 
+of adrenergic amines, disruption of membrane permeabil-
+ity, and direct myocardial depression. Clinical signs of TCA 
+cardiotoxicity may include sinus tachycardia, postural hypo-
+tension, QT prolongation and possible TdP arrhythmias, 
+congestive heart failure, and AV block, leading to asystole 
+and sudden death. Although TCAs are no longer considered 
+the major therapeutic course of treatment for depressive dis-
+orders, TCAs are still reported as one of the most commonly 
+prescribed drugs implicated in overdose fatalities TCAs (44).
+Several major antipsychotics have been associated with sud-
+den cardiac death, QTc prolongation, and TdP. These effects 
+by antipsychotics on the QT interval are thought to be medi-
+ated by the blockade of the delayed rectifier K+ current. Other 
+adverse side effects of the antipsychotics include tachycardia, 
+orthostatic hypertension, and certain metabolic disorders, 
+such as increased risk for weight gain, insulin resistance, and 
+type 2 diabetes.
+34.5.1.4  Androgenic–Anabolic Steroids
+These agents are divided into structural classes: nonalkyl-
+ated testosterone derivatives, such as testosterone, ester tes-
+tosterone derivatives, nandrolone, and esters of nandrolone, 
+and 17-alpha-alkylated androgenic–anabolic steroids (AASs), 
+such as fluoxymesterone, methandrostenolone, stanozolol, and 
+other related compounds. There is evidence for adverse car-
+diac effects of AASs on the heart (45), resulting in pathologi-
+cal changes such as hypertrophy, impaired diastolic function, 
+myocardial necrosis and/or apoptosis, and possible ventricu-
+lar fibrillation. Thus, the illegal use of exogenous androgens, 
+especially in high doses, may induce cardiac hypertrophy 
+and other cardiovascular problems. These actions on the 
+heart are most likely associated with receptor and genomic 
+mechanisms, but the fact that a variety of acute effects may 
+be produced in a short period of time by androgens on the 
+heart suggests that nongenomic mechanisms may be involved 
+in their cardiotoxicity.
+34.5.1.5  Antineoplastic Agents
+Anthracyclines are natural products derived from Streptomyces 
+peucetius var. caesius, with doxorubicin and daunorubicin as 
+the major ones initially isolated from the fungus. Idarubicin 
+and epirubicin are analogs of the latter two, differing only 
+slightly in structure. Daunorubicin and idarubicin are used 
+extensively in the treatment of acute leukemias, whereas doxo-
+rubicin and epirubicin are more effective against solid tumors. 
+Because of the quinone groups found as part of their chemical 
+structures, anthracyclines can generate free radicals or semi-
+quinone radical intermediates in malignant and normal tissues 
+that can react with O2 to produce superoxide anion radicals, 
+hydrogen peroxide, and hydroxyl radicals (46). Because these 
+deleterious free radicals have a prominent action on cardiac 
+tissue, cardiotoxicity is a major result of treatment of patients 
+with these analogs. A rare form of cardiotoxicity is acute or 
+subacute injury, resulting in transient arrhythmias, a peri-
+carditis-myocarditis syndrome, or acute failure of the LV. A 
+more serious adverse effect is the induction of cardiomyopa-
+thy, which is the more common form of cardiotoxicity. Third, 
+a type of toxicity may be shown years after treatment with 
+the anthracyclines: arrhythmias and late-onset ventricular 
+dysfunction.
+
+1794
+Hayes’ Principles and Methods of Toxicology
+The precise mechanism(s) of the cardiotoxicity of anthra-
+cyclines may be related to several biochemical and molecular 
+events (46):
+	
+1.	The already-mentioned formation of quinone-free 
+radicals and the generation of reactive oxygen spe-
+cies with resulting DNA and membrane damage
+	
+2.	Formation of a toxic metabolite
+	
+3.	Alteration of calcium metabolism
+	
+4.	Disruption of autophagy and apoptosis
+Other antineoplastic agents shown to have cardiotoxic actions 
+include cyclophosphamide, fluorouracil, bleomycin, cisplatin, 
+arsenic trioxide, tyrosine kinase inhibitors, and interferons. 
+The cardiotoxicity may be manifested clinically as arrhyth-
+mias, cardiomyopathies, myocardial ischemia, and other 
+toxicities.
+34.5.1.6  Nonsteroidal Anti-Inflammatory Agents
+The major NSAIDs are aspirin, propionic acid derivatives 
+(ibuprofen, naproxen), acetic acid derivatives (indomethacin), 
+selective inhibitors of COX-2 (celecoxib, etoricoxib, lumira-
+coxib), and enolic acids (piroxicam) (47). Many of these agents 
+have a variety of common and shared side effects, including 
+GI effects, platelet actions, renal toxicity, CNS actions, uterine 
+effects, hypersensitivity reactions, and cardiovascular toxici-
+ties. The main cardiotoxic effects may be myocardial infarc-
+tion, stroke, thrombosis, and closure of ductus arteriosus. It 
+has only been most recently that the cardiovascular toxic-
+ity of NSAIDs has gained much prominence with the with-
+drawal from the market of rofecoxib and valdecoxib due to 
+increased risk for serious cardiovascular adverse events. The 
+other NSAIDs on the market have also been suggested to have 
+the potential to increase the risk of heart attack and stroke. 
+The most probable explanation for the cardiotoxicity of the 
+NSAIDs is that the inhibition of COX-2 increases the forma-
+tion of thrombi and elevates blood pressure, which would them 
+enhance the potential for cardiovascular risk in humans.
+34.5.1.7  Antimicrobial Agents
+Of the macrolide antibiotics, erythromycin and clarithromy-
+cin are associated with an increased risk of TdP as a result 
+of QT prolongation (48). Telithromycin and azithromycin are 
+classified as possible risks of TdP. Fluoroquinolones were the 
+most widely prescribed class of antibiotics for many years but 
+are now used less frequently (ciprofloxacin, levofloxacin, and 
+moxifloxacin). Sparfloxacin and grepafloxacin were removed 
+from the market because of nonfatal and fatal arrhythmias 
+secondary to QT prolongation with TdP. The azole antifungals, 
+such as ketoconazole and itraconazole, have been reported to 
+cause QT prolongation and TdP, and more attention should 
+be paid to possible adverse cardiac events in patients taking 
+these antibiotics. The antimicrobial agent, pentamidine, used 
+to treat protozoal infections, has been reported to be associ-
+ated with cases of QT prolongation and TdP. Similarly, certain 
+antimalarial agents, chloroquine, hydroxychloroquine, and 
+halofantrine, have been associated with significant QT prolon-
+gation. Hydroxychloroquine has come under the microscope in 
+2020 as a proposed therapy to treat SARS-CoV-2 (49). Despite 
+extensive observational and randomized clinical trial reports, 
+it was never established to benefit outcomes for Covid-19. The 
+known QT prolongation effects for hydroxychloroquine were 
+of uncertain role in Covid-19 therapy, and it has been postu-
+lated that this may synergize with cardiovascular outcomes of 
+Covid-19 to produce adverse outcomes that offset any poten-
+tial antiviral or immunological benefit.
+34.5.2  Environmental and Occupational Toxicants
+34.5.2.1  Air Pollution
+Cardiovascular morbidity and mortality are associated with 
+numerous inhaled toxicants, both particulates and gases (50). 
+Interestingly, recent research reveals associations between 
+ambient air pollution exposure and adverse neurological 
+and developmental/gestational outcomes, with toxicological 
+research suggesting that circulating factors or particulates may 
+impact endothelial homeostasis in organ systems remote from 
+the lung. Evidence exists for both direct and indirect effects on 
+the vasculature that may impact barrier function, drive inflam-
+mation, and alter anticoagulation activity of the endothelium. 
+Controlled exposures to gold nanoparticles confirmed a fairly 
+rapid transit from inhalation to the presence of particles in the 
+blood and carotid plaques in humans (51). On the other hand, 
+pulmonary exposure to multiwalled carbon nanotubes leads to 
+rapid generation of hundreds of circulating peptides that can 
+induce endothelial inflammation ex vivo (52). Furthermore, 
+inhaled reactive gases like ozone can also cause systemic vas-
+cular effects (23). Importantly, evidence supporting these and 
+related mechanisms of action do not suggest any pathways to 
+be mutually exclusive. It is also important to note that many 
+seemingly non-cardiovascular outcomes reported in associa-
+tion with air pollution exposures, including adverse birth/ges-
+tational outcomes, neurodevelopmental and neurodegenerative 
+diseases, may require intermediate effects of the vascular sys-
+tems of relevant target organs to manifest the indirect toxicity 
+(53–55).
+34.5.2.2  Heavy Metals
+Cardiovascular health effects from metal toxicants are becom-
+ing increasingly recognized in epidemiological and toxico-
+logical studies. Arsenic, for one, has been shown to promote 
+atherosclerosis, potentially through the oxidative impacts on 
+atheroma components, including LDL cholesterol (38, 56, 57). 
+Similar epidemiological and toxicological outcomes exist for 
+cadmium (58). While a number of epidemiological studies 
+have shown associations between urinary or circulating met-
+als content and CVD, this is overall an understudied area (59). 
+Molecular mechanisms of toxicity for heavy metals are quite 
+well documented, including the generation of reactive oxygen 
+species, inhibition of DNA repair pathways, and hapten-related 
+behavior; thus, investigations using well-defined models of 
+cardiovascular risk should provide deep insights into the role 
+of heavy metals in promoting CVD.
+
+1795
+Cardiovascular Toxicology Methods
+34.5.2.3  Radiation
+Radiation exposure most often arises from cancer therapy, but 
+can also occur from unintentional exposures from nuclear plant 
+accidents or nuclear weapons. Whole-body exposure to ioniz-
+ing radiation has a specific effect on (primarily microvascular) 
+endothelial cells that can induce a range of outcomes depend-
+ing on the damage (60). Generation of DNA and protein dam-
+age and reactive oxygen species can promote responses such 
+as expression of adhesion molecules and cytokines, loss of 
+barrier integrity, mitochondrial damage, and programed cell 
+death. Survivors of such injury may be predisposed to athero-
+sclerosis and vascular fibrosis. Early vascular effects resemble 
+acute inflammation, as described above, but later effects may 
+follow 2–6 weeks afterwards that are often due to an impair-
+ment of healing pathways, especially in terms of loss of hema-
+topoietic and endothelial progenitor cell availability from the 
+damaged bone marrow.
+34.5.2.4  Tobacco Smoke and Electronic Cigarettes
+Hundreds of chemicals – gases and particulates – make up 
+tobacco smoke, and collectively drive three major outcomes in 
+heavy users: lung cancer, chronic obstructive pulmonary dis-
+ease, and heart disease. Many of the components of tobacco 
+smoke are independently associated with cardiovascular tox-
+icity, most notoriously carbon monoxide (61, 62). Smoking 
+as a habit is associated with the development of atheroscle-
+rosis, hypertension, heart failure, myocardial infarction, and 
+arrhythmia (63–65). Benzene is a key carcinogen in cigarette 
+smoke and certain occupational environments, and limited 
+epidemiological data suggests that benzene may be associated 
+with hypertension and heart failure (66).
+While e-cigarettes have been developed as a safer alternative 
+to conventional tobacco smoking, evidence still points to risks 
+for short- and long-term cardiovascular risks (67). The nico-
+tine component of e-cigarettes causes short-term increases in 
+vascular stiffness and blood pressure (68, 69) and limits flow-
+mediated vasodilation (70). Nicotine has also been shown to 
+prolong QT interval in Kcnq∞/∞ mice (71) and independently 
+exacerbate cardiac remodeling in hypertensive models (27). 
+Other chemicals present in e-cigarette vapor include alde-
+hydes, metals, and tobacco-related contaminants, which may 
+all promote some degree of cardiovascular response (72).
+34.5.2.5  Monocrotaline
+A contaminant of the Crotalaria spectabilis plant, mono-
+crotaline, was first identified as a toxin in grazing cattle who 
+developed cardiac and liver disease. The molecule is bioac-
+tivated in the liver to a pyrrolic intermediate that is highly 
+reactive and toxic to endothelial cells, primarily, due to the 
+proximal relationship of the endothelium with the circula-
+tion. Monocrotaline has become a widely used model for 
+pulmonary hypertension in rodents. When injected intraperi-
+toneally as a bolus, the high content leaving the liver through 
+the venous circulation has a profound toxicity to endothelial 
+cells of the subsequent capillary bed in the lungs. Endothelial 
+toxicity leads to the development of neointimal thickening in 
+pulmonary arteries, which over a 10–14-day period increases 
+pulmonary vascular resistance and forces dramatic right ven-
+tricular hypertrophy to compensate (Figure 34.6) (30, 73). In 
+3–5 weeks, this right heart growth can lead to cor pulmonale, 
+or right heart failure (74).
+34.5.3  Endogenous Toxicants
+As a final category, there are numerous endogenously derived 
+chemicals that can promote significant cardiovascular pathol-
+ogy. Typically, these are by-products of some other disorder 
+and may contribute to a subsequent morbidity. It is important 
+to note that many diseases lead to cardiovascular outcomes, 
+such as chronic kidney and liver disease, obstructive sleep 
+apnea, and chronic obstructive pulmonary disease.
+34.5.3.1  Cholesterol/Crystals
+Arguably the toxicant with the greatest impact on human 
+health, excess cholesterol promotes atherosclerosis and ulti-
+mately coronary artery disease and other related pathologies. 
+Cholesterol is carried by lipoprotein particles and as LDL, 
+which can translocate into the wall of great vessels. In the 
+interstitium of the aorta, coronaries, and carotids, the LDL 
+can be oxidized (to oxLDL), which triggers the recruitment 
+of inflammatory cells into the vascular wall by triggering sig-
+naling through scavenger and pattern recognition receptors. 
+Macrophage uptake of LDL/oxLDL leads to transformation 
+into foam cells, which are further prone to inflammatory sig-
+naling. In addition, cholesterol in such high quantities can pre-
+cipitate into crystal form in lysosomes, leading to lysosomal 
+rupture and release of cathepsin B and triggering inflamma-
+some responses, along with caspase 8 induction and apoptosis 
+(75). This process is thought to contribute to plaque necrosis 
+and instability, which can lead to rupture and fatal coagulative 
+events.
+FIGURE 34.6  Thallium SPECT-CT imaging of the ventricular walls 
+in cross-section during diastole for rats before and 6 weeks after an intra-
+peritoneal dose of monocrotaline (50 mg/kg). The thin-walled RV is 
+barely detectable in controls and at baseline, but is dramatically enlarged 
+6 weeks after dosing [Reproduced from (73), as the author’s original 
+work].
+
+1796
+Hayes’ Principles and Methods of Toxicology
+34.5.3.2  Gut Microbiome Factors
+Interesting data has emerged that small molecules derived from 
+the gut microbiome are associated with atherosclerosis and 
+hypertension. A specific example, trimethylamine-N-oxide 
+can negatively affect platelet reactivity, vascular tone, and 
+lipid metabolism (76). Gut exposures to various xenobiotics 
+have been shown to not only alter gut microbiome composition 
+but also lead to changes in circulating lipids and metabolites 
+that are proatherogenic in nature (77). Further research in this 
+area is needed to understand the interplay between the gut 
+flora and cardiovascular health.
+34.5.3.3  Uremic Toxins
+When kidneys fail, a buildup of numerous circulating 
+small molecule toxins occurs (78). These molecules include 
+p-cresyl sulfate, indoxyl sulfate, and acrolein. With ele-
+vated levels in direct contact with endothelial cells, numer-
+ous inflammatory, calcification, and constrictive pathways 
+can be triggered. Specifically, AhR, NFkB, and MAPK 
+signaling pathways can be induced in the endothelial cells 
+leading to upregulation of pro-coagulant proteins, adhesion 
+molecules, and cytokines (79). Atherosclerosis and coro-
+nary artery disease are major complications in chronic kid-
+ney disease, and these uremic toxins are believed to play a 
+major role. In a parallel manner, some volatile organic com-
+pounds can build up in the circulation in respiratory dis-
+orders; the clinical relevance of such compounds remains 
+unknown.
+34.6  Questions
+	 34.1  What are some of the essential characteristics of 
+chemicals that make them selective cardiac and 
+vascular toxicants?
+	 34.2  Why is the heart relatively protected from toxicants?
+	 34.3  How can toxicants impact the cardiomyocyte mono-
+phasic action potential and how can that lead to 
+arrhythmia?
+	 34.4  How can toxicants exacerbate atherosclerosis?
+REFERENCES
+	
+1.	 Kumarswamy R, Thum T. Non-coding RNAs in cardiac 
+remodeling and heart failure. Circ Res. 2013;113(6):676–689.
+	
+2.	 Gottlieb RA, Burleson KO, Kloner RA, Babior BM, Engler 
+RL. Reperfusion injury induces apoptosis in rabbit cardio-
+myocytes. J Clin Invest. 1994;94(4):1621–1628.
+	
+3.	 Olivetti G, Abbi R, Quaini F, Kajstura J, Cheng W, Nitahara 
+JA, et al. Apoptosis in the failing human heart. N Engl J 
+Med. 1997;336(16):1131–1141.
+	
+4.	 Kang YJ, Zhou ZX, Wang GW, Buridi A, Klein JB. 
+Suppression by metallothionein of doxorubicin-induced 
+cardiomyocyte apoptosis through inhibition of p38 mito-
+gen-activated protein kinases. J Biol Chem. 2000;275(18): 
+13690–13698.
+	
+5.	 Wang GW, Klein JB, Kang YJ. Metallothionein inhibits 
+doxorubicin-induced mitochondrial cytochrome c release 
+and caspase-3 activation in cardiomyocytes. J Pharmacol 
+Exp Ther. 2001;298(2):461–468.
+	
+6.	 Chen CY, Zhang SL, Liu ZY, Tian Y, Sun Q. Cadmium tox-
+icity induces ER stress and apoptosis via impairing energy 
+homoeostasis in cardiomyocytes. Biosci Rep. 2015;35(3):1–8.
+	
+7.	 Kang YJ, Zhou ZX, Wu H, Wang GW, Saari JT, Klein JB. 
+Metallothionein inhibits myocardial apoptosis in copper-
+deficient mice: role of atrial natriuretic peptide. Lab Invest. 
+2000;80(5):745–757.
+	
+8.	 Kajstura J, Cheng W, Reiss K, Clark WA, Sonnenblick EH, 
+Krajewski S, et al. Apoptotic and necrotic myocyte cell 
+deaths are independent contributing variables of infarct size 
+in rats. Lab Invest. 1996;74(1):86–107.
+	
+9.	 Eliot RS, Clayton FC, Pieper GM, Todd GL. Influence of 
+environmental stress on pathogenesis of sudden cardiac 
+death. Fed Proc. 1977;36(5):1719–1724.
+	 10.	 Yaoita H, Ogawa K, Maehara K, Maruyama Y. Apoptosis in 
+relevant clinical situations: contribution of apoptosis in myo-
+cardial infarction. Cardiovasc Res. 2000;45(3):630–641.
+	 11.	 Mishra PK, Adameova A, Hill JA, Baines CP, Kang 
+PM, Downey JM, et al. Guidelines for evaluating myo-
+cardial cell death. Am J Physiol Heart Circ Physiol. 
+2019;317(5):H891–H922.
+	 12.	 Leist M, Single B, Castoldi AF, Kuhnle S, Nicotera P. 
+Intracellular adenosine triphosphate (ATP) concentration: a 
+switch in the decision between apoptosis and necrosis. The 
+Journal of experimental medicine. 1997;185(8):1481–1486.
+	 13.	 Carll AP, Lust RM, Hazari MS, Perez CM, Krantz QT, King 
+CJ, et al. Diesel exhaust inhalation increases cardiac output, 
+bradyarrhythmias, and parasympathetic tone in aged heart 
+failure-prone rats. Toxicol Sci. 2013;131(2):583–595.
+	 14.	 Ku MC, Waiczies S, Niendorf T, Pohlmann A. Assessment 
+of blood brain barrier leakage with gadolinium-enhanced 
+MRI. Methods Mol Biol. 2018;1718:395–408.
+	 15.	 Watkinson WP, Campen MJ, Costa DL. Cardiac arrhyth-
+mia induction after exposure to residual oil fly ash particles 
+in a rodent model of pulmonary hypertension. Toxicol Sci. 
+1998;41(2):209–216.
+	 16.	 Rowan WH, 3rd, Campen MJ, Wichers LB, Watkinson WP. 
+Heart rate variability in rodents: uses and caveats in toxico-
+logical studies. Cardiovasc Toxicol. 2007;7(1):28–51.
+	 17.	 Campen MJ, Tagaito Y, Jenkins TP, Balbir A, O’Donnell 
+CP. Heart rate variability responses to hypoxic and hyper-
+capnic exposures in different mouse strains. J Appl Physiol. 
+2005;99(3):807–813.
+	 18.	 Campen MJ, Shimoda LA, O’Donnell CP. Acute and chronic 
+cardiovascular effects of intermittent hypoxia in C57BL/6J 
+mice. J Appl Physiol (1985). 2005;99(5):2028–2035.
+	 19.	 Olejnickova V, Novakova M, Provaznik I. Isolated heart 
+models: cardiovascular system studies and technological 
+advances. Med Biol Eng Comput. 2015;53(7):669–678.
+	 20.	 Simkhovich BZ, Marjoram P, Kleinman MT, Kloner 
+RA. Direct and acute cardiotoxicity of ultrafine particles 
+in young adult and old rat hearts. Basic Res Cardiol. 
+2007;102(6):467–475.
+	 21.	 Nurkiewicz TR, Porter DW, Barger M, Millecchia L, Rao 
+KM, Marvar PJ, et al. Systemic microvascular dysfunction 
+and inflammation after pulmonary particulate matter expo-
+sure. Environ Health Perspect. 2006;114(3):412–419.
+
+1797
+Cardiovascular Toxicology Methods
+	 22.	 Paffett ML, Zychowski KE, Sheppard L, Robertson S, 
+Weaver JM, Lucas SN, et al. Ozone inhalation impairs 
+coronary artery dilation via intracellular oxidative stress: 
+evidence for serum-borne factors as drivers of systemic tox-
+icity. Toxicol Sci. 2015;146(2):244–253.
+	 23.	 Robertson S, Colombo ES, Lucas SN, Hall PR, Febbraio M, 
+Paffett ML, et al. CD36 mediates endothelial dysfunction 
+downstream of circulating factors induced by O3 exposure. 
+Toxicol Sci. 2013;134(2):304–311.
+	 24.	 Strauss DG, Gintant G, Li Z, Wu W, Blinova K, Vicente J, 
+et al. Comprehensive in vitro proarrhythmia assay (CiPA) 
+update from a Cardiac Safety Research Consortium / Health 
+and Environmental Sciences Institute / FDA meeting. Ther 
+Innov Regul Sci. 2019;53(4):519–525.
+	 25.	 Blinova K, Dang Q, Millard D, Smith G, Pierson J, 
+Guo L, et al. International multisite study of human-
+induced pluripotent stem cell-derived cardiomyocytes 
+for drug proarrhythmic potential assessment. Cell Rep. 
+2018;24(13):3582–3592.
+	 26.	 Wang T, Lang GD, Moreno-Vinasco L, Huang Y, 
+Goonewardena SN, Peng YJ, et al. Particulate matter 
+induces cardiac arrhythmias via dysregulation of carotid 
+body sensitivity and cardiac sodium channels. Am J Respir 
+Cell Mol Biol. 2012;46(4):524–531.
+	 27.	 Colombo ES, Davis J, Makvandi M, Aragon M, Lucas SN, 
+Paffett ML, et al. Effects of nicotine on cardiovascular 
+remodeling in a mouse model of systemic hypertension. 
+Cardiovasc Toxicol. 2013;13(4):364–369.
+	 28.	 Liu Y, Zhang W, Hu T, Ni J, Xu B, Huang W. A doxoru-
+bicin-induced murine model of dilated cardiomyopathy in 
+vivo. J Vis Exp. 2020(159). DOI:10.3791/61158
+	 29.	 Carll AP, Willis MS, Lust RM, Costa DL, Farraj AK. 
+Merits of non-invasive rat models of left ventricular heart 
+failure. Cardiovasc Toxicol. 2011;11(2):91–112.
+	 30.	 Schultze AE, Wagner JG, White SM, Roth RA. Early indi-
+cations of monocrotaline pyrrole-induced lung injury in 
+rats. Toxicol Appl Pharmacol. 1991;109(1):41–50.
+	 31.	 Zhang SH, Reddick RL, Piedrahita JA, Maeda N. 
+Spontaneous hypercholesterolemia and arterial lesions in 
+mice lacking apolipoprotein E. Science. 1992;258(5081): 
+468–471.
+	 32.	 Plump AS, Smith JD, Hayek T, Aalto-Setala K, Walsh 
+A, Verstuyft JG, et al. Severe hypercholesterolemia and 
+atherosclerosis in apolipoprotein E-deficient mice cre-
+ated by homologous recombination in ES cells. Cell. 
+1992;71(2):343–353.
+	 33.	 Sun Q, Wang A, Jin X, Natanzon A, Duquaine D, Brook 
+RD, et al. Long-term air pollution exposure and accelera-
+tion of atherosclerosis and vascular inflammation in an ani-
+mal model. JAMA. 2005;294(23):3003–3010.
+	 34.	 Zhu BQ, Sun YP, Sievers RE, Isenberg WM, Glantz SA, 
+Parmley WW. Passive smoking increases experimental ath-
+erosclerosis in cholesterol-fed rabbits. J Am Coll Cardiol. 
+1993;21(1):225–232.
+	 35.	 Suwa T, Hogg JC, Quinlan KB, Ohgami A, Vincent R, van 
+Eeden SF. Particulate air pollution induces progression of 
+atherosclerosis. J Am Coll Cardiol. 2002;39(6):935–942.
+	 36.	 Zychowski KE, Tyler CRS, Sanchez B, Harmon M, Liu J, 
+Irshad H, et al. Vehicular particulate matter (PM) charac-
+teristics impact vascular outcomes following inhalation. 
+Cardiovasc Toxicol. 2020;20(3):211–221.
+	 37.	 Campen MJ, Lund AK, Knuckles TL, Conklin DJ, Bishop 
+B, Young D, et al. Inhaled diesel emissions alter atheroscle-
+rotic plaque composition in ApoE(-/-) mice. Toxicol Appl 
+Pharmacol. 2010;242(3):310–317.
+	 38.	 Makhani K, Chiavatti C, Plourde D, Negro Silva LF, 
+Lemaire M, Lemarie CA, et al. Using the apolipopro-
+tein e knock-out mouse model to define atherosclerotic 
+plaque changes induced by low dose arsenic. Toxicol Sci. 
+2018;166(1):213–218.
+	 39.	 Ridker PM, Danielson E, Fonseca FA, Genest J, Gotto AM, 
+Jr., Kastelein JJ, et al. Rosuvastatin to prevent vascular 
+events in men and women with elevated C-reactive protein. 
+N Engl J Med. 2008;359(21):2195–2207.
+	 40.	 George A, Figueredo VM. Alcoholic cardiomyopathy: a 
+review. J Card Fail. 2011;17(10):844–849.
+	 41.	 Cai L. Alcoholic cardiomyopathy: acetaldehyde, insu-
+lin insensitization and ER stress. J Mol Cell Cardiol. 
+2008;44(6):979–982.
+	 42.	 Wang L, Zhou Z, Saari JT, Kang YJ. Alcohol-induced myo-
+cardial fibrosis in metallothionein-null mice: prevention by 
+zinc supplementation. Am J Pathol. 2005;167(2):337–344.
+	 43.	 Kloner RA, Hale S, Alker K, Rezkalla S. The effects of 
+acute and chronic cocaine use on the heart. Circulation. 
+1992;85(2):407–419.
+	 44.	 Thanacoody HK, Thomas SH. Tricyclic antidepressant poison-
+ing: cardiovascular toxicity. Toxicol Rev. 2005;24(3):205–214.
+	 45.	 Angell P, Chester N, Green D, Somauroo J, Whyte G, 
+George K. Anabolic steroids and cardiovascular risk. 
+Sports Med. 2012;42(2):119–134.
+	 46.	 Wallace KB, Sardao VA, Oliveira PJ. Mitochondrial deter-
+minants of doxorubicin-induced cardiomyopathy. Circ Res. 
+2020;126(7):926–941.
+	 47.	 Arora M, Choudhary S, Singh PK, Sapra B, Silakari O. 
+Structural investigation on the selective COX-2 inhibitors 
+mediated cardiotoxicity: a review. Life Sci. 2020;251:117631.
+	 48.	 Owens RC, Jr., Nolin TD. Antimicrobial-associated QT 
+interval prolongation: pointes of interest. Clin Infect Dis. 
+2006;43(12):1603–1611.
+	 49.	 Bansal P, Goyal A, Cusick At, Lahan S, Dhaliwal HS, Bhyan 
+P, et al. Hydroxychloroquine: a comprehensive review and 
+its controversial role in coronavirus disease 2019. Ann Med. 
+2021;53(1):117–134.
+	 50.	 Campen MJ, Lund A, Rosenfeld M. Mechanisms linking 
+traffic-related air pollution and atherosclerosis. Curr Opin 
+Pulm Med. 2012;18(2):155–160.
+	 51.	 Miller MR, Raftis JB, Langrish JP, McLean SG, Samutrtai 
+P, Connell SP, et al. Inhaled nanoparticles accumulate at 
+sites of vascular disease. ACS Nano. 2017;11(5):4542–4552.
+	 52.	 Aragon MJ, Topper L, Tyler CR, Sanchez B, Zychowski K, 
+Young T, et al. Serum-borne bioactivity caused by pulmo-
+nary multiwalled carbon nanotubes induces neuroinflam-
+mation via blood-brain barrier impairment. Proc Natl Acad 
+Sci U S A. 2017;114(10):E1968–E1976.
+	 53.	 Younan D, Petkus AJ, Widaman KF, Wang X, Casanova R, 
+Espeland MA, et al. Particulate matter and episodic mem-
+ory decline mediated by early neuroanatomic biomarkers of 
+Alzheimer’s disease. Brain. 2020;143(1):289–302.
+	 54.	 Garcia M, Salazar R, Wilson T, Lucas S, Herbert G, Young 
+T, et al. Early gestational exposure to inhaled ozone impairs 
+maternal uterine artery and cardiac function. Toxicol Sci. 
+2021;179(1):121–134.
+
+1798
+Hayes’ Principles and Methods of Toxicology
+	 55.	 Volk HE, Lurmann F, Penfold B, Hertz-Picciotto I, 
+McConnell R. Traffic-related air pollution, particulate mat-
+ter, and autism. JAMA Psychiatry. 2013;70(1):71–77.
+	 56.	 Srivastava S, Vladykovskaya EN, Haberzettl P, Sithu SD, 
+D’Souza SE, States JC. Arsenic exacerbates atheroscle-
+rotic lesion formation and inflammation in ApoE-/- mice. 
+Toxicol Appl Pharmacol. 2009;241(1):90–100.
+	 57.	 Harmon ME, Lewis J, Miller C, Hoover J, Ali AS, Shuey 
+C, et al. Arsenic association with circulating oxidized low-
+density lipoprotein in a Native American community. J 
+Toxicol Environ Health A. 2018;81(13):535–548.
+	 58.	 Messner B, Knoflach M, Seubert A, Ritsch A, Pfaller K, 
+Henderson B, et al. Cadmium is a novel and indepen-
+dent risk factor for early atherosclerosis mechanisms 
+and in vivo relevance. Arterioscler Thromb Vasc Biol. 
+2009;29(9):1392–1398.
+	 59.	 Nigra AE, Ruiz-Hernandez A, Redon J, Navas-Acien A, 
+Tellez-Plaza M. Environmental metals and cardiovascular 
+disease in adults: a systematic review beyond lead and cad-
+mium. Curr Environ Health Rep. 2016;3(4):416–433.
+	 60.	 Wijerathne H, Langston JC, Yang Q, Sun S, Miyamoto 
+C, Kilpatrick LE, et al. Mechanisms of radiation-induced 
+endothelium damage: Emerging models and technologies. 
+Radiother Oncol. 2021;158:21–32.
+	 61.	 Allred EN, Bleecker ER, Chaitman BR, Dahms TE, 
+Gottlieb SO, Hackney JD, et al. Short-term effects of 
+carbon monoxide exposure on the exercise performance 
+of subjects with coronary artery disease. N Engl J Med. 
+1989;321(21):1426–1432.
+	 62.	 Lee KK, Spath N, Miller MR, Mills NL, Shah ASV. Short-
+term exposure to carbon monoxide and myocardial infarc-
+tion: a systematic review and meta-analysis. Environ Int. 
+2020;143:105901.
+	 63.	 Aune D, Schlesinger S, Norat T, Riboli E. Tobacco smok-
+ing and the risk of heart failure: a systematic review and 
+meta-analysis of prospective studies. Eur J Prev Cardiol. 
+2019;26(3):279–288.
+	 64.	 Dikalov S, Itani H, Richmond B, Vergeade A, Rahman 
+SMJ, Boutaud O, et al. Tobacco smoking induces cardio-
+vascular mitochondrial oxidative stress, promotes endothe-
+lial dysfunction, and enhances hypertension. Am J Physiol 
+Heart Circ Physiol. 2019;316(3):H639–H646.
+	 65.	 D’Alessandro A, Boeckelmann I, Hammwhoner M, Goette 
+A. Nicotine, cigarette smoking and cardiac arrhythmia: an 
+overview. Eur J Prev Cardiol. 2012;19(3):297–305.
+	 66.	 Bahadar H, Mostafalou S, Abdollahi M. Current under-
+standings and perspectives on non-cancer health effects 
+of benzene: a global concern. Toxicol Appl Pharmacol. 
+2014;276(2):83–94.
+	 67.	 Keith R, Bhatnagar A. Cardiorespiratory and immuno-
+logic effects of electronic cigarettes. Curr Addict Rep. 
+2021;8(2):336–346.
+	 68.	 Antoniewicz L, Brynedal A, Hedman L, Lundback M, 
+Bosson JA. Acute effects of electronic cigarette inhalation 
+on the vasculature and the conducting airways. Cardiovasc 
+Toxicol. 2019;19(5):441–450.
+	 69.	 Chaumont M, de Becker B, Zaher W, Culie A, Deprez 
+G, Melot C, et al. Differential effects of E-cigarette on 
+microvascular endothelial function, arterial stiffness and 
+oxidative stress: a randomized crossover trial. Sci Rep. 
+2018;8(1):10378.
+	 70.	 Caporale A, Langham MC, Guo W, Johncola A, Chatterjee 
+S, Wehrli FW. Acute effects of electronic cigarette aero-
+sol inhalation on vascular function detected at quantitative 
+MRI. Radiology. 2019;293(1):97–106.
+	 71.	 Tosaka T, Casimiro MC, Rong Q, Tella S, Oh M, Katchman 
+AN, et al. Nicotine induces a long QT phenotype in 
+Kcnq1-deficient mouse hearts. J Pharmacol Exp Ther. 
+2003;306(3):980–987.
+	 72.	 Lynch J, Jin L, Richardson A, Conklin DJ. Tobacco smoke 
+and endothelial dysfunction: role of aldehydes? Curr 
+Hypertens Rep. 2020;22(9):73.
+	 73.	 Paffett ML, Hesterman J, Candelaria G, Lucas S, Anderson 
+T, Irwin D, et al. Longitudinal in vivo SPECT/CT imaging 
+reveals morphological changes and cardiopulmonary apop-
+tosis in a rodent model of pulmonary arterial hypertension. 
+PLoS One. 2012;7(7):e40910.
+	 74.	 Stenmark KR, Meyrick B, Galie N, Mooi WJ, McMurtry 
+IF. Animal models of pulmonary arterial hypertension: 
+the hope for etiological discovery and pharmacological 
+cure. American Journal of Physiology Lung Cellular and 
+Molecular Physiology. 2009;297(6):L1013–L1032.
+	 75.	 Nidorf SM, Fiolet A, Abela GS. Viewing atherosclerosis 
+through a crystal lens: How the evolving structure of cho-
+lesterol crystals in atherosclerotic plaque alters its stability. 
+J Clin Lipidol. 2020;14(5):619–630.
+	 76.	 Thomas MS, Fernandez ML. Trimethylamine N-Oxide 
+(TMAO), diet and cardiovascular disease. Curr Atheroscler 
+Rep. 2021;23(4):12.
+	 77.	 Li R, Yang J, Saffari A, Jacobs J, Baek KI, Hough G, et al. 
+Ambient ultrafine particle ingestion alters gut microbiota 
+in association with increased atherogenic lipid metabolites. 
+Sci Rep. 2017;7:42906.
+	 78.	 Wojtaszek E, Oldakowska-Jedynak U, Kwiatkowska M, 
+Glogowski T, Malyszko J. Uremic toxins, oxidative stress, 
+atherosclerosis in chronic kidney disease, and kidney trans-
+plantation. Oxid Med Cell Longev. 2021;2021:6651367.
+	 79.	 Cunha RSD, Santos AF, Barreto FC, Stinghen AEM. How 
+do uremic toxins affect the endothelium? Toxins (Basel). 
+2020;12(6):1–24.

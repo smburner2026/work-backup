@@ -1,0 +1,3117 @@
+# 37 Assessment of Male Reproductive Toxicity
+# Hayes' Principles and Methods of Toxicology, 7th Edition
+# Pages: 1928-1955
+# Unit: Volume II
+
+1869
+37
+Assessment of Male Reproductive Toxicity1
+Natasha R. Catlin, Jon C. Cook, and Gregg D. Cappon
+37.1  Introduction
+Male reproduction is a complex process with the simple goal of 
+producing and delivering sperm to form offspring. Our current 
+state of knowledge about the physiological, biochemical, and 
+molecular orchestration of reproduction is captured in many excel-
+lent reference volumes.1–3 Male reproductive toxicology is the study 
+of the potential effects of xenobiotics on the structure and func-
+tion of the male reproductive system. Xenobiotics can disrupt the 
+male reproductive process at numerous sites, including hormonal 
+interactions in the hypothalamic–pituitary–testicular (HPT) axis, 
+spermatogenesis, various cell types within the testes, the post-tes-
+ticular ductal system (efferent ducts, epididymis, and vas deferens), 
+the accessory sex glands, or mating behavior. Therefore, assess-
+ing chemicals and drugs for the potential to cause male reproduc-
+tive toxicity involves multiple disciplines and includes data from 
+experimental, epidemiological, and mechanistic studies.
+Testicular toxicity is a relatively infrequent but persistent 
+problem in pharmaceutical development.4,5 In some indica-
+tions, such as oncology, toxicity to male fertility is an unde-
+sirable but often unavoidable side effect, that in severe cases 
+CONTENTS
+37.1	 Introduction����������������������������������������������������������������������������������������������������������������������������������������������������������������������1869
+37.2	 Biology and Toxicology of the Male Reproductive Tract�������������������������������������������������������������������������������������������������1870
+37.2.1	 Male Reproductive Tract Development and Developmental Toxicity�����������������������������������������������������������������1870
+37.2.2	 Pubertal Male Reproductive Tract�����������������������������������������������������������������������������������������������������������������������1871
+37.2.3	 Adult Male Reproductive Tract����������������������������������������������������������������������������������������������������������������������������1871
+37.2.4	 Aging Adult Male Reproductive Tract�����������������������������������������������������������������������������������������������������������������1872
+37.3	 In Vivo Endpoints of Male Reproductive Toxicity������������������������������������������������������������������������������������������������������������1873
+37.3.1	 Reproductive Organ Weights��������������������������������������������������������������������������������������������������������������������������������1873
+37.3.2	 Histopathological Evaluation�������������������������������������������������������������������������������������������������������������������������������1873
+37.3.3	 Sperm Evaluations and Mechanistic Endpoints���������������������������������������������������������������������������������������������������1875
+37.3.3.1	 Sperm Number��������������������������������������������������������������������������������������������������������������������������������������1875
+37.3.3.2	 Sperm Morphology�������������������������������������������������������������������������������������������������������������������������������1875
+37.3.3.3	 Sperm Motility��������������������������������������������������������������������������������������������������������������������������������������1876
+37.3.3.4	 Sperm Mechanistic Endpoints��������������������������������������������������������������������������������������������������������������1876
+37.3.4	 Functional Fertility Assessments�������������������������������������������������������������������������������������������������������������������������1876
+37.4	 Testing Protocols��������������������������������������������������������������������������������������������������������������������������������������������������������������1877
+37.4.1	 Pharmaceuticals���������������������������������������������������������������������������������������������������������������������������������������������������1877
+37.4.2	 Industrial Chemicals and Pesticides���������������������������������������������������������������������������������������������������������������������1878
+37.4.3	 Other Nonclinical Studies������������������������������������������������������������������������������������������������������������������������������������1879
+37.4.4	 Study Design Considerations�������������������������������������������������������������������������������������������������������������������������������1879
+37.5	 Tools for Follow-Up Mechanistic Assessments����������������������������������������������������������������������������������������������������������������1879
+37.5.1	 Seminiferous Tubule Culture������������������������������������������������������������������������������������������������������������������������������1880
+37.5.2	 Epididymal Cells��������������������������������������������������������������������������������������������������������������������������������������������������1881
+37.5.3	 Assays to Identify Endocrine-Disrupting Compounds (EDCs)���������������������������������������������������������������������������1881
+37.5.3.1	 Tier 1 In Vivo and In Vitro Screens�����������������������������������������������������������������������������������������������������1882
+37.5.3.2	 Hypothesis-based Testing��������������������������������������������������������������������������������������������������������������������1883
+37.5.4	 Leydig Cells���������������������������������������������������������������������������������������������������������������������������������������������������������1883
+37.6	 Paternally Mediated Effects on Offspring�����������������������������������������������������������������������������������������������������������������������1886
+37.7	 Evaluating Male Reproductive Safety in Humans�����������������������������������������������������������������������������������������������������������1887
+37.8	 Future of Male Reproductive Toxicology������������������������������������������������������������������������������������������������������������������������1887
+37.9	 Questions��������������������������������������������������������������������������������������������������������������������������������������������������������������������������1888
+Acknowledgments����������������������������������������������������������������������������������������������������������������������������������������������������������������������1888
+Note��������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������1888
+References����������������������������������������������������������������������������������������������������������������������������������������������������������������������������������1888
+DOI: 10.1201/9781003390008-41
+
+1870
+Hayes’ Principles and Methods of Toxicology
+may require cryopreservation of semen to preserve future 
+reproductive potential before the commencement of cancer 
+treatment.6,7 However, for other indications, identification of 
+male reproductive toxicity late in development can incur sig-
+nificant investment costs, either by stopping development of 
+the compound or by requiring conduct of a human clinical trial 
+to assess testicular toxicity. In one pharmaceutical company 
+survey, the predictive value of experimental animal findings 
+for adverse effects in clinical trials was 8–14%, depending 
+on whether the studies in men used semen analysis, testicular 
+histopathology, or only reproductive hormone measurements.8 
+This lack of human translation for traditional measures of 
+male reproduction is a challenge for toxicologists given the 
+current lack of predictive screening assays or biomarkers.9,10
+In contrast to pharmaceuticals where there is direct human 
+administration with a proven medicinal benefit, industrial 
+chemicals and pesticides often represent an uncontrolled envi-
+ronmental exposure. Concerns about human male reproductive 
+health effects of environmental exposure have been elevated by 
+reports of downward secular trends in sperm counts, as well as 
+increases in incidences of male reproductive tract malforma-
+tions (e.g., hypospadias, cryptorchidism), and testicular cancer 
+observed during the latter half of the 20th century that has con-
+tinued into the 21st century.11–18 Of particular relevance regard-
+ing animal toxicology studies is the growing awareness that 
+exposures to chemicals that mimic or block endocrine signal-
+ing during fetal development can significantly alter male repro-
+ductive organ and tract development. Therefore, assessment of 
+the potential impact of environmental chemical exposures at all 
+periods of the life cycle, not just on adults, is needed.
+Ascertaining the relationships between environmental 
+exposures and male reproductive risks for an informed risk 
+assessment process requires not only a sufficient amount and 
+type of experimental data but also a systematic approach to 
+evaluating those data. The approach utilized by the U.S. 
+Environmental Protection Agency (EPA) and Organisation for 
+Economic Co-operation and Development (OECD) for male 
+reproductive toxicity risk assessment will be contrasted with 
+International Council for Harmonisation (ICH) S5(R3) stud-
+ies used in drug development in this chapter, with particular 
+emphasis on a critical analysis of the strategies and endpoints 
+that are available for male reproductive risk assessment. The 
+ultimate safety assessment for testicular toxicity comes from 
+human observations. It has been reported that approximately 
+17% (235 compounds) of the single-ingredient, Food and Drug 
+Administration (FDA)-approved drugs had an adverse effect 
+on spermatogenesis in at least one animal model, of these 
+235 compounds 93 also evaluated human sperm. Positive 
+sperm effects were observed for 60 of the 93 drugs, result-
+ing in a false positive rate of 35%.19 This translation is similar 
+to another study that estimated the translation of reproductive 
+toxicity from animal tests to humans to be around 60%.20
+The primary goal of this chapter is to summarize how infor-
+mation on the potential for chemicals to interfere with male 
+reproductive capability is obtained and used by regulatory 
+agencies, industry, and others to protect human and environ-
+mental health. To achieve this goal, the chapter will summarize 
+the biology of reproduction, compare and contrast reproduc-
+tive testing paradigms used across industries, highlight tools 
+and endpoints to evaluate male reproductive toxicity, illustrate 
+how the Endocrine Disruption Screening Program (EDSP) 
+Tier assays can be used to understand endocrine modes of 
+action and discuss the future of reproductive toxicology.
+37.2  Biology and Toxicology of the 
+Male Reproductive Tract
+The following sections describe the biology of the male repro-
+ductive system as it develops, matures, and ages, as well as the 
+various endpoints that can reflect male reproductive toxicity 
+at these different life stages. A comprehensive assessment of 
+male reproductive toxicity requires information on multiple 
+endpoints that can detect the range of potential adverse effects.
+Alterations in these reproductive endpoints may be the 
+result of direct or indirect toxicity to the male reproductive 
+system. In either case, when exposure has caused a reproduc-
+tive effect, there may be cause for concern. Careful evaluation 
+of the dose–response curves for the various target organs and 
+effects may help determine the most sensitive target organ or 
+tissue. Once identified, this most sensitive endpoint would be 
+the basis for setting the No Observed Adverse Effect Level 
+(NOAEL), Lowest Observed Adverse Effect Level (LOAEL), 
+or calculation of the benchmark dose for estimating human 
+risk. Statistical analysis can be important, but the biological 
+significance of the data is most important. When many end-
+points are evaluated, statistically significant differences may 
+occur by chance. Conversely, apparent trends with dose may 
+be relevant biologically even if statistical significance is not 
+achieved. Additionally, species differences need to be consid-
+ered in determining whether observed effects would be rel-
+evant for human risk. In the following discussion, endpoints 
+are identified in which significant changes may be considered 
+adverse, but concordance is needed between statistically sig-
+nificant results and known biological relevance of the results.
+37.2.1  Male Reproductive Tract Development 
+and Developmental Toxicity
+Development of the male reproductive system is both genetically 
+and hormonally regulated. Sexual differentiation is primarily con-
+trolled by the sex-determining region Y gene (SRY), which initi-
+ates the activation of molecular and cellular signaling pathways 
+leading to testis formation and regression of the Mullerian duct.21–
+23 As the gonad differentiates into the testis, the Sertoli cells are the 
+first to form and contribute to further differentiation of the male 
+reproductive tract through the production of Mullerian Inhibiting 
+Substance (also known as Anti-Mullerian Hormone). Fetal Leydig 
+cells differentiate as a result of the paracrine action of Sertoli 
+cells and contribute to the development of the male accessory sex 
+glands (vas deferens, epididymis, seminal vesicles, and ejaculatory 
+duct) through the secretion of androgens and insulin-like factor 3 
+(Insl3). The production of these hormones is partially regulated by 
+the presence of human chorionic gonadotropin (hCG) and lutein-
+izing hormone (LH).21,24 Once differentiated, the male accessory 
+sex glands are androgen dependent.21 The conversion of the testos-
+terone produced by the Leydig cells to dihydrotestosterone (DHT) 
+by 5-alpha reductase results in the further differentiation of the
+
+1871
+Assessment of Male Reproductive Toxicity
+urethra, prostate gland, penis, and scrotum.25,26 Testicular descent 
+allows for normal spermatogenesis to occur in the mature testis 
+and is mediated by Insl3 in two major phases.21,24–27 The first phase 
+occurs during gestational week 25 in humans and is hormonally 
+mediated21,24,25,27; the second phase occurs about 10 weeks follow-
+ing completion of the first phase and the final process of testicular 
+descent (anchoring of the testes in the scrotum) is typically com-
+plete by gestational weeks 35 to 40.27,28
+In humans, development of the prostate initiates with the 
+growth of solid ducts from the urogenital sinus between 11 and 
+12 weeks of gestation.29 Growth is further promoted by testos-
+terone and other androgens binding to the androgen receptors 
+(ARs) in the urogenital sinus mesenchyme. Reciprocal signal-
+ing between the mesenchyme and epithelial tissues is critical 
+for development, and dysregulation of this process has been 
+implicated in the development of disease states.30 The timing 
+of prostate development differs between species. In humans, 
+initial development is completed by birth and resumes in the 
+presence of increased androgens during puberty. Whereas in 
+rodents, prostate development is continuous from the end of 
+gestation to the beginning of adulthood.31
+The male reproductive tract is particularly vulnerable to tox-
+icants during development, especially to those with endocrine-
+disrupting mechanisms, due to the complexity of intertwined 
+developmental pathways and hormonal feedback loops. This 
+is exemplified by the different responses of the developing 
+seminal vesicles (testosterone-dependent) and prostate (DHT-
+dependent) to hormone stimulation.32 As such, these organs 
+should be examined separately in any developmental study. 
+Developmental susceptibility of the male reproductive tract 
+has also been demonstrated through several studies investi-
+gating the developmental effects of mixtures of plasticizers 
+and antiandrogens, including di-(n-butyl) phthalate (DBP), 
+di-(2-ethylhexyl) phthalate (DEHP), vinclozolin, linuron, and 
+prochloraz.33,34 Effects on several reproductive endpoints were 
+observed in these mixture studies, including morphologic mal-
+formations in male reproductive tract differentiation and dis-
+ruption of fetal hormone production.
+37.2.2  Pubertal Male Reproductive Tract
+Sexual maturation is dependent on the hypothalamus–pitu-
+itary–gonadal (HPG) axis not only during fetal development 
+but also during puberty. Puberty is initiated with the secretion 
+of gonadotropin-releasing hormone (GnRH) by the hypothala-
+mus, which triggers nocturnal pulsatile secretions of the gonad-
+otropins (Luteinizing hormone [LH] and Follicle Stimulating 
+Hormone [FSH]) from the pituitary gland.35 Development 
+of secondary sexual characteristics, which define the onset 
+of phenotypic puberty, occurs when the gonadotropin pulse 
+frequency reaches a critical level.35 Secretion of LH induces 
+Leydig cell hyperplasia leading to testosterone release, while 
+FSH plays a role later during sperm maturation.36
+During puberty, the testis cords form into seminiferous 
+tubules through the development of lumens and the migration 
+of germ cells toward the periphery of the tubule where they 
+begin to differentiate into sperm in the process of spermato-
+genesis, as described briefly below.23 As the spermatogonia 
+proliferate to primary spermatocytes, the blood–testis barrier 
+(BTB) develops around postnatal day (PND) 15–20 in rats, as 
+an important immunological and xenobiotic barrier to protect 
+the post-meiotic spermatocytes from systemic circulation.37,38 
+The BTB is formed through tight junctions (TJ) between 
+adjacent Sertoli cells lining the seminiferous epithelium. 
+Histologically, the peripubertal testis has lower cell numbers, 
+fewer elongating spermatids, and smaller tubular diameters in 
+comparison to the adult rat.39 Additionally, apoptotic cells are 
+a common feature of the peripubertal testis, especially during 
+the formation of the BTB barrier and during the first wave 
+of spermatogenesis.37,38,40 Spermatozoa can be observed in the 
+epididymis around PND 52 in the rat.39,41 The end of puberty 
+is marked by the point in which the reproductive organs and 
+accessory sex glands have reached an adult state, typically 
+around PND 70 (10 weeks old).39,41
+The pubertal state is assumed to be particularly susceptible 
+to perturbations, mostly as a result of research on endocrine-
+disrupting chemicals, due to the complex hormonal events 
+required to initiate puberty. This has been demonstrated 
+through studies where antiandrogenic fungicides (i.e., vinclo-
+zolin, iprodione) administered at the time of puberty results 
+in decreases in accessory sex organ weights, Leydig cell 
+hypertrophy, and sloughed germ cells in the epididymis (indi-
+cating altered spermatogenesis).42,43 Distinguishing potential 
+exposure-related histologic lesions in peripubertal animals is a 
+challenge, as the greater incidence of abnormal and degenerat-
+ing cells in the sexually immature testis can be mistaken as 
+a toxicological response. Careful evaluation of the cell types 
+affected and use of age-matched controls can aid in the differ-
+entiation of these effects, especially in animals that die early 
+in subchronic toxicity studies.44
+37.2.3  Adult Male Reproductive Tract
+The adult testis has two major functions, spermatogenesis 
+and the production of androgens, which are highly depen-
+dent on the synchronized regulation of interdependent cell 
+types (Leydig cells, peritubular myoid cells, Sertoli cells, and 
+germ cells). The testis is structurally composed of seminifer-
+ous tubules and an interstitial compartment. The seminifer-
+ous tubules are tightly coiled tubes encased in peritubular 
+myoid cells that are organized into loops that converge at the 
+rete testis connecting them to the excurrent duct system. The 
+peritubular myoid cells play a role in the movement of fluid 
+and sperm through the seminiferous tubule lumen.45 Directly 
+adjacent to the seminiferous tubules is the interstitial space, 
+which contains testosterone-secreting Leydig cells as well as 
+blood and lymphatic vessels. Within the seminiferous tubules 
+are the Sertoli cells that form the BTB and provide the nutri-
+ents and environment necessary to support spermatogenesis. 
+In addition to their supportive role, Sertoli cells phagocytose 
+the germ cells undergoing apoptosis as a normal function of 
+spermatogenesis and the residual cytoplasm shed during sper-
+miogenesis.45 Sertoli cells also secrete the fluid that fills the 
+tubular lumen allowing for transport of released sperm to 
+the epididymis. Once fully differentiated, Sertoli cells do not 
+typically proliferate and upon initiation of spermatogenesis 
+the number of Sertoli cells is fixed.45 Despite being fixed in 
+number, Sertoli cells are extremely resistant to cell death.26
+
+1872
+Hayes’ Principles and Methods of Toxicology
+Structurally, spermatogonia (sperm progenitor cells) line the 
+basement membrane of the seminiferous tubule and maintain 
+close contact with the Sertoli cells as they move inward toward 
+the lumen, while proliferating and differentiating.
+As mentioned above, testes are the end-organ component of 
+the HPG axis, the endocrine feedback system responsible for 
+testosterone synthesis. This highly regulated pathway begins 
+with the secretion of GnRH by the hypothalamus, which then 
+stimulates the anterior pituitary to secrete LH and FSH.46,47 
+Leydig cells have LH receptors that are sensitive to FSH-
+induced up-regulation, making them more responsive to LH. 
+Upon LH stimulation, the Leydig cells enhance cholesterol 
+desmolase activity, which in turn converts cholesterol to preg-
+nenolone and ultimately leads to testosterone synthesis and 
+secretion.46,47 The production of testosterone by Leydig cells is 
+critical for normal spermatogenesis by activating pathways in 
+Sertoli cells that result in spermatogonial differentiation.
+Spermatogenesis is the synchronized development of the 
+germ cells from spermatogonial stem cells into spermatozoa 
+that occurs over three phases: the proliferative phase, the mei-
+otic phase, and the differentiation phase.45 Germ cells in the 
+proliferative stage include undifferentiated and differentiated 
+spermatogonia. The undifferentiated spermatogonia either 
+divide to renew their populations or become different classes of 
+spermatogonia mainly through mitotic divisions. The differen-
+tiated spermatogonia (Type B) then divide to become prelep-
+totene spermatocytes, which move across the BTB, complete 
+S-phase, and enter meiosis.47,48 The spermatocytes then transi-
+tion through the leptotene, zygotene, pachytene, and diplotene 
+phases of meiosis. By the end of meiosis I, haploid second-
+ary spermatocytes have been formed. Meiosis II quickly fol-
+lows meiosis I to separate sister chromatids to produce haploid 
+round spermatids, which undergo terminal differentiation.48 
+The differentiation phase is also known as spermiogenesis. In 
+this phase, the spermatids develop a flagellum and an acro-
+some, undergo nuclear shaping and condensation, and elimi-
+nate the majority of their cytoplasm to become spermatozoa.45 
+Spermiation is an active process where the spermatozoa are 
+released into the seminiferous tubule lumen following the deg-
+radation of specialized cellular junctions.26
+Spermatogenesis demonstrates a histologically apparent 
+synchrony that can be divided into stages based on the pro-
+gression of changes observed in the seminiferous epithelium 
+(Table 37.1). These changes are described by cell associations, 
+which include the spermatogonia, spermatocytes, and sperma-
+tids, but the most readily apparent cell association is the devel-
+opment of the acrosome in the spermatids.45 These stages are 
+sequentially ordered (in roman numerals) along the length of 
+the seminiferous tubule and occur in a wave-like pattern within 
+the seminiferous tubule, forming a loop that converges at the 
+rete testis. The spermatogenic cycle is the temporal progres-
+sion of the stages through development and unlike the number 
+of stages that can vary across species, this cycle remains con-
+stant within species and strains.47–51 The minimum duration 
+of exposure to assess a male reproductive toxicant is listed in 
+Table 37.1. It is noted that ICH S5 only requires 14 days of 
+exposure for fertility assessment when subchronic studies have 
+demonstrated no microscopic testicular effects. When micro-
+scopic effects are seen, a 10-week exposure is recommended 
+for the fertility assessment.
+Following spermiation, the immature spermatozoa are 
+then transported by peristaltic contraction through the effer-
+ent ducts to the caput epididymis, where they acquire motil-
+ity and become capable of fertilization.48,52,53 The epididymis 
+is a coiled tube that is divided into three sections (the caput, 
+corpus, and cauda) and connects the testis to the vas deferens. 
+The prostate gland surrounds the urethra below the bladder 
+and functions to store and secrete a white and slightly alka-
+line fluid (pH 7.3) to combine with the spermatozoa and other 
+secretions during ejaculation. The prostatic secretions com-
+prise 25–30% of the ejaculate volume and combine with semi-
+nal vesicle secretions to neutralize the acidity of the vaginal 
+tract to increase sperm survival and facilitate fertilization.
+37.2.4  Aging Adult Male Reproductive Tract
+Once sexual maturity is achieved, a male will retain fertility 
+with limited changes until testicular injury occurs or there is 
+reduced reproductive system function due to age. Unlike with 
+fetal development, reproductive system changes as a result of 
+age are not genetically programed and encompass both hor-
+monal and morphological/cellular changes.54 Characteristic 
+morphological changes associated with age include decreased 
+Leydig cell numbers (leads to a decrease in testosterone pro-
+duction), arteriosclerotic lesions, and thickening of the outer 
+layer of the testis (tunica albuginea).55 Additional decreases in 
+testosterone are observed in the aging male as a result of a 
+gradual decrease in HPG axis function.56 These age-related 
+changes are also observed in rodents, with the rat (spe-
+cifically the Brown Norway rat) being the preferred model 
+organism.57–59 There are a number of reasons why the Brown 
+Norway model is preferred for male aging studies, one of 
+which is that decreased testosterone production (lower serum 
+and intratesticular levels) occurs over a longer period of time 
+(from 18 to 30 months old) compared to the Sprague Dawley 
+strain (from 21 to 24 months old).57 In the Brown Norway 
+TABLE 37.1
+Duration (Days) of Spermatogenesis and Epididymal Transit to Provide Recommended Minimum Duration of Exposure in Various 
+Test Species
+Test Species
+Rat
+Mouse
+Rabbit
+Monkey
+Dog
+Human
+One cycle of the seminiferous epithelium
+12.9
+8.9
+10.7
+9.5
+13.6
+16
+Duration of spermatogenesis
+59
+41
+48
+43
+61
+72
+Duration of epididymal transit
+10
+9
+12.7
+10.5
+11.3
+5.5
+Minimum duration of exposure
+69
+50
+61
+54
+72
+78
+
+1873
+Assessment of Male Reproductive Toxicity
+rat model, age-related pathologies begin at 15 months and 
+include decreases in testicular weight, sperm concentration, 
+total sperm counts, plasma testosterone, LH, and inhibin.58 
+Conversely, increased plasma FSH, regressed testes, and germ 
+cell loss via apoptosis are observed with aging.58 A decline in 
+sexual function has also been reported in rats, where by the 
+time they reach 11 months of age they show increased laten-
+cies in mounting, intromission, and ejaculation, as well as an 
+increase in the postejaculatory interval when compared to 
+younger rats.60 As a result of these age-related changes, breeder 
+males in fertility studies are typically retired by 10 months of 
+age to maintain optimal reproductive performance.
+There is evidence that sensitivity to toxicants can be influ-
+enced by age. This is exemplified by data showing differ-
+ences due to age-related decreases in the number of receptors, 
+including the steroid receptor.61 Another factor that plays a role 
+in increasing susceptibility are changes in the aged individual 
+that impacts the distribution of the chemical, thus influenc-
+ing relative toxicity. Decreased plasma albumin is common 
+with aging and can lead to an increase in the amount of free 
+compound available for tissue distribution. Additionally, the 
+elderly have decreased lean body mass (increased percentage 
+of adipose tissue and decreased body water) that results in a 
+change in distribution kinetics, where lipophilic compounds 
+would have a greater volume of distribution.61 Further, metab-
+olism and excretion can vary with age, and lower renal func-
+tion in older individuals can lead to higher body burdens of 
+chemicals over longer periods of time.61,62
+37.3  In Vivo Endpoints of Male 
+Reproductive Toxicity
+37.3.1  Reproductive Organ Weights
+The male reproductive organs for which weights may be use-
+ful for reproductive risk assessment in adults include the tes-
+tes, epididymides, seminal vesicles (with coagulating glands), 
+and prostate. Pituitary gland weights can also be included as 
+an endpoint; however, the pituitary gland contains cell types 
+that are responsible for the regulation of a variety of physi-
+ologic functions, including some that are separate from repro-
+duction, so changes in pituitary weight may not necessarily 
+reflect reproductive impairment. Organ weight data may be 
+presented as both absolute weights and as relative weights (i.e., 
+organ weight-to-body weight ratios). Organ weight data may 
+also be reported relative-to-brain weight because, subsequent 
+to development, the weight of the brain usually remains quite 
+stable.63 Evaluation of data on absolute organ weights is impor-
+tant because a decrease in a reproductive organ weight may be 
+quite independent of body weight. Typically, at the lower effec-
+tive dose levels of most potent reproductive toxicants, there is 
+no change in body weight. Less than severe reductions in adult 
+body weight induced by restricted nutrition have shown little 
+effect on the male reproductive organs or on male reproductive 
+function.64,65 In the presence of severe body weight depression 
+(i.e., >10% relative to control), altered reproductive endpoint 
+may result from a generalized toxic effect that is not typically 
+considered a specific, adverse reproductive outcome.
+Normal testis weight varies only modestly within most test 
+species, such as the rat.66 This relatively low inter-animal vari-
+ability suggests that absolute testis weight should be a precise 
+indicator of gonadal injury; however, damage to the testes 
+may be detected as a weight change only at doses higher than 
+those required to produce significant effects in other measures 
+of gonadal status.67–69 This can be a result of several factors, 
+including a delay before cell deaths are reflected in a weight 
+decrease. The simultaneous occurrence of germ cell death and 
+Leydig cell hyperplasia may offset any observed change in tes-
+tis weight, and blockage of the efferent ducts by cells sloughed 
+from the germinal epithelium or the efferent ducts themselves 
+can lead to an increase in testis weight due to fluid accumula-
+tion,70,71 again, an effect that could offset the effect of germ cell 
+depletion on testis weight. Nonetheless, a significant increase 
+or decrease in testis weight in the absence of a comparable 
+body weight change is indicative of an adverse effect.
+The weights of the epididymis, the prostate, and the semi-
+nal vesicles are androgen dependent and may reflect changes 
+in the animal’s endocrine status or testicular function when 
+exposure to a variety of endocrine-active compounds occurs 
+(e.g., antiandrogens, xenoestrogens). Separation of the seminal 
+vesicles and coagulating gland is difficult in rodents; however, 
+the seminal vesicle and prostate can be separated, and results 
+may be reported for these glands separately or together, with 
+or without their secretory fluids.
+Significant and biologically meaningful changes in absolute 
+male reproductive organ weights may constitute an adverse 
+reproductive effect, although the entire spectrum of endpoints 
+should be considered when making this assessment.
+37.3.2  Histopathological Evaluation
+Histopathologic evaluations of test animal tissues have a 
+prominent role in male reproductive risk assessment.72 With 
+proper tissue preparation and analysis, data from histopatho-
+logic evaluations provide a relatively sensitive tool that is use-
+ful for the detection of low-dose effects. Organs that are often 
+evaluated include the testes, epididymides, prostate, and semi-
+nal vesicles (often including coagulating glands). Tissues from 
+lower dose exposures are often not examined histologically if 
+the high dose produced no difference from controls. Changes 
+in testis histology provide insights regarding the sites and 
+mechanisms of action for the agent on that reproductive organ. 
+When similar targets or mechanisms exist in humans, the 
+basis for interspecies extrapolation is strengthened. Depending 
+on the experimental design, information can also be obtained 
+that may allow prediction of the eventual extent of injury and 
+degree of recovery in that species and humans.73
+A text atlas that provides extensive information on tissue 
+preparation, examination, and interpretation of observations 
+for normal and high-resolution histology of the germinal epi-
+thelium of rats, mice, and dogs is available.47 Also, a decision-
+tree scheme for staging rat spermatogenic cycle has been 
+published.74 Cell staging is based on the examination of cross 
+sections of the seminiferous tubules, where the temporal and 
+spatial relationships of the various spermatogenic cell types 
+can be defined for the different stages of the spermatogenic 
+cycle (Figure 37.1).47,74 Knowledge of the cytoarchitecture of
+
+1874
+Hayes’ Principles and Methods of Toxicology
+FIGURE 37.1  Cycle maps of spermatogenesis for the rat (a) and the mouse (b). The vertical columns, designated by Roman numerals, depict cell 
+associations (stages). In the scheme provided, stages II and III are combined into a single stage called II–III. The developmental progression of a cell 
+is followed horizontally until the right-hand border of the cycle map is reached. The cell progression continues at the left of the cycle map one row up. 
+The cycle map ends with the completion of spermiation. The symbols used designate specific phases of cell development. (Reprinted from Russell, 
+L.D., Ettlin, R., Sinha Hikim, A.P., and Clegg, E.D. et al., Histological and Histopathological Evaluation of the Testes, Cache River Press, Clearwater, 
+FL, 1990. With permission of Cache River Press.)
+
+1875
+Assessment of Male Reproductive Toxicity
+the testis can allow identification of specific lesions that have 
+resulted from toxicity to the germ cell at a given stage of devel-
+opment. Quantification of cell staging may include analysis of 
+frequency distributions of the cell stages present or the propor-
+tion of tubules that have identifiable stages with all expected 
+cell types.47,74
+Morphometry is a term applied to a variety of specialized 
+techniques to obtain quantitative data on cellular or organelle 
+characteristics.45,69,75 The methods may be applied to measure 
+diameters, areas, or volumes of testicular compartments (e.g., 
+tubular vs. interstitial), specific cell types, or sub-cellular 
+structures. Cell counts may also be obtained as well as ratios 
+of one cell type to another (e.g., pachytene spermatocytes to 
+Sertoli cell). Although not required in test protocols, these spe-
+cialized methods can be used in mechanistic studies, which, in 
+turn, can inform the risk assessment. Aside from an evaluation 
+of the seminiferous epithelium, the interstitium of the testis 
+also warrants a careful evaluation (see Section 5.4).
+The basic morphology of other male reproductive organs 
+(e.g., efferent ducts, epididymides, accessory sex glands) has 
+been described, as well as the histopathologic alterations that 
+may accompany certain disease states.46,76–81 Compared with 
+the testes, less is known about structural changes in these tis-
+sues that are associated with exposure to toxic agents. With the 
+excurrent ducts and accessory sex glands, histologic evaluation 
+is usually limited to the height and possibly the integrity of the 
+secretory epithelium. Evaluation should include information 
+on the efferent ducts and caput, corpus, and cauda segments 
+of the epididymis. The presence of debris and sloughed cells 
+in the epididymal lumen is a valuable indicator of damage to 
+the germinal epithelium or the excurrent ducts. The presence 
+of lesions such as sperm granulomas, leukocyte infiltration 
+(inflammation), or the absence of clear cells in the cauda epi-
+didymal epithelium should be noted.
+Significant and biologically meaningful histopathologic 
+damage in excess of the level seen in control tissue of any of 
+the male reproductive organs should be considered an adverse 
+reproductive effect.
+37.3.3  Sperm Evaluations and Mechanistic Endpoints
+Data on epididymal (or vas deferens) sperm number, sperm 
+morphology, and sperm motility can provide an estimation 
+of both sperm quantity and quality and are therefore more 
+informative than sperm numbers alone. Decreased sperm pro-
+duction will be reflected by reductions in both the number of 
+homogenization-resistant spermatids in the testis and the num-
+ber of sperm stored in the cauda epididymis. Likewise, altera-
+tions in sperm morphology or motility can reflect a testicular 
+insult as well as altered maturation in the epididymis. Data on 
+sperm quantity and quality can be obtained noninvasively by 
+collecting serially timed ejaculates from species such as mon-
+keys, dogs, and rabbits, thus enhancing the ability to confirm 
+effects seen in rodents and establishing the feasibility to detect 
+such effects in humans. Note that epididymal sperm mea-
+sures in rodents are relatively consistent among animals of the 
+same strain, whereas comparable measures in human semen 
+are highly variable both between and within men.82 Brief 
+descriptions of these measures in rats are provided below, fol-
+lowed by a discussion of various additional mechanistic sperm 
+measures that can be useful in a comprehensive male repro-
+ductive risk assessment.
+37.3.3.1  Sperm Number
+In toxicity testing using rats, cauda epididymal sperm are 
+enumerated to determine the epididymal sperm reserves. 
+Automated counting has improved the efficiency of this end-
+point.83 It is not recommended to express the epididymal sperm 
+count relative to the weight of the cauda epididymis because 
+sperm contribute very little to epididymal weight and ratio 
+data can mask declines in sperm number. Thus, absolute sperm 
+counts can improve resolution for detecting an effect. As is 
+true for ejaculated sperm counts, epididymal sperm counts are 
+influenced directly by the level of sexual activity.84 Intra- and 
+interindividual variation is often high but is reduced somewhat 
+if ejaculates are collected at regular intervals from the same 
+male, as can be done with some large animal models.85
+An estimate of sperm production in the testis may be derived 
+from counts of the distinctive elongated spermatid nuclei that 
+remain intact after homogenization of testes in a detergent-
+containing medium.84,86,87 These elongated spermatid counts 
+are a measure of sperm produced from spermatogonial stem 
+cells.88 However, spermatid counts may be misleading if the 
+duration of exposure (e.g., 14 days) is shorter than the time 
+required for a spermatogonial stem cell to develop into an 
+elongated spermatid (59 days in the rat).
+37.3.3.2  Sperm Morphology
+Sperm morphology refers to structural aspects of sperm. A 
+thorough morphologic evaluation identifies abnormalities in 
+the sperm head and flagellum. An increase in abnormal sperm 
+morphology has been considered evidence that the agent has 
+gained access to the germ cells.89 There is evidence that sper-
+matogonia are targeted, since the occurrence of some unique 
+sperm abnormalities were found to perpetuate long after ces-
+sation of exposure to a test chemical (lasting beyond more than 
+at least one duration of spermatogenesis).90
+The traditional approach to characterizing morphology in 
+toxicology testing has relied on subjective categorization of 
+sperm head, midpiece, and tail defects in either stained prepa-
+rations by bright field microscopy91 or fixed, unstained prepa-
+rations by phase contrast microscopy.92 Such approaches may 
+be adequate for mice and rats with their distinctly angular head 
+shapes. Because human sperm exhibit considerable heteroge-
+neity of structure and categorizing normal sperm involves sub-
+jectivity, the World Health Organization (WHO) has provided 
+consensus guidance on classification of sperm morphology93 
+and emphasizes that reference values relating this outcome to 
+fertility depend largely on the strictness with which a normal 
+sperm is defined. Data that categorize the types of abnormali-
+ties observed and quantify the frequencies of their occurrences 
+may provide more information in a toxicology or epidemiol-
+ogy study than simply quantifying the percentage of normal 
+sperm.
+
+1876
+Hayes’ Principles and Methods of Toxicology
+37.3.3.3  Sperm Motility
+The biochemical environments in the testes and epididymides 
+are highly regulated to ensure proper development and matu-
+ration of the sperm and the acquisition of critical functional 
+characteristics such as progressive motility and the potential 
+to fertilize.94 With chemical exposures, perturbation of this 
+balance may occur, producing alterations in sperm proper-
+ties such as motility. Chemicals (e.g., epichlorohydrin) have 
+been identified that selectively affect epididymal sperm motil-
+ity and reduce fertility.95 Motility measurements are typically 
+obtained on epididymal rat spermatozoa, but sperm recovered 
+from the vas deferens can be similarly analyzed.96
+Standardized methods are necessary because motility is 
+influenced by a number of experimental variables, includ-
+ing abstinence interval, method of sample collection and 
+handling, elapsed time between sampling and observation, 
+the temperature at which the sample is stored and ana-
+lyzed, the extent of sperm dilution, the nature of the dilu-
+tion medium, and the microscopic chamber employed for the 
+observations.92,97–101
+Sperm motility can be evaluated in real time under phase 
+contrast microscopy, or sperm images can be recorded and 
+stored in video or digital format and analyzed later, either man-
+ually or by computer-assisted sperm analysis.102–106 For manual 
+assessments, the percentage of motile and progressively motile 
+sperm can be estimated and a simple scale used to describe the 
+vigor of the sperm motion. The application of video and digital 
+technology to sperm analysis allows a more detailed and more 
+objective evaluation of sperm motion, including information 
+about the individual sperm tracks. Using this technology, 
+chemically induced alterations in sperm motion have been 
+detected,107–109 and such changes have been related to the fer-
+tility of the exposed animals.110–112
+37.3.3.4  Sperm Mechanistic Endpoints
+Exclusion of vital dye remains a standard method for evaluat-
+ing sperm viability by assessing sperm membrane integrity. A 
+combination of the SYBR-14 dye and propidium iodide (PI) 
+seems to be particularly effective.113 PI is impermeant and can 
+bind to sperm DNA only if the cell membrane is compromised. 
+SYBR-14 is a permeant dye that can bind DNA when the sperm 
+membrane is intact. For simultaneous evaluation of both via-
+bility and a specific membrane protein, a fixable impermeant 
+live/dead stain can be used. These dyes will result in intracel-
+lular staining wherever the membrane is compromised.
+The ability of sperm to fertilize an egg does not guarantee 
+fertility. The sperm genome must also be intact for embry-
+onic/fetal development to proceed normally. A variety of 
+assays for DNA and chromosome damage in sperm have been 
+used in human epidemiology and rodent toxicology studies. 
+Of these, the sperm chromatin structure assay has been most 
+widely used.114,115 This assay is based on the properties of the 
+fluorescent, metachromatic dye acridine orange, which fluo-
+resces green when intercalated into normal double-stranded 
+DNA but red when bound to denatured DNA (or RNA). Other 
+tests for detecting DNA damage in human and rodent sperm, 
+including the comet assay, the Terminal deoxynucleotidyl 
+transferase (TdT) dUTP Nick-End Labeling (TUNEL) assay, 
+and measurement of oxidative DNA adduct sites, may be use-
+ful mechanistic tools to evaluate the effects of environmental 
+contaminants on the genetic integrity of sperm.116
+Another direct indicator of sperm function is the ability to 
+undergo the acrosome reaction after in vitro incubation under 
+conditions that support sperm capacitation. Fluorescent probes 
+can be used to label the acrosome and permit determination of 
+acrosomal status; for example, the plant lectin, Pisum sativum 
+agglutinin (peanut agglutinin, PNA), can be used to identify 
+acrosome-intact sperm.117 In combination with viability stains, 
+live acrosome-reacted sperm can be distinguished from live 
+acrosome-intact sperm and from dead sperm that have shed 
+their acrosomes and the percentages of each type quantified 
+using flow cytometry.
+37.3.4  Functional Fertility Assessments
+Mating trials have traditionally been a central endpoint for 
+determining adverse effects of chemicals and drugs on fertil-
+ity in animal experiments, either in single or multiple genera-
+tion studies. In fertility testing, pairs of animals are cohabited 
+for a period of time sufficient to ensure conception, generally 
+2 weeks for rats. Females are evaluated daily for evidence of 
+mating as determined by presence of a vaginal plug or sperm 
+in a vaginal lavage sample, after which the animals are sepa-
+rated. The ability to sire a litter is then determined by allow-
+ing the females to deliver or via intrauterine examination. 
+Endpoints typically measured are time to mating, number of 
+males mated, number of males producing a litter, and number 
+of offspring, implantation sites and/or viable embryos pro-
+duced, depending on the female terminal endpoint.
+While mating trials are a routine part of a fertility assess-
+ment, it is questionable whether they provide meaningful 
+information to the risk assessment as far as identifying adverse 
+effects of chemicals and drugs on male fertility. One of the 
+primary concerns with mating trials is the relative insensitivity 
+of mating outcomes relative to changes in sperm parameters. 
+Studies in rats and mice have shown that reductions of up to 
+90% in number of normal sperm may occur without a statis-
+tically significant effect on fertility.88,118,119 Histopathology is 
+generally considered the most sensitive indicator of toxicity 
+to male reproduction and therefore is the most likely endpoint 
+to define the NOAEL.120 Consistent with this, fertility, indi-
+cated by the number of implantations and pregnancies, less 
+frequently showed a response at the lowest dose and was less 
+frequently affected across all dose levels than histopathology, 
+organ weights, or sperm endpoints.121
+Considering the higher sensitivity of other endpoints in male 
+reproduction studies, the usefulness of including mating end-
+points is uncertain. One argument for the inclusion of mating 
+endpoints is that it provides for an assessment of effects to sex-
+ual function and behavior. There is some evidence that com-
+pounds which disrupt sexual behavior in animals have similar 
+effects in humans.122 However, unlike mating rats in a labora-
+tory setting where the physiology of the sexual response can 
+be tightly controlled and monitored, human sexual behavior is 
+a complex mix of physiological and social interaction such that 
+predicting impacts to human sexual behavior from rat fertility
+
+1877
+Assessment of Male Reproductive Toxicity
+studies is an unlikely proposition, especially for drugs where 
+the underlying illness is a confounding influence.123
+While mating assessments are likely to remain a part of 
+male fertility assessments for both drugs and chemicals, it is 
+unlikely that mating endpoints will provide meaningful infor-
+mation to the risk assessment provided that there is informa-
+tion available from other endpoints such as reproductive organ 
+weights, histopathology, and sperm parameters.
+37.4  Testing Protocols
+Along with the guidelines published by the relevant regula-
+tory authorities for chemicals and pharmaceuticals, detailed 
+overviews of the regulatory history and study designs have 
+been published.124,125 Therefore, the purpose of this section is 
+to provide an overview of the study designs to illustrate the 
+differences in approaches to male reproductive toxicity testing 
+for pharmaceuticals, industrial chemicals, and pesticides.
+37.4.1  Pharmaceuticals
+The primary ICH guidelines for potential effects of new drug 
+candidates on male fertility is the ICH S5(R3) guideline on 
+reproductive toxicology.126 Since adoption of the initial ICH 
+S5 guideline, there has not been a high-profile human tragedy 
+where nonclinical male fertility testing of a pharmaceutical 
+was proven deficient. This is likely due to the stepwise pro-
+cess of pharmaceutical development that involves evaluation 
+of both animal and human efficacy and safety rather than 
+any unique attributes of the male fertility study. Required 
+studies for pharmaceutical development usually include gen-
+eral toxicity studies in two species (one rodent and one non-
+rodent), reproduction toxicity studies, genotoxicity studies, 
+and studies for assessment of carcinogenic potential. Other 
+studies conducted on a case-by-case basis include phototox-
+icity, immunotoxicity, juvenile animal toxicity, and abuse 
+liability.127 Detection of toxicity to reproduction for human 
+pharmaceuticals begins early in the safety testing paradigm 
+during the conduct of repeat-dose (subchronic) toxicity stud-
+ies. These studies, conducted in two species, involve detailed 
+histopathologic evaluation of the male reproductive organs 
+and accessory sex glands. According to the ICH M3 guid-
+ance, human male subjects may be included in Phase 1 and 
+Phase 2 clinical trials without having conducted male fer-
+tility studies in animals, but an assessment of male fertility 
+should be included prior to large scale or long duration clini-
+cal trials (e.g., Phase 3). The rationale for this approach is 
+that the most sensitive endpoint for detecting effects on male 
+fertility is generally considered to be histopathology of the 
+male reproductive and hormone responsive tissues, while fer-
+tility is a rather insensitive endpoint.119,128,129 Supporting this 
+concept was an analysis conducted by Ulbrich and Palmer 
+showing that after ∈2 weeks of dosing the combination of 
+organ weights and histopathology detected 94–100% of male 
+reproductive toxicants compared to 83–91% for mating trials 
+only.129
+The ICH S5 male fertility study design has been described 
+in detail,130 with only minor changes in the recent R3 revision. 
+Provided there is no evidence of an effect on male reproduc-
+tive organs in general toxicity studies, the guidance requires 
+that males are dosed for at least 2 weeks before being paired 
+with female animals, based on studies showing that this dura-
+tion of treatment is sufficient to detect male reproductive 
+toxicity.121,131,132 In general, the majority of male reproductive 
+toxicants affect post-meiotic germ cells, and thus direct effects 
+on spermatogenesis, mating behavior, and fertility are likely 
+to be detected following 2–4 weeks of treatment.133 If effects 
+on male reproductive organs and/or histopathology were noted 
+in general toxicology studies, a 10-week pre-mating dosing 
+period prior to mating is required.
+Following the pre-mating dosing period, male and female 
+animals are cohabited (1:1) typically for 2–3 weeks and the 
+number of days to mating is recorded. The female animals are 
+euthanized at mid-gestation and the ovaries and uterine con-
+tents are examined. Fertility and implantation indices are cal-
+culated and compared between the treated and control groups. 
+Males are necropsied and subjected to a gross examination. 
+Optional endpoints include male reproductive organ weights 
+and microscopic examination of the reproductive organs, but 
+as these endpoints have generally been evaluated in longer 
+duration general toxicity studies, the utility of collecting this 
+information in male fertility studies is limited. Sperm evalua-
+tion is also optional and may provide meaningful information, 
+especially in cases where organ weights or histopathological 
+changes were noted in general toxicity studies.
+The potential for adverse effects on development of the 
+male reproductive system is evaluated in the pre- and post-
+natal development (PPND) study (ICH S5(R3)).126 In the 
+PPND study, pregnant females are dosed from implantation 
+(~gestation day 6 in rats) and dosing continues until weaning 
+(~PND 21 in rats). The dams are allowed to deliver and rear 
+their offspring to weaning. A subset of offspring is selected 
+for evaluation of sexual maturation (determined by age of 
+balanopreputial separation) and for reproductive competency 
+as adults by determining their ability to mate and produce 
+offspring.
+As determined by the context of clinical use, the safety 
+profile based on existing toxicology data, and the intended 
+pharmacology, studies in juvenile animals are conducted on 
+a case-by-case basis in accordance with ICH S11 guidance.134 
+A juvenile animal study, when needed, consists of a stan-
+dard battery of core endpoints that, in regard to male fertility 
+assessments, include sexual development and histopathology 
+of the testis. When the male reproductive system is identified 
+as a specific concern, suggested additional endpoints include 
+expansion of histopathology to include reproductive and endo-
+crine tissues, and sperm analysis. Mating assessments are gen-
+erally not recommended due to their low sensitivity.
+Additional considerations are provided for development of 
+drugs for advanced cancer indications135 and for biotechnol-
+ogy-derived pharmaceuticals.136 The exception allowed for 
+advanced cancer indications is that an understanding of the 
+potential impact of the pharmacology on testicular function, 
+along with histopathology from repeat-dose toxicity studies, 
+should provide sufficient information to allow for identifica-
+tion of risk to male reproduction. As mating studies are not 
+practical for biotechnology-derived drugs where nonhuman
+
+1878
+Hayes’ Principles and Methods of Toxicology
+primates are often the only pharmacologically relevant species, 
+the potential for effects to male reproduction can be assessed 
+by organ weights and histopathology of the male reproductive 
+tract in toxicity studies of at least 3-month duration. If there 
+is a special concern identified based on the pharmacologi-
+cal activity, sperm count, morphology and/or motility, and/or 
+male hormones can be evaluated in the general toxicity study 
+in sexually mature male monkeys. However, the sensitivity 
+of sperm endpoints and male hormone assessments in a typi-
+cal monkey toxicity study with group sizes of 3 is generally 
+poor.137,138
+37.4.2  Industrial Chemicals and Pesticides
+In the early 1980s, the two-generation reproduction toxic-
+ity study (USEPA 870.3800; OECD Test Guideline 416) was 
+introduced as the globally agreed standard test protocol for 
+assessing potential adverse effects of industrial substances 
+and pesticides on fertility, reproduction, and postnatal devel-
+opment. In general, multigenerational studies are designed to 
+assess the effects of long-term exposure to ambient low levels 
+of industrial chemicals in the workplace, or to low-level pesti-
+cides or food additives in the diet.125 Specifically, these studies 
+encompass the reproductive life cycle from preconception, in 
+utero, pre- and postnatal development, puberty, sexual matu-
+rity, gestation, and onward to the next generation.
+Briefly, in a two-generation reproduction study, parental (P) 
+animals are exposed to the test substance for 10 weeks prior to 
+mating and continuing through lactation until weaning of the 
+first-generation offspring (F1). After weaning, F1 offspring are 
+directly exposed to the test substance until adulthood (at least 
+10 weeks) at which time F1 offspring are mated. Exposure of 
+F1 females continues through gestation and lactation, such that 
+second-generation offspring (F2) are potentially exposed in 
+utero and via milk until PND 21. Thus, males in the P genera-
+tion are exposed from puberty through adulthood; F1 males 
+are potentially exposed in utero and via milk, and then directly 
+exposed from weaning (typically PND 21) until adulthood; 
+and F2 males are potentially exposed in utero and via milk. A 
+unique attribute of this study is that it encompasses the entire 
+reproductive cycle in the F1 generation thereby providing the 
+potential to detect effects on male reproduction at any time in 
+the reproductive cycle.
+Subsequent retrospective analysis of two-generation 
+studies indicated that the F1 mating and production of a 
+F2 generation provided little value to the reproductive risk 
+assessment.139,140 This retrospective evaluation led to the 
+issuance of OECD 443,141 an extended one-generation repro-
+ductive toxicity study (EOGRTS) that is now the required 
+study for reproductive toxicity assessment under REACH 
+(Registration, Evaluation, Authorisation and Restriction of 
+Chemicals).142 The EOGRTS was first proposed in 2006143 
+and the study design underwent several modifications before 
+being adopted by the OECD as Guideline 443 in July 2011 
+(OECD 443) and this study has generally been accepted as 
+the standard approach to assessing male reproductive toxicity 
+for industrial chemicals and pesticides.144 Compared to the 
+two-generation reproductive toxicity study, which requires 
+F1 mating to produce a F2 generation, in the EOGRTS 
+design, the F1 generation is followed until adulthood, but the 
+subsequent mating of F1 offspring to produce a F2 generation 
+is triggered based on existing information or data collected 
+within the study. With this modification, the EOGRTS has 
+the potential to reduce the number of rats required by nearly 
+1,200 animals (Σ40% of animals) per study.140 In addition to 
+evaluating reproductive endpoints in F1 offspring (Cohort 1), 
+in the EOGRTS study, additional cohorts of F1 offspring can 
+be assigned for evaluation of neuropathological and behav-
+ioral endpoints (Cohort 2; developmental neurotoxicity), and 
+immune function (Cohort 3; developmental immunotoxic-
+ity). The EOGRTS study design often varies depending on 
+the requirements set by different regulatory authorities and 
+can include alterations beyond the OECD TG 443 such as 
+a 10-week pre-mating exposure period for the parental ani-
+mals, or addition of mating of a second generation indepen-
+dent of within study triggers.
+Male reproductive endpoints are similar in both the 
+EOGRTS and two-generation studies. Parental animals are 
+dosed for 2 weeks prior to cohabitation. In the EOGRTS and 
+two-generation studies, time to mating and mating success are 
+recorded. The females are allowed to deliver and rear their 
+offspring. Dosing of parental males should continue until F1 
+offspring are weaned (total dosing duration of ~8 weeks). At 
+weaning, the parental males are euthanized and clinical bio-
+chemistry and hematology samples are evaluated in a ran-
+domly selected subset of animals. Sperm counts, motility, 
+and morphology are measured. Male reproductive tract organ 
+weights (testes, epididymides, prostate, and seminal vesicles 
+with coagulating glands) are collected along with other major 
+organ (e.g., brain, liver, heart, thymus). Other hormone respon-
+sive tissues, including the vas deferens and mammary glands, 
+are retained. Full histopathology of the organs weighed and/
+or collected is performed. While most testicular toxicity can 
+occur with no change in hormone levels, one possible mecha-
+nism could be a hormonal change. However, given the inher-
+ent variability in hormone levels, hormonal imbalances are 
+often identified by morphologic changes in hormone-sensitive 
+tissues.138 One often overlooked such tissue included in the 
+EOGRTS is the male mammary gland, which is sensitive to a 
+number of disruptions in hormone physiology in rats but not in 
+other laboratory species.138,145
+At weaning (PND 21), 20 animals/sex/group are assigned 
+to Cohort 1A, and an additional 20 animals/sex/group are 
+assigned to Cohort 1B. Cohort 1A is intended as the primary 
+group of animals used for assessment of effects upon repro-
+ductive system. Cohort 1B is the “triggered” group intended 
+for follow-up assessment of reproduction by mating of F1 ani-
+mals and to obtain additional histopathology assessments if 
+necessary. Direct dosing of the F1 offspring commences at 
+weaning and continues until scheduled necropsy. Anogenital 
+distance is measured at least once between PND 0 and 4, 
+nipple retention in male pups, an indicator of antiandrogenic 
+activity, is evaluated on PND 12 or 13, and the age at bala-
+nopreputial separation, a pubertal landmark associated with 
+normal development, is evaluated. Evaluation of clinical bio-
+chemistry/hematology, organ weights, sperm parameters, and 
+histopathology for F1 males are the same as described above 
+for the parental males.
+
+1879
+Assessment of Male Reproductive Toxicity
+37.4.3  Other Nonclinical Studies
+As mentioned previously, subchronic toxicity studies may be 
+of special value to the design and interpretation of male fertil-
+ity studies. The endpoints evaluated for the male reproductive 
+system include visual examination of the reproductive organs 
+at necropsy, plus weights and histopathology for the testes, 
+epididymides, and accessory sex glands. The feasibility and 
+value of incorporating some basic measures of male reproduc-
+tive toxicity into 13-week studies has been discussed for both 
+industrial chemicals and pharmaceuticals, the latter included 
+a functional fertility assessment.118,146 The authors concluded 
+that while it may be useful to identify an agent as a potential 
+reproductive hazard, without adding the mating component, 
+the subchronic study lacks information about the integrated 
+function of the reproductive system (sexual behavior, fertility, 
+and pregnancy outcomes); and, in the case of industrial chemi-
+cals and pesticides, it does not include effects of the test article 
+on immature animals.
+The OECD 421 reproductive toxicity screen uses less ani-
+mals than the definitive male fertility study designs described 
+earlier, but it does allow for mating assessment and evaluation 
+of offspring parameters such as anogenital distance and male 
+nipple retention.147 Although limited in sample size, histopa-
+thology of reproductive organs is included as an endpoint, but 
+not assessments of spermatogenesis. The OECD 422 study is 
+the OECD 421 study combined with a 28-day repeat-dose tox-
+icity study.148,149 The value of these study designs is to provide 
+reproduction data with a relatively limited number of animals; 
+however, the assessment is not as robust as that achieved with 
+the larger studies.
+The dominant lethal test is intended to detect mutagenic 
+effects in the sperm cells, for which the most likely outcome 
+is lethality to the embryo or fetus.150 Males are exposed to the 
+test article for a short duration of 1–5 consecutive days fol-
+lowed by sequential mating trials that correspond to various 
+stages of spermatogenesis, with the number of mating periods 
+scheduled corresponding to at least one spermatogenesis cycle. 
+Females are monitored for evidence of mating, sacrificed at 
+approximately mid-gestation, and examined for incidence of 
+pre- and/or post-implantation loss. The acute exposure pro-
+tocol of the standard dominant lethal test, combined with 
+serial mating, may allow identification of the spermatogenic 
+cell types that are affected. Use of the dominant lethal assay 
+has seen a decline, primarily due to attempts to reduce animal 
+usage, but also due to acceptance of the suitability of genotox-
+icity screening batteries to detect germ cell mutagenesis.
+Another protocol that provides a more sensitive evaluation 
+of subfertility is the Reproductive Assessment by Continuous 
+Breeding protocol conducted in mice or rats.151 In this study 
+design, mating pairs are cohabitated for 98 days with continu-
+ous exposure. Litters are examined and removed shortly after 
+birth. With this approach, each pair may deliver up to five lit-
+ters in the time period designated, and the average number 
+of litters per pair provides an index of fertility or subfertility. 
+While more sensitive than single mating trials used in defini-
+tive male fertility assessments, given that histopathology is the 
+most sensitive endpoint, the value of the continuous breeding 
+study design is limited.
+37.4.4  Study Design Considerations
+The rat is generally appropriate for male reproductive toxicity 
+testing and is the most commonly used species for reasons of 
+practicality and availability of background data. For pharma-
+ceuticals, there also should be a general knowledge of phar-
+macology in the selected species. For instance, when the drug 
+is not pharmacologically active in the rat but is pharmacologi-
+cally active in the mouse, then the mouse would be selected for 
+reproductive toxicity testing.
+Both the EOGRTS and ICH S5(R3) male reproduction stud-
+ies should be conducted in accordance with Good Laboratory 
+Practice (GLP) regulations. Both studies typically include a 
+control and three test article dose groups. Group sizes should 
+contain a sufficient number of mating pairs to yield at least 20 
+pregnant females per dose group for an EOGRTS and 16–20 
+liters per dose group for ICH fertility studies.
+Dose level selection in both situations is most commonly 
+based on toxic effects. The maximum dose should induce 
+some systemic toxicity, but not death or severe toxicity. For 
+industrial chemicals and pesticides, a descending sequence of 
+dose levels should be selected with the objective of identify-
+ing a NOAEL that will allow for derivation of a benchmark 
+dose. Two- or four-fold intervals are considered optimal for an 
+EOGRTS, and it is recommended that rather than using a large 
+multiple (e.g., >10-fold) adding a 4th dose group is preferable. 
+For pharmaceuticals, in addition to setting the maximum dose 
+based on toxicity, doses producing >25-fold the exposure at 
+the human maximum recommend high dose (MRHD) are 
+generally considered acceptable as a maximum dose. Both 
+guidelines provide for a limit dose of 1,000 mg/kg/day if a 
+dose-limiting toxicity is not achieved.
+Toxicokinetic (TK) data are not required in an ICH S5(R3) 
+male fertility study as this data is generated in repeat-dose tox-
+icity studies. TK data also are not required in the EOGRTS 
+study; however, the OECD 443 guideline does stress that TK 
+data from previously completed studies are extremely useful 
+in planning the EOGRTS, selection of dose levels, and inter-
+pretation. The OECD 443 guideline allows for collection of 
+TK data within the EOGRTS if this does not interfere with the 
+collection of the main study endpoints.
+Selection of the route of administration should be the most 
+relevant for human exposure. For pharmaceuticals, this is the 
+route of administration planned for the marketed drug prod-
+uct, and the most common route of administration in nonclini-
+cal studies is therefore oral gavage. For industrial chemicals 
+and pesticides, the most common route of administration is 
+through the diet, although in certain situations, other routes of 
+administration (drinking water, gavage, inhalation, and der-
+mal) may be more appropriate depending on the characteris-
+tics of the compound and the information required.
+37.5  Tools for Follow-Up Mechanistic Assessments
+The following discussion highlights in vitro and in vivo meth-
+ods used in male reproductive toxicology. In vitro methods 
+have been proposed with two goals in mind: either as screens 
+that would assist in prioritizing chemicals for in vivo testing or
+
+1880
+Hayes’ Principles and Methods of Toxicology
+as specific tests for use in elucidating modes of toxicant action. 
+For the latter purpose, it is important to consider linkage to a 
+specific tissue or cell type that has been demonstrated to be 
+altered by in vivo toxicant exposure. Even if appropriate pre-
+liminary in vivo data are obtained, one may fail to demonstrate 
+an effect in vitro, or vice versa. This may reflect the need for 
+a toxicant to interact in vivo with another tissue or cell type 
+or to form an active metabolite; thus, it is advisable to ascer-
+tain both the metabolic fate and dosimetry of a toxicant and 
+metabolites within the putative target tissue.
+Today, given the rising practical and ethical concerns asso-
+ciated with the use of large numbers of animals for research 
+and the growing number of environmental chemicals requir-
+ing risk assessment, there is an increased emphasis on the use 
+of cell lines for screening potential reproductive toxicants. 
+Progress in this direction has been limited because cell lines 
+frequently fail to retain specific aspects of normal differenti-
+ated function as discussed below for cell lines used to screen 
+for steroidogenic compromise. It is also important to recog-
+nize that a chemical that tests negative in a cell line screen 
+may actually test positive in a primary cell culture or in vivo 
+system and vice versa, a chemical could test positive in an in 
+vitro assay, but have no response in vivo.
+37.5.1  Seminiferous Tubule Culture
+While significant progress has been made in the development 
+of an in vitro model of spermatogenesis, the majority of the 
+methods do not have the capacity to support more than just a 
+few steps of spermatogenesis. Most models allow for the dif-
+ferentiation of spermatogonia into spermatozoa, but few can 
+progress through meiosis, and even fewer models can pro-
+duce spermatozoa. Additionally, many of these models lack 
+the consistency necessary to use as a screen for reproductive 
+toxicity in a regulatory study. However, there is still a consid-
+erable need for in vitro models with which to explore potential 
+mechanisms of toxicity and there are several promising mod-
+els under development.
+The cell–cell interactions that occur normally within the 
+seminiferous tubule, particularly the interactions between 
+Sertoli cells and germ cells,152 justify the use of in vitro 
+models in which the whole seminiferous tubule is studied. 
+Seminiferous tubule cultures from rats have been used to 
+study the in vitro effects of 1,3-dinitrobenzene and methoxy-
+acetic acid (MAA). These agents are toxic to Sertoli cells 
+and pachytene spermatocytes, respectively.153 However, the 
+amount of inhibin, a Sertoli cell product, secreted by the sem-
+iniferous tubules in vitro was significantly increased by both 
+compounds. More importantly, the stimulation of inhibin 
+secretion was seen in rats exposed in vivo to doses result-
+ing in intratesticular toxicant concentrations that approxi-
+mated the effective in vitro concentrations. The seminiferous 
+tubule culture reported by Allenby et al.153 formed the basis 
+of a series of elegant studies designed to determine the role 
+germ cells play in the expression of androgen-dependent 
+protein secretion.154,155 Seminiferous tubules were isolated 4, 
+18, and 30 days following exposure to MAA when pachytene 
+spermatocytes, round spermatids, and elongating spermatids, 
+respectively, would be selectively depleted. Specific proteins 
+were secreted selectively by these different germ cells. The 
+effects of androgen depletion were then assessed 4 days fol-
+lowing exposure to ethane dimethanesulfonate (EDS), with 
+or without exogenous androgen supplementation. Together, 
+these studies present evidence that specific androgen-depen-
+dent proteins are synthesized by seminiferous tubules when 
+different germ cell types are present. This may explain why it 
+has been impossible to demonstrate androgen-dependent pro-
+teins in isolated Sertoli cell cultures. It is clear from this work 
+that isolated seminiferous tubules can be used to identify in 
+vitro effects on the seminiferous epithelium if a toxicant dis-
+rupts spermatogenesis in vivo.
+In the study by Allenby153 mentioned previously, a com-
+parison was made between the response of optimized cul-
+tures of isolated seminiferous tubules and cultures of isolated 
+Sertoli cells. The results clearly showed that inhibin produc-
+tion by isolated Sertoli cells was smaller and more variable 
+in response to both toxicants. This may be attributed to the 
+fact that the isolated Sertoli cells were derived from immature 
+Sertoli cells. It would be useful to know whether the response 
+of Sertoli cells from adult rats would better approximate the 
+response of the isolated seminiferous tubules. Immature cells 
+have been used in most of the Sertoli cell culture/toxicologi-
+cal studies to date, although the effects of various phthalate 
+esters have been compared in cultures of Sertoli cells obtained 
+from both immature and young adult rats.156 Because differ-
+entiated function (i.e., transferrin, androgen-binding protein, 
+inhibin secretion) of the Sertoli cell changes with sexual 
+maturity,157,158 an in vitro study should use Sertoli cells that 
+are at the same ontogenic stage as those affected in the in vivo 
+studies. This is important if in vitro data are to be useful in 
+risk assessment. Advances in culturing adult Sertoli cells may 
+provide promising in vitro models for male reproductive toxi-
+cology research.159,160 For this and any system using testicular 
+cells161 or combinations of cells in vitro, it will be important to 
+demonstrate the extent to which differentiated endpoints are 
+maintained and can be evaluated following both in vivo and 
+in vitro exposures.
+The use of cell lines representing cells in a less differenti-
+ated state holds more promise for screening, particularly as 
+it applies to perturbation in development of the male repro-
+ductive system. Testicular cells from neonatal rats and novel 
+approaches for culturing cells on matrices have been used 
+recently to generate Sertoli cell–germ cell cocultures.162 In 
+theory, these undifferentiated cells should be maintained well 
+in culture and be capable of responding to developmental male 
+reproductive toxicants in a manner similar to that observed 
+in vivo. Spermatogenesis has been reportedly maintained in 
+an in vitro organ culture system.163 In this system, immature 
+testis fragments were used and spermatogenesis proceeded 
+through meiosis to round spermatid development. After mul-
+tiple refinements, the same laboratory was able to demonstrate 
+that functional sperm could be produced by these cultures.164 
+This approach is valuable because it offers a primary endpoint 
+(histopathology of spermatogenesis) that is directly translat-
+able to nonclinical safety studies. However, despite efforts to 
+optimize this model as a screen for spermatogenic toxicity, 
+the model could not consistently produce enough germ cells 
+in control explants.165 Aside from the difficulty in maintaining
+
+1881
+Assessment of Male Reproductive Toxicity
+consistency, further challenges will be to demonstrate whether 
+functional (i.e., cell–cell interactions) and molecular (i.e., 
+transcriptional and proteomic) alterations observed following 
+chemical exposure in vitro can be evaluated in neonatal Sertoli 
+cells and spermatogonia following in vivo insult.
+Advances in stem cell biology may lead to other approaches, 
+including the use of pluripotent spermatogonial stem cells166 
+at different stages of differentiation. Progress in this area has 
+been made, with the ability to produce and detect DNA dam-
+age, reactive oxygen species formation, and apoptosis in mouse 
+spermatogonial stem cells exposed in vitro to hydroxyurea.167 
+These findings recapitulated the reproductive toxicity observed 
+in concurrent in vivo mice studies. Likewise, advances in bio-
+engineering may produce novel systems wherein testis devel-
+opment can be reenacted and studied with respect to toxicant 
+response. For example, dissociated immature testis cells from 
+rats were recently reported to develop into structures resem-
+bling immature seminiferous tubules when they were grown 
+in an extracellular matrix gel and then xenografted into a 
+rat. Encouragingly, the xenografts became vascularized and 
+the tubular structures exhibited lumena and a few putative 
+spermatogonia, as well as an interstitium-containing putative 
+Leydig cells.168 Further development of the xenograft model 
+has involved the transplantation of human fetal testis from 
+pregnancy losses into the renal subcapsular space of athymic 
+castrated nude mice to directly study the effects of antiandro-
+genic agents (di-butyl phthalate [DBP] and abiraterone) on 
+human testis development and function.169 Use of this model 
+generated additional evidence that the human fetal testis is 
+not as sensitive to DBP exposure as rodents exposed via the 
+same model, but antiandrogenic effects are observed with abi-
+raterone exposure in the form of reduced testosterone levels. 
+Although there are limitations with the use of this model given 
+the use of human tissue and the amount of time and effort 
+involved, it does provide a unique mechanistic opportunity to 
+directly study the effects of chemicals on human fetal testis 
+development and function.
+Many groups have attempted to model the testis in vitro 
+through culturing cells and small fragments of tissue in sup-
+portive 3D systems. These methods include the hanging-drop 
+method, where a small piece of testis is suspended in a small 
+drop of media placed on the lid of a petri dish170–172 as well as 
+attempts to culture testicular cells within a 3D support matrix 
+to allow for cell-to-cell interactions.173 Unfortunately, little 
+or no germ cell differentiation has been reported from these 
+3D organoid models. Another potential model that has been 
+gaining traction is the application of organ-on-a-chip tech-
+nology to generate a microfluidic testis-on-a-chip that allows 
+for the evaluation of chemical effects on human testis cells.173 
+Although in the early stages of development, if successful, 
+testis-on-a-chip models would be a useful screening tool for 
+male reproductive toxicity.
+37.5.2  Epididymal Cells
+Because the epididymis is the organ that confers fertilizing 
+ability on maturing sperm, it is important to develop meth-
+ods that identify epididymal toxicity following in vivo expo-
+sure and confirm any direct toxicant action on the epididymis 
+following in vitro exposure. To establish direct toxicant action, 
+a culture system must be used that is capable of maintaining 
+facets of normal epididymal sperm maturation. This means 
+that the culture system must (1) preserve the morphological 
+integrity of the epididymal epithelial cells, that is, TJ between 
+adjacent cells and polarized ultrastructure and (2) synthesize 
+and secrete proteins in an androgen-dependent manner. Few 
+in vitro models meet these criteria despite several epididy-
+mal cell lines having been developed. Immortalized epithe-
+lial cells from the caput epididymides of the mouse achieved 
+polarized features and, based on expression of specific genes, 
+retained some degree of differentiation but failed to express 
+AR and other key markers of epididymal epithelial cell func-
+tion.174 Another immortalized epididymal epithelial cell line 
+was shown to exhibit polarity, form TJ between adjacent 
+cells, and express the AR but was not androgen responsive.175 
+Epididymal epithelial cells from both prepubertal and adult 
+rats have been cultured and maintained normal in vivo expres-
+sion of both AR and ERs but these cells were not contiguous 
+and displayed no polarity.176
+One in vitro model that could meet the culture system crite-
+ria is the development of a 3D organoid with epididymal cells. 
+Less progress has been made on the epididymis models than 
+compared to the testis. However, one group has developed 3D 
+organoids using primary human caput epididymis epithelial 
+cells to study the role of Cystic Fibrosis (CF) transmembrane 
+conductance regulator (CFTR) in tight-junction maintenance in 
+the human epididymis.177 Although this model was developed 
+to study CFTR protein function, it shows promise for applica-
+tion as a toxicity screening assay for epididymal toxicity.
+37.5.3  Assays to Identify Endocrine-
+Disrupting Compounds (EDCs)
+The U.S. EPA’s Endocrine Disruption Screening Program 
+(EDSP) has developed a mode-of-action tiered screening 
+approach to assess endocrine-active compounds for commod-
+ity chemicals which have less safety testing than agricultural 
+products and drugs.6,178–181 These EDSP Tier 1/2 assays can 
+be used to characterize adverse outcome pathways (AOPs) for 
+endocrine-active compounds,179 as well as to identify/confirm 
+potential endocrine mechanisms of action. The first tier of 
+assays screens chemicals for potential activity in estrogen, 
+androgen, and thyroid pathways (Table 37.2). The battery of 11 
+complementary assays includes five in vitro assays and six in 
+vivo assays. For chemicals determined to have potential endo-
+crine activity, four longer-term, Tier 2 tests were proposed to 
+characterize dose–response relationships and adverse effects. 
+These tests were envisioned to be used to screen and test for 
+potential EDCs but due to their cost, time, and animal use, a 
+shift toward exposure assessment, computational approaches, 
+and high-throughput screening (HTS) is being assessed under 
+a program called Endocrine Disruption Screening Program for 
+the 21st Century (EDSP21).178,181 While the Tier 1 and 2 tests 
+may not be used widely for screening, they provide valuable 
+tools for identifying possible endocrine mode-of-action when 
+testis toxicity is observed and an endocrine mechanism is sus-
+pected. These points will be highlighted below in understand-
+ing effects on the testis (e.g., fertility, Leydig cells).
+
+1882
+Hayes’ Principles and Methods of Toxicology
+37.5.3.1  Tier 1 In Vivo and In Vitro Screens
+The Tier 1 in vivo tests to screen for alterations in male 
+reproductive development in the rat are the Hershberger and 
+pubertal assays.182 The Hershberger assay attempts to identify 
+androgenic or antiandrogen activity of a compound. Young 
+castrated (removal of the testis and epididymis at 6 weeks 
+old – Table 37.2, 890–1400) male rats are used to increase the 
+sensitivity for detecting a change in androgen status in sex 
+accessory organs with the rationale that castration establishes 
+low endogenous androgen levels. One week after castration, 
+treatment groups are assigned on the 49th day and animals 
+are necropsied between 60 and 70 days of age. Thus, there is 
+a 10-day exposure period. Androgen-dependent sex accessory 
+organs (glans penis, the levator ani-bulbocavernosus muscle, 
+ventral prostate, seminal vesicles with coagulating glands, 
+and Cowper’s glands) are weighed following exposure to the 
+putative endocrine-active compound in groups of animals 
+without or with concurrent exogenous androgen supplementa-
+tion. Testosterone propionate is given daily during exposure 
+when antiandrogenic activity is tested.183 It should be noted 
+that this assay could be performed equally well if castration 
+involved removal of only the testis. In this case, the epididymis 
+would also be weighed. The AR and ER assays described in 
+Table 37.2 can provide additional insight as to the mode-of-
+action if a signal is seen in the Hershberger assay.
+The pubertal male assay is similar in concept, except dos-
+ing begins just after weaning, on PND 23, and continues until 
+PND 53.184 Two dose groups are required in addition to the 
+vehicle control group. This assay is capable of detecting altera-
+tions induced by a variety of toxicants including estrogenic 
+chemicals, chemicals that affect steroid hormone biosynthesis 
+directly, and chemicals that alter the hormonal status of the 
+hypothalamic/pituitary axis.185–189 In addition to sex acces-
+sory organs weights (e.g., prostate, epididymis), various serum 
+hormones (e.g., FSH, LH, testosterone) are measured, and 
+histology of the testis and epididymis is evaluated. Onset of 
+puberty as determined by balanopreputial separation is also 
+evaluated in this assay.
+Nonmammalian assays are also used to screen for endo-
+crine-active chemicals and focus on agonistic/antagonistic 
+activities of androgenic and estrogenic pathways. The fish 
+short-term assay190 (Table 37.2, 890–1350) measures many 
+endpoints common to mammalian reproduction, evaluates 
+both sexes simultaneously, and assesses fertility. Briefly, four 
+female and two male fish, typically fathead minnows, are 
+housed in a flow-through water tank containing one of three 
+test concentrations or a vehicle control. Exposures continue 
+for 21 days at which time fish are evaluated for alterations in 
+gonadal histology, hormones, and secondary sex characteris-
+tics; fertility is assessed throughout the exposure period.
+There are five primary assays to screen for chemicals that 
+bind or bind and activate ER, bind the AR, or affect steroido-
+genesis (STR) by altering the steroidogenic enzymes, includ-
+ing aromatase (Table 37.2). Competitive binding assays are 
+used to ascertain whether a test chemical has significant affin-
+ity for either the androgen or ER in vitro (Table A, 890–1150, 
+890–1250). A positive receptor binding test can be confirmed 
+in transcriptional assays for that gene. Cells are transfected 
+with a plasmid containing a hormone response element and 
+coupled to a reporter gene such as luciferase. Often, the cells 
+used in these assays have no endogenous steroid receptor, so a 
+vector coding for the steroid receptor is also transfected. Both 
+androgen-191 and estrogen-192,193 based assays have been devel-
+oped. The transcriptional activation assays, both mammalian 
+cell and yeast based, have proven less standardized than recep-
+tor binding assays,194 and neither assay is particularly well 
+suited for testing chemicals requiring metabolic activation.
+Screening for the ability of chemicals to inhibit STR has 
+been done using minced testis cultures, as well as cultures 
+TABLE 37.2
+U.S. EPA Endocrine Disruption Screening Program (EDSP) Tier 1 screening battery assays, Tier 2 testing assays, HTS assays, and 
+predictive alternatives179,180,181
+Tier Level/Test Number
+EDSP Assays
+HTS Assays & Predictive Model Alternativesa
+1/890.1250
+ER binding
+ERb Model
+1/890.1300
+ER Transcriptional Activation – Human cell line HeLa 9903
+ER Model
+1/890.1600
+Uterotropic – Rat
+ER Model
+1/890.1150
+AR binding – Rat Prostate
+AR Model
+1/890.1400
+Hershberger – Rat
+AR Model
+1/890.1200
+Aromatase inhibition – Human Recombinant
+AR Model
+1/890.1550
+STR – Human cell line – H295R
+STR
+1/890.1450
+Female rat pubertal
+ER, STR, THY
+1/890.1500
+Male rat pubertal
+AR, STR, THY
+1/890.1350
+Fish short-term reproduction
+ER, AR, STR
+1/890.1100
+Amphibian Metamorphosis – Frog
+THY
+2/NA
+Rat 2-generation/EOGRT
+ER, AR, STR, THY
+2/890.2200
+Medaka extended one-generation reproduction test
+ER, AR, STR
+2/890.2300
+Larval amphibian growth and development assay 
+THY
+2/890.2100
+Avian Two-Generation Toxicity Test in Japanese Quail (JQTT)
+ER, AR, STR, THY
+a	 AR (androgen receptor), STR (steroidogenesis), THY (thyroid), assays are in development.
+b	 ER, estrogen receptor.
+
+1883
+Assessment of Male Reproductive Toxicity
+of transformed or dedifferentiated cells. For the minced tes-
+tis cultures, small aliquots of testis parenchyma are weighed 
+and incubated for several hours with and without LH stimula-
+tion.195,196 This method is applicable to ex vivo evaluation using 
+parenchyma derived from testes following in vivo exposure. 
+The use of transformed cells such as the mouse MA-10 Leydig 
+cell lines is limited because these cells lack the enzymes 
+required for conversion of progesterone to testosterone.197 
+The rat R2C Leydig cell line lacks the LH receptor preclud-
+ing detection of alterations in LH-stimulated testosterone pro-
+duction.198 Human H295 cells are currently used in an assay 
+as part of Tier 1 EDSP screening that is also being required 
+for many pesticides to meet EU requirements; these cells are 
+isolated from an adrenocortical carcinoma capable of produc-
+ing cortisol, androgens, and estrogen.199 However, they do not 
+express a functional Adrenocorticotropic hormone (ACTH) 
+receptor and cannot respond to LH. The human recombinant 
+aromatase (inhibition) assay, which is used to detect chemi-
+cals that inhibit the catalytic activity of aromatase, is also 
+required as part of EDSP Tier 1 screening and in the EU. Most 
+recently, mouse BLTK1 cells have been used.200 These cells 
+were obtained from a testis tumor that developed in transgenic 
+mice expressing the inhibin promoter. This cell line appears 
+to respond to LH and contains the requisite steroidogenic 
+enzymes. The primary disadvantage of all these cell lines is 
+that the amount of testosterone produced is quite low com-
+pared to primary Leydig cells. Because of these limitations, 
+enriched primary rat Leydig cells201,202 are a preferred method 
+for assessing compounds that alter STR. These cells respond 
+quite well to LH, have all the requisite steroidogenic molecules 
+in play, and produce hundreds of nanograms of testosterone in 
+only a few hours, thereby increasing sensitivity to detect sub-
+tle, chemically induced inhibition of testosterone biosynthesis.
+Overall, these Tier I screens are useful for delineating endo-
+crine modes of action as a primary mechanism. However, 
+none of these approaches would correctly identify the primary 
+mechanism of a compound which disrupts the endocrine axis 
+through liver enzyme induction (e.g., pronamide), illustrating 
+that no screening battery can characterize all mechanisms.203 
+This example illustrates why using all data from general toxi-
+cology and reproductive studies is important in characterizing 
+a potential mode-of-action and identifying the primary initiat-
+ing event.
+37.5.3.2  Hypothesis-based Testing
+Most of the EDC research published today represents hypothe-
+sis-based testing that is presented within AOPs to characterize 
+and organize data sets.179 For example, if a chemical is known 
+to alter STR in an adult animal or in an in vitro screening 
+assay, one might consider a test to evaluate the potential for 
+this chemical to alter testosterone throughout reproductive 
+development. In this case, exposures would continue in utero, 
+through puberty, and into adulthood. At the end of gestation, 
+during the pubertal period, and as adults, the exposed males 
+would be evaluated. This approach led to dozens of studies 
+with phthalates. The early work established that phthalates 
+were capable of significantly reducing testosterone production 
+by the fetal testis.204 This decrease in testosterone production 
+was associated with aggregation of fetal Leydig cells and sub-
+sequently linked to postnatal phenotypic alterations such as 
+cryptorchidism (as a result of decreased INSL-3 production 
+leading to agenesis of the gubernaculum), agenesis of the 
+epididymis, and hypospadias.205,206 Gene expression studies 
+later established that at higher exposures, key steroidogenic 
+molecules were compromised.207 It has also been shown that 
+Leydig cell aggregation occurs at much lower dose levels and 
+this dysgenesis precedes the decreased ability of the fetal 
+Leydig cell to produce testosterone.208 This is one example of 
+how sophisticated studies with a more targeted approach can 
+be utilized to gain a better understanding of the underlying 
+toxicity resulting from a chemical exposure to facilitate a bet-
+ter human risk assessment.
+37.5.4  Leydig Cells
+Leydig cells are found in the interstitial space within the testis 
+and their primary physiologic role is testosterone production. 
+During the conduct of safety studies (general toxicology and 
+Developmental and Reproductive Toxicity [DART] studies), 
+the most common lesions seen with Leydig cells are hyperpla-
+sia and/or adenomas. Adenomas are increasingly referred to as 
+Leydig cell tumors (LCTs). These findings are a hallmark of 
+HPT axis disruption (commonly referred to as endocrine disrup-
+tion) and are driven by increased LH levels. Leydig cell hyper-
+plasia can be either focal or diffuse, but it is more commonly a 
+focal response. In the rat, the distinction between Leydig cell 
+hyperplasia and adenoma is based on size of the lesion. Leydig 
+cell adenoma is commonly defined as a focus of hyperplasia 
+larger than the diameter of three seminiferous tubules, although 
+some criteria have used a one tubule diameter.46
+Understanding the regulation of the HPT axis is key to 
+understanding how chemicals can produce Leydig cell hyper-
+plasia/adenomas (Figure 37.2). LH maintains testosterone lev-
+els in homeostasis and chemicals that disrupt this homeostasis 
+produce Leydig cell hyperplasia/adenomas. Neurons arising 
+from the arcuate nucleus in the hypothalamus secrete GnRH 
+into the hypophyseal portal circulation. GnRH binds to its 
+receptors on the plasma membrane of gonadotrophs, which are 
+found in the adenohypophysis (anterior pituitary). This bind-
+ing stimulates the secretion of LH into the bloodstream where 
+it travels to the testis. LH binds to its receptors on the plasma 
+membrane of Leydig cells and activates adenylate cyclase to 
+increase cAMP levels. Increased cAMP and calcium levels 
+stimulate testosterone biosynthesis causing testosterone lev-
+els to rise in the bloodstream and inhibit further release of 
+GnRH and LH from the hypothalamus and adenohypophysis, 
+respectively. An additional feedback control mechanism of 
+LH involves the steroid estradiol.46 Testosterone is converted 
+to estradiol via the enzyme aromatase, a process which is com-
+monly referred to as aromatization.46
+Table 37.3 summarizes the mechanisms by which a chemi-
+cal can disrupt the HPT axis and produce Leydig cell hyper-
+plasia/adenoma and includes a prototypical chemical example 
+for each mechanism as well as the prototypical hormonal 
+changes. A comprehensive list of chemicals has been cata-
+loged in this review.46 The common theme in all these mecha-
+nisms is that a sustained increase in LH levels leads to Leydig
+
+1884
+Hayes’ Principles and Methods of Toxicology
+cell hyperplasia/adenoma. Below is a list of these mechanisms 
+with a short commentary:
+•	 Dopamine agonists such as muselergine decrease 
+serum prolactin levels which cause downregulation 
+of LH receptors on Leydig cells.209 The receptor 
+downregulation decreases testosterone production 
+and results in a compensatory increase in LH.
+•	 Janus kinase inhibitors such as tofacitinib have been 
+shown to block Leydig cell prolactin receptor signal-
+ing via JAK-2 inhibition.210 This inhibition then leads 
+to downregulation of LH receptors on Leydig cells 
+similar to that described by dopamine agonists.
+•	 AR antagonists such as flutamide compete with tes-
+tosterone and DHT for binding to the AR.211 This 
+competition reduces the net androgenic signal to the 
+hypothalamus and adenohypophysis resulting in an 
+increase in LH with concomitant elevation of testos-
+terone biosynthesis.212–214
+•	 5−-Reductase inhibitors such as finasteride block 
+the conversion of testosterone to DHT, which is a 
+more potent androgen than testosterone, and thereby 
+FIGURE 37.2  Diagram illustrating the common pathways of endocrine regulation along the HPT axis.46 The neurotransmitter-induced synthesis and 
+release of GnRH from the preoptic-medial basal hypothalamus prompts the release of FSH and LH from the anterior pituitary. These gonadotropins 
+exert positive influences on Leydig cells and Sertoli cells, respectively. Increased levels of testosterone produced by the Leydig cells and/or estrogen 
+produced via the action of aromatase in either Leydig or Sertoli cells (depending on age), feedback on the hypothalamus, and/or pituitary gland to sup-
+press the release of GnRH, as well as locally to inhibit testosterone biosynthesis within the Leydig cell.
+
+1885
+Assessment of Male Reproductive Toxicity
+causes a reduction in the net androgenic signal lead-
+ing to an increase in LH levels.215
+•	 Testosterone biosynthesis inhibitors such as lanso-
+prazole216 decrease testosterone levels and thereby 
+lead to increase LH levels. It is noted that lansopra-
+zole may induce LCTs by two mechanisms, inhibit-
+ing testosterone biosynthesis and enhancing enzyme 
+clearance.
+•	 Hepatic enzyme induction leading to enhanced tes-
+tosterone elimination has been demonstrated by 
+lansoprazole217 and pronamide,203 which decrease 
+testosterone levels and lead to increased LH levels.
+•	 Aromatase inhibitors such as formestane and letro-
+zole block conversion of testosterone to estradiol, 
+resulting in a decrease in estradiol which increases 
+LH levels.46
+Regarding human relevance, the pathways for regulation of 
+the HPT axis of rats and humans are similar, such that com-
+pounds that either decrease testosterone or estradiol levels or 
+their recognition will increase LH levels. Hence, compounds 
+that induce LCTs in rats by disruption of the HPT axis pose a 
+risk to human health, except for possibly two classes of com-
+pounds (GnRH and dopamine agonists).46 Because GnRH and 
+prolactin receptors are either not expressed or are expressed 
+at very low levels in the testes in humans, the induction of 
+LCTs in rats by GnRH and dopamine agonists would appear 
+not to be relevant to humans; however, the potential relevance 
+to humans of the remaining five pathways of LCT induction 
+cannot be ruled out. Therefore, the central issue becomes what 
+is the relative sensitivity between rat and human LCs in their 
+response to increased LH levels; specifically, is the prolifera-
+tive stimulus initiated by increased levels of LH attenuated, 
+similar, or enhanced in human vs. rat LCs? The overwhelming 
+data suggest that agents which produce Leydig cell hyperpla-
+sia/adenomas in rodents pose little to no risk for humans.46
+A variety of in vitro and in vivo methods are available to 
+identify and characterize Leydig cell toxicity depending on 
+the suspected mode-of-action (Table 37.3). The choice of 
+method can be inferred from the apical changes in the general 
+and reproductive toxicity studies. Primary cultures of Leydig 
+cells are the preferred approach and can be performed either 
+through Leydig cell enrichment using percol gradients210,218 
+or highly purified preparations.202 These cells produce hun-
+dreds of nanograms of testosterone in a few hours in response 
+to LH stimulation and more testosterone when unstimulated 
+than Leydig cell lines; only a 105 cells/well are needed in a 
+96-well culture format. The utility of isolated Leydig cells was 
+elegantly illustrated with tofacitinib.210
+EDS and methoxychlor are two other examples where 
+Leydig cell preparations have been used to study their mode-
+of-action. For EDS, Leydig cell preparations have been used 
+to establish the dose–response, intracellular site of action, and 
+morphological integrity following in vitro EDS exposure.201 
+Results from this study demonstrated clearly that the steroido-
+genic lesion induced by either in vivo or in vitro EDS exposure 
+exists between the second messenger cyclic AMP and cyto-
+chrome P450 side-chain cleavage enzyme. In another study, 
+purified Leydig cells were incubated with increasing con-
+centrations of EDS and with either a maximally stimulating 
+concentration of LH or with [35S] methionine to discriminate 
+between functional and cytotoxic effects.219 Similarly, purified 
+Leydig cells were used to study the interaction between Sertoli 
+cells and Leydig cells during in vitro exposure to tri-o-cresyl 
+phosphate (TOCP). This approach demonstrated that Leydig 
+cells must first metabolize the toxicant for subsequent Sertoli 
+cell toxicity to occur.220
+To evaluate the ability of the active metabolite of methoxy-
+chlor to produce differentiation-dependent alterations in the 
+ability of the Leydig cell to produce testosterone during post-
+natal development, purified Leydig cells were isolated from 
+rats on PNDs 21, 35, and 90, when progenitor, immature, and 
+adult Leydig cell populations, respectively, are present within 
+the testis.221 Results indicated that the prepubertal Leydig cell 
+was more sensitive than the adult Leydig cell to disrupted 
+cholesterol side-chain cleavage activity and cholesterol mobi-
+lization. More recently, Leydig cells were isolated from both 
+prepubertal rats on PND 21 and adult rats on PND 90 follow-
+ing exposure to soy isoflavones during gestation and wean-
+ing.222 Isoflavone treatment induced proliferative activity in 
+the prepubertal Leydig cells resulting in increased numbers 
+of Leydig cells with compromised steroidogenic capacity in 
+the adult testis.
+Another relatively simple approach involves the use of 
+decapsulated testicular parenchyma incubated with or with-
+out LH stimulation to identify alterations in testosterone 
+biosynthetic ability under stimulated or basal conditions, 
+TABLE 37.3
+Mode-of-Action for Hypothalamic–Pituitary–Testis Disruption, Prototypical Agent, Phenotypic Hormonal Profile, and EDSP Tier 1 
+Assay46,210,217
+Mode
+Prototypical Agent
+Phenotypic Hormonal Proflle
+EDSP Tier 1 Assay
+Dopamine agonist
+Mesulergine
+♂Prolactin, δLH
+NA
+Janus kinase inhibitor
+Tofacitinib
+♂Prolactin, δLH
+NA
+AR antagonist
+Flutamide
+δTestosterone, δLH
+AR binding, Hershberger, Male pubertal
+5−-Reductase inhibitors
+Finasteride
+♂DHT, δLH
+Hershberger, Male Pubertal
+Testosterone biosynthesis inhibitors
+Lansoprazole
+♂Testosterone, δLH
+STR, Hershberger, Male pubertal
+Enhanced testosterone clearance
+Lansoprazole
+♂Testosterone, δLH
+Hershberger, Male pubertal
+Aromatase inhibitors
+Letrozole
+♂Estradiol, δLH
+Aromatase
+NA – Not applicable
+
+1886
+Hayes’ Principles and Methods of Toxicology
+respectively. These incubations can be performed using paren-
+chyma derived from testes exposed in vivo or in vitro. An 
+advantage is that data can be easily obtained on a per animal 
+basis, an important consideration when using species such as 
+the rabbit and hamster that contain relatively few steroidogeni-
+cally active Leydig cells following enzymatic dispersion. This 
+technique has been used to identify chemical effects on both 
+LH-stimulated and basal testosterone production. The effects 
+of EDS on LH-stimulated testosterone production were com-
+pared in the rat and hamster.223 Testosterone production was 
+linear over time in the testis incubations of both species, and 
+the results demonstrated that the hamster Leydig cell is far 
+less sensitive than the rat Leydig cell to the cytotoxic effects 
+of EDS. Chloroethyl methanesulfonate is an example of a toxi-
+cant that resulted in significantly reduced basal testosterone 
+production.195
+A similar strategy has been applied in the mouse where 
+either an entire, nicked testis, or aliquot of testis parenchyma 
+was studied on PNDs 24 and 82, respectively.224 Gestational 
+exposure of mice to EDS resulted in decreased LH-stimulated 
+testosterone production per testis at both time points. There 
+were significantly fewer Leydig cells in the adult testis but 
+these Leydig cells produced more testosterone per cell than 
+control Leydig cells. In addition, there were decreased num-
+bers of sperm in the cauda epididymis and decreases in fertil-
+ity in these adults.
+37.6  Paternally Mediated Effects on Offspring
+Potential mechanisms by which paternal drug and chemical 
+exposure could result in effects in offspring include transfer of 
+genetically damaged sperm, epigenetic transmission via sperm 
+and transfer of xenobiotics in seminal fluid.
+Heritable mutations due to alterations in sperm DNA are 
+recognized as potentially detrimental to the offspring and 
+transmission of genetic changes to the offspring have been 
+demonstrated in laboratory animals, although reports of 
+malformed offspring in animals following genetic damage 
+of the paternal sperm cells are sparse.225,226 In rats, genetic 
+damage induced in sperm cells by chronic cyclophospha-
+mide treatment was imparted to the fertilized embryo.227–229 
+Understanding the risk for alterations in sperm DNA is based 
+on assessing the potential of the drug or chemical to produce 
+alterations in genomic DNA (i.e., genotoxicity). There is cur-
+rently no evidence for a unique germ cell mutagen and histori-
+cal and experimental data support that somatic cell mutation 
+assays predict putative mutagenic effects in the germline.230–232 
+Therefore, assessment of genotoxicity based on somatic cell 
+mutation assays protects the germline by default226,233 and the 
+risk for transfer of heritable mutations is addressed by a stan-
+dard genotoxicity testing battery. Genotoxic medicines, espe-
+cially those intended for cancer treatment, have the potential to 
+induce genetic changes in germ cells, even though no increase 
+in birth defects has been detected among the progeny of male 
+cancer patients treated with these drugs.234,235 The risk man-
+agement approach for genotoxic drugs should consider that 
+the genetic damage to the sperm cells can occur at any stage 
+of spermatogenesis, and therefore, men should be advised to 
+avoid unprotected intercourse for the duration of a complete 
+spermatogenic cycle plus epididymal transfer time, which in 
+humans is approximately 90 days.227,228
+While genomic DNA contributes to the majority of inheri-
+tance, it is recognized that non-DNA sequence-based infor-
+mation is also passed on to future generations.236,237 Multiple 
+mechanisms have been proposed to underlie non-DNA 
+sequence-based inheritance, specifically DNA methylation, 
+histone modifications, and inherited RNA, that are commonly 
+termed epigenetic mechanisms of inheritance. However, an 
+experimentally-verified mechanism to account for this mode 
+of inheritance in mammalian species has yet to be conclu-
+sively established.238 Conceptually exposure to the paternal 
+animal to drugs or environmental chemicals could result in 
+intergenerational effects (that could be due to direct effects on 
+offspring via exposure to the parental organisms) and/or trans-
+generational effects (phenomena that cannot be ascribed to 
+direct effects of a particular trigger on the affected organism) 
+without causing permanent changes to the DNA sequence.236 
+In the case of female inheritance, an environmental stimulus 
+can directly affect a gestating embryo and the already-formed 
+oocytes within the female embryo so only effects in the third 
+generation can be attributed to transgenerational epigenetic 
+inheritance. For males, altered phenotypes occurring in the 
+second generation can be described as transgenerational.239 
+Therefore, for pragmatic reasons, research on transgenera-
+tional epigenetic inheritance has focused on males. Although 
+evidence of transgenerational inheritance in mammals is 
+debated, intergenerational paternal epigenetic inheritance 
+in nonhuman mammals is well established.240 The most cel-
+ebrated example of epigenetic inheritance was the demon-
+stration that exposure to either vinclozolin or methoxychlor 
+was associated with decreased sperm capacity and infertil-
+ity in male offspring out to four generations.241 The finding 
+by Anway and coworkers triggered an explosion of research 
+on epigenetic inheritance following exposure to other EDCs, 
+which mostly confirmed intergenerational epigenetic effects, 
+if not transgenerational effects.242 In addition to EDCs, stud-
+ies in mammals have provided evidence that paternal expo-
+sure to environmental stressors, such as diet, psychological 
+stress, and toxicants, can influence offspring phenotypes, and 
+sperm epigenome may be responsible for transmission of such 
+phenotypes.243
+While many important questions remain unanswered, stud-
+ies showing epigenetic transmission have important implica-
+tions for male reproductive health. One such question is in 
+respect to the potential adverse impact of epigenetic heredity. 
+It is possible to measure epigenetic alterations in germ cells, 
+yet it is unclear to what extent modifications of an individual’s 
+epigenetic profile impact the phenotype of their offspring.244 
+Owing to the long duration of a single human generation, 
+adaptive transgenerational epigenetic inheritance seems 
+unlikely, although intergenerational inheritance of environ-
+mental insult-triggered disorders, as demonstrated in rodents, 
+could have a medically relevant effect on individual physi-
+ology. While the research focus has been on environmental 
+exposures, development of novel therapeutic approaches spe-
+cifically targeting epigenetic mechanisms to combat diseases 
+such as cancer have the potential to elicit off-target effects on
+
+1887
+Assessment of Male Reproductive Toxicity
+the epigenetic information and possibly contribute to lasting 
+effects on subsequent offspring.245,246
+Embryo-fetal exposure to drugs following vaginal admin-
+istration has been demonstrated,247–249 and therefore, drugs in 
+semen are a potential route of exposure for pregnant partners 
+of male patients. This concern is focused on drug in semi-
+nal fluid, rather than related to drug-related effects on sper-
+matozoa. Due to the physiochemical properties, the type of 
+drug (small molecule, monoclonal antibody, or other type of 
+large molecule) will greatly influence the potential risk. For 
+example, the transfer to the seminal compartment for mAb 
+therapeutics and subsequent vaginal uptake is essentially zero 
+as demonstrated in rabbits, monkeys, and humans.249–251 The 
+risk of seminal transfer for small molecule drugs can be deter-
+mined using a series of theoretical estimates, based on worst-
+case assumptions, to model potential exposure in the female 
+partner. A safety margin to the NOAEL from developmental 
+toxicity studies can then be calculated from the theoretical 
+exposure.252 There is typically a large margin of safety estab-
+lished (1,000-fold) due to the small volume of semen and large 
+volume of distribution in the female partner. Accordingly, 
+even when the developmental NOAEL is an order of magni-
+tude less than clinical exposure, exposure via semen would 
+not achieve systemic exposures of concern in female part-
+ners. Therefore, only the most potent teratogens would be a 
+potential concern, and these are likely limited to compounds 
+for which the developmental liabilities are associated with the 
+intended mode-of-action.
+37.7  Evaluating Male Reproductive 
+Safety in Humans
+Once testicular toxicity has been identified in nonclinical 
+studies, a human study is often required to determine the 
+presence, extent, and reversibility of the testicular toxic-
+ity observed. Human studies typically rely on measurement 
+of semen parameters and serum hormone concentrations to 
+detect potential toxicity to the male reproductive system as a 
+surrogate for fertility, since measuring pregnancy rates is nei-
+ther feasible nor practical. For pharmaceuticals, this informa-
+tion can be derived from measurements in clinical trials while 
+human male reproductive data for industrial chemicals typi-
+cally rely on epidemiology studies.
+Epidemiological studies of male reproduction attempt to 
+relate between-subject differences in sperm measures with 
+various risk factors for reduced reproduction. Therefore, it is 
+the between-subject variability that is important in establish-
+ing epidemiological risk factors. However, semen endpoints 
+(sperm volume, sperm count, sperm forward motility, and mor-
+phology) are highly variable even when measured according 
+to WHO guidelines.253 As sperm endpoints show much higher 
+between-subject variability than within-subject variability, the 
+sensitivity to detecting a change in sperm parameters follow-
+ing a single collection, as is common with epidemiology stud-
+ies, is limited.254
+Unlike in epidemiology studies where the ability to collect 
+repeated samples is limited, semen analysis may be useful in 
+clinical and research settings where repeated measurements on 
+individual subjects are common, allowing for a within-subject 
+comparison for samples collected during the treatment period 
+to the individual pre-treatment data.255 An example of the 
+effectiveness of assessing semen in clinical trials was pro-
+vided in a study of the time course to onset and recovery from 
+reduced sperm counts after initiation of various cancer treat-
+ments.256 The typical clinical semen study uses a noninferi-
+ority design based on a responder analysis against placebo. 
+The semen parameter and cutoff point to define a responder 
+(i.e., toxicity), as well as the inferiority margin from placebo, 
+are arbitrarily defined.257 In an analysis of semen data from 
+five clinical trials, men receiving placebo showed that using a 
+cutoff of a 50% reduction in sperm concentration to define a 
+responder would capture more than 5% of a population on pla-
+cebo.257 Clinical studies to evaluate possible effects on sper-
+matogenesis require adequate duration of exposure of at least 
+two to three spermatogenic cycles and adequate sampling to 
+compensate for individual variation in semen endpoints, for 
+example, three samples over 2 weeks at each study assessment 
+time point.258
+However, as reduced sperm counts are a trailing indica-
+tor (i.e., damage to the testes has already occurred before 
+changes in sperm endpoints can be detected), a more sensi-
+tive approach to allow for assessing translation of findings in 
+preclinical species to humans at an early, reversible stage of 
+injury is needed. Toxicogenomics, proteomics, and epigenetic 
+approaches are currently being explored for the potential to 
+identify new and improved biomarkers for testicular toxicity 
+that may confer greater sensitivity and earlier predictivity than 
+sperm assessment.5
+37.8  Future of Male Reproductive Toxicology
+The field of male reproductive toxicology and risk assessment 
+has been evolving rapidly since reports of adverse effects of 
+pesticides such as dibromochloropropane became evident in 
+the 1970s.259 Our understanding of modes of action of chemi-
+cals on male (and female) reproductive health has expanded 
+with the application of cell and molecular approaches, includ-
+ing genomics and proteomics. Despite this progress, the trans-
+lation of reproductive toxicity from animal tests to humans is 
+estimated to be around 60%.20 In addition, when decreases in 
+sperm count are seen in nonclinical species, the variability 
+in human sperm counts limits its interpretation and utility in 
+pharmaceutical risk assessment. To improve human transla-
+tion, moving from bulk RNAseq to single-cell RNAseq will 
+improve the ability to understand effects on specific cell types 
+within the testis. The ability to conduct RNAseq on formalin-
+fixed paraffin-embedded tissues allows interrogation of sub-
+chronic, chronic, and reproductive studies without conducting 
+additional studies, consistent with 3R’s initiative. Coupling 
+proteomics with transcriptomics will allow identification and 
+verification of key mechanisms of toxicity and thereby increase 
+translation fidelity. The field of male reproductive toxicology 
+is also hampered by the lack of physiologic in vitro systems 
+that can replicate testis functions such as sperm production 
+across species (rat, dog, monkey, and human). The develop-
+ment of microphysiological systems provides an opportunity 
+to close this gap.260,261 Another area to improve translation is 
+the development of biomarkers which has alluded scientific
+
+1888
+Hayes’ Principles and Methods of Toxicology
+advances. However, the application of single-cell RNAseq 
+and proteomics provide an opportunity to identify potential 
+biomarkers that may provide breakthroughs for the future. 
+Regarding risk assessment, the application of AOPs coupled 
+with point-of-departure analyses provide another advance-
+ment to improve protection of human health.179 While there 
+are many challenges left to understand male reproductive toxi-
+cology, the advancements in scientific tools and risk assess-
+ment methodologies offer promise for future advancements to 
+improve human health protection.
+37.9  Questions
+	 37.1  What are key principles of male reproductive 
+biology?
+	 37.2  How do testing guidelines differ between com-
+modity chemicals, agricultural products, and 
+pharmaceuticals?
+	 37.3  What is the current U.S. EPA approach for screen-
+ing of endocrine-active compounds?
+	 37.4  How can EDSP Tier 1 be used to identify endo-
+crine mode-of-action?
+	 37.5  What are the key mechanisms for disruption 
+of the hypothalamic/pituitary axis that lead to 
+Leydig cell hyperplasia/adenoma?
+	 37.6  Why is it necessary to evaluate so many differ-
+ent endpoints to assess adult male reproductive 
+toxicity?
+	 37.7  Why is the harmonized multigeneration test more 
+informative than an adult subchronic toxicity test?
+	 37.8  What cellular and molecular mechanisms are 
+thought to be responsible for male-mediated 
+transmissible (transgenerational) effects?
+	 37.9  How can histology help determine the phase of 
+spermatogenesis implicated with toxicity to a par-
+ticular chemical exposure?
+	 37.10  How can epidemiology and toxicology studies be 
+improved for better data linkage?
+Acknowledgments
+The authors would like to thank Drs. John C. O’Connor 
+(DuPont) and Bethany Hannas (Eli Lilly) for their valuable 
+discussions and review of this chapter.
+NOTE
+	
+1	 Conflict of Interest statement: The authors are employees of 
+Pfizer Inc. and have stock interest in this company.
+REFERENCES
+	
+1.	 Chapin, R. E. et al. Endocrine modulation of reproduc-
+tion. Fundam. Appl. Toxicol. 29, 1–17, doi:10.1006/
+faat.1996.0001 (1996).
+	
+2.	 Campion, S. et al. Male reprotoxicity and endocrine dis-
+ruption. Exp. Suppl. 101, 315–360, doi:10.1007/978-3-7643-
+8340-4_11 (2012).
+	
+3.	 Knobil, E. et al. Knobil and Neill’s Physiology of 
+Reproduction. 3rd edn (Academic Press, 2006).
+	
+4.	 Horner, S. et al. Target organ toxicities in studies conducted 
+to support first time in man dosing: An analysis across 
+species and therapy areas. Regul. Toxicol. Pharmacol. 65, 
+334–343, doi:10.1016/j.yrtph.2013.02.002 (2013).
+	
+5.	 Sasaki, J. C. et al. Incidence and nature of testicular toxic-
+ity findings in pharmaceutical development. Birth Defects 
+Res. B: Dev. Reprod. Toxicol. 92, 511–525, doi:10.1002/
+bdrb.20338 (2011).
+	
+6.	 Delessard, M. et al. Exposure to chemotherapy dur-
+ing childhood or adulthood and consequences on sper-
+matogenesis and male fertility. Int. J. Mol. Sci. 21, 1454 
+(2020).
+	
+7.	 Huleihel, M. & Lunenfeld, E. Approaches and technolo-
+gies in male fertility preservation. Int. J. Mol. Sci. 21, 5471 
+(2020).
+	
+8.	 Scialli, A. R., Clark, R. V. & Chapin, R. E. Predictivity of 
+nonclinical male reproductive findings for human effects. 
+Birth Defects Res. 110, 17–26, doi:10.1002/bdr2.1102 
+(2018).
+	
+9.	 Sistare, F. D. & DeGeorge, J. J. Preclinical predictors of 
+clinical safety: Opportunities for improvement. Clin. 
+Pharmacol. Ther. 82, 210–214, doi:10.1038/sj.clpt.6100243 
+(2007).
+	 10.	 Campion, S. et al. The current status of biomarkers for 
+predicting toxicity. Expert Opin. Drug Metab. Toxicol. 9, 
+1391–1408, doi:10.1517/17425255.2013.827170 (2013).
+	 11.	 Crisp, T. M. et al. Environmental endocrine disruption: An 
+effects assessment and analysis. Environ. Health Perspect. 
+106 Suppl 1, 11–56, doi:10.1289/ehp.98106s111 10.1289/
+ehp.98106s111. (1998).
+	 12.	 Science, N. A. o. Hormonally active agents in the environ-
+ment. doi:10.17226/6029 (2000). https://www.ncbi.nlm.nih.
+gov/books/NBK230217/
+	 13.	 Toppari, J. et al. Male reproductive health and environmen-
+tal xenoestrogens. Environ. Health Perspect. 104 Suppl 4, 
+741–803, doi:10.1289/ehp.96104s4741 (1996).
+	 14.	 Giwercman, A. & Bonde, J. P. Declining male fertility and 
+environmental factors. Endocrinol. Metab. Clin. North 
+Am. 27, 807–830, viii, doi:10.1016/s0889-8529(05)70042-6 
+(1998).
+	 15.	 Shine, R., Peek, J. & Birdsall, M. Declining sperm quality 
+in New Zealand over 20 years. N. Z. Med. J. 121, 50–56 
+(2008).
+	 16.	 Centola, G. M., Blanchard, A., Demick, J., Li, S. & 
+Eisenberg, M. L. Decline in sperm count and motility in 
+young adult men from 2003 to 2013: Observations from 
+a U.S. sperm bank. Andrology 4, 270–276, doi:10.1111/
+andr.12149 (2016).
+	 17.	 Sengupta, P., Borges, E., Jr., Dutta, S. & Krajewska-
+Kulak, E. Decline in sperm count in European men dur-
+ing the past 50 years. Hum. Exp. Toxicol. 37, 247–255, 
+doi:10.1177/0960327117703690 (2018).
+	 18.	 Sweeney, M. F., Hasan, N., Soto, A. M. & Sonnenschein, C. 
+Environmental endocrine disruptors: Effects on the human 
+male reproductive system. Rev. Endocr. Metab. Disord. 16, 
+341–357, doi:10.1007/s11154-016-9337-4 (2015).
+
+1889
+Assessment of Male Reproductive Toxicity
+	 19.	 Rayburn, E. R. et al. FDA-approved drugs that are sper-
+matotoxic in animals and the utility of animal testing for 
+human risk prediction. J. Assist. Reprod. Genet. 35, 191–
+212, doi:10.1007/s10815-017-1062-8 (2018).
+	 20.	 Basketter, D. A. et al. A roadmap for the development of 
+alternative (non-animal) methods for systemic toxicity test-
+ing. ALTEX 29, 3–91, doi:10.14573/altex.2012.1.003 (2012).
+	 21.	 Barsoum, I. & Yao, H. H. The road to maleness: From testis 
+to Wolffian duct. Trends Endocrinol. Metab. 17, 223–228, 
+doi:10.1016/j.tem.2006.06.009 (2006).
+	 22.	 Koopman, P., Gubbay, J., Vivian, N., Goodfellow, P. & 
+Lovell-Badge, R. Male development of chromosomally 
+female mice transgenic for Sry. Nature 351, 117–121, 
+doi:10.1038/351117a0 (1991).
+	 23.	 Gilbert, S. F. Developmental Biology. 8th edn (Sinauer 
+Associates, Inc., 2006).
+	 24.	 Hughes, I. A. & Acerini, C. L. Factors controlling tes-
+tis descent. Eur. J. Endocrinol. 159 Suppl 1, S75–S82, 
+doi:10.1530/EJE-08-0458 (2008).
+	 25.	 Wilson, C. A. & Davies, D. C. The control of sexual differen-
+tiation of the reproductive system and brain. Reproduction 
+133, 331–359, doi:10.1530/REP-06-0078 (2007).
+	 26.	 Creasy, D. M. Pathogenesis of male reproductive toxicity. 
+Toxicol. Pathol. 29, 64–76, doi:10.1080/019262301301418865 
+(2001).
+	 27.	 Hutson, J. M., Nation, T., Balic, A. & Southwell, B. 
+R. The role of the gubernaculum in the descent and 
+undescent of the testis. Ther. Adv. Urol. 1, 115–121, 
+doi:10.1177/1756287209105266 (2009).
+	 28.	 Overbeek, P. A. et al. A transgenic insertion causing 
+cryptorchidism in mice. Genesis 30, 26–35, doi:10.1002/
+gene.1029 (2001).
+	 29.	 Xia, T., Blackburn, W. R. & Gardner, W. A., Jr. Fetal pros-
+tate growth and development. Pediatr. Pathol. 10, 527–537, 
+doi:10.3109/15513819009067141 (1990).
+	 30.	 Hayward, S. W., Cunha, G. R. & Dahiya, R. Normal 
+development and carcinogenesis of the prostate. A uni-
+fying hypothesis. Ann. N. Y. Acad. Sci. 784, 50–62, 
+doi:10.1111/j.1749-6632.1996.tb16227.x (1996).
+	 31.	 Cunha, G. R. et al. Normal and abnormal development of 
+the male urogenital tract. Role of androgens, mesenchymal-
+epithelial interactions, and growth factors. J. Androl. 13, 
+465–475 (1992).
+	 32.	 Slutsky, M., Levin, J. L. & Levy, B. S. Azoospermia and 
+oligospermia among a large cohort of DBCP applicators in 
+12 countries. Int. J. Occup. Environ. Health. 5, 116–122, 
+doi:10.1179/oeh.1999.5.2.116 (1999).
+	 33.	 Rider, C. V., Furr, J., Wilson, V. S. & Gray, L. E., Jr. A 
+mixture of seven antiandrogens induces reproductive mal-
+formations in rats. Int. J. Androl. 31, 249–262, doi:10.1111/
+j.1365-2605.2007.00859.x (2008).
+	 34.	 Howdeshell, K. L. et al. Cumulative effects of dibutyl phthal-
+ate and diethylhexyl phthalate on male rat reproductive tract 
+development: Altered fetal steroid hormones and genes. 
+Toxicol. Sci. 99, 190–202, doi:10.1093/toxsci/kfm069 (2007).
+	 35.	 Traggiai, C. & Stanhope, R. Disorders of pubertal develop-
+ment. Best Pract. Res. Clin. Obstet. Gynaecol. 17, 41–56, 
+doi:10.1053/ybeog.2003.0360 (2003).
+	 36.	 Viswanathan, V. & Eugster, E. A. Etiology and treatment 
+of hypogonadism in adolescents. Endocrinol. Metab. Clin. 
+North Am. 38, 719–738, doi:10.1016/j.ecl.2009.08.004 (2009).
+	 37.	 Morales, A., Mohamed, F. & Cavicchia, J. C. Apoptosis 
+and blood-testis barrier during the first spermatogenic wave 
+in the pubertal rat. Anat. Rec. (Hoboken) 290, 206–214, 
+doi:10.1002/ar.20417 (2007).
+	 38.	 Furuya, S., Kumamoto, Y. & Sugiyama, S. Fine structure 
+and development of Sertoli junctions in human testis. Arch. 
+Androl. 1, 211–219, doi:10.3109/01485017808988339 (1978).
+	 39.	 Picut, C. A. et al. Postnatal development of the testis in the 
+rat: Morphologic study and correlation of morphology to 
+neuroendocrine parameters. Toxicol. Pathol. 43, 326–342, 
+doi:10.1177/0192623314547279 (2015).
+	 40.	 Rodriguez, I., Ody, C., Araki, K., Garcia, I. & Vassalli, P. An 
+early and massive wave of germinal cell apoptosis is required 
+for the development of functional spermatogenesis. EMBO J. 
+16, 2262–2270, doi:10.1093/emboj/16.9.2262 (1997).
+	 41.	 Campion, S. N. et al. Comparative assessment of the tim-
+ing of sexual maturation in male Wistar Han and Sprague-
+Dawley rats. Reprod. Toxicol. 38, 16–24, doi:10.1016/j.
+reprotox.2013.02.003 (2013).
+	 42.	 Blystone, C. R. et al. Cumulative and antagonistic effects 
+of a mixture of the antiandrogens vinclozolin and iprodi-
+one in the pubertal male rat. Toxicol. Sci. 111, 179–188, 
+doi:10.1093/toxsci/kfp137 (2009).
+	 43.	 Yu, W. J. et al. Reproductive disorders in pubertal and 
+adult phase of the male rats exposed to vinclozolin during 
+puberty. J. Vet. Med. Sci. 66, 847–853, doi:10.1292/jvms. 
+66.847 (2004).
+	 44.	 Catlin, N. R. et al. Differentiating between testicular toxic-
+ity and sexual immaturity in ortho-phthalaldehyde inhala-
+tion toxicity studies in rats and mice. Toxicol. Pathol. 46, 
+753–763, doi:10.1177/0192623318801790 (2018).
+	 45.	 Russell, L. D., Ettlin, R., Sinha Hikim, A. P. & Clegg, E. 
+D. Histological and Histopathological Evaluation of the 
+Testes (Cache River Press, 1990).
+	 46.	 Cook, J. C., Klinefelter, G. R., Hardisty, J. F., Sharpe, R. 
+M. & Foster, P. M. Rodent Leydig cell tumorigenesis: A 
+review of the physiology, pathology, mechanisms, and 
+relevance to humans. Crit. Rev. Toxicol. 29, 169–261, 
+doi:10.1080/10408449991349203 (1999).
+	 47.	 Russell, L. D., Ettlin, R. A., Hikim, A. P. S. & Clegg, E. 
+D. Histological and Histopathological Evaluation of the 
+Testis (Cache River Press, 1990).
+	 48.	 Hess, R. A. in Encyclopedia of Reproduction, Knobil, E. & Neill, 
+J.D. (eds.), Chapter 4, Vol. 4 539–545 (Academic Press, 1999).
+	 49.	 Rosiepen, G., Weinbauer, G. F., Schlatt, S., Behre, H. M. & 
+Nieschlag, E. Duration of the cycle of the seminiferous epi-
+thelium, estimated by the 5-bromodeoxyuridine technique, 
+in laboratory and feral rats. J. Reprod. Fertil. 100, 299–306, 
+doi:10.1530/jrf.0.1000299 (1994).
+	 50.	 Clermont, Y. Kinetics of spermatogenesis in mam-
+mals: Seminiferous epithelium cycle and spermatogonial 
+renewal. Physiol. Rev. 52, 198–236, doi:10.1152/phys-
+rev.1972.52.1.198 (1972).
+	 51.	 Leblond, C. P. & Clermont, Y. Definition of the stages of 
+the cycle of the seminiferous epithelium in the rat. Ann. N. 
+Y. Acad. Sci. 55, 548–573, doi:10.1111/j.1749-6632.1952.
+tb26576.x (1952).
+	 52.	 Hinton, B. T. & Palladino, M. A. Epididymal epithelium: 
+Its contribution to the formation of a luminal fluid micro-
+environment. Microsc. Res. Tech. 30, 67–81, doi:10.1002/
+jemt.1070300106 (1995).
+
+1890
+Hayes’ Principles and Methods of Toxicology
+	 53.	 Boue, F. et al. Human sperm proteins from testicular 
+and epididymal origin that participate in fertilization: 
+Modulation of sperm binding to zona-free hamster oocytes, 
+using monoclonal antibodies. Mol. Reprod. Dev. 33, 470–
+480, doi:10.1002/mrd.1080330414 (1992).
+	 54.	 Niemitz, E. L. & Feinberg, A. P. Epigenetics and 
+assisted reproductive technology: A call for investigation. 
+Am. J. Hum. Genet. 74, 599–609, doi:10.1086/382897 
+(2004).
+	 55.	 Plas, E., Berger, P., Hermann, M. & Pfluger, H. Effects 
+of aging on male fertility? Exp. Gerontol. 35, 543–551, 
+doi:10.1016/s0531-5565(00)00120-0 (2000).
+	 56.	 Tsutsumi, R. & Webster, N. J. GnRH pulsatility, the pitu-
+itary response and reproductive dysfunction. Endocr. J. 56, 
+729–737, doi:10.1507/endocrj.k09e-185 (2009).
+	 57.	 Zirkin, B. R., Santulli, R., Strandberg, J. D., Wright, W. 
+W. & Ewing, L. L. Testicular steroidogenesis in the aging 
+brown Norway rat. J. Androl. 14, 118–123 (1993).
+	 58.	 Wang, C. et al. Reproductive aging in the Brown Norway rat 
+is characterized by accelerated germ cell apoptosis and is 
+not altered by luteinizing hormone replacement. J. Androl. 
+20, 509–518 (1999).
+	 59.	 Chen, H., Hardy, M. P., Huhtaniemi, I. & Zirkin, B. R. Age-
+related decreased Leydig cell testosterone production in the 
+brown Norway rat. J. Androl. 15, 551–557 (1994).
+	 60.	 Smith, E. R., Stefanick, M. L., Clark, J. T. & Davidson, J. 
+M. Hormones and sexual behavior in relationship to aging 
+in male rats. Horm. Behav. 26, 110–135, doi:10.1016/0018-
+506x(92)90035-t (1992).
+	 61.	 Birnbaum, L. S. Pharmacokinetic basis of age-related 
+changes in sensitivity to toxicants. Annu. Rev. Pharmacol. 
+Toxicol. 31, 101–128, doi:10.1146/annurev.pa.31.040191. 
+000533 (1991).
+	 62.	 Jackson, J. A., Birnbaum, L. S. & Diliberto, J. J. Effects 
+of age, sex, and pharmacologic agents on the biliary elimi-
+nation of 2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD) in 
+F344 rats. Drug Metab. Dispos. 26, 714–719 (1998).
+	 63.	 Stevens, K. R. & Gallo, M. A. in Principles and Methods of 
+Toxicology (ed A. W. Hayes) 237–250 (Raven Press, 1989).
+	 64.	 Chapin, R. E. et al. The effects of feed restriction on repro-
+ductive function in Swiss CD-1 mice. Fundam. Appl. 
+Toxicol. 20, 15–22, doi:10.1006/faat.1993.1002 (1993).
+	 65.	 Chapin, R. E., Gulati, D. K., Barnes, L. H. & Teague, J. L. 
+The effects of feed restriction on reproductive function in 
+Sprague-Dawley rats. Fundam. Appl. Toxicol. 20, 23–29, 
+doi:10.1006/faat.1993.1003 (1993).
+	 66.	 Blazak, W. Potential indicators of reproductive toxic-
+ity: Testicular sperm production and epididymal sperm 
+number, transit time, and motility in Fischer 344 rats*1. 
+Fundam. Appl. Toxicol. 5, 1097–1103, doi:10.1016/0272-
+0590(85)90145-9 (1985).
+	 67.	 Ku, W. W., Chapin, R. E., Wine, R. N. & Gladen, B. C. 
+Testicular toxicity of boric acid (BA): Relationship of dose 
+to lesion development and recovery in the F344 rat. Reprod. 
+Toxicol. 7, 305–319, doi:10.1016/0890-6238(93)90020-8 
+(1993).
+	 68.	 Foote, R. H., Schermerhorn, E. C. & Simkin, M. E. 
+Measurement of semen quality, fertility, and reproduc-
+tive hormones to assess dibromochloropropane (DBCP) 
+effects in live rabbits. Fundam. Appl. Toxicol. 6, 628–637, 
+doi:10.1016/0272-0590(86)90175-2 (1986).
+	 69.	 Berndtson, W. E. Methods for quantifying mammalian 
+spermatogenesis: A review. J. Anim. Sci. 44, 818–833, 
+doi:10.2527/jas1977.445818x (1977).
+	 70.	 Nakai, M., Moore, B. J. & Hess, R. A. Epithelial reorganiza-
+tion and irregular growth following carbendazim-induced 
+injury of the efferent ductules of the rat testis. Anat. Rec. 
+235, 51–60, doi:10.1002/ar.1092350106 (1993).
+	 71.	 Hess, R. The fungicide benomyl (methyl 1-(butylcarbamoyl)-
+2-benzimidazolecarbamate) causes testicular dysfunction 
+by inducing the sloughing of germ cells and occlusion of 
+efferent ductules*1. Fundam. Appl. Toxicol. 17, 733–745, 
+doi:10.1016/0272-0590(91)90181-3 (1991).
+	 72.	 Creasy, D. et al. Proliferative and nonproliferative lesions 
+of the rat and mouse male reproductive system. Toxicol. 
+Pathol. 40, 40S–121S, doi:10.1177/0192623312454337 
+(2012).
+	 73.	 Russell, L. D. in Reproductive and Developmental Toxicity 
+of Metals, Clarkson, T.W., Nordberg, G.F., & Sager, P.R. 
+(eds.), 227–252 (Springer US, 1983).
+	 74.	 Hess, R. A. Quantitative and qualitative characteristics of 
+the stages and transitions in the cycle of the rat seminifer-
+ous epithelium: Light microscopic observations of perfu-
+sion-fixed and plastic-embedded testes. Biol. Reprod. 43, 
+525–542, doi:10.1095/biolreprod43.3.525 (1990).
+	 75.	 Mori, H. & Christensen, A. K. Morphometric analysis of 
+Leydig cells in the normal rat testis. J. Cell Biol. 84, 340–
+354, doi:10.1083/jcb.84.2.340 (1980).
+	 76.	 Akingbemi, B. T., Ge, R., Klinefelter, G. R., Zirkin, B. 
+R. & Hardy, M. P. Phthalate-induced Leydig cell hyper-
+plasia is associated with multiple endocrine disturbances. 
+Proc. Natl. Acad. Sci. USA 101, 775–780, doi:10.1073/
+pnas.0305977101 (2004).
+	 77.	 Rivas, A., Fisher, J. S., McKinnell, C., Atanassova, N. & 
+Sharpe, R. M. Induction of reproductive tract developmen-
+tal abnormalities in the male rat by lowering androgen 
+production or action in combination with a low dose of 
+diethylstilbestrol: Evidence for importance of the andro-
+gen-estrogen balance. Endocrinology 143, 4797–4808, 
+doi:10.1210/en.2002-220531 (2002).
+	 78.	 Mahood, I. K. et al. Cellular origins of testicular dysgen-
+esis in rats exposed in utero to di(n-butyl) phthalate. Int. J. 
+Androl. 29, 148–154, doi:10.1111/j.1365-2605.2005.00574.x 
+(2006).
+	 79.	 Veeramachaneni, D. N. Germ cell atypia in undescended 
+testes hinges on the aetiology of cryptorchidism but not 
+the abdominal location per se. Int. J. Androl. 29, 235–240, 
+doi:10.1111/j.1365-2605.2005.00565.x (2006).
+	 80.	 Holstein, A. F., Schutte, B., Becker, H. & Hartmann, M. 
+Morphology of normal and malignant germ cells. Int. J. 
+Androl. 10, 1–18, doi:10.1111/j.1365-2605.1987.tb00160.x 
+(1987).
+	 81.	 Joseph, A., Shur, B. D. & Hess, R. A. Estrogen, efferent 
+ductules, and the epididymis. Biol. Reprod. 84, 207–217, 
+doi:10.1095/biolreprod.110.087353. Epub 2010 Oct 6 (2011).
+	 82.	 Zinaman, M. J., Brown, C. C., Selevan, S. G. & Clegg, E. 
+D. Semen quality and human fertility: A prospective study 
+with healthy couples. J. Androl. 21, 145–153 (2000).
+	 83.	 Strader, L. F., Linder, R. E. & Perreault, S. D. Comparison 
+of rat epididymal sperm counts by IVOS HTM-IDENT and 
+hemacytometer. Reprod. Toxicol. 10, 529–533, doi:10.1016/
+s0890-6238(96)00140-2 (1996).
+
+1891
+Assessment of Male Reproductive Toxicity
+	 84.	 Amann, R. P. A critical review of methods for evaluation of 
+spermatogenesis from seminal characteristics. J. Androl. 2, 
+37–58, doi:10.1002/j.1939-4640.1981.tb00595.x (1981).
+	 85.	 Williams, J. et al. Semen analysis and fertility assessment 
+in rabbits: Statistical power and design considerations for 
+toxicology studies. Fundam. Appl. Toxicol. 15, 651–665, 
+doi:10.1016/0272-0590(90)90182-j (1990).
+	 86.	 Blazak, W. F., Treinen, K. A. & Juniewicz, P. E. in Male 
+Reproductive Toxicology, Chapin, R. E., & Heindel, J. J. 
+(eds.), Chapter 5, 86–94 (Elsevier, 1993).
+	 87.	 Cassidy, S. L., Dix, K. M. & Jenkins, T. Evaluation of a tes-
+ticular sperm head counting technique using rats exposed to 
+dimethoxyethyl phthalate (DMEP), glycerol alpha-mono-
+chlorohydrin (GMCH), epichlorohydrin (ECH), formal-
+dehyde (FA), or methyl methanesulphonate (MMS). Arch. 
+Toxicol. 53, 71–78, doi:10.1007/BF01460003 (1983).
+	 88.	 Meistrich, M. L. Quantitative correlation between testicu-
+lar stem cell survival, sperm production, and fertility in the 
+mouse after treatment with different cytotoxic agents. J. 
+Androl. 3, 58–68, doi:10.1002/j.1939-4640.1982.tb00646.x 
+(1982).
+	 89.	 Agency, U. E. P. Guidelines for mutagenicity risk assess-
+ment. Fed. Reg. 51, 34006–34012 (1986).
+	 90.	 Veeramachaneni, D. N. Impact of environmental pol-
+lutants on the male: Effects on germ cell differentiation. 
+Anim. Reprod. Sci. 105, 144–157, doi:10.1016/j.anirepro-
+sci.2007.11.020. Epub 2007 Nov 26 (2008).
+	 91.	 Filler, R. in Male Reproductive Toxicology, Chapin, R. E., 
+& Heindel, J. J. (eds.), Chapter 21, 334–343 (Elsevier, 1993).
+	 92.	 Seed, J. et al. Methods for assessing sperm motility, mor-
+phology, and counts in the rat, rabbit, and dog: A consen-
+sus report. ILSI Risk Science Institute Expert Working 
+Group on Sperm Evaluation. Reprod. Toxicol. 10, 237–244, 
+doi:10.1016/0890-6238(96)00028-7 (1996).
+	 93.	 World Health Organization. WHO Laboratory Manual for the 
+Examination of Human Semen and Sperm–Cervical Mucus 
+Interaction, 4th edn (Cambridge University Press, 1999).
+	 94.	 Robaire, B., Hinton, B. & Orgebincrist, M. in Knobil 
+and Neill’s Physiology of Reproduction, Neill, J. (ed.), 
+Chapter 22, 1071–1148 (Elsevier, 2006).
+	 95.	 Toth, G. P. et al. Correlation of sperm motion parameters 
+with fertility in rats treated subchronically with epichloro-
+hydrin. J. Androl. 12, 54–61 (1991).
+	 96.	 Dostal, L. A., Faber, C. K. & Zandee, J. Sperm motion 
+parameters in vas deferens and cauda epididymal rat 
+sperm. Reprod. Toxicol. 10, 231–235, doi:10.1016/0890-
+6238(96)00027-5 (1996).
+	 97.	 Chapin, R. E. et al. Methods for assessing rat sperm 
+motility. Reprod. Toxicol. 6, 267–273, doi:10.1016/0890- 
+6238(92)90183-t (1992).
+	 98.	 Schrader, S. M. et al. Laboratory methods for assess-
+ing human semen in epidemiologic studies: A consensus 
+report. Reprod. Toxicol. 6, 275–279, doi:10.1016/0890- 
+6238(92)90184-u (1992).
+	 99.	 Slott, V. L., Suarez, J. D. & Perreault, S. D. Rat sperm motil-
+ity analysis: Methodologic considerations. Reprod. Toxicol. 
+5, 449–458, doi:10.1016/0890-6238(91)90009-5 (1991).
+	100.	 Toth, G. P., Stober, J. A., George, E. L., Read, E. J. & Smith, 
+M. K. Sources of variation in the computer-assisted motion 
+analysis of rat epididymal sperm. Reprod. Toxicol. 5, 487–
+495, doi:10.1016/0890-6238(91)90020-g (1991).
+	101.	 Wier, P. J. & Rumberger, D. Isolation of rat sperm from the 
+vas deferens for sperm motion analysis. Reprod. Toxicol. 9, 
+327–330, doi:10.1016/0890-6238(95)00015-3 (1995).
+	102.	 Mathur, S. M. Automated semen analysis. Fertil. Steril. 52, 
+343–345, doi:10.1016/s0015-0282(16)60869-5 (1989).
+	103.	 Linder, R. E., Hess, R. A. & Strader, L. F. Testicular tox-
+icity and infertility in male rats treated with 1,3-dini-
+trobenzene. J. Toxicol. Environ. Health 19, 477–489, 
+doi:10.1080/15287398609530946 (1986).
+	104.	 Slott, V. L. & Perreault, S. D. in Male Reproductive 
+Toxicology, Chapin, R. E., & Heindel, J. J. (eds.), 319–333 
+(Elsevier, 1993).
+	105.	 Toth, G. P., Zenick, H. & Smith, M. K. Effects of epichlo-
+rohydrin on male and female reproduction in Long-Evans 
+rats. Fundam. Appl. Toxicol. 13, 16–25, doi:10.1016/0272-
+0590(89)90303-5 (1989).
+	106.	 Yeung, C. H., Oberlander, G. & Cooper, T. G. 
+Characterization of the motility of maturing rat spermato-
+zoa by computer-aided objective measurement. J. Reprod. 
+Fertil. 96, 427–441, doi:10.1530/jrf.0.0960427 (1992).
+	107.	 Klinefelter, G. R., Laskey, J. W., Roberts, N. R., Slott, V. & 
+Suarez, J. D. Multiple effects of ethane dimethanesulfonate 
+on the epididymis of adult rats. Toxicol. Appl. Pharmacol. 
+105, 271–287, doi:10.1016/0041-008x(90)90189-2 (1990).
+	108.	 Hardneck, F., Israel, G., Pool, E. & Maree, L. Quantitative 
+assessment of heavy metal effects on sperm function using 
+computer-aided sperm analysis and cytotoxicity assays. 
+Andrologia 50, e13141, doi:10.1111/and.13141 (2018).
+	109.	 Bae, J. W. & Kwon, W. S. Piperonyl butoxide, a synergist 
+of pesticides can elicit male-mediated reproductive toxic-
+ity. Reprod. Toxicol. 100, 120–125, doi:10.1016/j.repro-
+tox.2021.01.010 (2021).
+	110.	 Toth, G. P., Stober, J. A., Read, E. J., Zenick, H. & Smith, M. 
+K. The automated analysis of rat sperm motility following 
+subchronic epichlorohydrin administration: Methodologic 
+and statistical considerations. J. Androl. 10, 401–415, 
+doi:10.1002/j.1939-4640.1989.tb00127.x (1989).
+	111.	 Oberlander, G., Yeung, C. H. & Cooper, T. G. Induction 
+of reversible infertility in male rats by oral ornidazole and 
+its effects on sperm motility and epididymal secretions. J. 
+Reprod. Fertil. 100, 551–559, doi:10.1530/jrf.0.1000551 (1994).
+	112.	 Slott, V. L., Jeffay, S. C., Suarez, J. D., Barbee, R. R. & 
+Perreault, S. D. Synchronous assessment of sperm motility 
+and fertilizing ability in the hamster following treatment 
+with alpha-chlorohydrin. J. Androl. 16, 523–535 (1995).
+	113.	 Garner, D. L., Johnson, L. A., Yue, S. T., Roth, B. L. & 
+Haugland, R. P. Dual DNA staining assessment of bovine 
+sperm viability using SYBR-14 and propidium iodide. J. 
+Androl. 15, 620–629 (1994).
+	114.	 Lowe, X. R. et al. Epididymal sperm aneuploidies in three 
+strains of rats detected by multicolor fluorescence in situ hybrid-
+ization. Environ. Mol. Mutagen 31, 125–132, doi:10.1002/
+(sici)1098-2280(1998)31:2<125::aid-em4>3.0.co;2-l (1998).
+	115.	 Evenson, D. & Jost, L. in Flow Cytometry, Darzynkiewicz, 
+Z., Robinson, J., & Crissman, H. (eds.), 159–176 (Elsevier, 
+1994).
+	116.	 Evenson, D. P., Larson, K. L. & Jost, L. K. Sperm chro-
+matin structure assay: Its clinical use for detecting 
+sperm DNA fragmentation in male infertility and com-
+parisons with other techniques. J. Androl. 23, 25–43, 
+doi:10.1002/j.1939-4640.2002.tb02599.x (2002).
+
+1892
+Hayes’ Principles and Methods of Toxicology
+	117.	 Graham, J. K., Kunze, E. & Hammerstedt, R. H. Analysis 
+of sperm cell viability, acrosomal integrity, and mitochon-
+drial function using flow cytometry. Biol. Reprod. 43, 
+55–64, doi:10.1095/biolreprod43.1.55 (1990).
+	118.	 Gray, L. E. et al. in Sperm Measures and Reproductive 
+Success. Institute for Health Policy Analysis, Forum on 
+Science, Health, and Environmental Risk (ed AR liss) 193–
+209 (Institute for Health Policy Analysis, 1989).
+	119.	 Linder, R. E., Strader, L. F., Slott, V. L. & Suarez, J. D. 
+Endpoints of spermatotoxicity in the rat after short duration 
+exposures to fourteen reproductive toxicants. Reprod. Toxicol. 
+6, 491–505, doi:10.1016/0890-6238(92)90034-Q (1992).
+	120.	 Creasy, D. M. Review article: Evaluation of testicular 
+toxicity in safety evaluation studies: The appropriate use 
+of spermatogenic staging. Toxicol. Pathol. 25, 119–131, 
+doi:10.1177/019262339702500201 (1997).
+	121.	 Takayama, S., Akaike, M., Kawashima, K., Takahashi, M. 
+& Kurokawa, Y. A Collaborative study in japan on optimal 
+treatment period and parameters for detection of male fertil-
+ity disorders induced by drugs in rats. J. Am. Coll. Toxicol. 
+14, 266–292, doi:10.3109/10915819509008702 (1995).
+	122.	 Semet, M. et al. The impact of drugs on male fertility: A 
+review. Andrology 5, 640–663, doi:10.1111/andr.12366 (2017).
+	123.	 Buffum, J. Pharmacosexology: The effects of drugs on sex-
+ual function – A review. J. Psychoact. Drugs 14, 5–44, doi:
+10.1080/02791072.1982.10471907 (1982).
+	124.	 Coder, P., Bowman, C., Sloter, E. D. & Stump, D. Evaluation 
+of a male reproductive toxicant. Compr. Toxicol. 11, 
+doi:10.1016/b978-0-12-801238-3.02135-8 (2014).
+	125.	 Stump, D. et al. in Developmental and Reproductive 
+Toxicology: A Practical Approach (ed Ronald D. Hood) 
+(CRC Press, 2011).
+	126.	 S5(R3), I. Detection of Toxicity to Reproduction for 
+Medicinal Products and Toxicity to Male Fertility 
+(2020). International Council for Harmonization (ICH). 
+https://database.ich.org/sites/default/files/S5-R3_Step4_
+Guideline_2020_0218_1.pdf
+	127.	 M3(R2), I. Guidance on Nonclinical Safety Studies for 
+the Conduct of Human Clinical Trials and Marketing 
+Authorization for Pharmaceuticals (2009). International 
+Council for Harmonization (ICH). https://database.ich.org/
+sites/default/files/M3_R2__Guideline.pdf
+	128.	 Mangelsdorf, I., Buschmann, J. & Orthen, B. Some aspects 
+relating to the evaluation of the effects of chemicals on 
+male fertility. Regul. Toxicol. Pharmacol. 37, 356–369, 
+doi:10.1016/S0273-2300(03)00026-6 (2003).
+	129.	 Ulbrich, B. & Palmer, A. K. Detection of effects on male 
+reproduction—A literature survey. J. Am. Coll. Toxicol. 14, 
+293–327, doi:10.3109/10915819509008703 (1995).
+	130.	 Lerman, S. A., Hew, K. W., Stewart, J., Stump, D. G. & 
+Wise, L. D. The nonclinical fertility study design for phar-
+maceuticals. Birth Defects Res. B: Dev. Reprod. Toxicol. 
+86, 429–436, doi:10.1002/bdrb.20221 (2009).
+	131.	 Sakai, T. et al. Collaborative work to evaluate toxic-
+ity on male reproductive organs by repeated dose studies 
+in rats: Overview of the studies. J. Toxicol. Sci. 25, 1–21, 
+doi:10.2131/jts.25.SpecialIssue_1 (2000).
+	132.	 Sanbuissho, A. et al. Collaborative work on evaluation of 
+ovarian toxicity by repeated-dose and fertility studies in 
+female rats. J. Toxicol. Sci. 34, SP1–SP22, doi:10.2131/
+jts.34.S1 (2009).
+	133.	 Vidal, J. D. & Whitney, K. M. Morphologic manifestations 
+of testicular and epididymal toxicity. Spermatogenesis 4, 
+e979099, doi:10.4161/21565562.2014.979099 (2014).
+	134.	 S11, I. Nonclinical Safety Testing in Support of Development 
+of Paediatric Medicines. (2019). International Council 
+for 
+Harmonization 
+(ICH). 
+https://database.ich.org/
+sites/default/files/S11_Step4_FinalGuideline_2020_ 
+0310.pdf
+	135.	 S9, I. Nonclinical Evaluation for Anticancer Pharmaceuticals 
+(2009). International Council for Harmonization (ICH). 
+https://database.ich.org/sites/default/files/S9_Guideline.pdf
+	136.	 S6(R1), I. Preclinical Safety Evaluation of Biotechnology-
+derived Pharmaceuticals (2011). International Council for 
+Harmonization (ICH). https://database.ich.org/sites/default/
+files/S6_R1_Guideline_0.pdf
+	137.	 Cappon, G. D. et al. Sensitivity of male reproductive end-
+points in nonhuman primate toxicity studies: A statistical 
+power analysis. Reprod. Toxicol. 41, 67–72, doi:10.1016/j.
+reprotox.2013.06.061 (2013).
+	138.	 Chapin, R. E. & Creasy, D. M. Assessment of circulat-
+ing hormones in regulatory toxicity studies II. Male 
+reproductive hormones. Toxicol. Pathol. 40, 1063–1078, 
+doi:10.1177/0192623312443321 (2012).
+	139.	 Martin, M. T. et al. Profiling the reproductive toxicity of 
+chemicals from multigeneration studies in the toxicity ref-
+erence database. Toxicol. Sci. 110, 181–190, doi:10.1093/
+toxsci/kfp080 (2009).
+	140.	 Piersma, A. H. et al. Combined retrospective analysis of 
+498 rat multi-generation reproductive toxicity studies: On 
+the impact of parameters related to F1 mating and F2 off-
+spring. Reprod. Toxicol. 31, 392–401, doi:10.1016/j.repro-
+tox.2010.11.013 (2011).
+	141.	 OECD. 
+Test 
+No. 
+443: 
+Extended 
+One-Generation 
+Reproductive Toxicity Study (2018). Organisation for 
+Economic Co-operation and Development (OECD)
+	142.	 Beekhuijzen, M. The era of 3Rs implementation in develop-
+mental and reproductive toxicity (DART) testing: Current 
+overview and future perspectives. Reprod. Toxicol. 72, 
+86–96, doi:10.1016/j.reprotox.2017.05.006 (2017).
+	143.	 Cooper, R. L. et al. A tiered approach to life stages test-
+ing for agricultural chemical safety assessment. Crit. 
+Rev. Toxicol. 36, 69–98, doi:10.1080/10408440500541367 
+(2006).
+	144.	 Beekhuijzen, M. et al. Implementing the extended one-gen-
+eration reproductive toxicity study (EOGRTS): Important 
+points to consider. Crit. Rev. Toxicol. 46, 332–347, doi:10.3
+109/10408444.2015.1137863 (2016).
+	145.	 Cardy, R. H. Sexual dimorphism of the normal rat mam-
+mary gland. Vet. Pathol. 28, 139–145, doi:10.1177/ 
+030098589102800206 (1991).
+	146.	 Mitchard, T., Jarvis, P. & Stewart, J. Assessment of male 
+rodent fertility in general toxicology 6-month studies. 
+Birth Defects Res. B: Dev. Reprod. Toxicol. 95, 410–420, 
+doi:10.1002/bdrb.21030 (2012).
+	147.	 OECD. Test No. 421: Reproduction/Developmental 
+Toxicity Screening Test (2016). Organisation for Economic 
+Co-operation and Development (OECD).
+	148.	 Beekhuijzen, M. et al. The underestimated value of OECD 
+421 and 422 repro screening studies: Putting it in the right 
+perspective. Reprod. Toxicol. 48, 81–87, doi:10.1016/j.
+reprotox.2014.04.003 (2014).
+
+1893
+Assessment of Male Reproductive Toxicity
+	149.	 OECD. Test No. 422: Combined Repeated Dose Toxicity 
+Study with the Reproduction/Developmental Toxicity 
+Screening Test (1996). Organisation for Economic 
+Co-operation and Development (OECD).
+	150.	 OECD. Test No. 478: Genetic Toxicology: Rodent 
+Dominant Lethal Test (1984). Organisation for Economic 
+Co-operation and Development (OECD).
+	151.	 Chapin, R. E. & Sloane, R. A. Reproductive assessment by 
+continuous breeding: Evolving study design and summaries 
+of ninety studies. Environ. Health Perspect. 105 Suppl 1, 
+199–205, doi:10.1289/ehp.97105s1199 (1997).
+	152.	 Janecki, A., Jakubowiak, A. & Steinberger, A. Effect of germ 
+cells on vectorial secretion of androgen binding protein and 
+transferrin by immature rat Sertoli cells in vitro. J. Androl. 
+9, 126–132, doi:10.1002/j.1939-4640.1988.tb01024.x (1988).
+	153.	 Allenby, G. Evaluation of changes in the secretion of 
+immunoactive inhibin by adult rat seminiferous tubules 
+in vitro as an indicator of early toxicant action on sper-
+matogenesis. Fundam. Appl. Toxicol. 16, 710–724, 
+doi:10.1016/0272-0590(91)90157-y (1991).
+	154.	 McKinnell, C. & Sharpe, R. M. The role of specific germ 
+cell types in modulation of the secretion of androgen-
+regulated proteins (ARPs) by stage VI–VIII seminiferous 
+tubules from the adult rat. Mol. Cell. Endocrinol. 83, 219–
+231, doi:10.1016/0303-7207(92)90162-y (1992).
+	155.	 Sharpe, R. M. et al. Testosterone and spermatogenesis. 
+Identification of stage-specific, androgen-regulated pro-
+teins secreted by adult rat seminiferous tubules. J. Androl. 
+13, 172–184 (1992).
+	156.	 Heindel, J. J. & Powell, C. J. Phthalate ester effects on rat 
+Sertoli cell function in vitro: Effects of phthalate side chain 
+and age of animal. Toxicol. Appl. Pharmacol. 115, 116–123, 
+doi:10.1016/0041-008x(92)90374-2 (1992).
+	157.	 Castellon, E., Janecki, A. & Steinberger, A. Influence of 
+germ cells on Sertoli cell secretory activity in direct and 
+indirect co-culture with Sertoli cells from rats of different 
+ages. Mol. Cell. Endocrinol. 64, 169–178, doi:10.1016/0303-
+7207(89)90143-3 (1989).
+	158.	 Wright, W. W., Zabludoff, S. D., Erickson-Lawrence, M. & 
+Karzai, A. W. Germ cell-Sertoli cell interactions. Studies 
+of cyclic protein-2 in the seminiferous tubule. Ann. N. Y. 
+Acad. Sci. 564, 173–185, doi:10.1111/j.1749-6632.1989.
+tb25896.x (1989).
+	159.	 Anway, M. D., Folmer, J., Wright, W. W. & Zirkin, B. R. 
+Isolation of sertoli cells from adult rat testes: An approach 
+to ex vivo studies of Sertoli cell function. Biol. Reprod. 68, 
+996–1002, doi:10.1095/biolreprod.102.008045 (2003).
+	160.	 Anway, M. D., Show, M. D. & Zirkin, B. R. Protein C inhib-
+itor expression by adult rat Sertoli cells: Effects of testoster-
+one withdrawal and replacement. J. Androl. 26, 578–585, 
+doi:10.2164/jandrol.05001 (2005).
+	161.	 Rahman, N. A. & Huhtaniemi, I. T. Testicular cell 
+lines. Mol. Cell. Endocrinol. 228, 53–65, doi:10.1016/j.
+mce.2003.05.001 (2004).
+	162.	 Yu, X., Sidhu, J. S., Hong, S. & Faustman, E. M. Essential 
+role of extracellular matrix (ECM) overlay in establish-
+ing the functional integrity of primary neonatal rat Sertoli 
+cell/gonocyte co-cultures: An improved in vitro model 
+for assessment of male reproductive toxicity. Toxicol. Sci. 
+84, 378–393, doi:10.1093/toxsci/kfi085. Epub 2005 Jan 19 
+(2005).
+	163.	 Gohbara, A. et al. In vitro murine spermatogenesis in an 
+organ culture system. Biol. Reprod. 83, 261–267, doi:10.1095/
+biolreprod.110.083899. Epub 2010 Apr 14. (2010).
+	164.	 Sato, T. et al. In vitro production of functional sperm in 
+cultured neonatal mouse testes. Nature 471, 504–507, 
+doi:10.1038/nature09850 (2011).
+	165.	 Chapin, R. E. et al. Lost in translation: The search for an 
+in vitro screen for spermatogenic toxicity. Birth Defects 
+Res. B: Dev. Reprod. Toxicol. 107, 225–242, doi:10.1002/
+bdrb.21188 (2016).
+	166.	 Guan, K. et al. Pluripotency of spermatogonial stem 
+cells from adult mouse testis. Nature 440, 1199–1203, 
+doi:10.1038/nature04697. Epub 2006 Mar 24. (2006).
+	167.	 Jeon, H. L. et al. Development of a test method for the evaluation 
+of DNA damage in mouse spermatogonial stem cells. Toxicol. 
+Res. 33, 107–118, doi:10.5487/TR.2017.33.2.107 (2017).
+	168.	 Gassei, K., Schlatt, S. & Ehmcke, J. De novo morphogen-
+esis of seminiferous tubules from dissociated immature 
+rat testicular cells in xenografts. J. Androl. 27, 611–618, 
+doi:10.2164/jandrol.05207. Epub 2006 Apr 1. (2006).
+	169.	 Spade, D. J. et al. Differential response to abiraterone 
+acetate and di-n-butyl phthalate in an androgen-sensitive 
+human fetal testis xenograft bioassay. Toxicol. Sci. 138, 
+148–160, doi:10.1093/toxsci/kft266 (2014).
+	170.	 Potter, S. J. & DeFalco, T. Using Ex vivo upright droplet 
+cultures of whole fetal organs to study developmental pro-
+cesses during mouse organogenesis. J. Vis. Exp. e53262, 
+doi:10.3791/53262 (2015).
+	171.	 Jorgensen, A. et al. Ex vivo culture of human fetal gonads: 
+Manipulation of meiosis signalling by retinoic acid treat-
+ment disrupts testis development. Hum. Reprod. 30, 2351–
+2363, doi:10.1093/humrep/dev194 (2015).
+	172.	 Jorgensen, A. et al. Hanging drop cultures of human tes-
+tis and testis cancer samples: A model used to investigate 
+activin treatment effects in a preserved niche. Br. J. Cancer 
+110, 2604–2614, doi:10.1038/bjc.2014.160 (2014).
+	173.	 Alves-Lopes, J. P., Soder, O. & Stukenborg, J. B. Testicular 
+organoid generation by a novel in vitro three-layer gradient 
+system. Biomaterials 130, 76–89, doi:10.1016/j.biomateri-
+als.2017.03.025 (2017).
+	174.	 Britan, A. et al. Spontaneously immortalized epithelial cells 
+from mouse caput epididymidis. Mol. Cell. Endocrinol. 
+224, 41–53, doi:10.1016/j.mce.2004.06.010 (2004).
+	175.	 Dufresne, J., St-Pierre, N., Viger, R. S., Hermo, L. & Cyr, 
+D. G. Characterization of a novel rat epididymal cell line to 
+study epididymal function. Endocrinology 146, 4710–4720, 
+doi:10.1210/en.2004-1634. Epub 2005 Aug 11. (2005).
+	176.	 Zaya, R., Hennick, C. & Pearl, C. A. In vitro expression of 
+androgen and estrogen receptors in prepubertal and adult 
+rat epididymis. Gen. Comp. Endocrinol. 178, 573–586, 
+doi:10.1016/j.ygcen.2012.07.004. Epub 2012 Jul 15 (2012).
+	177.	 Leir, S. H. et al. An organoid model to assay the role of 
+CFTR in the human epididymis epithelium. Cell Tissue Res. 
+381, 327–336, doi:10.1007/s00441-020-03208-7 (2020).
+	178.	 Krewski, D. et al. Toxicity testing in the 21st century: 
+Progress in the past decade and future perspectives. Arch. 
+Toxicol. 94, 1–58, doi:10.1007/s00204-019-02613-4 (2020).
+	179.	 Browne, P., Noyes, P. D., Casey, W. M. & Dix, D. J. 
+Application of adverse outcome pathways to U.S. EPA’s 
+endocrine disruptor screening program. Environ. Health 
+Perspect. 125, 096001, doi:10.1289/EHP1304 (2017).
+
+1894
+Hayes’ Principles and Methods of Toxicology
+	180.	 US Environmental Protection Agency. Series 890- 
+Endocrine Disruptor Screening Program Test Guidelines, 
+<Series 890- Endocrine Disruptor Screening Program Test 
+Guidelines> (2021).
+	181.	 US 
+Environmental 
+Protection 
+Agency. 
+Endocrine 
+Disruption Screening Program for the 21st Century 
+(EDSP21), <https://www.epa.gov/chemical-research/endo-
+crine-disruption-screening-program-21st-century-edsp21> 
+(2021).
+	182.	 Laws, S. C. et al. in Developmental and Reproductive 
+Toxicology: A Practical Approach, Hood, R. D. (ed.), 388–
+408 (Informa Healthcare, 2011).
+	183.	 Hershberger, L. G., Shipley, E. G. & Meyer, R. K. 
+Myotrophic activity of 19-nortestosterone and other steroids 
+determined by modified levator ani muscle method. Proc. 
+Soc. Exp. Biol. Med. 83, 175–180, doi:10.3181/00379727-
+83-20301 (1953).
+	184.	 Stoker, T. E., Parks, L. G., Gray, L. E. & Cooper, R. 
+L. Endocrine-disrupting chemicals: Prepubertal expo-
+sures and effects on sexual maturation and thyroid 
+function in the male rat. A focus on the EDSTAC recom-
+mendations. Endocrine Disrupter Screening and Testing 
+Advisory Committee. Crit. Rev. Toxicol. 30, 197–252, 
+doi:10.1080/10408440091159194 (2000).
+	185.	 Hostetter, M. W. & Piacsek, B. E. The effect of prolactin 
+deficiency during sexual maturation in the male rat. Biol. 
+Reprod. 17, 574–577, doi:10.1095/biolreprod17.4.574 (1977).
+	186.	 Ramaley, J. A. & Phares, C. K. Delay of puberty 
+onset in males due to suppression of growth hormone. 
+Neuroendocrinology 36, 321–329, doi:10.1159/000123475 
+(1983).
+	187.	 Stoker, T. E., Laws, S. C., Guidici, D. L. & Cooper, R. L. 
+The effect of atrazine on puberty in male wistar rats: An 
+evaluation in the protocol for the assessment of pubertal 
+development and thyroid function. Toxicol. Sci. 58, 50–59, 
+doi:10.1093/toxsci/58.1.50 (2000).
+	188.	 Marty, M. S., Crissman, J. W. & Carney, E. W. Evaluation 
+of the male pubertal assay’s ability to detect thyroid inhibi-
+tors and dopaminergic agents. Toxicol. Sci. 60, 63–76, 
+doi:10.1093/toxsci/60.1.63 (2001).
+	189.	 Monosson, E., Kelce, W. R., Lambright, C., Ostby, J. & 
+Gray, L. E., Jr. Peripubertal exposure to the antiandrogenic 
+fungicide, vinclozolin, delays puberty, inhibits the develop-
+ment of androgen-dependent tissues, and alters androgen 
+receptor function in the male rat. Toxicol. Ind. Health 15, 
+65–79, doi:10.1177/074823379901500107 (1999).
+	190.	 Ankley, G. T. et al. Effects of the androgenic growth pro-
+moter 17-beta-trenbolone on fecundity and reproductive 
+endocrinology of the fathead minnow. Environ. Toxicol. 
+Chem. 22, 1350–1360, doi:10.1002/etc.5620220623 (2003).
+	191.	 Hartig, P. C. et al. Development of two androgen recep-
+tor assays using adenoviral transduction of MMTV-luc 
+reporter and/or hAR for endocrine screening. Toxicol. Sci. 
+66, 82–90, doi:10.1093/toxsci/66.1.82 (2002).
+	192.	 Gaido, K. W. et al. Differential interaction of the methoxy-
+chlor metabolite 2,2-bis-(p-hydroxyphenyl)-1,1,1-trichloro-
+ethane with estrogen receptors alpha and beta. Endocrinology 
+140, 5746–5753, doi:10.1210/endo.140.12.7191 (1999).
+	193.	 Wilson, V. S., Bobseine, K. & Gray, L. E., Jr. Development 
+and characterization of a cell line that stably expresses an 
+estrogen-responsive luciferase reporter for the detection 
+of estrogen receptor agonist and antagonists. Toxicol. Sci. 
+81, 69–77, doi:10.1093/toxsci/kfh180. Epub 2004 May 27 
+(2004).
+	194.	 Charles, G. D. In vitro models in endocrine disruptor screen-
+ing. ILAR J. 45, 494–501, doi:10.1093/ilar.45.4.494 (2004).
+	195.	 Klinefelter, G. R. et al. Chloroethylmethanesulfonate-
+induced effects on the epididymis seem unrelated to altered 
+Leydig cell function. Biol. Reprod. 51, 82–91, doi:10.1095/
+biolreprod51.1.82 (1994).
+	196.	 Laskey, J. W., Klinefelter, G. R., Kelce, W. R. & Ewing, 
+L. L. Effects of ethane dimethanesulfonate (EDS) on 
+adult and immature rabbit Leydig cells: Comparison with 
+EDS-treated rat Leydig cells. Biol. Reprod. 50, 1151–1160, 
+doi:10.1095/biolreprod50.5.1151 (1994).
+	197.	 Ascoli, M. Characterization of several clonal lines of cul-
+tured Leydig tumor cells: Gonadotropin receptors and 
+steroidogenic responses. Endocrinology 108, 88–95, 
+doi:10.1210/endo-108-1-88 (1981).
+	198.	 Stocco, D. M. & Chen, W. Presence of identical mito-
+chondrial proteins in unstimulated constitutive ste-
+roid-producing R2C rat Leydig tumor and stimulated 
+nonconstitutive steroid-producing MA-10 mouse Leydig 
+tumor cells. Endocrinology 128, 1918–1926, doi:10.1210/
+endo-128-4-1918 (1991).
+	199.	 Gracia, T. et al. The H295R system for evaluation of endo-
+crine-disrupting effects. Ecotoxicol. Environ. Saf. 65, 293–
+305, doi:10.1016/j.ecoenv.2006.06.012. Epub 2006 Aug 28. 
+(2006).
+	200.	 Forgacs, A. L. et al. BLTK1 murine Leydig cells: A novel 
+steroidogenic model for evaluating the effects of reproduc-
+tive and developmental toxicants. Toxicol. Sci. 127, 391–
+402, doi:10.1093/toxsci/kfs121. Epub 2012 Mar 29. (2012).
+	201.	 Klinefelter, G. R., Hall, P. F. & Ewing, L. L. Effect of lutein-
+izing hormone deprivation in situ on steroidogenesis of rat 
+Leydig cells purified by a multistep procedure. Biol. Reprod. 
+36, 769–783, doi:10.1095/biolreprod36.3.769 (1987).
+	202.	 Klinefelter, G. R., Laskey, J. W. & Roberts, N. L. In vitro/
+in vivo effects of ethane dimethanesulfonate on Leydig 
+cells of adult rats. Toxicol. Appl. Pharmacol. 107, 460–471, 
+doi:10.1016/0041-008x(91)90309-3 (1991).
+	203.	 Rasoulpour, R. J. et al. Pronamide: Human relevance of liver-
+mediated rat leydig cell tumors. Regul. Toxicol. Pharmacol. 
+72, 394–404, doi:10.1016/j.yrtph.2015.03.012 (2015).
+	204.	 Parks, L. G. et al. The plasticizer diethylhexyl phthalate 
+induces malformations by decreasing fetal testosterone syn-
+thesis during sexual differentiation in the male rat. Toxicol. 
+Sci. 58, 339–349, doi:10.1093/toxsci/58.2.339 (2000).
+	205.	 Mylchreest, E., Wallace, D. G., Cattley, R. C. & Foster, P. 
+M. Dose-dependent alterations in androgen-regulated male 
+reproductive development in rats exposed to Di(n-butyl) 
+phthalate during late gestation. Toxicol. Sci. 455, 143–151, 
+doi:10.1093/toxsci/55.1.143 (2000).
+	206.	 Wilson, V. S. et al. Phthalate ester-induced gubernacular 
+lesions are associated with reduced insl3 gene expression in 
+the fetal rat testis. Toxicol. Lett. 146, 207–215, doi:10.1016/j.
+toxlet.2003.09.012 (2004).
+	207.	 Lehmann, K. P., Phillips, S., Sar, M., Foster, P. M. & Gaido, 
+K. W. Dose-dependent alterations in gene expression 
+and testosterone synthesis in the fetal testes of male rats 
+exposed to di (n-butyl) phthalate. Toxicol. Sci. 81, 60–68, 
+doi:10.1093/toxsci/kfh169. Epub 2004 May 12 (2004).
+
+1895
+Assessment of Male Reproductive Toxicity
+	208.	 Klinefelter, G. R. et al. Novel molecular targets associated 
+with testicular dysgenesis induced by gestational exposure 
+to diethylhexyl phthalate in the rat: A role for estradiol. 
+Reproduction 144, 747–761, doi:10.1530/REP-12-0266. 
+Epub 2012 Oct 5 (2012).
+	209.	 Prentice, D. E., Siegel, R. A., Donatsch, P., Qureshi, S. & 
+Ettlin, R. A. Mesulergine induced Leydig cell tumours, a 
+syndrome involving the pituitary-testicular axis of the rat. 
+Arch. Toxicol. Suppl. 15, 197–204, doi:10.1007/978-3-642-
+77260-3_27 (1992).
+	210.	 Chapin, R. E. et al. Effects of the Janus kinase inhibitor, 
+Tofacitinib, on testicular Leydig cell hyperplasia and ade-
+noma in rats, and on prolactin signaling in cultured primary 
+rat Leydig cells. Toxicol. Sci. 155, 148–156, doi:10.1093/
+toxsci/kfw197 (2017).
+	211.	 Simard, J., Luthy, I., Guay, J., Belanger, A. & Labrie, F. 
+Characteristics of interaction of the antiandrogen flu-
+tamide with the androgen receptor in various target tissues. 
+Mol. Cell. Endocrinol. 44, 261–270, doi:10.1016/0303-
+7207(86)90132-2 (1986).
+	212.	 Cook, J. C., Mullin, L. S., Frame, S. R. & Biegel, L. B. 
+Investigation of a mechanism for Leydig cell tumorigenesis 
+by linuron in rats. Toxicol. Appl. Pharmacol. 119, 195–204, 
+doi:10.1006/taap.1993.1060 (1993).
+	213.	 Viguier-Martinez, M. C., Hochereau de Reviers, M. T., 
+Barenton, B. & Perreau, C. Effect of a non-steroidal antian-
+drogen, flutamide, on the hypothalamo-pituitary axis, geni-
+tal tract and testis in growing male rats: Endocrinological 
+and histological data. Acta Endocrinol. (Copenh) 102, 299–
+306, doi:10.1530/acta.0.1020299 (1983).
+	214.	 Viguier-Martinez, M. C., Hochereau de Reviers, M. T., 
+Barenton, B. & Perreau, C. Endocrinological and histologi-
+cal changes induced by flutamide treatment on the hypo-
+thalamo-hypophyseal testicular axis of the adult male rat 
+and their incidences on fertility. Acta Endocrinol. (Copenh) 
+104, 246–252, doi:10.1530/acta.0.1040246 (1983).
+	215.	 Prahalada, S. et al. Leydig cell hyperplasia and adenomas 
+in mice treated with finasteride, a 5 alpha-reductase inhibi-
+tor: A possible mechanism. Fundam. Appl. Toxicol. 22, 
+211–219, doi:10.1006/faat.1994.1025 (1994).
+	216.	 Fort, F. L. et al. Mechanism for species-specific induction of 
+Leydig cell tumors in rats by lansoprazole. Fundam. Appl. 
+Toxicol. 26, 191–202, doi:10.1006/faat.1995.1090 (1995).
+	217.	 Coulson, M., Gibson, G. G., Plant, N., Hammond, T. & 
+Graham, M. Lansoprazole increases testosterone metabolism 
+and clearance in male Sprague-Dawley rats: Implications for 
+Leydig cell carcinogenesis. Toxicol. Appl. Pharmacol. 192, 
+154–163, doi:10.1016/s0041-008x(03)00275-8 (2003).
+	218.	 Salva, A., Klinefelter, G. R. & Hardy, M. P. Purification of 
+rat leydig cells: Increased yields after unit-gravity sedimen-
+tation of collagenase-dispersed interstitial cells. J. Androl. 
+22, 665–671 (2001).
+	219.	 Kelce, W. R., Zirkin, B. R. & Ewing, L. L. Immature rat Leydig 
+cells are intrinsically less sensitive than adult Leydig cells to 
+ethane dimethanesulfonate. Toxicol. Appl. Pharmacol. 111, 
+189–200, doi:10.1016/0041-008x(91)90023-8 (1991).
+	220.	 Chapin, R. E., Phelps, J. L., Somkuti, S. G., Heindel, J. 
+J. & Burka, L. T. The interaction of Sertoli and Leydig 
+cells in the testicular toxicity of tri-o-cresyl phosphate. 
+Toxicol. Appl. Pharmacol. 104, 483–495, doi:10.1016/0041-
+008x(90)90170-y (1990).
+	221.	 Akingbemi, B. T., Ge, R. S., Klinefelter, G. R., Gunsalus, G. 
+L. & Hardy, M. P. A metabolite of methoxychlor, 2,2-bis(p-
+hydroxyphenyl)-1,1, 1-trichloroethane, reduces testoster-
+one biosynthesis in rat leydig cells through suppression 
+of steady-state messenger ribonucleic acid levels of the 
+cholesterol side-chain cleavage enzyme. Biol. Reprod. 62, 
+571–578, doi:10.1095/biolreprod62.3.571 (2000).
+	222.	 Sherrill, J. D. et al. Developmental exposures of male rats to soy 
+isoflavones impact Leydig cell differentiation. Biol. Reprod. 83, 
+488–501, doi:10.1095/biolreprod.109.082685 (2010).
+	223.	 Gray, L. E. et al. Hamster Leydig cells are less sensitive 
+to ethane dimethanesulfonate when compared to rat Leydig 
+cells both in vivo and in vitro. Toxicol. Appl. Pharmacol. 
+130, 248–256, doi:10.1006/taap.1995.1030 (1995).
+	224.	 Tarka-Leeds, D. K. et al. Gestational exposure to ethane 
+dimethanesulfonate permanently alters reproductive com-
+petence in the CD-1 mouse. Biol. Reprod. 69, 959–967, 
+doi:10.1095/biolreprod.103.017343. Epub 2003 May 14 
+(2003).
+	225.	 Trasler, J. M., Hales, B. F. & Robaire, B. Chronic low dose 
+cyclophosphamide treatment of adult male rats: Effect on 
+fertility, pregnancy outcome and progeny. Biol. Reprod. 34, 
+275–283, doi:10.1095/biolreprod34.2.275 (1986).
+	226.	 Marchetti, F., Douglas, G. R. & Yauk, C. L. A Return to 
+the origin of the EMGS: Rejuvenating the quest for human 
+germ cell mutagens and determining the risk to future 
+generations. Environ. Mol. Mutag. 61, 42–54, doi:10.1002/
+em.22327 (2020).
+	227.	 Heller, C. H. & Clermont, Y. Kinetics of the germinal epithe-
+lium in man. Recent Prog. Horm. Res. 20, 545–575 (1964).
+	228.	 Amann, R. P. The cycle of the seminiferous epithelium 
+in humans: A need to revisit? J. Androl. 29, 469–487, 
+doi:10.2164/jandrol.107.004655 (2008).
+	229.	 Hales, B. F., Barton, T. S. & Robaire, B. Impact of paternal 
+exposure to chemotherapy on offspring in the rat. J. Natl. 
+Cancer Inst. Monogr. 28–31, doi:10.1093/jncimonographs/
+lgi028 (2005).
+	230.	 Adler, I.-D. & Ashby, J. The present lack of evidence for 
+unique rodent germ-cell mutagens. Mutat. Res./Fundam. 
+Mol. Mech. Mutagen. 212, 55–66, doi:10.1016/0027-
+5107(89)90022-5 (1989).
+	231.	 Holden, H. E. Comparison of somatic and germ cell mod-
+els for cytogenetic screening. J. Appl. Toxicol. 2, 196–200, 
+doi:10.1002/jat.2550020405 (1982).
+	232.	 Waters, M. D., Stack, H. F., Jackson, M. A. & Bridges, 
+B. A. Hazard identification: Efficiency of short-term tests 
+in identifying germ cell mutagens and putative nongeno-
+toxic carcinogens. Environ. Health Perspect. 101, 61–72, 
+doi:10.1289/ehp.93101s361 (1993).
+	233.	 Singer, T. M. & Yauk, C. L. Germ cell mutagens: Risk 
+assessment challenges in the 21st century. Environ. Mol. 
+Mutag. 51, 919–928, doi:10.1002/em.20613 (2010).
+	234.	 Mulvihill, J. J. Preconception exposure to mutagens: 
+Medical and other exposures to radiation and chemicals. 
+J. Community Genet. 3, 205–211, doi:10.1007/s12687-012-
+0104-2 (2012).
+	235.	 Al-Jebari, Y. et al. Cancer therapy and risk of congenital 
+malformations in children fathered by men treated for 
+testicular germ-cell cancer: A nationwide register study. 
+PLoS Med. 16, e1002816, doi:10.1371/journal.pmed. 
+1002816 (2019).
+
+1896
+Hayes’ Principles and Methods of Toxicology
+	236.	 Perez, M. F. & Lehner, B. Intergenerational and transgen-
+erational epigenetic inheritance in animals. Nat. Cell Biol. 
+21, 143–151, doi:10.1038/s41556-018-0242-9 (2019).
+	237.	 Xavier, M. J., Roman, S. D., Aitken, R. J. & Nixon, B. 
+Transgenerational inheritance: How impacts to the epi-
+genetic and genetic information of parents affect offspring 
+health. Hum. Reprod. Update 25, 519–541, doi:10.1093/
+humupd/dmz017 (2019).
+	238.	 Skvortsova, K., Iovino, N. & Bogdanovi•, O. Functions 
+and mechanisms of epigenetic inheritance in animals. Nat. 
+Rev. Mol. Cell Biol. 19, 774–790, doi:10.1038/s41580-018-
+0074-2 (2018).
+	239.	 Skinner, M. K. What is an epigenetic transgenerational phe-
+notype?: F3 or F2. Reprod. Toxicol. 25, 2–6, doi:10.1016/j.
+reprotox.2007.09.001 (2008).
+	240.	 Ryan, C. P. & Kuzawa, C. W. Germline epigenetic inheri-
+tance: Challenges and opportunities for linking human 
+paternal experience with offspring biology and health. Evol. 
+Anthropol.: Issues, News, Rev. 29, 180–200, doi:10.1002/evan. 
+21828 (2020).
+	241.	 Anway, M. D., Cupp, A. S., Uzumcu, M. & Skinner, M. K. 
+Epigenetic transgenerational actions of endocrine disrup-
+tors and male fertility. Science 308, 1466–1469, doi:10.1126/
+science.1108190 (2005).
+	242.	 Van Cauwenbergh, O., Di Serafino, A., Tytgat, J. & Soubry, 
+A. Transgenerational epigenetic effects from male exposure 
+to endocrine-disrupting compounds: A systematic review 
+on research in mammals. Clin. Epigenetics 12, 1–23 (2020).
+	243.	 Sharma, U. Paternal contributions to offspring health: 
+Role of sperm small RNAs in intergenerational transmis-
+sion of epigenetic information. Front. Cell Dev. Biol. 7, 
+doi:10.3389/fcell.2019.00215 (2019).
+	244.	 Shelby, M. D. Selecting chemicals and assays for assessing 
+mammalian germ cell mutagenicity. Mutat. Res./Fundam. 
+Mol. Mech. Mutagen. 352, 159–167 (1996).
+	245.	 Western, P. S. Epigenomic drugs and the germline: Collateral 
+damage in the home of heritability? Mol. Cell. Endocrinol. 
+468, 121–133, doi:10.1016/j.mce.2018.02.008 (2018).
+	246.	 Jarred, E. G., Bildsoe, H. & Western, P. S. Out of sight, 
+out of mind? Germ cells and the potential impacts of 
+epigenomic drugs. F1000Res 7, F1000 Faculty Rev-1967, 
+doi:10.12688/f1000research.15935.1 (2018).
+	247.	 Hui, J. Y., Hoffmann, M. & Kumar, G. Embryo-fetal 
+exposure and developmental outcome of thalidomide fol-
+lowing oral and intravaginal administration to pregnant 
+rabbits. Reprod. Toxicol. 48, 115–123, doi:10.1016/j.repro-
+tox.2014.05.002 (2014).
+	248.	 Thompson, K. E. et al. Evaluation of early fetal exposure 
+to vaginally-administered metronidazole in pregnant cyno-
+molgus monkeys. Reprod. Toxicol. 59, 17–21, doi:10.1016/j.
+reprotox.2015.10.013 (2016).
+	249.	 Breslin, W. J., Hilbish, K. G., Page, T. J. & Coutant, D. 
+E. Assessment of fetal exposure risk following seminal 
+excretion of a therapeutic IgG4 (T-IgG4) monoclonal anti-
+body using a rabbit model. Reprod. Toxicol. 48, 124–131, 
+doi:10.1016/j.reprotox.2014.05.004 (2014).
+	250.	 Moffat, G. J. et al. Placental transfer of a fully human IgG2 
+monoclonal antibody in the cynomolgus monkey, rat, and 
+rabbit: A comparative assessment from during organogen-
+esis to late gestation. Birth Defects Res. B: Dev. Reprod. 
+Toxicol. 101, 178–188, doi:10.1002/bdrb.21105 (2014).
+	251.	 Sohn, W. et al. An open-label study in healthy men to evalu-
+ate the risk of seminal fluid transmission of denosumab to 
+pregnant partners. Br. J. Clin. Pharmacol. 81, 362–369, 
+doi:10.1111/bcp.12798 (2016).
+	252.	 Banholzer, M. L. et al. Clinical trial considerations on 
+male contraception and collection of pregnancy informa-
+tion from female partner: Update. Clin. Transl. Med. 5, 23, 
+doi:10.1186/s40169-016-0103-8 (2016).
+	253.	 Lu, J.-C., Huang, Y.-F. & Lü, N.-Q. WHO Laboratory man-
+ual for the examination and processing of human semen: Its 
+applicability to andrology laboratories in China. Zhonghua 
+nan ke xue= Natl. J. Androl. 16, 867–871 (2010).
+	254.	 Bonde, J. P., Giwercman, A. & Ernst, E. Identifying envi-
+ronmental risk to male reproductive function by occupa-
+tional sperm studies: Logistics and design options. Occup. 
+Environ. Med. 53, 511–519, doi:10.1136/oem.53.8.511 
+(1996).
+	255.	 FDA. Testicular Toxicity: Evaluation during Drug 
+Development - Guidance for Industry. (2018). US Food and 
+Drug Administration (FDA).
+	256.	 Meistrich, M. L. Effects of chemotherapy and radiotherapy 
+on spermatogenesis in humans. Fertil. Steril. 100, 1180–
+1186, doi:10.1016/j.fertnstert.2013.08.010 (2013).
+	257.	 Jarow, J. P., Fang, X. & Hammad, T. A. Variability of semen 
+parameters with time in placebo treated men. J. Urol. 189, 
+1825–1829, doi:doi:10.1016/j.juro.2012.11.077 (2013).
+	258.	 Amory, J. K. et al. The effect of 5−-reductase inhibition with 
+dutasteride and finasteride on semen parameters and serum 
+hormones in healthy men. J. Clin. Endocrinol. Metabol. 92, 
+1659–1665, doi:10.1210/jc.2006-2203 (2007).
+	259.	 Lawson, C. C. et al. An occupational reproductive research 
+agenda for the third millennium. Environ. Health Perspect. 
+111, 584–592, doi:10.1289/ehp.5548 (2003).
+	260.	Low, L. A., Mummery, C., Berridge, B. R., Austin, C. P. 
+& Tagle, D. A. Organs-on-chips: Into the next decade. 
+Nat. Rev. Drug Discov. doi:10.1038/s41573-020-0079-3 
+(2020).
+	261.	 Fabre, K. et al. Introduction to a manuscript series on the 
+characterization and use of microphysiological systems 
+(MPS) in pharmaceutical safety and ADME applications. 
+Lab Chip 20, 1049–1057, doi:10.1039/c9lc01168d (2020).

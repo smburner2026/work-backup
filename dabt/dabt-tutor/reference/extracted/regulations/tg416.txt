@@ -1,0 +1,642 @@
+# TG416.pdf
+# Category: oecd
+# Pages: 13
+
+OECD/OCDE 
+416
+Adopted:
+22
+nd January 2001
+1/13
+OECD GUIDELINE FOR TESTING OF CHEMICALS
+Two-Generation Reproduction Toxicity Study
+INTRODUCTION
+1.
+In Copenhagen in June 1995, an OECD Working Group on Reproduction and Developmental
+Toxicity discussed the need to update existing OECD Test Guidelines for reproduction and developmental
+toxicity and the development of new Guidelines for endpoints not yet covered.  The Working Group
+recommended that the Guideline for the Two-generation Reproduction Toxicity Study should be revised,
+based on proposals received from US and Germany.  The Working Group reached agreement on all major
+elements of the revised version of this Guideline (1).
+INITIAL CONSIDERATIONS
+2.
+This Guideline for two-generation reproduction testing is designed to provide general
+information concerning the effects of a test substance on the integrity and performance of the male and
+female reproductive systems, including gonadal function, the oestrus cycle, mating behaviour, conception,
+gestation, parturition, lactation, and weaning, and the growth and development of the offspring.  The study
+may also provide information about the effects of the test substance on neonatal morbidity, mortality, and
+preliminary data on prenatal and postnatal developmental toxicity and serve as a guide for subsequent tests.
+In addition to studying growth and development of the F1 generation, this Guideline is also intended to
+assess the integrity and performance of the male and female reproductive systems as well as growth and
+development of the F2 generation.  For further information on developmental toxicity and functional
+deficiencies, either additional study segments can be incorporated into this protocol, utilising the
+Guidelines for developmental toxicity and/or developmental neurotoxicity, or these endpoints could be
+studied in separate studies, using the appropriate Guidelines.
+PRINCIPLE OF THE TEST
+3.
+The test substance is administered in graduated doses to several groups of males and females.
+Males of the P generation should be dosed during growth and for at least one complete spermatogenic
+cycle (approximately 56 days in the mouse and 70 days in the rat) in order to elicit any adverse effects on
+spermatogenesis.  Effects on sperm are determined by a number of sperm parameters (e.g., sperm
+morphology and motility) and in tissue preparation and detailed histopathology.  If data on
+spermatogenesis are available from a previous repeated dose study of sufficient duration, e.g. a 90 day
+study, males of the P generation need not be included in the evaluation.  It is recommended, however, that
+samples or digital recordings of sperm of the P generation are saved, to enable later evaluation.  Females of
+the P generation should be dosed during growth and for several complete oestrus cycles in order to detect
+any adverse effects on oestrus cycle normality by the test substance.  The test substance is administered to
+parental (P) animals during their mating, during the resulting pregnancies, and through the weaning of their
+Fl offspring.  At weaning the administration of the substance is continued to Fl offspring during their
+growth into adulthood, mating and production of an F2 generation, until the F2 generation is weaned.
+
+416 
+OECD/OCDE
+2/13
+4.
+Clinical observations and pathological examinations are performed on all animals for signs of
+toxicity with special emphasis on effects on the integrity and performance of the male and female
+reproductive systems and on the growth and development of the offspring.
+DESCRIPTION OF THE METHOD / PREPARATIONS FOR THE TEST
+Selection of animal species
+5.
+The rat is the preferred species for testing.  If other species are used, justification should be given
+and appropriate modifications will be necessary.  Strains with low fecundity or well-known high incidence
+of developmental defects should not be used.  At the commencement of the study, the weight variation of
+animals used should be minimal and not exceed 20% of the mean weight of each sex.
+Housing and feeding conditions
+6.
+The temperature in the experimental animal room should be (22 ± 3)°C.  Although the relative
+humidity should be at least 30 % and preferably not exceed 70% other than during room cleaning, the aim
+should be 50-60 %.  Lighting should be artificial, the sequence being 12 hours light, 12 hours dark.  For
+feeding, conventional laboratory diets may be used with an unlimited supply of drinking water.  The choice
+of diet may be influenced by the need to ensure a suitable admixture of a test substance when administered
+by this method.
+7.
+Animals may be housed individually or be caged in small groups of the same sex.  Mating
+procedures should be carried out in cages suitable for the purpose.  After evidence of copulation, mated
+females shall be single-caged in delivery or maternity cages.  Mated rats may also be kept in small groups
+and separated one or two days prior to parturition.  Mated animals shall be provided with appropriate and
+defined nesting materials when parturition is near.
+Preparation of animals
+8.
+Healthy young animals, which have been acclimated to laboratory conditions for at least 5 days
+and have not been subjected to previous experimental procedures, should be used.  The test animals should
+be characterised as to species, strain, source, sex, weight and/or age.  Any sibling relationships among the
+animals should be known so that mating of siblings is avoided.  The animals should be randomly assigned
+to the control and treated groups (stratification by body weight is recommended).  Cages should be
+arranged in such a way that possible effects due to cage placement are minimised.  Each animal should be
+assigned a unique identification number.  For the P generation, this should be done before dosing starts.
+For the F1 generation, this should be done at weaning for animals selected for mating.  Records indicating
+the litter of origin should be maintained for all selected F1 animals.  In addition, individual identification of
+pups as soon after birth as possible is recommended when individual weighing of pups or functional tests
+are considered.
+9.
+Parental (P) animals shall be about 5 to 9 weeks old at the start of dosing.  The animals of all test
+groups shall, as nearly as practicable, be of uniform weight and age.
+
+OECD/OCDE 
+416
+3/13
+PROCEDURE
+Number and sex of animals
+10.
+Each test and control group should contain a sufficient number of animals to yield preferably not
+less than 20 pregnant females at or near parturition.  For substances that cause undesirable treatment
+related effects (e.g. sterility, excessive toxicity at the high dose), this may not be possible.  The objective is
+to produce enough pregnancies to assure a meaningful evaluation of the potential of the substance to affect
+fertility, pregnancy and maternal behaviour and suckling, growth and development of the F1 offspring
+from conception to maturity, and the development of their offspring (F2) to weaning.  Therefore, failure to
+achieve the desired number of pregnant animals (i.e. 20) does not necessarily invalidate the study and
+should be evaluated on a case-by-case basis.
+Preparation of Doses
+11.
+It is recommended that the test substance be administered orally (by diet, drinking water or
+gavage) unless another route of administration (e.g. dermal or inhalation) is considered more appropriate.
+12.
+Where necessary, the test substance is dissolved or suspended in a suitable vehicle.  It is
+recommended that, wherever possible, the use of an aqueous solution/suspension be considered first,
+followed by consideration of a solution/emulsion in oil (e.g. corn oil) and then by possible solution in other
+vehicles. For vehicles other than water, the toxic characteristics of the vehicle must be known.  The
+stability of the test substance in the vehicle should be determined.
+Dosage
+13.
+At least three dose levels and a concurrent control shall be used.  Unless limited by the
+physical-chemical nature or biological effects of the test substance, the highest dose level should be chosen
+with the aim to induce toxicity but not death or severe suffering.  In case of unexpected mortality, studies
+with a mortality rate of less than approximately 10 percent in the parental (P) animals would normally still
+be acceptable.  A descending sequence of dose levels should be selected with a view to demonstrating any
+dosage related effect and no-observed-adverse-effects level (NOAEL) or doses near the limit of detection
+that would allow the determination of a benchmark dose.  Two to four fold intervals are frequently optimal
+for setting the descending dose levels and addition of a fourth test group is often preferable to using very
+large intervals (e.g. more than a factor of 10) between dosages.  For the dietary studies the dose interval
+should be not more than 3 fold. Dose levels should be selected taking into account any existing toxicity
+data, especially results from repeated dose studies.  Any available information on metabolism and kinetics
+of the test compound or related materials should also be considered.  In addition, this information will also
+assist in demonstrating the adequacy of the dosing regimen.
+14.
+The control group shall be an untreated group or a vehicle-control group if a vehicle is used in
+administering the test substance.  Except for treatment with the test substance, animals in the control group
+should be handled in an identical manner to the test group subjects.  If a vehicle is used, the control group
+shall receive the vehicle in the highest volume used.  If a test substance is administered in the diet, and
+causes reduced dietary intake or utilisation, then the use of a paired control group may be considered
+necessary.  Alternatively data from controlled studies designed to evaluate the effects of decreased food
+consumption on reproductive parameters may be used in lieu of a concurrent pair-fed control group.
+15.
+Consideration should be given to the following characteristics of vehicle and other additives:
+effects on the absorption, distribution, metabolism, or retention of the test substance; effects on the
+chemical properties of the test substance which may alter its toxic characteristics; and effects on the food
+or water consumption or the nutritional status of the animals.
+
+416 
+OECD/OCDE
+4/13
+Limit test
+16.
+If an oral study at one dose level of at least 1000 mg/kg body weight/day or, for dietary or
+drinking water administration, an equivalent percentage in the diet or drinking water using the procedures
+described for this study, produces no observable toxic effects and if toxicity would not be expected based
+upon data from structurally and /or metabolically related compounds, then a full study using several dose
+levels may not be considered necessary.  The limit test applies except when human exposure indicates the
+need for a higher oral dose level to be used.  For other types of administration, such as inhalation or dermal
+application, the physical chemical properties of the test substance, such as solubility, often may dictate the
+maximum attainable concentration.
+Administration of doses
+17.
+The animals should be dosed with the test substance on a 7-days-a-week basis.  The oral route of
+administration (diet, drinking water, or gavage) is preferred.  If another route of administration is used,
+justification shall be provided, and appropriate modifications may be necessary.  All animals shall be dosed
+by the same method during the appropriate experimental period.  When the test substance is administered
+by gavage, this should be done using a stomach tube.  The volume of liquid administered at one time
+should not exceed 1 ml/l00 g body weight (0.4 ml/100 g body weight is the maximum for corn oil), except
+in the case of aqueous solutions where 2 ml/100 g body weight may be used.  Except for irritant or
+corrosive substances which will normally reveal exacerbated effects with higher concentrations, variability
+in test volume should be minimised by adjusting the concentration to ensure a constant volume at all dose
+levels.  In gavage studies, the pups will normally only receive test substance indirectly through the milk,
+until direct dosing commences for them at weaning.  In diet or drinking water studies, the pups will
+additionally receive test substance directly when they commence eating for themselves during the last
+week of the lactation period.
+18.
+For substances administered via the diet or drinking water, it is important to ensure that the
+quantities of the test substance involved do not interfere with normal nutrition or water balance.  When the
+test substance is administered in the diet either a constant dietary concentration (ppm) or a constant dose
+level in terms of the body weight of the animal may be used; the alternative used must be specified.  For a
+substance administered by gavage, the dose should be given at similar times each day, and adjusted at least
+weekly to maintain a constant dose level in terms of animal body weight. Information regarding placental
+distribution should be considered when adjusting the gavage dose based on weight.
+Experimental schedules
+19.
+Daily dosing of the parental (P) males and females shall begin when they are 5 to 9 weeks old.
+Daily dosing of the F1 males and females shall begin at weaning; it should be kept in mind that in cases of
+test substance administration via diet or drinking water, direct exposure of the F1 pups to the test substance
+may already occur during the lactation period.  For both sexes (P and F1), dosing shall be continued for at
+least 10 weeks before the mating period.  Dosing is continued in both sexes during the 2 week mating
+period.  Males should be humanely killed and examined when they are no longer needed for assessment of
+reproductive effects.  For parental (P) females, dosing should continue throughout pregnancy and up to the
+weaning of the F1 offspring.  Consideration should be given to modifications in the dosing schedule based
+on available information on the test substance, including existing toxicity data, induction of metabolism or
+bioaccumulation.  The dose to each animal should normally be based on the most recent individual body
+weight determination.  However, caution should be exercised when adjusting the dose during the last
+trimester of pregnancy.
+20.
+Treatment of the P and F1 males and females shall continue until termination.  All P and F1 adult
+males and females should be humanely killed when they are no longer needed for assessment of
+
+OECD/OCDE 
+416
+5/13
+reproductive effects.  F1 offspring not selected for mating and all F2 offspring should be humanely killed
+after weaning.
+Mating procedure
+Parental (P) mating
+21.
+For each mating, each female shall be placed with a single male from the same dose level (1:1
+mating) until copulation occurs or 2 weeks have elapsed.  Each day, the females shall be examined for
+presence of sperm or vaginal plugs.  Day 0 of pregnancy is defined as the day a vaginal plug or sperm are
+found.  In case pairing is unsuccessful, re-mating of females with proven males of the same group could be
+considered. Mating pairs should be clearly identified in the data. Mating of siblings should be avoided.
+F1 mating
+22.
+For mating the F1 offspring, at least one male and one female should be selected at weaning from
+each litter for mating with other pups of the same dose level but different litter, to produce the F2
+generation.  Selection of pups from each litter should be random when no significant differences are
+observed in body weight or appearance between the litter mates.  In case these differences are observed,
+the best representatives of each litter should be selected.  Pragmatically, this is best done on a body weight
+basis but it may be more appropriate on the basis of appearance.  The F1 offspring should not be mated
+until they have attained full sexual maturity.
+23.
+Pairs without progeny should be evaluated to determine the apparent cause of the infertility.  This
+may involve such procedures as additional opportunities to mate with other proven sires or dams,
+microscopic examination of the reproductive organs, and examination of the oestrous cycles or
+spermatogenesis.
+Second mating
+24.
+In certain instances, such as treatment-related alterations in litter size or the observation of an
+equivocal effect in the first mating, it is recommended that the P or F1 adults be remated to produce a
+second litter.  It is recommended to remate females or males which have not produced a litter with proven
+breeders of the opposite sex.  If production of a second litter is deemed necessary in either generation,
+animals should be remated approximately one week after weaning of the last litter.
+Litter size
+25.
+Animals shall be allowed to litter normally and rear their offspring to weaning.  Standardisation
+of litter sizes is optional.  When standardisation is done, the method used should be described in detail.
+
+416 
+OECD/OCDE
+6/13
+OBSERVATIONS
+Clinical observations
+26.
+A general clinical observation should be made each day and, and in the case of gavage dosing its
+timing should take into account the anticipated peak period of effects after dosing.  Behavioural changes,
+signs of difficult or prolonged parturition and all signs of toxicity should be recorded.  An additional, more
+detailed examination of each animal should be conducted on at least a weekly basis and could conveniently
+be performed on an occasion when the animal is weighed.  Twice daily, during the weekend once daily
+when appropriate, all animals should be observed for morbidity and mortality.
+Body weight and food/water consumption of parent animals
+27.
+Parental animals (P and Fl) shall be weighed on the first day of dosing and at least weekly
+thereafter.  Parental females (P and F1) shall be weighed at a minimum on gestation days 0, 7, 14, and 20
+or 21, and during lactation on the same days as the weighing of litters and on the day the animals are killed.
+These observations should be reported individually for each adult animal.  During the premating and
+gestation periods food consumption shall be measured weekly at a minimum.  Water consumption shall be
+measured weekly at a minimum if the test substance is administered in the water.
+Oestrus cycle
+28.
+Oestrous cycle length and normality are evaluated in P and F1 females by vaginal smears prior to
+mating, and optionally during mating, until evidence of mating is found.  When obtaining vaginal/cervical
+cells, care should be taken to avoid disturbance of mucosa and subsequently, the induction of
+pseudopregnancy (2).
+Sperm parameters
+29.
+For all P and F1 males at termination, testis and epididymis weight shall be recorded and one of
+each organ reserved for histopathological examination (see paragraphs 39, 42, 44).  Of a subset of at least
+ten males of each group of P and F1 males, the remaining testes and epididymides should be used for
+enumeration of homogenisation-resistant spermatids and cauda epididymides sperm reserves, respectively.
+For this same subset of males, sperm from the cauda epididymides or vas deferens should be collected for
+evaluation of sperm motility and sperm morphology. If treatment-related effects are observed or when
+there is evidence from other studies of possible effects on spermatogenesis, sperm evaluation should be
+conducted in all males in each dose group; otherwise enumeration may be restricted to control and high-
+dose P and F1 males.
+30.
+The total number of homogenisation-resistant testicular spermatids and cauda epididymal sperm
+should be enumerated (3)(4).  Cauda sperm reserves can be derived from the concentration and volume of
+sperm in the suspension used to complete the qualitative evaluations, and the number of sperm recovered
+by subsequent mincing and/or homogenising of the remaining cauda tissue.  Enumeration should be
+performed on the selected subset of males of all dose groups immediately after killing the animals unless
+video or digital recordings are made, or unless the specimens are freezed and analysed later.  In these
+instances, the controls and high dose group may be analysed first. If no treatment-related effects (e.g.,
+effects on sperm count, motility, or morphology) are seen the other dose groups need not be analysed.
+When treatment-related effects are noted in the high-dose group, then the lower dose groups should also be
+evaluated.
+
+OECD/OCDE 
+416
+7/13
+31.
+Epididymal (or ductus deferens) sperm motility should be evaluated or video taped immediately
+after sacrifice.  Sperm should be recovered while minimising damage, and diluted for motility analysis
+using acceptable methods (5).  The percentage of progressively motile sperm should be determined either
+subjectively or objectively.  When computer-assisted motion analysis is performed (6)(7)(8)(9)(10)(11) the
+derivation of progressive motility relies on user-defined thresholds for average path velocity and
+straightness or linear index.  If samples are videotaped (12) or the images are otherwise recorded at the
+time of necropsy, subsequent analysis of only control and high-dose P and F1 males may be performed
+unless treatment-related effects are observed; in that case, the lower dose groups should also be evaluated.
+In the absence of a video or digital image, all samples in all treatment groups should be analysed at
+necropsy.
+32.
+A morphological evaluation of an epididymal (or vas deferens) sperm sample should be
+performed.  Sperm (at least 200 per sample) should be examined as fixed, wet preparations (13) and
+classified as either normal or abnormal.  Examples of morphologic sperm abnormalities would include
+fusion, isolated heads, and misshapen heads and/or tails.  Evaluation should be performed on the selected
+subset of males of all dose groups either immediately after killing the animals, or, based on the video or
+digital recordings, at a later time. Smears, once fixed, can also be read at a later time. In these instances,
+the controls and high dose group may be analysed first.  If no treatment-related effects (e.g., effects on
+sperm morphology) are seen the other dose groups need not be analysed.  When treatment-related effects
+are noted in the high-dose group, then the lower dose groups should also be evaluated.
+33.
+If any of the above sperm evaluation parameters have already been examined as part of a
+systemic toxicity study of at least 90 days, they need not necessarily be repeated in the two-generation
+study.  It is recommended, however, that samples or digital recordings of sperm of the P generation are
+saved, to enable later evaluation, if necessary.
+Offspring
+34.
+Each litter should be examined as soon as possible after delivery (lactation day 0) to establish the
+number and sex of pups, stillbirths, live births, and the presence of gross anomalies.  Pups found dead on
+day 0, if not macerated, should preferably be examined for possible defects and cause of death and
+preserved.  Live pups should be counted and weighed individually at birth (lactation day 0) or on day 1,
+and on regular weigh days thereafter, e.g., on days 4, 7, 14, and 21 of lactation. Physical or behavioural
+abnormalities observed in the dams or offspring should be recorded.
+35.
+Physical development of the offspring should be recorded mainly by body weight gain.  Other
+physical parameters (e.g. ear and eye opening, tooth eruption, hair growth) may give supplementary
+information, but these data should preferably be evaluated in the context of data on sexual maturation (e.g.
+age and body weight at vaginal opening or balano-preputial separation) (14).  Functional investigations
+(e.g. motor activity, sensory function, reflex ontogeny) of the F1 offspring before and/or after weaning,
+particularly those related to sexual maturation, are recommended if such investigations are not included in
+separate studies.  The age of vaginal opening and preputial separation should be determined for F1
+weanlings selected for mating. Anogenital distance should be measured at postnatal day 0 in F2 pups if
+triggered by alterations in F1 sex ratio or timing of sexual maturation.
+36.
+Functional observations may be omitted in groups that otherwise reveal clear signs of adverse
+effects (e.g., significant decrease in weight gain, etc.).  If functional investigations are made, they should
+not be done on pups selected for mating.
+
+416 
+OECD/OCDE
+8/13
+Gross necropsy
+37.
+At the time of termination or death during the study, all parental animals (P and F1), all pups with
+external abnormalities or clinical signs, as well as at least one randomly selected pup/sex/litter from both
+the F1 and F2 generation, shall be examined macroscopically for any structural abnormalities or
+pathological changes.  Special attention should be paid to the organs of the reproductive system.  Pups that
+are humanely killed in a moribund condition and dead pups, when not macerated, should be examined for
+possible defects and/or cause of death and preserved.
+38.
+The uteri of all primiparous females should be examined, in a manner which does not
+compromise histopathological evaluation, for the presence and number of implantation sites.
+Organ weights
+39.
+At the time of termination, body weight and the weight of the following organs of all P and F1
+parental animals shall be determined (paired organs should be weighed individually):
+• Uterus, ovaries;
+• Testes, epididymides (total and cauda);
+• Prostate;
+• Seminal vesicles with coagulating glands and their fluids (as one unit);
+• Brain, liver, kidneys, spleen, pituitary, thyroid and adrenal glands and known target organs.
+40.
+Terminal body weights should be determined for F1 and F2 pups that are selected for necropsy,
+and the following organs from the one randomly selected pup/sex/litter (see paragraph 37) shall be
+weighed:  - Brain, spleen and thymus.
+41.
+Gross necropsy and organ weight results should be assessed in context with observations made in
+other repeated dose studies, when feasible.
+Histopathology
+Parental Animals
+42.
+The following organs and tissues of parental (P and F1) animals, or representative samples
+thereof, shall be fixed and stored in a suitable medium for histopathological examination.
+• Vagina, uterus with cervix, and ovaries (preserved in an appropriate fixative);
+• One testis (preserved in Bouin’s or comparable fixative), one epididymis, seminal vesicles, prostate,
+and coagulating gland;
+• Previously identified target organ(s) from all P and F1 animals selected for mating.
+43.
+Full histopathology of the preserved organs and tissues listed in paragraph 42 should be
+performed for all high dose and control P and F1 animals selected for mating.  Examination of the ovaries
+of the P animals is optional.  Organs demonstrating treatment-related changes should also be examined in
+the low- and mid-dose groups to aid in the elucidation of the NOAEL.  Additionally, reproductive organs
+of the low-and mid-dose animals suspected of reduced fertility, e.g., those that failed to mate, conceive,
+sire, or deliver healthy offspring, or for which oestrus cyclicity or sperm number, motility, or morphology
+were affected, should be subjected to histopathological evaluation.  All gross lesions such as atrophy or
+tumours shall be examined.
+
+OECD/OCDE 
+416
+9/13
+44.
+Detailed testicular histopathological examination (e.g. using Bouin’s fixative, paraffin embedding
+and transverse sections of 4-5µ m thickness) should be conducted in order to identify treatment-related
+effects such as retained spermatids, missing germ cell layers or types, multinucleated giant cells or
+sloughing of spermatogenic cells into the lumen (15).  Examination of the intact epididymis should include
+the caput, corpus, and cauda, which can be accomplished by evaluation of a longitudinal section.  The
+epididymis should be evaluated for leukocyte infiltration, change in prevalence of cell types, aberrant cell
+types, and phagocytosis of sperm.  PAS and haematoxylin staining may be used for examination of the
+male reproductive organs.
+45.
+The postlactational ovary should contain primordial and growing follicles as well as the large
+corpora lutea of lactation. Histopathological examination should detect qualitative depletion of the
+primordial follicle population.  A quantitative evaluation of primordial follicles should be conducted for F1
+females; the number of animals, ovarian section selection, and section sample size should be statistically
+appropriate for the evaluation procedure used.  Examination should include enumeration of the number of
+primordial follicles, which can be combined with small growing follicles, for comparison of treated and
+control ovaries (16)(17)(18)(19)(20).
+Weanlings
+46.
+Grossly abnormal tissue and target organs from all pups with external abnormalities or clinical
+signs, as well as from at least one randomly selected pup/sex/litter from both the F1 and F2 generation
+which have not been selected for mating (see paragraph 37), shall be fixed and stored in a suitable medium
+for histopathological examination.  Full histopathological characterisation of preserved tissue should be
+performed with special emphasis on the organs of the reproductive system.
+DATA and REPORTING
+Data
+47.
+Data shall be reported individually and summarised in tabular form, showing for each test group
+and each generation the number of animals at the start of the test, the number of animals found dead during
+the test or killed for humane reasons, the time of any death or humane kill, the number of fertile animals,
+the number of pregnant females, the number of animals showing signs of toxicity, a description of the signs
+of toxicity observed, including time of onset, duration, and severity of any toxic effects, the types of
+histopathological changes, and all relevant litter data.
+48.
+Numerical results should be evaluated by an appropriate, generally accepted statistical method;
+the statistical methods should be selected as part of the design of the study.  Dose-response statistical
+models may be useful for analysing data.  The report should include sufficient information on the method
+of analysis and the computer program employed, so that an independent reviewer/statistician can re-
+evaluate and reconstruct the analysis.
+Evaluation of results
+49.
+The findings of this two-generation reproduction toxicity study should be evaluated in terms of
+the observed effects including necropsy and microscopic findings.  The evaluation will include the
+relationship, or lack thereof, between the dose of the test substance and the presence or absence, incidence
+and severity of abnormalities, including gross lesions, identified target organs, affected fertility, clinical
+abnormalities, affected reproductive and litter performance, body weight changes, effects on mortality and
+any other toxic effects. The physico-chemical properties of the test substance, and when available,
+toxicokinetics data should be taken into consideration when evaluating test results.
+
+416 
+OECD/OCDE
+10/13
+50.
+A properly conducted reproductive toxicity test should provide a satisfactory estimation of a
+no-effect level and an understanding of adverse effects on reproduction, parturition, lactation, postnatal
+development including growth and sexual development.
+Test Report
+51.
+The test report must include the following information:
+Test substance:
+-
+physical nature and, where relevant, physicochemical properties;
+-
+identification data;
+-
+purity.
+Vehicle (if appropriate):
+-
+justification for choice of vehicle if other than water.
+Test animals:
+-
+species/strain used;
+-
+number, age and sex of animals;
+-
+source, housing conditions, diet, nesting materials, etc.;
+-
+individual weights of animals at the start of the test.
+Test conditions:
+-
+rationale for dose level selection;
+-
+details of test substance formulation/diet preparation, achieved concentrations;
+-
+stability and homogeneity of the preparation;
+-
+details of the administration of the test substance;
+-
+conversion from diet/drinking water test substance concentration (ppm) to the
+achieved dose (mg/kg body weight/day), if applicable;
+-
+details of food and water quality.
+Results:
+-
+food consumption, and water consumption if available, food efficiency (body weight gain per
+gram of food consumed), and test material consumption for P and F1 animals, except for the
+period of cohabitation and for at least the last third of lactation.
+-
+absorption data (if available);
+-
+body weight data for P and F1 animals selected for mating;
+-
+litter and pup weight data;
+-
+body weight at sacrifice and absolute and relative organ weight data for the parental animals;
+-
+nature, severity and duration of clinical observations (whether reversible or not);
+-
+time of death during the study or whether animals survived to termination;
+-
+toxic response data by sex and dose, including indices of mating, fertility, gestation, birth,
+viability, and lactation;  the report should indicate the numbers used in calculating these
+indices.
+-
+toxic or other effects on reproduction, offspring, postnatal growth, etc.;
+-
+necropsy findings;
+-
+detailed description of all histopathological findings;
+
+OECD/OCDE 
+416
+11/13
+-
+number of P and F1 females cycling normally and cycle length;
+-
+total cauda epididymal sperm number, percent progressively motile sperm, percent
+morphologically normal sperm, and percent of sperm with each identified 
+abnormality;
+-
+time-to-mating, including the number of days until mating
+-
+gestation length;
+-
+number of implantations, corpora lutea, litter size
+-
+number of live births and post-implantation loss;
+-
+number of pups with grossly visible abnormalities,  if determined the number of runts should
+be reported;
+-
+data on physical landmarks in pups and other postnatal developmental data;  physical
+landmarks evaluated should be justified;
+-
+data on functional observations in pups and adults, as applicable;
+-
+statistical treatment of results, where appropriate.
+Discussion of results.
+Conclusions, including NOAEL values for maternal and offspring effects.
+Interpretation of results
+52.
+A two-generation reproduction toxicity study will provide information on the effects of repeated
+exposure to a substance during all phases of the reproductive cycle.  In particular, the study provides
+information on the reproductive parameters, and on development, growth and survival of offspring.  The
+results of the study should be interpreted in conjunction with the findings of subchronic, prenatal
+developmental and toxicokinetic and other available studies.  The results of this study can often be used in
+assessing the need for further testing of a chemical.  Extrapolation of the results of the study to man is valid
+to a limited degree.  They are best used to provide information on no-effect-levels and permissible human
+exposure (21)(22)(23)(24).
+LITERATURE
+(1)
+Draft Report of the OECD Ad Hoc Working Group on Reproduction and Developmental
+Toxicity.  Copenhagen, Denmark, 13th-14th June 1995.
+(2)
+Sadleir, R.M.F.S. (1979).  Cycles and Seasons, In:  Reproduction in Mammals: I. Germ Cells and
+Fertilization, C.R. Auston and R.V. Short (eds.), Cambridge, New York.
+(3)
+Gray, L.E. et al., (1989).  A Dose-Response Analysis of Methoxychlor-Induced Alterations of
+Reproductive Development and Function in the Rat. Fundamental and Applied Toxicology
+12:92-108.
+(4)
+Robb, G.W. et al., (1978).  Daily Sperm Production and Epididymal Sperm Reserves of Pubertal
+and Adult Rats. Journal of Reproduction and Fertility 54:103-107.
+(5)
+Klinefelter, G.R. et al., (1991).  The Method of Sperm Collection Significantly Influences Sperm
+Motion Parameters Following Ethane Dimethanesulfonate Administration in the Rat.
+Reproductive Toxicology  5:39 44
+(6)
+Seed, J. et al. (1996). Methods for Assessing Sperm Motility, Morphology, and Counts in the Rat,
+Rabbit, and Dog:  a Consensus Report.  Reproductive Toxicology 10:237- 244.
+
+416 
+OECD/OCDE
+12/13
+(7)
+Chapin, R.E. et al., (1992).  Methods for Assessing Rat Sperm Motility. Reproductive Toxicology
+6:267-273
+(8)
+Klinefelter, G.R. et al., (1992).  Direct Effects of Ethane Dimethanesulphonate on Epididymal
+Function in Adult Rats:  an In Vitro Demonstration. Journal of Andrology 13:409-421.
+(9)
+Slott, V.L. et al., (1991).  Rat Sperm Motility Analysis:  Methodologic Considerations.
+Reproductive Toxicology 5:449-458.
+(10)
+Slott, V.L. and Perreault, S.D., (1993).  Computer-Assisted Sperm Analysis of Rodent
+Epididymal Sperm Motility Using the Hamilton-Thorn Motility Analyzer. In:  Methods in
+Toxicology, Part A., Academic, Orlando, Florida. pp. 319-333.
+(11)
+Toth, G.P. et al. (1989).  The Automated Analysis of Rat Sperm Motility Following Subchronic
+Epichlorhydrin Administration:  Methodologic and Statistical Considerations.  Journal of
+Andrology 10:401-415.
+(12)
+Working, P.K. and M. Hurtt, (1987).  Computerized Videomicrographic Analysis of Rat Sperm
+Motility. Journal of Andrology 8:330-337.
+(13)
+Linder, R.E. et al., (1992).  Endpoints of Spermatoxicity in the Rat After Short Duration
+Exposures to Fourteen Reproductive Toxicants. Reproductive Toxicology 6:491-505.
+(14)
+Korenbrot, C.C. et al., (1977).  Preputial Separation as an External Sign of Pubertal Development
+in the Male Rat. Biological Reproduction 17:298303.
+(15)
+Russell, L.D. et al., (1990).  Histological and Histopathological Evaluation of the Testis, Cache
+River Press, Clearwater, Florida.
+(16)
+Heindel, J.J. and R.E. Chapin, (eds.) (1993).  Part B. Female Reproductive Systems, Methods in
+Toxicology, Academic, Orlando, Florida.
+(17)
+Heindel, J.J. et al., (1989)  Histological Assessment of Ovarian Follicle Number in Mice As a
+Screen of Ovarian Toxicity.  In:  Growth Factors and the Ovary, A.N. Hirshfield (ed.), Plenum,
+New York, pp. 421-426.
+(18)
+Manson, J.M. and Y.J. Kang, (1989). Test Methods for Assessing Female Reproductive and
+Developmental Toxicology.  In:  Principles and Methods of Toxicology, A.W. Hayes (ed.),
+Raven, New York.
+(19)
+Smith, B.J. et al,. (1991).  Comparison of Random and Serial Sections in Assessment of Ovarian
+Toxicity.  Reproductive Toxicology 5:379-383.
+(20)
+Heindel, J.J. (1999). Oocyte Quantitation and Ovarian Histology. In:  An Evaluation and
+Interpretation of Reproductive Endpoints for Human Health Risk Assessment, G. Daston,. and
+C.A. Kimmel, (eds.), ILSI Press, Washington, DC.
+(21)
+Thomas, J. A. (1991).  Toxic Responses of the Reproductive System.  In:  Casarett and Doull’s
+Toxicology,  M.O. Amdur, J. Doull, and C.D. Klaassen (eds.), Pergamon, New York.
+
+OECD/OCDE 
+416
+13/13
+(22)
+Zenick, H. and E.D. Clegg, (1989).  Assessment of Male Reproductive Toxicity:  A Risk
+Assessment Approach.  In:  Principles and Methods of Toxicology,  A.W. Hayes (ed.), Raven
+Press, New York.
+(23)
+Palmer, A.K. (1981).  In:  Developmental Toxicology, Kimmel, C.A. and J. Buelke-Sam (eds.),
+Raven Press, New York.
+(24) 
+Palmer, A.K. (1978).  In Handbook of Teratology, Vol. 4, J.G. Wilson and F.C. Fraser (eds.),
+Plenum Press, New York.

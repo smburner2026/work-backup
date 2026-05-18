@@ -1,0 +1,3858 @@
+# 4. Risk Assessment
+# Casarett & Doull's Toxicology, 9th Edition
+# Pages: 146-175
+# Unit: Unit I General Principles of Toxicology
+
+4
+chapter
+Risk Assessment
+Elaine M. Faustman
+INTRODUCTION AND HISTORICAL 
+CONTEXT
+In the 1970s U.S. Congress established a basic plan for environ-
+mental laws that authorized regulatory actions to protect public 
+health and the environment. These science-based actions provided 
+the foundation for environmental and human health risk assess-
+ment. Recent updates and revisions of these laws including the 
+2016 Frank R. Lautenberg Chemical Safety from the 21st Century 
+Act, which modified the 1976 Toxic Substance Control Act, have 
+reinforced the need for toxicology evaluation. Toxicological 
+research and toxicity testing constitute the scientific core of risk 
+assessment, which is used for evaluating potential adverse health 
+impacts from chemical exposures. Considerations for risk evalu-
+ation were not new, since for decades the American Conference 
+of Governmental Industrial Hygienists (ACGIH) set threshold 
+limit values for occupational exposures and the U.S. Food and 
+Drug Administration (FDA) established acceptable daily intakes 
+(ADIs) for pesticide residues and food additives. In 1958, the U.S. 
+Congress instructed the FDA in the Delaney Clause to prohibit 
+the addition of all substances found to cause cancer in animals 
+or humans to the food supply. Pragmatically, this policy allowed 
+food sources that had nondetectable levels of these additives to 
+be declared “safe.” As advances in analytical chemistry revealed 
+that “nondetects” were not equivalent to “not present,” regulatory 
+agencies were forced to develop “tolerance levels” and “accept-
+able risk levels.” Risk assessment methodologies blossomed in the 
+1970s with the rising need to address these issues and to provide a 
+common framework for considering human and ecological health 
+effects (Albert, 1994).
+Risk assessment was defined as a specific activity in 1983 in 
+the National Research Council (NRC) publication Risk Assessment 
+in the Federal Government: Managing the Process (Red Book). 
+This book detailed steps for hazard identification, dose–response 
+assessment, exposure analysis, and characterization of risks (NRC, 
+1983). These four basic framework steps now form the foundation 
+framework for risk assessment and risk management approaches 
+for many contexts such as children’s health and ecological health, 
+and they provide a consistent context for risk assessment frame-
+works across agencies nationally and worldwide. Risk assessment 
+frameworks have been used by the Health and Safety Executive 
+Risk Assessment Policy Unit of the United Kingdom (Great Britain 
+and Health and Safety Executive, 1999) and by the World Health 
+Organization (WHO) (NRC, 2009; WHO, 2010) and build from 
+these common components. Fig. 4-1 illustrates a framework with 
+bidirectional arrows demonstrating an ideal situation where mecha-
+nistic research feeds directly into risk assessments and critical data 
+uncertainty drives research. The common elements of the basic risk 
+assessment framework are shown in red highlight. Initially, attention 
+in risk assessment was focused on cancer risks; in subsequent years, 
+noncancer endpoints were examined with similar methods and risk 
+assessments were performed across life stages and for ecosystems. 
+Continuing advances in toxicology, epidemiology, exposure assess-
+ment, biologically based modeling of adverse responses, and mod-
+eling of variability and uncertainty, as well as the rapidly growing 
+areas of “-omics” including genomics, transcriptomics, proteomics, 
+metablomics, etc., have contributed to refinements in risk assess-
+ment. Interest continues in biomarkers of exposure, effect, and 
+susceptibility to link exposure to disease prediction (NRC, 1989a, 
+1989b, 1992, 2017). Risk assessment links with the public policy 
+Introduction and Historical 
+Context
+Definitions
+Decision Making
+Hazard Identification
+Assessing Toxicity of Chemicals—
+Introduction
+Assessing Toxicity of Chemicals: 
+Approaches
+Structure–Activity Relationships
+In Vitro and Short-Term Tests
+Animal Bioassays
+Use of Epidemiologic Data in Risk 
+Assessment
+Integrating Qualitative Aspects of 
+Risk Assessment
+Mode of Action and Adverse Outcome 
+Pathways
+Dose–Response Assessment
+Integrating Quantitative Aspects of 
+Risk Assessment
+Threshold Approaches
+Nonthreshold Approaches
+Statistical or Probability Distribution 
+Models
+Models Derived from Mechanistic  
+Assumptions
+Toxicological Enhancements of the 
+Models
+Exposure Assessment
+Risk Characterization
+Variation in Susceptibility
+Information Resources
+Risk Perception and 
+Comparative Analyses of Risk
+Emerging Concepts
+Public Health Risk Management
+Summary
+Acknowledgments
+References
+
+128
+General Principles of Toxicology
+Unit I
+objectives from risk management often require extrapolations that 
+go far beyond the observation of actual effects. Extrapolating data 
+to address risks continues to generate controversy.
+The National Academy of Sciences (NAS) 1994 report entitled 
+Science and Judgment in Risk Assessment captured in its title the 
+combination of qualitative and quantitative approaches essential for 
+effective assessment of risks (NRC, 1994). The report discussed 
+in detail the challenges and provided approaches for incorporat-
+ing new scientific findings into the risk assessment process. It also 
+highlighted ways to deal with uncertainty when insufficient scien-
+tific information was available. To address these challenges, the 
+Presidential/Congressional Commission on Risk Assessment and 
+Risk Management (Risk Commission, 1997) formulated a com-
+prehensive framework that (1) placed each environmental problem 
+or issue into public health and/or ecological context and (2) proac-
+tively called for engaging relevant stakeholders, often affected or 
+potentially affected community groups, from the very beginning 
+of the six-stage process shown in Fig. 4-2. This report emphasized 
+that particular exposures and potential health effects must be evalu-
+ated across sources and exposure pathways and in light of multiple 
+endpoints, not just one chemical, in one environmental medium 
+(air, water, soil, food, products), for one health effect at a time. 
+The single-chemical, single-exposure approach had been the gen-
+eral approach up to this time. The importance of defining the risk 
+problem based on this initial input is critical to risk assessment. 
+Problem formulation and scoping has now been defined as Phase 1 
+for risk-based decision making and has been outlined by the U.S. 
+Environmental Protection Agency (EPA) (U.S. EPA, 1992a) and 
+reinforced by Science and Decisions, the Silver Book (NRC, 2009).
+DEFINITIONS
+Risk assessment is the systematic scientific evaluation of potential 
+adverse health effects resulting from human exposures to hazard-
+ous agents or situations (NRC, 1983, 1994; Omenn, 2000). Risk 
+is defined as the probability of an adverse outcome based on the 
+exposure and potency of the hazardous agent(s). Although histori-
+cally there have been differences in how the term hazard has been 
+used, international risk harmonization activities have allowed for 
+Research
+Risk assessment
+Risk management
+Does the agent cause
+adverse health effects?
+• Structure–Activity analysis
+• In vitro tests
+• Animal bioassays
+• Epidemiology
+Hazard identiﬁcation
+Development of
+regulatory options.
+• Control
+• Substitute
+• Inform
+What is the relationship
+between dose and response?
+Age
+Gene–Environment
+Dose–Response assessment
+What types, levels, and
+duration of exposures are
+experienced or anticipated?
+Exposure assessment
+Risk characterization 
+• How robust is the
+ evidence?
+• How certain is the
+ evaluation?
+• Are susceptible
+ populations
+ characterized?
+• Is there a relevant
+ mode of action?
+• What is the nature
+ and estimated
+ incidence of adverse
+ effects in a given
+ population?
+Research
+needs
+Research
+Laboratory and ﬁeld
+measurements of
+exposures.
+Evaluation of
+exposed populations
+and observation of
+adverse effects.
+Evaluation of public
+health, economic,
+social, political
+context for risk
+management
+options.
+New mechanistic
+understandings of
+toxicity.
+New genomic
+information.
+Policy decisions
+and actions.
+• Susceptibility
+Figure 4-1.  Risk assessment/risk management framework. This framework shows, under the red highlight, the four key steps of risk assessment: hazard identifi-
+cation, dose–response assessment, exposure assessment, and risk characterization. It shows an interactive, two-way process where research needs from the risk 
+assessment process drive new research, and new research findings modify risk assessment outcomes. At the start of the risk assessment process, a risk problem 
+is formulated and provides context for the assessment (Ecology RA). (Adapted from Calkins et al. [1980], NRC [1993, 1994a], Risk Commission [1997], and 
+Gargas et al. [1999]; reprinted with permission from the National Academies Press, National Academy of Sciences.)
+Engage
+stakeholders
+Evaluation
+Actions
+Decisions
+Options
+Risks
+Problem/
+context
+Figure 4-2.  Risk management framework for environmental health from the 
+U.S. Commission on Risk Assessment and Risk Management. The framework 
+comprises six stages: (1) formulating the problem in a broad public health 
+context; (2) analyzing the risks; (3) defining the options; (4) making risk 
+reduction decisions; (5) implementing those actions; and (6) evaluating the 
+effectiveness of the actions taken. Interactions with stakeholders are critical 
+across all the stages and thus have been put at the center of the framework 
+(Charnley and Omenn, 1997; Risk Commission, 1997).
+
+Risk Assessment
+Chapter 4
+129
+current consensus on hazard as reference to intrinsic toxic proper-
+ties, whereas exposure becomes an essential consideration along 
+with hazard for risk. Risk assessment requires an integration of 
+both qualitative and quantitative scientific information. For exam-
+ple, qualitative information about the overall evidence and nature 
+of the endpoints and hazards is integrated with quantitative assess-
+ment of the exposures, host susceptibility factors, and the magni-
+tude of the hazard. A description of the uncertainties and variability 
+in the estimates is a significant part of risk characterization and 
+an essential component of risk assessment. Analogous approaches 
+are applied to ecological risks, as demonstrated by EPA’s ecologi-
+cal risk assessment guidelines (U.S. EPA, 1992a, 2004). Example 
+objectives of risk assessment are outlined in Table 4-1.
+The phrase “characterization of risk” reflects the combination 
+of qualitative and quantitative analysis. The term “hazard char-
+acterization” versus “hazard identification” has also been seen in 
+both U.S. EPA (2012b) and WHO (1999) documents. This addi-
+tion recognizes the difficulties in evaluating only hazard informa-
+tion without dose–response information. Unfortunately, many users 
+equate risk assessment with quantitative risk assessment, generating 
+a number for an overly precise risk estimate, while ignoring crucial 
+information about the uncertainties of the risk assessment, mode of 
+action (MOA), and type of effect across species or context.
+Risk management refers to the process by which policy actions 
+are chosen to control hazards identified in the risk assessment stage 
+of the framework (Fig. 4-2). Risk managers consider scientific 
+evidence and risk estimates—along with statutory, engineering, 
+economic, social, and political factors—in evaluating alternative 
+options and choosing among those options (Risk Commission, 
+1997).
+Risk communication is the challenging process of making 
+risk assessment and risk management information comprehen-
+sible to the public, community groups, lawyers, local elected offi-
+cials, judges, business people, labor, environmentalists, etc. (NRC, 
+1989a, 1996, 2004; Morgan, 1993; Sandman, 1993; Fischhoff et al., 
+1996). Such communication requires an understanding of the level 
+of risk response needed, how and which individuals and organi-
+zations should be informed, and what the audience hears versus 
+what was intended as the risk communication message. Involving 
+stakeholders in the initial problem formulation as well as in the 
+translation of the bottom line has become an essential part of risk 
+management. Part of this analytical–deliberative process is the cru-
+cial, too-often neglected or delayed need for considering the fears, 
+perceptions, priorities, and proposed remedies of these stakehold-
+ers (Risk Commission, 1997; Drew et al., 2003, 2006; Judd et al., 
+2005; Kramer et al., 2006; Cullen et al., 2008). Underestimating 
+potential public and media attitudes toward local polluters, other 
+responsible parties, and relevant government agencies may lead 
+to what has been labeled “the outrage factor” (Sandman, 1993), 
+greatly influencing the communication process and the choices for 
+risk management. Sometimes the decision makers and stakeholders 
+simply want to know the “bottom line”: whether a substance or a 
+situation is “safe” or not. Others will be keenly interested in know-
+ing how and why the risk estimates are uncertain and may be well 
+prepared to challenge underlying assumptions about context and 
+methodology. Stakeholders can also be part of a risk management 
+solution (Judd et al., 2005; Drew et al., 2006). Perception of risk is 
+further discussed at the end of this chapter.
+DECISION MAKING
+Risk management decisions are reached under diverse statutes in 
+the United States. Table 4-2 lists examples of major environmental 
+statutes and the year of initial enactment. Some statutes specify 
+reliance on risk alone, whereas others require a balancing of risks 
+and benefits of the product or activity. Risk assessments provide a 
+valuable framework for priority setting within regulatory and health 
+agencies, in the chemical development process within companies, 
+and in resource allocation by environmental organizations. Similar 
+approaches for risk assessment have been developed in many 
+other countries and through such international organizations as the 
+International Programme on Chemical Safety (IPCS) within the 
+WHO. Within the IPCS, there are significant efforts toward global 
+harmonization of risk assessment methodology (WHO, 2000, 
+2006; WHO, 2004). The WHO Human Health Risk Assessment 
+Toolkit: Chemical Hazards is an example (WHO, 2010). Their 
+goals include use of a common risk assessment framework with 
+acceptance of different risk assessment approaches through this 
+common understanding and agreement on basic principles of test-
+ing and evaluation. Table 4-2 lists the recent Occupational Safety 
+and Health Administration (OSHA) Hazard Communication 
+Standard 2015, which now uses the Globally Harmonized System 
+of Classification and Labelling of Chemicals (GHS). This standard 
+represents an arduous yet highly meritorious effort to harmonize 
+global labeling of chemicals. This GHS labeling has provided a 
+common language for countries to use in trade and manufacturing 
+that facilitates safety in the workplace and for chemicals in transit. 
+An emphasis on hazard and not risk has been one of the more con-
+troversial issues across nations.
+A major challenge for risk assessment, risk communication, 
+and risk management is to work across disciplines to demonstrate 
+the biological plausibility and clinical significance of the conclu-
+sions from epidemiologic studies, animal bioassays, short-term in 
+vitro and in vivo tests, and structure–activity studies of chemicals 
+thought to have potential adverse effects. Biomarkers of expo-
+sure, effect, or individual susceptibility can link the presence of a 
+chemical in various environmental compartments to specific sites of 
+potential action in target organs and to host health impacts and dis-
+ease (NRC, 1989a, 1989b, 1989c, 1992, 2017; Adami et al., 2011). 
+Mechanistic investigations of the actions of specific chemicals 
+can help us penetrate the “black box” approach of simply count-
+ing tumors, for example, in exposed animals in routine bioassays. 
+Greater appreciation of the mechanisms and extent of individual 
+variation in susceptibility to adverse health impacts among humans 
+can improve protection of susceptible populations and better relate 
+Table 4-1  
+Example Objectives of Risk Assessment
+	1.	 Protect human and ecological health
+Toxic substances
+	2.	 Prioritize testing needs
+	3.	 Balance risks and benefits
+Drugs
+Pesticides
+	4.	 Set target levels of risk
+Food contaminants
+Water pollutants
+	5.	 Set priorities for program activities
+Regulatory agencies
+Manufacturers
+Environmental/consumer organizations
+	6.	 Inform green chemistry, life cycle analysis, and clinical 
+alternatives
+	7.	 Estimate residual risks and extent of risk reduction after 
+steps are taken to reduce risks
+
+130
+General Principles of Toxicology
+Unit I
+findings in animals to the characterization of risk for humans. 
+Identifying individual behavioral and social risk factors can be 
+critically important both to the characterization of risk and to the 
+reduction of risk.
+HAZARD IDENTIFICATION
+Assessing Toxicity of Chemicals—
+Introduction
+Throughout this book, a common toxicology paradigm (Fig. 4-3) 
+forms the basis for our toxicity assessments. For risk assessment 
+this paradigm is a critical underpinning where delivery represents 
+exposure and absorption, distribution, metabolism, and excretion 
+(ADME) determining the amount, rate, form, distribution, and fate 
+of the chemical. The key initial impacts of the chemical interacting 
+with the target link the early cellular dysfunction with early bio-
+markers effect. Dysrepair is identified as endpoint impacts across 
+levels of biological investigation with observations at the molecu-
+lar, cellular, and tissue levels.
+In order to assess the toxicity of chemicals, information from 
+four example types of studies is used: structure–activity relation-
+ships (SAR), in vitro or short-term studies, in vivo animal bioas-
+says, and human epidemiologic studies. In many cases, toxicity 
+information for chemicals is limited. For example, in 1998, the 
+EPA evaluated high production volume (HPV) chemicals (those 
+produced in excess of one million pounds per year) to ascertain 
+the availability of chemical hazard data. The EPA study found that 
+for 43% of these HPV chemicals, there were no publicly available 
+studies for any of the basic toxicity endpoints (U.S. EPA, 1998a). In 
+response, the EPA established a voluntary program called the HPV 
+Challenge Program (U.S. EPA, 2011b). Industry participants in this 
+program committed to filling the data gaps for HPV chemicals. 
+Since its inception, there have been over 2200 chemicals sponsored 
+for additional testing. International efforts such as the Organization 
+for Economic Cooperation and Development (OECD) and screen-
+ing information data set (SIDS) program are also addressing data 
+needs related to HPV chemicals, highlighted by the publication of 
+their Manual for Investigation of HPV Chemicals (OECD, 2013).
+Data requirements for specific chemicals can vary greatly by 
+compound type, use, and applicable regulatory statutes. Introduced 
+in 2003 and approved in 2006, the European Union released a 
+regulatory framework for Registration, Evaluation, Authorisation 
+and Restriction of Chemicals (REACH) (REACH, 2011). Under 
+the REACH framework, since 2007, all stakeholders that sell or 
+produce compounds in the European Union submit dossiers that 
+include physical, chemical, and toxicological data as well as envi-
+ronmental fate and transport information to inform risk assessment 
+studies for all chemicals in use in Europe. The REACH data is avail-
+able via the European Chemicals Agency registered substances list 
+(ECHA, 2017). Chemical safety assessments are submitted prior 
+to approval in an approach similar to premanufacturing notices 
+(PMNs) in the United States for the EPA (U.S. EPA, 2011c).
+Table 4-3 shows requirements and costs for one example class 
+of chemicals, pesticides (Stevens, 1997; U.S. EPA, 1998b, 2000b), 
+in the United States (40 CFR 158.340). It also illustrates current 
+international efforts to align these testing guidelines by listing 
+examples of the harmonized 870 test guidelines (U.S. EPA, 2010a; 
+Patlewicz et al., 2013). The emphasis in REACH is on non–in vivo 
+animal tests. Also, REACH has utilized the international globally 
+harmonized labeling laws for hazard identification (GHS). Some 
+of the successes from REACH have stimulated new changes in the 
+Table 4-2  
+Examples of Major Toxic Chemical Laws in the United States by Responsible Agency and Year of Initial Enactment
+EPA
+Air pollutants
+Clean Air Act, 1970
+Water pollutants
+Federal Water Pollution Control Act, 1948
+Drinking water
+Safe Drinking Water Act, 1974
+Pesticides
+Fungicides, Insecticides & Rodenticides Act (FIFRA), 1947; Food Quality 
+Protection Act (FQPA), 1996
+Ocean dumping
+Marine Protection, Research and Sanctuaries Act (MPRSA) or Ocean 
+Dumping Act, 1972
+Toxic chemicals
+Toxic Substances Control Act (TSCA), 1976; The Frank R. Lautenberg 
+Chemical Safety for the 21st Century Act (2016)
+Hazardous wastes
+Resource Conservation and Recovery Act (RCRA), 1976
+Abandoned hazardous wastes
+Superfund (CERCLA), 1980
+CEQ
+Environmental impacts
+National Environmental Policy Act (NEPA), 1969
+OSHA
+Workplace
+Occupational Safety and Health (OSH) Act, 1970; Hazard Communication 
+Standard (HCS) and Globally Harmonized Systems of Classification and 
+Labelling of Chemicals (GHS, 2015).
+FDA
+Foods, drugs, and cosmetics
+Food and Drugs Act, 1906; Food, Drugs and Cosmetics Act (FDC), 1938; 
+FDA Modernization Act, 1997
+CPSC
+Dangerous consumer products
+Consumer Product Safety Act (CPSA), 1972*
+DOT
+Transport of hazardous materials
+Hazardous Materials Transportation Act (HMTA), 1975
+Abbreviations: CEQ, Council for Environmental Quality (now Office of Environmental Policy); CPSC, Consumer Product Safety Commission; DOT, 
+Department of Transportation; EPA, Environmental Protection Agency; FDA, Food and Drug Administration; OSHA, Occupational Safety and Health 
+Administration.
+*Note that numerous states have enacted reporting requirements related to toxic chemicals in children’s consumer products. The Washington Children’s 
+Safe Product Act of 2008 is one example.
+
+Risk Assessment
+Chapter 4
+131
+United States via amendments for the Toxic Substances Control Act 
+(TSCA). Recent release of the Integrated Chemical Environment 
+(ICE) reference database provides a welcome integrated access to in 
+vivo and in vitro data to support Tox21 activities (Bell et al., 2017).
+Assessing Toxicity of Chemicals: 
+Approaches
+Structure–Activity Relationships
+Given the cost of two to four million dollars and the 3 to 5 years 
+required for testing a single chemical in a lifetime rodent carcino-
+genicity bioassay, initial decisions on whether to continue develop-
+ment of a chemical, to submit a premanufacture notice (PMN), or 
+to require additional testing may be based largely on results from 
+structure–activity relationships (SARs) and limited short-term 
+assays.
+A chemical’s structure, solubility, stability, pH sensitivity, 
+electrophilicity, volatility, and chemical reactivity can be impor-
+tant information for hazard identification. Historically, certain key 
+molecular structures have provided regulators with some of the most 
+readily available information on the basis of which to assess hazard 
+potential. For example, 8 of the first 14 occupational carcinogens 
+were regulated together by the OSHA as belonging to the aromatic 
+amine chemical class. The EPA Office of Toxic Substances relies on 
+SARs to meet deadlines to respond to PMN for new chemical manu-
+facture under the Toxic Substances Control Act (TSCA). Structural 
+alerts such as N-nitroso or aromatic amine groups, amino azo dye 
+structures, or phenanthrene nuclei are clues to prioritize chemicals 
+for additional evaluation as potential carcinogens. SAR informa-
+tion for specific noncancer health endpoints can be challenging. 
+The database of known developmental toxicants limits SARs to a 
+few chemical classes, including chemicals with structures related 
+to those of valproic acid, retinoic acid, phthalate esters, and glycol 
+ethers (NRC, 2000). More recently, -omic technologies have been 
+used to supplement SAR relationship databases, as seen with the 
+creation of the National Cancer Institute’s (NCI) gene expression 
+database (NCI, 2017) and the U.S. EPA Computational Toxicity 
+Program Screening Database (ToxCastTM) (U.S. EPA, 2017b).
+SARs have been used for assessment of complex mixtures of 
+structurally related compounds. Prominent applications have been 
+the assessment of risks associated with 2,3,7,8-tetrachlorodibenzo-
+p-dioxin (TCDD), related chlorinated and brominated dibenzo-
+p-dioxins, dibenzofurans, and planar biphenyls, and chemicals 
+generally present as mixtures in the environment. Toxicity equiva-
+lence factors (TEFs) are used to evaluate health risks associated 
+with closely related chemicals. For the TCDD class, this is based 
+on a common mechanism of aryl hydrocarbon (Ah) receptor induc-
+tion (U.S. EPA, 1994a). The estimated toxicity of environmental 
+mixtures containing these chemicals is calculated as the sum of 
+the product of the concentration of each chemical multiplied by its 
+TEF value. The WHO has organized efforts to reach international 
+consensus on the TEFs used for polychlorinated biphenyls (PCBs), 
+T
+O
+X
+I
+C
+I
+T
+Y
+1
+DELIVERY
+Absorption
+Toxicology
+Paradigm
+Distribution
+Metabolism
+Excretion
+Cell
+Signaling
+Gene
+Expression 
+Electrically
+Excitable Cells 
+Cell
+Maintenance
+Internal
+Maintenance
+External
+Maintenance
+Molecular
+Cellular
+Tissue
+Protein
+Lipid
+DNA
+Apoptosis
+Proliferation
+2
+INTERACTION
+WITH TARGET
+3
+CELLULAR
+DYSFUNCTION
+4
+DISREPAIR
+Figure 4-3.  Toxicology paradigm. A common paradigm forms the basis for our toxicology assessments and subsequent translation for assessment of health 
+risks. For risk assessment this paradigm is a critical underpinning where delivery represents exposure and absorption, distribution, metabolism, and elimination 
+(ADME) determining the amount, the rate, the form and distribution of the chemical and its metabolites. The key initial impacts of the chemical interacting 
+with the target links the early cellular dysfunction with early biomarkers effect. Disrepair is identified as endpoint which impacts across levels of biological 
+investigation and observation at the molecular, cellular, and tissue levels.
+
+132
+General Principles of Toxicology
+Unit I
+Table 4-3  
+Example EPA/FIFRA Requirements for Hazard Evaluation of Pesticides
+REVISED 870 
+GUIDELINE
+TYPE OF  
+TOXICITY STUDY
+TEST SYSTEM
+OBJECTIVE
+APPROXIMATE  
+COST/STUDY* (US$)
+1100
+Acute oral
+Rats
+Define toxic dose by ingestion
+2,700
+1200
+Acute dermal
+Rabbits
+Define toxic dose by absorption through skin
+2,000
+1300
+Acute inhalation
+Rats
+Define toxic dose by inhalation
+6,800
+2400
+Ocular
+Rabbits
+Assess eye irritation/injury
+2,000
+2500
+Skin irritation
+Rabbits
+Assess skin irritation/injury
+130
+2600
+Sensitization
+Guinea pigs
+Assess allergic potential
+4,000
+6100–6855
+Neurotoxicity†,‡
+Hens/rats
+Assess nervous system injury
+34,000‡
+5100–5915
+Mutagenicity§
+In vivo/in vitro
+Determine genotoxic potential; screen for  
+carcinogenicity
+6,800
+3050–3465
+Range-finding§
+Rats
+Determine effects following repeated doses; set dose level
+95,000
+Subacute  
+(28- to 90-day*)
+Mice
+95,000
+Dogs
+For longer studies
+136,000
+Rabbits
+101,000
+Rats
+Identify target organs; set dose
+258,000
+Mice
+Levels for chronic studies
+258,000
+4200–4300
+Carcinogenicity/
+chronic toxicity
+Rats
+Determine potential to induce tumors; define  
+dose–response relationships (lifetime)
+1,900,000
+Mice
+1,087,000
+Dogs
+Determine long-term toxic effects (1 year)
+543,000
+3550–3800
+Reproduction and 
+teratogenicity
+Rats
+Determine potential to cause fetal abnormalities and 
+effects on development, fertility, pregnancy, and devel-
+opment of offspring over at least two generations
+686,000
+Rabbits
+7485
+Toxicokinetics
+Rats, mice
+Determine and quantitate the metabolic fate of a  
+pesticide
+135,000
+8600
+Developmental 
+neurotoxicity
+Rats
+Determine potential to cause adverse developmental 
+outcomes following exposure during gestation and lac-
+tation on gross neurological behavioral abnormalities 
+and function, motor activity, neuropathology and brain 
+weight measurements throughout post-natal develop-
+ment and adulthood
+700,000
+*Indicates per assay cost using Consumer Price Index (CPI) conversion factors to determine 2010 value (oregonstate.edu/cla/polisci/sahr/sahr). Estimates 
+were provided using guideline 81 series.
+†Required for organophosphate insecticides only.
+‡Additional neurotoxicity tests 81-7, 81-8, 82-6, 82-7, and 83-6 have been added to requirements for certain materials and can include tests such as func-
+tional observational battery, motor activity, developmental landmarks, and learning and memory assessments (Sette, 1991). Costs listed for this type 
+of study are only those for the initial study, not additional testing.
+§Range-finding studies are not required, but provide justification for setting dose levels in required studies. EPA-required studies can include reverse muta-
+tion assays in Salmonella, forward mutation assays in mammalian cells—for example, Chinese hamster ovary cells and mouse lymphoma L5178Y (the 
+locus cells)—and in vivo cytogenetics (Dearfield, 1990).
+SOURCES: Adapted from Stevens (1997), and updated with revised EPA 870 guideline information (U.S. EPA, 2010a, 2017). For details on changes in 
+the health effects test guidelines reflective of the harmonization of the toxicology guidelines between the Office of Pollution Prevention and Toxics 
+(OPPT) and the Office of Pesticide Programs (OPP), within the EPA and with the Organization for Economic Cooperation and Development (OECD) 
+guidelines, see EPA (U.S. EPA, 2010a, 2017) (https://www.epa.gov/test-guidelines-pesticides-and-toxic-substances/series-870-health-effects-test-
+guidelines).
+
+Risk Assessment
+Chapter 4
+133
+polychlorinated dibenzo-p-dioxins (PCDDs), and polychlorinated 
+dibenzofurans (PCDFs) for both humans and wildlife, and has 
+updated its values and published the supporting database (Van den 
+Berg et al., 1998, 2006; Haws et al., 2006). Under the auspices 
+of the WHO, the dioxin-like PCB congeners have been assigned 
+TEFs reflecting their toxicity relative to TCDD, which itself has 
+been assigned a TEF of 1.0.
+Computerized SAR methods have, in general, given disap-
+pointing results in the U.S. National Toxicology Program (NTP) 
+rodent carcinogenicity prediction challenges (Ashby and Tennant, 
+1994; Omenn et al., 1995; Benigni and Zito, 2004). More success-
+ful are the efforts of pharmaceutical companies using combinato-
+rial chemistry and three-dimensional (3D) molecular modeling 
+approaches to design ligands (new drugs) that can sterically fit 
+into the “receptors of interest.” However, for environmental pol-
+lutants where selective binding to specific receptors is rare, these 
+applications of SAR have had limited success within risk assess-
+ment. Applications for endocrine disrupting chemicals and evalu-
+ation of their binding to hormone receptors have been a recent 
+success from ToxCast, with a proposal for using receptor-bind-
+ing assays for screening endocrine disruptor potential and as an 
+acceptable approach without the additional need for assays such 
+as the Hershberger assay (U.S. EPA, 2015). A renewed interest in 
+quantitative SAR (QSAR) approaches has also resulted from the 
+need to evaluate engineered nanomaterials where the tremendous 
+number of unique new products has highlighted the necessity of 
+using QSAR approaches to handle the avalanche of novel untested 
+materials (Maynard et al., 2006; Liu et al., 2011; Nel et al., 2013).
+Efforts within REACH have also emphasized the potential for 
+use of SAR as similar chemicals are collectively evaluated using 
+a concept of “read-across.” Substances whose physicochemical, 
+toxicological, and ecotoxicological properties are similar can be 
+grouped as a “category” of substances when they have a common 
+functional group, common precursor or breakdown product, or a 
+common pattern of potency.
+In Vitro and Short-Term Tests
+The next level of biological information obtained within the hazard 
+identification process includes assessment of the test chemical in in 
+vitro or short-term tests, ranging from bacterial mutation assays per-
+formed entirely in vitro to more elaborate short-term tests, such as 
+skin painting studies in mice or altered rat liver foci assays conducted 
+in vivo. For example, EPA mutagenicity guidelines call for assess-
+ment of reverse mutations using the Ames Salmonella typhimurium 
+assay; forward mutations using mammalian cells, mouse lym-
+phoma L5178Y, Chinese hamster ovary, or Chinese hamster lung 
+fibroblasts; and in vivo cytogenetics assessment (bone marrow 
+metaphase analysis or micronucleus tests) (U.S. EPA,1986, 2005a). 
+Chap. 8 discusses uses of these assays for identifying chemical car-
+cinogens and Chap. 9 describes in detail various assays of genetic 
+and mutagenic endpoints. Other assays evaluate specific health end-
+points such as developmental toxicity (Chap. 21) (Faustman, 1988; 
+Whittaker and Faustman, 1994; Brown et al., 1995; Lewandowski 
+et al., 2000; NRC, 2000; Spielmann et al., 2006), reproductive tox-
+icity (Chap. 10) (Gray, 1988; Harris et al., 1992; Shelby et al., 1993; 
+Yu et al., 2009), neurotoxicity (Chap. 18) (Atterwill et al., 1992; 
+Costa, 2000), and immunotoxicity (Chap.  12) (ICCVAM, 1999, 
+2011a). Less information is available on the extrapolation of these 
+test results for noncancer risk assessment than for the mutagenic-
+ity or carcinogenicity endpoints; however, mechanistic informa-
+tion obtained in these systems has been applied to risk assessment 
+(Abbott et al., 1992; U.S. EPA, 1994b; Leroux et al., 1996; NRC, 
+2000; Smith et al., 2016a, 2016b).
+Overall, progress in developing and validating new in vitro 
+assays has been episodic with recent encouraging efforts especially 
+due to U.S. EPA’s ToxCast program (Kavlock et al., 2012). In the late 
+1990s, the Interagency Coordinating Committee on the Validation 
+of Alternative Methods (ICCVAM) of the NTP reinvigorated the 
+validation process in the United States as a result of Public Law 103-
+43 and coordinated cross-agency issues relating to development, 
+validation, acceptance, and national/international harmonization of 
+toxicological test methods for use in risk assessments (ICCVAM, 
+2017). The committee has put forth recommendations for over 40 
+alternative safety testing methods using various short-term/in vitro 
+assays such as the cell-free corrosivity test, and the mouse local 
+lymph node assay for assessing chemical potential to elicit allergic 
+reactions (ICCVAM, 1999, 2011a; NIEHS, 1999a, 1999b). In 2006, 
+the committee released a document that reviewed in vitro acute 
+toxicity methods.This review was led by the National Toxicology 
+Program Center for the Evaluation of Alternative Toxicological 
+Methods (United States) and Interagency Coordinating Committee 
+on the Validation of Alternative Methods (United States) (NIEHS, 
+2006). The European Centre on the Validation of Alternative 
+Methods (ECVAM) is now known as the European Union Reference 
+Laboratory for alternatives to animal testing (EURL-ECVAM, avail-
+able at https://eurl-ecvam.jrc.ec.europa.eu/).
+EURL-ECVAM has been very active given the visibility of 
+animal rights issues in the European Union, and this Center was 
+originally formed to “support the development, validation, and 
+acceptance of methods that could reduce, refine, or replace [3 Rs] 
+the use of laboratory animals.” Early successes of ECVAM are 
+described in Hartung et al. (2003). However, a recent report for the 
+Center for Alternatives for Animal Testing highlights the slow prog-
+ress on full replacement of animal testing, especially for repeated 
+dose toxicity testing, carcinogenicity, or reproductive toxicity testing 
+(Adler et al., 2011; Hartung et al., 2011). It does highlight numer-
+ous successes for evaluating sensitization and toxicokinetics (TK). 
+Most recent successes have been driven by the European Union–
+conceived free legislation for cosmetic testing. International efforts 
+to reduce the number of animals required for chemical safety testing 
+have been established between ICCVAM, Korea, Japan, Canada, 
+and ECVAM (Table 4-4).
+Table 4-4  
+Example Assays Used for Evaluation of Cosmetics: 
+Multiple OECD Guideline Studies Reviewed and 
+Designed for These Endpoints
+OECD 
+GUIDELINES
+TYPES OF 
+TOXICITY STUDY
+TEST SYSTEM
+OBJECTIVE
+OECD 439
+Irritation
+Skin Ethic 
+EpiSkin®
+Skin
+OECD 492
+Irritation
+MatTek Epi 
+Ocular®
+Eye
+OECD 437
+Irritation  
+Opacity,  
+Permeability
+Bovine 
+Cornea and 
+Opacity 
+Permeability 
+(BCOP)
+Eye
+Cornea
+OECD 431
+Corrosion
+Skin Ethic 
+EpiSkin®
+Skin
+OECD 435
+Corrosion
+Corrositex®
+Skin
+
+134
+General Principles of Toxicology
+Unit I
+The validation and application of short-term assays are par-
+ticularly important to risk assessment because such assays can be 
+designed to provide information about mechanisms of effects, and, 
+moreover, they are fast and inexpensive compared with lifetime bio-
+assays (McGregor et al., 1999; Collins et al., 2008; NRC, 2017). 
+Validation considerations for in vitro assays, like other kinds of 
+tests, require determination of their sensitivity (e.g., ability to iden-
+tify true carcinogens), specificity (e.g., ability to recognize non-
+carcinogens as noncarcinogens), and predictive value for the toxic 
+endpoint under evaluation. However, the recent NRC publication 
+proposes a series of modified validation considerations that can 
+further define pathways to regulation acceptance (NRC, 2017). The 
+societal costs of relying on such tests, with false positives (noncar-
+cinogens classified as carcinogens) and false negatives (true car-
+cinogens not detected), are the subject of a value-of-information 
+model for testing in risk assessment and risk management (Lave 
+and Omenn, 1986; Lave et al., 1988; Omenn and Lampen, 1988).
+Efforts to improve our ability to utilize short-term tests for 
+carcinogenicity prediction include increased attention to improv-
+ing the mechanistic basis of short-term testing. Examples of this 
+approach include the development and application of several knock-
+out transgenic mouse models as shorter-term in vivo assays to iden-
+tify carcinogens (Nebert and Duffy, 1997; Tennant et al., 1999). 
+Specific assays for evaluating mechanisms such as the function of 
+the estrogen receptor are an example where in vitro test methods 
+are used to predict endocrine disruptor actions (ICCVAM, 2011b, 
+2012). The primary use of short-term tests in the United States con-
+tinues to be for mechanistic evaluations with the hope of inform-
+ing chemical-specific information or overall MOA. In that context, 
+results from short-term assays have impacted risk assessments. For 
+example, evidence of nonmutagenicity in both in vitro and in vivo 
+short-term assays have played an essential role, allowing regulators 
+to consider nonlinear cancer risk assessment paradigms for non-
+genotoxic carcinogens (U.S. EPA, 1999). Mechanistic information 
+from short-term in vitro assays can also be used to extend the range 
+of biological observations available for dose–response assessment. 
+In addition, for developmental toxicity assessment, assay methods 
+that acknowledge the highly conserved nature of developmen-
+tal pathways across species have accelerated the use of a broader 
+range of model organisms and assay approaches for noncancer 
+risk assessments (NRC, 2000). Toxicity Testing in the 21st Century 
+and Toxicity Pathway-Based Risk Assessment emphasized such 
+approaches for using model organisms and tiered toxicity strategies 
+for risk assessment (NRC, 2007a, 2010, 2017).
+Animal Bioassays
+Animal bioassays have been a key component of the hazard identi-
+fication process. See example guidelines for organ/ system-specific 
+endpoints (U.S. EPA, 1991, 1988, 1996a, 1998c). A basic premise 
+of risk assessment is that chemicals that cause tumors in animals 
+can cause tumors in humans. All human carcinogens that have been 
+adequately tested in animals produce positive results in at least 
+one animal model. Thus, “although this association cannot estab-
+lish that all chemicals and mixtures that cause cancer in experi-
+mental animals also cause cancer in humans, nevertheless, in the 
+absence of adequate data on humans, it is biologically plausible 
+and prudent to regard chemicals and mixtures for which there is 
+sufficient evidence of carcinogenicity in experimental animals as 
+if they presented a carcinogenic risk to humans” (IARC, 2000)—a 
+reflection of the “precautionary principle.” The U.S. EPA cancer 
+guidelines (U.S. EPA, 2005a) also assume relevance of animal bio-
+assays unless lack of relevance for human assessment is specifi-
+cally determined. In general, the most appropriate rodent bioassays 
+are those that test exposure and biological pathways of most rele-
+vance to predicted or known human exposure pathways. Bioassays 
+for reproductive and developmental toxicity and other noncancer 
+endpoints have a similar rationale. The NTP serves as a resource 
+for conducting, designing, and evaluating bioassays for cancer as 
+well as noncancer evaluation. The NTP Office of Human Health 
+Assessment and Translation serves as a resource to the public and 
+regulatory agencies regarding the interpretation and assessment of 
+adverse effects of chemicals (NTP, 2011b). The WHO International 
+Agency for Research on Cancer (IARC) has evaluated over 900 
+agents “of which more than 400 have been identified as carcino-
+genic, probably carcinogenic or possibly carcinogenic to humans” 
+(WHO, 2011b).
+Consistent features in the design of standard cancer bioassays 
+include testing in two species and both sexes, with 50 animals per 
+dose group and near-lifetime exposure. Important choices include 
+the strains of rats and mice, the number of doses, and dose lev-
+els (typically 90%, 50%, and 10–25% of the maximally tolerated 
+dose [MTD]), and details of the required histopathology (number 
+of organs to be examined, choice of interim sacrifice pathology, 
+etc.). The NTP Web site lists details on study designs and protocols 
+(NTP, 2011a, 2017a). Positive evidence of chemical carcinogenic-
+ity can include increases in number of tumors at a particular organ 
+site, induction of rare tumors, earlier induction (shorter latency) of 
+commonly observed tumors, and/or increases in the total number 
+of observed tumors. The NTP has added a perinatal exposure phase 
+that includes gestation (in utero exposure via placenta) and postnatal 
+lactation (via the mother’s milk) to more directly evaluate the sig-
+nificance of early-life exposures for cancer incidence (NTP, 2017b).
+The cancer bioassay, originally designed for hazard identifica-
+tion, is frequently used to evaluate dose–response. The relatively 
+limited number of evaluated doses and the use of high doses have 
+caused issues for low-dose extrapolations and have limited the use of 
+cancer bioassays as a “gold standard” for prediction of human car-
+cinogenicity risk (McClain, 1994; Cohen, 1995; Risk Commission, 
+1997; Rodericks et al., 1997; Capen et al., 1999; Rice et al., 1999). 
+Tumors may be increased only at the highest dose tested, which is 
+usually at or near a dose that causes systemic toxicity (Ames and 
+Gold, 1990). Second, even without toxicity, the high dose may trig-
+ger different events than do low-dose exposures and high doses can 
+saturate important metabolism and elimination pathways.
+Rats and mice give concordant positive or negative results 
+in approximately 70% of bioassays, so it is unlikely that rodent/
+human concordance would be higher (Lave et al., 1988). Haseman 
+and Lockhart (1993) concluded that most target sites in cancer 
+bioassays showed a strong correlation (65%) between males and 
+females—especially for forestomach, liver, and thyroid tumors—
+so they suggested, for efficiency, that bioassays could rely on a 
+combination of male rats and female mice. Even when concordant, 
+positive results are observed, there can still be large differences in 
+potency, as observed in aflatoxin-induced tumors in rats and mice. 
+In this example, an almost 100,000-fold difference in susceptibil-
+ity to aflatoxin B1 (AFB1)–induced liver tumors is seen between 
+the sensitive rat and trout species and the more resistant mouse 
+strains. Genetic differences in the expression of cytochrome P450 
+and glutathione S-transferases explain most of these species differ-
+ences and suggest that humans may be as sensitive to AFB1-induced 
+liver tumors as rats (Eaton and Gallagher, 1994; Eaton et al., 1995, 
+2001). These species differences have been supported by research 
+results (Groopman and Kensler, 1999; Kensler et al., 2011) and 
+have been extended within epidemiologic studies to demonstrate 
+the interaction of hepatitis C infection with AFB1 exposure to more 
+fully explain elevated human liver cancer risks.
+
+Risk Assessment
+Chapter 4
+135
+Lifetime bioassays have been enhanced with the collection of 
+such additional mechanistic data and with the assessment of mul-
+tiple noncancer endpoints. It is feasible and desirable to integrate 
+such information together with data from mechanistically oriented 
+short-term tests and biomarker and genetic studies in epidemiology 
+(Perera and Weinstein, 2000). In the example of AFB1-induced liver 
+tumors, AFB1–DNA adducts have proved to be an extremely useful 
+biomarker. A highly linear relationship was observed between liver 
+tumor incidence (in rats, mice, and trout) and AFB1–DNA adduct 
+formation over a dose range of five orders of magnitude (Eaton and 
+Gallagher, 1994). Such approaches may allow for an extension of 
+biologically observable phenomena to doses lower than those lead-
+ing to frank tumor development, and help to address the issues of 
+extrapolation over multiple orders of magnitude to predict response 
+at environmentally relevant doses.
+Table 4-5 presents some mechanistic details about rodent 
+tumor responses that are no longer thought to be predictive of can-
+cer risk for humans. This table lists examples of both qualitative 
+and quantitative considerations useful for determining relevance of 
+rodent tumor responses for human risk evaluations. An example of 
+qualitative considerations is the male rat kidney tumors observed 
+following exposure to chemicals that bind to α2u-globulin (e.g., 
+unleaded gasoline, 1,4-dichlorobenzene, d-limonene). The α2u-
+globulin is a male-rat-specific low-molecular-weight protein not 
+found in female rats, humans, or other species, including mice and 
+monkeys (McClain, 1994; Neumann and Olin, 1995; Oberdorster, 
+1995; Omenn et  al., 1995; Risk Commission, 1997; Rodericks 
+et al., 1997).
+Table 4-5 also illustrates quantitative considerations important 
+for determining human relevance of animal bioassay information. 
+For example, doses of compounds so high as to exceed solubility 
+in the urinary tract outflow lead to tumors of the urinary bladder in 
+male rats following crystal precipitation and local irritation lead-
+ing to hyperplasia. Such precipitates are known to occur following 
+saccharin or nitrilotriacetic acid bioassay exposures (Cohen et al., 
+2000). The decision to exclude saccharin from the NTP list of sus-
+pected human carcinogens reaffirms the nonrelevance of such high-
+dose responses for likely human exposure considerations (Neumann 
+and Olin, 1995; NTP, 2016). A gross overloading of the particle 
+clearance mechanism of rat lungs via directly administered parti-
+cles, as was seen in titanium dioxide (TDO) exposures, resulted in 
+the EPA’s delisting of TDO as a reportable toxicant for the Clean Air 
+Act Toxic Release Inventory (Oberdorster, 1995; U.S. EPA, 2016).
+Other rodent responses not likely to be predictive for humans 
+include localized forestomach tumors after gavage. Ethyl acrylate, 
+which produces such tumors, was delisted on the basis of extensive 
+mechanistic studies (NTP, 2016). In general, for risk assessment, 
+it is desirable to use the same route of administration as the likely 
+exposure pathway in humans to avoid such extrapolation issues. 
+Despite the example of forestomach tumors, tumors in unusual 
+sites—such as the pituitary gland, the eighth cranial nerve, or the 
+Zymbal gland—should not be immediately dismissed as irrelevant, 
+because organ-to-organ correlation is often lacking (NRC, 1994). 
+The EPA cancer guidelines provide a good list of considerations 
+for evaluating relevance in the sections on evaluating weight of evi-
+dence (U.S. EPA, 2005a).
+Table 4-5  
+Examples of Mechanistic Considerations for Carcinogens: Explanation for Special Cases of Rodent Bioassay Data 
+Lacking Relevance for Human Risk Evaluation
+SYSTEM
+TARGET ORGAN
+MECHANISM FOR SUSCEPTIBLE 
+SPECIES
+SPECIES DIFFERENCES
+ILLUSTRATIVE CHEMICAL 
+AGENTS
+Urinary tract
+Renal tumors in 
+male rats
+Chemicals bind to α2U globu-
+lin, accumulation in target kid-
+ney cells, increased necrosis, 
+increased regenerative hyper-
+plasia, renal tubular calcifica-
+tion neoplasia
+α2U-Globulin male rat-specific 
+low-molecular-weight pro-
+tein not found in female rats, 
+humans, mice, monkeys
+Unleaded gasoline, 1,4-dichlo-
+robenzene, d-limonene,  
+isophorone, dimethyl-methyl 
+phosphonate, perchloro­
+ethylene, pentachloroethane, 
+hexachloroethane
+Bladder
+Reactive hyperplasia from 
+cytotoxic precipitated  
+chemicals
+Rodent exposure levels exceed 
+solubility, not relevant for 
+human exposure
+Saccharin, melamine, nitrilo-
+triacetic acid, fosetyl-A2
+Gastric
+Forestomach
+Direct oral gavage, local cyto-
+toxicity, hyperplasia
+Rodent gavage treatment, 
+exposure conditions not rel-
+evant for human exposure
+BHA, propionic acid, ethyl 
+acrylate
+Endocrine
+Thyroid gland 
+tumors
+Alteration in thyroid homeo-
+stasis, decreased thyroid hor-
+mone production, sustained 
+increase in thyroid stimulat-
+ing hormone (TSH), thyroid 
+tumors
+Lack of thyroid-binding pro-
+tein in rodents versus humans, 
+decreased t1/2 for T4, increased 
+TSH levels in rodents
+Ethylene bisdithiocarbamate, 
+fungicides, amitrol, goitro-
+gens, sulfamethazine
+Respiratory
+Rat lung
+Overwhelming clearance 
+mechanisms
+High-dose effects seen with 
+rodent models
+Various particles, titanium 
+dioxide
+SOURCES: McClain (1994), Neumann and Olin (1995), Oberdorster (1995), Omenn et al. (1995), Risk Commission (1997), Rodericks et al. (1997), Da 
+Rocha et al. (2014), and Yamada et al. (2017).
+
+136
+General Principles of Toxicology
+Unit I
+In an attempt to improve the prediction of cancer risks to 
+humans, transgenic mouse models have been developed as possible 
+alternative to the standard 2-year cancer bioassay. Transgenic mod-
+els use knockout or transgenic mice that incorporate or eliminate 
+a gene that has been linked to human cancer. The NTP evaluated 
+some of these models and found the p53-deficient (p53+/− het-
+erozygous) and Tg.AC (v-Ha-ras transgene) models to be particu-
+larly useful in identifying carcinogens and mechanisms of action 
+(Bucher, 1998; Chhabra et al., 2003). The use of transgenic models 
+has the power to improve the characterization of key cellular and 
+MOA of toxicological responses (Mendoza et al., 2002; Gribble 
+et al., 2005). However, these studies have been used primarily for 
+mechanistic characterization rather than for hazard identification. 
+Transgenic models have been shown to reduce cost and time as 
+compared with the standard 2-year assay, but they have also been 
+shown to be somewhat limited in their sensitivity (Cohen, 2001). 
+As stated in the current EPA cancer guidelines, transgenic models 
+should not be used to replace the standard 2-year assay, but can be 
+used in conjunction with other types of data to assist in the inter-
+pretation of additional toxicological and mechanistic evidence (U.S. 
+EPA, 2005a). An especially promising emerging area of research 
+has been with the Collaborative Cross. A series of genetically 
+defined (fully sequenced genomes, 20× coverage) mice referred 
+to as the Collaborative Cross have been established to investigate 
+genetic and environmental influences on toxicological response in 
+mice (Chesler et al., 2008) and these strains have already improved 
+our understanding of mammalian genes that predispose to cancer 
+(Koturbash et al., 2011). In a similar manner, human cells have also 
+provided a method to explore human diversity in response directly 
+in vitro (Eduati et al., 2015).
+Use of Epidemiologic Data in Risk Assessment
+The most convincing lines of evidence for human risk are well-
+conducted epidemiologic studies in which a positive association 
+between exposure and disease has been observed (NRC, 1983). 
+Environmental and occupational epidemiologic studies are fre-
+quently opportunistic. Studies begin with known or presumed 
+exposures, comparing exposed with nonexposed individuals, or 
+with known cases, compared with persons lacking the particular 
+diagnosis.
+Table 4-6 shows examples of epidemiologic study designs 
+and provides clues on types of outcomes and exposures evaluated. 
+Although convincing, there are important limitations inherent in 
+epidemiologic studies. Robust exposure estimates are often difficult 
+to obtain as they are frequently done retrospectively (e.g., through 
+retrospective job history records). Also, because many important 
+health effects have long latency before clinical manifestations 
+appear, reconsideration of relevant populations can be challenging. 
+Another challenge for interpretation is that there are often exposures 
+to multiple chemicals, especially when a lifetime exposure period is 
+considered. There is frequently a trade-off between detailed infor-
+mation on relatively few persons and very limited information on 
+large numbers of persons. Contributions from lifestyle factors, such 
+as smoking and diet, are important to assess as they can have a 
+significant impact on cancer development. Human epidemiologic 
+studies can provide both very useful information for hazard assess-
+ment and quantitative information for data characterization. Good 
+illustrations of epidemiologic studies and their interpretation for 
+toxicological evaluation are available (Regalado et al., 2006; Gill 
+et al., 2011).
+Three example types of epidemiologic study designs— 
+cross-sectional studies, cohort studies, and case–control studies—are 
+detailed in Table 4-6. Cross-sectional studies survey groups of 
+humans to identify risk factors (exposure) and disease, but are not 
+useful for establishing cause and effect. Cohort studies can evalu-
+ate individuals selected on the basis of their exposure to a chemi-
+cal under study. Thus, based on exposure status, these individuals 
+are monitored for development of disease. These prospective stud-
+ies monitor over time individuals who initially are disease-free to 
+determine the rates at which they develop disease. In case–control 
+Table 4-6  
+Example of Three Types of Epidemiologic Study Designs
+METHODOLOGICAL 
+ATTRIBUTES
+TYPE OF STUDY
+COHORT
+CASE–CONTROL
+CROSS-SECTIONAL
+Initial classification
+Exposure–nonexposure
+Disease–nondisease
+Either one
+Time sequence
+Prospective
+Retrospective
+Present time
+Sample composition
+Nondiseased individuals
+Cases and controls
+Survivors
+Comparison
+Proportion of exposed with dis-
+ease
+Proportion of cases with exposure
+Either one
+Rates
+Incidence
+Fractional (%)
+Prevalence
+Risk index
+Relative risk–attributable risk
+Relative odds
+Prevalence
+Advantages
+Lack of bias in exposure; yields 
+incidence and risk rates
+Inexpensive, small number of 
+subjects, rapid results, suitable for 
+rare diseases, no attrition
+Quick results
+Disadvantages
+Large number of subjects 
+required, long follow-up, attrition, 
+change in time of criteria and 
+methods, costly, inadequate for 
+rare diseases
+Incomplete information, biased 
+recall, problem in selecting con-
+trol and matching, yields only 
+relative risk—cannot establish 
+causation, population of survivors
+Cannot establish causation (ante-
+cedent consequence), population 
+of survivors, inadequate for rare 
+diseases
+SOURCES: Gamble and Battigelli (1978, 1991).
+
+Risk Assessment
+Chapter 4
+137
+studies, subjects are selected on the basis of disease status: disease 
+cases and matched cases of disease-free individuals. Exposure his-
+tories of the two groups are compared to determine key consistent 
+features in their exposure histories. All case–control studies are ret-
+rospective studies.
+In risk assessment, epidemiologic findings can be judged by 
+the following criteria: strength of association, consistency of obser-
+vations (reproducibility in time and space), specificity (uniqueness 
+in quality or quantity of response), appropriateness of temporal 
+relationship (did the exposure precede responses?), dose–response, 
+biological plausibility and coherence, verification, and analogy 
+(biological extrapolation) (Hill, 1965; Faustman et al., 1997; WHO, 
+1999; Adami et al., 2011). These same criteria have been used for 
+evaluating MOAs where integrated considerations of both human 
+and animal studies are done.
+Epidemiologic study designs should also be evaluated for their 
+power of detection, appropriateness of outcomes, verification of 
+exposure assessments, completeness of assessing confounding fac-
+tors, and general applicability of the outcomes to other populations 
+at risk. Power of detection is calculated using study size, variability, 
+accepted detection limits for endpoints under study, and a speci-
+fied significance level (Healey, 1987; EGRET, 1994; Dean et al., 
+1995). Meta-analysis is used with epidemiologic studies to combine 
+results from different studies using weighting of results to account 
+for sample size across studies. The importance and complexity of 
+human studies for risk assessment are shown in evaluations with 
+arsenic and dioxin (U.S. EPA, 2010b, 2010d).
+Advances from the human genome project have increased 
+sophistication of molecular biomarkers and have improved the mech-
+anistic bases for epidemiologic hypotheses. This has allowed epide-
+miologists to get within the “black box” of statistical associations 
+and forward our understanding of biological plausibility and clinical 
+relevance. “Molecular epidemiology,” the integration of molecular 
+biology into traditional epidemiologic research, is an important 
+focus of human studies where improved molecular biomarkers of 
+exposure, effect, and susceptibility have allowed investigators to 
+more effectively link molecular events in the causal disease path-
+way. Epidemiologists can now include the contribution of potential 
+genetic factors with environmental risk factors for the determination 
+of the etiology, distribution, and prevention of disease. Highlighting 
+the potential power of genetic information to epidemiologic studies, 
+the Human Genome Epidemiology (HuGE) Network was launched 
+in 1998, providing a literature database of published, population-
+based epidemiologic studies of human genes (Khoury, 1999).
+With the advance of genomics, the range of biomarkers has 
+grown dramatically and includes identification of single-nucleotide 
+polymorphisms (SNPs), genomic profiling, transcriptome analysis, 
+and proteomic analysis (Simon and Wang, 2006). Implications of 
+these improvements for risk assessment are tremendous, as they 
+provide an improved biological basis for extrapolation across the 
+diversity of human populations and allow for improved cross-
+species comparisons with rodent bioassay information because of 
+evolutionarily conserved response pathways and ontologies (NRC, 
+2000). In addition, genomics allows for “systems-based” under-
+standing of disease and response, moving risk assessment away 
+from a linear, single-event-based concept and improving the bio-
+logical plausibility of epidemiologic associations (Toscano and 
+Oehlke, 2005; NRC, 2010). Human databases such as SNP Track 
+from the FDA provide current information on genes and proteins 
+that contain polymorphisms that can affect human response, espe-
+cially for drug response (U.S. FDA, 2017a, 2017b). An extensive 
+battery of tools to link phenotypic and functional changes as well 
+as drug toxicity and interaction information to genetics is available.
+Integrating Qualitative Aspects of 
+Risk Assessment
+Qualitative assessment of hazard information should include a con-
+sideration of the consistency and concordance of findings, includ-
+ing a determination of the consistency of the toxicological findings 
+across species and target organs, an evaluation of consistency 
+across duplicate experimental conditions, and a determination of 
+the adequacy of the experiments to consistently detect the adverse 
+endpoints of interest.
+Qualitative assessment of animal or human evidence is done 
+by many agencies, including the EPA and IARC. Similar evidence 
+classifications have been used for both the animal and human evi-
+dence categories by both agencies. These evidence classifications 
+have included levels of “sufficient, limited, inadequate, and no evi-
+dence” (U.S. EPA, 1999, 1994b, 2005a), or “evidence suggesting 
+lack of carcinogenicity” (IARC, 2000). For both agencies, these 
+classifications are used for an overall weight-of-evidence approach 
+for carcinogenicity classification. Current categories expand on 
+these initial categories including “Group 4 probably not carcino-
+genic to humans” (IARC, 2017) or “not likely to be carcinogenic to 
+humans” (U.S. EPA, 2005a).
+Weight of evidence is an integrative step used by the EPA 
+to “characterize the extent to which the available data support the 
+hypothesis that a chemical causes cancer in humans” (U.S. EPA, 
+1999, 2005a). It is the process of “weighing” all of the evidence to 
+reach a conclusion about carcinogenicity. The weight of evidence can 
+consider both the quality and quantity of data as well as any underly-
+ing assumptions. The evidence includes data from all of the hazard 
+assessment and characterization studies such as SAR data, in vivo and/
+or in vitro studies, and epidemiologic data. Using this type of infor-
+mation and weight-of-evidence approach, the EPA includes hazard 
+descriptors to define carcinogenic potential and to provide a measure 
+of clarity and consistency in the characterization narrative: “carcino-
+genic to humans,” “likely to be carcinogenic to humans,” “sugges-
+tive evidence of carcinogenic potential,” “inadequate information to 
+assess carcinogenic potential,” and “not likely to be carcinogenic to 
+humans.” In this section, approaches for evaluating cancer endpoints 
+are discussed for carcinogens. Similar weight-of-evidence approaches 
+have been proposed for reproductive risk assessment (refer to suf-
+ficient and insufficient evidence categories in the EPA’s guidelines 
+for reproductive risk [U.S. EPA, 1996a] and considerations by NTP).
+The Institute for Evaluating Health Risks defined an “evaluation 
+process” by which reproductive and developmental toxicity data can 
+be consistently evaluated and integrated to ascertain their relevance 
+for human health risk assessment (Moore et al., 1995; Faustman 
+et al., 2011). This evaluation process supported the implementation 
+of EPA’s guidelines for developmental toxicity risk assessment (U.S. 
+EPA, 1991) and for the NTP’s Office of Health Assessment and 
+Translation (formerly CERHR) (NTP, 2011b). Application of such 
+carefully deliberated approaches for assessing noncancer endpoints 
+has helped avoid the tendency to list chemicals as yes or no (positive 
+or negative) without human relevancy information. Application of 
+systematic review methods for evaluation of chemicals at the NTP 
+(Birnbaum et al., 2013; Rooney et al., 2014; NTP, 2017), EPA, and 
+WHO is under assessment and modification to facilitate the method-
+ological review of the ever-widening body of literature on chemical 
+substructures and nonhuman studies (NTP, 2017).
+Mode of Action and Adverse Outcome Pathways
+In the 2005 EPA cancer guidelines the importance of using “weight 
+of evidence” to arrive at insights for possible mode of action (MOA) 
+was identified (U.S. EPA, 2005a). MOA information describes key 
+events and processes leading to molecular and functional effects
+
+138
+General Principles of Toxicology
+Unit I
+that would in general explain the overall process of cancer devel-
+opment. In many cases these could be plausible hypothesized 
+MOAs for specific toxicity endpoints, but the detailed mechanistic 
+nuances of the pathway might not yet be fully known. The EPA has 
+used such MOA information to suggest nondefault approaches for 
+cancer risk assessments and for evaluating toxicity of compounds 
+with common MOAs in cumulative risk assessments (U.S. EPA, 
+1996b, 1998a).
+Within the EPA’s carcinogenic risk assessment guidelines, the 
+MOA framework considers evidence from animal studies, relevance 
+to humans, and life stage or population susceptibility (U.S. EPA, 
+2005a). Chemical-specific adjustment factors for interspecies dif-
+ferences and human variability have been proposed and build upon 
+guidance developed by the WHO’s International Programme on 
+Chemical Safety Harmonization Project (WHO, 2000). Critical to 
+the MOA development is the use of “criteria of causality” consid-
+erations, which build upon the Hill criteria used in epidemiology 
+(Hill, 1965; Faustman et al., 1997; U.S. EPA, 1999; Klaunig et al., 
+2003), and considerations of dose–response relationships and tem-
+poral associations, as well as the biological plausibility, coherence, 
+strength, consistency, and specificity of the postulated MOA.
+Building on concepts from MOA analyses, Ankley proposed 
+a structured framework for ecological risk assessment entitled 
+Adverse Outcome Pathways that links biological events with 
+adverse outcomes and disease (Ankley et al., 2010). This has gained 
+applicability for human risk assessment as well and the OECD has 
+developed a program to facilitate its development and distribution 
+using a knowledge base and wiki facilitated IT site (OECD, 2017).
+Fig. 4-4 shows how biomarkers and adverse-outcome path-
+ways (AOPs) can be linked to describe adverse outcomes and dis-
+ease pathogenesis. In this figure the initial exposure to a chemical 
+is linked through a series of events including early molecular events 
+known as molecular initiating events (MIEs) through responses 
+at the cellular, organ, and ultimately to organism and population 
+level adverse outcomes. By linking these events the AOP approach 
+defines key event relationships that resemble the causal relation-
+ships identified using MOA approaches. Perhaps most importantly 
+for risk assessors is that these approaches allow for the identifica-
+tion of a temporal series of events that can be evaluated in vivo and 
+in vitro and across species using related biomarkers of exposure, 
+biological effect, and response. It also can incorporate biomarkers 
+of susceptibility. Fig. 4-4 shows these linkages and illustrates how 
+information from methods such as structure–activity relationship 
+assessments can link high- and medium-throughput assays with 
+high content assay outcomes across in vitro assessments with bio-
+markers of effect seen at the organ, organism, and population levels 
+with adverse outcomes and disease. These useful concepts can pro-
+vide both a qualitative and quantitative frame for risk assessment.
+DOSE–RESPONSE ASSESSMENT
+Integrating Quantitative Aspects of 
+Risk Assessment
+Quantitative considerations in risk assessment include dose–
+response assessment, exposure assessment, variation in suscep-
+tibility, and characterization of uncertainty. For dose–response 
+assessment, varying approaches have been proposed including 
+threshold versus nonthreshold endpoints. Traditionally, in the 
+United States, threshold approaches have been applied for assess-
+ment of noncancer endpoints, and nonthreshold approaches have 
+been used for cancer endpoints. As we have learned more about 
+Biomarkers
+Key Initiating
+Events
+Exposure
+Biological Response
+Disease
+Assessment Tools/
+Methods
+Toxicity Pathways
+Chemical Properties
+Regulatory Endpoints
+Adverse Outcome Pathways (AOPs) and Biomarkers Link Responses and Disease Pathogenesis
+QSAR:
+Quantitative
+Structure–Activity
+Relationship
+Adverse
+Outcomes
+Endpoints
+Toxicant
+Chemical
+Properties
+Macro-Molecular
+Interactions
+Cellular
+Responses
+Organ
+Responses
+Organism
+Responses
+Population
+Responses
+Impaired
+Reproduction
+Impaired
+Development
+Lethality
+Altered Tissue
+Development/
+Function
+Disrupted
+Homeostasis
+Altered Physiology
+Protein Oxidation
+DBA Binding
+Receptor–Ligand
+Interaction
+Altered
+Signaling
+Protein
+Production
+Gene Activation
+Structure
+Extinction
+Susceptibility
+HTS
+High
+Throughput
+Systems
+MTS
+Medium
+Throughput
+Systems
+Bioassays
+In Vitro
+and
+In Vivo
+Figure 4-4.  Adverse outcome pathways (AOPs) and biomarkers link responses and describe disease pathogenesis. Relationships between AOPs and biomarkers 
+of exposure, effect, susceptibility, and disease are illustrated across disease response. Methods used to collect information along the disease continuum include 
+quantitative SAR (QSAR), high and medium throughput in vitro systems, and bioassays (other in vivo and in vitro assessments).
+
+Risk Assessment
+Chapter 4
+139
+nongenotoxic mechanisms of carcinogenicity, these processes have 
+been evaluated using threshold approaches. Each approach and its 
+inherent assumptions are discussed below, as are efforts to include 
+more detailed mechanistic considerations to harmonize these 
+approaches (Bogdanffy et al., 2001).
+In general, human exposure data for prediction of human 
+response to environmental chemicals are quite limited; thus, animal 
+bioassay data have primarily served as the basis for most quantita-
+tive risk assessments and have required extrapolation for human 
+health risk prediction. The risk assessor, however, is normally inter-
+ested in low environmental exposures when considering human risk, 
+exposures that are well below the experimentally observable range 
+of responses in most animal assays. Thus, methods for extrapolating 
+from high dose to low dose as well as extrapolating from animal 
+risk to human risk are required and comprise a major emphasis of 
+dose–response assessment.
+The fundamental basis of the quantitative relationships between 
+exposure to a chemical and the incidence of an adverse response 
+is the dose–response assessment. Analysis of dose–response rela-
+tionships must start with the determination of the critical effects to 
+be quantitatively evaluated. It is usual practice to choose the most 
+robust data sets with adverse effects occurring at the lowest levels 
+of exposure from studies using the most relevant exposure routes. 
+The “critical” adverse effect is defined as the significant adverse 
+biological effect that occurs at the lowest exposure level (Barnes 
+and Dourson, 1988). The EPA has issued toxicity-specific guide-
+lines that are useful in identifying such critical effects (for devel-
+opmental toxicity [U.S. EPA, 1991], reproductive toxicity [U.S. 
+EPA, 1996a], neurotoxicity [U.S. EPA, 1998c], and cancer [U.S. 
+EPA, 1994b, , 1999, 2005a]). International Programme on Chemical 
+Safety (IPCS) has compiled a document cited as the Principles for 
+Modeling Dose–Responses for the Risk Assessment of Chemicals 
+(WHO, 2006b). It outlines key concepts and considerations for 
+dose–response evaluations within the context of a risk assessment.
+Threshold Approaches
+Approaches for characterizing threshold dose–response relation-
+ships include identification of “no observed adverse effect level” 
+(NOAEL) or “lowest observed adverse effect level” (LOAEL). On 
+the dose–response curve illustrated in Fig. 4-5, the doses tested 
+in the bioassay are given as F, G, H, and I. The statistical signifi-
+cance of points G, H, and I is indicated using an asterisk (*). The 
+NOAEL (F) is identified as the highest nonstatistically significant 
+dose tested; in this example the NOAEL occurs at approximately 
+2 mg/kg body weight. Point G is the LOAEL (~2.3 mg/kg body 
+weight), as it is the lowest dose tested with a statistically significant 
+effect. Lines A to D represent possible extrapolations below the 
+point of departure (POD), which is represented on this figure as a 
+square (■) and is labeled as point E. The POD is used to specify 
+the estimated dose near the lower end of the observed dose range, 
+below which extrapolation to lower exposures is necessary (U.S. 
+EPA, 2005a). In Fig. 4-5, the POD occurs at 10% effective dose or 
+ED10. The type of extrapolation below the POD is depending on the 
+type of data available. The importance of choosing an appropriate 
+POD and extrapolation type is discussed further in the following 
+sections of this chapter. From these modeled approaches, model D 
+shows a model where the threshold (T) represents the dose below 
+which no additional increase in response is observed.
+In general, most animal bioassays are constructed with suf-
+ficient numbers of test animals to detect biological responses at the 
+10% response range; however, this is also dependent on endpoint 
+and the background rate of the endpoint in control animals. The risk 
+assessor should always understand the biological significance of 
+the responses being evaluated in order to place statistical observa-
+tions in context. Significance thus usually refers to both biological 
+and statistical criteria (Faustman et al., 1994) and is dependent on 
+the number of dose levels tested, the number of animals tested at 
+each dose, and background incidence of the adverse response in the 
+nonexposed control groups. The NOAEL should not be perceived 
+as risk-free, as several reports have shown that the response of 
+NOAELs for continuous endpoints averages 5% risk, and NOAELs 
+based on quantal endpoints can be associated with risk of greater 
+than 10% (Allen et al., 1994a; Faustman et al., 1994).
+As described in Chap. 2, approaches for characterizing dose–
+response relationships include identification of effect levels such as 
+LD50 (dose producing 50% lethality), LC50 (concentration produc-
+ing 50% lethality), ED10 (dose producing 10% response), as well as 
+NOAELs. NOAELs have traditionally served as the basis for risk 
+assessment calculations, such as reference doses (RfDs) or accept-
+able daily intake (ADI) values. RfDs or concentrations (RfCs) are 
+estimates of daily exposure (oral or inhalation, respectively) to a 
+chemical that is assumed to be without adverse health impact in 
+humans. The ADIs are used by the WHO for pesticides and food 
+additives to define “the daily intake of chemical, which during an 
+entire lifetime appears to be without appreciable risk on the basis 
+of all known facts at that time” (WHO, 1962; Dourson et al., 1985). 
+RfDs (first introduced in Chap. 2) and ADI values typically are cal-
+culated from NOAEL values by dividing by uncertainty factor (UF) 
+and/or modifying factor (MF) (Dourson and Stara, 1983; Dourson 
+and DeRosa, 1991; U.S. EPA, 1991):
+RfD
+NOAEL
+UF
+MF
+ADI
+NOAEL
+UF
+MF
+=
+×
+=
+×
+,
+.
+60
+50
+40
+30
+20
+% response
+10
+1
+2
+3
+Dose (mg/kg BW)
+T
+B
+C
+D
+E
+F
+G
+H
+I
+*
+*
+*
+A
+4
+5
+Figure 4-5.  Dose–response curve. This figure is designed to illustrate a typi-
+cal dose–response curve with points F to I indicating the biologically deter-
+mined responses. Statistical significance of these responses is indicated 
+with the symbol “*.” Point E (■) represents a dose near the lower end of the 
+observed dose–response range, below which extrapolation to lower doses 
+can occur for cancer risk estimates (U.S. EPA, 2005a). Point F is the high-
+est nonstatistically significant response point; hence, it is the “no observed 
+adverse effect level” (NOAEL) for this example. Point G is the “lowest 
+observed adverse response level” (LOAEL). Point T represents a threshold 
+for response curve D. Curves A to D show some options for extrapolating 
+the dose–response relationship below the range of biologically observed 
+data points and POD.
+
+140
+General Principles of Toxicology
+Unit I
+Tolerable daily intakes (TDIs) can be used to describe intakes 
+for chemicals that are not “acceptable” but are “tolerable” as they 
+are below levels thought to cause adverse health effects. These are 
+calculated in a manner similar to ADI. Historically, dividing by the 
+UFs allows for interspecies (animal-to-human) and intraspecies 
+(human-to-human) variability with default values of 10 each. An 
+additional UF is used to account for experimental inadequacies—
+for example, to extrapolate from short-exposure-duration studies to 
+a situation more relevant for chronic study or to account for inad-
+equate numbers of animals or other experimental limitations. If only 
+a LOAEL value is available, then an additional 10-fold factor is 
+commonly used to arrive at a value more comparable to a NOAEL. 
+For developmental toxicity endpoints, it has been demonstrated 
+that the application of the 10-fold factor for LOAEL-to-NOAEL 
+conversion is too large (Allen et al., 1994a). Traditionally, a safety 
+factor of 100 would be used for RfD calculations to extrapolate 
+from a well-conducted animal bioassay (10-fold factor for animal- 
+to-human variability) and to account for human variability in 
+response (10-fold factor for human-to-human variability).
+MFs are values that can be used to adjust the UFs if data on 
+mechanisms, pharmacokinetics, or relevance of the animal response 
+to human risk are available. For example, if there is kinetic infor-
+mation suggesting there is very similar metabolism for a particular 
+compound in rats and humans, producing the same active target 
+metabolite, then—rather than using a 10-fold UF to divide the 
+NOAEL from the animal toxicity study to obtain a human relevant 
+RfD—a factor of 3 for that UF might be used. Of particular interest 
+is the addition of an extra 10-fold factor through the Food Quality 
+Protection Act (FQPA) to ensure protection of infants and children 
+(U.S. EPA, 1996b). Under this law an additional UF is added to 
+ensure protection of children’s health and it is currently being used 
+for determining allowable pesticide chemical residues. This factor 
+is designed to take into account potential prenatal and postnatal tox-
+icity and to overcome the incompleteness of toxicity and exposure 
+data (FQPA, PL 104-170). Illustrative discussions on how such a 
+legislatively mandated UF might be applied are available for chlor-
+pyrifos (Schardein and Scialli, 1999; U.S. EPA, 2000b, 2016; Zhao 
+et al., 2006).
+To reduce uncertainty in calculating RfDs and ADIs, there 
+has been a transition from the use of traditional 10-fold UFs to the 
+use of data-derived and chemical-specific adjustment factors. Such 
+efforts have included reviewing the human pharmacologic literature 
+from published clinical trials (Silverman et al., 1999) and develop-
+ing human variability databases for a large range of exposures and 
+clinical conditions (Renwick, 1991, 1999; Johnson et al., 1997). 
+Toward this goal, Renwick has separated the intraspecies and inter-
+species UFs into two components: toxicokinetics (TK) and toxico-
+dynamic (TD) aspects (Renwick, 1991, 1999; Johnson et al., 1997). 
+Fig. 4-6 shows these distinctions. A key advantage of this approach 
+is that it provides a structure for incorporating scientific information 
+on specific aspects of the overall toxicological process into the RfD 
+calculations; thus, relevant data can replace a portion of the overall 
+“uncertainty” surrounding these extrapolations. Current WHO guid-
+ance uses a 4.0- and 2.5-fold factor for the TK and TD interspecies 
+components, respectively (WHO, 2005), and interindividual TK and 
+TD factors of 3.16 (Renwick and Lazarus, 1998). The NAS publi-
+cations (NRC, 2009, 2017) have emphasized the need to consider 
+population variability and context in risk assessment. In examples 
+described in this NRC report, high background incidence of cancers 
+or other adverse health outcomes in the population should be con-
+sidered before setting “acceptable” levels of additional risks (NRC, 
+2009).
+NOAEL values have also been utilized for risk assessment by 
+evaluating a “margin of exposure” (MOE), where the ratio of the 
+NOAEL determined in animals and expressed as mg/kg per day is 
+compared with the level to which a human may be exposed. For 
+example, consider the case where human exposures to a specific 
+chemical are calculated to be solely via drinking water, and the 
+total daily intake of the compound is 0.04 mg/kg per day. If the 
+NOAEL for neurotoxicity is 100 mg/kg per day, then the MOE 
+would be 2500 for the oral exposure route for neurotoxicity. Such 
+a large value is reassuring to public health officials. Low values of 
+MOE indicate that the human levels of exposure are close to levels 
+for the NOAEL in animals. There is usually no factor included in 
+this calculation for differences in human or animal susceptibility 
+or animal-to-human extrapolation; thus, MOE values of less than 
+100 have been used by regulatory agencies as flags for requiring 
+further evaluation.
+The NOAEL approach has been criticized on several points, 
+including that (1) the NOAEL must, by definition, be one of the 
+experimental doses tested and (2) once this is identified, the rest of 
+the dose–response curve is ignored. Because of these limitations, 
+an alternative to the NOAEL approach, the benchmark dose (BMD) 
+method, was proposed (Crump, 1980). In this approach, the dose–
+response is modeled and the lower confidence bound for a dose at a 
+specified response level (benchmark response [BMR]) is calculated. 
+The BMR is usually specified at 1%, 5%, or 10%. Fig. 4-7 shows 
+the BMD using a 10% BMR (BMD10) and a 95% lower confidence 
+10
+Dynamics
+Kinetics
+Kinetics
+10
+Dynamics
+Species
+differences
+Human
+variability
+Figure 4-6.  Toxicokinetic (TK) and toxicodynamic (TD) considerations inherent in interspecies and interindividual extrapolations. TK refers to the processes of 
+absorption, distribution, elimination, and metabolism of a toxicant. TD refers to the actions and interactions of the toxicant within the organism and describes 
+processes at organ, tissue, cellular, and molecular levels. This figure shows how uncertainty in extrapolation both across and within species can be considered 
+as being due to two key factors: a kinetic component and a dynamic component. Challenges remain for extrapolating information on human variation to specific 
+populations (NRC, 2009). Refer to the text for detailed explanations.
+
+Risk Assessment
+Chapter 4
+141
+bound on dose (BMDL10). The BMDx (with x representing the per-
+cent BMR) is used as an alternative to the NOAEL value for RfD 
+calculations. Thus, the RfD would be:
+RfD
+BMD orBMDL
+UF
+MF
+.
+=
+×
+•
+x
+x
+The EPA has developed software for the application of BMD 
+methods and a technical guidance document to provide guidelines 
+for application of BMDs for both cancer and noncancer endpoints 
+(U.S. EPA, 2000a, 2012a). The final guidance can be found at 
+https://www.epa.gov/risk/benchmark-dose-technical-guidance. The 
+EPA recently released an updated version (2.7) of its BMD software 
+(U.S. EPA, 2017a).
+The 2009 WHO guidelines for dose–response modeling for 
+risk assessment also discuss BMD approaches (WHO, 2006b). 
+Both the EPA and WHO guidelines distinguish NOAEL versus 
+BMD-based approaches. Harmonization of approaches available 
+for assessments is discussed in the WHO documents.
+The BMD approach has been applied to study noncancer end-
+points, including developmental (Allen et al., 1994a) and repro-
+ductive toxicity (Auton, 1994). The most extensive studies with 
+developmental toxicity have shown that BMD05 values were similar 
+to a statistically derived NOAEL for a wide range of developmental 
+toxicity endpoints and that results from using generalized dose–
+response models were similar to biologically based dose–response 
+(BBDR) models designed specifically to represent unique features 
+of developmental toxicity testing (Faustman et al., 1999).
+Advantages of the BMD approach include (1) the ability to 
+take into account the dose–response curve; (2) the inclusion of a 
+measure of variability (confidence limit); and (3) the use of a con-
+sistent BMR level for RfD calculations across studies. Limitations 
+in the animal bioassays include minimal number of test doses for 
+evaluation, shallow dose responses, and use of study designs with 
+widely spaced test doses will limit the utility of these assays for any 
+type of quantitative assessments, whether NOAEL- or BMD-based 
+approaches.
+Nonthreshold Approaches
+As Fig. 4-5 shows, numerous dose–response curves can be pro-
+posed in the low-dose region of the dose–response curve if a thresh-
+old assumption is not made. Because the risk assessor may need to 
+extrapolate beyond the region of the dose–response curve for which 
+experimentally observed data are available, the choice of models 
+to generate curves in this region has received lots of attention. For 
+nonthreshold responses, methods for dose–response assessments 
+have models for extrapolation to de minimus (10−4 to 10−6) risk lev-
+els at very low doses, far below the biologically observed response 
+range and far below the effect levels evaluated for threshold 
+responses.
+The EPA cancer guidelines define the dose–response methods 
+as requiring two steps: (1) defining the “POD” or the lowest dose 
+associated with adverse effects within the range of the experimen-
+tal data and (2) the extrapolation from the POD to low environ-
+mentally relevant exposure levels based on experimental data. The 
+extrapolation can be done with a linear model or a nonlinear model 
+with this choice dependent on the amount and type of experimen-
+tal data available. Risk estimates using the linear model (biologi-
+cal response increases proportionally with level of exposure) are 
+generally higher than those using nonlinear models. For example, 
+in 2003, the EPA released the Dioxin Reassessment and used the 
+BMD dose–response method. The reassessment used a POD based 
+on a 1% response with a linear extrapolation model based on the 
+position that the scientific data were inadequate to rule out the EPA’s 
+standard default linear assumption. The EPA Dioxin Reassessment 
+was evaluated in a National Academies Report in 2006 (National 
+Academy of Science, 2006) and this review discussed remaining 
+extrapolation issues. In the EPA’s recent draft of dioxin risk assess-
+ment (U.S. EPA, 2010b) a revised TCDD cancer risk assessment is 
+presented using the upper bound on the regression slope for esti-
+mating cancer mortality risk from the epidemiology evaluation by 
+Cheng et al. (2006). The top 5% of exposure estimates from this 
+epidemiologic study were excluded as the dose-related changes in 
+cancer mortality plateaued at high doses. The EPA lagged exposures 
+by 15 years and adjusted cancer risk based on cumulative TCDD fat 
+concentrations. Their analysis included an estimate of TCDD can-
+cer risks above the TCDD background levels found in the NIOSH 
+worker cohort analyzed by Cheng et al. (2006). Below the POD, the 
+EPA assumed a default linear slope value. This document represents 
+an example recent interpretation of cancer risk assessment by the 
+EPA for data-rich compounds with multiple cancer risk estimates 
+for animal and human studies as well as how extensive mechanistic 
+and kinetic information is considered. This draft report provides 
+insight into recent interpretations of the EPA cancer guidelines 
+(U.S. EPA, 2005a). Increased attention has been given to the use 
+of mechanistic data (such as biomarker data) to extend the POD to 
+lower regions of the dose–response curve.
+Statistical or Probability Distribution Models
+Two general types of dose–response models exist for extrapolation: 
+statistical (or probability distribution) and mechanistic models 
+(Krewski and Van Ryzin, 1981). The distribution models are based 
+on the assumption that each individual has a tolerance level for a 
+test chemical and that this response level is a variable following a 
+specific probability distribution function. These responses can be 
+modeled using a cumulative dose–response function. Chap. 2 dis-
+cusses the common normal distribution pattern (see Fig. 2-5). A log-
+probit model estimates the probability of response at a specified 
+Dose–response fitted to
+experimental data
+10
+20
+30
+40
+50
+60
+2
+3
+4
+5
+% Response
+Dose
+BMD10
+BMDL10
+Upper confidence limit
+on estimated risk
+Figure 4-7.  Illustration of benchmark dose (BMD) approach. This figure 
+shows the BMDL10 and BMD10, the lower confidence limit and dose (ED10) 
+associated with a 10% incidence of adverse response, respectively (Kavlock 
+et al., 1995; U.S. EPA, 2005a, 2012a). For reference, points are labeled as 
+described in the legend for Fig. 4-5.
+
+142
+General Principles of Toxicology
+Unit I
+dose (d); thus, P(d) =  ϕ [a + β log d], where ϕ is the cumulative 
+function for a standard normal distribution of the log tolerances 
+with standard deviations σ and mean μ, a equals μ/σ, and β equals 
+the slope of the probit line (−1/σ). The probit curve at low doses 
+usually assumes an S shape. Chap. 2 discusses determination of 
+the LD50 value from such a curve. However, extrapolation of the 
+experimental data from 50% response levels to a “safe,” “accept-
+able,” or “de minimus” level of exposure—for example, one in a 
+million risk above background—illustrates the huge gap between 
+scientific observations and highly protective risk limits (sometimes 
+called virtually safe doses [VSDs] or those corresponding to a 95% 
+upper confidence limit on adverse response rates).
+The log-logistic model was derived from chemical kinetic 
+theory. The probability of response at dose d is defined as P(d) = 
+[1 exp(a + β log d)]−1. Like the probit model, this model defines 
+sigmoidal curves that are symmetrical around the 50% response 
+level; however, the log-logistic curves approach the 0% and 100% 
+response levels with a shallow curve shape. The logit and probit 
+curves are indistinguishable in fitting the data in the region of the 
+response curve where experimentally derived data are present 
+(Brown, 1984; Hartung, 1987; Allen et al., 1994b).
+Models Derived from Mechanistic Assumptions
+This modeling approach designs a mathematical equation to 
+describe dose–response relationships that are consistent with pos-
+tulated biological mechanisms of response. These models are based 
+on the idea that a response (toxic effect) in a particular biological 
+unit (animal, human, pup, etc.) is the result of the random occur-
+rence of one or more biological events (stochastic events).
+Radiation research spawned a series of such “hit models” for 
+cancer modeling, where a hit is defined as a critical cellular event 
+that must occur before a toxic effect is produced. The simplest 
+mechanistic model is the one-hit (one-stage) linear model in which 
+only one hit or critical cellular interaction is required for a cell to 
+be altered. For example, based on somatic mutation theory, a single 
+mutational change would be sufficient for a cell to become cancer-
+ous through a transformational event and dose-independent clonal 
+expansion. The probability statement for these models is P(d) = 
+1 − exp(−λd), where λd equals the number of hits occurring during 
+a time period. Using this approach, a single molecule of a geno-
+toxic carcinogen would have a minute but finite chance of causing 
+a mutational event.
+As theories of cancer have grown in complexity, so too 
+have these hit-based mechanistic models. Multihit models have 
+been developed that can describe hypothesized single-target 
+multihit events, as well as multitarget, multihit events in car-
+cinogenesis. The probability statements for these models are 
+P d
+x
+x
+k
+x
+k
+d
+( )
+exp(
+) /
+( )
+=
+−
+−
+∫
+1
+Γ
+d
+λ
+, where Γ(k) denotes the gamma 
+function with k being the critical number of hits for the adverse 
+response. The Weibull model has a dose–response function with 
+characteristics similar to those of the multihit models, where the 
+response equation is P(d) = 1 − exp[–λdk]. Here again, k is the 
+critical number of hits for the toxic cellular response.
+Armitage and Doll (1957) developed a multistage model 
+for carcinogenesis that was based on these equations and on the 
+hypothesis that a series of ordered stages was required before a cell 
+could undergo mutation, initiation, transformation, and progression 
+to form a tumor. This relationship was generalized by Crump (1984) 
+by maximizing the likelihood function over polynomials, so that the 
+probability statement is:
+P d
+d
+d
+d
+k
+k
+( )
+exp[ (
+)].
+=
+−
+−
++
++
++
++
+1
+0
+1
+1
+2
+2
+λ
+λ
+λ
+λ
+
+If the true value of λ1 is replaced with λ1
+* (the upper confidence 
+limit of λ1), then a linearized-multistage model can be derived 
+where the expression is dominated by d at low doses. The slope on 
+this confidence interval, q1
+*, has been used by the EPA for quantita-
+tive cancer assessment. To obtain an upper 95% confidence interval 
+on risk, the q1
+* value (risk/Δ dose in mg/kg per day) is multiplied 
+by the amount of exposure (mg/kg per day). Thus, the upper bound 
+estimate on risk (R) is calculated as:
+R
+q
+=
+×
+−
+1
+1
+*[
+(
+/
+) ]
+(
+/
+)
+risk mg kg per day
+exposure mg kg per day
+This relationship has been used to calculate a “VSD,” which 
+represents the lower 95% confidence limit on a dose that gives an 
+“acceptable level” of risk (e.g., upper confidence limit for 10–6 
+excess risk). In the past the Integrated Risk Information System 
+(IRIS) (U.S. EPA, 2011d) developed by the EPA has given q* values 
+for many environmental carcinogens (U.S. EPA, 2011d). Because 
+both the q1
+*  and VSD values are calculated using 95% confidence 
+intervals, the values are believed to represent conservative, protec-
+tive estimates.
+The EPA has utilized the LMS model to calculate “unit risk 
+estimates” in which the upper confidence limit on increased indi-
+vidual lifetime risk of cancer for a 70-kg human breathing 1 μg/m3 
+of contaminated air or drinking 2 L per day of water containing 1 
+ppm (1 mg/L) is estimated over a 70-year life span. The example 
+given in Fig. 4-8 shows the calculation of incremental lifetime can-
+cer risk (ILCR) of skin cancer using soil exposure and q* values 
+for inorganic arsenic. If a POD-based approach is used for low-
+dose extrapolation, the model would be used to extrapolate from 
+the POD or upper confidence limit and these slopes would be con-
+sidered for the q* values.
+Toxicological Enhancements of the Models
+Three exemplary areas of research that have improved the models 
+used in risk extrapolation are time to tumor information, physio-
+logically based TK modeling, and BBDR modeling (Albert, 1994). 
+Chap. 7 discusses in detail improvements in our estimation of expo-
+sure and offers approaches on how to model “target internal effec-
+tive dose” in risk assessment rather than just using single-value 
+“external exposure doses.” In this chapter we discuss the BBDR 
+modeling.
+BBDR modeling aims to make the generalized mechanistic 
+models discussed in the previous section more clearly reflect spe-
+cific biological processes. Measured rates are incorporated into the 
+mechanistic equations to replace default or computer-generated 
+values. For example, the Moolgavkar–Venson–Knudson (MVK) 
+model is based on a two-stage model for carcinogenesis, where two 
+mutations are required for carcinogenesis and birth and death rates 
+of cells are modeled through clonal expansion and tumor formation. 
+This model has been applied effectively to human epidemiologic 
+data on retinoblastoma. In animal studies, kidney and liver tumors 
+in the 2-acetylaminofluorene (2-AAF) “mega mouse” study, rat 
+lung tumors following radiation exposure, rat liver tumors follow-
+ing N-nitrosomorpholine exposure, respiratory tract tumors follow-
+ing benzo[a]pyrene exposure, and mouse liver tumors following 
+chlordane exposure have been modeled (Cohen and Ellwein, 1990; 
+Moolgavkar and Luebeck, 1990).
+There have been concerted research efforts to improve our 
+mechanistic understanding of response at lower exposures. Two 
+excellent examples of the use of biomarkers to supplement our 
+exploration of these dose–response relationships are seen in Bailey 
+et al. (2009) and Vlaanderen et al. (2011). Hormetic responses 
+are U-shaped dose–response relationships where small doses of
+
+Risk Assessment
+Chapter 4
+143
+a chemical can be beneficial but high doses are toxic. These are 
+discussed in Chap. 2. These responses pose challenges to risk 
+assessors. In general, science-based mechanistic considerations of 
+low-dose response are always critical. (See approaches used by the 
+Institute of Medicine for vitamins and essential elements as these 
+compounds consistently exhibit hormesis [Institute of Medicine, 
+2008]).
+Development of BBDR models for endpoints other than can-
+cer is limited; however, several approaches have been explored in 
+developmental toxicity, utilizing MOA information on cell cycle 
+kinetics, enzyme activity, and cytotoxicity as critical endpoints 
+(Faustman et al., 1989, 2005; Shuey et al., 1994; Leroux et al., 
+1996; Gohlke et al., 2002, 2004, 2005, 2007; Daston et al., 2004). 
+Approaches have been proposed that link pregnancy-specific TK 
+models with temporally sensitive TD models for developmental 
+impacts (Faustman et al., 1999). Unfortunately, there is a lack of 
+specific, quantitative biological information on both kinetics and 
+dynamics for most toxicants and endpoints (NRC, 2000; Faustman 
+et al., 2005). The new NRC report titled Using 21st Century Science 
+to Improve Risk-related Evaluations (NRC, 2017) may provide new 
+ideas on how to identify mechanistic findings that link epidemiol-
+ogy with mechanistic observations in in vitro and in vivo assays, 
+hence new attention to mechanistic models may be forthcoming.
+EXPOSURE ASSESSMENT
+The primary objectives of exposure assessment are to determine 
+source, type, magnitude, and duration of contact with the chemical(s) 
+of interest. This is a critical element of the risk assessment process, 
+as risk does not occur in the absence of exposure. However, it is 
+also frequently identified as the key area of uncertainty in the over-
+all risk determination. Here, the primary focus is on uses of expo-
+sure information in quantitative risk assessment.
+The primary goal of exposure calculations is not only to deter-
+mine the type and amount of total exposure but also to find out 
+specifically who may be exposed and how large a dose may be 
+reaching target tissues. A key step in making an exposure assess-
+ment is determining what exposure pathways are relevant for the 
+risk scenario under development. Fig. 4-9 shows an example expo-
+sure diagram used to illustrate possible exposure pathways from a 
+hazardous chemical release. The subsequent steps entail quantita-
+tion of each pathway identified as a relevant exposure and then sum-
+marizing these pathway-specific exposures for calculation of overall 
+exposure. Such calculations can include an estimation of total expo-
+sures for a specified population as well as calculation of exposure 
+for highly exposed individuals. The EPA has published numerous 
+documents that provide detailed definitions and guidelines for 
+determining such exposures (U.S. EPA, 1992b, 2008, 2011a), with 
+the recognition that special considerations need to be adopted when 
+assessing childhood exposures (U.S. EPA, 2005b, 2005c, 2008).
+Conceptually, calculations are designed to represent “a plau-
+sible estimate” of exposure of individuals in the upper 90th to 95th 
+percentile of the exposure distribution. Upper bound estimations 
+would be “bounding calculations” designed to represent exposures 
+at levels that exceed the exposures experienced by all individuals in 
+the exposure distribution and are calculated by assuming upper lim-
+its for all exposure variables. A calculation for individuals exposed 
+at concentrations near the middle of the exposure distribution is a 
+A. Ingestion of arsenic from soil—point estimation method
+Soil concentration × Ingestion rate × Exposure duration × Exposure frequency
+Body weight × Averaging time
+× Bioavailability × q*
+= Lifetime cancer risk (ILCR)
+   from skin cancer
+× 0.09 × 1.50 (mg/kg per day)–1
+= 1.8 × 10–4
+2300 mg/kg × 100 mg per day × 30 years × 350 days per year
+70 kg × 25,550 days
+B. Ingestion of arsenic from soil—probabilistic methods
+Slope factor, q*
+q* (mg/kg per day)
+1.50
+0.00
+0.25
+0.50
+0.75
+1.0
+×
+×
+Bioavailability
+0.000
+0.006
+0.013
+0.019
+0.025
+0.0
+0.125  0.25 0.38 0.50
+Bioavailability (–)
+= ILCR skin cancer
+0.000
+0.075
+0.149
+0.223
+0.298
+0E+0 7.5E–6  1.5E–5  2.3E–5 3E–5
+95th
+percentile
+95th percentile = 2.3 × 10−5
+140
+30
+Body weight
+Probability
+0.000
+0.004
+0.008
+0.012
+0.016
+60
+90
+110
+Body weight, kg
+×
+Averaging time
+0.00
+0.25
+0.50
+0.75
+1.0
+2555
+Averaging time, days
+×
+Ingestion rate
+0.000
+0.006
+0.013
+0.019
+0.025
+0
+75
+150
+225
+300
+Ingestion rate,
+mg per day
+×
+Exposure duration,
+years
+Exposure duration
+0.000
+0.028
+0.055
+0.083
+0.110
+0
+25
+50
+75
+100
+×
+Exposure frequency
+0
+100
+200
+300 400
+Exposure frequency,
+days per year
+0.000
+0.004
+0.007
+0.011
+0.014
+7000
+0.000
+0.010
+0.020
+0.030
+0.040
+0 1750
+3500
+5250
+As concentration, mg/kg
+Soil concentration
+Probability
+Figure 4-8.  Example of risk calculations for incremental lifetime cancer risk (ILCR) of skin cancer due to ingestion of arsenic in soil. (A) Point exposure esti-
+mation method for calculation of ILCR. Point estimates for arsenic exposure input parameters are used in this example to calculate the ILCR. This exposure 
+estimate is multiplied by the bioavailability of arsenic in soil to calculate the absorbed dose. Multiplication of the dose by the slope factor (q*) yields the lifetime 
+risk. (B) Probabilistic exposure methods for calculating the ILCR from arsenic ingestion. In this example, the soil concentration, ingestion rate, exposure dura-
+tion and frequency, body weight, and bioavailability are modeled as distributions. Note that q* and averaging time (years) are given as single-point estimations. 
+This method yields a distribution of ILCR, with a 95th percentile upper confidence interval of 2.3 × 10−5. (Data from Calabrese et al. [1989], U.S. EPA [1989, 
+1992b, 1999], Davis et al. [1990], Israeli and Nelson [1992], Brorby and Finley [1993], and Agency for Toxic Substances and Disease Registry [2007].)
+
+144
+General Principles of Toxicology
+Unit I
+central estimate. Fig. 4-8 gives example risk calculations using two 
+types of exposure estimation procedures (U.S. EPA, 1989, 1992b, 
+2011a). Part A shows an example point estimation method for the 
+calculation of arsenic (As) exposure via a soil ingestion route. In 
+this hypothetical scenario, As exposure is calculated using point 
+estimates for the upper 95th percent confidence limit of the arithme-
+tic mean for each value in the lifetime average daily dose (LADD) 
+equation. The LADD is calculated as follows:
+LADD
+Concentration of the
+toxicant in soil
+Contact
+rate
+Expo
+=
+×
+×
+sure
+duration
+Bodyweight
+Lifetime
+×
+.
+In this scenario, the average time (AT) is lifetime (25,550 
+days) and the contact or ingestion rate (CR) is equal to 100 mg soil 
+per day. The exposure frequency and duration (EDF) is equal to the 
+exposure frequency (daily exposure = 365 days per year) times the 
+exposure duration (30 years). To obtain the ILCR, the LADD must 
+be multiplied by the bioavailability to obtain an absorbed dose and 
+q* where the upper 95% CLM slope (q*) is 1.5× the change in risk 
+per mg/kg body weight per day in this example.
+Many exposures are now estimated using probability distri-
+butions for exposures rather than single-point estimates for the 
+factors within the LADD equation (Finley et al., 1994; Cullen and 
+Frey, 1999). Such approaches can provide a reality check and can 
+be useful for generating more realistic exposure profiles reflective 
+of population exposures. Good sources for U.S. exposures can be 
+obtained from the EPA Exposure Factors Handbook (U.S. EPA, 
+2011a). Fig. 4-8 (Part B) shows how this is done using an example 
+As risk scenario with soil As concentration, ingestion rate, exposure 
+duration, frequency, body weight, and bioavailability modeled as 
+distributed variables. Using Monte Carlo simulation techniques, an 
+overall ILCR distribution can be generated and a 95th percentile for 
+population risk obtained.
+The FQPA of 1996 has highlighted the need for considerations 
+of potential special risks for children and the need to evaluate child-
+specific exposures as well as cumulative exposures and risks (U.S. 
+EPA, 1996b). The EPA released a supplemental document with 
+child-specific exposure factors to address the special considerations 
+necessary when evaluating childhood exposures (U.S. EPA, 2008). 
+Table 4-7 shows example exposure factors for drinking water intake 
+for children and adults. The EPA Child-Specific Exposure Factors 
+Handbook, which is online, provides useful information about such 
+exposure distributions. The FQPA also identified the need to evalu-
+ate total exposures by determining aggregate exposure measures for 
+all exposures to a single substance. Cross-media exposure analyses, 
+Uptake by
+aquatic plants 
+Water immersion and
+Water surface
+Shoreline exposure
+Liquid
+efﬂuents
+Aquatic food
+ingestion
+Milk ingestion
+Crop
+ingestion
+Water ingestion
+Ground-water
+ingestion
+Exposure
+to deposited
+materials
+Ingestion
+Irrigation
+Irrigation
+Meat
+Deposition
+to crops 
+Deposition
+to ground 
+Inhalation
+and
+Transpiration
+Air
+submersion
+Gaseous and Particulate Efﬂuents
+Chemical plant
+Figure 4-9.  Exposure pathway schematic. Within the risk assessment process, a critical early step is the identification of the exposure pathway(s). To fully char-
+acterize exposure, the site- and chemical-specific exposure pathways must be identified. This hypothetical exposure pathway schematic illustrated the various 
+ways in which contaminants can move from the source through media to points of exposure. (Adapted from Sexton et al. [1992]; reproduced with permission 
+from Taylor & Francis Group, LLC, http://www.taylorandfrancis.com.)
+
+Risk Assessment
+Chapter 4
+145
+such as those conducted for lead and mercury, are good examples 
+of the value of looking at such total exposures in evaluating human 
+risks, and complex models are available for some compounds (see 
+the EPA’s integrated exposure uptake biokinetic [IEUBK] model 
+for lead in children; U.S. EPA, 2010c). Cumulative exposures and 
+cumulative risk refer to the total exposure and risks from a group of 
+compounds. In the FQPA, chemicals with similar modes of toxic-
+ity are evaluated using cumulative exposure and risk estimates. For 
+example, the EPA is identifying and categorizing pesticides that act 
+by a common MOA, and cumulative exposures to organophosphates 
+with similar MOAs (cholinesterase inhibition) have been used as 
+an example of a class of pesticides for which cumulative exposure 
+and cumulative risk estimates are needed (U.S. EPA, 1996b, 1998b; 
+ILSI, 1999; Ryan, 2010). The WHO has recently published a frame-
+work for combined exposures (Meek et al., 2011).
+Additional considerations for exposure assessments include 
+how time and duration of exposure are evaluated in risk assess-
+ments. In general, estimates for cancer risk use average exposure 
+over a lifetime, as lifetime average daily dose (see LADD example 
+above). In a few cases, short-term exposure limits (STELs) are 
+required (e.g., ethylene oxide and occupational exposure limits) and 
+characterization of brief but high levels of exposure is significant. 
+In these cases exposures are not averaged over the lifetime and the 
+effects of high, short-term doses are directly estimated. With devel-
+opmental toxicity, a single exposure can be sufficient to produce an 
+adverse developmental effect if exposures occur during a window of 
+developmental susceptibility; thus, daily doses are used, rather than 
+lifetime weighted averages (U.S. EPA, 1991; Weller et al., 1999). 
+ExpoCast, a part of the EPA’s suite of computational tools, provides 
+new insights on how to estimate population exposures and charac-
+terize exposure variability (Wambaugh et al., 2013).
+RISK CHARACTERIZATION
+Risk characterization is a summary of the risk assessment com-
+ponents and serves to outline the key findings and inform the risk 
+manager in public health decisions. It is an analysis and integration 
+of the conclusions from the hazard assessment, the dose–response 
+assessment, and the exposure assessment. The EPA outlines the sci-
+ence policy and elements for completing a risk characterization in 
+its Risk Characterization Handbook (U.S. EPA, 2000d). As shown 
+in Fig. 4-1, risk characterization considers the nature, estimated 
+incidence, and reversibility of adverse effects in a given population; 
+how robust the evidence is; how certain the evaluation is; if suscep-
+tible populations are characterized; and if there is a relevant MOA.
+For many years there has been an information sharing process 
+aimed at harmonization of chemical testing regimes and clinical trial 
+methodologies, so that data might be accepted in multiple countries. 
+Efforts by the WHO and IPCS have included the Harmonization of 
+Approaches to the Assessment of Risk from Exposure to Chemicals 
+Project (WHO, 2011a). This project has the goal of globally har-
+monizing but not standardizing the approaches to risk assessment 
+by increasing understanding and developing basic principles and 
+guidance on specific chemical risk assessment issues. The WHO 
+has worked to harmonize dose–response methodologies (DRM) and 
+released a report providing descriptive guidance for risk assessors in 
+using DRM in hazard characterization (WHO, 2006b). Examples of 
+other reports include those on terminology (WHO, 2004) and expo-
+sure assessment (WHO, 2006a) and Uncertainty and Data Quality 
+in Exposure Assessment (WHO, 2008).
+Uncertainty analysis is an essential component in our final risk 
+characterization and includes factors such as variability and lack of 
+knowledge (NRC, 1994). Variability refers to true differences such 
+as is reflected in temporal, spatial, or interindividual differences. It 
+usually cannot be reduced with further study. Lack of knowledge can 
+also be discussed as a source of uncertainty and these factors may be 
+reduced with further study. For example, if only a few environmental 
+samples are taken from a contaminated site for analysis, then uncer-
+tainty can be reduced by taking further samples. Formal methods 
+for dealing with uncertainty analysis are described in several refer-
+ences including IPCS (WHO, 2008) and Bogen et al. (2009). Using 
+probabilistic-based approaches (PRA) for exposure assessment and 
+assuming distributional versus dichotomous data for exposure fac-
+tors are one way of addressing uncertainty that is commonly applied.
+Table 4-7  
+Example Exposure Factor Handbook Information: Drinking Water Intake for Children
+AGE GROUP
+MEAN
+INTAKE (mL PER DAY),  
+95TH PERCENTILE
+MEAN
+INTAKE (mL/kg PER DAY), 
+95TH PERCENTILE
+Newborn (<1 month)
+184
+839
+52
+232
+Infants (1 to <3 months)
+227
+896
+48
+205
+Infants (3 to <6 months)
+362
+1056
+52
+159
+Infants (6 to <12 months)
+360
+1055
+41
+126
+Child (1 to <2 years)
+271
+837
+23
+71
+Child (2 to <3 years)
+317
+77
+23
+60
+Child (3 to <6 years)
+380
+1078
+22
+61
+Child (6 to <11 years)
+447
+1235
+16
+43
+Child (11 to <16 years)
+606
+1727
+12
+34
+Child (16 to <18 years)
+731
+1983
+11
+31
+Adult (18 to <21 years)
+826
+2540
+12
+35
+SOURCES: Ershow and Cantor (1989) and U.S. EPA (2008, 2011a).
+
+146
+General Principles of Toxicology
+Unit I
+Variation in Susceptibility
+Risk assessment methodologies incorporating human variability 
+have been slow to develop. Generally, assay results utilize means 
+and standard deviations to measure variation, or even standard 
+errors of the mean. This ignores variability in response due to spe-
+cific differences in age, sex, health status, and genetics. Default fac-
+tors of 10× are overutilized to describe cross- and between-species 
+differences and TK and TD data are rare. Nevertheless, EPA and 
+OSHA are expected under the Clean Air Act and the Occupational 
+Safety and Health Act to promulgate standards that protect the most 
+susceptible subgroups or individuals in the population (Omenn 
+et al., 1990; Cullen and Frey, 1999; Faustman and Omenn, 2006; 
+Kramer et al., 2006; Cullen et al., 2008). Sensitive or susceptible 
+populations have been defined and interpreted for the Clean Air Act 
+and in this context “particularly sensitive citizens, such as bron-
+chial asthmatics and emphysematics” are to be protected by the 
+standards. This illustrates not only the importance but also the chal-
+lenge to risk assessors to ensure protection for human populations.
+Ecogenetics has been defined as the study of critical genetic 
+determinants that define susceptibility to environmentally influ-
+enced adverse health effects (Costa and Eaton, 2006). Ecogenetic 
+variation can affect biotransformation systems that activate and 
+detoxify chemicals or alter the response in target tissues. With the 
+completion of the Human Genome Project in 2003, the identifica-
+tion of human polymorphisms has greatly expanded our potential 
+for understanding how genetic variability can impact biological 
+response and susceptibility. There have been numerous activities 
+initiated with the goal of understanding the linkage between genes 
+and the environment. The following databases and initiatives are 
+designed to identify polymorphisms, including single-nucleotide 
+polymorphisms (SNP), insertions, deletions, amplifications, and 
+alternative splicing. These include the International HapMap 
+Project (HapMap, 2009), the DNA Polymorphism Discovery 
+Resource (National Human Genome Research Institute, 2010), the 
+National Center for Biotechnology Information (NCBI) SNP data-
+bases (NCBI, 2011a, 2011b), and the NIH GAIN program (National 
+Human Genome Research Institute, 2010). Using the information 
+from such databases, researchers can identify genetic similarities 
+and differences in human beings with the goal of identifying genes 
+that affect health, disease, and individual responses to medications 
+and environmental factors (Omenn, 2012). Recent observations 
+now demonstrate that not only genetics but also epigenetics is sig-
+nificant (Sartor et al., 2012). Databases such as ENCODE provide 
+detailed information on cross-species epigenetic signals for a range 
+of conditions (Fingerman et al., 2010; NHGRI, 2017). SNP arrays 
+are available that can easily identify and characterize approxi-
+mately 1 × 106 SNPs in the human population. Arrays also exist 
+that evaluate SNPs in pathways significant for drug metabolism 
+enzymes and transporters. These are in FDA-approved pathways 
+and have been used for evaluation of appropriate drug therapies. 
+However, they are just starting to be used for environmental risk 
+assessment (Guerrette et  al., 2011). Next-generation sequenc-
+ing, where coverage of the genome can be extended to 40×, has 
+revealed rare copy number variants that can be linked to disease and 
+provide another level of understanding concerning human variation 
+(Sudmant et al., 2010). It should be noted that this genetic infor-
+mation on individuals can raise ethical, social, and legal concerns 
+regarding protections of individuals and their rights (Hsieh, 2004). 
+Recent legislation that protects individuals from discrimination on 
+the basis of genetic variation helps to ensure protection and not 
+exclusion for all workers (Human Genome Program, 2008; United 
+States Act, 2008).
+One of the key challenges for toxicologists doing risk assess-
+ments will be the interpretation and linking of observations from 
+highly sensitive molecular and genome-based methods with the 
+overall process of toxicity (Eisen et al., 1998; Limbird and Taylor, 
+1998; Andersen and Barton, 1999; NRC, 2000). The basic need for 
+linkage of observations was highlighted in early biomarker work. 
+The NRC reports on biomarkers (NRC, 1989a, 1989b, 1992) drew 
+distinctions for biomarkers of effect, exposure, and susceptibil-
+ity across a continuum of exposure, effect, and disease/toxicity. 
+Biomarkers of early effects, such as frank clinical pathology, arise 
+as a function of exposure, response, and time. Early, subtle, and pos-
+sibly reversible effects can generally be distinguished from irrevers-
+ible disease states. Chemical-specific biomarkers have the potential 
+to provide critical information, but there is an inherent complexity 
+in pulling the information together. If biomarkers are considered a 
+reflection of exposure or disease state, then considerations have to 
+be made regarding the interactions between genes and the environ-
+ment and the difference between a population-based assessment and 
+individual assessment (Groopman and Kensler, 1999; NRC, 2017).
+Nowhere is the challenge for interpretation of early and highly 
+sensitive response biomarkers clearer than in the complicated data 
+from gene expression arrays (toxicogenomics). Our continued 
+ability to monitor changes in response in thousands of genes has 
+proven challenging for toxicologists. Emphasis on toxicity-based 
+risk assessment methods and analysis has been strongly encour-
+aged by several significant NAS reports (NRC, 2000, 2007a, 2007b, 
+2010), as well as development and application of pathway-based 
+methods (Yu et al., 2006). Toxicogenomics projects have confirmed 
+the repeatability and cross-platform concordance of microarray 
+data (Bammler et al., 2005; Guo et al., 2006; Nature Biotechnology 
+Editorial, 2006; Patterson et al., 2006) and standards for data inter-
+pretation (minimum information about a microarray experiment 
+[MIAME]) have been accepted (Brazma et al., 2001).
+Microarray analysis for risk assessment requires analyses 
+beyond basic cluster analysis (Eisen et al., 1998) to arrive at a func-
+tional interpretation and linkage to conventional toxicological (api-
+cal) endpoints. Because of the vast number of measured responses 
+with gene expression arrays, pattern analysis techniques are being 
+used through pathway mapping platforms such as MAPPFinder 
+and GenMAPP (Moggs et al., 2004; Currie et al., 2005) as well 
+as big data approaches (Conesa et al., 2016). The Gene Ontology 
+Consortium has developed a controlled vocabulary (ontology) for 
+sharing biological information across species. Database users can 
+then annotate their gene products with gene ontology (GO) terms, 
+establishing a consistent description and definition across databases 
+and studies, and this facilitates risk assessment. Through the power 
+of GO terms, analysis methods are being developed to allow for 
+a quantitative time- and dose-dependent interpretation of genomic 
+response using systems-based approaches to integrate responses 
+at the biological and cellular levels (Yu et al., 2006). An example 
+of integrated analysis of multiple -omics data sets is Conceptgen 
+(Sartor et al., 2010). The 2017 NRC report provides a new frame-
+work for incorporating this information across various levels of 
+biological observation.
+Both the EPA and FDA have formally recognized the power of 
+genomic information as well as its potential limitations. Both agen-
+cies have issued interim policies guiding how to include genomic 
+information into risk assessments and they have agreed to use 
+genomic information in conjunction with (but not in isolation of) 
+standard risk assessment data (U.S. EPA, 2011e; U.S. FDA, 2011). 
+Extensive research efforts by the EPA Computational Toxicology 
+program will facilitate future risk assessment uses (Kavlock et al., 
+2012; U.S. EPA, 2012c).
+
+Risk Assessment
+Chapter 4
+147
+INFORMATION RESOURCES
+There are numerous information resources available for risk assess-
+ment and a few are listed below to provide the reader with exam-
+ples, but not a comprehensive list of risk assessment resources and 
+databases. Such resources include the Toxicology Data Network 
+(NLM, 2017) from the U.S. National Library of Medicine; the 
+NTP (NTP, 2011a), including the Report on Carcinogens and 
+the Office of Health Assessment and Translation; the WHO IPCS 
+(WHO, 2010); and the IARC (WHO, 2011b). The WHO Toolkit for 
+Risk Assessment is especially user friendly for new risk assessors 
+(WHO, 2010). The WHO, through its IPCS, produces useful risk 
+documents entitled Concise International Chemical Assessment 
+Documents that cover a variety of chemical substances (WHO, 
+2011c). The Codex Alimentarius Commission created by the Food 
+and Agriculture Organization of the UN (FAO) and the WHO pro-
+duces guidelines and reports relevant for food safety and standards 
+(FAO and WHO, 2011). The Integrated Risk Information Service 
+(IRIS) is the EPA’s human health assessment program that evaluates 
+health risks for over 500 chemical substances (U.S. EPA, 2011d). 
+IRIS lists specific risk values used by the U.S. EPA. Additional 
+databases are available from REACH.
+There is a need for a note of caution for users of these risk- 
+relevant databases, as with most databases there is a need to ­consider 
+multiple contributions to differences between recommended values. 
+These differences can be due to variations in how and when new 
+scientific information is incorporated in the evaluations. Also, dif-
+ferent regulatory drivers for national values or issues related to legal 
+priorities or delays in implementing draft to final recommended 
+values can occur. Such factors have contributed to differences in 
+arsenic and dioxin risk estimates in the United States, for example, 
+versus other observational values.
+Recently, new toxicogenomic databases that identify and, in 
+some cases, provide characterization of chemicals have become avail-
+able. The NCBI (2011a, 2011b) provides access to an enormous set 
+of biomedical and genomic information. The NCBI portfolio of com-
+prehensive data and tools can be valuable for risk assessment and the 
+aim to integrate with toxicologically relevant endpoints and disease 
+is laudable. It contains information on chemicals and bioassays, data 
+and software, DNA and RNA, protein domains and structures, genes 
+and expression, genetic information databases linked with decision 
+outcomes, genomes and gene maps, and cross-species homology. 
+Resources covering databases and tools help in the study of SARs. 
+A publicly available functional genomics data repository (Gene 
+Expression Omnibus [GEO] database) supports MIAME-compliant 
+data submission, and allows for easily accessible microarray- and 
+sequence-based data, which are searchable for specific profiles of 
+interest based on gene annotation or precomputed profile character-
+istics. Also, variations such as data on genomic variation, interaction 
+of genotypes and phenotypes, and the single-nucleotide polymor-
+phisms (dbSNP) can be obtained through the NCBI. ACToR (U.S. 
+EPA, 2017b), the EPA’s online database on chemical toxicity data 
+and potential chemical risks to human health and the environment, is 
+another useful resource for risk assessments (Judson et al., 2012). It 
+allows users to search and query data including Toxicity Reference 
+Database (ToxRefDB) (30 years and $2 billion worth of animal toxic-
+ity studies), ToxCastDB (data from screening 1000 chemicals in over 
+500 high-throughput assays), ExpoCastDB, and DSSTox (provides 
+high-quality chemical structures and annotations). The ToxRefDB 
+captures thousands of in vivo animal toxicity studies on hundreds 
+of chemicals. Another curated Comparative Toxicogenomics 
+Database (Comparative Toxicogenomics Database, 2017) includes 
+data describing cross-species chemical and gene/protein interactions 
+and chemical–disease and gene–disease relationships to illuminate 
+molecular mechanisms underlying variable susceptibility and envi-
+ronmentally influenced diseases. These data provide insight into 
+complex chemical–gene/protein interaction networks (Davis et al., 
+2013). These databases can be especially useful for hazard iden-
+tification and mechanistic information; few emphasize exposure 
+information.
+RISK PERCEPTION AND COMPARATIVE 
+ANALYSES OF RISK
+It is well known that individuals respond differently to informa-
+tion about hazardous situations and products (Fischhoff, 1981; 
+Fischhoff et  al., 1993, 1996; Sandman, 1993; NRC, 1996; Risk 
+Commission, 1997; Institute of Medicine, 1999; Slovic, 2010). 
+Understanding these behavioral responses at the individual, com-
+munity, and population levels is critical in stimulating construc-
+tive risk communication and evaluating potential risk management 
+options for risk assessment issues. In a classic study, students, 
+League of Women Voters members, active club members, and sci-
+entific experts were asked to rank 30 activities or agents in order 
+of their annual contribution to deaths (Slovic et al., 1979, 2005). 
+Club members ranked pesticides, spray cans, and nuclear power 
+as safer than did other laypersons. Students ranked contraceptives 
+and food preservatives as riskier and mountain climbing as safer 
+than did others. Experts ranked electric power, surgery, swimming, 
+and x-rays as more risky, but nuclear power and police work as 
+less risky than did laypersons. From studies like these, we now 
+know that there are cultural and gender differences in perception 
+of risks. There are also group differences in perceptions of risk 
+from chemicals among toxicologists, correlated with their employ-
+ment in industry, academia, or government (Neal et  al., 1994). 
+Recent risk perception research has emphasized the importance 
+of knowing the balance between analytical thinking and “affect.” 
+Our immediate emotional reaction can shape our initial risk per-
+ceptions (“affect”), while our thoughtful, deliberate “analytical” 
+thinking also impacts our risk understanding but the latter is a 
+slower response. Understanding this balance can help us explain 
+why there is a complex relationship between perceived risk and 
+benefits (Slovic, 2010).
+Psychological factors such as dread, perceived uncontrollabil-
+ity, and involuntary exposure interact with factors that represent the 
+extent to which a hazard is familiar, observable, and “essential” for 
+daily living (Lowrance, 1976; Morgan, 1993). Fig. 4-10 presents a 
+grid on the parameters controllable/uncontrollable and observable/
+not observable for a large number of risky activities; for each of the 
+two-paired main factors, highly correlated factors are described in 
+the boxes.
+Public demand for government regulations often focuses on 
+involuntary exposures (especially in the food supply, drinking 
+water, and air) and unfamiliar hazards, such as radioactive waste, 
+electromagnetic fields, asbestos insulation, and genetically modi-
+fied crops and foods. The public can respond negatively when they 
+perceive that information about hazards or new technologies has 
+been withheld or under-rated. This can explain some of the very 
+strong responses to genetically modified foods, HIV-contaminated 
+blood transfusions in the 1980s, or hazardous chemical and radio-
+active wastes. Loss of trust is exemplified by Japanese reactions 
+following the Fukushima Daiichi nuclear reactor meltdown (March 
+2011), where initial perceived benefits of nuclear power were trans-
+formed to distrust during follow-up actions and responses to the 
+earthquake and tsunami.
+
+148
+General Principles of Toxicology
+Unit I
+Perceptions of risk led to the addition of an extra safety factor 
+(default value 10) for children in the FQPA of 1996. Engineering-
+based “as low as reasonably achievable” (ALARA) approaches 
+also reflect the general “precautionary principle,” which is strongly 
+favored by those who, justifiably, believe we are far from knowing 
+all risks given frequently limited toxicity testing data (Roe et al., 
+1997).
+EMERGING CONCEPTS
+In order for risk assessment to inform environmental risk man-
+agement, there is a need to ensure that the initial “problem for-
+mulation” of the risk question(s) is succinctly framed to answer 
+questions in the real world. Environmental health is very dynamic 
+and many divergent emerging environmental challenges such as cli-
+mate change, energy shortages, and engineered nanoparticles will 
+require an expansion of our context well beyond single-chemical, 
+single-exposure scenarios. In order to accomplish this goal, several 
+factors need to be considered. These factors include defining not 
+only health but also well-being and sustainability and will require a 
+context of global and international scale.
+Well-being is increasingly being used to describe human 
+health and the goal of sustainable environmental risk management. 
+The WHO has championed the use of well-being rather than health 
+to describe the Millennium Development Goals (WHO, 2011d). 
+Well-being goes beyond “disease-free” existence to freedom from 
+want (including food and water security) and fear (personal safety) 
+and sustainable futures. Concepts such as food security (abundance 
+and quality of foods), water security (plentiful supplies and high 
+quality of water), and sustainability form internationally recognized 
+environmental and developmental goals. Sustainability embraces 
+the risk management concept that “development that meets the 
+needs of the present, without compromising the ability of future 
+generations” to thrive and hence well-being is one of the goals of 
+environmental actions and decisions. Recognition that environmen-
+tal problems are global is essential to our understanding of how 
+we manage risks and how we address sustainability (Leiserowitz 
+et al., 2006; Gohlke et al., 2008; Kite-Powell et al., 2008). Ocean 
+health and air pollution are excellent examples of the need for 
+understanding the global context where pollutants do not honor 
+country and national borders. World Trade Organization (WTO) 
+agreements have also placed risk assessment approaches in the 
+forefront as tools for managers working to meet the global goals 
+for sustainable trade and economic health. At the most basic level 
+new risk assessments are being done with a new global empha-
+sis (Carruth and Goldstein, 2004; EPA, 2011f). Reorganization of 
+the EPA along management lines of sustainability now provides 
+an integrative framework for working toward sustainability goals. 
+As a response for this broader framing of health impacts, the EPA 
+Office of Research and Development realigned its research within 
+General aviation
+Microwave ovens
+Water ﬂuoridation
+Saccharin
+Water chlorination
+Oral contraceptives
+Nitrites
+Polyvinyl chloride
+Diagnostic
+x-rays
+IUDs
+Antibiotics
+Lead (autos)
+Lead paint
+Aspirin
+Vaccines
+DNA technology
+Electric ﬁelds
+DES
+Radioactive waste
+Nuclear reactor accidents
+Uranium mining
+Pesticides
+Mercury
+PCBs
+Nuclear weapons fallout
+Satellite crashes
+Asbestos
+insulation
+Coal-burning pollution
+Carbon monoxide
+(autos)
+Storage and
+transport of liquiﬁed
+natural gas
+Black lung
+Large dams
+Skyscraper ﬁres
+Nerve gas accidents
+Underwater construction
+Sport parachutes
+Coal mining
+High construction
+Railroad collisions
+Commercial aviation
+Handguns
+Dynamite
+Fireworks
+Alcohol-related accidents
+Bicycles
+Motorcycles
+Recreational boating
+Downhill skiing
+Home swimming pools
+Elevators
+Chain saws
+Tractors
+Snowmobiles
+Smoking (disease)
+Power mowers
+Skateboards
+Not observable
+Unknown to those exposed,
+effect delayed, new risk, risks
+unknown to science.
+Controllable
+Not dread, not global catastrophic,
+consequences not fatal, equitable,
+low risk to future generations,
+easily reduced, risk decreasing,
+voluntary.
+Observable
+Known to those exposed, effect
+immediate, old risk, risks known
+to science.
+Uncontrollable
+Dread, global catastrophic,
+consequences fatal, not equitable,
+high risk to future generations, not
+easily reduced, risk increasing,
+involuntary.
+Nuclear weapons (war)
+Auto racing
+Auto accidents
+Trampolines
+Valium
+Nitrogen fertilizers
+Figure 4-10.  Perceptions of risk illustrated using a “risk space” axis diagram. Risk space has axes that correspond roughly to a hazard’s perceived “dreaded-
+ness” and to the degree to which it is familiar or observable. Risks in the upper right quadrant of this space are most likely to provoke calls for government 
+regulation.
+
+Risk Assessment
+Chapter 4
+149
+a structure of Chemical Safety for Sustainability; Sustainable and 
+Healthy Communities; Safe and Sustainable Water Resources; and 
+Air, Climate and Energy. Risk assessment is viewed as one of the 
+critical approaches for integrating these goals and toxicology is one 
+of the tools used within that approach (Teichman and U.S. EPA, 
+2011). Further applications for alternatives assessment, life cycle 
+analysis, and green chemistry open up new opportunities to enlarge 
+the framing of our assessments (NRC, 2014a, 2014b).
+PUBLIC HEALTH RISK MANAGEMENT
+Associated with concepts of well-being and sustainability is a 
+public health orientation to risk assessment and risk management. 
+Public health as a discipline is very compatible with toxicology, 
+where toxicological tests are performed to identify and characterize 
+potential health risks and to prevent the unsafe use of such agents. 
+Public health also has an emphasis on approaches for identifying, 
+characterizing, and preventing risks.
+Within public health risk management, there are three stages 
+of prevention: primary, whose goal is prevention and risk or haz-
+ard avoidance; secondary, whose goal is mitigation or prepared-
+ness including risk or vulnerability reduction and risk transfer; and 
+tertiary, where prompt response or recovery is an approach for 
+decreasing residual risk or risk reduction (Frumkin, 2016). These 
+three prevention stages frame many risk management actions. For 
+example, in occupational health, a prevention hierarchy is applied 
+that is related to these stages where initial preferred risk manage-
+ment actions are substitution where the hazardous chemical or 
+activities is removed and substituted with a safer chemical or pro-
+cess option. Engineering controls with a focus on reducing work-
+place exposures is a subsequent action. Administrative controls 
+can be used to change job tasks and methods. The use of personal 
+protective equipment (PPE) such as gloves, hats, protective gloves, 
+and work clothes is usually considered after all other management 
+efforts fail to meet occupationally safe levels. In a similar manner, 
+pollution prevention can be related to these stages of prevention 
+with initial elimination of the source of hazardous chemical.
+The context for prevention actions can be supported by source 
+reduction or a life-cycle analysis or alternatives analysis. If the for-
+mer, the prevention activities would consider potential for adverse 
+outcomes along the life of the product including manufacture as 
+well as end-of-life disposal options. Sometimes when an alterna-
+tives analysis is performed, only one stage of the life of a product 
+is examined and a “regrettable substitution” can occur where the 
+alternative is either less well studied or knowledge about use and 
+fate and transport is missing (Goldman, 2016).
+Hazard analysis frequently used in public health framework 
+refers to both hazard identification and probability-based frequency 
+of anticipated events. Capacity assessment has been used for iden-
+tifying strengths and resiliency of a system to impact. Recent 
+disasters such as Hurricane Katrina, the Gulf Oil Spill, and the 
+Fukushima Daiichi nuclear reactor meltdown all point to the need 
+for environmental risk assessment to be considered as a part of an 
+even larger context in order to understand critical infrastructure for 
+determining human and environmental risks. Life-cycle analysis, 
+green chemistry, and built environment all require such a broad 
+context for evaluation (Keim, 2002; NRC, 2009). Understanding 
+population variability and vulnerability in a context of “built envi-
+ronment” is also important. The “built environment” encompasses 
+all man-made resources and infrastructure, including buildings, 
+spaces, and transportation systems, which support human activity 
+and have a strong influence on public health (Perdue et al., 2003). 
+These types of frameworks can allow for easier consideration of 
+public health concepts for sustainability, environmental disaster 
+response, and life-cycle systems analysis than many of our tradi-
+tional frameworks for environmental chemical risk assessment, 
+which can be done in relative isolation.
+SUMMARY
+The NRC and Risk Commission frameworks for risk assessment 
+and risk management continue to provide a consistent framework-
+based approach for evaluating risks and taking action to reduce 
+risks. The objectives of risk assessments vary with the issues, risk 
+management needs, and statutory requirements. Hence, setting 
+the context and problem formation for risk evaluation is essential 
+(NRC, 2009). The frameworks are sufficiently flexible to address 
+various objectives and to accommodate new knowledge while also 
+providing guidance for priority setting in industry, environmental 
+organizations, and government regulatory and public health agen-
+cies. Risk assessment analyzes the science and, if incomplete, 
+identifies uncertainty and provides approaches for moving forward 
+with decisions (NRC, 2009). Toxicology, epidemiology, exposure 
+assessment, and clinical observations can be linked with biomark-
+ers, cross-species investigations of mechanisms of effects, and sys-
+tematic approaches to risk assessment, risk communication, and 
+risk management. New insights from the NRC “Using 21st century 
+science to improve risk-related evaluations” provide suggestions 
+on how to achieve integration (NRC, 2017). Advances in toxicol-
+ogy are certain to improve the quality of risk assessments for a 
+broad array of health endpoints as scientific findings substitute data 
+for assumptions and help to describe and model uncertainty more 
+credibly.
+ACKNOWLEDGMENTS
+The editor and author recognize the contributions of previous 
+authors of this chapter: Morton Corn (2nd edition), Robert A. Scala 
+(4th edition), and Gilbert S. Omenn (5th to 8th editions).
+REFERENCES
+Abbott BD, Harris MW, Birnbaum LS. Comparisons of the effects of 
+TCDD and hydrocortisone on growth factor expression provide insight 
+into their interaction in the embryonic mouse palate. Teratology. 
+1992;45:35–53.
+Adami HO, Berry SC, Breckenridge CB, et al. Toxicology and epidemiol-
+ogy: improving the science with a framework for combining toxicologi-
+cal and epidemiological evidence to establish causal inference. Toxicol 
+Sci. 2011;122:223–234.
+Adler S, Basketter D, Creton S, et al. Alternative (non-animal) methods 
+for cosmetics testing: current status and future prospects—2010. Arch 
+Toxicol. 2011;85:367–485.
+Agency for Toxic Substances and Disease Registry. Toxicological Profile 
+for Arsenic. Atlanta, GA: Department of Health and Human Services; 
+2007.
+Albert RE. Carcinogen risk assessment in the US Environmental Protection 
+Agency. Crit Rev Toxicol. 1994;24:75–85.
+Allen BC, Kavlock RJ, Kimmel CA, Faustman EM. Dose-response assess-
+ments for developmental toxicity: II. Comparison of generic benchmark 
+dose estimates with no observed adverse effect levels. Fundam Appl 
+Toxicol. 1994a;23:487–495.
+Allen BC, Kavlock RJ, Kimmel CA, Faustman EM. Dose-response assess-
+ment for developmental toxicity. 3. Statistical models. Fundam Appl 
+Toxicol. 1994b;23(4):496–509.
+Ames BN, Gold LS. Too many rodent carcinogens: mitogenesis increases 
+mutagenesis. Science. 1990;247:970–971.
+
+150
+General Principles of Toxicology
+Unit I
+Andersen ME, Barton HA. Biological regulation of receptor–hormone 
+complex C in relation to dose–response assessments of endocrine-active 
+compounds. Toxicol Sci. 1999;48:38–50.
+Ankley GT, Bennett RS, Erickson RJ, et al. Adverse outcome pathways: 
+a  conceptual framework to support ecotoxicology research and risk 
+assessment. Environ Toxicol Chem. 2010;29(3): 730-741.
+Armitage P, Doll R. A two-stage theory of carcinogenesis in relation to the 
+age distribution of human cancer. Br J Cancer. 1957;11:161–169.
+Ashby J, Tennant RW. Prediction of rodent carcinogenicity of 44 chemicals: 
+results. Mutagenesis. 1994;9:7–15.
+Atterwill CK, Johnston H, Thomas SM. Models for the in vitro assess-
+ment of neurotoxicity in the nervous system in relation to xenobiotic 
+and neurotrophic factor-mediated events. Neurotoxicology. 1992;13: 
+39–54.
+Auton TR. Calculation of benchmark doses from teratology data. Regul 
+Toxicol Pharmacol. 1994;19:152–167.
+Bailey GS, Reddy AP, Pereira CB, et  al. Nonlinear cancer response at 
+ultralow dose: a 40800-animal ED(001) tumor and biomarker study. 
+Chem Res Toxicol. 2009;22:1264–1276.
+Bammler T, Beyer RP, Bhattacharya S, et  al. Standardizing global gene 
+expression analysis between laboratories and across platforms. Nat 
+Methods. 2005;2:351–356.
+Barnes DG, Dourson MJ. Reference dose (Rfd): description and use in 
+health risk assessment. Regul Toxicol Pharmacol. 1988;8:471–486.
+Bell SM, Phillips J, Sedykh A, et  al. An integrated chemical environ-
+ment to support 21st-century toxicology. Environ Health Perspect. 
+2017;125(5):054501.
+Benigni R, Zito R. The second National Toxicology Program comparative 
+exercise on the prediction of rodent carcinogenicity: definitive results. 
+Mutat Res. 2004;566:49–63.
+Birnbaum LS, Thayer KA, Bucher JR, Wolfe MS. Implementing system-
+atic review at the National Toxicology Program: status and next steps. 
+Environ Health Perspect. 2013;121(4):a108–a109.
+Bogdanffy MS, Daston G, Faustman EM, et al. Harmonization of cancer 
+and noncancer risk assessment: proceedings of a consensus-building 
+workshop. Toxicol Sci. 2001;61:18–31.
+Bogen KT, Cullen AC, Frey HC, Price PS. Probabilistic exposure analysis 
+for chemical risk characterization. Toxicol Sci. 2009;109:4–17.
+Brazma A, Hingamp P, Quackenbush J, et al. Minimum information about 
+a microarray experiment (MIAME)—toward standards for microarray 
+data. Nat Genet. 2001;29:365–371.
+Brorby G, Finley G. Standard probability density functions for routine use 
+in environmental health risk assessment. In: Society for Risk Analysis 
+Annual Meeting. Savannah, GA; 1993.
+Brown CC. High-to-low-dose extrapolation in animals. In: Rodricks 
+JV, Tardiff RG, eds. Assessment and Management of Chemical Risks. 
+Washington, DC: American Chemical Society; 1984:57–79.
+Brown NA, Spielmann H, Bechter R. Screening chemicals for reproductive 
+toxicity: the current alternatives: the report and recommendations of an 
+ECVAM/ETS workshop. Altern Lab Anim. 1995;23:868–882.
+Bucher JR. Update on National Toxicology Program (NTP) assays with 
+genetically altered or “transgenic” mice. Environ Health Perspect. 
+1998;106:619–621.
+Calabrese EJ, Pastides H, Barnes R. How much soil do young children ingest: 
+an epidemiologic study. In: Kostecki PT, Calabrese EJ, eds. Petroleum 
+Contaminated Soils. Chelsea, MI: Lewis Publishers; 1989:363–397.
+Calkins DR, Dixon RI, Gerber CR. Identification, characterization, and 
+control of potential human carcinogens: a framework for federal deci-
+sion-making. J Natl Cancer Inst. 1980;61:167–175.
+Capen CC, Dybing E, Rice JM, Wilbourn JD, eds. Species Differences in 
+Thyroid, Kidney and Urinary Bladder Carcinogenesis. IARC Scientific 
+Publications No. 147. International Agency for Research on Cancer and 
+World Health Organization; 1999.
+Carruth RS, Goldstein BD. The asbestos case: a comment on the appoint-
+ment and use of nonpartisan experts in World Trade Organization dispute 
+resolution involving health risk. Risk Anal. 2004;24:471–481.
+Charnley G, Omenn GS. A summary of the findings and recommendations 
+of the commission on risk assessment and risk management (and accom-
+panying papers prepared for the commission). Hum Ecol Risk Assess. 
+1997;3:701–711.
+Cheng H, Aylward L, Beall C, et al. TCDD exposure-response analysis and 
+risk assessment. Risk Anal. 2006;26(4):1059–1071.
+Chesler EJ, Miller DR, Branstetter LR, et al. The Collaborative Cross at 
+Oak Ridge National Laboratory: developing a powerful resource for sys-
+tems genetics. Mamm Genome. 2008;19:382–389.
+Chhabra RS, Bucher JR, Wolfe M, Portier C. Toxicity characterization of 
+environmental chemicals by the US National Toxicology Program: an 
+overview. Int J Hyg Environ Health. 2003;206:437–445.
+Cohen SM. Human relevance of animal carcinogenicity studies. Regul 
+Toxicol Pharmacol. 1995;21:75–80 [discussion 81–86].
+Cohen SM. Alternative models for carcinogenicity testing: weight of 
+evidence evaluations across models. Toxicol Pathol. 2001;29(suppl): 
+183–190.
+Cohen SM, Arnold LL, Cano M, Ito M, Garland EM, Shaw RA. Calcium 
+phosphate-containing precipitate and the carcinogenicity of sodium salts 
+in rats. Carcinogenesis. 2000;21:783–792.
+Cohen SM, Ellwein LB. Proliferative and genotoxic cellular effects in 
+2-acetylaminofluorene bladder and liver carcinogenesis: biological mod-
+eling of the EDO1 study. Toxicol Appl Pharmacol. 1990;104:79–93.
+Collins FS, Gray GM, Bucher JR. Toxicology. Transforming environmental 
+health protection. Science. 2008;319(5865):906-907.
+Comparative Toxicogenomics Database. Available at: http://ctd.mdibl.org/. 
+2017.
+Conesa A, Madrigal P, Tarazona S, et al. A survey of best practices for 
+RNA-seq data analysis. Genome Biol. 2016; 17: 13.
+Costa L, Eaton D. Introduction. In: Costa L, Eaton D, eds. Gene–
+Environment Interactions: Fundamentals of Ecogenetics. Hoboken, NJ: 
+Wiley; 2006.
+Costa LG. Biochemical and molecular neurotoxicology. In: Maines MD, 
+Costa LG, Reed DJ, eds. Current Protocols in Toxicology. New York: 
+Wiley; 2000.
+Crump KS. An improved procedure for low-dose carcinogenic risk assess-
+ment from animal data. J Environ Pathol Toxicol. 1980;5:339–348.
+Crump KS. A new method for determining allowable daily intakes. Fundam 
+Appl Toxicol. 1984;4:854–871.
+Cullen AC, Corrales MA, Kramer CB, Faustman EM. The application of 
+genetic information for regulatory standard setting under the Clean Air 
+Act: a decision-analytic approach. Risk Anal. 2008;28:877–890.
+Cullen AC, Frey HC. Probabilistic Techniques in Exposure Assessment: A 
+Handbook for Dealing with Variability and Uncertainty in Models and 
+Inputs. New York: Plenum Press; 1999.
+Currie RA, Bombail V, Oliver JD, et  al. Gene ontology mapping as an 
+unbiased method for identifying molecular pathways and processes 
+affected by toxicant exposure: application to acute effects caused by 
+the rodent non-genotoxic carcinogen diethylhexylphthalate. Toxicol Sci. 
+2005;86:453–469.
+Da Rocha MS, Arnold LL, De Oliveira ML, et al. Diuron-induced rat urinary 
+bladder carcinogenesis: Mode of action and human relevance evaluations 
+using the International Programme on Chemical Safety framework. Crit 
+Rev Toxicol. 2014;44(5):393-406.
+Daston G, Faustman EM, Ginsberg G, et al. A framework for assessing 
+risks to children from exposure to environmental agents. Environ Health 
+Perspect. 2004;112:238–256.
+Davis AP, Murphy CG, Johnson R, et  al. The comparative toxicoge-
+nomics database: update 2013. Nucleic Acids Res. 2013;41(database 
+issue):D1104–D1114.
+Davis S, Waller P, Buschborn R. Quantitative estimates of soil ingestion 
+in normal children between the ages of 2 and 7 years: population-based 
+estimates using aluminum, silicon, and titanium as soil tracer elements. 
+Arch Environ Health. 1990;45:112–122.
+Dean AG, Dean JA, Coulombier D. Epi Info, Version 6: A Word Processing, 
+Database, and Statistics Program for Public Health on IBM-Compatible 
+Microcomputers. Atlanta, GA: Centers for Disease Control and 
+Prevention (CDC); 1995.
+Dearfield KL. Pesticide Assessment Guidelines. Subdivision F, Hazard 
+Evaluation: Humans and Domestic Animals. Series 83-3. Washington, 
+DC: Environmental Protection Agency; 1990.
+Dourson MJ, Hertzberg RC, Hartung R, Blackburn K. Novel methods for 
+the estimation of acceptable daily intake. Toxicol Ind Health. 1985;1: 
+23–41.
+
+Risk Assessment
+Chapter 4
+151
+Dourson ML, DeRosa CT. The use of uncertainty factors in establishing 
+safe levels of exposure. In: Krewski D, Franklin C, eds. Statistics in 
+Toxicology. New York: Gordon & Breach; 1991:613–627.
+Dourson ML, Stara JF. Regulatory history and experimental support of 
+uncertainty (safety factors). Regul Toxicol Pharmacol. 1983;3:224–238.
+Drew CH, Grace DA, Silbernagel SM, et al. Nuclear waste transportation: 
+case studies of identifying stakeholder risk information needs. Environ 
+Health Perspect. 2003;111:263–272.
+Drew CH, Kern M, Martin T, Blozek ML, Power M, Faustman EM. The 
+Hanford Openness Workshops: fostering open and transparent long-term 
+decision making at the department of energy. In: Leschine TM, ed. Long-Term 
+Management of Contaminated Sites (Research in Social Problems and Public 
+Policy, Volume 13). Emerald: Bingley, West Yorkshire UK; 2006;13–48.
+Eaton DL, Bammler TK, Kelly EJ. Interindividual differences in response 
+to chemoprotection against aflatoxin-induced hepatocarcinogenesis: 
+implications for human biotransformation enzyme polymorphisms. Adv 
+Exp Med Biol. 2001;500:559–576.
+Eaton DL, Gallagher EP. Mechanisms of aflatoxin carcinogenesis. Annu 
+Rev Pharmacol Toxicol. 1994;34:135–172.
+Eaton DL, Gallagher EP, Bammler TK, Kunze KL. Role of cytochrome 
+P4501a2 in chemical carcinogenesis—implications for human variability 
+in expression and enzyme-activity. Pharmacogenetics. 1995;5:259–274.
+ECHA (European Chemicals Agency). Registered substances database. 
+2017. Available at: https://echa.europa.eu/information-on-chemicals/
+registered-substances. Accessed 23 January, 2017.
+Eduati F, Mangravite LM, Wang T, et  al. Prediction of human popula-
+tion responses to toxic compounds by a collaborative competition. Nat 
+Biotechnol. 2015;33(9):933-40.
+EGRET. Statistics and Epidemiology Research Corporation (SERC). 
+Seattle, WA: Statistics and Epidemiology Research Corporation; 1994.
+Eisen MB, Spellman PT, Brown PO, Botstein D. Cluster analysis and dis-
+play of genome-wide expression patterns. Proc Natl Acad Sci U S A. 
+1998;95:14863–14868.
+Ershow AG, Cantor KP. Federation of American Societies for Experimental 
+Biology. Life Sciences Research Office, and National Cancer Institute 
+(US). Division of Cancer Etiology. Epidemiology and Biostatistics 
+Program. Total Water and Tapwater Intake in the United States: 
+Population-based Estimates of Quantities and Sources. Bethesda, MD: 
+Life Sciences Research Office Federation of American Societies for 
+Experimental Biology; 1989.
+FAO, WHO. Codex Alimentarius Commission—International Food 
+Standards. 2011. Available at: http://www.codexalimentarius.org/.
+Faustman E, Omenn G. Risk assessment and the impact of ecogenetics. In: 
+Costa L, Eaton D, eds. Gene–Environment Interactions: Fundamentals of 
+Ecogenetics. Hoboken, NJ: Wiley; 2006.
+Faustman EM. Short-term test for teratogens. Mutat Res. 1988;205:355–384.
+Faustman EM, Allen BC, Kavlock RJ, Kimmel CA. Dose–response assess-
+ment for developmental toxicity: I. Characterization of data base and 
+determination of no observed adverse effect levels. Fundam Appl Toxicol. 
+1994;23:478–486.
+Faustman EM, Gohlke J, Judd NL, et al. Modeling developmental processes 
+in animals: applications in neurodevelopmental toxicology. Environ 
+Toxicol Pharmacol. 2005;19:615–624.
+Faustman EM, Gohlke JM, Ponce RA, et  al. Experimental approaches 
+to evaluate mechanisms of developmental toxicity. In: Hood R, ed. 
+Developmental and Reproductive Toxicology: A Practical Approach. 3rd 
+ed. Boca Raton, FL: CRC Press; 2011.
+Faustman EM, Lewandowski TA, Ponce RA, Bartell SM. Biologically 
+based dose–response models for developmental toxicants: lessons from 
+methylmercury. Inhal Toxicol. 1999;11:101–114.
+Faustman EM, Ponce RA, Seeley MR, Whittaker SG. Experimental 
+approaches to evaluate mechanisms of developmental toxicity. In: Hood 
+R, ed. Handbook of Developmental Toxicology. Boca Raton, FL: CRC 
+Press; 1997;13–41.
+Faustman EM, Wellington DG, Smith WP, Kimmel CS. Characterization of 
+a developmental toxicity dose response model. Environ Health Perspect. 
+1989;79:229–241.
+Fingerman IM, McDaniel L, Zhang X, et al. NCBI epigenomics: a new pub-
+lic resource for exploring epigenomic data sets. Nucleic Acids Research. 
+2010;39(suppl 1):D908–D912.
+Finley G, Proctor D, Scott P. Recommended distributions for expo-
+sure factors frequently used in health risk assessment. Risk Anal. 
+1994;14:533–553.
+Fischhoff B. Cost–benefit analysis: an uncertain guide to public policy. Am 
+N Y Acad Sci. 1981;363:173–188.
+Fischhoff B, Bostrom A, Quandrel MJ. Risk perception and communica-
+tion. Annu Rev Public Health. 1993;14:183–203.
+Fischhoff B, Bostrom A, Quandrel MJ. Risk perception and communication. 
+In: Detels R, Holland W, McEwen J, Omenn GS, eds. Oxford Textbook 
+of Public Health. New York: Oxford University Press; 1996:987–1002.
+Frumkin H. Introduction to environmental health. In: Frumkin H, ed. 
+Environmental Health: From Global to Local. 3rd ed. San Francisco, CA: 
+Wiley; 2016:3–25.
+Gamble JF, Battigelli MC. Epidemiology. In: Clayton GD, Clayton FE, 
+eds. Patty’s Industrial Hygiene and Toxicology. New York: Wiley; 
+1978:113–127.
+Gamble JF, Battigelli MC. Occupational epidemiology: some guide-
+posts. In: Clayton GD, Clayton FE, eds. Patty’s Industrial Hygiene and 
+Toxicology. New York: Wiley; 1991.
+Gargas ML, Finley BL, Paustenback DJ, Long TF. Environmental health 
+risk assessment: theory and practice. In: Ballantyne B, Marrs T, Syversen 
+T, eds. General and Applied Toxicology. New York: Grove’s Dictionaries; 
+1999:1749–1809.
+Gill EA, Curl CL, Adar SD, et al. Air pollution and cardiovascular disease 
+in the Multi-Ethnic Study of Atherosclerosis. Prog Cardiovasc Dis. 
+2011;53(5):353–360.
+Gohlke JM, Griffith WC, Bartell SM, Lewandowski TA, Faustman 
+EM. A computational model for neocortical neuronogenesis predicts 
+ethanol-induced neocortical neuron number deficits. Dev Neurosci. 
+2002;24:467–477.
+Gohlke JM, Griffith WC, Faustman EM. The role of cell death dur-
+ing neocortical neurogenesis and synaptogenesis: implications from a 
+computational model for the rat and mouse. Brain Res Dev Brain Res. 
+2004;151:43–54.
+Gohlke JM, Griffith WC, Faustman EM. A systems-based computational 
+model for dose–response comparisons of two mode of action hypoth-
+eses for ethanol-induced neurodevelopmental toxicity. Toxicol Sci. 
+2005;86:470–484.
+Gohlke JM, Griffith WC, Faustman EM. Computational models of neocorti-
+cal neuronogenesis and programmed cell death in the developing mouse, 
+monkey, and human. Cereb Cortex. 2007;17:2433–2442.
+Gohlke JM, Hrynkow SH, Portier CJ. Health, economy, and environ-
+ment: sustainable energy choices for a nation. Environ Health Perspect. 
+2008;116:A236–A237.
+Goldman L. Environmental public health: from theory to practice. In: 
+Frumkin H, ed. Environmental Health: From Global to Local. 3rd ed. 
+San Francisco, CA: Wiley; 2016:725–746.
+Gray TJB. Application of in vitro systems in male reproductive toxicology. 
+In: Lamb JC IV, Foster PMD, eds. Physiology and Toxicology of Male 
+Reproduction. San Diego, CA: Academic Press; 1988:250–253.
+Great Britain, Health and Safety Executive. Reducing Risks, Protecting 
+People: Health & Safety Executive. Suffolk, UK: HSE Books; 1999.
+Gribble EJ, Hong SW, Faustman EM. The magnitude of methylmercury-
+induced cytotoxicity and cell cycle arrest is p53-dependent. Birth Defects 
+Res A Clin Mol Teratol. 2005;73:29–38.
+Groopman JD, Kensler TW. The light at the end of the tunnel for chem-
+ical-specific biomarkers: daylight or headlight? Carcinogenesis. 
+1999;20:1–11.
+Guerrette Z, Moreira EG, Griffith WC, et al. Cytochrome P450 3A5 geno-
+type is correlated with acetylcholinesterase inhibition levels after expo-
+sure to organophosphate pesticides. Abstract 2111. The Toxicologist 
+CD—An Official Journal of the Society of Toxicology. 2011;120(March).
+Guo L, Lobenhofer EK, Wang C, et al. Rat toxicogenomic study reveals 
+analytical consistency across microarray platforms. Nat Biotechnol. 
+2006;24:1162–1169.
+HapMap. International HapMap Project. 2009. Available at: http://snp 
+.cshl.org/index.html.en.
+Harris MW, Chapin RE, Lockhart AC. Assessment of a short-term repro-
+ductive and developmental toxicity screen. Fundam Appl Toxicol. 
+1992;19:186–196.
+
+152
+General Principles of Toxicology
+Unit I
+Hartung R. Dose–response relationships. In: Tardiff RG, Rodricks JV, eds. 
+Toxic Substances and Human Risk: Principles of Data Interpretation. 
+New York: Plenum Press; 1987:29–46.
+Hartung T, Blaauboer BJ, Bosgra S, et al. An expert consortium review 
+of the EC-commissioned report “alternative (non-animal) methods for 
+cosmetics testing: current status and future prospects—2010”. ALTEX. 
+2011;28:183–209.
+Hartung T, Bremer S, Casati S, et al. ECVAM’s response to the chang-
+ing political environment for alternatives: consequences of the 
+European Union chemicals and cosmetics policies. Altern Lab Anim. 
+2003;31:473–481.
+Haseman JK, Lockhart AM. Correlations between chemically related 
+site-specific carcinogenic effects in long-term studies in rats and mice. 
+Environ Health Perspect. 1993;101:50–54.
+Haws LC, Su SH, Harris M, et al. Development of a refined database of 
+mammalian relative potency estimates for dioxin-like compounds. 
+Toxicol Sci. 2006;89:4–30.
+Healey GF. Power calculations in toxicology. Altern Lab Anim. 
+1987;15:132–139.
+Hill AB. The environment and disease: association or causation. Proc R Soc 
+Med. 1965;58:295–300.
+Hsieh A. A nation’s genes for a cure to cancer: evolving ethical, social and 
+legal issues regarding population genetic databases. Columbia J Law Soc 
+Probl. 2004;37:359–411.
+Human Genome Program. Breaking News: GINA Becomes Law May 2008. 
+Genetics Privacy and Legislation. 2008. Available at: http://www.ornl.gov/
+sci/techresources/Human_Genome/elsi/legislat.shtml. Accessed 2011.
+IARC. IARC Monographs on the Evaluation of Carcinogenic Risks to 
+Humans. Lyon, France: World Health Organization; 2000.
+IARC. Monographs on the Evaluation of Carcinogenic Risks to Humans. 
+Lyon, France: International Agency for Research on Cancer; 2017.
+ICCVAM. The Murine Local Lymph Node Assay: A Test Method for 
+Assessing the Allergic Contact Dermatitis Potential of Chemicals/
+Compounds: The Results of an Independent Peer Review Evaluation. 
+Research Triangle Park, NC: National Institute of Environmental Health 
+Sciences; 1999.
+ICCVAM. ICCVAM Test Method Evaluation Report on using the LLNA for 
+Testing Pesticide Formulations, Metals, Substances in Aqueous Solutions, 
+and Other Products. Research Triangle Park, NC: National Institute of 
+Environmental Health Sciences; 2011a.
+ICCVAM. Independent Scientific Peer Review Panel Report Evaluation of 
+the LUMI-CELL®ER (BG1Luc ER TA) Test Method. Research Triangle 
+Park, NC: National Institute of Environmental Health Sciences; 2011b.
+ICCVAM. Validation of the BG1Luc Estrogen Receptor Transcriptional 
+Activation Test Method. Research Triangle Park, NC: National Institute 
+of Environmental Health Sciences. 2012. Available at: http://iccvam 
+.niehs.nih.gov/methods/endocrine/end_eval.htm.
+ICCVAM. Available at: https://ntp.niehs.nih.gov/iccvam/docs/about_docs/
+icatm-moc-mar11.pdf. 
+ILSI. A Framework for Cumulative Risk Assessment. Washington, DC: 
+International Life Science Institute; 1999.
+Institute of Medicine. Toward Environmental Justice. Research, Education, 
+and Health Policy Needs. Washington, DC: National Academies Press; 
+1999.
+Institute of Medicine. Development of DRIs 1994–2004 Lessons Learned 
+and New Challenges: Workshop Summary. Washington, DC: National 
+Academies Press; 2008.
+Israeli M, Nelson CB. Distribution and expected time of residence for 
+United States households. Risk Anal. 1992;12:65–72.
+Johnson DE, Wolfgang GHI, Gledin MA, Braeckman RA. Toxicokinetics 
+and toxicodynamics. In: Sipes I, McQueen C, Gandolfi A, eds. 
+Comprehensive Toxicology. Oxford, UK: Pergamon; 1997:169–181.
+Judd NL, Drew CH, Acharya C, et al. Framing scientific analyses for risk 
+management of environmental hazards by communities: case studies with 
+seafood safety issues. Environ Health Perspect. 2005;113:1502–1508.
+Judson RS, Martin MT, Egeghy P, et al. Aggregating data for computational 
+toxicology applications: the US Environmental Protection Agency (EPA) 
+aggregated computational toxicology resource (ACToR) system. Int J 
+Mol Sci. 2012;13(2):1805–1831.
+Kavlock RJ, Allen BC, Faustman EM, Kimmel CA. Dose response assess-
+ments for developmental toxicity: IV. Benchmark doses for fetal weight 
+changes. Fundam Appl Toxicol. 1995;26:211–222.
+Kavlock R, Chandler K, Houck K, et al. Update on EPA’s ToxCast program: 
+providing high throughput decision support tools for chemical risk man-
+agement. Chem Res Toxicol. 2012;25(7):1287–302.
+Keim M. Intentional chemical disasters. In: Hogan D, Burstein J, eds. 
+Disaster Medicine. Philadelphia, PA: Lippincott Williams & Wilkins; 
+2002:340–348.
+Kensler TW, Roebuck BD, Wogan GN, Groopman JD. Aflatoxin: a 50-year 
+odyssey of mechanistic and translational toxicology. Toxicol Sci. 
+2011;120(suppl 1):S28–S48.
+Khoury MJ. Human genome epidemiology: translating advances in human 
+genetics into population-based data for medicine and public health. 
+Genet Med. 1999;1:71–73.
+Kite-Powell HL, Fleming LE, Backer LC, et al. Linking the oceans to pub-
+lic health: current efforts and future directions. Environ Health. 2008; 
+7:S6.
+Klaunig JE, Babich M, Baetcke K, et al. PPARα agonist-induced rodent 
+tumors: modes of action and human relevance. Crit Rev Toxicol. 
+2003;33:655–780.
+Koturbash I, Scherhag A, Sorrentino J, et  al. Epigenetic mechanisms of 
+mouse interstrain variability in genotoxicity of the environmental toxi-
+cant 1,3-butadiene. Toxicol Sci. 2011;122:448–456.
+Kramer CB, Cullen AC, Faustman EM. Policy implications of genetic infor-
+mation on regulation under the Clean Air Act: the case of particulate mat-
+ter and asthmatics. Environ Health Perspect. 2006;114:313–319.
+Krewski D, Van Ryzin J. Dose-response models for quantal response toxic-
+ity data. In: Csorgo M, Dawson D, Rao J, Seleh A, eds. Statistics and 
+Related Topics. Amsterdam: North-Holland; 1981:201–229.
+Lave LB, Ennever F, Rosenkranz HS, Omenn GS. Information value of the 
+rodent bioassay. Nature. 1988;336:631–633.
+Lave LB, Omenn GS. Cost-effectiveness of short-term tests for carcinoge-
+nicity. Nature. 1986;334:29–34.
+Leiserowitz AA, Kates RW, Parris TM. Sustainability values, attitudes, and 
+behaviors: a review of multinational and global trends. Annu Rev Environ 
+Resour. 2006;31:413–444.
+Leroux BG, Leisenring WM, Moolgavkar SH, Faustman EM. A bio-
+logically based dose–response model for development. Risk Anal. 
+1996;16:449–458.
+Lewandowski TA, Ponce RA, Whittaker SG, Faustman EM. In vitro models 
+for evaluating developmental toxicity. In: Gad S, ed. Vitro Toxicology. 
+New York: Taylor & Francis; 2000:139–187.
+Limbird LE, Taylor P. Endocrine disruptors signal the need for receptor 
+models and mechanisms to inform policy. Cell. 1998;93:157–163.
+Liu R, Rallo R, George S, et al. Classification NanoSAR development for 
+cytotoxicity of metal oxide nanoparticles. Small. 2011;7:1118–1126.
+Lowrance WW. Of Acceptable Risk: Science and the Determination of 
+Safety. Los Altos, CA: William Kaufmann; 1976.
+Maynard AD, Aitken RJ, Butz T, et al. Safe handling of nanotechnology. 
+Nature. 2006;444:267–269.
+McClain RM. Mechanistic considerations in the regulation and classifica-
+tion of chemical carcinogens. In: Kotsonis F, Mackey M, Hjelle J, eds. 
+Nutritional Toxicology. New York: Raven Press; 1994:278–304.
+McGregor DB, Rice JM, Venitt S. The Use of Short- and Medium-Term 
+Tests for Carcinogens and Data on Genetic Effects in Carcinogenic 
+Hazard Evaluation. Lyon, France: IARC; 1999.
+Meek ME, Boobis AR, Crofton KM, et al. Risk assessment of combined 
+exposure to multiple chemicals: a WHO/IPCS framework. Regul Toxicol 
+Pharmacol. 2011;60(2):S1–S14.
+Mendoza MA, Ponce RA, Ou YC, Faustman EM. p21(WAF1/CIP1) inhibits 
+cell cycle progression but not G2/M-phase transition following methyl-
+mercury exposure. Toxicol Appl Pharmacol. 2002;178:117–125.
+Moggs JG, Tinwell H, Spurway T, et  al. Phenotypic anchoring of gene 
+expression changes during estrogen-induced uterine growth. Environ 
+Health Perspect. 2004;112:1589–1606.
+Moolgavkar SH, Luebeck G. Two-event model for carcinogenesis: 
+biological, mathematical, and statistical considerations. Risk Anal. 
+1990;10:323–341.
+
+Risk Assessment
+Chapter 4
+153
+Moore JA, Daston GP, Faustman EM. An evaluative process for assess-
+ing human reproductive and developmental toxicity of agents. Reprod 
+Toxicol. 1995;9:61–95.
+Morgan GM. Risk analysis and management. Sci Am. 1993;269:32–41.
+National Academy of Science. Health Risks from Dioxin and Related 
+Compounds: Evaluation of the EPA Reassessment. Washington, DC: 
+National Academies Press; 2006.
+National Human Genome Research Institute. A DNA Polymorphism Discovery 
+Resource. 2010. Available at: http://www.genome.gov/10001552.
+Nature Biotechnology Editorial. Making the most of microarrays. Nat 
+Biotechnol. 2006;24:1039–1039.
+NCBI. dbSNP Short Genetic Variations. Available at: http://www.ncbi.nlm.
+nih.gov/SNP/.
+NCBI. Available at: http://www.ncbi.nlm.nih.gov/. 2011b.
+NCI. Available at: http://dtp.nci.nih.gov. 2017.
+Neal N, Malmfors T, Slovic P. Intuitive toxicology: expert and lay judg-
+ments of chemical risks. Toxicol Pathol. 1994;22:198–201.
+Nebert DW, Duffy JJ. How knockout mouse lines will be used to study 
+the role of drug-metabolizing enzymes and their receptors during repro-
+duction, development, and environmental toxicity, cancer and oxidative 
+stress. Biochem Pharmacol. 1997;53:249–254.
+Nel AE, Nasser E, Godwin H, et al. A multi-stakeholder perspective on the 
+use of alternative test strategies for nanomaterial safety assessment. ACS 
+Nano. 2013;7(8):6422–6433.
+Neumann DA, Olin SS. Urinary bladder carcinogenesis: a working group 
+approach to risk assessment. Food Chem Toxicol. 1995;33:701–704.
+NHGRI. The ENCODE project: encyclopedia of DNA elements. 2017. 
+Available at: https://www.encodeproject.org.
+NIEHS. Corrositex: An In Vitro Test Method for Assessing Dermal Corrosivity 
+Potential of Chemicals. Washington, DC: ICCVAM; 1999a:33109–33111.
+NIEHS. The Murine Local Lymph Node Assay: A Test Method for Assessing 
+the Allergic Contact Dermatitis Potential of Chemicals/Compounds. 
+Washington, DC: ICCVAM; 1999b:14006–14007.
+NIEHS. ICCVAM Test Method Evaluation Report: In Vitro Cytotoxicity 
+Test Methods for Estimating Starting Doses for Acute Oral Systemic 
+Toxicity Tests. National Toxicology Program (NTP) Interagency Center 
+for the Evaluation of Alternative Toxicological Methods (NICEATM), 
+Interagency Coordinating Committee on the Validation of Alternative 
+Methods (ICCVAM). Bethesda, MD: National Institutes of Health; 2006.
+NLM. Available at: http://toxnet.nlm.nih.gov/. 2017.
+NRC. Risk Assessment in the Federal Government: Managing the Process. 
+Washington, DC: National Academies Press; 1983.
+NRC. Improving Risk Communication. Washington, DC: National 
+Academies Press; 1989a.
+NRC. Biological Markers in Reproductive Toxicology. Washington, DC: 
+National Academies Press; 1989b.
+NRC. Biological Markers in Pulmonary Toxicology. Washington, DC: 
+National Academies Press; 1989c.
+NRC. Biological Markers in Immunotoxicology. Washington, DC: National 
+Academies Press; 1992.
+NRC Committee on Risk Assessment Methodology. Issues in Risk 
+Assessment: Use of Maximum Tolerated Dose in Animal Bioassays for 
+Carcinogenicity. Washington, DC: National Academies Press; 1993.
+NRC. Science and Judgement in Risk Assessment. Washington, DC: 
+National Academies Press; 1994
+NRC. Understanding Risk: Informing Decisions in a Democratic Society. 
+Stern PC, Fineberg HV, eds. Washington, DC: National Academies Press; 
+1996.
+NRC. Scientific Frontiers in Developmental Toxicology and Risk 
+Assessment. Washington, DC: National Research Council; 2000.
+NRC. Effective Risk Communication, The Nuclear Regulatory Commission’s 
+Guidelines for External Risk Communication. Washington, DC: National 
+Academies Press, 2004.
+NRC. Toxicity Testing in the 21st Century: A Vision and a Strategy. 
+Washington, DC: National Academies Press; 2007a.
+NRC. Applications of Toxicogenomic Technologies to Predictive Toxicology 
+and Risk. Washington, DC: National Academies Press; 2007b.
+NRC. Science and Decisions: Advancing Risk Assessment. Washington, 
+DC: National Academies Press; 2009.
+NRC. Toxicity Pathway-Based Risk Assessment Preparing for Paradigm 
+Change: A Symposium Summary. Washington, DC: National Academies 
+Press; 2010.
+NRC. Sustainability Concepts in Decision-making: Tools and Approaches 
+for the US Environmental Protection Agency. Washington, DC: National 
+Academies Press; 2014a.
+NRC. A Framework to Guide Selection of Chemical Alternatives. 
+Washington, DC: National Academies Press; 2014b.
+NRC. Using 21st Century Science to Improve Risk-related Evaluations. 
+Washington, DC: National Academies Press; 2017.
+NTP. Available at: http://ntp.niehs.nih.gov/. 2011a.
+NTP, Office of Health Assessment and Translation (OHAT, Formerly 
+CERHR). Available at: http://ntp.niehs.nih.gov/?objectid=497C419D-
+E834-6B35-8AF15D389859AF07. 2011b.
+NTP. 14th Report on Carcinogens; 2016.
+NTP, Office of Health Assessment and Translation. OHAT Systematic 
+Review. 2017a. Available at: https://ntp.niehs.nih.gov/pubhealth/hat/
+noms/index-2.html.
+NTP, Guidance document for the developmental neurotoxicity testing arm 
+of the modified one-generation study. 2017b. Available at https://ntp 
+.niehs.nih.gov/ntp/test_info/mog_guidance_508.pdf
+Oberdorster G. Lung particle overload: implications for occupational expo-
+sure to particles. Regul Toxicol Pharmacol. 1995;12:123–135.
+OECD (Organisation for Economic Co-Operation and Development). Manual 
+for Investigation of HPV Chemicals; 2013. Available at: www.oecd.org.
+OECD. Adverse Outcome Pathways. Molecular Screening and Toxicoge-
+nomics; 2017. Available at: http://www.oecd.org/chemicalsafety/testing/
+adverse-outcome-pathways-molecular-screening-and-toxicogenomics.htm.
+Omenn GS. The genomic era: a crucial role for the public health sciences. 
+Environ Health Perspect. 2000;108:A204–A205.
+Omenn GS. Gene–environment interactions: eco-genetics and toxicoge-
+nomics. In: Ginsburg GS, Willard HF, eds. Genomic and Personalized 
+Medicine. 2nd ed. Elsevier: New York; 2012.
+Omenn GS, Lampen A. Scientific and cost-effectiveness criteria in selecting 
+batteries of short-term tests. Mutat Res. 1988;205:41–49.
+Omenn GS, Omiecinski CJ, Eaton DE. Eco-genetics of chemical carcino-
+gens. In: Cantor C, Caskey C, Hood L, eds. Biotechnology and Human 
+Genetic Predisposition to Disease. New York: Wiley-Liss; 1990:81–93.
+Omenn GS, Stuebbe S, Lave LB. Predictions of rodent carcinogenicity test-
+ing results: interpretation in light of the Lave–Omenn value-of-informa-
+tion model. Mol Carcinogen. 1995;14:37–45.
+Patlewicz G, Roberts DW, Aptula A, Blackburn K, Hubesch B. Workshop: 
+use of “read-across” for chemical safety assessment under REACH. 
+Regul Toxicol Pharmacol. 2013;65(2):226–228.
+Patterson TA, Lobenhofer EK, Fulmer-Smentek SB, et  al. Performance 
+comparison of one-color and two-color platforms within the MicroArray 
+Quality Control (MAQC) project. Nat Biotechnol. 2006;24:1140–1150.
+Perdue WC, Stone LA, Gostin LO. The built environment and its relation-
+ship to the public’s health: the legal framework. Am J Public Health. 
+2003;93:1390–1394.
+Perera FP, Weinstein IB. Molecular epidemiology: recent advances and 
+future directions. Carcinogenesis. 2000;21:517–524.
+REACH (Registration, Evaluation, Authorisation and Restriction of 
+Chemicals). 2011. Available at: http://ec.europa.eu/environment/
+chemicals/reach/reach_en.htm.
+Regalado J, Perez-Padilla R, Sansores R, et al. The effect of biomass burn-
+ing on respiratory symptoms and lung function in rural Mexican women. 
+Am J Respir Crit Care Med. 2006;174(8):901–905.
+Renwick AG. Safety factors and the establishment of acceptable daily 
+intakes. Food Addit Contam. 1991;8:135–150.
+Renwick AG. Toxicokinetics. In: Ballantyne B, Marrs T, Syversen T, 
+eds. General and Applied Toxicology. New York: Grove’s Dictionaries; 
+1999:67–95.
+Renwick AG, Lazarus NR. Human variability and noncancer risk 
+­assessment—an analysis of the default uncertainty factor. Regul Toxicol 
+Pharmacol. 1998;27:3–20.
+Rice JM, Baan RA, Blettner M. Rodent tumors of urinary bladder, renal 
+cortex, and thyroid gland. IARC monographs: evaluations of carcino-
+genic risk to humans. Toxicol Sci. 1999;49:166–171.
+
+154
+General Principles of Toxicology
+Unit I
+Risk Commission. The Presidential/Congressional Commission on Risk 
+Assessment and Risk Management. Washington, DC: Government 
+Printing Office; 1997.
+Rodericks JV, Rudenko I, Starr TB, Turnbull D. Risk assessment. In: Sipes 
+I, McQueen C, Gandolfi A, eds. Comprehensive Toxicology. Oxford, UK: 
+Pergamon; 1997.
+Roe D, Pease W, Florini K, Silbergeld E. Toxic Ignorance: The Continuing 
+Absence of Basic Health Testing for Top-Selling Chemicals in the United 
+States. Washington, DC: Environmental Defense Fund; 1997.
+Rooney AA, Boyles AL, Wolfe MS, Bucher JR, Thayer KA. Systematic 
+review and evidence integration for literature-based environmen-
+tal health science assessments. Environmental Health Perspectives. 
+2014;122(7):711–718.
+Ryan PB. Exposure assessment, industrial hygiene, and environmental 
+management. In: Frumkin H, ed. Environmental Health: From Global to 
+Local. 2nd ed. San Francisco, CA: Jossey-Bass; 2010.
+Sandman PM. Responding to Community Outrage: Strategies for Effective 
+Risk Communication. Fairfax, VA: American Industrial Hygiene 
+Association; 1993.
+Sartor MA, Dolinoy DC, Rozek LS, Omenn GS. Bioinformatics for high-
+throughput toxico-epigenomics studies. In: Sahu SC, ed. Toxicology and 
+Epigenetics. New York: Wiley; 2012.
+Sartor MA, Mahavisno V, Keshamouni VG, et  al. ConceptGen: a gene 
+set enrichment and gene set relation mapping tool. Bioinformatics. 
+2010;26:456–463.
+Schardein JL, Scialli AR. The legislation of toxicologic safety factors: the 
+Food Quality Protection Act with chlorpyrifos as a test case. Reprod 
+Toxicol Rev. 1999;13:1–14.
+Sette WF. Pesticide Assessment Guidelines, Subdivision D, Hazard 
+Evaluation, Human and Domestic Animals, Addendum 10. Neurotoxicity 
+Series 81, 82, and 83 PB91-154617. Washington, DC: National Technical 
+Information Services; 1991.
+Sexton K, Selevan SG, Wagener DK, Lybarger JA. Estimating human expo-
+sures to environmental pollutants: availability and utility of existing data-
+bases. Arch Environ Health. 1992;47:398–407.
+Shelby MD, Bishop JB, Mason JM, Tindall KR. Fertility, reproduction and 
+genetic disease: studies on the mutagenic effects of environmental agents 
+on mammalian germ cells. Environ Health Perspect. 1993;200:283–291.
+Shuey DL, Lau C, Logsdon TR. Biologically based dose–response model-
+ing in developmental toxicology: biochemical and cellular sequelae of 
+5-fluorouracil exposure in the developing rat. Toxicol Appl Pharmacol. 
+1994;126:129–144.
+Silverman KC, Naumann BD, Holder DJ. Establishing data-derived adjust-
+ment factors from published pharmaceutical clinical trial data. Hum Ecol 
+Risk Assess. 1999;5:1059–1089.
+Simon R, Wang SJ. Use of genomic signatures in therapeutics development 
+in oncology and other diseases. Pharmacogenomics J. 2006;6:166–173.
+Slovic P. The Feeling of Risk: New Perspectives on Risk Perception. The 
+Earthscan Risk in Society Series. Washington, DC: Earthscan, in associa-
+tion with the International Institute for Environment and Development; 
+2010.
+Slovic P, Baruch F, Lichtenstein S. Rating the risks. Environment. 
+1979;21:1–20, 36–39.
+Slovic P, Peters E, Finucane ML, MacGregor DG. Affect, risk, and decision 
+making. Health Psychol. 2005;24:S35–S40.
+Smith MN, Grice J, Cullen, Faustman EM. A toxicological framework for 
+the prioritization of children’s safe product act data. Int J Environ Res 
+Public Health. 2016a;13(4):431.
+Smith MT, Guyton KZ, Gibbons CF, et al. Key characteristics of carcino-
+gens as a basis for organizing data on mechanisms of carcinogenesis. 
+Environ Health Perspect. 2016b;124(6):713–721.
+Spielmann H, Seiler A, Bremer S, et al. The practical application of three 
+validated in vitro embryotoxicity tests—the report and recommendations 
+of an ECVAM/ZEBET workshop (ECVAM workshop 57). Altern Lab 
+Anim. 2006;34:527–538.
+Stevens JT. Risk assessment of pesticides. In: Williams P, Hottendorf G, 
+eds. Comprehensive Toxicology. Oxford, UK: Pergamon; 1997:17–26.
+Sudmant PH, Kitzman JO, Antonacci F, et  al. Diversity of human copy 
+number variation and multicopy genes. Science. 2010;330:641–646.
+Teichman K, U.S. EPA. Presentation to the Science Advisory Board and 
+Board of Scientific Counselors (Overview). 2011, June. Available at: 
+http://my.brainshark.com/Dr-Kevin-Teichman-SAB-BOSC-Presentation- 
+720933584.
+Tennant RW, Stasiewicz S, Mennear J. Genetically altered mouse models 
+for identifying carcinogens. In: McGregor DB, Rice JM, Venitt S, eds. 
+The Use of Short- and Medium-Term Tests for Carcinogens and Data 
+on Genetic Effects in Carcinogenic Hazard Evaluation. Vol. 146. Lyon, 
+France: IARC; 1999:123–150.
+Toscano WA, Oehlke KP. Systems biology: new approaches to old environ-
+mental health problems. Int J Environ Res Public Health. 2005;2:4–9.
+United States Act. The Genetic Information Nondiscrimination Act of 2008 
+(GINA). Public Law 110-233; May 21, 2008.
+U.S. EPA. Guidelines for mutagenicity risk assessment. Fed Reg. 
+1986;51:34006–34012.
+U.S. EPA. Proposed guidelines for assessing female reproductive risk. Fed 
+Reg. 1988;53:24834–24847.
+U.S. EPA. Risk Assessment Guidance for Superfund. Vol 1: Human Health 
+Evaluation Manual, Part A. Washington, DC: Office of Policy Analysis 
+and Office of Emergency and Remedial Response; 1989.
+U.S. EPA. Guidelines for developmental toxicity risk assessment. Fed Reg. 
+1991;56:63798–63826.
+U.S. EPA. Frameworks for Ecological Risk Assessment. EPA\630\R-92\001; 
+1992a.
+U.S. EPA. Guidelines for exposure assessment. Fed Reg. 1992b;57: 
+22888–22938.
+U.S. EPA. Health Assessment Document for 2,3,7,8-Tetrachlorodibenzo-
+p-Dioxin (TCDD) and Related Compounds. Washington, DC: Office of 
+Research and Development; 1994a.
+U.S. EPA. Guidelines for Carcinogen Risk Assessment (Draft Revisions). 
+Washington, DC: Office of Health and Environmental Assessment; 
+1994b.
+U.S. EPA. Guidelines for reproductive toxicity risk assessment. Fed Reg. 
+1996a;61:56278–56322.
+U.S. EPA. Food Quality Protection Act (FQPA). Washington, DC: Office of 
+Pesticide Programs; 1996b.
+U.S. EPA. Chemical Hazard Availability Study. Washington, DC: Office of 
+Pollution Prevention and Toxics; 1998a.
+U.S. EPA. Guidance for identifying pesticides that have a common mecha-
+nism of toxicity: notice of availability and solicitation of public com-
+ments. Fed Reg. 1998b; 63:42031–42032.
+U.S. EPA. Guidelines for Neurotoxicity Risk Assessment. EPA Technical 
+Report. Risk Assessment Forum. Washington, DC: U.S. Environmental 
+Protection Agency; 1998c.
+U.S. EPA. Guidelines for Carcinogen Risk Assessment, Draft. 
+NCEA-F-0644. Washington, DC: EPA; 1999.
+U.S. EPA. Benchmark Dose Technical Guidance Document. External 
+Review Draft. Washington, DC: Risk Assessment Forum; 2000a.
+U.S. EPA. Chlorpyrifos: Re-evaluation Report of the FQPA Safety Factor 
+Committee. HED Doc. No. 014077. Washington, DC: U.S. Environmental 
+Protection Agency; 2000b.
+U.S. EPA. Risk Characterization Handbook. Washington, DC: U.S. 
+Environmental Protection Agency Science Policy Council; 2000c.
+U.S. EPA. Generic Ecological Assessment Endpoints (GEAE) for 
+Ecological Risk Assessment. Washington, DC: U.S. Environmental 
+Protection Agency; 2004.
+U.S. EPA. Guidelines for Carcinogen Risk Assessment (Cancer Guidelines). 
+Federal Register Notice. Washington, DC: U.S. Environmental Protection 
+Agency; 2005a.
+U.S. EPA. Policy on Evaluating Heath Risks to Children. Washington, DC: 
+U.S. Environmental Protection Agency; 2005b.
+U.S. EPA. Supplemental Guidance for Assessing Susceptibility from Early-
+Life Exposure to Carcinogens. Federal Register Notice. EPA/630/R-
+03/003F. Washington, DC: U.S. Environmental Protection Agency; 
+2005c.
+U.S. EPA. Child-Specific Exposure Factors Handbook (Final Report). 
+EPA/600/R-06/096F. Washington, DC: Office of Research and 
+Development and the National Center for Environmental Assessment; 
+2008.
+
+Risk Assessment
+Chapter 4
+155
+U.S. EPA. The Office of Chemical Safety and Pollution Prevention (OCSPP) 
+Harmonized Test Guidelines: Series 870—Health Effects Test Guidelines. 
+870 Series Final Guidelines. 2010a. Available at: http://www.epa.gov/
+ocspp/pubs/frs/publications/Test_Guidelines/series870.htm.
+U.S. EPA. EPA’s Reanalysis of Key Issues Related to Dioxin Toxicity and 
+Response to NAS Comments Draft. 2010b. NAS comments are published 
+by the National Research Council of the National Academies and avail-
+able from the National Technical Information Service, Springfield, VA, 
+and available at: http://www.epa.gov/ncea.
+U.S. EPA. Integrated Exposure Uptake Biokinetic Model for Lead in 
+Children. Windows® version (IEUBKwin v1.1 build 11). Washington, 
+DC: U.S. Environmental Protection Agency; 2010c. Available from the 
+National Technical Information Service. Available at: http://www.epa 
+.gov/superfund/lead/products.htm.
+U.S. EPA. IRIS Toxicological Review of Inorganic Arsenic (Cancer) (2010 
+External Review Draft). EPA/635/R-10/001. Washington, DC: U.S. 
+Environmental Protection Agency; 2010d.
+U.S. EPA, Office of Research and Development. Presentations for the 
+Science Advisory Board and Board of Scientific Counselors. In: 
+Preparation for the June 29–30, 2011 Joint Meeting; 2001f. Available at: 
+https://yosemite.epa.gov/sab/sabproduct.nsf/F53952681221F76F852578
+AF007EE972/$File/SABBOSC+Presentations.pdf.
+U.S. EPA. Exposure Factors Handbook: 2011 Edition. Final Report. 
+Washington, DC: Office of Health and Environmental Assessment; 
+2011a.
+U.S. EPA. High Production Volume (HPV) Challenge. 2011b. Available at: 
+http://www.epa.gov/hpv/.
+U.S. EPA. PMN Forms and Information. New Chemicals. 2011c. Available 
+at: http://www.epa.gov/oppt/newchems/pubs/pmnforms.htm.
+U.S. EPA. Integrated Risk Information System (IRIS). 2011d. Available at: 
+http://www.epa.gov/IRIS/.
+U.S. EPA. Interim Genomics Policy. 2011e. Available at: http://www.epa 
+.gov/spc/genomics.htm.
+U.S. EPA. Benchmark Dose Technical Guidance. EPA/100/R-12/001. 2012a. 
+Available at: https://www.epa.gov/risk/benchmark-dose-technical-guidance.
+U.S. EPA. Integrated Risk Information System (IRIS): Glossary of IRIS 
+Terms. 2012b. Available at: http://www.epa.gov/iris/help_gloss.htm.
+U.S. EPA. Computational Toxicology Research. 2012c. Available at: 
+http://www.epa.gov/ncct/.
+U.S. EPA. Use of High-Throughput Assays and Computational Tools. 
+Endocrine Disruptor Screening Program. Notice of Availability and 
+Opportunity for Comment; 2015. Available at: https://www.federalregister.
+gov/documents/2015/06/19/2015-15182/use-of-high-throughput-assays-
+and-computational-tools-endocrine-disruptor-screening-program-notice.
+U.S. EPA. TRI Chemical List Changes; 2016.
+U.S. EPA. Benchmark Modelling Software, Version 2.7. 2017a. Available 
+at: https://www.epa.gov/bmds/what-benchmark-dose-software-bmds.
+U.S. EPA. ACToR. Washington, DC: Office of Health and Environmental 
+Assessment; 2017b. Available at: https://actor.epa.gov/actor/home.xhtml.
+U.S. FDA. Critical Path Initiative. Science & Research. Silver Spring, MD: 
+U.S. Food and Drug Administration; 2011. Available at: http://www.fda 
+.gov/ScienceResearch/SpecialTopics/CriticalPathInitiative/default.htm.
+U.S. FDA. Pharmacogenetics. 2017a. Available at: https://www.fds.gov/
+drugs/scienceresearch/researchareas/pharmacogenetics/ucm083378.
+html.
+U.S. FDA. SNP track. 2017b. Available at: https://www.fds.gov/sciencere-
+search/bioinformaticstools/snptrack/default.htm.
+Van den Berg M, Birnbaum L, Bosveld AT, et al. Toxic equivalency fac-
+tors (TEFs) for PCBs, PCDDs, PCDFs for humans and wildlife. Environ 
+Health Perspect. 1998;106:775–792.
+Van den Berg M, Birnbaum LS, Denison M, et al. The 2005 World Health 
+Organization reevaluation of human and mammalian toxic equiva-
+lency factors for dioxins and dioxin-like compounds. Toxicol Sci. 
+2006;93:223–241.
+Vlaanderen J, Portengen L, Rappaport SM, et al. The impact of saturable 
+metabolism on exposure–response relations in 2 studies of benzene-
+induced leukemia. Am J Epidemiol. 2011;174:621–629.
+Wambaugh JF, Setzer RW, Reif DM, et  al. High-throughput models for 
+exposure-based chemical prioritization in the ExpoCast project. Environ 
+Sci Technol. 2013; 47(15):8579–8588.
+Weller E, Long N, Smith A. Dose–rate effects of ethylene oxide exposure 
+on developmental toxicity. Toxicol Sci. 1999;50:259–270.
+Whittaker SG, Faustman EM. In Vitro Assays for Developmental Toxicity. 
+New York: Raven Press; 1994.
+WHO. Principles in Governing Consumer Safety in Relation to Pesticide 
+Residues: Report of a Meeting of a W.H.O. Expert Committee on 
+Pesticide Residues, held jointly with the F.A.O. Panel of Experts on the 
+Use of Pesticides in Agriculture. World Health Organization Technical 
+Report Series No. 240. Geneva: WHO; 1962.
+WHO. Principles for the Assessment of Risks to Human Health from 
+Exposure to Chemicals. Environmental Health Criteria. World Health 
+Organization, International Programme on Chemical Safety. Geneva: 
+World Health Organization; 1999.
+WHO. Joint IPCS/OECD Project on the Harmonization of Chemical 
+Hazard/Risk Assessment Terminology (Harmonization Project). Geneva: 
+World Health Organization; 2000.
+WHO. IPCS Risk Assessment Terminology. Harmonization Project 
+Document. Geneva: World Health Organization, International Program 
+on Chemical Safety; 2004.
+WHO. Chemical-Specific Adjustment Factors for Interspecies Differences 
+and Human Variability: Guidance Document for Use of Data in 
+Dose/Concentration–Response Assessment. Geneva: World Health 
+Organization; 2005.
+WHO. Principles of Characterizing and Applying Human Exposure 
+Models. IPCS Harmonization Project Document No. 3. Geneva: World 
+Health Organization; 2006a.
+WHO. Principles for Modeling Dose-response for the Risk Assessment 
+of Chemicals. Environmental Health Criteria Series, No. 234. Geneva: 
+World Health Organization, International Program on Chemical Safety; 
+2006b.
+WHO. Uncertainty and Data Quality in Exposure Assessment. Geneva: 
+World Health Organization, International Program on Chemical Safety; 
+2008.
+WHO. WHO Human Health Risk Assessment Toolkit: Chemical Hazards. 
+IPCS Harmonization Project Document No. 8. International Programme 
+on Chemical Safety, Inter-Organization Programme for the Sound 
+Management of Chemicals. Geneva: World Health Organization; 2010.
+WHO. IPCS Harmonization Project. Programmes and Projects. 2011a. 
+Available at: http://www.who.int/ipcs/methods/harmonization/en/.
+WHO. The International Agency for Research on Cancer (IARC). 2011b. 
+Available at: http://www.iarc.fr/.
+WHO. 
+Concise 
+International 
+Chemical 
+Assessment 
+Documents. 
+International Programme on Chemical Safety (IPCS); 2011c. Available 
+at: http://www.who.int/ipcs/publications/cicad/en/.
+WHO. Millennium Development Goals (MDGs). Health Topics. 2011d. 
+Available at: http://www.who.int/topics/millennium_development_goals/en/.
+Yamada T, Kondo M, Miyata K, et al. An evaluation of the human relevance 
+of the lung tumors observed in female mice treated with permethrin 
+based on mode of action. Toxicol Sci. 2017;157(2):465–486.
+Yu X, Griffith WC, Hanspers K, et al. A system based approach to interpret 
+dose and time-dependent microarray data: quantitative integration of GO 
+ontology analysis for risk assessment. Toxicol Sci. 2006;92:560–577.
+Yu XZ, Hong S, Moreira EG, Faustman EM. Improving in vitro Sertoli cell/
+gonocyte co-culture model for assessing male reproductive toxicity: les-
+sons learned from comparisons of cytotoxicity versus genomic responses 
+to phthalates. Toxicol Appl Pharmacol. 2009;239:325–336.
+Zhao Q, Dourson M, Gadagbui B. A review of the reference dose for chlor-
+pyrifos. Regul Toxicol Pharmacol. 2006;44:111–124.
+
+This page intentionally left blank

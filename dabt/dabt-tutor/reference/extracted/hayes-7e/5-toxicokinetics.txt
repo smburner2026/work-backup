@@ -1,0 +1,3936 @@
+# 5 Toxicokinetics
+# Hayes' Principles and Methods of Toxicology, 7th Edition
+# Pages: 241-272
+# Unit: Volume I
+
+211
+5
+Toxicokinetics
+Leanne L. Bedard
+CONTENTS
+5.1	
+Introduction������������������������������������������������������������������������������������������������������������������������������������������������������������������������212
+5.2	
+Biological Principles�����������������������������������������������������������������������������������������������������������������������������������������������������������214
+5.3	
+Mathematical Principles�����������������������������������������������������������������������������������������������������������������������������������������������������214
+5.3.1	
+Model-Independent Considerations������������������������������������������������������������������������������������������������������������������������214
+5.3.1.1	
+Absorption����������������������������������������������������������������������������������������������������������������������������������������������215
+5.3.1.2	
+Tissue Extraction�����������������������������������������������������������������������������������������������������������������������������������215
+5.3.1.3	
+Plasma Protein Binding�������������������������������������������������������������������������������������������������������������������������215
+5.3.1.4	
+Clearance������������������������������������������������������������������������������������������������������������������������������������������������216
+5.3.2	
+Compartmental Analysis����������������������������������������������������������������������������������������������������������������������������������������218
+5.3.2.1	
+One-Compartment Open Model������������������������������������������������������������������������������������������������������������220
+5.4	
+Practical Methods��������������������������������������������������������������������������������������������������������������������������������������������������������������226
+5.4.1	
+Dose Administration Techniques��������������������������������������������������������������������������������������������������������������������������226
+5.4.1.1	
+IV Injection��������������������������������������������������������������������������������������������������������������������������������������������226
+5.4.1.2	
+Oral Dosing��������������������������������������������������������������������������������������������������������������������������������������������228
+5.4.1.3	
+Inhalational Administration�������������������������������������������������������������������������������������������������������������������229
+5.4.1.4	
+SC Administration���������������������������������������������������������������������������������������������������������������������������������229
+5.4.1.5	
+IP Injection���������������������������������������������������������������������������������������������������������������������������������������������230
+5.4.1.6	
+Dermal Administration��������������������������������������������������������������������������������������������������������������������������230
+5.4.2	
+Sampling Techniques��������������������������������������������������������������������������������������������������������������������������������������������231
+5.4.2.1	
+Sampling of Blood or Plasma����������������������������������������������������������������������������������������������������������������231
+5.4.2.2	
+Sampling of Excreta: Urine, Feces, and Bile�����������������������������������������������������������������������������������������233
+5.4.3	
+Sample Analysis����������������������������������������������������������������������������������������������������������������������������������������������������234
+5.4.4	
+Data Handling�������������������������������������������������������������������������������������������������������������������������������������������������������234
+5.4.4.1	
+Computation of TK Parameters�������������������������������������������������������������������������������������������������������������235
+5.4.5	
+Interpretation of In Vivo Toxicokinetic Data��������������������������������������������������������������������������������������������������������235
+5.4.5.1	
+Dose Proportionality������������������������������������������������������������������������������������������������������������������������������235
+5.4.5.2	
+Sex Differences��������������������������������������������������������������������������������������������������������������������������������������236
+5.4.5.3	
+Accumulation�����������������������������������������������������������������������������������������������������������������������������������������236
+5.4.5.4	
+Metabolite Exposure versus Parent Exposure���������������������������������������������������������������������������������������237
+5.4.5.5	
+Control Sample Contamination with Test Article���������������������������������������������������������������������������������237
+5.4.5.6	
+Exposure-Based Safety Margin Estimations�����������������������������������������������������������������������������������������237
+5.5	
+Regulatory Considerations for Toxicokinetic Studies�������������������������������������������������������������������������������������������������������238
+5.5.1	
+Animal Welfare and Animal Use Protocols���������������������������������������������������������������������������������������������������������238
+5.5.2	
+Pharmaceutical Product Development������������������������������������������������������������������������������������������������������������������238
+5.5.3	
+Non-Pharmaceutical Product Development����������������������������������������������������������������������������������������������������������238
+5.6	
+Modeling and Simulation���������������������������������������������������������������������������������������������������������������������������������������������������239
+5.7	
+Concluding Remarks����������������������������������������������������������������������������������������������������������������������������������������������������������239
+5.8	
+Self-Assessment Exercises�������������������������������������������������������������������������������������������������������������������������������������������������239
+References������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������240
+DOI: 10.1201/9781003390008-6
+
+212
+Hayes’ Principles and Methods of Toxicology
+5.1  Introduction
+Pharmacokinetics (PK) and pharmacodynamics (PD) refer to 
+the study of the interaction of drugs within the body. PK relates 
+to the movement of the drug into, within, and out of the body. 
+PD describes the pharmacological effects (receptor binding 
+and downstream biochemical and physiological effects) once 
+the drug is delivered to its site of action.1
+The principles of PK can apply to any xenobiotic, defined 
+as any substance that is foreign to the body. The main pro-
+cesses involved in PK are absorption, distribution, metabo-
+lism (biotransformation), and excretion (ADME).2 Many of 
+the biological processes involved in the ADME of xenobi-
+otics are nonspecific and are shared by therapeutic drugs 
+and other low-molecular-weight organic molecules such as 
+food additives, pesticides, industrial chemicals, and envi-
+ronmental contaminants. The field of toxicokinetics (TK) is 
+an extension of PK. The term TK refers to the pharmacoki-
+netic processes of toxicants, which do not have a therapeutic 
+effect. In drug discovery and development, TK denotes the 
+relationship of in vivo drug concentrations to observable toxi-
+cological effects.
+TK, analogous to PK, is defined as the movement of the 
+toxicant into, within, and out of the body. Following dose 
+administration, the toxicant is absorbed from the site of 
+administration and distributed to the systemic circulation and 
+into the target organ/tissues. The distribution, metabolism, 
+and excretion properties of the toxicant determine the concen-
+trations attained in the systemic circulation and at the target 
+organ/tissues. The assessment of TK allows for the assess-
+ment of systemic exposure, an integral part of risk assessment 
+(Figure 5.1). Toxicodynamics defines the interaction of the tox-
+icant with the biological target, which can lead to structural or 
+functional alterations of the biological target. These alterations 
+can lead to toxicity, which may be reversible or irreversible. 
+The assessment of toxicodynamics allows for hazard identi-
+fication and characterization, also a fundamental part of risk 
+assessment (Figure 5.1).
+The toxicant concentration in the systemic circulation is 
+influenced by ADME processes, as shown in Figure 5.2. Upon 
+oral administration, the toxicant is absorbed into the systemic 
+circulation from the small intestinal lumen and enters the liver 
+via the portal vein circulation. In the liver, the toxicant may 
+be metabolized and/or eliminated as the parent compound in 
+the bile, followed by excretion in feces. The fraction of the 
+toxicant dose that is not metabolized in the intestine or the 
+liver will then attain the systemic circulation. The first-pass 
+effect is the phenomenon by which the fraction of the dose 
+which reaches the systemic circulation is reduced by intestinal 
+and/or hepatic metabolism. From the central compartment, the 
+toxicant can then distribute into tissues and/or to the site of 
+action. Upon intravenous (IV) dosing, the toxicant is delivered 
+directly into the systemic circulation, bypassing the limita-
+tions of intestinal first-pass. Upon intramuscular (IM) dosing, 
+the toxicant is delivered directly into the peripheral tissues. 
+Toxicants may also be administered by inhalation directly into 
+the lungs. From the systemic circulation, circulating toxicants 
+can be eliminated either by hepatic metabolism and/or biliary 
+excretion or by urinary excretion.
+The purpose of TK studies in the evaluation of nonclinical 
+(animal) toxicity assessments is to demonstrate that the test 
+compound is present in the groups of animals being tested 
+and to understand the relationship between systemic exposure 
+and the observed toxicological effects. An understanding of 
+the TK properties (e.g., linear versus non-linear kinetics) is 
+essential in the selection of dose levels for subsequent longer-
+term chronic toxicity studies. TK data are important in the 
+FIGURE 5.1  The relationship between TK and toxicodynamics. TK describes the ADME properties of the toxicant that define its concentrations in 
+the systemic circulation and at the target organ/tissue. Toxicodynamics describes the interaction of the toxicant with the biological target, followed by 
+structural or functional alterations which ultimately lead to reversible or irreversible toxicity. Hazard identification, defined as the health effects that 
+are caused by the toxicant, and exposure assessment, are important aspects of assessing risk.
+
+213
+Toxicokinetics
+assessment of whether findings in animal toxicity studies are 
+relevant to humans and for extrapolation to human risk assess-
+ment. In pharmaceutical research, TK data are utilized for 
+estimating exposure margins of safety to support the conduct 
+of safe clinical trials in humans. TK data can also be used for 
+physiologically based model development (Chapter 6).
+The overall goals of conducting TK studies are:
+•	 To determine the systemic exposure achieved in ani-
+mals following dose administration
+•	 To understand the relationship between systemic 
+exposure and the TK parameters with the dose level 
+and the time course of toxicity
+•	 To understand the relationship between systemic 
+exposure to toxicology findings
+•	 To support the selection of species and treatment reg-
+imen as well as the design of longer-term, subsequent 
+nonclinical toxicity studies
+•	 To assess the relevance of toxicology findings in non-
+clinical species to clinical safety in humans in sup-
+port of drug development programs
+•	 To assess the adequacy and the relevance of extrapo-
+lating animal toxicity data to human hazard and 
+risk assessment for non-pharmaceutical product 
+development
+•	 To aid in the development of physiologically based 
+pharmacokinetic (PBPK) and toxicokinetic (PBTK) 
+models (described in Chapter 6)
+This chapter of the revised 7th Edition provides an introduction 
+to TK principles, as applied both to pharmaceutical research 
+and to the development and risk assessment of non-pharmaceu-
+tical products, such as pesticides, industrial chemicals, food 
+additives, and consumer products. This chapter introduces the 
+basic mathematical principles of TK, as well as provides an 
+updated description of practical methods to design success-
+ful TK studies. Practical methods include a description of the 
+dose administration techniques for commonly used routes of 
+administration in toxicity studies. Sampling techniques have 
+been described, including microsampling for quantitative 
+bioanalysis, an emerging technology that has received more 
+attention in recent years in terms of its application and its use 
+in drug development programs. Best practices in terms of bio-
+logical sample analysis and data handling and computation 
+have been summarized. The interpretation of TK parameters 
+and how these parameters characterize the test article’s dispo-
+sition have also been described, as well as the estimation of 
+exposure-based safety margins. Regulatory considerations for 
+TK studies for both drug development and non-pharmaceuti-
+cal product development have been presented. Finally, the use 
+of TK data in modeling and simulation is introduced.
+Since this chapter is intended to collectively encompass 
+aspects related to TK assessment of both pharmaceutical prod-
+ucts and non-pharmaceutical products, the term test article 
+will be used to define the substance that is the subject of the 
+study being discussed and can represent a drug, food addi-
+tive, biological product, pesticide, chemical, or environmental 
+contaminant.
+FIGURE 5.2  Toxicant disposition (see text). (Reprinted with permission from Robert A, Renwick AG. Chapter 5: Toxicokinetics. In: Hayes, WA, 
+Kruger, CL eds. Haye’s Principles and Methods of Toxicology. 6th ed. CRC Press/Taylor & Francis Group; 2014: 215–246).
+
+214
+Hayes’ Principles and Methods of Toxicology
+5.2  Biological Principles
+The physiological and biological processes involved in the 
+ADME processes of xenobiotics were outlined in previous 
+editions of this book, and only essential concepts are now 
+presented under the discussion of mathematical principles. 
+Texts recommended for additional reading include those by 
+Lehman-McKeeman3 and Goodman & Gilman,2 which pro-
+vide good introductions to the basic principles of ADME.
+5.3  Mathematical Principles
+As depicted in Figures 5.1 and 5.2, in theory, the exposure-
+response relationship would ideally be established based on 
+the toxicant concentrations at the site of toxicity/target organ. 
+In practice, adequate serial sampling of target organs/tissues 
+in animal toxicity studies to enable the calculation of TK 
+parameters is prohibitive, both from cost and animal use per-
+spectives. Furthermore, human exposure studies are based on 
+toxicant concentrations measured in plasma or blood, which is 
+the most accessible biofluid to collect serially over time to gain 
+insight on toxicant disposition and ADME properties. One 
+assumption for the interpretation of TK properties in plasma or 
+whole blood is that the concentrations at the site of action and 
+the concentrations in plasma/blood have attained equilibrium 
+and that any changes in toxicant concentrations at the site of 
+action will be reflected by a corresponding change in plasma/
+blood concentrations.
+The investigation of TK is a mathematical description of 
+the toxicant’s disposition in the body. To accurately describe 
+the changes in toxicant concentrations in blood or plasma over 
+time, a suitable mathematical model has to be assigned that 
+accurately describes the shape of the concentration-time curve. 
+There are three main approaches to toxicokinetic modeling:
+	
+1.	Classical one-compartmental model
+	
+2.	Multi-compartmental models
+	
+3.	Physiologically based toxicokinetic models
+Certain aspects are model-independent, and these are consid-
+ered first since they are usually constituent parts of the appro-
+priate mathematical model.
+5.3.1  Model-Independent Considerations
+Biochemical and physiological processes are usually either 
+zero-order or first-order reactions. First-order reactions are 
+defined as those that occur in a concentration-dependent man-
+ner, meaning that the higher the concentration, the faster the 
+rate of elimination. In contrast, the elimination rate in zero-
+order reactions is independent of concentration.
+In zero-order reactions, the rate of change in concentration 
+with time occurs at a fixed amount per unit of time, that is,
+	
+d
+d
+C
+t
+k
+=
+ 	
+(5.1)
+where
+C is the concentration
+t is the time
+k is a constant with units of the amount per time
+Zero-order reactions are particularly important at high con-
+centrations when enzymes are saturated and are working at 
+the maximum rate, and an increase in C cannot result in an 
+increase in rate. This situation results in non-linear or satura-
+tion kinetics.
+In first-order reactions, the rate of change in concentration 
+is proportional to the concentration available for the reaction, 
+that is,
+	
+d
+d
+C
+t
+kC
+=
+	
+(5.2)
+where k is a constant that represents a proportional change 
+with time and has units of time–1, for example, min–1.
+Most kinetic processes (e.g., diffusion, carrier-mediated 
+uptake, metabolism, and excretion) are first-order reactions 
+at low concentrations. Most of the following equations given 
+make this assumption.
+First-order reactions can be described by equations that 
+include exponential functions. In many cases, the entry of 
+the toxicant into the body or a tissue follows an exponential 
+increase, which may be described mathematically by:
+	
+Uptake   1   e kt
+=
+−
+− 	
+(5.3)
+where the uptake is the concentration present at time t divided 
+by the final concentration when all the compound has entered 
+the body or tissue. This equation assumes that there is no 
+elimination process. The elimination of a toxicant (by a first-
+order process) once it has entered the body or tissue may be 
+described by an exponential with a negative slope:
+	
+0
+C
+C
+e kt
+=
+⋅
+− 	
+(5.4)
+where
+C is the concentration present at time t
+C0 is the initial concentration
+In Equations 5.3 and 5.4, k is the rate constant for that pro-
+cess. Exponential equations of the type given in Equation 5.4 
+may be solved as
+	
+ln 
+ln 
+0
+C
+C
+kt
+=
+−
+	
+(5.5)
+or using log10
+	
+log 
+log 
+2.303
+0
+C
+C
+kt
+=
+−
+ 	
+(5.6)
+These are equations of the generalized form
+	
+       
+y
+A
+Bx
+=
++
+ 	
+(5.7)
+where
+x and y are variables
+A and B are constants
+
+215
+Toxicokinetics
+In such cases, a plot of x against y gives a straight-line graph 
+with a slope of B and an intercept of A. Thus, for TK, a graph 
+of ln C against time gives a slope of –k and an intercept of 
+ln C0. Because the units of k are time–1, which is a difficult 
+unit to visualize, the rates of a first-order processes are usually 
+described by their half-life value (t½; see later).
+Usually, the equation necessary to describe the kinetics of 
+a compound in the body requires the use of at least two expo-
+nential rate terms. This is illustrated in Figure 5.3 in which 
+two phases are seen in the plasma concentration-time curve 
+after an IV dose and three different phases after an oral dose. 
+Each phase requires a different rate constant, and the early 
+time points in the concentration-time curve are influenced 
+by all rates. Eventually, the influence of the component with 
+the higher rate (the faster component) becomes negligible, 
+while the slower component (with the smaller rate constant) 
+still affects the concentration. Thus, the terminal phase of the 
+concentration-time curve is determined by the slower process, 
+that is, the one with the smaller rate constant, and the earlier 
+phase by the sum of both processes. This process allows both 
+rate constants to be determined by the procedure known as the 
+method of residuals (see later) or stripping, which separates the 
+effects of distribution and elimination.
+5.3.1.1  Absorption
+The administration of a toxicant by any route other than IV 
+injection directly into the systemic circulation will require 
+an absorption phase. Absorption describes the processes 
+involved in the uptake of a toxicant from the site of adminis-
+tration into the systemic circulation. Absorption may involve 
+first-order or zero-order processes or a mixture of the two. 
+The extent of absorption can be determined by the compari-
+son of concentrations in plasma after oral and IV administra-
+tion. The fraction absorbed may be low due to either poor 
+uptake from the site of administration due to solubility- or 
+permeability-limited absorption, or metabolism between the 
+site of administration and the systemic circulation (first-pass 
+metabolism).
+5.3.1.2  Tissue Extraction
+The rate constant for tissue uptake may depend on either the 
+tissue blood flow (perfusion-limited uptake), where k is related 
+to the tissue flow rate, or the rate of diffusion through mem-
+branes (diffusion-limited uptake), where k is related to the dif-
+fusion rate constant and is not readily measurable. In general, 
+diffusion rate limitation applies to highly water-soluble com-
+pounds, whereas perfusion rate limitation applies to the entry 
+of lipid-soluble compounds into slowly perfused tissues, such 
+as adipose tissue. The extent of tissue uptake depends on the 
+relative affinities of the toxicant for the blood and the different 
+tissues.
+5.3.1.3  Plasma Protein Binding
+The toxicant in the systemic circulation binds to blood con-
+stituents (primarily plasma proteins, but may also include cells 
+and lipids) and circulates as unbound (free toxicant) or dis-
+tributes across membranes into tissues. Protein binding is a 
+reversible, equilibrium reaction:
+	
+P
+C
+C
+r
+u
+b
++
+↔
+ 	
+(5.8)
+where
+Pr is the free protein
+Cu is the unbound concentration or free toxicant
+Cb is the bound toxicant-protein complex
+The fraction unbound fu is given by
+	
+f
+C
+C
+u
+u
+=
+ 	
+(5.9)
+where C is the total concentration, and Cu is the unbound 
+concentration.
+The extent of protein binding (either in plasma or whole 
+blood) is not incorporated into standard pharmacokinetic or 
+toxicokinetic analyses since the kinetic parameters are cal-
+culated using the total concentrations, as measured experi-
+mentally. If the free concentration is used to calculate kinetic 
+FIGURE 5.3  The plasma concentration-time profile of a toxicant following single IV and oral dosing. The concentration (y-axis) is on a logarithmic 
+scale. Rapid processes, such as absorption and distribution, do not substantially impact later time points that are determined largely by the slowest 
+process (elimination in the diagrams shown). (a) IV administration and (b) oral administration – rapid absorption. (Reprinted with permission from 
+Robert A, Renwick AG. Chapter 5: Toxicokinetics. In: Hayes, AW, Kruger, CL eds. Hayes’ Principles and Methods of Toxicology. 6th ed. CRC Press/
+Taylor & Francis Group; 2014: 215–246).
+
+216
+Hayes’ Principles and Methods of Toxicology
+parameters, this will be specified in the description of the 
+parameters; in the absence of such a description, it is assumed 
+that total concentrations in plasma or blood have been used.
+The free fraction fu is generally constant at low toxicant 
+concentrations but can exhibit non-linearity with respect to 
+unbound plasma concentrations when approaching the total 
+concentration of available binding sites in plasma proteins.4 
+The primary plasma proteins to which toxicants bind are 
+albumin and α1-acid glycoprotein. Saturation of albumin is 
+unlikely as it is present in plasma at concentrations of 500–
+700 µM.4 α1-Acid glycoprotein is present in plasma at much 
+lower concentrations (9–22 µM in humans), and the tendency 
+for non-linearity in binding can be observed at concentrations 
+of 1–3 µM.4
+5.3.1.4  Clearance
+There are two primary mechanisms by which the circulating 
+levels of a toxicant may be reduced: metabolism and excretion. 
+Metabolism exhibits both species differences and human vari-
+ability,5,6 and its toxicological consequences are discussed in 
+Chapter 4 of this book.
+Clearance (CL) is defined as the ratio of the rate of elimina-
+tion to plasma concentration,
+	
+Rate of elimination
+Plasma concentration
+CL =
+ 	
+(5.10)
+and may be regarded as the volume of plasma or blood that is 
+cleared of the compound in unit time. The units are volume 
+time–1, for example, frequently mL/min because if the rate is 
+in units of μg/min and plasma concentration is measured in 
+μg/mL, the plasma clearance will be mL/min.
+5.3.1.4.1  Renal Clearance
+The renal clearance (CLR) is given by
+Rateof eliminationinurine
+Plasma concentration
+CL
+C
+urine flow
+C
+R
+urine
+p
+=
+=
+×
+ 	 (5.11)
+where
+Curine is the urine concentration
+Cp is the plasma concentration at the midpoint of the urine 
+collection period
+The concentration in urine is dependent on three processes: 
+glomerular filtration, reabsorption, and tubular secretion.
+5.3.1.4.1.1  Glomerular Filtration  Glomerular filtration is 
+dependent on both the charge and size of the toxicant. The 
+glomerular membrane has pores of 70–80 Å, and all molecules 
+with a molecular weight less than approximately 65,000 Da 
+undergo filtration.7 Thus, proteins and protein-bound toxicants 
+remain in the plasma. The amount of filtrated plasma approxi-
+mates 20% of renal plasma flow, meaning that the kidney can 
+excrete up to 20% of any substance into the urine during one 
+renal perfusion.7
+The rate of removal in the glomerulus is given by
+	
+GFR
+GFR
+C
+C
+f
+u
+p
+u
+×
+=
+×
+×
+ 	
+(5.12)
+where
+GFR is the glomerular filtration rate
+Cu is the unbound concentration in plasma
+Cp is the total plasma concentration
+fu is the fraction unbound in plasma
+Toxicants that are extensively bound to plasma proteins 
+show limited elimination by glomerular filtration. The toxi-
+cant-protein complex does not dissociate in the glomerulus but 
+releases more unbound compound when the plasma is diluted 
+by water reabsorbed in the distal parts of the renal tubule. 
+GFRs differ across species (see Table 5.1).
+5.3.1.4.1.2  Reabsorption  Reabsorption from the renal tubule 
+back into the blood is variable and dependent on the lipophilic-
+ity and pKa of the toxicant, the pH of the urine, and the extent 
+of concentration of the urine due to water reabsorption. The 
+pH of the urine can be altered appreciably by treatment with 
+TABLE 5.1
+Selected Physiological Parameters in Nonclinical Species and Humans as It Relates to Clearance
+Parameter
+Mouse
+Rat
+Rabbit
+Monkey
+Dog
+Human
+Body Weight (kg)
+0.02
+0.25
+2.5
+5
+10
+70
+Liver Blood Flow, Qh (mL/min)
+1.8
+13.8
+177
+218
+309
+1,450
+Bile Flow (mL/day)
+2.0
+22.5
+300
+125
+120
+350
+Kidney Blood Flow (mL/min)
+1.3
+9.2
+80
+138
+216
+1,240
+Urine Flow (mL/day)
+1.0
+50.0
+150
+375
+300
+1,400
+Glomerular Filtration Rate, GFR  
+(mL/min)
+0.28
+1.31
+7.8
+10.4
+61.3
+125
+Liver Weight per Body Weight (g/kg)
+NA
+40
+NA
+32
+32
+21
+Microsomal Protein per Liver Weight 
+(mg/g)
+NA
+45
+NA
+45
+45
+45
+Hepatocytes per Liver Weight
+(106 cells/g)
+NA
+135
+NA
+120
+240
+120
+Sources:	 Data from Davies, B and Morris, T. Physiological Parameters in Laboratory Animals and Humans. Pharmaceutical Research. 1993;10(7):1093–
+1095; and Hosea, N et al. Prediction of Human Pharmacokinetics From Preclinical Information: Comparative Accuracy of Quantitative 
+Prediction Approaches. The Journal of Clinical Pharmacology. 2009;49(5):513–533. 
+NA, Not available.
+
+217
+Toxicokinetics
+weak acids or bases, whereas the plasma shows little change 
+because its pH is buffered by the high protein content. If the 
+urine is alkaline, weak acids are more ionized and excretion 
+is increased. If the urine is acidic, weak acids are less ionized 
+and undergo reabsorption, reducing urinary excretion. Urinary 
+alkalinization is a treatment regimen that is used in clinical 
+practice to increase poison elimination by administration of 
+IV sodium bicarbonate to produce urine with pH ≥7.5.8 Two 
+solute carrier (SLC)-type drug transporter families, peptide 
+transporter family and concentrative nucleoside transporter 
+family, function in reabsorption.7
+5.3.1.4.1.3  Tubular Secretion  Four families of SLC-type 
+drug transporters are involved in tubular secretion into urine: 
+(1) organic anion transporters (OAT)/cation transporters, (2) 
+organic anion-transporting polypeptide family, (3) sodium/
+phosphate transporter family, and (4) multidrug and toxin 
+extrusion family.7 The extent of their involvement in secretion 
+for a given toxicant is dependent on the affinity between the 
+substrate and the carrier protein. Drug transport is an active 
+and saturable process and saturation of secretion results in a 
+dose-dependent decrease in elimination at high plasma con-
+centrations. Transporter-mediated uptake and accumulation 
+of drugs and toxicants into proximal tubular cells is a known 
+and established mechanism of nephrotoxicity.7 The nephro-
+toxicity of β-lactam and carbapenem antibiotics, ochratoxin 
+A, antiviral drugs, and platinum agents can be accounted 
+for by renal transporter uptake. Kusuhara et al.7 provide a 
+comprehensive guide to the role of drug transporters in renal 
+excretion.
+All three processes (filtration, reabsorption, and secretion) 
+can simultaneously and independently alter the overall renal 
+clearance. Renal excretion may be regarded as a composite of 
+these three processes:
+ 
+Renalexcretion
+Glomerularfiltration 
+ Reabsorption
+Tubularsecretion
+=
+−
++
+ 	 (5.13)
+ 
+Rateof excretion
+GFR
+ 
+ Rateof reabsorption
+ Rate of tubularsecretion
+Cu
+=
+×
+−
++
+	 (5.14)
+The values of GFR and Cu can be determined experimentally. 
+Measurement of inulin clearance (or creatinine clearance in 
+humans) is a commonly used biomarker to directly determine 
+GFR, since inulin/creatinine does not undergo reabsorption 
+or tubular secretion, and plasma protein binding is negligible 
+(fu = 1). The extent of reabsorption and secretion of a toxicant 
+may be inferred by comparison of its renal clearance with the 
+value of GFR × fu. If CLR < GFR × fu, then reabsorption must 
+be occurring and is greater than any secretion (which may 
+or may not be present); if CLR = GFR × fu, then reabsorption, 
+which may or may not be present, is negated by an equal rate 
+of secretion; and if CLR > GFR × fu, then tubular secretion must 
+be occurring and is greater than any reabsorption (which may 
+or may not be present). The mathematical implications of the 
+renal elimination process have been the subject of a number 
+of reviews.9–11
+5.3.1.4.2  Hepatic Clearance
+The clearance of a toxicant by the liver may be regarded as 
+dependent on the rate of delivery to the organ (blood flow) and 
+the efficiency of removal from the blood. The liver clears toxi-
+cants by metabolism (CLmetabolism) and/or by excretion of the 
+toxicant (unchanged) into the bile (CLbiliary):
+	
+   
+CL
+CL
+CL
+hepatic
+metabolism
+biliary
+=
++
+	
+(5.15)
+5.3.1.4.2.1  Metabolic Clearance  The uptake and metabo-
+lism of nutrients, hormones, drugs, and absorbed toxi-
+cants are primary functions of the liver. Hepatocytes and 
+hepatic sinusoids show a number of features that facilitate 
+these processes, including fenestrae in the endothelium, 
+which allow even large molecules to leave the circulation 
+and enter the space of Disse, a fluid collagen-containing 
+matrix in the space of Disse, a brush-border on the hepa-
+tocytes that greatly increases the surface area for absorp-
+tion, active uptake transporters for some substrates, and 
+very high enzyme activity (intrinsic clearance) within the 
+hepatocytes.
+If the internal cellular metabolic clearance (CLint) is high, 
+then the hepatic clearance approximates the hepatic blood flow 
+and becomes dependent on the hepatic blood flow (which is 
+constant under normal physiological conditions). If CLint is 
+low, then the hepatic clearance is relatively constant and inde-
+pendent of blood flow and is a first-order rate constant. The 
+relationship between internal cellular CLint and enzyme kinet-
+ics is given by
+	
+CL
+V
+K
+C
+int
+max
+m
+f
+=
++
+ 	
+(5.16)
+where
+Vmax and Km are Michaelis-Menten constants for the enzyme 
+metabolizing the toxicant
+Cf is the hepatic venous concentration of unbound toxicant
+If Cf is low and is much less than Km for the enzyme (i.e., well 
+below saturation levels and a first-order reaction), this term 
+may be ignored and
+	
+ Constant
+CL
+V
+K
+int
+max
+m
+=
+=
+ 	
+(5.17)
+When the value of Cf approaches or exceeds Km, the substrate 
+concentration is sufficient to saturate the enzyme, and the 
+kinetics become zero-order and non-linear with dose. This 
+situation is a distinct possibility in high-dose toxicity testing.
+The concepts given are important for the use of Vmax and 
+Km values in interspecies comparisons. Species differences in 
+clearance will relate to differences in Vmax/Km for low-clear-
+ance metabolized compounds but will relate to liver blood flow 
+for high-clearance compounds (irrespective of differences in 
+Vmax/Km). Liver blood flow values differ across species (see 
+Table 5.1). Cross-species comparisons and extrapolations of 
+hepatic clearance using both static mathematical models and 
+PBPK models account for both species differences in enzyme 
+activity and organ blood flows.
+
+218
+Hayes’ Principles and Methods of Toxicology
+The well-stirred model of hepatic clearance was established 
+by Rowland et al.12 in 1973 and Wilkinson and Shand in 1975.13 
+The well-stirred model relates net hepatic clearance based on 
+whole-blood concentrations (CLh, b) as a function of hepatic 
+blood flow (Qh), the free fraction of drug in the blood (fu, b), 
+and the intrinsic metabolic clearance in the liver (CLint, u, h)14:
+	
+ 
+ 
+ 
+ 
+, 
+, 
+,  , 
+, 
+,  , 
+CL
+Q
+f
+CL
+Q
+f
+CL
+h b
+h
+u b
+int u h
+h
+u b
+int u h
+=
+×
+×
++
+×
+ 	
+(5.18)
+The CLint, u, h can be scaled mathematically from the intrinsic 
+clearance measured in in vitro systems, such as liver micro-
+somes or hepatocytes, by applying species-specific physiologi-
+cal scaling factors (see Table 5.1) for the amount of microsomal 
+protein (Equation 5.19) or the number of hepatocytes (Equation 
+5.20) per liver weight and for the liver weight per body weight:
+	
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+,  , 
+CL
+CL
+mg microsomal protein
+gram liver
+gram liver
+kg body weight
+int u h
+int
+=
+×
+×
+	
+(5.19)
+ 
+  # 
+ 
+   
+ 
+ 
+ 
+,  , 
+CL
+CL
+hepatocytes
+gram liver
+gram liver
+kg body weight
+int u h
+int
+=
+×
+×
+	 (5.20)
+The incorporation of the well-stirred model to predict in vivo 
+hepatic clearance based on in vitro metabolic rates is common 
+in PBPK models (Figure 5.4).
+5.3.1.4.2.2  Biliary Clearance  Biliary clearance involves the 
+active secretion of molecules from hepatocytes into the bile. 
+Lipophilic, low-molecular-weight compounds can easily dif-
+fuse out of hepatocytes and through the cellular membrane. 
+Hepatic efflux transporters are required for the secretion of 
+ionizable and higher molecular weight compounds. Ferslew et 
+al.15 provide a comprehensive guide to hepatic efflux trans-
+porters that function in biliary excretion. Species differences 
+exist in the molecular weight threshold for biliary excretion, 
+which has been estimated as 325 ± 50 Da in the rat, 440 ± 50 Da 
+in the guinea pig, 475 ± 50 Da in the rabbit, and about 500 in 
+humans.
+The clearance via the bile, CLB, is given, by analogy with 
+renal clearance, as
+ 
+Rateof eliminationinbile
+ 
+CL
+C
+C
+bile flow
+C
+B
+p
+B
+p
+=
+=
+×
+ 	
+(5.21)
+where
+CB is the concentration in bile
+Cp is the plasma concentration
+5.3.1.4.3  Plasma Clearance
+Plasma clearance (CLp) may be defined as
+	
+Rateof eliminationfromplasma
+CL
+C
+p
+p
+=
+	
+(5.22)
+The plasma clearance is the sum of the various contributory 
+clearance processes:
+	
+etc. 
+CL
+CL
+CL
+CL
+p
+renal
+metabolic
+biliary
+=
++
++
++
+	
+(5.23)
+Plasma clearance, which is one of the most valuable toxicoki-
+netic parameters, is determined from the plasma concentra-
+tiontime curve and is discussed in detail later.
+5.3.2  Compartmental Analysis
+To describe plasma concentration-time curves mathemati-
+cally, an appropriate predictive model has to be fitted to the 
+data. The correlation between the actual data and the plasma 
+or blood concentration-time curve generated using the model 
+demonstrates the suitability of the model in describing the 
+experimental results.
+Considering the concentration-time profiles presented in 
+Figure 5.5, it is apparent that the same model cannot describe 
+the properties of both compounds (Figure 5.5a versus 5.5b), 
+FIGURE 5.4  Intrinsic clearance (CLint) measured in vitro in hepatocytes or liver microsomes can be scaled to a whole liver clearance (CLint, u, h) and 
+to an in vivo hepatic clearance (CLh, b) using species-specific physiological scaling factors to account for the differences in the amounts of microsomal 
+protein or the number hepatocytes per gram of liver and for the difference in liver weight per body weight.
+
+219
+Toxicokinetics
+although in both cases, the initial and final plasma concentrations 
+are the same. The differences in the curve shape of the plasma 
+concentration-time profiles originate in the number of rates at 
+which the compound may leave and enter the plasma. When the 
+tissues show instantaneous equilibration with plasma, there is a 
+simple mono-exponential/monophasic decrease in plasma con-
+centrations that results from the elimination processes (Figure 
+5.5a). Alternatively, the compound may leave the plasma to enter 
+other tissues at measurable rates, as well as undergoing elimi-
+nation from the plasma (Figure 5.5b), resulting in a multiexpo-
+nential/biphasic decline. Under such circumstances, the other 
+tissues may be adequately described mathematically by a sec-
+ond exponential term. It is important to realize that these other 
+tissues share only one criterion, that is, their associated rate of 
+uptake and transfer back into plasma and biologically diverse 
+tissues may be part of the same mathematical compartment. In 
+some cases, two or more additional compartments are required, 
+and elimination may occur from compartments other than the 
+central compartment (plasma plus tissues that reach equilibrium 
+before the first plasma measurement).
+This chapter aims to provide an introduction to TK prin-
+ciples, which not only include mathematical principles but 
+also established best practices and methods in terms of dose 
+administration techniques, sample collection and analysis, 
+data handling, and interpretation; hence, only the simple, 
+one-compartment model is discussed in detail. The majority 
+of nonclinical PK and TK studies conducted in drug discov-
+ery and development utilize a non-compartmental approach 
+for data analysis; it is the most common method of analysis 
+used in the pharmaceutical industry. A non-compartmental 
+analysis is also used in the assessment of TK of chemicals.16 
+Non-compartmental analysis allows for the evaluation of PK 
+parameters without assuming or understanding the mechanis-
+tic properties of the drug within the body.17,18
+The mathematical principles of the two-compartment 
+model have been described extensively in the earlier edition 
+of this book.19 Texts recommended for further reading about 
+the mathematical principles of multi-compartment modeling 
+include those by Gibaldi and Perrier,20 Rowland and Tozer,21 
+and Gabrielsson and Weiner.22
+FIGURE 5.5  Plasma concentration-time profiles for two compounds (a and b) with the same initial and final measured concentrations, but with dif-
+ferent distribution characteristics. The plasma concentrations on the y-axis are plotted in linear and logarithmic scales. (Reprinted with permission 
+from Robert A, Renwick AG. Chapter 5: Toxicokinetics. In: Hayes, AW, Kruger, CL eds. Hayes’ Principles and Methods of Toxicology. 6th ed. CRC 
+Press/Taylor & Francis Group; 2014: 215–246).
+
+220
+Hayes’ Principles and Methods of Toxicology
+5.3.2.1  One-Compartment Open Model
+5.3.2.1.1  IV Bolus Dose
+The toxicant is absorbed and evenly distributed within a single 
+compartment of volume V (Figure 5.6). Elimination of the tox-
+icant, by both excretion as unchanged form and metabolism, 
+occurs by first-order processes, and changes in plasma con-
+centrations are reflected in similar and simultaneous decreases 
+in the tissue concentrations because all tissues represent part 
+of the single compartment. In Figure 5.6, V is the volume of 
+distribution, kex is the excretion rate constant, and km is the 
+metabolism rate constant.
+In mathematical terms, such a system may be described 
+adequately by a simple first-order equation, where the rate of 
+removal of the toxicant from the body (e.g., in milligrams per 
+hour) is proportional to the body load (e.g., in milligrams):
+	
+d
+d
+Ab
+t
+kAb
+= −
+ 	
+(5.24)
+where
+Ab is the amount of toxicant in the body
+k is the elimination rate constant (k equals [kex + km])
+A solution to this equation to give the amount remaining in 
+the body at time t after administration is given by:
+	
+0
+Ab
+Ab e kt
+=
+− 	
+(5.25)
+where
+Ab is the amount of toxicant at time t
+Ab0 is the amount at time zero
+For a one-compartment model, the concentration in the 
+plasma (C) may be related to Ab by the apparent volume of 
+distribution (V). This volume may be regarded as the volume 
+of plasma that contains the body burden (body load or Ab) of 
+toxicant, to give the plasma concentration measured:
+	
+C
+Ab
+V
+=
+ 	
+(5.26)
+where
+C is the plasma concentration
+V is the apparent volume of distribution
+Thus, Equation 5.26 may be rewritten in its more usual form
+	
+0
+C
+C e kt
+=
+− 	
+(5.27)
+where
+C is the plasma concentration at time t
+C0 is the concentration at time zero
+For such a system, we can define the following parameters: 
+the apparent volume of distribution, the elimination rate con-
+stant, and the elimination half-life, as described below.
+5.3.2.1.1.1  Apparent Volume of Distribution  The appar-
+ent volume of distribution (V) is the volume of plasma that 
+appears to contain the administered dose to give the initial 
+plasma concentration, C0, that is,
+	
+Dose
+0
+V
+Ab
+C
+C
+=
+=
+ 	
+(5.28)
+The units are usually liters, milliliters, liters per kilogram, or 
+milliliters per kilogram. It is assumed that the toxicant distrib-
+utes instantaneously in plasma and that the central compart-
+ment constitutes plasma and highly perfused tissues. It is also 
+assumed that the toxicant’s distribution to peripheral compart-
+ments (tissues) is negligible.
+For a toxicant that is highly lipophilic or that readily binds 
+to tissue components, the plasma concentration represents a 
+small fraction of the total amount in the body, and thus, the 
+toxicant appears to have distributed in a large volume of 
+plasma that may greatly exceed the physiological volume of 
+plasma. In practice, toxicants that exhibit these properties usu-
+ally require a model with at least two compartments to describe 
+the concentration-time curve. It should be noted though that V 
+has no direct anatomical correlate – meaning that its numeri-
+cal value does not correlate to a true volume of a physiological 
+compartment in the body.
+FIGURE 5.6  Plasma concentration-time curve after a bolus IV dose 
+for a one-compartment system. The concentrations have been shown on 
+a logarithmic scale for illustrative purposes; the slope –k would be cal-
+culated by plotting the natural logarithms of the concentrations against 
+time. (Reprinted with permission from Robert A, Renwick AG. Chapter 
+5: Toxicokinetics. In: Hayes, AW, Kruger, CL eds. Hayes’ Principles and 
+Methods of Toxicology. 6th ed. CRC Press/Taylor & Francis Group; 2014: 
+215–246).
+
+221
+Toxicokinetics
+5.3.2.1.1.2  Elimination Rate Constant  The elimination rate 
+constant (k) represents the fractional loss of the toxicant from 
+the body per unit time, that is,
+	
+(
+)
+=
+=
+d
+d
+Amount of chemicaleliminatedinunit time
+Amount of chemical inthebody
+/
+k
+Ab
+t
+Ab
+	(5.29)
+Equation 5.27 may be rewritten as either
+	
+ 
+0 
+lnC
+lnC
+kt
+=
+−
+	
+(5.30)
+	
+or log 
+log 
+2.303
+0
+C
+C
+kt
+=
+−
+	
+(5.31)
+Thus, a graph of ln C against time (illustrated using a loga-
+rithmic scale in Figure 5.6) has a slope of –k and an inter-
+cept of ln C0. The units of k are time–1 (e.g., h–1 or min–1). 
+If the elimination rate constant is 0.4 h–1, it means that 40% 
+of the body load is removed each hour. The value of k is the 
+summation of component elimination rate constants (e.g., 
+kex, km).
+5.3.2.1.1.3  Elimination Half-Life  The elimination half-life 
+(t1/2) is the time taken for the amount in the body (Ab) or the 
+plasma concentration (C=Ab/V) to decrease to one-half. Thus, 
+after one half-life, C in Equation 5.27 equals C0/2, that is,
+	
+2
+ or 1
+2
+ 
+0
+0
+1/2
+1/2
+C
+C e
+e
+kt
+kt
+=
+=
+−
+−
+	
+(5.32)
+Therefore, ln 0.5 = –kt½ or –0.693 = –kt½
+	
+0.693
+1/2
+t
+k
+=
+ 	
+(5.33)
+where the units are time (e.g., hours or minutes). For first-order 
+reactions, the half-life is independent of dose, body burden, 
+and plasma concentration.
+5.3.2.1.1.4  Plasma Clearance  Plasma clearance (CL) relates 
+the amount of toxicant eliminated in unit time to the plasma 
+concentration (Equation 5.22) and may be regarded as the vol-
+ume of blood that is cleared of the chemical in unit time. CL 
+is a constant for first-order reactions. In many respects, CL 
+is a better reflection of the inherent capacity of the tissues to 
+eliminate the compound than is the half-life or elimination 
+rate constant:
+	
+(
+)
+=
+d
+d
+/
+CL
+Ab
+t
+C
+ 	
+(5.34)
+Substituting from Equation 5.24,
+	
+CL
+kAb
+C
+=
+	
+(5.35)
+The amount in the body at any time (Ab) is given by Equation 
+5.26; therefore,
+	
+CL
+kCV
+C
+kV
+=
+=
+ 	
+(5.36)
+where the units are in L/h, L/min, mL/h, or mL/min. 
+Rearranging Equations 5.36 and 5.33,
+	
+ 
+and
+ 
+0.693
+1/2
+k
+CL
+V
+t
+V
+CL
+=
+=
+ 	
+(5.37)
+This equation shows clearly that the elimination rate constant 
+(k) is derived from two independent variables, each of which 
+can be related to physiological processes: the clearance, which 
+reflects the capacity of the organs of elimination to remove the 
+toxicant from the plasma, and the apparent volume of distribu-
+tion, which reflects the proportion of the total body burden that 
+is circulated to the organs of elimination. CL may depend on 
+the rate of the active process(es) in the organs of elimination 
+or on the plasma flow to the principal organ(s) of elimination.
+Clearance may be obtained without knowing the value of V. 
+Rearranging Equation 5.34,
+	
+d
+d
+Ab
+t
+CL
+C
+=
+×
+	
+(5.38)
+or in time dt, the amount lost dAb = CL × C × dt. Integrating 
+between time = 0 and infinity (∞), the total dose will have been 
+eliminated, so that dAb = dose
+	
+Dose
+d
+0
+CL C t
+∫
+=
+∞
+	
+(5.39)
+	
+Dose
+0
+CL
+AUC
+=
+×
+−∞	
+(5.40)
+	
+Dose
+0
+CL
+AUC
+=
+−∞
+	
+(5.41)
+where AUC0−∞ is the area under the plasma concentration-time 
+curve extrapolated to infinity. For Equation 5.41 to be valid, 
+the dose has to be fully available to the organs of elimination 
+(i.e., an IV dose), and the AUC0−∞ has to be extrapolated to 
+infinity.
+This relationship can also be used to calculate V; substitut-
+ing CL from Equation 5.37 into Equation 5.40,
+	
+Dose
+0
+ 
+V
+AUC
+k
+=
+×
+−∞
+ 	
+(5.42)
+The importance of Equations 5.40 and 5.42 is that both the 
+clearance and the apparent volume of distribution can be 
+derived from infusion administration, where the determina-
+tion of V using Equation 5.28 is not possible. These equa-
+tions may also be applied to oral administration, providing 
+that allowance is made for incomplete absorption of the dose 
+(see later). This method of calculating CL is also applicable to 
+multi-compartment linear systems with elimination from the 
+central compartment.
+
+222
+Hayes’ Principles and Methods of Toxicology
+5.3.2.1.1.5  Information Obtainable from Urinary Data
+Renal clearance can be calculated using Equation 5.11 and can 
+be rearranged as
+	
+Rateof urinaryexcretion 
+CL
+C
+R
+p
+=
+×
+	
+(5.43)
+where
+CLR is the renal clearance
+Cp is the concentration in plasma
+Thus from Equation 5.36,
+	
+CL
+C
+k
+V
+C
+k
+Ab
+R
+p
+R
+p
+R
+×
+=
+×
+×
+=
+×
+	
+(5.44)
+where kR is the renal excretion rate constant. However, from 
+Equation 5.25, Ab at any time = Dose × e–kt. Therefore,
+	
+Rateof urinaryexcretion 
+Dose
+k
+e
+R
+kt
+=
+×
+×
+− 	 (5.45)
+or
+ln  rateof urinaryexcretion  
+  ln 
+   Dose    
+k
+kt
+R
+(
+)
+(
+)
+=
+×
+−
+ 	
+(5.46)
+The relevance of this relationship is that a plot of the natural 
+logarithm of the rate of urinary excretion (amount excreted per 
+time interval) against time gives a straight line with a slope of 
+–k, and an intercept of (ln kR × Dose), and the decrease in the 
+amount appearing in the urine mirrors the overall decrease 
+in the plasma concentration. It is not possible to obtain CL or 
+V without sampling the central (blood) compartment. This 
+approach is subject to considerable errors in the measure-
+ment of the excretion rate at different times after dosage due 
+to factors such as incomplete bladder emptying. To overcome 
+this problem, the rate constant can be derived more reliably 
+from the amount remaining to be excreted, using the sigma-
+minus method. This method is based on the following equa-
+tion, which is derived from integration between time zero and 
+infinity of Equation 5.45:
+	
+Dose 1
+A
+k
+k
+e
+ex
+R
+kt
+=
+×
+−
+
+
+−
+ 	
+(5.47)
+where Aex is the total amount excreted up to time t. At infinite 
+time, [1 – e –kt] equals unity, so that
+	
+Dose
+A
+k
+k
+ex
+R
+=
+×
+∞
+	
+(5.48)
+where Aex
+∞ is the cumulative total amount excreted in urine up 
+to time infinity. Substituting back into Equation 5.47,
+	
+1
+A
+A
+e
+ex
+ex
+kt
+=
+−
+
+
+∞
+−
+ or A
+A
+A e
+ex
+ex
+ex
+kt
+−
+=
+∞
+∞
+− 	
+(5.49)
+The left-hand side of Equation 5.49 is equivalent to the amount 
+finally excreted minus the amount excreted up to that time 
+(ΔAex). Taking natural logarithms,
+	
+ln
+ln
+A
+A
+kt
+ex
+ex
+∆
+=
+−
+∞
+ 	
+(5.50)
+A plot of ln ΔAex against time gives a straight line of slope –k.
+By analogy with Equation 5.40, CLR may be calculated from 
+the total amount excreted and the plasma AUC:
+	
+CL
+A
+AUC
+R
+ex
+=
+	
+(5.51)
+where Aex and AUC refer to the same time interval. Combining 
+this with Equation 5.49 gives the following relationships:
+	
+Dose
+ or 
+Dose
+0
+AUC
+CL
+A
+CL
+CL
+CL
+A
+ex
+R
+R
+ex
+=
+=
+=
+×
+∞
+∞
+∞
+	 (5.52)
+where 
+0
+AUC∞ is the AUC from zero to infinity after an IV dose. 
+In other words, renal clearance (CLR) equals plasma clear-
+ance (CL) multiplied by the fraction of the dose eliminated 
+unchanged in the urine.
+5.3.2.1.2  Constant IV Infusion
+During infusion, the plasma concentration (Cp) increases to 
+reach a plateau or steady-state concentration (Css), at which 
+time the rate of infusion equals the rate of elimination (see 
+Figure 5.7). The extent of accumulation to steady-state is given 
+by analogy with Equation 5.3.
+	
+1
+C
+C
+e
+p
+ss
+kt
+(
+)
+=
+−
+−
+	
+(5.53)
+or
+	
+1
+C
+C
+e
+p
+ss
+kt
+(
+)
+=
+−
+−
+ 	
+(5.54)
+FIGURE 5.7  Plasma concentration-time curve for constant IV infusion 
+into a one-compartment system. The toxicant was infused at a constant 
+rate from time = 0 to time = 12 half-lives when the infusion was stopped. 
+The concentrations have been shown on a logarithmic scale for illustra-
+tive purposes; the slope –k would be calculated by plotting the natural 
+logarithms of the concentrations against time or –k/2.303 by plotting the 
+logarithms to the base 10 of the concentrations against time. (Reprinted 
+with permission from Robert A, Renwick AG. Chapter 5: Toxicokinetics. 
+In: Hayes, AW, Kruger, CL eds. Hayes’ Principles and Methods of 
+Toxicology. 6th ed. CRC Press/Taylor & Francis Group; 2014: 215–246).
+
+223
+Toxicokinetics
+The various kinetic parameters may be derived from the 
+plasma concentration-time curve for infusion.
+5.3.2.1.2.1  Increase to Plateau  Rearranging Equation 5.54,
+	
+C
+C
+C e
+ss
+p
+ss
+kt
+−
+=
+−	
+(5.55)
+Therefore, a plot of the natural logarithm of (Css – Cp) against 
+time gives a straight line with a slope equal to –k. The time 
+taken to reach the plateau is therefore similar to the time taken 
+to eliminate the compound after infusion or about 97% of 
+the final steady-state level within five times the elimination 
+half-life.
+5.3.2.1.2.2  Steady-State Plasma Concentration: Css  At 
+steady-state, the rate of infusion (Rinf) equals the rate of 
+elimination:
+	
+R
+CL
+C
+inf
+ss
+=
+×
+	
+(5.56)
+or
+	
+k
+CL
+R
+C
+V
+inf
+ss
+=
+=
+× 	
+(5.57)
+5.3.2.1.2.3  Decrease at End of Infusion  The slope of 
+the decrease at the end of the infusion equals –k because 
+on cessation of entry, C = C0e–kt. The same slope would be 
+obtained if the infusion was stopped at any stage during the 
+infusion.
+5.3.2.1.2.4  Area under the Curve  Both CL and V may be 
+derived using Equations 5.40 and 5.42.
+5.3.2.1.3  Oral Administration
+Oral absorption frequently obeys first-order kinetics but may 
+involve a lag time due to delayed gastric emptying. The vari-
+ous pharmacokinetic parameters are related to the plasma con-
+centration, Cp, at time t by the equation:
+	
+a
+a
+C
+F
+k
+e
+e
+V k
+k
+p
+kt
+kat
+(
+)
+(
+)
+=
+×
+×
+−
+−
+−
+−
+Dose
+ 	
+(5.58)
+where
+F is the fraction of the dose attaining the systemic circula-
+tion (bioavailable dose)
+ka is the absorption rate constant
+5.3.2.1.3.1  Increase to Peak  The increase to the peak is 
+determined by the more rapid of the two processes, absorp-
+tion and elimination; for lipid-soluble compounds, absorp-
+tion is usually more rapid than elimination. Measurement 
+of the absorption rate constant must allow for the excretion 
+occurring throughout the postdosing period, which can be 
+done using the method of residuals (see Gibaldi and Perrier20 
+for the mathematical basis of this method). The method is 
+illustrated in Figure 5.8. In cases where elimination is more 
+rapid than absorption, the rate of increase will be determined 
+by the elimination rate constant (as is the case for a constant 
+IV infusion – see earlier text). Thus, the value of ka can be 
+assigned to the increase to the peak only after demonstration 
+that the value of k for the decrease is similar to that seen after 
+IV dosing.
+5.3.2.1.3.2  Peak Plasma Concentration  The peak plasma 
+concentration, Cmax, is determined by the dose, the bioavail-
+ability, the apparent volume of distribution (V), and the rela-
+tive rates of ka and k. Cmax can be calculated by using Equation 
+5.58, when t = Tmax, and Tmax can be calculated as:
+	
+  ln(
+/ )
+T
+k
+k
+k
+k
+max
+a
+a
+=
+−
+	
+(5.59)
+The peak concentration may be more important toxicologi-
+cally than the average plasma concentration, especially for 
+acute toxicological effects.
+5.3.2.1.3.3  Decrease after the Peak  The decrease after the 
+peak concentration is determined by the slower of the two 
+processes (absorption or elimination), but it is usually elimi-
+nation. Flip-flop kinetics is a phenomenon where the elimina-
+tion phase of the concentration-time profile reflects the rate of 
+input (ka), rather than the output (k). This results in ka being the 
+rate-limiting step, resulting in an increase in terminal t1/2, as 
+illustrated in Figure 5.9.
+FIGURE 5.8  Use of the method of residuals to calculate the absorp-
+tion rate constant for a one-compartment model. The dose was given 
+at time 0, and plasma levels (Cp) were measured at intervals. The lin-
+ear terminal phase was extrapolated to yield the values corresponding 
+to the measurement times. The difference in values (C extrapolated – C 
+measured) are plotted (ΔC) to yield slopes –ka or –k (see text on flip-
+flop kinetics and Figure 5.9). The concentrations have been shown on a 
+logarithmic scale for illustrative purposes; the slopes –k and –ka would be 
+calculated by plotting the natural logarithms of the concentrations against 
+time. (Reprinted with permission from Robert A, Renwick AG. Chapter 
+5: Toxicokinetics. In: Hayes, AW, Kruger, CL eds. Hayes’ Principles and 
+Methods of Toxicology. 6th ed. CRC Press/Taylor & Francis Group; 2014: 
+215–246).
+
+224
+Hayes’ Principles and Methods of Toxicology
+5.3.2.1.3.4  Area under the Curve  Both CL and V may be 
+derived using Equations 5.40 and 5.42, respectively, providing 
+that the dose used in the calculation is adjusted for the bio-
+availability (F), that is,
+	
+Doseoral
+oral
+CL
+F
+AUC
+=
+×
+	
+(5.60)
+It is common to see CLoral calculated as oral dose/AUCoral in 
+the absence of any information on F. Such a term is meaning-
+less because what is calculated is CL/F, which is dependent on 
+two physiological processes that are often unrelated. IV data 
+are necessary to relate a non-linear change in AUC at high oral 
+doses to either altered CL or F.
+The value of F is determined by comparison of the plasma 
+concentration-time curves after oral and IV dosing. Because 
+of the different shapes after oral and IV administration 
+(Figure 5.10), comparisons at a single time point are not valid. 
+Instead, the overall systemic exposures, as indicated by the 
+AUC values extrapolated to infinity (see Figure 5.10), after oral 
+and IV dosage are compared:
+	
+Dose
+Dose
+ 
+oral
+oral
+iv
+iv
+CL
+F
+AUC
+AUC
+=
+×
+=
+ 	
+(5.61)
+	
+Dose
+Dose
+iv
+oral
+iv
+oral
+F
+AUC
+AUC
+=
+×
+×
+	
+(5.62)
+These relationships are valid only if the AUC/dose ratio is con-
+stant. If this ratio is dose-dependent, then the value of either F 
+or CL must change with an increase in dose, suggesting satura-
+tion of absorption or elimination.
+5.3.2.1.4  Repeated Oral Administration
+Upon repeated oral administration, the plasma levels increase 
+over a period of four to five times the terminal t1/2 to establish 
+a plateau concentration, similar to that seen with IV infusion 
+(see Figure 5.7). The average plateau (steady-state) level is sub-
+ject to variations around a mean because the toxicant is elimi-
+nated between doses. In oral toxicity studies, these doses may 
+represent either repeated gavage doses or the feeding habits of 
+the animals if the test article is incorporated into the diet and 
+fed ad libitum. Upon cessation of chronic intake, the rate of 
+decrease in plasma levels is usually, but not always, similar to 
+that seen after a single dose.
+In a one-compartment open model, the average plateau level 
+or the average plasma concentration at steady-state, Css, is 
+given (by analogy with IV infusion) as:
+	
+Dose
+C
+F
+V
+k
+ss
+e
+τ
+=
+×
+×
+×
+ 	
+(5.63)
+where
+F is the oral bioavailability
+τ is the dosing interval
+ke is the elimination rate constant
+FIGURE 5.9  The effect of absorption rate on the shape of the plasma concentration-time curve. Flip-flop kinetics occurs when k > ka, and the rate 
+of absorption becomes the rate-limiting step, resulting in an increase in t1/2. (Reprinted with permission from Robert A, Renwick AG. Chapter 5: 
+Toxicokinetics. In: Hayes, AW, Kruger, CL eds. Hayes’ Principles and Methods of Toxicology. 6th ed. CRC Press/Taylor & Francis Group; 2014: 
+215–246).
+
+225
+Toxicokinetics
+It is important to note that this equation includes the elimi-
+nation rate constant ke, which may or may not be the terminal 
+rate observed following oral administration (flip-flop kinet-
+ics, see above). An alternative and more useful form of this 
+equation can be derived from the fact that at steady-state, the 
+rate of input (F × dose/τ) is balanced by the rate of elimination 
+(Css × CL); and therefore,
+	
+Dose
+C
+F
+CL
+ss
+τ
+=
+×
+×
+	
+(5.64)
+The fluctuations around the average plateau level depend on 
+the dosing interval in relation to the terminal elimination rate. 
+Thus, toxicants with a short half-life (2–3 hours) show large 
+fluctuations, as more of the toxicant is eliminated between 
+each dose, and with once daily dosing, the plasma levels will 
+approach zero at trough prior to each dose. Inter-dose fluctua-
+tions may be reduced and blunted by slow absorption. The 
+equations relating to these processes were summarized in the 
+previous editions of this book.
+Css may be related to the AUCoral for a single dose since
+	
+Dose
+Dose
+oral
+AUC
+F
+V
+k
+F
+CL
+=
+×
+×
+=
+×
+	
+(5.65)
+and, therefore,
+	
+oral
+C
+AUC
+ss
+τ
+=
+ 	
+(5.66)
+It is important to realize that this relationship assumes that the 
+AUC is directly proportional to the dose and that CL does not 
+change during chronic administration. If a toxicant can induce 
+its own metabolism upon chronic treatment, then CL increases 
+over the first few days of the study so that the steady-state 
+concentrations and body burden are lower than would have 
+been predicted from the AUC, CL, or CL/F measured after a 
+single dose. Changes in CL may be assessed by comparison of 
+AUC0–∞ for a single dose, with the AUC for a dose interval at 
+steady-state (AUC0–τ, ss). If AUC0–τ, ss (chronic) < AUC0–∞ (sin-
+gle), this indicates either induction of metabolism or a decrease 
+in bioavailability; conversely, if AUC0–τ (chronic) > AUC0–∞ 
+(single), then inhibition or saturation of metabolism and/or an 
+increase in bioavailability is indicated.
+5.3.2.1.4.1  Accumulation  An important aspect to evaluate 
+with repeated dose studies is the assessment of the extent of 
+accumulation in comparison to exposure attained following a 
+single dose. The extent of accumulation is of particular impor-
+tance in toxicology studies since it is the exposure attained 
+at the end of the study that will be used to calculate expo-
+sure multiples or also known as safety margins, which defines 
+the fold-difference between a safe dose and a toxic dose. 
+Interpretation of repeated dose TK data and accumulation is 
+described later in this chapter.
+The extent of accumulation can be estimated mathemati-
+cally assuming that the TK behavior of the toxicant:
+	
+1.	follows one-compartmental kinetics; and
+	
+2.	is linear, meaning that there are no time-dependent, 
+physiological processes such as inhibition and/or 
+induction of drug-metabolizing enzymes that could 
+result in the disposition of the test article being dif-
+ferent following repeated dosing than it is following 
+a single dose.
+Intuitively, if the t1/2 is much longer than the dosing interval (τ), 
+it can be hypothesized that accumulation will occur, but just 
+FIGURE 5.10  The shape of the plasma concentration-time curve after IV and oral administration. The shaded area is the AUC, which is used to 
+calculate the bioavailability (F). (Reprinted with permission from Robert A, Renwick AG. Chapter 5: Toxicokinetics. In: Hayes, AW, Kruger, CL eds. 
+Hayes’ Principles and Methods of Toxicology. 6th ed. CRC Press/Taylor & Francis Group; 2014: 215–246).
+
+226
+Hayes’ Principles and Methods of Toxicology
+how much accumulation? This can be estimated mathemati-
+cally as per the following relationship:
+	
+1
+1
+ 
+ln2/ 1 2
+R
+e
+AC
+t
+=
+−
+τ
+(
+)
+	
+(5.67)
+where RAC is the accumulation ratio, which is dependent on 
+both the t1/2 and the dosing interval, τ. As an example, if the 
+toxicant has a terminal t1/2 of 24 hours and it is administered 
+once daily, exposure at steady-state will be approximately 
+two-fold higher than it was following a single dose, with a pre-
+dicted RAC of 2.
+The accumulation ratio can also be calculated from experi-
+mental data, by comparing both the Cmax and AUC following 
+a single dose to these parameters following repeated dosing at 
+steady-state:
+	
+ 
+, 
+R
+C
+C
+AC
+max ss
+max
+=
+	
+(5.68)
+	
+ 
+0
+R
+AUC
+AUC
+AC
+ss
+=
+τ
+−
+	
+(5.69)
+The accumulation ratio represents the relationship between the 
+dosing interval and the rate of elimination, hence altering the 
+dosing interval also results in a change in the extent of accu-
+mulation (see Figure 5.11). When the dosing interval is long 
+relative to the rate of elimination, accumulation is low; and 
+similarly, when the dosing interval is short relative to the rate 
+of elimination, accumulation is high.
+5.4  Practical Methods
+5.4.1  Dose Administration Techniques
+Nonclinical toxicity studies in support of drug development 
+programs are generally conducted using the intended route 
+of administration in humans, and most frequently, this is oral 
+(PO) administration for small molecules and parenteral routes 
+of administration for biologics. Biologic drugs are protein- or 
+peptide-based, and generally have poor oral bioavailability due 
+to poor intestinal absorption or non-enzymatic degradation in 
+the stomach. Parenteral routes of administration include: IV, 
+IM, subcutaneous (SC), and intraperitoneal (IP) administra-
+tion. All routes of administration that require absorption can 
+result in reduced and variable systemic exposure compared to 
+IV administration. Nonclinical toxicity studies in support of 
+non-pharmaceutical products, such as pesticides, industrial 
+chemicals, consumer products, food additives, and cosmetics, 
+are generally conducted via the potential route of exposure in 
+humans, which is most commonly via oral or dermal exposure.
+For each route of administration, special considerations 
+need to be taken into account for dose administration for a suc-
+cessful toxicity and TK study, and these are outlined below. In 
+experimental animals, many of the commonly used methods 
+of dose delivery require restraint, sedation, and sometimes, 
+general anesthesia, and the use of these manipulations should 
+be considered when selecting the route of administration.
+Dosing vehicles can exhibit adverse toxicological effects, 
+which may also be species-specific. For nonclinical toxicity 
+and TK studies, the ideal dose vehicle is one that23:
+	
+1.	can be administered via the intended route of admin-
+istration or exposure in humans,
+	
+2.	does not adversely impact the stability or the bio-
+availability of the test article, and
+	
+3.	is well tolerated and does not have biological effects 
+on the test system.
+In interpreting the results of toxicity studies, it’s important 
+to be able to distinguish between the toxicological effects of 
+the test article under study and the vehicle alone. In general, 
+it is good laboratory practice to choose dosing vehicles that 
+are simple and for which there is adequate characterization of 
+its toxicological effects based on historical data. Gad et al.24 
+provide a comprehensive review on the tolerability of non-
+clinical species to different dosing vehicles commonly used in 
+toxicity studies and administered by multiple routes. Practical 
+strategies to develop formulations appropriate for nonclinical 
+toxicity studies are summarized in Li and Zhao.25 Strategies 
+for oral formulation development to bridge early drug discov-
+ery studies for development and the clinic are summarized in 
+Thackaberry.23
+5.4.1.1  IV Injection
+The IV route of administration is the most efficient method 
+to deliver an accurate dose rapidly into the body, which is 
+unattainable using other routes of administration. IV dose 
+FIGURE 5.11  Simulated plasma concentration-time profile assuming 
+one-compartmental kinetics following extravascular dosing of 10 mg of 
+a toxicant with V = 70 L, fast absorption with a ka = 6 h–1, and with a t1/2 
+of 12 h (ke = 0.058 h–1). The depiction demonstrates how dosing interval 
+impacts the extent of accumulation with repeated dosing. Using Equation 
+5.67, the RAC following once daily dosing (QD) is 1.3; the RAC follow-
+ing twice daily dosing (BID) is 2.0; and the RAC following dosing three 
+times daily (TID) is 2.7.
+
+227
+Toxicokinetics
+administration can be accomplished either as bolus injection, 
+which takes a few seconds to a few minutes for a “slow push 
+bolus”, or continuously infused for several minutes to hours 
+and even days to weeks.
+5.4.1.1.1  IV Bolus
+When administering an IV bolus dose, the test article has to 
+be administered as a solution, and the test article has to remain 
+in solution and not precipitate in the bloodstream upon deliv-
+ery, which can lead to shock (foreign body emboli) and animal 
+death within minutes after dosing. In planning toxicity and 
+TK studies, the solubility of test articles in the desired vehicle, 
+as well as the tonicity of the solution, need to be taken into 
+account. The recommended working range for the pH of solu-
+tions for IV administration is 4.5–8.0.24 The ideal dose vol-
+ume for IV administration in the mouse is 5 mL/kg, whereas 
+it is 1 mL/kg for other rodents and non-rodent species (see 
+Table 5.2). In practice, the maximum dose volume to be used 
+in nonclinical species is 5 mL/kg.26 Dose administration by IV 
+should be delivered aseptically and the dosing solution should 
+be sterile by filtration at 0.2 µm.
+The ideal dosing vehicle for IV administration is an iso-
+tonic saline solution (0.9% sodium chloride); however, many 
+test articles do not have adequate solubility to be administered 
+in saline, and additional excipients and/or solubilizing agents 
+are required. In practice, commonly used excipients in dos-
+ing vehicles for IV administration include dimethylacetamide, 
+polyethylene glycol, cyclodextrins, and the surfactant Tween 
+80. It should be noted that Tween 80, while it is a commonly 
+used and well-tolerated vehicle in rodents and monkeys, Tween 
+80 is not tolerated in dogs, resulting in an anaphylactic reac-
+tion and mortality.27
+In rodent species, it is common practice to administer an IV 
+bolus dose via the tail vein. In larger species (e.g., dogs, mon-
+keys), it is common practice to administer an IV bolus via the 
+saphenous or cephalic vein. Cannulation of a vein, such as the 
+external jugular or femoral vein, under anesthesia, can also be 
+used for dose administration.
+One advantage of IV administration is the rapid and accu-
+rate dosing into the systemic circulation with a bioavailability 
+of 100% so that the test article can have a pharmacological (or 
+toxicological) effect more quickly than if administered by any 
+other route of administration. This also allows for the appro-
+priate calculation of TK parameters such as CL, Vss, and t1/2. 
+IV bolus administration also results in the highest Cmax that 
+can be attained with any route of administration, which in the 
+context of a toxicity study, allows for the characterization of 
+Cmax-mediated toxicities.
+5.4.1.1.2  IV Infusion
+IV infusion is the only mode of delivery for many therapeu-
+tics, especially for small-molecule drugs indicated for the 
+treatment of advanced cancer. In these cases, the nonclinical 
+toxicity studies to support the safety assessment program must 
+be conducted using IV infusion as the route of administration 
+and using the same cyclical regimen, if applicable, as the pro-
+posed clinical regimen in humans. For Cmax-mediated toxici-
+ties, dose administration via infusion may be better tolerated 
+than administration via bolus administration.
+TABLE 5.2
+Dose Administration Volumes per Route of Administration and Blood Draw Volume Limits in Nonclinical Species 
+Species
+Typical Body Weight (kg)
+Optimal Dose Volume 
+10% Blood Volume (mL)
+Mouse
+0.025
+IV, PO: 5 mL/kg
+SC: 1–5 mL/kg
+IP: 5–10 mL/kg
+0.18
+Rat
+0.25
+IV, SC: 1 mL/kg
+PO: 10 mL/kg
+IP: 5–10 mL/kg
+1.6
+Rabbit
+4
+IV, PO: 1 mL/kg
+SC: 1–2.5 mL/kg
+IP: 3 mL/kg
+~22
+Beagle Dog
+10
+IV: 1 mL/kg
+PO: 5 mL/kg
+SC: 0.5 mL/kg
+IP: 3 mL/kg
+~32
+Cynomolgus Monkey
+5
+IV: 1 mL/kg
+PO: 5 mL/kg
+SC: 0.5 mL/kg
+IP: 3 mL/kg
+85
+Minipig
+15
+IV, IP, SC: 1 mL/kg
+PO: 10 mL/kg
+~98
+Sources:	 Data from Gad, S et al. Tolerable Levels of Nonclinical Vehicles and Formulations Used in Studies by Multiple Routes 
+in Multiple Species With Notes on Methods to Improve Utility. International Journal of Toxicology. 2016;35(2):95–178; 
+and Schrag, M and Regal, K. Chapter 3: Pharmacokinetics and Toxicokinetics. In: Faqi AS, A Comprehensive Guide to 
+Toxicology in Preclinical Drug Development. Elsevier Inc; San Diego, CA. 2013: 31–68.
+Abbreviations:  IP, intraperitoneal; IV, intravenous; PO, oral; SC, subcutaneous.
+
+228
+Hayes’ Principles and Methods of Toxicology
+Many of the principles described above for drug adminis-
+tration by IV bolus injection apply to infusions. Nonclinical 
+studies may be conducted using intermittent infusion or pro-
+longed continuous infusion (24 hours per day) in conscious, 
+ambulatory animals using precision electronic infusion 
+pumps. Continuous or intermittent infusion in rodents can be 
+performed using a surgically implanted indwelling catheter 
+and jacket-tether or a tail-cuff system, which allows for the 
+free movement of animals and reducing stress. These types 
+of systems also support blood sample collection for clinical 
+pathology and TK assessments without interrupting or inter-
+fering with continuous dose administration. For infusion stud-
+ies in non-rodent species, both jacket-tether and ambulatory 
+systems can be used. Programmable pumps can also be used 
+to delay the initiation of the infusion, which can be particularly 
+important when monitoring study parameters that are sensi-
+tive to animal stress, such as cardiovascular function param-
+eters. Typical infusion rates used in nonclinical species range 
+from 2 mL/kg to 4 mL/kg per hour. It is reported that rates <2 
+mL/kg hourly in rodents may result in patency issues with the 
+catheter for dose administration.26 Green and Healing (editors) 
+provide a comprehensive, two-volume text on the technologies 
+and methodologies used for infusion studies in nonclinical 
+species.28,29
+5.4.1.2  Oral Dosing
+5.4.1.2.1  Formulation Selection and 
+Dose Administration
+Oral dosage forms can be administered as solutions, sus-
+pensions, or solid dosage forms, such as capsules or tablets. 
+Currently, no regulatory guidelines are recommending which 
+oral formulation should be used for nonclinical toxicity stud-
+ies. In practice, oral dose solutions or suspensions are often 
+prepared in methylcellulose/carboxymethylcellulose, cyclo-
+dextrins, polyethylene glycols, Labrasol®, Solutol® HS15, 
+Tween 20/80, and D-α-tocopheryl polyethylene glycol 1000 
+succinate (D-α-tocopheryl polyethylene glycol succinate [vita-
+min E TPGS]). As mentioned above, the toxicological effects 
+of the vehicle alone need to be considered when selecting a 
+dosing vehicle for an oral toxicity study. Compared to rodents, 
+dogs and monkeys are more prone to diarrhea, and dogs are 
+particularly sensitive to emesis. Diarrhea and emesis may not 
+be considered as marked toxicities, but they can have a dose-
+limiting effect. Emesis can reduce exposure to the test article, 
+especially if it occurs shortly following dose administration. 
+Both diarrhea and emesis can reduce food intake and lead to 
+weight loss, test article-related effects which are not compat-
+ible with repeated dose toxicity studies.
+Similar to IV administration, Tween 80 is not well toler-
+ated in the dog when administered orally and can lead to 
+analphylactoid reactions.27 Tween 80 at concentrations up to 
+0.2% (w/v) is reported to be well tolerated upon repeated oral 
+dosing for up to 90 days, but the tolerability to higher percent-
+ages varies.24,30 Cyclodextrins, especially hydroxypropyl-β-
+cyclodextrin, are commonly used as a complexation agent 
+to enhance solubilization. Repeated, chronic oral dosing of 
+hydroxypropyl-β-cyclodextrin in rats can result in an increase 
+in adenocarcinomas in the large intestine and pancreas, 
+which could confound the interpretation of carcinogenicity 
+studies conducted in rats.31,32 Tumor formation induced by 
+hydroxypropyl-β-cyclodextrin is largely believed to be rat-
+specific. Administration of formulations containing 500 or 
+1,000 mg/kg hydroxypropyl-β-cyclodextrin resulted in vehi-
+cle-related toxicities in all species tested.30 In dogs and mon-
+keys, the incidence of loose and/or soft stool was increased. In 
+female rats, hydroxypropyl-β-cyclodextrin treatment resulted 
+in time- and dose-dependent elevations in serum liver trans-
+aminases that occurred without a histopathologic correlate. 
+The etiology and significance of these findings in rats are 
+uncertain; however, since these liver biomarkers are com-
+monly assessed in toxicity studies, they could confound the 
+assessment and interpretation of test article-related findings.
+Certain surfactants used in dosing vehicles can result in 
+inflammatory lung lesions due to reflux/aspiration or gavage 
+error of the oral dose solution during administration. In the 
+nonclinical safety assessment program of XTANDI® (enzalu-
+tamide), a marketed anti-androgen drug used for the treatment 
+of prostate cancer, aspiration of the dosing vehicle which con-
+sisted of caprylocaproyl macroglycerides resulted in adverse 
+macroscopic findings (mottled lung) and pulmonary inflam-
+matory changes which occurred in both the vehicle- and 
+enzalutamide-treated animals.33 These pulmonary lesions 
+resulting from accidental aspiration of the formulation were 
+thought to contribute to mortality in some animals on study. 
+These nonclinical findings due to accidental aspiration are 
+not relevant to human safety assessment since prostate cancer 
+patients would take a capsule dose; however, these findings 
+can complicate data interpretation and the reviewer’s assess-
+ment of drug-related nonclinical toxicity findings.
+The most common method of oral administration of dosing 
+solutions and suspensions in nonclinical species is via intra-
+gastric gavage. Dosing solutions/suspensions are loaded into 
+an appropriately sized syringe and administered directly into 
+the stomach via a gavage needle for rodents or a catheter/intu-
+bation tube for larger animals. It is also common to administer 
+the dose by intranasal gavage in monkeys. To minimize the 
+potential for reflux and aspiration, the dose administered is 
+commonly followed by a saline, water, or dose vehicle flush 
+to minimize dose deposition in the esophagus. The pH of oral 
+dose solutions should be kept between 3 and 10.34 Ideal dose 
+volumes for oral gavage in nonclinical species range from 5 to 
+10 mL/kg24 (see Table 5.2).
+Larger, non-rodent species can be administered a solid oral 
+dosage form as a capsule or tablet. In nonclinical drug devel-
+opment, capsule dosing is commonly used for chronic toxicity 
+studies, especially in dogs. Dogs, compared to other nonclini-
+cal species used for toxicity assessment, are particularly sensi-
+tive to emesis, either induced by the dosing vehicle itself or 
+the test article. If emesis is due to local irritation caused by 
+high local concentrations of the test article in the stomach or 
+GI tract when administered in solution or suspension, dose 
+administration as a solid oral dosage form as a capsule or tab-
+let can sometimes reduce the incidence of or avoid emesis. 
+Solid oral dosage form studies in nonclinical species can also 
+provide additional insight into oral absorption characteristics, 
+such as ka and oral F, using a dosage form that is the same or
+
+229
+Toxicokinetics
+similar to the form which will be used in clinical development 
+in humans. While it is most common to administer solid oral 
+dosage forms to non-rodent species, mini-capsules can be used 
+for oral absorption studies in smaller species like mice, rats, 
+and guinea pigs.
+5.4.1.2.2  Food Effect
+Exploratory pharmacokinetic studies in support of drug dis-
+covery are often conducted in fasted animals, whereas toxicity 
+and TK studies are most often conducted in fed animals or in 
+animals that have free (ad libitum) access to feed. Depending 
+on the physicochemical properties of the test article, admin-
+istration with feed can either improve or reduce oral absorp-
+tion. Some test articles that are lipophilic may show enhanced 
+absorption in fed animals, as feeding induces the secretion of 
+bile acids into the GI tract that could help to solubilize the 
+test article. In other cases, the test article may physically bind 
+to the feed, reducing its oral absorption. Feeding status also 
+impacts gastric pH, which can impact the solubility, dissolu-
+tion, and oral absorption of test articles depending on physico-
+chemical properties, such as pKa.
+The anatomical and physiological processes of gastric 
+motility and emptying which impact oral drug absorption are 
+relatively similar in dogs and humans. The most notable dif-
+ference between dogs and humans is gastric pH. The gastric 
+pH in fasted dogs and humans is variable ranging from 1.5 
+to 6.7 and 1 to 5, respectively. The gastric pH in fed humans 
+ranges from 5 to 7, whereas fed dogs have a low gastric pH 
+of ~2.35 Pre-treatment of dogs with pentagastrin, administered 
+intramuscularly, reduces the gastric pH to ~1, similar to the 
+fasted state in humans. Pre-treatment of dogs with pentagas-
+trin predicted well the absence or presence of a formulation 
+food effect in humans, although the magnitude of the feed 
+effect observed in the dog model did not match that observed 
+in humans.
+5.4.1.2.3  Dietary Studies
+Dietary administration is most commonly used in chronic 
+toxicity studies in rodents, in particular in carcinogenicity 
+studies. One advantage of dietary studies is the elimination of 
+animal handling and associated stress due to daily oral gavage 
+procedures.23 The test article is blended homogeneously into 
+the animal diet/feed and the desired daily dose is achieved 
+based on the known feed consumption of the test animal spe-
+cies. The remaining feed at the end of the dosing interval is 
+then weighed to estimate the total feed intake based on mea-
+sured body weights. Dietary administration can also reduce 
+test article-related GI toxicity. Oral gavage typically produces 
+an oscillating daily toxicokinetic profile characterized by a 
+high transient Cmax followed by a low trough (Cmin) at the end 
+of the dosing interval. Dietary administration provides a more 
+constant and stable level of test article intake over the dosing 
+interval, a result of the feeding habits of laboratory animals.
+One disadvantage of dietary administration studies is that 
+pilot studies are needed for a successful study design. Pilot 
+studies are conducted to assess whether the test article has ade-
+quate stability in animal feed and whether the test article-sup-
+plemented animal feed remains palatable to the test species. If 
+the test article itself reduces feed consumption or body weight 
+gain, this can also lead to a reduction of the actual adminis-
+tered dose and, consequently, reduce the systemic exposure to 
+the test article.
+For agrochemicals, dietary administration is a relevant 
+route of oral exposure for regulatory toxicity studies and 
+human risk assessment as it mimics potential human intake 
+of residues in food commodities. A study by Hannas et al.36 
+demonstrated the successful application of dietary adminis-
+tration of two agrochemicals in a rabbit developmental toxic-
+ity study. Dietary administration of sulfoxaflor or halauxifen 
+resulted in stable 24-hour plasma concentrations, whereas oral 
+gavage resulted in marked fluctuations between Cmax and Cmin 
+over the dosing interval (see Figure 5.12). Oscillating toxi-
+cokinetic profile versus constant plasma exposure may have 
+implications in terms of detecting toxicities that may only 
+be triggered by exposure during certain windows of suscep-
+tibility of embryofetal development. Halauxifen, which has a 
+short plasma t1/2, was detectable only up to 12 hours postdose 
+when administered by oral gavage over the dosing interval 
+of 24 hours (Figure 5.12, panel B). Dietary administration of 
+sulfoxaflor actually allowed for a two-fold higher nominal and 
+diurnal systemic dose to be administered by reducing dose-
+limiting Cmax-associated maternal toxicity which occurred fol-
+lowing oral gavage. The presence of sulfoxaflor or halauxifen 
+was confirmed in fetal blood samples, confirming that dietary 
+administration to rabbits results in constant and stable embryo/
+fetal exposure throughout the gestational period.
+5.4.1.3  Inhalational Administration
+The delivery of test articles via inhalation can pose some unique 
+challenges when compared to other routes of administration. 
+Rabbits and rodents are obligate nose-breathing animals, and it 
+is not feasible to expose animals using the same delivery device 
+that is intended for drug administration in humans. Different 
+types of inhalation exposure chambers can be used for experi-
+mental animals: nose-only, head-only, or whole-body cham-
+bers, or inhalation/ventilation techniques in intubated animals. 
+Dose administration techniques to enable inhalational toxicity 
+studies have been described thoroughly in the previous edition 
+of this text37 and are also discussed in Chapter 30 of this text. 
+Methods of pulmonary exposure in nonclinical toxicity stud-
+ies as it relates to the development and safety assessment of 
+inhaled pharmaceuticals are reviewed by Owen.38
+5.4.1.4  SC Administration
+SC injection is a rapid, inexpensive, and simple method of 
+parenteral administration acceptable for non-irritating test 
+articles. Aqueous or oily test articles may be administered sub-
+cutaneously. This route of administration is most commonly 
+chosen for exploratory studies in drug discovery and develop-
+ment to increase systemic exposure to the test article when oral 
+bioavailability is poor since the intestinal and hepatic first-pass 
+effect is avoided. Absorption into the systemic circulation fol-
+lowing SC administration occurs at a slower rate compared to 
+other parenteral routes of administration. Dose vehicles often
+
+230
+Hayes’ Principles and Methods of Toxicology
+used for SC administration include glycerol, hydroxypropyl-β-
+cyclodextrin, and phosphate-buffered saline. To avoid abscess 
+formation at the site of injection, dosing solutions should be 
+sterile or sterile-filtered (0.2 µm) before delivery. A solution 
+at physiological pH is preferred; however, a pH range of 4–8 
+is tolerated.39
+The ideal dose volume in the mouse and guinea pig ranges 
+from 1 to 5 mL/kg, 1 mL/kg in the rat, and 0.5 mL/kg in the 
+dog and monkey.24 The intrascapular region, neck, shoulder, 
+and flank are common sites for SC injection in experimental 
+animals. For large dose volumes, multiple sites can be used 
+for dose delivery. To reduce discomfort to the animal, the skin 
+overlying the site of injection should be supple. The needle for 
+injection is inserted at a shallow angle to reduce damage to the 
+underlying tissues.26
+5.4.1.5  IP Injection
+Injection into the IP space is a commonly used dosing route 
+for single-dose exploratory pharmacokinetic, pharmacody-
+namic, and toxicity studies in rodents and other small animals. 
+IP injection is rarely used in larger animals and humans. This 
+route is often chosen for small animals where IV administra-
+tion is more technically challenging. Due to the risk of local 
+irritation at the injection site, this route of administration is not 
+commonly used for repeated dose studies. While IP admin-
+istration avoids factors that may limit absorption across the 
+intestinal barrier, the administered test article is still subject to 
+the hepatic first-pass effect. The primary route of absorption is 
+into the mesenteric vessels which drain into the portal vein.26
+The IP space is devoid of an adequate amount of biological 
+fluid to help in the dissolution of the administered test article, 
+so the test article needs to be administered as a solution dose. 
+Suspensions or precipitating solution doses can result in local 
+irritation/ulceration of the tissues and organs of the peritoneal 
+cavity. A solution near physiological pH is preferred for IP 
+injections. Dosing solutions should be sterile (or sterile filtered 
+at 0.2 µm), isotonic and non-irritating. Saline, cyclodextrins, 
+and polyethylene glycols are the most common vehicles used 
+for formulating test articles for IP administration.24
+Ideal dose volumes range from 5 to 10 mL/kg in mice and 
+rats, 1 to 5 mL/kg in guinea pigs, and 3 mL/kg in rabbits, 
+dogs, and monkeys. In rodents, dose administration is usually 
+performed in the lower right abdominal quadrant in conscious 
+animals using firm manual restraint with the head and body 
+pointed downward. A common practice is to withdraw the 
+syringe plunger prior to dose injection to assess the presence 
+of urine, blood, or digesta, indicative that one of the organs of 
+the peritoneal space has been erroneously punctured. While 
+IP injection is thought to be less technically challenging 
+than an IV injection, a common mistake is accidental dose 
+delivery into the urinary bladder or cecum or accidental SC 
+administration.
+5.4.1.6  Dermal Administration
+Dermal (topical) administration is a commonly used route of 
+administration in nonclinical toxicity and toxicokinetic stud-
+ies to evaluate the safety of topically applied materials, such 
+as therapeutic products, cosmetics, and industrial chemicals 
+FIGURE 5.12  Differences in plasma concentration versus time profiles of two agrochemicals, sulfoxaflor and halauxifen, following repeated oral 
+gavage or dietary exposure in rabbits. Panel A: Diurnal plasma concentration of sulfoxaflor after 3 weeks of gavage (15 mg/kg/day) or dietary (21 mg/
+kg/day) exposure to rabbits (Saghir S.A. et al. Assessment of Diurnal Systemic Dose of Agrochemicals in Regulatory Toxicity Testing – an Integrated 
+Approach without Additional Animal use. Regulatory Toxicology and Pharmacology 2012;63:321–332). Panel B: Kinetic parameters derived from 
+rabbits administered halauxifen via diet (4,000 ppm, 174 mg/kg), followed by gavage (dose-matched to the individual rabbit’s test material intake; 
+range = 149–188 mg/kg). (Reprinted with permission from: Hannas, B.R. et al. Dietary Route of Exposure for Rabbit Developmental Toxicity Studies. 
+Toxicological Science. 2016;154(1):90–100.)
+
+231
+Toxicokinetics
+for which human exposure occurs in occupational settings. 
+The minipig is the established non-rodent species of choice 
+for nonclinical safety assessment of topically applied prod-
+ucts, due to the similarity of porcine and human skin anatomy 
+and biochemistry.40 Dermal absorption through the epidermis 
+occurs through paracellular and transcellular permeation. The 
+absorption through the skin depends on the surface area to 
+which the toxicant is applied; the lipophilicity of the toxicant; 
+the site of administration (skin thickness); the physicochemi-
+cal properties of the dose vehicle/formulation; and tempera-
+ture effects on formulation viscosity.24,26 A dose volume of 
+50–100 µL per site is commonly used for topical adminis-
+tration,26 and the dose volume should not exceed 2 mL/kg.34 
+As per the Principles and Procedures for Evaluating Toxicity 
+of Household Substances,41 the recommended dose area for 
+acute dermal studies is not less than 10% and not more than 
+30% of body surface area. Toxicants for dermal administra-
+tion can be formulated as liquids, creams, ointments, or gels. 
+In minipigs, the preferred site of the application is the dorsum, 
+approximately half-way down the side of the trunk, which is 
+least accessible to the animal for unintended and accidental 
+oral ingestion.40 Prior to topical administration to minipigs 
+and other mammals, fur/hair at the intended site of adminis-
+tration is clipped/shaved, and the skin surface is cleaned prior 
+to dose application. The frequency and duration of applica-
+tion vary depending on the proposed human exposure. Daily 
+application is common, but may also be more frequent to 
+maximize exposure. Exposure is most often continuous, but 
+a limited exposure period (4–6 hours per day) may also be 
+adopted, with the removal of the toxicant after the specified 
+period. The dose site can remain open (no covering) or may 
+be covered by a semi-occlusive dressing. Irritation or local 
+sensitization reactions can occur following the administration 
+of certain test articles.
+5.4.2  Sampling Techniques
+5.4.2.1  Sampling of Blood or Plasma
+In the planning of a TK study, it is important to first assess 
+whether plasma or whole blood is the appropriate biofluid to 
+collect to assess the systemic exposure of the test article on the 
+study. Historically, drug/toxicant concentration assays have 
+almost exclusively used plasma as a matrix for TK assess-
+ment rather than whole blood, which has been based primar-
+ily on unfounded theories about analytical assay sensitivity 
+and matrix interference that it is simply “better” to measure 
+drug concentrations in plasma rather than whole blood. In 
+fact, whether the TK of the test article should be measured 
+in plasma or whole blood depends on its disposition in whole 
+blood.
+Blood is primarily composed of red blood cells (RBC), 
+plasma, and a few white blood cells. For the discussion herein, 
+the constituents of whole blood will be divided into two cat-
+egories: RBC and plasma. The hematocrit is the proportion of 
+blood that consists of RBC, by volume. Normal hematocrit in 
+male humans and nonclinical species approximates 40–50%,42 
+meaning that whole blood is made up of ~ 50% RBC and ~50% 
+plasma. The concentration of a test article in the blood (Cblood) 
+is hence the sum of its concentration in RBC and plasma:
+	
+ 
+ 
+C
+C
+C
+blood
+RBC
+plasma
+=
++
+	
+(5.70)
+	
+ 
+ 
+ 
+ 
+ 
+C
+V
+C
+V
+C
+V
+blood
+blood
+RBC
+RBC
+plasma
+plasma
+×
+=
+×
++
+×
+	 (5.71)
+For test articles that partition evenly between plasma and 
+RBC, the concentrations are equivalent regardless of whether 
+whole blood or plasma is sampled for TK assessment, allow-
+ing for easy and simple interpretation of TK parameters. But 
+for test articles that partition preferentially in RBC, the con-
+centrations in plasma can substantially underestimate the true 
+systemic exposure, and the assessment of plasma levels alone 
+is not indicative of the true levels present in the systemic cir-
+culation. When plasma is sampled for test articles that have 
+high blood-to-plasma partitioning ratios (≥2.0), the interpreta-
+tion of plasma TK properties can be misleading and errone-
+ous. Drugs used in clinical practice with large blood-to-plasma 
+concentration ratios (Kb/p) in humans include the immunosup-
+pressive cyclosporin A (Kb/p of 2.0–4.6), the diuretic chlortha-
+lidone (Kb/p ~ 31), the antimalarial chloroquine (Kb/p ~ 3), and 
+the antirheumatic agent, hydroxychloroquine (Kb/p ~ 7).43
+The Kb/p can be determined in both in vitro and in vivo stud-
+ies. In vitro, whole blood is collected from the nonclinical spe-
+cies of interest and/or humans and then is incubated at pH 7.4 
+and 37°C for a given time. Measurement of concentrations in 
+plasma and separated RBCs or whole blood is assessed follow-
+ing the incubation. A fast and abbreviated method to assess 
+blood-to-plasma ratios that is more amenable to high-through-
+put screening to support drug discovery has been described.44 
+Partitioning into RBCs will often be time- and concentration-
+dependent, so complete characterization of a test article’s dis-
+position in whole blood should include both the assessment of 
+different incubation times and concentrations. In in vivo PK 
+and TK studies, test article concentrations can be determined 
+in both whole blood and plasma to compare and assess TK 
+parameters. This approach can be done more readily in larger 
+species often used for toxicity studies, such as dogs, non-
+human primates, minipigs, and rabbits, where blood volumes 
+collected are larger.
+5.4.2.1.1  Sampling Time Points
+The number of time points that should be sampled to properly 
+characterize the TK profile depends on the curve shape and 
+the terminal t1/2. From a theoretical perspective, at least three 
+sampling time points would be needed to characterize each 
+phase of the TK profile (absorption, distribution, and elimina-
+tion), for a total of nine time points. From a practical perspec-
+tive though, the number of sampling time points is limited by 
+the number of animals on the study and the volume of blood 
+that can be withdrawn from the animals on study. It is com-
+mon practice in TK studies that a minimum of five time points 
+and up to seven time points be sampled over the dosing inter-
+val. To characterize an oral TK profile, two to three sampling 
+times should be collected to characterize the absorption phase, 
+one time sampled at or near the anticipated Tmax followed by at 
+least three times collected in the terminal phase (distribution/
+elimination).
+
+232
+Hayes’ Principles and Methods of Toxicology
+5.4.2.1.2  Limitations of Blood Sampling
+TK analysis requires multiple blood samples to be collected 
+from animals over a short period of time, and there may be 
+toxicological effects associated with acute blood loss, espe-
+cially in smaller experimental animals like rodents. Acute 
+blood loss can result in increased moribundity or mortality, 
+as well as increased susceptibility to toxic effects induced by 
+the test article under study. Blood sampling procedures may 
+also interfere with the assessment of the toxicity endpoints, in 
+particular hematology parameters that are routinely monitored 
+in regulatory safety assessment studies.
+In pivotal, regulated toxicity studies conducted in support of 
+drug development, the assessment of exposure and TK is often 
+conducted in a satellite group of animals from which only TK 
+data will be derived, separate from the main study group that 
+will be used for toxicity assessment. For rats, a common design 
+is to use a dose group of nine animals per sex, and blood is 
+sampled in groups of three animals at a given time point. A 
+blood sample may be taken from one rat up to three times. 
+Blood volumes of 200–300 µL are typically drawn from an 
+animal at each time point. A single concentration-time curve 
+is built as a composite of all nine rats in that dose group (see 
+the below section; see Figure 5.14).
+When the mouse is selected as the rodent species for a toxi-
+cology study, due to the limitation in total blood volume avail-
+able, a terminal procedure has to be used to collect a single 
+blood sample. In mice, no more than 7.5% of circulatory blood 
+volume can be removed from mice weighing 20–40 g within 
+a week without inducing hypovolemia and other physiological 
+stress responses.45
+With multiple TK sampling times, if 7.5% total blood vol-
+ume is removed within a 24-hour period, this would neces-
+sitate a 7-day recovery period.46 In general, total blood draws, 
+including sampling for clinical chemistry assessments, should 
+target not to exceed ~10% of the total blood volume in an ani-
+mal within a 7-day period. Approximate volumes of blood 
+which represent 10% blood volume across different nonclini-
+cal species are presented in Table 5.2.
+5.4.2.1.3  Microsampling
+As described above, TK sampling in smaller animals like 
+rodents usually involves the use of a satellite group of ani-
+mals. If TK blood samples could be collected from the main 
+study group, the satellite group used for TK could be elimi-
+nated, which would reduce animal usage by 60% in explor-
+atory studies and by 40% in regulated studies.47 This would 
+also allow for blood concentrations, TK parameters, and 
+toxicological findings to be assessed directly in the same ani-
+mals, which improve the data quality and the interpretation of 
+dose-exposure-toxicity relationships by removing inter-animal 
+variability.48
+Microsampling is defined as a method to collect a very 
+small volume of blood (typically ≤50 µL) for the pur-
+poses of measuring test article (or metabolite) concentra-
+tions in timed samples to calculate TK parameters. Recent 
+advances in analytical chemistry have improved analytical 
+method sensitivity substantially, allowing microsampling 
+techniques to be used in TK assessment. The low sample 
+volume collected using microsampling techniques allows 
+for the entire TK profile to be generated from a single ani-
+mal, and hence, there is no longer the need for a compos-
+ite method to rebuild the concentration-time profile for TK 
+parameter determination. As per International Conference 
+on Harmonisation (ICH) S3A “Questions and Answers” 
+(Q&A),49 minimizing the volume of blood collection can 
+also reduce pain and distress in study animals. The adop-
+tion of microsampling techniques in drug safety assessment 
+programs also reduces the amount of test article required 
+to run the study, which can provide an economic advan-
+tage for biopharmaceuticals and for small molecules with 
+challenging chemical syntheses. The use of microsampling 
+techniques in agrochemicals has also led to an increase in 
+the number of studies where exposure data are generated 
+early in product development, improving decision-making 
+in agrochemical development programs.50
+Blood microsamples in rodents are often collected from the 
+tail vein or saphenous vein. Using capillary microsampling 
+(CMS), typically 8–25 µL of whole blood or 32–64 µL of 
+whole blood for subsequent processing to plasma is collected 
+with a capillary tube.51 The whole blood collected can be 
+processed to plasma and stored in a capillary for sample pro-
+cessing and bioanalysis. Using dried blood spot technology, 
+typically 15–20 µL of whole blood is collected and spotted 
+onto the sampling absorbent filter paper and allowed to air dry 
+at ambient temperature for a few hours. The dried blood spot 
+samples are then processed by punching a small disc of the 
+saturated filter paper, and the disc is then subjected to extrac-
+tion with an organic solvent prior to bioanalysis of the super-
+natant fraction (see Figure 5.13). One disadvantage of dried 
+blood spot technology is that plasma cannot be obtained as a 
+matrix from this sampling technique. The disposition of the 
+test article in blood and plasma, such as the extent of blood cell 
+partitioning and potential test article-induced effects on hema-
+tocrit values, needs to be considered when selecting dried 
+blood spots as a matrix for TK evaluation to allow for bridging 
+and interpretation of TK data obtained using dried blood spot 
+technology versus TK data obtained from other studies using 
+plasma as a matrix.
+Several studies have evaluated the feasibility of using mic-
+rosampled bleeds in toxicology studies. The results of a study 
+published by Wang et al.45 demonstrated that the application 
+of CMS in regulated mouse toxicity studies was feasible. 
+Serial blood sampling by CMS of a volume of 70 µL was 
+achieved from mice with minimal effects on hematology 
+parameters. Samples collected by CMS from the tail vein 
+and conventional TK sampling via cardiac puncture showed 
+similar TK parameters for the drug candidate on the study. 
+Bioanalytical analysis of CMS samples (15–20 µL of result-
+ing plasma) conformed to the requirements of regulatory 
+guidelines and was adequate for the quantification of two 
+analytes (parent and metabolite with 5-µL sample volume 
+per assay) and allowed for incurred sample reanalysis, an 
+important validation parameter demonstrating the robustness 
+of the bioanalytical method (see Table 5.3). Janssen Research 
+& Development has reported that CMS has been successfully 
+applied in 26 pivotal, Good Laboratory Practice (GLP) stud-
+ies in 12 different drug development projects.52
+
+233
+Toxicokinetics
+TK studies for use in regulatory submissions for pharma-
+ceutical products for human use are based on ICH S3A53 (see 
+later). As per ICH 3A Q&A,49 microsampling techniques are 
+applicable to the majority of pharmaceuticals, including bio-
+pharmaceuticals, and can be used in any type of toxicology 
+study, including single- and repeat-dose studies, as well as in 
+carcinogenicity, juvenile animal, and reproductive studies.
+5.4.2.2  Sampling of Excreta: Urine,  
+Feces, and Bile
+Mass balance and excretion studies to evaluate the routes of 
+elimination necessitate the sampling of urine and feces from 
+intact animals, and the sampling of bile from bile duct-can-
+nulated animals. In drug and non-pharmaceutical product 
+TABLE 5.3
+Parameters for LC-MS/MS Bioanalytical Method Validation
+Parameter
+Definition/Description
+Assessment and Acceptance Criteria for Validation
+Selectivity
+The ability of a chromatographic method to measure the 
+response from the analyte without interference from 
+the biological matrix
+Assessment of the suppression or enhancement of the ionization of the 
+analyte by matrix components of the biological samples
+Assess the impact of hemolyzed or lipemic samples
+No significant baseline interference detected in five of six lots of matrix 
+(≤5% of the peak area at the retention time of the analyte)
+Precision of the mean of the measured concentrations within ≤15% of 
+nominal concentrations
+Precision and 
+Accuracy
+The assay is reproducible and robust within the same 
+analytical run and in runs that are conducted on different 
+days (inter- and intra-run accuracy and precision)
+Accuracy within ±15% and %coefficient of variance ≤15%
+Carry-over
+The extent of carry-over of the analyte from one sample 
+to the next in each analytical run
+Acceptable carry-over when peak area of the analyte is ≤20%
+Stability
+The chemical stability of the analyte in a given matrix 
+has been evaluated and under all of the conditions that 
+occur during sample collection, handling, storage, and 
+analysis
+Assessment of: autosampler, benchtop, processed/extracted sample, 
+freeze-thaw cycle, stock solution, and long-term storage of the analyte
+Samples are considered stable if measured concentrations are within 
+±15% of nominal concentrations and %coefficient of variance ≤15%
+Dilution 
+Integrity
+Samples where analyte concentrations are outside the 
+range of the assay and are above the upper limit of 
+quantitation can be diluted to be brought back into the 
+analytical range of the assay
+Dilution integrity evaluation is considered acceptable if measured 
+concentrations are within ±15% of nominal concentrations and 
+%coefficient of variance ≤15%
+Sensitivity
+The dynamic range and the lower limit of quantitation 
+meet the requirements for the intended study samples
+%Coefficient of variance ≤20% at the lower limit of quantitation
+FIGURE 5.13  Workflow depicting the sample collection and processing steps using dried blood spot technology. A small volume (15–20 µL) of blood 
+is spotted onto the sampling absorbent filter paper and allowed to air dry at room temperature for a few hours. The samples may be stored with desic-
+cant or shipped to the test facility for bioanalysis. For processing, a small disc is punched around the blood spot from the absorbent paper, and the disc 
+is washed with an organic solvent to extract the analyte. The supernatant is then analyzed by LC-MS/MS for analyte quantitation.
+
+234
+Hayes’ Principles and Methods of Toxicology
+development programs, mass balance and excretion studies are 
+conducted at a dose level that is well tolerated, yet high enough 
+to enable metabolite identification in excreta. These studies are 
+not conducted at toxic doses since toxicity, especially adverse 
+effects on liver and/or kidney function, may alter the elimi-
+nation pathways of the test article. Mass balance and excre-
+tion studies are most often conducted using a radiolabeled test 
+article using 14C as the radioisotope and at a radioactivity dose 
+of 100 µCi/kg.
+The preparation of animals for bile duct cannulation studies 
+requires surgery to implant the cannula so that bile samples 
+can be collected. Failure of the patency of the cannula is a 
+common complication of studies being conducted with bile 
+duct-cannulated animals, which can compromise the study 
+objectives if inadequate data are obtained. Recommendations 
+for best practices for a successful bile duct cannulation study 
+in rats have been described by Burden et al.54
+For the collection of urine and feces samples, animals are 
+usually housed in individual stainless steel metabolism cages 
+equipped for the separate collection of excreta. In these stud-
+ies, urine and bile are typically sampled over pre-specified 
+time intervals, such as, at 0–4, 4–8, 8–24 hours, and at 24-hour 
+intervals up to 72 hours postdose. Different time intervals may 
+be selected to best characterize the excretion profile depending 
+on the pharmacokinetic properties of the test article. Feces are 
+often collected over 24-hour time intervals.
+5.4.3  Sample Analysis
+Whole blood, plasma, and bile samples collected for bioanal-
+ysis are processed by protein precipitation by extraction in 
+organic solvent (such as acetonitrile). Urine samples can often 
+simply be diluted in an organic solvent before analysis. Feces 
+samples require homogenization in an aqueous medium before 
+processing by protein precipitation.
+The analysis of whole blood, plasma, urine, and bile samples 
+and fecal homogenates from exploratory studies using non-
+radiolabeled test article is often achieved by high-performance 
+liquid chromatography coupled with tandem mass spectrom-
+etry (LC-MS/MS). For exploratory studies, a “fit-for-purpose” 
+or qualified method may be used, meaning that no validation 
+or limited validation, respectively, has been accomplished for 
+bioanalytical method parameters, such as specificity, accu-
+racy, precision, matrix effects, and carry-over. To support 
+pivotal, GLP-compliant toxicity studies, it is expected that a 
+validated analytical method be employed, meaning that the 
+method is robust, meeting pre-specified criteria for validation 
+parameters prior to being used to determine concentrations of 
+a test article in biological samples. The bioanalytical param-
+eters that are commonly validated for regulatory bioanalysis55 
+are listed in Table 5.3.
+The analysis of biological samples collected in studies in 
+which a radiolabeled test article has been administered is often 
+achieved either by liquid scintillation counting or by LC-MS/
+MS coupled with radiometric detection. LC-MS/MS coupled 
+with radiometric detection allows for the structural elucida-
+tion of metabolites using accurate mass spectrometry, and also 
+allows for a quantitative assessment of parent and metabolite 
+concentrations by radiometry, which can also be expressed as 
+a percent of the dose administered.
+5.4.4  Data Handling
+As described above, due to limitations in blood sampling vol-
+umes and sparse sampling in rodents, a composite TK profile 
+must be built from pooled concentration data which is aver-
+aged across animals per time point. Composite TK profiles do 
+not allow for an assessment of inter-individual variability in 
+TK parameters. A single value for Cmax and AUC will be calcu-
+lated for the dose group. Larger, non-rodent species will most 
+often have a serial blood sampling design. With a serial blood 
+sampling design, complete time course data are obtained in 
+individual animals, allowing for the calculation of the TK 
+parameters for each animal in every dose group, as well as the 
+conduct of comparative statistics (i.e., group mean values ± 
+standard deviation; see Figure 5.14).
+FIGURE 5.14  Comparison of the TK data output obtained with different sampling designs. In Panel A, using sparse sampling in rats, a composite 
+TK profile is generated. Mean plasma concentrations versus time are plotted to calculate a single value for Cmax and AUC. In Panel B, using a serial 
+bleed design in dogs, complete time course data is obtained in individual animals, allowing for the assessment of inter-individual variability and the 
+expression of TK parameters as mean values ± standard deviation.
+
+235
+Toxicokinetics
+5.4.4.1  Computation of TK Parameters
+There are several software packages available for the compu-
+tation of TK parameters from concentration-time data. The 
+application of different software packages in PK data analysis 
+is reviewed by Colucci and Ducharme.56
+In drug discovery and development, it is most common to 
+use non-compartmental methods to calculate TK parameters 
+for both exploratory and pivotal regulated toxicity studies. 
+For non-GLP exploratory studies, any software can be used 
+for TK data analysis; however, output from software used in 
+pivotal studies for regulatory submissions must be validated. 
+In the pharmaceutical industry, the “Gold-Standard” for PK/
+TK data analysis is Phoenix® WinNonlin®, which is the most 
+common software package used by pharmaceutical compa-
+nies and by regulatory agencies in jurisdictions worldwide, 
+including the U.S. Food and Drug Administration, Japan 
+Pharmaceutical and Medical Device Agency, China Food and 
+Drug Administration, and the UK Medicines and Healthcare 
+Products Regulatory Agency.57 Phoenix® WinNonlin® is a 
+validated software package that is aligned with the recommen-
+dations set forth in the ICH E6 GCP R2 Guideline.58
+In toxicity studies, the parameters Cmax and AUC are the 
+most important parameters in terms of understanding the TK 
+profile of the test article since both parameters are measures of 
+in vivo exposure. No computation is needed for the estimation 
+of Cmax or Tmax, as the Cmax is the observed maximal concentra-
+tion at the Tmax over the concentration-time profile. Based on 
+fundamental mathematical principles described earlier in this 
+chapter, AUC can be calculated from primary PK parameters 
+(CL and V). Several numerical methods can be applied to esti-
+mate AUC using non-compartmental analysis. Using commer-
+cial software, several variations of the trapezoidal rule can be 
+applied to calculate the AUC.
+	
+1.	Linear Trapezoidal Method: This method uses lin-
+ear interpolation between data points to calculate the 
+AUC as an average concentration over the defined 
+time interval. For a time interval defined as t2 – t1, 
+where corresponding concentrations are measured as 
+C2 and C1, respectively, the AUC for this portion of 
+the curve can be calculated as:
+	
+ 
+ 
+2
+ (
+  )
+2
+1
+2
+1
+2
+1
+AUC
+C
+C
+t
+t
+t
+t =
++
+−
+−
+	
+(5.72)
+	
+2.	Logarithmic Trapezoidal Method: This method uti-
+lizes a logarithmic interpolation between data points 
+to calculate the AUC. This method assumes that the 
+concentrations are declining mono-exponentially 
+and that over a time interval defined as t1 and t2, the 
+concentrations C1 > C2. Consequently, this method 
+can only be applied to descending concentration 
+data. For a time interval defined as t2 – t1, the AUC 
+for this portion of the curve can be calculated as:
+	
+ 
+ 
+ln
+ln
+ 
+ 
+1
+2
+1
+2
+2
+1
+2
+1
+AUC
+C
+C
+C
+C
+t
+t
+t
+t
+(
+)
+(
+) (
+)
+=
+−
+−
+−
+−
+	
+(5.73)
+	
+3.	Linear-Log Trapezoidal Method: The combination 
+of these two methods is called the “linear-up log-
+down” method. In the absorption phase when con-
+centrations are increasing, the linear trapezoidal 
+method is used. In the elimination phase when con-
+centrations are decreasing, the logarithmic trapezoi-
+dal rule is applied.
+It is recognized best practice in the pharmaceutical industry to 
+use a combination of the linear and the logarithmic trapezoi-
+dal methods to calculate the AUC. The “linear-up log-down” 
+method is thought to be the most accurate method to accu-
+rately estimate the AUC.46,59 The linear trapezoidal method 
+can overestimate the AUC in the elimination phase.
+Based on fundamental mathematical principles described 
+earlier in this chapter, the t1/2 can be calculated from primary 
+PK parameters (CL and Vss, Equation 5.37). Using commer-
+cial software, the terminal t1/2 is calculated upon linear regres-
+sion of the terminal phase of the concentration-time profile. In 
+TK studies, the experimental data are not always adequate to 
+allow for the computation and reporting of the t1/2 value. The 
+linear regression of at least three declining concentrations in 
+the terminal phase and not including Cmax as a sampling time, 
+with a curve fit having a R-squared value for a goodness-of-fit 
+of ≥0.90, is the common criteria applied for the calculation and 
+reporting of t1/2 values using commercial software.
+5.4.5  Interpretation of In Vivo Toxicokinetic Data
+In interpreting TK data, it is not only important to assess the 
+relationship of how each dose level and the duration of dosing 
+relates to the computed TK parameters, but also how the TK 
+parameters relate to the toxicity endpoints observed. As per 
+regulatory guidance recommendations for toxicity testing of 
+pharmaceutical products and chemicals, reporting and assess-
+ment of the following TK parameters are expected in support 
+of toxicity studies: Cmax, Tmax, AUC, and t1/2 (when feasible). 
+Evaluation of TK data in terms of dose proportionality, sex 
+differences, and accumulation with repeated administration 
+are important aspects in terms of understanding the TK profile 
+and disposition of the test article in relation to the observed 
+toxicity endpoints.
+5.4.5.1  Dose Proportionality
+Upon single and repeated administration, it is important 
+to assess dose proportionality, meaning whether the fold-
+increase in observed Cmax and AUC0−τ values correlate with 
+the fold-increase in dose levels, or whether there is a deviation 
+in this relationship. An understanding of the dose proportion-
+ality relationship is important in exploratory TK studies since 
+this aids in the dose selection for the more pivotal and defini-
+tive toxicity studies. As per established best practices, the low, 
+mid-, and high dose levels should be selected not based on the 
+nominal dose separation between dose groups, but based on 
+the separation of the resulting exposures at given dose levels.
+When the fold-increases in exposure are less than the 
+fold-increases in dose, this can often be interpreted as “dose
+
+236
+Hayes’ Principles and Methods of Toxicology
+saturation”, which is common for orally administered test 
+articles that show solubility- and/or permeability-limited oral 
+absorption. When the fold-increases in exposure are greater 
+than the fold-increases in dose (also called supra-proportion-
+ality), this can often be interpreted as saturation of a clearance 
+mechanism as dose levels increase, which then leads to expo-
+sure levels that are higher than expected (see Figure 5.15).
+5.4.5.2  Sex Differences
+Toxicity testing for pharmaceutical products and chemicals is 
+often conducted in both male and female animals to address 
+sex differences in toxicity. In addition to the potential for sex 
+differences in the sensitivity to toxicity, it is also possible for 
+a test article to demonstrate sex differences in TK parameters. 
+Due to biological and inter-/intra-assay variability, only a dif-
+ference of greater than two-fold in the Cmax and/or AUC0−τ val-
+ues between males and females is interpreted to constitute a 
+meaningful sex difference in exposure.
+Sex differences in TK parameters are often observed in 
+rodents for xenobiotics and drugs that are metabolized by 
+cytochrome P450s (CYP450) and when oxidative metabo-
+lism constitutes the major route of elimination. Rats, and to 
+a lesser extent, mice, demonstrate a sexual dimorphism in 
+terms of expression of hepatic CYP450s, which can account 
+for very notable differences in systemic exposure and can 
+complicate toxicity assessments. Generally speaking, male 
+rats have higher expression of CYP450s and higher metabolic 
+capacity than female rats.60 The sexual dimorphism in hepatic 
+CYP450s manifests as higher exposure to the test article in 
+female rats, due to a reduced extent of metabolism, compared 
+to males where the extent of metabolism is higher, and hence 
+reducing the concentrations of the substrate drug/xenobiotic. 
+Metabolism as a determinant of toxicity is discussed in Chapter 
+4 of this text. Sex differences in TK properties in other species 
+often used for toxicity assessments, such as dogs and monkeys, 
+occur relatively infrequently, and a notable sex difference in 
+hepatic enzyme expression has not been documented in these 
+species like it has been for rats.
+5.4.5.3  Accumulation
+The mathematical calculation of the accumulation ratio is 
+described earlier in this chapter (Equations 5.68 and 5.69). 
+The accumulation ratio essentially quantitates the extent of the 
+increase of systemic exposure in terms of Cmax and AUC on 
+the first day of dosing compared to the exposure on the last 
+dosing day (Daylast) following repeated administration. Due to 
+biological and inter-/intra-assay variability, an accumulation 
+ratio of ≥two-fold when comparing Daylast Cmax and/or AUC0−τ 
+values to Day 1 values is interpreted to constitute a meaningful 
+extent of accumulation during the course of the study.
+When accumulation ratios exceed 2, this can be interpreted 
+that repeated administration has resulted in the accumulation 
+of the test article. The statement that a test article “accumu-
+lates” is often misinterpreted as being an adverse observa-
+tion in a study and is incorrectly associated with toxicity. The 
+accumulation ratio simply describes the relationship between 
+the frequency of dosing and the rate of elimination, and hence 
+reducing the frequency of dosing will also result in a reduction 
+of the accumulation ratio (see Figure 5.11). When interpret-
+ing TK data in the context of a toxicity study, it is not that 
+the extent of accumulation that should be considered to be the 
+adverse finding, but the actual magnitude of the Daylast expo-
+sure that results in toxicity.
+It is also a common occurrence to observe an accumulation 
+ratio of <1.0 following repeated administration. Due to bio-
+logical and inter-intra-assay variability, an accumulation ratio 
+must be ≤0.5 when comparing Daylast to Day 1 exposure val-
+ues to be interpreted as a scientifically meaningful reduction 
+in exposure. Reductions in exposure with repeated dosing are 
+most often the result of “auto-induction”, a phenomenon where 
+the test article is an inducer of the hepatic drug-metabolizing 
+enzymes by which it is primarily metabolized. Enzyme induc-
+tion is time-dependent, and hence following repeated admin-
+istration, hepatic enzyme induction occurs which increases the 
+metabolism of the test article and reducing its end-of-study 
+exposure. Mechanisms of hepatic drug-metabolizing enzyme 
+induction are described in Chapter 4 of this text.
+FIGURE 5.15  Assessment of dose proportionality by plotting plasma AUC0–t values versus dose. When the fold-increases in AUC0–t values mirror 
+the fold-increases in dose, the dose-exposure relationship is said to be dose-proportional. When the fold-increases in AUC0–t values are less than the 
+fold-increases in dose, the dose-exposure relationship is said to be less than dose-proportional. When the fold-increases in AUC0–t values are greater 
+than the fold-increases in dose, the dose-exposure relationship is said to be greater than dose-proportional.
+
+237
+Toxicokinetics
+5.4.5.4  Metabolite Exposure versus 
+Parent Exposure
+In some toxicity studies, it may be warranted to also quanti-
+tate the plasma or blood concentrations of a metabolite and 
+to derive TK parameters. Metabolite-to-parent ratios are most 
+often calculated based on Cmax and AUC values, assessed on 
+the same study day:
+- -
+ 
+, 
+, 
+Metabolite to parent ratio
+C
+C
+or AUC
+AUC
+max metabolite
+max parent
+metabolite
+parent
+=
+	(5.74)
+5.4.5.5  Control Sample Contamination 
+with Test Article
+From all pivotal, regulated toxicity studies, it is expected that 
+TK samples be collected from the animals in the vehicle-con-
+trol group to assess for contamination with the test article. In 
+rodents, samples are typically collected and analyzed at the 
+anticipated Tmax, as per the sparse sampling design (discussed 
+earlier). In larger non-rodent species, all samples collected as 
+per the serial sampling design are analyzed for the presence of 
+the test article.
+Sources of TK sample contamination include mis-dosing, 
+sample handling/processing, and analyte carry-over during 
+bioanalysis. The presence of the test article in control samples 
+can complicate the interpretation of the toxicity study results 
+by confounding the assessment of which observed toxicologi-
+cal effects are truly test article-related. In some cases, inade-
+quate interpretation of the toxicity study results can completely 
+invalidate a study.
+5.4.5.6  Exposure-Based Safety Margin Estimations
+The calculation of safety margins is an important aspect 
+when interpreting nonclinical toxicology studies and transla-
+tion to product safety in humans. This approach is used not 
+only in drug development to evaluate the clinical safety of 
+Investigational New Drugs, but it is also used in human risk 
+assessment for chemicals, food additives, cosmetic ingre-
+dients, etc. The exposure-based safety margin is the ratio of 
+the exposure at the NOAEL dose in animals to the human 
+exposure level at the therapeutic dose. In drug development, 
+exposure-based safety margins are most often calculated using 
+AUC as the relevant pharmacokinetic/toxicokinetic parameter; 
+however, in certain circumstances, Cmax may actually be the 
+more appropriate parameter, as can be the case when Cmax is 
+the parameter that drives the pharmacodynamic and/or the 
+toxicological effects.
+	
+ 
+max
+ 
+ 
+max
+ 
+ 
+ 
+Safety Margin
+C
+C
+NOAEL in animal
+therapeutic dose in human
+=
+(
+)
+(
+)
+	
+(5.75)
+	
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Safety Margin
+AUC
+AUC
+NOAEL in animal
+therapeutic dose in human
+=
+(
+)
+(
+)
+	
+(5.76)
+In drug development, a safety margin of ≥10 is generally 
+acceptable for drugs intended for the treatment of non-oncol-
+ogy indications (see Figure 5.16). For small-molecule drugs for 
+oncology, it is common for the dose-limiting toxic effects to be 
+a result of exaggerated pharmacology at the target, and hence, 
+a NOAEL dose cannot be established in the nonclinical toxic-
+ity studies. As per ICH S9,61 the global guidance document 
+FIGURE 5.16  Panel A. Depiction of the relationship between the exposure (AUC or Cmax) for efficacy in humans versus the exposure in animals at the 
+NOAEL, at the lowest observed adverse effect level, and at which overt toxicity is observed. For drugs intended for non-oncology indications, a safety 
+margin of ≥10 is acceptable. Panel B. Depiction of the relationship between the exposure (AUC or Cmax) for efficacy in humans versus the exposure in 
+animals at the HNSTD, the maximal tolerated dose, and the severely toxic dose in 10% of animals (STD10) for cancer therapeutics. For oncology drugs, 
+it is common for safety margins to be narrow since dose-limiting toxicities are often the result of exaggerated on-target pharmacology.
+
+238
+Hayes’ Principles and Methods of Toxicology
+defining best practices for oncology drug development, it is 
+actually an allometrically scaled dose from the toxic doses in 
+animals, and not a no-effect dose, that is used to determine 
+the safe starting dose in human clinical trials for the treatment 
+of cancer. In nonclinical toxicity studies for oncology drugs, 
+it is important to establish the severely toxic (lethal) dose in 
+10% of the animals (STD10) in rodents and the highly non-
+severely toxic dose (HNSTD) in the non-rodents species. The 
+HNSTD can be a dose at which adverse toxicological findings 
+are observed but is defined as the dose that does not result in 
+life-threatening or irreversible findings. In the case of oncol-
+ogy drugs, the exposure-based margins can inform which 
+toxicities to monitor for in early clinical trials by comparing 
+the exposure at which the toxicity occurs in animals versus 
+the exposure attained in human patients upon dose escalation 
+clinical studies.62
+5.5  Regulatory Considerations for 
+Toxicokinetic Studies
+5.5.1  Animal Welfare and Animal Use Protocols
+The humane use of animals for research is a regulated process. 
+A thorough discussion of the established legal foundations for 
+the use and welfare of experimental animals used in toxicity 
+testing is described in Chapter 21 of this text and elsewhere.63 
+Laboratories that conduct toxicity testing must establish an 
+Institutional Animals Care and Use Committee (IACUC) to 
+review all proposed animal studies. Animal protocol review 
+by IACUC will evaluate:
+•	 The justification for using animals rather than alter-
+native in vitro methods, the number of animals to be 
+used, and the species chosen
+•	 The procedures or drugs to eliminate or reduce pain 
+and discomfort
+•	 Proposed alternatives to painful procedures
+•	 No duplication of previous research
+•	 Euthanasia methods
+•	 Training, experience, and qualifications of labora-
+tory personnel
+The Association for Assessment and Accreditation of 
+Laboratory Animal Care (AAALAC) International is a non-
+profit organization that accredits animal care and use pro-
+grams for research, teaching, and testing worldwide. Most 
+laboratories that conduct toxicity testing that will be used in 
+regulatory filings are AAALAC accredited. The AAALAC 
+International Standards and Accreditation Process is summa-
+rized by Gettayacamin and Retnam.64
+5.5.2  Pharmaceutical Product Development
+In the development of pharmaceutical products intended for 
+use in human subjects, the ICH of Technical Requirements for 
+Registration of Pharmaceutical for Human Use has published 
+a guidance document on how to integrate TK into toxicity 
+studies (ICH S3A53). The ICH is an international non-profit 
+association that brings together regulatory authorities and 
+the pharmaceutical industry to discuss scientific and techni-
+cal aspects of drug registration. ICH’s mission is to achieve 
+worldwide harmonization to ensure that safe, effective, and 
+high-quality medicines are developed and registered in a 
+resource-efficient manner.
+ICH S3A53 (ICH Guidance on Toxicokinetics) was final-
+ized and implemented in October 1994, which was followed 
+by a Q&A document developed by the S3A Implementation 
+Working Group in November 2017. The ICH S3A Q&A49 doc-
+ument, which has reached Step 4 of the formal ICH procedure 
+entailing its adoption as a harmonized guideline, is intended 
+to address the benefit and use of microsampling techniques to 
+support TK (discussed earlier in this chapter).
+The guidance highlights the need to integrate PK into toxic-
+ity testing to facilitate the interpretation of toxicology find-
+ings and their relevance to clinical safety issues. The ICH S3A 
+guideline dictates the study design, conduct, and interpreta-
+tion of TK data conducted in support of regulated nonclini-
+cal toxicity studies. As per ICH Safety guidelines, nonclinical 
+toxicology studies to be supported by TK assessment include 
+single- and repeat-dose general toxicology studies, reproduc-
+tive and developmental, in vivo genotoxicity, and carcinoge-
+nicity studies. For pivotal toxicity studies, the performance 
+of which is subject to compliance with GLP regulations, the 
+concomitant TK including analytical method development, 
+method validation, bioanalysis, TK parameter calculation, and 
+reporting must also conform to GLP regulations.
+ICH S3A provides guidance in terms of dose selection for 
+pivotal nonclinical toxicology studies. It is recommended 
+that the low dose level in toxicity studies be a no-toxic-effect 
+dose level and that the exposure in animals ideally be equal 
+or slightly exceed the expected or known exposure in human 
+patients at the pharmacologically active dose. The intermedi-
+ate (mid) dose level would normally represent an appropriate 
+multiple of the exposure attained at either the low or high dose 
+levels. The high dose level will usually be chosen in terms of 
+toxicological considerations. It is expected that the route of 
+administration is the intended route for humans. Although it is 
+not strictly specified in the ICH S3 guidance, it is established 
+industry best practice to determine TK parameters using non-
+compartmental methods.
+As per ICH S3A Q&A,49 bioanalytical methods support-
+ing microsampling techniques are expected to be developed, 
+qualified, and/or validated (for GLP studies) to ensure the reli-
+ability of analytical results, similarly to conventional methods.
+5.5.3  Non-Pharmaceutical Product Development
+In the development of non-pharmaceutical products (e.g., pes-
+ticides, industrial chemicals, consumer products, food addi-
+tives, and cosmetics), regulatory authorities have different 
+requirements regarding toxicokinetic endpoints and param-
+eters for different classes of chemicals. Data requirements 
+under non-pharmaceutical regulatory frameworks do not con-
+sistently include TK assessment.
+The OECD has issued three Test Guidelines (TG) outlining 
+study design recommendations for ADME studies as part of
+
+239
+Toxicokinetics
+its Environment, Health, and Safety Programme. The OECD 
+Guideline for the Testing of Chemicals 417,16 revised and 
+adopted in July 2010, applies to the oral route of administration 
+and the rat as the test species. As per the OECD 417 Guideline, 
+numerous studies can be conducted to evaluate the TK of a 
+chemical for regulatory purposes; however, depending on 
+particular regulatory needs or situations, not all of the studies 
+described in the guideline may be necessary for the safety eval-
+uation of a chemical. In contrast to pharmaceutical products, 
+TK evaluation in toxicology studies is not generally required 
+in the product registration process but is considered to be ben-
+eficial.50 The two other OECD Guidelines for the Testing of 
+Chemicals (TG 427 and 428),65,66 adopted in 2004, relate to in 
+vitro and in vivo methods to study dermal absorption and pro-
+vide guidance on how to enable extrapolation from oral studies 
+for risk assessment following dermal exposure to chemicals.
+5.6  Modeling and Simulation
+This chapter has primarily focused on the study design and 
+practical methods for the assessment of in vivo TK parameters. 
+The next chapter in this book describes the development of 
+PBPK and PBTK models and their application as a tool for risk 
+assessment and estimation of toxicant exposure at target tis-
+sues. In addition to the understanding of the in vivo dose-expo-
+sure-toxicity relationship of the toxicant under study, additional 
+ADME data are necessary to develop predictable PBPK/PBTK 
+models. These ADME parameters are outlined in Table 5.4.
+5.7  Concluding Remarks
+While the fundamental mathematical principles of TK have 
+long been established, the study design, dose administration, 
+sampling, and bioanalytical techniques are constantly evolving 
+to reduce the number of animals required to execute success-
+ful in vivo toxicokinetic studies. A strong regulatory frame-
+work has been established to regulate toxicokinetic study 
+conduct and data interpretation, to enable extrapolation from 
+animal to human, and to support scientifically sound- and 
+evidence-based human risk assessment. This framework has 
+allowed for investigational new drugs to be tested in clinical 
+trials at doses that are safe for the enrolled human subjects 
+and that are likely to provide therapeutic benefits to patients. 
+Similarly, this framework has also allowed for the appropriate 
+hazard identification of non-pharmaceutical products (chemi-
+cals, pesticides, etc.) that we use routinely in our daily lives so 
+that these consumer products may be used safely.
+5.8  Self-Assessment Exercises
+	 5.1	 A new chemical has been administered to rats and 
+humans by both oral and IV (bolus) routes. Basic 
+toxicokinetic measurements (extrapolated to infin-
+ity) are given as follows:
+Calculate appropriate toxicokinetic parameters 
+(CL, V, t1/2, oral F), and suggest biochemical and 
+physiological mechanisms that could explain the 
+species difference.
+	 5.2	 The pharmaceutical company that you work for has 
+developed a novel opioid for the treatment of intrac-
+table pain. The drug is 20 times more potent than 
+morphine in relation to both analgesia and respi-
+ratory depression when given to rats by IV injec-
+tion, and binding studies show that it has a high and 
+similar affinity for μ-receptors of rats and humans. 
+Initial kinetic studies in humans after a single IV 
+bolus dose of 10 mg gave the following data:
+Intravenous
+Rat
+Human
+Dose (mg/kg)
+10
+1
+AUC (μg/mL min)
+2,000
+500
+Terminal slope (min–1)
+0.0025
+0.001
+% Dose excreted unchanged in urine
+1
+15
+Oral
+ 
+ 
+Dose (mg/kg)
+100
+1
+AUC (μg/mL min)
+8,000
+490
+Terminal slope (min–1)
+0.0025
+0.001
+TABLE 5.4
+Tabulated Summary of ADME Parameters Which Define Toxicant Disposition To Aid in PBPK/PBTK Model Development
+Physicochemical Properties
+Absorption
+Distribution
+Metabolism
+Excretion
+Chemical class (e.g., acid, 
+base, neutral)
+Solubility in biofluids
+Unbound fraction in 
+plasma or blood
+Extent of metabolism
+Fraction eliminated as 
+parent and/or metabolites
+Lipophilicity
+Dissolution rates
+Blood-to-plasma 
+ratio
+Primary routes of 
+biotransformation
+Renal elimination
+Aqueous solubility
+Formulation and particle 
+size
+Tissue partitioning 
+and distribution
+Enzymes involved in 
+metabolism
+Biliary/fecal elimination
+pKa
+Cell permeability
+Efflux or uptake 
+transporter substrate
+Species differences
+Efflux or uptake 
+transporter substrate
+Intestinal first-pass effect
+Lysosomal trapping
+Sex differences
+Excretion into breast milk
+Bioavailability
+Body composition
+Genetic polymorphisms in 
+drug-metabolizing enzymes
+Placental transfer
+Hepatic versus extra-hepatic
+
+240
+Hayes’ Principles and Methods of Toxicology
+The area under the plasma concentration-time 
+curve (AUC) extrapolated to infinity was 2,310 ng/
+mL h. Urine was collected over a period of 2–4 h 
+after dosing and contained a total of 1.85 mg of 
+the parent drug and 0.1 mg of a hydroxy metabo-
+lite: the plasma concentration of parent drug at 3 h 
+was 238 ng/mL. After a single oral dose of 10 mg, 
+the maximum plasma concentration occurred at 8 h 
+and was only 48 ng/mL; the blood concentration 
+reached 6 ng/mL by 36 h. The AUC to infinity was 
+1,155 ng/mL h.
+Plot the IV data on graph paper. Calculate appro-
+priate pharmacokinetic parameters to describe 
+the elimination rate, clearance, distribution, and 
+absorption of the drug.
+Describe the probable overall fate of the drug in 
+the body (e.g., routes of elimination). What extra 
+studies/data could support your description of the 
+fate of the drug? Is the oral bioavailability adequate 
+to support oral dosing?
+If the exposure attained in rats at the NOAEL is 
+46,200 ng/mL h, what is the safety margin based on 
+AUC? Is this safety margin adequate for the treat-
+ment of chronic pain?
+	 5.3 	The toxicokinetic parameters on Day 91 from 
+a 13-week general toxicity study conducted in 
+Sprague-Dawley rats with an investigational new 
+drug are shown in the below table.
+Are the increases in Cmax and AUC0–24 less than 
+dose-proportional, dose-proportional, or supra-
+dose-proportional? Is there a sex difference in 
+exposure? If so, what are the potential mechanisms 
+of sex differences in TK? If on Day 1, at 1,000 mg/
+kg in male rats, the AUC0–24 was 7,602 ng h/mL, 
+what is the accumulation ratio with repeated daily 
+dosing?
+REFERENCES
+	
+1.	 Hilal-Dandan R, Brunton LL, eds. Pharmacodynamics: 
+Molecular Mechanisms of Drug Action. In: Goodman & 
+Gilman’s Manual of Pharmacology and Therapeutics. 2nd 
+ed. McGraw Hill Education, New York; 2014: 27–49.
+	
+2.	 Hilal-Dandan R, Bruntun LL, eds. Pharmacokinetics: The 
+Dynamics of Drug Absorption, Distribution, Metabolism, 
+and Elimination. In: Goodman & Gilman’s Manual of 
+Pharmacology and Therapeutics. 2nd ed. McGraw Hill 
+Education, New York; 2014: 12–26.
+	
+3.	 Lehman-McKeeman L. Absorption, Distribution, and 
+Excretion of Toxicants. In: Klaassen CD, ed. Casarett & 
+Doull’s Toxicology: The Basic Science of Poisons. 8th ed. 
+McGraw Hill Education, New York; 2013: 151–390.
+	
+4.	 Gabrielsson J, Hjorth S. Quantitative Pharmacology: An 
+Introduction to Integrative Pharmacokinetic-Pharma­codyna­
+mic Analysis. Apotekarsocieteten, Stockholm; 2012.
+	
+5.	 Lee JS, Obach RS, Fisher MB, eds. Drug Metabolizing 
+Enzymes: Cytochrome P450 and Other Enzymes in Drug 
+Discovery and Development. CRC Press, Taylor & Francis 
+Group, Boca Raton, FL; 2003.
+	
+6.	 Martignoni M, Groothuis GMM, de Kanter R. Species 
+Differences between Mouse, Rat, Dog, Monkey and Human 
+CYP-Mediated Drug Metabolism, Inhibition and Induction. 
+Expert Opinion on Drug Metabolism & Toxicology. 
+2006;2(6):875–894. doi:10.1517/17425255.2.6.875
+	
+7.	 Kusuhara H, Sekine T, Anzai N, Endou H. Drug Transport in 
+the Kidney. In: You G, Morris ME, eds. Drug Transporters: 
+Molecular Characterization and Role in Drug Disposition. 
+2nd ed. John Wiley & Sons, Inc., Hoboken, NJ; 2014: 
+303–326.
+	
+8.	 Proudfoot AT, Krenzelok EP, Vale JA. Position Paper on 
+Urine Alkalinization. Journal of Toxicology - Clinical 
+Toxicology. 2004;42(1):1–26. doi:10.1081/CLT–120028740
+	
+9.	 Lea-Henry TN, Carland JE, Stocker SL, Sevastos J, 
+Roberts DM. Clinical Pharmacokinetics in Kidney Disease. 
+Clinical Journal of the American Society of Nephrology. 
+2018;13(7):1085–1095. doi:10.2215/CJN.00340118
+	 10.	 Walton K, Dorne JLCM, Renwick AG. Species-Specific 
+Uncertainty Factors for Compounds Eliminated Principally by 
+Renal Excretion in Humans. Food and Chemical Toxicology. 
+2004;42(2):261–274. doi:10.1016/j.fct.2003.09.001
+	 11.	 Garrett E. Pharmacokinetics and Clearance Related 
+to Renal Processes. International Journal of Clinical 
+Pharmacology. 1978;16:155–172.
+	 12.	 Rowland M, Benet L, Graham G. Clearance Concepts 
+in 
+Pharmacokinetics. 
+Journal 
+of 
+Pharmacokinetics 
+Biopharmaceutics. 1973;1:123–136.
+	 13.	 Wilkinson G, Shand DA Physiological Approach to Hepatic 
+Drug Clearance. Clinical Pharmacology and Therapeutics. 
+1975;18:377–390.
+	 14.	 Yang J, Jamei M, Yeo KR, Rostami-Hodjegan A, Tucker 
+GT. Misuse of the Well-Stirred Model of Hepatic 
+Drug Clearance. Drug Metabolism and Disposition. 
+2007;35(3):501–502. doi:10.1124/dmd.106.013359
+	 15.	 Ferslew BC, Kock K, Brouwer KL. Drug Transport in the 
+Liver. In: You G, Morris ME, eds. Drug Transporters: 
+Molecular Characterization and Role in Drug Disposition. 
+2nd ed. John Wiley & Sons, Inc., Hoboken, NJ; 2014: 
+245–272.
+Dose  
+(mg/kg/day)
+Sex
+Day 91 Cmax  
+(ng/mL)
+Day 91 AUC0–24h  
+(ng h/mL)
+100
+Male
+52
+778
+Female
+113
+1,590
+300
+Male
+215
+2,476
+Female
+452
+5,002
+1,000
+Male
+775
+8,180
+Female
+1,601
+16,375
+Time after Dose (h)
+Plasma Concentration (ng/mL)
+0.5
+367
+1.0
+336
+2
+283
+4
+200
+6
+141
+10
+71
+24
+6.3
+
+241
+Toxicokinetics
+	 16.	 Organisation for Economic Co-operation and Development 
+(OECD). Test No. 417: Toxicokinetics, OECD Guidelines 
+for the Testing of Chemicals.; 2010.
+	 17.	 Gabrielsson J, Weiner D. Pharmacokinetic Concepts. In: 
+Pharmacokinetic and Pharmacodynamic Data Analysis: 
+Concepts and Applications. 4th ed. Swedish Pharmaceutical 
+Press, Stockholm; 2000: 11–224.
+	 18.	 Gibaldi M, Perrier D. One-Compartment Model. In: 
+Swarbrick J, ed. Pharmacokinetics, Revised and Expanded. 
+2nd ed. Marcel Dekker, Inc., Boca Raton, FL; 1982: 409–417.
+	 19.	 Robert A, Renwick AG. Toxicokinetics. In: Hayes WA, 
+Kruger CL, eds. Hayes’ Principles and Methods of 
+Toxicology. 6th ed. CRC Press, Taylor & Francis Group, 
+Boca Raton, FL; 2014: 215–245.
+	 20.	 Gibaldi M, Perrier D. Pharmacokinetics, Revised and 
+Expanded. 2nd ed. (Swarbrick J, ed.). Marcel Dekker, Inc., 
+Boca Raton, FL; 1982.
+	 21.	 Rowland M, Tozer TN. Clinical Pharmacokinetics and 
+Pharmacodynamics: Concepts and Applications. 4th ed. 
+Wolters Kluwer Health/Lippincott William & Wilkins, 
+Baltimore, MD; 2010.
+	 22.	 Gabrielsson 
+J, 
+Weiner 
+D. 
+Pharmacokinetic 
+and 
+Pharmacodynamic 
+Data 
+Analysis: 
+Concepts 
+and 
+Applications. 5th ed. Swedish Pharmaceutical Press, 
+Stockholm; 2017.
+	 23.	 Thackaberry EA. Bridging End of Discovery to Regulatory 
+Filing: Formulation for IND- and Registration-Enabling 
+Nonclinical Studies. In: Kwong E, ed. Oral Formulation 
+Roadmap from Early Drug Discovery to Development. 
+John Wiley & Sons, Inc., Hoboken, NJ; 2017: 89–114.
+	 24.	 Gad SC, Spainhour CB, Shoemake C, et al. Tolerable Levels 
+of Nonclinical Vehicles and Formulations Used in Studies by 
+Multiple Routes in Multiple Species With Notes on Methods 
+to Improve Utility. International Journal of Toxicology. 
+2016;35(2):95–178. doi:10.1177/1091581815622442
+	 25.	 Li P, Zhao L. Developing Early Formulations: Practice 
+and Perspective. International Journal of Pharmaceutics. 
+2007;341(1–2):1–19. doi:10.1016/j.ijpharm.2007.05.049
+	 26.	 Turner P v, Brabb T, Pekow C, Vasbinder MA. 
+Administration of substances to Laboratory Animals: 
+Routes of Administration and Factors to Consider. Journal 
+of the American Association for Laboratory Animal 
+Science. 2011;50(5):600–613.
+	 27.	 Mi YN, Ping NN, Xiao X, Cao L, Zhu YB, Cao YX. 
+A Sensitive Beagle Model to Evaluate Anaphylactoid 
+Reactions. Allergologie. 2015;38(10):491–497. doi:10.5414/
+ALE011794
+	 28.	 Green OP, Healing G, eds. Non-Clinical Vascular Infusion 
+Technology: The Techniques. Vol 2. CRC Press, Boca 
+Raton, FL; 2014.
+	 29.	 Green OP, Healing G, eds. Non-Clinical Vascular Infusion 
+Technology: The Science. Vol 1. CRC Press, Boca Raton, 
+FL; 2014.
+	 30.	 Thackaberry EA, Kopytek S, Sherratt P, Trouba 
+K, 
+McIntyre 
+B. 
+Comprehensive 
+Investigation 
+of 
+Hydroxypropyl 
+Methylcellulose, 
+Propylene 
+Glycol, 
+Polysorbate 80, and Hydroxypropyl-Beta-Cyclodextrin for 
+Use in General Toxicology Studies. Toxicological Sciences. 
+2010;117(2):485–492. doi:10.1093/toxsci/kfq207
+	 31.	 SPORANOX Injection Label. https://www.accessdata.fda.
+gov/drugsatfda_docs/label/2002/20966s6lbl.pdf.
+	 32.	 SPORANOX Oral Solution Label. https://www.accessdata.
+fda.gov/drugsatfda_docs/label/2017/020657s035lbl.pdf.
+	 33.	 XTANDI CHMP Assessment Report. https://www.ema.
+europa.eu/en/documents/assessment-report/xtandi-epar- 
+public-assessment-report_en.pdf.
+	 34.	 Gad SC. Oral Drug Formulation Development in Phar­
+maceutical Lead Selection Stage. In: Kwong E, ed. Oral 
+Formulation Roadmap from Early Drug Discovery to 
+Development. John Wiley & Sons, Inc., Hoboken, NJ; 
+2017: 39–88.
+	 35.	 Zane P, Guo Z, Macgerorge D, Vicat P, Ollier C. Use of 
+the Pentagastrin Dog Model to Explore the Food Effects 
+on Formulations in Early Drug Development. European 
+Journal of Pharmaceutical Sciences. 2014;57(1):207–213. 
+doi:10.1016/j.ejps.2013.09.018
+	 36.	 Hannas BR, Ellis-Hutchings RG, Marshall VA, et al. 
+Dietary Route of Exposure for Rabbit Developmental 
+Toxicity Studies. Toxicological Sciences. 2016;154(1):90–
+100. doi:10.1093/toxsci/kfw141
+	 37.	 Brain JD, Kreyling WG, Godleski JJ. Inhalation Toxicology. 
+In: Hayes WA, Kruger CL, eds. Hayes’ Principles and 
+Methods of Toxicology. 6th ed. CRC Press, Taylor & Francis 
+Group, Boca Raton, FL; 2014: 1385–1444.
+	 38.	 Owen K. Regulatory Toxicology Considerations for the 
+Development of Inhaled Pharmaceuticals. Drug and 
+Chemical Toxicology. 2013;36(1):109–118. doi:10.3109/014
+80545.2011.648327
+	 39.	 Boersen N, Lee T, Hui H-W. Development of Preclinical 
+Formulations for Toxicology Studies. In: Faqi AS, ed. A 
+Comprehensive Guide to Toxicology in Preclinical Drug 
+Development. Elsevier Inc., San Diego, CA; Waltham, MA; 
+2013: 69–86.
+	 40.	 Willard-Mack C, Ramani T, Auletta C. Dermatotoxi­
+cology: Safety Evaluation of Topical Products in Mini­
+pigs: Study Designs and Practical Considerations. 
+Toxicolo­gic Pathology. 2016;44(3):382–390. doi:10.1177/ 
+0192623315622585
+	 41.	 National Research Council C for R of NP 1138. Principles 
+and Procedures for Evaluating the Toxicity of Household 
+Substances. National Academy of Sciences; 1977.
+	 42.	 Derelanko MJ. The Toxicologist’s Pocket Handbook. 2nd 
+ed. CRC Press, Taylor & Francis Group, Boca Raton, FL; 
+2008.
+	 43.	 Hinderling PH. Red Blood Cells: A Neglected Compartment 
+in 
+Pharmacokinetics 
+and 
+Pharmacodynamics. 
+Pharmacological Reviews. 1997;49(3):279–295.
+	 44.	 Yu S, Li S, Yang H, Lee F, Wu J-T, Qian MG. A Novel 
+Liquid 
+Chromatography/Tandem 
+Mass 
+Spectrometry 
+Based Depletion Method for Measuring Red Blood Cell 
+Partitioning of Pharmaceutical Compounds in Drug 
+Discovery. Rapid Communications in Mass Spectrometry. 
+2005;19(2):250–254. doi:10.1002/rcm.1777
+	 45.	 Wang B, Wang L, Batog A, et al. Investigation on the 
+Effect of Capillary Microsampling on Hematologic 
+and Toxicokinetic Evaluation in Regulatory Safety 
+Studies in Mice. AAPS Journal. 2020;22(2). doi:10.1208/
+s12248-020-00438–z
+	 46.	 Schrag M, Regal K. Pharmacokinetics and Toxicokinetics. 
+In: Faqi AS, ed. A Comprehensive Guide to Toxicology in 
+Preclinical Drug Development. Elsevier Inc., San Diego, 
+CA; Waltham, MA; 2013: 31–68.
+
+242
+Hayes’ Principles and Methods of Toxicology
+	 47.	 Caron A, Lelong C, Bartels T, et al. Clinical and Anatomic 
+Pathology Effects of Serial Blood Sampling in Rat 
+Toxicology Studies, Using Conventional or Microsampling 
+Methods. Regulatory Toxicology and Pharmacology. 
+2015;72(3):429–439. doi:10.1016/j.yrtph.2015.05.022
+	 48.	 Hackett MJ, Kinderknecht KD, Niemuth NA, et al. 
+A Factorial Analysis of Drug and Bleeding Effects 
+in 
+Toxicokinetic 
+Studies. 
+Toxicological 
+Sciences. 
+2019;170(1):234–246. doi:10.1093/toxsci/kfz092
+	 49.	 ICH (International Council for Harmonisation of Technical 
+Requirements for Pharmaceuticals for Human Use). ICH 
+Harmonised Guideline Questions and Answers to ICH 
+S3A: Note for Guidance on Toxicokinetics: The Assessment 
+of Systemic Exposure in Toxicity Studies Focus on 
+Microsampling S3A Q&As Final Version.; 2017.
+	 50.	 Chapman K, Burnett J, Corvaro M, et al. Reducing Pre-
+Clinical Blood Volumes for Toxicokinetics: Toxicologists, 
+Pathologists 
+and 
+Bioanalysts 
+Unite. 
+Bioanalysis. 
+2014;6(22):2965–2968. doi:10.4155/bio.14.204
+	 51.	 Dillen L, Loomans T, van de Perre G, Versweyveld D, Wuyts 
+K, de Zwart L. Blood Microsampling Using Capillaries for 
+Drug-Exposure Determination in Early Preclinical Studies: 
+A Beneficial Strategy to Reduce Blood Sample Volumes. 
+Bioanalysis. 2014;6(3):293–306. doi:10.4155/bio.13.286
+	 52.	 Verhaeghe T, Dillen L, Stieltjes H, et al. The Application 
+of 
+Capillary 
+Microsampling 
+in 
+GLP 
+Toxicology 
+Studies. 
+Bioanalysis. 
+2017;9(7):531–540. 
+doi:10.4155/
+bio–2016–0297
+	 53.	 ICH (International Conference on Harmonization of 
+Technical Requirements for Registration of Pharmaceuticals 
+for Human Use). ICH S3A: Note for Guidance on 
+Toxicokinetics: The Assessment of Systemic Exposure in 
+Toxicity Studies.; 1994.
+	 54.	 Burden N, Kendrick J, Knight L, et al. Maximizing 
+the Success of Bile Duct Cannulation Studies in Rats: 
+Recommendations for Best Practice. Laboratory Animals. 
+2017;51(5):457–464. doi:10.1177/0023677217698001
+	 55.	 Center for Drug Evaluation and Research. Bioanalytical 
+Method Validation: Guidance for Industry. https://www.
+fda.gov/files/drugs/published/Bioanalytical-Method-
+Validation-Guidance-for-Industry.pdf.
+	 56.	 Colucci P, Ducharme MP. Applications of Software 
+Packages in Pharmacokinetics. In: Shargel L, Yu AB, eds. 
+Applied Biopharmaceutics and Pharmacokinetics. 7th ed. 
+McGraw-Hill, New York; 2016: 851–874.
+	 57.	 Certara. 
+https://www.certara.com/app/uploads/2020/06/
+BR_PhoenixWinNonlin.pdf.
+	 58.	 ICH (International Council for Harmonisation of Technical 
+Requirements for Pharmaceuticals for Human Use). ICH 
+Harmonised Guideline Integrated Addendum to ICH 
+E6(R1): Guideline for Good Clinical Practice E6(R2).; 
+2016.
+	 59.	 Certara. 
+https://cn.certara.com/knowledge-base/
+calculating-auc-linear-and-log-linear/.
+	 60.	 Kemper RA, Taub ME, Bogdanffy MS. Metabolism: A 
+Determinant of Toxicity. In: Hayes WA, Kruger CL, eds. 
+Hayes’ Principles and Methods of Toxicology. 6th ed. CRC 
+Press, Boca Raton, FL; 2014.
+	 61.	 ICH (International Conference on Harmonisation of 
+Technical Requirements for Registration of Pharmaceuticals 
+for Human Use). Nonclinical Evaluation for Anticancer 
+Pharmaceuticals S9 Current Step 4 Version.; 2009.
+	 62.	 Maziasz T, Kadambi VJ, Silverman L, Fedyk E, Alden 
+CL. Predictive Toxicology Approaches for Small Molecule 
+Oncology Drugs. Toxicologic Pathology. 2010;38(1):148–
+164. doi:10.1177/0192623309356448
+	 63.	 Weichbrod RH, Thompson GA (Heidbrink), Norton JN, 
+eds. Management of Animal Care and Use Programs in 
+Research, Education, and Testing. 2nd ed. CRC Press, 
+Boca Raton, FL; 2018. doi:10.1201/9781315152189
+	 64.	 Gettayacamin M, Retnam L. AAALAC International 
+Standards and Accreditation Process. Toxicological 
+Research. 
+2017;33(3):183–189. 
+doi:10.5487/
+TR.2017.33.3.183
+	 65.	 Organisation for Economic Co-operation and Development 
+(OECD). Test No. 427: Skin Absorption: In Vivo Method, 
+OECD Guidelines for the Testing of Chemicals. OECD; 
+2004. doi:10.1787/9789264071063–en
+	 66.	 Organisation for Economic Co-operation and Development 
+(OECD). Test No. 428: Skin Absorption: In Vitro Method, 
+OECD Guidelines for the Testing of Chemicals. OECD; 
+2004. doi:10.1787/9789264071087–en

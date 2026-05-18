@@ -1,0 +1,89 @@
+{
+  "domain-i-conduct-of-studies": {
+    "name": "Domain I: Conduct of Toxicological Studies",
+    "level": 1,
+    "exam_weight": "36%",
+    "prerequisites": [],
+    "subdomains": {
+      "a-design": { "name": "A. Design", "weight": "11%", "topics": ["Study Design", "OECD Test Guidelines", "ICH S-series", "GLP", "Dose Selection"] },
+      "b-execute": { "name": "B. Execute", "weight": "9%", "topics": ["Study Execution", "Data Collection", "Quality Assurance", "Histopathology"] },
+      "c-interpret": { "name": "C. Interpret", "weight": "16%", "topics": ["Data Interpretation", "NOAEL/LOAEL", "Statistical Analysis", "Adversity Determination", "Pathology Interpretation"] }
+    },
+    "topics": ["General Principles & Concepts", "General Toxicology", "Mechanisms of Toxicity"]
+  },
+  "domain-ii-mechanistic-tox": {
+    "name": "Domain II: Mechanistic Toxicology",
+    "level": 2,
+    "exam_weight": "13%",
+    "prerequisites": ["domain-i-conduct-of-studies"],
+    "subdomains": {
+      "hypothesis-development": { "name": "Hypothesis Development", "topics": ["MOA/AOP", "Hypothesis Testing"] },
+      "species-differences": { "name": "Species Differences", "topics": ["Comparative Toxicology", "Extrapolation"] },
+      "susceptibility": { "name": "Susceptibility Factors", "topics": ["Genetic Susceptibility", "Age/Sex Differences"] },
+      "direct-vs-indirect": { "name": "Direct vs Indirect Action", "topics": ["Primary vs Secondary Toxicity"] },
+      "translation": { "name": "Translation Across Biological Levels", "topics": ["In Vitro to In Vivo", "Molecular to Organism"] }
+    },
+    "topics": ["Mechanisms of Toxicity", "Biotransformation / Metabolism", "Genotoxicity / DNA Damage", "Carcinogenesis & Mutagenesis"]
+  },
+  "domain-iii-risk-assessment": {
+    "name": "Domain III: Risk Assessment",
+    "level": 3,
+    "exam_weight": "38%",
+    "prerequisites": ["domain-i-conduct-of-studies"],
+    "subdomains": {
+      "a-hazard-id": { "name": "A. Hazard Identification", "weight": "12%", "topics": ["Hazard ID", "Weight of Evidence", "Cancer Classification"] },
+      "b-exposure": { "name": "B. Exposure Assessment", "weight": "8%", "topics": ["Exposure Assessment", "Biomonitoring", "Exposure Reconstruction"] },
+      "c-dose-response": { "name": "C. Dose-Response Assessment", "weight": "9%", "topics": ["Dose-Response Modeling", "BMD", "NOAEL/UF/MF", "POD Selection"] },
+      "d-risk-char": { "name": "D. Risk Characterization & Management", "weight": "9%", "topics": ["Risk Characterization", "Margin of Exposure", "Risk Management"] }
+    },
+    "topics": ["Risk Assessment & Regulatory", "Toxicokinetics / ADME", "Dose-Response"]
+  },
+  "domain-iv-applied-tox": {
+    "name": "Domain IV: Applied Toxicology",
+    "level": 3,
+    "exam_weight": "13%",
+    "prerequisites": ["domain-i-conduct-of-studies"],
+    "subdomains": {
+      "ecotoxicology": { "name": "Ecotoxicology", "topics": ["Environmental Toxicology", "Ecosystem Exposures"] },
+      "public-health": { "name": "Public Health Response", "topics": ["Emergency Response", "Poison Control"] },
+      "biomonitoring": { "name": "Biomonitoring", "topics": ["Biomonitoring Programs", "Exposure Biomarkers"] },
+      "susceptible-pop": { "name": "Susceptible Subpopulations", "topics": ["Children", "Elderly", "Pregnant Women"] },
+      "sustainable-products": { "name": "Sustainable Product Development", "topics": ["Green Chemistry", "Alternatives Assessment"] }
+    },
+    "topics": [
+      "Metals & Metalloids",
+      "Solvents & Hydrocarbons",
+      "Pesticides – Insecticides",
+      "Pesticides – Herbicides",
+      "Pesticides – Rodenticides",
+      "Pesticides – Fumigants",
+      "Gases – Asphyxiants & Irritants",
+      "Air Pollution & Particulates",
+      "Drugs & Therapeutics – Toxicology",
+      "Plant Toxins",
+      "Animal & Microbial Venoms / Toxins",
+      "Mycotoxins",
+      "Food Additives, Cosmetics & GRAS",
+      "Alcohols & Methanol/Ethanol"
+    ]
+  },
+  "organ-systems": {
+    "name": "Organ System Toxicology",
+    "level": 2,
+    "exam_weight": "Cross-cutting",
+    "prerequisites": ["domain-i-conduct-of-studies"],
+    "topics": [
+      "Liver / Hepatotoxicity",
+      "Kidney / Nephrotoxicity",
+      "Lung / Pulmonary Toxicity",
+      "Nervous System / Neurotoxicity",
+      "Skin / Dermatotoxicity",
+      "Eye / Ocular Toxicity",
+      "Cardiovascular Toxicity",
+      "Hematology & Blood Toxicity",
+      "Immunotoxicology / Allergy",
+      "Endocrine Toxicology",
+      "Reproductive & Developmental Toxicity"
+    ]
+  }
+}
