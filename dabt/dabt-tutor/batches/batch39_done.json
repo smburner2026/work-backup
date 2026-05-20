@@ -1,0 +1,252 @@
+[
+  {
+    "id": "DABT-2154",
+    "explanation": "Correct answer: D — digoxin therapy is the exception (NOT indicated). Management of sustained-release CCB overdose includes: hospital admission for ≥ 24 hours (A — delayed toxicity from sustained-release formulations is well-documented), whole-bowel irrigation (B — PEG solution mechanically evacuates undissolved SR tablets before they fully dissolve), and continuous ECG monitoring (C — for bradycardia, AV block). Digoxin therapy (D) has NO role in CCB overdose — digoxin has negative chronotropic effects (would worsen bradycardia) and offers no benefit in calcium channel blockade. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2155",
+    "explanation": "Correct answer: B — membrane-stabilizing activity (MSA). In beta-blocker overdose, MSA (also known as quinidine-like or local anesthetic activity) is the property that renders beta-blockers most toxic. MSA causes sodium channel blockade, leading to QRS widening, ventricular dysrhythmias, seizures, and profound myocardial depression. Propranolol has the most potent MSA. Water solubility (A) affects absorption and CNS penetration (hydrophilic β-blockers like atenolol are safer). Vasodilatory activity (C) contributes to hypotension but is less critical than MSA. Cardiac selectivity (D) determines preferential β1 blockade but does not correlate with overdose lethality. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2156",
+    "explanation": "Correct answer: C — sotalol. Sotalol is a unique beta-blocker with additional class III antiarrhythmic activity (potassium channel blockade) that prolongs the QT interval, increasing the risk of torsade de pointes. Magnesium infusions are the first-line treatment for torsade de pointes, regardless of cause. Propranolol (A), nadolol (B), and metoprolol (D) do not have class III activity and do not typically cause QT prolongation or torsade. Distractor trap: This tests the distinction between pure β-blockers and those with class III action. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2157",
+    "explanation": "Correct answer: A — glucagon. In beta-blocker overdose with hypotension and bradycardia unresponsive to atropine and IV fluids, glucagon is the recommended next therapy. Glucagon activates adenylate cyclase through its own G-protein-coupled receptor (distinct from β-adrenergic receptors), increasing intracellular cAMP and producing positive inotropic and chronotropic effects that bypass the blocked β-receptors. Theophylline (B) is not used for β-blocker overdose. Lidocaine (C) is an antiarrhythmic, not a pressor. Dopamine (D) relies on β-receptors which are blocked. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2158",
+    "explanation": "Correct answer: A — hypertonic sodium bicarbonate. Beta-blocker overdose with QRS widening indicates membrane-stabilizing activity (sodium channel blockade). Hypertonic sodium bicarbonate provides sodium to overcome the sodium channel blockade via mass action and alkalinizes the blood, shifting the drug off sodium channels. This is the same principle used for TCA and class I antiarrhythmic overdose. Vasopressin (B) is used for vasodilatory shock not related to sodium channel blockade. Potassium (C) would worsen cardiac conduction. Isoproterenol (D) is a β-agonist that would be ineffective if β-receptors are blocked. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2159",
+    "explanation": "Correct answer: D — atenolol. Atenolol is the safest beta-blocker in overdose because it is: (1) cardioselective (β1-predominant), (2) hydrophilic (low CNS penetration → fewer seizures), and (3) has no membrane-stabilizing activity (no sodium channel blockade → lower risk of QRS widening and dysrhythmias). Propranolol (A) is the most dangerous — it is lipophilic (CNS penetration), non-selective (β1 + β2), and has potent MSA. Timolol (B) is non-selective. Sotalol (C) has class III antiarrhythmic activity causing QT prolongation and torsade. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2160",
+    "explanation": "Correct answer: D — all of the above. Naloxone has been reported to reverse some effects of all three agents: clonidine (A) — naloxone may partially reverse clonidine-induced hypotension and bradycardia (though this is inconsistent and controversial); angiotensin-converting enzyme inhibitors (B) — naloxone may partially reverse captopril-induced hypotension; ethanol (C) — naloxone may partially reverse ethanol-induced respiratory depression and sedation (though this is also debated). The mechanisms are not fully understood but may involve endogenous opioid pathways. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2161",
+    "explanation": "Correct answer: A — dopamine. In overdose of direct-acting vasodilators (minoxidil, hydralazine), there is reflex sympathetic activation that depletes endogenous catecholamine stores. Dopamine acts partly by releasing endogenous norepinephrine from nerve terminals (indirect mechanism), making it unreliable in this setting. Direct-acting alpha agonists like norepinephrine (B) and phenylephrine (C) are preferred because they do not rely on endogenous stores. The correct answer is dopamine (A). Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2162",
+    "explanation": "Correct answer: C — erectile dysfunction. Clonidine (α₂-adrenergic agonist) has seen expanded use in recent years for: ADHD (A — off-label, improves impulse control and attention), opioid withdrawal (B — reduces autonomic symptoms via α₂ agonism at the locus coeruleus), and nicotine withdrawal (D — reduces craving and withdrawal symptoms). Erectile dysfunction (C) is NOT a use of clonidine — in fact, clonidine can cause sexual dysfunction (reduced libido, erectile dysfunction) as an adverse effect. Distractor trap: clonidine is sometimes used for menopausal hot flashes, but not for erectile dysfunction. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2163",
+    "explanation": "Correct answer: D — scleroderma. Nitrous oxide (N₂O) toxicity is primarily due to irreversible oxidation of the cobalt atom in vitamin B₁₂ (cobalamin), inactivating methionine synthase. This produces: leukopenia (A — impaired DNA synthesis in rapidly dividing cells), polyneuropathy (B — resembling subacute combined degeneration of the spinal cord from B12 deficiency), and increased rate of spontaneous abortions (C — occupational exposure in dental/OR settings). Scleroderma (D) is an autoimmune connective tissue disease associated with silica, vinyl chloride, and some chemotherapeutic agents — NOT with nitrous oxide. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2164",
+    "explanation": "Correct answer: A — CO (carbon monoxide). Enflurane and desflurane can degrade to carbon monoxide when exposed to dry CO₂ absorbents (soda lime, Baralyme) in anesthesia circuits, particularly when the absorbent has been dried out by fresh gas flow overnight. This reaction occurs via base-catalyzed dehydrofluorination of the difluoromethoxy (‑OCHF₂) group common to these agents. The resulting CO can cause intraoperative carboxyhemoglobinemia with tissue hypoxia. Fluorine gas (B), ozone (C), and phosgene (D) are degradation products of other volatile anesthetics but not the primary concern with enflurane/desflurane. Source: Goldfrank's Toxicologic Emergencies; Anesthesiology.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2165",
+    "explanation": "Correct answer: A — \"Eighty percent of cases occur after a single exposure\" is the FALSE statement. Halothane hepatitis is much more common after MULTIPLE exposures (not single exposure) — approximately 80% of cases occur after two or more exposures, especially within a short interval (weeks to months). The classic presentation is: initial uneventful halothane exposure, followed by fever, jaundice, and elevated transaminases days after a second exposure. B is TRUE — it is more common in women (~2:1 female-to-male ratio). C is TRUE — genetic susceptibility (CYP2E1 polymorphisms, immune HLA associations) is recognized. D is TRUE — obesity is a risk factor (increased fat storage of halothane, prolonged metabolism). Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2166",
+    "explanation": "Correct answer: C — vasopressin. Chronic angiotensin receptor blocker (ARB) therapy blocks AT₁ receptors, impairing the renin-angiotensin-aldosterone system's compensatory vasoconstrictor response during anesthesia. This can cause refractory hypotension that is unresponsive to traditional vasoconstrictors like ephedrine and phenylephrine (which work partly through RAAS activation). Vasopressin (antidiuretic hormone) bypasses the blocked RAAS by acting on V₁ receptors on vascular smooth muscle, producing direct vasoconstriction independent of angiotensin II. Ephedrine (A) — yes, may be less effective. Aldosterone (B) — mineralocorticoid, not a vasopressor. Glucagon (D) — inotropic, not primarily vasoconstrictive. Source: Goldfrank's Toxicologic Emergencies; Anesthesia textbooks.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2167",
+    "explanation": "Correct answer: B — hydrochlorothiazide. Hydrochlorothiazide (HCTZ) is a thiazide diuretic that acts in the distal convoluted tubule. Overdose primarily causes hypokalemia, hypomagnesemia, and metabolic alkalosis, but does NOT typically produce significant hypotension because it lacks direct vasodilatory properties. In contrast: diazoxide (A) is a potent direct vasodilator (opens K_ATP channels in vascular smooth muscle) producing profound hypotension; clonidine (C) is an α₂-agonist that causes central sympatholysis → bradycardia and hypotension in overdose; nifedipine (D) is a calcium channel blocker that causes vasodilation and hypotension. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2168",
+    "explanation": "Correct answer: A — flecainide is the exception (NOT helpful). In class 1A antiarrhythmic (quinidine, procainamide, disopyramide) poisoning — which causes QRS widening from sodium channel blockade and QT prolongation from potassium channel blockade — useful treatments include: hypertonic sodium bicarbonate (B — overcomes sodium channel blockade via mass action), magnesium sulfate (C — suppresses torsade de pointes from QT prolongation), and overdrive pacing (D — suppresses ventricular ectopy). Flecainide (A) is a class 1C antiarrhythmic with potent sodium channel blocking properties — administering it would worsen, not treat, sodium channel blockade. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2169",
+    "explanation": "Correct answer: D — The ingestor can receive a very large lidocaine dose. Viscous lidocaine (2%) is typically applied topically in small amounts (5–15 mL) to oral mucosa for local analgesia. If the entire bottle (100–200 mL) is swallowed, the patient absorbs a massive systemic lidocaine dose (2–4 grams) through the GI tract. This bypasses the usual topical route, producing rapid systemic absorption and high serum levels that can cause seizures, AV block, ventricular dysrhythmias, and cardiac arrest. The pleasant taste (A), propylene glycol content (B), and delayed-release properties (C) are not the primary explanation for its particular toxicity when swallowed. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2170",
+    "explanation": "Correct answer: D — procainamide is the exception (NOT helpful). Class 1C antiarrhythmic (flecainide, propafenone) poisoning produces potent sodium channel blockade. Useful treatments include: hypertonic sodium bicarbonate (A — overcomes sodium channel blockade), amiodarone (B — class III agent that does not worsen sodium channel blockade), and cardiopulmonary bypass (C — for severe refractory cases). Procainamide (D) is a class 1A agent with its own sodium channel blocking properties — administering it would add to the sodium channel blockade, worsening QRS prolongation and the risk of ventricular dysrhythmias. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2171",
+    "explanation": "Correct answer: C — calcium is the exception (NOT indicated). In digoxin overdose, hyperkalemia results from Na⁺/K⁺-ATPase inhibition, causing potassium to shift from intracellular to extracellular space. Standard treatments for hyperkalemia (dextrose/insulin A, sodium polystyrene sulfonate B, sodium bicarbonate D) are safe. Calcium (C) is TRADITIONALLY CONTRAINDICATED in digoxin toxicity because digoxin-poisoned myocytes already have elevated intracellular calcium (via Na⁺/Ca²⁺ exchanger upregulation due to Na⁺/K⁺-ATPase inhibition). Exogenous calcium could theoretically cause \"stone heart\" (systolic arrest from calcium overload). More recent evidence questions this risk, but classic toxicology teaching lists calcium as the exception. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2172",
+    "explanation": "Correct answer: C — toads. Endogenous digoxin-like substances (also called digitalis-like factors, or cardiotonic steroids) are produced in the human body, particularly in the hypothalamus and adrenal glands. These substances closely resemble bufadienolides found in the venom of Bufo toads. Toad venom (bufotoxin) contains bufalin, bufotalin, and other cardiotonic steroids that inhibit Na⁺/K⁺-ATPase, identical to the mechanism of digoxin. This is the basis for the clinical syndrome of toad venom poisoning (bufotenine intoxication) that presents exactly like digoxin toxicity. Puffer fish (A — contains tetrodotoxin, a Na⁺ channel blocker), potato (B — contains solanine, a glycoalkaloid), and scorpions (D — contain neurotoxic peptides) are incorrect. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2173",
+    "explanation": "Correct answer: B — acidification of the urine is the exception (NOT effective). Digoxin has a very large volume of distribution (6–10 L/kg) — only ~1% of the body burden is in the blood at any time. Measures that enhance elimination include: activated charcoal (A — multiple-dose activated charcoal interrupts enterohepatic recirculation of digoxin, reducing half-life from ~36 h to ~18 h), cholestyramine (C — binds digoxin in the GI tract, also interrupting enterohepatic recirculation), and colestipol (D — similar bile acid-binding resin). Acidification of the urine (B) — digoxin is not ionized significantly at urinary pH and is not eliminated by tubular secretion in a pH-dependent manner. Forced diuresis and urine pH manipulation are ineffective for digoxin. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2174",
+    "explanation": "Correct answer: A — quinidine is the exception (NOT useful). Quinidine is contraindicated in digoxin toxicity because it: (1) displaces digoxin from tissue binding sites, increasing serum digoxin concentration, and (2) reduces renal and non-renal clearance of digoxin by ~50%. This can precipitate severe digoxin toxicity. Lidocaine (B), phenytoin (C), and atropine (D) are all useful for managing digoxin-induced dysrhythmias: lidocaine suppresses ventricular ectopy, phenytoin improves AV conduction without suppressing automaticity (unlike quinidine), and atropine treats bradycardia. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2175",
+    "explanation": "Correct answer: B — a decrease in total serum-digoxin concentration is the exception (does NOT occur). After digoxin-specific Fab (Digibind/ DigiFab) administration: total serum digoxin concentration INCREASES (B is FALSE) because the assay measures both free and Fab-bound digoxin together, and Fab-bound digoxin is trapped in the blood rather than distributed to tissues. Free (unbound) digoxin concentration DECREASES (D — TRUE) as Fab binds free digoxin. Serum potassium decreases (A — TRUE) as Na⁺/K⁺-ATPase function is restored. Renal clearance of digoxin increases (C — TRUE) as the Fab-digoxin complex is cleared by the kidneys (MW ~46,000 Da, filtered and excreted). Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2176",
+    "explanation": "Correct answer: A — serum-potassium concentration. In acute digoxin overdose, the degree of hyperkalemia is the best predictor of lethality — not the serum digoxin level. Digoxin inhibits Na⁺/K⁺-ATPase throughout the body. In massive overdose, this causes profound extracellular potassium shift, producing hyperkalemia. The severity of hyperkalemia directly reflects the degree of Na⁺/K⁺-ATPase inhibition and correlates with mortality. A serum K⁺ > 5.5 mEq/L in acute overdose is associated with high mortality, and levels > 6.5 mEq/L indicate potentially fatal poisoning. Serum total digoxin levels (B) are misleading because tissue binding is the critical issue. PR interval prolongation (C) and free digoxin levels (D) are less predictive. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2177",
+    "explanation": "Correct answer: D — transvenous pacemaker overdrive suppression is the exception (NOT recommended). In digoxin-toxic ventricular tachycardia, the myocardium is irritable and prone to dysrhythmias. Transvenous pacemaker insertion can mechanically irritate the endomyocardium, precipitating ventricular fibrillation. Lidocaine (A) is safe and suppresses ventricular ectopy. Digoxin-specific Fab (B) is the definitive treatment. Cardioversion (C) may be used but at very low energy levels (starting at 10 J) because the digoxin-toxic heart is prone to post-cardioversion dysrhythmias. Overdrive pacing (D) requires intracardiac manipulation in an irritable myocardium, making it the MOST dangerous option. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2178",
+    "explanation": "Correct answer: D — myoclonus. Both serotonin syndrome (SS) and neuroleptic malignant syndrome (NMS) share: altered mental status (A), hyperthermia (elevated core temperature — B), and autonomic instability (tachycardia — C). Myoclonus (D) — including clonus, hyperreflexia, and tremors — is a distinguishing feature of serotonin syndrome that is NOT present in NMS. Patients with SS exhibit prominent neuromuscular findings: spontaneous clonus, inducible clonus, ocular clonus, and myoclonus. NMS is characterized by \"lead-pipe\" rigidity, bradykinesia, and hyporeflexia — the exact opposite. This distinction is critical for appropriate treatment (cyproheptadine for SS vs. dantrolene/bromocriptine for NMS). Source: Goldfrank's Toxicologic Emergencies; Sternbach criteria.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2179",
+    "explanation": "Correct answer: A — acidification of urine is the exception (NOT useful). Management of severe NMS includes: dantrolene (B — inhibits calcium release from sarcoplasmic reticulum, reducing muscle rigidity and heat generation), prophylactic low-molecular-weight heparin (C — for DVT/PE prophylaxis in immobilized patients), and benzodiazepines (D — for agitation, rigidity, and as first-line treatment). Acidification of urine (A) has NO role in NMS — there is no toxin to enhance elimination through urinary pH manipulation. NMS is a drug-induced idiosyncratic reaction, not a poisoning that can be eliminated. Rhabdomyolysis (which can occur in NMS) is managed with aggressive IV fluids, not urine acidification. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2180",
+    "explanation": "Correct answer: B — syrup of ipecac is the exception (NOT appropriate). Management of acute antipsychotic overdose includes: IV fluids (A — for hypotension), activated charcoal (C — if < 1–2 hours post-ingestion, antipsychotics are adsorbed by charcoal), and cardiac monitoring (D — for QTc prolongation and dysrhythmias). Syrup of ipecac (B) is no longer recommended for ANY poisoning by AAPCC, AACT, or ACEP guidelines. Ipecac causes prolonged, uncontrollable vomiting that: delays administration of activated charcoal, risks aspiration, produces Mallory-Weiss tears, and provides negligible clinical benefit. Gastric emptying should not be induced in antipsychotic overdose — these patients are at risk for dystonic reactions and seizures, making aspiration more likely. Source: Goldfrank's Toxicologic Emergencies; ACEP POISIX guidelines.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2181",
+    "explanation": "Correct answer: C — thioridazine. Thioridazine, a first-generation (typical) antipsychotic of the phenothiazine class, has the highest degree of QT prolongation among all antipsychotics. It blocks the hERG (human ether-a-go-go related gene) potassium channel, prolonging cardiac repolarization and causing QT interval prolongation, which can degenerate into torsade de pointes. This risk is so significant that thioridazine is now restricted to treatment-resistant schizophrenia under close ECG monitoring. Aripiprazole (A) and olanzapine (B) have minimal QT prolongation. Risperidone (D) has mild QT effects but substantially less than thioridazine. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2182",
+    "explanation": "Correct answer: D — clozapine. Clozapine has the lowest incidence of tardive dyskinesia (TD) among all antipsychotics. This is because clozapine has very weak D₂ receptor blockade (whose sustained blockade is the primary mechanism of TD) combined with potent 5-HT₂A antagonism. The atypical antipsychotics as a class have lower TD risk than typicals, but clozapine is unique in having the lowest risk — virtually no cases of TD have been definitively attributed to clozapine monotherapy. Haloperidol (A), fluphenazine (B), and chlorpromazine (C) are typical antipsychotics with high D₂ affinity producing a TD incidence of ~5%/year of treatment. Distractor trap: Clozapine is also the only antipsychotic indicated for treatment-resistant schizophrenia and requires mandatory WBC monitoring for agranulocytosis. Source: Goldfrank's Toxicologic Emergencies; APA guidelines.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2183",
+    "explanation": "Correct answer: B — urine alkalinization is the exception (NOT useful). Carbamazepine elimination can be enhanced by: multiple-dose activated charcoal (A — carbamazepine undergoes enterohepatic recirculation, and MDAC reduces its half-life by ~50%), hemodialysis (C — effective for severe toxicity with high serum levels), and charcoal hemoperfusion (D — highly effective at removing carbamazepine due to its small Vd and moderate protein binding). Urine alkalinization (B) is NOT effective — carbamazepine is only 1–3% excreted unchanged in urine, and its elimination is not pH-dependent. Ion trapping via urine alkalinization works for weak acids like salicylate and phenobarbital, not for carbamazepine (a neutral/weak base). Source: Goldfrank's Toxicologic Emergencies; EXTRIP guidelines.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2184",
+    "explanation": "Correct answer: C — propylene glycol. Intravenous phenytoin is formulated in 40% propylene glycol and 10% ethanol at pH 12 (to maintain solubility). Propylene glycol is a negative inotrope and direct cardiac depressant. Rapid IV administration of phenytoin can cause hypotension, bradycardia, and cardiac arrest — these effects are largely attributed to the propylene glycol vehicle, not phenytoin itself. This led to the development of fosphenytoin, a water-soluble phenytoin prodrug that does not require propylene glycol and has significantly less cardiovascular toxicity. Phenytoin degradation products (A), oxalic acid (B), and cetyl alcohol (D) are not vehicles in IV phenytoin. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2185",
+    "explanation": "Correct answer: C — hyperpyrexia. In lithium toxicity, the best predictor of persistent neurologic dysfunction (SILENT syndrome — Syndrome of Irreversible Lithium-Effectuated Neurotoxicity) is hyperpyrexia (fever). Patients who develop fever during lithium intoxication are at significantly higher risk for permanent cerebellar and extrapyramidal deficits. Other poor prognostic factors include prolonged toxicity, very high lithium levels (> 4 mEq/L), and underlying neurologic disease. Elevated creatinine (A) and polyuria (B) are manifestations of lithium-induced nephrogenic diabetes insipidus but do not predict neurologic outcome. Hypothyroidism (D) is a chronic lithium adverse effect unrelated to acute neurotoxicity. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2186",
+    "explanation": "Correct answer: A — whole-bowel irrigation (WBI). Lithium is a small cation with negligible adsorption to activated charcoal. For sustained-release lithium preparations, WBI with polyethylene glycol-electrolyte solution (GoLYTELY) is the recommended GI decontamination method. WBI mechanically flushes undissolved lithium tablets through the GI tract before they fully dissolve, reducing total lithium absorbed. Multiple-dose activated charcoal (B) does not bind lithium ions. Orogastric lavage (C) may retrieve some tablets if performed very early but is inferior to WBI for SR preparations. Cholestyramine (D) is a bile acid-binding resin with no role in lithium decontamination. Source: Goldfrank's Toxicologic Emergencies; AACT/EAPCCT guidelines.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2187",
+    "explanation": "Correct answer: D — all of the above. Hemodialysis should be considered in lithium toxicity with any of the following: severe neurotoxicity (A — coma, seizures, myoclonus, regardless of level), renal failure (B — because lithium clearance is predominantly renal, so dialysis removes both lithium and supports renal function), and congestive heart failure (C — CHF limits renal perfusion and lithium clearance, making dialysis necessary to prevent progressive toxicity). Lithium is ideally suited for hemodialysis: low molecular weight (MW 74), minimal protein binding, small Vd (0.8 L/kg), and high water solubility. General indications: Li > 4 mEq/L in acute overdose, > 2.5 mEq/L in chronic toxicity with severe symptoms, or any level with significant neurotoxicity. Source: Goldfrank's Toxicologic Emergencies; EXTRIP guidelines.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2188",
+    "explanation": "Correct answer: A — peritoneal dialysis. Peritoneal dialysis is ineffective for lithium removal because its clearance rate (~10–15 mL/min) is far too slow to remove lithium at a clinically meaningful rate. Hemodialysis achieves clearance of ~70–170 mL/min, making it the modality of choice. Saline infusion (B) is the INITIAL management for lithium toxicity — correcting volume depletion improves renal clearance. Continuous renal replacement therapy/CRRT (C) has intermediate clearance (~20–40 mL/min) and is a reasonable alternative when HD is not available or in hemodynamically unstable patients. So peritoneal dialysis (A) is the only modality with NO role. Source: Goldfrank's Toxicologic Emergencies; EXTRIP guidelines.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2189",
+    "explanation": "Correct answer: D — all of the above. All three drug classes can increase lithium levels and precipitate lithium toxicity: thiazide diuretics (A — increase proximal tubular reabsorption of lithium by causing volume contraction and reducing Na⁺ delivery to the distal tubule, where lithium is reabsorbed; can increase serum Li by 25–50%); ACE inhibitors (B — reduce GFR by dilating efferent arterioles, decreasing lithium clearance; can increase Li levels by 30–100% over weeks); and NSAIDs (C — inhibit renal prostaglandin synthesis, reducing renal blood flow and GFR, decreasing lithium clearance by 10–30%). The lithium dose may need to be empirically reduced by 25–50% if any of these are initiated. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2190",
+    "explanation": "Correct answer: A — dopamine is the exception (NOT indicated). Management of MAOI-induced serotonin syndrome includes: cooling measures (B — for hyperthermia), benzodiazepines (C — for agitation, seizures, and muscle hyperactivity), and cyproheptadine (D — serotonin antagonist, first-line pharmacotherapy for serotonin syndrome, acts as a 5-HT₂A antagonist). Dopamine (A) is NOT indicated as a treatment — it is a catecholamine that could worsen autonomic instability. In fact, the treatment of choice for hypotension in serotonin syndrome is direct-acting agents like norepinephrine or phenylephrine, not dopamine (which relies on endogenous catecholamine stores that may be depleted). Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2191",
+    "explanation": "Correct answer: C — acetaminophen. MAOIs (phenelzine, tranylcypromine, isocarboxazid) cause potentially fatal drug interactions with: dextromethorphan (A — can precipitate serotonin syndrome with hyperthermia, myoclonus, and coma), tramadol (B — combined serotonergic and noradrenergic reuptake inhibition plus MAO inhibition can cause serotonin syndrome), and meperidine (D — potentially fatal reaction with hyperthermia, rigidity, seizures; this is the most famous contraindicated opioid-MAID interaction). Acetaminophen (C) does NOT interact with MAOIs — it is safe for analgesia in patients on MAOI therapy. Its metabolism via sulfation and glucuronidation is independent of MAO pathways. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2192",
+    "explanation": "Correct answer: C — hyperadrenergic crisis. First-generation MAOIs (phenelzine, tranylcypromine) non-selectively and irreversibly inhibit both MAO-A and MAO-B. In the gut, MAO normally metabolizes dietary tyramine (found in aged cheeses, cured meats, fermented foods, soy sauce, red wine). When MAO is inhibited, ingested tyramine is absorbed intact into the systemic circulation. Tyramine then enters noradrenergic nerve terminals via the NET transporter and displaces stored norepinephrine into the synapse, producing a massive hyperadrenergic crisis (hypertensive emergency, tachycardia, severe headache, diaphoresis, risk of hemorrhagic stroke). This is called the \"cheese reaction.\" Serotonin syndrome (A) occurs with serotonergic drug combinations. NMS (B) is from antipsychotics. Source: Goldfrank's Toxicologic Emergencies; Goodman & Gilman.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2193",
+    "explanation": "Correct answer: D — none of the above. The hyperthermia in MAOI-induced serotonin syndrome is driven by central serotonin excess (5-HT₂A receptor overstimulation in the hypothalamus), not by muscle rigidity (as in NMS). Acetaminophen (A — antipyretic) does not work for non-pyrogenic hyperthermia from central neurotransmitter excess. Phenothiazines (B) can worsen serotonin syndrome by blocking dopamine receptors and impairing thermoregulation. Dantrolene (C) works by inhibiting calcium release from sarcoplasmic reticulum in muscles — effective for NMS rigidity-driven hyperthermia but not for central serotonin-driven hyperthermia without rigidity. The correct management is: external cooling (evaporative cooling, ice packs), benzodiazepines for agitation, cyproheptadine as a serotonin antagonist, and supportive care. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2194",
+    "explanation": "Correct answer: A — pyridoxine (vitamin B₆). Phenelzine, a hydrazine MAOI, forms a Schiff base (hydrazone) with pyridoxal-5'-phosphate (the active form of vitamin B₆), irreversibly inactivating this essential cofactor for glutamic acid decarboxylase (GAD). GAD is required for GABA synthesis. When GABA is depleted, inhibitory neurotransmission is impaired, producing refractory seizures. Pyridoxine bypasses the blockade by providing an alternative B6 source to restore GABA synthesis. Phenytoin (B) is less effective for MAOI-induced seizures because it works on voltage-gated Na+ channels, not on GABA-mediated inhibition. Aripiprazole (C) is an antipsychotic, not an anticonvulsant. This pyridoxine-MAOI interaction is specific to hydrazine MAOIs (phenelzine, isocarboxazid) and does not apply to non-hydrazine MAOIs like tranylcypromine. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2195",
+    "explanation": "Correct answer: D — priapism. Trazodone (an atypical antidepressant with 5-HT₂A antagonism and weak serotonin reuptake inhibition) has a unique and well-documented adverse effect: priapism (prolonged, painful penile erection > 4 hours). This results from trazodone's strong α₁-adrenergic receptor blocking properties in the corpus cavernosum, which impair the sympathetic nervous system's detumescence mechanism. This is a urologic emergency requiring prompt intervention (intracavernosal phenylephrine injection). Inhibition of CYP2C19 (A) is not a trazodone-specific toxicity. Hypothyroidism (B) is associated with lithium, not trazodone. Cholestatic hepatitis (C) is associated with chlorpromazine and other phenothiazines. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2196",
+    "explanation": "Correct answer: A — paroxetine. Paroxetine has the highest incidence of antidepressant discontinuation syndrome (also called SSRI withdrawal syndrome) among all SSRIs. This is because paroxetine has the shortest elimination half-life (~21 hours) among SSRIs and NO active metabolites. When stopped abruptly, serum levels drop rapidly, causing a withdrawal syndrome characterized by dizziness, nausea, headache, paresthesias (\"electric shock\" sensations), anxiety, and irritability. Venlafaxine (B — SNRI) also causes severe discontinuation symptoms but is not an SSRI. Fluoxetine (C) has the LONGEST half-life (~4–6 days with active metabolite norfluoxetine) and the lowest incidence of discontinuation syndrome. Trazodone (D) is not an SSRI. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2197",
+    "explanation": "Correct answer: C — citalopram. Citalopram is the SSRI with the highest incidence of QT prolongation. It causes dose-dependent QT interval prolongation by blocking the hERG potassium channel. This led the FDA to issue a warning: maximum dose should not exceed 40 mg/day (20 mg/day in patients > 60 years or with hepatic impairment). Citalopram overdose can cause significant QT prolongation with risk of torsade de pointes. Sertraline (A), paroxetine (B), and fluoxetine (D) have minimal QT prolongation at therapeutic doses and lower risk in overdose. Escitalopram (not listed here, but the S-enantiomer of citalopram) also has QT effects but is less potent. Source: Goldfrank's Toxicologic Emergencies; FDA safety announcement.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2198",
+    "explanation": "Correct answer: B — escitalopram. Among SSRIs, escitalopram has the highest reported incidence of seizures in overdose. While citalopram (the racemic mixture from which escitalopram is derived) has the highest QT prolongation risk, escitalopram appears to have a disproportionately higher seizure risk relative to other SSRIs in overdose studies. Sertraline (A) has a relatively low seizure risk. Fluvoxamine (C) has an intermediate seizure risk. Fluoxetine (D) has the lowest seizure risk among SSRIs in overdose due to its wide therapeutic index and long half-life. All SSRIs have a much lower seizure risk than TCAs or bupropion. The mechanism may involve excessive serotonergic stimulation of cortical 5-HT₂ receptors lowering the seizure threshold. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2199",
+    "explanation": "Correct answer: B — trazodone. Trazodone is an atypical antidepressant with a very low incidence of seizures in overdose. Its primary toxicity involves CNS depression and, uniquely, priapism. In contrast: bupropion (A) has the HIGHEST seizure risk among all antidepressants — dose-dependent, with an incidence of ~0.4% at 300 mg/day and up to 5% at doses > 450 mg/day. Duloxetine (C — SNRI) has a moderate seizure risk. Venlafaxine (D — SNRI) has a dose-dependent seizure risk higher than SSRIs but lower than bupropion. Trazodone's favorable seizure profile, combined with its sedative properties and lack of anticholinergic effects, makes it relatively safe in overdose compared to other antidepressants. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2200",
+    "explanation": "Correct answer: B — cardiovascular toxicity. Cyclic (tricyclic) antidepressant (TCA) overdose causes death primarily through cardiovascular toxicity, not CNS toxicity. TCAs produce three cardiovascular effects: (1) sodium channel blockade (quinidine-like effect) → QRS widening → ventricular tachycardia/fibrillation → asystole; (2) α₁-adrenergic receptor blockade → vasodilation → hypotension; and (3) negative inotropy. Death typically results from hypotension refractory to vasopressors, ventricular dysrhythmias, or both. CNS toxicity (A — seizures, coma) is serious but rarely fatal without cardiovascular collapse. Anticholinergic toxicity (C — delirium, hyperthermia) contributes to morbidity but is not the primary cause of death. Pulmonary toxicity (D) is not associated with TCA overdose. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2201",
+    "explanation": "Correct answer: D — beta-adrenergic antagonist concurrent therapy is the exception (NOT a risk factor). Risk factors for developing ventricular tachycardia in TCA overdose include: hypoxia (A — worsens myocardial conduction, promotes re-entrant dysrhythmias), acidosis (B — decreases the proportion of ionized drug, increasing free drug available to bind sodium channels), and beta-adrenergic AGONIST concurrent therapy (C — catecholamines increase cardiac irritability and the risk of ventricular dysrhythmias when sodium channels are already blocked). Beta-adrenergic ANTAGONIST (beta-blocker) concurrent therapy (D) is NOT a risk factor for ventricular tachycardia — if anything, beta-blockers might be somewhat protective against catecholamine-driven dysrhythmias. This nuance distinguishes agonists from antagonists. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2202",
+    "explanation": "Correct answer: D — 1,000 ng/mL (1,000 ng/mL = 1 μg/mL = 1,000 mg/L). Life-threatening TCA toxicity (seizures, ventricular dysrhythmias, coma, respiratory depression) typically occurs when serum TCA levels reach or exceed 1,000 ng/mL. At this level, significant sodium channel blockade produces QRS widening > 100 ms. Levels > 1,500–2,000 ng/mL carry extremely high mortality without aggressive treatment. TCA levels of 10 ng/mL (A) and 100 ng/mL (B) are therapeutic ranges, and 200 ng/mL (C) is at the high end of therapeutic. The therapeutic window for most TCAs (amitriptyline, nortriptyline, imipramine) is approximately 50–200 ng/mL. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2203",
+    "explanation": "Correct answer: A — dantrolene is the exception (NO role). Management of cyclic antidepressant (TCA) toxicity includes: sodium bicarbonate (B — first-line for QRS widening > 100 ms: provides sodium to overcome sodium channel blockade plus alkalinization to reduce drug binding to channels), benzodiazepines (C — for seizures and agitation), and magnesium sulfate (D — for ventricular dysrhythmias including torsade de pointes). Dantrolene (A) is a muscle relaxant that inhibits calcium release from the sarcoplasmic reticulum — it is used specifically for malignant hyperthermia and neuroleptic malignant syndrome but has NO role in TCA overdose. TCA overdose does not involve muscle rigidity or hyperthermia of the type that responds to dantrolene. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  }
+]

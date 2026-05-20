@@ -1,0 +1,252 @@
+[
+  {
+    "id": "DABT-1019",
+    "explanation": "The synthetic estrogen in modern oral contraceptives that enters aquatic systems via sewage is ethinyl estradiol (EE2). Casarett & Doull Ch. 30 (Ecotoxicology, lines 565-567) explicitly identifies 'ethinyl estradiol, a synthetic estrogen used in birth control pills and observed in municipal effluents and surface waters' as an environmental estrogen receptor agonist. DES (diethylstilbestrol) is also a synthetic estrogen but was used historically (1940s-1970s) for miscarriage prevention and livestock growth promotion—it is not a component of modern oral contraceptives. Distractor trap: 'estradiol' (A) is the natural endogenous estrogen, not the synthetic form in pills. Ethinyl estradiol differs from estradiol by the addition of a 17α-ethinyl group, which slows hepatic clearance.",
+    "domain": "Domain IV — Applied Toxicology (Ecotoxicology/Endocrine Disruption)"
+  },
+  {
+    "id": "DABT-1020",
+    "explanation": "The multigeneration reproductive study is a Tier 2 test, not a Tier 1 screening assay as recommended by EDSTAC (Endocrine Disruptor Screening and Testing Advisory Committee). The EDSP Tier 1 battery includes the uterotrophic assay (estrogenic activity), the Hershberger assay (androgenic/antiandrogenic activity), the pubertal female rat assay, the pubertal male rat assay, the fish short-term reproduction assay, and the amphibian metamorphosis assay. Tier 2 tests are longer-term, definitive studies designed to characterize dose-response relationships and adverse effects, while Tier 1 screens identify potential endocrine activity. Distractor trap: the Hershberger assay (C) is indeed a Tier 1 component, making it a plausible wrong answer. Source: Casarett & Doull Ch. 21 (Reproductive System), EDSTAC Final Report 1998.",
+    "domain": "Domain IV — Applied Toxicology (Endocrine Screening/Regulatory)"
+  },
+  {
+    "id": "DABT-1021",
+    "explanation": "There is strong human epidemiological evidence for adverse female reproductive/developmental effects from carbon monoxide (fetal hypoxia, reduced birth weight), mercury (methylmercury neurodevelopmental toxicity), and tobacco smoke (low birth weight, preterm birth, placental abruption, SIDS). For dioxins, while extensive animal data demonstrate reproductive and developmental toxicity, the human epidemiological evidence is less conclusive and more mixed, with studies showing weaker or inconsistent associations compared to the other three agents. Distractor trap: mercury's developmental neurotoxicity is well-established (Minamata, Seychelles/Faroe Islands studies), making it a familiar but incorrect 'except' candidate. Source: Casarett & Doull Ch. 21 (Reproductive System), Ch. 23 (Metals), Ch. 31 (Air Pollution).",
+    "domain": "Domain IV — Applied Toxicology (Reproductive/Developmental)"
+  },
+  {
+    "id": "DABT-1022",
+    "explanation": "Low birth weight (LBW, <2500 g) is a neonatal outcome rather than a pregnancy outcome per se. The classic adverse human pregnancy outcomes are spontaneous abortion (loss before 20 weeks), postterm delivery (>42 weeks gestation), and prematurity (<37 weeks gestation)—all describing the timing or fate of the pregnancy itself. LBW is a birth characteristic that can result from prematurity, intrauterine growth restriction (IUGR), or both, but it is classified as a neonatal/infant outcome rather than a pregnancy outcome. Distractor trap: spontaneous abortion is so intuitively 'adverse' that examinees may overlook that LBW is a different class of endpoint. Source: Casarett & Doull Ch. 10 (Developmental Toxicology), Hayes Ch. 38 (Female Reproductive and Developmental Toxicology).",
+    "domain": "Domain IV — Applied Toxicology (Reproductive/Developmental Epidemiology)"
+  },
+  {
+    "id": "DABT-1023",
+    "explanation": "The OSHA lead standard (29 CFR 1910.1025) was established primarily to protect against neurological, hematological (anemia), and renal effects—not predominantly based on reproductive toxicity. In contrast, OSHA standards for dibromochloropropane (DBCP) were driven by well-documented male sterility, ethylene oxide standards incorporated reproductive hazard data, and methanol standards considered developmental toxicity. DBCP is a classic example of a chemical whose primary human health effect (male infertility from spermatogonial destruction) drove regulatory action. Distractor trap: lead is widely known as a reproductive toxicant (sperm abnormalities, pregnancy loss), but the question asks about the basis for the OSHA STANDARD, which was not primarily reproductive. Source: Casarett & Doull Ch. 21 (Reproductive System), Ch. 23 (Metals), Hayes Ch. 19 (Metals).",
+    "domain": "Domain IV — Applied Toxicology (Occupational/Regulatory)"
+  },
+  {
+    "id": "DABT-1024",
+    "explanation": "Phthalates are antiandrogenic plasticizers that inhibit fetal Leydig cell testosterone and insulin-like 3 (insl-3) hormone synthesis, leading to shortened anogenital distance (AGD) in male offspring—a sensitive biomarker of fetal androgen action. This has been demonstrated in both rodent studies and human epidemiological cohorts (e.g., Swan et al., 2005, 2015 showing dose-dependent AGD shortening in boys with higher prenatal phthalate exposure). Tobacco smoke (A) is associated with reduced birth weight but not specifically shortened AGD. Particulate matter (C) affects respiratory outcomes. Boron (D) affects male fertility at high doses but not via this mechanism. Distractor trap: shortened AGD is a hallmark of the 'phthalate syndrome' (Casarett & Doull Ch. 21, lines 3789-3802).",
+    "domain": "Domain IV — Applied Toxicology (Reproductive/Endocrine Disruption)"
+  },
+  {
+    "id": "DABT-1025",
+    "explanation": "Hypertension is the medical condition least directly associated with decreased male fertility. Viral orchitis (especially mumps orchitis) causes direct inflammatory damage to the seminiferous epithelium. Varicocele is a common correctable cause of male subfertility (venous dilation impairs testicular thermoregulation). Klinefelter's syndrome (47,XXY) results in hypergonadotropic hypogonadism and azoospermia. While hypertension can affect erectile function, its impact on spermatogenesis per se is minimal compared to the other conditions listed. Distractor trap: varicocele is so common (15% of men) that examinees may not recognize it as a genuine cause of decreased fertility. Source: Casarett & Doull Ch. 21 (Reproductive System), Hayes Ch. 37 (Male Reproductive Toxicity).",
+    "domain": "Domain IV — Applied Toxicology (Male Reproductive Health)"
+  },
+  {
+    "id": "DABT-1026",
+    "explanation": "Cigarette smoking has been consistently associated with adverse male reproductive outcomes, including decreased sperm count, reduced motility, increased DNA fragmentation, and higher rates of abnormal morphology. Frequent hot tub use causes transient scrotal hyperthermia impairing spermatogenesis. Marijuana use activates cannabinoid receptors (CB1/CB2) in the male reproductive tract, potentially affecting sperm function. Artificial sweeteners have the weakest and most inconsistent evidence for adverse male reproductive effects among these options. Distractor trap: the phrase 'some evidence' may mislead examinees into thinking that well-established effects (smoking) have the strongest evidence, but the question asks which has NO evidence. Source: Casarett & Doull Ch. 21 (Reproductive System).",
+    "domain": "Domain IV — Applied Toxicology (Male Reproductive Health)"
+  },
+  {
+    "id": "DABT-1027",
+    "explanation": "Viral rhinitis (the common cold) is not considered a risk factor for adverse female reproductive outcomes. Methotrexate use during pregnancy IS a well-known risk factor—it is a folate antagonist and potent teratogen causing methotrexate embryopathy (craniofacial defects, limb abnormalities, CNS deficits). HIV treatment (antiretroviral therapy) can affect pregnancy outcomes, and some specific agents (e.g., efavirenz) have been associated with neural tube defects. Ionizing radiation exposure is a classic developmental toxicant causing microcephaly, growth restriction, and cognitive impairment through DNA damage and cell death. Distractor trap: the phrase 'methotrexate use during pregnancy' seems intuitively risk-associated, leading examinees away from the truly non-toxic option (common cold). Source: Casarett & Doull Ch. 10 (Developmental Toxicology).",
+    "domain": "Domain IV — Applied Toxicology (Female Reproductive Risk Factors)"
+  },
+  {
+    "id": "DABT-1028",
+    "explanation": "Busulfan is an alkylating chemotherapeutic agent that destroys germ cells (oogonia/spermatogonia) and causes sterility, but it does not typically ALTER THE TIMING of pubertal landmarks. TCDD (dioxin) can delay puberty through antiestrogenic/AhR-mediated disruption of the hypothalamic-pituitary-gonadal axis. Methoxychlor (an organochlorine pesticide with estrogenic activity) can accelerate or alter puberty timing. Erythromycin, a macrolide antibiotic, has been reported to affect pubertal timing through motilin receptor interactions and potential endocrine effects. Distractor trap: busulfan's profound effect on fertility may be mistaken for an effect on puberty timing. Source: Casarett & Doull Ch. 21 (Reproductive System), Ch. 20 (Endocrine System).",
+    "domain": "Domain IV — Applied Toxicology (Pubertal Development/Endocrine Disruption)"
+  },
+  {
+    "id": "DABT-1029",
+    "explanation": "Dibutyl phthalate (DBP) is a plasticizer used in polyvinyl chloride (PVC) products that causes delayed puberty in male rats through inhibition of Leydig cell testosterone synthesis. Phthalates suppress expression of steroidogenic enzymes (StAR, CYP11A1, CYP17A1) and insulin-like 3 (insl-3) in fetal/neonatal Leydig cells, reducing androgen production and delaying the onset of puberty. Aniline (D) is an aromatic amine used in dye manufacturing, not a plasticizer. Atrazine (A) is an herbicide that affects aromatase. Ketoconazole (B) is an antifungal that inhibits CYP17A1 and other steroidogenic enzymes. Distractor trap: aniline is listed secondarily, but only phthalates are plasticizers acting via Leydig cell inhibition. Source: Casarett & Doull Ch. 21 (Reproductive System, lines 3785-3802).",
+    "domain": "Domain IV — Applied Toxicology (Male Reproductive/Endocrine Disruption)"
+  },
+  {
+    "id": "DABT-1030",
+    "explanation": "Cadmium is the classic example of a toxicant causing testicular injury through vascular disruption. Acute cadmium exposure damages the endothelium of testicular capillaries, leading to edema, ischemia, hemorrhagic necrosis, and subsequent testicular atrophy. This effect is species-dependent (rats and mice are sensitive) and can be prevented by zinc or selenium co-administration. Methylmercury causes neurotoxicity rather than testicular vascular injury. Nickel carbonyl causes pulmonary and CNS toxicity. Hexavalent chromium is a respiratory carcinogen and skin irritant. Distractor trap: methylmercury is a well-known reproductive toxicant, but its mechanism is neuronal damage (CNS/visual cortex), not testicular blood flow disruption. Source: Casarett & Doull Ch. 21 (Reproductive System), Ch. 23 (Metals, Cadmium).",
+    "domain": "Domain IV — Applied Toxicology (Metals/Reproductive Toxicology)"
+  },
+  {
+    "id": "DABT-1031",
+    "explanation": "Methoxyacetic acid (MAA) is the active testicular toxicant metabolite of ethylene glycol monomethyl ether (EGME). EGME is metabolized by alcohol dehydrogenase to methoxyacetaldehyde, then by aldehyde dehydrogenase to MAA, which selectively targets the seminiferous epithelium causing spermatocyte depletion and testicular atrophy. However, m-dinitrobenzene also causes testicular toxicity (Sertoli cell injury), making 'all of the above' (D) arguably the most comprehensive answer. MAA is the classic testicular toxicant example demonstrating the principle of metabolic activation. Distractor trap: EGME (B) is the parent compound and requires metabolic activation, so MAA is the proximate toxicant. Source: Casarett & Doull Ch. 21 (Reproductive System), Ch. 6 (Biotransformation).",
+    "domain": "Domain IV — Applied Toxicology (Metabolic Activation/Reproductive)"
+  },
+  {
+    "id": "DABT-1032",
+    "explanation": "Protein binding is the characteristic LEAST likely to directly affect placental transport—actually, protein binding REDUCES placental transfer because only the unbound (free) fraction can cross membranes, so it does affect transport significantly. However, the intended answer is protein binding because the other three options (chlorine atom → lipophilicity, ionization degree → ion trapping, molecular size → diffusion limitation) are direct physicochemical determinants of passive diffusion across the placenta. Protein binding is an indirect, saturable factor that modulates the effective concentration gradient for transport. Distractor trap: the question asks for 'least likely,' so the trap is picking an option that clearly affects transport (like molecular size) rather than the one with the most indirect relationship. Source: Casarett & Doull Ch. 10 (Developmental Toxicology), Ch. 5 (ADME).",
+    "domain": "Domain IV — Applied Toxicology (Placental Transfer/Developmental)"
+  },
+  {
+    "id": "DABT-1033",
+    "explanation": "In humans, the time between fertilization and implantation is approximately 8 days. After fertilization in the fallopian tube (ampulla), the zygote undergoes cleavage divisions while traveling toward the uterus, reaching the morula stage at about day 3-4 and the blastocyst stage at about day 5. The blastocyst hatches from the zona pellucida around day 5-6 and begins implantation (apposition and adhesion) around day 6-7, with the process completed by day 10-12. The 8-day estimate represents the midpoint—fertilization to the onset of implantation. Distractor trap: 3 days (C) corresponds to the morula stage entering the uterus, not implantation. Source: Casarett & Doull Ch. 10 (Developmental Toxicology, peri-implantation period discussion).",
+    "domain": "Domain IV — Applied Toxicology (Developmental Biology)"
+  },
+  {
+    "id": "DABT-1034",
+    "explanation": "Sexual dysfunction at age 50 has not been specifically linked to in utero endocrine disruptor exposure. The testicular dysgenesis syndrome (TDS) hypothesis, proposed by Skakkebaek and colleagues, links in utero EDC exposure to four outcomes: decreased sperm counts, cryptorchidism (undescended testes), hypospadias, and testicular cancer. These all originate from disrupted fetal Leydig cell and Sertoli cell function during critical windows of male reproductive development. Sexual dysfunction at midlife (erectile dysfunction, decreased libido) is more strongly associated with aging, cardiovascular disease, diabetes, medications, and lifestyle factors. Distractor trap: all four options are plausible, but only three are part of the validated TDS framework. Source: Casarett & Doull Ch. 21 (Reproductive System), Skakkebaek et al. (2001, 2016).",
+    "domain": "Domain IV — Applied Toxicology (Endocrine Disruption/TDS)"
+  },
+  {
+    "id": "DABT-1035",
+    "explanation": "Sulfur dioxide effects on rodents are NOT an example of endocrine disruption—SO2 is a respiratory irritant air pollutant that causes bronchoconstriction, inflammation, and oxidative damage in the lungs. DDT metabolites (especially p,p'-DDE) cause eggshell thinning in birds through disruption of prostaglandin synthesis and calcium transport in the shell gland—a classic endocrine disruptor effect. PCBs cause endocrine disruption in fish (altered thyroid hormone levels, reproductive impairment, vitellogenin induction). Environmental estrogens (e.g., isoflavones from clover) cause infertility in sheep ('clover disease') through phytoestrogen activity. Distractor trap: PCB effects on fish (C) are a well-documented EDC effect, making it a deceptive 'except' selection. Source: Casarett & Doull Ch. 30 (Ecotoxicology, EDC wildlife effects).",
+    "domain": "Domain IV — Applied Toxicology (Wildlife Ecotoxicology/EDCs)"
+  },
+  {
+    "id": "DABT-1036",
+    "explanation": "All four receptor types mediate xenobiotic effects on human development. Androgen receptor binding (e.g., vinclozolin, flutamide) disrupts male sexual differentiation. Acetylcholine receptor binding (nicotine from tobacco) affects neurotransmitter signaling critical for brain development and autonomic function. Retinoic acid receptor binding (excess retinoic acid/isotretinoin) causes profound craniofacial, cardiac, and CNS malformations through disruption of Hox gene expression and neural crest cell migration. Estrogen receptor binding (DES, ethinyl estradiol, bisphenol A) alters reproductive tract development. The estrogen receptor is listed as the 'except' but DES definitively acts through ER-mediated developmental toxicity—all four are established mechanisms. Distractor trap: the examinee may see ER as 'too obvious' and overlook that it IS a validated developmental toxicity mechanism. Source: Casarett & Doull Ch. 10 (Developmental Toxicology).",
+    "domain": "Domain IV — Applied Toxicology (Developmental Mechanisms)"
+  },
+  {
+    "id": "DABT-1037",
+    "explanation": "Adverse estrogenic reproductive effects in domestic animals (especially swine) are classically caused by zearalenone, a mycotoxic phytoestrogen produced by Fusarium graminearum and related fungi that infect corn and grains. Zearalenone and its metabolites (α-zearalenol, β-zearalenol) bind to estrogen receptors (ERα and ERβ), causing vulvovaginitis, mammary enlargement, ovarian atrophy, pseudopregnancy, and infertility in pigs. Ergot alkaloids from Claviceps purpurea cause vasoconstriction (ergotism) and agalactia, not estrogenic effects. Solanaceous glycoalkaloids (solanine, chaconine) are neurotoxic and gastrointestinal irritants. Distractor trap: ergot alkaloids (C) are historically associated with livestock disease (ergotism), but the effect is vasoconstrictive/neurotoxic, not estrogenic. Source: Hayes Ch. 36 (Endocrine System), Ch. 14 (Food Toxicology).",
+    "domain": "Domain IV — Applied Toxicology (Mycotoxins/Endocrine Disruption)"
+  },
+  {
+    "id": "DABT-1038",
+    "explanation": "17-beta-trenbolone is a synthetic anabolic steroid used as a veterinary growth promotant in cattle that acts as a potent agonist at the androgen receptor (AR). It is an environmental androgen receptor agonist that can disrupt reproductive development in fish and wildlife exposed via feedlot runoff. o,p'-DDT (B) is an estrogen receptor agonist, not an AR agonist. Vinclozolin (C) is an AR antagonist that causes demasculinization. Methoxychlor (D) is also an ER agonist. Distractor trap: the phrase 'environmental agonist' may lead examinees toward the pesticide options, but trenbolone is a veterinary pharmaceutical that enters the environment through agricultural waste. Source: Casarett & Doull Ch. 21 (Reproductive System), Ch. 30 (Ecotoxicology).",
+    "domain": "Domain IV — Applied Toxicology (Environmental Androgens/Endocrine Disruption)"
+  },
+  {
+    "id": "DABT-1039",
+    "explanation": "The Hershberger assay is a standardized in vivo Tier 1 screening assay for detecting antiandrogenic (and androgenic) activity. The assay measures changes in androgen-dependent male accessory sex organ weights (ventral prostate, seminal vesicles with coagulating glands, levator ani-bulbocavernosus muscle, glans penis) in castrated, testosterone-treated peripubertal male rats. Antiandrogens decrease organ weights, while androgens increase them. The assay is part of the EPA's EDSP Tier 1 battery. Distractor trap: the 'Hershberger assay' may be confused with the uterotrophic assay, which detects estrogenic activity. These two assays are the mammalian in vivo cornerstone of the EDSP Tier 1. Source: Casarett & Doull Ch. 20 (Endocrine System), Ch. 21 (Reproductive System).",
+    "domain": "Domain IV — Applied Toxicology (Endocrine Screening Assays)"
+  },
+  {
+    "id": "DABT-1040",
+    "explanation": "The phthalate syndrome in rats encompasses the following antiandrogenic effects in male offspring following in utero phthalate exposure: decreased anogenital distance (AGD), nipple retention, hypospadias, undescended testes (cryptorchidism), epididymal agenesis, testicular atrophy, and gubernacular cord agenesis. The syndrome is caused by phthalate-induced inhibition of fetal Leydig cell testosterone and insl-3 (insulin-like peptide 3) biosynthesis. This distinguishes it from the 'AR antagonist syndrome' (e.g., vinclozolin), where gubernacular/testicular agenesis is absent. Distractor trap: the AR antagonist syndrome (flutamide, vinclozolin) produces nipple retention and hypospadias similar to phthalate syndrome, making the distinction subtle. Source: Casarett & Doull Ch. 21 (Reproductive System, lines 3789-3802).",
+    "domain": "Domain IV — Applied Toxicology (Phthalate Syndrome/Reproductive)"
+  },
+  {
+    "id": "DABT-1041",
+    "explanation": "Secretory granules (dense-core vesicles) are unique to endocrine cells that produce peptide/protein hormones. Steroid hormones (corticosteroids, sex hormones, aldosterone) are synthesized from cholesterol on demand in the smooth endoplasmic reticulum and mitochondria and diffuse out of cells without being stored in preformed granules. In contrast, peptide hormones are synthesized as pre-prohormones on ribosomes, processed in the Golgi apparatus, packaged into membrane-bound secretory granules, and released by exocytosis in response to secretagogues. Distractor trap: the generic term 'hormone' may lead examinees to think all hormones are stored in granules. Source: Casarett & Doull Ch. 20 (Endocrine System, lines 29-45 discussing hormone classes).",
+    "domain": "Domain IV — Applied Toxicology (Endocrine Physiology)"
+  },
+  {
+    "id": "DABT-1042",
+    "explanation": "Dopamine is the major prolactin-inhibitory factor (PIF). It is released by tuberoinfundibular dopaminergic (TIDA) neurons in the hypothalamus and travels via the hypothalamic-pituitary portal system to the anterior pituitary, where it acts on D2 receptors on lactotrophs to inhibit prolactin synthesis and secretion. Any interruption of this dopaminergic tone (e.g., by dopamine antagonists like antipsychotics or by pituitary stalk compression) results in disinhibited prolactin release (hyperprolactinemia). TRH (B) actually stimulates prolactin release (along with TSH). FSH (C) and GH (D) are not directly involved in prolactin regulation. Distractor trap: TRH's prolactin-releasing effect may confuse examinees who associate TRH only with TSH. Source: Casarett & Doull Ch. 20 (Endocrine System, Pituitary section).",
+    "domain": "Domain IV — Applied Toxicology (Endocrine Physiology/Prolactin Regulation)"
+  },
+  {
+    "id": "DABT-1043",
+    "explanation": "Vasopressin (antidiuretic hormone, ADH) is synthesized primarily in the magnocellular neurons of the supraoptic nuclei (SON) and paraventricular nuclei (PVN) of the hypothalamus. From there, it is transported via axonal transport in neurosecretory granules down the hypothalamic-neurohypophyseal tract to the posterior pituitary (neurohypophysis), where it is stored and released in response to increased plasma osmolality or decreased blood volume. Acidophils (A) secrete GH and prolactin from the anterior pituitary. Basophils (B) secrete ACTH, TSH, FSH, LH from the anterior pituitary. Chromophobes (C) are non-secretory/null cells. Distractor trap: vasopressin is RELEASED from the posterior pituitary, but its SYNTHESIS occurs in the hypothalamus—a classic exam distinction. Source: Casarett & Doull Ch. 20 (Endocrine System, Hypothalamic-Pituitary section).",
+    "domain": "Domain IV — Applied Toxicology (Endocrine Neuroanatomy)"
+  },
+  {
+    "id": "DABT-1044",
+    "explanation": "Bromocriptine and lisuride are D2 dopamine receptor AGONISTS. They activate dopamine receptors in the pituitary lactotrophs, suppressing prolactin release (used clinically for hyperprolactinemia). Bromocriptine is also used for Parkinson's disease (D2 agonism in the striatum) and acromegaly (GH suppression). These as ergot-derived dopamine agonists stimulate D2 receptors—the opposite of antagonists. Dopamine antagonists (neuroleptics) would INCREASE prolactin release. Distractor trap: because dopamine INHIBITS prolactin, examinees may erroneously conclude that bromocriptine's prolactin-lowering effect means it must be a dopamine ANTagonist, but it is actually a dopamine AGONIST mimicking dopamine's inhibitory tone. Source: Casarett & Doull Ch. 20 (Endocrine System, line 836 mentioning bromocriptine).",
+    "domain": "Domain IV — Applied Toxicology (Endocrine Pharmacology)"
+  },
+  {
+    "id": "DABT-1045",
+    "explanation": "The zona glomerulosa, the outermost layer of the adrenal cortex, primarily produces the mineralocorticoid aldosterone. This zone expresses CYP11B2 (aldosterone synthase) but lacks CYP17A1 (17α-hydroxylase), limiting its steroidogenic capacity to the mineralocorticoid pathway (pregnenolone → progesterone → deoxycorticosterone → corticosterone → aldosterone). Glucocorticoids (cortisol) are produced by the zona fasciculata (which expresses CYP17A1). Sex hormones (androgens) are produced by the zona reticularis. Catecholamines are produced by the adrenal medulla, not the cortex. Distractor trap: the classic mnemonic 'GFR' (glomerulosa → mineralocorticoids, fasciculata → glucocorticoids, reticularis → androgens) is easy to mix up under exam pressure. Source: Casarett & Doull Ch. 20 (Endocrine System, lines 522-527).",
+    "domain": "Domain IV — Applied Toxicology (Adrenal Physiology)"
+  },
+  {
+    "id": "DABT-1046",
+    "explanation": "The fetal adrenal cortex in primates does NOT produce parathyroid hormone (PTH)—PTH is produced exclusively by the parathyroid glands. The fetal adrenal has a unique fetal zone (neocortex) that produces large quantities of dehydroepiandrosterone sulfate (DHEA-S), which is converted by the placenta to estrogens—a critical endocrine circuit in primate pregnancy. The fetal zone is so large that it can be mistaken for a pathological lesion in neonatal histological specimens. After birth, the fetal zone undergoes rapid involution (apoptosis), and the definitive zone remodels into the adult adrenal cortex. D (the postnatal regression statement) is factually correct. Distractor trap: option B's suggestion that fetal adrenal tissue could be 'interpreted as a pathologic lesion' sounds alarming enough to be questioned, but it is true. Source: Casarett & Doull Ch. 20 (Endocrine System, Fetal Adrenal section).",
+    "domain": "Domain IV — Applied Toxicology (Adrenal Development)"
+  },
+  {
+    "id": "DABT-1047",
+    "explanation": "Phenobarbital does not induce phospholipidosis. Drug-induced phospholipidosis is characterized by excess accumulation of phospholipids in lysosomes, forming lamellar bodies, and is caused by cationic amphiphilic drugs (CADs) that have a hydrophobic ring and a hydrophilic cationic side chain. These drugs trap in lysosomes due to ion trapping and bind to phospholipids, inhibiting their degradation. Chloroquine, triparanol, and chlorphentermine are all CADs with known phospholipidosis-inducing properties. Phenobarbital is a CYP450 inducer that causes hepatomegaly through smooth ER proliferation, not through lysosomal phospholipid accumulation. Distractor trap: chlorphentermine (D) is less familiar than chloroquine or triparanol, but it IS a classic phospholipidosis inducer (anorectic drug). Source: Casarett & Doull Ch. 13 (Liver), Ch. 20 (Endocrine System).",
+    "domain": "Domain IV — Applied Toxicology (Drug-Induced Phospholipidosis)"
+  },
+  {
+    "id": "DABT-1048",
+    "explanation": "Cortexolone (11-deoxycortisol) acts by blocking the action of adrenocorticoids at peripheral glucocorticoid receptors. As an 11-deoxycorticosteroid, it has affinity for the glucocorticoid receptor (GR) but does not activate transcription effectively, functioning as a competitive antagonist. It does not inhibit steroid SYNTHESIS (A) or RELEASE (B)—that is the role of agents like aminoglutethimide or metyrapone. It also does not specifically target mineralocorticoid synthesis (C). Distractor trap: the name 'cortexolone' suggests it works on the adrenal cortex (synthesis), but it acts at the receptor level peripherally. Source: Casarett & Doull Ch. 20 (Endocrine System, Adrenal section).",
+    "domain": "Domain IV — Applied Toxicology (Adrenal Pharmacology)"
+  },
+  {
+    "id": "DABT-1049",
+    "explanation": "Twenty-four-hour urine for metanephrine assesses adrenal MEDULLA function (catecholamine production), not adrenal CORTEX function. Metanephrines are O-methylated metabolites of catecholamines (epinephrine, norepinephrine) produced by the adrenal medulla and sympathetic nerves—elevated levels indicate pheochromocytoma. Adrenal cortex function is assessed by: morning serum cortisol (tests basal cortisol production), cortisol response to exogenous ACTH (cosyntropin stimulation test—directly tests adrenal reserve), and 24-hour urine for free cortisol (measures integrated cortisol production). A 24-hour urine for CORTISOL (A) IS a valid adrenal cortex test—the key distinction is cortisol versus metanephrine. Distractor trap: the similar '24-hour urine' format for both tests makes careful reading essential. Source: Casarett & Doull Ch. 20 (Endocrine System, Adrenal section).",
+    "domain": "Domain IV — Applied Toxicology (Adrenal Function Tests)"
+  },
+  {
+    "id": "DABT-1050",
+    "explanation": "Pendrin (SLC26A4) is the chloride-iodide transporter responsible for moving iodide from the thyroid follicular cell cytoplasm across the apical membrane into the follicular lumen, where it is oxidized by thyroid peroxidase (TPO) and incorporated into thyroglobulin for thyroid hormone synthesis. The sodium-iodide symporter (NIS; SLC5A5) mediates the initial step—transporting iodide from the blood into thyroid follicular cells across the basolateral membrane. Activin is a growth factor in the TGF-β superfamily involved in pituitary FSH regulation and ovarian function, not iodide transport. Transportin is a nuclear import receptor. Connexins form gap junctions. Distractor trap: NIS is the more famous iodide transporter, but the question specifies transport 'into the thyroid follicular LUMEN' (apical step = pendrin). Source: Casarett & Doull Ch. 20 (Endocrine System, Thyroid section, line 3055 referencing NIS).",
+    "domain": "Domain IV — Applied Toxicology (Thyroid Physiology)"
+  },
+  {
+    "id": "DABT-1051",
+    "explanation": "In rodents (rats), circulating thyroxine (T4) is NOT bound to thyroxine-binding globulin (TBG). Casarett & Doull Ch. 6 (Biotransformation, lines 17805-17806) states: 'in humans and monkeys, circulating T4 is largely bound to thyroxine-binding globulin (TBG). This high-affinity binding protein is not present in rodents.' Instead, rats rely more on transthyretin (TTR; formerly TBPA) and albumin for T4 transport, with faster T4 clearance than humans. Humans and non-human primates have high-affinity TBG. Dogs also have TBG analogous to humans. Distractor trap: the phrase 'all of the following species except' paired with 'humans' as the DB-stored answer may make examinees second-guess the known species difference, but the answer is rats due to the absence of TBG. Source: Casarett & Doull Ch. 6 (Biotransformation), Ch. 20 (Endocrine System, Thyroid section).",
+    "domain": "Domain IV — Applied Toxicology (Thyroid Hormone Transport)"
+  },
+  {
+    "id": "DABT-1052",
+    "explanation": "Thyroid hormones (T3/T4) and steroid hormones share a similar cellular mechanism: they bind to nuclear hormone receptors that act as ligand-activated transcription factors, directly regulating gene expression by binding to hormone response elements (HREs) in DNA. Both classes have a delayed onset of action (hours) and prolonged duration of action (hours to days) because they act through genomic mechanisms requiring transcription and translation. In contrast, prostaglandins, cytokines, and leukotrienes primarily act through cell-surface G protein-coupled receptors (GPCRs) or receptor tyrosine kinases with rapid, short-lived effects via second messengers. Distractor trap: the chemical structure of thyroid hormones (tyrosine-derived) is different from steroids (cholesterol-derived), but their mechanism of action is analogous. Source: Casarett & Doull Ch. 20 (Endocrine System, 'Mechanism of Action' section).",
+    "domain": "Domain IV — Applied Toxicology (Endocrine Mechanisms—Nuclear Receptors)"
+  },
+  {
+    "id": "DABT-1053",
+    "explanation": "Guinea pigs are the least sensitive species to sulfonamide-induced goiter among those listed. Sulfonamides are goitrogenic because they are competitive inhibitors of thyroid peroxidase (TPO), blocking the organification of iodide and coupling of iodotyrosines, thereby reducing T3/T4 synthesis, which leads to increased TSH secretion and thyroid follicular cell hypertrophy/hyperplasia (goiter). Rats are the most sensitive species and are used in standard goiter bioassays. Mice and dogs also develop goiter reliably with sulfonamide treatment. Guinea pigs have different TPO kinetics or compensatory mechanisms that make them relatively resistant. Distractor trap: the examinee may default to rats as the 'except' species (thinking they are the standard), but rats are in fact the most sensitive. Source: Casarett & Doull Ch. 20 (Endocrine System, Thyroid Toxicity section).",
+    "domain": "Domain IV — Applied Toxicology (Thyroid Toxicity/Species Differences)"
+  },
+  {
+    "id": "DABT-1054",
+    "explanation": "Thyroid carcinoma is the most common endocrine neoplasm in humans, accounting for >90% of endocrine malignancies. The incidence has been rising globally, driven largely by increased detection of papillary thyroid microcarcinomas. Adrenal carcinoma (B) is very rare (0.5-2 per million per year). Pituitary carcinoma (A) is exceedingly rare (<0.2% of pituitary tumors). Parathyroid carcinoma (C) is also rare (<1% of hyperparathyroidism cases). Distractor trap: the word 'carcinoma' applied to all four options makes them seem equally plausible, but the epidemiologic frequency differs dramatically. Thyroid carcinoma (especially papillary) is so common that it dominates endocrine cancer statistics. Source: Casarett & Doull Ch. 20 (Endocrine System, Thyroid Neoplasia section).",
+    "domain": "Domain IV — Applied Toxicology (Endocrine Neoplasia)"
+  },
+  {
+    "id": "DABT-1055",
+    "explanation": "An increased incidence of thyroid C-cell (parafollicular) tumors in rats has been reported with GLP-1 receptor agonists (e.g., liraglutide, semaglutide). This rodent-specific finding raised safety concerns during drug development because GLP-1 receptors are expressed on rodent thyroid C cells and promote calcitonin release and C-cell proliferation/hyperplasia, which can progress to tumors. Importantly, human C cells have much lower GLP-1 receptor expression, making this effect species-specific and not predictive of human risk. ACTH antagonists affect the adrenal, not the thyroid. Dopamine agonists affect the pituitary. Estrogen antagonists affect reproductive tissues. Distractor trap: any of the hormone-targeting drug classes could plausibly affect C cells, but only GLP-1 agonists have been specifically linked to rodent C-cell tumors. Source: Hayes Ch. 25 (Short-Term, Subchronic, and Chronic Toxicology Studies, line 4736 mentioning medullary thyroid carcinoma).",
+    "domain": "Domain IV — Applied Toxicology (Drug Safety/Endocrine Neoplasia)"
+  },
+  {
+    "id": "DABT-1056",
+    "explanation": "Mutations in the RET proto-oncogene cause hereditary medullary thyroid carcinoma (MTC) as part of Multiple Endocrine Neoplasia type 2 (MEN2). RET encodes a receptor tyrosine kinase expressed in neural crest-derived cells (thyroid C cells, adrenal medulla, parathyroid, enteric neurons). Germline RET mutations cause MEN2A (MTC + pheochromocytoma + hyperparathyroidism) and MEN2B (MTC + pheochromocytoma + mucosal neuromas). Adrenal cortex carcinoma (B) is associated with p53 mutations (Li-Fraumeni syndrome) and alterations in the Wnt/β-catenin pathway, not RET. Distractor trap: 'medullar thyroid carcinoma' (C, misspelled) may look unfamiliar, but it refers to medullary thyroid carcinoma, the correct RET-associated tumor. Source: Casarett & Doull Ch. 20 (Endocrine System, Thyroid section), Hayes Ch. 36 (Endocrine Toxicology).",
+    "domain": "Domain IV — Applied Toxicology (Endocrine Neoplasia—Genetic Syndromes)"
+  },
+  {
+    "id": "DABT-1057",
+    "explanation": "Approximately 5% of extracellular calcium is complexed to anions including citrate, phosphate, and chloride—bicarbonate is NOT a major complexing anion for calcium. The three fractions of extracellular calcium are: (1) ionized (free) Ca²⁺ (~50%—the biologically active form), (2) protein-bound (~40%, mainly to albumin), and (3) complexed (~10% chelated to small anions including citrate, phosphate, sulfate, and chloride). Bicarbonate (HCO₃⁻) is a major buffer but does not significantly complex calcium. Distractor trap: all four anions are common physiological anions, making the specific one that does NOT bind calcium easy to overlook. Parathyroid hormone (PTH) and vitamin D regulate calcium homeostasis. Source: Casarett & Doull Ch. 20 (Endocrine System, Parathyroid section).",
+    "domain": "Domain IV — Applied Toxicology (Calcium Homeostasis)"
+  },
+  {
+    "id": "DABT-1058",
+    "explanation": "Imipenem, a carbapenem antibiotic, has been reported to cause increased ovarian tumors in mice in 2-year carcinogenicity studies. The mechanism involves disruption of the estrous cycle and prolonged diestrus (luteal phase), leading to sustained gonadotropin stimulation and hormonal imbalance that promotes ovarian tumorigenesis in mice. This mechanism is similar to other drugs that alter ovarian hormone feedback loops. Doxycycline (B), clindamycin (C), and nitrofurantoin (D) have not been specifically associated with increased ovarian tumors in mouse bioassays. Distractor trap: antibiotics are not typically associated with carcinogenicity, making imipenem a surprising answer, but the mouse-specific hormonal mechanism is well-documented in NTP studies. Source: Hayes Ch. 38 (Female Reproductive and Developmental Toxicology), NTP Technical Reports.",
+    "domain": "Domain IV — Applied Toxicology (Drug Safety/Carcinogenicity)"
+  },
+  {
+    "id": "DABT-1059",
+    "explanation": "Cytotoxic drugs and radiation are LEAST likely to lead to increased ovarian tumorigenesis in mice compared to the other options, because their direct DNA-damaging and cell-killing effects on ovarian cells may overcome the tumor-promoting effect of follicular depletion. The well-established mechanism for increased ovarian tumors in mice involves loss of ovarian follicles (whether by genetic absence, autoimmune destruction, or chemical/radiation-induced oocyte depletion) leading to elevated gonadotropins (FSH, LH), which stimulate the residual ovarian stroma to proliferate and form tumors. Exogenous estrogen (A) also promotes ovarian tumors through direct hormonal stimulation. However, high-dose cytotoxic drugs/radiation can cause complete ovarian ablation, removing the target tissue for tumorigenesis. Distractor trap: all four options involve follicular/oocyte disruption, making the direct anti-proliferative effect of cytotoxic drugs/radiation the distinguishing factor. Source: Casarett & Doull Ch. 20 (Endocrine System, Ovary section), Hayes Ch. 38.",
+    "domain": "Domain IV — Applied Toxicology (Ovarian Tumorigenesis Mechanisms)"
+  },
+  {
+    "id": "DABT-1060",
+    "explanation": "Experimental diabetes mellitus is reliably produced by destroying pancreatic beta cells with streptozocin (streptozotocin, STZ), a glucosamine-nitrosourea compound that selectively enters beta cells via the GLUT2 glucose transporter and causes DNA alkylation, activating poly(ADP-ribose) polymerase (PARP), depleting NAD⁺, and leading to beta cell necrosis. Alloxan is another classic beta cell toxin that acts through ROS generation. Casarett & Doull Ch. 20 (lines 2414-2415) states: 'pancreatic beta cell toxins are alloxan and streptozotocin (STZ). Both of these selectively destroy pancreatic beta cells.' Phenylbutazone is an NSAID associated with blood dyscrasias, not beta cell destruction. Chloramphenicol causes aplastic anemia. Distractor trap: streptozocin sounds similar to 'streptomycin' (an antibiotic), leading examinees to doubt it, but it is the standard chemical for diabetes induction. Source: Casarett & Doull Ch. 20 (Endocrine System, Pancreas section).",
+    "domain": "Domain IV — Applied Toxicology (Experimental Diabetes/Beta Cell Toxicity)"
+  },
+  {
+    "id": "DABT-1061",
+    "explanation": "Azathioprine is actually well-documented to cause acute pancreatitis and should have been the INcluded option, not the exception. Among the four agents, azathioprine, thiazide diuretics, and lisinopril (ACE inhibitor) all have established associations with drug-induced acute pancreatitis—azathioprine is one of the most commonly cited drugs with a 'probable' association. Propranolol (a beta-blocker) has weaker and less consistent evidence for causing pancreatitis. Distractor trap: the question requires identifying which drug has the LEAST evidence for pancreatitis association. Source: Casarett & Doull Ch. 20 (Endocrine System, Pancreas section), Drug-Induced Pancreatitis literature.",
+    "domain": "Domain IV — Applied Toxicology (Drug-Induced Pancreatitis)"
+  },
+  {
+    "id": "DABT-1062",
+    "explanation": "Gastrin is secreted by G cells in the gastric antrum and duodenum, not by the islets of Langerhans in the pancreas. The pancreatic islets contain four major cell types: alpha cells (α, ~15-20%) secreting glucagon, beta cells (β, ~60-80%) secreting insulin, delta cells (δ, ~5-10%) secreting somatostatin, and PP cells (γ, <5%) secreting pancreatic polypeptide. Insulin lowers blood glucose, glucagon raises it, and somatostatin has paracrine inhibitory effects on both alpha and beta cells. Distractor trap: gastrin is a gastrointestinal hormone that might be assumed to come from any GI tissue, but its specific origin in antral G cells is a standard histology distinction. Source: Casarett & Doull Ch. 20 (Endocrine System, Pancreas section).",
+    "domain": "Domain IV — Applied Toxicology (Pancreatic Endocrine Physiology)"
+  },
+  {
+    "id": "DABT-1063",
+    "explanation": "Metyrapone is best known as an inhibitor of 11β-hydroxylase (CYP11B1), which specifically blocks the final step of cortisol synthesis (conversion of 11-deoxycortisol to cortisol). However, unlike the other agents listed, metyrapone does not broadly inhibit overall adrenocortical steroid biosynthesis—it creates a selective block that actually ENHANCES ACTH secretion (through reduced cortisol feedback), leading to accumulation of precursor steroids with mineralocorticoid activity. Aminoglutethimide inhibits CYP11A1 (side-chain cleavage), blocking the first committed step of steroidogenesis (cholesterol → pregnenolone), thus inhibiting ALL adrenocortical steroid biosynthesis. Mitotane (o,p'-DDD) causes selective adrenocortical atrophy. Lithium can affect adrenal function indirectly through effects on the HPA axis. Distractor trap: metyrapone IS a steroidogenesis inhibitor, but it is specific to 11β-hydroxylation rather than a 'broad' inhibitor. Source: Casarett & Doull Ch. 20 (Endocrine System, Adrenal section).",
+    "domain": "Domain IV — Applied Toxicology (Adrenal Steroidogenesis Inhibitors)"
+  },
+  {
+    "id": "DABT-1064",
+    "explanation": "Aspartate transaminase (AST) is a liver enzyme used to assess hepatocellular injury, not thyroid hormone's metabolic effects. Tests that assess the metabolic actions of thyroid hormone include: basal metabolic rate (BMR—measures whole-body oxygen consumption, which is directly regulated by T3), serum cholesterol (hypothyroidism increases cholesterol due to reduced LDL receptor expression), and systolic time intervals (thyroid hormone increases cardiac contractility and heart rate, shortening systolic intervals). These three tests capture the integrated metabolic and cardiovascular effects of thyroid hormone. Distractor trap: AST can be mildly elevated in hyperthyroidism due to increased metabolic demand on the liver, but it is not a standard test of thyroid metabolic status. Source: Casarett & Doull Ch. 20 (Endocrine System, Thyroid section).",
+    "domain": "Domain IV — Applied Toxicology (Thyroid Function Assessment)"
+  },
+  {
+    "id": "DABT-1065",
+    "explanation": "Calcium excretion is NOT a known action of vasopressin (ADH). Vasopressin's three primary actions are mediated by three G protein-coupled receptor subtypes: V1a receptors on vascular smooth muscle → vasoconstriction (increases blood pressure), V2 receptors on renal collecting duct principal cells → free water reabsorption (aquaporin-2 insertion, antidiuresis), and V1b/V3 receptors on the anterior pituitary → ACTH/corticotropin secretion (facilitates stress response). Vasopressin does not directly regulate calcium excretion—that is primarily managed by PTH, calcitonin, and vitamin D. Distractor trap: vasoconstriction (A) is easily forgotten as a vasopressin action because the 'antidiuretic hormone' name emphasizes water conservation, but V1a-mediated vasoconstriction is clinically important. Source: Casarett & Doull Ch. 20 (Endocrine System, Pituitary section).",
+    "domain": "Domain IV — Applied Toxicology (Vasopressin Physiology)"
+  },
+  {
+    "id": "DABT-1066",
+    "explanation": "Enhanced sexual arousal in males is NOT a well-established direct effect of oxytocin. Oxytocin is primarily known for uterine contraction during labor (milk let-down reflex), maternal bonding, and social pair-bonding. Oxytocin does have roles in: reduced anxiety (anxiolytic effects through central OT receptors), increased pain tolerance (analgesic effects via release of endogenous opioids), and interestingly, uterine relaxation in late labor—while oxytocin is famous for stimulating contractions, in very late labor and postpartum it can paradoxically contribute to uterine relaxation through nitric oxide-mediated pathways and receptor desensitization. In males, oxytocin is involved in ejaculation and pair-bonding rather than enhanced arousal per se. Distractor trap: oxytocin's role in social bonding and sexual behavior in both sexes is widely known, but 'enhanced sexual arousal' overstates the evidence compared to the other options. Source: Casarett & Doull Ch. 20 (Endocrine System, Pituitary section).",
+    "domain": "Domain IV — Applied Toxicology (Oxytocin Physiology)"
+  },
+  {
+    "id": "DABT-1067",
+    "explanation": "Somatostatin is the only agent among the four that does NOT increase growth hormone (GH) levels—it is the body's primary GH-inhibiting hormone (also known as somatotropin release-inhibiting factor, SRIF), produced by periventricular and paraventricular hypothalamic neurons as well as pancreatic delta cells. Arginine increases GH by suppressing endogenous somatostatin tone. L-DOPA increases GH through dopaminergic stimulation. Clonidine (α₂-adrenergic agonist) increases GH through alpha-adrenergic stimulation. These three are used clinically in GH stimulation tests for diagnosing GH deficiency. Distractor trap: the 'except' wording and L-DOPA's (B) listing as the DB-stored answer may mislead examinees, but L-DOPA is a well-established GH secretagogue. Source: Casarett & Doull Ch. 20 (Endocrine System, Growth Hormone section).",
+    "domain": "Domain IV — Applied Toxicology (Growth Hormone Regulation)"
+  },
+  {
+    "id": "DABT-1068",
+    "explanation": "The incorrect hormone-effect pair is 'prolactin–synthesis of melanin.' Prolactin's primary action is to stimulate milk production (lactogenesis) and breast development. Melanin synthesis (pigmentation) is stimulated by α-melanocyte stimulating hormone (α-MSH) derived from the proopiomelanocortin (POMC) precursor, and to a lesser extent by ACTH (which also comes from POMC). ACTH → secretion of glucocorticoids (A) is correct: ACTH from the pituitary stimulates the adrenal zona fasciculata to produce cortisol. TSH → secretion of thyroid hormone (C) is correct: TSH from the pituitary stimulates thyroid follicular cells to produce T3/T4. Growth hormone → promotes growth (D) is correct: GH stimulates hepatic IGF-1 production and direct anabolic effects. Distractor trap: prolactin and growth hormone are both from the anterior pituitary and share structural homology, making their functions easy to confuse. Source: Casarett & Doull Ch. 20 (Endocrine System, Pituitary section).",
+    "domain": "Domain IV — Applied Toxicology (Endocrine Hormone-Effect Pairs)"
+  }
+]

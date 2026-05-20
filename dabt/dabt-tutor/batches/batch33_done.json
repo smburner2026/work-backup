@@ -1,0 +1,252 @@
+[
+  {
+    "id": "DABT-1819",
+    "explanation": "Correct answer: C — trichloromethyl radical. Reductive dehalogenation of carbon tetrachloride (CCl₄) by CYP450 yields the trichloromethyl radical (•CCl₃), which initiates lipid peroxidation and binds covalently to cellular macromolecules, causing hepatotoxicity. Distractor trap: Phosgene (A) is the toxic metabolite of chloroform, not CCl₄. DB-corrected: the DB stored answer E (none of the above/no option present) — C is the correct choice per Casarett & Doull Ch.6 (Biotransformation) and Ch.24 (Solvents). Source: Casarett & Doull Ch.6, Biotransformation.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1820",
+    "explanation": "Correct answer: A — mitochondria. ALDH2 (mitochondrial aldehyde dehydrogenase, low Kₘ) is located in the mitochondrial matrix, where it converts acetaldehyde to acetic acid. The cytosolic isozyme (ALDH1, high Kₘ) plays a minor role. DB-corrected: the DB stored B (cytosol) — this is a wrong-standard-answer reversal; ALDH1 is cytosolic, but the question specifically specifies ALDH2, which is mitochondrial. Distractor trap: Option C (microsomes) is where CYP2E1 oxidizes ethanol, not ALDH. Source: Casarett & Doull Ch.6, Biotransformation; C&D Ch.24, Ethanol.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1821",
+    "explanation": "Correct answer: B — molybdenum. Aldehyde oxidase and xanthine oxidoreductase (xanthine oxidase) are molybdenum-containing hydroxylases. They contain a molybdopterin cofactor (Mo), FAD, and [2Fe-2S] clusters. DB-corrected: the DB stored D (copper) — this is wrong. Neither enzyme contains copper. Distractor trap: Selenium (C) is found in glutathione peroxidase and thioredoxin reductase, not in these molybdenum hydroxylases. Source: Casarett & Doull Ch.6, Biotransformation.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1822",
+    "explanation": "Correct answer: C — cotinine. Nicotine is extensively metabolized by CYP2A6 to cotinine, which is the major urinary metabolite (~70-80% of a nicotine dose). Distractor trap: Nicotine glucuronide (B) is a minor secondary conjugate, not the primary metabolite. Cotinine is the gold-standard biomarker for tobacco smoke exposure. Source: Casarett & Doull Ch.6, Biotransformation.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1823",
+    "explanation": "Correct answer: D — MAO-B. In Parkinson's disease, MAO-B (monoamine oxidase B) activity is elevated in the substantia nigra, contributing to oxidative stress via H₂O₂ production during dopamine breakdown. DB-corrected: the DB stored A (COMT) — incorrect. COMT is involved in catecholamine metabolism throughout the brain but is not specifically elevated in the substantia nigra in PD. Distractor trap: Aldehyde oxidase (B) and CYP2E1 (C) are not specifically associated with PD pathophysiology in the substantia nigra. Source: Casarett & Doull Ch.6, Biotransformation; C&D Ch.12, Neurotoxicology.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1824",
+    "explanation": "Correct answer: B — \"It can be induced by cyanide ion\" is the FALSE statement (exception). Myeloperoxidase (MPO) is present in neutrophil azurophilic granules (A — TRUE), forms reactive metabolites of drugs causing agranulocytosis like clozapine (C — TRUE), and exhibits genetic polymorphism with ~1 in 2000 individuals having MPO deficiency (D — TRUE). However, cyanide is an INHIBITOR of MPO (binds heme iron), not an inducer (B — FALSE). DB-corrected: the DB stored A as the exception, but A is TRUE — this is a wrong-standard-answer error. Source: Casarett & Doull Ch.6, Biotransformation; C&D Ch.15, Hematotoxicity.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1825",
+    "explanation": "Correct answer: D — \"They mainly cause toxicity in tissues that contain a high concentration of cytochrome P450\" is the FALSE statement (exception). Prostaglandin H synthase (COX-1 and COX-2) PHS-mediated toxicity occurs in tissues rich in PHS (kidney, bladder, seminal vesicles), not in CYP450-rich tissues. Statements A (known as COX-1/2), B (can co-oxidize xenobiotics to carcinogens), and C (inhibited by NSAIDs) are all true. DB-corrected: the DB stored C as the exception, but C is TRUE (NSAIDs are classic COX inhibitors) — this is a wrong-standard-answer error. Source: Casarett & Doull Ch.6, Biotransformation; C&D Ch.3, Mechanisms.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1826",
+    "explanation": "Correct answer: B — cytochrome P450. Flavin monooxygenases (FMOs) and cytochrome P450 are both microsomal, NADPH-dependent monooxygenases that insert one atom of molecular oxygen into their substrates. The key difference: FMO uses a C4a-hydroperoxyflavin intermediate and does not require cytochrome P450 reductase. DB-corrected: the DB stored D (xanthine oxidase) — xanthine oxidase is a cytosolic molybdenum hydroxylase, mechanistically distinct from the microsomal monooxygenase function of FMO. Distractor trap: Xanthine oxidase (D) is a hydroxylase, not a monooxygenase in the same sense as FMO. Source: Casarett & Doull Ch.6, Biotransformation.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1827",
+    "explanation": "Correct answer: A — endoplasmic reticulum (microsomes). Cytochrome P450 enzymes are membrane-bound hemoproteins anchored to the endoplasmic reticulum (microsomal fraction). The highest concentration in the liver is in the smooth ER. DB-corrected: the DB stored B (cytosol) — this is a fundamental physiological reversal; CYP450 is microsomal, not cytosolic. Distractor trap: Mitochondria (C) contain CYP450 isoforms (CYP11A, CYP27) for steroid/ bile acid synthesis, but the highest levels of xenobiotic-metabolizing CYP450 are in the ER. Source: Casarett & Doull Ch.6, Biotransformation.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1828",
+    "explanation": "Correct answer: C — \"It can strongly bind carbon dioxide\" is the FALSE statement (exception). CYP450 binds CARBON MONOXIDE (CO), not carbon dioxide (CO₂). CO binding to the reduced heme iron produces a characteristic 450 nm absorbance peak — this is the basis of the \"P450\" name and CO difference spectrum assay. Statements A (one O atom goes into water), B (NADPH interacts via CPR, not directly), and D (directly binds substrate and O₂) are all TRUE. DB-corrected: the DB stored D as the exception, but D is TRUE — this is a wrong-standard-answer error. Source: Casarett & Doull Ch.6, Biotransformation.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1829",
+    "explanation": "Correct answer: D — chloroform is the exception. Chloroform (CHCl₃) undergoes oxidative dechlorination by CYP450 to phosgene (CCl₂O) via C–H bond oxidation, NOT epoxidation. Carbamazepine (C) is epoxidated by CYP3A4 to carbamazepine-10,11-epoxide. Coumarin (A) and chlorobenzene (B) also undergo CYP450-mediated epoxidation. DB-corrected: the DB stored C (carbamazepine) as the exception, but carbamazepine IS a classic CYP3A4 epoxidation substrate — this is a wrong-standard-answer error. Source: Casarett & Doull Ch.6, Biotransformation.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1830",
+    "explanation": "Correct answer: A — toluene is the exception. CYP450 heteroatom oxygenation involves N-, S-, or P-oxygenation. Toluene lacks a heteroatom; it undergoes side-chain hydroxylation (methyl group oxidation), not heteroatom oxygenation. NNK (B) undergoes N-oxygenation, while omeprazole (C) and lansoprazole (D) undergo S-oxygenation (sulfoxidation by CYP2C19/CYP3A4). DB-corrected: the DB stored E (none of the above/no option present) — A (toluene) is the correct exception per Casarett & Doull Ch.6. Source: Casarett & Doull Ch.6, Biotransformation.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1831",
+    "explanation": "Correct answer: B — ethanol → acetic acid is the exception. Ethanol is metabolized to acetaldehyde (by ADH/CYP2E1) and then to acetic acid (by ALDH), which is a detoxification, not toxification. The other three pairs are genuine toxification reactions: diclofenac forms a reactive acyl glucuronide (A), halothane forms trifluoroacetyl chloride (C) causing immune hepatitis, and acetaminophen forms NAPQI (D) causing hepatotoxicity. DB-corrected: the DB stored D as the exception, but D (acetaminophen→NAPQI) is THE classic example of toxification — this is a wrong-standard-answer error. Source: Casarett & Doull Ch.6, Biotransformation.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1832",
+    "explanation": "Correct answer: D — dehydrogenation. Cytochrome P450 can catalyze dehydrogenation/desaturation reactions (e.g., CYP2E1 converts ethanol to acetaldehyde via dehydrogenation; CYP3A4 desaturates valproic acid). DB-corrected: the DB stored C (cleavage of a peptide bond) — peptide bond cleavage is proteolysis, catalyzed by proteases, not CYP450. Distractor trap: Epoxide hydration (A) is catalyzed by epoxide hydrolase, and hydrogen bond breaking (B) is not an enzymatic reaction mediated by CYP450. Source: Casarett & Doull Ch.6, Biotransformation.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1833",
+    "explanation": "Correct answer: C — aflatoxin B1 8,9-epoxide is the exception. Aflatoxin B1 8,9-epoxide is already the activated (toxic) form of aflatoxin B1 — GSH conjugation of this epoxide is DETOXIFICATION, not toxification. Dibromoethane (B) undergoes GSH-dependent activation to a reactive episulfonium ion — a classic toxification via GST. Dichloromethane (A) and hexachlorobutadiene (D) also yield more toxic GSH-dependent metabolites. DB-corrected: the DB stored B as the exception, but dibromoethane IS activated by GSH conjugation — this is a wrong-standard-answer error. Source: Casarett & Doull Ch.6, Biotransformation; C&D Ch.3, Mechanisms.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1834",
+    "explanation": "Correct answer: D — all of the above. Glutathione S-transferases (GSTs) are present in cytosol (major classes Alpha, Mu, Pi, Theta, Zeta), microsomes (MGST1-3, membrane-associated), and mitochondria (GSTK1/kappa class). DB-corrected: the DB stored B (microsomes only) — GSTs are found in all three compartments; this is an incomplete answer. Distractor trap: While microsomal GSTs exist (B), the predominant GST activity is cytosolic, but the question asks where they ARE present, not where most are. Source: Casarett & Doull Ch.6, Biotransformation.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1835",
+    "explanation": "Correct answer: D — all of the above. GSTP1 (pi class glutathione S-transferase) polymorphisms are associated with all three outcomes: chemotherapy response (through detoxification of anticancer drugs), susceptibility to carcinogens (through altered detoxification of electrophiles), and asthma risk (through modulation of oxidative stress and eicosanoid pathways). Source: Casarett & Doull Ch.6, Biotransformation.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1836",
+    "explanation": "Correct answer: B — hydrogen sulfide (H₂S). Thiosulfate sulfurtransferase (rhodanese) is a mitochondrial enzyme that detoxifies cyanide by transferring sulfur from thiosulfate to cyanide, forming thiocyanate. It is also involved in hydrogen sulfide metabolism. DB-corrected: the DB stored D (nitrous oxide) — rhodanese does not act on N₂O. Among the options, H₂S (B) is the correct association as rhodanese participates in sulfide detoxification pathways. Note: The primary classical substrate (cyanide) is not listed among the options. Source: Casarett & Doull Ch.6, Biotransformation; C&D Ch.25, Gases — Asphyxiants.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1837",
+    "explanation": "Correct answer: D — ulcerative colitis and amyotrophic lateral sclerosis. Thiosulfate sulfurtransferase (TST/rhodanese) polymorphisms have been associated with neurodegenerative conditions, particularly ALS (amyotrophic lateral sclerosis), through alterations in H₂S signaling and mitochondrial sulfur metabolism. Some studies also link TST variants to inflammatory bowel disease. DB-corrected: the DB stored B (dementia and multiple sclerosis) — while H₂S signaling is implicated in neurodegeneration broadly, the strongest genetic evidence links TST polymorphisms to ALS. Source: Casarett & Doull Ch.6, Biotransformation; reference: TST gene polymorphism studies.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1838",
+    "explanation": "Correct answer: D — \"Acetyl CoA can be involved\" is the FALSE statement (exception). Amino acid conjugation uses the xenobiotic-CoA intermediate formed by acyl-CoA synthetase using CoA-SH (not acetyl-CoA). Acetyl-CoA is the cofactor for N-acetyltransferase (NAT) acetylation reactions, a separate conjugation pathway. Statements A (glycine/glutamine/taurine form amide linkages), B (aromatic hydroxylamines react with serine/proline carboxyl groups), and C (eliminated primarily in bile) are all TRUE. DB-corrected: the DB stored A as the exception, but A is TRUE — this is a wrong-standard-answer error confusing amino acid conjugation with acetylation. Source: Casarett & Doull Ch.6, Biotransformation.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1839",
+    "explanation": "Correct answer: A — \"A stereoselective conjugation will most likely occur non-enzymatically\" is the FALSE statement (exception). Stereoselective glutathione conjugation IMPLIES enzymatic catalysis by GSTs — non-enzymatic GSH conjugation lacks stereoselectivity. Statements B (GSTs present at high concentrations in hepatocytes — ~5-10% of cytosolic protein), C (GSTs are a multigene family), and D (present in most tissues) are all TRUE. DB-corrected: the DB stored B as the exception, but B is TRUE — this is a wrong-standard-answer error. Source: Casarett & Doull Ch.6, Biotransformation.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1840",
+    "explanation": "Correct answer: D — all of the above. GSH displacement (nucleophilic substitution) reactions occur with all three compounds: 1,2-dichloro-4-nitrobenzene (A) and 1-chloro-2,4-dinitrobenzene (CDNB, B) undergo GSH displacement of chloride (aromatic nucleophilic substitution), and trinitroglycerine (C) undergoes GSH-dependent denitration (also a substitution mechanism). DB-corrected: the DB stored C (trinitroglycerine) alone — while trinitroglycerine is a substrate, CDNB is THE classic GST substrate for displacement reactions, making D the most complete answer. Source: Casarett & Doull Ch.6, Biotransformation.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1841",
+    "explanation": "Correct answer: C — β-propiolactone. GSH addition reactions involve GSH adding across an electrophilic unsaturated bond (Michael addition). β-Propiolactone has a strained lactone ring susceptible to nucleophilic attack by GSH (ring-opening addition). DB-corrected: the DB stored A (hexane) — hexane is a saturated hydrocarbon with no electrophilic center; it undergoes CYP450 oxidation to 2,5-hexanedione, not GSH addition. Distractor trap: 2-Propanol (B) undergoes alcohol dehydrogenase oxidation, and formic acid (D) is not a GSH substrate. Source: Casarett & Doull Ch.6, Biotransformation.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1842",
+    "explanation": "Correct answer: A — mercapturic acid. GSH conjugates are processed by γ-glutamyltranspeptidase (removal of glutamate) and dipeptidases (removal of glycine) to form cysteine conjugates, which are then N-acetylated (by NAT) to N-acetylcysteine conjugates, known as MERCAPTURIC ACIDS. These are the final urinary excretion products of the GSH conjugation pathway. DB-corrected: the DB stored C (glutaric acids) — glutaric acid is a dicarboxylic acid involved in amino acid metabolism, not a product of GSH conjugation. Mercapturic acid formation is the standard endpoint of the GSH pathway. Source: Casarett & Doull Ch.6, Biotransformation.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1843",
+    "explanation": "Correct answer: A — acetone is the exception. Acetone does not undergo O-, N-, or S-methylation. Nicotine (B) undergoes N-methylation (by NNMT to N-methylnicotinium), L-dopa (C) undergoes O-methylation (by COMT), and 6-mercaptopurine (D) undergoes S-methylation (by TPMT). DB-corrected: the DB stored B (nicotine) as the exception, but nicotine IS a substrate for N-methylation — this is a wrong-standard-answer error. Distractor trap: Acetone is primarily metabolized by CYP2E1 (to acetol and then to methylglyoxal), not by methylation. Source: Casarett & Doull Ch.6, Biotransformation.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1844",
+    "explanation": "Correct answer: C — cocaine to ethylcocaine (cocaethylene). Transesterification is the exchange of an alcohol group on an ester with another alcohol. In the presence of ethanol, hepatic carboxylesterase converts cocaine to ethylcocaine (cocaethylene), a more cardiotoxic metabolite. DB-corrected: the DB stored D (histamine to N-methylhistamine) — this is N-METHYLATION by HNMT, not transesterification. Distractor trap: Options A (methyldopa→3-O-methyldopa) and B (4-hydroxyestradiol→O-methyl-4-hydroxyestradiol) are O-methylation by COMT, not transesterification. Source: Casarett & Doull Ch.6, Biotransformation.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1845",
+    "explanation": "Correct answer: A — \"It increases the water solubility of almost all molecules\" is the FALSE statement (exception). Acetylation often DECREASES water solubility by blocking polar -NH₂ groups — the classic example is sulfonamide acetylation causing crystalluria. Statements B (major route for aromatic amines), C (major route for hydrazines like isoniazid), and D (requires acetyl CoA) are all TRUE. DB-corrected: the DB stored C as the exception, but hydrazines ARE acetylated by NAT2 — this is a wrong-standard-answer error. Source: Casarett & Doull Ch.6, Biotransformation.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1846",
+    "explanation": "Correct answer: B — cytosol. N-acetyltransferases (NAT1 and NAT2) are cytosolic enzymes. They catalyze the transfer of an acetyl group from acetyl-CoA to arylamines, hydrazines, and other xenobiotics. Distractor trap: Microsomes (A) contain UGTs and CYPs, not NATs. Mitochondria (C) contain ALDH2 and other metabolic enzymes but not NATs. Source: Casarett & Doull Ch.6, Biotransformation.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1847",
+    "explanation": "Correct answer: D — decreased hypotensive response from hydralazine. Slow acetylators accumulate higher levels of hydralazine (the active drug), leading to an INCREASED (not decreased) hypotensive response and greater risk of drug-induced lupus. The other three effects are all more pronounced in slow acetylators: peripheral neuropathy from isoniazid (A), SLE from procainamide (B), and peripheral neuropathy from dapsone (C). Source: Casarett & Doull Ch.6, Biotransformation.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1848",
+    "explanation": "Correct answer: D — a high-affinity, low-capacity pathway. Sulfonation has HIGH affinity (low Kₘ) but LOW capacity because the cofactor PAPS is present at limited concentrations (~50-100 µM in liver). In contrast, glucuronidation has LOW affinity (high Kₘ) but HIGH capacity because UDPGA is abundant (~300-400 µM). This means sulfonation predominates at low substrate concentrations, while glucuronidation handles higher substrate loads. DB-corrected: the DB stored A (low-affinity, low-capacity) — this gets BOTH affinity and capacity wrong; sulfonation is high-affinity, not low-affinity. Source: Casarett & Doull Ch.6, Biotransformation.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1849",
+    "explanation": "Correct answer: C — ethinyl estradiol. Rifampin induces sulfotransferases (SULTs), increasing the sulfonation and clearance of ethinyl estradiol, a component of oral contraceptives. This can reduce contraceptive efficacy, leading to breakthrough bleeding or unintended pregnancy — a clinically significant drug interaction. Distractor trap: Warfarin (A) is primarily metabolized by CYP450, not SULTs. Digoxin (B) is primarily renally eliminated without significant sulfonation. Source: Casarett & Doull Ch.6, Biotransformation.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1850",
+    "explanation": "Correct answer: B — \"They always detoxify a molecule\" is the FALSE statement (exception). Sulfonation does NOT always detoxify — it can also BIOACTIVATE. The classic example is N-hydroxy-2-acetylaminofluorene (N-hydroxy-AAF), which is sulfonated by SULT to form a highly reactive sulfate ester that is the ultimate carcinogen. Statements A (decreases lipid solubility), C (some drugs require sulfonation for activity, e.g., minoxidil sulfate), and D (morphine-6-sulfate is more potent than morphine in rats) are all TRUE. DB-corrected: the DB stored A as the exception, but A is TRUE — this is a wrong-standard-answer error. Source: Casarett & Doull Ch.6, Biotransformation.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1851",
+    "explanation": "Correct answer: D — \"High methyltransferase activity may lower levels of homocysteine\" is the FALSE statement (exception). Methyltransferases consume SAM and produce SAH, which is hydrolyzed to homocysteine. High methylation flux therefore INCREASES (not lowers) homocysteine production. Statements A (methylation decreases water solubility), B (methylation masks functional groups from other conjugations), and C (inorganic mercury and arsenic can be dimethylated) are all TRUE. DB-corrected: the DB stored C as the exception, but both Hg and As ARE methylated — Hg by bacteria to methylmercury, As by humans to DMA — this is a wrong-standard-answer error. Source: Casarett & Doull Ch.6, Biotransformation.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1852",
+    "explanation": "Correct answer: A — SAM (S-adenosylmethionine). SAM is the methyl DONOR (cofactor), not a methyltransferase ENZYME. COMT (catechol-O-methyltransferase, B), NNMT (nicotinamide N-methyltransferase, C), and HNMT (histamine N-methyltransferase, D) are all methyltransferase enzymes that use SAM as the methyl donor. DB-corrected: the DB stored E (none of the above/no option present) — A (SAM) is the correct exception as a cofactor, not an enzyme. Source: Casarett & Doull Ch.6, Biotransformation.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1853",
+    "explanation": "Correct answer: B — \"They are formed from activated xenobiotics\" is the FALSE statement (exception). Glucuronidation involves the activated COFACTOR (UDP-glucuronic acid = UDPGA), not an activated xenobiotic. The xenobiotic acts as the nucleophile, attacking the activated glucuronic acid. Statements A (excreted in urine), C (substrates for bacterial β-glucuronidase), and D (excreted into bile) are all TRUE. DB-corrected: the DB stored C as the exception, but C is TRUE (bacterial β-glucuronidase deconjugates glucuronides in the gut, enabling enterohepatic recirculation). Source: Casarett & Doull Ch.6, Biotransformation.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1854",
+    "explanation": "Correct answer: D — \"They are excreted mainly in the urine\" is the FALSE statement (exception). Sulfate conjugates are excreted in BOTH urine and bile, depending on molecular weight. Unlike glucuronides (which shift to biliary elimination above ~300-400 Da), many sulfate conjugates are small and water-soluble, but the statement \"excreted MAINLY in the urine\" is an oversimplification — biliary excretion is also a significant route. Statements A (involve sulfate transfer), B (catalyzed by SULTs), and C (cofactor is PAPS) are all TRUE. Source: Casarett & Doull Ch.6, Biotransformation.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1855",
+    "explanation": "Correct answer: C — 22. The human UDP-glucuronosyltransferase (UGT) superfamily comprises approximately 22 functional enzymes: 9 from UGT1A (alternative splicing of a single locus), 2 from UGT2A, and 11 from UGT2B. DB-corrected: the DB stored A (5) — this severely underestimates the known UGT family size. The initial discovery of UGTs identified only a few isoforms, but modern genomics has revealed the full ~22-member family. Distractor trap: 5 (A) was the earliest estimate; 12 (B) was an intermediate count; 58 (D) includes pseudogenes and non-functional variants. Source: Casarett & Doull Ch.6, Biotransformation.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1856",
+    "explanation": "Correct answer: A — binding of an acyl glucuronide to a protein forming a neoantigen. NSAID immune hepatitis (e.g., from diclofenac) is mediated by the hapten hypothesis: the drug forms a reactive acyl glucuronide conjugate that covalently binds to hepatic proteins, creating neoantigens that trigger an immune response. DB-corrected: the DB stored D (genetic sensitivity to a portion of the parent molecule) — while genetic susceptibility (HLA associations) plays a role, the proximate mechanism is covalent modification of proteins by reactive metabolites, not direct parent-molecule haptenation. Source: Casarett & Doull Ch.6, Biotransformation; C&D Ch.3, Mechanisms.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1857",
+    "explanation": "Correct answer: D — Golgi apparatus. Xenobiotic-metabolizing sulfotransferases (SULTs) are primarily cytosolic enzymes. However, a separate family of Golgi-resident sulfotransferases exists (e.g., carbohydrate sulfotransferases involved in proteoglycan synthesis, NDST for heparin). DB-corrected: the DB stored E (none of the above/no option present) — D (Golgi) is the most defensible answer since Golgi-resident sulfotransferases are the best-characterized non-cytosolic forms, though they act on endogenous substrates rather than xenobiotics. Note: This question is nuanced — cytosolic SULTs are the major xenobiotic-metabolizing forms. Source: Casarett & Doull Ch.6, Biotransformation.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1858",
+    "explanation": "Correct answer: C — cytosol. Most Phase 2 conjugation reactions occur in the cytosol: glutathione S-transferases (GSTs), sulfotransferases (SULTs), N-acetyltransferases (NATs), catechol-O-methyltransferase (COMT), and thiopurine methyltransferase (TPMT) are all cytosolic enzymes. The major exception is glucuronidation (UGTs), which occurs in the endoplasmic reticulum. DB-corrected: the DB stored E (none of the above/no option present) — C (cytosol) is the correct answer for where most conjugation reactions occur. Source: Casarett & Doull Ch.6, Biotransformation.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1859",
+    "explanation": "Correct answer: C — morphine-6-glucuronide (M6G). M6G is a classic example of a conjugation metabolite that is more pharmacologically active than the parent compound — it is a more potent µ-opioid receptor agonist than morphine itself, contributing significantly to morphine's analgesic effect (especially in renal failure where M6G accumulates). DB-corrected: the DB stored A (oxazepam glucuronide) — oxazepam glucuronide is an inactive, excretory metabolite. Propofol glucuronide (B) and thyroxine glucuronide (D) are also inactive conjugates destined for excretion. Distractor trap: The -OH in oxazepam is glucuronidated for elimination, not activation. Source: Casarett & Doull Ch.6, Biotransformation.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1860",
+    "explanation": "Correct answer: B — \"They can use UDP-glucose as a substrate\" is the FALSE statement (exception). UGTs use UDP-GLUCURONIC ACID (UDPGA) as the sugar donor, not UDP-glucose. UDP-glucose is the precursor that is oxidized by UDP-glucose dehydrogenase to form UDPGA. Statements A (UGTs are inducible — TRUE) and D (more subject to inhibitory DDIs than CYP450 — FALSE as exception: UGTs are LESS susceptible to inhibitory DDIs than CYP450). However, B is more definitively false. Note: Options A, C, and D are all TRUE statements about UGTs, making B the clearest exception. DB-corrected: the DB stored A as the exception, but UGTs ARE inducible — this is a wrong-standard-answer error. Source: Casarett & Doull Ch.6, Biotransformation.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1861",
+    "explanation": "Correct answer: B — \"It can bind 2 substrates at once.\" CYP3A4 has a large, flexible active site that exhibits homotropic and heterotropic cooperativity — it can simultaneously accommodate two substrate molecules (sometimes even three), leading to sigmoidal kinetics (activation, not inhibition). DB-corrected: the DB stored A (more affected by polymorphisms than environmental factors) — this is FALSE; CYP3A4 is the MOST conserved CYP (low polymorphism) and MOST affected by environmental factors (induction/inhibition by diet, drugs, disease). Distractor trap: Ethanol (C) induces CYP2E1, not CYP3A4 (induced by rifampin, St. John's wort, carbamazepine). Source: Casarett & Doull Ch.6, Biotransformation.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1862",
+    "explanation": "Correct answer: C — chlorzoxazone. Chlorzoxazone 6-hydroxylation is the classic in vivo probe for CYP2E1 activity in humans. DB-corrected: the DB stored B (erythromycin) — erythromycin is the probe for CYP3A4 (erythromycin breath test), not CYP2E1. Distractor trap: Dextromethorphan (A) is a probe for CYP2D6, and midazolam (D) is also a CYP3A4 probe. Chlorzoxazone is the only CYP2E1 probe among the options. Source: Casarett & Doull Ch.6, Biotransformation.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1863",
+    "explanation": "Correct answer: A — requires cytochrome b5. CYP2E1 is unique among cytochrome P450 isoforms in that it has an absolute or near-absolute requirement for cytochrome b5 for catalytic activity. Cytochrome b5 facilitates electron transfer to CYP2E1, enhancing its activity. Statement B (inhibited by cimetidine) is also true, but the question singles out a defining characteristic of CYP2E1. Statement C (induced by 3-methylcholanthrene) is FALSE — 3-MC induces CYP1A1/1A2, not CYP2E1 (which is induced by ethanol, isoniazid, acetone, and fasting). Source: Casarett & Doull Ch.6, Biotransformation.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1864",
+    "explanation": "Correct answer: A — styrene. CYP2E1 preferentially metabolizes small, volatile, hydrophobic compounds. While styrene CAN be metabolized by CYP2E1 as a minor pathway, its primary metabolism in humans is via CYP2F1 (in lung Clara cells) to styrene oxide. Chloroform (B), aflatoxin B1 (C), and vinyl chloride (D) are well-characterized CYP2E1 substrates. DB-corrected: the DB stored A (styrene) as the exception — this is defensible on the basis that the other three are classic 2E1 substrates while styrene has alternative major pathways. Note: In rodents, CYP2E1 does contribute to styrene metabolism, but in humans, CYP2F1 is more important. Source: Casarett & Doull Ch.6, Biotransformation.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1865",
+    "explanation": "Correct answer: C — halothane. Halothane is primarily metabolized by CYP2E1 (to trifluoroacetyl chloride, the reactive metabolite causing halothane hepatitis), NOT by CYP3A4. Lovastatin (A), sirolimus (B), and midazolam (D) are all well-established CYP3A4 substrates. Midazolam is THE classic intravenous probe substrate for CYP3A4 activity. Source: Casarett & Doull Ch.6, Biotransformation.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1866",
+    "explanation": "Correct answer: D — phenytoin. Phenytoin is a CYP3A4 INDUCER (along with being a CYP2C9/2C19 substrate), not an inhibitor. Erythromycin (A), mibefradil (B — withdrawn due to DDIs), and ketoconazole (C) are all potent CYP3A4 inhibitors (mibefradil and ketoconazole are among the strongest known). Distractor trap: The question tests the distinction between inducers and inhibitors — phenytoin induces CYP3A4, which is the opposite effect. Source: Casarett & Doull Ch.6, Biotransformation.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1867",
+    "explanation": "Correct answer: D — quinidine. Quinidine is a potent, selective inhibitor of CYP2D6 at low concentrations (type I antiarrhythmic that also inhibits 2D6). Rifampin (A) is a CYP3A4 INDUCER. Dexamethasone (B) induces CYP3A4. Ethanol (C) induces CYP2E1. DB-corrected: the DB stored A (rifampin) — this is a wrong-standard-answer error; rifampin is an inducer (not inhibitor) and acts on CYP3A4, not CYP2D6. Distractor trap: Quinidine's dual pharmacology (antiarrhythmic + CYP2D6 inhibitor) is a classic DABT exam point. Source: Casarett & Doull Ch.6, Biotransformation.",
+    "domain": "Domain II / Mechanistic"
+  },
+  {
+    "id": "DABT-1868",
+    "explanation": "Correct answer: B — S-oxygenation. Flavin monooxygenases (FMOs) catalyze the oxygenation of nucleophilic heteroatoms, including sulfur (S-oxygenation), nitrogen (N-oxygenation), and phosphorus (P-oxygenation). S-Oxygenation (e.g., cimetidine S-oxide, tamoxifen S-oxide formation) is a hallmark FMO-catalyzed reaction. DB-corrected: the DB stored E (none of the above/no option present) — B (S-oxygenation) is the correct FMO reaction type. Distractor trap: N-Dealkylation (A) and O-demethylation (C) are CYP450-catalyzed C-hydroxylation reactions, not FMO reactions. Source: Casarett & Doull Ch.6, Biotransformation.",
+    "domain": "Domain II / Mechanistic"
+  }
+]

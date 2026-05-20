@@ -1,0 +1,252 @@
+[
+  {
+    "id": "DABT-0395",
+    "explanation": "C. The reaction of an ultimate toxicant with endogenous molecules can inhibit target molecule function, activate proteins mimicking endogenous ligands, alter conformational structure, or render molecules antigenic \u2014 but it does NOT cause further bioactivation of the toxicant. Bioactivation (toxication) is a metabolic activation step that occurs before the toxicant reaches its target, typically via Phase I enzymes like CYP450. Distractors A, B, D, and E are all established consequences of toxicant-target interactions. (Casarett & Doull 9e, Ch. 2)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0398",
+    "explanation": "B. Metallothionein's ability to bind metallic cations (e.g., Cd\u00b2\u207a, Zn\u00b2\u207a, Cu\u207a) is due to its unusually high content of cysteine residues (~30% of its amino acids). The thiol (-SH) groups of cysteine coordinate metal ions through mercaptide bonds. N-acetylcysteine (C) is a drug, not a constituent protein residue; lysine (A) is basic but lacks thiol groups; methionine (E) has a thioether but does not coordinate metals like cysteine. (Casarett & Doull 9e, Ch. 23)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0400",
+    "explanation": "C. Biological monitoring directly measures the chemical or its metabolite(s) in biological media (blood, urine, exhaled air), providing an integrated assessment of internal dose \u2014 reflecting absorption from all routes. This is distinct from ambient air monitoring (A). It is useful even when only metabolites, not parent compound, can be measured (B), and is less informative for poorly absorbed (E) or contact-effect agents (D). (Casarett & Doull 9e, Ch. 5)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0402",
+    "explanation": "A. Dinitroorthocresol (DNOC), a dinitrophenol herbicide, causes fever by uncoupling oxidative phosphorylation \u2014 it dissipates the proton gradient across the inner mitochondrial membrane, so electron transport proceeds unchecked without ATP synthesis, releasing energy as heat. It does not involve hypothalamic centers (D), sweating suppression (B), or vasoconstriction (C). (Casarett & Doull 9e, Ch. 12 & Ch. 26)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0404",
+    "explanation": "D. Acrodynia (also called pink disease or Feer's disease) is a childhood condition caused by chronic exposure to inorganic mercury \u2014 historically from calomel (mercurous chloride) in teething powders. It presents with irritability, photophobia, pink discoloration of extremities, and hypertension. Arsenic causes hyperkeratosis and peripheral neuropathy; lead causes encephalopathy and anemia; cadmium causes Itai-itai disease. (Casarett & Doull 9e, Ch. 23)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0405",
+    "explanation": "C. Selenium is a critical component of selenoproteins including glutathione peroxidases (GPx) and thioredoxin reductase. Severe selenium deficiency causes Keshan disease, an endemic cardiomyopathy named after a region in China where soil selenium is extremely low. Other manifestations include myopathy and immune dysfunction, not primarily seizures (A), peripheral neuropathy (B), or renal failure (D). (Casarett & Doull 9e, Ch. 23)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0406",
+    "explanation": "B. Wilson's disease (hepatolenticular degeneration) is an autosomal recessive disorder of copper transport caused by ATP7B mutations. Key features: impaired biliary copper excretion (A), elevated serum unbound (free) copper (C), depressed serum ceruloplasmin \u2014 NOT elevated (B is false), and Kayser-Fleischer rings in the cornea (D). Ceruloplasmin is low because ATP7B dysfunction prevents its incorporation of copper. (Casarett & Doull 9e, Ch. 23)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0407",
+    "explanation": "D. Vinyl chloride monomer is a well-established human carcinogen that causes hepatic angiosarcoma (a rare malignancy of the liver's endothelial lining). The mechanism involves metabolic activation by CYP2E1 to chloroethylene oxide, which forms DNA adducts. Lead (A) causes neurotoxicity/nephrotoxicity; DES (B) causes clear cell adenocarcinoma; soot (C) causes skin/scrotal cancer; asbestos (E) causes mesothelioma and lung cancer. (Casarett & Doull 9e, Ch. 7, Ch. 27)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0408",
+    "explanation": "D. The incorrect pair is \"ammonia \u2013 lung cancer.\" Ammonia is a primary irritant gas that causes upper respiratory tract irritation but is not a known human carcinogen. The correct associations: nickel compounds cause nasal and lung cancer (A); cadmium causes emphysema as part of chronic obstructive lung disease (B); ozone causes emphysematous changes and airway inflammation (C). (Casarett & Doull 9e, Ch. 15, Ch. 23)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0409",
+    "explanation": "E. The altered hepatocyte foci assay identifies preneoplastic lesions using histochemical markers that reflect resistance to toxicity and metabolic alterations: \u03b3-glutamyl transferase (GGT) elevation (A), loss of glucose-6-phosphatase (G6Pase) activity (B), loss of ATPase activity (C), and resistance to iron accumulation (D) are all established markers. Cytochrome P-450 activity (E) is NOT a standard marker \u2014 altered foci typically show decreased Phase I/CYP activity and increased Phase II. (Casarett & Doull 9e, Ch. 8)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0410",
+    "explanation": "E. All three listed chemical classes are immunosuppressive: alkylating agents (A, e.g., cyclophosphamide) cross-link DNA and kill rapidly dividing lymphocytes; thiopurines (B, e.g., azathioprine) inhibit purine synthesis and suppress T-cell proliferation; and folic acid antagonists (C, e.g., methotrexate) inhibit nucleotide synthesis. Some antibiotics (D, e.g., cyclosporine, tacrolimus) are also potently immunosuppressive via calcineurin inhibition. (Casarett & Doull 9e, Ch. 14)",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-0411",
+    "explanation": "E. Mushroom worker's lung is a form of extrinsic allergic alveolitis/hypersensitivity pneumonitis. It is an IgG-mediated (Type III) immune complex disease (B, D) triggered by inhalation of thermophilic actinomycetes or fungal spores from compost (A), and indeed is classified as an extrinsic allergic pneumonitis (C). All descriptions A\u2013D are correct. (Casarett & Doull 9e, Ch. 15, Ch. 14)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0412",
+    "explanation": "B. Among petroleum distillates, the risk of peripheral neuropathy is highest with petroleum ether (hexane-heavy fraction), because n-hexane is metabolized to 2,5-hexanedione, which cross-links neurofilament proteins causing axonopathy. Aromatic naphtha (A) contains more benzene/toluene \u2014 neurotoxic but less axonopathic; mineral spirits (C) and kerosene (D) have lower n-hexane content. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0413",
+    "explanation": "E. Type IV (delayed-type) hypersensitivity is antibody-independent (A), mediated by sensitized T-lymphocytes (B), and manifests as contact sensitivity (C) \u2014 e.g., poison ivy, nickel allergy. It is NOT IgA-mediated (D); IgA is associated with mucosal immunity. Therefore A, B, and C are all correct. (Casarett & Doull 9e, Ch. 14)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0414",
+    "explanation": "E. All listed agents are associated with occupational asthma/bronchial asthma: chlorine (A) is a potent irritant that causes reactive airways dysfunction syndrome (RADS); sulfur dioxide (B) is a bronchoconstrictor; toluene diisocyanate (C) is a classic sensitizer in the polyurethane industry; western red cedar dust (D) contains plicatic acid, a known allergen causing cedar asthma. (Casarett & Doull 9e, Ch. 15)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0415",
+    "explanation": "A. The S1 segment (initial portion) of the proximal tubule has the highest concentration of \u03b3-glutamyl transpeptidase (GGT), the brush-border enzyme responsible for catabolism and apical transport of reduced glutathione (GSH) and its conjugates. This contributes to the S1 segment's role in mercapturic acid formation and its selective vulnerability to certain nephrotoxicants. S2 and S3 segments have progressively lower GGT activity. (Casarett & Doull 9e, Ch. 13)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0416",
+    "explanation": "B. Lorazepam (a benzodiazepine) does NOT block voltage-gated potassium channels \u2014 it enhances GABA-A receptor Cl\u207b conductance. In contrast, cisapride (A, a 5-HT\u2084 agonist), terfenadine (C, a non-sedating antihistamine), and grepafloxacin (D, a fluoroquinolone antibiotic) are all known to block cardiac hERG/Kv11.1 potassium channels, prolonging the QT interval and causing torsades de pointes. (Casarett & Doull 9e, Ch. 18)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0417",
+    "explanation": "D. Chronic carbon disulfide (CS\u2082) exposure is associated with multiple toxic effects: it may accelerate atherosclerosis (A) through lipid peroxidation and endothelial damage; it causes peripheral neuropathy (B) via axonal degeneration and neurofilament cross-linking; and it has been associated with increased blood pressure (C) in exposed rayon workers. Thus \"all of the above\" (D) is correct. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0418",
+    "explanation": "G. Type IV allergic reactions are cell-mediated (B) and include delayed-type hypersensitivity (D) \u2014 they are mediated by sensitized T-lymphocytes, not antibodies. They are NOT cytotoxic (A \u2014 that's Type II) and NOT anaphylactic (C \u2014 that's Type I). Thus B and D (option G) is correct. (Casarett & Doull 9e, Ch. 14)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0419",
+    "explanation": "F. Bagassosis is a form of hypersensitivity pneumonitis caused by inhalation of thermophilic actinomycetes (e.g., Saccharopolyspora rectivirgula) growing in moldy sugar cane bagasse (A). Acute stages are characterized by hypersensitivity pneumonitis (C) with fever, cough, and dyspnea. It is NOT uniformly fatal (B) and does NOT occur more frequently in females (D). Thus A and C (option F) are correct. (Casarett & Doull 9e, Ch. 15)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0420",
+    "explanation": "D. Poison oak dermatitis (caused by urushiols from Toxicodendron spp.) is a Type IV delayed-type hypersensitivity reaction \u2014 T-cell-mediated, requiring prior sensitization. Formaldehyde causes contact dermatitis by the SAME mechanism (Type IV hypersensitivity). Option A incorrectly calls it a primary irritant (it's allergic); B says Type I (IgE-mediated) which is wrong; C says cross-reactivity with chromium salts \u2014 chromate allergy is also Type IV but cross-reactivity is not documented. (Casarett & Doull 9e, Ch. 14)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0421",
+    "explanation": "B. Both the heat-shock response (HSP induction) and the unfolded protein response (UPR/ER stress response) are cellular stress pathways activated by misfolded proteins. Their shared function is to repair misfolded proteins through chaperone proteins (e.g., HSP70, GRP78/BiP) that refold or target them for degradation. Neither pathway is involved in DNA repair (A) or lipid repair (C). (Casarett & Doull 9e, Ch. 2)",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-0422",
+    "explanation": "B. Hepatic angiosarcoma is a rare liver tumor associated with three well-established exposures: thorium dioxide (Thorotrast, A \u2014 a radioactive contrast agent), vinyl chloride monomer (C \u2014 used in PVC production), and inorganic arsenic (D \u2014 from contaminated drinking water or occupational exposure). Naphthalene (B), a polycyclic aromatic hydrocarbon used in mothballs, is not associated with this tumor \u2014 it causes hemolytic anemia in G6PD-deficient individuals. (Casarett & Doull 9e, Ch. 27)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0423",
+    "explanation": "E. The medullary thick ascending limb (mTAL) of the nephron is vulnerable to hypoxic injury because of a combination of: (1) HIGH rates of Na\u207a/K\u207a-ATPase activity driving active ion transport, (2) correspondingly HIGH oxygen demand, and (3) meager oxygen supply due to the countercurrent exchange system that creates a low pO\u2082 in the medulla. This makes the mTAL the segment most susceptible to hypoxic acute kidney injury. (Casarett & Doull 9e, Ch. 13)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0425",
+    "explanation": "A. Cyclosporine (calcineurin inhibitor causing afferent arteriolar vasoconstriction), amphotericin B (polyene antifungal causing tubular-glomerular feedback disruption), and gentamicin (aminoglycoside causing tubular necrosis with secondary GFR reduction) all impair glomerular ultrafiltration without marked structural glomerular damage. Carbon tetrachloride and bromobenzene (B) primarily cause tubular necrosis, not isolated GFR impairment. (Casarett & Doull 9e, Ch. 13)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0426",
+    "explanation": "B. Inhibition of calcium export from the cytoplasm (i.e., inhibition of Ca\u00b2\u207a-ATPase in the plasma membrane and ER) leads to sustained elevation of cytosolic Ca\u00b2\u207a \u2014 a key mechanism of cell injury. Vanadate (A), bromobenzene (C), and carbon tetrachloride (D) are all known to inhibit Ca\u00b2\u207a-ATPase pumps. Methylmercury (B) is the exception \u2014 its primary mechanism involves oxidative stress, disruption of thiol homeostasis, and inhibition of neuronal protein synthesis, rather than direct Ca\u00b2\u207a export inhibition. (Casarett & Doull 9e, Ch. 2)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0428",
+    "explanation": "D. The endoplasmic reticulum (smooth ER, specifically) is the primary site of drug oxidation in the cell, housing the cytochrome P450 (CYP) enzyme system \u2014 the most important Phase I drug-metabolizing system. Mitochondria (C) handle some oxidation (e.g., MAO for amines) but not most drugs. Microbodies/peroxisomes (E) perform \u03b2-oxidation and H\u2082O\u2082-dependent reactions. The nucleus (A) and nucleolus (B) are not involved in drug oxidation. (Casarett & Doull 9e, Ch. 4)",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-0429",
+    "explanation": "F. Phenobarbital (B) and 3-methylcholanthrene (D) are classic inducers of hepatic microsomal drug-metabolizing enzymes \u2014 phenobarbital induces CYP2B, CYP3A, and glucuronosyltransferases (broad-spectrum inducer), while 3-MC induces CYP1A via the Ah receptor. Erythromycin (A) and tyramine (C) are substrates/inhibitors, not inducers. Thus B and D (option F) is correct. (Casarett & Doull 9e, Ch. 4)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0430",
+    "explanation": "A. Water reabsorption in the proximal tubule is a passive, iso-osmotic process that follows Na\u207a reabsorption. Na\u207a is actively transported out of the cell by Na\u207a/K\u207a-ATPase localized to the basolateral membrane, creating an osmotic gradient that drives water through aquaporins and tight junctions. Options B and D incorrectly invoke Ca\u00b2\u207a reabsorption; C wrong about \"hyperosmotic.\" (Casarett & Doull 9e, Ch. 13)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0431",
+    "explanation": "A. In reproductive toxicology, the fertility index is defined as (number of matings resulting in pregnancy / total number of matings) \u00d7 100. The gestation index (B) is the percentage of pregnancies resulting in live litters; viability index (C) is percentage of live pups surviving to postnatal day 4; survival index (D) is percentage surviving to weaning. (Casarett & Doull 9e, Ch. 10)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0432",
+    "explanation": "C. The statement \"Dermal absorption in rodents is less than in humans\" is FALSE. Rodent skin is generally more permeable than human skin due to thinner stratum corneum and higher hair follicle density \u2014 dermal absorption in rodents is GREATER, not less. The other statements are TRUE: organic solvents are well absorbed from the GI tract (A); hydrophilic solvents reach steady state more slowly on inhalation (B) because they partition less readily into blood; corn oil gavage delays CCl\u2084 absorption (D) by slowing gastric emptying. (Casarett & Doull 9e, Ch. 5, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0433",
+    "explanation": "E. All four pairs correctly match toxicant classes with their mechanisms of acute renal failure: (A) sulfonamides, methotrexate, acyclovir, and ethylene glycol cause crystalluria from drug/oxalate crystal precipitation; (B) NSAIDs, radiocontrast, cyclosporine, and amphotericin B cause renal vasoconstriction reducing GFR; (C) aminoglycosides, cisplatin, heavy metals, and haloalkane/haloalkene conjugates cause direct tubular toxicity; and (D) gold, penicillamine, and NSAIDs cause immune-mediated glomerulopathy. Thus \"all of the above\" (E) is correct. (Casarett & Doull 9e, Ch. 13)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0435",
+    "explanation": "C. Light hydrocarbon nephropathy (LHN) is primarily observed following exposure to branched-chain and cyclic aliphatic hydrocarbons (e.g., decalin, 1,2,4-trimethylpentane) that are NOT saturated ring-containing compounds \u2014 option C is the false statement. LHN is characterized by hyaline droplet formation (A) containing \u03b12u-globulin, granular casts (B), male-rat specificity (sex/species dependence, D), and involves \u03b12u-globulin binding (E). (Casarett & Doull 9e, Ch. 13)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0436",
+    "explanation": "B. The gestation index is defined as (number of pregnancies resulting in live litters / total number of pregnancies) \u00d7 100. The fertility index (A) measures mating success; viability index (C) measures postnatal day 0\u20134 survival; survival index (D) measures survival to weaning. These indices are standard in reproductive and developmental toxicity studies (OECD 414/415). (Casarett & Doull 9e, Ch. 10)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0443",
+    "explanation": "C. The first-pass effect (hepatic pre-systemic metabolism) is the most important factor reducing oral bioavailability for many drugs, as absorbed drug passes through the portal vein to the liver where it undergoes extensive metabolism before reaching the systemic circulation. This can reduce bioavailability by >90% for drugs like propranolol, lidocaine, and nitrates. Gastric acid degradation (A) affects some drugs but is usually surmountable with enteric coating. (Casarett & Doull 9e, Ch. 5, Ch. 4)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0445",
+    "explanation": "H. The proximal tubule segments (S1, S2, S3) exhibit functional heterogeneity: filtered HCO\u2083\u207b, low-molecular weight proteins, and amino acids are primarily reabsorbed in the S1 segment (B is correct); glucose reabsorption in S2 and S3 is about 50% and 10% of S1 levels, respectively (D is correct). Option A is wrong (H\u2082CO\u2083\u207b is formed, not filtered; high-molecular weight proteins are not normally filtered). Option C has incorrect sucrose reabsorption percentages. Thus B and D (option H) is correct. (Casarett & Doull 9e, Ch. 13)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0446",
+    "explanation": "B. In rats, the period of organogenesis (major organ formation) spans from gestation day (GD) 6/7 to GD 17 \u2014 this is when the conceptus is most susceptible to teratogenic insults. In humans, organogenesis is days 18\u201360 post-conception. Pre-implantation (A: GD 3\u201310) is earlier; options C and D extend too far into the fetal period. Standard OECD 414 developmental toxicity studies dose rats throughout organogenesis (GD 6\u201317). (Casarett & Doull 9e, Ch. 10, Hayes 7e, Ch. 16)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0448",
+    "explanation": "D. The one-leg standing (OLS) field sobriety test assesses balance and coordination, which can be impaired by stimulants (A \u2014 e.g., methamphetamine causing tremor/hyperactivity, though it can paradoxically affect sustained standing), inhalants (B \u2014 causing central nervous system depression and ataxia), and hallucinogens (C \u2014 causing perceptual distortion and disorientation). All three drug classes affect psychomotor function, so \"all of the above\" (D) is correct. (2000Q Bank / Clinical Toxicology)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0450",
+    "explanation": "A. The standardized field sobriety tests (SFSTs) recognized by NHTSA are: (1) horizontal gaze nystagmus (C), (2) walk-and-turn (D), and (3) one-leg stand (B). \"Whisper hearing\" (A) is NOT a recognized field sobriety test \u2014 it is not part of the NHTSA battery and lacks validated sensitivity/specificity for impairment detection. (2000Q Bank / Clinical Toxicology)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0453",
+    "explanation": "C. Ethanol distributes in total body water. In a healthy non-obese adult, the volume of distribution (Vd) of ethanol is approximately 0.60\u20130.70 L/kg, reflecting that water constitutes about 60% of lean body mass. This Vd is used in the Widmark equation to calculate ethanol dose from blood concentration. Options A (0.2\u20130.3) and B (0.3\u20130.5) are too low; D (1.2\u20131.5) is excessively high. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0457",
+    "explanation": "C. In the United States, a standard drink contains approximately 14 grams (0.6 oz) of pure ethanol. This corresponds to ~12 oz of beer (5% ABV), ~5 oz of wine (12% ABV), or ~1.5 oz of distilled spirits (40% ABV). This standard is used for epidemiological studies, dietary guidelines, and legal BAC calculations. The 14 g value is internationally recognized although other countries may use 10\u201312 g. (2000Q Bank / Clinical Toxicology)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0458",
+    "explanation": "B. The density of ethanol is 0.789 g/mL at 20 \u00b0C (commonly approximated as 0.79 g/mL). This is less than the density of water (1.0 g/mL), which is why ethanol floats/stratifies above water in mixtures. This density is used in forensic calculations: since a standard drink has 14 g ethanol, the volume is 14 / 0.79 \u2248 17.7 mL. Options A, C, and D are incorrect densities. (2000Q Bank / Clinical Toxicology)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0459",
+    "explanation": "A. The Widmark equation (c = A / (r \u00d7 W) \u2212 \u03b2t, where c = BAC, A = mass of alcohol consumed, r = distribution factor, W = body weight, \u03b2 = elimination rate, t = time) is classically used to calculate the amount of alcohol in the body at the time of blood sampling by back-extrapolation from measured BAC. It accounts for distribution and elimination to estimate the alcohol dose at a given time point. (2000Q Bank / Clinical Toxicology; Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0460",
+    "explanation": "A. Gamma-glutamyl transferase (GGT) is the most sensitive serum biomarker for chronic ethanol abuse. It is elevated in 60\u201380% of heavy drinkers due to enzyme induction from ethanol. AST (C) and ALT (D) are also elevated but are less sensitive (40\u201360%). Alkaline phosphatase (B) is commonly elevated in biliary obstruction but is less sensitive for ethanol-induced liver injury. CDT (carbohydrate-deficient transferrin) is more specific though not listed. (2000Q Bank / Clinical Toxicology)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0462",
+    "explanation": "D. Large macromolecules in snake venom (e.g., phospholipase A\u2082, metalloproteinases, MW >15\u201330 kDa) are too large for direct capillary absorption and are primarily absorbed through the lymphatic system. From the lymphatics, they enter the thoracic duct and then the systemic circulation. This is why pressure immobilization bandaging (rather than tight tourniquet) is recommended for venomous snake bites \u2014 it slows lymphatic flow. (2000Q Bank / Clinical Toxicology)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0463",
+    "explanation": "D. Toxins produced by poisonous animals (e.g., tetrodotoxin in pufferfish, batrachotoxin in poison dart frogs, saxitoxin in shellfish) are typically derived from chemicals in the soil and water that are sequestered and concentrated through the food chain \u2014 they are not de novo synthesized by the animal itself. Many are accumulated from dietary sources (bacteria, algae, plants) that produce these compounds from environmental precursors. Option C (food chain) is partially correct but is secondary to the soil/water origin. (2000Q Bank / Clinical Toxicology)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0464",
+    "explanation": "C. Centruroides (bark scorpion) envenomation in children produces a sympathetic storm due to scorpion toxins that activate voltage-gated sodium channels, causing autonomic excess: fever (hyperthermia), sweating (diaphoresis), and dilated pupils (mydriasis), along with hypertension, tachycardia, and hypersalivation. Option A (nystagmus, tachycardia, fasciculations) describes organophosphate poisoning more closely; B (bradycardia, dry mouth, hypothermia) describes cholinergic blockade. (2000Q Bank / Clinical Toxicology)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0465",
+    "explanation": "B. \u03c9-Agatoxins isolated from the venom of the funnel web spider (Agelenopsis aperta) are selective blockers of voltage-gated potassium channels (Kv channels). They are distinct from \u03c9-conotoxins (calcium channel blockers from cone snails) and \u03bc-conotoxins (sodium channel blockers). These toxins are valuable pharmacological tools for studying ion channel function. Note: Some sources also refer to \u03c9-agatoxins as P/Q-type calcium channel blockers \u2014 the DB answers indicate potassium channels, which may be referring to a specific subtype. (2000Q Bank / Clinical Toxicology)",
+    "domain": "Domain I"
+  },
+    {
+      "id": "DABT-0466",
+      "explanation": "D (DB key lists 'E' — likely a data error, as options only go A–D). Among spider genera, Latrodectus (black widow) causes the longest duration of pain after envenomation — the severe muscle cramps and autonomic symptoms from \u03b1-latrotoxin can persist for days to weeks. Steatoda (false widow) causes moderate, shorter-lived pain; Lamponidae (white-tailed spider) causes local pain resolving within hours; Loxosceles (brown recluse) causes necrotic ulceration with pain that is more inflammatory than neurotoxic. (2000Q Bank / Clinical Toxicology)",
+      "domain": "Domain I"
+    },
+  {
+    "id": "DABT-0467",
+    "explanation": "B. Agelenopsis (grass/funnel web spider) envenomation can produce significant dermonecrotic lesions up to 10 cm wide with muscle invasion and necrosis, due to metalloproteinases and sphingomyelinase-like components in the venom. Loxosceles (A, brown recluse) is better known for necrotic ulcers but typically smaller; Latrodectus (C, black widow) causes systemic neuromuscular symptoms, not necrotic skin lesions; Theraphosidae (D, tarantulas) typically cause mild local irritation. (2000Q Bank / Clinical Toxicology)",
+    "domain": "Domain I"
+  }
+]

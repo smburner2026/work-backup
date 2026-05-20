@@ -1,0 +1,253 @@
+[
+  {
+    "id": "DABT-1569",
+    "explanation": "Necrosis is an unregulated, passive form of cell death that does NOT require energy (ATP). Key features include cell swelling (oncosis), plasma membrane rupture, and release of cellular contents triggering an inflammatory response. In contrast, apoptosis is an active, energy-dependent process (requires ATP) involving caspase activation, cell shrinkage, and orderly dismantling without inflammation. The answer options: cell swelling (B), association with an inflammatory response (C), and initiation by plasma membrane permeability changes (D) are all characteristic of necrosis. ATP requirement (A) is associated with apoptosis, not necrosis.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1570",
+    "explanation": "Apoptosis is the genetically programmed, energy-dependent process of cell death, distinct from necrosis (accidental/ passive cell death). It is characterized by cell shrinkage, nuclear fragmentation, chromatin condensation, and formation of apoptotic bodies that are cleared by phagocytes without triggering inflammation. Key features distinguishing it from necrosis include: requirement of ATP, activation of caspases, maintenance of plasma membrane integrity until late stages, and absence of an inflammatory response.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1571",
+    "explanation": "Oxidative stress is NOT a typical initiator of apoptosis — it is more strongly associated with necrosis. Apoptosis is typically initiated by physiological signals (e.g., growth factor withdrawal, death receptor activation, DNA damage signaling via p53). Features that ARE true of apoptosis: (A) cell membrane remains intact (apoptotic bodies are phagocytosed without membrane rupture), (B) early activation of caspases (executioner caspases-3/7), and (D) it can lead to carcinogenesis when dysregulated (failure of apoptosis allows damaged cells to survive and accumulate mutations). Oxidative stress can trigger necrosis or, in severe cases, contribute to apoptosis via mitochondrial dysfunction, but it is not the primary initiator described in standard toxicology.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1572",
+    "explanation": "Cytochrome c is a key mitochondrial factor released from the intermembrane space into the cytosol during the intrinsic (mitochondrial) pathway of apoptosis. Upon release, cytochrome c binds to Apaf-1 (apoptosis protease activating factor-1) to form the apoptosome, which recruits and activates procaspase-9, initiating the caspase cascade. Cytochrome a3 (A) is part of cytochrome c oxidase (Complex IV) in the electron transport chain, not involved in apoptosis signaling. Cytochrome b6 (B) is involved in the cytochrome b6f complex in photosynthesis. Cytochrome a1 (D) is not a standard term in apoptosis.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1573",
+    "explanation": "COX-2 inhibitors (e.g., celecoxib) have been shown to induce apoptosis in certain cancer cells through multiple mechanisms, including inhibition of the COX-2/PGE2 pathway, reduction of Bcl-2 expression, and activation of caspases. Barbiturates (A) are CNS depressants acting on GABA-A receptors. Digitalis glycosides (B) inhibit Na+/K+-ATPase and affect cardiac contractility. Protein pump inhibitors (C) act on H+/K+-ATPase in gastric parietal cells — they are not associated with apoptosis induction in cancer cells.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1574",
+    "explanation": "The JNK (c-Jun N-terminal kinase) signaling pathway is a well-established mediator of apoptosis, particularly in response to cellular stress (e.g., UV radiation, DNA damage, inflammatory cytokines). JNK activates pro-apoptotic proteins such as Bim and Bad, and can phosphorylate and inhibit anti-apoptotic Bcl-2 family members. The ras/ERK pathway (A) typically promotes cell survival and proliferation, not suppression of apoptosis. The p38 pathway (C) is primarily involved in inflammatory cytokine production and stress responses, though it can also contribute to apoptosis in some contexts — but JNK-mediated apoptosis is the most established direct pair.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1575",
+    "explanation": "Paclitaxel (Taxol) is a microtubule-stabilizing agent that disrupts mitosis by binding to β-tubulin, preventing depolymerization of microtubules, and arresting cells at the G2/M phase, ultimately triggering apoptosis. Cyclophosphamide (D) is an alkylating agent that crosslinks DNA — it does not directly disrupt mitosis. Doxorubicin (B) is a topoisomerase II inhibitor. Methotrexate (C) is a dihydrofolate reductase inhibitor disrupting nucleotide synthesis.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1576",
+    "explanation": "Galactosamine is a well-known hepatotoxicant that causes focal liver necrosis in experimental animals. It acts by depleting hepatic uridine triphosphate (UTP), impairing RNA and protein synthesis, leading to hepatocellular injury primarily in the liver. Proximal tubular change (A) is not associated with galactosamine — it is more characteristic of nephrotoxicants like heavy metals. Peripheral neuropathy (C) is not a feature of galactosamine toxicity.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1577",
+    "explanation": "Practolol, a beta-blocker, was withdrawn from clinical use due to its association with oculomucocutaneous syndrome, a serious adverse reaction characterized by sclerosing peritonitis, conjunctival keratosis, psoriasiform skin rashes, and ototoxicity. This idiosyncratic reaction is not predictable from beta-blockade pharmacology. Unpredictable beta blockade (A), rebound hypertension (B), and teratogenicity (C) are not reasons for practolol's withdrawal.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1578",
+    "explanation": "The mitochondrial permeability transition pore (mPT) is a channel in the inner mitochondrial membrane whose opening leads to loss of membrane potential, mitochondrial swelling, and release of pro-apoptotic factors. Cyclosporin A (A), L-deprenyl (C), and bongkrekic acid (D) are inhibitors of mPT opening. Hydrophobic bile acids (B) such as lithocholic acid actually PROMOTE or induce mPT opening (they do NOT inhibit it), contributing to cholestatic liver injury. Thus, hydrophobic bile acids are the exception — they facilitate rather than inhibit mPT opening.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1579",
+    "explanation": "Microcystins, cyclic heptapeptide toxins produced by cyanobacteria (blue-green algae), are potent inhibitors of protein phosphatases 1 and 2A (PP1/PP2A). By inhibiting these phosphatases, microcystins cause hyperphosphorylation of cellular proteins, leading to disruption of the cytoskeleton, hepatocellular damage, and tumor promotion. Adenyl cyclase (A) — microcystins do not target this enzyme. Phosphodiesterase (B) and guanyl cyclase (D) are also not targets of microcystins.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1580",
+    "explanation": "Cytokines are signaling molecules that act LOCALLY (paracrine/autocrine) and can also act SYSTEMICALLY (endocrine). The test's answer key marks 'act locally' as the exception, but this is debatable — cytokines are well-known to act in paracrine and autocrine fashion as a core feature. The statement that is more clearly NOT true of cytokines is 'produced in specialized organs' (C): cytokines are produced by a wide variety of cell types including immune cells (macrophages, lymphocytes), endothelial cells, fibroblasts, and epithelial cells, not just specialized organs or glands. What IS true: cytokines have short half-lives (A — rapidly degraded), act locally in paracrine/autocrine fashion (B), and have complex, pleiotropic, and redundant interactions (D). For DABT purposes, understand that cytokines are versatile mediators produced by diverse cell types with predominantly local activity.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1581",
+    "explanation": "Molecular chaperones (e.g., heat shock proteins HSP70, HSP90, HSP60) are proteins that assist in the proper folding of newly synthesized proteins and refolding of denatured proteins under stress conditions. They bind to exposed hydrophobic regions of unfolded or misfolded proteins, preventing aggregation and facilitating proper refolding. They do NOT repair DNA (B), repair tRNA (C), or act as catalysts for new protein synthesis (D) — those are functions of DNA repair enzymes, tRNA repair enzymes, and ribosomes, respectively.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1582",
+    "explanation": "Lipid repair (reduction of lipid peroxides) requires NADPH as a cofactor. The key enzyme involved is glutathione peroxidase, which reduces lipid hydroperoxides to lipid alcohols (and water) using reduced glutathione (GSH) as a substrate. The resulting glutathione disulfide (GSSG) is then recycled back to GSH by glutathione reductase, which requires NADPH as the reducing equivalent. While catalase (C) can also reduce hydrogen peroxide, it is not directly involved in repairing oxidized membrane lipids — the primary pathway is NADPH-dependent glutathione peroxidase-mediated reduction. So lipid repair does occur, requires NADPH, and involves glutathione peroxidase (not catalase directly).",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1583",
+    "explanation": "Peripheral nerve repair after axonal injury requires coordinated action of macrophages (which clear myelin debris and release growth factors) and Schwann cells (which proliferate, form bands of Büngner, and produce neurotrophic factors that guide axonal regeneration). This is fundamentally different from CNS repair, which is much more limited due to inhibitory factors from oligodendrocytes and astrocytes. Option A (can only occur until ~age 5) is false — peripheral nerve repair can occur throughout life, though efficiency decreases with age. Option C (requires activated neutrophils and astrocytes) is incorrect — neutrophils are not central to Wallerian degeneration, and astrocytes are more relevant to CNS injury.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1584",
+    "explanation": "Apoptosis is most advantageous in neoplastic prostate cells because inducing programmed cell death in cancer cells is a desirable therapeutic outcome — it selectively eliminates malignant cells without causing inflammation. In contrast, apoptosis in female germ cells (B) leads to oocyte depletion and reduced fertility; in cardiac myocytes (C) it contributes to heart failure and is irreversible (cardiomyocytes have limited regenerative capacity); and in CNS neurons (D) it contributes to neurodegenerative diseases. The beneficial nature of apoptosis depends entirely on the cell type and context — eliminating cancer cells is beneficial, while eliminating post-mitotic cells like neurons and cardiomyocytes is harmful.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1585",
+    "explanation": "TGF-β (transforming growth factor beta) is the principal cytokine driving fibrogenesis. It stimulates fibroblast proliferation and differentiation into myofibroblasts, promotes extracellular matrix (ECM) synthesis (collagen, fibronectin), and inhibits ECM degradation by upregulating tissue inhibitors of metalloproteinases (TIMPs). TNF-α (B) and IL-1 (D) are primarily pro-inflammatory cytokines that can indirectly contribute to fibrosis but are not the principal direct fibrogenic factor. IL-8 (A) is a chemotactic factor for neutrophils.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1586",
+    "explanation": "Fibrosis — the excessive deposition of extracellular matrix components — is harmful through multiple mechanisms: (A) it may compress blood vessels, reducing tissue perfusion; (B) the dense scar tissue increases the diffusion distance for oxygen and nutrients, contributing to tissue malnutrition; (C) it may interfere with mechanical organ function (e.g., restricting lung expansion in pulmonary fibrosis, impairing cardiac filling in myocardial fibrosis, disrupting liver architecture in cirrhosis). All of these consequences contribute to progressive organ dysfunction, making 'all of the above' (D) the correct answer.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1587",
+    "explanation": "Idiosyncratic drug reactions are adverse effects that occur in a small subset of the population and are NOT predictable from the known pharmacology of the drug (B is false, making it the correct choice for the 'except' question). Characteristics of idiosyncratic reactions include: they are rare (A), they can be dose-independent (C — even therapeutic doses can trigger them), and they involve genetic or acquired susceptibility factors (D — e.g., HLA haplotypes, metabolic polymorphisms). The unpredictability from pharmacology is the defining feature that distinguishes idiosyncratic from type A (augmented) adverse reactions.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1588",
+    "explanation": "Upregulation of antioxidant mechanisms (e.g., increased glutathione synthesis, upregulation of superoxide dismutase, catalase, or glutathione peroxidase) is a cellular ADAPTIVE response to oxidative stress that PROTECTS the cell — it does NOT indicate initiation of a cellular stress response that signals damage or death. The question asks for the exception. Downregulation of DNA repair enzymes (A) and induction of apoptosis (B) ARE indicators that cellular stress has overwhelmed protective mechanisms. Stimulation of an immune response (D) can also indicate cellular stress signaling (e.g., via damage-associated molecular patterns, DAMPs). Upregulation of antioxidants is a protective, not a stress-signaling, response.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1589",
+    "explanation": "The number of chromosomes in the nucleus (C) is identical in all somatic cells of an organism and does NOT contribute to organ-selective toxicity. Organ-selective toxicity is determined by factors such as: organ-selective uptake (A — e.g., paraquat accumulation in lungs via polyamine transporters), tissue-specific expression of transcription factors (B — can influence cell-specific responses), and tissue-specific receptors (D — e.g., digitalis targeting cardiac Na+/K+-ATPase). Pharmacokinetic differences, metabolic activation, toxin distribution, and cell-type-specific molecular targets all shape why some organs are more vulnerable to specific toxicants than others.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1590",
+    "explanation": "Mercury's nephrotoxic effect is primarily mediated by its accumulation in the proximal tubule, where mercuric ions (Hg2+) are taken up via endocytosis of mercury-protein complexes and through specific transport mechanisms. The leading mechanistic hypothesis involves a dicysteinyl-mercury complex (Hg(Cys)2) that mimics endogenous cystine and is taken up by the amino acid transporter system b0,+ (specifically rBAT/b0,+AT) on the apical membrane of proximal tubule cells. This molecular mimicry allows selective mercury accumulation in the kidney. Blocking ADH on the collecting duct (A) is associated with lithium, not mercury. Interfering with glomerular charges (B) is more typical of aminoglycosides. Chloride transport in the loop of Henle (D) is targeted by loop diuretics.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1591",
+    "explanation": "A soft nucleophile (soft nucleophile, also called 'soft neutrophile' in older terminology) is a nucleophile with high polarizability and low electronegativity, typically containing a sulfur atom. Sulfur in glutathione (the thiol group of cysteine) is a classic example of a soft nucleophile — the large, polarizable sulfur atom readily donates electrons to soft electrophiles. Phosphate oxygen in nucleic acids (B) is a hard nucleophile. Mercuric ion (C) is an electrophile, not a nucleophile. Carboxylate anion (D) is a hard nucleophile. This concept is important in toxicology because soft electrophiles (e.g., many reactive metabolites) preferentially react with soft nucleophiles like glutathione, which serves as a protective scavenger.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1592",
+    "explanation": "The Fenton reaction is the iron-catalyzed decomposition of hydrogen peroxide, producing highly reactive hydroxyl radicals (•OH) and hydroxide ions: Fe2+ + H2O2 → Fe3+ + •OH + OH−. This reaction is a major source of oxidative stress in biological systems, as hydroxyl radicals are among the most reactive ROS, capable of damaging DNA, proteins, and lipids through hydrogen abstraction and addition reactions. Phosgene from chloroform (A) is a reductive dechlorination reaction mediated by CYP450. Formic acid from formaldehyde (B) is catalyzed by alcohol dehydrogenase. Nitrogen dioxide from ozone and nitrogen (C) is an atmospheric chemical reaction.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1593",
+    "explanation": "Muscimol is the principal psychoactive alkaloid in Amanita muscaria (fly agaric) mushrooms. It is a potent, selective direct agonist at GABA-A receptors, producing effects similar to GABA itself. By binding to the GABA recognition site on GABA-A receptors, muscimol enhances chloride ion conductance, causing neuronal hyperpolarization and CNS depression. This mechanism explains its sedative, hypnotic, and hallucinogenic effects (distinct from serotonergic hallucinogens like LSD). Note: The correct match according to this test's answer key lists 'serotonin agonist,' but the established pharmacological mechanism of muscimol is direct GABA-A receptor agonism.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1594",
+    "explanation": "Clonidine is a centrally acting α2-adrenergic receptor agonist, primarily used as an antihypertensive agent. By stimulating α2-receptors in the brainstem, it reduces sympathetic outflow from the CNS, decreasing peripheral vascular resistance, heart rate, and blood pressure. It does NOT inhibit norepinephrine uptake (that is the mechanism of reuptake inhibitors like cocaine, tricyclic antidepressants). Clonidine's mechanism was described in this test's answer key as 'inhibits norepinephrine uptake,' but its actual pharmacological mechanism is α2-adrenergic receptor agonism.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1595",
+    "explanation": "Baclofen is a structural analogue of GABA that acts as a selective agonist at GABA-B receptors (metabotropic GABA receptors coupled to G-proteins). It is used as a centrally acting muscle relaxant for spasticity. GABA-B receptor activation leads to inhibition of adenylate cyclase, decreased calcium conductance, and increased potassium conductance. Baclofen is NOT a direct nicotine antagonist — nicotinic acetylcholine antagonists include drugs like tubocurarine and α-bungarotoxin. The test's answer key lists 'direct nicotine antagonist' for baclofen, but its established mechanism is GABA-B receptor agonism.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1596",
+    "explanation": "Bicuculline is a competitive GABAA receptor antagonist — it binds to the GABA recognition site on GABAA receptors and blocks the inhibitory effects of GABA, leading to neuronal disinhibition, seizures, and CNS excitation. It is NOT a dopamine agonist. Dopamine agonists include drugs like bromocriptine, apomorphine, and ropinirole. Bicuculline is used experimentally in neuropharmacology to induce seizures and study GABAergic neurotransmission. The test's answer key lists 'direct dopamine agonist' for bicuculline, but its established mechanism is GABAA receptor antagonism.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1597",
+    "explanation": "Theophylline is a methylxanthine bronchodilator whose primary mechanism of action is non-selective phosphodiesterase (PDE) inhibition, leading to increased intracellular cAMP and cAMP levels, causing smooth muscle relaxation. It also acts as a non-selective adenosine receptor antagonist (at A1, A2A, A2B, and A3 receptors). It is NOT a serotonin antagonist or glycine uptake inhibitor — those are mechanisms of other drug classes (e.g., serotonin antagonists include ondansetron; glycine uptake inhibitors include bitopertin). The test's answer key lists 'direct serotonin antagonist/glycine uptake inhibitor' for theophylline, but its established pharmacology involves PDE inhibition and adenosine antagonism.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1598",
+    "explanation": "Nicotine is a potent agonist at nicotinic acetylcholine receptors (nAChRs), specifically the ganglionic (α3β4) and CNS (α4β2) subtypes. By mimicking acetylcholine at these ionotropic receptors, nicotine causes depolarization, calcium influx, and neurotransmitter release (dopamine, norepinephrine, serotonin). It is NOT a direct GABA-A agonist — that is the mechanism of muscimol, benzodiazepines (positive allosteric modulators), and barbiturates (which enhance GABA-A activity). The test's answer key lists 'direct GABA (A) agonist' for nicotine, but its established mechanism is nicotinic acetylcholine receptor agonism.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1599",
+    "explanation": "Clozapine is an atypical antipsychotic with a unique pharmacological profile: it acts as an antagonist at multiple receptors including dopamine D4 (with higher affinity than D2), serotonin 5-HT2A, histamine H1, and muscarinic M1 receptors. Its efficacy in treatment-resistant schizophrenia is attributed to its high D4/D2 binding ratio and 5-HT2A antagonism. It is NOT a GABA-A agonist (direct or indirect) — GABA-A positive allosteric modulators include benzodiazepines, barbiturates, and neurosteroids. The test's answer key lists 'indirect GABA (A) agonist' for clozapine, but its established mechanism is broad-spectrum monoamine receptor antagonism with predominant D4 and 5-HT2A blockade.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1600",
+    "explanation": "Tecadenoson is a selective A1 adenosine receptor agonist that was investigated for the acute conversion of paroxysmal supraventricular tachycardia (PSVT). By activating A1 adenosine receptors in the atrioventricular (AV) node, it slows AV nodal conduction and interrupts reentrant circuits. Unlike adenosine (which has a very short half-life and activates multiple adenosine receptor subtypes), tecadenoson was designed as a more selective A1 agonist with improved pharmacokinetic properties. Adenosine A1 receptor agonists produce negative chronotropic, dromotropic, and inotropic effects in the heart.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1601",
+    "explanation": "Yohimbine is an indole alkaloid derived from the bark of the Pausinystalia johimbe tree. It acts as a selective, competitive antagonist at α2-adrenergic receptors. By blocking presynaptic α2-autoreceptors, yohimbine enhances norepinephrine release from sympathetic nerve terminals, producing increased sympathetic outflow, elevated blood pressure, tachycardia, and anxiety. It has been studied for erectile dysfunction and as a research tool in neuropharmacology. α2-antagonists like yohimbine are distinct from α1-antagonists (e.g., prazosin) in their receptor selectivity and physiological effects.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1602",
+    "explanation": "Cocaine is a tropane alkaloid with complex pharmacology: it is a dopamine, norepinephrine, and serotonin reuptake inhibitor (blocking the transporters DAT, NET, and SERT), and also functions as a local anesthetic by blocking voltage-gated sodium channels. The reuptake inhibition mechanism is responsible for its euphoric and sympathomimetic effects, while sodium channel blockade underlies its local anesthetic and cardiotoxic properties. Cocaine's abuse potential is largely attributed to increased synaptic dopamine in the mesolimbic reward pathway (nucleus accumbens). It is structurally distinct from other local anesthetics (procaine, lidocaine) but shares the same mechanism of sodium channel blockade.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1603",
+    "explanation": "α-Bungarotoxin is a neurotoxic protein from the venom of the many-banded krait (Bungarus multicinctus). It acts as a highly selective, irreversible antagonist at postsynaptic nicotinic acetylcholine receptors (nAChRs) at the neuromuscular junction — specifically the muscle-type (α1)2β1γδ receptor. By binding virtually irreversibly to the α-subunits of the nAChR, it blocks acetylcholine binding, preventing neuromuscular transmission and causing flaccid paralysis. It does NOT affect sodium channels, acetylcholinesterase, or voltage-gated calcium channels. α-Bungarotoxin is a classic experimental tool for studying nicotinic receptors.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1604",
+    "explanation": "Botulinum toxin (produced by Clostridium botulinum) is the most potent biological toxin known. It is a zinc-dependent metalloprotease that cleaves SNARE proteins required for exocytosis of synaptic vesicles. Specifically, botulinum toxin serotype A cleaves SNAP-25, while serotype B cleaves synaptobrevin/VAMP. This prevents fusion of acetylcholine-containing vesicles with the presynaptic membrane at cholinergic nerve terminals (both neuromuscular junctions and autonomic ganglia), blocking acetylcholine release and causing flaccid paralysis. The mechanism is presynaptic, not postsynaptic (unlike curare or α-bungarotoxin). Recovery requires new nerve terminal sprouting as the toxin effect is essentially irreversible at the molecular level.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1605",
+    "explanation": "Bromocriptine is a semisynthetic ergot alkaloid that acts as a potent dopamine D2 receptor agonist with additional weak D1 antagonism. It also has antagonist activity at α-adrenergic receptors (like other ergot derivatives). Its D2 agonism inhibits prolactin secretion from the anterior pituitary, making it therapeutically useful for hyperprolactinemia, prolactinomas, and historically for Parkinson's disease (activating striatal dopamine receptors to compensate for dopaminergic neuron loss). Unlike levodopa, it is a direct dopamine agonist and does not require metabolic conversion. Side effects include nausea, orthostatic hypotension, and ergotism-related vasospasm at high doses.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1606",
+    "explanation": "Haloperidol is a first-generation (typical) antipsychotic that acts primarily as a dopamine D2 receptor antagonist in the mesolimbic pathway. By blocking D2 receptors, it reduces positive symptoms of schizophrenia (hallucinations, delusions). However, D2 blockade in the nigrostriatal pathway produces extrapyramidal side effects (dystonia, parkinsonism, akathisia, tardive dyskinesia). Haloperidol also has some α1-adrenergic and relatively weak anticholinergic activity compared to low-potency antipsychotics. It is NOT a dopamine agonist — dopamine agonists (bromocriptine, apomorphine, pramipexole) are used in Parkinson's disease and have opposite effects.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1607",
+    "explanation": "Reserpine is a Rauwolfia alkaloid that acts by depleting biogenic monoamine neurotransmitters (dopamine, norepinephrine, serotonin) from synaptic vesicles. Its mechanism involves irreversible inhibition of the vesicular monoamine transporter 2 (VMAT2), preventing uptake of monoamines into storage vesicles. This leads to depletion of neurotransmitter stores in presynaptic terminals as the neurotransmitters are metabolized by intraneuronal monoamine oxidase (MAO). Reserpine was historically used as an antihypertensive and antipsychotic, but its use has declined due to its side effect profile (severe depression, sedation, parkinsonism). It does NOT block postsynaptic receptors, inhibit MAO, or inhibit catecholamine synthesis.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1608",
+    "explanation": "Microbial contamination (including bacteria like Salmonella, Campylobacter, E. coli O157:H7, Listeria monocytogenes; viruses like norovirus and hepatitis A; and parasites like Toxoplasma and Cryptosporidium) is the major concern for food safety worldwide. According to the WHO, foodborne diseases caused by microbial pathogens affect hundreds of millions of people annually and cause significant morbidity and mortality, especially in developing countries. Unregulated food additives (A) are a concern but not the leading global issue. Geographic variation in soil (B) affects trace element content. Radiation of food (D) is a processing method, not a contamination concern.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1609",
+    "explanation": "The basic presumption of US food safety law (codified in the Federal Food, Drug, and Cosmetic Act) is that all food is safe unless it contains added substances (additives or contaminants) that render it unsafe. The underlying philosophy is that naturally occurring food, in its unadulterated state, is presumed safe for consumption. This presumption shifts the burden to regulatory authorities to demonstrate that a food is adulterated or misbranded before taking enforcement action. It does NOT mean that food must be periodically tested for safety (C) or that food additives before 1980 are safe (D) — these are procedural details, not the fundamental presumption.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1610",
+    "explanation": "Tripalmitin, a triglyceride composed of three palmitic acid molecules esterified to glycerol, has been shown to increase lymph flow. Like other long-chain triglycerides (LCTs), tripalmitin is digested to 2-monoglycerides and free fatty acids, which are absorbed by enterocytes, re-esterified into triglycerides, and packaged into chylomicrons. Chylomicrons are too large to enter portal circulation directly and are transported via the lymphatic system (lacteals → thoracic duct → systemic circulation). This lymphatic transport stimulates lymph flow. Short- and medium-chain triglycerides do not have this effect as they are absorbed directly into the portal vein.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1611",
+    "explanation": "GRAS (Generally Recognized As Safe) substances are food additives that are exempt from the premarket approval requirement of the Food, Drug, and Cosmetic Act. The 1958 Food Additives Amendment established that substances in common use before 1958 and generally recognized as safe by qualified experts could be grandfathered as GRAS based on experience rather than formal testing. These substances can be 'certified' (better: 'affirmed') as GRAS based on a history of safe use prior to 1958. 'Can be certified based on experience before 1958' (B) correctly captures this historical grandfather clause. GRAS status is not exclusive to food colors (A), can include substances beyond pesticides (C), and while safety evaluations establish upper limits, GRAS designation itself does not require an upper limit by definition (D).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1612",
+    "explanation": "Unavoidable contaminants in food include pesticide residues (B) from agricultural use, aflatoxins (C) produced by Aspergillus molds in stored crops, and other environmental contaminants that cannot be completely eliminated by good agricultural or manufacturing practices. Because these contaminants cannot be completely avoided, the FDA establishes tolerance limits (A) — maximum permissible levels that are considered safe. Therefore, all three statements (A, B, C) are true, making 'all of the above' (D) the correct answer. Tolerance limits for unavoidable contaminants are established under the concept of 'negligible risk' — levels that pose no appreciable risk to human health.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1613",
+    "explanation": "Color food additives are NOT eligible for GRAS (Generally Recognized As Safe) status. Under the Federal Food, Drug, and Cosmetic Act, color additives are subject to a separate premarket approval system requiring batch certification (for synthetic colors like FD&C Red No. 40) or listing in the color additive regulations. The Food Additives Amendment of 1958 specifically exempted color additives from the GRAS provision — colors must undergo rigorous safety testing and receive FDA approval through the color additive petition process. Option D correctly captures this key regulatory distinction. Option A ('all contain the prefix FD&C') is not universally true (some colors like caramel are exempt from certification).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1614",
+    "explanation": "Aromatic amine color food additives have low toxicity primarily because they are sulfonated, which introduces highly polar sulfonic acid groups (-SO3H) into the molecule. Sulfonation renders the molecules extremely water-soluble and poorly absorbed from the gastrointestinal tract, as highly polar compounds cannot readily cross lipid bilayers by passive diffusion. Because they remain largely in the intestinal lumen and are excreted in the feces without being systemicall y absorbed, their potential for toxicity is dramatically reduced. They do NOT decompose in stomach acid (B), are not primarily substrates for efflux transporters (C — though some may be), and the parent compounds CAN form electrophilic intermediates (D) — but sulfonation prevents significant absorption before they reach systemic circulation.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1615",
+    "explanation": "Caramel color is classified as a food color additive that is exempt from certification (i.e., it does not require batch certification by the FDA). The Color Additive Amendments of 1960 distinguish two categories: (1) certified color additives (synthetic organic colors like FD&C Red No. 40) that require FDA batch-by-batch certification, and (2) color additives exempt from certification (natural or nature-identical colors like caramel, annatto, beet juice, and beta-carotene). Caramel color is manufactured by controlled heat treatment of food-grade carbohydrates (corn syrup, sucrose, dextrose) with or without acids, alkalis, or salts. It is the most widely used food color additive by volume, but does not require individual-batch chemical analysis (B) — that is a requirement for certified colors.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1616",
+    "explanation": "Butylated hydroxyanisole (BHA) is classified as a food preservative and antioxidant. Along with BHT (butylated hydroxytoluene), TBHQ (tert-butylhydroquinone), and propyl gallate, BHA is used to prevent oxidative rancidity in fats, oils, and lipid-containing foods. It functions as a chain-breaking antioxidant by donating hydrogen atoms to free radicals, terminating the free radical chain reactions that cause lipid peroxidation and rancidity. BHA is also used in food packaging materials and cosmetics. It is not an emulsifier (A), buffering agent (B), or dough strengthener (D).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1617",
+    "explanation": "The question asks for the item that is NOT a nonnutritive sweetener (i.e., the exception). Gum arabic (also known as acacia gum) is a dietary fiber and emulsifier — it is a complex polysaccharide used as a stabilizer, thickener, and texturizer in food products. It is not a sweetener. Acesulfame (A), aspartame (B), and saccharin (C) are all well-established high-intensity, nonnutritive artificial sweeteners that provide sweetness without significant caloric contribution. Other nonnutritive sweeteners include sucralose, neotame, advantame, stevia (rebaudioside A), and cyclamate (outside the US).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1618",
+    "explanation": "Sodium benzoate (NaC6H5CO2) is used as an antimicrobial agent in food preservation. It is most effective in acidic foods and beverages (pH 2.5–4.0), where it exists primarily as undissociated benzoic acid. Benzoic acid penetrates microbial cell membranes, acidifies the cytoplasm, and disrupts cellular metabolism by inhibiting key enzymes (e.g., α-ketoglutarate dehydrogenase and succinate dehydrogenase in the Krebs cycle). It is commonly used in carbonated beverages, fruit juices, pickles, sauces, and condiments. Sodium benzoate is not a processing aid (A), firming agent (B), or drying agent (D)."
+    ,
+    "domain": "Domain IV"
+  }
+]

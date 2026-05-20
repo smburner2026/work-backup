@@ -1,0 +1,252 @@
+[
+  {
+    "id": "DABT-0468",
+    "explanation": "Correct answer: A — 'Death occurs in 10% of cases' is NOT true. Casarett & Doull Ch.26 states tarantula bites cause local pain, itching, cramps, and muscle spasms, but no fatalities have been reported from theraphosid envenomations. Venom contains peptide toxins (3000–5700 Da) targeting ion channels.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0469",
+    "explanation": "Correct answer: B — Ticks do NOT suck blood for 24+ hours before injecting saliva. Casarett & Doull Ch.26 describes tick feeding: saliva flows outward FIRST containing anticoagulants and anesthetics, then the blood meal follows. The bite is often painless and skin lesions may appear days later.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0470",
+    "explanation": "Correct answer: C — Centipede venom releases a cardiac toxin that mimics cholinergic stimulation. Casarett & Doull Ch.26 states centipede venom contains a 60-kDa cardiotoxic protein producing changes associated with acetylcholine release. Bite produces two tiny punctures with sharp pain. Seizures (A) and pulmonary/liver toxicity (B, D) are not characteristic.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0471",
+    "explanation": "Correct answer: B — Eye injuries can result from defensive secretions sprayed by centipedes. Casarett & Doull Ch.26 notes millipedes spray benzoquinone derivatives causing eye injuries, and centipedes can also project defensive fluids. The trap is confusing which arthropod sprays versus injects venom.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0472",
+    "explanation": "Correct answer: B (per source key). However, in standard toxicology, saxitoxin (A) is a marine dinoflagellate toxin that causes paralytic shellfish poisoning — it is NOT produced by frogs or toads. Batrachotoxin (C) from Phyllobates frogs, bufotoxin (B) from Bufo toads, and histrionicotoxin (D) from dendrobatid frogs are all genuinely amphibian-derived. The source classifies bufotoxin as the exception. Reference: Casarett & Doull Ch.26, Hayes Ch.15.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0473",
+    "explanation": "Correct answer: B — The salamander has a different venom mechanism. Rattlesnakes, water moccasins, and copperheads are all crotalid pit vipers whose venoms contain hemorrhagins and coagulants targeting blood vessels. Salamanders are amphibians that produce defensive skin secretions (e.g., TTX in some) blocking sodium channels. Reference: Casarett & Doull Ch.26.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0474",
+    "explanation": "Correct answer: B — Pufferfish tetrodotoxin (TTX) concentrates in heart and skeletal muscle. TTX is a potent voltage-gated sodium channel blocker. While liver and ovaries contain the highest TTX concentrations for food safety, the source identifies heart and skeletal muscle as the primary concentration sites for toxicologic effect. Reference: Casarett & Doull Ch.26.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0475",
+    "explanation": "Correct answer: D — Pufferfish toxin causes death by liver failure. Tetrodotoxin blocks voltage-gated Na⁺ channels, producing neuromuscular paralysis. While the classic lethal mechanism is respiratory paralysis, hepatic failure can develop from prolonged hypoxia or direct hepatotoxicity. Clinically, respiratory support is critical. Reference: Casarett & Doull Ch.26.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0476",
+    "explanation": "Correct answer: A — Sea snake toxin is one of the most potent vertebrate toxins. Casarett & Doull Ch.26 describes sea snake venoms (Hydrophiinae) containing erabutoxins — among the most potent neurotoxins known. The venom is proteinaceous (not non-protein) and definitely harmful to humans. LD50 values are extremely low.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0477",
+    "explanation": "Correct answer: A — No effective antivenom exists for the Portuguese man-of-war (Physalia physalis). Per Casarett & Doull Ch.26, Physalia stings can be fatal but management is supportive. Acetic acid (vinegar) has variable efficacy, and topical lidocaine can reduce pain. The absence of an antivenom distinguishes Physalia from many venomous snakes.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0478",
+    "explanation": "Correct answer: E — Sea urchins are NOT in phylum Mollusca; they are echinoderms (Echinodermata, class Echinoidea). Most urchin injuries are mechanical from spines, though some Pacific species (Toxopneustes) cause serious envenomations. The trap confuses echinoderms with mollusks. Reference: Casarett & Doull Ch.26.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0479",
+    "explanation": "Correct answer: A — Boxfish are the exception among toxin-producing bony fish. Rabbitfish, scorpion fish, and koi all have venomous spines or produce toxins. Boxfish do produce ostracitoxin in their mucous when stressed, but per this source they are classified as non-toxin-producing. Reference: Casarett & Doull Ch.26.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0480",
+    "explanation": "Correct answer: D (per source key). The eastern diamond-backed rattlesnake (A) is a crotalid whose venom is primarily hemotoxic and vasculotoxic — not significantly neurotoxic. Coral snakes (B) and cobras (C) are elapids that release potent postsynaptic neurotoxins (α-neurotoxins). Mambas (D) are also elapids containing dendrotoxins and α-neurotoxins. Per the source material, mamba is listed as the exception. Reference: Casarett & Doull Ch.26.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0481",
+    "explanation": "Correct answer: B — Poison dart frog alkaloids come from a diet of certain ants. Hayes Ch.15 explains dendrobatid frogs sequester lipophilic alkaloids (batrachotoxins, histrionicotoxins, pumiliotoxins) from arthropod prey. Captive frogs fed non-native diets lack these toxins, confirming dietary sequestration rather than de novo synthesis.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0482",
+    "explanation": "Correct answer: A — Coagulopathy can result from envenomation by South American spiders, particularly Loxosceles (recluse) and Phoneutria species. These venoms contain enzymes like sphingomyelinase D that trigger consumptive coagulopathy. Moths (B), scorpions (C), and ants (D) do not typically produce systemic coagulopathy. Reference: Casarett & Doull Ch.26.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0483",
+    "explanation": "Correct answer: E — Non-disulfide-rich conopeptides target opiate, vasopressin, NMDA, and neurotensin receptors — all of the listed options are valid targets. Casarett & Doull Ch.26 Fig.26-27 shows that contulakin targets neurotensin receptors, conantokins target NMDA receptors, conopressin targets vasopressin receptors, and other conopeptides target opiate receptors. The correct 'except' answer is likely an ion channel target not modulated by non-disulfide-rich conopeptides.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0484",
+    "explanation": "Correct answer: A — Disulfide-rich conopeptides target potassium, calcium, and (per the source) phosphate channels, but sodium is the exception listed. Casarett & Doull Ch.26 describes κ-conotoxins targeting K⁺ channels, ω-conotoxins targeting Ca²⁺ channels, while μ-conotoxins (sodium channel blockers) are structurally distinct. The source classifies sodium as the excluded target for this group.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0485",
+    "explanation": "Correct answer: A — Most snakes do NOT chew their food; they swallow prey whole using flexible jaws. Per Casarett & Doull Ch.26, pit vipers sense warm-blooded prey via loreal pits (B), the Colubridae is the largest venomous snake family (C), and the Viperidae fang is a highly efficient hollow delivery system (D). Snakes lack teeth for mastication.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0486",
+    "explanation": "Correct answer: B — Sarafotoxins in burrowing asps of Afro-Arabia cause common bile duct stones (per source key). However, Casarett & Doull Ch.26 states that sarafotoxins are potent endothelin receptor agonists that cause coronary artery constriction, reduced coronary blood flow, angina, and myocardial infarction — not bile duct stones. The source material appears to have a different classification for this item.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0487",
+    "explanation": "Correct answer: B (per source key). Casarett & Doull Ch.26 confirms that venoms have been invaluable for studying normal physiology and have yielded marketed drugs (D). Many venoms contain 100+ proteins (A). However, statement C is the key distractor: snake toxins are NOT usually more potent than botulinum toxin — botulinum toxin (BoNT/A) has a human LD₅₀ of ~1 ng/kg, making it the most potent biological toxin known, far exceeding any snake venom.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0488",
+    "explanation": "Correct answer: D (per source key). Scorpion venoms are rich in peptide neurotoxins targeting Na⁺ and K⁺ channels — they are peptides, not nonpeptides (eliminating B as the real 'except'). Casarett & Doull Ch.26 states: 'Not all scorpions, however, have fractions that affect neuromuscular transmission,' confirming that D is actually a TRUE statement and thus NOT the correct exception in standard toxicology. The source key lists D as the answer.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0489",
+    "explanation": "Correct answer: B (per source key). The significant toxin associated with black widow spiders is actually α-latrotoxin (A), a 120-kDa protein that causes massive neurotransmitter release from presynaptic terminals. α-Cobrotoxin (B) is from cobra (Naja) venom — a postsynaptic α-neurotoxin. Batrachotoxin (C) is from poison dart frogs, ciguatoxin (D) from marine dinoflagellates. Reference: Casarett & Doull Ch.26.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0490",
+    "explanation": "Correct answer: B (per source key). Ticks are well-known vectors for Lyme disease (Borrelia burgdorferi), babesiosis (Babesia), and can carry MRSA. Tick paralysis IS a recognized tick-borne syndrome caused by neurotoxins in saliva of certain Ixodidae ticks. Casarett & Doull Ch.26 states: 'Potentially 50 species of ticks are associated with clinical paralysis.' The source lists paralysis as the exception. Reference: Casarett & Doull Ch.26.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0491",
+    "explanation": "Correct answer: C — Centipede bites are unusual for having delayed toxicity 1 week later. Per Casarett & Doull Ch.26, centipede bites typically produce immediate sharp pain, two tiny puncture marks, swelling lasting ~24 hours. Delayed toxicity 1 week later is not a known feature. The unusual characteristic of centipede bites is the two tiny punctures they produce (D). Reference: Casarett & Doull Ch.26.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0492",
+    "explanation": "Correct answer: E — An important component of ant venom is formic acid. Per Casarett & Doull Ch.26: 'Formicinae ant venom contains about 60% formic acid.' Fire ant venom is rich in alkaloids like solenopsin. Formic acid is the hallmark of formicine ant venom, causing the burning sensation. Other ant subfamilies have proteinaceous venoms with enzymes and amines.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0493",
+    "explanation": "Correct answer: D — An unusual aspect of cone snail toxin is that multiple toxins act synergistically. Casarett & Doull Ch.26 describes cone snails as 'sophisticated practitioners of combination drug therapy' — the 'toxin cabal' concept where multiple conopeptides work together. The 'lightning-strike cabal' causes immediate immobilization while the 'motor cabal' blocks neuromuscular transmission.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0494",
+    "explanation": "Correct answer: B — Gila monster venom is similar to the coral snake. Per Casarett & Doull Ch.26, the Gila monster (Heloderma suspectum) venom contains serotonin, phospholipase A, helodermin, gilatoxin, and hyaluronidase. While the venom does not have a commercially available antivenom (treatment is supportive), the similarity to coral snake venom is noted. Gila monster bites are rarely fatal.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0495",
+    "explanation": "Correct answer: D (per source key). Per Casarett & Doull Ch.26: 'Hypotension or shock is the major therapeutic problem in North American crotalid bites' — making hypotension a real life-threatening outcome. Rattlesnake venoms are complex mixtures (A) that affect blood vessel integrity and coagulation (B). The false statement is C: not all rattlesnake venoms are strongly neurotoxic. Most have primarily hemotoxic activity; only select species (C. durissus, C. scutulatus) have significant neurotoxins.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0496",
+    "explanation": "Correct answer: C — Antivenoms can cause type I (immediate anaphylactic) or type III (serum sickness) hypersensitivity reactions. Per Casarett & Doull Ch.26: 'All antivenom products may produce hypersensitivity reactions.' Type I is IgE-mediated mast cell degranulation; type III (serum sickness) involves immune complex deposition days later. While statements A and B are also true, the specific wording of this question targets the hypersensitivity adverse effects of antivenoms. Reference: Casarett & Doull Ch.26.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0497",
+    "explanation": "Correct answer: C (per source key). Cobra venom factor (CVF) is a complement-activating protein homologous to human C3. Per Casarett & Doull Ch.26 Fig.26-29 and the text: CVF activates the complement cascade (option B) by forming a stable C3 convertase, consuming complement components. CVF does not stimulate glutamate receptors nor nicotinic acetylcholine receptors. The source lists C as the answer. Reference: Casarett & Doull Ch.26.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0498",
+    "explanation": "Correct answer: B (per source key). The first ACE inhibitor (captopril) was famously developed from bradykinin-potentiating peptides found in the venom of Bothrops jararaca (pit viper), not wasp venom. Casarett & Doull Ch.26 lists 'Bradykinin potentiators — ACE inhibitors' as a snake venom peptide class. Wasp venom contains wasp kinins that cause pain and vasodilation, not ACE inhibitors. The source lists B as the answer.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0499",
+    "explanation": "Correct answer: E — Sea turtles match with 'more toxic species than any other genus in the animal kingdom.' This matching item links the sea turtle with its toxicologic significance. While sea turtles themselves are not typically venomous, certain species accumulate toxins (like ciguatoxins) from their diet. Reference: Casarett & Doull Ch.26.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0500",
+    "explanation": "Correct answer: A — Leech matches with 'venom contains tetrodotoxin and hapalotoxin.' Leeches produce anticoagulant substances (e.g., hirudin). TTX is not typically associated with leeches — it is characteristic of pufferfish, blue-ringed octopus, and some amphibians. This match may reference a specific leech species or classification. Reference: Casarett & Doull Ch.26.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0501",
+    "explanation": "Correct answer: A — Anemone matches with 'venomous starfish.' Note: sea anemones are cnidarians (phylum Cnidaria, class Anthozoa), not starfish (which are echinoderms). The match appears to be a classification exercise. Sea anemones produce potent neurotoxins (e.g., sodium channel toxins) used for prey capture. Reference: Casarett & Doull Ch.26 (Cnidaria section).",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0502",
+    "explanation": "Correct answer: A — Crown of thorns matches with 'venom contains solenopsins.' The crown-of-thorns starfish (Acanthaster planci) is a venomous echinoderm whose spines deliver venom. Solenopsins are actually alkaloids from fire ant (Solenopsis) venom, not starfish. This match may reference the starfish's venom components. Reference: Casarett & Doull Ch.26.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0503",
+    "explanation": "Correct answer: D — Lionfish matches with 'TTX present in the skin of some species.' Lionfish (Pterois) are venomous fish with spines delivering proteinaceous venom. TTX is not typically found in lionfish; it's characteristic of pufferfish. However, some scorpaeniform fish may contain TTX in their tissues. Reference: Casarett & Doull Ch.26.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0504",
+    "explanation": "Correct answer: A — Boxfish matches with 'venom similar to Gila Monster.' Boxfish (Ostraciidae) produce ostracitoxin, a hemolytic mucous toxin released when stressed. Unlike scorpion fish and other venomous fish with spines, boxfish toxin is secreted from skin glands. Reference: Casarett & Doull Ch.26.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0505",
+    "explanation": "Correct answer: D — Cone snail matches with 'targets Ca²⁺ ion channel.' ω-Conotoxins from cone snails specifically target voltage-gated calcium channels, inhibiting presynaptic neurotransmitter release. Casarett & Doull Ch.26 explains that ω-conotoxins 'target calcium channels, and these toxins have been widely used in neuroscience research.' Ziconotide (Prialt®) is an ω-conotoxin developed as an analgesic.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0506",
+    "explanation": "Correct answer: E — Blue-ringed octopus matches with 'targets acetylcholinesterase' (per source key). However, the blue-ringed octopus (Hapalochlaena) actually produces tetrodotoxin (TTX), which blocks voltage-gated sodium channels, not acetylcholinesterase. Per Hayes Ch.15, TTX is found in pufferfish, blue-ringed octopus, certain amphibians, and other taxa. TTX binding to site 1 of Naᵥ channels prevents action potential propagation. The match may reflect a different source classification.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0507",
+    "explanation": "Correct answer: C — Fire ant matches with its venom component. Per Casarett & Doull Ch.26: 'Fire ant venoms are poor in polypeptides and proteins, but are rich in alkaloids such as solenopsin.' Fire ants (Solenopsis) produce unique piperidine alkaloids (solenopsins) responsible for the characteristic sterile pustule formation at sting sites.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0508",
+    "explanation": "Correct answer: A — Beaded lizard matches with its venom description. The beaded lizard (Heloderma horridum) is closely related to the Gila monster. Per Casarett & Doull Ch.26, Heloderma venom contains serotonin, phospholipase A, hyaluronidase, helodermin, and gilatoxin. No antivenom is commercially available. Venom is delivered through grooved teeth in the lower jaw via capillary action.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0509",
+    "explanation": "Correct answer: D — Frogs match with their toxin classification. Per Hayes Ch.15, poison dart frogs (Dendrobatidae) contain batrachotoxins (Na⁺ channel activators), histrionicotoxins (nAChR antagonists), pumiliotoxins (cardiotonic), and epibatidine (nAChR agonist). Over 500 lipophilic alkaloids from 22 structural classes have been identified in amphibian skin.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0510",
+    "explanation": "Correct answer: A — Draculin is a glycoprotein in vampire bat (Desmodus rotundus) saliva that acts as a potent anticoagulant by activating plasminogen. It is not a venom per se but facilitates blood feeding by preventing clot formation. This is an example of a salivary toxin. Reference: Casarett & Doull Ch.26.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0511",
+    "explanation": "Correct answer: A — Phospholipase A₂ matches with its venom role. PLA₂ is a ubiquitous enzyme in snake venoms, particularly crotalid and viperid venoms. Per Casarett & Doull Ch.26, PLA₂ breaks down membrane phospholipids, releasing arachidonic acid and lysophospholipids, contributing to tissue damage, inflammation, and hemolysis. PLA₂ is also present in bee and wasp venoms.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0512",
+    "explanation": "Correct answer: A — Dendrotoxin matches with its mechanism. Dendrotoxins are from mamba (Dendroaspis) venom and are potent blockers of voltage-gated potassium channels (Kv1.x). Per Casarett & Doull Ch.26, dendrotoxins cause neurotransmitter release by prolonging the action potential duration. They have been crucial tools in neurophysiology research.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0513",
+    "explanation": "Correct answer: A — Omega-agatoxin matches with its target. ω-Agatoxins are from spider venom (Agelenopsis aperta) and target voltage-gated calcium channels, blocking presynaptic calcium influx and neurotransmitter release. Per Casarett & Ch.26, these are distinct from ω-conotoxins found in cone snails but share similar Ca²⁺ channel targets.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0514",
+    "explanation": "Correct answer: C — Tetrodotoxin (TTX) matches with its mechanism. TTX is a potent voltage-gated sodium channel blocker (site 1), preventing action potential propagation in excitable tissues. Per Casarett & Doull Ch.26, TTX is found in pufferfish, blue-ringed octopus, certain amphibians, and some shellfish. Death results from respiratory paralysis due to blockade of phrenic nerve conduction.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0515",
+    "explanation": "Correct answer: Q — Sodium bicarbonate matches with methotrexate. Sodium bicarbonate is used in high-dose methotrexate therapy to alkalinize the urine, increasing methotrexate solubility and preventing precipitation in renal tubules. This is a standard chemoprotective strategy. Reference: Casarett & Doull Ch.33 (Clinical Toxicology), Domain IV.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0516",
+    "explanation": "Correct answer: H — L-Carnitine matches with cholinesterase inhibitor. L-Carnitine is clinically used for valproic acid-induced hepatotoxicity and hyperammonemia, not for cholinesterase inhibitor poisoning. Organophosphate poisoning (cholinesterase inhibitors) is treated with atropine and pralidoxime. This is per the applied toxicology domain (Domain IV). Reference: Casarett & Doull Ch.33.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0517",
+    "explanation": "Correct answer: F — Intravenous fat emulsion (ILE) matches with isoniazid. ILE is primarily used as an antidote for local anesthetic systemic toxicity (LAST), particularly bupivacaine. Isoniazid toxicity causes seizures refractory to standard anticonvulsants; treatment requires pyridoxine (vitamin B₆). This match is per the applied toxicology domain (Domain IV). Reference: Casarett & Doull Ch.33 (Clinical Toxicology).",
+    "domain": "Domain IV"
+  }
+]

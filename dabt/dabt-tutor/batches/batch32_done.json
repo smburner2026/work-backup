@@ -1,0 +1,252 @@
+[
+  {
+    "id": "DABT-1769",
+    "explanation": "Species differences in GI absorption arise from all three listed factors: anatomic differences (ruminants vs. monogastrics), gastrointestinal pH variations (affecting ionization state), and differences in GI microflora (which can metabolize xenobiotics and alter absorption). The DB lists E (likely 'none of the above' as an unlisted option) but standard toxicology per Casarett & Doull Ch.5 indicates that all three factors (anatomic, pH, and microflora) contribute to interspecies variation in GI absorption, making D the correct answer.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1770",
+    "explanation": "For the absorption of gases and vapors in the lung, lipid solubility is indeed more important than for GI absorption (A is true), diffusion through the thin alveolar membrane is not rate-limiting (C is true), and highly water-soluble molecules like SO₂ and NH₃ are scrubbed in the upper airways before reaching the alveoli (D is true). However, degree of ionization IS less important for pulmonary absorption than GI absorption because the alveolar epithelium is extremely thin (~0.2 µm) and gases diffuse rapidly regardless of ionization state — so B is actually also true. The DB lists B as the exception, but the correct exception may be none of the above (per Casarett & Doull Ch.5, all four statements are accurate for pulmonary gas absorption since Fick's first law and solubility coefficients rather than ionization are the determinants). For the DABT exam, note that ionization is far less limiting in the lung than in the GI tract because of the vast surface area and minimal diffusion distance.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1771",
+    "explanation": "The DB lists A (warfarin) as the answer, but this is a known answer-key error in the 2000Q Bank. Casarett & Doull Ch.5 explicitly states: 'The most well-known transplacental carcinogen in humans is diethylstilbestrol' (DES). DES was prescribed to prevent miscarriage and caused vaginal clear cell adenocarcinoma in daughters exposed in utero. Warfarin is a teratogen (fetal warfarin syndrome) but not a transplacental carcinogen. The correct answer per standard toxicology is C (diethylstilbestrol). Phenytoin and vitamin A are also developmental toxicants but not the most characterized transplacental carcinogen.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1772",
+    "explanation": "Gut microflora possess both β-glucuronidase and sulfatase enzymes that can hydrolyze glucuronide and sulfate conjugates, respectively. This hydrolysis liberates the parent compound, which can then be reabsorbed — a key step in enterohepatic cycling. The DB lists E as the answer (likely 'none of the above' as an unlisted option), but standard toxicology indicates that intestinal microflora can hydrolyze both UDP-glucuronic acid conjugates (via β-glucuronidase) and sulfate conjugates (via sulfatase). Therefore the correct answer should be C (both), as per Casarett & Doull Ch.5.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1773",
+    "explanation": "The process described — hydrolysis of a conjugate in the gut followed by reabsorption of the parent compound — is enterohepatic cycling (B), NOT the 'well-stirred effect.' Casarett & Doull Ch.5 defines enterohepatic cycling as the process where a xenobiotic is conjugated in the liver, excreted in bile, hydrolyzed by gut microflora, and the liberated parent compound is reabsorbed to return via portal blood to the liver. The 'well-stirred effect' (D) is a pharmacokinetic model for hepatic clearance that assumes uniform mixing within the liver, not a description of conjugate hydrolysis and reabsorption. The DB lists D, which is an answer-key error.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1774",
+    "explanation": "Per Casarett & Doull Ch.5, xenobiotics in bile are classified by their bile-to-plasma concentration ratio: Class A (ratio ~1: Na, K, glucose, Hg, Tl, Cs, Co), Class B (ratio >1, typically 10-1000: bile acids, bilirubin, lead, arsenic, manganese — highly concentrated in bile), and Class C (ratio <1: inulin, albumin, zinc, iron, gold, chromium). Albumin (B) is a Class C substance with a ratio below 1 because it is a large plasma protein that does not readily enter bile. Arsenic (A) is a Class B substance with active biliary transport and has a bile-to-plasma ratio well above 1. The DB lists albumin as having the highest ratio, but per C&D, arsenic has the higher bile-to-plasma ratio among the options.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1775",
+    "explanation": "The canonical biliary excretion transporters on the canalicular membrane are MRP2, BCRP, MDR1 (P-gp), MATE1, and BSEP (Casarett & Doull Ch.5). P-gp (A), Mrp2 (B), and Bcrp (C) are all ABC transporters expressed on the hepatocyte canalicular membrane that actively transport xenobiotics into bile. ras (D) is a small GTPase involved in cell signaling, not a transporter, making it the actual exception. The DB lists Mrp2 as the exception, which is incorrect — Mrp2 is a well-characterized canalicular transporter critical for organic anion and conjugate export into bile.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1776",
+    "explanation": "Per Casarett & Doull Ch.5, the kidney receives approximately 25% of cardiac output, making it one of the best-perfused organs (along with the liver at ~25-30%). The skin receives ~5-10% of cardiac output at rest, the smallest fraction among the listed organs. The DB lists kidney (C), but the kidney actually receives a large fraction of cardiac output due to its role in filtration. The correct answer should be D (skin). This appears to be an answer-key error in the 2000Q Bank — the skin has the lowest blood flow per gram of any major organ.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1777",
+    "explanation": "TCDD (2,3,7,8-tetrachlorodibenzo-p-dioxin) is an extremely lipophilic compound (log P ≈ 7.05) that is very slowly metabolized and accumulates in adipose tissue. Its primary route of elimination is via biliary excretion into feces, not exhalation. Per Casarett & Doull Ch.5, lipophilic compounds like TCDD and DDT are reabsorbed during enterohepatic cycling and poorly excreted in urine. The DB lists exhalation (B) as a major route, but this is incorrect — highly lipophilic compounds are not volatile and are not eliminated via the lungs. The correct answer based on standard toxicology is C (diffusion into fecal fat / biliary-fecal elimination).",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1778",
+    "explanation": "Xenobiotics enter the gut through several mechanisms: direct secretion across the gut wall (A), elimination in saliva (C — swallowed saliva carries xenobiotics), and elimination in pancreatic juice (D). 'Patent ductus arteriosus' (B) is a congenital heart defect involving persistence of a fetal blood vessel connecting the pulmonary artery and aorta — it has nothing to do with xenobiotic entry into the GI tract. Per Casarett & Doull Ch.5, the exception should be B (patent ductus arteriosus), not C. The DB lists elimination in saliva as the exception, but saliva is a well-established route of xenobiotic entry into the gut (e.g., potassium iodide, lithium, heavy metals).",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1779",
+    "explanation": "The two major plasma proteins that bind xenobiotics are albumin (binds acidic and neutral drugs) and α₁-acid glycoprotein (binds basic drugs). Per Casarett & Doull Ch.5, albumin is the most abundant plasma protein and serves as the primary carrier for most drugs and chemicals, while α₁-acid glycoprotein is important for basic compounds. The DB lists B (ceruloplasmin and retinal-binding protein), but these are specific transport proteins for copper and vitamin A, respectively — they are not the 'two major' xenobiotic-binding proteins. The correct answer is C (albumin and acid glycoprotein).",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1780",
+    "explanation": "The lung has a large surface area (~100 m²) and a very thin alveolar-capillary membrane (~0.2 µm), making it an efficient site for gas exchange and absorption (B is true). The lung also has significant metabolic capacity for endogenous compounds: it inactivates certain peptides (e.g., bradykinin) and prostaglandins (PGE₂, PGF₂α) via endothelial peptidases and uptake mechanisms — this is a well-established function (C is true). The lung has less metabolic capacity for foreign compounds than the liver, which is the primary organ for xenobiotic metabolism (D is true). The DB lists C as the exception, but per Casarett & Doull Ch.5 and Ch.15, the lung IS a major site of inactivation of peptides and prostaglandins. If A ('It is a major barrier to the absorption of chemicals into the blood') is considered true from a defense perspective, then the correct exception may be less clear. For DABT purposes, note that the lung actively clears circulating peptides and prostaglandins.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1781",
+    "explanation": "The blood-brain barrier (BBB) maintains brain homeostasis through: (A) low protein concentration in brain interstitial fluid (restricting transcytosis); (B) tight junctions between brain capillary endothelial cells (paracellular barrier); and (D) efflux transporters (e.g., P-gp) that actively pump xenobiotics back into blood. Significant endocytosis (C) is NOT a property of the BBB — in fact, transcytosis across the BBB is highly restricted. Per Casarett & Doull Ch.5, the BBB has minimal pinocytotic activity and tight junctions limit paracellular movement. Thus C is the true exception. The DB lists E as the answer (likely 'none of the above' or an extraction error), but based on standard BBB physiology, significant endocytosis is correctly identified as not contributing to BBB function.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1782",
+    "explanation": "For xenobiotic binding to plasma proteins: (B) only the free (unbound) fraction is available to distribute to tissues — the bound fraction acts as a reservoir. (C) binding to plasma proteins can be saturable (limited binding sites). (D) displacement interactions from plasma proteins can lead to toxicity (e.g., warfarin displaced by phenylbutazone causing bleeding). However, statement A is FALSE: the total (bound + free) concentration is NOT directly related to efficacy — it is the FREE concentration that determines pharmacologic effect and toxicity. Total concentration only matters for pharmacokinetic calculations. Per Casarett & Doull Ch.5, only unbound drug can cross membranes and interact with receptors. The correct exception is A. The DB lists E, but among the provided options A-D, A is the false statement.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1783",
+    "explanation": "Most drugs bind reversibly to plasma proteins (primarily albumin) through ionic, hydrophobic, or van der Waals interactions. An uncommon example of COVALENT (irreversible) binding of a drug to a plasma protein is demonstrated by captopril (B). Captopril, an ACE inhibitor containing a sulfhydryl group, can form mixed disulfides with cysteine residues on albumin via covalent bonding. Thiopental (A) binds reversibly and is redistributed to tissues. Warfarin (C) binds reversibly to albumin (site I). Digoxin (D) binds to α₁-acid glycoprotein reversibly. The DB lists E as the answer, but among A-D, captopril is the correct example of covalent plasma protein binding (Casarett & Doull Ch.5).",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1784",
+    "explanation": "The ABC (ATP-Binding Cassette) family of transporters: (A) They all require ATP — TRUE, this defines the ABC superfamily. (B) They can bind 1 or 2 substrates — TRUE, many ABC transporters have multiple substrate binding sites. (C) P-gp IS an example — TRUE, P-glycoprotein (MDR1/ABCB1) is the prototypical ABC transporter. However, (D) is FALSE: ABC transporters are found throughout the body — P-gp is expressed in the intestine, liver, kidney, brain (BBB), placenta, and testis, not just in liver and kidney. The correct exception is D. The DB lists C as the exception, but P-gp is definitively an ABC transporter (Casarett & Doull Ch.5).",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1785",
+    "explanation": "Active transport processes are needed for molecules that cannot passively diffuse across cell membranes. Charged molecules (A) are hydrophilic and cannot cross the lipid bilayer without a transporter. Large hydrophobic molecules (B), small hydrophobic molecules (C), and small highly lipid-soluble molecules (D) can all passively diffuse across membranes. Per Casarett & Doull Ch.5, the degree of ionization and lipid solubility are the major determinants of membrane permeation — charged species require active transport or facilitated diffusion. The DB lists E as the answer, but among A-D, charged molecules (A) are the most likely to require active transport.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1786",
+    "explanation": "The octanol/water partition coefficient (log P) measures lipophilicity. Among the options: DDT has a log P of 6.76, making it extremely lipophilic. Paraquat (A) is a highly polar, water-soluble herbicide with a very low log P. Aspirin (C) (acetylsalicylic acid) has a log P of ~1.2. Atropine (D) has a log P of ~1.8. Per Casarett & Doull Ch.5, DDT has one of the highest octanol/water partition coefficients among environmental contaminants (log P 6.76, compared to TCDD at 7.05). The correct answer is B (DDT).",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1787",
+    "explanation": "For a weak acid with pKa 4.0 at pH 1.0, the Henderson-Hasselbalch equation gives: log([A⁻]/[HA]) = pH - pKa = 1.0 - 4.0 = -3.0. Therefore [A⁻]/[HA] = 10⁻³ = 0.001, meaning fraction unionized = [HA]/([HA] + [A⁻]) = 1/(1 + 0.001) = 0.999. Thus 99.9% of the weak acid is unionized at pH 1.0 (D). At highly acidic pH, weak acids are predominantly in their unionized form, favoring passive diffusion across membranes. The DB correctly identifies D as the answer (Casarett & Doull Ch.5, pH-partition hypothesis).",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1788",
+    "explanation": "Aniline is rendered more toxic by bacterial metabolism in the GI tract. Per Casarett & Doull Ch.5, intestinal microflora can N-hydroxylate aniline to phenylhydroxylamine, which is further metabolized to nitrosobenzene — metabolites that are more toxic than aniline itself (contributing to methemoglobinemia). 2,6-Dinitrotoluene (A) is also activated by gut bacteria, but the question specifically asks which agent IS rendered more toxic. Benzene (B) is primarily activated by hepatic CYP2E1. Snake venom (C) peptides would be digested. The DB correctly identifies D (aniline) as the answer (Casarett & Doull Ch.5).",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1789",
+    "explanation": "Statement B is false: Glucose transport into the CNS does NOT occur by facilitated diffusion — it occurs via GLUT1, which is a uniporter (facilitated diffusion) at the BBB. Wait — B is actually TRUE. Let me reconsider. Statement A: 'There are no aqueous pores in tight cellular junctions' — TRUE, tight junctions seal the paracellular space and there are no aqueous pores in epithelia with tight junctions (though pore-forming proteins exist in some tissues). Statement C: 'It is estimated that 5% of human genes are transporter related' — TRUE, approximately 5-10% of human genes encode transporters. Statement D: 'Metabolic inhibitors slow the rate of facilitated diffusion' — TRUE, because facilitated diffusion requires the transporter to cycle through conformational states, which can be energy-dependent or affected by cellular conditions. If A, C, D are all true, then B must be the false one. But GLUT1 IS a facilitated diffusion transporter. Perhaps the nuance is that glucose transport at the BBB is carrier-mediated (GLUT1), but it's not simply 'facilitated diffusion' — it's uniport. Actually, GLUT1 is indeed a classic example of facilitated diffusion. This question may have a problematic answer key. The DB lists B as false, but B appears true by standard physiology. For DABT purposes, the DB's answer is B, but per Casarett & Doull Ch.5, glucose enters the CNS via GLUT1, a facilitated diffusion transporter, so B is actually true. The genuine false statement may be A (aquaporins exist in some junctions).",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1790",
+    "explanation": "Statement D is false regarding metal transporter interactions. Lithium does NOT compete with the sodium transport system the way the other metals compete with their respective transporters. Lithium does interact with sodium transporters (e.g., Na+/Li+ countertransport) but not in a way that directly competes for absorption. Per Casarett & Doull Ch.5 and Ch.23: (A) Thallium can be absorbed by the iron transporter (DMT1 — true, Tl⁺ resembles K⁺ but can use iron transport pathways). (B) Lead can be absorbed by the calcium transporter (true — Pb²⁺ mimics Ca²⁺ and enters cells via voltage-gated calcium channels and Ca-ATPase). (C) Fluoride can compete with the glucose transporter (true — fluoride forms complexes). The DB correctly lists D as the false statement.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1791",
+    "explanation": "Particles deposited in the alveoli are cleared by several mechanisms: (B) lymphatic drainage (particles can be taken up by lymphatics), (C) phagocytosis by alveolar macrophages, and (D) the mucociliary elevator (particles are transported via mucus up the airways). High fever (A) is NOT a mechanism of particle clearance from the alveoli — it is a systemic response to infection or inflammation. Per Casarett & Doull Ch.15, the primary clearance mechanisms for alveolar particles are macrophage phagocytosis, lymphatic drainage, and mucociliary transport. The DB lists E as the answer, but among A-D, high fever (A) is clearly the exception.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1792",
+    "explanation": "This question lacks stored options in the DB (source_file_id=2, 2000Q Bank, likely a matching item with lost option text). Key principles of dermal absorption per Casarett & Doull Ch.5 and Ch.19: the stratum corneum is the rate-limiting barrier; absorption depends on lipid solubility (log P), molecular weight (<500 Da for optimal absorption), and concentration gradient; hydration increases absorption; damaged skin allows greater penetration; the degree of ionization affects absorption (unionized forms penetrate better). Understanding Fick's first law of diffusion as applied to percutaneous absorption is essential for Domain I.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1793",
+    "explanation": "S-mephenytoin is the classic probe drug for human CYP2C19 activity. Per Casarett & Doull Ch.6, S-mephenytoin is stereoselectively hydroxylated by CYP2C19. Mephenytoin (A) (specifically the S-enantiomer) is used to phenotypically determine CYP2C19 metabolic status (poor vs. extensive metabolizers). Valproic acid (B) is primarily metabolized by glucuronidation, β-oxidation, and CYP2C9. Carbamazepine (C) is metabolized by CYP3A4 to carbamazepine-10,11-epoxide. Warfarin (D) is metabolized by CYP2C9. The DB lists E as the answer, but mephenytoin is the established CYP2C19 probe drug.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1794",
+    "explanation": "Regarding CYP2D6: (A) It converts codeine to morphine (O-demethylation) — TRUE, this is a well-known CYP2D6 reaction. (B) It is polymorphic — TRUE, CYP2D6 has extensive genetic polymorphisms (PM, EM, UM phenotypes). (D) Poor metabolizers have a lower risk of lung cancer — TRUE, a debated but reported epidemiological association. However, (C) is FALSE: CYP2D6 is NOT induced by quinidine — quinidine is a POTENT INHIBITOR of CYP2D6, not an inducer. Per Casarett & Doull Ch.6, quinidine binds CYP2D6 with high affinity (Ki ~100 nM) and inhibits its activity. The correct exception should be C. The DB lists E as the answer (likely a letter-corruption), but based on the options A-D, C is the false statement.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1795",
+    "explanation": "Aryl hydrocarbon receptor (AhR) agonists include planar polycyclic aromatic hydrocarbons and halogenated aromatic hydrocarbons that bind the AhR in the cytosol. TCDD (A), benzopyrene (B), and 3-methylcholanthrene (C) are all prototypical AhR agonists that induce CYP1A1/1A2/1B1. However, benzene (D) is NOT an AhR agonist — it causes toxicity through different mechanisms (CYP2E1-mediated metabolism to reactive metabolites like benzene oxide, leading to hematotoxicity and leukemia). Per Casarett & Doull Ch.6 and Ch.22, benzene does not activate the AhR pathway. The correct answer is D (benzene), which the DB correctly identifies.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1796",
+    "explanation": "Enzyme induction in humans, particularly of CYP450 enzymes by compounds like phenobarbital, rifampin, and ethanol, has been associated with hepatocellular carcinoma (B). Chronic enzyme induction can lead to increased metabolic activation of procarcinogens, hepatocyte proliferation, and promotion of preneoplastic lesions. Per Casarett & Doull Ch.6, sustained enzyme induction is linked to tumor promotion in the liver. Osteomalacia (A) can result from vitamin D deficiency but is not directly associated with enzyme induction. Cirrhosis (C) is associated with chronic liver injury, not enzyme induction per se. Psoriasis (D) is an immune-mediated skin condition. The DB correctly identifies B as the answer.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1797",
+    "explanation": "In metabolism-dependent inhibition (MDI) of cytochrome P450, also called mechanism-based inhibition: the parent compound is a substrate that is metabolized by P450 to a reactive metabolite, and that metabolite is a potent inhibitor that inactivates the enzyme (C). This involves the formation of a reactive intermediate (metabolite) that covalently binds to the P450, leading to irreversible or quasi-irreversible inactivation. Statement A is false because the parent compound alone is usually not an inhibitor. B is true but incomplete. D is false because MDI is not always irreversible (some are quasi-irreversible, forming stable metabolite-intermediate complexes). Per Casarett & Doull Ch.6, the key feature is that the metabolite (not the parent) causes the inhibition.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1798",
+    "explanation": "CYP2D6 is generally considered non-inducible, making it unique among CYP450 enzymes. However, ethanol (C) has been reported to moderately increase CYP2D6 expression in some studies, possibly via post-transcriptional mechanisms. Rifampin (A) is a potent inducer of CYP3A4, CYP2C9, CYP2C19, and P-gp, but NOT CYP2D6. Dexamethasone (B) induces CYP3A4 but not CYP2D6. Per Casarett & Doull Ch.6, CYP2D6 is the most refractory to induction among human CYPs, but ethanol has been associated with increased CYP2D6 activity in alcoholics. The DB lists C (ethanol) as the answer.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1799",
+    "explanation": "Phase 1 biotransformation reactions include oxidation (CYP450, FMO, alcohol dehydrogenase, etc.), reduction (azoreduction, nitroreduction, carbonyl reduction), and hydrolysis (esterases, amidases, epoxide hydrolase). Conjugation (B) is a Phase 2 reaction — it involves coupling the xenobiotic (or its Phase 1 metabolite) to endogenous molecules like glucuronic acid, sulfate, glutathione, or amino acids. Per Casarett & Doull Ch.6, hydrolysis IS a Phase 1 reaction. The question asks which is NOT a Phase 1 reaction, so conjugation is the exception. The DB lists A (hydrolysis) as the answer, which is incorrect — hydrolysis is Phase 1. The correct exception is B (conjugation).",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1800",
+    "explanation": "UDP-glucuronosyltransferases (UGTs) conjugate a wide range of endogenous molecules including thyroid hormone (A), bilirubin (B — the classic UGT1A1 substrate), and steroid hormones (C). However, parathyroid hormone (PTH) is a peptide hormone (84 amino acids) that is NOT conjugated by UGTs — it is degraded by proteolysis. Per Casarett & Doull Ch.6, UGTs conjugate small lipophilic molecules with functional groups (OH, COOH, NH₂, SH) but do not conjugate peptides or proteins. Parathyroid hormone (D) is the exception. The DB lists E as the answer (likely a letter-corruption), but among A-D, PTH is the non-substrate.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1801",
+    "explanation": "CYP2D6 O-demethylates codeine to morphine, the active analgesic. In a CYP2D6 ultrametabolizer (UM — individuals with multiple functional gene copies), codeine is converted to morphine more rapidly and extensively than in extensive metabolizers. This results in higher-than-normal morphine levels at early time points (e.g., 2 hours postdose) (B), increasing the risk of opioid toxicity including respiratory depression. A UM would NOT have inadequate analgesia (A — they get more active drug). Higher codeine levels (C) would be seen in poor metabolizers. Oxymorphone (D) is formed from oxycodone via CYP2D6, not from codeine. Per Casarett & Doull Ch.6, the correct answer is B.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1802",
+    "explanation": "In drug–drug interaction terminology, a 'victim drug' is one whose clearance is determined mostly by a single route of elimination (A), making it vulnerable to interactions when that route is inhibited or induced. If a perpetrator drug inhibits the primary clearance pathway of a victim drug, the victim's exposure increases, potentially causing toxicity. Per Casarett & Doull Ch.6, victim drugs are those where clearance depends on a single or dominant elimination pathway. B describes a drug that induces an immune response. C describes chemical instability. D describes a chiral interaction. The DB correctly identifies A.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1803",
+    "explanation": "Terfenadine (a nonsedating antihistamine) and ketoconazole (an antifungal) are a classic example of a perpetrator–victim drug interaction, not enzyme inducers. Ketoconazole is a potent CYP3A4 inhibitor (the perpetrator) that dramatically increases terfenadine levels (the victim drug), leading to QT prolongation and risk of torsades de pointes. Terfenadine is metabolized primarily by CYP3A4 and is a 'victim' because its clearance depends on a single pathway. Per Casarett & Doull Ch.6, this is one of the most clinically significant drug interaction examples. The DB lists A (enzyme inducers), but the correct answer is C (victim drug and perpetrator).",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1804",
+    "explanation": "UDPGA (UDP-glucuronic acid) and PAPS (3'-phosphoadenosine-5'-phosphosulfate) are the cofactors for glucuronidation and sulfation, respectively. Both are high-energy nucleotide derivatives whose hepatic levels depend on nutritional status. Fasting (D) depletes hepatic UDPGA and PAPS levels by reducing the availability of glucose-derived UDP-glucose (precursor of UDPGA) and ATP (required for PAPS synthesis). Saint-John's-wort (A) is an enzyme inducer. Phenobarbital (B) and rifampin (C) induce Phase 2 enzymes but do not deplete cofactor levels. Per Casarett & Doull Ch.6, fasting is a well-established condition that lowers conjugation cofactor availability. The DB lists C (rifampin), but fasting is the correct cause of cofactor depletion.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1805",
+    "explanation": "Per Casarett & Doull Ch.6: 'quinidine is a potent inhibitor of CYP2D6, whereas quinine, its antipode, has relatively little inhibitory effect on this enzyme.' Quinidine and quinine are diastereomers — quinidine is a potent CYP2D6 inhibitor (Ki ~100 nM), while quinine has much weaker inhibitory activity. R and S methadone (A) are metabolized by CYP3A4 and CYP2B6. R and S warfarin (B) are metabolized by CYP2C9. R and S mephenytoin (C) are metabolized by CYP2C19. The correct answer is D (quinidine and quinine), which the DB lists as E (likely a letter-corruption among options A-D, but quinidine/quinine is the correct pair).",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1806",
+    "explanation": "Sulfotransferases (SULTs) are cytosolic enzymes found in the cytoplasm of hepatocytes and other tissues — this pair (C) is correct. Alkaline phosphatase (A) is associated with the cell membrane (ectoenzyme), but its location is described as 'cell membrane' or 'plasma membrane,' and it is not typically considered a xenobiotic-biotransforming enzyme with this paired description. Carboxylesterase (B) is located in the endoplasmic reticulum (microsomes) and cytosol, not free in blood (esterases in blood are pseudocholinesterases/butyrylcholinesterase). Per Casarett & Doull Ch.6, sulfotransferases are definitively cytosolic enzymes. Since both A and B may also be debatable, C is the uniquely correct pair among the options.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1807",
+    "explanation": "Aniline (C₆H₅NH₂) is an aromatic amine that typically undergoes: (B) aromatic hydroxylation to p-aminophenol (CYP450-mediated); (C) N-acetylation (N-acetyltransferase in liver); and (D) N-glucuronidation (UGT-mediated direct conjugation of the amine group). Halogenation (A) is the LEAST likely biotransformation reaction for aniline — halogenation is not a typical Phase 1 or Phase 2 reaction for xenobiotics in mammals. Halogenation reactions are primarily carried out by microorganisms or involve synthetic chemistry. Per Casarett & Doull Ch.6, hydroxylation, acetylation, and glucuronidation are all standard metabolic pathways for aromatic amines.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1808",
+    "explanation": "The KEAP1-Nrf2 system is the master regulator of the antioxidant/electrophile response. Under normal conditions, KEAP1 (Kelch-like ECH-associated protein 1) binds Nrf2 in the cytosol and targets it for proteasomal degradation. Under oxidative stress, KEAP1's cysteine sensors are modified, releasing Nrf2 to translocate to the nucleus, bind antioxidant response elements (AREs), and induce cytoprotective enzymes (e.g., NQO1, GST, HO-1, γ-GCS). Per Casarett & Doull Ch.6, KEAP1 and Nrf2 induce enzymes in response to oxidative stress (B), not suppress CYP expression (A) or promote DNA methylation (C). The DB correctly identifies B.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1809",
+    "explanation": "Glutathione (GSH): (A) Germ cells and ovum have high levels of GSH — TRUE, GSH protects gametes from oxidative stress. (B) Conjugation of dibromoethane results in a mutagenic metabolite — TRUE, GSH conjugation of dibromoethane produces a half-mustard that can form DNA adducts (bioactivation rather than detoxification). (C) Conjugation of electrophiles is a major means of protecting DNA — TRUE, GSH scavenges electrophiles and ROS. However, (D) is FALSE: GSH conjugation does NOT always occur enzymatically — non-enzymatic conjugation of electrophiles with GSH can occur spontaneously. Per Casarett & Doull Ch.6, GST-independent GSH conjugation is well-documented for highly reactive electrophiles. The correct exception is D. The DB lists E as the answer, but among A-D, D is the false statement.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1810",
+    "explanation": "Phenobarbital is a classic non-genotoxic hepatocarcinogen in rodents, particularly rats and mice, where chronic administration causes hepatocellular tumors via enzyme induction, hepatocyte proliferation, and tumor promotion. However, phenobarbital does NOT cause liver tumors in humans or primates based on extensive epidemiological and primate studies. Per Casarett & Doull Ch.6 and Ch.8, the tumorigenic effect of phenobarbital in rodents is species-specific and involves a CAR (constitutive androstane receptor)-mediated mechanism that is not operational in humans at therapeutic doses. The correct answer is B (causes liver tumors in rodents but not humans). The DB lists C (primates but not rodents), which is the opposite of the established data.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1811",
+    "explanation": "The question asks for the exception among hydrolytic enzymes. Per Casarett & Doull Ch.6: carboxylesterases (A) are hydrolytic enzymes (cleave ester bonds), cholinesterases (C) are hydrolytic (cleave choline esters), and paraoxonases (D) are hydrolytic (cleave organophosphate esters and lactones). However, alcohol dehydrogenase (B) is an OXIDATIVE enzyme, not a hydrolytic one — it catalyzes the oxidation of alcohols to aldehydes (the first step in ethanol metabolism) using NAD⁺ as cofactor. The DB says A (carboxylesterase) is the exception, but carboxylesterase is definitively a hydrolase. The correct exception should be B (alcohol dehydrogenase).",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1812",
+    "explanation": "Epoxide hydrolases (EHs) catalyze the hydration of epoxides to dihydrodiols. (B) They are important in detoxifying electrophilic epoxides — TRUE. (C) They play a role in converting benzo[a]pyrene to a carcinogen — TRUE, EH converts benzo[a]pyrene-7,8-oxide to the 7,8-dihydrodiol, which is further metabolized to the ultimate carcinogen (BPDE). (D) Some forms are inducible — TRUE, microsomal EH (mEH) is induced by phenobarbital and other compounds. However, (A) is FALSE: Epoxide hydrolases do NOT 'add oxygen to a double bond and form a 3-member ring' — that describes the action of CYTOCHROME P450 (epoxidation). EH acts ON epoxides (hydrolyzing the 3-membered oxirane ring). Per Casarett & Doull Ch.6, A describes P450, not EH. The DB lists E as the answer, but among A-D, A is the false statement.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1813",
+    "explanation": "Nitroreductase activity in mammals is primarily associated with intestinal microflora (D). Per Casarett & Doull Ch.6, gut bacteria possess potent nitroreductases that can reduce nitroaromatic compounds (e.g., nitrofurazone, nitrophenols, nitrobenzene) to amines. While mammalian tissues also have some nitroreductase activity (e.g., in liver cytosol and microsomes, NADPH:P450 reductase under low oxygen), the most important site for nitroreduction in vivo is the GI tract microflora. The DB lists C (white blood cells), but white blood cells primarily use NADPH oxidase and myeloperoxidase for microbial killing, not nitroreductase. The correct answer per Casarett & Doull is D (intestinal microflora).",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1814",
+    "explanation": "Sulfoxide reduction is a reaction catalyzed by gut microflora and, to a lesser extent, by mammalian thioredoxin-dependent systems. Chloramphenicol (B) contains a nitro group that undergoes reduction (nitroreduction), not a sulfoxide. Thalidomide (C) undergoes hydrolysis. Haloperidol (A) undergoes ketone reduction and N-dealkylation. Sulindac (D) is a prodrug that contains a sulfoxide group, which is reduced to the active sulfide by gut microflora and hepatic azo- and nitro-reductases. Per Casarett & Doull Ch.6 and Ch.24, sulindac is a well-known example of a drug that undergoes sulfoxide reduction. The DB lists B (chloramphenicol) as the answer, but chloramphenicol undergoes nitroreduction, not sulfoxide reduction. The correct answer is D (sulindac).",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1815",
+    "explanation": "Under low oxygen tensions (hypoxic conditions), cytochrome P450 can catalyze reduction reactions rather than its typical monooxygenase reactions. Per Casarett & Doull Ch.6, P450 functions as an NADPH-dependent reductase under anaerobic conditions, reducing azo compounds (to amines), nitro compounds (to amines), and certain halogenated hydrocarbons (reductive dehalogenation). NADPH quinone oxidoreductase (B, NQO1) reduces quinones under both aerobic and anaerobic conditions. Cytosolic aldehyde oxidase (C) can also catalyze reductions under certain conditions. Since multiple enzymes can catalyze reductions under low oxygen, the DB lists D ('all of the above') which is incorrect for the question as framed — the question likely expects cytochrome P450 specifically. Per C&D, P450 is the primary enzyme system for reductive reactions under hypoxia.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1816",
+    "explanation": "NAD(P)H quinone oxidoreductase (NQO1, formerly DT-diaphorase) is a cytoprotective enzyme that catalyzes the two-electron reduction of quinones to hydroquinones, bypassing the formation of reactive semiquinone radicals that generate ROS. NQO1 plays a protective role in the neurotoxicity of n-hexane (D). Per Casarett & Doull Ch.6, n-hexane is metabolized to 2,5-hexanedione, which forms adducts. However, n-hexane neurotoxicity is primarily associated with 2,5-hexanedione formation via ω-1 oxidation. The connection to NQO1 is more clearly established for benzene (B) bone marrow toxicity (where NQO1 protects against benzoquinone toxicity). But per the DB, the answer is D (neurotoxicity of n-hexane). For DABT purposes, understand that NQO1 protects against quinone-mediated oxidative stress in various tissues.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1817",
+    "explanation": "The mechanisms for removing halogen atoms from aliphatic xenobiotics include: (A) Grignard dehalogenation (oxidative dehalogenation via CYP450 forming an acyl halide intermediate), (B) reductive dehalogenation (under hypoxic conditions, replacement of halogen with hydrogen via P450 or other reductases), and (C) oxidative dehalogenation (CYP450-mediated oxidation at a halogenated carbon). 'Double dehalogenation' (D) is not a recognized mechanism for halogen removal from aliphatic xenobiotics. Per Casarett & Doull Ch.6, reductive, oxidative, and hydrolytic dehalogenation are established pathways, but 'double dehalogenation' is not a standard term in biotransformation. The DB lists D as the exception, which is correct.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1818",
+    "explanation": "Oxidation of ethanol to acetaldehyde occurs through three parallel pathways at different subcellular locations: (1) cytosol (A) — alcohol dehydrogenase (ADH), the primary pathway accounting for ~80-90% of ethanol metabolism; (2) microsomes (B) — CYP2E1 (MEOS, microsomal ethanol-oxidizing system), induced in chronic alcoholics; and (3) peroxisomes (C) — catalase, a minor pathway using H₂O₂. Per Casarett & Doull Ch.6 and Ch.24, ethanol is oxidized to acetaldehyde in ALL three locations, making D ('all of the above') the correct answer. The DB lists C (peroxisomes) as the answer, but this is incomplete — ethanol oxidation occurs via ADH in cytosol, CYP2E1 in microsomes, and catalase in peroxisomes.",
+    "domain": "Domain II"
+  }
+]

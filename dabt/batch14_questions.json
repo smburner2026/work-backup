@@ -1,0 +1,523 @@
+[
+  {
+    "id": "DABT-0919",
+    "text": "All of the following produce neurotransmission-associated neurotoxicity except _____.",
+    "ans": "A",
+    "opts": {
+      "A": "nicotine",
+      "B": "metronidazole",
+      "C": "cocaine",
+      "D": "amphetamine"
+    }
+  },
+  {
+    "id": "DABT-0920",
+    "text": "A domoic acid exposure in Canada caused a neurological syndrome because domoic acid is an analog of _____.",
+    "ans": "E",
+    "opts": {
+      "A": "glycine",
+      "B": "glutamate",
+      "C": "GABA",
+      "D": "nicotine"
+    }
+  },
+  {
+    "id": "DABT-0921",
+    "text": "All of the following are true of excitatory neurotransmitters except _____.",
+    "ans": "D",
+    "opts": {
+      "A": "Their toxicity has been implicated in neurodegenerative disease.",
+      "B": "Glutamate is the main excitatory neurotransmitter of the brain.",
+      "C": "Kainate is 100 times more potent than glutamate.",
+      "D": "Benzodiazepines block the excitatory amino acid receptor."
+    }
+  },
+  {
+    "id": "DABT-0922",
+    "text": "A meperidine derivative that is neurotoxic is _____.",
+    "ans": "C",
+    "opts": {
+      "A": "GABA",
+      "B": "MPTP",
+      "C": "GHB",
+      "D": "PCP"
+    }
+  },
+  {
+    "id": "DABT-0923",
+    "text": "A common toxicologic mechanism for chemicals causing Parkinson\u2019s disease is _____.",
+    "ans": "C",
+    "opts": {
+      "A": "mitosis arrest",
+      "B": "impairment of sodium influx",
+      "C": "mitochondrial dysfunction",
+      "D": "similarity to endogenous amino acids"
+    }
+  },
+  {
+    "id": "DABT-0924",
+    "text": "The neurotoxic metabolite of MPTP _____.",
+    "ans": "B",
+    "opts": {
+      "A": "crosses the blood-brain barrier by active transport",
+      "B": "is formed in astrocytes by MAO-B",
+      "C": "is a free radical",
+      "D": "none of the above"
+    }
+  },
+  {
+    "id": "DABT-0925",
+    "text": "All of the following are developmental neurotoxicants except _____.",
+    "ans": "D",
+    "opts": {
+      "A": "lead",
+      "B": "ethanol",
+      "C": "folic acid",
+      "D": "methylmercury"
+    }
+  },
+  {
+    "id": "DABT-0926",
+    "text": "Toxicant-induced amyotrophic lateral sclerosis has been caused by _____.",
+    "ans": "D",
+    "opts": {
+      "A": "aluminum",
+      "B": "MPTP",
+      "C": "paraquat",
+      "D": "none of the above"
+    }
+  },
+  {
+    "id": "DABT-0927",
+    "text": "Bilirubin and hexachlorophene are most toxic to a/an _____.",
+    "ans": "B",
+    "opts": {
+      "A": "premature infant",
+      "B": "newborn",
+      "C": "immunosuppressed individual",
+      "D": "elderly individual Matching Test"
+    }
+  },
+  {
+    "id": "DABT-0928",
+    "text": "amantadine",
+    "ans": "A",
+    "opts": {
+      "A": "withdrawal seizures"
+    }
+  },
+  {
+    "id": "DABT-0929",
+    "text": "clarithromycin",
+    "ans": "C",
+    "opts": {
+      "C": "myoclonus, hyperreflexia"
+    }
+  },
+  {
+    "id": "DABT-0930",
+    "text": "beta-adrenergic blockers",
+    "ans": "B",
+    "opts": {
+      "B": "concentration-related seizure disorder"
+    }
+  },
+  {
+    "id": "DABT-0931",
+    "text": "carbon monoxide",
+    "ans": "B",
+    "opts": {
+      "B": "depression"
+    }
+  },
+  {
+    "id": "DABT-0932",
+    "text": "meperidine metabolite",
+    "ans": "D",
+    "opts": {
+      "D": "muscle toxicity"
+    }
+  },
+  {
+    "id": "DABT-0933",
+    "text": "lovastatin",
+    "ans": "D",
+    "opts": {
+      "D": "mania"
+    }
+  },
+  {
+    "id": "DABT-0934",
+    "text": "barbiturates",
+    "ans": "E",
+    "opts": {
+      "E": "psychosis"
+    }
+  },
+  {
+    "id": "DABT-0935",
+    "text": "salicylates",
+    "ans": "A",
+    "opts": {
+      "A": "VIII cranial nerve toxicity"
+    }
+  },
+  {
+    "id": "DABT-0936",
+    "text": "The first site of action for the eye after exposure to a toxicant is the _____.",
+    "ans": "A",
+    "opts": {
+      "A": "cornea",
+      "B": "tear film",
+      "C": "sclera",
+      "D": "conjunctiva"
+    }
+  },
+  {
+    "id": "DABT-0937",
+    "text": "All of the following statements are true regarding the corneal stroma except _____.",
+    "ans": "B",
+    "opts": {
+      "A": "It makes up 90 % of the corneal thickness.",
+      "B": "Water-soluble chemicals easily penetrate it.",
+      "C": "It can act as a reservoir for toxicants.",
+      "D": "It is composed of water, collagen, and glycosaminoglycans."
+    }
+  },
+  {
+    "id": "DABT-0938",
+    "text": "A systemic water-soluble toxicant orally ingested would have the least exposure to the _____.",
+    "ans": "B",
+    "opts": {
+      "A": "anterior surface of the lens",
+      "B": "corneal endotheliun",
+      "C": "aqueous humor",
+      "D": "corneal epithelium"
+    }
+  },
+  {
+    "id": "DABT-0939",
+    "text": "Electrophysiologic procedures used to test the effects of toxicants on visual function include all of the following except _____.",
+    "ans": "B",
+    "opts": {
+      "A": "EKG",
+      "B": "EOG",
+      "C": "VEP",
+      "D": "ERG"
+    }
+  },
+  {
+    "id": "DABT-0940",
+    "text": "Chemical toxicity is usually associated with what type of color vision deficit?",
+    "ans": "B",
+    "opts": {
+      "A": "blue-yellow",
+      "B": "red-green",
+      "C": "orange-purple",
+      "D": "brown-gray"
+    }
+  },
+  {
+    "id": "DABT-0941",
+    "text": "With respect to surfactant damage to the cornea, which of the following orders of damage are true?",
+    "ans": "B",
+    "opts": {
+      "A": "anionic > cationic > neutral",
+      "B": "anionic > neutral > cationic",
+      "C": "cationic > neutral > anionic",
+      "D": "cationic > anionic > neutral"
+    }
+  },
+  {
+    "id": "DABT-0942",
+    "text": "Organic solvents splashed into the eye should be treated with _____.",
+    "ans": "D",
+    "opts": {
+      "A": "five milliliters of olive oil irrigation followed by water irrigation",
+      "B": "irrigation with one drop of dish detergent in one gallon of water",
+      "C": "0.01 molar sodium bicarbonate solution irrigation",
+      "D": "copious water irrigation"
+    }
+  },
+  {
+    "id": "DABT-0943",
+    "text": "All of the following are true of the lens except _____.",
+    "ans": "D",
+    "opts": {
+      "A": "It has a dual blood supply.",
+      "B": "It grows over the life span of an individual.",
+      "C": "It is metabolically active and maintains an ionic balance.",
+      "D": "It is composed of approximately two-thirds water and one-third protein."
+    }
+  },
+  {
+    "id": "DABT-0944",
+    "text": "The mammalian retina is very vulnerable to toxicant-induced damage for all of the following reasons except _____.",
+    "ans": "C",
+    "opts": {
+      "A": "a high rate of mitochondrial metabolism",
+      "B": "a low choroidal blood flow rate",
+      "C": "high turnover of rod and cone outer segments",
+      "D": "presence of highly fenestrated choriocapillaries"
+    }
+  },
+  {
+    "id": "DABT-0945",
+    "text": "All of the following are true regarding rodent retina except _____.",
+    "ans": "C",
+    "opts": {
+      "A": "Its toxicology has relevance for toxicant exposure during the early gestation period in humans.",
+      "B": "It is easily accessible.",
+      "C": "There is no melanin in the choroid.",
+      "D": "Rat rods are similar to those in humans and other primates."
+    }
+  },
+  {
+    "id": "DABT-0946",
+    "text": "Degenerative changes in the optic nerve can result from deficiencies in all of the following except _____.",
+    "ans": "C",
+    "opts": {
+      "A": "selenium",
+      "B": "zinc",
+      "C": "thiamine",
+      "D": "B12"
+    }
+  },
+  {
+    "id": "DABT-0947",
+    "text": "An antituberculosis drug associated with eye toxicity is _____.",
+    "ans": "A",
+    "opts": {
+      "A": "isoniazid",
+      "B": "ethambutol",
+      "C": "doxycycline",
+      "D": "imipenem"
+    }
+  },
+  {
+    "id": "DABT-0948",
+    "text": "Solvents that selectively damage the optic nerve and tract are _____.",
+    "ans": "E",
+    "opts": {
+      "A": "ethanol and propanol",
+      "B": "acetone and chlorobenzene",
+      "C": "carbon disulfide and acrylamide",
+      "D": "octane and heptane"
+    }
+  },
+  {
+    "id": "DABT-0949",
+    "text": "A chemical used to assess corneal damage is _____.",
+    "ans": "B",
+    "opts": {
+      "A": "boric acid",
+      "B": "hypertonic saline",
+      "C": "indocyanine green",
+      "D": "fluorescein"
+    }
+  },
+  {
+    "id": "DABT-0950",
+    "text": "The slit lamp microscope is least useful in evaluating the _____.",
+    "ans": "D",
+    "opts": {
+      "A": "retina",
+      "B": "lens",
+      "C": "cornea",
+      "D": "aqueous humor"
+    }
+  },
+  {
+    "id": "DABT-0951",
+    "text": "Acute angle closure glaucoma can be precipitated by _____.",
+    "ans": "B",
+    "opts": {
+      "A": "beta-blockers",
+      "B": "organophosphate pesticides",
+      "C": "anticholinergic drugs",
+      "D": "morphine"
+    }
+  },
+  {
+    "id": "DABT-0952",
+    "text": "Inorganic lead exposure has been associated with all of the following except _____.",
+    "ans": "C",
+    "opts": {
+      "A": "amblyopia",
+      "B": "glaucoma",
+      "C": "scotoma",
+      "D": "optic atrophy"
+    }
+  },
+  {
+    "id": "DABT-0953",
+    "text": "The area of the brain associated with vision is _____.",
+    "ans": "C",
+    "opts": {
+      "A": "occipital lobe",
+      "B": "frontal lobe",
+      "C": "temporal lobe",
+      "D": "pons"
+    }
+  },
+  {
+    "id": "DABT-0954",
+    "text": "An area of the central nervous system with a weakened blood-brain barrier is _____.",
+    "ans": "E",
+    "opts": {
+      "A": "temporal lobe",
+      "B": "medulla",
+      "C": "optic disk",
+      "D": "hypothalamus"
+    }
+  },
+  {
+    "id": "DABT-0955",
+    "text": "Intraocular melanin has a high-binding affinity for _____.",
+    "ans": "B",
+    "opts": {
+      "A": "polycyclic aromatic hydrocarbons",
+      "B": "toxic heavy metals",
+      "C": "electrophiles",
+      "D": "all of the above"
+    }
+  },
+  {
+    "id": "DABT-0956",
+    "text": "The most severe damage to the cornea results from contact with _____.",
+    "ans": "A",
+    "opts": {
+      "A": "strong acids",
+      "B": "strong bases",
+      "C": "organic solvents",
+      "D": "anionic detergents"
+    }
+  },
+  {
+    "id": "DABT-0957",
+    "text": "Cataracts have been associated with all of the following except _____.",
+    "ans": "B",
+    "opts": {
+      "A": "opiate analgesics",
+      "B": "corticosteroids",
+      "C": "naphthalene",
+      "D": "phenothiazines"
+    }
+  },
+  {
+    "id": "DABT-0958",
+    "text": "Which of the following drugs are toxic to the retina?",
+    "ans": "E",
+    "opts": {
+      "A": "tamoxifen",
+      "B": "indomethacin",
+      "C": "sildenafil citrate",
+      "D": "all of the above"
+    }
+  },
+  {
+    "id": "DABT-0959",
+    "text": "Digoxin is toxic to the _____.",
+    "ans": "C",
+    "opts": {
+      "A": "cornea",
+      "B": "lens",
+      "C": "retina",
+      "D": "none of the above"
+    }
+  },
+  {
+    "id": "DABT-0960",
+    "text": "The eye toxicity of methanol results from _____.",
+    "ans": "C",
+    "opts": {
+      "A": "methanol",
+      "B": "formaldehyde",
+      "C": "formic acid",
+      "D": "metabolic acidosis"
+    }
+  },
+  {
+    "id": "DABT-0961",
+    "text": "Perchloroethylene eye toxicity has been noted in residents living close to _____.",
+    "ans": "E",
+    "opts": {
+      "A": "gasoline stations",
+      "B": "dry cleaners",
+      "C": "oil refineries",
+      "D": "autobody repair shops"
+    }
+  },
+  {
+    "id": "DABT-0962",
+    "text": "Styrene has been associated with _____.",
+    "ans": "B",
+    "opts": {}
+  },
+  {
+    "id": "DABT-0963",
+    "text": "Which of the following can compromise the stratum corneum barrier and lead to increased penetration of chemicals?",
+    "ans": "D",
+    "opts": {
+      "A": "tape stripping",
+      "B": "psoriasis",
+      "C": "acetone exposure",
+      "D": "all of the above"
+    }
+  },
+  {
+    "id": "DABT-0964",
+    "text": "Which of the following skin areas has the highest permeability?",
+    "ans": "D",
+    "opts": {
+      "A": "eyelids",
+      "B": "palms",
+      "C": "soles of feet",
+      "D": "forehead"
+    }
+  },
+  {
+    "id": "DABT-0965",
+    "text": "All of the following are true regarding absorption through the epidermal appendages except _____.",
+    "ans": "E",
+    "opts": {
+      "A": "Chemicals can bypass the stratum corneum by this route.",
+      "B": "It is more relevant for chronic rather than acute situations.",
+      "C": "It is usually neglected for most chemicals because of the smaller relative surface compared to the stratum corneum.",
+      "D": "In some cases like benzopyrene, absorption through appendages can be primary."
+    }
+  },
+  {
+    "id": "DABT-0966",
+    "text": "Which of the following agents has the highest skin penetration under normal conditions?",
+    "ans": "B",
+    "opts": {
+      "A": "hydrophilic chemicals of high molecular weight",
+      "B": "hydrophobic chemicals of high molecular weight",
+      "C": "hydrophilic chemicals of low molecular weight",
+      "D": "hydrophobic chemicals of low molecular weight"
+    }
+  },
+  {
+    "id": "DABT-0967",
+    "text": "All of the following are advantages of transdermal drug delivery except _____.",
+    "ans": "D",
+    "opts": {
+      "A": "a steady infusion rate over long-time intervals",
+      "B": "variation of infusion rate with body temperature",
+      "C": "avoiding first-pass effects",
+      "D": "preventing exposure to stomach acid"
+    }
+  },
+  {
+    "id": "DABT-0968",
+    "text": "Which of the following statements is true regarding systemic exposure through the skin while swimming in chemically contaminated water?",
+    "ans": "A",
+    "opts": {
+      "A": "Exposure can occur for some chemicals.",
+      "B": "Significant exposure can only occur by swallowing the water.",
+      "C": "Significant exposure can only occur through the nasal mucous.",
+      "D": "There are no reported cases of significant human exposure by this route."
+    }
+  }
+]

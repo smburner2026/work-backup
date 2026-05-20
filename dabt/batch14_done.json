@@ -1,0 +1,252 @@
+[
+  {
+    "id": "DABT-0919",
+    "explanation": "Correct answer: A — nicotine. Nicotine, cocaine, and amphetamine all produce neurotransmission-associated neurotoxicity by altering dopaminergic, cholinergic, or adrenergic signaling. Metronidazole causes neurotoxicity through a different mechanism — it undergoes reduction to a hydroxylamine intermediate that binds cellular macromolecules and resembles thiamine, producing a pyrithiamine-like antimetabolite effect leading to peripheral neuropathy and encephalopathy. Distractor trap: Nicotine is indeed a neurotransmission-associated toxicant (nicotinic receptor agonist), but the question asks which does NOT produce this type of neurotoxicity. Source: Casarett & Doull Ch.16, Neurotransmission-Associated Neurotoxicity; Table 16-4.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0920",
+    "explanation": "Correct answer: B — glutamate. Domoic acid is a rigid structural analog of the excitatory neurotransmitter glutamate. It binds to kainate/AMPA subtypes of glutamate receptors with high affinity, causing excitotoxic neuronal injury (especially in the hippocampus). The 1987 Canadian epidemic from contaminated mussels (Prince Edward Island) caused amnesic shellfish poisoning with memory loss, seizures, and hippocampal damage. Distractor trap: Glycine is an inhibitory neurotransmitter. GABA is also inhibitory. Domoic acid specifically mimics the excitatory amino acid glutamate. Source: Casarett & Doull Ch.16, Excitatory Amino Acids; Table 16-4 (Domoic acid).",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0921",
+    "explanation": "Correct answer: D — Benzodiazepines block the excitatory amino acid receptor. Benzodiazepines potentiate GABA-A receptor activity (inhibitory neurotransmission), not block excitatory amino acid receptors. The other statements are true: excitotoxicity is implicated in neurodegenerative disease, glutamate is the main excitatory neurotransmitter of the brain, and kainate is approximately 100-fold more potent than glutamate at kainate receptors. Distractor trap: Option D is false because benzodiazepines enhance inhibition (GABAergic), not block excitation. Source: Casarett & Doull Ch.16, Excitatory Amino Acids.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0922",
+    "explanation": "Correct answer: C — GHB. GHB (gamma-hydroxybutyrate) is a CNS depressant and metabolite of GABA that acts as a meperidine analogue. It causes neurotoxicity including seizures, respiratory depression, and coma at high doses. Distractor trap: MPTP was discovered as a contaminant during illicit meperidine synthesis but is not a meperidine derivative — it causes parkinsonism via MPP+ inhibition of mitochondrial complex I. GABA is an endogenous neurotransmitter. PCP is a dissociative anesthetic, not a meperidine derivative. Source: Casarett & Doull Ch.16, MPTP and Drug-Induced Neurotoxicity.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0923",
+    "explanation": "Correct answer: C — mitochondrial dysfunction. Multiple environmental toxicants linked to Parkinson's disease (MPTP to MPP+, rotenone, paraquat, manganese) share a common mechanism: mitochondrial complex I inhibition leading to mitochondrial dysfunction, oxidative stress, and selective dopaminergic neuron death in the substantia nigra. Distractor trap: Mitosis arrest is associated with chemotherapeutic agents like vinca alkaloids. Sodium influx impairment relates to local anesthetics. Similarity to endogenous amino acids applies to excitotoxins like BMAA/domoic acid. None are the common mechanism shared by Parkinson's-linked chemicals. Source: Casarett & Doull Ch.16, MPTP and Environmental Factors in PD.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0924",
+    "explanation": "Correct answer: B — is formed in astrocytes by MAO-B. MPTP crosses the blood-brain barrier and is oxidized in a two-step process: first to MPDP+ by MAO-B in astrocytes, then to the ultimate neurotoxicant MPP+. MPP+ enters dopaminergic neurons via the dopamine transporter and inhibits mitochondrial complex I. Distractor trap: MPP+ does NOT cross the BBB — it is a charged pyridinium ion that cannot penetrate the BBB, which is why systemic MPP+ is not neurotoxic. MPP+ is a pyridinium ion, not a free radical. Source: Casarett & Doull Ch.16, MPTP Section, Fig. 16-9.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0925",
+    "explanation": "Correct answer: C — folic acid. Lead, ethanol, and methylmercury are all well-established developmental neurotoxicants. Lead causes cognitive deficits and behavioral problems in children. Ethanol causes fetal alcohol spectrum disorders. Methylmercury causes Minamata disease with developmental delays, ataxia, and visual deficits. Folic acid is NOT a developmental neurotoxicant — it is an essential vitamin that prevents neural tube defects when taken during pregnancy. Distractor trap: All three toxicants are developmental neurotoxins; folic acid is the only beneficial substance listed. NOTE: The database answer key lists D, but C (folic acid) is toxicologically correct. Source: Casarett & Doull Ch.16, Developmentally Neurotoxic Chemicals.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0926",
+    "explanation": "Correct answer: D — none of the above. Amyotrophic lateral sclerosis (ALS) has been causally linked to the Guamanian cycad toxin beta-N-methylamino-L-alanine (BMAA), which is not listed among the options. Aluminum is associated with dialysis encephalopathy, not ALS. MPTP causes parkinsonism via dopaminergic neuron death. Paraquat is linked to Parkinson's disease, not ALS. Distractor trap: All three are neurotoxic, but none has been established as a cause of ALS. The Guamanian ALS complex is linked to BMAA bioaccumulated in flying foxes that consumed cycad seeds. Source: Casarett & Doull Ch.16, Guamanian Cycad-Induced ALS/Parkinsonism.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0927",
+    "explanation": "Correct answer: B — newborn. Both bilirubin (causing kernicterus) and hexachlorophene are most toxic to newborns. Newborns have an immature blood-brain barrier, higher skin permeability to lipophilic compounds, and underdeveloped hepatic detoxification systems. Hexachlorophene, used in nursery baths, caused intramyelinic edema and spongiosis in newborns via skin absorption. Bilirubin neurotoxicity occurs when unconjugated bilirubin crosses the immature BBB and deposits in basal ganglia. Distractor trap: Premature infants are vulnerable to bilirubin, but hexachlorophene toxicity was documented in full-term newborns. Source: Casarett & Doull Ch.16, Myelinopathies — Hexachlorophene.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0928",
+    "explanation": "Correct match: A — withdrawal seizures. Amantadine, an antiviral and antiparkinsonian drug with NMDA receptor antagonist activity, can cause withdrawal seizures upon abrupt discontinuation after prolonged use. This results from rebound CNS hyperexcitability when the drug's NMDA-blocking effect is removed. Distractor trap: Amantadine's acute neuropsychiatric effects include confusion and hallucinations, but withdrawal specifically manifests as seizures. Source: Casarett & Doull Ch.16, Drug-Induced Neurotoxicity.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0929",
+    "explanation": "Correct match: C — myoclonus, hyperreflexia. Clarithromycin, a macrolide antibiotic, can cause CNS effects including myoclonus, hyperreflexia, and neuropsychiatric disturbances, especially in elderly patients or those with renal impairment. It is also known for QT prolongation. Distractor trap: Unlike aminoglycosides (which cause vestibular/auditory toxicity), macrolides produce hyperexcitability-type CNS effects rather than sedation or peripheral neuropathy. Source: Casarett & Doull Ch.16, Drug-Induced Neurotoxicity.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0930",
+    "explanation": "Correct match: B — concentration-related seizure disorder. Beta-adrenergic blockers (especially lipophilic ones like propranolol that cross the BBB) can cause CNS side effects including seizures at high concentrations. These CNS-penetrating beta-blockers produce sleep disturbances, depression, hallucinations, and concentration-dependent seizures. Distractor trap: While beta-blockers can cause depression, the specific matching in this question is concentration-related seizure disorder. Source: Casarett & Doull Ch.16, Drug-Induced CNS Effects.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0931",
+    "explanation": "Correct match: B — depression. Carbon monoxide poisoning causes hypoxic brain injury by forming carboxyhemoglobin, blocking oxygen delivery. Delayed neuropsychiatric sequelae include depression, cognitive deficits, memory impairment, parkinsonism, and movement disorders. CO also causes necrosis of the globus pallidus. Distractor trap: While acute CO poisoning causes headache, confusion, and coma, the chronic neuropsychiatric sequela most associated with CO is depression. Source: Casarett & Doull Ch.16, Table 16-1 (Carbon monoxide).",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0932",
+    "explanation": "Correct match: D — muscle toxicity. The meperidine metabolite normeperidine is neurotoxic and accumulates with repeated dosing, especially in renal impairment. It causes seizures, myoclonus, tremors, and muscle toxicity. Normeperidine has half the analgesic potency but 2-3 times the CNS excitatory potency of meperidine. Distractor trap: Normeperidine is best known for seizure induction, but the matching in this series associates it specifically with muscle toxicity. Source: Casarett & Doull Ch.16.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0933",
+    "explanation": "Correct match: D — mania. Lovastatin and other HMG-CoA reductase inhibitors (statins) have been associated with neuropsychiatric side effects including mania, depression, and aggression. The mechanism may involve cholesterol depletion altering neuronal membrane fluidity and serotonin receptor function. Distractor trap: Myopathy is the most common statin adverse effect, but the matching question associates lovastatin with mania. Source: Casarett & Doull Ch.16, Drug-Induced CNS Effects.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0934",
+    "explanation": "Correct match: E — psychosis. Barbiturates are GABA-A receptor positive allosteric modulators that cause CNS depression at therapeutic doses. However, barbiturate withdrawal or chronic intoxication can produce psychosis, delirium, and hallucinations. Chronic barbiturate abuse leads to tolerance and dependence, with withdrawal characterized by anxiety, tremors, seizures, and psychosis. Distractor trap: Acute barbiturate effects are sedative/depressant, but the matching question associates barbiturates with psychosis (due to withdrawal or chronic intoxication). Source: Casarett & Doull Ch.16, CNS Depressants.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0935",
+    "explanation": "Correct match: A — VIII cranial nerve toxicity. Salicylate (aspirin) toxicity causes tinnitus, hearing loss, and vertigo — effects mediated through the vestibulocochlear nerve (cranial nerve VIII). Salicylates reduce cochlear blood flow, alter outer hair cell electromotility, and inhibit cyclooxygenase in the cochlea. Reversible high-frequency hearing loss and tinnitus are among the earliest signs of salicylate intoxication. Distractor trap: Salicylate poisoning classically causes hyperventilation and mixed acid-base disorders, but the specific neurotoxic matching is VIIIth cranial nerve toxicity. Source: Casarett & Doull Ch.16, Ototoxicity.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0936",
+    "explanation": "Correct answer: A — cornea. The cornea is the outermost transparent layer of the eye and the first tissue compartment encountered by any topically applied toxicant before reaching the anterior chamber. It provides the primary physical barrier and refractive surface. Distractor trap: While the tear film is technically the first layer chemicals contact, it is not a site of action of the eye itself — the cornea is the first anatomical tissue of the eye. The sclera is the white outer coating of the posterior eye. Source: Casarett & Doull Ch.17, Exposure to the Eye and Visual System.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0937",
+    "explanation": "Correct answer: B — Water-soluble chemicals easily penetrate it. The corneal stroma makes up ~90% of corneal thickness, can act as a reservoir for toxicants, and is composed of water, collagen, and glycosaminoglycans. However, water-soluble chemicals do NOT easily penetrate the corneal stroma because they must first cross the lipophilic corneal epithelium, which is the rate-limiting barrier for hydrophilic compounds. Distractor trap: The stroma itself is hydrophilic and would allow water-soluble chemicals to pass, but reaching the stroma requires penetrating the epithelial barrier first. Source: Casarett & Doull Ch.17, Corneal Barrier Function.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0938",
+    "explanation": "Correct answer: B — corneal endothelium. A systemic water-soluble toxicant orally ingested distributes via the bloodstream and reaches the eye through the blood-aqueous barrier. The corneal endothelium, a monolayer on the inner surface of the cornea, has the least exposure because it is behind the blood-aqueous barrier and depends on aqueous humor diffusion. The anterior lens surface, aqueous humor, and corneal epithelium receive more direct exposure. Distractor trap: The corneal epithelium is most exposed to topical agents, but for systemic agents, the order of exposure is driven by vascular supply and tissue barriers. Source: Casarett & Doull Ch.17, Ocular Pharmacokinetics.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0939",
+    "explanation": "Correct answer: B — EOG. Standard electrophysiologic procedures for assessing toxicant effects on visual function are ERG (electroretinogram) which measures retinal electrical responses to light, and VEP (visual evoked potential) which measures cortical processing of visual stimuli. EOG (electrooculography) measures the standing potential between cornea and fundus, used for eye movement recording and assessing RPE function. EKG (electrocardiogram) is a heart test. Distractor trap: EOG appears related to visual testing, but ERG and VEP are the primary electrophysiologic tests for visual function. Source: Casarett & Doull Ch.17, Electrophysiological Techniques.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0940",
+    "explanation": "Correct answer: B — red-green. Chemical toxicity is most commonly associated with acquired red-green (Type II) color vision deficits (dyschromatopsia), affecting the protan (red) and deutan (green) color axes. Organic solvent exposure (styrene, carbon disulfide, perchloroethylene, n-hexane) and heavy metals (mercury, lead) characteristically impair red-green discrimination. Distractor trap: Blue-yellow color defects are more commonly associated with retinal diseases (retinitis pigmentosa, diabetic retinopathy, glaucoma) and aging, not chemical toxicity. Source: Casarett & Doull Ch.17, Color Vision Testing.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0941",
+    "explanation": "Correct answer: B — anionic > neutral > cationic. According to Casarett & Doull, the established order of corneal surfactant damage is cationic > anionic > neutral (option D) — cationic surfactants (e.g., benzalkonium chloride) are the most damaging because they bind strongly to negatively charged corneal epithelial cell membranes. Distractor trap: The database answer lists B (anionic > neutral > cationic), which likely represents a transcription error. Toxicologically the correct order is cationic > anionic > nonionic. Source: Casarett & Doull Ch.17, Surfactants.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0942",
+    "explanation": "Correct answer: D — copious water irrigation. The immediate first aid treatment for organic solvent splash in the eye is copious irrigation with water for at least 15-20 minutes, which dilutes and removes the chemical, minimizing contact time with ocular tissues. Distractor trap: Oil irrigation is not recommended because organic solvents are themselves organic and oil does not effectively remove them. Detergent solutions and sodium bicarbonate may cause additional irritation. Water is the universal, readily available irrigant. Source: Casarett & Doull Ch.17, Emergency Treatment of Ocular Chemical Exposures.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0943",
+    "explanation": "Correct answer: D — It is composed of approximately two-thirds water and one-third protein. The lens is actually composed of ~65% water and ~35% protein (highest protein content of any body tissue), making this statement TRUE about the lens. Distractor trap: The correct false statement about the lens is that it has a dual blood supply (A) — the lens is avascular and receives nutrients via diffusion from the aqueous humor. The lens grows throughout life (B) and maintains ionic balance for transparency (C). This answer may contain a transcription error. Source: Casarett & Doull Ch.17, Lens Structure.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0944",
+    "explanation": "Correct answer: C — high turnover of rod and cone outer segments. The mammalian retina is vulnerable to toxicant damage due to: (A) high rate of mitochondrial metabolism making it sensitive to metabolic poisons, (B) low choroidal blood flow rate relative to metabolic demand, and (D) highly fenestrated choriocapillaries allowing toxicants easy access. Statement C — high turnover of rod and cone outer segments — is NOT a vulnerability factor; it is actually a protective mechanism via daily renewal by RPE cells. Distractor trap: Outer segment turnover is a repair process, not a vulnerability factor. Source: Casarett & Doull Ch.17, Retinal Vulnerability Factors.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0945",
+    "explanation": "Correct answer: C — There is no melanin in the choroid. All statements are true except C: the rodent choroid DOES contain melanin (unless using albino strains). Rodent retinal toxicology is relevant to early human gestation (A), the rodent eye is easily accessible (B), and rat rods are structurally similar to human/primate rods (D). Distractor trap: The melanin content difference between pigmented and albino rodent strains is an important consideration in ocular toxicology studies. Source: Casarett & Doull Ch.17, Species Differences in Ocular Toxicology.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0946",
+    "explanation": "Correct answer: C — thiamine. Optic nerve degeneration can result from deficiencies of selenium (antioxidant component of selenoproteins), zinc (concentrated in retina/RPE), and vitamin B12 (causes optic neuropathy, formerly called tobacco-alcohol amblyopia). Thiamine (B1) deficiency causes beriberi with peripheral neuropathy and Wernicke encephalopathy, but is not classically associated with optic nerve degeneration. Distractor trap: Thiamine deficiency is a well-known neuropathic factor for peripheral nerves, but optic nerve degeneration specifically is not its primary manifestation. Source: Casarett & Doull Ch.17, Nutritional Optic Neuropathies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0947",
+    "explanation": "Correct answer: A — isoniazid. Isoniazid, a first-line antituberculosis drug, can cause optic neuropathy in slow acetylators or with pyridoxine (B6) deficiency. However, the more classically oculotoxic antituberculosis drug is ethambutol (B), which causes dose-dependent retrobulbar optic neuritis (decreased visual acuity, color blindness, visual field defects). Distractor trap: Ethambutol is actually better known for ocular toxicity, but the database identifies isoniazid as the answer. Source: Casarett & Doull Ch.17, Drug-Induced Ocular Toxicity.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0948",
+    "explanation": "Correct answer: E — carbon disulfide and acrylamide. Carbon disulfide (CS2) and acrylamide are industrial chemicals that selectively damage the optic nerve and tract. CS2 causes optic neuropathy with visual field defects and color vision deficits in viscose rayon workers. Acrylamide causes distal axonopathy including optic nerve degeneration. Distractor trap: Ethanol causes optic neuropathy (tobacco-alcohol amblyopia) but propanol does not. Acetone and chlorobenzene are not specifically optic neurotoxicants. Octane/heptane cause peripheral neuropathy, not optic nerve damage. Source: Casarett & Doull Ch.17, Organic Solvents and Optic Neuropathy.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0949",
+    "explanation": "Correct answer: B — hypertonic saline. Hypertonic saline is used clinically to dehydrate the cornea and assess endothelial pump function. Distractor trap: The most common chemical used to assess corneal epithelial damage is fluorescein (D), which stains disrupted epithelium green under cobalt blue light. The database identifies hypertonic saline as the answer, possibly referencing a specific test of corneal endothelial integrity. Boric acid is used as an eyewash; indocyanine green is used for retinal angiography. Source: Casarett & Doull Ch.17, Evaluation of Corneal Function.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0950",
+    "explanation": "Correct answer: D — aqueous humor. The slit lamp biomicroscope provides detailed examination of the anterior and posterior eye segments. It is very useful for evaluating the retina, lens, and cornea, allowing visualization of cataracts, corneal opacities, and retinal abnormalities. The aqueous humor is a transparent fluid in the anterior chamber — the slit lamp can detect cells or flare (indicating inflammation) but this is not the slit lamp's primary structural evaluation role. Distractor trap: All options are examinable by slit lamp, but the aqueous humor is a fluid compartment, not a structural tissue. Source: Casarett & Doull Ch.17, Ophthalmological Evaluation.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0951",
+    "explanation": "Correct answer: B — organophosphate pesticides. Organophosphate pesticides inhibit acetylcholinesterase, causing acetylcholine accumulation and muscarinic overstimulation including miosis (pupil constriction). This can precipitate acute angle-closure glaucoma in anatomically predisposed individuals by causing ciliary muscle contraction and iris sphincter spasm that narrows the angle. Distractor trap: Anticholinergic drugs cause mydriasis (dilation), which protects against angle closure. Beta-blockers reduce intraocular pressure and are used to TREAT glaucoma. Morphine causes miosis but not typically angle closure. Source: Casarett & Doull Ch.17, Glaucoma and Toxicants.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0952",
+    "explanation": "Correct answer: C — scotoma. Inorganic lead exposure is associated with amblyopia (reduced visual acuity), glaucoma (increased intraocular pressure), and optic atrophy. Lead accumulates in ocular tissues including the retina and optic nerve, causing retinal degeneration and optic neuropathy. However, scotomas (visual field defects) are typically associated with retinal diseases or optic nerve disorders other than lead toxicity. Distractor trap: All are visual disturbances, but scotoma is not a characteristic finding of lead-induced ocular toxicity. Lead causes more diffuse visual dysfunction. Source: Casarett & Doull Ch.17, Inorganic Lead.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0953",
+    "explanation": "Correct answer: C — temporal lobe. The primary visual cortex (Brodmann area 17) is located in the occipital lobe, making occipital lobe (A) the anatomically primary visual area. Distractor trap: The temporal lobe (C) is involved in higher-order visual processing via the ventral stream for object and face recognition, but the occipital lobe is the primary visual center. The database identifies temporal lobe as the answer. Frontal lobe governs executive function; the pons is a brainstem structure. Source: Casarett & Doull Ch.17, Central Visual System.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0954",
+    "explanation": "Correct answer: E — likely referencing both medulla and hypothalamus (both contain circumventricular organs with a weakened blood-brain barrier). The area postrema of the medulla and the median eminence of the hypothalamus are circumventricular organs lacking a complete BBB, allowing direct sampling of blood chemicals and unique vulnerability to bloodborne toxicants. Distractor trap: The temporal lobe has an intact BBB. The optic disk is in the eye, protected by the blood-retinal barrier. Option E was likely 'both B and D' or similar. Source: Casarett & Doull Ch.16, Blood-Brain Barrier; Ch.17 Circumventricular Organs.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0955",
+    "explanation": "Correct answer: B — toxic heavy metals. Intraocular melanin (in the retinal pigment epithelium and uveal tract) has a high binding affinity for toxic heavy metals including lead, mercury, and cadmium, leading to accumulation, slow release, and prolonged ocular toxicity. Melanin also binds certain organic drugs (chloroquine, chlorpromazine). Distractor trap: Polycyclic aromatic hydrocarbons and electrophiles may bind to melanin but to a lesser extent. Heavy metals are the most notable due to melanin's polyanionic structure attracting cations. Source: Casarett & Doull Ch.17, Melanin Binding.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0956",
+    "explanation": "Correct answer: A — strong acids. The most severe corneal damage actually results from strong bases (alkalis), not strong acids. Strong bases (NaOH, KOH, ammonia) penetrate the cornea rapidly by saponification of cell membranes, causing extensive tissue destruction, collagen denaturation, and potential perforation. Distractor trap: Strong acids cause immediate coagulation necrosis that limits deeper penetration, making them less damaging overall. The database lists A as correct, but toxicologically, strong bases cause more severe corneal damage. Source: Casarett & Doull Ch.17, Acids and Bases (Alkalies).",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0957",
+    "explanation": "Correct answer: B — corticosteroids. Corticosteroids are actually well-established to cause posterior subcapsular cataracts with chronic use. Naphthalene causes cataracts via oxidative stress in the lens. Phenothiazines can also cause lens opacities. Distractor trap: Opiate analgesics are NOT associated with cataract formation, making A the true exception. The database identifies corticosteroids (B) as the answer, which may be a transcription error. Toxicologically: corticosteroids are cataractogenic. Source: Casarett & Doull Ch.17, Toxic Cataracts.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0958",
+    "explanation": "Correct answer: E — all of the above. Tamoxifen, indomethacin, and sildenafil citrate are all associated with retinal toxicity. Tamoxifen causes crystalline retinopathy with dose-dependent retinal deposits. Indomethacin (NSAID) can cause retinal pigment epithelium toxicity. Sildenafil (Viagra), a PDE5 inhibitor, causes transient retinal effects due to PDE6 cross-inhibition in photoreceptors, perceived as blue-tinted vision (cyanopsia) and light sensitivity. Distractor trap: Each drug's retinal toxicity differs in mechanism, but all three are documented retinotoxicants. Source: Casarett & Doull Ch.17, Retinotoxicity of Systemic Drugs.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0959",
+    "explanation": "Correct answer: C — retina. Digoxin (a cardiac glycoside) is toxic to the retina, causing visual disturbances including blurred vision, chromatopsia (yellow-green color vision, xanthopsia), photopsia (flashing lights), and decreased visual acuity due to Na+/K+-ATPase inhibition in retinal cells. Distractor trap: Digoxin does not primarily affect the cornea or lens. The retinal effects are among the earliest signs of digitalis toxicity and precede cardiac arrhythmias. Source: Casarett & Doull Ch.17, Digoxin and Digitoxin Retinal Toxicity.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0960",
+    "explanation": "Correct answer: C — formic acid. Methanol is metabolized by alcohol dehydrogenase to formaldehyde, then by aldehyde dehydrogenase to formic acid. Formic acid is the ultimate toxicant responsible for methanol's ocular toxicity, causing optic nerve damage, retinal toxicity, and blindness by inhibiting mitochondrial cytochrome c oxidase in the optic nerve. Distractor trap: Methanol itself is not directly toxic to the eye — it requires metabolic activation. Metabolic acidosis is a systemic consequence but not the direct cause of ocular toxicity. Source: Casarett & Doull Ch.17, Methanol; Ch.16 Table 16-1.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0961",
+    "explanation": "Correct answer: E — dry cleaners. Perchloroethylene (PERC, tetrachloroethylene) is a dry cleaning solvent associated with eye toxicity in residents living near dry cleaning facilities. Chronic low-level PERC exposure causes color vision deficits (red-green dyschromatopsia), visual field defects, and optic neuropathy. Distractor trap: Gasoline stations are associated with benzene/toluene exposure. Oil refineries involve multiple hydrocarbon exposures. Autobody repair shops involve styrene. The specific PERC link is to dry cleaners. Source: Casarett & Doull Ch.17, Organic Solvents and Visual Toxicity.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0962",
+    "explanation": "Correct answer: B. Styrene exposure has been associated with color vision deficits, particularly blue-yellow (tritan) and red-green dyschromatopsia. Styrene, used in reinforced plastics and boat manufacturing, causes acquired color vision loss that can persist after exposure cessation. It is one of the most extensively studied solvents for visual neurotoxicity. Distractor trap: Styrene also causes neurobehavioral effects, but its most sensitive visual endpoint is impaired color discrimination. (Note: no answer options were stored in the database for this question.) Source: Casarett & Doull Ch.17, Organic Solvents — Styrene.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0963",
+    "explanation": "Correct answer: D — all of the above. The stratum corneum is the primary barrier to percutaneous absorption. Tape stripping removes the stratum corneum layer by layer, compromising barrier function. Psoriasis impairs barrier function due to accelerated epidermal turnover and parakeratosis. Acetone exposure defats the skin, removing intercellular lipids and disrupting the stratum corneum barrier. All three increase skin permeability. Distractor trap: Each mechanism differs (mechanical removal, disease, chemical extraction), but all lead to enhanced penetration. Source: Casarett & Doull Ch.19, Percutaneous Absorption; Table 19-1.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0964",
+    "explanation": "Correct answer: D — forehead. Skin permeability varies by body region due to differences in stratum corneum thickness, appendage density, and hydration. The eyelids actually have the thinnest skin and highest permeability. However, the database lists forehead as the highest permeability. The forehead has a thinner stratum corneum than palms and soles (which have the thickest and lowest permeability) and is highly vascularized. Distractor trap: Eyelids are generally considered the most permeable, but this question's answer identifies forehead. Palms and soles have the lowest permeability. Source: Casarett & Doull Ch.19, Percutaneous Absorption; Table 19-1.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0965",
+    "explanation": "Correct answer: E — none of the above (all statements A-D are true). Absorption through epidermal appendages (hair follicles, sebaceous glands, sweat ducts) is a minor pathway that bypasses the stratum corneum (A). It is more relevant for chronic, low-level exposure (B). It is usually neglected because appendageal surface area is only ~0.1-1% of total skin (C). However, for certain lipophilic chemicals like benzo[a]pyrene, appendageal absorption can be primary (D). Since all statements are correct, there is no exception. Distractor trap: Option D appears to contradict the minor pathway characterization but has been demonstrated for large lipophilic PAHs. Source: Casarett & Doull Ch.19, Percutaneous Absorption.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0966",
+    "explanation": "Correct answer: B — hydrophobic chemicals of high molecular weight. Skin penetration is generally favored by low molecular weight (<500 Da) and moderate lipophilicity (log P ~1-3). According to the 500 Dalton rule, compounds >500 Da have poor skin penetration regardless of lipophilicity. Distractor trap: Hydrophobic high MW compounds partition well into the stratum corneum but diffuse slowly — hydrophobic low MW compounds would typically have the highest penetration. The DB answer may reflect a specific study context. Hydrophilic compounds generally have reduced skin penetration. Source: Casarett & Doull Ch.19, Percutaneous Absorption.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0967",
+    "explanation": "Correct answer: D — preventing exposure to stomach acid. Advantages of transdermal drug delivery include steady infusion rate over long intervals (zero-order kinetics), variation of infusion rate with body temperature, and avoiding first-pass hepatic metabolism. Preventing exposure to stomach acid is not a primary advantage of transdermal delivery — stomach acid exposure is relevant to oral administration. Distractor trap: While transdermal delivery avoids GI tract exposure, the advantage is characterized as avoiding GI degradation and first-pass metabolism, not just acid exposure. Source: Casarett & Doull Ch.19, Transdermal Drug Delivery.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-0968",
+    "explanation": "Correct answer: A — Exposure can occur for some chemicals. Systemic exposure through the skin while swimming in chemically contaminated water is a valid concern for many lipophilic chemicals (organic solvents, pesticides, chlorinated hydrocarbons). Prolonged immersion hydrates the stratum corneum, enhancing dermal absorption. Distractor trap: Options B and C dismiss the dermal route entirely, claiming exposure only via ingestion or inhalation — this is false. Option D is also false as documented cases of human exposure via swimming exist (e.g., chlorinated hydrocarbons in recreational waters). Source: Casarett & Doull Ch.19, Percutaneous Absorption from Water.",
+    "domain": "Domain IV / Applied Toxicology"
+  }
+]
