@@ -1,0 +1,1220 @@
+{
+  "DABT-3367": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers 09 June 2017.docx",
+    "qnum": 12,
+    "match_score": 79
+  },
+  "DABT-3368": {
+    "answer_letter": "A",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 1,
+    "match_score": 152
+  },
+  "DABT-3369": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 2,
+    "match_score": 60
+  },
+  "DABT-3370": {
+    "answer_letter": "A",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 3,
+    "match_score": 98
+  },
+  "DABT-3371": {
+    "answer_letter": "A",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 4,
+    "match_score": 94
+  },
+  "DABT-3372": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 5,
+    "match_score": 159
+  },
+  "DABT-3373": {
+    "answer_letter": "E",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 6,
+    "match_score": 99
+  },
+  "DABT-3374": {
+    "answer_letter": "G",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 7,
+    "match_score": 133
+  },
+  "DABT-3375": {
+    "answer_letter": "E",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 8,
+    "match_score": 258
+  },
+  "DABT-3376": {
+    "answer_letter": "B",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 9,
+    "match_score": 232
+  },
+  "DABT-3377": {
+    "answer_letter": "A",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 10,
+    "match_score": 464
+  },
+  "DABT-3378": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 11,
+    "match_score": 359
+  },
+  "DABT-3379": {
+    "answer_letter": "B",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 12,
+    "match_score": 66
+  },
+  "DABT-3380": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 15,
+    "match_score": 124
+  },
+  "DABT-3381": {
+    "answer_letter": "H",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 16,
+    "match_score": 95
+  },
+  "DABT-3382": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 17,
+    "match_score": 267
+  },
+  "DABT-3383": {
+    "answer_letter": "E",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 18,
+    "match_score": 374
+  },
+  "DABT-3384": {
+    "answer_letter": "E",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 19,
+    "match_score": 198
+  },
+  "DABT-3385": {
+    "answer_letter": "B",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 20,
+    "match_score": 106
+  },
+  "DABT-3386": {
+    "answer_letter": "A",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 21,
+    "match_score": 136
+  },
+  "DABT-3387": {
+    "answer_letter": "A",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 22,
+    "match_score": 124
+  },
+  "DABT-3388": {
+    "answer_letter": "A",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 26,
+    "match_score": 173
+  },
+  "DABT-3389": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 27,
+    "match_score": 370
+  },
+  "DABT-3390": {
+    "answer_letter": "A",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 28,
+    "match_score": 92
+  },
+  "DABT-3391": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 29,
+    "match_score": 260
+  },
+  "DABT-3392": {
+    "answer_letter": "F",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 30,
+    "match_score": 315
+  },
+  "DABT-3393": {
+    "answer_letter": "B",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 31,
+    "match_score": 140
+  },
+  "DABT-3394": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 32,
+    "match_score": 155
+  },
+  "DABT-3395": {
+    "answer_letter": "A",
+    "exam": "Mini-ABT exam with answers 09 June 2017.docx",
+    "qnum": 22,
+    "match_score": 100
+  },
+  "DABT-3396": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 35,
+    "match_score": 78
+  },
+  "DABT-3397": {
+    "answer_letter": "E",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 36,
+    "match_score": 340
+  },
+  "DABT-3398": {
+    "answer_letter": "E",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 37,
+    "match_score": 206
+  },
+  "DABT-3399": {
+    "answer_letter": "G",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 38,
+    "match_score": 367
+  },
+  "DABT-3400": {
+    "answer_letter": "G",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 39,
+    "match_score": 358
+  },
+  "DABT-3401": {
+    "answer_letter": "G",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 40,
+    "match_score": 194
+  },
+  "DABT-3402": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 41,
+    "match_score": 98
+  },
+  "DABT-3403": {
+    "answer_letter": "B",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 43,
+    "match_score": 62
+  },
+  "DABT-3404": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 44,
+    "match_score": 79
+  },
+  "DABT-3405": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 45,
+    "match_score": 55
+  },
+  "DABT-3406": {
+    "answer_letter": "E",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 46,
+    "match_score": 223
+  },
+  "DABT-3407": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 47,
+    "match_score": 77
+  },
+  "DABT-3408": {
+    "answer_letter": "A",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 48,
+    "match_score": 70
+  },
+  "DABT-3409": {
+    "answer_letter": "B",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 49,
+    "match_score": 108
+  },
+  "DABT-3410": {
+    "answer_letter": "F",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 50,
+    "match_score": 59
+  },
+  "DABT-3411": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 51,
+    "match_score": 58
+  },
+  "DABT-3412": {
+    "answer_letter": "A",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 52,
+    "match_score": 106
+  },
+  "DABT-3413": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 53,
+    "match_score": 87
+  },
+  "DABT-3414": {
+    "answer_letter": "E",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 54,
+    "match_score": 39
+  },
+  "DABT-3415": {
+    "answer_letter": "F",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 55,
+    "match_score": 70
+  },
+  "DABT-3416": {
+    "answer_letter": "H",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 56,
+    "match_score": 47
+  },
+  "DABT-3417": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers 12 May 2017.docx",
+    "qnum": 9,
+    "match_score": 33
+  },
+  "DABT-3418": {
+    "answer_letter": "G",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 59,
+    "match_score": 65
+  },
+  "DABT-3419": {
+    "answer_letter": "H",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 60,
+    "match_score": 36
+  },
+  "DABT-3420": {
+    "answer_letter": "E",
+    "exam": "Mini-ABT exam with answers 05 May 2017.docx",
+    "qnum": 1,
+    "match_score": 47
+  },
+  "DABT-3421": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers 05 May 2017.docx",
+    "qnum": 2,
+    "match_score": 50
+  },
+  "DABT-3422": {
+    "answer_letter": "E",
+    "exam": "Mini-ABT exam with answers 05 May 2017.docx",
+    "qnum": 3,
+    "match_score": 78
+  },
+  "DABT-3423": {
+    "answer_letter": "A",
+    "exam": "Mini-ABT exam with answers 05 May 2017.docx",
+    "qnum": 4,
+    "match_score": 95
+  },
+  "DABT-3424": {
+    "answer_letter": "E",
+    "exam": "Mini-ABT exam with answers 05 May 2017.docx",
+    "qnum": 5,
+    "match_score": 70
+  },
+  "DABT-3425": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers 05 May 2017.docx",
+    "qnum": 6,
+    "match_score": 57
+  },
+  "DABT-3426": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers 05 May 2017.docx",
+    "qnum": 7,
+    "match_score": 30
+  },
+  "DABT-3427": {
+    "answer_letter": "E",
+    "exam": "Mini-ABT exam with answers 05 May 2017.docx",
+    "qnum": 8,
+    "match_score": 48
+  },
+  "DABT-3428": {
+    "answer_letter": "B",
+    "exam": "Mini-ABT exam with answers 05 May 2017.docx",
+    "qnum": 9,
+    "match_score": 97
+  },
+  "DABT-3429": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers 05 May 2017.docx",
+    "qnum": 10,
+    "match_score": 19
+  },
+  "DABT-3430": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers 05 May 2017.docx",
+    "qnum": 11,
+    "match_score": 54
+  },
+  "DABT-3431": {
+    "answer_letter": "A",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 21,
+    "match_score": 136
+  },
+  "DABT-3432": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam answers 26 May 2017.docx",
+    "qnum": 12,
+    "match_score": 30
+  },
+  "DABT-3433": {
+    "answer_letter": "E",
+    "exam": "Mini-ABT exam with answers 26 August 2017.docx",
+    "qnum": 36,
+    "match_score": 9
+  },
+  "DABT-3434": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers 03 September 2017.docx",
+    "qnum": 37,
+    "match_score": 5
+  },
+  "DABT-3435": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers 05 May 2017.docx",
+    "qnum": 16,
+    "match_score": 29
+  },
+  "DABT-3436": {
+    "answer_letter": "A",
+    "exam": "Mini-ABT exam with answers 05 May 2017.docx",
+    "qnum": 17,
+    "match_score": 109
+  },
+  "DABT-3437": {
+    "answer_letter": "B",
+    "exam": "Mini-ABT exam with answers 05 May 2017.docx",
+    "qnum": 18,
+    "match_score": 59
+  },
+  "DABT-3438": {
+    "answer_letter": "E",
+    "exam": "Mini-ABT exam with answers 05 May 2017.docx",
+    "qnum": 19,
+    "match_score": 73
+  },
+  "DABT-3439": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers 05 May 2017.docx",
+    "qnum": 20,
+    "match_score": 17
+  },
+  "DABT-3440": {
+    "answer_letter": "B",
+    "exam": "Mini-ABT exam with answers 05 May 2017.docx",
+    "qnum": 21,
+    "match_score": 78
+  },
+  "DABT-3441": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers 05 May 2017.docx",
+    "qnum": 22,
+    "match_score": 56
+  },
+  "DABT-3442": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers 05 May 2017.docx",
+    "qnum": 23,
+    "match_score": 351
+  },
+  "DABT-3443": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers 05 May 2017.docx",
+    "qnum": 24,
+    "match_score": 87
+  },
+  "DABT-3444": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers 05 May 2017.docx",
+    "qnum": 25,
+    "match_score": 79
+  },
+  "DABT-3445": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam answers 26 May 2017.docx",
+    "qnum": 1,
+    "match_score": 5
+  },
+  "DABT-3446": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers for 15 Sept. 2017.docx",
+    "qnum": 14,
+    "match_score": 11
+  },
+  "DABT-3448": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers 05 May 2017.docx",
+    "qnum": 31,
+    "match_score": 107
+  },
+  "DABT-3449": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers 05 May 2017.docx",
+    "qnum": 32,
+    "match_score": 65
+  },
+  "DABT-3450": {
+    "answer_letter": "A",
+    "exam": "Mini-ABT exam with answers 05 May 2017.docx",
+    "qnum": 33,
+    "match_score": 90
+  },
+  "DABT-3451": {
+    "answer_letter": "E",
+    "exam": "Mini-ABT exam with answers 05 May 2017.docx",
+    "qnum": 34,
+    "match_score": 104
+  },
+  "DABT-3452": {
+    "answer_letter": "A",
+    "exam": "Mini-ABT exam with answers 05 May 2017.docx",
+    "qnum": 35,
+    "match_score": 34
+  },
+  "DABT-3453": {
+    "answer_letter": "B",
+    "exam": "Mini-ABT exam with answers 05 May 2017.docx",
+    "qnum": 36,
+    "match_score": 95
+  },
+  "DABT-3454": {
+    "answer_letter": "B",
+    "exam": "Mini-ABT exam with answers 05 May 2017.docx",
+    "qnum": 37,
+    "match_score": 57
+  },
+  "DABT-3455": {
+    "answer_letter": "A",
+    "exam": "Mini-ABT exam with answers 05 May 2017.docx",
+    "qnum": 38,
+    "match_score": 213
+  },
+  "DABT-3456": {
+    "answer_letter": "B",
+    "exam": "Mini-ABT exam with answers 05 May 2017.docx",
+    "qnum": 39,
+    "match_score": 94
+  },
+  "DABT-3457": {
+    "answer_letter": "E",
+    "exam": "Mini-ABT exam with answers 05 May 2017.docx",
+    "qnum": 40,
+    "match_score": 76
+  },
+  "DABT-3458": {
+    "answer_letter": "A",
+    "exam": "Mini-ABT exam with answers for 11 August 2017.docx",
+    "qnum": 1,
+    "match_score": 76
+  },
+  "DABT-3459": {
+    "answer_letter": "A",
+    "exam": "Mini-ABT exam with answers for 11 August 2017.docx",
+    "qnum": 2,
+    "match_score": 90
+  },
+  "DABT-3460": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers for 11 August 2017.docx",
+    "qnum": 5,
+    "match_score": 14
+  },
+  "DABT-3461": {
+    "answer_letter": "B",
+    "exam": "Mini-ABT exam with answers for 11 August 2017.docx",
+    "qnum": 6,
+    "match_score": 179
+  },
+  "DABT-3462": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers for 11 August 2017.docx",
+    "qnum": 8,
+    "match_score": 118
+  },
+  "DABT-3463": {
+    "answer_letter": "B",
+    "exam": "Mini-ABT exam with answers for 11 August 2017.docx",
+    "qnum": 9,
+    "match_score": 55
+  },
+  "DABT-3464": {
+    "answer_letter": "E",
+    "exam": "Mini-ABT exam with answers 03 September 2017.docx",
+    "qnum": 42,
+    "match_score": 69
+  },
+  "DABT-3465": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers for 11 August 2017.docx",
+    "qnum": 11,
+    "match_score": 94
+  },
+  "DABT-3466": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers for 11 August 2017.docx",
+    "qnum": 12,
+    "match_score": 177
+  },
+  "DABT-3467": {
+    "answer_letter": "A",
+    "exam": "Mini-ABT exam with answers for 11 August 2017.docx",
+    "qnum": 13,
+    "match_score": 46
+  },
+  "DABT-3468": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers for 11 August 2017.docx",
+    "qnum": 14,
+    "match_score": 85
+  },
+  "DABT-3469": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers for 11 August 2017.docx",
+    "qnum": 15,
+    "match_score": 77
+  },
+  "DABT-3470": {
+    "answer_letter": "E",
+    "exam": "Mini-ABT exam answers 26 May 2017.docx",
+    "qnum": 32,
+    "match_score": 5
+  },
+  "DABT-3471": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers 03 September 2017.docx",
+    "qnum": 24,
+    "match_score": 24
+  },
+  "DABT-3472": {
+    "answer_letter": "A",
+    "exam": "Mini-ABT exam with answers for 15 Sept. 2017.docx",
+    "qnum": 36,
+    "match_score": 93
+  },
+  "DABT-3473": {
+    "answer_letter": "F",
+    "exam": "Mini-ABT exam with answers 19 May 2017.docx",
+    "qnum": 8,
+    "match_score": 25
+  },
+  "DABT-3474": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers 28 July 2017-PART B.docx",
+    "qnum": 16,
+    "match_score": 49
+  },
+  "DABT-3475": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers for 11 August 2017.docx",
+    "qnum": 21,
+    "match_score": 85
+  },
+  "DABT-3476": {
+    "answer_letter": "B",
+    "exam": "Mini-ABT exam with answers for 11 August 2017.docx",
+    "qnum": 22,
+    "match_score": 92
+  },
+  "DABT-3477": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers for 11 August 2017.docx",
+    "qnum": 23,
+    "match_score": 70
+  },
+  "DABT-3478": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers for 11 August 2017.docx",
+    "qnum": 24,
+    "match_score": 94
+  },
+  "DABT-3479": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers for 11 August 2017.docx",
+    "qnum": 25,
+    "match_score": 94
+  },
+  "DABT-3481": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers 14 July 2017-A.docx",
+    "qnum": 26,
+    "match_score": 6
+  },
+  "DABT-3484": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers 12 May 2017.docx",
+    "qnum": 39,
+    "match_score": 30
+  },
+  "DABT-3485": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers for 11 August 2017.docx",
+    "qnum": 31,
+    "match_score": 98
+  },
+  "DABT-3486": {
+    "answer_letter": "B",
+    "exam": "Mini-ABT exam with answers for 11 August 2017.docx",
+    "qnum": 32,
+    "match_score": 92
+  },
+  "DABT-3487": {
+    "answer_letter": "E",
+    "exam": "Mini-ABT exam with answers for 11 August 2017.docx",
+    "qnum": 33,
+    "match_score": 95
+  },
+  "DABT-3488": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers for 11 August 2017.docx",
+    "qnum": 34,
+    "match_score": 58
+  },
+  "DABT-3489": {
+    "answer_letter": "A",
+    "exam": "Mini-ABT exam with answers for 11 August 2017.docx",
+    "qnum": 35,
+    "match_score": 91
+  },
+  "DABT-3490": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers for 11 August 2017.docx",
+    "qnum": 36,
+    "match_score": 91
+  },
+  "DABT-3491": {
+    "answer_letter": "E",
+    "exam": "Mini-ABT exam with answers 03 September 2017.docx",
+    "qnum": 23,
+    "match_score": 7
+  },
+  "DABT-3492": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers for 11 August 2017.docx",
+    "qnum": 38,
+    "match_score": 82
+  },
+  "DABT-3493": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers for 11 August 2017.docx",
+    "qnum": 39,
+    "match_score": 87
+  },
+  "DABT-3494": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers for 11 August 2017.docx",
+    "qnum": 40,
+    "match_score": 94
+  },
+  "DABT-3495": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers for 15 Sept. 2017.docx",
+    "qnum": 1,
+    "match_score": 140
+  },
+  "DABT-3496": {
+    "answer_letter": "B",
+    "exam": "Mini-ABT exam with answers for 15 Sept. 2017.docx",
+    "qnum": 3,
+    "match_score": 462
+  },
+  "DABT-3497": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers for 15 Sept. 2017.docx",
+    "qnum": 4,
+    "match_score": 180
+  },
+  "DABT-3498": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers for 15 Sept. 2017.docx",
+    "qnum": 5,
+    "match_score": 66
+  },
+  "DABT-3499": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers for 15 Sept. 2017.docx",
+    "qnum": 6,
+    "match_score": 176
+  },
+  "DABT-3500": {
+    "answer_letter": "A",
+    "exam": "Mini-ABT exam with answers for 15 Sept. 2017.docx",
+    "qnum": 7,
+    "match_score": 128
+  },
+  "DABT-3501": {
+    "answer_letter": "A",
+    "exam": "Mini-ABT exam with answers for 15 Sept. 2017.docx",
+    "qnum": 8,
+    "match_score": 93
+  },
+  "DABT-3502": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers for 15 Sept. 2017.docx",
+    "qnum": 11,
+    "match_score": 183
+  },
+  "DABT-3503": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers for 15 Sept. 2017.docx",
+    "qnum": 12,
+    "match_score": 228
+  },
+  "DABT-3504": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers for 15 Sept. 2017.docx",
+    "qnum": 14,
+    "match_score": 82
+  },
+  "DABT-3505": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers for 15 Sept. 2017.docx",
+    "qnum": 15,
+    "match_score": 57
+  },
+  "DABT-3506": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers for 15 Sept. 2017.docx",
+    "qnum": 16,
+    "match_score": 59
+  },
+  "DABT-3507": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers for 15 Sept. 2017.docx",
+    "qnum": 17,
+    "match_score": 48
+  },
+  "DABT-3508": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers for 15 Sept. 2017.docx",
+    "qnum": 18,
+    "match_score": 186
+  },
+  "DABT-3509": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers for 15 Sept. 2017.docx",
+    "qnum": 19,
+    "match_score": 110
+  },
+  "DABT-3510": {
+    "answer_letter": "E",
+    "exam": "Mini-ABT exam with answers for 15 Sept. 2017.docx",
+    "qnum": 20,
+    "match_score": 86
+  },
+  "DABT-3511": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers for 15 Sept. 2017.docx",
+    "qnum": 23,
+    "match_score": 124
+  },
+  "DABT-3512": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers for 11 August 2017.docx",
+    "qnum": 11,
+    "match_score": 200
+  },
+  "DABT-3513": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers for 15 Sept. 2017.docx",
+    "qnum": 25,
+    "match_score": 84
+  },
+  "DABT-3514": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers for 15 Sept. 2017.docx",
+    "qnum": 26,
+    "match_score": 48
+  },
+  "DABT-3515": {
+    "answer_letter": "E",
+    "exam": "Mini-ABT exam with answers for 15 Sept. 2017.docx",
+    "qnum": 30,
+    "match_score": 86
+  },
+  "DABT-3516": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers for 15 Sept. 2017.docx",
+    "qnum": 32,
+    "match_score": 109
+  },
+  "DABT-3517": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers for 15 Sept. 2017.docx",
+    "qnum": 34,
+    "match_score": 692
+  },
+  "DABT-3518": {
+    "answer_letter": "E",
+    "exam": "Mini-ABT exam with answers for 15 Sept. 2017.docx",
+    "qnum": 35,
+    "match_score": 426
+  },
+  "DABT-3519": {
+    "answer_letter": "A",
+    "exam": "Mini-ABT exam with answers for 15 Sept. 2017.docx",
+    "qnum": 37,
+    "match_score": 99
+  },
+  "DABT-3520": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers for 15 Sept. 2017.docx",
+    "qnum": 38,
+    "match_score": 90
+  },
+  "DABT-3521": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers for 15 Sept. 2017.docx",
+    "qnum": 39,
+    "match_score": 98
+  },
+  "DABT-3522": {
+    "answer_letter": "A",
+    "exam": "Mini-ABT exam with answers for 15 Sept. 2017.docx",
+    "qnum": 40,
+    "match_score": 110
+  },
+  "DABT-3523": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 1,
+    "match_score": 407
+  },
+  "DABT-3524": {
+    "answer_letter": "B",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 2,
+    "match_score": 96
+  },
+  "DABT-3525": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 3,
+    "match_score": 67
+  },
+  "DABT-3526": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 4,
+    "match_score": 131
+  },
+  "DABT-3527": {
+    "answer_letter": "F",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 5,
+    "match_score": 120
+  },
+  "DABT-3528": {
+    "answer_letter": "F",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 6,
+    "match_score": 51
+  },
+  "DABT-3529": {
+    "answer_letter": "A",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 7,
+    "match_score": 177
+  },
+  "DABT-3530": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 8,
+    "match_score": 74
+  },
+  "DABT-3531": {
+    "answer_letter": "A",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 9,
+    "match_score": 125
+  },
+  "DABT-3532": {
+    "answer_letter": "E",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 10,
+    "match_score": 197
+  },
+  "DABT-3533": {
+    "answer_letter": "G",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 11,
+    "match_score": 161
+  },
+  "DABT-3534": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 12,
+    "match_score": 152
+  },
+  "DABT-3535": {
+    "answer_letter": "B",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 13,
+    "match_score": 144
+  },
+  "DABT-3536": {
+    "answer_letter": "A",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 14,
+    "match_score": 46
+  },
+  "DABT-3537": {
+    "answer_letter": "A",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 15,
+    "match_score": 101
+  },
+  "DABT-3538": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 16,
+    "match_score": 138
+  },
+  "DABT-3539": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 17,
+    "match_score": 116
+  },
+  "DABT-3540": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 18,
+    "match_score": 78
+  },
+  "DABT-3541": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 19,
+    "match_score": 303
+  },
+  "DABT-3542": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers 03 September 2017.docx",
+    "qnum": 31,
+    "match_score": 52
+  },
+  "DABT-3543": {
+    "answer_letter": "F",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 21,
+    "match_score": 234
+  },
+  "DABT-3544": {
+    "answer_letter": "B",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 22,
+    "match_score": 92
+  },
+  "DABT-3545": {
+    "answer_letter": "A",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 23,
+    "match_score": 56
+  },
+  "DABT-3546": {
+    "answer_letter": "B",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 24,
+    "match_score": 53
+  },
+  "DABT-3547": {
+    "answer_letter": "B",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 25,
+    "match_score": 112
+  },
+  "DABT-3548": {
+    "answer_letter": "B",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 26,
+    "match_score": 124
+  },
+  "DABT-3549": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 27,
+    "match_score": 131
+  },
+  "DABT-3550": {
+    "answer_letter": "E",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 28,
+    "match_score": 200
+  },
+  "DABT-3551": {
+    "answer_letter": "F",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 29,
+    "match_score": 56
+  },
+  "DABT-3552": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 30,
+    "match_score": 142
+  },
+  "DABT-3553": {
+    "answer_letter": "B",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 31,
+    "match_score": 176
+  },
+  "DABT-3555": {
+    "answer_letter": "A",
+    "exam": "Mini-ABT exam with answers 19 May 2017.docx",
+    "qnum": 37,
+    "match_score": 10
+  },
+  "DABT-3556": {
+    "answer_letter": "B",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 32,
+    "match_score": 67
+  },
+  "DABT-3557": {
+    "answer_letter": "B",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 33,
+    "match_score": 178
+  },
+  "DABT-3558": {
+    "answer_letter": "E",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 34,
+    "match_score": 87
+  },
+  "DABT-3559": {
+    "answer_letter": "A",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 35,
+    "match_score": 69
+  },
+  "DABT-3560": {
+    "answer_letter": "B",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 36,
+    "match_score": 286
+  },
+  "DABT-3561": {
+    "answer_letter": "E",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 37,
+    "match_score": 151
+  },
+  "DABT-3562": {
+    "answer_letter": "E",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 38,
+    "match_score": 101
+  },
+  "DABT-3563": {
+    "answer_letter": "E",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 39,
+    "match_score": 150
+  },
+  "DABT-3564": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 40,
+    "match_score": 86
+  },
+  "DABT-3565": {
+    "answer_letter": "B",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 41,
+    "match_score": 279
+  },
+  "DABT-3566": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 42,
+    "match_score": 98
+  },
+  "DABT-3567": {
+    "answer_letter": "A",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 43,
+    "match_score": 196
+  },
+  "DABT-3568": {
+    "answer_letter": "F",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 44,
+    "match_score": 103
+  },
+  "DABT-3569": {
+    "answer_letter": "A",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 45,
+    "match_score": 380
+  },
+  "DABT-3570": {
+    "answer_letter": "A",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 46,
+    "match_score": 67
+  },
+  "DABT-3571": {
+    "answer_letter": "D",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 47,
+    "match_score": 149
+  },
+  "DABT-3572": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 48,
+    "match_score": 168
+  },
+  "DABT-3573": {
+    "answer_letter": "A",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 49,
+    "match_score": 150
+  },
+  "DABT-3574": {
+    "answer_letter": "C",
+    "exam": "Mini-ABT exam with answers for 22 Sept. 2017 (corrected.ver.2).docx",
+    "qnum": 50,
+    "match_score": 238
+  }
+}

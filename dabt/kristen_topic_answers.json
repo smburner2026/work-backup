@@ -1,0 +1,905 @@
+{
+  "source": "Kristen Topic Tests (docx with answers)",
+  "source_file_id": 5,
+  "db_path": "/root/work/dabt/dabt-tutor/reference/data/dabt.db",
+  "mapping": {
+    "DABT-3575": {
+      "question_number": 1,
+      "topic": "General Toxicology",
+      "answer_letter": "B",
+      "previous_answer": null
+    },
+    "DABT-3576": {
+      "question_number": 2,
+      "topic": "General Toxicology",
+      "answer_letter": "A",
+      "previous_answer": null
+    },
+    "DABT-3577": {
+      "question_number": 3,
+      "topic": "General Toxicology",
+      "answer_letter": "B",
+      "previous_answer": null
+    },
+    "DABT-3578": {
+      "question_number": 4,
+      "topic": "General Toxicology",
+      "answer_letter": "C",
+      "previous_answer": null
+    },
+    "DABT-3579": {
+      "question_number": 5,
+      "topic": "General Toxicology",
+      "answer_letter": "D",
+      "previous_answer": null
+    },
+    "DABT-3580": {
+      "question_number": 6,
+      "topic": "General Toxicology",
+      "answer_letter": "C",
+      "previous_answer": null
+    },
+    "DABT-3581": {
+      "question_number": 7,
+      "topic": "General Toxicology",
+      "answer_letter": "A",
+      "previous_answer": null
+    },
+    "DABT-3582": {
+      "question_number": 8,
+      "topic": "General Toxicology",
+      "answer_letter": "E",
+      "previous_answer": null
+    },
+    "DABT-3583": {
+      "question_number": 9,
+      "topic": "General Toxicology",
+      "answer_letter": "E",
+      "previous_answer": null
+    },
+    "DABT-3585": {
+      "question_number": 12,
+      "topic": "General Toxicology",
+      "answer_letter": "E",
+      "previous_answer": null
+    },
+    "DABT-3586": {
+      "question_number": 13,
+      "topic": "General Toxicology",
+      "answer_letter": "E",
+      "previous_answer": null
+    },
+    "DABT-3587": {
+      "question_number": 14,
+      "topic": "General Toxicology",
+      "answer_letter": "C",
+      "previous_answer": "A"
+    },
+    "DABT-3588": {
+      "question_number": 15,
+      "topic": "General Toxicology",
+      "answer_letter": "A",
+      "previous_answer": null
+    },
+    "DABT-3589": {
+      "question_number": 16,
+      "topic": "General Toxicology",
+      "answer_letter": "D",
+      "previous_answer": null
+    },
+    "DABT-3590": {
+      "question_number": 17,
+      "topic": "General Toxicology",
+      "answer_letter": "A",
+      "previous_answer": null
+    },
+    "DABT-3591": {
+      "question_number": 19,
+      "topic": "General Toxicology",
+      "answer_letter": "E",
+      "previous_answer": null
+    },
+    "DABT-3592": {
+      "question_number": 20,
+      "topic": "General Toxicology",
+      "answer_letter": "B",
+      "previous_answer": null
+    },
+    "DABT-3593": {
+      "question_number": 21,
+      "topic": "General Toxicology",
+      "answer_letter": "D",
+      "previous_answer": null
+    },
+    "DABT-3594": {
+      "question_number": 22,
+      "topic": "General Toxicology",
+      "answer_letter": "A",
+      "previous_answer": null
+    },
+    "DABT-3595": {
+      "question_number": 23,
+      "topic": "General Toxicology",
+      "answer_letter": "C",
+      "previous_answer": null
+    },
+    "DABT-3596": {
+      "question_number": 24,
+      "topic": "General Toxicology",
+      "answer_letter": "D",
+      "previous_answer": null
+    },
+    "DABT-3597": {
+      "question_number": 25,
+      "topic": "General Toxicology",
+      "answer_letter": "D",
+      "previous_answer": null
+    },
+    "DABT-3598": {
+      "question_number": 1,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "G",
+      "previous_answer": null
+    },
+    "DABT-3599": {
+      "question_number": 2,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "E",
+      "previous_answer": null
+    },
+    "DABT-3600": {
+      "question_number": 3,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "A",
+      "previous_answer": null
+    },
+    "DABT-3601": {
+      "question_number": 4,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "B",
+      "previous_answer": null
+    },
+    "DABT-3602": {
+      "question_number": 5,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "C",
+      "previous_answer": null
+    },
+    "DABT-3603": {
+      "question_number": 6,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "A",
+      "previous_answer": null
+    },
+    "DABT-3604": {
+      "question_number": 7,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "A",
+      "previous_answer": null
+    },
+    "DABT-3605": {
+      "question_number": 8,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "D",
+      "previous_answer": null
+    },
+    "DABT-3606": {
+      "question_number": 9,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "C",
+      "previous_answer": null
+    },
+    "DABT-3607": {
+      "question_number": 10,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "B",
+      "previous_answer": "A"
+    },
+    "DABT-3608": {
+      "question_number": 11,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "C",
+      "previous_answer": null
+    },
+    "DABT-3609": {
+      "question_number": 12,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "B",
+      "previous_answer": null
+    },
+    "DABT-3610": {
+      "question_number": 13,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "C",
+      "previous_answer": "D"
+    },
+    "DABT-3617": {
+      "question_number": 21,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "C",
+      "previous_answer": null
+    },
+    "DABT-3620": {
+      "question_number": 24,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "B",
+      "previous_answer": "D"
+    },
+    "DABT-3621": {
+      "question_number": 25,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "C",
+      "previous_answer": "A"
+    },
+    "DABT-3622": {
+      "question_number": 26,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "A",
+      "previous_answer": "C"
+    },
+    "DABT-3623": {
+      "question_number": 27,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "D",
+      "previous_answer": "C"
+    },
+    "DABT-3624": {
+      "question_number": 28,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "C",
+      "previous_answer": "A"
+    },
+    "DABT-3628": {
+      "question_number": 32,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "B",
+      "previous_answer": "A"
+    },
+    "DABT-3629": {
+      "question_number": 33,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "D",
+      "previous_answer": null
+    },
+    "DABT-3630": {
+      "question_number": 34,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "C",
+      "previous_answer": "B"
+    },
+    "DABT-3631": {
+      "question_number": 35,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "D",
+      "previous_answer": "B"
+    },
+    "DABT-3633": {
+      "question_number": 37,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "E",
+      "previous_answer": "A"
+    },
+    "DABT-3634": {
+      "question_number": 38,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "C",
+      "previous_answer": "D"
+    },
+    "DABT-3635": {
+      "question_number": 39,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "E",
+      "previous_answer": "C"
+    },
+    "DABT-3638": {
+      "question_number": 42,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "D",
+      "previous_answer": null
+    },
+    "DABT-3644": {
+      "question_number": 48,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "C",
+      "previous_answer": "D"
+    },
+    "DABT-3645": {
+      "question_number": 49,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "D",
+      "previous_answer": "B"
+    },
+    "DABT-3650": {
+      "question_number": 1,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "B",
+      "previous_answer": null
+    },
+    "DABT-3651": {
+      "question_number": 2,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "D",
+      "previous_answer": null
+    },
+    "DABT-3652": {
+      "question_number": 3,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "B",
+      "previous_answer": "A"
+    },
+    "DABT-3653": {
+      "question_number": 4,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "A",
+      "previous_answer": null
+    },
+    "DABT-3654": {
+      "question_number": 5,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "C",
+      "previous_answer": null
+    },
+    "DABT-3655": {
+      "question_number": 6,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "A",
+      "previous_answer": null
+    },
+    "DABT-3656": {
+      "question_number": 7,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "B",
+      "previous_answer": null
+    },
+    "DABT-3657": {
+      "question_number": 8,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "B",
+      "previous_answer": null
+    },
+    "DABT-3658": {
+      "question_number": 9,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "C",
+      "previous_answer": null
+    },
+    "DABT-3659": {
+      "question_number": 10,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "A",
+      "previous_answer": null
+    },
+    "DABT-3660": {
+      "question_number": 11,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "D",
+      "previous_answer": null
+    },
+    "DABT-3661": {
+      "question_number": 12,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "B",
+      "previous_answer": null
+    },
+    "DABT-3662": {
+      "question_number": 13,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "E",
+      "previous_answer": null
+    },
+    "DABT-3663": {
+      "question_number": 14,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "B",
+      "previous_answer": null
+    },
+    "DABT-3664": {
+      "question_number": 15,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "D",
+      "previous_answer": null
+    },
+    "DABT-3665": {
+      "question_number": 16,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "A",
+      "previous_answer": null
+    },
+    "DABT-3666": {
+      "question_number": 17,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "F",
+      "previous_answer": "A"
+    },
+    "DABT-3667": {
+      "question_number": 18,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "G",
+      "previous_answer": null
+    },
+    "DABT-3668": {
+      "question_number": 19,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "C",
+      "previous_answer": null
+    },
+    "DABT-3669": {
+      "question_number": 20,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "D",
+      "previous_answer": null
+    },
+    "DABT-3670": {
+      "question_number": 21,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "A",
+      "previous_answer": null
+    },
+    "DABT-3671": {
+      "question_number": 22,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "D",
+      "previous_answer": "A"
+    },
+    "DABT-3672": {
+      "question_number": 23,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "D",
+      "previous_answer": null
+    },
+    "DABT-3673": {
+      "question_number": 24,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "A",
+      "previous_answer": null
+    },
+    "DABT-3674": {
+      "question_number": 25,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "D",
+      "previous_answer": "A"
+    },
+    "DABT-3675": {
+      "question_number": 26,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "B",
+      "previous_answer": null
+    },
+    "DABT-3676": {
+      "question_number": 27,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "D",
+      "previous_answer": null
+    },
+    "DABT-3677": {
+      "question_number": 28,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "B",
+      "previous_answer": null
+    },
+    "DABT-3678": {
+      "question_number": 29,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "B",
+      "previous_answer": null
+    },
+    "DABT-3679": {
+      "question_number": 30,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "D",
+      "previous_answer": null
+    },
+    "DABT-3680": {
+      "question_number": 31,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "A",
+      "previous_answer": null
+    },
+    "DABT-3681": {
+      "question_number": 32,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "B",
+      "previous_answer": null
+    },
+    "DABT-3682": {
+      "question_number": 33,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "A",
+      "previous_answer": null
+    },
+    "DABT-3683": {
+      "question_number": 34,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "D",
+      "previous_answer": null
+    },
+    "DABT-3684": {
+      "question_number": 35,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "C",
+      "previous_answer": null
+    },
+    "DABT-3686": {
+      "question_number": 37,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "C",
+      "previous_answer": null
+    },
+    "DABT-3687": {
+      "question_number": 38,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "A",
+      "previous_answer": null
+    },
+    "DABT-3688": {
+      "question_number": 39,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "C",
+      "previous_answer": null
+    },
+    "DABT-3689": {
+      "question_number": 40,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "C",
+      "previous_answer": null
+    },
+    "DABT-3690": {
+      "question_number": 41,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "C",
+      "previous_answer": null
+    },
+    "DABT-3691": {
+      "question_number": 42,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "A",
+      "previous_answer": null
+    },
+    "DABT-3692": {
+      "question_number": 43,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "A",
+      "previous_answer": null
+    },
+    "DABT-3693": {
+      "question_number": 44,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "B",
+      "previous_answer": null
+    },
+    "DABT-3694": {
+      "question_number": 45,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "A",
+      "previous_answer": "B"
+    },
+    "DABT-3695": {
+      "question_number": 46,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "B",
+      "previous_answer": null
+    },
+    "DABT-3696": {
+      "question_number": 47,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "A",
+      "previous_answer": null
+    },
+    "DABT-3698": {
+      "question_number": 49,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "B",
+      "previous_answer": null
+    },
+    "DABT-3699": {
+      "question_number": 50,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "B",
+      "previous_answer": null
+    },
+    "DABT-3701": {
+      "question_number": 2,
+      "topic": "Risk Assessment & Regulatory",
+      "answer_letter": "C",
+      "previous_answer": null
+    },
+    "DABT-3702": {
+      "question_number": 3,
+      "topic": "Risk Assessment & Regulatory",
+      "answer_letter": "F",
+      "previous_answer": "G"
+    },
+    "DABT-3703": {
+      "question_number": 4,
+      "topic": "Risk Assessment & Regulatory",
+      "answer_letter": "D",
+      "previous_answer": "A"
+    },
+    "DABT-3704": {
+      "question_number": 5,
+      "topic": "Risk Assessment & Regulatory",
+      "answer_letter": "E",
+      "previous_answer": "A"
+    },
+    "DABT-3705": {
+      "question_number": 6,
+      "topic": "Risk Assessment & Regulatory",
+      "answer_letter": "E",
+      "previous_answer": null
+    },
+    "DABT-3706": {
+      "question_number": 7,
+      "topic": "Risk Assessment & Regulatory",
+      "answer_letter": "B",
+      "previous_answer": null
+    },
+    "DABT-3707": {
+      "question_number": 8,
+      "topic": "Risk Assessment & Regulatory",
+      "answer_letter": "E",
+      "previous_answer": null
+    },
+    "DABT-3708": {
+      "question_number": 9,
+      "topic": "Risk Assessment & Regulatory",
+      "answer_letter": "E",
+      "previous_answer": "A"
+    },
+    "DABT-3709": {
+      "question_number": 10,
+      "topic": "Risk Assessment & Regulatory",
+      "answer_letter": "C",
+      "previous_answer": "A"
+    },
+    "DABT-3710": {
+      "question_number": 11,
+      "topic": "Risk Assessment & Regulatory",
+      "answer_letter": "C",
+      "previous_answer": null
+    },
+    "DABT-3711": {
+      "question_number": 12,
+      "topic": "Risk Assessment & Regulatory",
+      "answer_letter": "D",
+      "previous_answer": "A"
+    },
+    "DABT-3712": {
+      "question_number": 13,
+      "topic": "Risk Assessment & Regulatory",
+      "answer_letter": "D",
+      "previous_answer": null
+    },
+    "DABT-3713": {
+      "question_number": 14,
+      "topic": "Risk Assessment & Regulatory",
+      "answer_letter": "C",
+      "previous_answer": null
+    },
+    "DABT-3714": {
+      "question_number": 15,
+      "topic": "Risk Assessment & Regulatory",
+      "answer_letter": "D",
+      "previous_answer": null
+    },
+    "DABT-3715": {
+      "question_number": 16,
+      "topic": "Risk Assessment & Regulatory",
+      "answer_letter": "D",
+      "previous_answer": null
+    },
+    "DABT-3716": {
+      "question_number": 17,
+      "topic": "Risk Assessment & Regulatory",
+      "answer_letter": "D",
+      "previous_answer": null
+    },
+    "DABT-3717": {
+      "question_number": 18,
+      "topic": "Risk Assessment & Regulatory",
+      "answer_letter": "C",
+      "previous_answer": null
+    },
+    "DABT-3718": {
+      "question_number": 19,
+      "topic": "Risk Assessment & Regulatory",
+      "answer_letter": "D",
+      "previous_answer": null
+    },
+    "DABT-3584": {
+      "question_number": 10,
+      "topic": "General Toxicology",
+      "answer_letter": "A",
+      "previous_answer": "A",
+      "status": "unchanged"
+    },
+    "DABT-3611": {
+      "question_number": 14,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "D",
+      "previous_answer": "D",
+      "status": "unchanged"
+    },
+    "DABT-3612": {
+      "question_number": 15,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "A",
+      "previous_answer": "A",
+      "status": "unchanged"
+    },
+    "DABT-3613": {
+      "question_number": 16,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "C",
+      "previous_answer": "C",
+      "status": "unchanged"
+    },
+    "DABT-3614": {
+      "question_number": 17,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "D",
+      "previous_answer": "D",
+      "status": "unchanged"
+    },
+    "DABT-3615": {
+      "question_number": 18,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "C",
+      "previous_answer": "C",
+      "status": "unchanged"
+    },
+    "DABT-3616": {
+      "question_number": 20,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "B",
+      "previous_answer": "B",
+      "status": "unchanged"
+    },
+    "DABT-3618": {
+      "question_number": 22,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "C",
+      "previous_answer": "C",
+      "status": "unchanged"
+    },
+    "DABT-3619": {
+      "question_number": 23,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "A",
+      "previous_answer": "A",
+      "status": "unchanged"
+    },
+    "DABT-3625": {
+      "question_number": 29,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "D",
+      "previous_answer": "D",
+      "status": "unchanged"
+    },
+    "DABT-3626": {
+      "question_number": 30,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "D",
+      "previous_answer": "D",
+      "status": "unchanged"
+    },
+    "DABT-3627": {
+      "question_number": 31,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "A",
+      "previous_answer": "A",
+      "status": "unchanged"
+    },
+    "DABT-3632": {
+      "question_number": 36,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "D",
+      "previous_answer": "D",
+      "status": "unchanged"
+    },
+    "DABT-3636": {
+      "question_number": 40,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "B",
+      "previous_answer": "B",
+      "status": "unchanged"
+    },
+    "DABT-3637": {
+      "question_number": 41,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "A",
+      "previous_answer": "A",
+      "status": "unchanged"
+    },
+    "DABT-3639": {
+      "question_number": 43,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "C",
+      "previous_answer": "C",
+      "status": "unchanged"
+    },
+    "DABT-3640": {
+      "question_number": 44,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "E",
+      "previous_answer": "E",
+      "status": "unchanged"
+    },
+    "DABT-3641": {
+      "question_number": 45,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "C",
+      "previous_answer": "C",
+      "status": "unchanged"
+    },
+    "DABT-3642": {
+      "question_number": 46,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "B",
+      "previous_answer": "B",
+      "status": "unchanged"
+    },
+    "DABT-3643": {
+      "question_number": 47,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "A",
+      "previous_answer": "A",
+      "status": "unchanged"
+    },
+    "DABT-3646": {
+      "question_number": 50,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "A",
+      "previous_answer": "A",
+      "status": "unchanged"
+    },
+    "DABT-3647": {
+      "question_number": 51,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "A",
+      "previous_answer": "A",
+      "status": "unchanged"
+    },
+    "DABT-3648": {
+      "question_number": 52,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "E",
+      "previous_answer": "E",
+      "status": "unchanged"
+    },
+    "DABT-3649": {
+      "question_number": 53,
+      "topic": "Drugs & Therapeutics \u2013 Toxicology",
+      "answer_letter": "A",
+      "previous_answer": "A",
+      "status": "unchanged"
+    },
+    "DABT-3685": {
+      "question_number": 36,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "C",
+      "previous_answer": "C",
+      "status": "unchanged"
+    },
+    "DABT-3697": {
+      "question_number": 48,
+      "topic": "Pesticides \u2013 Insecticides",
+      "answer_letter": "D",
+      "previous_answer": "D",
+      "status": "unchanged"
+    },
+    "DABT-3700": {
+      "question_number": 1,
+      "topic": "Risk Assessment & Regulatory",
+      "answer_letter": "A",
+      "previous_answer": "A",
+      "status": "unchanged"
+    },
+    "DABT-3719": {
+      "question_number": 20,
+      "topic": "Risk Assessment & Regulatory",
+      "answer_letter": "C",
+      "previous_answer": "C",
+      "status": "unchanged"
+    }
+  }
+}
