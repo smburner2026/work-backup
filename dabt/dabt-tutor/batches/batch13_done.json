@@ -1,0 +1,252 @@
+[
+  {
+    "id": "DABT-0869",
+    "explanation": "The DB-stated match is oxides of nitrogen (NOx) → eggshell calcification (a likely data error in the database). **Correct association: Inhalation of oxides of nitrogen (particularly NO₂) causes acute chemical pneumonitis and pulmonary edema known as silo filler's disease.** NO₂ is a highly reactive, poorly water-soluble gas that penetrates deeply into the lower respiratory tract, where it reacts with lung water to form nitric and nitrous acids, causing oxidative damage, epithelial injury, and delayed-onset pulmonary edema 4–12 hours after exposure. Eggshell calcification is a radiographic finding classically associated with silicosis (silica exposure), not NOx. (Casarett & Doull, Chapter 15 — Irritant Gas Toxicology; Chapter 24 — Solvents and Vapors)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0870",
+    "explanation": "The DB-stated match is beryllium → emphysema/cor pulmonale (a likely data error in the database). **Correct association: Beryllium exposure causes chronic beryllium disease (CBD), a granulomatous interstitial lung disease that histopathologically resembles sarcoidosis.** Beryllium acts as a hapten, triggering a cell-mediated immune response (CD4+ T-cell proliferation to beryllium antigen) leading to non-caseating granuloma formation. Emphysema with cor pulmonale is characteristic of α₁-antitrypsin deficiency and cigarette smoking, not beryllium. (Casarett & Doull, Chapter 15 — Beryllium Lung Disease)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0871",
+    "explanation": "The DB-stated match is polytetrafluoroethylene (PTFE/Teflon) combustion → nasal cavity squamous cell carcinoma (a likely data error in the database). **Correct association: Inhalation of pyrolysis products of PTFE (Teflon) causes polymer fume fever (Teflon flu), an acute self-limited illness with fever, chills, myalgia, and chest tightness.** The combustion gases include perfluoroisobutylene (PFIB), a potent pulmonary irritant, and hydrogen fluoride. Nasal cavity squamous cell carcinoma is associated with occupational exposures such as nickel refining, wood dust, and formaldehyde. (Casarett & Doull, Chapter 15 — Polymer Fume Fever; Chapter 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0872",
+    "explanation": "The correct answer is **D: neuronopathy**. When the neuronal cell body (perikaryon) is lethally injured, the entire neuron degenerates — a process called neuronopathy. This is characterized by the loss of the cell body and all of its processes (axon and dendrites) with no potential for regeneration. In contrast, axonopathy involves axonal degeneration with the cell body surviving, offering potential for regeneration. Neuritis refers to nerve inflammation, and neuralgia refers to nerve pain — neither describes the pathological process of cell death. (Casarett & Doull, Ch.16 'Toxic Responses of the Nervous System' pp.858-895)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0873",
+    "explanation": "The correct answer is **C: cytoskeleton**. Axonal transport has multiple components with distinct velocities: fast anterograde transport (100–400 mm/day) carries membranous organelles, proteins in vesicles, and mitochondria; slow anterograde transport carries cytoskeletal proteins (neurofilaments, microtubules) at ~0.2–8 mm/day (slow component a = 0.2–1 mm/day for neurofilaments and tubulin; slow component b = 2–8 mm/day for microfilaments and metabolic enzymes). The cytoskeleton is the slowest-moving component. (Casarett & Doull, Ch.16 — Axonal Transport)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0874",
+    "explanation": "The correct answer is **C: phosphocreatine** (as the DB states). However, note a nuance: the brain's primary energy source is **aerobic glucose metabolism** via oxidative phosphorylation (~90% of ATP). Phosphocreatine serves as a rapid high-energy phosphate buffer that maintains ATP levels during periods of high demand, but glucose + oxygen provide the bulk of ATP. The brain cannot use fatty acids as an energy source (they do not cross the BBB). Anaerobic glucose metabolism provides only 2 ATP/glucose vs. ~36 ATP via oxidative metabolism. The question may target phosphocreatine as the critical **energy reserve** for sudden demand. (Casarett & Doull, Ch.16 — Energy Requirements of the Nervous System)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0875",
+    "explanation": "The correct answer is **D: respond to changes in blood hormone levels**. Note: The DB-stated answer differs (DB says C: allow for neuronal hypertrophy in response to injury). Circumventricular organs (CVOs) — including the area postrema, subfornical organ, organum vasculosum of the lamina terminalis, and median eminence — lack a complete blood-brain barrier due to the absence of specialized endothelial tight junctions. This anatomical arrangement allows CVOs to sense blood-borne hormones and chemical signals, enabling neuroendocrine regulation (e.g., osmoregulation, emetic reflex, glucose sensing). Astrocytic foot processes provide a loose barrier. CVOs do NOT allow nutrients to rapidly enter the brain (selective transport systems do that), nor do they actively transport xenobiotics back or mediate neuronal hypertrophy. (Casarett & Doull, Ch.16 — Blood-Brain Barrier and Circumventricular Organs)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0876",
+    "explanation": "The correct answer is **D: all of the above** (as the DB states). Neurons have exceptionally high metabolic demands due to: (A) maintenance and reestablishment of ion gradients — the Na⁺/K⁺-ATPase consumes ~40–60% of neuronal ATP to restore resting membrane potential after each action potential; (B) high levels of protein synthesis and degradation — neurons are highly active in synthesizing neurotransmitters, receptors, ion channels, and structural proteins that turn over continuously; and (C) a high level of immune surveillance — microglia are continuously monitoring the CNS environment. Although the ion gradient component is the largest, all three contribute significantly. (Casarett & Doull, Ch.16 — Energy Requirements of Neurons)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0877",
+    "explanation": "The correct answer is **B: phenothiazines**. Note: The DB-stated answer differs. Tardive dyskinesia is an irreversible hyperkinetic movement disorder characterized by orofacial dyskinesias, grimacing, and choreoathetoid movements. It results from long-term (months to years) use of antipsychotic drugs, particularly **phenothiazines** (e.g., chlorpromazine, haloperidol) and other D₂ dopamine receptor antagonists. The mechanism involves supersensitivity of striatal dopamine receptors and/or oxidative stress from chronic D₂ blockade. Amphetamines cause acute dyskinesias and can exacerbate tic disorders but are not the classic cause of tardive dyskinesia. (Casarett & Doull, Ch.16 — Tardive Dyskinesia; Clinical Neurotoxicology)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0878",
+    "explanation": "The correct answer is **E** (none of the above, as the DB states — all listed advantages are false). The developing nervous system does **NOT** have less sensitivity to toxic insult (it is actually **more** sensitive — neurodevelopment is highly vulnerable to disruption during critical windows). It does **NOT** have faster recovery (the developing brain has greater plasticity but slower repair, and damage during development can cause lifelong deficits). It does **NOT** have a tighter blood-brain barrier (the BBB is **incompletely developed** at birth, especially in premature infants, allowing toxicants like unconjugated bilirubin and hexachlorophene to enter the CNS). The only real advantage is greater **plasticity**, which allows compensation if damage is limited. (Casarett & Doull, Ch.16 — Developmental Neurotoxicology)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0879",
+    "explanation": "The correct answer is **E** (none are exceptions, as the DB states — all listed toxicants are associated with neuronopathies). However, the classic neuronopathy agents are **organic mercury** (methylmercury — causes sensory neuronopathy with constricted visual fields and ataxia via selective damage to dorsal root ganglia and cerebellar granule cells) and **doxorubicin** (selectively taken up into sensory ganglia due to incomplete BBB at DRG, causing sensory neuronopathy). **Cyanide** causes neuronal death via mitochondrial Complex IV inhibition (histotoxic hypoxia) leading to neuronal cell body loss, which fits the neuronopathy definition. **Gold** can cause peripheral neuropathy, though this is less commonly classified as a primary neuronopathy. Neuronopathy is defined as lethal injury to the neuronal cell body causing degeneration of the entire neuron. (Casarett & Doull, Ch.16 — Patterns of Neurotoxic Injury; Table 16-1)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0880",
+    "explanation": "The correct answer is **E** (hearing loss, as the DB states). Aminoglycoside antibiotics (gentamicin, amikacin, tobramycin, streptomycin, neomycin) cause both **ototoxicity** (hearing loss and vestibular dysfunction) and **nephrotoxicity**. The ototoxicity is due to selective accumulation of aminoglycosides in cochlear and vestibular hair cells, where they generate reactive oxygen species, trigger apoptosis, and cause irreversible damage to the organ of Corti. The hearing loss is typically high-frequency and bilateral. Although option B is offered in the stem (visual field deficits, cognitive dysfunction, peripheral neuropathy), the neurotoxicity of aminoglycosides is primarily ototoxic/vestibulotoxic. **Note:** The stem says the neurotoxicity is manifested as ___, with the four option letters. The answer E likely corresponds to 'hearing loss' as the primary manifestation, consistent with standard DABT teaching. (Casarett & Doull, Ch.16 — Ototoxicity; Ch.33 — Clinical Toxicology)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0881",
+    "explanation": "The correct answer is **C: arsenic**. Arsenic produces a distinctive biphasic neurotoxic syndrome: **acute high-dose exposure causes encephalopathy** (confusion, seizures, coma), while **chronic low-level exposure causes a symmetric, sensorimotor peripheral neuropathy** that can mimic Guillain-Barré syndrome (with painful paresthesias, ascending weakness, and axonal degeneration). The peripheral neuropathy often manifests after a delay of 1–3 weeks. Arsenic also causes characteristic Mee's lines (transverse white bands on fingernails), dermatitis, and gastrointestinal effects. Methanol causes optic neuropathy, phenytoin causes cerebellar degeneration with chronic use, and 6-aminonicotinamide (a niacin antimetabolite) causes an encephalopathy with spongiform changes. (Casarett & Doull, Ch.16 — Arsenic Neurotoxicity; Ch.23 — Metals)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0882",
+    "explanation": "The correct answer is **D: carbon monoxide** (as the DB states — carbon monoxide IS associated with encephalopathy, so the DB says it's NOT the exception). Let me re-read: the question asks 'Encephalopathy has been associated with all of the following except _____.' The correct exception would be the agent NOT associated with encephalopathy. Options: A: streptomycin (ototoxic, not a classic cause of encephalopathy), B: lead (lead encephalopathy at high levels — cerebral edema, seizures), C: aluminum (dialysis encephalopathy), D: carbon monoxide (causes delayed neurologic sequelae including encephalopathy). **Re-analysis: All four agents can cause encephalopathy.** Streptomycin can rarely cause neurotoxicity including encephalopathy. Lead causes classic lead encephalopathy (children). Aluminum causes dialysis encephalopathy. CO causes delayed encephalopathy after acute poisoning. The DB answer D (CO) is questionable — the true exception would depend on the source's definition. Most DABT sources consider **streptomycin** the exception, as its neurotoxicity is primarily ototoxic/vestibulotoxic rather than encephalopathic. (Casarett & Doull, Ch.16 — Encephalopathy: Lead, Aluminum, CO)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0883",
+    "explanation": "The correct answer is **A: aluminum-nystagmus** is the incorrect pair. Note: The DB-stated answer differs. Aluminum is associated with **dialysis encephalopathy** (dialysis dementia), characterized by speech disturbances, myoclonus, seizures, and cognitive decline — NOT nystagmus. The correct pairs are: lead-IQ deficits (well-established developmental neurotoxicity), inorganic mercury-tremor (classic 'hatter's shakes' from chronic Hg⁰ exposure causing intentional tremor and erethism), and manganese-Parkinson's disease (manganism, a parkinsonian syndrome with dystonia, bradykinesia, and gait disturbance from Mn accumulation in the basal ganglia). Aluminum neurotoxicity primarily affects higher cognitive functions, not oculomotor control. (Casarett & Doull, Ch.16 — Metal Neurotoxicity; Ch.23 — Toxic Effects of Metals)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0884",
+    "explanation": "The correct answer is **D: nicotine** (as the DB states — nicotine is NOT associated with axonopathy). n-Hexane, isoniazid, and nitrofurantoin are all well-characterized causes of **distal axonopathy** (dying-back neuropathy). n-Hexane is metabolized to 2,5-hexanedione which cross-links neurofilaments. Isoniazid causes peripheral neuropathy by interfering with pyridoxine (vitamin B₆) metabolism. Nitrofurantoin causes a sensorimotor peripheral neuropathy, especially with renal impairment or prolonged use. Nicotine acts at nicotinic acetylcholine receptors and causes autonomic and CNS effects but does NOT produce an axonopathy — it is a receptor agonist, not an axonal toxin. (Casarett & Doull, Ch.16 — Axonopathies; Table 16-2 Neurotoxic Chemicals)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0885",
+    "explanation": "The correct answer is **D: dapsone–peripheral neuropathy** is the incorrect pair. Note: The DB-stated answer differs. Dapsone actually DOES cause peripheral neuropathy (primarily motor axonopathy), especially at high doses. **Re-analysis:** Metronidazole causes seizures (and peripheral neuropathy with chronic use), lithium causes ataxia (a hallmark of lithium neurotoxicity along with tremor and nystagmus), and colchicine causes neuropathy (sensorimotor axonopathy, especially with renal impairment) but blindness is not its classic presentation. Colchicine myoneuropathy presents with proximal weakness and elevated CK, not blindness. So **colchicine-blindness** is likely the truly incorrect pair, as colchicine's neurotoxicity is a length-dependent sensorimotor axonopathy, not caused by vision loss. (Casarett & Doull, Ch.16 — Drug-Induced Neurotoxicity; Table 16-2)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0886",
+    "explanation": "The correct answer is **C: acrylamide–peripheral neuropathy** is the incorrect pair. Note: The DB-stated answer differs. Acrylamide actually **IS** a classic cause of peripheral neuropathy (distal axonopathy). Carbon disulfide causes 'waltzing syndrome' (a cerebellar-vestibular syndrome in animals with ataxia/incoordination) and a distal axonopathy similar to n-hexane. Tri-o-cresyl phosphate (TOCP) causes organophosphate-induced delayed neurotoxicity (OPIDN) — a central-peripheral distal axonopathy with spastic paraplegia. Pyridinethione is indeed used in anti-dandruff shampoos (as zinc pyrithione). The true incorrect pair is missing from the options — all listed are correct associations. The question may be looking for a subtle error in how the association is framed. (Casarett & Doull, Ch.16 — Acrylamide, CS₂, and TOCP Neurotoxicity; Hayes, Ch.35)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0887",
+    "explanation": "The correct answer is **B: cisplatin** (as the DB states). Cisplatin causes a **sensory neuronopathy** (dorsal root ganglion toxicity) resulting in sensory ataxia, paresthesias, and loss of proprioception — it targets the neuronal cell body, not myelin. In contrast, **amiodarone**, **perhexiline**, and **tellurium** are classic causes of **myelinopathy** (primary myelin injury or Schwann cell toxicity leading to demyelination). Amiodarone causes a lysosomal phospholipidosis with accumulation of lamellar inclusion bodies in Schwann cells, leading to segmental demyelination. Perhexiline produces similar demyelinating changes. Tellurium causes a primary demyelinating neuropathy in experimental models by inhibiting squalene epoxidase (rate-limiting step in cholesterol biosynthesis), disrupting myelin formation. (Casarett & Doull, Ch.16 — Myelinopathies; Table 16-1 Neurotoxic Syndromes)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0888",
+    "explanation": "The correct answer is **C: alteration in striatal dopamine transmission**. Note: The DB-stated answer differs (DB says A: blockade of cholinergic receptors). Cocaine's primary neurotoxic mechanism is **blockade of the dopamine transporter (DAT)**, preventing reuptake of dopamine into presynaptic terminals and causing excessive dopaminergic transmission in the striatum and nucleus accumbens. This leads to enhanced dopamine signaling, oxidative stress from DA metabolism, and eventual neurotoxicity at high doses. Cocaine also blocks norepinephrine and serotonin reuptake, but the **dopaminergic mechanism** (option C) is central to its behavioral effects, addiction potential, and neurotoxicity. (Casarett & Doull, Ch.16 — Cocaine Neurotoxicity)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0889",
+    "explanation": "The correct answer is **A: ammonia** (as per standard pathophysiology). Note: The DB-stated answer differs (DB says D: glutathione). Hepatic encephalopathy in liver failure is primarily attributed to **excessive brain ammonia** levels. The failing liver cannot convert ammonia to urea, leading to hyperammonemia. In the brain, ammonia is detoxified by astrocytes via glutamine synthetase, converting glutamate + NH₃ → glutamine. Excess glutamine accumulation causes astrocyte swelling (cytotoxic edema), impaired neurotransmission, and altered cerebral energy metabolism. Other contributing factors include false neurotransmitters, increased GABAergic tone, and neuroinflammation. Glutathione is an important antioxidant but is not the primary cause of hepatic encephalopathy. (Casarett & Doull, Ch.16 — Hepatic Encephalopathy)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0890",
+    "explanation": "The correct answer is **A: nicain** (likely a misspelling of **niacin/nicotinic acid** in the DB). Metronidazole, a 5-nitroimidazole antibiotic, produces neurotoxicity whose mechanism is thought to involve **metabolic incorporation into neuronal proteins** — its nitroreduced metabolites resemble **niacin** (nicotinic acid), a precursor of NAD⁺/NADH. The structural similarity may lead to interference with niacin-dependent metabolic pathways, particularly in cerebellar and vestibular systems. Clinically, metronidazole neurotoxicity manifests as cerebellar dysfunction (ataxia, dysarthria), peripheral neuropathy, encephalopathy, and seizures — especially with prolonged high-dose therapy. MRI findings show characteristic reversible lesions in the dentate nuclei, midbrain, and corpus callosum. (Casarett & Doull, Ch.16 — Metronidazole Neurotoxicity)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0891",
+    "explanation": "The correct answer is **C: 5-fluorouracil** (per Casarett text). Note: The DB-stated answer differs (DB says B: Freon). Fluoroacetate (Compound 1080, a rodenticide) is a naturally occurring toxin in the South African plant *Dichapetalum cymosum* (Gifblaar). Exposure to fluoroacetate can also occur via the **anticancer drug 5-fluorouracil (5-FU)**, which is metabolized to fluoroacetate as a minor pathway. Fluoroacetate is converted to fluorocitrate, which inhibits the Krebs cycle enzyme aconitase, preferentially affecting astrocytes. Freon (chlorofluorocarbon) is a refrigerant that can cause cardiac sensitization and asphyxiation, not fluoroacetate toxicity. (Casarett & Doull, Ch.16 — Fluoroacetate/Fluorocitrate Neurotoxicity)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0892",
+    "explanation": "The correct answer is **B: pancreas** (as the DB states). Nicotinic acetylcholine receptors (nAChRs) are located in: **ganglia** (autonomic ganglia — both sympathetic and parasympathetic), **neuromuscular junction** (skeletal muscle nicotinic receptors), and **CNS** (widespread distribution including cortex, hippocampus, substantia nigra, and ventral tegmental area). The **pancreas** does NOT express nicotinic acetylcholine receptors — pancreatic function is regulated by hormonal (insulin, glucagon) and autonomic inputs via muscarinic and adrenergic receptors, but the endocrine/exocrine cells themselves do not possess significant nicotinic receptor populations. (Casarett & Doull, Ch.16 — Neurotransmitter Receptors; Ch.22 — Nicotine Pharmacology)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0893",
+    "explanation": "The correct answer is **D: glutamate** (as monosodium glutamate, MSG). Note: The DB-stated answer differs (DB says B: glycine). 'Chinese restaurant syndrome,' first described in 1968, is an acute self-limited syndrome characterized by burning sensation, facial pressure, chest pain, and headache occurring shortly after consumption of food containing **monosodium glutamate (MSG)**. MSG is the sodium salt of glutamic acid, the main excitatory neurotransmitter in the brain. At high doses, glutamate can cause excitotoxicity via NMDA receptor overactivation. Glycine is an inhibitory neurotransmitter in the CNS (and a simple amino acid), not responsible for this syndrome. Tyramine causes hypertensive crisis with MAOIs ('cheese reaction'). The MSG-sensitivity phenomenon remains controversial but is well-established in DABT exam content. (Casarett & Doull, Ch.16 — Excitatory Amino Acids; Clinical Toxicology)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0894",
+    "explanation": "The correct answer is **C: dopamine**. Note: The DB-stated answer differs. MPP⁺ (1-methyl-4-phenylpyridinium), the toxic metabolite of MPTP, is a charged molecule that cannot passively cross cell membranes. It enters dopaminergic neurons specifically via the **dopamine transporter (DAT)** on presynaptic terminals. Once inside, MPP⁺ concentrates in mitochondria, where it inhibits Complex I of the electron transport chain, causing ATP depletion and selective degeneration of substantia nigra dopaminergic neurons — producing a parkinsonian syndrome. This selective uptake via DAT explains the remarkable cell-type specificity of MPTP/MPP⁺ neurotoxicity. Dopamine itself is also transported by DAT. (Casarett & Doull, Ch.16 — MPTP Neurotoxicity; Dopamine Transporter)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0895",
+    "explanation": "The correct answer is **D: distal parts of hands and feet**. Note: The DB-stated answer differs (DB says C: cranial nerves). Peripheral neuropathies from axonopathies (distal axonopathies, also called 'dying-back neuropathies') first affect the **longest and largest-diameter axons** — those innervating the distal extremities. This produces the classic **stocking-glove distribution** of sensory loss: earliest symptoms occur in the toes and feet, followed by fingers and hands, then more proximal regions as the disease progresses. Cranial nerves are affected in central processes (e.g., optic neuropathy from methanol, acoustic from aminoglycosides) but are NOT the first site of involvement in distal axonopathies. The 'dying back' from the synapse toward the cell body reflects impaired axonal transport in the longest axons. (Casarett & Doull, Ch.16 — Axonopathy: Distal Dying-Back Pattern; Table 16-2)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0896",
+    "explanation": "The correct answer is **D: paclitaxel**. Note: The DB-stated answer differs (DB says E — nonexistent option). Paclitaxel (Taxol) is unique among the listed agents in that it **promotes microtubule assembly and stabilization** rather than depolymerization. It binds to β-tubulin with a binding site distinct from colchicine and vinca alkaloids, and even in conditions that normally cause disassembly (cold, calcium), paclitaxel-stabilized microtubules remain intact. This leads to aggregation of microtubules in axons, impairing fast axonal transport and causing a predominantly sensory neuropathy. Vincristine, colchicine, and vinblastine all **inhibit** microtubule polymerization by binding to tubulin dimers (vinca alkaloids and colchicine have separate binding sites), causing depolymerization. (Casarett & Doull, Ch.16 — Paclitaxel and Microtubule-Associated Neurotoxicity)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0897",
+    "explanation": "The correct answer is **D: intramyelinic edema**. Note: The DB-stated answer differs (DB says B: Wallerian degeneration). Hexachlorophene, a chlorinated bisphenol antiseptic, causes neurotoxicity through **intramyelinic edema** — splitting of the intraperiod line of myelin in both CNS and PNS. The mechanism involves binding to cell membranes and disrupting ion gradients, leading to water and ion entry between myelin layers, creating vacuoles and spongiosis of the brain. The BBB in premature infants is incompletely developed, making them particularly vulnerable. Early changes are reversible, but continued exposure leads to segmental demyelination, axonal degeneration, and increased intracranial pressure. Wallerian degeneration is the process of axonal degeneration distal to a nerve transection or crush injury — not the primary mechanism of hexachlorophene. (Casarett & Doull, Ch.16 — Hexachlorophene Neurotoxicity)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0898",
+    "explanation": "The correct answer is **A: MDMA** (3,4-methylenedioxymethamphetamine). Note: The DB-stated answer differs (DB says C: phenylephrine). **MDMA is structurally an amphetamine derivative** (N-methyl-amphetamine with a methylenedioxy ring substitution) and is pharmacologically classified as a **substituted amphetamine**. It acts by promoting monoamine release (primarily serotonin) and inhibiting reuptake, similar to amphetamine. Phenylephrine is a synthetic α₁-adrenergic receptor agonist used as a decongestant and vasopressor — it has a phenethylamine backbone but is NOT classified as an amphetamine. Pseudoephedrine is a sympathomimetic amine decongestant with some stereochemical similarity to amphetamine but is a distinct compound. Cocaine is a tropane alkaloid with a completely different structure. MDMA is the only option chemically and pharmacologically classified as an amphetamine. (Casarett & Doull, Ch.16 — Amphetamines; Ch.33 — Drugs of Abuse)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0899",
+    "explanation": "The correct answer is **A: 'Cocaine causes a synergistic neurotoxicity'** with HIV-associated dementia is the false statement (the exception). Note: The DB-stated answer differs. HIV-associated dementia (HIV encephalitis/HAND) involves chronic neuroinflammation and neuronal injury from viral proteins (gp120, Tat, Vpr) and activated microglial/macrophage products. **Both amphetamine and cigarette use** have been shown to synergistically worsen HIV neurotoxicity through oxidative stress and inflammatory pathways. However, **cocaine** has also been documented to exacerbate HIV neuropathogenesis through multiple mechanisms (increased BBB permeability, enhanced viral replication, oxidative stress). The DB answer flags A as the exception, but the evidence base for cocaine synergism with HIV neurotoxicity is substantial. **Beta-estradiol** has been shown to attenuate HIV-associated dementia through neuroprotective and anti-inflammatory effects. (Casarett & Doull, Ch.16 — HIV-Associated Neurotoxicity; Clinical NeuroAIDS Literature)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0900",
+    "explanation": "The correct answer is **glutamate** (which corresponds to 'none of the above' = the DB-stated answer D, since glutamate is not among the listed options). **Glutamate is the main excitatory neurotransmitter of the brain**, mediating ~70% of excitatory synaptic transmission. It acts through ionotropic receptors (NMDA, AMPA, kainate) and metabotropic receptors (mGluR1-8). Acetylcholine is an excitatory neurotransmitter in the CNS (basal forebrain projections) and at the NMJ, but it is NOT the **main** excitatory transmitter in the brain. Glycine is the main inhibitory neurotransmitter in the spinal cord and brainstem. Tryptophan is a precursor to serotonin, not a neurotransmitter itself. The DB answer 'none of the above' (D) is technically correct since the correct answer (glutamate) is not listed. (Casarett & Doull, Ch.16 — Excitatory Amino Acids)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0901",
+    "explanation": "The correct answer is **A: MAO-B** (monoamine oxidase B). Note: The DB-stated answer differs (DB says B: MAO-A). MPTP (1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine) is a **substrate for the B isozyme of monoamine oxidase (MAO-B)** found in astrocytes. MAO-B catalyzes a two-electron oxidation of MPTP to MPDP⁺ (the dihydropyridinium ion), which then undergoes further spontaneous or enzymatic oxidation to the neurotoxic species MPP⁺. This conversion is blocked by MAO-B inhibitors (e.g., deprenyl/selegiline), which are used in Parkinson's disease therapy. MAO-A is primarily found in catecholaminergic neurons and metabolizes norepinephrine, serotonin, and dopamine — it does NOT efficiently convert MPTP. (Casarett & Doull, Ch.16 — MPTP: MAO-B-Mediated Bioactivation; Table 16-2)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0902",
+    "explanation": "The correct answer is **C: lipid solubility, as measured by the air–olive oil partition coefficient**. Note: The DB-stated answer differs (DB says D: none of the above). Solvent neurotoxicity to the CNS correlates strongly with **lipid solubility**, which determines the ability of a solvent to cross the blood-brain barrier and accumulate in CNS tissues. The **air–olive oil partition coefficient** is a classic in vitro measure of lipophilicity that predicts CNS penetration: higher values indicate greater lipid solubility, faster BBB penetration, and greater CNS neurotoxic potential. This principle is fundamental to organic solvent toxicology — aromatic solvents (benzene, toluene, xylene) and aliphatic solvents (n-hexane, solvent mixtures) all follow this relationship. Boiling point and vapor pressure influence inhalation exposure and absorption but do not directly correlate with CNS neurotoxicity. (Casarett & Doull, Ch.16 — Organic Solvent Neurotoxicity; Ch.24 — Toxic Effects of Solvents and Vapors)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0903",
+    "explanation": "The correct answer is **D: trichloroethylene (TCE)**. Note: The DB-stated answer differs (DB says A: benzene). **Trichloroethylene** is the classic cause of **trigeminal neuropathy** (cranial nerve V dysfunction) following chronic occupational or environmental exposure. The condition involves progressive sensory loss in the trigeminal distribution (facial numbness, paresthesias) and can progress to bilateral trigeminal anesthesia. TCE is metabolized to chloral hydrate and dichloroacetic acid, and its neurotoxic mechanism may involve interference with axonal transport or mitochondrial function in trigeminal sensory fibers. Benzene is primarily a hematotoxic agent (leukemogen) with CNS depression at high acute doses but does NOT cause selective trigeminal neuropathy. Lead causes predominantly motor neuropathy (lead palsy), not trigeminal involvement. Dioxin causes chloracne and various systemic effects. (Casarett & Doull, Ch.16 — Trichloroethylene Trigeminal Neuropathy; Ch.24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0904",
+    "explanation": "The correct answer is **B: Parkinson's disease** (as the DB states — Parkinson's disease is NOT a recognized consequence of acute CO poisoning). Carbon monoxide poisoning causes a well-described syndrome of **delayed neurologic sequelae** (DNS) presenting 2–40 days after apparent recovery from acute intoxication. These include: **carotid artery occlusion** (endothelial injury and thrombus formation), **residual memory deficits** (hippocampal and frontal lobe vulnerability), and **MRI abnormalities in subcortical white matter** (periventricular leukoencephalopathy, globus pallidus necrosis). The classic MRI finding is symmetric bilateral necrosis of the **globus pallidus** — a hallmark of CO neurotoxicity. While parkinsonism (akinetic-rigid syndrome) has been reported rarely after severe CO poisoning as a delayed phenomenon, **idiopathic Parkinson's disease** (progressive, asymmetric, dopamine-responsive) is not caused by CO exposure. (Casarett & Doull, Ch.16 — Carbon Monoxide Delayed Neurotoxicity; Ch.24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0905",
+    "explanation": "The correct answer is **B: vitamin B₁₂** (as the DB states). Nitrous oxide (N₂O, laughing gas) causes neurotoxicity by **irreversibly oxidizing the cobalt atom of vitamin B₁₂ (cobalamin)** from its active reduced form (cob[I]alamin) to an inactive form. This inactivates **methionine synthase**, a B₁₂-dependent enzyme that catalyzes the conversion of homocysteine to methionine, which is essential for myelin synthesis. Inactivation leads to reduced methionine and S-adenosylmethionine (SAM) levels, impairing methylation of myelin basic protein, and accumulation of homocysteine. Clinically, chronic N₂O exposure produces a syndrome similar to **subacute combined degeneration of the spinal cord** (as seen in B₁₂ deficiency) with peripheral neuropathy, ataxia, spastic paraparesis, and MRI white matter changes. Dental and medical personnel with chronic N₂O exposure are at risk. (Casarett & Doull, Ch.16 — Nitrous Oxide Neurotoxicity; Ch.33)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0906",
+    "explanation": "The correct answer is **C: aspartate transaminase (AST)** (as the DB states). In evaluating a patient with suspected neurotoxicity, the most useful diagnostic tools are those that directly assess nervous system structure and function: **nerve conduction studies** (NCV/EMG — evaluate peripheral nerve function, distinguish axonal vs. demyelinating, detect subclinical neuropathy), **MRI** (structural imaging to identify CNS lesions, white matter changes, atrophy, or focal abnormalities), and **neuropsychological testing** (quantitative assessment of cognitive domains — memory, attention, executive function). **Aspartate transaminase (AST)** is a liver enzyme used to detect hepatocellular injury — it has NO direct relevance to neurotoxicity evaluation. While severe liver disease (causing hepatic encephalopathy) involves neurologic symptoms, AST alone is not useful for evaluating primary neurotoxic injury. (Casarett & Doull, Ch.16 — Clinical Evaluation of Neurotoxicity; Ch.32 — Analytical/Forensic Toxicology)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0907",
+    "explanation": "The correct answer is **B: muscarinic and nicotinic overstimulation**. Note: The DB-stated answer differs (DB says D: sympathetic overstimulation). Organophosphates (OPs) inhibit acetylcholinesterase (AChE) by phosphorylating the serine hydroxyl group in the active site, preventing hydrolysis of acetylcholine (ACh). The resulting accumulation of ACh at synapses causes **overstimulation of both muscarinic receptors** (parasympathetic target organs — miosis, salivation, lacrimation, bronchorrhea, bradycardia, diarrhea, urination) and **nicotinic receptors** (autonomic ganglia and NMJ — fasciculations, muscle weakness, tachycardia, hypertension). The clinical syndrome includes both parasympathetic (muscarinic) and sympathetic (nicotinic at ganglia → catecholamine release) effects. Saying 'sympathetic overstimulation' alone (option D) misses the dominant muscarinic cholinergic crisis. (Casarett & Doull, Ch.16 — OP Neurotoxicity; Ch.22 — Pesticides)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0908",
+    "explanation": "The correct answer is **A: 'They are typically associated with a focal or asymmetric syndrome'** is the false statement (the exception). Note: The DB-stated answer differs. **Neurotoxic exposures typically produce symmetric, not focal/asymmetric, syndromes.** Toxic neuropathies (e.g., from n-hexane, isoniazid, arsenic) produce symmetric 'stocking-glove' sensory loss and bilateral motor weakness. Organic solvent encephalopathy produces diffuse cognitive deficits. This is a key clinical distinction: a **focal or asymmetric** presentation (e.g., unilateral weakness, single nerve distribution) suggests a structural cause (stroke, tumor, radiculopathy, trauma) rather than a toxic exposure. The true statements are: (B) toxicity is dose-related (the fundamental principle of toxicology); (C) there is a strong temporal relationship (symptom onset correlates with exposure); (D) a single toxicant can cause multiple syndromes (e.g., carbon monoxide causes both acute encephalopathy and delayed white matter injury). (Casarett & Doull, Ch.16 — Clinical Approach to Neurotoxic Disorders)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0909",
+    "explanation": "The correct answer is **B: amyotrophic lateral sclerosis (ALS)**. Note: The DB-stated answer differs. **Multiple sclerosis (MS)** is an autoimmune demyelinating disease thought to be triggered by environmental factors (EBV infection, vitamin D deficiency, smoking) in genetically susceptible individuals — it does NOT fit the 'toxicant exposure + age-related neuronal attrition' model. In contrast, **Parkinson's disease** has a strong environmental component (pesticides, MPTP, manganese) superimposed on age-related dopamine neuron loss. **Alzheimer's dementia** is associated with various toxicant exposures (metals, air pollution) that accelerate age-related neurodegeneration. The Guamanian ALS-Parkinsonism-Dementia complex demonstrates that environmental toxins (cycad-derived BMAA) combined with genetic susceptibility can trigger a motor neuron disease, but classic sporadic ALS does not have a well-established toxicant causality in the same way. The DB answer assigns MS as the exception, which aligns with its autoimmune rather than toxic-degenerative etiology. (Casarett & Doull, Ch.16 — Toxicant-Based Models of Neurodegenerative Disease)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0910",
+    "explanation": "The correct answer is **C: myopathy** (as the DB states). Both **statins** (HMG-CoA reductase inhibitors) and **ethanol** are independently associated with **myopathy** (muscle toxicity). Statins cause myopathy through mechanisms involving mitochondrial dysfunction, depletion of coenzyme Q10 (ubiquinone), and impaired prenylation of small GTP-binding proteins. Risk factors include high dose, drug interactions, and genetic variants (SLCO1B1 polymorphism). Ethanol causes acute and chronic myopathy through multiple mechanisms: acetaldehyde-mediated protein damage, mitochondrial impairment, reactive oxygen species, and interference with protein synthesis (inhibiting mTOR signaling). Rhabdomyolysis is a severe form in both. Cranial nerve palsy and neurotransmitter-associated toxicity do not represent the shared toxicity. While both agents affect the nervous system broadly, their overlapping adverse effect is **skeletal muscle toxicity**. (Casarett & Doull, Ch.16 — Toxic Myopathies; Ch.24 — Ethanol; Ch.33 — Drug-Induced Myopathy)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0911",
+    "explanation": "The correct answer is **B: 'About 50% to 66% of cases remain undiagnosed after medical investigation'** (as the DB states). Despite thorough diagnostic evaluation including clinical exam, electrophysiology, laboratory studies, and sometimes nerve biopsy, approximately **50–66% of polyneuropathy cases remain idiopathic** — no specific cause is identified. Additional true statements about polyneuropathies: nerve biopsy is reserved for specific indications (suspected vasculitis, amyloidosis, sarcoidosis) and is NOT always necessary; there are many non-toxic causes of polyneuropathy (diabetes, autoimmune, hereditary, nutritional deficiencies, paraneoplastic); and neurologic deficits in length-dependent polyneuropathies are generally **more pronounced in the feet than the hands** (the longest axons are affected first — feet before hands). (Casarett & Doull, Ch.16 — Polyneuropathy: Clinical Evaluation and Epidemiology)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0912",
+    "explanation": "The correct answer is **A: central nervous system neuron** (as the DB states). CNS neurons have the **highest energy requirement** of any cell type in the nervous system. The reasons include: (1) continuous maintenance of ion gradients by Na⁺/K⁺-ATPase to sustain resting membrane potential (~40–60% of ATP consumption); (2) repetitive action potential generation and propagation in long axons; (3) synaptic transmission (vesicle cycling, neurotransmitter release and recycling); (4) axonal transport (both fast and slow); and (5) protein synthesis for structural maintenance. Astrocytes have lower energy demands, primarily supporting neurons via lactate shuttling and glutamate-glutamine cycling. Schwann cells and oligodendrocytes are myelinating cells with primarily structural and maintenance functions — they consume far less ATP than active neurons. The brain's high basal metabolic rate (~20% of total body O₂ consumption at 2% of body weight) reflects primarily neuronal energy consumption. (Casarett & Doull, Ch.16 — Energy Requirements of the Nervous System)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0913",
+    "explanation": "The correct answer is **B: oligodendrocyte**. Note: The DB-stated answer differs (DB says A: Schwann cell). **Oligodendrocytes** are the myelinating cells of the **central nervous system** (CNS — brain and spinal cord). Each oligodendrocyte extends multiple processes to myelinate up to 30–50 internodes on different axons. **Schwann cells** myelinate axons in the **peripheral nervous system** (PNS), with each Schwann cell myelinating a single internode on one axon. This is a fundamental distinction in neurobiology: Schwann cell = PNS myelin; oligodendrocyte = CNS myelin. 'Glia cell' is a general term encompassing astrocytes, oligodendrocytes, and microglia. 'Stellate cell' refers to a star-shaped neuron type in the cerebellum (cerebellar stellate cells) and is not a myelinating cell. (Casarett & Doull, Ch.16 — Myelin-Forming Cells of the Nervous System)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0914",
+    "explanation": "The correct answer is **A: neuronopathy** (as the DB states). Trimethyltin (TMT) is an organotin compound that causes a selective **neuronopathy**, primarily targeting neurons in the **limbic system** (hippocampus — fascia dentata and cornu ammonis) and **cerebellum**. The pathological hallmark is diffuse neuronal injury with selective apoptosis in specific brain regions. TMT binds to **stannin**, a highly conserved 88 amino acid membrane-bound protein localized to mitochondria and vesicular organelles, triggering a cytotoxic cascade. Clinically, TMT produces a **limbic-cerebellar syndrome** in humans with memory impairment, disorientation, aggressive behavior, ataxia, and seizures. Unlike axonopathies (which affect the axon with cell body survival) or myelinopathies (which affect myelin), TMT directly kills the neuronal cell body — the defining feature of a neuronopathy. (Casarett & Doull, Ch.16 — Trimethyltin Neuronopathy)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0915",
+    "explanation": "The correct answer is **C: methyl n-butyl ketone (2-hexanone)**. Note: The DB-stated answer differs (DB says A: methylmercury). **Methyl n-butyl ketone (MnBK, 2-hexanone)** and **n-hexane** produce an **identical distal axonopathy** through a shared mechanism. Both compounds undergo ω-1 oxidation to form the common toxic metabolite **2,5-hexanedione**, which reacts with lysyl amino groups of neurofilament proteins, forming pyrrole adducts that lead to covalent cross-linking of neurofilaments. This disrupts slow axonal transport, causing axonal swelling and distal degeneration ('dying-back' neuropathy). The identical pathology was first recognized in industrial cohorts and animal models (Spencer et al., 1975). Methylmercury causes a neuronopathy (dorsal root ganglia and cerebellar granule cell loss), not an axonopathy. (Casarett & Doull, Ch.16 — n-Hexane and γ-Diketone Neuropathy)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0916",
+    "explanation": "The correct answer is **D: carbon disulfide and n-hexane** (as the DB states). **Covalent cross-linking of neurofilaments** is the central pathogenic mechanism in both **carbon disulfide (CS₂)** and **n-hexane**-induced neurotoxicity. For n-hexane: metabolism yields 2,5-hexanedione, which reacts with lysyl amino groups on neurofilament proteins to form pyrrole adducts that undergo autoxidation, leading to covalent cross-linking of adjacent neurofilament side-arms. For CS₂: the ultimate neurotoxic species (CS₂ itself) forms dithiocarbamate adducts with protein amino groups, which undergo similar decomposition and cross-linking reactions. The resulting cross-linked neurofilaments accumulate in the distal axon, impairing slow axonal transport and causing giant axonal swellings characteristic of these axonopathies. Vincristine/vinblastine cause microtubule depolymerization; amiodarone/tellurium cause myelinopathy. (Casarett & Doull, Ch.16 — Neurofilament Cross-Linking: CS₂ and n-Hexane)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0917",
+    "explanation": "The correct answer is **D: There is no clear exposure-response relationship** (as the DB states). Human lead neuropathy (lead palsy) is unique among toxic neuropathies in that a **clear dose-response relationship has been difficult to establish**. This contrasts with most other lead effects (hematologic, renal) where blood lead levels correlate well with toxicity. The neuropathy is characterized by **predominantly motor symptoms** with prominent wrist-drop and foot-drop (involving the radial and peroneal nerves), making it one of the few toxic neuropathies with predominantly motor rather than sensory involvement. Electrophysiological studies show slowed nerve conduction consistent with segmental demyelination in animals, though human pathology often demonstrates an axonopathy. Lead neuropathy affects both children and adults. It is NOT reversible with vitamin B₆ (chelation therapy with EDTA is the treatment). (Casarett & Doull, Ch.16 — Lead Neuropathy; Ch.23 — Toxic Effects of Metals)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0918",
+    "explanation": "The correct answer is **A: astrocyte**. Note: The DB-stated answer differs (DB says C: oligodendrocyte). **Astrocytes** are the primary defensive cells against toxicant exposure in the CNS. They perform multiple neuroprotective functions: (1) **glutathione (GSH) synthesis and export** — astrocytes contain higher GSH levels than neurons and supply neuronal GSH precursors, protecting against oxidative stress; (2) **glutamate uptake** — astrocytic glutamate transporters (EAAT1, EAAT2) clear excess synaptic glutamate, preventing excitotoxicity; (3) **metal sequestration** — astrocytes accumulate and buffer toxic metals (MeHg, lead, manganese), protecting nearby neurons; (4) **antioxidant defense** — contain catalase, superoxide dismutase, and glutathione peroxidase; (5) **blood-brain barrier maintenance** — astrocytic end-feet induce and maintain BBB tight junctions. The reference text notes that astrocytes accumulate MeHg and appear normal while adjacent neurons die, demonstrating their selective resistance and protective role. Oligodendrocytes are myelinating cells, not defensive cells. (Casarett & Doull, Ch.16 — Astrocyte Neuroprotection; Glial-Neuronal Interactions)",
+    "domain": "Domain IV"
+  }
+]

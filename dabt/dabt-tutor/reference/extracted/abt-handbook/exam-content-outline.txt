@@ -1,0 +1,386 @@
+# Pages: 24-32
+# Source: ABT Candidate Handbook 2026 — Domain/Sub-domain/Task/Knowledge Outline
+
+ 
+ 
+ 
+ 
+ 
+3 
+American Board of Toxicology, Inc.. 
+Page | 23 
+ 
+Note that availability at any particular site cannot be guaranteed; candidates are urged to 
+schedule their location as soon as the Authorization to Test email is received from Pearson 
+VUE. 
+11. I paid the exam fee, but I can’t sit the exam this year. Can I have a refund, or        
+transfer the fee to next year’s exam? 
+The exam fee is non-refundable and non-transferable to future years.  
+12. Can I have a refund?  
+If a candidate requests withdrawal of their application in writing (email is sufficient) by 
+June 3, a refund of $200 will be issued. After that date, no refunds are given. 
+13. When will I be notified that I passed the examination? 
+Notifications are typically sent out before the end of November. Results will be posted on a 
+candidate's online account, as well as sent out via postal mail. Results will not be released 
+via email or telephone. 
+14. How do I find out my scores? 
+It is Board policy not to release scores under any circumstances. 
+ 
+ 
+ 
+ 
+ 
+3 
+American Board of Toxicology, Inc.. 
+Page | 24 
+OVERVIEW OF ABT EXAMINATION CONTENT OUTLINE 
+For each Task in the four Domains, the exam questions are designed to test the knowledge 
+needed to perform the tasks. Below, the Knowledge Statements are listed beneath each Task. 
+Candidates should be aware that overlap exists among all Domains, Tasks and Knowledge 
+statements.  
+Domain I. Conduct of Toxicological Studies 
+A. Design 
+ 
+1. Design scientifically valid studies to answer questions or address defined hypotheses. 
+A. Elements of a scientific hypothesis 
+B. Elements of a scientifically valid hypothesis-driven research or regulatory guideline study, 
+including selection of statistical analyses 
+C. Experimental (e.g., test article or agent) and control (e.g., positive and negative control 
+agents, untreated controls) groups used to evaluate scientific hypotheses and/or for 
+regulatory decision-making 
+D. Considerations for identifying toxic responses including dose/concentration, duration of 
+treatment, life-stage, endpoints, route of administration, alternative in vitro and 
+ecotoxicological studies  
+E. Principles of the 3Rs (Reduce/Refine/Replace) for animal use  
+F. Selection of appropriate species for study 
+Domain/Sub-domain  
+% of Exam 
+I.  Conduct of Toxicological Studies (Total, A through C) 
+36 
+A.  Design 
+11 
+B.  Execute  
+9 
+C.  Interpret 
+16 
+II.   Mechanistic Toxicology 
+13 
+III.  Risk Assessment (Total, A through D)  
+38 
+A.  Hazard Identification 
+12 
+B.  Exposure Assessment 
+8 
+C.  Dose Response Assessment 
+9 
+D.  Risk Characterization and Management 
+9 
+IV.  Applied Toxicology  
+13 
+TOTAL  
+100 
+ 
+ 
+ 
+ 
+ 
+3 
+American Board of Toxicology, Inc.. 
+Page | 25 
+2. Comply with applicable regulations and guidelines specific to the agent when designing a 
+study. 
+Standard US and global non-clinical testing guidelines for pharmaceuticals and chemicals (e.g., 
+GLP, OECD, USEPA, ICH, USFDA, EMA) 
+3. Identify the characteristics of the test agent necessary for the study (e.g., chemical 
+identity and physical properties). 
+A. Analytical methods commonly used in toxicology for test agent characterization (e.g., HPLC, 
+MS, ELISA) 
+B. Characterization of formulated test agent for administration (e.g., stability, homogeneity) 
+C. Solubility, stability, formulation, vehicles, and excipients 
+D. Content and qualification of impurities in new drug substances per regulatory guidance 
+(e.g., ICH Q3A[R2]) including organic (process or drug-related) impurities, inorganic 
+impurities, and residual solvents 
+4. Identify and apply new testing methods and techniques that are fit for purpose. 
+A. Accepted standards of validation applied to testing methods 
+B. Validated alternative testing methods in toxicology  
+C. Study design for new assays (e.g., dermal sensitization, irritation, cell-based assays, “omics” 
+technologies)  
+D. Limitations and advantages of assays, including specificity and sensitivity 
+ 
+B. Execute 
+1. Ensure compliance with regulatory guidances, Good Laboratory Practice (GLPs), and 
+standard operating procedures (SOPs) when performing studies. 
+Standard US and global non-clinical testing guidelines for pharmaceuticals and chemicals (e.g., 
+GLP, OECD, USEPA, ICH, USFDA, EMA) 
+2. Characterize toxicological effects in vivo.  
+A. Typical in vivo models used in toxicology  
+B. Relevant endpoints measured in standard animal toxicological studies 
+3. Characterize toxicological effects in vitro. 
+A. Typical in vitro models used in toxicology 
+B. Relevant endpoints measured in standard in vitro toxicological studies 
+4. Characterize toxicological effects in silico, incorporating computational models and 
+methods. 
+A. Standard in silico methods and their application in toxicology (e.g., quantitative structure 
+activity relationships[QSARs], read-across, PBPK modeling) 
+ 
+ 
+ 
+ 
+ 
+3 
+American Board of Toxicology, Inc.. 
+Page | 26 
+B. Artificial intelligence, deep and machine learning used in toxicology 
+5. Characterize toxicological effects in a field or clinical setting. 
+Endpoints obtained from standard controlled field (ecotoxicological) studies, human clinical 
+trials, and studies with human subjects, and epidemiological studies 
+ 
+C. Interpret 
+1. Analyze test results using tools such as informatics, statistics, and modeling. 
+A. Standard data analysis methods, approaches, and techniques used in toxicology, including 
+the role of bioinformatics, statistics, and computer modeling 
+B. Distinctions between toxicological and biological significance 
+2. Identify systemic and local effects, target organs, dose response, thresholds of effect, and 
+reversibility.  
+Criteria, methodologies, and guidelines for analyzing, interpreting, and identifying target organs 
+and adverse effects 
+3. Prepare research reports or summaries that are fit for purpose. 
+A. Elements of a toxicology study report, including all supporting subparts  
+B. Written communication styles, protocols, and approaches used to tailor reports to specific 
+target audiences (e.g., other scientists, managers, sponsor, regulatory bodies, the general 
+public) 
+C. Narrative, tabular, and graphical presentation of findings and interpretations 
+4. Interpret and integrate study results with other available data (e.g., literature, existing 
+data) into a scientifically cogent narrative to develop conclusions and/or inform next 
+steps. 
+A. Basic principles of and approaches to systematic literature review (e.g., risk of bias, search 
+strategies) 
+B. Principles, strategies, heuristics, methods and approaches for interpreting the results or 
+relevance for human or animal safety 
+Domain II. Mechanistic Toxicology 
+1. Develop hypotheses to investigate and/or identify mechanisms and understand 
+toxicological outcomes.  
+A. Steps involved in developing a mechanistic hypothesis  
+B. Methods to test mechanistic hypotheses using in vitro and  in vivo studies 
+C. Established molecular/signaling pathways associated with chemical-specific toxicities in 
+animal tissues/in vitro systems  
+ 
+ 
+ 
+ 
+ 
+3 
+American Board of Toxicology, Inc.. 
+Page | 27 
+D. Physiology and organ function as related to toxicology  
+E. Role of genetic variant phenotypes e.g., (KOs, SNPs) in mechanisms of toxicity  
+F. Application of “omics” technologies appropriate to test hypotheses under investigation 
+2. Assess role of species differences in mechanism of toxicity. 
+A. Standard parameters used to predict or describe differences in localized and systemic 
+toxicity (e.g., ADME, PK/TK, PK/PD,  parent versus metabolite)   
+B. Role of species-specific toxicokinetics and toxicodynamics in mechanism of toxicity  
+C. Effects of species differences in anatomy and physiology on uptake and absorption (e.g., 
+respiratory tract, dermal, oral) 
+3. Identify susceptibility factors that may impact toxicological outcomes. 
+Attributes (e.g., genetic polymorphisms, life-stage, gender, background disease-states) affecting 
+individual susceptibility to test agents, toxins, or toxicants 
+4. Assess mode of action (MOA)/adverse outcome pathway (AOP) for relevance to humans 
+or other target species, including sensitive subpopulations and individuals.  
+A. Adverse outcome pathway concept 
+B. Fundamental molecular toxicological mechanisms and their relationship to adverse 
+responses  
+C. Molecular level (e.g., receptor/protein level) toxicant interactions 
+5. Distinguish direct and indirect action, primary/secondary, and on-target versus off-target 
+effect. 
+A. Toxicity resulting directly from a targeted interaction/direct insult (e.g., at a 
+cellular/receptor/pathway level)  
+B. Toxicity resulting from a secondary/indirect effect (e.g., delayed ossification due to maternal 
+toxicity, reduced fetal body weight, food consumption, stress, off-target interaction) 
+C. How exposure to toxicants leads to downstream effects in individuals and populations 
+6. Translate toxicological results across biological levels (sub-cellular, cellular, tissue, 
+individual, species, populations) using principles of systems toxicology. 
+A. Methods to translate experimental findings across levels of biological organization  
+B. Methods to apply findings/results from simple and/or lower-level experimental systems to 
+more complex, higher-level systems 
+C. Anatomical, physiological, biochemical, pharmacological, and toxicological differences 
+across species, and magnitude of specific effects 
+D. Utility and limitations of analytical/computational tools to study mechanisms of toxicity and 
+interpret disruption of biological networks 
+E. Relationship of “omics” data to organism-level effects 
+ 
+ 
+ 
+ 
+ 
+3 
+American Board of Toxicology, Inc.. 
+Page | 28 
+ 
+7. Apply results from mechanistic studies to toxicological outcomes, prevention, and 
+clarification of risk (human, environmental, animal). 
+A. The relationships between mechanism or MOA of chemical(s), human/environmental 
+exposure, and the regulation of certain products (e.g., endocrine disruptors, microbeads, 
+tobacco/nicotine, persistent bioaccumulative toxins (PBTs), nanoparticles) 
+B. Mechanistic or MOA data for a chemical from in vitro/in vivo animal studies that inform 
+AOPs 
+C. Toxic effects of a chemical mixture, including concepts of synergism, potentiation, additive, 
+and antagonistic  
+D. Cellular, biochemical, and molecular mechanisms of chemical toxicity used for the 
+interpretation and evaluation of risk to humans, animals, and the environment 
+8. Apply disease and genetically-engineered models to mechanistic investigations. 
+A. Application of mechanistic data to the development of alternative animal disease models  
+B. Difference between animal disease models and human conditions, including strengths and 
+limitations of disease models 
+ 
+Domain III. Risk Assessment     
+ 
+A. Hazard Identification 
+ 
+1. Characterize, describe, and interpret effects, target organs, and test system endpoints of 
+toxicological concern. 
+A. Major effects and endpoints measured in acute lethality/toxicity, repeat dose toxicity, 
+reproductive toxicity, developmental toxicity, genotoxicity, carcinogenicity, sensitization, 
+local effects/tolerance, immunotoxicity, and phototoxicity  
+B. Ecotoxicological studies  
+C. Toxicity by different routes of exposure 
+D. Relevant toxic agents such as pesticides, metals, solvents and vapors, radiation, 
+nanomaterials, air pollution, and naturally occurring toxins (e.g., plant- and animal-based, 
+mycotoxins) 
+E. Toxic responses of organ systems (e.g., blood, bone, immune system, gastrointestinal tract, 
+liver, kidney, respiratory tract, nervous system, eye, heart, skin, reproductive organs, 
+endocrine system) 
+F. Adverse versus non-adverse or adaptive effects  
+G. Concepts of false negative and false positive results 
+H. Chemical-specific biomarkers of effect 
+ 
+ 
+ 
+ 
+ 
+3 
+American Board of Toxicology, Inc.. 
+Page | 29 
+ 
+2. Apply appropriate in silico, in vitro, in vivo systems, models, and study types for safety 
+evaluation. 
+A. Application of data from various methods (e.g., structure-activity, in vitro or short-term 
+studies, animal bioassays, human epidemiologic studies) for hazard identification 
+B. Relevant target organism(s) for selection of appropriate test species used in safety 
+evaluation 
+3. Identify toxicological approaches using exposure routes that are appropriate surrogates 
+or alternatives to the primary exposure route of concern. 
+A. Basic principles of SAR, QSAR, and other in silico approaches and how those outputs can be 
+used in a risk assessment context 
+B. Types of oral toxicity studies applied to hazard identification (e.g., gavage versus dietary or 
+drinking water)  
+C. Types of inhalation toxicity studies as they apply to hazard identification (e.g., aerosol versus 
+vapor versus intratracheal instillation) 
+D. Metabolic differences between various routes of administration (e.g., sublingual versus oral)  
+E. Anatomical differences across species for various routes of exposure (e.g., inhalation, oral 
+and dermal exposures) 
+4. Assess impact of anticipated versus unanticipated effects on organism, species, 
+population, and environmental functions. 
+Target and off-target effects at organism, species, population, and environmental levels 
+ 
+B. Exposure Assessment  
+1. Select appropriate exposure endpoints to document exposure to toxicants in test systems 
+and populations. 
+A. Measures and units of exposure (e.g., dose, airborne concentration, plasma level) reported 
+in toxicological investigations and assessments 
+B. Relevance of biomarkers of exposure in individuals, populations, and the environment 
+C. Disproportional, unique, reactive metabolites, and toxicophores arising in specific species 
+2. Assess internal exposure in tissues, organs, systems, or whole organism resulting from 
+an administered or exposure dose. 
+A. Routes of exposure and toxic agent effects on cells, tissues, organisms, and the environment  
+B. Absorption (A), distribution (D), metabolism (M), excretion (E), kinetics (PK or TK), and 
+storage following toxicant exposure 
+C. Considerations for measuring the appropriate constituent (e.g., parent versus metabolite, 
+unbound/free or total) 
+ 
+ 
+ 
+ 
+ 
+3 
+American Board of Toxicology, Inc.. 
+Page | 30 
+ 
+3. Assess toxicant exposure in the general public, occupationally exposed individuals, 
+populations, and the environment using appropriate technologies (e.g., analytical, 
+bioassay, biomonitoring). 
+A. Emerging and existing technologies used to assess exposure in target populations (e.g., 
+biomonitoring endpoints/dosimeters, sentinel species, spatially-explicit models)  
+B. Generally-accepted default values used in human exposure and dose calculations (e.g., body 
+weight, surface area, inhalation rates) 
+4. Assess and document behavior, environmental fate, and transport of chemicals entering 
+the environment. 
+A. Major concepts and processes in environmental fate and transport (efate) assessments (e.g., 
+persistence, biotransformation, bioavailability, bioaccumulation, biomagnification) 
+B. Environmental and/or occupational exposure patterns relevant to human and other 
+environmental receptors (e.g., conceptual site model) 
+C. Environmental fate and transport processes that influence exposure 
+ 
+C. Dose Response Assessment 
+1. Quantitatively and/or qualitatively characterize relationships between dose (or 
+concentration) and incidence and severity of health effects or toxicological endpoints. 
+A. Interpretation of different types of dose-response curves including those for: (a) lethality, 
+(b) threshold responses, (c) linear, nonlinear, non-monotonic, responses, and (d) hormesis  
+B. Interpretation of frequency and cumulative dose-response curves  
+C. Parameters of dose-response curve (e.g., slope, plateau, midpoint) 
+D. ED50, EC50, LD50, and LC50 from dose response curve  
+E. General principles and approaches of benchmark dose (BMD) methodologies, including 
+statistical methods and dose-response modeling  
+F. Outputs of physiologically-based pharmacokinetic (PBPK) modeling and their utility in 
+characterizing dose-response relationships  
+G. Methods for dosimetric adjustments across species and exposure duration (e.g., HED/HEC 
+calculations) 
+H. Dose-response extrapolations and how to characterize their associated uncertainties in 
+susceptible populations, including traditional uncertainty factors (UFs), chemical-specific 
+adjustment factors (CSAFs), data-derived extrapolation factors (DDEFs) 
+2. Analyze toxicity data to determine safety margin and first in human dose.  
+First-in-Human dose (FIH) criteria/standards per regulatory guidance(s) 
+ 
+ 
+ 
+ 
+ 
+ 
+3 
+American Board of Toxicology, Inc.. 
+Page | 31 
+ 
+3. Analyze toxicity data to determine safe dose or concentration, toxicologically relevant 
+dose, reference dose, protective threshold, or benchmark dose. 
+A. Threshold and non-threshold (linear) dose-response curves 
+B. Integration of endpoints (e.g., organ weights, clinical chemistry, histopathology) in 
+comprehensive dose-response assessment  
+C. Dose-response dynamics of essential nutrients and hormetic responses  
+D. Calculation of Therapeutic Index (TI)  
+E. Point of departure (POD) (e.g., LOAEL, BMD, NOAEL, HNSTD, MABEL, STD10) and uncertainty 
+factors and their use in risk assessment  
+F. Concepts and uses of safety thresholds (e.g., TTC, Cramer Class, REACH DNELs and DMELs, 
+reference values, ADI, health-based OELs) 
+G. Approaches for allometric scaling including default values and when they should be applied 
+ 
+D.  Risk Characterization and Management  
+1. Integrate various lines of toxicity evidence (e.g., animal, in vitro, epidemiological, read-
+across) with exposure information to characterize potential health risks. 
+A. Metrics used in risk characterization (e.g., margin of exposure (MOE), margin of safety 
+(MOS), hazard quotient (HQ), Hazard Index (HI), probability estimates) and their application 
+and limitations  
+B. Aggregate exposure and risk and cumulative risk in the context of risk characterization  
+C. Principles of mixtures toxicity and potential application in risk characterization (e.g., dose-
+response additivity, toxicity equivalency factors) 
+2. Perform weight of evidence analyses to reach conclusions and inform decision making. 
+A. Weight of evidence criteria (WoE) criteria for integrating potentially disparate lines of 
+evidence (e.g., Bradford Hill criteria) 
+B. Systematic review concepts, processes, and procedures (e.g., Cochrane review) 
+3. Assess health risks and management options to protect occupational, environmental, or 
+public health by deriving protective safety limits and mitigation strategies. 
+A. Factors that contribute to and modify risk characterization (e.g., engineering, economic, 
+social, political)  
+B. Principles of risk perception and communication 
+C. Precautionary principle and its implications 
+D. Health protective exposure limits for various populations (e.g., immunocompromised, child-
+bearing potential, pregnant, lactating, elderly, asthmatic), exposure durations, and exposure 
+scenarios 

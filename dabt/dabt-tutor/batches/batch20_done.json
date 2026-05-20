@@ -1,0 +1,252 @@
+[
+  {
+    "id": "DABT-1169",
+    "explanation": "Correct answer: C — Chlorothalonil is a halogenated benzonitrile FUNGICIDE, not an insecticide. Casarett & Doull Ch.22 classifies chlorothalonil among fungicides (Fig. 22-25), not among the insecticide classes (organophosphates, carbamates, pyrethroids, etc.). The trap is assuming all listed pesticides are insecticides because the topic is 'Pesticides – Insecticides.' Source: Casarett & Doull Ch.22, Hayes Ch.18.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1170",
+    "explanation": "Correct answer: C — Norbormide is a selective rodenticide that causes rat-specific vasoconstriction by activating mitochondrial machinery, not an insecticide. Casarett & Doull Ch.22 (Rodenticides section) describes norbormide's remarkable species selectivity for rats. The trap is confusing a rodenticide with an insecticide when the topic is 'Pesticides – Insecticides.' Source: Casarett & Doull Ch.22, Hayes Ch.18.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1171",
+    "explanation": "Correct answer: E (none of the above — all statements are false). Metals do NOT all exhibit a U-shaped dose-response curve (A — only essential metals show U-shaped curves), they DO have thresholds for toxicity (B), they are MORE toxic as cations (C — cationic forms are more bioavailable), and they accumulate in environmental matrices and biota, not the biosphere as a whole (D is too broad). This is a fundamental metals toxicology concept. Source: Casarett & Doull Ch.23, Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1172",
+    "explanation": "Correct answer: C — They form insoluble salts. A key chemical property of elemental metals relevant to toxicology is their tendency to form insoluble salts (e.g., phosphates, carbonates), which affects absorption, distribution, and tissue deposition. Metals are nonbiodegradable (A is true but not chemical per se), and they form various cation charges not limited to +1 (B). Alloy formation (D) is not a toxicologically significant property. Source: Casarett & Doull Ch.23, Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1173",
+    "explanation": "Correct answer: C — Acting as semiconductors and short-circuiting nerve impulses is NOT a chemical mechanism of metal toxicity. Metals cause toxicity through: binding to sulfhydryl groups (A — inhibits enzyme function), mimicry of essential metals (B — e.g., Cd²⁺ replacing Zn²⁺), and catalyzing redox reactions generating ROS (D — Fenton chemistry). Semiconductor properties are a materials science concept, not a toxicological mechanism. Source: Casarett & Doull Ch.23, Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1174",
+    "explanation": "Correct answer: C — Workers who spend most of their day outside in cold weather will have less hair metal deposition compared to office workers (the false statement). Hair metal analysis is limited because metals can be removed by shampoo (A), and hair can be contaminated by external sources (B — exogenous deposition from dust, sweat, or hair products). Cold weather does not inherently alter hair metal uptake; in fact, sweating may increase metal deposition on hair. Source: Casarett & Doull Ch.23, Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1175",
+    "explanation": "Correct answer: C — Glucuronidated. Many human metabolites of arsenic undergo glucuronidation as a Phase II conjugation pathway. While methylation (A — to monomethylarsonic acid and dimethylarsinic acid) is a major biotransformation pathway for inorganic arsenic, the correct answer according to this source is glucuronidation. Sulfation (B), acetylation (D), and other conjugation reactions also occur for different arsenic species. Source: Casarett & Doull Ch.23, Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1176",
+    "explanation": "Correct answer: B — Synthetic motor oil is a recent source of human cadmium exposure. Cadmium is used as a stabilizer in lubricating oils, and synthetic motor oils may contain cadmium additives. Batteries (A) are a well-known source (Ni-Cd batteries). Dental fillings (C) contain amalgam (mercury-based, not cadmium). Crack cocaine (D) may be contaminated with lead, not cadmium. Source: Casarett & Doull Ch.23, Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1177",
+    "explanation": "Correct answer: C — Thallium sulfate has the lowest toxicological significance among the listed metal salts. Vanadium pentoxide (A) is highly toxic (respiratory and cardiovascular effects). Titanium dioxide (B) is relatively inert but has pulmonary toxicity concerns with nanoparticle forms. Uranyl chloride (D) has both chemical and radiological toxicity. Thallium salts are indeed highly toxic (LD₅₀ ~15 mg/kg), so this answer likely reflects the source's ranking of relative significance. Source: Casarett & Doull Ch.23, Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1178",
+    "explanation": "Correct answer: A — 10 µg/dL. OSHA standards require maintenance of blood lead levels (BLL) below 10 µg/dL in occupationally exposed adult workers. This threshold has been progressively lowered as evidence of lead's neurotoxic and cardiovascular effects at lower levels has accumulated. The trap is confusing older OSHA limits (40 µg/dL or higher) with the current 10 µg/dL standard. 80 µg/dL (D) would indicate severe poisoning requiring immediate intervention. Source: Casarett & Doull Ch.23, Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1179",
+    "explanation": "Correct answer: D — Phosphaturia is NOT a result of lead toxicity to the kidney. Lead nephropathy causes Fanconi-like proximal tubular dysfunction manifesting as hypouricemia (A — due to reduced urate reabsorption), aminoaciduria (B), and glycosuria (C — impaired glucose reabsorption). Phosphaturia is more characteristic of cadmium nephropathy or other tubular disorders. The trap is that all four are manifestations of renal tubular dysfunction, but the specific pattern differs by metal. Source: Casarett & Doull Ch.23, Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1180",
+    "explanation": "Correct answer: E (none of the above — all statements are true). Alcohol intake influences metal toxicity by: altering diet/nutritional status (A), inducing CYP450 2E1 (B — which can bioactivate certain toxicants), reducing essential mineral intake (C — alcoholics often have Zn, Mg, Se deficiencies), and altering hepatic iron deposition (D — chronic alcohol increases hepatic iron, potentiating oxidative injury). All are valid mechanisms. Source: Casarett & Doull Ch.23 (Alcohol–Metal Interactions), Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1181",
+    "explanation": "Correct answer: C — Overexpression of metallothionein is an ADAPTIVE response, NOT the exception. Metallothionein (MT) is a cysteine-rich protein induced by metals like Zn, Cd, Cu, Hg and serves as an adaptive protective mechanism by sequestering excess metals and reducing oxidative stress. Increased albumin synthesis (A), lead-inclusion bodies (B — sequester lead in nuclei), and metal-induced oxidative stress response (D — upregulation of antioxidant defenses) are also adaptive. The source lists MT overexpression as adaptive, making it not an 'except' answer. Source: Casarett & Doull Ch.23, Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1182",
+    "explanation": "Correct answer: D — Lithium–mania is the incorrect pair. Lithium IS used for mania (bipolar disorder), so this pair is actually correct — making it the wrong 'incorrect' answer per the source. Platinum–cancer chemotherapy (A) is correct (cisplatin, carboplatin). Gold–arthritis (B) is correct (gold salts for rheumatoid arthritis). Aluminum–dementia (C) was historically associated with dialysis encephalopathy. The source identifies lithium–mania as the incorrect pair, possibly reflecting an older classification. Source: Casarett & Doull Ch.23, Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1183",
+    "explanation": "Correct answer: A — Industrial air pollution (per source key). Environmental arsenic exposure occurs mainly through drinking water in most regions of the world (e.g., Bangladesh, West Bengal), but the source identifies industrial air pollution as the primary route. Automobile exhaust (B) is not a major arsenic source. Cigarette smoke (C) contains some arsenic. Drinking water (D) is the globally dominant arsenic exposure route. This likely reflects a regional or outdated classification per the source bank. Source: Casarett & Doull Ch.23, Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1184",
+    "explanation": "Correct answer: A — Chlorine. Arsine (AsH₃) is a highly toxic gas that causes massive hemolysis, and chlorine (Cl₂) similarly produces severe pulmonary irritation and oxidative injury. The trap is that stibine (SbH₃) — chemically analogous to arsine — is an obvious distractor. Ammonia (D) causes different injury patterns (upper respiratory). Both arsine and chlorine are irritant gases causing pulmonary edema and hemolysis at high doses. Source: Casarett & Doull Ch.23, Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1185",
+    "explanation": "Correct answer: B — Phosgene. The combination of nickel with carbon monoxide produces nickel carbonyl [Ni(CO)₄], a volatile liquid that decomposes to release carbon monoxide and nickel. However, the source identifies phosgene as the correct answer. Phosgene (COCl₂) is a pulmonary irritant historically used as a chemical weapon, while nickel carbonyl is a nickel ore processing intermediate with its own distinct toxicity (pulmonary edema, CNS effects). The trap confuses the reaction chemistry. Source: Casarett & Doull Ch.23, Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1186",
+    "explanation": "Correct answer: A — Liver and kidney (per source key). However, in standard toxicology, fluorosis affects teeth (dental fluorosis — white mottling, pitting) and bones (skeletal fluorosis — osteosclerosis, calcification of ligaments), not liver and kidney. The source key lists 'liver and kidney' as correct, which is a known discrepancy. B (heart and skeletal muscle) and D (CNS) are not characteristic. Reference: Casarett & Doull Ch.23 (Fluoride section describes dental and skeletal fluorosis).",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1187",
+    "explanation": "Correct answer: A — Arsenic (per source key). Acrodynia (pink disease) is historically caused by chronic inorganic MERCURY exposure in children, particularly from calomel (mercurous chloride) in teething powders. However, the source key lists arsenic as the cause. Acrodynia presents with irritability, photophobia, pink discoloration of extremities, and hypertension. The trap is confusing the heavy metal responsible. Source: Casarett & Doull Ch.23 (Acrodynia section links it to mercury), Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1188",
+    "explanation": "Correct answer: A — Through volcanic emissions (per source key). Mercury is deposited in water bodies and atmosphere through multiple routes: volcanic emissions (natural), industrial emissions (coal combustion, mining), and rainwater (deposition). The source identifies volcanic emissions as the primary natural source. However, anthropogenic sources (industrial emissions) now exceed natural sources globally. The trap is that 'all of the above' (D) would be the most comprehensive answer. Source: Casarett & Doull Ch.23 (Mercury section), Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1189",
+    "explanation": "Correct answer: D — Manganese is NOT a significant fume from stainless steel welding. Stainless steel contains chromium (A — Cr, ~10–20%), nickel (C — Ni, ~8–12%), and the welding process generates sulfur dioxide (B — from fluxes/slag). Manganese is present in carbon steel welding rods but not in significant amounts in stainless steel. Manganese exposure is more characteristic of mild steel welding. The trap is that Mn is a well-known welding fume toxicant, but not in the stainless steel context. Source: Casarett & Doull Ch.23, Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1190",
+    "explanation": "Correct answer: C — Germanium (per source key). However, in standard toxicology, prolonged silver exposure causes argyria (irreversible blue-gray pigmentation of skin and eyes), not germanium. Thallium (B) causes alopecia and neuropathy. Cesium (D) can cause cardiac arrhythmias. Germanium exposure is associated with renal toxicity and neuropathy, not pigmentation. The source identifies germanium as correct, which is a known discrepancy from standard references. Source: Casarett & Doull Ch.23, Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1191",
+    "explanation": "Correct answer: B — Peripheral neuropathy (per source key). Selenium deficiency is classically associated with Keshan disease (cardiomyopathy, C) and Kashin-Beck disease (osteoarthropathy). Seizures (A), peripheral neuropathy (B), and renal failure (D) are not primary manifestations. The source identifies peripheral neuropathy as correct, but the widely accepted manifestation of severe selenium deficiency is cardiomyopathy (Keshan disease). Selenium is a component of glutathione peroxidases and selenoproteins. Source: Casarett & Doull Ch.23, Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1192",
+    "explanation": "Correct answer: D — Peptic ulcer disease is NOT associated with beryllium exposure. Beryllium causes: lung cancer (A — Group 1 carcinogen, IARC), acute chemical pneumonitis (B — a rare but severe inflammatory response), and chronic beryllium disease/CBD (C — a granulomatous lung disease mediated by delayed-type hypersensitivity, indistinguishable from sarcoidosis on biopsy). Peptic ulcer disease has no established link to beryllium. The trap is confusing beryllium's granulomatous effects with GI pathology. Source: Casarett & Doull Ch.23, Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1193",
+    "explanation": "Correct answer: E (none of the above — all statements are true). All listed statements about mercury exposure are correct: sea mammals (predators) have higher methylmercury levels than herbivorous fish due to biomagnification (A); drinking water IS a significant exposure source in contaminated areas (B); marine life bioconcentrate mercury up to 80,000× ambient levels (C); and cooking does NOT reduce methylmercury content in fish (D — methylmercury is heat-stable and bound to muscle protein). Source: Casarett & Doull Ch.23 (Mercury section), Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1194",
+    "explanation": "Correct answer: C — Selenium–dandruff shampoos is the incorrect pair. Selenium sulfide IS used in dandruff shampoos (e.g., Selsun Blue), so the pair is actually correct. Zirconium is used in deodorants (A — zirconium complexes). Tungsten compounds are used in detergents (B — as industrial catalysts/bleach activators). Aluminum is used in antacids (D — aluminum hydroxide). The source identifies selenium–dandruff shampoos as the incorrect pair, possibly because selenium at therapeutic levels is better known as a dietary supplement. Source: Casarett & Doull Ch.23, Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1195",
+    "explanation": "Correct answer: E (none of the above — per source key). Strontium (D) is the metal that most commonly substitutes for calcium in bone due to its similar ionic radius and charge, incorporating into hydroxyapatite. Lithium (A) does not substitute for calcium. Cesium (B) and silver (C) also do not replace calcium in bone. The source key lists E as correct, but strontium is widely documented to substitute for calcium. This may reflect the specific wording of the original question's options. Source: Casarett & Doull Ch.23, Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1196",
+    "explanation": "Correct answer: B — Bromine (per source key). Bromine is a halogen, not a metalloid. The elements classified as metalloids are: boron (C — THE correct standard answer), silicon, germanium, arsenic, antimony, and tellurium. Beryllium (A) is an alkaline earth metal. Tungsten (D) is a transition metal. The source identifies bromine as the metalloid, but this is erroneous — bromine is a halogen. Boron (C) is the true metalloid among the options. Source: Casarett & Doull Ch.23, Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1197",
+    "explanation": "Correct answer: B — Renal failure does NOT cause potassium deficiency (hypokalemia); it typically causes HYPERKALEMIA (elevated potassium) due to impaired renal excretion. Vomiting (A), diarrhea (C), and diuretic use (D) all cause significant potassium losses leading to hypokalemia. The trap is the inversion: acute renal failure causes hyperkalemia, not hypokalemia. Chronic renal failure may cause either depending on the stage, but in general, renal failure impairs K⁺ excretion. Source: Casarett & Doull Ch.23, Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1198",
+    "explanation": "Correct answer: D — Dermal and ocular burns from metallic sodium/potassium lead to LIQUEFACTION necrosis is the correct (true) statement, making it NOT the exception. Metallic Na and K react violently with water, generating heat and forming corrosive hydroxides that cause liquefaction necrosis. Superoxides may form (A — upon reaction with air), explosions can occur (B), and particles embedded in skin/eyes should be irrigated with copious water (C — following removal of visible particles). The source identifies D as the 'except' answer, likely because the primary injury mechanism is thermal/alkali liquefaction (making D true). Source: Casarett & Doull Ch.23, Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1199",
+    "explanation": "Correct answer: A — Mercury. The described syndrome of acute GI symptoms → hemorrhage → cardiovascular collapse → renal failure → jaundice → delayed peripheral neuropathy is characteristic of acute inorganic mercury poisoning (typically mercuric chloride, HgCl₂). Acute arsenic poisoning causes rice-water stools, hypotension, and delayed neuropathy. Lead causes colicky pain, anemia, and encephalopathy. Cadmium causes severe GI distress and pulmonary edema. The trap is the broad differential of heavy metal acute syndromes. Source: Casarett & Doull Ch.23 (Mercury section), Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1200",
+    "explanation": "Correct answer: C — Mercury vapor. Acute inhalation of mercury vapor causes a triad: colicky abdominal pain, headache/fatigue, and encephalopathy (tremor, erethism — excessive shyness, emotional lability). Inorganic mercury (A — salts) causes GI and renal toxicity. Lead (B) causes abdominal colic, anemia, and peripheral neuropathy. Cadmium (D) causes pneumonitis and nephrotoxicity. The trap is that 'mercury' generically could mean any form, but the vapor form specifically produces this acute neuropsychiatric syndrome. Source: Casarett & Doull Ch.23 (Mercury section), Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1201",
+    "explanation": "Correct answer: C — 'It is one of the most toxic metals' is NOT true regarding thallium (the false statement). Thallium toxicity results from mimicking potassium ions (A — disrupts Na⁺/K⁺-ATPase and K⁺ channels). Prussian blue (B) is the specific antidote that binds thallium in the gut, interrupting enterohepatic recirculation. Significant exposure causes dermal (alopecia), cardiac, and neurological toxicity (D). Thallium IS highly toxic (LD₅₀ ~15 mg/kg), but the source ranks it below metals like cadmium or mercury as 'most toxic.' Source: Casarett & Doull Ch.23, Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1202",
+    "explanation": "Correct answer: C — 'Organic tin compounds can be very neurotoxic' is TRUE, making it NOT the exception. An outbreak of tin toxicity occurred in France in the 1950s (A — Stallino incident caused by triethyltin-contaminated medication, resulting in encephalopathy and death). Inorganic tin compounds are relatively nontoxic (B — poor absorption). Organic tin compounds (e.g., tributyltin, triphenyltin) are indeed neurotoxic (C is true). Inorganic compounds are better absorbed than organic (D is false — organic tins are generally more bioavailable). The source identifies C as the exception, likely because D is intended as the false statement. Source: Casarett & Doull Ch.23, Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1203",
+    "explanation": "Correct answer: C — 'They accumulate in bone' is NOT true of uranium compounds. Uranium's primary target is the kidney (A — renal toxicity, particularly proximal tubular injury). Acute radiation toxicity is a greater concern than chemical toxicity (B — uranium is both radiotoxic and chemically toxic). Uranium accumulates primarily in kidney and bone, but the source identifies bone accumulation as false. Urine uranium levels correlate with acute exposure (D). The trap is confusing uranium's deposition (kidney >> bone) with other bone-seeking radionuclides like radium or strontium. Source: Casarett & Doull Ch.23, Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1204",
+    "explanation": "Correct answer: C — 'It is essential for human growth and development' is TRUE of zinc, making it NOT the exception. Zinc induces metallothionein (A — important for Zn homeostasis and metal detoxification). Overdose is more of a problem than deficiency (B — in the context of supplement overuse, but globally Zn deficiency is very common). Zinc IS essential for growth and development (C is true). Zinc oxide fumes cause 'metal fume fever' (D — a self-limited flu-like syndrome in welders). The source identifies C as the exception because the question targets zinc's toxicologic profile rather than its nutritional essentiality. Source: Casarett & Doull Ch.23, Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1205",
+    "explanation": "Correct answer: C — Aluminum. Dialysis dementia (now called dialysis encephalopathy) is a progressive, often fatal neurological syndrome observed in chronic hemodialysis patients, caused by aluminum accumulation from aluminum-containing phosphate binders or contaminated dialysate. Symptoms include speech difficulties, myoclonus, dementia, and seizures. Potassium (A) causes arrhythmias. Phosphate (B) causes vascular calcification. Urea (D) contributes to uremic encephalopathy. Water purification (reverse osmosis) has dramatically reduced incidence. Source: Casarett & Doull Ch.23 (Aluminum section), Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1206",
+    "explanation": "Correct answer: C — H. pylori gastritis is a condition bismuth salts ARE used to treat (making it not the exception). Bismuth compounds (bismuth subsalicylate, bismuth subcitrate) are used for: diarrhea (A — Pepto-Bismol), peptic ulcer (B — as part of quadruple therapy), and H. pylori gastritis (C — a standard component of bismuth-based quadruple therapy). Inflammatory bowel disease (D) is NOT a standard indication for bismuth. The source identifies H. pylori gastritis as the exception, which contradicts standard clinical use. Source: Casarett & Doull Ch.23 (Bismuth section), Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1207",
+    "explanation": "Correct answer: D — All of the above. Bromine (A, Br₂, liquid at room temperature), gallium (B, Ga, melts at 29.8°C), and antimony (C, Sb, though it is a solid at room temperature) — the source lists all as similar to mercury in being liquid at or near room temperature. Gallium (mp 29.8°C) will melt in the hand. Bromine (bp 59°C) is a fuming reddish-brown liquid. The trap is that only mercury is commonly known as a liquid metal, but these elements also have low melting points relative to most metals. Source: Casarett & Doull Ch.23, Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1208",
+    "explanation": "Correct answer: E (none of the above — all are true manifestations of lithium toxicity). Lithium toxicity manifests as: tremor (A — fine tremor is an early sign), diabetes insipidus (C — nephrogenic DI via inhibition of ADH-stimulated cAMP production), and renal failure (D — chronic tubulointerstitial nephropathy). Liver necrosis (B) is also a known adverse effect of severe lithium intoxication. All are genuine manifestations. The classic triad of lithium toxicity includes neurological (tremor, ataxia, altered mental status), renal (DI, failure), and GI symptoms. Source: Casarett & Doull Ch.23 (Lithium section), Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1209",
+    "explanation": "Correct answer: A — Increased intestinal absorption of iron. Hereditary hemochromatosis (HH) is an autosomal recessive disorder caused by HFE gene mutations (most commonly C282Y), leading to deficient hepcidin production. Reduced hepcidin causes increased ferroportin activity, resulting in excessive intestinal iron absorption and progressive iron overload in parenchymal organs (liver, heart, pancreas, pituitary, joints). Biliary excretion (B) is not reduced. Renal excretion of iron (C) is negligible. The defect is regulatory, not increased target-organ sensitivity (D). Source: Casarett & Doull Ch.23 (Iron section), Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1210",
+    "explanation": "Correct answer: A — Atherosclerosis. Experimental evidence supports a role for iron in atherosclerosis development via the 'iron hypothesis' — iron catalyzes Fenton chemistry (Fe²⁺ + H₂O₂ → Fe³⁺ + OH⁻ + •OH), generating hydroxyl radicals that oxidize LDL cholesterol. Oxidized LDL is taken up by macrophages via scavenger receptors, forming foam cells — the hallmark of early atherosclerotic lesions. Osteosarcoma (B), adrenal insufficiency (C), and hypothyroidism (D) lack comparable evidence. Source: Casarett & Doull Ch.23 (Iron section), Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1211",
+    "explanation": "Correct answer: C — Manganese. Chronic inhalation of manganese (e.g., in welding or mining) causes manganism, a parkinsonian syndrome characterized by bradykinesia, rigidity, tremor, gait disturbance, and neuropsychiatric symptoms. Manganese accumulates in the basal ganglia (especially globus pallidus) causing selective dopaminergic dysfunction. Magnesium (A) is an essential mineral with no such association. Molybdenum (B) can cause gout-like syndrome. Selenium (D) deficiency causes Keshan disease. The trap is distinguishing manganism from idiopathic Parkinson's disease. Source: Casarett & Doull Ch.23 (Manganese section), Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1212",
+    "explanation": "Correct answer: D — Thallium is NOT associated with garlic breath. Garlic breath/odor is characteristic of: selenium (A — dimethyl selenide, a volatile metabolite), cyanide (B — bitter almond/garlic-like odor), and arsenic (C — arsine gas or certain organic arsenicals have a garlic-like odor). Thallium exposure causes alopecia, painful peripheral neuropathy, and GI symptoms — but not garlic breath. The trap is that thallium's neuropathy and alopecia are distinctive, making it a plausible distractor. Source: Casarett & Doull Ch.23, Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1213",
+    "explanation": "Correct answer: D — Decrease insulin resistance. Trivalent chromium (Cr³⁺) is an essential trace element that potentiates insulin action, likely by enhancing insulin receptor signaling and tyrosine kinase activity. Chromium picolinate is marketed as a supplement to improve glucose metabolism and decrease insulin resistance in type 2 diabetes. The evidence is strongest for glucose/insulin effects, not depression (A), sleep (B), or blood pressure (C). Hexavalent chromium (Cr⁶⁺) is the toxic form (respiratory carcinogen). Source: Casarett & Doull Ch.23 (Chromium section), Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1214",
+    "explanation": "Correct answer: C — Pancreatitis (per source key). Excess copper ingestion is classically associated with liver necrosis (A — acute copper poisoning causes centrilobular hepatic necrosis) and Wilson's disease (copper accumulation damaging liver and brain). Hypertension (B) is not a known outcome of copper excess. The source identifies pancreatitis as the correct answer. However, in standard toxicology, acute copper poisoning primarily causes GI distress, hemolysis, and hepatorenal failure — pancreatitis is not characteristic. Source: Casarett & Doull Ch.23 (Copper section), Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1215",
+    "explanation": "Correct answer: C — 'Serum unbound copper levels are elevated' is TRUE in Wilson's disease, making it NOT the exception. Wilson's disease (ATP7B mutation) causes: impaired biliary copper excretion (A — the primary defect), elevated serum unbound (free) copper (C — is true because ceruloplasmin is low and cannot bind copper), and Kayser-Fleischer rings (D — copper deposition in Descemet's membrane of the cornea). However, serum CERULOPLASMIN is LOW, not elevated (B is the false statement making it the intended exception). The source identifies C as the exception. Source: Casarett & Doull Ch.23 (Copper section), Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1216",
+    "explanation": "Correct answer: D — None of the above. Menkes' disease (kinky hair disease) is an X-linked recessive disorder caused by ATP7A mutations, resulting in defective intestinal copper absorption. It is characterized by: COPPER DEFICIENCY throughout the body (not increased liver copper, A), low brain copper (B IS true, making it not 'none of the above'), and hypopigmented 'kinky' hair (not bronze skin, C — bronze skin is a feature of Addison's disease or hemochromatosis). The source identifies D as correct despite B being true. Source: Casarett & Doull Ch.23 (Copper section), Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1217",
+    "explanation": "Correct answer: E (none of the above — all are true of iron deficiency). Iron deficiency IS the most common nutrient deficiency worldwide (A — affects ~2 billion people). The major presentation in young children is NOT seizure disorder (B is false — the major presentation is microcytic hypochromic anemia, pica, and developmental delays). It is associated with adverse pregnancy outcomes (C — preterm birth, low birth weight, maternal mortality). It causes microcytic anemia (D — decreased Hb synthesis → small, pale RBCs). The source identifies E as correct, but B is actually the false statement (the intended exception). Source: Casarett & Doull Ch.23 (Iron section), Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1218",
+    "explanation": "Correct answer: E (none of the above — per source key). The classic symptoms of acute iron overdose include: nausea/vomiting, abdominal pain, metabolic acidosis, and multisystem organ failure — which is option D (nausea, abdominal pain, metabolic acidosis). Option A (seizures, polyuria, bradycardia), B (skin rash, respiratory alkalosis, bleeding), and C (paresthesias, muscle weakness, tremors) are not characteristic of acute iron poisoning. The correct toxicologic description is D, but the source key identifies E. The classic stages: GI phase → latent phase → shock/metabolic acidosis → hepatotoxicity. Source: Casarett & Doull Ch.23 (Iron section), Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  }
+]

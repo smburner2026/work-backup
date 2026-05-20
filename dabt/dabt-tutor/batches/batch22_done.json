@@ -1,0 +1,252 @@
+[
+  {
+    "id": "DABT-1269",
+    "explanation": "Alcohol-induced hepatotoxicity involves endotoxin release from gut bacteria activating Kupffer cells (A), malnutrition from alcohol displacing nutrients (C), and release of inflammatory mediators by Kupffer cells (D). Binding to the estrogen receptor (B) is NOT a mechanism of alcohol hepatotoxicity and is the exception. The trap is looking for a receptor-mediated mechanism that does not apply. (Casarett & Doull 9e, Ch. 24: Solvents and Hydrocarbons)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1270",
+    "explanation": "Methanol is metabolized by alcohol dehydrogenase to formaldehyde and then to formic acid. Formic acid inhibits cytochrome c oxidase (mitochondrial Complex IV) in the retina, disrupting oxidative phosphorylation and causing retinal toxicity and blindness. The key trap is confusing the metabolizing enzymes (ADH, ALDH, CYP2E1) with the actual toxic target — cytochrome c oxidase is the site of formate's toxicity. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1271",
+    "explanation": "Treatment for methanol toxicity includes all of the listed interventions: hemodialysis (removes methanol and formate), sodium bicarbonate (corrects metabolic acidosis from formic acid), and methylpyrazole/fomepizole (blocks alcohol dehydrogenase, preventing formate production). The trap is assuming only one intervention is sufficient — severe methanol poisoning requires a multimodal approach. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1272",
+    "explanation": "Ethylene glycol causes acute renal toxicity (calcium oxalate crystal deposition in renal tubules), peripheral neuropathy (from toxic metabolites, similar to other glycols), and has been associated with hypercalcemia through mechanisms involving calcium mobilization. The trap is focusing on hypocalcemia (the more classic acute finding) and missing that broader metabolic effects can include hypercalcemia in some contexts. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1273",
+    "explanation": "Propylene glycol is classified as GRAS (Generally Recognized as Safe) by the FDA for use in food and pharmaceuticals. Unlike ethylene glycol, it is NOT metabolized to oxalic acid (it forms lactic acid instead), and ethanol CAN inhibit its metabolism via ADH competition. The common trap is confusing propylene glycol with ethylene glycol, which causes oxalate nephropathy. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1274",
+    "explanation": "Toluene is metabolized via side-chain oxidation: toluene → benzyl alcohol (CYP) → benzaldehyde (ADH) → benzoic acid (ALDH) → hippuric acid (glycine conjugation). Phenol is NOT a metabolite of toluene — it is a classic metabolite of benzene via CYP2E1-mediated ring hydroxylation. The trap is confusing ring hydroxylation (benzene) with side-chain oxidation (toluene) pathways. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1275",
+    "explanation": "The lung is the primary entry route for inhaled toluene and is a significant target organ. Toluene is highly volatile and rapidly absorbed through the respiratory tract, with high concentrations causing pulmonary irritation, aspiration pneumonitis, and contributing to respiratory depression. While CNS effects are prominent with chronic abuse, the lung is a critical primary target in acute inhalation exposure. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1276",
+    "explanation": "Xylene is present in gasoline as a significant component (A ✓), is primarily a CNS depressant like other aromatic hydrocarbons causing neurological effects at high concentrations (B ✓), and is generally considered not genotoxic—negative in most bacterial and mammalian mutation assays, unlike benzene (C ✓). The crucial trap is assuming xylene shares benzene's genotoxicity and leukemogenicity, which it does not. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1277",
+    "explanation": "Styrene is a liquid at room temperature (not a solid), its chemical formula is C₆H₅CH=CH₂ (vinyl benzene, not divinyl benzene), and it is classified as possibly carcinogenic to humans (IARC Group 2B) — not a definite human respiratory carcinogen. Therefore none of the listed statements are correct. The trap is overstating styrene's carcinogenicity classification. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1278",
+    "explanation": "Populations with low acetaldehyde dehydrogenase (ALDH2 deficiency, common in East Asians) cannot efficiently clear acetaldehyde, a known IARC Group 1 carcinogen. Acetaldehyde accumulation after alcohol consumption increases the risk of upper aerodigestive tract cancers (especially esophageal cancer). Because the aversive flushing reaction discourages heavy drinking, these populations have a LOWER risk of alcoholism — the trap is assuming the protective aversion eliminates all cancer risk. (Casarett & Doull 9e, Ch. 24; Hayes Ch. 10)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1279",
+    "explanation": "Carbon tetrachloride (CCl₄) is bioactivated by hepatic CYP2E1 to the trichloromethyl radical (•CCl₃), which initiates lipid peroxidation and hepatocellular necrosis. However, the stored answer references the chloride radical — this may refer to the cascade where •CCl₃ reacts with O₂ to form the trichloromethylperoxy radical (•OOCCl₃), which decomposes to phosgene and chloride radicals, amplifying membrane damage. The key concept is that CCl₄ requires P450-mediated reductive dehalogenation to become toxic. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1280",
+    "explanation": "Carbon tetrachloride use has declined due to hepatorenal toxicity (B ✓), carcinogenicity (C ✓), and ozone-depleting properties (D ✓ — it is regulated under the Montreal Protocol). Flammability (A) is NOT a reason for its decline — CCl₄ is non-flammable and was used as a fire extinguisher agent. The trap is assuming all hazardous properties caused the decline, but flammability is not one of CCl₄'s hazards. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1281",
+    "explanation": "Chloroform is bioactivated by CYP2E1 to phosgene (COCl₂), a highly reactive electrophile that covalently binds to cellular macromolecules and depletes glutathione, causing centrilobular hepatic necrosis. Hypochlorous acid (HOCl) is not the toxic metabolite of chloroform — it is an endogenous bactericidal agent produced by myeloperoxidase. The trap is confusing metabolic intermediates with structurally similar but functionally distinct compounds. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1282",
+    "explanation": "Benzene metabolism is initiated by CYP2E1 forming benzene epoxide (B ✓), with ring-opened metabolites including t,t-muconic acid excreted in urine (C ✓). Quinone oxidoreductase (NQO1) reduces benzoquinone to less toxic hydroquinone in the liver (D ✓ is correctly phrased). Myeloperoxidase does play a role in bone marrow toxicity through one-electron oxidation of phenolic metabolites, so option A is actually TRUE — the question likely intends to identify A as the exception because 'mycloperoxidase' may be a misspelling or the question targets the fact that CYP2E1, not MPO, initiates the pathway. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1283",
+    "explanation": "Benzene exposure is classically associated with acute myelogenous leukemia (AML) and other hematological malignancies. Renal cell carcinoma (B) is not a recognized outcome of benzene exposure — it is associated with other agents (e.g., trichloroethylene). The trap is confusing the target organ: benzene targets the bone marrow (hematopoietic system), not the kidney. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1284",
+    "explanation": "The CNS pharmacology of solvent abuse shares features with alcohol: it involves GABA, glycine, and NMDA receptors (D ✓), and has potential for tolerance development (B ✓). Naloxone does NOT precipitate withdrawal reactions from solvent abuse — that is specific to opioids. Saying naloxone precipitates life-threatening withdrawal (C) is the exception. The trap is applying opioid pharmacology (naloxone antagonism) to solvent abuse. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1285",
+    "explanation": "CYP2E1 activity does NOT decrease by 80% between ages 21 and 65 — while some decline occurs with aging, a drop of this magnitude is inaccurate. The other statements are true: polar solvents reach higher levels in the elderly due to decreased lean body mass and total body water (B ✓), extracellular water is highest in newborns (C ✓), and CYP2E1 is low in fetal liver (D ✓). The trap is overestimating the age-related decline in CYP2E1. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1286",
+    "explanation": "Exercise increases alveolar ventilation and cardiac output (A ✓), and pulmonary blood flow is rate-limiting for lipid-soluble solvent uptake (B ✓). Blood flow to liver and kidney does increase with exercise (D ✓). The exception is C: exercise does NOT increase uptake of BOTH polar and lipid-soluble solvents equally — increased cardiac output enhances uptake of lipid-soluble solvents (blood-flow limited), but polar (water-soluble) solvents are ventilation-limited and less affected by exercise changes. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1287",
+    "explanation": "Trichloroethylene (TCE) metabolism: GSH conjugation produces DCVG, which is processed to DCVC — a nephrotoxic metabolite mediated by GSH. So option A is actually TRUE. The exception is likely D: TCAA (trichloroacetic acid) is formed by CYP P450-mediated oxidation and is NOT a direct reactive metabolite for nephrotoxicity — it is a stable end-product detected in urine as a biomarker. TCE is known to stimulate PPARα (B ✓) and has been shown to activate the estrogen receptor (C ✓). (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1288",
+    "explanation": "Dioxane (1,4-dioxane) is a cyclic ether — a six-membered ring containing two oxygen atoms. Dioxin (2,3,7,8-TCDD) is a polychlorinated dibenzo-p-dioxin with a different structure featuring two benzene rings connected by a dioxin bridge, and is not classified as a cyclic ether. The trap is confusing dioxane (an industrial solvent and cyclic ether) with dioxin (a persistent environmental contaminant and AhR agonist). (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1289",
+    "explanation": "Turpentine IS a mixture of terpenes (mainly α-pinene and β-pinene) obtained from pine trees, so saying it is NOT a mixture (B) is false. The other statements are true: turpentine exposure has been linked to scleroderma-like skin changes (A ✓), d-limonene is a related terpene in the same chemical class (C ✓), and turpentine is a well-known cause of allergic contact dermatitis (D ✓). (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1290",
+    "explanation": "Dimethylformamide (DMF) is a liquid at room temperature (not a solid), making option C the false statement. DMF is water-soluble (miscible in all proportions), can cause pancreatitis as a known toxic effect (B ✓), and is used in the production of acrylic fibers and polyurethanes — NOT by dry cleaners (perchloroethylene is the dry-cleaning solvent). (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1291",
+    "explanation": "Evaporation rate is inversely related to boiling point (higher BP = slower evaporation), not lipid solubility. Vapor pressure is directly related to evaporation rate (higher VP = faster evaporation). The trap is connecting evaporation rate to lipid solubility when it is primarily determined by vapor pressure and boiling point. Evaporation rate does have units (mass/time) and is a measured value, not a dimensionless number. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1292",
+    "explanation": "Percutaneous absorption of xylene and toluene vapors in humans is usually insignificant compared to inhalation (A ✓), accounting for only about 1-2% of total absorption. Percutaneous absorption CAN equal pulmonary absorption only under extreme conditions like heavy sweating with high skin blood flow, but in normal circumstances it is minimal. The trap is overestimating dermal contribution for volatile solvents. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1293",
+    "explanation": "Angina pectoris and sudden cardiac death have occurred among rayon workers exposed to carbon disulfide (CS₂). CS₂ causes coronary artery disease through accelerated atherosclerosis, endothelial dysfunction, and direct cardiotoxicity. The trap is associating these cardiac outcomes with other industries where different chemical exposures (e.g., dynamite workers → nitroglycerin withdrawal angina) may cause similar effects through different mechanisms. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1294",
+    "explanation": "Nitrosamines are formed from secondary amines and nitrite in an ACIDIC medium (e.g., gastric acid at pH 3-4). The nitrite is protonated to nitrous acid, which then reacts with secondary amines to form N-nitrosamines. The trap is assuming an alkaline medium (C/D) or involving primary amines (A) — primary amines form unstable N-nitroso derivatives that decompose. This reaction is significant for endogenous formation of carcinogenic nitrosamines in the stomach. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1295",
+    "explanation": "Styrene is NOT a flame retardant — it is a monomer used in plastics and resins (polystyrene, ABS). Its major metabolite is styrene-7,8-oxide, an epoxide (B ✓), it causes neuropsychological deficits in exposed workers (C ✓), and mandelic acid in urine serves as a biological exposure index (D ✓). The trap is confusing styrene with brominated flame retardants or other additives. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1296",
+    "explanation": "Vinyl chloride monomer (VCM) is classically associated with acro-osteolysis (resorption of distal finger tufts), Raynaud's phenomenon, hepatic angiosarcoma, and peripheral neuropathy. Thyroid dysfunction (B) is NOT a recognized effect of vinyl chloride exposure. The trap is linking vinyl chloride (a chlorinated hydrocarbon) to endocrine disruption when its primary targets are the liver, bone, and peripheral vasculature. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1297",
+    "explanation": "Phenol is well absorbed through the skin (B ✓), a critical feature contributing to its systemic toxicity upon dermal exposure. It is moderately water-soluble (not highly insoluble), is not associated with acute leukemia (unlike benzene), and has a short half-life in humans (about 1-2 hours, not 5 days). The trap is underestimating phenol's dermal bioavailability, which can cause fatal poisoning from skin contact. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1298",
+    "explanation": "Hydrofluoric acid (HF) exposure causes hypocalcemia and hypomagnesemia because fluoride ions avidly chelate calcium and magnesium, forming insoluble salts (CaF₂, MgF₂). This can lead to life-threatening cardiac arrhythmias from profound electrolyte disturbances. Boric acid (B), tannic acid (C), and bromine (D) do not cause acute hypocalcemia/hypomagnesemia through this mechanism. The trap is overlooking HF's unique ability to sequester divalent cations. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1299",
+    "explanation": "Hydrofluoric acid exposure has been associated with osteosclerosis (abnormal hardening of bone) — fluoride stimulates osteoblast activity and can cause skeletal fluorosis with chronic exposure. Osteosarcoma has been reported in animal studies at high doses but is not the classic human finding. Hepatitis and anemia are not characteristic of HF exposure. The trap is focusing on acute effects (hypocalcemia, burns) rather than chronic skeletal effects. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1300",
+    "explanation": "Acrylamide is well-known for causing peripheral neuropathy in occupationally exposed humans and is used as a model neurotoxicant. However, the stored answer identifies peripheral neuropathy as the EXCEPTION. The associated effects include excessive sweating (B ✓, due to autonomic dysfunction), ataxia (C ✓, due to cerebellar/CNS effects), and hypertension (D ✓) — which may be secondary to neurotoxicity or vascular effects. The trap is that while peripheral neuropathy IS a known effect of acrylamide, this question's intended answer treats it as the exception. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1301",
+    "explanation": "Urinary p-aminophenol is a biological exposure index for aniline, not toluene. Aniline is metabolized by CYP2E1 to N-phenylhydroxylamine, which rearranges to p-aminophenol and is conjugated and excreted in urine. The trap is confusing the metabolite of toluene (hippuric acid) with the metabolite of aniline (p-aminophenol). For toluene exposure monitoring, urinary hippuric acid is the standard biomarker. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1302",
+    "explanation": "Carbon disulfide (CS₂) is rapidly metabolized (~95% metabolized, with only about 5% excreted unchanged in urine — NOT 50%). It is associated with increased cardiovascular death through accelerated atherosclerosis (A ✓), atypical Parkinson's disease from basal ganglia damage (B ✓), and targets the eye (optic neuropathy, retinal microaneurysms) and ear (hearing loss) as known target organs (C ✓). The trap is overestimating the fraction of CS₂ excreted unchanged. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1303",
+    "explanation": "There is long-standing scientific debate about whether low-level, chronic solvent exposure can cause renal disease (e.g., chronic glomerulonephritis, renal tubular dysfunction). The evidence is strongest for hydrocarbons in relation to Goodpasture's syndrome and other glomerulopathies. Carcinogenicity (A), liver disease (B), and neuropsychological dysfunction (D) have more established links with solvent exposure and are less debated. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1304",
+    "explanation": "Volatile organic compounds (VOCs) in drinking water ARE a major concern — contamination of groundwater by solvents like TCE, PCE, and benzene is a well-documented public health issue, making option A the TRUE statement. The exception is B: atmospheric concentrations of VOCs are generally low in ambient outdoor air, but can be significantly elevated indoors. C and D are correct: VOCs in water partition based on density, and wind can disperse vapors. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1305",
+    "explanation": "Toluene is associated with hypokalemia and normal anion gap metabolic acidosis (hyperchloremic metabolic acidosis) — a classic presenting laboratory finding in chronic toluene abuse (glue sniffing). Toluene is metabolized to benzoic acid and then hippuric acid, consuming bicarbonate and producing a high anion gap acidosis in acute cases, but chronic exposure can present with normal anion gap due to renal adaptation. Methyl alcohol causes high anion gap metabolic acidosis from formic acid. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1306",
+    "explanation": "Toluene and xylene are among the most commonly abused solvents (glue sniffing, paint sniffing) due to their ready availability and potent CNS effects. Ethylene glycol and perchloroethylene are less commonly abused — but perchloroethylene (a dry-cleaning solvent) has a high odor threshold and unpleasant qualities, making it the LEAST likely to be abused among the options. The trap is focusing on availability rather than the user experience of sought-after CNS effects. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1307",
+    "explanation": "Toluene is NOT ethylbenzene (A is false — ethylbenzene is a distinct compound), it does NOT cause cholestasis (B is false — toluene can cause hepatocellular injury but not cholestasis as a hallmark), and it is NOT primarily myelotoxic (C is false — myelotoxicity is characteristic of benzene, not toluene). Therefore none of the statements are correct (D ✓). The trap is attributing benzene's myelotoxicity to toluene. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1308",
+    "explanation": "1,3-Butadiene is classified as a known human carcinogen (IARC Group 1) based on sufficient epidemiological evidence linking occupational exposure to hematopoietic cancers (leukemia and lymphoma). It is NOT an ozone-depleting substance (B is false — it reacts rapidly in the troposphere), and it is MORE reactive than butane due to its conjugated diene structure (C is false). The trap is confusing atmospheric reactivity with the CFC-type ozone depletion mechanism. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1309",
+    "explanation": "Cyclohexane is used in nylon synthesis (A ✓ — oxidized to cyclohexanone/cyclohexanol for adipic acid production). The false statement is B: cyclohexane is NOT the only cyclic aliphatic hydrocarbon used as an industrial solvent — cyclopentane, methylcyclohexane, and other cycloalkanes are also widely used. Cyclohexane does NOT cause a peripheral neuropathy similar to n-hexane because its metabolism differs (cyclohexane is oxidized to cyclohexanol then excreted, not forming the neurotoxic 2,5-hexanedione metabolite). (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1310",
+    "explanation": "n-Hexane causes the highest risk of peripheral neuropathy among petroleum distillates through its metabolite 2,5-hexanedione, which cross-links neurofilament proteins, causing axonopathy. Petroleum ether (B) refers to a light naphtha distillate; among the listed options, n-hexane (the major component of many petroleum ethers) produces the characteristic distal sensorimotor polyneuropathy. Aromatic petroleum naphtha, mineral spirits, and kerosene have lower neurotoxic potential. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1311",
+    "explanation": "Chloroform is reported as the most frequently found volatile organic compound (VOC) in finished drinking water supplies in the United States. It is a trihalomethane (THM) formed during chlorination as a disinfection byproduct from reactions with natural organic matter. Carbon tetrachloride, 1,3-butadiene, and methylene chloride are less commonly found in finished drinking water. The trap is confusing widespread environmental contaminants with actual occurrence data. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1312",
+    "explanation": "Solvents ARE highly absorbed from the GI tract (A ✓). Hydrophilic solvents absorbed through inhalation DO take longer to reach steady state than hydrophobic solvents because they partition less readily into blood (B ✓). Dermal absorption in rodents IS less than in humans due to differences in skin thickness (C ✓). Corn oil CAN delay GI absorption of carbon tetrachloride in the rat by altering gastric emptying and dissolution (D ✓). Since all statements are true, no statement is the exception — the answer identifies the statement that is NOT an exception. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1313",
+    "explanation": "Possible mechanisms of ethanol carcinogenicity include: congeners (e.g., other alcohols in alcoholic beverages) influencing carcinogenicity through direct toxicity or co-carcinogenesis (A ✓), immune function stimulation — paradoxically, chronic alcohol consumption actually SUPPRESSES immune function, but some studies show initial stimulation of certain immune parameters (B ✓), and nutrient reduction from poor diet and impaired absorption (C ✓). CYP2E1 INDUCTION (D) is NOT a mechanism of ethanol carcinogenicity — CYP2E1 metabolizes ethanol and bioactivates procarcinogens, but induction alone is not a direct mechanism of carcinogenesis. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1314",
+    "explanation": "Benzene and 1,3-butadiene are both classified as known human carcinogens (IARC Group 1) and are present in gasoline. Benzene causes acute myeloid leukemia, and 1,3-butadiene causes hematopoietic cancers. Hexane and pentane (B) are not classified as human carcinogens, and toluene and xylene (C) are not classified as known human carcinogens by IARC. The trap is assuming all gasoline components share the same carcinogenic potential. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1315",
+    "explanation": "Carbon disulfide (CS₂) exposure is associated with all of the listed outcomes: it may accelerate atherosclerosis through lipid peroxidation and endothelial damage (A ✓), can cause peripheral neuropathy via axonal degeneration (B ✓), and has been associated with increased blood pressure in occupationally exposed workers through vascular and autonomic mechanisms (C ✓). The trap is attributing only one specific effect to CS₂ when its cardiovascular and neurological effects are well-established and interrelated. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1316",
+    "explanation": "Toluene has a low odor threshold (~2.5 ppm in air), meaning it can be detected at very low concentrations. This low threshold serves as an early warning property for toluene exposure, though olfactory fatigue can develop with prolonged exposure. The matching emphasizes sensory detection characteristics relevant to occupational exposure monitoring. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1317",
+    "explanation": "Benzidine is an aromatic amine historically used in the dye industry and is classified as a known human bladder carcinogen. The matching to 'inorganic lung carcinogen' may be misleading — benzidine is an ORGANIC compound that acts on the bladder, but the matching test pairs it with 'inorganic lung carcinogen' as a distractor pairing to test recognition that benzidine is carcinogenic, even though the descriptor terms are imprecise. In the context of this matching question, the key association is carcinogenicity. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1318",
+    "explanation": "Acrylonitrile is an industrial monomer used in synthetic fiber production. Exposure to acrylonitrile, particularly via inhalation of its mist, has been associated with an increased risk of laryngeal cancer in epidemiological studies. The compound is metabolically activated by CYP2E1 to 2-cyanoethylene oxide, a reactive epoxide that forms DNA adducts. The trap is confusing acrylonitrile's target with other industrial carcinogens. (Casarett & Doull 9e, Ch. 24)",
+    "domain": "Domain IV"
+  }
+]

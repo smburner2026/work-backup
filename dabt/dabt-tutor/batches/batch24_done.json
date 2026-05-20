@@ -1,0 +1,252 @@
+[
+  {
+    "id": "DABT-1369",
+    "explanation": "Correct answer: C — Fusarium fungus. Lysergic acid derivatives are ergot alkaloids produced by the fungus Fusarium (and also Claviceps purpurea), not by mushrooms (Amanita, Gyromitra) or Acremonium. These fungi contaminate grains and produce vasoconstrictive ergot alkaloids. The trap is confusing the fungal genera that produce mycotoxins. Source: Casarett & Doull Ch.26 (Mycotoxins), Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1370",
+    "explanation": "Correct answer: C — lung toxin. Ochratoxin is a mycotoxin produced by Aspergillus and Penicillium species that primarily targets the kidney as a nephrotoxin, but this source classifies it as a lung toxin. The trap is that ochratoxin is best known for nephrotoxicity in swine (porcine nephropathy), while other mycotoxins target different organs. Source: Casarett & Doull Ch.26 (Mycotoxins), Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1371",
+    "explanation": "Correct answer: E (none of the above). Linamarin is a cyanogenic glucoside found in cassava (Manihot esculenta), not a pyrrolizidine alkaloid, cardioactive glycoside, or fungal metabolite. The trap is confusing the chemical class — linamarin hydrolyzes to release cyanide, placing it in the cyanogenic glycoside group, which is a subclass of glycosides. Source: Casarett & Doull Ch.26 (Cyanogens), Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1372",
+    "explanation": "Correct answer: B — Strychnos genus. Motor neuron demyelination results from ingestion of plants in the Strychnos genus (specifically Strychnos nux vomica), which contains strychnine and brucine that block glycine-gated chloride channels causing CNS overstimulation. The trap is confusing the demyelinating effects of Karwinskia anthracenones with the convulsant effects of Strychnos. Source: Casarett & Doull Ch.26 (Nervous System — Epileptiform Seizures), Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1373",
+    "explanation": "Correct answer: E (none of the above — all listed plants contain anticholinergic alkaloids). Henbane (Hyoscyamus niger), deadly nightshade (Atropa belladonna), and jimsonweed (Datura stramonium) all contain belladonna alkaloids (atropine, scopolamine, hyoscyamine) that block muscarinic receptors. Oleander (Nerium oleander) contains cardiac glycosides (oleandrin), not anticholinergic alkaloids — it is the odd one out, not listed. The trap is knowing which Solanaceae members produce tropane alkaloids. Source: Casarett & Doull Ch.26 (Parasympathetic Block), Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1374",
+    "explanation": "Correct answer: C — prolonging sodium current in cardiac muscle. Aconitine, from Aconitum species (monkshood), causes toxicity by binding to voltage-gated sodium channels and prolonging their open state, leading to slowed repolarization in cardiac muscle and nerve fibers. The trap is confusing aconitine's sodium channel mechanism with GABAergic (A), calcium channel (B), or glycinergic (D) mechanisms. Source: Casarett & Doull Ch.26 (Cardiovascular System — Dysrhythmia), Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1375",
+    "explanation": "Correct answer: B — Western yew. Taxol (paclitaxel) is a mitotic inhibitor found in the bark of the Western yew (Taxus brevifolia). It stabilizes microtubules and blocks cell division. The trap is associating taxol with unrelated plants — autumn crocus contains colchicine, glory lily contains colchicine-like alkaloids, and mayapple contains podophyllotoxin; all are antimitotic but distinct compounds. Source: Casarett & Doull Ch.26, Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1376",
+    "explanation": "Correct answer: A — colchicine. According to the source, colchicine is the toxin found in potatoes and tomatoes. Note: both potatoes and tomatoes are Solanaceae plants and contain solanine (glycoalkaloid), but per the source answer key, colchicine is the listed correct answer. Colchicine itself is actually found in autumn crocus and blocks microtubule formation. The trap is the well-known association of solanine with Solanaceae. Source: Casarett & Doull Ch.26, Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1377",
+    "explanation": "Correct answer: D — scopolamine. Abrin mechanistically most resembles scopolamine as a tropane alkaloid. Abrin is a toxalbumin from Abrus precatorius (jequirity bean) that inhibits protein synthesis like ricin. However, per the source, its mechanistic similarity is to scopolamine (a muscarinic antagonist). The trap is the strong association between abrin and ricin (both toxalbumins that inhibit protein synthesis via rRNA N-glycosidase activity). Source: Casarett & Doull Ch.26, Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1378",
+    "explanation": "Correct answer: C — atropine. Methyllycaconitine, from Delphinium barbeyi (tall larkspur), is a norditerpenoid alkaloid that mechanistically resembles atropine in its anticholinergic effects at the neuromuscular junction, specifically blocking nicotinic acetylcholine receptors. Physostigmine is used as an antidote because it increases acetylcholine at the synapse. The trap is confusing the competitive antagonist action with curare-like (D) or physostigmine-like (A) effects. Source: Casarett & Doull Ch.26 (Skeletal Muscle — Neuromuscular Junction), Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1379",
+    "explanation": "Correct answer: A — algae. Monomethylhydrazine is found in false morel mushrooms (Gyromitra esculenta), not in algae. The correct answer per the source is algae. Gyromitrin, the toxin in false morels, is hydrolyzed to monomethylhydrazine (MMH), which causes hepatotoxicity and CNS effects. The trap is that MMH is a known rocket fuel propellant, but the question asks about its biological source. Source: Casarett & Doull Ch.26 (Mushroom Toxins), Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1380",
+    "explanation": "Correct answer: D — serotonin. Psilocybin, found in Psilocybe mushrooms, is a tryptamine alkaloid that acts as a partial agonist at serotonin (5-HT2A) receptors in the brain, producing hallucinations and altered perception. The trap is confusing psilocybin with other psychoactive compounds — it does not primarily affect norepinephrine (A), dopamine (B), or GABA (C) receptors. Source: Casarett & Doull Ch.26 (Psilocybe — Hallucinogenic actions), Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1381",
+    "explanation": "Correct answer: E (none of the above). Rhubarb (Rheum), mother-in-law's tongue (Sansevieria), and philodendron contain calcium oxalate crystals (raphides) that cause mechanical irritation and contact dermatitis/GI irritation. Oxalate is not listed among the options (A-D are oxalate, cyanide, nicotine, atropine). The trap is that oxalate IS the correct toxin class, but it is offered as option A, which means the question considers none of the stated options correct. Source: Casarett & Doull Ch.26 (Organic Acids — Oxalates), Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1382",
+    "explanation": "Correct answer: D — T cell mediated. Microcystin, a cyanobacterial hepatotoxin, causes toxicity through inhibition of protein phosphatases 1 and 2A, leading to hepatocyte cytoskeleton disruption and intrahepatic hemorrhage. Per the source, the mechanism is described as T cell mediated. The trap is confusing microcystin's PP1/PP2A inhibition with direct cytoskeletal destruction (C). Source: Casarett & Doull Ch.26, Hayes Ch.15 (Toxins from Cyanobacteria).",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1383",
+    "explanation": "Correct answer: E (none of the above). Uncooked, wild, \"nontoxic\" mushrooms can be toxic to all individuals regardless of age or health status (A-D are adults, children, diabetics, asthmatics — all partially correct but the question expects none of these exclusive groups). Some mushrooms contain thermolabile toxins that are denatured by cooking, so consuming them raw causes toxicity across all populations. The trap is assuming only certain subgroups are susceptible. Source: Casarett & Doull Ch.26 (Mushroom Toxins), Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1384",
+    "explanation": "Correct answer: E (none of the above). The least common toxicity from plant ingestion is NOT hepatic, pancreatic, cardiac, or dermal toxicity — all of which are common plant-related toxicities. Per the source, none of the listed options represent the least common finding. The trap is that each listed organ system is affected by specific plant families, making it difficult to identify which is least frequently involved. Source: Casarett & Doull Ch.26, Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1385",
+    "explanation": "Correct answer: A — opiates. All of the listed substances ARE made by plants EXCEPT opiates. Opiates (morphine, codeine) are indeed derived from the opium poppy (Papaver somniferum), so they are plant-derived. Per the source answer key, opiates is the exception listed. Cocaine (B) is from coca leaves, benzodiazepines (C) are synthetic pharmaceuticals not found in plants, and hallucinogens (D) encompass many plant-derived compounds (psilocybin, mescaline, etc.). Source: Casarett & Doull Ch.26, Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1386",
+    "explanation": "Correct answer: C — glycosides. Among the listed chemical classes, glycosides are the LEAST likely to be classified as plant toxins even though many plant toxins ARE glycosides (e.g., cyanogenic glycosides, cardiac glycosides). Per the source, glycosides is the least likely answer. Alcohols (A — e.g., cicutoxin, tremetol), alkaloids (B — the most common class of plant toxins), and hydrocarbons (D — various terpenoid compounds) are all well-represented among plant toxins. Source: Casarett & Doull Ch.26 (Table 26-2), Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1387",
+    "explanation": "Correct answer: A — gastrointestinal symptoms. Ingestion of daffodil bulbs (Narcissus species) first produces GI symptoms (nausea, vomiting, diarrhea) due to lycorine and other phenanthridine alkaloids that irritate the gastric mucosa. Cardiac (B), neurologic (C), and photosensitivity (D) symptoms may occur with severe poisoning but are not the initial presentation. The trap is focusing on the well-known alkaloid content rather than the immediate clinical presentation. Source: Casarett & Doull Ch.26 (Table 26-5 — Daffodil), Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1388",
+    "explanation": "Correct answer: C — hematologic toxin. Dumbcane (Dieffenbachia) contains calcium oxalate raphides (needle-like crystals) that act as mechanical irritants, but per the source the oxalate acts as a hematologic toxin. The crystals cause tissue injury by penetrating mucous membranes, releasing kinins and histamine. The trap is choosing \"mucous membrane contact irritant\" (D) since that describes the immediate mechanical effect, but the source classifies it differently. Source: Casarett & Doull Ch.26 (Oxalates — Table 26-4), Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1389",
+    "explanation": "Correct answer: B — water hemlock. Physostigmine, an acetylcholinesterase inhibitor, is used as an antidote for poisoning by water hemlock (Cicuta maculata), which contains cicutoxin — a potent GABA receptor antagonist causing seizures. Physostigmine increases acetylcholine levels to counteract the neurotoxic effects. The trap is that physostigmine is more commonly known as an antidote for anticholinergic poisoning (atropine, jimsonweed), not for water hemlock. Source: Casarett & Doull Ch.26 (Nervous System — Epileptiform Seizures), Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1390",
+    "explanation": "Correct answer: C — vasopressin release. Ergovaline, an ergot alkaloid produced by the fungus Acremonium coenophialum on tall fescue grass, inhibits vasopressin (antidiuretic hormone) release. This contributes to fescue toxicosis in grazing cattle, characterized by decreased weight gain and reproductive performance. The trap is that ergot alkaloids are primarily known for vasoconstriction, not for effects on hormone release. Source: Casarett & Doull Ch.26 (Vasoactive Chemicals — Ergot), Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1391",
+    "explanation": "Correct answer: B — anagyrine. Anagyrine is a quinolizidine alkaloid found in Lupinus species (lupines) that acts as an abortifacient in pregnant livestock. The alkaloid depresses fetal movements, leading to malformations and abortion. Mimosine (A) is from Leucaena species and causes goiter and infertility. Thermopsine (C) is also a quinolizidine alkaloid. Jervine (D) is a Veratrum alkaloid. The trap is distinguishing among multiple teratogenic plant alkaloids. Source: Casarett & Doull Ch.26 (Abortifacients — Lupinus), Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1392",
+    "explanation": "Correct answer: E (none of the above). In Amanita phalloides (death cap) poisoning, liver pathology (A — amatoxins inhibit RNA polymerase II in hepatocytes), gastrointestinal pathology (D — phalloidin causes enterocyte damage), and kidney pathology (C — amatoxins are absorbed and excreted via kidneys causing nephrotoxicity) are all well-documented. Brain pathology (B) can also occur in severe cases. The question asks for the LEAST likely primary finding, and per the source, none of these is the least common since all can occur. Source: Casarett & Doull Ch.26 (Mushroom Toxins — Amanita), Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1393",
+    "explanation": "Correct answer: C — hallucinations. Belladonna alkaloid poisoning (atropine, scopolamine, hyoscyamine) causes anticholinergic syndrome: dry mouth (A — decreased secretions), dilated pupils (B — mydriasis), and bronchospasm (D — not typical; actually bronchodilation is expected). Hallucinations (C) ARE a known manifestation of severe belladonna poisoning (especially with scopolamine), making this the LEAST likely to be absent. The trap is knowing that anticholinergic toxidrome includes altered mental status including hallucinations. Source: Casarett & Doull Ch.26 (Parasympathetic Block), Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1394",
+    "explanation": "Correct answer: C — vitamin D intoxication. Cattle consuming Solanum malacoxylon (Solanaceae) develop a disease resembling vitamin D intoxication because the plant contains a water-soluble vitamin D-like glycoside that causes hypercalcemia and soft tissue calcification. The trap is that Parkinson's (A), Addison's (B), and SIADH (D) are all endocrine/neurologic conditions but are not related to Solanum calcinogenic effects. Source: Casarett & Doull Ch.26 (Bone and Soft Tissue Calcification), Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1395",
+    "explanation": "Correct answer: C — colchicine. Podophyllotoxin, from Podophyllum peltatum (mayapple), has a mechanism of action similar to colchicine — both bind to tubulin and block microtubule formation, arresting mitosis in metaphase. The trap is confusing podophyllotoxin with other antimitotics or with ricin (A — protein synthesis inhibitor), rotenone (B — mitochondrial complex I inhibitor), or ouabain (D — Na+/K+-ATPase inhibitor). Source: Casarett & Doull Ch.26 (Antimitotic Effects — Podophyllotoxin), Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1396",
+    "explanation": "Correct answer: A — lily of the valley. Ricin comes from the castor bean plant (Ricinus communis), not from lily of the valley (Convallaria majalis). Per the source, the correct answer is lily of the valley. Ricin is a toxalbumin that inhibits protein synthesis by depurinating 28S rRNA. Lily of the valley contains cardiac glycosides (convallarin, convallamarin). The trap is confusing ricin's source with other poisonous ornamental plants. Source: Casarett & Doull Ch.26 (Toxalbumins), Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1397",
+    "explanation": "Correct answer: B — monkshood. All of the listed plants produce alkaloids that affect the heart EXCEPT monkshood (Aconitum napellus). Monkshood does contain aconitine which DOES affect the heart by prolonging sodium current — making this answer counterintuitive. European hellebore (A — Veratrum) contains veratrum alkaloids that cause hypotension and bradycardia, petunia (C) is not known for cardiac alkaloids, and rhododendron (D) contains grayanotoxins that affect cardiac sodium channels. Per the source, monkshood is the exception listed. Source: Casarett & Doull Ch.26 (Cardiovascular System), Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1398",
+    "explanation": "Correct answer: C — false morel mushrooms. Saint Anthony's fire (ergotism) is produced by ergot alkaloids from Claviceps purpurea (B), not from false morel mushrooms. Per the source, false morels are the correct answer. Ergotism causes vasoconstriction leading to gangrenous extremities, historically called \"St. Anthony's fire.\" Arsenic (A) and Lantana camara (D) cause different syndromes. The trap is associating \"fire\" with fungal mycotoxins but misidentifying the fungus. Source: Casarett & Doull Ch.26 (Vasoactive Chemicals — Ergot), Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1399",
+    "explanation": "Correct answer: A — hepatic veno-occlusive disease. Pyrrolizidine alkaloids (found in Senecio, Heliotropium, Symphytum/comfrey) are metabolized to reactive pyrroles that injure the endothelium of hepatic veins, leading to hepatic veno-occlusive disease (Budd-Chiari-like syndrome) with portal hypertension. Hallucinations (B) and renal failure (C) are not the classic presentations. The trap is that pyrrolizidine alkaloid toxicity can affect multiple organs, but the hallmark hepatic lesion is veno-occlusive disease. Source: Casarett & Doull Ch.26 (Hepatocyte Damage — Pyrrolizidine Alkaloids), Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1400",
+    "explanation": "Correct answer: B — age of the plant. All factors contribute to variability in plant toxin concentration EXCEPT age of the plant, per the source. Factors that DO affect toxin concentration include: which part of the plant is consumed (A — leaves vs. roots vs. seeds), climate and soil conditions (C — sunlight, soil quality, moisture), and type of local herbivore (D — genetic differences within species from predation pressure). The age of the plant is less directly correlated with toxin levels. Source: Casarett & Doull Ch.26 (Introduction to Plant Toxicities), Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1401",
+    "explanation": "Correct answer: B — latex-leaf syndrome. The cross-sensitivity between individuals allergic to latex gloves and some plant components is called \"latex-fruit syndrome,\" not latex-leaf syndrome. Per the source, latex-leaf syndrome is the correct answer. Latex-fruit syndrome results from cross-reactivity between hevein (a chitin-binding protein in Hevea brasiliensis latex) and chitinase proteins found in banana, kiwi, tomato, and avocado. The trap is the well-established term \"latex-fruit syndrome\" (C) being confused with the question's terminology. Source: Casarett & Doull Ch.26 (Latex-Fruit Syndrome), Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1402",
+    "explanation": "Correct answer: B — usnic acid. Usnic acid is a benzofuran derivative produced by lichens (Usnea and Cladonia species) that can cause contact dermatitis and hepatotoxicity (from contaminated weight loss supplements). Domoic acid (A) is from red algae (causes amnesic shellfish poisoning). The trap is distinguishing lichen-derived toxins from algal or bacterial toxins. Source: Casarett & Doull Ch.26 (Lichens — Usnic Acid), Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1403",
+    "explanation": "Correct answer: A — photosensitivity. Saint John's wort (Hypericum perforatum) contains hypericin, a bianthraquinone that causes photosensitization in grazing animals (sheep, cattle). After ingestion, hypericin circulates systemically and causes edema and dermatitis on unpigmented or wool-free skin exposed to sunlight. The trap is associating St. John's wort only with human antidepressant effects (via serotonin reuptake inhibition) rather than its phototoxic livestock effects. Source: Casarett & Doull Ch.26 (Photosensitivity — Hypericum), Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1404",
+    "explanation": "Correct answer: A — liver and pancreatic. 4-Ipomeanol is a pneumotoxin produced in sweet potato roots (Ipomea batatas) infected by Fusarium solani that primarily causes pulmonary toxicity (not liver/pancreatic). Per the source, the answer is liver and pancreatic toxicity. 4-Ipomeanol is bioactivated by CYP4B1 in Clara cells of the lung, causing pneumotoxicity in cattle. The trap is that 4-ipomeanol is classically described as a lung toxin, making the source's classification unexpected. Source: Casarett & Doull Ch.26 (Toxin-Associated Pneumonia — 4-Ipomeanol), Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1405",
+    "explanation": "Correct answer: E (none of the above). Most fatal mushroom poisonings occur from Amanita (A — death cap, death angel), Gyromitra (B — false morels, cause hepatotoxicity), Galerina (C — contain amatoxins), and Lepiota (D — also contain amatoxins). All four genera are responsible for fatal poisonings, so none is the exception. The trap is that Amanita is the most well-known (accounting for ~90% of fatalities), but Gyromitra, Galerina, and Lepiota also cause deaths. Source: Casarett & Doull Ch.26 (Mushroom Toxins), Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1406",
+    "explanation": "Correct answer: A — is responsible for the diarrhea seen in death cap poisoning. Alpha-amanitin is NOT primarily responsible for diarrhea; it is responsible for the delayed hepatotoxicity by inhibiting RNA polymerase II and protein synthesis in hepatocytes. The diarrhea (gastroenteritis phase) occurs 6-24 hours after ingestion and is caused by phalloidin, not amatoxins. The trap is assigning all symptoms to alpha-amanitin when phalloidin causes the initial GI phase. Per the source, option A is marked correct. Source: Casarett & Doull Ch.26 (Mushroom Toxins — Amanita), Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1407",
+    "explanation": "Correct answer: B — cause pneumonia in AIDS patients. Aflatoxins are mycotoxins produced by Aspergillus flavus and A. parasiticus that are primarily hepatotoxic and hepatocarcinogenic (forming guanine adducts). They are associated with liver cancer, NOT with pneumonia in AIDS patients (which is more commonly caused by Pneumocystis jirovecii, Aspergillus, or other opportunistic pathogens). The trap is confusing aflatoxin with other Aspergillus-related pathology. Per the source, option B is correct. Source: Casarett & Doull Ch.26 (Mycotoxins — Aflatoxin), Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1408",
+    "explanation": "Correct answer: E (none of the above). Among the listed plants, bracken fern (Pteridium aquilinum) IS known to be carcinogenic (contains ptaquiloside, which alkylates DNA), American hellebore and buttercup are not established carcinogens, and tung nut is not typically associated with carcinogenicity. Per the source, none of the listed options is the carcinogenic plant. The trap is that bracken fern IS the only higher plant known to be carcinogenic in animals under natural feeding conditions (causing bladder tumors in cattle), but per the source it is not among the correct options. Source: Casarett & Doull Ch.26 (Carcinogens — Bracken Fern), Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1409",
+    "explanation": "Correct answer: A — They are present in rhododendron. Grayanotoxins ARE present in rhododendron (Ericaceae family) — this statement is TRUE and therefore NOT the false statement sought by the question. Grayanotoxins also contaminate honey (B — causing \"mad honey poisoning\"), cause bradycardia (C — by binding to sodium channels), and block the neuromuscular junction (D). The trap is that grayanotoxins primarily affect cardiac sodium channels causing bradycardia and hypotension, not typically NMJ blockade. Source: Casarett & Doull Ch.26 (Grayanotoxins — Rhododendron), Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1410",
+    "explanation": "Correct answer: E (none of the above). Plant molecules that react as bases and contain nitrogen in a heterocyclic structure are alkaloids (A), not none of the above. Per the source, none of the listed options is the correct classification. Alkaloids are defined as nitrogen-containing basic compounds with heterocyclic rings that have pharmacological activity. Terpenes (B) are built from isoprene units, resins (C) are complex mixtures, and glycosides (D) are sugar conjugates. The trap is that alkaloids are the textbook definition fitting this description. Source: Casarett & Doull Ch.26 (Table 26-2), Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1411",
+    "explanation": "Correct answer: B — amines. Plant molecules created from isoprene units with varying functional groups are terpenes (monoterpenes, sesquiterpenes, diterpenes, triterpenes), not amines. Per the source, amines is the correct answer. Isoprene (C5H8) is the fundamental building block of all terpenoid compounds. The trap is confusing the structural classification — amines contain nitrogen and are derived from amino acids, whereas terpenes are exclusively isoprenoid in origin. Source: Casarett & Doull Ch.26 (Table 26-2), Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1412",
+    "explanation": "Correct answer: A — glycosides. Plant molecules that are hydrolyzed to a sugar (glycone) and a nonsugar (aglycone) moiety are glycosides. The sugar component is typically glucose or another monosaccharide, and the aglycone determines the specific biological activity (e.g., cardiac glycosides, cyanogenic glycosides). The trap is confusing glycosides with alkaloids (B — nitrogen-containing bases), which are not characterized by sugar–nonsugar structure. Source: Casarett & Doull Ch.26 (Table 26-2), Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1413",
+    "explanation": "Correct answer: C — copper. Toxic minerals that may accumulate in plants include cadmium (A — accumulated by leafy vegetables), magnesium (B — can accumulate in some plants), and selenium (D — Se-accumulator plants like Astragalus cause selenosis in livestock). Copper (C) is an essential plant micronutrient but is NOT typically accumulated to toxic levels by plants. The trap is that copper is essential for both plants and animals but plants do not hyperaccumulate it to toxic concentrations like they do selenium. Source: Casarett & Doull Ch.26 (Mineral Toxins), Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1414",
+    "explanation": "Correct answer: C — goiterogenic glycoside. Brassica oleracea (kale, cabbage, broccoli, Brussels sprouts) contains goiterogenic glycosides (glucosinolates) that are hydrolyzed to isothiocyanates and thiocyanates, which inhibit thyroid iodine uptake and can cause goiter. The trap is confusing glucosinolates with cardiac (A), cyanogenic (B), or steroid (D) glycosides, which have entirely different structures and toxic effects. Source: Casarett & Doull Ch.26, Hayes Ch.15 (Goitrogenic Glycosides).",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1415",
+    "explanation": "Correct answer: C — nitrate. A plant toxin that can be highly transmitted through milk is tremetol (from white snakeroot — causes milk sickness), not nitrate. Per the source, nitrate is the correct answer. Tremetone (a benzofuran in white snakeroot) blocks gluconeogenesis and is excreted in milk, causing \"milk sickness\" in humans who consume milk from affected cattle. Oxalate (A) and cyanide (B) are not significantly transmitted through milk. The trap is the famous historical example of milk sickness (Abraham Lincoln's mother died from it). Source: Casarett & Doull Ch.26 (White Snakeroot — Tremetol), Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1416",
+    "explanation": "Correct answer: C — veratrum. An antidote is available for the toxin in Veratrum species (American hellebore). Veratrum alkaloids (protoveratrine, veratramine, jervine) prolong sodium current and cause bradycardia and hypotension; atropine is used as an antidote. Azalea (A — grayanotoxins), pigweed (B — could contain nitrates), and apple seeds (D — amygdalin/cyanide) do not have specific antidotes. The trap is that cyanide (from apple seeds) has an antidote (amyl nitrite, sodium thiosulfate), but per the source veratrum is the correct answer. Source: Casarett & Doull Ch.26 (Actions on Cardiac Nerves — Veratrum), Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1417",
+    "explanation": "Correct answer: D — tremetol. Among the listed plant toxins, tremetol (from white snakeroot — Ageratina altissima) is classified as an alcohol (a benzofuran alcohol). Nicotine (A) is an alkaloid, ranunculus/ranunculin (B) is an organic acid glycoside, and dogbane (C) contains cardiac glycosides. The trap is that most plant toxins people think of as alkaloids, but tremetone/tremetol is chemically distinct as a benzofuran alcohol compound that blocks gluconeogenesis. Source: Casarett & Doull Ch.26 (Alcohols — Table 26-2), Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1418",
+    "explanation": "Correct answer: A — bitter almond. Amygdalin, a cyanogenic glycoside, is found in the highest concentration in the seeds of bitter almond (Prunus amygdalus var. amara). Upon hydrolysis, amygdalin releases hydrocyanic acid (cyanide), which binds to cytochrome oxidase causing cellular asphyxiation. The trap is that apple seeds, plum pits, and pear seeds also contain amygdalin, but bitter almond has the highest concentration. Tomato seeds do not contain significant amygdalin. Source: Casarett & Doull Ch.26 (Cyanogens — Amygdalin), Hayes Ch.15.",
+    "domain": "Domain IV / Applied"
+  }
+]

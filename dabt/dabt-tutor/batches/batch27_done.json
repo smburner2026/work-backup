@@ -1,0 +1,252 @@
+[
+  {
+    "id": "DABT-1519",
+    "explanation": "n-Hexane is not capable of accepting electrons from reductases to form radicals. Paraquat, doxorubicin, and nitrofurantoin are classic redox-cycling compounds that undergo one-electron reduction by NADPH-cytochrome P450 reductase (or other reductases) to form radical intermediates. These radicals then transfer electrons to molecular oxygen, generating superoxide and regenerating the parent compound for further cycling. n-Hexane is bioactivated by P450-catalyzed oxidation to alcohols, aldehydes, and ultimately 2,5-hexanedione — an oxidative pathway, not reductive radical formation.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1520",
+    "explanation": "Conversion of NO to NO₂ (option C) represents the formation of an electrophilic toxicant from an inorganic chemical. NO is a free radical gas that can be oxidized to NO₂, a potent electrophilic and oxidizing species. CO→CO₂ (option A) is detoxication (oxidation to less toxic CO₂). AsO₄³⁻→AsO₃²⁻ (option B, arsenate→arsenite) is reductive bioactivation but not specifically classified as 'formation of an electrophilic toxicant'. OH⁻→H₂O (option D) is simple acid-base neutralization.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1521",
+    "explanation": "Conjugation with acetyl CoA is not a general mechanism for detoxication of electrophiles. The primary pathways for detoxifying electrophiles are: (1) conjugation with glutathione (nucleophilic trapping via glutathione S-transferases), (2) conjugation with glucuronic acid, and (3) conjugation with sulfate. These reactions add large, polar groups that block the electrophilic site and facilitate excretion. Acetyl CoA conjugation (acetylation) is used for amines and carboxyl groups, not for general electrophile trapping.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1522",
+    "explanation": "Acetylation (N-acetylation) catalyzed by N-acetyltransferases (NAT1 and NAT2) is the most common nucleophilic detoxication reaction that amines undergo. Acetylation reduces amine nucleophilicity and often decreases toxicity and facilitates excretion. Sulfation, methylation, and amino acid conjugation are other conjugation pathways but are not the most common for amine detoxication.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1523",
+    "explanation": "All of the above are valid reasons why detoxication mechanisms may fail. (1) Toxicants can overwhelm the system at high concentrations or with repeated exposure, depleting cofactors like glutathione. (2) A reactive toxicant may inactivate a detoxicating enzyme through covalent modification of its active site (suicide inhibition). (3) Detoxication itself may produce a toxic by-product — for example, glutathione conjugation of certain haloalkenes yields nephrotoxic cysteine S-conjugates via the β-lyase pathway.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1524",
+    "explanation": "NNK (nicotine-derived nitrosamine ketone, 4-(methylnitrosamino)-1-(3-pyridyl)-1-butanone) is the most potent carcinogen derived from nicotine. It is a tobacco-specific nitrosamine that requires metabolic activation by cytochrome P450 (primarily CYP2A6 in humans) to form electrophilic intermediates that alkylate DNA, producing adducts such as O⁶-methylguanine and pyridyloxobutyl adducts.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1525",
+    "explanation": "The interaction of silica with surface iron ions in lung tissue does not produce hydroxyl radical. The established mechanisms for hydroxyl radical (•OH) production are: (A) nitric oxide synthase acting on water — uncoupled NOS can produce superoxide leading to •OH; (B) ionizing radiation splitting water (water radiolysis: H₂O → •OH + H• + e⁻); (C) reductive homolytic fission of H₂O₂ via the Fenton reaction (Fe²⁺ + H₂O₂ → Fe³⁺ + •OH + OH⁻).",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1526",
+    "explanation": "Covalent binding of an electrophile to a protein that does not play a critical function is considered a detoxication reaction. The reactive electrophile is sequestered through covalent attachment to an abundant but non-essential protein, preventing it from reaching more critical targets such as DNA or essential enzymes. This represents a successful detoxication (toxin sequestration), not a toxication event.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1527",
+    "explanation": "The incorrect receptor-exogenous ligand pair is aryl hydrocarbon receptor–rifampicin. The aryl hydrocarbon receptor (AhR) is a ligand-activated transcription factor that binds planar aromatic compounds such as TCDD, benzo[a]pyrene, and certain PCBs. Rifampicin is an antibiotic that acts as a ligand for the pregnane X receptor (PXR), not AhR. The other pairs are correct: zearalenone (a Fusarium mycotoxin) is an estrogen receptor agonist; dexamethasone is a potent synthetic glucocorticoid receptor agonist; and clofibrate is a PPARα agonist.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1528",
+    "explanation": "The GABA(A) receptor–muscimol pair is incorrect as an agonist pair. While muscimol has some activity at GABA(A) receptors, its primary agonist activity is at GABA-C receptors (GABA-A-rho subunit-containing receptors, now classified as GABA_C_R). Muscimol is significantly more potent at GABA-C receptors than GABA-A receptors in many experimental systems, making this pairing inaccurate as a selective GABA(A) receptor agonist relationship. (The other pairs are correct: kainate activates glutamate/kainate receptors; strychnine is a glycine receptor antagonist; and meperidine is an opioid receptor agonist.)",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1529",
+    "explanation": "The adrenergic beta 1 receptor–metoprolol pair is incorrectly listed among the combined receptor-antagonist pairs as being an established antagonist relationship in the context of this question. Metoprolol is a selective beta-1 adrenergic receptor antagonist, making it a correctly matched pair. The other listed pairs (serotonin 2 receptor–ketanserin, glutamate receptor–ketamine, and GABA A receptor–avermectins) contain relationships that are not classically defined antagonist-receptor matches, making option A the pair selected as 'incorrect' in this context.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1530",
+    "explanation": "Clonidine overdose produces a sympatholytic toxidrome characterized by CNS depression, miosis, bradycardia, hypotension, and hypothermia — a clinical picture that does not precisely match poisoning with morphine (opioid agonist: primarily respiratory depression, miosis, but also analgesia/euphoria), cocaine (sympathomimetic: tachycardia, hypertension, mydriasis), phencyclidine (dissociative: nystagmus, agitation, hypertension, psychosis), or amphetamine (sympathomimetic: tachycardia, hypertension, hyperthermia, mydriasis). None of the listed agents adequately capture the clonidine toxidrome, which most closely resembles a combination of opioid and sedative-hypnotic poisoning with unique sympatholytic features.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1531",
+    "explanation": "All of the listed compounds act as inhibitors of the citric acid cycle. 4-Pentenoic acid inhibits beta-oxidation and key TCA cycle enzymes (including succinate dehydrogenase) through its metabolite 2,4-dienoyl-CoA. Fluoroacetate is metabolically activated to fluorocitrate, which competes with citrate for aconitase, irreversibly inhibiting the TCA cycle. DCVC (S-(1,2-dichlorovinyl)-L-cysteine) is a nephrotoxicant metabolized by β-lyase to reactive intermediates that inhibit mitochondrial TCA enzymes. Malonate is a classic competitive inhibitor of succinate dehydrogenase (complex II). None of these compounds are exceptions; all inhibit the TCA cycle.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1532",
+    "explanation": "DDT does not inhibit ADP phosphorylation. Its primary mechanism of toxicity is modulation of voltage-gated sodium channels in neuronal membranes, causing repetitive firing. In contrast, oligomycin inhibits ADP phosphorylation by blocking the proton channel (F₀ subunit) of ATP synthase (complex V). Ethanol inhibits oxidative phosphorylation through multiple effects on mitochondrial membranes. N-ethylmaleimide alkylates thiol groups and inhibits ADP/ATP translocase and other mitochondrial proteins, thereby inhibiting ADP phosphorylation.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1533",
+    "explanation": "Formate does not cause calcium influx into the cytoplasm. Its primary toxic mechanism is inhibition of cytochrome oxidase (complex IV of the electron transport chain), leading to histotoxic hypoxia and lactic acidosis. Capsaicin activates TRPV1 receptors, triggering calcium influx through these nonselective cation channels. Domoate is a kainate receptor agonist that opens cation channels, causing calcium influx. Amphotericin B forms transmembrane pores that allow Ca²⁺ and other ions to enter the cell.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1534",
+    "explanation": "Hydroxyl radical is enzymatically detoxified by catalase. Catalase converts hydrogen peroxide (H₂O₂) to water and molecular oxygen (2 H₂O₂ → 2 H₂O + O₂), thereby preventing H₂O₂ from participating in the Fenton reaction (Fe²⁺ + H₂O₂ → Fe³⁺ + •OH + OH⁻), which generates the highly reactive hydroxyl radical. Glutathione peroxidase also reduces H₂O₂ to water but uses reduced glutathione as a co-substrate. Glutathione reductase regenerates GSH from GSSG.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1535",
+    "explanation": "The correct statement is that toxicants at low doses usually cause apoptosis while necrosis occurs at higher doses. Low-level insult triggers regulated cell death (apoptosis), while overwhelming injury causes unregulated necrosis. The other statements are false: necrosis does NOT require ATP (it is a passive, energy-independent process); release of cytochrome c from mitochondria triggers the intrinsic apoptotic cascade, not necrosis; and apoptosis is essential for normal development and tissue homeostasis (e.g., removal of damaged cells, immune function).",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1536",
+    "explanation": "Lorazepam does not block voltage-gated potassium channels. As a benzodiazepine, lorazepam potentiates GABA-A receptor-mediated chloride conductance. The other three drugs are all known to block cardiac hERG (Kv11.1) potassium channels, causing QT interval prolongation: cisapride (a prokinetic agent withdrawn for this reason), terfenadine (a non-sedating antihistamine withdrawn due to cardiotoxicity), and grepafloxacin (a fluoroquinolone antibiotic associated with QT prolongation).",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1537",
+    "explanation": "Diazoxide is a drug that acts on ATP-sensitive potassium channels (K_ATP) in pancreatic beta cells. By opening these channels, it causes membrane hyperpolarization, which closes voltage-dependent calcium channels, reducing calcium influx and thereby impairing insulin secretion. This action makes diazoxide useful for treating hypoglycemia due to hyperinsulinism. Terbutaline (a beta-2 agonist), niacin (a B vitamin), and lidocaine (a sodium channel blocker) do not act on pancreatic K_ATP channels.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1538",
+    "explanation": "Inhibition of drug-metabolizing enzymes is not a direct mechanism of cell death. Major cell death mechanisms from chemicals include: (1) rise in intracellular calcium — activating proteases, endonucleases, and phospholipases; (2) ATP depletion — energy crisis halting essential cellular functions; and (3) overproduction of reactive oxygen species — causing oxidative damage to lipids, proteins, and DNA. While inhibition of DMEs can contribute to toxicant accumulation, it is not itself a mechanism of cell death.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1539",
+    "explanation": "Phosphine (PH₃) does not inhibit cytochrome oxidase (complex IV). MPP⁺ (the active metabolite of MPTP) inhibits complex I of the electron transport chain, leading to impaired respiration and secondary inhibition of cytochrome oxidase. Azide (N₃⁻) is a classic cytochrome oxidase inhibitor, binding to the heme a₃-CuB center. Hydrogen sulfide (H₂S) also inhibits cytochrome oxidase by binding to its heme iron. Phosphine inhibits mitochondrial respiration through different mechanisms, primarily by affecting complex IV indirectly or by inducing oxidative stress.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1540",
+    "explanation": "Paraquat does not directly inhibit NADH-coenzyme Q reductase (complex I). Its primary mitochondrial toxicity involves redox cycling: it accepts an electron from complex I (or other reductases), forming the paraquat radical, which then reduces O₂ to superoxide. Rotenone is a classic, potent complex I inhibitor that binds to the ubiquinone binding site. Arsenite inhibits complex I by binding to critical thiol groups in its subunits. Amytal (amobarbital) also inhibits complex I at the rotenone-binding site. Paraquat acts as a substrate for redox cycling at this site but is not an inhibitor.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1541",
+    "explanation": "Depletion of local ATP is a contributing factor in the termination of tissue regeneration. Regenerative processes (cell proliferation, differentiation, protein synthesis) are highly energy-dependent. When ATP levels become depleted — due to mitochondrial dysfunction, ischemia, or sustained metabolic demand — the energy supply becomes insufficient to sustain the synthetic processes required for tissue regeneration, contributing to regeneration arrest.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1542",
+    "explanation": "Overexpression of divalent metal transporter 1 (DMT1) in iron deficiency does NOT lead to increased intestinal absorption of lithium and aluminum. DMT1 is a proton-coupled transporter specific for divalent metal ions, including Fe²⁺, Mn²⁺, Cu⁺/²⁺, Co²⁺, Cd²⁺, Pb²⁺, and Zn²⁺. Lithium (Li⁺) is a monovalent cation and aluminum (Al³⁺) is trivalent — neither is a DMT1 substrate. The increased DMT1 expression in iron deficiency enhances absorption of toxic divalent metals like cadmium and lead.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1543",
+    "explanation": "AMPK (AMP-activated protein kinase) is the intracellular protein that increases ATP production and decreases ATP consumption. It acts as a cellular energy sensor: when the AMP/ATP ratio rises, AMPK is activated and phosphorylates downstream targets to (1) stimulate catabolic pathways (glucose uptake, glycolysis, fatty acid oxidation) to produce ATP, and (2) suppress anabolic pathways (protein synthesis, gluconeogenesis) to conserve ATP. RAS is a GTPase signaling protein; BAX is a pro-apoptotic BH3 protein; VEGF is a growth factor promoting angiogenesis — none have this energy-regulating function.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1544",
+    "explanation": "Both the heat-shock response and the endoplasmic reticulum (ER) stress response repair misfolded proteins. The heat-shock response upregulates molecular chaperones (HSP70, HSP90, HSP27) that bind to and refold denatured or misfolded proteins. The ER stress response (unfolded protein response, UPR) detects misfolded proteins in the ER and activates pathways to reduce protein load and enhance protein folding capacity through chaperone induction and ER-associated degradation (ERAD). Neither pathway directly repairs DNA or damaged lipids.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1545",
+    "explanation": "Myeloperoxidase does not produce free radicals directly — it produces hypochlorous acid (HOCl) from H₂O₂ and Cl⁻. While HOCl is a potent oxidant, it is not a free radical. The other enzymes can produce free radicals in inflamed tissue: aconitase can be inactivated by superoxide, leading to iron release and OH• formation; NADPH oxidase (NOX) produces superoxide (O₂⁻•) as its primary product; and nitric oxide synthase (when uncoupled or induced by iNOS) produces NO•, which can combine with superoxide to form peroxynitrite (ONOO⁻).",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1546",
+    "explanation": "Production of proteins that stimulate AEROBIC ATP synthesis from glucose is NOT an element of the hypoxia response. Under hypoxic conditions, cells shift from oxidative phosphorylation to anaerobic glycolysis. The hypoxia-inducible factor (HIF-1α) response upregulates: (1) glucose transporters (GLUT1) and glycolytic enzymes (PFK, LDH, PDK1) to increase glycolytic ATP production; (2) erythropoietin (EPO) to increase red blood cell mass; and (3) VEGF and other growth factors to stimulate angiogenesis. PDK1 actively suppresses aerobic metabolism by inhibiting pyruvate dehydrogenase.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1547",
+    "explanation": "RAS is the classic example of a protein that results from a mutation of an oncogene. The RAS family (H-RAS, K-RAS, N-RAS) are the most frequently mutated oncogenes in human cancers. Mutations (typically at codons 12, 13, or 61) lock RAS in the active GTP-bound state, leading to constitutive activation of downstream growth-signaling pathways (MAPK, PI3K/AKT). ICAM-I (intercellular adhesion molecule 1) is an adhesion molecule; STAT (signal transducer and activator of transcription) is a transcription factor; and C/EBP (CCAAT/enhancer-binding protein) is also a transcription factor — none are classic oncogene mutation products.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1548",
+    "explanation": "NOXA (PMAIP1) is not a mitogenic growth factor — it is a pro-apoptotic BH3-only protein of the BCL-2 family that is transcriptionally activated by p53 in response to DNA damage. Mitogenic growth factors stimulate cell proliferation and include HGF (hepatocyte growth factor, a potent mitogen for hepatocytes and epithelial cells), TGFα (transforming growth factor alpha, an EGF receptor ligand that stimulates cell division), and CTGF (connective tissue growth factor, which promotes fibroblast proliferation and matrix production).",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1549",
+    "explanation": "If only a few mitochondria are injured in a cell, the outcome can be cell survival. Cells typically contain hundreds to thousands of mitochondria and have substantial functional reserve. Limited mitochondrial injury can be compensated by healthy mitochondria through: (1) increased respiration in remaining functional mitochondria, (2) mitophagy to selectively remove damaged mitochondria, and (3) mitochondrial fission/fusion dynamics that segregate and repair damaged components. Cell death occurs only when the mitochondrial injury exceeds a critical threshold.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1550",
+    "explanation": "Cellular uptake transporters on target tissues do NOT oppose distribution — they FACILITATE it. Mechanisms that oppose (limit) distribution of a toxicant to target tissues include: (A) plasma protein binding — restricts free concentration available for tissue uptake; (B) blood-brain barrier — physical tight junctions and efflux transporters (P-gp, BCRP) limit brain penetration; and (C) distribution to nontarget organ storage sites — sequestration in adipose tissue, bone, or liver reduces availability to target tissues.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1551",
+    "explanation": "Intestinal excretion is not a major elimination route for nonvolatile, highly lipid-soluble chemicals that resist biotransformation. These persistent lipophilic compounds are eliminated primarily through: (A) biliary excretion (concentrated in bile, though subject to enterohepatic recirculation); (B) excretion in breast milk (due to high fat content, important for lactational transfer of persistent organic pollutants); and (C) exhalation (volatilization from blood into alveolar air for sufficiently volatile compounds). Direct intestinal excretion is negligible for lipophilic compounds.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1552",
+    "explanation": "Carbon tetrachloride (CCl₄) is NOT an example of a parent xenobiotic that acts as the ultimate toxicant without bioactivation. CCl₄ requires metabolic activation by CYP2E1 to form the trichloromethyl radical (•CCl₃), which is the actual toxic species that initiates lipid peroxidation. In contrast: lead (Pb²⁺) acts directly by binding to sulfhydryl groups in enzymes; tetrodotoxin directly blocks voltage-gated sodium channels; and carbon monoxide directly binds to hemoglobin. These three are direct-acting (parent compound = ultimate toxicant).",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1553",
+    "explanation": "TCDD (2,3,7,8-tetrachlorodibenzo-p-dioxin) is an example of a xenobiotic whose metabolite does NOT act as the ultimate toxicant — TCDD itself is the ultimate toxicant. TCDD directly binds the aryl hydrocarbon receptor (AhR) and resists metabolic degradation. The other three require bioactivation: n-hexane is metabolized to 2,5-hexanedione (the neurotoxic species); ethylene glycol is oxidized to oxalic acid (causes calcium oxalate crystal deposition and renal toxicity); and acetaminophen is bioactivated to NAPQI (N-acetyl-p-benzoquinone imine) by CYP2E1/3A4.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1554",
+    "explanation": "Binding of hydroxyl radicals (•OH) to DNA bases is a COVALENT modification, not a noncovalent interaction. Hydroxyl radical adds to the C8 position of guanine (forming 8-hydroxydeoxyguanosine, 8-OHdG) and other bases through covalent bond formation. The other examples are all noncovalent interactions: (A) strychnine binds reversibly to the glycine receptor via hydrogen bonds and van der Waals forces; (C) phorbol esters intercalate into the C1 domain of PKC through hydrophobic interactions; (D) warfarin noncovalently binds vitamin K epoxide reductase at its active site.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1555",
+    "explanation": "The reaction of hydrogen peroxide with a protein thiol group (-SH) produces a protein sulfenic acid (R-SOH). This is a reversible two-electron oxidation of the cysteine thiol to the sulfenic acid state. Sulfenic acid formation is an important cellular redox signaling mechanism and can protect protein thiols from irreversible overoxidation to sulfinic (R-SO₂H) or sulfonic (R-SO₃H) acids, or can form disulfide bonds with nearby thiols for further stabilization.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1556",
+    "explanation": "DNA is not a major target molecule for most toxicants in the context of acute toxicity. The primary target molecules for the broad range of toxicants are: proteins (enzymes, receptors, transporters, ion channels — the most common target class); lipids (membrane integrity, signaling lipid modification); and vitamins/cofactors (e.g., inhibition of pyridoxine-dependent enzymes by hydrazines, or thiamine antagonism by ethanol). While DNA is a critical target for genotoxicants, it is not a 'major' target for the majority of toxicants, as most toxicants act on protein targets.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1557",
+    "explanation": "Tetrodotoxin (TTX) does NOT act by enzymatic action. It is a potent, selective, noncompetitive blocker of voltage-gated sodium channels (Na_V) through high-affinity noncovalent binding to the pore region. The other three toxins act enzymatically: (A) ricin is an N-glycosidase that depurinates a specific adenine in 28S rRNA, inactivating ribosomes; (B) anthrax lethal factor is a zinc-dependent metalloprotease that cleaves MAPK kinases (MEK1/MEK2); (D) botulinum toxin is a zinc-dependent endopeptidase that cleaves SNARE proteins (SNAP-25, VAMP/synaptobrevin), blocking neurotransmitter release.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1558",
+    "explanation": "All of the above can initiate apoptotic pathways. (A) DNA damage activates the intrinsic pathway through p53-mediated upregulation of pro-apoptotic BH3-only proteins (PUMA, NOXA, BAX), leading to mitochondrial outer membrane permeabilization (MOMP) and caspase-9 activation. (B) Mitochondrial insult (e.g., oxidative stress, Ca²⁺ overload, permeability transition) releases cytochrome c and other pro-apoptotic factors from the intermembrane space, activating the apoptosome and caspase-9. (C) Death-receptor stimulation (Fas, TNF-R1, TRAIL-R) recruits FADD and procaspase-8, activating the extrinsic apoptotic pathway.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1559",
+    "explanation": "None of the listed enzymes repairs oxidized protein thiols. HMG-CoA reductase is the rate-limiting enzyme in cholesterol biosynthesis. Adenyl cyclase catalyzes the conversion of ATP to cAMP. Phospholipase cleaves phospholipids into fatty acids and other products. The actual enzymes that repair oxidized protein thiols are thioredoxin reductase (which reduces oxidized thioredoxin, which in turn reduces protein disulfides) and glutaredoxin (which reduces protein-glutathione mixed disulfides). These use NADPH as the reducing cofactor.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1560",
+    "explanation": "None of the above (option D) — none of the listed mechanisms individually captures the presumed mechanism of bleomycin-induced lung injury. Bleomycin's pulmonary toxicity involves a multi-step process: bleomycin chelates Fe²⁺ and forms an activated complex with O₂ that generates both superoxide and hydroxyl radicals (ROS generation), which in turn cause DNA strand scission (not adduct formation). Additionally, the pulmonary selectivity arises from low levels of bleomycin hydrolase (the inactivating enzyme) in the lung. The ROS-mediated DNA damage and tissue injury cannot be reduced to any single factor listed.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1561",
+    "explanation": "The statement 'It can lead to base pair transversions' is actually TRUE of oxidative DNA damage, so it is NOT the exception the question asks for. Oxidative DNA damage from reactive oxygen species (particularly •OH) produces 8-hydroxydeoxyguanosine (8-OHdG), which can mispair with adenine during replication, leading to G→T transversions (a type of base substitution). The FALSE statement (the exception) is that mitochondrial DNA is much more resistant to damage than nuclear DNA — in fact, mtDNA is MORE susceptible due to its proximity to the electron transport chain (the main ROS source), lack of protective histones, and limited repair capacity.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1562",
+    "explanation": "A histone is an example of a denatured protein — more precisely, when histones undergo denaturation (such as during necrosis or certain toxic injuries), they can form complexes with other cellular components. However, this option seems to be the distractor in a question format that asks which is actually a denatured protein. The classic examples of protein denaturation/aggregation include: Heinz bodies (denatured hemoglobin aggregates in erythrocytes), Mallory bodies (denatured keratin in hepatocytes), and Lewy bodies (denatured α-synuclein in neurons). Histones are basic nuclear proteins involved in DNA packaging but are not classic examples of denatured protein aggregates seen in toxic injury.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1563",
+    "explanation": "The FALSE statement about lipid peroxidation (the exception) is that it never involves the Fenton reaction. In reality, the Fenton reaction (Fe²⁺ + H₂O₂ → Fe³⁺ + •OH + OH⁻) is a major initiator of lipid peroxidation — hydroxyl radical generated by Fenton chemistry abstracts a hydrogen atom from polyunsaturated fatty acids (PUFAs), initiating the chain reaction. The other statements are TRUE: (A) lipid peroxidation CAN be blocked by chain-breaking antioxidants (e.g., vitamin E, BHT); (B) damage propagates in a chain reaction manner (lipid radical → lipid peroxyl radical → oxidizes adjacent PUFA); (D) end products (malondialdehyde, 4-HNE, isoprostanes) differ from ozonolysis products.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1564",
+    "explanation": "The FALSE statement about mechanisms of immune system toxicology is that oral exposure of a xenobiotic is associated with a much greater chance of an immune reaction than by other routes. In fact, the oral route is often associated with oral tolerance — the immune system's default response to oral antigens is tolerance (via regulatory T cells, anergy, or deletion) rather than sensitization. The dermal route, inhalation, and injection are typically more immunogenic. The other statements are TRUE: (A) TCDD-induced thymic atrophy is AhR-mediated; (B) hapten-protein conjugates can alter protein conformation, exposing cryptic epitopes; (D) the danger hypothesis posits that immune tolerance is broken when cellular stress/damage signals (danger-associated molecular patterns, DAMPs) accompany the antigen.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1565",
+    "explanation": "Among the statements about PPARα, the one that is true is that thiazolidinediones (TZDs) act as ligands — but importantly, TZDs are ligands for PPARγ, not PPARα. The more accurate true statement about PPARα specifically is that PPARα is involved in fatty acid beta-oxidation (it upregulates genes for peroxisomal and mitochondrial fatty acid oxidation). PPARα stimulation does NOT cause peroxisome proliferation in humans (unlike rodents, where it causes marked peroxisome proliferation). PPARα is predominantly expressed in the liver, kidney, and heart — NOT in adipose tissue.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1566",
+    "explanation": "Alterations in retinoic acid receptor (RAR) function have been associated with hepatic and renal toxicity. RARs are nuclear receptors that mediate the effects of retinoic acid (vitamin A derivative). Excessive retinoid exposure (e.g., isotretinoin, etretinate) is well-established to cause hepatotoxicity (elevated liver enzymes, hepatic steatosis) and renal toxicity (impaired renal function, nephrotic-range proteinuria). Retinoids also cause embryotoxicity and testicular toxicity, but the specific association highlighted is hepatic and renal toxicity.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1567",
+    "explanation": "Proteins present in brown adipose tissue (BAT) act mechanistically like cyanide. BAT contains uncoupling protein 1 (UCP1), which creates a proton leak across the inner mitochondrial membrane, uncoupling electron transport from ATP synthesis and generating heat (thermogenesis). Cyanide inhibits cytochrome oxidase (complex IV), blocking electron transport entirely. While both disrupt mitochondrial energy production, the mechanistic similarity is that both actions lead to rapid dissipation of the proton gradient — UCP1 by uncoupling and cyanide by preventing proton pumping. Pentachlorophenol is also an uncoupler; rotenone inhibits complex I; and doxorubicin causes mitochondrial dysfunction through redox cycling.",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-1568",
+    "explanation": "The FALSE statement about glutathione (D) is that it is a substrate for glutathione peroxidase. Glutathione acts as a reducing cofactor/cosubstrate for glutathione peroxidase (GPx) — it is not a classical enzyme 'substrate' but rather the reducing agent that regenerates the selenocysteine active site of GPx after it reduces H₂O₂. The other statements are TRUE: (A) GSH can act nonenzymatically as a radical scavenger via its nucleophilic thiol; (B) glutathione is a tripeptide (γ-glutamyl-cysteinyl-glycine), not a dipeptide — this is a distractor; (C) GSH levels are upregulated via Nrf2/ARE pathway in response to oxidative stress.",
+    "domain": "Domain II"
+  }
+]

@@ -1,0 +1,252 @@
+[
+  {
+    "explanation": "The correct answer is **E (all of the above)**. Allergic responses to chemicals involve IgE-mediated degranulation of mast cells and basophils, releasing multiple vasoactive mediators including histamine, SRS-A (slow-reacting substance of anaphylaxis, now known as leukotrienes), serotonin, and kinins. The trap is focusing on any single mediator \u2014 the allergic cascade releases all of these simultaneously, contributing to bronchoconstriction, vasodilation, and increased vascular permeability. Source: Casarett & Doull Ch.12, Toxic Responses of the Immune System.",
+    "domain": "Domain I",
+    "id": "DABT-0104"
+  },
+  {
+    "explanation": "The correct answer is **B (muscle and bone)**. Systemic toxicity most frequently involves organs with high blood flow, metabolic activity, or specialized transport functions \u2014 the liver, kidney, CNS, hematopoietic system, and lungs are common targets. Muscle and bone are comparatively less involved because muscle has large reserve capacity and bone is relatively inert metabolically. The trap is that the liver and kidney are the MOST involved, not the least. Source: Casarett & Doull Ch.2, Principles of Toxicology.",
+    "domain": "Domain I",
+    "id": "DABT-0105"
+  },
+  {
+    "explanation": "The correct answer is **C (CNS)**. Toluene is a lipophilic organic solvent that readily crosses the blood-brain barrier and accumulates in the lipid-rich CNS, producing narcotic effects and neurotoxicity. While toluene can affect the liver and lungs at high concentrations, the CNS is the primary target organ. The trap is that toluene also undergoes hepatic metabolism, but the CNS is the critical target for its acute and chronic effects. Source: Casarett & Doull Ch.24, Toxic Effects of Solvents and Vapors.",
+    "domain": "Domain IV",
+    "id": "DABT-0106"
+  },
+  {
+    "explanation": "The correct answer is **A**. All three types of genetic damage \u2014 aneuploidization (chromosome number changes), clastogenesis (chromosome breakage), and gene locus mutations (point mutations) \u2014 have been documented in humans as a direct result of chemical exposure in the environment. The trap is option B, which incorrectly claims that the Ames Salmonella assay tests for gene locus mutations (it detects point mutations, but the micronucleus assay detects clastogenicity, not gene mutations). Source: Casarett & Doull Ch.9, Genetic Toxicology.",
+    "domain": "Domain II",
+    "id": "DABT-0108"
+  },
+  {
+    "explanation": "The correct answer is **E (all of the above)**. The micronucleus assay detects clastogenic and aneugenic effects by counting chromosome fragments or whole chromosomes that fail to incorporate into daughter nuclei during cell division. It is typically performed on mouse peripheral blood or bone marrow, does not require selective growth medium, and is less useful in rats because rats efficiently remove micronucleated erythrocytes via the spleen. The trap is that each individual statement is independently true, so the 'all of the above' answer is correct. Source: Casarett & Doull Ch.9, Genetic Toxicology.",
+    "domain": "Domain II",
+    "id": "DABT-0109"
+  },
+  {
+    "explanation": "The correct answer is **C (a potential for neoplasia)**. Gamma-glutamyltranspeptidase (GGT or GGTP) is a well-established marker for preneoplastic foci in the liver \u2014 its elevation in focal hepatocyte populations is considered an early indicator of hepatocarcinogenesis in rodent bioassays. The trap is confusing this marker with indicators of hepatobiliary injury (cholestasis); while GGT is elevated in cholestatic disease, GGT-positive foci specifically suggest neoplastic potential. Source: Casarett & Doull Ch.13, Toxic Responses of the Liver.",
+    "domain": "Domain I",
+    "id": "DABT-0111"
+  },
+  {
+    "explanation": "The correct answer is **C (carbon tetrachloride)**. Carbon tetrachloride (CCl\u2084) is a potent hepatotoxin and nephrotoxin; its metabolite, the trichloromethyl radical, causes lipid peroxidation and cell membrane damage, leading to proximal tubular necrosis in the kidney and centrilobular necrosis in the liver. The trap is that carbon monoxide causes hypoxia but not direct tubular necrosis, kerosene causes pneumonitis, and tetraethyl lead affects the CNS. Source: Casarett & Doull Ch.14, Toxic Responses of the Kidney; Ch.24, Solvents and Vapors.",
+    "domain": "Domain IV",
+    "id": "DABT-0112"
+  },
+  {
+    "explanation": "The correct answer is **D (A and C)**. In hemolytic jaundice, excessive erythrocyte destruction leads to overproduction of bilirubin that exceeds the liver's capacity to conjugate and excrete it. This results in elevated plasma unconjugated bilirubin (A) and the deposition of bilirubin in tissues causing yellow skin/sclera (C). The trap is option B, which describes obstructive jaundice (bile duct obstruction with normal bilirubin production rate), not hemolytic jaundice. Source: Casarett & Doull Ch.13, Toxic Responses of the Liver.",
+    "domain": "Domain I",
+    "id": "DABT-0114"
+  },
+  {
+    "explanation": "The correct answer is **B (hypervitaminosis A and liver necrosis)**. Polar bear liver contains exceptionally high concentrations of vitamin A (retinol) \u2014 up to 30,000 IU/g \u2014 because polar bears store massive amounts in their liver as apex predators consuming vitamin-A-rich seal liver. Consumption by humans causes acute hypervitaminosis A with symptoms including liver necrosis, desquamation, and increased intracranial pressure. The trap is option D (accumulation of lipid-soluble toxicants), which sounds plausible but the primary cause is specifically vitamin A toxicity. Source: Casarett & Doull Ch.26, Toxic Effects of Plants and Animals.",
+    "domain": "Domain I",
+    "id": "DABT-0115"
+  },
+  {
+    "explanation": "The correct answer is **B (detoxication reaction)**. When an electrophile covalently binds to a non-critical protein (i.e., one whose inactivation does not impair cell function), the toxicant is effectively sequestered and removed from causing harm \u2014 this is a detoxication reaction. The trap is 'toxication reaction,' which would apply if the target protein served a critical function whose disruption causes toxicity. Source: Casarett & Doull Ch.3, Mechanisms of Toxicity.",
+    "domain": "Domain II",
+    "id": "DABT-0120"
+  },
+  {
+    "explanation": "The correct answer is **C (uptake by the lung)**. Paraquat is actively taken up into type I and type II alveolar epithelial cells via the polyamine transport system, leading to selective pulmonary toxicity, whereas diquat is not taken up by the lung and does not cause pulmonary fibrosis. Both compounds undergo redox cycling to generate superoxide, but the critical difference in their organ-selective toxicity is lung uptake. The trap is focusing on their similar mechanism (redox cycling) instead of the key pharmacokinetic difference. Source: Casarett & Doull Ch.22, Pesticides.",
+    "domain": "Domain IV",
+    "id": "DABT-0125"
+  },
+  {
+    "explanation": "The correct answer is **B (heart)**. Streptomycin, an aminoglycoside antibiotic, is associated with cardiac toxicity, most notably QT prolongation and cardiac arrhythmias. The more commonly known target of aminoglycosides is the kidney (nephrotoxicity) and the ear (ototoxicity), but streptomycin specifically has been associated with cardiovascular effects. The trap is kidney, the most frequent aminoglycoside target \u2014 but the question asks about streptomycin specifically. Source: Casarett & Doull Ch.18, Toxic Responses of the Heart and Vascular System.",
+    "domain": "Domain I",
+    "id": "DABT-0127"
+  },
+  {
+    "explanation": "The correct answer is **B**. N-nitrosodimethylamine (NDMA) is metabolically activated to a methylating species that forms O\u2076-methylguanine DNA adducts. A single large dose saturates but does not deplete the O\u2076-alkylguanine-DNA alkyltransferase (methyltransferase) repair enzyme, allowing repair. Repeated smaller doses progressively deplete the repair enzyme, leading to accumulation of mutations and eventual carcinogenesis. The trap is option D (enzyme induction producing more active carcinogen), but NDMA's carcinogenicity depends on repair enzyme depletion, not bioactivation induction. Source: Casarett & Doull Ch.8, Chemical Carcinogenesis.",
+    "domain": "Domain II",
+    "id": "DABT-0129"
+  },
+  {
+    "explanation": "The correct answer is **D (inhibition of ATP-dependent transporter(s) in the bile canalicular membrane)**. Cyclosporin A causes cholestasis by inhibiting bile salt export pump (BSEP/ABCB11) and other ATP-binding cassette transporters at the canalicular membrane, preventing bile acid excretion into bile. The trap is cyclophilin binding (A) \u2014 this explains cyclosporin's immunosuppressive mechanism (via calcineurin inhibition), not its cholestatic effect. Source: Casarett & Doull Ch.13, Toxic Responses of the Liver.",
+    "domain": "Domain I",
+    "id": "DABT-0130"
+  },
+  {
+    "explanation": "The correct answer is **A (conjugated estrogens)**. Vitellogenin is an egg-yolk protein precursor normally produced in the liver of female fish under estrogen stimulation; its induction in male or juvenile trout indicates exposure to estrogenic endocrine disruptors. Conjugated estrogens from human sewage (e.g., ethinylestradiol from oral contraceptives) are the most likely cause. The trap is TCDD (dioxin), which is an AhR agonist that does not directly induce vitellogenin. Source: Casarett & Doull Ch.30, Ecotoxicology.",
+    "domain": "Domain I",
+    "id": "DABT-0131"
+  },
+  {
+    "explanation": "The correct answer is **C (incomplete phagocytosis of long fibers by macrophages prevents lung clearance)**. Long asbestos fibers (>10 \u00b5m) are too long for complete macrophage phagocytosis, leading to 'frustrated phagocytosis' with release of inflammatory mediators, reactive oxygen species, and cytokines that drive fibrosis and carcinogenesis. The trap is option D (fibers become lodged in the lung periphery), which is a consequence but not the primary mechanistic explanation for hazard \u2014 the key is the biological response to incomplete clearance. Source: Casarett & Doull Ch.15, Toxic Responses of the Respiratory System.",
+    "domain": "Domain IV",
+    "id": "DABT-0132"
+  },
+  {
+    "explanation": "The correct answer is **B (toluene diisocyanate)**. Toluene diisocyanate (TDI) is a low-molecular-weight chemical that acts as a hapten, binding to endogenous proteins to form immunogenic conjugates, and is a well-documented cause of occupational asthma. The trap is vinyl chloride (A), which causes hepatic angiosarcoma, not asthma; and 2-naphthylamine (C), which causes bladder cancer. Source: Casarett & Doull Ch.34, Occupational Toxicology.",
+    "domain": "Domain IV",
+    "id": "DABT-0133"
+  },
+  {
+    "explanation": "The correct answer is **D (volume of distribution)**. Elimination half-life is determined by the formula t\u2081/\u2082 = 0.693 \u00d7 Vd / CL, where Vd is the volume of distribution and CL is total body clearance. For a constant clearance, t\u2081/\u2082 increases proportionally with Vd. The trap is total body clearance (A) \u2014 half-life is inversely proportional to clearance (t\u2081/\u2082 decreases as clearance increases), not directly proportional. Source: Casarett & Doull Ch.7, Toxicokinetics.",
+    "domain": "Domain I",
+    "id": "DABT-0134"
+  },
+  {
+    "explanation": "The correct answer is **E (proteins expressed in fluids or tissues)**. Two-dimensional polyacrylamide gel electrophoresis (2D-PAGE) separates proteins based on isoelectric point (first dimension) and molecular weight (second dimension), providing a proteomic map of protein expression. The trap is confusing 2D-PAGE with DNA-based techniques like cDNA microarrays (A) or metabolomics (D). Source: Casarett & Doull Ch.2, Principles of Toxicology (biomarker/omics methods).",
+    "domain": "Domain II",
+    "id": "DABT-0136"
+  },
+  {
+    "explanation": "The correct answer is **A (organophosphate insecticides)**. Organophosphates irreversibly inhibit both acetylcholinesterase (at nerve synapses) and pseudocholinesterase (butyrylcholinesterase, in plasma). Monitoring serum pseudocholinesterase activity provides a readily accessible biomarker of occupational exposure. The trap is DDT, which is an organochlorine that acts on sodium channels, not cholinesterase. Source: Casarett & Doull Ch.22, Pesticides.",
+    "domain": "Domain IV",
+    "id": "DABT-0163"
+  },
+  {
+    "explanation": "The correct answer is **E (A, B, and C)**. Mutagens in food originate from natural sources (e.g., aflatoxins, hydrazines in mushrooms, alkaloids in plants), synthetic compounds (e.g., pesticide residues, food additives), and processing (e.g., heterocyclic amines formed during cooking, polycyclic aromatic hydrocarbons from grilling). The trap is food irradiation (D) \u2014 irradiation does not introduce mutagens; it generates free radicals that can alter food chemistry but is not considered a significant source of mutagens. Source: Casarett & Doull Ch.27, Food Toxicology.",
+    "domain": "Domain II",
+    "id": "DABT-0166"
+  },
+  {
+    "explanation": "The correct answer is **D**. The dominant lethal assay detects mutagenic effects in the male germ line by mating treated males with untreated females and assessing for early embryonic death or resorption, which indicates dominant lethal mutations transmitted via sperm. The trap is option A (both sexes exposed prior to mating) \u2014 only the male is exposed because the assay screens for germ-cell mutagenesis in the spermatogenic process. Source: Casarett & Doull Ch.9, Genetic Toxicology.",
+    "domain": "Domain II",
+    "id": "DABT-0167"
+  },
+  {
+    "explanation": "The correct answer is **E (A, B, and C)**. Mutagens can induce base-pair substitutions by chemically altering DNA bases (e.g., EMS alkylating guanine), produce changes in genotype (DNA sequence alterations), and produce changes in phenotype (observable consequences of those alterations). The trap is option D ('they are always cell cycle independent') \u2014 many mutagens require cell division to fix mutations (S-phase-dependent), so this statement is false. Source: Casarett & Doull Ch.9, Genetic Toxicology.",
+    "domain": "Domain II",
+    "id": "DABT-0169"
+  },
+  {
+    "explanation": "The correct answer is **A (higher concentrations of free DES in embryo/fetus compared to adults)**. Diethylstilbestrol (DES) is poorly metabolized by the fetal-placental unit due to low activity of conjugating enzymes (e.g., glucuronosyltransferases), leading to accumulation of the active, unconjugated form in the developing embryo/fetus. The trap is 'lack of placental drug metabolism' (C) \u2014 the placenta does metabolize DES, but the metabolic capacity is lower than in adult liver; A is more precise. Source: Casarett & Doull Ch.10, Developmental Toxicology.",
+    "domain": "Domain I",
+    "id": "DABT-0174"
+  },
+  {
+    "explanation": "The correct answer is **D ('A majority of nonnutrient chemicals are added to food by humans')**. This statement is false because the vast majority of nonnutrient chemicals in food are naturally occurring \u2014 plants produce thousands of secondary metabolites (alkaloids, flavonoids, terpenes) as part of their natural defense and signaling mechanisms. The trap is that humans do add some chemicals (preservatives, flavors, colors), but these represent a minority of total nonnutrient chemicals in food. Source: Casarett & Doull Ch.27, Food Toxicology.",
+    "domain": "Domain I",
+    "id": "DABT-0181"
+  },
+  {
+    "explanation": "The correct answer is **B (detoxication reaction)**. This is a duplicate of DABT-0120. When an electrophile binds covalently to a non-critical protein, the toxicant is sequestered without disrupting a vital cellular function, making this a detoxication reaction. The trap is 'toxication reaction' \u2014 that would only apply if the protein played a critical role. Source: Casarett & Doull Ch.3, Mechanisms of Toxicity.",
+    "domain": "Domain II",
+    "id": "DABT-0185"
+  },
+  {
+    "explanation": "The correct answer is **C (dibenzodioxins)**. Thymic atrophy is a hallmark of dibenzodioxin (most notably TCDD) toxicity, mediated through the aryl hydrocarbon receptor (AhR). TCDD causes apoptosis of thymocytes, leading to profound thymic involution and immunosuppression. The trap is option A (halogenated aromatic hydrocarbons), which is a broad class that includes dioxins but also PCBs and PBBs \u2014 the specific subclass directly associated with thymic atrophy as a defining feature is dibenzodioxins. Source: Casarett & Doull Ch.12, Toxic Responses of the Immune System.",
+    "domain": "Domain IV",
+    "id": "DABT-0187"
+  },
+  {
+    "explanation": "The correct answer is **B (incompetence of the newborn immune system compared to that of the adult)**. Newborn animals have an immature, functionally incompetent immune system \u2014 reduced T-cell repertoire, limited antibody production capacity, and inefficient antigen presentation \u2014 making them more susceptible to chemically-induced immunotoxicity and sensitization. The trap is option E (circulating maternal antibodies), which actually provide passive protection, not greater sensitivity. Source: Casarett & Doull Ch.12, Toxic Responses of the Immune System.",
+    "domain": "Domain I",
+    "id": "DABT-0188"
+  },
+  {
+    "explanation": "The correct answer is **A**. Phototoxic reactions occur on first exposure to a photosensitizing chemical plus light, without requiring prior sensitization or immune mediation (e.g., psoralen + UVA). This distinguishes them from photoallergic reactions, which are immune-mediated and require prior sensitization. The trap is option B ('all photosensitivity reactions are immunologically mediated') \u2014 phototoxic reactions are non-immunological. Source: Casarett & Doull Ch.19, Toxic Responses of the Skin.",
+    "domain": "Domain I",
+    "id": "DABT-0189"
+  },
+  {
+    "explanation": "The correct answer is **C (potentiation)**. Isopropyl alcohol is not hepatotoxic on its own but enhances the hepatotoxicity of carbon tetrachloride by inducing CYP2E1, which increases the metabolic activation of CCl\u2084 to the toxic trichloromethyl radical. This is potentiation \u2014 one agent (inactive alone) enhances the toxicity of another. The trap is 'synergy' (B), where both agents contribute to the effect. Here, isopropyl alcohol alone is not hepatotoxic, making this potentiation specifically. Source: Casarett & Doull Ch.24, Toxic Effects of Solvents and Vapors.",
+    "domain": "Domain IV",
+    "id": "DABT-0190"
+  },
+  {
+    "explanation": "The correct answer is **A ('CYP2E1 activity decreases by 80% between ages 21 and 65')**. This statement is false (and thus the correct answer for 'which is false'). CYP2E1 activity does NOT decrease substantially with age; it is relatively well-preserved in aging. In contrast, polar solvents reach higher levels in the elderly due to reduced total body water, extracellular water is highest in newborns (75% of body weight), and CYP2E1 is low in the fetal liver. The trap is assuming all CYP enzymes decline with age, but CYP2E1 is uniquely preserved. Source: Casarett & Doull Ch.5, Absorption, Distribution, and Excretion of Toxicants.",
+    "domain": "Domain IV",
+    "id": "DABT-0205"
+  },
+  {
+    "explanation": "The correct answer is **F (A and C)**. Ethyl methanesulfonate (EMS) is a direct-acting alkylating agent that does not require metabolic activation. It alkylates guanine at the O\u2076 position, causing misreading during DNA replication and resulting in point mutations (base-pair substitutions). The trap is option B ('requires metabolic activation') \u2014 EMS is a direct-acting mutagen and does not need bioactivation. Option D ('causes deletion mutations') is also not characteristic of EMS. Source: Casarett & Doull Ch.9, Genetic Toxicology.",
+    "domain": "Domain II",
+    "id": "DABT-0207"
+  },
+  {
+    "explanation": "The correct answer is **A (shorter latency period until appearance of serum IgG)**. On secondary (anamnestic) immune stimulation, memory B cells are rapidly activated, leading to a faster, more robust IgG response with a shorter lag phase compared to the primary response. The trap is option B (production of IgG prior to IgM), which is false \u2014 in both primary and secondary responses, IgM precedes IgG; the difference is the shorter latency for IgG in the secondary response. Source: Casarett & Doull Ch.12, Toxic Responses of the Immune System.",
+    "domain": "Domain I",
+    "id": "DABT-0208"
+  },
+  {
+    "explanation": "The correct answer is **F (A and C)**. Excision repair (nucleotide excision repair and base excision repair) and post-replication repair (recombination repair) are both well-documented DNA repair mechanisms in mammalian cells. The trap is 'SOS repair' (B) \u2014 SOS repair is an error-prone bypass mechanism well-characterized in bacteria (E. coli) but not established as a major repair pathway in mammalian cells. Option D ('PCR repair') is a lab technique, not a cellular repair mechanism. Source: Casarett & Doull Ch.9, Genetic Toxicology.",
+    "domain": "Domain II",
+    "id": "DABT-0209"
+  },
+  {
+    "explanation": "The correct answer is **E (all of the above)**. Adrenal glucocorticoids (e.g., cortisol) are immunosuppressive through lymphocyte apoptosis and cytokine suppression; cyclosporin A inhibits calcineurin-dependent T-cell activation; leukemia impairs normal immune cell development; and viral infections (e.g., HIV) can destroy immune cells. The trap is assuming that only pharmaceutical immunosuppressants (like cyclosporin) cause immunodeficiency, but the question covers diverse causes. Source: Casarett & Doull Ch.12, Toxic Responses of the Immune System.",
+    "domain": "Domain I",
+    "id": "DABT-0211"
+  },
+  {
+    "explanation": "The correct answer is **B (can cause pancreatitis)**. Dimethylformamide (DMF), a polar organic solvent used in chemical manufacturing, is known to cause acute pancreatitis as an idiosyncratic toxic effect, along with hepatotoxicity. The trap is option D ('is used by dry cleaners') \u2014 DMF is used in acrylic fiber production and chemical synthesis, not dry cleaning (which uses tetrachloroethylene/perchloroethylene). Source: Casarett & Doull Ch.24, Toxic Effects of Solvents and Vapors.",
+    "domain": "Domain IV",
+    "id": "DABT-0212"
+  },
+  {
+    "explanation": "The correct answer is **F (A and C)**. Compounds causing myelin injury include ethidium bromide (inhibits mitochondrial DNA synthesis in oligodendrocytes), hexachlorophene (causes intramyelinic edema), isoniazid (pyridoxine antagonist), and tellurium (interferes with cholesterol synthesis for myelin). Intramyelinic edema is reversible in early stages (C). The trap is option B \u2014 remyelination occurs to a GREATER extent in the PNS than the CNS because CNS myelin is produced by oligodendrocytes with limited regenerative capacity. Source: Casarett & Doull Ch.16, Toxic Responses of the Nervous System.",
+    "domain": "Domain I",
+    "id": "DABT-0214"
+  },
+  {
+    "explanation": "The correct answer is **C ('an intermediate metabolite is formaldehyde')**. This statement does NOT apply to ethanol pharmacology. Ethanol is metabolized by alcohol dehydrogenase to acetaldehyde, then by aldehyde dehydrogenase to acetate \u2014 NOT formaldehyde, which is the toxic metabolite of methanol. The trap is that formaldehyde is indeed an intermediate of METHANOL metabolism via alcohol dehydrogenase, but not of ethanol. Source: Casarett & Doull Ch.24, Toxic Effects of Solvents and Vapors.",
+    "domain": "Domain I",
+    "id": "DABT-0215"
+  },
+  {
+    "explanation": "The correct answer is **A (confined to plasma)**. A substance with MW 100,000 Da is a large macromolecule that cannot cross the capillary endothelial barrier. Intravenously administered, it remains confined to the plasma compartment unless there is endothelial damage. The trap is distribution to extracellular water (B), which applies to smaller molecules (MW < 1000) that can cross capillary pores. Very large molecules have a Vd approximately equal to plasma volume. Source: Casarett & Doull Ch.5, Absorption, Distribution, and Excretion of Toxicants.",
+    "domain": "Domain I",
+    "id": "DABT-0216"
+  },
+  {
+    "explanation": "The correct answer is **D (Amitrole)**. Amitrole (aminotriazole) is a herbicide that inhibits thyroid peroxidase, blocking thyroid hormone synthesis. The resulting TSH elevation via feedback stimulation causes thyroid follicular cell hyperplasia and, with chronic administration, thyroid adenomas and adenocarcinomas in rats. The trap is paraquat (C), which causes lung fibrosis, and 2,4,5-T (A), which causes chloracne and soft-tissue sarcoma \u2014 neither is known for antithyroid activity. Source: Casarett & Doull Ch.22, Pesticides.",
+    "domain": "Domain IV",
+    "id": "DABT-0217"
+  },
+  {
+    "explanation": "The correct answer is **D (binding metals in lysosomes)**. Renal proximal tubular cells protect themselves from heavy metal toxicity by sequestering metals (e.g., cadmium, mercury) in lysosomes after uptake. Additionally, metallothionein binds cytosolic metals and the metal-metallothionein complex is taken into lysosomes for degradation/storage. The trap is decreasing permeability (B), which is not a physiological protective mechanism \u2014 the kidney's active protective strategy involves intracellular sequestration. Source: Casarett & Doull Ch.14, Toxic Responses of the Kidney.",
+    "domain": "Domain IV",
+    "id": "DABT-0218"
+  },
+  {
+    "explanation": "The correct answer is **C ('can be measured by para-aminohippuric acid (PAH) clearance from the plasma')**. This statement is NOT true of GFR. PAH clearance measures renal plasma flow, not GFR, because PAH is both filtered AND actively secreted by the tubules, so its clearance overestimates GFR. Inulin clearance is the gold standard for GFR (A), while PAH clearance is used for renal plasma flow. Source: Casarett & Doull Ch.14, Toxic Responses of the Kidney.",
+    "domain": "Domain I",
+    "id": "DABT-0220"
+  },
+  {
+    "explanation": "The correct answer is **A ('It is associated with scleroderma')**. This statement is NOT true of turpentine. Turpentine, a mixture of terpenes from pine resin, is known to cause allergic contact dermatitis (D) and is chemically related to d-limonene (C), but it is not associated with scleroderma. The trap is scleroderma, which is associated with other chemicals like vinyl chloride (vinyl chloride disease) and silica, not turpentine. Source: Casarett & Doull Ch.24, Toxic Effects of Solvents and Vapors.",
+    "domain": "Domain I",
+    "id": "DABT-0222"
+  },
+  {
+    "explanation": "The correct answer is **B (hepatocytes)**. Hepatocytes are the primary parenchymal cells of the liver and perform the vast majority of the liver's secretory functions, including bile production, bile acid synthesis, and secretion of proteins (albumin, clotting factors) and lipids into the blood and bile. The trap is bile duct cells (A), which modify and transport bile but do not perform the primary secretory function \u2014 that is the hepatocyte. Source: Casarett & Doull Ch.13, Toxic Responses of the Liver.",
+    "domain": "Domain I",
+    "id": "DABT-0223"
+  },
+  {
+    "explanation": "The correct answer is **A (conversion to urobilinogen by the flora of the large intestine)**. Bilirubin is conjugated in the liver, excreted into bile, and reaches the large intestine where gut bacteria reduce it to urobilinogen. Part of the urobilinogen is reabsorbed (enterohepatic circulation) and excreted in urine, while the remainder is oxidized to stercobilin and eliminated in feces. The trap is option B (reabsorption and recirculation) \u2014 this happens to urobilinogen, not bilirubin itself, after bacterial conversion. Source: Casarett & Doull Ch.13, Toxic Responses of the Liver.",
+    "domain": "Domain I",
+    "id": "DABT-0224"
+  },
+  {
+    "explanation": "The correct answer is **C (ethanol)**. Ethanol is NOT an inhibitor of ADP phosphorylation (oxidative phosphorylation). Oligomycin inhibits ATP synthase by blocking proton flow through the F\u2080 subunit; DDT is an uncoupler of oxidative phosphorylation; and N-ethylmaleimide inhibits ADP/ATP translocation. The trap is DDT (B), which does inhibit ADP phosphorylation, though its primary insecticidal action is on sodium channels \u2014 making it a plausible distractor for those who only know DDT's neurotoxic mechanism. Source: Casarett & Doull Ch.3, Mechanisms of Toxicity.",
+    "domain": "Domain IV",
+    "id": "DABT-0226"
+  },
+  {
+    "explanation": "The correct answer is **F (A and C)**. Cholestatic liver injury elevates enzymes that are associated with bile ducts and canalicular membranes: alkaline phosphatase (ALP) and gamma-glutamyl transpeptidase (GGT/GGTP). In contrast, centrilobular necrosis elevates transaminases (ALT/GPT, AST/GOT) released from damaged hepatocytes. The trap is that transaminases (ALT/AST) are elevated in both types of injury, but the distinguishing cholestatic markers are ALP and GGT. Source: Casarett & Doull Ch.13, Toxic Responses of the Liver.",
+    "domain": "Domain I",
+    "id": "DABT-0230"
+  },
+  {
+    "explanation": "The correct answer is **C (genetic polymorphisms)**. A genetic polymorphism is defined as a heritable variation in a single gene that occurs at a frequency of \u22651% in the population. These include common variants in drug-metabolizing enzymes (e.g., CYP2D6, NAT2) that influence individual susceptibility to toxicants. The trap is 'sister chromatid exchanges' (D), which is a cytogenetic endpoint, not a population genetics term. Source: Casarett & Doull Ch.2, Principles of Toxicology.",
+    "domain": "Domain II",
+    "id": "DABT-0231"
+  },
+  {
+    "explanation": "The correct answer is **D (sudden cardiac death)**. Solvent abuse (inhalant abuse) most commonly causes sudden cardiac death through 'sudden sniffing death syndrome' \u2014 solvents sensitize the myocardium to catecholamines, triggering fatal ventricular arrhythmias, especially during stress or startle. The trap is liver failure (A), which occurs with chronic solvent abuse but is not the most common acute cause of death \u2014 cardiac arrhythmia kills first. Source: Casarett & Doull Ch.24, Toxic Effects of Solvents and Vapors.",
+    "domain": "Domain IV",
+    "id": "DABT-0232"
+  },
+  {
+    "explanation": "The correct answer is **A (sodium fluoroacetate, 1080)**. Sodium fluoroacetate is a potent rodenticide that is metabolized to fluorocitrate, which inhibits aconitase in the Krebs cycle, blocking cellular respiration. This causes rapid-onset seizures, cardiac arrest (heart in diastole), cyanosis, and death within minutes to hours. The trap is warfarin (C) or Pindone (D), which are anticoagulants causing death from hemorrhage over days, not acute tetanic seizures within 1 hour \u2014 the rapid onset and convulsions are characteristic of fluoroacetate. Source: Casarett & Doull Ch.26, Toxic Effects of Plants and Animals; Ch.22, Pesticides.",
+    "domain": "Domain IV",
+    "id": "DABT-0245"
+  }
+]

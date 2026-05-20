@@ -1,0 +1,396 @@
+{
+  "config_version": "1.0.0",
+  "last_updated": "2026-05-20",
+  "project": {
+    "name": "DABT Tutor",
+    "workdir": "/root/work/dabt/dabt-tutor",
+    "description": "Study preparation for the DABT certification examination (October 15, 2026)",
+    "exam_date": "2026-10-15",
+    "exam_format": {
+      "total_questions": 160,
+      "scored": 140,
+      "pretest": 20,
+      "duration_hours": 4,
+      "provider": "Pearson VUE (in-person only)",
+      "passing": "Modified Angoff standard setting; ~72% historical pass rate",
+      "blueprint_source": "ABT Candidate Handbook 2026, p.24",
+      "practice_analysis": "PMC10493040 (Int J Toxicol, 2023)"
+    }
+  },
+  "exam_blueprint": {
+    "domains": {
+      "I. Conduct of Toxicological Studies": {
+        "weight_pct": 36,
+        "tasks": 13,
+        "knowledge_topics": 31,
+        "sub_domains": {
+          "A. Design": 11,
+          "B. Execute": 9,
+          "C. Interpret": 16
+        },
+        "db_questions": 981,
+        "db_pct": 20.3,
+        "weight_gap": -15.7,
+        "status": "UNDERWEIGHT \u2014 largest sub-domain (Interpret 16%) has best DB coverage"
+      },
+      "II. Mechanistic Toxicology": {
+        "weight_pct": 13,
+        "tasks": 8,
+        "knowledge_topics": 27,
+        "sub_domains": {},
+        "db_questions": 673,
+        "db_pct": 13.9,
+        "weight_gap": 0.9,
+        "status": "ADEQUATE"
+      },
+      "III. Risk Assessment": {
+        "weight_pct": 38,
+        "tasks": 15,
+        "knowledge_topics": 55,
+        "sub_domains": {
+          "A. Hazard Identification": 12,
+          "B. Exposure Assessment": 8,
+          "C. Dose Response Assessment": 9,
+          "D. Risk Characterization & Management": 9
+        },
+        "db_questions": 210,
+        "db_pct": 4.3,
+        "weight_gap": -33.7,
+        "status": "CRITICAL \u2014 55 knowledge topics but only 210 Qs; 172/210 have no sub-domain assigned",
+        "synthetic_questions_target": 600,
+        "depletion_warning_at": 50
+      },
+      "IV. Applied Toxicology": {
+        "weight_pct": 13,
+        "tasks": 12,
+        "knowledge_topics": 25,
+        "sub_domains": {},
+        "db_questions": 2850,
+        "db_pct": 58.9,
+        "weight_gap": 45.9,
+        "status": "OVERWEIGHT \u2014 60% of DB for 13% of exam; useful for targeted organ-system drilling"
+      }
+    }
+  },
+  "database": {
+    "primary": {
+      "path": "reference/data/dabt.db",
+      "type": "sqlite",
+      "total_questions": 4841,
+      "domain_coverage_pct": 97.4,
+      "quality": {
+        "with_explanation": 4840,
+        "explanation_pct": 100.0,
+        "with_bloom_level": 4841,
+        "bloom_level_pct": 100.0,
+        "notes": "Bloom levels need full population. Explanations need writing for remaining 3,387 Qs."
+      },
+      "domain_distribution": {
+        "Domain I": {
+          "count": 981,
+          "pct": 20.3
+        },
+        "Domain II": {
+          "count": 673,
+          "pct": 13.9
+        },
+        "Domain III": {
+          "count": 210,
+          "pct": 4.3
+        },
+        "Domain IV": {
+          "count": 2850,
+          "pct": 58.9
+        }
+      },
+      "source_banks": {
+        "2000Q Bank": {
+          "format": "comprehensive",
+          "count": 1801,
+          "pct": 37.2
+        },
+        "Chapter Tests": {
+          "format": "chapter-based",
+          "count": 1119,
+          "pct": 23.1
+        },
+        "Past ABT Exams (2008-2014)": {
+          "format": "real-exam",
+          "count": 767,
+          "pct": 15.8
+        },
+        "Mini-ABT 1-11": {
+          "format": "mini-exam",
+          "count": 446,
+          "pct": 9.2
+        },
+        "Past ABT Exams (PDFs)": {
+          "format": "real-exam",
+          "count": 355,
+          "pct": 7.3
+        },
+        "Kristen Mini Exams": {
+          "format": "mini-exam",
+          "count": 208,
+          "pct": 4.3
+        },
+        "Kristen Topic Tests": {
+          "format": "topic-based",
+          "count": 145,
+          "pct": 3.0
+        }
+      },
+      "domain_iii_detail": {
+        "unassigned_sub_domain": 172,
+        "D.RiskChar&Mgmt": 38,
+        "notes": "No questions assigned to Hazard ID, Exposure Assessment, or Dose Response Assessment sub-domains. Full sub-domain classification of the 172 unassigned Qs is needed before synthetic question generation."
+      }
+    },
+    "legacy": {
+      "path": "reference/data/DABT_Practice_Questions_Database.xlsx",
+      "questions": 446,
+      "status": "Superseded by SQLite. Backward compat only."
+    },
+    "curated_root": "/root/dabt-curated"
+  },
+  "reference_library": {
+    "extracted_base": "reference/extracted",
+    "searchable_sources": [
+      {
+        "name": "casarett-doull-9e",
+        "path": "extracted/casarett-doull-9e",
+        "chapters": 35,
+        "size_kb": 9998,
+        "searchable": true
+      },
+      {
+        "name": "hayes-7e",
+        "path": "extracted/hayes-7e",
+        "chapters": 39,
+        "size_kb": 11140,
+        "searchable": true
+      },
+      {
+        "name": "regulations",
+        "path": "extracted/regulations",
+        "documents": 29,
+        "size_kb": 4192,
+        "searchable": true
+      },
+      {
+        "name": "abt-handbook",
+        "path": "extracted/abt-handbook",
+        "files": 2,
+        "size_kb": 99,
+        "searchable": true,
+        "added": "2026-05-20"
+      }
+    ],
+    "handbook": {
+      "pdf_path": "reference/exam-materials/ABT-Candidate-Handbook-2026.pdf",
+      "extract_path": "extracted/abt-handbook/",
+      "full_text": "extracted/abt-handbook/full-handbook.txt",
+      "content_outline": "extracted/abt-handbook/exam-content-outline.txt",
+      "blueprint_page": 24,
+      "domain_outline_pages": "24-32",
+      "status": "Wired into reference search pipeline as of 2026-05-20"
+    },
+    "not_searchable": {
+      "notes": "Mid-Amer Tox Course summaries, C&D Chapter Support slides/notes/lectures, and Study_Aids are intentionally excluded \u2014 user determined they add noise."
+    }
+  },
+  "exam_materials": {
+    "base_path": "reference/exam-materials/practice-exams",
+    "past_exams_undigested": [
+      {
+        "name": "2013 Recert",
+        "file": "practice-exams/abt-2013-recert/",
+        "files_count": 6,
+        "format": "PDF + PPTX",
+        "ingested": false
+      },
+      {
+        "name": "2015 Recert",
+        "file": "practice-exams/abt-2015-recert/",
+        "files_count": 13,
+        "format": "PDF + PPTX",
+        "ingested": false
+      },
+      {
+        "name": "2017 Cert",
+        "file": "practice-exams/abt-2017-cert/",
+        "files_count": 4,
+        "format": "PDF",
+        "ingested": false
+      },
+      {
+        "name": "Mini-ABT 1-11",
+        "file": "practice-exams/mini-abt-*/",
+        "files_count": 22,
+        "format": "DOCX",
+        "ingested": "Partial \u2014 446 Qs from legacy xlsx in DB; full docx pairs exist as originals"
+      },
+      {
+        "name": "Tox 2000 Notecards",
+        "file": "practice-exams/tox-2000-notecards/Tox 2000 NoteCards.pdf",
+        "ingested": false
+      }
+    ],
+    "notes": "Raw PDFs and PPTX from recert exams not yet extracted. Some content bled into DB via compiled recert xlsx (767 Qs from 2008-2014) but original vignettes and answer justifications are untapped."
+  },
+  "drill_config": {
+    "target_distribution_per_10": {
+      "Domain III": 4,
+      "Domain I": 4,
+      "Domain II": 1,
+      "Domain IV": 1
+    },
+    "per_set": {
+      "standard": 5,
+      "diagnostic": 10,
+      "targeted": 5
+    },
+    "domain_iii_conservation": {
+      "warning_threshold": 50,
+      "action": "When unseen Domain III Qs fall below threshold, flag to user and pivot to textbook-based RA study (Casarett Ch.4, Hayes Ch.3, EPA guidelines)",
+      "supplemental_textbooks": [
+        "Casarett Ch.4 Risk Assessment",
+        "Hayes Ch.3 Dose-Response",
+        "EPA Cancer Guidelines 2005",
+        "Silver Book (NRC 2009)"
+      ]
+    },
+    "anti_clustering": true,
+    "source_spread_minimum": 3,
+    "weight_config_source": "This file (dabt-config.json) \u2014 exam_blueprint.domains[*].weight_pct"
+  },
+  "curriculum": {
+    "path": "curriculum/topics.json",
+    "exists": true,
+    "domain_entries": 5,
+    "status": "EXISTS \u2014 structured with sub-domains, topics, and prerequisites. Cross-reference with exam_blueprint for alignment. Needs review/user discussion.",
+    "notes": "Appears to be a study progression map with domain weight percentages that match the handbook. May have been auto-generated or built by a previous session. Not yet consumed by any skill."
+  },
+  "progress": {
+    "state_path": "progress/state.json",
+    "deep_dives_dir": "deep-dives/",
+    "drills_dir": "drills/",
+    "template_path": "progress/template.json"
+  },
+  "learner": {
+    "name": "Abud",
+    "level": "Advanced DABT candidate",
+    "exam_target": "2026-10-15",
+    "strengths": "Strong reasoning under uncertainty, narrows to 2 choices reliably, well-calibrated metacognition",
+    "weak_areas": [
+      "Metals & Chelation Therapy",
+      "Antiviral MOA / Acyclovir-Genotoxicity"
+    ],
+    "analogy_preference": "Production-line metaphors for biochemical pathways, comparative frameworks for cross-topic consolidation",
+    "tone_preference": "Practitioner-level treatment \u2014 no regression to Novice/Apprentice. Exam-trap framing. Fact dumps rejected in favor of comparison-driven understanding."
+  },
+  "skills": {
+    "base_path": "/root/.hermes/skills",
+    "dabt_skills": {
+      "dabt-database": {
+        "path": "dabt-database",
+        "category": "root",
+        "function": "SQLite query interface, domain-weighted sampling, question retrieval"
+      },
+      "dabt-deep-dive": {
+        "path": "education/dabt-deep-dive",
+        "category": "education",
+        "function": "Socratic tutoring, first-principles builds, mandatory summary artifacts"
+      },
+      "dabt-drill-mode": {
+        "path": "education/dabt-drill-mode",
+        "category": "education",
+        "function": "Quiz engine, blueprint-weighted sets, session state, diagnostic blocks"
+      },
+      "dabt-reference": {
+        "path": "education/dabt-reference",
+        "category": "education",
+        "function": "Three-pass full-text search over extracted references, citation formatting"
+      },
+      "dabt-notebook": {
+        "path": "education/dabt-notebook",
+        "category": "education",
+        "function": "Lightweight markdown concept notebook for study notes"
+      },
+      "dabt-synthesis-review": {
+        "path": "education/dabt-synthesis-review",
+        "category": "education",
+        "function": "Cross-topic consolidation and comparative review"
+      },
+      "profile-call": {
+        "path": "education/profile-call",
+        "category": "education",
+        "function": "Persona trigger \u2014 Mike \u2192 loads all 6 DABT skills"
+      }
+    },
+    "config_consumption": {
+      "status": "Skills hardcode paths and weights. Just patched to read exam_blueprint section of this config. Long-term: all skills should read this file at session start for paths, weights, and targets."
+    }
+  },
+  "task_tracker": {
+    "1_synthetic_questions": {
+      "title": "Build synthetic DABT-style MCQs for underweight domains",
+      "priority": "high",
+      "scope": "Domain III (Risk Assessment) \u2192 target 600 Qs. Domain I (Conduct of Studies) \u2192 target 1,600 Qs.",
+      "ground_truth_sources": [
+        "Casarett Ch.4",
+        "Hayes Ch.3",
+        "EPA Cancer Guidelines",
+        "Silver Book",
+        "Handbook task/knowledge statements"
+      ],
+      "status": "planned"
+    },
+    "2_supplementary_materials": {
+      "title": "Mid-Amer / C&D chapter support materials",
+      "priority": "none",
+      "scope": "Leave as-is. Not ingested.",
+      "status": "declined",
+      "reason": "User determined they add noise"
+    },
+    "3a_explanations": {
+      "title": "Write explanations for questions that lack them",
+      "priority": "high",
+      "scope": "~3,387 questions without explanations; one explanation each (1-3 sentences: mechanism + trap + citation)",
+      "ground_truth_sources": [
+        "dabt-reference \u2192 all extracted/ sources"
+      ],
+      "status": "completed"
+    },
+    "3b_bloom_levels": {
+      "title": "Classify all questions by cognitive level",
+      "priority": "high",
+      "scope": "4,841 questions \u2192 Remember/Understand, Apply, or Analyze",
+      "criteria": {
+        "remember-understand": "Recall facts, definitions, or recognize correct statements",
+        "apply": "Apply concepts to novel scenarios, calculate, interpret data",
+        "analyze": "Compare, differentiate, integrate multiple concepts, weight of evidence"
+      },
+      "status": "completed"
+    },
+    "4_curriculum_topics": {
+      "title": "Review and decide on curriculum/topics.json",
+      "priority": "medium",
+      "scope": "Existing file at curriculum/topics.json with 5 domain entries and sub-structure. Needs user discussion.",
+      "status": "needs_discussion"
+    },
+    "5_integrated_workflow": {
+      "title": "Make skills consume dabt-config.json at runtime",
+      "priority": "high",
+      "scope": "Patch all 6 DABT skills to read paths/weights/targets from this config instead of hardcoding",
+      "status": "in_progress",
+      "notes": "exam-weights.json predecessor already created; this config supersedes it. Skills patched to read exam_blueprint weights; still need to patch path resolution."
+    },
+    "6_digest_past_exams": {
+      "title": "Extract raw recert exam files into DB and/or reference pipeline",
+      "priority": "medium",
+      "scope": "2013 recert (6 files), 2015 recert (13 files), 2017 cert (4 files), Mini-ABT 1-11 (22 docx), Tox 2000 notecards",
+      "status": "planned"
+    }
+  }
+}

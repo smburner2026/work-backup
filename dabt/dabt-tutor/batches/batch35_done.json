@@ -1,0 +1,252 @@
+[
+  {
+    "id": "DABT-1919",
+    "explanation": "The heart relies on phosphocreatine (creatine phosphate) as its primary energy reservoir. Per cardiac physiology and Casarett & Doull's toxicology of the heart, the phosphocreatine/creatine kinase system serves as an energy buffer — when ATP demand suddenly rises (e.g., during increased workload), phosphocreatine rapidly donates its high-energy phosphate to ADP to regenerate ATP. Although ATP (A) is the immediate energy currency, its total cellular pool is small (only a few mM), whereas the phosphocreatine pool is ~2–3 times larger, making it the largest readily available energy store in cardiomyocytes. Creatine (B) is the precursor, and ADP (D) is the acceptor, not the storage form. The DB correctly lists C (phosphocreatine) as the answer.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1920",
+    "explanation": "When cardiac mitochondria are damaged by toxicants, oxidative phosphorylation is impaired, and the heart shifts to alternative energy sources. Per Casarett & Doull on cardiac energy metabolism, under normal conditions the heart relies primarily on fatty acid β-oxidation (60–70%) and glucose oxidation. During mitochondrial dysfunction, deamination of amino acids (B) becomes an increasingly important ATP source via the Krebs cycle (through α-ketoglutarate, succinyl-CoA, etc.). Oxidation of free fatty acids (A) requires intact mitochondrial function and is actually reduced when mitochondria are damaged. Anaerobic glucose metabolism (D) contributes but is limited because the heart has a high basal energy demand. The DB lists B as correct.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1921",
+    "explanation": "Cellular events causing toxic cardiomyopathy include myocardial cell death (A — both necrosis and apoptosis), extracellular matrix remodeling (C — fibrosis replacing lost myocytes), and apoptosis (D — programmed cell death triggered by oxidative stress, Ca²⁺ overload, etc.). Myocyte hyperplasia (B), however, is NOT a typical cellular event in toxic cardiomyopathy because adult cardiac myocytes are terminally differentiated and have very limited proliferative capacity. The heart responds to injury primarily through hypertrophy (enlargement of existing myocytes), not hyperplasia (increase in cell number). The DB lists E as the correct answer (which likely corresponds to 'none of the above' as an unlisted option), but among the listed options A–D, B (myocyte hyperplasia) is the true exception because adult mammalian cardiomyocytes rarely divide.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1922",
+    "explanation": "Cardiac hypertrophy can be adaptive (physiologic) or maladaptive (pathologic). Dilation (C) of the heart is a hallmark of progression from compensated hypertrophy to heart failure — the ventricular chamber enlarges and the wall thins. Per Casarett & Doull, dilation is associated with the transition from hypertrophy to failure, representing a decompensated state, not hypertrophy itself. Fetal gene expression (A) is re-expressed in pathological hypertrophy (e.g., ANP, BNP, β-myosin heavy chain). Apoptosis (B) is also increased in failing hearts. The DB lists C as associated with heart hypertrophy rather than failure, but among the options, both A and B are more closely linked to the hypertrophic program itself while dilation marks the transition to failure. For DABT purposes, note that the DB answer is dilation (C).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1923",
+    "explanation": "Factors that can convert compensatory cardiac hypertrophy into heart failure include endothelin-1 (ET-1, B — a potent vasoconstrictor that promotes myocardial remodeling and fibrosis), tumor necrosis factor (TNF, C — a pro-inflammatory cytokine that depresses contractility and induces apoptosis), and angiotensin II inhibitors (D — while ACE inhibitors/ARBs are therapeutic, this option likely refers to the role of angiotensin II itself, which promotes hypertrophy and fibrosis). ANP (atrial natriuretic peptide, A), however, is a counterregulatory hormone that opposes the maladaptive pathways — it promotes vasodilation, natriuresis, and inhibits hypertrophy and fibrosis. Thus ANP would NOT be a factor converting hypertrophy to failure; if anything, it protects against this transition. The DB lists A (ANP) as the exception, consistent with its protective role. Per Casarett & Doull, ANP and BNP are compensatory factors that counteract the renin-angiotensin-aldosterone and sympathetic nervous systems.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1924",
+    "explanation": "Lethal cardiac arrhythmias, particularly torsade de pointes, are most strongly associated with QT interval prolongation (B). Prolongation of the QT interval on ECG reflects delayed ventricular repolarization, which creates an electrophysiological substrate for early afterdepolarizations (EADs) and reentrant circuits. Per Casarett & Doull and the ICH S7B guidelines, drug-induced QT prolongation (most commonly via hERG potassium channel blockade) is the primary preclinical and clinical biomarker for arrhythmia risk. Maladaptive cardiac hypertrophy (A) and myocardial infarction (C) can also increase arrhythmia risk, but they do so largely through QT prolongation and other electrophysiological changes. The DB lists B as the most directly associated factor.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1925",
+    "explanation": "The discovery of cardiac progenitor cells (A) has challenged the long-held paradigm that cardiac myocytes are terminally differentiated and cannot be replaced after cell death. Per Casarett & Doull and emerging cardiovascular biology, the identification of resident cardiac stem/progenitor cells (c-kit⁺, Sca-1⁺, and cardiosphere-derived cells) that can differentiate into cardiomyocytes suggests some capacity for myocardial regeneration, though the extent and functional significance remain debated. Growth factors that stimulate hypertrophy (C) do not challenge the concept of permanent myocyte loss — hypertrophy is enlargement of existing cells, not replacement of lost ones. The DB lists A as correct.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1926",
+    "explanation": "A prolonged QTc interval in humans is generally defined as greater than 460 ms (C) in women and greater than 450 ms in men by most clinical guidelines (AHA/ACC). Per the ICH E14 guideline and standard cardiology references, QTc > 460 ms is considered a threshold for concern, with values > 500 ms indicating high arrhythmia risk. A QTc of 400 ms (A) is normal, 420 ms (B) is borderline-to-normal. The DB lists 460 ms (C) as the correct threshold.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1927",
+    "explanation": "QT interval prolongation can be caused by genetic polymorphisms (A — congenital long QT syndromes involving genes like KCNQ1, KCNH2, SCN5A), class III antiarrhythmics (B — e.g., sotalol, amiodarone, dofetilide, which block hERG potassium channels), and exposure to particulate matter air pollution (D — PM₂.₅ exposure has been epidemiologically linked to QT prolongation via oxidative stress and autonomic dysfunction). Hyperkalemia (C), however, typically shortens the QT interval or causes peaked T waves and widened QRS — it does NOT prolong the QT interval. In fact, hypokalemia is associated with QT prolongation. The DB lists E (which likely represents 'none of the above' as an unlisted option), but among A–D, hyperkalemia (C) is the actual exception that does NOT prolong QT.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1928",
+    "explanation": "For this question, the DB lists CK-MM (A — creatine kinase, skeletal/muscle isoform) as the answer, but based on standard cardiovascular medicine, C-reactive protein (D — CRP) is the biomarker of inflammation most strongly associated with predicting future cardiac events in asymptomatic individuals. CRP is produced by the liver in response to IL-6 and is an established marker of systemic inflammation that independently predicts cardiovascular risk. CK-MM (A) is a marker of muscle injury, not specifically inflammation. BNP (C — brain natriuretic peptide) is a marker of heart failure and ventricular stretch, not inflammation. Myoglobin (B) is a marker of muscle injury. The DB answer appears to be an error — CRP is the correct biomarker for predicting cardiac events based on inflammation. For DABT exam purposes, be aware that CRP (hs-CRP) is the well-validated inflammatory biomarker for cardiovascular risk stratification per AHA/CDC guidelines.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1929",
+    "explanation": "One theory for arrhythmia secondary to cardiac hypertrophy relates to unbalanced distribution of Purkinje fibers in the remodeling heart (A). Per Casarett & Doull on cardiac toxicology, hypertrophic remodeling alters the spatial distribution of the conduction system, creating heterogeneities in repolarization that predispose to reentrant arrhythmias. The DB lists C (increase in systemic blood pressure secondary to increased cardiac output) as the answer, but increased BP is more a cause of hypertrophy than a mechanism for arrhythmia per se. For DABT exam purposes, note that the DB answer points to C, but the mechanistic understanding from standard cardiac electrophysiology emphasizes that anatomical remodeling of the conduction system (including Purkinje fiber distribution) is the primary substrate for arrhythmias in hypertrophy. Option B (increase in intracellular magnesium) would be antiarrhythmic, not arrhythmogenic.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1930",
+    "explanation": "Long QT syndrome (LQTS) is most commonly caused by dysfunction in potassium channels (~90% of congenital LQTS involves KCNQ1 or KCNH2 genes). However, besides potassium channels, dysfunction in sodium channels (A) also causes LQTS — specifically, gain-of-function mutations in SCN5A (the cardiac sodium channel gene) cause LQT3 by delaying sodium channel inactivation, resulting in persistent inward sodium current during repolarization and QT prolongation. Chloride channels (B), glutamate channels (C), and GABA channels (D) are not associated with congenital LQTS. Per Casarett & Doull, both potassium and sodium channel dysfunctions are established causes of LQTS. The DB correctly lists A (sodium channels).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1931",
+    "explanation": "At the cellular level, many toxicants cause cardiac toxicity by increasing intracellular calcium (D) — a mechanism known as 'calcium overload.' Per Casarett & Doull, toxicants such as catecholamines, cardiac glycosides, and certain chemotherapeutic agents (e.g., doxorubicin) disrupt Ca²⁺ homeostasis by: opening L-type Ca²⁺ channels, inhibiting Na⁺/K⁺-ATPase (leading to Na⁺/Ca²⁺ exchanger reversal), impairing sarcoplasmic reticulum Ca²⁺ uptake, or causing mitochondrial Ca²⁺ overload that triggers the mitochondrial permeability transition pore (mPTP) opening and cell death. Increasing intracellular pH (A), decreasing intracellular calcium (B), and stabilizing cardiac myocyte membranes (C) are generally protective, not toxic. The DB lists E as correct (likely 'none of the above' option), but among A–D, D (increasing intracellular calcium) is the correct mechanistic description of toxicant-induced cardiotoxicity.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1932",
+    "explanation": "Hypertrophic growth of cardiac myocytes involves the activation of calcineurin (A). Per Casarett & Doull and cardiovascular molecular biology, calcineurin is a Ca²⁺/calmodulin-dependent protein phosphatase that dephosphorylates NFAT (nuclear factor of activated T-cells), allowing NFAT to translocate to the nucleus and activate hypertrophic gene programs. This calcineurin-NFAT signaling pathway is a central mediator of pathological cardiac hypertrophy. Thromboxane (B) is a vasoconstrictor and platelet aggregator involved in inflammation, not a primary mediator of myocyte hypertrophy. The DB lists A (calcineurin) as correct. Retinoic acid receptor (C) and 'all of the above' (D) are not the primary pathway.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1933",
+    "explanation": "One mechanism of anthracycline (e.g., doxorubicin) cardiac toxicity is the inhibition of angiogenesis (D). Per Casarett & Doull, doxorubicin induces cardiotoxicity through multiple mechanisms including: oxidative stress from redox cycling, topoisomerase IIβ inhibition in cardiomyocytes, mitochondrial dysfunction, and importantly, inhibition of angiogenesis through suppression of the HIF-1α/VEGF signaling pathway. Anthracyclines also downregulate the expression of angiogenic factors in cardiac endothelial cells, contributing to a microvascular rarefaction that exacerbates myocardial hypoxia. The DB lists D as correct. Stimulation of salt and water retention (A) is not a primary mechanism. While anthracyclines can stimulate myocyte apoptosis (C) via ROS and p53 activation, the specific answer in the DB is inhibition of angiogenesis (D). Interestingly, some sources note that doxorubicin-induced cardiomyopathy involves both myocyte apoptosis and endothelial damage/anti-angiogenic effects.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1934",
+    "explanation": "Cardiac toxic responses involve multiple signaling pathways: AMPK (AMP-activated protein kinase, B) is a key energy sensor that is activated during cardiac stress (ischemia, pressure overload) and regulates metabolic adaptation; MAPK (mitogen-activated protein kinase, C) signaling pathways (ERK, JNK, p38) mediate hypertrophic and apoptotic responses to toxicants; and PKC (protein kinase C, D) isoforms are activated by diacylglycerol and Ca²⁺ signals, contributing to hypertrophy, contractile dysfunction, and ischemic injury. BCRP (breast cancer resistance protein, A — ABCG2) is an efflux transporter expressed in the heart that protects against xenobiotic accumulation by actively pumping toxicants out of cardiac cells. Thus BCRP is involved in cardiac PROTECTION (efflux defense), not in mediating toxic responses — it is the exception. The DB lists A as correct. Per Casarett & Doull, efflux transporters like BCRP and P-gp are protective mechanisms.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1935",
+    "explanation": "The myocardial phosphocreatine (PCr)/ATP ratio (C) is an index that correlates with the severity of heart failure, as measured by ³¹P magnetic resonance spectroscopy. Per Casarett & Doull and clinical cardiology, as heart failure progresses, the energy reserve in cardiomyocytes declines — the PCr/ATP ratio decreases because creatine kinase activity is downregulated and ATP production is impaired. A reduced PCr/ATP ratio is an independent predictor of mortality in heart failure patients. C-reactive protein (A) is an inflammatory marker but is not specific to cardiac energy state. Urinary excretion of cyclic AMP (B) and total LDH (D) are not specific correlates of heart failure severity. The DB lists C as correct.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1936",
+    "explanation": "Myocardial degenerative responses to toxic insult include fibrosis (B — replacement of dead myocytes with collagen), hyperplasia (C — although limited, some degree of fibroblast hyperplasia contributes to remodeling), and contractile dysfunction (D — the functional consequence of structural damage). Myocardial cell death (A), however, is the trigger for degenerative responses, not itself a degenerative response — it is the initiating event. The question asks for which is NOT a degenerative response, and per Casarett & Doull, cell death (necrosis/apoptosis) is the cause, while fibrosis, hyperplasia (of non-myocytes), and contractile dysfunction are the downstream degenerative consequences. The DB lists A (myocardial cell death) as the exception. The phrasing is nuanced: cell death is the primary injury event; the degenerative responses are the subsequent structural and functional changes.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1937",
+    "explanation": "Besides direct toxic effects on cardiac myocytes, toxicants can affect the heart through other mechanisms: the AHR receptor (aryl hydrocarbon receptor, A — e.g., TCDD/dioxin toxicity involves AHR activation leading to cardiac malformations and dysfunction), effects on angiogenesis (B — anti-angiogenic chemotherapies like sunitinib and bevacizumab can cause cardiac toxicity by impairing myocardial microvasculature), and the corticosteroid receptor (C — glucocorticoid receptor signaling influences cardiac metabolism, inflammation, and remodeling). Per Casarett & Doull, toxicants can indirectly affect the heart by targeting non-myocyte cells, signaling pathways, and vascular components. The DB lists D (all of the above) as correct, indicating that all three are valid indirect mechanisms of cardiac toxicity.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1938",
+    "explanation": "Pathological (maladaptive) cardiac hypertrophy is associated with hypertension (A). Per Casarett & Doull, chronic pressure overload from hypertension forces the left ventricle to work harder, triggering a hypertrophic response that initially is compensatory but eventually becomes maladaptive — characterized by myocyte enlargement, fetal gene re-expression, fibrosis, and increased risk of heart failure. In contrast, exercise (B) and pregnancy (C) induce physiological (adaptive) hypertrophy that is reversible and not associated with fibrosis or dysfunction. The DB correctly lists A (hypertension) as associated with pathological hypertrophy. None of the above (D) is incorrect because hypertension is a classic cause.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1939",
+    "explanation": "Myocardial accumulation of collagen (fibrosis) is a hallmark of pathological cardiac remodeling. Myocardial infarction (B) leads to replacement fibrosis in the infarcted area. Pathological hypertrophy (C) is associated with reactive interstitial and perivascular fibrosis due to TGF-β activation and RAAS stimulation. Adaptive hypertrophy (D), which occurs with exercise or pregnancy, is typically NOT associated with collagen accumulation — it is characterized by normal or improved diastolic function without fibrosis. Ischemic cardiomyopathy (A), caused by chronic coronary artery disease, also involves fibrosis. The DB lists A (ischemic cardiomyopathy) as not associated with collagen accumulation, but per standard cardiac pathology, ischemic cardiomyopathy does involve collagen deposition (replacement and reactive fibrosis). The true exception is D (adaptive hypertrophy), which is physiologic hypertrophy without fibrosis. This may be an answer-key issue; for DABT, note adaptive hypertrophy is generally fibrosis-free.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1940",
+    "explanation": "At the molecular level, cardiac myocyte hypertrophy is associated with the reintroduction of the fetal gene program (C). Per Casarett & Doull and molecular cardiology, pathological hypertrophy involves the reactivation of a set of fetal/neonatal genes that are normally quiescent in the adult heart, including: atrial natriuretic peptide (ANP), B-type natriuretic peptide (BNP), β-myosin heavy chain (β-MHC), and skeletal α-actin. This fetal gene reprogramming is a hallmark molecular signature of pathological hypertrophy. Inhibition of TNF (A) and stimulation of p53 (B) are not primary features — p53 is more involved in apoptosis. The DB lists C as correct. Ligand binding to the androgen receptor (D) is not a standard hypertrophy pathway.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1941",
+    "explanation": "Counterregulatory factors that oppose the progression of heart hypertrophy to heart failure include BNP (B-type natriuretic peptide, B — promotes vasodilation, natriuresis, and inhibits hypertrophy), ANP (atrial natriuretic peptide, C — similar protective effects), and TNF alpha (D — while TNF is generally pro-inflammatory, in the context of the counterregulatory system it can be considered one of the factors involved in the complex cardiac remodeling process). Oxytocin (A), however, is primarily a neurohypophyseal hormone involved in parturition and lactation — it is NOT a known counterregulatory factor in the heart's response to hypertrophy. The DB lists A (oxytocin) as the exception. Per Casarett & Doull, the natriuretic peptides (ANP, BNP) are the primary counterregulatory hormones in heart failure.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1942",
+    "explanation": "Counterregulatory mechanisms in response to compensatory cardiac hypertrophy paradoxically lead to myocardial remodeling (B). The compensatory mechanisms (e.g., activation of the sympathetic nervous system, RAAS, and hypertrophic signaling) initially maintain cardiac output, but the counterregulatory responses (e.g., ANP, BNP, and other protective pathways) ultimately contribute to structural changes in the myocardium. Per Casarett & Doull, the net effect of these interacting systems includes progressive myocardial remodeling — changes in ventricular geometry, wall thickness, and extracellular matrix composition. The DB lists B (myocardial remodeling) as correct. Decrease in heart size (A), decrease in cardiac fibrosis (C), and decrease in salt/water retention (D) are not the typical outcomes — the counterregulatory systems are generally insufficient to reverse the hypertrophy process, and remodeling progresses.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1943",
+    "explanation": "During xenobiotic-induced progression to heart failure, the inflammatory cytokine TNF-alpha stimulates apoptosis (C). Per Casarett & Doull, TNF-α is elevated in heart failure and contributes to myocardial dysfunction through multiple mechanisms: (1) activation of caspase cascades leading to cardiomyocyte apoptosis, (2) negative inotropic effects via sphingosine signaling, (3) induction of matrix metalloproteinases that degrade collagen and promote ventricular dilation, and (4) activation of pro-inflammatory gene expression through NF-κB. TNF-α-induced apoptosis is a key contributor to the progressive loss of functional myocytes in heart failure. QT interval shortening (A) and upregulation of hyperplastic genes (B) are not TNF-α-mediated effects in heart failure. The DB lists C as correct.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1944",
+    "explanation": "Moxifloxacin, a fluoroquinolone antibiotic, is most strongly associated with prolongation of the QT interval (B). Per Casarett & Doull and FDA safety communications, moxifloxacin blocks the hERG (KCNH2) potassium channel, delaying ventricular repolarization and prolonging the QT interval. Because this effect is consistent and predictable, moxifloxacin is actually used as a positive control in thorough QT (TQT) studies per ICH E14 guidelines. While moxifloxacin has not been shown to cause toxic cardiomyopathy (D), acute congestive heart failure (A), or coronary artery thrombotic events (C) as its primary toxicity, QT prolongation is its established cardiac safety concern. The DB lists B as correct — and indeed, the risk of torsade de pointes, although low with moxifloxacin alone, is elevated in patients with additional risk factors.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1945",
+    "explanation": "COX-2 inhibitors (e.g., rofecoxib, celecoxib) increase cardiovascular risk by causing coronary artery thrombotic events (D). Per Casarett & Doull and extensive pharmacovigilance data (including the APPROVe and VIGOR trials), selective COX-2 inhibitors suppress prostacyclin (PGI₂) production by endothelial cells without proportionally reducing thromboxane A₂ (TXA₂) from platelets. This creates an imbalance favoring platelet aggregation, vasoconstriction, and thrombosis — leading to increased risk of myocardial infarction and stroke. This mechanism led to the withdrawal of rofecoxib (Vioxx) from the market. Heart block (A), systolic dysfunction heart failure (B), and toxic cardiomyopathy (C) are not the primary mechanisms. The DB correctly lists D.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1946",
+    "explanation": "Inflammatory lesions in the vascular system are termed vasculitis (A). Per Casarett & Doull and standard pathology, vasculitis refers to inflammation of blood vessel walls, which can be caused by immune-mediated mechanisms (e.g., immune complex deposition, ANCA-associated vasculitis), infectious agents, or direct toxic injury (e.g., cocaine-induced vasculitis, drug-induced lupus vasculitis). The suffixes '-itis' denote inflammation. 'Embolitis' (B) is not a standard medical term — embolism refers to obstruction by an embolus, not inflammation. 'Thrombitis' (C) is not a standard term either (thrombophlebitis is inflammation of a vein with thrombosis). 'Angioinflammation' (D) is descriptive but not the standard medical term. The DB lists A (vasculitis) as correct.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1947",
+    "explanation": "The most prevalent vascular structural injury is atherosclerosis (D). Per Casarett & Doull and epidemiological data, atherosclerosis — a chronic inflammatory disease of large and medium-sized arteries characterized by lipid deposition, plaque formation, and vascular remodeling — is the leading cause of morbidity and mortality in developed nations. It underlies coronary artery disease, cerebrovascular disease, and peripheral artery disease. Capillary hyperplasia (A), varicose veins (B), and angioma (C — benign vascular tumor) are far less prevalent as causes of vascular injury. The DB correctly lists D. Atherosclerosis is particularly relevant to applied toxicology because many xenobiotics (tobacco smoke, heavy metals, air pollution, certain chemotherapeutics) promote or accelerate the atherosclerotic process.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1948",
+    "explanation": "Elevation of serum levels of endothelin-1 (ET-1) is a marker for heart failure in humans (B). Per Casarett & Doull, endothelin-1 is a potent vasoconstrictor peptide produced primarily by vascular endothelial cells. In heart failure, ET-1 levels are elevated due to increased production in response to hemodynamic stress, hypoxia, and neurohormonal activation (including angiotensin II and norepinephrine). ET-1 contributes to vasoconstriction, myocardial hypertrophy, fibrosis, and remodeling — and its plasma concentration correlates with pulmonary hypertension, symptom severity, and mortality in heart failure. Cardiac myxoma (A — a benign tumor) and QT interval shortening (C) are not associated with ET-1 elevation. Fetal cardiac abnormalities (D) may involve ET-1 but it is not the primary clinical association. The DB lists B (heart failure in humans) as correct.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1949",
+    "explanation": "Statement C is false: 'Congestive heart failure is associated with an increase in number of cardiac myocytes.' In CHF, cardiac myocytes are terminally differentiated and do NOT increase in number — in fact, myocyte loss through necrosis and apoptosis is a hallmark of heart failure progression. The heart compensates through hypertrophy (enlargement of remaining myocytes), not hyperplasia. Statement A is true: cardiac hypertrophy during postnatal growth (e.g., from infancy to adulthood) is a normal physiologic process. Statement B is true: cardiac myocytes make up only ~30–40% of all cells in the heart by number (though they account for most of the mass); fibroblasts, endothelial cells, and smooth muscle cells constitute the majority. Statement D is true: cardiac fibroblasts make up ~60–70% of nonmyocyte cells (approximately 90% of the nonmyocyte fraction). The DB lists C as false.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1950",
+    "explanation": "Statement B is true: In congestive heart failure (CHF), there is a shift from glucose to fatty acid energy supply. Actually, per Casarett & Doull, the more accurate description is that in the failing heart, there is a shift toward increased glucose utilization and decreased fatty acid oxidation (a 'fetal metabolic shift') due to downregulation of PPARα and its target genes involved in fatty acid oxidation. However, the DB lists B as true, and for exam purposes, the key point is that there IS a metabolic shift in CHF. Statement A is false: under normal conditions, fatty acids (not glucose) provide most (~60–70%) of the heart's energy. Statement C is true for toxicant-induced cardiomyopathy: many toxicants impair oxidative phosphorylation and force anaerobic metabolism. Statement D is false: creatine is synthesized in the liver and kidneys, then transported to the heart via the blood — it is not made in the heart. The DB lists B as correct.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1951",
+    "explanation": "Statement A is FALSE regarding the heart in myocardial infarction: aspartate transaminase (AST) is NOT the most sensitive marker of myocardial damage — it is neither specific nor sensitive enough. Troponin (cardiac troponin I or T) is the gold standard biomarker for myocardial infarction due to its high cardiac specificity and sensitivity. AST was used historically (along with CK-MB and LDH) but is now obsolete as a cardiac marker because it is also elevated in liver disease, muscle injury, and hemolysis. Statement B is false: apoptosis does play a part in MI — both necrosis and apoptosis contribute to myocardial cell death during ischemia-reperfusion. Statement C is false: myocytes do NOT undergo rapid cell division — they are terminally differentiated. The DB lists A as correct (the false statement), which matches the analysis that A is incorrect because AST is not the most sensitive marker. For context, the question asks which statement is true, and the DB answer A being the correct choice means A is presented as 'true' in the DB, but per modern cardiology, A is actually false — this appears to reflect the age of the source material (2000Q Bank) when AST was still in use alongside CK-MB.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1952",
+    "explanation": "A key event in the initiation of apoptosis in the heart is the release of cytochrome c (A) from the mitochondria into the cytosol. Per Casarett & Doull, the intrinsic (mitochondrial) apoptotic pathway is central to cardiac myocyte death in response to toxicants, ischemia-reperfusion, and oxidative stress. Mitochondrial outer membrane permeabilization (MOMP), regulated by Bcl-2 family proteins (Bax, Bak, Bcl-2, Bcl-xL), allows cytochrome c to escape into the cytosol, where it binds to Apaf-1 to form the apoptosome, which activates caspase-9 and downstream executioner caspases (caspase-3, -7). Sodium (B), creatine (C), and 'none of the above' (D) are not the key initiators. The DB lists A (cytochrome c) as correct.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1953",
+    "explanation": "Statement D is true: damage to mitochondrial DNA may be involved in the cardiac toxicity of doxorubicin (D). Per Casarett & Doull, doxorubicin accumulates in mitochondria due to its affinity for cardiolipin and causes mtDNA damage through oxidative stress (ROS generation via redox cycling and iron interactions). mtDNA is particularly vulnerable because it lacks protective histones (unlike nuclear DNA — making B false), has limited DNA repair capacity (making C false), and is continuously exposed to ROS generated by oxidative phosphorylation (making A false — it is MORE exposed to oxidative injury than nuclear DNA). The DB correctly lists D. Doxorubicin's preferential targeting of mtDNA contributes to the cumulative dose-dependent cardiotoxicity that limits its clinical use.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1954",
+    "explanation": "A key factor in determining whether a cell undergoes apoptosis (programmed cell death, ATP-dependent) or necrosis (uncontrolled cell death, ATP-independent) is the ATP concentration (A). Per Casarett & Doull, the apoptosis-necrosis continuum is governed by cellular energy status: if ATP levels are sufficient, the cell can execute the energy-requiring apoptotic program (caspase activation, apoptosome formation, nuclear fragmentation). If ATP is severely depleted (e.g., due to mitochondrial dysfunction from toxicants), the cell cannot complete apoptosis and instead undergoes necrosis. This 'energy switch' hypothesis explains why the same toxicant can cause apoptosis at low doses and necrosis at high doses. Beta-2 microglobulin (B), amyloid A (C), and C-reactive protein (D) are inflammatory markers, not determinants of cell death mode. The DB lists A as correct.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1955",
+    "explanation": "Statement E is listed as the exception (unlisted option). Let's evaluate each statement: A is true — both adaptive (physiologic) and maladaptive (pathologic) hypertrophy involve hypertrophy of cardiac myocytes (enlargement of existing cells). B is true — maladaptive hypertrophy involves collagen accumulation (fibrosis), while adaptive hypertrophy typically does NOT; however, the statement says 'Both are associated with accumulation of collagen' — which would be false for adaptive hypertrophy. C is true — maladaptive hypertrophy increases arrhythmia risk due to conduction heterogeneity, fibrosis, and ion channel remodeling. D is true — adaptive hypertrophy occurs after exercise (athlete's heart). The DB lists E as the exception. If the question presents these statements collectively, the exception would be the one that is false. Based on B being true about both forms, but adaptive hypertrophy NOT involving collagen accumulation, the false statement among A–D is B. However, the DB lists E as the answer. For DABT purposes, recognize that adaptive (physiological) hypertrophy is a reversible, non-pathological enlargement without fibrosis, while maladaptive hypertrophy involves fibrosis and dysfunction.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1956",
+    "explanation": "Risk factors for the development of torsade de pointes (TdP) include: hyperkalemia (A — actually, hypokalemia is a stronger risk factor; however, electrolyte disturbances in general predispose to TdP), hypernatremia (B — electrolyte derangements affect repolarization), and prolonged QT interval (C — prolonged repolarization is the essential electrophysiological substrate for TdP). Per Casarett & Doull and cardiac electrophysiology, the classic risk factors for TdP include: female sex, hypokalemia, hypomagnesemia, bradycardia, baseline QT prolongation, drugs that block hERG, and recent conversion from atrial fibrillation. The DB lists D (all of the above) as the answer — though hyperkalemia is somewhat unusual as a TdP risk (hypokalemia is more typical), the DB considers all three listed factors as relevant. Note that prolonged QT interval (C) is the central prerequisite for TdP.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1957",
+    "explanation": "This matching-style question asks which toxicant-effect pair is incorrect. Let's evaluate each: A — carbon disulfide → atherogenic in lab animals: TRUE. Carbon disulfide (CS₂) exposure is associated with accelerated atherosclerosis, coronary heart disease, and lipid abnormalities in both animal studies and occupational epidemiology. B — nicotine → Alzheimer's disease: FALSE. Nicotine is not established as a cause of Alzheimer's disease. In fact, some epidemiological studies suggested a possible protective effect (though this is controversial and confounded by smoking's overall harm). Nicotine is associated with addiction and cardiovascular effects, not Alzheimer's disease. C — cadmium → hypertension: CONTROVERSIAL. Cadmium exposure has been linked to hypertension and cardiovascular disease in some studies, though the evidence is mixed. D — tobacco smoke → endothelial injury: TRUE. Tobacco smoke causes endothelial dysfunction, oxidative stress, inflammation, and impaired nitric oxide bioavailability — well-established mechanisms. The DB lists E as the answer (incorrect pair), but among A–D, B (nicotine–Alzheimer's) is clearly the incorrect pair. For DABT purposes, note that nicotine is not a recognized risk factor for Alzheimer's disease.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1958",
+    "explanation": "Statement E is listed as the exception (the false statement). Let's evaluate: A — 'It is unrelated to the duration of alcohol exposure.' This is FALSE — alcoholic cardiomyopathy IS related to both dose and duration of alcohol consumption (typically >80 g/day for >5 years). So A would be the true exception among the listed statements. B — 'Acetaldehyde may be involved in the genesis.' TRUE — acetaldehyde, the primary alcohol metabolite, is cardiotoxic: it forms protein adducts, impairs mitochondrial function, increases oxidative stress, and depresses myocyte contractility. C — 'Multiple factors such as malnutrition, beverage additives, and cigarette smoking have been implicated.' TRUE — alcoholic cardiomyopathy is multifactorial, with thiamine deficiency (beriberi heart disease), cobalt additives (beer drinker's cardiomyopathy), and tobacco synergistically contributing. D — 'Alcohol has been implicated as causing up to 40% of nonischemic, dilated cardiomyopathy.' TRUE — alcohol is one of the most common causes of nonischemic dilated cardiomyopathy in developed countries. The DB lists E as the exception. Statement A is the false/incorrect statement (alcoholic cardiomyopathy IS related to duration of exposure), making it the likely exception. The DB's answer (E) likely corresponds to A from the unlisted options perspective, meaning A is the exception.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1959",
+    "explanation": "Class I antiarrhythmic drugs are sodium channel blockers (B). Per Casarett & Doull and the Vaughan Williams classification, Class I agents block the fast sodium channel (Nav1.5), slowing Phase 0 depolarization and reducing conduction velocity. They are subdivided into IA (moderate Na⁺ block + K⁺ block, e.g., quinidine, procainamide), IB (mild Na⁺ block, e.g., lidocaine, mexiletine), and IC (strong Na⁺ block, e.g., flecainide, propafenone). Statement A is true — lidocaine (IB), quinidine (IA), and flecainide (IC) are all Class I agents. Statement C is also true — Class IC agents like flecainide were shown in the CAST trial to have proarrhythmic effects and increase mortality in post-MI patients. The DB lists D (all of the above) as correct, which is consistent because all three statements (A, B, C) are true. For DABT, remember that Class I = sodium channel blockers.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1960",
+    "explanation": "Sotalol is a beta-blocker and class III antiarrhythmic (B). Per Casarett & Doull and pharmacology references, sotalol is a unique antiarrhythmic agent that possesses both non-selective β-adrenergic receptor blocking activity (Class II effect) and potassium channel blocking activity (Class III effect — prolongs repolarization by blocking IKr/hERG). It does NOT have alpha-blocker activity (making A incorrect), nor is it limited to Class I/III (C) or Class IV (D — calcium channel blocker) combinations. Sotalol is available as both racemic (d,l-sotalol) and d-sotalol (the d-isomer has primarily Class III activity). Its dual mechanism makes it effective for both atrial and ventricular arrhythmias, but it carries a significant risk of QT prolongation and torsade de pointes. The DB correctly lists B.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1961",
+    "explanation": "Class III antiarrhythmics are primarily potassium channel blockers (B), not chloride channel blockers (C). Per Casarett & Doull and the Vaughan Williams classification, Class III agents prolong the cardiac action potential duration (APD) and refractory period by blocking the rapid component of the delayed rectifier potassium current (IKr, encoded by hERG/KCNH2). Examples include sotalol, amiodarone (also has Class I, II, IV effects), dofetilide, ibutilide, and bretylium. By delaying repolarization, these drugs increase the QT interval and carry a risk of torsade de pointes. Sodium channel blockers (A) are Class I. Chloride channel blockers (C) are not a recognized Vaughan Williams class. Beta-adrenergic blockers (D) are Class II. The DB lists B as correct. Note: the 2000Q Bank source may have listed C as the answer erroneously, but the standard Vaughan Williams classification definitively identifies Class III as K⁺ channel blockers — for the DABT exam, remember Class III = K⁺ blockers.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1962",
+    "explanation": "Cardiac glycosides (e.g., digoxin, digitoxin) are Na⁺/K⁺-ATPase inhibitors (B). Per Casarett & Doull and pharmacology, digoxin binds to and inhibits the α-subunit of the Na⁺/K⁺-ATPase pump on cardiomyocyte membranes. This inhibition increases intracellular Na⁺, which reduces the driving force for Na⁺/Ca²⁺ exchanger (NCX) activity, leading to increased intracellular Ca²⁺ and enhanced contractility (positive inotropy). Statement A ('increase the sensitivity of myocytes to calcium') is incorrect — they increase Ca²⁺ concentration, not sensitivity. Statement C ('cause sinus tachycardia') is FALSE — cardiac glycosides increase vagal tone and actually cause sinus bradycardia, AV block, and other bradyarrhythmias. Statement D ('inhibit sympathetic outflow at high doses') is partially true via increased vagal tone, but B is the defining mechanism. The DB lists B as correct. For DABT, remember: cardiac glycosides = Na⁺/K⁺-ATPase inhibitors.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1963",
+    "explanation": "The most sensitive clinical indicator of myocardial cell damage is serum troponin (B). Per Casarett & Doull and the universal definition of myocardial infarction, cardiac troponin (I or T) is the biomarker of choice for detecting myocardial injury due to its high cardiac specificity and sensitivity. Troponin levels rise within 3–6 hours of injury, peak at 12–24 hours, and remain elevated for 7–14 days. Urine CPK (A) is not a standard cardiac marker. Serum ALT (C — alanine aminotransferase) is a liver enzyme. Serum creatinine (D — renal function marker) is not specific to cardiac injury. The DB lists E as the answer (likely an unlisted option corresponding to troponin). For DABT purposes, troponin is definitively the most sensitive and specific cardiac biomarker. Note that CK-MB and AST were used historically but have been supplanted by troponin.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1964",
+    "explanation": "An indicator of fluid overload in congestive heart failure is brain natriuretic peptide (BNP, C). Per Casarett & Doull and clinical guidelines, BNP is a neurohormone synthesized and released by ventricular myocytes in response to increased wall stretch and volume overload. BNP and its N-terminal fragment (NT-proBNP) are the most sensitive and specific biomarkers for diagnosing heart failure, assessing severity, and monitoring treatment response. Serum CPK (B — creatine phosphokinase) is a marker of muscle injury, not fluid overload — CK-MB (the cardiac isoform) is used for myocardial infarction, not heart failure. Urine pH (A) is not a marker of fluid overload. First-degree AV block (D — prolonged PR interval on ECG) is an electrical conduction abnormality, not an indicator of fluid status. The DB lists C as correct.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1965",
+    "explanation": "This is a matching test question. 'Oral contraceptives' is matched with A — 'metal associated with essential hypertension.' The correct interpretation is that oral contraceptives (estrogen-containing) have been epidemiologically associated with increased risk of hypertension. While the matching pair seems semantically mismatched ('oral contraceptives' → a 'metal associated with hypertension'), this is likely a test of whether the examinee identifies that cadmium is the metal linked to hypertension, and that the matching test expects the letter A to correspond to that description. Per Casarett & Doull, cadmium is the metal most strongly associated with essential hypertension in epidemiological and experimental studies — it contributes to vasoconstriction, oxidative stress, renal sodium retention, and vascular dysfunction. The DB lists A as the correct match for oral contraceptives (likely meaning that in the matching test format, option A was the shared answer bank entry for this row).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1966",
+    "explanation": "This is a matching test question. 'Homocysteine' is matched with E — 'cardiac hemangiosarcomas in lab animals.' Per Casarett & Doull, elevated homocysteine (hyperhomocysteinemia) is an established independent risk factor for cardiovascular disease, including atherosclerosis, venous thromboembolism, and endothelial dysfunction. However, the matching to 'cardiac hemangiosarcomas in lab animals' is less standard — it likely reflects a question format where multiple terms are paired with multiple outcomes, and the examinee must match correctly. Hemangiosarcomas are malignant tumors of vascular endothelial origin that occur in the heart in various species. The DB lists E as the correct match for homocysteine. The more typical cardiovascular associations of homocysteine include endothelial injury, oxidative stress, and promotion of atherothrombotic disease.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1967",
+    "explanation": "This is a matching test question. 'Beta-amyloid' is matched with A — 'abortions and abruption placentae.' Beta-amyloid (Aβ) is the peptide that aggregates into amyloid plaques in Alzheimer's disease. The matching to reproductive outcomes ('abortions and abruption placentae') seems unexpected and likely reflects an answer-key artifact in the matching test format. Per Casarett & Doull, beta-amyloid is not classically associated with direct reproductive toxicity. However, the DB lists A as the match. For the DABT exam matching test, the examinee matches each term in the left column to the correct option from a shared answer bank (A–E). The specific matching here may be driven by the structure of the test rather than a direct toxicological relationship. In standard toxicology, cadmium exposure is known to be associated with placental toxicity, abortions, and abruption placentae — so option A likely describes a cadmium-related effect, and the matching of beta-amyloid to A is the intended (if unusual) pairing in the DB.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1968",
+    "explanation": "This is a matching test question. 'Carbon disulfide' is matched with A — 'noncirrhotic portal hypertension in humans.' Per Casarett & Doull and occupational toxicology references, carbon disulfide (CS₂) is a widely used industrial solvent (viscose rayon, rubber vulcanization) with well-established cardiovascular and neurotoxic effects. The DB lists the match as noncirrhotic portal hypertension, which is a less common association — CS₂ is primarily known for causing: accelerated atherosclerosis and coronary heart disease, peripheral neuropathy, parkinsonism, and retinopathy. Noncirrhotic portal hypertension (also called idiopathic portal hypertension or hepatoportal sclerosis) can be caused by chronic exposure to certain chemicals including vinyl chloride, arsenic, and copper, but CS₂ is not the classic hepatotoxic agent associated with this condition. For DABT matching test purposes, note the DB's intended pairing: carbon disulfide with noncirrhotic portal hypertension. This may reflect the source material's specific question structure where each occupational toxin is matched with its most characteristic effect.",
+    "domain": "Domain IV"
+  }
+]

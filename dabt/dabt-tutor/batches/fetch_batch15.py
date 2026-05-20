@@ -1,0 +1,26 @@
+#!/usr/bin/env python3
+"""Fetch all batch15 questions from the DABT database."""
+import sqlite3
+import json
+
+db_path = '/root/work/dabt/dabt-tutor/reference/data/dabt.db'
+ids = ["DABT-0969", "DABT-0970", "DABT-0971", "DABT-0972", "DABT-0973", "DABT-0974", "DABT-0975", "DABT-0976", "DABT-0977", "DABT-0978", "DABT-0979", "DABT-0980", "DABT-0981", "DABT-0982", "DABT-0983", "DABT-0984", "DABT-0985", "DABT-0986", "DABT-0987", "DABT-0988", "DABT-0989", "DABT-0990", "DABT-0991", "DABT-0992", "DABT-0993", "DABT-0994", "DABT-0995", "DABT-0996", "DABT-0997", "DABT-0998", "DABT-0999", "DABT-1000", "DABT-1001", "DABT-1002", "DABT-1003", "DABT-1004", "DABT-1005", "DABT-1006", "DABT-1007", "DABT-1008", "DABT-1009", "DABT-1010", "DABT-1011", "DABT-1012", "DABT-1013", "DABT-1014", "DABT-1015", "DABT-1016", "DABT-1017", "DABT-1018"]
+
+db = sqlite3.connect(db_path, check_same_thread=False)
+db.row_factory = sqlite3.Row
+results = []
+
+for qid in ids:
+    q = db.execute('SELECT id, question_text, correct_answer_letter FROM questions WHERE id=?', (qid,)).fetchone()
+    if not q:
+        print(f"WARNING: {qid} not found")
+        continue
+    opts = db.execute('SELECT option_letter, option_text FROM answer_options WHERE question_id=? ORDER BY option_letter', (qid,)).fetchall()
+    results.append({
+        'id': qid,
+        'text': q['question_text'],
+        'ans': q['correct_answer_letter'],
+        'opts': {o['option_letter']: o['option_text'] for o in opts}
+    })
+
+print(json.dumps(results, indent=2))

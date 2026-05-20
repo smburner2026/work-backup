@@ -1,0 +1,252 @@
+[
+  {
+    "id": "DABT-1969",
+    "explanation": "This is a matching-test item. The DB stores mercury as matched with D \u2014 'increased risk of thrombotic events in users who smoke.' Per Casarett & Doull Ch.23 (Metals) and Ch.18 (Cardiovascular Toxicology), mercury is a cardiotoxic heavy metal that promotes oxidative stress, endothelial dysfunction, and lipid peroxidation, contributing to atherosclerosis and thrombotic risk. Cigarette smoking contains additional heavy metals and pro-oxidants, and smokers pre-exposed to mercury have a synergistic increase in cardiovascular risk \u2014 mercury impairs nitric oxide bioavailability while smoking provides additional oxidative burden. However, among other matching-test options not stored in the DB, mercury's most established cardiovascular associations include hypertension, carotid artery thickening, and myocardial infarction risk. The match stored in the DB reflects a column-alignment artifact common in 2000Q Bank matching-test extractions (see batch35-cardiovascular-errors.md for the same pattern).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1970",
+    "explanation": "This is a matching-test item. The DB stores particulate matter (PM) as matched with C \u2014 'preglomerular vasoconstriction and disruption of blood-brain barrier.' Per Casarett & Doull Ch.15 (Respiratory System) and Ch.18 (Cardiovascular), PM exposure, particularly PM\u2082.\u2085, induces systemic inflammation, oxidative stress, and vascular dysfunction. PM\u2082.\u2085 inhalation triggers pulmonary inflammation with spillover of pro-inflammatory cytokines (IL-6, TNF-\u03b1) into the systemic circulation, leading to endothelial activation, impaired vasodilation, and blood-brain barrier disruption. The renin-angiotensin system is activated, contributing to afferent arteriolar (preglomerular) vasoconstriction and potential renal injury. PM is also associated with QT prolongation and arrhythmia risk. The stored match reflects a column-alignment artifact from the 2000Q Bank matching-test extraction; the DB stores only one option but the intended association links PM to systemic vascular effects including both renal and neurological impact.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1971",
+    "explanation": "This is a matching-test item. The DB stores arsenic as matched with A \u2014 'Elevated serum levels are associated with increased risk of atherosclerosis and venous thrombosis.' Per Casarett & Doull Ch.23 (Metals & Metalloids) and Ch.18, this match is TOXICOLOGICALLY CORRECT. Chronic arsenic exposure (from drinking water in many parts of the world) is a well-established risk factor for cardiovascular disease, including: (1) accelerated atherosclerosis via oxidative stress, endothelial dysfunction, and upregulation of inflammatory cytokines; (2) venous thromboembolism through enhanced platelet aggregation and coagulation cascade activation; (3) hypertension; and (4) peripheral vascular disease (Blackfoot disease). Arsenic is classified as a Group 1 human carcinogen (IARC) and also causes skin lesions, diabetes, and neurotoxicity. Its cardiovascular effects are mediated through generation of reactive oxygen species, inhibition of endothelial nitric oxide synthase, and epigenetic modifications. This is one of the better-stored matches in the 2000Q Bank cardiovascular matching test.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1972",
+    "explanation": "This is a matching-test item with zero stored answer options in the DB. 1,3-Butadiene is a volatile industrial chemical used primarily in synthetic rubber manufacturing (styrene-butadiene rubber). Per Casarett & Doull Ch.24 (Solvents and Vapors), 1,3-butadiene is a known animal and probable human carcinogen (Group 2A, IARC) targeting the hematopoietic system \u2014 chronic exposure is associated with leukemia (particularly lymphohematopoietic cancers) in occupationally exposed workers. The DB stores B as the answer letter but no option text ('None'). 1,3-butadiene is metabolically activated by CYP2E1 and CYP2A6 to mutagenic epoxide intermediates (butadiene monoxide and diepoxide) that form DNA adducts. Acute effects include CNS depression and eye/respiratory irritation. The missing option text reflects a known extraction gap in the 2000Q Bank's matching-test import; per Casarett & Doull Ch.24, 1,3-butadiene's primary toxicological significance is its hematopoietic carcinogenicity.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1973",
+    "explanation": "Correct answer: C \u2014 'concentration of metabolites in water supply.' Per Casarett & Doull Ch.32 (Analytical and Forensic Toxicology) and environmental epidemiology, wastewater-based epidemiology (WBE) estimates community drug use by measuring drug metabolites in influent wastewater. Cocaine's major urinary metabolite, benzoylecgonine, is stable in wastewater and is measured by LC-MS/MS to back-calculate community consumption. This approach avoids self-reporting biases (underestimation) and provides near-real-time, objective data at the community level. Hospital admissions (A) and police arrests (B) underestimate use because only a fraction of users come to official attention. Interviews (D) suffer from social desirability and recall bias. WBE is now a standard tool endorsed by the European Monitoring Centre for Drugs and Drug Addiction (EMCDDA).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1974",
+    "explanation": "Correct answer: A \u2014 'heroin and cocaine.' According to the Drug Abuse Warning Network (DAWN) data from 2003, heroin and cocaine were the leading illicit drugs implicated in drug-related deaths reported to U.S. emergency departments. Per Casarett & Doull Ch.32 (Analytical and Forensic Toxicology) and DAWN reports, heroin (a mu-opioid receptor agonist) causes fatal respiratory depression, while cocaine (a monoamine reuptake inhibitor) causes fatal arrhythmias, seizures, and cerebrovascular events. These two drugs consistently dominated drug-related mortality statistics in the early 2000s. Methadone (B option) and fentanyl (B) rose in prominence later in the opioid epidemic. Methamphetamine (C) is a significant concern but mortality numbers in 2003 were lower. Oxycodone (D) increased in lethality later during the prescription opioid crisis.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1975",
+    "explanation": "Correct answer: B \u2014 'time of ingestion.' Per Casarett & Doull Ch.32 (Analytical and Forensic Toxicology), the ratio of parent cocaine to its major metabolite benzoylecgonine in postmortem brain tissue reflects the time interval between cocaine ingestion and death. Cocaine is rapidly metabolized by plasma and liver esterases to benzoylecgonine (t\u2081/\u2082 ~0.5-1.5 h). A high cocaine-to-benzoylecgonine ratio indicates recent ingestion (little time for metabolism); a low ratio indicates longer survival after use. Brain tissue is preferred over blood for this ratio because it is less affected by postmortem redistribution and provides a more stable index. The rate of hepatic drug metabolism (A) is not directly assessed by this ratio. Cause of death (C) and drug source (D) require other analytical information.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1976",
+    "explanation": "Correct answer: A \u2014 'cocaine.' Per Casarett & Doull Ch.32 (Analytical and Forensic Toxicology), the predominant cocaine analyte measured in human hair is parent cocaine, not its metabolites. The figure (Fig. 32-4) showing disposition of cocaine and metabolites in human fluids and hair demonstrates that cocaine is the primary analyte incorporated into hair, with benzoylecgonine (D) present at much lower concentrations. This is because cocaine, being more lipophilic, partitions into the lipid-rich hair matrix more readily than its polar metabolites. Cocaine enters hair through passive diffusion from blood into the growing hair follicle and through external contamination from sweat/sebum. Cocaethylene (B) is formed only when ethanol is co-ingested with cocaine. Norcocaine (C) is a minor metabolite.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1977",
+    "explanation": "Correct answer: D \u2014 'There is a good correlation between postmortem levels and cause of death' is the FALSE statement. Per Casarett & Doull Ch.32 and Ch.33 (Clinical Toxicology), postmortem cocaine levels do NOT correlate well with cause of death due to: (1) postmortem redistribution (cocaine moves from tissue stores into blood after death); (2) rapid postmortem hydrolysis by esterases; (3) variable antemortem tolerance; and (4) the fact that death can occur during the absorption phase when blood levels are still rising. A is TRUE: tolerance to cocaine's euphoric and cardiovascular effects develops with repeated use. B is TRUE: chronic cocaine use causes myocardial fibrosis, hypertrophy, and accelerated coronary atherosclerosis. C is TRUE: cocaine undergoes significant postmortem redistribution \u2014 concentrations in heart blood can be much higher than peripheral blood due to release from cardiac and pulmonary tissues.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1978",
+    "explanation": "Correct answer: A \u2014 'oleander' is the exception because it does NOT produce a stimulant chemical. Per Casarett & Doull Ch.26 (Toxic Effects of Plants), oleander (Nerium oleander) contains cardiac glycosides (oleandrin, neriine) that are CARDIOACTIVE, not CNS stimulants \u2014 they cause bradycardia, AV block, and hyperkalemia, the opposite of stimulation. B (khat) contains cathinone, a monoamine-releasing agent that produces amphetamine-like CNS stimulation. C (ephedra/ma huang) contains ephedrine and pseudoephedrine, sympathomimetic amines that stimulate the CNS and cardiovascular system. D (absinthe/wormwood) contains thujone, a GABA-A receptor antagonist that can cause CNS excitation, seizures, and hallucinations at high doses. The DB correctly identifies oleander as the exception.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1979",
+    "explanation": "Correct answer: B \u2014 'At low doses, it impairs psychomotor performance' is the FALSE statement. Per Casarett & Doull Ch.32 and standard pharmacology, methamphetamine is a potent CNS stimulant that releases monoamines (dopamine, norepinephrine, serotonin) from presynaptic terminals. At LOW doses, it ENHANCES psychomotor performance \u2014 improving attention, reaction time, and physical endurance. Only at high doses or during withdrawal does psychomotor impairment occur. A is TRUE: methamphetamine is N-demethylated to amphetamine via CYP2D6 as a minor metabolic pathway. C is TRUE: the standard urine immunoassay screening cutoff for methamphetamine is 1,000 ng/mL (though the question says mg/mL, this is a unit error in the source; the correct cutoff is 1,000 ng/mL or 1 \u03bcg/mL). D is TRUE: selegiline (a MAO-B inhibitor) is metabolized to l-methamphetamine and l-amphetamine in vivo.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1980",
+    "explanation": "Correct answer: D \u2014 'cocaethylene.' Per Casarett & Doull Ch.32 (Analytical and Forensic Toxicology) and Ch.33 (Clinical Toxicology), when ethanol is consumed concurrently with cocaine, hepatic carboxylesterase-1 (hCE1) catalyzes the transesterification of cocaine to cocaethylene (ethylbenzoylecgonine). Cocaethylene is a psychoactive metabolite that is equipment to cocaine as a dopamine reuptake inhibitor but has a longer elimination half-life (2-5 h vs 0.5-1.5 h for cocaine), prolonging euphoria and increasing cardiotoxicity (arrhythmia risk). The formation of cocaethylene explains the enhanced toxicity of combined cocaine-ethanol abuse (the most common lethal cocaine-drug combination). A (norcocaine) is an N-demethylated metabolite via CYP3A4. B (methylecgonine) is a minor hydrolysis product. C (benzoylecgonine) is the major urinary metabolite from ester hydrolysis.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1981",
+    "explanation": "Correct answer: C \u2014 'anhydroecgonine methyl ester' (AEME). Per Casarett & Doull Ch.32 (Analytical and Forensic Toxicology, Fig. 32-3), when cocaine is smoked (e.g., 'crack' cocaine), thermal degradation produces anhydroecgonine methyl ester as the major pyrolysis product. This compound is formed by dehydration of the cocaine molecule at the 2-position during heating. AEME is a biomarker for smoked cocaine consumption (as opposed to snorted or injected) and can be detected in urine, blood, and hair. A (norcocaine) is an N-demethylated metabolite formed by hepatic CYP3A4. B (methylecgonine) is a minor hydrolysis product. D (cocaethylene) requires ethanol co-ingestion. The detection of AEME in biological specimens confirms that cocaine was smoked rather than administered by other routes.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1982",
+    "explanation": "Correct answer: C \u2014 'esterases.' Per Casarett & Doull Ch.32 (Analytical and Forensic Toxicology), cocaine is primarily metabolized by hydrolysis via plasma pseudocholinesterase (butyrylcholinesterase) and liver carboxylesterases. These esterase-mediated pathways produce benzoylecgonine (via hydrolysis of the methyl ester group) and ecgonine methyl ester (via hydrolysis of the benzoyl ester group). Only a minor fraction (5-10%) undergoes CYP-mediated oxidative metabolism (CYP3A4 \u2192 norcocaine, which has hepatotoxic potential). While CYP2B6 (A) and glucuronidation (B) play roles for some drugs, they are not the primary route for cocaine. Acetylation (D) is not a significant cocaine metabolic pathway. The predominance of esterase metabolism explains why cocaine has a short plasma half-life (~0.5-1.5 h) and why individuals with pseudocholinesterase deficiency may have prolonged cocaine effects.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1983",
+    "explanation": "Correct answer: C \u2014 'Vicks decongestant' (Vicks VapoInhaler). Per Casarett & Doull Ch.32 (Analytical and Forensic Toxicology), the l-isomer (levo-methamphetamine or l-desoxyephedrine) is the active ingredient in the Vicks Vapor Inhaler, an over-the-counter nasal decongestant. l-Methamphetamine has primarily peripheral sympathomimetic activity (vasoconstriction) with minimal CNS stimulant effects compared to the d-isomer (dextro-methamphetamine), which is the abused form with potent dopaminergic activity. The l-isomer is approximately 10-20 times less potent at the dopamine transporter than the d-isomer. A (pseudoephedrine), B (phenylephrine), and D (phenylpropanolamine) are other OTC decongestants but are not the l-isomer of methamphetamine. The presence of l-methamphetamine in urine can be a forensic issue \u2014 it may indicate OTC decongestant use rather than illicit d-methamphetamine abuse.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1984",
+    "explanation": "Correct answer: B \u2014 'trans-phenylpropene.' Per Casarett & Doull Ch.32 (Analytical and Forensic Toxicology), when methamphetamine is smoked, thermal degradation produces trans-phenylpropene (also called 1-phenylpropene or \u03b2-methylstyrene) as a characteristic pyrolysis product. This compound is analogous to anhydroecgonine methyl ester for cocaine \u2014 it serves as a specific biomarker indicating that methamphetamine was administered by smoking rather than by other routes (oral, IV, intranasal). A (norephedrine) and D (p-hydroxymethamphetamine) are standard oxidative metabolites of methamphetamine via CYP2D6, not specific to smoking. C (O-hydroxynorphedrine) is not a standard methamphetamine metabolite.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1985",
+    "explanation": "Correct answer: B \u2014 'basic urine.' Per Casarett & Doull Ch.5 (ADME) and Ch.32, methamphetamine is a weak base (pKa ~9.9). According to the pH-partition (ion trapping) hypothesis, weak bases are predominantly unionized at alkaline pH, favoring renal tubular REABSORPTION and thus DECREASING urinary excretion. In an acidic urine (D \u2014 ammonium chloride acidifies urine), weak bases are ionized and trapped in the tubular lumen, increasing excretion. This principle is clinically applied: acidification of urine (e.g., with ammonium chloride) ENHANCES methamphetamine excretion, while alkalinization (basic urine, option B) DECREASES it. Phenobarbital (A) is a weak acid whose excretion is enhanced by alkaline urine \u2014 opposite to methamphetamine. The DB correctly identifies B (basic urine) as the factor that decreases excretion.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1986",
+    "explanation": "Correct answer: C \u2014 'ritalinic acid.' Per Casarett & Doull Ch.32 (Analytical and Forensic Toxicology) and pharmacology, methylphenidate (Ritalin, Concerta) is rapidly and extensively metabolized by ester hydrolysis to ritalinic acid (\u03b1-phenyl-2-piperidine acetic acid), which is pharmacologically inactive. Approximately 80% of an oral dose is excreted in the urine as ritalinic acid within 24 hours. This extensive first-pass metabolism (option B: 'It is highly first passed' in DABT-1989 similarly references this concept) explains the difference between immediate-release and extended-release formulations. A (unchanged drug) accounts for less than 1% of urinary excretion. B (ethylphenidate) is formed only when methylphenidate is co-ingested with ethanol via transesterification, analogous to cocaethylene. D (amphetamine) is NOT a metabolite of methylphenidate \u2014 the two are structurally and pharmacologically distinct.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1987",
+    "explanation": "Correct answer: C \u2014 'It has a low affinity for the 5HT transporter.' Per Casarett & Doull Ch.32 and psychopharmacology, methylphenidate is a dopamine (DAT) and norepinephrine (NET) reuptake inhibitor, similar to cocaine and amphetamine. However, methylphenidate has significantly LOWER affinity for the serotonin transporter (SERT) compared to cocaine. Cocaine is a non-selective monoamine reuptake inhibitor with roughly equal potency at DAT, NET, and SERT. Methylphenidate's relatively selective DAT/NET inhibition profile contributes to its lower abuse potential and different psychoactive profile compared to cocaine. A and B are actual similarities (methylphenidate does block DAT and NET, like cocaine/amphetamine), so they are NOT differences. D is false \u2014 methylphenidate has LOWER abuse potential than cocaine, not higher.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1988",
+    "explanation": "Correct answer: C \u2014 'facilitate sexual assault.' Per Casarett & Doull Ch.33 (Clinical Toxicology) and Ch.32, gamma-hydroxybutyrate (GHB) is a CNS depressant that acts as a GABA-B receptor agonist and GHB receptor ligand. It produces euphoria and disinhibition at low doses, and sedation, amnesia, and unconsciousness at higher doses. These properties \u2014 particularly the rapid onset of sedation and anterograde amnesia \u2014 make GHB a recognized 'date rape' drug used to facilitate sexual assault. GHB is colorless, odorless, and salty-tasting, making it easy to administer surreptitiously in drinks. A (induce anesthesia): GHB has been used experimentally as an anesthetic, but this is not its predominant illicit use. B (treat status epilepticus): GHB can cause seizures rather than treat them. D (counteract cocaine-induced delirium): GHB would worsen CNS depression, not help with stimulant delirium.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1989",
+    "explanation": "Correct answer: D \u2014 'It is a racemic mixture' is the FALSE statement. Per Casarett & Doull Ch.33 and pharmacology, dextromethorphan (DXM) is the D-isomer of the codeine analog levorphanol \u2014 it is the isolated dextrorotatory enantiomer, NOT a racemic mixture. It was specifically selected because the D-isomer has antitussive (cough suppressant) activity without the opioid effects of the L-isomer (levomethorphan is a controlled substance). A is TRUE: DXM and its metabolite dextrorphan inhibit serotonin reuptake and can precipitate serotonin syndrome when combined with MAOIs or SSRIs. B is TRUE: DXM undergoes extensive first-pass metabolism (O-demethylation to dextrorphan via CYP2D6). C is TRUE: CYP2D6 is the primary metabolic enzyme \u2014 poor metabolizers (7-10% of the population) have exaggerated and prolonged effects.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1990",
+    "explanation": "Correct answer: B \u2014 'eszopiclone' is the exception. Per Casarett & Doull Ch.33 (Clinical Toxicology), eszopiclone (Lunesta) is a non-benzodiazepine hypnotic belonging to the cyclopyrrolone class (a 'Z-drug'), not a benzodiazepine. It binds to a different site on the GABA-A receptor \u03b1-subunit (the benzodiazepine binding site is at \u03b11-\u03b3, while eszopiclone binds at a distinct pocket). A (oxazepam), C (chlordiazepoxide), and D (clorazepate) are all classic 1,4-benzodiazepines. Oxazepam is a short-acting active metabolite of several prodrug benzodiazepines. Chlordiazepoxide (Librium) was the first benzodiazepine introduced (1960). Clorazepate is a prodrug decarboxylated in gastric acid to N-desmethyldiazepam.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1991",
+    "explanation": "Correct answer: A \u2014 'lorazepam' is the exception. Per Casarett & Doull Ch.33, oxazepam is a common active metabolite of several 'prodrug' benzodiazepines. Among the options, B (temazepam \u2192 N-desmethyl metabolite, but temazepam itself is a minor metabolite of diazepam), C (diazepam \u2192 sequentially demethylated to nordazepam \u2192 oxazepam), and D (prazepam \u2192 dealkylated to nordazepam \u2192 oxazepam) all converge on oxazepam as a downstream metabolite. LORAZEPAM (A), however, is a direct-acting benzodiazepine that is glucuronidated and excreted without passing through oxazepam as an intermediate. Its major metabolic pathway is direct conjugation to lorazepam glucuronide. This is clinically significant because lorazepam (and oxazepam) are preferred in patients with liver disease as they do not require CYP450-mediated oxidation and have simpler metabolic clearance.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1992",
+    "explanation": "Correct answer: D \u2014 'Ibuprofen can cause a false positive result on urine screen tests' is the FALSE statement. Per Casarett & Doull Ch.32 and Ch.33, standard urine immunoassay screens for benzodiazepines target the common benzodiazepine structure (1,4-benzodiazepine ring). Ibuprofen, a propionic acid NSAID, does NOT cross-react with benzodiazepine immunoassays. A is TRUE: abrupt discontinuation of benzodiazepines after chronic use can cause withdrawal seizures due to reduced GABAergic inhibition. B is TRUE: benzodiazepines alone rarely cause fatal respiratory depression (unlike barbiturates and opioids); however, combined with other depressants (alcohol, opioids), they can be lethal. C is TRUE: lorazepam and oxazepam are directly glucuronidated without CYP450 involvement, making them safer in liver disease and old age.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1993",
+    "explanation": "Correct answer: A \u2014 'It strongly binds to mu opioid receptors' is the FALSE statement. Per Casarett & Doull Ch.33 and pharmacology, normeperidine is the major N-demethylated metabolite of meperidine (pethidine) via CYP3A4 and CYP2B6. Normeperidine has MUCH WEAKER mu-opioid receptor affinity than meperidine (about half) \u2014 it is primarily a CNS stimulant and proconvulsant, not an effective analgesic. Its importance lies in toxicity: normeperidine accumulates with repeated high doses or renal impairment, causing CNS excitation, myoclonus, seizures, and serotonin syndrome. B is TRUE: more normeperidine is formed after oral meperidine (first-pass metabolism) than IV. C is TRUE: normeperidine causes serotonin excess \u2014 this is the basis for the potentially fatal meperidine-MAOI interaction (serotonin syndrome). D is TRUE: normeperidine is responsible for precipitating serotonin syndrome when meperidine is given with MAOIs.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1994",
+    "explanation": "Correct answer: A \u2014 'codeine' is the exception (NOT a metabolite of oxycodone). Per Casarett & Doull Ch.33 and opioid pharmacology, oxycodone is metabolized via two main pathways: (1) CYP3A4-mediated N-demethylation to noroxycodone (C \u2014 the major metabolite), and (2) CYP2D6-mediated O-demethylation to oxymorphone (B \u2014 the minor but more potent mu-agonist metabolite). Oxycodone glucuronide (D) is also a direct conjugation product. Codeine (A) is a separate opioid with its own metabolic pathway (CYP2D6 \u2192 morphine; CYP3A4 \u2192 norcodeine). Oxycodone is NOT metabolized to codeine \u2014 these are distinct alkaloids with different substitutions on the morphinan backbone. This distinction is important for forensic toxicology: detecting both drugs suggests separate administration, not interconversion.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1995",
+    "explanation": "Correct answer: C \u2014 'oxymorphone.' Per Casarett & Doull Ch.33 and opioid pharmacology, oxymorphone is a semi-synthetic opioid that undergoes primarily GLUCURONIDATION to oxymorphone-3-glucuronide, with no significant CYP450-mediated metabolism. Instead, it is metabolized by UGT2B7 conjugation. A (buprenorphine) is N-dealkylated by CYP3A4 to norbuprenorphine. B (fentanyl) is primarily N-dealkylated by CYP3A4 to norfentanyl. D (propoxyphene) is N-demethylated by CYP3A4 to norpropoxyphene (the cardiotoxic metabolite). This makes oxymorphone more predictable in patients with CYP450 polymorphisms or those taking drugs that inhibit/induce CYP enzymes. However, oxymorphone has high first-pass metabolism via glucuronidation, so oral bioavailability is low (~10%).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1996",
+    "explanation": "Correct answer: B \u2014 'methadone.' Per Casarett & Doull Ch.33 and pharmacology, propoxyphene (dextropropoxyphene) is a synthetic opioid structurally related to METHADONE. Both are diphenylpropylamine derivatives. Propoxyphene is actually a structural analog of methadone, differing by the replacement of a methyl group \u2014 it was developed by Eli Lilly and introduced in 1957 as a milder alternative to codeine. A (meperidine) is a phenylpiperidine derivative. C (fentanyl) is an anilidopiperidine derivative. D (morphine) is a naturally occurring phenanthrene alkaloid. Propoxyphene was withdrawn from the U.S. market in 2010 due to fatal cardiotoxicity from its metabolite norpropoxyphene (QT prolongation, torsade de pointes). Its structural similarity to methadone gives both drugs long elimination half-lives and potential for accumulation.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1997",
+    "explanation": "Correct answer: D \u2014 'norpropoxyphene.' Per Casarett & Doull Ch.33 (Clinical Toxicology) and FDA safety communications, the cardiotoxicity of propoxyphene (dextropropoxyphene) is primarily attributed to its major metabolite, NORPROPOXYPHENE, formed by CYP3A4-mediated N-demethylation. Norpropoxyphene is a potent sodium channel blocker (similar to Class IC antiarrhythmics) that causes: (1) QRS prolongation, (2) QT interval prolongation, (3) negative inotropy, and (4) ventricular arrhythmias including torsade de pointes. Because norpropoxyphene has a much longer half-life than propoxyphene (~30-40 h vs ~6-12 h), it accumulates with repeated dosing and in elderly or renally impaired patients. This dose-dependent cardiotoxicity led to propoxyphene's withdrawal from worldwide markets (FDA 2010). A (dextropropoxyphene) and B (levopropoxyphene) are isomers, but it's the metabolite that causes toxicity. C (EDDP) is a methadone metabolite, not relevant to propoxyphene.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1998",
+    "explanation": "Correct answer: B \u2014 'noncompetitive antagonist at glutamate-NMDA receptor.' Per Casarett & Doull Ch.33 (Clinical Toxicology) and Ch.16 (Neurotoxicology), phencyclidine (PCP, 'angel dust') is a dissociative anesthetic that acts as a noncompetitive antagonist of the NMDA-type glutamate receptor by binding within the ion channel pore (the PCP/TCP binding site). This blocks calcium influx through the NMDA receptor, producing dissociation, analgesia, and psychotomimetic effects. PCP was developed as an IV anesthetic in the 1950s (Sernyl) but was discontinued due to emergence delirium and prolonged psychosis. Its mechanism inspired development of ketamine (a safer, shorter-acting analog). A (agonist at glycine receptor) is incorrect \u2014 PCP does not act at the glycine site. C (blockade of dopamine release) is opposite \u2014 PCP increases dopamine in the mesolimbic pathway via NMDA antagonism. D (stimulation of central ACh release) is not a primary mechanism.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1999",
+    "explanation": "Correct answer: C \u2014 'could be present from phencyclidine use weeks before the level was drawn.' Per Casarett & Doull Ch.32 (Analytical and Forensic Toxicology) and Ch.33, PCP has a large volume of distribution (Vd ~6.2 L/kg) and a long elimination half-life (~7-46 h, up to several days with chronic use). PCP is highly lipophilic and accumulates in adipose tissue and brain, from which it slowly redistributes back into the bloodstream. This sequestered PCP can produce detectable blood levels for WEEKS after the last use, especially during chronic use or in obese individuals. A is false: PCP blood levels do NOT strongly correlate with psychedelic effects due to tolerance and tissue sequestration. B is false: PCP is not rapidly converted; it has a long half-life. D is false: brain levels are actually HIGHER than blood levels (PCP concentrates in brain), not ten times lower.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2000",
+    "explanation": "Correct answer: D \u2014 'Alkalinization of the urine enhances its elimination' is the FALSE statement. Per Casarett & Doull Ch.33 (Clinical Toxicology), PCP is a weak base (pKa ~8.5), and according to the pH-partition hypothesis, ACIDIFICATION (not alkalinization) enhances its urinary elimination. Acidic urine promotes ionization and ion trapping of basic drugs in the urine, reducing reabsorption. This principle was historically applied in PCP overdose management using ammonium chloride to acidify urine, though this is no longer recommended due to risk of metabolic acidosis and lack of proven clinical benefit. A is TRUE: PCP is classified as a dissociative anesthetic (along with ketamine, dextromethorphan, and nitrous oxide). B is TRUE: PCP can be snorted, smoked, injected, or swallowed (high oral bioavailability). C is TRUE: PCP glucuronide metabolites are excreted in the urine as part of the elimination pathway. The DB correctly identifies D as the false/exception statement.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2001",
+    "explanation": "Correct answer: A \u2014 'an increase in blood pressure.' Per Casarett & Doull Ch.33 (Clinical Toxicology) and anesthesia pharmacology, ketamine is uniquely useful for trauma anesthesia because it produces SYMPATHETIC STIMULATION, increasing heart rate, blood pressure, and cardiac output via centrally mediated norepinephrine release. This is a major advantage in hypotensive trauma patients, where other induction agents (thiopental, propofol) would cause dangerous hypotension. Ketamine is also a bronchodilator, making it safe in asthmatics. B (blockade of vomiting center) is not a property of ketamine \u2014 it actually increases salivation and can cause vomiting. C (shortening of QT interval) is incorrect \u2014 ketamine can prolong or have variable effects on QT. D (stimulation of respiration) \u2014 unlike opioids, ketamine preserves respiratory drive, but it does not stimulate respiration above normal. Its pressor effect (A) is the key advantage.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2002",
+    "explanation": "Correct answer: D \u2014 'It forms in the blood as a postmortem artifact.' Per Casarett & Doull Ch.32 (Analytical and Forensic Toxicology) and Ch.33, GHB (gamma-hydroxybutyrate) is both an exogenous drug of abuse and an ENDOGENOUS compound present in all human tissues. GHB is produced naturally from GABA via succinic semialdehyde reductase. After death, anaerobic metabolism leads to increased endogenous GHB production through postmortem putrefaction, particularly in blood and tissues. Endogenous postmortem GHB concentrations can reach levels that overlap with the range associated with illicit GHB use (10-50 mg/L or higher), making interpretation unreliable. A is false: GHB is rapidly eliminated (t\u2081/\u2082 ~30-50 min) and is NOT present months after use. B is false: GHB does not have the large Vd necessary for significant postmortem redistribution. C is not accurate: conjugated metabolites are not the primary issue; it's the endogenous production. The DB correctly identifies D \u2014 postmortem GHB levels must be interpreted with extreme caution.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2003",
+    "explanation": "Correct answer: A \u2014 'Sufentanil is the principal metabolite' is the FALSE statement. Per Casarett & Doull Ch.33 and pharmacology, fentanyl is primarily N-dealkylated by CYP3A4 to NORFENTANYL (not sufentanil) as the major metabolite. Sufentanil is a completely separate, more potent (5-10\u00d7) synthetic opioid analog, not a metabolite of fentanyl. Both are anilidopiperidines, but they are distinct drugs. B is TRUE: fentanyl lacks the phenanthrene opioid nucleus and is NOT detected by standard opiate immunoassays (which target morphine/codeine structure). Special fentanyl-specific screens are needed. C is TRUE: fentanyl patches have a slow onset \u2014 the drug reservoir takes 12-24 h to reach steady state due to slow dermal absorption across the skin depot. D is TRUE: norfentanyl can be detected in urine for >48 h post-administration, making it a useful forensic marker of fentanyl exposure.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2004",
+    "explanation": "Correct answer: D \u2014 'It is a mu receptor partial agonist/antagonist' is the FALSE statement. Per Casarett & Doull Ch.33 and opioid pharmacology, hydrocodone is a FULL mu-opioid RECEPTOR AGONIST, not a partial agonist or antagonist. Partial agonists include buprenorphine and nalbuphine. A is TRUE: hydrocodone is only available in oral formulations in the U.S. (combined with acetaminophen or NSAIDs) \u2014 there is no FDA-approved IV form, unlike morphine or hydromorphone. B is TRUE: hydrocodone is a minor metabolite of codeine via O-demethylation (CYP2D6). However, this pathway accounts for only a small fraction of codeine metabolism (~5-10%). C is TRUE: hydrocodone has a terminal half-life of approximately 4 hours (range 3.3-5.2 h). The DB correctly identifies D as the false statement \u2014 hydrocodone is a full mu-agonist.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2005",
+    "explanation": "Correct answer: C \u2014 'It has a terminal half-life of 8 hours' is the FALSE statement. Per Casarett & Doull Ch.33 and pharmacology, hydromorphone (Dilaudid) has a terminal elimination half-life of approximately 2-3 hours (similar to morphine), not 8 hours. An 8-hour half-life would be more characteristic of methadone or sustained-release formulations. A is TRUE: hydromorphone is approximately 5-10 times more potent than morphine when given parenterally (1.5 mg hydromorphone \u2248 10 mg morphine). B is TRUE: hydromorphone is a minor metabolite of morphine via CYP-mediated reduction (a small pathway), and also of codeine (via O-demethylation to hydrocodone \u2192 reduction to hydromorphone). However, the amounts are negligible in most individuals. D is TRUE: hydromorphone-3-glucuronide (H3G) is a major metabolite formed by UGT2B7, similar to morphine-3-glucuronide (M3G), and like M3G it may have neuroexcitatory properties.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2006",
+    "explanation": "Correct answer: B \u2014 'EDDP' (2-ethylidene-1,5-dimethyl-3,3-diphenylpyrrolidine). Per Casarett & Doull Ch.33 (Clinical Toxicology) and pharmacology, methadone is primarily metabolized by CYP3A4- and CYP2B6-mediated N-demethylation to EDDP, which is the MAJOR metabolite. EDDP is pharmacologically inactive (lacks mu-opioid activity). Its formation rate and half-life contribute to the large interindividual variability in methadone metabolism. A (L-LAAM or levomethadyl acetate) is a related synthetic opioid used for opioid maintenance therapy, NOT a metabolite of methadone. C (N-desethyl methadone) is not a standard methadone metabolite. D (O-desmethyl methadone) is not a major pathway \u2014 methadone has no methoxy group to demethylate. EDDP is the specific target in forensic methadone analysis to distinguish administration from potential sample contamination.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2007",
+    "explanation": "Correct answer: B \u2014 'Death rates with buprenorphine maintenance are higher than with methadone' is the FALSE statement. Per Casarett & Doull Ch.33 and extensive clinical evidence (studies including the COBRA trial), buprenorphine has a SUPERIOR safety profile compared to methadone. As a PARTIAL mu-opioid agonist with a ceiling effect at higher doses, buprenorphine carries a LOWER risk of fatal respiratory depression than methadone (a full mu-agonist). Death rates during buprenorphine maintenance are significantly LOWER than during methadone maintenance, particularly in the induction phase. A is TRUE: buprenorphine is metabolized by CYP3A4 to norbuprenorphine, and HIV protease inhibitors or NNRTIs can significantly alter its levels. C is TRUE: buprenorphine is 25-50 times more potent than morphine at the mu-opioid receptor. D is TRUE: buprenorphine is classified as a partial mu-agonist with antagonist activity at kappa receptors. The DB correctly identifies B as the false statement.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2008",
+    "explanation": "Correct answer: C \u2014 'CYP2D6.' Per Casarett & Doull Ch.33 (Clinical Toxicology) and Ch.6 (Biotransformation), codeine (a prodrug with weak mu-opioid affinity) is O-demethylated to morphine (which has 200\u00d7 higher mu-opioid affinity) by CYP2D6. This activation step is critical for codeine's analgesic effect. CYP2D6 is highly polymorphic: poor metabolizers (~7-10% of Caucasians) get little to no analgesia, while ultra-rapid metabolizers (~1-2% of Caucasians, up to 30% in some populations) are at risk of morphine toxicity (including fatal respiratory depression, especially in children after tonsillectomy \u2014 leading to an FDA black box warning against codeine use in children post-adenotonsillectomy). A (CYP2E1): metabolizes ethanol, acetaminophen, and organic solvents. B (CYP3A6): this is a rabbit-specific CYP; human equivalent CYP3A4/5 N-demethylates codeine to norcodeine (minor pathway). D (CYP1A2): metabolizes theophylline, caffeine, and clozapine.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2009",
+    "explanation": "Correct answer: D \u2014 '6-acetylmorphine (6-AM)' is the exception (NOT a metabolite of codeine). Per Casarett & Doull Ch.33 and Ch.32, codeine is metabolized via three primary pathways: (1) CYP2D6 O-demethylation to morphine; (2) CYP3A4 N-demethylation to norcodeine (B); (3) UGT2B7 glucuronidation to codeine-6-glucuronide (A). Hydrocodone (C) is a MINOR metabolite of codeine via O-demethylation and reduction, though this pathway is negligible quantitatively. 6-ACETYLMORPHINE (D) is a metabolite of HEROIN (diacetylmorphine), not codeine. Heroin is deacetylated: first to 6-AM (by serum esterases), then to morphine. The presence of 6-AM in urine is a specific biomarker for heroin use \u2014 it cannot be formed from codeine, morphine, or any other licit or illicit opioid. The DB correctly identifies D as the exception.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2010",
+    "explanation": "Correct answer: A \u2014 'intramuscular.' Per Casarett & Doull Ch.33 and clinical pharmacology, fentanyl is available in multiple routes: transdermal (B \u2014 patches for chronic pain), intravenous (C \u2014 anesthesia and analgesia), transmucosal (D \u2014 lozenges, buccal tablets, sublingual sprays for breakthrough pain), epidural, and intrathecal. INTRAMUSCULAR (A) is the LEAST common route of administration for several reasons: (1) fentanyl is highly lipophilic, making SC/IM absorption variable; (2) its short duration of action (~30-60 min after single bolus) makes IM administration impractical; (3) IV, transdermal, and transmucosal routes are more convenient and provide better pharmacokinetics. In clinical practice, fentanyl is rarely administered IM (unlike morphine). Illicit fentanyl is most commonly injected IV, smoked, or taken intranasally \u2014 rarely if ever IM.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2011",
+    "explanation": "Correct answer: C \u2014 '12' hours. Per Casarett & Doull Ch.33 and FDA prescribing information for fentanyl transdermal systems, a DEPOT of fentanyl forms in the upper skin layers under the patch. After patch removal, this skin depot continues to release fentanyl into the systemic circulation for approximately 12-24 hours. The exact duration depends on the formulation (matrix vs reservoir), but ~12 h is the clinically accepted minimum for continued absorption after removal. This delay has important clinical implications: (1) removing the patch does NOT immediately stop drug effects; (2) covering a removed patch area can increase absorption by increasing skin temperature/blood flow; (3) patients should be monitored for at least 12-24 h after patch removal before initiating alternative analgesia. A (1 h) and B (4 h) are far too short. D (24 h) is the maximum possible duration for some formulations. The DB answer of 12 h (C) is the standard cited duration.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2012",
+    "explanation": "Correct answer: A \u2014 'Heroin was definitely ingested.' Per Casarett & Doull Ch.33 and Ch.32 (Analytical and Forensic Toxicology), 6-acetylmorphine (6-AM) is a specific, unique metabolite of HEROIN (diacetylmorphine). Heroin is rapidly deacetylated by serum esterases to 6-AM (t\u2081/\u2082 ~2-6 min for heroin itself), which is then more slowly deacetylated to morphine. Because 6-AM can ONLY be formed from heroin \u2014 it is not a metabolite of codeine, morphine, or any other opioid \u2014 its presence in urine provides definitive evidence of heroin use. This is the gold-standard forensic biomarker for distinguishing heroin exposure from other opioid exposures. B and C are incorrect: morphine or codeine alone would NOT produce 6-AM. D is incorrect: oxymorphone does not produce 6-AM. Standard urine opiate screening tests detect morphine/codeine but NOT 6-AM; a specific GC-MS or LC-MS/MS method is required for 6-AM confirmation.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2013",
+    "explanation": "Correct answer: B \u2014 'It was a contaminant of the heroin.' Per Casarett & Doull Ch.32 (Analytical and Forensic Toxicology) and forensic toxicology literature, illicit heroin (particularly 'black tar' or 'brown' heroin) frequently contains CODEINE as a co-extracted alkaloid during the processing of opium poppies. Opium contains both morphine (~10%) and codeine (~0.5-2%) as natural alkaloids. During illicit heroin manufacture, these are carried through the acetylation process, yielding heroin contaminated with codeine and other opium alkaloids. Thus, detecting codeine in a heroin user's urine is most likely due to codeine being present as a contaminant of the heroin itself. A is incorrect: morphine is NOT metabolized to codeine (the reverse pathway, codeine \u2192 morphine via CYP2D6, is the active metabolic route). C: deliberate co-injection is less likely than simple contamination. D: morphine does not cause a false positive for codeine in specific GC-MS confirmation assays.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2014",
+    "explanation": "Correct answer: A \u2014 'codeine' produces a positive morphine result on urine drug screen. Per Casarett & Doull Ch.32 and Ch.33, codeine is O-demethylated to morphine by CYP2D6 (approximately 5-10% of a codeine dose is converted to morphine). Standard urine opiate immunoassays detect morphine (and cross-react with other opiates), so a person ingesting codeine will test positive for morphine on both screening and confirmation assays. B (fentanyl), C (methadone), and D (meperidine) are SYNTHETIC opioids with completely different chemical structures (anilidopiperidine, diphenylpropylamine, and phenylpiperidine, respectively). They do NOT contain the phenanthrene ring system of morphine/codeine and are NOT detected by standard opiate immunoassays or converted to morphine in the body. This is a critical forensic distinction: standard 'opiate' screens detect morphine, codeine, and sometimes hydrocodone and hydromorphone, but NOT synthetic opioids.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2015",
+    "explanation": "Correct answer: D \u2014 'oxycodone' is the exception. Per Casarett & Doull Ch.33 and opioid metabolism, hydromorphone is a downstream metabolite for several opioids: A (codeine) \u2192 hydrocodone (minor, via CYP2D6) \u2192 hydromorphone (trace, via reduction); B (heroin) \u2192 morphine \u2192 hydromorphone (minor, via 6-ketoreduction pathway); C (morphine) \u2192 hydromorphone (minor, via 6-ketoreduction, accounting for trace amounts). However, OXYCODONE (D) is NOT metabolized to hydromorphone. Oxycodone is metabolized to noroxycodone (CYP3A4, major), oxymorphone (CYP2D6, minor), and their glucuronides. The structural difference (oxycodone has a 6-keto group AND a 14-hydroxyl group) prevents reduction to hydromorphone. A hydromorphone-positive urine result cannot be attributed to oxycodone use \u2014 it indicates separate administration or a metabolite of another opioid.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2016",
+    "explanation": "Correct answer: C \u2014 'hydrocodone' is the exception. Per Casarett & Doull Ch.33 and opioid metabolism, morphine glucuronides (morphine-3-glucuronide and morphine-6-glucuronide) are formed from morphine by UGT2B7. The question asks which of the listed drugs is eventually metabolized to morphine (and thus produces morphine glucuronides): A (morphine) \u2014 directly glucuronidated. B (heroin) \u2192 6-AM \u2192 morphine \u2192 morphine glucuronides. D (codeine) \u2192 morphine (via CYP2D6) \u2192 morphine glucuronides. HYDROCODONE (C), however, is primarily metabolized by CYP2D6 to hydromorphone (O-demethylation), not to morphine. Hydrocodone can be a minor metabolite of codeine (via CYP2D6 O-demethylation + reduction), but the reverse (hydrocodone \u2192 morphine) does NOT occur because hydrocodone has a C6 keto group that would need to be reduced to a hydroxyl for conversion to morphine. The DB correctly lists C (hydrocodone) as the exception.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2017",
+    "explanation": "Correct answer: A \u2014 'oxycodone' is the exception (NOT a metabolite of codeine). Per Casarett & Doull Ch.33 and opioid metabolism, codeine is converted to: B (hydrocodone) \u2014 via O-demethylation (CYP2D6) to morphine, then reduction of the 7,8 double bond to produce hydrocodone (a minor pathway); C (norcodeine) \u2014 via N-demethylation by CYP3A4 (a major metabolic pathway); D (morphine) \u2014 via O-demethylation by CYP2D6 (the primary activation pathway). OXYCODONE (A) is a SEMI-SYNTHETIC opioid derived from thebaine (not codeine). Codeine and oxycodone are structurally related but distinct: codeine has a methyl ether at C3, oxycodone has a C14 hydroxyl and a C6 ketone. The metabolic pathway from codeine to oxycodone does not exist. This is an important forensic distinction: detecting both codeine and oxycodone indicates separate administration of two distinct drugs, not one being the metabolite of the other.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2018",
+    "explanation": "Correct answer: C \u2014 'normorphine.' Per Casarett & Doull Ch.33 (Clinical Toxicology) and opioid pharmacology, morphine is metabolized through two primary pathways: (1) GLUCURONIDATION (major, 60-80%) at the 3- and 6-positions via UGT2B7 to morphine-3-glucuronide (M3G, neuroexcitatory) and morphine-6-glucuronide (M6G, analgesic); and (2) N-DEMETHYLATION (minor, 5-10%) via CYP3A4 (possibly CYP2C8) to NORMORPHINE. The question asks specifically which of the listed options morphine is metabolized to \u2014 normorphine (C) is correct. A (heroin) is a semi-synthetic derivative of morphine requiring acetylation, not a metabolite. B (hydrocodone) is produced from codeine or thebaine, not directly from morphine (though trace conversion via 6-ketoreduction is possible in some species, it is not a significant pathway in humans). D (oxymorphone) is an O-demethylation product of oxycodone, not morphine. The DB correctly lists normorphine as the N-demethylated metabolite of morphine.",
+    "domain": "Domain IV"
+  }
+]

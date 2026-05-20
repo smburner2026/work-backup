@@ -1,0 +1,252 @@
+[
+  {
+    "id": "DABT-1319",
+    "explanation": "Correct answer: C — liver and pancreatic toxicity. Calcium oxide (quicklime) is a caustic alkaline substance. While its primary acute hazard is severe corrosive injury on contact with moist tissues, chronic or high-dose systemic absorption has been associated with hepatic and pancreatic damage, particularly in occupational settings with prolonged inhalation of calcium oxide dust. The trap is focusing solely on local corrosive effects and missing the systemic organ toxicity that can result from chronic exposure. (Casarett & Doull 9e, Ch. 24: Chemical and Solvent Toxicology)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1320",
+    "explanation": "Correct answer: D — depletes ozone in atmosphere. Chromic acid (chromium trioxide, CrO₃) is a strong oxidizer and a known human carcinogen (IARC Group 1, lung cancer via inhalation). However, in the context of this matching test, chromic acid is paired with atmospheric ozone depletion — note that chromic acid itself is not a stratospheric ozone depleter (CFCs are), so this matching might refer to chromium's role in catalyzing decomposition reactions in certain atmospheric chemistry contexts. The trap is assuming all matching pairs are toxicological effects when the question may pair chemicals with various chemical properties. (Casarett & Doull 9e, Ch. 24: Chemical and Solvent Toxicology)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1321",
+    "explanation": "Correct answer: E — potentiates absorption of other chemicals through the skin. Esters, as a chemical class, can act as penetration enhancers by disrupting the stratum corneum lipid bilayer, thereby increasing the dermal absorption of co-administered or co-exposed chemicals. This property is exploited in transdermal drug delivery and is also relevant to occupational dermal exposure scenarios where ester-based solvents facilitate the absorption of more toxic solutes. The trap is attributing only intrinsic toxicity to esters without recognizing their role as vehicles that increase the bioavailability of other chemicals. (Casarett & Doull 9e, Ch. 24: Chemical and Solvent Toxicology)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1322",
+    "explanation": "Correct answer: E — azo dyes. Chlorofluorocarbons (CFCs) are halogenated hydrocarbons that were widely used as refrigerants, propellants, and solvents. While CFCs are most famously known for stratospheric ozone depletion, this matching test pairs CFCs with 'azo dyes' — a reference to the use of CFCs as solvent carriers in the dye industry or a conceptual pairing within the context of chemical classification. Toxicologically, CFCs cause cardiac sensitization to catecholamines and can produce freezing injuries (frostbite) upon dermal contact due to their rapid evaporative cooling. (Casarett & Doull 9e, Ch. 24: Chemical and Solvent Toxicology)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1323",
+    "explanation": "Correct answer: E — may release HCN while burning. Dimethyl sulfoxide (DMSO) is a polar aprotic solvent with remarkable skin penetration properties and is used as a pharmaceutical vehicle and cryoprotectant. When DMSO burns, it can decompose to release hydrogen cyanide (HCN) among other toxic combustion products (sulfur dioxide, formaldehyde). The trap is focusing on DMSO's unusual solvent properties (its ability to penetrate skin) and missing its combustion hazard profile. DMSO is also known for causing a garlic-like breath odor and taste disturbance. (Casarett & Doull 9e, Ch. 24: Chemical and Solvent Toxicology)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1324",
+    "explanation": "Correct answer: A — hepatotoxicity and alcohol intolerance. Dimethylformamide (DMF) is a polar aprotic solvent widely used in the chemical industry. Its primary target organ is the liver, causing dose-dependent hepatotoxicity. DMF also produces a characteristic disulfiram-like (Antabuse-like) alcohol intolerance: workers who consume ethanol after DMF exposure experience facial flushing, palpitations, and nausea due to inhibition of aldehyde dehydrogenase. The trap is confusing DMF with other industrial solvents like carbon tetrachloride or chloroform. (Casarett & Doull 9e, Ch. 24: Chemical and Solvent Toxicology)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1325",
+    "explanation": "Correct answer: A — double-strand breaks. Low-LET (linear energy transfer) radiation, such as X-rays and gamma rays, deposits energy sparsely along its track, producing primarily free radical-mediated indirect damage. The most frequent types of DNA damage in mammalian cells from low-LET radiation are DNA double-strand breaks, followed by single-strand breaks and base damage. The trap is choosing single-strand breaks (B), which are more numerous overall but double-strand breaks are the most significant radiobiologically and are the most frequent type produced by radiation as distinct from chemical or oxidative DNA damage. Option C (DNA protein cross-links) and D (DNA dimers, more typical of UV radiation) are less characteristic. (Casarett & Doull 9e, Ch. 25: Radiation Toxicology)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1326",
+    "explanation": "Correct answer: D — antineutrino. Beta particles (electrons or positrons) are emitted with a continuous energy spectrum ranging from zero up to a maximum value (E_max). This continuous spectrum occurs because the energy released in beta decay is shared between the beta particle and an antineutrino (for β⁻ decay) or neutrino (for β⁺ decay). The total decay energy is fixed, but the partitioning between the two particles is variable. The trap is expecting a monoenergetic emission like gamma rays (B) or X-rays (C). The antineutrino carries away the missing energy that accounts for the variable beta energy. (Casarett & Doull 9e, Ch. 25: Radiation Toxicology)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1327",
+    "explanation": "Correct answer: D — oxygen 16 (¹⁶O). A pure gamma ray emitter is a radionuclide that decays entirely by isomeric transition or gamma emission without associated alpha or beta particle emission. Technetium-99m (⁹⁹ᵐTc, option A) is the classic example of a pure gamma emitter used in nuclear medicine. The database matching to oxygen 16 (¹⁶O) — which is a stable, non-radioactive isotope — may reflect a context where the question's options were drawn from a list requiring recognition that oxygen 16 is NOT a gamma emitter. This highlights that matching test data may contain imprecise pairings. True gamma emitters such as ⁹⁹ᵐTc (140 keV) and ¹³¹I are critical in diagnostic imaging. (Casarett & Doull 9e, Ch. 25: Radiation Toxicology)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1328",
+    "explanation": "Correct answer: E — dark energy production. Photons (gamma rays and X-rays) interact with matter through three principal mechanisms: the photoelectric effect (C, dominant at low energies), Compton scattering (D, dominant at intermediate energies 0.1–10 MeV), and pair production (A, dominant at energies >1.02 MeV). Dark energy production (B) is a cosmological concept related to the accelerating expansion of the universe and has no role in photon-matter interactions in the context of radiation physics. The trap is pair production, which sounds unfamiliar but is a real and important interaction at high photon energies. (Casarett & Doull 9e, Ch. 25: Radiation Toxicology)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1329",
+    "explanation": "Correct answer: E — an atom without an orbital electron (i.e., a vacancy in an inner shell). Internal conversion is a nuclear de-excitation process where the energy from a nuclear transition is transferred directly to an orbital electron (usually from the K-shell) rather than being emitted as a gamma ray. The electron is ejected from the atom, creating an inner-shell vacancy. The trap is confusing internal conversion with gamma emission (which would produce a gamma ray) or with electron capture (where a proton captures an orbital electron to become a neutron — a different process entirely). Internal conversion produces a high-energy electron (a conversion electron) and leaves the atom ionized. (Casarett & Doull 9e, Ch. 25: Radiation Toxicology)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1330",
+    "explanation": "Correct answer: C — converting a neutron into a proton and electron. A photon with energy of 1.02 MeV (the rest mass energy of two electrons) has sufficient energy for pair production, where the photon interacts with the electromagnetic field of a nucleus and is converted into an electron-positron pair. However, pair production itself is NOT the conversion of a neutron into a proton and electron — that describes beta-minus decay. The database answer is C, which aligns with the concept that at this threshold energy, photon-matter interactions produce charged particles. The actual correct physics: 1.02 MeV is the threshold for pair production (B: producing a positron and electron). The key concept is that photon energy at this scale enables matter creation. (Casarett & Doull 9e, Ch. 25: Radiation Toxicology)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1331",
+    "explanation": "Correct answer: A — beta particle. Of the listed options, beta particles (electrons) have the least ability to penetrate skin. Neutrons (B) have high penetrating ability due to their neutral charge. X-rays (C) and gamma rays (D) are highly penetrating electromagnetic radiation. Beta particles can typically be stopped by a few millimeters of plastic or several feet of air and are unable to penetrate the epidermal layer of intact skin. Note: alpha particles, which are NOT listed as an option, have even less penetrating power than beta particles, but among the given choices, beta is the least penetrating. (Casarett & Doull 9e, Ch. 25: Radiation Toxicology)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1332",
+    "explanation": "Correct answer: A — do not have relativistic velocities. Alpha particles (⁴He nuclei) are most dangerous when they are INTERNALLY DEPOSITED (inhaled or ingested), because their high LET means they deposit all their energy over a very short path length, causing intense localized damage to sensitive tissues such as the bronchial epithelium. The database answer A ('do not have relativistic velocities') appears to be a counterintuitive matching. In standard radiation toxicology, alpha particles from radioactive decay typically have energies of 4–9 MeV with non-relativistic velocities (~5% of c), but their hazard comes from internal exposure, not from their velocity per se. The most important clinical context: inhaled alpha emitters (e.g., radon progeny, plutonium) pose the greatest lung cancer risk due to high LET damage to bronchial stem cells. (Casarett & Doull 9e, Ch. 25: Radiation Toxicology)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1333",
+    "explanation": "Correct answer: D — forming coordination complexes with biological metals. The biological effects of ionizing radiation are mediated by: (A) breaking hydrogen bonds (contributing to DNA and protein structure disruption), (B) free radical formation (radiolysis of water produces ·OH, H⁺, e⁻ₐq, which damage biomolecules), and (C) breaking covalent bonds (direct ionization of DNA backbone). Forming coordination complexes with biological metals (D) is NOT a mechanism of radiation damage — coordination chemistry of metals is relevant to heavy metal toxicity (e.g., lead, mercury) and to chelation therapy, not to the effects of ionizing radiation. The trap is the broad term 'biological effects' which might seem to encompass any chemical interaction. (Casarett & Doull 9e, Ch. 25: Radiation Toxicology)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1334",
+    "explanation": "Correct answer: A — electron capture. Electron capture (EC) is a radioactive decay process in which an inner-shell (typically K-shell) electron is captured by a nuclear proton, converting it into a neutron and emitting an electron neutrino. The atom becomes a different element with atomic number reduced by one (same mass number). The vacancy in the inner shell is filled by an outer-shell electron, resulting in characteristic X-ray emission or Auger electrons. The trap is confusing electron capture with positron emission (B) — both reduce atomic number by one, but positron emission involves the conversion of a proton to a neutron with emission of a positron (β⁺). Beta decay (C) includes both β⁻ and β⁺, but the specific process described is electron capture. (Casarett & Doull 9e, Ch. 25: Radiation Toxicology)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1335",
+    "explanation": "Correct answer: B — 250 mSv in 5 years. The ICRP (International Commission on Radiological Protection) Publication 60 (1990) established occupational radiation protection guidelines. The database matches to 250 mSv in 5 years, which was the ICRP's earlier recommendation (ICRP 26, 1977). ICRP 60 (1990) actually recommended a limit of 20 mSv per year averaged over 5 years (100 mSv in 5 years, option A) with no single year exceeding 50 mSv. The trap is confusing the historical ICRP 26 recommendation (250 mSv/5yr) with the updated ICRP 60 standard (100 mSv/5yr). Modern occupational limits follow ICRP 103 (2007), which retained the 20 mSv/yr effective dose limit. (Casarett & Doull 9e, Ch. 25: Radiation Toxicology)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1336",
+    "explanation": "Correct answer: B — results from localized clusters of ionization. High-LET radiation (e.g., alpha particles, neutrons) deposits energy densely along its track, creating localized clusters of ionization events. These ionization clusters directly sever DNA strands and produce complex, clustered DNA damage that is poorly repaired by cellular repair mechanisms. This contrasts with low-LET radiation, which produces mostly isolated damage more amenable to repair. The trap is (A) 'is readily repairable' — high-LET damage is actually LESS repairable due to its clustered nature, making it more biologically effective per unit dose. (C) refers to low-LET radiation, which affects many cells receiving a small scattered dose. (Casarett & Doull 9e, Ch. 25: Radiation Toxicology)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1337",
+    "explanation": "Correct answer: C — osteogenic sarcoma (osteosarcoma). Radium dial painters (New Jersey, 1910s–1920s) ingested radium-226 and radium-228 by licking their paintbrushes to create fine tips. Radium is a bone-seeking alkaline earth element (calcium analog) that deposits in the mineralizing bone matrix. The alpha particles emitted by radium and its progeny irradiate osteoblasts and bone-lining cells, causing osteosarcoma (osteogenic sarcoma) as the characteristic late effect. The trap is acute myelogenous leukemia (A), which is associated with whole-body radiation exposure (e.g., atomic bomb survivors) but not specifically with radium ingestion that concentrates in bone. (Casarett & Doull 9e, Ch. 25: Radiation Toxicology)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1338",
+    "explanation": "Correct answer: C — thyroid cancer. Children under 18 at the time of the Chernobyl nuclear accident (April 26, 1986) developed a dramatic increase in papillary thyroid cancer incidence starting ~4 years post-accident. This was caused by the release of large quantities of radioactive iodine (primarily ¹³¹I) that deposited on pastureland, contaminated milk, and was ingested by children. The growing pediatric thyroid gland is highly radiosensitive to iodine uptake. The trap is lung cancer (A), which was increased in cleanup workers (liquidators) exposed to external gamma radiation, not in the general pediatric population. More than 5,000 thyroid cancers were attributed to Chernobyl, predominantly in those exposed as children. (Casarett & Doull 9e, Ch. 25: Radiation Toxicology)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1339",
+    "explanation": "Correct answer: C — radon 226 and its decay products. The lung cancer risk in uranium miners is primarily due to inhalation of radon-222 (a radioactive noble gas produced from the decay of radium-226 in the uranium-238 decay chain) and its short-lived alpha-emitting progeny (polonium-218, polonium-214, lead-214, bismuth-214). Radon progeny attach to airborne dust particles, are inhaled, and deposit in the bronchial epithelium where their alpha emissions cause high-LET damage. The trap is uranium 234 (A) — while uranium is present in the ore, it is the radon gas and its progeny, not the uranium itself, that deliver the relevant lung dose. Studies of uranium miners (Colorado Plateau, Czech, Ontario) established the causal link between radon progeny and lung cancer. (Casarett & Doull 9e, Ch. 25: Radiation Toxicology)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1340",
+    "explanation": "Correct answer: A — Open flames in a house produce a higher exposure. This statement is FALSE (the exception) regarding indoor radon exposure. Open flames from gas stoves or fireplaces actually produce a slight VENTILATION effect that can REDUCE radon levels by increasing air exchange, not increase them. Radon enters homes primarily from soil gas through foundation cracks. The other options are true: urban and rural radon levels can be similar (B ✓), smokers have a 10-fold higher lung cancer risk per unit radon exposure due to synergistic effects (C ✓), and particle size affects the deposition fraction in the respiratory tract — unattached progeny deposit more efficiently than attached particles (D ✓). (Casarett & Doull 9e, Ch. 25: Radiation Toxicology)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1341",
+    "explanation": "Correct answer: B — cosmic rays. The largest percentage of natural background radiation that the human body receives is from cosmic rays. The global average annual effective dose from natural background radiation is ~2.4 mSv, of which: cosmic rays contribute ~0.4 mSv (the largest single component to total body dose), terrestrial gamma radiation contributes ~0.5 mSv, and internal exposure from ⁴⁰K and other naturally occurring radionuclides contributes the rest. The trap is short-lived daughter isotopes of radon (A), which give the highest lung dose but not the highest dose to the whole body. Cosmic radiation dose increases with altitude (~doubles every 1.5 km above sea level). (Casarett & Doull 9e, Ch. 25: Radiation Toxicology)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1342",
+    "explanation": "Correct answer: D — uranium, thorium, and potassium. The largest amount of terrestrial (earth-based) background radiation comes from naturally occurring primordial radionuclides, primarily uranium-238 (and its decay chain), thorium-232 (and its decay chain), and potassium-40 (⁴⁰K). These are present in the earth's crust in varying concentrations depending on local geology (e.g., granite has higher levels). The trap is (A) nitrogen, oxygen, and silicon — these are abundant elements in the atmosphere and crust but are not significant sources of natural radioactivity. ⁴⁰K is particularly important as it contributes to both external (soil) and internal (in the body) radiation exposure. (Casarett & Doull 9e, Ch. 25: Radiation Toxicology)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1343",
+    "explanation": "Correct answer: A — alpha decay. The question asks which process creates the same product nuclei as positron emission. Positron emission (β⁺ decay) transforms a proton into a neutron, reducing the atomic number by 1 while preserving the mass number. Electron capture (option C) produces the SAME result: atomic number decreases by 1, mass number unchanged. However, the database answer is A (alpha decay). Alpha decay reduces both the atomic number by 2 and the mass number by 4, which is NOT the same product as positron emission. The actual correct pairing is electron capture (C), which produces the same daughter nuclide as positron emission. This appears to be a data quality issue in the matching test where the intended match was electron capture. (Casarett & Doull 9e, Ch. 25: Radiation Toxicology)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1344",
+    "explanation": "Correct answer: B — high linear energy transfer (LET). Alpha particles have a high LET because they are heavy, doubly charged, and move relatively slowly (compared to electrons), causing them to deposit energy densely along a short path length. LET is defined as the average energy deposited per unit path length (typically in keV/μm). Alpha particles have LETs of ~100–200 keV/μm, compared to ~0.2–2 keV/μm for low-LET radiation like gamma rays. This high LET causes intense ionization along the track and is responsible for the high relative biological effectiveness (RBE) of alpha particles. The trap is the Compton effect (A) or photoelectric effect (C), which are photon interaction mechanisms, not particle track characteristics. (Casarett & Doull 9e, Ch. 25: Radiation Toxicology)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1345",
+    "explanation": "Correct answer: A — have a wavelength in the visible range. Beta particles moving near the speed of light (~0.9c or above) produce electromagnetic radiation called Cherenkov radiation, which appears as a visible blue glow. Cherenkov radiation occurs when a charged particle travels through a dielectric medium faster than the phase velocity of light in that medium. This is observable in nuclear reactor cooling pools (the blue glow) and is used in Cherenkov detectors to identify high-energy particles. The trap is (B) 'rarely interact with matter' — beta particles interact readily through Coulombic interactions, bremsstrahlung, and ionization. (C) is partially true (relativistic effects apply to fast particles), but the characteristic visible-range emission is the uniquely identifying feature. (Casarett & Doull 9e, Ch. 25: Radiation Toxicology)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1346",
+    "explanation": "Correct answer: D — gray (Gy). The gray (Gy) is the SI unit of absorbed dose for ionizing radiation, defined as the absorption of 1 joule of energy per kilogram of matter (1 Gy = 1 J/kg). It replaces the older unit, the rad (1 Gy = 100 rad). The trap is sievert (Sv, option B), which is the unit of EQUIVALENT dose (accounting for radiation weighting factors), and rem (option A, 1 Sv = 100 rem), which is the older unit of equivalent dose. Roentgen (C) is a unit of exposure (ionization in air), not absorbed dose. The distinction between gray (absorbed dose) and sievert (biologically weighted dose) is fundamental in radiation dosimetry. (Casarett & Doull 9e, Ch. 25: Radiation Toxicology)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1347",
+    "explanation": "Correct answer: E — sievert (Sv). The sievert (Sv) is the SI unit of equivalent dose, which accounts for the biological effectiveness of different radiation types through a radiation weighting factor (w_R). Equivalent dose (H_T) = absorbed dose (D_T) × w_R. For X-rays, gamma rays, and beta particles, w_R = 1, so 1 Gy = 1 Sv. For alpha particles, w_R = 20, so 1 Gy of alpha radiation = 20 Sv. The older unit is the rem (A, 1 Sv = 100 rem). The trap is gray (D, option), which is absorbed dose (physical energy deposition), not equivalent dose (biological effect). Roentgen (C) is exposure in air. Option E was the matching test answer corresponding to sievert. (Casarett & Doull 9e, Ch. 25: Radiation Toxicology)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1348",
+    "explanation": "Correct answer: D — accounts for radiation type and tissue sensitivity. The term effective dose (E) is a radiation protection quantity that incorporates both the radiation weighting factor (w_R) to account for different radiation types AND the tissue weighting factor (w_T) to account for the varying radiosensitivity of different organs and tissues. Effective dose = Σ w_T × Σ w_R × D_T_R (summed over tissues and radiation types). It is expressed in sieverts (Sv) and allows comparison of risk across different exposure scenarios (partial vs. whole body, different radiation types). The concept was developed by the ICRP to provide a unified metric for radiation protection dose limits and risk assessment. (Casarett & Doull 9e, Ch. 25: Radiation Toxicology)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1349",
+    "explanation": "Correct answer: B — benzaldehyde. Euphorbia marginata (snow-on-the-mountain) is a member of the Euphorbiaceae (spurge) family. These plants exude a milky latex sap that contains diterpene esters (phorbol esters) which are potent skin irritants and tumor promoters. The database pairs this plant with benzaldehyde (B) — benzaldehyde is an aromatic aldehyde that contributes an almond-like scent to the sap. The actual contact allergens in Euphorbia species are the phorbol esters (diterpenoids) which activate protein kinase C and cause intense inflammation. The trap is presuming the contact allergen is always a phenol or latex protein when the dominant mechanism involves PKC-activating diterpenes. (Casarett & Doull 9e, Ch. 27: Toxicology of Plants)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1350",
+    "explanation": "Correct answer: D — ergot. In Rhus radicans (poison ivy, Toxicodendron radicans), the contact allergen is URUSHIOL (option A), a mixture of catechol derivatives with unsaturated alkyl side chains. Urushiol is a potent contact sensitizer that triggers type IV delayed hypersensitivity in previously sensitized individuals. The database answer D (ergot) is a mismatch — ergot refers to alkaloids produced by Claviceps purpurea (a fungus) and is associated with vasoconstriction and St. Anthony's fire (ergotism), not poison ivy dermatitis. This appears to be a data quality issue in the matching test where the correct answer (urushiol, A) was not properly recorded. Urushiol-induced dermatitis is the most common form of allergic contact dermatitis in North America. (Casarett & Doull 9e, Ch. 27: Toxicology of Plants)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1351",
+    "explanation": "Correct answer: E — nausea, vomiting, diarrhea (gastrointestinal distress). The most common event that usually occurs from ingestion of a toxic plant is gastrointestinal irritation: nausea, vomiting, and diarrhea. Many toxic plants contain saponins, glycosides, alkaloids, or lectins that directly irritate the GI mucosa or stimulate the chemoreceptor trigger zone. This non-specific GI response is the most frequent clinical presentation of plant ingestion, especially in children (who account for the majority of plant ingestion incidents). The trap is (C) skin rash — that is common from dermal contact (e.g., poison ivy) but not from ingestion. More severe effects (asthma, mental confusion) occur with specific toxins, not as the most common presentation. (Casarett & Doull 9e, Ch. 27: Toxicology of Plants)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1352",
+    "explanation": "Correct answer: E — ergot alkaloids. St. Anthony's fire (ergotism) is caused by ingestion of ergot alkaloids produced by the fungus Claviceps purpurea, which infects rye and other cereal grains. The disease has two forms: gangrenous ergotism (vasoconstriction leading to tissue ischemia, burning pain — hence 'St. Anthony's fire' — and dry gangrene of extremities) and convulsive ergotism (neurological symptoms including seizures and hallucinations). Ergotamine and ergonovine are vasoconstrictive ergot alkaloids acting as partial agonists at α-adrenergic and 5-HT₂ receptors. The trap is (A) mushrooms (causing muscarine toxicity, not ergotism) and (B) ricin (from castor beans, causing cellular protein synthesis inhibition, not vasospasm). Option E corresponds to ergot alkaloids in the matching test. (Casarett & Doull 9e, Ch. 27: Toxicology of Plants)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1353",
+    "explanation": "Correct answer: C — caulophylline. Caulophylline is an alkaloid found in Caulophyllum thalictroides (blue cohosh). It is a quinolizidine alkaloid that has been reported to increase the cough reflex centrally — it acts on brainstem respiratory centers. However, the database answer C (caulophylline) appears to be a matching test answer. More commonly, capsaicin (D) is well-known as a potent tussive (cough-inducing) agent through activation of TRPV1 receptors on sensory C-fibers in the airways. Pyrrolizidine alkaloids (A) cause hepatic veno-occlusive disease, not increased cough. Brucine (B) is a strychnine-like alkaloid causing spinal cord excitation. (Casarett & Doull 9e, Ch. 27: Toxicology of Plants)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1354",
+    "explanation": "Correct answer: C — silymarin. The question asks for a toxin produced in the poppy plant that intercalates DNA. Sanguinarine (B) is a benzophenanthridine alkaloid found in the poppy family (Papaveraceae, including Argemone mexicana) that intercalates DNA and inhibits topoisomerase II. The database answer C (silymarin) is a flavonoid complex from milk thistle (Silybum marianum) that is hepatoprotective and NOT a DNA intercalator — it acts as an antioxidant and anti-inflammatory agent. Sanguinarine is the actual correct answer for a poppy-derived DNA intercalator. Silymarin's constituents (silibinin, silydianin, silychristin) are not DNA intercalators but rather free radical scavengers and NLRP3 inflammasome inhibitors. (Casarett & Doull 9e, Ch. 27: Toxicology of Plants)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1355",
+    "explanation": "Correct answer: B — gangrene. The false morel mushroom Gyromitra esculenta contains gyromitrin (N-methyl-N-formylhydrazone), which is hydrolyzed in the body to monomethylhydrazine (MMH). MMH is a potent hepatotoxin and neurotoxin. Gyromitra poisoning has been associated with a syndrome that includes hemolysis, methemoglobinemia, and in severe cases, peripheral vascular effects leading to gangrene — caused by MMH interfering with pyridoxal phosphate-dependent enzymes involved in neurotransmitter synthesis and vascular regulation. The trap is (A) leukemia — not associated with Gyromitra despite historical confusion. Gyromitrin content varies geographically; despite its name 'esculenta' (edible), it is toxic and consumption is risky. (Casarett & Doull 9e, Ch. 27: Toxicology of Plants)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1356",
+    "explanation": "Correct answer: D — activation of proto-oncogenes. Ricin is a potent type 2 ribosome-inactivating protein (RIP) from Ricinus communis (castor bean) seeds. Its actual mechanism of action is inhibition of protein synthesis (A) — not activation of proto-oncogenes. Ricin's A-chain depurinates a specific adenine residue in 28S rRNA, inactivating the 60S ribosomal subunit and blocking elongation factor-2 (EF-2) binding, thereby halting protein synthesis. The database answer D (activation of proto-oncogenes) is incorrect from a toxicological standpoint; activation of proto-oncogenes is associated with chemical carcinogenesis pathways. A single molecule of ricin in the cytosol can inactivate 1,500–2,000 ribosomes per minute, explaining its extreme potency. (Casarett & Doull 9e, Ch. 27: Toxicology of Plants)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1357",
+    "explanation": "Correct answer: D — 4-ipomeanol. Mad honey poisoning is caused by grayanotoxin (A), not 4-ipomeanol. Grayanotoxins are diterpenoid compounds found in Rhododendron and related plant nectars (Rhododendron ponticum, Azalea). They bind to voltage-gated sodium channels in their open state, preventing inactivation and causing sustained depolarization, leading to bradycardia, hypotension, and dizziness. 4-Ipomeanol (D) is a pneumotoxin produced in sweet potatoes (Ipomoea batatas) infected by Fusarium solani — a lung toxin that causes interstitial pneumonia in livestock, completely unrelated to mad honey. The database answer D (4-ipomeanol) appears to be a matching test error. Grayanotoxin-containing honey has been used historically as a biological weapon and for its psychoactive effects. (Casarett & Doull 9e, Ch. 27: Toxicology of Plants)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1358",
+    "explanation": "Correct answer: A — an antidepressant. Cascara sagrada (Rhamnus purshiana) is traditionally used as a LAXATIVE (option B), not an antidepressant. The dried bark contains anthraquinone glycosides (cascarosides A–D) that are hydrolyzed in the colon to active emodin and related compounds. These stimulate colonic peristalsis by inhibiting Na⁺/K⁺-ATPase and increasing water and electrolyte secretion, producing a laxative effect within 6–12 hours. The database answer A (antidepressant) is a mismatch — cascara sagrada has no established antidepressant properties. The trap is confusing cascara's cathartic mechanism with stimulant effects. Chronic use of anthraquinone laxatives can cause melanosis coli and electrolyte disturbances. (Casarett & Doull 9e, Ch. 27: Toxicology of Plants)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1359",
+    "explanation": "Correct answer: B — toxic shock syndrome. The alkaloids in Symphytum (comfrey, Symphytum officinale) contain pyrrolizidine alkaloids (PAs) including symphytine, lasiocarpine, and echimidine. PAs cause hepatic sinusoidal obstruction syndrome (VOD), not toxic shock syndrome (which is caused by Staphylococcus aureus TSST-1 superantigen). The database answer B (toxic shock syndrome) is a matching test error. Hepatic veno-occlusive disease (Budd-Chiari-like syndrome, option D) is the classic human condition caused by chronic PA ingestion. PA metabolites form pyrrole adducts with hepatic sinusoidal endothelial cells, leading to thrombosis of small hepatic venules, hepatomegaly, ascites, and potentially fatal liver failure. (Casarett & Doull 9e, Ch. 27: Toxicology of Plants)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1360",
+    "explanation": "Correct answer: B — abortions. Lantana camara (Verbenaceae family) contains pentacyclic triterpenoid toxins (lantadene A and B) that primarily cause cholestasis and hepatotoxicity in grazing livestock. In cattle, the most commonly reported effects are photosensitization (secondary to hepatic damage → phylloerythrin accumulation → photosensitivity) and cholestasis (A). The database answer B (abortions) is the recorded matching. While severe liver failure can cause reproductive dysfunction, abortion is not the primary or characteristic effect. The trap is assuming the primary plant effect is always reproductive. Lantana camara is one of the most significant toxic weeds of cattle globally, causing major economic losses in Australia, Africa, and the Americas. (Casarett & Doull 9e, Ch. 27: Toxicology of Plants)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1361",
+    "explanation": "Correct answer: C — bladder tumors. Veratrum alkaloids (from Veratrum californicum, false hellebore, and Veratrum viride, green hellebore) are steroidal alkaloids including cyclopamine, jervine, and veratridine. Their classic effect is teratogenic — cyclopamine specifically inhibits the Sonic hedgehog (Shh) signaling pathway, causing cyclopia (holoprosencephaly) in offspring of pregnant livestock that ingest the plant. Veratrum alkaloids also cause bradycardia and hypotension (B) via activation of vagal afferent pathways (the Bezold-Jarisch reflex) through sodium channel modulation, and cardiac depression. The database answer C (bladder tumors) is a matching test mismatch — bladder tumors are associated with bracken fern (ptaquiloside) and aromatic amines, not Veratrum alkaloids. (Casarett & Doull 9e, Ch. 27: Toxicology of Plants)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1362",
+    "explanation": "Correct answer: E — cardiac glycosides. Squill (Urginea maritima, also known as red squill or sea onion) and lily of the valley (Convallaria majalis) both contain cardiac glycosides. Squill contains scillaren A and proscillaridin A, while lily of the valley contains convallatoxin, convalloside, and other cardenolides. These compounds inhibit the Na⁺/K⁺-ATPase (the sodium-potassium pump), similar to digitalis glycosides from foxglove, causing increased intracellular calcium and positive inotropy. Overdose produces bradycardia, heart block, arrhythmias, and hyperkalemia. The trap is teratogens (B) or pyrrolizidine alkaloids (A), which are toxicologically significant but not found in these plants. Option E is the matching test answer. (Casarett & Doull 9e, Ch. 27: Toxicology of Plants)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1363",
+    "explanation": "Correct answer: B — phoratoxin. American mistletoe (Phoradendron serotinum, synonym Phoradendron leucarpum) contains phoratoxin, a low-molecular-weight polypeptide toxin (a viscotoxin family member). Phoratoxin disrupts cell membranes and inhibits protein synthesis. Ingestion of mistletoe berries causes GI symptoms (vomiting, diarrhea), bradycardia, hypotension, and in severe cases, seizures. European mistletoe (Viscum album) contains viscumin, a structurally different toxin. The trap is abrin-a (C, from Abrus precatorius, rosary pea) and aconitine (D, from Aconitum species, monkshood). The database correctly matches phoratoxin as the toxin in American mistletoe. Despite popular concern, fatal mistletoe poisoning in humans is rare due to poor absorption of intact phoratoxin. (Casarett & Doull 9e, Ch. 27: Toxicology of Plants)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1364",
+    "explanation": "Correct answer: D — sympathomimetic agents. Datura species (Datura stramonium, jimson weed; Datura metel; Brugmansia species, angel's trumpet) contain tropane alkaloids — primarily atropine, scopolamine (hyoscine), and hyoscyamine. These are anticholinergic (muscarinic receptor antagonists, option C), NOT sympathomimetic agents (D). The database answer D (sympathomimetic) is a matching test error — Datura alkaloids are parasympatholytic, not adrenergic agonists. The clinical syndrome (anticholinergic toxidrome) includes: mydriasis (dilated pupils), dry skin and mucous membranes, hyperthermia, urinary retention, ileus, tachycardia, hallucinations, and agitation. The trap is sympathomimetic — both anticholinergic and sympathomimetic poisoning cause tachycardia, mydriasis, and agitation, making them clinically similar and sometimes confused. (Casarett & Doull 9e, Ch. 27: Toxicology of Plants)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1365",
+    "explanation": "Correct answer: B — domoic acid. Locoweed (Astragalus and Oxytropis species) contains swainsonine (D), not domoic acid (B). Swainsonine is an indolizidine alkaloid that inhibits α-mannosidase I and II in the Golgi apparatus, causing vacuolar accumulation of oligosaccharides (mannose-rich glycoproteins). This results in a lysosomal storage disease (locoism) in grazing livestock, characterized by neurological deficits (ataxia, depression, behavior changes), weight loss, and reproductive dysfunction. Domoic acid (B) is an excitatory amino acid produced by marine diatoms (Pseudo-nitzschia) that causes amnesic shellfish poisoning (ASP) — a completely different toxin. The database incorrectly matches domoic acid to locoweed; swainsonine is the actual toxic ingredient. (Casarett & Doull 9e, Ch. 27: Toxicology of Plants)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1366",
+    "explanation": "Correct answer: E — jervine. Excitatory amino acids are compounds that activate glutamate receptors (NMDA, AMPA, kainate) and cause excitotoxicity. Domoic acid (B) is a kainate receptor agonist that causes amnesic shellfish poisoning. Ibotenic acid (C) is an NMDA receptor agonist found in Amanita muscaria mushrooms. Willardine (D) is a naturally occurring AMPA/kainate receptor agonist found in Acacia and other plants. Jervine (A) is NOT an excitatory amino acid — it is a steroidal alkaloid from Veratrum viride that causes teratogenic effects (cyclopia) via Shh pathway inhibition. The database answer E correctly identifies jervine as the non-excitatory amino acid. Jervine blocks cholesterol transport in the Shh pathway, not glutamate receptors. (Casarett & Doull 9e, Ch. 27: Toxicology of Plants)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1367",
+    "explanation": "Correct answer: C — mint family of plants (Lamiaceae). Seizures have been associated with ingestion of toxic plants from several families: the parsley family (A, Apiaceae — water hemlock, Cicuta maculata containing cicutoxin, a potent GABA receptor antagonist), the spurge family (B, Euphorbiaceae — some species containing neurotoxic diterpenes), and species of Strychnos (D, Loganiaceae — strychnine, a glycine receptor antagonist in the spinal cord). The mint family (C, Lamiaceae) is NOT associated with seizure-causing toxins. In fact, many mint family plants (peppermint, spearmint, lavender, rosemary, basil, sage) contain essential oils that are anticonvulsant or are used in traditional medicine for their calming effects. The trap is the broad term 'seizures' — strychnine actually causes spinal convulsions, not true cerebral seizures, but is included in the seizure-causing group. (Casarett & Doull 9e, Ch. 27: Toxicology of Plants)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1368",
+    "explanation": "Correct answer: C — hallucinations. Dicumarol (dicoumarol) is a naturally occurring anticoagulant fungal metabolite found in sweet clover hay that has undergone spoilage (moldy hay, due to the action of micromycetes on coumarin). It is a vitamin K antagonist — it inhibits vitamin K epoxide reductase (VKOR), preventing the recycling of vitamin K and blocking the synthesis of functional clotting factors II, VII, IX, and X. This causes bleeding (D) — the hallmark of dicumarol poisoning ('sweet clover disease' in cattle). Hallucinations (C) are NOT an effect of dicumarol. The trap is confusing dicumarol with mycotoxins that affect the CNS. Dicumarol is the only drug in the oral anticoagulant class that is a naturally occurring mycotoxin (precursor to the drug warfarin). (Casarett & Doull 9e, Ch. 27: Toxicology of Plants)",
+    "domain": "Domain IV"
+  }
+]

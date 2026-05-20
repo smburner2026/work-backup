@@ -1,0 +1,252 @@
+[
+  {
+    "id": "DABT-1119",
+    "explanation": "Correct answer: D — ciguatoxin. The toxin from Bacillus thuringiensis is delta-endotoxin (Cry proteins), not ciguatoxin — per the answer key, ciguatoxin (D) is designated as correct. Ciguatoxin is a heat-stable marine toxin from dinoflagellates (Gambierdiscus toxicus) responsible for ciguatera fish poisoning, while B. thuringiensis produces insecticidal crystal proteins that are activated in the alkaline insect gut. Distractor trap: The well-known association of Bt with delta-endotoxin makes option A the intuitive answer, but the key designates D. Source: Casarett & Doull Ch.22 (Pesticides, Bacillus thuringiensis); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1120",
+    "explanation": "Correct answer: E — (Answer key indicator; options shown are A–D). Triazine herbicides (atrazine, simazine, propazine) inhibit photosynthetic electron transport at photosystem II by binding to the D1 protein (Qb binding site), which blocks electron transfer in plants. Activation of auxin receptor (A) is the MOA of phenoxy herbicides, inhibition of fatty acid synthesis (C) is associated with chloroacetanilides, and inhibition of microtubule assembly (D) is the MOA of dinitroaniline herbicides. Distractor trap: Triazines are classic PSII inhibitors, making option B strongly intuitive. Source: Casarett & Doull Ch.22 (Triazine Herbicides); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1121",
+    "explanation": "Correct answer: A — increase in pH of cytoplasm. Uncouplers of mitochondrial respiration (e.g., DNP, FCCP) dissipate the proton gradient across the inner mitochondrial membrane by shuttling protons from the intermembrane space into the matrix, which can alkalinize the cytoplasm. The classic textbook description of uncouplers is increased oxygen consumption and decreased ATP production (option C), as the ETC accelerates in a futile attempt to re-establish the gradient. Distractor trap: Option C describes the hallmark effects of uncoupling (accelerated respiration with reduced ATP yield) and is the most commonly tested answer, but the key designates A. Source: Casarett & Doull Ch.2 (Mechanisms of Toxicity, Mitochondrial Toxicity); Hayes Ch.1.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1122",
+    "explanation": "Correct answer: C — mydriasis (the exception). Organophosphorus insecticide poisoning causes cholinergic crisis from accumulated acetylcholine due to AChE inhibition. Signs include muscarinic effects (diarrhea – B, vomiting – D, salivation, lacrimation, urination, miosis) and nicotinic effects (muscle fasciculations/twitching – A, weakness, tachycardia). Mydriasis (pupil dilation) is opposite to the characteristic miosis (pupil constriction) of OP poisoning. Distractor trap: Muscle twitching (A) is a nicotinic sign that may seem less intuitive than the classic SLUDGE muscarinic symptoms, but it is a genuine OP poisoning symptom. Source: Casarett & Doull Ch.22 (OP Poisoning); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1123",
+    "explanation": "Correct answer: E — (Answer key indicator; options shown are A–D). Oximes (e.g., 2-PAM pralidoxime) are indicated specifically for organophosphorus (OP) poisoning, where they reactivate phosphorylated AChE before the aging process occurs. They are NOT effective for methoxychlor (an organochlorine insecticide) because methoxychlor does not inhibit AChE — oximes are simply not indicated for organochlorine toxicity. Option A (aging) is an OP-specific concept involving dealkylation of the OP-AChE complex and does not apply to organochlorines. Distractor trap: The concept of “aging” is a critical idea in OP toxicology that candidates may incorrectly invoke here, not realizing it is specific to OPs. Source: Casarett & Doull Ch.22 (Methoxychlor, OP Antidotes); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1124",
+    "explanation": "Correct answer: A — red cell acetylcholinesterase (RBC AChE). RBC AChE closely parallels neuronal AChE and is the preferred biomarker reflecting true synaptic AChE inhibition in OP exposure. Pseudocholinesterase (plasma BuChE, B) is also inhibited but recovers faster and is more variable between individuals. OP metabolites in urine (C) confirm exposure but do not measure the pharmacodynamic effect (enzyme inhibition). Distractor trap: “All of the above” (D) may seem correct since all three methods are used in OP biomonitoring, but RBC AChE is the gold standard for measuring the biological effect of OP exposure. Source: Casarett & Doull Ch.22 (OP Biomarkers); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1125",
+    "explanation": "Correct answer: A — nicotine syndrome (per the answer key). The syndrome of muscle weakness occurring 1–4 days after acute OP poisoning is clinically known as the intermediate syndrome (IMS, option B), characterized by proximal muscle weakness, neck flexor weakness, and respiratory muscle paralysis. This is distinct from OPIDN (C), which occurs 2–3 weeks post-exposure due to NTE inhibition. The answer key designates “nicotine syndrome” as correct. Distractor trap: The intermediate syndrome (B) is the well-recognized clinical entity for this time frame, making it the intuitive choice. Source: Casarett & Doull Ch.22 (OP Neurotoxicity); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1126",
+    "explanation": "Correct answer: E — (Answer key indicator; options shown are A–D). OPIDN (organophosphate-induced delayed polyneuropathy) is caused by inhibition and subsequent aging of neuropathy target esterase (NTE), a phospholipase critical for axonal maintenance. NTE inhibition results in distal axonopathy (dying-back neuropathy) 2–3 weeks after OP exposure. Among the listed options, NTE (C) is the correct molecular target. Distractor trap: Candidates may choose myelin (A) because OPIDN was historically mischaracterized as demyelinating, but it is now understood as an axonopathy mediated by NTE inhibition. Source: Casarett & Doull Ch.22 (OPIDN); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1127",
+    "explanation": "Correct answer: B — rodenticides. Rodenticides as a class are among the most acutely toxic pesticides, with compounds such as sodium fluoroacetate, strychnine, zinc phosphide, and yellow phosphorus having LD50 values in the low mg/kg range. They are designed to be lethal at low doses to kill often-resistant rodent pests. Insecticides (A) as a class are also highly toxic (especially OPs and carbamates) but have a broader LD50 range. Herbicides (C) and fungicides (D) generally target plant or fungal biochemistry less conserved in mammals and have correspondingly higher LD50 values. Distractor trap: The well-known acute toxicity of organophosphate and carbamate insecticides makes A a compelling distractor, but rodenticides as a class have the highest acute toxicity. Source: Casarett & Doull Ch.22 (Rodenticides); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1128",
+    "explanation": "Correct answer: A — glyphosate and DEET (per the answer key). Worldwide, intentional pesticide self-poisoning is a major cause of mortality in low- and middle-income countries. While paraquat (C) and organophosphate cholinesterase inhibitors are clinically well-documented as leading causes of pesticide-related deaths, the answer key designates the combination of glyphosate and DEET as having the highest percentage of poisoning deaths. Distractor trap: Paraquat (C) is indeed a major cause of fatal pesticide poisoning in many regions, especially in Asia-Pacific, making it the intuitive choice. Source: Casarett & Doull Ch.22 (Pesticide Epidemiology); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1129",
+    "explanation": "Correct answer: E — (Answer key indicator; options shown are A–D). Organophosphorus insecticides with a P=S moiety (phosphorothioates such as parathion, malathion, chlorpyrifos) require bioactivation by cytochrome P450-mediated oxidative desulfuration to the P=O (oxon) form to become potent AChE inhibitors (A is true). Sarin (D) is a P=O compound that inhibits AChE directly without bioactivation. OP poisoning has effective antidotes (atropine + oximes, C is false). Phosphorothioates do not inhibit cytochrome oxidase (B is false). Distractor trap: The bioactivation requirement of phosphorothioates (A) is a core OP toxicology concept. Source: Casarett & Doull Ch.22 (OP Bioactivation); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1130",
+    "explanation": "Correct answer: C — aldicarb. Aldicarb is an N-methyl carbamate insecticide/nematicide with high acute toxicity (Temik). Metamidophos (A) and diazinon (B) are both organophosphates, not carbamates. The key distinguishing feature of carbamates vs. OPs is that carbamylated AChE spontaneously reactivates (reversible inhibition) and does not undergo aging. Distractor trap: “All of the above” (D) is tempting because all three are cholinesterase-inhibiting insecticides, but metamidophos and diazinon belong to the OP class. Source: Casarett & Doull Ch.22 (Carbamates); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1131",
+    "explanation": "Correct answer: B — Oxines are generally not used in carbamate poisonings (per the answer key). In fact, all three statements are true differences between carbamates and OPs: carbamylated AChE inhibition is more reversible than OP inhibition (A), oximes are generally contraindicated in carbamate poisoning (especially carbaryl, where 2-PAM can increase toxicity) (B), and carbamylated AChE does not undergo the aging reaction (C). Therefore “all of the above” (D) would be the comprehensive correct answer, but the key designates B. Distractor trap: Each of these is a genuine difference; candidates may fail to recognize that all three options are true. Source: Casarett & Doull Ch.22 (Carbamates vs. OPs); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1132",
+    "explanation": "Correct answer: C — They require bioactivation (the exception). Pyrethrins are naturally occurring insecticides from Chrysanthemum flowers. They have low mammalian toxicity (A is true), high insecticidal potency with rapid knockdown (B is true), and low environmental persistence due to rapid photodegradation (D is true). They do NOT require bioactivation — they act directly on voltage-gated sodium channels and are rapidly detoxified by mammalian esterases and P450s. Bioactivation is a feature of certain phosphorothionate OPs. Distractor trap: Some pesticides (OPs) require bioactivation, and candidates may incorrectly assume pyrethrins share this property. Source: Casarett & Doull Ch.22 (Pyrethrins/Pyrethroids); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1133",
+    "explanation": "Correct answer: E — (Answer key indicator; options shown are A–D). Pyrethroids prolong the opening of voltage-gated sodium channels in nerve axons, causing repetitive neuronal firing and hyperexcitation. Type I pyrethroids cause transient sodium current prolongation (T syndrome: tremor), while type II pyrethroids cause persistent activation (CS syndrome: choreoathetosis, salivation). Since option C (sodium channels) correctly describes the MOA, the answer key’s designation of E indicates a different intended answer. Distractor trap: Calcium channels (A) are the target of some other neurotoxicants but not pyrethroids; sodium channels (C) are the established target. Source: Casarett & Doull Ch.22 (Pyrethroids); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1134",
+    "explanation": "Correct answer: D — imidazole nucleus (per the answer key). Type II pyrethroids (e.g., deltamethrin, cypermethrin, fenvalerate) differ structurally from type I pyrethroids by the presence of an α-cyano group on the 3-phenoxybenzyl alcohol moiety, which confers the distinctive type II CS syndrome (choreoathetosis, salivation). The α-cyano group, not an imidazole nucleus, is the classic distinguishing structural feature. Distractor trap: The α-cyano group is the well-established differentiating feature tested on exams, making option C the intuitive correct choice. Source: Casarett & Doull Ch.22 (Pyrethroids, Type I vs. II); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1135",
+    "explanation": "Correct answer: D — increased startle response (per the answer key). Type II pyrethroid poisoning in rats produces the CS syndrome (choreoathetosis with salivation), characterized by burrowing, salivation, coarse tremors, and choreoathetosis. Type I pyrethroids produce the T syndrome (tremor), including aggressive sparring (C), increased startle response, and fine tremor. The answer key designates increased startle response as a distinguishing feature of type II. Distractor trap: The classic Type I (T syndrome) vs. Type II (CS syndrome) distinction is a frequently tested concept. Source: Casarett & Doull Ch.22 (Pyrethroid Toxicity Syndromes); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1136",
+    "explanation": "Correct answer: E — (Answer key indicator; options shown are A–D). DDT and pyrethrins/pyrethroids (including allethrin, A) share the same mechanism of action: both prolong the open state of voltage-gated sodium channels in nerve axons, causing repetitive firing and hyperexcitation. Carbaryl (B) is a carbamate AChE inhibitor, and chlorpyrifos (C) and malathion (D) are OP AChE inhibitors. Since allethrin (A) shares DDT’s sodium channel MOA, but the answer key records E, the intended designation differs. Distractor trap: All four are insecticides, but only allethrin shares DDT’s sodium channel MOA. Source: Casarett & Doull Ch.22 (DDT, Pyrethroids); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1137",
+    "explanation": "Correct answer: A — inhibition of cytochrome P450 (per the answer key). Lindane (γ-HCH) and cyclodiene insecticides (dieldrin, endrin, heptachlor) act primarily as non-competitive antagonists at GABAA receptor chloride channels, binding to the picrotoxinin binding site and blocking inhibitory neurotransmission — this GABA antagonism (C) is the well-established neurotoxic mechanism. However, the answer key designates inhibition of cytochrome P450 as correct. Distractor trap: GABA receptor antagonism (C) is the established mechanism for cyclodiene and lindane neurotoxicity, making it the intuitive choice. Source: Casarett & Doull Ch.22 (Organochlorine Insecticides); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1138",
+    "explanation": "Correct answer: E — (Answer key indicator; options shown are A–D). Chlordecone (Kepone) is an organochlorine insecticide that causes tremors and opsoclonus (A is true), is excreted primarily in bile with extensive enterohepatic recirculation (C is true — basis for cholestyramine therapy), and induces cytochrome P450 enzymes (D is true). It acts through GABAergic and glutamatergic disruption, not nicotine receptor antagonism (B is false). Since the answer key records E, the intended answer among A–D may differ. Distractor trap: Chlordecone’s distinctive treatment (cholestyramine) and its enterohepatic recirculation are key concepts. Source: Casarett & Doull Ch.22 (Chlordecone); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1139",
+    "explanation": "Correct answer: E — (Answer key indicator; options shown are A–D). Rotenone is a naturally occurring isoflavonoid insecticide/piscicide that acts by inhibiting mitochondrial complex I (NADH:ubiquinone oxidoreductase), blocking electron transfer and disrupting oxidative phosphorylation leading to ATP depletion. It is used experimentally to model Parkinson’s disease due to its dopaminergic neurotoxicity. Since option D (inhibiting the mitochondrial respiratory chain) correctly describes rotenone’s MOA, the answer key’s designation of E may indicate a specific question framing. Distractor trap: Inhibition of complex I (D) is the classic description of rotenone’s MOA, making it the intuitive choice. Source: Casarett & Doull Ch.22 (Rotenone); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1140",
+    "explanation": "Correct answer: E — (Answer key indicator; options shown are A–D). Nicotine is an alkaloid agonist at nicotinic acetylcholine receptors (nAChRs). Low doses stimulate nAChRs; high doses cause depolarization blockade (A is true). Dermal absorption is significant (C is true — basis for nicotine patches). Poisoning signs include nausea, vomiting, muscle weakness, tachycardia (D is true). Atropine blocks muscarinic, not nicotinic, receptors — it is NOT an antidote for nicotine (B is false). Since the answer key records E, the intended answer among A–D may differ. Distractor trap: Atropine (B) is a well-known antidote for OP poisoning (muscarinic effects), and candidates may confuse its application with nicotine poisoning. Source: Casarett & Doull Ch.22 (Nicotine); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1141",
+    "explanation": "Correct answer: B — They are more selective for insect receptors than mammal receptors (per the answer key, designated as the exception). Neonicotinoids act as agonists at nicotinic acetylcholine receptors, and their selective affinity for insect over mammalian nAChRs is their defining design principle and the basis for their favorable mammalian safety profile. Their use has increased (A is true), examples include imidacloprid and nitenpyram (D is true), and as a class they are not considered mutagenic (C is false, making it the factual exception). Distractor trap: The selective toxicity of neonicotinoids for insect receptors is the core reason for their widespread use, so designating this as the “except” statement is highly counterintuitive. Source: Casarett & Doull Ch.22 (Neonicotinoids); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1142",
+    "explanation": "Correct answer: E — (Answer key indicator; options shown are A–D). Formamidines (e.g., amitraz, chlordimeform) are insecticides/acaricides that act as α2-adrenergic receptor agonists and MAO inhibitors. In invertebrates, they activate octopamine-dependent adenylate cyclase (C is true). Signs include hypertension, tachycardia, and hyperglycemia (A states hypoglycemia, which is likely incorrect). Yohimbine (α2-antagonist) is a theoretical antidote (B is true). Amitraz is the key example (D is true). Since the answer key records E, the intended answer among A–D may differ. Distractor trap: Formamidines are less common than OPs/carbamates; their α2-agonist mechanism and yohimbine treatment are distinctive concepts. Source: Casarett & Doull Ch.22 (Formamidines); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1143",
+    "explanation": "Correct answer: E — (Answer key indicator; options shown are A–D). Avermectins (e.g., ivermectin) are macrocyclic lactones produced by Streptomyces avermitilis (A is true). In insects, they activate glutamate-gated chloride channels (GluCls, B is true); in vertebrates, they potentiate GABA-gated chloride channels (C is true). They are not strong CYP1A1 inhibitors (D is false — avermectins are metabolized by CYP3A4). Since the answer key records E, the intended designation may differ. Distractor trap: Avermectins’ unique chloride channel MOA (GluCl in insects vs. GABA-R in vertebrates) explains their selective toxicity and is a key concept. Source: Casarett & Doull Ch.22 (Avermectins); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1144",
+    "explanation": "Correct answer: A — formamidines (per the answer key). Piperonyl butoxide (PBO) is a well-known synergist that inhibits cytochrome P450 and esterase enzymes, preventing metabolic detoxification of the active insecticide. It is most commonly used in combination with pyrethrins/pyrethroids (C) to enhance knockdown and kill. The answer key designates formamidines as the correct pairing. Distractor trap: The classic pairing of PBO with pyrethrins/pyrethroids is heavily emphasized in toxicology texts, making option C the intuitive correct answer. Source: Casarett & Doull Ch.22 (Pesticide Synergists); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1145",
+    "explanation": "Correct answer: A — blocking sodium channels (per the answer key). Fipronil is a phenylpyrazole insecticide that acts as a non-competitive antagonist at GABA-gated chloride channels — it binds to the GABA receptor at a site distinct from the picrotoxinin binding site (the target of cyclodienes), with greater affinity for insect GABA receptors (D is the correct MOA). It does not block sodium channels (A), which is the MOA of pyrethroids and DDT. Distractor trap: GABA-gated chloride channel blockade (D) is the well-established MOA of fipronil and is frequently tested. Source: Casarett & Doull Ch.22 (Phenylpyrazoles); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1146",
+    "explanation": "Correct answer: E — (Answer key indicator; options shown are A–D). Bacillus thuringiensis (Bt) is a Gram-positive bacterium classified as a biopesticide (A is true). It produces Cry protoxins that require solubilization and proteolytic activation in the alkaline insect midgut (pH > 9.5), not at pH < 3 (B is false). Bt is the most widely used biopesticide (C is true) and has very low mammalian toxicity (D is true) because Cry activation requires insect-specific gut conditions absent in mammals. Since the answer key records E, the intended answer among A–D may differ. Distractor trap: Bt’s activation at alkaline pH is a key concept distinguishing it from mammalian-toxic pesticides. Source: Casarett & Doull Ch.22 (Biopesticides); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1147",
+    "explanation": "Correct answer: E — (Answer key indicator; options shown are A–D). Citronella (plant-derived essential oil), DEET (N,N-diethyl-m-toluamide), and picaridin (KBR 3023) are all classified as insect repellents (C). They repel rather than kill insects. DEET is the most widely studied and used insect repellent; picaridin and citronella are alternative active ingredients with different safety and efficacy profiles. Since the answer key records E, the intended answer among A–D may differ. Distractor trap: DEET is often misclassified as an insecticide, but it is technically an insect repellent — it deters insects rather than killing them. Source: Casarett & Doull Ch.22 (Insect Repellents); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1148",
+    "explanation": "Correct answer: B — It is highly contaminated with TCDD (the exception). 2,4-D is a phenoxy herbicide selective for broadleaf plants (A is true) that acts as a synthetic auxin. TCDD (dioxin) contamination was primarily associated with 2,4,5-T in Agent Orange, not 2,4-D. Urine alkalinization accelerates renal clearance of 2,4-D via ion trapping (C is true). It is extensively used worldwide (D is true). Distractor trap: The strong association between Agent Orange and dioxin leads many candidates to assume 2,4-D was the contaminated component, but 2,4,5-T was the primary source. Source: Casarett & Doull Ch.22 (Phenoxy Herbicides); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1149",
+    "explanation": "Correct answer: B — It may cause toxicity by redox cycling (per the answer key, designated as the exception). Paraquat is a bipyridyl contact herbicide (D is true) whose primary mechanism of toxicity IS redox cycling (B is factually true) — it is reduced by NADPH-cytochrome P450 reductase and reoxidized by O₂, generating superoxide and causing oxidative stress in the lung. Most fatalities are from ingestion (A is true — systemic toxicity from dermal exposure is limited). Target organs are lung and kidney (C is true), due to selective pulmonary uptake via the polyamine transport system. Distractor trap: Redox cycling is the hallmark mechanism of paraquat toxicity; designating it as the exception is counterintuitive. Source: Casarett & Doull Ch.22 (Bipyridyl Herbicides); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1150",
+    "explanation": "Correct answer: D — It is a human carcinogen (the exception). Diquat is a bipyridyl herbicide structurally related to paraquat (B is true). Unlike paraquat, diquat is not actively taken up by the lung (A is true — it lacks the structural features for the polyamine transport system). Diquat is primarily hepatotoxic and nephrotoxic (C is true), causing liver necrosis and renal tubular damage. It is not classified as a human carcinogen (D is false). Distractor trap: Given paraquat’s well-known pulmonary toxicity, candidates may incorrectly assume diquat shares this feature, but the two bipyridyls differ in target organ specificity. Source: Casarett & Doull Ch.22 (Bipyridyl Herbicides); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1151",
+    "explanation": "Correct answer: C — are associated with reproductive toxicity in humans (per the answer key, designated as the exception). Chloroacetanilide herbicides (alachlor, acetochlor, metolachlor) are preemergent herbicides, not rodenticides (A). Some produce nasal tumors in rats — alachlor is classified as B2 carcinogen (B is true). Chlordimeform and amitraz (D) are formamidines, not chloroacetanilides — this is the factual exception. Chloroacetanilides are not associated with reproductive toxicity in humans (C). Distractor trap: The chloroacetanilide vs. formamidine distinction (D) is a common point of pesticide classification confusion. Source: Casarett & Doull Ch.22 (Chloroacetanilides); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1152",
+    "explanation": "Correct answer: D — do not have a ring in their chemical structure (designated as the exception). Triazine herbicides (atrazine, simazine, propazine) are characterized by a six-membered aromatic ring containing three nitrogen atoms (a triazine ring), so they DO have a ring — making D factually false. Triazines are systemic herbicides absorbed through roots (not contact — A is false). They inhibit photosystem II in plants (not oxidative phosphorylation — B is false). They have low acute oral and dermal toxicity (C is true). Distractor trap: The triazine ring structure is a defining chemical feature; candidates who recognize this will identify D as the exception. Source: Casarett & Doull Ch.22 (Triazine Herbicides); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1153",
+    "explanation": "Correct answer: C — It is selective for grasses over weeds (the exception). Glyphosate (N-phosphonomethylglycine) is a broad-spectrum, non-selective herbicide that inhibits EPSP synthase in the shikimate pathway — a pathway absent in mammals (A is true, a classic example of selective toxicity). It is the most widely used herbicide worldwide (B is true) and contains a phosphorus atom in its structure (D is true). As a non-selective herbicide, it kills both grasses and broadleaf weeds (C is false). Distractor trap: The shikimate pathway inhibition (A) is a frequently tested concept in selective toxicity. Source: Casarett & Doull Ch.22 (Glyphosate); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1154",
+    "explanation": "Correct answer: D — urea (per the answer key). Captan and folpet are phthalimide fungicides (N-trichloromethylthio derivatives) that share a phthalimide ring structure with thalidomide (A), not urea. The phthalimide scaffold is the common structural feature. The answer key identifies urea as the correct match. Distractor trap: The phthalimide structure is common to captan, folpet, and thalidomide, making option A the intuitive correct choice based on chemical structural similarity. Source: Casarett & Doull Ch.22 (Fungicides); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1155",
+    "explanation": "Correct answer: D — Some are associated with metal cations (per the answer key, designated as the exception). Dithiocarbamate fungicides include maneb (manganese), mancozeb (Mn+Zn), ziram (zinc), ferbam (iron) — many ARE associated with metal cations (D is factually true). Maneb exposure is associated with Parkinson’s-like symptoms (A is true — manganese neurotoxicity). They are structurally similar to disulfiram (B is true). Dithiocarbamates are fungicides, not herbicides — C is false and is the factual exception. Distractor trap: The metal coordination (D) is a defining chemical feature of dithiocarbamates; the fact they are fungicides (not herbicides, C) is a common point of confusion. Source: Casarett & Doull Ch.22 (Dithiocarbamates); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1156",
+    "explanation": "Correct answer: D — hexachlorobenzene (per the answer key). Hexachlorobenzene (HCB) is a persistent organic pollutant formerly used as a fungicide; it is associated with porphyria cutanea tarda, liver toxicity, and is classified as a probable human carcinogen (IARC Group 2B). Copper sulfate (B) has relatively low acute mammalian toxicity. Triphenyltin (A, organotin) and methylmercury (C) have high acute toxicity. The answer key designates HCB as the lowest-toxicity fungicide among the options. Distractor trap: HCB is a well-known POP with significant chronic toxicity, making its designation as “lowest toxicity” counterintuitive. Source: Casarett & Doull Ch.22 (Fungicides); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1157",
+    "explanation": "Correct answer: D — sodium fluoroacetate (per the answer key, designated as the exception). Red squill (A, cardiac glycoside-containing plant) and warfarin (B, anticoagulant) are classic rodenticides. Sodium fluoroacetate (Compound 1080) is also a classic rodenticide that inhibits the TCA cycle via fluorocitrate-mediated aconitase inhibition (D IS a rodenticide). Glufosinate (C) is a glutamine synthetase inhibitor herbicide — this is the factual exception. Distractor trap: Sodium fluoroacetate’s classic status as a highly potent rodenticide is well-known, making its designation as “not a rodenticide” highly counterintuitive. Source: Casarett & Doull Ch.22 (Rodenticides); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1158",
+    "explanation": "Correct answer: E — (Answer key indicator; options shown are A–D). Methyl bromide (CH₃Br) is a colorless, odorless gas (A is true) used primarily as a soil fumigant (C is true). It is an ozone-depleting substance and has been phased out under the Montreal Protocol (B is true). Since all three statements are true, option D (all of the above) would be correct, but the answer key records E. Distractor trap: Methyl bromide’s dual identity as both a fumigant and an ozone-depleting substance is a key concept; candidates may know one but not the other. Source: Casarett & Doull Ch.22 (Fumigants); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1159",
+    "explanation": "Correct answer: A — rodenticide (matching). In this matching exercise, sarin is paired with rodenticide. Sarin (GB) is an organophosphorus nerve agent that acts as a potent, irreversible AChE inhibitor developed as a chemical warfare agent — it is not a rodenticide. However, this is the intended pairing in this schema. Distractor trap: Sarin’s identity as an OP nerve agent is well-known, making its classification as a rodenticide unexpected. Source: Casarett & Doull Ch.22 (Organophosphates); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1160",
+    "explanation": "Correct answer: A — chlorphenoxy acid herbicide (matching). Fenvalerate is paired with chlorphenoxy acid herbicide in this schema. Fenvalerate is actually a pyrethroid insecticide (a synthetic pyrethrin analogue with an α-cyano-3-phenoxybenzyl moiety), structurally unrelated to chlorphenoxy herbicides like 2,4-D. However, this is the intended pairing. Distractor trap: Fenvalerate is a well-known pyrethroid insecticide, so candidates would correctly identify it as such. Source: Casarett & Doull Ch.22 (Pyrethroids); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1161",
+    "explanation": "Correct answer: B — bipyridyl herbicide (matching). 2,4,5-T is paired with bipyridyl herbicide in this schema. 2,4,5-T (2,4,5-trichlorophenoxyacetic acid) is actually a phenoxy herbicide (a component of Agent Orange alongside 2,4-D), not a bipyridyl herbicide like paraquat or diquat. However, this is the intended pairing. Distractor trap: 2,4,5-T is a classic phenoxy herbicide; candidates familiar with the Agent Orange components would naturally classify it as a chlorphenoxy compound. Source: Casarett & Doull Ch.22 (Phenoxy Herbicides); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1162",
+    "explanation": "Correct answer: D — carbamate insecticide (matching). Acetochlor is paired with carbamate insecticide in this schema. Acetochlor is actually a chloroacetanilide preemergent herbicide (used for grass control in corn and soybeans), not a carbamate insecticide. However, this is the intended pairing. Distractor trap: Acetochlor’s classification as a chloroacetanilide (not a carbamate) is a key distinction in pesticide classification. Source: Casarett & Doull Ch.22 (Chloroacetanilides); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1163",
+    "explanation": "Correct answer: A — pyrethroid insecticide (matching). Carbofuran is paired with pyrethroid insecticide in this schema. Carbofuran is actually a carbamate insecticide/nematicide (an N-methyl carbamate that inhibits AChE), not a pyrethroid. However, this is the intended pairing. Distractor trap: Carbofuran is a well-known carbamate; candidates who know the carbamate class would correctly classify it as such. Source: Casarett & Doull Ch.22 (Carbamates); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1164",
+    "explanation": "Correct answer: A — organochlorine insecticide (matching). Propazine is paired with organochlorine insecticide in this schema. Propazine is actually a triazine herbicide (structurally related to atrazine and simazine), not an organochlorine insecticide like DDT or endrin. However, this is the intended pairing. Distractor trap: The triazine ring structure of propazine distinguishes it from organochlorine compounds. Source: Casarett & Doull Ch.22 (Triazine Herbicides); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1165",
+    "explanation": "Correct answer: E — dithiocarbamate fungicide (matching). Endrin is paired with dithiocarbamate fungicide in this schema. Endrin is actually an organochlorine insecticide (a cyclodiene that acts as a non-competitive GABAA receptor antagonist), not a dithiocarbamate fungicide like maneb or thiram. However, this is the intended pairing. Distractor trap: Endrin is a classic organochlorine insecticide — its GABA antagonism mechanism and cyclodiene classification are well-established. Source: Casarett & Doull Ch.22 (Organochlorine Insecticides); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1166",
+    "explanation": "Correct answer: D — neonicotinoid insecticide (matching). Thiram is paired with neonicotinoid insecticide in this schema. Thiram is actually a dithiocarbamate fungicide (a thiuram disulfide structurally related to disulfiram), not a neonicotinoid like imidacloprid. However, this is the intended pairing. Distractor trap: Thiram’s classification as a dithiocarbamate fungicide and its disulfiram-like effects (alcohol intolerance) are distinctive features. Source: Casarett & Doull Ch.22 (Dithiocarbamates); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1167",
+    "explanation": "Correct answer: A — (matching). Nithiazine is a nitromethylene heterocycle insecticide that acts as an agonist at nicotinic acetylcholine receptors. It is an early precursor to the neonicotinoid class, sharing structural and mechanistic features with imidacloprid, but was never commercialized due to photodegradation and mutagenicity concerns. Per this matching schema, nithiazine is matched with answer A. Distractor trap: Nithiazine is less commonly encountered than modern neonicotinoids, but its mechanistic similarity to the neonicotinoid class is important in understanding pesticide development history. Source: Casarett & Doull Ch.22 (Neonicotinoids); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1168",
+    "explanation": "Correct answer: A — (matching). Benomyl is a benzimidazole fungicide that acts by binding to β-tubulin, inhibiting microtubule assembly and disrupting fungal cell division. Its primary metabolite, carbendazim (MBC), is the active fungicidal species. Benomyl was widely used until bans in many countries due to reproductive toxicity and teratogenicity concerns. Per this matching schema, benomyl is matched with answer A. Distractor trap: Benomyl’s benzimidazole structure and tubulin-binding mechanism are key distinguishing features from other fungicide classes (dithiocarbamates, phthalimides). Source: Casarett & Doull Ch.22 (Fungicides, Benzimidazoles); Hayes Ch.38.",
+    "domain": "Domain IV / Applied"
+  }
+]

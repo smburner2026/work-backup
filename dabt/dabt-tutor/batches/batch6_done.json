@@ -1,0 +1,252 @@
+[
+  {
+    "id": "DABT-0518",
+    "explanation": "Glucagon is used to treat beta-adrenergic antagonist (beta-blocker) overdose. It bypasses the blocked beta-receptor by stimulating adenylate cyclase via the glucagon receptor, increasing cAMP and enhancing cardiac contractility and heart rate. The distractor answers include heparin (antidote: protamine), which is unrelated to glucagon's mechanism of action. (Casarett & Doull Ch. 2; Hayes Ch. 30)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0519",
+    "explanation": "Octreotide, a somatostatin analog, is used to treat sulfonylurea-induced hypoglycemia. It suppresses insulin secretion from pancreatic beta-cells, counteracting the hypoglycemic effect of sulfonylurea overdose. Thallium is a distractor—thallium poisoning is treated with Prussian blue. (Casarett & Doull Ch. 2 on antidote mechanisms; Hayes Ch. 36)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0520",
+    "explanation": "Dantrolene sodium is used to treat malignant hyperthermia, a life-threatening condition triggered by volatile anesthetics or succinylcholine. It works by inhibiting calcium release from the sarcoplasmic reticulum via ryanodine receptor blockade in skeletal muscle. Bupivacaine toxicity is treated with intravenous lipid emulsion, not dantrolene. (Casarett & Doull Ch. 11; Hayes Ch. 30)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0521",
+    "explanation": "Prussian blue (ferric hexacyanoferrate) is used to treat thallium and radiocesium poisoning. It acts as an ion-exchange resin in the gastrointestinal tract, binding thallium ions and interrupting enterohepatic recirculation, thereby enhancing fecal excretion. Ethanol withdrawal is treated with benzodiazepines, not Prussian blue. (Casarett & Doull Ch. 23; Hayes Ch. 30)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0522",
+    "explanation": "Physostigmine is a reversible acetylcholinesterase inhibitor used to treat anticholinergic toxicity (e.g., atropine, diphenhydramine, benztropine overdose). By inhibiting acetylcholinesterase, it increases acetylcholine levels at cholinergic synapses, counteracting the anticholinergic syndrome. Valproic acid toxicity is treated with L-carnitine, not physostigmine. (Casarett & Doull Ch. 8; Hayes Ch. 30)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0523",
+    "explanation": "Protamine sulfate is used to reverse heparin anticoagulation. It is a positively charged protein that binds ionically to negatively charged heparin, forming a stable inactive complex that neutralizes heparin's anticoagulant effect. Protamine can also cause histamine release and anaphylactoid reactions in some patients. (Casarett & Doull Ch. 11; Hayes Ch. 30)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0524",
+    "explanation": "Pyridoxine (vitamin B6) is used as an antidote for isoniazid (INH) overdose. Isoniazid causes pyridoxine deficiency by forming hydrazone complexes and inhibiting pyridoxal kinase, leading to GABA depletion and seizures. High-dose pyridoxine replenishes GABA synthesis and terminates seizures. (Casarett & Doull Ch. 2; Hayes Ch. 30)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0525",
+    "explanation": "Leucovorin (folinic acid) is used as an antidote for methotrexate overdose and in methotrexate 'leucovorin rescue' protocols. It bypasses dihydrofolate reductase (DHFR), which is inhibited by methotrexate, providing reduced folate directly for nucleotide synthesis. This rescues normal cells from methotrexate toxicity without interfering with antitumor effects in well-timed protocols. (Casarett & Doull Ch. 2; Hayes Ch. 30)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0526",
+    "explanation": "Flumazenil is a competitive benzodiazepine receptor antagonist used to reverse benzodiazepine (e.g., midazolam, diazepam) overdose. It binds to the GABA-A receptor benzodiazepine site, displacing benzodiazepines without having intrinsic activity. Caution: flumazenil can precipitate seizures in benzodiazepine-dependent patients or with mixed overdoses involving proconvulsants. (Casarett & Doull Ch. 8; Hayes Ch. 30)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0527",
+    "explanation": "Fomepizole (4-methylpyrazole) is used to treat methanol and ethylene glycol poisoning. It competitively inhibits alcohol dehydrogenase, preventing the metabolism of these alcohols to their toxic metabolites (formic acid from methanol; glycolic and oxalic acid from ethylene glycol). Fomepizole has largely replaced ethanol as the ADH inhibitor of choice due to its favorable safety profile. (Casarett & Doull Ch. 2, Ch. 24; Hayes Ch. 30)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0528",
+    "explanation": "Benzodiazepines are used to treat ethanol withdrawal syndrome. Ethanol enhances GABA-A receptor activity chronically; withdrawal creates a hyperexcitable state due to reduced GABAergic tone. Benzodiazepines enhance GABA-A receptor activity, compensating for this deficiency and preventing seizures and delirium tremens. (Casarett & Doull Ch. 8; Hayes Ch. 36)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0529",
+    "explanation": "Atropine is used to treat poisoning by cholinesterase inhibitors (organophosphates and carbamates). It is a competitive muscarinic acetylcholine receptor antagonist that blocks excess acetylcholine at muscarinic synapses, countering bradycardia, hypersalivation, bronchospasm, and miosis. Atropine does not affect nicotinic receptors, so it must be combined with pralidoxime (2-PAM) to reactivate inhibited AChE at nicotinic sites. (Casarett & Doull Ch. 22; Hayes Ch. 30)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0530",
+    "explanation": "Calcium (calcium gluconate or calcium chloride) is used to treat hydrogen fluoride (hydrofluoric acid) burns and systemic fluoride toxicity. Fluoride ions form insoluble calcium fluoride, depleting serum calcium and causing hypocalcemia and tissue destruction. Exogenous calcium binds free fluoride, restores serum calcium levels, and alleviates pain from HF burns. (Casarett & Doull Ch. 23; Hayes Ch. 30)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0531",
+    "explanation": "The correct answer is toxin. A toxic substance produced by biological systems (e.g., bacteria, plants, animals, fungi) is specifically termed a toxin. A toxicant refers to man-made or synthetic toxic substances, a xenobiotic is any substance foreign to the body (not necessarily toxic), and poison is a general term for any substance causing harm. This distinction is fundamental in toxicology terminology (Casarett & Doull Ch. 1).",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0532",
+    "explanation": "The correct answer is 1 to 2 weeks. A hapten is a small molecule that becomes immunogenic only after conjugating with a carrier protein. The newly formed hapten-protein complex triggers a primary immune response, which typically requires 5–14 days for significant antibody (IgM) production. Options 1–2 minutes and 1–2 hours are too short for de novo antibody synthesis; 1–2 days is insufficient for a primary adaptive immune response (Casarett & Doull Ch. 12).",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0533",
+    "explanation": "The correct answer is idiosyncratic reaction. Prolonged muscle relaxation after succinylcholine (succinylcholine apnea) is caused by an inherited deficiency of pseudocholinesterase (butyrylcholinesterase, BCHE), the enzyme that normally hydrolyzes succinylcholine. This is considered an idiosyncratic drug reaction—an abnormal, genetically determined response that occurs in a small fraction of the population. It is not IgE-mediated or immune complex-mediated, and it results from decreased, not increased, enzyme activity (Casarett & Doull Ch. 4; Hayes Ch. 1).",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0534",
+    "explanation": "The correct answer is NADH cytochrome b5 reductase (also called NADH-methemoglobin reductase). This enzyme reduces methemoglobin (Fe3+) back to hemoglobin (Fe2+) using NADH as an electron donor. Decreased activity of this enzyme leads to accumulation of methemoglobin. NADH-cytochrome b5 reductase is the primary defense against methemoglobinemia; deficiency can be congenital or acquired (e.g., from oxidizing chemicals). Cytochrome P450 2B6 and cytochrome oxidase are not directly involved in methemoglobin reduction (Casarett & Doull Ch. 11; Hayes Ch. 30).",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0535",
+    "explanation": "The correct answer is the CNS (brain and spinal cord). The central nervous system is the most common target organ of toxicity because of its high metabolic demand, extensive vascularization, lipid-rich composition allowing accumulation of lipophilic toxicants, and the presence of numerous neurotransmitter systems that can be disrupted. Many xenobiotics, including organic solvents, heavy metals, pesticides, and drugs of abuse, preferentially affect the CNS. (Casarett & Doull Ch. 1, Ch. 8)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0536",
+    "explanation": "The correct answer is muscle and bone. Muscle and bone are among the organs least involved in systemic toxicity because they have lower metabolic activity, less blood flow per gram than liver/kidney/brain, and fewer specific transporters and receptors that xenobiotics target. In contrast, the liver (biotransformation), kidney (excretion), CNS (neurotoxicity), hematopoietic system (bone marrow suppression), and lungs (inhalation exposure) are common targets. (Casarett & Doull Ch. 1)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0537",
+    "explanation": "The correct answer is additive effect. When two organophosphate insecticides with the same mechanism of action (acetylcholinesterase inhibition) are absorbed together, their effects are additive—the total inhibition equals the sum of each compound's effect. Potentiation implies one substance has no toxic effect alone but enhances another's toxicity, while synergy implies the combination exceeds the sum of individual effects (more than additive). (Casarett & Doull Ch. 2; Hayes Ch. 1)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0538",
+    "explanation": "The correct answer is synergy. Ethanol and carbon tetrachloride (CCl4) produce synergistic hepatotoxicity because ethanol induces CYP2E1, which metabolizes CCl4 to the highly reactive trichloromethyl radical (•CCl3). This radical initiates lipid peroxidation and liver damage. The combined effect is much greater than the sum of each chemical's individual effect on the liver, making this synergy rather than simple addition or potentiation. (Casarett & Doull Ch. 2, Ch. 13)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0539",
+    "explanation": "The correct answer is potentiation. Isopropyl alcohol alone causes little hepatotoxicity, but it potentiates carbon tetrachloride (CCl4) hepatotoxicity by inducing CYP2E1, increasing bioactivation of CCl4 to the trichloromethyl radical. Potentiation differs from synergy in that the potentiating agent (isopropyl alcohol) has little or no direct toxic effect on the target organ at the doses used. (Casarett & Doull Ch. 2, Ch. 13)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0540",
+    "explanation": "The correct answer is functional antagonism. Strychnine causes convulsions by blocking inhibitory glycine receptors in the spinal cord and brainstem. Diazepam treats these convulsions by enhancing GABA-A receptor activity, increasing inhibitory neurotransmission through a different receptor system. Because they act on different receptors to produce opposing physiological effects, this is functional antagonism—not receptor antagonism (same receptor) or chemical antagonism (direct chemical interaction). (Casarett & Doull Ch. 2, Ch. 8)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0541",
+    "explanation": "The correct answer is chemical antagonism. Antitoxin (antivenom) neutralizes snake venom by directly binding to venom toxins, forming an inactive immune complex—a direct chemical interaction. This differs from dispositional antagonism, which alters the absorption, distribution, metabolism, or excretion of a toxicant (e.g., activated charcoal), and from receptor antagonism, which blocks a specific receptor. (Casarett & Doull Ch. 2)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0542",
+    "explanation": "The correct answer is dispositional antagonism. Activated charcoal prevents the absorption of diazepam from the gastrointestinal tract by adsorbing the drug onto its large surface area, thereby reducing systemic availability. Dispositional antagonism encompasses any intervention that alters the toxicokinetics (ADME) of a toxicant. This is distinct from chemical, receptor, or functional antagonism. (Casarett & Doull Ch. 2)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0543",
+    "explanation": "The correct answer is receptor antagonism. Tamoxifen acts as a selective estrogen receptor modulator (SERM) that competitively blocks estrogen binding to estrogen receptors in breast tissue, inhibiting estrogen-dependent breast cancer cell proliferation. This is a classic example of receptor antagonism at the molecular level, not chemical antagonism (direct chemical neutralization) or functional antagonism (opposing physiological effects through different pathways). (Casarett & Doull Ch. 2; Hayes Ch. 36)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0544",
+    "explanation": "The correct answer is carbon tetrachloride and cadmium. Dispositional (metabolic) tolerance occurs when a chemical induces its own metabolism, leading to more rapid elimination and reduced effect upon repeated exposure. Carbon tetrachloride (CCl4) induces CYP2E1, enhancing its own bioactivation; cadmium induces metallothionein synthesis, altering its disposition. Benzene, xylene, TCE, and methylene chloride also undergo enzyme induction, but CCl4 and cadmium are the canonical examples from the source. (Casarett & Doull Ch. 6, Ch. 23)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0545",
+    "explanation": "The correct answer is inhalation. Inhalation provides the most rapid exposure to a chemical because the lungs have a large surface area (~70–100 m²), thin alveolar-capillary barrier, and extensive blood flow. Chemicals absorbed via inhalation bypass first-pass metabolism and reach the systemic circulation within seconds. In contrast, oral, subcutaneous, and intramuscular routes require absorption through biological membranes before entering the bloodstream. (Casarett & Doull Ch. 5; Hayes Ch. 30)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0546",
+    "explanation": "The correct answer is more toxic via inhalation than orally. A chemical that is toxic to the brain but detoxified in the liver will be more toxic via inhalation because inhaled chemicals bypass the portal circulation and first-pass hepatic metabolism, reaching the brain directly through the systemic circulation. By contrast, oral administration subjects the chemical to first-pass metabolism in the liver before it reaches the systemic circulation and the brain. (Casarett & Doull Ch. 5; Hayes Ch. 1)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0547",
+    "explanation": "The correct answer is a quantal dose-response curve. The LD50 (lethal dose for 50% of the population) is calculated from a quantal (all-or-none) dose-response curve, where each subject either dies or survives at a given dose. A graded dose-response curve measures the magnitude of response in a single subject, while a log-log transformation is sometimes used to linearize the data but is not the primary definition. (Casarett & Doull Ch. 2; Hayes Ch. 1)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0548",
+    "explanation": "The correct answer is vitamins. A U-shaped (or J-shaped) graded dose-response curve, known as hormesis, is seen with essential nutrients like vitamins and trace minerals. At low doses there is deficiency (adverse effect), at moderate doses there is benefit or no effect, and at high doses there is toxicity. Pesticides, sedatives, and opiates typically show monotonic dose-response curves (increasing effect with dose). (Casarett & Doull Ch. 2)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0549",
+    "explanation": "The correct answer is margin of safety. The margin of safety (MOS) is calculated as TD1/ED99 (the dose that causes toxicity in 1% of the population divided by the dose that is effective in 99% of the population). The therapeutic index (TI), traditionally TD50/ED50, reflects the relative safety of a drug. A larger margin of safety indicates a wider separation between effective and toxic doses. (Casarett & Doull Ch. 2)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0550",
+    "explanation": "The correct answer is biochemical differences between cells. Selective toxicity refers to the ability of a chemical to harm one type of cell without harming another. Transport differences, differences in male vs. female neurons, and differences between plant and animal cells can all contribute to selective toxicity. However, 'biochemical differences between cells' is too broad—biochemical differences are the basis FOR selective toxicity, not an exception, making it the incorrect statement in this 'except' question. (Casarett & Doull Ch. 2)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0551",
+    "explanation": "The correct answer is genetic polymorphisms. Hereditary differences in a single gene occurring in more than 1% of the population are defined as genetic polymorphisms. This includes variants in drug-metabolizing enzymes (e.g., CYP2D6, NAT2, TPMT) that affect individual susceptibility to toxicants. 'Significant mutations' and 'dominant mutations' imply rare changes (<1%), and sister chromatid exchanges refer to DNA-level recombination events. (Casarett & Doull Ch. 4)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0552",
+    "explanation": "The correct answer is: 'A chemical that is carcinogenic in humans is usually carcinogenic in at least one animal species.' This statement is true—most known human carcinogens (e.g., aflatoxin, benzene, vinyl chloride) are also carcinogenic in animal models. Option A is false (not all animal carcinogens are human carcinogens—e.g., saccharin). Option C is false—regulators typically assume no threshold for carcinogens (linear non-threshold model). Option D is false—arsenic is a human carcinogen but is NOT consistently carcinogenic in animals. (Casarett & Doull Ch. 2, Ch. 27; Hayes Ch. 27)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0553",
+    "explanation": "The correct answer is fertility index. The fertility index is defined as the percentage of matings that result in pregnancy. This is a key reproductive toxicology endpoint used in fertility and developmental toxicity studies. The gestation index is % of pregnancies resulting in live litters, viability index is % of live offspring surviving to postnatal day 4, and survival index is % surviving to weaning. (Casarett & Doull Ch. 20; Hayes Ch. 37)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0554",
+    "explanation": "The correct answer is gestation index. The gestation index is defined as the percentage of pregnancies (confirmed by evidence of implantation) that result in live litters. This is a standard endpoint in reproductive and developmental toxicity studies, reflecting the ability to maintain pregnancy to term. It is distinguished from the fertility index (% mating → pregnancy), viability index (survival to PND4), and lactation/survival index (survival to weaning). (Casarett & Doull Ch. 20; Hayes Ch. 38)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0555",
+    "explanation": "The correct answer is: percentage of animals alive at 4 days that survive the 21-day lactation period. The lactation index in rat reproductive toxicity studies is calculated as (number of pups alive at weaning day 21) / (number of pups alive at postnatal day 4) × 100. It assesses maternal nursing capability and pup viability during the lactational period before weaning. (Casarett & Doull Ch. 20; Hayes Ch. 38)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0556",
+    "explanation": "The correct answer is: 'The developing nervous system is insensitive to toxicant exposure' — this statement is FALSE. In reality, the developing nervous system is highly sensitive to toxicant exposure because neurodevelopment involves precisely timed processes (neurulation, proliferation, migration, synaptogenesis, myelination) that are vulnerable to disruption. The other statements are true: there is good human-animal concordance in neurotoxicity, monkeys can be used for low-level neurotoxicant testing, and in vitro cell cultures are valuable neurotoxicity tools. (Casarett & Doull Ch. 8; Hayes Ch. 35)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0557",
+    "explanation": "The correct answer is a CD 28 monoclonal antibody. This refers to the TGN1412 phase I trial disaster (2006), where a CD28 superagonist monoclonal antibody triggered a massive cytokine storm and systemic organ failure in healthy volunteers within hours of administration. This occurred despite prior safety testing in non-human primates, highlighting species differences in immune regulation. Microtubule assembly inhibitors are associated with peripheral neuropathy, not cytokine storm. (Casarett & Doull Ch. 12; Hayes Ch. 39)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0558",
+    "explanation": "The correct answer is 0.1%. The human genome is approximately 99.9% identical between any two individuals, meaning about 0.1% of DNA sequence varies (approximately 3 million base pairs). This variation, including single nucleotide polymorphisms (SNPs), underlies differences in susceptibility to toxicants, drug metabolism, and disease risk among individuals. (Casarett & Doull Ch. 4)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0559",
+    "explanation": "The correct answer is 'all of the above.' Proteomics (study of proteins), transcriptomics (gene expression/RNA), and metabonomics (metabolite profiling) are all -omics technologies that can characterize an organism's response to a toxicant. These approaches form the basis of toxicogenomics and systems toxicology, providing comprehensive molecular-level understanding of toxicant effects. (Casarett & Doull Ch. 3; Hayes Ch. 1)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0560",
+    "explanation": "The correct answer is: 'Historic control data is never considered' — this statement is FALSE and is the exception. In animal carcinogenicity bioassays, historical control data IS considered and can be very useful for interpreting rare tumors or marginal increases in tumor incidence. The other statements are true: rodent carcinogenicity studies typically last 2 years (rats) or 18 months (mice), it is impractical to use human-relevant doses due to statistical power requirements, and gender differences in background tumor rates are well documented. (Casarett & Doull Ch. 27; OECD TG 451–453)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0561",
+    "explanation": "The correct answer is paraquat in lung. Paraquat accumulates in the lung via a polyamine transport system, and the lung IS its primary target organ (causing pulmonary fibrosis and oxidative damage). The question asks for the EXCEPTION—which toxicant-tissue pair does NOT represent significant concentration in a non-target organ. Lead in bone, DDT in adipose tissue, and TCDD in adipose tissue all accumulate at high levels in tissues that are not their primary toxicity targets. (Casarett & Doull Ch. 15, Ch. 23, Ch. 24)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0562",
+    "explanation": "The correct answer is rabbit. The albino rabbit (typically New Zealand White) is the standard species used for acute skin and eye irritation testing (Draize test, OECD TG 404/405). The rabbit is preferred due to its large, easily examined eyes, availability of historical control data, and established testing protocols. Dogs are not used for these standard irritation tests. (OECD TG 404, 405; Casarett & Doull Ch. 19; Hayes Ch. 29)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0563",
+    "explanation": "The correct answer is: an IND must be filed with the FDA. Before a potential pharmaceutical can be given to humans, the sponsor must file an Investigational New Drug (IND) application with the FDA. The IND includes preclinical safety data from animal studies and the proposed clinical protocol. An NDA (New Drug Application) is filed AFTER clinical trials for marketing approval. The exact number and duration of animal studies depends on the compound and indication. (Casarett & Doull Ch. 27; ICH M3(R2))",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0564",
+    "explanation": "The correct answer is rare adverse effects—this is the EXCEPTION. Phase 1 clinical trials are primarily designed to evaluate safety and tolerability, determine pharmacokinetics (ADME), and obtain preliminary efficacy data. However, Phase 1 studies typically involve small numbers of healthy volunteers (20–80 subjects), making them underpowered to detect rare adverse effects, which usually emerge in larger Phase 2/3 studies. (Casarett & Doull Ch. 27; ICH E8)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0565",
+    "explanation": "The correct answer is maximum tolerated dose (MTD). The MTD is defined as the highest dose of a substance that produces limited toxicity (e.g., ≤10% body weight reduction, no mortality, no severe organ damage) during a subchronic study. It is a critical parameter for dose selection in chronic/carcinogenicity studies. It is NOT 'minimal tolerated dose' (which would be the lowest dose causing toxicity). (Casarett & Doull Ch. 27; OECD TG 451–453)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0566",
+    "explanation": "The correct answer is 'all of the above.' The acute toxicity study in animals provides an approximate lethal dose (LD50 or limit dose), initial information on target organs (through clinical observations, clinical pathology, and histopathology), and critical information for selecting doses for longer-term repeat-dose studies (subacute/subchronic). Acute toxicity testing serves as the starting point for the toxicological profile of a compound. (Casarett & Doull Ch. 27; OECD TG 420, 423, 425)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0567",
+    "explanation": "The correct answer is 14 days. A subacute (also called repeat-dose) toxicity study in rats typically lasts for 14–28 days. The 90-day (3-month) study is classified as subchronic, not subacute. A 28-day study is the standard subacute duration per OECD TG 407, while 90-day studies follow OECD TG 408. Six months (or longer) would be considered chronic toxicity studies. (Casarett & Doull Ch. 27; OECD TG 407)",
+    "domain": "Domain I"
+  }
+]

@@ -1,0 +1,252 @@
+[
+  {
+    "id": "DABT-1619",
+    "explanation": "Color additives are widely used in processed foods and beverages, but the statement that 50% of U.S. food contains a color additive is an overestimate. In reality, a much smaller fraction (~10-15%) of food products contain added color additives. The average daily intake is about 15 mg and the maximum daily intake is about 54 mg. Beverages (particularly soft drinks and powdered drink mixes) are a major source of color additive consumption. The false statement (the 'except' answer) is A, because the percentage is significantly lower than 50%.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1620",
+    "explanation": "The Acceptable Daily Intake (ADI) is established by dividing the NOAEL (No-Observed-Adverse-Effect-Level) from chronic animal studies by a safety factor, typically 100 for food additives. This 100-fold factor accounts for: 10x for interspecies differences (animal-to-human extrapolation) and 10x for intraspecies variation (human-to-human variability). The ADI represents the amount of a substance that can be consumed daily over a lifetime without appreciable health risk.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1621",
+    "explanation": "An α,β-unsaturated carbonyl function is a structural alert for potential toxicity (reactivity with biological nucleophiles). Under the FDA's Redbook toxicological testing recommendations, food additives are assigned to structure categories (I, II, or III) based on structural features. FD&C Blue No. 1 (Brilliant Blue FCF), a triphenylmethane dye, contains conjugated aromatic systems with α,β-unsaturated carbonyl character in its structure, placing it in a higher concern category requiring more extensive toxicity testing. BHA (phenolic antioxidant), saccharin (sulfonimide), and papain (enzyme) do not contain this specific structural feature as their primary structural alert.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1622",
+    "explanation": "Indirect food additives (now often called Food Contact Substances, FCSs) are substances that become part of food through contact with packaging materials, processing equipment, storage containers, or other food-contact surfaces. Examples include monomers and oligomers from plastics, can coatings, adhesives, and paperboard components that migrate into food. They are NOT produced by microbial contamination (that's food spoilage), nor by cooking processes (those are processing-induced contaminants like acrylamide).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1623",
+    "explanation": "Under FDA's regulations for indirect food additives, 'significant migration' in extraction studies is defined as 50 to 1000 ppb (parts per billion). Below 50 ppb, migration is considered de minimis and may qualify for exemption under the Threshold of Regulation (TOR) policy (which sets an even lower threshold of 0.5 ppb for dietary exposure). Migration levels of 50-1000 ppb warrant more thorough toxicological evaluation and require a food additive petition.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1624",
+    "explanation": "Patulin is a mycotoxin produced by Penicillium and Aspergillus species, commonly found in moldy apples and apple products. It is a potent toxin associated with gastrointestinal, renal, and neurological effects and is definitely NOT GRAS (Generally Recognized as Safe). Helium is GRAS as a packaging gas. Acetic acid (vinegar) is GRAS as a food ingredient/preservative. Aluminum calcium silicate is GRAS as an anti-caking agent. Only patulin is a known hazardous substance, not a safe food ingredient.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1625",
+    "explanation": "GRAS (Generally Recognized as Safe) status is determined by scientific consensus on safety, which can be based on either (A) scientific procedures or (B) common use in food prior to January 1, 1958 (the 'grandfather' provision). GRAS status can be changed if new data raise safety concerns (e.g., cyclamate was removed from the GRAS list in 1969). However, GRAS substances are NOT subject to the Delaney Clause (the zero-cancer-risk provision), because GRAS substances were already recognized as safe before the Delaney Clause was enacted and are exempt from the food additive definition. The Delaney Clause applies to food additives, color additives, and animal drugs — not to GRAS substances.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1626",
+    "explanation": "Under DSHEA (Dietary Supplement Health and Education Act of 1994), dietary supplements are regulated as a special category of food, not as food additives or drugs. They do NOT require FDA premarket approval for safety. The product label must include a Supplement Facts panel with the daily recommended serving size. However, because FDA does not pre-approve supplements, there is an implied assumption of some risk on the part of the consumer — the burden is on FDA to prove a supplement is unsafe before it can be removed from the market.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1627",
+    "explanation": "The Delaney Clause (Section 409(c)(3)(A) of the Food Additives Amendment of 1958) states that no carcinogenic substance may be added to food. It applies to: food additives, color additives (via the 1960 Color Additive Amendments), and animal drugs. However, unavoidable contaminants (such as aflatoxins, PCBs, dioxins, and heavy metals that occur naturally or from environmental pollution) are EXEMPT from the Delaney Clause. For unavoidable contaminants, FDA and EPA use a risk-based approach to establish tolerances and action levels.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1628",
+    "explanation": "The DES (diethylstilbestrol) proviso was an amendment to the Delaney Clause specifically addressing carcinogenic animal drugs used in feed. It allows the use of a carcinogenic compound in animal feed provided that 'no residue' of the carcinogen can be detected in edible animal tissues (meat, milk, eggs) at the time of slaughter using approved analytical methods. This created a practical exception: a carcinogen in feed is acceptable if it is completely metabolized or cleared before the animal enters the food supply. DES itself was a synthetic estrogen used as a growth promoter in cattle, but was later banned entirely due to human health concerns.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1629",
+    "explanation": "Xylitol is a sugar alcohol used as a sweetener that appears in some carcinogen databases from high-dose animal studies, but FDA has NOT banned it. FDA's reasoning is that xylitol's carcinogenicity in animals is due to secondary mechanisms (mineral imbalance, urinary calcium precipitation, and hyperplasia), not direct genotoxicity. Flectol H (an indirect additive from packaging), safrole (formerly used as a root beer flavoring), and thiourea (a preservative) have all been banned under the Delaney Clause due to demonstrated carcinogenicity.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1630",
+    "explanation": "The key reasoning is that these substances cause cancer through secondary carcinogenesis (indirect, non-genotoxic mechanisms), not through direct DNA damage. For sorbitol, animal tumors are thought to result from mineral imbalance and calcium phosphate precipitation in the kidney, followed by hyperplasia — a secondary effect rather than a direct carcinogenic mechanism. Similarly, BHA causes forestomach tumors via irritation and restorative hyperplasia. FDA historically interprets the Delaney Clause as applying to direct (genotoxic) carcinogens, and has allowed substances where the evidence points to secondary, threshold-based mechanisms of carcinogenesis.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1631",
+    "explanation": "The vitamin C–carrots pair is incorrect because there is no significant drug–food interaction between vitamin C (ascorbic acid) and carrots. The other pairs are correctly established: cyclosporine levels are elevated by grapefruit juice (via CYP3A4 inhibition in the gut wall); MAO inhibitors (e.g., phenelzine) combined with tyramine-rich foods like aged cheese cause hypertensive crisis (the 'cheese effect'); and tetracycline chelates with calcium in milk, reducing its absorption and efficacy. No such interaction exists between vitamin C and carrots.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1632",
+    "explanation": "Cow's milk–gluten is the incorrect pair. Gluten is a protein found in wheat, barley, and rye — NOT in cow's milk. The major allergenic proteins in cow's milk are caseins (αs1-, αs2-, β-, κ-casein) and whey proteins (β-lactoglobulin, α-lactalbumin). The correct pairs are: egg whites contain ovomucoid (a major egg allergen, Gal d 1); peanuts contain Ara h II (Ara h 2, a major peanut allergen); and egg yolks contain livetin (a serum albumin that can cause allergic reactions, particularly bird-egg syndrome).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1633",
+    "explanation": "Food idiosyncrasy is an abnormal physiological response to a food that occurs in susceptible individuals but does NOT involve immune mechanisms (distinguishing it from food allergy). Lactose intolerance — caused by lactase enzyme deficiency leading to malabsorption of lactose — is a classic example. Idiosyncratic reactions can have a genetic basis (e.g., 65% of the world's population has some degree of lactase non-persistence). Peanut allergy IS immune-mediated (IgE-dependent), so it is correctly identified as NOT an example of idiosyncrasy. The false statement (the 'except' answer) is D because immune mechanisms are NOT involved in food idiosyncrasy — that's the defining feature of food allergy.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1634",
+    "explanation": "This describes scombroid poisoning (histamine fish poisoning), which produces symptoms resembling an allergic reaction (flushing, urticaria, headache, wheezing, hypotension) but is classified as an anaphylactoid reaction. When tuna, mackerel, mahi-mahi, or other dark-meat fish are improperly stored, bacterial decarboxylation converts histidine in the fish muscle to histamine. The massive direct histamine release mimics allergy but is NOT IgE-mediated (true anaphylaxis would require prior sensitization). Anaphylactoid reactions are non-immune mediated and involve direct mast cell degranulation.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1635",
+    "explanation": "Peanuts are the most common cause of food anaphylaxis, accounting for the majority of fatal and near-fatal food-allergic reactions in the United States. Peanut allergy affects approximately 1-2% of the population, tends to be lifelong (unlike milk or egg allergies which many outgrow), and can trigger severe reactions at very low exposure levels. Other common food allergens include tree nuts, shellfish, fish, milk, eggs, soy, and wheat, but peanuts are consistently the leading cause of anaphylaxis.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1636",
+    "explanation": "Ingestion of fava beans (Vicia faba) can cause hemolytic anemia (favism) in individuals with glucose-6-phosphate dehydrogenase (G6PD) deficiency, an X-linked genetic disorder affecting approximately 400 million people worldwide. Fava beans contain the glycosides vicine and convicine, which are hydrolyzed to the aglycones divicine and isouramil. These compounds generate oxidative stress in RBCs, overwhelming the already-compromised antioxidant capacity of G6PD-deficient erythrocytes, leading to hemoglobin denaturation (Heinz body formation) and hemolysis.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1637",
+    "explanation": "Beeturia is the condition in which eating red beets (Beta vulgaris) causes red or pink discoloration of urine due to excretion of betanin (betacyanin), the red pigment in beets. Approximately 10-14% of the population experiences beeturia, which is influenced by genetics (stomach acidity and the rate at which betanin is broken down). This benign condition can be alarming as it mimics hematuria (blood in urine), which may indicate urinary tract infection, kidney stones, or other pathology.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1638",
+    "explanation": "Sulfites (used as preservatives in wine, dried fruits, and processed foods) can trigger bronchospasm in sensitive individuals, particularly those with asthma (affecting ~5-10% of asthmatics). The mechanism involves a deficiency or reduced activity of sulfite oxidase, the molybdenum-dependent enzyme that normally converts sulfite (SO₃²⁻) to inactive sulfate (SO₄²⁻). When sulfite accumulates, it can act as an irritant and trigger bronchoconstriction via neural reflex mechanisms and possibly through depletion of glutathione in airway lining fluid.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1639",
+    "explanation": "Cheese is NOT associated with CYP2D6 interactions. The correct pairs are: (B) watercress contains phenethyl isothiocyanate and other compounds that can induce/inhibit CYP2E1; (C) grapefruit juice irreversibly inhibits intestinal CYP3A4, increasing the bioavailability of drugs like cyclosporine, statins, and certain calcium channel blockers; (D) charred meat contains polycyclic aromatic hydrocarbons (PAHs) that induce CYP1A2. Cheese's food–drug interaction is with MAO inhibitors (via tyramine causing hypertensive crisis), not CYP2D6.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1640",
+    "explanation": "Cycad flour is associated with neurodegenerative disease (specifically, amyotrophic lateral sclerosis–parkinsonism–dementia complex, or ALS-PDC, in Guam), not toxic epidermal necrolysis. The neurotoxin in cycad flour is β-methylamino-L-alanine (BMAA), a glutamate analog that causes excitotoxicity. The correct pairs are: cabbage contains goitrogens (thiocyanates) that inhibit iodine uptake by the thyroid, potentially causing goiter; licorice (glycyrrhizin) inhibits 11β-hydroxysteroid dehydrogenase, causing pseudoaldosteronism with hypertension and hypokalemia; and polar bear liver contains extremely high concentrations of preformed vitamin A (retinol), causing acute hypervitaminosis A.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1641",
+    "explanation": "Isothiocyanates (e.g., sulforaphane, allyl isothiocyanate) and thiocyanates are sulfur-containing compounds produced from glucosinolates by the enzyme myrosinase. They are found primarily in cruciferous/brassicaceous vegetables and condiments. Mustard (Brassica/Sinapis species), broccoli (Brassica oleracea), and horseradish (Armoracia rusticana) are all rich sources. Potatoes (Solanum tuberosum, family Solanaceae) are NOT cruciferous and contain minimal isothiocyanates/thiocyanates; their toxic glycoalkaloids (solanine, chaconine) are structurally unrelated.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1642",
+    "explanation": "Fumonisins (produced by Fusarium verticillioides, a mold found in corn) are associated with leukoencephalomalacia in horses, pulmonary edema in swine, and esophageal cancer in humans — NOT cardiac beriberi. Cardiac beriberi is caused by thiamine (vitamin B1) deficiency, not by mycotoxin exposure. The correct pairs are: trichothecenes (T-2 toxin, deoxynivalenol) cause hematopoietic toxicity, immunosuppression, and alimentary toxic aleukia; ochratoxin A causes nephropathy (Balkan endemic nephropathy); and zearalenone has estrogenic effects (hyperestrogenism, vulvovaginitis in swine).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1643",
+    "explanation": "Solanine and chaconine are steroidal glycoalkaloids produced naturally in potatoes (Solanum tuberosum) and other nightshade plants as a defense mechanism against pests. They are concentrated in sprouts, green skin (from light exposure), and damaged areas. High levels cause gastrointestinal and neurological toxicity by disrupting cell membranes and inhibiting acetylcholinesterase. In animal studies, these glycoalkaloids have been observed to affect lipid metabolism, with some evidence indicating they can raise LDL cholesterol levels through disruption of cholesterol homeostasis in the gut and liver.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1644",
+    "explanation": "Amnesic shellfish poisoning (ASP) is caused by domoic acid, a neurotoxin produced by the diatom Pseudo-nitzschia. Domoic acid is a structural analog of glutamic acid (glutamine being the amide form of glutamate) and acts as a potent agonist at kainate and AMPA subtypes of glutamate receptors in the CNS. Overstimulation of these excitatory amino acid receptors causes excitotoxicity, leading to neuron death, particularly in the hippocampus — hence the prominent symptom of anterograde amnesia. The toxin resembles glutamine (or more precisely, its parent compound glutamic acid) structurally, allowing it to bind to glutamate receptors.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1645",
+    "explanation": "Tetrodotoxin (TTX) is a potent neurotoxin found in pufferfish (fugu), certain frogs, and blue-ringed octopus, produced by endosymbiotic bacteria. TTX works by BLOCKING (not increasing) voltage-gated sodium channels, which prevents neuronal depolarization and action potential propagation, leading to paralysis and respiratory failure. The false statement (the 'except' answer) is B — TTX blocks sodium channels (decreasing inward Na⁺ movement), not increasing it. TTX is heat-stable (survives boiling) and is associated with bacterial symbionts (Vibrio, Pseudomonas, etc.) that produce the toxin.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1646",
+    "explanation": "Kelp and other seaweeds (brown algae in particular, such as Laminaria species) are extremely efficient at concentrating iodine from seawater, accumulating up to 1% of their dry weight as iodine. Chronic consumption of large amounts of kelp can lead to iodine excess, potentially causing thyroid dysfunction — either hyperthyroidism (Jod-Basedow phenomenon) in susceptible individuals or, paradoxically, hypothyroidism from the Wolff-Chaikoff effect (where excess iodine inhibits thyroid hormone synthesis). Cod contains iodine but at much lower levels, and goat's milk and soybeans are not significant sources of excess iodine.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1647",
+    "explanation": "In the United States, pesticide residues in food are regulated by the Environmental Protection Agency (EPA) under the Federal Insecticide, Fungicide, and Rodenticide Act (FIFRA) and the Food Quality Protection Act (FQPA) of 1996. The EPA sets tolerance levels (maximum permissible residue limits) for pesticides on food commodities. The FDA monitors compliance for most foods (except meat, poultry, and eggs, which are USDA's responsibility), but the EPA is the regulatory body that establishes the tolerances. Note: OSHA deals with workplace safety, and NAS (National Academy of Sciences) provides scientific advice but does not regulate.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1648",
+    "explanation": "Seafood (including fish and shellfish) is the primary dietary source of arsenic for most people. Inorganic arsenic (the more toxic form) is more abundant in rice and drinking water, but seafood contains the highest TOTAL arsenic levels — predominantly as the less toxic organic forms (arsenobetaine and arsenocholine). These organic arsenic compounds are rapidly excreted in urine. However, certain seafoods (particularly bivalves and some seaweed) can contain meaningful levels of inorganic arsenic as well. The FDA and EPA have established guidance levels for arsenic in seafood.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1649",
+    "explanation": "Well water can be a significant source of nitrate contamination, primarily from agricultural runoff (nitrogen-based fertilizers), livestock waste, and septic system leaching. Nitrate itself has low toxicity, but it is reduced to nitrite in the body (particularly in infants), which can cause methemoglobinemia ('blue baby syndrome') by oxidizing hemoglobin to methemoglobin, impairing oxygen transport. The EPA's maximum contaminant level (MCL) for nitrate in drinking water is 10 mg/L as nitrogen. Perchlorate, sulfite, and thiocyanate can also be found in water but are less characteristically associated with well water contamination.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1650",
+    "explanation": "N-nitrosoproline is NOT a definite human carcinogen. While N-nitrosamines in general are potent carcinogens, N-nitrosoproline is unique because it is a non-carcinogenic member of the N-nitroso compound family. It is formed endogenously from proline and nitrite in the acidic stomach, but it is excreted largely unchanged in the urine rather than undergoing metabolic activation to a carcinogenic species. For this reason, N-nitrosoproline has been used as an endogenous nitrosation marker in human biomonitoring studies. The false statement (the 'except' answer) is A — it is NOT a definite human carcinogen.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1651",
+    "explanation": "Haff disease (also known as Haffkrankheit) is a syndrome of rhabdomyolysis (destruction of skeletal muscle tissue) that occurs within 24 hours of consuming certain freshwater fish (e.g., buffalo fish, crayfish) that have accumulated an unidentified heat-stable toxin, possibly a palytoxin-like compound. The condition was first described in Königsberg (now Kaliningrad) in 1924 around the Frisches Haff lagoon. Symptoms include sudden severe muscle pain, weakness, and dark urine due to myoglobinuria. The major, life-threatening complication is rhabdomyolysis, which can lead to acute kidney injury.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1652",
+    "explanation": "Botulinum toxin is a potent neurotoxin produced by Clostridium botulinum. It is a zinc-dependent metalloproteinase (specifically, a zinc endopeptidase) that cleaves SNARE proteins (SNAP-25, synaptobrevin, syntaxin) required for acetylcholine vesicle fusion at the neuromuscular junction. Its lethal dose is approximately 1 ng/kg (making it one of the most potent toxins known). It is structurally similar to tetanus toxin (both are clostridial neurotoxins with a dichain structure — heavy chain for binding/translocation and light chain with the zinc protease domain). The FALSE statement is A — botulinum toxin is actually heat-labile and is readily inactivated by heating to 80-100°C for 10 minutes, making it NOT heat resistant to 150°C.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1653",
+    "explanation": "The question asks about a common feature of toxins produced by Bacillus cereus, Clostridium perfringens, and Escherichia coli — all are enterotoxin-producing bacteria responsible for foodborne illness. A key common feature is that they all produce protein enterotoxins that act on the intestinal epithelium to cause diarrhea. B. cereus produces both a heat-stable emetic toxin (cereulide, a cyclic peptide) and heat-labile enterotoxins (hemolysin BL, non-hemolytic enterotoxin). C. perfringens produces C. perfringens enterotoxin (CPE), a pore-forming toxin. E. coli produces various enterotoxins (heat-labile LT and heat-stable ST enterotoxins, or Shiga toxin in O157:H7). All are bacterial enteropathogens causing gastrointestinal illness through toxin production.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1654",
+    "explanation": "Bovine spongiform encephalopathy (BSE, 'mad cow disease') is caused by a prion — an abnormal, misfolded protein (PrPˢᶜ) that induces normal cellular prion protein (PrPᶜ) to convert to the pathological form. Prions are unique infectious agents composed entirely of protein with no nucleic acid genome. They are extremely resistant to heat, radiation, and chemical disinfection. BSE is a transmissible spongiform encephalopathy (TSE) that can be transmitted to humans through consumption of contaminated beef products, causing variant Creutzfeldt-Jakob disease (vCJD). The causative agent is definitively a prion, not a protozoan, bacterium, or virus.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1655",
+    "explanation": "Heterocyclic amines (HCAs) and acrylamide are food contaminants that are produced by the process of cooking, specifically during high-temperature processing (frying, roasting, baking, grilling). HCAs (e.g., PhIP, IQ, MeIQx) form when amino acids and creatine react at high temperatures in meat — products of the Maillard reaction. Acrylamide forms from the reaction of asparagine (an amino acid) with reducing sugars during high-temperature cooking of starchy foods (potato chips, french fries, bread crust). Both are classified as probable human carcinogens (IARC Group 2A). They are NOT produced by microorganisms, not GRAS, and not residues from animal feeds.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1656",
+    "explanation": "'De minimis' (Latin for 'of minimal things') is a legal and risk management concept applied to food safety meaning that a risk is so small it is of no concern or regulatory action is not warranted. In the context of food safety regulation, the de minimis principle acknowledges that absolute zero risk is unattainable and that regulatory resources should focus on meaningful risks. FDA has applied this concept through policies such as the Threshold of Regulation (TOR, <0.5 ppb dietary exposure for indirect additives) and the constituents policy (where the food additive as a whole is regulated, not trace carcinogenic constituents at de minimis levels).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1657",
+    "explanation": "This is a matching test item. 'E. coli' refers to Escherichia coli, a gram-negative bacterium. Pathogenic strains such as E. coli O157:H7 produce Shiga toxin (Stx) and cause severe foodborne illness characterized by hemorrhagic colitis and hemolytic uremic syndrome (HUS). E. coli is classified as an enteropathogenic bacterium and its toxins are bacterial exotoxins. In the matching test, E. coli is correctly matched with the description 'coli' (stored answer I), referring to its classification or associated toxin type.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1658",
+    "explanation": "This is a matching test item. Ciguatera poisoning is the most common non-bacterial fish poisoning worldwide, caused by consuming reef fish (barracuda, grouper, snapper, mackerel) that have accumulated ciguatoxins (CTXs) through the food chain. The toxins are produced by the dinoflagellate Gambierdiscus toxicus. Ciguatoxins are lipid-soluble polyether compounds that activate voltage-gated sodium channels, causing gastrointestinal, neurological (including the pathognomonic symptom of hot/cold temperature reversal), and cardiovascular symptoms. While the database stores an association with 'GRAS substance,' the correct toxicological match is dinoflagellate-produced toxins, as ciguatera is caused by dinoflagellate-derived ciguatoxins.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1659",
+    "explanation": "This is a matching test item. Endotoxin (lipopolysaccharide, LPS) is a component of the outer membrane of gram-negative bacteria. It is released when bacterial cells are disrupted and consists of three regions: lipid A (the toxic moiety), core polysaccharide, and O-antigen. Endotoxin activates the host immune system through Toll-like receptor 4 (TLR4), triggering release of pro-inflammatory cytokines (TNF-α, IL-1, IL-6). At high levels, it causes endotoxic shock, fever, and disseminated intravascular coagulation (DIC). The correct match is 'gram-negative bacterial toxin,' as endotoxin is a defining feature of gram-negative bacteria and is not actively secreted (unlike exotoxins).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1660",
+    "explanation": "This is a matching test item. Emetic toxin refers to cereulide, a heat-stable (survives 121°C for 90 minutes) dodecadepsipeptide toxin produced by Bacillus cereus. It causes the emetic (vomiting) form of B. cereus food poisoning, which mimics Staphylococcus aureus intoxication. The toxin acts as a potassium ionophore, binding to 5-HT₃ serotonin receptors in the vagus nerve and triggering the vomiting center. The correct match is 'enzyme' — explaining that while cereulide itself is not an enzyme, it is classified under microbial toxin types alongside enzymatic bacterial toxins. The emetic syndrome has a short incubation period (1-6 hours) and is typically associated with rice and starchy foods.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1661",
+    "explanation": "This is a matching test item. Fluoride occurs naturally in some water sources and is added to drinking water and dental products for caries prevention. At excessive levels, fluoride causes dental fluorosis (mottling of tooth enamel) and skeletal fluorosis (bone hardening and joint stiffness). Dietary sources include tea (tea plants accumulate fluoride), seafood, and water. The database stores 'apple products' as the matching item. In the context of this matching test, this likely connects to the broader category of natural food constituents and additives that can have toxic effects at high exposure levels, with the categorization relating to toxicants found in different food groups.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1662",
+    "explanation": "This is a matching test item. Scombroid poisoning (histamine fish poisoning) is caused by eating fish with high histamine levels due to bacterial spoilage. It most commonly affects scombroid fish: tuna, mackerel, skipjack, and bonito, as well as non-scombroid fish like mahi-mahi (dolphinfish) and bluefish. When improperly stored at temperatures above 4°C, bacteria (Morganella morganii, Klebsiella pneumoniae) decarboxylate histidine to histamine. The reaction mimics an allergic reaction but is anaphylactoid (non-IgE mediated). The stored match with 'beets' likely represents a categorical assignment within the matching test's classification framework.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1663",
+    "explanation": "This is a matching test item. Iron oxide (typically Fe₂O₃, ferric oxide, or Fe₃O₄, ferrosoferric oxide) is used as a color additive in food, drugs, and cosmetics. Various iron oxides (red, yellow, black, brown) are FDA-approved color additives for specific applications. The stored match with 'B. cereus' (Bacillus cereus) likely places iron oxide within a classification of food-associated substances including microbial hazards. In its proper toxicological context, iron oxides are generally considered safe at typical exposure levels but can be a concern for individuals with iron overload disorders (hemochromatosis) at very high intake levels.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1664",
+    "explanation": "This is a matching test item. Rennet is a complex of enzymes (primarily chymosin/rennin, plus pepsin and lipase) obtained from calf stomachs, used in cheese making to coagulate milk casein. It is classified as an enzyme preparation or processing aid in food technology. The stored match with 'dinoflagellates' likely categorizes rennet within a broader food toxicology framework where various food-processing agents and natural toxins are classified together. In its proper context, rennet is a GRAS enzyme preparation, and its toxicological concern is minimal — primarily related to potential allergic reactions in sensitive individuals or contamination of the preparation.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1665",
+    "explanation": "This is a matching test item. Patulin is a mycotoxin produced by Penicillium expansum and other Penicillium/Aspergillus species, commonly found in moldy apples and apple products (juice, cider, puree). It is a lactone compound (4-hydroxy-4H-furo[3,2-c]pyran-2(6H)-one) that is relatively heat-stable and survives pasteurization. Acute toxicity includes GI irritation, nausea, and vomiting; chronic effects include potential genotoxicity and immunotoxicity. The FDA has set an action level of 50 ppb for patulin in apple juice. Patulin is correctly associated with apple products, making this the specific food-toxin pair in the matching context.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1666",
+    "explanation": "Nonvolatile organic substances constitute the largest group of substances encountered by analytical toxicologists. This broad category includes drugs (both prescription and illicit), pesticides, industrial chemicals, natural toxins, and their metabolites — essentially any organic compound that does not readily evaporate at room temperature. These substances require extraction and clean-up procedures followed by chromatographic analysis (HPLC, LC-MS, GC-MS after derivatization). Gases and volatile substances are much smaller groups, and while metals are an important analytical class, they represent a distinct category analyzed by different methods (atomic absorption, ICP-MS).",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1667",
+    "explanation": "This question tests understanding of pH-dependent liquid-liquid extraction (L-L extraction or 'drug extraction'). The procedure described is a two-step process: (1) The tissue sample is made basic and extracted with organic solvent — under basic conditions, basic drugs are non-ionized (unprotonated) and partition into the organic phase, while acidic drugs remain ionized in the aqueous phase. (2) After removing the organic phase (containing basic drugs), the remaining aqueous (nonorganic) phase is acidified and re-extracted with fresh organic solvent — under acidic conditions, acidic drugs become non-ionized (protonated form is neutral) and partition into the fresh organic extract. Therefore, the final organic extract contains acidic drugs. This 'back-extraction' technique is used to separate acidic and basic drugs from biological samples.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1668",
+    "explanation": "Venoms are complex mixtures of high molecular weight proteins, peptides, and enzymes (e.g., phospholipases, neurotoxins, cardiotoxins, and cytotoxins). Because of their proteinaceous nature, venoms are not amenable to traditional chromatographic analysis (GC or LC) without prior enzymatic digestion. Monoclonal antibodies against specific venom components are used in combination with immunoassay techniques (typically ELISA — enzyme-linked immunosorbent assay) for sensitive and specific detection and quantification. This immunoassay approach allows identification of the specific venom type and quantification of circulating venom levels, which is critical for guiding antivenom therapy and assessing prognosis.",
+    "domain": "Domain I"
+  }
+]

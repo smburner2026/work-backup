@@ -200,7 +200,25 @@
       "topic": "metals-foundations",
       "date": "2026-05-14",
       "artifact": "deep-dives/2026-05-14-metals-foundations-dive.md",
-      "coverage": ["HSAB theory", "chelator matrix", "thiol chemistry", "metal toxicity mechanisms", "blood lead thresholds", "chromium exception"]
+      "coverage": [
+        "HSAB theory",
+        "chelator matrix",
+        "thiol chemistry",
+        "metal toxicity mechanisms",
+        "blood lead thresholds",
+        "chromium exception"
+      ]
+    },
+    {
+      "topic": "arsenic-cadmium-chromium",
+      "date": "2026-05-18",
+      "artifact": "deep-dives/2026-05-18-arsenic-cadmium-chromium-dive.md",
+      "coverage": [
+        "arsenic",
+        "cadmium",
+        "chromium"
+      ],
+      "note": "All three metals covered in full. Next session: cross-cutting review + minor metals."
     }
   ],
   "confidence_calibration": "well-calibrated",

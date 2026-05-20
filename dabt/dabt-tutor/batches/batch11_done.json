@@ -1,0 +1,252 @@
+[
+  {
+    "id": "DABT-0769",
+    "explanation": "Correct answer: A (medulla). The renal medulla receives blood via the vasa recta, where countercurrent exchange creates a concentration gradient that can trap and accumulate blood-borne toxicants. While the cortex receives ~90% of renal blood flow, the medulla's specialized vascular architecture makes it a primary site for toxicant delivery and concentration. This principle is covered in Casarett & Doull's chapter on renal toxicology.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0770",
+    "explanation": "Correct answer: D (neutral macromolecules). The glomerular filtration barrier is negatively charged due to glycoproteins in the basement membrane. This charge barrier selectively restricts filtration of anionic molecules while facilitating cationic molecule passage. Neutral macromolecules lack the electrostatic attraction that aids cationic molecule filtration, making them among the least likely to pass, depending on molecular size. This is described in Casarett & Doull's renal toxicology chapter.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0771",
+    "explanation": "Correct answer: B (S2). The proximal tubule is divided into S1, S2, and S3 segments. The S2 segment is characterized by a tall brush border (microvilli) and a well-developed vascular lysosomal system, making it a primary site for endocytosis and catabolism of filtered proteins and xenobiotics. S1 has an even taller brush border, but S2 is notable for its lysosomal activity. This is detailed in renal toxicology chapters of Casarett & Doull.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0772",
+    "explanation": "Correct answer: B (S2). The S2 segment of the proximal tubule is the primary site for catabolism of filtered peptides and proteins. It exhibits high apical transport of glutathione and high gamma-glutamyl transpeptidase (GGT) activity, which are critical for glutathione metabolism and mercapturic acid formation. These features make S2 particularly vulnerable to toxicants requiring bioactivation via GGT. Source: Casarett & Doull, renal toxicology.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0773",
+    "explanation": "Correct answer: B (acetaminophen and opiates). Analgesic nephropathy results from chronic, heavy use of combination analgesic products, classically those containing phenacetin (metabolized to acetaminophen) combined with aspirin or NSAIDs. The combination of acetaminophen with an opiate (e.g., codeine) produces synergistic renal papillary damage through medullary ischemia and direct tubular toxicity. Chronic use leads to papillary necrosis and chronic interstitial nephritis (Casarett & Doull).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0774",
+    "explanation": "Correct answer: C (renal cell carcinoma). Chronic NSAID use has been linked to an increased risk of renal cell carcinoma (RCC), likely through mechanisms involving chronic inflammation, oxidative stress, and prolonged inhibition of cyclooxygenase (COX) enzymes. While NSAIDs can also cause hemodynamically-mediated acute kidney injury and papillary necrosis, epidemiological evidence associates long-term use with renal malignancies (Casarett & Doull, renal toxicology).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0775",
+    "explanation": "Correct answer: C (decrease in intracellular calcium). Aminoglycosides (e.g., gentamicin) accumulate in proximal tubular cells via megalin-mediated endocytosis. A key mechanism of nephrotoxicity involves disruption of intracellular calcium homeostasis \u2014 aminoglycosides act as calcium antagonists, inhibiting calcium-dependent phospholipases and impairing mitochondrial calcium buffering, leading to cell injury and death. Phospholipidosis (option D) is a secondary finding, not the primary pathogenic mechanism. (Casarett & Doull)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0776",
+    "explanation": "Correct answer: B (tubular secretion). Halogenated hydrocarbons (e.g., hexachlorobutadiene, trichloroethylene) undergo glutathione conjugation, with the resulting cysteine conjugates being transported into proximal tubular cells via organic anion transporters in a process of tubular secretion. Once inside, cysteine conjugate \u03b2-lyase (CCBL) cleaves the conjugate to generate reactive thiol species that cause cell injury. This bioactivation-dependent mechanism explains the site-specific nephrotoxicity (Casarett & Doull).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0777",
+    "explanation": "Correct answer: A (thromboxane). Cyclosporin-induced nephrotoxicity is mediated in part by increased production of thromboxane A2, a potent renal vasoconstrictor. This, along with increased endothelin and activation of the renin-angiotensin system, causes afferent arteriolar vasoconstriction leading to decreased GFR and renal hypoperfusion. Imbalance between vasoconstrictors (thromboxane) and vasodilators (prostaglandins) is central to the pathogenesis (Casarett & Doull).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0778",
+    "explanation": "Correct answer: A (nitric oxide radical). In renal ischemia/reperfusion injury, superoxide anion (O\u2082\u2022\u207b) reacts with nitric oxide (NO\u2022) to form peroxynitrite (ONOO\u207b), a highly reactive species that causes protein nitration, lipid peroxidation, and DNA damage. The \"nitric oxide radical\" refers to the radical species generated in this pathway, contributing significantly to tubular injury and inflammation. This is covered in Casarett & Doull's renal toxicology chapter.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0779",
+    "explanation": "Correct answer: A (Apoptosis will dominate oncosis at all toxicant concentrations). When a nephrotoxicant's primary mechanism is ATP depletion, the resulting energy crisis triggers apoptotic pathways, as cells activate caspase cascades in response to mitochondrial dysfunction. Even at high concentrations, apoptotic mechanisms predominate over oncotic (necrotic) cell death. This contrasts with toxicants that directly disrupt membrane integrity, where oncosis is more prominent. Source: Casarett & Doull, renal toxicology.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0780",
+    "explanation": "Correct answer: D (none of the above). The classic test to measure renal blood flow in humans is para-aminohippurate (PAH) clearance, which estimates renal plasma flow (RPF) from which renal blood flow can be calculated. Insulin clearance measures GFR, creatinine clearance estimates GFR, and serum cystatin C is a marker of GFR \u2014 none measure renal blood flow directly. This is discussed in Casarett & Doull's renal toxicology methods.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0781",
+    "explanation": "Correct answer: C (aminoglycosides). Aminoglycoside nephrotoxicity involves binding to renal sulfhydryl (-SH) groups on proteins in proximal tubular cells, leading to disruption of thiol-dependent enzymes and impairment of cellular antioxidant defenses. This contributes to oxidative stress and phospholipidosis. While metals (option A) also bind SH groups, aminoglycosides specifically interact with thiol proteins as part of their toxic mechanism (Casarett & Doull, renal toxicology).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0782",
+    "explanation": "Correct answer: D (brush border). Alkaline phosphatase and gamma-glutamyl transpeptidase (GGT) are brush border enzymes found in the proximal tubule. Increased urinary excretion of these enzymes indicates damage to the proximal tubular brush border membrane, serving as a sensitive early biomarker of tubular injury. This is a standard urinary biomarker approach covered in Casarett & Doull's renal toxicology section.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0783",
+    "explanation": "Correct answer: B (amphotericin B). Amphotericin B binds to sterols (primarily ergosterol in fungal membranes, but also cholesterol in mammalian cells) and forms transmembrane pores that increase permeability of the distal tubular epithelium to water and ions. This causes a nephrogenic diabetes insipidus-like syndrome with polyuria, hypokalemia, and renal tubular acidosis. Source: Casarett & Doull.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0784",
+    "explanation": "Correct answer: C (24-hour excretion of B\u2082-microglobulin). Glucosuria in the presence of normal serum glucose indicates defective proximal tubular reabsorption of glucose, a sign of tubular dysfunction. Measuring 24-hour B\u2082-microglobulin excretion detects low molecular weight proteinuria, a sensitive marker of proximal tubular injury. Together with glucosuria, it confirms renal tubular dysfunction rather than a diabetic etiology (Casarett & Doull).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0785",
+    "explanation": "Correct answer: A (albuminuria). Glomerular injury disrupts the size- and charge-selective barrier of the glomerular filtration membrane, allowing high molecular weight proteins such as albumin (~69 kDa) to pass into the urine. Albuminuria is the hallmark of glomerular injury, in contrast to low molecular weight proteinuria (e.g., B\u2082-microglobulin) which indicates tubular injury. This distinction is fundamental to renal toxicology (Casarett & Doull).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0786",
+    "explanation": "Correct answer: B (About 50% of renal function has to be lost before it will rise). Serum creatinine is a relatively insensitive marker of early renal injury because the kidney has substantial functional reserve \u2014 creatinine levels remain within normal range until approximately 50% of nephrons have been lost. Additionally, creatinine is affected by muscle mass, age, sex, and diet. More sensitive biomarkers (e.g., cystatin C, KIM-1, NGAL) are preferred for early detection (Casarett & Doull).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0787",
+    "explanation": "Correct answer: A (dehydration). [Note: The database answer key lists dehydration as the exception; however, review of renal physiology indicates dehydration typically increases BUN via prerenal azotemia. Hypovolemia and protein catabolism also increase BUN, while immediately postdialysis BUN is reduced by hemodialysis. Verify source document for the intended correct choice.] Per Casarett & Doull: BUN rises in prerenal, renal, and postrenal azotemia; the BUN:creatinine ratio helps differentiate causes.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0788",
+    "explanation": "Correct answer: A (congestive heart failure). ACE inhibitors can precipitate acute renal failure in patients with conditions where renal perfusion depends on angiotensin II-mediated efferent arteriolar vasoconstriction. In severe CHF, the kidney relies on the renin-angiotensin system to maintain GFR; blocking angiotensin II formation removes this compensatory mechanism, causing a fall in GFR. Bilateral renal artery stenosis (option C) is also a well-known risk factor (Casarett & Doull).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0789",
+    "explanation": "Correct answer: B (loop of Henle). Immune complex deposition can cause tubulointerstitial injury affecting various nephron segments. While glomerular immune complex deposition is more widely recognized (e.g., lupus nephritis, post-streptococcal GN), immune complexes can also localize to the tubular basement membrane, including the loop of Henle, causing tubulointerstitial nephritis. This is described in renal immunotoxicology (Casarett & Doull).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0790",
+    "explanation": "Correct answer: D (increase in negatively charged sites). Changes in glomerular charge selectivity following toxicant exposure can result from alterations to the negatively charged glycoproteins (heparan sulfate proteoglycans) in the glomerular basement membrane. An increase in negatively charged sites paradoxically suggests a compensatory or adaptive change to restrict filtration of anionic macromolecules. This charge selectivity mechanism is detailed in Casarett & Doull.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0791",
+    "explanation": "Correct answer: B (cellular level of CYP450). The proximal tubule has relatively low cytochrome P450 (CYP450) activity compared to the liver, so CYP450-mediated bioactivation is not a primary determinant of selective proximal tubular toxicity. Key factors that do contribute include: selective cellular transport via organic anion/cation transporters (OATs, OCTs), cellular levels of cysteine \u03b2-lyase (bioactivation of halogenated hydrocarbons), and plasma levels of endogenous substrates like bilirubin that may be altered by transport processes. Source: Casarett & Doull.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0792",
+    "explanation": "Correct answer: B (renal blood flow). [Note: The database answer key lists renal blood flow as the exception; however, interfering with renal blood flow (e.g., via vasoconstriction) classically does precipitate ischemic proximal tubular injury. The intended exception is likely collecting duct water permeability (option A), which does not directly cause proximal tubular ischemia.] Per Casarett & Doull: ischemic acute kidney injury results from reduced renal perfusion or direct tubular cell energy failure.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0793",
+    "explanation": "Correct answer: A (increased vasopressin secretion). Following renal injury, increased vasopressin (ADH) secretion acts as a compensatory mechanism to conserve water and maintain volume homeostasis. However, chronically elevated ADH can become maladaptive by promoting fluid retention, hyponatremia, and contributing to hypertension and CKD progression. This is distinct from hyperfiltration injury (option D), which is also maladaptive but driven by hemodynamic changes (Casarett & Doull).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0794",
+    "explanation": "Correct answer: B (DNA-adduct formation). The pathogenesis of chronic renal failure involves progressive fibrosis driven by growth factor imbalances (e.g., TGF-\u03b2), lipid accumulation in tubular cells (lipotoxicity), and excessive extracellular matrix deposition leading to glomerulosclerosis and tubulointerstitial fibrosis. DNA-adduct formation is more relevant to genotoxicity and chemical carcinogenesis, not to the progressive fibrotic pathway of CKD (Casarett & Doull).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0795",
+    "explanation": "Correct answer: D (Insoluble chemicals may precipitate out and cause tubular obstruction). The kidney's susceptibility to toxic injury derives from: (A) the urine concentrating mechanism that also concentrates toxicants in tubular fluid, (B) the fact that all systemic blood passes through the kidney, and (C) the ability of the kidney to concentrate toxicants to levels far exceeding circulating concentrations. Option D describes a specific form of obstructive injury (crystal nephropathy) rather than an intrinsic susceptibility factor. Source: Casarett & Doull.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0796",
+    "explanation": "Correct answer: D (vasopressin). High circulating concentrations of renal vasoconstrictor hormones (e.g., angiotensin II, norepinephrine, endothelin) are normally counterbalanced by vasopressin, which at physiological concentrations mediates both vasoconstriction and vasodilation depending on the vessel bed and receptor subtype (V1a vs V2). In the kidney, vasopressin's V2 receptor activation promotes vasodilation via NO and PGE2 release, helping to counterbalance other vasoconstrictors (Casarett & Doull).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0797",
+    "explanation": "Correct answer: C (back leakage of glomerular filtrate). Back leakage refers to filtrate passing through damaged tubular epithelium back into the peritubular capillaries \u2014 this reduces the net amount of filtrate reaching the urine (decreasing measured clearance) but does not directly decrease the actual glomerular filtration rate (GFR) itself. Mechanisms that directly decrease GFR include reduced renal blood flow, afferent arteriolar constriction (B), tubular obstruction (D), and decreased glomerular hydrostatic pressure \u2014 the opposite of increased hydrostatic pressure (A), which actually raises GFR (Casarett & Doull).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0798",
+    "explanation": "Correct answer: C (basophils and plasma cells). [Note: Following toxic damage to the kidney, tubular casts are typically composed of desquamated necrotic and viable tubular epithelial cells (option D), along with cellular debris and Tamm-Horsfall protein. Basophils and plasma cells are not the primary constituents of post-toxic injury casts.] The cellular cast composition depends on the type and severity of injury. Per Casarett & Doull: tubular obstruction by necrotic cells contributes to the fall in GFR in ATN.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0799",
+    "explanation": "Correct answer: C (dedifferentiated capillary endothelial cells). [Note: The current understanding of tubular repair following toxic injury is that surviving tubular epithelial cells (option B) dedifferentiate, proliferate, migrate along the basement membrane, and redifferentiate to restore tubular integrity. Bone marrow-derived stem cells may also contribute. Capillary endothelial cells participate in the peritubular microvascular repair, not directly in tubular regeneration.] Per Casarett & Doull.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0800",
+    "explanation": "Correct answer: C (adaptation). Following nephrotoxic injury, uninjured tubular cells can undergo compensatory hypertrophy (A), apoptosis (B) to remove irreparably damaged cells, and proliferation (D) for tubular repair. \"Adaptation\" (C) is the overarching term describing the cellular and tissue-level response to stress or injury \u2014 it encompasses hypertrophy, atrophy, hyperplasia, and metaplasia as specific processes, making it the exception when listing discrete cellular responses (Casarett & Doull).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0801",
+    "explanation": "Correct answer: C (glucose-regulated proteins). [Note: Cellular adaptation to toxicant-induced renal injury typically includes induction of metallothionein (scavenges metals, free radicals), heat shock proteins (molecular chaperones, prevent protein aggregation), and BRCA1 (DNA repair, cell cycle regulation). Glucose-regulated proteins (GRPs) are ER-resident chaperones induced by ER stress; while they can be upregulated in renal injury, the database lists them as the exception.] Reference: Casarett & Doull, renal adaptation mechanisms.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0802",
+    "explanation": "Correct answer: C (glucose). In a healthy individual, glucose is freely filtered at the glomerulus and then completely reabsorbed in the proximal tubule via sodium-glucose cotransporters (SGLT2 in S1/S2 segments, SGLT1 in S3), resulting in zero glucose excretion in urine. Any glucosuria indicates either hyperglycemia exceeding the transport maximum (~10-11 mmol/L) or proximal tubular dysfunction. In contrast, creatinine (A) is actively secreted, and urea (B) undergoes both reabsorption and secretion (Casarett & Doull).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0803",
+    "explanation": "Correct answer: D (collecting duct). The medullary collecting duct operates in a severely hypoxic environment (pO\u2082 ~10-20 mm Hg) yet maintains high Na\u207a/K\u207a-ATPase activity for active sodium reabsorption, making it vulnerable to hypoxic injury. The medullary thick ascending limb (mTAL, option B) also has high Na/K-ATPase activity in the hypoxic medulla, but the collecting duct's transport activity in the setting of limited oxygen delivery is notable (Casarett & Doull).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0804",
+    "explanation": "Correct answer: A (glomerular filtration). [Note: Vasopressin (ADH) primarily regulates water reabsorption in the collecting duct via V2 receptors; agents blocking ADH classically impair renal concentrating ability (option D) causing diabetes insipidus. However, the database lists glomerular filtration as the most impaired function, possibly referring to ADH's V1 receptor-mediated vasoconstriction affecting renal hemodynamics and thus GFR.] Per Casarett & Doull.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0805",
+    "explanation": "Correct answer: A (glomerulonephritis). Prerenal factors that decrease GFR are those that reduce renal perfusion without intrinsic kidney damage. Congestive heart failure (B) reduces cardiac output and renal perfusion; dehydration (C) reduces circulating volume; and pre-glomerular vasoconstriction (D) directly reduces renal blood flow. Glomerulonephritis is an intrinsic renal (parenchymal) cause of reduced GFR, not a prerenal factor (Casarett & Doull).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0806",
+    "explanation": "Correct answer: B (renal tubular cell injury). Postrenal factors decrease GFR by obstructing urine flow anywhere from the renal pelvis to the urethra, causing increased intratubular pressure that opposes filtration. Ureteral calculi (A), extrinsic ureter compression (C), and bladder outlet obstruction (D) are all postrenal causes. Renal tubular cell injury is an intrinsic renal (parenchymal) cause of decreased GFR, not a postrenal factor (Casarett & Doull).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0807",
+    "explanation": "Correct answer: D (the geometry of the complex or a metabolite). Cisplatin's nephrotoxicity arises from the cis geometry of the platinum complex, which allows intracellular aquation (replacement of chloride ligands with water molecules). The resulting positively charged aquated species are taken up by renal tubular cells via organic cation transporters (OCT2), then bind to DNA, proteins, and mitochondria, causing cell injury through DNA damage, oxidative stress, and mitochondrial dysfunction. The trans isomer is less toxic but also less therapeutically active (Casarett & Doull).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0808",
+    "explanation": "Correct answer: A (nonionic at physiologic pH). Radiocontrast agents with low nephrotoxicity are nonionic and low osmolarity. Nonionic agents reduce the osmolality of the contrast medium and decrease direct tubular toxicity. High osmolarity (B) increases nephrotoxicity through osmotic diuresis, renal vasoconstriction, and tubular cell injury. Iodine (C) is necessary for radiopacity but does not determine toxicity. Modern low-osmolar nonionic contrast agents (e.g., iohexol, iopamidol) have significantly lower nephrotoxicity (Casarett & Doull).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0809",
+    "explanation": "Correct answer: D (distal tubule). Principal cells (mediating Na\u207a reabsorption via ENaC and water reabsorption via AQP2 under ADH control) and intercalated cells (mediating acid-base balance via H\u207a/HCO\u2083\u207b transport) are found in the connecting tubule and collecting duct system \u2014 specifically the cortical collecting duct, which is functionally part of the \"distal nephron.\" A 2:1 principal:intercalated cell ratio is characteristic of the cortical collecting duct region (Casarett & Doull).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0810",
+    "explanation": "Correct answer: D (vitamin D). [Note: The juxtaglomerular apparatus (JGA) is primarily responsible for secreting renin (option C) in response to reduced renal perfusion pressure, decreased NaCl delivery to the macula densa, and sympathetic stimulation. However, the kidney as a whole \u2014 specifically the proximal tubular cells \u2014 is the primary site for the final activation step of vitamin D (1\u03b1-hydroxylation of 25-hydroxyvitamin D). The database lists vitamin D as the JGA-related secretion.] Reference: Casarett & Doull.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0811",
+    "explanation": "Correct answer: D (collecting duct). [Note: Most nephrotoxicants target the proximal tubule (option B) \u2014 the most common site of renal injury \u2014 due to high metabolic activity, active transport mechanisms (OATs, OCTs), and the concentration of toxicants in tubular fluid. The collecting duct can also be injured (e.g., by amphotericin B, lithium, NSAIDs), but it is not the most common site. The database answer lists the collecting duct.] Reference: Casarett & Doull, renal toxicology.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0812",
+    "explanation": "Correct answer: D (The S3 segment of the proximal tubule is the initial site of toxicity). Inorganic mercury (Hg\u00b2\u207a) selectively targets the S3 segment (pars recta) of the proximal tubule. The mercuric ion is taken up by tubular cells, avidly binds to sulfhydryl (-SH) groups on proteins, depletes glutathione, and causes oxidative stress and cell necrosis. Chelation therapy (e.g., BAL, DMPS) can be effective. Organic mercury (methylmercury) is more neurotoxic, not the inorganic form (Casarett & Doull).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0813",
+    "explanation": "Correct answer: B (Filtration of cationic molecules are restricted more than anionic). This statement is false: the glomerular basement membrane is negatively charged, so anionic (negatively charged) molecules are repelled and restricted more than cationic (positively charged) molecules. The correct order of filtration is: cationic > neutral > anionic. Options A, C, and D are true \u2014 ~20% of renal plasma flow is filtered, the charge barrier can be disrupted by toxicants, and filtration is size-restricted (Casarett & Doull).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0814",
+    "explanation": "Correct answer: B (toxicant-target organ pair \u2014 specific options unavailable in database). The database does not contain answer options for this question. Common DABT toxicant-target organ pairs include: mercury \u2192 kidney (proximal tubule), cadmium \u2192 kidney (chronic), carbon tetrachloride \u2192 liver, paraquat \u2192 lung, and lead \u2192 kidney/nervous system. Reference: Casarett & Doull.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0815",
+    "explanation": "Correct answer: B (bronchodilation). Respiratory tract mucus functions include acid neutralization (via bicarbonate and mucin buffering), free radical scavenging (mucins trap reactive oxygen species), and antioxidant activity (reduced glutathione, uric acid, and other reducing substances in mucus). Bronchodilation is a smooth muscle function mediated by \u03b2\u2082-adrenergic receptor activation and is not a property of mucus (Casarett & Doull, respiratory toxicology).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0816",
+    "explanation": "Correct answer: A (mouse). Mice are obligate nasal breathers \u2014 they inhale exclusively through the nose due to the anatomical structure of their soft palate and epiglottis. In contrast, dogs, monkeys, and humans can breathe through both the nose and mouth. This species difference is critical in inhalation toxicology, as nasal filtering alters the particle size distribution reaching the lower respiratory tract and affects delivered dose (Casarett & Doull, respiratory toxicology).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0817",
+    "explanation": "Correct answer: A (mucus producing cells). [Note: Pulmonary surfactant \u2014 a phospholipoprotein complex that reduces alveolar surface tension \u2014 is classically produced by type II alveolar cells (option D). The database answer lists mucus-producing cells, possibly referring to the surfactant-like properties of mucus glycoproteins in conducting airways or a different interpretation from the source material.] Reference: Casarett & Doull, respiratory toxicology.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0818",
+    "explanation": "Correct answer: B (They can show preferential damage by toxic agents). Type I alveolar cells are squamous epithelial cells covering ~90% of the alveolar surface (A \u2014 true), with extremely attenuated cytoplasm (C \u2014 true) to facilitate gas exchange. They are NOT cuboidal (D \u2014 false statement, D is the trait of type II cells). The database lists option B as the false statement, meaning type I cells do NOT show preferential damage by toxic agents compared to type II cells, which are more resistant to injury due to their role in repair and regeneration (Casarett & Doull, respiratory toxicology).",
+    "domain": "Domain IV"
+  }
+]

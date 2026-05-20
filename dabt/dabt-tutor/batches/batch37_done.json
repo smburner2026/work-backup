@@ -1,0 +1,252 @@
+[
+  {
+    "id": "DABT-2019",
+    "explanation": "Correct answer: D — none of the above. Codeine is metabolized to morphine by CYP2D6-mediated O-demethylation — this is the classic toxification reaction where codeine (a prodrug) is converted to the active opioid morphine. Buprenorphine (A) is a semi-synthetic opioid partial agonist, not a precursor to morphine. Oxymorphone (B) is a metabolite of oxycodone (via CYP2D6), not a precursor to morphine. Propoxyphene (C) is structurally related to methadone and is not metabolized to morphine. The DB correctly recognizes that none of the listed options are metabolized to morphine.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2020",
+    "explanation": "Correct answer: B — heroin. Heroin (diacetylmorphine) has the shortest half-life among the listed opioids — approximately 2–6 minutes in blood before being rapidly deacetylated to 6-acetylmorphine and then to morphine. Buprenorphine (A) has a long half-life (~24–60 hours) due to high lipophilicity and slow dissociation from μ-opioid receptors. Propoxyphene (C) has a half-life of ~6–12 hours (though its active metabolite norpropoxyphene lasts longer). Methadone (D) has a highly variable but long half-life (~15–60 hours, mean ~24 hours). The DB correctly lists heroin as having the shortest half-life among these options.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2021",
+    "explanation": "Correct answer: C — oxycodone. Oxycodone (brand names OxyContin, Percocet) had the highest retail sales among prescription opioids in the United States in 2006, corresponding to the peak of the opioid epidemic. In 2006, oxycodone sales exceeded those of codeine (A), fentanyl (B), and hydrocodone (D) in terms of total retail dollars, driven by aggressive marketing and the introduction of extended-release formulations. Per DEA and IMS Health data from that era, oxycodone products generated over $3 billion in annual retail sales. The DB correctly lists oxycodone as the answer.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2022",
+    "explanation": "Correct answer: D — nutmeg. Nutmeg (Myristica fragrans) contains myristicin and elemicin, which are metabolized to amphetamine-like compounds (MMDA) that produce hallucinogenic effects at high doses (~5–15 g). The other spices listed do not have hallucinogenic properties: paprika (A) is from dried Capsicum peppers, cumin (B) is from Cuminum cyminum seeds, and coriander (C) is from Coriandrum sativum seeds — none produce psychoactive effects. The DB correctly identifies nutmeg as a spice with hallucinogenic potential due to its phenylpropenoid constituents.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2023",
+    "explanation": "Correct answer: B — 'Increases in pulse and blood pressure occur before psychological effects' is the FALSE statement (exception). With psilocybin, the psychological effects (altered perception, hallucinations, euphoria) occur BEFORE or concurrently with the autonomic effects (increased pulse and blood pressure), not after. Statement A is TRUE: psilocybin is a tryptamine derivative (4-phosphoryloxy-N,N-dimethyltryptamine). Statement C is TRUE: psilocybin produces symptoms resembling schizophrenia (model psychosis paradigm). Statement D is TRUE: the effects of psilocybin are mediated through the 5-HT2A receptor-mGluR2 receptor complex — this is a current understanding of the neuropharmacology of hallucinogens. The DB correctly identifies B as the exception.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2024",
+    "explanation": "Correct answer: C — 5-HT2. The mechanism of psychosis (hallucinogenesis) in LSD (d-lysergic acid diethylamide) is related to its binding to the 5-HT2A receptor (a subtype of the 5-HT2 family). LSD is a potent partial agonist at 5-HT2A receptors, and this activation in the prefrontal cortex is responsible for the characteristic hallucinogenic effects. D2 receptors (A — dopamine D2) are the primary target of antipsychotics but LSD does not produce psychosis primarily through D2 binding. 5-HT3 (B) is a ligand-gated ion channel involved in emesis and gut motility, not hallucinogenesis. 5-HT4 (D) is involved in GI motility and cognitive function, not LSD psychosis. The DB correctly lists 5-HT2 as the answer.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2025",
+    "explanation": "Correct answer: C — mescaline. The mechanism of action of LSD (5-HT2A receptor agonism) is most closely related to that of mescaline, which is a phenethylamine hallucinogen that also acts primarily as a 5-HT2A receptor agonist. Both LSD and mescaline produce similar subjective hallucinogenic experiences and share the same primary receptor pharmacology. PCP (A — phencyclidine) acts primarily as an NMDA receptor antagonist (dissociative anesthetic), a fundamentally different mechanism. Ketamine (B) is also an NMDA antagonist. Methylphenidate (D) is a dopamine/norepinephrine reuptake inhibitor (psychostimulant). The DB correctly identifies mescaline as having the mechanism most closely related to LSD.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2026",
+    "explanation": "Correct answer: C — sigma. The sigma receptor was historically proposed as a fourth opiate receptor subtype in the 1970s–1980s based on the activity of SKF-10,047 (N-allylnormetazocine), but it is no longer classified as an opiate receptor. Sigma receptors are now recognized as a distinct class of non-opioid, non-GPCR proteins (sigma-1 and sigma-2) that are localized to the endoplasmic reticulum and involved in calcium signaling, chaperone function, and cellular stress responses. The three classical opioid receptor types are mu (μ, A), kappa (κ, B), and delta (δ, D). The DB correctly identifies sigma as the purported fourth opiate receptor that has been reclassified.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2027",
+    "explanation": "Correct answer: C — cactus. Mescaline (3,4,5-trimethoxyphenethylamine) is derived from the peyote cactus (Lophophora williamsii) and other cacti in the Echinopsis genus (e.g., San Pedro cactus). It is not derived from lichen (A — a symbiotic organism of fungi and algae), mushroom (B — psilocybin comes from Psilocybe mushrooms), or moss (D — small non-vascular plants). The DB correctly identifies cactus as the source of mescaline. Peyote has been used ceremonially by Indigenous peoples of Mexico and the southwestern United States for thousands of years.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2028",
+    "explanation": "Correct answer: C — hallucinogenic amphetamine. MDMA (3,4-methylenedioxymethamphetamine, 'Ecstasy') is classified as a hallucinogenic amphetamine (also called an entactogen or empathogen). It has a chemical structure that combines the amphetamine backbone (producing stimulant effects) with a methylenedioxy ring (producing mild hallucinogenic properties). MDMA is not a dissociative anesthetic (A — ketamine and PCP are dissociatives), not a drug for ADHD (B — methylphenidate and amphetamine are ADHD drugs), and not an anti-Parkinson drug (D — L-DOPA, dopamine agonists). The DB correctly classifies MDMA as a hallucinogenic amphetamine.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2029",
+    "explanation": "Correct answer: B — CYP2D6. MDMA is a mechanism-based inhibitor of CYP2D6, the cytochrome P450 enzyme responsible for its own O-demethylenation to DHMA (dihydroxymethamphetamine). This auto-inhibition is clinically significant because it leads to nonlinear pharmacokinetics — a small increase in dose can cause a disproportionate increase in MDMA concentration as CYP2D6 becomes saturated and inhibited. CYP2E1 (A) metabolizes ethanol and acetaminophen, not MDMA. CYP1A2 (C) metabolizes caffeine and theophylline. Glucuronyl transferase (D — UGTs) conjugates MDMA metabolites but is not a target of inhibition by MDMA. The DB correctly identifies CYP2D6.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2030",
+    "explanation": "Correct answer: D — all of the above. The activity of MDMA is due to the central nervous system release of all three monoamines: dopamine (A), serotonin / 5-HT (B), and norepinephrine (C). MDMA binds to monoamine transporters (primarily SERT, but also DAT and NET) and acts as a substrate-type releaser — it enters the presynaptic neuron via the transporter and promotes non-exocytotic release through reverse transport. The release of serotonin is primarily responsible for the empathogenic and hallucinogenic effects, dopamine mediates the stimulant and rewarding effects, and norepinephrine contributes to the cardiovascular stimulation (tachycardia, hypertension). The DB correctly lists 'all of the above.'",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2031",
+    "explanation": "Correct answer: B — nadolol. Nadolol is a non-selective beta-blocker and does NOT increase the risk of serotonin syndrome in MDMA users; in fact, beta-blockers like nadolol are not associated with serotonergic activity. Meperidine (A — pethidine) is a serotonergic opioid that can precipitate serotonin syndrome when combined with MDMA or other serotonergic drugs. Tramadol (C) is a weak μ-opioid agonist that also inhibits serotonin and norepinephrine reuptake, contributing to serotonin syndrome risk. Dextromethorphan (D) is an NMDA antagonist that also inhibits serotonin reuptake and can contribute to serotonin syndrome. The DB correctly identifies nadolol as the drug least likely to increase serotonin syndrome risk in MDMA users.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2032",
+    "explanation": "Correct answer: A — presence of morphine throughout the hair. A finding that supports tolerance (and thus chronic use) in a deceased heroin user is the presence of morphine throughout the hair shaft. Hair analysis can differentiate between chronic use (drug distributed along the entire hair length) and acute/single exposure (drug found only in a segment). The presence of morphine in the liver (B) is expected after any heroin exposure and does not indicate tolerance. Presence in skeletal muscle (C) simply indicates distribution. A morphine-to-morphine-3-glucuronide ratio of 6:1 (D) suggests acute death shortly after heroin administration (before significant conjugation can occur), which is associated with acute toxicity, not tolerance. The DB correctly identifies hair morphine distribution as an indicator of chronic use and tolerance.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2033",
+    "explanation": "Correct answer: C — phencyclidine. Among the listed drugs, phencyclidine (PCP) is the least likely to be part of toxicology results in a typical heroin-related death. Fentanyl (A) is frequently found as an adulterant in heroin and has driven the recent opioid epidemic — it is commonly detected in heroin-related deaths. Alcohol (B — ethanol) is a very common co-intoxicant in opioid deaths as respiratory depression is potentiated by CNS depressant combinations. Benzodiazepines (D) are also frequently co-detected in heroin-related fatalities, as they synergistically depress respiration. PCP is a dissociative anesthetic more commonly associated with hallucinogen-related incidents than with heroin overdose. The DB correctly identifies PCP as the least likely co-intoxicant in heroin-related deaths.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2034",
+    "explanation": "Correct answer: B — inhibition of the hERG potassium channel. A recently identified mechanism for sudden death in methadone users is inhibition of the hERG (human ether-à-go-go related gene) potassium channel, which prolongs the QT interval and predisposes to torsade de pointes and ventricular fibrillation. Methadone is a known hERG channel blocker at clinically relevant concentrations, particularly at high therapeutic doses used for opioid maintenance therapy. Cytokine storm (A) is not associated with methadone. Pulmonary embolism (C) is a risk in IV drug users generally but not specifically associated with methadone pharmacology. Lowering of the seizure threshold (D) occurs with tramadol and meperidine but is not the primary arrhythmogenic mechanism of methadone. The DB correctly identifies hERG inhibition as the mechanism for sudden cardiac death in methadone users.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2035",
+    "explanation": "Correct answer: D — inflammatory disorders. Levels of nonprotein-bound (free) methadone would DECREASE in inflammatory disorders because methadone is a basic drug (pKa ~8.6) that binds primarily to alpha-1-acid glycoprotein (AAG, an acute-phase protein). In inflammatory conditions, AAG levels INCREASE, leading to INCREASED protein binding and DECREASED free (unbound) fraction. Liver disease (A) decreases AAG production, increasing the free fraction. The presence of other drugs that bind to AAG (B) would compete for binding sites, displacing methadone and INCREASING the free fraction. The presence of drugs binding to albumin (C) has little effect since methadone primarily binds to AAG, not albumin, but if anything would slightly increase the free fraction. The DB correctly identifies inflammatory disorders as the condition that decreases nonprotein-bound (free) methadone.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2036",
+    "explanation": "Correct answer: C — 'The d isomer strongly binds to the opiate receptor' is the FALSE statement (exception). Methadone is a chiral drug; the l-isomer (levomethadone, R-enantiomer) is the active opioid receptor agonist, while the d-isomer (dextromethadone, S-enantiomer) has very weak opioid receptor binding and acts primarily as an NMDA receptor antagonist. Statement A is TRUE: methadone is metabolized by CYP3A4 and CYP2B6. Statement B is TRUE: the terminal half-life of methadone is highly variable (15–60 hours). Statement D is TRUE: the d-isomer of methadone can cause QT prolongation (via hERG channel blockade), and this effect is independent of opioid receptor activity. The DB correctly identifies C as the false statement.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2037",
+    "explanation": "Correct answer: A — morphine without its conjugation metabolites. A postmortem free morphine concentration refers to the measurement of unconjugated (free/base) morphine, i.e., morphine without its glucuronide conjugates (morphine-3-glucuronide and morphine-6-glucuronide). This is distinguished from 'total morphine,' which includes both free morphine and morphine released after hydrolysis of glucuronide conjugates. Option B describes nonprotein-bound (free fraction) morphine and metabolites — too broad. Option C includes glucuronidated metabolites. Option D includes codeine and 6-acetylmorphine. The DB correctly defines free morphine as unconjugated morphine.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2038",
+    "explanation": "Correct answer: D — 'Liver 6-acetylmorphine levels are usually higher than brain levels' is the FALSE statement (exception). In postmortem cases, 6-acetylmorphine (6-AM, a specific marker of heroin use) levels are typically HIGHER in brain tissue than in liver, because 6-AM is more stable in brain (due to lower esterase activity in brain compared to liver). The brain has limited capacity to deacetylate 6-AM to morphine, whereas the liver actively hydrolyzes it. Statement A is TRUE: formalin embalming does not interfere with extraction/measurement of free morphine. Statement B is TRUE: in nonrefrigerated cadavers, bacterial glucuronidase can hydrolyze morphine glucuronide back to morphine, altering postmortem concentrations. Statement C is TRUE: liver opiate levels can be useful in exhumation cases. The DB correctly identifies D as the exception.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2039",
+    "explanation": "Correct answer: B — 6-acetylmorphine. Poppy seed ingestion can cause false positive urine tests for morphine (A), codeine (C), and morphine-6-glucuronide (D), but NOT for 6-acetylmorphine (6-AM). Poppy seeds naturally contain morphine, codeine, thebaine, and noscapine (papaverine), and their ingestion leads to detectable urinary levels of morphine, codeine, and their glucuronides. However, 6-AM is a specific metabolite that is ONLY produced from the metabolism of heroin (diacetylmorphine), not from any poppy seed alkaloid. Thus, detection of 6-AM in urine is considered definitive proof of heroin use and cannot be explained by poppy seed consumption. The DB correctly identifies 6-AM as the exception.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2040",
+    "explanation": "Correct answer: C — thebaine. Thebaine is an alkaloid found in poppy seeds (Papaver somniferum) but is NOT found in refined heroin. Thebaine is a precursor in the biosynthesis of morphine and codeine within the opium poppy, and it is present in raw opium and poppy seeds. However, during the illicit processing of heroin (diacetylmorphine), thebaine is not carried through as a contaminant and is not present in the final refined product. Papaverine (A) and noscapine (B) are also poppy-derived alkaloids that may be detectable in poppy seed products but not typically found in heroin. Lidocaine (D) is a synthetic local anesthetic and is not a poppy alkaloid. The DB correctly identifies thebaine as the substance found in poppy seeds but not in refined heroin.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2041",
+    "explanation": "Correct answer: A — 10 ng/mL. To prove heroin ingestion (vs. poppy seed or other opiate exposure), 6-acetylmorphine (6-AM) must be present in urine at a minimum concentration of 10 ng/mL. This is the federally mandated confirmation cutoff for 6-AM in workplace drug testing under SAMHSA (Substance Abuse and Mental Health Services Administration) guidelines (mandatory guidelines for federal workplace drug testing programs). A cutoff of 10 ng/mL provides sufficient sensitivity to detect heroin use while minimizing false positives from environmental or dietary sources. Higher cutoffs of 100 ng/mL (B), 500 ng/mL (C), and 1,000 ng/mL (D) would significantly reduce sensitivity and are not standard. The DB correctly lists 10 ng/mL.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2042",
+    "explanation": "Correct answer: A — alfentanil. Endogenous opiate peptides are naturally occurring opioid-like peptides produced by the body. They include dynorphin (B — an endogenous agonist at the kappa opioid receptor), beta-endorphin (C — an endogenous agonist at mu and delta opioid receptors), and endomorphin (D — endogenous tetrapeptides with high affinity for the mu opioid receptor). Alfentanil (A) is a synthetic opioid anesthetic (a fentanyl analog) used in clinical anesthesia — it is a synthetic drug, not an endogenous peptide. The DB correctly identifies alfentanil as the exception that is NOT an endogenous opiate peptide.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2043",
+    "explanation": "Correct answer: C — 7 transmembrane domains. Opiate receptors (mu, kappa, delta — now classified as MOR, KOR, DOR) are members of the G protein-coupled receptor (GPCR) superfamily, which are characterized by having 7 transmembrane domains (7TM or heptahelical). These receptors span the cell membrane seven times and couple to intracellular G proteins (Gi/o) to mediate their effects (inhibition of adenylyl cyclase, modulation of ion channels). Three transmembrane domains (A) is characteristic of some cytokine receptors. Five transmembrane domains (B) is seen in some receptor tyrosine kinases and integrins. Ten transmembrane domains (D) is seen in some transporters (e.g., glucose transporters). The DB correctly identifies 7 transmembrane domains.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2044",
+    "explanation": "Correct answer: A — spironolactone. Common adulterants found in illicit heroin include quinine (B — added for its bitter taste, mimicking the flavor of pharmaceutical-grade heroin), caffeine (C — added as a diluent that also enhances drug absorption upon smoking/inhalation), and diphenhydramine (D — an antihistamine that potentiates opioid effects and is also used as a diluent). Spironolactone (A) is a potassium-sparing diuretic and aldosterone antagonist used clinically for hypertension and heart failure — there is no known use or common report of spironolactone being used as a heroin adulterant. The DB correctly identifies spironolactone as the exception.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2045",
+    "explanation": "Correct answer: B — methamphetamine. Common diluents (bulking agents) found in heroin include lactose (A — milk sugar, a common filler), starch (C — a cheap and readily available bulking agent), and mannitol (D — a sugar alcohol used as a diluent in many street drugs). Methamphetamine (B) is a potent psychostimulant and is itself an active adulterant added to enhance or modify the effect of heroin — it is not used as a diluent (an inert bulking agent for volume). While methamphetamine can be mixed with heroin (a 'speedball' variant), it is a pharmacologically active adulterant, not an inert diluent. The DB correctly identifies methamphetamine as the exception.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2046",
+    "explanation": "Correct answer: D — morphine-3-glucuronide. Morphine-3-glucuronide (M3G) is the major morphine metabolite but has very low pharmacological activity at opioid receptors. In fact, M3G may have neuroexcitatory and anti-analgesic properties that oppose morphine's effects, but it has negligible mu-opioid receptor binding affinity. Normorphine (A) has some opioid activity (N-demethylated metabolite). Hydromorphone (B) is a potent semi-synthetic opioid analgesic produced as a minor metabolite of morphine. Morphine-6-glucuronide (C, M6G) is a pharmacologically active metabolite that is actually MORE potent than morphine itself as a mu-opioid agonist. The DB correctly identifies M3G as the least pharmacologically active morphine metabolite.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2047",
+    "explanation": "Correct answer: C — urine T/E ratio. The urine testosterone-to-epitestosterone (T/E) ratio is the standard screening test used to detect abuse of anabolic androgenic steroids (AAS) in athletic doping control. Exogenous testosterone administration suppresses endogenous production and alters the ratio of testosterone to its inactive epimer epitestosterone. A T/E ratio above 4:1 (or 6:1, depending on the testing organization — WADA uses 4:1 as the threshold requiring further investigation) is considered suspicious for exogenous testosterone use. Serum testosterone (A) alone is unreliable due to natural biological variation. Serum free androgens (B) also fluctuate widely. Urine for total steroids (D) lacks specificity. The DB correctly identifies the T/E ratio as the primary test for anabolic steroid abuse.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2048",
+    "explanation": "Correct answer: B — 'Blood levels of the carboxylic acid metabolite in the living can reliably predict time of ingestion' is the FALSE statement (exception). THC (Δ⁹-tetrahydrocannabinol) is metabolized to 11-hydroxy-THC (active) and then to 11-nor-9-carboxy-THC (THC-COOH, inactive). Blood levels of THC-COOH CANNOT reliably predict time of ingestion because THC-COOH has a very long terminal half-life (~25–36 hours in occasional users, up to 5–7 days in chronic users) and accumulates in adipose tissue with slow release back into circulation. Statement A is TRUE: THC binds to CB1 and CB2 cannabinoid receptors. Statement C is TRUE: blood levels of THC peak very quickly (within minutes) after smoking. Statement D is TRUE: THC has a high volume of distribution (~10 L/kg) due to high lipophilicity. The DB correctly identifies B as the false statement.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2049",
+    "explanation": "Correct answer: A — They are extremely difficult to interpret with respect to time of use. Postmortem measurements of THC levels in blood are extremely difficult to interpret regarding time of use due to multiple confounding factors: (1) THC redistributes after death from adipose tissue into blood (postmortem redistribution), (2) THC continues to be metabolized postmortem by residual liver enzymes, (3) THC-COOH (the inactive metabolite) may be converted back to THC by bacterial enzymes, (4) antemortem levels depend on smoking patterns, tolerance, and frequency of use. Statements B and C (THC levels vs 11-OH-THC vs THC-COOH) overstate the accuracy of any single analyte in postmortem interpretation. Statement D is false — whole blood is preferred over plasma postmortem because plasma separation is affected by hemolysis and clot formation. The DB correctly identifies that postmortem THC levels are extremely difficult to interpret.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2050",
+    "explanation": "Correct answer: A — 'It is a beta-blocker that binds to the CB-1 receptor' is the FALSE statement (exception). Dronabinol (synthetic Δ⁹-THC, Marinol) is a cannabinoid receptor agonist that binds to CB1 (and CB2) receptors — it is NOT a beta-blocker. Statement B is TRUE: dronabinol is FDA-approved for chemotherapy-induced nausea and vomiting. Statement C is TRUE: dronabinol is FDA-approved for appetite stimulation in AIDS-related wasting. Statement D is TRUE: dronabinol causes a positive result in standard urine screening tests for marijuana (since it is synthetic THC, it is metabolized to the same THC-COOH metabolite targeted by immunoassays). The DB correctly identifies A as the false statement.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2051",
+    "explanation": "Correct answer: D — 11-nor-9-carboxy-THC. The urine metabolite of THC that is usually targeted for screening (immunoassay) is 11-nor-9-carboxy-Δ⁹-THC (THC-COOH, also called 9-carboxy-THC). This is the major inactive metabolite of THC formed through sequential oxidation by CYP2C9 and CYP3A4 (first to 11-hydroxy-THC, then to 11-nor-9-carboxy-THC). It is the target analyte because it is present in urine at much higher concentrations and for a much longer detection window than THC or 11-hydroxy-THC. 11-hydroxy-THC (A, 11-OH-THC) is the active metabolite detectable in blood but not routinely targeted in urine screens. 8-β-hydroxy-THC (B) and 8,11-dehydroxy-THC (C) are minor metabolites. The DB correctly identifies THC-COOH (11-nor-9-carboxy-THC) as the targeted screening metabolite.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2052",
+    "explanation": "Correct answer: B — glioblastoma. Chronic amphetamine/methamphetamine use is associated with permanent neuronal damage (A — dopaminergic and serotonergic neurotoxicity), vasculitis (C — drug-induced inflammation of blood vessels, leading to cerebral hemorrhage and stroke), and pulmonary hypertension (D — amphetamines are known causes of pulmonary arterial hypertension through serotonin transporter-mediated mechanisms, as seen with fenfluramine and methamphetamine). Glioblastoma (B — a highly malignant primary brain tumor) is NOT associated with chronic amphetamine use. While other substances (like nitrosamines in tobacco) can cause brain tumors, glioblastoma has no established epidemiological or mechanistic link to amphetamines. The DB correctly identifies glioblastoma as the non-associated condition.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2053",
+    "explanation": "Correct answer: C — methamphetamine. Methamphetamine is the most common illicit drug produced by clandestine laboratories in the United States. Unlike cocaine (A), which is imported from South America, or oxycodone (B) and fentanyl (D), which are diverted from pharmaceutical sources, methamphetamine can be synthesized from relatively accessible precursor chemicals (pseudoephedrine/ephedrine) using simple chemical procedures, making it the predominant product of clandestine labs across the US. The 'one-pot' or 'shake-and-bake' method used in small-scale methamphetamine production contributes to its prevalence in clandestine lab seizures reported by the DEA. The DB correctly identifies methamphetamine as the most common clandestine lab drug.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2054",
+    "explanation": "Correct answer: C — beta-adrenergic blockers are CONTRAINDICATED (the exception). In the setting of cocaine-induced acute coronary syndrome (ACS), beta-blockers are NOT indicated and are potentially harmful. Cocaine causes coronary vasoconstriction and increases myocardial oxygen demand through alpha-adrenergic stimulation. Beta-blockers, particularly non-selective ones like propranolol, can UNOPPOSE alpha-adrenergic receptor stimulation, leading to worsening coronary vasoconstriction, hypertension, and even cardiovascular collapse. Benzodiazepines (A) are indicated as first-line treatment to reduce anxiety, heart rate, and blood pressure. Nitroglycerin (B) is indicated for coronary vasodilation. Aspirin (D) is indicated for antiplatelet therapy. The DB correctly identifies beta-adrenergic blockers as not indicated (contraindicated) in cocaine-induced ACS.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2055",
+    "explanation": "Correct answer: A — calcium channel blockers. The preferred drug class for the treatment of cocaine-induced narrow-complex reentrant supraventricular arrhythmias is calcium channel blockers (CCBs, such as verapamil or diltiazem). CCBs are preferred because they slow conduction through the AV node (terminating reentrant circuits) without the risk of unopposed alpha-adrenergic stimulation that beta-blockers carry in the setting of cocaine. Type IA antiarrhythmics (B — e.g., procainamide, quinidine) and type IC antiarrhythmics (D — e.g., flecainide, propafenone) are not first-line for narrow-complex reentrant SVT. Beta-adrenergic blockers (C) should be avoided in cocaine toxicity for the reasons stated in DABT-2054. The DB correctly identifies calcium channel blockers as the preferred class.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2056",
+    "explanation": "Correct answer: D — propofol. If a benzodiazepine fails to adequately sedate an agitated patient using cocaine (cocaine-induced agitation or excited delirium), the next drug of choice is propofol. Propofol is a rapid-acting intravenous sedative-hypnotic with GABAergic activity that provides effective sedation in agitated patients. Haloperidol (A — an antipsychotic) was historically used but carries a theoretical risk of lowering the seizure threshold and QT prolongation. Promazine (B — a phenothiazine antipsychotic) is no longer commonly used. Methaqualone (C — Quaalude) is a sedative-hypnotic that is no longer clinically available (withdrawn from most markets in the 1980s). The DB correctly identifies propofol as the next-line sedative after benzodiazepines in cocaine-induced agitation.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2057",
+    "explanation": "Correct answer: B — pyruvate. Ethanol metabolites that are being evaluated as biomarkers of previous ethanol use (both recent and chronic) include fatty acid ethyl esters (FAEEs, A — formed by esterification of ethanol with fatty acids, detectable in hair and meconium), ethyl sulfate (EtS, C — a direct ethanol metabolite formed by sulfotransferases), and ethyl glucuronide (EtG, D — a direct ethanol metabolite formed by UDP-glucuronosyltransferases). These are minor, non-oxidative metabolites that can be detected in urine, blood, and hair long after ethanol itself is cleared. Pyruvate (B), however, is an endogenous metabolite central to glycolysis and the Krebs cycle — it is not an ethanol metabolite. The DB correctly identifies pyruvate as the exception.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2058",
+    "explanation": "Correct answer: A — 'A specific ethanol receptor has recently been identified' is the FALSE statement (exception). Unlike most drugs of abuse, ethanol does not have a single specific receptor. Instead, ethanol produces its pharmacological effects through interactions with multiple membrane proteins and ion channels, particularly by enhancing GABA-A receptor function (B — TRUE), blocking NMDA-type glutamate receptors (C — TRUE), and affecting 5-HT3, glycine, and nACh receptors. Statement D is TRUE: chronic ethanol use leads to NMDA receptor upregulation as a compensatory response to ethanol's inhibitory effect, and withdrawal from ethanol leads to NMDA receptor-mediated hyperexcitability (which contributes to withdrawal seizures and neurotoxicity). The DB correctly identifies A as the false statement — no single ethanol 'receptor' has been identified.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2059",
+    "explanation": "Correct answer: C — 'Seizures can be prevented with phenytoin' is the FALSE statement (exception). Ethanol withdrawal seizures are best prevented and treated with benzodiazepines (as stated in B — TRUE), which are GABA-A receptor positive allosteric modulators that compensate for deficient GABAergic tone during withdrawal. Phenytoin, a sodium channel blocker used primarily for focal (partial) seizures, is INEFFECTIVE for preventing or treating ethanol withdrawal seizures in most studies. This is a well-established clinical principle: benzodiazepines are the mainstay of alcohol withdrawal seizure prophylaxis, while phenytoin is not recommended. Statement A is TRUE: delirium tremens is the most serious development, with a mortality rate of 5–15% if untreated. Statement D is TRUE: auditory hallucinations can occur during alcohol withdrawal. The DB correctly identifies C as the exception.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2060",
+    "explanation": "Correct answer: D — zaleplon. Disulfiram-type (antabuse) reactions involve flushing, nausea, vomiting, and hypotension caused by accumulation of acetaldehyde when ethanol is consumed after exposure to drugs that inhibit aldehyde dehydrogenase (ALDH2). Such reactions have been reported with cefoperazone (A — a cephalosporin antibiotic with a methylthiotetrazole side chain that inhibits ALDH), metronidazole (B — an antibiotic/antiprotozoal that inhibits ALDH), and chlorpropramide (C — a first-generation sulfonylurea that inhibits ALDH). Zaleplon (D), a non-benzodiazepine hypnotic (Z-drug) that acts as a GABA-A receptor positive allosteric modulator, does not inhibit ALDH and has NOT been associated with disulfiram-type reactions. The DB correctly identifies zaleplon as the exception.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2061",
+    "explanation": "Correct answer: C — pulmonary fibrosis. Thiamine (vitamin B1) deficiency can cause high-output congestive heart failure (A — 'wet beriberi,' characterized by peripheral vasodilation, high cardiac output, and biventricular failure), Wernicke's encephalopathy (B — the acute neurological manifestation of thiamine deficiency, presenting with confusion, ataxia, and ophthalmoplegia), and Korsakoff's psychosis (D — the chronic neuropsychiatric syndrome of thiamine deficiency, characterized by anterograde amnesia and confabulation, often following Wernicke's encephalopathy). Pulmonary fibrosis (C) is NOT caused by thiamine deficiency. Pulmonary fibrosis is a restrictive lung disease associated with idiopathic pulmonary fibrosis, connective tissue diseases, certain drugs (bleomycin, amiodarone, methotrexate), and occupational exposures (asbestos, silica). The DB correctly identifies pulmonary fibrosis as the non-associated condition.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2062",
+    "explanation": "Correct answer: C — GHB. In 2007, a widely publicized epidemic of toxicity occurred in children who ingested toy beads containing a substance that was chemically related to GHB (gamma-hydroxybutyrate). The beads, known as 'Bindeez' or 'Aqua Dots,' were coated with 1,4-butanediol, a prodrug that is metabolized in the body to GHB (by alcohol dehydrogenase and aldehyde dehydrogenase). When children ingested the beads, they developed severe CNS depression, respiratory depression, and coma consistent with GHB intoxication. PCP (A), methamphetamine (B), and dextromethorphan (D) were not involved in this specific product contamination incident. The DB correctly identifies GHB as the chemically related substance.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2063",
+    "explanation": "Correct answer: A — methemoglobinemia. Recreational inhalation of amyl nitrite (alkyl nitrites, 'poppers') is associated with methemoglobinemia. Amyl nitrite is a potent oxidizing agent that converts the ferrous iron (Fe²⁺) in hemoglobin to ferric iron (Fe³⁺), producing methemoglobin, which cannot bind oxygen. This can cause tissue hypoxia, cyanosis, and in severe cases, respiratory distress and death. Peripheral neuropathy (B) is associated with chronic nitrous oxide use (via vitamin B12 inactivation), not amyl nitrite. Hepatotoxicity (C) and renal toxicity (D) are not classic effects of amyl nitrite inhalation. The DB correctly identifies methemoglobinemia as the condition associated with recreational amyl nitrite use.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2064",
+    "explanation": "Correct answer: B — hallucinogen. Salvia divinorum (a psychoactive plant from the mint family, native to Oaxaca, Mexico) is classified as a hallucinogen. Its primary active constituent, salvinorin A, is a potent and selective kappa opioid receptor (KOR) agonist, producing intense but short-lasting hallucinogenic and dissociative effects, including profound alterations in perception of reality, time, and space. It is not classified as an anticholinergic (A — e.g., scopolamine or atropine), sympathomimetic (C — CNS stimulants like amphetamine), or THC agonist (D — cannabinoid). The DB correctly classifies Salvia divinorum as a hallucinogen, and it is one of the most potent naturally occurring hallucinogens known.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2065",
+    "explanation": "Correct answer: D — all of the above. GHB (gamma-hydroxybutyrate) is all of the following: (A) an endogenous neurotransmitter — GHB is naturally present in the mammalian brain in low concentrations and functions as a neuromodulator/neurotransmitter with its own receptor (GHB receptor, distinct from GABA-B); (B) a releaser of growth hormone — GHB administration stimulates growth hormone release from the pituitary (historically, GHB was sold as a bodybuilding supplement for this reason); (C) a drug of abuse — GHB is abused for its euphoric, sedative, and purported empathogenic effects, and is also associated with drug-facilitated sexual assault (date rape drug). Thus, all three statements (A, B, and C) are true. The DB correctly lists 'all of the above.'",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2066",
+    "explanation": "Correct answer: D — mitragynine. The pharmacological effect of Kratom (Mitragyna speciosa, a tropical tree native to Southeast Asia) has been related to the presence of mitragynine, its primary active alkaloid. Mitragynine is a partial agonist at mu-opioid receptors and also acts at other receptors (adrenergic, serotonergic), producing both stimulant effects (at low doses) and opioid-like analgesic and sedative effects (at high doses). Safrole (A) is the primary constituent of sassafras oil and a precursor for MDMA synthesis. Atropine (B) is an anticholinergic alkaloid from Atropa belladonna. Salvinorin A (C) is the active constituent of Salvia divinorum (a kappa opioid agonist). The DB correctly identifies mitragynine as the active compound in Kratom.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2067",
+    "explanation": "Correct answer: C — schizophrenia. The neurobehavioral effects of PCP (phencyclidine, 'angel dust') are most similar to the disease process of schizophrenia. PCP produces a psychiatric syndrome in humans that closely mimics both the positive symptoms (hallucinations, delusions, paranoia) and negative symptoms (social withdrawal, anhedonia, cognitive deficits) of schizophrenia. This is the basis of the 'PCP model of schizophrenia' used in psychiatric research. Unlike psychotomimetics such as LSD (which produce primarily visual hallucinations with preserved insight), PCP-induced psychosis is often indistinguishable from acute schizophrenia. Mania (A), depression (B), and OCD (D) do not match the PCP-induced symptom profile as closely as schizophrenia. The DB correctly identifies schizophrenia.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-2068",
+    "explanation": "Correct answer: D — binding to the NMDA receptor. The primary mechanism of action of ketamine at clinical (subanesthetic and anesthetic) concentrations involves non-competitive antagonism (binding) of the NMDA (N-methyl-D-aspartate) glutamate receptor. Ketamine binds to the PCP site within the NMDA receptor ion channel (a phencyclidine binding site), blocking calcium influx and glutamate-mediated excitatory neurotransmission. This NMDA receptor antagonism is responsible for its dissociative anesthetic, analgesic, antidepressant, and psychotomimetic effects. Binding to 5-HT2 (A) is the mechanism of LSD/hallucinogens. Binding to 5-HT3 (B) is involved in emesis. Binding to CB-1 (C) is the mechanism of THC/cannabinoids. The DB correctly identifies NMDA receptor binding as the mechanism of action of ketamine.",
+    "domain": "Domain IV"
+  }
+]

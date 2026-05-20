@@ -30,14 +30,18 @@ These feed each other. Drilling surfaces gaps that warrant deep dives. Deep dive
 
 ## Question Database
 
-`/home/vthen/work/dabt-tutor/reference/Claude_import/DABT_Practice_Questions_Database.xlsx`
-- Sheet: "Questions"
-- 446 questions from Mini-ABT Exams 1-11
-- Fields: ID, Source Exam, Question #, Question, A-H, Correct Answer, Correct Answer Text, Explanation, Topic (Primary), All Topics, Source File
+/root/work/dabt/dabt-tutor/reference/data/dabt.db (SQLite — primary, expanded)
+  - 4,841 questions across 7 source banks
+  - Tables: questions, answer_options, question_topics, question_domains, source_files, match_pairs
+  - Replaces the old 446-question xlsx with a relational schema
+  - See /root/dabt-curated/MASTER_INDEX.md for full domain breakdown
+
+For backward compat, the old xlsx still exists at:
+  /root/work/dabt/dabt-tutor/reference/data/DABT_Practice_Questions_Database.xlsx (446 Qs, legacy)
 
 ## Reference Materials
 
-- `reference/ABT-Candidate-Handbook-2026.pdf` — canonical blueprint
+- `reference/exam-materials/ABT-Candidate-Handbook-2026.pdf` — canonical blueprint
 - `reference/Past ABT Exams/` — 2013, 2015, 2017 exams
 - `reference/Mini-ABT Practice Exams/` — 11 mini exams + answer keys
 - `reference/Claude_import/Claude_instructions.txt` — master prompt v5.1
@@ -78,10 +82,26 @@ These feed each other. Drilling surfaces gaps that warrant deep dives. Deep dive
 - 39 Hayes chapters (11 MB) — `reference/extracted/`
 - 29 regulations (4.2 MB) — `reference/extracted/`
 - 446 questions classified — `reference/data/question_classifications.csv`
+## Skills
 
-### Skills
-Primary: `dabt-drill-mode`, `dabt-deep-dive`
-Supporting (auto-loaded): `dabt-database`, `dabt-reference`
+Primary: `education/dabt-project-workflow` (entry point — loads config, dispatches to mode skill)
+Modes: `dabt-drill-mode`, `dabt-deep-dive`, `dabt-synthesis-review`
+Supporting: `dabt-database`, `dabt-reference`, `dabt-notebook`
+
+## Configuration
+
+The unified project config is at `dabt-config.json` (version 1.0.0, materialized 2026-05-20).
+It supersedes the old `reference/exam-weights.json` (deleted).
+All skills read paths, weights, and targets from this config at session start.
+NEVER hardcode a path or weight in a skill — extend the config instead.
+
+## Session Start
+
+1. Load `education/dabt-project-workflow`
+2. Read `dabt-config.json`
+3. Read `progress/state.json`
+4. Select mode skill
+5. Execute with config values
 
 ## Memory Keys
 
@@ -89,8 +109,4 @@ Supporting (auto-loaded): `dabt-database`, `dabt-reference`
 - Track learner profile under `dabt.learner` (fields: level, preferred_analogies, struggling_concepts)
 - Track deep-dive state under `dabt.deep_dive` (fields: active_topic, pending_topic, completed_topics)
 
-## Session Start Procedure
 
-1. Load the appropriate skill: `dabt-drill-mode` or `dabt-deep-dive`
-2. Check `reference/Claude_import/Claude_memory.txt` for prior session state
-3. Ask user which mode if not specified

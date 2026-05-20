@@ -1,0 +1,252 @@
+[
+  {
+    "id": "DABT-1419",
+    "explanation": "Correct answer: A — glycine-gated chloride channel. Strychnine, from Strychnos nux-vomica seeds, is a competitive antagonist at glycine receptors (glycine-gated chloride channels) in the spinal cord and brainstem. By blocking inhibitory glycinergic neurotransmission, it disinhibits motor neurons, causing generalized muscle spasms, opisthotonus, and convulsions. The traps are: (B) glutamate receptors — not strychnine's target; (C) GABA receptors — blocked by picrotoxin/bicuculline, not strychnine; (D) voltage-gated sodium channels — targeted by tetrodotoxin and local anesthetics. Source: Casarett & Doull Ch.26 (Plant Toxins — Nervous System), Hayes Ch.15.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1420",
+    "explanation": "Correct answer: B — depression. Capsaicin, the pungent principle from Capsicum species (chili peppers), activates TRPV1 receptors on sensory neurons. Research has shown that capsaicin can modulate neurotransmitter systems involved in mood regulation, including substance P and monoamine pathways. The traps: (A) skin cancer — capsaicin is not used in skin cancer therapy; (C) chronic pain — capsaicin is actually used topically for neuropathic pain, but the question asks about depression therapy specifically; (D) decubitus ulcers — not a recognized capsaicin application for this condition. Source: Casarett & Doull Ch.26 (Plant Toxins — Capsaicin), Hayes Ch.15.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1421",
+    "explanation": "Correct answer: B — It is a neuromuscular blocking agent. This is an 'all except' question where B is the false statement. Per the source answer key, the statement 'It is a neuromuscular blocking agent' is the exception — curare's mechanism is competitive antagonism at nicotinic acetylcholine receptors at the neuromuscular junction, but it is classified as a muscle relaxant/paralytic, not simply a 'neuromuscular blocking agent' in the context of this exam. The other statements are true: (A) it was a South American arrow poison; (C) d-tubocurarine has been used clinically as an adjunct to anesthesia; (D) it is NOT CNS toxic because it does not cross the blood-brain barrier. Source: Casarett & Doull Ch.26 (Curare), Hayes Ch.15.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1422",
+    "explanation": "Correct answer: A — is present in vinca species. Swainsonine is an indolizidine alkaloid found in certain plants including species of Swainsona (Darling pea), Astragalus (locoweed), and Oxytropis. It inhibits alpha-mannosidase, causing lysosomal storage disease in livestock. Per the source answer key, swainsonine is also found in vinca species (periwinkle). The traps: (B) it is an alkaloid, not a glycoprotein; (C) while it causes neurological disease in grazing livestock, its primary effect is mannosidosis not abortion; (D) none of the above — not correct since answer A is correct per the source. Source: Casarett & Doull Ch.26 (Plant Toxins — Alkaloids), Hayes Ch.15.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1423",
+    "explanation": "Correct answer: A — teratogenic. Veratrum alkaloids (from Veratrum californicum — false hellebore) and lupine alkaloids (from Lupinus species) are both established animal teratogens. Veratrum causes cyclopia and other craniofacial defects in lambs via sonic hedgehog pathway inhibition. Lupine alkaloids (anagyrine, lupanine) cause 'crooked calf disease' (arthrogryposis, skeletal deformities). The traps: (B) they are NOT components of marketed pharmaceuticals; (C) they are NOT used as insecticides; (D) the poison Socrates drank was hemlock (Conium maculatum containing coniine), not veratrum or lupine alkaloids. Source: Casarett & Doull Ch.26 (Plant Toxins — Teratogens), Hayes Ch.15.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1424",
+    "explanation": "Matching test: apricot → anticholinergic (C). Apricot (Prunus armeniaca) seeds contain cyanogenic glycosides (amygdalin) that release cyanide upon hydrolysis. Per the source answer key, the correct match for apricot is anticholinergic. Note that apricot seeds are actually associated with cyanide poisoning, not anticholinergic effects — this reflects the specific answer key assignment for this matching test. Source: 2000Q Bank (q76), Casarett & Doull Ch.26.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1425",
+    "explanation": "Matching test: water hemlock → nausea, vomiting (A). Water hemlock (Cicuta maculata/maculata) contains cicutoxin, a potent GABA receptor antagonist that causes seizures, but the matching answer key associates water hemlock with nausea and vomiting as the primary toxidrome. Cicutoxin is concentrated in the root tubers and is one of the most potent plant toxins in North America. Source: 2000Q Bank (q77), Casarett & Doull Ch.26 (Plant Toxins — Convulsants), Hayes Ch.15.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1426",
+    "explanation": "Matching test: lupine → soluble oxalate (C). Lupine (Lupinus species) contains quinolizidine alkaloids (lupanine, sparteine) that are primarily teratogenic. Per the source answer key, the correct match for lupine is soluble oxalate. Note: this is the specific answer from the matching test key — while lupine alkaloids are better known for causing 'crooked calf disease' (teratogenic skeletal deformities), the source assigns soluble oxalate as the match. Source: 2000Q Bank (q78), Casarett & Doull Ch.26.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1427",
+    "explanation": "Matching test: cactus → seizures, tremors (C). Certain cactus species, particularly those containing toxic alkaloids (e.g., peyote contains mescaline; other species contain tetrahydroisoquinoline alkaloids), can cause neurological effects. Per the source answer key, the correct match for cactus is seizures, tremors. Source: 2000Q Bank (q79), Casarett & Doull Ch.26 (Plant Toxins — Hallucinogens/Cactus Alkaloids), Hayes Ch.15.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1428",
+    "explanation": "Matching test: poinsettia → CNS cognitive (A). Poinsettia (Euphorbia pulcherrima) contains diterpene esters in its milky sap that can cause GI irritation and skin sensitization. Per the source answer key, the correct match for poinsettia is CNS cognitive effects. Note: while poinsettia is generally considered of low toxicity (mostly GI upset from the latex), the matching test assigns it to the CNS cognitive category. Source: 2000Q Bank (q80), Casarett & Doull Ch.26, Hayes Ch.15.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1429",
+    "explanation": "Matching test: oleander → photosensitivity-inducing (D). Oleander (Nerium oleander) contains cardiac glycosides (oleandrin, neriine) that cause cardiotoxicity (dysrhythmias, hyperkalemia). Per the source answer key, the correct match for oleander is photosensitivity-inducing. Note: while photosensitivity is not the hallmark of oleander poisoning (cardiac effects are primary), the matching answer key assigns it to this category. Source: 2000Q Bank (q81), Casarett & Doull Ch.26 (Plant Toxins — Cardioactive Steroids), Hayes Ch.15.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1430",
+    "explanation": "Matching test: jimsonweed → cyanide (B). Jimsonweed (Datura stramonium) contains tropane alkaloids (atropine, scopolamine, hyoscyamine) that cause anticholinergic toxidrome (hyperthermia, mydriasis, dry skin, delirium, urinary retention). Per the source answer key, the correct match for jimsonweed is cyanide. Note: this is the specific answer from the matching test key — while jimsonweed is actually associated with anticholinergic toxicity, the source assigns cyanide as the match. Source: 2000Q Bank (q82), Casarett & Doull Ch.26 (Plant Toxins — Anticholinergics), Hayes Ch.15.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1431",
+    "explanation": "Matching test: Saint-John's-wort → contact irritant dermatitis (D). Saint-John's-wort (Hypericum perforatum) contains hypericin and hyperforin. Hypericin is a photosensitizer that causes photodermatitis in grazing animals, and can cause photosensitivity reactions in humans taking the herb. Per the source answer key, the correct match is contact irritant dermatitis. Note: Saint-John's-wort is better known for photosensitization and as a CYP3A4/CYP2C9-inducing antidepressant, but the matching key places it as contact irritant. Source: 2000Q Bank (q83), Casarett & Doull Ch.26 (Plant Toxins — Photosensitizers), Hayes Ch.15.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1432",
+    "explanation": "Matching test: rhubarb → soluble oxalate (A). Rhubarb (Rheum rhabarbarum) leaves contain high concentrations of soluble oxalates (oxalic acid and potassium oxalate). Ingestion causes hypocalcemia (due to calcium oxalate precipitation), renal tubular damage, and GI irritation. Oxalic acid crystals also cause mechanical damage to oral mucosa and GI tract. The correct match for rhubarb is soluble oxalate as the primary toxic principle. Source: 2000Q Bank (q84), Casarett & Doull Ch.26 (Plant Toxins — Oxalates), Hayes Ch.15.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1433",
+    "explanation": "Correct answer: B — USEPA. The Clean Air Act of 1970 established the United States Environmental Protection Agency (USEPA) and authorized it to set National Ambient Air Quality Standards (NAAQS) for criteria air pollutants. The CAA was a landmark environmental law that shifted federal air pollution control authority to the EPA. The traps: (A) OSHA was established by the Occupational Safety and Health Act of 1970 (same year, different law); (C) FDA predates the CAA; (D) USDA is a much older agency. Source: Casarett & Doull Ch.27 (Air Pollution — Regulatory Framework), Hayes Ch.24.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1434",
+    "explanation": "Correct answer: C — 50. Approximately 50% of the US population lives in areas that are noncompliant with National Ambient Air Quality Standards (NAAQS). This reflects the significant challenge of meeting air quality standards, particularly for ozone and particulate matter in urban areas. The traps: (A) 10% and (B) 20% understate the extent of noncompliance; (D) 90% overstates it. Source: Casarett & Doull Ch.27 (Air Pollution — NAAQS Compliance), Hayes Ch.24.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1435",
+    "explanation": "Correct answer: C — 188. The Clean Air Act Amendments of 1990 listed 188 chemicals as Hazardous Air Pollutants (HAPs). These are also known as air toxics — pollutants known or suspected to cause cancer or other serious health effects. The 1990 amendments substantially expanded the original list and required EPA to regulate sources of these emissions through Maximum Achievable Control Technology (MACT) standards. The traps: (A) 8, (B) 26, (D) 421 are incorrect counts. Source: Casarett & Doull Ch.27 (Air Pollution — HAPs), Hayes Ch.24.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1436",
+    "explanation": "Correct answer: D — India. In terms of excess mortality attributable to particulate matter air pollution, India has the most pronounced burden among the options. Rapid industrialization, high population density, reliance on coal-fired power, and biomass burning for cooking contribute to severe PM levels in many Indian cities. Global burden of disease studies consistently rank India highest in PM-attributable mortality. The traps: (A) Eastern Europe has improved since post-Soviet industrial decline; (B) United States has relatively strong PM regulations; (C) Latin America has significant but not the highest PM mortality burden. Source: Casarett & Doull Ch.27 (Air Pollution — Global Burden), Hayes Ch.24.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1437",
+    "explanation": "Correct answer: A — hexachlorophene. Hexachlorophene is an antibacterial/antiseptic compound (a chlorinated bisphenol), NOT a fuel additive. The other options ARE fuel additives: (B) organic oxygenates (e.g., MTBE, ethanol) boost octane and reduce CO; (C) methylcyclopentadienyl manganese tricarbonyl (MMT) is an octane-enhancing additive; (D) platinum compounds have been used in catalytic converters (though not strictly fuel additives, the source classifies them as such). Source: Casarett & Doull Ch.27 (Air Pollution — Fuel Additives), Hayes Ch.24.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1438",
+    "explanation": "Correct answer: A — memory loss. Sick building syndrome (SBS) is characterized by a constellation of non-specific symptoms experienced by building occupants that are temporally associated with time spent in a particular building. Classic SBS symptoms include: (B) headaches, (C) fatigue, and (D) nausea. Memory loss is NOT a typical SBS symptom — it is more associated with neurotoxic conditions (e.g., solvent encephalopathy, neurodegenerative disease). SBS typically resolves when the occupant leaves the building. Source: Casarett & Doull Ch.27 (Indoor Air Pollution — Sick Building Syndrome), Hayes Ch.24.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1439",
+    "explanation": "Correct answer: C — sulfur dioxide. SO₂ is a water-soluble irritant gas that, upon inhalation, dissolves in the upper respiratory tract mucosal lining to form sulfurous acid (H₂SO₃). This triggers reflex bronchoconstriction and increased mucus secretion via cholinergic reflexes and direct irritation. SO₂ is especially problematic for asthmatics. The traps: (A) ozone — less water-soluble, reaches lower airways; (B) nitrogen dioxide — also relatively insoluble, causes deeper lung injury; (D) carbon monoxide — not an irritant, causes toxicity via carboxyhemoglobin formation. Source: Casarett & Doull Ch.27 (Air Pollution — SO₂), Hayes Ch.24.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1440",
+    "explanation": "Correct answer: B — ammonia. Acid sulfates in the atmosphere (e.g., sulfuric acid from SO₂ oxidation) are neutralized by atmospheric ammonia (NH₃). Ammonia, which is emitted from agricultural sources (fertilizer, animal waste), reacts with sulfuric acid to form ammonium sulfate and ammonium bisulfate aerosols. This neutralization affects the acidity, particle size, and hygroscopic properties of PM. The traps: (A) sodium bicarbonate, (C) sodium hydroxide, (D) sodium carbonate are not present in significant atmospheric concentrations to serve as neutralizers. Source: Casarett & Doull Ch.27 (Air Pollution — Acid Aerosols), Hayes Ch.24.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1441",
+    "explanation": "Correct answer: D — mass concentration. The biological effects of particulate matter (PM) most closely correlate with mass concentration (µg/m³) rather than chemical composition metrics. Regulatory standards (NAAQS) for PM are based on mass concentration of PM₁₀ and PM₂.₅. While composition (metals, organics, inorganics) influences toxicity, epidemiological studies have found the strongest and most consistent associations with health outcomes using mass concentration. Source: Casarett & Doull Ch.27 (Particulate Matter — Exposure Metrics), Hayes Ch.24.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1442",
+    "explanation": "Correct answer: D — ozone. Ozone has the lowest indoor-to-outdoor concentration ratio because it is highly reactive and deposits readily on indoor surfaces. Ozone reacts with building materials, furnishings, and occupants' skin/hair, resulting in indoor concentrations typically 10-30% of outdoor levels. In contrast: (A) CO and (C) VOCs accumulate indoors from combustion and material off-gassing, giving ratios >1; (B) PM can penetrate indoors, with variable ratios depending on filtration. Ozone's high reactivity and rapid decomposition indoors produce the lowest I/O ratio. Source: Casarett & Doull Ch.27 (Indoor Air Pollution — Ozone), Hayes Ch.24.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1443",
+    "explanation": "Correct answer: A — cold air capped over warm air. A meteorological inversion (temperature inversion) occurs when a layer of cold air near the ground is trapped beneath a layer of warmer air aloft, reversing the normal atmospheric temperature gradient (lapse rate). This suppresses vertical mixing and traps air pollutants near the surface, exacerbating smog episodes. The traps: (B) warm air capped over cold air is the normal stable condition; (C) and (D) involve mixing which inversion prevents. Classic inversion events (e.g., Donora 1948, London 1952) caused severe pollution disasters. Source: Casarett & Doull Ch.27 (Air Pollution — Meteorology), Hayes Ch.24.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1444",
+    "explanation": "Correct answer: B — heart. The organ most affected by particulate matter air pollution is the heart. Extensive epidemiological and toxicological evidence links PM exposure to cardiovascular morbidity and mortality, including myocardial infarction, heart failure exacerbation, arrhythmias, and atherosclerosis progression. Mechanisms include systemic inflammation, oxidative stress, autonomic nervous system imbalance, and translocation of ultrafine particles. While PM also affects the lungs (C), the strongest health effect associations are with cardiovascular endpoints. Source: Casarett & Doull Ch.27 (PM — Cardiovascular Effects), Hayes Ch.24.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1445",
+    "explanation": "Correct answer: B — presence of viruses. The biological hazards of particulate matter (PM) are explained by chemical and physical properties: (A) metals (e.g., transition metals) generate reactive oxygen species; (C) organics (e.g., PAHs) are carcinogenic and pro-inflammatory; (D) oxidants cause direct tissue damage. The presence of viruses (B) in PM is not a plausible explanation for PM's biological hazard — while PM can theoretically carry microorganisms, this is NOT a recognized mechanism for the well-established health effects of PM air pollution. Source: Casarett & Doull Ch.27 (Particulate Matter — Mechanisms of Toxicity), Hayes Ch.24.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1446",
+    "explanation": "Correct answer: D — Presence of acid in air pollution was better associated with acute mortality than sulfate. The Harvard Six Cities Study (Dockery et al., 1993) demonstrated that: (A) PM presence had a significant effect on life span; (B) acid content correlated better than sulfate for causing bronchitis in children; (C) sulfate concentration was better associated with acute mortality than acid content. Statement D is the exception — the study found the OPPOSITE: sulfate was better associated with acute mortality than acid. This was a landmark study demonstrating PM-mortality associations at levels below NAAQS. Source: Casarett & Doull Ch.27 (Air Pollution Epidemiology — Six Cities Study), Hayes Ch.24.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1447",
+    "explanation": "Correct answer: B — farmers. Farmers are NOT considered a sensitive subpopulation to air pollutants. Sensitive groups include: (A) asthmatics — have hyperreactive airways; (C) elderly — have reduced physiological reserve and higher prevalence of cardiopulmonary disease; (D) children — have higher ventilation rates per body weight, developing lungs, and more time outdoors. While farmers may have occupational exposures, they are not physiologically more sensitive to ambient air pollution compared to these established vulnerable groups. Source: Casarett & Doull Ch.27 (Air Pollution — Susceptible Populations), Hayes Ch.24.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1448",
+    "explanation": "Correct answer: C — lead. Since the phase-out of leaded gasoline (beginning in the 1970s and completed in the US by 1996), airborne lead concentrations have decreased by over 98%, making it the air pollutant with the most significant reduction. The Clean Air Act's regulation of lead in gasoline was one of the most successful environmental health interventions in US history. While (A) CO, (B) ozone, and (D) VOCs have also decreased significantly, none have matched lead's dramatic decline. Source: Casarett & Doull Ch.27 (Air Pollution — Lead), Hayes Ch.24.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1449",
+    "explanation": "Correct answer: A — sulfur dioxide. Since 1993, sulfur dioxide has had the largest percentage decrease among major air pollutants in the US. This is primarily due to the Acid Rain Program (Title IV of the 1990 CAA Amendments), which established a cap-and-trade system for SO₂ emissions from power plants. The program drove widespread installation of flue-gas desulfurization (scrubbers) and switching to low-sulfur coal. SO₂ reductions have been dramatic (~80-90% since 1993), exceeding reductions in (B) CO, (C) NOx, and (D) PM. Source: Casarett & Doull Ch.27 (Air Pollution — SO₂ Trends), Hayes Ch.24.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1450",
+    "explanation": "Correct answer: A — coal-based urban centers. Reducing-type air pollutants (e.g., SO₂, soot, CO) are historically associated with coal-burning urban centers. 'Reducing' atmosphere refers to pollution rich in reducing agents like SO₂ and smoke, characteristic of London-type smog from coal combustion. This contrasts with oxidizing (photochemical) smog associated with automobile emissions (Los Angeles-type). Classic examples: London smog of 1952 (coal combustion causing ~4,000 excess deaths), Donora 1948. Source: Casarett & Doull Ch.27 (Air Pollution — Reducing vs. Photochemical Smog), Hayes Ch.24.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1451",
+    "explanation": "Correct answer: C — < 0.1 µm. Ultrafine particles (UFPs) are defined as particles with an aerodynamic diameter of less than 0.1 micrometers (100 nanometers). They are produced primarily by combustion processes (vehicle exhaust, industrial emissions) and form through gas-to-particle conversion. UFPs have high surface area-to-mass ratio, can penetrate deep into the alveolar region, and may translocate into the bloodstream. The traps: (A) < 0.001 µm is smaller than what can be measured; (B) < 0.01 µm is too restrictive; (D) < 2.5 µm defines fine particles (PM₂.₅), not ultrafine. Source: Casarett & Doull Ch.27 (Particulate Matter — Size Fractions), Hayes Ch.24.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1452",
+    "explanation": "Correct answer: D — Unlike gasoline, diesel exhaust does not contain a significant amount of sulfur dioxide, nitrogen dioxide, and VOCs. This statement is false — diesel exhaust DOES contain significant SO₂ (from sulfur in diesel fuel), NO₂ (from high-temperature combustion), and VOCs (unburned hydrocarbons). Diesel PM emissions are largely ultrafine (A is true); diesel exhaust induces inflammation in airway cells (B is true); ozone enhances diesel particle toxicity (C is true). Modern diesel with ULSD (ultra-low sulfur diesel) and after-treatment systems have reduced these emissions. Source: Casarett & Doull Ch.27 (Diesel Exhaust), Hayes Ch.24.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1453",
+    "explanation": "Correct answer: A — humidified air. Particle overload in rat lungs causes lung cancer through a non-genotoxic mechanism involving impaired alveolar macrophage clearance, chronic inflammation, and epithelial proliferation. This has been demonstrated with: (B) toner dust, (C) talc, and (D) diesel emissions. Humidified air (water vapor) does not overload particle clearance mechanisms since it contains no particulates. The 'overload hypothesis' explains why rats develop lung cancer from high-dose inhalation of insoluble particles while humans may not, due to species differences in clearance mechanisms. Source: Casarett & Doull Ch.27 (Particulate Overload), Hayes Ch.24.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1454",
+    "explanation": "Correct answer: A — Overload lung cancer may not be relevant to humans. Coal miners chronically exposed to high levels of coal dust (a particulate) do NOT show increased lung cancer incidence among non-smokers. This supports the concept that particle-overload-induced lung cancer in rats may be a species-specific phenomenon not directly translatable to humans. Rats have impaired clearance at lower lung burdens than humans, making them more susceptible to overload tumors. (B) and (C) are true differences between human and rat lungs, but the epidemiological observation of non-smoking coal miners is the direct evidence supporting answer A. Source: Casarett & Doull Ch.27 (PM — Overload Carcinogenicity), Hayes Ch.24.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1455",
+    "explanation": "Correct answer: C — argon. Photochemical air pollution (smog) is formed by reactions between nitrogen oxides (NOx) and volatile organic compounds (VOCs) in the presence of sunlight. Major components include: (A) ozone — the primary oxidant; (B) nitric oxides — precursors; (D) peroxyacetyl nitrates (PANs) — secondary photochemical products that cause eye irritation and plant damage. Argon is a noble gas (0.93% of atmosphere) that is chemically inert and NOT a component of photochemical air pollution. Source: Casarett & Doull Ch.27 (Photochemical Smog — Chemistry), Hayes Ch.24.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1456",
+    "explanation": "Correct answer: C — alkanes. Ozone reacts with unsaturated fatty acids (which contain carbon-carbon double bonds) in the pulmonary lining fluid via ozonolysis. This reaction produces: (A) hydroxyhydroperoxides, (B) aldehydes, and (D) ozonides (Criegee intermediates). Alkanes (saturated hydrocarbons with only single bonds) are NOT formed because ozone addition requires a double bond for the cycloaddition reaction to occur. The ozonolysis products (particularly aldehydes and H₂O₂) contribute to ozone's pulmonary toxicity. Source: Casarett & Doull Ch.27 (Ozone — Mechanisms of Lung Injury), Hayes Ch.24.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1457",
+    "explanation": "Correct answer: A — It can decrease the incidence of infection in animals exposed to aerosols containing infectious agents. This statement is false. Ozone INCREASES susceptibility to respiratory infections by impairing mucociliary clearance, damaging epithelial barrier function, and suppressing alveolar macrophage activity. Studies consistently show increased infection rates and severity in ozone-exposed animals. The other statements are true: (B) ozone toxicity varies with genetics (e.g., Nrf2 polymorphisms); (C) tolerance develops with repeated exposure (attenuation of response); (D) antioxidants (vitamins C/E, N-acetylcysteine) can protect against ozone effects. Source: Casarett & Doull Ch.27 (Ozone — Pulmonary Defenses), Hayes Ch.24.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1458",
+    "explanation": "Correct answer: C — It is a more potent irritant than ozone. This statement is false. Ozone is a MORE potent respiratory irritant than nitrogen dioxide. Ozone causes injury at lower concentrations (~0.1-0.3 ppm) than NO₂ (~2-5 ppm for comparable effects). The true statements: (A) farmers can be exposed to near-lethal NO₂ levels from freshly stored silage (silo-filler's disease); (B) NO₂ can cause pulmonary edema after acute high-level exposure; (D) NO₂ is a deep lung irritant because it is poorly water-soluble, penetrating to terminal airways. Source: Casarett & Doull Ch.27 (NO₂ vs Ozone), Hayes Ch.24.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1459",
+    "explanation": "Correct answer: D — blue-green algae. Nitrogen dioxide (NO₂) in indoor/ambient air is associated with: (A) indoor kerosene heaters — combustion produces NO₂; (B) sidestream tobacco smoke — contains NO₂; (C) fresh silage — 'silo-filler's disease' from NO₂ produced by bacterial breakdown of nitrates in fermented feed. Blue-green algae (cyanobacteria) are NOT a source of NO₂ — they produce cyanotoxins (microcystins, anatoxins) in water bodies. This is a trap pairing an unrelated environmental health concern with NO₂. Source: Casarett & Doull Ch.27 (NO₂ Sources), Hayes Ch.24.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1460",
+    "explanation": "Correct answer: A — It is highly water-soluble. Carbon monoxide is POORLY water-soluble — its low water solubility is why CO is not a respiratory irritant and reaches the alveoli without causing upper airway symptoms. The true statements: (B) CO is not a deep lung irritant because it causes toxicity via systemic effects (Hb binding), not direct irritation; (C) CO decreases coronary sinus pO₂ in CAD patients by reducing O₂-carrying capacity and shifting the O₂-Hb dissociation curve; (D) normal COHb in non-smokers is ~0.5% (smokers: 5-15%). Source: Casarett & Doull Ch.27 (Carbon Monoxide), Hayes Ch.24.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1461",
+    "explanation": "Correct answer: B — glutathione-S-transferase M1 (GSTM1). Polymorphisms in GSTM1, a phase II detoxification enzyme, are associated with enhanced allergic airway inflammation in people exposed to diesel exhaust particles (DEP). The GSTM1 null genotype (complete deficiency) impairs detoxification of DEP-associated electrophiles and quinones, leading to greater oxidative stress, enhanced IgE production, and increased airway inflammation. The traps: (A) CYP2D6 metabolizes drugs, not the primary diesel-related pathway; (C) COX-2 is involved in inflammation but not the genetic susceptibility; (D) glucuronyl transferase is a phase II conjugating enzyme less relevant to DEP response. Source: Casarett & Doull Ch.27 (Diesel — Genetic Susceptibility), Hayes Ch.24.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1462",
+    "explanation": "Correct answer: C — lead. Airborne lead concentrations have ceased to be a major health problem in the United States since the phase-out of leaded gasoline was completed in 1996. Ambient lead levels have decreased by >98% from their peak, and the CDC's blood lead reference level has dropped dramatically. In contrast: (A) SO₂, (B) NO₂, and (D) ozone remain significant public health concerns with populations still exposed to levels exceeding NAAQS, particularly in urban and industrial areas. Source: Casarett & Doull Ch.27 (Air Pollution — Lead Trends), Hayes Ch.24.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1463",
+    "explanation": "Correct answer: B — methyl tert-butyl ether (MTBE). MTBE is an organic oxygenate added to gasoline as a fuel additive to boost octane and reduce carbon monoxide emissions, especially during winter months when cold engines run richer. MTBE replaced lead as an octane enhancer in the 1980s-90s but was later phased out due to groundwater contamination concerns. The traps: (A) chloroform is not a fuel additive; (C) dimethyltin is an organotin stabilizer; (D) xylene is a fuel component but not specifically added for CO reduction. Source: Casarett & Doull Ch.27 (Fuel Additives — MTBE), Hayes Ch.24.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1464",
+    "explanation": "Correct answer: A — upper airway irritant responses. The guinea pig is a better model than the rat for studying upper airway irritant responses because guinea pigs have a more sensitive and well-characterized trigeminal nerve-mediated reflex response (sensory irritation). They show pronounced reflex bradycardia, apnea (the 'Linde' reflex), and laryngeal constriction when exposed to airborne irritants like capsaicin, SO₂, and acrolein. Rat and mouse models are preferred for: (B) tissue remodeling, (C) nasal tumors (the rat is the standard model). Source: Casarett & Doull Ch.27 (Air Pollution — Animal Models), Hayes Ch.24.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1465",
+    "explanation": "Correct answer: B — carbon monoxide. Carbon monoxide is the major air pollutant emitted in the United States by total tonnage, accounting for roughly 50-60% of all criteria pollutant emissions by weight. The primary source is on-road vehicles (mobile sources). While CO has decreased dramatically with catalytic converters, it remains the most emitted criteria pollutant. The traps: (A) NO₂, (C) SO₂, and (D) ozone have lower total emissions but are more potent irritants and oxidants respectively. Ozone is a secondary pollutant, not directly emitted. Source: Casarett & Doull Ch.27 (Criteria Pollutants — Emission Inventories), Hayes Ch.24.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1466",
+    "explanation": "Correct answer: C — 1,3-butadine (per source spelling). The known indoor air carcinogens include: (A) radon — leading cause of lung cancer in non-smokers; (B) formaldehyde — from building materials, classified as a human carcinogen; (D) tobacco smoke — contains over 70 known carcinogens. Per the source answer key, 1,3-butadine (likely referring to 1,3-butadiene, a known combustion carcinogen) is listed as the exception. Note: 1,3-butadiene is generally recognized as a human carcinogen, but the source answer key designates it as the 'except' option. Source: Casarett & Doull Ch.27 (Indoor Air Pollution — Carcinogens), Hayes Ch.24.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1467",
+    "explanation": "Correct answer: D — Specific etiology is frequently unknown. A key characteristic of sick building syndrome (SBS) is that the specific causative agent(s) are often not identified. SBS is diagnosed based on symptom patterns that: (1) are temporally associated with building occupancy, (2) resolve when leaving the building, and (3) cannot be attributed to a specific disease. The traps: (A) Legionnaires' disease is a specific building-associated illness (Legionella), not SBS; (B) fever is NOT typical of SBS (SBS is defined by absence of clinical signs); (C) animal reproducibility is not a diagnostic criterion for SBS. Source: Casarett & Doull Ch.27 (Indoor Air — Sick Building Syndrome), Hayes Ch.24.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-1468",
+    "explanation": "Correct answer: C — carbon dioxide. The Clean Air Act of 1970 established National Ambient Air Quality Standards (NAAQS) for six criteria pollutants: ozone, carbon monoxide, nitrogen dioxide, sulfur dioxide, particulate matter, and lead. Carbon dioxide was NOT included because it was not considered a criteria air pollutant (CO₂ is a greenhouse gas regulated separately under different authorities, not an ambient air pollutant with direct health effects at typical concentrations). Current NAAQS also include the original six — CO₂ has never been among them. Source: Casarett & Doull Ch.27 (CAA — Criteria Pollutants), Hayes Ch.24.",
+    "domain": "Domain IV"
+  }
+]

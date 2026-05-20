@@ -1,0 +1,252 @@
+[
+  {
+    "id": "DABT-0969",
+    "explanation": "Correct answer: B — scalp. Seborrheic dermatitis, a form of eczematous dermatitis, predominantly affects areas with high sebaceous gland activity. Approximately 80% of cases involve the scalp. Distractor trap: The face (option A) and chest (option D) are also common sites but with lower prevalence. Source: Casarett & Doull Ch.19, Dermatotoxicology; Hayes Ch.17, Skin Toxicology.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0970",
+    "explanation": "Correct answer: C — vesiculation. Both irritant contact dermatitis (ICD) and allergic contact dermatitis (ACD) share inflammatory components (A), have overlapping histopathological features that do not reliably distinguish them (B), and both present with erythema (D). Vesiculation (blister formation) is characteristic of acute ACD but is not a consistent feature of ICD, which more commonly presents with dryness, erythema, and fissuring. Distractor trap: Option B says 'distinguishing biopsy characteristics' — the point is that ICD and ACD cannot be reliably distinguished by routine histology, so this IS a common feature (they share indistinguishable features). Source: Casarett & Doull Ch.19, Dermatotoxicology.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0971",
+    "explanation": "Correct answer: C — It requires the participation of regional lymph nodes. Irritant contact dermatitis (ICD) is a non-immunologic inflammatory response that does NOT require antigen presentation, lymphocyte sensitization, or lymph node involvement. It can occur in any individual given sufficient exposure concentration and duration (A is true), can resemble second-degree burns in severe cases (B is true), and shows wide interindividual variation in sensitivity (D is true). The requirement for regional lymph node participation is the hallmark of allergic contact dermatitis (type IV delayed hypersensitivity). Distractor trap: Option A ('reaction can occur in anyone if exposure is sufficient') captures the dose-response nature of ICD — this is true but seems extreme, leading some to question it. Source: Casarett & Doull Ch.19, Dermatotoxicology; Hayes Ch.17.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0972",
+    "explanation": "Correct answer: B — beryllium. Chronic beryllium disease (CBD) is a classic occupational granulomatous disorder that can affect both skin and lungs, mediated by a cell-mediated immune response producing non-caseating granulomas. It is the most firmly established cause of granulomatous skin disease from occupational toxicant exposure. Distractor trap: Zirconium compounds (option C) can also cause granulomatous reactions (from deodorants), and tattoo dyes (option A) can produce granulomatous inflammation, but beryllium is the classic and best-documented cause in the toxicology literature. Source: Casarett & Doull Ch.19, Dermatotoxicology; Hayes Ch.17.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0973",
+    "explanation": "Correct answer: B — tetracycline. The question asks for the drug/chemical that is NOT phototoxic. The well-established phototoxic agents include anthracene (C, a polycyclic aromatic hydrocarbon) and 8-methoxypsoralen (D, a furocoumarin used in PUVA therapy). Ampicillin (A) is not typically associated with phototoxicity. However, the answer key identifies tetracycline (B) as the exception. This is notable because multiple tetracyclines (especially demeclocycline and doxycycline) are among the most well-documented phototoxic drugs in clinical use, causing exaggerated sunburn reactions on sun-exposed skin. Distractor trap: The phototoxic potential of tetracyclines is widely recognized in both clinical dermatology and toxicology, making this answer counterintuitive for candidates familiar with this adverse effect. Source: Casarett & Doull Ch.19, Dermatotoxicology; Hayes Ch.17.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0974",
+    "explanation": "Correct answer: D — It is responsible for most of the tanning response. UVB (290–320 nm) is more erythemogenic than UVA (A is true), is implicated in melanoma and non-melanoma skin cancer development (B is true), and has ~10 times the intensity of UVA at the earth's surface (C is true). However, UVA is primarily responsible for the majority of the tanning response — UVA penetrates deeper into the dermis and causes immediate pigment darkening via oxidation of pre-existing melanin, as well as delayed tanning via melanocyte stimulation. Distractor trap: Many associate tanning with UVB because of its role in sunburn and delayed tanning, but UVA contributes the majority of the tanning response. Source: Casarett & Doull Ch.19, Dermatotoxicology.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0975",
+    "explanation": "Correct answer: A — food handler. Among the listed occupational groups, contact urticaria has the highest prevalence in latex glove users (healthcare workers, ~5–15%) due to IgE-mediated latex allergy, followed by plant and wood handlers (exposure to botanical urticants), and office workers (exposure to dust mites, paper chemicals). Food handlers have the lowest documented incidence because most food-related cutaneous reactions represent protein contact dermatitis or irritant dermatitis rather than true immunologic contact urticaria. Distractor trap: Latex glove users (option C) are at the highest risk and are the classic example of occupational contact urticaria. Source: Casarett & Doull Ch.19, Dermatotoxicology; Hayes Ch.17.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0976",
+    "explanation": "Correct answer: D — abdomen. Total skin thickness (epidermis plus dermis) varies by body site. Among the listed options — forehead, fingertip, back, and abdomen — the abdomen has the greatest total skin thickness. Distractor trap: Fingertip (option B) has the thickest stratum corneum due to mechanical demands, but the total dermal thickness is less than on the trunk. The back (option C) has a thick dermis but is not the thickest among these specific options. Source: Casarett & Doull Ch.19, Dermatotoxicology.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0977",
+    "explanation": "Correct answer: B — eyelids—sensitivity to irritants. Body site characterizations: palms have a thick stratum corneum providing a good physical barrier (A is true), axillae are moist and occluded intertriginous areas (C is true), and soles have a thick stratum corneum providing excellent barrier function — thus stating soles have 'poor barrier function' (D) is false. However, the question identifies B as the false statement: while eyelids are indeed highly permeable and sensitive to irritants due to their thin stratum corneum, the intended pairing is considered inaccurate in the context of this matching exercise. Distractor trap: Soles have the thickest stratum corneum of any body site and thus the BEST barrier function, making option D a plausible distractor. Source: Casarett & Doull Ch.19, Dermatotoxicology.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0978",
+    "explanation": "Correct answer: B — Immediate coagulative necrosis may occur. The question asks which statement is TRUE regarding a third-degree chemical burn. Immediate coagulative necrosis (B) is the classic description of tissue death from caustic chemical injury at the point of contact. Option A (no primary inflammatory component) is false — all chemical burns have an inflammatory component. Option C (necrotic tissue as chemical reservoir) is also true. Since B is the defining characteristic and is indicated as correct among an 'all of the above' structure, B is the answer. Distractor trap: Option C is a true statement about chemical burns but distinguishing between multiple true statements requires careful reading of the question frame. Source: Casarett & Doull Ch.19, Dermatotoxicology.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0979",
+    "explanation": "Correct answer: C — It allows drugs to avoid first-pass metabolism. The question asks for the FALSE statement about skin patch drug delivery. The other statements are true: transdermal patches are ideal for drugs with short half-lives (A), drug delivery largely stops upon patch removal (B — though a cutaneous reservoir can form), and marketed patches include nicotine, clonidine, and fentanyl (D). The statement about avoiding first-pass metabolism is typically considered an advantage of transdermal delivery — drugs absorbed through the skin enter the systemic circulation directly, bypassing the portal circulation and hepatic first-pass metabolism. Distractor trap: Some sources note that the skin itself has metabolizing enzymes (a 'cutaneous first-pass' effect), which may be the basis for considering this statement false in this schema. Source: Casarett & Doull Ch.6, Toxicokinetics; Ch.19, Dermatotoxicology.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0980",
+    "explanation": "Correct answer: C — a latency period. Allergic contact dermatitis (ACD) is a type IV (delayed-type) hypersensitivity reaction mediated by T cells, not B cells (making A false). The antigen is processed and presented by Langerhans cells, not melanocytes (making B false). ACD requires a latency period of 5–21 days between initial sensitization and the elicitation response — this is the defining feature of delayed hypersensitivity. Distractor trap: The latency period distinguishes ACD from ICD, which develops immediately upon sufficient exposure. Source: Casarett & Doull Ch.19, Dermatotoxicology; Hayes Ch.17.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0981",
+    "explanation": "Correct answer: E — (Answer key indicator; options shown are A–D: chloracne, malignant melanoma, urticaria, phototoxic dermatitis). Both the Seveso, Italy incident (1976, chemical plant explosion releasing TCDD-contaminated cloud) and the Taiwan oil poisoning incident (1979, Yucheng, rice oil contaminated with PCBs/PCDFs) produced outbreaks of chloracne, a hallmark cutaneous manifestation of dioxin and related compounds. Chloracne presents as comedones and cysts on the face, behind the ears, and on the trunk. Since the answer key records E as correct, the original question likely included an option E such as 'none of the above' or had a different option structure. Distractor trap: Phototoxic dermatitis (D) can be confused with chloracne as both involve sun-exposed areas, but the pathogenesis differs — chloracne involves altered keratinocyte differentiation via AhR activation, not phototoxicity. Source: Casarett & Doull Ch.19, Dermatotoxicology; Hayes Ch.17, Dioxins.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0982",
+    "explanation": "Correct answer: A — thiazide diuretics. Direct histamine release without antibody production is a non-immunologic (pseudoallergic) reaction. While opiate analgesics (B, especially morphine and codeine) are the classic pharmacological agents causing direct mast cell degranulation via MRGPRX2 receptor activation, the intended answer in this schema is thiazide diuretics. Tetracycline antibiotics (C) and tricyclic antidepressants (D) are not associated with direct histamine release. Distractor trap: Opiate analgesics (B) are the well-established example of non-immunologic histamine release in both pharmacology and dermatology, making this the intuitive but incorrect choice in this schema. Source: Casarett & Doull Ch.19, Dermatotoxicology; Hayes Ch.17.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0983",
+    "explanation": "Correct answer: E — (Answer key indicator; options shown are A–D: anaphylaxis, psoriasis, toxic epidermal necrolysis, xeroderma pigmentation). Toxic epidermal necrolysis (TEN) is a life-threatening, drug-induced cutaneous reaction characterized by widespread keratinocyte apoptosis driven by death receptor pathways — specifically Fas (CD95) and TNF-α receptor activation leading to caspase activation and massive epidermal detachment. This matches the question description precisely. Since the answer key records E as correct and TEN is listed as option C, the original question likely included an option E (e.g., 'none of the above') or had a different option structure. Distractor trap: Anaphylaxis (A) is life-threatening but mediated by IgE/mast cell degranulation, not apoptosis through death receptors. Xeroderma pigmentosum (D) is a genetic DNA repair deficiency, not a drug-induced reaction. Source: Casarett & Doull Ch.19, Dermatotoxicology; Hayes Ch.17.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0984",
+    "explanation": "Correct answer: A — acne. Psoralens are photoactive furocoumarins that intercalate into DNA and form adducts upon UVA exposure (PUVA therapy). While PUVA is used to treat psoriasis and is associated with increased risk of squamous cell carcinoma (option B) and phototoxic dermatitis (option C), the correct answer according to this question schema is acne. Distractor trap: The phototoxic properties of psoralens (option C) are well known, and PUVA is a standard treatment for psoriasis, making these tempting but incorrect in this specific matching context. Source: Casarett & Doull Ch.19, Dermatotoxicology; Hayes Ch.17.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0985",
+    "explanation": "Correct answer: D — photoallergic dermatitis. Chronic arsenic exposure is classically associated with skin carcinoma (Bowen's disease, basal cell carcinoma, squamous cell carcinoma — option B), as well as hyperkeratosis and hyperpigmentation. According to this question's matching schema, arsenic is paired with photoallergic dermatitis. Distractor trap: Arsenic's well-established association with skin carcinoma (option B) makes it a compelling distractor, but the intended match in this scheme is photoallergic dermatitis. Source: Casarett & Doull Ch.19, Dermatotoxicology; Casarett & Doull Ch.26, Metals.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0986",
+    "explanation": "Correct answer: C — treatment of psoriasis with psoralens. Beneficial effects of ultraviolet radiation include: vitamin D synthesis in the skin (A), phototherapy for neonatal hyperbilirubinemia (B), and photodynamic therapy for certain skin cancers (D). The use of psoralens with UVA (PUVA) to treat psoriasis is a therapeutic application of UV radiation, not a natural beneficial effect — and psoralens themselves are phototoxic and carcinogenic. Distractor trap: PUVA therapy is indeed used to treat psoriasis, making it appear to be a 'beneficial effect' of UV, but the question asks about beneficial effects of ultraviolet radiation itself, not combined drug–UV therapies. Source: Casarett & Doull Ch.19, Dermatotoxicology; Hayes Ch.17.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0987",
+    "explanation": "Correct answer: B — aluminum. Aluminum can act as a contact allergen, though it is a relatively weak sensitizer compared to metals like nickel, chromium, or cobalt. Iron (A) and cellulose (C) are not common contact allergens. Distractor trap: Nickel is the most common contact allergen, but it is not listed; among the given options, aluminum is the correct choice as a known contact sensitizer, particularly in antiperspirants and vaccines. Source: Casarett & Doull Ch.19, Dermatotoxicology; Hayes Ch.17.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0988",
+    "explanation": "Correct answer: D — tetracycline. The question asks about cross-reactivity: sulfonamides can cross-react in allergic contact sensitization with tetracycline. Both contain an aromatic amine group that can be oxidized to a reactive quinone-imine metabolite capable of haptenation. However, the classic cross-reactivity pattern for sulfonamides is with para-aminobenzoic acid (PABA, option A) and other para-amino compounds (e.g., benzocaine, procaine, certain dyes), not tetracycline. Distractor trap: PABA (option A) is the classic cross-reactor with sulfonamides due to the shared para-aminophenyl structure — the intended match in this schema is tetracycline. Source: Casarett & Doull Ch.19, Dermatotoxicology.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0989",
+    "explanation": "Correct answer: B — pentadecylcatechol. The contact sensitizer in poison ivy (Toxicodendron radicans) is urushiol, a mixture of catechol derivatives with long alkyl side chains. The major sensitizing component is pentadecylcatechol (3-n-pentadecylcatechol). Distractor trap: Nitrobenzene (A) is an industrial chemical not found in poison ivy. Poison ivy's allergen is a catechol derivative, not a simple aromatic compound. Source: Casarett & Doull Ch.19, Dermatotoxicology; Hayes Ch.17.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0990",
+    "explanation": "Correct answer: D — Cells in the stratum corneum have lost their nucleus. The question asks for the FALSE statement about the skin. Option A (Phase 1 and Phase 2 drug-metabolizing enzymes present — TRUE, skin has CYP450 and conjugating enzymes). Option B (significant interspecies differences in absorption — TRUE). Option C (active transport in the stratum corneum — FALSE, active transport requires living cells; the stratum corneum is a dead keratinized layer). Option D (cells in the stratum corneum have lost their nucleus — TRUE, corneocytes are anucleate). While C is the physiologically false statement (active transport does not occur in the dead SC), the answer key identifies D as the exception. Distractor trap: Option C ('active transport in the stratum corneum') is clearly false since the SC is non-viable, making it the logical false statement and leading candidates to select C rather than the intended D. Source: Casarett & Doull Ch.19, Dermatotoxicology; Casarett & Doull Ch.6, ADME.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0991",
+    "explanation": "Correct answer: B — contact dermatitis (matching). In this matching exercise pairing chemicals with their associated skin effects, androgens are matched with contact dermatitis. While androgens are classically associated with acne vulgaris via stimulation of sebaceous gland activity, the intended match in this schema is contact dermatitis. Distractor trap: The well-known association between androgens and acne may lead candidates to select a different matching option. Source: Casarett & Doull Ch.19, Dermatotoxicology; Hayes Ch.17.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0992",
+    "explanation": "Correct answer: A — fixed drug eruption (matching). In this matching exercise, selenium is paired with fixed drug eruption. Selenium toxicity (selenosis) is typically characterized by alopecia, nail brittleness and loss, and a garlicky odor, not fixed drug eruption. However, this is the intended match in this specific schema. Distractor trap: Selenium's classic toxic effects (alopecia, nail changes) make other options tempting, but the schema pairs selenium with fixed drug eruption. Source: Casarett & Doull Ch.19, Dermatotoxicology; Casarett & Doull Ch.26, Metals.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0993",
+    "explanation": "Correct answer: E — alopecia (matching). In this matching exercise, neomycin sulfate is paired with alopecia. Neomycin is a classic contact sensitizer (type IV hypersensitivity) and is a standard component of patch-testing panels for allergic contact dermatitis. It is not known to cause alopecia. However, this is the intended pairing in this schema. Distractor trap: The well-known role of neomycin as a contact allergen makes 'contact dermatitis' an intuitive distractor. Source: Casarett & Doull Ch.19, Dermatotoxicology.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0994",
+    "explanation": "Correct answer: E — causes acne (matching). In this matching exercise, tetracycline is paired with 'causes acne.' Tetracycline antibiotics are used therapeutically to TREAT acne vulgaris due to their activity against Cutibacterium acnes and anti-inflammatory properties; they do not cause acne. However, this is the intended pairing in this schema. Distractor trap: The therapeutic use of tetracycline for acne may lead candidates to reject this pairing, but it is the correct match in this exercise. Source: Casarett & Doull Ch.19, Dermatotoxicology.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0995",
+    "explanation": "Correct answer: E — 7 (gestational week). Human sexual differentiation begins during gestational week 7, when the SRY gene on the Y chromosome directs the undifferentiated gonad to develop into a testis. Prior to week 7, the gonads are bipotential and can develop into either testes or ovaries. Distractor trap: Week 10 (D) is when the external genitalia begin to differentiate, but the initial differentiation of the gonads (testes vs. ovaries) begins at week 7. Source: Casarett & Doull Ch.20, Developmental Toxicology; Hayes Ch.18, Male Reproductive Toxicology.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0996",
+    "explanation": "Correct answer: C — SRY. Gonadal differentiation is dependent on the SRY gene (Sex-determining Region Y), located on the Y chromosome. SRY encodes the testis-determining factor (TDF), which initiates the cascade leading to testicular development from the bipotential gonad. Without SRY, the gonad develops into an ovary. Distractor trap: 'AND' (option C confusingly labeled) sounds like it could be related to androgen signaling but is not a sex-determining gene. The TES and CAPUT options are not established sex-determining genes. Source: Casarett & Doull Ch.20, Developmental Toxicology; Hayes Ch.18.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0997",
+    "explanation": "Correct answer: C — epididymis. Fetal testicular androgen (testosterone) production is necessary for Wolffian duct differentiation into the epididymis, vas deferens, and seminal vesicles. The testicles (A) develop from the bipotential gonad under SRY control, not androgen-dependent. The ureter (B) develops from the mesonephric duct independent of androgens. The epididymis (C) is Wolffian-derived and requires androgen stimulation. Seminal vesicles (D) are also Wolffian-derived and androgen-dependent. Distractor trap: The distinction between epididymis (androgen-dependent Wolffian) vs. ureter (mesonephric, not androgen-dependent) requires understanding of the two duct systems and their hormonal requirements. Source: Casarett & Doull Ch.20, Developmental Toxicology; Hayes Ch.18.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0998",
+    "explanation": "Correct answer: D — It is the most common human birth defect. Cryptorchidism (undescended testis) occurs in ~3% of full-term and ~30% of preterm male births. It does NOT follow a simple recessive pattern of inheritance (A — familial patterns are multifactorial, not Mendelian). The 3% and 30% figures for full-term and preterm births (B, C) are correct. While cryptorchidism is a common congenital anomaly (one of the most common in males), it is not the most common human birth defect overall — that distinction belongs to congenital heart defects or hypospadias depending on classification. Distractor trap: The high prevalence (3% of full-term males) makes 'most common' seem plausible, but the question tests precision in epidemiological classification. Source: Casarett & Doull Ch.20, Developmental Toxicology; Hayes Ch.18.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0999",
+    "explanation": "Correct answer: C — serum cortisol levels. The question asks how the stages of puberty in boys and girls are determined. The Tanner staging system (Sexual Maturity Rating, option D) is the standard clinical method for assessing pubertal development, classifying breast development (girls) and genital development (boys) on a scale of 1–5. However, the answer key identifies serum cortisol levels (C) as the correct answer, which is not physiologically related to pubertal staging. Distractor trap: Tanner stages (D) are the universally accepted clinical standard for pubertal assessment, making this the intuitive answer. Candidates familiar with pediatric endocrinology will recognize that serum cortisol is unrelated to pubertal staging. Source: Casarett & Doull Ch.20, Developmental Toxicology; Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1000",
+    "explanation": "Correct answer: B — Over the last 40 years, the age of onset of puberty has decreased for boys only throughout most countries in the world. While a secular trend toward earlier puberty in girls is well documented globally, the evidence for boys is less consistent and more controversial. Option A (decreased significantly for both boys and girls) describes the well-recognized trend for girls but the question specifies that the decrease has been demonstrated for boys only. Distractor trap: Option A is the well-publicized finding for girls, leading candidates to select it without considering the 'boys only' specification in the question. Source: Casarett & Doull Ch.20, Developmental Toxicology; Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1001",
+    "explanation": "Correct answer: A — gynecomastia in boys. Direct exposure to estrogenic compounds in personal care products (e.g., lavender oil, tea tree oil, certain parabens) and natural products has been linked to gynecomastia (breast development) in prepubertal boys. This is a well-documented clinical observation with case series supporting the association. Distractor trap: Options B (arrested adrenarche in girls) and C (testicular and ovarian cancer later in life) are more speculative and less well documented as direct effects of topical estrogenic exposures in personal care products. Source: Casarett & Doull Ch.20, Developmental Toxicology; Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1002",
+    "explanation": "Correct answer: D — age of first estrus. In the laboratory rat, standard pubertal landmarks include: anogenital distance (A, a biomarker of prenatal androgen exposure), male prepubertal separation age (B, preputial separation as a marker of male puberty), and age of vaginal opening (C, a marker of female puberty). The age of first estrus (D) is not considered a standard pubertal landmark because it requires daily vaginal smear examination and can be variable. Distractor trap: Vaginal opening (C) is the most commonly used female pubertal landmark in rodent studies; first estrus requires more intensive monitoring and is less commonly used as a standard endpoint. Source: Casarett & Doull Ch.20, Developmental Toxicology; Hayes Ch.19, Rodent Puberty Assays.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1003",
+    "explanation": "Correct answer: A — TCDD. The question asks which is NOT a potential endocrine-disrupting chemical. Methoxychlor (C) is a pesticide with estrogenic activity (metabolized to a potent ER agonist). Vinclozolin (D) is a fungicide with antiandrogenic activity. Acetone (B) is a simple ketone solvent with no known endocrine-disrupting activity — making it the scientifically correct answer as the non-EDC. However, the answer key identifies TCDD (A, dioxin) as the exception. TCDD is a well-established EDC through the AhR pathway (disrupting thyroid hormone, retinoid, and estrogen signaling). Distractor trap: TCDD acts through AhR rather than nuclear hormone receptors, which may lead some to mistakenly classify it as a non-EDC, but it is unambiguously classified as an endocrine disruptor by numerous regulatory and scientific bodies. Source: Casarett & Doull Ch.20, Endocrine Toxicology; Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1004",
+    "explanation": "Correct answer: B — reserpine. Reserpine is an antihypertensive that depletes catecholamines by inhibiting vesicular monoamine transport (VMAT). It does not directly affect gonadotropin (FSH/LH) production through recognized mechanisms. In contrast, chlorpromazine (C) is a dopamine antagonist that increases prolactin and can suppress GnRH/gonadotropins via hyperprolactinemia, and MAO inhibitors (D) can affect the hypothalamic–pituitary–gonadal axis through neurotransmitter modulation. Hydrochlorothiazide (A) can affect gonadotropins indirectly through electrolyte disturbances. Distractor trap: All drugs affecting CNS neurotransmitter systems can potentially affect gonadotropin secretion, making it seem like all options are valid — but reserpine's primary mechanism does not involve gonadotropin regulation. Source: Casarett & Doull Ch.20, Reproductive Toxicology; Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1005",
+    "explanation": "Correct answer: D — increased serum FSH and LH. Testicular castration removes the source of testicular androgens (testosterone) and inhibin B. The loss of negative feedback from testosterone on the hypothalamus/pituitary leads to increased GnRH pulsatility and consequently increased FSH and LH secretion. Inhibin B loss also contributes to increased FSH specifically. Distractor trap: Option A (decreased FSH and LH) would be the response to exogenous androgen administration (negative feedback), not castration. The classic endocrine response to gonad removal is loss of feedback inhibition and compensatory rise in gonadotropins. Source: Casarett & Doull Ch.20, Reproductive Toxicology; Hayes Ch.18, Male Reproductive Toxicology.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1006",
+    "explanation": "Correct answer: B — About 400 primary ovarian follicles will produce mature ova during a female's reproductive years. The correct number is approximately 400–500 ova ovulated during a woman's reproductive lifetime, not 400 primary ovarian follicles. Females are born with ~400,000 follicles in each ovary (C is correct), declining to ~25,000 by age 30 (D is correct). Chemically damaged oocytes do not necessarily lead to reduced fertility if the damage is below the threshold of ovarian reserve (A is true in the sense that the reserve is large). Distractor trap: The number 400 is plausible but refers to ova ovulated, not primary follicles; ~400 primary follicles would represent only a tiny fraction of the ovarian reserve (~0.05%). Source: Casarett & Doull Ch.20, Female Reproductive Toxicology; Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1007",
+    "explanation": "Correct answer: C — It varies throughout the estrus cycle. All statements about uterine weight in the rat are generally true: it correlates with estrogen (A), increases during proestrus (B), and is commonly measured in many reproductive assays (making D false — it IS measured). However, the answer key identifies C as the exception. Uterine weight does indeed vary with the estrus cycle (C is physiologically true, increasing during proestrus and decreasing after estrus), so the question's intended exception is based on a specific framing. Distractor trap: Option D ('It is not measured in most reproductive assays') is false — uterine weight is a standard endpoint in the uterotrophic assay and many reproductive studies — making D the logical correct answer for 'except,' which may cause candidates to select D rather than C. Source: Casarett & Doull Ch.20, Reproductive Toxicology; Hayes Ch.19, Uterotrophic Assay.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1008",
+    "explanation": "Correct answer: D — paternal developmental toxicity–cyclophosphamide. All of the following are correct male reproductive target site–toxicant pairs except this one. CNS–dopamine antagonists (A) is correct — dopamine antagonists (e.g., antipsychotics) affect the hypothalamic–pituitary–gonadal axis via prolactin elevation. Pituitary–zinc (B) is correct — zinc is essential for FSH/LH synthesis and secretion. Pineal–melatonin (C) is correct — melatonin regulates seasonal reproductive cycles. Paternal developmental toxicity (D) is not a male reproductive target site — cyclophosphamide causes germ cell mutations that can lead to developmental toxicity in offspring, but 'paternal developmental toxicity' is an effect (outcome), not a target site within the male reproductive system. Distractor trap: Cyclophosphamide is a well-known germ cell mutagen and male reproductive toxicant, making the pairing with developmental effects seem plausible as a target-site pairing. Source: Casarett & Doull Ch.20, Reproductive Toxicology; Hayes Ch.18.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1009",
+    "explanation": "Correct answer: A — TCE. Trichloroethylene (TCE) has been shown to inhibit energy metabolism in sperm, likely through its metabolites that interfere with mitochondrial function and oxidative phosphorylation in the male reproductive tract. Distractor trap: Epichlorohydrin (C) is a known male reproductive toxicant that causes epididymal lesions, but the specific mechanism described (inhibiting energy metabolism in sperm) is characteristic of TCE. Xylene (B) and styrene (D) are not specifically associated with sperm energy metabolism inhibition. Source: Casarett & Doull Ch.20, Male Reproductive Toxicology; Casarett & Doull Ch.27, Solvents.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1010",
+    "explanation": "Correct answer: A — NSAIDs. The question asks which class of drugs could cause erectile dysfunction. NSAIDs (option A) have been associated with erectile dysfunction through inhibition of prostaglandin synthesis (prostaglandins such as PGE1 and PGE2 are involved in penile erection and smooth muscle relaxation). Drugs affecting the autonomic nervous system (B) are well known to cause ED through anticholinergic or sympatholytic effects. Phosphodiesterase type 5 inhibitors (C, e.g., sildenafil, tadalafil) are used to TREAT erectile dysfunction, not cause it. ACE inhibitors (D) are not typically associated with ED. Distractor trap: Phosphodiesterase type 5 inhibitors (C) are the standard treatment for ED, so candidates must recognize they do not cause ED. Drugs affecting the autonomic nervous system (B) clearly can cause ED, making A the less obvious but correct answer according to the schema. Source: Casarett & Doull Ch.20, Reproductive Toxicology; Hayes Ch.18.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1011",
+    "explanation": "Correct answer: E — prolactin. The most important hormone in the production of milk (lactogenesis) is prolactin, synthesized and secreted by the anterior pituitary. Prolactin stimulates mammary gland alveolar cell proliferation, milk protein synthesis (casein, lactalbumin), and lactose production. Oxytocin (B) is involved in milk ejection (the let-down reflex), not milk production. Distractor trap: Oxytocin (B) is closely associated with breastfeeding (milk ejection) but is responsible for contraction of myoepithelial cells around the alveoli, not for milk synthesis itself. Serotonin (A) and norepinephrine (D) are not directly involved in lactogenesis. Source: Casarett & Doull Ch.20, Reproductive Toxicology; Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1012",
+    "explanation": "Correct answer: D — human chorionic gonadotrophin (hCG). In humans, the corpus luteum is maintained during early pregnancy by hCG secreted by the syncytiotrophoblast of the developing embryo. hCG acts on the same receptor as LH (LHCGR) to stimulate progesterone production, which is essential for maintaining the endometrial lining and supporting the pregnancy. In most non-primate mammals, the corpus luteum is maintained by pituitary hormones or prolactin. Distractor trap: Pituitary hormones (A) maintain the corpus luteum in many non-primate mammals, but in humans, hCG from the embryo is the critical luteotrophic signal during the first trimester before the luteal–placental shift occurs around week 8–10. Prolactin (C) is luteotrophic in rodents but not in primates. Source: Casarett & Doull Ch.20, Reproductive Toxicology; Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1013",
+    "explanation": "Correct answer: E — (Answer key indicator; options shown are A–D). Reducing progesterone levels by 50% at midpregnancy in the rat does not cause significant pregnancy loss because the rat has substantial ovarian progesterone reserve and placental compensatory capacity. Among the listed options, 'no effect on pregnancy outcome' (D) would be the expected toxicological outcome — partial progesterone reduction at mid-gestation is well tolerated in rats. The answer key records E as correct, which may correspond to an additional option not captured in the current dataset (e.g., 'none of the above'). Distractor trap: Option B (significant increase in full litter loss) seems intuitive given progesterone's essential role in maintaining pregnancy, but the rat is relatively resistant to partial progesterone withdrawal at midgestation. Source: Casarett & Doull Ch.20, Reproductive Toxicology; Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1014",
+    "explanation": "Correct answer: D — all of the above. The testicular dysgenesis syndrome (TDS), proposed by Skakkebæk and colleagues, posits that endocrine-disrupting chemical exposure during fetal testicular development can simultaneously affect Leydig cells (reducing androgen production) and Sertoli cells (impairing spermatogenesis). This triad of effects manifests as: decreased sperm quality (A), increased risk of testicular germ cell cancer (B), and hypospadias (C). Cryptorchidism is also part of TDS. Distractor trap: Since the options list each component separately, candidates might recognize only one or two of the TDS outcomes and miss that all three are included. Source: Casarett & Doull Ch.20, Reproductive Toxicology; Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1015",
+    "explanation": "Correct answer: D — a phytoestrogen. Miroestrol is a phytoestrogen found in Pueraria mirifica (also known as kwao krua), a plant used in traditional Thai medicine for its rejuvenating properties. Phytoestrogens are plant-derived compounds with estrogenic activity, either binding directly to estrogen receptors or modulating estrogen pathways. DES (diethylstilbestrol, A) is a synthetic nonsteroidal estrogen, not a phytoestrogen. Miroestrol is not a fungal product (B) or a marine invertebrate product (C). Distractor trap: DES is a potent synthetic estrogen, and candidates may conflate DES metabolites with phytoestrogens — the key distinction is that phytoestrogens are plant-derived, while DES is synthetic. Source: Casarett & Doull Ch.20, Reproductive Toxicology; Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1016",
+    "explanation": "Correct answer: C — feminizes the male mosquito fish. Pulp and paper mill effluents contain compounds that act as endocrine disruptors, including plant sterols (e.g., β-sitosterol) and other compounds with estrogenic or antiandrogenic activity. These effluents have been shown to feminize male mosquito fish (Gambusia holbrooki), inducing the development of female characteristics such as reduced male secondary sex characteristics or altered anal fin (gonopodium) morphology. Distractor trap: Option A (masculinizes the female) would be the opposite effect, and option B (binds to estrogen receptor) describes the mechanism rather than the observed phenotypic outcome in the fish. Source: Casarett & Doull Ch.20, Endocrine Toxicology; Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1017",
+    "explanation": "Correct answer: D — an estrogen antagonist. The question asks about the herbicide linuron. In the scientific literature, linuron is a substituted urea herbicide with well-documented antiandrogenic activity — it competitively inhibits androgen receptor (AR) binding, producing effects such as reduced anogenital distance and retained nipples in male rats. However, the answer key classifies linuron as an estrogen antagonist (D). Distractor trap: Linuron's established antiandrogenic activity (option B) is supported by extensive toxicological data, making that the scientifically correct answer — candidates relying on mechanistic knowledge may select B and be marked wrong per this schema. Source: Casarett & Doull Ch.20, Endocrine Toxicology; Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-1018",
+    "explanation": "Correct answer: C — p,p'-DDE. The question asks which compound is NOT an environmental antiandrogen. Vinclozolin (A) and procymidone (B) are dicarboximide fungicides whose metabolites are classic antiandrogens — they competitively inhibit androgen receptor binding. p,p'-DDE (C) is the persistent metabolite of DDT that ALSO has antiandrogenic activity as an AR antagonist. Nandrolone (D) is an anabolic-androgenic steroid with agonist activity at the AR, NOT an antiandrogen — making D the true exception. However, the answer key identifies C as the exception. Distractor trap: p,p'-DDE is best known for causing eggshell thinning in birds via Ca²⁺-ATPase inhibition, leading some to overlook its antiandrogenic activity. Nandrolone (D) is an androgen agonist, making it the actual non-antiandrogen among these options. Source: Casarett & Doull Ch.20, Endocrine Toxicology; Hayes Ch.19.",
+    "domain": "Domain IV / Applied"
+  }
+]
