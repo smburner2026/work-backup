@@ -1,0 +1,76 @@
+{
+  "description": "Answer keys extracted from PPTX study group files for Past ABT Exams (source 7)",
+  "database_status": {
+    "source_7_total_questions": 355,
+    "questions_updated": 38,
+    "questions_remaining_without_answers": 317,
+    "notes": "38 answer keys populated in dabt.db for 2015 Recert Part A questions (IDs DABT-4499 to DABT-4536)"
+  },
+  "source_files": {
+    "2015_recert_partA": {
+      "pdf_file": "2015 - Recert Examination.pdf",
+      "answer_sources": [
+        "Szabo questions 1_8.pptx (Q1-8)",
+        "JG questions 9_16.pptx (Q9-16)", 
+        "DABT Prep_Natalia_17-24.pptx (Q17-24)",
+        "2015 ABT recert answers25-40 ADL_AM.pptx (Q25-40)"
+      ],
+      "answers": {
+        "DABT-4499": "A",
+        "DABT-4500": "C",
+        "DABT-4501": "C",
+        "DABT-4502": "E",
+        "DABT-4503": "C",
+        "DABT-4504": "C",
+        "DABT-4505": "B",
+        "DABT-4506": "D",
+        "DABT-4507": "C",
+        "DABT-4508": "E",
+        "DABT-4509": "A",
+        "DABT-4510": "B",
+        "DABT-4511": "A",
+        "DABT-4512": "A",
+        "DABT-4513": "C",
+        "DABT-4514": "E",
+        "DABT-4515": "D",
+        "DABT-4516": "C",
+        "DABT-4517": "A",
+        "DABT-4518": "C",
+        "DABT-4519": "D",
+        "DABT-4520": "C",
+        "DABT-4521": "B",
+        "DABT-4522": "B",
+        "DABT-4523": "B",
+        "DABT-4524": "A",
+        "DABT-4525": "B",
+        "DABT-4526": "B",
+        "DABT-4527": "D",
+        "DABT-4528": "B",
+        "DABT-4529": "C",
+        "DABT-4530": "C",
+        "DABT-4531": "D",
+        "DABT-4532": "C",
+        "DABT-4533": "E",
+        "DABT-4534": "C",
+        "DABT-4535": "D",
+        "DABT-4536": "D"
+      }
+    },
+    "2015_recert_partB": {
+      "pdf_file": "2015 - Recert Examination.pdf (Part B)",
+      "answer_sources": ["Natalia_Recert part B_17-24.pptx"],
+      "notes": "Has answer markers for Q17-24 but question texts not directly extractable to match DB IDs. PPTX shows answers C,A,B,B,A,C,D,E."
+    },
+    "xlsx_compiled": {
+      "file": "2008-2014 Compiled Recert Exams_Ramesh Kovi 2017.xlsx",
+      "total_rows": 830,
+      "answer_letters_found": 621,
+      "notes": "Study group question set referenced to Casarett & Doull, NOT the same as the real exam PDF questions. Different question set."
+    }
+  },
+  "what_was_not_found": {
+    "2013_recert": "Answer keys NOT embedded in PDFs. PPTX files have discussion but few explicit answer markers.",
+    "2017_cert": "No answer keys found anywhere. No study group PPTX files exist for 2017.",
+    "remaining_317_db_questions": "These include DABT-4487 to DABT-4498 (NAFLD vignettes, 2013 recert leftovers) and DABT-4537 to DABT-4841 (2013 recert Part B/C and 2017 cert questions)."
+  }
+}
