@@ -1,0 +1,9 @@
+{
+  "last_report_path": "/root/.hermes/logs/curator/20260518-223311",
+  "last_run_at": "2026-05-18T22:33:11.282328+00:00",
+  "last_run_duration_seconds": 228.194859,
+  "last_run_summary": "auto: no changes; llm: All 9 skills confirmed present, 8 absorbed skills fully replaced by their umbrella content. Here's the summary:\n\n---\n\n## Consolidation Summary\n\nI scanned all 14 agent-created skills and identified **3 clusters** where narrow sibling skills …\narchived 8 skill(s):\n  • remote-workspace-sync → personal-workspace\n  • wsl-drive-cleanup → personal-workspace\n  • document-publishing — pruned (stale)\n  • document-translation-workflows — pruned (stale)\n  • markdown-to-pdf-book — pruned (stale)\n  • shared-content-protocol — pruned (stale)\n  • user-profiling — pruned (stale)\n  • web-content-pipeline — pruned (stale)\nfull report: hermes curator status\nkeep an umbrella stable: hermes curator pin personal-workspace",
+  "last_run_summary_shown_at": "2026-05-18T22:33:11.282328+00:00",
+  "paused": false,
+  "run_count": 1
+}

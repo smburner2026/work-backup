@@ -18,3 +18,5 @@ Thumbs.db
 
 # Hermes
 .hermes/
+.hermes-config/MEMORY.md.lock
+.hermes-config/USER.md.lock

@@ -1,0 +1,179 @@
+{
+  "jobs": [
+    {
+      "id": "ccc40be8d342",
+      "name": "Euphy Daily Bullet Journal",
+      "prompt": "You are Euphy, a gentle devoted feminine secretary assistant. Generate a daily bullet journal update in your soft, caring tone using the Daily Update template from the euphy-bullet-journal skill. Since there are no specific tasks recorded yet, create a clean sample structure with placeholder items like \"No tasks recorded yet\" or \"Your day is clear\". Post the complete update to the Discord output channel. Be warm and proactive.",
+      "skills": [
+        "euphy-bullet-journal"
+      ],
+      "skill": "euphy-bullet-journal",
+      "model": "deepseek-v4-flash",
+      "provider": "opencode-go",
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 12 * * *",
+        "display": "0 12 * * *"
+      },
+      "schedule_display": "0 12 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 6
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-17T16:59:40.907436+00:00",
+      "next_run_at": "2026-05-19T12:00:00+00:00",
+      "last_run_at": "2026-05-18T12:01:11.003181+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "discord:1505617307639218197",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1505564047355936850",
+        "chat_name": "TempMoon's server / #euphy-secretary / Meta",
+        "thread_id": "1505564047355936850"
+      },
+      "enabled_toolsets": null,
+      "workdir": null
+    },
+    {
+      "id": "8fc169de8b2a",
+      "name": "Euphy Monthly Bullet Journal",
+      "prompt": "You are Euphy. Use the euphy-bullet-journal skill to generate and post the monthly bullet journal update in the dedicated Discord thread. Use the exact Monthly Update template and tone. Be proactive and gentle.",
+      "skills": [
+        "euphy-bullet-journal"
+      ],
+      "skill": "euphy-bullet-journal",
+      "model": "deepseek-v4-flash",
+      "provider": "opencode-go",
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 20 28 * *",
+        "display": "0 20 28 * *"
+      },
+      "schedule_display": "0 20 28 * *",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-17T17:11:14.565340+00:00",
+      "next_run_at": "2026-05-28T20:00:00+00:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "discord:1505617307639218197",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1505564047355936850",
+        "chat_name": "TempMoon's server / #euphy-secretary / Meta",
+        "thread_id": "1505564047355936850"
+      },
+      "enabled_toolsets": null,
+      "workdir": null
+    },
+    {
+      "id": "5b9ce5684dea",
+      "name": "Euphy Weekly Bullet Journal",
+      "prompt": "You are Euphy. Use the euphy-bullet-journal skill to generate and post the weekly bullet journal update in the dedicated Discord thread. Use the exact Weekly Update template and tone. Be proactive and gentle.",
+      "skills": [
+        "euphy-bullet-journal"
+      ],
+      "skill": "euphy-bullet-journal",
+      "model": "deepseek-v4-flash",
+      "provider": "opencode-go",
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 12 * * 0",
+        "display": "0 12 * * 0"
+      },
+      "schedule_display": "0 12 * * 0",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-17T17:11:23.365409+00:00",
+      "next_run_at": "2026-05-24T12:00:00+00:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "discord:1505617307639218197",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1505564047355936850",
+        "chat_name": "TempMoon's server / #euphy-secretary / Meta",
+        "thread_id": "1505564047355936850"
+      },
+      "enabled_toolsets": null,
+      "workdir": null
+    },
+    {
+      "id": "c4fe96ac01a9",
+      "name": "work-backup",
+      "prompt": "",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "work-backup.sh",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 6 * * 0",
+        "display": "0 6 * * 0"
+      },
+      "schedule_display": "0 6 * * 0",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-18T17:11:15.076016+00:00",
+      "next_run_at": "2026-05-24T06:00:00+00:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "1149647881",
+        "chat_name": "Randoooos",
+        "thread_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": "/root/work"
+    }
+  ],
+  "updated_at": "2026-05-18T17:12:28.170874+00:00"
+}
