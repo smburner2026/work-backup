@@ -312,3 +312,4 @@ Both distribute access to compute across nodes. The cluster version buys you mod
 - `hermes-agent` references/vps-hetzner-setup.md — VPS deployment workflow
 - `remote-agent-infrastructure` references/hermes-workspace-deployment.md — detailed Workspace deployment guide including dashboard setup, OOM build fix, and systemd persistence
 - `remote-agent-infrastructure` references/git-cross-environment.md — diagnosing and fixing git repo Permission denied after syncing between environments (UID ownership mismatch, orphan UIDs, cross-machine git crashes)
+- `remote-agent-infrastructure` references/secure-config-backup.md — backing up Hermes config (~/.hermes/config.yaml, SOUL.md, memories, skills) to a git repo without leaking secrets. Covers staged sync, sed redaction of tokens, .env exclusion, and GitHub secret alert recovery.
