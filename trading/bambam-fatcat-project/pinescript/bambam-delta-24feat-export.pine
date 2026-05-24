@@ -1,0 +1,315 @@
+//@version=6
+// =================================================================
+// BAMBAM 24-Feature Delta Export v2.2 — TRADINGVIEW PINE SCRIPT
+// =================================================================
+//
+// PURPOSE:
+//   Exports every raw BAMBAM signal as a Strategy Tester trade entry.
+//   Each entry embeds 24 computed features as a pipe-delimited string
+//   in the comment field of strategy.entry(). When you Export CSV from
+//   the Strategy Tester, the Signal column contains:
+//
+//     BEAR|f0|f1|...|f23
+//     BULL|f0|f1|...|f23
+//
+//   The downstream Python parser (enrich_signals.py) splits on '|' and
+//   expects exactly 25 pipe-delimited parts per row (1 direction + 24
+//   floats). Number of parts != 25 → row is skipped.
+//
+// BUG HISTORY (read before auditing):
+//
+//   v1 (original, May 22 2026):
+//     - Working version used bare str.tostring(val) with plain pipe-
+//       delimited floats. But volRatio_delta (feature 19) computed
+//       volRatio_5 with a different rolling average window than the
+//       current volRatio, silently comparing mismatched denominators.
+//       Created systematic bias: v1 volRatio_delta mean=1.61, 70%
+//       positive (should be symmetric around zero if correctly anchored).
+//
+//   v2 (first fix, May 23 2026):
+//     - Fixed volRatio_delta to use avgVol[5] (same window).
+//     - Changed entry IDs from "B"/"S" to "BEAR"/"BULL".
+//     - Introduced make_comment() UDF to build the feature string.
+//     - INTRODUCED NEW BUG: 399/431 signals failed vb+vs≈vol sanity
+//       check, with some rows producing NaN at feature positions 5-6.
+//
+//   v2.1 (second fix, May 23 2026):
+//     - Removed make_comment() — pre-computes str.tostring() at top scope.
+//     - MISDIAGNOSED the cause as a general "Pine v6 function scope bug"
+//       where series[n] doesn't resolve inside UDF bodies. This is wrong —
+//       UDFs handle history references correctly in standard usage.
+//
+//   v2.2 (current, May 23 2026 — audited by Claude):
+//     - No code changes from v2.1. The inline fix is correct.
+//     - Corrected the explanation: the real cause is an interaction
+//       between strategy.entry()'s deferred comment evaluation and
+//       how series cache state appears inside UDFs called from
+//       conditional strategy blocks (see WHY v2 WAS BROKEN below).
+//     - Retains volRatio_delta fix from v2 and BEAR/BULL entry IDs.
+//
+// WHY v2 WAS BROKEN (actual cause):
+//
+//   The real issue is strategy.entry() comment evaluation timing.
+//   When strategy.entry(comment=make_comment("BEAR")) executes inside
+//   `if bearRaw`, Pine calls make_comment() in a deferred context.
+//   Inside that function, expressions like vb1[1] reference series
+//   history, but the UDF's evaluation frame sees a different series
+//   cache state than inline expressions in the main body saw during
+//   the normal bar-by-bar pass.
+//
+//   In particular:
+//     - vol_body = vb1[1] + vs1[1]  evaluated at script body, every bar
+//     - str.tostring(vb1[1])        evaluated inside make_comment,
+//                                   only when the signal fires
+//
+//   These two access paths to "vb1[1]" can resolve to different cached
+//   values when the function is invoked from inside a conditional
+//   branch in strategy context. The Pine runtime treats the series
+//   reference inside the UDF as a fresh access that may not match
+//   what the outer scope computed during the standard evaluation pass.
+//
+//   This is NOT a documented Pine bug — it's an interaction between
+//   UDF evaluation semantics, strategy.entry's deferred comment
+//   evaluation, and how series history caching works across scopes.
+//
+//   The reliable workaround: compute every str.tostring(series_expr)
+//   at top-level scope so all accesses happen during the standard
+//   evaluation pass with consistent series state. String concatenation
+//   has no series-cache dependency, so it works fine in the deferred
+//   context.
+//
+//   General rule: any time you need str.tostring() of a series value
+//   with a history offset, do it at top-level scope, not inside a
+//   function called from a conditional strategy block.
+//
+// PYTHON PARSER DATA CONTRACT:
+//   The enrich_signals.py script expects:
+//     parts = row['Signal'].split('|')
+//     if len(parts) != 25: skip         // exactly 25 pieces
+//     direction = parts[0]               // "BEAR" or "BULL"
+//     feats = [float(p) for p in parts[1:]]  // 24 float64 values
+//
+//   Feature index → name mapping (positions 1-24 in pipe string):
+//     [ 0] vol              = vb1[1] + vs1[1]         // total volume estimate
+//     [ 1] vd               = vb1[1] - vs1[1]         // volume delta
+//     [ 2] avgVol           = sma(vol, lookback)      // rolling average volume
+//     [ 3] volRatio         = vol / avgVol             // volume multiplier
+//     [ 4] vdRatio          = |vd| / vol               // delta intensity
+//     [ 5] vb               = vb1[1]                   // buy body estimate
+//     [ 6] vs               = vs1[1]                   // sell body estimate
+//     [ 7] rsi14            = ta.rsi(close, 14)[1]     // RSI 14 at signal bar
+//     [ 8] rsi7             = ta.rsi(close, 7)[1]      // RSI 7 at signal bar
+//     [ 9] dist_ema21       = close[1] - ema21         // distance from EMA21
+//     [10] dist_ema50       = close[1] - ema50         // distance from EMA50
+//     [11] dist_ema200      = close[1] - ema200        // distance from EMA200
+//     [12] macd_hist        = macd histogram value     // MACD(12,26,9) histogram
+//     [13] atr14            = ta.atr(14)[1]            // ATR(14) at signal bar
+//     [14] rsi14_delta      = rsi14 - rsi14[5]         // RSI change over 5 bars
+//     [15] rsi7_delta       = rsi7 - rsi7[5]           // RSI7 change over 5 bars
+//     [16] macd_hist_delta  = macd_hist - macd_hist[5] // MACD hist change
+//     [17] price_mom5       = (close[1]-close[6])/close[6]*100 // 5-bar momentum %
+//     [18] volRatio_delta   = volRatio - volRatio_5    // volume ratio change (FIXED)
+//     [19] vdRatio_delta    = vdRatio - vdRatio_5      // vdRatio change
+//     [20] ema21_bear       = close[1] < ema21 ? 1:0   // binary cross flag
+//     [21] ema21_bull       = close[1] > ema21 ? 1:0   // binary cross flag
+//     [22] ema50_bear       = close[1] < ema50 ? 1:0   // binary cross flag
+//     [23] ema50_bull       = close[1] > ema50 ? 1:0   // binary cross flag
+//
+// SANITY CHECKS (run on exported CSV):
+//   1. Entry count: ≥400 for 90-day BTCUSDT 5m
+//   2. vb + vs ≈ vol within 1% for ALL signals
+//   3. vdRatio ≈ |vd| / vol within 0.001
+//   4. volRatio ≈ vol / avgVol within 1%
+//   5. No NaN values in any feature column
+//   6. ema cross flags are binary (0 or 1 only)
+//   7. All signal timestamps match perp data within ±5min
+//
+// USAGE:
+//   1. Apply to 5m BTCUSDT.P chart (Binance Futures data source)
+//   2. Set date range to the desired backtest period
+//   3. Open Strategy Tester → Run → Export to CSV
+//   4. Send CSV to Python pipeline: enrich_signals.py <export.csv> --label
+// =================================================================
+
+strategy("BAMBAM 24-Feature Delta Export v2.2", overlay=true,
+  pyramiding=9999,
+  default_qty_value=1,
+  default_qty_type=strategy.fixed,
+  initial_capital=100000000)
+
+// =================================================================
+// INPUTS — match raw BAMBAM signal capture defaults so this export
+// produces the exact same signal set (same arrows, same timestamps).
+// =================================================================
+lookback   = input.int(200, 'Lookback',   minval=20, maxval=500, group='Signal')
+lessRatio  = input.float(0.05, 'Less Ratio', minval=0.001, maxval=0.1, step=0.005, group='Signal')
+volMult    = input.float(1.0, 'Volume Multiplier', minval=0.5, maxval=5.0, step=0.1, group='Signal')
+deltaMode  = input.string("OR", "Delta Mode", options=["OR", "AND"], group='Signal')
+
+// =================================================================
+// BODY VOLUME ESTIMATE (candle-body method)
+//
+// NOT actual taker volume — linear interpolation of total bar volume
+// into buy-side and sell-side components based on close position
+// within the (high, low) range. If high == low (doji), both are zero.
+// =================================================================
+vb1 = high == low ? 0 : volume * (close - low) / (high - low)
+vs1 = high == low ? 0 : volume * (high - close) / (high - low)
+
+// =================================================================
+// BAMBAM SIGNAL LOGIC
+//
+// Fires when the PREVIOUS bar (offset [1]):
+//   1. High ≥ N-bar highest high (ph >= top) — breakout
+//   2. Volume above average (highVol)
+//   3. Delta small (isLessRatio) OR directional (vd < 0/vd > 0)
+//
+// deltaMode gates only the BULL signal — BEAR always uses OR.
+// =================================================================
+ph       = high[1]
+pl       = low[1]
+vd       = vb1[1] - vs1[1]
+vol_body = vb1[1] + vs1[1]
+
+top     = ta.highest(ph, lookback)
+btm     = ta.lowest(pl, lookback)
+avgVol  = math.sum(vol_body, lookback) / lookback
+
+vdRatio     = math.abs(vd / vol_body)
+isLessRatio = vdRatio < lessRatio
+highVol     = vol_body > (avgVol * volMult)
+
+bearRaw = ph >= top and highVol and (isLessRatio or vd < 0)
+bullRaw_OR  = pl <= btm and highVol and (isLessRatio or vd > 0)
+bullRaw_AND = pl <= btm and highVol and isLessRatio and vd > 0
+bullRaw = deltaMode == "AND" ? bullRaw_AND : bullRaw_OR
+
+// =================================================================
+// INDICATOR LEVELS — snapshots at signal bar (close[1])
+// =================================================================
+rsi14_val = ta.rsi(close, 14)[1]
+rsi7_val  = ta.rsi(close, 7)[1]
+
+ema21  = ta.ema(close, 21)[1]
+ema50  = ta.ema(close, 50)[1]
+ema200 = ta.ema(close, 200)[1]
+
+dist_ema21_val  = close[1] - ema21
+dist_ema50_val  = close[1] - ema50
+dist_ema200_val = close[1] - ema200
+
+[_, _, macd_hist_val] = ta.macd(close, 12, 26, 9)
+macd_hist_at = macd_hist_val[1]
+atr14_val    = ta.atr(14)[1]
+
+// =================================================================
+// DELTA FEATURES — 5-bar change (≈25 min on 5m)
+// Each = current_value - value_5_bars_ago
+// =================================================================
+rsi14_delta_val = rsi14_val - ta.rsi(close, 14)[6]
+rsi7_delta_val  = rsi7_val  - ta.rsi(close, 7)[6]
+macd_hist_delta = macd_hist_at - macd_hist_val[6]
+price_mom5_val  = (close[1] - close[6]) / close[6] * 100
+
+// --- Volume delta features (FIX 1 applies here) ---
+// volRatio_delta: volume intensity change over 5 bars
+//   v1 BUG: recomputed the averaging window 5 bars back, giving
+//   mismatched denominators. avgVol[5] uses the same formula,
+//   just sampled 5 bars earlier — both ratios share one window.
+vol_body_5 = vb1[6] + vs1[6]
+volRatio_5 = vol_body_5 / avgVol[5]                    // ← FIX 1
+volRatio_delta_val = vol_body / avgVol - volRatio_5
+
+vd_body_5  = vb1[6] - vs1[6]
+vdRatio_5  = math.abs(vd_body_5 / vol_body_5)
+vdRatio_delta_val = vdRatio - vdRatio_5
+
+// =================================================================
+// EMA CROSS FLAGS — binary, 4 flags exported for derivation
+// =================================================================
+ema21_bear_flag = close[1] < ema21  ? 1 : 0
+ema21_bull_flag = close[1] > ema21  ? 1 : 0
+ema50_bear_flag = close[1] < ema50  ? 1 : 0
+ema50_bull_flag = close[1] > ema50  ? 1 : 0
+
+// =================================================================
+// FEATURE STRING CONSTRUCTION
+//
+// CRITICAL: ALL str.tostring() calls of series values MUST be at
+// TOP-LEVEL SCOPE. Do NOT wrap in a function called from inside
+// `if bearRaw`/`if bullRaw`.
+//
+// Why: strategy.entry() defers comment evaluation to the moment
+// the conditional branch fires. When a UDF runs in that deferred
+// context and accesses series history (e.g., vb1[1]), the series
+// cache it sees may differ from what top-level expressions saw
+// during the normal bar-by-bar evaluation pass. Result: inconsistent
+// values — sometimes NaN, sometimes stale.
+//
+// String concatenation has no series-cache dependency, so it works
+// fine in the deferred context. Compute all strings here.
+// =================================================================
+s_vol   = str.tostring(vol_body)
+s_vd    = str.tostring(vd)
+s_avg   = str.tostring(avgVol)
+s_vr    = str.tostring(vol_body / avgVol)
+s_vdr   = str.tostring(vdRatio)
+s_vb    = str.tostring(vb1[1])
+s_vs    = str.tostring(vs1[1])
+s_r14   = str.tostring(rsi14_val)
+s_r7    = str.tostring(rsi7_val)
+s_d21   = str.tostring(dist_ema21_val)
+s_d50   = str.tostring(dist_ema50_val)
+s_d200  = str.tostring(dist_ema200_val)
+s_macd  = str.tostring(macd_hist_at)
+s_atr   = str.tostring(atr14_val)
+s_r14d  = str.tostring(rsi14_delta_val)
+s_r7d   = str.tostring(rsi7_delta_val)
+s_md    = str.tostring(macd_hist_delta)
+s_pm5   = str.tostring(price_mom5_val)
+s_vrd   = str.tostring(volRatio_delta_val)
+s_vdrd  = str.tostring(vdRatio_delta_val)
+s_21b   = str.tostring(ema21_bear_flag)
+s_21u   = str.tostring(ema21_bull_flag)
+s_50b   = str.tostring(ema50_bear_flag)
+s_50u   = str.tostring(ema50_bull_flag)
+
+// Concatenation order matches Python parser's FEAT_NAMES list exactly
+bear_comment = "BEAR|" +
+  s_vol + "|" + s_vd + "|" + s_avg + "|" + s_vr + "|" + s_vdr + "|" +
+  s_vb + "|" + s_vs + "|" + s_r14 + "|" + s_r7 + "|" +
+  s_d21 + "|" + s_d50 + "|" + s_d200 + "|" + s_macd + "|" + s_atr + "|" +
+  s_r14d + "|" + s_r7d + "|" + s_md + "|" + s_pm5 + "|" +
+  s_vrd + "|" + s_vdrd + "|" +
+  s_21b + "|" + s_21u + "|" + s_50b + "|" + s_50u
+
+bull_comment = "BULL|" +
+  s_vol + "|" + s_vd + "|" + s_avg + "|" + s_vr + "|" + s_vdr + "|" +
+  s_vb + "|" + s_vs + "|" + s_r14 + "|" + s_r7 + "|" +
+  s_d21 + "|" + s_d50 + "|" + s_d200 + "|" + s_macd + "|" + s_atr + "|" +
+  s_r14d + "|" + s_r7d + "|" + s_md + "|" + s_pm5 + "|" +
+  s_vrd + "|" + s_vdrd + "|" +
+  s_21b + "|" + s_21u + "|" + s_50b + "|" + s_50u
+
+// =================================================================
+// STRATEGY ENTRIES
+//
+// pyramiding=9999 ensures every signal is recorded. The comment
+// string appears in the CSV Signal column.
+// =================================================================
+if bearRaw
+    strategy.entry("BEAR", strategy.short, comment=bear_comment)
+
+if bullRaw
+    strategy.entry("BULL", strategy.long, comment=bull_comment)
+
+// =================================================================
+// PLOTTING — visual confirmation
+// =================================================================
+plotshape(series=bullRaw, color=color.new(#00ff88, 0),
+  style=shape.triangleup, location=location.belowbar,
+  offset=-1, size=size.tiny, title="Bull Signal")
+
+plotshape(series=bearRaw, color=color.new(#ff4444, 0),
+  style=shape.triangledown, location=location.abovebar,
+  offset=-1, size=size.tiny, title="Bear Signal")

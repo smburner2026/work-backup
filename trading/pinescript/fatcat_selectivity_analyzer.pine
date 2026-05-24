@@ -1,0 +1,146 @@
+//@version=6
+indicator("FATCAT Selectivity Analyzer — POCKETBAMBAM + Filters", overlay=true)
+
+// ============================================================
+// PURPOSE: Test which filters make BAMBAM match FATCAT's
+// selectivity. Compare signal count side-by-side with FATCAT.
+// ============================================================
+
+// ===================== BASE SIGNAL (POCKETBAMBAM) =====================
+lookback = input.int(200, "BAMBAM Lookback (bars)", minval=50, maxval=2000, group="Base Signal")
+volMult = input.float(1.5, "Volume Multiplier", minval=0.5, maxval=5.0, step=0.1, group="Base Signal")
+lessRatio = input.float(0.03, "Less Ratio (vd_ratio threshold)", minval=0.001, maxval=0.1, group="Base Signal")
+deltaMode = input.string("OR", "Delta Mode", options=["OR", "AND"], group="Base Signal")
+
+// ===================== FILTERS TO TEST =====================
+enableCooldown = input.bool(true, "Enable Cooldown Filter", group="Post-Filters")
+cooldownBars = input.int(96, "Min Bars Between Signals", minval=1, maxval=500, group="Post-Filters")
+
+enablePriceGate = input.bool(false, "Enable Min Price Move", group="Post-Filters")
+minPricePct = input.float(0.5, "Min Price Change (%)", minval=0.1, maxval=10.0, step=0.1, group="Post-Filters")
+
+enableNewLow = input.bool(false, "Require Lower Low than Last", group="Post-Filters")
+
+enablePivotFilter = input.bool(false, "Enable Swing Pivot Filter", group="Post-Filters")
+pivotLeft = input.int(5, "Pivot Left Bars", minval=2, maxval=20, group="Post-Filters")
+pivotRight = input.int(2, "Pivot Right Bars", minval=1, maxval=10, group="Post-Filters")
+
+enableATRFilter = input.bool(false, "Enable ATR Min Move", group="Post-Filters")
+atrPeriod = input.int(14, "ATR Period", minval=5, maxval=50, group="Post-Filters")
+minMoveATR = input.float(0.5, "Min Move (× ATR)", minval=0.1, maxval=3.0, step=0.05, group="Post-Filters")
+
+// ===================== DISPLAY =====================
+showBase = input.bool(true, "Show ALL base signals", group="Display")
+showFiltered = input.bool(true, "Show post-filter signals", group="Display")
+showFATCATstyle = input.bool(true, "Show FATCAT-style (filtered) signals", group="Display")
+
+// ===================== VOLUME CALC =====================
+vb = high == low ? 0 : volume * (close - low) / (high - low)
+vs = high == low ? 0 : volume * (high - close) / (high - low)
+
+// Confirmation bar (shift 1) — POCKETBAMBAM uses this
+ph = high[1]
+pl = low[1]
+vd = vb[1] - vs[1]
+bvol = vb[1] + vs[1]
+
+// Rolling calculations
+top = ta.highest(ph, lookback)
+btm = ta.lowest(pl, lookback)
+avgVol = ta.sma(bvol, lookback)
+
+// Delta
+vdRatio = math.abs(vd / bvol)
+isLess = vdRatio < lessRatio
+highVol = bvol > avgVol * volMult
+
+deltaOk = deltaMode == "OR" ? (isLess or vd > 0) : (isLess and vd > 0)
+
+// ===================== BASE RAW SIGNAL =====================
+rawBull = (pl <= btm) and highVol and deltaOk
+// Shift forward to confirmation bar
+baseBull = rawBull[1]
+
+// ===================== COUNT TRACKING =====================
+var totalBaseSignals = 0
+var passedFilterSignals = 0
+var fatcatStyleSignals = 0
+
+// ===================== POST-FILTERS =====================
+var lastSignalBar = -999
+var lastSignalPrice = 0.0
+var lastFilteredBar = -999
+var lastFilteredPrice = 0.0
+var lastFATCATbar = -999
+var lastFATCATprice = 0.0
+
+// -- Swing pivot check --
+isPivotLow = enablePivotFilter ? (not na(ta.pivallow(pivotLeft, pivotRight))) : true
+
+// -- ATR min move check --
+atrVal = ta.atr(atrPeriod)
+hasMinMove = enableATRFilter ? (high - low) > atrVal * minMoveATR : true
+
+// -- Cooldown check --
+cooldownOk = enableCooldown ? (bar_index - lastSignalBar >= cooldownBars) : true
+
+// -- Price gate check --
+priceOk = true
+if enablePriceGate and lastSignalPrice != 0
+    priceChg = math.abs((close - lastSignalPrice) / lastSignalPrice * 100)
+    priceOk := priceChg >= minPricePct
+
+// -- New low check --
+newLowOk = true
+if enableNewLow and lastSignalPrice != 0
+    newLowOk := close < lastSignalPrice
+
+// -- FILTERED signal (base + all active post-filters) --
+filteredBull = baseBull and cooldownOk and priceOk and newLowOk and isPivotLow and hasMinMove
+
+// -- FATCAT-style signal (post-filters + cooldown) --
+fatcatBull = filteredBull
+
+// ===================== COUNTING =====================
+if baseBull
+    totalBaseSignals += 1
+    lastSignalBar := bar_index
+    lastSignalPrice := close
+
+if filteredBull
+    passedFilterSignals += 1
+    lastFilteredBar := bar_index
+    lastFilteredPrice := close
+
+if fatcatBull
+    fatcatStyleSignals += 1
+    lastFATCATbar := bar_index
+    lastFATCATprice := close
+
+// ===================== PLOTTING =====================
+// Base signals (all raw BAMBAM bull signals)
+plotshape(showBase and baseBull, style=shape.triangleup, location=location.belowbar,
+     color=color.new(color.gray, 50), size=size.tiny, title="Base Signal (all)")
+
+// Filtered signals (passed all active post-filters)
+plotshape(showFiltered and filteredBull, style=shape.triangleup, location=location.belowbar,
+     color=color.new(color.blue, 0), size=size.small, title="Filtered Signal")
+
+// FATCAT-style signals (best filter combo)
+plotshape(showFATCATstyle and fatcatBull, style=shape.triangledown, location=location.abovebar,
+     color=color.new(color.teal, 0), size=size.small, title="FATCAT-style")
+
+// ===================== SIGNAL COUNTER TABLE =====================
+var table t = table.new(position.top_right, 2, 4, bgcolor=color.new(#111111, 80), border_color=color.new(#555555, 50))
+if barstate.islast
+    table.cell(t, 0, 0, "Signal Type", text_color=color.white, text_size=size.small)
+    table.cell(t, 1, 0, "Count", text_color=color.white, text_size=size.small)
+    table.cell(t, 0, 1, "Raw BAMBAM (all)", text_color=color.gray, text_size=size.small)
+    table.cell(t, 1, 1, str.tostring(totalBaseSignals), text_color=color.gray, text_size=size.small)
+    table.cell(t, 0, 2, "Post-Filter", text_color=color.blue, text_size=size.small)
+    table.cell(t, 1, 2, str.tostring(passedFilterSignals), text_color=color.blue, text_size=size.small)
+    table.cell(t, 0, 3, "FATCAT-style", text_color=color.teal, text_size=size.small)
+    table.cell(t, 1, 3, str.tostring(fatcatStyleSignals), text_color=color.teal, text_size=size.small)
+
+// ===================== ALERTS =====================
+alertcondition(fatcatBull, title="FATCAT-style Entry", message="FATCAT-style Long Signal @ {{close}}")

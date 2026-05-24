@@ -1,0 +1,55 @@
+//@version=6
+indicator("BAMBAM Signal Capture", overlay=true)
+
+// === Webhook URL (TV only allows port 80) ===
+webhookUrl = input.string("http://YOUR_VPS_IP", "Webhook URL", group="Webhook")
+
+// === Volume Calculations ===
+vb = high == low ? 0 : volume * (close - low) / (high - low)
+vs = high == low ? 0 : volume * (high - close) / (high - low)
+
+// === Signal Settings ===
+lookback = input.int(200, 'Lookback', minval=20, maxval=500, group='Signal')
+lessRatio = input.float(0.05, 'Less Ratio', minval=0.001, maxval=0.1, step=0.005, group='Signal')
+volMult = input.float(1.0, 'Volume Multiplier', minval=0.5, maxval=5.0, step=0.1, group='Signal')
+deltaMode = input.string("OR", "Delta Mode", options=["OR", "AND"], group='Signal')
+
+// === BAMBAM Signal Logic ===
+ph = high[1]
+pl = low[1]
+vd = vb[1] - vs[1]
+vol = vb[1] + vs[1]
+top = ta.highest(ph, lookback)
+btm = ta.lowest(pl, lookback)
+avgVol = math.sum(vol, lookback) / lookback
+vdRatio = math.abs(vd / vol)
+isLessRatio = vdRatio < lessRatio
+highVol = vol > (avgVol * volMult)
+
+// Pre-compute both delta modes (ternary avoids v6 scope issues with if/:=)
+bearRaw_OR = ph >= top and highVol and (isLessRatio or vd < 0)
+bullRaw_OR = pl <= btm and highVol and (isLessRatio or vd > 0)
+bearRaw_AND = ph >= top and highVol and isLessRatio and vd < 0
+bullRaw_AND = pl <= btm and highVol and isLessRatio and vd > 0
+
+bearRaw = deltaMode == "AND" ? bearRaw_AND : bearRaw_OR
+bullRaw = deltaMode == "AND" ? bullRaw_AND : bullRaw_OR
+
+// === Full Payload Builder ===
+// Single-line concat — v6 safe (multi-line + is deprecated)
+// Bool fields use ternary — str.tostring(bool) is unreliable in v6
+makePayload(sigDir) => '{"source":"bambam","direction":"' + sigDir + '","symbol":"' + syminfo.tickerid + '","timeframe":"' + timeframe.period + '","timestamp":"' + str.tostring(time) + '","price":' + str.tostring(close) + ',"vb":' + str.tostring(vb) + ',"vs":' + str.tostring(vs) + ',"vd":' + str.tostring(vd) + ',"vol":' + str.tostring(vol) + ',"vd_ratio":' + str.tostring(vdRatio) + ',"is_less_ratio":' + (isLessRatio ? "true" : "false") + ',"high_vol":' + (highVol ? "true" : "false") + ',"avg_vol":' + str.tostring(avgVol) + ',"ph":' + str.tostring(ph) + ',"pl":' + str.tostring(pl) + ',"top":' + str.tostring(top) + ',"btm":' + str.tostring(btm) + ',"lookback":' + str.tostring(lookback) + ',"less_ratio":' + str.tostring(lessRatio) + ',"vol_mult":' + str.tostring(volMult) + ',"delta_mode":"' + deltaMode + '"}'
+
+// === Alerts ===
+// alert() NOT alertcondition() — accepts series string messages in v6
+// CE10080: remove timeframe="" from indicator() when using alert()
+if bullRaw
+    alert(makePayload("bull"), alert.freq_once_per_bar_close)
+if bearRaw
+    alert(makePayload("bear"), alert.freq_once_per_bar_close)
+
+// === Plot ===
+plotshape(series=bullRaw, color=color.new(#00ff88, 0), style=shape.triangleup,
+  location=location.belowbar, offset=-1, size=size.small, title="Bull")
+plotshape(series=bearRaw, color=color.new(#ff4444, 0), style=shape.triangledown,
+  location=location.abovebar, offset=-1, size=size.small, title="Bear")

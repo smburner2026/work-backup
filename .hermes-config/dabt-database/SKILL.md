@@ -1,6 +1,6 @@
 ---
 name: dabt-database
-description: "Query the expanded DABT Practice Questions Database (4,841 questions across 7 source banks — replaces the old 446-Q xlsx with a SQLite relational db). SQLite-based selection with domain/topic/source indexing, blueprint-weighted sampling, anti-clustering, dedup tracking. Legacy xlsx still available at reference/data/DABT_Practice_Questions_Database.xlsx."
+description: "Query the expanded DABT Practice Questions Database (4,841+ questions across 8 source banks — replaces the old 446-Q xlsx with a SQLite relational db). SQLite-based selection with domain/topic/source indexing, blueprint-weighted sampling, anti-clustering, dedup tracking. Legacy xlsx still available at reference/data/DABT_Practice_Questions_Database.xlsx."
 category: education
 ---
 
@@ -348,7 +348,58 @@ GROUP BY q.id
 HAVING COUNT(a.id) = 0;
 ```
 
-### Known DB Error Patterns Per Organ System
+## Adding User-Contributed Questions
+
+TempMoon/Mike regularly contributes questions from study sessions. When asked "add this question":
+
+### Workflow
+
+1. **Verify the answer** against reference texts (Casarett & Doull, Hayes) before inserting. Use `dabt-reference` three-pass search. Do NOT trust the user's claimed answer if it contradicts reference — flag the discrepancy and let the user judge.
+2. **Assign the next ID**: `SELECT MAX(CAST(SUBSTR(id,6) AS INTEGER)) FROM questions;` then increment (e.g., DABT-4628 → DABT-4629).
+3. **Find the next answer_options autoincrement**: `SELECT MAX(id) FROM answer_options;` — insert options starting at MAX+1.
+4. **Insert into 4 tables**:
+
+```sql
+-- Questions (source_file_id=8 for User-Contributed)
+INSERT INTO questions (id, question_text, correct_answer_letter, correct_answer_text, explanation, source_file_id, bloom_level)
+VALUES ('DABT-XXXX', 'question text', 'A', 'full answer text', 'explanation with source citation', 8, 'Remember/Understand');
+
+-- Answer options (4-5 standard)
+INSERT INTO answer_options (id, question_id, option_letter, option_text) VALUES
+  (N,   'DABT-XXXX', 'A', 'option A text'),
+  (N+1, 'DABT-XXXX', 'B', 'option B text'),
+  (N+2, 'DABT-XXXX', 'C', 'option C text'),
+  (N+3, 'DABT-XXXX', 'D', 'option D text');
+
+-- Topics (1-2 relevant topic tags)
+INSERT INTO question_topics (question_id, topic) VALUES
+  ('DABT-XXXX', 'Relevant Topic'),
+  ('DABT-XXXX', 'Second Topic');
+
+-- Domain classification
+INSERT INTO question_domains (question_id, domain, confidence) VALUES
+  ('DABT-XXXX', 'Domain II', 'tool');
+```
+
+### Domain Assignment Guide
+
+| Topic area | Domain | Typical topics |
+|-----------|--------|----------------|
+| Carcinogenesis, mutagenesis, genotoxicity | Domain II | Carcinogenesis & Mutagenesis, Genotoxicity / DNA Damage |
+| ADME, biotransformation, toxicokinetics | Domain I or II | Biotransformation, ADME |
+| Organ system toxicity (liver, kidney, neuro) | Domain IV | Hepatotoxicity, Nephrotoxicity, Neurotoxicology |
+| Risk assessment, dose-response | Domain III | Risk Assessment, Dose-Response |
+| Clinical toxicology, overdose management | Domain IV | Clinical Toxicology / Overdose Management |
+| Study design, statistics, regulatory | Domain I | Study Design, Regulatory Toxicology |
+
+### Pitfalls
+
+- The `explanation` field must escape single quotes with two single quotes (`''`) in SQL.
+- The topic tags come from existing vocabulary in `question_topics.topic` — use `SELECT DISTINCT topic FROM question_topics ORDER BY topic;` to check available tags.
+- The bloom_level is typically `'Remember/Understand'` for new user-contributed questions unless the question explicitly tests higher-order reasoning (apply/analyze).
+- After inserting, verify all 4 tables with SELECT queries before confirming completion.
+
+## Known DB Error Patterns Per Organ System
 
 The 2000Q Bank (source_file_id=2) has systematic answer key extraction errors that vary by organ system. Before writing explanations for any new batch, check the relevant reference file:
 

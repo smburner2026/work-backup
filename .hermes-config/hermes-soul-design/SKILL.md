@@ -93,13 +93,13 @@ When merging external influence files (e.g., Karpathy's CLAUDE.md, custom instru
 
 See `references/soul-architecture.md` for the full file-level anatomy. Quick reference:
 
-| Component | Location | Notes |
-|-----------|----------|-------|
-| Master soul | `~/.hermes/SOUL.md` | Active persona (profile-dependent) |
-| Profile souls | `~/.hermes/profiles/<name>/SOUL.md` | Per-profile persona override |
-| Default template | `hermes_cli/default_soul.py` | Seeded on first run |
-| Docker soul | `docker/SOUL.md` | Template in repo |
-| Compressed soul refs | `skill:soul-compression/references/` | Example souls (aristocrat, euphy, etc.) |
+| Component | Location | Frontmatter? | Notes |
+|-----------|----------|-------------|-------|
+| Master soul | `~/.hermes/SOUL.md` | Yes (YAML `---`) | Active persona (profile-dependent) |
+| Profile souls | `~/.hermes/profiles/<name>/SOUL.md` | **No** — pure markdown | Uses `---` as markdown section separators, NOT YAML frontmatter |
+| Default template | `hermes_cli/default_soul.py` | N/A | Seeded on first run |
+| Docker soul | `docker/SOUL.md` | Yes | Template in repo |
+| Compressed soul refs | `skill:soul-compression/references/` | Yes | Example souls (aristocrat, euphy, etc.) |
 
 **Key semantics:** SOUL.md is reloaded every message — no restart needed. Deleting it or clearing its contents reverts to the built-in default. The soul is not referenced from `config.yaml` — it's a standalone file in `HERMES_HOME`. Profile switching via `hermes profile switch <name>` activates that profile's SOUL.md.
 

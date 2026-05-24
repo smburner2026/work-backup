@@ -1,18 +1,43 @@
 ---
 name: profile-call
 description: Unified persona trigger — detect "Euphy", "Mike" in messages and switch to the corresponding persona with its associated skills. Costin is the default when no trigger matches.
-version: 1.0.0
+version: 2.0.0
 ---
 
 # Profile Call — Unified Persona Trigger
 
-## CRITICAL: Auto-Load Requirement
+## Two Operational Modes
 
-This skill controls persona switching but cannot detect triggers unless it is **loaded before scanning the user's message**. The chicken-egg problem: the skill defines the trigger strings ("Euphy", "Mike") but the agent only knows to load it by scanning the available skills list before replying.
+This skill supports TWO modes for persona switching. Choose based on infrastructure:
 
-**Rule:** At the start of ANY session with a user who has persona associations (TempMoon → Costin default, Mike and Euphy available), the agent MUST load this skill via `skill_view('profile-call')` before the first response. Without this, the user can call out a persona name and the agent will silently stay in the default.
+### Mode A — Text-Triggered (Single Channel)
 
-**Fallback heuristic:** Even when profile-call is not loaded, if the user addresses the agent by a persona name ("Mike", "Euphy") in their message, the agent should treat that as a persona request and switch. The skill is the authoritative reference for persona definitions, but the names themselves are detectable without it.
+Detect persona names in messages and switch voice inline. Use when you have one shared channel (Telegram DM, general Discord) and the user invokes personas by name.
+
+**Auto-Load Requirement:** This skill controls persona switching but cannot detect triggers unless it is **loaded before scanning the user's message**. At the start of ANY session with a user who has persona associations, load this skill via `skill_view('profile-call')` before the first response.
+
+**Fallback heuristic:** Even when profile-call is not loaded, if the user addresses the agent by a persona name ("Mike", "Euphy") in their message, treat that as a persona request and switch.
+
+### Mode B — Channel Routing (Multiple Channels)
+
+Assign fixed personas per Discord channel via `channel_prompts` in config.yaml. Each channel permanently gets one persona. The gateway injects the persona definition into the system prompt based on channel ID. No text-trigger detection needed — the voice is determined by where the user types.
+
+**Setup:** Add entries under `discord.channel_prompts` in `~/.hermes/config.yaml`:
+```yaml
+discord:
+  channel_prompts:
+    '1505617142991556710': 'You are Euphy...'  # Euphy's input channel
+    '1505617307639218197': 'You are Euphy...'  # Euphy's output channel
+    '<mike-channel-id>': 'You are Mike...'     # Mike's DABT channel
+```
+
+**Restart required:** `systemctl --user restart hermes-gateway` after editing.
+
+**Trade-offs:**
+- Mode A: simpler setup, voice determined by user text. Good for single-channel DM use.
+- Mode B: cleaner separation, voice determined by channel. Good when you have dedicated Discord channels per persona. Session DB and memory are still shared (same gateway profile), but persona consistency is locked in by config rather than by detection.
+
+**Either mode:** the persona definitions below apply. In Mode B, the channel_prompt replaces the detection step but the resulting behavior is identical.
 
 ## How It Works
 
@@ -60,8 +85,9 @@ To extend: add a new entry following the schema above (Trigger, Skills, Voice, B
 ## Pitfalls
 
 - **Chicken-egg detection failure:** If this skill is not loaded, persona triggers in user messages are silently missed. The descriptions in the available skills list are visible to the agent, so the trigger names ("Euphy", "Mike", "Costin") are known — use them as fallback heuristics even when the full skill isn't loaded.
-- **Costin is TempMoon's default.** If TempMoon says "Mike" or refers to DABT study in a tutor-request tone, switch to Mike. If they say "Euphy" or a journal-like request, switch to Euphy. If neither, respond as Costin. TempMoon's default persona preference was confirmed in 2026-05-19 flashcard discussion.
+- **Costin is the default persona.** If the user says "Mike" or refers to DABT study in a tutor-request tone, switch to Mike. If they say "Euphy" (or "Yuffie") or a journal-like request, switch to Euphy. If neither, respond as Costin.
 - **Partial name collision:** "Mike" is short. Do not match "mike" inside words like "mikestone" or "microwave". Use word-boundary matching or exact substring on standalone tokens.
+- **Spelling variants:** "Euphy" and "Yuffie" are used interchangeably by the user. Both trigger the Euphy persona.
 
 ## Registry Health Checks
 

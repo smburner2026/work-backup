@@ -1,0 +1,104 @@
+//@version=6
+// BAMBAM Strategy with Cooldown Gate
+// Template for matching FATCAT entry density on TradingView.
+// Drop on chart, open Strategy Tester, tune gateBars until entries match target.
+//
+// Key toggles for matching FATCAT:
+//   lessRatio=0.03, deltaMode=AND, gateBars=140 (≈ 35h @ 15m)
+//   Green arrows = entries. Grey arrows = signals rejected by the gate.
+strategy(
+  title="BAMBAM Strategy",
+  overlay=true,
+  pyramiding=10,
+  default_qty_value=100,
+  default_qty_type=strategy.percent_of_equity,
+  initial_capital=10000,
+  commission_value=0.04,
+  calc_on_order_fills=true,
+  process_orders_on_close=true
+)
+
+// ============ INPUTS ============
+// Signal
+lookback = input.int(200, "Lookback", minval=20, maxval=500, group="Signal")
+lessRatio = input.float(0.05, "Less Ratio", minval=0.001, maxval=0.1, step=0.005, group="Signal")
+volMult = input.float(1.0, "Volume Multiplier", minval=0.5, maxval=5.0, step=0.1, group="Signal")
+deltaMode = input.string("OR", "Delta Mode", options=["OR", "AND"], group="Signal")
+
+// Gate (FATCAT filter)
+useGate = input.bool(true, "Apply Cooldown Gate", group="Gate")
+gateBars = input.int(140, "Cooldown Bars (140 ≈ 35h @ 15m)", minval=1, maxval=500, group="Gate")
+
+// DCA
+dcaPct = input.float(2.0, "DCA Add % Drop", minval=0.0, maxval=20.0, step=0.5, group="DCA")
+maxAdds = input.int(3, "Max Add Positions", minval=1, maxval=20, group="DCA")
+
+// Exit
+useTp = input.bool(true, "Use Take Profit", group="Exit")
+tpPct = input.float(5.0, "Take Profit %", minval=0.5, maxval=50.0, step=0.5, group="Exit")
+useBearExit = input.bool(false, "Exit on Bear Signal", group="Exit")
+
+// ============ VOLUME ============
+vb = high == low ? 0 : volume * (close - low) / (high - low)
+vs = high == low ? 0 : volume * (high - close) / (high - low)
+
+// ============ BAMBAM SIGNAL ============
+ph = high[1]
+pl = low[1]
+vd = vb[1] - vs[1]
+vol = vb[1] + vs[1]
+top = ta.highest(ph, lookback)
+btm = ta.lowest(pl, lookback)
+avgVol = math.sum(vol, lookback) / lookback
+vdRatio = math.abs(vd / vol)
+isLessRatio = vdRatio < lessRatio
+highVol = vol > (avgVol * volMult)
+
+bullSignal = pl <= btm and highVol and (isLessRatio or vd > 0)
+bearSignal = ph >= top and highVol and (isLessRatio or vd < 0)
+
+if deltaMode == "AND"
+    bullSignal := pl <= btm and highVol and isLessRatio and vd > 0
+    bearSignal := ph >= top and highVol and isLessRatio and vd < 0
+
+// ============ COOLDOWN GATE ============
+var int barsSinceEntry = 999
+var float lastEntryPrice = 0.0
+barsSinceEntry := barsSinceEntry + 1
+
+gatedBull = bullSignal
+if useGate and bullSignal
+    if barsSinceEntry < gateBars
+        gatedBull := false
+
+// ============ ENTRY ============
+dcaOk = true
+if dcaPct > 0 and strategy.opentrades > 0
+    dcaOk := strategy.position_avg_price == 0 ? true :
+             close <= strategy.position_avg_price * (1 - dcaPct / 100)
+
+enoughRoom = strategy.opentrades < maxAdds
+
+if gatedBull and dcaOk and enoughRoom
+    strategy.entry("B", strategy.long,
+      comment="L" + str.tostring(strategy.opentrades + 1))
+    barsSinceEntry := 0
+    lastEntryPrice := close
+
+// ============ EXIT ============
+if strategy.position_size > 0
+    if useTp and close >= strategy.position_avg_price * (1 + tpPct / 100)
+        strategy.close("B", comment="TP")
+    if useBearExit and bearSignal
+        strategy.close("B", comment="BearX")
+
+// ============ PLOTTING ============
+plotshape(series=gatedBull, color=color.new(#00ff88, 0),
+  style=shape.triangleup, location=location.belowbar,
+  offset=-1, size=size.small, title="Entry")
+
+if useGate
+    rejected = bullSignal and not gatedBull
+    plotshape(series=rejected, color=color.new(color.gray, 70),
+      style=shape.triangleup, location=location.belowbar,
+      offset=-1, size=size.tiny, title="Rejected")

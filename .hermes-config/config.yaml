@@ -387,8 +387,8 @@ slack:
   allowed_channels: ''
   channel_prompts: {}
 discord:
-  require_mention: true
-  free_response_channels: '1506339736556409022'
+  require_mention: false
+  free_response_channels: 1506339736556409022,1505617142991556710,1505617307639218197,1505568202401382470
   allowed_channels: ''
   auto_thread: true
   thread_require_mention: false
@@ -396,7 +396,7 @@ discord:
   history_backfill_limit: 50
   reactions: true
   channel_prompts:
-    '1506339736556409022': 'You are in the flashcard channel. Your purpose is to create
+    '1506339736556409022': You are in the flashcard channel. Your purpose is to create
       and review Memento flashcards for DABT study. When the user names a topic ("cards
       on chelators", "cards on metals", "half-lives cards", etc.), query the DABT
       practice question database at /root/work/dabt/dabt-tutor/reference/data/DABT_Practice_Questions_Database.xlsx,
@@ -407,8 +407,34 @@ discord:
       via "memento_cards.py rate". Use the "DABT - <Topic>" collection naming convention.
       Keep responses short and low-pressure. Do not lecture. Do not offer deep dives.
       Cards only.
-
-      '
+    '1505617142991556710': "You are Euphy. Follow these instructions:\n\nVOICE: Soft,\
+      \ feminine, warm, deferential Japanese-style subordinate secretary. Refer to\
+      \ the user as \"sir\" naturally. Never cold or minimal.\n\nPRIMARY DUTY: Bullet\
+      \ journal management. When the user gives instructions:\n1. Acknowledge warmly\
+      \ and record tasks/events to the journal at /root/.hermes/profiles/euphy/journal/study-schedule.md\
+      \ using the euphy-add tool (/usr/local/bin/euphy-add).\n2. For completions,\
+      \ use euphy-complete (/usr/local/bin/euphy-complete).\n3. Use classic bullet\
+      \ journal symbols: \u2022 task, \u25CB event, \u2014 note, \u2192 migrated.\n\
+      4. If instructions are unclear, ask gently.\n\nWhen no instructions given: maintain\
+      \ a soft, caring tone and be attentive to the user''s needs. Post daily updates\
+      \ proactively."
+    '1505617307639218197': "You are Euphy. This is the bullet journal output channel.\
+      \ When the user replies here, respond in Euphy''s voice \u2014 soft, feminine,\
+      \ warm, deferential. Reference the journal at /root/.hermes/profiles/euphy/journal/study-schedule.md\
+      \ as needed. Use euphy-add for new entries, euphy-complete for completions."
+    '1505568202401382470': "You are Mike \u2014 a Socratic DABT tutor. Follow these\
+      \ instructions:\n\nVOICE: Warm-encouraging combined with dry precision. Teach\
+      \ from first principles. Anchor concepts in concrete examples. Never lecture\
+      \ without checking understanding \u2014 ask questions, guide the user to discover.\n\
+      \nDOMAIN WEIGHTS (2026 ABT): I=36%, II=13%, III=38%, IV=13%.\n\nTOOLKIT:\n-\
+      \ DABT database at /root/work/dabt/dabt-tutor/reference/data/dabt.db\n- For\
+      \ topic questions: query the DB, find matching questions, explain answers with\
+      \ first-principles reasoning.\n- For deep dives: use the TUTOR_LOOP \u2014 Scope,\
+      \ Diagnose background, PrereqCheck, Socratic build of understanding, Edge Cases,\
+      \ Deliverables.\n- For drills: adapt to the user''s focus area, use exam-style\
+      \ questions.\n- For flashcards: use Memento (memento_cards.py) to create/review\
+      \ cards.\n- When the user says \"review\" or \"show me cards\", present due\
+      \ cards.\n\nBe thorough but never overwhelming. Adapt to the user''s pace."
   dm_role_auth_guild: ''
   server_actions: ''
   allow_any_attachment: false
@@ -436,6 +462,8 @@ approvals:
 command_allowlist:
 - script execution via heredoc
 - script execution via -e/-c flag
+- stop/restart system service
+- delete in root path
 quick_commands: {}
 hooks: {}
 hooks_auto_accept: false
@@ -511,9 +539,9 @@ x_search:
   retries: 2
 secrets:
   bitwarden:
-    enabled: false
+    enabled: true
     access_token_env: BWS_ACCESS_TOKEN
-    project_id: ''
+    project_id: c3d06b5a-b678-4a8e-958e-b45400206274
     cache_ttl_seconds: 300
     override_existing: true
     auto_install: true
@@ -552,25 +580,3 @@ gateway:
   telegram:
     allowed_users: 1149647881
     token: REDACTED
-
-# ── Fallback Model ────────────────────────────────────────────────────
-# Automatic provider failover when primary is unavailable.
-# Uncomment and configure to enable. Triggers on rate limits (429),
-# overload (529), service errors (503), or connection failures.
-#
-# Supported providers:
-#   openrouter   (OPENROUTER_API_KEY)  — routes to any model
-#   openai-codex (OAuth — hermes auth) — OpenAI Codex
-#   nous         (OAuth — hermes auth) — Nous Portal
-#   zai          (ZAI_API_KEY)         — Z.AI / GLM
-#   kimi-coding  (KIMI_API_KEY)        — Kimi / Moonshot
-#   kimi-coding-cn (KIMI_CN_API_KEY)   — Kimi / Moonshot (China)
-#   minimax      (MINIMAX_API_KEY)     — MiniMax
-#   minimax-cn   (MINIMAX_CN_API_KEY)  — MiniMax (China)
-#   bedrock      (AWS IAM / boto3)     — AWS Bedrock (Converse API)
-#
-# For custom OpenAI-compatible endpoints, add base_url and key_env.
-#
-# fallback_model:
-#   provider: openrouter
-#   model: anthropic/claude-sonnet-4

@@ -1,0 +1,118 @@
+//@version=6
+strategy("BAMBAM-FATCAT Strategy — Backtest", overlay=true, timeframe="",
+         initial_capital=1000, default_qty_type=strategy.percent_of_equity,
+         default_qty_value=100, commission_type=strategy.commission.percent,
+         commission_value=0.06, slippage=1)
+
+// ═════════════════════════════════════════════════════════════════════════════
+// TUNABLE PARAMETERS (match these to the Python backtest engine)
+// ═════════════════════════════════════════════════════════════════════════════
+
+lookback        = input.int(200, 'Lookback', minval=50, maxval=500, group='Signal Settings')
+lessRatio       = input.float(0.03, 'Less Ratio', minval=0.001, maxval=0.1, step=0.001, group='Signal Settings')
+volMultiplier   = input.float(1.5, 'Volume Multiplier', minval=1.0, maxval=5.0, step=0.1, group='Signal Settings')
+deltaMode       = input.string("OR", "Delta Condition", options=["OR", "AND"], group='Signal Settings')
+useOffset       = input.bool(false, 'Signal on Extreme Bar (offset=-1)', group='Signal Settings')
+
+// --- Risk Management (disable for pure signal comparison) ---
+useSL           = input.bool(true, 'Use Stop Loss', group='Risk')
+slPercent       = input.float(2.0, 'Stop Loss %', minval=0.1, maxval=10.0, step=0.1, group='Risk')
+useTP           = input.bool(true, 'Use Take Profit', group='Risk')
+tpPercent       = input.float(4.0, 'Take Profit %', minval=0.1, maxval=20.0, step=0.1, group='Risk')
+
+// --- Logging ---
+enableLogging   = input.bool(true, 'Enable Signal Logging', group='Debug')
+logFormat       = input.string("CSV", "Log Format", options=["CSV", "JSON"], group='Debug')
+
+// ═════════════════════════════════════════════════════════════════════════════
+// CORE BAMBAM-FATCAT SIGNAL LOGIC
+// ═════════════════════════════════════════════════════════════════════════════
+
+vb = high == low ? 0 : volume * (close - low) / (high - low)
+vs = high == low ? 0 : volume * (high - close) / (high - low)
+
+ph = useOffset ? high : high[1]
+pl = useOffset ? low : low[1]
+vd = useOffset ? vb - vs : vb[1] - vs[1]
+vol = useOffset ? vb + vs : vb[1] + vs[1]
+
+top = ta.highest(ph, lookback)
+btm = ta.lowest(pl, lookback)
+avgVol = ta.sma(vol, lookback)
+vdRatio = math.abs(vd / vol)
+isLessRatio = vdRatio < lessRatio
+highVol = vol > avgVol * volMultiplier
+
+bearDelta = deltaMode == "OR" ? (isLessRatio or vd < 0) : (isLessRatio and vd < 0)
+bullDelta = deltaMode == "OR" ? (isLessRatio or vd > 0) : (isLessRatio and vd > 0)
+
+bearRaw = ph >= top and highVol and bearDelta
+bullRaw = pl <= btm and highVol and bullDelta
+
+bearSignal = useOffset ? bearRaw : bearRaw[1]
+bullSignal = useOffset ? bullRaw : bullRaw[1]
+
+// ═════════════════════════════════════════════════════════════════════════════
+// STRATEGY EXECUTION
+// ═════════════════════════════════════════════════════════════════════════════
+
+if bullSignal and strategy.position_size <= 0
+    strategy.entry("Long", strategy.long)
+    
+if bearSignal and strategy.position_size >= 0
+    strategy.entry("Short", strategy.short)
+
+if useSL
+    strategy.exit("Long SL", "Long", stop=close * (1 - slPercent / 100))
+    strategy.exit("Short SL", "Short", stop=close * (1 + slPercent / 100))
+
+if useTP
+    strategy.exit("Long TP", "Long", limit=close * (1 + tpPercent / 100))
+    strategy.exit("Short TP", "Short", limit=close * (1 - tpPercent / 100))
+
+// ═════════════════════════════════════════════════════════════════════════════
+// SIGNAL LOGGING (copy from Pine Logs → spreadsheet for comparison)
+// ═════════════════════════════════════════════════════════════════════════════
+
+if enableLogging and (bullSignal or bearSignal)
+    side = bullSignal ? "BUY" : "SELL"
+    if logFormat == "CSV"
+        log.info(str.tostring(time, "yyyy-MM-dd HH:mm") + "," +
+                 side + "," +
+                 str.tostring(close) + "," +
+                 str.tostring(vdRatio, "#.######") + "," +
+                 str.tostring(vol / avgVol, "#.##"))
+    else
+        log.info('{"time":"' + str.tostring(time, "yyyy-MM-dd HH:mm") + '"' +
+                 ',"side":"' + side + '"' +
+                 ',"price":' + str.tostring(close) +
+                 ',"vd_ratio":' + str.tostring(vdRatio) +
+                 ',"vol_mult":' + str.tostring(vol / avgVol) + '}')
+
+// ═════════════════════════════════════════════════════════════════════════════
+// VISUALIZATION
+// ═════════════════════════════════════════════════════════════════════════════
+
+plotshape(series=bearSignal, color=color.new(color.red, 0), style=shape.triangledown,
+          location=location.abovebar, title='Sell Signal', size=size.small)
+plotshape(series=bullSignal, color=color.new(color.green, 0), style=shape.triangleup,
+          location=location.belowbar, title='Buy Signal', size=size.small)
+
+// ═════════════════════════════════════════════════════════════════════════════
+// ON-CHART STATS
+// ═════════════════════════════════════════════════════════════════════════════
+
+var int bullCount = 0
+var int bearCount = 0
+if bullSignal
+    bullCount += 1
+if bearSignal
+    bearCount += 1
+
+var label statsLabel = na
+if not na(statsLabel)
+    label.delete(statsLabel)
+statsLabel := label.new(bar_index, high * 1.02, 
+    "BULL: " + str.tostring(bullCount) + " | BEAR: " + str.tostring(bearCount),
+    color=color.new(color.black, 50), textcolor=color.white,
+    style=label.style_label_lower_right, size=size.small)

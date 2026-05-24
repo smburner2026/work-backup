@@ -1,0 +1,171 @@
+//@version=6
+indicator("FATCAT Selectivity Analyzer v2 — All Hypotheses", overlay=true)
+
+// ====================================================================
+// ARCHITECTURE: 5 PARALLEL FILTER CHAINS
+// Each chain applies a different hypothesis to the same base BAMBAM signal.
+// Signal counts displayed in a table for side-by-side comparison.
+//
+// Instructions: Load on a 15m BTCUSDT chart alongside the real FATCAT
+// indicator. Tune parameters until the "Best Combo" count matches
+// FATCAT's signal count on the visible date range.
+// ====================================================================
+
+// ===================== BASE SIGNAL CONFIG =====================
+lookback = input.int(200, "Base Lookback (bars)", minval=50, maxval=2000, group="1. Base Signal")
+volMult = input.float(1.5, "Volume Multiplier", minval=0.5, maxval=5.0, step=0.1, group="1. Base Signal")
+lessRatio = input.float(0.03, "Less Ratio", minval=0.001, maxval=0.1, group="1. Base Signal")
+deltaMode = input.string("OR", "Delta Mode", options=["OR", "AND"], group="1. Base Signal")
+
+// ===================== HYPOTHESIS 0: ALT LOOKBACK =====================
+useAltLookback = input.bool(false, "Enable Alt Lookback (H0)", group="2. Alt Lookback")
+altLookback = input.int(600, "Alt Lookback (bars)", minval=50, maxval=2000, group="2. Alt Lookback")
+
+// ===================== HYPOTHESIS 1: COOLDOWN =====================
+enableCooldown = input.bool(true, "Enable Cooldown (H1)", group="3. Cooldown")
+cooldownHours = input.float(2, "Min Hours Between Signals", minval=0, maxval=96, step=0.5, group="3. Cooldown")
+
+// ===================== HYPOTHESIS 2: PRICE GATE =====================
+enablePriceGate = input.bool(true, "Enable Price Gate (H2)", group="4. Price Gate")
+minPricePct = input.float(0.3, "Min Price Change (%)", minval=0.0, maxval=5.0, step=0.1, group="4. Price Gate")
+
+// ===================== HYPOTHESIS 3: LOWER LOW =====================
+enableLowerLow = input.bool(false, "Enable Lower Low (H3)", group="5. Lower Low")
+
+// ===================== HYPOTHESIS 4: DENSITY CAP =====================
+enableDensity = input.bool(false, "Enable Density Cap (H4)", group="6. Density")
+densityWindow = input.int(24, "Density Window (hours)", minval=6, maxval=168, group="6. Density")
+densityLimit = input.int(2, "Max Signals in Window", minval=1, maxval=10, group="6. Density")
+
+// ===================== HYPOTHESIS 5: BEST KNOWN COMBO =====================
+enableBestCombo = input.bool(true, "Enable Best Combo (H5)", group="7. Best Combo")
+comboCooldown = input.float(24, "Combo Cooldown (hours)", minval=0, maxval=96, step=0.5, group="7. Best Combo")
+comboMinMove = input.float(0.5, "Combo Min Move (%)", minval=0.0, maxval=5.0, step=0.1, group="7. Best Combo")
+
+// ===================== BASE SIGNAL ENGINE =====================
+vb = high == low ? 0 : volume * (close - low) / (high - low)
+vs = high == low ? 0 : volume * (high - close) / (high - low)
+
+pl = low[1]
+vd = vb[1] - vs[1]
+bvol = vb[1] + vs[1]
+vdRatio = math.abs(vd / bvol)
+isLess = vdRatio < lessRatio
+highVol = bvol > ta.sma(bvol, lookback) * volMult
+deltaOk = deltaMode == "OR" ? (isLess or vd > 0) : (isLess and vd > 0)
+
+// Base bull signal (standard lookback)
+btm = ta.lowest(pl, lookback)
+rawBull = (pl <= btm) and highVol and deltaOk
+baseBull = rawBull[1]
+
+// Alt lookback signal
+altBtm = ta.lowest(pl, altLookback)
+rawAlt = (pl <= altBtm) and highVol and deltaOk
+altBull = rawAlt[1]
+
+// ===================== TRACKING =====================
+var int sigCount    = 0
+var int altCount     = 0
+var int coolCount    = 0
+var int priceCount   = 0
+var int lowerCount   = 0
+var int densityCount = 0
+var int comboCount   = 0
+
+var float lastCoolP    = 0.0
+var int    lastCoolB   = -999
+var float lastPriceP   = 0.0
+var int    lastPriceB  = -999
+var float lastLowerP   = 0.0
+var int    lastLowerB  = -999
+var float lastComboP   = 0.0
+var int    lastComboB  = -999
+
+var signalTimes = array.new<time>(0)
+
+// ===================== APPLY FILTERS =====================
+if altBull
+    altCount += 1
+
+// H1: Cooldown
+cp = true
+if enableCooldown and lastCoolB != -999
+    hours = (bar_index - lastCoolB) * timeframe.multiplier / 60.0
+    if hours < cooldownHours
+        cp := false
+if baseBull and cp
+    coolCount += 1; lastCoolP := close; lastCoolB := bar_index
+
+// H2: Price gate
+pp = true
+if enablePriceGate and lastPriceB != -999
+    if math.abs(close - lastPriceP) / lastPriceP * 100 < minPricePct
+        pp := false
+if baseBull and pp
+    priceCount += 1; lastPriceP := close; lastPriceB := bar_index
+
+// H3: Lower low
+lp = true
+if enableLowerLow and lastLowerB != -999
+    if close >= lastLowerP
+        lp := false
+if baseBull and lp
+    lowerCount += 1; lastLowerP := close; lastLowerB := bar_index
+
+// H4: Density
+dp = true
+if enableDensity
+    cutoff = timenow - int(densityWindow * 3600000)
+    while array.size(signalTimes) > 0 and array.get(signalTimes, 0) < cutoff
+        array.shift(signalTimes)
+    dp := array.size(signalTimes) < densityLimit
+if baseBull and dp
+    densityCount += 1; array.push(signalTimes, timenow)
+
+// H5: Best combo
+bmp = true
+if enableBestCombo and lastComboB != -999
+    hours = (bar_index - lastComboB) * timeframe.multiplier / 60.0
+    if hours < comboCooldown
+        bmp := false
+    if bmp and comboMinMove > 0
+        if math.abs(close - lastComboP) / lastComboP * 100 < comboMinMove
+            bmp := false
+if baseBull and bmp
+    comboCount += 1; lastComboP := close; lastComboB := bar_index
+
+// Raw count
+if baseBull
+    sigCount += 1
+
+// ===================== PLOTS =====================
+plotshape(baseBull, style=shape.triangleup, location=location.belowbar,
+     color=color.new(color.gray, 60), size=size.tiny, title="Base")
+plotshape(useAltLookback and altBull, style=shape.triangleup, location=location.belowbar,
+     color=color.new(color.purple, 40), size=size.tiny, title="Alt LB")
+plotshape(baseBull and cp, style=shape.triangleup, location=location.belowbar,
+     color=color.new(color.blue, 30), size=size.tiny, title="Cooldown")
+plotshape(baseBull and bmp, style=shape.triangledown, location=location.abovebar,
+     color=color.new(color.teal, 0), size=size.small, title="Best Combo")
+
+// ===================== TABLE =====================
+var table t = table.new(position.top_right, 2, 9,
+     bgcolor=color.new(#0a0a0a, 80), border_color=color.new(#555555, 60))
+if barstate.islast
+    table.cell(t, 0, 0, "Filter", text_color=color.white, text_size=size.small)
+    table.cell(t, 1, 0, "Count", text_color=color.white, text_size=size.small, text_halign=text.align_center)
+    for [i, label, val, col] in [
+        [1, "Raw Base", sigCount, color.gray],
+        [2, "Alt Lookback", altCount, color.purple],
+        [3, "Cooldown", coolCount, color.blue],
+        [4, "Price Gate", priceCount, color.orange],
+        [5, "Lower Low", lowerCount, color.lime],
+        [6, "Density Cap", densityCount, color.maroon],
+        [7, "Best Combo", comboCount, color.teal],
+        [8, "FATCAT target", 18, color.yellow],
+    ]
+        table.cell(t, 0, i, label, text_color=col, text_size=size.small)
+        table.cell(t, 1, i, str.tostring(val), text_color=color.white, text_size=size.small, text_halign=text.align_center)
+
+alertcondition(baseBull and bmp, title="Combo Entry", message="Entry @ {{close}}")

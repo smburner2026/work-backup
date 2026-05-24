@@ -1,0 +1,66 @@
+//@version=6
+strategy("BAMBAM Raw Signal Capture", overlay=true,
+  pyramiding=9999,
+  default_qty_value=1,
+  default_qty_type=strategy.fixed,
+  initial_capital=100000000)
+
+// ============================================================
+// Captures EVERY raw BAMBAM signal as a strategy entry.
+// No cooldown, no DCA, no pyramiding limits, no capital filter.
+// Every arrow the indicator draws = one row in the CSV export.
+//
+// USAGE:
+// 1. Apply to a 5m BTCUSDT.P chart
+// 2. Set date range to desired period
+// 3. Open Strategy Tester → Export to CSV
+// 4. Parse: Signal column = "BULL" or "BEAR"
+// ============================================================
+
+// ============ INPUTS (BAMBAM defaults) ============
+lookback = input.int(200, 'Lookback', minval=20, maxval=500, group='Signal')
+lessRatio = input.float(0.05, 'Less Ratio', minval=0.001, maxval=0.1, step=0.005, group='Signal')
+volMult = input.float(1.0, 'Volume Multiplier', minval=0.5, maxval=5.0, step=0.1, group='Signal')
+deltaMode = input.string("OR", "Delta Mode", options=["OR", "AND"], group='Signal')
+
+// ============ VOLUME (candle-body estimate) ============
+vb = high == low ? 0 : volume * (close - low) / (high - low)
+vs = high == low ? 0 : volume * (high - close) / (high - low)
+
+// ============ BAMBAM SIGNAL LOGIC ============
+ph = high[1]
+pl = low[1]
+vd = vb[1] - vs[1]
+vol = vb[1] + vs[1]
+
+top = ta.highest(ph, lookback)
+btm = ta.lowest(pl, lookback)
+avgVol = math.sum(vol, lookback) / lookback
+
+vdRatio = math.abs(vd / vol)
+isLessRatio = vdRatio < lessRatio
+highVol = vol > (avgVol * volMult)
+
+// Bear signal
+bearRaw = ph >= top and highVol and (isLessRatio or vd < 0)
+
+// Bull signal with delta mode
+bullRaw_OR = pl <= btm and highVol and (isLessRatio or vd > 0)
+bullRaw_AND = pl <= btm and highVol and isLessRatio and vd > 0
+bullRaw = deltaMode == "AND" ? bullRaw_AND : bullRaw_OR
+
+// ============ STRATEGY ENTRIES ============
+if bullRaw
+    strategy.entry("BULL", strategy.long, comment="BULL")
+    
+if bearRaw
+    strategy.entry("BEAR", strategy.short, comment="BEAR")
+
+// ============ PLOTTING ============
+plotshape(series=bullRaw, color=color.new(#00ff88, 0),
+  style=shape.triangleup, location=location.belowbar,
+  offset=-1, size=size.tiny, title="Bull Signal")
+
+plotshape(series=bearRaw, color=color.new(#ff4444, 0),
+  style=shape.triangledown, location=location.abovebar,
+  offset=-1, size=size.tiny, title="Bear Signal")

@@ -1,0 +1,81 @@
+//@version=5
+strategy("BAMBAM Indicator Export", pyramiding=9999, overlay=true, default_qty_type=strategy.percent_of_equity, default_qty_value=100)
+
+// === BAMBAM Core Logic (same as original) ===
+lookback = input.int(200, "Lookback")
+lessRatio = input.float(0.05, "Less Ratio")
+volMult = input.float(1.0, "Volume Multiplier")
+deltaMode = input.string("OR", "Delta Mode", options=["OR", "AND"])
+
+top = ta.highest(high[1], lookback)
+btm = ta.lowest(low[1], lookback)
+
+hf = high[1] >= top
+lf = low[1] <= btm
+
+vb = volume[1] * (close[1] - low[1]) / (high[1] - low[1] == 0 ? 1 : high[1] - low[1])
+vs = volume[1] * (high[1] - close[1]) / (high[1] - low[1] == 0 ? 1 : high[1] - low[1])
+
+vd_abs = vb - vs
+vol = vb + vs
+avgVol = ta.sma(vol, lookback)
+volRatio = vol / avgVol
+vdRatio = math.abs(vd_abs / vol)
+isLess = vdRatio < lessRatio
+highVol = vol > avgVol * volMult
+
+bearHF = hf and highVol
+bearDelta = deltaMode == "OR" ? (isLess or vd_abs < 0) : (isLess and vd_abs < 0)
+bear = bearHF and bearDelta
+
+bullHF = lf and highVol
+bullDeltaOR = isLess or vd_abs > 0
+bullDeltaAND = isLess and vd_abs > 0
+bull = bullHF and (deltaMode == "AND" ? bullDeltaAND : bullDeltaOR)
+
+// === INDICATOR VALUES AT SIGNAL BAR ===
+// ALL indicator values use [1] offset (prior bar) to match BAMBAM's offset=-1 convention
+rsi14 = ta.rsi(close, 14)
+rsi7 = ta.rsi(close, 7)
+ema21 = ta.ema(close, 21)
+ema50 = ta.ema(close, 50)
+ema200 = ta.ema(close, 200)
+[macdLine, signalLine, histLine] = ta.macd(close, 12, 26, 9)
+
+// Distance from EMA as % of price (prior bar)
+dist_ema21 = (close[1] - ema21[1]) / ema21[1] * 100
+dist_ema50 = (close[1] - ema50[1]) / ema50[1] * 100
+dist_ema200 = (close[1] - ema200[1]) / ema200[1] * 100
+
+atr14 = ta.atr(14)
+
+// === EXPORT: 14 features per signal ===
+// Format: vol_body|vd_body|avgVol_body|volRatio_body|vdRatio_body|vb_prev|vs_prev|rsi14|rsi7|dist_ema21|dist_ema50|dist_ema200|macd_hist|atr14
+
+if bear
+    comment_str = str.tostring(vol) + "|" + str.tostring(vd_abs) + "|" + str.tostring(avgVol) + "|" + str.tostring(volRatio) + "|" + str.tostring(vdRatio) + "|" + str.tostring(vb) + "|" + str.tostring(vs) + "|" + str.tostring(rsi14[1]) + "|" + str.tostring(rsi7[1]) + "|" + str.tostring(dist_ema21) + "|" + str.tostring(dist_ema50) + "|" + str.tostring(dist_ema200) + "|" + str.tostring(histLine[1]) + "|" + str.tostring(atr14[1])
+    strategy.entry("S", strategy.short, comment=comment_str)
+
+if bull
+    comment_str = str.tostring(vol) + "|" + str.tostring(vd_abs) + "|" + str.tostring(avgVol) + "|" + str.tostring(volRatio) + "|" + str.tostring(vdRatio) + "|" + str.tostring(vb) + "|" + str.tostring(vs) + "|" + str.tostring(rsi14[1]) + "|" + str.tostring(rsi7[1]) + "|" + str.tostring(dist_ema21) + "|" + str.tostring(dist_ema50) + "|" + str.tostring(dist_ema200) + "|" + str.tostring(histLine[1]) + "|" + str.tostring(atr14[1])
+    strategy.entry("L", strategy.long, comment=comment_str)
+
+// === PARSING (Python) ===
+// Feature indices in the pipe-delimited Signal column:
+//   0: vol_body (body-estimate total volume)
+//   1: vd_body (volume delta = vb - vs)
+//   2: avgVol_body (rolling average, same lookback as BAMBAM)
+//   3: volRatio_body (vol / avgVol)
+//   4: vdRatio_body (|vd / vol|)
+//   5: vb_prev (body-estimate buy volume)
+//   6: vs_prev (body-estimate sell volume)
+//   7: rsi14 (RSI-14 of prior bar)
+//   8: rsi7 (RSI-7 of prior bar)
+//   9: dist_ema21 (% distance from EMA-21, prior bar)
+//  10: dist_ema50 (% distance from EMA-50, prior bar)
+//  11: dist_ema200 (% distance from EMA-200, prior bar)
+//  12: macd_hist (MACD histogram of prior bar)
+//  13: atr14 (ATR-14 of prior bar)
+//
+// Positive dist_emaX = price above EMA (bullish bias)
+// Negative dist_emaX = price below EMA (bearish bias)

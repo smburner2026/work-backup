@@ -1,0 +1,61 @@
+//@version=6
+indicator("BAMBAM w/ TakerBuy Toggle", overlay=true, timeframe="")
+
+// === Volume Source Toggle ===
+useTakerBuy = input.bool(false, "Use Real Taker Buy Volume (FATCAT)")
+
+// === Shared Volume Calculations ===
+// Estimate (original BAMBAM)
+vbEst = high == low ? 0 : volume * (close - low) / (high - low)
+vsEst = high == low ? 0 : volume * (high - close) / (high - low)
+
+// Real taker buy (FATCAT)
+[vbSrc, vsSrc] =
+  na(takerbuyvol) ? [vbEst, vsEst] :
+  useTakerBuy     ? [takerbuyvol, math.max(volume - takerbuyvol, 0)] :
+  [vbEst, vsEst]
+
+vb = vbSrc
+vs = vsSrc
+
+// === BAMBAM Signal Logic ===
+lookback = input.int(200, 'Lookback', minval=0, maxval=500, group='Signal')
+lessRatio = input.float(0.05, 'Less Ratio', minval=0.001, maxval=0.1, group='Signal')
+volMult = input.float(1.0, 'Volume Multiplier', minval=0.5, maxval=5.0, step=0.1, group='Signal')
+deltaMode = input.string("OR", "Delta Mode", options=["OR", "AND"], group='Signal')
+
+ph = high[1]
+pl = low[1]
+vd = vb[1] - vs[1]
+vol = vb[1] + vs[1]
+top = ta.highest(ph, lookback)
+btm = ta.lowest(pl, lookback)
+avgVol = math.sum(vol, lookback) / lookback
+vdRatio = math.abs(vd / vol)
+isLessRatio = vdRatio < lessRatio
+highVol = vol > (avgVol * volMult)
+
+bearSignal = ph >= top and highVol and (isLessRatio or vd < 0)
+bullSignal = pl <= btm and highVol and (isLessRatio or vd > 0)
+
+// Apply delta mode
+if deltaMode == "AND"
+    bearSignal := ph >= top and highVol and isLessRatio and vd < 0
+    bullSignal := pl <= btm and highVol and isLessRatio and vd > 0
+
+// === Plot ===
+// BAMBAM mode: black/white
+// TakerBuy/FATCAT mode: green/red
+bullColor = useTakerBuy ? color.new(#00ff88, 0) : color.new(color.white, 0)
+bearColor = useTakerBuy ? color.new(#ff4444, 0) : color.new(color.black, 0)
+
+plotshape(series=bearSignal, color=bearColor, style=shape.triangledown,
+  location=location.abovebar, offset=-1, size=size.small)
+plotshape(series=bullSignal, color=bullColor, style=shape.triangleup,
+  location=location.belowbar, offset=-1, size=size.small)
+
+// Label which mode
+if barstate.islast
+    label.new(bar_index, high, useTakerBuy ? "TakerBuy ON" : "Estimate",
+      color=color.new(#1a1a2e, 80), textcolor=color.white,
+      style=label.style_label_lower_left, size=size.small)

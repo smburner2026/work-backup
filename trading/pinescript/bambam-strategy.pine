@@ -1,0 +1,139 @@
+//@version=6
+strategy(
+  title="BAMBAM Strategy",
+  overlay=true,
+  pyramiding=10,
+  default_qty_value=100,
+  default_qty_type=strategy.percent_of_equity,
+  initial_capital=10000,
+  commission_value=0.04,
+  calc_on_order_fills=true,
+  process_orders_on_close=true
+)
+
+// ============ INPUTS ============
+
+// === Volume Source ===
+volSource = input.string("Estimate", "Volume Source",
+  options=["Estimate", "TakerBuy"], group="Volume")
+
+// === Signal Settings ===
+lookback = input.int(200, "Lookback", minval=20, maxval=500, group="Signal")
+lessRatio = input.float(0.05, "Less Ratio", minval=0.001, maxval=0.1, step=0.005, group="Signal")
+volMult = input.float(1.5, "Volume Multiplier", minval=0.5, maxval=5.0, step=0.1, group="Signal")
+deltaMode = input.string("OR", "Delta Mode", options=["OR", "AND"], group="Signal")
+
+// === Entry Filters ===
+minBarsBetween = input.int(8, "Min Bars: Cooldown", minval=0, maxval=200, group="Entry")
+dcaPct = input.float(0.0, "DCA Drop % (0=off)", minval=0.0, maxval=10.0, step=0.25, group="Entry")
+maxPositions = input.int(5, "Max Add Positions", minval=1, maxval=20, group="Entry")
+
+// === Exit Settings ===
+tpPct = input.float(3.0, "Take Profit %", minval=0.5, maxval=50.0, step=0.25, group="Exit")
+useBearExit = input.bool(true, "Exit on Bear Signal", group="Exit")
+useTp = input.bool(true, "Use Take Profit", group="Exit")
+
+// === Display ===
+showSignals = input.bool(true, "Show Signal Markers", group="Display")
+
+
+// ============ VOLUME CALCULATION ============
+
+// Estimated buy/sell volume (candle-body method)
+vbEst = high == low ? 0 : volume * (close - low) / (high - low)
+vsEst = high == low ? 0 : volume * (high - close) / (high - low)
+
+// Real taker buy volume from broker (available on Binance, Bybit, OKX, Kraken Futures)
+[vbSrc, vsSrc] =
+  na(takerbuyvol) ? [vbEst, vsEst] :
+  volSource == "TakerBuy" ? [takerbuyvol, math.max(volume - takerbuyvol, 0)] :
+  [vbEst, vsEst]
+
+vb = vbSrc
+vs = vsSrc
+
+
+// ============ SIGNAL LOGIC ============
+
+// BAMBAM checks prior bar for extremes using [1] offset
+// This means bullSignal fires on bar i (using bar i-1 data)
+// Original indicator then plots on bar i-1 with offset=-1
+// Strategy enters at close of bar i (where condition is confirmed)
+
+ph = high[1]
+pl = low[1]
+vd = vb[1] - vs[1]
+volTotal = vb[1] + vs[1]
+
+top = ta.highest(ph, lookback)
+btm = ta.lowest(pl, lookback)
+avgVol = math.sum(volTotal, lookback) / lookback
+
+vdRatio = math.abs(vd / volTotal)
+isLessRatio = vdRatio < lessRatio
+highVol = volTotal > (avgVol * volMult)
+
+// Bear signal
+bearSignal = ph >= top and highVol and (isLessRatio or vd < 0)
+
+// Bull signal with selectable delta mode
+bullDelta = switch deltaMode
+    "OR"  => isLessRatio or vd > 0
+    "AND" => isLessRatio and vd > 0
+
+bullSignal = pl <= btm and highVol and bullDelta
+
+
+// ============ ENTRY / EXIT LOGIC ============
+
+// Cooldown counter
+var int barsSinceEntry = 999
+barsSinceEntry := barsSinceEntry + 1
+if bullSignal
+    barsSinceEntry := 0
+
+// Entry conditions
+cooldownOk = barsSinceEntry >= minBarsBetween
+pyramidOk = strategy.opentrades < maxPositions
+
+// DCA filter: only add if price dropped below avg entry price
+dcaOk = true
+if dcaPct > 0 and strategy.opentrades > 0
+    dcaOk := strategy.position_avg_price == 0 ? true :
+             close <= strategy.position_avg_price * (1 - dcaPct / 100)
+
+entryCondition = bullSignal and cooldownOk and pyramidOk and dcaOk
+
+if entryCondition
+    strategy.entry("B", strategy.long,
+      comment="L" + str.tostring(strategy.opentrades + 1))
+
+// Exit logic
+if strategy.position_size > 0
+    // Bear signal exits all
+    if useBearExit and bearSignal
+        strategy.close("B", comment="BearX")
+    
+    // Take profit
+    if useTp
+        tpLevel = strategy.position_avg_price * (1 + tpPct / 100)
+        if close >= tpLevel
+            strategy.close("B", comment="TP" + str.tostring(tpPct) + "%")
+
+
+// ============ SIGNAL PLOTTING ============
+if showSignals
+    // plotshape with offset=-1 shifts to the trigger bar
+    // (same as the original BAMBAM indicator)
+    plotshape(series=bullSignal, color=color.new(#00ff88, 0),
+      style=shape.triangleup, location=location.belowbar,
+      offset=-1, size=size.small, title="Bull Entry")
+    plotshape(series=bearSignal, color=color.new(#ff4444, 0),
+      style=shape.triangledown, location=location.abovebar,
+      offset=-1, size=size.small, title="Bear Exit")
+
+// Plot entry prices as horizontal lines for visualization
+if barstate.isconfirmed and strategy.position_size > 0
+    line.new(bar_index, strategy.position_avg_price, bar_index + 1,
+      strategy.position_avg_price, extend=extend.right,
+      color=color.new(#00ff88, 60), style=line.style_dotted, width=1)
