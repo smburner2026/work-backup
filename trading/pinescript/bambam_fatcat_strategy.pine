@@ -1,0 +1,189 @@
+//@version=6
+strategy("BAMBAM-FATCAT Strategy — Backtest", overlay=true, timeframe="",
+         initial_capital=1000, default_qty_type=strategy.percent_of_equity,
+         default_qty_value=100, commission_type=strategy.commission.percent,
+         commission_value=0.06, slippage=1)
+
+// ═════════════════════════════════════════════════════════════════════════════
+// BACKTEST CONFIGURATION
+// ═════════════════════════════════════════════════════════════════════════════
+
+// --- Entry Parameters ---
+lookback        = input.int(200, 'Lookback', minval=50, maxval=500, group='Signal Settings')
+lessRatio       = input.float(0.03, 'Less Ratio', minval=0.001, maxval=0.1, step=0.001, group='Signal Settings')
+volMultiplier   = input.float(1.5, 'Volume Multiplier', minval=1.0, maxval=5.0, step=0.1, group='Signal Settings')
+deltaMode       = input.string("OR", "Delta Condition", options=["OR", "AND"], group='Signal Settings')
+useOffset       = input.bool(false, 'Signal on Extreme Bar (offset=-1)', group='Signal Settings')
+
+// --- Risk Management ---
+useSL           = input.bool(true, 'Use Stop Loss', group='Risk')
+slPercent       = input.float(2.0, 'Stop Loss %', minval=0.1, maxval=10.0, step=0.1, group='Risk')
+useTP           = input.bool(true, 'Use Take Profit', group='Risk')
+tpPercent       = input.float(4.0, 'Take Profit %', minval=0.1, maxval=20.0, step=0.1, group='Risk')
+useTrailing     = input.bool(false, 'Use Trailing Stop', group='Risk')
+trailPercent    = input.float(2.0, 'Trail %', minval=0.1, maxval=10.0, step=0.1, group='Risk')
+
+// --- Time Filters ---
+useTimeFilter   = input.bool(false, 'Filter by Time', group='Time Filter')
+startTime       = input.time(timestamp("2024-01-01 00:00 +0000"), "Start Date", group='Time Filter')
+endTime         = input.time(timestamp("2025-12-31 23:59 +0000"), "End Date", group='Time Filter')
+
+// --- Export/Logging ---
+enableLogging   = input.bool(true, 'Enable Signal Logging', group='Debug')
+logFormat       = input.string("CSV", "Log Format", options=["CSV", "JSON"], group='Debug')
+
+// ═════════════════════════════════════════════════════════════════════════════
+// CORE CALCULATIONS
+// ═════════════════════════════════════════════════════════════════════════════
+
+// Volume split (BAMBAM method)
+vb = high == low ? 0 : volume * (close - low) / (high - low)
+vs = high == low ? 0 : volume * (high - close) / (high - low)
+
+// Offset logic
+ph = useOffset ? high : high[1]
+pl = useOffset ? low : low[1]
+vd = useOffset ? vb - vs : vb[1] - vs[1]
+vol = useOffset ? vb + vs : vb[1] + vs[1]
+
+// 200-bar extremes
+top = ta.highest(ph, lookback)
+btm = ta.lowest(pl, lookback)
+
+// Volume stats
+avgVol = ta.sma(vol, lookback)
+vdRatio = math.abs(vd / vol)
+isLessRatio = vdRatio < lessRatio
+highVol = vol > avgVol * volMultiplier
+
+// Delta condition
+bearDelta = deltaMode == "OR" ? (isLessRatio or vd < 0) : (isLessRatio and vd < 0)
+bullDelta = deltaMode == "OR" ? (isLessRatio or vd > 0) : (isLessRatio and vd > 0)
+
+// ═════════════════════════════════════════════════════════════════════════════
+// SIGNAL GENERATION
+// ═════════════════════════════════════════════════════════════════════════════
+
+bearRaw = ph >= top and highVol and bearDelta
+bullRaw = pl <= btm and highVol and bullDelta
+
+// Signal offset for plotting
+bearSignal = useOffset ? bearRaw : bearRaw[1]
+bullSignal = useOffset ? bullRaw : bullRaw[1]
+
+// ═════════════════════════════════════════════════════════════════════════════
+// STRATEGY EXECUTION
+// ═════════════════════════════════════════════════════════════════════════════
+
+// Time filter
+inTimeWindow = not useTimeFilter or (time >= startTime and time <= endTime)
+
+// Calculate SL/TP prices
+longSL = close * (1 - slPercent / 100)
+longTP = close * (1 + tpPercent / 100)
+shortSL = close * (1 + slPercent / 100)
+shortTP = close * (1 - tpPercent / 100)
+
+// Entry execution
+if bullSignal and inTimeWindow and strategy.position_size <= 0
+    strategy.entry("Long", strategy.long)
+    
+if bearSignal and inTimeWindow and strategy.position_size >= 0
+    strategy.entry("Short", strategy.short)
+
+// Exit logic
+if useSL
+    strategy.exit("Long SL", "Long", stop=longSL)
+    strategy.exit("Short SL", "Short", stop=shortSL)
+
+if useTP and not useTrailing
+    strategy.exit("Long TP", "Long", limit=longTP)
+    strategy.exit("Short TP", "Short", limit=shortTP)
+
+if useTrailing
+    strategy.exit("Long Trail", "Long", trail_points=close * trailPercent / 100 / syminfo.mintick)
+    strategy.exit("Short Trail", "Short", trail_points=close * trailPercent / 100 / syminfo.mintick)
+
+// ═════════════════════════════════════════════════════════════════════════════
+// SIGNAL LOGGING (for export/comparison)
+// ═════════════════════════════════════════════════════════════════════════════
+
+if enableLogging and (bullSignal or bearSignal)
+    side = bullSignal ? "BUY" : "SELL"
+    price = close
+    barTime = time
+    volRatioStr = str.tostring(vdRatio, "#.######")
+    volMultStr = str.tostring(vol / avgVol, "#.##")
+    
+    if logFormat == "CSV"
+        // CSV: time,side,price,high,low,volume,vd_ratio,vol_mult,top,btm
+        log.info(str.tostring(barTime, "yyyy-MM-dd HH:mm") + "," +
+                 side + "," +
+                 str.tostring(price) + "," +
+                 str.tostring(high) + "," +
+                 str.tostring(low) + "," +
+                 str.tostring(volume) + "," +
+                 volRatioStr + "," +
+                 volMultStr + "," +
+                 str.tostring(top) + "," +
+                 str.tostring(btm))
+    else
+        // JSON format
+        log.info('{"time":"' + str.tostring(barTime, "yyyy-MM-dd HH:mm") + '"' +
+                 ',"side":"' + side + '"' +
+                 ',"price":' + str.tostring(price) +
+                 ',"high":' + str.tostring(high) +
+                 ',"low":' + str.tostring(low) +
+                 ',"volume":' + str.tostring(volume) +
+                 ',"vd_ratio":' + volRatioStr +
+                 ',"vol_mult":' + volMultStr + '}')
+
+// ═════════════════════════════════════════════════════════════════════════════
+// VISUALIZATION
+// ═════════════════════════════════════════════════════════════════════════════
+
+plotshape(series=bearSignal, color=color.new(color.red, 0), style=shape.triangledown,
+          location=location.abovebar, title='Sell Signal', size=size.small)
+plotshape(series=bullSignal, color=color.new(color.green, 0), style=shape.triangleup,
+          location=location.belowbar, title='Buy Signal', size=size.small)
+
+// Background color for in-trade
+bgcolor(strategy.position_size > 0 ? color.new(color.green, 90) :
+        strategy.position_size < 0 ? color.new(color.red, 90) : na)
+
+// ═════════════════════════════════════════════════════════════════════════════
+// VWAP BANDS (visual only)
+// ═════════════════════════════════════════════════════════════════════════════
+
+src = input.source(hlc3, title="VWAP Source", group='VWAP Settings')
+length = input.int(100, title="VWAP Length", group='VWAP Settings')
+stdevMult = input.float(1.5, "SD Multiplier", group='VWAP Settings')
+
+vwap = ta.vwap(src, volume)
+stdev = ta.stdev(src, length) * stdevMult
+
+plot(vwap, color=color.gray, title="VWAP")
+plot(vwap + stdev, color=color.new(color.gray, 50), title="Upper Band")
+plot(vwap - stdev, color=color.new(color.gray, 50), title="Lower Band")
+
+// ═════════════════════════════════════════════════════════════════════════════
+// SIGNAL COUNTERS (for on-chart stats)
+// ═════════════════════════════════════════════════════════════════════════════
+
+var int bullCount = 0
+var int bearCount = 0
+
+if bullSignal
+    bullCount += 1
+if bearSignal
+    bearCount += 1
+
+var label statsLabel = na
+if not na(statsLabel)
+    label.delete(statsLabel)
+statsLabel := label.new(bar_index, high * 1.02, 
+    "BULL: " + str.tostring(bullCount) + " | BEAR: " + str.tostring(bearCount) + 
+    "\nPos: " + str.tostring(strategy.position_size > 0 ? "LONG" : 
+                          strategy.position_size < 0 ? "SHORT" : "FLAT"),
+    color=color.new(color.black, 50), textcolor=color.white, style=label.style_label_lower_right,
+    size=size.small)

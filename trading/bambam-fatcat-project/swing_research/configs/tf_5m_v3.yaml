@@ -1,0 +1,67 @@
+# ============================================================
+# 5-MINUTE TIMEFRAME CONFIG  (v3 — data-driven retune)
+# ============================================================
+# RETUNED based on pivot audit of v2 results:
+#
+# v2 produced 29 True labels (6.7% rate). Audit revealed:
+#   - 70% of "near-pivot but unlabeled" cases failed excursion
+#   - 12% failed holding
+#   - 18% failed proximity
+#   - Median excursion of failed cases: 7.65 ATR
+#     (well above noise, just below the 12.0 threshold)
+#
+# Major pivots flagged by user as "missed" (Mar 4 high, Mar 17
+# high, Mar 22 low) all had excursions of 9-23 ATR but were
+# rejected by the 12.0 threshold or 48-bar hold.
+#
+# v3 simulation predicts ~71 True labels (~16% rate, still
+# within target band) and captures all 4 user-flagged pivots
+# except the Mar 8 22:20 spike-and-reversal (which is arguably
+# not a "main trend reversal" anyway).
+# ============================================================
+
+timeframe: "5m"
+bars_per_day: 288
+
+# ============ DATA PATHS ============
+perp_csv: "data/perp_5m.csv"
+signals_csv: "data/signals_5m.csv"
+
+# ============ ZIGZAG PIVOT DETECTION ============
+# UNCHANGED from v2 — pivots themselves look correct.
+# 599 pivots over ~91 signal days = ~6.6/day, with 1%+ price
+# moves between consecutive pivots. This is good.
+atr_period: 14
+zigzag_atr_mult: 8.0
+
+# ============ "TRUE REVERSAL" DEFINITION ============
+# CHANGED v2→v3:
+#   pivot_proximity_bars: 12 → 24
+#     Some BAMBAM signals fire 60-90 minutes after the pivot bar
+#     (e.g., during the early rise off a low). Loosening to 2 hours
+#     captures real reversals where the signal is just slightly
+#     delayed from the exact pivot.
+#
+#   min_reversal_atr_mult: 12.0 → 7.0
+#     The audit showed median missed-pivot excursion was 7.65 ATR.
+#     Threshold of 12.0 was excluding ~70% of legitimate reversals.
+#     7.0 keeps the bar high enough to filter chop while capturing
+#     the substantial-but-not-extreme reversals.
+#
+#   min_holding_bars: 48 → 24
+#     Sharp reversals (like Mar 22 with a 23 ATR / 6% counter-move)
+#     don't sustain at the peak for 4 hours — they spike, then
+#     consolidate. 24 bars = 2 hours captures fast reversals while
+#     still requiring meaningful sustainment.
+pivot_proximity_bars: 24
+min_reversal_atr_mult: 7.0
+min_holding_bars: 24
+
+# ============ LOOKAHEAD WINDOW ============
+# UNCHANGED from v2 — 16h is plenty given the new lower hold req.
+lookahead_bars: 192
+
+# ============ TRAIN/VAL/TEST SPLIT ============
+train_pct: 0.60
+val_pct: 0.20
+test_pct: 0.20

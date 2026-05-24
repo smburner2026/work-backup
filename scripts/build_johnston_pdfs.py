@@ -107,8 +107,14 @@ def is_boilerplate_line(stripped):
     # Also check if stripped (without \xa0) starts with any common heading
     if cleaned.startswith('PART ') or cleaned.startswith('ON THE PREJUDICES'):
         return False  # These are actual part headings, keep them
-    # Catch any line mentioning [RTF] or [Table of Contents
-    if '[RTF]' in cleaned or '[Table' in cleaned:
+    # Catch any line mentioning [RTF], [Table, of Contents, or copyright year
+    if '[RTF]' in cleaned or '[Table' in cleaned or 'of Contents' in cleaned:
+        return True
+    # Catch copyright year lines and download boilerplate
+    if cleaned in ('2014',) or cleaned.startswith('If you '):
+        return True
+    # Catch "Nietzsche, Genealogy" boilerplate headers
+    if cleaned.startswith('Nietzsche, Genealogy'):
         return True
     return False
 
@@ -143,6 +149,9 @@ def strip_endnotes_sections(text):
 
 def clean_generic(text):
     text = text.replace('\r\n', '\n').replace('\r', '\n')
+    # Remove non-breaking spaces on otherwise-empty lines (they break \n\n detection)
+    text = re.sub(r'\n\xa0\n', '\n\n', text)
+    # Collapse 4+ newlines to 3 (keeps \n\n paragraph breaks intact)
     text = re.sub(r'\n{4,}', '\n\n\n', text)
     return text.strip()
 
@@ -204,7 +213,6 @@ def clean_bge(text):
 
 def clean_genealogy(text):
     text = text.replace('\r\n', '\n').replace('\r', '\n')
-    text = strip_boilerplate_block(text)
     
     # Find the real "Prologue" heading (last occurrence or standalone)
     matches = list(re.finditer(r'^Prologue\s*$', text, re.MULTILINE))
@@ -216,12 +224,17 @@ def clean_genealogy(text):
         if idx >= 0:
             text = text[idx:]
     
-    # Strip trailing endnotes
-    for marker in ["Notes", "Endnotes"]:
-        idx = text.rfind(marker)
-        if idx > len(text) * 0.5:
-            text = text[:idx]
+    # Strip ALL endnotes sections (embedded between essays and trailing)
+    # Remove from each ENDNOTES line to the next essay heading or end of text
+    text = re.sub(
+        r'\n\s*ENDNOTES\s*\n.*?(?=\nFirst\s+Essay|\nSecond\s+Essay|\nThird\s+Essay|\Z)',
+        '\n',
+        text,
+        flags=re.DOTALL
+    )
     
+    # Now strip boilerplate blocks (copyright, download links, etc.)
+    text = strip_boilerplate_block(text)
     text = strip_footnote_markers(text)
     text = re.sub(r'^Friedrich Nietzsche\s*\n?', '', text, flags=re.MULTILINE)
     return clean_generic(text)
@@ -246,7 +259,7 @@ def clean_use_abuse(text):
 
 class JohnstonPDF(FPDF):
     def __init__(self, work_title, work_subtitle, author, translator):
-        super().__init__()
+        super().__init__(format=(152.4, 228.6))  # 6" × 9" in mm
         self.book_title = work_title
         self.book_subtitle = work_subtitle
         self.book_author = author
@@ -353,6 +366,12 @@ class JohnstonPDF(FPDF):
                 self.set_text_color(0, 0, 0)
                 self.multi_cell(0, 7, first, align="C")
                 self.ln(3)
+                # Render remaining lines as body text (don't continue — lines[1:] has the content)
+                if len(lines) > 1:
+                    rest = ' '.join(l.strip() for l in lines[1:] if l.strip())
+                    if rest:
+                        self.write_paragraph(rest)
+                        self.ln(LEADING / 2)
                 continue
 
             # Regular paragraph

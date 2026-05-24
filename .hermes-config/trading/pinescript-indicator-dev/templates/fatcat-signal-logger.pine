@@ -1,0 +1,113 @@
+//@version=6
+strategy("Opaque Indicator Signal Logger", overlay=true,
+  pyramiding=10, default_qty_value=100,
+  default_qty_type=strategy.percent_of_equity,
+  initial_capital=10000, commission_value=0.04,
+  calc_on_order_fills=true, process_orders_on_close=true)
+
+// ============================================================
+// Opaque Indicator Signal Logger — v1
+// ============================================================
+// Captures signals from invite-only / opaque Pine Script
+// indicators that you cannot modify (no source access).
+//
+// TWO MODES:
+//   1. AUTO — uses request.indicator() to read the target
+//      indicator's plot() values (if it has any numeric plots)
+//   2. MANUAL — flip the override switch when you see visual
+//      signals during bar replay; each flip logs a strategy
+//      entry + fires webhook alert.
+//
+// USAGE:
+//   - Load the target indicator on the chart first
+//   - Add this logger script
+//   - Check target's Data Window (bottom right of TV) for
+//     numeric plot names → fill them in below
+//   - Or use Manual mode during replay
+//   - Create Alert on THIS script → "alert() function call"
+//     → Webhook URL: <your MCP server>
+//   - Strategy Tester → Export to CSV for the full entry log
+// ============================================================
+
+// ============================================================
+// Target Indicator Reference
+// ============================================================
+targetName = input.string("TARGET_INDICATOR", "Target Indicator Name (from legend)", group="1. Target Ref")
+
+// Plot names — check in TV's Data Window when a signal fires
+plot_bull  = input.string("", "Bull/Entry Plot Name (from Data Window)", group="1. Target Ref")
+plot_bear  = input.string("", "Bear/Exit Plot Name (from Data Window)", group="1. Target Ref")
+plot_signal = input.string("", "Combined Signal Plot (1/0/-1)", group="1. Target Ref")
+
+// ============================================================
+// Manual Override (for bar replay or no-readable-plots cases)
+// ============================================================
+manualLong  = input.bool(false, "🔴 MANUAL: Force Long Entry",  group="2. Manual Override")
+manualShort = input.bool(false, "🔴 MANUAL: Force Short Entry", group="2. Manual Override")
+
+// ============================================================
+// Read Target Signals
+// ============================================================
+hasPlots = plot_bull != "" or plot_bear != "" or plot_signal != ""
+rawBull  = na
+rawBear  = na
+rawSig   = na
+
+if hasPlots
+    if plot_signal != ""
+        rawSig := request.indicator(syminfo.tickerid, targetName, plot_signal)
+    else
+        if plot_bull != ""
+            rawBull := request.indicator(syminfo.tickerid, targetName, plot_bull)
+        if plot_bear != ""
+            rawBear := request.indicator(syminfo.tickerid, targetName, plot_bear)
+
+isBull = not na(rawBull) ? rawBull > 0 :
+         not na(rawSig)  ? rawSig > 0 :
+         manualLong
+
+isBear = not na(rawBear) ? rawBear > 0 :
+         not na(rawSig)  ? rawSig < 0 :
+         manualShort
+
+// ============================================================
+// Strategy Entries + Webhook Alerts
+// ============================================================
+if isBull
+    strategy.entry("LG", strategy.long, comment="LG_BULL")
+    alert('{"source":"' + targetName + '","direction":"bull","symbol":"' +
+      syminfo.tickerid + '","timeframe":"' + timeframe.period +
+      '","timestamp":"' + str.tostring(time) + '","price":' +
+      str.tostring(close) + ',"method":"' + (hasPlots ? "auto" : "manual") + '"}',
+      alert.freq_once_per_bar_close)
+
+if isBear
+    strategy.entry("LG", strategy.short, comment="LG_BEAR")
+    alert('{"source":"' + targetName + '","direction":"bear","symbol":"' +
+      syminfo.tickerid + '","timeframe":"' + timeframe.period +
+      '","timestamp":"' + str.tostring(time) + '","price":' +
+      str.tostring(close) + '","method":"' + (hasPlots ? "auto" : "manual") + '"}',
+      alert.freq_once_per_bar_close)
+
+// Exit on opposite signal
+if strategy.position_size > 0 and isBear
+    strategy.close_all(comment="EXIT_SHORT")
+if strategy.position_size < 0 and isBull
+    strategy.close_all(comment="EXIT_LONG")
+
+// ============================================================
+// Plotting
+// ============================================================
+plotshape(series=isBull, color=color.new(#00ff88, 0),
+  style=shape.triangleup, location=location.belowbar,
+  offset=-1, size=size.small, title="Logger Bull")
+
+plotshape(series=isBear, color=color.new(#ff4444, 0),
+  style=shape.triangledown, location=location.abovebar,
+  offset=-1, size=size.small, title="Logger Bear")
+
+if barstate.islast
+    label.new(bar_index, high,
+      hasPlots ? "AUTO MODE — reading " + targetName : "MANUAL MODE — flip switches during replay",
+      color=color.new(#1a1a2e, 80), textcolor=color.white,
+      style=label.style_label_lower_left, size=size.small)

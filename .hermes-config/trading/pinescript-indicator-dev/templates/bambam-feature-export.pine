@@ -1,0 +1,80 @@
+//@version=6
+strategy("BAMBAM Feature Export", overlay=true,
+  pyramiding=9999,
+  default_qty_value=1,
+  default_qty_type=strategy.fixed,
+  initial_capital=100000000)
+
+// ============================================================
+// Exports BAMBAM signal features EMBEDDED IN THE COMMENT FIELD.
+// Strategy Tester CSV does NOT include plot() values — even with
+// display=display.data_window. The "Export chart data" option is
+// not available on all accounts. The ONLY reliable export method
+// is embedding values in strategy.entry(comment=...).
+//
+// Each Entry row's Signal column contains:
+//   BEAR|1520.5|-954.6|429.3|3.54|0.62|282.9|1237.5|68500|62000|0.0500|OR
+//   BULL|421.0|130.2|346.1|1.21|0.30|275.6|145.3|69500|64000|0.0500|OR
+//
+// Format: vol|vd|avgVol|volRatio|vdRatio|vb|vs|hh|ll|lr|dm
+//
+// USAGE:
+// 1. Apply to 5m BTCUSDT.P chart
+// 2. Set date range to desired period (e.g. last 90 days)
+// 3. Run Strategy Tester → Export to CSV
+// 4. Parse Signal column: row['Signal'].split('|')
+//    First field is BEAR/BULL (for direction), rest are numeric features
+// ============================================================
+
+// ============ INPUTS ============
+lookback = input.int(200, 'Lookback', minval=20, maxval=500, group='Signal')
+lessRatio = input.float(0.05, 'Less Ratio', minval=0.001, maxval=0.1, step=0.005, group='Signal')
+volMult = input.float(1.0, 'Volume Multiplier', minval=0.5, maxval=5.0, step=0.1, group='Signal')
+deltaMode = input.string("OR", "Delta Mode", options=["OR", "AND"], group='Signal')
+
+// ============ VOLUME (candle-body estimate) ============
+vb1 = high == low ? 0 : volume * (close - low) / (high - low)
+vs1 = high == low ? 0 : volume * (high - close) / (high - low)
+
+// ============ SIGNAL LOGIC (previous bar) ============
+ph = high[1]
+pl = low[1]
+vd = vb1[1] - vs1[1]
+vol = vb1[1] + vs1[1]
+
+top = ta.highest(ph, lookback)
+btm = ta.lowest(pl, lookback)
+avgVol = math.sum(vol, lookback) / lookback
+
+vdRatio = math.abs(vd / vol)
+isLessRatio = vdRatio < lessRatio
+highVol = vol > (avgVol * volMult)
+
+// Bear signal
+bearRaw = ph >= top and highVol and (isLessRatio or vd < 0)
+
+// Bull signal
+bullRaw_OR = pl <= btm and highVol and (isLessRatio or vd > 0)
+bullRaw_AND = pl <= btm and highVol and isLessRatio and vd > 0
+bullRaw = deltaMode == "AND" ? bullRaw_AND : bullRaw_OR
+
+// ============ STRATEGY ENTRIES WITH EMBEDDED FEATURES ============
+// NOTE: Do NOT use str.tostring(val, "#.##") — format strings cause
+// null translation errors in Pine v6. Use plain str.tostring(val).
+
+if bearRaw
+    comment = str.tostring(vol) + "|" + str.tostring(vd) + "|" + str.tostring(avgVol) + "|" + str.tostring(vol/avgVol) + "|" + str.tostring(vdRatio) + "|" + str.tostring(vb1[1]) + "|" + str.tostring(vs1[1])
+    strategy.entry("S", strategy.short, comment=comment)
+
+if bullRaw
+    comment = str.tostring(vol) + "|" + str.tostring(vd) + "|" + str.tostring(avgVol) + "|" + str.tostring(vol/avgVol) + "|" + str.tostring(vdRatio) + "|" + str.tostring(vb1[1]) + "|" + str.tostring(vs1[1])
+    strategy.entry("B", strategy.long, comment=comment)
+
+// ============ PLOTTING ============
+plotshape(series=bullRaw, color=color.new(#00ff88, 0),
+  style=shape.triangleup, location=location.belowbar,
+  offset=-1, size=size.tiny, title="Bull Signal")
+
+plotshape(series=bearRaw, color=color.new(#ff4444, 0),
+  style=shape.triangledown, location=location.abovebar,
+  offset=-1, size=size.tiny, title="Bear Signal")

@@ -1,0 +1,253 @@
+//@version=6
+indicator("FATCAT Selectivity Analyzer v2 — All Hypotheses", overlay=true)
+
+// ====================================================================
+// ARCHITECTURE: 4 PARALLEL FILTER CHAINS
+// Each chain applies a different hypothesis to the same base signal.
+// Counts are displayed in a table for side-by-side comparison.
+//
+// Based on 50-entry POCKETBAMBAM vs 18-entry FATCAT analysis:
+// - Recall: 94% (17/18 exact bar match)
+// - Precision: 34% (50 total, 33 extras)
+// - Target: find what eliminates extras without losing matches
+// ====================================================================
+
+// ===================== BASE SIGNAL CONFIG =====================
+lookback = input.int(200, "Base Lookback (bars)", minval=50, maxval=2000, group="1. Base Signal")
+volMult = input.float(1.5, "Volume Multiplier", minval=0.5, maxval=5.0, step=0.1, group="1. Base Signal")
+lessRatio = input.float(0.03, "Less Ratio", minval=0.001, maxval=0.1, group="1. Base Signal")
+deltaMode = input.string("OR", "Delta Mode", options=["OR", "AND"], group="1. Base Signal")
+
+// ===================== HYPOTHESIS: LOOKBACK LENGTH =====================
+useAltLookback = input.bool(false, "Enable Alt Lookback (H0)", group="2. Alt Lookback")
+altLookback = input.int(600, "Alt Lookback (bars)", minval=50, maxval=2000, group="2. Alt Lookback")
+
+// ===================== HYPOTHESIS: COOLDOWN =====================
+enableCooldown = input.bool(true, "Enable Cooldown (H1)", group="3. Cooldown")
+cooldownHours = input.float(2, "Min Hours Between Signals", minval=0, maxval=96, step=0.5, group="3. Cooldown")
+
+// ===================== HYPOTHESIS: PRICE GATE =====================
+enablePriceGate = input.bool(true, "Enable Price Gate (H2)", group="4. Price Gate")
+minPricePct = input.float(0.3, "Min Price Change (%)", minval=0.0, maxval=5.0, step=0.1, group="4. Price Gate")
+
+// ===================== HYPOTHESIS: LOWER LOW =====================
+enableLowerLow = input.bool(false, "Enable Lower Low (H3)", group="5. Lower Low")
+
+// ===================== HYPOTHESIS: DENSITY CAP =====================
+enableDensity = input.bool(false, "Enable Density Cap (H4)", group="6. Density")
+densityWindow = input.int(24, "Density Window (hours)", minval=6, maxval=168, group="6. Density")
+densityLimit = input.int(2, "Max Signals in Window", minval=1, maxval=10, group="6. Density")
+
+// ===================== HYPOTHESIS: ALL COMBO =====================
+enableBestCombo = input.bool(true, "Enable Best Combo (H5)", group="7. Best Combo")
+comboCooldown = input.float(24, "Combo Cooldown (hours)", minval=0, maxval=96, step=0.5, group="7. Best Combo")
+comboMinMove = input.float(0.5, "Combo Min Move (%)", minval=0.0, maxval=5.0, step=0.1, group="7. Best Combo")
+
+// ===================== BASE SIGNAL ENGINE =====================
+vb = high == low ? 0 : volume * (close - low) / (high - low)
+vs = high == low ? 0 : volume * (high - close) / (high - low)
+
+// Confirmation bar shift (POCKETBAMBAM default)
+pl = low[1]
+vd = vb[1] - vs[1]
+bvol = vb[1] + vs[1]
+vdRatio = math.abs(vd / bvol)
+isLess = vdRatio < lessRatio
+highVol = bvol > ta.sma(bvol, lookback) * volMult
+deltaOk = deltaMode == "OR" ? (isLess or vd > 0) : (isLess and vd > 0)
+
+// Base bull signal (standard lookback)
+btm = ta.lowest(pl, lookback)
+rawBull = (pl <= btm) and highVol and deltaOk
+baseBull = rawBull[1]
+
+// Alt lookback signal
+altBtm = ta.lowest(pl, altLookback)
+rawAlt = (pl <= altBtm) and highVol and deltaOk
+altBull = rawAlt[1]
+
+// ===================== FILTER TRACKING =====================
+var int       sigCount       = 0      // raw base count
+var int       altCount        = 0      // alt lookback count
+var int       coolCount       = 0      // cooldown only
+var int       priceCount      = 0      // price gate only
+var int       lowerCount      = 0      // lower low only
+var int       densityCount    = 0      // density cap only
+var int       comboCount      = 0      // best combo
+
+var float     lastCoolPrice   = 0.0
+var int       lastCoolBar     = -999
+var float     lastPricePrice  = 0.0
+var int       lastPriceBar    = -999
+var float     lastLowerPrice  = 0.0
+var int       lastLowerBar    = -999
+var float     lastComboPrice  = 0.0
+var int       lastComboBar    = -999
+
+// Density tracking — use array for sliding window
+var signalTimes = array.new<time>(0)
+
+// ===================== APPLY FILTERS =====================
+// H0: Alt lookback
+if altBull
+    altCount += 1
+
+// H1: Cooldown
+cooldownPass = true
+if enableCooldown and lastCoolBar != -999
+    barsSince = bar_index - lastCoolBar
+    hoursSince = barsSince * (timeframe.multiplier * timeframe.period == "D" ? 24 : timeframe.multiplier / 60.0)
+    if timeframe.isintraday
+        hoursSince := barsSince * timeframe.multiplier / 60.0
+    else
+        hoursSince := barsSince * 24.0  // daily and above
+    
+    if hoursSince < cooldownHours
+        cooldownPass := false
+
+if baseBull and cooldownPass
+    coolCount += 1
+    lastCoolPrice := close
+    lastCoolBar := bar_index
+
+// H2: Price gate
+pricePass = true
+if enablePriceGate and lastPriceBar != -999
+    pctChg = math.abs(close - lastPricePrice) / lastPricePrice * 100
+    if pctChg < minPricePct
+        pricePass := false
+
+if baseBull and pricePass
+    priceCount += 1
+    lastPricePrice := close
+    lastPriceBar := bar_index
+
+// H3: Lower low
+lowerPass = true
+if enableLowerLow and lastLowerBar != -999
+    if close >= lastLowerPrice
+        lowerPass := false
+
+if baseBull and lowerPass
+    lowerCount += 1
+    lastLowerPrice := close
+    lastLowerBar := bar_index
+
+// H4: Density cap
+densityPass = true
+if enableDensity
+    // Prune old entries from the sliding window
+    cutoff = timenow - int(densityWindow * 3600000)
+    while array.size(signalTimes) > 0 and array.get(signalTimes, 0) < cutoff
+        array.shift(signalTimes)
+    
+    // Check if adding this signal would exceed the limit
+    densityPass := array.size(signalTimes) < densityLimit
+
+if baseBull and densityPass
+    densityCount += 1
+    array.push(signalTimes, timenow)
+
+// H5: Best combo (cooldown + price gate)
+comboPass = true
+if enableBestCombo and lastComboBar != -999
+    // Cooldown
+    barsSince = bar_index - lastComboBar
+    hoursSince = barsSince * timeframe.multiplier / 60.0
+    if not timeframe.isintraday
+        hoursSince := barsSince * 24.0
+    if hoursSince < comboCooldown
+        comboPass := false
+    
+    // Price gate
+    if comboPass and comboMinMove > 0
+        pctChg = math.abs(close - lastComboPrice) / lastComboPrice * 100
+        if pctChg < comboMinMove
+            comboPass := false
+
+if baseBull and comboPass
+    comboCount += 1
+    lastComboPrice := close
+    lastComboBar := bar_index
+
+// Raw count
+if baseBull
+    sigCount += 1
+
+// ===================== PLOTTING =====================
+// Base
+plotshape(baseBull, style=shape.triangleup, location=location.belowbar,
+     color=color.new(color.gray, 60), size=size.tiny, title="Base")
+
+// H0: Alt lookback
+plotshape(useAltLookback and altBull, style=shape.triangleup, location=location.belowbar,
+     color=color.new(color.purple, 40), size=size.tiny, title="Alt LB")
+
+// H1: Cooldown only
+plotshape(baseBull and cooldownPass, style=shape.triangleup, location=location.belowbar,
+     color=color.new(color.blue, 30), size=size.tiny, title="Cooldown", offset=-5)
+
+// H5: Best combo (most restrictive — show prominently)
+plotshape(baseBull and comboPass, style=shape.triangledown, location=location.abovebar,
+     color=color.new(color.teal, 0), size=size.small, title="Best Combo")
+
+// ===================== TABLE =====================
+var table t = table.new(position.top_right, 5, 9, 
+     bgcolor=color.new(#0a0a0a, 80), border_color=color.new(#555555, 60))
+
+if barstate.islast
+    // Header
+    table.cell(t, 1, 0, "Signals", text_color=color.white, text_size=size.small, text_halign=text.align_center)
+    table.cell(t, 2, 0, "Δ vs FC", text_color=color.white, text_size=size.small, text_halign=text.align_center)
+    table.cell(t, 3, 0, "Ratio", text_color=color.white, text_size=size.small, text_halign=text.align_center)
+    table.cell(t, 4, 0, "Recall", text_color=color.white, text_size=size.small, text_halign=text.align_center)
+    
+    // Row labels and data
+    rows = [
+        "Base (Raw)", sigCount, 0,
+        "Alt LB", altCount, 0,
+        "Cooldown", coolCount, 0,
+        "Price Gate", priceCount, 0,
+        "Lower Low", lowerCount, 0,
+        "Density Cap", densityCount, 0,
+        "Best Combo", comboCount, 0,
+        "FATCAT target", 18, 0
+    ]
+    
+    for i = 0 to 7
+        label = rows[i * 3]
+        count = rows[i * 3 + 1]
+        
+        // Compute Δ vs FATCAT target
+        delta = count - 18
+        ratio = count > 0 ? count / 18.0 : 0.0
+        
+        rowColor = switch i
+            0 => color.gray
+            1 => color.purple
+            2 => color.blue
+            3 => color.orange
+            4 => color.lime
+            5 => color.maroon
+            6 => color.teal
+            7 => color.yellow
+        
+        table.cell(t, 0, i+1, label, text_color=rowColor, text_size=size.small)
+        table.cell(t, 1, i+1, str.tostring(count), text_color=color.white, text_size=size.small, text_halign=text.align_center)
+        table.cell(t, 2, i+1, (delta > 0 ? "+" : "") + str.tostring(delta), 
+             text_color=delta > 0 ? color.red : delta < 0 ? color.green : color.white, 
+             text_size=size.small, text_halign=text.align_center)
+        table.cell(t, 3, i+1, str.tostring(ratio, "#.#") + "x", 
+             text_color=ratio > 2.0 ? color.red : ratio > 1.0 ? color.orange : color.green,
+             text_size=size.small, text_halign=text.align_center)
+        
+        // Recall placeholder (user fills in FATCAT count manually)
+        if i < 7
+            estRecall = 17.0 * (1.0 - math.max(0, (count - 18) / 50.0))  // rough estimate
+            table.cell(t, 4, i+1, "~" + str.tostring(math.round(estRecall)) + "/18",
+                 text_color=estRecall >= 17 ? color.green : estRecall >= 14 ? color.orange : color.red,
+                 text_size=size.small, text_halign=text.align_center)
+
+// ===================== ALERTS =====================
+alertcondition(baseBull and comboPass, title="Best Combo Entry", 
+     message="FATCAT-style long entry @ {{close}}")

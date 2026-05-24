@@ -1,0 +1,75 @@
+//@version=6
+strategy("BAMBAM 14-Feature Indicator Export", overlay=true,
+  pyramiding=9999,
+  default_qty_value=1,
+  default_qty_type=strategy.fixed,
+  initial_capital=100000000)
+
+// ============================================================
+// Exports BAMBAM signals with 7 body features + 7 indicator levels.
+// Signal column: BEAR|14 pipe-delimited floats
+//
+// Features 1-7  (body volume):
+//   vol, vd, avgVol, volRatio, vdRatio, vb, vs
+//
+// Features 8-14 (indicator levels at signal bar):
+//   rsi14, rsi7, dist_ema21, dist_ema50, dist_ema200, macd_hist, atr14
+//
+// USAGE: Apply to 5m BTCUSDT.P, run Strategy Tester, Export CSV
+// ============================================================
+
+// ============ INPUTS ============
+lookback = input.int(200, 'Lookback', minval=20, maxval=500, group='Signal')
+lessRatio = input.float(0.05, 'Less Ratio', minval=0.001, maxval=0.1, step=0.005, group='Signal')
+volMult = input.float(1.0, 'Volume Multiplier', minval=0.5, maxval=5.0, step=0.1, group='Signal')
+deltaMode = input.string("OR", "Delta Mode", options=["OR", "AND"], group='Signal')
+
+// ============ BODY VOLUME ============
+vb1 = high == low ? 0 : volume * (close - low) / (high - low)
+vs1 = high == low ? 0 : volume * (high - close) / (high - low)
+
+// ============ SIGNAL LOGIC ============
+ph = high[1]
+pl = low[1]
+vd = vb1[1] - vs1[1]
+vol = vb1[1] + vs1[1]
+
+top = ta.highest(ph, lookback)
+btm = ta.lowest(pl, lookback)
+avgVol = math.sum(vol, lookback) / lookback
+
+vdRatio = math.abs(vd / vol)
+isLessRatio = vdRatio < lessRatio
+highVol = vol > (avgVol * volMult)
+
+bearRaw = ph >= top and highVol and (isLessRatio or vd < 0)
+bullRaw_OR = pl <= btm and highVol and (isLessRatio or vd > 0)
+bullRaw_AND = pl <= btm and highVol and isLessRatio and vd > 0
+bullRaw = deltaMode == "AND" ? bullRaw_AND : bullRaw_OR
+
+// ============ INDICATOR LEVELS (previous bar) ============
+rsi14  = ta.rsi(close, 14)
+rsi7   = ta.rsi(close, 7)
+dist_ema21   = close - ta.ema(close, 21)
+dist_ema50   = close - ta.ema(close, 50)
+dist_ema200  = close - ta.ema(close, 200)
+macd_line    = ta.macd(close, 12, 26, 9).macd
+macd_hist    = ta.macd(close, 12, 26, 9).hist
+atr14        = ta.atr(14)
+
+// ============ STRATEGY ENTRIES ============
+if bearRaw
+    comment = "BEAR|" + str.tostring(vol) + "|" + str.tostring(vd) + "|" + str.tostring(avgVol) + "|" + str.tostring(vol/avgVol) + "|" + str.tostring(vdRatio) + "|" + str.tostring(vb1[1]) + "|" + str.tostring(vs1[1]) + "|" + str.tostring(rsi14[1]) + "|" + str.tostring(rsi7[1]) + "|" + str.tostring(dist_ema21[1]) + "|" + str.tostring(dist_ema50[1]) + "|" + str.tostring(dist_ema200[1]) + "|" + str.tostring(macd_hist[1]) + "|" + str.tostring(atr14[1])
+    strategy.entry("S", strategy.short, comment=comment)
+
+if bullRaw
+    comment = "BULL|" + str.tostring(vol) + "|" + str.tostring(vd) + "|" + str.tostring(avgVol) + "|" + str.tostring(vol/avgVol) + "|" + str.tostring(vdRatio) + "|" + str.tostring(vb1[1]) + "|" + str.tostring(vs1[1]) + "|" + str.tostring(rsi14[1]) + "|" + str.tostring(rsi7[1]) + "|" + str.tostring(dist_ema21[1]) + "|" + str.tostring(dist_ema50[1]) + "|" + str.tostring(dist_ema200[1]) + "|" + str.tostring(macd_hist[1]) + "|" + str.tostring(atr14[1])
+    strategy.entry("B", strategy.long, comment=comment)
+
+// ============ PLOTTING ============
+plotshape(series=bullRaw, color=color.new(#00ff88, 0),
+  style=shape.triangleup, location=location.belowbar,
+  offset=-1, size=size.tiny, title="Bull Signal")
+plotshape(series=bearRaw, color=color.new(#ff4444, 0),
+  style=shape.triangledown, location=location.abovebar,
+  offset=-1, size=size.tiny, title="Bear Signal")

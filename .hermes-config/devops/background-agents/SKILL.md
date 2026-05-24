@@ -145,6 +145,10 @@ Add these as explicit lines near the top of the prompt to prevent common failure
 - Verify your own output: if you claim a file was written or a config was changed, stat or read it back to confirm.
 ```
 
+### Audit Reference
+
+See `references/cron-maintenance-audit-patterns.md` for concrete audit patterns discovered during actual runs — SOUL.md frontmatter detection, cron storage layout, memory constraints, skills directory quirks, and broken symlink categorization. Use this reference when designing or updating recurring maintenance jobs to avoid re-discovering the same pitfalls.
+
 ### Output Format
 
 Specify the delivery format explicitly in the prompt so the user can quickly scan results:
@@ -162,6 +166,8 @@ Use **bold** for section/category names, `code` for file paths. If everything pa
 
 ### Pitfalls
 
+- **Memory tools unavailable in cron** — `memory()` (Mnemosyne) is disabled in cron/background environments. Jobs that need to persist state across runs must write files to disk (`~/.hermes/cron/jobs.json` for job metadata, custom JSON files in a project directory for durable state). Design recurring jobs so they never depend on memory being available — file-based persistence only.
+- **SOUL.md audit gotcha** — When auditing profile SOUL.md files (`~/.hermes/profiles/<name>/SOUL.md`), note that these are **pure markdown** with `---` section separators — they do NOT have YAML frontmatter. Only the master `~/.hermes/SOUL.md` and skill SKILL.md files use YAML frontmatter. Trying to parse a profile SOUL.md with `yaml.safe_load` will fail because the `---` lines inside the markdown body are section dividers, not frontmatter delimiters.
 - **No_agent mode is wrong for this** — These jobs need reasoning and tool selection. Use the default LLM-driven mode, not `no_agent=True`.
 - **Overly broad enabled_toolsets** — A maintenance job typically needs `terminal`, `file`, `search`, `session_search`, and `memory`. Don't include `web`, `browser`, or `vision` unless actually needed for the audit scope.
 - **Recursive scheduling** — Don't have a maintenance cron job create other cron jobs or modify its own schedule. The cron infrastructure handles that.

@@ -1,13 +1,13 @@
 Prefers visual UI. Dash(d9119): sessions+skills+profiles+kanban. Surface features proactively.
 §
-DABT Oct2026: comparative, mechanism-anchored, exam-trap focus — WHY diff, not WHAT. "trick: X" framing. Flashcards atomic(1fact/card) w/ mechanism anchors. Values meta-cognitive gap assessment.
+Validates empirically with real CSV exports and screenshots. Reverse-engineers invite-only indicators (FATCAT) via systematic parameter sweeps against actual entry data. Expects data-driven testing, not theorizing. Corrects sharply when off-track. Wants continuity across sessions — starts from saved memory, doesn't retread. Frustrated by circular analysis.
 §
-Quant Agent: BTC vol sweep→WunderTrading→HL. Never sell BTC at loss. TP only. Backtest first. MCP: TradingView, CoinGecko, WunderTrading, Coinalyze.
+WORKFLOW: Has Claude audit my outputs. Relays corrections. Accept without defensiveness. Output: .txt for Pine, scp for transfers, HTML/PNG for vis.
 §
-Minimalist — deleted workspace, keeps dashboard only. NordVPN blocks Tailscale. WSL uninstalled, VPS-only. Picks combos (A+C). Expects thorough cleanup.
+Windows WSL local box (DESKTOP-B4LB6VL). Can reach fapi.binance.com. TV broker lacks ta.takers_buy.
 §
-Corrected: bounded Martingale (conviction hold + add on BTC dip), NOT Monte Carlo. Values precision. Raw copy-paste commands, minimal explanation. Phase-gated: Ph1→Ph2. Project: Quant Trader Profiler.
+Lesson: user noticed mid-session model switches cause context loss. This session the model switched from DeepSeek V4 Flash → Pro → Flash multiple times, and each time I lost thread. Must re-anchor to saved memory after any model switch before responding.
 §
-Nietzsche anthology: "real book" feel — tight margins, paragraph indents not spacing, no indent after headings, line-height 1.3. ALL footnotes stripped. Multi-build iterations expected. Frustration = signal.
+Minimal manual setup preference — "just talk to it so it does everything for me." Offer the Hermes-does-it path first over multi-step instructions.
 §
-Telegram: commands as raw text lines, NOT markdown code blocks — copy-paste on mobile. Each command its own line, plain.
+Cross-validates my work with Claude. Wants honest self-assessment—admit when wrong and save corrected understanding, not excuses. Expects root-cause analysis, not pattern fixes. Values data integrity verification over speed.

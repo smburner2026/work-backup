@@ -18,11 +18,15 @@ See `references/johnston-text-cleaning.md` for the specific cleaning patterns us
 ## Workflow
 
 1. **Source texts** — follow `references/multi-source-text-sourcing.md` to acquire all source files into `sources/` (supports public domain, Anna's Archive/LibGen, and cron-based parallel background sourcing)
-2. **Inspect reference PDF** — if the user provides or references an existing PDF as a style target, inspect it immediately:
-   - `pdfinfo <path>` — page size, margins, page count, producer/creator
-   - `pdftotext <path> - | head -80` — structural layout, heading hierarchy, TOC style, font hints
-   - Note page size (e.g. Letter vs 6x9), font family, body font size, margins, and any distinctive formatting features (title page, running headers, page numbers)
-   - Use these properties as the style target for the build. When the user says "make it look like this," they mean: match the typographic feel and structural quality, not pixel-perfect replication.
+2. **Inspect reference PDF** — if the user provides or references an existing PDF as a style target, inspect it immediately with PyMuPDF:
+   - Page dimensions: `doc[0].rect.width/72`, `.height/72` (points to inches)
+   - Fonts used: iterate `page.get_text("dict")["blocks"]` and check `span["font"]`, `span["size"]`, `span["flags"] & 2` for italic
+   - Margins: check text block `bbox` on content pages — left, right, top of first body line
+   - Line spacing: get Y positions of consecutive body lines from the same block, compute delta
+   - Page count, header/footer presence, page number style
+   - Artifact scan: search for known boilerplate strings (Copyright, Students, Kaufmann, ENDNOTES, 2014)
+   - Note page size (e.g. Letter vs 6x9), font family, body font size, margins, and any distinctive formatting features
+   - Use these properties as the style target. When the user says "make it look like this" or asks for comparison, present a concise table of key differences (page size, font, margins, line length, spacing, heading style, artifacts).
 3. **Clean source text** — before any pipeline, run a preprocessing pass that always includes:
    - Collapse multiple spaces: `re.sub(r'  +', ' ', text)` — OCR/digitised texts frequently have variable inter-word spacing that breaks layout engines
    - Remove backticks: `` text.replace('`', '') `` — prevent monospace font bleed-through in WeasyPrint
@@ -110,6 +114,31 @@ When extracting text from EPUBs, the reading order is defined by the **spine** (
 **Always use spine order.** Parse the OPF manifest to get the `idref -> href` mapping, then iterate `<spine>` itemrefs in order. The `document-pipelines` skill's `references/curated-anthology-workflow.md` has the full extraction snippet. Cross-reference when building anthology compilers.
 
 **Verification:** After extraction, grep for the Prologue opening line (`"When Zarathustra was thirty"` for Hollingdale, `"thirty years old"` for Parkes) and confirm it appears BEFORE Part 1 content. If the Prologue comes at line 1600+ in a text that should be ~1500 lines total, the extraction used the wrong order — re-extract with spine order.
+
+### CRITICAL: Non-breaking space (`\xa0`) on otherwise-empty lines breaks paragraph detection
+
+Web-sourced plain text (Johnston translations, Project Gutenberg, many public-domain repositories) frequently uses `\xa0` (non-breaking space) on lines that visually appear blank — `\n\xa0\n` instead of `\n\n`. This silently destroys paragraph detection:
+
+- `clean_generic()` splits text on `\n\n` — but `\n\xa0\n` does NOT match, so the entire section collapses into one or two monster paragraphs separated only by the invisible `\xa0` chars.
+- When `write_body()` processes these merged paragraphs and the first line is an all-caps heading (e.g. `PART TWO`), the heading handler renders just that first line and **discards all remaining lines** after it — silently losing thousands of characters. A build that should produce ~145 pages instead produces ~22 with no visible error.
+
+Fix in `clean_generic()` — remove `\xa0` on empty lines before collapsing:
+```python
+text = re.sub(r'\n\xa0\n', '\n\n', text)
+text = re.sub(r'\n{4,}', '\n\n\n', text)
+```
+
+Fix in `write_body()` all-caps heading handler — render remaining lines as body text:
+```python
+if (first.isupper() and len(first) > 4 and len(first) < 100 and '[' not in first):
+    self.multi_cell(0, 7, first, align="C")
+    self.ln(3)
+    if len(lines) > 1:
+        rest = ' '.join(l.strip() for l in lines[1:] if l.strip())
+        if rest:
+            self.write_paragraph(rest)
+    continue
+```
 
 ### CRITICAL: Words Running Off the Page (WeasyPrint) — RECURRING FAILURE
 
