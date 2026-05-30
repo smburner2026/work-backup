@@ -1,0 +1,107 @@
+# Source: https://www.epa.gov/laws-regulations/summary-toxic-substances-control-act
+# Source: https://www.epa.gov/assessing-and-managing-chemicals-under-tsca/learn-about-toxic-substances-control-act-tsca
+# Source: https://www.epa.gov/assessing-and-managing-chemicals-under-tsca/regulation-chemicals-under-section-6a-toxic-substances
+# Source: https://www.epa.gov/assessing-and-managing-chemicals-under-tsca/frank-r-lautenberg-chemical-safety-21st-century-act
+# Source: https://www.epa.gov/reviewing-new-chemicals-under-toxic-substances-control-act-tsca/actions-under-tsca-section-5
+# Retrieved: 2026-05-29
+
+TOXIC SUBSTANCES CONTROL ACT (TSCA) — COMPREHENSIVE OVERVIEW
+============================================================
+
+LEGAL AUTHORITY
+---------------
+- 15 U.S.C. Sec.2601 et seq. (1976), as amended by the Frank R. Lautenberg Chemical Safety for the 21st Century Act (2016)
+- Codified at 40 CFR Parts 700-799
+- TSCA provides EPA with broad authority to require reporting, record-keeping, testing, and restrictions relating to chemical substances and/or mixtures
+- Exemptions: drugs, cosmetics, foods, food additives, pesticides, and nuclear materials
+- TSCA addresses production, importation, use, and disposal of specific chemicals including PCBs, asbestos, radon, and lead-based paint
+
+SECTION 4 — TESTING REQUIREMENTS
+---------------------------------
+- EPA may issue rules requiring manufacturers (including importers) or processors to generate hazard and exposure information through specific tests or measurements on chemicals
+- Authority triggered when:
+  - There is insufficient data for risk assessors to determine whether a chemical presents an unreasonable risk
+  - Chemicals are produced in substantial quantities and may enter the environment or result in significant human exposure
+- EPA also uses TSCA Section 4 Enforceable Consent Agreements (ECAs) to develop needed data without formal rulemaking
+- Testing covers health effects (carcinogenicity, developmental toxicity, neurotoxicity, etc.) and environmental effects (ecotoxicity, environmental fate)
+- EPA maintains a list of all chemicals subject to final Section 4 test rules or ECAs
+- Regulations implementing Section 4 authority are at 40 CFR Parts 790-799
+
+SECTION 5 — PREMANUFACTURE NOTIFICATION (PMN) AND NEW CHEMICALS
+-----------------------------------------------------------------
+- Section 5(a) requires premanufacture notification (PMN) for "new chemical substances" before manufacture or import
+- A "new chemical substance" is any substance not on the TSCA Chemical Substance Inventory
+- PMN must be submitted at least 90 days before manufacturing begins
+- EPA reviews the PMN within the statutory review period to determine if the chemical presents an unreasonable risk
+- Section 5(a) Significant New Use Rules (SNURs): EPA can require notice (Significant New Use Notice, SNUN) before existing chemicals are used in new ways that might create concerns
+- Section 5(b)(4) Concern List: EPA maintains a list of chemicals that present or may present an unreasonable risk
+- Under amended TSCA, EPA has mandatory deadlines for reviewing new chemical submissions
+- EPA can issue orders (consent orders or unilateral orders) to require testing or restrict production pending further data
+
+TSCA CHEMICAL SUBSTANCE INVENTORY
+----------------------------------
+- Maintained under Section 8(b)
+- Contains more than 83,000 chemical substances manufactured, processed, or imported in the United States
+- As new chemicals are commercially manufactured or imported, they are placed on the list
+- Two categories: active (currently in commerce) and inactive (not in commerce)
+- Inventory Notification (Active-Inactive) Rule requires reporting on production volumes
+- Includes provisions for confidential business information (CBI) claims
+- Procedures for Review of CBI Claims for the Identity of Chemicals on the TSCA Inventory
+
+SECTION 6 — RISK MANAGEMENT FOR EXISTING CHEMICALS
+---------------------------------------------------
+- Authority to prohibit or limit manufacture, processing, distribution in commerce, use, or disposal of chemicals presenting unreasonable risk
+- EPA may require one or more of the following TSCA Sec.6 actions:
+  - Prohibit/restrict manufacture, processing, or distribution in commerce
+  - Prohibit/restrict for a particular use or above a set concentration
+  - Require minimum warnings and instructions for use, distribution, disposal
+  - Require recordkeeping or testing
+  - Prohibit/regulate commercial use or disposal
+  - Direct manufacturers/processors to give notice and repurchase or replace products
+- Regulations issued per Sec.6(c) timelines and requirements
+- Post-2016 Final Rules under Sec.6(a):
+  - Methylene Chloride (March 2019): ban on paint and coating removal for consumer use
+  - PBT Chemicals (December 2020): final rule restricting 5 persistent, bioaccumulative, and toxic chemicals
+- Pre-2016 Actions:
+  - PCBs: banned May 31, 1979 (40 CFR Part 761); numerous subsequent actions on uses and disposal
+  - Asbestos: new use ban remains in effect (40 CFR Part 763, Subpart I); existing use ban remanded by Corrosion Proof Fittings v. EPA (947 F.2d 1201)
+  - Metalworking fluids, hexavalent chromium water treatment limitations
+- Section 6(h): addresses PBT chemicals with statutory deadlines
+- Section 6(e): PCB disposal and exemption rules
+
+LAUTENBERG CHEMICAL SAFETY ACT (2016 AMENDMENTS)
+--------------------------------------------------
+- Signed into law June 22, 2016 — first major TSCA reform in 40 years
+- Bipartisan support in both House and Senate
+- Key improvements:
+  - Mandatory requirement for EPA to evaluate existing chemicals with clear and enforceable deadlines
+  - Risk-based chemical assessments (not cost-benefit-based for finding risk)
+  - Increased public transparency for chemical information
+  - Consistent source of funding (user fees) for EPA to carry out responsibilities
+- Amended TSCA Sec.6(b): EPA must prioritize and evaluate existing chemicals against clear risk-based standards
+- Amended Sec.5: mandatory deadlines for new chemical reviews
+- Amended Sec.14: changes to confidential business information (CBI) protections and requirements to substantiate claims
+- "High priority" chemicals must be risk evaluated within 3 to 3.5 years
+- Amended citizen petition authority under Section 21
+
+OTHER KEY SECTIONS
+-------------------
+- Section 8(a): Reporting and record-keeping by manufacturers, importers, processors, and distributors
+- Section 8(b): TSCA Inventory maintenance
+- Section 8(c): Records of significant adverse reactions
+- Section 8(d): Health and safety studies
+- Section 8(e): Substantial risk information must be immediately reported to EPA
+- Section 9: Relationship to other Federal laws
+- Section 12(b): Export notification requirements
+- Section 13: Import certification requirements
+- Section 21: Citizen petitions for regulatory action
+
+COMPLIANCE AND ENFORCEMENT
+---------------------------
+- TSCA Compliance Monitoring includes inspections and investigations
+- Waste, Chemical, and Cleanup Enforcement authorities
+- Civil and criminal penalties for violations
+
+ADMINISTERING OFFICE
+---------------------
+- Office of Pollution Prevention and Toxics (OPPT), under the Office of Chemical Safety and Pollution Prevention (OCSPP)

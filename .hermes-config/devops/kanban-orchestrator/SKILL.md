@@ -13,7 +13,11 @@ metadata:
 
 > The **core worker lifecycle** (including the `kanban_create` fan-out pattern and the "decompose, don't execute" rule) is auto-injected into every kanban process via the `KANBAN_GUIDANCE` system-prompt block. This skill is the deeper playbook when you're specifically playing the orchestrator role whose whole job is routing.
 >
+> **Need the fundamentals first?** If the user is new to Kanban in Hermes, hasn't used it before, or asks how it differs from `/goal` or cron — load `references/hermes-kanban-mental-model.md` first. It covers the basic lifecycle, the three-layer model (cron/kanban/skills), the "batch and forget" pattern, and when to use each tool. That reference is the orientation layer; this skill is the advanced playbook.
+>
 > **Reference available**: `references/multi-agent-topology-failure-modes.md` contains the production evidence, cascade infection rates, and MIT/Google scaling studies that back the topology-awareness section below. Load it for depth when a user asks about multi-agent architecture trade-offs.
+>
+> **New to the discover→review→execute pattern?** Load `references/discover-review-execute-pattern.md` for the human-gated workflow where a worker discovers/recommends and the main agent executes after human review. This is the "kanban for sysadmin/research" pattern — worker finds, human decides, main agent acts.
 >
 > **Dashboard UI**: The kanban board has a dedicated drag-drop dashboard tab at the Dashboard's `/kanban` route. Enable it with `hermes plugins enable kanban/dashboard` — it's a bundled dashboard plugin (manifest.json + JS bundle, separate from regular plugins). If the user asks for a visual kanban UI or how to see their board in a browser, this is the answer: point them to the Dashboard + the kanban tab. The Dashboard itself (port 9119 by default, localhost-only unless proxied) also shows session history, logs, profiles, and cron — the full agent tracking surface.
 
@@ -110,24 +114,56 @@ Your job description says "route, don't execute." The rules that enforce that:
 - **Split multi-lane requests before creating cards.** A user prompt can contain several independent workstreams. Extract those lanes first, then create one card per lane instead of bundling unrelated work into a single implementer card.
 - **Run independent lanes in parallel.** If two cards do not need each other's output, leave them unlinked so the dispatcher can fan them out. Link only true data dependencies.
 - **Never create dependent work as independent ready cards.** If a card must wait for another card, pass `parents=[...]` in the original `kanban_create` call. Do not create it first and link it later, and do not rely on prose like "wait for T1" inside the body.
-- **If no specialist fits the available profiles, ask the user which profile to create or which existing profile to use.** Do not invent profile names; the dispatcher will silently drop unknown assignees.
-- **Decompose, route, and summarize — that's the whole job.**
+- **Figure out the profile, don't ask.** If no existing profile fits the task, create one. The user wants frictionless delegation — asking "which profile?" or "how should I handle this?" defeats the purpose. Create, assign, dispatch, done. Only ask if you hit a genuine ambiguity that blocks execution entirely.
+- **Fire and forget after dispatch.** Once a card is created, assigned, and dispatched, your job is done. Do NOT poll `kanban show`, do NOT wait for the worker, do NOT check its status. The system notifies the user when a task completes. Sitting around monitoring wastes turns — the user will ask for results when they want them.
+- **Do not invent profile names.** Verify the profile exists first with `hermes profile list`. If you need to create one, use `hermes profile create`. The dispatcher silently drops unknown assignees.
+- **Decompose, route, and summarize — that's the whole job.** Summarize only when the user asks, not proactively.
+
+### Task classification: discuss-before-card vs. create-and-dispatch
+
+Not every proposed task is immediately card-worthy. Classify items before creating cards — the dispatcher claims `ready` cards immediately, so a card you meant to discuss becomes work-in-progress before you've had input.
+
+**Kanban-ready tasks** (create-and-dispatch 🟢):
+- Bounded scope: can be done in one session, by one agent
+- Clear acceptance criteria: "done" is objectively verifiable
+- Independent: no upstream strategic decisions needed
+- Self-contained: no external input required beyond what's in the card body
+
+**Discussion-needs tasks** (present → classify → card 🔵):
+- Strategic or planning-heavy: "how should we approach this?" is the first question
+- Uncertain scope: the bounds aren't knowable without a decision first
+- Blocked on human judgement: needs a preference, priority call, or approach decision
+- Multi-phase: implies a sequence of work that itself needs decomposition
+
+**How to present discussion-needs items:**
+1. List them in your response with a clear classification label
+2. Propose which category they fall into and why
+3. Let the user decide which become cards
+4. Only create cards after the user signals go-ahead
+
+**When you misjudge and create cards prematurely:**
+If the user says "discuss first" and you've already created cards, immediately complete them with summary "pre-created during discussion — needs user approval to proceed" before the dispatcher claims them. Then re-present the list for classification.
+
+**Pitfall — `ready` is a dispatch signal, not a draft status.** Creating a card defaults it to `ready`. If you create a card during discussion and mean for it to wait, use `--initial-status blocked` with block reason "Awaiting user approval to proceed. Created for discussion — do not dispatch." Unblock only after the user explicitly approves the card. Without this, the dispatcher can claim the card mid-conversation and the worker finds itself executing work the user hadn't agreed to.
 
 ## Decomposition playbook
 
 ### Step 1 — Understand the goal
 
-Ask clarifying questions if the goal is ambiguous. Cheap to ask; expensive to spawn the wrong fleet.
+Ask clarifying questions **only if the goal is genuinely ambiguous** — not about logistics, profiles, or execution mechanics. The user delegates to avoid overhead; operational questions defeat the purpose. If the goal is clear, skip straight to Step 2 and execute.
 
 ### Step 2 — Sketch the task graph
 
-Before creating anything, draft the graph out loud (in your response to the user). Treat every concrete workstream as a candidate card:
+Before creating anything, draft the graph out loud (in your response to the user). Treat every concrete workstream as a candidate card. **Prefer execution over deliberation** — if the task has a clear goal and an obvious lane, don't ask permission. Just create the card and dispatch it.
 
+Key principles:
 1. Extract the lanes from the request.
-2. Map each lane to one of the profiles you discovered in Step 0. If a lane doesn't fit any existing profile, ask the user which to use or create.
+2. Map each lane to the right profile. If none fits, create one or use `default`.
 3. Decide whether each lane is independent or gated by another lane.
 4. Create independent lanes as parallel cards with no parent links.
-5. Create synthesis/review/integration cards with parent links to the lanes they depend on. A child created with unfinished parents starts in `todo`; the dispatcher promotes it to `ready` only after every parent is done.
+5. Create synthesis/review/integration cards with parent links to the lanes they depend on.
+
+**Exception — ask only when genuinely blocked:** If the goal is truly ambiguous or requires user taste (e.g., "pick a design language" or "which vendor?"), ask one focused question. Never ask about logistics (which profile, which timing, etc.) — figure those out yourself.
 
 Examples of prompts that should fan out (using placeholder profile names — substitute whatever exists on the user's setup):
 
@@ -138,7 +174,7 @@ Examples of prompts that should fan out (using placeholder profile names — sub
 
 Words like "also," "finally," or "and" do not automatically imply a dependency. They often mean "make sure this is covered before reporting back." Only link tasks when one card cannot start until another card's output exists.
 
-Show the graph to the user before creating cards. Let them correct it — including which actual profile name should own each lane.
+Show the graph to the user only when the task decomposition genuinely needs their taste input — e.g., complex multi-lane work where lanes depend on each other. For straightforward single-card tasks, just create and dispatch it.
 
 ### Step 3 — Create tasks and link
 
@@ -285,6 +321,8 @@ The progression is correct as a *build-up strategy* — test at Level 1, extract
 
 **Parallel implementation + validation:** one implementer card makes the change while one explorer/researcher card verifies config, docs, or source mapping. A reviewer card can depend on both. Do not make the implementer own unrelated verification just because the user mentioned both in one sentence.
 
+**Discover → Execute (human-gated):** the worker discovers/recommends, the human reviews, the main agent executes. Use for system administration audits, research-before-action, or any task where the worker's output needs human judgement before acting on it. The worker leaves findings in a structured comment; the human decides which to execute. See `references/discover-review-execute-pattern.md`.
+
 **Pipeline with gates:** `planner → implementer → reviewer`. Each stage's `parents=[previous_task]`. Reviewer blocks or completes; if reviewer blocks, the operator unblocks with feedback and respawns.
 
 **Same-profile queue:** N tasks, all assigned to the same profile, no dependencies between them. Dispatcher serializes — that profile processes them in priority order, accumulating experience in its own memory.
@@ -302,6 +340,8 @@ The progression is correct as a *build-up strategy* — test at Level 1, extract
 **Forgetting dependency links.** If the task graph says `research -> implement -> review`, do not create all tasks as independent ready cards. Use parent links so implement/review cannot run before their inputs exist.
 
 **Reassignment vs. new task.** If a reviewer blocks with "needs changes," create a NEW task linked from the reviewer's task — don't re-run the same task with a stern look. The new task is assigned to the original implementer profile.
+
+**Asking operational questions when the goal is clear.** The user told you what they want. Asking "which profile?" or "how should I handle this?" creates friction, not clarity. You have the tools to figure it out (profile list, skill list, terminal). Use them. If you need a profile that doesn't exist, create it. Only ask when the goal itself is ambiguous enough that you can't execute at all.
 
 **Argument order for links.** `kanban_link(parent_id=..., child_id=...)` — parent first. Mixing them up demotes the wrong task to `todo`.
 

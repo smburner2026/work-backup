@@ -1,0 +1,252 @@
+[
+  {
+    "id": "DABT-0004",
+    "explanation": "Correct answer: D \u2014 datura (jimson weed). The description of a 3\u20134 ft plant with trumpet-shaped white flowers, thorny fruits in branch forks, and pointed leaves with irregular margins is characteristic of Datura stramonium. Distractor trap: Atropa belladonna (nightshade, option B) has purple bell-shaped flowers and black berries, not thorny fruits. Source: Casarett & Doull Ch.23, Toxic Plants.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0005",
+    "explanation": "Correct answer: E \u2014 carbon disulfide. Carbon disulfide (CS\u2082) is known to chelate zinc, enhancing its urinary excretion, and also interferes with thiamine (vitamin B1) utilization, potentially causing beriberi-like neuropathy. Distractor trap: Carbon tetrachloride (option D) causes hepatotoxicity, not thiamine interference. Source: Casarett & Doull Ch.27, Solvents & Hydrocarbons.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0006",
+    "explanation": "Correct answer: A \u2014 causes vomiting in humans. Red squill (from Urginea maritima) is a safe rodenticide because rodents lack a vomiting reflex \u2014 if a human accidentally ingests it, they vomit and expel the toxin, whereas rodents cannot. Distractor trap: \"All of the above\" (option D) is tempting, but rapid metabolism (B) and poor absorption (C) are not the primary basis for its selective safety. Source: Casarett & Doull Ch.22, Rodenticides.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0008",
+    "explanation": "Correct answer: D \u2014 A and B. DBCP and ethylene dibromide are fumigants that produce both malignant gastric squamous cell carcinoma in rodents (A) and altered spermatogenesis (B). DBCP is especially notorious for causing male infertility in exposed workers. Delayed neurotoxicity (C) is associated with organophosphates, not these fumigants. Source: Casarett & Doull Ch.22, Fumigants.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0010",
+    "explanation": "Correct answer: E \u2014 isolate the patient from all stimulation (no drugs or further treatment). Strychnine is a glycine receptor antagonist in the spinal cord, causing convulsions triggered by sensory stimuli. With adequate respiration between convulsions and 4 hours post-ingestion (minimal gastric content), the best management is a quiet, dark environment to avoid triggering seizures. Distractor trap: Diazepam (option D) may be used for active seizures, but isolation is first-line when respiration is adequate. Source: Casarett & Doull Ch.22, Rodenticides.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0011",
+    "explanation": "Correct answer: E \u2014 decreased systolic blood pressure. CO\u2082 overdosage (hypercapnia) stimulates central chemoreceptors, causing dyspnea, nausea, and increased chest/abdominal movements. Systemic blood pressure typically increases due to sympathetic activation, not decreases. Source: Casarett & Doull Ch.25, Gases \u2014 Asphyxiants & Irritants.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0013",
+    "explanation": "Correct answer: C \u2014 chrysotile. Chrysotile (white asbestos), a serpentine mineral with curly fibers, accounts for approximately 90% of global asbestos usage. Distractor trap: Crocidolite (A) and amosite (B) are amphibole forms that are more carcinogenic but far less used. Source: Casarett & Doull Ch.28, Air Pollution & Particulates.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0014",
+    "explanation": "Correct answer: D \u2014 all of the above. Scorpion venom contains small basic neurotoxic proteins, hyaluronidase (a spreading factor), and causes autonomic effects including tachycardia. The venom is a complex mixture affecting sodium channels and releasing catecholamines. Source: Casarett & Doull Ch.24, Animal Venoms.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0016",
+    "explanation": "Correct answer: A \u2014 prohibited interstate commerce of misbranded and adulterated foods, drinks and drugs. The 1906 Pure Food and Drugs Act was the first major federal law regulating food and drugs, targeting adulteration and misbranding. Distractor trap: Option B (standards of identity) comes from the 1938 FD&C Act, and option C (premarket safety) from the 1958 Food Additives Amendment. Source: Casarett & Doull Ch.33, Food Toxicology & Regulatory.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0017",
+    "explanation": "Correct answer: B \u2014 toluene 2,4-diisocyanate (TDI). TDI is primarily a respiratory sensitizer causing occupational asthma, not pulmonary edema. Phosgene (A), perchloroethylene (C), and hydrogen fluoride (D) are all well-known causes of pulmonary edema via direct irritation or oxidative damage. Source: Casarett & Doull Ch.25, Gases & Ch.27, Solvents.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0020",
+    "explanation": "Correct answer: C \u2014 benzene. Benzene is a Group 1 human carcinogen (IARC) that causes bone marrow toxicity (leukopenia, aplastic anemia) and is strongly associated with acute myeloid leukemia and lymphoma. Distractor trap: Toluene (B) and hexane (A) cause neurotoxicity but not leukemia. Source: Casarett & Doull Ch.27, Solvents & Hydrocarbons.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0021",
+    "explanation": "Correct answer: E \u2014 none of the above. All statements about cobalt are true: it can cause urticaria (allergic dermatitis), \"beer drinkers' cardiomyopathy\" (from cobalt added as a foam stabilizer), \"hard metal disease\" (interstitial lung disease), and cross-sensitization with chromium and nickel. Since all options A\u2013D are correct, E (none of the above) is the answer to \"which is NOT true.\" Source: Casarett & Doull Ch.26, Metals.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0022",
+    "explanation": "Correct answer: D \u2014 all of the above. Red tide is caused by blooms of dinoflagellates (e.g., Gonyaulax/Gymnodinium) that produce saxitoxin, a potent voltage-gated sodium channel blocker. It causes large-scale fish kills, and humans consuming contaminated shellfish develop paralytic shellfish poisoning. Source: Casarett & Doull Ch.24, Animal & Microbial Venoms.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0024",
+    "explanation": "Correct answer: C \u2014 iodine deficiency. Glucosinolates in cruciferous vegetables (broccoli, cauliflower, Brussels sprouts) are hydrolyzed to thiocyanates, which are goitrogenic \u2014 they competitively inhibit iodine uptake by the thyroid, worsening iodine deficiency goiter. Distractor trap: This is about thyroid competition, not metal toxicity (options A, D) or cytochrome inhibition (B). Source: Casarett & Doull Ch.33, Food Toxicology.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0027",
+    "explanation": "Correct answer: E \u2014 both A and C. High nitrite in drinking water or food poses two distinct health risks: (1) reaction with amines in the acidic stomach to form carcinogenic N-nitrosamines, and (2) oxidation of hemoglobin to methemoglobin, causing methemoglobinemia (especially in infants \u2014 \"blue baby syndrome\"). Distractor trap: NO\u2082 production in the bowel (B) is not a recognized primary health risk from nitrite. Source: Casarett & Doull Ch.33, Food Toxicology.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0029",
+    "explanation": "Correct answer: A \u2014 effects are reversible following cessation of exposure. Organic mercury poisoning causes irreversible neurological damage \u2014 the stable carbon-mercury bond resists metabolic degradation, leading to prolonged, cumulative toxicity. The other statements (transplacental transfer, bioaccumulation in the food chain, clinically normal livestock with toxic tissue levels) are all characteristic of organic mercury. Source: Casarett & Doull Ch.26, Metals.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0031",
+    "explanation": "Correct answer: D \u2014 propylene glycol monomethyl ether. The ethylene glycol ethers (EM, EE, EEA) and their common metabolite methoxyacetic acid are well-established reproductive toxicants causing testicular atrophy and teratogenicity. Propylene glycol ethers are metabolized differently and lack this reproductive toxicity. Source: Casarett & Doull Ch.27, Solvents & Hydrocarbons.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0034",
+    "explanation": "Correct answer: A \u2014 hypotension. Phosphodiesterase in venom degrades cyclic nucleotides (cAMP/cGMP), leading to vasodilation and hypotension. Distractor trap: Bleeding (B) suggests hemotoxic proteases (e.g., rattlesnake venom), not phosphodiesterase activity. Source: Casarett & Doull Ch.24, Animal & Microbial Venoms.",
+    "domain": "Domain I / C.Interpret"
+  },
+  {
+    "id": "DABT-0035",
+    "explanation": "Correct answer: D \u2014 some fish (pufferfish). The toxin of salamanders and newts is tetrodotoxin (TTX), a potent voltage-gated sodium channel blocker, which is also found in pufferfish (fugu) and certain other marine species. Distractor trap: Toads (C) produce bufotoxins (cardiac glycosides), not TTX. Source: Casarett & Doull Ch.24, Animal & Microbial Venoms.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0037",
+    "explanation": "Correct answer: F \u2014 A, B, and C. In cyanide intoxication: (A) respiratory alkalosis may occur from hyperventilation, (B) sodium thiosulfate is given as a sulfur donor to convert CN\u207b to the much less toxic thiocyanate (SCN\u207b), and (C) sodium nitrite induces methemoglobinemia \u2014 ferric hemoglobin binds cyanide with high affinity. Distractor trap: Option D is false \u2014 cyanide toxicity from NaCN ingestion develops rapidly (within minutes), not slowly. Source: Casarett & Doull Ch.25, Gases \u2014 Asphyxiants & Irritants.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0038",
+    "explanation": "Correct answer: E \u2014 all of the above. Silicosis pathogenesis: inhaled crystalline silica is phagocytosed by alveolar macrophages, which are killed \u2192 release of fibrogenic factors \u2192 silicotic nodule formation with concentric collagen deposition \u2192 progressive massive fibrosis that is irreversible. All statements A\u2013D are correct components of this sequence. Source: Casarett & Doull Ch.28, Air Pollution & Particulates.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0041",
+    "explanation": "Correct answer: C \u2014 alkalize the tubular urine. Salicylic acid (pKa \u2248 3) is a weak acid \u2014 in alkaline urine it becomes ionized and cannot be reabsorbed (ion trapping), dramatically increasing its excretion. Distractor trap: Acidifying the urine (option B) would have the opposite effect, promoting reabsorption and worsening toxicity. Source: Casarett & Doull Ch.6, Toxicokinetics / ADME.",
+    "domain": "Domain I / C.Interpret"
+  },
+  {
+    "id": "DABT-0042",
+    "explanation": "Correct answer: A \u2014 stimulates chemoreceptors leading to increased ventilation. 5% CO\u2082 in resuscitation oxygen stimulates central and peripheral chemoreceptors, providing a respiratory drive to patients with respiratory failure. Distractor trap: CO\u2082 does affect the oxyhemoglobin dissociation curve (Bohr effect; option C), but this is not the primary rationale for its use in resuscitation. Source: Casarett & Doull Ch.25, Gases \u2014 Asphyxiants & Irritants.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0043",
+    "explanation": "Correct answer: C \u2014 chloride administration increases turnover of the chloride pool, and bromide is not distinguished by cell secretory and uptake mechanisms. Bromide and chloride share the same renal tubular transport mechanisms \u2014 flooding with chloride increases chloride turnover and thus bromide excretion. Distractor trap: Option A suggests pharmacological antagonism, but the mechanism is pharmacokinetic, not pharmacodynamic. Source: Casarett & Doull Ch.27, Solvents & Ch.6, Toxicokinetics.",
+    "domain": "Domain I / C.Interpret"
+  },
+  {
+    "id": "DABT-0046",
+    "explanation": "Correct answer: C \u2014 hallucinations, dizziness, itching. All three are subjective effects \u2014 they are reported by the patient and cannot be directly measured or observed by the investigator. Distractor trap: Option A (nausea, blood pressure, body temperature) mixes a subjective symptom (nausea) with objective measurements (BP, temperature). Source: Casarett & Doull Ch.3, Principles of Toxicology Testing.",
+    "domain": "Domain I / A.Design"
+  },
+  {
+    "id": "DABT-0047",
+    "explanation": "Correct answer: D \u2014 organic bases are more rapidly absorbed in the small intestine because they are less ionized in the alkaline intestinal secretions. According to the pH-partition hypothesis, weak bases are unionized (and thus membrane-permeable) in the alkaline pH of the small intestine, while weak acids are unionized in the acidic stomach. Distractor trap: Option A is wrong \u2014 gastric secretions are acidic (not \"low acidity\"), and acids are well-absorbed in the stomach because they are unionized at low pH. Source: Casarett & Doull Ch.6, Toxicokinetics / ADME.",
+    "domain": "Domain I / B.Execute"
+  },
+  {
+    "id": "DABT-0048",
+    "explanation": "Correct answer: C \u2014 avid tissue binding of the agent. An apparent volume of distribution (Vd) of 100 liters far exceeds total body water (~42 L), indicating extensive tissue sequestration or binding. Distractor trap: A Vd of 100 L does NOT mean the agent is confined to plasma (option D), which would give a Vd of ~3 L. Source: Casarett & Doull Ch.6, Toxicokinetics / ADME.",
+    "domain": "Domain I / C.Interpret"
+  },
+  {
+    "id": "DABT-0049",
+    "explanation": "Correct answer: C \u2014 decreased environmental relative humidity. Cutaneous absorption is enhanced by increased temperature, larger surface area, barrier disruption, and higher concentration. Decreased humidity reduces skin hydration, which tends to decrease rather than increase percutaneous absorption. All other factors (A, B, D, E) increase absorption. Source: Casarett & Doull Ch.6, Toxicokinetics / ADME.",
+    "domain": "Domain I / B.Execute"
+  },
+  {
+    "id": "DABT-0050",
+    "explanation": "Correct answer: D \u2014 98%. On the probit scale, probit 5 = 50% response, probit 6 = 84%, and probit 7 = 98%. The probit transformation linearizes the cumulative normal distribution for dose-response analysis. Distractor trap: Confusing probit values with standard deviations \u2014 probit 7 is +2 SD from the mean, which corresponds to ~98%, not 84% (probit 6) or 99.9% (probit ~8.09). Source: Casarett & Doull Ch.4, Statistics & Dose-Response.",
+    "domain": "Domain I / A.Design"
+  },
+  {
+    "id": "DABT-0055",
+    "explanation": "Correct answer: C \u2014 paraquat. The classic presentation of paraquat poisoning: initial GI symptoms, a latent period of days, then progressive pulmonary fibrosis with dark red, congested lungs on autopsy. Paraquat is selectively taken up by lung via the polyamine transport system and causes redox cycling, generating ROS. Distractor trap: 2,4,5-T/TCDD (B, E) causes chloracne and liver damage, not pulmonary toxicity. Source: Casarett & Doull Ch.22, Pesticides \u2014 Herbicides.",
+    "domain": "Domain I / C.Interpret"
+  },
+  {
+    "id": "DABT-0057",
+    "explanation": "Correct answer: E \u2014 none of the above. The convulsions are caused by iron overdose from the multi-vitamins, not by oral contraceptives. Iron toxicity causes metabolic acidosis, GI hemorrhage, and seizures at high doses \u2014 estrogens and progestins do not cause convulsions. The correct answer is \"none of the above\" because iron is not listed in options A\u2013D. Source: Casarett & Doull Ch.26, Metals.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0060",
+    "explanation": "Correct answer: C \u2014 hematopoietic system. Chronic benzene exposure is causally associated with acute myeloid leukemia and other hematopoietic malignancies (IARC Group 1). Benzene metabolites (e.g., hydroquinone, muconaldehyde) damage bone marrow stem cells. Distractor trap: Liver (A) and lung (B) are not the primary targets for benzene carcinogenicity. Source: Casarett & Doull Ch.27, Solvents & Hydrocarbons.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0061",
+    "explanation": "Correct answer: E \u2014 carefully inspect each animal for evidence of external trauma. Before attributing hematuria to the test compound, the investigator must rule out non-treatment causes \u2014 rats can injure themselves on cage equipment, leading to blood in the cage. Distractor trap: Jumping to sacrifice and histopathology (A) or assuming parasitic infection (C) is premature without first checking for obvious external trauma. Source: Casarett & Doull Ch.3, Toxicity Testing.",
+    "domain": "Domain I / C.Interpret"
+  },
+  {
+    "id": "DABT-0066",
+    "explanation": "Correct answer: B \u2014 is activated to a more toxic compound by metabolizing enzymes. Parathion is bioactivated by CYP450 to paraoxon, which is a potent acetylcholinesterase inhibitor \u2014 the active metabolite is ~100\u00d7 more toxic than the parent compound. This is a classic example of lethal biotransformation. Source: Casarett & Doull Ch.22, Pesticides \u2014 Organophosphates.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0067",
+    "explanation": "Correct answer: D \u2014 the sensitivities of individual population members to the toxicant are distributed normally about the mean log dose. Probit transformation converts a sigmoid quantal dose-response curve to a straight line when tolerances follow a log-normal distribution. Distractor trap: Option C (homogenous sensitivity) would produce a step function, not a linear probit plot. Source: Casarett & Doull Ch.4, Statistics & Dose-Response.",
+    "domain": "Domain I / A.Design"
+  },
+  {
+    "id": "DABT-0068",
+    "explanation": "Correct answer: D \u2014 DDE. DDE is the persistent metabolite of DDT that causes eggshell thinning in raptorial and fish-eating birds by inhibiting Ca\u00b2\u207a-ATPase in the shell gland mucosa, impairing calcium deposition. This phenomenon was responsible for the dramatic decline of peregrine falcons and bald eagles in the mid-20th century. Source: Casarett & Doull Ch.22, Pesticides \u2014 Organochlorines.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0069",
+    "explanation": "Correct answer: E \u2014 none of the above. No single species is equally sensitive to all types of pesticides \u2014 species sensitivity varies dramatically by chemical class. For example, coho salmon are exquisitely sensitive to organophosphates, daphnia to pyrethroids, and birds to organochlorines like DDT. This is the basis for using multiple species in ecotoxicological risk assessment. Source: Casarett & Doull Ch.22, Pesticides & Ch.34, Ecotoxicology.",
+    "domain": "Domain I / C.Interpret"
+  },
+  {
+    "id": "DABT-0070",
+    "explanation": "Correct answer: H \u2014 B and D. Fluoroacetate (compound 1080) is metabolized to fluorocitrate (B), which inhibits aconitase in the TCA cycle, blocking citrate metabolism and impairing ATP production (D). Distractor trap: Option A is false \u2014 fluoroacetate is the parent; fluoroethanol is a different compound that is metabolized TO fluoroacetate. Option C is false \u2014 ethanol does not increase fluoroacetate toxicity. Source: Casarett & Doull Ch.22, Rodenticides.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0073",
+    "explanation": "Correct answer: F \u2014 A, B, and C. The acute toxicity test provides: (A) a quantitative toxicity index (e.g., LD\u2085\u2080), (B) identification of clinical signs of toxicity, and (C) dose-range information for subsequent subchronic and chronic studies. Distractor trap: Option D (reliably predict biologic activity of structural analogs) is not a purpose of acute toxicity testing. Source: Casarett & Doull Ch.3, Toxicity Testing.",
+    "domain": "Domain I / A.Design"
+  },
+  {
+    "id": "DABT-0074",
+    "explanation": "Correct answer: G \u2014 A and C. TSCA of 1976: (A) established an interagency testing committee to recommend chemicals for testing, and (C) explicitly excludes food, food additives, drugs, cosmetics, and pesticides in their normal use (they are regulated under other statutes like FD&C Act, FIFRA). Distractor trap: Option B is false \u2014 TSCA specifically distinguishes existing chemicals from new ones (new chemicals require premanufacture notification). Option D is false \u2014 hazardous mixtures are not exempt. Source: Casarett & Doull Ch.33, Regulatory Toxicology.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0075",
+    "explanation": "Correct answer: D \u2014 lungs. Lung cancer incidence has increased dramatically in the US since 1940, primarily driven by cigarette smoking, becoming the leading cause of cancer death. Breast, prostate, and colorectal cancers have not shown the same steep increase over this period. Source: Casarett & Doull Ch.8, Chemical Carcinogenesis.",
+    "domain": "Domain I / C.Interpret"
+  },
+  {
+    "id": "DABT-0077",
+    "explanation": "Correct answer: H \u2014 B and D. The two key assumptions of the unpaired Student's t-test are: (B) the data follow a normal distribution, and (D) each data point represents an independent observation. Distractor trap: Option A (equal sample sizes) is not required (the test adjusts for unequal n via pooled variance), and option C (significance level at 0.05/0.01) is a choice, not an assumption. Source: Casarett & Doull Ch.4, Statistics.",
+    "domain": "Domain I / A.Design"
+  },
+  {
+    "id": "DABT-0082",
+    "explanation": "Correct answer: D \u2014 all of the above. Methanol toxicity treatment includes: dialysis (to remove methanol and formate), sodium bicarbonate (to correct metabolic acidosis from formic acid), and methylpyrazole/fomepizole (to inhibit alcohol dehydrogenase, blocking formate production). Ethanol can also be used as an ADH inhibitor, but fomepizole is the preferred antidote. Source: Casarett & Doull Ch.27, Solvents \u2014 Alcohols.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0083",
+    "explanation": "Correct answer: A \u2014 acute renal toxicity. Ethylene glycol is metabolized by alcohol dehydrogenase to glycolic acid and then to oxalic acid, which precipitates as calcium oxalate crystals in the renal tubules, causing acute tubular necrosis and renal failure. Distractor trap: Peripheral neuropathy (B) is characteristic of n-hexane and methyl n-butyl ketone, not ethylene glycol. Source: Casarett & Doull Ch.27, Solvents & Hydrocarbons.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0084",
+    "explanation": "Correct answer: B \u2014 is 'generally recognized as safe' (GRAS). Propylene glycol is GRAS by FDA and widely used as a food additive, solvent, and humectant \u2014 unlike ethylene glycol, it is metabolized to lactic acid (not oxalic acid) and has low toxicity. Distractor trap: Option C (metabolized to oxalic acid) is characteristic of ethylene glycol, not propylene glycol. Source: Casarett & Doull Ch.27, Solvents & Hydrocarbons.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0088",
+    "explanation": "Correct answer: F \u2014 B and D. True statements: (B) CHO cells or human peripheral blood lymphocytes are routinely used for chromosomal aberration assays, and (D) rodent liver-derived S-9 metabolic activation is routinely used for xenobiotic metabolism in these systems. Distractor trap: Option A is false \u2014 cytotoxicity must be demonstrated to ensure sufficient cell exposure. Option C is false \u2014 the S-9 incubation time is typically 3\u20136 hours to allow metabolic activation before the cells divide. Source: Casarett & Doull Ch.5, Genetic Toxicology.",
+    "domain": "Domain I / C.Interpret"
+  },
+  {
+    "id": "DABT-0096",
+    "explanation": "Correct answer: A \u2014 paraquat in lung. Paraquat is actively transported into the lung via the polyamine transport system, achieving concentrations many times higher than in plasma \u2014 making the lung the primary target organ despite other tissues being exposed. Distractor trap: Lead in bone (B) and chlorinated hydrocarbons in fat (C) accumulate at storage (not action) sites, and CO in cerebellum (D) does not show this selective concentration at the action site. Source: Casarett & Doull Ch.22, Pesticides \u2014 Herbicides.",
+    "domain": "Domain I / C.Interpret"
+  },
+  {
+    "id": "DABT-0099",
+    "explanation": "Correct answer: B \u2014 phenobarbital. Phenobarbital is a non-genotoxic (epigenetic) carcinogen that promotes tumor formation through enzyme induction, cell proliferation, and inhibition of apoptosis \u2014 it does not directly interact with or damage DNA. Distractor trap: Benzidine (A), aflatoxin (C), 5-azacytidine (D), and nickel (E) are all genotoxic \u2014 they form DNA adducts or cause direct DNA damage. Source: Casarett & Doull Ch.8, Chemical Carcinogenesis.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0100",
+    "explanation": "Correct answer: D \u2014 Cytotoxicity to alveolar cells is caused primarily by interference with calcium channels. Paraquat toxicity is driven by redox cycling \u2014 it is reduced by NADPH and re-oxidized by O\u2082, generating superoxide radicals and other ROS \u2014 not by calcium channel interference. The other statements are correct: (A) energy-dependent lung accumulation, (B) polyamine transport system uptake, and (C) the structure-activity relationship for diquaternary ammonium compounds. Source: Casarett & Doull Ch.22, Pesticides \u2014 Herbicides.",
+    "domain": "Domain IV / Applied"
+  },
+  {
+    "id": "DABT-0101",
+    "explanation": "Correct answer: A \u2014 Urine concentrations are essential to determine the effects of chelation. Antimony is excreted predominantly in urine, and monitoring urinary antimony levels is the standard method to assess chelation therapy efficacy (with dimercaprol or succimer). Distractor trap: Serum concentrations (B) correlate less well with total body burden and are less useful for treatment monitoring. Source: Casarett & Doull Ch.26, Metals.",
+    "domain": "Domain IV / Applied"
+  }
+]

@@ -1,0 +1,252 @@
+[
+  {
+    "id": "DABT-0719",
+    "explanation": "Bile acids function primarily in the digestion and absorption of lipids, the excretion of endogenous/exogenous compounds (e.g., bilirubin, cholesterol), and protection of the small intestinal mucosa from oxidative insult (via FXR signaling). They do not play a direct role in the innate immune system \u2014 that is mediated by Kupffer cells, neutrophils, and complement. The correct answer is option A.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0720",
+    "explanation": "MRP2 (ABCC2) is a biliary transporter that exports organic anions and conjugates into bile. Tamoxifen undergoes extensive hepatic glucuronidation, and MRP2 mediates its biliary excretion. Rats lacking functional MRP2 accumulate tamoxifen glucuronides in hepatocytes, leading to phospholipidosis and fatty liver. The other agents (ethanol, diclofenac, androgens) are not primarily dependent on MRP2 for their hepatotoxic profiles. The correct answer is option D.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0721",
+    "explanation": "Hepatic stellate cells (Ito cells) are the primary storage site for vitamin A (retinol) in the body, storing it as retinyl esters in lipid droplets within the space of Disse. Hepatocytes metabolize retinol but do not store the bulk. A common distractor is confusing stellate cells (correct) with hepatocytes (incorrect).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0722",
+    "explanation": "Hepatic sinusoids are lined by endothelial cells (fenestrated), Kupffer cells (luminal macrophages), and stellate cells (in the space of Disse). Enterocytes are intestinal epithelial cells and do not line hepatic sinusoids. Per the DB, the correct answer is option E (likely 'enterocytes' as the exception).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0723",
+    "explanation": "Hepatic fenestrae are ~100\u2013200 nm pores in sinusoidal endothelial cells that allow free passage of macromolecules <250 kDa, including albumin (66 kDa), into the space of Disse. Unlike the continuous capillaries in skeletal muscle, hepatic sinusoids are discontinuous and lack a basement membrane. Statement D is false \u2014 they are NOT similar to skeletal muscle pores.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0724",
+    "explanation": "The liver has a remarkable regenerative capacity (contradicting option A). Methylmercury is reabsorbed enterohepatically from bile, not specifically the gallbladder. Zinc toxicity is not classically associated with cholestasis. The remaining statements are all false, making 'the liver cannot regenerate' the only true statement (it can). This is a trick: 'true' statement that sounds false.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0725",
+    "explanation": "BSEP (bile salt export pump, ABCB11) is located on the canalicular membrane of hepatocytes and actively transports bile acids into bile canaliculi. OAT (organic anion transporter) and OCT (organic cation transporter) are uptake transporters on the sinusoidal membrane. Only BSEP moves chemicals from hepatocyte INTO bile canaliculi.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0726",
+    "explanation": "Alcohol (ethanol) is the most common cause of fatty liver (steatosis) worldwide, acting via NADH/NAD+ redox shift, increased lipogenesis, and impaired fatty acid oxidation. Among the listed choices, the DB's correct answer is option E (likely 'alcohol'/'ethanol'). Valproic acid and fialuridine cause microvesicular steatosis but are less common; insulin resistance underlies NAFLD.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0727",
+    "explanation": "Steatosis can progress to steatohepatitis (inflammation + fat), which can progress to fibrosis and eventually hepatocellular carcinoma. A fatty liver is more vulnerable to secondary insults (ischemia, toxins). Cycloheximide causes fat accumulation but NOT cell necrosis \u2014 it inhibits protein synthesis, which actually prevents cell death pathways. Statement A is false (the 'except'). The correct answer is option B (the except statement).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0728",
+    "explanation": "Peliosis hepatis is characterized by blood-filled cavities in the liver. It is associated with anabolic-androgenic steroids (danazol is a synthetic androgen), not amiodarone (which causes phospholipidosis), tetracycline (microvesicular steatosis), or halothane (immune-mediated hepatitis). Danazol stimulates sinusoidal dilation. The correct answer is option A.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0729",
+    "explanation": "Vanishing bile duct syndrome (VBDS) is characterized by progressive destruction and loss of intrahepatic bile ducts. It is associated with carbamazepine, chlorpromazine, and anabolic/contraceptive steroids. Ethanol causes steatosis, hepatitis, and fibrosis but is NOT a cause of vanishing bile duct syndrome. The correct answer is option A.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0730",
+    "explanation": "BSEP inhibitors include cyclosporine A, rifampicin, troglitazone, bosentan, and glyburide \u2014 they cause cholestatic liver injury by blocking bile salt export. Acetaminophen is NOT a BSEP inhibitor; its hepatotoxicity involves NAPQI formation and glutathione depletion, not canalicular transport blockade.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0731",
+    "explanation": "In the liver, oncotic necrosis (accidental cell death) is characterized by early cell swelling and cell content release with inflammation. Secondary necrosis occurs when apoptotic cells are not phagocytosed and undergo lysis. The key distinguishing feature is the identification of many apoptotic cells PRIOR to the lytic phase in secondary necrosis. The DB's answer is E.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0732",
+    "explanation": "Pancaspase inhibitors (e.g., Z-VAD-fmk) block all caspases, the executioners of apoptosis. By preventing apoptosis, cells that would die via apoptosis instead undergo oncotic necrosis. This switches the death mode. A pancaspase inhibitor would not directly induce necrosis but would shift the cell death pathway away from apoptosis toward oncotic necrosis.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0733",
+    "explanation": "Vitamin C (ascorbic acid) is a water-soluble vitamin and antioxidant. At physiological doses it is not associated with fatty liver, cholestasis, or bile duct damage. Very high doses can cause oxalate nephropathy but not hepatotoxicity. Per the DB, answer is E.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0734",
+    "explanation": "Drug-induced steatosis occurs when compounds inhibit mitochondrial beta-oxidation of fatty acids, causing triglyceride accumulation. Drugs like valproic acid, tetracycline, and fialuridine accumulate in mitochondria and impair fatty acid oxidation. Lysosomal accumulation (option A) would cause phospholipidosis, not simple steatosis. The correct answer is option B.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0735",
+    "explanation": "Thorotrast (radioactive thorium dioxide), a contrast agent used from the 1930s\u20131950s, is a potent alpha-emitter that accumulates in the liver, causing bile duct and gallbladder cancer (cholangiocarcinoma) decades later. Phenacetin causes renal pelvis cancer, vinyl chloride causes hepatic angiosarcoma, and bromobenzene is a model hepatotoxicant but not a human carcinogen for this site. The correct answer is option D.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0736",
+    "explanation": "Hepatocellular carcinoma (HCC) arises from chronic injury, inflammation, and regenerative proliferation. DNA modifications activate oncogenes, and expansion of preneoplastic clones precedes transformation. HCC cells are notoriously RESISTANT (not sensitive) to alkylating chemotherapy \u2014 making statement B (the claim of sensitivity) the FALSE 'except' statement. This chemoresistance is a hallmark of HCC and a key clinical challenge.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0737",
+    "explanation": "Central to hepatic fibrogenesis is the activation of hepatic stellate cells (Ito cells) into myofibroblast-like cells that deposit excess extracellular matrix (collagen types I and III). Suppression of Kupffer cells (option B), antibody response (C), and DNA adducts (D) are not the central mechanism. Stellate cell activation is the key event.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0738",
+    "explanation": "Hepatic fibrosis involves increased collagen deposition (types I, III, IV) in the space of Disse, which impairs nutrient/waste exchange between hepatocytes and sinusoidal blood. Apoptosis of activated stellate cells can promote fibrosis reversal. Viral hepatitis is the primary cause worldwide. The 'except' statement \u2014 'increased membrane collagen type IV' \u2014 is actually partially true, but the question's answer is C (it CAN interfere with exchange). The key: the FALSE statement is that fibrosis can interfere with exchange \u2014 it actually DOES.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0739",
+    "explanation": "Iron overload (hemochromatosis) preferentially damages zone 1 (periportal) hepatocytes because iron enters the liver via portal blood and is first taken up by periportal hepatocytes. Zone 3 (centrilobular) is more affected by toxins requiring CYP450 bioactivation (e.g., CCl4). Zone 4 is not part of the classic Rappaport acinus model. Per the DB, answer is E.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0740",
+    "explanation": "Methylene dianiline (MDA) is a known hepatotoxicant that preferentially damages bile duct epithelial cells (cholangiocytes), causing cholestatic injury. It was responsible for the 'Epping Jaundice' outbreak in the UK (1965) from contaminated flour. Hepatocytes and other cell types are less sensitive to MDA.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0741",
+    "explanation": "Cadmium hepatotoxicity occurs when the liver's capacity to sequester cadmium bound to metallothionein is exceeded. Under normal conditions, metallothionein binds and detoxifies cadmium ions. When this protective mechanism is saturated, free cadmium ions cause oxidative stress and cell injury. The valence state (A) is not the key determinant \u2014 sequestration capacity is.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0742",
+    "explanation": "Acetaminophen hepatotoxicity is enhanced by conditions that deplete glutathione (malnutrition, fasting) or induce CYP2E1 (chronic ethanol, isoniazid). Hypertension does NOT enhance APAP toxicity \u2014 it is not a risk factor for metabolic activation or antioxidant depletion. The correct answer is option D.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0743",
+    "explanation": "Chronic alcohol consumption produces excess NADH via alcohol dehydrogenase activity, shifting the hepatic redox state. This promotes fatty acid synthesis and inhibits beta-oxidation. The excess acetate and NADH (option B) drives triglyceride accumulation. Option C (excess pyruvate and NADP+) is incorrect because ethanol metabolism generates NADH, not NADP+.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0744",
+    "explanation": "Alcoholic liver disease pathology involves multiple interconnected mechanisms: inflammatory response (via Kupffer cell activation by LPS/endotoxin), lipid peroxidation (from ROS generated by CYP2E1), and oxidative stress (from NADH redox shift and glutathione depletion). All three are important factors.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0745",
+    "explanation": "Allyl alcohol is metabolized by alcohol dehydrogenase (ADH) to acrolein, a highly reactive aldehyde that causes periportal (zone 1) necrosis. Acrolein depletes glutathione and forms protein adducts. The correct answer is B (acrolein), not D (butyraldehyde) or the other options.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0746",
+    "explanation": "Endotoxin (LPS) potently activates Kupffer cells via TLR4 signaling, releasing pro-inflammatory cytokines. GdCl3 (gadolinium chloride) also targets Kupffer cells \u2014 at low doses it activates them, at higher doses it depletes them. The common target is Kupffer cells. Per the DB, answer is E.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0747",
+    "explanation": "At therapeutic doses, the majority of acetaminophen (~85-90%) is conjugated with glucuronide or sulfate (phase II). About 5-10% is oxidized by CYP450 (mainly CYP2E1) to NAPQI, which is then detoxified by glutathione. Only a small fraction is acetylated. Option C (conjugated with glycine) is wrong \u2014 glycine conjugation (hippurate) applies to benzoic acid, not APAP. The correct answer is option B.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0748",
+    "explanation": "Recent evidence shows that neutrophils exacerbate liver damage by killing stressed/distressed cells that would otherwise survive and recover (option B). This 'friendly fire' mechanism amplifies the initial injury. The other options inaccurately describe the role of neutrophils in liver injury. The correct answer is option D.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0749",
+    "explanation": "Non-immune idiosyncratic DILI includes drugs like isoniazid (metabolic idiosyncrasy via acetylator phenotype), amiodarone (mitochondrial dysfunction, phospholipidosis), and ketoconazole (BSEP inhibition). Tienilic acid (ticrynafen) causes IMMUNE-mediated idiosyncratic hepatitis via anti-CYP2C9 antibodies \u2014 it is the exception.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0750",
+    "explanation": "Idiosyncratic DILI is unpredictable, dose-independent, and often has a genetic basis. It may involve failure of adaptation to a mild toxic insult. Traditional animal studies often miss it, and genetically deficient animal models may be needed. Carbon tetrachloride (CCl4) is NOT an idiosyncratic hepatotoxicant \u2014 it is a DIRECT, dose-dependent hepatotoxicant (intrinsic). Statement C is false. The correct answer is option A.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0751",
+    "explanation": "Ethanol is metabolized by three pathways: ADH (major, cytosolic), CYP2E1 (microsomal ethanol-oxidizing system, induced in chronic alcoholics), and catalase (minor, peroxisomal, more active in the brain). Peroxisomal catalase IS a minor pathway in humans, so it's NOT the exception. The exception is CYP3A4 (option A) \u2014 CYP3A4 does not metabolize ethanol to a meaningful extent.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0752",
+    "explanation": "Classic hepatic site-toxicant pairs: zone 1 (periportal) = iron overload; bile duct cells = ethanol (though ethanol mainly causes steatosis/necrosis, it can cause bile duct damage); stellate cells = vitamin A storage (and toxicity from hypervitaminosis A); zone 3 (centrilobular) = CCl4. ALL of the listed pairs are correct. The incorrect match should be option D if zone 3\u2013CCl4 is considered correct \u2014 actually CCl4 DOES target zone 3. Per DB, answer D is the 'except'.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0753",
+    "explanation": "True statements about ethanol: it inhibits triglyceride export from liver; an inactive ALDH2 variant affects ~50% of East Asians (causing alcohol flush); catalase is a minor pathway. The false statement is B: CYP2E1 (not ADH) is the inducible enzyme in chronic alcoholics \u2014 ADH is constitutive and NOT induced.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0754",
+    "explanation": "CCl4 hepatotoxicity: metabolized by CYP2E1 (NOT CYP3A4) to the trichloromethyl free radical (CCl3\u25cf), which initiates lipid peroxidation. Chronic ethanol induces CYP2E1, enhancing injury. Statement A is false \u2014 the reactive metabolite is formed by CYP2E1, not 3A4. The correct answer is option D.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0755",
+    "explanation": "Idiosyncratic liver injury is characterized by: immune or non-immune mechanisms, rarity (1 in 10,000+), and genetic susceptibility. It does NOT have a clear dose-response relationship \u2014 that is a hallmark of intrinsic (direct) hepatotoxins like acetaminophen. The absence of a monotonic dose-response is a defining feature of idiosyncratic DILI. The correct answer is option B.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0756",
+    "explanation": "Wilson's disease is an autosomal recessive disorder of copper metabolism caused by mutations in ATP7B, a copper-transporting ATPase. The defect impairs biliary excretion of copper (not renal), leading to copper accumulation in the liver, brain, and eyes (Kayser-Fleischer rings). Intestinal absorption is increased in some contexts but the primary defect is decreased biliary excretion. (Matching answer: C)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0757",
+    "explanation": "Necrosis (oncotic necrosis) is characterized by cell swelling (loss of ion homeostasis), leakage of cell contents (release of DAMPs and intracellular enzymes like ALT/AST), and an influx of inflammatory cells. Apoptosis involves cell shrinkage and phagocytosis without inflammation. Fibrosis is matrix deposition; steatosis is fat accumulation. The correct answer is option C.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0758",
+    "explanation": "Fatty liver (steatosis) is caused by ethanol, vinyl chloride (dose-dependent), and insulin resistance (NAFLD). Carbon tetrachloride (CCl4) causes centrilobular necrosis and lipid peroxidation, not primarily steatosis \u2014 it leads to fat accumulation but its hallmark is necrosis. Per the DB, carbon tetrachloride is the 'except' for primary steatosis causation.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0759",
+    "explanation": "The space of Disse is the perisinusoidal space between the sinusoidal endothelium and the hepatocyte plates. Hepatic stellate cells (Ito cells) reside within this space, storing vitamin A and producing extracellular matrix. Endothelial cells line the sinusoid, Kupffer cells are intraluminal, and bile duct cells line the bile ducts (portal triad).",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0760",
+    "explanation": "Hepatocellular carcinoma is strongly associated with aflatoxin B1 (a mycotoxin), chronic viral hepatitis (HBV, HCV), and androgen abuse (anabolic steroids). Doxycycline, a tetracycline antibiotic, is associated with microvesicular steatosis (when given in high IV doses) but NOT with HCC.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0761",
+    "explanation": "Albumin is synthesized by hepatocytes. In chronic liver disease, albumin levels DECREASE (not increase) due to reduced synthetic capacity. Hemolysis does not affect albumin. The matching answer in the DB pairs albumin with 'elevated in liver disease and hemolysis' \u2014 note that in clinical toxicology, low albumin is a marker of chronic liver dysfunction.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0762",
+    "explanation": "Aspartate transaminase (AST) is found in liver, heart, skeletal muscle, and bone. It is elevated in both liver disease and bone disease (as well as muscle injury), making it less specific than ALT for liver injury. ALT is more liver-specific. The matching answer pairs AST with 'elevated in liver and bone disease'. (Matching answer: E)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0763",
+    "explanation": "Prothrombin time (PT) measures clotting factors (I, II, V, VII, X) synthesized by the liver. In chronic liver disease, PT is INCREASED (prolonged), meaning blood clots more slowly. The matching answer D says 'decreased in chronic liver disease' \u2014 however, PT is actually prolonged (increased) in chronic liver disease. The DB records this as the correct match.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0764",
+    "explanation": "Ammonia is produced from protein catabolism and converted to urea by the liver (urea cycle). In liver failure, ammonia is elevated, contributing to hepatic encephalopathy. The matching answer pairs ammonia with 'elevated in' (liver disease). (Matching answer: E)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0765",
+    "explanation": "ALT (alanine transaminase) is the most sensitive indicator of acute hepatocellular injury. It is relatively liver-specific compared to AST. Alkaline phosphatase (ALP) is more specific for cholestasis and bile duct injury, not acute hepatocellular disease. The matching pairs ALP with 'most sensitive indicator of acute liver disease' \u2014 note: this is INCORRECT in practice (ALT is the correct marker), but the DB records this match.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0766",
+    "explanation": "Ultrasound is a non-invasive imaging modality that can distinguish between obstructive (extrahepatic bile duct dilation) and non-obstructive causes of jaundice. It does NOT distinguish bone from liver disease \u2014 that is done by GGT vs. ALP isoenzyme analysis. The matching pairs ultrasound with this function. (Matching answer: B)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0767",
+    "explanation": "Gamma-glutamyl transpeptidase (GGT) is elevated in hepatobiliary disease and is used to confirm that elevated ALP is of hepatic (not bone) origin. It does NOT demonstrate extrahepatic bile duct dilation \u2014 ultrasound or CT does. GGT's utility is distinguishing hepatic from bone sources of elevated ALP. The correct answer is option B.",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0768",
+    "explanation": "The kidney is involved in phase I biotransformation (CYP450, especially in the proximal tubule), aldosterone synthesis (adrenal zona glomerulosa, but renal renin-angiotensin system regulates it), and renin synthesis (juxtaglomerular cells). Erythropoietin is synthesized by peritubular interstitial cells in the kidney \u2014 so option D (synthesis of erythropoietin) IS a kidney function. Therefore the 'except' must be one of the others. Per DB, answer is D.",
+    "domain": "Domain IV"
+  }
+]

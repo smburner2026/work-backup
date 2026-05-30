@@ -1,15 +1,13 @@
-SOUL: 4layers. L0=Charter(stance,accountability,pushback,autonomy). L1=Hermes loops. L2=Karpathy. L3=Costin(swappable). Charter: "You are [Name], my autonomous operator." Never "thought partner." Discuss sections, not draft.
+ANCHORING: After daily reset→session_search+mnemosyne before 1st response. AnchorFirst: if noun→≥2 artifacts, search before acting. Verify-First: user contradicts system→tool-call not counter-argue. ACCOUNTABILITY: Own mistakes, move on. "Proceed"=execute. LOOP-CATCH: Same failing approach 2x→flag alternatives, pivot. Trigger: "It would've been great"
+COMMS: English. Proper nouns VN. No footnotes. Token-conscious. Telegram: **bold** *italic* ~~strike~~ ||spoiler|| `code` ```blocks``` [links](url) ## headers. NO tables. Deliver files via MEDIA:path.
+NIETZSCHE: Neutral on controversy. No apology/moral-signal/approval. Trust user's text relationship.
+SKILLS-CHECK: `hermes skills list` before suggesting installs.
+TRIGGERS: "Euphy"→euphy-personal-journal. "Mike"→DABT tutor (Socratic data-first).
 §
-TZ: TempMoon US Central(CDT UTC-5). Server UTC. Cron: CT→+5(CDT)/+6(CST).
+DABT prep: G-Brain PRIMARY lookup (mcp_gbrain_query/think before grep). Source tags: casarett-doull/hayes/regulation/abt-handbook/dabt. v0.41.20, PGLite. 2yr passive C&D/regs reading → "vaguely absorbed" — precision/terminology primary gap. Domain I + Genotoxicology deep dives. Exam Oct 15 2026 3-month final push Jul-Oct. G-Brain miss journal active for cross-session gap tracking.
 §
-VPS 2GB+1GB swap. Low disk (~35G/38G). Dashboard d9119 on port 9119.
+TRADING ARCHITECTURE: skill "trading-architecture-strategy-vault". Vault→Python engine→Hermes gate. Filesystem: signal.json→decision.json. Wundertrading proxy at /root/work/trading/wundertrading_proxy_server.py.
 §
-Lesson: "Show me a prompt" = plan review, not permission to execute. Wait for "go ahead" / "fire it".
+GBRAIN DREAM CYCLE — Anthropic hardcode removed. Config `agent.use_gateway_loop=true` routes LLM calls through gateway. All model tiers set to deepseek:deepseek-v4-flash. propose_takes now works (no ANTHROPIC_API_KEY errors). Cron: nightly 02:00 UTC, 600s timeout, script at ~/.hermes/scripts/gbrain-dream-cycle.sh.
 §
-Memory label trap: before repeating a label from memory, verify against what user actually says. If mismatch, flag it. Don't propagate stale labels. User's memory is source of truth.
-§
-Profiles: Euphy→hermes-cli+terminal+file+skills+memory, ext→main. Mike→deepseek-v4-flash, teacher personality, cwd=/root/work/dabt-tutor. Discord routing: Mode B (channel_prompts). Need Mike's channel ID.
-§
-DATA STATUS: 1-yr BAMBAM 24-feat export (1,850 sigs, May 2025–May 2026). 1-yr merged BTCUSDT perp data 111,646 rows (May 2025–May 2026), 20 cols incl. basis_bps, OI, taker ratio, top trader ratios, funding, GLR. EOD May23 cleanup done. Build: LightGBM per-direction models on 1,850 signals next.
-§
-FATCAT CSV EXPORTS 2026-05-23 farm: 3 files (short duped). 292 combined trades (105 short, 187 long) over ~12mo from 2025-05-20. Saved to /root/work/trading/bambam-fatcat-project/fatcat_csv_exports_2026-05-23/. SHORT: 105 trades S1-S98, 65.7% WR, +$7,233 (+0.72%). LONG: 187 trades L1-L181, 71.7% WR, +$22,415 (+2.24%). Combined P&L ~$29,649. These are the full-directional TV Strategy Tester exports — much larger dataset than the earlier 29-entry sample.
+FILE DELIVERY: Tailscale HTTP server at http://100.113.2.25:8080, systemd user service hermes-file-server.service, serves ~/deliver/. Use `deliver put <file>` then tell user to refresh browser. Nuke originals after delivery.

@@ -407,6 +407,58 @@ After setting a key, run `hermes doctor` to verify it's picked up, then `/reset`
 
 Full reference on search/web tools: `references/search-tool-api-keys.md`
 
+### Bitwarden Secrets Manager
+
+Pull API keys from Bitwarden Secrets Manager at process startup instead of storing them in plaintext inside `~/.hermes/.env`. One bootstrap secret (a machine-account access token) replaces N per-provider keys.
+
+**Setup (when `hermes secrets` subcommand is available):**
+```bash
+hermes secrets bitwarden setup     # interactive wizard
+hermes secrets bitwarden status    # check config
+hermes secrets bitwarden sync      # dry-run pull
+hermes secrets bitwarden sync --apply  # pull + apply
+hermes secrets bitwarden disable   # flip off
+```
+
+**Manual setup (when `hermes secrets` is not available — v0.14.x and earlier):**
+1. Ensure `BWS_ACCESS_TOKEN` is set in `~/.hermes/.env`
+2. Install `bws` binary: `hermes config set secrets.bitwarden.auto_install true` (Hermes downloads v2.0.0 to `~/.hermes/bin/bws` on next startup)
+3. Set project ID: `hermes config set secrets.bitwarden.project_id <uuid>`
+4. Enable: `hermes config set secrets.bitwarden.enabled true`
+
+**CRITICAL: Secret creation method matters.** The `bws` CLI returns inline values for secrets created via CLI:
+```bash
+bws secret create KEY_NAME "value" <project_id> --output json
+```
+Secrets created via the **Bitwarden web UI** store values as "file" type, which `bws` returns as `@/tmp/bws_xxx` file references — Hermes cannot resolve these. Always create secrets via CLI if they will be consumed by Hermes. To migrate existing web-UI secrets: delete them and recreate via CLI.
+
+**Binary resolution order** (in `agent/secret_sources/bitwarden.py::find_bws()`):
+1. `~/.hermes/bin/bws` (Hermes-managed copy — v2.0.0, preferred)
+2. System PATH (`bws` on `$PATH`)
+3. Auto-download to managed path (when `install_if_missing=True`)
+
+If a newer `bws` (e.g. v2.1.0 from `apt`/`snap`) is on PATH before the managed copy is installed, Hermes picks the system one. To force the managed copy, remove the system `bws` from PATH and let Hermes auto-install v2.0.0.
+
+**Using `bws run` for script-based secret injection:**
+```bash
+bws run --project-id <uuid> -- /path/to/script.sh
+```
+Note: `bws run` with inline shell commands (`sh -c 'echo ...'`) fails because `-c` clashes with `--color`. Always use a script file. The child process receives secrets as real env vars, but `env` output masks them as `***`.
+
+**Config structure** (in `~/.hermes/config.yaml`):
+```yaml
+secrets:
+  bitwarden:
+    enabled: false           # master switch
+    access_token_env: BWS_ACCESS_TOKEN
+    project_id: ""           # UUID of the project
+    cache_ttl_seconds: 300   # in-process fetch cache
+    override_existing: true  # BSM values overwrite .env
+    auto_install: true       # download bws if missing
+```
+
+**Docs:** https://hermes-agent.nousresearch.com/docs/user-guide/secrets/bitwarden
+
 ### Providers
 
 20+ providers supported. Set via `hermes model` or `hermes setup`.

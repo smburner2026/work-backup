@@ -1,0 +1,2736 @@
+# 34 Occupational Toxicology
+# Casarett & Doull's Toxicology, 9th Edition
+# Pages: 1570-1591
+# Unit: Unit VII Applications of Toxicology
+
+34
+chapter
+Occupational Toxicology
+Peter S. Thorne
+INTRODUCTION
+Those who work full time over a working lifetime will spend about 
+94,000 hours in the workplace. If that workplace is dusty or laden 
+with chemicals or allergens, it has the potential to induce disease. 
+The higher the exposures, the greater the likelihood of disease. For 
+centuries scholars have recognized that the work environment plays 
+a significant role in the occurrence of adverse human health effects. 
+Early writings by Ulrich Ellenbog (1435 to 1499), Agricola (1494 
+to 1555), and Paracelsus (1492 to 1541) revealed the toxic nature of 
+exposures in mining, smelting, and metallurgy. A systematic treatise 
+by Ramazzini (1633 to 1714) described the hazards as they applied 
+to workers in over 50 common trades including miners, chemists, 
+tinsmiths, tanners, pharmacists, grain sifters, stonecutters, sewage 
+workers, and even corpse bearers. Legislation to protect worker 
+health began in England with the Factory Act of 1833 which estab-
+lished a factory inspectorate and limited child laborers 9 to 13 years 
+old to a 48-hour work week and 14- to 18-year olds to a 68-hour 
+work week.
+Today we continue to be concerned with occupational health 
+and safety in a wide variety of work environments and child labor 
+remains a concern worldwide. There are an estimated 151.6 ­million 
+children between the ages of 5 and 17 engaged in child labor and 
+half of them do hazardous work (ILO, 2017). Although occupa-
+tional settings in developed countries are safer now than in the 
+past, the levels of risk deemed acceptable have decreased while the 
+recognition of the causal link of exposures to chronic diseases or 
+diseases with long latencies has increased. As new hazards arise 
+with the emergence of new technologies, we must be prepared to 
+assess the risks and protect the health of workers. With increased 
+globalization and rising prosperity in many middle-income coun-
+tries, there exists a responsibility to extend health protections to 
+workers in developing nations who too often bear the burden of high 
+exposures to occupational toxicants.
+Occupational toxicology is the application of the princi-
+ples and methodology of toxicology toward understanding and 
+­managing chemical and biological hazards encountered at work. 
+The objective of the occupational toxicologist is primary preven-
+tion, that is to prevent adverse health effects in workers that could 
+arise from exposures in their work environment. Because nonoc-
+cupational exposures can act as confounders or can increase the 
+susceptibility of individual workers, occupational toxicologists 
+must evaluate the entire spectrum of exposures experienced by 
+the work force under consideration. Occupational toxicology 
+is a discipline that draws on industrial hygiene, epidemiology, 
+occupational medicine, and regulatory toxicology. The occupa-
+tional toxicologist must have an intimate knowledge of the work 
+environment and be able to recognize and prioritize exposure 
+hazards. Because the work environment can present exposures to 
+complex mixtures, the occupational toxicologist must also rec-
+ognize those that are particularly hazardous when occurring in 
+combination.
+It is often difficult to establish a causal link between a worker’s 
+illness and job. First, the clinical manifestations of occupationally 
+induced diseases are often indistinguishable from those arising 
+from nonoccupational causes. Second, there may be a protracted 
+but biologically predictable latent interval between exposure and 
+the expression of disease. Third, diseases of occupational origin 
+may be multifactorial with other environmental factors or personal 
+(e.g., genetic, epigenetic, or behavioral) risk factors contributing to 
+the disease process. Nevertheless, studies have repeatedly shown 
+that the dose of toxicant is a strong predictor of the likelihood, 
+severity, and type of health effect.
+Introduction
+Workplaces, Exposures, and 
+Standards
+The Nature of the Work Force
+Determinants of Dose
+Occupational Exposure Limits
+Occupational Diseases
+Routes of Exposure
+Agents Associated With Diseases
+Occupational Respiratory Diseases
+Other Occupational Diseases
+Toxicologic Evaluation of 
+Occupational Agents
+Evaluation of Occupational  
+Risks
+Establishing Causality
+In Vitro Assays
+Animal Toxicology Studies
+Human Challenge Studies
+Case Reports
+Epidemiology Studies
+Animal Toxicology Testing for 
+Establishing Acceptable Levels 
+of Exposure
+Worker Health Surveillance
+Linkage of Animal Studies and 
+Epidemiologic Studies
+Exposure Monitoring
+Environmental Monitoring 
+for Exposure Assessment
+Biological Monitoring for Exposure 
+Assessment
+Conclusion
+Acknowledgments
+References
+
+1552
+APPLICATIONS TOXICOLOGY
+Unit VII
+WORKPLACES, EXPOSURES, 
+AND STANDARDS
+The Nature of the Work Force
+The world’s labor force totals 3.45 billion people (World Bank, 
+2017). This includes 803 million workers in China and 511 million 
+workers in India. Approximately 31.3% of the global work force, 
+some 1.1 billion people, work in agricultural production. Many of 
+these workers are engaged in subsistence agriculture and fewer than 
+half are waged workers (ILO, 2014). In contrast, the demograph-
+ics and distribution of the work force in industrialized nations has 
+undergone a progressive shift over the past three decades, moving 
+away from jobs in heavy industry and agriculture toward jobs in the 
+service sector and high-technology industries. In some instances, 
+the manufacturing jobs have moved to less developed countries 
+with less stringent worker health protection. There are currently 
+153 million people in the United States in the civilian, paid work 
+force (seasonally adjusted data). The civilian labor force participa-
+tion rate is 62.9% (USDL, 2017c), a figure that has grown mark-
+edly over the past 50 years owing to the increased entry of women 
+into the labor force. The countries of the EU have an estimated 
+234 million workers (European Commission, 2017), and Japan has 
+about 66 million (Japan Monthly Statistics, 2017). The 1.3 billion 
+workers in the labor force of China and India includes many jobs in 
+manufacturing, minerals extraction, agriculture, and waste process-
+ing (including electronic waste).
+Fig. 34-1 shows the breakdown of employment in the United 
+States. This illustrates that there are about 22.2 million work-
+ers (14.9%) engaged in manufacturing, construction, mining 
+and logging, and agriculture—occupations that have the poten-
+tial for significant exposure to chemical and biological agents. 
+Furthermore, there are occupations in the service sector, such as 
+automobile repair; other repair and maintenance; work in gaso-
+line stations, pipeline transportation, truck and rail transportation; 
+waste management and remediation services; and employment in 
+botanical gardens that can also include exposures to hazardous 
+chemicals. Service-producing occupations (including government 
+jobs) account for the majority (85.1%) of U.S. jobs. On average, 
+employees in the service sector work 6.4 fewer hours per week 
+than in the goods-producing sector. Farm work employs an esti-
+mated 2.14 million workers 16 years of age and older, and the U.S. 
+Bureau of Labor Statistics has documented an average of 40.4 
+hours worked per week. Work in agriculture is markedly different 
+from most other occupations in four fundamental ways. First, 44% 
+of those employed in agriculture are self-employed or unpaid fam-
+ily members. Second, the overwhelming majority of farm establish-
+ments (90%) are small family farms with fewer than 20 employees 
+and annual gross cash farm income less than $350,000 (USDA, 
+2017). Third, although the annual national average hours worked 
+per week is 40.4, many farmers, ranchers, and farm workers have 
+periods (e.g., harvest time) when they work as many as 20 hours 
+per day, 7 days per week. Fourth, according to a 1998, one-time 
+U.S. government survey, there are in excess of 290,000 children 
+who identify agricultural work as their major employment (GAO/
+HEHS, 1998). Department of Labor data indicate that, on aver-
+age, 128,500 hired farm workers between the ages of 14 and 17 
+were working annually in crop production. The U.S. Fair Labor 
+Standards Act establishes a 16-year minimum age for those occu-
+pations in agriculture that the Secretary of Labor finds and declares 
+to be particularly hazardous. The presence of children in the work 
+force has important ramifications for body burdens, disease latency, 
+toxicokinetics, and biotransformation of toxicants.
+Determinants of Dose
+Dose is typically defined as the amount of toxicant that reaches a 
+target tissue over a defined time span and is available for interactions 
+with metabolic processes. In occupational environments, exposure 
+is often used as a proxy for dose. The response to a chemical is 
+dependent upon both host factors and dose. Fig. 34-2 illustrates the 
+pathway from exposure to subclinical disease or to adverse health 
+effect and suggests that there are important modifying factors: con-
+temporaneous exposures, genetic and epigenetic susceptibility, age, 
+gender, nutritional status, and behavioral factors. These modifying 
+factors can influence whether a worker remains healthy, develops 
+subclinical disease that is repaired, or progresses to frank illness. 
+Workplace health protection and surveillance programs (shown in 
+blue) can reduce exposures, disrupt the exposure-dose pathway, 
+or identify internalized dose and early effects before irreparable 
+US labor market sector
+Number employed (in millions)
+0
+5
+10
+15
+20
+25
+Average work week (hours)
+20
+25
+30
+35
+40
+45
+50
+12.5
+6.9
+0.7
+2.1
+15.8
+5.9
+5.6
+2.7
+8.5
+20.8
+23.2
+16.0
+5.8
+22.3
+Construction
+Mining and logging
+Agriculture and related industries
+Retail trades
+Wholesale trades
+Transport, warehousing, and utilities
+Information services
+Finance, insurance, and real estate
+Professional and business services
+Education and health services
+Leisure and hospitality
+Other services
+Government
+40.7
+39.0
+44.9
+40.4
+30.9
+39.1
+39.1
+36.3
+37.5
+36.0
+32.9
+26.0
+31.8
+38.5
+Manufacturing
+Figure 34-1.   Hours worked and number employed in the U.S. civilian labor market. (From USDL [2017a, 2017b, 2017c].)
+
+Occupational Toxicology
+Chapter 34
+1553
+disease develops. These programs help to ensure a safe workplace 
+and a healthier work force.
+As illustrated in Fig. 34-2, dose is a function of exposure con-
+centration, exposure duration, and exposure frequency. Individual 
+and environmental characteristics can also affect dose. Exposure 
+assessment is the process of quantifying the intensity, frequency, 
+and duration of exposures and their determinants in order to bet-
+ter estimate dose. Table 34-1 indicates determinants of dose for 
+exposure via the inhalation and dermal routes. For determining 
+inhalation exposures, environmental conditions such as concentra-
+tion, particle size distribution, and properties of the chemical are 
+important. However, respiratory rate and breathing volume as well 
+as other host factors contribute. Protection afforded by personal 
+protective equipment (especially respirators) will reduce but not 
+eliminate exposure. The degree of exposure reduction for a par-
+ticular respirator (the workplace protection factor) varies with res-
+pirator design, fit, maintenance, manner of use, and environmental 
+conditions from less than 5 to 10,000. A respirator with a workplace 
+protection factor of 10, when used properly, will reduce particulate 
+matter concentrations inside the mask to one-tenth that outside the 
+mask. A commonly used two-strap fiber respirator for lowering par-
+ticulate matter exposure, the N95, should reduce exposures by 95% 
+but may fail to meet this criterion for submicron aerosols (Balazy 
+et al., 2006).
+Dermal exposures depend upon toxicant concentration; work 
+conditions, including the degree and duration of wetness; and the 
+ambient conditions at the work site (Table 34-1). Some determi-
+nants of dermal dosing relate to the physicochemical properties of 
+the chemical as they affect the percutaneous absorption rate. These 
+include solubility, temperature, pH, molecular size, and chemical 
+characteristics of the vehicle. Host factors also influence dermal 
+absorption and distribution. Important factors include the surface 
+area of the skin that is exposed, the integrity of the skin, blood flow, 
+Modifying
+factors
+Healthy
+worker
+Subclinical
+disease
+Dose
+Exposure
+concentration
+Exposure
+duration
+Exposure
+frequency
+Genetic
+susceptibility
+Additive or
+synergistic
+coexposure
+Age, gender,
+nutrition,
+behavior
+Engineering and
+administrative
+controls
+Personal protective
+equipment
+Occupational health
+standards
+Biomonitoring
+Screening
+wellness programs
+Surveillance
+Repair
+Progression
+Adverse
+health
+effect
+Figure 34-2.   Pathway from exposure to disease, showing modifying factors and opportunities for intervention.
+Table 34-1  
+Determinants of Toxicant Dose
+Inhalation exposure
+  Airborne concentration
+  Particle size distribution
+  Respiratory rate
+  Tidal volume
+  Other host factors
+  Duration of exposure
+  Chemical, physical, or biological properties of the  
+hazardous agent
+  Effectiveness of personal protective devices
+Dermal exposure
+  Concentration in air, droplets, or solutions
+  Degree and duration of wetness
+  Integrity of skin
+  Percutaneous absorption rate
+  Region of skin exposed
+  Surface area exposed
+  Preexisting skin disease
+  Temperature in the workplace
+  Vehicle for the toxicant
+  Presence of other chemicals on skin
+and biotransformation. Because the stratum corneum, the outer 
+layer of the epidermis, is the principal barrier to dermal uptake, the 
+thickness of this layer in the exposed area has great significance. As 
+an example, the absorption of hydrocortisone through the plantar 
+foot arch is only 4% than through the back and 0.3% than through 
+scrotal skin (Bason et al., 1991). A classic human in vivo study 
+(Maibach et al., 1971) using the pesticide parathion demonstrated
+
+1554
+APPLICATIONS TOXICOLOGY
+Unit VII
+a 12-fold range in percutaneous absorption between the anatomical 
+site with the highest (scrotum) to that with the lowest (forearm) 
+percent of dose absorbed. Trabaris et al. found 10-fold higher der-
+mal fluxes of chloracetonitrite, a disinfection byproduct, for excised 
+skin from the torso and dorsum as compared to the palm and scalp 
+(Trabaris et al., 2012). The use of protective gloves and clothing 
+or aprons and the application of barrier creams can greatly reduce 
+exposure. For maximal protection, it is important that the glove be 
+constructed of material tailored to the toxicant(s) of concern.
+Occupational Exposure Limits
+One of the roles of the occupational toxicologist is to contribute 
+data to the process of establishing standards or determining the 
+appropriateness of those standards. Workplace exposure limits 
+exist for chemical, biological, and physical agents and are recom-
+mended as guidelines or promulgated as standards in order to pro-
+mote worker health and safety. For chemical and biological agents, 
+exposure limits are expressed as acceptable ambient concentration 
+levels (occupational exposure limits [OELs]) or as concentrations 
+of a toxicant, its metabolites, or a specific marker of its effects in 
+biological systems (biological exposure indices).
+OELs are established as standards by regulatory agencies or as 
+guidelines by research groups or professional organizations. In the 
+United States, the Occupational Safety and Health Administration 
+(OSHA) under the Department of Labor promulgates legally 
+enforceable standards known as permissible exposure limits (PELs). 
+These standards are determined and supported by the best scien-
+tific evidence available and assure “to the extent ­feasible … that no 
+employee will suffer material impairment of health or functional 
+capacity” with regular exposure “for the period of his working life.” 
+OSHA has defined an 8-hour time-weighted average (TWA) PEL 
+(U.S. Federal Register, 1992) as the “employee’s average airborne 
+exposure in any 8-hour work shift of a 40-hour work week which 
+shall not be exceeded.” The TWA PEL is established as the highest 
+level of exposure to which an employee may be exposed without 
+incurring the risk of adverse health effects (OSHA, 1995). Although 
+approximately 500 PELs have been promulgated, there are not 
+enough to regulate exposures to the vast number of compounds to 
+which workers are exposed, and some of the existing PELs do not 
+reflect current knowledge.
+The National Institute for Occupational Safety and Health 
+(NIOSH), under the Centers for Disease Control and Prevention, 
+publishes recommended exposure limits (RELs) that are more 
+frequently updated and are generally more stringent than PELs. 
+NIOSH also performs research and disseminates information on 
+workplace hazards and their prevention. Most developed countries 
+have governmental inspectorate agencies analogous to OSHA that 
+are responsible for establishing and enforcing OELs. In some coun-
+tries, the insurance system also plays a significant role.
+The European Commission has established legally enforceable 
+binding occupational exposure limit values (BOELV) and biologi-
+cal limit values (BLV) for the protection of health and safety in the 
+workplace. Socioeconomic and technical feasibility factors are also 
+considered in setting these values. The OELs are established based 
+on recommendations of the Scientific Committee on Occupational 
+Exposure Limits (SCOEL), which evaluates published scientific 
+data on hazardous compounds for regulation and provides assess-
+ment of exposure limits that “it believes will protect workers from 
+chemical risks” (European Commission, 1995, 1998). Indicative 
+Occupational Exposure Limit Values (IOELVs) are non-binding 
+health-based OELs that do not consider technical or economic fea-
+sibility. A first list of IOELVs was established in 2000 followed 
+by second (European Commission, 2006) and third lists in 2006 
+and 2009, respectively (European Commission, 2009). EU member 
+countries may not promulgate OELs less stringent than these values.
+The American Conference of Governmental Industrial 
+Hygienists (ACGIH) is a non-profit scientific association that 
+publishes OELs for chemicals and for physical agents. These take 
+the form of threshold limit values (TLVs™) and biological expo-
+sure indices (BEIs™). They are frequently revisited and generally 
+reflect current knowledge in occupational toxicology and industrial 
+hygiene. They are developed as guidelines and are not enforce-
+able standards; however, many industries adopt TLVs and BEIs 
+as internal OELs. As stated by the ACGIH, “The TLVs and BEIs 
+represent conditions under which ACGIH believes that nearly all 
+workers may be repeatedly exposed without adverse health effects” 
+(ACGIH, 2017). These guidelines are health based and do not 
+include consideration of technical feasibility or economic effects 
+of implementation.
+Three types of TLVs are suggested, depending on the time scale 
+of adverse effects inducible by the toxicants. The time-weighted 
+average TLV (TLV-TWA) is an OEL for exposures averaged over 
+an 8-hour day, 5-day work week regimen. These are generally 
+applied to toxicants that exert their effects over long periods. The 
+short-term exposure limit (TLV-STEL) is an OEL for a 15-minute 
+measurement period. The TLV-STEL should not be exceeded in 
+any 15-minute sampling window and there should be 60 minutes 
+or more between exposures in this range. The ceiling limit (TLV-C) 
+represents a concentration that should never be exceeded. These 
+are usually applied to toxicants that cause acute effects (such as 
+asphyxia or potent sensory irritation) and for which real-time moni-
+toring devices are available. BEIs are guidance values for biologi-
+cal monitoring and represent “levels of determinants that are most 
+likely to be observed in specimens collected from healthy workers 
+who have been exposed to chemicals to the same extent as workers 
+with inhalation exposure at the Threshold Limit Value” (ACGIH, 
+2016). BEIs are recommended for analysis of urine, blood, and 
+exhaled air. While hair, fingernails, adipose tissue biopsies, and 
+other specimens are used in research and forensic toxicology, there 
+are no BEIs for these.
+It is important to recognize that OELs do not correspond to 
+exposure conditions devoid of health risk. The concept of accept-
+able exposure level must be understood as the level of exposure 
+below which the probability of impairing the health of the exposed 
+workers is acceptable. The process of deciding what is an accept-
+able risk to occupational or environmental hazards blends the sci-
+entific disciplines of exposure assessment and toxicology with often 
+vexing policy issues. Historically, acceptable risk in a society is 
+related to the general health of the population and to a host of fac-
+tors that influence how risks are perceived. To determine that the 
+risks from an occupational hazard are acceptable, it is necessary to 
+characterize the hazard, identify the potential diseases or adverse 
+outcomes, and establish the relationship between exposure inten-
+sity or dose and the adverse health effects. If biological markers of 
+exposure or early reversible effects are identified, this can aid in the 
+risk-assessment process.
+OCCUPATIONAL DISEASES
+Routes of Exposure
+Diseases arising in occupational environments involve exposure 
+primarily through inhalation, ingestion, or dermal absorption. In 
+the vast majority of work environments, inhalation of toxicants 
+is a primary concern. Inhalation exposures can occur with gases,
+
+Occupational Toxicology
+Chapter 34
+1555
+vapors, liquid aerosols, particulate aerosols, fumes, and mixtures 
+of these. Dermal exposures are also important and can arise from 
+airborne materials as well as liquids splashed onto the skin, immer-
+sion exposures, or from material handling.
+Additional exposure hazards exist for infectious agents. 
+Exposures leading to occupational infections may arise through 
+inhalation or ingestion of microorganisms but can also arise from 
+needle-sticks in health-care workers or through insect bites among 
+farmers, natural resource workers, and others employed out of 
+doors. Additionally, poisonings from toxic plants or venomous 
+­animals can occur through skin inoculation (e.g., zookeepers, 
+­horticulturists, or commercial divers).
+Agents Associated With Diseases
+There are a myriad of agents responsible for occupational diseases. 
+While some act on a particular organ such as the liver or kidney, 
+others can affect multiple organ systems. Table 34-2 presents a list 
+of the major occupational diseases and examples of agents that 
+cause them. This is not intended to be all-inclusive. Rather it is 
+meant to highlight what are historically the most prevalent and 
+widely recognized occupational diseases plus those that continue 
+to be prevalent in the workplace. The toxicants listed are those for 
+which there is a strong association with the disease or the most 
+conclusive data to support causality. Examples are shown for can-
+cer and for diseases of the lung and airways, heart, liver, kidney, 
+skin, nervous system, immune system, and reproductive system. 
+Several examples of occupational infectious diseases are also listed 
+to highlight the fact that, in many work settings, infectious agents 
+may constitute the major hazard and may coexist with chemical 
+hazards. Concurrent chemical exposures may increase susceptibil-
+ity to infectious agents. Most of the occupational diseases listed 
+in Table 34-2 are associated with industrial chemicals. These are 
+discussed in other chapters throughout this book.
+(continued)
+ORGAN SYSTEM OR 
+DISEASE GROUP
+DISEASE
+CAUSATIVE AGENT
+Lung and airways
+Acute pulmonary edema, bronchiolitis obliterans
+Nitrogen oxides, phosgene, diacetyl
+Allergic rhinitis
+Pollens, fungal spores
+Asphyxiation
+Carbon monoxide, hydrogen cyanide, inert gas dilution
+Asthma
+Toluene diisocyanate, α-amylase, animal urine proteins
+Asthma-like syndrome
+Swine barn environments, cotton dust, bioaerosols
+Bronchitis, pneumonitis
+Arsenic, chlorine
+Chronic bronchitis
+Cotton dust, grain dust, welding fumes
+Emphysema
+Coal dust, cigarette smoke
+Fibrotic lung disease
+Silica, asbestos
+Hypersensitivity pneumonitis
+Thermophilic bacteria, avian proteins, pyrethrum,  
+Penicillium, Aspergillus
+Metal fume fever
+Zinc, copper, magnesium
+Mucous membrane irritation
+Hydrogen chloride, swine barn environments
+Organic dust toxic syndrome
+“Moldy” silage, endotoxin
+Reactive airways dysfunction syndrome
+Ammonia, chlorine, acetic acid
+Upper respiratory tract inflammation
+Endotoxin, peptidoglycan, glucans, viruses
+Cancer
+Acute myelogenous leukemia
+Benzene, ethylene oxide
+Bladder cancer
+Benzidine, 2-naphthylamine, 4-biphenylamine
+Gastrointestinal cancers
+Asbestos
+Hepatic hemangiosarcoma
+Vinyl chloride
+Hepatocellular carcinoma
+Aflatoxin, hepatitis B virus
+Mesothelioma, lung carcinoma
+Asbestos, arsenic, radon, bis-chloro methyl ether
+Skin cancer
+Polycyclic aromatic hydrocarbons, ultraviolet irradiation
+Skin
+Allergic contact dermatitis
+Natural rubber latex, isothiazolins, poison ivy, nickel
+Chemical burns
+Sodium hydroxide, hydrogen fluoride
+Chloracne
+TCDD†, polychlorinated biphenyls
+Irritant dermatitis
+Sodium dodecyl sulfate
+Nervous system
+Cholinesterase inhibition
+Organophosphate insecticides
+Neuronopathy
+Methyl mercury
+Parkinsonism
+Pesticides, polychlorinated biphenyls, trichloroethylene, 
+carbon disulfide
+Peripheral neuropathy
+N-hexane, trichloroethylene, acrylamide
+Immune system
+Autoimmune disease
+Vinyl chloride, silica
+Hypersensitivity
+See entries for allergic rhinitis, asthma, hypersensitivity  
+pneumonitis, allergic contact dermatitis
+Immunosuppression
+TCDD†, lead, mercury, pesticides
+Renal disease
+Indirect renal failure
+Arsine, phosphine, trinitrophenol
+Nephropathy
+Paraquat, 1,4-dichlorobenzene, mercuric chloride
+Table 34-2  
+Examples of Occupational Diseases and the Toxicants That Cause Them
+
+1556
+APPLICATIONS TOXICOLOGY
+Unit VII
+ORGAN SYSTEM OR 
+DISEASE GROUP
+DISEASE
+CAUSATIVE AGENT
+Cardiovascular 
+disease
+Arrhythmias
+Acetone, toluene, methylene chloride, trichloroethylene
+Atherosclerosis
+Dinitrotoluene, carbon monoxide
+Coronary artery disease
+Carbon disulfide
+Cor pulmonale
+Beryllium
+Systemic hypotension
+Nitroglycerine, ethylene glycol dinitrate
+Liver disease
+Fatty liver (steatosis)
+Carbon tetrachloride, toluene
+Cirrhosis
+Arsenic, trichloroethylene
+Hepatocellular death
+Dimethylformamide, TCDD†
+Reproductive 
+system
+Male
+Chlordecone (Kepone), dibromochloropropane, hexane
+Female
+Aniline, styrene
+Both sexes
+Carbon disulfide, lead, vinyl chloride
+Infectious 
+diseases*
+Arboviral encephalitides
+Alphavirus, Bunyavirus, Flavivirus
+Aspergillosis
+Aspergillus niger, A. fumigatus, A. flavus
+Cryptosporidiosis
+Cryptosporidium parvum
+Hepatitis B
+Hepatitis B virus
+Histoplasmosis
+Histoplasma capsulatum
+Legionellosis
+Legionella pneumophila
+Lyme disease
+Borrelia burgdorferi
+Psittacosis
+Chlamydia psittaci
+Tuberculosis
+Mycobacterium tuberculosis hominis
+*For more on occupational infectious diseases, see Douwes et al. (2003).
+†TCDD = 2,3,7,8-tetrachlorodibenzo-para-dioxin.
+Table 34-3 lists 39 agents that are known by the International 
+Agency for Research on Cancer (IARC) to be carcinogens in 
+humans (Group 1) and for which there has been or is currently 
+extensive occupational exposure. This list includes agents such 
+as asbestos, arsenic, benzene, vinyl chloride, and coal tars. IARC 
+Group 1 refers to agents or mixtures that are known to be carcino-
+genic to humans based on sufficient epidemiologic evidence usually 
+accompanied by limited or sufficient animal evidence.
+Occupational Respiratory Diseases
+Because inhalation generally represents the most significant route 
+of exposure, many of the major occupational diseases affect the 
+lung and airways. These diseases have been studied extensively 
+and are largely responsible for the creation of the occupational 
+regulatory framework. Deaths due to occupational lung diseases 
+such as asbestosis, coal workers’ pneumoconiosis, silicosis, bys-
+sinosis, and occupational asthma have been recognized for centu-
+ries and led to important legislation such as the U.S. Occupational 
+Safety and Health Act (1970). These occupational lung diseases 
+continue to have significant associations with morbidity and mor-
+tality worldwide but are diminishing steadily in the United States 
+and Europe. Table 34-4 lists the U.S. age-adjusted death rate and 
+annual deaths for 2014 and illustrates that while the death rates 
+are fairly low, there are still about 1477 deaths per year attribut-
+able to asbestos, silica, coal dust, and other pneumoconiotic dusts; 
+2786 malignant mesothelioma deaths; and 141 deaths from hyper-
+sensitivity pneumonitis. However, fatalities are just the tip of the 
+iceberg as some occupational lung diseases exhibit slow progres-
+sion yet may still be debilitating. Every year in the United States, 
+there are 20,000 hospital discharges related to cases of asbestosis 
+and 188,000 coal workers receive federal Black Lung Benefits 
+(NIOSH, 2017c). The U.S. Mine Safety and Health Administration 
+has compiled data on inspector- and mine operator-collected 
+samples in coal mining operations and found that 29.3% of these 
+exceeded the PEL for respirable quartz and 7.5% were over the 
+PEL for respirable coal dust.
+Many of the diseases listed in Table 34-2 are known by other 
+names that refer to a particular occupation or agent. One example 
+is hypersensitivity pneumonitis, an allergic lung disease marked by 
+interstitial lymphocytic pneumonitis and granulomatous lesions. 
+Hypersensitivity pneumonitis is also known as extrinsic allergic 
+alveolitis, farmer’s lung disease, bagassosis (sugar cane), humidi-
+fier fever, Japanese summer house fever, pigeon breeder’s lung, and 
+maple bark stripper’s lung, depending upon the occupational setting 
+in which it arises. Although we often think of these as the same 
+disease, it is important to recognize that the exposures and physi-
+ologic responses they induce are complex and may differ in the 
+manifestation of the disease.
+The U.S. Bureau of Labor Statistics tracks data for non-fatal 
+occupational injuries and illnesses of which there were 3.3 mil-
+lion in 2009. The vast majority of these were injuries (e.g., falls, 
+slips, strains, sprains, back injuries, and roadway incidents), but 
+there were still over 187,900 occupational illnesses reported in 2015 
+(USDL, 2015). There were 17,200 reported respiratory conditions 
+arising from exposure to toxic agents and dust diseases of the lung. 
+The former category includes pneumonitis, pharyngitis, rhinitis, 
+and acute lung congestion. Table 34-5 shows data for rates and 
+cases in 2015 by industry division. Poisonings were rare whereas 
+skin diseases occurred at rates as high as 4.3 per 10,000 workers per 
+year. The manufacturing sector accounted for approximately 22% 
+of all occupational illnesses. Industry codes with the highest respi-
+ratory condition incidence rates were aquaculture (94.0 per 10,000); 
+oilseed and grain farming (33.7 per 10,000); coal mining (24.1 
+per 10,000); roasted nuts and peanut butter manufacturing (17.1 
+per 10,000); and copper, nickel, lead, and zinc mining (14.2 per 
+10,000). The rate for chemical manufacturing was much lower, 1.7 
+cases per 10,000 workers, down by 50% since 2000.
+Table 34-2
+(Continued)
+
+Occupational Toxicology
+Chapter 34
+1557
+Table 34-3  
+Occupational Exposure Agents Classified by IARC as Group 1 Definite Human Carcinogens
+AGENT
+INDUSTRIES AND OCCUPATIONS WHERE SOME WORKERS MAY BE EXPOSED
+Particulate matter
+Asbestos
+Miners, abatement workers, construction workers, sheet metal workers, steam fitters, 
+shipyard workers
+Crystalline silica (quartz or cristobalite)
+Stone and ceramics industry, foundries, construction, abrasives manufacturing
+Erionite
+Waste treatment workers, building materials manufacturing
+Talc containing asbestiform fibers
+Ceramics industry
+Wood dust
+Wood and wood-products industries, pulp and paper industry, wood working trades
+Metals
+Arsenic and arsenic compounds
+Miners, nonferrous metal smelting, arsenical pesticide manufacturers and applicators
+Beryllium
+Specialty metallurgy workers, avionics, electronics, nuclear industry
+Cadmium and cadmium compounds
+Cadmium smelting, battery production, dyes and pigment making, electroplating
+Gallium arsenide
+Microelectronics manufacturing
+Hexavalent chromium compounds
+Chromate production plants, dye and pigment making, welders, tanners
+Nickel compounds*
+Nickel smelting, welding
+Organic chemicals
+Aflatoxins
+Animal feed industry, grain handling and processing
+4-Aminobiphenyl
+Chemical industry, dyestuffs and pigment manufacturing
+Benzene
+Refineries, shoe industry, chemical, pharmaceutical and rubber industry, printing 
+industry
+Benzidine
+Chemical industry, dyestuffs and pigment manufacturing
+Benzo(a)pyrene
+Coke oven emissions, coal tar pitch volatiles, diesel exhaust, ETS
+Bis(chloromethyl) ether and  
+chloromethyl ether (technical grade)
+Chemical industry, laboratory reagent, plastic manufacturing
+1,3-Butadiene
+Chemical industry, petrochemical plants, styrene–butadiene rubber manufacturing
+Coal tars and pitches
+Coke production, coal gasification, refineries, foundries, road paving, hot tar roofing
+Ethylene oxide
+Chemical industry, dry vegetable fumigation, hospital sterilizing
+Formaldehyde
+Textiles, composite wood industry, chemical industry, medical laboratories
+4,4′-Methylenebis(2-chloroaniline)  
+[MOCA]
+Epoxy resin manufacturing, polyurethane product fabrication
+Mineral oils, untreated and mildly treated
+Metal machining and honing, roll steel production, printing
+2-Naphthylamine
+Chemical industry, dyestuffs and pigment manufacturing
+2,3,4,7,8-Pentachlorodibenzofuran
+Hazardous waste processing, chlorophenoxy herbicide production and use, pulp and  
+paper industry
+3,4,5,3′,4′-Pentachlorobiphenyl‡  
+[PCB126]
+Hazardous waste processing, waterway dredging, transformer handling, pulp and paper  
+industry
+Shale oils or shale-derived lubricants
+Mining and processing, cotton textile industry
+Soot
+Chimney sweeps, heating and ventilation contractors, firefighters, metallurgical workers
+2,3,7,8-Tetrachlorobibenzo-para-dioxin  
+(TCDD)
+Hazardous waste processing, chlorophenoxy herbicide production and use, pulp and  
+paper industry
+Vinyl chloride
+Plastics industry, production of polyvinyl chloride products and copolymers
+Other agents with occupational exposure
+Environmental tobacco smoke (ETS)
+Restaurant, bar and entertainment industry; other smoke-exposed workers
+Occupational exposures as a painter
+Commercial painting
+Leather dust
+Garment industry, auto seat fabrication, saddle and tack manufacturing, 
+Magenta dye (rosaniline, pararosaniline)
+Dye manufacture, textile dying, commercial art and printing
+Mustard gas
+Production, soldiers, some research laboratories
+Exposures in the rubber industry
+Work in rubber manufacturing industries
+Strong inorganic acid mists containing  
+sulfuric acid
+Steel industry, petrochemical industry, fertilizer industry, pickling industry
+Physical agents
+Ionizing radiation†
+Radiology and nuclear medicine staff, nuclear workers, miners, hazardous waste workers
+Solar radiation
+Farmers, gardeners and landscapers, lifeguards, construction workers
+*Certain combinations of nickel oxides and sulfides.
+†Includes x-rays, γ-rays, neutrons, radon gas, and α and β particle-emitting substances internally deposited.
+‡PCBs as a class are listed by IARC as Group 1, carcinogenic to humans as of 2016.
+SOURCES: From IARC (n.d., 2016), Siemiatycki et al. (2004), and Cogliano et al. (2011).
+
+1558
+APPLICATIONS TOXICOLOGY
+Unit VII
+Toxic gas injuries are often characterized by leakage of both 
+fluid and osmotically active proteins from the vascular tissue into 
+the interstitium and airways. Important determinants of the severity 
+and location of injury are the concentration and water solubility of 
+the toxic gas or vapor. Anhydrous ammonia, with its extremely high 
+solubility, primarily damages the eyes, sinuses, and upper airways. 
+The vapors combine with water in the tissue and form ammonium 
+hydroxide, quickly producing liquefaction necrosis. Chemicals with 
+lower solubility, such as nitrogen dioxide, act more on the distal 
+airways and alveoli and take longer to induce tissue damage.
+Occupational asthma may be defined as a “disease char-
+acterized by variable airflow limitation and/or airway hyperre-
+sponsiveness and/or inflammation due to causes and conditions 
+attributable to a particular occupational environment and not to 
+stimuli encountered outside the workplace” (Bernstein et al., 2013). 
+Workplace asthma is generally divided into allergic, non-allergic, 
+and work-aggravated asthma. Data from the NIOSH Work-Related 
+Occupational Lung Disease Surveillance System has shown that 
+22% of occupational asthma cases represented aggravation of 
+pre-existing asthma by workplace exposures. The U.S. National 
+Health Interview Survey has provided data on the prevalence of 
+asthma based upon usual industry (Table 34-6). These data indi-
+cate that asthma prevalence is much higher for female than male 
+workers and is highest in manufacturing of plastics and rubber; 
+electrical equipment and appliances; chemicals; and transportation 
+equipment. Among the service sectors asthma is prevalent among 
+those engaged in health care and social assistance; education; and 
+Table 34-4  
+U.S. Deaths and Age-Adjusted Death Rates Attributed 
+to Selected Occupational Lung Diseases for U.S. 
+Residents Age 15 and Over, 2014
+DISEASE
+NUMBER OF 
+DEATHS†
+DEATH RATE PER 
+MILLION WORKING 
+AGE PEOPLE
+Asbestosis
+1221
+4.39
+Coal workers 
+pneumoconiosis
+363
+1.26
+Silicosis
+84
+0.30
+Byssinosis
+2
+0.01
+Other pneumoconioses*
+139
+0.48
+Malignant 
+Mesothelioma
+2786
+9.89
+Hypersensitivity 
+pneumonitis
+141
+0.49
+*This includes aluminosis, berylliosis, stannosis, siderosis, and fibrosis 
+from bauxite, graphite fibers, wollastonite, cadmium, portland ce-
+ment, emery, kaolin, antimony, and mica.
+†Includes underlying and contributing cause deaths.
+SOURCE: From NIOSH (2017a).
+Table 34-5  
+Nonfatal Occupational Illnesses* Requiring Days Away From Work, 2015 (Number of Cases and Rate Per 10,000  
+Full Time Workers)
+INDUSTRY DIVISION
+NUMBER
+INCIDENCE RATES
+TOTAL CASES
+OVERALL
+RESPIRATORY 
+CONDITIONS** POISONINGS
+SKIN DISEASES 
+OR DISORDERS†
+Goods Producing
+49,700
+24.6
+1.3
+0.2
+3.3
+Manufacturing
+40,800
+32.9
+1.3
+0.2
+3.4
+Construction
+5100
+8.6
+0.8
+0.2
+2.3
+Agriculture, Forestry, Fishing, and Hunting‡
+3100
+31.2
+3.9
+1.6
+10.0
+Mining, Quarrying, Oil and Gas Extraction
+700
+7.5
+2.1
+–
+–
+Service Providing§
+90,900
+12.0
+1.2
+0.2
+2.0
+Education and Health Services
+37,300
+23.6
+3.0
+0.1
+3.7
+Trade, Transportation and Utilities
+23,700
+10.6
+0.7
+0.1
+1.3
+Leisure, Entertainment, and Hospitality
+10,400
+10.8
+1.2
+0.3
+2.4
+Finance, Insurance, and Real Estate
+3,600
+4.9
+0.4
+–
+0.5
+Professional and Business Services
+11,800
+7.8
+0.8
+0.2
+2.1
+Information
+1,900
+7.8
+0.3
+–
+0.8
+State and Local Government
+47,400
+32.0
+3.4
+0.5
+4.3
+Total number of reported cases
+187,900
+17,200
+2500
+28,300
+*Illnesses excludes injuries. Not shown are the rates for hearing loss and illnesses.
+†These conditions are contact dermatitis, eczema, or rash caused by primary irritants and sensitizers or poisonous plants; oil acne; friction blisters, 
+chrome ulcers; and inflammation.
+‡Agricultural illnesses are grossly underreported because the data exclude farms with fewer than 11 employees.
+§Includes auto repair, other repair, health care, hotel, personal, business, entertainment, educational, social, and engineering services.
+**These conditions are pneumonitis; pharyngitis; rhinitis; acute congestions due to chemicals, dusts, gases, or fumes; and other dust diseases of the lung.
+SOURCE: From USDL (2015).
+
+Occupational Toxicology
+Chapter 34
+1559
+Table 34-6  
+U.S. Asthma Prevalence* by Current Industry and Sex for Selected Industries, Age 18 and Over  
+(Annual Averages for 2004 to 2011)
+ESTIMATED 
+POPULATION
+ASTHMA PREVALENCE (%)
+INDUSTRY
+TOTAL
+FEMALE
+MALE
+Manufacturing
+  Plastics and Rubber
+613,195
+7.7
+11.8
+5.9
+  Electrical Equipment, Appliances, and Components
+435,146
+6.8
+13.4
+3.5
+  Chemicals
+1,077,030
+6.2
+10.1
+4.2
+  Transportation Equipment
+2,000,534
+6.0
+7.5
+5.6
+  Miscellaneous Manufacturing
+1,129,782
+6.0
+8.7
+4.2
+  Textile Products
+182,064
+5.4
+8.3
+‡
+  Printing and Related Support Activities
+661,067
+4.8
+7.7
+3.5
+  Furniture and Related Products
+569,204
+4.6
+5.3
+4.3
+  Wood Products
+496,446
+4.2
+7.2
+3.4
+  Food
+1,640,559
+4.1
+6.0
+2.9
+Retail and Services
+  Gasoline Stations
+446,793
+8.7
+13.8
+‡
+  Health Care and Social Assistance
+17,573,528
+8.4
+9.1
+5.5
+  Furniture and Home Furnishings Stores
+532,896
+8.1
+13.1
+4.8
+  Education Services
+13,160,030
+7.8
+8.8
+5.8
+  Electronics and Appliance Stores
+590,657
+7.5
+10.5
+6.3
+  Personal Services†
+1,997,487
+6.7
+8.1
+3.1
+  Public Administration
+6,944,968
+6.4
+8.3
+4.9
+  Food and Beverage Stores
+2,705,058
+6.2
+8.2
+4.1
+  Merchant Wholesalers Durable Goods
+2,048,004
+6.0
+7.9
+5.4
+Transportation
+3,923,650
+5.3
+9.6
+4.1
+Construction
+10,262,670
+4.4
+6.0
+4.2
+Agriculture (Animal and Crop)
+1,614,617
+4.1
+5.0
+3.9
+*Current asthma defined as those who have ever been told by a health professional that they had asthma and currently still have asthma.
+†Barber shops, beauty salons, nail salons, laundry, funeral homes, and cemeteries.
+‡Data suppressed due to standard error >50%.
+SOURCE: From NIOSH (2015).
+personal services. In retail, prevalence is highest among gasoline 
+station workers and employees of furniture and home furnishings 
+stores and businesses selling electronics and appliances.
+There are a variety of industries in which there is increased 
+risk of developing work-related asthma. In chemical-based indus-
+tries, plastic and rubber polymer precursors, diisocyanates, reactive 
+dyes, and acid anhydrides are recognized low-molecular-weight 
+sensitizing compounds. Biocides and fungicides used in metal fab-
+rication and machining, custodial services, lawn and turf growing, 
+and agriculture are also chemicals associated with occupational 
+asthma. A number of metals can induce sensitization and asthma, 
+including chromium, cobalt, nickel, platinum, and zinc. Enzymes 
+pose significant risks for occupational asthma (Heederik et al., 
+2002). Examples include α-amylase among bakery workers and 
+subtilisin, a protease used in laundry detergents. The enzyme pro-
+duction industry has had to adopt strict environmental and process 
+controls to reduce the incidence of occupational asthma in their 
+production facilities.
+Those working with animals or animal products are at 
+increased risk of developing allergy (Elliott et al., 2005) and occu-
+pational asthma (Pacheco et al., 2003). Lab animal workers have 
+concurrent exposure to animal allergens and bacterial endotoxin 
+and being allergic modifies the relationship between endotoxin 
+exposure and respiratory symptoms (Newton et al., 2017). Animal 
+handlers, processors, and laboratory technicians who work with 
+animals can become immunologically sensitized to urine or sali-
+vary proteins in many vertebrates; proteins in bat guano and bird 
+droppings; animal dander; serum proteins in blood products; dust 
+from horns, antlers, and tusks; or the shells of crustaceans. Very 
+high rates of sensitization can occur in shellfish processors (Glass 
+et al., 1998). Arthropods such as insect larvae, cockroaches, mites, 
+or weevils are recognized inducers of work-related asthma. Plants 
+and plant products (e.g., soy flour, spices, and coffee beans) can 
+also cause asthma among workers. In a variety of occupations, 
+exposure to fungi, especially of the genera Aspergillus, Penicillium, 
+Rhizopus, Mucor, and Paecilomyces, is associated with allergic 
+rhinitis and asthma. These are especially present in sawmills, 
+woodchip handling, and composting facilities (Eduard et al., 1992; 
+Duchaine et al., 2000). Apart from the contaminating microor-
+ganisms, certain woods themselves produce chemical sensitizing 
+agents. Examples include western red cedar, redwood, and some 
+tropical hardwoods.
+Asthma emerged in the 1980s as a major occupational health 
+concern among health-care workers. In order to reduce the risk 
+of hepatitis B and other infectious diseases, health-care workers 
+adopted the use of natural rubber latex gloves for barrier protection. 
+Proteins from the latex of the rubber tree, Hevea braziliensis, led to 
+immunologic sensitization. Thirteen of these high-molecular-weight
+
+1560
+APPLICATIONS TOXICOLOGY
+Unit VII
+proteins have been characterized as allergens (Bernstein et  al., 
+2003). People with latex allergy may also be sensitive to banana, 
+avocado, chestnut, and kiwi due to cross-reactivity with the latex 
+allergen fragment hevein (Radauer et al., 2011). Many other plants 
+of less commercial value than Hevea produce a similar milky fluid 
+when cut and have similar sensitizing properties. A shift to powder-
+free, nitrile, and vinyl examination gloves has reduced the incidence 
+of latex allergy among health-care workers and patients.
+Studies of asthma prevalence in occupational settings with 
+exposure to low-molecular-weight chemicals have suggested prev-
+alence rates of 5% to 10% for toluene diisocyanate (Baur, 1996; 
+Becklake et al., 2006), 3.2% to 18% for anhydrides (Venables et al., 
+1985; Wernfors et al., 1986), 4% for plicatic acid from western red 
+cedar (Chan-Yeung et al., 1984), and 54% in a platinum refinery 
+(Venables et al., 1989). For high-molecular-weight allergens, prev-
+alence among shellfish processors was estimated at 21% to 26% 
+(Desjardins et al., 1995; Glass et al., 1998), 11% to 44% among 
+lab animal workers (Cullinan et al., 1994; Fuortes et al., 1997; 
+Hollander et al., 1997), and 5% to 7% among bakers exposed to 
+wheat and α-amylase (Heederik et al., 2002).
+Agricultural workers exposed to grain dust, cotton dust, or 
+atmospheres in swine or poultry confinement barns may have 
+reduced risk to developing allergy due to innate immune responses 
+to inhaled endotoxin and microorganisms. However, they are at 
+high risk for the development of an asthma-like syndrome. This 
+syndrome is an acute nonallergic airway response characterized by 
+self-limited inflammation with neutrophilic infiltrates and increased 
+pro-inflammatory cytokines and chemokines (e.g., TNFα, IL-6, and 
+IL-8), but it does not include persistent airway hyperreactivity, as in 
+occupational asthma (Schenker et al., 1998). Asthma-like syndrome 
+includes cough, mild dyspnea, fever, malaise, and cross-shift declines 
+in lung function. Endotoxin in combination with other inflammatory 
+bioaerosols is the likely etiologic agent (Douwes et al., 2003).
+An emerging area of concern is adverse effects of respira-
+tory exposures to manufactured nanomaterials. There are currently 
+over 1800 consumer products that contain nanotechnology-based 
+materials (Vance et al., 2015). Nanomaterials are engineered struc-
+tures that have a primary size less than 100 nm in at least one 
+dimension. Airborne nanoparticles generally form agglomerates 
+in which groups of particles are held together by relatively weak 
+forces (e.g., van der Waals). They may also aggregate forming clus-
+ters that are fused, sintered, or chemically bonded to one another 
+(Pettibone et al., 2008). Manufactured nanomaterials find appli-
+cations in electronics, construction materials including wall and 
+floor coverings, cosmetics, drug delivery, medical imaging, food 
+products, packaging materials, textiles, and sporting equipment, 
+to name a few. Occupational exposures occur in the manufacture 
+of the nanomaterials and in their use in fabricating materials and 
+consumer products. Exposures can also occur when nanomaterials 
+are cut or shaped and when product waste is discarded. Engineered 
+nanomaterials may be carbon-based, metal-based, or biological in 
+nature. Biological actions of nanoscaled materials may differ from 
+the comparable bulk materials or micron-sized particles (NIOSH, 
+2013). Inhaled nanomaterials may induce pulmonary toxicity or 
+they can cause adverse effects in other tissues through adsorption 
+and transport, generation of toxic substances by their dissolution or 
+degradation, or by crossing key physiological barriers, or cell and 
+nuclear membranes (Kim et al., 2011). Mechanisms of nanotoxic-
+ity include oxidative stress, inflammation, cytotoxicity, genotoxic-
+ity, and developmental toxicity (Adamcˇaková-Dodd et al., 2014, 
+2015). Metal and metal-oxide nanoparticles absorb materials from 
+the airway surface fluid and acquire protein coronas that can affect 
+their pulmonary clearance (Konduru et al., 2017). In early 2011, 
+NIOSH issued a new guideline on TiO2, marking the first instance 
+of two guidelines for the same compound based on particle size. 
+In 2013, NIOSH issued a Current Intelligence Bulletin on carbon 
+nanotubes and nanofibers that proposed an REL of 1 μg/m3 elemen-
+tal carbon as an 8-hour time-weighted average (TWA) concentration 
+(NIOSH, 2013). Research programs and regulatory bodies in the 
+United States and the EU are studying the toxicity of nanomaterials 
+in commercial use and conducting human health risk assessments.
+Other Occupational Diseases
+Occupational diseases of the skin are common but less often fatal 
+than those of the respiratory system. Irritant dermatitis and allergic 
+contact dermatitis have the highest incidence of reported skin con-
+ditions. Table 34-5 shows data for rates of skin diseases or disorders 
+in 2015 by industry division. These data indicate that agriculture, 
+forestry, fishing, and hunting carry the highest risks with an inci-
+dence rate of 10 per 10,000 full-time workers. The incidence for the 
+goods-producing sector overall is 3.3 per 10,000, higher than the 
+rate for service sector workers. In the service sector, the education 
+and health services division has the highest rate of skin diseases. 
+This is due to the high rate of skin disorders among workers in 
+nursing care facilities (10.4 per 10,000) and assisted living facilities 
+(9.4 per 10,000).
+Occupational toxicants may induce diseases in a variety of 
+body sites distant from the lung or skin. These include tumors aris-
+ing in the liver, bladder, gastrointestinal tract, or hematopoietic sys-
+tem and are attributable to a variety of chemical classes. Further 
+discussion of other occupational diseases and the toxicants listed in 
+Table 34-2 can be found in the relevant chapters in this book.
+Nervous system damage can be central, peripheral, or both. 
+It may be acute, as with some organophosphate exposures, or 
+chronic, as with organomercury poisoning or acrylamide-induced 
+neuropathy. Injury affecting the immune system may arise from the 
+immunosuppressive effects of chemicals such as dioxins or toxic 
+metals. Many occupational diseases of the immune system occur 
+due to hypersensitivity leading to respiratory or dermal allergy or 
+systemic hypersensitivity reactions. Autoimmune syndromes have 
+been associated with occupational exposures to crystalline silica 
+and vinyl chloride.
+Occupational diseases of the cardiovascular system include 
+atherosclerosis, a variety of arrhythmias, problems with coronary 
+blood supply, systemic hypotension, and cor pulmonale (right ven-
+tricular hypertrophy usually due to pulmonary hypertension as with 
+chronic obstructive pulmonary disease). Liver diseases such as car-
+bon tetrachloride-induced fatty liver and hepatocellular death due to 
+toxic concentrations of acetaminophen have classically been used to 
+illustrate chemical mechanisms of cellular injury leading to organ 
+failure. These are thoroughly discussed elsewhere in this book. 
+Occupational diseases of the reproductive system can be sex- and 
+organ-specific, but several toxicants—including carbon disulfide, 
+lead, and vinyl chloride—may affect both sexes.
+Exposures to infectious agents are a part of a variety of occupa-
+tions (Thorne et al., 2015). Veterinarians, health-care workers, and 
+biomedical researchers studying infectious agents have exposures 
+that are largely known and infection control strategies can limit 
+their risks. For others, such as farmers and foresters, specific risks 
+may be less obvious. Zoonotic diseases such as Q-fever, rabies, lep-
+tospirosis, and brucellosis may affect abattoir workers, zookeepers, 
+animal handlers, and veterinarians. Foresters, field biologists, and 
+natural resource workers who spend time in wooded areas experi-
+ence tick- and mosquito-borne illnesses at a higher frequency than 
+that of the general population. These illnesses include the West Nile
+
+Occupational Toxicology
+Chapter 34
+1561
+Fever and other arboviral encephalitides, chikungunya, Dengue 
+fever, Lyme disease, and ehrlichiosis. Occupational infections may 
+arise as a result of work settings bringing people into close proxim-
+ity with other people or animals, thus facilitating the transmission 
+of microorganisms. Occupational infectious diseases attributable to 
+the clustering of people affect workers in such facilities as day care 
+centers, schools, health-care settings, correctional facilities, dor-
+mitories, military barracks, or shelters for the homeless. Industrial 
+settings can place large numbers of workers in a shared space, lead-
+ing to increased transmission of diseases. This is especially true 
+for diseases with annual outbreaks, such as influenza. Exposures 
+to chemicals may increase the susceptibility of workers to infec-
+tion through irritation of mucosa or the pulmonary epithelium or 
+through immunosuppression leading to impaired host defense.
+Both industrial and nonindustrial occupational environments 
+may pose occupational hazards due to the presence of chemical 
+or biological agents. Reports of work environments with ineffec-
+tive ventilation or decreased ventilation rates and increased uti-
+lization of synthetic building materials have demonstrated a rise 
+in complaints associated with occupancy in buildings. In some 
+cases, service sector workers in a problem building develop spe-
+cific clinical conditions with recognized etiology. This is defined as 
+building-related illness. In other cases, symptoms are nonspecific 
+and disappear when the worker leaves the problem building. When 
+this occurs with sufficient prevalence, it is termed sick building 
+syndrome. This can arise from volatile and semivolatile chemicals 
+released from office materials, building materials, floor coverings, 
+furniture, cleaning products, and microorganisms. Office buildings 
+and residential settings comprise a complex ecology consisting of 
+people, molds, mites, volatile organic compounds of microbial and 
+nonmicrobial origin, and sometimes plants, pets, cockroaches, and 
+other vermin (Thorne and Heederik, 1999b). Molds, house dust 
+mites, and animal proteins are potent human allergens that can lead 
+to allergy and asthma. Exposure to chemicals and biomolecules 
+such as endotoxin may enhance this process (Douwes et al., 2003). 
+Workers in laboratory animal facilities exhibit a high prevalence 
+of allergy to rodent urinary proteins. In some cases, the occupied 
+space of a building may be clean and dry, but local amplification 
+sites for molds may develop. These may arise in ventilation sys-
+tems, utility closets, subfloors, or basements that serve as return air 
+plenums, or in local sites of water damage. Such sites can become 
+sources of microorganisms and aeroallergens of sufficient volume 
+to generate significant bioaerosol exposures throughout the envi-
+ronment. Airborne viruses, bacteria, and fungi are responsible for 
+a variety of building-related illnesses arising from organisms that 
+are pathogenic to humans. Nonpathogenic microorganisms may 
+induce symptoms or diseases through inflammatory processes, by 
+stimulating innate or adaptive immune response, or by releasing 
+noxious odors, allergenic compounds, or bioactive macromolecules. 
+These may combine with industrial chemicals released into the air 
+to ­create complex exposure environments.
+TOXICOLOGIC EVALUATION OF 
+OCCUPATIONAL AGENTS
+Evaluation of Occupational Risks
+In most instances of prolonged exposure to low levels of chem-
+icals, there is a continuum between being healthy and being ill. 
+The exposures may impart biochemical or functional changes that 
+are without signs or symptoms, subclinical changes, or in cases of 
+more significant toxicity, manifest as clinical disease. The health 
+significance of the identified changes resulting from exposure to 
+a particular agent must be assessed in order to determine which 
+effects are adverse. Following this assessment, one must consider 
+the interindividual variability or susceptibility factors that influence 
+the risks. There is no single dose–effect relationship but a distri-
+bution of responses. Therefore, in order to recommend an accept-
+able exposure level to an industrial chemical, one must attempt to 
+define the risk associated with adverse effects in the most sensitive 
+populations exposed. It then remains to be determined what propor-
+tion of exposed subjects may still develop an adverse effect at the 
+proposed acceptable exposure level. This acceptable risk level will 
+vary according to a value judgment of the severity, permanence, 
+and equity of the potential adverse effects and the characteristics of 
+the most susceptible population. Clearly, inhibition of an enzyme 
+without functional consequences will be viewed as more accept-
+able than a chronic non-fatal disease and in turn a more serious 
+toxic effect, such as teratogenicity leading to a congenital malfor-
+mation in the offspring of the exposed individual.
+Establishing Causality  In complex occupational environments, 
+it may be difficult to establish a causal relationship between a toxic 
+substance and a disease. For this reason a number of systematic 
+approaches have been devised to help define causation. In 1890, 
+Robert Koch proposed postulates for “proving” that a specific 
+organism caused a specific disease. T. M. Rivers extended this 
+approach to viruses in 1937. Sir Austin Bradford Hill suggested 
+epidemiologic criteria for assessing causality in 1965 considering 
+strength, specificity, consistency, temporality, exposure period, 
+exposure gradients, and biological plausibility of the associations. 
+These schema and modern weight-of-evidence determination cri-
+teria led to systematized approaches for establishing strength of 
+associations. U.S. EPA criteria for establishing weight-of-evidence 
+are illustrated in Fig. 34-3. Note that extensive study is required 
+to establish a clear causal link between exposure to a toxicant and 
+an adverse health outcome. Fig. 34-4 provides a matrix to evalu-
+ate the weight-of-evidence for a causal association between a 
+Occupational epidemiology
+studies
+Occupational workforce
+surveillance
+In vitro toxicology testing
+& QSAR modeling
+Data Sources for Occupational Toxicology
+In vitro animal models
+Human challenge studies
+Figure 34-3.   Data sources for occupational toxicology decision making.
+
+1562
+APPLICATIONS TOXICOLOGY
+Unit VII
+toxicant and an occupational disease (Donham and Thorne, 1994). 
+Evidence from well-conducted in vitro studies, animal toxicology 
+studies, controlled human challenge studies, case reports, and epi-
+demiologic investigations is evaluated with regard to data quality 
+and clarity of evidence in support of the establishment of causal-
+ity. This evaluation is guided by seven criteria. If a chemical were 
+thoroughly studied in animals, humans, and in vitro studies and it 
+produced clear and convincing evidence of an exposure–response 
+relationship in controlled studies that used appropriate models 
+and relevant endpoints, it would constitute compelling evidence 
+of a causal relationship between that chemical and that disease. 
+Fig. 34-3 reminds us that a consortium of study types contributes 
+data used for the evaluation of occupational hazards. These are dis-
+cussed below.
+In Vitro Assays  A number of useful in vitro assays have been 
+developed over the past several decades in order to provide screen-
+ing data and, in some cases, mechanistic insight without the need 
+or expense of exposing animal or human subjects. While at this 
+time there are few validated methods to determine complex toxi-
+cologic responses such as pulmonary hypersensitivity or peripheral 
+neuropathy, the U.S. Interagency Coordinating Committee on the 
+Validation of Alternative Methods (ICCVAM) lists recommended 
+test method protocols for acute systemic toxicity, endocrine dis-
+ruptors, eye corrosion and irritation, pyrogenicity, and skin sen-
+sitization (ICCVAM, 2017). Examples include the Direct Peptide 
+Reactivity assay (OECD TG 442C) and the ARE-Nrf2 Luciferase 
+(KeratinoSens) assay (OECD TG 442D) for predicting skin sen-
+sitizers. These methods were approved initially by the European 
+Centre for the Validation of Alternative Methods (ECVAM) and 
+were then accepted by the 32-nation Organization of Economic 
+Cooperation and Development (OECD). Another example is the 
+Bovine Corneal Opacity and Permeability (BCOP) test used to 
+assess the potential for chemicals and consumer products to induce 
+eye injuries (OECD TG 437). In addition, quantitative structure–
+activity relationships can help suggest potential toxicologic effects 
+for an unstudied compound if structurally similar compounds have 
+been evaluated.
+Animal Toxicology Studies  Animal toxicology studies serve 
+an important function in terms of identifying adverse effects, pro-
+viding mechanistic data, establishing dose–response relationships, 
+and aiding the process of establishing standards. Because animal 
+studies can be conducted before there is any human exposure, 
+these studies play an important role in hazard identification and 
+prevention of human disease. There are numerous animal models 
+for occupational injury and illness; these are described throughout 
+this textbook in the context of the affected organ system and the 
+classes of toxicants. Generation of animal toxicology data to pre-
+dict health effects in workers is a central function of experimental 
+toxicologists.
+Toxicologic investigations using animals often serve to estab-
+lish a tentative acceptable exposure level. Other important informa-
+tion that may also be derived from these investigations concerns the 
+relationships between the metabolic handling of the chemical and 
+its interactions with target molecules (mechanism of action), identi-
+fication of methods for biological monitoring of exposure and early 
+health effects, and identification of preexisting pathologic states that 
+may increase susceptibility to the chemical. However, animal test-
+ing can provide only an estimate of the toxicity of a chemical for 
+humans. Animals do not always respond to a chemical exposure in 
+the same way as humans. For instance, there are very significant 
+species and strain differences in responsiveness to aryl hydrocar-
+bon receptor agonists such as polychlorinated dibenzo-p-dioxins 
+(Abnet et al., 1999; Boverhof et al., 2006). In some instances, inter-
+species differences in metabolism or mechanism of action cause 
+certain chemicals to induce cancer in rodents but not in humans. 
+One such example is kidney cancer, attributable to the accumula-
+tion of a rat-specific protein (α2u-globulin) in proximal tubular cells, 
+and produced in male rats chronically exposed to unleaded gasoline 
+(Hard et al., 1993). There are a few compounds for which predictive 
+animal models have not been found.
+Assessment
+of exposure
+to speciﬁc
+agents
+Consideration
+or control of
+confounders
+Evidence of a
+dose –
+response
+relationship
+Consistent
+results from
+different
+studies
+Objective
+clinical data
+Endpoints
+related to
+human
+pathology
+Appropriate
+subjects or
+models
+In vitro
+studies
+Animal
+studies
+Human
+challenge
+studies
+Case studies
+Epidemiology
+studies
+For each type of study listed in the ﬁrst column weight the quality of data from existing studies based on the criteria listed in the column
+headings as follows:
+0 No evidence or condition is not met
+1 Equivocal evidence or condition is partially met
+2 Some evidence or condition is mostly met
+3 Clear evidence or condition is convincingly met
+4 Squares shown in pink should be left blank
+Figure 34-4.   Matrix for assessing the strength of an association between a toxicant and an occupational disease.
+
+Occupational Toxicology
+Chapter 34
+1563
+Human Challenge Studies  Controlled human challenge stud-
+ies, or clinical exposure studies, are a useful approach for verifying 
+findings from animal toxicology studies in humans and for estab-
+lishing whether biotransformation pathways in the animal models 
+represent those in exposed humans. Human challenge studies with 
+occupational toxicants are usually designed to answer very specific 
+questions regarding rates of uptake, biotransformation pathways, 
+the time course of metabolite excretion during and after exposure, 
+evaluation of the threshold concentration for sensory responses 
+(odor, irritation of the nasal mucosa, etc.), and acute effects of 
+toxicant exposure on perception, vigilance, and lung, cardiac, or 
+neurobehavioral function. Human challenge studies help to estab-
+lish biomarkers of exposure. For reversible conditions, they can 
+be useful for testing therapeutic options. They may also be useful 
+for investigating bronchial hyperresponsiveness to inhaled agents. 
+Extreme caution must be exercised to ensure the safety of research 
+subjects and the scientific benefits must be balanced against the 
+risks to participants (National Academies of Sciences, Engineering, 
+and Medicine, 2017). Idiosyncratic responses can cause a subject to 
+be exceptionally sensitive. For inhalation studies, equipment mal-
+function can result in overexposure, so real-time exposure moni-
+toring is a necessity. In the past 25 years, there have been several 
+serious injuries and fatalities associated with human challenge 
+studies. These have been attributed to hypersensitivity reactions 
+and generally used mock workplace simulations without rigorous 
+control and monitoring of exposures, as is the current standard of 
+practice. Thus, such studies should be undertaken only when the 
+required data cannot be obtained through other means and under 
+circumstances in which the risk for volunteers can reasonably be 
+estimated as negligible.
+Case Reports  When new toxicants, new combinations of toxi-
+cants, or changes in process conditions occur in the workplace, 
+a case or outbreak of cases can occur. These may be identified 
+through workplace surveillance systems, OSHA 300 logs, or 
+through workers associating their disease with workplace expo-
+sures. In some cases, the problem is identified quickly and 
+resolved, while others take years to resolve. These are often pub-
+lished as case reports and may give rise to animal or epidemiologic 
+studies. Cases of hypersensitivity pneumonitis among machinists 
+exposed to metalworking fluids contaminated with mycobacteria 
+is one example (Weiss et al., 2002; Thorne et al., 2006). Another 
+example is diacetyl-induced bronchiolitis obliterans that was first 
+recognized in workers manufacturing artificially flavored micro-
+wave popcorn (Kreiss et al., 2002). NIOSH has a Health Hazard 
+Evaluation (HHE) program in place in which employees or their 
+authorized representatives (i.e., union officials) or employers at a 
+job site can request an investigation to evaluate a potentially hazard-
+ous situation (NIOSH, 2017b). This program issues HHE reports 
+to disseminate information regarding the hazard. NIOSH also pub-
+lishes NIOSH Alerts, Criteria Documents, Fatal Assessment and 
+Control Evaluation Reports, and Current Intelligence Bulletins. It 
+also publishes Joint Occupational Health Documents with similar 
+entities in foreign governments. While useful for hazard identifica-
+tion and mitigation, case reports and HHE reports generally do not 
+establish incidence or prevalence of diseases associated with an 
+occupational hazard.
+Epidemiology Studies  Epidemiology studies help to unravel 
+the associations between occupational diseases, exposures, and 
+personal risk factors. Exposure may be characterized using a sur-
+rogate measure such as job classification or via questionnaire, 
+or more directly through exposure monitoring or biomonitoring. 
+Adverse effects may be expressed in terms of mortality, incidence, 
+or prevalence of clinical disease, irreversible or reversible func-
+tional changes, or critical biological changes.
+Several types of epidemiologic studies are used to gather data 
+on the association of workplace exposures with human disease. 
+Cross-sectional studies compare disease prevalence or health status 
+between groups of workers classified according to job title, work 
+site, or exposure status. Cohort studies compare exposed workers 
+versus unexposed or less exposed workers either prospectively or 
+retrospectively in order to associate the occurrence of disease with 
+exposure. Because many occupational diseases have a long induc-
+tion period or occur only rarely, prospective cohort studies may 
+require a long time and need a large number of subjects to estab-
+lish significant findings. Retrospective cohort studies can resolve 
+the latency problem but require that relevant exposure data have 
+been collected over time. In the absence of measured exposures, 
+job titles, tasks routinely performed, and years of employment may 
+allow categorical exposure classification (e.g., low, medium, and 
+high). Exposure misclassification is frequently a problem in retro-
+spective studies that reduces the likelihood of associating a disease 
+with a particular exposure.
+Case–control studies are useful for investigating rare diseases 
+or diseases with long induction periods. As the name suggests, case–
+control studies compare workers with disease to workers without 
+disease with regard to their past exposure intensity, frequency, and 
+duration, plus other postulated risk factors. In some instances where 
+the exposure–disease relationship is not understood, it may be dif-
+ficult to identify an appropriate control group. Case–control studies 
+are strongest when accompanied by a rich data set of measured 
+exposures to the candidate causative agents spanning the relevant 
+exposure period. If exposure history is assessed by questionnaire 
+after workers have developed adverse health effects, there arises the 
+potential for recall bias in which those with disease may recall past 
+exposures differently than those who are free of disease. Error can 
+also arise due to selection bias if those who agree to participate in 
+the study are not representative of the population of interest.
+Characteristics of observational epidemiology studies are 
+listed in Table 34-7. Occupational epidemiology studies assess 
+relationships between exposures and human health outcomes and, 
+therefore, are particularly useful for risk assessment. Confounding 
+may arise due to exposures of risk factors not associated with the 
+work environment.
+Because measures of effect may be subtle and may overlay a 
+background level of incidence, results generally require sophisti-
+cated statistical comparisons between a group of exposed workers 
+and a similar group of workers without the exposure of interest. 
+Ideally, the group of unexposed workers should be matched on vari-
+ables such as age, race, gender, socioeconomic status, and smoking 
+habits. They should also undergo the same standardized clinical, 
+biological, or physiologic evaluation at the same time as the exposed 
+group. Comparison with the general population is ill-advised 
+because an employed population is a highly selected group and may 
+have a higher degree of physical fitness, called the healthy worker 
+effect. Because occupational epidemiologic studies often last for 
+several years, all methods of investigation—such as ­questionnaires, 
+measurement instruments, and analytic techniques—must be vali-
+dated and standardized before the start of the study. If results will be 
+compared to prior or contemporaneous studies, the same question-
+naires should be used. The number of subjects under study should 
+be chosen based on a sample size calculation to be able to detect a 
+difference between exposed and unexposed subjects (should there 
+be a difference) and should take into account labor turnover and 
+those declining participation in any aspects of the study. If expo-
+sures are high enough to induce an adverse effect, it is expected that
+
+1564
+APPLICATIONS TOXICOLOGY
+Unit VII
+these studies may permit establishment of the relationship between 
+integrated exposure (intensity × time) and frequency of abnormal 
+results and, consequently, a redefinition of the OEL.
+In most cases, occupational epidemiologic studies encom-
+pass the collection of samples from the subjects or data obtained 
+through interaction with the subjects. Because this often includes 
+identifiable private information, the confidentiality of the data must 
+be protected. U.S., EU, and international laws require that subjects 
+must always have the right to refuse participation and investiga-
+tors must have written consent from a duly informed participant 
+obtained without coercion.
+Animal Toxicology Testing for Establishing 
+Acceptable Levels of Exposure
+It is evident that certainty as to the complete safety of a chemi-
+cal can never be obtained, regardless of the extent of toxicologic 
+investigations performed on animals. Nevertheless, animal studies 
+provide valuable data from which to estimate the level of exposure 
+at which the risk of health impairment is acceptable. Table 34-7 
+compares the information gained from animal studies to epidemiol-
+ogy studies. To the extent possible, animal studies should employ 
+species for which the metabolic pathways and disease processes 
+reflect those of humans. Guidelines and protocols for assessing 
+experimentally the toxicologic hazards of chemicals have been 
+formulated by various national and international agencies. These 
+tests include local and systemic acute toxicity tests, tests of toxic-
+ity following repeated exposure, investigations of metabolism and 
+mechanism of action, short-term tests for detecting potential muta-
+gens and carcinogens, studies of effect on reproduction and of tera-
+togenic activity, chronic studies to detect carcinogenesis and other 
+long-term effects, interaction studies, tests for immunosuppression, 
+and dermal and pulmonary hypersensitivity tests. The need for per-
+forming these testing protocols should be carefully evaluated for 
+the inclusion of any occupational toxicant to which workers will be 
+exposed. In selecting the studies most appropriate for safety evalu-
+ation, the toxicologist should be guided by an understanding of the 
+following:
+ • Physicochemical properties of the chemical
+ • Potential for the generation of toxic derivatives when the 
+chemical is submitted to heat, pH changes, and UV light
+ • Conditions of use and route of exposure
+ • Type of exposure (continuous, intermittent, or incidental)
+ • Degree of exposure
+Toxicologic information already available on other chemicals 
+with similar chemical structure and reactive chemical groups can 
+suggest potential hazards and reactivity.
+Conclusions drawn from any toxicologic investigation are use-
+ful only if the composition and physical state of the tested prepa-
+ration is known. This would include the nature and concentration 
+of impurities or degradation products, speciation of inorganic 
+Table 34-7  
+Comparison of Epidemiologic Studies and Experimental Exposure Studies
+OBSERVATIONAL EPIDEMIOLOGIC STUDIES
+EXPERIMENTAL ANIMAL EXPOSURE STUDIES
+Toxicant exposure
+Reflects true exposure among population at risk
+Controlled to represent major toxicant of interest
+Character
+Complex and variable in space and time
+Usually one or two test compounds 
+May include nonoccupational exposures to 
+toxicant or related compounds
+May not reflect complexity of human exposures
+Frequency and duration
+Work day, work week, and years in that job may 
+be task specific
+Acute, subacute, subchronic, chronic
+Exposure route
+Inhalation, ingestion, percutaneous, or a 
+combination
+Injection, inhalation, oral, or dermal; rarely a 
+combination by design
+Appropriateness of dose
+Reflect the actual range of exposure
+Often doses studied are far higher than human 
+exposures
+Assessment
+Environmental sampling or measurement of 
+biomarkers
+Measurement of administered dose with or 
+without measurement of biomarkers
+May be retrospective and based on employer 
+records, group-based approaches, or 
+questionnaires
+Sampling of exposure chamber air for inhalation 
+studies
+Species considerations
+Humans—cohorts or cases and controls
+Laboratory animals, usually inbred strains of mice 
+or rats
+Must protect the safety and confidentiality of 
+subjects
+Must ensure proper care and use of animals
+Representativeness
+May exist a selection bias such that the study 
+population may not represent the occupational 
+work force
+Experimental animal species may not represent 
+humans
+Relevance to human health
+Directly relevant if appropriate outcomes are 
+studied
+Relevant if species differences are known 
+Of limited relevance if species or strain effects 
+on absorption, distribution, metabolism, and 
+disease are unknown
+Analytical challenges
+Selection bias, misclassification, and confounding 
+in characterization of outcomes
+Control of genetics, feeding, and housing between 
+exposed and control groups
+Within- and between-subject variance may be high
+Low variance in outcomes
+
+Occupational Toxicology
+Chapter 34
+1565
+compounds, characterization of physicochemical properties for 
+inhaled materials, and characterization of the vehicle (the car-
+rier, diluent, or excipient of the toxicant). Sensitive and specific 
+methods of analysis of the chemical in solution, air, and biological 
+material should also be available. The assessment of the toxicity of 
+malathion illustrates this point. Malathion is an organophosphate 
+insecticide that normally has relatively low human toxicity. This 
+pesticide was responsible for an episode of mass poisoning among 
+malaria workers in Pakistan because the specific product contained 
+impurities (mainly isomalathion) capable of inhibiting tissue and 
+plasma carboxyesterases (Aldridge et al., 1979) and inactivating 
+acetylcholinesterase via formation of adducts (Doorn et al., 2003). 
+The toxicity evaluation for malathion had not anticipated isomala-
+thion coexposure. A recent study evaluated the pulmonary ­toxicity 
+of inhaled aluminum nanowhiskers (Adamcˇaková-Dodd et al., 
+2012). The manufacturer of this material stated they were Al2O3 
+whiskers. Careful physicochemical analysis prior to toxicity evalua-
+tion using X-ray photoelectron spectroscopy and transmission elec-
+tron microscopy revealed they were actually mixed phase aluminum 
+hydroxy structures containing Al(OH)3 and γ-AlOOH. Further, the 
+whiskers were 100 to 400 nm in length, considerably shorter than 
+the 2800 nm length claimed by the manufacturer.
+The duration of tests necessary to establish an acceptable level 
+for occupational exposure is primarily a function of the type of toxic 
+action suspected. It is generally recognized that for systemically 
+acting chemicals, subacute and short-term toxicity studies are usu-
+ally insufficient for proposing OELs. Subacute and short-term tox-
+icity tests are usually performed to find out whether the compound 
+exhibits immunotoxic properties and cumulative characteristics. 
+They also aid in the selection of the doses for long-term-exposure 
+studies and the kind of tests that may be most informative when 
+applied during long-term exposures. A number of studies have 
+drawn attention to the fact that the reproductive system may also be 
+the target organ of industrial chemicals (e.g., glycol ethers, styrene, 
+lead, dibromochloropropane). Thus, studies designed to evaluate 
+reproductive effects and teratogenicity should also be considered 
+during routine toxicologic testing of occupational toxicants.
+Information derived from exposure routes similar to those 
+experienced by workers is clearly the most relevant. For airborne 
+pollutants, inhalation exposure studies provide the basic data on 
+which provisional OELs are based. Experimental methodology is 
+much more complicated for inhalation studies than for oral admin-
+istration experiments and requires more specialized equipment and 
+expertise. For example, in the case of exposure to an aerosol, par-
+ticle size distribution must be evaluated and the degree of retention 
+in the respiratory tract of the animal species under study should be 
+established. Ideally, particle size should be selected according to 
+the deposition pattern of dry or liquid aerosols in the particular ani-
+mal species used in order to represent human lung deposition with 
+occupational exposures. Particle deposition and retention curves 
+have been published for human, monkey, dog, rabbit, guinea pig, 
+rat, and mouse (Schlesinger, 1985; Hsieh et al., 1999; Schroeter 
+et al., 2013; Asgharian et al., 2014, 2016). It should also be kept in 
+mind that the concentration of the material in the air and the dura-
+tion of exposure do not give a direct estimate of the dose, because 
+retained dose is also dependent on the minute volume and the pro-
+portion of inhaled particles retained. Measurement of pulmonary 
+dust retention following exposure to a radiolabeled or fluores-
+cently tagged test aerosol should be performed prior to conducting 
+acute, subchronic, or chronic studies. This allows one to assess 
+deposition and determine whether the selected levels of exposure 
+may overwhelm pulmonary clearance mechanisms (ILSI, 2000; 
+Oberdörster, 2002).
+The choice of studies to perform and their routes of adminis-
+tration must be evaluated scientifically for each toxicant. Important 
+considerations include its target sites and mechanism of action, 
+metabolism, the nature of its adverse effects, and how workers 
+are exposed to the toxicant. The morphologic, physiologic, and 
+biological parameters that are usually evaluated, either at regular 
+intervals in the course of the exposure period or at its termina-
+tion, are described elsewhere in this book. Investigations that can 
+make use of specific physiologic or biochemical tests, based on 
+the knowledge of the principal target organ or function, produce 
+highly valuable information and increase confidence in the OEL 
+derived from them.
+Worker Health Surveillance
+The primary objective of worker health surveillance programs is 
+to provide both periodic screening of general health and wellness 
+plus health and exposure monitoring tailored to recognized haz-
+ards of the workplace. The monitoring of exposures to toxicants in 
+the workplace may play an important role in detecting excessive 
+exposures before the occurrence of significant biological distur-
+bances and health impairment. A scheme for biological monitoring 
+of exposure and of early biological effects is possible only when 
+sufficient toxicologic information has been gathered from in vitro, 
+animal, or human studies on the mechanism of action and the 
+metabolism of xenobiotics to which workers are exposed. When 
+a new chemical is being used on a large scale, the careful clinical 
+surveillance of workers and monitoring of workplaces should be 
+instituted in order to address three aims: (1) to identify overexpo-
+sure or adverse effects on the health of the workers and quickly 
+intervene, (2) to evaluate the validity of an existing or proposed 
+OEL, and (3) to test the validity of a proposed method for biologi-
+cal monitoring.
+Evaluation of the validity of the proposed OEL derived from 
+animal experiments through workplace surveillance is the major 
+aim because studies and observations on humans are the final basis 
+for deciding whether an OEL set originally on the basis of ani-
+mal toxicity testing is truly acceptable as one that will not produce 
+excess health risks. This means that sensitive clinical, biochemi-
+cal, physiologic, or behavioral tests for detecting an adverse effect 
+of a toxicant should ideally be performed on the workers concur-
+rent with exposure assessment. It is helpful if health surveillance 
+programs can include the same biomarkers as used in prior animal 
+or human exposure studies. Occupational toxicologists and occu-
+pational physicians cannot rely solely on the standard diagnostic 
+tools used in clinical medicine, as they were established primarily 
+to reveal advanced pathologic states and not to detect early adverse 
+effects at a stage when they are still reversible. For example, the 
+measurement of serum creatinine is still a widely used clinical test 
+for assessing renal integrity; yet it is known that the glomerular fil-
+tration rate of the kidney must be reduced by more than 50% before 
+serum creatinine rises significantly.
+The main limitation of current OELs or BEIs is that some 
+are based on limited experimental data or clinical studies in which 
+only late effects have been investigated and correlated with past 
+exposure. Furthermore, several BEIs are derived from the study 
+of external–internal exposure relationships and not from relation-
+ships between internal dose and early adverse effects. The validity 
+of an OEL is much stronger if it is based on the study of dose–
+response relationships in which the dose is expressed in terms of 
+the ­cumulative target dose and the monitored effect reflects a critical 
+biological event. However, for some chemicals and some adverse 
+effects (e.g., induction of hypersensitivity and possibly genotoxic
+
+1566
+APPLICATIONS TOXICOLOGY
+Unit VII
+effects), the frequency of peak exposure may be more important for 
+health risk assessment than the integrated dose. For example, long-
+term low-level exposures to commercial enzymes rarely induce sen-
+sitization. However, a single exposure to a high concentration can 
+produce hypersensitivity and occupational asthma.
+In cases where a surveillance program was not instituted before 
+the introduction of a new chemical, it is more difficult to establish 
+the efficacy of the OEL. In this situation, evaluation depends on 
+retrospective cohort studies or case–control studies on workers 
+who have already sustained exposure. Evaluation of a “no observed 
+adverse effect level” (NOAEL) is difficult because information on 
+past exposures is often incomplete and frank effects are generally the 
+focus of retrospective or case–control studies. Provided that a satis-
+factory assessment of past exposure is possible, cross-sectional stud-
+ies that rely on preclinical signs of toxicity may, to a certain extent, 
+overcome these difficulties. Whether or not clinical investigations 
+are planned from the introduction of a new chemical or process, it is 
+essential to keep standardized records of occupational histories and 
+exposure. The need may arise for mortality or case history studies in 
+order to answer an urgent question on a suspected risk.
+Careful investigation of overexposures resulting from specific 
+incidents such as containment breaches, chemical spills, or vessel 
+or pipe ruptures can provide useful information. Although such 
+observations are usually not helpful for determining the NOAEL 
+in humans, they may indicate whether human symptomatology 
+is similar to that found in animals and may suggest functional or 
+biological tests that might prove useful for routine monitoring of 
+exposed workers.
+Linkage of Animal Studies and 
+Epidemiologic Studies
+In the field of occupational toxicology, perhaps more than in other 
+areas of toxicology, cooperation between those conducting animal 
+studies and studies of workers is helpful for examining risks asso-
+ciated with overexposure to chemicals and other toxicants. A few 
+examples will serve to illustrate the complementarity of these 
+disciplines.
+Several occupational carcinogens have been identified clearly 
+through combined epidemiologic and experimental approaches. 
+For example, the carcinogenicity of vinyl chloride was first dem-
+onstrated in rats (Viola et al., 1971), and a few years later, epide-
+miologic studies confirmed the same carcinogenic risk for humans 
+(Creech and Johnson, 1974; Monson et al., 1974). This observation 
+stimulated several investigations on the metabolism of vinyl chlo-
+ride in animals and on its mutagenic activity in in vitro systems. 
+Identification of vinyl chloride metabolites led to the conclusion 
+that there is microsomal oxidation leading to the formation of an 
+epoxide derivative, which acts as a proximate carcinogen (ATSDR, 
+2006). This finding triggered further studies on the biotransforma-
+tion of structurally related halogenated ethylenes, such as vinyl bro-
+mide, vinylidene chloride, 1,2-dichloroethene, trichloroethylene, 
+and perchloroethylene. Comparison of their oncogenic activity in 
+relation to their metabolism suggested that an interplay between 
+the stability and reactivity in reaching the DNA target and reacting 
+with it after being formed would determine their genotoxic risk. It 
+is now recognized that vinyl chloride is metabolized to 2-chloroeth-
+ylene oxide which rearranges to 2-chloroacetaldehyde and produces 
+promutagenic etheno-DNA adducts including etheno-guanine, 
+etheno-cytosine, and lesser amounts of etheno-adenine (Bolt, 2005; 
+ATSDR, 2006; NTP, 2016).
+1,3-Butadiene is a known human carcinogen with more than 
+75% of its use in the manufacture of synthetic rubber products. 
+Experimental studies in rats and mice demonstrated carcinogenic-
+ity, with mice being particularly sensitive. Subsequent to these 
+findings, 1,3-butadiene was shown to follow the same metabolic 
+pathway in humans as in rats and mice, forming mutagenic and 
+carcinogenic epoxides. That led to cohort and case–control stud-
+ies establishing 1,3-butadiene as a human carcinogen (ATSDR, 
+2009; NTP, 2016). More recent studies have considered the relative 
+importance of the metabolic pathway leading to the formation of 
+the reactive ­metabolites, 3,4-epoxy-1-butene, 1,2:3,4-diepoxybu-
+tane, and 3,4-epoxy-1,2-diol that react with DNA and with nuclear 
+proteins. Under the assumption of a genotoxic mechanism and 
+cross-species comparisons of DNA binding, these data facilitate a 
+more informed cancer risk assessment. In vitro studies showed that 
+human lymphocytes were less sensitive to 1,2:3,4-diepoxybutane-
+induced chromosomal aberrations than mouse or rat cells (ATSDR, 
+2009). In vivo studies revealed a higher rate of formation of epox-
+ides in mice than rats. Inhaled 1,3-butadiene produced N7-guanine 
+DNA adducts in lung tissue due to 3,4-epoxy-1,2-diol (Koivisto and 
+Peltonen, 2001) and 1,2:3,4-diepoxybutane (Goggin et al., 2009). 
+These cross links were more prevalent in mice than rats and in 
+females than males which agreed with the enhanced susceptibility 
+to cancers of female mice. On this basis, rats were judged to be a 
+more predictive species than mice for human risk assessment. This 
+work illustrates that the measurement of DNA adducts is a sensitive 
+method for ­monitoring 1,3-butadiene metabolism via the epoxide-
+forming pathway in workers.
+In 1973, an outbreak of peripheral neuropathy occurred in 
+workers exposed to the solvent methyl butyl ketone (2-hexanone, 
+MBK) (McDonough, 1974; Allen et al., 1975). The same lesion 
+was reproduced in animals (Mendell et al., 1974; Spencer et al., 
+1975). Biotransformation studies were then undertaken in rats 
+and guinea pigs and some MBK metabolites (2,5-hexanedione, 
+5-hydroxy-2-hexanone) were also found to possess neurotoxic 
+activity (Spencer and Schaumburg, 1975; DiVincenzo et al., 1977). 
+Similar oxidation products are formed from n-hexane, the neurotox-
+icity of which is probably due to the same active metabolite as that 
+produced from MBK. Because methyl ethyl ketone (MEK) cannot 
+give rise to 2,5-hexanedione, it was suggested as a replacement sol-
+vent. Subsequent work demonstrated the potentiation of neurotoxic 
+effects of n-hexane upon coexposure with MEK (Yu et al., 2002). 
+Nevertheless, MEK remains a much less toxic solvent than MBK.
+These examples demonstrate that studies of the metabolic han-
+dling of occupational toxicants in animals are instrumental in the 
+characterization of reactive intermediates and may suggest unsus-
+pected risks or indicate new methods of biological monitoring. 
+Conversely, clinical observations of workers may stimulate studies 
+of the metabolism or the mechanism of toxicity of a toxicant in 
+animals, thereby revealing the health significance of a biological 
+disturbance.
+Arsenic is one of the very few compounds for which there are 
+limited data of predictive value from animal studies to human health 
+effects. It has been used as a medicine since the time of Hippocrates. 
+Initially used to treat ulcers, arsenicals achieved notoriety as medic-
+inals for a wide variety of ailments, and then, in the first half of the 
+20th century, for the treatment of syphilis and parasites. Many foods 
+and beverages contaminated with arsenic have been associated with 
+accidental and intentional poisonings. Inorganic pentavalent arsenic 
+(arsenate) is readily absorbed across tissues and converted to the tri-
+valent form (arsenite). This is then methylated to form monomethyl 
+arsenic acid and dimethylarsenic acid (DMA) (ATSDR, 2007). 
+These are primarily transported in the blood bound to sulfhydryl 
+groups in proteins. The half-life in humans for arsenic compounds 
+is 2 to 4 days and the major excretion is via the urine.
+
+Occupational Toxicology
+Chapter 34
+1567
+Inorganic arsenic was first noted as a human carcinogen by 
+Hutchinson in 1887 (Hutchinson, 1887). Epidemiologic studies led 
+to classification of arsenic by the IARC as a skin and lung carcino-
+gen in 1980 (IARC, 1980). Since then, studies among occupation-
+ally exposed populations and populations with high arsenic in their 
+drinking water have shown conclusively that arsenic causes human 
+cancers of the skin, lung, bladder, kidney, liver, nasal tissue, and 
+prostate. There is also evidence for arsenic-associated cutaneous 
+effects, cardiovascular and cerebrovascular disease, diabetes mel-
+litus, and adverse reproductive outcomes (EPA, 2000; WHO, 2001).
+A large number of carefully executed cancer bioassays in 
+mice, rats, beagles, and monkeys performed using sodium arse-
+nate, sodium arsenite, lead arsenite, arsenic trioxide, and DMA 
+were uniformly negative for cancer. A number of subsequent stud-
+ies that tested for tumor-promotion activity following dosing with 
+recognized tumor initiators also yielded negative results. The 2007 
+ATSDR Toxicological Profile for arsenic stated, “First and most 
+importantly, no animal model exists for the health effect of great-
+est concern for human exposure: carcinogenicity in skin and other 
+organs after oral exposure” (ATSDR, 2007). Studies since about 
+2000, using organic arsenicals, susceptible transgenic mice, high-
+dose in utero exposures, or administration of a co-carcinogen, have 
+yielded lung adenomas and adenocarcinomas in mice and rats (Shen 
+et al., 2003, 2007; Cui et al., 2006; Hughes, 2006). However, years 
+of negative studies in standard animal carcinogenicity screens were 
+problematic in the face of unquestionable oncogenic activity in 
+humans.
+The examples above demonstrate that the occupational toxi-
+cologist cannot rely solely on animal or epidemiologic studies. 
+A combined approach is necessary in order to identify, elucidate, 
+and prioritize risks and to develop interventions and techniques for 
+worker health surveillance.
+EXPOSURE MONITORING
+Two important applications of occupational toxicologic investiga-
+tions are compared below: environmental monitoring and biologi-
+cal monitoring. As described above under “Occupational Health 
+Standards,” both are important in worker health surveillance and 
+are essential elements of toxicology studies with dosing via the 
+inhalation or dermal routes.
+Environmental Monitoring for Exposure 
+Assessment
+An important objective of experimental and clinical investigations 
+in occupational toxicology is the proposal of safe levels of expo-
+sure. OELs must be reevaluated at regular intervals as new infor-
+mation on the toxicity of industrial chemicals develops. Adherence 
+to OELs may not protect everyone and, therefore, cannot supplant 
+close medical surveillance of workers. Various private and offi-
+cial institutions regularly review the toxicologic information on 
+chemicals in order to propose or update permissible levels of expo-
+sure. These include governmental and professional organizations 
+worldwide. A critical element of establishing OELs is the accu-
+rate assessment of exposure. Methodology for exposure assess-
+ment must be specifically tailored to the agent under study and the 
+environment in which it appears. To assess airborne exposures for 
+compliance purposes, personal samples taken in the breathing zone 
+are generally used. In a few specific environments, area samples 
+form the basis of an exposure standard (e.g., the OSHA standard 
+for exposure to raw cotton dust specifies use of the vertical elutria-
+tor or an equivalent method). Occupational environmental surveys 
+may employ area sampling to determine areas with higher or lower 
+toxicant concentrations. However, concentrations determined from 
+personal samples typically exceed area concentrations, depending 
+on the work practices and environmental controls. For example, 
+geometric mean concentrations of inhalable dust assessed from 159 
+personal samples in dairy barns were 1.78 mg/m3, compared with 
+0.74 mg/m3 for 252 area samples collected simultaneously in two 
+locations in the same barns (Kullman et al., 1998). Thus, in this 
+environment, area sampling alone would underestimate personal 
+exposures by a factor of 2.4.
+Repeated random sampling is theoretically the best approach 
+to developing unbiased measures of exposure. However, this is 
+rarely the approach that is taken. Variability in exposure, espe-
+cially variability over time, is often large; therefore, a considerable 
+number of repeated measurements are needed to obtain an accu-
+rate proxy of the true exposure. When the number of repeats is 
+insufficient, the slope of the exposure–response relationship will 
+be biased, usually leading to considerable underestimation of the 
+relationship (Heederik and Attfield, 2000). Studies have demon-
+strated that approaches assessing exposures to groups rather than 
+to individuals are more efficient in terms of measurement effort for 
+obtaining a desired level of accuracy (Vermeulen and Kromhout, 
+2005). In a group-based approach, workers are grouped by job 
+title, task performed, or through exposure modeling studies to 
+elucidate determinants of exposure, and the group mean is used 
+as the average exposure for each worker (Kromhout et al., 1996). 
+Further statistical modeling of the exposure data can reduce prob-
+lems of bias and large temporal and spatial variability (Preller et al., 
+1995; Tielemans et al., 1998). Whereas this approach is gaining 
+acceptance among occupational epidemiologists for evaluating 
+exposure–response data and assessing risks, it is not accepted for 
+compliance monitoring.
+Although one cannot assess dose directly through exposure 
+monitoring, it does have several distinct advantages over biomoni-
+toring. Exposure monitoring allows one to quantify workplace 
+exposure by route through selective air monitoring in the breathing 
+zone of the worker and dermal dosimetry using absorptive material 
+affixed to the workers’ skin or clothing. Biomonitoring generally 
+does not provide route-specific exposure data. Environmental moni-
+toring techniques are generally less expensive and less invasive than 
+techniques involving the collection and analysis of biological sam-
+ples such as blood or urine. Thus, a larger population of workers can 
+be studied for the same amount of money. New personal sampling 
+devices incorporate GPS, accelerometers, and smartphone technol-
+ogy to provide enhanced data on location and activity. Workers are 
+accustomed to wearing personal samplers for exposure assessment 
+and are generally quite willing to do so. However, they are often 
+unwilling to give a blood or urine sample, fearing that the sample 
+will be surreptitiously used for drug testing, DNA testing, or experi-
+mentation. Another benefit of air sampling in the workplace is that 
+spatial, temporal, and work practice associations can be established 
+and can suggest better interventions and engineering controls to 
+reduce exposures. Finally, analytic interferences and variabilities 
+are generally lower with environmental samples than with biologi-
+cal samples.
+A fully validated sampling and analysis method requires 
+­specification of the sampling methods; sample duration, handling, 
+and storage procedures; the analytic method and measurement 
+technique; the range, precision, accuracy, bias, and limits of detec-
+tion; quality assurance issues; and known interferences. It is also 
+­important to document intralaboratory and interlaboratory vari-
+ability. Once a standard method is established, it must be closely 
+­followed in every detail in order to assure consistency of results.
+
+1568
+APPLICATIONS TOXICOLOGY
+Unit VII
+The development of accurate and precise analytic methods 
+for environmental assessment is an ongoing effort. NIOSH pub-
+lishes the extensive NIOSH Manual of Analytical Methods (NIOSH 
+NMAM, 2017) and these are widely used. The American Society 
+for Testing Materials (ASTM) has also developed a rigorous system 
+for the establishment of methods. It generally requires 5 or more 
+years to establish a new ASTM method for exposure assessment. 
+The International Organization for Standardization (ISO) is a global 
+federation of national standards bodies with 162 member countries. 
+The subcommittee on workplace atmospheres is administered by 
+the American National Standards Institute (ANSI). ISO has com-
+pleted harmonization on a number of air sampling methods—for 
+example, the determination of the number concentration of air-
+borne inorganic fibers by phase contrast optical microscopy. The 
+American Industrial Hygiene Association (AIHA) and the ACGIH 
+have published compilations with descriptions of analytic devices 
+and methodology (Cohen and McCammon, 2001; Anna, 2010). 
+Methods have also been developed for bioaerosol exposure assess-
+ment and these have been reviewed (Thorne and Heederik, 1999a; 
+Heederik et al., 2003; Hess-Kosa, 2011).
+Biological Monitoring for Exposure 
+Assessment
+Biomonitoring consists of the measurement of toxicants, their 
+metabolites, or molecular signatures of effect in specimens from 
+humans or animals, including urine, blood, feces, exhaled breath, 
+hair, finger or toenails, bronchial lavage, breast milk, and adipose 
+tissue. These may serve as biomarkers of exposure, biological 
+effect, or susceptibility. New technologies are emerging that will 
+allow measurement and monitoring of chemicals in the body and 
+transmission of the data from indwelling biosensors. Biomonitoring 
+data provide a measurement of exposure based upon internal-
+ized dose and, thus, account for all exposures by all routes for the 
+assessed analyte.
+Depending on the chemical and the analyzed biological mate-
+rial, the term internalized dose may have different meanings. The 
+measured biomarker may reflect the amount of chemical absorbed 
+shortly before sample collection, as with the concentration of a sol-
+vent in exhaled air or in a blood sample obtained during the work 
+shift. It may reflect exposure during the preceding day, as with 
+the measurement of a metabolite in blood or urine collected after 
+the end of exposure. For toxicants with a long biological half-life, 
+the measured parameter may reflect exposure accumulated over a 
+period of weeks or months as with arsenic in toenails. Internal dose 
+may refer to the amount of chemical stored in one or in several body 
+compartments or in the whole body (the body burden).
+When biological measurements are available to assess the 
+internal dose, they offer important advantages over monitoring the 
+air of the workplace or measuring deposition of chemicals onto der-
+mal patches. The greatest advantage is that the biological measure 
+of exposure is more directly related to the adverse health effects 
+than environmental measurements because it reflects the amount of 
+toxicant absorbed. Therefore, it may offer a better estimate of the 
+risk than can be determined from ambient monitoring. Biological 
+monitoring accounts for uptake by all exposure routes. Many indus-
+trial chemicals can enter the organism by absorption through the 
+skin or the gastrointestinal tract as well as the lung. For example, 
+some solvents (e.g., dimethylformamide) and many pesticide for-
+mulations exhibit substantial exposure via the dermal route. In these 
+situations, exposures determined through monitoring airborne con-
+centrations alone underestimate true exposure. Monitoring of an 
+early biomarker of effect is useful when the subjects are exposed 
+to a complex mixture and the agents responsible for the effect are 
+unknown or several agents are working in synergy.
+Several factors can influence uptake. Personal hygiene habits 
+vary from one person to another, and there is some degree of indi-
+vidual variation in the absorption rate of a chemical through the 
+lungs, skin, or gastrointestinal tract. Use of size-selective air sam-
+pling to determine the inhalable or respirable fraction can strengthen 
+the exposure estimate. However, biological factors such as ventila-
+tory parameters can affect the strength of such a correlation since 
+increased workload can markedly increase the respiratory uptake of 
+an airborne toxicant. Because of its ability to encompass and evalu-
+ate the overall exposure (whatever the route of entry), biological 
+monitoring can also be used to test the overall efficacy of personal 
+protective equipment such as respirators, gloves, barrier creams, or 
+aprons. Another consideration with biological monitoring is the fact 
+that nonoccupational exposures (through hobbies, residential expo-
+sures, dietary habits, smoking, second jobs) may also be expressed 
+in the biological sample. The organism integrates the total external 
+(environmental and occupational) exposure into one internal load. 
+Whereas this is beneficial for worker health and safety, it may be 
+confounding in epidemiologic studies or compliance monitoring. 
+Thus, while biomonitoring is an important exposure measurement 
+tool for health risk assessment, it generally does not allow one to 
+relate sources and levels of exposure to adverse health effects unless 
+the exposures are unique to the workplace (Albertini et al., 2006).
+The value of biological monitoring is heightened when the 
+relationships between external exposure, internal dose, and adverse 
+effects are established. Normally, biological monitoring of expo-
+sure cannot be used for assessing exposure to substances that 
+exhibit their toxic effects at the sites of first contact and are poorly 
+absorbed. Examples include dermally corrosive compounds and pri-
+mary lung irritants. In this situation, the only useful relationship is 
+that between external exposure and the intensity of the local effects.
+Relationships between air monitoring and biological monitor-
+ing may be modified by genetic or external factors that influence the 
+fate of an occupational toxicant in vivo. Metabolic interactions can 
+occur when workers are exposed simultaneously to chemicals that 
+are biotransformed through identical pathways. Exposure to chemi-
+cals that modify the activity of the biotransformation enzymes (e.g., 
+microsomal enzyme inducers or inhibitors) may also influence the 
+fate of another compound. Furthermore, metabolic interferences 
+may occur between occupational toxicants and alcohol, tobacco, 
+food additives, prescription drugs, natural product remedies, or 
+recreational drugs. Changes in any of several biological variables 
+(weight, body mass index, pregnancy, diseases, immune status, etc.) 
+may modify the metabolism of an occupational chemical. These 
+factors have to be taken into consideration when the results of 
+biomonitoring are interpreted. Whatever the parameter measured, 
+whether it is the substance itself, its metabolite, or an early bio-
+marker of effect, the test must be sufficiently sensitive and specific 
+to provide meaningful data in the range of workplace exposures.
+Some chemicals have a long biological half-life in various 
+body compartments (e.g., lipophilic persistent organic pollutants) 
+and the time of sampling may not be critical. For other chemicals, 
+the time of sampling is critical because, following exposure, the 
+compounds or their metabolites may be rapidly eliminated from 
+the body. In these cases, the biological sample is usually collected 
+during exposure, at the end of the exposure period, or sometimes 
+just before the next work shift. When biological monitoring consists 
+of the sampling and analysis of urine, it is usually performed on 
+“spot” urine specimens or on the first morning void. It is a standard 
+practice for most organic compounds to adjust the results for urine 
+output by expressing the results per gram of creatinine in the urine.
+
+Occupational Toxicology
+Chapter 34
+1569
+Analyses performed on very dilute urine samples are not reliable. 
+The WHO has specified acceptable limits for urine specimens of 
+between 0.3 and 3.0 g/L creatinine or 1.010 to 1.030 specific gravity 
+(ACGIH, 2016). When samples exhibit large interindividual vari-
+ability or high “background” levels, the interpretation of a single 
+measurement may be difficult. In such cases, it may be useful to 
+analyze biological material collected before and after the exposure 
+period and gauge exposure based upon the cross-shift change.
+The majority of BEIs listed by the ACGIH refer to analysis of 
+the parent compound or its phase I metabolite. Analytical advances 
+over the past decade have yielded methods for detecting reactive 
+intermediates of metabolism and macromolecular adducts that 
+may induce mutations or cell cycle disruption. These methods are 
+important for comparing human and animal toxicity data for risk 
+assessment and may help to explain differential responses in animal 
+models and susceptibility in human populations. These methods 
+may also be useful for occupational health surveillance programs.
+Environmental monitoring plays an important role in the 
+evaluation and prevention of excessive exposure to toxicants in 
+the workplace. However, the prevention of acute toxic effects on 
+the respiratory tract, skin, or eye mucosa can only be achieved by 
+keeping the concentration of the irritant substance below a toxic 
+level or by eliminating the exposure. Local acute effects of chemi-
+cals do not lend themselves to a biological surveillance program. 
+Likewise, biological monitoring is usually not indicated for detect-
+ing peak exposure to dangerous chemicals such as arsine (AsH3), 
+carbon monoxide, or prussic acid (HCN). Furthermore, identifi-
+cation of emission sources and the evaluation of the efficiency of 
+engineering control measures are usually best performed by ambi-
+ent air ­analysis. Table 34-8 lists the approaches most useful for 
+controlling inhalation exposures in the workplace. These include 
+process changes, engineering controls, and use of personal protec-
+tive equipment. It should be emphasized that process changes and 
+application of ­engineering controls are preferable to reliance on 
+personal protective equipment.
+In summary, environmental and biological monitoring should 
+not be regarded as opposites but as complementary elements of 
+an occupational health and safety program. They should be inte-
+grated as much as possible to ensure low levels of contaminants and 
+­optimal health for workers.
+CONCLUSION
+The working environment will always have the potential to over-
+expose workers to toxicants. Recognition of these risks should not 
+wait until epidemiologic studies have uncovered hazardous levels. 
+A combined experimental, clinical, and epidemiologic approach is 
+most effective for evaluating and managing the potential risks. One 
+can then promulgate scientifically based occupational health stan-
+dards, apply effective workplace controls to ensure adherence to 
+those standards, and institute worker health surveillance programs 
+to identify unexpected effects in susceptible individuals.
+ACKNOWLEDGMENTS
+The editor and author recognize the contributions of previous 
+authors of this chapter: Henry F. Smyth, Jr. (1st edition) and Robert 
+R. Lauwerys (2nd to 5th editions).
+REFERENCES
+Abnet CC, Tanguay RL, Heideman W, Peterson RE. Transactivation activ-
+ity of human, zebrafish, and rainbow trout aryl hydrocarbon receptors 
+expressed in COS-7 cells: greater insight into species differences in toxic 
+potency of polychlorinated dibenzo-p-dioxin, dibenzofuran, and biphe-
+nyl congeners. Toxicol Appl Pharmacol. 1999;159(1):41–51.
+ACGIH. 2016 TLVs® and BEIs®: Threshold Limit Values for Chemical 
+Substances and Physical Agents and Biological Exposure Indices. Cincinnati, 
+OH: American Conference of Governmental Industrial Hygienists; 2016.
+ACGIH. TLV™/BEI™ position statement. 2017. Available at: www.acgih 
+.org/tlv-bei-guidelines/policies-procediures-presentations/tlv-bei-­
+position-statement. Accessed October 22, 2017.
+Adamcˇaková-Dodd A, Monick MM, Powers LS, Gibson-Corley KN, 
+Thorne PS. Effects of perinatal inhalation exposure to copper nanopar-
+ticles on murine dams and offspring. Part Fibre Toxicol. 2015;12:30.
+Adamcˇaková-Dodd A, Stebounova LV, Kim JS, et al. Toxicity assessment of 
+zinc oxide nanoparticles using sub-acute and sub-chronic murine inhala-
+tion models. Part Fibre Toxicol. 2014;11:15.
+Adamcˇaková-Dodd A, Stebounova LV, O’Shaughnessy PT, et al. Murine 
+pulmonary responses after sub-acute exposure to aluminum oxide-based 
+nanowhiskers. Part Fibre Toxicol. 2012;9:22.
+Albertini R, Bird M, Doerrer N, et al. The use of biomonitoring data in 
+exposure and human health risk assessments. Environ Health Perspect. 
+2006;114:1755–1762.
+Aldridge WN, Miles JM, Mount DL, Verschoyle RD: The toxicological 
+properties of impurities in malathion. Arch Toxicol. 1979;42:95–106.
+Allen N, Mendell JR, Billmaier DJ, et al. Toxic polyneuropathy due to 
+methyl N-butylketone. Arch Neurol. 1975;32:209–218.
+Anna DH, ed. The Occupational Environment: Its Evaluation, Control 
+and Management. 3rd ed. Vol 1 & 2. Fairfax, VA: American Industrial 
+Hygiene Association; 2010.
+Asgharian B, Price O, Kabilan S, et al. Development of a Zealand white 
+rabbit deposition model to study inhalation anthrax. Inhal Toxicol. 2016; 
+28(2):80–88.
+Asgharian B, Price OT, Oldham M, et al. Computational modeling of 
+nanoscale and microscale particle deposition, retention and dosimetry in 
+the mouse respiratory tract. Inhal Toxicol. 2014;26(14):829–842.
+ATSDR (Agency for Toxic Substances and Disease Registry). Toxicological 
+Profile for Vinyl Chloride. Atlanta, GA: Department of Health and Human 
+Services; 2006. Available at: http://www.atsdr.cdc.gov/ToxProfiles/TP 
+.asp?id=282&tid=51. Accessed October 20, 2011.
+ATSDR (Agency for Toxic Substances and Disease Registry). Toxicological 
+Profile for Arsenic. Atlanta, GA: Department of Health and Human Services; 
+2007. Available at: http://www.atsdr.cdc.gov/ToxProfiles/TP.asp?id=22& 
+tid=3. Accessed October 31, 2017.
+ATSDR (Agency for Toxic Substances and Disease Registry). Draft 
+Toxicological Profile for 1,3-Butadiene. Atlanta, GA: Department of Health 
+and Human Services; 2009. Available at: https://www.atsdr.cdc.gov/ 
+toxprofiles/tp.asp?id=459&tid=81. Accessed October 31, 2017.
+Balazy A, Toivola M, Adhikari A, et al. Do N95 respirators provide 95% 
+protection level against airborne viruses, and how adequate are surgical 
+masks? Am J Infection Control. 2006;34:51–57.
+Bason M, Lammintausta K, Maibach HI. Irritant dermatitis (irritation). In: 
+Marzulli FN, Maibach HI, eds. Dermatotoxicology. 4th ed. New York: 
+Hemisphere; 1991:223–252.
+Baur X. Occupational asthma due to isocyanates. Lung. 1996;174:23–30.
+Table 34-8  
+Control Approaches for Occupational Inhalation 
+Hazards
+Change the process to use or produce less hazardous 
+compounds
+Automate and enclose the process to isolate the compounds
+Incorporate administrative and work practice controls to reduce 
+duration or intensity of exposure
+Install or upgrade local exhaust systems and dilution exhaust
+Institute a comprehensive program for personal protective 
+equipment use where necessary
+
+1570
+APPLICATIONS TOXICOLOGY
+Unit VII
+Becklake MR, Malo JL, Chan-Yeung M. Epidemiological approaches in 
+occupational asthma. In: Bernstein IL, et al. eds. Asthma in the Workplace. 
+3rd ed. New York: Taylor & Francis Group; 2006:37–77.
+Bernstein DA, Biagini RE, Karnani R, et al. In vivo sensitization to purified 
+Hevea brasiliensis proteins in health care workers sensitized to natural 
+rubber latex. J Allergy Clin Immunol. 2003;111:610–616.
+Bernstein IL, Bernstein DI, Chan-Yeung M, Malo JL. Definition and clas-
+sification of asthma in the workplace. In: Malo JL, et al. eds. Asthma in 
+the Workplace. 4th ed. New York: Taylor & Francis Group; 2013:1–5.
+Bolt HM. Vinyl chloride: a classical industrial toxicant of new interest. Crit 
+Rev Toxicol. 2005;35:301–323.
+Boverhof DR, Burgoon LD, Tashiro C, et al. Comparative toxicogenomic 
+analysis of the hepatotoxic effects of TCDD in Sprague Dawley rats and 
+C57BL/6 mice. Toxicol Sci. 2006;94:398–416.
+Chan-Yeung M, Vedal S, Kus J, et al. Symptoms, pulmonary function and 
+bronchial hyperactivity in western red cedar workers compared with 
+those in office workers. Am Rev Respir Dis. 1984;130:1038–1041.
+Cogliano VJ, Baan R, Straif K, et al. Preventable exposures associated with 
+human cancers. J Natl Cancer Inst. 2011;103:1827–1839.
+Cohen BS, McCammon CS Jr. eds. Air Sampling Instruments for Evaluation 
+of Atmospheric Contaminants. 9th ed. Cincinnati, OH: American 
+Conference of Governmental Industrial Hygienists; 2001.
+Creech JL, Johnson HM. Angiosarcoma of the liver in the manufacture of 
+polyvinylchloride. J Occup Med. 1974;16:150–151.
+Cui X, Wakai T, Shirai Y, Hatakeyama K, Hirano S. Chronic oral exposure 
+to inorganic arsenate interferes with methylation status of p16INK4a 
+and RASSF1A and induces lung cancer in A/J mice. Toxicol Sci. 2006; 
+91(2):372–381.
+Cullinan P, Lowson D, Nieuwenhuijsen MJ, et al. Work related symptoms, 
+sensitisation, and estimated exposure in workers not previously exposed 
+to laboratory rats. Occup Environ Med. 1994;51:589–592.
+Desjardins A, Malo JL, L’Archevçque J, et al. Occupational IgE-mediated 
+sensitization and asthma due to clam and shrimp. J Allergy Clin Immunol. 
+1995;96:608–617.
+DiVincenzo GD, Hamilton ML, Kaplan CJ, Dedinas J. Metabolic fate and 
+disposition of 14C-labeled methyl n-butyl ketone in the rat. Toxicol Appl 
+Pharmacol. 1977;41:547–560.
+Donham KJ, Thorne PS. Agents in organic dusts: criteria for a causal 
+­relationship. Am J Ind Med. 1994;25:33–39.
+Doorn JA, Thompson CM, Christner RB, Richardson RJ. Stereoselective 
+inactivation of Torpedo californica acetylcholinesterase by isomalathion: 
+inhibitory reactions with (1R)- and (1S)-isomers proceed by different 
+mechanisms. Chem Res Toxicol. 2003;16:958–965.
+Douwes J, Thorne PS, Pearce N, Heederik D. Biological agents—recogni-
+tion. In: Perkins JL, ed. Modern Industrial Hygiene: Vol II. Biological 
+Aspects. Cincinnati, OH: American Conference of Governmental 
+Industrial Hygienists; 2003:219–292.
+Duchaine C, Meriaux A, Thorne PS, Cormier Y. Assessment of particulates 
+and bioaerosols in Eastern Canadian sawmills. Am Ind Hyg Assoc J. 
+2000;61:727–732.
+Eduard W, Sandven P, Levy F. Relationships between exposure to spores 
+from Rhizopus microsporus and Paecilomyces variotii and serum IgG anti-
+bodies in wood trimmers. Int Arch Allergy Immunol. 1992;97:274–282.
+Elliott L, Heederik D, Marshall S, Peden D, Loomis D. Incidence of allergy 
+and allergy symptoms among workers exposed to laboratory animals. 
+Occup Environ Med. 2005;62:766–771.
+EPA. 40 CFR Parts 141 and 142, National primary drinking water regula-
+tions; arsenic and clarifications to compliance and new source contami-
+nants monitoring; proposed rule. Fed Reg. 2000;65(121):38888–38983.
+European Commission. European Commission Directive 95/320/EC. 1995. 
+Available at: http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=C
+ELEX:31995D0320:EN:HTML. Accessed October 23, 2011.
+European Commission. European Commission Directive 98/24/EC. 1998. 
+Available at: http://osha.europa.eu/en/legislation/directives/exposure-to- 
+chemical-agents-and-chemical-safety/osh-directives/75. Accessed October 
+22, 2011.
+European Commission. EU Commission Directive 2006/15/EU. 2006. 
+Available at: http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=O
+J:L:2006:038:0036:0039:EN:PDF. Accessed October 22, 2017.
+European Commission. EU Commission Directive 2009/161/EU. 2009. 
+Available at: http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=O
+J:L:2009:338:0087:0089:EN:PDF. Accessed October 22, 2017.
+European Commission. Employment and Social Developments in Europe. 
+7th ed. 2017. Available at: http://ec.europa.eu/social/main.jsp?catId=73
+8&langId=en&pubId=8030&furtherPubs=yes. Accessed October 22, 
+2017.
+Fuortes LJ, Weih L, Pomrehn P, et al. Prospective epidemiologic evaluation 
+of laboratory animal allergy among university employees. Am J Ind Med. 
+1997;32:665–669.
+GAO/HEHS. Child Labor in Agriculture—Changes Needed to Better 
+Protect Health and Educational Opportunities. GAO/HEHS-98-193. 
+Washington, DC: U.S. Government Accountability Office; 1998:1–90.
+Glass WI, Power P, Burt R, et al. Work-related respiratory symptoms and 
+lung function in New Zealand mussel openers. Am J Ind Med. 1998; 
+34:163–168.
+Goggin M, Swenberg JA, Walker VE, et al. Molecular dosimetry of 
+1,2,3,4-diepoxybutaneinduced DNA—DNA cross-links in B6C3F1 
+mice and F344 rats exposed to 1,3-butadiene by inhalation. Cancer Res. 
+2009;69(6):2479–2486.
+Hard GC, Rodgers IS, Baetcke KP, et al. Hazard evaluation of chemicals 
+that cause accumulation of α2 u-globulin, hyaline droplet nephropathy, 
+and tubule neoplasia in the kidneys of male rats. Environ Health Perspect. 
+1993;99:313–349.
+Heederik D, Attfield M. Characterization of dust exposure for the study of 
+chronic occupational lung disease: a comparison of different exposure 
+assessment strategies. Am J Epidemiol. 2000;151(10):982–990.
+Heederik D, Thorne PS, Doekes G. Health-based occupational exposure 
+limits for high molecular weight sensitizers: how long is the road we 
+must travel? Ann Occup Hyg. 2002;46(5):439–446.
+Heederik D, Thorne PS, Douwes J. Biological agents: monitoring and 
+evaluation of bioaerosol exposure. In: Perkins JL, ed. Modern Industrial 
+Hygiene: Vol II. Biological Aspects. Cincinnati, OH: American Conference 
+of Governmental Industrial Hygienists; 2003:293–327.
+Hess-Kosa K. Indoor Air Quality: The Latest Sampling and Analytical 
+Methods. 2nd ed. Boca Ratan, FL: Taylor & Francis Group; 2011.
+Hollander A, Heederik D, Doekes G. Respiratory allergy to rats: exposure–
+response relationships in laboratory animal workers. Am J Respir Crit 
+Care Med. 1997;155:562–567.
+Hsieh TH, Yu CP, Oberdorster G. Deposition and clearance models of Ni 
+compounds in the mouse lung and comparisons with the rat models. 
+Aerosol Sci Technol. 1999;31:358–372.
+Hughes MF. Biomarkers of exposure: a case study with inorganic arsenic. 
+Environ Health Perspect. 2006;114:1790–1796.
+Hutchinson J. Arsenic cancer. Br Med J. 1887;2:1280–1281.
+IARC. Metals and Metallic Compounds. IARC Monographs on the Evaluation 
+of Carcinogenic Risks to Humans. Vol 23. Lyon, France: International 
+Agency for Research on Cancer; 1980.
+IARC. 
+IARC 
+Monograph 
+107: 
+Polychlorinated 
+Biphenyls 
+and 
+Polybrominated Biphenyls. Lyon, France; International Agency for 
+Research on Cancer; 2016. Available at: http://monographs.iarc.fr/ENG/
+Monographs/vol107/index.php. Accessed October 22, 2017.
+IARC. Monographs on the Evaluation of Carcinogenic Risks to Humans. 
+n.d. Available at: http://monographs.iarc.fr/ENG/Monographs/PDFs/
+index.php. Accessed October 22, 2017.
+ICCVAM. 
+2017. 
+Available 
+at: 
+https://ntp.niehs.nih.gov/pubhealth/ 
+evaluation/test-method-evaluations/protocols/index.html. Accessed October 
+29, 2017.
+ILO. Key indicators of the labour market 2014. 2014. Available at: http://
+www.ilo.org/global/industries-and-sectors/agriculture-plantations-other-
+rural-sectors/lang--en/index.htm. Accessed October 22, 2017.
+ILO. Global Estimates of Child Labour: Results and Trends, 2012–2016. 
+Geneva: International Labour Office (ILO); 2017.
+ILSI Risk Science Institute Workshop Participants. The relevance of the 
+rat lung response to particle overload for human health risk assessment: 
+a workshop consensus report. Inhal Toxicol. 2000;12:1–17.
+Japan Monthly Statistics. Ministry of Internal Affairs and Communications, 
+Statistics Bureau. August 2017. Available at: http://www.stat.go.jp/ 
+english/data/getujidb/index.htm#g. Accessed October 22, 2017.
+
+Occupational Toxicology
+Chapter 34
+1571
+Kim JS, Adamcakova-Dodd A, O’Shaughnessy PT, Grassian VH, Thorne 
+PS. Effects of copper nanoparticle exposure on host defense in a murine 
+pulmonary infection model. Part Fibre Toxicol. 2011;8(1):29.
+Koivisto P, Peltonen K. N7-guanine adducts of the epoxy metabolites of 
+1,3-butadiene in mice lung. Chem Biol Interact. 2001;135-136:363–372.
+Konduru NV, Molina RM, Swami A, et al. Protein corona: implications 
+for nanoparticle interactions with pulmonary cells. Part Fibre Toxicol. 
+2017;14(1):42.
+Kreiss K, Hubbs A, Kullman G. Correspondence: bronchiolitis in popcorn-
+factory workers. N Engl J Med. 2002;347:1981–1982.
+Kromhout H, Tielemans E, Preller L, Heederik D. Estimates of individual 
+dose from current measurements of exposure. Occup Hyg. 1996;3:23–39.
+Kullman GJ, Thorne PS, Waldron PF, et al. Organic dust exposures from 
+work in dairy barns. Am Ind Hyg Assoc J. 1998;59:403–413.
+Maibach HI, Feldmann RJ, Milby TH, Serat WF. Regional variation in 
+percutaneous penetration in man: pesticides. Arch Environ Health. 
+1971;23:208–211.
+McDonough JR. Possible neuropathy from methyl-n-butyl ketone. N Engl 
+J Med. 1974;290:695.
+Mendell JR, Saida K, Ganasia MF, et al. Toxic polyneuropathy produced by 
+methyl-n-butyl ketone. Science. 1974;185:787–789.
+Monson RR, Peters JM, Johnson MN. Proportional mortality among vinyl-
+chloride workers. Lancet. 1974;2(7877):397–398.
+National Academies of Sciences, Engineering, and Medicine. Controlled 
+Human Inhalation-Exposure Studies at EPA. Washington, DC: The 
+National Academies Press; 2017. doi:10.17226/24618.
+Newton AN, Davis M, Koehler K, et al. Atopy as a modifier of the rela-
+tionships between endotoxin exposure and symptoms among laboratory 
+animal workers. Ann Work Expo Health. 2017;61(8):1024–1028.
+NIOSH. Current Intelligence Bulletin 65: Occupational Exposure to Carbon 
+Nanotubes and Nanofibers; April 2013, DHHS (NIOSH) Publication 
+Number 2013-145.
+NIOSH. Work-Related Lung Disease Surveillance System (eWoRLD). 
+2015-866 U.S. Department of Health and Human Services, Centers for 
+Disease Control and Prevention, National Institute for Occupational 
+Safety and Health, Respiratory Health Division, Morgantown, WV. 2015. 
+Available at: https://wwwn.cdc.gov/eworld/Data/866. Accessed October 
+22, 2017.
+NIOSH. Work-Related Lung Disease Surveillance System (eWoRLD). 
+2017-915 U.S. Department of Health and Human Services, Centers for 
+Disease Control and Prevention, National Institute for Occupational 
+Safety and Health, Respiratory Health Division, Morgantown, WV. 
+2017a. Available at: https://wwwn.cdc.gov/eworld/Set/Work-Related-
+Respiratory-Diseases/88. Accessed October 22, 2017.
+NIOSH. Health Hazard Evaluations (HHEs). 2017b. Available at: https://
+www.cdc.gov/niosh/hhe. Accessed October 22, 2017.
+NIOSH. Coal Workers’ Health Surveillance Program. 2017c. Available 
+at: 
+https://www.cdc.gov/niosh/topics/cwhsp/default.html. 
+Accessed 
+November 4, 2017.
+NIOSH NMAM. NIOSH Manual of Analytical Methods. 5th ed. 2017. 
+Available at: https://www.cdc.gov/NIOSH/NMAM. Accessed October 
+31, 2017.
+NTP (National Toxicology Program). 14th Report on Carcinogens. Research 
+Triangle Park, NC: National Toxicology Program, U.S. Department of 
+Health and Human Services, 2016. Available at: https://ntp.niehs.nih.
+gov/pubhealth/roc/index-1.html. Accessed November 4, 2017.
+Oberdörster G. Toxicokinetics and effects of fibrous and nonfibrous par-
+ticles Regul. Toxicol Pharmacol. 2002;27:123–135.
+OSHA. Standard Interpretations: 10/06/1995—8-hour total weight 
+average (TWA) permissible exposure limit (PEL). 1995. Available at: 
+http://www.osha.gov/pls/oshaweb/owadisp.show_document?p_table= 
+INTERPRETATIONS&p_id=24470.
+Pacheco KA, McCammon C, Liu AH, et al. Airborne endotoxin predicts 
+symptoms in non-mouse-sensitized technicians and research scien-
+tists exposed to laboratory mice. Am J Respir Crit Care Med. 2003; 
+167:983–990.
+Pettibone JM, Adamcakova-Dodd A, Thorne PS, et al. Inflammatory 
+response of mice following inhalation exposure to iron and copper 
+nanoparticles. Nanotoxicology. 2008;2(4):189–204.
+Preller L, Kromhout H, Heederik D, Tielen MJM. Modeling long-term 
+average exposure in occupational exposure-response analysis. Scand J 
+Work Environ Health. 1995;21:504–512.
+Radauer C, Adhami F, Fürtler I, et al. Latex-allergic patients sensitized to 
+the major allergen hevein and hevein-like domains of class I chitinases 
+show no increased frequency of latex-associated plant food allergy. Mol 
+Immunol. 2011;48(4):600–609.
+Schenker MB, Christiani D, Cormier Y, et al. Respiratory health hazards in 
+agriculture. Am J Respir Crit Care Med. 1998;158(pt 2):S1–S76.
+Schlesinger RB. Comparative deposition of inhaled aerosols in experi-
+mental animals and humans: a review. J Toxicol Environ Health. 1985; 
+15:197–214.
+Schroeter JD, Asgharian B, Price OT, McClellan GE. Computational fluid 
+dynamics simulations of inhaled ano- and microparticle deposition in the 
+rhesus monkey nasal passages. Inhal Toxicol. 2013;25(12):691–701.
+Shen J, Liu J, Xie Y, Diwan BA, Waalkes MP. Fetal onset of aberrant gene 
+expression relevant to pulmonary carcinogenesis in lung adenocarci-
+noma development induced by in utero arsenic exposure. Toxicol Sci. 
+2007;95(2):313–320.
+Shen J, Wanibuchi H, Salem EI, et al. Liver tumorigenicity of trimethy-
+larsine oxide in male Fischer 344 rats: association with oxidative 
+DNA damage and enhanced cell proliferation. Carcinogenesis. 2003; 
+24(11):1827–1835.
+Siemiatycki J, Richardson L, Straif K, et al. Listing occupational carcino-
+gens. Environ Health Perspect. 2004;112(15):1447–1459.
+Spencer PS, Schaumburg HH. Experimental neuropathy produced by 
+2,5-hexanedione A major metabolite of the neurotoxic industrial sol-
+vent methyl-n-butyl ketone. J Neurol Neurosurg Psychiatry. 1975;38: 
+771–775.
+Spencer PS, Schaumburg HH, Raleigh RL, Terhaar CJ. Nervous system 
+degeneration produced by the industrial solvent methyl-n-butyl ketone. 
+Arch Neurol. 1975;32:219–222.
+Thorne PA, Adamcakova-Dodd A, Kelley KM, et al. Metalworking fluid 
+with mycobacteria and endotoxin induces hypersensitivity pneumonitis 
+in mice. Am J Respir Crit Care Med. 2006;173:759–768.
+Thorne PS, Duchaine C, BlaisLecours P. Airborne bacteria and endo-
+toxin. In: Yates MV, Nakatsu C, Miller R, Pollai S, eds. Manual of 
+Environmental Microbiology. 4th ed. Washington, DC: ASM Press; 2015: 
+3.2.6.1–3.2.6.20.
+Thorne PS, Heederik D. Assessment methods for bioaerosols. In: Salthammer 
+T, ed. Organic Indoor Air Pollutants—Occurrence, Measurement, 
+Evaluation. Weinheim, Germany: Wiley/VCH; 1999a:85–103.
+Thorne PS, Heederik D. Indoor bioaerosols—sources and characteristics. 
+In: Salthammer T, ed. Organic Indoor Air Pollutants—Occurrence, 
+Measurement, Evaluation. Weinheim, Germany: Wiley/VCH; 1999b: 
+275–288.
+Tielemans E, Kupper LL, Kromhout H, et al. Individual-based and group-
+based occupational exposure assessment: some equations to evaluate 
+­different strategies. Ann Occup Hyg. 1998;42(2):115–119.
+Trabaris M, Laskin JD, Weisel CP. Effects of temperature, surfactants and 
+skin location on the dermal penetration of haloacetonitriles and chloral 
+hydrate. J Expo Sci Environ Epidemiol. 2012;22(4):393-7.
+USDA. United States Department of Agriculture. Economic Research 
+Service: Farming and Farm Income. 2017. Available at: https://www.ers.
+usda.gov/data-products/ag-and-food-statistics-charting-the-essentials/
+farming-and-farm-income/. Accessed November 4, 2017.
+USDL. Bureau of Labor Statistics, U.S. Department of Labor. 2015. 
+Available at: https://www.bls.gov/iif/oshsum.htm. Accessed October 22, 
+2017.
+USDL. American Time Use Survey, Bureau of Labor Statistics, U.S. 
+Department of Labor. 2017a. Available at: http://www.bls.gov/bls/ 
+newsrels.htm#OEUS. Accessed October 18, 2017.
+USDL. Employment Projections: Employment by Major Industry Sector, 
+Bureau of Labor Statistics, U.S. Department of Labor. 2017b. Available 
+at: https://data.bls.gov/cgi-bin/print.pl/emp/ep_table_201.htm. Accessed 
+October 18, 2017.
+USDL. The Employment Situation—August 2017, Bureau of Labor 
+Statistics, U.S. Department of Labor. 2017c. Available at: http://www.bls. 
+gov/bls/newsrels.htm#OEUS. Accessed October 18, 2017.
+
+1572
+APPLICATIONS TOXICOLOGY
+Unit VII
+U.S. Federal Register. June 12, 1992;57(114):26539–26590.
+Vance ME, Kuiken T, Vejerano EP, et al. Nanotechnology in the real world: 
+redeveloping the nanomaterial consumer products inventory. Beilstein J 
+Nanotechnol. 2015;6:1769–1780.
+Venables KM, Dally MB, Nunn AJ, et al. Smoking and occupational allergy 
+in workers in a platinum refinery. Br Med J. 1989;299:939–942.
+Venables KM, Topping MD, Howe W, et al. Interaction of smoking and 
+atopy in producing specific IgE antibody against a hapten protein conju-
+gate. Br Med J. 1985;290:201–204.
+Vermeulen R, Kromhout H. Historical limitations of determinant based 
+exposure groupings in the rubber manufacturing industry. Occup Environ 
+Med. 2005;62:793–799.
+Viola PL, Bigotti A, Caputo A. Oncogenic response of rat skin, lungs, and 
+bones to vinyl chloride. Cancer Res. 1971;31:516–522.
+Weiss LPC, Lewis R, Rossmoore H, et al. Respiratory illness in workers 
+exposed to metal working fluid contaminated with nontuberculous myco-
+bacteria—Ohio, 2001. Morb Mortal Wkly Rev. 2002;51:349–352.
+Wernfors M, Nielsen J, Schültz A, Skerfving S. Phthalic anhydride-induced 
+occupational asthma. Int Arch Allergy Appl Immunol. 1986;79:77–82.
+WHO. Arsenic and Arsenic Compounds. 2nd ed. Environmental Health 
+Criteria 224. Geneva: World Health Organization; 2001. Available at: 
+http://whqlibdoc/ehc/WHO_EHC_224.pdf. Accessed October 23, 2011.
+World Bank. Labor force, total. 2017. Available at: https://data.worldbank.
+org/indicator/SL.TLF.TOTL.IN?view=chart. Accessed November 3, 2017.
+Yu RC, Hattis D, Landaw EM, Froines JR. Toxicokinetic interaction of 
+2,5-hexanedione and methyl ethyl ketone. Arch Toxicol. 2002;75(11-12): 
+643–652.

@@ -1,0 +1,4566 @@
+# 7 Toxicokinetics
+# Casarett & Doull's Toxicology, 9th Edition
+# Pages: 420-449
+# Unit: Unit II Disposition of Toxicants
+
+7
+chapter
+Toxicokinetics
+Kannan Krishnan
+INTRODUCTION
+Toxicokinetics refers to the quantitative study of absorption, dis-
+tribution, metabolism, and excretion (ADME) of chemicals in 
+biota through measurement and modeling of their concentrations 
+or amounts in biological matrices (e.g., blood, plasma, excreta, 
+exhaled air, tissues) as a function of time. Experimental studies of 
+toxicokinetics facilitate the characterization of the temporal profile 
+of the concentration of chemicals and their metabolites in the target 
+tissue or other biological matrices, reflective of the net effect of 
+the rate and extent of absorption through one or more exposure 
+routes, distribution to tissues and organs via systemic circulation 
+as well as disposition by metabolism and excretion (Fig. 7-1). The 
+experimental and quantitative approaches used today for character-
+izing toxicokinetics of xenobiotics were derived from such studies 
+extensively conducted with drugs over the past decades (tradi-
+tionally known as pharmacokinetics) (Gibaldi and Perrier, 1975, 
+1982; O’Flaherty, 1981; WHO, 1986; Rescigno, 1997; Tozer and 
+Rowland, 2006). Toxicokinetic data and analyses constitute an 
+essential part of systematic approaches to safety/risk evaluation of 
+xenobiotics and other substances including therapeutic drugs.
+A fundamental goal of toxicokinetics is to facilitate the deter-
+mination of dose delivered to the organism in view of understanding 
+systemic exposure to the toxicant. For a scientifically sound interpre-
+tation of toxicology studies and characterization of dose–response 
+relationships, it is preferable to relate adverse responses to the dose 
+delivered to the target organ (or to systemic circulation) in the form of 
+putative toxic moiety. In fact, the relationship between administered 
+dose and adverse responses is better understood when the toxico-
+kinetic data or models are used to translate the administered dose 
+in terms of a relevant measure of internal dose (i.e., dose metrics) 
+(U.S. EPA, 2006, 2014). Consistent with the current understanding 
+of the mode of action of a particular chemical, the dose metrics reflect 
+the intensity and level of a toxicologically active form of the chemi-
+cal in the target or surrogate compartment during a specific period 
+A
+D
+M
+T
+E
+[C]
+Figure 7-1.  Illustration of the key processes determining the time course 
+of the concentration ([C] vs. T) of a toxic chemical in the target site (A: 
+absorption from the dosing solution or the exposure medium; D: distribu-
+tion in the blood stream and tissues; M: metabolism by hepatic and extra-
+hepatic tissues; E: excretion).
+Introduction
+Toxicokinetic Data
+Toxicokinetic Concepts
+Absorption and Bioavailability
+Volume of Distribution
+Clearance
+Elimination Half-life
+Classic Toxicokinetic Models
+Model Structure
+Mathematical Representation
+Data Analysis and Parameter 
+Estimation
+Physiologic Toxicokinetic 
+Models
+Model Structure
+Mathematical Representation
+Computing Tissue  
+Concentrations
+Computing Blood Concentrations
+Parameters: Significance and 
+Estimation
+Physiological Parameters
+Physicochemical Parameters
+Rate Constants and  
+Biochemical Parameters
+Model Simulation
+Model Verification and Evaluation
+Toxicokinetic Topics and 
+Applications
+Nonlinear Kinetics
+Single Versus Repeated Dose 
+Kinetics
+Metabolite Kinetics
+Cross-Route Dose Extrapolation
+Interspecies Dose Extrapolation
+Interindividual Kinetic Variability
+Kinetic Interactions During Mixed 
+Exposures
+Interpretation of Human 
+Biomonitoring Data
+Forward Dosimetry
+Reverse Dosimetry
+Conclusions
+Acknowledgements
+References
+
+402
+Disposition of toxicants
+unit II
+(Table 7-1). In this regard, the maximal blood concentration (Cmax), 
+the area under the blood concentration versus time curve (AUC) and 
+the amount metabolized are the common dose metrics used in inter-
+preting toxicity data. Fig. 7-2A presents a time course of the blood 
+concentration of a chemical following its administration via the oral 
+route. The Cmax and AUC can be obtained following such time-course 
+measurements of chemical concentrations in plasma, blood, or tis-
+sues in toxicokinetic studies. However, due to ethical and feasibility 
+considerations, toxicokinetic data cannot always be obtained for all 
+biological matrices, dose levels, time frames, exposure routes, and 
+scenarios of interest in test animals and humans. Therefore, a prag-
+matic and scientifically sound approach would be to use the avail-
+able toxicokinetic data to conduct a non-compartmental analysis or 
+to develop mathematical models that may be empirical or mecha-
+nistic in nature. The models in toxicokinetics range from a simple, 
+one-compartment model to complex multicompartment models, with 
+some of them explicitly incorporating mechanistic determinants of 
+chemical uptake, distribution, and disposition (O’Flaherty, 1981; 
+Gibaldi and Perrier, 1982; Tozer and Rowland, 2006).
+This chapter begins with an introduction to toxicokinetic data 
+and concepts, followed by the fundamentals of classic and physio-
+logic toxicokinetic models, as well as their applications in toxicology, 
+risk assessment, and biomonitoring.
+TOXICOKINETIC DATA
+The interest in toxicokinetics arises from the need to interpret toxic-
+ity and biomonitoring studies on the basis of how much of a chemi-
+cal was absorbed, biotransformed, and distributed to the target site 
+or excreted out of the body at various time periods. The use of data 
+on the fraction of the dose absorbed represents one level of refine-
+ment in relating to the onset and progression of adverse responses 
+in a toxicology study. A more refined strategy would be to examine 
+the internal dose of relevance to the mode of action of the chemical 
+(e.g., maximal, average, or integrated concentration of the unbound 
+chemical or its toxic metabolite in blood or tissue during a specific 
+timeframe). In this regard, the whole blood and plasma are conve-
+nient sampling matrices that also reflect the net impact of ADME 
+processes in the organism. Furthermore, these biological matrices, 
+in many cases, can effectively reflect the extent of target tissue 
+exposure as the cellular matrix equilibrates with the free chemical 
+in the extracellular fluid. The Cmax and AUC are the two dose met-
+rics frequently obtained from quantification of chemical concentra-
+tions in whole blood or plasma samples in toxicokinetic studies.
+Fig. 7-2A presents the blood kinetic data collected in a group 
+of animals as part of the toxicological evaluation of a xenobiotic 
+following a single oral dose of 100 mg/kg body weight. The toxi-
+cokinetic curve indicates an initial phase of increasing concentra-
+tion determined by the rate of absorption, then a peak or plateau 
+during which absorption rate equals elimination rate, followed by 
+a phase dominated essentially by elimination. In this hypothetical 
+example, the mean blood concentration of the parent chemical in 
+the treatment group corresponded to 0, 1.32, 2.74, 3.37, 3.55, 2.89, 
+1.67, and 0.37 mg/L at pre-exposure, or at 2, 4, 6, 8, 10, 12, and 
+24 hours post-exposure, respectively. The Cmax,blood is 3.55 mg/L for 
+this treatment group. Regarding AUCblood, a common method of cal-
+culation involves summing the areas of trapezoids constituting the 
+time-course curve (Gibaldi and Perrier, 1982; WHO, 1986). The 
+trapezoidal method involves (i) averaging the blood concentrations 
+found at two consecutive sampling times and (ii) multiplying it 
+with the time interval between the two sampling periods (Figs. 7-2B 
+and 7-2C). The lower panel in Fig. 7-2C illustrates the calcula-
+tion of AUC for one trapezoid (4.56 (mg/L)·h), using the mean 
+blood concentrations of 2.89 and 1.67 mg/L obtained at 10 and 12 
+hours post-dosing. For this particular dataset, AUC0–24h (= 41.65 
+(mg/L)·h) corresponds to the sum of areas of the seven trapezoids, 
+that is, 1.32, 4.06, 6.11, 6.92, 6.44, 4.56, and 12.24 (mg/L)·h. For 
+determining the AUC until complete elimination of the substance 
+(i.e., 24 hours to infinity), the area of the last trapezoid is addition-
+ally computed by dividing the last measured blood concentration by 
+the rate of elimination (AUClast/Kel where Kel = first-order elimina-
+tion rate constant, h−1). The trapezoidal rule can also be used to cal-
+culate the area under the first moment curve (i.e., [concentration × 
+time] vs. [time]). In turn, the ratio of the area under the first moment 
+curve (AUMC) to the AUC is indicative of the mean residence time 
+(MRT), that is, the average time spent by drug or chemical mol-
+ecules in the body (Rowland and Tozer, 2011).
+The timing of sample collection and the time intervals between 
+samples in toxicokinetic studies should be appropriate to enable 
+reliable calculation of the dose metrics of interest. The time-course 
+data collected should (i) capture the critical kinetic phases in the 
+exposed animals, (ii) allow the estimation of fundamental toxicoki-
+netic parameters, and (iii) permit, to the extent possible, the charac-
+terization of Cmax and AUC. In practice, at least two time points are 
+chosen for sampling in the early phase to characterize absorption 
+and distribution phases, and at least three time points are chosen for 
+sampling during the terminal elimination phase, with the collected 
+samples representing change in concentration by at least a factor of 
+two or preferably by an order of magnitude. Chemical-specific toxi-
+cokinetic properties, limit of detection of the analytical method along 
+with statistical considerations can facilitate the determination of the 
+number of samples, sampling time intervals, and volume of biologi-
+cal samples to be collected. The number and volume of samples 
+drawn should be such that they do not compromise the normal physi-
+ological status of the animal (e.g., not drawing more than 10% of 
+the blood volume during the AUC sampling interval (Cayen, 1995).
+The accuracy of calculated dose metrics depends upon the 
+number of data points collected in a toxicokinetic study whereas 
+their magnitude depends upon the dose administered, exposure 
+route, scenario (single or multiple doses), as well as the rates and 
+extent of ADME influenced by factors such as age and pathophysi-
+ological state of the test subject or animal. When all required time-
+course data are not available or could not be collected in an animal 
+or a human study to facilitate confident calculation of AUC or 
+another metric of internal dose, the limited available data are subject 
+to analysis or modeling to derive useful toxicokinetic parameters to 
+gain a better characterization of the time course of the chemical in 
+the biota. The choice of analysis or modeling method depends upon 
+the underlying question(s) of the toxicological evaluation, the rich-
+ness of the available data sets (toxicology, mode of action, and toxi-
+cokinetics), as well as the precision and predictive ability required 
+for the end-use. These approaches, enabling the understanding of 
+the net impact of ADME processes on the time-course behavior of 
+Table 7-1  
+Considerations for Selecting a Dose Metric of 
+Relevance to the Mode of Action of a Chemical
+ASPECT
+EXAMPLE
+Intensity
+Peak, average, or integral
+Level
+Concentration, amount, or rate of production
+Moiety
+Parent chemical, metabolites, or adducts
+Time window
+Instantaneous, daily, lifetime, or specific lifestage
+Matrix
+Blood, plasma, or target tissue (e.g., brain)
+
+Toxicokinetics
+Chapter 7
+403
+xenobiotics, take into account the fundamental toxicokinetic con-
+cepts described below.
+TOXICOKINETIC CONCEPTS
+Absorption and Bioavailability
+The rate and extent of absorption, or the entry of a chemical into the 
+systemic circulation, depends upon the dose, exposure route, as well 
+as the volume and type of exposure matrix or dosing vehicle. Whereas 
+human exposure to environmental chemicals occurs through the der-
+mal, inhalation, and oral routes, laboratory animal experiments might 
+additionally involve administrations by the intravenous (IV), intra-
+peritoneal (IP), or intramuscular (IM) routes (Turner et al., 2011). The 
+rate and efficiency with which a given chemical crosses the biological 
+membrane barrier determine how quickly and how much of it appears 
+in the systemic circulation. Whereas absorption might be incomplete 
+when exposure occurs via extravascular routes, the intravenous dos-
+ing assures full (100%) delivery of the dose into the systemic cir-
+culation, and can therefore be used effectively as a benchmark of 
+absorption by non-IV routes. The extent of absorption of a toxicant 
+can be experimentally determined by comparing the time course of 
+plasma toxicant concentration after IV and extravascular dosing. The 
+AUC associated with the extravascular dose in reference to the AUC 
+for the intravenous route is called bioavailability (F). In single-dose 
+toxicokinetic studies, F is determined by using different IV and non-
+IV doses according to the following equation, provided the toxicant 
+does not display dose-dependent or saturable kinetics:
+	
+F = (
+/
+)
+(
+/
+)
+,
+AUC
+Dose
+AUC
+Dose
+non-IV
+non-IV
+IV
+IV
+
+(7-1)
+where AUCnon-IV, AUCIV, Dosenon-IV, and DoseIV are the respective 
+areas under the blood concentration versus time curves and doses 
+for non-IV and IV administrations. Conceptually, the F value for a 
+non-IV route (e.g., oral) would range between 0 and 1, with the value 
+closer to 1 indicating better absorption and systemic availability of a 
+chemical by that particular route of exposure. When F < 1, it indi-
+cates that less than 100% of the administered dose is able to reach 
+the systemic circulation. For example, the systemic availability of an 
+orally administered toxicant is governed by its absorption at the gas-
+trointestinal barrier, metabolism within the intestinal mucosa, as well 
+as metabolism and biliary excretion during its first passage through 
+the liver. The chemical may be absorbed to a limited extent because 
+of low aqueous solubility preventing its effective dissolution in the 
+gastrointestinal fluid or low permeability across the brush-border 
+membrane of the intestinal mucosa. Extensive degradation by meta-
+bolic enzymes residing at the intestinal mucosa and the liver may also 
+minimize entry of the chemical in its intact form into the systemic 
+circulation. Metabolism and excretion of the toxicant at the intestinal 
+mucosa and the liver prior to its entry into the systemic circulation is 
+called presystemic extraction or first-pass effect. The following equa-
+tion accounts for the action of absorption and sequential first-pass 
+extraction at the intestinal mucosa and the liver as determinants of the 
+bioavailability (F) of a toxicant taken orally:
+	
+F
+f
+E
+E
+=
+⋅
+−
+⋅
+−
+g
+m
+h
+(
+) (
+),
+1
+1
+
+(7-2)
+where fg is the fraction of the applied dose that is released and 
+absorbed across the mucosal barrier along the entire length of the 
+gut, Em is the extent of loss due to metabolism within the gastro-
+intestinal mucosa, and Eh is the loss due to metabolism or biliary 
+excretion during first-pass through the liver.
+While the extent of absorption is important for calculating the 
+total amount of the administrated dose that actually crossed the bio-
+logically barrier(s) to reach systemic circulation and tissues, the rate 
+of absorption is critical to understand the time course of the plasma, 
+blood, or tissue concentration of a chemical following dosing. For 
+the oral route, in simple cases, it can be computed as the first-order 
+absorption rate constant (Ka, h−1) times the amount available for 
+5
+4
+3
+2
+1
+Blood concentration (mg/L)
+0
+0
+4
+8
+12
+Time (h)
+C1
+C2
+A
+C
+t2
+t1
+16
+20
+24
+5
+4
+3
+2
+1
+Blood concentration (mg/L)
+0
+0
+4
+8
+12
+Time (h)
+B
+16
+20
+24
+AUC =
+=
+C1 + C2
+2.89 + 1.67
+2
+2
+= 4.56 (mg/L).h
+× (12 – 10)
+× (t2 – t1)
+Figure 7-2.  Illustrations of (A) the measured blood concentration of a xenobiotic following a single oral dose, (B) the construction of trapezoids to calculate 
+the area under the curve (AUC), and (C) the computation of the area under a single trapezoid corresponding to the blood concentrations (2.89 and 1.67 mg/L) 
+at 10 and 12 hours post-dosing.
+
+404
+Disposition of toxicants
+unit II
+absorption (mg). For illustrative purpose, let’s assume that a xeno-
+biotic possesses a Ka value of 0.1 h−1. It would imply that the same 
+fraction of the amount in gut is absorbed per unit time, regardless 
+of the administered dose. In this particular case, 9.5% of the dose 
+is absorbed after 1 hour, even though the rate constant is 0.1 h−1 (or 
+10 percent per hour), because the amount remaining in the gut con-
+tinuously decreases with time. If the amount absorbed per unit time 
+is constant (e.g., 10 mg/h) regardless of the magnitude of the dose 
+administered (1, 10, or 100 g), then it is said to follow zero-order 
+process. Dietary exposure to chemicals is frequently described 
+as a zero-order (or constant) input process, because it results in a 
+fairly constant input dose to the exposed animals. The zero-order 
+description is also used to reflect the capacity-limitation of a system 
+(e.g., transport system), that is, to represent a system working at its 
+maximal capacity but not functioning proportionally after a certain 
+dose. The concepts of proportionality, capacity-limitation, and satu-
+ration are applicable to all phases of toxicokinetics and are critical 
+in interpreting toxicity data.
+The impact of the rate of absorption on the resulting plasma 
+concentration profile of a chemical is illustrated in Fig. 7-3 using 
+three different values of Ka. As shown in Fig. 7-3, slowing the absorp-
+tion rate of a toxicant leads to a decrease in the Cmax and a delay in 
+time to reach Cmax (Tp) while maintaining the same extent of absorp-
+tion or bioavailability (compare case 2 to case 1). The converse is 
+true, that is, accelerating rate of absorption increases Cmax and short-
+ens Tp. The dependence of Tp and Cmax on absorption rate has obvi-
+ous implication in the speed of onset and maximum toxic effects 
+following exposure to a chemical. Case 3 in Fig. 7-3 illustrates the 
+peculiar situation when the absorption rate is so much slower than 
+the elimination rate. In this case, the terminal rate of decline in 
+plasma concentration reflects the absorption rate constant, instead 
+of the elimination rate constant; that is, the washout of toxicant is 
+rate-limited by slow absorption until the applied dose is completely 
+absorbed or removed, beyond which time the toxicant remaining in 
+the body will be cleared according to the elimination rate constant. 
+This means that continual absorption of a chemical can affect the 
+persistence of the toxic effect following an acute exposure, and that 
+it is important to institute decontamination procedure quickly after 
+overdose or accidental exposure to a toxicant. This is especially a 
+consideration in occupational exposure via dermal absorption fol-
+lowing skin contact with permeable industrial chemicals.
+Volume of Distribution
+The volume of distribution, Vd, corresponds to the apparent vol-
+ume of a biological fluid in which a xenobiotic is diluted, and is 
+expressed in units of volume (mL or L of blood, plasma, or plasma 
+water). Vd would be approximately equal to the volume of blood 
+if the chemical resided solely in blood and distributed uniformly 
+among the blood components (plasma, erythrocytes). Hydrophilic 
+substances exhibit smaller volumes of distribution, often close to 
+0.6 L/kg (or 60% of body weight) in adults, approximating the 
+total body water in plasma (4%), interstitial fluid (21%), and 
+intracellular fluid (35%). Those substances that are highly bound 
+to plasma proteins and not showing any permeation in the blood 
+capillaries or tissue membranes would result in Vd reflective of 
+the extracellular fluid. Xenobiotics exhibiting a marked affinity 
+for tissue or fat depots have large Vd (exceeding physiological 
+fluid spaces and body weight) leading to low plasma concentra-
+tions. The mechanisms of tissue sequestration not only include 
+partitioning of a toxicant into tissue lipids, but also involve bind-
+ing to tissue proteins, concentrative uptake by active transport-
+ers, and trapping in specialized organelles (e.g., pH trapping of 
+amine compounds in acidic lysosomes) (Assmus et al., 2017). In 
+the case of xenobiotics that are extremely lipophilic, their Vd can 
+be approximated to the lipid content of the body. For example, 
+the Vd of DDT is about 17.5 L lipid (i.e., 25% of body weight of 
+70 kg) (Kirman et al., 2011). Conversely, the Vd in terms of L of 
+whole blood can be calculated with the knowledge of tissue:blood 
+partition coefficient (Ptb, in units of L blood/L tissue). The Ptb val-
+ues reflect the relative distribution of a chemical between tissues 
+and blood, at equilibrium. For example, Ptb = 1 for a chemical 
+indicates that its concentration will be the same in the tissue and 
+blood at equilibrium, whereas a Ptb value of 50 of a chemical in 
+non-metabolizing tissue indicates that the concentration of this 
+chemical will be 50 times greater in that tissue compared to the 
+blood concentration at equilibrium. The Ptb along with the cor-
+responding tissue volumes determines the extent of dilution of a 
+chemical in the body. Thus, the sum total of blood volume and tis-
+sue volumes (expressed as blood-equivalent volume, i.e., Ptb × Vt) 
+would correspond to the Vd of chemicals (Poulin and Theil, 2002, 
+2009; Rodgers and Rowland, 2007):
+	
+V
+V
+V
+P
+d
+b
+t
+tb
+=
++
+⋅
+∑(
+), 
+(7-3)
+where Vb and Vt refer to the volumes of blood and tissue, respectively.
+For example, in the case of a chemical that is uniformly dis-
+tributed in the body with a Ptb of 1 (i.e., the concentration in the 
+blood and soft tissues are identical at equilibrium), the total vol-
+ume of distribution would be equal to 244 mL in the rat (Fig. 7-4 
+left panel; blood volume of 15 mL plus tissue volume of 229 mL). 
+However, when the Ptb of a chemical is greater than 1 (e.g., overall 
+Ptb for the soft tissues = 6.77 for n-hexane), the apparent distribu-
+tion volume is greater than the actual physical volume of the animal 
+(Fig. 7-4 right panel; tissue volume × tissue:blood partition coef-
+ficient = 229 mL tissue × 6.77 mL blood/mL tissue = 1551 mL 
+blood-equivalent volume plus blood volume of 15 mL for a total Vd 
+of 1566 mL in the rat). Accordingly, for 1,1,1,2-tetrachloroethane, 
+a chemical with Ptb values of 2.1, 51.5, and 0.95 for the richly per-
+fused tissues, adipose tissue, and rest of body (Gargas et al., 1989; 
+Andersen et al., 1991), the computed Vd in the rat would be 1.18 
+L (Table 7-2) even though its body weight (i.e., physical volume) 
+is only 0.25 kg. While Vd for environmental chemicals are often 
+reported in units of L blood (or L blood per kg body weight), the 
+Vd values for drugs are reported in units of L plasma or L plasma 
+water, with or without normalization to body weight. Vd in units of 
+Absorption rate:
+ka1 > ka2 > ka3
+Same bioavailability
+Time
+1
+2
+3
+Time
+Plasma concentration
+Log plasma concentration
+1
+2
+3
+Figure 7-3.  Influence of absorption rate on the time to peak (Tp) and maxi-
+mum plasma concentration (Cmax) of a hypothetical toxicant. The left panel 
+illustrates the change in plasma concentration–time curves as the first-order 
+absorption rate constant (ka) decreases, while keeping the extent of absorp-
+tion or bioavailability (F), hence the area-under-the-curve (AUC), constant. 
+The right panel displays the same curves in a semilogarithmic plot. Time 
+to peak plasma concentration shows a progressive delay as ka decreases, 
+along with a decrease in Cmax. In cases 1 and 2, the terminal decline in 
+plasma concentration is governed by elimination half-life; hence, the paral-
+lel decline in the semilogarithmic plot. In case 3, the absorption becomes so 
+slow that decline in plasma concentration in the terminal phase reflects the 
+absorption half-life, that is, washout of toxicant is rate-limited by absorp-
+tion. Accordingly, the terminal decline is slower than in cases 1 and 2.
+
+Toxicokinetics
+Chapter 7
+405
+proteins with a bound fraction of 0.92 or fup of 0.08; however, 
+binding of nortriptyline to tissues constituents is so much higher 
+such that it has a Vd of 18 times the body weight in adult humans 
+(Table 7-3).
+Clearance
+Clearance (CL) is the apparent volume of a physiological fluid 
+(e.g., blood, plasma, plasma water) that is cleaned of the toxicant 
+per unit time (i.e., mL/min or L/h). Thus, a CL value of 1 L blood/h 
+is interpreted as 1 L of blood being completely cleared of a toxi-
+cant in systemic circulation per hour. Accordingly, high values of 
+clearance indicate efficient and generally rapid removal of chemi-
+cals from the systemic circulation, whereas low clearance values 
+indicate slow and less efficient removal of a toxicant from the body. 
+A formal definition of total body clearance (CLtotal) is the ratio of 
+overall elimination rate of a toxicant divided by plasma concentra-
+tion (i.e., amount eliminated per unit time/Cplasma); in effect then, 
+CLtotal expresses the overall efficiency of the elimination mecha-
+nisms operative in the body. Because this measure of elimination 
+efficiency is with respect to blood or plasma toxicant concentration, 
+it is also referred to as blood or plasma clearance.
+CLtotal of a xenobiotic equals the sum of all individual clear-
+ance processes occurring in parallel contributing to its removal from 
+systemic circulation, as shown below (Gibaldi and Perrier, 1982; 
+Rowland and Tozer, 2011):
+	
+CL
+CL
+CL
+CL
+total
+hepatic
+renal
+other
+=
++
++
+. 
+(7-5)
+The integral measure of the blood concentration (AUC0
+∞) in rela-
+tion to the systemic dose (i.e., DoseIV, or Dose via extravascular 
+routes adjusted for bioavailability) is useful in computing CLtotal 
+as follows:
+	
+CL
+Dose
+AUC
+Dose
+AUC
+total
+iv
+oral
+=
+=
+⋅
+∞
+∞
+0
+0
+F
+. 
+(7-6)
+If the non-hepatic clearances are negligible for a chemical, then 
+Eq. (7-5) becomes CLtotal = CLhepatic. Further, as per Eq. (7-6), the 
+inverse relationship between CL and AUC would suggest that for 
+a given dose, the chemical or the species with lower CLhepatic will 
+exhibit higher AUC and hence greater systemic exposure to the par-
+ent chemical.
+Vd = 244 mL
+Vd = 1566 mL
+1 : 1
+BLOOD
+(15 mL)
+TISSUES
+(229 mL)
+BLOOD
+(15 mL)
+TISSUES
+(1551 mL)
+1 : 6.77
+DOSE
+DOSE
+Figure 7-4.  Illustration of the physical and apparent volumes of distribu-
+tion (Vd). The left panel shows the physical volume of the rat corresponding 
+to the sum of blood and tissue volumes in which a chemical is distributed 
+equally throughout the body (Vd = 15 + 229 mL = 244 mL). The right 
+panel shows the Vd for a lipophilic chemical equaling 1566 mL, as the sum 
+of the volume of blood (15 mL) and the blood-equivalent volume of tissues 
+calculated as the product of tissue:blood partition coefficient and the tissue 
+volume (i.e., 6.77 × 229 mL = 1551 mL).
+Table 7-2  
+Tissue:Blood Partition Coefficients (PCs) and Volume of Distribution (Vd) of Some Chemicals in the Rat
+TISSUE:BLOOD PCs
+SUBSTANCES
+RICHLY PERFUSED TISSUES
+ ADIPOSE TISSUES
+POORLY PERFUSED TISSUES
+Vd (L)*
+1,1,1,2-Tetrachloroethane
+2.12
+51.5
+0.95
+1.18
+1,4-Dioxane
+1.00
+0.46
+0.72
+0.18
+Acetone
+0.60
+0.31
+0.55
+0.14
+Bromoform
+1.06
+20.8
+0.58
+0.53
+Cyclohexane
+5.67
+169
+0.74
+3.36
+Methyl chloride
+1.40
+5.47
+0.39
+0.22
+*Volume of distribution (Vd) calculated as VB+ (VR × PRB) + (VF × PFB) + (VP × PPB); PRB, richly perfused tissues:blood PC (using data for liver); 
+PFB, fat:blood PC; PPB, poorly perfused tissues:blood PC (using data for muscle); Blood volume, VB = 0.015 L; richly perfused tissue compartment 
+volume, VR = 0.023 L; adipose tissue volume, VF = 0.018 L; poorly perfused tissue compartment volume VP = 0.188 L.
+SOURCES: Gargas et al. (1989); Reitz et al. (1990); da Silva et al. (1999); Clewell et al. (2001); Andersen et al. (1991).
+L of plasma is calculated by accounting for the interplay of binding 
+to plasma and tissue proteins determining the free or unbound drug 
+concentrations, as follows (Gibaldi and Perrier, 1982):
+	
+V
+V
+f
+f
+V
+d
+p
+up
+ut
+t
+=
++
+
+
+
+
+
+⋅
+′
+∑
+, 
+(7-4)
+where fup is the unbound and nonionized fraction of toxicant in 
+plasma, fut is the effective unbound fraction in a tissue region, Vp 
+corresponds to the volume of plasma, and ′
+Vt  represents the extra-
+vascular space plus erythrocyte volume. In this case, tissue:plasma 
+partitioning is governed by the ratio fup/fut. Thus, a drug that has 
+high affinity for plasma proteins (e.g., albumin and/or α1-acid gly-
+coprotein) relative to tissue proteins has a restricted distribution 
+volume; for example, the anticoagulant warfarin with a plasma-
+bound fraction of 0.995 or fup of 0.005 (Table 7-3). On the contrary, 
+a drug that has a high affinity for tissue proteins and lesser affinity 
+for plasma proteins can have a very high Vd. For example, the tri-
+cyclic antidepressant nortriptyline has a good affinity for plasma
+
+406
+Disposition of toxicants
+unit II
+Quantitative descriptions of CLhepatic have been developed by 
+accounting for hepatic blood flow, unbound fraction of chemical at 
+the site of metabolism, and intrinsic metabolic clearance (Gibaldi 
+and Perrier, 1982; Wilkinson, 1987; Rowland and Tozer, 2011). If 
+delivery of the toxicant to its intracellular site of removal is rate-
+limited by liver blood flow (Qh) and the toxicant is assumed to have 
+equal, ready access to all the hepatocytes within the liver (i.e., the 
+so-called well-stirred model), then CLhepatic (CLh) becomes:
+	
+CL
+CL
+CL
+h
+h
+h
+h
+ub
+ub
+h
+=
+⋅
+=
+⋅
+⋅
+⋅
++
+Q
+E
+Q
+f
+f
+Q
+int
+int
+, 
+(7-7)
+ 
+where Eh is the hepatic extraction ratio (fraction of the amount of 
+chemical entering the liver that is subjected to elimination by metab-
+olism) and fub·CLint is the hepatic intrinsic clearance that embodies 
+a combination of factors that determine the access of the toxicant 
+to the enzymatic sites (e.g., plasma protein binding and sinusoi-
+dal membrane transport) as well as the biochemical efficiency of 
+the metabolizing enzymes (e.g., Vmax/KM for an enzyme obeying 
+Michaelis kinetics). CLint would also embody canalicular transport 
+activity if the toxicant is subject to biliary excretion. Eq. (7-7) dic-
+tates that CLh of a toxicant from the blood is bounded by either 
+liver blood flow (Qh) or intrinsic clearance (i.e., fub·CLint). Note that 
+when fub·CLint is very much higher than Qh, the Eh approaches unity 
+(i.e., near-complete or very high extraction during each passage of 
+toxicant through the hepatic sinusoid) and CLh approaches Qh. For 
+example, trichloroethylene exhibits a high CLint value of 15.6 L/h 
+and Eh of 0.92 in the rat (Table 7-4), implying that liver blood 
+flow rather than enzyme content would be the limiting factor of its 
+hepatic clearance. This reflects the fundamental notion that hepatic 
+clearance of a xenobiotic cannot exceed the hepatic blood flow 
+rate (0.004, 0.02, and 1.6 L/min in mice, rats, and humans, respec-
+tively) (Travis and Hattemer-Frey, 1991) even if the intrinsic rate 
+of metabolism in the liver is greater than the rate of hepatic blood 
+flow. At the other extreme, when fub·CLint is very much lower than 
+Qh, the Eh becomes quite small (i.e., low extraction) such that CLh 
+nearly equals fub·CLint. In this instance, CLh would be limited by the 
+enzyme capacity and not chemical delivery to liver, that is, even if 
+hepatic blood flow brings more chemical than the metabolic capac-
+ity of the organ, the metabolism will only occur at the relatively 
+inefficient rate characterized by its CLint (e.g., CLint = 0.02 L/h 
+and Eh = 0.02 for 1,1,1-trichloroethane) (Table 7-4). The extent of 
+hepatic extraction of drugs and xenobiotics is generally referred to 
+as low, medium, or high when the value of Eh is below 0.3, between 
+0.3 and 0.7, or above 0.7, respectively. The emerging literature sup-
+ports that the Eh not only reflects hepatic metabolism associated with 
+the unbound chemical but also the albumin-facilitated uptake of cer-
+tain substances (Poulin et al., 2016, 2017; Fukuchi et al., 2017).
+The renal clearance depends upon glomerular filtration, tubu-
+lar reabsorption, and tubular secretion as follows (Kenakin, 2009):
+	
+CL
+GFR
+CL
+renal
+ub
+secretion
+reabsorbed
+=
+⋅
++
+⋅
+−
+f
+F
+(
+) (
+)
+1
+ (7-8)
+where fub = unbound fraction of the chemical in systemic circula-
+tion, GFR = glomerular filtration rate, and Freabsorbed = fraction reab-
+sorbed. Physiologically, the filtration clearance depends upon GFR 
+(1.79 mL/(min·kg)) while CLsecretion is limited by the renal blood 
+flow [17.14 mL/(min·kg)] similar to hepatic clearance (Kunze et 
+al., 2014). Renal clearance can also be calculated by dividing the 
+total amount eliminated in urine by the AUCblood, or alternatively 
+by dividing the urinary excretion rate by the blood concentration.
+The pulmonary clearance corresponding to the volume of 
+physiological fluid (e.g., blood) cleared of a toxicant by exhalation 
+is calculated as the alveolar ventilation rate divided by blood:air 
+partition coefficient (Pb). Table 7-4 lists the Pb and the CLpulmonary 
+for some environmental chemicals in the rat. Accordingly, chemi-
+cals with a low Pb (e.g., carbon tetrachloride = 4.52) show high 
+CLpulmonary (= 1.19 L/h in the rat), whereas the reverse is true for 
+chemicals with high Pb value (e.g., bromochloromethane with a Pb 
+of 41.5 exhibiting CLpulmonary of 0.13 L/h). The CL and Vd of a sub-
+stance together determine the elimination constant and half-life, as 
+discussed below.
+Elimination Half-life
+Elimination rate constant (Kel) represents the fraction of the 
+amount of chemical in body that is removed from systemic circu-
+lation per unit time. This is analogous to the fraction of the volume 
+of distribution that is subject to elimination by various clearance 
+mechanisms (i.e., CL/Vd). For example, if the CL = 10 L/h and 
+Vd = 100 L, then the Kel equals 0.1 h−1 implying that 10% of the 
+Vd will be cleared of the chemical per hour. However, the actual 
+amount eliminated in 1 hour would be slightly less given that the 
+amount in the body is declining continuously (from time zero to 
+1 hour). Thus, in the case of first-order elimination kinetics, the 
+fractional elimination is constant but the amount eliminated is pro-
+portional to the amount remaining. For example, if the Kel equals 
+0.3 h−1, the amount eliminated is less than 30% compared to the 
+expectation based on the starting amount in the body (Table 7-5). 
+Because the percent eliminated over a given time period remains 
+constant regardless of the dose, it is more intuitive and convenient 
+to refer to an elimination half-life (t1/2), that is, the time taken for 
+the concentration or amount of a chemical (in a biological matrix 
+such as blood or body) to be reduced by half. Thus, after one 
+elimination half-life, the initial blood concentration [C0] would 
+decline by 50%, that is, [C0] × 0.5. After the second half-life, the 
+remaining concentration would diminish by 50% due to elimina-
+tion processes, that is, (0.5 × 0.5 × [C0]) = 0.25 × [C0], for a total 
+decline of C0 by a factor of 0.75 or 75%. After three, four, five, 
+six, and seven half-lives, the initial concentration C0 would dimin-
+ish by 87.5%, 93.75%, 96.9%, 98.5%, and 99.2%, respectively. 
+Elimination half-life, t1/2, thus reflects the rapidity of disappearance 
+of a toxicant following discontinuation of exposure and it depends 
+upon both Vd and CL as shown below:
+	
+t
+V
+1 2
+0 693
+/
+.
+.
+=
+⋅
+d
+CL
+
+(7-9)
+Table 7-3  
+Volume of Distribution (Vd) and Unbound or Free 
+Fraction in Plasma ( fup) for Several Drugs That Are 
+of Clinical Toxicological Interest
+CHEMICAL
+Vd (L/kg)
+fup
+Chloroquine
+~200
+~0.45
+Nortriptyline
+18
+0.08
+Oxycodone
+2.0
+0.55
+Acetaminophen
+0.95
+<0.20
+Phenytoin
+0.64
+0.11
+Warfarin
+0.14
+0.005
+SOURCE: Thummel et al. (2006).
+
+Toxicokinetics
+Chapter 7
+407
+The above relationship among t1/2, Vd, and CL emphasizes 
+that care should be exercised in interpretation of data when relying 
+upon t1/2 as the sole representation of elimination of a chemical in 
+toxicokinetic studies, since t1/2 is influenced by both the Vd for the 
+toxicant and the rate at which it is cleared from the blood. For a 
+fixed Vd, the t1/2 decreases as CL increases because the chemical 
+is being removed from this fixed volume at a faster pace as clear-
+ance increases. Conversely, as Vd increases, t1/2 increases for a fixed 
+CL because the volume of fluid that must be cleared of chemical 
+increases but the efficiency of clearance does not. In this regard, 
+highly lipophilic persistent organic chemicals exhibit a large Vd 
+and low CL, and thus t1/2 is in the order of several years in human 
+adipose tissues (e.g., 2,2′,4,4′,5,5′-hexabromo diphenyl ether: 11.7 
+years, DDT: 4.2 years) (Geyer et al., 2004; Kirman et al., 2011). It 
+is important to note that because t1/2 is a function of CL and Vd of a 
+chemical, it is not an independent toxicokinetic parameter.
+The classic and physiologic models of the toxicokinetics of 
+chemicals grounded on the concepts reviewed above (i.e., F, Vd, and 
+CL) are described in the following sections.
+CLASSIC TOXICOKINETIC MODELS
+Model Structure
+Classic toxicokinetics involves empirical analysis of the time-
+course data of a chemical and/or its metabolite(s) to derive param-
+eters characteristic of their behavior in the exposed organism. This 
+type of analysis uses one or more compartments to capture the 
+toxicokinetics of a chemical in the organism (Fig. 7-5). The sim-
+plest structure of the classic toxicokinetic model represents the 
+body as a homogeneous one-compartment system. When the log 
+[C] versus time plot of the toxicokinetic data yields a curve as 
+shown in Fig. 7-6 (top panel vs. bottom panel), it would indicate 
+that differential distribution and equilibration processes among 
+the model compartments need to be accounted for. In such cases, 
+more than one compartment is chosen to adequately model the 
+toxicokinetics of the substance (Figs. 7-6 and 7-7). Basically, in 
+classical toxicokinetic analysis, whether the model structure cor-
+responds to one, two, three, or more compartments is determined 
+by the time-course data. Even though the number and nature of 
+the compartments may not have exact anatomical or physiological 
+correspondence, the resulting model structure and mathematical 
+representation for a chemical would consistently fit with the avail-
+able empirical data on the kinetics in one or more biological matri-
+ces such as whole blood, plasma, urine, exhaled breath, or tissues.
+Mathematical Representation
+In one-compartment toxicokinetic model reflecting homogeneous 
+distribution of a chemical in the body, the rate of change in the 
+amount (dAmountbody/dt, mg/h) equals the difference between the 
+amount absorbed (Doseabsorbed) per unit time and amount eliminated 
+from the body (Amounteliminated) per unit time:
+	
+d
+dt
+Amount
+Dose
+h
+Amount
+h
+body
+absorbed
+eliminated
+=
+−
+. 
+(7-10)
+Notationally,
+	
+dA
+dt
+K D
+K A
+body
+a
+el
+body,
+=
+−
+
+(7-11)
+where Abody = amount in the body (mg), D = dose adminis-
+tered (mg), Ka = first-order absorption rate constant (h−1), and 
+Kel = first-order elimination rate constant (h−1, equal to CL/Vd).
+For the simple scenario of a single IV dose, because there is 
+no absorption component, Eq. (7-11) reduces to the following form 
+for describing change in chemical concentration in blood (Cb) due 
+to first-order elimination:
+	
+dC
+dt
+K C
+b
+el
+b
+= −
+. 
+(7-12)
+Table 7-4  
+Hepatic Clearance (CLh) and Pulmonary Clearance (CLp) of Some Environmental Chemicals in the Rat
+SUBSTANCES
+Vmax (µmol/h)
+Km µM
+CLint (L/h)*
+CLh (L/h)†
+E‡
+Blood:air PC
+CLp (L/h)§
+1,1,1-Trichloroethane
+0.9
+43.1
+0.02
+0.02
+0.02
+5.67
+0.93
+Bromochloromethane
+21.5
+2.32
+9.28
+1.17
+0.87
+41.59
+0.13
+Carbon tetrachloride
+0.9
+1.63
+0.56
+0.40
+0.29
+4.52
+1.19
+Chloroform
+21.6
+2.09
+10.3
+1.19
+0.88
+20.8
+0.26
+Toluene
+13.2
+1.41
+9.36
+1.17
+0.87
+18.0
+0.30
+Trichloroethylene
+29.6
+1.9
+15.6
+1.24
+0.92
+21.9
+0.25
+*Intrinsic clearance (CLint) = Vmax / Km.
+†Hepatic clearance = (CLint × Ql) / (CLint + Ql); Ql: blood flow to liver = 1.34 L/h.
+‡Hepatic extraction ratio (E) = CLh / Ql.
+§Pulmonary clearance calculated as ratio of alveolar ventilation (5.38 L/h) to the blood:air partition coefficient of chemicals.
+SOURCES: Gargas et al. (1986, 1990); Haddad et al. (1999); Tardif and Charest-Tardif (1999); Tardif et al. (1997).
+Table 7-5  
+Elimination of a Toxicant That Follows First-
+Order Kinetics (Kel = 0.3 h−1) by 1 Hour After IV 
+Administration at Four Different Dose Levels
+DOSE (mg)
+TOXICANT 
+REMAINING 
+(mg)
+TOXICANT 
+ELIMINATED (mg)
+TOXICANT 
+ELIMINATED 
+(% of dose)
+10
+7.4
+2.6
+26
+30
+22
+8
+26
+90
+67
+23
+26
+250
+185
+65
+26
+
+408
+Disposition of toxicants
+unit II
+Upon integration based on the initial condition or time zero 
+blood concentration (Cb,0), the equation to calculate chemical con-
+centration in blood at any given time t (Cb,t) becomes:
+	
+ln
+ln
+b t
+b 0
+el
+C
+C
+K
+t
+,
+,
+−
+= −
+⋅
+
+(7-13)
+or
+	
+C
+C
+e
+k
+t
+b t
+b
+el
+,
+,
+.
+=
+⋅
+−
+⋅
+0
+
+(7-14)
+Similarly, equations associated with a one-compartment model of 
+single oral dose kinetics are presented in Table 7-6 (Gibaldi and 
+Perrier, 1982).
+When the toxicokinetic data indicate the existence of more 
+than one characteristic tissue(s) or tissue group(s) with different 
+equilibration and elimination profiles, a biexponential equation of 
+the following form may be used to mathematically represent the 
+kinetic behavior contained in the data:
+	
+C
+A e
+B e
+t
+t
+t
+=
+⋅
++
+⋅
+−⋅
+−⋅
+α
+β , 
+(7-15)
+where A and B are coefficients in units of toxicant concentration, α 
+is the exponential constant for the distribution phase, and β is the 
+exponential constant for the post-distribution or elimination phase.
+In Eq. (7-15), the α constant corresponds to the slope of the 
+residual log-linear plot and not the initial slope of the decline in 
+A
+B
+Kel
+Blood and
+Soft tissues
+Dose
+Ka
+Ka
+Kout
+Central (1)
+Peripheral (2)
+K12
+K21
+Dose
+Figure 7-5.  Conceptual representations of compartmental toxicokinetic models. Symbols for one-compartment model (A): Ka is the first-order absorption 
+rate constant, and Kel is the first-order elimination rate constant. Symbols for two-compartment model (B): Ka is the first-order absorption rate constant into 
+the central compartment (1), from the central compartment (1), K12 and K21 are the first-order rate constants for distribution between central (1) and peripheral 
+(2) compartments whereas Kout is the first-order elimination rate constant from the central compartment.
+One-compartment model
+Two-compartment model
+Time
+Concentration
+t½
+C
+1/2C
+C0
+Time
+Plasma
+Tissue
+Concentration
+Time
+Time
+Concentration
+Concentration
+Concentration
+α
+β
+Time
+Central
+tissue
+Peripheral
+tissue
+Plasma
+Concentration
+Time
+Figure 7-6.  Plasma concentration versus time curves of toxicants exhibiting kinetic behavior conforming to a one-compartment model (top row) and a two-com-
+partment model (bottom row) following IV bolus injection. Left and middle panels show the plots on a rectilinear and semilogarithmic scale, respectively. Right 
+panels illustrate the relationship between tissue (dash lines) and plasma (solid line) concentrations over time. Note that tissue concentration can be higher, 
+nearly the same, or lower than plasma concentration. Tissue concentration peaks almost immediately, and thereafter declines in parallel with plasma concentra-
+tion. The right panel for the two-compartment model shows concentration–time profiles for typical tissues associated with the central (1) and peripheral (2) 
+compartments as represented by short and long dash lines, respectively. For tissues associated with the central compartment, their concentrations decline in 
+parallel with plasma. For tissues associated with peripheral compartment, toxicant concentration rises, while plasma concentration declines rapidly during the 
+initial phase; it then reaches a peak and eventually declines in parallel with plasma in the terminal phase. Elimination rate constant Kel for one-compartment 
+model and the terminal exponential rate constant β are determined from the slope of the log–linear concentration versus time curve. Half-life (t1/2) is the time 
+required for plasma toxicant concentration to decrease by one-half. C0 is the concentration of a toxicant for a one-compartment model at t = 0 determined by 
+extrapolating the log–linear concentration–time curve to the y-axis.
+
+Toxicokinetics
+Chapter 7
+409
+the observed plasma toxicant concentration, that is, the initial rate 
+of decline in plasma concentration approximates, but is not exactly 
+equal to, the α rate constant (Fig. 7-6, bottom panel). It should 
+be noted that distribution into and out of the tissues and elimina-
+tion of the toxicant in the systemic circulation are occurring at 
+all times, that is, elimination does occur during the “distribution” 
+phase, and distribution between compartments is still ongoing dur-
+ing the “elimination” phase. As illustrated in Fig. 7-7, the dynam-
+ics of a bicompartment system is such that the governing factor, 
+that is, be it intercompartmental distribution or elimination, for 
+each of the phases depends on the relative magnitude of the rate 
+constants for intercompartmental exchange and the elimination 
+process. In the usual case, that of rapid distribution and relatively 
+slow elimination (left panel of Fig. 7-7), the initial rapid phase 
+indeed reflects extravascular distribution, and the later, slow phase 
+reflects elimination after a dynamic equilibration between tissue 
+and blood is attained. There are cases where distribution into some 
+tissue group is much slower than elimination (right panel of Fig. 
+7-7). Then, the initial phase could largely reflect elimination, and 
+the later phase is controlled by the slow redistribution of the toxi-
+cant from the tissues associated with the peripheral compartment 
+to the central compartment, where it is eliminated (i.e., washout 
+in the terminal phase is rate-limited by redistribution from the 
+peripheral compartment).
+The relative prominence of distributional phases in two-­
+compartment models will often vary depending on the lipid 
+solubility of the toxicant in each tissue grouping and any other 
+sequestration and export mechanisms of a toxicant in particular 
+tissues (e.g., tight binding to tissue proteins, active influx into or 
+efflux out of the tissue cell types), as well as the competing influ-
+ence of elimination from the visceral organs. For example, very 
+rapid metabolism or excretion at the visceral organs would limit 
+distribution into the slow or very slow tissue groupings. Also, there 
+are times when equilibration rates of a toxicant into visceral organs 
+overlaps with lean body tissues, such that the distribution kinet-
+ics of a toxicant into these two tissue groupings become indistinct 
+with respect to the exponential decline of plasma concentration, in 
+which case two instead of three tissue groupings may be observed. 
+The concept of tissue groupings with respect to uptake or washout 
+kinetics serves to justify the seemingly simplistic, yet pragmatic, 
+mathematical description of extravascular distribution by the classic 
+two- or three-­compartment models.
+Data Analysis and Parameter Estimation
+Fig. 7-8A presents the toxicokinetic data, specifically blood con-
+centration versus time, as measured in an experimental study 
+following a single IV dose of 100 mg of a xenobiotic in the rat. 
+Figs. 7-8B and 7-8C depict the same data following the application 
+of log10 and natural log (ln) transformations. Given the behavior 
+seen in these plots (i.e., a straight line in log transformed plots), 
+a one-compartment model is fit to the concentration versus time-
+course data using Eq. (7-13). In this one-compartment model for a 
+single IV dose, the initial concentration, C0, corresponding to the 
+Time
+Amount in compartment
+Eliminated
+Central
+Peripheral
+Time
+Amount in compartment
+Eliminated
+Peripheral
+Central
+Peripheral 
+Central
+Peripheral 
+Central
+Figure 7-7.  Effects of interplay between kinetics of distribution and elimination processes on time course of exchange between peripheral (red) and central 
+(blue) body compartments and removal from the body for toxicants whose disposition conforms to a two-compartment model. Left panel depicts the more com-
+mon scenario of rapid distribution between compartments relative to elimination, in which case elimination from the body occurs largely during the terminal 
+phase when a dynamic equilibration between the central and peripheral compartment has been reached. Accordingly, half-life of the terminal phase is an appro-
+priate measure of elimination. Right panel depicts the scenario of very slow distribution relative to elimination, in which case a substantial (>90% of dose) 
+loss of toxicant occurs during the initial phase. The terminal phase reflects the slow redistribution of the toxicant sequestered in the peripheral site to the central 
+site where it can be eliminated (i.e., washout is rate-limited by redistribution). Under this scenario, the initial phase reflects elimination kinetics, whereas the 
+terminal phase reflects tissue distribution kinetics. (Adapted from Tozer and Rowland, 2006.)
+Table 7-6  
+Basic Equations of a One-Compartment Model for the 
+Oral Route
+DESCRIPTION
+EQUATION
+Rate of change in the 
+amount of chemical in 
+the body
+dA
+dt =
+−
+In
+Out
+  
+Rate of change expressed 
+in terms of rates of ab-
+sorption and elimination 
+ 
+dA
+dt
+K
+F
+D
+K
+A
+(
+)
+(
+)
+=
+−
+⋅
+⋅
+⋅
+a
+el
+t  
+Concentration at any 
+given time t (for Ka ­> Kel)
+ C
+K
+F
+D
+V
+e
+K
+K
+K
+t
+t
+a
+d
+el
+a
+el
+=
+
+
+
+
+
+
+−
+
+
+
+
+
+
+⋅
+⋅
+−
+ 
+Abbreviations: A, amount of chemical at any time t; Ct, concentration of 
+chemical at any time t; D, oral dose administered; F, fraction of the oral 
+dose absorbed; Ka, first-order absorption rate constant; Kel, first-order 
+elimination constant; Vd, Volume of distribution.
+
+410
+Disposition of toxicants
+unit II
+intercept in Fig. 7-8C, equals the dose diluted in the apparent vol-
+ume of distribution, Vd, as follows:
+	
+V
+C
+d
+Dose
+=
+0
+. 
+(7-16)
+Given that the dose in the present example equals 100 mg and 
+the C0 corresponding to the intercept is 5.62 (= 276 mg/L), the 
+Vd equals 0.36 L. The Kel value equals the slope of the natural log 
+transformation plot (Fig. 7-8C) corresponding to the concentration 
+difference (i.e., ln Ct − ln Co) over a time period (Δt). Thus, the 
+Kel associated with this dataset equals 0.832 h−1 (Fig. 7-8C) or 
+0.3612 × 2.303 (Fig. 7-8B). The t1/2 or the time taken for the initial 
+concentration C0 to become half its value (i.e., 0.5·C0) can be calcu-
+lated from the Kel value as follows:
+	
+t
+C
+C
+K
+K
+1 2
+0
+0
+0 5
+0 693
+/
+ln
+(ln
+ln . )
+.
+.
+=
+−
++
+=
+el
+el
+
+(7-17)
+For the toxicant presented in Fig. 7-8, the t1/2 value corresponds 
+to 0.832 h. The toxicokinetic parameters discussed above, particu-
+larly Kel (or t1/2) and Vd, can be used to calculate CL, which is an 
+independent toxicokinetic determinant. For the chemical modeled 
+after a single IV dose in Fig. 7-8, the CL equals 0.3 L/h (i.e., Vd of 
+0.36 L and Kel of 0.832 h−1). The relationship among these param-
+eters does not imply that CL is dependent on Vd or t1/2; rather t1/2 
+depends upon CL and Vd.
+For a two-compartment model, CL is equal to Vd times β. In 
+multicompartment models, Vd is calculated according to Eq. (7-18) 
+based on the computation of area under the toxicant concentration–
+time curve:
+	
+Vd
+IV
+Dose
+AUC
+=
+⋅
+∞
+β
+0
+, 
+(7-18)
+where DoseIV is the IV dose or known amount of toxicant in 
+the body at time zero, β is the elimination rate constant, and AUC0
+∞ 
+is the area under the toxicant concentration versus time curve from 
+time zero to infinity. Because the concept of an overall apparent vol-
+ume of distribution is strictly applicable to the terminal exponential 
+phase, some investigators refer to it as Vβ (for a two-compartment 
+model) or Vz (for a general multicompartment model) (Gibaldi and 
+Perrier, 1982). When Eq. (7-16), is applied to the situation of a mul-
+ticompartment model, the resultant volume is the apparent volume 
+of the central compartment and it corresponds to the proportional-
+ity constant relating the total amount of the toxicant in the central 
+compartment to its concentration in plasma or whole blood.
+When the empirical data on log [C] versus time exhibit behav-
+ior reflective of many compartments with differing characteristics, 
+three, four, or more exponential terms may be required to obtain 
+adequate fitting. Under these circumstances, the curve fitting can 
+become a tedious exercise with the resulting model structure and 
+parameters not being straightforward to interpret in physiologi-
+cal and biochemical terms. In such cases, it is preferable to opt 
+for physiologically based models that can associate the observed 
+kinetic behavior with identifiable compartments or tissues (e.g., 
+liver, fat, kidney), as described in the next section.
+PHYSIOLOGIC TOXICOKINETIC MODELS
+The classic compartmental toxicokinetic models described in the 
+previous section are developed by fitting empirical data on the con-
+centration of parent chemical and/or metabolite(s) in the exposed 
+organism. The parameter estimates obtained with these models 
+are useful for toxicokinetic interpretations limited to the exposure 
+duration, exposure route, dose levels, life stage, and species for 
+which the experimental data were generated. In order to enhance 
+the mechanistic basis of toxicokinetic analysis and to improve 
+the application domain of the resulting parameter estimates, there 
+is increasing interest in physiologically based pharmacokinetic 
+(PBPK) models, also referred to as physiologically based toxico-
+kinetic (PBTK) or biologically based biokinetic (BBBK) models.
+The PBPK models describe the interrelationships among the 
+key determinants of uptake and disposition to simulate the time-
+course behavior of xenobiotics and their metabolites in blood and 
+various tissues. These models are essentially quantitative statements 
+of the current state of knowledge concerning the mechanistic deter-
+minants of the toxicokinetics of a chemical in biota. The advantages 
+of PBPK models in comparison with the classic compartmental 
+models are that they permit: (i) the simulation of the concentration 
+of chemicals and their metabolites not only in the blood but also 
+in any other tissue of interest including the target organ, (ii) the 
+evaluation of the nature and magnitude of the potential impact of 
+physiological, physicochemical, and metabolic parameters on the 
+toxicokinetics of chemicals, (iii) the prediction of the toxicokinet-
+ics of chemicals across species and populations using relevant input 
+parameters, (iv) accounting for temporal change in physiological 
+and metabolic parameters, complex dosing regimens, and saturable 
+processes, and (v) the simulation of toxicokinetic datasets collected 
+under various dosing situations (exposure routes, doses, and sce-
+narios) with a single set of input parameters and equations. The 
+impediments to the use of PBPK models relate to the fact that not 
+only these models contain more parameters compared to the classic 
+compartmental models but also the mathematics and programming 
+required are not trivial. Furthermore, the range of values and distri-
+butions of input parameters are not always well defined for various 
+chemicals and their metabolites in all species and pathophysiologi-
+cal states of interest. Nevertheless, PBPK models are conceptually 
+120
+100
+80
+A
+[C] (mg/L)
+60
+40
+20
+0
+2.5
+2
+1.5
+B
+C
+Log C (mg/L)
+1
+0.5
+0
+0
+2
+4
+6
+8
+10
+0
+2
+3
+1
+4
+Time (h)
+5
+6
+7
+8
+9
+–0.5
+–1
+6
+5
+4
+3
+2
+1
+0
+–1
+–2
+Ln C (mg/L)
+0
+2
+4
+6
+y = –0.3612× + 2.4427
+y = –0.8317× + 5.6246
+8
+10
+Figure 7-8.  Plots of the measured data (A) as well as the transformed data 
+[log10 (B) and natural log (C)] on the blood concentration versus time fol-
+lowing a single IV dose.
+
+Toxicokinetics
+Chapter 7
+411
+sound tools capable of providing insights into the toxicokinetics and 
+tissue dose of toxicants beyond what classic compartmental mod-
+els can provide because of the way in which they are constructed, 
+parameterized, and implemented. The construction of the classic 
+toxicokinetic model requires time-course data on the concentra-
+tions of chemicals in one or more biological matrices to begin with, 
+whereas the PBPK modeling approach frequently uses a priori 
+parameter estimates in mechanism-based equations to simulate the 
+toxicokinetics of chemicals in biota. While the former approach 
+determines the number, behavior, and volumes of the compart-
+ments based on the fitting exercise, the structure and complexity of 
+a resulting PBPK model are determined by the critical determinants 
+of toxicokinetics, available data sets, and intended end-use.
+The practice of incorporating biological and physiological 
+concepts into the analysis and interpretation of toxicokinetic data is 
+not entirely new. The PBPK-type descriptions were developed for 
+gaseous anesthetics as early as the 1920s and then applied to model 
+the uptake and disposition of certain biopharmaceutics, antineoplas-
+tics, and volatile organic chemicals (Haggard, 1924; Teorell, 1937; 
+Kety, 1951; Mapleson, 1963; Riggs, 1970; Bischoff et al., 1971; 
+Dedrick et al., 1972; Fiserova-Bergerova, 1975). Since the publica-
+tion of a PBPK for styrene by Ramsey and Andersen (1984), there 
+has been increasing interest in the development of PBPK models for 
+xenobiotics and drugs (Reddy et al., 2005; Krishnan and Andersen, 
+2010). Fig. 7-9 presents the key steps of PBPK modeling, with a 
+specific end-use as the motivation for model development (e.g., 
+chemical risk assessment) (WHO, 2010). Defining the scope and 
+intended application of the PBPK model up-front is important to 
+ensure that the model development process is concordant with the 
+required level of precision and extent of evaluation. Overall, the 
+construction of PBPK models begins with the development of a 
+model structure, mathematical representation of key processes, and 
+estimation of model parameters. The PBPK model equations and 
+parameters are then written as a computer program, solved to pro-
+vide toxicokinetic simulations, and compared with available data to 
+guide further refinement or analysis (sensitivity, uncertainty, vari-
+ability) in view of assessing the suitability of the model for the 
+intended application.
+Model Structure
+The structure of a PBPK model for a given chemical corresponds 
+to a diagrammatic representation of key processes and pathways 
+determining its toxicokinetics in the organism (i.e., species or indi-
+vidual). The PBPK model is represented as boxes and arrows, with 
+the boxes corresponding to the organs (individual or groups) and 
+the arrows reflecting the physiological flows and clearance pro-
+cesses. The art of developing a PBPK model structure requires 
+striking a balance between the principles of parsimony (i.e., mini-
+mal but essential elements) and plausibility (i.e., reflective of physi-
+ological reality), while being consistent with the current state of 
+knowledge on the toxicokinetics and mode of action of the chemi-
+cal or drug under study. In other words, the complexity of PBPK 
+models increases only when it is required to explain the behavior 
+contained in the toxicokinetic data. In PBPK models, increments 
+of complexity generally involve the addition of compartments with 
+different time-constants (i.e., blood flow divided by the distribu-
+tion volume specific to each tissue compartment) or mathematical 
+representations of mechanisms to account for specific accumula-
+tion or disposition behavior of the chemical under study. The level 
+of detail relates not only to the compartments (e.g., whole body, 
+target tissue, or intracellular concentrations) but also to the chemi-
+cal forms that are tracked within the model (e.g., parent chemical, 
+metabolites, mixture components).
+For a hydrophilic chemical whose concentrations across com-
+partments are comparable, a one-compartment PBPK model might 
+well be sufficient. However, for chemicals exhibiting different 
+time-course profiles in various tissues, a multicompartmental PBPK 
+description is required. Fig. 7-10 shows the structure of a four-­
+compartmental PBPK model used for simulating the inhalation tox-
+icokinetics of toluene, a lipophilic volatile organic chemical. In this 
+particular case, the model compartments together represent ≈ 91% 
+of body mass in adult rats. The remaining 9% (corresponding to 
+the mass of the skeletal/structural components) is not included 
+in the PBPK model because toluene does not exhibit significant 
+affinity for, or accumulate in, skeletal and structural components. 
+In this particular model, the “lung” compartment only represents 
+the portal of entry, assuming no significant pulmonary metabolic 
+activity toward toluene. The four compartments of this model cor-
+responding to liver, fat, poorly perfused tissues, and richly perfused 
+Conceptual
+Representation
+Mathematical
+Representation
+Simulation
+and
+Evaluation
+Application
+for Specific
+End-use
+Parameter
+Estimation
+M
+O
+D
+E
+L
+R
+E
+F
+I
+N
+E
+M
+E
+N
+T
+Figure 7-9.  Simplified schematic of the steps involved in the development 
+of physiologically based toxicokinetic models.
+Inhaled
+Lungs
+Adipose tissue
+Richly perfused
+tissues
+Liver
+Metabolism
+Poorly perfused
+tissues
+Exhaled
+Figure 7-10.  Physiologically based toxicokinetic model for toluene, a low-
+molecular-weight volatile organic chemical. The main route of its intake is 
+via inhalation and absorption by the lungs. Transport of chemical through-
+out the body by blood is depicted by the arrows. Elimination of toluene as 
+depicted by the model includes metabolism and exhalation. All compart-
+ments are perfusion-limited.
+
+412
+Disposition of toxicants
+unit II
+tissues together account for the mass balance of toluene entering 
+the body and the mass balance of physiological flows in the model 
+at any given time. The “fat” compartment in the PBPK model rep-
+resents the adipose tissues in the body representing storage depot 
+for toluene. The richly perfused tissue compartment comprises tis-
+sues such as adrenal, kidney, thyroid, brain, lung, heart, and testis 
+whereas the poorly perfused tissue compartment represents muscle 
+and skin, characterized by differences in the blood flow rate per 
+gram tissue (Table 7-7). Whereas lumping of various tissues into 
+a single compartment is ideal when the concentration versus time 
+profiles is similar across the tissues, the splitting of compartments 
+into component tissues are done often because of the need to simu-
+late chemical concentrations in (i) target organ(s), (ii) organs with 
+significant metabolism, binding, and excretion processes, (iii) sites 
+with specific affinity or capacity for accumulation of the chemical 
+under study (e.g., teeth, bone, fat), (iv) portals of entry into the 
+body, or (v) those tissues that exhibit significant difference in time-
+constants due to physical activity or pathophysiological states.
+Mathematical Representation
+The fundamental equations used for characterizing xenobiotic con-
+centrations in tissue compartments of PBPK models are given in 
+Table 7-8. The following paragraphs provide sample descriptions 
+of the computation of concentrations of neutral, nonionized chem-
+icals in metabolizing and non-metabolizing organs as well as in 
+systemic circulation (Himmelstein and Lutz, 1979; Gerlowski and 
+Jain, 1983; Ramsey and Andersen, 1984; Rowland, 1985).
+Computing Tissue Concentrations  The rate of change in the 
+amount of chemical in the tissue compartments (dA/dt) is propor-
+tional to the concentration difference (Cin − Cout) and the membrane 
+permeability coefficient (k), as per Fick’s first law as described 
+below:
+	
+dA
+dt
+k
+C
+C
+=
+⋅
+−
+(
+).
+in
+out
+
+(7-19)
+Because the chemical input to the tissue (amount per unit time) 
+equals the influx clearance (CLin) times incoming concentration 
+(Cin), whereas the chemical removal (amount per unit time) equals 
+efflux clearance (CLout) and the concentration leaving the compart-
+ment (Cout), the above mass balance differential equation (MBDE) 
+can be rewritten as follows:
+	
+dA
+dt
+C
+C
+=
+⋅
+−
+⋅
+(
+)
+(
+).
+CL
+CL
+in
+in
+out
+out
+
+(7-20)
+The concentration of free chemical leaving a tissue compartment, 
+Cout, depends upon the amount of chemical in that particular com-
+partment (At) and its distribution volume (i.e., tissue volume, Vt 
+multiplied by tissue:blood partition coefficient, Ptb), such that the 
+above equation becomes:
+	
+dA
+dt
+C
+A
+V
+P
+=
+⋅
+−
+⋅
+⋅
+
+
+
+
+
+
+(
+)
+.
+CL
+CL
+in
+in
+out
+t
+t
+tb
+
+(7-21)
+The clearance terms in the above equation depend upon the mem-
+brane permeability and tissue blood flow. Quantitatively, the influx 
+Table 7-7  
+Examples of Tissues Often Lumped Together as a 
+Compartment in PBPK Models
+TISSUE GROUPS
+EXAMPLES
+POORLY PERFUSED TISSUES
+Muscle
+Skin
+RICHLY PERFUSED TISSUES
+Adrenal
+Kidneys
+Thyroid
+Brain
+Lungs
+Heart
+Testis
+Table 7-8  
+Equations for Calculating the Rate of Change, Amount, and Concentration of Chemical in a Flow-Limited 
+Compartment of a Physiologic Toxicological Model
+DESCRIPTION OF THE EQUATION
+MATHEMATICAL FORM
+Rate of change in amount of chemical in tissue = Tissue blood flow rate × 
+[Concentration in arterial blood – Concentration in venous blood leaving tissue]
+ 
+dA
+dt
+Q
+C
+C
+tissue
+tissue
+a
+vt
+=
+×
+−
+(
+)
+ 
+Amount of chemical in tissue = [Rate of change in amount in tissue × Integration 
+time interval] + Previous amount in tissue
+ 
+A
+dA
+dt
+dt
+A
+tissue
+tissue
+tissue t
+=
+×
+
+
+
+
+
++
+−
+,
+1
+ 
+Concentration of chemical in tissue = Amount in tissue/Tissue volume
+ 
+C
+A
+V
+tissue
+tissue
+tissue
+=
+ 
+Chemical concentration in venous blood leaving tissue = Concentration in tissue/
+Tissue:blood partition coefficient
+ 
+C
+C
+P
+vt
+tissue
+tissue blood
+=
+:
+ 
+Abbreviations: Ctissue, concentration in tissue (mg/liter or mmol/liter); Qtissue, blood flow rate (liters·h−1); Vtissue, tissue volume (liters); 
+Ptissue:blood, tissue:blood partition coefficient; Atissue, amount in tissue (mg); t, current time; t−1, previous simulation time; Ca, arterial blood 
+concentration; Cvt, venous blood leaving tissue.
+SOURCE: Based on Ramsey and Andersen (1984).
+
+Toxicokinetics
+Chapter 7
+413
+and efflux clearances can be expressed in terms of permeation area 
+cross product (PA) and tissue blood flow rate (Qt) as follows: PA 
+× Qt/(PA + Qt). Accordingly, when the PA of a chemical is very 
+large compared to Qt, the latter becomes the limiting factor such 
+that influx and efflux clearance values are equal to Qt. In contrast, 
+when PA << Qt (i.e., membrane diffusion limiting the chemi-
+cal movement into and out of a tissue compartment), then influx 
+and efflux clearance values would equal PA (Gerlowski and Jain, 
+1983). In this regard, for small molecular weight compounds, blood 
+flow rather than the membrane diffusion is the limited factor, such 
+that the above MBDE can be rewritten as follows (Ramsey and 
+Andersen, 1984):
+	
+dA
+dt
+Q C
+C
+=
+−
+t
+a
+vt
+(
+), 
+(7-22)
+where Ca = concentration of chemicals in arterial blood entering 
+the tissue compartment and Cvt = concentration of chemical in 
+venous blood leaving the tissue
+For high-molecular-weight compounds, the membrane diffu-
+sion rather than tissue blood flow is the limiting factor such that 
+their flux through the cellular matrix and tissue blood needs to be 
+accounted for separately (Table 7-9). If the diffusion of a chemical 
+from tissue blood to cellular matrix is slow with respect to tissue 
+blood flow, then both the extracellular and intracellular compo-
+nents are characterized (Fig. 7-11 and 7-12). However, when the 
+tissue perfusion rate (i.e., blood flow) is very small compared to 
+membrane diffusion, then the tissues are described as homoge-
+neous, well-mixed compartments. Consequently, the rate of change 
+in the amount of chemical in the tissue is described with a single 
+equation for the whole tissue mass (Eq. 7-22), followed by the use 
+of the output of this equation to calculate concentration in the tissue 
+and venous blood leaving the tissue (Table 7-8).
+For compartments exhibiting metabolic capacity, the rate of 
+the amount cleared by metabolism (dAmet/dt) is also included such 
+that the MBDE becomes:
+	
+dA
+dt
+Q C
+C
+dA
+dt
+=
+−
+−
+t
+a
+vt
+met
+(
+)
+. 
+(7-23)
+The rate of metabolism in PBPK models is described as a first-order, 
+second-order, or saturable process (Table 7-10). When the amount 
+metabolized per unit time is directly proportional to the input vari-
+able (e.g., free concentration of chemical in liver), metabolism 
+is described as a first-order process. The second-order equation is 
+employed when the rate of metabolism depends on the available 
+concentration of both the cofactor and the chemical. The satura-
+ble metabolism, often described as a Michaelis–Menten reaction, 
+reflects first-order behavior at very low substrate concentrations 
+and zero-order behavior at concentrations that are far excessive 
+of the Michaelis parameter, Km. All the metabolism descriptions 
+presented in Table 7-10 are based on venous blood concentration 
+(i.e., free concentration) of a xenobiotic, reflecting the “venous 
+equilibration model” descriptions. Because the calculation of 
+the rate of metabolism is integrated within Eq. (7-23), the blood 
+flow limitation (i.e., perfusion limitation) of hepatic metabolism 
+Table 7-9  
+Equations Used for Describing Diffusion-Limited 
+Uptake in Physiologic Toxicokinetic Models
+SUBCOMPARTMENTS EQUATIONS
+Tissue blood
+ dA
+dt
+Q
+C
+C
+PA
+C
+C
+1
+1
+2
+=
+×
+−
+−
+×
+−
+t
+in
+out
+(
+)
+[
+]
+(
+)
+ 
+Cellular matrix
+ 
+dA
+dt
+PA
+C
+C
+2
+1
+2
+=
+×
+−
+[
+]
+(
+)
+ 
+Abbreviations: C, concentration (mg/liter or mmol/liter); Q, flow rate 
+(liters.h−1); V, volume (liters); A, amount (mg); PA, permeability-area 
+coefficient; C1−C2, concentration differential between tissue blood and 
+cellular matrix.
+Flux1
+Flux2
+Vascular space
+Intracellular space
+Interstitial space
+Binding sites
+Figure 7-11.  Schematic representation of a lumped tissue compartment 
+in a physiologically based toxicokinetic model. The blood capillary and 
+cell ­barriers separating the vascular, interstitial, and intracellular subcom-
+partments are depicted in heavy black lines. The vascular and interstitial 
+subcompartments are often combined into a single extracellular subcom-
+partment.
+Extracellular space
+Intracellular space
+Qt · Cout
+Qt ·Cin
+Flux
+Figure 7-12.  Schematic representation of a tissue compartment that fea-
+tures membrane-limited uptake kinetics. Perfusion of blood into and out of 
+the extracellular compartment is depicted by longer arrows. Transmembrane 
+transport (flux) from the extracellular to the intracellular subcompartment 
+is depicted by shorter arrows. Qt is blood flow, Cin is toxicant concentration 
+entering the compartment, and Cout is toxicant concentration leaving the 
+compartment.
+Table 7-10  
+Examples of Equations Used for Calculating the Rate 
+of the Amount of Chemical Metabolized (dAmet/dt) 
+in Physiologic Toxicokinetic Models
+REACTION TYPE
+EQUATION
+First-order process
+dA
+dt
+K
+C
+V
+met
+f
+vt
+t
+=
+⋅
+⋅
+  
+Second-order process
+ 
+dA
+dt
+K
+C
+V
+C
+met
+s
+vt
+t
+cf
+=
+⋅
+⋅
+⋅
+ 
+Saturable process
+dA
+dt
+V
+C
+K
+C
+met
+max
+vt
+m
+vt
+=
++
+⋅
+ 
+Abbreviations: Ccf, concentration of the cofactor; Cvt, concentration 
+of chemical in venous blood leaving the tissue; Kf, first-order reaction 
+rate; Km, Michaelis constant; Ks, second-order reaction rate constant; 
+Vmax, maximal velocity; Vt, volume of metabolizing tissue.
+
+414
+Disposition of toxicants
+unit II
+is automatically accounted for. Alternatively, the blood flow to 
+liver and hepatic extraction ratio can be used explicitly to describe 
+metabolism in PBPK models (as Qh·Eh·Ca, where Qh = liver blood 
+flow rate, Eh = hepatic extraction ratio, and Ca = arterial blood 
+concentration), but the Eh may be dose-dependent when saturation 
+occurs in the dose range of interest.
+Analogous to the hepatic clearance, the MBDE can accommo-
+date biliary and fecal clearances by taking into account the rate of bile 
+flow, the rate of transfer into and reabsorption from the bile, as per 
+the molecular weight of the chemical or its conjugated metabolite. 
+Urinary excretion is modeled as a function of the rates of filtration, 
+reabsorption, and secretion (Eq. 7-8). The amount of chemical filtered 
+(dF/dt) and the rate of change in the concentration of chemical or its 
+metabolite in the urine (dU/dt) are calculated as follows:
+	
+dF
+dt
+C
+=
+⋅
+GFR
+v, 
+(7-24)
+	
+dU
+dt
+U
+C
+=
+⋅
+o
+u, 
+(7-25)
+where GFR = glomerular filtration rate, Uo = urinary output per 
+unit time, Cv = unbound blood concentration of xenobiotic, and 
+Cu = xenobiotic concentration in urine. The amount of chemical 
+secreted (or reabsorbed) then equals the difference between the 
+amount in urine and the amount filtered (Eq. 7-8).
+Computing Blood Concentrations  The rate of change in the 
+amount of chemical in blood compartment in PBPK models can be 
+calculated conceptually as per Eq. (7-22). Alternatively, the mass 
+conservation equations can be solved to compute blood concentra-
+tions, as done for volatile organic chemicals (Ramsey and Andersen, 
+1984). In this regard, chemical input to the lung compartment equals 
+the amount inhaled (Qp × Cinh) plus the amount returning to lungs 
+via mixed venous blood (Qc × Cv), whereas the output equals the 
+amount leaving the lungs via arterial blood (Qc × Ca) plus the 
+amount exhaled (Qp × Calv), as depicted in Fig. 7-13. Notationally,
+	
+Q C
+Q C
+Q C
+Q C
+p
+inh
+c
+v
+c
+a
+p
+alv
++
+=
++
+, 
+(7-26)
+where Cinh = inhaled concentration, Cv = mixed venous blood 
+­concentration, Ca = arterial concentration, Calv = alveolar concen-
+tration, Qp = alveolar ventilation rate, and Qc = cardiac output.
+Given that lung equilibrates vapor between alveolar air and 
+blood (Calv = Ca/Pb), the above equation can be rewritten to compute 
+arterial blood concentration as follows (Ramsey and Andersen, 1984):
+	
+C
+Q C
+Q C
+Q
+Q
+P
+a
+p
+inh
+c
+v
+c
+p
+b
+=
++
++
+
+
+
+
+
+
+.
+
+(7-27)
+The above equation simplifies to Ca =Cv for highly nonvolatile 
+chemicals (with a negligible value of Cinh and very large Pb) not 
+metabolized in the lung compartment. In such situations, the con-
+ducting airways (i.e., nasal passages, larynx, trachea, bronchi, and 
+bronchioles) are considered as inert tubes that carry the chemical to 
+the pulmonary region, where diffusion occurs. When simple con-
+tinuous ventilation-equilibration models are insufficient to describe 
+the uptake behavior (e.g., regional uptake of highly soluble polar 
+solvents), the adsorption and/or dissolution in the surface of the 
+respiratory epithelium during inhalation as well as desorption dur-
+ing exhalation are taken into account along with the cyclic nature 
+of respiratory exchange (Johanson, 1991).
+The mixed venous blood concentration, Cv, entering the lung 
+compartment results from the venous concentration of chemicals 
+leaving the various tissue compartments following their equilibra-
+tion as a function of the tissue:blood partition coefficients. The Cv 
+is not a simple average of Cvt of the tissue compartments, as the 
+fraction of cardiac output flowing into and out of the tissues is not 
+identical across the compartments. Considering the fractional flow 
+through the various compartments in the rat (e.g., liver = 0.25, 
+fat = 0.09, slowly perfused tissues = 0.15, and richly perfused 
+tissues = 0.51 [Tardif et al., 1997]), the Cv is calculated as the 
+weighted average concentration as follows:
+	
+C
+C
+C
+C
+C
+v =
+⋅
++
+⋅
++
+⋅
++
+⋅
+( .
+)
+( .
+)
+( .
+)
+( .
+),
+0 25
+0 09
+0 15
+0 51
+vl
+vf
+vs
+vr
+
+(7-28)
+where subscripts vl, vf, vs, and vr correspond to venous blood leav-
+ing the liver, fat, slowly perfused tissue, and richly perfused tissue 
+compartments.
+Parameters: Significance and Estimation
+The equations of the PBPK models contain a number of input parame-
+ters, which are conveniently grouped as physiological, physicochemi-
+cal, or biochemical parameters including rate constants of reactions 
+and clearance processes relevant to the chemical being modeled.
+Physiological Parameters  The physiological parameters con-
+sist of volumes and flows; the volumes are required for the tissues 
+or tissue groups represented as boxes whereas flows are associated 
+with the arrows in the model which include alveolar ventilation rate, 
+cardiac output, and organ-specific blood flow rates. Tissue volumes 
+along with their composition, relative to that of blood, determine the 
+extent to which chemicals are diluted within each compartment. The 
+greater the volume of tissue and lipid content, the larger the Vd of 
+lipophilic xenobiotics, thus leading to lower blood concentrations. 
+For example, the volume of adipose tissue represents about 19% to 
+25% of body weight in adult humans. This adipose volume along 
+with the high Ptb for lipophilic organic chemicals (e.g., adipose tis-
+sue Ptb for DDT = 199) contributes significantly to the Vd (e.g., for 
+DDT 70kg × 0.25 L/kg × 199 = 3483 L) (Haddad et al., 1999; 
+Kirman et al., 2011), and as a source of prolonged internal exposure 
+to such chemicals. In contrast, the tissue blood flow influences the 
+rate at which a chemical in systemic circulation is delivered to a 
+tissue. Tissues with smaller volumes and high perfusion rates will 
+Alveolar space
+Pulmonary blood
+Qp ·Cinh
+Qp · Calv
+Qc · Ca
+Qc ·Cv
+Figure 7-13.  Simple model for exchange of nonreactive volatile organic 
+chemicals in the alveolar region of the respiratory tract. Rapid exchange 
+of toxicants in the simplified lung compartment between the alveolar gas 
+(blue) and the pulmonary blood (light blue) maintains an equilibrium 
+between them as symbolized by the dashed line. Qp is alveolar ventilation 
+(L/h); Qc is cardiac output (L/h); Cinh is inhaled vapor concentration (mg/L); 
+Ca is concentration of chemical in the arterial blood; Cv is concentration of 
+chemical in the mixed venous blood. The equilibrium relationship between 
+the chemical in the alveolar air (Calv) and the chemical in the arterial blood 
+(Ca) is determined by the blood:air partition coefficient Pb, that is, Calv = 
+Ca/Pb. (Based on Ramsey and Andersen, 1984.)
+
+Toxicokinetics
+Chapter 7
+415
+attain maximal extent of accumulation for a given exposure situa-
+tion (i.e., steady-state condition) faster compared to other tissues.
+The ventilation rate in mammals, in general, is about 15 to 
+18 L/h/kg but it is not directly proportional to the body weight 
+(BW) of mammals but to the body surface area or approximately 
+to BW0.7. Experimental measurements of breathing rates have been 
+obtained with the use of a spirometer, plethysmograph, pneumo-
+tachograph, hotwire anemometer, or nonbreathing valves (Krishnan 
+and Andersen, 2007). The cardiac output, a key determinant of the 
+rate at which absorbed chemicals are distributed to and collected 
+from all tissues, has been obtained from dye dilution curves using 
+oximeters. The cardiac output is faster in smaller animals (e.g., 
+mice) than in larger animals (e.g., humans), and again proportional 
+to body surface area or BW0.7. The cardiac output in mammals is 
+often comparable to the ventilation rate such that the ratio of perfu-
+sion rate:ventilation rate is about 1 in resting individuals, but it can 
+vary as a function of workload and physical activity.
+While anthropometric data and breathing rates are often 
+obtained in test animals/subjects, other physiological parameters 
+required for PBPK modeling are obtained from existing litera-
+ture or calculated on the basis of body weight for each species and 
+life-stage (O’Flaherty, 1994; Brown et al., 1997; Corley et al., 
+2003; Price et al., 2003a, 2003b; Dewoskin and Thompson, 2008). 
+Table 7-11 presents a summary of frequently used values of basic 
+physiological parameters for adult rats, mice, and humans. Databases 
+on animal and human physiological parameters for various age groups, 
+pathophysiological states, and strains/races are still evolving. While the 
+average value or the range of plausible values of physiological param-
+eters is sufficient for routine model development, the statistical distri-
+butions of such parameters would be essential if the model is intended 
+for use in estimating interindividual differences in tissue dosimetry.
+Physicochemical Parameters  The physicochemical parameters 
+required for PBPK modeling are the partition coefficients, which 
+represent the relative distribution of a nonionized chemical between 
+two matrices at equilibrium. Of these, the tissue to blood partition 
+coefficient (Ptb) is a key determinant of the volume of distribution 
+specific to each tissue compartment of a PBPK model, whereas the 
+blood:air partition coefficient (Pb) is a determinant of the pulmonary 
+uptake and clearance of volatile organic chemicals. The pulmonary 
+absorption of chemicals possessing a relatively high Pb is limited 
+by alveolar ventilation rate, whereas that of chemicals with low Pb 
+is limited by cardiac output. Experimentally, the values of Pb have 
+been obtained in vitro by vial equilibration technique conducted at 
+37°C (Gargas et al., 1989). They can also be computed as the ratio 
+of solubility of a chemical in blood and air as determined by the 
+solubility in neutral lipid, phospholipid, and water components of 
+the blood as follows (Poulin and Krishnan, 1996b):
+P
+P
+F
+F
+P
+F
+F
+b
+oa
+nb
+pb
+wa
+wb
+pb
+=
+⋅
++
++
+⋅
++
+(
+.
+)
+(
+.
+),
+0 3
+0 7
+
+(7-29)
+where Poa = n-octanol:air or vegetable oil:air partition coefficient, 
+Pwa = water:air partition coefficient (inverse of the unitless Henry’s 
+law constant), Fnb = fraction of neutral lipids in blood, Fpb = frac-
+tion of phospholipids in blood (considered to behave as a mixture 
+of neutral lipids [30%] and water [70%], based on the hydropho-
+bicity characteristics of commercial lecithin [Poulin and Krishnan, 
+1995]), and Fwb = fraction of water in blood.
+While this algorithm has worked well for the prediction of 
+Pb of relatively hydrophilic organic chemicals (ketones, alcohols, 
+acetates ester, and diethyl ether), it is insufficient for more lipo-
+philic chemicals such as alkanes, halogenated alkanes, and aromatic 
+hydrocarbons, given their affinity for, and binding to, the hydropho-
+bic pockets in the hemoglobin. The apparent blood:air PC (Pb,app) for 
+such chemicals has been successfully described with the Pb based 
+on lipid and water solubility as well as binding calculated using the 
+association constant (Ka), the concentration of haemoglobin (Cp), 
+and the concentration of the free form of the chemical in erythro-
+cytes ( Cafree ) as shown below (Poulin et al., 1999):
+	
+P
+P
+K
+C
+K
+C
+ba app
+b
+a
+p
+a
+afree
+,
+(
+) .
+=
+⋅
++
+⋅
++
+⋅
+
+
+
+
+
+
+1
+1
+
+(7-30)
+The tissue:blood or tissue:plasma partition coefficients can be 
+estimated experimentally using in vivo pharmacokinetic data or 
+in vitro techniques such as equilibrium dialysis and ultrafiltra-
+tion (Krishnan and Andersen, 2007). Animal-alternative methods 
+have been emerging, and have given rise to a variety of algorithms 
+accounting for molecular features, physicochemical characteristics, 
+or mechanisms relevant for a training set of chemicals (Table 7-12). 
+In this regard, the simple mechanistic algorithms based on tissue 
+and blood composition take into account the solubility of a xenobi-
+otic in blood and tissues as the sum total of its solubility in neutral 
+lipids, phospholipids, and water, as follows (Poulin and Krishnan, 
+1995, 1996a, 1996b):
+	
+P
+P
+F
+F
+F
+F
+P
+F
+F
+tb
+ow
+pt
+nt
+pt
+wt
+ow
+pb
+nb
+=
+⋅
++
++
++
+⋅
++
++
+[
+( .
+)]
+[ .
+]
+[
+( .
+)]
+[ .
+0 3
+0 7
+0 3
+0 7F
+F
+pb
+wb
++
+], 
+(7-31)
+where Ptb = tissue:blood partition coefficient, Pow = n-octanol:water 
+or vegetable:oil partition coefficient, Fnt = fraction of neutral lipids in 
+the tissue, Fpt = fraction of phospholipids in tissue, and Fwt = fraction 
+of water in tissue. Table 7-13 summarizes the data on the rat blood 
+and tissue content of neutral lipids, phospholipids, and water.
+In order to appreciate the mechanistic basis of Ptb using the 
+above equation, let’s examine highly lipophilic organic chemicals 
+with Pow ≥ 1000 not exhibiting plasma protein binding. In this 
+case, the second term in Eq. (7-31) (i.e., water solubility) is neg-
+ligible compared to the first term (i.e., lipid solubility) in both the 
+Table 7-11  
+Physiological Parameters of Adult Mice, Rats, and 
+Humans for PBPK Modeling
+PHYSIOLOGICAL PARAMETERS
+MOUSE
+RAT
+HUMAN
+Cardiac output (Qc) (liters/min)
+0.017
+0.083
+6.20
+Alveolar ventilation (liters/min)
+0.025
+0.117
+5.00
+Tissue volumes (fraction of 
+body weight)
+Liver
+0.055
+0.04
+0.026
+Fat
+0.10
+0.07
+0.190
+Organs
+0.05
+0.05
+0.05
+Muscle and skin
+0.70
+0.75
+0.62
+Tissue perfusion (fraction of 
+cardiac output)
+Liver
+0.25
+0.25
+0.26
+Fat
+0.09
+0.09
+0.05
+Organs
+0.51
+0.51
+0.44
+Muscle and skin
+0.15
+0.15
+0.25
+SOURCE: Travis and Hattermer-Frey (1991).
+
+416
+Disposition of toxicants
+unit II
+numerator and denominator, such that Ptb equals the ratio of the 
+content of neutral lipid-equivalents (NLE, i.e., neutral lipids plus 
+30% of phospholipids) in tissues and blood. For example, in the 
+case of organic chemicals with Pow values ranging from 2738 to 
+67,200 (cyclohexane, n-pentane, methylcyclopentane, 2,2-dimethyl 
+butane, n-hexane, 2-methyl pentane, n-heptane and 3-methyl hex-
+ane), the average human adipose tissue:blood (Pat:b) is nearly equal 
+to 199, which is the ratio of the NLE content in adipose tissues 
+and blood. Similarly, the reported human adipose tissue:serum 
+partition coefficients of PCBs, PBBs, DDT, dieldrin, mirex, and 
+hexachlorocyclohexane range from 140 to 336, whereas the aver-
+age ratio of NLE content in human adipose tissue and serum equals 
+173 (Haddad et al., 2000). In contrast, the Ptb of highly hydrophilic 
+chemicals equals the ratio of tissue to blood content of water-equiv-
+alents (WE, i.e., water plus 70% phospholipids). For example, in 
+the case of alcohols, acetate esters and ketones with Pow of ≤ 1, 
+the human liver:blood partition coefficients range from 0.81 to 
+1.00, comparable to the ratio of WE in liver and blood (= 0.86). 
+The ratio of the content of WE in muscle to blood equals 0.90 
+whereas that for human adipose tissue to blood is about 0.15 
+(Haddad et al., 2000).
+Rate Constants and Biochemical Parameters  Rate con-
+stants and biochemical parameters required for PBPK modeling 
+include oral absorption rate constant, dermal permeability coef-
+ficient, membrane diffusion coefficient, maximal velocity for 
+metabolism, Michaelis parameter, binding association constant, 
+and urinary/biliary excretion rate. These parameters have often 
+been determined on the basis of time-course data collected in vivo 
+or in vitro (Krishnan and Andersen, 2007; Bessems et al., 2014). 
+Typically, data analysis to estimate parameters is conducted using 
+the portion of the time-course curve that is most sensitive to the 
+dominant factor(s). Even though there have been examples of suc-
+cessful integration of in vitro data within PBPK models to simulate 
+in vivo kinetics, the adequacy of in vitro–in vivo extrapolation is 
+not well established for all test systems and processes (Terasaki 
+et al., 1984; Farris et al., 1988; Frederick et al., 1992; Bale et al., 
+2014; Bessems et al., 2014).
+In silico approaches applicable to xenobiotics are evolving 
+based on the rich database for pharmaceutical substances regard-
+ing the determinants of oral absorption (i.e., lipophilicity, pKa, 
+solubility, particle size, permeability, release kinetics, and dissolu-
+tion kinetics), as well as mathematical models and algorithms to 
+simulate the rate of drug absorption in humans. For the metabolism 
+constants, there are increasing examples of scaling to in vivo of 
+parameters obtained in vitro with microsomes, post-mitochondrial 
+fractions preparations, and freshly isolated hepatocytes (Bale et al., 
+2014). Generally, the Km values obtained in vitro have been used 
+directly or by taking into account the difference in the composition 
+of the in vitro and in vivo matrices, whereas the Vmax obtained in 
+vitro have been scaled to the whole organism based on the mass 
+recovery of the particular fraction as exemplified by the following 
+equation for the microsomal data:
+	
+V
+V
+C
+F
+max in vivo
+max in vitro
+protein
+tissue
+(
+)
+(
+)
+,
+=
+⋅
+⋅
+
+(7-32)
+where Vmax (in vivo) = maximal velocity of metabolism in vivo 
+(mg/min/kg body weight), Vmax (in vitro) = maximal velocity of metab-
+olism in vitro (mg/min/mg microsomal protein), Cprotein = concen-
+tration of microsomal protein (mg/g tissue), and Ftissue = fractional 
+volume of the metabolizing tissue (e.g., g liver/kg body weight). In 
+the absence a priori estimates of numerical values of Vmax and Km, 
+by specifying the range of plausible values of hepatic extraction in 
+PBPK models (e.g., nearly zero as the lower limit and 100% extrac-
+tion as the theoretically plausible upper limit), an envelope of the 
+range of blood concentration–time profiles can be generated prior 
+to in vivo experimentation (Fig. 7-14). In silico approaches for pre-
+dicting metabolic rates and elimination half-lives of xenobiotics in 
+experimental systems and biota are still evolving.
+Model Simulation
+The equations in a PBPK model are solved to obtain simulation 
+of the toxicokinetics of xenobiotics for a given species, dose, and 
+exposure scenario (Fig. 7-15). In order to solve the MBDE of each 
+tissue compartment, the arterial (input) blood concentration needs 
+to be known, which depends upon mixed venous concentration as 
+well as the chemical input resulting from absorption. The mixed 
+venous concentration in turn depends upon the chemical concen-
+tration in venous blood leaving the tissue compartments, such that 
+the input and output of all compartments within the PBPK model 
+are interconnected in a loop-type calculation. Fundamental to the 
+Table 7-13  
+Average Lipid and Water Content (as %) of Rat 
+Tissues and Blood*
+TISSUE
+NEUTRAL LIPIDS
+ PHOSPHOLIPIDS
+WATER
+Adipose
+85.30
+0.20
+12
+Blood
+0.33
+0.24
+82
+Liver
+3.50
+2.50
+70
+Muscle
+0.90
+1.00
+74
+*Data from Poulin et al. (1999).
+Table 7-12  
+Tissue Composition Algorithms for Predicting 
+Partition Coefficients for Physiologically Based 
+Toxicokinetic Models
+PARTITION 
+COEFFICIENT
+SUBSTANCES
+REFERENCES
+Tissue:blood 
+partition  
+coefficient
+Volatile and 
+nonvolatile 
+organics
+Poulin and Krishnan, 
+1995, 1996a, 1996b; 
+Peyret et al., 2010
+Hydrophilic 
+organics
+Poulin and Krishnan, 
+1995, 1996a, 1996b; 
+Haddad et al., 2000; 
+Poulin and Theil, 2002; 
+Peyret et al., 2010
+Tissue:plasma 
+water distribution 
+coefficient
+Bases
+Poulin and Theil, 2002; 
+Rodgers et al., 2005; 
+Schmitt, 2008; Peyret 
+et al., 2010
+Acid,  
+neutrals, 
+zwitterions
+Poulin and Theil, 2002; 
+Rodgers and Rowland, 
+2006; Schmitt, 2008; 
+Peyret et al., 2010
+
+Toxicokinetics
+Chapter 7
+417
+are many commercially available software packages that have fea-
+tures required for rapid construction of PBPK models. Alternatively, 
+spreadsheet programs such as Microsoft EXCEL® can be used to 
+construct simple models and examine the temporal change in the 
+chemical concentration in the various compartments (e.g., Haddad 
+et al., 1996; Krishnan and Andersen, 2007).
+Model Verification and Evaluation
+Model verification focuses on whether the PBPK model is cor-
+rectly coded (error-free) and the toxicokinetic simulations could be 
+reproduced in a different programming software or computational 
+platform. Model evaluation focuses on comparing the simulations 
+(usually continuous) with experimental toxicokinetic data (usually 
+discrete), and ascertaining whether the model with its structure and 
+parameters is fit to provide output required for a specific end-use. 
+Given that both the PBPK model simulations and experimental data 
+are subject to uncertainty and variability, it is not realistic to expect 
+an exact match between every single data point and the simulation 
+output and therefore PBPK models providing predictions within a 
+factor of 2 of the experimental data have generally been consid-
+ered to be adequate. As such, the model evaluation focusing on 
+fit-for-purpose and not simply on fit-to-data is becoming the prac-
+tice. In this regard, WHO (2010) outlined a three-point approach 
+to conduct evaluation of PBPK models with emphasis on the (i) 
+biological basis, (ii) model performance, and (iii) reliability of the 
+model output (i.e., predictions of dose metrics) for the intended end-
+use (Fig. 7-16). Accordingly, the consideration of biological basis 
+focuses on whether the model structure and range of the input param-
+eters used in model development are biologically plausible, without 
+contradicting the fundamental physiological principles or the mass 
+balance (Table 7-14, column 1). The aspect of model performance 
+focuses on whether the model is able to adequately reproduce toxi-
+cokinetic data collected from more than one particular experiment 
+using more than one dose and route of administration (Table 7-14, 
+column 2). Finally, the consideration of reliability of dose metric 
+predictions focuses on how well the PBPK model simulates the 
+dose metrics of relevance to the end-use (e.g., AUCs for interspecies 
+extrapolation in risk assessment), with particular emphasis on the 
+results of uncertainty analysis and sensitivity analyses (Table 7-14, 
+column 3). While the uncertainty analysis involves the evaluation 
+implementation of these calculations is the integration of the differ-
+ential equations in the PBPK model. Thus, the temporal evolution 
+of tissue concentration is computed from the amount of chemical in 
+the tissue compartment, resulting from the integration of the differ-
+ential equation for the rate of change in the amount of chemical in 
+tissue (dAt/dt) with the use of step-by-step procedures referred to as 
+integration algorithms (e.g., Euler, Gear, Runge-Kutta routines, and 
+predictor-corrector methods) (Rideout, 1991). In the simplest form, 
+the integration algorithm takes into account incremental change in 
+the dependent variable at the end of a simulation period (referred to 
+as the integration interval) and adds it to the initial or starting value, 
+to generate the new value of the dependent variable at the end of 
+each time interval, as follows:
+	
+A
+A
+dA
+dt
+t
+t t
+t t
+,
+,
+,
+1
+0
+=
++
+⋅
+
+
+
+
+
+∆
+
+(7-33)
+where Δt = integration interval (e.g., t1–t0), At,t1 = final amount in 
+the tissue after the integration interval, At,t0 = initial amount in tis-
+sue, and dA/dt = the rate of change in the amount of chemical in the 
+tissue compartment during the time interval.
+The numerical simulation models, such as the PBPK models, 
+typically require the use of simulation software or packages. There 
+0.5
+0.4
+0.3
+0.2
+0.1
+Blood concentration (mg/L)
+0.0
+0
+2
+4
+6
+Time (h)
+E = 1
+E = 0
+8
+10
+Figure 7-14.  Physiologic toxicokinetic model simulations of the envelope 
+of minimum and maximum venous blood concentration profiles of toluene 
+following inhalation exposure, using hepatic extraction ratio (E) of zero 
+(i.e., no metabolism in liver) and one (i.e., complete extraction in liver). The 
+data points correspond to human data obtained from the published literature 
+for the same exposure concentration and scenario.
+100
+10
+1
+0.1
+0.01
+0
+6
+12
+Time (h)
+18
+24
+Fat
+Brain
+Venous blood
+Toluene concentration (mg/L)
+Figure 7-15.  Physiologic toxicokinetic model simulations of the time-course concentrations of toluene in fat, brain, and venous blood in humans exposed to 
+100 ppm for 8 hours. (Based on Tardif et al., 1997.)
+
+418
+Disposition of toxicants
+unit II
+of the impact of the lack of precise knowledge of parameter values 
+and model structure on toxicokinetic simulations, the sensitivity 
+analysis is a quantitative evaluation of how input parameters influ-
+ence the model output of dose metrics of relevance (e.g., AUC). 
+As illustrated in Fig. 7-17, if the highly sensitive parameters are 
+also the most uncertain or if the model simulations of dose met-
+ric are not sensitive to large variations of the values of some input 
+parameters, then such results can be used to guide the refinement of 
+the model and/or parameters before its intended use. However, if a 
+small change in a parameter value (i.e., the magnitude of which is 
+lower than that associated with measurement variability) only leads 
+to changes in output that are smaller than, or comparable to, the 
+variation in experimental measurement of the dose metric, then the 
+PBPK model would be considered to be reliable. When conducting 
+the uncertainty and sensitivity analyses, it is important to ensure 
+that (i) the numerical values of physiological parameters remain 
+within plausible limits, (ii) the sum of tissue volumes is within 
+or equal to the body weight, (iii) the sum of tissue blood flows is 
+Table 7-14  
+Checklist for Characterizing the Level of Confidence in Physiologically Based Toxicokinetic (PBPK) Models
+BIOLOGICAL BASIS OF PBPK MODELS
+PERFORMANCE OF PBPK MODELS
+RELIABILITY OF PBPK MODELS
+ • The sum total of the tissue blood flow rates 
+equals the cardiac output specified within the 
+model.
+ • The sum total of the volumes of compartments 
+equals the soft tissue volumes or body weight, 
+as the case may be.
+ • The values of tissue volumes and tissue blood 
+flow rates (individual or group) specified in the 
+model are within the documented range for the 
+particular species and life stage.
+ • The ventilation:perfusion ratio specified in the 
+model is within physiological limits.
+ • The allometric scaling of parameters, if 
+applicable, is consistent with the known 
+physiological principles.
+ • The major sites/processes of absorption, 
+distribution and clearance are included in the 
+model.
+ • The mathematical equations of ADME do not 
+violate the known theoretical or biological 
+principles.
+ • The input parameters adequately reflect the 
+characteristics of the subject, population, 
+chemical, and exposure pathway.
+ • The PBPK model consistently 
+reproduces the general trend of 
+the toxicokinetic data (i.e., peaks, 
+bumps, and valleys, saturation of 
+metabolism).
+ • The PBPK model predictions 
+are within an acceptable level 
+of correspondence with the 
+experimental data (e.g., within a 
+factor of two).
+ • The PBPK model reproduces the 
+chemical-specific toxicokinetic 
+data under various experimental 
+conditions or exposure scenarios.
+ • The PBPK model is capable of providing 
+reliable predictions of the concentration–
+time course of the candidate dose metrics 
+in the target organ or a suitable surrogate 
+compartment (e.g., blood).
+ • The data used for calibrating and/or 
+evaluating the PBPK model are reliable.
+ • The sensitivity of the output (dose 
+metric) to change in numerical values of 
+input parameters has been characterized 
+for relevant human or animal exposures.
+ • The uncertainty in PBPK model 
+predictions of dose metric has been 
+assessed for the relevant exposure 
+conditions.
+UNCERTAINTY
+of toxicokinetic parameter
+SENSITIVITY
+of toxicokinetic parameter
+High
+High reliability
+Medium reliability
+Low reliability
+High
+Medium
+Low
+Medium
+Low
+Figure 7-17.  Illustration of the role of sensitivity and uncertainty analyses in 
+determining the reliability of the dose metric predictions, as per WHO (2010). 
+Sensitivity analysis results are presented as high (value of sensitivity ratio (SR) 
+greater than or equal to 0.5), medium (SR greater than or equal to 0.2 but less 
+than 0.5), or low (SR greater than or equal to 0.1 but less than 0.2). Uncertainty 
+analysis results are summarized as high uncertainty (value could be a factor 
+of 2 or higher), medium uncertainty (value could be a factor between 0.3 and 
+2), or low uncertainty (value could be a factor of 0.3 or lower). Uncertainty is 
+defined as the ratio of the 95th percentile over the median value for the dose 
+metric. A sensitivity ratio (SR) of 1 implies that a 1% change in input of a 
+parameter value leads to a 1% change in dose metric prediction.
+Biological Basis
+Model
+Performance
+Model
+Reliability
+Figure 7-16.  Key aspects for characterizing the level of confidence in physi-
+ologic toxicokinetic models intended for specific end-use, as per WHO (2010).
+
+Toxicokinetics
+Chapter 7
+419
+equal to the cardiac output, (iv) the mass balance is respected at all 
+times (amount of chemical absorbed = amount in body + amount 
+metabolized + amount of excreted), and (v) the covariant nature of 
+parameters is taken into account, in conformity with the statistical 
+and biological basis (e.g., the subject with the lowest breathing rate 
+is not combined with the highest cardiac output).
+In conclusion, the PBPK model is mechanistically based and 
+more complex than the classical data-based toxicokinetic models 
+but it is still a simplified representation of the biological system 
+under study. The PBPK models, as other mechanistic models, only 
+account for those determinants and processes that are hypothesized 
+to be critical by the investigator(s). The complexity and number of 
+compartments are thus not reflective of the accuracy and usefulness 
+of a given PBPK model, but are considered to be critical for simu-
+lating the toxicokinetics of the chemical in a given experimental 
+subject or species. Finally, the species, developmental stage, expo-
+sure route, and dose range corresponding to the toxicity study and 
+the PBPK modeling study should be compared to select the appro-
+priate model for use in interpreting a toxicity study.
+TOXICOKINETIC TOPICS 
+AND APPLICATIONS
+The interpretation of toxicology studies has sometimes been con-
+ducted on the basis of administered dose or absorbed dose when 
+such data were available. However, the dose to the target site is the 
+more desired and relevant dose metric. In this regard, the toxicoki-
+netic models are useful for estimating systemic exposure, in terms 
+of the toxic form of a chemical (parent or metabolite) over a specific 
+duration in blood or the target organ. Such a measure reflective of the 
+dose to the target is critical not only for interpreting the toxicity data 
+but also for conducting various extrapolations in the case of systemi-
+cally acting chemicals (i.e., those chemicals that induce toxicity at 
+target sites distant from the portals of entry by accessing them via 
+systemic circulation). The following sections describe these topics 
+and applications facilitated by toxicokinetic parameters and models.
+Nonlinear Kinetics
+The distribution and clearance of most chemicals follow first-order 
+kinetics in the low-dose region. Accordingly, the Kel, Vd, CL, and 
+t1/2 are expected to be same in the low-dose range (i.e., no dose-
+dependent change in kinetic parameters occurs under first-order 
+condition). In other terms, under first-order conditions, the dose 
+metrics (e.g., Cmax, AUC) will be nearly identical when compared 
+on the basis of unit dose (e.g., per µg/kg/day) or exposure con-
+centration (per ppm). A semilogarithmic plot of blood concentra-
+tion versus time over a range of doses will show a set of parallel 
+lines such that blood concentration at a given time or the AUC0
+∞ 
+remain proportional to dose. Thus, a twofold change in dose 
+(µg/kg/day) will result in a twofold change in blood concentration 
+at a given time after dosing or in the value of AUC0
+∞ if first-order 
+conditions prevail in the dose range. However, for some toxicants, 
+as the dose increases, its Vd and/or CL may change, showing non-
+linear or dose-dependent kinetics (Fig. 7-18). Enzyme-mediated 
+metabolism, active transport processes, and protein binding have 
+finite capacities and therefore can be saturated. For instance, most 
+metabolic enzymes operate in accordance to Michaelis–Menten 
+kinetics (Table 7-10), such that the rate of metabolism (amount per 
+unit time) depends upon the unbound concentration of the substrate 
+([S]) as well as intrinsic clearance (CLint
+m
+=
++
+V
+K
+S
+max
+[ ]), the latter 
+representing the ability of the enzyme machinery to cleanse the 
+medium in which the substrate is present (e.g., blood) (Gibaldi and 
+Perrier, 1982; Rowland and Tozer, 2011). Accordingly, at very high 
+substrate concentrations (i.e., [S] >> Km), the rate of metabolism 
+will be equal to Vmax (i.e., the maximal capacity of the enzyme) and 
+thus reflective of a zero-order process, that is, the rate of metabolism 
+remains the same regardless of the substrate concentration when the 
+latter is well above the Km. In contrast, at very low substrate con-
+centrations (i.e., when [S] is very small and negligible compared to 
+Km), the rate of metabolism is proportional to the concentration of 
+the substrate (i.e., first-order process) because CLint remains con-
+stant and equal to Vmax/Km. Taken together, it implies that as the dose 
+increases and the unbound concentration of a toxicant at the site of 
+metabolism approaches or exceeds the Km (substrate concentration 
+at one-half of Vmax), the increase in metabolism rate becomes less 
+than proportional to the dose and eventually approaches a maximum 
+at very high doses. The model simulations shown in Fig. 7-19 indi-
+cate the nonlinear nature of blood AUC and Cmax in the selected dose 
+range for toluene. In such cases, the high dose to low dose extrapola-
+tion of tissue dosimetry should not be conducted assuming linearity; 
+rather it should be performed using tools such as the PBPK models 
+that account for the nonlinear mechanism and its determinants.
+The transition from first-order to zero-order (or saturation) 
+kinetics is important in toxicology because it can lead to prolonged 
+persistence of a compound in the body after a single dose or an 
+acute exposure, and excessive accumulation during repeated or 
+chronic exposure. Some of the salient characteristics of nonlinear 
+kinetics include the following: (i) the decline in the concentrations 
+of the parent chemical in the body is not exponential, (ii) AUC0
+∞ and 
+amount metabolized are not proportional to the dose, (iii) Vd, CL, 
+Kel (or β), or t1/2 change with increasing dose, (iv) the composition 
+Dose
+Vd
+Dose
+CL
+Dose
+t½
+Dose
+CL
+CL
+Dose
+t½
+t½
+t½
+First order
+First order
+No change
+Saturation toxicokinetics
+First-order toxicokinetics
+Vd
+Dose
+Vd
+First order
+Vd
+Figure 7-18.  Changes in Vd, CL, and t1/2 following first-order toxicokinetics 
+(left panels) and following saturable toxicokinetics (right panels). Vertical 
+dashed lines in the right panels represent point of departure from first-order 
+to saturation toxicokinetics. Toxicokinetic parameters that follow first-order 
+toxicokinetics are independent of dose. When plasma protein binding or 
+elimination mechanisms are saturated with increasing dose, such param-
+eter estimates become dose-dependent. Vd may increase, for example, when 
+protein binding is saturated, allowing more free toxicant to distribute into 
+extravascular sites. Conversely, Vd may decrease with increasing dose if 
+tissue protein binding saturates. Then, toxicant may redistribute more freely 
+back into plasma. When toxicant concentrations exceed the capacity for 
+biotransformation by metabolic enzymes, overall clearance of the toxicant 
+decreases. These changes may or may not have effects on t1/2 depending 
+upon the magnitude and direction of changes in both Vd and CL.
+
+420
+Disposition of toxicants
+unit II
+of excretory products changes quantitatively or qualitatively with 
+the dose, and (v) dose–response curves depict a steeper change in 
+response to an increasing dose, starting at the dose at which satu-
+ration effects become evident. In addition to the complication of 
+dose-dependent kinetics, there are toxicants whose clearance 
+might change over time (i.e., time-dependent kinetics). A common 
+cause of time-dependent kinetics is autoinduction of metabolizing 
+enzymes through activation of gene transcription by certain drugs 
+and xenobiotics. The classic example of autoinduction is with the 
+antiepileptic drug, carbamazepine. Daily administration of carba-
+mazepine leads to a continual increase in clearance and shortening 
+in t1/2 over the first few weeks of therapy (Bertilsson et al., 1986).
+PBPK models facilitate high-dose to low-dose extrapolation 
+of tissue dosimetry by accounting for the mechanism(s) underly-
+ing the nonlinear kinetic behavior of chemicals (e.g., saturable 
+metabolism, enzyme induction, enzyme inactivation, protein bind-
+ing, and depletion of glutathione reserves) (Clewell and Andersen, 
+1987, 1994). Quantitative descriptions of such mechanisms are 
+essential for any toxicokinetic model to facilitate extrapola-
+tion or interpolation of dose metrics from high dose to low dose. 
+The capacity-limited hepatic metabolism leading to the nonlin-
+ear dose–response behavior is best illustrated with vinyl chloride 
+(Slikker et al., 2004). Similarly, in the case of dichloromethane, 
+the PBPK model facilitated high-dose to low-dose extrapolation 
+of the potential dose metrics by accounting for the saturation of 
+CYP2E1-mediated metabolism and disproportionate increase in 
+glutathione S-transferase-mediated metabolism with increasing 
+doses (Andersen et al., 1987, 1991). For the conduct of high-dose 
+to low-dose extrapolation with PBPK models, frequently no change 
+in the numerical values of input parameters would be required, with 
+the exception of the administered dose or exposure concentration.
+Single versus Repeated Dose Kinetics
+Continuous or chronic exposure to a chemical can lead to its accu-
+mulation in the body depending upon its elimination half-life and 
+interval between the doses. For example, lipophilic chemicals with 
+large Vd and very small CL exhibit long half-lives and accumulate 
+as the exposure continues. On the contrary, for a chemical with a 
+very small t1/2 compared to the time interval between doses, it is 
+likely to be eliminated almost completely before the next dose such 
+that there would be no significant accumulation. Let’s consider a 
+chemical with t1/2 of 4 hours is administered to experimental animals 
+once every 24 hours. In this case, the amount eliminated would be 
+proportional to the body burden (i.e., first-order elimination kinetics) 
+in the dose range of interest. Thus, the amount eliminated after one 
+half-life or 4 hours = 50%, two half-lives = 75%, three half-lives = 
+87.5%, four half-lives = 93.75%, five half-lives = 96.875%, six 
+half-lives = 98.438%, seven half-lives = 99.219%, and eight half-
+lives = 99.61%. If the second dose is administered at 4 hours, that is, 
+after one half-life, then 50% of the chemical from the first dose will 
+still be in the body to which the second dose adds leading to higher 
+blood concentration than what was seen after a single dose. The nar-
+rower the interval between doses or the shorter the dosing interval 
+compared to the t1/2, the faster the attainment of steady state will be. 
+Fig. 7-20 shows the same time to attain 50% steady state for various 
+rates of intake; on the contrary, the steady-state blood concentration 
+is strictly proportional to the intake rate. Typically, the rise in blood 
+concentration is relatively rapid after dosing, as it is governed by the 
+early (distribution) half-life, and becomes slower at later times when 
+the terminal (elimination) half-life becomes dominant. Therefore, 
+when the doses are given at certain intervals of time (and not in a 
+continuous fashion), the fraction eliminated between two dosing 
+intervals needs to be accounted for computing the dose metrics.
+Let’s consider that a single dose of 100 mg of a chemical (with 
+an elimination rate constant Kel of 0.693 day−1; elimination half-life 
+of 1 day; and Vd = 10 L) is given to rats once per day. The initial 
+blood concentration in this case would be 10 mg/L, which then 
+becomes 5 mg/L after 1 day (i.e., 24 hours), and after the second 
+dose it raises to 15 mg/L, which then becomes half-that-quantity 
+after another day (i.e., 7.5 mg/L), and so on. The fraction eliminated 
+during a given interval of time (τ) and the maximal and minimal 
+concentrations attained during repeated doses given at intervals of 
+τ can be calculated by accounting for the fraction eliminated dur-
+ing that time frame (i.e., 1−
+−
+e
+Kel ·τ). In the example presented in 
+Fig. 7-21, for chemical A with Kel = 0.0007 h−1, the concentrations 
+increase markedly after each additional dose. If the Kel is increased 
+to 0.01 h−1, then 21% is eliminated between doses as shown in 
+Fig. 7-21 for chemical B. On the contrary, if the elimination is 
+rapid, then it is likely that the “between-dose” accumulation could 
+be negligible (Fig. 7-21, chemical C). Therefore, the knowledge of 
+the fraction eliminated during the time interval between doses, and 
+the extent to which Cmax and Cmin fluctuate during a dosing interval, 
+figure among key considerations in designing toxicity studies.
+1000
+100
+10
+1
+0.1
+0.01
+Venous blood concentration (mg/L)
+0.001
+0
+1
+1 mg/kg
+10 mg/kg
+100 mg/kg
+1000 mg/kg
+Cmax = 285.15 mg/L
+AUC = 1426 mg/L-h
+Cmax = 27.43 mg/L
+AUC = 130 mg/L-h
+Cmax = 1.9 mg/L
+AUC = 6.3 mg/L-h
+Cmax = 0.08 mg/L
+AUC = 0.25 mg/L-h
+2
+3
+4
+5
+Time (h)
+6
+7
+8
+9
+10
+Figure 7-19.  Physiologic toxicokinetic model simulations of the venous blood concentration of toluene in humans administered a single oral dose of 1, 10, 
+100, and 1000 mg/kg.
+
+Toxicokinetics
+Chapter 7
+421
+The daily dose in the above equation should account for the 
+route-specific bioavailability (F) and the CL in turn can be calcu-
+lated as Vd.Kel. When the target steady-state blood or plasma con-
+centration is fixed (e.g., in case of therapeutic application), the 
+product of CL and Css equals the maintenance dose rate. The Css 
+as derived in Table 7-15 is reflective of the AUC averaged over the 
+time interval τ, whereas the product of the average Css and Vd equals 
+the average body burden at steady state.
+The compartmental models including the PBPK models 
+described in the preceding sections are useful in the estimation of 
+blood and tissue concentrations associated with a single dose or 
+repeated doses given by various routes, and this can frequently be 
+accomplished using a single set of parameters. In other instances, 
+re-estimation or adjustment of parameter values might be neces-
+sary to accommodate the observed or anticipated change in input 
+parameters with time (e.g., change in Vd due to body fat content, 
+change in CLint due to enzyme induction). Fundamentally, the rate 
+of change in the amount of chemical in non-metabolizing tissues in 
+PBPK models becomes equal to zero at steady state, such that the 
+tissue concentrations remain stable during repeated exposures. The 
+steady-state blood concentration obtained with the PBPK model 
+will be the same as that obtained using Eq. (7-34) (Andersen, 1981; 
+Gibaldi and Perrier, 1982). PBPK models also have been used to 
+predict the kinetic behavior and tissue dosimetry of chemicals dur-
+ing unusual exposure scenarios (e.g., adjusted threshold limit val-
+ues during extended hours of work, physical activity/work load, 
+pregnancy and lactation, or coexposure to chemicals) (Clewell and 
+Andersen, 1987; Krishnan et al., 2002; Corley et al., 2003).
+Metabolite Kinetics
+Metabolism of a parent chemical or drug can result in bioactiva-
+tion or detoxication, with the resulting products subjected to further 
+metabolism to more active or inactive moieties. When the toxicity 
+is attributed to the biotransformation product(s), the formation and 
+subsequent disposition kinetics of a toxic metabolite are of inter-
+est not only from the perspective of toxicology but also biological 
+monitoring. As the parent chemical is transformed into a metabo-
+lite, the blood concentration of the metabolite rises depending upon 
+its reactivity, Vd, and CL. Once formed, the metabolite might exhibit 
+reactivity/stability, be subjected to further biotransformation reac-
+tions to form other metabolites, or undergo excretion via the kidneys 
+Plasma concentration
+2
+1
+3
+Time
+Time
+4
+1
+5
+Figure 7-20.  Accumulation of plasma toxicant concentration over time 
+during constant, continuous exposure as a function of exposure level (left 
+panel) and elimination half-life (right panel). These simulations are based 
+on a one-compartment model at a constant apparent volume of distribution. 
+Case 1 serves as the reference with an elimination half-life set equal to 
+one arbitrary time unit. In the left panel, which illustrates accumulation of 
+toxicant as a function of exposure level, exposure level is raised by twofold 
+in case 2 and lowered by 50% in case 3. The changes in eventual steady-
+state concentration are proportional to the changes in exposure level, that 
+is, increased by twofold in case 2 and decreased by 50% in case 3. During 
+continuous exposure, 50% of steady state is achieved in one half-life. Near 
+plateau or steady state (>90%) is reached after four half-lives. Since the 
+elimination half-life is constant across cases 1 to 3 in the left panel, the time 
+it takes to attain 50% of steady-state concentration (see arrows) is the same. 
+Right panel illustrates the influence of elimination half-life and clearance on 
+accumulation at a fixed constant rate of exposure. Case 4 represents a 50% 
+decrease in clearance and a corresponding twofold increase in elimination 
+half-life compared to case 1. Case 5 represents a twofold increase in clear-
+ance and a corresponding 50% decrease in elimination half-life. Changes 
+in both the time to attain steady state and the steady-state concentration 
+are evident. In case 4, the steady-state concentration increased by twofold 
+as a result of a 50% reduction in clearance, and the time to achieve 50% of 
+steady state increased by twofold as a result of the prolonged elimination 
+half-life. In case 5, the steady-state concentration is reduced by 50%, while 
+the time to reach 50% steady state is shortened by 50%.
+Kel = 0.01 h–1
+Kel = 0.14 h–1
+Kel = 0.0007 h–1
+0
+0
+10
+20
+Blood concentration (mg/L)
+30
+40
+50
+60
+1
+2
+3
+4
+Time (days)
+A
+B
+C
+5
+6
+7
+8
+Figure 7-21.  Time-course plots of the blood concentrations of xenobiotics A, B, and C administered once a day. The first-order elimination rate constants are 
+0.0007 h−1, 0.01 h−1, and 0.14 h−1, respectively for A, B, and C.
+At a fixed level of continuous exposure, the toxicant in the 
+body reaches a steady state when the intake rate equals its elimina-
+tion rate such that the body burden stays constant, as illustrated 
+by the conceptual PBPK model depicted in Fig. 7-22. Steady-state 
+concentration of a toxicant in blood (Css) is related to the intake rate 
+(mg/kg/day) and clearance (L/kg/day) as follows:
+	
+Css
+IntakeRate
+CL
+=
+. 
+(7-34)
+
+422
+Disposition of toxicants
+unit II
+or bile; hence at some point in time, the blood concentration of 
+the metabolite exhibits a peak and falls thereafter. Fig. 7-23 illus-
+trates the blood concentration–time course of a primary metabo-
+lite in relation to its parent compound under contrasting scenarios. 
+The left panel shows the case when the elimination rate constant 
+of the metabolite is much greater than the overall elimination rate 
+constant of the parent compound. Here, the terminal decline of the 
+metabolite parallels that of the parent compound; the metabolite is 
+cleared as quickly as it is formed or its washout is rate-limited by 
+conversion from the parent compound. The right panel shows the 
+opposite case when the elimination rate constant of the metabo-
+lite is much lower than the overall elimination rate constant of the 
+parent compound. The slower terminal decline of the metabolite 
+compared to the parent compound simply reflects a longer elimina-
+tion half-life of the metabolite. It should also be noted that AUC0
+∞ 
+of the metabolite relative to the parent compound is dependent on 
+the partial clearance of the parent chemical to the metabolite and 
+Table 7-15  
+Set of Equations to Understand Steady-State Kinetics
+DESCRIPTION
+EQUATION
+Rate of change in the amount 
+of a chemical in the body
+ dA
+dt
+A
+K
+=
+−
+⋅
+Dose rate
+t
+el
+(
+)  
+Rate of change at steady state
+ Dose rate
+t
+el
+−
+⋅
+=
+(
+)
+A
+K
+0  
+Amount in body at steady state
+ 
+A
+K
+ss
+el
+Dose rate
+=
+ 
+Blood concentration at  
+steady state
+ 
+C
+V
+K
+ss
+d
+el
+Dose rate
+=
+⋅
+ 
+Blood concentration at steady 
+state in relation to clearance
+ 
+Css
+Dose rate
+CL
+=
+ 
+Abbreviations: Ass, amount in the body at steady state; CL, clear-
+ance; Css, blood concentration of chemical at steady state; Dose rate, 
+absorbed dose per unit time; Kel, first-order elimination constant; Vd, 
+Volume of distribution.
+Inhaled
+chemical
+Exhaled
+chemical
+Alveolar space
+Pulmonary blood
+LIVER
+Metabolism
+GI
+Tract
+Oral Dose
+Arterial blood
+Venous blood
+Figure 7-22.  Physiologic toxicokinetic model of the steady-state kinetics of a chemical administered by the oral and inhalation route.
+clearance of the derived metabolite. A biologically active metabo-
+lite assumes toxicological significance when it is cleared much less 
+efficiently than the parent compound and/or exhibits accessibility 
+and reactivity in the target site.
+Cross-Route Dose Extrapolation
+The comparison or extrapolation of toxicity data across exposure 
+routes can be conducted for systemically acting chemicals based 
+on administered dose or more appropriately based on toxicokinetic 
+considerations. Cross-route comparisons or extrapolations con-
+ducted on the assumption of 100% bioavailability of administered 
+dose (mg/kg/day) fail to take into account the significance and 
+impact of route-specific first-pass effect, as well as the differences 
+in rates and extent of absorption between exposure routes that may 
+impact the dose metric of relevance to the mode of action (Pauluhn, 
+2003). The data on route-specific bioavailable fraction are therefore 
+useful for the conduct of route-to-route extrapolation of toxicoki-
+netically equivalent dose of chemicals. For example, the bioavail-
+able dose for each exposure route can be calculated by multiplying 
+the administered dose with the route-specific bioavailability (Froute). 
+The extrapolation of equivalent dose between two exposure routes 
+(e.g., oral to dermal route in units of mg/kg/day) is then conducted 
+on the basis of the ratio of the route-specific bioavailable fraction 
+(Froute1/Froute2) as follows (IGHRC, 2005):
+	
+Dose
+Dose
+route
+route
+route
+route
+2
+1
+1
+2
+=
+F
+F
+. 
+(7-35)
+A more scientifically sound approach would involve the use of 
+PBPK models, by accounting for the species- and route-specific rate 
+and magnitude of absorption as well as first-pass effect to facilitate 
+the conduct of route to route extrapolation on the basis of equiva-
+lent tissue dose of toxic moiety (Fig. 7-24; Clewell and Andersen, 
+1987, 1994; Gerrity et al., 1990). For example, a 4-hour inhalation 
+exposure to 83.4 ppm chloroform in the rat is equal to an oral dose 
+of 1 mg/kg, as determined with PBPK models on the basis of equiv-
+alent AUCblood (U.S. EPA, 2006). When the dose metric based on 
+parent compound is the basis of cross-route equivalence, it can be 
+computed as being equal to the bioavailable dose divided by the total 
+clearance (Valcke and Krishnan, 2013, and references cited therein), 
+for chronic exposure situations leading to steady state. Accordingly,
+
+Toxicokinetics
+Chapter 7
+423
+given that the total clearance (sum of renal, hepatic, and pulmonary 
+clearances, expressed as L/day) is the same regardless of the expo-
+sure route, the extrapolation of oral dose (mg/kg/day) to inhalation 
+concentration (mg/m3) can be conducted as follows:
+	
+Dose
+Dose
+BW
+inh
+oral
+oral
+alv
+=
+×
+× F
+Q
+, 
+(7-36)
+where BW = body weight, Foral = bioavailable fraction for the oral 
+route (accounting for first pass effect and absorption by the oral 
+route) associated with the relevant dose (e.g., NOAEL), and Qalv = 
+alveolar ventilation rate (m3/day).
+Interspecies Dose Extrapolation
+The extrapolation of toxicologically equivalent dose from one species 
+to another (typically from test animal species to humans) has been 
+historically addressed with the use of a factor of 10 (Dourson et al., 
+1996). WHO (2005), based on work by Renwick (1993, 1999), sub-
+divided it into toxicokinetic and toxicodynamic components underly-
+ing interspecies differences and interindividual variability (Fig. 7-25). 
+The default value of the toxicokinetic component is equal to inter-
+species ratio of BW to a fractional power (0.67 to 0.75), consistent 
+with the observations that several physiological parameters (GFR, 
+breathing rate, cardiac output) and volume of extracellular water are 
+more closely related to body surface rather than body weight of mam-
+mals. It is considered that such allometric dose adjustments (e.g., 
+Dose
+mg/kg/d
+Dose
+mg/kg/d
+BW
+BW
+human
+animal
+Animal
+Human
+(
+)
+(
+)
+=
+
+
+
+
+
+
+0 33
+.
+) not only
+reflect interspecies differences in body surface area and physi-
+ological flow rates but also provide toxicokinetically equivalent 
+Parent
+Vp
+Metabolite
+Vm
+Time
+Plasma concentration
+Parent
+Metabolite
+km >> kp
+Time
+Parent
+Metabolite
+km << kp
+km
+kp
+Figure 7-23.  Plasma concentration–time course of a primary metabolite 
+and its parent compound under contrasting scenarios: when elimination 
+of the metabolite is much more rapid than its formation (km >> kp lower 
+left panel) and when elimination of the metabolite is much slower than 
+its formation (km << kp, lower right panel). Semilogarithmic plots are 
+shown to compare the slope of the terminal decline of parent compound 
+and its metabolite. The top panel shows the model for conversion of the 
+parent compound to a single metabolite. Note that the elimination rate 
+constant for the parent compound (kp) includes both the rate constants for 
+metabolism and extra-metabolic routes of elimination. km is the elimina-
+tion rate constant for the derived metabolite. When km >> kp, the ter-
+minal decline of the metabolite parallels that of the parent compound, 
+that is, metabolite washout is rate-limited by its formation. When km << 
+kp, the terminal decline of metabolite concentration is much slower than 
+that of parent compound, that is, metabolite washout is rate-limited by 
+its elimination.
+Oral dose
+Metabolism
+Chemical in air
+GI
+Inhaled
+chemical
+Exhaled
+chemical
+Lungs
+Dermal
+Inhalation
+Time
+Time
+Time
+Oral
+[C]
+[C]
+[C]
+Liver
+Fat
+Rest of body
+STRUCTURE
+SIMULATIONS
+Skin
+Figure 7-24.  Illustration of the use of physiologic toxicokinetic model to simulate the blood concentration [C] as a function of time for three routes of exposure: 
+oral, inhalation, and dermal. For simulating the route-specific toxicokinetics of the chemical, only the route-specific input parameters are specified along with 
+the chemical concentration in the corresponding exposure medium.
+
+424
+Disposition of toxicants
+unit II
+doses across species as long as the parent chemical is the poten-
+tial toxic moiety and AUCblood is the appropriate measure of dose 
+to target tissue. Such a generic approach for extrapolating doses 
+across species, particularly for the chronic oral exposure leading 
+to steady-state condition, will hold when CL of a xenobiotic is 
+proportional to the body surface area in both animals and humans. 
+Otherwise, it is more relevant to conduct interspecies extrapola-
+tion on the basis of chemical-specific data on the dose metrics 
+of relevance to the mode of action (AUC, Cmax) or the associated 
+toxicokinetic parameter (CL). Thus, the chemical-specific animal 
+to human kinetic adjustment factor (AKAF) is calculated as the 
+ratio of clearance (AK
+CL
+CL
+AF
+Animal
+Human
+=
+) or the ratio of dose metrics 
+(AK
+AUC
+AUC
+AF
+Human
+Animal
+=
+) (WHO, 2005). In this regard, the PBPK 
+models are useful for computing AKAF based on the simulation of 
+alternative dose metrics for the dose levels and exposure scenar-
+ios of relevance to a toxicological evaluation or risk assessment 
+(Fig. 7-26).
+The application of PBPK models for interspecies extrapolation 
+of the toxicokinetics and internal dose of xenobiotics is performed 
+in several steps. The initial step involves the development of a 
+PBPK model in the test animal species and comparison of toxico-
+kinetic simulations with experimental data. Following evaluation of 
+the biological basis, model performance and reliability of dose met-
+ric simulations, the physiological parameters of the PBPK model 
+are scaled to humans and the chemical-specific parameters for the 
+species of interest (e.g., humans) are replaced. Whereas the adult 
+physiological parameters vary coherently across species, the rates 
+and affinities for various metabolic reactions across species are not 
+generalizable. For several xenobiotics showing high hepatic extrac-
+tion ratios in both animals and humans, the scaling of Vmax to the 
+3/4th power of body weight, while keeping the Km species-invariant, 
+has proved to be a useful first approximation. The confidence will 
+be greater if the metabolic parameters are obtained in vitro using 
+human tissues/components for incorporation within PBPK mod-
+els or following a parallelogram approach to make use of in vivo 
+parameter estimates in rodents as well as in vitro estimates in both 
+rodents and humans (Reitz et al., 1988; Lipscomb et al., 1998). 
+Qualitative differences, if any, between species (e.g., rat to fish) can 
+also be factored into the PBPK models in addition to quantitative 
+differences in mechanistic determinants of toxicokinetics for the 
+conduct of interspecies extrapolation.
+Interindividual Kinetic Variability
+The toxicokinetic parameters (e.g., CL, t1/2) and dose metrics (e.g., 
+Cmax, AUC) for a xenobiotic may vary among individuals and 
+between various subgroups in the human population. The inter-
+individual variability in toxicokinetics, as characterized by the 
+human kinetic adjustment factor (HKAF), is represented by the ratio 
+between the upper percentile value (i.e., 95th, 99th) and its central 
+tendency value in the entire population of a toxicokinetic param-
+eter or dose metric of relevance for a given chemical (Meek et al., 
+2003; WHO, 2005; Valcke and Krishnan, 2014). Alternatively, the 
+HKAF is computed as the ratio between an upper percentile value in 
+a selected sensitive subpopulation and the central tendency value 
+for the general population (i.e., 
+CL
+CL
+AUC
+AUC
+Median
+Subpopulation
+Subpopulation
+Median
+=
+) 
+(Fig. 7-27). In addition to the knowledge of population distribution 
+of chemical-specific toxicokinetic parameters or dose metrics, an 
+understanding of the mode of action and putative toxic moiety of 
+a chemical is fundamental to the derivation of HKAF. The popula-
+tion distribution of dose metrics can also be obtained with PBPK 
+models by accounting for the population distribution of physiologi-
+cal parameters, metabolizing enzymes (including polymorphism), 
+and rates of toxicokinetic processes. By using inputs sampled from 
+statistical distributions for each PBPK model parameter, the Monte 
+Carlo approach facilitates the simulation of distributions of the 
+output, that is, dose metric in a population. Using the PBPK pre-
+dictions of dose metric corresponding to the 95th percentile and 
+50th percentile for unimodel, normal distribution, the magnitude 
+of HKAF has been computed (Naumann et al., 2001). Alternatively, 
+subject-specific PBPK models can be constructed to evaluate the 
+variability of dose metrics as a function of gender, age, and life-
+stage (birth, pregnancy, lactation) or physiological state (obesity) 
+by accounting for quantitative changes in physiological parame-
+ters, tissue composition, and metabolic activity (O’Flaherty 1994; 
+Corley et al., 2003; Price et al., 2003a, 2003b; Nong et al., 2006; 
+Valcke and Krishnan, 2013).
+Kinetic Interactions During 
+Mixed Exposures
+Toxicokinetic interactions during mixed exposures result when one 
+chemical alters the mechanistic determinant of another chemical 
+at the level of absorption (e.g., alteration of ventilation rate, skin 
+permeability coefficient), distribution (e.g., competition for binding 
+to hemoglobin, albumin, metallothionein, alteration of the concen-
+trations of binding proteins, alteration of tissue blood flow), metab-
+olism (e.g., enzyme induction or inhibition), or excretion (e.g., 
+GFR) (Krishnan and Brodeur, 1994). Such interactions result in an 
+increase or decrease in the internal dose per unit administered dose 
+during mixed exposures in comparison with the individual chemi-
+cal exposures. For example, during mixed exposures, xenobiotics 
+may compete directly with each other for an enzymatic binding site 
+(competitive inhibition), bind directly to the enzyme-xenobiotic 
+complex but not to the free enzyme (uncompetitive inhibition), or 
+do both of these (noncompetitive inhibition) (Segal, 1975). In such 
+cases, toxicokinetic analysis should account for the nonlinearity 
+arising from not only the saturable metabolism of individual mix-
+ture components but also the impact of the metabolic inhibition as 
+a function of the concentration and affinity of one mixture com-
+ponent (substrate) in comparison with the free concentration and 
+potency of another mixture component (inhibitor). When induction 
+of metabolizing enzymes occurs, the toxicokinetic analysis would 
+indicate that the impact is more pronounced in cases where hepatic 
+Interspecies
+difference
+Interindividual
+variability
+Toxicodynamic
+component
+Toxicokinetic
+component
+Figure 7-25.  Components of interspecies difference and interindividual 
+variability in response associated with exposure to toxicants. As per WHO 
+(2005), the toxicokinetic and toxicodynamic components of rat to human 
+differences are given values of 4 and 2.5, respectively, for a total combined 
+(multiplicative) factor of 10. In consideration of interindividual variability 
+in responses from a risk assessment perspective, WHO (2005) suggested 
+default values of 3.16 each for the toxicokinetic and toxicodynamic compo-
+nents, which in turn can be refined with chemical-specific data.
+
+Toxicokinetics
+Chapter 7
+425
+metabolism is capacity-limited (e.g., high doses, xenobiotics exhib-
+iting low hepatic extraction ratio).
+Most experimental studies and modeling tools have histori-
+cally dealt with binary mixtures, due to their inability to account for 
+and interpret the higher order interactions among components. The 
+PBPK model framework allows the tracking of changes in mecha-
+nistic determinants induced by each of the mixture components to 
+simulate the impact on the toxicokinetics in more complex mix-
+tures. Tardif et al. (1997) conducted PBPK modeling of mixtures 
+by interconnecting individual chemical models mechanistically 
+at the site of interaction (e.g., two mixture components A and B 
+competing for metabolizing enzymes in liver) (Fig. 7-28). In this 
+approach, when a third chemical C is added to the binary mixture 
+model, the PBPK model not only simulates the new binary interac-
+tions involving C (i.e., C-A, C-B), but also the modulatory effect 
+of C on the existing binary interaction between A and B because 
+all components of the mixture are linked. Based on this analogy, 
+PBPK models facilitate prediction of the impact of the addition of 
+another chemical D to the ternary mixture, and so forth because 
+every new chemical becomes an integral part of the existing net-
+work of binary interactions (Tardif et al., 1997; Krishnan et al., 
+2002). Conceptually then, with increasing complexity of mixtures, 
+the inhibition constant for binary interactions is not modified during 
+mixed exposures; rather the free concentration of the inhibitors is 
+Human Dose
+Animal Dose
+Identical Dose Metric
+(e.g., AUC, Cmax, Amet)
+AKAF
+Figure 7-26.  Interspecies extrapolation in toxicokinetics. The animal to human kinetic adjustment factor (AKAF) reflects the difference in the external 
+(or administered) dose producing the same level of the dose metric in the test animals and humans. (Adapted from U.S. EPA, 2014.)
+95th centile
+95th centile
+Dose metric of relevance (e.g., AUC)
+Dose metric of relevance (e.g., AUC)
+Sensitive subgroup
+Sensitive subpopulation model
+Interindividual variability in toxicokinetics
+Whole population model
+50th centile
+50th centile
+Figure 7-27.  Illustration of the use of toxicokinetic data (e.g., area under the concentration vs. time curve [AUC]) to characterize the magnitude of inter-
+individual variability, in consideration of the simulated or measured values in the whole population (left panel) or a sensitive subgroup within a population 
+(right panel).
+
+426
+Disposition of toxicants
+unit II
+altered according to the potency and number of the other inhibitors 
+as well as their concentrations in systemic circulation.
+Interpretation of Human 
+Biomonitoring Data
+Human biomonitoring or biological monitoring refers to the sys-
+tematic sampling of body fluids (e.g., blood, urine, exhaled air), 
+and at times body tissues, for the purpose of estimating an indi-
+vidual’s internal dose from exposure to chemicals in the workplace 
+or in the general environment (Paustenbach and Galbraith, 2006; 
+Manno and Viau, 2010). Biomonitoring accounts for all exposure 
+sources and routes (oral, dermal, and inhalation), individual differ-
+ences in toxicant absorption and disposition, and critical personal 
+or lifestyle variables, such as body size and composition, workload 
+that affects pulmonary ventilation, or cigarette smoking that could 
+affect the metabolic status of an individual. Although biomonitor-
+ing provides a measure of internal exposure, in the final analysis 
+the data obtained must be relatable to the health guidance values, 
+point of departure underlying such values or health risks. For each 
+chemical of concern, it is useful to establish a reference biomoni-
+toring value below which a reasonable assurance of safety exists. 
+In this regard, the tools for interpreting biomonitoring data make 
+use of forward dosimetry or reverse dosimetry approaches (Clewell 
+et al., 2008; Gurusankar et al., 2017). Forward dosimetry refers to 
+the use of toxicokinetic data and models to develop concentrations 
+of exposure biomarkers corresponding to the existing health guid-
+ance values (e.g., occupational exposure limit, reference dose, tol-
+erable daily intake) or point of departure in a dose–response curve 
+(e.g., NOAEL). Well-known examples of the use of the concept 
+of forward dosimetry in human biomonitoring include the devel-
+opment of (i) biological exposure indices (BEIs) by the American 
+Conference of Governmental Industrial Hygienists (ACGIH), (ii) 
+biological tolerance values (BATs) and biological guidance values 
+(BLW) by the German MAK Commission, as well as (iii) biologi-
+cal monitoring equivalents associated with exposure guidance val-
+ues or the underlying point of departure values (BE, BEPOD) for 
+environmental chemicals (Hays et al., 2007; Angerer et al., 2011; 
+Gurusankar et al., 2017). Reverse dosimetry, in contrast, involves 
+the use of toxicokinetic parameters and models to reconstruct or 
+estimate exposure levels associated with the measured concentra-
+tions in biomarkers in biological matrices (urine, blood, plasma, 
+exhaled air).
+Forward Dosimetry  In order to compare the human biomonitor-
+ing data for environmental chemicals with reference values for the 
+general population, the forward dosimetry approaches are useful in 
+converting the exposure guidance value or the point of departure 
+(POD such as NOAEL) underlying the guidance values in terms 
+of biomarker concentrations (Aylward et al., 2013; St-Amand 
+et al., 2014). For example, the BEPOD, corresponding to steady-state 
+plasma concentration for triclosan (3 mg/L) was derived from the 
+human-equivalent POD (PODHED) of 3 mg/kg/day from a study in 
+baboons and CL = 0.98 L/kg/day as follows:
+	
+BE
+mg/Lplasma
+POD
+CL
+POD
+HED
+(
+) =
+
+(7-37)
+where PODHED = POD (30 mg/kg/day) divided by animal-
+human uncertainty factor of 10.
+Following the application of the interindividual uncertainty 
+factor of 10, plasma BE of 0.3 mg/L was obtained (Krishnan et al., 
+2010a, 2010b).
+A forward dosimetry approach for developing urinary BEPOD, 
+under chronic exposure conditions leading to steady state, involves 
+multiplying the ingested dose with a factor representing the urinary 
+excretion fraction (Aylward and Hays, 2008; Krishnan et al., 2010a, 
+2010b). On this basis, the steady-state urinary biomarker concentra-
+tions (mg/L urine and mg/g creatinine) associated with the human-
+equivalent PODs (BEPOD) are developed as follows:
+BE
+mg/LUrine
+POD
+mg/kg/day
+BW kg
+UrineVolume
+POD
+HED
+UE
+(
+)
+[
+(
+)
+(
+)
+]
+=
+×
+× F
+(
+)
+,
+L/day
+
+(7-38)
+BE
+mg/gCreatinine
+POD
+mg/kg/day
+BW kg
+Creati
+POD
+HED
+UE
+(
+)
+[
+(
+)
+(
+)
+]
+=
+×
+× F
+nine g/day
+(
+)
+,
+
+(7-39)
+where BW = body weight and FUE = fraction of the ingested 
+daily dose excreted via urine
+By dividing the BEPOD obtained with Eqs. (7-38) and (7-39) by the 
+interindividual variability factor of 10, the BE (in units of mg/L urine 
+and mg/g creatinine) is obtained. Thus, for bisphenol A, the urinary 
+BEPOD and BE of 10 mg/L and 1 mg/L were derived from PODHED of 
+0.25 mg/kg/day (based on rat NOAEL of 25 mg/kg/day) and FUE value 
+of 1 (i.e., 100% of the ingested dose excreted in urine) (Krishnan et 
+al., 2010b). Similarly, for triclosan the urinary BEPOD and BE equal 
+64 mg/L and 6.4 mg/L, given that the PODHED = 3 mg/kg/day (based 
+on baboon NOAEL of 30 mg/kg/day) and the FUE = 0.54 (Krishnan et 
+al., 2010a). The BE and BEPOD values derived using forward dosimetry 
+approaches inherently reflect the underlying limitations and uncertain-
+ties associated with the exposure guidance value and the toxicokinetic 
+database used in their derivation (Hays et al., 2007).
+Inhaled
+Exhaled
+Lungs
+Fat
+Richly perfused
+tissues
+Poorly perfused
+tissues
+Liver
+Venous Blood
+Arterial Blood
+RAMA =
+VmaxA·CvlA
+KmA
+CvlB
+KiBA
+1+
++ CvlA
+RAMB =
+VmaxB·CvlB
+KmB
+CvlA
+KiAB
+1+
++ CvlB
+Metabolism
+Figure 7-28.  Physiologic toxicokinetic model of inhalation exposure of 
+workers to two volatile organic chemicals. The two chemicals (A and B) cir-
+culate simultaneously and interact with each other in the liver compartment. 
+Chemical A and chemical B compete and inhibit each other’s metabolism 
+by the hepatic CYP2E1. RAM is the rate of the amount metabolized, Vmax 
+is the maximal velocity of metabolism, Ki is inhibition constant, Km is the 
+Michelis affinity parameter, and Cvl is the free concentration of the chemical 
+at the site of metabolism.
+
+Toxicokinetics
+Chapter 7
+427
+Reverse Dosimetry  Reverse dosimetry approaches use the toxi-
+cokinetic parameters or models to convert the biomarker concen-
+tration into the exposure dose. The sampling time relative to the 
+exposure pattern would be a straightforward matter if exposure 
+is continuous and constant, in which case blood, urine, or other 
+samples can be collected at any time after steady state is reached. 
+In reality, exposure is often episodic or intermittent, and in occupa-
+tional settings exposure is dictated by the work shift. Systematically 
+timed sampling is hardly feasible in a community population expo-
+sure study, where sampling is typically random, and exposure 
+comes from diffuse sources and may not occur with any defin-
+able regularity. The only approach to overcome such shortcoming 
+is to obtain samples at different times of a day to provide diurnal 
+coverage, which introduces obvious logistical and cost challenges 
+in a population surveillance program. It is not often appreciated 
+that the observed level of a determinant for a chemical exposure 
+is a function of not only current exposure, but also what happened 
+some time before (Droz et al., 1991). This is particularly so when 
+exposure is continuous or the interval between intermittent expo-
+sures is on the order of the chemical’s elimination half-life (e.g., an 
+elimination t1/2 of 24 hours or longer when exposure reoccurs on a 
+daily basis). In other words, the elimination half-life of a biomarker 
+or index compound dictates how far back in exposure history it 
+reports. A corollary to this principle is the fact that short half-life 
+biomarkers reflect more of the within day or day-to-day fluctuation 
+in exposure, whereas daily fluctuation in exposure is dampened 
+with long half-life biomarkers. Although the former cases may be 
+viewed as undesirable because of variability in the measurement, 
+it offers a better reflection of the oscillation in internal dose and 
+particularly the transient peak exposures. The latter cases provide a 
+less variable, time-averaged measure of exposure.
+Reverse dosimetry has been conducted using deterministic 
+or probabilistic toxicokinetic models. The simple deterministic 
+approaches are based on either assumption of steady-state kinetics 
+or urinary mass-balance calculation. More sophisticated approaches 
+use the classic compartmental and physiological models described 
+in the previous sections to perform the back-calculations for 
+various scenarios, routes, and populations (Clewell et al., 2008; 
+Georgopoulos et al., 2009).
+An example of the application of reverse dosimetry at steady-
+state condition involves the calculation of the daily dose absorbed (mg/
+kg/day) from measured blood concentration at steady state (mg/L) as 
+well as Kel (day−1) and Vd (L blood/kg) as follows (NRC, 2006):
+	
+D
+K
+V
+C
+abs
+el
+d
+b ss
+=
+×
+×
+, . 
+(7-40) 
+Similarly, back-calculation of daily dose to which exposure 
+has occurred can be conducted as follows, based on measured uri-
+nary concentration:
+	
+Dailyintake mg/kg/day
+Bodyweight
+urine
+urine
+UE
+(
+)
+.
+=
+×
+×
+C
+V
+F
+ (7-41)
+It is relevant to note that the urinary excretion rate (dUB/dt) 
+of a biomarker is related to its concentration in blood or plasma 
+concentration (C) by renal clearance (Clr) as follows:
+	
+dU
+dt
+C
+B
+r
+Cl
+=
+⋅
+. 
+(7-42)
+In the above equation, dUB/dt represents an average urinary 
+excretion over a relatively short collection interval; C is the blood or 
+plasma concentration at the mid-time point. The differential form of 
+Eq. (7-42) can be integrated over an extended collection period, say 
+24 hours, to yield a relationship between the total amount excreted 
+in the collection period (UB,24) and the corresponding area under 
+the blood or plasma concentration–time curve (AUC0–24, an integral 
+measure of exposure):
+	
+UB
+h
+r
+Cl
+AUC
+,
+.
+24
+0
+24
+=
+⋅
+−
+
+(7-43)
+Hence, either excretion rate or cumulative excretion over 
+a defined collection period of a urinary biomarker is the most 
+appropriate index secondary to blood concentration measurement. 
+Urinary excretion rate is in turn related to pooled urine concentra-
+tion (CUB,Δt) and urinary flow rate (VΔt/Δt).
+	
+dU
+dt
+C
+V
+t
+B
+t
+=
+⋅∆
+
+
+
+
+
+
+∆
+∆
+UB
+t
+,
+. 
+(7-44)
+Urinary concentration as measured from spot collection offers 
+convenience and flexibility; however, it has the distinct disadvan-
+tage of being influenced by urine flow rate, which varies greatly 
+from time to time depending on the hydration state of the individ-
+ual. Several methods have been proposed to adjust for variation in 
+urine flow rate. Urinary creatinine is most often used to normalize 
+urinary concentration data. The following equation shows one such 
+normalization (e.g., Garde et al., 2004):
+	
+U
+C
+C
+U
+B
+UB
+UCr
+Cr
+,
+, ,
+24
+24
+=
+
+
+
+
+
+⋅
+
+(7-45)
+where CUB and CUCr are the respective biomarker and creatinine 
+concentration in the spot urine collection, and UCr,24 is the daily 
+urinary output of creatinine. This method assumes that blood con-
+centration of biomarker is reasonably constant throughout the day 
+(e.g., during stable, continuous exposure or for a chemical with very 
+long elimination half-life). The daily urinary output of creatinine 
+is assumed to be constant between individuals; alternately, it can 
+also be adjusted according to individual variables that are known 
+to affect creatinine production such as body mass, age, and sex 
+(Boeniger et al., 1993).
+An alternate, more commonly adopted normalization is to 
+simply express the amount of biomarker in the spot urine collec-
+tion per mmol of creatinine. This simple normalization is valid for 
+spot urine collection if we assume creatinine excretion is constant 
+throughout the day and reproducible from individual to individual, 
+which are often not true. It is not surprising that validity of normal-
+izing urinary biomarker to per mmol creatinine has been questioned 
+(Boeniger et al., 1993). Other normalization methods including 
+adjustment to a standard urine flow rate, specific gravity, or osmo-
+lality have also been proposed (Hill et al., 1988; Boeniger et al., 
+1993; Gurusankar et al., 2017).
+CONCLUSIONS
+Toxicokinetic data and models are central to the selection of doses 
+and species for toxicity testing, interpretation of dose–response 
+relationships, and efficient design of experiments for focused and 
+reduced animal use. The toxicokinetic principles are also key to the 
+design and interpretation of human biological monitoring studies as 
+established in occupational health research for many decades and 
+more recently in screening level risk assessment of environmen-
+tal pollutants. The emerging toxicity testing and risk assessment 
+paradigms as well as the extensive ongoing human biomonitoring 
+programs will require toxicokinetic data and tools for a large num-
+ber of chemicals. In this regard, increasing focus on the develop-
+ment of high throughput (HTP) approaches to derive toxicokinetic
+
+428
+Disposition of toxicants
+unit II
+parameters and PBPK models for new chemicals, mixtures, 
+and particles is required. So far, there have been few successful 
+attempts to integrate in vitro data and quantitative structure-prop-
+erty relationships for partition coefficients within the PBPK frame-
+work to simulate the inhalation toxicokinetics of chemicals (Peyret 
+and Krishnan, 2011; Bessems et al., 2014). Further, there has been 
+successful application of the HTP data on plasma protein bind-
+ing (equilibrium dialysis) and intrinsic clearance (cryopreserved 
+hepatocytes) to generate steady-state concentrations for the oral 
+route, to facilitate the conversion of HTP toxicity study results into 
+daily doses in humans (Wetmore et al., 2013; Wetmore, 2015). The 
+emerging toxicity testing and risk assessment paradigms require 
+HTP in vitro and in silico approaches that have broad capability and 
+application domains in terms of chemical space, exposure route, 
+and toxicokinetic parameters. In addition, advances in the develop-
+ment of physiologically based cellular toxicokinetic models will 
+facilitate simulations of dose metrics at macro and micro levels 
+to better understand the relationship among the concentrations of 
+chemicals causing perturbations in HTP screening assays, levels 
+of chemicals and their metabolites found in population level bio-
+monitoring studies, as well as the human exposure guidance values.
+ACKNOWLEDGEMENTS
+The author would like to thank Ms Chantal Bellefeuille of IRSST 
+and Siva Ramoju of Risk Sciences International for their valu-
+able assistance with the preparation of this chapter. The editor and 
+author acknowledge Michele A. Medinsky and Curtis Klaassen 
+(fifth edition), Michele A. Medinsky and John L. Valentine (6th edi-
+tion), and Danny D. Shen (7th and 8th editions) as previous authors 
+of this chapter, from which some materials are reproduced.
+REFERENCES
+Andersen ME. A physiologically based toxicokinetic description of the 
+metabolism of inhaled gases and vapors: analysis at steady state. Toxicol 
+Appl Pharmacol. 1981;60:509–526.
+Andersen ME, Clewell HJIII, Gargas ML. Physiologically-based pharma-
+cokinetic modeling with dichloromethane, its metabolite carbon mon-
+oxide and blood carboxyhemoglobin in rats and humans. Toxicol Appl 
+Pharmacol. 1991;108:14–27.
+Andersen ME, Clewell HJIII, Gargas ML, et al. Physiologically-based 
+pharmacokinetics and risk assessment process for methylene chloride. 
+Toxicol Appl Pharmacol. 1987;87:185–205.
+Angerer J, Aylward LL, Hays SM, et al. Human biomonitoring assessment 
+values: approaches and data requirements. Int J Hyg Environ Health. 
+2011;214:348–360.
+Assmus F, Houston BJ, Galetin A. Incorporation of lysosomal sequestration 
+in the mechanistic model for prediction of tissue distribution of basic 
+drugs. Eur J Pharm Sci. 2017;109:419–430.
+Aylward LL, Hays SM. Biomonitoring equivalents (BEs) dossier for 
+2,4-dichloroephenoxyacetic acid (2,4-D) (CAS No. 94-75-7). Regul 
+Toxicol Pharmacol. 2008;51:S37–S48.
+Aylward LL, Kirman CR, Schoeny R, et al. Evaluation of biomonitor-
+ing data from the CDC National Exposure Report in a risk assess-
+ment context: perspectives across chemicals. Environ Health Perspect. 
+2013;121:287–294.
+Bale AS, Kenyon E, Flynn TJ, et al. Correlating in vitro data to in vivo find-
+ings for risk assessment. ALTEX. 2014;31(1):79–90.
+Bessems JG, Loizou G, Krishnan K, et al. PBTK modelling platforms and 
+parameter estimation tools to enable animal-free risk assessment: recom-
+mendations from a joint EPAA–EURL ECVAM ADME workshop. Regul 
+Toxicol Pharmacol. 2014;68(1):119–139.
+Bertilsson L, Tomson T, Tybring G. Pharmacokinetics: time-depen-
+dent changes—autoinduction of carbamazepine epoxidation. J Clin 
+Pharmacol. 1986;26:459–462.
+Bischoff KB, Dedrick RL, Zaharko DS, Longstreth JA. Methotrexate phar-
+macokinetics. J Pharm Sci. 1971;60:1128–1133.
+Boeniger MF, Lowry LL, Rosenberg J. Interpretation of urine results used 
+to assess chemical exposure with emphasis on creatinine adjustments—a 
+review. Am Ind Hyg Assoc J. 1993;54:615–627.
+Brown RP, Delp MD, Lindstedt SL, et al. Physiological parameter values 
+for physiologically based pharmacokinetic models. Toxicol Ind Health. 
+1997;13:407–484.
+Cayen MN. Considerations in the design of toxicokinetic programs. Toxicol 
+Pathol. 1995;23(2):148–157.
+Clewell HJ III, Andersen ME. Physiologically-based pharmacokinetic mod-
+eling and bioactivation of xenobiotics. Toxicol Ind Health. 1994;10:1–24.
+Clewell HJ III, Andersen ME. Dose, species and route extrapolations using 
+physiologically based pharmacokinetic modeling. In: Drinking Water and 
+Health. Vol. 10. Washington, DC: National Academy of Sciences;1987: 
+159–184.
+Clewell HJ III, Gentry PR, Gearhart JM, et al. Development of a physio-
+logically based pharmacokinetic model of isopropanol and its metabolite 
+acetone. Toxicol Sci. 2001;63(2):160–172.
+Clewell HJ, Tan YM, Campbell JL, et al. Quantitative interpretation 
+of human biomonitoring data. Toxicol Appl Pharmacol. 2008;231: 
+122–133.
+Corley RA, Mast TJ, Carney EW, et al. Evaluation of physiologically based 
+models of pregnancy and lactation for their application in children’s 
+health risk assessments. Crit Rev Toxicol. 2003;33:137–211.
+da Silva LM, Charest-Tardif G, Krishnan K, et al. Influence of oral adminis-
+tration of a quaternary mixture of trihalomethanes on their blood kinetics 
+in the rat. Toxicol Lett. 1999;106:49–57.
+Dedrick RL, Forrester DD, Ho DH. In vitro-in vivo correlation of drug 
+metabolism–deamination of 1-beta-D-arabinofuranosylcytosine. Bio-
+chem Pharmacol. 1972;21(1):1–16.
+Dewoskin RS, Thompson CM. Renal clearance parameters for PBPK model 
+analysis of early lifestage differences in the disposition of environmental 
+toxicants. Regul Toxicol Pharmacol. 2008;51(1):66–86.
+Dourson ML, Felter SP, Robinson D. Evolution of science-based uncer-
+tainty factors in noncancer risk assessment. Regul Toxicol Pharmacol. 
+1996;24(2 pt 1):108–120.
+Droz PO, Berode M, Wu NN. Evaluation of concomitant biological and air 
+monitoring results. Appl Occup Environ Hyg. 1991;6:465–474.
+Farris FF, Dedrick RL, King FG. Cisplatin pharmacokinetics: applications 
+of physiological model. Toxicol Lett. 1988;43:117–137.
+Fiserova-Bergerova V. Mathematical modeling of inhalation exposure. 
+J Combust Toxicol. 1975;32:201–210.
+Frederick CB, Potter DW, Chang-Mateu MI, et al. A physiologically based 
+pharmacokinetic and pharmacodynamic model to describe the oral dos-
+ing of rats with ethyl acrylate and its implications for risk assessment. 
+Toxicol Appl Pharmacol. 1992;114:246–260.
+Fukuchi Y, Toshimoto K, Mori T, et al. Analysis of nonlinear pharmacoki-
+netics of a highly albumin-bound compound: contribution of albumin-
+mediated hepatic uptake mechanism. J Pharm Sci. 2017;106:2704–2714.
+Garde H, Hansen A, Kristensen J, et al. Comparison of uncertainties related 
+to standardization of urine samples with volume and creatinine correc-
+tion. Ann Occup Hyg. 2004;48:171–179.
+Gargas ML, Andersen ME, Clewell HJIIIrd. A physiologically based sim-
+ulation approach for determining metabolic constants from gas uptake 
+data. Toxicol Appl Pharmacol. 1986;86:341–352.
+Gargas ML, Burgess RJ, Voisard DE, et al. Partition coefficients of low-
+molecular-weight volatile chemicals in various liquids and tissues. 
+Toxicol Appl Pharmacol. 1989;98:87–99.
+Gargas ML, Clewell HJ, Andersen ME. Gas uptake inhalation techniques 
+and the rates of metabolism of chloromethanes, chloroethanes and chlo-
+roethylenes in the rat. Inhal Toxicol. 1990;2:295–319.
+Georgopoulos PG, Sasso AF, Isukapalli SS, et al. Reconstructing population 
+exposures to environmental chemicals from biomarkers: challenges and 
+opportunities. J Expo Sci Environ Epidemiol. 2009;19:149–171.
+Gerlowski LE, Jain RK. Physiologically based pharmacokinetic modeling: 
+principles and applications. J Pharm Sci. 1983;72:1103–1127.
+Gerrity TR, Henry CJ, Birnbaum L. Principles of Route-to-Route 
+Extrapolation for Risk Assessment. New York: Elsevier; 1990.
+
+Toxicokinetics
+Chapter 7
+429
+Geyer HJ, Schramm K-W, Darnerud PO, et al. Terminal elimination 
+half-lives of the brominated flame retardants TBBPA, HBCD, and 
+lower brominated PBDEs in humans. Organohalogen Compounds. 
+2004;66:3820–3825.
+Gibaldi M, Perrier D. Toxicokinetics. In: Swarbrick J, ed. Drugs and 
+Pharmaceutical Sciences. New York: Marcel Dekker Inc.; 1975.
+Gibaldi M, Perrier D. Pharmacokinetics. 2nd ed. New York: Marcel Dekker; 
+1982.
+Gurusankar R, Yenugadhati N, Krishnan K, et al. The role of human bio-
+logical monitoring in health risk assessment. Int J Risk Assess Manage. 
+2017;20:136–197.
+Haddad S, Pelekis M, Krishnan K. A methodology for solving physiologi-
+cally based pharmacomodels without the use of simulation softwares. 
+Toxicol Lett. 1996;85:113–126.
+Haddad S, Tardif R, Charest-Tardif G, Krishnan K. Physiological model-
+ing of the toxicokinetic interactions in a quaternary mixture of aromatic 
+hydrocarbons. Toxicol Appl Pharmacol. 1999;161:249–257.
+Haddad S, Poulin P, Krishnan K. Relative lipid content as the sole mecha-
+nistic determinant of the adipose tissue:blood partition coefficients of 
+highly lipophilic organic chemicals. Chemosphere. 2000;40:839–843.
+Haggard HW. The absorption, distribution, and elimination of ethyl ether: 
+II. Analysis of the mechanism of the absorption and elimination of such a 
+gas or vapor as ethyl ether. J Biol Chem. 1924;49:753–770.
+Hays SM, Becker RA, Leung HW, et al. Biomonitoring equivalents: a 
+screening approach for interpreting biomonitoring results from a public 
+health risk perspective. Regul Toxicol Pharmacol. 2007;47:96–109.
+Hill RH, Guillemin M, Droz PO. Sample collection. In: Kneip TJ, Crable 
+JV, eds. Methods in Biological Monitoring. Washington, DC: American 
+Public Health Association; 1988:37–63, Chap 6.
+Himmelstein KJ, Lutz RJ. A review of the applications of physiologi-
+cally based pharmacokinetic modeling. J Pharmacokinet Biopharm. 
+1979;7:127–145.
+IGHRC. Guidelines on route-to-route extrapolation of toxicity data when 
+assessing health risks of chemicals, Draft v6.0. Medical Research 
+Council Institute for Environment and Health, University of Leicester, 
+Leicester, 2005:59.
+Johanson G. Modelling of respiratory exchange of polar solvents. Ann 
+Occup Hyg. 1991;35:323–339.
+Kenakin TP. A Pharmacology Primer: Theory, Applications and Methods. 
+3rd ed. Amsterdam: Elsevier; 2009:179–238.
+Kety SS. The theory and applications of the exchange of inert gas at the 
+lungs and tissues. Pharmacol Rev. 1951;3:1–41.
+Kirman CR, Aylward LL, Hays SM, et al. Biomonitoring equivalents for 
+DDT/DDE. Regul Toxicol Pharmacol. 2011;60:172–180.
+Krishnan K, Andersen ME. Physiologically based pharmacokinetic and 
+toxicokinetic modeling. In: Hayes AW, ed. Principles and Methods of 
+Toxicology. Philadelphia, PA: Taylor & Francis; 2007:233–291.
+Krishnan K, Andersen ME, eds. Quantitative Modeling in Toxicology. 
+Chichester, UK: John Wiley Publishers; 2010.
+Krishnan K, Brodeur J. Toxic interactions among environmental pollutants: 
+corroborating laboratory observations with human experience. Environ 
+Health Perspect. 1994;102(suppl 9):11–17.
+Krishnan K, Haddad S, Beliveau M, et al. Physiological modeling and 
+extrapolation of pharmacokinetic interactions from binary to more 
+complex chemical mixtures. Environ Health Perspect. 2002;110(suppl 
+6):989–994.
+Krishnan K, Gagne M, Nong A, et al. Biomonitoring equivalents for triclo-
+san. Regul Toxicol Pharmacol. 2010a;58:10–17.
+Krishnan K, Gagne M, Nong A, et al. Biomonitoring equivalents for bisphe-
+nol A (BPA). Regul Toxicol Pharmacol. 2010b;58:18–24.
+Kunze A, Huwyler J, Poller B, et al. In vitro–in vivo extrapolation method to 
+predict human renal clearance of drugs. J Pharm Sci. 2014;103:994–1001.
+Lipscomb JC, Fisher JW, Confer PD, et al. In vitro to in vivo extrapolation 
+for trichloroethylene metabolism in humans. Toxicol Appl Pharmacol. 
+1998;152:376–387.
+Manno M, Viau C. Biomonitoring for occupational health risk assessment 
+(BOHRA). Toxicol Lett. 2010;192:3–16.
+Mapleson WW. An electric analogue for uptake and exchange of inert gases 
+and other agents. J Appl Physiol. 1963;18:197–204.
+Meek B, Renwick A, Sonich-Mullin C, International Programme on 
+Chemical Safety. Practical application of kinetic data in risk assess-
+ment—an IPCS initiative. Toxicol Lett. 2003;138:151–160.
+National Research Council. Human Biomonitoring for Environmental 
+Chemicals. Washington, DC: National Academies Press; 2006.
+Naumann BD, Silverman KC, Dixit R, Faria EC, Sargent EV. Case studies 
+of categorical data-derived adjustment factors. Human Ecol Risk Assess. 
+2001;7(1):61–105.
+Nong A, McCarver DG, Hines RN, Krishnan K. Modeling interchild differ-
+ences in pharmacokinetics on the basis of subject-specific data on phys-
+iology and hepatic CYP2E1 levels: a case study with toluene. Toxicol 
+Appl Pharmacol. 2006;214:78–87.
+O’Flaherty EJ. Toxicant and Drugs: Kinetics and Dynamics. New York: 
+John Wiley; 1981.
+O’Flaherty EJ. Physiologic changes during growth and development. 
+Environ Health Perspect. 1994;102(suppl 11):103–106.
+Pauluhn J. Issues of dosimetry in inhalation toxicity. Toxicol Lett. 
+2003;140-141:229–238.
+Paustenbach D, Galbraith D. Biomonitoring and biomarkers: expo-
+sure assessment will never be the same. Environ Health Perspect. 
+2006;114:1143–1149.
+Peyret T, Poulin P, Krishnan K. A unified algorithm for predicting partition 
+coefficients for PBPK modeling of drugs and environmental chemicals. 
+Toxicol Appl Pharmacol. 2010;249:197–207.
+Peyret T, Krishnan K. QSARs for PBPK modelling of environmental con-
+taminants. SAR QSAR Environ Res. 2011;22:129–169.
+Poulin P, Bteich M, Haddad S. Supplemental analysis of the prediction 
+of hepatic clearance of binary mixtures of Bisphenol A and Naproxen 
+determined in an isolated perfused rat liver model to promote the under-
+standing of potential albumin-facilitated hepatic uptake. J Pharm Sci. 
+2017;106:3207–3214.
+Poulin P, Burczynsky FJ, Haddad S. The role of extracellular binding proteins 
+in the cellular uptake of drugs: impact on quantitative in vitro-to-in vivo 
+extrapolations of toxicity and efficacy in physiologically based pharma-
+cokinetic-pharmacodynamic research. J Pharm Sci. 2016;105:497–508.
+Poulin P, Beliveau M, Krishnan K. Mechanistic animal-replacement 
+approaches for predicting pharmacokinetics of organic chemicals. In: 
+Salem H, Katz SA, eds. Animal Alternatives in Toxicology: Recent 
+Advances. Totowa, NY: Humana Press; 1999:115–139.
+Poulin P, Krishnan K. A biologically-based algorithm for predicting human 
+tissue: blood partition coefficients of organic chemicals. Hum Exp 
+Toxicol. 1995;14:273–280.
+Poulin P, Krishnan K. A tissue composition-based algorithm for predict-
+ing tissue:air partition coefficients of organic chemicals. Toxicol Appl 
+Pharmacol. 1996a;136:126–130.
+Poulin P, Krishnan K. A mechanistic algorithm for predicting blood:air parti-
+tion coefficients of organic chemicals with the consideration of reversible 
+binding in hemoglobin. Toxicol Appl Pharmacol. 1996b;136:131–137.
+Poulin P, Theil FP. Prediction of pharmacokinetics prior to in vivo studies. 
+1. Mechanism-based prediction of volume of distribution. J Pharm Sci. 
+2002;91:129–156.
+Poulin P, Theil FP. Development of a novel method for predicting human 
+volume of distribution at steady-state of basic drugs and comparative 
+assessment with existing methods. J Pharm Sci. 2009;98:4941–4961.
+Price K, Haddad S, Krishnan K. Physiological modeling of age-specific 
+changes in the pharmacokinetics of organic chemicals in children. J 
+Toxicol Environ Health. 2003a;66(A):417–433.
+Price PS, Conolly RB, Chaisson K, et al. Modeling interindividual varia-
+tion in physiological factors used in PBPK models of humans. Crit Rev 
+Toxicol. 2003b;33:469–503.
+Ramsey JC, Andersen ME. A physiologically based description of the 
+inhalation pharmacokinetics of styrene in rats and humans. Toxicol Appl 
+Pharmacol. 1984;73:159–175.
+Reddy MB, Yang RSH, Clewell HJIII, Andersen ME. Physiologically 
+Based Pharmacokinetic Modeling: Science and Application. Hoboken, 
+NJ: Wiley & Sons; 2005:420.
+Reitz RH, Mandrela AL, Park CN, et al. Incorporation of in vitro enzyme data 
+into the physiologically-based pharmacokinetic (PBPK) model for methy-
+lene chloride: implications for risk assessment. Toxicol Lett. 1988;43:97–116.
+
+430
+Disposition of toxicants
+unit II
+Reitz RH, McCroskey PS, Park CN, et al. Development of a physiologi-
+cally based pharmacokinetic model for risk assessment with 1,4-dioxane. 
+Toxicol Appl Pharmacol. 1990;105(1):37–54.
+Renwick AG. Data safety factors for the evaluation of food additives and 
+environmental contaminants. Food Additives Contam. 1993;10:275–305.
+Renwick AG. Subdivision of uncertainty factors to allow for toxicokinet-
+ics and toxicodynamics. Human Ecol Risk Assess. 1999;5(5)1035–1050.
+Rescigno A. Fundamental concepts in pharmacokinetics. Pharmacol Res. 
+1997;35:363–390.
+Rideout VC. Mathematical and Computer Modeling of Physiological 
+Systems. New York: Prentice-Hall; 1991.
+Riggs DS. The Mathematical Approach to Physiological Problems: A 
+Critical Treatise. Cambridge, MA: MIT Press; 1970.
+Rodgers T, Leahy D, Rowland M. Physiologically based pharmacokinetic 
+modeling 1: predicting the tissue distribution of moderate-to-strong 
+bases. J Pharm Sci. 2005;94:1259–1276.
+Rodgers T, Rowland M. Physiologically based pharmacokinetic modelling 
+2: predicting the tissue distribution of acids, very weak bases, neutrals 
+and zwitterions. J Pharm Sci. 2006;95:1238–1257.
+Rodgers T, Rowland M. Mechanistic approaches to volume of distribution 
+predictions: understanding the processes. Pharm Res. 2007;24:918–933.
+Rowland M. Physiologic pharmacokinetic models and interanimal species 
+scaling. Pharmacol Ther. 1985;29:49–68.
+Rowland M, Tozer TN. Clinical Pharmacokinetics and Pharmacodynamics–
+Concepts and Applications. Philadelphia, PA: Wolters Kluwer/Lippincott, 
+Williams & Wilkins; 2011.
+Schmitt W. General approach for the calculation of tissue to plasma parti-
+tion coefficients. Toxicol In Vitro. 2008;22:457–467.
+Segal IH. Enzyme Kinetics: Behavior and Analysis of Rapid Equilibrium and 
+Steady-State Enzyme Systems. New York: Wiley Interscience; 1975:957.
+Slikker W, Andersen ME, Bogdanffy MS, et al. Dose-dependent transitions in 
+mechanisms of toxicity. Toxicol Appl Pharmacol. 2004;201(3):203–225.
+St-Amand A, Werry K, Aylward LL, et al. Screening of population level 
+biomonitoring data from the Canadian Health Measures Survey in a risk-
+based context. Toxicol Lett. 2014;231:126–134.
+Tardif R, Charest-Tardif G. The importance of measured end-points in dem-
+onstrating the occurrence of interactions: a case study with methylchlo-
+roform and m-xylene. Toxicol Sci. 1999;49(2):312–317.
+Tardif R, Charest-Tardif G, Brodeur J, et al. Physiologically based phar-
+macokinetic modeling of a ternary mixture of alkyl benzenes in rats and 
+humans. Toxicol Appl Pharmacol. 1997;144:120–134.
+Teorell T. Kinetics of distribution of substances administered to the body: I. 
+The extravascular modes of administration. Arch Int Pharmacodyn Ther. 
+1937;57:205–225.
+Terasaki T, Iga T, Sugiyama Y, et al. Nuclear binding as a determinant of 
+tissue distribution of adriamycin, daunomycin, adriamycinol, daunorubi-
+cinol and actinomycin D. J Pharmacobiodyn. 1984;7:269–277.
+Thummel KE, Shen DD, Isoherranen N, et al. Appendix II. Design and 
+optimization of dosage regimens: pharmacokinetic data. In: Brunton LL, 
+Parker KL, Buxton IOL, Blumenthal DK, eds. Goodman & Gilman’s: 
+The Pharmacological Basis of Therapeutics. 11th ed. New York: The 
+McGraw-Hill Companies; 2006.
+Tozer NT, Rowland M. Introduction to Pharmacokinetics and 
+Pharmacodynamics: The Quantitative Basis of Drug Therapy. 
+Philadelphia, PA: Lippincott Williams & Wilkins; 2006.
+Travis CC, Hattemer-Frey HA. Physiological pharmacokinetic models. In: 
+Krewski D, Franklin C, eds. Statistics in Toxicology. New York: Gordon 
+and Breach; 1991:170.
+Turner PV, Brabb T, Pekow C, et al. Administration of substances to labora-
+tory animals: routes of administration and factors to consider. J Am Assoc 
+Lab Anim Sci. 2011;50:600–613.
+U.S. Environmental Protection Agency (EPA). Approaches for the appli-
+cation of physiologically based pharmacokinetic (PBPK) models and 
+supporting data in risk assessment. National Center for Environmental 
+Assessment, Washington, DC; EPA/600/R-05/043F. 2006.
+U.S. EPA (Environmental Protection Agency). Guidance for applying quan-
+titative data to develop data-derived extrapolation factors for interspecies 
+and intraspecies extrapolation. Risk Assessment Forum, Office of the 
+Science Advisor, Washington, DC; EPA/100/R-14/002. 2014.
+Valcke M, Krishnan K. Assessing the impact of child/adult differences 
+in hepatic first pass effect on the human kinetic adjustment factor. Reg 
+Toxicol Pharmacol. 2013;65(1):126–134.
+Valcke M, Krishnan K. Characterization of the human kinetic adjustment 
+factor for the health risk assessment of environmental contaminants. J 
+Appl Toxicol. 2014;34:227–240.
+Wetmore BA. Quantitative in vitro-to-in vivo extrapolation in a high-
+throughput environment. Toxicology. 2015;332:94–101.
+Wetmore BA, Wambaugh JF, Ferguson SS, et al. Relative impact of incor-
+porating pharmacokinetics on predicting in vivo hazard and mode 
+of action from high-throughput in vitro toxicity assays. Toxicol Sci. 
+2013;132:327–346.
+World Health Organization (WHO). Principles of Toxicokinetic Studies. 
+Environmental Health Criteria 57. Geneva: WHO; 1986.
+World Health Organization (WHO). Chemical-specific adjustment factors 
+for interspecies differences and human variability: guidance document 
+for use of data in dose/concentration-response assessment. International 
+Program on Chemical Safety (IPCS) Harmonization Project Document 
+No. 2. 2005.
+World Health Organization (WHO). Characterization and application 
+of physiologically based pharmacokinetic models in risk assessment. 
+International Program on Chemical Safety (IPCS) Harmonization Project 
+Document No. 9. 2010.
+Wilkinson GR. Clearance approaches in pharmacology. Pharmacol Rev. 
+1987;39:1–47.

@@ -1,0 +1,2276 @@
+# 25 Toxic Effects of Radiation and Radioactive Materials
+# Casarett & Doull's Toxicology, 9th Edition
+# Pages: 1276-1293
+# Unit: Unit V Toxic Agents
+
+Introduction
+Radiation Background
+Types of Ionizing Radiation
+Relative Biological Effectiveness 
+and Quality Factors
+Units of Radiation Activity and 
+Dose
+Radiobiology
+Nontargeted Radiation Effects
+Bystander Effects
+Genomic Instability
+Adaptive Response
+Hormesis
+Gene Expression
+Summary
+Cancer Epidemiology
+A-bomb Survivor Studies
+Occupational Studies
+Nuclear Worker Studies
+Medical Radiation Workers
+Chernobyl Cleanup Workers
+Nuclear Worker Registries
+Nonoccupationally Exposed  
+Groups
+Studies of the Techa River Exposures
+High Natural Background Radiation 
+Areas
+Semipalatinsk Fallout-Related 
+­Exposures
+Other Nonoccupational Studies
+Radionuclides
+Radon
+Radium
+Plutonium
+Radioiodine
+Noncancer Epidemiology
+Cardiovascular Disease
+Cataracts
+Mental Effects
+Discussion
+Acknowledgments
+References
+25
+chapter
+Toxic Effects of Radiation 
+and Radioactive Materials
+David G. Hoel
+INTRODUCTION
+Ionizing radiations such as gamma-rays and x-rays are radiations 
+that have sufficient energy to displace electrons from molecules. 
+These freed electrons then have the capability of damaging other 
+molecules and, in particular, DNA. Thus, the potential health effects 
+of low levels of radiation are important to understand in order to be 
+able to quantify their effects. For example, it has been estimated that 
+10% of lung cancers are attributable to radon exposures. In recent 
+years the amount of radiation that the public receives has greatly 
+increased due to medical applications, especially the higher doses 
+associated with computed tomography (CT) scans. Currently 50% 
+of radiation exposures are from medical, 48% from environmental 
+(primarily radon), and 2% from consumer products. The average 
+yearly total effective exposure to individuals is 6.2 mSv. For an 
+extensive analysis, the reader is referred to National Council on 
+Radiation Protection (NCRP) Report 160 (NCRP, 2009). Fig. 25-1 
+taken from the report gives a summary breakdown of exposure 
+sources.
+Biological effects of radiation are primarily damage to the 
+DNA. Atoms of the DNA target may be directly ionized or indi-
+rectly affected by the creation of a free radical that can interact 
+with the DNA molecule. In particular, the hydroxyl radical is pre-
+dominant in DNA damage. For radiation particles such as neutrons 
+and α particles the damage is primarily direct, whereas for photons 
+such as x-rays, about two-thirds of the DNA damage in mamma-
+lian cells is due to hydroxy radicals. The study of health effects of 
+ionizing radiation is complicated by the fact that there are various 
+types of radiation, from x-ray photons to heavy charged particles 
+encountered in space. Within any type of radiation the potential 
+damage also depends on the energy level of the photons or particles.
+Cancer has been the major adverse health effect of ionizing 
+radiation. It has been well studied epidemiologically, as well as in 
+the laboratory and in animal toxicological studies. More recently, 
+there has been a concern with possible cardiovascular effects, cata-
+ractogenesis, and possibly immunosenescence. At one time there 
+was considerable concern about the possible heritable effects, but 
+the risks now appear to be small. The issues with chemicals are the 
+risks at low doses, and with radiation the effects of acute versus 
+chronic exposures. Most radiation risk analyses depend on epide-
+miological studies. There have been many that have large popula-
+tions and varied exposures. There is, however, a need for better 
+radiobiological understanding of potential health effects in order to 
+estimate low-dose effects, sensitive subgroups, and radiation types 
+and energies that have not been adequately studied.
+RADIATION BACKGROUND
+Types of Ionizing Radiation
+When ionizing radiation passes through matter, it has the energy 
+to ionize atoms so that one or more of its electrons can be dis-
+lodged and chemical bonds broken. Ionizing radiation is of two 
+types: particulate and electromagnetic waves. Particulate radia-
+tion may either be electrically charged (α, β, proton) or have no 
+charge (neutron). Ionizing electromagnetic radiation (photons) in 
+the form of x-rays or gamma-rays has considerably more energy 
+than nonionizing radiation, such as ultraviolet and visible light.
+
+1258
+Toxic Agents
+unit V
+Radionuclides (i.e., radioactive atoms), being unstable, release 
+both electromagnetic and particulate radiation during their radio-
+active decay. The radionuclides decay into either stable elements 
+or through a decay chain of successive radionuclides called decay 
+daughters. The types of radiation emitted, its rate of decay, and the 
+energies of the released radiation are unique to each type of radio-
+nuclide. The charged particles are directly ionizing because they 
+ionize molecules by direct collisions with the molecules’ electrons. 
+Photons can travel relatively long distances, and after interacting 
+with an electron in a material, the photon transfers some or all of its 
+energy to the electron. The energetic electrons (i.e., photoelectrons 
+or Compton electrons) are released, producing an indirect ioniza-
+tion. There are three basic radionuclide decay series: thorium, nep-
+tunium, and uranium series. The uranium decay series is illustrated 
+in Fig. 25-2, and Table 25-1 gives the details.
+The rate of energy dissipation by a single event is referred 
+to as linear energy transfer (LET). The LET of a charged particle 
+is the average energy lost due to interactions per unit length of its 
+trajectory given as kiloelectron volts per micrometer (keV/μm). 
+X-rays, gamma-rays, and β particles of similar energies produce 
+sparse ionization tracks and are classified as low-LET radiation. 
+Particulate radiation (e.g., neutrons and α particles) causes interac-
+tions with large amounts of energy being dissipated within short 
+distances. Alpha particles (helium nucleus), which are released 
+from the nucleus of some radionuclides, are slow-moving with a 
+positive charge. Although they cannot penetrate a piece of paper 
+or skin, they are of concern if ingested or inhaled. The most recog-
+nized example is the lung cancer risk from the inhalation of radon 
+(Rn 222) and its daughter products. LET depends on the energy of 
+the particle; for example, the LET of a 5-MeV α particle would 
+be 100 keV/μm. Neutrons released during nuclear chain reactions 
+have a greater range and lower LET (20 for a 2.5-MeV neutron). 
+A 250-keV x-ray has an LET of 2 to 3 and a Cobalt 60 gamma-ray 
+0.2 to 0.3. A β particle is a simple electron that is released from the 
+nucleus when a neutron converts into a proton, and it has similar 
+low-LET values depending again on its energy.
+The rate of decay of a radionuclide is exponential with a decay 
+rate constant λ that is then simply Ae-λt for time t and initial quan-
+tity of the radionuclide A. The radiological half-life is the time 
+required for the radionuclide to lose 50% of its activity by decay. 
+Each radionuclide has its own unique half-life as illustrated in Table 
+25-1. For example, the half-life of iodine 131 is 8 days while for 
+cesium 137 it is 20 years. If a radionuclide is internally deposited in 
+an individual, the actual half-life is obtained by taking the recipro-
+cal of the sum of the reciprocals of the radiological half-life and the 
+biological half-life; that is, 1/T = 1/Tr + 1/Tb where T is the half-
+life, Tr is the radiological half-life, and Tb is the biological half-life. 
+For more extensive and detailed information the reader is referred 
+to Biological Effects of Ionizing Radiation (BEIR) VII and the text 
+by Turner (2007).
+Relative Biological Effectiveness and 
+Quality Factors
+The various types of ionizing radiation have similar biological 
+effects that occur because of the ionization of molecules. However, 
+without knowing the type of radiation, one cannot specify how 
+much radiation is needed to produce a specific biological effect. 
+This is because a given absorbed dose (energy per unit mass) of 
+x-rays does not have the same biological effect as an identical dose 
+of neutrons. The relative effectiveness of different types of radiation 
+in producing biological changes depends on deposition of energy, 
+that is, LET. In order to deal with this problem the International 
+Council of Radiation Protection (ICRP) developed the concept of 
+relative biological effectiveness (RBE). It is defined in BEIR V as 
+follows:
+Biological potency of one radiation as compared with another to produce 
+the same biological endpoint. It is numerically equal to the inverse of the 
+ratio of absorbed doses of the two radiations required to produce equal 
+biological effects. The reference radiation is often 200-kV x-rays.
+The difficulty is that the RBE may differ depending on the bio-
+logical endpoint and it may also be dose-dependent. When dose is 
+not specified, it is assumed that the RBE is at the low-dose limit (see 
+BEIR VII). The RBE increases as a function of LET, reaching a max-
+imum at about 100 keV/μm. Interestingly, it was pointed out by Hall 
+and Giaccia (2005) that at the density of ionization of 100 keV/μm, 
+the average separation between ionization events just coincides 
+with the diameter of the DNA double helix. Thus, radiation with 
+this density has the highest probability of causing a double-stranded 
+break by the passage of a single charged particle.
+For regulatory purposes, the ICRP introduced the related con-
+cept of “quality factor” (Q) or weighting factor wR. It is defined as 
+an LET-dependent factor by which doses are multiplied to obtain a 
+quantity that corresponds to the degree of biological effect produced 
+by x-rays and low-energy gamma-rays. Table 25-2 gives the current 
+weighting factors, whereas Fig. 25-3 plots the values for various 
+neutron energy levels (taken from ICRP 103; ICRP, 2007).
+The “equivalent dose” to an organ or tissue is then defined as 
+HT = ΣRwR DTR where DTR is the dose to the organ from radiation 
+type R. For public health purposes, ICRP further defines “effective 
+dose” as E = ΣTwTHT where wT are tissue-weighting factors (Table 
+25-3). It should be noted that these are the currently recommended 
+Industrial (<0.1%)
+Occupational (<0.1%)
+Consumer (2%)
+Conventional
+radiography/ﬂuoroscopy
+(medical) (5%)
+Interventional ﬂuoroscopy
+(medical) (7%)
+Nuclear medicine
+(medical) (12%)
+Computed
+tomography
+(medical)
+(24%)
+Terrestrial (background) (3%)
+Internal (background) (5%)
+Space (background) (5%)
+Radon
+and thoron
+(background)
+(37%)
+Figure 25-1.   Percent contribution of total effective dose to individuals 
+(NCRP Report 160).
+
+Toxic Effects of Radiation and Radioactive Materials
+Chapter 25
+1259
+ICRP values although the Nuclear Regulatory Agency is using pre-
+vious values (e.g., 0.25 instead of 0.08 for gonads possibly because 
+of previous concerns about genetic effects). For the radionuclides 
+there are also the terms “committed equivalent dose” and “commit-
+ted effective dose,” which simply means the total accumulative dose 
+for 50 years after the exposure. Finally “total effective dose equiva-
+lent” (TEDE) means the sum of the effective dose equivalent (for 
+external exposures) and the committed effective dose ­equivalent 
+(for internal exposures).
+Units of Radiation Activity and Dose
+The basic unit of radiation activity is the Becquerel (Bq), which is 
+nuclear disintegrations per second. The older unit of activity is the 
+Curie (Ci), which corresponds to the number of disintegrations in 
+1 second from 1 g of radium 226 or 1 Ci = 3.7 × 1010 decays per 
+second; thus, 1 Bq = 2.7 × 10−11 Ci. The EPA continues to use the 
+old unit of activity with regard to radon. For example, the EPA’s 
+level of concern for radon in the home currently is 4 pCi/L, which 
+is equivalent to 148 Bq/m3.
+U
+Uranium
+238
+238
+92
+4.5 billion
+year
+U
+Uranium
+234
+234
+92
+245,500
+year
+Pa
+Protactinium
+234
+234
+91
+27 day
+Th
+Thorium
+234
+234
+90
+27 day
+Th
+Thorium
+230
+230
+90
+75,380
+year
+Ra
+Radium
+226
+226
+88
+1,602
+year
+Rn Radon
+222
+222
+86
+3.8 day
+At
+Astatine
+218
+218
+85
+1.5 sec
+Po
+Polonium
+218
+218
+84
+3.1 min
+Pb
+Lead
+214
+214
+82
+26.8 min
+Po
+Polonium
+214
+214
+84
+164.3
+µ sec
+Pb
+Lead
+210
+210
+82
+22.3 yr
+Bi
+Bismuth
+214
+214
+83
+20 min
+TI
+Thallium
+210
+210
+81
+1.3 min
+Hg Mercury
+206
+206
+92
+8.1 min
+Bi
+Bismuth
+210
+210
+83
+5 day
+TI
+Thallium
+206
+206
+81
+4.2 min
+Po
+Polonium
+210
+210
+84
+138 day
+Pb
+Lead
+206
+206
+82
+Stable
+β –
+β –
+β –
+β –
+β –
+β –
+α
+α
+α
+α
+α
+α
+α
+α
+α
+α
+α
+α
+β –
+β –
+β –
+β –
+Figure 25-2.   Uranium decay chain.
+
+1260
+Toxic Agents
+unit V
+The basic unit of dose is the Gray (Gy), which is the amount 
+of energy released in a given mass of tissue. One Gray is defined as 
+1 joule of energy released in 1 kg of tissue. The older dose unit of 
+rad (100 erg/g) is 1/100 of a Gray. The other common measure is 
+the Sievert (Sv), which is a dose equivalent; that is, the dose in Gray 
+multiplied by the appropriate quality factor. The dose equivalent 
+rem is rad multiplied by the quality factor. Because 60Co gamma-
+rays and 240 keV x-rays have a quality factor of one, we see Sv 
+and Gy are used interchangeably in studies. Less common is the 
+roentgen (R) that quantifies exposure, and is the number of ioniza-
+tions in a cubic meter of air produced by x-rays or gamma radia-
+tion. Because 1 roentgen of gamma- and x-ray gives an absorbed 
+dose to tissue of about 1 rad (10 mGy), they are nearly equivalent. 
+For radon and its daughters, a different exposure system is used. 
+Considering the uranium miner studies, exposure is expressed as a 
+working level (WL), which is defined by BEIR VI as follows:
+Any combination of the short-lived progeny of radon in 1 L of air, under 
+ambient temperature and pressure, that results in the ultimate emission of 
+1.3 × 105 MeV of α particle energy. This is approximately the total amount 
+of energy released over a long period of time by the short-lived progeny in 
+equilibrium with 100 pCi of radon. 1 WL = 2.08 × 10−5 Jm−3.
+For cumulative exposure, a working level month (WLM) is 
+used, which is the exposure to 1 WL for 1 working month of 170 
+hours.
+Table 25-1  
+Radioisotopes in the Uranium Decay Series
+NUCLIDE
+DECAY MODE
+HALF-LIFE  
+(a = YEAR)
+ENERGY 
+RELEASED 
+(MeV)
+PRODUCT 
+OF DECAY
+238U
+α
+4.468 × 109a
+4.270
+234Th
+234Th
+β−
+24.10 days
+0.273
+234mPa
+234mPa
+β− 99.84%
+1.16 min
+2.271
+234U
+IT 0.16%
+0.074
+234Pa
+234Pa
+β−
+6.70 h
+2.197
+234U
+234U
+α
+245,500 a
+4.859
+230Th
+230Th
+α
+75,380 a
+4.770
+226Ra
+226Ra
+α
+1602 a
+4.871
+222Rn
+222Rn
+α
+3.8235 days
+5.590
+218Po
+218Po
+α 99.98%
+3.10 min
+6.115
+214Pb
+β− 0.02%
+0.265
+218At
+218At
+α 99.90%
+1.5 s
+6.874
+214Bi
+β− 0.10%
+2.883
+218Rn
+218Rn
+α
+35 ms
+7.263
+214Po
+214Pb
+β−
+26.8 min
+1.024
+214Bi
+214Bi
+β− 99.98%
+19.9 min
+3.272
+214Po
+α 0.02%
+5.617
+210Tl
+214Po
+α
+0.1643 ms
+7.883
+210Pb
+210Tl
+β−
+1.30 min
+5.484
+210Pb
+210Pb
+β−
+22.3 a
+0.064
+210Bi
+210Bi
+β−
+5.013 days
+1.426
+210Po
+99.99987%
+5.982
+206Tl
+α 0.00013%
+210Po
+α
+138.376 days
+5.407
+206Pb
+206Tl
+β−
+4.199 min
+1.533
+206Pb
+206Pb
+−
+Stable
+−
+−
+Table 25-2  
+Recommended Radiation Weighting Factors
+RADIATION TYPE
+RADIATION WEIGHTING 
+FACTOR (WR)
+Photons
+1
+Electrons and muons
+1
+Protons and pions
+2
+Alpha particles, fission frag-
+ments, heavy ions
+20
+Neutrons
+See Fig. 25-3
+The “equivalent dose” to an organ or tissue is then defined as  
+HT = ΣRwRDTR, where DTR is the dose to the organ from radiation 
+type R. For public health purposes.
+25
+0
+104
+10–6
+Neutron energy, MeV
+5
+Radiation weighting factor
+10
+15
+20
+10–5 10–4 10–3 10–2 10–1 100
+101
+102
+103
+Figure 25-3.   Neutron weighting factor by energy level.
+Table 25-3  
+Recommended Tissue Weighting Factors
+TISSUE
+WT
+ΣT WT
+Bone-marrow, colon, lung, stomach, 
+breast, remainder tissues*
+0.12
+0.72
+Gonads
+0.08
+0.08
+Bladder, esophagus, liver, thyroid
+0.04
+0.16
+Bone surface, brain, salivary glands, skin
+0.01
+0.04
+Total
+1.00
+*Remainder tissues: adrenals, extrathoracic (ET) region, gall bladder, 
+heart, kidneys, lymphatic nodes, muscle, oral mucosa, pancreas, prostate, 
+small intestine, spleen, thymus, and uterus/cervix.
+
+Toxic Effects of Radiation and Radioactive Materials
+Chapter 25
+1261
+RADIOBIOLOGY
+Radiation biology has made significant progress in our understand-
+ing of radiation effects at low doses. BEIR VII and, more recently, 
+Dauer et al. (2010) go into great detail describing our current 
+knowledge as it pertains to radiation-induced cancer. Currently 
+radiation cancer risk extrapolations make two assumptions: namely 
+that the basic mode of action is linearly related to dose and that 
+the individual cell is the unit of risk. However, effects occurring 
+in nontargeted cells, such as with induced genomic instability and 
+bystander effects, suggest that responses can occur nonuniformly 
+over time at the tissue level. How cells in tissues react to radiation 
+effects is not well understood. There are many complexities in the 
+cancer process that are not explained by the “single-cell biophysi-
+cal hit” model of radiation-induced cancer, which is the basis for 
+the linear no-threshold (LNT) model used for low-dose cancer risk 
+assessments. Damage from ionizing radiation appears to increase 
+linearly with dose, but recent data suggest that the processing and 
+repair of induced damage could be nonlinear. The understand-
+ing of these processes is necessary for low-dose risk estimation. 
+Following irradiation, various protective cellular processes occur 
+that depend on the degree of damage and the tissue type. These 
+mechanisms include DNA repair, intracellular metabolic oxidation/
+reduction reactions, cell cycle checkpoint controls, cellular signal-
+ing, senescence, and apoptosis (see Dauer et al., 2010).
+The BEIR VII report reviewed in detail the effects of DNA 
+damage after exposure to low doses of ionizing radiation. After an 
+exposure to 5 mGy of low-LET radiation (average background per 
+year), each cell nucleus is on average hit by one electron, resulting 
+in 5 to 10 damaged bases, 2.5 to 5 single-strand breaks and 0.25 
+double-strand breaks.
+Nontargeted Radiation Effects
+Exposure to ionizing radiation can result in direct damage to the 
+irradiated cells as well as producing effects in cells that were not 
+irradiated (bystander effects). These nontargeted effects can occur 
+in the nonirradiated neighbors of irradiated cells and at sites distant 
+from the irradiated cells. Effects can also be observed in the prog-
+eny of an irradiated cell (genomic instability). Both targeted and 
+nontargeted effects can result in DNA mutations, gene amplifica-
+tions, chromosomal rearrangements, carcinogenesis, and cell death.
+Bystander Effects  Radiation-induced bystander effects are 
+those in which cells that have not been directly exposed to ion-
+izing radiation react as though they have been exposed by receiv-
+ing a biochemical signal from a radiation-exposed cell. That is, 
+they show chromosomal instability and other abnormalities, or die. 
+BEIR VII concluded that for high-LET radiation a bystander effect 
+has been shown for inducing cell lethality, chromosome aberra-
+tions, sister-chromatid exchanges, mutations, genomic instability, 
+signal transduction pathways, and in vitro transformation. For low-
+LET radiation, the bystander effect has been limited to cell lethality 
+and lethal mutations.
+These bystander cells can be either adjacent or at some dis-
+tance from the radiation-exposed cell. Not all cells can produce 
+bystander signals or react to them. The important issue from a risk 
+assessment view is whether bystander effects are beneficial (e.g., 
+adaptive response and apoptosis [removal of damaged cells]) or det-
+rimental to the nonexposed cells, and what impact they may have on 
+dose response at low doses. It should be noted that most observed 
+effects are detrimental, but beneficial effects are more difficult to 
+measure. However, bystander effects demonstrate that the organ-
+ism and tissues communicate and are responding as an organized 
+structure to radiation insult. Large DNA deletions are the major 
+type of radiation-induced mutations. In bystander cells, however, 
+the types of mutations are similar to those that occur spontaneously, 
+with the majority being point mutations. These differences are 
+important in understanding risk at low doses (Dauer et al., 2010).
+BEIR VII quotes Sawant et al. (2001) on high-LET bystander 
+in vitro studies that “These results, if applicable in vivo, would have 
+significant consequences in terms of radiation risk extrapolation to 
+low doses, implying that the relevant target for radiation oncogen-
+esis is larger than an individual cell, and that the risk of carcinogen-
+esis would increase more slowly, if at all, at higher doses—an effect 
+seen in vivo, as well as epidemiologically. Thus, a simple linear 
+extrapolation of radiation risk from high doses (where they can be 
+measured) to lower doses (where they must be inferred) would be 
+of questionable validity.” In other words, it is speculated that there 
+could be a convex, downward-curving dose–response relationship 
+at low doses, and that extrapolation of data from high doses could 
+lead to an underestimate of the effect at low doses of high-LET 
+radiation. Finally, BEIR VII concludes that “until molecular mecha-
+nisms of the bystander effect are elucidated, especially as related 
+to an intact organism, and until reproducible bystander effects are 
+observed for low-LET radiation in the dose range of 1 to 5 mGy, 
+where an average of about one electron track traverses the nucleus, 
+a bystander effect of low dose, low-LET radiation that might result 
+in a dose–response curving either upward or downward should not 
+be assumed.” For an in-depth review of bystander effects both in 
+vitro and in vivo see the papers by Morgan (2003a, 2003b) as well 
+as Mothersill and Seymour (2004, 2005) and Liu et al. (2006).
+Genomic Instability  Genomic instability has been defined 
+as the increase in rate of acquiring genetic change, and induced 
+genomic instability can be observed in the progeny of irradi-
+ated cells and can persist for many generations (Morgan, 2003a, 
+2003b). When a cell is saturated in repairing radiation damage it 
+may change its gene-product profile without any specific genetic 
+damage. This has been suggested as a cause of genomic instability, 
+which is an anti-inflammatory response, and is a risk for malig-
+nancy (Barcellos-Hoff, 2005). There is a need for the understand-
+ing of the molecular targets and processes responsible for genomic 
+instability in order to understand the dose–response and why the 
+frequency saturates at 10% to 30% of the surviving cells. This may 
+be due to the fact that only a fraction of cells in a particular part of 
+the cell cycle is susceptible. It is believed that genomic instability 
+could be linked to the loss of telomere maintenance and too short 
+telomeres as a mechanism in cancer development. Chromosome 
+instability can also be initiated by double-strand breaks that result 
+in the loss of a telomere that protects the chromosome end and 
+prevents chromosome fusion. The induction of chromosomal aber-
+rations plays an important role in genomic instability. There is also 
+some evidence that reactive oxygen species (ROS) may play a role. 
+BEIR VII concludes, “However, until the molecular mechanisms 
+responsible for genomic instability and its relationship to carcino-
+genesis are understood, extrapolation of the limited dose–response 
+data for genomic instability to radiation-induced cancers in the 
+low-dose range <100 mGy is not warranted.”
+Adaptive Response  Cells that are exposed to a low priming 
+dose of radiation (e.g., 10 to 20 mGy) followed in a short time inter-
+val with a larger challenge dose (e.g., 1 Gy), the frequency of chro-
+mosomal aberrations induced by the challenge dose was found to 
+be less than that from the challenge dose given alone. This effect is 
+referred to as “adaptive response” (Tapio and Jacob, 2007). Studies 
+have also shown that low doses of radiation may reduce the biologi-
+cal background effect. This has been shown for cell transformation
+
+1262
+Toxic Agents
+unit V
+and chromosomal damage. It has also been observed that the nor-
+mal rate of cell transformation (Redpath, 2006) and chromosome 
+damage can be decreased to below the normal background level 
+after an initial low-dose radiation exposure. Adaptive responses 
+have been observed both in vitro and in vivo for both cancer and 
+genetic effects, which suggests that low doses may decrease radia-
+tion risk. These adaptive responses suggest that enhancing normal 
+repair or protective processes make it possible to decrease the risk 
+for low-dose radiation-induced cancer (Dauer et al., 2010).
+In BEIR VII’s assessment of adaptive response, they state that 
+data are needed when both the priming and challenging doses are 
+low (less than 100 mGy) and when doses are delivered over several 
+weeks or months at low dose rates or with fractionated exposures. 
+They also suggest that the adaptive response studies using malig-
+nant transformation assays using immortalized cell lines may not be 
+relevant to normal nonimmortalized cells. Finally BEIR VII states, 
+“Thus, it is concluded that any useful extrapolations for dose–
+response relationships in humans cannot be made from the adaptive 
+responses observed in human lymphocytes or other mammalian cel-
+lular systems. Therefore, at present, the assumption that any stimu-
+latory effects of low doses of ionizing radiation substantially reduce 
+long-term deleterious radiation effects in humans is unwarranted.”
+Hormesis
+The BEIR VII committee defined hormesis as “the stimulating 
+effect of small doses of substances which in larger doses are inhibi-
+tory” (see Calabrese et al. [2007] for a review). The committee 
+concluded that the preponderance of available experimental data 
+does not support the idea that low levels of ionizing radiation have 
+a beneficial effect, and the possible mechanisms remain obscure. 
+Further, they state, “At this time, the assumption that any stimu-
+latory hormetic effects from low doses of ionizing radiation will 
+have a significant health benefit to humans that exceeds poten-
+tial detrimental effects from radiation exposure at the same dose 
+is unwarranted.” Research actively continues in this area and the 
+BEIR committee recommends the need for research on the possible 
+mechanisms for hormesis at low radiation doses.
+Gene Expression
+Gene expression profiling for monitoring ionizing radiation expo-
+sure has become an active area of research. It has been shown 
+that dose, dose rate, radiation quality, and time since exposure 
+result in variations in the response of genes, so that gene expres-
+sion signatures may be markers of radiation exposure. Changes in 
+gene expression in human cell lines occur after as little as 0.02 
+Gy gamma-rays (Amundson and Fornace, 2001; Amundson et al., 
+2003). Using gene expression methods, Ory et al. (2011) and 
+Ugolin et al. (2011) were able to distinguish a number of post-
+Chernobyl thyroid tumors and postradiotherapy thyroid tumors 
+from their sporadic counterparts. These techniques, if applicable 
+to low-dose radiation exposures, could be very useful in radiation 
+epidemiological studies (see Maenhaut et al., 2011).
+Summary
+Cancer being the primary health concern from exposure to ioniz-
+ing radiation, there is a focus on mechanisms and dose–response 
+as they relate to the induction of chromosomal aberrations and 
+gene mutations because cancer is believed to be associated with 
+these cellular responses. Experimental data indicate that the dose–
+response relationship over a range of 20 to 100 mGy is most likely 
+to be linear, and not significantly affected by either an adaptive or 
+a bystander effect. Data in this dose range for genomic instability 
+are generally not available. The question of the shape of the dose–
+response relationship up to 20 mGy remains uncertain. The future 
+of understanding low-dose radiation cancer risks will depend on 
+the continued advancement of molecular biology, gene expression 
+analysis, and computational biology.
+CANCER EPIDEMIOLOGY
+Epidemiological studies have been extensive and provide the basis 
+for our understanding of radiation-induced cancer effects. These 
+studies provide a wide range of exposures including populations 
+at high natural background exposures, occupational studies, popu-
+lations exposed to nuclear testing and reactor accidents, A-bomb 
+survivor studies, and the follow-up of patients having had high-
+dose medical radiation therapies. Radiation cancer studies are no 
+different from other types of occupational and environmental can-
+cer studies in that radiation-induced cancers are not distinguishable 
+pathologically, and there are usual issues of exposure confound-
+ing, long latencies (e.g., 10 to 20 years for solid tumors), levels 
+of exposure, and study size. Generally for acute exposures only 
+epidemiological studies with exposures to relatively high doses of 
+radiation (greater than 0.15 Sv) have shown such an excess of can-
+cer. Because of these difficulties, the most informative studies are 
+those that involve a large number of individuals with large radiation 
+doses and follow-up of several decades.
+Epidemiological assessment of cancer in populations exposed 
+to radiation has been the principal source of information used by 
+regulatory groups. The National Academies series of BEIR reports 
+provides this information through expert committee analyses. The 
+most recent report BEIR VII is restricted to the health effects of 
+low-LET radiation (e.g., gamma-ray and x-ray). The BEIR VI 
+report is solely devoted to radon, whereas BEIR IV is focused 
+on radionuclides. BEIR V is a previous version of BEIR VII. The 
+BEIR reports, besides reviewing the scientific literature on radiation 
+health effects, develop quantitative cancer risk models for low-LET 
+exposures as well as radon exposures. The United Nations Scientific 
+Committee on the Effects of Atomic Radiation (UNSCEAR) reports 
+also review the literature on cancer and noncancer effects of radia-
+tion exposures. The committee developed quantitative cancer risk 
+models and applied them to various populations. More recently, the 
+International Agency for Research on Cancer (IARC), in its mono-
+graph series, evaluated cancer effects for various types of radia-
+tion exposures (IARC report 100D; IARC, 2009). This qualitative 
+analysis determined that for each radiation type which cancer sites 
+are considered to be causal. A brief summary was published after 
+the meeting and the findings are reproduced here in Table 25-4 
+(El Ghissassi et al., 2009). We see from Table 25-4 that there are 
+numerous Class 1 cancer sites for gamma-ray and x-ray, while only 
+lung cancer is associated with radon exposures.
+A-bomb Survivor Studies
+The Radiation Effects Research Foundation (RERF) and its pre-
+decessor the Atomic Bomb Casualty Commission (ABCC) have 
+reported a series of mortality studies on a fixed population (Life 
+Span Study [LSS] cohort) of 120,321 individuals. These included 
+A-bomb survivors and residents who were not present at the time 
+of the bombing (NIC [not in city] 26,529). The most recent report 
+is the 14th in the series and covers the years 1950 to 2003, and 
+includes both cancer and noncancer mortality (Ozasa et al., 2012). 
+There are also studies on cancer incidence, with the most recent for 
+solid cancers during the period 1958 to 1998 and for hematopoietic
+
+Toxic Effects of Radiation and Radioactive Materials
+Chapter 25
+1263
+tumors during 1950 to 2001 (Preston et al., 2007; Hsu et al., 2013). 
+RERF also publishes analyses of individuals in the Adult Health 
+Study (AHS), which is a subcohort of LSS with 22,400 individ-
+uals and an additional 1000 in utero exposed. This subcohort is 
+oversampled with more individuals who were exposed to the higher 
+doses. Members of the AHS are given physical examinations every 
+2 years, and this provides much clinical data as well as biological 
+samples. Details of the RERF study cohorts, publications, and data-
+bases can be accessed at the RERF Web site.
+The LSS cohort’s exposures are a whole-body exposure, which 
+then allows for comparisons between specific cancer sites and their 
+relative risks. The cohort is not likely to have many confounding 
+issues because the basis of the dose estimation is the distance from 
+the hypocenter. Finally the AHS subcohort allows for clinical, life-
+style, and biological measurements, which help to assure the lack 
+of confounding and effect modifiers in the dose calculations. The 
+problem with the cohort is that the results are extrapolated from a 
+group of Japanese who survived the bombing and have different 
+background cancer rates than other populations (e.g., Pierce et al., 
+2007).
+The number of individuals in the LSS cohort is shown by 
+city and colon dose (Gy) in Table 25-5 (adapted from Ozasa et al. 
+[2012]). Although most individuals have low estimated doses, there 
+is a good range of doses, with sufficient numbers at the higher doses 
+Table 25-4  
+IARC: Tumor Sites with Sufficient Evidence of Human Carcinogenicity
+RADIATION TYPE
+MAJOR STUDY POPULATIONS
+TUMOR SITES (AND TYPES) ON WHICH SUFFICIENT 
+EVIDENCE IS BASED
+α-Particle and β-particle emitters
+    Radon-222 and decay products
+General population (residential 
+­exposure), underground miners
+Lung
+    Radium-224 and decay products
+Medical patients
+Bone
+Radium-226, radium-228, and 
+decay products
+Radium-dial painters
+Bone, paranasal sinus, and mastoid process 
+(radium-226 only)
+    Thorium-232 and decay products
+Medical patients
+Liver, extrahepatic bile ducts, gall bladder, and 
+­leukemia (excluding CLL)
+    Plutonium
+Plutonium-production workers
+Lung, liver, and bone
+    Phosphorus-32
+Medical patients
+Acute leukemia
+Fission products, including 
+­strontium-90
+General population, following nuclear 
+reactor accident
+Solid cancers and leukemia
+    Radioiodines, including iodine-131
+Children and adolescents, following 
+nuclear reactor accident
+Thyroid
+X radiation or gamma radiation
+Atomic-bomb survivors, medical 
+patients; in utero exposure (offspring 
+of pregnant medical patients and of 
+atomic-bomb survivors)
+Salivary gland, esophagus, stomach, colon, lung, 
+bone, skin (BCC), female breast, urinary bladder, 
+brain and CNS, leukemia (excluding CLL), thyroid, 
+kidney (atomic-bomb survivors, medical patients); 
+multiple sites (in utero exposure)
+ Solar radiation
+General population
+Skin (BCC, SCC, and melanoma)
+ UV-emitting tanning devices 
+General population
+Skin (melanoma) and eye (melanoma, particularly 
+choroid and ciliary body)
+Abbreviations: BCC, basal cell carcinoma; CLL, chronic lymphocytic leukemia; CNS, central nervous system; SCC, squamous cell carcinoma.
+Table 25-5  
+Number of LSS Cohort Members by Colon Dose (Gy)
+TOTAL*
+<0.005
+0.005−
+0.1−
+0.2−
+0.5−
+1.0−
+2.0−
+UNKNOWN†
+NIC‡
+TOTAL§
+Hiroshima
+58,494
+21,697
+22,733
+5037
+5067
+2373
+1152
+435
+3442
+20,179
+82,214
+Nagasaki
+28,117
+16,812
+7228
+937
+1289
+1051
+611
+189
+3616
+6350
+38,107
+Total
+86,611
+38,509
+29,961
+5974
+6356
+3424
+1763
+624
+7058
+26,529
+120,321
+*Total number of subjects with a reconstructed dose.
+†Those subjects with an unknown dose.
+‡Not in the cities of Hiroshima or Nagasaki at the time of the bombing.
+§Total of those with either a reconstructed dose, an unknown dose, or were NIC.
+
+1264
+Toxic Agents
+unit V
+for analysis and risk modeling. The individual dose reconstructions 
+have evolved over the years with the current system completed in 
+2002 and referred to as DS02 (dosimetry system 2002). The uncer-
+tainty in the dosimetry is estimated to be about 30% and has been 
+modeled for risk assessment purposes (see Pierce et al. [1990] and 
+Little et al. [2008]).
+The results of the mortality data show that for total solid can-
+cers, the excess relative risk decreases with attained age and age 
+at exposure. The modeled data are illustrated in Fig. 25-4, which 
+is extracted from Ozasa et al. (2012). The excess relative risks for 
+individual cancer sites and other causes of mortality are shown in 
+Fig. 25-5, again from the Ozasa et al. (2012) analysis.
+There have been sufficient incidence data so that both BEIR 
+VII and UNSCEAR (2006) can model cancer incidence risk by 
+cancer site. BEIR V previously used mortality data for their risk 
+analyses. The most recent cancer incidence data for solid tumors, 
+used by BEIR VII in its risk modeling, included the years 1958 to 
+1998, given in the publication by Preston et al. (2007). Each indi-
+vidual cancer site is analyzed and discussed in detail in the article 
+by Preston. For total solid tumor incidence the estimated excess rel-
+ative risk per Gy is 0.47 (0.40 to 0.54). Coincidently it is also 0.47 
+for solid tumor mortality study as shown in Fig. 25-5. Recently, the 
+dosimetry at RERF has been revised (Cullings et al., 2017). One 
+result of this change has been to add more curvature to the estimated 
+dose–response function for solid cancer mortality.
+Occupational Studies
+Nuclear Worker Studies  There have been numerous worker 
+studies over the years among nuclear workers, primarily at govern-
+mental facilities. In most of these studies, mortality rates were com-
+pared with those in the general population. In most cases, the cancer 
+mortality rates were less than those for the general public, which 
+may be due to the healthy worker effect and differences between 
+nuclear workers and the public. For those studies with external 
+radiation dose estimates solid cancer risk estimates either increased 
+or decreased with dose and had large confidence intervals (CIs; see 
+BEIR VII for details). As an example in a nested case–control study 
+of workers at the Portsmouth Naval Shipyard (PNS), 1097 lung 
+cancer deaths were age-matched with 3291 controls among the 
+cohort of 37,853 civilian workers (Yiin et al., 2007). After adjusting 
+for confounders such as asbestos and welding fumes, lung cancer 
+risk was associated with radiation exposure. However when work-
+related medical x-rays, which occur more frequently among radia-
+tion monitored workers, were included, lung cancer was no longer 
+associated with radiation dose. The medical x-rays were of the 
+same magnitude as the work exposures of the monitored workers. 
+Because the individual covariates were associated with lung can-
+cer risk, this study shows the importance of incorporating potential 
+confounders in occupational radiation studies.
+To address the problem of varied results, IARC carried out 
+a joint analysis of seven nuclear facilities in Canada, the United 
+Kingdom, and the United States, and is referred to as the three-
+country study (Cardis et al., 1995). This analysis involved a total 
+of 95,673 workers and 3830 cancer deaths. The study estimated 
+a slightly negative ERR per Sv of −0.9 (90% CI –0.4, 0.3) for 
+total solid cancers, but observed a significant increase in mortal-
+ity of both acute and chronic myelogenous leukemia. Also, mul-
+tiple myeloma was significantly increased with increasing dose in 
+the study. Although negative for total solid cancers, this result was 
+not inconsistent with the risk estimates derived from the A-bomb 
+studies.
+The three-country study was followed by the 15-country study 
+that involved a joint analysis of over 400,000 nuclear workers from 
+154 facilities (Cardis et al., 2007). As seen in Table 25-6 the number 
+of workers and person-years at risk (pyr) are much greater in the 
+15-country study. However, the number of workers at the higher 
+cumulative exposures is much lower. This is due to the elimina-
+tion of workers in the 15-country cohorts who were monitored 
+for internal exposures and also those who may have received an 
+acute exposure of some significance. The study reported signifi-
+cant increases in smoking-related solid cancer mortality but not for 
+leukemias, which was essentially the opposite of the three-country 
+findings. There are a number of issues with the 15-country study as 
+discussed in Dauer et al. (2010), namely, questions about the exclu-
+sion of workers included in the previous (three-country) study, such 
+as the Idaho National Engineering Laboratory cohort, and exclu-
+sion of workers who were considered to have had potential for high 
+internal dose. Also of concern is the inability to deal with smok-
+ing and the undue influence given to the results for one country, 
+namely Canada, where risk estimates are very high and error-prone 
+(Ashmore et al., 2010). The increase in overall solid cancer inci-
+dence would no longer be significant if the Canadian cohort were 
+excluded; however, it would be consistent with risk estimates 
+­projected from the A-bomb studies.
+Recently, a newer study of 308,297 nuclear workers in France, 
+the United Kingdom, and the United States has been reported. 
+This program is referred to as INWORKS (International Nuclear 
+Workers Study) and has 8.2 million person-years of follow-up with 
+66,632 worker deaths. The excess relative risk (ERR) for solid can-
+cer deaths was estimated to be 0.47 /Gy, which is the same as was 
+observed in the LSS study. For this cohort it was reported that the 
+estimated ERR for leukemia mortality was 2.96/Gy, which was pri-
+marily due to chronic myeloid leukemia (CML) (see Leuraud et al. 
+[2015] and Richardson et al. [2015]). Risk estimates for the individ-
+ual cancer sites are expected to be published in the near future. In an 
+accompanying editorial, Little (2015) discussed the problems with 
+using epidemiological data to estimating low-dose radiation risks.
+A series of analyses of workers at the Russian nuclear facility 
+at Mayak have been published. The Mayak workers generally expe-
+rienced very high doses from both internal (plutonium, α particles) 
+and external radiation exposures. Plutonium body burdens were 
+based on urine analyses. Worker exposures of Pu239 and Pu240 and 
+external exposures have been reassessed by Vasilenko et al. (2007). 
+Age at exposure: 10 years
+2
+1.5
+1
+0.5
+ERR/Gy
+0
+30
+40
+Attained age
+50
+60
+40
+30
+20
+50
+70
+80
+Figure 25-4.   LSS solid tumor mortality excess relative risk.
+
+Toxic Effects of Radiation and Radioactive Materials
+Chapter 25
+1265
+High levels of body burdens of plutonium greater than 7.4 kBq 
+(mean 76 kBq) were found to have a relative risk of liver cancer of 
+17 (Gilbert et al., 2000) and 7.9 for bone cancer (Koshurnikova et 
+al., 2000). Small nonsignificant increases were seen at low doses. 
+These studies were based on the mortality experience of 11,000 
+workers. In a larger group of 21,000 workers 655 lung cancer deaths 
+were evaluated (Gilbert et al., 2004). In contrast to the high-dose 
+effects on the liver and bone, the effects of plutonium on lung cancer 
+were found to be consistent with a linear dose–response. Recently, 
+Sokolnikov et al. (2015) reported an ERR/Gy = 0.16 (0.07, 0.26) 
+for solid cancer deaths other than those associated with plutonium 
+exposures, namely liver, bone, and lung. Plutonium exposures to 
+All causes
+All solid cancer
+Esophagus
+Stomach
+Colon
+Rectum
+Liver
+Gallbladder
+Pancreas
+Other digestive system
+Lung
+Breast
+Uterus
+Ovary
+Prostate
+Bladder
+Kidney parenchyma
+Renal pelvis and ureter
+Other solid cancer
+Malignant lymphoma
+Multiple myeloma
+Other neoplasms ‡
+0.22 (0.18, 0.26)
+0.47 (0.38, 0.56)
+051 (0.11, 1.06)
+0.28 (0.14, 0.42)
+0.54 (0.23, 0.93)
+0.17 (–0.17, 0.64)
+0.36 (0.18, 0.58)
+0.45 (0.10, 0.90)
+0.08 (–0.18, 0.44)
+1.29 (0.14, 3.25)
+0.63 (0.42, 0.88)
+1.60 (0.99, 2.37)
+0.22 (–0.09, 0.64)
+0.79 (0.07, 1.86)
+0.33 (NA ||, 1.25)
+1.12 (0.33, 2.26)
+0.52 (–0.15, 1.75)
+2.62 (0.47, 7.25)
+0.47 (0.24, 0.76)
+0.16 (–0.13, 0.59)
+0.54 (–0.04, 1.58)
+0.65 (0.26, 1.14)
+Non-neoplastic diseases and other causes
+Blood diseases
+Circulatory diseases
+Respiratory diseases
+Digestive diseases
+Genitourinary diseases
+Infectious diseases
+Other diseases
+External causes
+1.70 (0.96, 2.70)
+0.11 (0.05, 0.17)
+0.21 (0.10, 0.33)
+0.11 (–0.01, 0.24)
+0.14 (–0.06, 0.38)
+–0.02 (–0.15, 0.13)
+0.01 (–0.1, 0.12)
+–0.11 (–0.21, 0.02)
+50,620
+10,929
+339
+3125
+621
+427
+1519
+419
+513
+84
+1558
+324
+547
+157
+130
+183
+80
+33
+864
+284
+93
+518
+238
+19,054
+5119
+3394
+1309
+1962
+4847
+2432
+Lymphoid and hematopoietic malignancies ‡, §
+Cancers of speciﬁc sites ‡
+Cause of death
+Cases
+ERR/Gy * (95%CI †)
+ERR/Gy
+–0.5
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+Figure 25-5.   LSS mortality 1950 to 2003: excess relative risk (ERR). *ERR was estimated using the linear dose model, in which city, sex, age at exposure, 
+and attained age were included in the background rates, but not allowing radiation effect modification by those factors. †Confidence interval. Horizontal bars 
+show 95% confidence intervals. ‡The size of plots for site-specific cancers was proportional to the number of cases. §ERR (95% CI) of leukemia was 3.1 (1.8, 
+4.3) at 1 Gy and 0.15 (–0.01, 0.31) at 0.1 Gy based on a linear quadratic model with 318 cases (not displayed in the figure). ǁThe lower limit of 95% CI was 
+lower than zero, but not specified by calculation.
+
+1266
+Toxic Agents
+unit V
+workers in the United States and the United Kingdom were much 
+lower, and increase in cancer was not observed except possibly for 
+a nonsignificant increase in lung cancer (Wilkinson et al., 1987; 
+Wiggs et al., 1994; Omar et al., 1998). Also, experimental stud-
+ies of plutonium administered to beagle dogs have predicted these 
+high-dose effects in workers (e.g., Wilson et al., 2010). The dogs 
+overpredicted the bone and liver cancer risks, but the lung cancers 
+were similar.
+Medical Radiation Workers  It is estimated that there are 2.3 mil-
+lion medical radiation workers worldwide. Radiologists and radio-
+logical technologists have been studied epidemiologically for many 
+years. These workers were some of the earliest exposed to radiation 
+with the first finding in 1902 that radiation can cause skin cancer. It 
+was recognized in the 1940s that radiologists had increased rates of 
+leukemia (e.g., Ulrich, 1946). More recently, Yoshinaga et al. (2004) 
+at the NCI reviewed cancer mortality from eight international 
+cohorts involving 270,000 subjects. By far the greatest number of 
+workers were from the study of 146,000 U.S. technologists (Mohan 
+et al., 2003). In this study there were increases in breast cancer and 
+non-chronic lymphocytic leukemias (non-CLLs), based on years 
+worked for those employed before 1950 when exposures were much 
+higher than today. The cohorts consistently show increases in leu-
+kemias for the early years with less consistency for skin cancer and 
+breast cancer (Yoshinaga et al., 2004).
+The U.S. Radiologic Technologists (USRT) health study is a 
+large study (90,000 subjects with about 75% females), first contacted 
+in 1983 to 1998, and is representative of the population of technolo-
+gists with good employment history information and data on other 
+risk factors such as smoking. Radiation monitoring (badges) was 
+introduced in the 1950s and is beginning to be used in the analy-
+ses (Simon et al., 2006). Recently, Rajaraman et al. (2006) analyzed 
+lung cancer in the cohort and did not find increases after adjustments 
+for smoking. The USRT health study will continue with improved 
+dosimetry and longer follow-up times. These studies will continue to 
+be important because they involve low doses of continuous exposure 
+in contrast to the acute exposure of the A-bomb survivors.
+Chernobyl Cleanup Workers  The Chernobyl cleanup workers 
+are of interest because of their higher exposures compared with 
+other nuclear workers. It has been estimated that there were 600,000 
+workers, with 240,000 of the workers exposed during 1986 to 1987 
+and having an average exposure of 100 mSv (Cardis et al., 2006). 
+Ivanov et al. (2006) reported an analysis of 55,718 workers who 
+had yearly physical examinations. The analysis covered two 5-year 
+periods 1991 to 1995 and 1996 to 2001, with a total of 1370 cancer 
+cases. The average dose for these workers during 1985 to 1986 was 
+130 mSv. Although there was an increase in the incidence of solid 
+tumors, it was not significant. Cancer mortality was evaluated in 
+a smaller cohort of workers (29,003 with 651 cancer deaths). The 
+excess relative risk for solid tumors was significant (ERR = 1.52 
+per Gy) and the increase was observed in the highest dose interval 
+(mean 200 mSv) with no increase in the lower-dose interval (mean 
+100 mSv). Besides solid tumors, a significant increase in leuke-
+mia incidence was observed for those with exposures greater than 
+0.15  Gy, compared with workers with lower exposures (Ivanov, 
+2007). Also, increases in the incidence of cardiovascular disease 
+were observed among those at higher exposures.
+A smaller cohort (10,332) of Chernobyl cleanup workers from 
+the Baltic States was reported by Rahu et al. (2006). The mean 
+exposure was 109 mGy, and 155 incidental cancer cases were 
+observed. Although there were increases in thyroid (7 cases) and 
+brain cancer (11 cases), they were not dose-related and were likely 
+the result of close surveillance and multiple comparisons. More 
+recently, Kashcheev et al. (2015) reported on 67,568 emergency 
+workers’ cancer incidence and mortality. The follow-up period was 
+longer, from 1992 to 2009, resulting in 4002 solid cancer cases and 
+2442 cancer deaths. The estimated ERR/Gy for solid cancer inci-
+dence was 0.47, while for cancer mortality the ERR/Gy was 0.58 
+with both estimates being statistically significant.
+Other than for leukemias, the follow-up period has been rela-
+tively short and it is thus too soon to conclude much about solid 
+cancer risks. The relatively high reconstructed doses make it impor-
+tant to continue the follow-up of the cohorts and to evaluate the 
+exposures and their uncertainties.
+Nuclear Worker Registries  The National Dose Registry of 
+Canada includes 206,620 workers for the period 1951 to 1987. 
+Ashmore et al. (1998) analyzed 5426 deaths and reported an 
+increase in total cancer mortality among males (ERR = 3% per 
+10 mSv), which was marginally significant but not for any particu-
+lar cancer, including leukemia. There was not a significant increase 
+among females who comprised about half of the workers, but gen-
+erally had much lower recorded doses. Sont et al. (2001) analyzed 
+the Registry for cancer incidence of 191,333 workers for the period 
+1951 to 1988. Using national rates, the standardized incidence ratio 
+(SIR) for all cancer was significantly less than 1 (SIR = 0.88 [90% 
+CI 0.85, 0.92]). Leukemia was also significantly less than 1. When 
+doses were used, the ERR for all cancer was 2.5 (90% CI 1.2, 4.0) 
+and 5.4 (90% CI 0.2, 20.0) for leukemia. One difficulty with these 
+analyses is that the cohort includes dental (0.3 mSv mean accu-
+mulative dose), medical (3.95 mSv), industrial (4.78 mSv), and 
+nuclear workers (31.98 mSv), whose lifestyles may well differ as 
+do their radiation exposures.
+Table 25-6  
+IARC Nuclear Worker Studies
+STUDY
+SUBJECT
+pyr
+DEATHS
+3-country
+95,673
+2.1 million
+18,993
+15-country
+407,291
+5.2 million
+15,825
+DEATHS PER mSv INTERVAL
+0–10
+10–50
+50–100
+100–200
+200–400
+400+
+3-Country
+9582
+3728
+989
+702
+586
+238
+15-Country
+13,608
+3728
+855
+492
+268
+42
+Abbreviation: pyr, person-years at risk.
+
+Toxic Effects of Radiation and Radioactive Materials
+Chapter 25
+1267
+Muirhead et al. (2009) analyzed both mortality and incidence 
+of the U.K. National Registry of Radiation Workers (124,723 work-
+ers). Total solid tumors were increased, ERR = 0.28 per Sv among 
+23,326 deaths and ERR = 0.27 among 11,165 malignant incident 
+cases. Leukemias were also increased with ERR = 1.7 for mortality 
+and 1.8 for incidence. Other than leukemia, individual cancer sites 
+were not significantly increased. The increases for solid tumors and 
+leukemias were significant using a 90% CI but not for a 95% CI.
+Nonoccupationally Exposed Groups
+Studies of the Techa River Exposures  A joint U.S. and 
+Russian program has been evaluating the health effects of those 
+living near the Techa River. During the early 1950s radioactive 
+waste from the Mayak nuclear production facility was released 
+into the river. A dose reconstruction system has been developed 
+(Degteva et al., 2000, 2007) and applied to a cohort of 30,000 peo-
+ple. Exposures were 55% internal from food and water, primarily 
+of Cs 137 and Sr 89, 90. A mortality analysis based on 1842 solid 
+cancer deaths resulted in an estimated ERR = 0.92 (0.2, 1.7) per 
+Gy, and 6.5 (1.8, 24) based on 61 leukemia deaths (Krestinina et al., 
+2007). Cancer incidence for a subcohort of 17,000 individuals with 
+1836 cases reported an ERR = 1.0 per Gy with a mean cumulative 
+exposure of 40 mGy stomach dose and mean bone marrow dose 
+of 30 mGy. Recently, Davis et al. (2015) estimated the solid can-
+cer incidence rate as ERR/Gy = 0.77 (0.13, 1.5). There are some 
+uncertainties about the exposures in the early years, which may 
+have been underestimated and, if increased, would reduce the risk 
+estimates (Cardis, 2007).
+High Natural Background Radiation Areas  In 2000, a series 
+of articles were published in a supplement issue of the Journal of 
+Radiation Research that described the results of a joint China–
+Japan collaborative research program, which studied the population 
+living in the high background radiation areas in Yangjiang, China. 
+Cancer mortality was analyzed for the period 1979 to 1995 for 
+125,000 individuals, which accumulated 1.7 million person-years 
+with 10,415 deaths including 1003 cancer deaths and a population 
+average annual effective exposure of 6.4 mSv (Tao et al., 2000). 
+Comparing individuals in the high background area to those in a 
+control area, the relative risk was 0.99 (0.87, 1.14) for total cancer 
+mortality. Dividing the high background area into low, medium, 
+and high radiation exposures, the relative risks for nonleukemia 
+cancer mortality actually decreased with dose (1.07, 0.98, and 0.91, 
+respectively).
+In an additional analysis, Sun et al. (2000) modeled the cancer 
+risk using Poisson regression. The cumulative dose groups were in 
+five 100-mSv intervals with the largest being 400+ mSv. The mod-
+eled solid tumor mortality risk did not increase with dose and was 
+estimated to be negative but not significantly different from zero.
+Recently Tao et al. (2012) analyzed cancer mortality (956 
+cases) among 31,604 people in the Yangjiang area between 1979 
+and 1998. The mean cumulative radiation dose was 84.8 mGy, with 
+21.6 mGy for those in the control area. The excess relative risk for 
+solid cancers was ERR = –1.01 per Gy (95% CI –2.93, 0.95). Liver 
+cancer is a major cancer that is negatively correlated with dose and 
+is difficult to correctly diagnose. On removing the liver cancer from 
+the analysis the ERR for solid cancers becomes 0.19 (–1.87, 3.04).
+To evaluate the dose reconstruction, Jiang et al. (2000) cal-
+culated the correlation between estimated radiation exposure and 
+frequency of dicentric and ring chromosomes, which are recognized 
+as a good biomarker of radiation exposure. They observed that for 
+those in the high radiation background area, the incidence of these 
+markers agrees with what has been observed in other studies of 
+radiation exposures and chromosome aberrations. This result pro-
+vides some evidence in support of the program’s exposure esti-
+mates. In conclusion, the high background Chinese studies have 
+not shown an increase in cancer incidence at low dose and dose 
+rate exposures.
+The coastal area of Kerala, India, is a region of high natural 
+radiation background that has been well studied. Nair et al. (2009) 
+published an analysis of cancer incidence and individually deter-
+mined gamma exposures in the region. A cohort of 70,000 individu-
+als (age 30 to 84 years) were followed for 10.5 years, which resulted 
+in 1379 cancer cases including 30 leukemias. The researchers also 
+obtained individual data on smoking, education, occupation, and 
+other possible cancer risk factors for their analysis. Cumulative dose 
+intervals ranged from 0 to 49 mGy to 500+ mGy. For total cancers 
+and for leukemia there were no increases observed among any of 
+the dose intervals compared to the lowest dose interval. Excluding 
+leukemia, the overall excess relative risk for cancer was estimated 
+to be –0.13/Gy (95% CI –0.58, 0.46). Leukemia was not increased. 
+The analysis included tobacco use and other risk factors that usually 
+are not available in most other radiation epidemiological studies.
+Although not a high background study, Kendall et al. (2012) 
+studied childhood cancers in relation to natural background radia-
+tion in Great Britain. Using the National Registry of Childhood 
+Tumours, the study involved over 27,000 cancer cases and matched 
+controls with radiation exposures estimated on the basis of the 
+mother’s residence at time of birth. The mean cumulative dose 
+from birth until diagnosis was 4 mSv. The study found a significant 
+increase in leukemias with an estimated ERR of 12% (95% CI 3, 22) 
+per mSv of gamma exposure to the red marrow. Other cancers 
+were not significantly increased and radon was not a significant 
+risk factor.
+Semipalatinsk Fallout-Related Exposures  The Semipal­
+atinsk area of Kazakhstan has been studied for possible cancer 
+effects resulting from radiation exposures from local fallout of 
+the Soviet atomic nuclear weapons testing program. Bauer et al. 
+(2005) studied six rural districts that had measurable levels of expo-
+sure and compared the individuals in the districts with six villages 
+that were several hundred kilometers east of the nuclear test site. 
+Follow-up of the populations began 5 to 10 years after the nuclear 
+testing. Using soil samples taken in 1963 of strontium and cesium 
+as well as information on the types of weapons, a dose reconstruc-
+tion was developed for external and internal exposures. This dose 
+reconstruction was based on the eight most dose-contributing 
+nuclear tests.
+For the purpose of analysis the approximate 10,000 individu-
+als in the exposed area were matched with a group of 10,000 in the 
+distant comparison area.
+Cancer rates were considerably higher in the exposed groups 
+of individuals, which resulted in significant dose–response rela-
+tionships for most solid tumors. There appeared, however, to be 
+an undefined bias in the distant control group since the rate ratios 
+increased relatively little among the exposure categories. The 
+authors’ estimate for total solid tumors was ERR/Sv = 0.81 (0.46, 
+1.33), which is similar to the A-bomb cancer risk estimates. The CIs 
+are fairly narrow but the uncertainty in the dose reconstruction was 
+not included in the analysis. The lack of a dose–response is possibly 
+explained by the fact that the study was ecological in nature.
+Other Nonoccupational Studies 
+Buildings with Cobalt 60  A group of 7271 individuals who 
+resided in buildings with high levels of Cobalt 60–contaminated 
+steel in Taiwan have been studied by Hwang et al. (2006). The aver-
+age cumulative exposure was about 50 mSv, and after a follow-up
+
+1268
+Toxic Agents
+unit V
+period of 16 years, a total of 141 cancer cases were identified. For 
+total solid cancers (82 cases) compared to the national rates, the 
+total cancers were less than expected, but thyroid cancer (7 cases) 
+and non-Hodgkin lymphoma (5 cases) were significantly increased. 
+This is a small study that shows little effect of continuous exposure. 
+It is also difficult to interpret because the exposed population was 
+likely of a higher social economic status (SES) than the general 
+comparison population.
+More recently, Hwang et al. (2008) reported significant 
+increases in leukemia excluding CLL, and marginally significant 
+increases in breast cancer. This was based on a dose–response 
+analysis using an exposure assessment system developed to recon-
+struct the doses to the individuals. The average cumulative dose 
+was 48 mGy.
+Populations Residing Near Nuclear Facilities  Ecological can-
+cer studies have been carried out in the vicinity of nuclear power 
+plants in many countries. There has often been reported an unex-
+plained increase in childhood leukemia (Laurier et al., 2002; Baker 
+and Hoel, 2007). Spix et al. (2008) and Kaatsch et al. (2008) con-
+ducted a childhood cancer case–control study in the areas in the 
+vicinity of 16 German nuclear power plants. They observed 1592 
+cancer cases with 593 cases of leukemia among children under the 
+age of five during the period 1983 to 2003. Children within 5 km 
+of a nuclear facility had a significant increase in leukemias, but not 
+for other cancers (37 leukemia cases and 54 controls). It was not 
+possible to measure for possible confounders. The authors stated 
+that radiation exposures near these German nuclear power plants 
+are less than the natural background radiation by a factor of 1000 
+to 100,000.
+In France a study of childhood leukemia among children liv-
+ing in the vicinity of the 29 French nuclear sites reported 670 cases, 
+with 729 cases expected from national rates (White-Koning et al., 
+2004). They observed no trend in leukemia rates with respect to 
+distance. For those within 5 km of a facility, there were 65 leukemia 
+cases, with 75 expected, and for children less than 5 years of age, 
+there were 39 leukemia cases with 40 cases expected.
+Evrard et al. (2006) analyzed childhood leukemia, which 
+included three additional years of follow-up from the White-
+Koning study. Instead of the usual distance surrogate for dose, the 
+researchers estimated doses to the bone marrow based upon the 
+nuclear plants’ radioactive discharges. The Institute for Radiation 
+Protection and Nuclear Safety combined the radionuclide dis-
+charge data and the local climate data to model the environmental 
+exposure levels. Estimated doses to the red marrow for those in 
+the vicinity of the nuclear sites ranged from 0.06 to 1.33 μSv per 
+year. There were a total of 750 leukemia cases (age less than 15 
+years) with 795 expected and 394 among those less than 5 years 
+of age (415 expected). There was no trend of leukemia incidence 
+based on yearly exposure rates. The authors concurred with the 
+authors of the German study by estimating that the doses due to 
+releases in the vicinity of the nuclear facilities are approximately 
+1000 to 100,000 times lower than the average dose due to natural 
+radiation sources.
+The recent COMARE (2011) report, focused on leukemias 
+in children around nuclear power plants. The report discusses in 
+detail the German studies as well as studies in other countries. 
+Importantly Kinlen (1988, 2011) describes the concept of popula-
+tion mixing, which basically is the idea that workers arriving in 
+a typically rural area bring foreign infectious agents that in turn 
+will affect local childhood leukemias. In his article Kinlen (2011) 
+focuses on the nuclear power plant studies and the German results 
+in particular. The Kinlen hypothesis of population mixing has been 
+discussed by some authors to explain increased leukemia effects in 
+children when there is no evidence of radiation exposures from the 
+nuclear plants.
+The National Research Council (2012) released a review of 
+studies around nuclear facilities with recommendations on how a 
+study could be carried out in the United States using cancer registry 
+data. Previously the NCI (Jablon et al., 1991) analyzed cancer mor-
+tality rates in those counties with nuclear power reactors compared 
+with control counties. Basically no differences were found; how-
+ever, the use of counties as the analysis unit is likely to be too great 
+a geographical area to detect any possible small effects.
+Radionuclides
+Radon  There have been some human studies involving exposures 
+to radionuclides but the data are limited other than for radon, which 
+has been extensively studied. Radon is a natural radioactive gas pro-
+duced by the decay of uranium and thorium. Originally, exposures 
+to radon and its daughter radionuclides among uranium miners and 
+some other groups of miners established that high exposures were 
+a clear risk for lung cancer. Cancer causation has been restricted to 
+lung cancer but there are also some suggestions that leukemia risk 
+may also be an issue (see the BEIR VI [1999] and IARC [2009] 
+reports). More recently there have been many case–control studies 
+in the United States and Europe of lung cancer and radon exposure 
+in the home. These studies have been brought together for joint 
+analyses of those studies carried out in Europe (13 studies; Darby 
+et al., 2006) and for those studies from North America (7 studies; 
+Krewski et al., 2006). The analysis by Darby, as well as Krewski, 
+observed the data to be best fit by a linear function in dose, with 
+Darby estimating the excess relative risk of lung cancer to be 0.08 
+per 100 Bq/m3 and 0.10 in the Krewski analysis. The lung cancer 
+risk was also significantly increased when the cases were restricted 
+to exposures less than 200 Bq/m3. The lung cancer effects were 
+also consistent, with the risks projected downward from the higher 
+exposed uranium miners, that is, 0.12 per 100 Bq/m3. When Darby 
+adjusted the data for uncertainties in the radon exposure esti-
+mates, the excess relative risk increased to 0.16. BEIR IV, which 
+also includes chapters on radionuclides other than radon, provides 
+tables giving the excess lifetime relative risk for various ages at 
+first exposure, exposure level, and period of exposure. This is done 
+for both males and females and for smokers and never smokers. 
+These tables were not included in the newer BEIR VI report on 
+radon; however, Chen (2005) published similar tables using the 
+newer BEIR VI risk models. Currently (e.g., Darby et al., 2006), 
+the risk analyses find that the relative risk for lung cancer and radon 
+exposure is independent of smoking status. Average radon levels 
+in the home for various countries are given in the WHO Handbook 
+on Indoor Radon 2009 and it is estimated that 3% to 16% of lung 
+cancers are attributable to radon in the home depending on the risk 
+model used. From Table 25-7 we see that for the United States, with 
+an average level of 46 Bq/m3, and using BEIR VI risk models, the 
+attributable lung cancer risk is 10% to 14%.
+Radium  There are 25 isotopes of radium of which 4 occur nat-
+urally (radium 223, 224, 226, and 228); the others are man-made 
+or decay products of man-made radionuclides. Radium 226 with a 
+half-life of 1601 years is by far the common natural form, followed 
+by 228 with a half-life of 5.75 years. Radium 223 and 224 have 
+half-lives of only a few days. Except for radium 228, which is a 
+β emitter, the other three are all α emitters. The different isotopes 
+have been used both occupationally as luminescent paint on watches 
+and instruments (radium 226 and 228) and in medical applications 
+(radium 223 and 224). These uses, as well as radium found envi-
+ronmentally in drinking water, have provided material for many
+
+Toxic Effects of Radiation and Radioactive Materials
+Chapter 25
+1269
+epidemiological studies. Beginning in the 1920s, young women 
+worked painting the dials of watches with paint containing radium 
+226 and 228. Many of them “pointed” the tips of their paintbrushes 
+by mouth resulting in ingestion of relatively large amounts of radium 
+for some of the women. A cohort of 1476 of these dial painters has 
+been established with careful exposure reconstruction (Rowland 
+et al., 1978). Radium as a bone seeker resulted in increases in bone 
+cancer as well as paranasal sinus cancers. Although about one-half 
+of the cohort had cumulative exposures less than 1 Gy, there were no 
+bone cancers for those who were exposed to less than 10 Gy, which 
+using a quality factor of 20 for α irradiation gives 200 Sv. In a sta-
+tistical modeling of the bone cancers, it was estimated that 5 Gy was 
+a threshold level (Hoel and Carnes, 2004). During the 1940s instru-
+ment dials were painted in Britain without the tipping of brushes 
+by mouth (Baverstock and Papworth, 1989). In a follow-up of this 
+cohort, cancers and bone cancers in particular were not increased.
+Bone sarcomas were also the major cancer effect among 
+patients with tuberculosis and ankylosing spondylitis who were 
+treated with high doses of radium 224 (mean bone surface dose 
+of 30 Gy) in two cohort studies in Germany (Wick et al., 1999; 
+Nekolla et al., 2010). There were increases in bone cancer in both 
+studies, but there were also some increases in other cancer sites 
+(Nekolla et al., 2010).
+Plutonium  Plutonium is used for nuclear weapons production, 
+and in the production of mixed oxide fuels. Most of the exposure to 
+plutonium is to workers involved in the processing of plutonium in 
+nuclear weapons (Pu 239) and in nuclear power generation (Pu 238). 
+Several groups of workers exposed to plutonium have been studied 
+in the United States, the United Kingdom, and Russia. The major 
+exposure to plutonium is by inhalation and is retained primarily in 
+the lung, liver, and bone, and has been studied in the United States, 
+the United Kingdom, and Russia. The most informative studies 
+are those of workers employed at the Russian Mayak plant where 
+exposures to plutonium were substantial. Dose–response relation-
+ships have been shown for cancers of the lung, liver, and bone over 
+a wide range of doses (see Gilbert et al., 2000, 2004; Koshurnikova 
+et al., 2000; Sokolnikov et al., 2008). Internal estimated plutonium 
+doses were very high: up to 5+ Gy for the lung, 23 Gy for the liver, 
+and 144 Gy for the bone surface.
+Radioiodine  Releases from nuclear facilities of fission-product 
+radionuclides deposited in the environment as well as internal 
+doses from the ingestion of foods containing fission products have 
+been the result of the Chernobyl and Fukushima accidents. Cesium 
+134 and 137 as well as Iodine 131 were the most important radio-
+nuclide exposures that potentially are health risks. Besides nuclear 
+accidents, there are studies of the health effects from exposures 
+to nuclear testing fallout from the Nevada test site and the test-
+ing in the South Pacific. The major observable health effect has 
+been childhood thyroid cancer resulting from the β emitter Iodine 
+131, which has a half-life of only 8 days. From studies of exter-
+nal radiation exposures in the A-bomb survivor studies as well as 
+the children who were treated by radiation for tinea capitis (ring 
+worm present on the scalp), it is clear that radiation is a risk for 
+thyroid cancer for exposures to adolescents. Ron et al. (1995), in a 
+pooled analysis of the studies of external exposures, observed for 
+childhood exposures that the excess relative risk per Gy was 7.7 
+(95% CI 2.1, 28.7). Iodine 131 is of particular concern because it is 
+taken up by the thyroid gland. Cardis et al. (2005) studied 276 case 
+patients with thyroid cancer and 1300 controls, ages less than 15 
+years at the time of the Chernobyl accident. Individual doses were 
+estimated for each subject based on their location and diets at the 
+time of the accident. A dose–response relationship was observed 
+between Iodine 131 dose to the thyroid received in childhood and 
+thyroid cancer risk. For a dose of 1 Gy, the estimated odds ratio 
+(OR) of thyroid cancer ranged from 5.5 to 8.4 depending on the risk 
+model. The risk of radiation-related thyroid cancer was three times 
+higher in iodine-deficient areas and the use of potassium iodide as a 
+supplement reduced this risk of radiation-related thyroid cancer by 
+a factor of 3. Cardis et al. (2006) further predict that within Europe 
+by 2065 about 16,000 cases of thyroid cancer and 25,000 cases of 
+other cancers may be expected due to radiation from the accident, 
+whereas several hundred million cancer cases are expected from 
+other causes. Ron (2007) estimated that 90% of the thyroid cancer 
+was due to the ingestion of iodine 131.
+Table 25-7  
+WHO’s Estimated Proportion of Lung Cancer Attributable to Radon
+COUNTRY
+MEAN INDOOR 
+RADON (Bq/m3)
+RISK ESTIMATE USED IN 
+CALCULATION
+PERCENTAGE OF LUNG 
+CANCER ATTRIBUTED TO 
+RADON (%)
+ESTIMATED NO. OF DEATHS 
+DUE TO RADON-INDUCED 
+LUNG CANCER EACH YEAR
+Canada
+28
+BEIR VI
+7.8
+1400
+(Brand et al., 2005)
+Germany
+49
+European pooling study*
+5
+1896
+(Menzler et al., 2008)
+Switzerland
+78
+European pooling study*
+8.3
+231
+(Menzler et al., 2008)
+United Kingdom
+21
+European pooling study*
+3.3
+1089
+(AGIR, 2009)
+BEIR IV
+6
+2005
+France
+89
+European pooling study
+5
+1234
+(Catelinois et al., 2006)
+BEIR VI
+12
+2913
+United States  
+(BEIR VI, 1999)
+46
+BEIR VI
+10–14
+15,400–21,800
+*With adjustment for year-to-year variation in indoor radon concentrations.
+
+1270
+Toxic Agents
+unit V
+NONCANCER EPIDEMIOLOGY
+Cardiovascular Disease
+Fig. 25-5 shows that there are mortality effects of radiation expo-
+sure in the A-bomb studies besides cancer. What is of particu-
+lar interest is cardiovascular disease (CVD) mortality, because 
+although it may have a lower relative risk from radiation exposure 
+than solid tumors, it accounts for more total background deaths. 
+Atherosclerosis is an inflammatory disease of the arteries, which 
+can lead to ischemia of the heart. In a study of inflammatory bio-
+markers (TNF-α, IL-10, IgM, IgA, and IFN-γ) as well as erythro-
+cyte sedimentations rates among A-bomb survivors, it was shown 
+that these markers were associated with radiation exposure. It 
+has been estimated that an exposure of 1 Sv was equivalent to an 
+increase in immunological age of 9 to 10 years (see Hoel [2006] for 
+a discussion). The LSS data show a linear dose–response for heart 
+disease mortality but curvilinear for stroke mortality (Shimizu 
+et al., 2010; Takahashi et al., 2017). It is not clear whether there are 
+effects at acute exposures below 0.5 Gy. A current review of what 
+we scientifically understand about CVD and radiation can be found 
+in Darby et al. (2010), and a meta-analysis of the epidemiological 
+studies in Little et al. (2012).
+Cataracts
+Cataracts were one of the earliest radiation-associated effects found 
+after the discovery of x-rays. It has long been believed that it results 
+from only high doses of radiation to the lens of the eye. For example, 
+the ICRP estimates that acute exposures of 0.5 to 2 Sv are required 
+to cause detectable lens opacities and 5 Sv for vision-impairing cat-
+aracts. For protracted exposures, they estimate the dose thresholds 
+as 5 and 8 Sv. There are basically three types of cataracts that are 
+described by Asbell et al. (2005). These types are nuclear or nuclear 
+sclerosis, cortical, and posterior-subcapsular (PS) cataracts. Each 
+of these clinical types has its known risk factors such as cigarette 
+smoking for nuclear and possibly PS cataracts, while UV-B is a 
+risk factor for cortical cataracts. Ionizing radiation is a risk factor 
+for both cortical and PS cataracts but not nuclear sclerotic cataracts 
+(Rafnsson et al., 2005; Worgul et al., 2007). Recent studies have, 
+however, suggested that radiation exposures to the lens confer the 
+risk of opacities at doses well under 1 Sv. The most carefully stud-
+ied population for relating ionizing radiation and cataracts is the 
+A-bomb survivors. In an ophthalmological screen of members of 
+the adult heath study, the researchers found a statistically signifi-
+cant dose response for PS opacities OR = 1.41 (threshold 0.7 Gy) 
+and for cortical opacities OR = 1.29 (threshold 0.6 Gy). A greater 
+risk for PSC opacities was observed for those exposed at a younger 
+age. In a subsequent study of survivors who had lens removal sur-
+gery the radiation risk was estimated to be OR = 1.39 with a low 
+estimated threshold of 0.1 Gy (10 rem). There was no evidence of 
+an association of nuclear cataracts with radiation exposure.
+Shore et al. (2010) have shown that among Japanese A-bomb 
+survivors, the risks for cataracts requiring lens surgery are at doses 
+under 1 Gy. The CI on the dose threshold for cataract surgery indi-
+cated that the data are consistent with a dose threshold ranging 
+from 0 to 0.8 Gy. What is not known is what are the risks at con-
+tinuous or protracted exposures. Also there is limited evidence that 
+those exposed at a younger age are at greater risk. The question of 
+thresholds of effect continues to be undecided, with no consensus 
+at this point in time. Classically, PSC opacities were considered 
+to be the risk of ionizing radiation exposure to the lens. Several 
+studies have also found that radiation affects cortical opacities. 
+As far as the degree of risk is concerned, the typical estimate from 
+the studies suggests that 1 Gy of exposure to the lens would corre-
+spond to a relative risk of about 1.4 for PSC and somewhat less for 
+cortical opacities. For a general discussion of the scientific issues 
+see Blakely et al. (2010). Also, the NCRP (2017) has completed a 
+committee review of the risks as well as the possible mechanisms. 
+The report is summarized in the published article by Dauer et al. 
+(2017).
+Mental Effects
+In the A-bomb survivor analyses, significant effects on the devel-
+oping brain were observed among those exposed during the period 
+of the 8th week through 25th week of gestation. During the most 
+sensitive period of 8 to 15 weeks, there was an increased frequency 
+of severe mental retardation, a diminution in IQ scores and school 
+performances, as well as an increase in the occurrence of seizures. 
+During this sensitive period there is a rapid increase in the num-
+ber of neurons; they migrate to the cerebral cortex where they 
+lose their capacity to divide, becoming perennial cells. Of the 30 
+cases of severe retardation, 60% had small head sizes and of those 
+with small head sizes about 10% were retarded. Also the highest 
+IQ score among the 30 cases was 64. For retardation, the dose–
+response appears linear with an estimated threshold at about 0.2 Gy. 
+At about 1 Gy the statistical regression estimates about 50% retar-
+dation. The data also suggest that at 1 Gy there is a loss of 25 to 31 
+IQ points with no observed effect below 0.1 Gy (Otake et al., 1990, 
+1991; also see COMARE, 2004).
+DISCUSSION
+The major issue in radiation health effects is the causation of cancer. 
+We now see noncancer effects such as CVD at low-dose and also 
+low dose-rate exposures that occur at environmental levels and in 
+diagnostic medical screening. Currently, the LNT model is used to 
+estimate these effects well below what can be observed in epide-
+miological studies. The simple defense of the LNT model is that 
+the physical energy deposition of ionizing radiation increases cancer 
+risk linearly with increasing dose, and the carcinogenic effectiveness 
+is constant independent of dose. The French National Academy of 
+Sciences and the French National Academy of Medicine (Tubiana 
+et al., 2005) have taken an opposing view on the appropriateness 
+of the use of the LNT model. It is generally agreed that epidemio-
+logical studies have been unable to detect increases in cancer below 
+exposures of 100 mSv. The French Academy’s reason for believing 
+that thresholds may be present and that the LNT overestimates risk 
+is based on radiobiology. It is recognized that a cell is not passively 
+affected by the accumulation of lesions induced by ionizing radia-
+tion. The cell reacts through at least three main mechanisms: first 
+by reacting against radiation-induced ROS; second by eliminating 
+damaged cells by either apoptosis or through cell death during mito-
+sis of unrepaired cells; and third by immunosurveillance systems 
+that eliminate clones of transformed cells. The Academy states that 
+experimental data strongly suggest that a practical threshold exists, 
+but the current data do not indicate at what dose or dose rate of 
+radiation it becomes trivial, probably somewhere between 10 and 50 
+mGy (Tubiana, 2005). For a recent debate see Brenner (2009) and 
+Averbeck (2009). The BEIR VII committee concluded:
+The committee judged that the linear no-threshold model (LNT) provided 
+the most reasonable description of the relation between low-dose exposure 
+to ionizing radiation and the incidence of solid cancers that are induced by 
+ionizing radiation.
+The answer awaits further progress in radiobiology.
+
+Toxic Effects of Radiation and Radioactive Materials
+Chapter 25
+1271
+A second question is whether there is a dose and dose-rate 
+effectiveness factor (DDREF) greater than 1. In other words, are 
+chronic exposures less of a cancer risk than an acute exposure 
+such as from the A-bomb studies that provide the quantitative risk 
+estimates? Previously a value of 2 had been used until BEIR VII 
+concluded that it should be 1.5. Recently it has been argued that it 
+should probably be equal to 1 (Jacob et al., 2009). Animal studies 
+have generally suggested that a DDREF is appropriately between 2 
+and 10 (BEIR V); however, these studies were generally conducted 
+at relatively high doses.
+For a much more in-depth reading of health effects of ionizing 
+radiation the reader is referred to two outstanding text books by Hall 
+and Giaccia (2005) and Mettler and Upton (2008). For an under-
+standing of radiation exposures there are several available health 
+physics texts (e.g., Cember and Johnson, 2009). Finally, BEIR VII 
+is a very good source of the current scientific understanding of biol-
+ogy, toxicology, and epidemiology of radiation exposures. Further 
+committee conclusions about health effects can be found in IARC 
+(2009) and UNSCEAR (2006).
+ACKNOWLEDGMENTS
+The editor and author recognize the contributions of previous 
+authors of this chapter: Charles H. Hobbs and Roger O McClellan 
+(1st to 3rd editions) and Naomi H. Harley (4th to 7th editions).
+REFERENCES
+Advisory Group on Ionising Radiation, AGIR. Radon and public health 
+radiation, chemicals and environmental hazards. Health Protection 
+Authority. 2009. Available at: http://www.hpa.org.uk/web/HPAwebFile/
+HPAweb_C/1243838496865.
+Amundson SA, Fornace AJ Jr. Gene expression profiles for monitoring 
+radiation exposure. Radiat Prot Dosim. 2001;97(1):11–16.
+Amundson SA, Lee RA, Koch-Paiz CA, et al. Differential responses 
+of stress genes to low dose-rate gamma irradiation. Mol Cancer Res. 
+2003;1(6):445–452.
+Asbell PA, Dualan I, Mindel J, Brocks D, Ahmad M, Epstein S. Age-related 
+cataracts. Lancet. 2005;365:599–609.
+Ashmore JP, Gentner NE, Osborne RV. Incomplete data on the Canadian 
+cohort may have affected the results of the study by the International Agency 
+for Research on Cancer on the radiogenic cancer risk among nuclear indus-
+try workers in 15 countries. J Radiol Prot. 2010;30(2):121–129.
+Ashmore JP, Krewski D, Zielinski JM, Jiang H, Semenciw R, Band PR. 
+First analysis of mortality and occupational radiation exposure based 
+on the National Dose Registry of Canada. Am J Epidemiol. 1998;148: 
+564–574.
+Averbeck D. Does scientific evidence support a change from the LNT 
+model for low-dose radiation risk extrapolation? Health Phys. 
+2009;97(5):493–504.
+Baker PJ, Hoel DG. Meta-analysis of standardized incidence and mortal-
+ity rates of childhood leukaemia in proximity to nuclear facilities. Eur J 
+Cancer Care (Engl). 2007;16(4):355–363.
+Barcellos-Hoff MH. Integrative radiation carcinogenesis: interactions 
+between cell and tissue responses to DNA damage. Semin Cancer Biol. 
+2005;15(2):138–148.
+Bauer S, Gusev BI, Pivina LM, Apsalikov KN, Grosche B. Radiation expo-
+sure due to local fallout from Soviet atmospheric nuclear weapons test-
+ing in Kazakhstan: solid cancer mortality in the Semipalatinsk historical 
+cohort, 1960–1999. Radiat Res. 2005;164(4 pt 1):409–419.
+Baverstock KF, Papworth DG. The UK radium luminizer survey. BIR 
+report. 1989;21:72–79.
+BEIR IV. Health Effects of Radon and Other Internally Deposited Alpha-
+Emitters. Washington, DC: Advisory Committee on the Biological 
+Effects of Ionizing Radiation, National Academy of Sciences; 1988.
+BEIR V. Health Effects of Exposure to Low Levels of Ionizing Radiation. 
+Washington, DC: National Research Council Advisory Committee on the 
+Biological Effects of Ionizing Radiation, National Academy of Sciences; 
+1990.
+BEIR VI. Health Effects of Exposure to Radon. Washington, DC: National 
+Research Council Advisory Committee on the Biological Effects of 
+Ionizing Radiation, National Academy of Sciences; 1999.
+BEIR VII, Phase 2. Health Risks from Exposure to Low Levels of Ionizing 
+Radiation. Washington, DC: National Research Council Advisory 
+Committee on the Biological Effects of Ionizing Radiation, National 
+Academy of Sciences; 2006.
+Blakely EA, Kleiman NJ, Neriishi K, et al. Radiation cataractogenesis: epi-
+demiology and biology. Radiat Res. 2010;173(5):709–717.
+Brand K, Zielinski J, Krewski D. Residential radon in Canada: an uncer-
+tainty analysis of population and individual lung cancer risk. Risk Anal. 
+2005;25:253–269.
+Brenner DJ. Extrapolating radiation-induced cancer risks from low doses to 
+very low doses. Health Phys. 2009;97(5):505–509.
+Calabrese EJ, Bachmann KA, Bailer AJ, et al. Biological stress response 
+terminology: integrating the concepts of adaptive response and precondi-
+tioning stress within a hormetic dose-response framework. Toxicol Appl 
+Pharmacol. 2007;222(1):122–128.
+Cardis E. Commentary: low dose-rate exposures to ionizing radiation. Int J 
+Epidemiol. 2007;36(5):1046–1047.
+Cardis E, Gilbert ES, Carpenter L, et al. Effects of low doses and low dose 
+rates of external ionizing radiation: cancer mortality among nuclear 
+industry workers in three countries. Radiat Res. 1995;142(2):117–132.
+Cardis E, Howe G, Ron E, et al. Cancer consequences of the Chernobyl 
+accident: 20 years on. J Radio Prot. 2006;26:127–140.
+Cardis E, Kesminiene A, Ivanov V, et al. Risk of thyroid cancer after expo-
+sure to 131I in childhood. J Natl Cancer Inst. 2005;97:724–732.
+Cardis E, Vrijheid M, Blettner M, et al. The 15-Country Collaborative Study 
+of Cancer Risk among Radiation Workers in the Nuclear Industry: esti-
+mates of radiation-related cancer risks. Radiat Res. 2007;167(4):396–416.
+Catelinois O, Rogel A, Laurier D, et al. Lung cancer attributable to indoor 
+radon exposure in France: impact of the risk models and uncertainty anal-
+ysis. Environ Health Perspect. 2006;114(9):1361–1366.
+Cember H, Johnson TE. Introduction to Health Physics. 4th ed. New York: 
+McGraw-Hill Medical; 2009.
+Chen J. Estimated risks of radon-induced lung cancer for different exposure 
+profiles based on the new EPA model. Health Phys. 2005;88: 323–333.
+COMARE, Committee on Medical Aspects of Radiation in Environment 
+(COMARE). Review of Pregnancy Outcomes Following Preconceptional 
+Exposure to Radiation. Eighth report. Chilton, WI: National Radiological 
+Protection Board; 2004.
+COMARE, Committee on Medical Aspects of Radiation in the Environment 
+(COMARE). Further Consideration of the Incidence of Childhood 
+Leukemia Around Nuclear Power Plants in Great Britain. Fourteenth 
+report. London: Health Protection Agency for the Committee on Medical 
+Aspects of Radiation in the Environment; 2011.
+Cullings HM, Grant EJ, Egbert SD, et al. DS02R1: improvements to atomic 
+bomb survivors’ input data and implementation of Dosimetry System 
+2002 (DS02) and resulting changes in estimated doses. Health Phys. 
+2017;112(1):56–97.
+Darby S, Hill D, Deo H, et al. Residential radon and lung cancer: detailed 
+results of a collaborative analysis of individual data on 7148 subjects with 
+lung cancer and 14208 subjects without lung cancer from 13 epidemiologic 
+studies in Europe. Scand J Work Environ Health. 2006;32(suppl 1):1–83.
+Darby SC, Cutter DJ, Boerma M, et al. Radiation-related heart disease: 
+current knowledge and future prospects. Int J Radiat Oncol Biol Phys. 
+2010;76(3):656–665.
+Dauer LT, Ainsbury E, Dynlacht JR, et al. Guidance on radiation dose lim-
+its for the lens of the eye: overview of the recommendations in NCRP 
+Commentary No. 26. Int J Radiat Bio. 2017;93(10):1015–1023.
+Dauer LT, Brooks AL, Hoel DG, et al. Review and evaluation of updated 
+research on the health effects associated with low-dose ionising radiation. 
+Radiat Prot Dosim. 2010:140:103–136.
+Davis FG, Krestinina LY, Preston D, et al. Solid cancer incidence in the 
+Techa River Incidence Cohort: 1956-2007. Radiat Res. 2015;184:56–65.
+
+1272
+Toxic Agents
+unit V
+Degteva MO, Kozheurov VP, Tolstykh EI, et al. Dose reconstruction system 
+for the exposed population living along the Techa River. Health Phys. 
+2000;78(5):542–554.
+Degteva MO, Shagina NB, Tolstykh EI, et al. An approach to reduction of 
+uncertainties in internal doses reconstructed for the Techa River popula-
+tion. Radiat Prot Dosim. 2007;127(1–4):480–485.
+El Ghissassi F, Baan R, Straif K, et al. Special report: policy a review of 
+human carcinogens—Part D: radiation. Lancet Oncol. 2009;10:751–752.
+Evrard AS, Hemon D, Morin A, et al. Childhood leukaemia incidence 
+around French nuclear installations using geographic zoning based on 
+gaseous discharge dose estimates. Br J Cancer. 2006;94(9):1342–1347.
+Gilbert ES, Koshurnikova NA, Sokolnikov M, et al. Liver cancers in Mayak 
+workers. Radiat Res. 2000;154, 246–252.
+Gilbert ES, Koshurnikova NA, Sokolnikov ME, et al. Lung cancer in Mayak 
+workers. Radiat Res. 2004;162(5):505–516.
+Hall E, Giaccia A. Radiobiology for the Radiologist. 6th ed. Lippincott 
+Williams & Wilkins; 2005.
+Hoel DG. Ionizing radiation and cardiovascular disease. Ann N Y Acad Sci. 
+2006;1076:309–317.
+Hoel DG, Carnes B. Cancer dose–response analysis of the radium dial 
+workers. Proceedings from HEIR 2004 9th International Conference on 
+Health Effects Incorporated Radionuclides. 2004:169–173.
+Hsu W, Preston D, Soda M, et al. The incidence of leukemia, lymphoma, 
+and multiple myeloma among atomic bomb survivors: 1950–2001. 
+Radiat Res. 2013;179:361–382.
+Hwang SL, Guo HR, Hsieh WA, et al. Cancer risks in a population with pro-
+longed low dose-rate gamma-radiation exposure in radiocontaminated 
+buildings, 1983–2002. Int J Radiat Biol. 2006;82(12):849–858.
+Hwang SL, Hwang JS, Yang YT, et al. Estimates of relative risks for cancers 
+in a population after prolonged low-dose-rate radiation exposure: a fol-
+low-up assessment from 1983 to 2005. Radiat Res. 2008;170:143–148.
+International Commission on Radiological Protection (ICRP). The 2007 
+recommendations of the International Commission on Radiological 
+Protection. ICRP publication 103. Ann ICRP. 2007;37(2–4):1–332.
+IARC. A review of human carcinogens: Part D radiation. IARC Monogr 
+Eval Carcinog Risks Hum. 2009;100D:1–362.
+Ivanov VK. Late cancer and noncancer risks among Chernobyl emergency 
+workers of Russia. Health Phys. 2007;93(5):470–479.
+Ivanov VK, Tsyb AF, Vasilenko EK, et al. Cancer morbidity and mortality 
+among the liquidators of the Chernobyl accident: estimation of radiation 
+risks. Radiats Biol Radioecol. 2006;46(2):159–166.
+Jablon S, Hrubec Z, Boice JD Jr. Cancer in populations living near nuclear 
+facilities. A survey of mortality nationwide and incidence in two states. 
+JAMA. 1991;265(11):1403–1408.
+Jacob P, Ruhm W, Walsh L, Blettner M, Hammer G, Zeeb H. Is cancer 
+risk of radiation workers larger than expected? Occup Environ Med. 
+2009;66:789–796.
+Jiang T, Hayata I, Wang C, et al. Dose–effect relationship of dicen-
+tric and ring chromosomes in lymphocytes of individuals living in 
+the high background radiation areas in China. J Radiat Res (Tokyo). 
+2000;41(suppl):63–68.
+Kaatsch P, Spix C, Schulze-Rath R, Schmiedel S, Blettner M. Leukaemia in 
+young children living in the vicinity of German nuclear power plants. Int 
+J Cancer. 2008;122(4):721–726.
+Kashcheev VV, Chekin SY, Maksioutov MA, et al. Incidence and mortality 
+of solid cancer among emergency workers of the Chernobyl accident: 
+assessment of radiation risks for the follow-up period of 1992–2009. 
+Radiat Environ Biophys. 2015;54:13–23.
+Kendall GM, Little MP, Wakeford R, et al. A record-based case–control 
+study of natural background radiation and the incidence of childhood leu-
+kaemia and other cancers in Great Britain during 1980–2006. Leukemia. 
+2012; 1–7.
+Kinlen L. Evidence for an infective cause of childhood leukaemia: com-
+parison of a Scottish new town with nuclear reprocessing sites in Britain. 
+Lancet. 1988;2(8624):1323–1327.
+Kinlen L. Childhood leukemia, nuclear sites, and population mixing. Br J 
+Cancer. 2011;104:12–18.
+Koshurnikova NA, Gilbert ES, Sokolnikov M, et al. Bone cancers in Mayak 
+workers. Radiat Res. 2000;154:237–245.
+Krestinina LY, Davis F, Ostroumova EV, et al. Solid cancer incidence and 
+low-dose-rate radiation exposures in the Techa River cohort: 1956-2002. 
+Int J Epidemiol. 2007;36(5):1038–1046.
+Krewski D, Lubin JH, Zielinski JM, et al. A combined analysis of North 
+American case-control studies of residential radon and lung cancer. 
+J Toxicol Environ Health A. 2006;69:533–597.
+Laurier D, Grosche B, Hall P. Risk of childhood leukaemia in the vicinity 
+of nuclear installations—findings and recent controversies. Acta Oncol. 
+2002;41(1):14–24.
+Leuraud K, Richardson DB, Cardis E, et al. Ionizing radiation and risk 
+of death from leukaemia and lymphoma in radiation-monitored work-
+ers (INWORKS): an international cohort study. Lancet Haematol. 
+2015;2:e276–e281.
+Little MP. Ionizing radiation in the workplace. BMJ. 2015;351:h5405.
+Little MP, Azizova TV, Bazyka D, et al. Systematic review and meta-anal-
+ysis of circulatory disease from exposure to low-level ionizing radiation 
+and estimates of potential population mortality risks. Environ Health 
+Perspect. 2012;120:1503–1511.
+Little MP, Hoel DG, Molitor J, Boice JD, Wakeford R, Muirhead CR. 
+New models for evaluation of radiation-induced lifetime cancer risk and 
+its uncertainty employed in the UNSCEAR 2006 report. Radiat Res. 
+2008;169(6):660–676.
+Liu Z, Mothersill CE, McNeill FE, et al. A dose threshold for a medium 
+transfer bystander effect for a human skin cell line. Radiat Res. 
+2006;166:19–23.
+Maenhaut C, Detours V, Dom G, Handkiewicz-Junaky D, Oczko-
+Wojciechowska M, Jarzab B. Gene expression profiles for radiation-
+induced thyroid cancer. Clin Oncol. 2011;23:282–288.
+Menzler S, Piller G, Gruson M, Rosario AS, Wichmann H, Kreienbrock L. 
+Population attributable fraction for lung cancer due to residential radon in 
+Switzerland and Germany. Health Phys. 2008;95:179–189.
+Mettler F, Upton AC. Medical Effects of Ionizing Radiation. 3rd ed. 
+Philadelphia, PA: WB Saunders; 2008.
+Mohan AK, Hauptmann M, Freedman DM, et al. Cancer and other causes 
+of mortality among radiologic technologists in the United States. Int J 
+Cancer. 2003;103:259–267.
+Morgan WF. Non-targeted and delayed effects of exposure to ionizing radi-
+ation: I. Radiation-induced genomic instability and bystander effects in 
+vitro. Radiat Res. 2003a;159(5):567–580.
+Morgan WF. Non-targeted and delayed effects of exposure to ionizing radi-
+ation: II. Radiation-induced genomic instability and bystander effects 
+in vivo, clastogenic factors and transgenerational effects. Radiat Res. 
+2003b;159(5):581–596.
+Mothersill C, Seymour C. Radiation-induced bystander effects: are they 
+good, bad or both? Med Confl Surviv. 2005;21(2):101–110.
+Mothersill C, Seymour CB. Radiation-induced bystander effects—implica-
+tions for cancer. Nat Rev Cancer. 2004;4(2):158–164.
+Muirhead CR, O’Hagan JA, Haylock RGE, et al. Mortality and cancer inci-
+dence following occupational radiation exposure: third analysis of the 
+National Registry for Radiation Workers. Br J Cancer. 2009;100:206–212.
+Nair RRK, Rajan B, Akiba S, et al. Background radiation and cancer inci-
+dence in Kerala, India—Karanagappally cohort study. Health Phys. 
+2009;96(1):55–66.
+NCRP. Commentary No. 26: Guidance on Radiation Dose Limits for the 
+Lens of the Eye. Bethesda, MD: National Council on Radiation Protection 
+and Measurements; 2017.
+NCRP. Report No. 160: Ionizing Radiation Exposure of the Population 
+of the United States. Bethesda, MD: National Council on Radiation 
+Protection and Measurements; 2009.
+National Research Council. Analysis of Cancer Risks in Populations Near 
+Nuclear Facilities: Phase 1. Washington, DC: National Academy Press; 2012.
+Nekolla EA, Walsh L, Spiess H. Incidence of malignant diseases in humans 
+injected with radium-224. Radiat Res. 2010;174:377–386.
+Omar RZ, Barber JA, Smith PJ. Cancer mortality and morbidity among 
+plutonium workers at the Sellafield plant of British Nuclear Fuels. Br J 
+Cancer. 1998;79:1288–1301.
+Ory C, Ugolin N, Levalois C, et al. Gene expression signature discriminates 
+sporadic from post-radiotherapy-induced thyroid tumors. Endocr Relat 
+Cancer. 2011;18:193–206.
+
+Toxic Effects of Radiation and Radioactive Materials
+Chapter 25
+1273
+Otake M, Schull WJ, Neel JV. Congenital malformations, stillbirths, and 
+early mortality among the children of atomic bomb survivors: a reanaly-
+sis. Radiat Res. 1990;122:1–11.
+Otake M, Schull WJ, Yoshimaru T. Brain damage among the prenatally 
+exposed. J Radiat Res. 1991;32(suppl):249–264.
+Ozasa K, Shimizu Y, Suyama A, et al. Studies of the mortality of atomic 
+bomb survivors, report 14, 1950–2003: an overview of cancer and non-
+cancer diseases. Radiat Res. 2012;177(3):229–243.
+Pierce DA, Stram DO, Vaeth M. Allowing for random errors in radia-
+tion dose estimates for the atomic bomb survivor data. Radiat Res. 
+1990;123(3):275–284.
+Pierce DA, Vaeth M, Shimizu Y. Selection bias in cancer risk estimation 
+from A-bomb survivors. Radiat Res. 2007;167(6):735–741.
+Preston DL, Ron E, Tokuoka S, et al. Solid cancer incidence in atomic 
+bomb survivors: 1958–1998. Radiat Res. 2007;168:1–64.
+Rafnsson V, Olafsdottir E, Hrafnkelsson J, et al. Cosmic radiation increases 
+the risk of nuclear cataract in airline pilots: a population based case-­
+control study. Arch Ophthalmol. 2005;123:1102–1105.
+Rahu M, Rahu K, Auvinen A, et al. Cancer risk among Chernobyl cleanup 
+workers in Estonia and Latvia, 1986–1998. Int J Cancer. 2006;119(1): 
+162–168.
+Rajaraman P, Sigurdson AJ, Doody MM, et al. Lung cancer risk among 
+US radiologic technologists, 1983–1998. Int J Cancer. 2006;119(10): 
+2481–2486.
+Redpath JL. Suppression of neoplastic transformation in vitro by low doses 
+of low let radiation. Dose Response. 2006;4(4):302–308.
+Richardson DB, Cardis E, Daniels RD, et al. Risk of cancer from occupa-
+tional exposure to ionising radiation: retrospective cohort study of work-
+ers in France, the United Kingdom, and the United States (INWORKS). 
+BMJ. 2015;351:h5359.
+Ron E. Thyroid cancer incidence among people living in areas con-
+taminated by radiation from the Chernobyl accident. Health Phys. 
+2007;93(5):502–511.
+Ron E, Lubin JH, Shore RE, et al. Thyroid cancer after exposure to 
+external radiation: a pooled analysis of seven studies. Radiat Res. 
+1995;141:259–277.
+Rowland RE, Sterhney AF, Lucas HF. Dose–response relationships for 
+female radium dial workers. Radiat Res. 1978;76:368–383.
+Sawant SG, Randers-Pehrson G, Geard CR, Brenner DJ, Hall EJ. The 
+bystander effect in radiation oncogenesis: I. Transformation in C3H 
+10T1/2 cells in vitro can be initiated in the unirradiated neighbors of 
+irradiated cells. Radiat Res. 2001;155:397–401.
+Shimizu Y, Kodama K, Nishi N, et al. Radiation exposure and circula-
+tory disease risk: Hiroshima and Nagasaki atomic bomb survivor data, 
+1950–2003. BMJ. 2010;340:193.
+Shore RE, Neriishi J, Nakashima E. Epidemiological studies of cataract risk 
+at low to moderate radiation doses: (not) seeing is believing. Radiat Res. 
+2010;174:889–894.
+Simon SL, Weinstock RM, Doody MM, et al. Estimating historical radia-
+tion doses to a cohort of U.S. radiologic technologists. Radiat Res. 
+2006;166(1 pt 2):174–192.
+Sokolnikov ME, Gilbert ES, Preston DL, et al. Lung, liver and bone cancer 
+mortality in Mayak workers. Int J Cancer. 2008;123:905–911.
+Sokolnikov M, Preston D, Gilbert E, et al. Radiation effects on mortality 
+from solid cancers other than lung, liver, and bone cancer in the Mayak 
+worker cohort: 1948–2008. PLoS One. 2015;10(2):e0117784.
+Sont WN, Zielinski JM, Ashmore JP, et al. First analysis of cancer incidence 
+and occupational radiation exposure based on the National Dose Registry 
+of Canada. Am J Epidemiol. 2001;153(4):309–318.
+Spix C, Schmiedel S, Kaatsch P, Schulze-Rath R, Blettner M. Case–­control 
+study on childhood cancer in the vicinity of nuclear power plants in 
+Germany 1980–2003. Eur J Cancer. 2008;44(2):275–284.
+Sun Q, Akiba S, Tao Z, et al. Excess relative risk of solid cancer mortality 
+after prolonged exposure to naturally occurring high background radia-
+tion in Yangjiang, China. J Radiat Res (Tokyo). 2000;41(suppl):43–52.
+Takahashi I, Shimizu Y, Grant EJ, et al. Heart disease mortality in the life 
+span study, 1950–2008. Radiat Res. 2017;187(3):319–332.
+Tao Z, Akiba S, Zha Y, et al. Cancer and non-cancer mortality among 
+inhabitants in the high background radiation area of Yangjiang, China 
+(1979–1998). Health Phys. 2012;102(2):173–181.
+Tao ZF, Zha YR, Akiba S, et al. Cancer mortality in the high background 
+radiation areas of Yangjiang, China during the period between 1979 and 
+1995. J Radiat Res (Tokyo). 2000;41(suppl):31–41.
+Tapio S, Jacob V. Radioadaptive response revisited. Radiat Environ Biophys. 
+2007;46(1):1–12.
+Tubiana M. Dose–effect relationship and estimation of the carcino-
+genic effects of low doses of ionizing radiation: the Joint Report of 
+the Académie des Sciences (Paris) and of the Académie Nationale de 
+Medicine. Int J Radiat Oncol Biol Phys. 2005;63:317–319.
+Tubiana M, Aurengo A, Averbeck D, et al. Dose–effect Relationships and 
+Estimation of the Carcinogenic Effects of Low Doses of Ionizing Radiation. 
+Académie des Sciences Report March 30, 2005, Académie Nationale de 
+Medicine (France). Académie Nationale de Médicine Report; 2005.
+Turner JE. Atoms, Radiation, and Radiation Protection. 3rd ed. Weinheim, 
+Germany: Wiley; 2007.
+Ugolin N, Ory C, Lefevre E, et al. Strategy to find molecular signatures in 
+a small series of rare cancers: validation for radiation-induced breast and 
+thyroid tumors. PLoS ONE. 2011;6(8):e23581.
+Ulrich H. The incidence of leukemia in radiologists. N Engl J Med. 
+1946;234:45–46.
+United Nations Scientific Committee on the Effects of Atomic Radiation 
+(UNSCEAR). Volume 1: Report to the General Assembly, Scientific 
+Annexes A and B; Volume II UNSCEAR. New York: United Nations; 2006.
+Vasilenko EK, Khokhryakov VF, Miller SC, et al. Mayak workers dosim-
+etry study: an overview. Health Phys. 2007;93(3):190–206.
+White-Koning ML, Hemon D, Laurier D, et al. Incidence of childhood 
+leukaemia in the vicinity of nuclear sites in France, 1990–1998. Br J 
+Cancer. 2004;91(5):916–922.
+Wick RR, Nekolla EA, Gossner W, Kellerer AM. Late effects in 
+ankylosing spondylitis patients treated with 224Ra. Radiat Res. 
+1999;152(suppl):S8–S11.
+Wiggs LD, Johnson ER, Cox-DeVore CA, Voelz GL. Mortality through 
+1990 among white male workers at the Los Alamos National Laboratory: 
+considering exposures to plutonium and external ionizing radiation. 
+Health Phys. 1994;67:577–588.
+Wilkinson GS, Tietjen GL, Wiggs LD, et al. Mortality among plutonium 
+and other radiation workers at a plutonium weapons facility. Am J 
+Epidemiol. 1987;125:231–250.
+Wilson DA, Mohr L, Frey GD, Lackland D, Hoel DG. Lung, liver and bone 
+cancer mortality after plutonium exposure in beagle dogs and nuclear 
+workers. Health Phys. 2010;98:42–52.
+Worgul BV, Kundiyev YI, Sergiyenko NM, et al. Cataracts among 
+Chernobyl clean-up workers: implications regarding permissible eye 
+exposures. Radiat Res. 2007;167:233–243.
+Yiin JH, Silver SR, Daniels RD, et al. A nested case-control study of lung 
+cancer risk and ionizing radiation exposure at the Portsmouth Naval 
+Shipyard. Radiat Res. 2007;168(3):341–348.
+Yoshinaga S, Mabuchi K, Sigurdson AJ, Doody MM, Ron E. Cancer risks 
+among radiologists and radiology technologists: review of epidemiology 
+studies. Radiology. 2004;233(2):313–321.
+
+This page intentionally left blank

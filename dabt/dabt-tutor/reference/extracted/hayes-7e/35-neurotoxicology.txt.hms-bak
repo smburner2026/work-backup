@@ -1,0 +1,2758 @@
+# 35 Neurotoxicology
+# Hayes' Principles and Methods of Toxicology, 7th Edition
+# Pages: 1858-1883
+# Unit: Volume II
+
+1799
+35
+Neurotoxicology
+Anke M. Tukker, Aaron B. Bowman, Lucio G. Costa, and Michael Aschner
+35.1  Overview
+Assessment of neurotoxicity encompasses a broad range of 
+chemical, structural and behavioral outcomes that can be 
+affected by numerous types of toxicants. Most narrowly 
+defined, a neurotoxin is a toxicant that directly affects 
+the function of the nervous system. Due to the complex 
+nature of the nervous system and vast array of chemical, 
+environmental and endogenous neurotoxins, neurotoxicity 
+takes many forms including acute distress and neuropa-
+thies, developmental abnormalities and “silent” or latent 
+symptoms which become apparent only with aging and/or 
+additional insults. Furthermore, these effects often extend 
+beyond the nervous system and can cause systemic distur-
+bances. This chapter aims to provide an overview of the 
+anatomy and physiology of the nervous system including 
+factors unique to the nervous system which increase sus-
+ceptibility to neurotoxins.
+CONTENTS
+35.1  Overview���������������������������������������������������������������������������������������������������������������������������������������������������������������������������1799
+35.2  Introduction to the Nervous System����������������������������������������������������������������������������������������������������������������������������������1800
+35.2.1  Anatomical Organization��������������������������������������������������������������������������������������������������������������������������������������1800
+35.2.2  Development���������������������������������������������������������������������������������������������������������������������������������������������������������1801
+35.2.3  Cells of the Nervous System��������������������������������������������������������������������������������������������������������������������������������1801
+35.2.3.1  Neurons�������������������������������������������������������������������������������������������������������������������������������������������������1801
+35.2.3.2  Macroglia����������������������������������������������������������������������������������������������������������������������������������������������1801
+35.2.3.3  Microglia�����������������������������������������������������������������������������������������������������������������������������������������������1802
+35.2.4  Chemoelectric Transmission��������������������������������������������������������������������������������������������������������������������������������1802
+35.2.4.1  Action Potential�������������������������������������������������������������������������������������������������������������������������������������1802
+35.2.4.2  Neurotransmitter Signaling�������������������������������������������������������������������������������������������������������������������1804
+35.3  Assessing Neurotoxicity����������������������������������������������������������������������������������������������������������������������������������������������������1805
+35.3.1  Electrophysiology�������������������������������������������������������������������������������������������������������������������������������������������������1806
+35.3.2  Mammalian Model Systems���������������������������������������������������������������������������������������������������������������������������������1806
+35.3.3  Non-Mammalian Vertebrate and Invertebrate Model Systems�����������������������������������������������������������������������������1807
+35.3.4  In Vitro Model Systems����������������������������������������������������������������������������������������������������������������������������������������1807
+35.4  Nervous System Susceptibility�����������������������������������������������������������������������������������������������������������������������������������������1807
+35.4.1  Interconnectivity among Organ Systems��������������������������������������������������������������������������������������������������������������1807
+35.4.2  Differentiated Post-Mitotic Cells�������������������������������������������������������������������������������������������������������������������������1808
+35.4.3  Anatomic Barriers�������������������������������������������������������������������������������������������������������������������������������������������������1808
+35.4.4  Metabolism�����������������������������������������������������������������������������������������������������������������������������������������������������������1809
+35.4.5  Myelination����������������������������������������������������������������������������������������������������������������������������������������������������������1810
+35.5  Receptors and Signaling����������������������������������������������������������������������������������������������������������������������������������������������������1810
+35.5.1  G-protein Mediated Signaling������������������������������������������������������������������������������������������������������������������������������1811
+35.5.2  Phosphoinositide-3 Kinase Signaling�������������������������������������������������������������������������������������������������������������������1811
+35.5.3  Pb, a Case Study for Cell Signaling: Neurotoxicant Interaction��������������������������������������������������������������������������1812
+35.6  Vulnerability of the Developing Nervous System�������������������������������������������������������������������������������������������������������������1813
+35.6.1  Examples of Developmental Neurotoxicants�������������������������������������������������������������������������������������������������������1814
+35.7  Silent Neurotoxicity, Long-Term Effects, Aging and Relationship to Neurodegenerative Diseases��������������������������������1814
+35.8  Drugs of Abuse������������������������������������������������������������������������������������������������������������������������������������������������������������������1815
+35.9  Summary���������������������������������������������������������������������������������������������������������������������������������������������������������������������������1816
+35.10  Questions�������������������������������������������������������������������������������������������������������������������������������������������������������������������������1816
+Acknowledgments����������������������������������������������������������������������������������������������������������������������������������������������������������������������1816
+References����������������������������������������������������������������������������������������������������������������������������������������������������������������������������������1817
+DOI: 10.1201/9781003390008-39
+
+1800
+Hayes’ Principles and Methods of Toxicology
+35.2  Introduction to the Nervous System
+The nervous system has numerous functions including coor-
+dination and regulation of homeostasis of systems such as 
+the respiratory, digestive, circulatory and endocrine systems 
+to name a few. The nervous system also mediates movement 
+and provides mechanisms for sensory perception. In addition, 
+innate and acquired behavior originates within the nervous 
+system as well as higher cognitive functions, which define 
+personality and enable learning, memory and emotion. As a 
+result, toxins that affect the nervous system can have broad 
+and devastating effects across many physiological and psycho-
+logical domains.
+35.2.1  Anatomical Organization
+The nervous system is anatomically divided into the central 
+and peripheral nervous systems (CNS and PNS, respectively). 
+The CNS is comprised of the spinal cord, brainstem and fore-
+brain and the PNS is comprised of the nerves and ganglia 
+outside of the brain and spinal cord (Table 35.1). Structurally, 
+the spinal cord is a bundle of nervous tissue including neu-
+ronal cell bodies, axons, glia and structural proteins within 
+the vertebral column stretching from the base of the skull to 
+approximately the first lumbar vertebrae. Functionally, the 
+spinal cord receives, sends and processes sensory and motor 
+information between the PNS and the brain. The brain stem is 
+made up of the medulla, pons and midbrain which are critical 
+for regulation of vital blood pressure and respiration functions 
+and origination of cranial nerves involved special senses such 
+as taste and hearing and conveying sensory and motor infor-
+mation relating to the head and neck. The cerebellum is also 
+considered part of the midbrain and receives many sensory 
+and motor inputs and functions in part to regulate balance, 
+posture and fine motor skills. The forebrain consists of the 
+diencephalon (thalamus and hypothalamus), and the cerebral 
+hemispheres include cerebral cortex, white matter and subcor-
+tical structures such as the basal ganglia and hippocampus. 
+The thalamus relays sensory and motor signals to and from the 
+cortex and acts to regulate sleep and wakefulness. Underneath 
+the thalamus is a small set of distinct nuclei called the hypo-
+thalamus which links the nervous system with the endocrine 
+system to regulate sex hormones, hunger and satiety signals 
+and circadian rhythms. The remaining cortical and subcortical 
+structures of the forebrain function as higher processing sys-
+tems, including sensory and motor cortices, the limbic system, 
+the basal ganglia and the hippocampus.
+The PNS can also be divided into several distinct anatomi-
+cal and physiological components (Table 35.1). The somatic 
+nervous system is composed of sensory neurons in the skin, 
+muscles and joints and motor neuron axons that control skele-
+tal muscles, while the autonomic nervous system contains neu-
+rons and axons involved in visceral sensation and control of 
+smooth muscles and exocrine glands. The autonomic system 
+is further divided into the sympathetic nervous system which 
+underlies the “fight or flight” response, the parasympathetic 
+nervous system which restores homeostasis which underlies 
+the “rest and digest” actions and the enteric nervous system 
+that is relatively autonomous and regulates the smooth muscle 
+in the gut.
+The CNS is uniquely sequestered from the PNS and the rest 
+of the body by several anatomical barriers—the blood-brain 
+barrier (BBB), the blood-cerebral spinal fluid (CSF) barrier 
+and the blood-retina barrier (Table 35.1). Functions of these 
+barriers are to isolate the CNS, including the retina, from 
+TABLE 35.1
+Anatomical Organization of the Nervous System
+Major Divisions
+Components
+Primary Functions
+CNS
+Spinal Cord
+Cell bodies, projections and 
+structural matrix proteins
+Receives, sends and processes signals between CNS and PNS
+Brainstem
+Medulla
+Pons
+Midbrain
+Cerebellum
+Origination of cranial nerves
+Regulation of vital functions
+Motor and sensory information for head and neck
+Balance, posture and fine motor skills
+Forebrain
+Hypothalamus
+Thalamus
+Cortex
+Subcortical ganglia
+Relay and process information between the cortex and other 
+brain regions
+Circadian rhythm
+Hormonal release
+Higher order cognitive and emotional processing
+PNS
+Somatic Nervous System
+Sensory and motor neurons innervating 
+skin and skeletal muscle
+Reception of sensory stimulation
+Innervation and stimulation of skeletal muscle
+Autonomic Nervous System
+Sensory and motor neurons and 
+ganglia innervating smooth muscle 
+and exocrine glands
+Sympathetic: Fight or flight response
+Parasympathetic: Restoration of homeostasis
+Enteric: Relatively autonomic regulation of digestion
+Anatomical 
+Barriers
+BBB
+Capillary endothelial cells
+Astrocytic feet
+Generate CSF
+Isolate CNS from foreign substances and immune proteins 
+found in systemic circulation
+Blood-CSF Barrier
+Ependymal cells
+Blood-Retina Barrier
+Retinal epithelial cells
+Abbreviations: CSF (Cerebral Spinal Fluid); CNS (Central Nervous System); PNS (Peripheral Nervous System).
+
+1801
+Neurotoxicology
+toxins and other damaging substances in the blood such as 
+bacteria, viruses and inflammatory agents, and to regulate the 
+nutritional and ionic composition of CSF, to name a few.
+35.2.2  Development
+Formation of the nervous system begins early in development 
+when the three embryonic layers (endoderm, ectoderm, meso-
+derm) are formed during gastrulation. The nervous system 
+originates primarily from ectodermal cells, which also give 
+rise to integumentary tissue. During the third week of human 
+gestation, the ectoderm undergoes neurulation to form the 
+neural tube and neural crest. The neural tube and neural crest 
+proliferate rapidly to produce neural progenitor cells, which 
+become the CNS and PNS, respectively. These neural precur-
+sors migrate and continue to differentiate into neurons and glia, 
+form axons, dendrites and synapses and establish functional 
+circuitry including myelination and of gross anatomical struc-
+tures. The vast majority of nervous system development occurs 
+during the first two years of life; however, several processes 
+such as myelination, synaptogenesis and the development of 
+higher order cognitive systems continue into early adulthood 
+(Figure 35.1). Many of these processes are restricted to dis-
+tinct windows in development, creating critical periods during 
+which toxicant exposure is especially devastating for specific 
+brain regions, and sensory, motor and cognitive domains.
+35.2.3  Cells of the Nervous System
+There are three basic cell types found in the nervous system—
+neurons, glia and microglia. Each cell type is characterized by 
+distinct structural and physiological characteristics that deter-
+mine its role within the nervous system.
+35.2.3.1  Neurons
+There are many types of neurons in the nervous system; how-
+ever, they all share basic structural and functional features that 
+enable formation of simple and complex networks through 
+which sensory and motor information is processed and trans-
+mitted. All neurons are electrically excitable, post-mitotic cells 
+consisting of a cell body, dendrites and an axon (Table 35.2). 
+As in other cells, the neuronal cell body contains the nucleus, 
+endoplasmic reticulum, Golgi, mitochondria and other mem-
+branous organelles. Dendrites are specialized protrusions of 
+the cell body that contain membrane neurotransmitter recep-
+tors or specialized sensory receptors that respond to receptor 
+activation and sensory cues through changes in membrane 
+potential and intracellular signaling pathways. Most neurons 
+have a single axon extending millimeters or meters from the 
+cell body to form synapses with target neurons or organs. 
+Neurons can be divided into several distinct classes based on 
+shape, location, excitability and the expression of neurotrans-
+mitters and receptors, all of which affect neuronal signaling 
+and processing.
+35.2.3.2  Macroglia
+Macroglia, commonly called glia or neuroglia, are a class of 
+non-neuronal, mitotic cells that provide energy and nutrients 
+to neurons, maintain the extracellular environment through 
+ion and neurotransmitter clearance, form myelin, respond to 
+injury and modulate neuronal signaling and plasticity. As 
+with neurons, there are several distinct types of glia includ-
+ing astrocytes, oligodendrocytes, Schwann cells, ependymal 
+cells and radial glia (Table 35.2). Astrocytes are the most 
+abundant glial cell and contribute to BBB formation, neuro-
+vascular coupling, regulation of extracellular ionic concentra-
+tion and neurotransmitter clearance. They have an important 
+role in modulation of neuronal activity through the release of 
+glutamate and adenosine triphosphate (ATP). Astrocytes sig-
+nal within networks formed by astrocyte-astrocyte gap junc-
+tions that allow diffusion of Ca2+-induced second messengers 
+such as inositol triphosphate (IP3) which stimulate Ca2+ wave 
+propagation across a relatively large cortical area. Elevated 
+Ca2+ can stimulate glutamate release from some astrocytes. 
+FIGURE 35.1  Human Neurodevelopment. Progression of normative human neurodevelopment beginning at conception, including the developmental 
+windows for the establishment of sensory and cognitive functions. Figure Reproduced from Thompson, RA and Nelson, CA (2001).194
+
+1802
+Hayes’ Principles and Methods of Toxicology
+Myelin is formed by membrane projections from specialized 
+glia cells called oligodendrocytes in the CNS and Schwann 
+cells which wrap around axons to provide electric insulation 
+and concentrate ion channels at Nodes of Ranvier. Myelin 
+increases the speed and energy efficiency of action poten-
+tial propagation by up to ten-fold. Other types of glial cells 
+include ependymal cells, which line the ventricles to produce 
+CSF and form the blood-CSF barrier and radial glia which 
+are neuroprogenitors and scaffolding for migrating cells dur-
+ing development. In adults, radial glia persists in the cerebel-
+lum and retina where they facilitate plasticity and neuronal 
+transmission.
+35.2.3.3  Microglia
+Microglia differ from macroglia in that they do not originate 
+from neural ectoderm but instead from mesodermal mono-
+cytes that have entered the brain and further differentiated into 
+microglia (Table 35.2). Due to the BBB, the CNS is immune-
+privileged and most systemic infections do not enter the brain; 
+however, in cases where bacteria, viruses and other harmful 
+substances do cross the BBB, microglia provide an immune 
+defense system. Microglia are distributed throughout the brain 
+and rapidly respond to foreign substances and infections by 
+reducing inflammation, phagocytizing foreign substances and 
+signaling to neighboring microglia, glia and neurons through 
+the release of cytokines. Microglia can also kill infected cells 
+through release of large amounts of nitric oxide (NO) and 
+H2O2 and glutamate. In addition, microglia phagocytize dead 
+cells and other naturally occurring debris.
+35.2.4  Chemoelectric Transmission
+Neurons transmit information throughout the nervous system 
+by changes in membrane potential that are propagated along 
+axons (electric transmission) and cause release of neurotrans-
+mitters at synapses (chemical transmission). Synapses are the 
+junctions formed between axon terminals of a pre-synaptic 
+neuron and a post-synaptic cell (Figure 35.2). Post-synaptic 
+cells can include neurons, muscles and endocrine tissue (such 
+as the adrenal or pituitary glands) and may contain synapses 
+from a single pre-synaptic cell or from several pre-synaptic 
+cells. Astrocytes have a functional role in many synapses, 
+forming a three-part, or tripartite, synapse with the pre- and 
+post-synaptic cell. Astrocyte processes can surround the syn-
+apse, tightly regulating the extracellular environment through 
+ion and neurotransmitter transport and also the release of glu-
+tamate and propagation of Ca2+ signaling.
+35.2.4.1  Action Potential
+Membrane ion channels and transporters expressed by neurons 
+create a resting membrane potential near ′ 70 mV. These chan-
+nels establish both a chemical and electrical gradient with high 
+intracellular K+ and low intracellular Na+, Cl∞ and Ca2+ rela-
+tive to the extracellular environment. Dendrites and synapses 
+contain a number of ligand-gated and G-protein–coupled ion 
+channels that can be activated by sensory stimuli or neurotrans-
+mitters and cause local alterations in the membrane potential. 
+Membrane depolarization caused by Na+ or Ca2+ influx is con-
+sidered excitatory while hyperpolarization due to K+ efflux or 
+TABLE 35.2
+Cells of the Nervous System
+Neuron
+Macroglia
+Microglia
+Astrocyte 
+Schwann Cell 
+Oligodendrocyte 
+Myelin Sheath 
+Ependymal Cell 
+Structural and 
+Physiological 
+Features
+Dendrites, cell body and 
+axon
+Post-mitotic
+Electrically excitability
+Release 
+neurotransmitters
+Structure
+Contain numerous ion and 
+neurotransmitter 
+transporters
+Release ATP and glutamate
+Generate Ca2+ waves
+Lipid-rich myelin 
+sheath
+Schwann cells found 
+in PNS
+Oligodendrocytes 
+found in CNS
+Line the 
+ventricles
+Form tight 
+junctions 
+Small, spaced 
+throughout the 
+CNS
+Originate from 
+systemic 
+macrophages
+Function
+Chemoelectric signal 
+transmission
+Network formation
+Maintain extracellular 
+environment
+BBB formation and regulation
+Neurovascular coupling
+Myelinate axons
+Injury response
+Blood-CSF 
+barrier
+CNS immune 
+response
+Abbreviations: ATP (Adenosine Triphosphate); CNS (Central Nervous System).
+
+1803
+Neurotoxicology
+Cl∞ influx is considered inhibitory. In the dendrites, these local 
+changes in membrane potential can spread through the cell 
+body and with sufficient excitatory stimulation the depolariza-
+tion can reach the axon hillock, the junction between the cell 
+body and axon, and activate voltage-gated (v-gated) Na+ chan-
+nels. Once activated Na+ rapidly enters the cell, driven by both 
+chemical and electric gradients, it diffuses into the cell body 
+and along the axon, depolarizing the membrane and activat-
+ing neighboring v-gated Na+ channels (Figure 35.2). The depo-
+larization is propagated in an all-or-none manner along the 
+entire length of the axon to the axon terminal where v-gated 
+Ca2+ channels are activated. Ca2+ entry through these chan-
+nels stimulates fusion of synaptic vesicles with the membrane, 
+releasing neurotransmitters and neuromodulators.
+Several events occur during action potential propagation 
+that rapidly restore resting membrane potential (Figure 35.2). 
+The axon contains v-gated K+ channels that open more slowly 
+than v-gated Na+ channels and in depolarized cells K+ flows 
+rapidly out of the cell through these channels along the chemi-
+cal and electrical gradient (recall neurons have high intracel-
+lular K+ levels). At the same time, v-gated Na+ channels are 
+inactivated by the sustained membrane depolarization, pre-
+venting further Na+ entry. These events combined with the 
+ongoing action of Na+/K+ ATPase pumps which export three 
+Na+ ions from the cytoplasm and import two K+ ions using 
+an ATP molecule quickly restore the membrane potential 
+and enable the neuron to fire another action potential within 
+milliseconds.
+FIGURE 35.2  Chemoelectric Transmission. (A) At the synapse, neurotransmitters are released from axon terminals of pre-synaptic neurons where 
+they cross the synaptic cleft and bind to and activate membrane receptors on the post-synaptic cell (neurons, glia, muscles, exocrine glands). Once 
+activated, the receptors change the post-synaptic membrane potential through local depolarization or hyperpolarization (excitatory or inhibitory post-
+synaptic currents, respectively). (B) Illustration of the membrane potential changes that occur during action potential propagation: (1) Ion channels on 
+dendrites cause excitatory post-synaptic currents. (2) Membrane reaches threshold depolarization at axon hillock, opening v-gated Na+-channels, Na+ 
+enters cell, further depolarizing membrane. (3) v-Gated K+ channels open, v-gated Na+ channels close. (4) K+ flows out of cell. (5) v-Gated K+ channels 
+close and Na+/K+ ATPase pumps restore resting electrochemical gradients.
+
+1804
+Hayes’ Principles and Methods of Toxicology
+Several well-known toxins act by disrupting the ion channels 
+and transporters involved in maintaining resting membrane 
+potential and action potential generation. For example, v-gated 
+Na+ channels are blocked by tetrodotoxin, a toxin found in puff-
+erfish. In low doses, it temporarily inhibits neural transmission 
+but can cause death at high doses. Tetraethylammonium inhib-
+its K+ channels necessary for restoration of membrane polar-
+ization following action potentials.
+35.2.4.2  Neurotransmitter Signaling
+Synaptic transmission, also known as chemical transmission, 
+involves the synthesis and release of neurotransmitters by the 
+pre-synaptic cell, the interaction of the neurotransmitter with 
+receptors on post-synaptic cells and subsequent neurotransmit-
+ter removal from the synapse through reuptake or degradation. 
+Neurotransmitters can be categorized as amino acids, biogenic 
+amines, acetylcholine (ACh) or ATP. For each neurotransmit-
+ter, there are several distinct receptors, including both iono-
+tropic (ligand-gated ion channels) and metabotropic receptors 
+(G-protein–coupled receptors) (Table 35.3). The number and 
+type of post-synaptic receptors activated as well as the length 
+of time the neurotransmitter remains in the synapse determine 
+the effect it has on the post-synaptic cell.
+Glutamate, ć-aminobutyric acid (GABA) and glycine com-
+prise the amino acid neurotransmitters. Glutamate is the most 
+common excitatory neurotransmitter. The most common glu-
+tamate receptors are the AMPA and NMDA ligand-gated Na+ 
+and Ca2+ channels, which cause excitatory depolarization of 
+the post-synaptic membrane. There are also several types of 
+metabotropic glutamate receptors, which can be excitatory or 
+inhibitory depending on the associated G-protein. Glutamate 
+is rapidly cleared from the synapse by glutamate transport-
+ers on both neurons and surrounding astrocytes. GABA is the 
+most common inhibitory neurotransmitter and is synthesized 
+from glutamate within the nervous system. GABAA recep-
+tors are ionotropic Cl∞ channels which cause hyperpolariza-
+tion and inhibit action potential generation. GABAB receptors 
+are metabotropic receptors which activate G-protein–coupled 
+K+ channels, also causing hyperpolarization and decreasing 
+neuronal excitability. Glycine is the primary inhibitory trans-
+mitter used by spinal cord interneurons. Similar to GABAA 
+receptors, glycine receptors are ionotropic Cl∞ channels and 
+decrease post-synaptic excitability.
+TABLE 35.3
+Major Neurotransmitters, Receptors and Toxicants
+Class
+Neurotransmitter
+Receptor
+Post-Synaptic Actions
+Synaptic Clearance 
+Toxins 
+Amino 
+Acid
+Glutamate
+NMDAR
+AMPAR
+Ionotropic Na+ and Ca2+ 
+channels (excitatory)
+Reuptake by neuronal and astrocytic 
+glutamate transporters
+PCP
+mGluRs
+Metabotropic effect dependent 
+on associated G-protein
+GABA
+GABAA
+Ionotropic Cl∞ channels 
+(inhibitory)
+Reuptake by GABA transporter
+Degradation by GABA transaminase
+Hemlock
+Alcohol
+Picrotoxin
+GABAB
+Metabotropic stimulation of 
+G-protein–activated K+ 
+channels (inhibitory)
+Glycine
+Glycine Receptor
+Ionotropic Cl∞ channels 
+(inhibitory)
+Reuptake by transporters on neurons 
+and astrocytes
+Strychnine
+Bicuculline
+Biogenic 
+Amine
+Dopamine
+Dopamine 
+Receptors
+Metabotropic effect dependent 
+on associated G-protein
+Reuptake by dopamine transporter
+Degradation by MAO or COMT
+Amphetamines
+Heavy metals
+Oxidative 
+substances
+Norepinephrine
+− and μ adrenergic 
+receptors
+Metabotropic effect dependent 
+on associated G-protein
+Reuptake by norepinephrine 
+transporter
+Degradation by MAO and COMT
+Epinephrine
+Serotonin
+5-HT3
+Ionotropic Na+/K+ channel 
+(excitatory)
+Reuptake by serotonin transporter
+Degradation by MAO or COMT
+5-HT1,2,4-7
+Metabotropic effect dependent 
+on associated G-protein
+Histamine
+Histamine 
+Receptors 
+Metabotropic effect dependent 
+on associated G-protein
+Degradation by 
+histamine-N-methyltransferase
+Other
+ACh
+nAChR
+Ionotropic non-selective 
+cation channel (excitatory)
+Degradation by acetylcholinesterase
+Bungarotoxin
+Anatoxin
+Sarin
+MeHg
+Curare
+mAChR
+Metabotropic effect dependent 
+on associated G-protein
+ATP and 
+adenosine
+Purinergic 
+Receptors 
+Metabotropic effect dependent 
+on associated G-protein
+PCP (Phencyclidine); GABA (ć-Aminobutyric Acid); MAO (Monoamine Oxidase); COMT (Catechol-O-Methyl Transferase); nAChR (Nicotinic 
+Acetylcholine Receptor); mAChR (Muscarinic Acetylcholine Receptor); ACh (Acetylcholine); 5-HT (5-Hydroxytryptamine); NMDAR (N-Methyl 
+D-Aspartate Receptor); AMPAR (−-Amino-3-Hydroxy-5-Methyl-4-Isoxazolepropionic Acid Receptor); mGluR (Metabotropic Glutamate Receptor).
+
+1805
+Neurotoxicology
+Biogenic amines are synthesized from amino acids and 
+include the catecholamines, dopamine, norepinephrine and 
+epinephrine, derived from tyrosine through a common syn-
+thetic pathway. Dopamine is primarily released by midbrain 
+neurons and has an important role in movement, affect, emo-
+tion, reward, addiction, motivation and hormone secretion 
+by the pituitary gland. There are at least five subtypes of 
+metabotropic dopamine receptors which either stimulate or 
+inhibit cyclic adenosine monophosphate (cAMP) production 
+through G-protein signaling. The relative expression level of 
+receptor subtypes determines the effect in the post-synaptic 
+cells. Norepinephrine is found in neurons of the locus coeru-
+leus. These neurons are few in number; however, they project 
+throughout the cortex, cerebellum and spinal cord as well as 
+the sympathetic PNS. Epinephrine acts as a hormone when 
+released into the blood stream but is also found in a small num-
+ber of neurons in the nervous system. The catecholamines are 
+cleared from the synapse by specific transport proteins such as 
+dopamine transporter and norepinephrine transporter or are 
+degraded by monoamine oxidase (MAO) or catechol-o-methyl 
+transferase (COMT) enzymes.
+Serotonin (5-hydroxytryptamine, 5-HT) is another biogenic 
+amine synthesized from tryptophan. The vast majority of 
+systemic serotonin is found in the digestive system, although 
+serotonergic neurons in the brain stem project throughout the 
+brain and spinal cord and are involved in mood, appetite and 
+sleep regulation. There are many types of serotonergic recep-
+tors, and with the exception of the ionotropic 5-HT3 receptor, 
+the receptors are metabotropic and exert excitatory or inhibi-
+tory effects depending on the subtype. Serotonin is cleared 
+from the synaptic cleft by the serotonin transporter or can be 
+degraded by MAO and COMT. Histamine is also a biogenic 
+amine derived from amino acid histidine. Histamine is best 
+known as a pro-inflammatory substance released from mast 
+cells in the immune system. In the CNS and PNS however, 
+it is produced and released by some hypothalamic neurons 
+and acts as a neurotransmitter to contribute to sleep-wake 
+cycle regulation. There are several subtypes of neuronal 
+metabotropic histamine receptors with varying excitatory and 
+inhibitory effects. Histamine is degraded in the synapse by 
+histamine-N-methyltransferase.
+ACh is the only neurotransmitter not derived from an amino 
+acid. ACh is a polyatomic ion synthesized from choline and 
+acetyl enzyme CoA by choline acetyltransferase. ACh is used 
+by motor neurons in the spinal cord and extensively in the 
+autonomic nervous system. It is also synthesized in nucleus 
+basalis neurons with widespread cortical projections. In the 
+periphery, it is released by motor neurons and activates iono-
+tropic nicotinic ACh receptors (nAChR) to stimulate skeletal 
+muscle contraction. In the CNS, ACh acts largely to modulate 
+plasticity, attention, reward and arousal through metabotropic 
+G-protein–coupled muscarinic ACh receptors (mAChR). In 
+the synaptic cleft, ACh is degraded by acetylcholinesterase.
+ATP, ADP, AMP and adenosine are most often considered in 
+the context of cellular energy; however, these compounds are 
+released in an activity-dependent manner from neurons and 
+glia. These transmitters act on both ionotropic and metabo-
+tropic purinergic receptors to modulate autonomic function, 
+immune response, neuronal development and chronic pain.
+In addition to these classical neurotransmitters, there are 
+also many neuroactive substances that can affect transmission 
+and plasticity which are not defined as neurotransmitters. Most 
+of these neuromodulators are small neuroactive peptides such 
+as angiotensin-, oxytocin-, somatostatin- and thyrotropin-
+releasing hormone with well-identified hormonal and endo-
+crine functions. In addition, within the nervous system these 
+peptides can modulate synaptic transmission and are often 
+found in the same vesicles as neurotransmitters. Gases such 
+as NO and carbon monoxide (CO) also have important signal-
+ing roles in the nervous system. They are naturally produced 
+by NO synthases (NOSs) and by heme-oxygenase, respec-
+tively, and can easily diffuse across membranes to signal to 
+surrounding cells and have a role in inflammation signaling, 
+redox signaling and plasticity.
+Neurotoxins can affect many aspects of neurotransmitter 
+signaling, any of which can significantly disrupt neuronal sig-
+naling and cause physiological impairments and even death. 
+ACh is affected by many neurotoxins and is used here as an 
+example of the diversity of toxins that can significantly dis-
+rupt neuronal signaling. Methylmercury (MeHg), discussed in 
+more detail below, disrupts ACh synthesis by inhibiting cho-
+line acetyltransferase. ACh release is impaired in the PNS by 
+botulinum toxin, which degrades proteins necessary for syn-
+aptic vesicle release. Botulinum does not cross the BBB, so 
+the effects are evident at neuromuscular junctions where ACh 
+release is reduced, preventing diaphragm contraction and caus-
+ing death by asphyxiation. ACh receptors are targeted by sev-
+eral toxins, including bungarotoxin, which blocks Ca2+ entry 
+through nACh receptors, thus preventing signal transmission. 
+Anatoxin, produced by cyanobacteria, is a non-degradable 
+nACh agonist that causes persistent muscle contraction and 
+subsequent asphyxiation. Sarin, organophosphates and carba-
+mates inhibit ACh esterase, prolonging the duration of signal-
+ing by preventing degradation of ACh in the synapse.
+35.3  Assessing Neurotoxicity
+There are a variety of markers of neurotoxicity and experi-
+mental model systems available to examine them. Histology 
+on fixed neural tissues, magnetic resonance imaging (MRI) in 
+living subjects and immunocytochemistry of cell-culture sys-
+tems can be used to address changes in neuronal structure and 
+physiology (macro/micro), gross deformities and more subtle 
+structural and even microstructural disturbances induced by 
+a neurotoxin. Deleterious compounds can also affect neuro-
+nal metabolism, plasticity and neurochemistry, which can 
+likewise be measured with biochemical and electrophysiologi-
+cal assays. The ultimate function of the nervous system is to 
+produce behavior and enable learning, memory and cogni-
+tion. Behavioral and cognitive disruptions are often the first 
+indicators of the neurotoxic potential of a substance. There 
+are a number of behavioral and cognitive assays ranging from 
+simple associative learning to complex higher order process-
+ing that are discussed elsewhere in this book. These behavioral 
+assays can be helpful in assessing overt aspects of neurotoxic-
+ity in humans, rodents and even invertebrate model systems.
+
+1806
+Hayes’ Principles and Methods of Toxicology
+35.3.1  Electrophysiology
+Electrophysiology is the study of electrical properties of tis-
+sues, neuronal networks and cells and involves measurements 
+of changes in voltage or electric current. Electrophysiology 
+in the nervous system relies on the combined properties of 
+chemoelectric transmission, action potentials and neurotrans-
+mitter signaling to impart measurable changes in membrane 
+potential. Electrophysiological methods can assess effects on 
+a single cell and specific receptor level, or allow for the study 
+of changes in neuronal networks. Neuronal electrophysiol-
+ogy methods include in vivo, ex vivo and in vitro techniques 
+and measurements can be intra- or intercellular. Intracellular 
+recordings are invasive, since the electrode punctures the cell 
+membrane, thereby reducing cell viability or even killing the 
+cell. This in contrast to some intercellular techniques that 
+allow for multiple recordings of the same sample since elec-
+trodes do not intrude the cells. A brief description of some of 
+these techniques follows:
+The current clamp technique detects changes in transmem-
+brane voltage. In this technique, the amount of current injected 
+in the cell is set by the researcher and thereby allowing for 
+control of the transmembrane potential. In contrast, using 
+voltage clamp, the objective is to keep the membrane potential 
+constant at a level set by the researcher. This is done by insert-
+ing one electrode that measures the voltage and another elec-
+trode that passes the current needed to keep the potential at the 
+set voltage.1 The current needed to keep the voltage constant 
+is a measurement of the sum of all ionic currents of multiple 
+receptors. This approach can also be applied in orthologous 
+systems, i.e., a Xenopus laevis oocyte expressing the human 
+GABAA receptor on their membrane. These oocyts have been 
+used in combination with two-electrode voltage clamp to show 
+that perfluorooctane sulfonate (PFOS) and perfluorooctano-
+ate (PFOA) inhibit the GABA evoked current, identifying 
+these compounds as non-competitive human GABAA recep-
+tor antagonists.2 Using the same technique, but now with the 
+expression of nicotinic ACh receptors, the brominated flame 
+retardant TBBPA and several halogen-free flame retardants 
+have been identified as ACh receptor antagonists.3
+Patch clamp is an adaption of voltage clamp, using one elec-
+trode. For patch clamp recordings, a micro-electrode with a 
+relatively large diameter is placed next to the cell. Through 
+light suction, a piece of the cell membrane, the patch, is 
+sucked into the electrode, forming a resistance seal with the 
+cell membrane. This cell-attached mode allows for studying 
+the ion channels that are present at the patch. If more suction 
+is applied, the patch detaches from the cell and the micro-elec-
+trode becomes inserted into the cell allowing for intracellular 
+recordings. Although patch clamping techniques provide in 
+depth information at receptor level and are accurate for ionic 
+current measurements,4 they are not amenable for medium- or 
+high-throughput neurotoxicity screening studies.
+Field potentials are extracellular currents generated by 
+simultaneous activity of multiple cells, and are suitable for 
+screening studies, and typically use brain slices or other mul-
+ticellular neuronal structures. Brain slices retain the in vivo 
+organization of the brain with its different cell types and par-
+tially intact and functioning neuronal networks making them 
+suitable for ex vivo neurotoxicity studies of seizure liability or 
+MeHg toxicity.5–7 The typical short life span of postnatal brain 
+slices can decrease feasibility, but organotypic slices derived 
+from neonatal rats for example can be cultured for weeks.8 
+Regardless, the technique is labor-intensive. Micro-electrode 
+arrays (MEAs) offer a more high-throughput neurotoxicity 
+test strategy. They allow for the growth of in vitro neuronal 
+networks on a cell-culture surface with multiple integrated 
+electrodes that permit simultaneous and non-invasive record-
+ings of extracellular local field potentials at different locations 
+in the network.9–11 These primary networks contain functional 
+neurotransmitter receptors since they are responsive to several 
+neurotransmitters.12 Because measurements are non-invasive 
+and take place in a sterile environment, acute and chronic tox-
+icity can be assessed.13–15 The utility of MEAs for rapid high-
+throughput neurotoxicity screening is confirmed by a screen of 
+1,055 chemicals from EPA’s ToxCast library.16 Human-induced 
+pluripotent stem cell (hiPSC)-derived neurons can be success-
+fully cultured on MEAs.17,18 Varying ratio of glutamatergic 
+to GABAergic neurons allows for mimicking different brain 
+regions and alters patterns of activity.19 Addition of astrocytes 
+to these networks improves levels of neuronal network activity 
+and enhances (network) bursting.20–22
+The main difference between the earlier discussed clamp 
+methods and local field measurements strategies is that clamp 
+methods allow for identification of specific modes of action of 
+compounds. In contrast, field potential methods provide data 
+on the overall changes in the network, without identification 
+of a specific mode of action. The change in network activity 
+observed in MEAs is the sum of all the different changes in, for 
+example, receptor function, calcium homeostasis and v-gated 
+sodium channels. Because of the transition toward animal-
+free test strategies, hiPSC-derived neuronal co-cultures are 
+increasingly used for screens and seizure liability assessment. 
+For example, exposure to a set of seizurogenic compounds 
+showed that hiPSC-derived neuronal co-cultures could detect 
+seizure-like activity,23,24 and in some cases, this method out-
+performed rodent primary cortical cultures also evaluated by 
+MEA for sensitivity and human seizurogenic activity.25
+35.3.2  Mammalian Model Systems
+The use of human subjects and postmortem brains has been 
+invaluable in the history of neuroscience. Histology on post-
+mortem brains is useful in examining pathological changes 
+in brain structure and composition as a result of a given dis-
+ease process, such as amyloid plaques in Alzheimer’s disease 
+and Lewy bodies in Parkinson’s disease (PD). Additionally, 
+any protein, DNA or chemical analysis can be performed on 
+individual dissected tissues. Research using living subjects 
+is also possible using imaging techniques, such as assess-
+ment of motor, sensory and cognitive function, structural and 
+metabolic measurements using MRI and biochemical analysis 
+of CSF. Not only do imaging technologies provide tools for 
+research in brain function and structure in living humans, but 
+they can also be used repeatedly in the same subject to provide 
+insight on disease progression.
+Rodents, such as mice and rats, have been, and con-
+tinue to be, widely used to study structural, biochemical,
+
+1807
+Neurotoxicology
+electrophysiological, developmental, epigenetic and behavioral 
+effects of toxicant exposure on nervous system function. As 
+mammals, rodents have very similar genomes as humans and 
+have all of the major brain structures, organizational patterns 
+and neurotransmitters present in the human brain. In addition, 
+neurodevelopment in rodents follows a similar progression as 
+in humans. These features enable the assessment of nearly any 
+neurological outcome in rodent systems.
+35.3.3  Non-Mammalian Vertebrate and 
+Invertebrate Model Systems
+Non-mammalian vertebrates, such as zebrafish (Danio rerio), 
+and invertebrates are growing in popularity as a model 
+for neurotoxicity. Zebrafish and invertebrate systems such 
+as Drosophila melanogaster (fruit fly) and the nematode 
+Caenorhabditis elegans are classic genetic models for neu-
+rodevelopmental research and their small, albeit complex 
+nervous systems and genomes have been extensively charac-
+terized. Although invertebrates lack brains, they utilize many 
+of the same, or very similar, neurotransmitters, receptors and 
+synthesis mechanisms as mammals and can exhibit neuropa-
+thologies consistent with observations in rodents and humans. 
+In addition, mutagenesis and transgene manipulation has gen-
+erated an impressive library of mutations, fluorescent report-
+ers and inducible expression systems in zebrafish, flies and 
+worms that facilitate neuronal imaging and screens for genes 
+that modify response to toxicant exposure.26–30 These systems 
+are usually less expensive than mammalian models and allow 
+for quick genetic screens, which are good for identifying genes 
+involved in toxicity and stress responses.
+35.3.4  In Vitro Model Systems
+There are a variety of in vitro model systems that can be used 
+to look at molecular and biochemical aspects of neurotoxicity. 
+One of the most common in vitro models is primary culture 
+of neurons, astrocytes or microglia from rodent brains. There 
+are also immortalized neuronal cell lines that can be either 
+rodent or human in origin. One of the biggest advantages 
+of cell-culture systems is that biochemical and molecular 
+genetic assays, such as gene silencing and florescent reporter 
+assays, can be performed in mammalian cells that may be 
+difficult or too costly in live animals. An emerging in vitro 
+system for examining cellular and biochemical mechanisms 
+of human neurotoxicity is hiPSCs generated from adult cell 
+samples from dermal fibroblasts or mononuclear monocytes 
+of normal individuals as well as individuals with genetic risk 
+factors or established toxicant exposure responses. As noted 
+above, hiPSC-derived neurons may be utilized in electrophys-
+iology studies,23 but hiPSCs also provide a means for cellular, 
+biochemical and molecular genetic modeling of neurotoxic-
+ity and neurological disease.31–36 Furthermore, by utilizing 
+methods to differentiate hiPSCs down multiple neuronal 
+lineages, such as cortical glutamatergic and midbrain dopa-
+minergic neurons, hiPSCs can be used to explore differences 
+in how genetic and environmental factors can act on differ-
+ent neuronal types and at different stages of development.37 
+Likewise, hiPSC modeling can dissect differences in the 
+toxicological impacts between toxicants that both target the 
+same neuronal subtype.33 While cell-culture systems provide 
+many advantages over in vivo systems, caution in interpreting 
+results should be used, as a single cell type rarely functions in 
+isolation from the other surrounding cell types. Furthermore, 
+adaptive and restorative homeostatic processes that alter and 
+mitigate toxicological responses may be limited or exagger-
+ated in the absence of the cellular complexity of the intact 
+brain. Cell-based systems combined with in vivo experiments 
+can provide complimentary data.
+35.4  Nervous System Susceptibility
+The nervous system is highly susceptible to xenobiotics due to 
+its complex and specialized components as well as its physi-
+ological functions. There are several characteristics that make 
+the nervous system vulnerable to toxins and toxicants, which 
+include complex structure and long period of development, 
+low regenerative capacity in the adult and critical windows 
+to establish function during developmental, interconnectivity 
+to other organ systems, diverse functional roles of differenti-
+ated post-mitotic cells, selective transport into the CNS, high 
+rate of metabolism and myelination. In the following sections, 
+these susceptibility factors will be discussed. It is important 
+to note that xenobiotics can affect the nervous system through 
+various pathways and take advantage of multiple susceptibility 
+factors simultaneously.
+35.4.1  Interconnectivity among Organ Systems
+The nervous system is unique in that it connects to every tis-
+sue and organ system in the body, from the internal organs to 
+the skin. Nervous system functions can be altered by inflam-
+matory mediators, such as cytokines and chemokines, as well 
+as hormones produced in peripheral glands, such as insulin, 
+cortisol and epinephrine. Indeed, many neurodegenerative 
+diseases have been shown to have an inflammatory compo-
+nent to their pathology. Since the nervous system is highly 
+interconnected to the other organ systems, it is vulnerable 
+to not only neuro-specific toxins, but also toxins with broad 
+general effects. For this reason, it is often necessary to deter-
+mine whether the observed pathology is due to direct damage 
+to the nervous system or an indirect effect of damage else-
+where. Both the liver and the kidney are involved in excretion 
+of xenobiotics from the body. For example, diseases that alter 
+liver and kidney function, as well as exposure to substances 
+that reduce organ function, will cause a buildup of toxic sub-
+stances or metabolites that enter the circulatory system and 
+affect the nervous system. Additionally, if a toxin affects the 
+nervous system, there may be pathological sequelae in other 
+tissues. One classic example is cocaine, which affects both the 
+release and reuptake of dopamine and norepinephrine in the 
+brain,38 which is known not only to cause addiction, paranoia, 
+hyperactivity and aggression, but also increases blood pres-
+sure and causes abnormal heart rhythms leading to myocardial 
+infarction and congestive heart failure.39
+
+1808
+Hayes’ Principles and Methods of Toxicology
+35.4.2  Differentiated Post-Mitotic Cells
+Neurons, which are the functional cells of the nervous system 
+required for the transmission of action potentials, are consid-
+ered terminally differentiated post-mitotic cells. The majority 
+of neurons that are present in an adult individual are formed 
+during development and differentiated into mature neurons 
+during critical developmental windows. This is in contrast to 
+other organ systems, such as the liver and immune systems, 
+with regular turnover of the cells that comprise the tissues. 
+For this reason, toxic substances that cause damage to cellular 
+structure or cause neuronal death are especially harmful.
+The loss of a neuron in the majority of the nervous system 
+is irreversible. Neuronal loss, termed neuropathy, includes 
+the degeneration of the cell body, axon, dendrites and myelin 
+sheath surrounding the axon. Cell loss may be due to either 
+apoptosis or necrosis depending on the type of insult that led 
+to death. Loss of neurons after xenobiotic exposure can either 
+be general or specific, with loss of specific neurons resulting 
+from a susceptibility of a particular subpopulation of neu-
+rons to the toxic substance that is not present in every neuron. 
+Neurotoxins that cause neuropathies can either affect mul-
+tiple cell types or be specific for neurons, taking advantage 
+of vulnerabilities not present in other cell types, such as high 
+metabolic rate or excitability. Due to the large variety of func-
+tions performed by the nervous system, neuropathies can have 
+various functional consequences. Toxicants that produce over-
+all damage to the nervous system, such as thallium, can pro-
+duce diffuse encephalopathy and brain swelling.40 In contrast, 
+xenobiotics that affect subpopulations of neurons have specific 
+functional effects. For example, quinine targets retinal gan-
+glion cells, causing vacuolization and vision loss, while meth-
+anol causes degeneration of the putamen and retinal ganglion 
+cells resulting in headaches, vision loss and comas.41,42 Death 
+by either apoptosis or necrosis is usually cleared by phagocy-
+tosis performed by microglia. Phagocytosis by cell bodies usu-
+ally occurs faster than for the axons and myelin, and for this 
+reason, if there is extensive damage to axons and myelin in the 
+CNS or PNS after toxicant exposure, it is prudent to investigate 
+whether the cell bodies are affected.
+Oftentimes neurotoxins can cause axonal degeneration 
+without affecting the cell body; this is called an axonopathy. 
+Following an injury to the axon, the distal portion of the axon 
+proceeds through a process of degeneration which includes 
+proteolysis and axonal swelling, followed by fragmentation of 
+the axon and clearance of debris by microglia. In the PNS sys-
+tem, the Schwann cells proximal to the surviving portion of the 
+axon release growth factors which can allow for regeneration 
+of the axon; however, if the axon is not restored, Schwann cells 
+will decrease in numbers and regeneration will cease. In the 
+CNS, oligodendrocytes secrete inhibitory factors that impede 
+axonal regeneration while promoting astrocytes proliferation 
+and the formation of a glial scar, making an axonopathy in the 
+CNS permanent.
+Neuropathy, axonopathy and degeneration can be studied 
+using a variety of histological stains in fixed tissues. One 
+of the most thorough ways to detect degenerated axons and 
+neurons is the amino cupric silver stain.43 Briefly, brain tis-
+sue is imbedded in paraffin blocks and serial sectioned on a 
+microtome. These sections are soaked in a preimpregnation 
+solution containing cupric nitrate, silver nitrate, cadmium 
+nitrate, lanthanum nitrate, neutral red dye, −-amino butyric 
+acid, alanine, pyridine, triethanolamine, isopropanol and 
+deionized water (dH2O). Sections are then heated in the micro-
+wave and cooled overnight before being rinsed in dH2O, then 
+acetone, and placed in the impregnation solution containing 
+silver nitrate, 100% ethanol, acetone, lithium hydroxide and 
+ammonium hydroxide. After impregnation, the sections are 
+transferred to a reducer solution (100% ethanol, 10% formalin, 
+1% citric acid and dH2O) while in a water bath. The sections 
+are then rinsed in dH2O and rapidly placed in a bleaching solu-
+tion (potassium ferricyanide, potassium chlorate, lactic acid, 
+potassium permanganate and sulfuric acid) before being fixed 
+in sodium thiosulfate and a rapid fixer solution and mounted 
+on glass slides. Any degenerated axons or neurons will appear 
+black in color as compared to normal tissues, which can be 
+counterstained with neutral red.
+While the majority of neurons are post-mitotic cells, which 
+once lost cannot be replaced, limited neurogenesis does 
+occur during adulthood particularly in the hippocampus. 
+Hippocampal neurogenesis results in the formation of new 
+granule cells that incorporate into the existing cortical cir-
+cuitry and is important for structural plasticity and network 
+maintenance necessary for learning and memory. New neu-
+rons originate from adult neural stem cells of the subgranular 
+zone of the dentate gyrus. These quiescent self-replicating 
+type 1 cells have radial processes spanning the entire gran-
+ule cell layer of the dentate gyrus and are identified by glial 
+fibrillary acidic protein (GFAP), Sox2 and Nestin molecular 
+markers. These cells are thought to give rise to the type 2 
+neural stem cells, which are intermediate cells identified as 
+expressing Sox2 and Nestin, but not GFAP. Type 2 cells give 
+rise to neuroblasts capable of differentiating into mature neu-
+rons.44 Not all new neurons survive, but the ones that live are 
+extremely sensitive to their environment. Neurotransmitters, 
+such as GABA, as well as growth factors, neurotrophins, 
+cytokines, hormones and miRNAs, are all known to affect 
+the maturation of the progenitor cells. These cells can be visu-
+alized and quantified using well-defined molecular markers 
+described above using immunostaining and flow cytometry 
+protocols in order to evaluate the effects of environmen-
+tal factors on adult neurogenesis. Recent evidence suggests 
+that bisphenol A, alcohol, MeHg, cadmium and 2,3,7,8-tet-
+rachlorodibenzo-p-dioxin disrupt neurogenesis;45–52 however, 
+molecular mechanisms that contribute to altered neurogenesis 
+are unknown.
+35.4.3  Anatomic Barriers
+The BBB comprises an extensive network of specialized endo-
+thelial cells of the microvasculature of the brain, spinal cord, 
+retina and PNS as well as glial cells. Endothelial cells of the 
+BBB form tight junctions around the vascular lumen of the 
+capillaries creating a tighter seal between the blood and sur-
+rounding nervous tissue than the fenestrae present in systemic 
+capillaries. The glial cells that comprise the BBB are primar-
+ily astrocytes, which project “astocytic feet”, also called glia 
+limitans, to surround the endothelial cells to provide structure
+
+1809
+Neurotoxicology
+and regulation of the tightness of the barrier. There are a small 
+number of sites in the brain, which line the ventricles and are 
+not protected by the BBB; these are termed the circumven-
+tricular organs and include structures such as the pineal gland, 
+posterior pituitary and area postrema. The lack of complete 
+BBB in these regions allows circumventricular organs to sense 
+and respond to signals in the bloodstream such as osmolality, 
+toxins and peptide hormones.
+Under normal circumstances, small lipophilic substances 
+and water can passively diffuse across the BBB; however, 
+most other molecules must be actively transported in and 
+out of the nervous system across the BBB. Several transport 
+systems are used to move essential anions, cations and met-
+als from the vascular lumen to the neuronal tissues. Some of 
+these transporter systems are known to transport xenobiotics, 
+such as the multidrug-resistant protein family of transport-
+ers. Hydrophilic or large substances often pass through the 
+BBB by molecular mimicry, a phenomenon where a xenobi-
+otic that resembles an endogenous substrate enters the cell 
+by hijacking the endogenous transporter or carrier molecule. 
+MeHg is a potent neurotoxin that enters the CNS through 
+molecular mimicry. MeHg is very nucleophilic with high 
+affinity for the thiol group of cysteine. This MeHg-cysteine 
+conjugate structurally resembles methionine, which is trans-
+ported across the BBB via the large neutral amino acid trans-
+porter. MeHg enters the brain by taking advantage of this 
+structural similarity.53
+The blood-CSF barrier is comprised of modified epithelial 
+cells of the choroid plexus and surrounding capillaries called 
+ependymal cells. There are four choroid plexi in the brain 
+located in the third and fourth ventricles. The choroid plexus is 
+responsible for the synthesis of CSF and acts as a filtration unit 
+removing xenobiotics, excess neurotransmitters and metabolic 
+waste products from the CSF. The ependymal cells of the cho-
+roid plexus contain tight junctions to create a barrier between 
+the capillary lumen and the ventricles similar to, but not as 
+tight as, the BBB. The ependymal cells contain numerous villi 
+and microvilli, which increase the total surface area for filtra-
+tion and transport. The choroid plexus contains transporters, 
+which can be the target for xenobiotic entry, and many of the 
+xenobiotics that cross the BBB also enter the CNS through the 
+blood-CSF barrier and accumulate in the CSF.
+Lead (Pb) is one such metal that enters the brain through 
+both the blood-CSF barrier and BBB. Pb exposure is known 
+to cause the microvasculature of the brain to become leaky, 
+resulting in increased permeability of the BBB, brain swell-
+ing, herniation, ventricular compression, petechial and cere-
+bral hemorrhages, thrombosis and arteriosclerosis.54 The 
+endothelial cells in both the microvasculature and choroid 
+plexus cells accumulate Pb, which activates protein kinase C 
+(PKC) signaling due to Pb-induced disruption of intracellu-
+lar Ca2+ levels. Activation of PKC has been shown to increase 
+endothelial permeability which is observed during Pb toxic-
+ity.55 Pb also inhibits functioning of the choroid plexus epithe-
+lial cells, decreasing the amount of transthyretin produced.56 
+Transthyretin is an important protein involved in thyroid hor-
+mone binding and delivery, and is only produced by the cho-
+roid plexus; Pb exposure decreases transthyretin and disrupts 
+thyroid hormone signaling.
+35.4.4  Metabolism
+Neurons are energetically costly cells that are highly depen-
+dent on aerobic respiration to sustain sufficient energy to gen-
+erate action potentials and maintain electrical conductivity. 
+Even at rest, the membrane potential must be maintained by 
+ion channels and energy requiring ion pumps. Dysregulation 
+of these channels and pumps alters membrane potential and 
+the ability of a neuron to depolarize or repolarize, impeding 
+initiation and propagation of action potentials. Indeed, in con-
+ditions like epilepsy, where there is hyperactivity, and thus 
+more frequent depolarizations and repolarizations, there is 
+an increased energy demand, which if not met can result in 
+neuronal damage. Because of this high-energy need, a con-
+tinual source of energy must be available to keep the neurons 
+healthy. The brain solely relies heavily on aerobic glycolysis 
+as its primary energy source, which means that any change in 
+delivery of glucose or oxygen can be detrimental. Hypoxic and 
+ischemic injury to the brain can result from exposure to vari-
+ous toxicants that either directly inhibit components of aerobic 
+respiration machinery or decrease oxygen delivery. The pro-
+duction of ATP by the mitochondria involves several proteins 
+working collectively to transfer electrons, produce ATP and 
+keep reactive oxygen species production to a minimum.
+It is not surprising that some of the classic neurotoxins pro-
+duce their effects by the proteins involved in cellular respi-
+ration. 3-Nitropropionic acid (3-NP) is a mycotoxin produced 
+by certain plants and fungi that decreases neuronal ATP pro-
+duction by specifically inhibiting succinate dehydrogenase 
+(mitochondrial respiratory complex II). It is a suicide inhibi-
+tor of succinate dehydrogenase, meaning that 3-NP forms an 
+irreversible complex with the enzyme, effectively making the 
+enzyme unusable.57 Ingestion of 3-NP by humans or livestock 
+causes motor dysfunctions similar to Huntington’s disease, 
+and it is often used as an agent to study Huntington’s in ani-
+mal models. Direct injection into the brain of rats has shown 
+that 3-NP can cause neurodegeneration through an excitotoxic 
+mechanism.58 Another classic neurotoxicant often used in 
+animal models to study neurodegeneration is 1-methyl-4-phe-
+nyl-1,2,3,6-tetrahydropyridine (MPTP). In the 1970s, MPTP 
+was synthesized as an impurity in the synthesis of 1-methyl-
+4-phenyl-4-propionoxypiperidine, a synthetic opioid, and was 
+eventually identified as the source of Parkinsonian symptoms 
+displayed by drug abusers. MPTP itself is nontoxic; however, 
+metabolism by MAO B in glial cells forms the toxic cation 
+1-methyl-4-phenylpyridinium (MPP+). MPP+ is a potent 
+NADH dehydrogenase (mitochondrial complex I) inhibitor 
+and results in reduced nicotinamide adenine dinucleotide and 
+thereby disrupts the mitochondrial electron transport chain 
+involved in respiration, free radical formation and apoptosis. 
+MPP+ is thought to be selective to dopaminergic neurons by 
+entering the cells via the synaptic dopamine reuptake trans-
+porter found primarily on dopamine neurons. Heavy metals 
+are well-known neurotoxicants that decrease ATP produc-
+tion in the brain by inhibiting cellular respiration compo-
+nents. Rats exposed low levels of Pb, below the threshold of 
+safe for humans, had decreased ATP levels and reduced Na+/
+K+ ATPase activity. Rats exposed to arsenic showed inhibited 
+complex I, complex II and complex IV.59,60
+
+1810
+Hayes’ Principles and Methods of Toxicology
+Decreased oxygen delivery to the brain after exposure to 
+a toxicant usually results from either a global phenomenon 
+affecting all organs in the body or from alterations in the cir-
+culatory system. In the brain, the most metabolically active 
+regions are severely affected by reduced oxygen including 
+the basal ganglia, hippocampus, cerebral cortex and cerebel-
+lar Purkinje cells. CO poisoning produces hypoxia by com-
+petitively binding to hemoglobin in place of oxygen, which has 
+effect on the entire body. Acute CO exposure severely damages 
+these metabolic brain regions and may also cause white matter 
+damage and cortical atrophy.61 Decreased oxygen delivery to 
+the brain may also be caused by toxicants that cause hypoper-
+fusion; a condition where there is decreased blood flow to an 
+organ or tissue, which if prolonged can result in tissue damage 
+or death. Research performed in rats and monkeys suggest that 
+global hypoperfusion caused by cyanide (CN∞) is responsible 
+for the brain lesions characteristic of cyanide poisoning rather 
+than other direct forms of CN∞ damage to the CNS.
+Although a xenobiotic may affect metabolic pathways, its 
+neurotoxicity does not have to depend on its alterations in 
+metabolism. Acrylonitrile is a widely used vinyl monomer 
+used in the manufacturing of acrylic fibers, plastics, synthetic 
+rubber with known neurotoxic effects. In humans, acute acry-
+lonitrile exposure causes limb weakness, labored or irregular 
+breathing, dizziness, impaired judgment, hallucinations, cya-
+nosis, nausea, collapse, loss of consciousness, convulsions and 
+death. Chronic exposure to acrylonitrile causes depression and 
+lability of autonomic functions such as lowered arterial pres-
+sure, labile pulse, diffuse dermographia, increased sweating 
+and change in orthostatic reflex. Similar effects, including agi-
+tation, seizure and death, have been observed in rats exposed to 
+acrylonitrile. The precise mechanism for acrylonitrile’s neuro-
+toxicity is unknown. Acrylonitrile has been shown to undergo 
+Michael addition reactions with nucleophiles including gluta-
+thione (GSH); the cell’s most abundant thiol is responsible for 
+maintaining cellular redox status. Exposure to high levels of 
+acrylonitrile can deplete GSH. This depletion of GSH and sub-
+sequent change in redox status results in acrylonitrile metabo-
+lism by cytochrome P450 and formation of CYP2E1 and CN∞, 
+the initially proposed mechanism of toxicity. However, inhibi-
+tion of CYP2E1 with 1-benzylimidazole reduced blood levels 
+of CN∞ in rats exposed to acrylonitrile, but did not protect the 
+animals from acrylonitrile-induced mortality.62 In addition to 
+being able to bind to GSH, acrylonitrile can covalently bind 
+to proteins, including the catalytically active cysteine of glyc-
+eraldehyde 3-phosphate dehydrogenase, an enzyme involved 
+in glycolysis and ATP production.63 Acrylonitrile decreases 
+some glycolytic intermediates, but in spite of this, there is no 
+evidence for ATP depletion in the brains of rats exposed to 
+acrylonitrile.63 This illustrates that although there may be the 
+potential to alter the metabolism critical for neuronal func-
+tioning, xenobiotic neurotoxicity may involve several other 
+mechanisms.
+35.4.5  Myelination
+Myelination is a unique characteristic only found in the ner-
+vous system. Myelin consists of lipid-rich sheath that encases 
+neurons of both the CNS and PNS. Its primary function is to 
+insulate the neuron and allow for rapid conductance of the 
+action potential along the neuron. The presence of myelin 
+decreases membrane capacitance and increases the electri-
+cal resistance of the neuron, allowing for significantly faster 
+rates of action potential propagation as compared to unmyelin-
+ated neurons. In the CNS, myelin is formed by oligodendro-
+cytes, while in the PNS, it is formed by Schwann cells. Both 
+Schwann cells and oligodendrocytes form myelin by wrap-
+ping concentric layers of membrane and cytoplasm around 
+the axons, excluding cytoplasm from the inner surface of their 
+membranes and reducing the extracellular surfaces of the 
+bilayers allowing for a compact stack of lipid- and protein-rich 
+myelin. The lipids that comprise myelin are predominantly 
+galactocerebroside and sphyngomyelin. Structural proteins 
+are required to form and maintain proper myelin structure. 
+Myelin basic protein (MBP), myelin oligodendrocyte glyco-
+protein and proteolipid protein are adhesion proteins associ-
+ated with the intracellular spaces of wrapped myelin sheath in 
+the CNS, which when mutated can cause genetic diseases of 
+poorly formed or maintained myelin. Demyelination, the loss 
+of myelin while the axon is preserved, occurs through a variety 
+of pathological mechanisms.
+Loss of myelin results in slowing or aberrant action poten-
+tial conductance. Demyelination by toxins can result from 
+intramyelinic edema or direct damage to the myelinating cell. 
+Intramyelinic edema occurs when the myelin sheets separate, 
+which can be reversible or can progress to demyelination of the 
+axon. A variety of toxicological mechanisms can lead to intra-
+myelinic edema, including disruption of MBP transcription by 
+triethyltin, disruption of ion gradients by hexachlorophene and 
+vacuole formation resulting in the splitting of myelin sheets by 
+closantel.64–66 Intramyelinic edema can lead to swelling and 
+spongiosis of the brain, which is often not reversible. Direct 
+damage to the myelinating cells has been observed following 
+exposure to dideoxycytidine, cuprizone and dithiocarbamate 
+pesticides.67–69 It was once thought that oligodendrocytes were 
+incapable of reforming myelin after demyelination in the CNS; 
+however, it is now known that (hiPSC-derived) oligodendro-
+cyte precursor cells can be stimulated to remyelinate damaged 
+axons in mouse and primate models of demyelination/remy-
+elination.70,71 The functional consequences of demyelination 
+depend on the extent of demyelination that occurs after expo-
+sure to a toxic substance. Diffuse demyelination may result in 
+global nonspecific effects including headache and photopho-
+bia, whereas demyelination confined to the PNS can present as 
+peripheral neuropathies such as limb paralysis and demyelin-
+ation in the CNS as multiple sclerosis.
+35.5  Receptors and Signaling
+The mechanisms by which extracellular signals are trans-
+ferred to the cell cytosol and nucleus, commonly referred 
+to as “cell signaling” or “signal transduction”, are receiv-
+ing much attention in all areas of biology and medicine. 
+Neurotransmitters, hormones and growth factors serve as first 
+messengers to transfer information from one cell to another 
+by binding to specific cell membrane receptors. This inter-
+action results in activation or inhibition of specific enzymes
+
+1811
+Neurotoxicology
+and/or opening of ion channels, which lead to changes in 
+intracellular metabolism and, in turn, to a variety of effects, 
+including activation of protein kinases and transcription fac-
+tors. These intracellular pathways can be activated by totally 
+different receptors, and are very interactive or “cross-talk-
+ing”, so they can control and modulate each other. As the 
+area of signal transduction is very broad, a review of all its 
+aspects is well beyond the scope of this chapter, and only a 
+few examples are discussed below for illustrative purposes.
+Some of the most studied signaling pathways are those 
+activated by membrane receptors. These include for example 
+enzyme-linked receptors and G-protein–linked receptors.72,73 
+Enzyme-linked receptors (such as those of insulin or of epi-
+dermal growth factor) are receptors in which the ligand-bind-
+ing domain, the membrane-spanning region and the effector 
+enzyme are usually separate domains of the same protein. 
+Binding of the ligand to the receptor activates the effector 
+enzyme. The most widely studied of these receptors are those 
+with tyrosine kinase activity. Tyrosine kinase autophosphory-
+lates the receptor and also phosphorylates other substrate pro-
+teins. This initiates a cascade of processes whereby a large 
+number of proteins are activated, including, for example, 
+Ras, Raf-1, JAK-STAT, as well as mitogen-activated protein 
+kinases (MAPK) and p70S6 kinase.73
+35.5.1  G-protein Mediated Signaling
+G-protein–coupled receptors are activated by a wide variety 
+of ligands, including neurotransmitters and hormones. These 
+receptors have a seven-transmembrane domain, extracellular 
+loops, with the ligand-binding domain, and intracellular loops, 
+which interact with G-proteins. The G (for guanosine diphos-
+phate (GDP)/guanosine triphosphate (GTP) binding)-proteins 
+consist of three subunits, −, μ and ć. Upon interaction with 
+the ligand, the GDP bound to the − subunit is replaced by 
+GTP, and G− dissociates from Gμć. G−-GTP then activates an 
+effector enzyme, which starts a signal transduction cascade. 
+Depending on the nature of the G-protein, a receptor can acti-
+vate or inhibit the same enzyme (e.g., adenylate cyclase), or 
+activate a totally different enzyme. Furthermore, in addition to 
+G−, Gμć has also been shown to activate an array of effector 
+enzymes, including those also activated by G−.74 This model 
+of G-protein–linked receptor is utilized for example by the 
+adenylate cyclase system. Upon activation by G−-GTP, adenyl-
+ate cyclase catalyzes the conversion of ATP to cAMP; the lat-
+ter acts as a second messenger by activating protein kinase A 
+(PKA). This occurs via the binding of two cAMP molecules to 
+each of the regulatory subunits of PKA, thus releasing the cat-
+alytic subunit. In turn, PKA phosphorylates, and thus changes 
+the activity, of substrate proteins in the cytoplasm, in the mem-
+brane, as well as in the nucleus (e.g., the transcription factor 
+cAMP response element binding protein). If the G− subunit is 
+of the inhibitory type (Gi), then inhibition of adenylate cyclase 
+and a decrease of cAMP levels will ensue.
+Another pathway that utilizes this system regulates the 
+metabolism of membrane phosphoinositides. In this case, 
+G−-GTP (Gq) activates the enzyme phospholipase Cb, 
+which catalyzes the breakdown of the membrane phos-
+pholipid phosphatidylinositol 4,5-bisphosphate to inositol 
+1,4,5-trisphosphate (InsP3) and diacylglycerol (DAG), both of 
+which act as second messengers. It should be noted that phos-
+pholipase C (PLCs) can also be activated by other receptors 
+(e.g., that of nerve growth factor), thus underlining the com-
+plex entangled web of interactions in signal transduction path-
+ways.73 InsP3 binds to specific receptors in the endoplasmic 
+reticulum and mobilizes calcium from intracellular stores, 
+thereby allowing activation of a variety of cellular enzymes. 
+DAG, in concert with calcium and phosphatidylserine, acti-
+vates certain subtypes of PKC. In turn, PKC phosphorylates 
+a number of cellular substrates, including transcription fac-
+tors. Only classical PKCs (such as a and g) are activated as 
+indicated; novel PKCs (e.g., PKC e) do not need calcium for 
+activation, and atypical PKCs (e.g., PKC z) are activated by 
+other means. In addition to DAG, other important lipid media-
+tors can be generated in cells by G-protein–linked receptors 
+through multiple pathways.
+An important pathway is represented by the hydrolysis of 
+phosphatidylcholine, one of the major membrane phospholip-
+ids, by phospholipase D (PLD), to generate phosphatidic acid 
+(PA), which can activate atypical PKC z. Activation of clas-
+sical and novel PKCs stimulates PLD activity, thus generat-
+ing PA; this can also be converted to DAG by a PA hydrolase, 
+thus providing a mean for a prolonged stimulation of PKCs. 
+Other important lipid mediators are arachidonic acid, the pre-
+cursor of all prostanoids, which is generated by hydrolysis of 
+membrane phospholipids by phospholipase A2, and ceramide, 
+which is released from sphyngomyelin by sphyngomyelinase.
+35.5.2  Phosphoinositide-3 Kinase Signaling
+The insulin and insulin-like growth factor receptor signal-
+ing and its coupled phosphoinositide-3 kinase (PI3K) signal-
+ing and mammalian target of rapamycin signaling, represent 
+another important network of cell-signaling pathways that play 
+important roles in the control of cell growth, proliferation and 
+survival.75–78 When activated by surface receptors or interac-
+tion with Ras, class I PI3K produces phosphatidylinositol 
+(3,4,5)-trisphosphate [PtdIns(3,4,5)P3]. PI3K regulates cellular 
+functions by recruiting PtdIns(3,4,5)P3-binding proteins to the 
+plasma membrane. The prototype of these molecules is protein 
+kinase B, also known as Akt, which is activated by ligation 
+of PtdIns(3,4,5)P3 and by phosphorylation by phosphoinosit-
+ide 3-dependent kinase 1 (PDK1).79 PDK1 also phosphorylates 
+some PKC isoforms (e.g., PKC z) and downstream kinases 
+(e.g., p70S6 kinase). The ability of certain receptors to increase 
+intracellular levels of cyclic GMP (cGMP) and the fact that 
+such effect was indirect, i.e., it necessitated an additional sec-
+ond messenger, has been known for quite some time. Initial 
+candidates for such role included calcium ions and arachi-
+donic acid metabolites. However, it was later discovered that 
+NO, synthesized from L-arginine by NOS, binds to a heme 
+moiety attached to guanylate cyclase and stimulates the forma-
+tion of cGMP.80,81 The NOS family consists of three isoforms: 
+neuronal NOS and endothelial NOS which are constitutively 
+expressed and require the formation of calcium-calmodulin 
+complexes for their activation, and inducible NOS, which 
+exerts its activity in a calcium-independent manner. NO is 
+involved in a wide array of cellular effects in the CNS, ranging
+
+1812
+Hayes’ Principles and Methods of Toxicology
+from neuroprotection to neurotoxicity.82,83 The diversity in 
+response appears to be related to the steady-state concentra-
+tion of NO. In general, low concentrations of NO (1–300 nM) 
+would promote cell survival, whereas at higher concentrations 
+(1 mM) nitrosative stress would prevail, leading to cell cycle 
+arrest and apoptosis.84
+35.5.3  Pb, a Case Study for Cell Signaling: 
+Neurotoxicant Interaction
+In recent years, investigation of the molecular mechanisms of 
+neurotoxicity has started to consider a variety of signal trans-
+duction pathways as potential targets for neurotoxicants. Such 
+studies have followed three basic experimental approaches: 
+the study of the direct effects of a chemical on a particular step 
+in cell signaling (e.g., a protein kinase); the study of the direct 
+effects of a neurotoxicant on second messenger responses 
+activated by an endogenous compound (e.g., a neurotransmit-
+ter-induced activation of phospholipid hydrolysis); and, to a 
+limited extent, the alterations in signal transduction resulting 
+from other toxic actions (e.g., oxidative stress).
+Interactions of neurotoxicants with signal transduction path-
+ways may occur in neuronal or in glial cells, and may lead to 
+inhibition or stimulation of cell proliferation and/or cell differ-
+entiation, to the direct induction of cell death, to inhibition of 
+pathways that provide protection against cell death or to other 
+effects on cellular function. Therefore, such interaction may be 
+relevant to neurotoxicity in adults, to developmental neurotox-
+icity, as well as to neurooncology. The relevance of interactions 
+with signal transduction pathways in the neurotoxicity and 
+developmental neurotoxicity of a number of chemicals (mostly 
+ethanol, polychlorinated biphenyls (PCBs), domoic acid, alu-
+minum, cyanide, organotin compounds and certain pesticides) 
+has been discussed in a number of reviews and book chapters 
+in the past three decades.85–89 In this chapter, one example of 
+such interactions is discussed, related to mechanisms possibly 
+underlying the developmental neurotoxicity of Pb.
+Pb was discovered thousands of years ago and has been 
+used extensively ever since. In the 1800s, commercial use of 
+Pb increased further, as it was found to be highly effective in 
+paints. In the early 1920s, an organic form of Pb (tetraethyl 
+Pb) was found to be very effective as an anti-knocking agent in 
+gasoline, starting the long successful sale of leaded fuels. The 
+toxic effects of Pb, however, did not go unrecognized. In recent 
+decades, several efforts to reduce the use of Pb (e.g., banning 
+of Pb paints in the 1970s, phasing out of leaded gasoline in 
+the 1980s) significantly curtailed Pb contamination; yet Pb 
+remains a major, ubiquitous, ecosystem pollutant. Pb is a neu-
+rotoxic metal both in adults and in children. In adults, the main 
+effects of Pb poisoning are a peripheral neuropathy, precisely a 
+myelinopathy, which is reversible upon chelation and cessation 
+of exposure. At higher concentrations (100 ōg/dL in blood), an 
+encephalopathy may also develop. In contrast, the developing 
+CNS is exquisitely sensitive to the effects of Pb, even at much 
+lower blood levels. In the 1970s, the blood Pb action level in 
+children was 60 ōg/mL, the level associated with clinical signs 
+of toxicity in adults.90 In those years, epidemiological studies 
+clearly showed an association between body burden of Pb in 
+children and adverse neurobehavioral outcomes, namely lower 
+academic performance and shortened attention span.91 The 
+phasing out of leaded gasoline and the limitation on smoke-
+stack Pb emissions caused Pb blood level in children in the 
+United States to decrease by 80% in the period of 1978–1991. 
+Over the years the level of concern for blood Pb has decreased 
+to 25 ōg/mL, then in 1991 to 10 ōg/mL, and on October 28, 
+2021, CDC updated the blood lead reference value (BLRV) 
+from 5.0 ōg/dL to 3.5 ōg/dL. However, blood Pb levels as low 
+as 2 ōg/mL have been associated with declines in IQ and vari-
+ous adverse behavioral effects,92 and there is widespread belief 
+that there is no proven safe lower limit for Pb exposure.93
+Animal studies in multiple species have confirmed that 
+developmental Pb exposure causes similar cognitive dysfunc-
+tions, learning impairment and distractibility.94 Pb has been 
+shown to exert neurotoxicity during differentiation and syn-
+aptogenesis95; however, the greatest adverse effects are seen 
+during the latest stages of brain development, suggesting that 
+Pb may interfere with the apoptotic process and the trimming/
+pruning of synaptic connections.96 In vivo and in vitro studies 
+have shown that Pb may disrupt the BBB by injuring astro-
+cytes, with a secondary damage to the endothelial microvascu-
+lature.97 Developmental Pb exposure has been shown to target 
+the hippocampus, cerebral cortex and cerebellum.98
+Though the exact mechanisms of Pb neurotoxicity have 
+not been fully elucidated, the prevailing hypothesis is that 
+Pb interferes with the action of calcium; indeed, in several 
+systems, Pb can mimic calcium actions at the cellular level 
+and/or disrupt calcium homeostasis.99,100 Given the role of 
+calcium as a cofactor in many cellular processes involved in 
+signal transduction, it is not surprising that several cell-sig-
+naling pathways are affected by Pb. One of the most interest-
+ing findings is the ability of Pb to substitute for calcium in 
+activating certain PKCs. The first observation was that Pb, in 
+a concentration range of 0.1–10 mM, would activate PKC and 
+cause translocation of PKC from the cytosol to the particulate 
+fraction in isolated immature rat microvessels.101 Pb was also 
+shown to activate PKC, partially purified from rat brain, at 
+concentrations as low as 10∞15 M, several orders of magnitude 
+lower than calcium itself.55 A later study confirmed that Pb 
+could activate PKC at 10∞11–10∞8 M,102 while calcium activates 
+PKC in the range from 10∞8 to 10∞5 M. Two studies, utilizing 
+recombinant human PKCs, detailed the interactions of Pb with 
+these enzymes.103,104 Calcium-dependent PKCs, but not all 
+other PKCs, have a calcium-binding domain (C2) in the regu-
+latory region. At low concentrations (10∞12 M), Pb binds to a 
+site (Ca1) within C2 that causes activation of PKC a; at higher 
+concentrations, Pb binds to another site (Ca2), also in the C2, 
+which causes inhibition of enzyme activity by antagonizing 
+calcium. In addition to the dual effects mediated through the 
+interactions of Pb with the C2 domain, at still higher concen-
+trations, Pb inhibits PKC activity by interacting with the cata-
+lytic domain. Indeed, Pb was found to inhibit PKC e and PKC 
+z, which lack the C2 domain.104 These findings may explain 
+the reports describing contrasting effects of Pb on PKCs.105
+Activation of PKC by Pb has been suggested to be involved 
+in its inhibition of astroglia-induced microvessel formation,106 
+and to contribute to its ability to release neurotransmitters 
+from bovine adrenal chromaffin cells, brain synaptosomes 
+and PC12 cells.103,107,108 In vivo exposure to Pb during brain
+
+1813
+Neurotoxicology
+development has been shown to cause a decrease of PKC g in 
+the hippocampus.109,110 PKC inhibitors block long-term poten-
+tiation, a possible functional equivalent of memory storage, 
+suggesting that Pb-induced decreased PKC activity (possibly 
+resulting from downregulation caused by sustained activa-
+tion), may relate to learning and memory deficits caused by 
+this metal. An increase in PKC e expression was also reported 
+following in vivo developmental Pb exposure, perhaps as a 
+compensatory mechanism due to prolonged inhibition.111 In 
+human astrocytoma cells, activation of PKC a, followed by the 
+sequential activation of MAPK (Erk 1/2) and its target p90RSK, 
+was shown to mediate the mitogenic effect of Pb in these 
+cells.112,113 Such effects may be involved in the reported ability 
+of Pb to induce CNS tumors (gliomas and astrocytomas) in 
+both animals and humans.114,115
+In summary, the ability of Pb to substitute for calcium and/
+or to alter the action of calcium appears to be responsible for 
+its effects on a number of cell-signaling systems. In particu-
+lar, its interactions with PKCs may play a role in the ability of 
+Pb to cause cognitive alteration upon developmental exposure, 
+and may contribute to its mitogenic action possibly related to 
+its carcinogenic effects.
+35.6  Vulnerability of the Developing 
+Nervous System
+Several lines of evidence suggest that the developing nervous 
+system may be more susceptible, and/or differentially suscep-
+tible, to toxic insult than the adult nervous system. Different 
+parts of the CNS develop at different stages (Figure 35.1); cell 
+proliferation, migration and differentiation contribute to the 
+formation of definite brain structures, in which the correct 
+number of cells in the proper location is necessary for proper 
+function.116,117 Even within a single brain region, subpopula-
+tions of neurons may have different rates of development; 
+for example, in the cerebellum, Purkinje cells develop early 
+(embryonic days 13–15 in the rat, corresponding to gestational 
+weeks 5–7 in humans), while granule cells are generated much 
+later (postnatal days 4–19 in the rat, corresponding to ges-
+tational weeks 24–36).116 Failure in cell proliferation or cell 
+migration because of exposure to toxic insults (e.g., irradia-
+tion or MeHg) has profound deleterious effects on the devel-
+oping brain.118 Though neurons maintain the ability to make 
+new synapses throughout life, the period of brain development 
+when synaptogenesis occurs is critical for the formation of 
+the basic circuitry of the nervous system.119 Furthermore, in 
+the developing nervous system, neurotransmitters may have 
+functions other than neurotransmission, such as modulation 
+of cell proliferation, survival and differentiation.120 Thus, any 
+toxicant that interferes with neurotransmission during devel-
+opment may cause permanent defects in the CNS.
+Developmental neurogenesis produces more neurons than 
+those found in the mature nervous system, and excess neurons 
+are pruned by finely regulated apoptotic processes at different 
+developmental times.121 Any chemical interfering with apop-
+totic processes may trigger degeneration of neurons that would 
+not otherwise have been deleted or may promote survival of 
+unnecessary cells.122 In addition, pruning, defined as loss of 
+synapses, also occurs physiologically in the developing brain, 
+and chemicals interfering with this process (which is longer 
+lasting than neuronal loss to apoptosis) would have most sig-
+nificant adverse effects on brain functions.123
+While all these considerations relate to the development of 
+neurons, it has become apparent that glial cells (astrocytes, oli-
+godendrocytes and microglia) also play a relevant role in brain 
+development and may be the target of toxic action.124 Indeed, 
+several chemicals (e.g., alcohol, nicotine and certain pesti-
+cides) exert profound neurotoxic effects when exposure occurs 
+during the brain growth spurt, characterized by extensive glial 
+cell proliferation and maturation.125,126
+Separate guidelines for developmental neurotoxicity test-
+ing have also been developed both in the United States and 
+in Europe.127,128 Following guidelines, maternal exposure to 
+the test chemicals is from gestational day 6 to postnatal day 
+10 or 21 ensure exposure in utero and through maternal milk. 
+Tests involve measurements of developmental landmarks and 
+reflexes, motor activity, auditory startle test, learning and 
+memory tests and neuropathology. As for neurotoxicity test-
+ing, developmental neurotoxicity testing has been proven to 
+be useful and effective in identifying compounds with devel-
+opmental neurotoxicity potential.129 This is not to say that cur-
+rent developmental neurotoxicity testing guidelines cannot 
+be improved; indeed it has been pointed out that they may be 
+overly sensitive and produce a high rate of false positives,130 
+or, in contrast, that they may be too insensitive and not com-
+prehensive enough.131 Furthermore, issues have been raised 
+regarding historical control data, toxicokinetic parameters, 
+maternally mediated toxicity vs. direct effects, selection of 
+tests and their analysis and interpretation.132,133
+In the past several years, the need to develop acceptable 
+alternatives to conventional animal testing has been increas-
+ingly recognized by toxicologists in order to address the 
+escalating costs and time required for toxicity assessments, 
+the increasing number of chemicals being developed and 
+commercialized and the need to respond to recent legislation 
+[e.g., REACH (Registration Evaluation and Authorization of 
+Chemicals) and the Cosmetics Directive (76/768/EEC) in the 
+EU]. In addition, efforts have been directed toward the devel-
+opment of alternative models to reduce the number of animals 
+used for toxicity testing, utilizing either mammalian cells in 
+vitro or non-mammalian model systems (e.g., zebrafish or 
+Caenorhabditis elegans) which could serve as tools for neuro-
+toxicity and developmental neurotoxicity testing, particularly 
+for screening purposes.134 These alternative tests should serve 
+as Tier 1 tests to allow the screening of compounds whose 
+potential developmental neurotoxicity is unknown. Given the 
+complexity of the nervous system and the multiple facets of 
+possible neurotoxic effects, it is highly unlikely that a single 
+test (as the Ames test for mutagenicity) will cover the spec-
+trum of neurotoxicity. Modeling needs to consider the variety 
+of cell types present in the brain, as well as vulnerability of 
+progenitor and neuronal progenitors. Rather, it is likely a bat-
+tery of tests should be considered which may include some in 
+vitro tests with mammalian neuronal cell lines or hiPSCs and 
+one or two tests with non-mammalian in vivo models. This 
+may be complemented by quantitative structure-activity rela-
+tionship-based computational approaches. Novel approaches,
+
+1814
+Hayes’ Principles and Methods of Toxicology
+part of the “omics” technologies, may also find a role in such 
+endeavors. Alternative models for developmental neurotoxic-
+ity should attempt to mimic several processes that may occur 
+in vivo and given the complexity of the CNS, the scenario for 
+developmental neurotoxicity is much more complex than that 
+for other target organs of toxicity.134
+35.6.1  Examples of Developmental Neurotoxicants
+There are over 200 chemicals which have been found to be 
+neurotoxic in humans,135,136 and for many more, there is at least 
+some evidence of neurotoxicity deriving from animal studies. 
+Of these, several are developmental neurotoxicants. However, 
+of over 80,000 chemicals on the market, only a handful (about 
+200) have undergone developmental neurotoxicity testing 
+according the established guidelines.129 As said, the develop-
+ing brain is often more sensitive than the adult brain to toxic 
+insult; thus, neurotoxicity is observed at much lower exposure 
+levels. This is the case, for example, of Pb or MeHg. In several 
+cases, the effects of developmental chemical exposure are dif-
+ferent from those observed in adults upon similar exposure; 
+for example, ethanol or valproate exposure. In some instances, 
+developmental exposure to neurotoxicants results in morpho-
+logical alteration of the CNS, with accompanying changes in 
+functions.118 However, functional changes may result from 
+more subtle biochemical/molecular alterations without major 
+structural abnormalities. Exposure to chemicals which may 
+adversely affect the nervous system has been suggested to be 
+associated with a number of developmental disabilities that are 
+diagnosed in children at an alarmingly increasing rate includ-
+ing learning disabilities, attention-deficit hyperactivity disor-
+der, dyslexia, sensory deficits, mental retardation and autism 
+spectrum disorders.90,135,136
+One example of a developmental neurotoxicant, MeHg, is 
+presented below. Pb, discussed earlier as an example of neuro-
+toxicant interfering with signal transduction, is another exam-
+ple. MeHg is probably one of the most studied developmental 
+neurotoxicants due to several episodes of human poisoning 
+over the years, and continued low-level exposure in many 
+populations worldwide, mainly through the consumption of 
+rice and contaminated fish.137–141 With the possible exception 
+of a case in Sweden in the early 1950s, due to consumption 
+of MeHg-contaminated seed grain, the first evidence of the 
+deleterious effects of MeHg exposure on brain development 
+emerged from Japan in the mid-1950s.142 Many children born 
+to mothers who consumed MeHg-contaminated fish around 
+Minamata Bay presented with severe neurological deficits, 
+while their mothers appeared unaffected or suffered only mild 
+symptoms.143 About a decade later, another extensive episode 
+of poisoning occurred in Iraq, due to consumption of MeHg-
+contaminated grain.144
+In both cases, notable differences were found in the distri-
+bution of pathological changes in the young, exposed in utero 
+or as children, and in adults.145 In particular, while damage 
+in adults is restricted to the cerebellum and the visual cortex, 
+diffuse damage is seen in the developing brain.146 It was esti-
+mated that the in utero developing nervous system has a five-
+fold greater vulnerability to MeHg.147 Signs and symptoms 
+in MeHg-poisoned children included spastic paresis, mental 
+retardation, movement disorders, seizures, primitive reflexes 
+and speech difficulty.138,143 The mechanisms of MeHg develop-
+mental neurotoxicity have been studied extensively, and a very 
+complex picture has emerged. MeHg binds with high affinity 
+to sulfhydryl groups, which are relevant for the proper func-
+tioning of a large number of proteins. As such, several key 
+cellular processes are affected by MeHg.118,137,139 For example, 
+MeHg has been reported to cause apoptotic cell death, to cause 
+retraction of growth cones and extension, to impair the cyto-
+skeleton, to affect cellular metabolism and to reduce cell pro-
+liferation and neuronal migration.
+The ban of alkylmercury compounds for use as fungicides 
+and stricter controls on fish contamination have avoided fur-
+ther catastrophic events as those of Japan and Iraq. However, 
+low-level contamination of fish is persistent, and may be 
+responsible for developmental neurotoxic effects, particularly 
+in populations with high seafood consumption. Three major 
+longitudinal studies have examined the potential effects of 
+low-level MeHg exposure in New Zealand, the Seychelles 
+and the Faroe Islands.147–149 In all locations, MeHg exposure is 
+entirely due to diet, which consists mainly of marine animals. 
+Two of these studies (in New Zealand and the Faroe Islands) 
+reported a correlation between maternal levels of MeHg and 
+subtle neurobehavioral deficits in the offspring. In particular, 
+a small decrease in IQ points and deficits in memory attention 
+and visuo-spatial perception were noted in both studies.147,149 
+In the Seychelles study, such relation between MeHg expo-
+sure and neurodevelopmental effects was not apparent.150 In 
+the Faroe Islands population, concomitant exposure to PCBs 
+present in whale meat and whale blubber may be an impor-
+tant confounder, as both MeHg and PCBs may have inde-
+pendent neurological effects in this population.151,152 Another 
+important confounder in these and other studies142 is the ben-
+eficial effect of fish consumption ascribed to omega-3 fatty 
+acids.153,154 Thus, a balance exists between adverse (MeHg) 
+and beneficial (omega-3) effects, which may dampen toxicity 
+or obscure benefits. As MeHg contamination of fish is dif-
+ficult to avoid, the best choice for the pregnant consumer is 
+to choose fish species with minimal MeHg burden and rela-
+tively high omega-3 content (e.g., sardine, salmon), in order 
+to minimize risk and maximize benefits.154 Exposure limits 
+for MeHg have been set, with provisional tolerable weekly 
+intake values ranging from 0.7 to 1.6 ōg/kg, depending on the 
+regulatory agency.154
+35.7  Silent Neurotoxicity, Long-Term 
+Effects, Aging and Relationship 
+to Neurodegenerative Diseases
+Manifestations of neurotoxic effects upon adult and/or devel-
+opmental exposure are usually seen shortly after exposure. 
+Yet, evidence is emerging that deleterious effects of toxicants 
+may not become clinically evident for some months, or even 
+several years after exposure. This period during which the 
+individual may manifest no evidence of toxicity is referred to 
+as the “silent” or latent period.155 Silent toxicity is defined as 
+persistent biochemical or morphological injury, which remains
+
+1815
+Neurotoxicology
+clinically unapparent unless unmasked by experimental or 
+natural processes.155,156 Silent toxicity may be compared to 
+the process of carcinogenesis, in which molecular and cellular 
+damage occurs years if not decades before any clinical mani-
+festation of the disease.157
+In case of neurotoxicity, an example of silent toxicity is rep-
+resented by the Parkinsonism-dementia known as Guam’s dis-
+ease, in which latencies of decades have been reported before 
+clinical signs and symptoms from an undefined exposure.158 
+Similarly, bovine spongiform encephalopathy (mad cow dis-
+ease), a variant of Creutzfeld-Jakob disease, can have a latency 
+period of decades.159 The delay between exposure and clini-
+cal expression of neurotoxic injury may be ascribed to various 
+causes. For example, a selected population of neurons may be 
+affected, but the known plasticity of the brain would compen-
+sate for such loss. However, further exposure to exogenous 
+influences (e.g., stress, disease, additional chemical exposure) 
+and/or the natural aging process unmasks the existing deficit. 
+Alternatively, the organism may be initially able to compen-
+sate for a certain deficit, but progressive loss of function even-
+tually overcomes the functional reserve and plasticity of the 
+brain.155
+The possibility that such latent period between exposure and 
+clinical manifestation would occur in the context of develop-
+ment is even more probable. The concept that adult disease may 
+have a fetal origin has been introduced by David Barker and 
+is known as the “Barker hypothesis”.160 Exposure to chemicals 
+may cause direct damage or alter developmental programing, 
+whose resulting functional deficits become apparent later in 
+life. A famous example is that of diethylstilbestrol, in which 
+in utero exposure results in an increase in vaginal adenocarci-
+noma around the time of puberty.161
+In the context of developmental neurotoxicity, prenatal 
+infection has lasting effects on the dopaminergic system. 
+Perinatal exposure of rats to the Gram (′ ) bacteriotoxin lipo-
+polysaccharide causes a 30% loss in dopaminergic neurons in 
+the substantia nigra and persistent injury to the dopaminergic 
+system.162,163 This study suggests that, depending on the ges-
+tational time of infection, human infants with prenatal infec-
+tions would be born with fewer dopaminergic neurons than 
+non-exposed infants. This would be initially inconsequential, 
+as clinical signs of PD are not apparent until about 80% of 
+dopaminergic neurons are lost. However, this early-life dam-
+age would predispose an individual to develop PD as the aging 
+process brings along a normal progressive loss of dopaminer-
+gic neurons.164 Developmental exposures to certain pesticides, 
+such as the herbicide paraquat and the fungicide maneb, which 
+also target dopaminergic neurons, have also been implicated 
+in the later development of PD.165 Similarly, developmen-
+tal exposure to the now-banned organochlorine insecticide 
+dieldrin has been shown to cause long-lasting alterations of 
+the dopaminergic system, typical of a silent dopaminergic 
+dysfunction.166
+In several occasions, early mild damage may worsen as the 
+individual matures and ages. For instance, neurotoxic effects 
+of developmental exposure to MeHg may be unmasked only 
+during aging.167,168 In utero exposure to methylazoxymethanol, 
+which causes microencephaly, caused a premature decline in 
+cognitive functions,169 and the neurotoxic effects of neonatal 
+exposure of triethyltin, a glial neurotoxicant, were exacerbated 
+by aging.170 In other situations, this may not be the case, yet 
+the neurotoxic effects of developmental exposure appear to be 
+irreversible, and even if they do not worsen with age, they are 
+certainly long-lasting, as shown for example for PCB-126.171 
+Perturbations of cognitive functions due to developmental 
+Pb exposure remain for life,172 and perinatal Pb exposure has 
+been associated with the development of schizophrenia and 
+of Alzheimer’s disease.173–175 It has also been suggested that 
+exposure to Pb during critical periods of brain development 
+may alter expression and regulation of amyloid precursor pro-
+tein later in life, potentially altering the course of amyloido-
+genesis and acting as a risk factor for the onset of Alzheimer’s 
+disease-like pathology.174,176,177
+In addition to direct effects on neurons and glia in the ner-
+vous system, chemicals that act as endocrine disruptors can 
+also disrupt neurodevelopment. For example, polybromi-
+nated diphenyl ether flame retardants (PBDEs) are thought 
+to exert developmental neurotoxicity by two general, and not 
+mutually exclusive, modes of action, one related to effects 
+on thyroid hormones and the other involving direct effects 
+of PBDEs on the developing brain.153 Thyroid hormones are 
+known to play a relevant role in brain development,178 and 
+hypothyroidism is associated with a large number of neuro-
+anatomical and behavioral effects.179,180 PBDEs perturb the 
+thyroid system both during development and adulthood, lead-
+ing to a reduction of circulating thyroid hormone.181 The exact 
+mechanism(s) underlying these effects are unclear, but reduc-
+tion in thyroid hormones may contribute to developmental 
+neurotoxicity of PBDEs, although effects have also been seen 
+in the absence of thyroid hormone changes.182 Experimental 
+compounds such as propyl thiouracyl, which inhibits thyroid 
+hormone synthesis and causes hypothyroidisms, are clear 
+developmental neurotoxicants, as evidenced by behavioral 
+and morphological alterations in the CNS.180,183 Decreases 
+of T4 following developmental exposure to PBDEs or PCBs 
+range from 10% to 60%. Such decreases may well contribute 
+to their developmental neurotoxicity as evidenced by neuro-
+logical decrements observed in children of mothers with 25% 
+decrease in T4.179
+35.8  Drugs of Abuse
+There are many classes of “drugs” that have neuropharmaco-
+logical properties. In cases where these drugs are misused or 
+abused, they can result in severe toxicity to the system and 
+thus can be considered neurotoxicants. While they may exert 
+their toxicity in several organ systems, many of them have 
+mechanisms of action that interfere with the physiology of the 
+nervous system. Besides their primary actions, an additional 
+concern for many of these drugs of abuse is their use in combi-
+nation with other drugs or alcohol, which can often exacerbate 
+toxicity. Other concerns include long-term abuse, which can 
+lead to cognitive impairment, confusion, psychosis, coma and 
+death, and exposure during critical windows in brain devel-
+opment can result in altered development of brain circuitry. 
+For many of these drugs of abuse, the full toxicological pro-
+files are not worked out. While there are many and various
+
+1816
+Hayes’ Principles and Methods of Toxicology
+neurotoxicological consequences of drug exposure, the follow-
+ing section details the effects on neurotransmitters.
+Narcotics are usually used to treat pain, but according to the 
+National Institute on Drug Abuse, they are some of the most 
+highly abused prescription drugs.184 CNS depressants, pre-
+scribed to treat anxiety and sleep disorders, and stimulants are 
+also highly abused.184 Examples of narcotics include opium, 
+morphine (Avinza®), codeine, heroin, hydrocodone (e.g., 
+Vicodin®) and oxycodone (e.g., Percocet®). These drugs bind 
+to opioid receptors throughout the body and reduce the feel-
+ing of pain. For example, morphine and heroin are mu-opioid 
+agonists.185 These drugs, when used in combination with CNS 
+depressants, increase the risk of respiratory depression.
+Classical stimulants include nicotine, caffeine, cocaine 
+(coke, blow, crack) and amphetamines. Nicotine affects the 
+nicotinic cholinergic receptors.186 Cocaine works on the 
+dopaminergic system by blocking the dopamine reuptake 
+transporter.187 Amphetamines alter catecholamine neurotrans-
+mission both at the level of the transporter and by disrupting 
+vesicular storage of dopamine.188
+Depressants including alcohol, cannabinoids, barbitu-
+rates, benzodiazepines, gamma hydroxybutyric acid and 
+paraldehyde act by slowing down the activity of the CNS by 
+affecting neurotransmitters like GABA. They may also have 
+hallucinogenic effects. For example, benzodiazepines activate 
+a subset of GABAA receptors on ventral tegmental area inter-
+neurons, specifically the alpha-1 subtype, altering the dopa-
+mine effect.189 Marijuana, hashish and synthetic marijuana 
+(known as K2 or “spice”) exert their toxicity via tetrahydro-
+cannabinol, the main psychoactive ingredient, acting through 
+cannabinoid receptors.184
+Hallucinogens, including LSD (d-lysergic acid diethylam-
+ide), peyote and mescaline, psilocybin (mushrooms), phency-
+clidine (PCP), MDMA (Ecstasy) and other phenethylamines 
+affect the serotonergic system. LSD, peyote and psilocybin 
+disrupt the serotonergic system while PCP acts primarily on 
+the glutamatergic receptors. LSD has been shown to act as a 
+partial agonist of 5-HT2A and 5-HT1A receptors, with stron-
+ger effects through 5-HT2A.190,191 MDMA exerts its effects 
+on the serotonergic system by binding to the serotonin trans-
+porter, resulting in increased and prolonged serotonin sig-
+naling; it can also be taken up by the transporter and cause 
+release of serotonin.192,193 The same effects are seen in the 
+dopaminergic and norepinephrine systems, although to a 
+lesser extent.
+Inhalants, which can be any number of things that are deliv-
+ered via the nasal passages or the mouth, are categorized into 
+nitrites, gases, aerosols and volatile solvents.184 Some classic 
+examples include glue, lighters and markers. They can affect 
+many neurotransmitters through one of the primary acute 
+effects of hypoxia and through long-term effects including 
+myelin breakdown.
+The United States Department of Justice regulates these 
+drugs of abuse under the Controlled Substances Act, which 
+has five schedules for regulation, based on the substance’s 
+medical use, potential for abuse and safety or dependence 
+liability. Drugs that fall under Schedule I categorization are 
+those that have a high potential for abuse and have no cur-
+rently accepted medical use in treatment in the United States. 
+Examples include heroin, LSD and marijuana. Schedule II 
+includes those drugs that have a high potential for abuse, yet 
+have an accepted medical use in treatment but abuse may lead 
+to severe psychological or physical dependence, examples 
+include morphine, PCP, cocaine, methadone and metham-
+phetamine. Schedule III includes those substances that have 
+less potential for abuse than those in Schedules I and II, have 
+accepted medical uses in treatment and abuse may lead to 
+moderate or low physical dependence or high psychological 
+dependence. Examples include anabolic steroids and codeine. 
+Schedule IV substances have low potential for abuse com-
+pared to higher schedules.
+35.9  Summary
+In summary, the nervous system is a complex network of dif-
+ferentiated cells and signaling cascades, which are especially 
+vulnerable to both neuro-specific and global toxins and toxi-
+cants. Due to its complexity and unique vulnerability factors, 
+no two exposures to the nervous system are alike, with toxic 
+effects that may be seen immediately, only during develop-
+ment or later in life. For this reason, careful analysis of neuro-
+toxicity of a given agent should be assessed in a case-by-case 
+basis across multiple experimental models and exposure para-
+digms. With such a large list of known neurotoxins and the 
+even broader classes of potential neurotoxins, complete neuro-
+toxic profiles rarely exist. The use of multiple cell- and inver-
+tebrate-based systems and high-throughput arrays and screens 
+will prove indispensable in teasing out which chemicals and 
+compounds of which we should be most concerned.
+35.10  Questions
+	 35.1  What are functional consequences of altering 
+sodium homeostasis in a neuron?
+	 35.2  Why is it a common characteristic that mitochon-
+drial electron transport chain inhibitors and uncou-
+plers are neurotoxic?
+	 35.3  A new small molecule has been synthesized that is 
+structurally related to scopolamine, a known neu-
+rotoxin with anticholinergic activity found in the 
+Atropa belladonna (Deadly Nightshade) plant, and 
+you have been asked to assess its neurotoxic poten-
+tial. What would be the expected sites of action? 
+What kind of clinical symptoms would be seen in a 
+rat dosed with a high or a low concentration?
+	 35.4  It is observed that compound X causes abnormal 
+myelination in the PNS. How might it be deter-
+mined whether compound X causes demyelination 
+or interferes with remyelination?
+Acknowledgments
+Research by the authors was supported by grants from the 
+National Institutes of Health.
+
+1817
+Neurotoxicology
+REFERENCES
+	
+1.	 Guan B, Chen X, Zhang H. Two-electrode voltage clamp. 
+Methods Mol Biol. 2013;998. doi:10.1007/978-1-62703-351-0_6
+	
+2.	 Tukker AM, Bouwman LMS, van Kleef RGDM, Hendriks 
+HS, Legler J, Westerink RHS. Perfluorooctane sulfonate 
+(PFOS) and perfluorooctanoate (PFOA) acutely affect 
+human −1μ2ć2L GABAA receptor and spontaneous neu-
+ronal network function in vitro. Sci Rep. Published online 
+2020. doi:10.1038/s41598-020-62152-2
+	
+3.	 Hendriks HS, van Kleef RGDM, Westerink RHS. 
+Modulation of human −4μ2 nicotinic acetylcholine recep-
+tors by brominated and halogen-free flame retardants as a 
+measure for in vitro neurotoxicity. Toxicol Lett. Published 
+online 2012. doi:10.1016/j.toxlet.2012.06.013
+	
+4.	 Sakmann B, Neher E. Patch clamp techniques for studying 
+ionic channels in excitable membranes. Annu Rev Physiol. 
+1984;46(1):455–472. doi:10.1146/annurev.physiol.46.1.455
+	
+5.	 Authier S, Arezzo J, Delatte MS, et al. Safety pharmacol-
+ogy investigations on the nervous system: An industry sur-
+vey. J Pharmacol Toxicol Methods. Published online 2016. 
+doi:10.1016/j.vascn.2016.06.001
+	
+6.	 Grainger AI, King MC, Nagel DA, Parri HR, Coleman MD, 
+Hill EJ. In vitro models for seizure-liability testing using 
+induced pluripotent stem cells. Front Neurosci. Published 
+online 2018. doi:10.3389/fnins.2018.00590
+	
+7.	 Oliveira LF, Rodrigues LD, Cardillo GM, et al. 
+Deleterious effects of chronic mercury exposure on in 
+vitro LTP, memory process, and oxidative stress. Environ 
+Sci Pollut Res. Published online 2020. doi:10.1007/
+s11356-019-06625-6
+	
+8.	Lein PJ, Barnhart CD, Pessah IN. Acute hippocampal slice 
+preparation and hippocampal slice cultures. Methods Mol 
+Biol. Published online 2011. doi:10.1007/978-1-61779- 
+170-3_8
+	
+9.	 Johnstone AFM, Gross GW, Weiss DG, Schroeder OHU, 
+Gramowski A, Shafer TJ. Microelectrode arrays: A physi-
+ologically based neurotoxicity testing platform for the 
+21st century. Neurotoxicology. Published online 2010. 
+doi:10.1016/j.neuro.2010.04.001
+	 10.	 Robinette BL, Harrill JA, Mundy WR, Shafer TJ. In vitro 
+assessment of developmental neurotoxicity: Use of micro-
+electrode arrays to measure functional changes in neuronal 
+network ontogeny. Front Neuroeng. Published online 2011. 
+doi:10.3389/fneng.2011.00001
+	 11.	 Cotterill E, Hall D, Wallace K, Mundy WR, Eglen 
+SJ, Shafer TJ. Characterization of early cortical neu-
+ral network development in multiwell microelectrode 
+array plates. J Biomol Screen. Published online 2016. 
+doi:10.1177/1087057116640520
+	 12.	 Hondebrink L, Verboven AHA, Drega WS, et al. 
+Neurotoxicity screening of (illicit) drugs using novel meth-
+ods for analysis of microelectrode array (MEA) recordings. 
+Neurotoxicology. Published online 2016. doi:10.1016/j.
+neuro.2016.04.020
+	 13.	 Nicolas J, Hendriksen PJM, van Kleef RGDM, et al. 
+Detection of marine neurotoxins in food safety testing 
+using a multielectrode array. Mol Nutr Food Res. Published 
+online 2014. doi:10.1002/mnfr.201400479
+	 14.	 Bradley JA, Luithardt HH, Metea MR, Strock CJ. In vitro 
+screening for seizure liability using microelectrode array 
+technology. Toxicol Sci. Published online 2018. doi:10.1093/
+toxsci/kfy029
+	 15.	 Dingemans MML, Schütte MG, Wiersma DMM, et al. 
+Chronic 14-day exposure to insecticides or methylmercury 
+modulates neuronal activity in primary rat cortical cul-
+tures. Neurotoxicology. Published online 2016. doi:10.1016/j.
+neuro.2016.10.002
+	 16.	 Strickland JD, Martin MT, Richard AM, Houck KA, Shafer 
+TJ. Screening the ToxCast phase II libraries for alterations 
+in network function using cortical neurons grown on multi-
+well microelectrode array (mwMEA) plates. Arch Toxicol. 
+Published online 2018. doi:10.1007/s00204-017-2035-5
+	 17.	 Odawara A, Katoh H, Matsuda N, Suzuki I. Physiological 
+maturation and drug responses of human induced pluripo-
+tent stem cell-derived cortical neuronal networks in long-
+term culture. Sci Rep. 2016;6. doi:10.1038/srep26181
+	 18.	 Tukker AM, De Groot MWGDM, Wijnolts FMJ, Kasteel EEJ, 
+Hondebrink L, Westerink RHS. Is the time right for in vitro 
+neurotoxicity testing using human iPSC-derived neurons? 
+ALTEX. 2016;33(3):261–271. doi:10.14573/altex.1510091
+	 19.	 Sasaki T, Suzuki I, Yokoi R, Sato K, Ikegaya Y. Synchronous 
+spike patterns in differently mixed cultures of human iPSC-
+derived glutamatergic and GABAergic neurons. Biochem 
+Biophys Res Commun. Published online April 4, 2019. 
+doi:10.1016/J.BBRC.2019.03.161
+	 20.	 Ishii MN, Yamamoto K, Shoji M, Asami A, Kawamata Y. 
+Human induced pluripotent stem cell (hiPSC)-derived neu-
+rons respond to convulsant drugs when co-cultured with 
+hiPSC-derived astrocytes. Toxicology. 2017;389:130–138. 
+doi:10.1016/j.tox.2017.06.010
+	 21.	 Odawara A, Saitoh Y, Alhebshi AH, Gotoh M, Suzuki I. 
+Long-term electrophysiological activity and pharmacological 
+response of a human induced pluripotent stem cell-derived neu-
+ron and astrocyte co-culture. Biochem Biophys Res Commun. 
+2014;443(4):1176–1181. doi:10.1016/j.bbrc.2013.12.142
+	 22.	 Tukker AM, Wijnolts FMJ, de Groot A, Westerink RHS. 
+Human iPSC-derived neuronal models for in vitro neuro-
+toxicity assessment. Neurotoxicology. 2018;67:215–225. 
+doi:10.1016/J.NEURO.2018.06.007
+	 23.	 Tukker AM, Van Kleef RGDM, Wijnolts FMJ, De Groot A, 
+Westerink RHS. Towards animal-free neurotoxicity screen-
+ing: Applicability of hiPSC-derived neuronal models for in 
+vitro seizure liability assessment. ALTEX. 2020;37(1):121–
+135. doi:10.14573/altex.1907121
+	 24.	 Odawara A, Matsuda N, Ishibashi Y, Yokoi R, Suzuki I. 
+Toxicological evaluation of convulsant and anticonvulsant 
+drugs in human induced pluripotent stem cell-derived cor-
+tical neuronal networks using an MEA system. Sci Rep. 
+2018;8(1):10416. doi:10.1038/s41598-018-28835-7
+	 25.	 Tukker AM, Wijnolts FMJ, de Groot A, Westerink RHS. 
+Applicability of hiPSC-derived neuronal co-cultures and 
+rodent primary cortical cultures for in vitro seizure liability 
+assessment. Toxicol Sci. Published online August 31, 2020. 
+doi:10.1093/toxsci/kfaa136
+	 26.	 Rand MD. Drosophotoxicology: The growing potential 
+for Drosophila in neurotoxicology. Neurotoxicol Teratol. 
+Published online 2010. doi:10.1016/j.ntt.2009.06.004
+
+1818
+Hayes’ Principles and Methods of Toxicology
+	 27.	 Caito S, Fretham S, Martinez-Finley E, et al. Genome-
+wide analyses of metal responsive genes in Caenorhabditis 
+elegans. Front Genet. Published online 2012. doi:10.3389/
+fgene.2012.00052
+	 28.	 Tierney KB. Behavioural assessments of neurotoxic effects 
+and neurodegeneration in zebrafish. Biochim Biophys 
+Acta - Mol Basis Dis. Published online 2011. doi:10.1016/j.
+bbadis.2010.10.011
+	 29.	 Sammi SR, Foguth RM, Nieves CS, et al. Perfluorooctane 
+sulfonate (PFOS) produces dopaminergic neuropathology 
+in caenorhabditis elegans. Toxicol Sci. Published online 
+2019. doi:10.1093/toxsci/kfz191
+	 30.	 Wasel O, Freeman JL. Chemical and genetic zebrafish 
+models to define mechanisms of and treatments for dopami-
+nergic neurodegeneration. Int J Mol Sci. Published online 
+2020. doi:10.3390/ijms21175981
+	 31.	 Wages PA, Joshi P, Tallman KA, Kim HYH, Bowman 
+AB, Porter NA. Screening toxcastTM for chemicals that 
+affect cholesterol biosynthesis: Studies in cell culture and 
+human induced pluripotent stem cell–derived neuropro-
+genitors. Environ Health Perspect. Published online 2020. 
+doi:10.1289/EHP5053
+	 32.	 Prince LM, Aschner M, Bowman AB. Human-induced 
+pluripotent stems cells as a model to dissect the selec-
+tive neurotoxicity of methylmercury. Biochim Biophys 
+Acta—Gen Subj. Published online 2019. doi:10.1016/j.
+bbagen.2019.02.002
+	 33.	 Neely MD, Davison CA, Aschner M, Bowman AB. 
+Manganese and rotenone-induced oxidative stress signatures 
+differ in iPSC-derived human dopamine neurons. Toxicol 
+Sci. Published online 2017. doi:10.1093/toxsci/kfx145
+	 34.	 Kamata S, Hashiyama R, Hana-ika H, et al. Cytotoxicity 
+comparison of 35 developmental neurotoxicants in human 
+induced pluripotent stem cells (iPSC), iPSC-derived neural 
+progenitor cells, and transformed cell lines. Toxicol Vitr. 
+Published online 2020. doi:10.1016/j.tiv.2020.104999
+	 35.	 Pistollato F, De Gyves EM, Carpi D, et al. Assessment of 
+developmental neurotoxicity induced by chemical mix-
+tures using an adverse outcome pathway concept. Environ 
+Heal A Glob Access Sci Source. Published online 2020. 
+doi:10.1186/s12940-020-00578-x
+	 36.	 Novosadova E, Antonov S, Arsenyeva E, et al. 
+Neuroprotective and neurotoxic effects of endocannab-
+inoid-like compounds, N-arachidonoyl dopamine and 
+N-docosahexaenoyl dopamine in differentiated cultures of 
+induced pluripotent stem cells derived from patients with 
+Parkinson’s disease. Neurotoxicology. Published online 
+2021. doi:10.1016/j.neuro.2020.11.010
+	 37.	 Joshi P, Bodnya C, Ilieva I, Neely MD, Aschner M, 
+Bowman AB. Huntington’s disease associated resistance to 
+Mn neurotoxicity is neurodevelopmental stage and neuro-
+nal lineage dependent. Neurotoxicology. Published online 
+2019. doi:10.1016/j.neuro.2019.09.007
+	 38.	 Zwartsen A, Litjens CHC, Hondebrink L, et al. Differential 
+effects of psychoactive substances on human wild-
+type and polymorphic T356M dopamine transporters 
+(DAT). Toxicology. Published online 2019. doi:10.1016/j.
+tox.2019.04.012
+	 39.	 de Giorgi A, Fabbian F, Pala M, et al. Cocaine and acute 
+vascular diseases. Curr Drug Abuse Rev. Published online 
+2012. doi:10.2174/1874473711205020129
+	 40.	 Peter ALJ, Viraraghavan T. Thallium: A review of public 
+health and environmental concerns. Environ Int. Published 
+online 2005. doi:10.1016/j.envint.2004.09.003
+	 41.	 Bacon P, Spalton DJ, Smith SE. Blindness from quinine tox-
+icity. Br J Ophthalmol. Published online 1988. doi:10.1136/
+bjo.72.3.219
+	 42.	 Singh A, Samson R, Girdhar A. Portrait of a methanol-
+intoxicated brain. Am J Med. Published online 2011. 
+doi:10.1016/j.amjmed.2010.09.001
+	 43.	 De Olmos JS, Beltramino CA, De Olmos De Lorenzo S. Use 
+of an amino-cupric-silver technique for the detection of early 
+and semiacute neuronal degeneration caused by neurotoxi-
+cants, hypoxia, and physical trauma. Neurotoxicol Teratol. 
+Published online 1994. doi:10.1016/0892-0362(94)90033-7
+	 44.	 Mu Y, Gage FH. Adult hippocampal neurogenesis and its 
+role in Alzheimer’s disease. Mol Neurodegener. Published 
+online 2011. doi:10.1186/1750-1326-6-85
+	 45.	 Chow ESH, Hui MNY, Lin CC, Cheng SH. Cadmium 
+inhibits neurogenesis in zebrafish embryonic brain develop-
+ment. Aquat Toxicol. Published online 2008. doi:10.1016/j.
+aquatox.2008.01.019
+	 46.	 Faustman EM, Ponce RA, Ou YC, Mendoza MAC, 
+Lewandowski T, Kavanagh T. Investigations of methylmer-
+cury-induced alterations in neurogenesis. Environ Health 
+Perspect. Published online 2002. doi:10.1289/ehp.02110s5859
+	 47.	 Jang YJ, Park HR, Kim TH, et al. High dose bisphe-
+nol A impairs hippocampal neurogenesis in female mice 
+across generations. Toxicology. Published online 2012. 
+doi:10.1016/j.tox.2012.03.007
+	 48.	 Latchney SE, Lioy DT, Henry EC, et al. Neural precur-
+sor cell proliferation is disrupted through activation of the 
+aryl hydrocarbon receptor by 2,3,7,8-tetrachlorodibenzo-p-
+dioxin. Stem Cells Dev. Published online 2011. doi:10.1089/
+scd.2009.0529
+	 49.	 Nixon K, Morris SA, Liput DJ, Kelso ML. Roles of neural 
+stem cells and adult neurogenesis in adolescent alcohol use 
+disorders. Alcohol. Published online 2010. doi:10.1016/j.
+alcohol.2009.11.001
+	 50.	 Cho JH, Kim AH, Lee S, et al. Sensitive neurotoxicity 
+assessment of bisphenol A using double immunocyto-
+chemistry of DCX and MAP2. Arch Pharm Res. Published 
+online 2018. doi:10.1007/s12272-018-1077-4
+	 51.	 Edoff K, Raciti M, Moors M, Sundström E, Ceccatelli 
+S. Gestational age and sex influence the susceptibil-
+ity of human neural progenitor cells to low levels of 
+MeHg. Neurotox Res. Published online 2017. doi:10.1007/
+s12640-017-9786-x
+	 52.	 Fujimura M, Usuki F. Low concentrations of methylmercury 
+inhibit neural progenitor cell proliferation associated with 
+up-regulation of glycogen synthase kinase 3μ and subsequent 
+degradation of cyclin E in rats. Toxicol Appl Pharmacol. 
+Published online 2015. doi:10.1016/j.taap.2015.07.006
+	 53.	 Yin Z, Jiang H, Syversen T, Rocha JBT, Farina M, 
+Aschner 
+M. 
+The 
+methylmercury-L-cysteine 
+conju-
+gate is a substrate for the L-type large neutral amino 
+acid transporter. J Neurochem. Published online 2008. 
+doi:10.1111/j.1471-4159.2008.05683.x
+	 54.	 Zheng W, Aschner M, Ghersi-Egea JF. Brain barrier 
+systems: A new frontier in metal neurotoxicological 
+research. Toxicol Appl Pharmacol. Published online 2003. 
+doi:10.1016/S0041-008X(03)00251-5
+
+1819
+Neurotoxicology
+	 55.	 Markovac J, Goldstein GW. Picomolar concentrations of 
+lead stimulate brain protein kinase C. Nature. Published 
+online 1988. doi:10.1038/334071a0
+	 56.	 Zheng W, Shen H, Blaner WS, Zhao Q, Ren X, Graziano 
+JH. Chronic lead exposure alters transthyretin concen-
+tration in rat cerebrospinal fluid: The role of the choroid 
+plexus. Toxicol Appl Pharmacol. Published online 1996. 
+doi:10.1006/taap.1996.0186
+	 57.	 Huang LS, Sun G, Cobessi D, et al. 3-Nitropropionic acid 
+is a suicide inhibitor of mitochondrial respiration that, 
+upon oxidation by complex II, forms a covalent adduct with 
+a catalytic base arginine in the active site of the enzyme. 
+J Biol Chem. Published online 2006. doi:10.1074/jbc.
+M511270200
+	 58.	 Beal MF, Brouillet E, Jenkins BG, et al. Neurochemical 
+and histologic characterization of striatal excitotoxic 
+lesions produced by the mitochondrial toxin 3-nitropropi-
+onic acid. J Neurosci. Published online 1993. doi:10.1523/
+jneurosci.13-10-04181.1993
+	 59.	 Baranowska-Bosiacka I, Gutowska I, Marchetti C, et al. 
+Altered energy status of primary cerebellar granule neuro-
+nal cultures from rats exposed to lead in the pre- and neona-
+tal period. Toxicology. Published online 2011. doi:10.1016/j.
+tox.2010.11.004
+	 60.	 Dwivedi N, Mehta A, Yadav A, Binukumar BK, 
+Gill KD, Flora SJS. MiADMSA reverses impaired 
+mitochondrial energy metabolism and neuronal apop-
+totic cell death after arsenic exposure in rats. Toxicol 
+Appl Pharmacol. Published online 2011. doi:10.1016/j.
+taap.2011.04.004
+	 61.	 Gorman D, Drewry A, Huang YL, Sames C. The clini-
+cal toxicology of carbon monoxide. Toxicology. Published 
+online 2003. doi:10.1016/S0300-483X(03)00005-2
+	 62.	 Benz FW, Nerland DE. Effect of cytochrome P450 inhibi-
+tors and anticonvulsants on the acute toxicity of acrylo-
+nitrile. Arch Toxicol. Published online 2005. doi:10.1007/
+s00204-005-0667-3
+	 63.	 Campian EC, Benz FW. The acute lethality of acrylonitrile 
+is not due to brain metabolic arrest. Toxicology. Published 
+online 2008. doi:10.1016/j.tox.2008.08.019
+	 64.	 Flores G, Buhler DR. Hemolytic properties of hexachloro-
+phene and related chlorinated bisphenols. Biochem Pharmacol. 
+Published online 1974. doi:10.1016/0006-2952(74)90192-0
+	 65.	 van der Lugt JJ, Venter I. Myelin Vacuolation, Optic neu-
+ropathy and retinal degeneration after closantel overdosage 
+in sheep and in a goat. J Comp Pathol. Published online 
+2007. doi:10.1016/j.jcpa.2006.11.007
+	 66.	 Veronesi B, Jones K, Gupta S, Pringle J, Mezei C. Myelin 
+basic protein-messenger RNA (MBP-mRNA) expression 
+during triethyltin-induced myelin edema. Neurotoxicology. 
+Published online 1991.
+	 67.	 Anderson TD, Davidovich A, Feldman D, et al. Mitochondrial 
+schwannopathy and peripheral myelinopathy in a rab-
+bit model of dideoxycytidine neurotoxicity. Lab Investig. 
+Published online 1994.
+	 68.	 Hoffmann K, Lindner M, Gröticke I, Stangel M, 
+Löscher W. Epileptic seizures and hippocampal dam-
+age after cuprizone-induced demyelination in C57BL/6 
+mice. Exp Neurol. Published online 2008. doi:10.1016/j.
+expneurol.2007.11.005
+	 69.	 Valentine HL, Viquez OM, Amarnath K, et al. Nitrogen sub-
+stituent polarity influences dithiocarbamate-mediated lipid 
+oxidation, nerve copper accumulation, and myelin injury. 
+Chem Res Toxicol. Published online 2009. doi:10.1021/
+tx8003714
+	 70.	 Paez PM, Cheli VT, Ghiani CA, Spreuer V, Handley VW, 
+Campagnoni AT. Golli myelin basic proteins stimulate 
+oligodendrocyte progenitor cell proliferation and differen-
+tiation in remyelinating adult mouse brain. Glia. Published 
+online 2012. doi:10.1002/glia.22336
+	 71.	 Kawabata S, Takano M, Numasawa-Kuroiwa Y, et al. 
+Grafted human iPS cell-derived oligodendrocyte precur-
+sor cells contribute to robust remyelination of demyelinated 
+axons after spinal cord injury. Stem Cell Reports. Published 
+online 2016. doi:10.1016/j.stemcr.2015.11.013
+	 72.	 Eyster KM. New paradigms in signal transduction. 
+Biochem Pharmacol. Published online 2007. doi:10.1016/j.
+bcp.2006.10.006
+	 73.	 Eyster KM. Introduction to signal transduction. A primer 
+for untangling the web of intracellular messengers. 
+Biochem Pharmacol. Published online 1998. doi:10.1016/
+S0006-2952(98)00027-6
+	 74.	 Smrcka AV. G protein μć subunits: Central mediators of 
+G protein-coupled receptor signaling. Cell Mol Life Sci. 
+Published online 2008. doi:10.1007/s00018-008-8006-5
+	 75.	 Fernandez AM, Torres-Alemán I. The many faces of insu-
+lin-like peptide signalling in the brain. Nat Rev Neurosci. 
+Published online 2012. doi:10.1038/nrn3209
+	 76.	 D’Ercole AJ, Ye P, Calikoglu AS, Gutierrez-Ospina G. The 
+role of the insulin-like growth factors in the central nervous 
+system. Mol Neurobiol. Published online 1996. doi:10.1007/
+BF02740625
+	 77.	 Child ND, Benarroch EE. MTOR: Its role in the ner-
+vous system and involvement in neurologic dis-
+ease. Neurology. Published online 2014. doi:10.1212/
+WNL.0000000000000922
+	 78.	 Swiech L, Perycz M, Malik A, Jaworski J. Role of mTOR in 
+physiology and pathology of the nervous system. Biochim 
+Biophys Acta - Proteins Proteomics. Published online 
+2008. doi:10.1016/j.bbapap.2007.08.015
+	 79.	 Wymann MP, Zvelebil M, Laffargue M. Phosphoinositide 
+3-kinase signalling - Which way to target? Trends 
+Pharmacol Sci. Published online 2003. doi:10.1016/
+S0165-6147(03)00163-9
+	 80.	 Moncada S, Palmer RMJ, Higgs EA. Nitric oxide: 
+Physiology, pathophysiology, and pharmacology. Pharmacol 
+Rev. Published online 1991.
+	 81.	 Southam E, Garthwaite J. The nitric oxide-cyclic GMP 
+signalling pathway in rat brain. Neuropharmacology. 
+Published online 1993. doi:10.1016/0028-3908(93)90021-T
+	 82.	 Moncada S, Bolaños JP. Nitric oxide, cell bioenergetics and 
+neurodegeneration. J Neurochem. Published online 2006. 
+doi:10.1111/j.1471-4159.2006.03988.x
+	 83.	 Calabrese V, Mancuso C, Calvani M, Rizzarelli E, Butterfield 
+DA, Giuffrida Stella AM. Nitric oxide in the central ner-
+vous system: Neuroprotection versus neurotoxicity. Nat Rev 
+Neurosci. Published online 2007. doi:10.1038/nrn2214
+	 84.	 Thomas DD, Ridnour LA, Isenberg JS, et al. The chemical 
+biology of nitric oxide: Implications in cellular signaling. 
+Free Radic Biol Med. Published online 2008. doi:10.1016/j.
+freeradbiomed.2008.03.020
+
+1820
+Hayes’ Principles and Methods of Toxicology
+	 85.	 Costa LG. The phosphoinositide/protein kinase C system 
+as a potential target for neurotoxicity. Pharmacol Res. 
+Published online 1990. doi:10.1016/1043-6618(90)90747-2
+	 86.	 Costa LG. Signal transduction mechanisms in develop-
+mental neurotoxicity: The phosphoinositide pathway. 
+NeuroToxicology; 1994, 15(1): 19–27.
+	 87.	 Costa LG. Signal transduction in environmental neurotox-
+icity. Annu Rev Pharmacol Toxicol. Published online 1998. 
+doi:10.1146/annurev.pharmtox.38.1.21
+	 88.	 Costa LG, Giordano G, Guizzetti M. Cell signaling and neu-
+rotoxicity. In: Philbert M, ed. Comprehensive Toxicology. 
+2nd edition. Oxford: Elsevier; 2010: 89–100.
+	 89.	 Costa LG, Guizzetti M, Lu H, et al. Intracellular signal trans-
+duction pathways as targets for neurotoxicants. Toxicology. 
+Published online 2001. doi:10.1016/S0300-483X(00)00435-2
+	 90.	 Miodovnik A. Environmental neurotoxicants and devel-
+oping brain. Mt Sinai J Med. Published online 2011. 
+doi:10.1002/msj.20237
+	 91.	 Needleman HL, Gunnoe C, Leviton A, et al. Deficits in psy-
+chologic and classroom performance of children with ele-
+vated dentine lead levels. N Engl J Med. Published online 
+1979. doi:10.1056/nejm197903293001301
+	 92.	 Lanphear BP, Hornung R, Khoury J, et al. Low-level envi-
+ronmental lead exposure and children’s intellectual func-
+tion: An international pooled analysis. Environ Health 
+Perspect. Published online 2005. doi:10.1289/ehp.7688
+	 93.	 Gilbert SG, Weiss B. A rationale for lowering the blood lead 
+action level from 10 to 2 ōg/dL. Neurotoxicology. Published 
+online 2006. doi:10.1016/j.neuro.2006.06.008
+	 94.	 Davis JM, Otto DA, Weil DE, Grant LD. The compara-
+tive developmental neurotoxicity of lead in humans and 
+animals. Neurotoxicol Teratol. Published online 1990. 
+doi:10.1016/0892-0362(90)90093-R
+	 95.	 Bull RJ, McCauley PT, Taylor DH, Croften KM. The effects 
+of lead on the developing central nervous system of the rat. 
+Neurotoxicology. Published online 1983.
+	 96.	 Oberto A, Marks N, Evans HL, Guidotti A. Lead (Pb++) 
+promotes apoptosis in newborn rat cerebellar neu-
+rons: Pathological implications. J Pharmacol Exp Ther. 
+Published online 1996. doi:10.1163/2211730x96x00234
+	 97.	 Gebhart AM, Goldstein GW. Use of an in vitro system to 
+study the effects of lead on astrocyte-endothelial cell inter-
+actions: A model for studying toxic injury to the blood-
+brain barrier. Toxicol Appl Pharmacol. Published online 
+1988. doi:10.1016/0041-008X(88)90261-X
+	 98.	 Finkelstein Y, Markowitz ME, Rosen JF. Low-level lead-
+induced neurotoxicity in children: An update on central 
+nervous system effects. Brain Res Rev. Published online 
+1998. doi:10.1016/S0165-0173(98)00011-3
+	 99.	 Simons TJB. Lead-calcium interactions in cellular lead tox-
+icity. Neurotoxicology. Published online 1993.
+	100.	 Goldstein GW. Evidence that lead acts as a calcium sub-
+stitute in second messenger metabolism. Neurotoxicology. 
+Published online 1993.
+	101.	 Markovac J, Goldstein GW. Lead activates protein kinase C 
+in immature rat brain microvessels. Toxicol Appl Pharmacol. 
+Published online 1988. doi:10.1016/0041-008X(88)90242-6
+	102.	 Long GJ, Rosen JF, Schanne FAX. Lead activation of pro-
+tein kinase C from rat brain. Determination of free calcium, 
+lead, and zinc by 19F NMR. J Biol Chem. Published online 
+1994. doi:10.1016/s0021-9258(17)42188-0
+	103.	 Tomsig JL, Suszkiw JB. Multisite interactions between Pb2+ 
+and protein kinase C and its role in norepinephrine release 
+from bovine adrenal chromaffin cells. J Neurochem. Published 
+online 1995. doi:10.1046/j.1471-4159.1995.64062667.x
+	104.	 Sun X, Tian X, Tomsig JL, Suszkiw JB. Analysis of differ-
+ential effects of Pb2+ on protein kinase C isozymes. Toxicol 
+Appl Pharmacol. Published online 1999. doi:10.1006/
+taap.1999.8622
+	105.	 Murakami K, Feng G, Shu Guang Chen. Inhibition of brain 
+protein kinase C subtypes by lead. J Pharmacol Exp Ther. 
+Published online 1993.
+	106.	 Laterra J, Dressler JP, Inourti RR, Belloni-Olivi L, 
+Goldstein GW. Inhibition of astroglia-induced endothe-
+lial differentiation by inorganic lead: A role for protein 
+kinase C. Proc Natl Acad Sci U S A. Published online 1992. 
+doi:10.1073/pnas.89.22.10748
+	107.	 Shao Z, Suszkiw JB. Ca2+‐surrogate action of Pb2+ on ace-
+tylcholine release from rat brain synaptosomes. J Neurochem. 
+Published online 1991. doi:10.1111/j.1471-4159.1991.tb08187.x
+	108.	 Bressler JP, Belloni-Olivi L, Forman S, Goldstein GW. 
+Distinct mechanisms of neurotransmitter release from PC 12 
+cells exposed to lead. J Neurosci Res. Published online 1996. 
+doi:10.1002/(SICI)1097-4547(19961215)46:6<678::AID-
+JNR5>3.0.CO;2-C
+	109.	 Chen HH, Ma T, Ho IK. Protein kinase C in rat brain is 
+altered by developmental lead exposure. Neurochem Res. 
+Published online 1999. doi:10.1023/A:1020993802239
+	110.	 Nihei MK, McGlothan JL, Toscano CD, Guilarte TR. Low 
+level Pb2+ exposure affects hippocampal protein kinase 
+Cć gene and protein expression in rats. Neurosci Lett. 
+Published online 2001. doi:10.1016/S0304-3940(00)01741-9
+	111.	 Kim KA, Chakraborti T, Goldstein G, Johnston M, Bressler 
+J. Exposure to lead elevates induction of ZIF268 and ARC 
+mRNA in rats after electroconvulsive shock: The involve-
+ment of protein kinase C. J Neurosci Res. Published online 
+2002. doi:10.1002/jnr.10296
+	112.	 Lu H, Guizzetti M, Costa LG. Inorganic lead stimulates 
+DNA synthesis in human astrocytoma cells: Role of pro-
+tein kinase C−. J Neurochem. Published online 2001. 
+doi:10.1046/j.1471-4159.2001.00434.x
+	113.	 Hailing LU, Guizzetti M, Costa LG. Inorganic lead acti-
+vates the mitogen-activated protein kinase kinase-mitogen-
+activated protein kinase-p90RSK signaling pathway in 
+human astrocytoma cells via a protein kinase C-dependent 
+mechanism. J Pharmacol Exp Ther. Published online 2002. 
+doi:10.1124/jpet.300.3.818
+	114.	 WHO. Environmental health criteria 165: Inorganic lead. 
+Environ Heal Criteria. Published online 1995. doi:10.1016/
+s0031-3025(16)35080-2
+	115.	 Anttila A, Heikkilä P, Nykyri E, et al. Risk of nervous 
+system cancer among workers exposed to lead. J Occup 
+Environ Med. Published online 1996. doi:10.1097/00043 
+764-199602000-00010
+	116.	 Bayer SA, Altman J, Russo RJ, Zhang X. Timetables of 
+neurogenesis in the human brain based on experimentally 
+determined patterns in the rat. Neurotoxicology. Published 
+online 1993.
+	117.	 Rodier PM. Vulnerable periods and processes during cen-
+tral nervous system development. Environmental Health 
+Perspectives; 1994. doi:10.1289/ehp.94102121
+
+1821
+Neurotoxicology
+	118.	 Costa LG, Aschner M, Vitalone A, Syversen T, Soldin OP. 
+Developmental neuropathology of environmental agents. 
+Annu Rev Pharmacol Toxicol. Published online 2004. 
+doi:10.1146/annurev.pharmtox.44.101802.121424
+	119.	 Rodier PM. Developing brain as a target of toxicity. 
+Environmental Health Perspectives; 1995. doi:10.1289/
+ehp.95103s673
+	120.	 Nguyen L, Rigo JM, Rocher V, et al. Neurotransmitters as early 
+signals for central nervous system development. Cell Tissue 
+Res. Published online 2001. doi:10.1007/s004410000343
+	121.	 Johnson EM, Deckwerth TL. Molecular mechanisms of 
+developmental neuronal death. Annu Rev Neurosci. Published 
+online 1993. doi:10.1146/annurev.ne.16.030193.000335
+	122.	 Ikonomidou C, Bittigau P, Koch C, et al. Neurotransmitters 
+and apoptosis in the developing brain. Biochem Pharmacol. 
+Published online 2001. doi:10.1016/S0006-2952(01)00696-7
+	123.	 Webb SJ, Monk CS, Nelson CA. Mechanisms of postna-
+tal neurobiological development: Implications for human 
+development. Dev Neuropsychol. Published online 2001. 
+doi:10.1207/S15326942DN1902_2
+	124.	 Aschner M, Costa LG. The Role of Glia in Neurotoxicity. 
+2nd edition. CRC Press: Boca Raton, FL; 2004.
+	125.	 Garcia SJ, Seidler FJ, Slotkin TA. Developmental neurotox-
+icity of chlorpyrifos: Targeting glial cells. Environmental 
+Toxicology and Pharmacology; 2005. doi:10.1016/j.
+etap.2004.12.007
+	126.	 Dwyer JB, Broide RS, Leslie FM. Nicotine and brain devel-
+opment. Birth Defects Res Part C - Embryo Today Rev. 
+Published online 2008. doi:10.1002/bdrc.20118
+	127.	 OECD. Test No. 426: Developmental Neurotoxicity 
+Study, OECD Guidelines for the Testing of Chemicals, 
+Section 4; 2007. OECD Publishing: Paris. doi: 10.1787/ 
+9789264067394-en
+	128.	 EPA. Health Effects Test Guidlines. OPPTS 870.6300. 
+Developmental Neurotoxicity Study; 1998 EPA Research 
+Triangle, NC.
+	129.	 Makris SL, Raffaele K, Allen S, et al. A retrospective 
+performance assessment of the developmental neurotoxic-
+ity study in support of OECD test guideline 426. Environ 
+Health Perspect. Published online 2009. doi:10.1289/
+ehp.11447
+	130.	 Claudio L, Kwa WC, Russell AL, Wallinga D. Testing 
+methods for developmental neurotoxicity of environmen-
+tal chemicals. Toxicol Appl Pharmacol. Published online 
+2000. doi:10.1006/taap.2000.8890
+	131.	 Cory-Slechta DA, Crofton KM, Foran JA, et al. Methods 
+to identify and characterize developmental neurotox-
+icity for human health risk assessment. I: Behavioral 
+effects. Environ Health Perspect. Published online 2001. 
+doi:10.1289/ehp.01109s179
+	132.	 Li 
+AA. 
+Regulatory 
+developmental 
+neurotoxicology 
+testing: Data evaluation for risk assessment purposes. 
+Environmental Toxicology and Pharmacology; 2005. 
+doi:10.1016/j.etap.2004.12.030
+	133.	 Kaufmann W. Current status of developmental neurotox-
+icity: An industry perspective. Toxicology Letters; 2003. 
+doi:10.1016/S0378-4274(02)00503-9
+	134.	 Costa LG, Giordano G, Guizzetti M. Predictive models for 
+neurotoxicity assessment. In: Xu J, Urban L, eds. Predictive 
+Toxicology in Drug Safety. Cambridge University Press: 
+Cambridge; 2011: 135–152.
+	135.	 Grandjean P, Landrigan P. Developmental neurotoxicity 
+of industrial chemicals. Lancet. Published online 2006. 
+doi:10.1016/S0140-6736(06)69665-7
+	136.	 Grandjean P, Landrigan PJ. Neurobehavioural effects of 
+developmental toxicity. Lancet Neurol. Published online 
+2014. doi:10.1016/S1474-4422(13)70278-3
+	137.	 Clarkson TW, Magos L. The toxicology of mercury and its 
+chemical compounds. Crit Rev Toxicol. Published online 
+2006. doi:10.1080/10408440600845619
+	138.	 Castoldi AF, Johansson C, Onishchenko N, et al. Human 
+developmental neurotoxicity of methylmercury: Impact of 
+variables and risk modifiers. Regul Toxicol Pharmacol. 
+Published online 2008. doi:10.1016/j.yrtph.2008.01.016
+	139.	 Castoldi AF, Onishchenko N, Johansson C, et al. 
+Neurodevelopmental toxicity of methylmercury: Laboratory 
+animal data and their contribution to human risk assess-
+ment. Regul Toxicol Pharmacol. Published online 2008. 
+doi:10.1016/j.yrtph.2008.03.005
+	140.	 Wells EM, Kopylev L, Nachman R, Radke EG, Segal D. 
+Seafood, wine, rice, vegetables, and other food items asso-
+ciated with mercury biomarkers among seafood and non-
+seafood consumers: NHANES 2011–2012. J Expo Sci 
+Environ Epidemiol. Published online 2020. doi:10.1038/
+s41370-020-0206-6
+	141.	 Syversen T, Kaur P. The toxicology of mercury and its com-
+pounds. J Trace Elem Med Biol. Published online 2012. 
+doi:10.1016/j.jtemb.2012.02.004
+	142.	 Grandjean P, Herz KT. Methylmercury and brain develop-
+ment: Imprecision and underestimation of developmental 
+neurotoxicity in humans. Mt Sinai J Med. Published online 
+2011. doi:10.1002/msj.20228
+	143.	 Harada M. Minamata disease: Methylmercury poisoning in 
+Japan caused by environmental pollution. Crit Rev Toxicol. 
+Published online 1995. doi:10.3109/10408449509089885
+	144.	 Bakir F, Damluji SF, Amin-Zaki L, et al. Methylmercury 
+poisoning in Iraq. Science (80). Published online 1973. 
+doi:10.1126/science.181.4096.230
+	145.	 Takeuchi T. Pathology of Minamata disease. With special 
+reference to its pathogenesis. Acta Pathol Jpn. Published 
+online 1982.
+	146.	 Burbacher TM, Rodier PM, Weiss B. Methylmercury devel-
+opmental neurotoxicity: A comparison of effects in humans 
+and animals. Neurotoxicol Teratol. Published online 1990. 
+doi:10.1016/0892-0362(90)90091-P
+	147.	 Kjellström T, Kennedy P, Wallis S, et al. Physical and 
+Mental Development of Children with Prenatal Exposure to 
+Mercury from Fish: Stage 2, Interviews and Psychological 
+Tests at Age 6; 1989. Rapport: Naturvaardsverket, no. 
+3642.
+	148.	 Myers GJ, Davidson PW, Cox C, et al. Prenatal methyl-
+mercury exposure from ocean fish consumption in the 
+Seychelles child development study. Lancet. Published 
+online 2003. doi:10.1016/S0140-6736(03)13371-5
+	149.	 Grandjean P, Weihe P, White RF, et al. Cognitive deficit 
+in 7-year-old children with prenatal exposure to methyl-
+mercury. Neurotoxicol Teratol. Published online 1997. 
+doi:10.1016/S0892-0362(97)00097-4
+	150.	 Davidson PW, Myers GJ, Cox C, et al. Methylmercury and 
+neurodevelopment: Longitudinal analysis of the Seychelles 
+child development cohort. Neurotoxicol Teratol. Published 
+online 2006. doi:10.1016/j.ntt.2006.06.002
+
+1822
+Hayes’ Principles and Methods of Toxicology
+	151.	 Rice DC. Identification of functional domains affected 
+by developmental exposure to methylmercury: Faroe 
+Islands and related studies. NeuroToxicology; 2000, 21(6): 
+1039–1044.
+	152.	 Clarkson TW, Strain JJ. Nutritional factors may modify the 
+toxic action of methyl mercury in fish-eating populations. 
+Journal of Nutrition; 2003. doi:10.1093/jn/133.5.1539s
+	153.	 Costa LG, Giordano G. Developmental neurotoxicity of 
+polybrominated diphenyl ether (PBDE) flame retardants. 
+Neurotoxicology. Published online 2007. doi:10.1016/j.
+neuro.2007.08.007
+	154.	 FFaA. Report of the Joint FAO/WHO Expert Consultation 
+on the Risks and Benefits of Fish Consumption; 2011. 
+WHO: Geneva.
+	155.	 Reuhl KR. Delayed expression of neurotoxicity: The problem 
+of silent damage. NeuroToxicology; 1991, 12(3): 341–346.
+	156.	 Grandjean P. Late insights into early origins of disease. 
+Basic and Clinical Pharmacology and Toxicology; 2008. 
+doi:10.1111/j.1742-7843.2007.00167.x
+	157.	 Weiss B. Cancer and the dynamics of neurodegenerative 
+processes. NeuroToxicology; 1991, 12(3): 379–386.
+	158.	 Zhang ZX, Anderson DW, Lavine L, Mantel N. Patterns 
+of acquiring parkinsonism-dementia complex on Guam: 
+1944 through 1985. Arch Neurol. Published online 1990. 
+doi:10.1001/archneur.1990.00530090097019
+	159.	 MacKnight C. Clinical implications of bovine spongiform 
+encephalopathy. Clin Infect Dis. Published online 2001. 
+doi:10.1086/320760
+	160.	 Godfrey KM, Barker DJ. Fetal programming and adult 
+health. Public Health Nutr. Published online 2001. 
+doi:10.1079/phn2001145
+	161.	 Swan SH. Intrauterine exposure to diethylstilbestrol: Long-
+term effects in humans. APMIS. Published online 2000. 
+doi:10.1111/j.1600-0463.2000.tb00001.x
+	162.	 Ling Z, Gayle DA, Ma SY, et al. In utero bacterial endo-
+toxin exposure causes loss of tyrosine hydroxylase neurons 
+in the postnatal rat midbrain. Mov Disord. Published online 
+2002.
+	163.	 Fan LW, Tien LT, Zheng B, et al. Dopaminergic neuro-
+nal injury in the adult rat brain following neonatal expo-
+sure to lipopolysaccharide and the silent neurotoxicity. 
+Brain Behav Immun. Published online 2011. doi:10.1016/j.
+bbi.2010.09.020
+	164.	 Landrigan PJ, Sonawane B, Butler RN, Trasande L, Callan 
+R, Droller D. Early environmental origins of neurode-
+generative disease in later life. Environ Health Perspect. 
+Published online 2005. doi:10.1289/ehp.7571
+	165.	 Cory-Slechta DA, Thiruchelvam M, Richfield EK, Barlow 
+BK, Brooks AI. Developmental pesticide exposures and the 
+Parkinson’s disease phenotype. Birth Defects Research Part 
+A - Clinical and Molecular Teratology; 2005. doi:10.1002/
+bdra.20118
+	166.	 Richardson JR, Caudle WM, Wang M, et al. Developmental 
+exposure to the pesticide dieldrin alters the dopamine sys-
+tem and increases neurotoxicity in an animal model of 
+Parkinson’s disease. FASEB J. Published online 2006. 
+doi:10.1096/fj.06-5864fje
+	167.	 Newland MC, Rasmussen EB. Aging unmasks adverse 
+effects of gestational exposure to methylmercury in rats. 
+Neurotoxicol Teratol. Published online 2000. doi:10.1016/
+S0892-0362(00)00107-0
+	168.	 Weiss B, Clarkson TW, Simon W. Silent latency periods 
+in methylmercury poisoning and in neurodegenerative 
+disease. Environ Health Perspect. Published online 2002. 
+doi:10.1289/ehp.02110s5851
+	169.	 Lee MH, Rabe A. Premature decline in morris water maze per-
+formance of aging micrencephalic rats. Neurotoxicol Teratol. 
+Published online 1992. doi:10.1016/0892-0362(92)90048-F
+	170.	 Barone S, Stanton ME, Mundy WR. Neurotoxic effects 
+of neonatal triethyltin (TET) exposure are exacerbated 
+with aging. Neurobiol Aging. Published online 1995. 
+doi:10.1016/0197-4580(95)00089-W
+	171.	 Vitalone A, Catalani A, Cinque C, et al. Long-term effects 
+of developmental exposure to low doses of PCB 126 and 
+methylmercury. Toxicol Lett. Published online 2010. 
+doi:10.1016/j.toxlet.2010.04.024
+	172.	 White LD, Cory-Slechta DA, Gilbert ME, et al. New and 
+evolving concepts in the neurotoxicology of lead. Toxicol 
+Appl Pharmacol. Published online 2007. doi:10.1016/j.
+taap.2007.08.001
+	173.	 Opler MGA, Buka SL, Groeger J, et al. Prenatal exposure 
+to lead, č-aminolevulinic acid, and schizophrenia: Further 
+evidence. Environ Health Perspect. Published online 2008. 
+doi:10.1289/ehp.10464
+	174.	 Wu J, Basha MR, Brock B, et al. Alzheimer’s Disease 
+(AD)-like pathology in aged monkeys after infantile 
+exposure to environmental metal lead (Pb): Evidence 
+for a developmental origin and environmental link for 
+AD. J Neurosci. Published online 2008. doi:10.1523/
+JNEUROSCI.4405-07.2008
+	175.	 Zawia NH, Basha MR. Environmental risk factors and 
+the developmental basis for Alzheimer’s disease. Rev 
+Neurosci. Published online 2005. doi:10.1515/REVNEURO. 
+2005.16.4.325
+	176.	 Basha MR, Wei W, Bakheet SA, et al. The fetal basis of 
+amyloidogenesis: Exposure to lead and latent overexpres-
+sion of amyloid precursor protein and μ-amyloid in the 
+aging brain. J Neurosci. Published online 2005. doi:10.1523/
+JNEUROSCI.4335-04.2005
+	177.	 Basha R, Rajarami GR. Developmental exposure to lead 
+and late life abnormalities of nervous system. Indian J Exp 
+Biol. Published online 2010.
+	178.	 Chan S, Rovet J. Thyroid hormones in fetal central nervous 
+system development. Fetal Matern Med Rev. Published 
+online 2003. doi:10.1017/S0965539503001086
+	179.	 Haddow JE, Palomaki GE, Allan WC, et al. Maternal 
+thyroid deficiency during pregnancy and subsequent neu-
+ropsychological development of the child. N Engl J Med. 
+Published online 1999. doi:10.1056/nejm199908193410801
+	180.	 Zoeller RT, Crofton KM. Mode of action: Developmental 
+thyroid hormone insufficiency - Neurological abnormalities 
+resulting from exposure to propylthiouracil. Crit Rev Toxicol. 
+Published online 2005. doi:10.1080/10408440591007313
+	181.	 Zhou T, Taylor MM, De Vito MJ, Crofton KM. 
+Developmental exposure to brominated diphenyl ethers 
+results in thyroid hormone disruption. Toxicol Sci. Published 
+online 2002. doi:10.1093/toxsci/66.1.105
+	182.	 Gee JR, Hedge JM, Moser VC. Lack of alterations in 
+thyroid hormones following exposure to polybrominated 
+diphenyl ether 47 during a period of rapid brain develop-
+ment in mice. Drug Chem Toxicol. Published online 2008. 
+doi:10.1080/01480540701873194
+
+1823
+Neurotoxicology
+	183.	 Gilbert ME. Impact of low-level thyroid hormone disrup-
+tion induced by propylthiouracil on brain development and 
+function. Toxicol Sci. Published online 2011. doi:10.1093/
+toxsci/kfr244
+	184.	 NIDA. The Science of Addiction: Drugs, Brains, and 
+Behavior. Published 2020. Accessed February 13, 2021. 
+http://www.drugabuse.gov/ScienceofAddiction/
+	185.	 Pasternak GW. Preclinical pharmacology and opi-
+oid combinations. Pain Med. Published online 2012. 
+doi:10.1111/j.1526-4637.2012.01335.x
+	186.	 Cardinale A, Nastrucci C, Cesario A, Russo P. Nicotine: 
+Specific role in angiogenesis, proliferation and apoptosis. 
+Crit Rev Toxicol. Published online 2012. doi:10.3109/10408
+444.2011.623150
+	187.	 Narendran R, Martinez D. Cocaine abuse and sensitiza-
+tion of striatal dopamine transmission: A critical review 
+of the preclinical and clinical imaging literature. Synapse. 
+Published online 2008. doi:10.1002/syn.20566
+	188.	 Cruickshank CC, Dyer KR. A review of the clinical phar-
+macology of methamphetamine. Addiction. Published 
+online 2009. doi:10.1111/j.1360-0443.2009.02564.x
+	189.	 Brown MTC, Bellone C, Mameli M, et al. Drug-driven 
+AMPA receptor redistribution mimicked by selective dopa-
+mine neuron stimulation. PLoS One. Published online 
+2010. doi:10.1371/journal.pone.0015870
+	190.	 Halberstadt AL, Geyer MA. Multiple receptors contribute 
+to the behavioral effects of indoleamine hallucinogens. 
+Neuropharmacology. Published online 2011. doi:10.1016/j.
+neuropharm.2011.01.017
+	191.	 Passie T, Halpern JH, Stichtenoth DO, Emrich HM, 
+Hintzen A. The pharmacology of lysergic acid diethylam-
+ide: A review. CNS Neurosci Ther. Published online 2008. 
+doi:10.1111/j.1755-5949.2008.00059.x
+	192.	 Rothman RB, Baumann MH. Therapeutic and adverse 
+actions of serotonin transporter substrates. Pharmacol Ther. 
+Published online 2002. doi:10.1016/S0163-7258(02)00234-6
+	193.	 Green AR, Mechan AO, Elliott JM, O’Shea E, Colado MI. 
+The pharmacology and clinical pharmacology of 3,4-methyl-
+enedioxymethamphetamine (MDMA, “ecstasy”). Pharmacol 
+Rev. Published online 2003. doi:10.1124/pr.55.3.3
+	194.	 Thompson RA, Nelson CA. Developmental science and the 
+media: Early brain development. Am Psychol. Published 
+online 2001. doi:10.1037/0003-066X.56.1.5

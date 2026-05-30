@@ -1,0 +1,104 @@
+//@version=6
+indicator("BAMBAM with VWAP Bands and Alerts", overlay=true, timeframe="")
+
+// === Shared Volume Calculations ===
+vb = high == low ? 0 : volume * (close - low) / (high - low)  // Buy volume
+vs = high == low ? 0 : volume * (high - close) / (high - low) // Sell volume
+
+// === BAMBAM Signal Logic ===
+lookback = input.int(200, 'Lookback', minval=0, maxval=500, group='Signal Settings')
+lessRatio = input.float(0.05, 'Less Ratio', minval=0.001, maxval=0.1, group='Signal Settings')
+
+ph = high[1]
+pl = low[1]
+vd = vb[1] - vs[1]
+vol = vb[1] + vs[1]
+top = ta.highest(ph, lookback)
+btm = ta.lowest(pl, lookback)
+avgVol = math.sum(vol, lookback) / lookback
+vdRatio = math.abs(vd / vol)
+isLessRatio = vdRatio < lessRatio
+highVol = vol > avgVol
+bearSignal = ph >= top and highVol and (isLessRatio or vd < 0)
+bullSignal = pl <= btm and highVol and (isLessRatio or vd > 0)
+
+// BAMBAM Signal Plotting
+bearPlot = bearSignal ? 1 : na
+bullPlot = bullSignal ? 1 : na
+plotshape(series=bearPlot, color=color.new(color.black, 0), style=shape.triangledown, location=location.abovebar, offset=-1, title='Bearish Signal', size=size.small)
+plotshape(series=bullPlot, color=color.new(color.white, 0), style=shape.triangleup, location=location.belowbar, offset=-1, title='Bullish Signal', size=size.small)
+
+// BAMBAM Alert Conditions
+alertcondition(bearSignal, title='Bearish Signal Alert', message='Bearish Signal Triggered!')
+alertcondition(bullSignal, title='Bullish Signal Alert', message='Bullish Signal Triggered!')
+
+// === VWAP Bands Logic ===
+// Theme Function
+getTheme(theme) =>
+    color lineCol = na
+    color bgCol = na
+    if theme == "Light"
+        lineCol := color.rgb(255, 255, 255, 45)
+        bgCol := color.rgb(255, 255, 255, 85)
+    if theme == "Dark"
+        lineCol := color.new(#393b44, 30)
+        bgCol := color.new(#393b44, 92)
+    if theme == "Blue"
+        lineCol := color.new(#2962ff, 30)
+        bgCol := color.new(#2962ff, 92)
+    if theme == "Red"
+        lineCol := color.new(#e84b4c, 30)
+        bgCol := color.new(#e84b4c, 92)
+    if theme == "Orange"
+        lineCol := color.new(#ffb228, 30)
+        bgCol := color.new(#ffb228, 92)
+    if theme == "Green"
+        lineCol := color.new(#01c082, 30)
+        bgCol := color.new(#01c082, 92)
+    [lineCol, bgCol]
+
+// VWAP Inputs
+theme = input.string("Dark", title="Theme", options=["Light", "Dark", "Blue", "Red", "Orange", "Green"], group="VWAP Settings")
+src = input.source(hlc3, title="Source", group="VWAP Settings")  // Changed from input.price to input.source
+length = input.int(100, title="Length", group="VWAP Settings")
+stdevMultiplier = input.float(1.5, "SD Multiplier 1", group="VWAP Settings")
+stdevMultiplier2 = input.float(2.0, "SD Multiplier 2", group="VWAP Settings")
+showDouble = input.bool(true, "Show Double Bands", group="VWAP Settings")
+
+// VWAP Calculations
+sumBuy = math.sum(vb, length)
+sumSrcBuy = math.sum(src * vb, length)
+sumSrcSrcBuy = math.sum(vb * math.pow(src, 2), length)
+vwapBuy = sumSrcBuy / sumBuy
+varianceBuy = (sumSrcSrcBuy / sumBuy) - math.pow(vwapBuy, 2)
+stDevBuy = math.sqrt(varianceBuy < 0 ? 0 : varianceBuy)
+
+sumSell = math.sum(vs, length)
+sumSrcSell = math.sum(src * vs, length)
+sumSrcSrcSell = math.sum(vs * math.pow(src, 2), length)
+vwapSell = sumSrcSell / sumSell
+varianceSell = (sumSrcSrcSell / sumSell) - math.pow(vwapSell, 2)
+stDevSell = math.sqrt(varianceSell < 0 ? 0 : varianceSell)
+
+// VWAP Bands
+thresholdDown = vwapBuy - stDevBuy * stdevMultiplier
+thresholdUp = vwapSell + stDevSell * stdevMultiplier
+thresholdDown2 = vwapSell - stDevSell * stdevMultiplier2
+thresholdUp2 = vwapBuy + stDevBuy * stdevMultiplier2
+
+// Theme Colors
+[lineCol, bgCol] = getTheme(theme)
+
+// Plot VWAP Bands
+bottomUpper = plot(vwapSell - stDevSell * stdevMultiplier, color=lineCol, title="Bottom Upper Band")
+bottomLower = plot(thresholdDown, color=lineCol, title="Bottom Lower Band")
+fill(bottomUpper, bottomLower, color=bgCol, title="Lower Band Fill")
+topLower = plot(vwapBuy + stDevBuy * stdevMultiplier, color=lineCol, title="Top Lower Band")
+topUpper = plot(thresholdUp, color=lineCol, title="Top Upper Band")
+fill(topUpper, topLower, color=bgCol, title="Upper Band Fill")
+
+bottomDbl = plot(showDouble ? thresholdDown2 : na, color=lineCol, title="Bottom Double Band")
+fill(bottomDbl, bottomLower, color=showDouble ? bgCol : color.new(color.white, 100), title="Lower Double Fill")
+
+topDbl = plot(showDouble ? thresholdUp2 : na, color=lineCol, title="Top Double Band")
+fill(topDbl, topUpper, color=showDouble ? bgCol : color.new(color.white, 100), title="Upper Double Fill")

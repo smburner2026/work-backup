@@ -1,0 +1,596 @@
+# Source: https://www.oecd.org/en/publications/2017/10/test-no-402-acute-dermal-toxicity_g1gh2925.html
+# Document: OECD TG402 - Acute Dermal Toxicity
+# Downloaded: 2026-05-28
+
+OECD/OCDE
+
+402
+Adopted:
+9 October 2017
+
+OECD GUIDELINE FOR THE TESTING OF CHEMICALS
+Acute Dermal Toxicity: Fixed Dose Procedure
+
+INTRODUCTION
+1.
+OECD Guidelines for the Testing of Chemicals are periodically reviewed in the light of scientific
+progress and animal welfare considerations. The original acute Dermal Toxicity Guideline TG 402 was
+adopted in 1987. A number of recent publications have analyzed the results of acute oral and dermal
+toxicity studies for hundreds of pesticide active substances and thousands of industrial chemicals, finding
+that regulatory classifications based on oral acute toxicity data were equivalent to or more severe than
+those derived from dermal data in more than 98 percent of cases, calling into question the value of routine
+testing for this endpoint (1-6). OECD Guidance Document 237 on Waiving or Bridging of Mammalian
+Acute Toxicity Tests (7) identifies criteria for waiving of dermal acute toxicity studies, which should be
+reviewed prior to making a decision to conduct this study in the interests of limiting new animal testing for
+this endpoint to exceptional circumstances with compelling scientific justification. This document is
+focused on the use of acute toxicity testing for human health assessment; due consideration should be
+given to the conduct of the study when the results will be used for other areas of assessment such as
+ecological risk.
+2.
+Based on the recommendations of several expert meetings, international agreement had been
+reached on harmonised LD50 cut-off values for the classification of chemicals. A revision of TG 402 was
+considered timely because i) testing in one sex (usually females) is generally considered sufficient, and ii)
+in order for a point estimate to be meaningful, there is a need to estimate confidence intervals (CI) (8) (13).
+Adequately separated doses enable a test chemical to be ranked for hazard classification purposes
+according to the Globally Harmonised System (GHS) for the classification of chemicals without a point
+estimate of toxicity (10).
+3.
+A biometrical analysis was carried out to assess and compare the performance of multiple test
+designs for acute dermal toxicity in order to select the best test design for the updated TG 402 (11).
+Biometrical evaluations of the TG 402 design (OECD, 1987), four modifications of a Fixed Dose
+Procedure (FDP) (12), a modified Acute Toxic Class (ATC) design (9) and the Up-and-Down Procedure
+1
+© OECD, (2017)
+You are free to use this material
+http://www.oecd.org/termsandconditions/.
+
+subject
+
+to
+
+the
+
+terms
+
+and
+
+conditions
+
+available
+
+This Guideline was adopted by the OECD Council by written procedure on 9 October 2017 [C(2017)97].
+
+at
+
+402
+
+OECD/OCDE
+
+(UDP) (13) were carried out. While, besides the UDP, the TG 402 (OECD, 1987) had the best performance
+for correctly classifying chemical hazard, the dermal FDP outperformed all other methods for safely
+classifying chemicals. Furthermore, the dermal FDP designs used fewer animals than the TG 402 (OECD,
+1987) or the UDP. Therefore, the stepwise procedure in OECD Test Guideline 402, with the use of up to 3
+animals of a single sex per step, has been adapted from the acute toxic class method and the fixed dose
+procedure set out in OECD Test Guideline 420 (12). Depending on the mortality and/or the moribund
+status of the animals, further steps may be necessary to allow judgement on the acute toxicity of the test
+chemical. The procedure is reproducible, uses very few animals and is able to rank test chemicals (14) in a
+similar manner to the other acute toxicity testing methods (e.g. Test Guidelines 425 (13)).
+4.
+
+Definitions used in the context of this Guideline are set out in Annex 1.
+
+INITIAL CONSIDERATIONS
+5.
+In the interest of both sound science and animal welfare, in vivo acute dermal toxicity testing
+should not be considered until all available data relevant to the potential dermal toxicity of the test
+chemical have been evaluated in a weight-of-the-evidence analysis. All available information on the test
+chemical should be considered prior to conducting the study. Such information will include the identity
+and chemical structure of the test chemical, its physico-chemical properties, the results of any other in vitro
+or in vivo toxicity tests on the test chemical, available (Q)SAR data and toxicological data on structurallyrelated substances; the anticipated use(s) of the test chemical, the potential for relevant human exposure
+and the expected use of the data generated. This information will assist in the justification of conducting
+this study and, if so, the selection of an appropriate starting dose. It is a principle of the method that only
+doses expected to be moderately toxic are used, and that administration of doses that are expected to be
+lethal should be avoided.
+6.
+Guidance on the waiver opportunities for this test method for a given purpose can be found in the
+Guidance Document on Waiving or Bridging of Mammalian Acute Toxicity Tests (7). The options to
+waive this study should be dependent on the applicable legal information requirements.
+7.
+While the emphasis is on estimating the toxicity ranges involved, the information generated may
+be needed to permit the chemical to be classified in accordance with Classification and Labelling criteria
+(10). The information generated through acute toxicity testing is of particular value in assessing hazards
+likely to arise in accident situations, yet, often, the actual data required in such circumstances are beyond
+the scope of an acute toxicity study. If waiving is not justified scientifically (7), an in vivo test for acute
+dermal toxicity may be carried out on a case by case basis, provided a clear justification for the value or the
+relevance of the data generated is given.
+8.
+Test chemicals should not be administered at doses that are known to cause marked pain and
+distress due to potential corrosive or severely irritant actions. The pH and buffering capacity (acid/alkaline
+reserve) of the test chemical gives a useful indication to this end. An in vitro study might be conducted to
+check the potential corrosivity of the test chemical. Moribund animals or animals obviously in pain or
+showing signs of severe and enduring distress shall be humanely killed, and are considered in the
+interpretation of the test results in the same way as animals that died on test. Criteria for making the
+decision to kill moribund or severely suffering animals, and guidance on the recognition of predictable or
+impending death, are the subject of a separate Guidance Document (15).
+
+2
+© OECD, (2017)
+
+OECD/OCDE
+
+402
+
+9.
+If this study is conducted, both local and systemic effects can be investigated. Clear evidence of
+skin irritation (for example, grade 3 or 4 erythema and/or grade 3 or 4 oedema) in the dermal study could
+be used to inform the irritation potential instead of performing a specific irritation study.
+Mixture or formulated end-use product:
+10.
+A comprehensive evaluation of mixture products (including pesticides, biocides, and other
+formulated products) (16) has shown that the acute dermal toxicity is rarely greater than the acute oral
+toxicity of that mixture. In fact, for the majority of cases (99%), the dermal LD50 is ≥2000 mg/kg bw.
+Therefore, it is recommended to use the waiver criteria for acute oral toxicity data (if oral LD 50 is >2000
+mg/kg bw) to avoid unnecessary testing. Further, in vivo data have been compared with the GHS
+calculation methodology, see Chapter 3.1.3 Classification Criteria for Mixtures (10); in which the
+classification category based on the Acute Toxicity Estimate (ATE) of each individual component within
+the mixture is calculated. These data show >98% concordance (with no under-prediction, i.e. false
+negatives), and thus would provide another means of waiving the dermal study. Whilst synergistic effects
+among the components of a mixture are not generally expected, consideration shall be given to the possible
+interactions that could contribute to the toxic potential of the total mixture.
+PRINCIPLE OF THE IN VIVO TEST
+11.
+Groups of animals, of a single sex, are exposed to the test chemical in a stepwise procedure using
+the appropriate fixed doses as set out in Annex 2. Depending on the available evidence of the test
+chemical, a range-finding study may be needed (for example where there is little or no information). The
+initial dose level is selected at the concentration expected to produce clear signs of toxicity without causing
+severe toxic effects or mortality. Further groups of animals may be tested at higher or lower fixed doses,
+depending on the presence or absence of signs of toxicity or mortality. This procedure continues until the
+dose causing toxicity or no more than one death is identified, or when no effects are seen at the highest
+dose or when deaths occur at the lowest dose.
+12.
+The test chemical is applied to the skin in graduated doses to experimental animals, one dose
+being used per group. Subsequently, observations of effects and deaths are made. Animals which die
+during the test are necropsied, and at the conclusion of the test the surviving animals are sacrificed and
+necropsied.
+13.
+
+The classification for the test chemical is then defined based on the outcome observed.
+
+DESCRIPTION OF THE METHOD
+Selection of animal species
+14.
+The adult rat is the preferred species to be used. In considering the most appropriate sex, surveys
+of conventional acute oral (17) and acute inhalation toxicity tests (18) (19) show that usually there is little
+difference in sensitivity between the sexes, but in those cases where differences are observed, females are
+generally slightly more sensitive. Further evidence of the lack of sex-sensitivity was obtained in a recent
+review of dermal toxicity data generated across a breadth of products (16) which confirmed that there is no
+sex difference in study outcome. Therefore, it is recommended that females should normally be used.
+However, if knowledge of the toxicological or toxicokinetic properties of structurally-related chemicals
+indicates that males are likely to be significantly more sensitive, then this sex should be used. When the
+test is conducted in males, adequate justification should be provided.
+3
+© OECD, (2017)
+
+402
+
+OECD/OCDE
+
+15.
+Healthy young adult animals of commonly used laboratory strains should be employed. Females
+should be nulliparous and non-pregnant. Each animal, at the commencement of its dosing, should be a
+young adult (at least 8-10 weeks old) with a size which facilitates the conduct of the test (200-300 g) and
+its weight should fall within an interval of ±20 % of the mean weight of any previously dosed animals.
+Animals with healthy, intact skin are required.
+Housing and feeding conditions
+16.
+The temperature in the experimental animal room should be 22ºC (±3ºC). Although the relative
+humidity should be at least 30% and preferably not exceed 70% other than during room cleaning the aim
+should be 50-60%. Lighting should be artificial, the sequence being 12 hours light, 12 hours dark. For
+feeding, conventional laboratory diets may be used with an unlimited supply of drinking water.
+Preparation of animals
+17.
+The animals are acclimatised to the laboratory conditions for at least five days prior to the start of
+the study, using group-caging for welfare reasons. Animals are randomly selected for use in the study and
+marked to provide individual identification.
+18.
+On the day before administration of the test chemical, all fur should be removed from the
+dorsal/flank area of the test animals (i.e. at least 10% of the total body surface area) by closely clipping.
+Anaesthetics can be used to aid in handling animals and minimise stress. Care must be taken to avoid
+abrading the skin, which could alter its permeability. The weight of the animal should be taken into
+account when deciding on the area to be cleared and on the dimensions of the covering.
+PROCEDURE
+Administration of doses
+19.
+The test chemical should be applied as uniformly as possible over the exposed area of
+dorsal/flank skin (i.e. to at least 10 % of the total body surface area).With highly toxic test chemicals the
+surface area covered may be less, but as much of the area should be covered with as thin and uniform film
+as possible. Test chemicals should be held in contact with the skin with a porous gauze dressing and nonirritating tape throughout a 24-hour exposure period. The test site should be further covered in a suitable
+manner to retain the gauze dressing and test chemical and ensure that the animals cannot ingest the test
+chemical. This might involve the use of a restraint if necessary, while this should not result in the
+immobilisation of the animal. During the 24-hour exposure period animals may be caged individually in
+order to avoid oral ingestion of the test chemical by other animals in the cage.
+20.
+When testing solids, which may be pulverised if appropriate, the test chemical should be
+moistened sufficiently, preferably with water or, where necessary, a suitable vehicle to ensure good contact
+with the skin. When a vehicle (other than water) is used, the influence of the vehicle on penetration of skin
+by the test chemical should be taken into account. The amount of vehicle used should be recorded
+(generally 0.5 to 1 mL are sufficient). Liquid test chemical are generally used undiluted.
+21.
+At the end of the exposure period, residual test chemical should be removed, where practicable
+using water or an appropriate solvent. Animals will be returned to group housing unless there are reasons
+to house individually (e.g. there is concern that contact with other animals could increase stress due to the
+4
+© OECD, (2017)
+
+OECD/OCDE
+
+402
+
+nature and severity of the signs of toxicity, or could result in exacerbation of local skin effects). However,
+the time that the animals are housed individually should be minimised.
+Number of animals and dose levels
+22.
+The test chemical is administered to single animals in a sequential manner with two animals used
+at any selected dose level in the main study. Generally, if an acute dermal toxicity study is required
+because the waiver criteria do not apply, the expected acute dermal toxicity will likely be unknown or high
+(e.g. LD50 < 200 mg/kg body weight).
+23.
+When there is no or insufficient information on a test chemical, a dose-range finding study using
+1 animal at a starting dose of 200 mg/kg body weight is recommended to minimise animal use and
+optimise the study design (see Annex 2 flow chart for range-finding study). Based on the outcome in the
+range-finding study, the main study can be conducted with 2 further animals to confirm the classification
+outcome, following the procedure outlined in Annex 2 flow chart for the main study. This approach is
+supported by a biometrical evaluation (11) which was conducted to compare a number of study designs
+with their respective classification predictions. This is to ensure confidence in the recommended study
+design where only two animals are needed in the main study to generate the correct classification.
+24.
+If information is available for the test chemical, and yet a waiver is not an option, a different
+starting dose may be chosen, e.g. 50, 1000 or 2000 (akin to a limit dose) mg/kg bw, following the same
+procedure (range-finding study followed by main study), based on the GHS Categories for acute dermal
+toxicity (10).
+25.
+A period of at least 48 hours will be allowed between the testing of each animal, though this will
+depend on the onset, duration, and severity of toxic signs. Treatment of animals at the next dose level
+should be delayed until one is confident of survival of the previously dosed animal(s). All animals should
+normally be observed for at least 14 days.
+OBSERVATIONS
+26.
+Animals are observed immediately after dosing at least once during the first 30 minutes,
+periodically during the first 24 hours, with special attention given during the first 2 to 6 hours after the
+beginning of the exposure period, and daily thereafter, for a total of 14 days. However, the duration of
+observation is not fixed but should be determined by the nature and time of onset of clinical signs and
+length of recovery period. The times at which signs of toxicity appear and disappear are important,
+especially if there is a tendency for signs of toxicity to be delayed (4). All observations are systematically
+recorded, with individual records being maintained for each animal. Animals found in a moribund
+condition and animals showing severe pain and/or enduring signs of severe distress should be humanely
+killed without delay. When animals are killed for humane reasons or found dead, the time of death should
+be recorded as precisely as possible.
+27.
+Observations should include changes in skin and fur, eyes and mucous membranes, and also
+respiratory, circulatory, autonomic and central nervous systems, and somatomotor activity and behaviour
+pattern. Attention should be directed to observations of tremors, convulsions, salivation, diarrhoea,
+lethargy, sleep and coma. In addition, the treatment site may be observed at 24, 48 and 72 hours after
+removal of test chemical using the Draize criteria, as these data may be useful for waiving the need for a
+separate in vivo skin irritation study.
+5
+© OECD, (2017)
+
+402
+
+OECD/OCDE
+
+Body weight
+28.
+Individual weights of animals should be determined on the day of, or immediately prior to, the
+administration of the test chemical and at least weekly thereafter. At the end of the test surviving animals
+are weighed and then humanely killed.
+Pathology
+29.
+All test animals (including those that die during the test or are removed from the study for animal
+welfare reasons) should be subjected to gross necropsy. All gross pathological changes should be recorded
+for each animal. Microscopic examination of organs showing evidence of gross pathology, or of the
+treatment site, in animals surviving 24 or more hours after the initial dosing may also be considered
+because it may yield useful information.
+DATA AND REPORTING
+Data
+30.
+Individual animal data should be provided. Additionally, all data should be summarised in tabular
+form, showing for each test group the number of animals used, the number of animals displaying signs of
+toxicity, the number of animals found dead during the test or killed for humane reasons, time of death of
+individual animals, a description and the time course of toxic effects and their reversibility, and necropsy
+findings.
+31.
+As set out in Annex 2, the classification category for the test chemical should be determined. The
+action to be taken following testing at the starting dose is indicated by the flow chart. Using the rangefinding study, one of three actions will be required in the main study; 1) test at the same dose level to
+confirm results, 2) test at the higher dose level or 3) test at the lower dose level. In the dose-range finding
+study, a dose which caused death does not need to be revisited in the main study, to protect animals from
+unnecessary suffering. The results of the main study with the additional 2 animals per dose will confirm
+the appropriate hazard classification and no further testing will be necessary.
+
+Test Report
+32.
+
+The test report must include the following information, as appropriate:
+
+Rationale for in vivo testing: weight-of-evidence analysis of pre-existing test data:
+– description of relevant data available from prior testing;
+– data derived in each step of testing strategy;
+– weight-of-evidence analysis for performing in vivo study;
+Test chemical
+- source, lot number, limit date for use, if available;
+- stability of the test chemical itself, if known;
+6
+© OECD, (2017)
+
+OECD/OCDE
+
+402
+
+- solubility and stability of the test chemical in vehicle, if known;
+Mono-constituent substance:
+- physical appearance and additional relevant physicochemical properties (e.g. acid/alkaline reserve);
+- chemical identification, such as IUPAC or CAS name, CAS number, SMILES or InChI code,
+structural formula,
+- purity,
+- chemical identity of impurities as appropriate and practically feasible, etc.
+Multi-constituent substance, UVCBs and mixtures:
+- characterized as far as possible by chemical identity (see above), quantitative occurrence and
+relevant physicochemical properties of the constituents and mixture.
+Vehicle (if appropriate):
+justification for use of vehicle and justification for choice of vehicle (if other than water).
+Test animals:
+species/strain used;
+microbiological status of the animals, when known;
+number, age and sex of animals (including, where appropriate, a rationale for use of males instead
+of females);
+source, housing conditions, diet, historical data etc.;
+details of food and water quality (including diet type/source, water source);
+method of randomisation in animal selection.
+Test conditions:
+details of test chemical formulation, including details of the physical form of the test chemical
+administered;
+details of the administration of the test chemical and the treatment site including dosing volumes,
+area of application, and duration of exposure;
+the rationale for the selection of the starting dose;
+
+7
+© OECD, (2017)
+
+402
+
+OECD/OCDE
+
+Results:
+tabulation of response data and dose level for each animal (i.e., animals showing signs of toxicity
+including mortality, nature, severity and duration of effects);
+− tabulation of body weight and body weight changes;
+individual weight of animals at the day of exposure, in weekly intervals thereafter, and at time of
+death or euthanasia; − date and time of death if prior to scheduled sacrifice;
+time course of onset of signs of toxicity and whether these were reversible for each animal;
+necropsy findings and histopathological findings for each animal, if available;
+-
+
+assessment of Draize criteria, if conducted;
+
+-
+
+data interpretation procedure
+
+Discussion and interpretation of results.
+Conclusions.
+
+8
+© OECD, (2017)
+
+OECD/OCDE
+
+402
+
+LITERATURE
+1.
+
+Thomas, H.D. and Dewhurst, I.C. (2007). What does a dermal acute toxicity study add to the
+information on a plant protection pesticide? Toxicol. 231, 114-15.
+
+2.
+
+Creton, S., Dewhurst, I.C., Earl, L.K. et al. (2010). Acute toxicity testing of chemicals—Opportunities
+to avoid redundant testing and use alternative approaches. Crit. Rev. Toxicol. 40, 50-83.
+
+3.
+
+Seidle, T., Prieto, P. and Bulgheroni, A. (2011). Examining the regulatory value of multi-route
+mammalian acute systemic toxicity studies. ALTEX 28, 95-102.
+
+4.
+
+Indans, I., Fry, T., Parsons, P., et al. (1998). Classification and labelling of new industrial chemicals
+for acute toxicity, skin and eye irritation. Hum. Exp. Toxicol. 17, 529.
+
+5.
+
+Seidle, T., Robinson, S., Holmes, T. et al. (2010). Cross-Sector Review of Drivers and Available 3Rs
+Approaches for Acute Systemic Toxicity Testing. Tox. Sci. 116, 382-96.
+
+6.
+
+Moore, N.P., Andrew, D.J., Bjerke, D. L. et al. (2013). Can acute dermal systemic toxicity tests be
+replaced with oral tests? A comparison of route-specific systemic toxicity and hazard classifications
+under the Globally Harmonized System of Classification and Labelling of Chemicals (GHS). Reg.
+Toxicol. Pharmacol. 66, 30–37.
+
+7.
+
+OECD (2016). Guidance Document on Waiving or Bridging of Mammalian Acute Toxicity Tests.
+Draft dated January 2016. Series on Testing and Assessment No.237, Environment, Health and Safety
+Publications, OECD, Paris.
+
+8.
+
+British Toxicology Society Working Party on Toxicity (1984). Special report: a new approach to the
+classification of substances and preparations on the basis of their acute toxicity. Human Toxicol. 3,
+85-92.
+
+9.
+
+OECD (2002). OECD Guideline for Testing of Chemicals: Acute Toxic Class Method (No.423).
+OECD, Paris.
+
+10. UN (2015). United Nations Globally Harmonized System of Classification and Labelling of
+Chemicals (GHS), Fifth Revised Edition, UN New York and Geneva. Available at:
+[http://www.unece.org/trans/danger/publi/ghs/ghs_rev05/05files_e.html].
+11. Mielke H., Strickland J., Jacobs M.N., Mehta J.M. (2017) Biometrical Evaluation of the Performance
+of the Revised Test Guideline 402 for Assessing Acute Dermal Toxicity. In press. Regulatory
+Toxicology and Pharmacology.
+12. OECD (2002). OECD Guideline for Testing of Chemicals: Acute Oral Toxicity-Fixed Dose Procedure
+(No.420). OECD, Paris.
+13. OECD (2008). OECD Guideline for Testing of Chemicals: Acute Oral Toxicity - Up-and-Down
+Procedure (UDP) (No.425). OECD, Paris.
+14. Stallard, N., Whitehead, A. and Indans, I. (2004). Statistical Modelling and Evaluation of an Acute
+Dermal Toxicity Test Using Dermal Fixed Dose Procedure. Hum. Exp. Toxicol. 23(8), 405-12.
+15. OECD (2000) Guidance Document on the Recognition, Assessment and Use of Clinical Signs as
+Humane Endpoints for Experimental Animals Used in Safety Evaluation. OECD Environmental
+Health and Safety Publications, Series on Testing and Assessment No. 19. OECD, Paris.
+9
+© OECD, (2017)
+
+402
+
+OECD/OCDE
+
+16. Corvaro, M., Gehen, S., Andrews, K. et al., (2016). GHS Additivity Formula: A true replacement
+method for acute systemic toxicity of agrochemical formulations. Reg. Toxicol. Pharmacol. 82: 99110 (available online, http://dx.doi.org/10.1016/j.yrtph.2016.10.007).
+17. Lipnick, R. L, Cotruvo, J. A., Hill, R. N. et al. (1995). Comparison of the Up-and- Down,
+Conventional LD50 and Fixed Dose Acute Toxicity Procedures. Fd. Chem. Toxicol. 33, 223-231.
+18. Warbrick, E. V., Indans, I., Blackwell, M. et al. (2002). The reduction and refinement of animal use in
+acute inhalation toxicity testing. Toxicol. 192, 92.
+19. Price, Ch., Stallard, N., Creton, S. et al. (2010). A statistical evaluation of the effects of gender
+differences in assessment of acute inhalation toxicity. Hum. Exp. Toxicol. 30(3), 217–238.
+
+10
+© OECD, (2017)
+
+OECD/OCDE
+
+402
+
+ANNEX 1
+DEFINITIONS
+Acute dermal toxicity is the adverse effect caused by a test chemical following a single uninterrupted
+exposure by dermal application over a short period of time (24 h or less).
+Dose is the amount of test chemical administered. Dose is expressed as weight of test chemical per unit
+weight of test animal (e.g., mg/kg bw).
+GHS: Globally Harmonised Classification System for Chemical Substances and Mixtures. A joint activity
+of OECD (human health and the environment), UN Committee of Experts on Transport of Dangerous
+Goods (physical-chemical properties) and ILO (hazard communication) and co-ordinated by the
+Interorganisation Programme for the Sound Management of Chemicals (IOMC).
+Impending death is when moribund state or death is expected prior to the next planned time of
+observation. Signs indicative of this state in rodents could include convulsions, lateral position,
+recumbence, and tremor. (See the Humane Endpoint Guidance Document No. 19 (14) for more details).
+LD50 (median lethal dose) is a statistically derived single dose of a chemical that can be expected to cause
+death in 50 per cent of animals when administered by the given route of exposure. The LD 50 value is
+expressed in terms of weight of test chemical per unit weight of test animal (mg/kg bw).
+Limit test refers to a dose at an upper limitation on testing (2000 mg/kg bw).
+Moribund status is being in a state of dying or inability to survive, even if treated. (See the OECD
+Humane Endpoint Guidance Document No. 19 (14) for more details).
+Predictable death: presence of clinical signs indicative of death at a known time in the future before the
+planned end of the experiment, for example: inability to reach water or food. (See the Humane Endpoint
+Guidance Document No. 19 (14) for more details).
+Test chemical: designates what is tested.
+UVCBs: substance of unknown or variable composition, complex reaction products or biological materials
+
+11
+© OECD, (2017)
+
+402
+
+OECD/OCDE
+ANNEX 2
+FLOWCHART FOR THE TESTING PROCEDURE
+Range-Finding Study
+
+12
+© OECD, (2017)
+
+ENV/JM/WRPR(2017)36
+
+Main Study
+Range-finding study dose: e.g. 200 mg/kg
+START
+
+Classify GHS Category
+
+2 animals
+
+2 animals
+
+2 animals
+
+2 animals
+
+50 mg/kg
+
+200 mg/kg
+
+1000 mg/kg
+
+2000 mg/kg
+
+A
+
+B
+
+C
+
+1
+
+2
+
+2
+
+A
+
+B
+
+C
+
+3
+
+3
+
+Outcome
+A
+
+2 Deaths
+
+B
+
+1 death
+
+C
+
+No evident toxicity and no deaths
+
+A
+
+13
+
+B
+
+C
+
+4
+
+A
+
+4
+
+B
+
+C
+
+5
+
+5/Unclassified
+
+

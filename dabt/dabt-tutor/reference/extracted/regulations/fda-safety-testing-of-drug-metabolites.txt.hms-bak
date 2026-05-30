@@ -1,0 +1,588 @@
+# FDA Safety Testing of Drug Metabolites.pdf
+# Category: fda
+# Pages: 14
+
+Safety Testing of Drug 
+Metabolites 
+Guidance for Industry 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+U.S. Department of Health and Human Services 
+Food and Drug Administration 
+Center for Drug Evaluation and Research (CDER) 
+ 
+March 2020 
+Pharmacology/Toxicology 
+ 
+Revision 2
+
+Safety Testing of Drug 
+Metabolites 
+Guidance for Industry 
+ 
+ 
+ 
+Additional copies are available from: 
+ 
+Office of Communications, Division of Drug Information 
+Center for Drug Evaluation and Research 
+Food and Drug Administration 
+10001 New Hampshire Ave., Hillandale Bldg., 4th Floor 
+Silver Spring, MD  20993-0002 
+Phone: 855-543-3784 or 301-796-3400; Fax: 301-431-6353; Email: druginfo@fda.hhs.gov 
+https://www.fda.gov/drugs/guidance-compliance-regulatory-information/guidances-drugs 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+U.S. Department of Health and Human Services 
+Food and Drug Administration 
+Center for Drug Evaluation and Research (CDER) 
+ 
+March 2020 
+Pharmacology/Toxicology 
+ 
+Revision 2
+
+TABLE OF CONTENTS 
+ 
+I. 
+INTRODUCTION............................................................................................................. 1 
+II. 
+BACKGROUND ............................................................................................................... 2 
+III. 
+GENERAL CONCEPTS IN METABOLITE SAFETY TESTING ............................. 3 
+A. 
+General Approaches for Assessing Metabolite Safety ................................................................ 4 
+B. 
+Identification of Metabolites ......................................................................................................... 5 
+C. 
+General Considerations for Nonclinical Study Design ............................................................... 5 
+IV. 
+RECOMMENDED STUDIES FOR ASSESSING THE SAFETY OF 
+METABOLITES ............................................................................................................... 6 
+A. 
+General Toxicity Studies ............................................................................................................... 6 
+B. 
+Genotoxicity Studies ...................................................................................................................... 6 
+C. 
+Embryo-Fetal Development Toxicity Studies .............................................................................. 6 
+D. 
+Carcinogenicity Studies ................................................................................................................. 7 
+V. 
+TIMING OF SAFETY ASSESSMENTS ........................................................................ 7 
+GLOSSARY................................................................................................................................... 8 
+APPENDIX A:  DECISION TREE FLOW DIAGRAM ........................................................... 9 
+APPENDIX B:  CASE EXAMPLES OF DRUG METABOLITES ....................................... 10
+
+Contains Nonbinding Recommendations 
+ 
+1 
+Safety Testing of Drug Metabolites 
+Guidance for Industry1 
+ 
+ 
+ 
+ 
+This guidance represents the current thinking of the Food and Drug Administration (FDA or Agency) on 
+this topic.  It does not establish any rights for any person and is not binding on FDA or the public.  You 
+can use an alternative approach if it satisfies the requirements of the applicable statutes and regulations.  
+To discuss an alternative approach, contact the FDA office responsible for this guidance as listed on the 
+title page. 
+ 
+ 
+ 
+ 
+I. 
+INTRODUCTION 
+ 
+This guidance provides recommendations to industry on when and how to identify and 
+characterize drug metabolites whose nonclinical toxicity needs to be evaluated.  Drug 
+metabolites may need to be determined in nonclinical studies when they are disproportionate 
+drug metabolites, that is, metabolites identified only in humans or present at higher plasma 
+concentrations in humans than in any of the animal species used during standard nonclinical 
+toxicology testing.2 
+ 
+This guidance applies to small molecule nonbiologic drug products.  This guidance does not 
+apply to some cancer therapies.3 
+ 
+This guidance supersedes the guidance of the same name published in November 2016.  The 
+guidance has been revised to align with the ICH guidance for industry M3(R2) Nonclinical Safety 
+Studies for the Conduct of Human Clinical Trials and Marketing Authorization for 
+Pharmaceuticals (January 2010). 
+ 
+In general, FDA’s guidance documents do not establish legally enforceable responsibilities.  
+Instead, guidances describe the Agency’s current thinking on a topic and should be viewed only 
+                                                 
+1 This guidance has been prepared by the Pharmacokinetic Subcommittee of the Pharmacology and Toxicology 
+Coordinating Committee in the Center for Drug Evaluation and Research at the Food and Drug Administration.  
+You may submit comments on this guidance at any time.  Submit comments to Docket No. FDA-2008-D-0065 
+(available at https://www.regulations.gov/docket?D=FDA-2008-D-0065).  See the instructions in that docket 
+for submitting comments on this and other Level 2 guidances. 
+ 
+2 See the Glossary for the definition of disproportionate drug metabolite. 
+ 
+3 See the ICH guidance for industry S9 Nonclinical Evaluation for Anticancer Pharmaceuticals (March 2010) for 
+the safety testing of drug metabolites in cancer therapies.  We update guidances periodically.  To make sure you 
+have the most recent version of a guidance, check the FDA guidance web page at https://www.fda.gov/regulatory-
+information/search-fda-guidance-documents.
+
+Contains Nonbinding Recommendations 
+ 
+2 
+as recommendations, unless specific regulatory or statutory requirements are cited.  The use of 
+the word should in Agency guidances means that something is suggested or recommended, but 
+not required. 
+ 
+ 
+II. 
+BACKGROUND 
+ 
+Nonclinical evaluation of drug safety usually consists of standard animal toxicology studies.4  
+These studies usually include assessing drug exposure, primarily parent drug plasma 
+concentration.  Generally, drug plasma concentration and systemic exposure in the nonclinical 
+studies are compared with systemic exposure in humans to assess the potential risks suggested by 
+nonclinical findings and guide monitoring in clinical trials.  This testing paradigm usually is 
+sufficient when the metabolic profile in humans is similar to that in at least one of the animal 
+species used in nonclinical studies, but metabolic profiles can vary across species both 
+quantitatively and qualitatively, and there are cases for which clinically relevant metabolites 
+have not been identified or adequately evaluated during nonclinical safety studies.  This situation 
+can occur if the metabolite is formed only in humans and is absent in the animal test species or if 
+the metabolite is present at higher levels in humans than in the animal species used in the 
+standard toxicology testing with the parent drug.  Such a metabolite is called a disproportionate 
+drug metabolite. 
+ 
+It is not standard practice for drug metabolites to be evaluated separately in a cross-species safety 
+assessment.  As a result, their specific contribution to the overall toxicity of the parent drug has 
+often remained unknown.  This lack of understanding about the role of metabolites in drug 
+toxicity may partly reflect the inadequate sensitivity of the analytical methods used to detect and 
+characterize metabolites derived from the parent drug.  Technological advances, however, have 
+greatly improved the analytical abilities to detect, identify, and characterize metabolites and may 
+allow a better understanding of the role metabolites play in drug safety assessment. 
+ 
+Drugs entering the body undergo biotransformation via phase 1 and phase 2 metabolic pathways.  
+Based on the nature of the chemical reactions involved, metabolites formed from phase 1 
+reactions are more likely to be chemically reactive or pharmacologically active and, therefore, 
+more likely to need safety evaluation.  A pharmacologically active metabolite may bind to the 
+therapeutic target receptors or other receptors, interact with other targets (e.g., enzymes, 
+proteins), and cause unintended effects.  This is a particularly important problem when such a 
+metabolite is formed in humans and not in animals, but the occurrence of a metabolite only in 
+humans and not in any animal test species is rare.  A more common situation is the formation of 
+a metabolite at higher levels in humans than in the animal species used in safety testing of the 
+parent drug.  This stems from qualitative and/or quantitative differences in metabolic profiles 
+between humans and animals.  If at least one animal test species forms this drug metabolite at 
+adequate exposure levels (approximately equal to or greater than human exposure), as 
+                                                 
+4 See the ICH guidances for industry S6 Preclinical Safety Evaluation of Biotechnology-Derived Pharmaceuticals 
+(July 1997) and S7A Safety Pharmacology Studies for Human Pharmaceuticals (July 2001).
+
+Contains Nonbinding Recommendations 
+ 
+3 
+determined during toxicology testing of the parent drug, it can be concluded that the metabolite’s 
+contribution to the overall toxicity assessment has been established.5 
+ 
+Metabolites that form chemically reactive intermediates can be difficult to detect and measure 
+because of their short half-lives.  In some cases, however, they can form stable products (e.g., 
+glutathione conjugates) that can be measured.  Phase 2 conjugation reactions generally render a 
+compound more water soluble and pharmacologically inactive, thereby eliminating the need for 
+further evaluation.  However, if the conjugate forms a potentially toxic compound such as acyl 
+glucuronide, additional safety assessment may be needed.6 
+ 
+Since general toxicity studies are designed to assess both target and off-target toxicity of the 
+drug, demonstrating that a metabolite is pharmacologically inactive at the target receptor (or 
+even that it does not meaningfully bind to a receptor or enzyme in a screening test) is not 
+sufficient to ensure that the metabolite is not toxic.  Therefore, it may need to be tested in 
+nonclinical toxicity studies.7 
+ 
+ 
+III. 
+GENERAL CONCEPTS IN METABOLITE SAFETY TESTING 
+ 
+We encourage identifying any differences in drug metabolism between animals used in 
+nonclinical safety assessments and humans as early as possible during the drug development 
+process.8  Discovering such differences in drug metabolites late in drug development can cause 
+development delays. 
+ 
+Generally, metabolites identified only in human plasma or metabolites present at higher levels in 
+humans than in any of the animal test species should be considered for safety assessment.  Such 
+metabolites are called disproportionate drug metabolites.  Human metabolites that can raise a 
+safety concern are those present at greater than 10 percent of total drug-related exposure at 
+steady state.9 
+                                                 
+5 See Appendix A:  Decision Tree Flow Diagram.  This diagram describes which studies may be needed to 
+determine safety of the drug metabolite. 
+ 
+6 Faed, EM, 1984, Properties of Acyl Glucuronides:  Implications for Studies of the Pharmacokinetics and 
+Metabolism of Acidic Drugs, Drug Metab Rev, 15, 1213–1249. 
+ 
+7 See Appendix B:  Case Examples of Drug Metabolites. 
+ 
+8 Baillie, TA, MN Cayen, H Fouda, RJ Gerson, JD Green, SJ Grossman, LJ Klunk, B LeBlanc, DG Perkins, and LA 
+Shipley, 2002, Drug Metabolites in Safety Testing, Toxicol Appl Pharmacol, 182(3), 188–196; and Hastings, KL, J 
+El-Hage, A Jacobs, J Leighton, D Morse, and RE Osterberg, 2003, Drug Metabolites in Safety Testing, Toxicol 
+Appl Pharmacol, 190(1), 91–92. 
+ 
+9 Exposure should be at steady state unless there is some justification for a different measure of exposure.  
+Comparison between human and animal exposure generally is based on area under the curve, but sometimes it may 
+be more appropriate to use Cmax.  See ICH M3(R2).
+
+Contains Nonbinding Recommendations 
+ 
+4 
+The choice of a level of greater than 10 percent for characterization of drug metabolites reflects 
+consistency with FDA10 and Environmental Protection Agency guidances.11 
+ 
+A. 
+General Approaches for Assessing Metabolite Safety 
+ 
+A metabolite identified in animals that is not present in humans can mean that a toxicity 
+observed in that animal species, and that can be attributed to the metabolite, may not be relevant 
+to humans.  Conversely, a drug metabolite identified during clinical development that is not 
+present in animal test species or is present at much lower levels in animals than in humans can 
+suggest the need for further studies in animals to determine the potential toxicity of the 
+metabolite.  In such cases, sponsors can consider two approaches to assessing the effect of the 
+drug metabolite.  The first approach is to identify an animal species routinely used in toxicity 
+studies that forms the metabolite at adequate exposure levels (equivalent to or greater than the 
+human exposure), and then investigate the drug’s toxicity in that species.  The second approach, 
+if a relevant animal species that forms the metabolite cannot be identified, is to synthesize the 
+drug metabolite and directly administer it to the animal for further safety evaluation.  In this 
+approach, analytical methods that are capable of identifying and measuring the levels of the 
+metabolite in the nonclinical toxicity studies should be developed. 
+ 
+We acknowledge the difficulties associated with synthesizing a specific metabolite as well as the 
+inherent complexities that accompany its direct administration.  Direct dosing of a metabolite to 
+animals may lead to subsequent metabolism that may not reflect the clinical situation and thus 
+may complicate the toxicity evaluation.  Moreover, new and different toxicities may arise from 
+administration of the metabolite that were not observed with the parent drug.  However, 
+notwithstanding these possible complications, identifying and evaluating the potential toxicity of 
+the drug metabolite is considered important to ensure clinical safety, and the decision to conduct 
+direct safety testing of a metabolite should be based on a comprehensive evaluation of the data 
+on the parent drug and any information available for the metabolite. 
+ 
+Appendix B provides three case examples when drug metabolites were formed at higher levels in 
+humans than in test animals used in the nonclinical studies and how the safety evaluation was 
+approached.  In Case 1, testing the drug metabolite was not needed because the metabolite was 
+adequately characterized in nonclinical toxicity studies with the parent drug.  However, in Cases 
+2 and 3, the drug metabolites had to be tested in toxicity studies by direct administration to the 
+                                                 
+10 See the Veterinary International Conference on Harmonization guidances for industry GL46 Studies to Evaluate 
+the Metabolism and Residue Kinetics of Veterinary Drugs in Food-producing Animals:  Metabolism Study to 
+Determine the Quantity and Identify the Nature of Residues (MRK) (September 2011) and GL47 Studies to Evaluate 
+the Metabolism and Residue Kinetics of Veterinary Drugs in Food-Producing Animals:  Comparative Metabolism 
+Studies in Laboratory Animals (September 2011) available on the Veterinary International Conference on 
+Harmonization (VICH) Guidance Documents web page at https://www.fda.gov/animal-veterinary/guidance-
+industry/veterinary-international-conference-harmonization-vich-guidance-documents. 
+ 
+11 U.S. Environmental Protection Agency, 1998, Health Effects Test Guidelines, OPPTS 870.7485, Metabolism and 
+Pharmacokinetics (https://www.epa.gov/test-guidelines-pesticides-and-toxic-substances/series-870-health-effects-
+test-guidelines).
+
+Contains Nonbinding Recommendations 
+ 
+5 
+animal.  In Case 3, the drug metabolite was pharmacologically inactive at the therapeutic target 
+receptor but showed a unique toxicity not observed with the parent molecule. 
+ 
+B. 
+Identification of Metabolites 
+ 
+Sponsors should identify the metabolic profile of the drug during the drug development process.  
+This identification can be accomplished at different stages of development using in vitro and in 
+vivo methods.  In vitro studies can use liver microsomes, liver slices, or hepatocytes from 
+animals and humans; these studies should generally be conducted before initiating clinical trials.  
+In vivo metabolism study results in nonclinical test species generally should be available early in 
+drug development, and their results will either confirm the results obtained from the in vitro 
+studies or reveal quantitative and/or qualitative differences in metabolism across species.  It is 
+the latter situation that may pose a safety concern.  Usually, sponsors have conducted human in 
+vivo metabolism studies relatively later in drug development, but we strongly recommend that 
+sponsors conduct in vivo metabolic evaluation in humans as early as feasible. 
+ 
+The adequacy of exposure to drug metabolites that are present at lower levels in animals used in 
+nonclinical studies is determined on a case-by-case basis.  Generally, systemic exposure is 
+assessed by measuring the concentration of the parent drug at steady state in serum or plasma.12  
+However, when measurements cannot be made in plasma of the test species for any reason, 
+adequate exposure can be verified in other biological matrices such as urine, feces, or bile.13  We 
+encourage sponsors to contact the FDA early in drug development to discuss these issues. 
+ 
+C. 
+General Considerations for Nonclinical Study Design 
+ 
+When designing a nonclinical study for a disproportionate drug metabolite, one should consider 
+the following factors: 
+ 
+• Similarity of the metabolite to the parent molecule 
+• Pharmacological or chemical class 
+• Solubility 
+• Stability in stomach pH 
+• Phase 1 versus phase 2 metabolite 
+• Relative amounts detected in humans versus the amounts detected in animals 
+ 
+Additional factors to be considered include the proposed drug indication and patient population 
+(e.g., nonclinical studies can be abbreviated for serious indications such as amyotrophic lateral 
+                                                 
+12 Although the drug metabolite of toxicological concern usually is one circulating in plasma at greater than 10 
+percent of total drug-related exposure, other metabolites also can elicit safety concern.  For example, a drug 
+metabolite representing greater than 10 percent of urinary excretion relative to the bioavailable dose, or a human 
+fecal metabolite in cases where biliary elimination is the predominant route of excretion in humans, may reflect 
+potential localized renal or bile duct toxicity, respectively.  The sponsor should discuss with the appropriate FDA 
+review division the need for further characterization in these instances, which are addressed on a case-by-case basis. 
+ 
+13 See the ICH guidance for industry S3A Guidance:  Note for Guidance on Toxicokinetics:  The Assessment of 
+Systemic Exposure in Toxicity Studies: Focus on Microsampling — Questions and Answers (March 2018).
+
+Contains Nonbinding Recommendations 
+ 
+6 
+sclerosis), the proposed duration of use (short term, intermittent use, chronic), and the levels of 
+exposure at the therapeutic dose. 
+ 
+ 
+IV. 
+RECOMMENDED STUDIES FOR ASSESSING THE SAFETY OF 
+METABOLITES 
+ 
+Good laboratory practice guidelines apply to the nonclinical studies with the drug metabolite 
+designed to evaluate safety (21 CFR part 58).  Sponsors may need to conduct the following 
+studies to assess the safety of the disproportionate drug metabolite. 
+ 
+A. 
+General Toxicity Studies 
+ 
+The potential toxicity of a disproportionate drug metabolite should be evaluated to enable 
+comparisons between the metabolite and its parent drug.  The duration of the general toxicity 
+study with direct dosing of the metabolite should follow the recommendations listed in ICH 
+M3(R2).  Sponsors should investigate the toxicity of the drug metabolite at multiples of the 
+human exposure or at least at levels comparable to those measured in humans.  We also 
+recommend using the parent drug’s intended clinical route of administration.  However, with 
+justification, one can use other routes to achieve sufficient exposure to the disproportionate 
+metabolite.  If the clinical route is oral, it is important to verify the stability of the metabolite in 
+the stomach environment.  It is crucial to gather toxicokinetic data from this type of study to 
+ensure adequate exposure. 
+ 
+B. 
+Genotoxicity Studies 
+ 
+The potential genotoxicity of the drug metabolite should be assessed in an in vitro assay that 
+detects point mutations and in another assay that detects chromosomal aberrations.  It is 
+important that these assays be conducted according to the recommendations in the ICH guidance 
+for industry S2(R1) Genotoxicity Testing and Data Interpretation for Pharmaceuticals Intended 
+for Human Use (June 2012).  If one or both of the in vitro tests are equivocal and/or positive, 
+results from a complete standard battery of genotoxicity studies may be needed. 
+ 
+C. 
+Embryo-Fetal Development Toxicity Studies 
+ 
+When a drug is intended for use in a population that includes women of childbearing potential, 
+sponsors should conduct embryo-fetal development toxicity studies with the drug metabolite.  
+We may ask for other reproductive toxicity studies on a case-by-case basis, depending on results 
+of the general toxicity and embryo-fetal development studies.  Sponsors should conduct 
+reproductive toxicity studies in accordance with the ICH guidances on reproductive toxicity.  
+Sometimes the conduct of an embryo-fetal development toxicity study in only one species that 
+forms the drug metabolite can be justified.
+
+Contains Nonbinding Recommendations 
+ 
+7 
+D. 
+Carcinogenicity Studies 
+ 
+Carcinogenicity studies should be conducted on metabolites of drugs that are administered 
+continuously for at least 6 months or that are used intermittently to treat chronic or recurrent 
+conditions when the carcinogenic potential of the metabolite cannot be adequately evaluated 
+from carcinogenicity studies conducted with the parent drug.  Sponsors should conduct a single 
+carcinogenicity study or an alternative bioassay in accordance with the ICH guidances for 
+industry S1A The Need for Long-term Rodent Carcinogenicity Studies of Pharmaceuticals 
+(March 1996), S1B Testing for Carcinogenicity of Pharmaceuticals (July 1997), and S1C(R2) 
+Dose Selection for Carcinogenicity Studies (September 2008). 
+ 
+ 
+V. 
+TIMING OF SAFETY ASSESSMENTS 
+ 
+Early identification of disproportionate drug metabolites can provide clear justification for 
+nonclinical testing in animals, assist in interpreting and planning clinical studies, and prevent 
+delays in drug development.  If toxicity studies of a drug metabolite are warranted, sponsors 
+should complete studies and provide study reports to the FDA before beginning large-scale 
+clinical trials. 
+ 
+To optimize and expedite drug development for serious or life-threatening diseases other than 
+cancer (e.g., amyotrophic lateral sclerosis, stroke, human immunodeficiency virus), the number 
+and type of nonclinical studies for the drug metabolites can be modified on a case-by-case basis 
+for those drugs with major beneficial therapeutic advances and for drugs for illnesses that lack an 
+approved effective therapy.  Sponsors should contact the appropriate review division to discuss 
+such situations.
+
+Contains Nonbinding Recommendations 
+ 
+8 
+GLOSSARY 
+ 
+Disproportionate drug metabolite — A metabolite present only in humans or present at higher 
+plasma concentrations in humans than in the animals used in nonclinical studies.  In general, 
+these metabolites are of interest if they account for plasma levels greater than 10 percent of total 
+drug-related exposure, measured as area under the curve at steady state. 
+ 
+Metabolite — A compound derived from the parent drug through phase 1 and/or phase 2 
+metabolic pathways. 
+ 
+Pharmacologically active metabolite — A metabolite that has pharmacological activity at the 
+target receptor.  The activity may be greater than, equal to, or less than that of the parent drug.
+
+Contains Nonbinding Recommendations 
+ 
+9 
+APPENDIX A:  DECISION TREE FLOW DIAGRAM 
+ 
+ 
+ 
+ 
+ 
+ 
+Disproportionate Drug Metabolite 
+<10% of total drug-
+related exposure 
+(area under the curve) 
+No further testing needed 
+to evaluate metabolite 
+>10% of total drug-
+related exposure 
+(area under the curve) 
+Formed in any 
+animal test species? 
+Yes 
+How much? 
+No 
+Exposure in animal 
+studies does not approach 
+human exposure 
+Exposure in animal 
+studies does approach 
+human exposure 
+No further testing needed 
+to qualify metabolite 
+Nonclinical testing with 
+the drug metabolite
+
+Contains Nonbinding Recommendations 
+ 
+10 
+APPENDIX B:  CASE EXAMPLES OF DRUG METABOLITES 
+ 
+Case 1. 
+From an initial mass balance study, a metabolite represented 1 to 2 percent of total 
+radioactive dose in rat plasma, 5 percent in dogs, and 20 percent in humans (radioactivity 
+of this metabolite in urine and/or feces was minimal).  Based on the up-to-20-fold greater 
+exposure in humans than in animals, nonclinical safety testing was recommended.  
+However, the data generated in the general toxicology studies with the parent drug in the 
+rat and dog suggested that the maximum doses tested produced metabolite exposures that 
+represented at least the therapeutic exposure at the maximum recommended human dose.  
+Also, the plasma concentrations of this metabolite measured in the in vivo genetic 
+toxicity study, embryo-fetal development toxicity study, and carcinogenicity studies 
+conducted with the parent drug provided adequate exposure and characterization of the 
+metabolite.  Therefore, no additional testing with the metabolite was needed. 
+ 
+Case 2. 
+Two primary hydroxylated metabolites, M1 and M2, were shown to undergo further 
+oxidation to form secondary metabolites M3 and M4 using hepatic microsomes and 
+hepatocytes from human, monkey, rat, dog, rabbit, and mouse.  This metabolic profile 
+was later confirmed by in vivo data.  The results showed the following: 
+ 
+• M1 and M4 were the predominant metabolites in human, monkey, and dog 
+microsomes, whereas rat, mouse, and rabbit formed M2 and M3 
+ 
+• M4 was formed in humans at 4-fold higher levels than the parent drug and 75 
+percent of the total drug-related exposure, but M4 was formed at very low levels 
+in rodents and only represented 20 percent of the total drug-related exposure in 
+monkey (see Table 1) 
+ 
+Table 1:  AUC0-24hr at the Maximum Dose* 
+ 
+Human (MRHD)* Monkey 
+Rat 
+Total drug- 
+related exposure 
+10,220 
+24,240 
+15,135 
+Parent Exposure 1,800 
+15,000 
+12,500 
+M4 Exposure 
+7,700  
+5,000  
+135  
+* AUC = area under the curve; 
+MRHD = maximum recommended human dose 
+ 
+• Severe drug-related and novel target organ toxicities were observed with the 
+parent drug in monkeys but not in rats 
+ 
+• M4 was pharmacologically inactive at the drug target receptors
+
+Contains Nonbinding Recommendations 
+ 
+11 
+The following additional studies were done with M4: 
+ 
+• Subchronic toxicity study:  3 months in rats 
+ 
+• Embryo-fetal development study in the rats 
+ 
+• In vitro genotoxicity testing:  M4 was positive for point mutation and 
+chromosomal aberration; the parent drug was negative 
+ 
+• Because of the positive genotoxicity, a carcinogenicity study that included M4 
+was recommended 
+ 
+Case 3. 
+M2 is a phase 1 oxidative metabolite that formed up to 50 percent of total drug-related 
+exposure in humans, 10 percent of total drug-related exposure in mice, 15 percent of total 
+drug-related exposure in dogs, and only trace amounts in rats.  In vitro metabolism 
+studies in these species supported the in vivo findings.  Based on structure activity 
+relationship analyses, there was no reason to anticipate any difference or exaggeration in 
+toxicity of the metabolite compared with the parent molecule.  The parent drug showed 
+no significant toxicity or identifiable target organ of toxicity in any of the animal species 
+tested in safety assessment studies.  Because disproportionate human exposure was 
+identified, further safety testing was needed.  When M2 was tested in a short-term 
+tolerance study in the dog, it produced unexpected and significant cardiotoxicity at all 
+doses and in all of the dogs.  M2 was pharmacologically inactive at the therapeutic target 
+receptor.

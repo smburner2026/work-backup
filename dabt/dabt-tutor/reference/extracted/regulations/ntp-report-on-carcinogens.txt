@@ -1,0 +1,159 @@
+# Source: https://ntp.niehs.nih.gov/research/assessments/cancer/completed/roc
+# Source: https://ntp.niehs.nih.gov/sites/default/files/ntp/roc/content/introduction_508.pdf
+# Source: https://ntp.niehs.nih.gov/sites/default/files/ntp/roc/content/process_508.pdf
+# Retrieved: 2026-05-29
+
+NATIONAL TOXICOLOGY PROGRAM (NTP) REPORT ON CARCINOGENS (RoC)
+==============================================================
+
+OVERVIEW
+---------
+The Report on Carcinogens (RoC) is a congressionally mandated, science-based public health document
+that identifies agents, substances, mixtures, or exposure circumstances that may pose a cancer hazard
+to humans. Mandated by Congress in 1978 under the Public Health Service Act, Section 301(b)(4).
+
+Prepared by the National Toxicology Program (NTP) for the Secretary of Health and Human Services.
+Published periodically; 15th Edition released in 2021.
+
+LEGAL REQUIREMENTS
+-------------------
+The Public Health Service Act requires the RoC to contain:
+1. A list of all substances known or reasonably anticipated to be human carcinogens (to which a significant number of U.S. residents are exposed)
+2. Information on the nature and estimated number of persons exposed
+3. A statement identifying substances with no federal exposure standard
+4. A description of requests for carcinogenicity testing received and how addressed
+
+KEY STATISTICS (15th Edition)
+-------------------------------
+- ~1.9 million projected cancer cases and 608,570 cancer deaths for 2021 (US)
+- Every day: 5,200 diagnosed, 1,670 die from cancer in the US
+- 1 in 3 people in the US will develop cancer in their lifetime
+- 42% of newly diagnosed cancers and 45% of cancer deaths due to modifiable risk factors
+- Cancer mortality decreased 29% since 1991 (US)
+- Global: 18.1 million cases, 9.6 million deaths (2018); projected 27 million cases/year by 2040
+
+LISTING CRITERIA AND LEVELS
+-----------------------------
+
+Two listing categories:
+
+1. KNOWN To Be a Human Carcinogen
+   - Sufficient evidence of carcinogenicity from studies in humans (epidemiology)
+   - Indicates a causal relationship between exposure and human cancer
+
+2. REASONABLY ANTICIPATED To Be a Human Carcinogen
+   - Limited evidence of carcinogenicity from studies in humans (less than sufficient)
+   OR
+   - Sufficient evidence of carcinogenicity from studies in experimental animals
+   OR
+   - Evidence that the substance causes cancer through a mode/mechanism relevant to humans
+
+An additional category: DELISTED (substances previously listed but subsequently removed based
+on new evidence showing no carcinogenic hazard)
+
+SUBSTANCES LISTED AS KNOWN HUMAN CARCINOGENS (selected key examples)
+----------------------------------------------------------------------
+- Alcoholic Beverage Consumption
+- Aristolochic Acids
+- Beryllium and Beryllium Compounds
+- 1,3-Butadiene
+- Cadmium and Cadmium Compounds
+- Cyclosporin A
+- Dyes Metabolized to Benzidine
+- Environmental Tobacco Smoke
+- Epstein-Barr Virus
+- Estrogens, Steroidal
+- Ethylene Oxide
+- Formaldehyde
+- Hepatitis B Virus (HBV)
+- Hepatitis C Virus (HCV)
+- HIV-1
+- Human Papillomaviruses (some genital-mucosal types)
+- Nickel Compounds
+- Silica, Crystalline (Respirable Size)
+- Smokeless Tobacco
+- Solar Radiation
+- Strong Inorganic Acid Mists Containing Sulfuric Acid
+- Tamoxifen
+- 2,3,7,8-Tetrachlorodibenzo-p-dioxin (TCDD)
+- Thiotepa
+- Tobacco Smoking
+- Trichloroethylene (TCE)
+- o-Toluidine
+- Ultraviolet Radiation
+- Wood Dust
+- X-Radiation & Gamma Radiation
+
+SUBSTANCES LISTED AS REASONABLY ANTICIPATED (selected key examples)
+----------------------------------------------------------------------
+- Antimony Trioxide
+- 1-Bromopropane
+- Captafol
+- Ceramic Fibers (Respirable Size)
+- Chloroprene
+- Cobalt and Cobalt Compounds (releasing ions in vivo)
+- Cobalt-Tungsten Carbide Powders
+- Cumene
+- Diesel Exhaust Particulates
+- Furan
+- Haloacetic Acids (water disinfection by-products)
+- Isoprene
+- Lead and Lead Compounds
+- Methyleugenol
+- Naphthalene
+- Nickel (Metallic)
+- Nitrobenzene
+- Pentachlorophenol and By-products
+- Styrene
+- Tetrafluoroethylene
+- 1,2,3-Trichloropropane
+- Vinyl Bromide
+- Vinyl Fluoride
+
+THE FOUR-STEP EVALUATION PROCESS
+----------------------------------
+
+STEP 1: SELECT SUBSTANCES FOR EVALUATION
+- Public nominations open to all (public/private sectors)
+- May request: new listing, reclassification, or removal
+- NTP scoping and problem formulation: determine if adequate exposure and carcinogenicity data exist
+- Preliminary literature searches, Federal Register solicitations, consultation with partner agencies (CPSC, DoD, EPA, FDA, NCI, NCEH/ATSDR, NIEHS, NIOSH, OSHA)
+- Concept document drafted presenting rationale, public health significance, and objective
+- Board of Scientific Counselors (BSC) reviews at public meeting with comment opportunity
+- NTP Director makes final selection decision
+
+STEP 2: PREPARE DRAFT RoC MONOGRAPHS
+- Content: human exposure (U.S. focus), cancer studies in humans/animals, mechanisms of carcinogenicity, ADME data
+- Preliminary conclusions applying RoC Listing Criteria
+- Guided by Handbook for Preparation of RoC Monographs
+- Substance-specific Protocol posted to NTP website
+- Input from public comments and partner agencies during drafting
+
+STEP 3: CONVENE PEER REVIEW AND FINALIZE MONOGRAPHS
+- Federal Register notice posted; public comment invited
+- Peer review panel or letter review (per HHS peer review policies)
+- Peer review charges: technical correctness, significant human exposure in US, vote on level-of-evidence conclusions and listing status
+- NTP revises monograph based on peer review comments
+- BSC Briefing: NTP presents peer review outcome
+- Final monograph represents NTP's policy recommendation on listing status
+
+STEP 4: SUBMIT FOR APPROVAL AND PUBLISH
+- Draft substance profiles submitted to NTP Executive Committee
+- Submitted to Secretary of HHS for final review and approval
+- Upon approval: added to next RoC edition, published at ntp.niehs.nih.gov/go/roc
+- Transmitted to Congress; Federal Register notice announces outcomes
+
+WHAT A LISTING MEANS
+---------------------
+Identifies a POTENTIAL HAZARD. It does NOT:
+- Estimate cancer risk to individuals from real-world exposures
+- Rank substances by carcinogenic potency
+- Address potential benefits (e.g., chemotherapeutic agents)
+Formal risk assessments are the responsibility of regulatory agencies.
+
+IMPORTANT DISTINCTIONS FROM IARC
+----------------------------------
+- IARC evaluates carcinogenic hazard globally
+- NTP RoC focuses on substances to which US residents are exposed
+- RoC has Congressional mandate to include exposure information
+- Both use similar but not identical classification categories

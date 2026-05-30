@@ -1,0 +1,252 @@
+[
+  {
+    "id": "DABT-2069",
+    "explanation": "Correct answer: A — peripheral benzodiazepine receptors. Diazepam reverses chloroquine-induced cardiotoxicity by competitively antagonizing chloroquine at peripheral benzodiazepine receptors (PBR/TSPO) on the outer mitochondrial membrane of cardiac cells. In cocaine toxicity, diazepam controls seizures via GABA(A) receptor modulation, but the specific competitive antagonism mechanism is at peripheral BZ receptors for chloroquine. Distractor trap: Central GABA(A) receptors (B) mediate diazepam's antiseizure effects but are not the site of competitive antagonism with chloroquine. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2070",
+    "explanation": "Correct answer: C — \"It can be antagonized by naloxone\" is the FALSE statement (exception). ORL1 (opioid receptor-like 1, now the NOP receptor) is a G-protein-coupled receptor that binds nociceptin/orphanin FQ as its endogenous ligand (A — TRUE). It can bind opioid agonists and antagonists (B — TRUE, though with lower affinity than classical opioid receptors), and its brain distribution parallels that of other opioid receptor subtypes (D — TRUE). However, naloxone does NOT antagonize ORL1 — naloxone has negligible affinity for ORL1/NOP receptors, distinguishing ORL1 from classical μ, κ, and δ opioid receptors. Source: Goldfrank's Toxicologic Emergencies; Goodman & Gilman.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2106",
+    "explanation": "Correct answer: B — Begin N-acetylcysteine (NAC). When the time of acetaminophen overdose is uncertain but transaminases are already elevated, NAC should be initiated empirically without waiting for a timed serum level. The Rumack-Matthew nomogram requires a known ingestion time to be interpretable. Delaying treatment to obtain a timed level risks progression to liver failure. Distractor trap: Repeating transaminases in 8 hours (A) delays necessary therapy when they are already elevated. Source: Goldfrank's Toxicologic Emergencies; ACG guidelines.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2107",
+    "explanation": "Correct answer: D — The fetal liver will have decreased CYP450-mediated metabolism of acetaminophen compared to an adult. The fetal liver has immature CYP450 isozyme expression (particularly CYP2E1 and CYP3A4), resulting in substantially less formation of the toxic metabolite NAPQI. Statement A is FALSE — acetaminophen does cross the placenta. B is FALSE — NAC is safe in pregnancy and the benefit-risk strongly favors its use. C is FALSE — the risk of fetal liver damage is LOWER in the first trimester when CYP activity is at its nadir. Source: Goldfrank's Toxicologic Emergencies; Reproductive Toxicology.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2108",
+    "explanation": "Correct answer: A — \"The treatment nomogram is modified for alcoholics\" is the FALSE statement (exception). The Rumack-Matthew nomogram is NOT modified for chronic alcoholics — the same treatment line applies. B is TRUE: the presence of ethanol competitively inhibits CYP2E1, reducing NAPQI formation (protective if acute alcohol is present concurrently). C is TRUE: chronic alcoholics have induced CYP2E1, increasing NAPQI formation and hepatotoxicity risk. D is TRUE: alcoholics often have depleted hepatic glutathione due to malnutrition, further increasing susceptibility. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2109",
+    "explanation": "Correct answer: D — \"Use of 4 grams acetaminophen per day over 4 weeks is associated with a high risk of hepatotoxicity\" is the FALSE statement (exception). Therapeutic dosing of 4 g/day over 4 weeks in healthy adults is NOT associated with a high risk of hepatotoxicity — the liver's glutathione reserves adequately handle therapeutic doses. Statement A is TRUE: renal toxicity (analgesic nephropathy) can occur with chronic use. B is TRUE: minor PT prolongation can occur without hepatotoxicity via interference with vitamin K-dependent carboxylation. C is TRUE: overall mortality from APAP overdose is < 0.5% with NAC treatment. Distractor trap: The 4 g/day × 4 weeks scenario is only risky in patients with predisposing factors (malnutrition, chronic alcohol, CYP induction). Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2110",
+    "explanation": "Correct answer: B — hearing loss is NOT an indication for hemodialysis in salicylate overdose. Established indications for hemodialysis in salicylate poisoning include: acute lung injury (A), renal failure (C), hepatic injury with coagulopathy (D), severe metabolic acidosis (pH < 7.2), CNS symptoms (seizures, coma, cerebral edema), and extremely high serum levels (> 100 mg/dL acute, > 60 mg/dL chronic). Salicylate-induced hearing loss and tinnitus are common, dose-dependent, and reversible — they are NOT indications for dialysis. Source: Goldfrank's Toxicologic Emergencies; EXTRIP workgroup guidelines.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2111",
+    "explanation": "Correct answer: D — \"displacement of salicylate from alpha-1 acid glycoprotein\" is NOT an effect of serum alkalinization with IV sodium bicarbonate. Alkalinization works via three mechanisms: (A) correction of metabolic acidosis — salicylate disrupts oxidative phosphorylation, producing a mixed acid-base disturbance; (B) removal of salicylate from the CNS — alkaline serum pH traps salicylate in the ionized form in blood, reducing CNS penetration; (C) enhanced urinary excretion — alkaline urine (pH > 7.5) ionizes salicylic acid in tubular lumen, preventing reabsorption (ion trapping). Salicylate binds primarily to albumin, not alpha-1 acid glycoprotein, and bicarbonate does not cause displacement. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2112",
+    "explanation": "Correct answer: A — hypocarbia. Salicylate poisoning directly stimulates the medullary respiratory center, producing hyperventilation and hypocarbia (respiratory alkalosis). Ventilator settings must be adjusted to maintain the patient's preventilator level of hypocarbia, not to normalize to eucapnia. If the ventilator is set to normal PaCO₂ and the patient is then paralyzed, the abrupt correction of respiratory alkalosis can cause rapid acid-base decompensation (precipitating severe metabolic acidosis from unmasked salicylate effects). Distractor trap: Oxygen (B) is less critical — salicylate toxicity is primarily an acid-base disorder, not an oxygenation problem. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2113",
+    "explanation": "Correct answer: C — inhibition of endothelial-derived PGI₂ (prostacyclin). Selective COX-2 inhibitors (coxibs) block COX-2-derived PGI₂ in vascular endothelium while sparing COX-1-derived TXA₂ in platelets. This creates a prothrombotic imbalance: preserved platelet aggregation (TXA₂ intact) with reduced vasodilatory and antithrombotic protection (PGI₂ reduced), increasing the risk of thrombotic cardiovascular events (MI, stroke). Distractor trap: PGE₂ inhibition (D) mediates renal effects but is not the primary mechanism of increased CV risk. Source: Goldfrank's Toxicologic Emergencies; NEJM coxib cardiovascular safety trials.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2114",
+    "explanation": "Correct answer: A — TXA₂ (thromboxane A₂). COX-1 inhibitors (e.g., aspirin, other NSAIDs) block COX-1 in platelets, preventing the conversion of arachidonic acid to TXA₂, a potent platelet aggregator and vasoconstrictor. Because platelets are anucleate and cannot synthesize new COX-1, the antiplatelet effect persists for the platelet's lifespan (7–10 days). Distractor trap: PGF (B) and PGD (C) are involved in inflammation and vasodilation but not primarily in platelet aggregation. Leukotrienes (D) are products of the 5-lipoxygenase pathway, not COX. Source: Goldfrank's Toxicologic Emergencies; Goodman & Gilman.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2115",
+    "explanation": "Correct answer: D — hemodialysis is the exception (NOT usually included in the treatment of nonaspirin NSAID overdose). Management of NSAID overdose is generally supportive with: checking a serum APAP level (A) to rule out co-ingestion (common in intentional overdose), activated charcoal (B) if within 1–2 hours of ingestion, and proton pump inhibitors (C) for gastric irritation. Hemodialysis is NOT effective for NSAID overdose because NSAIDs are highly protein-bound (> 99%) with a large volume of distribution, making dialysis clearance negligible. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2116",
+    "explanation": "Correct answer: A — whole-bowel irrigation (WBI). Iron is radiopaque and is NOT adsorbed by activated charcoal. WBI with polyethylene glycol-electrolyte solution (GoLYTELY) is the most logical decontamination method to mechanically evacuate undissolved iron tablets from the GI tract before they dissolve and release ferrous iron. Distractor trap: Induced emesis (B) is unreliable and risks aspiration. Activated charcoal (C) does NOT bind iron ions. Magnesium hydroxide (D) has no role in iron decontamination. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2117",
+    "explanation": "Correct answer: B — gastric outlet obstruction (antral stenosis). A rare but serious late complication of severe iron overdose occurs 2–8 weeks post-ingestion: gastric outlet obstruction due to scarring and stricture formation from the corrosive mucosal injury caused by iron's direct caustic effects on the stomach (especially the antrum and pylorus). Distractor trap: Peripheral neuropathy (A) is not associated with acute iron overdose — iron toxicity targets the GI tract, liver, and cardiovascular system. Bronchiolitis obliterans (D) is caused by nitrogen dioxide (silo filler's disease). Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2118",
+    "explanation": "Correct answer: B — lung. Deferoxamine, the iron chelator used for acute iron poisoning, causes pulmonary toxicity as its primary dose-limiting adverse effect. Prolonged high-dose deferoxamine therapy can produce acute respiratory distress syndrome (ARDS) and pulmonary fibrosis. Deferoxamine can also cause Yersinia enterocolitica sepsis (iron promotes Yersinia growth), ocular toxicity, and ototoxicity. Distractor trap: Liver (A) and kidney (C) are target organs of iron toxicity itself, not of deferoxamine. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2119",
+    "explanation": "Correct answer: C — vomiting. In the first 6 hours after significant iron overdose (Stage 1), iron's direct corrosive effects on gastrointestinal mucosa cause nearly universal nausea, vomiting (often with hematemesis), and diarrhea. The vomiting leads to volume depletion and may contain iron tablets. Distractor trap: An asymptomatic period (D) — patients may seem to improve for 6–24 hours after Stage 1 resolves before developing metabolic acidosis and shock (Stage 2) — but Stage 1 itself is dominated by vomiting, not an asymptomatic period. Bradycardia (A) and respiratory depression (B) occur later if at all. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2120",
+    "explanation": "Correct answer: B — intravenous calcium is NOT indicated in the treatment of vitamin A toxicity. Management of acute hypervitaminosis A includes: dexamethasone (A — reduces intracranial pressure in pseudotumor cerebri), loop diuretics (C — to lower CSF pressure), and activated charcoal (D — decontamination for acute ingestion). Intravenous calcium (B) has no role — vitamin A toxicity does NOT cause hypocalcemia; hypercalcemia is characteristic of vitamin D toxicity, not vitamin A. Calcium administration could worsen symptoms. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2121",
+    "explanation": "Correct answer: D — thiazide diuretics are the exception (NOT indicated). Vitamin D overdose causes hypercalcemia. Management includes: bisphosphonates (A — inhibit osteoclast-mediated bone resorption, reducing calcium release from bone), corticosteroids (B — decrease intestinal calcium absorption and inhibit vitamin D metabolism), and calcitonin (C — rapidly lowers serum calcium by inhibiting osteoclasts and increasing renal calcium excretion). Thiazide diuretics (D) are CONTRAINDICATED because they decrease urinary calcium excretion (increase distal tubular calcium reabsorption), worsening hypercalcemia. Distractor trap: Loop diuretics can be used for hypercalcemia, but thiazides cannot. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2122",
+    "explanation": "Correct answer: C — pyridoxine (vitamin B₆). High-dose pyridoxine supplementation (> 200 mg/day chronically) produces a characteristic sensory peripheral neuropathy (dorsal root ganglionopathy), which can be irreversible even after cessation. The mechanism involves direct neurotoxicity to dorsal root ganglion sensory neurons. This was initially recognized in the 1980s from megadose vitamin B₆ for carpal tunnel syndrome and premenstrual syndrome. Distractor trap: Niacin (D) causes flushing and hepatotoxicity, not neuropathy. Vitamin E (A) and vitamin C (B) do not cause neuropathy at typical doses. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2123",
+    "explanation": "Correct answer: C — pyridoxine is LEAST likely to cause coagulopathy. Vitamin A (A) — chronic toxicity can prolong PT via interference with vitamin K-dependent clotting factor synthesis. Vitamin E (B) — high doses can antagonize vitamin K, causing coagulopathy, especially in patients on warfarin or with vitamin K deficiency. Niacin (D) — rare reports of thrombocytopenia and prolonged PT. Pyridoxine (C) — causes sensory neuropathy as its primary toxicity but no coagulopathy. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2124",
+    "explanation": "Correct answer: D — It is not a significant clinical concern. Although ascorbic acid (vitamin C) is metabolized to oxalate and high doses theoretically increase urinary oxalate excretion, clinical studies have not demonstrated a meaningful increased risk of oxalate nephrolithiasis in patients with normal renal function. The concern is largely theoretical. Distractor trap: In patients with renal failure, primary hyperoxaluria, or other oxalate-processing disorders, the risk is higher, but these are specific subpopulations. The question asks about the general association. Source: Goldfrank's Toxicologic Emergencies; Clinical Toxicology.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2125",
+    "explanation": "Correct answer: C — alpha-glucosidase inhibitors (acarbose, miglitol) are LEAST likely to cause hypoglycemia in overdose. These agents delay carbohydrate digestion and absorption in the small intestine without stimulating insulin secretion or increasing insulin sensitivity. Overdose causes flatulence, diarrhea, and abdominal bloating but NOT hypoglycemia. First-generation sulfonylureas (A), meglitinides (B), and second-generation sulfonylureas (D) all stimulate pancreatic insulin secretion and readily produce hypoglycemia in overdose. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2126",
+    "explanation": "Correct answer: B — sulfonylureas. The triad of hypoglycemia + HIGH insulin + HIGH C-peptide + absent insulin antibodies is diagnostic of endogenous hyperinsulinemia caused by sulfonylurea overdose. Sulfonylureas stimulate pancreatic beta cells to secrete endogenous insulin, releasing both insulin and C-peptide (co-secreted in equimolar amounts). Exogenous insulin (A) would produce HIGH insulin but LOW C-peptide (because exogenous insulin suppresses endogenous production). Corticosteroids (C) cause hyperglycemia, not hypoglycemia. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2127",
+    "explanation": "Correct answer: D — none of the above. Glucagon is the drug of choice specifically for beta-blocker and calcium channel blocker overdose (via activation of adenylate cyclase, bypassing blocked receptors to produce positive inotropic and chronotropic effects). It is NOT the drug of choice for any of the listed agents. For sulfonylurea overdose (A), octreotide (somatostatin analog) plus dextrose is the treatment. For metformin (B), treatment is supportive with dextrose for hypoglycemia and bicarbonate/RRT for lactic acidosis. For alpha-glucosidase inhibitors (C), overdose does not cause clinically significant hypoglycemia. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2128",
+    "explanation": "Correct answer: D — neuromuscular blockade. Aminoglycosides (gentamicin, tobramycin, amikacin) can produce neuromuscular blockade by (1) inhibiting presynaptic acetylcholine release (calcium-dependent) and (2) blocking postsynaptic nicotinic acetylcholine receptors. This can cause a myasthenia-like syndrome of muscle weakness and respiratory depression, particularly dangerous in patients with myasthenia gravis or when combined with neuromuscular blocking agents or magnesium. Distractor trap: Aseptic meningitis (A) is associated with NSAIDs, IVIG, and some antibiotics (TMP-SMX, amoxicillin), not aminoglycosides. Source: Goldfrank's Toxicologic Emergencies; Goodman & Gilman.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2129",
+    "explanation": "Correct answer: D — tendon rupture. Fluoroquinolones (ciprofloxacin, levofloxacin, moxifloxacin) carry a well-documented, FDA black-box-warned risk of tendinitis and tendon rupture (most commonly the Achilles tendon). The mechanism involves altered collagen synthesis and matrix metalloproteinase activity affecting extracellular matrix integrity. The risk is higher in patients > 60 years, those on corticosteroids, and those with renal impairment. Distractor trap: Nonproductive cough (B) is classic for ACE inhibitors. Alopecia (C) is associated with chemotherapeutic agents. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2130",
+    "explanation": "Correct answer: A — nucleoside analog reverse transcriptase inhibitors (NRTIs). Lactic acidosis is a serious, potentially fatal adverse effect of NRTIs (especially didanosine, stavudine, zidovudine) due to inhibition of mitochondrial DNA polymerase γ. This impairs mitochondrial oxidative phosphorylation, causing accumulation of pyruvate that is shunted to lactate. The syndrome often presents with hepatic steatosis and severe lactic acidosis (type B). Distractor trap: Penicillin (B), vancomycin (C), and aminoglycosides (D) do not inhibit mitochondrial DNA polymerase and are not associated with lactic acidosis. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2131",
+    "explanation": "Correct answer: D — procaine penicillin G. The Jarisch-Herxheimer reaction is an acute febrile reaction occurring within 2–24 hours of initiating antibiotic treatment for spirochetal infections (syphilis, Lyme disease, leptospirosis). It is most classically seen with penicillin treatment of syphilis. The reaction manifests as fever, chills, myalgias, headache, and exacerbation of skin lesions, thought to result from rapid release of spirochetal lipoproteins (endotoxin-like) following bacterial lysis. Distractor trap: Amphotericin B (A) causes infusion-related reactions (fever, rigors, hypoxia) but this is not the Jarisch-Herxheimer reaction. Source: Goldfrank's Toxicologic Emergencies; Harrison's.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2132",
+    "explanation": "Correct answer: B — Coagulation problems can persist for weeks in intentional overdose. Long-acting anticoagulant rodenticides (LAARs — brodifacoum, bromadiolone, difenacoum) are superwarfarins with extremely long elimination half-lives (brodifacoum: 16–60 days in humans). Intentional overdose produces prolonged coagulopathy requiring sustained high-dose vitamin K₁ therapy for weeks to months. Statement A is FALSE — intentional overdoses cause far more severe coagulopathy than small unintentional ingestions. C is FALSE — the 48-hour INR is more clinically relevant than the 4-hour INR for LAARs. D is FALSE — not all children with a single unintentional dose need 12-hour hospitalization. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2133",
+    "explanation": "Correct answer: C — prothrombin complex concentrate (PCC) infusion. For life-threatening bleeding in warfarin/superwarfarin overdose in a hemodynamically stable patient, 4-factor PCC (containing factors II, VII, IX, X, plus proteins C and S) is the ideal immediate reversal agent. PCC provides rapid (minutes) and complete hemostatic correction with a small volume infusion. FFP/fresh frozen plasma (D) is a reasonable alternative but requires large volumes, ABO compatibility, takes longer to infuse, and carries infection risk. IV vitamin K (A) takes 6–24 hours to fully correct the INR and is insufficient as monotherapy for life-threatening bleeding. Source: Goldfrank's Toxicologic Emergencies; CHEST/ACCP guidelines.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2134",
+    "explanation": "Correct answer: A — phenobarbital. Phenobarbital is a potent inducer of hepatic CYP450 enzymes (particularly CYP3A4 and CYP2C9, which metabolize superwarfarins). By inducing these enzymes, phenobarbital can theoretically accelerate the hepatic clearance of long-acting anticoagulant rodenticides (brodifacoum, bromadiolone), thereby shortening the duration of coagulopathy. Distractor trap: Cimetidine (B) is a CYP inhibitor that would slow clearance and prolong coagulopathy — the exact opposite effect. Omeprazole (C) and quinine (D) do not significantly affect superwarfarin metabolism. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2135",
+    "explanation": "Correct answer: C — subcutaneous. In patients with GI hemorrhage secondary to warfarin-like anticoagulants who do NOT have life-threatening bleeding (the previous question addressed that scenario with PCC), subcutaneous vitamin K administration is the recommended route when oral vitamin K is not feasible due to GI bleeding. Subcutaneous injection avoids the risk of hematoma from intramuscular injection (B) in a coagulopathic patient and avoids the potential anaphylactoid reactions associated with IV administration (D). Sublingual vitamin K (A) has unreliable absorption. IV vitamin K is reserved for life-threatening hemorrhage requiring immediate reversal. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2136",
+    "explanation": "Correct answer: A — high-dose aspirin is the exception (NOT indicated). Management of acute thyroid hormone overdose (thyrotoxicosis factitia) includes: acetaminophen (B — for fever and pain), activated charcoal (C — if recent ingestion, binds thyroid hormone in the gut, and cholestyramine can also be used to interrupt enterohepatic recirculation), and beta-blockers (D — for hyperadrenergic symptoms: tachycardia, hypertension, anxiety). High-dose aspirin (A) is contraindicated because it displaces thyroid hormone from serum binding proteins (TBG, transthyretin, albumin), increasing free T₃/T₄ levels and potentially worsening thyrotoxicosis. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2137",
+    "explanation": "Correct answer: C — diltiazem. In patients with asthma who develop tachycardia/hypertension from thyroid hormone overdose, non-selective beta-blockers (the standard first-line agents for thyrotoxicosis symptoms) are relatively contraindicated due to the risk of bronchospasm. Diltiazem (a non-dihydropyridine calcium channel blocker) is an alternative that slows AV conduction, reduces heart rate, and lowers blood pressure without causing bronchoconstriction. Distractor trap: Nifedipine (A) and nicardipine (B) are dihydropyridine CCBs with predominant vasodilatory effects — they reduce blood pressure but may cause reflex tachycardia, which is undesirable. Nimodipine (D) is used for cerebral vasospasm. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2138",
+    "explanation": "Correct answer: B — phenobarbital. In thyroid hormone overdose, phenobarbital provides two therapeutic effects: (1) sedation for the agitated/hyperkinetic patient, and (2) induction of hepatic microsomal enzymes (UDP-glucuronosyltransferases), which enhances the glucuronidation and biliary elimination of thyroid hormone. This accelerates clearance of the excess hormone. Distractor trap: Midazolam (A) and propofol (C) provide sedation but do NOT enhance thyroid hormone elimination. Mannitol (D) is an osmotic diuretic with no role in thyroid hormone overdose. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2139",
+    "explanation": "Correct answer: D — none of the above. Primary therapy for acute thyroid hormone overdose is supportive care including: beta-blockers for hyperadrenergic symptoms, decontamination with activated charcoal plus cholestyramine (to interrupt enterohepatic recirculation), and aggressive cooling for hyperthermia. Corticosteroids (A) are adjunctive — they inhibit peripheral T₄-to-T₃ conversion but are not primary therapy. Propylthiouracil/PTU (B) blocks new thyroid hormone synthesis — ineffective as primary treatment since the overdose consists of preformed T₃/T₄. Iodine contrast media (C) are not used. Therefore, \"none of the above\" is correct. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2140",
+    "explanation": "Correct answer: C — warming blankets are the exception (NOT indicated). Management of H₁ receptor antagonist (first-generation antihistamine, e.g., diphenhydramine) overdose includes: lorazepam (A — benzodiazepines for seizure control), physostigmine (B — for refractory anticholinergic delirium, reverses central anticholinergic syndrome by inhibiting acetylcholinesterase), and sodium bicarbonate (D — for QRS widening from sodium channel blockade, which is a dose-dependent effect of diphenhydramine). Warming blankets (C) are NOT indicated — hyperthermia from anticholinergic poisoning should be treated with active cooling measures (evaporative cooling with mist and fans), not with warming blankets. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2141",
+    "explanation": "Correct answer: A — serum gamma glutamyl transpeptidase (GGT) is the LEAST important in the acute management of intentional H₁ antagonist overdose. ECG (B) is critical — first-generation antihistamines (especially diphenhydramine) cause sodium channel blockade with QRS widening, which can be treated with sodium bicarbonate. Creatine phosphokinase/CPK (C) is important to monitor for rhabdomyolysis from prolonged seizures or severe agitation. Serum acetaminophen level (D) is prudent to rule out co-ingestion, which is common in intentional polysubstance overdose. GGT (A) is a marker of chronic hepatic enzyme induction — not specifically important for acute antihistamine overdose management. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2142",
+    "explanation": "Correct answer: D — H₂ receptor antagonist oral overdose is associated with a generally good outcome. H₂RAs (cimetidine, famotidine, nizatidine, ranitidine) have a wide therapeutic index and produce minimal to no toxicity in acute overdose. They may cause minor anticholinergic effects (dry mouth, dizziness) but life-threatening toxicity is extremely rare. Statement A is FALSE — H₂ antagonist overdose is NOT managed identically to H₁ antagonist overdose (H₁ antagonists cause severe anticholinergic toxicity, seizures, and dysrhythmias). B and C are FALSE — aggressive interventions like orogastric lavage and seizure prophylaxis are rarely needed. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2143",
+    "explanation": "Correct answer: D — propranolol should be AVOIDED. Decongestants (pseudoephedrine, phenylephrine) are indirect and direct sympathomimetics causing hypertension, tachycardia, and agitation. Propranolol (a non-selective beta-blocker) is dangerous because blocking beta₂ receptors leaves unopposed alpha₁-mediated vasoconstriction, potentially worsening hypertension and risking stroke. The preferred management is: activated charcoal (A — if early), benzodiazepines (B — for agitation and mild hypertension), and phentolamine (C — alpha-blocker for direct reversal of vasoconstriction in severe hypertension). Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2144",
+    "explanation": "Correct answer: B — amiodarone and lidocaine. For decongestant-induced ventricular dysrhythmias, first-line antiarrhythmic agents are amiodarone (class III) and lidocaine (class IB). These do not prolong QRS or exacerbate the underlying sodium channel/sympathomimetic state. Class IA agents like quinidine and procainamide (C) should be AVOIDED as they can further widen QRS and worsen dysrhythmias. Verapamil and diltiazem (A) are calcium channel blockers used primarily for atrial dysrhythmias. Beta-blockers can cause unopposed alpha-mediated vasoconstriction. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2145",
+    "explanation": "Correct answer: A — metoprolol is the exception (should NOT be used). Triptans (5-HT₁B/1D agonists such as sumatriptan, rizatriptan) can cause vasoconstriction including coronary and peripheral arterial spasm. Management includes: phentolamine (B — alpha-adrenergic blocker that reverses vasoconstriction), nitroglycerine (C — vasodilator for coronary vasospasm), and sodium nitroprusside (D — potent vasodilator for hypertensive emergency). Metoprolol (a beta-1 selective blocker) does not relieve vasoconstriction and may worsen it through unopposed alpha-adrenergic activity. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2146",
+    "explanation": "Correct answer: B — vomiting is less in triptan overdose compared to ergot overdose. Ergotamine and other ergot alkaloids cause severe nausea and vomiting via direct activation of the chemoreceptor trigger zone and potent GI effects. Triptans have a much lower incidence of GI side effects in overdose. Statement A is FALSE — calcium channel blockers can be beneficial for both ergot and triptan-induced vasospasm. C is FALSE — coronary ischemia can occur with both drug classes. D is FALSE — diuretics are not indicated for hypertension management in either case. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2147",
+    "explanation": "Correct answer: C — myocardial valvular abnormalities. Weight loss drugs (fenfluramine, dexfenfluramine — withdrawn from market), methylsergide (ergot alkaloid for migraine prophylaxis), and ergotamine have all been associated with cardiac valvular fibrosis (mitral, aortic, tricuspid regurgitation). The mechanism involves activation of 5-HT₂B serotonin receptors on cardiac valvular interstitial cells, stimulating fibroblast proliferation and extracellular matrix deposition. Distractor trap: Parkinson's disease (B) is associated with MPTP, not these agents. Hepatic angiosarcoma (D) is associated with vinyl chloride, Thorotrast, and arsenic. Source: Goldfrank's Toxicologic Emergencies; NEJM.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2148",
+    "explanation": "Correct answer: C — topiramate. Topiramate inhibits carbonic anhydrase (isozymes II and IV) in the renal proximal tubule, causing bicarbonate wasting in the urine. This produces a non-anion gap (hyperchloremic) metabolic acidosis that is dose-dependent and can persist with chronic therapy. The acidosis is usually mild but can become clinically significant in overdose or in patients with predisposing conditions. Distractor trap: Phenytoin (A) does not affect acid-base balance — its chronic toxicity causes folate deficiency and megaloblastic anemia. Gabapentin (B) and levetiracetam (D) are not associated with metabolic acidosis. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2149",
+    "explanation": "Correct answer: A — valproic acid is LEAST likely to cause DRESS syndrome. DRESS (Drug Reaction with Eosinophilia and Systemic Symptoms) syndrome is a severe hypersensitivity reaction with fever, rash, eosinophilia, and multi-organ involvement. It is most strongly associated with aromatic anticonvulsants: phenytoin (B), carbamazepine (C), primidone (D), and phenobarbital. These drugs form reactive arene oxide metabolites that trigger T-cell-mediated hypersensitivity. Valproic acid (A) is not an aromatic anticonvulsant — it does NOT produce arene oxide metabolites and has a much lower risk of DRESS/hypersensitivity reactions. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2150",
+    "explanation": "Correct answer: D — elevation of glucose (hyperglycemia). In calcium channel blocker (CCB) overdose, hyperglycemia is a well-documented marker of poisoning severity. CCBs inhibit L-type calcium channels on pancreatic beta cells, impairing calcium-dependent insulin secretion. This causes relative insulin deficiency and hyperglycemia. The degree of hyperglycemia correlates with the severity of CCB poisoning and predicts poor outcomes. Distractor trap: Hyperkalemia (A) is NOT characteristic of CCB overdose — CCB overdose does not cause potassium shifts. Ionized calcium (C) is typically normal or low-normal. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2151",
+    "explanation": "Correct answer: D — verapamil. Among calcium channel blockers, verapamil has the most potent negative inotropic effect in overdose. Verapamil (a phenylalkylamine) has strong myocardial depressant effects: it blocks L-type calcium channels in cardiac myocytes, reducing contractility (negative inotropy), slowing SA node firing, and inhibiting AV conduction (negative dromotropy). Nifedipine (B) and nicardipine (A) are dihydropyridines with predominant peripheral vasodilator effects and relatively less direct cardiac depression. Diltiazem (C) is intermediate, with effects on the AV node but less direct myocardial depression than verapamil. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2152",
+    "explanation": "Correct answer: A — \"Nausea and vomiting are common early manifestations\" is the FALSE statement (exception). Nausea and vomiting are NOT characteristic early features of calcium channel blocker overdose. The correct manifestations are: B is TRUE — hypotension is a hallmark of CCB overdose (from vasodilation and/or negative inotropy). C is TRUE — CNS depression is uncommon without severe hypotension and cerebral hypoperfusion. D is TRUE — all CCB classes (verapamil, diltiazem, and even dihydropyridines in large overdose) can produce severe bradycardia. The classic triad of severe CCB overdose is: hypotension, bradycardia, and hyperglycemia. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  },
+  {
+    "id": "DABT-2153",
+    "explanation": "Correct answer: C — physostigmine is the exception (NOT useful for CCB overdose). Established treatments for CCB overdose include: glucagon (A — positive inotrope/chronotrope by activating adenylate cyclase via its own G-protein-coupled receptor, bypassing blocked L-type calcium channels), high-dose insulin euglycemia therapy / HIET (B — improves myocardial carbohydrate utilization and enhances contractility in the setting of CCB-induced insulin resistance), and intravenous calcium (D — calcium salts (CaCl₂ or Ca-gluconate) to overcome calcium channel blockade at L-type channels via mass action). Physostigmine (C) is a cholinesterase inhibitor used specifically for anticholinergic poisoning — it has NO role in CCB overdose and may worsen bradycardia, exacerbating the toxicity. Source: Goldfrank's Toxicologic Emergencies.",
+    "domain": "Domain IV / Applied Toxicology"
+  }
+]

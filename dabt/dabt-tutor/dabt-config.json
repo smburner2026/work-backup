@@ -1,6 +1,6 @@
 {
   "config_version": "1.0.0",
-  "last_updated": "2026-05-20",
+  "last_updated": "2026-05-30",
   "project": {
     "name": "DABT Tutor",
     "workdir": "/root/work/dabt/dabt-tutor",
@@ -29,19 +29,19 @@
           "C. Interpret": 16
         },
         "db_questions": 981,
-        "db_pct": 20.3,
-        "weight_gap": -15.7,
-        "status": "UNDERWEIGHT \u2014 largest sub-domain (Interpret 16%) has best DB coverage"
+        "db_pct": 25.8,
+        "weight_gap": -10.2,
+        "status": "UNDERWEIGHT -- 25.8% of DB for 36% of exam; Interpret sub-domain (16%) best covered with 136 Qs"
       },
       "II. Mechanistic Toxicology": {
         "weight_pct": 13,
         "tasks": 8,
         "knowledge_topics": 27,
         "sub_domains": {},
-        "db_questions": 673,
-        "db_pct": 13.9,
-        "weight_gap": 0.9,
-        "status": "ADEQUATE"
+        "db_questions": 675,
+        "db_pct": 17.8,
+        "weight_gap": 4.8,
+        "status": "OVERWEIGHT -- 17.8% of DB for 13% of exam; adequate within margin"
       },
       "III. Risk Assessment": {
         "weight_pct": 38,
@@ -54,9 +54,9 @@
           "D. Risk Characterization & Management": 9
         },
         "db_questions": 210,
-        "db_pct": 4.3,
-        "weight_gap": -33.7,
-        "status": "CRITICAL \u2014 55 knowledge topics but only 210 Qs; 172/210 have no sub-domain assigned",
+        "db_pct": 5.5,
+        "weight_gap": -32.5,
+        "status": "CRITICAL -- 5.5% of DB for 38% of exam; 172/210 Qs have no sub-domain assigned",
         "synthetic_questions_target": 600,
         "depletion_warning_at": 50
       },
@@ -65,10 +65,10 @@
         "tasks": 12,
         "knowledge_topics": 25,
         "sub_domains": {},
-        "db_questions": 2850,
-        "db_pct": 58.9,
-        "weight_gap": 45.9,
-        "status": "OVERWEIGHT \u2014 60% of DB for 13% of exam; useful for targeted organ-system drilling"
+        "db_questions": 2851,
+        "db_pct": 75.1,
+        "weight_gap": 62.1,
+        "status": "OVERWEIGHT -- 75.1% of DB for 13% of exam; useful for targeted organ-system drilling"
       }
     }
   },
@@ -76,74 +76,79 @@
     "primary": {
       "path": "reference/data/dabt.db",
       "type": "sqlite",
-      "total_questions": 4841,
-      "domain_coverage_pct": 97.4,
+      "total_questions": 3796,
+      "domain_coverage_pct": 100.0,
       "quality": {
-        "with_explanation": 4840,
+        "with_explanation": 3796,
         "explanation_pct": 100.0,
-        "with_bloom_level": 4841,
+        "with_bloom_level": 3796,
         "bloom_level_pct": 100.0,
-        "notes": "Bloom levels need full population. Explanations need writing for remaining 3,387 Qs."
+        "notes": "Post-quarantine: 3796 Qs remain after quarantine. All have explanations + bloom levels. 1 Q missing correct_answer_text (3795/3796)."
       },
       "domain_distribution": {
         "Domain I": {
           "count": 981,
-          "pct": 20.3
+          "pct": 25.8
         },
         "Domain II": {
-          "count": 673,
-          "pct": 13.9
+          "count": 675,
+          "pct": 17.8
         },
         "Domain III": {
           "count": 210,
-          "pct": 4.3
+          "pct": 5.5
         },
         "Domain IV": {
-          "count": 2850,
-          "pct": 58.9
+          "count": 2851,
+          "pct": 75.1
         }
       },
       "source_banks": {
         "2000Q Bank": {
           "format": "comprehensive",
-          "count": 1801,
-          "pct": 37.2
+          "count": 1351,
+          "pct": 35.6
         },
         "Chapter Tests": {
           "format": "chapter-based",
-          "count": 1119,
-          "pct": 23.1
+          "count": 904,
+          "pct": 23.8
         },
         "Past ABT Exams (2008-2014)": {
           "format": "real-exam",
-          "count": 767,
-          "pct": 15.8
+          "count": 763,
+          "pct": 20.1
         },
         "Mini-ABT 1-11": {
           "format": "mini-exam",
-          "count": 446,
-          "pct": 9.2
-        },
-        "Past ABT Exams (PDFs)": {
-          "format": "real-exam",
-          "count": 355,
-          "pct": 7.3
+          "count": 399,
+          "pct": 10.5
         },
         "Kristen Mini Exams": {
           "format": "mini-exam",
-          "count": 208,
-          "pct": 4.3
+          "count": 182,
+          "pct": 4.8
         },
         "Kristen Topic Tests": {
           "format": "topic-based",
-          "count": 145,
+          "count": 112,
           "pct": 3.0
+        },
+        "Past ABT Exams (PDFs)": {
+          "format": "real-exam",
+          "count": 82,
+          "pct": 2.2
+        },
+        "User-Contributed": {
+          "format": "user-contributed",
+          "count": 3,
+          "pct": 0.1
         }
       },
       "domain_iii_detail": {
         "unassigned_sub_domain": 172,
         "D.RiskChar&Mgmt": 38,
-        "notes": "No questions assigned to Hazard ID, Exposure Assessment, or Dose Response Assessment sub-domains. Full sub-domain classification of the 172 unassigned Qs is needed before synthetic question generation."
+        "notes": "172 of 210 Domain III Qs (81.9%) unassigned at sub-domain level. No questions assigned to Hazard ID, Exposure Assessment, or Dose Response Assessment sub-domains. Sub-domain classification needed before synthetic question generation."
       }
     },
     "legacy": {
@@ -275,6 +280,8 @@
     "state_path": "progress/state.json",
     "deep_dives_dir": "deep-dives/",
     "drills_dir": "drills/",
+    "wiki_dir": "wiki/",
+    "miss_journal_backup_dir": "miss-journal-backup/",
     "template_path": "progress/template.json"
   },
   "learner": {
@@ -383,8 +390,8 @@
       "title": "Make skills consume dabt-config.json at runtime",
       "priority": "high",
       "scope": "Patch all 6 DABT skills to read paths/weights/targets from this config instead of hardcoding",
-      "status": "in_progress",
-      "notes": "exam-weights.json predecessor already created; this config supersedes it. Skills patched to read exam_blueprint weights; still need to patch path resolution."
+      "status": "completed",
+      "notes": "All 7 DABT skills patched to resolve paths from config. New keys added: wiki_dir, miss_journal_backup_dir. Bootstrap entry point path retained in project-workflow (unavoidable)."
     },
     "6_digest_past_exams": {
       "title": "Extract raw recert exam files into DB and/or reference pipeline",

@@ -1,0 +1,92 @@
+---
+name: dabt-reference
+description: "Primary reference lookup for DABT study — G-Brain vector search + cross-source synthesis across Casarett & Doull 9e, Hayes 7e, regulatory guidelines, ABT handbook. File search fallback for page-level depth."
+category: education
+---
+
+# DABT Reference Lookup
+
+## Trigger
+Load when: drill question needs sourced explanation (DB Explanation empty) | deep dive needs citations | "what does Casarett say about X" | "look up Y in Hayes" | "→ Read: [source]" drill feedback | truth audit | flashcard fact verification. Load `dabt-project-workflow` first for config (source directories, extracted paths).
+
+## Content Gap Discovery (When Material Is Missing)
+
+When the user asks about missing content or you discover the library is incomplete:
+
+1. **Audit what's on disk** — Compare the regulations/ directory (or relevant source dir) against the DABT exam outline. List files, count them, note what's present and what's absent.
+2. **PRESENT findings FIRST** — Show the user the gap analysis: what's there, what's missing, prioritized by DABT exam weight. Include file counts and size estimates. **Do not start downloading.** The user needs to see the map before approving the route.
+3. **Get confirmation** — Let the user confirm the priority list and batch sizes before any downloads begin.
+4. **Cron-job exception** — When this skill is triggered from a cron job (no user present — detectable via the system prompt note: "You are running as a scheduled cron job"), steps 2-3 are skipped. The user already specified exact targets in the cron definition. Proceed directly to downloading.
+5. **Download via background-agents or cron** — Batch downloads of 5+ documents MUST use async methods (cron jobs or background agents), NOT synchronous `delegate_task`:
+   - **1–4 docs** → small synchronous batch is acceptable
+   - **5+ docs** → use `background-agents` skill (cronjob with `schedule='1m'`, `repeat=1`, `enabled_toolsets=['web','terminal','file']`)
+   - **3+ parallel batches** → multiple cron jobs, not multiple delegate_task calls
+5. **Verify files landed** — When the background job reports back, check file sizes (not empty/truncated) before telling the user it's done.
+6. **Update index.json** — After new files arrive:
+   - Read the current `index.json` from the regulations/ (or relevant source) directory
+   - Add entries for new files with `title`, `category`, `file`, and `pages` fields
+   - Rebuild the full index (don't just append — recalculate `total_documents` and sort)
+   - Write the updated file. The index is what makes `search_files` and G-Brain sync discover new content.
+
+**Critical pitfall — synchronous timeout cascade:** `delegate_task` blocks the LLM turn. A subagent searching/downloading/parsing 15–20 government PDFs can take several minutes. The model provider will timeout, the session will drop all work-in-progress, and zero output reaches the user. Using cron jobs for large batches decouples the download time from the conversation and avoids this entirely.
+
+**Download strategy by content type:**
+- **HTML pages** (EPA summaries, ECHA, OSHA text): Use `web_extract` directly — fast enough for 10+ pages in a single session. Up to 5 URLs per call.
+- **eCFR content**: Use `https://www.ecfr.gov/current/` path (NOT `/api/versioner/` which returns 404). `web_extract` handles this well.
+- **PDFs** (full guideline documents): Use pdftotext. For 5+ PDFs, use cron/background-agents to avoid timeout.
+- **Multi-page composition**: For comprehensive coverage, compile from 2-4 source URLs per document. Each extracted section adds a `# Source: <url>` comment.
+- See `references/regulatory-source-urls.md` for verified source URLs by regulatory body.
+
+## Reference Library
+Extracted texts at `config['reference_library']['extracted_dir']` from `dabt-config.json`. Searchable sources:
+
+| Source | Chapters | Size | 
+|--------|---------|------|
+| Casarett & Doull 9e | 35 ch | 10 MB |
+| Hayes 7e | 35 ch | 10 MB |
+| ABT Handbook | full | | 
+| FDA Redbook | full | |
+| EPA Guidelines | full | |
+| ICH Guidelines | full | |
+| NTP Studies | various | |
+
+## Lookup Workflow (3-Pass)
+
+**CRITICAL: G-Brain is PRIMARY.** Every reference lookup starts with G-Brain. File search is fallback.
+
+### Pass 1 — Identify Target (G-Brain)
+Query gbrain for the concept + source tag. Determine which source and chapter contain the answer.
+
+**Pass 1 commands:**
+- `mcp_gbrain_query(query, limit=5)` — cross-source synthesis
+- `mcp_gbrain_think(question)` — multi-hop synthesis when you need to connect concepts across sources
+
+**Pass 1 filters to reduce token waste:**
+- Use source tags: `casarett-doull` | `hayes` | `regulation` | `abt-handbook` | `dabt`
+- Limit results to 3-5 most relevant chunks
+- When you need page-level detail, proceed to Pass 2
+
+### Pass 2 — Extract Relevant Passage (File Search)
+Search extracted markdown for the specific passage.
+
+**Pass 2 commands:**
+- `search_files(target='content', pattern='...', path=SOURCE_DIR)` — grep extracted markdown
+- `grep` the specific chapter file for the concept
+
+### Pass 3 — Load Full Section (if needed)
+Read the full section/paragraph using `read_file` with offset+limit for the relevant lines.
+
+## Citation Format
+`[Source] Ch.[N] "[Chapter Title]" pp.[start]-[end]`
+
+## Cross-Verification Workflow (Drill Questions)
+When a DB answer conflicts with reference text:
+1. Query G-Brain for the concept (source-tagged)
+2. Search extracted markdown for the specific claim
+3. Flag discrepancy to user with both sources cited
+4. Do NOT silently correct — present both sources and let user decide
+
+Full workflow in `references/cross-verification-workflow.md`.
+
+## Batch Download Reference (Regulatory URLs)
+When downloading regulatory documents for the reference library, consult `references/regulatory-source-urls.md` for verified source URLs across EPA, OSHA, eCFR, ECHA (REACH), UN GHS, and NTP. Documents the URL patterns, fallback sources (e.g., PubChem when UNECE is unreachable), batch extraction strategy, and file provenance conventions. New regulatory source patterns discovered during downloads should be added there.

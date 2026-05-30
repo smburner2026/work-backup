@@ -1,0 +1,198 @@
+{
+  "2013 part A 25-40_ADL_AM.pptx": {
+    "file": "2013 Part A Recert Questions/2013 part A 25-40_ADL_AM.pptx",
+    "exam": "2013A",
+    "q_range": [
+      25,
+      40
+    ],
+    "questions": {
+      "39": {
+        "answer": "C",
+        "confidence": "high",
+        "slide": 30
+      },
+      "40": {
+        "answer": "E",
+        "confidence": "high",
+        "slide": 32
+      }
+    }
+  },
+  "DABT Prep_Natalia_2013 Recert part A_17-24.pptx": {
+    "file": "2013 Part A Recert Questions/DABT Prep_Natalia_2013 Recert part A_17-24.pptx",
+    "exam": "2013A",
+    "q_range": [
+      17,
+      24
+    ],
+    "questions": {}
+  },
+  "JG 2013recert part A questions9_16.pptx": {
+    "file": "2013 Part A Recert Questions/JG 2013recert part A questions9_16.pptx",
+    "exam": "2013A",
+    "q_range": [
+      9,
+      16
+    ],
+    "questions": {}
+  },
+  "DS_2013 Part C exam 1-8.pptx": {
+    "file": "2013 Part C Recert Questions/DS_2013 Part C exam 1-8.pptx",
+    "exam": "2013C",
+    "q_range": [
+      1,
+      8
+    ],
+    "questions": {
+      "3": {
+        "answer": "A",
+        "confidence": "high",
+        "slide": 3
+      },
+      "5": {
+        "answer": "C",
+        "confidence": "medium",
+        "slide": 5
+      }
+    }
+  },
+  "DS_Part C exam 1-8.pptx": {
+    "file": "2013 Part C Recert Questions/DS_Part C exam 1-8.pptx",
+    "exam": "2013C",
+    "q_range": [
+      1,
+      8
+    ],
+    "questions": {
+      "3": {
+        "answer": "A",
+        "confidence": "high",
+        "slide": 3
+      },
+      "5": {
+        "answer": "C",
+        "confidence": "medium",
+        "slide": 5
+      }
+    }
+  },
+  "2015 ABT recert answers25-40 ADL_AM.pptx": {
+    "file": "2015 Part A Recert Questions/2015 ABT recert answers25-40 ADL_AM.pptx",
+    "exam": "2015A",
+    "q_range": [
+      25,
+      40
+    ],
+    "questions": {
+      "40": {
+        "answer": "A",
+        "confidence": "high",
+        "slide": 32
+      }
+    }
+  },
+  "DABT Prep_Natalia_17-24.pptx": {
+    "file": "2015 Part A Recert Questions/DABT Prep_Natalia_17-24.pptx",
+    "exam": "2015A",
+    "q_range": [
+      17,
+      24
+    ],
+    "questions": {}
+  },
+  "JG questions 9_16.pptx": {
+    "file": "2015 Part A Recert Questions/JG questions 9_16.pptx",
+    "exam": "2015A",
+    "q_range": [
+      9,
+      16
+    ],
+    "questions": {}
+  },
+  "Szabo questions 1_8.pptx": {
+    "file": "2015 Part A Recert Questions/Szabo questions 1_8.pptx",
+    "exam": "2015A",
+    "q_range": [
+      1,
+      8
+    ],
+    "questions": {
+      "2": {
+        "answer": "B",
+        "confidence": "high",
+        "slide": 3
+      },
+      "3": {
+        "answer": "A",
+        "confidence": "high",
+        "slide": 6
+      },
+      "7": {
+        "answer": "B",
+        "confidence": "high",
+        "slide": 14
+      }
+    }
+  },
+  "2015 Part b JG_9-16.pptx": {
+    "file": "2015 Part B Recert Questions/2015 Part b JG_9-16.pptx",
+    "exam": "2015B",
+    "q_range": [
+      9,
+      16
+    ],
+    "questions": {}
+  },
+  "2015 part b 24-40 ADL_AM.pptx": {
+    "file": "2015 Part B Recert Questions/2015 part b 24-40 ADL_AM.pptx",
+    "exam": "2015B",
+    "q_range": [
+      24,
+      40
+    ],
+    "questions": {}
+  },
+  "Natalia_Recert part B_17-24.pptx": {
+    "file": "2015 Part B Recert Questions/Natalia_Recert part B_17-24.pptx",
+    "exam": "2015B",
+    "q_range": [
+      17,
+      24
+    ],
+    "questions": {}
+  },
+  "Szabo part b_1-8.pptx": {
+    "file": "2015 Part B Recert Questions/Szabo part b_1-8.pptx",
+    "exam": "2015B",
+    "q_range": [
+      1,
+      8
+    ],
+    "questions": {
+      "1": {
+        "answer": "A",
+        "confidence": "high",
+        "slide": 1
+      }
+    }
+  },
+  "DS_2015 part C questions 1_8.pptx": {
+    "file": "2015 Part C Recert Questions/DS_2015 part C questions 1_8.pptx",
+    "exam": "2015C",
+    "q_range": [
+      1,
+      8
+    ],
+    "questions": {}
+  },
+  "JG_part C 9-16.pptx": {
+    "file": "2015 Part C Recert Questions/JG_part C 9-16.pptx",
+    "exam": "2015C",
+    "q_range": [
+      9,
+      16
+    ],
+    "questions": {}
+  }
+}

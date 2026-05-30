@@ -1,13 +1,7 @@
-Prefers visual UI. Dash(d9119): sessions+skills+profiles+kanban. Surface features proactively.
+TempMoon = Discord/UTC+7, bio bench/Phil. Advanced DABT candidate (exam Oct 2026), real-world tox experience. Catches framing inconsistencies — self-check card accuracy before presenting. Flashcards: wants fast-paced brisk review, concise corrections, abbreviates answers when ready to move. Card generation: direct topic→pipeline, overhead-free. DABT hard rules: think out loud before each answer, full distractor breakdown per MCQ. Socratic approach. Trading: small BTC martingale. Kanban: frictionless delegation.
 §
-Validates empirically with real CSV exports and screenshots. Reverse-engineers invite-only indicators (FATCAT) via systematic parameter sweeps against actual entry data. Expects data-driven testing, not theorizing. Corrects sharply when off-track. Wants continuity across sessions — starts from saved memory, doesn't retread. Frustrated by circular analysis.
+Frictionless file delivery preference — dislikes typing commands for file transfer. Wants files auto-available. Solution: Tailscale-bound HTTP file server at http://100.113.2.25:8080 serving ~/deliver/ (systemd user service hermes-file-server.service). After VPS work, deliver put the output files there and tell him to refresh browser.
 §
-WORKFLOW: Has Claude audit my outputs. Relays corrections. Accept without defensiveness. Output: .txt for Pine, scp for transfers, HTML/PNG for vis.
+Decisive cleanup — immediately says "nuke them" after downloads. Don't leave artifacts behind. Nuke originals, temp files, source texts once delivered.
 §
-Windows WSL local box (DESKTOP-B4LB6VL). Can reach fapi.binance.com. TV broker lacks ta.takers_buy.
-§
-Lesson: user noticed mid-session model switches cause context loss. This session the model switched from DeepSeek V4 Flash → Pro → Flash multiple times, and each time I lost thread. Must re-anchor to saved memory after any model switch before responding.
-§
-Minimal manual setup preference — "just talk to it so it does everything for me." Offer the Hermes-does-it path first over multi-step instructions.
-§
-Cross-validates my work with Claude. Wants honest self-assessment—admit when wrong and save corrected understanding, not excuses. Expects root-cause analysis, not pattern fixes. Values data integrity verification over speed.
+Prefers pragmatic action over theoretical debate. When sharing something for discussion ("Is this overkill?"), actually wants to know what applies to *their* setup, not a general assessment. Pivots quickly from "what do you think" to "let's do it" — meet them at the actionable layer directly, not the abstract one.

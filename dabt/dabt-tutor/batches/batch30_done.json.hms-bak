@@ -1,0 +1,252 @@
+[
+  {
+    "id": "DABT-1669",
+    "explanation": "**Correct: B (assessing pharmacodynamic drug interactions).** Analytic toxicology measurements quantify drug and chemical concentrations in biological specimens. This is most useful for: establishing bioavailability (measuring absorption and systemic exposure), identifying contaminants in drug mixtures (impurity profiling), and assessing pharmacokinetic interactions (changes in drug levels due to altered ADME). However, analytic toxicology is LEAST useful for assessing *pharmacodynamic* drug interactions — these involve drug effects at receptor sites, signal transduction, and physiological response, which cannot be inferred from concentration measurements alone. Pharmacodynamic interactions require clinical observation or in vitro/ in vivo functional assays, not analytical chemistry.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1670",
+    "explanation": "**Correct: A (chain of custody).** For an analytic toxicology result to be admissible in legal proceedings, a documented chain of custody (COC) is essential. Chain of custody is the chronological documentation that traces the handling, transfer, storage, and disposition of a specimen from collection through analysis to disposal. It establishes that the specimen was not tampered with, contaminated, or substituted. While repeat analyses (B) and blood samples (C) may be preferred for forensic purposes, and board certification (D) lends credibility to the analyst, none of these are strictly required for admissibility — chain of custody is the fundamental legal requirement for forensic evidence.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1671",
+    "explanation": "**Correct: B (accuracy of value on repeat measurements).** Precision in analytical chemistry refers to the closeness of agreement between repeated measurements of the same sample under the same conditions — essentially, reproducibility or repeatability. A precise method yields similar results on repeated analysis of the same specimen. This is distinct from *accuracy*, which refers to how close a measurement is to the true value. A method can be precise (consistent results) but inaccurate (consistently wrong), or accurate but imprecise. Option A (location on standard curve) relates to analytical range, C (whether dilution was necessary) relates to sample preparation, and D (blood vs. tissue comparison) relates to matrix comparability.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1672",
+    "explanation": "**Correct: C (Cocaine was smoked).** Anhydroecgonine methyl ester (AEME) is a unique pyrolysis product of cocaine formed specifically when cocaine is heated to high temperatures, as occurs during smoking (crack cocaine). AEME is produced by thermal dehydration of cocaine at the C2-C3 position. Its presence in urine alongside cocaine metabolites (benzoylecgonine, ecgonine methyl ester) is a specific biomarker for smoked cocaine administration. It is NOT formed through oral (B), intranasal, or intravenous administration because those routes do not involve heating the drug to decomposition temperatures. AEME itself has pharmacological activity as a muscarinic receptor antagonist.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1673",
+    "explanation": "**Correct: C (urine).** For QUANTITATIVE toxicologic analysis — determining exact concentrations of a substance — urine is the least useful specimen. Urine concentrations are highly variable due to hydration status, urine pH, urinary flow rate, and time since last voiding. Correlation between urine drug levels and blood/tissue levels or clinical effects is poor. Blood (A) is the gold standard for quantitation because it reflects circulating concentrations. Liver (B) and vitreous humor (D) are useful in postmortem analysis: liver for detecting high concentrations of drugs with large volume of distribution, and vitreous humor for stable, postmortem-resistant quantitation (particularly for alcohols and electrolytes). Urine is better suited for QUALITATIVE screening — its primary forensic value is detecting recent exposure, not precise quantitation.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1674",
+    "explanation": "**Correct: D (possibly identify the source of the illicit material).** Illicitly manufactured drugs contain characteristic impurities, byproducts, and synthetic precursors that result from the specific manufacturing process, reagents, and starting materials used by a particular clandestine laboratory. These trace impurities form a chemical \"fingerprint\" — known as chemical profiling or impurity profiling. By analyzing the impurity pattern in biological samples (or the seized material itself), forensic toxicologists may be able to identify the synthetic route and potentially trace the material back to its source. Impurities do NOT reliably predict time of ingestion (A), mode of ingestion (B), or likelihood of drug interaction (C), as these depend on pharmacokinetics and route of administration, not manufacturing impurities.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1675",
+    "explanation": "**Correct: B (chloral hydrate).** The classic \"Mickey Finn\" of the 19th century was a notorious knockout drink consisting of ethyl alcohol mixed with chloral hydrate (knockout drops). Chloral hydrate is a sedative-hypnotic that was historically used as a sleep aid and was readily available in the late 1800s and early 1900s. When combined with alcohol, the two drugs produce synergistic CNS depression through a pharmacodynamic interaction — both act as GABAA receptor positive allosteric modulators (chloral hydrate is metabolized to trichloroethanol, which is the active sedative). This combination was notoriously used to incapacitate victims for robbery or assault. Isopropyl alcohol (A), butalbital (C), and meprobamate (D) are all CNS depressants but are not historically associated with the \"Mickey Finn\" formulation.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1676",
+    "explanation": "**Correct: B (Munchausen syndrome by proxy).** Munchausen syndrome by proxy (MSP), now more commonly called factitious disorder imposed on another (FDIA), is a form of child abuse in which a caregiver — typically the mother — deliberately causes or fabricates illness in a child to gain medical attention and sympathy. This can involve poisoning, suffocation, infection induction, or falsifying test results. The child repeatedly appears ill, undergoes numerous medical procedures, and the caregiver seems attentive and concerned. This is distinct from Munchausen syndrome (A), where the individual fabricates illness in *themselves*. Borderline personality syndrome (C) and DSM IV syndrome (D) are not specifically associated with poisoning one's child for medical attention.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1677",
+    "explanation": "**Correct: B (ethyl alcohol).** Ethyl alcohol (ethanol) is by far the most common drug found in victims of sexual assault. While benzodiazepines (C) such as flunitrazepam (Rohypnol), diazepam, and temazepam — along with GHB — are well-publicized \"date rape drugs,\" alcohol remains the most frequently detected substance in drug-facilitated sexual assault cases. Alcohol is readily available, socially acceptable, and impairs judgment, coordination, and memory at high doses. Marijuana (A) and opiates (D) are detected less frequently in these contexts. The predominance of alcohol reflects both its widespread availability and the fact that voluntary consumption (often heavy) is common in social settings where assaults occur, making it the substance most commonly involved regardless of whether it was surreptitiously administered or voluntarily consumed.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1678",
+    "explanation": "**Correct: C (12 mm).** Human scalp hair grows at an average rate of approximately 1 cm (10 mm) per month, typically ranging from 0.6 to 1.4 cm/month depending on anatomical site, age, and genetic factors. For arsenic analysis, a 12 mm (1.2 cm) hair segment corresponds to approximately one month of growth. By segmental analysis — cutting hair into measured sections and analyzing each section separately — toxicologists can establish a temporal pattern of arsenic exposure. For example, proximal (nearest the scalp) sections reflect recent exposure, while distal sections reflect exposure from months earlier. Shorter lengths (1 mm, 5 mm) provide sub-weekly resolution that is often impractical for routine analysis, while 25 mm provides ~2-2.5 months of exposure, not a monthly pattern.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1679",
+    "explanation": "**Correct: D (pressure of WBCs).** Urine specimen integrity tests for forensic drug testing detect attempts at adulteration. Common integrity checks include: pH (A) — normal urine pH is 4.5–8.0; extreme values suggest addition of acids or bases; creatinine (B) — normal urine creatinine is >20 mg/dL; low creatinine indicates dilution (drinking excessive water or substituting water); specific gravity (C) — normal range 1.003–1.030; values near 1.000 indicate dilution. WBC (white blood cell) pressure, or WBC count, is a urinalysis parameter used to detect urinary tract infections, NOT specimen adulteration. White blood cells in urine suggest inflammation or infection, but their presence or absence has nothing to do with whether a specimen has been tampered with for drug testing purposes.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1680",
+    "explanation": "**Correct: A (6-monoacetylmorphine).** 6-monoacetylmorphine (6-MAM, also called 6-acetylmorphine) is a unique and specific biomarker for heroin use. Heroin (diacetylmorphine) is rapidly deacetylated to 6-MAM, which is then further metabolized to morphine. Poppy seeds contain morphine, codeine, and thebaine, but do NOT contain 6-MAM — 6-MAM is exclusively produced through heroin metabolism. Therefore, the presence of 6-MAM in urine definitively distinguishes heroin use from poppy seed ingestion. Morphine glucuronide (B) and codeine (C) can both be present after poppy seed ingestion, and hydromorphone (D) is a semi-synthetic opioid not related to either heroin or poppy seeds. Detection of 6-MAM is the forensic gold standard for confirming heroin use.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1681",
+    "explanation": "**Correct: D (methylene blue).** Common urine adulterants used to defeat drug testing include: bleach (A) — oxidizes drug metabolites, causing false negatives on immunoassays; baking soda (sodium bicarbonate, B) — increases urine pH, altering drug excretion and detection; glutaraldehyde (C) — a fixative that inactivates enzyme labels in immunoassay reagents, causing false negatives. Methylene blue (D) is a pharmaceutical dye (used in treating methemoglobinemia and as a surgical stain) that is NOT a commonly used urine adulterant. While it could theoretically interfere with some colorimetric assay endpoints, it is not a recognized adulterant in the forensic drug testing literature. Standard adulterant detection panels typically test for pH, specific gravity, creatinine, nitrite, glutaraldehyde, and oxidants (bleach, pyridinium chlorochromate), not methylene blue.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1682",
+    "explanation": "**Correct: C (D-methamphetamine).** Vicks Vapor Inhaler contains L-methamphetamine (the less pharmacologically active levorotatory isomer) as a nasal decongestant. While L-methamphetamine has minimal CNS stimulant activity compared to D-methamphetamine (the more active dextrorotatory isomer, which is a controlled substance), many immunoassay-based urine drug screens cannot distinguish between the D- and L- isomers. Therefore, use of a Vicks inhaler can produce a false positive result for D-methamphetamine on screening immunoassays. This is a well-known cross-reactivity issue that confirmatory testing (GC/MS or LC-MS/MS) must resolve. Opiates (A), PCP (B), and L-methamphetamine (D) are not typically cross-reactive with Vicks inhaler components.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1683",
+    "explanation": "**Correct: C (ibuprofen).** In overdose settings, rapid quantitative determination of serum concentrations is clinically required for several drugs to guide specific treatment decisions: acetaminophen (A) — requires serum level measurement to assess the need for N-acetylcysteine (NAC) therapy using the Rumack-Matthew nomogram; ethanol (B) — quantitation is needed to assess severity of intoxication and potential need for hemodialysis; ethylene glycol (D) — serum levels guide the need for fomepizole or ethanol therapy and hemodialysis. Ibuprofen (C) overdose, while potentially causing metabolic acidosis, renal failure, and CNS depression, does NOT require rapid serum quantitation for clinical management. Ibuprofen toxicity is managed supportively, and no nomogram or specific antidote requires serum concentration data. Treatment is based on symptoms, clinical presentation, and acid-base status.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1684",
+    "explanation": "**Correct: A (panic level).** In therapeutic drug monitoring (TDM) and clinical toxicology, a \"panic level\" (also called a \"critical value\" or \"alert level\") is a serum drug concentration that is dangerously high and requires immediate communication to the treating physician. It signals that the concentration has reached or exceeded a threshold associated with serious toxicity, requiring urgent clinical intervention (e.g., dose reduction, activated charcoal, antidote administration, hemodialysis). This term is used for drugs with narrow therapeutic indices (e.g., digoxin, theophylline, lithium, aminoglycosides, phenytoin). While \"lethal level\" (B) and \"toxic level\" (C) are related concepts, \"panic level\" is the specific operational term used in clinical laboratories. \"Subtherapeutic level\" (D) is the opposite — a concentration below the therapeutic range requiring dose increase.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1685",
+    "explanation": "**Correct: B (antihypertensives).** Therapeutic drug monitoring (TDM) has traditionally been performed for drug classes where the therapeutic range is narrow, toxicity is concentration-dependent, and clinical effect cannot easily be assessed by observation alone. These include: antimicrobials (A) — e.g., aminoglycosides (gentamicin, tobramycin) and vancomycin, where TDM prevents nephrotoxicity and ototoxicity; anticonvulsants (C) — e.g., phenytoin, valproic acid, carbamazepine, where TDM optimizes seizure control and minimizes dose-dependent side effects; antiarrhythmics (D) — e.g., digoxin, procainamide, quinidine, where toxic concentrations can cause fatal arrhythmias. Antihypertensives (B) are NOT traditionally monitored by TDM because their therapeutic effect (blood pressure reduction) is easily and directly measured through simple clinical observation — no blood level is needed when you can directly assess the physiological endpoint. Additionally, most antihypertensives have wide therapeutic indices and their dose-response is well-characterized.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1686",
+    "explanation": "**Correct: C (clothing).** Postmortem toxicologic analysis can involve a wide range of biological matrices to detect and quantify xenobiotics. Maggots (A) — insects collected from decomposing remains can be analyzed when conventional tissues are unavailable or decomposed, as drugs accumulate in insect larvae feeding on the tissues. Hair (B) — provides a long-term record of drug exposure through segmental analysis, useful for establishing chronic exposure patterns. Bones (D) — can be analyzed in highly decomposed or skeletonized remains for certain drugs and metals (particularly bone-seeking elements like lead). Clothing (C) is NOT a specimen used for toxicologic analysis of the body. While clothing may be collected for trace evidence (e.g., gunshot residue, fibers), it is not a biological specimen that undergoes toxicological extraction and analysis for drugs or poisons in the body.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1687",
+    "explanation": "**Correct: B (air).** Interference with toxicologic analysis can arise from contaminants leaching from materials that contact the specimen. Specimen containers (A), lids (C), and stoppers (D) — particularly those made of plastic or rubber — can release phthalates, plasticizers, antioxidants, and other organic compounds that may interfere with chromatographic analysis by producing extraneous peaks or affecting retention times. Rubber stoppers, in particular, can release compounds that interfere with drug screening. Air (B) is least likely to introduce contaminants that interfere with analysis. While airborne dust or volatile organic compounds in the laboratory environment could theoretically cause contamination under extreme conditions, standard laboratory practices (clean room conditions, filtered air, proper specimen storage) minimize this. The practical source of analytical interference is almost always from container materials and reagents, not ambient air.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1688",
+    "explanation": "**Correct: A (standard additions).** When analyzing a specimen where extraction efficiency is highly variable due to matrix effects, the method of standard additions is the preferred calibration approach. In this method, known increasing amounts of the target analyte are added to separate aliquots of the unknown sample. The total measured response is plotted against the added concentration, and the x-intercept of the linear regression gives the original concentration in the sample. This technique inherently accounts for matrix effects and variable recovery because every measurement is made in the same sample matrix — the unknown sample itself serves as its own calibration matrix. Internal standards (D) also help correct for recovery variability, but standard additions is more rigorous when recovery is highly unpredictable. Least squares (B) and standard curves (C) are calibration methods that assume consistent matrix effects across samples and standards.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1689",
+    "explanation": "**Correct: D (imipramine).** Postmortem redistribution (PMR) is the phenomenon where drug concentrations in blood increase after death due to release from tissues (particularly solid organs) back into the bloodstream. PMR is greatest for drugs with: (1) large volume of distribution (Vd) — indicating extensive tissue binding, (2) high lipophilicity, (3) weak basic nature (which favors ion trapping in acidic postmortem tissues). Imipramine, a tricyclic antidepressant, has a very large Vd (15–30 L/kg), is highly lipophilic, and has a weakly basic amine group — all factors predicting extensive PMR. Blood concentrations of tricyclic antidepressants can increase 2–10 fold postmortem, making antemortem correlation unreliable. Ethanol (B) has a small Vd (~0.6 L/kg) and little PMR. Mercuric ion (A) is inorganic and hydrophilic. Paraquat (C) is hydrophilic and has limited tissue distribution. Therefore, imipramine exhibits the highest PMR of the options.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1690",
+    "explanation": "**Correct: C (There is a poor correlation between levels and clinical effects).** Urine drug screens are qualitative or semi-quantitative immunoassay-based tests that detect the presence of drugs or their metabolites in urine. A critical limitation is the poor correlation between urine drug concentrations and clinical effects or impairment. Urine levels reflect cumulative drug excretion, not blood/brain concentrations at the time of collection. Drug levels in urine vary widely with hydration status, urinary pH, renal function, time since last dose, and drug metabolism. This is why urine drug screens are used for exposure detection, not for assessing intoxication. Chain of custody (A) IS required for forensic urine drug testing in regulated programs. A typical urine drug screen panel covers about 5-10 drug classes (B), not over 50. HPLC (D) is a confirmatory analytical method, not the typical screening platform — immunoassays are the standard for urine drug screens.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1691",
+    "explanation": "**Matching test item.** Spot tests (colorimetric tests) are simple, rapid screening tests used in forensic toxicology. A small amount of sample is mixed with a chemical reagent, and a color change indicates the presence of a drug or class of drugs. Classic examples include the Marquis test (opiates/amphetamines turn purple/orange), the Dillie-Koppanyi test (barbiturates turn violet), and the Duquenois-Levine test (cannabinoids turn purple). They are nonquantitative (provide only a positive/negative result) and can screen for many drugs or metabolites at one time, making them useful for rapid preliminary screening. However, they lack specificity — positive results require confirmatory testing (GC/MS or LC-MS/MS). This technique is correctly matched with: nonquantitative, can screen many drugs/metabolites at one time.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1692",
+    "explanation": "**Matching test item.** High-performance liquid chromatography (HPLC) is a chromatographic technique that separates compounds based on their interaction between a stationary phase (column packing) and a mobile phase (liquid solvent). The most common HPLC mode is reverse-phase HPLC (RP-HPLC), which uses a nonpolar stationary phase (e.g., C18 bonded silica) and a polar mobile phase (e.g., water/acetonitrile or water/methanol mixtures). In reverse phase, nonpolar compounds are retained longer (higher affinity for the stationary phase), while polar compounds elute first. HPLC is widely used in toxicology for quantitation of drugs that are not volatile enough for GC analysis. The technique is correctly understood as one that typically uses reverse phase conditions for separation of organic analytes.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1693",
+    "explanation": "**Matching test item.** Thin-layer chromatography (TLC) is a planar chromatographic technique where a sample is spotted onto a plate coated with a thin layer of adsorbent (typically silica gel or alumina) and developed in a solvent system. Compounds migrate at different rates (measured as Rf values) based on their polarity and affinity for the stationary vs. mobile phase. Detection is achieved through various visualization methods: UV light, iodine vapor, or spraying with specific chemical reagents (e.g., ninhydrin for amines, sulfuric acid for charring). TLC is simple, inexpensive, and can screen multiple samples simultaneously — making it useful for preliminary drug identification and purity assessment. The detector type depends on the visualization method; in mass spectrometry (GC/MS), the detector bombards molecules with an electron stream (electron impact ionization), but TLC itself does not have an electron bombardment detector as an inherent component.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1694",
+    "explanation": "**Matching test item.** Gas chromatography (GC) is a chromatographic technique that separates volatile compounds as they partition between a mobile gas phase (carrier gas — typically helium or nitrogen) and a stationary liquid phase coated on the inside of a capillary column. The most common detector in GC is the flame ionization detector (FID), which detects organic compounds by measuring ions produced by combustion in a hydrogen-air flame. FID is sensitive, reliable, and responds to virtually all organic compounds containing carbon-hydrogen bonds. Other GC detectors include the electron capture detector (ECD) for halogenated compounds and the nitrogen-phosphorus detector (NPD). While TLC is often described as the simplest chromatographic test, GC coupled with FID is one of the most widely used techniques for quantitation of volatile organic compounds in biological specimens.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1695",
+    "explanation": "**Matching test item.** Gas chromatography/mass spectrometry (GC/MS) is considered the gold standard for confirmatory analysis in forensic toxicology. The gas chromatograph separates the components of a mixture, and the mass spectrometer serves as a detector that provides structural identification. In the most common ionization mode — electron impact (EI) ionization — the mass spectrometer bombards the analyte molecules with a beam of high-energy electrons (typically 70 eV). This causes the molecules to fragment into characteristic positively charged ions, producing a unique mass spectrum (fingerprint) that can be compared against reference libraries for definitive identification. GC/MS combines the separation power of GC with the structural identification capability of MS, making it essential for confirming positive screening results in forensic and clinical toxicology.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1696",
+    "explanation": "**Matching test item.** Immunoassays are analytical techniques that use antibodies to detect and quantify drugs or other analytes. They come in two main formats: competitive and noncompetitive. In competitive immunoassays (used for small molecules like drugs), the analyte in the sample competes with a labeled analyte for binding to a limited number of antibody binding sites — more analyte means less labeled analyte bound and a weaker signal. In noncompetitive (sandwich) immunoassays (used for large molecules like proteins), the analyte is captured between two antibodies, and signal is proportional to analyte concentration. Immunoassays are the primary screening technology in urine drug testing because they are fast, cost-effective, and easily automated. Common formats include EMIT (enzyme multiplied immunoassay technique), FPIA (fluorescence polarization immunoassay), and CEDIA (cloned enzyme donor immunoassay).",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1697",
+    "explanation": "**Matching test item.** Spectrochemical methods in analytical toxicology refer to techniques that measure the interaction of electromagnetic radiation or other energy with matter. This includes atomic absorption spectroscopy (AAS), atomic emission spectroscopy (AES), inductively coupled plasma mass spectrometry (ICP-MS), and ultraviolet/visible (UV/Vis) spectrophotometry. Some spectrochemical methods involve the addition or removal of protons (H⁺) — this describes processes at the fundamental level of atomic or molecular interactions where the detector measures changes in protonation state or charge. For instance, in electrospray ionization mass spectrometry (ESI-MS), analyte molecules gain or lose protons to become charged ions for mass analysis. However, the phrase \"detector adds or removes protons\" is most specifically associated with certain spectrochemical methods or mass spectrometric detectors that monitor proton transfer reactions.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1698",
+    "explanation": "**Correct: D (all of the above).** In occupational toxicology, dose is a function of multiple exposure parameters. The total absorbed dose is calculated as: Dose = Exposure Concentration × Exposure Frequency × Exposure Duration (and sometimes includes additional factors like breathing rate and absorption fraction). A = exposure concentration (the airborne or dermal concentration of the chemical); B = exposure frequency (how often exposure occurs — times per day, days per week); C = exposure duration (how long each exposure episode lasts — minutes, hours). All three factors contribute equally to the cumulative dose, and none can be neglected in exposure assessment. For example, a low concentration experienced daily for 8 hours may result in a similar total dose as a high concentration experienced briefly. Occupational exposure limits (TLVs, PELs) are designed to account for these combined factors.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1699",
+    "explanation": "**Correct: C (blood pressure).** Inhalation exposure is determined by physiological and environmental factors that govern how much of an airborne chemical enters the respiratory tract and reaches the gas-exchange regions of the lung. The key determinants are: tidal volume (A) — the volume of air inhaled with each breath (typically ~500 mL at rest), which determines how much air and chemical enters the lung; respiratory rate (B) — breaths per minute (typically 12-20 at rest), which combined with tidal volume gives minute ventilation (~6-10 L/min); airborne concentration (D) — the amount of chemical per volume of air (e.g., mg/m³ or ppm). Blood pressure (C) is NOT a direct determinant of inhalation exposure. While blood pressure may secondarily affect cardiac output and drug distribution after absorption, it does not influence the amount of chemical that enters the respiratory tract during inhalation. Minute ventilation (tidal volume × respiratory rate) is the critical physiological determinant.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1700",
+    "explanation": "**Correct: B (respiratory rate).** Dermal (skin) exposure is determined by factors that influence the contact between the chemical and the skin surface, as well as the permeability of the skin at the exposed site. Key determinants include: region of skin exposed (A) — different body areas have different permeability (e.g., scrotal > forehead > forearm > palm); surface area exposed (C) — the total area of skin in contact with the chemical; preexisting skin disease (D) — skin conditions (eczema, psoriasis, cuts, abrasions) compromise the skin barrier and increase absorption. Respiratory rate (B) is NOT a determinant of dermal exposure — it is a determinant of inhalation exposure. Respiratory rate measures how many breaths per minute a person takes, which is irrelevant to chemical absorption through the skin. This distinction between inhalation and dermal exposure determinants is a common exam point.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1701",
+    "explanation": "**Correct: A (TLV-TWA).** TLV-TWA (Threshold Limit Value — Time-Weighted Average) is the occupational exposure limit defined as the time-weighted average concentration for a conventional 8-hour workday and a 40-hour workweek, to which nearly all workers may be repeatedly exposed day after day without adverse health effects. It is calculated by averaging air concentrations over the full work shift, allowing for fluctuations above the TLV-TWA as long as they are compensated by equivalent periods below it. TLV-STEL (B) is a 15-minute short-term exposure limit. TLV-C (C) is a ceiling limit that should never be exceeded. TLV-OEL (D) is not a standard ACGIH designation (OEL = Occupational Exposure Level is a generic term, not a specific TLV type). The key phrase \"8-hour workday, 5-day workweek\" specifically identifies the TLV-TWA.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1702",
+    "explanation": "**Correct: B (TLV-STEL).** TLV-STEL (Threshold Limit Value — Short-Term Exposure Limit) is defined as the 15-minute time-weighted average exposure that should not be exceeded at any time during a workday, even if the 8-hour TLV-TWA is within limits. STELs are set for substances with acute toxicity or irritant properties where short-term peak exposures could cause immediate adverse effects (e.g., irritation, narcosis, or sensitization). Exposures above the TLV-TWA but within the TLV-STEL should not last longer than 15 minutes and should occur no more than 4 times per day, with at least 60 minutes between exposures. TLV-TWA (A) is for 8-hour averages. TLV-C (C) is a ceiling limit that should never be exceeded at any instant. TLV-OEL (D) is a generic term, not a specific ACGIH-defined exposure limit type.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1703",
+    "explanation": "**Correct: C (general merchandise stores).** Occupational asthma rates can be surprisingly high in certain unexpected occupational settings. General merchandise stores (e.g., department stores, big-box retailers, grocery stores) have been identified in epidemiological surveillance studies as having elevated rates of occupational asthma. This is attributed to exposure to a variety of respiratory irritants and sensitizers in the indoor retail environment, including: mold and dust from stored goods and ventilation systems, cleaning chemical vapors and disinfectants, aerosolized fragrances and perfumes, volatile organic compounds (VOCs) from new products and building materials, and paper/particulate dust from inventory handling. Construction workers (A), farmers (B), and lifeguards (D) all have recognized respiratory hazards (silica, grain dust, indoor pool chlorine), but surveillance data from NIOSH and other occupational health agencies indicate that general merchandise stores have higher reported rates of new-onset occupational asthma, potentially due to the diverse and often unrecognized respiratory hazards in these environments.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1704",
+    "explanation": "**Correct: D (It is generally less expensive and less invasive than environmental monitoring).** This statement is FALSE and is therefore the correct \"except\" answer. Biological monitoring (biomonitoring) involves measuring the chemical or its metabolite in biological specimens (blood, urine, exhaled air). It is generally MORE expensive and MORE invasive than environmental monitoring, which involves measuring chemical concentrations in workplace air, surfaces, or water using sampling pumps, badges, or passive monitors. Environmental monitoring is relatively non-invasive (no biological samples needed) and can be performed with simple, inexpensive equipment. The TRUE statements about biological monitoring are: (A) it can test the efficiency of personal protective equipment (PPE) — if PPE is effective, biomarkers will be low despite high environmental levels; (B) it is more directly related to adverse health effects because it measures the actual internal dose; (C) it accounts for uptake by all routes (inhalation, dermal, ingestion) — unlike environmental monitoring which typically measures only one route.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1705",
+    "explanation": "**Correct: B (It is limited to urine testing).** This statement is FALSE and is therefore the correct \"except\" answer because it is NOT a true disadvantage of biological monitoring. Biological monitoring is NOT limited to urine testing — it can be performed on blood (serum/plasma), urine, exhaled breath, hair, nails, saliva, adipose tissue, and other matrices. The choice of matrix depends on the chemical's pharmacokinetics and the exposure scenario. The true disadvantages of biological monitoring include: (A) it is not useful for dermally corrosive agents because collecting samples from irritated or burned skin is impractical and unethical; (C) it is not useful for primary lung irritants (e.g., chlorine, ammonia) because these cause immediate local effects without significant systemic absorption — biological monitoring measures internal dose, but the adverse effect is at the portal of entry; (D) it is not useful for assessing damage from peak effects of chemicals that act locally and rapidly (e.g., sensory irritants) because biological levels don't correlate with transient peak exposures.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1706",
+    "explanation": "**Correct: A (aniline).** Para-aminophenol (PAP) is the major urinary metabolite of aniline and is used as a biological exposure index (BEI) for occupational aniline exposure. Aniline (C₆H₅NH₂) is an aromatic amine used in the manufacture of dyes, rubber chemicals, and pharmaceuticals. It is metabolized primarily by ring hydroxylation to para-aminophenol, which is then conjugated with glucuronic acid or sulfate and excreted in urine. The measurement of urinary PAP allows assessment of aniline absorption. Aniline exposure is also associated with methemoglobin formation (its primary toxic effect). Benzene (B) is metabolized to phenol, hydroquinone, and muconic acid — not PAP. Styrene (C) is metabolized to mandelic acid and phenylglyoxylic acid. Phenol (D) exposure is assessed by urinary phenol itself, not PAP. Each of these has a distinct biomarker profile.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1707",
+    "explanation": "**Correct: B (ethylene glycol).** Urinary oxalic acid is a biomarker for ethylene glycol exposure. Ethylene glycol (antifreeze) is metabolized by alcohol dehydrogenase to glycolaldehyde, then to glycolic acid, glyoxylic acid, and finally to oxalic acid. Oxalic acid combines with calcium to form calcium oxalate crystals, which precipitate in the renal tubules causing acute kidney injury — the hallmark toxicity of ethylene glycol poisoning. Monitoring urinary oxalic acid (or more commonly, urinary oxalate) is one method of assessing ethylene glycol exposure and the effectiveness of treatment (fomepizole or ethanol). Trichloroethylene (A) is monitored by urinary trichloroacetic acid. Isopropyl alcohol (C) is monitored by urinary acetone. Allyl alcohol (D) metabolism is not associated with oxalic acid production.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1708",
+    "explanation": "**Correct: C (TLV-C).** TLV-C (Threshold Limit Value — Ceiling) is the occupational exposure limit that should NEVER be exceeded, even instantaneously. The ceiling limit is the concentration that should not be exceeded at any time during the workday. If instantaneous monitoring is not feasible, the ceiling limit is assessed by sampling over a 15-minute period (except for substances that cause immediate irritation when brief exposures occur). Ceiling limits are established for substances with acute irritant or toxic effects that can occur immediately upon short-term exposure above the limit. TLV-TWA (A) is an 8-hour time-weighted average that allows fluctuations above the limit as long as they are balanced by periods below. TLV-STEL (B) is a 15-minute short-term limit that can be exceeded briefly under specific constraints. TLV-OEL (D) is not a distinct ACGIH-defined limit type.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1709",
+    "explanation": "**Correct: C (fibrotic lung disease).** Both silica (crystalline silicon dioxide) and asbestos (a group of fibrous silicate minerals) are well-established causes of fibrotic lung disease — pneumoconiosis. Silica causes silicosis, characterized by nodular pulmonary fibrosis with progressive collagen deposition. Asbestos causes asbestosis, a diffuse interstitial pulmonary fibrosis. Both diseases result from chronic inhalation of the respective dusts, leading to macrophage activation, release of inflammatory mediators and fibrogenic cytokines (TNF-α, TGF-β, IL-1), and ultimately collagen deposition. Renal carcinoma (A) is associated with asbestos but NOT silica. Asthma (B) is not a typical silicosis/asbestosis outcome, though asbestos can cause pleural disease. Nasal carcinoma (D) is associated with certain wood dusts and nickel, not silica or asbestos as primary associations.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1710",
+    "explanation": "**Correct: A (emphysema).** Both coal dust and cigarette smoke are associated with emphysema, a type of chronic obstructive pulmonary disease (COPD) characterized by permanent enlargement of air spaces distal to the terminal bronchioles, accompanied by destruction of alveolar walls. Coal workers' pneumoconiosis (CWP or \"black lung disease\") often includes emphysema, particularly in cigarette-smoking coal miners where the effects are synergistic. Cigarette smoke is the leading cause of emphysema in the general population through mechanisms involving: protease-antiprotease imbalance (neutrophil elastase activity exceeding α1-antitrypsin inhibition), oxidative stress, and inflammatory cell recruitment. Coal dust contributes through macrophage-mediated inflammation and oxidative stress. Non-Hodgkin's lymphoma (B), bladder carcinoma (C), and soft tissue sarcoma (D) are not established associations with coal dust exposure, though cigarette smoking is a risk factor for bladder cancer.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1711",
+    "explanation": "**Correct: B (asphyxiation and Parkinson's disease).** Carbon monoxide (CO) is a colorless, odorless gas produced by incomplete combustion of carbon-containing fuels. CO causes asphyxiation through a well-characterized mechanism: it binds to hemoglobin with an affinity ~230–270 times greater than oxygen, forming carboxyhemoglobin (COHb), which reduces the oxygen-carrying capacity of blood and impairs oxygen delivery to tissues. Additionally, chronic low-level CO exposure has been epidemiologically associated with Parkinson's disease. The proposed mechanism involves CO-induced mitochondrial dysfunction and oxidative stress in the basal ganglia, particularly the substantia nigra, leading to dopaminergic neuron degeneration. CO does NOT cause asthma or multiple sclerosis (A), hypersensitivity pneumonitis (C), or nasal polyps and peripheral neuropathy (D). Other notable CO effects include headache, dizziness, confusion, and delayed neurological sequelae.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1712",
+    "explanation": "**Correct: D (hypersensitivity pneumonitis).** Thermophilic bacteria (heat-loving bacteria, primarily species of Saccharopolyspora, Thermoactinomyces, and Micropolyspora) are well-established causes of hypersensitivity pneumonitis (extrinsic allergic alveolitis). Classic examples include: farmer's lung — caused by Saccharopolyspora rectivirgula (formerly Micropolyspora faeni) and Thermoactinomyces vulgaris growing in moldy hay; bagassosis — caused by Thermoactinomyces sacchari in moldy sugar cane; and humidifier lung — caused by thermophilic bacteria in contaminated humidification systems. The disease is a Type III and Type IV hypersensitivity reaction in the lung parenchyma. Toxic shock syndrome (A) is caused by Staphylococcus aureus toxin (TSST-1). Steven-Johnson syndrome (B) is severe drug-induced skin reaction. Encephalitis (C) can be viral or bacterial, not specifically associated with thermophilic bacteria.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1713",
+    "explanation": "**Correct: C (reactive airway dysfunction syndrome, RADS).** Reactive airways dysfunction syndrome (RADS), also called irritant-induced asthma, is a condition characterized by the persistent onset of asthma-like symptoms (bronchospasm, cough, dyspnea, wheezing) following a single, high-dose exposure to a respiratory irritant. Unlike occupational asthma (A), which develops after repeated or prolonged exposure with a latency period and often involves immunological sensitization, RADS occurs acutely within 24 hours of a single exposure and persists for months to years. Causative agents include chlorine, ammonia, phosgene, nitrogen oxides, sulfur dioxide, acetic acid, and other highly irritant gases/vapors. Hypersensitivity pneumonitis (B) and allergic alveolitis (D) are immunologically mediated parenchymal diseases (not primarily bronchospastic) and require repeated exposure. The key distinguishing features of RADS are: single high-dose exposure, prompt onset, and persistent airway hyperreactivity.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1714",
+    "explanation": "**Correct: B (trimellitic anhydride).** Trimellitic anhydride (TMA) is a chemical used in epoxy resin curing agents, plasticizers, and surface coatings. It is a known respiratory sensitizer and has been associated with a specific occupational lung disease syndrome: pulmonary hemorrhage-anemia syndrome (also called TMA-induced pulmonary hemorrhage). Exposure to TMA dust or fumes can cause severe respiratory tract irritation, asthma, and in some cases, pulmonary hemorrhage with associated anemia — characterized by hemoptysis, infiltrates on chest X-ray, and falling hematocrit. This is immunologically mediated through IgE and IgG antibodies to TMA-protein conjugates. Sodium sulfite (A) is a preservative, propylene glycol (C) is a common solvent/humectant, and butter yellow (D) is a textile dye — none are associated with pulmonary hemorrhage in occupational settings. TMA is also associated with other respiratory syndromes including asthma, rhinitis, and flu-like symptoms (TMA flu).",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1715",
+    "explanation": "**Correct: A (mist).** In aerosol science, a mist is defined as an aerosol consisting of liquid particles suspended in a gas. Mists are formed by mechanical processes such as atomization, spraying, or condensation of vapors into liquid droplets. Common occupational examples include: paint spray mists, oil mists from machining operations, acid mists from electroplating, and pesticide spray mists. Mists can be inhaled and deposit in the respiratory tract depending on droplet size. A fume (B) consists of solid particles formed by condensation of vaporized material (e.g., welding fume, metal oxide fume). A gas (C) is a formless fluid that occupies its container — not a particulate aerosol. Dust (D) consists of solid particles formed by mechanical disintegration of larger solid materials (e.g., grinding, crushing). The distinction between mists, fumes, and dusts is based on the physical state and formation mechanism of the particles.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1716",
+    "explanation": "**Correct: B (oxygen).** Simple asphyxiants are physiologically inert gases that displace oxygen from the atmosphere, reducing the partial pressure of oxygen available for respiration. They do not have intrinsic toxicity or specific organ toxicity — their danger is purely due to oxygen displacement. Examples include acetylene (A), hydrogen (C), nitrogen (D), methane, helium, argon, carbon dioxide (at high concentrations), and ethane. Oxygen (B) is NOT a simple asphyxiant — it IS the gas that supports life. In fact, oxygen is the gas that simple asphyxiants displace. The distinction between simple asphyxiants and toxic asphyxiants (like CO and HCN) is that toxic asphyxiants cause harm through specific biochemical mechanisms (e.g., binding to hemoglobin or inhibiting cytochrome oxidase) even at concentrations that do not significantly reduce oxygen levels. Simple asphyxiants only become dangerous when they constitute a large fraction of the inspired air (typically > 80-90%).",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1717",
+    "explanation": "**Correct: D (nitrous oxide).** Toxic asphyxiants are gases that interfere with oxygen utilization at the cellular or molecular level, causing tissue hypoxia even when the inspired oxygen concentration is adequate (unlike simple asphyxiants that merely displace oxygen). Carbon monoxide (A) binds to hemoglobin, forming carboxyhemoglobin that cannot carry oxygen, and also impairs oxygen release from remaining oxyhemoglobin. Hydrogen cyanide (B) inhibits cytochrome c oxidase (Complex IV of the electron transport chain), preventing cellular oxygen utilization. Hydrogen sulfide (C) similarly inhibits cytochrome oxidase and also causes olfactory fatigue. Nitrous oxide (D) — laughing gas — is NOT a toxic asphyxiant. Nitrous oxide is an anesthetic gas with NMDA receptor antagonist properties and some opioid-like effects. While chronic abuse can cause vitamin B12 deficiency and neuropathy (through cobalt oxidation), it does not interfere with oxygen transport or utilization in the manner of toxic asphyxiants. Nitrous oxide is better classified as a simple asphyxiant at high concentrations, with its primary danger being oxygen displacement.",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-1718",
+    "explanation": "**Correct: A (upper airways).** Dust particles from the earth's crust (naturally occurring mineral dusts including silicates, quartz, clay, and other soil components) are typically large particles with aerodynamic diameters > 5-10 µm. Due to their size, these particles are mostly deposited in the upper airways (nose, nasopharynx, and upper trachea) through the mechanism of inertial impaction. As inhaled air changes direction in the nasal passages and pharynx, large particles cannot follow the airstream due to their momentum and impact onto the mucosal surfaces. Only smaller particles (< 5 µm — thoracic fraction) can reach the medium and lower airways. Very fine particles (< 1 µm — respirable fraction) can reach the alveoli. The upper airway deposition of large crustal dust particles is a protective mechanism that prevents these particles from reaching the sensitive gas-exchange regions of the lung, though prolonged high-level exposure can overwhelm this defense and lead to nasal and upper respiratory irritation.",
+    "domain": "Domain I"
+  }
+]

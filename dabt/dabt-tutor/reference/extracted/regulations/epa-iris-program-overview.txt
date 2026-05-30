@@ -1,0 +1,88 @@
+# Source: https://www.epa.gov/iris/basic-information-about-integrated-risk-information-system
+# Retrieved: 2026-05-29
+
+EPA Integrated Risk Information System (IRIS) — Program Overview
+================================================================
+
+OVERVIEW & MISSION
+------------------
+EPA's IRIS Program supports the agency's mission by identifying and
+characterizing the health hazards of chemicals found in the environment.
+- Scope: Individual chemicals, groups of related chemicals, or complex mixtures
+- Primary Users: EPA, state/local health agencies, other federal agencies,
+  international health organizations
+- Output: IRIS assessments are a key source of toxicity information
+
+IRIS TOXICITY VALUES (Chronic Exposure)
+---------------------------------------
+
+Noncancer:
+  Reference Concentration (RfC):
+    An estimate (with uncertainty spanning perhaps an order of magnitude) of a
+    continuous inhalation exposure to the human population (including sensitive
+    subgroups) that is likely to be without an appreciable risk of deleterious
+    effects during a lifetime. Derived from a NOAEL, LOAEL, or benchmark
+    concentration, with uncertainty factors applied.
+
+  Reference Dose (RfD):
+    An estimate (with uncertainty spanning perhaps an order of magnitude) of a
+    daily oral exposure to the human population (including sensitive subgroups)
+    that is likely to be without an appreciable risk of deleterious effects
+    during a lifetime. Derived from a NOAEL, LOAEL, or benchmark dose, with
+    uncertainty factors applied.
+
+  Methodology: EPA's 2002 "A Review of the Reference Dose and Reference
+  Concentration Processes"
+
+Cancer:
+  Oral Slope Factor (OSF):
+    An upper bound, approximating a 95% confidence limit, on the increased
+    cancer risk from a lifetime oral exposure to an agent. Usually expressed
+    in units of proportion (of a population) affected per mg/kg-day. Reserved
+    for use in the low-dose region of the dose-response relationship.
+
+  Inhalation Unit Risk (IUR):
+    The upper-bound excess lifetime cancer risk estimated to result from
+    continuous exposure to an agent at a concentration of 1 ug/m3 in air.
+    Example: if IUR = 2 x 10^-6 per ug/m3, 2 excess cancer cases (upper bound)
+    are expected per 1,000,000 people exposed daily for a lifetime to 1 ug/m3.
+
+  Methodology: EPA's 2005 "Guidelines for Carcinogen Risk Assessment"
+
+ROLE IN HUMAN HEALTH RISK ASSESSMENT (NRC 4-Step Process)
+----------------------------------------------------------
+Risk assessment integrates information on hazard, dose-response, and exposure.
+The four steps are:
+  1. Hazard Identification    <-- Covered by IRIS
+  2. Dose-Response Assessment <-- Covered by IRIS
+  3. Exposure Assessment      (Done by EPA program & regional offices)
+  4. Risk Characterization    (Done by EPA program & regional offices)
+
+EPA offices combine their exposure assessment with IRIS hazard data and
+toxicity values to characterize public health risks.
+
+KEY GUIDELINES & TOOLS
+-----------------------
+- IRIS Glossary: Searchable via EPA shared terminology service
+- HERO (Health and Environmental Research Online): Database of over 1.6 million
+  scientific studies used to support EPA assessments. Since 2010, all citations
+  in new IRIS assessments are linked to HERO.
+- BMDS (Benchmark Dose Software): EPA's preferred approach for deriving Points
+  of Departure (PODs). Fits mathematical models to dose-response data from
+  human and animal studies.
+
+IRIS ASSESSMENT DEVELOPMENT PROCESS (7 Steps)
+----------------------------------------------
+1. Draft Development: Scoping, problem formulation, assessment protocol, and
+   public science meeting for input. (See ORD Staff Handbook for Developing
+   IRIS Assessments — "IRIS Handbook")
+2. Agency Review: Internal review by EPA scientists
+3. Interagency Science Consultation: Review by other federal agencies and
+   departments
+4. Public Comment and External Peer Review: Draft assessment and charge
+   questions released for public and peer review
+5. Revise Assessment: Addresses public comments and peer review
+   recommendations; disposition of comments developed
+6. Final Agency Review / Interagency Science Discussion: Final review by EPA
+   and other federal agencies
+7. Final Assessment: Published on the IRIS website

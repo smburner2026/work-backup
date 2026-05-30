@@ -12,16 +12,16 @@ source of truth; the notebook is synthesis and sense-making.
 
 ## Location
 
-The wiki directory is defined in `/root/work/dabt/dabt-tutor/dabt-config.json`. At session start, load config:
+The wiki directory is defined in `dabt-config.json` under `progress.wiki_dir`. At session start (after loading `dabt-project-workflow` for config), resolve:
 
 ```python
-import json
-with open('/root/work/dabt/dabt-tutor/dabt-config.json') as f:
-    CONFIG = json.load(f)
-WIKI_DIR = f"{CONFIG['project']['workdir']}/wiki"
+import json, os
+# Config loaded at session start via dabt-project-workflow
+WORKDIR = CONFIG['project']['workdir']
+WIKI_DIR = os.path.join(WORKDIR, CONFIG['progress']['wiki_dir'])
 ```
 
-Default: `/root/work/dabt/dabt-tutor/wiki/`
+Default resolves to `{workdir}/wiki/`.
 
 ## Trigger
 
@@ -30,7 +30,7 @@ Load this skill whenever:
 - The user asks to update or review a notebook page
 - A missed question gets explained and the explanation is worth saving
 
-**Session start:** Load `dabt-config.json` first for project paths (wiki directory, etc.).
+**Session start:** Load `dabt-project-workflow` first for config. Then read `config['progress']['wiki_dir']` resolved against `config['project']['workdir']` for the wiki path.
 
 ## Structure
 
@@ -57,7 +57,7 @@ written synthesis:
 
 ```
 write_file(
-  path="/root/work/dabt/dabt-tutor/wiki/concepts/topic-name.md",
+  path=os.path.join(WIKI_DIR, "concepts", "topic-name.md"),
   content="..."
 )
 ```

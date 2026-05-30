@@ -1,0 +1,2730 @@
+[
+  {
+    "id": "DABT-3897",
+    "bank": "Past ABT Exams (2008-2014)",
+    "num": 203,
+    "text": "Information from short-term studies useful in the design of subchronic toxicity studies does NOT include",
+    "answer": "D",
+    "answer_text": "",
+    "bloom": "remember-understand",
+    "options": [
+      {
+        "letter": "A",
+        "text": "identification of target organs"
+      },
+      {
+        "letter": "B",
+        "text": "clinical pathology"
+      },
+      {
+        "letter": "C",
+        "text": "palatability of test material"
+      },
+      {
+        "letter": "D",
+        "text": "fetotoxicity"
+      },
+      {
+        "letter": "E",
+        "text": "rate of body weight gain"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4142",
+    "bank": "Past ABT Exams (2008-2014)",
+    "num": 458,
+    "text": "Conventional approaches to toxicity testing of pharmaceuticals may not be appropriate for biopharmaceuticals. If you are developing a monoclonal antibody, which ofthe following is important when conducting your safety evaluation?",
+    "answer": "A",
+    "answer_text": "",
+    "bloom": "apply",
+    "options": [
+      {
+        "letter": "A",
+        "text": "testing in a relevant species"
+      },
+      {
+        "letter": "B",
+        "text": "selection of a dose producing clear toxicity"
+      },
+      {
+        "letter": "C",
+        "text": "providing studies to evaluate genotoxic potential"
+      },
+      {
+        "letter": "D",
+        "text": "inclusion of a rodent and non-rodent species in the evaluation"
+      },
+      {
+        "letter": "E",
+        "text": "characterizing the role ofthe cytochrome P450 system in metabolism"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4242",
+    "bank": "Past ABT Exams (2008-2014)",
+    "num": 558,
+    "text": "Which one of the following electrocardiogram (ECG) changes most clearly identifies a risk of chemical-induced torsades de pointes?",
+    "answer": "D",
+    "answer_text": "",
+    "bloom": "apply",
+    "options": [
+      {
+        "letter": "A",
+        "text": "P wave notching"
+      },
+      {
+        "letter": "B",
+        "text": "elevated R wave amplitude"
+      },
+      {
+        "letter": "C",
+        "text": "inverted T wave"
+      },
+      {
+        "letter": "D",
+        "text": "prolonged QT interval"
+      },
+      {
+        "letter": "E",
+        "text": "decreased ST segment"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4330",
+    "bank": "Past ABT Exams (2008-2014)",
+    "num": 648,
+    "text": "Drugs and chemicals can produce a variety of effects on the immune system, including allergic skin\nsensitization, production of autoimmune disease, and immunosuppression. Which of the statements below is an example of an effect which is consistent with immunosuppression caused by a drug or chemical?",
+    "answer": "D",
+    "answer_text": "",
+    "bloom": "apply",
+    "options": [
+      {
+        "letter": "A",
+        "text": "development of hemolytic anemia in response to drug therapy with penicillin"
+      },
+      {
+        "letter": "B",
+        "text": "increased T-cell proliferation by known skin sensitizers in the Murine Local Lymph Node Assay"
+      },
+      {
+        "letter": "C",
+        "text": "IgM antibody production and plaque formation after immunization with sheep red blood cells in a Plaque Antibody Forming assay"
+      },
+      {
+        "letter": "D",
+        "text": "histological evidence of hypocellularity in the spleen, thymus and lymph nodes in a toxicity study"
+      },
+      {
+        "letter": "E",
+        "text": "increased production of IgM antibody in the systemic circulation, after immunization with sheep red blood cells"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4362",
+    "bank": "Past ABT Exams (2008-2014)",
+    "num": 680,
+    "text": "Establishing a causal association between an occupational toxicant and harmful effect/disease can\nbe difficult. In order to evaluate the level of exposure at which there is an acceptable risk for health\nimpairment, toxicologic data from a variety of sources is required, including in vitro assays, animal\ntoxicology studies, human challenge studies, case reports and epidemiology studies. In animal studies,\nwhich one of the following is NOT a limitation?",
+    "answer": "D",
+    "answer_text": "",
+    "bloom": "apply",
+    "options": [
+      {
+        "letter": "A",
+        "text": "animal testing can provide only an estimate of the toxicity of a chemical that would be"
+      },
+      {
+        "letter": "B",
+        "text": "animals do not always respond to a chemical exposure in the same way that humans would respond"
+      },
+      {
+        "letter": "C",
+        "text": "there can be interspecies differences in metabolism where cancer occurs in rodents but not humans"
+      },
+      {
+        "letter": "D",
+        "text": "relationships between the metabolic pathways of a chemical and its interaction with target"
+      },
+      {
+        "letter": "E",
+        "text": "there are a few chemicals for which predictive animal models have either not yet been determined or do not exist"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4364",
+    "bank": "Past ABT Exams (2008-2014)",
+    "num": 682,
+    "text": "Which of the following is NOT considered an important factor affecting nanoparticle toxicity in the\nlung?",
+    "answer": "B",
+    "answer_text": "",
+    "bloom": "apply",
+    "options": [
+      {
+        "letter": "A",
+        "text": "the large surface area relative to mass"
+      },
+      {
+        "letter": "B",
+        "text": "glucuronidation of nanoparticulates"
+      },
+      {
+        "letter": "C",
+        "text": "particulate diameters of less than 100nm"
+      },
+      {
+        "letter": "D",
+        "text": "the presence of reactive metals on the surface of nanoparticulates"
+      },
+      {
+        "letter": "E",
+        "text": "breathing rate"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4496",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Bisphenol A is considered a chemical of concern\ndue to which of the following?",
+    "answer": "C",
+    "answer_text": "",
+    "bloom": "remember-understand",
+    "options": [
+      {
+        "letter": "A",
+        "text": "use in plastics and strong binding to the aryl"
+      },
+      {
+        "letter": "B",
+        "text": "strong binding to the estrogen receptor and"
+      },
+      {
+        "letter": "C",
+        "text": "extensive use in plastic manufacturing and"
+      },
+      {
+        "letter": "D",
+        "text": "surfactant properties and potential for"
+      },
+      {
+        "letter": "E",
+        "text": "bioaccumulation in the environment and"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4499",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Beryllium, a metal used in ceramic plants, the\nnuclear industry, and in space vehicles, can cause a\nsevere adverse reaction in some people because of\nwhich of the following?",
+    "answer": "A",
+    "answer_text": "",
+    "bloom": "apply",
+    "options": [
+      {
+        "letter": "A",
+        "text": "it can cause a cell-mediated immune response"
+      },
+      {
+        "letter": "B",
+        "text": "it binds to metallothionine and accumulates in"
+      },
+      {
+        "letter": "C",
+        "text": "it reacts with sunlight to cause lesions on the"
+      },
+      {
+        "letter": "D",
+        "text": "these individuals lack detoxifying liver"
+      },
+      {
+        "letter": "E",
+        "text": "it can displace calcium in the bones, making"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4500",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Which of the following statements about factors\nimpacting metal toxicity is NOT CORRECT?",
+    "answer": "C",
+    "answer_text": "",
+    "bloom": "remember-understand",
+    "options": [
+      {
+        "letter": "A",
+        "text": "since metals can be quite reactive, the portal of"
+      },
+      {
+        "letter": "B",
+        "text": "for many inorganics there is no impediment to"
+      },
+      {
+        "letter": "C",
+        "text": "younger subjects are often less sensitive to"
+      },
+      {
+        "letter": "D",
+        "text": "the essential metallic elements would be"
+      },
+      {
+        "letter": "E",
+        "text": "metal exposure can induce a cascade of"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4501",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Which of the following statements about mercury\nor methyl mercury is NOT CORRECT?",
+    "answer": "C",
+    "answer_text": "",
+    "bloom": "remember-understand",
+    "options": [
+      {
+        "letter": "A",
+        "text": "methyl mercury crosses the placenta, and is"
+      },
+      {
+        "letter": "B",
+        "text": "consumption of predatory fish such as tuna and"
+      },
+      {
+        "letter": "C",
+        "text": "the brain is the major target organ for inorganic"
+      },
+      {
+        "letter": "D",
+        "text": "in severe cases of mercury poisoning with"
+      },
+      {
+        "letter": "E",
+        "text": "inhalation of mercury vapor may produce an"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4502",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Toxicity from chronic exposure to cadmium is\ncharacterized by which of the following?",
+    "answer": "E",
+    "answer_text": "",
+    "bloom": "apply",
+    "options": [
+      {
+        "letter": "A",
+        "text": "calcium accumulation resulting in skeletal"
+      },
+      {
+        "letter": "B",
+        "text": "cadmium-induced hypotension due to calcium"
+      },
+      {
+        "letter": "C",
+        "text": "accumulation of cadmium-metallothionein"
+      },
+      {
+        "letter": "D",
+        "text": "renal carcinoma originating in the glomeruli"
+      },
+      {
+        "letter": "E",
+        "text": "renal tubular dysfunction resulting in"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4503",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "The toxicity of metals is often influenced by the\nvalence state.  Which of the following is true of the\ntoxicology of chromium?",
+    "answer": "C",
+    "answer_text": "",
+    "bloom": "analyze",
+    "options": [
+      {
+        "letter": "A",
+        "text": "chromium III has greater acute toxicity than Cr"
+      },
+      {
+        "letter": "B",
+        "text": "chromium III has greater chronic toxicity than"
+      },
+      {
+        "letter": "C",
+        "text": "chromium VI is a lung carcinogen via"
+      },
+      {
+        "letter": "D",
+        "text": "chromium III and chromium VI are"
+      },
+      {
+        "letter": "E",
+        "text": "chromium VI is less toxic when ingested than"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4504",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Which of the following BEST describes the\nmetabolism of propylene glycol?",
+    "answer": "C",
+    "answer_text": "",
+    "bloom": "analyze",
+    "options": [
+      {
+        "letter": "A",
+        "text": "glucuronidated and eliminated"
+      },
+      {
+        "letter": "B",
+        "text": "inactivated by epoxide hydrolase"
+      },
+      {
+        "letter": "C",
+        "text": "metabolized by alcohol dehydrogenase"
+      },
+      {
+        "letter": "D",
+        "text": "reduced by glutathione S-transferase"
+      },
+      {
+        "letter": "E",
+        "text": "not metabolized"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4505",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Ethylene glycol is BEST described by which of the\nfollowing?",
+    "answer": "B",
+    "answer_text": "",
+    "bloom": "remember-understand",
+    "options": [
+      {
+        "letter": "A",
+        "text": "it is associated with metabolic alkalosis in"
+      },
+      {
+        "letter": "B",
+        "text": "it is metabolized to oxalate and precipitated in"
+      },
+      {
+        "letter": "C",
+        "text": "it is an excellent nontoxic solvent for many"
+      },
+      {
+        "letter": "D",
+        "text": "it is primarily converted to a toxic metabolite"
+      },
+      {
+        "letter": "E",
+        "text": "it is metabolized to methylene glycol which"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4506",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Ethanol can be given as an antidote for which of\nthe following intoxications?",
+    "answer": "D",
+    "answer_text": "",
+    "bloom": "apply",
+    "options": [
+      {
+        "letter": "A",
+        "text": "phenobarbital"
+      },
+      {
+        "letter": "B",
+        "text": "phencyclidine"
+      },
+      {
+        "letter": "C",
+        "text": "iron"
+      },
+      {
+        "letter": "D",
+        "text": "ethylene glycol"
+      },
+      {
+        "letter": "E",
+        "text": "endrin"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4507",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Exposure to which of the following compounds is\nMOST commonly associated with induction of\nleukemia in humans?",
+    "answer": "C",
+    "answer_text": "",
+    "bloom": "remember-understand",
+    "options": [
+      {
+        "letter": "A",
+        "text": "asbestos"
+      },
+      {
+        "letter": "B",
+        "text": "lead"
+      },
+      {
+        "letter": "C",
+        "text": "benzene"
+      },
+      {
+        "letter": "D",
+        "text": "paraquat"
+      },
+      {
+        "letter": "E",
+        "text": "hexane"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4508",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Which of the following are the most important\naspects of pulmonary studies of single-walled carbon\nnanotubes?",
+    "answer": "E",
+    "answer_text": "",
+    "bloom": "analyze",
+    "options": [
+      {
+        "letter": "A",
+        "text": "inclusion of biomarkers of liver injury to study"
+      },
+      {
+        "letter": "B",
+        "text": "quality assurance auditing of 100% of the"
+      },
+      {
+        "letter": "C",
+        "text": "collection of BAL fluid for analysis of"
+      },
+      {
+        "letter": "D",
+        "text": "inclusion of a recovery phase three times the"
+      },
+      {
+        "letter": "E",
+        "text": "physiochemical characterization of the test"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4509",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "The insecticidal mode of action of the\nbiopesticide Bacillus thuringiensis (Bt) is best\ndescribed by which of the following?",
+    "answer": "A",
+    "answer_text": "",
+    "bloom": "analyze",
+    "options": [
+      {
+        "letter": "A",
+        "text": "crystal Bt proteins form endotoxins that cause"
+      },
+      {
+        "letter": "B",
+        "text": "crystal Bt protein binds to and activates"
+      },
+      {
+        "letter": "C",
+        "text": "Bt proteins inhibit acetylcholinesterase,"
+      },
+      {
+        "letter": "D",
+        "text": "crystal Bt proteins bind to neuropathy target"
+      },
+      {
+        "letter": "E",
+        "text": "Bt proteins modify the kinetics of"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4510",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Pyrethroids are a class of insecticides that are\nwidely used in agriculture and medicine.  The effects\nof pyrethroids are mediated through which of the\nfollowing mechanisms?",
+    "answer": "B",
+    "answer_text": "",
+    "bloom": "analyze",
+    "options": [
+      {
+        "letter": "A",
+        "text": "inhibition of the  enzyme cholinesterase"
+      },
+      {
+        "letter": "B",
+        "text": "delayed inactivation of sodium channels in"
+      },
+      {
+        "letter": "C",
+        "text": "delayed activation of potassium channels in"
+      },
+      {
+        "letter": "D",
+        "text": "inhibition of ATPases"
+      },
+      {
+        "letter": "E",
+        "text": "activating nicotinic acetylcholine receptors"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4511",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Stimulation of which of the following receptors is\nresponsible for the toxic action of carbamate\ninsecticides?",
+    "answer": "A",
+    "answer_text": "",
+    "bloom": "remember-understand",
+    "options": [
+      {
+        "letter": "A",
+        "text": "muscarinic"
+      },
+      {
+        "letter": "B",
+        "text": "glutamate"
+      },
+      {
+        "letter": "C",
+        "text": "glycine"
+      },
+      {
+        "letter": "D",
+        "text": "serotonergic"
+      },
+      {
+        "letter": "E",
+        "text": "dopamine"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4512",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Which of the following chemicals bind\nacetylcholinesterase in a rapidly reversible manner?",
+    "answer": "A",
+    "answer_text": "",
+    "bloom": "remember-understand",
+    "options": [
+      {
+        "letter": "A",
+        "text": "carbaryl"
+      },
+      {
+        "letter": "B",
+        "text": "malathion"
+      },
+      {
+        "letter": "C",
+        "text": "chlorpyrifos"
+      },
+      {
+        "letter": "D",
+        "text": "diazinon"
+      },
+      {
+        "letter": "E",
+        "text": "sarin"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4513",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "The mechanism of insecticidal activity of\norganophosphates is described by which of the\nfollowing?",
+    "answer": "C",
+    "answer_text": "",
+    "bloom": "analyze",
+    "options": [
+      {
+        "letter": "A",
+        "text": "anticoagulation"
+      },
+      {
+        "letter": "B",
+        "text": "modification of voltage-sensitive sodium"
+      },
+      {
+        "letter": "C",
+        "text": "inhibition of acetylcholinesterase"
+      },
+      {
+        "letter": "D",
+        "text": "inhibition of the mitochondrial respiratory"
+      },
+      {
+        "letter": "E",
+        "text": "activation of an octopamine-dependent"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4514",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "The platinum group of metals include ruthenium,\nrhodium, palladium, osmium, iridium, and platinum.\nWhich of the following is TRUE regarding toxicity of\nmetals in this group?",
+    "answer": "E",
+    "answer_text": "",
+    "bloom": "analyze",
+    "options": [
+      {
+        "letter": "A",
+        "text": "osmium tetroxide is a powerful nephrotoxin"
+      },
+      {
+        "letter": "B",
+        "text": "palladium chloride is readily absorbed from"
+      },
+      {
+        "letter": "C",
+        "text": "platinum metal itself is a potent nephrotoxin"
+      },
+      {
+        "letter": "D",
+        "text": "platinum salt sensitization is an acute effect"
+      },
+      {
+        "letter": "E",
+        "text": "platinum compounds with antitumor activity"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4515",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "A farmer came into the emergency department\ncomplaining of stomach pains, tingling in his\nextremities and hair loss.  He indicated that he had\nbeen using a chemical found in his barn to kill rats.\nWhat chemical is the one most likely to have caused\nthese symptoms?",
+    "answer": "D",
+    "answer_text": "",
+    "bloom": "apply",
+    "options": [
+      {
+        "letter": "A",
+        "text": "manganese"
+      },
+      {
+        "letter": "B",
+        "text": "nicotine"
+      },
+      {
+        "letter": "C",
+        "text": "rotenone"
+      },
+      {
+        "letter": "D",
+        "text": "thallium"
+      },
+      {
+        "letter": "E",
+        "text": "fluoroacetic acid"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4516",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Acute organophosphate insecticide poisoning can\nbe best treated with which of the following?",
+    "answer": "C",
+    "answer_text": "",
+    "bloom": "remember-understand",
+    "options": [
+      {
+        "letter": "A",
+        "text": "methylene blue"
+      },
+      {
+        "letter": "B",
+        "text": "vitamin K1"
+      },
+      {
+        "letter": "C",
+        "text": "atropine"
+      },
+      {
+        "letter": "D",
+        "text": "ethanol"
+      },
+      {
+        "letter": "E",
+        "text": "chelation therapy"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4517",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "The therapeutic efficacy of sodium nitrite in the\ntreatment of patients with cyanide poisoning depends\non which of the following?",
+    "answer": "A",
+    "answer_text": "",
+    "bloom": "apply",
+    "options": [
+      {
+        "letter": "A",
+        "text": "the formation of methemoglobin"
+      },
+      {
+        "letter": "B",
+        "text": "an increase in oxidative phosphorylation"
+      },
+      {
+        "letter": "C",
+        "text": "an increase in coronary arterial blood flow"
+      },
+      {
+        "letter": "D",
+        "text": "a decrease in intracranial pressure"
+      },
+      {
+        "letter": "E",
+        "text": "relaxation of the nonvascular smooth muscle"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4518",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "All of the following characteristics are factors in\nthe toxicity of inhaled nanoparticles relative to larger\nparticles EXCEPT which of the following?",
+    "answer": "C",
+    "answer_text": "",
+    "bloom": "remember-understand",
+    "options": [
+      {
+        "letter": "A",
+        "text": "the biological nature of nanoparticles is"
+      },
+      {
+        "letter": "B",
+        "text": "nanoparticles may translocate from primary"
+      },
+      {
+        "letter": "C",
+        "text": "aggregation and agglomeration of"
+      },
+      {
+        "letter": "D",
+        "text": "the biological nature of nanoparticles is"
+      },
+      {
+        "letter": "E",
+        "text": "nanoparticles within a biological environment"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4519",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Carbon monoxide toxicity has been attributed to a\nreversible interaction with which of the following?",
+    "answer": "D",
+    "answer_text": "",
+    "bloom": "remember-understand",
+    "options": [
+      {
+        "letter": "A",
+        "text": "myoglobin"
+      },
+      {
+        "letter": "B",
+        "text": "cytochrome oxidase C"
+      },
+      {
+        "letter": "C",
+        "text": "methemoglobin"
+      },
+      {
+        "letter": "D",
+        "text": "hemoglobin"
+      },
+      {
+        "letter": "E",
+        "text": "cytochrome P450"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4520",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Insoluble particles that deposit in regions of the\nnose other than the anterior portion are mainly\ncleared by which of the following mechanisms?",
+    "answer": "C",
+    "answer_text": "",
+    "bloom": "analyze",
+    "options": [
+      {
+        "letter": "A",
+        "text": "exhalation"
+      },
+      {
+        "letter": "B",
+        "text": "absorption into the blood"
+      },
+      {
+        "letter": "C",
+        "text": "carried by mucus to the glottis and then"
+      },
+      {
+        "letter": "D",
+        "text": "phagocytosis by macrophages"
+      },
+      {
+        "letter": "E",
+        "text": "cough"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4521",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "What range BEST defines the size constituting\nthe definition of a nanoparticle?",
+    "answer": "B",
+    "answer_text": "",
+    "bloom": "remember-understand",
+    "options": [
+      {
+        "letter": "A",
+        "text": "1-5 um"
+      },
+      {
+        "letter": "B",
+        "text": "0-100 nm"
+      },
+      {
+        "letter": "C",
+        "text": "0.01-0.1 \u00b5m"
+      },
+      {
+        "letter": "D",
+        "text": "1-5 nm"
+      },
+      {
+        "letter": "E",
+        "text": "10-100 nm"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4522",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "It is difficult to predict the toxicity of engineered\nnanomaterials based on their composition because of\nwhich of the following?",
+    "answer": "B",
+    "answer_text": "",
+    "bloom": "remember-understand",
+    "options": [
+      {
+        "letter": "A",
+        "text": "they are inert substances in vitro and require"
+      },
+      {
+        "letter": "B",
+        "text": "they have different physical and chemical"
+      },
+      {
+        "letter": "C",
+        "text": "they are carcinogenic and dangerous to work"
+      },
+      {
+        "letter": "D",
+        "text": "handling them requires specific techniques"
+      },
+      {
+        "letter": "E",
+        "text": "they are very unstable and their properties"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4523",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "After inhalation, which of the following is the\nmost critical factor that will determine where along\nthe respiratory tract that dust particles deposit?",
+    "answer": "B",
+    "answer_text": "",
+    "bloom": "apply",
+    "options": [
+      {
+        "letter": "A",
+        "text": "chemical composition of the dust"
+      },
+      {
+        "letter": "B",
+        "text": "particle aerodynamic diameter"
+      },
+      {
+        "letter": "C",
+        "text": "rate of particle dissolution"
+      },
+      {
+        "letter": "D",
+        "text": "lining of the respiratory tract"
+      },
+      {
+        "letter": "E",
+        "text": "particle clearance rate"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4524",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Eating the leaves from foxglove plant can cause\nwhich of the following?",
+    "answer": "A",
+    "answer_text": "",
+    "bloom": "remember-understand",
+    "options": [
+      {
+        "letter": "A",
+        "text": "cardiac arrhythmias"
+      },
+      {
+        "letter": "B",
+        "text": "hepatoxicity"
+      },
+      {
+        "letter": "C",
+        "text": "renal toxicity"
+      },
+      {
+        "letter": "D",
+        "text": "CNS stimulation"
+      },
+      {
+        "letter": "E",
+        "text": "dermatitis"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4525",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "What is the toxic mechanism of action for venom\nfrom the Black Widow Spider?",
+    "answer": "B",
+    "answer_text": "",
+    "bloom": "analyze",
+    "options": [
+      {
+        "letter": "A",
+        "text": "acts in the central nervous system by"
+      },
+      {
+        "letter": "B",
+        "text": "acts at the neuromuscular synaptic junction"
+      },
+      {
+        "letter": "C",
+        "text": "acts by blocking optic nerve transmission"
+      },
+      {
+        "letter": "D",
+        "text": "acts by stimulating histamine release from"
+      },
+      {
+        "letter": "E",
+        "text": "acts by stimulation of the Purkinje fibers in the"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4526",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "What mechanism is chiefly responsible for the\nrepair of non-bulky damage to DNA?",
+    "answer": "B",
+    "answer_text": "",
+    "bloom": "analyze",
+    "options": [
+      {
+        "letter": "A",
+        "text": "direct repair"
+      },
+      {
+        "letter": "B",
+        "text": "base excision repair"
+      },
+      {
+        "letter": "C",
+        "text": "photolyase repair"
+      },
+      {
+        "letter": "D",
+        "text": "recombinational repair"
+      },
+      {
+        "letter": "E",
+        "text": "gene lesion repair"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4527",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Which of the herbal products is NOT associated\nwith toxicity of the organ identified?",
+    "answer": "D",
+    "answer_text": "",
+    "bloom": "remember-understand",
+    "options": [
+      {
+        "letter": "A",
+        "text": "central nervous system: Kava Kava"
+      },
+      {
+        "letter": "B",
+        "text": "hematological:  Hops"
+      },
+      {
+        "letter": "C",
+        "text": "hepatotoxins:  Senna"
+      },
+      {
+        "letter": "D",
+        "text": "respiratory:  St. John's wort"
+      },
+      {
+        "letter": "E",
+        "text": "cardiovascular system: European mistletoe"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4528",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "The venom in wasp stings (family Vespidae)\nworks primarily through which of the following\nmechanisms?",
+    "answer": "B",
+    "answer_text": "",
+    "bloom": "analyze",
+    "options": [
+      {
+        "letter": "A",
+        "text": "inhibition of acetylcholinesterase"
+      },
+      {
+        "letter": "B",
+        "text": "release of histamine from mast cells"
+      },
+      {
+        "letter": "C",
+        "text": "fibrinolytic enzyme activity"
+      },
+      {
+        "letter": "D",
+        "text": "hemorrhagic metalloproteinase activity"
+      },
+      {
+        "letter": "E",
+        "text": "induction of apoptosis"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4529",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "A mixture of melamine and cyanuric acid, neither\nof which is very toxic alone, caused the deaths of\nmany pets and even human infants in 2007-08 when\nthe mixture was found in animal feed ingredients and\nmilk.  What was the likely mode of action?",
+    "answer": "C",
+    "answer_text": "",
+    "bloom": "analyze",
+    "options": [
+      {
+        "letter": "A",
+        "text": "acute cardiac toxicity"
+      },
+      {
+        "letter": "B",
+        "text": "overwhelms homeostatic acid-base balance"
+      },
+      {
+        "letter": "C",
+        "text": "forms co-precipitates in renal tubules"
+      },
+      {
+        "letter": "D",
+        "text": "acute hepatic toxicity"
+      },
+      {
+        "letter": "E",
+        "text": "blocks mitochondrial oxidative"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4530",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Acrylamide has been used in a variety of foods\nand beverages (e,g., baked goods and coffee, among\nothers). Which of the following INCORRECTLY\ndescribes the properties of acrylamide?",
+    "answer": "C",
+    "answer_text": "",
+    "bloom": "apply",
+    "options": [
+      {
+        "letter": "A",
+        "text": "toxicity is primarily due to nervous system"
+      },
+      {
+        "letter": "B",
+        "text": "acrylamide has been shown to be carcinogenic"
+      },
+      {
+        "letter": "C",
+        "text": "is slowly absorbed from the gastrointestinal"
+      },
+      {
+        "letter": "D",
+        "text": "is formed at baking temperatures particularly"
+      },
+      {
+        "letter": "E",
+        "text": "the daily intake of acrylamide is about 200"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4531",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Which of the following toxic food contaminants\nare produced by cooking?",
+    "answer": "D",
+    "answer_text": "",
+    "bloom": "remember-understand",
+    "options": [
+      {
+        "letter": "A",
+        "text": "botulinum toxin"
+      },
+      {
+        "letter": "B",
+        "text": "tetrodotoxin"
+      },
+      {
+        "letter": "C",
+        "text": "trichothecenes"
+      },
+      {
+        "letter": "D",
+        "text": "heterocyclic amines"
+      },
+      {
+        "letter": "E",
+        "text": "fumonisins"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4532",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Clinical assessment of drug-induced liver injury\nusing Hy's Law (indication of hepatocellular damage\nin conjunction with jaundice in the absence of\ncholestasis) considers which of the following test\nresults?",
+    "answer": "C",
+    "answer_text": "",
+    "bloom": "apply",
+    "options": [
+      {
+        "letter": "A",
+        "text": ">3-fold increases in ALT, AST, and ALP"
+      },
+      {
+        "letter": "B",
+        "text": ">3-fold increases in ALT, AST, and ALP with"
+      },
+      {
+        "letter": "C",
+        "text": ">3-fold increases in ALT and AST (not ALP)"
+      },
+      {
+        "letter": "D",
+        "text": ">3-fold increases in ALT, AST and >2-fold"
+      },
+      {
+        "letter": "E",
+        "text": ">25-fold increases in ALP and >2-fold"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4533",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "There is scientific and regulatory attention being\ndirected towards the increasing use of\nnanotechnology in many industries because of which\nof the following?",
+    "answer": "E",
+    "answer_text": "",
+    "bloom": "apply",
+    "options": [
+      {
+        "letter": "A",
+        "text": "nanoparticles are larger than microparticles"
+      },
+      {
+        "letter": "B",
+        "text": "nanoparticles are most likely to impact the"
+      },
+      {
+        "letter": "C",
+        "text": "nanoparticles are produced without being"
+      },
+      {
+        "letter": "D",
+        "text": "the surface chemistry and shape distributions"
+      },
+      {
+        "letter": "E",
+        "text": "significant routes of exposure include"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4534",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Acetaminophen toxicity is best exemplified by\nwhich of the following?",
+    "answer": "C",
+    "answer_text": "",
+    "bloom": "remember-understand",
+    "options": [
+      {
+        "letter": "A",
+        "text": "acetaminophen has been demonstrated to show"
+      },
+      {
+        "letter": "B",
+        "text": "hepatic necrosis is noted with acetaminophen"
+      },
+      {
+        "letter": "C",
+        "text": "the metabolic profile of acetaminophen in vivo"
+      },
+      {
+        "letter": "D",
+        "text": "N-acetylcysteine is contraindicated in treating"
+      },
+      {
+        "letter": "E",
+        "text": "renal tubular necrosis has not been associated"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4535",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Excessive ingestion of which of the following\nfood contaminants can elicit a wide range of clinical\neffects including acute gastrointestinal symptoms,\neffects on the central and peripheral nervous system\nand alopecia?",
+    "answer": "D",
+    "answer_text": "",
+    "bloom": "apply",
+    "options": [
+      {
+        "letter": "A",
+        "text": "vanadium"
+      },
+      {
+        "letter": "B",
+        "text": "aflatoxin"
+      },
+      {
+        "letter": "C",
+        "text": "tin"
+      },
+      {
+        "letter": "D",
+        "text": "thallium"
+      },
+      {
+        "letter": "E",
+        "text": "phthalates"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4536",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Which of the following is NOT associated with\nparalytic shell fish poisoning caused by saxitoxin?",
+    "answer": "D",
+    "answer_text": "",
+    "bloom": "remember-understand",
+    "options": [
+      {
+        "letter": "A",
+        "text": "suppression of AV nodal conduction"
+      },
+      {
+        "letter": "B",
+        "text": "Na+ channel inhibition"
+      },
+      {
+        "letter": "C",
+        "text": "parathesia"
+      },
+      {
+        "letter": "D",
+        "text": "cyclopeptides"
+      },
+      {
+        "letter": "E",
+        "text": "asphyxiation"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4537",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Neoplastic transformation of cells is NOT usually\nassociated which of the following?",
+    "answer": "D",
+    "answer_text": "",
+    "bloom": "remember-understand",
+    "options": [
+      {
+        "letter": "A",
+        "text": "activation of proto-oncogenes"
+      },
+      {
+        "letter": "B",
+        "text": "increased growth factor production"
+      },
+      {
+        "letter": "C",
+        "text": "inactivation of tumor suppressor genes"
+      },
+      {
+        "letter": "D",
+        "text": "release of growth factors that suppress cell"
+      },
+      {
+        "letter": "E",
+        "text": "inhibition of apoptosis"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4538",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Which of the following molecules has NOT been\nclassified as group 1 IARC carcinogenic agents?",
+    "answer": "C",
+    "answer_text": "",
+    "bloom": "remember-understand",
+    "options": [
+      {
+        "letter": "A",
+        "text": "arsenic"
+      },
+      {
+        "letter": "B",
+        "text": "aflatoxin"
+      },
+      {
+        "letter": "C",
+        "text": "caprolactam"
+      },
+      {
+        "letter": "D",
+        "text": "benzene"
+      },
+      {
+        "letter": "E",
+        "text": "vinyl chloride"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4539",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Minocycline, nicardipine, and spironolactone are\nexamples of marketed drugs known to induce thyroid\nneoplasia in rats by increasing circulating levels of\nTSH through which of the following mechanisms?",
+    "answer": "C",
+    "answer_text": "",
+    "bloom": "analyze",
+    "options": [
+      {
+        "letter": "A",
+        "text": "decreasing microsomal enzyme levels"
+      },
+      {
+        "letter": "B",
+        "text": "increasing the release of T4 from thyroglobulin"
+      },
+      {
+        "letter": "C",
+        "text": "microsomal induction resulting in decreased"
+      },
+      {
+        "letter": "D",
+        "text": "chemical inhibition of 5'-monodeiodinase"
+      },
+      {
+        "letter": "E",
+        "text": "increasing the organification of iodine through"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4540",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "What is the primary factor responsible for how\ndeeply a gas penetrates into the lung?",
+    "answer": "C",
+    "answer_text": "",
+    "bloom": "analyze",
+    "options": [
+      {
+        "letter": "A",
+        "text": "vapor pressure"
+      },
+      {
+        "letter": "B",
+        "text": "respiratory rate"
+      },
+      {
+        "letter": "C",
+        "text": "water solubility"
+      },
+      {
+        "letter": "D",
+        "text": "vapor density"
+      },
+      {
+        "letter": "E",
+        "text": "molecular weight"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4541",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "In healthy individuals, mucociliary clearance of\ninhaled particles deposited in the lower airways of the\ntracheobronchial tree is generally completed\ngenerally within which of the following time periods?",
+    "answer": "C",
+    "answer_text": "",
+    "bloom": "apply",
+    "options": [
+      {
+        "letter": "A",
+        "text": "1-4 hours"
+      },
+      {
+        "letter": "B",
+        "text": "24-48 hours"
+      },
+      {
+        "letter": "C",
+        "text": "1 week"
+      },
+      {
+        "letter": "D",
+        "text": "3 weeks"
+      },
+      {
+        "letter": "E",
+        "text": "3 months"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4542",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Which of the following assays assesses the ability\nof a test material to induce chromosomal aberrations\nin vivo?",
+    "answer": "B",
+    "answer_text": "",
+    "bloom": "remember-understand",
+    "options": [
+      {
+        "letter": "A",
+        "text": "bacterial-Ames assay (histidine reversion"
+      },
+      {
+        "letter": "B",
+        "text": "rodent micronucleus test"
+      },
+      {
+        "letter": "C",
+        "text": "mammalian mouse lymphoma thymidine"
+      },
+      {
+        "letter": "D",
+        "text": "sister chromatid exchange assay"
+      },
+      {
+        "letter": "E",
+        "text": "cytokinesis-block micronucleus assay"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4543",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Which of the following is CORRECT regarding\nthe \"promotion\" stage in the multistage\ncarcinogenesis model?",
+    "answer": "A",
+    "answer_text": "",
+    "bloom": "analyze",
+    "options": [
+      {
+        "letter": "A",
+        "text": "it requires repeated application or continuous"
+      },
+      {
+        "letter": "B",
+        "text": "it involves the conversion of benign"
+      },
+      {
+        "letter": "C",
+        "text": "it is a rapid process that results in a"
+      },
+      {
+        "letter": "D",
+        "text": "it is irreversible"
+      },
+      {
+        "letter": "E",
+        "text": "it is not relevant to humans"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4544",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "During which period of pregnancy will\nadministration of a drug most likely produce\nteratogenic effects on the skeletal system?",
+    "answer": "B",
+    "answer_text": "",
+    "bloom": "analyze",
+    "options": [
+      {
+        "letter": "A",
+        "text": "at the time of conception"
+      },
+      {
+        "letter": "B",
+        "text": "first trimester"
+      },
+      {
+        "letter": "C",
+        "text": "second trimester"
+      },
+      {
+        "letter": "D",
+        "text": "third trimester"
+      },
+      {
+        "letter": "E",
+        "text": "immediately before birth"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4545",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "How can DNA adducts assist in establishing a\nchemical's mode of action?",
+    "answer": "A",
+    "answer_text": "",
+    "bloom": "analyze",
+    "options": [
+      {
+        "letter": "A",
+        "text": "can interfere with accurate DNA replication,"
+      },
+      {
+        "letter": "B",
+        "text": "can interfere with the formation of the mitotic"
+      },
+      {
+        "letter": "C",
+        "text": "can cause protein adducts that lead to"
+      },
+      {
+        "letter": "D",
+        "text": "predict that a chemical will be carcinogenic in"
+      },
+      {
+        "letter": "E",
+        "text": "act as a secondary messenger, causing a"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4546",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Which of the following is CORRECT about\nfibrosarcomas?",
+    "answer": "A",
+    "answer_text": "",
+    "bloom": "analyze",
+    "options": [
+      {
+        "letter": "A",
+        "text": "they typically occur in tissues of mesenchymal"
+      },
+      {
+        "letter": "B",
+        "text": "they are characteristically benign"
+      },
+      {
+        "letter": "C",
+        "text": "they are the most common liver tumors in"
+      },
+      {
+        "letter": "D",
+        "text": "they differ from benign fibromas only in size"
+      },
+      {
+        "letter": "E",
+        "text": "prepared slides of fibrosarcomas are virtually"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4547",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Which of the following statements is NOT TRUE\nregarding chemical-induced deregulation to produce\nthyroid hormone insufficiency?",
+    "answer": "C",
+    "answer_text": "",
+    "bloom": "apply",
+    "options": [
+      {
+        "letter": "A",
+        "text": "there are multiple sites within the"
+      },
+      {
+        "letter": "B",
+        "text": "liver UDP-glucuronyltransferase induction"
+      },
+      {
+        "letter": "C",
+        "text": "humans are more sensitive to thyroid hormone"
+      },
+      {
+        "letter": "D",
+        "text": "thyroid follicular cell cancer may result from"
+      },
+      {
+        "letter": "E",
+        "text": "thyroid insufficiency can impact normal brain"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4549",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Which of the following is considered a\nreproductive physiology similarity among humans\nand rats?",
+    "answer": "B",
+    "answer_text": "",
+    "bloom": "apply",
+    "options": [
+      {
+        "letter": "A",
+        "text": "the menstrual cycle has a spontaneous luteal"
+      },
+      {
+        "letter": "B",
+        "text": "FSH and LH regulated germ cell development"
+      },
+      {
+        "letter": "C",
+        "text": "pregnancy is easily disrupted by estrogens"
+      },
+      {
+        "letter": "D",
+        "text": "placental tissue expresses high levels of"
+      },
+      {
+        "letter": "E",
+        "text": "the spermatogenic cycle is approximately 75"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4550",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Which of the following is NOT CORRECT\nregarding endocrine disruption?",
+    "answer": "B",
+    "answer_text": "",
+    "bloom": "remember-understand",
+    "options": [
+      {
+        "letter": "A",
+        "text": "at birth, anogenital distance and nipple"
+      },
+      {
+        "letter": "B",
+        "text": "antiandrogens cause masculinization of female"
+      },
+      {
+        "letter": "C",
+        "text": "endocrine disruption noted in fish near a"
+      },
+      {
+        "letter": "D",
+        "text": "the mode of action for male reproductive"
+      },
+      {
+        "letter": "E",
+        "text": "endocrine disrupting chemicals act through"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4551",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Ethanol, retinoids, valproic acid, and the\nangiotensin converting enzyme (ACE) inhibitors all\nhave which of the following effects?",
+    "answer": "C",
+    "answer_text": "",
+    "bloom": "remember-understand",
+    "options": [
+      {
+        "letter": "A",
+        "text": "cause liver toxicity"
+      },
+      {
+        "letter": "B",
+        "text": "lower blood pressure"
+      },
+      {
+        "letter": "C",
+        "text": "are human developmental toxicants"
+      },
+      {
+        "letter": "D",
+        "text": "have central nervous system effects"
+      },
+      {
+        "letter": "E",
+        "text": "have similar pharmacokinetic pathways"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4552",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Which of the following is the biggest public\nhealth concern related to low level exposure to lead\n(e.g. blood level)?",
+    "answer": "D",
+    "answer_text": "",
+    "bloom": "apply",
+    "options": [
+      {
+        "letter": "A",
+        "text": "encephalopathy"
+      },
+      {
+        "letter": "B",
+        "text": "proximal tubular nephropathy in the elderly"
+      },
+      {
+        "letter": "C",
+        "text": "anemia"
+      },
+      {
+        "letter": "D",
+        "text": "cognitive delays and behavioral changes in"
+      },
+      {
+        "letter": "E",
+        "text": "hemoglobin synthesis"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4553",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "The basis of acrylamide neurotoxicity is\nconsidered to be which of the following?",
+    "answer": "A",
+    "answer_text": "",
+    "bloom": "apply",
+    "options": [
+      {
+        "letter": "A",
+        "text": "segmental demyelination"
+      },
+      {
+        "letter": "B",
+        "text": "necrosis of basal ganglia"
+      },
+      {
+        "letter": "C",
+        "text": "axonal degeneration"
+      },
+      {
+        "letter": "D",
+        "text": "neurofibrillar aggregates"
+      },
+      {
+        "letter": "E",
+        "text": "enlarged astrocytes"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4554",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Which of the following is TRUE regarding\nglutamate?",
+    "answer": "C",
+    "answer_text": "",
+    "bloom": "analyze",
+    "options": [
+      {
+        "letter": "A",
+        "text": "it is the excitatory neurotransmitter in the brain"
+      },
+      {
+        "letter": "B",
+        "text": "its effects are mediated by ionotropic (coupled"
+      },
+      {
+        "letter": "C",
+        "text": "its entry into the CNS is not regulated at the"
+      },
+      {
+        "letter": "D",
+        "text": "it is neurotoxic at normal concentrations in the"
+      },
+      {
+        "letter": "E",
+        "text": "it is toxic to dendrites, neuronal cell bodies and"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4555",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Which of the following is NOT CORRECT\nregarding peripheral nervous system axonopathies?",
+    "answer": "A",
+    "answer_text": "",
+    "bloom": "remember-understand",
+    "options": [
+      {
+        "letter": "A",
+        "text": "the axon degenerates and with it the myelin"
+      },
+      {
+        "letter": "B",
+        "text": "the cell body of the neuron is the focus of"
+      },
+      {
+        "letter": "C",
+        "text": "following a chemical induced transection of"
+      },
+      {
+        "letter": "D",
+        "text": "longer axons have more targets and are more"
+      },
+      {
+        "letter": "E",
+        "text": "the cell body of the neuron undergoes a process"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4556",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "The potential effects of a toxicant on vision is\nevaluated in the Functional Observational Battery in\nwhich of the following ways?",
+    "answer": "B",
+    "answer_text": "",
+    "bloom": "remember-understand",
+    "options": [
+      {
+        "letter": "A",
+        "text": "evaluation of ocular irritancy"
+      },
+      {
+        "letter": "B",
+        "text": "observing the response of the pupil to light"
+      },
+      {
+        "letter": "C",
+        "text": "evaluation of rod and cone density"
+      },
+      {
+        "letter": "D",
+        "text": "scoring the degree of lens opacity"
+      },
+      {
+        "letter": "E",
+        "text": "evaluation of pattern-elicited visual evoked"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4557",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "The peripheral neuropathy caused by n-hexane\nand carbon disulfide is best associated with which of\nthe following?",
+    "answer": "B",
+    "answer_text": "",
+    "bloom": "apply",
+    "options": [
+      {
+        "letter": "A",
+        "text": "axonal degeneration"
+      },
+      {
+        "letter": "B",
+        "text": "cholinesterase inhibition"
+      },
+      {
+        "letter": "C",
+        "text": "formation of Heinz bodies"
+      },
+      {
+        "letter": "D",
+        "text": "immunosuppression"
+      },
+      {
+        "letter": "E",
+        "text": "decreased dopamine level"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4558",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "The mechanism of retinal and optic nerve toxicity\nof methanol in humans is BEST attributed to which of\nthe following?",
+    "answer": "A",
+    "answer_text": "",
+    "bloom": "analyze",
+    "options": [
+      {
+        "letter": "A",
+        "text": "biotransformation to formaldehyde and"
+      },
+      {
+        "letter": "B",
+        "text": "photo-oxidation in the vitreous humor and"
+      },
+      {
+        "letter": "C",
+        "text": "biotransformation to formic acid and"
+      },
+      {
+        "letter": "D",
+        "text": "the presence of catalase in the optic nerve,"
+      },
+      {
+        "letter": "E",
+        "text": "condensation with intraocular melanin to form"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4559",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Which of the following is NOT a characteristic of\nNatural Killer (NK) cells?",
+    "answer": "C",
+    "answer_text": "",
+    "bloom": "remember-understand",
+    "options": [
+      {
+        "letter": "A",
+        "text": "derived from bone marrow"
+      },
+      {
+        "letter": "B",
+        "text": "produces interferon gamma"
+      },
+      {
+        "letter": "C",
+        "text": "major function is cytolysis"
+      },
+      {
+        "letter": "D",
+        "text": "possess immunologic memory"
+      },
+      {
+        "letter": "E",
+        "text": "is a cellular component of the innate immune"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4560",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Which of the following is NOT CORRECT\nregarding renal injury?",
+    "answer": "D",
+    "answer_text": "",
+    "bloom": "remember-understand",
+    "options": [
+      {
+        "letter": "A",
+        "text": "detachment of podocytes from the glomerular"
+      },
+      {
+        "letter": "B",
+        "text": "alterations of concentrating ability are one"
+      },
+      {
+        "letter": "C",
+        "text": "the proximal tubule has a key role in transport"
+      },
+      {
+        "letter": "D",
+        "text": "exposure may mediate some of the"
+      },
+      {
+        "letter": "E",
+        "text": "the glomerulus is the most common site of"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4561",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Which of the following is the primary site of\nkidney injury resulting from exposure to chloroform?",
+    "answer": "A",
+    "answer_text": "",
+    "bloom": "apply",
+    "options": [
+      {
+        "letter": "A",
+        "text": "proximal tubule"
+      },
+      {
+        "letter": "B",
+        "text": "glomerulus"
+      },
+      {
+        "letter": "C",
+        "text": "loop of Henle"
+      },
+      {
+        "letter": "D",
+        "text": "distal tubule/collecting duct"
+      },
+      {
+        "letter": "E",
+        "text": "medulla/papilla"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4562",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Which of the following statements BEST\ncharacterizes the Buehler and Maximization assays?",
+    "answer": "D",
+    "answer_text": "",
+    "bloom": "remember-understand",
+    "options": [
+      {
+        "letter": "A",
+        "text": "they are conducted to evaluate the potential of"
+      },
+      {
+        "letter": "B",
+        "text": "they are most commonly performed in"
+      },
+      {
+        "letter": "C",
+        "text": "they require 72 hour to perform"
+      },
+      {
+        "letter": "D",
+        "text": "they evaluate delayed-contact hypersensitivity"
+      },
+      {
+        "letter": "E",
+        "text": "they are in vitro assays for cell-mediated"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4563",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Chloracne is a persistent skin disease caused by\noverexposure to certain halogenated aromatic\nhydrocarbons like\n2,3,7,8-tetrachlorodibenzo-p-dioxin.  What is the\nprominent target tissue for chloracnegenic agents\nwithin the skin matrix?",
+    "answer": "B",
+    "answer_text": "",
+    "bloom": "apply",
+    "options": [
+      {
+        "letter": "A",
+        "text": "stratum corneum"
+      },
+      {
+        "letter": "B",
+        "text": "sebaceous (oil) glands"
+      },
+      {
+        "letter": "C",
+        "text": "viable hypodermis"
+      },
+      {
+        "letter": "D",
+        "text": "sweat glands"
+      },
+      {
+        "letter": "E",
+        "text": "subcutaneous adipose"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4564",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Which of the following is NOT characteristic of\nallergic contact dermatitis?",
+    "answer": "D",
+    "answer_text": "",
+    "bloom": "apply",
+    "options": [
+      {
+        "letter": "A",
+        "text": "low molecular weight chemicals (haptens) are"
+      },
+      {
+        "letter": "B",
+        "text": "minute quantities of an allergenic chemical"
+      },
+      {
+        "letter": "C",
+        "text": "sensitization must occur first"
+      },
+      {
+        "letter": "D",
+        "text": "the intensity of the reaction is proportional to"
+      },
+      {
+        "letter": "E",
+        "text": "contact sensitivity to an agent that is"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4565",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Which ocular tissue is highly vulnerable to\nsystemic, toxicant induced structural and/or\nfunctional damage?",
+    "answer": "E",
+    "answer_text": "",
+    "bloom": "apply",
+    "options": [
+      {
+        "letter": "A",
+        "text": "iris"
+      },
+      {
+        "letter": "B",
+        "text": "lens"
+      },
+      {
+        "letter": "C",
+        "text": "cornea"
+      },
+      {
+        "letter": "D",
+        "text": "ciliary body"
+      },
+      {
+        "letter": "E",
+        "text": "retina"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4566",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "The oral anticoagulant, warfarin, modulates\nhemostasis by interfering with vitamin K metabolism\nresulting in",
+    "answer": "D",
+    "answer_text": "",
+    "bloom": "remember-understand",
+    "options": [
+      {
+        "letter": "A",
+        "text": "increased fibrinolytic activity"
+      },
+      {
+        "letter": "B",
+        "text": "decreased vitamin K epoxide levels"
+      },
+      {
+        "letter": "C",
+        "text": "decreased fibrogen levels"
+      },
+      {
+        "letter": "D",
+        "text": "decreased clotting factors IX and X"
+      },
+      {
+        "letter": "E",
+        "text": "thrombocytopenia"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4567",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Which of the following agents specifically\naccumulates in hepatic stellate cells?",
+    "answer": "B",
+    "answer_text": "",
+    "bloom": "remember-understand",
+    "options": [
+      {
+        "letter": "A",
+        "text": "iron"
+      },
+      {
+        "letter": "B",
+        "text": "vitamin A"
+      },
+      {
+        "letter": "C",
+        "text": "endotoxin"
+      },
+      {
+        "letter": "D",
+        "text": "acetaminophen"
+      },
+      {
+        "letter": "E",
+        "text": "pyrrolizidine alkaloids"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4568",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Which of the following is the primary function for\nKupffer cells in the liver?",
+    "answer": "B",
+    "answer_text": "",
+    "bloom": "apply",
+    "options": [
+      {
+        "letter": "A",
+        "text": "support the cords of hepatocytes in the liver"
+      },
+      {
+        "letter": "B",
+        "text": "macrophages that ingest and degrade"
+      },
+      {
+        "letter": "C",
+        "text": "provide support to bile ducts"
+      },
+      {
+        "letter": "D",
+        "text": "play a major role in the formation of bile"
+      },
+      {
+        "letter": "E",
+        "text": "provide nutrient homeostasis"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4569",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Which of the following answers is CORRECT\nregarding IARC Class 1 carcinogens with a sufficient\nevidence (causal relationships) for human\ncarcinogenicity?",
+    "answer": "C",
+    "answer_text": "",
+    "bloom": "apply",
+    "options": [
+      {
+        "letter": "A",
+        "text": "arsenic, benz(a)anthracene,"
+      },
+      {
+        "letter": "B",
+        "text": "aflatoxin, benzene, 5-Azacytidine, estrogens"
+      },
+      {
+        "letter": "C",
+        "text": "benzene, aflatoxin, vinyl chloride"
+      },
+      {
+        "letter": "D",
+        "text": "TCDD, arsenic, urethane"
+      },
+      {
+        "letter": "E",
+        "text": "alcohol, estrogen, testosterone"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4570",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Which organ system is most susceptible to\ncisplatin toxicity?",
+    "answer": "A",
+    "answer_text": "",
+    "bloom": "remember-understand",
+    "options": [
+      {
+        "letter": "A",
+        "text": "kidney"
+      },
+      {
+        "letter": "B",
+        "text": "liver"
+      },
+      {
+        "letter": "C",
+        "text": "CNS"
+      },
+      {
+        "letter": "D",
+        "text": "heart"
+      },
+      {
+        "letter": "E",
+        "text": "eye"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4571",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Which of the following associations is NOT\nCORRECT?",
+    "answer": "C",
+    "answer_text": "",
+    "bloom": "remember-understand",
+    "options": [
+      {
+        "letter": "A",
+        "text": "mercury : acute renal failure in humans"
+      },
+      {
+        "letter": "B",
+        "text": "mercury : acute renal failure in rats"
+      },
+      {
+        "letter": "C",
+        "text": "unleaded gasoline : alpha2u-globulin in humans"
+      },
+      {
+        "letter": "D",
+        "text": "unleaded gasoline : alpha2u-globulin in rats"
+      },
+      {
+        "letter": "E",
+        "text": "cadmium : B2-microglobulin in humans"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4572",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Iron (Fe) is an essential mineral but overdoses\nresult in damage to periportal hepatocytes.  Which of\nthe following best describes the reason for this\nspecificity?",
+    "answer": "B",
+    "answer_text": "",
+    "bloom": "analyze",
+    "options": [
+      {
+        "letter": "A",
+        "text": "excess Fe from the portal vein precipitates in"
+      },
+      {
+        "letter": "B",
+        "text": "Fe functions as an electron donor for the"
+      },
+      {
+        "letter": "C",
+        "text": "Fe is preferentially taken up by the zone I"
+      },
+      {
+        "letter": "D",
+        "text": "excess Fe directly interferes in the formation of"
+      },
+      {
+        "letter": "E",
+        "text": "Fe is preferentially taken up in type I"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4573",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Xenobiotics such as omeprazole or zidovudine\ncan contribute to a deficiency of vitamin B12.\nSubsequently, this deficiency can result in changes in\nerythroid and myeloid lineages in bone marrow.\nThese events can result in what type of anemia or\ncondition?",
+    "answer": "C",
+    "answer_text": "",
+    "bloom": "apply",
+    "options": [
+      {
+        "letter": "A",
+        "text": "aplastic anemia"
+      },
+      {
+        "letter": "B",
+        "text": "sideroblastic anemia"
+      },
+      {
+        "letter": "C",
+        "text": "megaloblastic anemia"
+      },
+      {
+        "letter": "D",
+        "text": "iron-deficiency anemia"
+      },
+      {
+        "letter": "E",
+        "text": "pure red cell aplasia"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4574",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Of the various circulating biomarkers available\nfor detecting myocardial injury, which one of the\nfollowing is considered to be predominately\nexpressed in cardiomyocytes?",
+    "answer": "B",
+    "answer_text": "",
+    "bloom": "apply",
+    "options": [
+      {
+        "letter": "A",
+        "text": "B-type natriuretic factor (BNP)"
+      },
+      {
+        "letter": "B",
+        "text": "cardiac troponins T and I (cTnT and cTnI)"
+      },
+      {
+        "letter": "C",
+        "text": "C-reactive protein (CRP)"
+      },
+      {
+        "letter": "D",
+        "text": "creatine kinase-MM (CK-MM)"
+      },
+      {
+        "letter": "E",
+        "text": "myoglobin"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4576",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Peanut allergy is relatively common and can be\nquite severe in some individuals. Although food\nallergies that develop in childhood may be outgrown,\npeanut allergy is often lifelong. The primary\nmechanism of hypersensitivity to peanuts is which of\nthe following?",
+    "answer": "A",
+    "answer_text": "",
+    "bloom": "analyze",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Type 1 hypersensitivity"
+      },
+      {
+        "letter": "B",
+        "text": "Type 2 hypersensitivity"
+      },
+      {
+        "letter": "C",
+        "text": "Type 3 hypersensitivity"
+      },
+      {
+        "letter": "D",
+        "text": "Type 4 hypersensitivity"
+      },
+      {
+        "letter": "E",
+        "text": "Type 5 hypersensitivity"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4577",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Which of the following metabolic pathways would\nmost likely be involved with protecting tissue and\ncellular function damage by highly electrophilic\nmetabolites of xenobiotics?",
+    "answer": "C",
+    "answer_text": "",
+    "bloom": "apply",
+    "options": [
+      {
+        "letter": "A",
+        "text": "acetylation"
+      },
+      {
+        "letter": "B",
+        "text": "sulfation"
+      },
+      {
+        "letter": "C",
+        "text": "glutathione conjugation"
+      },
+      {
+        "letter": "D",
+        "text": "methylation"
+      },
+      {
+        "letter": "E",
+        "text": "amino acid conjugation"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4578",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "Which of the following statements is NOT\nCORRECT relative to toxicokinetic behavior of\npharmaceuticals?",
+    "answer": "D",
+    "answer_text": "",
+    "bloom": "apply",
+    "options": [
+      {
+        "letter": "A",
+        "text": "xenobiotics eliminated in vivo via first-order"
+      },
+      {
+        "letter": "B",
+        "text": "a high apparent volume of distribution is"
+      },
+      {
+        "letter": "C",
+        "text": "clearance of a xenobiotic from the body may"
+      },
+      {
+        "letter": "D",
+        "text": "bioavailability describes the extent of"
+      },
+      {
+        "letter": "E",
+        "text": "in a two-compartment model of a xenobiotic, a"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4580",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "For drugs that are extensively bound to plasma\nproteins but are not bound to tissue components,\nwhich of the following is most correct ?",
+    "answer": "C",
+    "answer_text": "",
+    "bloom": "remember-understand",
+    "options": [
+      {
+        "letter": "A",
+        "text": "renal clearance will be equivalent to hepatic"
+      },
+      {
+        "letter": "B",
+        "text": "clearance will be less than the half life"
+      },
+      {
+        "letter": "C",
+        "text": "volume of distribution will approach that of"
+      },
+      {
+        "letter": "D",
+        "text": "volume of distribution will be dependent upon"
+      },
+      {
+        "letter": "E",
+        "text": "hepatic clearance will be greater than renal"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4581",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "The transcription factor Nrf2 is the master\nregulator of a major adaptive response to cellular\nstress resulting in induction of detoxification\nenzymes. The protein which anchors Nrf2 in the\ncytosol and dissociates from Nrf2 under stress\nconditions is which of the following?",
+    "answer": "D",
+    "answer_text": "",
+    "bloom": "apply",
+    "options": [
+      {
+        "letter": "A",
+        "text": "glutathione reductase"
+      },
+      {
+        "letter": "B",
+        "text": "glutathione peroxidase"
+      },
+      {
+        "letter": "C",
+        "text": "p53"
+      },
+      {
+        "letter": "D",
+        "text": "Keap 1"
+      },
+      {
+        "letter": "E",
+        "text": "TNF"
+      }
+    ]
+  },
+  {
+    "id": "DABT-4627",
+    "bank": "Past ABT Exams (PDFs)",
+    "num": null,
+    "text": "For drugs that are extensively bound to plasma\nproteins but are not bound to tissue components,\nwhich of the following is most correct?",
+    "answer": "C",
+    "answer_text": "",
+    "bloom": "remember-understand",
+    "options": [
+      {
+        "letter": "A",
+        "text": "renal clearance will be equivalent to hepatic"
+      },
+      {
+        "letter": "B",
+        "text": "clearance will be less than the half life"
+      },
+      {
+        "letter": "C",
+        "text": "volume of distribution will approach that of"
+      },
+      {
+        "letter": "D",
+        "text": "volume of distribution will be dependent upon"
+      },
+      {
+        "letter": "E",
+        "text": "hepatic clearance will be greater than renal"
+      }
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "date": "YYYY-MM-DD",
+  "session_type": "drill|deep-dive",
+  "topic": "topic-id",
+  "summary": "Brief description of what was covered",
+  "mastery_changes": {
+    "topic-id": {
+      "before": 0,
+      "after": 1
+    }
+  },
+  "weak_areas_identified": [],
+  "concepts_mastered": [],
+  "next_session_recommendation": ""
+}

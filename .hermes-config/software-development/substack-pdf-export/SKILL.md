@@ -1,6 +1,6 @@
 ---
 name: substack-pdf-export
-description: Export a Substack publication's articles to clean text files and text-only PDFs. Fetches all chapters via archive API, extracts full content from individual pages, and generates PDFs using fpdf2.
+description: Export Substack publication articles to clean text files and text-only PDFs — free and paywalled (with auth). Fetches via archive API or authenticated session, extracts full content from individual pages, and generates PDFs using fpdf2.
 ---
 
 # Substack PDF Export Pipeline
@@ -12,14 +12,23 @@ Export a Substack publication's articles (e.g. a book translation) into clean te
 - User wants to archive a Substack publication locally
 - User wants to convert a series of Substack articles/chapters into PDFs
 - The publication is a book translation split across multiple posts
-- All articles are free/public (no paywall)
+- Articles are free/public (no authentication needed)
+- Articles are paywalled and the user is a subscriber — requires `connect.sid` auth cookie (see Paywalled Content Extraction)
+- **For bulk operations on multiple pubs or custom domains**: use `substack-paywall-export` skill (has stash CLI, subscription discovery, custom domain handling)
+
+## Related Skills
+
+- **`substack-paywall-export`** — Companion skill for paywalled content. Adds authenticated HTTP, `stash` CLI tool, custom domain handling, subscription discovery, bulk fetch/export across multiple publications. Reuses this skill's extraction and PDF pipeline.
+- **`document-pipelines`** — General document conversion (markdown compilation, merged PDF volumes).
 
 ## Prerequisites
 
 ```bash
-pip3 install --break-system-packages trafilatura fpdf2
+pip3 install --break-system-packages trafilatura fpdf2 requests
 ```
 html2text is a fallback — only install if trafilatura is unavailable for your platform.
+
+For paywalled content: `requests` for cookie-based authenticated HTTP. The auth cookie (`connect.sid`) is exported from your browser — see references/paywall-auth.md for the full setup workflow.
 
 ## Workflow
 
@@ -181,6 +190,128 @@ A reusable script is available at `scripts/substack_pdf_export.py`. Edit the `PU
 
 To bootstrap: fetch archive JSON files first (step 1), then scan for matching slugs. See `references/chapter-validation.md` for the cross-referencing technique to ensure no chapters are missed.
 
+## Paywalled Content Extraction
+
+Extract articles from Substack newsletters the user subscribes to, including paywalled content. The same `window._preloads` extraction technique works — but with an auth cookie, the server returns full `body_html` for gated articles instead of a truncated preview.
+
+### 1. Obtain the auth cookie
+
+Substack uses a session cookie called **`connect.sid`** for authentication. Export it from your browser:
+
+1. Open Chrome DevTools → Application → Cookies → `substack.com`
+2. Find the `connect.sid` cookie — copy its **value** (a long alphanumeric string)
+3. Pass it to the authenticated session (step 2 below)
+
+**Security rules:**
+- Never paste `connect.sid` into shell commands — it goes into shell history. Use requests.Session cookies or env vars.
+- Only use your own cookie from your own authenticated session.
+- The cookie stays valid for months as long as you do not sign out. Rotate by signing out and back in.
+
+### 2. Authenticated HTTP requests
+
+Add the cookie to all requests when fetching paywalled content — the exact same `window._preloads` approach from the main Workflow (steps 3–4) works:
+
+```python
+import requests, re, codecs, json, time
+from trafilatura import extract
+
+session = requests.Session()
+session.headers.update({"User-Agent": "Mozilla/5.0"})
+session.cookies.set("connect.sid", "YOUR_COOKIE_VALUE")
+
+# Fetch archive (same endpoint, just auth'd)
+resp = session.get(f"https://{pub}.substack.com/api/v1/archive?sort=new&offset=0")
+posts = resp.json()
+
+# Fetch individual article — returns full body_html for paywalled
+resp = session.get(f"https://{pub}.substack.com/p/{slug}")
+html = resp.text
+m = re.search(r'window\._preloads\s*=\s*JSON\.parse\(\"(.*?)\"\)', html)
+data = json.loads(codecs.decode(m.group(1), "unicode_escape"))
+body_html = data.get("post", {}).get("body_html", "")
+markdown = extract(body_html, output_format="markdown",
+                   include_links=False, include_images=False,
+                   include_formatting=True)
+```
+
+**Key insight**: The cookie is the only difference. With `connect.sid` the server returns full content for paywalled articles; without it you get truncated previews.
+
+### 3. Discover subscribed publications
+
+**Approach A — Substack user profile API (auth'd):**
+```python
+resp = session.get("https://substack.com/api/v1/reader/profile")
+data = resp.json()
+# Inspect the JSON for subscription/pub references
+```
+The exact response shape varies — Substack's internal API is undocumented. Inspect the JSON to find the subscriptions list.
+
+**Approach B — Manual (user provides pub names):**
+```python
+SUBS = ["pub1", "pub2"]  # user provides these
+```
+Use when auto-discovery isn't working or for one-off exports.
+
+**Approach C — NHagar/substack_api library:**
+```bash
+pip3 install substack-api
+```
+```python
+from substack_api import User, SubstackAuth
+auth = SubstackAuth(cookies_path="cookies.json")
+user = User("username", auth=auth)
+subscriptions = user.get_subscriptions()
+```
+
+### 4. Bulk fetch workflow
+
+Full pipeline for paywalled content:
+
+1. Export `connect.sid` → auth session
+2. Discover subscribed publications (step 3)
+3. For each pub: fetch archive pages with auth cookies
+4. For each article: fetch page → `window._preloads` → `body_html` → trafilatura → markdown
+5. Convert to PDF using section 5 (Generate PDF with fpdf2)
+
+```python
+def fetch_all(session, pub_name):
+    """Fetch all articles from a subscribed publication."""
+    archive = []
+    for offset in range(0, 200, 20):
+        resp = session.get(f"https://{pub_name}.substack.com/api/v1/archive?sort=new&offset={offset}")
+        batch = resp.json()
+        if not batch:
+            break
+        archive.extend(batch)
+        time.sleep(0.3)
+
+    results = []
+    for post in archive:
+        slug = post["slug"]
+        resp = session.get(f"https://{pub_name}.substack.com/p/{slug}")
+        html = resp.text
+        m = re.search(r'window\._preloads\s*=\s*JSON\.parse\(\"(.*?)\"\)', html)
+        if not m:
+            continue
+        data = json.loads(codecs.decode(m.group(1), "unicode_escape"))
+        bh = data.get("post", {}).get("body_html", "")
+        if not bh:
+            continue
+        md = extract(bh, output_format="markdown", include_links=False,
+                     include_images=False, include_formatting=True)
+        results.append({"slug": slug, "title": post.get("title"), "md": md})
+        time.sleep(0.5)
+    return results
+```
+
+### 5. Rate limiting
+
+Substack's unofficial API has no documented rate limit, but empirically:
+- **Max 1 req/sec** — stay conservative with `time.sleep(0.5–1.0)` between requests
+- Archive endpoint is lighter than article pages — shorter delays between archive calls
+- No strict IP throttling observed under ~500 req/hr
+- Be polite: the service has no obligation to serve automated traffic
+
 ## Pitfalls
 
 - **DO NOT strip boilerplate with `re.sub(r'\n_+.*?$', ...)`**: This is the most dangerous pattern you can add to `html_to_text`. html2text renders `<em>italic</em>` as `_italic_`, so `\n_+.*?$` with `re.DOTALL` matches from the first italic word to end-of-file, silently truncating the chapter. A 4,400-word chapter collapsed to 200 words before this was caught. Strip boilerplate at PDF rendering time instead (skip lines starting with `Subscribe`, `FUNDRAISING`, `Click here`, `Share`), or use trafilatura which handles it automatically.
@@ -197,6 +328,11 @@ To bootstrap: fetch archive JSON files first (step 1), then scan for matching sl
 - **Short posts**: Some "chapters" may just be announcements, letters, or poems. Verify content length before PDF generation. A real book chapter typically has >15,000 chars of body text. Posts under 5,000 chars are almost certainly not full chapters — they're either paginated (see above) or auxiliary content.
 - **body_html is null in older posts**: Some older Substack posts (pre-2022) serialize `body_html: null` in the `window._preloads` JSON and put content only in the rendered `<article>` HTML tag. When `body_html` extraction fails, fall back to: `re.search(r'<article[^>]*>(.*?)</article>', page_html, re.DOTALL)` and feed the result to trafilatura. This is common for the first few posts a publication ever made.
 - **ToC page slug may change**: The URL of a publication's Table of Contents page is not stable. Always fetch the archive and search for it rather than hardcoding the URL. If a previously-working ToC URL returns 404, scan the archive for posts whose title contains the book name or "table of contents".
+- **connect.sid expiry**: The session cookie stays valid for months but expires when you sign out. If requests return 401/403 or truncated preview-only content for paywalled posts, the cookie has expired. Re-export from browser.
+- **Cookie in shell commands**: Never pass `connect.sid` directly in shell curl commands — it gets saved to shell history. Use requests.Session cookies or environment variables (see references/paywall-auth.md for secure patterns).
+- **Paywalled vs free detection**: With auth, paywalled articles return full `body_html` just like free ones. To confirm an article was gated, check `post.get("audience", "")` in `_preloads` data — `"only_subscribers"` means it was paywalled. Or compare with the unauthenticated response.
+- **Empty body_html despite auth**: If `body_html` is empty even with a valid `connect.sid`, either the cookie expired or the post uses an older format. Fall back to extracting `<article>` from the full page HTML (see pitfall: "body_html is null in older posts").
+- **NHagar/substack_api version pinning**: The library is actively developed. If `pip3 install substack-api` fails, pin to a known version from [PyPI](https://pypi.org/project/substack-api).
 
 ### 7. Compile chapters into a single book (bound volume)
 

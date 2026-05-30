@@ -1,0 +1,127 @@
+# Source: https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200
+# Source: https://www.law.cornell.edu/cfr/text/29/1910.1200
+# Source: https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200
+# Retrieved: 2026-05-29
+
+OSHA 29 CFR 1910.1200 — HAZARD COMMUNICATION STANDARD (HCS 2024)
+==================================================================
+
+Authority: 29 U.S.C. 653, 655, 657; Secretary of Labor's Orders.
+The Hazard Communication Standard (HCS 2024) aligns with UN GHS Revision 7.
+
+(a) PURPOSE
+------------
+Purpose: ensure that hazards of all chemicals produced or imported are classified, and that information concerning classified hazards is transmitted to employers and employees.
+Transmittal is accomplished through: (1) container labeling and other forms of warning, (2) safety data sheets, (3) employee training programs.
+Under Section 18 of the OSH Act, this standard preempts state or political subdivision requirements, except via a Federally-approved state plan.
+
+(b) SCOPE AND APPLICATION
+--------------------------
+Applies to: chemical manufacturers, importers, distributors, and employers with hazardous chemicals in the workplace.
+Partial application:
+- Laboratories: maintain labels & SDSs, provide training, label outgoing shipments
+- Sealed containers (warehousing, retail, marine cargo): ensure labels not defaced, maintain SDSs, provide spill/leak training
+
+Exemptions from labeling:
+- Pesticides (FIFRA), TSCA substances, FDA-regulated products (food, drugs, cosmetics)
+- Distilled spirits (ATF), consumer products/hazardous substances (CPSC), treated seeds
+
+Does NOT apply to:
+- Hazardous waste (RCRA), CERCLA remedial actions, tobacco/wood products (if only hazard is flammability)
+- Articles (as defined), food/alcohol in retail, solid drugs, cosmetics for retail/personal use
+- Consumer products used as intended (same duration/frequency as consumers)
+- Nuisance particulates, ionizing/nonionizing radiation, biological hazards
+
+(c) DEFINITIONS — KEY TERMS
+-----------------------------
+- Hazardous Chemical: any chemical classified as a physical hazard, health hazard, simple asphyxiant, combustible dust, or HNOC
+- Article: manufactured item (not fluid/particle) formed to a specific shape, with end use dependent on that shape, which does not release more than very small quantities under normal use
+- Classification: identify relevant data, review, decide whether the chemical is hazardous (including degree where appropriate)
+- HNOC (Hazard Not Otherwise Classified): adverse effect not meeting specified criteria for physical/health hazard classes
+- Product Identifier: name/number used on label and SDS cross-references
+- Combustible Dust: finely divided solid particulates posing flash-fire/explosion hazard
+- Simple Asphyxiant: displaces oxygen in ambient atmosphere
+- Label Elements: specified pictogram, hazard statement, signal word, and precautionary statement for each hazard class/category
+- Responsible Party: someone who can provide additional information on the chemical and emergency procedures
+
+Health Hazard Classes: acute toxicity, skin corrosion/irritation, serious eye damage/eye irritation, respiratory/skin sensitization, germ cell mutagenicity, carcinogenicity, reproductive toxicity, STOT (single/repeated), aspiration hazard
+
+Physical Hazard Classes: explosive, flammable (gas/liquid/solid), aerosol, chemical under pressure, oxidizer (gas/liquid/solid), self-reactive, pyrophoric (liquid/solid), self-heating, organic peroxide, corrosive to metal, gas under pressure, water-reactive, desensitized explosive
+
+(d) HAZARD CLASSIFICATION
+--------------------------
+- Chemical manufacturers and importers MUST classify chemicals
+- Employers not required to classify if they rely on manufacturer's classification
+- Must determine hazard classes and categories
+- Must consider hazards from: change in physical form, chemical reaction products from known/anticipated uses
+- Must consider full range of available scientific literature and evidence
+- No requirement to test
+
+Hazard classification criteria follow Appendices A (Health Hazards) and B (Physical Hazards):
+- Acute Toxicity: 4 categories per route; oral LD50 ranges Cat1 (<=5 mg/kg), Cat2 (5-50), Cat3 (50-300), Cat4 (300-2000)
+- Skin/Eye Corrosion/Irritation: pH extremes (<=2 or >=11.5) default to Category 1
+- Respiratory & Skin Sensitization: subcategorized 1A (high potency) or 1B
+- Germ Cell Mutagenicity / Carcinogenicity / Reproductive Toxicity: Categories 1A/1B/2; mixture thresholds 0.1%
+- STOT-SE and STOT-RE: specific guidance values
+- Aspiration Hazard: Category 1 only; applies to liquids with kinematic viscosity <=20.5 mm2/s at 40C
+
+(e) WRITTEN HAZARD COMMUNICATION PROGRAM
+------------------------------------------
+- Maintained at each workplace
+- Describes how labels, SDS, and training requirements are met
+- Includes chemical list referenced to SDS
+- Outlines methods for informing employees of non-routine tasks and unlabeled pipe hazards
+- Multi-employer worksites: procedures for sharing SDS access, precautionary measures, labeling system
+
+(f) LABELS AND OTHER WARNINGS
+-------------------------------
+Shipped Containers: product identifier, signal word, hazard statements, GHS pictograms, precautionary statements, and responsible party contact
+Workplace Containers: full information OR product identifier with general hazard info tied to written program
+Key Exemptions:
+- Immediate use (same shift/user): no label required
+- Solid metal/wood items: label sent with initial shipment only
+- Small containers (<=100 ml): reduced elements; (<=3 ml): product identifier only
+Updates: containers must be relabeled within 6 months of significant new hazard info
+
+(g) SAFETY DATA SHEETS
+-----------------------
+Mandatory 16-section format (Appendix D):
+1. Identification
+2. Hazard(s) Identification
+3. Composition/Information on Ingredients
+4. First-Aid Measures
+5. Fire-Fighting Measures
+6. Accidental Release Measures
+7. Handling and Storage
+8. Exposure Controls/Personal Protection
+9. Physical and Chemical Properties
+10. Stability and Reactivity
+11. Toxicological Information
+12. Ecological Information (non-enforceable by OSHA)
+13. Disposal Considerations (non-enforceable)
+14. Transport Information (non-enforceable)
+15. Regulatory Information (non-enforceable)
+16. Other Information
+
+Sections 1-11 and 16 must be completed. SDS updates: within 3 months of significant new information. Must be readily accessible to employees (electronic access permitted).
+
+(h) EMPLOYEE INFORMATION AND TRAINING
+---------------------------------------
+Required at initial assignment and whenever a new chemical hazard is introduced.
+Training covers: detection methods; specific hazards (physical, health, simple asphyxiant, combustible dust, HNOC); protective measures (PPE, emergency procedures); details of employer's hazard communication program.
+
+(i) TRADE SECRETS
+------------------
+- Chemical manufacturers, importers, or employers may withhold specific chemical identity from SDS under trade secret provisions
+- Must disclose to health professionals in medical emergencies
+- Must disclose to health professionals (non-emergency) with written confidentiality agreement
+- "Trade secret" defined per Restatement of Torts Section 757, comment b
+- Process to challenge trade secret claims available through OSHA
+
+APPENDICES (incorporated by reference):
+- Appendix A: Health Hazard Criteria (Mandatory)
+- Appendix B: Physical Hazard Criteria (Mandatory)
+- Appendix C: Allocation of Label Elements (Mandatory)
+- Appendix D: Safety Data Sheets (Mandatory)
+- Appendix E: Definition of "Trade Secret" (Mandatory)
+- Appendix F: Guidance for Hazard Classifications Re: Carcinogenicity (Non-Mandatory)

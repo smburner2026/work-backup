@@ -1,0 +1,989 @@
+{
+  "report_title": "DABT Study Material Analysis - Deep Content Analysis",
+  "date": "2026-05-19",
+  "sections": {
+    "act_course_2018": {
+      "description": "ACT (Academy of Toxicological Sciences?) Course 2018 - Lecture slide decks and audio recordings",
+      "lectures": {
+        "total_files": 27,
+        "unique_lectures": 23,
+        "total_pages": 1675,
+        "embedded_practice_questions": "NONE - All 24 PDF lectures are slide-deck reference materials with no embedded quizzes or practice questions",
+        "lecture_details": [
+          {
+            "num": "1",
+            "file": "1_General_Tox_MechTox_M_Cosenza.pdf",
+            "pages": 69,
+            "lecturer": "M. Cosenza",
+            "topics": [
+              "General Principles of Toxicology",
+              "Mechanisms of Toxicity",
+              "Dose-Response",
+              "ADME",
+              "Chemical Carcinogenesis"
+            ],
+            "dabt_domains": [
+              "I - General Principles"
+            ],
+            "questions": false
+          },
+          {
+            "num": "2",
+            "file": "2_ADME and Toxicokinetics_T_Williams.pdf",
+            "pages": 55,
+            "lecturer": "T. Williams",
+            "topics": [
+              "ADME",
+              "Toxicokinetics",
+              "Biotransformation",
+              "Absorption/Distribution/Excretion"
+            ],
+            "dabt_domains": [
+              "I - General Principles"
+            ],
+            "questions": false
+          },
+          {
+            "num": "3",
+            "file": "3_Biotransformation_MB_Genter.pdf",
+            "pages": 65,
+            "lecturer": "M.B. Genter",
+            "topics": [
+              "Biotransformation (Phase I & II)",
+              "CYP450",
+              "Conjugation reactions",
+              "Metabolism"
+            ],
+            "dabt_domains": [
+              "I - General Principles"
+            ],
+            "questions": false
+          },
+          {
+            "num": "4",
+            "file": "4_Genotox_L_Recio.pdf",
+            "pages": 69,
+            "lecturer": "L. Recio",
+            "topics": [
+              "Genetic Toxicology",
+              "Mutagenesis",
+              "Ames Test",
+              "Chromosomal Aberrations",
+              "DNA Damage & Repair"
+            ],
+            "dabt_domains": [
+              "I - General Principles"
+            ],
+            "questions": false
+          },
+          {
+            "num": "5",
+            "file": "5_Carcinogenesis_J_Wisler.pdf",
+            "pages": 79,
+            "lecturer": "J. Wisler",
+            "topics": [
+              "Chemical Carcinogenesis",
+              "Initiation/Promotion/Progression",
+              "Oncogenes",
+              "Tumor Suppressors"
+            ],
+            "dabt_domains": [
+              "I - General Principles"
+            ],
+            "questions": false
+          },
+          {
+            "num": "6",
+            "file": "6_Hematopoietic_K_Hastings.pdf",
+            "pages": 101,
+            "lecturer": "K. Hastings",
+            "topics": [
+              "Hematopoietic Toxicity",
+              "Blood",
+              "Erythrocytes",
+              "Anemia",
+              "Methemoglobinemia",
+              "Bone Marrow"
+            ],
+            "dabt_domains": [
+              "II - Systemic Toxicology"
+            ],
+            "questions": false
+          },
+          {
+            "num": "7",
+            "file": "7_Liver_B_Brock.pdf",
+            "pages": 56,
+            "lecturer": "B. Brock",
+            "topics": [
+              "Hepatotoxicity",
+              "Liver Structure/Function",
+              "Cholestasis",
+              "Steatosis",
+              "Necrosis"
+            ],
+            "dabt_domains": [
+              "II - Systemic Toxicology"
+            ],
+            "questions": false
+          },
+          {
+            "num": "8",
+            "file": "8_Nervous_System_MB_Genter.pdf",
+            "pages": 56,
+            "lecturer": "M.B. Genter",
+            "topics": [
+              "Neurotoxicity",
+              "Nervous System Structure",
+              "Neuronopathies",
+              "Axonopathies",
+              "Myelinopathies"
+            ],
+            "dabt_domains": [
+              "II - Systemic Toxicology"
+            ],
+            "questions": false
+          },
+          {
+            "num": "9",
+            "file": "9_Resp_Tox_VanWinkle.pdf",
+            "pages": 66,
+            "lecturer": "VanWinkle",
+            "topics": [
+              "Respiratory Toxicology",
+              "Lung Structure/Function",
+              "Inhalation",
+              "Pulmonary Toxicity"
+            ],
+            "dabt_domains": [
+              "II - Systemic Toxicology"
+            ],
+            "questions": false
+          },
+          {
+            "num": "10",
+            "file": "10_Renal_Toxicology_Dorman.pdf",
+            "pages": 64,
+            "lecturer": "Dorman",
+            "topics": [
+              "Nephrotoxicity",
+              "Kidney Structure/Function",
+              "Glomerular Injury",
+              "Tubular Necrosis"
+            ],
+            "dabt_domains": [
+              "II - Systemic Toxicology"
+            ],
+            "questions": false
+          },
+          {
+            "num": "11",
+            "file": "11_Dev_Repro_A_Hoberman.pdf",
+            "pages": 139,
+            "lecturer": "A. Hoberman",
+            "topics": [
+              "Reproductive & Developmental Toxicity",
+              "Teratogenesis",
+              "Fertility",
+              "Regulatory Testing"
+            ],
+            "dabt_domains": [
+              "II - Systemic Toxicology",
+              "IV - Applied Toxicology"
+            ],
+            "questions": false,
+            "note": "Duplicate copy also present as '(1).pdf'"
+          },
+          {
+            "num": "12",
+            "file": "12_Cardiovascular_S_Authier.pdf",
+            "pages": 82,
+            "lecturer": "S. Authier",
+            "topics": [
+              "Cardiovascular Toxicity",
+              "Cardiotoxicity",
+              "Arrhythmia",
+              "Vascular Toxicity"
+            ],
+            "dabt_domains": [
+              "II - Systemic Toxicology"
+            ],
+            "questions": false
+          },
+          {
+            "num": "13",
+            "file": "13_Dermal_Ocular_W_Brock.pdf",
+            "pages": 70,
+            "lecturer": "W. Brock",
+            "topics": [
+              "Dermal Toxicity",
+              "Ocular Toxicity",
+              "Skin Irritation",
+              "Sensitization",
+              "Eye Irritation"
+            ],
+            "dabt_domains": [
+              "II - Systemic Toxicology"
+            ],
+            "questions": false
+          },
+          {
+            "num": "14",
+            "file": "14_Solvents_Vapors_MB_Genter.pdf",
+            "pages": 60,
+            "lecturer": "M.B. Genter",
+            "topics": [
+              "Solvents & Vapors",
+              "Benzene",
+              "Toluene",
+              "Trichloroethylene",
+              "Alcohols"
+            ],
+            "dabt_domains": [
+              "III - Toxic Agents"
+            ],
+            "questions": false
+          },
+          {
+            "num": "15",
+            "file": "15_Food_Tox_R_Lane.pdf",
+            "pages": 114,
+            "lecturer": "R. Lane",
+            "topics": [
+              "Food Toxicology",
+              "Food Additives",
+              "Contaminants",
+              "Mycotoxins",
+              "Aflatoxin",
+              "Botulism"
+            ],
+            "dabt_domains": [
+              "III - Toxic Agents"
+            ],
+            "questions": false
+          },
+          {
+            "num": "16",
+            "file": "16_Pesticides_L_Cox.pdf",
+            "pages": 71,
+            "lecturer": "L. Cox",
+            "topics": [
+              "Pesticides",
+              "Organophosphates",
+              "Carbamates",
+              "Pyrethroids",
+              "Organochlorines",
+              "Insecticides"
+            ],
+            "dabt_domains": [
+              "III - Toxic Agents"
+            ],
+            "questions": false
+          },
+          {
+            "num": "17",
+            "file": "17_Forensic_Tox_B_Kelman.pdf",
+            "pages": 33,
+            "lecturer": "B. Kelman",
+            "topics": [
+              "Forensic Toxicology",
+              "Analytical Toxicology",
+              "Drug Testing",
+              "Chain of Custody",
+              "Postmortem"
+            ],
+            "dabt_domains": [
+              "IV - Applied Toxicology"
+            ],
+            "questions": false
+          },
+          {
+            "num": "18",
+            "file": "18_Occup_Tox_B_Kelman.pdf",
+            "pages": 93,
+            "lecturer": "B. Kelman",
+            "topics": [
+              "Occupational Toxicology",
+              "Industrial Hygiene",
+              "Exposure Limits (TLV, PEL)",
+              "Workplace Monitoring"
+            ],
+            "dabt_domains": [
+              "IV - Applied Toxicology"
+            ],
+            "questions": false
+          },
+          {
+            "num": "19",
+            "file": "19_EnvEcoTox_J_Staveley.pdf",
+            "pages": 100,
+            "lecturer": "J. Staveley",
+            "topics": [
+              "Ecotoxicology",
+              "Environmental Toxicology",
+              "Aquatic Toxicity",
+              "Avian/Wildlife Toxicity"
+            ],
+            "dabt_domains": [
+              "IV - Applied Toxicology"
+            ],
+            "questions": false
+          },
+          {
+            "num": "20",
+            "file": "20_Risk_Assessment_L_Haber.pdf",
+            "pages": 90,
+            "lecturer": "L. Haber",
+            "topics": [
+              "Risk Assessment",
+              "Hazard Identification",
+              "Dose-Response",
+              "Exposure Assessment",
+              "Risk Characterization"
+            ],
+            "dabt_domains": [
+              "IV - Applied Toxicology"
+            ],
+            "questions": false
+          },
+          {
+            "num": "S1",
+            "file": "Metals.pdf",
+            "pages": 63,
+            "lecturer": "Unknown",
+            "topics": [
+              "Metals Toxicology",
+              "Lead",
+              "Mercury",
+              "Cadmium",
+              "Arsenic",
+              "Chromium"
+            ],
+            "dabt_domains": [
+              "III - Toxic Agents"
+            ],
+            "questions": false,
+            "note": "Supplementary lecture"
+          },
+          {
+            "num": "S2",
+            "file": "Natural-Products.pdf",
+            "pages": 58,
+            "lecturer": "Unknown",
+            "topics": [
+              "Natural Products & Toxins",
+              "Venoms",
+              "Plant Toxins",
+              "Mushroom Toxins",
+              "Marine Toxins"
+            ],
+            "dabt_domains": [
+              "III - Toxic Agents"
+            ],
+            "questions": false,
+            "note": "Supplementary lecture"
+          },
+          {
+            "num": "S3",
+            "file": "Radiation.pdf",
+            "pages": 22,
+            "lecturer": "Unknown",
+            "topics": [
+              "Radiation Toxicology",
+              "Ionizing Radiation",
+              "Radionuclides"
+            ],
+            "dabt_domains": [
+              "III - Toxic Agents"
+            ],
+            "questions": false,
+            "note": "Supplementary lecture"
+          }
+        ],
+        "dabt_domain_coverage": {
+          "I - General Principles": "Lectures 1-5 cover foundations (General Tox, ADME/TK, Biotransformation, Genotox, Carcinogenesis)",
+          "II - Systemic Toxicology": "Lectures 6-13 cover organ systems (Hematopoietic, Liver, Nervous, Respiratory, Renal, Repro/Dev, Cardiovascular, Dermal/Ocular)",
+          "III - Toxic Agents": "Lectures 14-16 + S1-S3 cover agents (Solvents, Food, Pesticides, Metals, Natural Products, Radiation)",
+          "IV - Applied Toxicology": "Lectures 17-20 cover applied (Forensic, Occupational, Env/Eco, Risk Assessment)"
+        }
+      },
+      "audio": {
+        "total_files": 9,
+        "format": "WAV (uncompressed audio)",
+        "total_size_mb": 1466.7,
+        "description": "Audio recordings of 8 lecture sessions (Carcinogenesis split into 2 parts)",
+        "files": [
+          {
+            "file": "Biotransformation.wav",
+            "size_mb": 193.2,
+            "corresponds_to": "Lecture 3 - Biotransformation_MB_Genter"
+          },
+          {
+            "file": "Carcinogenesis - 1.wav",
+            "size_mb": 109.0,
+            "corresponds_to": "Lecture 5 - Carcinogenesis_J_Wisler (Part 1)"
+          },
+          {
+            "file": "Carcinogenesis - 2.wav",
+            "size_mb": 88.9,
+            "corresponds_to": "Lecture 5 - Carcinogenesis_J_Wisler (Part 2)"
+          },
+          {
+            "file": "Cardiovascular Toxicology .wav",
+            "size_mb": 191.8,
+            "corresponds_to": "Lecture 12 - Cardiovascular_S_Authier"
+          },
+          {
+            "file": "Environmental and Ecology Toxicology .wav",
+            "size_mb": 163.5,
+            "corresponds_to": "Lecture 19 - EnvEcoTox_J_Staveley"
+          },
+          {
+            "file": "Health Risk Assessment .wav",
+            "size_mb": 165.3,
+            "corresponds_to": "Lecture 20 - Risk_Assessment_L_Haber"
+          },
+          {
+            "file": "Pesticides Toxicology .wav",
+            "size_mb": 198.0,
+            "corresponds_to": "Lecture 16 - Pesticides_L_Cox"
+          },
+          {
+            "file": "Repro Toxicology .wav",
+            "size_mb": 211.1,
+            "corresponds_to": "Lecture 11 - Dev_Repro_A_Hoberman"
+          },
+          {
+            "file": "Solvents and Vapors Toxicity .wav",
+            "size_mb": 145.9,
+            "corresponds_to": "Lecture 14 - Solvents_Vapors_MB_Genter"
+          }
+        ],
+        "note": "Audio content cannot be automatically transcribed, but filenames clearly correspond to lecture numbers 3, 5, 11, 12, 14, 16, 19, 20"
+      }
+    },
+    "midamer_tox_course": {
+      "description": "Mid-American Toxicology Course - Scanned lecture summary handouts (circa 2000-2003). All are scanned/image-based PDFs. Content derived from Casarett & Doull's Toxicology lectures by expert toxicologists.",
+      "topic_summaries": {
+        "total_files": 19,
+        "format": "Scanned PDFs (OCR-accessible; extracted via Tesseract)",
+        "embedded_practice_questions": "NONE - These are reference/lecture summary documents, not test banks. No practice questions, quizzes, or review exercises embedded.",
+        "total_pages": 760,
+        "summary_details": [
+          {
+            "file": "Table of Contents.pdf",
+            "pages": 1,
+            "description": "Course outline listing all topics; lists registrants and course evaluation form"
+          },
+          {
+            "file": "Principles of Tox.pdf",
+            "pages": 23,
+            "author": "Curtis D. Klaassen, Ph.D.",
+            "topics": [
+              "Introduction to Toxicology",
+              "History (Paracelsus)",
+              "Definitions",
+              "Areas of Toxicology",
+              "Dose-Response"
+            ],
+            "dabt_domains": [
+              "I - General Principles"
+            ]
+          },
+          {
+            "file": "Mech of Tox.pdf",
+            "pages": 38,
+            "author": "Curtis D. Klaassen, Ph.D.",
+            "topics": [
+              "Mechanisms of Toxicity",
+              "Steps in Toxicity",
+              "Target Molecule Interactions",
+              "Cellular Dysfunction",
+              "Repair"
+            ],
+            "dabt_domains": [
+              "I - General Principles"
+            ]
+          },
+          {
+            "file": "Disposition of Xenobiotics.pdf",
+            "pages": 41,
+            "author": "Curtis D. Klaassen, Ph.D.",
+            "topics": [
+              "ADME",
+              "Absorption",
+              "Distribution",
+              "Excretion",
+              "Biotransformation",
+              "Toxicokinetics"
+            ],
+            "dabt_domains": [
+              "I - General Principles"
+            ]
+          },
+          {
+            "file": "Genetic Toxicology.pdf",
+            "pages": 44,
+            "author": "Unknown (C&D content)",
+            "topics": [
+              "Genetic Toxicology",
+              "Mutagenesis",
+              "DNA Damage",
+              "Chromosomal Aberrations",
+              "Basic Principles"
+            ],
+            "dabt_domains": [
+              "I - General Principles"
+            ]
+          },
+          {
+            "file": "Carcinogenesis.pdf",
+            "pages": 64,
+            "author": "Samuel M. Cohen, M.D., Ph.D.",
+            "topics": [
+              "Chemical Carcinogenesis",
+              "Initiation/Promotion/Progression",
+              "Oncogenes"
+            ],
+            "dabt_domains": [
+              "I - General Principles"
+            ]
+          },
+          {
+            "file": "Inhalation Toxicology.pdf",
+            "pages": 144,
+            "author": "Aryeh Hurwitz, M.D.",
+            "topics": [
+              "Respiratory Toxicology",
+              "Inhalation",
+              "Lung Structure/Function",
+              "Pulmonary Toxicity"
+            ],
+            "dabt_domains": [
+              "II - Systemic Toxicology"
+            ]
+          },
+          {
+            "file": "Liver and Kidney Toxicity.pdf",
+            "pages": 32,
+            "author": "Curtis D. Klaassen, Ph.D.",
+            "topics": [
+              "Hepatotoxicity",
+              "Nephrotoxicity",
+              "Liver Structure/Function",
+              "Kidney Structure/Function"
+            ],
+            "dabt_domains": [
+              "II - Systemic Toxicology"
+            ]
+          },
+          {
+            "file": "Neuro & Behavioral Tox.pdf",
+            "pages": 63,
+            "author": "Donald A. Fox, Ph.D.",
+            "topics": [
+              "Neurotoxicity",
+              "Behavioral Toxicology",
+              "Nervous System"
+            ],
+            "dabt_domains": [
+              "II - Systemic Toxicology"
+            ]
+          },
+          {
+            "file": "Ocular & Visual Tox.pdf",
+            "pages": 32,
+            "author": "Donald A. Fox, Ph.D.",
+            "topics": [
+              "Ocular Toxicology",
+              "Visual System",
+              "Systemic Drugs & Toxicants with Ocular Effects"
+            ],
+            "dabt_domains": [
+              "II - Systemic Toxicology"
+            ]
+          },
+          {
+            "file": "Dermatotoxicity.pdf",
+            "pages": 17,
+            "author": "Donald V. Belsito, M.D.",
+            "topics": [
+              "Dermal Toxicity",
+              "Skin Irritation",
+              "Sensitization",
+              "Percutaneous Absorption"
+            ],
+            "dabt_domains": [
+              "II - Systemic Toxicology"
+            ]
+          },
+          {
+            "file": "Immunotox.pdf",
+            "pages": 37,
+            "author": "Thomas L. Pazdernik, Ph.D.",
+            "topics": [
+              "Immunotoxicity",
+              "Hypersensitivity",
+              "Immunosuppression",
+              "Immune System"
+            ],
+            "dabt_domains": [
+              "II - Systemic Toxicology"
+            ]
+          },
+          {
+            "file": "Blood Toxicity.pdf",
+            "pages": 61,
+            "author": "John C. Bloom, VMD, PhD",
+            "topics": [
+              "Hematopoietic Toxicity",
+              "Blood",
+              "Erythrocytes",
+              "Anemia",
+              "Coagulation"
+            ],
+            "dabt_domains": [
+              "II - Systemic Toxicology"
+            ]
+          },
+          {
+            "file": "Teratog and Repro.pdf",
+            "pages": 27,
+            "author": "James S. Bus, Ph.D., DABT",
+            "topics": [
+              "Reproductive & Developmental Toxicity",
+              "Teratogenesis",
+              "Fertility"
+            ],
+            "dabt_domains": [
+              "II - Systemic Toxicology"
+            ]
+          },
+          {
+            "file": "Metals.pdf",
+            "pages": 57,
+            "author": "Thomas W. Clarkson, Ph.D.",
+            "topics": [
+              "Metals Toxicology",
+              "Lead",
+              "Mercury",
+              "Cadmium",
+              "Arsenic"
+            ],
+            "dabt_domains": [
+              "III - Toxic Agents"
+            ]
+          },
+          {
+            "file": "Pesticides.pdf",
+            "pages": 26,
+            "author": "Janice Chambers, Ph.D.",
+            "topics": [
+              "Pesticides",
+              "Organophosphates",
+              "Carbamates",
+              "Insecticides"
+            ],
+            "dabt_domains": [
+              "III - Toxic Agents"
+            ]
+          },
+          {
+            "file": "Solvents and Vapors.pdf",
+            "pages": 13,
+            "author": "Curtis D. Klaassen, Ph.D.",
+            "topics": [
+              "Solvents & Vapors",
+              "Degreasers",
+              "Paints/Inks",
+              "Aerosols"
+            ],
+            "dabt_domains": [
+              "III - Toxic Agents"
+            ]
+          },
+          {
+            "file": "Plant and Animal Toxins.pdf",
+            "pages": 29,
+            "author": "Frederick W. Oehme, DVM, PhD",
+            "topics": [
+              "Natural Products & Toxins",
+              "Venoms",
+              "Plant Toxins",
+              "Animal Toxins"
+            ],
+            "dabt_domains": [
+              "III - Toxic Agents"
+            ]
+          },
+          {
+            "file": "Reg.Tox. Risk Assess.pdf",
+            "pages": 11,
+            "author": "Curtis D. Klaassen, Ph.D.",
+            "topics": [
+              "Regulatory Toxicology",
+              "Risk Assessment",
+              "ACGIH",
+              "FDA",
+              "TLVs",
+              "Acceptable Daily Intake"
+            ],
+            "dabt_domains": [
+              "IV - Applied Toxicology"
+            ]
+          }
+        ],
+        "dabt_domain_coverage": {
+          "I - General Principles": "5 documents (Principles, Mech of Tox, Disposition, Genetic Tox, Carcinogenesis)",
+          "II - Systemic Toxicology": "7 documents (Inhalation, Liver/Kidney, Neuro, Ocular, Dermal, Immuno, Blood, Repro)",
+          "III - Toxic Agents": "4 documents (Metals, Pesticides, Solvents, Plants/Animals)",
+          "IV - Applied Toxicology": "1 document (Reg Tox/Risk Assessment)"
+        }
+      },
+      "regulatory_guidelines": {
+        "description": "Regulatory guideline documents organized by agency",
+        "total_files": 28,
+        "ich": {
+          "count": 11,
+          "guidelines": [
+            "ICH_M7(R2) - DNA Reactive Impurities (Step 4, 2023)",
+            "ICH M3(R2) - Nonclinical Safety Studies",
+            "ICH S1A - Carcinogenicity Testing",
+            "ICH S1B(R1) - Carcinogenicity Testing Addendum (2022)",
+            "ICH S1C(R2) - Dose Selection for Carcinogenicity",
+            "ICH S2(R1) - Genotoxicity Testing",
+            "ICH S3A - Toxicokinetics",
+            "ICH S3B - Exposure Assessment",
+            "ICH S5(R3) - Reproductive Toxicology (2020)",
+            "ICH S8 - Immunotoxicity Studies",
+            "ICH S9 - Anticancer Pharmaceuticals"
+          ]
+        },
+        "oecd": {
+          "count": 13,
+          "guidelines": [
+            "TG407 - Repeated Dose Oral Toxicity (Rodent)",
+            "TG408 - Repeated Dose Oral Toxicity (Non-rodent)",
+            "TG414 - Prenatal Development Toxicity",
+            "TG416 - Two-Generation Reproduction Toxicity",
+            "TG420 - Acute Oral Toxicity (Fixed Dose)",
+            "TG423 - Acute Oral Toxicity (Acute Toxic Class)",
+            "TG425 - Acute Oral Toxicity (Up-and-Down)",
+            "TG443 - Extended One-Generation Repro (EOGRT)",
+            "TG451 - Carcinogenicity Studies",
+            "TG452 - Chronic Toxicity Studies",
+            "TG453 - Combined Chronic Tox/Carcinogenicity",
+            "TG471 - Bacterial Reverse Mutation (Ames)",
+            "TG497 - Defined Approaches for Skin Sensitization"
+          ]
+        },
+        "fda": {
+          "count": 2,
+          "documents": [
+            "FDA Least Burdensome Provisions",
+            "FDA Safety Testing of Drug Metabolites"
+          ]
+        },
+        "epa": {
+          "count": 1,
+          "documents": [
+            "EPA Cancer Guidelines 2005"
+          ]
+        },
+        "silverbook": {
+          "source": "National Academies Press",
+          "title": "Science and Decisions: Advancing Risk Assessment (Silver Book)",
+          "pages": 423,
+          "description": "NRC report on improving EPA risk assessment practices"
+        }
+      }
+    },
+    "existing_practice_questions": {
+      "description": "Pre-existing practice question banks in /root/dabt-curated/ (already analyzed in analysis_results.json)",
+      "sources": {
+        "2000Q_Question_Bank": {
+          "files": 35,
+          "total_questions": 392,
+          "format": "MCQ + Matching",
+          "topics_covered": "Comprehensive across all domains"
+        },
+        "Kristen_Topic_Tests": {
+          "files": 26,
+          "total_questions": 1194,
+          "format": "MCQ + Matching + Explanations",
+          "topics_covered": "Topic-specific exams with answer keys for most"
+        },
+        "Chapter_Tests": {
+          "files_tests": 28,
+          "files_answers": 25,
+          "total_questions": 1343,
+          "format": "Chapter-specific tests with separate answer documents"
+        }
+      },
+      "total_questions_available": 2929
+    },
+    "gap_analysis": {
+      "description": "Analysis of DABT exam domain coverage gaps based on existing question bank data and lecture materials",
+      "well_covered_domains": [
+        {
+          "domain": "ADME / Biotransformation",
+          "questions": 2256,
+          "coverage": "EXCELLENT - Over 2000 questions combined"
+        },
+        {
+          "domain": "Systemic Toxicology (Liver, Kidney, Blood/Immune)",
+          "questions": "1200+ each",
+          "coverage": "EXCELLENT"
+        },
+        {
+          "domain": "Chemical Carcinogenesis",
+          "questions": 694,
+          "coverage": "GOOD"
+        },
+        {
+          "domain": "Reproductive/Endocrine",
+          "questions": 779,
+          "coverage": "GOOD"
+        },
+        {
+          "domain": "Dermal/Skin Toxicology",
+          "questions": 866,
+          "coverage": "GOOD"
+        }
+      ],
+      "under_covered_domains": [
+        {
+          "domain": "Antidotes",
+          "questions": 0,
+          "coverage": "NONE - No practice questions found. Covered in Forensic/Clinical lectures but no dedicated testing material"
+        },
+        {
+          "domain": "Toxicologic Disasters",
+          "questions": 0,
+          "coverage": "NONE - No practice questions found"
+        },
+        {
+          "domain": "Animal Tox/Alternatives",
+          "questions": 1,
+          "coverage": "MINIMAL"
+        },
+        {
+          "domain": "Drug Abuse Toxicology",
+          "questions": 1,
+          "coverage": "MINIMAL"
+        },
+        {
+          "domain": "Epidemiology",
+          "questions": 1,
+          "coverage": "MINIMAL"
+        },
+        {
+          "domain": "Risk Assessment",
+          "questions": 41,
+          "coverage": "LOW - Only 41 questions despite full lecture available"
+        },
+        {
+          "domain": "Ecotoxicology",
+          "questions": 91,
+          "coverage": "LOW"
+        },
+        {
+          "domain": "Analytical/Forensic",
+          "questions": 107,
+          "coverage": "LOW-MODERATE"
+        },
+        {
+          "domain": "Metals Toxicology",
+          "questions": 107,
+          "coverage": "LOW-MODERATE"
+        },
+        {
+          "domain": "Genetic Toxicology",
+          "questions": 547,
+          "coverage": "GOOD - 0 in 2000Q bank but 547 total across Kristen + Chapter Tests"
+        },
+        {
+          "domain": "Radiation",
+          "questions": 205,
+          "coverage": "MODERATE"
+        },
+        {
+          "domain": "Neurotoxicity",
+          "questions": 247,
+          "coverage": "MODERATE"
+        }
+      ],
+      "lecture_coverage_gaps": {
+        "note": "The ACT Course 2018 and Mid-Amer Topic Summaries together cover all 4 DABT exam domains comprehensively as reference materials. Key observations:",
+        "findings": [
+          "ACT 2018 covers all DABT domains with dedicated lectures",
+          "Mid-Amer covers all DABT domains via topic summaries",
+          "No lecture/summary material specifically dedicated to: Drug Abuse, Toxicologic Disasters, Antidotes, or Animal Alternatives",
+          "Endocrine toxicity is covered within Repro lectures but lacks a standalone lecture",
+          "Immunotoxicity is covered in Mid-Amer but not as a standalone ACT lecture"
+        ]
+      }
+    },
+    "audio_cross_reference": {
+      "description": "ACT Course 2018 Audio files mapped to corresponding lectures",
+      "mapping": [
+        {
+          "audio": "Biotransformation.wav (193 MB)",
+          "lecture": "Lecture 3 - Biotransformation_MB_Genter.pdf (65 slides)"
+        },
+        {
+          "audio": "Carcinogenesis - 1.wav (109 MB) + Carcinogenesis - 2.wav (89 MB)",
+          "lecture": "Lecture 5 - Carcinogenesis_J_Wisler.pdf (79 slides)"
+        },
+        {
+          "audio": "Cardiovascular Toxicology.wav (192 MB)",
+          "lecture": "Lecture 12 - Cardiovascular_S_Authier.pdf (82 slides)"
+        },
+        {
+          "audio": "Environmental and Ecology Toxicology.wav (164 MB)",
+          "lecture": "Lecture 19 - EnvEcoTox_J_Staveley.pdf (100 slides)"
+        },
+        {
+          "audio": "Health Risk Assessment.wav (165 MB)",
+          "lecture": "Lecture 20 - Risk_Assessment_L_Haber.pdf (90 slides)"
+        },
+        {
+          "audio": "Pesticides Toxicology.wav (198 MB)",
+          "lecture": "Lecture 16 - Pesticides_L_Cox.pdf (71 slides)"
+        },
+        {
+          "audio": "Repro Toxicology.wav (211 MB)",
+          "lecture": "Lecture 11 - Dev_Repro_A_Hoberman.pdf (139 slides)"
+        },
+        {
+          "audio": "Solvents and Vapors Toxicity.wav (146 MB)",
+          "lecture": "Lecture 14 - Solvents_Vapors_MB_Genter.pdf (60 slides)"
+        }
+      ]
+    },
+    "summary": {
+      "total_materials_cataloged": {
+        "ACT_2018_lectures": 27,
+        "ACT_2018_audio": 9,
+        "Mid_Amer_topic_summaries": 19,
+        "Mid_Amer_regulatory_guidelines": 28,
+        "grand_total_pdfs": 74
+      },
+      "key_findings": [
+        "ACT Course 2018 lectures are TEXT-BASED slide decks with full extractable content. Zero embedded practice questions found across all 27 PDFs.",
+        "Mid-Amer Tox Course Topic Summaries are SCANNED/IMAGE-BASED PDFs (circa 2000-2003). OCR works to extract content from Casarett & Doull's Toxicology lectures. Zero embedded practice questions found.",
+        "The 9 WAV audio files correspond to 8 lecture sessions from ACT 2018 (total ~1.45 GB of lecture recordings).",
+        "28 regulatory guideline documents are present: 11 ICH (S1-S9, M3, M7), 13 OECD TGs, 2 FDA, 1 EPA, and the NRC Silverbook.",
+        "Existing practice question banks (2000Q: 392 Qs + Kristen: 1194 Qs + Chapter Tests: 1343 Qs = 2929 total) provide extensive testing coverage separately from the lecture materials.",
+        "Main coverage gaps: Antidotes (0 questions), Toxicologic Disasters (0), Animal Tox/Alternatives (1), Drug Abuse (1), Epidemiology (1), Risk Assessment (41)."
+      ],
+      "recommendations": [
+        "Use ACT 2018 lectures and Mid-Amer summaries as REFERENCE/TEACHING materials - they are excellent for learning content but contain no self-assessment.",
+        "Use the 2000Q, Kristen Topic Tests, and Chapter Tests for PRACTICE QUESTIONS - they complement the lectures perfectly.",
+        "For gap domains (Antidotes, Disasters, Animal Alternatives, Drug Abuse, Epidemiology), supplement with external resources or create new questions.",
+        "The Regulatory Guidelines collection (28 PDFs) provides excellent reference for DABT Domain IV (Applied Toxicology).",
+        "Audio files can be valuable for auditory learners - they directly correspond to specific lecture slide decks."
+      ]
+    }
+  }
+}

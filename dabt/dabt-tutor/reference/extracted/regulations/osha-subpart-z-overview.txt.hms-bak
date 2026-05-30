@@ -1,0 +1,132 @@
+# Source: https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1000
+# Source: https://www.osha.gov/annotated-pels
+# Source: https://www.osha.gov/laws-regs/federalregister/2014-10-10
+# Retrieved: 2026-05-29
+
+OSHA SUBPART Z — TOXIC AND HAZARDOUS SUBSTANCES: PERMISSIBLE EXPOSURE LIMITS (PELs)
+====================================================================================
+
+29 CFR 1910.1000 — AIR CONTAMINANTS
+-------------------------------------
+Establishes permissible exposure limits (PELs) for airborne contaminants using three tables:
+- Table Z-1: Limits for Air Contaminants
+- Table Z-2: Limits for Specific Toxic Substances (with three-tier system)
+- Table Z-3: Mineral Dusts
+
+GENERAL APPROACH
+-----------------
+Most OSHA PELs were adopted shortly after the OSH Act in 1970 (from Walsh-Healy Public Contracts Act)
+and many have NOT been updated since that time. OSHA recognizes that many PELs are outdated and
+inadequate for ensuring protection of worker health. OSHA recommends employers consider using
+alternative OELs (Cal/OSHA PELs, NIOSH RELs, ACGIH TLVs) as more protective guidelines.
+
+TABLE Z-1 — AIR CONTAMINANTS
+------------------------------
+Two types of limits:
+1. "C" (Ceiling): preceded by "C" — shall at no time exceed the limit. If instantaneous monitoring
+   is not feasible, assessed as 15-minute TWA.
+2. 8-hour TWA: no "C" — shall not exceed the 8-hour Time Weighted Average in any 8-hour shift
+   of a 40-hour work week.
+
+Computation Formula (8-hour TWA for single substance):
+E = (Ca*Ta + Cb*Tb + ... + Cn*Tn) / 8
+Where: E = equivalent 8-hour exposure, C = concentration, T = duration in hours
+If E < PEL, exposure is acceptable.
+
+TABLE Z-2 — THREE-TIER SYSTEM
+------------------------------
+Three parameters per substance:
+1. 8-hour TWA: must not be exceeded
+2. Acceptable Ceiling Concentration: never to be exceeded during shift
+3. Acceptable Maximum Peak Above Ceiling: allowed only for limited duration and concentration
+
+Example: Substance A with 10 ppm TWA, 25 ppm ceiling, 50 ppm peak:
+- May be exposed above 25 ppm (but never above 50 ppm) for max 10 minutes
+- Must be compensated by exposures <10 ppm so cumulative exposure does not exceed 10 ppm TWA
+
+TABLE Z-3 — MINERAL DUSTS
+---------------------------
+Straightforward 8-hour TWA limits for mineral dusts (silica, asbestos, etc.).
+No ceiling or peak columns.
+
+MIXTURE COMPUTATION FORMULA
+-----------------------------
+Em = C1/L1 + C2/L2 + ... + Cn/Ln
+Where: Em = equivalent exposure for mixture (must not exceed 1.0)
+C = concentration of each contaminant
+L = exposure limit for that substance
+
+KEY SUBPART Z SECTIONS
+-----------------------
+- 1910.1000: Air contaminants (Z-1, Z-2, Z-3 tables)
+- 1910.1001: Asbestos
+- 1910.1002: Coal tar pitch volatiles
+- 1910.1003-1016: 13 Carcinogens
+- 1910.1017: Vinyl chloride
+- 1910.1018: Inorganic arsenic
+- 1910.1020: Access to employee exposure and medical records
+- 1910.1025: Lead
+- 1910.1027: Cadmium
+- 1910.1028: Benzene
+- 1910.1029: Coke oven emissions
+- 1910.1030: Bloodborne pathogens
+- 1910.1043: Cotton dust
+- 1910.1044: 1,2-dibromo-3-chloropropane (DBCP)
+- 1910.1045: Acrylonitrile
+- 1910.1047: Ethylene oxide
+- 1910.1048: Formaldehyde
+- 1910.1050: Methylenedianiline (MDA)
+- 1910.1051: 1,3-Butadiene
+- 1910.1052: Methylene chloride
+- 1910.1096: Ionizing radiation
+- 1910.1200: Hazard Communication
+- 1910.1450: Occupational exposure to hazardous chemicals in laboratories
+
+SAMPLE PEL VALUES (Table Z-1)
+-------------------------------
+Substance                      8-hr TWA PEL (ppm)    Ceiling (ppm)
+Acetaldehyde                   200
+Acetic acid                    10
+Acetone                        1000
+Acrolein                       0.1
+Acrylonitrile                  2
+Ammonia                        50
+Arsine                         0.05
+Benzene                        1
+Beryllium (mg/m3)              0.002 (ceiling)
+Butadiene, 1,3-                1
+Cadmium (mg/m3)                0.005
+Carbon dioxide                 5000
+Carbon monoxide                50
+Carbon tetrachloride           10
+Chlorine                       0.5 (ceiling)
+Chloroform                     50
+Cyanides (as CN) (mg/m3)       5 (skin)
+Ethanol                        1000
+Ethylene oxide                 1
+Formaldehyde                   0.75          2 (15-min)
+Hexane, n-                     500
+Hydrogen fluoride              3
+Hydrogen sulfide              20 (ceiling)  50 (peak/10min)
+Lead (mg/m3)                   0.05
+Manganese (mg/m3)              5 (ceiling)
+Mercury (mg/m3)                0.1 (ceiling)
+Methylene chloride             25
+Nickel carbonyl (mg/m3)        0.05
+Nickel metal (mg/m3)           1
+Nitric oxide                   25
+Nitrogen dioxide               5 (ceiling)
+Ozone                          0.1
+Particulates Not Otherwise Reg (PNOR) — total dust: 15 mg/m3, respirable: 5 mg/m3
+Perchloroethylene              100         200 (5-min peak/3hrs)
+Phenol                         5 (skin)
+Phosgene                       0.1
+Silica, crystalline (mg/m3)    (10)/(%SiO2+2) (respirable)
+Styrene                        100         200 (peak)
+Sulfuric acid (mg/m3)          1
+Tetrachloroethylene            100
+Toluene                        200         300 (peak)
+Trichloroethylene              100         200 (peak)
+Vinyl chloride                 1
+Xylenes                        100
+Zinc oxide (mg/m3)             5 (respirable fume)

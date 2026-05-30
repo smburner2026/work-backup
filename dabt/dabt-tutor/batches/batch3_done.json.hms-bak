@@ -1,0 +1,252 @@
+[
+  {
+    "id": "DABT-0247",
+    "explanation": "**Correct: D (A and C).** Acyclovir is a nucleoside analog that requires selective phosphorylation by viral thymidine kinase (A), which is much more efficient in infected cells. Once phosphorylated to acyclovir-triphosphate, it competitively inhibits viral DNA polymerase and is incorporated into the growing DNA chain, causing chain termination because it lacks a 3'-hydroxyl group (C). Option B is a distractor describing reverse transcriptase inhibitors (e.g., AZT for HIV), not acyclovir's mechanism of action against herpesviruses. (Casarett & Doull Ch.8, Chemical Carcinogenesis / antiviral pharmacology section)",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-0248",
+    "explanation": "**Correct: C.** Expression time experiments in mammalian cell culture mutagenicity assays are designed to demonstrate phenotypic lag — the time required after mutagen treatment for existing wild-type proteins to be diluted out and for the newly expressed mutant phenotype to become detectable. Option A is a trap describing exposure duration rather than expression time, while Option D describes focus formation in cell transformation, an unrelated endpoint. (Casarett & Doull Ch.9, Genetic Toxicology)",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-0249",
+    "explanation": "**Correct: B.** Southern blot analysis uses restriction enzymes to cut DNA at specific sequences and probes to detect fragment length differences. RFLPs arise when mutations alter restriction sites, so comparing treated vs. control DNA can reveal mutation-induced changes in restriction patterns. Option A is a trap (Southern blots assess DNA directly, not transcriptional activity — that would be Northern blots for RNA). (Casarett & Doull Ch.9, Genetic Toxicology)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0250",
+    "explanation": "**Correct: E (B and D).** Clastogenesis refers to the induction of chromosome breaks and structural aberrations. The micronucleus test (B) detects chromosome fragments or lagging chromosomes, and direct chromosomal observation (D) in metaphase spreads visualizes breaks, rearrangements, and gaps. The Ames/Salmonella assay (A) detects point mutations (gene mutations), not clastogenic events. Fungal aneuploidization (C) detects numerical chromosome changes, not structural breaks. (Casarett & Doull Ch.9, Genetic Toxicology)",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-0251",
+    "explanation": "**Correct: E (none of the above).** The unscheduled DNA synthesis (UDS) assay measures DNA repair synthesis following chemical-induced DNA damage — it is a DNA repair assay, not a gene mutation assay (A), chromosome aberration assay (B), dominant lethal assay (C), or reverse mutation assay (D). In UDS, radiolabeled thymidine incorporation outside of the scheduled S-phase indicates excision repair activity. (Casarett & Doull Ch.9, Genetic Toxicology)",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-0252",
+    "explanation": "**Correct: A.** Cobalt is an essential trace element that stimulates erythropoietin production by stabilizing hypoxia-inducible factor (HIF-1α), mimicking hypoxia and increasing renal erythropoietic factor (erythropoietin) production, leading to polycythemia. This was famously observed in beer drinkers in Quebec in the 1960s when cobalt was added as a foam stabilizer. Options B and C are not established mechanisms for cobalt-induced polycythemia. (Casarett & Doull Ch.23, Toxic Effects of Metals)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0253",
+    "explanation": "**Correct: C.** Creatinine phosphokinase (CPK) is a muscle-specific enzyme (primarily CK-MM in skeletal muscle, CK-MB in cardiac muscle) and is not useful for detecting liver disorders. Liver injury is detected by elevated SGPT/ALT (A), serum alkaline phosphatase (B, cholestasis), and serum bilirubin (D), with histopathology (E) as the confirmatory gold standard. (Casarett & Doull Ch.13, Toxic Responses of the Liver)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0254",
+    "explanation": "**Correct: A (plot logCp vs T).** For first-order elimination, plasma concentration decays exponentially, so plotting the logarithm of plasma concentration (log Cp) against time (T) yields a straight line with slope = -k/2.303, from which the elimination half-life (t₁/₂ = 0.693/k) can be directly calculated. Options involving urine concentration (Cu) do not directly give elimination half-life without further transformation. (Casarett & Doull Ch.7, Toxicokinetics)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0255",
+    "explanation": "**Correct: B (trichloroethanol).** Trichloroethylene is metabolized via CYP-mediated oxidation to trichloroacetaldehyde (chloral hydrate), which is then reduced to trichloroethanol — the same active metabolite produced from chloral hydrate, a marketed sedative historically used in pediatric dentistry and sleep disorders. Trichloroethylene epoxide (A) is a reactive intermediate, not the sedative metabolite. (Casarett & Doull Ch.24, Toxic Effects of Solvents and Vapors)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0256",
+    "explanation": "**Correct: A.** Atopy is a genetic predisposition to develop IgE-mediated hypersensitivity reactions to environmental allergens. Atopic individuals have a diminished threshold for irritation (hyperreactivity) and defective cell-mediated immunity, skewing toward Th2-type immune responses. Options suggesting increased threshold (C, D, E) are incorrect, and enhanced cell-mediated immunity (B, C) contradicts the atopic phenotype. (Casarett & Doull Ch.12, Toxic Responses of the Immune System)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0257",
+    "explanation": "**Correct: D (induction of CYP2E1).** Diabetes (particularly type 1) induces CYP2E1 in the liver due to elevated ketone bodies (acetone, acetoacetate). Since carbon tetrachloride (CCl₄) requires CYP2E1-mediated reductive dehalogenation to form the trichloromethyl radical (•CCl₃) that initiates lipid peroxidation and hepatotoxicity, CYP2E1 induction by diabetes potentiates CCl₄ liver injury. The other options (gluconeogenic enzymes, membrane fluidity, free glucose) are not the primary mechanism. (Casarett & Doull Ch.13, Toxic Responses of the Liver; Ch.6, Biotransformation)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0258",
+    "explanation": "**Correct: D (1 to 2 weeks).** A hapten-protein conjugate stimulates a primary immune response, which requires approximately 1–2 weeks for B-cell activation, clonal expansion, differentiation into plasma cells, and significant antibody production. The shorter time frames (minutes, hours, or days) in options A–C reflect immediate hypersensitivity or anamnestic (secondary) responses, not primary sensitization. (Casarett & Doull Ch.12, Toxic Responses of the Immune System)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0259",
+    "explanation": "**Correct: D (carbon tetrachloride and cadmium).** Dispositional tolerance (also called metabolic tolerance) results from decreased absorption or accelerated elimination of a toxicant upon repeated exposure. Carbon tetrachloride and cadmium both induce dispositional tolerance: CCl₄ induces its own metabolism initially but then causes liver damage that reduces clearance, while cadmium induces metallothionein synthesis, which binds cadmium and reduces its toxic free-ion concentration. The other chemical pairs are not classically associated with dispositional tolerance mechanisms. (Casarett & Doull Ch.7, Toxicokinetics; Ch.23, Toxic Effects of Metals)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0260",
+    "explanation": "**Correct: D (Norbormide).** Norbormide is a rodenticide with remarkable selective toxicity — it causes irreversible vasoconstriction in rats by acting on a unique rat-specific calcium channel in vascular smooth muscle, producing rapid fatal hypertension and cardiac failure. Warfarin (A) is an anticoagulant; Pyrinimil (B) is a vitamin D₃ analog producing hypercalcemia; ANTU/alpha naphthyl thiourea (C) causes pulmonary edema. (Casarett & Doull Ch.22, Toxic Effects of Pesticides)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0282",
+    "explanation": "**Correct: C.** Contrary to the statement, males actually have HIGHER gastric alcohol dehydrogenase (ADH) activity than females, which contributes to greater first-pass metabolism of ethanol in males. This gender difference partly explains why females achieve higher blood alcohol concentrations than males after equivalent oral doses. Other statements (A: males have more lean body mass; B: females have smaller Vd for polar solvents; D: no major P450 differences) are true. (Casarett & Doull Ch.24, Toxic Effects of Solvents and Vapors)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0283",
+    "explanation": "**Correct: B (binding to the estrogen receptor).** Established theories of alcohol-induced hepatotoxicity include endotoxin release from gut bacteria stimulating Kupffer cells (A), malnutrition (C, contributing to fatty liver), and release of inflammatory mediators by Kupffer cells (D). Binding to the estrogen receptor is not a recognized mechanism of alcohol hepatotoxicity — alcohol metabolism produces acetaldehyde and reactive oxygen species, not estrogen receptor ligands. (Casarett & Doull Ch.13, Toxic Responses of the Liver; Ch.24, Solvents and Vapors)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0284",
+    "explanation": "**Correct: D (retinal cytochrome c oxidase).** Methanol toxicity is attributed to its metabolite formic acid, which inhibits mitochondrial cytochrome c oxidase (Complex IV) in the retina, disrupting oxidative phosphorylation and causing optic nerve damage and retinal toxicity. Retinal alcohol dehydrogenase (B) and aldehyde dehydrogenase (C) are involved in methanol metabolism, not the site of toxicity. CYP2E1 (A) is mainly hepatic, not the ocular target. (Casarett & Doull Ch.24, Toxic Effects of Solvents and Vapors)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0285",
+    "explanation": "**Correct: D (all of the above).** Xylene is a component of gasoline (A), is a CNS depressant at high concentrations causing dizziness, headache, and narcosis (B), and is not considered genotoxic (C) — it lacks structural alerts for DNA reactivity and is negative in standard mutagenicity assays. The combination of all three statements is accurate. (Casarett & Doull Ch.24, Toxic Effects of Solvents and Vapors)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0290",
+    "explanation": "**Correct: E (A and C: breaks and deletions).** Cytological (microscopic) examination of chromosomes can detect structural aberrations visible at the light microscope level, including chromosome breaks (A) and deletions (C). Base-pair substitutions (B) and frameshifts (D) are molecular-level gene mutations that require DNA sequencing or biochemical assays to detect — they are not visible cytologically. (Casarett & Doull Ch.9, Genetic Toxicology)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0291",
+    "explanation": "**Correct: B.** Investigational New Drug (IND) application must be filed with the FDA and approved before a potential pharmaceutical can be administered to humans in clinical trials. An NDA (A) is filed after clinical trials for marketing approval. Options C (4-species acute toxicity) and D (2-year dog carcinogenicity) are not requirements before first-in-human studies and reflect later-stage or non-standard requirements. (Casarett & Doull Ch.35, Regulatory Toxicology; 21 CFR 312)",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-0295",
+    "explanation": "**Correct: A (IgE-mediated anaphylaxis).** Wasp venom contains proteins that can trigger an IgE-mediated type I hypersensitivity reaction in sensitized individuals, causing mast cell degranulation, histamine release, bronchoconstriction (respiratory distress), and vasodilation/hypotension (very low blood pressure). IgM-mediated anaphylaxis (C) is not a recognized mechanism; cell-mediated (D) and delayed hypersensitivity (E) are type IV reactions with a slower time course, not the acute shock described. (Casarett & Doull Ch.12, Toxic Responses of the Immune System)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0296",
+    "explanation": "**Correct: B (chemical antagonism).** Chemical antagonism occurs when one chemical reacts directly with another to neutralize its toxic effect. Antitoxin binds directly to snake venom toxins, forming inactive complexes and preventing the venom from interacting with biological targets. Dispositional antagonism (A) alters toxicant absorption/distribution, receptor antagonism (C) blocks the binding site, and functional antagonism (D) produces opposite physiological effects via different pathways. (Casarett & Doull Ch.3, Mechanisms of Toxicity)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0301",
+    "explanation": "**Correct: A (halothane-phosgene).** This pair is incorrect: halothane is metabolized via CYP2E1 to trifluoroacetyl chloride, not phosgene. Phosgene is correctly the toxic metabolite of chloroform (CHCl₃ → CCl₃OH → COCl₂). The other pairs are correct: bromobenzene → bromobenzene 3,4-oxide (B), benzene → muconic aldehyde (C, via ring opening), and allyl alcohol → acrolein (D, via alcohol dehydrogenase). (Casarett & Doull Ch.6, Biotransformation of Xenobiotics; Ch.13, Toxic Responses of the Liver)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0304",
+    "explanation": "**Correct: D (angiosarcoma of the liver).** Vinyl chloride is a well-established human carcinogen that is metabolically activated by CYP2E1 to chloroethylene oxide and chloroacetaldehyde, which form DNA adducts. The sentinel tumor in occupationally exposed workers is hepatic angiosarcoma (a rare malignancy of liver endothelial cells), not hepatocellular carcinoma (B) or the other tumor types listed. This discovery led to significant occupational exposure limit reductions in the 1970s. (Casarett & Doull Ch.24, Toxic Effects of Solvents and Vapors; IARC Group 1)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0306",
+    "explanation": "**Correct: B (AsO₄³⁻ to AsO₃²⁻).** The reduction of arsenate (AsO₄³⁻, pentavalent arsenic) to arsenite (AsO₃²⁻, trivalent arsenic) generates a more electrophilic and toxic species. Trivalent arsenite is highly reactive with protein sulfhydryl groups, causing toxicity. CO → CO₂ (A) is oxidation of a non-electrophile; NO → NO₂ (C) is oxidation; hydroxide to water (D) is neutralization, not electrophile formation. (Casarett & Doull Ch.6, Biotransformation; Ch.23, Toxic Effects of Metals)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0308",
+    "explanation": "**Correct: C (Methoxychlor).** Delayed neurotoxicity (organophosphate-induced delayed polyneuropathy, OPIDN) is caused by organophosphorus compounds that inhibit and age the esterase enzyme NTE (neuropathy target esterase). Methoxychlor is an organochlorine insecticide (DDT analog, not an organophosphate) and does not produce delayed neurotoxicity. Tri-o-cresyl phosphate (A), Mipafox (B), Leptofos (D), and di-isopropyl fluorophosphate (E) are all organophosphates associated with OPIDN. (Casarett & Doull Ch.22, Toxic Effects of Pesticides)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0315",
+    "explanation": "**Correct: E (none of the above).** While several of the listed compounds are hepatotoxic, none is classically associated with liver injury primarily via lipid peroxidation as the dominant mechanism. Dimethylnitrosamine (A) is hepatotoxic via alkylation; ethylene dibromide (B) via glutathione depletion and alkylation; phosphorus (C) via ATP depletion and fatty degeneration; thioacetamide (D) via metabolic activation to thioacetamide-S-oxide. Classic lipid peroxidation hepatotoxicants include carbon tetrachloride and bromotrichloromethane. (Casarett & Doull Ch.13, Toxic Responses of the Liver)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0316",
+    "explanation": "**Correct: C (conjugation with glutathione).** Glutathione (GSH) is the primary cellular defense against electrophiles. Its nucleophilic thiol group spontaneously or enzymatically (via glutathione S-transferases) conjugates with electrophilic species, detoxifying them and facilitating excretion as mercapturic acids. Glucuronic acid (A) and sulfate (D) conjugations target nucleophilic groups (hydroxyl, amine), not electrophiles. Acetyl CoA (B) is involved in acetylation and fatty acid metabolism. (Casarett & Doull Ch.6, Biotransformation of Xenobiotics)",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-0318",
+    "explanation": "**Correct: E (all of the above).** Allergic (hypersensitivity) responses involve IgE-mediated activation of mast cells and basophils, which degranulate and release a panel of preformed and newly synthesized inflammatory mediators. These include histamine (A, vasodilation, bronchoconstriction), slow-reacting substance of anaphylaxis/leukotrienes (B, prolonged bronchospasm), serotonin (C, in rodent mast cells), and kinins (D, bradykinin — vasodilation, pain). All four are released during type I hypersensitivity reactions. (Casarett & Doull Ch.12, Toxic Responses of the Immune System)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0319",
+    "explanation": "**Correct: E (A, B, and C).** Occupational asthma induced by Bacillus subtilis enzymes is a type I hypersensitivity (IgE-mediated) respiratory allergy. Diagnostic features include a positive bronchial provocation test (A, demonstrating reversible airway obstruction upon challenge), the presence of specific IgE serum antibodies (B), and positive passive transfer tests such as the Prausnitz-Küstner reaction (C, demonstrating that IgE can be transferred to a non-allergic recipient). Delayed cutaneous hypersensitivity (D) characterizes type IV reactions, not IgE-mediated asthma. (Casarett & Doull Ch.12, Toxic Responses of the Immune System)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0320",
+    "explanation": "**Correct: C (creatinine Phosphokinase, CPK).** This question is identical to DABT-0253. CPK is a muscle enzyme, not a specific marker of liver injury. SGPT/ALT (A) is sensitive for hepatocellular injury, serum alkaline phosphatase (B) detects cholestasis, serum bilirubin (D) assesses hepatic excretory function, and histopathology (E) is the definitive diagnostic method for liver disorders. CPK elevation indicates skeletal or cardiac muscle damage, not liver disease. (Casarett & Doull Ch.13, Toxic Responses of the Liver)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0321",
+    "explanation": "**Correct: B (formate).** Capsaicin (A, from chili peppers), domoate (C, a marine algal toxin acting on kainate receptors), and amphotericin B (D, a polyene antibiotic forming membrane pores) all promote calcium influx into the cytoplasm. Formate (methanol metabolite) inhibits mitochondrial cytochrome c oxidase (leading to ATP depletion and metabolic acidosis) but does not directly cause calcium influx — it impairs oxidative phosphorylation rather than disrupting calcium homeostasis at the plasma membrane. (Casarett & Doull Ch.3, Mechanisms of Toxicity; Ch.24, Solvents and Vapors)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0327",
+    "explanation": "**Correct: C (phagocytosis by alveolar macrophages).** Insoluble particles deposited in the lung parenchyma (alveoli) are primarily cleared by alveolar macrophages that phagocytose the particles and then either migrate up the mucociliary escalator or enter lymphatic channels. Ciliary activity (A) and cough reflex (B) are effective only in the conducting airways (trachea, bronchi), not the deep lung. Lymphatic drainage (D) is secondary; enzymatic breakdown (E) does not occur for insoluble inorganic particles. (Casarett & Doull Ch.15, Toxic Responses of the Respiratory System)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0328",
+    "explanation": "**Correct: A.** The gold-standard teratogenicity study design in rats involves exposure during the period of major organogenesis (gestation days 6–15 in rats), assessing multiple dose levels (typically 3: low, mid, high) to establish a dose-response relationship, and including a concurrent negative control group. Option B errs by requiring male exposure (not relevant for fetal effects) and positive controls (not standard for definitive assessment); C lacks concurrent controls (historical controls are inadequate); D uses a single dose level, insufficient for dose-response. (Casarett & Doull Ch.10, Developmental Toxicology; OECD 414 / FDA ICH S5(R3))",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0329",
+    "explanation": "**Correct: D (all of the above).** Irritant gas-aerosol interactions are influenced by the oxidant nature of the aerosol (A, which can enhance the irritant response through oxidative stress), the solubility of the gas in the aerosol droplets (B, determining how much gas is captured by the aerosol), and the concentration of solute in the aerosol (C, affecting the hygroscopic growth and deposition site). All three factors determine the site and severity of respiratory tract injury from gas-aerosol mixtures. (Casarett & Doull Ch.15, Toxic Responses of the Respiratory System)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0330",
+    "explanation": "**Correct: E (B and C).** Nitrosamines are not used as direct preservatives in hot dogs (A is false — nitrites, not nitrosamines, are added as preservatives). Nitrosamines are formed endogenously from precursors in the acidic environment of the stomach (B) via the reaction of nitrites with secondary amines (C), a process called nitrosation. In cured meats, nitrites can react with amines during cooking to form nitrosamines, but the nitrosamines themselves are not the added preservative. (Casarett & Doull Ch.8, Chemical Carcinogenesis)",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-0335",
+    "explanation": "**Correct: A (spontaneously aborted embryos).** The incidence of chromosomal anomalies follows a strong inverse relationship with viability: they are highest in spontaneously aborted embryos (estimated 50–70% of first-trimester spontaneous abortions have chromosomal abnormalities), intermediate in stillbirths (B, ~5–10%), and lowest in live births (C, ~0.6% for major anomalies). Malformed infants (D) are a subset within live births but the rate in abortuses is far higher. This reflects the powerful selection against chromosomal abnormalities during gestation. (Casarett & Doull Ch.10, Developmental Toxicology)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0336",
+    "explanation": "**Correct: B.** Dominant lethal mutations occur in germ cells and cause death of the developing offspring (embryo/fetus) when transmitted. They are dominant (expressed in heterozygotes) and lethal (incompatible with survival). They result from mutagen attack on germ cells (not somatic cells, A is incorrect) and do not cause tumors in surviving offspring (C). The dominant lethal assay in rodents is a key test for germ cell mutagenicity. (Casarett & Doull Ch.9, Genetic Toxicology; Ch.10, Developmental Toxicology)",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-0340",
+    "explanation": "**Correct: D (halogenated hydrocarbons).** Halogenated hydrocarbons (e.g., chlorinated solvents, PCBs) are injurious to both plants and human health but are not considered common or widespread pollutants in ambient air — they tend to be localized to industrial settings. Auto emissions (A), NOx (B), SO₂ (C), and CO (E) are all common or criteria air pollutants monitored under the Clean Air Act with widespread ambient exposure. (Casarett & Doull Ch.15, Respiratory System; Ch.31, Air Pollution; Clean Air Act criteria pollutants)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0341",
+    "explanation": "**Correct: D.** Strychnine acts as a competitive antagonist at glycine receptors (specifically the strychnine-sensitive glycine receptor) in the spinal cord and brainstem, blocking postsynaptic inhibition and leading to unchecked motor neuron firing. This results in characteristic severe, generalized muscle spasms and opisthotonos. It is not primarily hepatotoxic (A), does not inhibit cytochrome oxidase (B, that's cyanide), and is not a corrosive (C) or acetone producer (E). (Casarett & Doull Ch.26, Toxic Effects of Plants and Animals; Ch.16, Nervous System)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0343",
+    "explanation": "**Correct: B.** Prokaryotes (e.g., Salmonella typhimurium in the Ames test) are used in mutagenicity screening primarily because their rapid growth rate and small genome allow very large populations (10⁸–10⁹ cells per plate) to be studied easily and economically, providing the statistical power needed to detect rare mutation events. They are not inherently more sensitive than mammalian cells (A) — many mutagens require mammalian metabolic activation — and they do not respond identically to mammalian cells (C). (Casarett & Doull Ch.9, Genetic Toxicology)",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-0356",
+    "explanation": "**Correct: E (all of the above).** A single base-pair change (point mutation) in a protein-coding gene can have various functional consequences depending on its nature and position. It may alter protein structure (A) if it changes an amino acid (missense), may not alter protein structure (B) if it falls in a non-coding region or is synonymous (silent mutation), or may alter protein structure without altering function (C) via a neutral amino acid substitution. All three outcomes are possible. (Casarett & Doull Ch.9, Genetic Toxicology)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0358",
+    "explanation": "**Correct: A.** Neonates are more susceptible to infections following immunotoxicant exposure because they have less pre-existing immunological memory and adaptive immunity compared to adults who have acquired resistance through prior antigen exposure. Option C is a common counter-trap suggesting the reverse. Immunotoxic effects are not exclusive to the young (B), and the explanation is not about exposure rates (D) or erythrocyte counts (E). (Casarett & Doull Ch.12, Toxic Responses of the Immune System)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0359",
+    "explanation": "**Correct: D (hemochorial).** Primates (including humans) have hemochorial placentation, in which the maternal blood comes into direct contact with the fetal chorionic tissue (trophoblast) — the most invasive type of placentation. Epitheliochorial (A, pig/horse), syndesmochorial (B, ruminants), and endotheliochorial (C, carnivores) have progressively more maternal tissue layers separating fetal and maternal blood. Hemoendothelial (E, rodents) is similar but even more invasive in some classifications. This affects transplacental toxicant transfer. (Casarett & Doull Ch.10, Developmental Toxicology)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0360",
+    "explanation": "**Correct: E (all of the above).** Chemical teratogens can exhibit all four properties: (A) many teratogens are also mutagens (e.g., alkylating agents); (B) teratogens can alter fetal development at doses below those affecting the placenta; (C) teratogens may compromise maternal health at doses below fetal-effect levels; (D) some teratogens are also carcinogens (e.g., diethylstilbestrol, DES). The pluripotential nature of many toxicants means these endpoints frequently overlap. (Casarett & Doull Ch.10, Developmental Toxicology)",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-0374",
+    "explanation": "**Correct: E (cataracts).** Naphthalene and its metabolite 1,2-naphthoquinone can cause cataracts through oxidative stress in the lens. Naphthalene toxicity involves CYP-mediated bioactivation to reactive quinones that deplete glutathione and oxidize lens proteins, leading to opacification. Dry eye (A), glaucoma (B), conjunctival melanoma (C), and exophthalmos (D) are not established associations with naphthalene exposure. Naphthalene is also known to cause hemolytic anemia in G6PD-deficient individuals. (Casarett & Doull Ch.24, Toxic Effects of Solvents and Vapors)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0379",
+    "explanation": "**Correct: C (Mass median aerodynamic diameter, MMAD).** The primary determinant of where particles deposit in the respiratory tract is their aerodynamic diameter (MMAD), which governs the dominant deposition mechanism: large particles (>10 μm) deposit in the nasopharynx by impaction, intermediate (1–10 μm) in the tracheobronchial region by sedimentation, and fine particles (<1 μm) in the alveoli by diffusion. Chemical composition (A) affects toxicity but not deposition site. Absolute particle size without density/shape consideration is less accurate than MMAD. (Casarett & Doull Ch.15, Toxic Responses of the Respiratory System)",
+    "domain": "Domain IV"
+  },
+  {
+    "id": "DABT-0384",
+    "explanation": "**Correct: D (decreased incidence of infections).** Immunosuppression predisposes animals to infections, so a decreased incidence of infections is opposite to what would be expected — this finding argues against, not for, immunosuppression. Features that DO indicate immunosuppression include hematological changes like pancytopenia (A), altered immune organ weights/histology (B), decreased serum immunoglobulins (C), and increased infection-related carcinogenicity (E — immunosuppressed animals have higher rates of virus-associated tumors). (Casarett & Doull Ch.12, Toxic Responses of the Immune System)",
+    "domain": "Domain II"
+  },
+  {
+    "id": "DABT-0386",
+    "explanation": "**Correct: D (chicken eggs).** Chicken eggs are a common cause of true IgE-mediated food allergy, particularly in children, involving proteins such as ovomucoid and ovalbumin. Puffer fish (A) causes tetrodotoxin poisoning (toxicological, not allergic); fava beans (B) trigger hemolytic anemia in G6PD-deficient individuals (pharmacogenetic, not allergic); scrombroid fish (C) causes histamine poisoning (spoilage-related toxin); Amanita phalloides (E) causes amatoxin poisoning (hepatotoxic). (Casarett & Doull Ch.12, Toxic Responses of the Immune System; Ch.27, Food Toxicology)",
+    "domain": "Domain I"
+  },
+  {
+    "id": "DABT-0394",
+    "explanation": "**Correct: B (zinc oxide).** Zinc oxide fumes generated during welding of galvanized metal cause metal fume fever — an acute flu-like illness. However, the presentation here (delayed onset of dyspnea progressing to pulmonary edema) suggests more severe acute lung injury from zinc oxide inhalation. The time course (feeling fine at 5 PM, symptoms at bedtime) is characteristic of the delayed onset seen with metal fume exposures. Hydrogen sulfide (A) causes rapid olfactory fatigue and acute toxicity; formaldehyde (C) irritates upper airways; nitrogen dioxide (D) causes silo-filler's disease with delayed pulmonary edema; chlorine (E) causes immediate mucosal irritation. (Casarett & Doull Ch.23, Toxic Effects of Metals; Ch.15, Respiratory System)",
+    "domain": "Domain IV"
+  }
+]

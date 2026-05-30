@@ -1,0 +1,447 @@
+ID,Source Exam,Question #,Topic (Primary),All Topics,Domain,Sub-Domain,Task,Bloom Level,Domain Confidence,Bloom Confidence
+DABT-0001,1,1,Pesticides – Insecticides,Pesticides – Insecticides; Air Pollution & Particulates,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0002,1,2,Pesticides – Insecticides,Pesticides – Insecticides,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0003,1,3,Plant Toxins,Plant Toxins,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0004,1,4,Plant Toxins,Plant Toxins,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0005,1,5,Metals & Metalloids,Metals & Metalloids; Solvents & Hydrocarbons; Gases – Asphyxiants & Irritants; Toxicokinetics / ADME,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0006,1,6,Pesticides – Rodenticides,Pesticides – Rodenticides; Biotransformation / Metabolism,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0007,1,7,Metals & Metalloids,Metals & Metalloids; Toxicokinetics / ADME,Domain III,D.RiskChar&Mgmt,T1,Apply,low,medium
+DABT-0008,1,8,Pesticides – Fumigants,Pesticides – Fumigants; Nervous System / Neurotoxicity; Reproductive & Developmental Toxicity,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0009,1,9,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Alcohols & Methanol/Ethanol,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0010,1,10,Pesticides – Rodenticides,Pesticides – Rodenticides; Nervous System / Neurotoxicity; Drugs & Therapeutics – Toxicology,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0011,1,11,Gases – Asphyxiants & Irritants,Gases – Asphyxiants & Irritants,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0012,1,12,Liver / Hepatotoxicity,Liver / Hepatotoxicity; Kidney / Nephrotoxicity; Drugs & Therapeutics – Toxicology,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0013,1,13,Air Pollution & Particulates,Air Pollution & Particulates,Domain IV,Applied,T3,Apply,medium,medium
+DABT-0014,1,14,Animal & Microbial Venoms / Toxins,Animal & Microbial Venoms / Toxins,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0015,1,15,Carcinogenesis & Mutagenesis,"Carcinogenesis & Mutagenesis; Drugs & Therapeutics – Toxicology; Food Additives, Cosmetics & GRAS; Risk Assessment & Regulatory; Genotoxicity / DNA Damage",Domain II,Mechanistic,T4,Apply,high,medium
+DABT-0016,1,16,Drugs & Therapeutics – Toxicology,"Drugs & Therapeutics – Toxicology; Food Additives, Cosmetics & GRAS",Domain IV,Applied,T8,Remember/Understand,high,medium
+DABT-0017,1,17,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Gases – Asphyxiants & Irritants; Lung / Pulmonary Toxicity,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0018,1,18,General Toxicology,General Toxicology,Domain I,C.Interpret,T1,Remember/Understand,medium,medium
+DABT-0019,1,19,Lung / Pulmonary Toxicity,Lung / Pulmonary Toxicity,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0020,1,20,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Hematology & Blood Toxicity; Alcohols & Methanol/Ethanol,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0021,1,21,Metals & Metalloids,Metals & Metalloids; Skin / Dermatotoxicity,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0022,1,22,Animal & Microbial Venoms / Toxins,Animal & Microbial Venoms / Toxins,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0023,1,23,Toxicokinetics / ADME,Toxicokinetics / ADME,Domain I,B.Execute,T2,Apply,medium,medium
+DABT-0024,1,24,Metals & Metalloids,Metals & Metalloids,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0025,1,25,Plant Toxins,Plant Toxins,Domain III,D.RiskChar&Mgmt,T1,Remember/Understand,low,medium
+DABT-0026,1,26,Alcohols & Methanol/Ethanol,"Alcohols & Methanol/Ethanol; Food Additives, Cosmetics & GRAS",Domain IV,Applied,T11,Apply,medium,medium
+DABT-0027,1,27,Gases – Asphyxiants & Irritants,"Gases – Asphyxiants & Irritants; Carcinogenesis & Mutagenesis; Hematology & Blood Toxicity; Food Additives, Cosmetics & GRAS",Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0028,1,28,Pesticides – Insecticides,Pesticides – Insecticides,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0029,1,29,Metals & Metalloids,Metals & Metalloids; Nervous System / Neurotoxicity,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0030,1,30,Nervous System / Neurotoxicity,Nervous System / Neurotoxicity; Cardiovascular Toxicity; Drugs & Therapeutics – Toxicology,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0031,1,31,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Reproductive & Developmental Toxicity,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0032,1,32,Pesticides – Insecticides,Pesticides – Insecticides; Drugs & Therapeutics – Toxicology,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0033,1,33,Metals & Metalloids,Metals & Metalloids,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0034,1,34,Lung / Pulmonary Toxicity,Lung / Pulmonary Toxicity; Cardiovascular Toxicity; Animal & Microbial Venoms / Toxins,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0035,1,35,Animal & Microbial Venoms / Toxins,Animal & Microbial Venoms / Toxins,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0036,1,36,Nervous System / Neurotoxicity,Nervous System / Neurotoxicity; Alcohols & Methanol/Ethanol,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0037,1,37,Gases – Asphyxiants & Irritants,"Gases – Asphyxiants & Irritants; Hematology & Blood Toxicity; Food Additives, Cosmetics & GRAS",Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0038,1,38,Air Pollution & Particulates,Air Pollution & Particulates; Lung / Pulmonary Toxicity; Biotransformation / Metabolism,Domain IV,Applied,T3,Apply,medium,medium
+DABT-0039,1,39,Carcinogenesis & Mutagenesis,Carcinogenesis & Mutagenesis; Reproductive & Developmental Toxicity,Domain II,Mechanistic,T4,Remember/Understand,high,medium
+DABT-0040,1,40,Cardiovascular Toxicity,Cardiovascular Toxicity; Plant Toxins,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0041,2,1,Kidney / Nephrotoxicity,Kidney / Nephrotoxicity; Drugs & Therapeutics – Toxicology; Toxicokinetics / ADME,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0042,2,2,Gases – Asphyxiants & Irritants,Gases – Asphyxiants & Irritants,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0043,2,3,Kidney / Nephrotoxicity,Kidney / Nephrotoxicity; Toxicokinetics / ADME,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0044,2,4,Pesticides – Insecticides,Pesticides – Insecticides; Metals & Metalloids; Gases – Asphyxiants & Irritants; Drugs & Therapeutics – Toxicology; Alcohols & Methanol/Ethanol,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0045,2,5,Metals & Metalloids,Metals & Metalloids,Domain III,D.RiskChar&Mgmt,T1,Apply,low,medium
+DABT-0046,2,6,General Principles & Concepts,General Principles & Concepts,Domain I,A.Design,T1,Apply,high,medium
+DABT-0047,2,7,Toxicokinetics / ADME,Toxicokinetics / ADME,Domain I,B.Execute,T2,Remember/Understand,medium,medium
+DABT-0048,2,8,Kidney / Nephrotoxicity,Kidney / Nephrotoxicity; Toxicokinetics / ADME; Biotransformation / Metabolism,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0049,2,9,Toxicokinetics / ADME,Toxicokinetics / ADME,Domain I,B.Execute,T2,Remember/Understand,medium,medium
+DABT-0050,2,10,General Principles & Concepts,General Principles & Concepts,Domain I,A.Design,T1,Remember/Understand,high,medium
+DABT-0051,2,11,General Principles & Concepts,General Principles & Concepts,Domain III,D.RiskChar&Mgmt,T1,Apply,low,medium
+DABT-0052,2,12,Drugs & Therapeutics – Toxicology,Drugs & Therapeutics – Toxicology,Domain III,D.RiskChar&Mgmt,T1,Remember/Understand,medium,medium
+DABT-0053,2,13,Mechanisms of Toxicity,Mechanisms of Toxicity,Domain II,Mechanistic,T1,Remember/Understand,high,medium
+DABT-0054,2,14,Carcinogenesis & Mutagenesis,"Carcinogenesis & Mutagenesis; Drugs & Therapeutics – Toxicology; Food Additives, Cosmetics & GRAS",Domain II,Mechanistic,T4,Remember/Understand,high,medium
+DABT-0055,2,15,Endocrine Toxicology,Endocrine Toxicology; Pesticides – Herbicides; Gases – Asphyxiants & Irritants; Drugs & Therapeutics – Toxicology,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0056,2,16,Metals & Metalloids,Metals & Metalloids; Gases – Asphyxiants & Irritants,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0057,2,17,Metals & Metalloids,Metals & Metalloids; Nervous System / Neurotoxicity,Domain IV,Applied,T11,Analyze,medium,medium
+DABT-0058,2,18,General Principles & Concepts,General Principles & Concepts; Carcinogenesis & Mutagenesis; General Principles & Concepts,Domain III,D.RiskChar&Mgmt,T1,Apply,low,medium
+DABT-0059,2,19,Metals & Metalloids,Metals & Metalloids; Gases – Asphyxiants & Irritants; Air Pollution & Particulates; Biotransformation / Metabolism,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0060,2,20,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Liver / Hepatotoxicity,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0061,2,21,Kidney / Nephrotoxicity,Kidney / Nephrotoxicity,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0062,2,22,Carcinogenesis & Mutagenesis,Carcinogenesis & Mutagenesis; Reproductive & Developmental Toxicity; Drugs & Therapeutics – Toxicology,Domain II,Mechanistic,T4,Apply,high,medium
+DABT-0063,2,23,Gases – Asphyxiants & Irritants,Gases – Asphyxiants & Irritants; Radiation / UV / Ionizing,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0064,2,24,Radiation / UV / Ionizing,Radiation / UV / Ionizing,Domain III,D.RiskChar&Mgmt,T1,Remember/Understand,low,medium
+DABT-0065,2,25,Mycotoxins,Mycotoxins,Domain IV,Applied,T1,Apply,medium,medium
+DABT-0066,2,26,Pesticides – Insecticides,Pesticides – Insecticides; Biotransformation / Metabolism,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0067,2,27,General Principles & Concepts,General Principles & Concepts,Domain I,A.Design,T1,Remember/Understand,high,medium
+DABT-0068,2,28,Pesticides – Insecticides,Pesticides – Insecticides,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0069,2,29,General Toxicology,General Toxicology,Domain I,C.Interpret,T1,Apply,medium,medium
+DABT-0070,2,30,Alcohols & Methanol/Ethanol,Alcohols & Methanol/Ethanol; Biotransformation / Metabolism; Mechanisms of Toxicity,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0071,2,31,Metals & Metalloids,Metals & Metalloids,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0072,2,32,Drugs & Therapeutics – Toxicology,Drugs & Therapeutics – Toxicology,Domain IV,Applied,T8,Apply,high,medium
+DABT-0073,2,33,General Principles & Concepts,General Principles & Concepts,Domain I,A.Design,T1,Remember/Understand,high,medium
+DABT-0074,2,34,"Food Additives, Cosmetics & GRAS","Food Additives, Cosmetics & GRAS",Domain IV,Applied,T7,Remember/Understand,medium,medium
+DABT-0075,2,35,General Toxicology,General Toxicology,Domain I,C.Interpret,T1,Remember/Understand,medium,medium
+DABT-0076,2,36,Pesticides – Insecticides,Pesticides – Insecticides; Pesticides – Rodenticides; Pesticides – Fungicides; Skin / Dermatotoxicity; Risk Assessment & Regulatory,Domain III,D.RiskChar&Mgmt,T1,Remember/Understand,low,medium
+DABT-0077,2,37,General Principles & Concepts,General Principles & Concepts,Domain I,A.Design,T1,Apply,high,medium
+DABT-0078,2,38,Risk Assessment & Regulatory,Risk Assessment & Regulatory,Domain III,D.RiskChar&Mgmt,T1,Apply,medium,medium
+DABT-0079,2,39,Mechanisms of Toxicity,Mechanisms of Toxicity; Metals & Metalloids; Biotransformation / Metabolism,Domain II,Mechanistic,T1,Apply,high,medium
+DABT-0080,2,40,"Food Additives, Cosmetics & GRAS","Food Additives, Cosmetics & GRAS",Domain IV,Applied,T7,Remember/Understand,medium,medium
+DABT-0081,3,1,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Nervous System / Neurotoxicity; Cardiovascular Toxicity,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0082,3,2,Alcohols & Methanol/Ethanol,Alcohols & Methanol/Ethanol,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0083,3,3,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Kidney / Nephrotoxicity; Nervous System / Neurotoxicity,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0084,3,4,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Reproductive & Developmental Toxicity; Alcohols & Methanol/Ethanol; Biotransformation / Metabolism,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0085,3,5,Pesticides – Insecticides,Pesticides – Insecticides,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0086,3,6,Pesticides – Insecticides,Pesticides – Insecticides; Metals & Metalloids; Biotransformation / Metabolism,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0087,3,7,Pesticides – Insecticides,Pesticides – Insecticides; Nervous System / Neurotoxicity; Drugs & Therapeutics – Toxicology,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0088,3,8,Liver / Hepatotoxicity,Liver / Hepatotoxicity; Biotransformation / Metabolism; Genotoxicity / DNA Damage,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0089,3,9,Carcinogenesis & Mutagenesis,Carcinogenesis & Mutagenesis; Genotoxicity / DNA Damage,Domain II,Mechanistic,T4,Apply,high,medium
+DABT-0090,3,10,Mechanisms of Toxicity,Mechanisms of Toxicity; Biotransformation / Metabolism,Domain II,Mechanistic,T1,Remember/Understand,high,medium
+DABT-0091,3,11,Solvents & Hydrocarbons,Solvents & Hydrocarbons,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0092,3,12,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Alcohols & Methanol/Ethanol,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0093,3,13,Carcinogenesis & Mutagenesis,Carcinogenesis & Mutagenesis; Liver / Hepatotoxicity; Genotoxicity / DNA Damage,Domain II,Mechanistic,T4,Remember/Understand,high,medium
+DABT-0094,3,14,Genotoxicity / DNA Damage,Genotoxicity / DNA Damage,Domain II,Mechanistic,T1,Apply,high,medium
+DABT-0095,3,15,Liver / Hepatotoxicity,Liver / Hepatotoxicity; Skin / Dermatotoxicity,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0096,3,16,Endocrine Toxicology,Endocrine Toxicology; Pesticides – Herbicides; Metals & Metalloids; Gases – Asphyxiants & Irritants; Lung / Pulmonary Toxicity; Skin / Dermatotoxicity,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0097,3,17,Alcohols & Methanol/Ethanol,Alcohols & Methanol/Ethanol,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0098,3,18,Carcinogenesis & Mutagenesis,Carcinogenesis & Mutagenesis,Domain II,Mechanistic,T4,Apply,high,medium
+DABT-0099,3,19,Metals & Metalloids,Metals & Metalloids; Carcinogenesis & Mutagenesis; Mycotoxins; Genotoxicity / DNA Damage,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0100,3,20,Pesticides – Herbicides,Pesticides – Herbicides; Lung / Pulmonary Toxicity,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0101,3,21,Metals & Metalloids,Metals & Metalloids; Nervous System / Neurotoxicity,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0102,3,22,Metals & Metalloids,Metals & Metalloids,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0103,3,23,Endocrine Toxicology,Endocrine Toxicology; Immunotoxicology / Allergy,Domain III,D.RiskChar&Mgmt,T1,Apply,low,medium
+DABT-0104,3,24,Nervous System / Neurotoxicity,Nervous System / Neurotoxicity; Immunotoxicology / Allergy,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0105,3,25,Liver / Hepatotoxicity,Liver / Hepatotoxicity; Kidney / Nephrotoxicity,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0106,3,26,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Liver / Hepatotoxicity; Lung / Pulmonary Toxicity; Endocrine Toxicology,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0107,3,27,Alcohols & Methanol/Ethanol,Alcohols & Methanol/Ethanol,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0108,3,28,Carcinogenesis & Mutagenesis,Carcinogenesis & Mutagenesis; Genotoxicity / DNA Damage,Domain II,Mechanistic,T4,Apply,high,medium
+DABT-0109,3,29,Genotoxicity / DNA Damage,Genotoxicity / DNA Damage,Domain II,Mechanistic,T1,Apply,high,medium
+DABT-0110,3,30,Mechanisms of Toxicity,Mechanisms of Toxicity,Domain II,Mechanistic,T1,Apply,high,medium
+DABT-0111,3,31,Liver / Hepatotoxicity,Liver / Hepatotoxicity; Biotransformation / Metabolism,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0112,3,32,Metals & Metalloids,Metals & Metalloids; Solvents & Hydrocarbons; Gases – Asphyxiants & Irritants; Kidney / Nephrotoxicity; Mechanisms of Toxicity,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0113,3,33,Liver / Hepatotoxicity,Liver / Hepatotoxicity; Toxicokinetics / ADME,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0114,3,34,Liver / Hepatotoxicity,Liver / Hepatotoxicity; Skin / Dermatotoxicity; Toxicokinetics / ADME,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0115,3,35,Liver / Hepatotoxicity,Liver / Hepatotoxicity; Mechanisms of Toxicity,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0116,3,36,Metals & Metalloids,Metals & Metalloids,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0117,3,37,Metals & Metalloids,Metals & Metalloids; Gases – Asphyxiants & Irritants,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0118,3,38,Liver / Hepatotoxicity,Liver / Hepatotoxicity; Mechanisms of Toxicity,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0119,3,39,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Liver / Hepatotoxicity,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0120,3,40,Mechanisms of Toxicity,Mechanisms of Toxicity; Carcinogenesis & Mutagenesis,Domain II,Mechanistic,T1,Remember/Understand,high,medium
+DABT-0121,4,1,Metals & Metalloids,Metals & Metalloids,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0122,4,2,Pesticides – Fumigants,Pesticides – Fumigants,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0123,4,3,Pesticides – Insecticides,Pesticides – Insecticides; Liver / Hepatotoxicity; Nervous System / Neurotoxicity; Toxicokinetics / ADME,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0124,4,4,Pesticides – Insecticides,Pesticides – Insecticides; Solvents & Hydrocarbons; Air Pollution & Particulates,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0125,4,5,Pesticides – Herbicides,Pesticides – Herbicides; Lung / Pulmonary Toxicity; Biotransformation / Metabolism; Mechanisms of Toxicity,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0126,4,6,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Kidney / Nephrotoxicity; Plant Toxins,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0127,4,7,Liver / Hepatotoxicity,Liver / Hepatotoxicity; Kidney / Nephrotoxicity; Lung / Pulmonary Toxicity,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0128,4,8,Carcinogenesis & Mutagenesis,Carcinogenesis & Mutagenesis,Domain II,Mechanistic,T4,Apply,high,medium
+DABT-0129,4,9,Mechanisms of Toxicity,Mechanisms of Toxicity; Carcinogenesis & Mutagenesis; Biotransformation / Metabolism; General Principles & Concepts,Domain II,Mechanistic,T1,Remember/Understand,high,medium
+DABT-0130,4,10,Liver / Hepatotoxicity,Liver / Hepatotoxicity; Biotransformation / Metabolism; Mechanisms of Toxicity,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0131,4,11,Endocrine Toxicology,Endocrine Toxicology; Pesticides – Insecticides; Metals & Metalloids; Reproductive & Developmental Toxicity,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0132,4,12,Air Pollution & Particulates,Air Pollution & Particulates; Lung / Pulmonary Toxicity; Toxicokinetics / ADME,Domain IV,Applied,T3,Apply,medium,medium
+DABT-0133,4,13,Metals & Metalloids,Metals & Metalloids; Solvents & Hydrocarbons; Lung / Pulmonary Toxicity,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0134,4,14,Liver / Hepatotoxicity,Liver / Hepatotoxicity; Toxicokinetics / ADME,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0135,4,15,Skin / Dermatotoxicity,Skin / Dermatotoxicity; Eye / Ocular Toxicity,Domain III,D.RiskChar&Mgmt,T1,Remember/Understand,low,medium
+DABT-0136,4,16,Carcinogenesis & Mutagenesis,Carcinogenesis & Mutagenesis,Domain II,Mechanistic,T4,Remember/Understand,high,medium
+DABT-0137,4,17,Risk Assessment & Regulatory,Risk Assessment & Regulatory,Domain III,D.RiskChar&Mgmt,T1,Apply,medium,medium
+DABT-0138,4,18,Carcinogenesis & Mutagenesis,Carcinogenesis & Mutagenesis; Mechanisms of Toxicity,Domain II,Mechanistic,T4,Apply,high,medium
+DABT-0139,4,19,Carcinogenesis & Mutagenesis,Carcinogenesis & Mutagenesis; Biotransformation / Metabolism; Mechanisms of Toxicity,Domain II,Mechanistic,T4,Apply,high,medium
+DABT-0140,4,20,Genotoxicity / DNA Damage,Genotoxicity / DNA Damage; Radiation / UV / Ionizing,Domain II,Mechanistic,T1,Apply,high,medium
+DABT-0141,4,21,General Principles & Concepts,General Principles & Concepts,Domain III,D.RiskChar&Mgmt,T1,Remember/Understand,low,medium
+DABT-0142,4,22,Risk Assessment & Regulatory,Risk Assessment & Regulatory; General Principles & Concepts,Domain III,D.RiskChar&Mgmt,T1,Apply,medium,medium
+DABT-0143,4,23,Carcinogenesis & Mutagenesis,Carcinogenesis & Mutagenesis; Risk Assessment & Regulatory,Domain II,Mechanistic,T4,Apply,high,medium
+DABT-0144,4,24,Liver / Hepatotoxicity,Liver / Hepatotoxicity; Biotransformation / Metabolism,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0145,4,25,Air Pollution & Particulates,Air Pollution & Particulates,Domain IV,Applied,T3,Apply,medium,medium
+DABT-0146,4,26,Biotransformation / Metabolism,Biotransformation / Metabolism,Domain I,C.Interpret,T4,Remember/Understand,medium,medium
+DABT-0147,4,27,Lung / Pulmonary Toxicity,Lung / Pulmonary Toxicity,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0148,4,28,Biotransformation / Metabolism,Biotransformation / Metabolism,Domain I,C.Interpret,T4,Remember/Understand,medium,medium
+DABT-0149,4,29,General Toxicology,General Toxicology,Domain I,C.Interpret,T1,Apply,medium,medium
+DABT-0150,4,30,"Food Additives, Cosmetics & GRAS","Food Additives, Cosmetics & GRAS",Domain IV,Applied,T7,Apply,medium,medium
+DABT-0151,4,31,Drugs & Therapeutics – Toxicology,Drugs & Therapeutics – Toxicology,Domain IV,Applied,T8,Apply,high,medium
+DABT-0152,4,32,General Principles & Concepts,General Principles & Concepts,Domain I,A.Design,T1,Apply,high,medium
+DABT-0153,4,33,Carcinogenesis & Mutagenesis,"Carcinogenesis & Mutagenesis; Mycotoxins; Food Additives, Cosmetics & GRAS",Domain II,Mechanistic,T4,Apply,high,medium
+DABT-0154,4,34,Toxicokinetics / ADME,Toxicokinetics / ADME; Animal & Microbial Venoms / Toxins,Domain I,B.Execute,T2,Apply,medium,medium
+DABT-0155,4,35,Carcinogenesis & Mutagenesis,Carcinogenesis & Mutagenesis; Genotoxicity / DNA Damage,Domain II,Mechanistic,T4,Apply,high,medium
+DABT-0156,4,36,Mechanisms of Toxicity,Mechanisms of Toxicity,Domain II,Mechanistic,T1,Apply,high,medium
+DABT-0157,4,37,Toxicokinetics / ADME,Toxicokinetics / ADME; Liver / Hepatotoxicity; Kidney / Nephrotoxicity; Toxicokinetics / ADME,Domain I,B.Execute,T2,Remember/Understand,medium,medium
+DABT-0158,4,38,Drugs & Therapeutics – Toxicology,Drugs & Therapeutics – Toxicology,Domain IV,Applied,T8,Apply,high,medium
+DABT-0159,4,39,Liver / Hepatotoxicity,Liver / Hepatotoxicity; Biotransformation / Metabolism; Genotoxicity / DNA Damage,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0160,4,40,General Principles & Concepts,General Principles & Concepts,Domain III,D.RiskChar&Mgmt,T1,Remember/Understand,low,medium
+DABT-0161,5,1,Pesticides – Insecticides,Pesticides – Insecticides,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0162,5,2,Pesticides – Insecticides,Pesticides – Insecticides; Metals & Metalloids; Drugs & Therapeutics – Toxicology,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0163,5,3,Pesticides – Insecticides,Pesticides – Insecticides,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0164,5,4,Pesticides – Insecticides,Pesticides – Insecticides; Nervous System / Neurotoxicity,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0165,5,5,Pesticides – Insecticides,Pesticides – Insecticides; Nervous System / Neurotoxicity,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0166,5,6,Carcinogenesis & Mutagenesis,Carcinogenesis & Mutagenesis,Domain II,Mechanistic,T4,Remember/Understand,high,medium
+DABT-0167,5,7,Carcinogenesis & Mutagenesis,Carcinogenesis & Mutagenesis,Domain II,Mechanistic,T4,Apply,high,medium
+DABT-0168,5,8,Carcinogenesis & Mutagenesis,Carcinogenesis & Mutagenesis; Biotransformation / Metabolism,Domain II,Mechanistic,T4,Apply,high,medium
+DABT-0169,5,9,Carcinogenesis & Mutagenesis,Carcinogenesis & Mutagenesis,Domain II,Mechanistic,T4,Apply,high,medium
+DABT-0170,5,10,Carcinogenesis & Mutagenesis,"Carcinogenesis & Mutagenesis; Food Additives, Cosmetics & GRAS; Genotoxicity / DNA Damage",Domain II,Mechanistic,T4,Remember/Understand,high,medium
+DABT-0171,5,11,Nervous System / Neurotoxicity,Nervous System / Neurotoxicity; Cardiovascular Toxicity,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0172,5,12,Metals & Metalloids,Metals & Metalloids; Kidney / Nephrotoxicity,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0173,5,13,General Toxicology,General Toxicology,Domain I,C.Interpret,T1,Remember/Understand,medium,medium
+DABT-0174,5,14,Reproductive & Developmental Toxicity,Reproductive & Developmental Toxicity; Drugs & Therapeutics – Toxicology; Biotransformation / Metabolism,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0175,5,15,Endocrine Toxicology,Endocrine Toxicology; Reproductive & Developmental Toxicity; Biotransformation / Metabolism,Domain III,D.RiskChar&Mgmt,T1,Remember/Understand,low,medium
+DABT-0176,5,16,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Carcinogenesis & Mutagenesis,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0177,5,17,Liver / Hepatotoxicity,Liver / Hepatotoxicity; Drugs & Therapeutics – Toxicology,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0178,5,18,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Liver / Hepatotoxicity,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0179,5,19,Liver / Hepatotoxicity,Liver / Hepatotoxicity; Mechanisms of Toxicity,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0180,5,20,Pesticides – Insecticides,Pesticides – Insecticides,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0181,5,21,General Toxicology,General Toxicology,Domain I,C.Interpret,T1,Apply,medium,medium
+DABT-0182,5,22,Carcinogenesis & Mutagenesis,Carcinogenesis & Mutagenesis; Liver / Hepatotoxicity; Genotoxicity / DNA Damage,Domain II,Mechanistic,T4,Remember/Understand,high,medium
+DABT-0183,5,23,Liver / Hepatotoxicity,Liver / Hepatotoxicity; Alcohols & Methanol/Ethanol,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0184,5,24,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Liver / Hepatotoxicity,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0185,5,25,Mechanisms of Toxicity,Mechanisms of Toxicity; Carcinogenesis & Mutagenesis,Domain II,Mechanistic,T1,Remember/Understand,high,medium
+DABT-0186,5,26,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Liver / Hepatotoxicity; Biotransformation / Metabolism,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0187,5,27,Solvents & Hydrocarbons,Solvents & Hydrocarbons,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0188,5,28,Endocrine Toxicology,Endocrine Toxicology,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0189,5,29,Skin / Dermatotoxicity,Skin / Dermatotoxicity; Immunotoxicology / Allergy,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0190,5,30,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Liver / Hepatotoxicity; Alcohols & Methanol/Ethanol,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0191,5,30,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Nervous System / Neurotoxicity; Drugs & Therapeutics – Toxicology; Alcohols & Methanol/Ethanol,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0192,5,31,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Liver / Hepatotoxicity; Alcohols & Methanol/Ethanol,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0193,5,32,Liver / Hepatotoxicity,Liver / Hepatotoxicity,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0194,5,33,Metals & Metalloids,Metals & Metalloids; Air Pollution & Particulates; Liver / Hepatotoxicity,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0195,5,34,Liver / Hepatotoxicity,Liver / Hepatotoxicity; Mechanisms of Toxicity,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0196,5,35,Metals & Metalloids,Metals & Metalloids; Air Pollution & Particulates; Lung / Pulmonary Toxicity; Radiation / UV / Ionizing,Domain III,D.RiskChar&Mgmt,T1,Remember/Understand,low,medium
+DABT-0197,5,36,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Gases – Asphyxiants & Irritants,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0198,5,37,Immunotoxicology / Allergy,Immunotoxicology / Allergy; Skin / Dermatotoxicity; Immunotoxicology / Allergy,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0199,5,38,Immunotoxicology / Allergy,Immunotoxicology / Allergy,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0200,5,39,Immunotoxicology / Allergy,Immunotoxicology / Allergy; Liver / Hepatotoxicity; Drugs & Therapeutics – Toxicology,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0201,5,40,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Liver / Hepatotoxicity; Alcohols & Methanol/Ethanol,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0202,6,1,Pesticides – Insecticides,Pesticides – Insecticides; Nervous System / Neurotoxicity,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0203,6,2,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Liver / Hepatotoxicity; Kidney / Nephrotoxicity; Lung / Pulmonary Toxicity; Hematology & Blood Toxicity,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0204,6,3,Pesticides – Insecticides,Pesticides – Insecticides; Nervous System / Neurotoxicity,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0205,6,4,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Liver / Hepatotoxicity; Biotransformation / Metabolism,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0206,6,5,Pesticides – Insecticides,Pesticides – Insecticides; Nervous System / Neurotoxicity,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0207,6,6,Genotoxicity / DNA Damage,Genotoxicity / DNA Damage,Domain II,Mechanistic,T1,Remember/Understand,high,medium
+DABT-0208,6,7,Immunotoxicology / Allergy,Immunotoxicology / Allergy,Domain I,C.Interpret,T2,Analyze,medium,medium
+DABT-0209,6,8,Carcinogenesis & Mutagenesis,Carcinogenesis & Mutagenesis,Domain II,Mechanistic,T4,Apply,high,medium
+DABT-0210,6,9,Immunotoxicology / Allergy,Immunotoxicology / Allergy; Animal & Microbial Venoms / Toxins,Domain III,D.RiskChar&Mgmt,T1,Apply,low,medium
+DABT-0211,6,10,Hematology & Blood Toxicity,Hematology & Blood Toxicity; Endocrine Toxicology,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0212,6,11,Solvents & Hydrocarbons,Solvents & Hydrocarbons,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0213,6,12,Carcinogenesis & Mutagenesis,Carcinogenesis & Mutagenesis; Biotransformation / Metabolism,Domain II,Mechanistic,T4,Apply,high,medium
+DABT-0214,6,13,Nervous System / Neurotoxicity,Nervous System / Neurotoxicity; Drugs & Therapeutics – Toxicology,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0215,6,14,Liver / Hepatotoxicity,Liver / Hepatotoxicity; Drugs & Therapeutics – Toxicology; Alcohols & Methanol/Ethanol; Biotransformation / Metabolism,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0216,6,15,General Toxicology,General Toxicology,Domain I,C.Interpret,T1,Remember/Understand,medium,medium
+DABT-0217,6,16,Pesticides – Herbicides,Pesticides – Herbicides; Endocrine Toxicology,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0218,6,17,Metals & Metalloids,Metals & Metalloids; Kidney / Nephrotoxicity; Mechanisms of Toxicity,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0219,6,18,Kidney / Nephrotoxicity,Kidney / Nephrotoxicity; Toxicokinetics / ADME,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0220,6,19,Kidney / Nephrotoxicity,Kidney / Nephrotoxicity; Toxicokinetics / ADME,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0221,6,20,Drugs & Therapeutics – Toxicology,Drugs & Therapeutics – Toxicology,Domain IV,Applied,T8,Remember/Understand,high,medium
+DABT-0222,6,21,Skin / Dermatotoxicity,Skin / Dermatotoxicity; Immunotoxicology / Allergy,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0223,6,22,Liver / Hepatotoxicity,Liver / Hepatotoxicity,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0224,6,23,Liver / Hepatotoxicity,Liver / Hepatotoxicity; Kidney / Nephrotoxicity; Toxicokinetics / ADME,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0225,6,24,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Carcinogenesis & Mutagenesis; Liver / Hepatotoxicity; Mycotoxins; Alcohols & Methanol/Ethanol; Mechanisms of Toxicity,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0226,6,25,Pesticides – Insecticides,Pesticides – Insecticides; Alcohols & Methanol/Ethanol,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0227,6,26,Cardiovascular Toxicity,Cardiovascular Toxicity,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0228,6,27,Mechanisms of Toxicity,Mechanisms of Toxicity; Liver / Hepatotoxicity; Mechanisms of Toxicity,Domain II,Mechanistic,T1,Remember/Understand,high,medium
+DABT-0229,6,28,Liver / Hepatotoxicity,Liver / Hepatotoxicity; Mechanisms of Toxicity,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0230,6,29,Liver / Hepatotoxicity,Liver / Hepatotoxicity; Mechanisms of Toxicity,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0231,6,30,Genotoxicity / DNA Damage,Genotoxicity / DNA Damage,Domain II,Mechanistic,T1,Apply,high,medium
+DABT-0232,6,31,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Liver / Hepatotoxicity; Kidney / Nephrotoxicity; Lung / Pulmonary Toxicity; Cardiovascular Toxicity,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0233,6,32,Skin / Dermatotoxicity,Skin / Dermatotoxicity; Immunotoxicology / Allergy; Alcohols & Methanol/Ethanol,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0234,6,33,Hematology & Blood Toxicity,Hematology & Blood Toxicity; Skin / Dermatotoxicity; Immunotoxicology / Allergy,Domain III,D.RiskChar&Mgmt,T1,Remember/Understand,low,medium
+DABT-0235,6,34,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Immunotoxicology / Allergy,Domain III,D.RiskChar&Mgmt,T1,Apply,low,medium
+DABT-0236,6,35,Toxicokinetics / ADME,Toxicokinetics / ADME,Domain I,B.Execute,T2,Apply,medium,medium
+DABT-0237,6,36,Metals & Metalloids,Metals & Metalloids,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0238,6,37,Kidney / Nephrotoxicity,Kidney / Nephrotoxicity; Alcohols & Methanol/Ethanol,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0239,6,38,Plant Toxins,Plant Toxins; Mycotoxins,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0240,6,39,Liver / Hepatotoxicity,Liver / Hepatotoxicity; Kidney / Nephrotoxicity; Drugs & Therapeutics – Toxicology,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0241,6,40,Endocrine Toxicology,Endocrine Toxicology; Pesticides – Insecticides; Pesticides – Herbicides; Metals & Metalloids; Lung / Pulmonary Toxicity,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0242,7,1,Nervous System / Neurotoxicity,Nervous System / Neurotoxicity; Skin / Dermatotoxicity; Drugs & Therapeutics – Toxicology,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0243,7,2,Pesticides – Insecticides,Pesticides – Insecticides; Pesticides – Herbicides; Liver / Hepatotoxicity; Nervous System / Neurotoxicity,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0244,7,3,Pesticides – Insecticides,Pesticides – Insecticides; Nervous System / Neurotoxicity,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0245,7,4,Pesticides – Rodenticides,Pesticides – Rodenticides; Metals & Metalloids; Nervous System / Neurotoxicity,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0246,7,5,Metals & Metalloids,Metals & Metalloids; Toxicokinetics / ADME,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0247,7,6,Genotoxicity / DNA Damage,Genotoxicity / DNA Damage,Domain II,Mechanistic,T1,Apply,high,medium
+DABT-0248,7,7,Carcinogenesis & Mutagenesis,Carcinogenesis & Mutagenesis,Domain II,Mechanistic,T4,Apply,high,medium
+DABT-0249,7,8,Toxicokinetics / ADME,Toxicokinetics / ADME,Domain I,B.Execute,T2,Apply,medium,medium
+DABT-0250,7,9,Genotoxicity / DNA Damage,Genotoxicity / DNA Damage,Domain II,Mechanistic,T1,Remember/Understand,high,medium
+DABT-0251,7,10,Genotoxicity / DNA Damage,Genotoxicity / DNA Damage,Domain II,Mechanistic,T1,Apply,high,medium
+DABT-0252,7,11,Metals & Metalloids,Metals & Metalloids; Kidney / Nephrotoxicity; Hematology & Blood Toxicity; Endocrine Toxicology,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0253,7,12,Liver / Hepatotoxicity,Liver / Hepatotoxicity,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0254,7,13,Toxicokinetics / ADME,Toxicokinetics / ADME,Domain I,B.Execute,T2,Remember/Understand,medium,medium
+DABT-0255,7,14,Solvents & Hydrocarbons,Solvents & Hydrocarbons,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0256,7,15,Immunotoxicology / Allergy,Immunotoxicology / Allergy; Immunotoxicology / Allergy; General Principles & Concepts,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0257,7,16,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Liver / Hepatotoxicity; Endocrine Toxicology; Biotransformation / Metabolism,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0258,7,17,Immunotoxicology / Allergy,Immunotoxicology / Allergy,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0259,7,18,Pesticides – Herbicides,Pesticides – Herbicides; Metals & Metalloids; Solvents & Hydrocarbons,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0260,7,19,Pesticides – Rodenticides,Pesticides – Rodenticides,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0261,7,20,Biotransformation / Metabolism,Biotransformation / Metabolism,Domain III,D.RiskChar&Mgmt,T1,Remember/Understand,low,medium
+DABT-0262,7,21,Kidney / Nephrotoxicity,Kidney / Nephrotoxicity,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0263,7,22,General Toxicology,General Toxicology,Domain III,D.RiskChar&Mgmt,T1,Remember/Understand,low,medium
+DABT-0264,7,23,Metals & Metalloids,Metals & Metalloids,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0265,7,24,Liver / Hepatotoxicity,Liver / Hepatotoxicity; Immunotoxicology / Allergy,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0266,7,25,Risk Assessment & Regulatory,Risk Assessment & Regulatory,Domain III,D.RiskChar&Mgmt,T1,Apply,medium,medium
+DABT-0267,7,26,Cardiovascular Toxicity,Cardiovascular Toxicity; Skin / Dermatotoxicity; Immunotoxicology / Allergy,Domain III,D.RiskChar&Mgmt,T1,Apply,low,medium
+DABT-0268,7,27,Skin / Dermatotoxicity,Skin / Dermatotoxicity; Biotransformation / Metabolism,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0269,7,28,Metals & Metalloids,Metals & Metalloids; Biotransformation / Metabolism,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0270,7,29,Genotoxicity / DNA Damage,Genotoxicity / DNA Damage,Domain II,Mechanistic,T1,Apply,high,medium
+DABT-0271,7,30,Toxicokinetics / ADME,Toxicokinetics / ADME,Domain III,D.RiskChar&Mgmt,T1,Remember/Understand,low,medium
+DABT-0272,7,31,General Toxicology,General Toxicology,Domain I,C.Interpret,T1,Remember/Understand,medium,medium
+DABT-0273,7,32,Metals & Metalloids,Metals & Metalloids; Risk Assessment & Regulatory,Domain III,D.RiskChar&Mgmt,T1,Apply,low,medium
+DABT-0274,7,33,Metals & Metalloids,Metals & Metalloids,Domain III,D.RiskChar&Mgmt,T1,Apply,low,medium
+DABT-0275,7,34,Liver / Hepatotoxicity,Liver / Hepatotoxicity; Kidney / Nephrotoxicity; Lung / Pulmonary Toxicity; General Principles & Concepts,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0276,7,35,Kidney / Nephrotoxicity,Kidney / Nephrotoxicity; Drugs & Therapeutics – Toxicology; Toxicokinetics / ADME,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0277,7,36,Endocrine Toxicology,Endocrine Toxicology; Drugs & Therapeutics – Toxicology,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0278,7,37,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Liver / Hepatotoxicity; Biotransformation / Metabolism,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0279,7,38,Mechanisms of Toxicity,Mechanisms of Toxicity,Domain II,Mechanistic,T1,Apply,high,medium
+DABT-0280,7,39,Kidney / Nephrotoxicity,Kidney / Nephrotoxicity; Alcohols & Methanol/Ethanol,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0281,7,40,General Toxicology,General Toxicology,Domain I,C.Interpret,T1,Remember/Understand,medium,medium
+DABT-0282,8,1,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Alcohols & Methanol/Ethanol; Biotransformation / Metabolism,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0283,8,2,Liver / Hepatotoxicity,Liver / Hepatotoxicity; Reproductive & Developmental Toxicity; Alcohols & Methanol/Ethanol,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0284,8,3,Eye / Ocular Toxicity,Eye / Ocular Toxicity; Alcohols & Methanol/Ethanol; Biotransformation / Metabolism,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0285,8,4,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Genotoxicity / DNA Damage,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0286,8,5,Metals & Metalloids,Metals & Metalloids,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0287,8,6,Metals & Metalloids,Metals & Metalloids; Toxicokinetics / ADME,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0288,8,7,Metals & Metalloids,Metals & Metalloids,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0289,8,8,Carcinogenesis & Mutagenesis,Carcinogenesis & Mutagenesis,Domain II,Mechanistic,T4,Remember/Understand,high,medium
+DABT-0290,8,9,General Toxicology,General Toxicology,Domain I,C.Interpret,T1,Remember/Understand,medium,medium
+DABT-0291,8,10,Carcinogenesis & Mutagenesis,Carcinogenesis & Mutagenesis; Risk Assessment & Regulatory; General Principles & Concepts,Domain II,Mechanistic,T4,Remember/Understand,high,medium
+DABT-0292,8,11,Metals & Metalloids,Metals & Metalloids; Nervous System / Neurotoxicity,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0293,8,12,Metals & Metalloids,Metals & Metalloids; Kidney / Nephrotoxicity; Nervous System / Neurotoxicity; Endocrine Toxicology; Drugs & Therapeutics – Toxicology,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0294,8,13,Immunotoxicology / Allergy,Immunotoxicology / Allergy,Domain III,D.RiskChar&Mgmt,T1,Apply,low,medium
+DABT-0295,8,14,Immunotoxicology / Allergy,Immunotoxicology / Allergy; Animal & Microbial Venoms / Toxins,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0296,8,15,General Toxicology,General Toxicology,Domain I,C.Interpret,T1,Apply,medium,medium
+DABT-0297,8,16,Metals & Metalloids,Metals & Metalloids,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0298,8,17,Metals & Metalloids,Metals & Metalloids; Nervous System / Neurotoxicity; Cardiovascular Toxicity,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0299,8,18,Kidney / Nephrotoxicity,Kidney / Nephrotoxicity; Toxicokinetics / ADME,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0300,8,19,Kidney / Nephrotoxicity,Kidney / Nephrotoxicity,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0301,8,20,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Gases – Asphyxiants & Irritants; Alcohols & Methanol/Ethanol,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0302,8,21,Metals & Metalloids,Metals & Metalloids; Kidney / Nephrotoxicity; Drugs & Therapeutics – Toxicology,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0303,8,22,Metals & Metalloids,Metals & Metalloids; Cardiovascular Toxicity,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0304,8,23,Liver / Hepatotoxicity,Liver / Hepatotoxicity; Lung / Pulmonary Toxicity,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0305,8,24,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Liver / Hepatotoxicity; Alcohols & Methanol/Ethanol; Mechanisms of Toxicity,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0306,8,25,General Toxicology,General Toxicology,Domain I,C.Interpret,T1,Remember/Understand,medium,medium
+DABT-0307,8,26,Pesticides – Insecticides,Pesticides – Insecticides; Skin / Dermatotoxicity; Immunotoxicology / Allergy,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0308,8,27,Nervous System / Neurotoxicity,Nervous System / Neurotoxicity,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0309,8,28,General Toxicology,General Toxicology,Domain I,C.Interpret,T1,Apply,medium,medium
+DABT-0310,8,29,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Gases – Asphyxiants & Irritants; Liver / Hepatotoxicity; Mechanisms of Toxicity,Domain III,D.RiskChar&Mgmt,T1,Apply,low,medium
+DABT-0311,8,30,Pesticides – Herbicides,Pesticides – Herbicides; Solvents & Hydrocarbons; Cardiovascular Toxicity,Domain III,D.RiskChar&Mgmt,T1,Remember/Understand,low,medium
+DABT-0312,8,31,Metals & Metalloids,Metals & Metalloids; Nervous System / Neurotoxicity,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0313,8,32,Metals & Metalloids,Metals & Metalloids,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0314,8,33,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Liver / Hepatotoxicity; Drugs & Therapeutics – Toxicology; Biotransformation / Metabolism,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0315,8,34,Pesticides – Fumigants,Pesticides – Fumigants; Liver / Hepatotoxicity; Mechanisms of Toxicity,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0316,8,35,Mechanisms of Toxicity,Mechanisms of Toxicity; Biotransformation / Metabolism,Domain II,Mechanistic,T1,Apply,high,medium
+DABT-0317,8,36,Pesticides – Insecticides,Pesticides – Insecticides; Nervous System / Neurotoxicity; Biotransformation / Metabolism,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0318,8,37,Nervous System / Neurotoxicity,Nervous System / Neurotoxicity; Immunotoxicology / Allergy,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0319,8,38,Lung / Pulmonary Toxicity,Lung / Pulmonary Toxicity; Immunotoxicology / Allergy,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0320,8,39,Liver / Hepatotoxicity,Liver / Hepatotoxicity,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0321,8,40,General Toxicology,General Toxicology,Domain I,C.Interpret,T1,Remember/Understand,medium,medium
+DABT-0322,9,1,Lung / Pulmonary Toxicity,Lung / Pulmonary Toxicity,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0323,9,2,Pesticides – Rodenticides,Pesticides – Rodenticides; Metals & Metalloids; Solvents & Hydrocarbons; Eye / Ocular Toxicity; Alcohols & Methanol/Ethanol,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0324,9,3,Kidney / Nephrotoxicity,Kidney / Nephrotoxicity; Hematology & Blood Toxicity; Drugs & Therapeutics – Toxicology,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0325,9,4,Carcinogenesis & Mutagenesis,Carcinogenesis & Mutagenesis; Reproductive & Developmental Toxicity; Mechanisms of Toxicity,Domain II,Mechanistic,T4,Apply,high,medium
+DABT-0326,9,5,General Toxicology,General Toxicology,Domain I,C.Interpret,T1,Remember/Understand,medium,medium
+DABT-0327,9,6,Lung / Pulmonary Toxicity,Lung / Pulmonary Toxicity; Toxicokinetics / ADME,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0328,9,7,Reproductive & Developmental Toxicity,Reproductive & Developmental Toxicity,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0329,9,8,Air Pollution & Particulates,Air Pollution & Particulates,Domain IV,Applied,T3,Remember/Understand,medium,medium
+DABT-0330,9,9,Carcinogenesis & Mutagenesis,Carcinogenesis & Mutagenesis,Domain II,Mechanistic,T4,Remember/Understand,high,medium
+DABT-0331,9,10,Metals & Metalloids,Metals & Metalloids; Skin / Dermatotoxicity,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0332,9,11,Immunotoxicology / Allergy,Immunotoxicology / Allergy,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0333,9,12,Carcinogenesis & Mutagenesis,Carcinogenesis & Mutagenesis,Domain II,Mechanistic,T4,Remember/Understand,high,medium
+DABT-0334,9,13,Liver / Hepatotoxicity,Liver / Hepatotoxicity,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0335,9,14,General Toxicology,General Toxicology,Domain I,C.Interpret,T1,Remember/Understand,medium,medium
+DABT-0336,9,15,Carcinogenesis & Mutagenesis,Carcinogenesis & Mutagenesis,Domain II,Mechanistic,T4,Remember/Understand,high,medium
+DABT-0337,9,16,Pesticides – Rodenticides,Pesticides – Rodenticides; Metals & Metalloids; Solvents & Hydrocarbons,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0338,9,17,Eye / Ocular Toxicity,Eye / Ocular Toxicity,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0339,9,18,Carcinogenesis & Mutagenesis,Carcinogenesis & Mutagenesis,Domain II,Mechanistic,T4,Remember/Understand,high,medium
+DABT-0340,9,19,Gases – Asphyxiants & Irritants,Gases – Asphyxiants & Irritants,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0341,9,20,Pesticides – Rodenticides,Pesticides – Rodenticides; Liver / Hepatotoxicity; Nervous System / Neurotoxicity,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0342,9,21,Liver / Hepatotoxicity,Liver / Hepatotoxicity; Alcohols & Methanol/Ethanol; Mechanisms of Toxicity,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0343,9,22,Carcinogenesis & Mutagenesis,Carcinogenesis & Mutagenesis,Domain II,Mechanistic,T4,Remember/Understand,high,medium
+DABT-0344,9,23,General Toxicology,General Toxicology,Domain I,C.Interpret,T1,Remember/Understand,medium,medium
+DABT-0345,9,24,Carcinogenesis & Mutagenesis,Carcinogenesis & Mutagenesis,Domain II,Mechanistic,T4,Apply,high,medium
+DABT-0346,9,25,Reproductive & Developmental Toxicity,Reproductive & Developmental Toxicity,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0347,9,26,Carcinogenesis & Mutagenesis,Carcinogenesis & Mutagenesis,Domain II,Mechanistic,T4,Remember/Understand,high,medium
+DABT-0348,9,27,Hematology & Blood Toxicity,Hematology & Blood Toxicity,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0349,9,28,Carcinogenesis & Mutagenesis,Carcinogenesis & Mutagenesis; Risk Assessment & Regulatory,Domain II,Mechanistic,T4,Apply,high,medium
+DABT-0350,9,29,General Toxicology,General Toxicology,Domain III,D.RiskChar&Mgmt,T1,Remember/Understand,low,medium
+DABT-0351,9,30,Carcinogenesis & Mutagenesis,Carcinogenesis & Mutagenesis; Genotoxicity / DNA Damage,Domain II,Mechanistic,T4,Remember/Understand,high,medium
+DABT-0352,9,31,General Toxicology,General Toxicology,Domain I,C.Interpret,T1,Remember/Understand,medium,medium
+DABT-0353,9,32,Kidney / Nephrotoxicity,Kidney / Nephrotoxicity; Reproductive & Developmental Toxicity,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0354,9,33,Toxicokinetics / ADME,Toxicokinetics / ADME,Domain I,B.Execute,T2,Apply,medium,medium
+DABT-0355,9,34,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Gases – Asphyxiants & Irritants; Alcohols & Methanol/Ethanol,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0356,9,35,General Toxicology,General Toxicology,Domain I,C.Interpret,T1,Remember/Understand,medium,medium
+DABT-0357,9,36,Metals & Metalloids,Metals & Metalloids; Solvents & Hydrocarbons; Alcohols & Methanol/Ethanol,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0358,9,37,Hematology & Blood Toxicity,Hematology & Blood Toxicity; Immunotoxicology / Allergy,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0359,9,38,General Toxicology,General Toxicology,Domain I,C.Interpret,T1,Apply,medium,medium
+DABT-0360,9,39,Carcinogenesis & Mutagenesis,Carcinogenesis & Mutagenesis; Reproductive & Developmental Toxicity,Domain II,Mechanistic,T4,Remember/Understand,high,medium
+DABT-0361,9,40,Air Pollution & Particulates,Air Pollution & Particulates; Lung / Pulmonary Toxicity; Toxicokinetics / ADME,Domain IV,Applied,T3,Apply,medium,medium
+DABT-0362,10,1,Metals & Metalloids,Metals & Metalloids; Hematology & Blood Toxicity,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0363,10,2,Metals & Metalloids,Metals & Metalloids; Nervous System / Neurotoxicity; Biotransformation / Metabolism,Domain IV,Applied,T11,Analyze,medium,medium
+DABT-0364,10,3,Metals & Metalloids,Metals & Metalloids; Kidney / Nephrotoxicity; Immunotoxicology / Allergy,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0365,10,4,Pesticides – Rodenticides,Pesticides – Rodenticides; Pesticides – Fumigants; Metals & Metalloids,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0366,10,5,Mechanisms of Toxicity,Mechanisms of Toxicity; Pesticides – Insecticides; Nervous System / Neurotoxicity; Mechanisms of Toxicity,Domain II,Mechanistic,T1,Apply,high,medium
+DABT-0367,10,6,Metals & Metalloids,Metals & Metalloids,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0368,10,7,Drugs & Therapeutics – Toxicology,"Drugs & Therapeutics – Toxicology; Food Additives, Cosmetics & GRAS",Domain IV,Applied,T8,Remember/Understand,high,medium
+DABT-0369,10,8,Metals & Metalloids,Metals & Metalloids; Gases – Asphyxiants & Irritants,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0370,10,9,Metals & Metalloids,Metals & Metalloids; Biotransformation / Metabolism,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0371,10,10,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Carcinogenesis & Mutagenesis; Alcohols & Methanol/Ethanol; Toxicokinetics / ADME; Biotransformation / Metabolism,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0372,10,11,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Carcinogenesis & Mutagenesis; Reproductive & Developmental Toxicity,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0373,10,12,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Liver / Hepatotoxicity; Kidney / Nephrotoxicity; Nervous System / Neurotoxicity; Hematology & Blood Toxicity; Eye / Ocular Toxicity; Immunotoxicology / Allergy; Endocrine Toxicology,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0374,10,13,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Eye / Ocular Toxicity,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0375,10,14,Nervous System / Neurotoxicity,Nervous System / Neurotoxicity; Skin / Dermatotoxicity; Reproductive & Developmental Toxicity,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0376,10,15,Pesticides – Insecticides,Pesticides – Insecticides; Pesticides – Herbicides; Skin / Dermatotoxicity,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0377,10,16,Metals & Metalloids,Metals & Metalloids; Air Pollution & Particulates; Carcinogenesis & Mutagenesis; Lung / Pulmonary Toxicity; Mechanisms of Toxicity,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0378,10,17,Carcinogenesis & Mutagenesis,Carcinogenesis & Mutagenesis; Biotransformation / Metabolism,Domain II,Mechanistic,T4,Apply,high,medium
+DABT-0379,10,18,Air Pollution & Particulates,Air Pollution & Particulates,Domain IV,Applied,T3,Apply,medium,medium
+DABT-0380,10,19,Nervous System / Neurotoxicity,Nervous System / Neurotoxicity; Mechanisms of Toxicity,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0381,10,20,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Gases – Asphyxiants & Irritants,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0382,10,21,Immunotoxicology / Allergy,Immunotoxicology / Allergy; Immunotoxicology / Allergy,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0383,10,22,Immunotoxicology / Allergy,Immunotoxicology / Allergy,Domain III,D.RiskChar&Mgmt,T1,Remember/Understand,low,medium
+DABT-0384,10,23,Carcinogenesis & Mutagenesis,Carcinogenesis & Mutagenesis; Hematology & Blood Toxicity; Genotoxicity / DNA Damage,Domain II,Mechanistic,T4,Apply,high,medium
+DABT-0385,10,24,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Liver / Hepatotoxicity; Kidney / Nephrotoxicity; Drugs & Therapeutics – Toxicology,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0386,10,25,Immunotoxicology / Allergy,Immunotoxicology / Allergy; Mycotoxins,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0387,10,26,Skin / Dermatotoxicity,Skin / Dermatotoxicity; Immunotoxicology / Allergy,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0388,10,27,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Skin / Dermatotoxicity,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0389,10,28,Metals & Metalloids,Metals & Metalloids; Solvents & Hydrocarbons; Eye / Ocular Toxicity,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0390,10,29,Eye / Ocular Toxicity,Eye / Ocular Toxicity,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0391,10,30,Eye / Ocular Toxicity,Eye / Ocular Toxicity,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0392,10,31,Pesticides – Insecticides,Pesticides – Insecticides; Solvents & Hydrocarbons,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0393,10,32,Drugs & Therapeutics – Toxicology,Drugs & Therapeutics – Toxicology; Alcohols & Methanol/Ethanol,Domain IV,Applied,T8,Apply,high,medium
+DABT-0394,10,33,Metals & Metalloids,Metals & Metalloids; Gases – Asphyxiants & Irritants; Lung / Pulmonary Toxicity,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0395,10,34,General Toxicology,General Toxicology,Domain I,C.Interpret,T1,Remember/Understand,medium,medium
+DABT-0396,10,35,Drugs & Therapeutics – Toxicology,Drugs & Therapeutics – Toxicology; Risk Assessment & Regulatory; Mechanisms of Toxicity,Domain III,D.RiskChar&Mgmt,T1,Remember/Understand,low,medium
+DABT-0397,10,36,General Toxicology,General Toxicology,Domain I,C.Interpret,T1,Remember/Understand,medium,medium
+DABT-0398,10,37,Metals & Metalloids,Metals & Metalloids; Drugs & Therapeutics – Toxicology,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0399,10,38,Carcinogenesis & Mutagenesis,Carcinogenesis & Mutagenesis; Genotoxicity / DNA Damage,Domain II,Mechanistic,T4,Apply,high,medium
+DABT-0400,10,39,General Toxicology,General Toxicology,Domain I,C.Interpret,T1,Apply,medium,medium
+DABT-0401,10,40,Pesticides – Insecticides,Pesticides – Insecticides; Metals & Metalloids; Carcinogenesis & Mutagenesis; Liver / Hepatotoxicity; Mycotoxins,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0402,11,1,Pesticides – Herbicides,Pesticides – Herbicides; Toxicokinetics / ADME,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0403,11,2,Pesticides – Insecticides,Pesticides – Insecticides; Biotransformation / Metabolism,Domain III,D.RiskChar&Mgmt,T1,Remember/Understand,low,medium
+DABT-0404,11,3,Metals & Metalloids,Metals & Metalloids,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0405,11,4,Metals & Metalloids,Metals & Metalloids; Kidney / Nephrotoxicity; Nervous System / Neurotoxicity,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0406,11,5,Metals & Metalloids,Metals & Metalloids; Eye / Ocular Toxicity; Toxicokinetics / ADME,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0407,11,6,Metals & Metalloids,Metals & Metalloids; Air Pollution & Particulates; Liver / Hepatotoxicity,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0408,11,7,Metals & Metalloids,Metals & Metalloids; Gases – Asphyxiants & Irritants; Lung / Pulmonary Toxicity,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0409,11,8,Metals & Metalloids,Metals & Metalloids; Carcinogenesis & Mutagenesis; Liver / Hepatotoxicity; Biotransformation / Metabolism,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0410,11,9,Genotoxicity / DNA Damage,Genotoxicity / DNA Damage,Domain II,Mechanistic,T1,Apply,high,medium
+DABT-0411,11,10,Lung / Pulmonary Toxicity,Lung / Pulmonary Toxicity; Immunotoxicology / Allergy; Mycotoxins,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0412,11,11,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Nervous System / Neurotoxicity,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0413,11,12,Immunotoxicology / Allergy,Immunotoxicology / Allergy,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0414,11,13,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Gases – Asphyxiants & Irritants; Lung / Pulmonary Toxicity,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0415,11,14,Kidney / Nephrotoxicity,Kidney / Nephrotoxicity; Biotransformation / Metabolism,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0416,11,15,General Toxicology,General Toxicology,Domain I,C.Interpret,T1,Remember/Understand,medium,medium
+DABT-0417,11,16,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Nervous System / Neurotoxicity,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0418,11,17,Immunotoxicology / Allergy,Immunotoxicology / Allergy,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0419,11,18,Immunotoxicology / Allergy,Immunotoxicology / Allergy,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0420,11,19,Plant Toxins,Plant Toxins; Metals & Metalloids; Skin / Dermatotoxicity; Immunotoxicology / Allergy,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0421,11,20,Carcinogenesis & Mutagenesis,Carcinogenesis & Mutagenesis,Domain II,Mechanistic,T4,Remember/Understand,high,medium
+DABT-0422,11,21,Metals & Metalloids,Metals & Metalloids; Solvents & Hydrocarbons; Liver / Hepatotoxicity,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0423,11,22,Drugs & Therapeutics – Toxicology,Drugs & Therapeutics – Toxicology; Biotransformation / Metabolism; Mechanisms of Toxicity,Domain IV,Applied,T8,Remember/Understand,high,medium
+DABT-0424,11,23,Toxicokinetics / ADME,Toxicokinetics / ADME,Domain III,D.RiskChar&Mgmt,T1,Apply,low,medium
+DABT-0425,11,24,Pesticides – Fumigants,Pesticides – Fumigants; Solvents & Hydrocarbons; Kidney / Nephrotoxicity; Nervous System / Neurotoxicity; Cardiovascular Toxicity; Plant Toxins,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0426,11,25,Solvents & Hydrocarbons,Solvents & Hydrocarbons,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0427,11,26,Carcinogenesis & Mutagenesis,Carcinogenesis & Mutagenesis; Alcohols & Methanol/Ethanol; Biotransformation / Metabolism,Domain II,Mechanistic,T4,Apply,high,medium
+DABT-0428,11,27,Mechanisms of Toxicity,Mechanisms of Toxicity,Domain II,Mechanistic,T1,Remember/Understand,high,medium
+DABT-0429,11,28,Liver / Hepatotoxicity,Liver / Hepatotoxicity; Drugs & Therapeutics – Toxicology; Biotransformation / Metabolism,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0430,11,29,General Toxicology,General Toxicology,Domain I,C.Interpret,T1,Remember/Understand,medium,medium
+DABT-0431,11,30,Reproductive & Developmental Toxicity,Reproductive & Developmental Toxicity,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0432,11,31,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Skin / Dermatotoxicity; Toxicokinetics / ADME,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0433,11,32,Metals & Metalloids,Metals & Metalloids; Solvents & Hydrocarbons; Kidney / Nephrotoxicity,Domain IV,Applied,T11,Apply,medium,medium
+DABT-0434,11,33,Animal & Microbial Venoms / Toxins,Animal & Microbial Venoms / Toxins; Pesticides – Fumigants; Metals & Metalloids; Solvents & Hydrocarbons; Kidney / Nephrotoxicity; Mycotoxins,Domain III,D.RiskChar&Mgmt,T1,Remember/Understand,low,medium
+DABT-0435,11,34,Kidney / Nephrotoxicity,Kidney / Nephrotoxicity,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0436,11,35,Reproductive & Developmental Toxicity,Reproductive & Developmental Toxicity,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0437,11,36,Solvents & Hydrocarbons,Solvents & Hydrocarbons,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0438,11,37,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Liver / Hepatotoxicity; Biotransformation / Metabolism,Domain IV,Applied,T11,Remember/Understand,medium,medium
+DABT-0439,11,38,Mechanisms of Toxicity,Mechanisms of Toxicity,Domain II,Mechanistic,T1,Apply,high,medium
+DABT-0440,11,39,Kidney / Nephrotoxicity,Kidney / Nephrotoxicity; Alcohols & Methanol/Ethanol,Domain I,C.Interpret,T2,Remember/Understand,medium,medium
+DABT-0441,11,40,General Toxicology,General Toxicology,Domain I,C.Interpret,T1,Remember/Understand,medium,medium
+DABT-0442,11,41,Solvents & Hydrocarbons,Solvents & Hydrocarbons; Carcinogenesis & Mutagenesis,Domain III,D.RiskChar&Mgmt,T1,Remember/Understand,low,medium
+DABT-0443,11,42,Drugs & Therapeutics – Toxicology,Drugs & Therapeutics – Toxicology; Toxicokinetics / ADME; Biotransformation / Metabolism,Domain IV,Applied,T8,Remember/Understand,high,medium
+DABT-0444,11,43,Liver / Hepatotoxicity,Liver / Hepatotoxicity; Radiation / UV / Ionizing,Domain III,D.RiskChar&Mgmt,T1,Remember/Understand,low,medium
+DABT-0445,11,44,Kidney / Nephrotoxicity,Kidney / Nephrotoxicity,Domain I,C.Interpret,T2,Apply,medium,medium
+DABT-0446,11,45,General Toxicology,General Toxicology,Domain I,C.Interpret,T1,Remember/Understand,medium,medium

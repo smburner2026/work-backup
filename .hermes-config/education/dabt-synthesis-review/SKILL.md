@@ -18,12 +18,15 @@ Load this skill when Abud says:
 
 Do NOT load this skill as a replacement for deep-dive or drill-mode — it is a consolidation bridge that follows multiple deep dives. If the user hasn't deep-dived a topic yet, load `dabt-deep-dive` instead.
 
-**Session start:** Load `/root/work/dabt/dabt-tutor/dabt-config.json` for project paths (`progress.state_path`, `progress.deep_dives_dir`) before proceeding.
+**Session start:** Load `dabt-project-workflow` first for config. Read config values at runtime:
+- `config['progress']['state_path']` → learner state (resolved against workdir)
+- `config['progress']['deep_dives_dir']` → deep-dive artifact directory (resolved against workdir)
+- `config['project']['workdir']` → project root for output directories
 
 ## Pre-Flight
 
-1. List completed topics from `progress/state.json` → `deep_dived_topics` and memory `dabt.deep_dive.completed_topics`
-2. Scan `deep-dives/*.md` for the specific topics in scope — extract biomarker mentions, half-lives, entry transporters, signature clinical syndromes
+1. List completed topics from `config['progress']['state_path']` (resolved against workdir) → `deep_dived_topics` and memory `dabt.deep_dive.completed_topics`
+2. Scan `{config['progress']['deep_dives_dir']}/*.md` for the specific topics in scope — extract biomarker mentions, half-lives, entry transporters, signature clinical syndromes
 3. Check `session_search` for any ad-hoc coverage the user may have mentioned outside formal deep dives
 4. Propose a comparison frame based on what's available — e.g., "We have As, Pb, and first-principles foundations. No deep dives yet on Hg, Cd, Cr, Co. I can build a partial matrix from what we've covered."
 
@@ -110,7 +113,7 @@ BACK: [metal] → [transporter name] — [one-liner mechanism note]
 
 | Path | When to use | Output |
 |------|-------------|--------|
-| **Markdown** (default) | User wants cards for immediate review or local printing | Save to `flashcards/YYYY-MM-DD-<topic>-cards.md` with front/back pairs, or present inline |
+| **Markdown** (default) | User wants cards for immediate review or local printing | Save to `reviews/YYYY-MM-DD-<topic>-cards.md` (resolved via `config['project']['workdir']`) with front/back pairs, or present inline |
 | **Memento** | User has Memento flashcards installed and wants scheduled spaced repetition | Push cards directly into Memento via `memento_cards.py add-quiz` with topic as `--video-id`. Cards are immediately available for review with adaptive scheduling |
 
 **When Memento is available** and the user requests review (not just viewing), prefer the Memento path. The user can then review in any channel where Hermes can serve cards: say "review" → due cards appear → answer free-text → agent grades and rates.
@@ -125,14 +128,14 @@ When the review reveals a gap (e.g., "we have no deep dive on chromium chronic e
 
 ### 7. Mandatory Deliverables
 
-**A. Review Artifact** — save to `reviews/YYYY-MM-DD-<topic>-review.md`:
+**A. Review Artifact** — save to `{config['project']['workdir']}/reviews/YYYY-MM-DD-<topic>-review.md`:
 - The comparison matrix (as built)
 - Flashcards generated (or pointer to flashcard file)
 - Discovery: which gaps were identified
 - Scheduled deep-dives for unresolved gaps
 
 **B. State Update:**
-- Append to `progress/state.json` → `review_sessions: [{date, topics, dimensions, flashcard_file}]`
+- Append to `config['progress']['state_path']` → `review_sessions: [{date, topics, dimensions, flashcard_file}]`
 - Update memory: `dabt.synthesis_review.last_session` with date + dimensions covered
 
 ## Compressed Soul

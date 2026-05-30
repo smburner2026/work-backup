@@ -1,0 +1,2458 @@
+{
+  "act_course_lectures": [
+    {
+      "file": "10_Renal_Toxicology_Dorman.pdf",
+      "label": "",
+      "size_bytes": 27280427,
+      "size_mb": 26.02,
+      "pages": 64,
+      "title_guess": "10 Renal Toxicology Dorman",
+      "topics_found": [
+        {
+          "topic": "Hepatotoxicity",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "liver",
+            "hepatic",
+            "necrosis"
+          ]
+        },
+        {
+          "topic": "Nephrotoxicity",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "kidney",
+            "renal",
+            "tubular necrosis"
+          ]
+        },
+        {
+          "topic": "Metals Toxicology",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "lead",
+            "mercury",
+            "cadmium"
+          ]
+        },
+        {
+          "topic": "ADME",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "distribution",
+            "excretion"
+          ]
+        },
+        {
+          "topic": "Biotransformation",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "metabolism",
+            "cytochrome"
+          ]
+        },
+        {
+          "topic": "Cardiovascular Toxicity",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "heart",
+            "vascular"
+          ]
+        },
+        {
+          "topic": "Endocrine Toxicity",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "endocrine",
+            "estrogen"
+          ]
+        },
+        {
+          "topic": "Solvents & Vapors",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "solvent",
+            "vapor"
+          ]
+        }
+      ],
+      "topics_count": 17,
+      "practice_questions": {
+        "has_questions": false,
+        "indicators": [],
+        "approx_question_lines": 0
+      },
+      "dabt_domains": [
+        "1_General_Principles",
+        "2_Systemic_Tox",
+        "3_Agent_Tox",
+        "4_Applied_Tox"
+      ],
+      "summary_excerpt": "David C. Dorman, DVM, PHD, DBAVT, DABT College of Veterinary Medicine North Carolina State University ACT\u2014Advanced Comprehensive Toxicology Course \u2022 At the end of the lecture the course participant"
+    },
+    {
+      "file": "11_Dev_Repro_A_Hoberman (1).pdf",
+      "label": "",
+      "size_bytes": 33926534,
+      "size_mb": 32.35,
+      "pages": 139,
+      "title_guess": "11 Dev Repro A Hoberman (1)",
+      "topics_found": [
+        {
+          "topic": "Endocrine Toxicity",
+          "keyword_matches": 6,
+          "keywords_found": [
+            "endocrine",
+            "hormone",
+            "thyroid",
+            "estrogen",
+            "androgen",
+            "steroid"
+          ]
+        },
+        {
+          "topic": "Regulatory",
+          "keyword_matches": 6,
+          "keywords_found": [
+            "regulatory",
+            "ich",
+            "oecd",
+            "fda",
+            "epa",
+            "guideline"
+          ]
+        },
+        {
+          "topic": "Reproductive & Developmental Toxicity",
+          "keyword_matches": 5,
+          "keywords_found": [
+            "developmental",
+            "fertility",
+            "fetal",
+            "embryo",
+            "placenta"
+          ]
+        },
+        {
+          "topic": "Dose-Response",
+          "keyword_matches": 4,
+          "keywords_found": [
+            "dose-response",
+            "dose response",
+            "noael",
+            "loael"
+          ]
+        },
+        {
+          "topic": "ADME",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "distribution",
+            "excretion"
+          ]
+        },
+        {
+          "topic": "Toxicokinetics",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "half-life",
+            "volume of distribution"
+          ]
+        },
+        {
+          "topic": "Biotransformation",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "metabolism",
+            "reduction"
+          ]
+        },
+        {
+          "topic": "Chemical Carcinogenesis",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "tumor",
+            "initiation"
+          ]
+        }
+      ],
+      "topics_count": 22,
+      "practice_questions": {
+        "has_questions": false,
+        "indicators": [],
+        "approx_question_lines": 0
+      },
+      "dabt_domains": [
+        "1_General_Principles",
+        "2_Systemic_Tox",
+        "3_Agent_Tox",
+        "4_Applied_Tox"
+      ],
+      "summary_excerpt": "Reproductive/Developmental Alan M. Hoberman, PhD, DABT, ATS \u2013 Presenter Executive Director, Global Developmental, Reproductive and Juvenile Toxicology \u2013 Charles River Laboratories, Inc. Raymond G. York, PhD, DABT, ATS, ERT"
+    },
+    {
+      "file": "11_Dev_Repro_A_Hoberman.pdf",
+      "label": "",
+      "size_bytes": 33926534,
+      "size_mb": 32.35,
+      "pages": 139,
+      "title_guess": "11 Dev Repro A Hoberman",
+      "topics_found": [
+        {
+          "topic": "Endocrine Toxicity",
+          "keyword_matches": 6,
+          "keywords_found": [
+            "endocrine",
+            "hormone",
+            "thyroid",
+            "estrogen",
+            "androgen",
+            "steroid"
+          ]
+        },
+        {
+          "topic": "Regulatory",
+          "keyword_matches": 6,
+          "keywords_found": [
+            "regulatory",
+            "ich",
+            "oecd",
+            "fda",
+            "epa",
+            "guideline"
+          ]
+        },
+        {
+          "topic": "Reproductive & Developmental Toxicity",
+          "keyword_matches": 5,
+          "keywords_found": [
+            "developmental",
+            "fertility",
+            "fetal",
+            "embryo",
+            "placenta"
+          ]
+        },
+        {
+          "topic": "Dose-Response",
+          "keyword_matches": 4,
+          "keywords_found": [
+            "dose-response",
+            "dose response",
+            "noael",
+            "loael"
+          ]
+        },
+        {
+          "topic": "ADME",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "distribution",
+            "excretion"
+          ]
+        },
+        {
+          "topic": "Toxicokinetics",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "half-life",
+            "volume of distribution"
+          ]
+        },
+        {
+          "topic": "Biotransformation",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "metabolism",
+            "reduction"
+          ]
+        },
+        {
+          "topic": "Chemical Carcinogenesis",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "tumor",
+            "initiation"
+          ]
+        }
+      ],
+      "topics_count": 22,
+      "practice_questions": {
+        "has_questions": false,
+        "indicators": [],
+        "approx_question_lines": 0
+      },
+      "dabt_domains": [
+        "1_General_Principles",
+        "2_Systemic_Tox",
+        "3_Agent_Tox",
+        "4_Applied_Tox"
+      ],
+      "summary_excerpt": "Reproductive/Developmental Alan M. Hoberman, PhD, DABT, ATS \u2013 Presenter Executive Director, Global Developmental, Reproductive and Juvenile Toxicology \u2013 Charles River Laboratories, Inc. Raymond G. York, PhD, DABT, ATS, ERT"
+    },
+    {
+      "file": "12_Cardiovascular_S_Authier.pdf",
+      "label": "",
+      "size_bytes": 15946077,
+      "size_mb": 15.21,
+      "pages": 82,
+      "title_guess": "12 Cardiovascular S Authier",
+      "topics_found": [
+        {
+          "topic": "Biotransformation",
+          "keyword_matches": 4,
+          "keywords_found": [
+            "metabolism",
+            "cytochrome",
+            "oxidation",
+            "reduction"
+          ]
+        },
+        {
+          "topic": "Cardiovascular Toxicity",
+          "keyword_matches": 4,
+          "keywords_found": [
+            "cardiovasc",
+            "heart",
+            "arrhythmia",
+            "vascular"
+          ]
+        },
+        {
+          "topic": "Metals Toxicology",
+          "keyword_matches": 4,
+          "keywords_found": [
+            "lead",
+            "mercury",
+            "cadmium",
+            "arsenic"
+          ]
+        },
+        {
+          "topic": "Endocrine Toxicity",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "thyroid",
+            "estrogen",
+            "steroid"
+          ]
+        },
+        {
+          "topic": "Hepatotoxicity",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "liver",
+            "necrosis"
+          ]
+        },
+        {
+          "topic": "Clinical Toxicology",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "clinical",
+            "overdose"
+          ]
+        },
+        {
+          "topic": "Regulatory",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "regulatory",
+            "fda"
+          ]
+        },
+        {
+          "topic": "Dose-Response",
+          "keyword_matches": 1,
+          "keywords_found": [
+            "noael"
+          ]
+        }
+      ],
+      "topics_count": 15,
+      "practice_questions": {
+        "has_questions": false,
+        "indicators": [],
+        "approx_question_lines": 0
+      },
+      "dabt_domains": [
+        "1_General_Principles",
+        "2_Systemic_Tox",
+        "3_Agent_Tox",
+        "4_Applied_Tox"
+      ],
+      "summary_excerpt": "Cardiovascular System Toxicology Simon Authier, DVM, MSc, MBA, PhD, DSP ACT\u2014Advanced Comprehensive Toxicology Course \u2022 Overview of the Heart \u2022 Overview of Cardiac Energy Metabolism and Biochemistry"
+    },
+    {
+      "file": "13_Dermal_Ocular_W_Brock.pdf",
+      "label": "",
+      "size_bytes": 16081049,
+      "size_mb": 15.34,
+      "pages": 70,
+      "title_guess": "13 Dermal Ocular W Brock",
+      "topics_found": [
+        {
+          "topic": "Biotransformation",
+          "keyword_matches": 5,
+          "keywords_found": [
+            "biotransformation",
+            "metabolism",
+            "phase i",
+            "phase ii",
+            "cyp450"
+          ]
+        },
+        {
+          "topic": "Ocular Toxicity",
+          "keyword_matches": 5,
+          "keywords_found": [
+            "ocular",
+            "eye",
+            "visual",
+            "retina",
+            "cornea"
+          ]
+        },
+        {
+          "topic": "Metals Toxicology",
+          "keyword_matches": 5,
+          "keywords_found": [
+            "lead",
+            "mercury",
+            "arsenic",
+            "chromium",
+            "nickel"
+          ]
+        },
+        {
+          "topic": "Dermal Toxicity",
+          "keyword_matches": 4,
+          "keywords_found": [
+            "dermal",
+            "skin",
+            "irritation",
+            "sensitization"
+          ]
+        },
+        {
+          "topic": "ADME",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "absorption",
+            "distribution",
+            "excretion"
+          ]
+        },
+        {
+          "topic": "Solvents & Vapors",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "solvent",
+            "vapor",
+            "methanol"
+          ]
+        },
+        {
+          "topic": "Regulatory",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "ich",
+            "oecd",
+            "epa"
+          ]
+        },
+        {
+          "topic": "Chemical Carcinogenesis",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "cancer",
+            "tumor"
+          ]
+        }
+      ],
+      "topics_count": 21,
+      "practice_questions": {
+        "has_questions": false,
+        "indicators": [],
+        "approx_question_lines": 0
+      },
+      "dabt_domains": [
+        "1_General_Principles",
+        "2_Systemic_Tox",
+        "3_Agent_Tox",
+        "4_Applied_Tox"
+      ],
+      "summary_excerpt": "Dermal and Ocular Toxicology William J. Brock, PhD, DABT, ATS Brock Scientific Consulting ACT\u2014Advanced Comprehensive Toxicology Course ACT\u2014Advanced Comprehensive Toxicology Course"
+    },
+    {
+      "file": "14_Solvents_Vapors_MB_Genter.pdf",
+      "label": "",
+      "size_bytes": 10571956,
+      "size_mb": 10.08,
+      "pages": 60,
+      "title_guess": "14 Solvents Vapors MB Genter",
+      "topics_found": [
+        {
+          "topic": "Solvents & Vapors",
+          "keyword_matches": 8,
+          "keywords_found": [
+            "solvent",
+            "vapor",
+            "benzene",
+            "toluene",
+            "xylene",
+            "trichloroethylene",
+            "methanol",
+            "ethanol"
+          ]
+        },
+        {
+          "topic": "Biotransformation",
+          "keyword_matches": 5,
+          "keywords_found": [
+            "biotransformation",
+            "metabolism",
+            "cytochrome",
+            "conjugation",
+            "oxidation"
+          ]
+        },
+        {
+          "topic": "Hematopoietic Toxicity",
+          "keyword_matches": 4,
+          "keywords_found": [
+            "blood",
+            "anemia",
+            "hemoglobin",
+            "bone marrow"
+          ]
+        },
+        {
+          "topic": "Dermal Toxicity",
+          "keyword_matches": 4,
+          "keywords_found": [
+            "dermal",
+            "skin",
+            "irritation",
+            "sensitization"
+          ]
+        },
+        {
+          "topic": "Chemical Carcinogenesis",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "carcinogen",
+            "cancer",
+            "tumor"
+          ]
+        },
+        {
+          "topic": "Respiratory Toxicity",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "lung",
+            "pulmonary",
+            "inhalation"
+          ]
+        },
+        {
+          "topic": "Neurotoxicity",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "nervous system",
+            "axon",
+            "brain"
+          ]
+        },
+        {
+          "topic": "Ocular Toxicity",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "ocular",
+            "visual",
+            "retina"
+          ]
+        }
+      ],
+      "topics_count": 23,
+      "practice_questions": {
+        "has_questions": false,
+        "indicators": [],
+        "approx_question_lines": 0
+      },
+      "dabt_domains": [
+        "1_General_Principles",
+        "2_Systemic_Tox",
+        "3_Agent_Tox",
+        "4_Applied_Tox"
+      ],
+      "summary_excerpt": "Mary Beth Genter, PhD, DABT, ATS Dept. of Environmental Health University of Cincinnati Marybeth.genter@uc.edu ACT\u2014Advanced Comprehensive Toxicology Course"
+    },
+    {
+      "file": "15_Food_Tox_R_Lane.pdf",
+      "label": "",
+      "size_bytes": 13395813,
+      "size_mb": 12.78,
+      "pages": 114,
+      "title_guess": "15 Food Tox R Lane",
+      "topics_found": [
+        {
+          "topic": "Metals Toxicology",
+          "keyword_matches": 5,
+          "keywords_found": [
+            "metal",
+            "lead",
+            "mercury",
+            "cadmium",
+            "arsenic"
+          ]
+        },
+        {
+          "topic": "Clinical Toxicology",
+          "keyword_matches": 4,
+          "keywords_found": [
+            "clinical",
+            "antidote",
+            "poison",
+            "overdose"
+          ]
+        },
+        {
+          "topic": "Dermal Toxicity",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "dermal",
+            "skin",
+            "irritation"
+          ]
+        },
+        {
+          "topic": "Food Toxicology",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "food additive",
+            "contaminant",
+            "aflatoxin"
+          ]
+        },
+        {
+          "topic": "Regulatory",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "regulatory",
+            "fda",
+            "epa"
+          ]
+        },
+        {
+          "topic": "Dose-Response",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "dose-response",
+            "noael"
+          ]
+        },
+        {
+          "topic": "Chemical Carcinogenesis",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "carcinogen",
+            "cancer"
+          ]
+        },
+        {
+          "topic": "Hematopoietic Toxicity",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "blood",
+            "anemia"
+          ]
+        }
+      ],
+      "topics_count": 25,
+      "practice_questions": {
+        "has_questions": false,
+        "indicators": [],
+        "approx_question_lines": 0
+      },
+      "dabt_domains": [
+        "1_General_Principles",
+        "2_Systemic_Tox",
+        "3_Agent_Tox",
+        "4_Applied_Tox"
+      ],
+      "summary_excerpt": "Richard W. Lane, PhD, DABT ACT\u2014Advanced Comprehensive Toxicology Course \u2022 Understand the major reasons for food recalls and \u2022 Understand that what makes the news is not usually of any \u2022 Understand the control of harmful food contaminants,"
+    },
+    {
+      "file": "16_Pesticides_L_Cox.pdf",
+      "label": "",
+      "size_bytes": 10500414,
+      "size_mb": 10.01,
+      "pages": 71,
+      "title_guess": "16 Pesticides L Cox",
+      "topics_found": [
+        {
+          "topic": "Pesticides",
+          "keyword_matches": 8,
+          "keywords_found": [
+            "pesticide",
+            "insecticide",
+            "herbicide",
+            "fungicide",
+            "organophosphate",
+            "carbamate",
+            "pyrethroid",
+            "organochlorine"
+          ]
+        },
+        {
+          "topic": "Endocrine Toxicity",
+          "keyword_matches": 6,
+          "keywords_found": [
+            "endocrine",
+            "hormone",
+            "thyroid",
+            "estrogen",
+            "androgen",
+            "steroid"
+          ]
+        },
+        {
+          "topic": "Dermal Toxicity",
+          "keyword_matches": 4,
+          "keywords_found": [
+            "dermal",
+            "skin",
+            "irritation",
+            "sensitization"
+          ]
+        },
+        {
+          "topic": "Biotransformation",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "metabolism",
+            "cytochrome",
+            "reduction"
+          ]
+        },
+        {
+          "topic": "Neurotoxicity",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "nervous system",
+            "neuron",
+            "brain"
+          ]
+        },
+        {
+          "topic": "Reproductive & Developmental Toxicity",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "repro",
+            "developmental",
+            "fertility"
+          ]
+        },
+        {
+          "topic": "Ecotoxicology",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "aquatic",
+            "avian",
+            "food chain"
+          ]
+        },
+        {
+          "topic": "Regulatory",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "regulatory",
+            "fda",
+            "epa"
+          ]
+        }
+      ],
+      "topics_count": 26,
+      "practice_questions": {
+        "has_questions": false,
+        "indicators": [],
+        "approx_question_lines": 0
+      },
+      "dabt_domains": [
+        "1_General_Principles",
+        "2_Systemic_Tox",
+        "3_Agent_Tox",
+        "4_Applied_Tox"
+      ],
+      "summary_excerpt": "Director, Regulatory Affairs Nichino America, Inc. ACT\u2014Advanced Comprehensive Toxicology Course \u2022 FIFRA \u2013 Federal Insecticide, Fungicide, and Rodenticide Act \u2022 7 U.S.C. \u00a7136 et seq. (1996)"
+    },
+    {
+      "file": "17_Forensic_Tox_B_Kelman.pdf",
+      "label": "",
+      "size_bytes": 10000832,
+      "size_mb": 9.54,
+      "pages": 33,
+      "title_guess": "17 Forensic Tox B Kelman",
+      "topics_found": [
+        {
+          "topic": "Toxicokinetics",
+          "keyword_matches": 4,
+          "keywords_found": [
+            "pharmacokinetic",
+            "compartment model",
+            "clearance",
+            "volume of distribution"
+          ]
+        },
+        {
+          "topic": "Clinical Toxicology",
+          "keyword_matches": 4,
+          "keywords_found": [
+            "clinical",
+            "antidote",
+            "poison",
+            "overdose"
+          ]
+        },
+        {
+          "topic": "ADME",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "absorption",
+            "distribution",
+            "excretion"
+          ]
+        },
+        {
+          "topic": "Forensic Toxicology",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "forensic",
+            "analytical",
+            "drug testing"
+          ]
+        },
+        {
+          "topic": "Biotransformation",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "metabolism",
+            "conjugation"
+          ]
+        },
+        {
+          "topic": "Occupational Toxicology",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "occupational",
+            "workplace"
+          ]
+        },
+        {
+          "topic": "Epidemiology",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "cohort",
+            "case-control"
+          ]
+        },
+        {
+          "topic": "Dose-Response",
+          "keyword_matches": 1,
+          "keywords_found": [
+            "dose-response"
+          ]
+        }
+      ],
+      "topics_count": 14,
+      "practice_questions": {
+        "has_questions": false,
+        "indicators": [],
+        "approx_question_lines": 0
+      },
+      "dabt_domains": [
+        "1_General_Principles",
+        "2_Systemic_Tox",
+        "3_Agent_Tox",
+        "4_Applied_Tox"
+      ],
+      "summary_excerpt": "ACT\u2014Advanced Comprehensive Toxicology Course Bruce J. Kelman, PhD, DABT, ATS, ERT Principal Toxicologist and President of Veritox\u00ae, Inc. Advanced Comprehensive Toxicology Reference: Chapter 32 Casarett & Doull, 8th edition (2013)"
+    },
+    {
+      "file": "18_Occup_Tox_B_Kelman.pdf",
+      "label": "",
+      "size_bytes": 14063427,
+      "size_mb": 13.41,
+      "pages": 93,
+      "title_guess": "18 Occup Tox B Kelman",
+      "topics_found": [
+        {
+          "topic": "Metals Toxicology",
+          "keyword_matches": 6,
+          "keywords_found": [
+            "metal",
+            "lead",
+            "mercury",
+            "arsenic",
+            "chromium",
+            "nickel"
+          ]
+        },
+        {
+          "topic": "Dermal Toxicity",
+          "keyword_matches": 5,
+          "keywords_found": [
+            "dermal",
+            "skin",
+            "irritation",
+            "sensitization",
+            "percutaneous"
+          ]
+        },
+        {
+          "topic": "Solvents & Vapors",
+          "keyword_matches": 5,
+          "keywords_found": [
+            "solvent",
+            "vapor",
+            "benzene",
+            "toluene",
+            "trichloroethylene"
+          ]
+        },
+        {
+          "topic": "Hepatotoxicity",
+          "keyword_matches": 4,
+          "keywords_found": [
+            "liver",
+            "hepatic",
+            "steatosis",
+            "necrosis"
+          ]
+        },
+        {
+          "topic": "Occupational Toxicology",
+          "keyword_matches": 4,
+          "keywords_found": [
+            "occupational",
+            "workplace",
+            "exposure limit",
+            "pel"
+          ]
+        },
+        {
+          "topic": "Epidemiology",
+          "keyword_matches": 4,
+          "keywords_found": [
+            "epidemiology",
+            "cohort",
+            "case-control",
+            "cross-sectional"
+          ]
+        },
+        {
+          "topic": "Dose-Response",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "dose-response",
+            "noael",
+            "loael"
+          ]
+        },
+        {
+          "topic": "Chemical Carcinogenesis",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "cancer",
+            "initiation",
+            "progression"
+          ]
+        }
+      ],
+      "topics_count": 28,
+      "practice_questions": {
+        "has_questions": false,
+        "indicators": [],
+        "approx_question_lines": 0
+      },
+      "dabt_domains": [
+        "1_General_Principles",
+        "2_Systemic_Tox",
+        "3_Agent_Tox",
+        "4_Applied_Tox"
+      ],
+      "summary_excerpt": "ACT\u2014Advanced Comprehensive Toxicology Course Occupational Toxicology Bruce J. Kelman, PhD, DABT, ATS, ERT Principal Toxicologist and President of Veritox\u00ae, Inc. Advanced Comprehensive Toxicology"
+    },
+    {
+      "file": "19_EnvEcoTox_J_Staveley.pdf",
+      "label": "",
+      "size_bytes": 43454319,
+      "size_mb": 41.44,
+      "pages": 100,
+      "title_guess": "19 EnvEcoTox J Staveley",
+      "topics_found": [
+        {
+          "topic": "Biotransformation",
+          "keyword_matches": 5,
+          "keywords_found": [
+            "phase i",
+            "phase ii",
+            "oxidation",
+            "reduction",
+            "hydrolysis"
+          ]
+        },
+        {
+          "topic": "Ecotoxicology",
+          "keyword_matches": 4,
+          "keywords_found": [
+            "ecotox",
+            "aquatic",
+            "avian",
+            "wildlife"
+          ]
+        },
+        {
+          "topic": "Regulatory",
+          "keyword_matches": 4,
+          "keywords_found": [
+            "regulatory",
+            "oecd",
+            "fda",
+            "epa"
+          ]
+        },
+        {
+          "topic": "Metals Toxicology",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "metal",
+            "lead",
+            "mercury"
+          ]
+        },
+        {
+          "topic": "Pesticides",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "pesticide",
+            "insecticide",
+            "fungicide"
+          ]
+        },
+        {
+          "topic": "Risk Assessment",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "risk assessment",
+            "exposure assessment",
+            "risk characterization"
+          ]
+        },
+        {
+          "topic": "Dose-Response",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "ld50",
+            "lc50"
+          ]
+        },
+        {
+          "topic": "ADME",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "absorption",
+            "distribution"
+          ]
+        }
+      ],
+      "topics_count": 14,
+      "practice_questions": {
+        "has_questions": false,
+        "indicators": [],
+        "approx_question_lines": 0
+      },
+      "dabt_domains": [
+        "1_General_Principles",
+        "2_Systemic_Tox",
+        "3_Agent_Tox",
+        "4_Applied_Tox"
+      ],
+      "summary_excerpt": "Environmental Toxicology and Ecological Risk Assessment Jane P. Staveley, MSPH Senior Managing Scientist ACT\u2014Advanced Comprehensive Toxicology Course"
+    },
+    {
+      "file": "1_General_Tox_MechTox_M_Cosenza.pdf",
+      "label": "",
+      "size_bytes": 5363148,
+      "size_mb": 5.11,
+      "pages": 69,
+      "title_guess": "1 General Tox MechTox M Cosenza",
+      "topics_found": [
+        {
+          "topic": "Regulatory",
+          "keyword_matches": 6,
+          "keywords_found": [
+            "regulatory",
+            "ich",
+            "oecd",
+            "fda",
+            "epa",
+            "glp"
+          ]
+        },
+        {
+          "topic": "Dose-Response",
+          "keyword_matches": 4,
+          "keywords_found": [
+            "dose-response",
+            "dose response",
+            "ld50",
+            "noael"
+          ]
+        },
+        {
+          "topic": "ADME",
+          "keyword_matches": 4,
+          "keywords_found": [
+            "absorption",
+            "distribution",
+            "excretion",
+            "adme"
+          ]
+        },
+        {
+          "topic": "Chemical Carcinogenesis",
+          "keyword_matches": 4,
+          "keywords_found": [
+            "cancer",
+            "initiation",
+            "promotion",
+            "progression"
+          ]
+        },
+        {
+          "topic": "Dermal Toxicity",
+          "keyword_matches": 4,
+          "keywords_found": [
+            "dermal",
+            "skin",
+            "irritation",
+            "sensitization"
+          ]
+        },
+        {
+          "topic": "Biotransformation",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "metabolism",
+            "conjugation",
+            "reduction"
+          ]
+        },
+        {
+          "topic": "Pesticides",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "pesticide",
+            "insecticide",
+            "organophosphate"
+          ]
+        },
+        {
+          "topic": "Clinical Toxicology",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "clinical",
+            "poison",
+            "overdose"
+          ]
+        }
+      ],
+      "topics_count": 26,
+      "practice_questions": {
+        "has_questions": false,
+        "indicators": [],
+        "approx_question_lines": 0
+      },
+      "dabt_domains": [
+        "1_General_Principles",
+        "2_Systemic_Tox",
+        "3_Agent_Tox",
+        "4_Applied_Tox"
+      ],
+      "summary_excerpt": "General Toxicology/Mechanisms Mary Ellen Cosenza, PhD, DABT, RAC, ATS MEC Regulatory & Toxicology Consulting, LLC ACT\u2014Advanced Comprehensive Toxicology Course Lecture Overview of Topics"
+    },
+    {
+      "file": "20_Risk_Assessment_L_Haber.pdf",
+      "label": "",
+      "size_bytes": 7672950,
+      "size_mb": 7.32,
+      "pages": 90,
+      "title_guess": "20 Risk Assessment L Haber",
+      "topics_found": [
+        {
+          "topic": "Regulatory",
+          "keyword_matches": 6,
+          "keywords_found": [
+            "regulatory",
+            "oecd",
+            "fda",
+            "epa",
+            "glp",
+            "guideline"
+          ]
+        },
+        {
+          "topic": "Risk Assessment",
+          "keyword_matches": 5,
+          "keywords_found": [
+            "risk assessment",
+            "hazard identification",
+            "exposure assessment",
+            "risk characterization",
+            "uncertainty factor"
+          ]
+        },
+        {
+          "topic": "Dose-Response",
+          "keyword_matches": 4,
+          "keywords_found": [
+            "dose-response",
+            "dose response",
+            "noael",
+            "loael"
+          ]
+        },
+        {
+          "topic": "ADME",
+          "keyword_matches": 4,
+          "keywords_found": [
+            "absorption",
+            "distribution",
+            "excretion",
+            "adme"
+          ]
+        },
+        {
+          "topic": "Dermal Toxicity",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "dermal",
+            "irritation",
+            "sensitization"
+          ]
+        },
+        {
+          "topic": "Reproductive & Developmental Toxicity",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "repro",
+            "developmental",
+            "embryo"
+          ]
+        },
+        {
+          "topic": "Mechanisms of Toxicity",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "mechanism",
+            "mode of action"
+          ]
+        },
+        {
+          "topic": "Biotransformation",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "metabolism",
+            "reduction"
+          ]
+        }
+      ],
+      "topics_count": 22,
+      "practice_questions": {
+        "has_questions": false,
+        "indicators": [],
+        "approx_question_lines": 0
+      },
+      "dabt_domains": [
+        "1_General_Principles",
+        "2_Systemic_Tox",
+        "3_Agent_Tox",
+        "4_Applied_Tox"
+      ],
+      "summary_excerpt": "Human Health Risk Assessment Lynne Haber, PhD, DABT Andrew Maier, PhD, CIH, DABT 513-558-7631; lynne.haber@uc.edu ACT\u2014Advanced Comprehensive Toxicology Course"
+    },
+    {
+      "file": "2_ADME and Toxicokinetics_T_Williams.pdf",
+      "label": "",
+      "size_bytes": 6258977,
+      "size_mb": 5.97,
+      "pages": 55,
+      "title_guess": "2 ADME and Toxicokinetics T Williams",
+      "topics_found": [
+        {
+          "topic": "Biotransformation",
+          "keyword_matches": 9,
+          "keywords_found": [
+            "biotransformation",
+            "metabolism",
+            "phase i",
+            "phase ii",
+            "cytochrome",
+            "conjugation",
+            "oxidation",
+            "reduction",
+            "hydrolysis"
+          ]
+        },
+        {
+          "topic": "Toxicokinetics",
+          "keyword_matches": 6,
+          "keywords_found": [
+            "toxicokinetic",
+            "pharmacokinetic",
+            "compartment model",
+            "half-life",
+            "clearance",
+            "volume of distribution"
+          ]
+        },
+        {
+          "topic": "ADME",
+          "keyword_matches": 4,
+          "keywords_found": [
+            "absorption",
+            "distribution",
+            "excretion",
+            "adme"
+          ]
+        },
+        {
+          "topic": "Regulatory",
+          "keyword_matches": 4,
+          "keywords_found": [
+            "regulatory",
+            "ich",
+            "oecd",
+            "epa"
+          ]
+        },
+        {
+          "topic": "Hepatotoxicity",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "liver",
+            "hepatic",
+            "cholestasis"
+          ]
+        },
+        {
+          "topic": "Respiratory Toxicity",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "lung",
+            "pulmonary",
+            "inhalation"
+          ]
+        },
+        {
+          "topic": "Hematopoietic Toxicity",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "blood",
+            "bone marrow"
+          ]
+        },
+        {
+          "topic": "Nephrotoxicity",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "kidney",
+            "renal"
+          ]
+        }
+      ],
+      "topics_count": 19,
+      "practice_questions": {
+        "has_questions": false,
+        "indicators": [],
+        "approx_question_lines": 0
+      },
+      "dabt_domains": [
+        "1_General_Principles",
+        "2_Systemic_Tox",
+        "3_Agent_Tox",
+        "4_Applied_Tox"
+      ],
+      "summary_excerpt": "Pharmacokinetics/Toxicokinetics Tracy Williams PhD, DABT Eli Lilly and Company ACT\u2014Advanced Comprehensive Toxicology Course \u2022 The disposition of any xenobiotic is the combined result of its"
+    },
+    {
+      "file": "3_Biotransformation_MB_Genter.pdf",
+      "label": "",
+      "size_bytes": 16160930,
+      "size_mb": 15.41,
+      "pages": 65,
+      "title_guess": "3 Biotransformation MB Genter",
+      "topics_found": [
+        {
+          "topic": "Biotransformation",
+          "keyword_matches": 8,
+          "keywords_found": [
+            "biotransformation",
+            "metabolism",
+            "phase i",
+            "cytochrome",
+            "conjugation",
+            "oxidation",
+            "reduction",
+            "hydrolysis"
+          ]
+        },
+        {
+          "topic": "ADME",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "absorption",
+            "excretion",
+            "adme"
+          ]
+        },
+        {
+          "topic": "Chemical Carcinogenesis",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "cancer",
+            "tumor",
+            "oncogene"
+          ]
+        },
+        {
+          "topic": "Pesticides",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "insecticide",
+            "herbicide"
+          ]
+        },
+        {
+          "topic": "Solvents & Vapors",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "toluene",
+            "ethanol"
+          ]
+        },
+        {
+          "topic": "Mechanisms of Toxicity",
+          "keyword_matches": 1,
+          "keywords_found": [
+            "mechanism"
+          ]
+        },
+        {
+          "topic": "Genetic Toxicology",
+          "keyword_matches": 1,
+          "keywords_found": [
+            "dna damage"
+          ]
+        },
+        {
+          "topic": "Hematopoietic Toxicity",
+          "keyword_matches": 1,
+          "keywords_found": [
+            "blood"
+          ]
+        }
+      ],
+      "topics_count": 19,
+      "practice_questions": {
+        "has_questions": false,
+        "indicators": [],
+        "approx_question_lines": 0
+      },
+      "dabt_domains": [
+        "1_General_Principles",
+        "2_Systemic_Tox",
+        "3_Agent_Tox"
+      ],
+      "summary_excerpt": "Mary Beth Genter, PhD, DABT, ATS Department of Environmental Health University of Cincinnati marybeth.genter@uc.edu ACT\u2014Advanced Comprehensive Toxicology Course"
+    },
+    {
+      "file": "4_Genotox_L_Recio.pdf",
+      "label": "",
+      "size_bytes": 19977565,
+      "size_mb": 19.05,
+      "pages": 69,
+      "title_guess": "4 Genotox L Recio",
+      "topics_found": [
+        {
+          "topic": "Biotransformation",
+          "keyword_matches": 8,
+          "keywords_found": [
+            "biotransformation",
+            "metabolism",
+            "phase i",
+            "phase ii",
+            "cyp450",
+            "conjugation",
+            "oxidation",
+            "reduction"
+          ]
+        },
+        {
+          "topic": "Regulatory",
+          "keyword_matches": 7,
+          "keywords_found": [
+            "regulatory",
+            "ich",
+            "oecd",
+            "fda",
+            "epa",
+            "glp",
+            "guideline"
+          ]
+        },
+        {
+          "topic": "Genetic Toxicology",
+          "keyword_matches": 6,
+          "keywords_found": [
+            "mutagen",
+            "ames test",
+            "chromosomal aberration",
+            "dna damage",
+            "micronucleus",
+            "comet assay"
+          ]
+        },
+        {
+          "topic": "Chemical Carcinogenesis",
+          "keyword_matches": 5,
+          "keywords_found": [
+            "carcinogen",
+            "cancer",
+            "tumor",
+            "initiation",
+            "progression"
+          ]
+        },
+        {
+          "topic": "Metals Toxicology",
+          "keyword_matches": 4,
+          "keywords_found": [
+            "lead",
+            "arsenic",
+            "chromium",
+            "nickel"
+          ]
+        },
+        {
+          "topic": "ADME",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "absorption",
+            "distribution",
+            "excretion"
+          ]
+        },
+        {
+          "topic": "Hematopoietic Toxicity",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "blood",
+            "erythrocyte",
+            "bone marrow"
+          ]
+        },
+        {
+          "topic": "Hepatotoxicity",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "liver",
+            "necrosis"
+          ]
+        }
+      ],
+      "topics_count": 16,
+      "practice_questions": {
+        "has_questions": false,
+        "indicators": [],
+        "approx_question_lines": 0
+      },
+      "dabt_domains": [
+        "1_General_Principles",
+        "2_Systemic_Tox",
+        "3_Agent_Tox",
+        "4_Applied_Tox"
+      ],
+      "summary_excerpt": "Leslie Recio, PhD DABT VP Research and Development Research Triangle Park, NC ACT\u2014Advanced Comprehensive Toxicology Course Introduction to Genetic Toxicology"
+    },
+    {
+      "file": "5_Carcinogenesis_J_Wisler.pdf",
+      "label": "",
+      "size_bytes": 13966440,
+      "size_mb": 13.32,
+      "pages": 79,
+      "title_guess": "5 Carcinogenesis J Wisler",
+      "topics_found": [
+        {
+          "topic": "Chemical Carcinogenesis",
+          "keyword_matches": 7,
+          "keywords_found": [
+            "carcinogen",
+            "cancer",
+            "tumor",
+            "oncogene",
+            "initiation",
+            "promotion",
+            "progression"
+          ]
+        },
+        {
+          "topic": "Regulatory",
+          "keyword_matches": 7,
+          "keywords_found": [
+            "regulatory",
+            "ich",
+            "oecd",
+            "fda",
+            "epa",
+            "glp",
+            "guideline"
+          ]
+        },
+        {
+          "topic": "Biotransformation",
+          "keyword_matches": 5,
+          "keywords_found": [
+            "metabolism",
+            "cyp450",
+            "cytochrome",
+            "oxidation",
+            "reduction"
+          ]
+        },
+        {
+          "topic": "Endocrine Toxicity",
+          "keyword_matches": 4,
+          "keywords_found": [
+            "endocrine",
+            "hormone",
+            "thyroid",
+            "steroid"
+          ]
+        },
+        {
+          "topic": "ADME",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "absorption",
+            "distribution",
+            "adme"
+          ]
+        },
+        {
+          "topic": "Dose-Response",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "dose response",
+            "noael"
+          ]
+        },
+        {
+          "topic": "Mechanisms of Toxicity",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "mechanism",
+            "mode of action"
+          ]
+        },
+        {
+          "topic": "Toxicokinetics",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "pharmacokinetic",
+            "clearance"
+          ]
+        }
+      ],
+      "topics_count": 24,
+      "practice_questions": {
+        "has_questions": false,
+        "indicators": [],
+        "approx_question_lines": 0
+      },
+      "dabt_domains": [
+        "1_General_Principles",
+        "2_Systemic_Tox",
+        "3_Agent_Tox",
+        "4_Applied_Tox"
+      ],
+      "summary_excerpt": "John A. Wisler, PhD, DABT Vice President, Toxicology and Pharmacokinetics California Institute for Biomedical Research (CALIBR) ACT\u2014Advanced Comprehensive Toxicology Course \u2022 Historical Background"
+    },
+    {
+      "file": "6_Hematopoietic_K_Hastings.pdf",
+      "label": "",
+      "size_bytes": 18033392,
+      "size_mb": 17.2,
+      "pages": 101,
+      "title_guess": "6 Hematopoietic K Hastings",
+      "topics_found": [
+        {
+          "topic": "Hematopoietic Toxicity",
+          "keyword_matches": 6,
+          "keywords_found": [
+            "blood",
+            "erythrocyte",
+            "anemia",
+            "methemoglobin",
+            "hemoglobin",
+            "bone marrow"
+          ]
+        },
+        {
+          "topic": "Metals Toxicology",
+          "keyword_matches": 5,
+          "keywords_found": [
+            "metal",
+            "lead",
+            "arsenic",
+            "chromium",
+            "nickel"
+          ]
+        },
+        {
+          "topic": "Dermal Toxicity",
+          "keyword_matches": 4,
+          "keywords_found": [
+            "dermal",
+            "skin",
+            "irritation",
+            "sensitization"
+          ]
+        },
+        {
+          "topic": "Biotransformation",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "biotransformation",
+            "metabolism",
+            "conjugation"
+          ]
+        },
+        {
+          "topic": "Hepatotoxicity",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "liver",
+            "hepatic",
+            "necrosis"
+          ]
+        },
+        {
+          "topic": "Immunotoxicity",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "immune",
+            "hypersensitivity",
+            "immunosuppression"
+          ]
+        },
+        {
+          "topic": "Chemical Carcinogenesis",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "cancer",
+            "tumor"
+          ]
+        },
+        {
+          "topic": "Nephrotoxicity",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "kidney",
+            "renal"
+          ]
+        }
+      ],
+      "topics_count": 20,
+      "practice_questions": {
+        "has_questions": false,
+        "indicators": [],
+        "approx_question_lines": 0
+      },
+      "dabt_domains": [
+        "1_General_Principles",
+        "2_Systemic_Tox",
+        "3_Agent_Tox",
+        "4_Applied_Tox"
+      ],
+      "summary_excerpt": "Hematopoietic and Immune Kenneth L. Hastings, DrPH, DABT, ATS Hastings Toxicology Consulting LLC kennethhastingus@gmail.com ACT\u2014Advanced Comprehensive Toxicology Course"
+    },
+    {
+      "file": "7_Liver_B_Brock.pdf",
+      "label": "",
+      "size_bytes": 12386930,
+      "size_mb": 11.81,
+      "pages": 56,
+      "title_guess": "7 Liver B Brock",
+      "topics_found": [
+        {
+          "topic": "Biotransformation",
+          "keyword_matches": 6,
+          "keywords_found": [
+            "biotransformation",
+            "metabolism",
+            "cyp450",
+            "cytochrome",
+            "conjugation",
+            "oxidation"
+          ]
+        },
+        {
+          "topic": "Hepatotoxicity",
+          "keyword_matches": 5,
+          "keywords_found": [
+            "liver",
+            "hepatic",
+            "cholestasis",
+            "steatosis",
+            "necrosis"
+          ]
+        },
+        {
+          "topic": "Metals Toxicology",
+          "keyword_matches": 5,
+          "keywords_found": [
+            "metal",
+            "lead",
+            "mercury",
+            "cadmium",
+            "arsenic"
+          ]
+        },
+        {
+          "topic": "ADME",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "absorption",
+            "distribution",
+            "excretion"
+          ]
+        },
+        {
+          "topic": "Toxicokinetics",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "half-life",
+            "clearance"
+          ]
+        },
+        {
+          "topic": "Chemical Carcinogenesis",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "cancer",
+            "promotion"
+          ]
+        },
+        {
+          "topic": "Nephrotoxicity",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "kidney",
+            "renal"
+          ]
+        },
+        {
+          "topic": "Dose-Response",
+          "keyword_matches": 1,
+          "keywords_found": [
+            "dose-response"
+          ]
+        }
+      ],
+      "topics_count": 19,
+      "practice_questions": {
+        "has_questions": false,
+        "indicators": [],
+        "approx_question_lines": 0
+      },
+      "dabt_domains": [
+        "1_General_Principles",
+        "2_Systemic_Tox",
+        "3_Agent_Tox",
+        "4_Applied_Tox"
+      ],
+      "summary_excerpt": "William J. Brock, PhD, DABT, ATS Advanced Comprehensive Toxicology ACT\u2014Advanced Comprehensive Toxicology Course Outline of Presentation \u2022 Liver cellular makeup and function"
+    },
+    {
+      "file": "8_Nervous_System_MB_Genter.pdf",
+      "label": "",
+      "size_bytes": 33872424,
+      "size_mb": 32.3,
+      "pages": 56,
+      "title_guess": "8 Nervous System MB Genter",
+      "topics_found": [
+        {
+          "topic": "Neurotoxicity",
+          "keyword_matches": 5,
+          "keywords_found": [
+            "nervous system",
+            "neuron",
+            "axon",
+            "myelin",
+            "brain"
+          ]
+        },
+        {
+          "topic": "Regulatory",
+          "keyword_matches": 5,
+          "keywords_found": [
+            "ich",
+            "oecd",
+            "fda",
+            "epa",
+            "guideline"
+          ]
+        },
+        {
+          "topic": "Endocrine Toxicity",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "hormone",
+            "thyroid"
+          ]
+        },
+        {
+          "topic": "Pesticides",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "pesticide",
+            "carbamate"
+          ]
+        },
+        {
+          "topic": "Mechanisms of Toxicity",
+          "keyword_matches": 1,
+          "keywords_found": [
+            "mechanism"
+          ]
+        },
+        {
+          "topic": "Chemical Carcinogenesis",
+          "keyword_matches": 1,
+          "keywords_found": [
+            "progression"
+          ]
+        },
+        {
+          "topic": "Hematopoietic Toxicity",
+          "keyword_matches": 1,
+          "keywords_found": [
+            "blood"
+          ]
+        },
+        {
+          "topic": "Hepatotoxicity",
+          "keyword_matches": 1,
+          "keywords_found": [
+            "necrosis"
+          ]
+        }
+      ],
+      "topics_count": 16,
+      "practice_questions": {
+        "has_questions": false,
+        "indicators": [],
+        "approx_question_lines": 0
+      },
+      "dabt_domains": [
+        "1_General_Principles",
+        "2_Systemic_Tox",
+        "3_Agent_Tox",
+        "4_Applied_Tox"
+      ],
+      "summary_excerpt": "ACT\u2014Advanced Comprehensive Toxicology Course Mary Beth Genter, PhD, DABT, ATS Department of Environmental Health University of Cincinnati Marybeth.genter@uc.edu"
+    },
+    {
+      "file": "9_Resp_Tox_VanWinkle.pdf",
+      "label": "",
+      "size_bytes": 17890595,
+      "size_mb": 17.06,
+      "pages": 66,
+      "title_guess": "9 Resp Tox VanWinkle",
+      "topics_found": [
+        {
+          "topic": "Metals Toxicology",
+          "keyword_matches": 7,
+          "keywords_found": [
+            "metal",
+            "lead",
+            "mercury",
+            "cadmium",
+            "arsenic",
+            "chromium",
+            "nickel"
+          ]
+        },
+        {
+          "topic": "ADME",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "distribution",
+            "excretion",
+            "adme"
+          ]
+        },
+        {
+          "topic": "Chemical Carcinogenesis",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "carcinogen",
+            "cancer",
+            "progression"
+          ]
+        },
+        {
+          "topic": "Respiratory Toxicity",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "lung",
+            "pulmonary",
+            "inhalation"
+          ]
+        },
+        {
+          "topic": "Solvents & Vapors",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "vapor",
+            "benzene",
+            "toluene"
+          ]
+        },
+        {
+          "topic": "Biotransformation",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "metabolism",
+            "hydrolysis"
+          ]
+        },
+        {
+          "topic": "Hepatotoxicity",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "liver",
+            "necrosis"
+          ]
+        },
+        {
+          "topic": "Neurotoxicity",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "nervous system",
+            "brain"
+          ]
+        }
+      ],
+      "topics_count": 20,
+      "practice_questions": {
+        "has_questions": false,
+        "indicators": [],
+        "approx_question_lines": 0
+      },
+      "dabt_domains": [
+        "1_General_Principles",
+        "2_Systemic_Tox",
+        "3_Agent_Tox",
+        "4_Applied_Tox"
+      ],
+      "summary_excerpt": "Laura S. Van Winkle, PhD, DABT lsvanwinkle@ucdavis.edu ACT\u2014Advanced Comprehensive Toxicology Course Exposure to inhaled materials Respiratory tract toxicity: toxicants and responses"
+    },
+    {
+      "file": "Metals.pdf",
+      "label": "",
+      "size_bytes": 1933956,
+      "size_mb": 1.84,
+      "pages": 63,
+      "title_guess": "Metals",
+      "topics_found": [
+        {
+          "topic": "Metals Toxicology",
+          "keyword_matches": 7,
+          "keywords_found": [
+            "metal",
+            "lead",
+            "mercury",
+            "cadmium",
+            "arsenic",
+            "chromium",
+            "nickel"
+          ]
+        },
+        {
+          "topic": "Biotransformation",
+          "keyword_matches": 5,
+          "keywords_found": [
+            "biotransformation",
+            "metabolism",
+            "cytochrome",
+            "oxidation",
+            "reduction"
+          ]
+        },
+        {
+          "topic": "Chemical Carcinogenesis",
+          "keyword_matches": 5,
+          "keywords_found": [
+            "carcinogen",
+            "cancer",
+            "tumor",
+            "promotion",
+            "progression"
+          ]
+        },
+        {
+          "topic": "ADME",
+          "keyword_matches": 4,
+          "keywords_found": [
+            "absorption",
+            "distribution",
+            "excretion",
+            "adme"
+          ]
+        },
+        {
+          "topic": "Dermal Toxicity",
+          "keyword_matches": 4,
+          "keywords_found": [
+            "dermal",
+            "skin",
+            "irritation",
+            "sensitization"
+          ]
+        },
+        {
+          "topic": "Regulatory",
+          "keyword_matches": 4,
+          "keywords_found": [
+            "regulatory",
+            "ich",
+            "epa",
+            "guideline"
+          ]
+        },
+        {
+          "topic": "Dose-Response",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "dose-response",
+            "dose response",
+            "ld50"
+          ]
+        },
+        {
+          "topic": "Genetic Toxicology",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "mutagen",
+            "dna damage",
+            "micronucleus"
+          ]
+        }
+      ],
+      "topics_count": 23,
+      "practice_questions": {
+        "has_questions": false,
+        "indicators": [],
+        "approx_question_lines": 0
+      },
+      "dabt_domains": [
+        "1_General_Principles",
+        "2_Systemic_Tox",
+        "3_Agent_Tox",
+        "4_Applied_Tox"
+      ],
+      "summary_excerpt": "ACT\u2014Advanced Comprehensive Toxicology Course \u2022\u202f Historical significance of metals as poisons \u2022\u202f Metals and mining; exposure routes for humans \u2022\u202f Factors impacting toxicity, binding proteins \u2022\u202f Biomarkers of metal exposure"
+    },
+    {
+      "file": "Natural-Products.pdf",
+      "label": "",
+      "size_bytes": 2477595,
+      "size_mb": 2.36,
+      "pages": 58,
+      "title_guess": "Natural-Products",
+      "topics_found": [
+        {
+          "topic": "Natural Products & Toxins",
+          "keyword_matches": 6,
+          "keywords_found": [
+            "venom",
+            "toxin",
+            "snake",
+            "spider",
+            "plant",
+            "mushroom"
+          ]
+        },
+        {
+          "topic": "Biotransformation",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "metabolism",
+            "cytochrome",
+            "hydrolysis"
+          ]
+        },
+        {
+          "topic": "Hematopoietic Toxicity",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "blood",
+            "methemoglobin",
+            "bone marrow"
+          ]
+        },
+        {
+          "topic": "Hepatotoxicity",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "liver",
+            "hepatic",
+            "necrosis"
+          ]
+        },
+        {
+          "topic": "Respiratory Toxicity",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "lung",
+            "pulmonary",
+            "inhalation"
+          ]
+        },
+        {
+          "topic": "Neurotoxicity",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "nervous system",
+            "neuron",
+            "brain"
+          ]
+        },
+        {
+          "topic": "Dermal Toxicity",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "skin",
+            "irritation",
+            "sensitization"
+          ]
+        },
+        {
+          "topic": "Cardiovascular Toxicity",
+          "keyword_matches": 3,
+          "keywords_found": [
+            "heart",
+            "arrhythmia",
+            "vascular"
+          ]
+        }
+      ],
+      "topics_count": 20,
+      "practice_questions": {
+        "has_questions": false,
+        "indicators": [],
+        "approx_question_lines": 0
+      },
+      "dabt_domains": [
+        "1_General_Principles",
+        "2_Systemic_Tox",
+        "3_Agent_Tox",
+        "4_Applied_Tox"
+      ],
+      "summary_excerpt": "ACT\u2014Advanced Comprehensive Toxicology Course Plant Toxins (by system): Animal Toxins (by taxonomy): Blood and bone marrow ACT\u2014Advanced Comprehensive Toxicology Course"
+    },
+    {
+      "file": "Radiation.pdf",
+      "label": "",
+      "size_bytes": 453612,
+      "size_mb": 0.43,
+      "pages": 22,
+      "title_guess": "Radiation",
+      "topics_found": [
+        {
+          "topic": "Chemical Carcinogenesis",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "carcinogen",
+            "cancer"
+          ]
+        },
+        {
+          "topic": "Respiratory Toxicity",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "lung",
+            "inhalation"
+          ]
+        },
+        {
+          "topic": "Radiation",
+          "keyword_matches": 2,
+          "keywords_found": [
+            "radiation",
+            "ionizing"
+          ]
+        },
+        {
+          "topic": "Dose-Response",
+          "keyword_matches": 1,
+          "keywords_found": [
+            "dose response"
+          ]
+        },
+        {
+          "topic": "ADME",
+          "keyword_matches": 1,
+          "keywords_found": [
+            "distribution"
+          ]
+        },
+        {
+          "topic": "Genetic Toxicology",
+          "keyword_matches": 1,
+          "keywords_found": [
+            "dna damage"
+          ]
+        },
+        {
+          "topic": "Ocular Toxicity",
+          "keyword_matches": 1,
+          "keywords_found": [
+            "eye"
+          ]
+        },
+        {
+          "topic": "Dermal Toxicity",
+          "keyword_matches": 1,
+          "keywords_found": [
+            "skin"
+          ]
+        }
+      ],
+      "topics_count": 12,
+      "practice_questions": {
+        "has_questions": false,
+        "indicators": [],
+        "approx_question_lines": 0
+      },
+      "dabt_domains": [
+        "1_General_Principles",
+        "2_Systemic_Tox",
+        "3_Agent_Tox",
+        "4_Applied_Tox"
+      ],
+      "summary_excerpt": "ACT\u2014Advanced Comprehensive Toxicology Course Physics and Chemistry of Radiation Interactions \u2022\u202f Interactions of Ionizing Radiation with Tissues \u2022\u202f Types of Ionizing radiation \u2022\u202f Sources of ionizing radiation"
+    }
+  ],
+  "midamer_topic_summaries": [
+    {
+      "file": "Blood Toxicity.pdf",
+      "error": "No text extracted (may be scanned/image-based)",
+      "pages": 61
+    },
+    {
+      "file": "Carcinogenesis.pdf",
+      "error": "No text extracted (may be scanned/image-based)",
+      "pages": 64
+    },
+    {
+      "file": "Dermatotoxicity.pdf",
+      "error": "No text extracted (may be scanned/image-based)",
+      "pages": 17
+    },
+    {
+      "file": "Disposition of Xenobiotics.pdf",
+      "error": "No text extracted (may be scanned/image-based)",
+      "pages": 41
+    },
+    {
+      "file": "Genetic Toxicology.pdf",
+      "error": "No text extracted (may be scanned/image-based)",
+      "pages": 44
+    },
+    {
+      "file": "Immunotox.pdf",
+      "error": "No text extracted (may be scanned/image-based)",
+      "pages": 37
+    },
+    {
+      "file": "Inhalation Toxicology.pdf",
+      "error": "No text extracted (may be scanned/image-based)",
+      "pages": 144
+    },
+    {
+      "file": "Liver and Kidney Toxicity.pdf",
+      "error": "No text extracted (may be scanned/image-based)",
+      "pages": 32
+    },
+    {
+      "file": "Mech of Tox.pdf",
+      "error": "No text extracted (may be scanned/image-based)",
+      "pages": 38
+    },
+    {
+      "file": "Metals.pdf",
+      "error": "No text extracted (may be scanned/image-based)",
+      "pages": 57
+    },
+    {
+      "file": "Neuro & Behavioral Tox.pdf",
+      "error": "No text extracted (may be scanned/image-based)",
+      "pages": 63
+    },
+    {
+      "file": "Ocular & Visual Tox.pdf",
+      "error": "No text extracted (may be scanned/image-based)",
+      "pages": 32
+    },
+    {
+      "file": "Pesticides.pdf",
+      "error": "No text extracted (may be scanned/image-based)",
+      "pages": 26
+    },
+    {
+      "file": "Plant and Animal Toxins.pdf",
+      "error": "No text extracted (may be scanned/image-based)",
+      "pages": 29
+    },
+    {
+      "file": "Principles of Tox.pdf",
+      "error": "No text extracted (may be scanned/image-based)",
+      "pages": 23
+    },
+    {
+      "file": "Reg.Tox. Risk Assess.pdf",
+      "error": "No text extracted (may be scanned/image-based)",
+      "pages": 11
+    },
+    {
+      "file": "Solvents and Vapors.pdf",
+      "error": "No text extracted (may be scanned/image-based)",
+      "pages": 13
+    },
+    {
+      "file": "Table of Contents.pdf",
+      "error": "No text extracted (may be scanned/image-based)",
+      "pages": 1
+    },
+    {
+      "file": "Teratog and Repro.pdf",
+      "error": "No text extracted (may be scanned/image-based)",
+      "pages": 27
+    }
+  ]
+}

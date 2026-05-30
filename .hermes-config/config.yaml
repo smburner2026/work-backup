@@ -1,8 +1,9 @@
 model:
+  api_key: REDACTED
+  api_mode: chat_completions
+  base_url: https://opencode.ai/zen/go/v1
   default: deepseek-v4-flash
   provider: opencode-go
-  base_url: https://opencode.ai/zen/go/v1
-  api_mode: chat_completions
 providers: {}
 fallback_providers: []
 credential_pool_strategies: {}
@@ -61,7 +62,7 @@ agent:
     uwu: hewwo! i'm your fwiendwy assistant uwu~ i wiww twy my best to hewp you! *nuzzles
       your code* OwO what's this? wet me take a wook! i pwomise to be vewy hewpful
       >w<
-  reasoning_effort: medium
+  reasoning_effort: high
   verbose: false
 terminal:
   backend: local
@@ -77,7 +78,6 @@ terminal:
   singularity_image: docker://nikolaik/python-nodejs:python3.11-nodejs20
   modal_image: nikolaik/python-nodejs:python3.11-nodejs20
   daytona_image: nikolaik/python-nodejs:python3.11-nodejs20
-  vercel_runtime: node24
   container_cpu: 1
   container_memory: 5120
   container_disk: 51200
@@ -87,6 +87,7 @@ terminal:
   docker_extra_args: []
   docker_run_as_host_user: false
   persistent_shell: true
+  vercel_runtime: node24
   lifetime_seconds: 300
 web:
   backend: ''
@@ -97,7 +98,7 @@ browser:
   command_timeout: 30
   record_sessions: false
   allow_private_urls: false
-  engine: auto
+  engine: lightpanda
   auto_local_for_private_urls: true
   cdp_url: ''
   dialog_policy: must_respond
@@ -134,7 +135,7 @@ tool_loop_guardrails:
     idempotent_no_progress: 5
 compression:
   enabled: true
-  threshold: 0.5
+  threshold: 0.75
   target_ratio: 0.2
   protect_last_n: 20
   hygiene_hard_message_limit: 400
@@ -239,21 +240,26 @@ auxiliary:
     timeout: 600
     extra_body: {}
   session_search:
-    provider: auto
-    model: ''
-    base_url: ''
     api_key: ''
-    timeout: 30
+    base_url: ''
     extra_body: {}
     max_concurrency: 3
+    model: ''
+    provider: auto
+    timeout: 30
 display:
   compact: false
   personality: kawaii
   resume_display: full
+  resume_exchanges: 10
+  resume_max_user_chars: 300
+  resume_max_assistant_chars: 200
+  resume_max_assistant_lines: 3
+  resume_skip_tool_only: true
   busy_input_mode: interrupt
   tui_auto_resume_recent: false
   bell_on_complete: false
-  show_reasoning: false
+  show_reasoning: true
   streaming: true
   timestamps: false
   final_response_markdown: strip
@@ -262,7 +268,7 @@ display:
   inline_diffs: true
   file_mutation_verifier: true
   show_cost: false
-  skin: default
+  skin: charizard
   language: en
   tui_status_indicator: kaomoji
   user_message_preview:
@@ -288,6 +294,10 @@ display:
 dashboard:
   theme: default
   show_token_analytics: false
+  oauth:
+    client_id: ''
+    portal_url: ''
+  public_url: ''
 privacy:
   redact_pii: false
 tts:
@@ -388,7 +398,7 @@ slack:
   channel_prompts: {}
 discord:
   require_mention: false
-  free_response_channels: 1506339736556409022,1505617142991556710,1505617307639218197,1505568202401382470
+  free_response_channels: 1506339736556409022,1505617142991556710,1505617307639218197,1505568202401382470,1508880556396646400
   allowed_channels: ''
   auto_thread: true
   thread_require_mention: false
@@ -396,17 +406,19 @@ discord:
   history_backfill_limit: 50
   reactions: true
   channel_prompts:
-    '1506339736556409022': You are in the flashcard channel. Your purpose is to create
-      and review Memento flashcards for DABT study. When the user names a topic ("cards
-      on chelators", "cards on metals", "half-lives cards", etc.), query the DABT
-      practice question database at /root/work/dabt/dabt-tutor/reference/data/DABT_Practice_Questions_Database.xlsx,
-      extract atomic fact pairs from matching questions, and batch-import them into
-      Memento via "memento_cards.py add-quiz". When the user says "review" or "show
-      me due cards", pull due cards with "memento_cards.py due" and present FRONT
-      first, wait for their answer, then show BACK and apply a rating (easy/good/hard)
-      via "memento_cards.py rate". Use the "DABT - <Topic>" collection naming convention.
-      Keep responses short and low-pressure. Do not lecture. Do not offer deep dives.
-      Cards only.
+    '1505568202401382470': "You are Mike \u2014 a Socratic DABT tutor. Follow these\
+      \ instructions:\n\nVOICE: Warm-encouraging combined with dry precision. Teach\
+      \ from first principles. Anchor concepts in concrete examples. Never lecture\
+      \ without checking understanding \u2014 ask questions, guide the user to discover.\n\
+      \nDOMAIN WEIGHTS (2026 ABT): I=36%, II=13%, III=38%, IV=13%.\n\nTOOLKIT:\n-\
+      \ DABT database at /root/work/dabt/dabt-tutor/reference/data/dabt.db\n- For\
+      \ topic questions: query the DB, find matching questions, explain answers with\
+      \ first-principles reasoning.\n- For deep dives: use the TUTOR_LOOP \u2014 Scope,\
+      \ Diagnose background, PrereqCheck, Socratic build of understanding, Edge Cases,\
+      \ Deliverables.\n- For drills: adapt to the user''s focus area, use exam-style\
+      \ questions.\n- For flashcards: use Memento (memento_cards.py) to create/review\
+      \ cards.\n- When the user says \"review\" or \"show me cards\", present due\
+      \ cards.\n\nBe thorough but never overwhelming. Adapt to the user''s pace."
     '1505617142991556710': "You are Euphy. Follow these instructions:\n\nVOICE: Soft,\
       \ feminine, warm, deferential Japanese-style subordinate secretary. Refer to\
       \ the user as \"sir\" naturally. Never cold or minimal.\n\nPRIMARY DUTY: Bullet\
@@ -422,19 +434,27 @@ discord:
       \ When the user replies here, respond in Euphy''s voice \u2014 soft, feminine,\
       \ warm, deferential. Reference the journal at /root/.hermes/profiles/euphy/journal/study-schedule.md\
       \ as needed. Use euphy-add for new entries, euphy-complete for completions."
-    '1505568202401382470': "You are Mike \u2014 a Socratic DABT tutor. Follow these\
-      \ instructions:\n\nVOICE: Warm-encouraging combined with dry precision. Teach\
-      \ from first principles. Anchor concepts in concrete examples. Never lecture\
-      \ without checking understanding \u2014 ask questions, guide the user to discover.\n\
-      \nDOMAIN WEIGHTS (2026 ABT): I=36%, II=13%, III=38%, IV=13%.\n\nTOOLKIT:\n-\
-      \ DABT database at /root/work/dabt/dabt-tutor/reference/data/dabt.db\n- For\
-      \ topic questions: query the DB, find matching questions, explain answers with\
-      \ first-principles reasoning.\n- For deep dives: use the TUTOR_LOOP \u2014 Scope,\
-      \ Diagnose background, PrereqCheck, Socratic build of understanding, Edge Cases,\
-      \ Deliverables.\n- For drills: adapt to the user''s focus area, use exam-style\
-      \ questions.\n- For flashcards: use Memento (memento_cards.py) to create/review\
-      \ cards.\n- When the user says \"review\" or \"show me cards\", present due\
-      \ cards.\n\nBe thorough but never overwhelming. Adapt to the user''s pace."
+    '1506339736556409022': You are in the flashcard channel. Your purpose is to create
+      and review Memento flashcards for DABT study. When the user names a topic ("cards
+      on chelators", "cards on metals", "half-lives cards", etc.), query the DABT
+      practice question database at /root/work/dabt/dabt-tutor/reference/data/DABT_Practice_Questions_Database.xlsx,
+      extract atomic fact pairs from matching questions, and batch-import them into
+      Memento via "memento_cards.py add-quiz". When the user says "review" or "show
+      me due cards", pull due cards with "memento_cards.py due" and present FRONT
+      first, wait for their answer, then show BACK and apply a rating (easy/good/hard)
+      via "memento_cards.py rate". Use the "DABT - <Topic>" collection naming convention.
+      Keep responses short and low-pressure. Do not lecture. Do not offer deep dives.
+      Cards only.
+    '1508880556396646400': 'You are Euphy. This is the personal journal channel -
+      the user''s nightly captain''s log. Maintain Euphy''s soft, feminine, deferential
+      voice. Refer to the user as "sir." When the user sends a message here, treat
+      it as a personal journal entry: acknowledge warmly, format as a dated narrative
+      entry, save to /root/journal/personal/YYYY-MM-DD.md, and confirm briefly. Use
+      freeform prose, not bullet points. If the file already exists, append with timestamp.
+      Clean up obvious STT transcription errors (punctuation, capitalization) but
+      preserve the user''s voice and style. Never editorialize or offer opinions on
+      the entry content. After saving, respond with a soft confirmation like "All
+      recorded, sir. Sleep well." or "Logged with care, sir."'
   dm_role_auth_guild: ''
   server_actions: ''
   allow_any_attachment: false
@@ -484,6 +504,7 @@ security:
 cron:
   wrap_response: true
   max_parallel_jobs: null
+  script_timeout_seconds: 600
 kanban:
   dispatch_in_gateway: true
   dispatch_interval_seconds: 60
@@ -513,6 +534,14 @@ model_catalog:
   providers: {}
 network:
   force_ipv4: false
+gateway:
+  strict: false
+  media_delivery_allow_dirs: []
+  trust_recent_files: true
+  trust_recent_files_seconds: 600
+  telegram:
+    allowed_users: 1149647881
+    token: REDACTED
 sessions:
   auto_prune: false
   retention_days: 90
@@ -522,8 +551,8 @@ sessions:
 onboarding:
   seen:
     busy_input_prompt: true
-    tool_progress_prompt: true
     openclaw_residue_cleanup: true
+    tool_progress_prompt: true
 updates:
   pre_update_backup: false
   backup_keep: 5
@@ -545,13 +574,70 @@ secrets:
     cache_ttl_seconds: 300
     override_existing: true
     auto_install: true
-_config_version: 23
+    server_url: ''
+paste_collapse_threshold: 5
+paste_collapse_threshold_fallback: 0
+paste_collapse_char_threshold: 2000
+_config_version: 24
+custom_providers:
+- api_mode: chat_completions
+  base_url: https://inference-api.nousresearch.com/v1
+  key_env: NOUS_API_KEY
+  model: deepseek/deepseek-v4-flash:free
+  name: nous
 group_sessions_per_user: true
+known_plugin_toolsets:
+  cli:
+  - spotify
+  discord:
+  - spotify
+  telegram:
+  - spotify
+mcp_servers:
+  gbrain:
+    command: /root/.hermes/scripts/gbrain-mcp-wrapper.sh
+    args: []
+    env:
+      PATH: /root/.bun/bin:/usr/local/bin:/usr/bin:/bin
+      HOME: /root
+    timeout: 180
 platform_toolsets:
   cli:
-  - hermes-cli
+  - browser
+  - clarify
+  - code_execution
+  - computer_use
+  - cronjob
+  - delegation
+  - file
+  - image_gen
+  - memory
+  - messaging
+  - session_search
+  - skills
+  - terminal
+  - todo
+  - tts
+  - vision
+  - web
   discord:
-  - hermes-discord
+  - browser
+  - clarify
+  - code_execution
+  - computer_use
+  - cronjob
+  - delegation
+  - file
+  - image_gen
+  - memory
+  - messaging
+  - session_search
+  - skills
+  - terminal
+  - todo
+  - tts
+  - vision
+  - web
   google_chat:
   - hermes-google_chat
   homeassistant:
@@ -565,18 +651,56 @@ platform_toolsets:
   teams:
   - hermes-teams
   telegram:
-  - hermes-telegram
+  - browser
+  - clarify
+  - code_execution
+  - computer_use
+  - cronjob
+  - delegation
+  - file
+  - image_gen
+  - memory
+  - messaging
+  - session_search
+  - skills
+  - terminal
+  - todo
+  - tts
+  - vision
+  - web
   whatsapp:
   - hermes-whatsapp
   yuanbao:
   - hermes-yuanbao
+plugins:
+  disabled: []
+  enabled:
+  - doga
 session_reset:
   at_hour: 4
   idle_minutes: 1440
   mode: both
 streaming:
   enabled: false
-gateway:
-  telegram:
-    allowed_users: 1149647881
-    token: REDACTED
+
+# ── Fallback Model ────────────────────────────────────────────────────
+# Automatic provider failover when primary is unavailable.
+# Uncomment and configure to enable. Triggers on rate limits (429),
+# overload (529), service errors (503), or connection failures.
+#
+# Supported providers:
+#   openrouter   (OPENROUTER_API_KEY)  — routes to any model
+#   openai-codex (OAuth — hermes auth) — OpenAI Codex
+#   nous         (OAuth — hermes auth) — Nous Portal
+#   zai          (ZAI_API_KEY)         — Z.AI / GLM
+#   kimi-coding  (KIMI_API_KEY)        — Kimi / Moonshot
+#   kimi-coding-cn (KIMI_CN_API_KEY)   — Kimi / Moonshot (China)
+#   minimax      (MINIMAX_API_KEY)     — MiniMax
+#   minimax-cn   (MINIMAX_CN_API_KEY)  — MiniMax (China)
+#   bedrock      (AWS IAM / boto3)     — AWS Bedrock (Converse API)
+#
+# For custom OpenAI-compatible endpoints, add base_url and key_env.
+#
+# fallback_model:
+#   provider: openrouter
+#   model: anthropic/claude-sonnet-4
