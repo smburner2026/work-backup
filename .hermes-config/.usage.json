@@ -238,12 +238,12 @@
     "created_at": "2026-05-30T20:31:49.146898+00:00",
     "created_by": null,
     "last_patched_at": null,
-    "last_used_at": "2026-05-31T05:56:42.042959+00:00",
+    "last_used_at": "2026-05-31T11:09:10.520751+00:00",
     "last_viewed_at": "2026-05-30T23:56:18.688361+00:00",
     "patch_count": 0,
     "pinned": false,
     "state": "active",
-    "use_count": 43,
+    "use_count": 69,
     "view_count": 1
   },
   "devops/remote-agent-infrastructure": {
@@ -407,12 +407,12 @@
     "created_at": "2026-05-26T17:17:50.817053+00:00",
     "created_by": null,
     "last_patched_at": "2026-05-27T01:58:22.144531+00:00",
-    "last_used_at": "2026-05-30T01:00:04.288873+00:00",
+    "last_used_at": "2026-05-31T06:00:57.174508+00:00",
     "last_viewed_at": "2026-05-29T01:45:14.986950+00:00",
     "patch_count": 6,
     "pinned": false,
     "state": "active",
-    "use_count": 11,
+    "use_count": 12,
     "view_count": 7
   },
   "gallica-book-extractor": {
@@ -511,13 +511,13 @@
     "created_at": "2026-05-24T15:05:21.582569+00:00",
     "created_by": "agent",
     "last_patched_at": "2026-05-30T23:51:33.993031+00:00",
-    "last_used_at": "2026-05-31T01:46:10.718664+00:00",
-    "last_viewed_at": "2026-05-31T01:46:10.714802+00:00",
+    "last_used_at": "2026-05-31T06:07:41.557549+00:00",
+    "last_viewed_at": "2026-05-31T06:07:41.553768+00:00",
     "patch_count": 42,
     "pinned": false,
     "state": "active",
-    "use_count": 71,
-    "view_count": 71
+    "use_count": 72,
+    "view_count": 72
   },
   "hermes-multi-sync": {
     "archived_at": null,
@@ -744,14 +744,14 @@
     "archived_at": null,
     "created_at": "2026-05-19T13:36:39.259439+00:00",
     "created_by": null,
-    "last_patched_at": "2026-05-30T10:52:44.163980+00:00",
-    "last_used_at": "2026-05-30T11:08:04.498907+00:00",
-    "last_viewed_at": "2026-05-30T11:08:04.492868+00:00",
-    "patch_count": 8,
+    "last_patched_at": "2026-05-31T06:08:18.703342+00:00",
+    "last_used_at": "2026-05-31T06:07:58.341817+00:00",
+    "last_viewed_at": "2026-05-31T06:07:58.339050+00:00",
+    "patch_count": 9,
     "pinned": false,
     "state": "active",
-    "use_count": 33,
-    "view_count": 29
+    "use_count": 35,
+    "view_count": 30
   },
   "project-outcome-chaining": {
     "archived_at": null,

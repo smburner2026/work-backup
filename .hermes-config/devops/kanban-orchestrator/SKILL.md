@@ -37,6 +37,29 @@ Use one of these:
 
 Cache the result in your working memory for the rest of the conversation. Re-asking every turn wastes a tool call.
 
+**Step 0b — pre-flight: update Hermes + Mnemosyne before kanban dispatch.**
+Some users enforce a rule: before kanban board work starts, update Hermes Agent and Mnemosyne to their latest versions. This prevents mid-work surprises (stale MCP servers, session DB format mismatch, missed fixes). Run both checks and apply updates before creating any cards:
+
+```bash
+# Check Hermes version vs latest
+hermes --version
+cd /usr/local/lib/hermes-agent
+git log -1 --oneline
+
+# Update if behind
+hermes update
+
+# Check Mnemosyne status
+hermes memory status 2>/dev/null || echo "mnemosyne provider active (or graceful fallback)"
+```
+
+Skip this step if:
+- The setup is knowingly pinned at a specific version (user will tell you)
+- Network is unavailable (VPS without internet, cron-only session)
+- You just updated in a previous step (avoid redundant updates)
+
+This is a user-specific pre-flight guard — encode it when the user explicitly sets the rule, but do not apply it universally. When the rule is in effect, run this step immediately after profile discovery and before any `kanban_create` calls.
+
 ## When to use the board (vs. just doing the work)
 
 Create Kanban tasks when any of these are true:
