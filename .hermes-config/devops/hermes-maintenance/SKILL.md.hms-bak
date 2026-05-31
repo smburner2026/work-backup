@@ -1,7 +1,7 @@
 ---
 name: hermes-maintenance
 description: "Long-term care of a Hermes Agent instance — tracking community additions via manifest, running self-audits for update availability, and discovering what's been bolted onto base Hermes."
-version: 1.4
+version: 1.5
 author: Hermes Agent
 ---
 
@@ -57,6 +57,8 @@ A single JSON file at `~/.hermes/community-manifest.json` that records every add
 
 A no_agent cron job that checks every community component for updates nightly. Stays **silent when nothing to report** (watchdog pattern) — the user only gets a message when there's work to do.
 
+**Note:** An LLM-driven alternative (`nightly-self-improvement` job with a profile-compression skill) can replace this script-based watchdog. The LLM job runs the same health checks PLUS conversation review and memory/profile compression — delivering a single consolidated report instead of two separate messages. The LLM job is preferred for most users; the script-only watchdog is useful when you want zero LLM token consumption for maintenance checks.
+
 ### What it checks
 
 | Component | Method |
@@ -87,6 +89,491 @@ cronjob(
     deliver='origin',
 )
 ```
+
+## Cron Job Lifecycle Management
+
+Recurring cron jobs need periodic review. Jobs become redundant, outdated, or no longer useful over time. Clean removal requires two steps: removing the cron job definition AND cleaning up any associated script file.
+
+### Assessment: Is this job worth keeping?
+
+Signs a job may be redundant:
+- User says audits or self-checks are noise they no longer read
+- Job reports "nothing changed" every day and the user hasn't acknowledged it in weeks
+- Another job covers the same checks (e.g., an LLM-driven self-improvement loop already runs the same health checks)
+- Job was created for a temporary purpose (one-time recovery task, migration) that completed
+- `last_run_at` is months old and no one noticed — the job wasn't missed
+- User explicitly says "these are redundant, remove them"
+
+### Silencing vs Pausing vs Removing
+
+| Action | Effect | Use when |
+|--------|--------|----------|
+| **Silence** | Job still runs but stops delivering output | Background work (profile compression, memory consolidation) is useful but reports are unwanted. Set `deliver='local'`. |
+| **Pause** | Job suspended, config preserved | Might want it back later, or want to stop it without losing the definition. |
+| **Remove** | Job definition deleted permanently | Definitively redundant. User said to remove it. |
+
+**Silence:**
+```python
+cronjob(action='update', job_id='<id>', deliver='local')
+```
+
+**Pause:**
+```python
+cronjob(action='pause', job_id='<id>')
+```
+
+**Remove:**
+```python
+# 1. Remove the cron job definition
+cronjob(action='remove', job_id='<id>')
+
+# 2. If it was a no_agent script job, delete the script file
+rm ~/.hermes/scripts/<script-name>.sh
+
+# 3. Optionally clean up the output directory
+rm -rf ~/.hermes/cron/output/<job_id>/
+```
+
+Note: For LLM-driven jobs (default mode without `no_agent=True`), the prompt is stored in the job definition itself — there is no external script file to clean up.
+
+### Prompt quality: preventing activity-data pollution in memory
+
+When an LLM-driven cron job (default mode without `no_agent=True`) writes to memory as part of its work (e.g., `nightly-self-improvement` extracting conversation insights), the prompt MUST enforce identity/activity separation. Otherwise the job silently fills memory with version numbers, file paths, infrastructure IPs, cron schedules, and config state — all of which are activity data that should never be in memory.
+
+**What goes wrong:**
+- The job's conversation review extracts "G-Brain v0.41.29.0 at /root/gbrain/" and writes it to memory — this is a version+path, not a durable user trait
+- The system audit check discovers "Hermes: 1 commit behind tag v2026.5.29" and writes it — this is a version diff, not operational identity
+- The job's system health summary includes "Disk: 25G/38G (70%)" — this is transient infrastructure state
+
+**What should go to memory instead:**
+- User corrected my approach → "prefers direct action, not multi-choice menus"
+- User expressed a durable preference → "dislikes verbose explanations around commands"
+- User changed how they want a class of task handled → "when asking for env var updates, wants one-liner only, no commentary"
+
+**How to enforce in the prompt:**
+
+```markdown
+## Critical rule: Identity/Activity Separation
+
+When reviewing conversations or system status, write ONLY identity-level insights to memory:
+
+**IDENTITY** (write to memory — durable, person-level):
+- User preferences, corrections, personality traits
+- Learning patterns, communication style changes
+- Durable habits ("nukes files after download")
+- Partnership rules the user stated ("don't offer multi-choice menus")
+
+**ACTIVITY** (NEVER write to memory — transient, session-level):
+- Version numbers (v0.41.29.0, v2026.5.29)
+- File paths (/root/gbrain/, /root/work/trading/...)
+- Infrastructure IPs (100.113.2.25:8080)
+- Cron schedules (nightly 02:00 UTC)
+- Config state (model tiers, provider settings)
+- Disk/CPU usage stats
+- Package version diffs
+
+If you're unsure whether something is identity or activity, it's activity — skip it.
+```
+
+This rule is particularly important because memory has a hard character limit (2,200 chars for MEMORY.md). Every activity-data byte stolen from memory is a byte that cannot carry identity signal.
+
+### Full teardown sequence
+
+1. **List** — `cronjob(action='list')` to see all jobs, their schedules, scripts, and delivery targets
+2. **Identify** — Note the `job_id`, `script` (if any), and whether the user considers it redundant
+3. **Remove** — `cronjob(action='remove', job_id='<id>')`
+4. **Clean script** — If it was a `no_agent=True` job, delete the script at `~/.hermes/scripts/<script-name>`
+5. **Clean output** — `rm -rf ~/.hermes/cron/output/<job_id>/` (optional — frees disk from stale run logs)
+6. **Verify** — `cronjob(action='list')` — confirm the job is gone
+7. **Report** — Tell the user exactly what was removed (job name, script, anything else cleaned)
+
+### When NOT to remove
+
+- Jobs the user created themselves without asking you to remove them
+- Jobs with `deliver: 'local'` that serve internal infrastructure (G-Brain dream cycle, weekly maintenance)
+- The scheduler's own internal jobs — only remove entries visible via `cronjob(action='list')`
+- Jobs where you're uncertain about their purpose — ask the user first (use `clarify`)
+
+## Secret Exposure Audit
+
+When a user asks "are my API keys vulnerable?" or you need to audit a Hermes instance for credential leakage, use this systematic procedure. It covers file permissions, session DB scanning, env var exposure, and remediation.
+
+### Trigger conditions
+
+- User asks about API key security / credential vulnerability
+- You find unexpected `0644` permissions on files that should be `0600`
+- You're auditing a Hermes instance for security hygiene
+- After discovering a key was typed into conversation or tool output
+
+### Audit procedure
+
+#### Phase 1 — Permission Check
+
+Check every file that could contain secrets:
+
+```bash
+# Critical files — must be 0600
+ls -la ~/.hermes/config.yaml
+ls -la ~/.hermes/.env
+ls -la ~/.hermes/config.yaml.bak
+ls -la ~/.hermes/profiles/*/config.yaml
+ls -la ~/.hermes/profiles/*/config.yaml.hms-bak
+
+# DB files — must be 0600 (contain session history with typed keys)
+ls -la ~/.hermes/state.db
+ls -la ~/.hermes/lcm.db
+ls -la ~/.hermes/kanban.db
+ls -la ~/.hermes/response_store.db
+
+# Log files — may contain pre-redaction output
+ls -la ~/.hermes/logs/*.log
+
+# SSH keys
+ls -la ~/.ssh/
+```
+
+Expected: all `-rw-------` (0600). If any are `0644` or `0666`, they're world-readable.
+
+**IMPORTANT:** Check the owner UID too. DB files owned by a different UID than the running process (e.g., UID 1000 when running as root) is a red flag — the files were created under a different user context and the permissions may be wrong.
+
+#### Phase 1b — Backup and Snapshot File Scan
+
+Live files aren't the only risk. Backup copies, state snapshots, OAuth token caches, and git history may hold credentials that were scrubbed from live files.
+
+Check state-snapshots (the most overlooked risk surface):
+
+```bash
+# State-snapshots contain copies of config, .env, auth.json, and state.db
+ls -la ~/.hermes/state-snapshots/
+for snap in ~/.hermes/state-snapshots/*/; do
+  echo "=== Checking $snap ==="
+  ls -la "$snap"
+  # Check if auth.json exists (contains OAuth tokens — bearer-equivalent!)
+  [ -f "$snap/auth.json" ] && echo "  ⚠️⚠️ auth.json found — delete immediately (OAuth tokens!)"
+  # Check permissions
+  stat -c '%a' "$snap/config.yaml" | grep -q '600' || echo "  ⚠️ config.yaml NOT 0600"
+done
+```
+
+Check all backup and retroactive save files for wrong permissions:
+
+```bash
+find ~/.hermes ~/work -name "*.bak" -not -path "*/node_modules/*" | while read f; do
+  perms=$(stat -c '%a' "$f" 2>/dev/null)
+  [ "$perms" != "600" ] && echo "⚠️ $perms $f"
+done
+
+# .hms-bak files (Hermes auto-backups) — usually clean but count them
+echo "HMS backups: $(find ~/.hermes ~/work -name '*.hms-bak' -type f 2>/dev/null | wc -l)"
+```
+
+Check git repos for committed secrets:
+
+```bash
+for repo in $(find /root -maxdepth 4 -name ".git" -type d -not -path "*/node_modules/*" | sed 's|/.git||'); do
+  cd "$repo"
+  for pattern in 'sk-or-' 'sk-ant-' 'AKIA' 'ghp_' 'github_pat'; do
+    hits=$(git log -p --all -S "$pattern" -- '*.yaml' '*.yml' '*.json' '*.txt' '*.md' '*.sh' '*.env' 2>/dev/null | grep "^+.*$pattern" | head -3)
+    [ -n "$hits" ] && echo "⚠️ $repo: $pattern in git history" && echo "$hits"
+  done
+done
+```
+
+**Action items:**
+- **auth.json in any snapshot** → delete it immediately. OAuth tokens are bearer credentials
+- **Backup configs with wrong perms** → `chmod 600`
+- **Git history with keys** → rotate at source; git history rewrite is possible but high-risk
+- **State-snapshot DBs** need same key scrubbing as live DBs (see Phase 3-4)
+
+#### Phase 2 — Environment Variable Scan
+
+List what keys are exposed in process env:
+
+```bash
+env | grep -iE 'api_key|api-key|apikey|token|secret|password' \
+  | grep -vE 'HOSTNAME|LS_COLORS|PATH|TERM|HOME|PWD|SHELL|LANG|LC_|USER|MAIL|LOGNAME|EDITOR|OLDPWD|LESSOPEN|LESSCLOSE|_='
+```
+
+Check whether `redact_secrets: true` is set in config.yaml. If it is, new keys are masked from tool output. If not, every `terminal()` or file read invites leakage.
+
+#### Phase 3 — Session DB Key Search
+
+Scan `state.db` for real key patterns. The FTS5 index is fast — no need to dump the entire DB:
+
+```bash
+# Count matches per pattern — these are known API key formats
+for pattern in 'sk-or-%' 'sk-ant-%' 'sk-proj-%' 'hf_%' 'ghp_%' 'github_pat_%' 'AKIA%'; do
+  count=$(sqlite3 ~/.hermes/state.db \
+    "SELECT COUNT(*) FROM messages WHERE content LIKE '$pattern';" 2>/dev/null)
+  echo "$pattern → $count"
+done
+
+# Search for the actual env-var names too — user may have typed a key in context
+for var in 'OPENROUTER_API_KEY' 'ANTHROPIC_API_KEY' 'OPENAI_API_KEY' 'HETZNER_API%' 'DISCORD%TOKEN' 'TELEGRAM%BOT%'; do
+  count=$(sqlite3 ~/.hermes/state.db \
+    "SELECT COUNT(*) FROM messages WHERE content LIKE '%$var%';" 2>/dev/null)
+  echo "$var → $count"
+done
+```
+
+If any count > 0, sample what got captured:
+
+```bash
+sqlite3 ~/.hermes/state.db \
+  "SELECT substr(content, 1, 200) FROM messages WHERE content LIKE '%sk-or-%' LIMIT 5;"
+```
+
+**Also check `lcm.db`** — it's the compressed conversation history that survives compression cleanup:
+
+```bash
+for pattern in 'sk-or-%' 'sk-ant-%' 'HETZNER%'; do
+  count=$(sqlite3 ~/.hermes/lcm.db \
+    "SELECT COUNT(*) FROM messages WHERE content LIKE '$pattern';" 2>/dev/null)
+  echo "lcm: $pattern → $count"
+done
+
+# Check summary_nodes (compressed summaries may have captured keys too)
+count=$(sqlite3 ~/.hermes/lcm.db \
+  "SELECT COUNT(*) FROM summary_nodes WHERE summary LIKE '%sk-or-%' OR summary LIKE '%sk-ant-%' OR summary LIKE '%HETZNER%';" 2>/dev/null)
+echo "lcm summary_nodes matches: $count"
+```
+
+**Also check `kanban.db`:**
+
+```bash
+sqlite3 ~/.hermes/kanban.db \
+  "SELECT COUNT(*) FROM tasks WHERE title LIKE '%sk-or-%' OR body LIKE '%sk-or-%';"
+```
+
+#### Phase 3b — Git History Key Scan
+
+Git repos with backup commits or committed config files may have embedded API keys that survive deletion from the live state.db. Even if config.yaml uses env var references, old commits may contain the original plaintext.
+
+```bash
+# For each repo, search commit content for key patterns
+for pattern in 'sk-or-' 'sk-ant-' 'AKIA' 'ghp_' 'github_pat' 'HETZNER'; do
+  for repo in /root/work /root/gbrain; do
+    [ ! -d "$repo/.git" ] && continue
+    cd "$repo"
+    hits=$(git log -p --all -S "$pattern" -- '*.yaml' '*.yml' '*.json' '*.txt' '*.md' '*.sh' '*.env' 2>/dev/null | grep "^+.*$pattern" | head -5)
+    if [ -n "$hits" ]; then
+      echo "⚠️ $repo: $pattern found in git history"
+      echo "$hits"
+    fi
+  done
+done
+```
+
+If hits are found, assess severity:
+
+- **Partial key prefixes in commit messages** (e.g. `sk-or-v1-ce5...`) — low risk. Literal `...` truncation prevents use. The key prefix alone is not sufficient to authenticate.
+- **Full key values in committed files** — critical. Rotate the key immediately. Git history cleanup (BFG Repo-Cleaner) is an option but the key must be rotated regardless; history rewrite is high-risk and only worth it if there's strong reason to prevent forensic recovery.
+- **Redacted placeholder values** (`api_key: REDACTED`) — safe. The redaction happened at commit time (typically via work-backup.sh). No action needed.
+
+#### Phase 4 — Remediation (Surgical Deletion)
+
+Once you've identified which DBs have keys, remove ONLY the offending messages — never drop entire tables:
+
+```bash
+# state.db — delete messages containing real key values
+sqlite3 ~/.hermes/state.db \
+  "DELETE FROM messages WHERE content LIKE '%sk-or-%' OR content LIKE '%sk-ant-%';"
+
+# Also scrub env-var references containing actual key values
+sqlite3 ~/.hermes/state.db \
+  "DELETE FROM messages WHERE content LIKE '%HETZNER%' OR content LIKE '%hetzner%api%';"
+
+# Rebuild FTS indexes so deleted keys can't be found via session_search
+sqlite3 ~/.hermes/state.db \
+  "INSERT INTO messages_fts(messages_fts) VALUES('rebuild');"
+
+# Same for lcm.db
+sqlite3 ~/.hermes/lcm.db \
+  "DELETE FROM messages WHERE content LIKE '%sk-or-%' OR content LIKE '%sk-ant-%';"
+sqlite3 ~/.hermes/lcm.db \
+  "DELETE FROM messages WHERE content LIKE '%HETZNER%' OR content LIKE '%hetzner%api%';"
+sqlite3 ~/.hermes/lcm.db \
+  "INSERT INTO messages_fts(messages_fts) VALUES('rebuild');"
+```
+
+**Important:** This is surgical removal of the key strings only. The conversations remain intact — the only loss is the few messages that contained the literal key value. Do NOT delete full sessions or entire tables.
+
+**Do NOT delete from `kanban.db` unless you confirm the key is really in task body/title** — unlike `state.db` (conversation transcript), `kanban.db` is structured task data. Only delete specific rows.
+
+#### Phase 5 — Permission Lockdown
+
+After identifying exposed files, lock them all down:
+
+```bash
+chmod 600 ~/.hermes/state.db ~/.hermes/lcm.db ~/.hermes/kanban.db
+chmod 600 ~/.hermes/logs/*.log ~/.hermes/logs/*.log.* 2>/dev/null
+chmod 600 ~/.hermes/profiles/*/config.yaml 2>/dev/null
+```
+
+#### Phase 6 — Verify Clean
+
+Confirm no traces remain:
+
+```bash
+sqlite3 ~/.hermes/state.db "SELECT 'sk-or', COUNT(*) FROM messages WHERE content LIKE '%sk-or-%';"
+sqlite3 ~/.hermes/state.db "SELECT 'hetzner', COUNT(*) FROM messages WHERE content LIKE '%HETZNER%';"
+sqlite3 ~/.hermes/lcm.db "SELECT 'sk-or', COUNT(*) FROM messages WHERE content LIKE '%sk-or-%';"
+```
+
+All should return 0.
+
+#### Phase 7 — User Recommendations
+
+The user needs to **rotate the exposed keys at their source** — deletion from session DB only prevents further exfiltration from local storage. The keys were already live in a world-readable file (if permissions were wrong) and may have been scraped. Always recommend:
+
+1. Rotate any key that was found in the DB
+2. If there are other users on the system (`/home/` has entries), mention them explicitly — rotation is urgent
+3. Check if `~/.hermes/` or the DBs are backed up/synced anywhere (git, cloud, Tailscale syncs) — the keys persist in backups
+
+#### Pitfalls
+
+- **`sk-or-` is an OpenRouter key prefix, `sk-ant-` is Anthropic** — these are the most common patterns in Hermes conversations. Always add the `%` wildcard in SQLite LIKE queries (they're `%` not `*`).
+- **`hf_%` matches HuggingFace tokens** — many real values start with `hf_`. Be careful: some matches may be legitimate references to env var names, not actual token values. Sample first before deleting.
+- **FTS rebuild is mandatory** — deleting from `messages` does NOT automatically remove from `messages_fts`. Without the rebuild, `session_search` still finds the deleted messages via FTS. The `INSERT INTO ..._fts(..._fts) VALUES('rebuild')` syntax is SQLite FTS5's online rebuild command.
+- **`state.db` can be locked** — if Hermes (gateway/TUI) is running, `state.db` may be in WAL mode with an active writer. Deletions may hang or fail. Kill Hermes processes first, or work during downtime.
+- **Ownership matters** — DB files owned by a different UID than the running process means they survive a Hermes reinstall but have the wrong owner. `chmod` fixes access, but `chown` may also be needed if the files were created under a container or docker context.
+- **LCM summary_nodes column is `summary` not `content`** — a common trap. The table has `summary` (text field) not `content`. Check with `PRAGMA table_info(summary_nodes)` first.
+- **Don't confuse the `.env` template with actual keys** — if `.env` has commented-out or placeholder values (e.g., `OPENROUTER_API_KEY=***` or a template), it's not a leak. Check if the file starts with comments vs. having actual `export KEY=value` lines.
+- **Telegram conversations redact in transit** — if the key was sent over Telegram, it's encrypted in transit and at rest on Telegram servers. The DB leak is a local storage concern. Still recommend rotation.
+- **auth.json in state-snapshots is a recurring risk** — Hermes caches OAuth tokens in `auth.json`. When a state-snapshot is taken (pre-update checkpoint), this file is copied verbatim into the snapshot. Bearer tokens (xAI, etc.) in snapshots are equivalent to plaintext credentials. **Always scan and delete auth.json from any state-snapshot directory.**
+- **State-snapshot DBs may contain keys the live DB no longer has** — if you scrubbed keys from the live `state.db` but a pre-cleaning snapshot exists at `~/.hermes/state-snapshots/`, the old snapshot still has the keys. The snapshot DB must be scrubbed independently.
+- **Cron output files retain run history** — LLM-driven cron jobs produce saved markdown reports in `~/.hermes/cron/output/<job_id>/<date>.md`. If a cron job ran before you scrubbed keys, those reports may contain key references in conversation summaries. Scan with `grep -r 'sk-or\\|sk-ant\\|HETZNER' ~/.hermes/cron/output/` and delete or redact matching files.
+- **Git history cannot be surgically cleaned like SQLite** — once a key is committed to git, `git log -p` exposes it even after deletion from latest HEAD. The only defense is pre-commit redaction (the `work-backup.sh` pattern, or a `pre-commit` hook). Found keys in history mean rotate them at source — git cleanup is optional and distinct from the security requirement.
+- **DB ownership vs process user mismatch** — if `state.db` / `lcm.db` are owned by a different UID than the Hermes process (e.g. UID 1000 files while running as root), the files were created under a different user context. `chmod 600` fixes access but ownership mismatch indicates a container/docker artifact or a prior installation. The files may survive a Hermes reinstall and re-expose credentials to the new process.
+
+## Telegram Gateway Troubleshooting
+
+Diagnose and fix common Telegram gateway issues — dual-instance conflicts, polling errors, and pairing code leaks.
+
+### Telegram Polling Conflicts
+
+The most common Telegram gateway issue is **two instances competing for the same bot token**. Each gateway instance opens its own `getUpdates` long-poll session with Telegram's API. Only one session can be active at a time — when a second instance polls, Telegram rejects it with `Conflict: terminated by other getUpdates request`.
+
+#### Detection
+
+Three-way check:
+
+```bash
+# 1. Check gateway log for conflicts
+grep -c "Conflict: terminated by other" ~/.hermes/logs/gateway.log
+
+# 2. List all Hermes processes — look for duplicate gateway instances
+ps aux | grep -E "gateway|tui_gateway" | grep -v grep
+
+# 3. Check systemd gateway status
+systemctl --user status hermes-gateway
+```
+
+Common duplicate instances:
+
+| Instance | How it starts | When it creates issues |
+|----------|--------------|----------------------|
+| `hermes-gateway.service` (systemd) | Auto-started via systemd | The production gateway |
+| `tui_gateway.entry` (TUI) | Started inside tmux workbench manually or via `.tmux.conf` | Polls same bot token → constant conflicts |
+| `hermes chat` test runs | Ad-hoc CLI sessions | Only conflicts if `--gateway` flag used |
+
+**Key indicator:** If `grep "conflict"` in gateway.log shows repeating entries (every 20-60s), you have a second instance.
+
+#### Fix
+
+```bash
+# Kill the duplicate TUI gateway (identified by PID from ps output)
+kill <pid_of_tui_gateway_entry>
+
+# Restart the systemd gateway to clear the conflict loop
+systemctl --user restart hermes-gateway
+
+# Verify conflict-free after restart
+tail -20 ~/.hermes/logs/gateway.log | grep -i conflict
+```
+
+Expected: zero conflict entries after the restart settles.
+
+#### Prevention
+
+- **Check tmux configs** for `hermes gateway run` or `tui_gateway` that auto-starts alongside the systemd service
+- Keep only ONE gateway instance per bot token
+- If you use the TUI workbench for local development, either disable the TUI gateway's Telegram adapter or use a different bot token for it
+
+### Pairing Code / Unauthorized User Behavior
+
+When an unrecognized user messages the Telegram bot, the gateway decides what to do based on `_get_unauthorized_dm_behavior()` in `gateway/run.py`:
+
+**Resolution order (first match wins):**
+
+| Priority | Condition | Behavior |
+|----------|-----------|----------|
+| 1 | Explicit `unauthorized_dm_behavior` in per-platform config | Config value — `"ignore"` (silent drop) or `"pair"` (send pairing code) |
+| 2 | Explicit global `unauthorized_dm_behavior` in config | Config value |
+| 3 | `TELEGRAM_ALLOWED_USERS`, `GATEWAY_ALLOWED_USERS`, or group-chat allowlist env var is set (non-empty) | `"ignore"` — silently drop unauthorized users |
+| 4 | None of the above | `"pair"` — send pairing code to unknown users |
+
+**Key insight:** Setting `TELEGRAM_ALLOWED_USERS=1149647881` in `.env` triggers **rule 3** above — the gateway silently drops unauthorized DMs without sending a pairing code. The user does NOT get a pairing code response, and the unauthorized user sees nothing.
+
+#### How pairing codes actually work
+
+- 8-character codes from a 32-character unambiguous alphabet (no `0`/`O`/`1`/`I`)
+- Stored as salted SHA-256 hashes (never plaintext in `~/.hermes/pairing/`)
+- 1-hour expiry, rate-limited to 1 request per 10 minutes per user
+- Lockout after 5 failed approval attempts (1 hour)
+- Only the bot owner can approve via `hermes pairing approve telegram <CODE>`
+
+#### Fixing unwanted pairing codes
+
+If unknown users are receiving pairing codes when they shouldn't be:
+
+```bash
+# 1. Verify TELEGRAM_ALLOWED_USERS is set in .env
+grep TELEGRAM_ALLOWED_USERS ~/.hermes/.env
+
+# 2. Check for dual gateway instances (see above — a second instance
+#    may not have the env var loaded and could be the one sending codes)
+ps aux | grep -E "gateway|tui_gateway" | grep -v grep
+
+# 3. Restart gateway to ensure env var is picked up
+systemctl --user restart hermes-gateway
+
+# 4. Clear any stale pending pairing codes
+rm -f ~/.hermes/pairing/telegram-pending.json
+```
+
+#### Verification
+
+Send a test message to the bot from an unrecognized Telegram account. With `TELEGRAM_ALLOWED_USERS` set and only one gateway running, the message is silently dropped — no pairing code response.
+
+### Gateway Log Quick Reference
+
+```bash
+# Polling conflicts
+grep "conflict\|Conflict" ~/.hermes/logs/gateway.log | tail -10
+
+# Pairing activity (codes generated, approved, revoked)
+grep -i "pairing\|pair" ~/.hermes/logs/gateway.log | tail -10
+
+# Inbound messages (user activity)
+grep "inbound message" ~/.hermes/logs/gateway.log | tail -10
+
+# Gateway restarts
+grep -i "starting\|shutdown\|exiting" ~/.hermes/logs/gateway.log | tail -10
+
+# Full gateway status
+systemctl --user status hermes-gateway
+```
+
+### Pitfalls
+
+- **TUI gateway + systemd gateway is the most common conflict pattern** — the TUI is often started from a tmux session at login, unaware that systemd already runs the same service. Always check both before adding a second gateway.
+- **Changing `.env` requires a gateway restart** — env vars are read at gateway startup, not hot-reloaded. Use `systemctl --user restart hermes-gateway` after any `.env` edit.
+- **Pairing directory is empty after a restart** — pending codes are stored in `~/.hermes/pairing/` files and are memory-only until the gateway persists them. After a gateway restart during a pairing flow, the pending code is lost and the user must request a new one.
+- **`TELEGRAM_ALLOWED_USERS` with an empty/invalid value is treated as "not set"** — the env var must contain a non-empty string. `TELEGRAM_ALLOWED_USERS=` (empty) or `TELEGRAM_ALLOWED_USERS=#comment` both skip rule 3 and fall through to `"pair"`.
+
+## Discovery Audit Methodology
+
 
 ## Discovery Audit Methodology
 
@@ -430,7 +917,11 @@ du -sh /root/.[!.]* 2>/dev/null | sort -rh | head -20  # Hidden dirs in home
 
 - **`du` counts multiple times for hard links** — snapshots doubled. Use `du -sh --apparent-size` for accurate single-reference sizes.
 - **WAL journal files in SQLite** — `state.db` can appear 3-4× larger than actual data if the WAL journal hasn't been checkpointed. Before deleting a large DB file, run `sqlite3 <db> 'PRAGMA wal_checkpoint(TRUNCATE);'` and re-check size.
-- **Snapshots with symlinks** — `state-snapshots/` may contain hardlinked copies of config files. Deleting the directory doesn't reclaim full space until all hardlinks are gone. Use `find <dir> -links +1 -ls` to identify shared blocks.
+- **Snapshots with symlinks** — `state-snapshots/` may contain hardlinked copies of config files. Deleting the directory doesn't reclaim full space until all hardlinks are removed. Use `find <dir> -links +1 -ls` to identify shared blocks.
+
+### Post-recovery
+
+If disk-full (100%) caused Mnemosyne DB corruption, the recovery procedure is documented in `references/mnemosyne-recovery.md` → **Procedure D: Disk-Full Corruption (SQLITE_FULL)**. That covers: freeing space first, WAL checkpoint + VACUUM attempt, dump+restore with `INSERT OR IGNORE` for duplicate keys, inode-aware file swap, stale fd resolution, gateway restart, and the required session restart.
 
 ## Post-Session File Cleanup
 
@@ -701,11 +1192,13 @@ hermes mnemosyne sleep --all-sessions
 
 ### Error patterns in consolidation output
 
-- **`database disk image is malformed`** on specific session IDs — isolated session corruption, not DB-wide. Safe to ignore for old/stale sessions. If the count grows, run a full integrity check:
+- **"database disk image is malformed"** on specific session IDs — isolated session corruption, not DB-wide. Safe to ignore for old/stale sessions. If the count grows, run a full integrity check:
   ```bash
   sqlite3 ~/.hermes/mnemosyne/data/mnemosyne.db "PRAGMA integrity_check;"
   ```
-  If that returns `ok`, the corruption is isolated to session FTS5 shadow tables — refer to `references/mnemosyne-recovery.md` for the full recovery procedure.
+  If that returns `ok`, the corruption is isolated to session FTS5 shadow tables — refer to `references/mnemosyne-recovery.md` → **Procedure A** for the recovery procedure.
+
+- **"database or disk is full" (SQLITE_FULL)** — indicates the filesystem hit 100% capacity while Mnemosyne was writing. The DB may have corrupt WAL state, duplicate primary keys, or missing index entries. Refer to `references/mnemosyne-recovery.md` → **Procedure D: Disk-Full Corruption** for the full recovery path (free space → dump/restore → handle stale locks → restart).
 
 - **LLM-consolidation errors** — `llm_used: 0` is normal for the automatic (AAAK) consolidation path. `llm_used` only increments when the semantic summarizer (which requires an LLM) runs. If `summaries_created` is also 0 on a session with 50+ items, something is wrong.
 
@@ -739,7 +1232,7 @@ Load this reference when a user reports Mnemosyne failing on import or recall, o
 
 ### Pitfalls
 
-- **`grep -v` kills set -e** — `grep` returns exit 1 when no lines match. In scripts with `set -e`, wrap grep pipelines with `|| true` to prevent spurious exits.
+- **Don't run `mnemosyne sleep` while the gateway is handling a live conversation**
 - **`pip index versions` in cron** — requires network and the Hermes venv's Python. Hardcode `VENV_PYTHON=/usr/local/lib/hermes-agent/venv/bin/python3` if the default system Python doesn't have the package installed.
 - **GitHub API rate limits** — unauthenticated requests are limited to 60/hour. The nightly self-audit makes 2 GitHub API calls (Hermes releases + DOGA releases), well within limit.
 - **Tag vs HEAD mismatch** — `git describe --tags` may return the same tag as origin even when there are commits ahead. Use `rev-list --count` for accurate staleness, not tag comparison.

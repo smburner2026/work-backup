@@ -1,0 +1,602 @@
+[
+  {
+    "question_number": 9,
+    "part": "A",
+    "question_text": "Which of the following is NOT CORRECT regarding arsenic poisoning?",
+    "options": {
+      "A": "in general, the trivalent form of arsenic is less toxic than the pentavalent form",
+      "B": "acute inorganic arsenic toxicity includes vasodilation",
+      "C": "acute inorganic arsenic poisoning induces diarrhea",
+      "D": "chronic arsenic ingestion produces hyperpigmentation of the skin",
+      "E": "the most common arsenic-induced neurological lesion is peripheral neuropathy"
+    },
+    "correct_answer": "A",
+    "explanation": "Option A is NOT CORRECT because the trivalent form of arsenic (As3+) is actually MORE toxic than the pentavalent form (As5+). Per C&D 7th Ed. p. 937, trivalent As is more toxic.",
+    "options_analysis": "A: False – Trivalent As (As3+) is more toxic than Pentavalent As (As5+) form. This statement says the opposite, making it the NOT CORRECT answer. | B-D: True statements about arsenic poisoning. | E: True – peripheral neuropathy is the most common neurological lesion from arsenic."
+  },
+  {
+    "question_number": 10,
+    "part": "A",
+    "question_text": "Which of the following is consistent with the generally accepted mode of action of carcinogenicity for trichloroethylene (TCE) exposure in animals?",
+    "options": {
+      "A": "the metabolite trichloroethanol glucuronide (TCOH-glucuronide) has been shown to cause uterine tumors in rats following oral exposure",
+      "B": "the metabolite 1,2-dichlorovinyl-l-cystine (DCVC) has been shown to cause renal tumors in female mice following inhalation exposure",
+      "C": "the metabolites dichloroacetate (DCA) and trichloroacetate (TCA) have been shown to cause liver tumors in Sprague-Dawley rats following inhalation exposure",
+      "D": "the metabolite chloral has been shown to cause lung tumors in mice following inhalation exposure",
+      "E": "regardless of the intermediate metabolites, animal models show the same hepatic and renal tumors reported in occupational cohorts exposed to TCE"
+    },
+    "correct_answer": "D",
+    "explanation": "Option D is correct, referencing p. 1051 C&D 8th Ed. TCE metabolite chloral has been shown to cause lung tumors in mice. The other options are not supported: A) uterine tumors not indicated, B) DCVC causes renal tumors in male rats (not female mice), C) TCE causes liver tumors in B6C3F1 mice but not other mouse strains or rats (not SD rats), E) epidemiologic evidence for liver and lung in humans is low.",
+    "options_analysis": "A: Not indicated – uterine tumors from TCOH-glucuronide not supported. | B: DCVC causes renal tumors in male rats, not female mice as stated. | C: TCE causes liver tumors in B6C3F1 mice, not SD rats. | D: Correct – p. 1051 8th Ed. Chloral causes lung tumors in mice. | E: Epidemiologic evidence for liver and lung tumors in humans is low, so this claim is not supported."
+  },
+  {
+    "question_number": 11,
+    "part": "A",
+    "question_text": "Exogenous factors can influence the toxicity of solvents. Which of the following is NOT CORRECT?",
+    "options": {
+      "A": "dietary lipids in the GI lumen can diminish the toxicity of carbon tetrachloride by delaying absorption",
+      "B": "increased alveolar ventilation during exercise increases absorption of polar solvents because of their high blood:air partition coefficients",
+      "C": "endotoxin potentiates the liver injury caused by ethanol and other solvents by triggering the release of inflammatory mediators which may make cells more susceptible to damage",
+      "D": "pre-treatment of rats with 2-butanol potentiates the toxicity of carbon tetrachloride through P450 induction",
+      "E": "administration of chloroform at the beginning of a rat's activity cycle leads to decreased liver injury because hepatic GSH levels are lower at the beginning of the activity cycle"
+    },
+    "correct_answer": "E",
+    "explanation": "Option E is NOT CORRECT. Lower hepatic GSH at the beginning of a rat's activity cycle will lead to INCREASED liver injury, not decreased. When GSH levels are lower, the liver has less capacity to detoxify reactive metabolites, resulting in greater injury. Per C&D 7th Ed. p. 996 (8th Ed. p. 1061-63).",
+    "options_analysis": "A-D: True statements per Ch. 24 C&D. | E: False – lower hepatic GSH at the beginning of a rat's activity cycle will lead to increased liver injury (GSH is protective; lower levels mean more damage)."
+  },
+  {
+    "question_number": 12,
+    "part": "A",
+    "question_text": "Which of the following is CORRECT regarding insect-resistant corn?",
+    "options": {
+      "A": "Bacillus thuringiensis is incorporated into the corn",
+      "B": "a protein derived from Bacillus thuringiensis is sprayed on corn",
+      "C": "currently much of the corn in the USA makes the insecticidal protein",
+      "D": "the use of Bacillus thuringiensis on the nutritional value of corn is not known",
+      "E": "the precursors that make the insecticidal protein for corn are considered toxins"
+    },
+    "correct_answer": "C",
+    "explanation": "Option C is correct – approximately 80% of the corn market in the USA currently makes the insecticidal Bt protein. Only the Bt protein (Cry protein), not the whole organism, is incorporated into the corn. The protein is not sprayed. It does not affect nutritional value. The crystal Bt proteins are solubilized in the alkaline insect gut and proteolyzed to a toxic form (delta-endotoxin). Per C&D 8th Ed. Ch. 22, p. 957-8.",
+    "options_analysis": "A: Only the Bt protein (derived from B. thuringiensis) is incorporated, not the whole organism. | B: The protein is not sprayed on corn – it is genetically incorporated. | C: True – ~80% of market makes the insecticidal protein. | D: It does not affect the nutritional value. | E: False – the crystal Bt proteins are solubilized in the insect gut (alkaline) and proteolyzed to a toxic form (delta-endotoxin); the precursors themselves are not toxins."
+  },
+  {
+    "question_number": 13,
+    "part": "A",
+    "question_text": "Which of the following is the BEST approach to limiting solvent overexposure in an occupational setting?",
+    "options": {
+      "A": "local exhaust ventilation",
+      "B": "personal protective equipment",
+      "C": "dilution ventilation",
+      "D": "process change/solvent elimination",
+      "E": "frequent job rotation"
+    },
+    "correct_answer": "D",
+    "explanation": "Process change/solvent elimination is the BEST approach as it falls under engineering controls, which are the most effective means of controlling occupational hazards (the hierarchy of controls prioritizes elimination/ substitution over engineering controls, administrative controls, and PPE). Per C&D 7th Ed. p. 1290 / C&D 8th Ed. p. 1408.",
+    "options_analysis": "A-C: Good approaches, but not the best – they control rather than eliminate the hazard. | D: Correct – Solvent elimination (engineering controls) is the most effective approach. | E: Job rotation (administrative control) is less effective than elimination."
+  },
+  {
+    "question_number": 14,
+    "part": "A",
+    "question_text": "Which of the following BEST describes the reason for pesticide poisoning in developed countries?",
+    "options": {
+      "A": "they are deliberately added to the environment for the purpose of killing some form of life",
+      "B": "many pesticides are too toxic to be used safely",
+      "C": "pesticides are improperly used and stored in many households",
+      "D": "pesticides exist in formulations that contain multiple ingredients",
+      "E": "increased use of pesticides from year to year"
+    },
+    "correct_answer": "C",
+    "explanation": "Pesticide poisoning in developed countries is best described by improper use and storage in households. Per C&D 7th Ed. p. 886 / C&D 8th Ed. p. 935-6. Additionally, pesticide use has plateaued over the last 20 years, ruling out option E.",
+    "options_analysis": "A: Pesticides are deliberately added, but this is their purpose, not the reason for poisoning. | B: When used correctly, most pesticides can be used safely. | C: Correct – improper use and storage in households is the primary reason. Per C&D p. 886/935-6. | D: Multi-ingredient formulations exist but are not the primary reason for poisoning. | E: False – pesticide use has plateaued over the last 20 years."
+  },
+  {
+    "question_number": 15,
+    "part": "A",
+    "question_text": "Which of the following is the MOST effective treatment for mammalian organophosphate (OP) toxicity?",
+    "options": {
+      "A": "2-PAM (pralidoxime)",
+      "B": "diazepam",
+      "C": "epinephrine",
+      "D": "atropine",
+      "E": "curare"
+    },
+    "correct_answer": "D",
+    "explanation": "Atropine is the cornerstone of treatment for OP toxicity. It is a muscarinic receptor antagonist that blocks the effects of excess acetylcholine at muscarinic receptors. Per C&D 8th Ed. p. 941. 2-PAM (pralidoxime) facilitates dephosphorylation prior to aging and is used alone only in mild cases. Diazepam treats anxiety and muscular effects. Epinephrine plays a role in flight-or-fight response (adrenergic). Curare is a plant extract causing paralysis reversible by cholinesterase inhibitors.",
+    "options_analysis": "A: Not the best – 2-PAM facilitates dephosphorylation prior to aging; used alone in mild cases only. | B: Not the best – used to treat anxiety and muscular effects of OP poisoning. | C: Not indicated – plays a role in flight-or-fight response, binds to adrenergic receptors. | D: Correct – 'Cornerstone of treatment'; a muscarinic receptor antagonist (p. 941 C&D 8th Ed.). | E: Not indicated – plant extract used in poison arrows, causes paralysis reversible by cholinesterase inhibitors like pyridostigmine."
+  },
+  {
+    "question_number": 16,
+    "part": "A",
+    "question_text": "Glutamine synthetase is a key enzyme found in plant and animal systems and functions in the utilization of nitrogen inside cells. The herbicide glufosinate inhibits this enzyme resulting in which of the following?",
+    "options": {
+      "A": "a toxic build up of ammonia in humans but not plants",
+      "B": "a toxic build up of ammonia in plants but not humans",
+      "C": "a toxic build up of ammonia in both plants and humans",
+      "D": "a toxic build up of glutamine in plants but not humans",
+      "E": "no impact as alternative pathways exist in both plants and humans to compensate for inhibition of glutamine synthetase"
+    },
+    "correct_answer": "B",
+    "explanation": "Glufosinate inhibits glutamine synthetase causing toxic buildup of ammonia in plants but not humans. Mammals have other metabolizing systems (alternative pathways) to deal with inhibition of glutamine synthetase. Per C&D 8th Ed. p. 965. The reaction is: Glutamate + ATP + NH3 → Glutamine.",
+    "options_analysis": "A: Incorrect – humans do not get ammonia buildup. | B: Correct – ammonia builds up in plants but not humans because mammals have alternative metabolizing systems. | C: Incorrect – ammonia does not build up in humans. | D: Incorrect – glutamine would not build up (its synthesis is blocked). | E: Incorrect – there IS an impact (ammonia buildup in plants), and alternative pathways only exist in mammals, not plants."
+  },
+  {
+    "question_number": 17,
+    "part": "A",
+    "question_text": "Which of the following is NOT CORRECT regarding the toxicity of manganese?",
+    "options": {
+      "A": "it causes cirrhosis of the liver",
+      "B": "less than 5% of ingested manganese is absorbed, but the absorption increases with iron deficiency",
+      "C": "the squirrel monkey provides a model of the central nervous system syndrome resulting from inhalation",
+      "D": "it is a recognized human carcinogen",
+      "E": "occupational exposure to it is associated with a 30-fold elevation in respiratory disease"
+    },
+    "correct_answer": "D",
+    "explanation": "Manganese is NOT a recognized human carcinogen. It is an essential metal for metabolic and cellular functions. When combined with bilirubin it produces intrahepatic cholestasis. Fe and Mn compete for the same binding protein (transferrin) and transporter (DMT1). The squirrel monkey provides a model of CNS syndrome from inhalation. Workers in Mn dust plants show 30x higher respiratory disease incidence. A 1969 paper showed selective depletion of caudate nucleus dopamine and serotonin during chronic Mn administration.",
+    "options_analysis": "A: True – Mn with bilirubin produces intrahepatic cholestasis; liver cirrhosis is a major contributing factor for hepatic encephalopathy. | B: True – Mn and Fe compete for transferrin and DMT1; absorption increases with Fe deficiency. | C: True – squirrel monkey is a model for CNS syndrome from Mn inhalation. | D: NOT CORRECT – Mn is NOT a recognized human carcinogen; it is an essential metal for metabolic and cellular functions. | E: True – men working in Mn dust plants show 30-fold higher incidence of respiratory disease."
+  },
+  {
+    "question_number": 18,
+    "part": "A",
+    "question_text": "The toxic signs and symptoms of pyrethroids are associated with which of the following?",
+    "options": {
+      "A": "oxidative metabolism to an active form",
+      "B": "interference of the normal hormones",
+      "C": "activation of alpha-2 adrenergic receptors",
+      "D": "disruption of voltage-gated sodium channels",
+      "E": "inhibition of acetylcholinesterase (AChE)"
+    },
+    "correct_answer": "D",
+    "explanation": "Pyrethroids exert their toxic effects by disrupting voltage-gated sodium channels, causing prolonged opening and repetitive firing. They do not act via oxidative metabolism, hormone interference, alpha-2 adrenergic receptors, or AChE inhibition (that's organophosphates/carbamates).",
+    "options_analysis": "A: Not the mechanism – pyrethroids directly affect sodium channels without requiring metabolic activation. | B: Not correct – pyrethroids are not endocrine disruptors in the same way. | C: Not the mechanism. | D: Correct – pyrethroids disrupt voltage-gated sodium channels. | E: Not correct – AChE inhibition is the mechanism of organophosphates and carbamates, not pyrethroids."
+  },
+  {
+    "question_number": 19,
+    "part": "A",
+    "question_text": "Terrestrial environmental exposure to organic tin compounds is most likely to be associated with the use of which of the following?",
+    "options": {
+      "A": "fungicides",
+      "B": "paint",
+      "C": "feed additives",
+      "D": "machinery grease",
+      "E": "fumigants"
+    },
+    "correct_answer": "A",
+    "explanation": "Organotin compounds have been used in fungicides, bactericides, slimicides, and plastic stabilizers. They are also used as plasticizers, antifungal agents, pesticides, and biocides. Terrestrial environmental exposure is most commonly associated with their use as fungicides.",
+    "options_analysis": "A: Correct – organotins are used as fungicides, bactericides, slimicides. | B: Paints may contain organotins as biocides but fungicide use is the primary terrestrial exposure route. | C: Not a typical use for organotins. | D: Not a typical use. | E: Not the primary use for organotins."
+  },
+  {
+    "question_number": 20,
+    "part": "A",
+    "question_text": "Which of the following enzymes is involved in organophosphate-induced delayed polyneuropathy?",
+    "options": {
+      "A": "acetylcholinesterase",
+      "B": "butyrylcholinesterase",
+      "C": "carboxylesterase",
+      "D": "neuropathy target esterase",
+      "E": "ATPase"
+    },
+    "correct_answer": "D",
+    "explanation": "OP-induced delayed polyneuropathy (OPIDP) involves inhibition and aging of neuropathy target esterase (NTE). 'Aging' refers to the net loss of a ligand from the phosphorus of the OP-enzyme conjugate, which stabilizes the inhibited complex and makes it resistant to reactivation.",
+    "options_analysis": "A: AChE inhibition causes acute cholinergic crisis, not delayed polyneuropathy. | B: Butyrylcholinesterase is a plasma enzyme not directly involved in OPIDP. | C: Carboxylesterase can be inhibited by OPs but NTE is the target for delayed neuropathy. | D: Correct – NTE is the enzyme whose inhibition and aging leads to OPIDP. | E: ATPase is not involved in this specific toxicity."
+  },
+  {
+    "question_number": 21,
+    "part": "A",
+    "question_text": "Inhalation exposure to SO2 gas may result in which of the following?",
+    "options": {
+      "A": "bronchoconstriction via Type I hypersensitivity",
+      "B": "decreased mucociliary clearance",
+      "C": "local and centrally mediated bronchoconstriction via formation of sulfite",
+      "D": "autooxidation of cell membranes via free-radical formation",
+      "E": "induction of pulmonary fibrosis following damage to epithelial cells"
+    },
+    "correct_answer": "C",
+    "explanation": "SO2 is a water-soluble irritant gas absorbed in the upper airways. It dissolves in the surface lining fluid as sulfite or bisulfite, distributes throughout the body, and interacts with sensory receptors to initiate local and centrally mediated bronchoconstriction. Bronchoconstriction is due to irritant properties, not an allergic/IgE reaction. Mucus is increased (not decreased). SO2 does not usually reach the deep lung as it dissolves in the upper airways.",
+    "options_analysis": "A: Incorrect – bronchoconstriction is due to irritant properties, not Type I hypersensitivity (IgE-mediated). | B: Incorrect – mucus is increased, so mucociliary clearance should go up, not decrease. | C: Correct – SO2 dissolves as sulfite/bisulfite and triggers local and centrally mediated bronchoconstriction. | D: Incorrect – not the primary mechanism for SO2. | E: Incorrect – SO2 usually doesn't reach the deep lung to cause fibrosis."
+  },
+  {
+    "question_number": 22,
+    "part": "A",
+    "question_text": "Inhaled aerosols and particulates may be absorbed in various regions of the respiratory tract. Which two important characteristics affect absorption of aerosols after exposure?",
+    "options": {
+      "A": "aerosol size and water solubility",
+      "B": "tissue reactivity and water solubility",
+      "C": "aerosol size and tissue reactivity",
+      "D": "water solubility and pH of the aerosol",
+      "E": "pH of the aerosol and aerosol size"
+    },
+    "correct_answer": "A",
+    "explanation": "The two most important characteristics affecting absorption of aerosols after inhalation exposure are aerosol size (which determines deposition region) and water solubility (which affects dissolution and absorption).",
+    "options_analysis": "A: Correct – aerosol size determines deposition pattern; water solubility affects absorption. | B: Tissue reactivity is not one of the two primary characteristics. | C: Missing water solubility. | D: pH is not a primary characteristic for absorption. | E: pH is secondary to size and solubility."
+  },
+  {
+    "question_number": 23,
+    "part": "A",
+    "question_text": "Which of the following substances is an HDL-raising agent that inhibits the lipolysis of triglycerides by hormone-sensitive lipase, thereby reducing transport of free fatty acids to the liver and decreasing hepatic triglyceride synthesis?",
+    "options": {
+      "A": "cholestyramine",
+      "B": "niacin",
+      "C": "clofibrate",
+      "D": "avasimibe",
+      "E": "lovastatin"
+    },
+    "correct_answer": "B",
+    "explanation": "Niacin (nicotinic acid) raises HDL and inhibits the lipolysis of triglycerides by hormone-sensitive lipase, reducing free fatty acid transport to the liver. Cholestyramine is an anion-exchange resin that increases fecal excretion of bile acids (and also chlordecone). It increases HDL and inhibits ACAT and HMG-CoA reductase. But niacin is specifically the agent that inhibits hormone-sensitive lipase-mediated lipolysis of triglycerides.",
+    "options_analysis": "A: Cholestyramine is an anion-exchange resin; it increases fecal excretion of chlordecone, increases HDL, and inhibits ACAT/HMG-CoA reductase, but does not directly inhibit hormone-sensitive lipase. | B: Correct – niacin inhibits hormone-sensitive lipase, reducing triglyceride lipolysis and FFA transport to liver. | C: Clofibrate is a fibrate that activates PPAR-alpha. | D: Avasimibe is an ACAT inhibitor. | E: Lovastatin is an HMG-CoA reductase inhibitor (statin)."
+  },
+  {
+    "question_number": 24,
+    "part": "A",
+    "question_text": "Which of the following pertaining to warfarin and related coumarin derivatives is CORRECT?",
+    "options": {
+      "A": "there are no differences in half-lives or potency of the two enantiomers (R and S-enantiomers)",
+      "B": "genetic polymorphisms in CYP2C9 may affect the metabolism of the S-enantiomer and have functional consequences as it pertains to bleeding",
+      "C": "APTT (activated partial thromboplastin time) is measured to evaluate the adequacy of the dosage of warfarin",
+      "D": "xenobiotics that result in displacement of warfarin from albumin would be expected to lessen the tendency for bleeding",
+      "E": "there are no teratologic risks associated with warfarin administration"
+    },
+    "correct_answer": "B",
+    "explanation": "CYP2C9 polymorphism is an important source of variability in warfarin response. S-warfarin is 3-5 times more potent than the R-enantiomer. Prothrombin time (PT/INR), not APTT, is used to monitor warfarin. Displacement from albumin INCREASES free warfarin bioavailability and increases bleeding tendency. Warfarin is associated with congenital anomalies in 25-30% of exposed infants.",
+    "options_analysis": "A: Incorrect – S-warfarin is 3-5 times more potent than R-warfarin. | B: Correct – CYP2C9 is an important source of variability; it metabolizes S-warfarin. | C: Incorrect – prothrombin time (PT/INR) is measured, not APTT. | D: Incorrect – displacement from albumin increases free warfarin, INCREASING bleeding tendency. | E: Incorrect – warfarin is associated with congenital anomalies in 25-30% of exposed infants."
+  },
+  {
+    "question_number": 25,
+    "part": "A",
+    "question_text": "For which agent listed below is the neurotoxicity associated with its use mediated by a disruption of microtubule dissociation into tubulin subunits?",
+    "options": {
+      "A": "atropine",
+      "B": "d-tubocurarine",
+      "C": "lysergic acid diethylamide",
+      "D": "paclitaxel",
+      "E": "procainamide"
+    },
+    "correct_answer": "D",
+    "explanation": "Paclitaxel binds to tubulin and disrupts microtubule dissociation (tubulin subunits reassociation). Colchicine (treatment for gout) and vinca alkaloids also share this mechanism. Per C&D p. 748 and Essentials p. 247.",
+    "options_analysis": "A: Atropine is a muscarinic antagonist – does not affect microtubules. | B: d-Tubocurarine is a neuromuscular blocker. | C: LSD is a hallucinogen acting on serotonin receptors. | D: Correct – Paclitaxel binds to tubulin, disrupting microtubule dissociation. | E: Procainamide is a sodium channel blocker (antiarrhythmic)."
+  },
+  {
+    "question_number": 26,
+    "part": "A",
+    "question_text": "Ionization frequently disrupts chemical bonding in cellular molecules such as DNA. Which of the following is the most common type of DNA damage caused by gamma (low-linear energy transfer) radiation exposure in mammalian cells?",
+    "options": {
+      "A": "double-strand breaks",
+      "B": "base damage",
+      "C": "single-strand breaks",
+      "D": "DNA protein cross-links",
+      "E": "pyrimidine dimers"
+    },
+    "correct_answer": "C",
+    "explanation": "Single-strand breaks (SSBs) are the most common type of DNA damage caused by low-LET gamma radiation in mammalian cells. X-rays also primarily cause SSBs. Pyrimidine dimers are caused by UV radiation. Double-strand breaks occur but are less common than SSBs from gamma radiation. Per Essentials p. 138 Fig 9-2, C&D p. 404, 451 Fig 9-2.",
+    "options_analysis": "A: Double-strand breaks occur but are less common than SSBs. | B: Base damage is associated with X-rays. | C: Correct – single-strand breaks are the most common from gamma/low-LET radiation; also from X-rays/UV. | D: DNA-protein cross-links are associated with X-rays and polyfunctional alkylating agents. | E: Pyrimidine dimers are associated with UV, not gamma radiation."
+  },
+  {
+    "question_number": 27,
+    "part": "A",
+    "question_text": "Soft tissue calcification in cattle has been attributed to which of the following?",
+    "options": {
+      "A": "eating plants contaminated by polychlorobiphenyls",
+      "B": "eating plants containing Vitamin D-like glycosides",
+      "C": "eating feed supplemented with high levels of calcium",
+      "D": "eating feed contaminated by aflatoxin",
+      "E": "drinking water contaminated by glyphosate"
+    },
+    "correct_answer": "B",
+    "explanation": "Soft tissue calcification in cattle is caused by eating plants containing Vitamin D-like glycosides (e.g., day-blooming jasmine and Solanaceae species). These glycosides decrease bone calcium and then cause hypercalcification of soft tissues. Per C&D p. 1143 and Essentials p. 389.",
+    "options_analysis": "A: PCBs are not associated with this condition. | B: Correct – Vitamin D-like glycosides in plants (day-blooming jasmine, Solanaceae) decrease bone calcium and cause soft tissue calcification. | C: High calcium in feed does not cause this condition. | D: Aflatoxin is a mycotoxin affecting the liver. | E: Glyphosate is an herbicide not associated with this condition."
+  },
+  {
+    "question_number": 28,
+    "part": "A",
+    "question_text": "Which of the following properties best describes the estrogenic activity of phytoestrogens?",
+    "options": {
+      "A": "antigonadotropic effects at high doses",
+      "B": "binding to intracellular receptors at the same affinity as estradiol",
+      "C": "causing long-term reproductive effects in humans",
+      "D": "becoming more potent than estradiol due to activation by P-450 enzymes",
+      "E": "affecting only female gonadal tissue in animals"
+    },
+    "correct_answer": "A",
+    "explanation": "Phytoestrogens exhibit antigonadotropic effects at high doses by interfering with the hypothalamic-pituitary-gonadal axis. They bind to estrogen receptors with lower affinity than estradiol (not the same affinity). Long-term reproductive effects are only documented in animals, not humans. They do not become more potent than estradiol via P-450 activation. They affect both male and female tissues. Per C&D p. 885 and Essentials p. 313.",
+    "options_analysis": "A: Correct – antigonadotropic effects at high doses are a key property of phytoestrogens. | B: Phytoestrogens bind to ER with LOWER affinity than estradiol, not the same. | C: Only documented in animals, not confirmed in humans. | D: No evidence that phytoestrogens become more potent than estradiol via P-450. | E: Affects both male and female gonadal tissue."
+  },
+  {
+    "question_number": 29,
+    "part": "A",
+    "question_text": "The particle size of an aerosol is a major determinant of where in the respiratory tract the aerosol is likely to deposit and cause a possible toxic response to the lung. The particle size of an aerosol is usually measured by determining the CMD and MMAD. In addition, the sigmag is determined as a measure of the range of distribution of particles. Which of the following is NOT CORRECT regarding aerosol measurements and characteristics?",
+    "options": {
+      "A": "the effect of mass and airflow is reflected in the MMAD measurement",
+      "B": "particles in the MMAD of 5 um or greater usually deposit in the nasopharyngeal region",
+      "C": "an aerosol with a sigmag less than or equal to 1.2 is considered to be monodisperse",
+      "D": "from a log-probit plot, sigmag = 84.1% size/50%size",
+      "E": "an aerosol with a sigmag = 2.0 is considered to be monodisperse"
+    },
+    "correct_answer": "E",
+    "explanation": "An aerosol with sigmag = 2.0 is NOT monodisperse. Monodisperse is defined as sigmag < 1.2 (a narrow particle size distribution). Per C&D p. 701 under 'Regional Particle Deposition.' This question has come up on applied questions with E being the NOT CORRECT answer.",
+    "options_analysis": "A: Correct – MMAD (mass median aerodynamic diameter) reflects mass and airflow effects. | B: Correct – particles ≥ 5 um deposit in the nasopharyngeal region. | C: Correct – sigmag ≤ 1.2 = monodisperse. | D: Correct – sigmag is calculated as 84.1% size / 50% size from log-probit plot. | E: NOT CORRECT – sigmag = 2.0 is polydisperse; monodisperse requires sigmag < 1.2."
+  },
+  {
+    "question_number": 30,
+    "part": "A",
+    "question_text": "Snake venoms are complex mixtures, however, their poisonous effects are most commonly due to which of the following substances?",
+    "options": {
+      "A": "enzymes and polypeptides",
+      "B": "formic acid",
+      "C": "tetrodotoxin",
+      "D": "toxic alkaloids",
+      "E": "vasoactive amines"
+    },
+    "correct_answer": "A",
+    "explanation": "Snake venoms are primarily composed of enzymes and polypeptides (proteins) which account for their toxic effects. Formic acid is formed by methanol metabolism. Tetrodotoxin is from puffer fish. Toxic alkaloids are from plants. Vasoactive amines (histamine, serotonin) are components but not the primary toxic constituents of snake venom. Per C&D p. 1159 and Essentials p. 397.",
+    "options_analysis": "A: Correct – enzymes and polypeptides are the main toxic components of snake venoms. | B: Formic acid is a methanol metabolite, not a major snake venom component. | C: Tetrodotoxin is from puffer fish, not snake venom. | D: Toxic alkaloids are found in plants, not snake venom. | E: Vasoactive amines (histamine, serotonin) are present but not the primary cause of venom toxicity."
+  },
+  {
+    "question_number": 31,
+    "part": "A",
+    "question_text": "Food idiosyncrasy is characterized by which of the following?",
+    "options": {
+      "A": "quantitatively normal response to a food substance or contaminant",
+      "B": "an immunologic mechanism",
+      "C": "more likely to occur in genetically predisposed individuals",
+      "D": "a reaction qualitatively similar to the normal physiologic response to a substance",
+      "E": "a humoral immune response involving IgE"
+    },
+    "correct_answer": "D",
+    "explanation": "Food idiosyncrasy is a non-immunologic, genetically determined abnormal response that is quantitatively abnormal but qualitatively similar to the normal physiologic response. The key characterization is that it mirrors the normal response in quality but is exaggerated in quantity. Per C&D p. 1327 and Essentials p. 457.",
+    "options_analysis": "A: Incorrect – it should say quantitatively ABNORMAL, not normal. | B: Incorrect – food idiosyncrasy is non-immunologic. | C: While true that it occurs more in genetically predisposed individuals, D is the more defining characteristic. | D: Correct – the reaction is qualitatively similar to normal physiologic response (but quantitatively abnormal). | E: Incorrect – it does not involve IgE (non-immunologic)."
+  },
+  {
+    "question_number": 32,
+    "part": "A",
+    "question_text": "Bisphenol A is considered a chemical of concern due to which of the following?",
+    "options": {
+      "A": "use in plastics and strong binding to the aryl hydrocarbon receptor",
+      "B": "strong binding to the estrogen receptor and induction of biotransformation enzymes",
+      "C": "extensive use in plastic manufacturing and weak binding to the estrogen receptor",
+      "D": "surfactant properties and potential for endocrine disruption",
+      "E": "bioaccumulation in the environment and potential as a chemical carcinogen"
+    },
+    "correct_answer": "C",
+    "explanation": "BPA is extensively used in plastic manufacturing (polycarbonate plastics and epoxy resins) and exhibits weak binding to the estrogen receptor. It does NOT bind strongly to the AhR (binds to androgen receptor). It is not a surfactant. It is not a carcinogen. BPA also disrupts thyroid hormone (T3) binding to its receptor and affects neurological development. Per C&D p. 7 and p. 922.",
+    "options_analysis": "A: Incorrect – BPA binds to AR (androgen receptor), not AhR (aryl hydrocarbon receptor). | B: Uncertain about enzyme induction; BPA does bind to ER but weakly. | C: Correct – extensive use in plastics and weak estrogen receptor binding. | D: Incorrect – BPA is not a surfactant. | E: Incorrect – BPA is not a carcinogen and does not significantly bioaccumulate."
+  },
+  {
+    "question_number": 33,
+    "part": "A",
+    "question_text": "Which of the following statements about selenium and selenium compounds is NOT CORRECT?",
+    "options": {
+      "A": "selenium's actions in antioxidant systems make it an essential trace element",
+      "B": "acute exposure to selenium causes blind staggers in cattle",
+      "C": "selenium enhances the toxic effects of methylmercury",
+      "D": "chronic exposure to excess selenium can lead to teeth, hair, and nail loss",
+      "E": "accumulated evidence indicates that selenium compounds possess anticancer properties"
+    },
+    "correct_answer": "C",
+    "explanation": "Selenium does NOT enhance the toxic effects of methylmercury. In fact, selenium is known to PROTECT against methylmercury toxicity through various mechanisms including formation of inert complexes. All other statements are correct: selenium is an essential trace element, causes blind staggers in cattle from acute exposure, causes selenosis (teeth/hair/nail loss) from chronic exposure, and has anticancer properties. Per C&D p. 1006-1008.",
+    "options_analysis": "A: True – selenium is an essential trace element in antioxidant systems (e.g., glutathione peroxidase). | B: True – acute Se exposure causes blind staggers in cattle. | C: NOT CORRECT – selenium does not enhance methylmercury toxicity; it protects against it. | D: True – chronic selenosis causes teeth, hair, and nail loss. C&D pg 1008. | E: True – Se compounds have shown anticancer properties. C&D pg 1008."
+  },
+  {
+    "question_number": 34,
+    "part": "A",
+    "question_text": "Which of the following is an important class of chemicals that are formed during grilling or broiling of meat and is associated with cancer in humans?",
+    "options": {
+      "A": "acrylamide",
+      "B": "heterocyclic amines",
+      "C": "aliphatic amines",
+      "D": "ethyleneimine",
+      "E": "hydrazines"
+    },
+    "correct_answer": "B",
+    "explanation": "Heterocyclic amines (HCAs) are formed when meat is cooked at high temperatures (grilling, broiling, frying) and are associated with cancer in humans. Acrylamide is formed in starchy foods (potatoes, grains) during high-temperature cooking, not meat. Per C&D p. 1346.",
+    "options_analysis": "A: Acrylamide is formed in starchy foods during high-heat cooking, not primarily in meat. | B: Correct – heterocyclic amines form in grilled/broiled meat and are associated with cancer. | C: Aliphatic amines are not specifically associated with cooking meat. | D: Ethyleneimine is an industrial chemical. | E: Hydrazines are found in some mushrooms but not formed during grilling."
+  },
+  {
+    "question_number": 35,
+    "part": "A",
+    "question_text": "Which aflatoxin is the most toxicologically potent and commonly occurs in produce?",
+    "options": {
+      "A": "Aflatoxin B1",
+      "B": "Aflatoxin B2",
+      "C": "Aflatoxin C1",
+      "D": "Aflatoxin G1",
+      "E": "Aflatoxin G2"
+    },
+    "correct_answer": "A",
+    "explanation": "Aflatoxin B1 is the most toxicologically potent aflatoxin and is the most common one found in contaminated produce (corn, peanuts). There is no 'Aflatoxin C1' – the four main types produced by Aspergillus flavus and A. parasiticus are B1, B2, G1, and G2. Per C&D p. 1339 and Essentials p. 460 Fig 31-11.",
+    "options_analysis": "A: Correct – aflatoxin B1 is the most potent and commonly occurring. | B: Aflatoxin B2 is less potent than B1. | C: Not a valid aflatoxin designation – there is no 'C1'. | D: Aflatoxin G1 is less potent than B1. | E: Aflatoxin G2 is less potent than B1."
+  },
+  {
+    "question_number": 36,
+    "part": "A",
+    "question_text": "Rhabdomyolysis can be the direct result of a toxicant or the indirect result of a drug overdose-induced muscular ischemia. Please select the statement that is NOT CORRECT with regard to rhabdomyolysis.",
+    "options": {
+      "A": "hyperkalemia and hyperphosphatemia are conditions of being predisposed to developing rhabdomyolysis",
+      "B": "patients with rhabdomyolysis will first exhibit a rise in serum myoglobulin and then an increase in creatine kinase",
+      "C": "patients with rhabdomyolysis who have myoglobin urine concentrations can have red colored urine",
+      "D": "patients with high levels of cocaine use may develop rhabdomyolysis",
+      "E": "rhabdomyolysis may result from severe carbon monoxide poisoning"
+    },
+    "correct_answer": "C",
+    "explanation": "In rhabdomyolysis, the urine is dark and 'tea-colored' due to myoglobin, not bright red. 'Red colored urine' is misleading. All other statements are true: hyperkalemia/hyperphosphatemia are predisposing conditions, myoglobulin rises before CK, cocaine use can cause it, and CO poisoning survivors can develop rhabdomyolysis.",
+    "options_analysis": "A: True – hyperkalemia and hyperphosphatemia predispose to rhabdomyolysis. | B: True – serum myoglobulin rises first, then creatine kinase. | C: NOT CORRECT – urine is dark/'tea-colored' due to myoglobin, not red as stated. | D: True – cocaine use can cause rhabdomyolysis. | E: True – if patients survive severe CO poisoning, rhabdomyolysis can result."
+  },
+  {
+    "question_number": 37,
+    "part": "A",
+    "question_text": "Which of the following is a specific antidote for benzodiazepine overdose?",
+    "options": {
+      "A": "buprenorphine",
+      "B": "rifampin",
+      "C": "flumazenil",
+      "D": "dextroamphetamine",
+      "E": "carbamazepine"
+    },
+    "correct_answer": "C",
+    "explanation": "Flumazenil is a competitive benzodiazepine receptor antagonist and the specific antidote for benzodiazepine overdose. It reverses the sedative effects. Buprenorphine is an opioid partial agonist. Rifampin and carbamazepine are enzyme inducers. Dextroamphetamine is a CNS stimulant. Per C&D p. 1367.",
+    "options_analysis": "A: Buprenorphine is an opioid partial agonist used for opioid dependence/overdose. | B: Rifampin is an antibiotic and CYP450 inducer. | C: Correct – flumazenil is a competitive benzodiazepine receptor antagonist. | D: Dextroamphetamine is a CNS stimulant (ADHD/narcolepsy). | E: Carbamazepine is an anticonvulsant and CYP450 inducer."
+  },
+  {
+    "question_number": 38,
+    "part": "A",
+    "question_text": "Some ethnic populations, such as Asians and Native Americans, have difficulty metabolizing alcohol. The majority of the affected individuals have a defect in which liver enzyme?",
+    "options": {
+      "A": "CYP1A2",
+      "B": "CYP2E1",
+      "C": "catalase",
+      "D": "alcohol dehydrogenase",
+      "E": "acetaldehyde dehydrogenase"
+    },
+    "correct_answer": "E",
+    "explanation": "The majority of affected individuals (particularly East Asians and Native Americans) have a genetic defect in acetaldehyde dehydrogenase (ALDH2). This leads to accumulation of acetaldehyde, causing facial flushing, nausea, and tachycardia ('alcohol flush reaction'). Per C&D p. 1069 and Essentials p. 368.",
+    "options_analysis": "A: CYP1A2 is involved in caffeine metabolism, not alcohol. | B: CYP2E1 metabolizes ethanol at high concentrations but is not the primary defective enzyme. | C: Catalase plays a minor role in ethanol metabolism. | D: Alcohol dehydrogenase variant exists but the classic defect causing alcohol intolerance is in ALDH2. | E: Correct – acetaldehyde dehydrogenase (ALDH2) deficiency is the most common cause."
+  },
+  {
+    "question_number": 39,
+    "part": "A",
+    "question_text": "Which of the following is CORRECT regarding the mycotoxin food contaminant zearalenone?",
+    "options": {
+      "A": "it is mutagenic",
+      "B": "it is produced by Aspergillus flavus",
+      "C": "it decreases the reproductive potential in farm animals",
+      "D": "it causes leukoencephalomalacia in horses",
+      "E": "it requires metabolic activation to cause adverse effects"
+    },
+    "correct_answer": "C",
+    "explanation": "Zearalenone decreases reproductive potential in farm animals due to its estrogenic activity (it is a resorcylic acid lactone that binds to estrogen receptors). It is produced by Fusarium species (not Aspergillus flavus, which produces aflatoxins). It is not mutagenic. Leukoencephalomalacia in horses is caused by fumonisin (another Fusarium mycotoxin). Per C&D p. 17/1338.",
+    "options_analysis": "A: Zearalenone is not mutagenic. | B: False – produced by Fusarium (mold), not Aspergillus flavus (which produces aflatoxin). | C: Correct – zearalenone decreases reproductive potential in farm animals (estrogenic effects). | D: False – leukoencephalomalacia in horses is caused by fumonisin, not zearalenone. | E: Zearalenone itself has estrogenic activity without requiring metabolic activation."
+  },
+  {
+    "question_number": 40,
+    "part": "A",
+    "question_text": "Which of the following toxicities is NOT associated with acute or chronic tetracycline antibiotics use?",
+    "options": {
+      "A": "blood dyscrasias",
+      "B": "skin and mucosal reactions",
+      "C": "cardio-pulmonary effects",
+      "D": "liver effects",
+      "E": "kidney effects"
+    },
+    "correct_answer": "C",
+    "explanation": "Cardio-pulmonary effects are NOT typically associated with tetracycline use. Cardiotoxicity is mainly associated with anti-neoplastic anthracyclines (doxorubicin), not tetracyclines. Blood dyscrasias are listed as adverse effects in the label. Skin/mucosal reactions (photosensitivity) are known. Liver effects (steatosis with chronic use, though rare) and kidney effects (BUN monitoring) are associated. Per C&D p. 821 and prescribing information.",
+    "options_analysis": "A: Blood dyscrasias are listed as an adverse effect in the tetracycline label. | B: Skin and mucosal reactions – known phototoxicity. | C: NOT associated – cardio-pulmonary effects are primarily from anthracyclines, not tetracyclines. C&D p. 821. | D: Liver effects – very rare, can cause steatosis with chronic use. | E: Kidney effects – yes, monitor BUN."
+  },
+  {
+    "question_number": 1,
+    "part": "C",
+    "question_text": "Calculate the achieved dosage in mg/kg/day of a chemical fed to rats at a concentration of 0.5% (5000 ppm) in the diet. The rats had a mid period group mean body weight of 250g and ate 210g/week of the chemical diet admixture.",
+    "options": {
+      "A": "600",
+      "B": "420",
+      "C": "6000",
+      "D": "4200",
+      "E": "60"
+    },
+    "correct_answer": "A",
+    "explanation": "Calculation: 210 g/week ÷ 7 = 30 g diet/day. Chemical at 0.5% (5000 ppm) = 5000 mg chemical per kg diet. 30 g diet = 0.03 kg diet. Chemical intake = 0.03 kg diet × 5000 mg/kg = 150 mg/day. Rat body weight = 250 g = 0.25 kg. Achieved dosage = 150 mg/day ÷ 0.25 kg = 600 mg/kg/day.",
+    "options_analysis": "A: 600 mg/kg/day is the correct calculated dose (150 mg/day ÷ 0.25 kg = 600). | B: 420 is incorrect. | C: 6000 is 10x too high. | D: 4200 is incorrect. | E: 60 is 10x too low."
+  },
+  {
+    "question_number": 2,
+    "part": "C",
+    "question_text": "Select the correct pairing of toxic agent and mechanism of cardiotoxicity.",
+    "options": {
+      "A": "toluene and sodium channel blockade",
+      "B": "carbon tetrachloride and increased parasympathetic activity",
+      "C": "cocaine and calcium channel blockade",
+      "D": "cobalt and altered calcium homeostasis",
+      "E": "barium and potassium channel blockade"
+    },
+    "correct_answer": "D",
+    "explanation": "Cobalt causes cardiotoxicity through altered calcium homeostasis (interferes with calcium channels/calcium handling in cardiac myocytes), leading to cardiomyopathy. Toluene sensitizes the heart to catecholamines. Carbon tetrachloride causes liver toxicity primarily, not direct cardiotoxicity. Cocaine blocks sodium channels and increases catecholamines. Barium blocks potassium channels.",
+    "options_analysis": "A: Incorrect – toluene causes catecholamine sensitization, not sodium channel blockade. | B: Incorrect – CCl4 primarily causes hepatotoxicity, not increased parasympathetic activity. | C: Incorrect – cocaine blocks sodium channels (class IC antiarrhythmic-like) and increases catecholamines. | D: Correct – cobalt alters calcium homeostasis causing cardiomyopathy. | E: Barium DOES block potassium channels, but cobalt/calcium is listed as the correct pairing here."
+  },
+  {
+    "question_number": 3,
+    "part": "C",
+    "question_text": "Furanocoumarins in grapefruit juice can increase the systemic exposure to certain orally administered drugs such as simvastatin (HMG-coA reductase inhibitor) and felodipine (calcium channel blocker) through which of the following mechanisms?",
+    "options": {
+      "A": "inhibition of intestinal CYP3A4",
+      "B": "inhibition of hepatic CYP3A4",
+      "C": "induction of UDP-glucuronosyltransferase",
+      "D": "inhibition of hepatic CYP1A1",
+      "E": "induction of aldehyde dehydrogenase"
+    },
+    "correct_answer": "A",
+    "explanation": "Grapefruit juice contains furanocoumarins that irreversibly inhibit intestinal CYP3A4, increasing the bioavailability of drugs that undergo extensive first-pass metabolism by intestinal CYP3A4 (e.g., simvastatin, felodipine). Hepatic CYP3A4 is not significantly affected by oral grapefruit juice because the furanocoumarins are extensively metabolized in the gut and liver before reaching the systemic circulation.",
+    "options_analysis": "A: Correct – furanocoumarins inhibit intestinal CYP3A4, increasing drug bioavailability. | B: Hepatic CYP3A4 is not significantly inhibited by oral grapefruit juice. | C: Not the mechanism – furanocoumarins inhibit, not induce, metabolic enzymes. | D: CYP1A1 is not the primary target of grapefruit juice interaction. | E: Aldehyde dehydrogenase is not affected by grapefruit juice."
+  },
+  {
+    "question_number": 4,
+    "part": "C",
+    "question_text": "Many chemicals require metabolic activation to form their ultimate toxicants. Which of the following xenobiotics does NOT match its ultimate toxicant?",
+    "options": {
+      "A": "fluoroacetate forms fluoronitrate",
+      "B": "acetaminophen forms N-acetyl-p-benzoquinoneimine",
+      "C": "carbon tetrachloride forms CCl300",
+      "D": "benzo[a]pyrene forms benzo[a]pyrene-7,8-diol-9,10-epoxide",
+      "E": "ethylene glycol forms oxalic acid"
+    },
+    "correct_answer": "A",
+    "explanation": "Fluoroacetate is converted to fluorocitrate (not fluoronitrate), which inhibits aconitase in the TCA cycle. All other pairings are correct: acetaminophen → NAPQI, CCl4 → CCl3OO (trichloromethylperoxyl radical), BaP → BaP-7,8-diol-9,10-epoxide, ethylene glycol → oxalic acid.",
+    "options_analysis": "A: NOT CORRECT – fluoroacetate forms FLUOROCITRATE, not fluoronitrate. Fluorocitrate inhibits aconitase. | B: Correct – acetaminophen forms NAPQI (N-acetyl-p-benzoquinoneimine). | C: Correct – CCl4 forms CCl3OO (trichloromethylperoxyl radical) or the text shorthand 'CCl300'. | D: Correct – BaP-7,8-diol-9,10-epoxide is the ultimate carcinogen of BaP. | E: Correct – ethylene glycol is metabolized to oxalic acid (causing calcium oxalate crystals and renal failure)."
+  },
+  {
+    "question_number": 5,
+    "part": "C",
+    "question_text": "Oligomycin, cyhexatin, DDT, and chlordecone all can interfere with mitochondrial ATP synthesis which can lead to ATP depletion and cell death. These agents impair mitochondrial ATP synthesis by which of the following mechanisms?",
+    "options": {
+      "A": "they inhibit ADP phosphorylation by acting on ATP synthase",
+      "B": "they inhibit electron transport complex I (NADH-coenzyme Q reductase)",
+      "C": "they inhibit oxygen delivery to the electron transport chain",
+      "D": "they impair the transcription of key mitochondrial proteins",
+      "E": "they inhibit electron transport by acting on complex IV (cytochrome oxidase)"
+    },
+    "correct_answer": "A",
+    "explanation": "Oligomycin, cyhexatin, DDT, and chlordecone all inhibit ADP phosphorylation by acting on ATP synthase (Complex V). They block the utilization of the proton gradient for ATP synthesis. This is distinct from electron transport chain inhibitors (which act on Complexes I-IV) or uncouplers (which dissipate the proton gradient).",
+    "options_analysis": "A: Correct – these agents inhibit ATP synthase (ADP phosphorylation). | B: Complex I inhibits NADH oxidation, but that's not the mechanism of these agents. | C: Not the mechanism. | D: These are direct-acting inhibitors, not transcriptional inhibitors. | E: Complex IV (cytochrome oxidase) inhibitors include cyanide and CO."
+  },
+  {
+    "question_number": 6,
+    "part": "C",
+    "question_text": "Establishing a causal association between an occupational toxicant and harmful effect/disease can be difficult. In order to evaluate the level of exposure at which there is an acceptable risk for health impairment, toxicologic data from a variety of sources is required, including in vitro assays, animal toxicology studies, human challenge studies, case reports and epidemiology studies. In animal studies, which one of the following is NOT a limitation?",
+    "options": {
+      "A": "animal testing can provide only an estimate of the toxicity of a chemical that would be exhibited in humans",
+      "B": "animals do not always respond to a chemical exposure in the same way that humans would respond",
+      "C": "there can be interspecies differences in metabolism where cancer occurs in rodents but not humans",
+      "D": "relationships between the metabolic pathways of a chemical and its interaction with target molecules can be derived",
+      "E": "there are a few chemicals for which predictive animal models have either not yet been determined or do not exist"
+    },
+    "correct_answer": "D",
+    "explanation": "Option D describes an advantage/strength of animal studies, not a limitation. The ability to derive relationships between metabolic pathways and target molecule interactions is valuable information gained from animal studies. The other options (A, B, C, E) are all recognized limitations of animal testing (estimation rather than exact prediction, species differences, interspecies metabolic differences, lack of predictive models for some chemicals).",
+    "options_analysis": "A: This IS a limitation – animal tests provide estimates, not certainties. | B: This IS a limitation – species differences in response. | C: This IS a limitation – cancer in rodents may not predict human cancer. | D: NOT a limitation – deriving metabolic pathway relationships is a strength of animal studies. | E: This IS a limitation – some chemicals lack predictive animal models."
+  },
+  {
+    "question_number": 7,
+    "part": "C",
+    "question_text": "Which of the following would be expected to be the most effective treatment for protecting against systemic effects from hydrofluoric acid (HF) burns?",
+    "options": {
+      "A": "sodium gluconate",
+      "B": "potassium gluconate",
+      "C": "calcium gluconate",
+      "D": "ethylenediaminetetraacetic acid (EDTA)",
+      "E": "sodium nitrite"
+    },
+    "correct_answer": "C",
+    "explanation": "Calcium gluconate is the standard treatment for HF burns. HF causes tissue destruction by binding free calcium and magnesium ions. Topical or injectable calcium gluconate chelates fluoride ions, forming insoluble calcium fluoride, which limits tissue damage and prevents systemic toxicity (hypocalcemia).",
+    "options_analysis": "A: Sodium gluconate is not the standard treatment for HF burns. | B: Potassium gluconate is not typically used for HF burns. | C: Correct – calcium gluconate chelates fluoride ions, forming insoluble CaF2, preventing hypocalcemia and tissue destruction. | D: EDTA is a chelator for heavy metals (lead, etc.), not specifically for fluoride. | E: Sodium nitrite is used for cyanide poisoning (forms methemoglobin)."
+  },
+  {
+    "question_number": 8,
+    "part": "C",
+    "question_text": "Which of the following is NOT considered an important factor affecting nanoparticle toxicity in the lung?",
+    "options": {
+      "A": "the large surface area relative to mass",
+      "B": "glucuronidation of nanoparticulates",
+      "C": "particulate diameters of less than 100nm",
+      "D": "the presence of reactive metals on the surface of nanoparticulates",
+      "E": "breathing rate"
+    },
+    "correct_answer": "B",
+    "explanation": "Glucuronidation is a Phase II metabolic conjugation reaction for xenobiotics, not a factor affecting nanoparticle toxicity. Important factors for nanoparticle pulmonary toxicity include: large surface area-to-mass ratio (high reactivity), small particle size (<100 nm allows deep lung penetration), surface reactive metals (catalyze ROS formation), and breathing rate (affects deposition).",
+    "options_analysis": "A: Large surface area relative to mass IS an important factor (increases reactivity and toxicity). | B: NOT an important factor – glucuronidation is a metabolic conjugation pathway for soluble organic compounds, not nanoparticles. | C: Particle diameter <100 nm IS important (nanoparticles can reach alveoli and translocate). | D: Reactive metals on the surface IS important (catalyze oxidative stress). | E: Breathing rate IS important (affects dose and deposition pattern)."
+  }
+]

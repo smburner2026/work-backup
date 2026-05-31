@@ -12,6 +12,8 @@ Persistent cross-session gap tracking that doesn't depend on the agent's context
 
 ## Two-Phase Workflow
 
+**Session start:** Load `dabt-project-workflow` first for config — reads `config['progress']['miss_journal_backup_dir']` (resolved against `config['project']['workdir']`) for the filesystem failover path.
+
 ## Phase A — Write Inline During Session (NOT at session end)
 
 Sessions can span multiple days with context resets. Never wait for "session end." Write as you go.
@@ -61,9 +63,11 @@ The gbrain MCP server (and thus all `mcp_gbrain_*` tools) may be unavailable —
 When gbrain is down, do NOT skip recording. Use this stack instead:
 
 #### 1. Write to Filesystem
-Save structured markdown to the project's reference data directory:
+Save structured markdown to the project's miss-journal-backup directory (resolved from config):
 ```
-~/.hermes/cron/output/<YYYY-MM-DD>-<topic>.md
+WORKDIR = CONFIG['project']['workdir']
+BACKUP_DIR = os.path.join(WORKDIR, CONFIG['progress']['miss_journal_backup_dir'])
+# save at {BACKUP_DIR}/<YYYY-MM-DD>-<topic>.md
 ```
 Use the same page slug convention and structured summary format as the gbrain page would have had. This creates files ready for re-import when gbrain recovers.
 
@@ -140,5 +144,5 @@ This produces a prioritized list of weak areas to target in the session.
 
 ## Integration Points
 
-- **dabt-project-workflow**: Session start procedure step 3 — miss journal inline write check on context reset
+- **dabt-project-workflow**: Session start procedure — loads config (provides `config['progress']['miss_journal_backup_dir']`), miss journal inline write check on context reset
 - **dabt-deep-dive / dabt-drill-mode**: Inline write hook — write to G-Brain after each drill block, mistake analysis, or topic transition

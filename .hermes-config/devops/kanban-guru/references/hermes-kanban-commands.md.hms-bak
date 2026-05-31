@@ -14,16 +14,15 @@ The dispatcher automatically picks `ready` cards and transitions them to `doing`
 
 ## Commands
 
-### `hermes kanban create <title> [--assign <profile>] [--tag <tag>] [--parent <id>]`
+### `hermes kanban create <title> [--assignee <profile>] [--parent <id>] [--priority <num>] [--initial-status {blocked,running}]`
 Create a new card in `todo` state. The only required argument is the title.
 
-- `--assign default` — handled by the main agent (no special profile needed)
-- `--assign mike` — assigned to the `mike` profile
-- `--tag study` — optional label for filtering
+- `--assignee default` — handled by the main agent (no special profile needed)
+- `--assignee mike` — assigned to the `mike` profile
 - `--parent t_xxx` — makes this card wait for another card to complete first
 - `--body "text"` — detailed description
 
-### `hermes kanban list [--tag <tag>] [--assignee <profile>] [--state <state>]`
+### `hermes kanban list [--assignee <profile>] [--state <state>]`
 View all cards. No arguments = everything. Can filter by tag, assignee, or state.
 
 ### `hermes kanban show <id>`
@@ -47,51 +46,25 @@ Add a comment to a card's thread (doesn't change state).
 ### `hermes kanban tail <id>`
 Live-stream the run log of an active card. Useful for watching a profile work.
 
-## Filters and Views
-
-```bash
-# Filter by state
-hermes kanban list --state ready
-
-# Filter by tag
-hermes kanban list --tag study
-
-# Filter by assignee
-hermes kanban list --assignee mike
-
-# Combined
-hermes kanban list --state doing --tag trade
+## Filters and Views\n\n```bash\n# Filter by state\nhermes kanban list --state ready\n\n# Filter by assignee\nhermes kanban list --assignee mike\n\n# Combined\nhermes kanban list --state doing
 ```
 
 ## Common Workflow Patterns
+\n### Solo (one profile, no extra setup)\n```bash\nhermes kanban create "Write Ames test draft" --assignee default\nhermes kanban transition t_abc123 ready\nhermes kanban transition t_abc123 doing\n# ... work happens ...\nhermes kanban complete t_abc123\n```\n\n### Parallel research (fan-out)\n```bash\nhermes kanban create "Research A" --assignee researcher\nhermes kanban create "Research B" --assignee researcher\nhermes kanban create "Synthesize findings" --assignee writer --parent t_a1 --parent t_b2\n```\nThe synthesis card auto-promotes to `ready` only after both research cards complete.\n\n### Strategy-first (discuss before execute)
 
-### Solo (one profile, no extra setup)
+Cards created with `--assignee` go straight to `ready` state and the dispatcher picks them up immediately — there's no `todo` pause. If you need to discuss scope, priority, or approach before execution:
+
 ```bash
-hermes kanban create "Write Ames test draft" --assign default
-hermes kanban transition t_abc123 ready
-hermes kanban transition t_abc123 doing
-# ... work happens ...
-hermes kanban complete t_abc123
+# Park the card so the dispatcher ignores it:
+hermes kanban create "Build synthetic Domain III questions" --initial-status blocked --body "Need to decide: sub-domain classification first?"
+
+# Or create without assignee — stays in todo (if the dispatcher respects it):
+hermes kanban create "Recover 626 Group A quarantined Qs"
+
+# When discussion is done, unblock and let it flow:
+hermes kanban transition t_xxx ready
 ```
 
-### Parallel research (fan-out)
-```bash
-hermes kanban create "Research A" --assign researcher
-hermes kanban create "Research B" --assign researcher
-hermes kanban create "Synthesize findings" --assign writer --parent t_a1 --parent t_b2
-```
-The synthesis card auto-promotes to `ready` only after both research cards complete.
+The dispatcher only picks `ready` cards. `blocked` and `todo` cards stay parked. Use this to control what the agent works on when.
 
-### Pipeline with human review
-```bash
-hermes kanban create "Draft chapter" --assign writer
-# Writer completes → human reviews → if changes needed:
-hermes kanban create "Revise chapter" --assign writer --parent t_xxx
-```
-
-### Human-in-the-loop (blocking)
-```bash
-hermes kanban block t_xxx "Rate limit key: IP (NAT-unsafe) or user_id (requires auth)?"
-# Human unblocks when decision is made
-hermes kanban unblock t_xxx
-```
+### Pipeline with human review\n```bash\nhermes kanban create "Draft chapter" --assignee writer\n# Writer completes → human reviews → if changes needed:\nhermes kanban create "Revise chapter" --assignee writer --parent t_xxx\n```\n\n### Human-in-the-loop (blocking)\n```bash\nhermes kanban block t_xxx "Rate limit key: IP (NAT-unsafe) or user_id (requires auth)?"\n# Human unblocks when decision is made\nhermes kanban unblock t_xxx\n```

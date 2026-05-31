@@ -40,6 +40,7 @@ When the learner says "too high-level" or "I need to go back to basics":
 - Comparative topics (metals, solvents) → Six-Axis Framework
 - Hierarchical definition chains (NOAEL→BMD→UF→RfD→CSF) → Terminology Ladder
 - Decision-tree/tool-selection topics (statistics, study design, dose selection) → Methodology/Toolkit
+- Regulatory/process frameworks (GLP, quality systems) → Three-Layer Architecture
 - Drill-mode review → just present cards
 
 ## Methodology/Toolkit Pattern
@@ -124,6 +125,58 @@ Fixed-order comparison frame for metals deep dives:
 6. **Carcinogenic mechanism** — direct vs indirect genotoxic vs epigenetic; IARC class
 
 Forces head-to-head comparison on every dimension. Validated 2026-05-19 As/Cd/Cr deep dive.
+
+## Three-Layer Architecture Pattern
+For teaching process-oriented regulatory content (GLP/OECD, quality systems, compliance frameworks) where the material naturally divides into people, procedures, and outputs.
+
+### When to use
+- Topic is a regulatory framework (GLP, GMP, ICH guidelines, quality management systems)
+- The content has clear "who does what," "how it's done," and "what survives" dimensions
+- The exam tests role responsibility questions (Who signs the report? Who audits? Who provides resources?)
+
+### When NOT to use
+- Mechanism-based topics (MOA, AOP) → Journey/Narrative
+- Decision-tree topics (study design selection, statistics) → Methodology/Toolkit
+- Comparative topics (metals) → Six-Axis Framework
+
+### Build steps
+
+1. **Open with the Why** — Lead with the historical catalyst (e.g., IBT scandal for GLP) or the problem the framework was designed to solve. Ask the learner: "If you were the regulator, what would you require?" This engages them in first-principles thinking before the formal structure is revealed.
+
+2. **Present the three-layer architecture** — After establishing the Why, present the structure as three natural layers:
+
+   **Layer 1 — Who (roles and responsibilities)**
+   Who runs it? Who audits it? Who funds it? Who owns the output?
+   - Single point of accountability (Study Director)
+   - Independent oversight (QAU)
+   - Support structure (Management)
+
+   **Layer 2 — How (procedures and rules)**
+   How is work standardized? How are changes documented? What governs daily operations?
+   - Standard Operating Procedures (SOPs)
+   - Protocols and amendments
+   - Equipment qualification and calibration
+
+   **Layer 3 — What survives (data and artifacts)**
+   What records must exist? What are the rules for creating, correcting, and keeping them?
+   - Raw data rules (contemporaneous, indelible, attributable)
+   - Final reports (who signs, what they contain)
+   - Archiving (what goes in, how long, who controls access)
+
+3. **One exam-relevant check-in per layer** — The exam tests role distinctions (Layer 1: SD vs QAU) more than procedural detail. For Layer 1, a question testing independence and accountability is ideal. For Layer 3, a raw-data correction scenario is the typical exam format.
+
+4. **Proceed signal applies** — If the learner responds well to the Why opener and says "continue," present all three layers as structured content. Do not Socratic-discover every sub-point across all three layers — the structure itself is the scaffold.
+
+### Example: GLP/OECD (validated May 30 session)
+Opener: IBT scandal → "What would you require?" → Learner says "regs for documentation and auditability" → "Continue" signal → Present 3 layers:
+- Layer 1: Study Director (owns study), QAU (audits independently), Management (resources, no interference)
+- Layer 2: SOPs (every routine procedure), Protocol (approved before work, amendments for changes)
+- Layer 3: Raw data (no erasures, strike+initial+date+reason), Final report (SD signs, QAU attaches statement), Archive (10-15yr retention)
+
+### Extends to other regulatory content
+- **ICH Q1 (Stability):** Layer 1 = Stability Study Director, QA, Management. Layer 2 = Stability protocols, storage conditions, testing schedule, pull points. Layer 3 = Stability data, chromatograms, trend reports, retest/expiry dates.
+- **GCP:** Layer 1 = Principal Investigator, Sponsor, IRB/IEC. Layer 2 = Case report forms, informed consent, monitoring plan. Layer 3 = Source documents, audit trail, regulatory filing.
+- **21 CFR Part 11 (Electronic Records):** Layer 1 = System owner, users, administrator. Layer 2 = Access controls, audit trails, backup procedures. Layer 3 = Electronic signatures, audit logs, archived records.
 
 ## Terminology Ladder Pattern
 For chains of related terms (NOAEL→BMD→UF→RfD→CSF). Per-rung:

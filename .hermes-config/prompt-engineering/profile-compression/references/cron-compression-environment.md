@@ -10,14 +10,43 @@ When this skill is loaded by the `nightly-self-improvement` cron (06:00 UTC dail
 | `clarify()` | ❌ Disabled | No user present — make autonomous decisions with stated assumptions |
 | `delegate_task()` | ❌ Disabled | Execute all work in the same context |
 | `terminal()`, `read_file()`, `patch()` | ✅ Available | Normal operation |
-| `session_search()` | ✅ Available | Normal operation |
+| `session_search()` | ❌ Disabled | Query `~/.hermes/state.db` via sqlite3 (FTS5 `messages` table) — see Phase 1 |
 
 ## Workflow
 
 ### Phase 1 — Session Review → Save Insights
 
-1. `session_search(sort='newest')` for recent sessions. This returns sessions overview without a query.
-2. Scroll into each session's anchor matches to extract: user corrections, new preferences, environment facts, workflow patterns.
+1. Query `~/.hermes/state.db` via sqlite3 for recent sessions and user messages:
+
+   ```bash
+   # Sessions active in the last 24h, sorted by most recent
+   sqlite3 ~/.hermes/state.db \
+     \"SELECT session_id, datetime(MAX(timestamp),'unixepoch') as last_active,
+             COUNT(*) as msgs
+      FROM messages
+      WHERE timestamp > $(($(date +%s) - 86400))
+      GROUP BY session_id ORDER BY last_active DESC LIMIT 20;\"
+
+   # User messages from the last 24h (exclude cron/worker sessions)
+   sqlite3 ~/.hermes/state.db \
+     \"SELECT datetime(timestamp,'unixepoch'), session_id, substr(content,1,300)
+      FROM messages
+      WHERE role='user'
+        AND timestamp > $(($(date +%s) - 86400))
+        AND session_id NOT LIKE 'cron_%'
+        AND length(content) > 10
+      ORDER BY timestamp DESC;\"
+
+   # Full-text search across all messages (replaces session_search)
+   # Uses FTS5 virtual table — MATCH supports standard FTS5 query syntax
+   sqlite3 ~/.hermes/state.db \
+     \"SELECT datetime(timestamp,'unixepoch'), session_id, role, substr(content,1,200)
+      FROM messages_fts
+      WHERE messages_fts MATCH 'searchterm'
+      ORDER BY rank LIMIT 10;\"
+   ```
+
+2. Review results to extract: user corrections, new preferences, environment facts, workflow patterns.
 3. **When memory tool is unavailable:** write directly to USER.md or MEMORY.md files instead:
    - **User-preference findings** → append to `~/.hermes/memories/USER.md` (compressed DSL, §-delimited)
    - **Operational/environment findings** → append to `~/.hermes/memories/MEMORY.md` (compressed DSL, §-delimited)

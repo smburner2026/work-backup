@@ -103,6 +103,14 @@ bind -n M-Right select-pane -R
 bind -n M-Up select-pane -U
 bind -n M-Down select-pane -D
 
+# Window navigation — Alt+[ and Alt+] for prev/next window
+bind -n M-[ previous-window
+bind -n M-] next-window
+
+# Quick-open Yazi in a split pane from anywhere (Alt+Y)
+bind -n M-y run-shell 'tmux split-window -h -l 40% "yazi"'
+bind -n M-Y run-shell 'tmux split-window -h -l 40% "yazi ."'
+
 # Larger scrollback
 set -g history-limit 50000
 set -sg escape-time 0
@@ -128,9 +136,9 @@ tmux has-session -t "$SESSION" 2>/dev/null && {
 
 tmux new-session -d -s "$SESSION" -c "$WORK_DIR"
 tmux send-keys -t "$SESSION" "PATH=\"$HOME/.bun/bin:\$PATH\" $HERM_PATH" Enter
-tmux split-window -h -t "$SESSION" -c "$WORK_DIR"
-tmux send-keys -t "$SESSION" "yazi" Enter
-tmux select-layout -t "$SESSION" even-horizontal
+
+# Yazi file browser was removed — preview crashes on large/binary files
+# left terminal corrupted on reconnect. See Pitfalls section.
 exec tmux attach-session -t "$SESSION"
 SCRIPT
 chmod +x /usr/local/bin/workbench
@@ -185,7 +193,7 @@ Add to the end of `~/.bashrc` to auto-start the workbench on every terminal/SSH 
 
 ```bash
 if [ -z "$TMUX" ] && command -v workbench &>/dev/null; then
-    workbench
+    workbench 2>/dev/null    # stderr guard: yazi crash noise -> /dev/null
 fi
 ```
 
@@ -209,6 +217,7 @@ This only fires on interactive shells (the `$PS1` guard at the top of `.bashrc` 
 - **No herm installed?** Replace with `hermes --tui` in the script.
 - **Prefer ranger over yazi?** Swap the command (ranger is older, slower, more dependencies).
 - **Auto-launch on login?** See "Auto-launch: zero commands" in the Usage section above.
+- **Boot-persistent (systemd)?** Instead of the workbench script, wrap the session in a systemd service so it starts on VPS boot automatically, without anyone SSHing in. See `devops/remote-agent-infrastructure` → section 3 (tmux) for the full service file pattern (`Type=oneshot + RemainAfterExit=yes`). For a 2-window setup (Window 1: Hermes, Window 2: shell/yazi), add an extra `ExecStart=/usr/bin/tmux new-window -t workbench -n files` after the Hermes window creation.
 - **Want three panes?** Add another `split-window` for a terminal or log tail.
 - **Windows user?** This works over any SSH client (Windows Terminal, WSL, PuTTY).
 
@@ -221,6 +230,11 @@ This only fires on interactive shells (the `$PS1` guard at the top of `.bashrc` 
 - **mouse not working in SSH** — the SSH client must support mouse forwarding. Windows Terminal, iTerm2, and Kitty all do natively. PuTTY needs `Shift+click` to select text.
 - **Alt+arrows captured by local terminal** — Windows Terminal may eat Alt+arrows for tab navigation. If so, user falls back to mouse clicks.
 - **tmux nesting from auto-launch** — if the .bashrc auto-launch lacks the `[ -z "$TMUX" ]` guard, running `workbench` from inside an existing tmux session creates a nested tmux-in-tmux. Every SSH session that happens to share a shell will try to attach the same named session, causing conflicts. The guard prevents both issues.
+- **Alt+[ / Alt+] captured by terminal** — some terminal emulators (GNOME Terminal, Windows Terminal) capture `Alt+[` for their own tab navigation. If window switching doesn't work in tmux, try `Ctrl+B 1` / `Ctrl+B 2` to jump directly to a window number. Or remap to unused keys in tmux.conf.
+- **yazi crash leaves terminal corrupted** — yazi is a Rust TUI that switches to alternate screen mode. If it crashes while previewing a binary file, a large JSON dump, or any file whose preview triggers a segfault in the preview plugin, the terminal stays in raw mode. On reconnection (tmux or SSH reattach), the corrupted escape sequences render as random visible characters (e.g. "mms", garbled text). Fix: `reset` blind-typed into the broken session, or kill the tmux pane. To prevent recurrence:
+  - Guard stderr in the auto-launch: `workbench 2>/dev/null` in .bashrc
+  - Or remove yazi entirely and use a simpler file browser (e.g. `lf`, `nnn`) if preview crashes are persistent
+  - Restart: `kill-session` → next SSH login creates clean session
 
 ---
 
@@ -270,6 +284,77 @@ with open('/root/.config/yazi/flavors/catppuccin-mocha.yazi/flavor.toml', 'rb') 
     print('flavor sections:', len(d))
 "
 ```
+
+---
+
+## Yazi Configuration
+
+After installing and theming, configure Yazi's manager behaviour, previews, and file openers. A bare yazi.toml (just a flavor) means no hidden files shown, default sort order, system vi as the only opener.
+
+### Manager settings
+
+```toml
+# ~/.config/yazi/yazi.toml
+[manager]
+ratio = [1, 4, 3]          # parent | current | preview column widths
+show_hidden = true          # show .dotfiles by default
+show_symlink = true
+sort_by = "modified"        # newest files first
+sort_reverse = true
+linemode = "size"           # show file sizes in listing
+scrolloff = 5
+
+[preview]
+max_height = 600
+max_width = 1200
+cache_dir = "/tmp/yazi-cache"
+image_filter = "lanczos3"
+```
+
+### File openers (edit, read, open)
+
+```toml
+[opener]
+edit = [
+    { run = "vim '{path}'", block = true, desc = "Open in vim" },
+]
+read = [
+    { run = 'bat -p --color=always "{path}"', block = true, desc = "View with bat" },
+]
+open = [
+    { run = 'xdg-open "{path}"', desc = "Open with system default" },
+]
+```
+
+- `edit` (Enter on a text file) → vim
+- `read` (preview key) → bat for syntax-highlighted reading
+- `open` (enter on a non-text file) → xdg-open for system default
+
+### Optional: init.lua
+
+Yazi ≥26 supports `~/.config/yazi/init.lua` for startup hooks. Useful for status bar customization or plugin setup:
+
+```lua
+-- ~/.config/yazi/init.lua
+-- Show current directory path in the status bar
+Status:children_add(function()
+    if h ~= 0 then
+        return ""
+    end
+    return ui.Line(" " .. tostring(cwd))
+end, 500, Status.RIGHT)
+```
+
+### Shell aliases
+
+Add to `~/.bash_aliases` (or `~/.bashrc`) for quick access:
+
+```bash
+alias y='yazi'                                 # Launch Yazi normally
+alias yy='tmux send-keys -t workbench:2 "yazi" Enter'  # Launch in workbench window 2
+```
+
+`y` picks up where you last quit. `yy` sends Yazi to a dedicated shell window in the workbench session.
 
 ---
 

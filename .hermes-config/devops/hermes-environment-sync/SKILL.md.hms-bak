@@ -37,22 +37,24 @@ If you propose raw rsync instead of `hms`, you WILL:
 
 ## Architecture
 
-**Principle: VPS as hub, local as worker.** The VPS runs 24/7 with the Telegram gateway. The local machine syncs to/from the VPS via SSH. No reverse SSH needed — sync is always initiated from local.
+**Principle: VPS as persistent gateway, local as heavy worker.** The VPS runs 24/7 with the Telegram/Discord gateway, cron jobs, and file server. The local machine (WSL desktop with more RAM) handles inference, training, code review, big queries, and any resource-intensive work. Sync is always initiated from local to avoid exposing reverse SSH.
 
 ```
-LOCAL (WSL, session machine)
+LOCAL (WSL, heavy work machine — more RAM)
   │
-  ├── hms pull  ─── SSH ───▶ VPS (Hetzner, always-on)
+  ├── hms pull  ─── SSH ───▶ VPS (always-on gateway)
   │     (skills + session DB          │
-  │      + memory + files)            ├── Telegram gateway (24/7)
-  │                                   ├── Skills (canonical)
+  │      + memory + files)            ├── Telegram/Discord gateway (24/7)
+  │                                   ├── Cron jobs (dream cycle, background)
+  │                                   ├── Skills (canonical source of truth)
   ├── hms push  ◀── SSH ─────│        ├── Session DB (lcm.db)
   │     (everything back)             ├── Mnemosyne memory
   │                                   └── Work files
-  └── cron */30 * * * *
-        hms auto (skills + files only, no DB)
+  │
+  └── hms watch (continuous)
+        polls every 30s for changes
+        auto-syncs both directions
 ```
-
 ### Sync Strategy by Data Type
 
 | Data | Method | Why |
@@ -83,29 +85,28 @@ systemctl --user status hermes-gateway.service
 
 **Step 1 — Copy the script from VPS:**
 ```bash
-scp hetzner:.hermes/bin/hms ~/.hermes/bin/hms
+scp root@100.113.2.25:.hermes/bin/hms ~/.hermes/bin/hms
 chmod +x ~/.hermes/bin/hms
 ```
-Replace `hetzner` with your SSH alias or `user@vps-ip`.
+Replace the IP with your VPS Tailscale IP or SSH hostname.
 
-**Step 2 — Environment setup in ~/.bashrc:**
+**Step 2 — Run setup (mirrors VPS structure to local):**
 ```bash
-echo 'export PATH="$PATH:$HOME/.hermes/bin"' >> ~/.bashrc
-echo 'export HMS_VPS_HOST=hetzner' >> ~/.bashrc    # or your SSH hostname
-source ~/.bashrc
+hms setup
 ```
+This runs cmd_pull (copies skills, plugins, scripts, bin, cron, profiles, work files, databases) and prints guidance for PATH, cron, and boot-up auto-pull.
 
 **Step 3 — Test connectivity:**
 ```bash
 hms status
 ```
-Shows skill counts, DB sizes, work file diffs, and VPS gateway status.
+Shows skill counts, DB sizes, profile counts, work file diffs, and VPS gateway status.
 
-**Step 4 — First pull:**
+**Step 4 — Start continuous sync (optional):**
 ```bash
-hms pull
+hms watch
 ```
-Brings everything (skills, sessions, memory, files, config) from VPS → local.
+Background daemon polls both sides every 30 seconds, auto-syncs changes.
 
 ## Commands
 
@@ -113,39 +114,60 @@ Brings everything (skills, sessions, memory, files, config) from VPS → local.
 
 Full sync including session DB. Briefly stops the VPS gateway (~15s) for clean DB handoff. Run when you finish working on the local machine.
 
-**What it does:**
-1. Skills → VPS (rsync)
-2. Work files → VPS (rsync --delete, excludes git/node/venv)
-3. VPS gateway stop (systemctl --user stop)
-4. Session DB snapshot (VACUUM INTO) → VPS
-5. Mnemosyne memory → VPS (rsync --delete, excludes models/logs)
-6. Legacy memories → VPS
-7. Profiles → VPS (excludes .env, auth.json)
-8. (config.yaml is per-machine — NOT synced; manage independently)
-9. VPS gateway start + health check
+**What it syncs:**
+- skills/, plugins/, scripts/, bin/, cron/ -- full directory structure
+- profiles/ (excludes .env, auth.json, *.lock)
+- Session DB (lcm.db) -- timestamp-gated, VACUUM INTO snapshot
+- Mnemosyne memory (excludes models/, cache/)
+- Legacy memories/
+- Work files (~/work -- excludes .git, node_modules, venv, __pycache__)
+- HMS script itself (self-syncs the binary)
+- Does NOT sync: config.yaml, .env, auth.json (per-machine)
 
 ### `hms pull` — VPS → Local (start of local session)
 
-Full sync from VPS to local. VPS gateway stays running — VACUUM INTO works on a live DB. Run when you sit down at the local machine.
+Full sync from VPS to local. VPS gateway stays running -- VACUUM INTO works on a live DB. Run when you sit down at the local machine.
 
-**What it does:**
-1. Skills ← VPS (rsync)
-2. Work files ← VPS (rsync --delete)
-3. Session DB: snapshot VPS (VACUUM INTO), rsync to local, clean WAL files
-4. Mnemosyne memory ← VPS
-5. Legacy memories ← VPS
-6. Profiles ← VPS
-7. (config.yaml is per-machine — NOT synced; manage independently)
+Same scope as push but in reverse. Also syncs the HMS script itself from VPS so local always has the latest version.
 
 ### `hms auto` — Skills + files only (for cron)
 
-Lightweight sync meant for cron. No database touching, no gateway downtime. Syncs skills and work files both ways using `--update` (doesn't overwrite newer files).
+Lightweight sync for cron. No database touching, no gateway downtime. Syncs skills and work files both ways using --update (never overwrite newer).
 
-Suitable for `*/30 * * * *` cron jobs.
+Suitable for */30 * * * * cron jobs.
 
 ### `hms status` — Sync differences
 
-Shows skill counts, DB sizes, work file diffs (both directions), and VPS gateway status. Use before deciding whether to push or pull.
+Shows skill counts, DB sizes, work file diffs (both directions), and VPS gateway status. Also shows whether the HMS watch daemon is running.
+
+### `hms watch` — Continuous bidirectional sync daemon
+
+Starts a background daemon that polls both VPS and local every 30 seconds for file changes. On detecting changes, runs push + pull automatically.
+
+Polls for changes by checking files modified within the last minute (via find -mmin -1). Runs cmd_pull then cmd_push when changes are detected on either side.
+
+Logs to ~/.hermes/hms/watch.log. PID file at ~/.hermes/hms/watch.pid.
+
+```
+hms watch       # Start daemon
+hms stop        # Stop daemon
+hms status      # Shows daemon status + recent log tail
+```
+
+### `hms setup` — Initialize local Hermes from VPS (first-time)
+
+One-time setup that mirrors the entire VPS Hermes structure to the local machine. Runs cmd_pull, then prints guidance for:
+- Adding ~/.hermes/bin to PATH
+- Setting up cron for auto-sync every 30 minutes
+- Setting up boot-up auto-pull in ~/.bashrc
+
+### `hms merge-db` — Smart session DB merge
+
+When both VPS and local have accumulated sessions independently (VPS from gateway, local from CLI), this determines which DB is newer and syncs the newer one to the other side. Pulls the older side's DB as a backup first, then pushes the newer.
+
+### `hms cleanup` — Remove .hms-bak debris, check disk
+
+Removes stale .hms-bak backup files created by rsync --backup. Reports disk usage and top space hogs. Works both from local (via SSH) and directly on VPS.
 
 ## Cron Auto-Sync Setup
 
@@ -173,10 +195,25 @@ sudo service cron status &>/dev/null || sudo service cron start >/dev/null 2>&1
 
 | When | Run | What happens |
 |------|-----|-------------|
-| Sit down at local machine | `hms pull` | Skills, sessions, memory, files ← VPS |
-| Work locally (2-4h) | cron runs `hms auto` every 30min | Skills + files sync silently both ways |
+| Sit down at local machine | `hms pull` | Skills, sessions, memory, files, profiles ← VPS |
+| Work locally (heavy tasks) | `hms watch` or cron `hms auto` | Continuous or every 30min background sync |
+| Need a file from VPS | agent uses `deliver put` | File server on Tailscale IP → download from browser |
 | Leave local machine | `hms push` | Everything back to VPS. Gateway down ~15s for DB sync |
-| Access via Telegram on VPS | nothing | VPS has latest state from push |
+| Access via Telegram on VPS | nothing | VPS has latest state from push + watch cycles |
+
+## File Delivery to Local (Supplement to HMS)
+
+HMS handles bidirectional sync of Hermes state (skills, DBs, memory, profiles, work files). For **one-off file delivery** (large PDFs, media, downloaded books), use the Tailscale-bound file server instead.
+
+See `references/vps-file-server.md` for full setup and commands.
+
+Quick workflow:
+1. Agent runs `deliver put /path/to/file` (copies to ~/deliver/)
+2. User opens `http://100.113.2.25:8080` in local browser
+3. Downloads, then tells agent "nuke them"
+4. Agent runs `deliver cleanup`
+
+The file server is stopped when not in use to minimize surface area.
 
 ## Database Sync: How VACUUM INTO Works
 

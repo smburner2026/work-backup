@@ -39,17 +39,9 @@ No columns to configure. No WIP limits to write. No visual board to install. It'
 
 ### You Don't Need Extra Profiles
 
-The `default` profile is your main Hermes agent. Assigning a card to `default` just means *the main agent handles it* — same as asking me to do something in conversation. **Profiles are optional specialization** (parallel execution, isolated tool sessions), not a system requirement. One profile is enough.
+You don't need extra profiles. Assigning a card to `default` means the main agent handles it.
 
-### The Five Essential Commands
-
-| Action | Command |
-|--------|---------|
-| **Create a card** | `hermes kanban create "task name" --assign default` |
-| **See all cards** | `hermes kanban list` |
-| **Move to ready** | `hermes kanban transition <id> ready` |
-| **Start working** | `hermes kanban transition <id> doing` |
-| **Mark done** | `hermes kanban complete <id>` |
+**⚠️ Pitfall: cards with an assignee go straight to "ready" on create.** The dispatcher picks them up immediately — there's no "todo" pause. If you want to discuss scope first, use `--initial-status blocked` to park the card, then unblock when ready. See `references/hermes-kanban-commands.md` → "Strategy-first" pattern.
 
 ### What a Board Actually Looks Like
 
@@ -79,26 +71,7 @@ But again: **all of this is optional.** Assigning every card to `default` gives 
 
 Real workflow from this session's DABT study plan:
 
-```
-hermes kanban create "Plan today's study session" --assign default --tag study
-hermes kanban create "Review Carcinogenesis pathways" --assign default --tag study
-hermes kanban create "Create flashcards: DNA Repair" --assign default --tag study
-
-# See the board:
-hermes kanban list
-
-# Start working:
-hermes kanban transition t_xxx doing
-
-# Mark complete:
-hermes kanban complete t_xxx
-
-# Something's stuck:
-hermes kanban block t_xxx "Waiting on source PDF"
-hermes kanban unblock t_xxx        # unstick when ready
-```
-
-Tags (`--tag study`, `--tag trade`) are optional but help filter later with `hermes kanban list --tag study`.
+```\nhermes kanban create "Plan today's study session" --assignee default\nhermes kanban create "Review Carcinogenesis pathways" --assignee default\nhermes kanban create "Create flashcards: DNA Repair" --assignee default\n\n# See the board:\nhermes kanban list\n\n# Start working:\nhermes kanban transition t_xxx doing\n\n# Mark complete:\nhermes kanban complete t_xxx\n\n# Something's stuck:\nhermes kanban block t_xxx "Waiting on source PDF"\nhermes kanban unblock t_xxx        # unstick when ready\n```
 
 ### Card Lifecycle Reference
 
@@ -196,6 +169,7 @@ If you're new to Kanban or need a refresher, here's the compressed model:
 | Moving from Scrum to Kanban | `references/transition-guide.md` |
 | Confused by a Kanban term | `references/glossary.md` |
 | Setting up the seven cadences | `references/cadences.md` |
+| Gated verification + cron notification | `references/gated-verification.md` |
 
 ## Common Anti-Patterns to Watch For
 

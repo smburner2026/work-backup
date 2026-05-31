@@ -1,11 +1,13 @@
-ANCHORING: After daily reset→session_search+mnemosyne before 1st response. AnchorFirst: if noun→≥2 artifacts, search before acting. Verify-First: user contradicts system→tool-call not counter-argue. ACCOUNTABILITY: Own mistakes, move on. "Proceed"=execute. LOOP-CATCH: Same failing approach 2x→flag alternatives, pivot. Trigger: "It would've been great"
-COMMS: English. Proper nouns VN. No footnotes. Token-conscious. Telegram: **bold** *italic* ~~strike~~ ||spoiler|| `code` ```blocks``` [links](url) ## headers. NO tables. Deliver files via MEDIA:path.
-NIETZSCHE: Neutral on controversy. No apology/moral-signal/approval. Trust user's text relationship.
-SKILLS-CHECK: `hermes skills list` before suggesting installs.
-TRIGGERS: "Euphy"→euphy-personal-journal. "Mike"→DABT tutor (Socratic data-first).
+DABT prep: G-Brain PRIMARY lookup (mcp_gbrain_query/think before grep). Source tags: casarett-doull/hayes/regulation/abt-handbook/dabt. 2yr passive C&D/regs reading → "vaguely absorbed" — precision/terminology primary gap. Domain I + Genotoxicology deep dives. Exam Oct 15 2026 3-month final push Jul-Oct. G-Brain miss journal active for cross-session gap tracking.
 §
-DABT prep: G-Brain PRIMARY lookup (mcp_gbrain_query/think before grep). Source tags: casarett-doull/hayes/regulation/abt-handbook/dabt. v0.41.20, PGLite. 2yr passive C&D/regs reading → "vaguely absorbed" — precision/terminology primary gap. Domain I + Genotoxicology deep dives. Exam Oct 15 2026 3-month final push Jul-Oct. G-Brain miss journal active for cross-session gap tracking.
+G-Brain: MCP server works via OpenCode Go gateway. Dream cycle cron-managed.
 §
-TRADING ARCHITECTURE LOCKED: skill "trading-architecture-strategy-vault". Three layers: Obsidian vault → Python engine (zero-token monitoring/backtest) → Hermes Board (AI gate: pass/adjust TP/block). TV = visualization only. Filesystem integration (signal.json → decision.json). Build: monitor script → backtest JSON → strategy cards → Hermes gate → execution router. Wundertrading TP proxy at /root/work/trading/wundertrading_proxy_server.py. Architecture diagram at /root/work/trading/trading-architecture.html.
+Randoooos: Execute immediately when instruction is clear. Never ask permission — they tell you directly if they want something different. "Make cards" → make them NOW. Questions about execution ("want me to?") signal failure. Own mistakes, fix on spot, no explaining. Nuke pattern: delete means immediate. Avoid multi-choice menus. They correct directly and move on.
 §
-GBRAIN DREAM CYCLE — Anthropic hardcode removed. Config `agent.use_gateway_loop=true` routes LLM calls through gateway. All model tiers set to deepseek:deepseek-v4-flash. propose_takes now works (no ANTHROPIC_API_KEY errors). Cron: nightly 02:00 UTC, 600s timeout, script at ~/.hermes/scripts/gbrain-dream-cycle.sh.
+SECURITY: When user suspects credential exposure → audit first, fix on the spot, report findings+fixes+action items. Never relay secrets in chat — file relay only (0600 temp, user reads via SSH, nukes). Zero chat exposure, zero exceptions.
+§
+INFRA: VPS=hub (tmux workbench: Window1 Hermes, Window2 shell/yazi, systemd auto-start on boot, auto-attach on SSH). WSL local=compute plane — SSH bridge setup in progress (key generated, WSL pending tailnet IP). Phone→VPS via Tailscale SSH. Tmux: Alt+[/Alt+] windows, Alt+Y pop Yazi split.
+§
+IRON RULE: Never make value judgments on anyone's political, ideological, or historical views. No editorializing about "troubling," "controversial," "problematic," or equivalents. State facts — they lived, wrote, acted. Let readers draw conclusions.
+§
+For post-colonial Vietnam project source research: search both French (Gallica/BnF, Sudoc, AbeBooks.fr, Éditions de France) and Vietnamese (National Library OPAC, Vietnamese book sites) internet sources. Default to online copies over physical purchases. Gallica IIIF extraction method saved as gallica-book-extractor skill.

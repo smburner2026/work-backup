@@ -1,0 +1,1094 @@
+[
+  {
+    "question_id": "DABT-4824",
+    "domain": "Domain I",
+    "sub_domain": "C.Interpret",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4489",
+    "domain": "Domain IV",
+    "sub_domain": "Applied",
+    "task": "T8",
+    "confidence": "medium"
+  },
+  {
+    "question_id": "DABT-4491",
+    "domain": "Domain IV",
+    "sub_domain": "Applied",
+    "task": "T8",
+    "confidence": "medium"
+  },
+  {
+    "question_id": "DABT-4494",
+    "domain": "Domain IV",
+    "sub_domain": "Applied",
+    "task": "T8",
+    "confidence": "medium"
+  },
+  {
+    "question_id": "DABT-4495",
+    "domain": "Domain IV",
+    "sub_domain": "Applied",
+    "task": "T8",
+    "confidence": "medium"
+  },
+  {
+    "question_id": "DABT-4497",
+    "domain": "Domain I",
+    "sub_domain": "B.Execute",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4583",
+    "domain": "Domain I",
+    "sub_domain": "A.Design",
+    "task": "",
+    "confidence": "medium"
+  },
+  {
+    "question_id": "DABT-4586",
+    "domain": "Domain I",
+    "sub_domain": "C.Interpret",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4587",
+    "domain": "Domain IV",
+    "sub_domain": "Applied",
+    "task": "T3",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4601",
+    "domain": "Domain I",
+    "sub_domain": "B.Execute",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4605",
+    "domain": "Domain I",
+    "sub_domain": "A.Design",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4612",
+    "domain": "Domain I",
+    "sub_domain": "C.Interpret",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4615",
+    "domain": "Domain IV",
+    "sub_domain": "Applied",
+    "task": "T7",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4619",
+    "domain": "Domain II",
+    "sub_domain": "Mechanistic",
+    "task": "T4",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4620",
+    "domain": "Domain II",
+    "sub_domain": "Mechanistic",
+    "task": "T4",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4623",
+    "domain": "Domain II",
+    "sub_domain": "Mechanistic",
+    "task": "T4",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4631",
+    "domain": "Domain II",
+    "sub_domain": "Mechanistic",
+    "task": "T4",
+    "confidence": "medium"
+  },
+  {
+    "question_id": "DABT-4633",
+    "domain": "Domain I",
+    "sub_domain": "C.Interpret",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4635",
+    "domain": "Domain I",
+    "sub_domain": "C.Interpret",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4637",
+    "domain": "Domain I",
+    "sub_domain": "C.Interpret",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4641",
+    "domain": "Domain III",
+    "sub_domain": "D.RiskChar&Mgmt",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4642",
+    "domain": "Domain I",
+    "sub_domain": "C.Interpret",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4647",
+    "domain": "Domain IV",
+    "sub_domain": "Applied",
+    "task": "T7",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4648",
+    "domain": "Domain IV",
+    "sub_domain": "Applied",
+    "task": "T7",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4649",
+    "domain": "Domain IV",
+    "sub_domain": "Applied",
+    "task": "T3",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4657",
+    "domain": "Domain IV",
+    "sub_domain": "Applied",
+    "task": "T8",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4664",
+    "domain": "Domain IV",
+    "sub_domain": "Applied",
+    "task": "T8",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4665",
+    "domain": "Domain IV",
+    "sub_domain": "Applied",
+    "task": "T8",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4678",
+    "domain": "Domain IV",
+    "sub_domain": "Applied",
+    "task": "T8",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4679",
+    "domain": "Domain IV",
+    "sub_domain": "Applied",
+    "task": "T8",
+    "confidence": "medium"
+  },
+  {
+    "question_id": "DABT-4681",
+    "domain": "Domain IV",
+    "sub_domain": "Applied",
+    "task": "T8",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4682",
+    "domain": "Domain IV",
+    "sub_domain": "Applied",
+    "task": "",
+    "confidence": "medium"
+  },
+  {
+    "question_id": "DABT-4686",
+    "domain": "Domain IV",
+    "sub_domain": "Applied",
+    "task": "T8",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4687",
+    "domain": "Domain I",
+    "sub_domain": "A.Design",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4694",
+    "domain": "Domain IV",
+    "sub_domain": "Applied",
+    "task": "T8",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4696",
+    "domain": "Domain IV",
+    "sub_domain": "Applied",
+    "task": "T8",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4700",
+    "domain": "Domain IV",
+    "sub_domain": "Applied",
+    "task": "T8",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4704",
+    "domain": "Domain I",
+    "sub_domain": "C.Interpret",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4706",
+    "domain": "Domain III",
+    "sub_domain": "A.Hazard ID",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4707",
+    "domain": "Domain II",
+    "sub_domain": "Mechanistic",
+    "task": "T4",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4717",
+    "domain": "Domain II",
+    "sub_domain": "Mechanistic",
+    "task": "T4",
+    "confidence": "medium"
+  },
+  {
+    "question_id": "DABT-4719",
+    "domain": "Domain I",
+    "sub_domain": "B.Execute",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4734",
+    "domain": "Domain I",
+    "sub_domain": "A.Design",
+    "task": "",
+    "confidence": "medium"
+  },
+  {
+    "question_id": "DABT-4738",
+    "domain": "Domain I",
+    "sub_domain": "A.Design",
+    "task": "",
+    "confidence": "medium"
+  },
+  {
+    "question_id": "DABT-4763",
+    "domain": "Domain II",
+    "sub_domain": "Mechanistic",
+    "task": "T4",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4764",
+    "domain": "Domain II",
+    "sub_domain": "Mechanistic",
+    "task": "T4",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4767",
+    "domain": "Domain II",
+    "sub_domain": "Mechanistic",
+    "task": "T4",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4770",
+    "domain": "Domain II",
+    "sub_domain": "Mechanistic",
+    "task": "T4",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4776",
+    "domain": "Domain III",
+    "sub_domain": "D.RiskChar&Mgmt",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4777",
+    "domain": "Domain III",
+    "sub_domain": "D.RiskChar&Mgmt",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4781",
+    "domain": "Domain I",
+    "sub_domain": "C.Interpret",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4787",
+    "domain": "Domain I",
+    "sub_domain": "A.Design",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4795",
+    "domain": "Domain IV",
+    "sub_domain": "Applied",
+    "task": "T8",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4796",
+    "domain": "Domain IV",
+    "sub_domain": "Applied",
+    "task": "T8",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4797",
+    "domain": "Domain IV",
+    "sub_domain": "Applied",
+    "task": "T8",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4799",
+    "domain": "Domain IV",
+    "sub_domain": "Applied",
+    "task": "T8",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4801",
+    "domain": "Domain IV",
+    "sub_domain": "Applied",
+    "task": "T8",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4804",
+    "domain": "Domain I",
+    "sub_domain": "C.Interpret",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4814",
+    "domain": "Domain I",
+    "sub_domain": "C.Interpret",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4822",
+    "domain": "Domain I",
+    "sub_domain": "C.Interpret",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4827",
+    "domain": "Domain I",
+    "sub_domain": "C.Interpret",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4829",
+    "domain": "Domain III",
+    "sub_domain": "B.Exposure",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4837",
+    "domain": "Domain IV",
+    "sub_domain": "Applied",
+    "task": "T3",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4838",
+    "domain": "Domain III",
+    "sub_domain": "D.RiskChar&Mgmt",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4839",
+    "domain": "Domain IV",
+    "sub_domain": "Applied",
+    "task": "T3",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4842",
+    "domain": "Domain I",
+    "sub_domain": "B.Execute",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4851",
+    "domain": "Domain I",
+    "sub_domain": "B.Execute",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4941",
+    "domain": "Domain IV",
+    "sub_domain": "Applied",
+    "task": "T8",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4852",
+    "domain": "Domain I",
+    "sub_domain": "B.Execute",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4853",
+    "domain": "Domain I",
+    "sub_domain": "B.Execute",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4854",
+    "domain": "Domain I",
+    "sub_domain": "B.Execute",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4855",
+    "domain": "Domain II",
+    "sub_domain": "Mechanistic",
+    "task": "T4",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4856",
+    "domain": "Domain II",
+    "sub_domain": "Mechanistic",
+    "task": "T4",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4857",
+    "domain": "Domain I",
+    "sub_domain": "A.Design",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4858",
+    "domain": "Domain I",
+    "sub_domain": "A.Design",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4859",
+    "domain": "Domain II",
+    "sub_domain": "Mechanistic",
+    "task": "T4",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4860",
+    "domain": "Domain I",
+    "sub_domain": "C.Interpret",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4843",
+    "domain": "Domain I",
+    "sub_domain": "A.Design",
+    "task": "",
+    "confidence": "medium"
+  },
+  {
+    "question_id": "DABT-4861",
+    "domain": "Domain I",
+    "sub_domain": "A.Design",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4862",
+    "domain": "Domain I",
+    "sub_domain": "C.Interpret",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4863",
+    "domain": "Domain I",
+    "sub_domain": "A.Design",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4864",
+    "domain": "Domain I",
+    "sub_domain": "A.Design",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4865",
+    "domain": "Domain I",
+    "sub_domain": "B.Execute",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4866",
+    "domain": "Domain I",
+    "sub_domain": "C.Interpret",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4867",
+    "domain": "Domain I",
+    "sub_domain": "B.Execute",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4868",
+    "domain": "Domain I",
+    "sub_domain": "C.Interpret",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4869",
+    "domain": "Domain I",
+    "sub_domain": "A.Design",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4870",
+    "domain": "Domain III",
+    "sub_domain": "D.RiskChar&Mgmt",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4844",
+    "domain": "Domain I",
+    "sub_domain": "C.Interpret",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4871",
+    "domain": "Domain I",
+    "sub_domain": "A.Design",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4872",
+    "domain": "Domain IV",
+    "sub_domain": "Applied",
+    "task": "T3",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4873",
+    "domain": "Domain IV",
+    "sub_domain": "Applied",
+    "task": "T8",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4874",
+    "domain": "Domain II",
+    "sub_domain": "Mechanistic",
+    "task": "T4",
+    "confidence": "medium"
+  },
+  {
+    "question_id": "DABT-4875",
+    "domain": "Domain I",
+    "sub_domain": "C.Interpret",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4876",
+    "domain": "Domain I",
+    "sub_domain": "C.Interpret",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4877",
+    "domain": "Domain I",
+    "sub_domain": "C.Interpret",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4878",
+    "domain": "Domain I",
+    "sub_domain": "C.Interpret",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4879",
+    "domain": "Domain IV",
+    "sub_domain": "Applied",
+    "task": "T8",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4880",
+    "domain": "Domain I",
+    "sub_domain": "C.Interpret",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4845",
+    "domain": "Domain I",
+    "sub_domain": "C.Interpret",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4881",
+    "domain": "Domain II",
+    "sub_domain": "Mechanistic",
+    "task": "T4",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4882",
+    "domain": "Domain I",
+    "sub_domain": "B.Execute",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4883",
+    "domain": "Domain IV",
+    "sub_domain": "Applied",
+    "task": "T8",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4884",
+    "domain": "Domain IV",
+    "sub_domain": "Applied",
+    "task": "T8",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4885",
+    "domain": "Domain II",
+    "sub_domain": "Mechanistic",
+    "task": "T4",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4886",
+    "domain": "Domain IV",
+    "sub_domain": "Applied",
+    "task": "T7",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4887",
+    "domain": "Domain II",
+    "sub_domain": "Mechanistic",
+    "task": "T4",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4888",
+    "domain": "Domain II",
+    "sub_domain": "Mechanistic",
+    "task": "T4",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4889",
+    "domain": "Domain IV",
+    "sub_domain": "Applied",
+    "task": "T7",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4890",
+    "domain": "Domain IV",
+    "sub_domain": "Applied",
+    "task": "T7",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4846",
+    "domain": "Domain I",
+    "sub_domain": "B.Execute",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4891",
+    "domain": "Domain IV",
+    "sub_domain": "Applied",
+    "task": "",
+    "confidence": "medium"
+  },
+  {
+    "question_id": "DABT-4892",
+    "domain": "Domain I",
+    "sub_domain": "C.Interpret",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4893",
+    "domain": "Domain II",
+    "sub_domain": "Mechanistic",
+    "task": "T4",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4894",
+    "domain": "Domain I",
+    "sub_domain": "A.Design",
+    "task": "",
+    "confidence": "medium"
+  },
+  {
+    "question_id": "DABT-4895",
+    "domain": "Domain II",
+    "sub_domain": "Mechanistic",
+    "task": "T4",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4896",
+    "domain": "Domain III",
+    "sub_domain": "A.Hazard ID",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4897",
+    "domain": "Domain II",
+    "sub_domain": "Mechanistic",
+    "task": "T4",
+    "confidence": "medium"
+  },
+  {
+    "question_id": "DABT-4898",
+    "domain": "Domain II",
+    "sub_domain": "Mechanistic",
+    "task": "T4",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4899",
+    "domain": "Domain II",
+    "sub_domain": "Mechanistic",
+    "task": "T4",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4900",
+    "domain": "Domain II",
+    "sub_domain": "Mechanistic",
+    "task": "T4",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4847",
+    "domain": "Domain I",
+    "sub_domain": "A.Design",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4901",
+    "domain": "Domain IV",
+    "sub_domain": "Applied",
+    "task": "T8",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4902",
+    "domain": "Domain IV",
+    "sub_domain": "Applied",
+    "task": "T7",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4903",
+    "domain": "Domain II",
+    "sub_domain": "Mechanistic",
+    "task": "T4",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4904",
+    "domain": "Domain IV",
+    "sub_domain": "Applied",
+    "task": "T8",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4905",
+    "domain": "Domain IV",
+    "sub_domain": "Applied",
+    "task": "T8",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4906",
+    "domain": "Domain II",
+    "sub_domain": "Mechanistic",
+    "task": "T4",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4907",
+    "domain": "Domain I",
+    "sub_domain": "C.Interpret",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4908",
+    "domain": "Domain I",
+    "sub_domain": "C.Interpret",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4909",
+    "domain": "Domain I",
+    "sub_domain": "C.Interpret",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4910",
+    "domain": "Domain I",
+    "sub_domain": "C.Interpret",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4848",
+    "domain": "Domain II",
+    "sub_domain": "Mechanistic",
+    "task": "T4",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4911",
+    "domain": "Domain I",
+    "sub_domain": "C.Interpret",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4912",
+    "domain": "Domain I",
+    "sub_domain": "C.Interpret",
+    "task": "",
+    "confidence": "medium"
+  },
+  {
+    "question_id": "DABT-4913",
+    "domain": "Domain II",
+    "sub_domain": "Mechanistic",
+    "task": "T4",
+    "confidence": "medium"
+  },
+  {
+    "question_id": "DABT-4914",
+    "domain": "Domain I",
+    "sub_domain": "C.Interpret",
+    "task": "",
+    "confidence": "medium"
+  },
+  {
+    "question_id": "DABT-4915",
+    "domain": "Domain I",
+    "sub_domain": "C.Interpret",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4916",
+    "domain": "Domain I",
+    "sub_domain": "C.Interpret",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4917",
+    "domain": "Domain III",
+    "sub_domain": "C.Dose-Response",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4918",
+    "domain": "Domain I",
+    "sub_domain": "C.Interpret",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4919",
+    "domain": "Domain III",
+    "sub_domain": "C.Dose-Response",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4920",
+    "domain": "Domain III",
+    "sub_domain": "C.Dose-Response",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4849",
+    "domain": "Domain I",
+    "sub_domain": "C.Interpret",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4921",
+    "domain": "Domain I",
+    "sub_domain": "C.Interpret",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4922",
+    "domain": "Domain III",
+    "sub_domain": "D.RiskChar&Mgmt",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4923",
+    "domain": "Domain III",
+    "sub_domain": "C.Dose-Response",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4924",
+    "domain": "Domain III",
+    "sub_domain": "C.Dose-Response",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4925",
+    "domain": "Domain III",
+    "sub_domain": "C.Dose-Response",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4926",
+    "domain": "Domain III",
+    "sub_domain": "D.RiskChar&Mgmt",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4927",
+    "domain": "Domain III",
+    "sub_domain": "D.RiskChar&Mgmt",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4928",
+    "domain": "Domain III",
+    "sub_domain": "C.Dose-Response",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4929",
+    "domain": "Domain III",
+    "sub_domain": "C.Dose-Response",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4930",
+    "domain": "Domain III",
+    "sub_domain": "B.Exposure",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4850",
+    "domain": "Domain I",
+    "sub_domain": "A.Design",
+    "task": "",
+    "confidence": "high"
+  },
+  {
+    "question_id": "DABT-4931",
+    "domain": "Domain III",
+    "sub_domain": "D.RiskChar&Mgmt",
+    "task": "",
+    "confidence": "high"
+  }
+]

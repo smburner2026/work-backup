@@ -53,6 +53,35 @@ If the user only gives a vague reference ("a 19th century Vietnamese census"), a
 | **Project Gutenberg** (gutenberg.org) | Public domain texts | Direct search API or `web_search` |
 | **WorldCat** (worldcat.org) | Find which libraries hold a copy | `web_search` for catalog records |
 
+### Tier 0.5 — API Fallback (when web search / browser tools fail)
+
+When `web_search`, `web_extract`, and `browser_navigate` all fail (rates exhausted, CAPTCHAs, Chrome unavailable), fall back to direct API calls via `curl`. These are no-auth endpoints that return reliable bibliographic data.
+
+| Source | Endpoint | Best for |
+|--------|----------|----------|
+| **OpenLibrary Search** | `https://openlibrary.org/search.json?q=<QUERY>` | Title/author search → work key + edition key |
+| **OpenLibrary Work** | `https://openlibrary.org/works/{OLkey}.json` | Work-level metadata (subjects, authors, LC class) |
+| **OpenLibrary Edition** | `https://openlibrary.org/books/{OLkey}.json` | Edition-level data (ISBN, publisher, pages, pagination, series) |
+| **Goodreads** | `https://www.goodreads.com/book/show/{id}` | Kindle price, affiliate purchase links, reviews, embedded `__NEXT_DATA__` JSON |
+| **Wikipedia Search** | `https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=<QUERY>&format=json` | Book citations, academic bibliography discovery (e.g. finding that a rare book is cited by Wikipedia's Yên Thế Insurrection article) |
+| **Wikipedia External Links** | `https://en.wikipedia.org/w/api.php?action=parse&page=<PAGE>&prop=externallinks&format=json` | Extract external links from a Wikipedia page (bibliography references, archive URLs, authority records) |
+| **AbeBooks** | `https://www.abebooks.fr/servlet/SearchResults?tn=<TITLE>&an=<AUTHOR>` | Used/rare physical copies for out-of-print books. Parsable via curl (no API key needed). Search per-country domain (.fr, .com, .co.uk) for best results on region-specific books. |
+
+See `references/book-metadata-apis.md` for full endpoint docs and response parsing patterns.
+See `references/french-colonial-sources.md` for the specific pattern of acquiring rare French colonial-era books on Indochina (out-of-print, copyright-restricted, used-physical-only).
+
+**Triage rule for in-copyright books:** If `ebook_access` is `"no_ebook"` AND `has_fulltext` is `false` AND the book was published after 1928 (US) or 1970+ (international), the book is under copyright and no free electronic copy exists. In that case, report paid ebook availability (Kindle, Google Play, Kobo, Apple Books — found via Goodreads affiliate links) and used physical copy sources (AbeBooks, Alibris).
+
+### Tier 1b — Direct Sharing / P2P Sources
+
+Always check if the source is already hosted on a personal/community sharing platform before resorting to archives. Common patterns:
+
+| Source | How to access | Pitfall |
+|--------|---------------|---------|
+| **Google Drive shared folder** | Extract folder ID from URL, use `docs.google.com/uc?export=download&id=<FILEID>` for individual files. File IDs are embedded in the page JavaScript. | Folders may show only a subset of files publicly. The link text says "Trọn bộ" (complete set) but only what's publicly visible is accessible. User may need to mirror the folder. |
+| **Personal blogs / WordPress sites** | `web_extract` pages or curl for embedded download buttons | WordPress sites often have ad-heavy layouts. Target the download URL patterns from the button HTML. |
+| **Telegram / Discord** | Files shared in channels | Size limits, expiration windows |
+
 ### Tier 2 — Shadow Libraries (for out-of-print, restricted, or paywalled sources)
 
 | Source | Best for | Search method |
@@ -65,7 +94,8 @@ If the user only gives a vague reference ("a 19th century Vietnamese census"), a
 | Source | Best for |
 |--------|----------|
 | **JSTOR** (jstor.org) | Academic journal articles (some free) |
-| **Gallica** (gallica.bnf.fr) | French-language historical documents |
+| **Gallica** (gallica.bnf.fr) | French-language historical documents (pre-1935 public domain in France) |
+| **Vietnamese-French colonial books** | See `references/french-colonial-sources.md` — pattern for rare French colonial-era biographies that are out-of-print, copyright-restricted, and only available as used physical copies |
 | **Google Books Ngram** | Finding which books contain specific terms |
 | **National Archives** (archives.gov) | US government records |
 | **Repository-specific** | Ask user for institution-specific digital archives |
@@ -111,7 +141,94 @@ Use the `academic-book-retrieval` or `book-hunting` skill workflow:
 - Public domain works: direct download via the "Download" button (requires login for some)
 - In-copyright: limited to search/snippet — note this to user
 
-### General Download Pattern
+### From Google Drive (Shared Folder)
+
+```bash
+# 1. Get the folder URL from the source page
+# 2. Visit the folder URL to scrape file IDs from JavaScript data
+#    Look for: file IDs in URL patterns like "id=XXXXXXXXX"
+# 3. Download each file:
+curl -sL -o output.pdf "https://docs.google.com/uc?export=download&id=<FILE_ID>"
+
+# With confirm token (if it's a large file):
+curl -sL -o output.pdf "https://docs.google.com/uc?export=download&confirm=t&id=<FILE_ID>"
+
+# Verify
+file output.pdf  # Should show "PDF document"
+head -c 5 output.pdf  # Should start with %PDF-
+```
+
+**Pitfalls:**
+- Google Drive has rate limits — download files sequentially, not in parallel
+- Large files (>100MB) may trigger virus scan warning — use `&confirm=t` parameter
+- Folder contents may be partially hidden — what's publicly visible may not be the full set
+- The folder owner may have download restrictions enabled (usually just prevents direct link sharing, not downloads)
+
+### From Gallica (BnF digital library) — IIIF extraction
+
+When a book is publicly accessible on Gallica but the PDF download is behind an Altcha CAPTCHA, use the IIIF manifest to download individual page images and compile them into a PDF. The IIIF image API is unrestricted even when the PDF download is challenged.
+
+**Prerequisites:** Confirm the book is public domain first (check OAI rights metadata or the Gallica page for "domaine public"). If the book is still under copyright, the IIIF images may still be blocked or watermarked.
+
+**Step-by-step:**
+
+1. **Get the IIIF manifest URL:**
+   Find the book's Gallica ARK (e.g. `ark:/12148/bpt6k374553s`). The IIIF manifest is at:
+   ```
+   https://gallica.bnf.fr/iiif/ark:/12148/<ARK>/manifest.json
+   ```
+   If the ARK starts with `bpt6k`, it's a digitized item.
+
+2. **Download the manifest:**
+   ```bash
+   curl -sL "https://gallica.bnf.fr/iiif/ark:/12148/<ARK>/manifest.json" -o manifest.json
+   ```
+
+3. **Extract page image URLs from manifest:**
+   ```bash
+   python3 -c "
+   import json
+   with open('manifest.json') as f:
+       data = json.load(f)
+   canvases = data['sequences'][0]['canvases']
+   for i, canvas in enumerate(canvases):
+       img_service = canvas['images'][0]['resource']['service']['@id']
+       print(f'{i+1}|{img_service}/full/full/0/default.jpg|{canvas.get(\"label\", f\"p{i+1}\")}')
+   " > page_urls.txt
+   ```
+
+4. **Download pages with rate limiting and 429 retry:**
+   ```bash
+   while IFS='|' read -r num url label; do
+     curl -sL -o "page_$(printf '%04d' $num).jpg" "$url"
+     sleep 1.0  # mandatory — Gallica 429s at ~55 requests in quick succession
+   done < page_urls.txt
+   ```
+
+5. **Compile into PDF using img2pdf (lossless, no re-encoding):**
+   ```bash
+   python3 -c "
+   import img2pdf, os, sys
+   images = sorted([f for f in os.listdir('.') if f.startswith('page_') and f.endswith('.jpg')])
+   with open('output.pdf', 'wb') as f:
+       f.write(img2pdf.convert([os.path.join('.', img) for img in images]))
+   print(f'PDF created: {len(images)} pages')
+   "
+   ```
+
+**Rate limiting notes (real-world experience, as of May 2026):**
+- Gallica's IIIF server has a **sliding window rate limit** — 429s can cascade. Once you hit 429, even the next request may fail because you're still inside the window. A ~120s cooldown resets it.
+- The limit triggers after ~55 sequential requests with 1s delays, OR immediately if a recent session already exhausted your window. On fresh starts after previous failures, **wait 120s before the first request**.
+- Use **4-5 second minimum delay** between requests (`--delay 4.0`). Shorter delays trigger cascade 429s.
+- Use **lower resolution** to reduce server load: `--res-width 600` or `--res-width 800` (600px JPEGs are ~100KB each, still readable, far fewer 429s).
+- Implement aggressive exponential backoff on 429: **180s on first retry**, doubling each attempt (the script defaults to 180s base, 5 retries).
+- At 4s per page with 600px width, a 279-page book takes ~20 min. At full res with 12s delays, ~55 min.
+- **Script supports `--resume`** — killed processes pick up where they left off. Cached pages are skipped.
+- `--delay` defaults to 2.0s in the script. On real Gallica servers, you may need to override to 4.0s+ (`--delay 4.0`) for reliability.
+- The **manifest download** can also get 429d — the script now retries the manifest with the same backoff logic.
+- Use `img2pdf` over Pillow for compilation: img2pdf does not re-encode JPEGs (lossless, fast), Pillow decodes and re-encodes (lossy, slow).
+
+**Full runnable script:** See `scripts/gallica-iiif-extract.py` in this skill for a fully parameterized downloader with retry logic, resume-from-cache, and progress reporting.
 ```bash
 # With timeout and retry
 curl -sL --connect-timeout 30 --max-time 300 \
@@ -211,7 +328,12 @@ mcp_gbrain_add_tag(slug=f"historical-sources/<source-slug>", tag="<region>")
 - **OCR quality varies wildly** — pre-1900 printing, Fraktur type, faded ink, and handwritten marginalia all degrade OCR. Always spot-check the first few pages.
 - **Duplicate editions** — the same book may appear under multiple editions/years. Verify you have the right one.
 - **Copyright status** — pre-1928 US publications are public domain. Post-1928 varies. International sources vary by country. Note the copyright status in metadata.
+- **In-copyright books (post-1970)** — when ebook_access="no_ebook" and has_fulltext=false, no free electronic copy exists anywhere legitimate. Do not spend time trying Archive.org/LibGen/Google Books for a free copy — it's protected by copyright. Instead, report paid ebook options (Kindle, Google Play, Kobo — found via Goodreads API fallback) and used physical copies (AbeBooks, Alibris).
+- **French colonial-era books — copyright depends on author death date, not publication date.** Under French law: public domain = author died >70 years ago + WWII extensions for authors who died in 1945 (collaboration executions). Books from the 1930s by authors executed in 1945 (e.g. Paul Chack, Hoang-Tham pirate, 1933) **ARE public domain** in France—check Gallica first. Books from the 1970s by living-then authors (e.g. Pierre Darcourt, Bay Vien, 1977) are NOT. Triage rule:
+  - **Author died before 1955** → check Gallica (bnf.fr) via IIIF manifest for digital copy
+  - **Author lived past 1955** → no free copy, pivot to paid/used (Goodreads → Kindle/AbeBooks)
 - **PDF vs DJVU** — some Internet Archive items are DJVU format, not PDF. Convert with `djvudjvu` or use the text version.
+- **No editorializing about historical figures** — never characterize a person's politics, ideology, or views as yours-to-judge. No "troubling," "controversial," "problematic" equivalents. State facts (they lived at these dates, wrote these books, held these roles, took these actions). Let readers draw their own conclusions. This is an iron rule — applies to every figure, every context, always.
 
 ## Verification
 
@@ -221,3 +343,27 @@ After completing the pipeline:
 3. ✅ metadata.json populated with all provenance fields
 4. ✅ Source ingested to G-Brain with appropriate tags
 5. ✅ User notified of any quality issues or access restrictions
+
+## Kanban Source-Tracking Card Pattern
+
+When acquiring significant sources (rare books, large downloads, multi-volume sets), create a kanban card to track the work. This makes the acquisition visible on the board and survives crashes/restarts.
+
+```bash
+hermes kanban create \
+  --body "Key metadata: author, year, ISBN, source URL, format details. Current status: what's been done, what's pending." \
+  --assignee default \
+  --priority 2 \
+  "Source: <Title> (<Author>, <Year>)"
+```
+
+**When to create a card:**
+- Any download that takes >2 minutes (background process)
+- Multi-volume or batch acquisitions
+- Sources that require downstream processing (OCR, translation, analysis)
+- Anything the user should be able to check on later without asking
+
+**What the card body should contain:**
+- Full bibliographic metadata (title, author, year, publisher, ISBN, URL)
+- Current processing status (downloading, extracting, OCR, complete)
+- Known limitations (copyright, quality, missing pages)
+- Next steps (pending actions the user may want to take)

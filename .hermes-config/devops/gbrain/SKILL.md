@@ -145,9 +145,13 @@ export PATH="$HOME/.bun/bin:$PATH"
 
 bun install && bun link
 
-# Verify
+# Verify — if gbrain: command not found, fix the symlink
+export PATH="$HOME/.bun/bin:$PATH"
+gbrain --version || ln -sf "$PWD/src/cli.ts" "$HOME/.bun/bin/gbrain"
 gbrain --version   # Should print e.g. 0.41.10.1
 ```
+
+**⚠️ bun link does not always create the CLI symlink.** Unlike `bun install -g`, `bun link` only registers the package name for `bun link gbrain` in other projects. It does NOT reliably create `~/.bun/bin/gbrain`. The `ln -sf` fallback covers the case where the global install directory was cleaned or the symlink was broken. Always verify with `gbrain --version` after install.
 
 ### Alternative: if bun install -g was used
 
@@ -742,6 +746,7 @@ When installed, add to `~/.hermes/community-manifest.json`:
 ## Pitfalls
 
 - **Bun global install bug (#218):** Do NOT use `bun install -g github:garrytan/gbrain`. Always clone + bun link.
+- **CLI binary symlink breakage:** `~/.bun/bin/gbrain` is a symlink to `../install/global/node_modules/gbrain/src/cli.ts`. If the bun global install directory is cleaned or corrupted, the symlink becomes a dead link and `gbrain: command not found` results despite the package being installed. Fix: `rm ~/.bun/bin/gbrain && ln -sf ~/gbrain/src/cli.ts ~/.bun/bin/gbrain` (point to the cloned repo's entry point, not the global install path). Verify with `gbrain --version`.
 - **Search mode default:** `gbrain init` auto-applies `tokenmax` unless a Haiku-tier agent or no OpenAI key is detected. Always confirm with the user.
 - **Non-TTY init without API key:** Falls immediately. Must set at least one embedding provider env var, pass `--no-embedding`, or run interactively.
 - **PGLite cannot ALTER COLUMN vector(N):** Switching embedding models requires `gbrain reinit-pglite` (wipes embeddings, re-indexes). No in-place column type change.
@@ -780,7 +785,19 @@ When installed, add to `~/.hermes/community-manifest.json`:
 - **`provider_base_urls` requires JSON notation, not dot-notation (v0.41.10.1):** `gbrain config set provider_base_urls.deepseek '...'` returns success but the value never persists — `config get provider_base_urls` returns "Config key not found". Always use JSON: `gbrain config set provider_base_urls '{"deepseek":"..."}'`. Tested and confirmed on v0.41.10.1. This affects all nested object config keys, not just provider_base_urls.
 - **`config show` vs `config get` read different sources:** `gbrain config show` reads from `~/.gbrain/config.json` (the init-time file snapshot, may be stale). `gbrain config get <key>` reads from the PGLite DB (the current runtime value). After changing config via `gbrain config set`, use `config get` to verify — `config show` will show the old value until the JSON file is manually updated.
 - **`gbrain providers test --model` fails pre-init for chat models:** The `providers test` command validates the FULL provider pipeline including embedding configuration. Before `gbrain init`, it cannot test chat models because no embedding provider is configured. To verify a custom chat endpoint before init, use direct curl against the endpoint instead.
-- **`DEEPSEEK_API_KEY` env var naming:** When using the `deepseek` recipe with a custom endpoint (e.g., OpenCode Go), the env var name is `DEEPSEEK_API_KEY` because that's what the deepseek recipe's `auth_env` declares. The actual key is your custom endpoint's key, not DeepSeek's. gbrain just reads the env var and sends `Authorization: Bearer <value>`. This is confusing but harmless.
+- **`DEEPSEEK_API_KEY` env var naming:** When using the `deepseek` recipe with a custom endpoint (e.g., OpenCode Go), the env var name is `DEEPSEEK_API_KEY` because that's what the deepseek recipe's `auth_env` declares. The actual key is your custom endpoint's key, not DeepSeek's. gbrain just reads the env var and sends `Authorization: Bearer*** This is confusing but harmless.
+
+- **Broken CLI symlink after bun global install cleanup:** `bun link` creates a symlink at `~/.bun/bin/gbrain` → `../install/global/node_modules/gbrain/src/cli.ts`. If the global install directory gets deleted or the Bun global registry is corrupted (missing package.json), the symlink goes dead — `gbrain` returns "No such file or directory" but the binary symlink still shows. The brain data at `~/.gbrain/` (PGLite, config, markdown) is unaffected.
+
+  **Recovery:**
+  ```bash
+  cd /root && git clone https://github.com/garrytan/gbrain.git
+  cd /root/gbrain && bun install
+  ln -sf /root/gbrain/src/cli.ts /root/.bun/bin/gbrain
+  gbrain --version
+  ```
+
+  **Detection:** `file /root/.bun/bin/gbrain` returns "broken symbolic link" — fix with `ln -sf` above. No data loss, the brain at `~/.gbrain/` is separate from the CLI binary.
 - **MCP server inherits filtered environment:** The Hermes native MCP client strips most env vars from subprocesses. Only safe baseline vars (`PATH`, `HOME`, `USER`, etc.) plus explicitly configured `env` entries are passed. If gbrain needs API keys (`OPENROUTER_API_KEY`, `ANTHROPIC_API_KEY`), they must be explicitly added to the `mcp_servers.gbrain.env` block OR a wrapper script that sources them before spawning the server must be used.
 - **PGLite WASM CLI bug (gh#223):** Fresh `gbrain` CLI invocations may fail with "PGLite failed to initialize its WASM runtime" — three possible causes:
   - **MCP server holds exclusive PGLite lock:** Separate CLI commands (sync, embed, extract) hang with "Timed out waiting for PGLite lock" if the gbrain MCP server is running. The dream cycle script must stop the MCP server (`pkill -f "gbrain serve"`) before running CLI commands, then let Hermes auto-restart it.

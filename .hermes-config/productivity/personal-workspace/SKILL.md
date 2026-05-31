@@ -196,12 +196,17 @@ On plain-HTTP deployments (Tailscale LAN), set `COOKIE_SECURE=0` so the browser 
 ### Workers & profile toolsets
 Worker profiles need toolsets beyond `hermes-cli` (at minimum `terminal`, `file`, `web`) to be functional when the kanban dispatcher spawns them. See the `hermes-soul-design` skill's `references/profile-worker-configuration.md` for the full guide including model/auth checks and the Dashboard/Workspace config reference.
 
+## Windows Terminal Font Configuration
+
+When the user wants to change their Windows Terminal font (size, face, smoothing), see `references/windows-terminal-font-troubleshooting.md` for the complete debug flow. The key pitfall: setting a font face that isn't installed on Windows causes Windows Terminal to silently fall back to Consolas with no error message.
+
 ## Pitfalls to Avoid
 - Do not scatter agent-related files across multiple top-level folders.
 - Do not put raw large imports directly into active folders (`dabt/`, `agents/`).
 - Resist the urge to create many narrow subfolders early; expand only when volume justifies it.
 - Do not set `terminal.cwd` to a path under `/root` and expect the Workspace file browser to pick it up — the blocked-system-paths filter will silently reject it. Use `HERMES_WORKSPACE_DIR` instead.
 - Do not proxy the Workspace or Dashboard through a separate working-directory config. Set the service's `WorkingDirectory` directly.
+- Windows Terminal font face changes silently fail if the font isn't installed — always verify with `ls /mnt/c/Windows/Fonts/` before concluding the setting was rejected.
 
 ## Future Expansion
 - When a VPS is added, mirror the same structure on the remote machine.

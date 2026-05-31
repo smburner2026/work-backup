@@ -41,6 +41,8 @@ No columns to configure. No WIP limits to write. No visual board to install. It'
 
 You don't need extra profiles. Assigning a card to `default` means the main agent handles it.
 
+**⚠️ Pitfall: cards with an assignee go straight to "ready" on create.** The dispatcher picks them up immediately — there's no "todo" pause. If you want to discuss scope first, use `--initial-status blocked` to park the card, then unblock when ready. See `references/hermes-kanban-commands.md` → "Strategy-first" pattern.
+
 ### What a Board Actually Looks Like
 
 When you run `hermes kanban list`, you see something like this:
@@ -167,6 +169,7 @@ If you're new to Kanban or need a refresher, here's the compressed model:
 | Moving from Scrum to Kanban | `references/transition-guide.md` |
 | Confused by a Kanban term | `references/glossary.md` |
 | Setting up the seven cadences | `references/cadences.md` |
+| Gated verification + cron notification | `references/gated-verification.md` |
 
 ## Common Anti-Patterns to Watch For
 

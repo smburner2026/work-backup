@@ -115,6 +115,7 @@
 - GLP governs: study protocol, personnel training, SOPs, equipment calibration, data recording, archiving
 - **QA unit** is independent of study director — reads protocols, inspects facilities, audits final report
 - Key GLP principle: "What isn't written down didn't happen"
+- **Detailed GLP/OECD reference:** `references/glp-oecd-detailed.md` — covers the 10 GLP principles, TG numbers by category (acute, repeated-dose, genotoxicity, repro/dev, carcinogenicity), GLP vs GMP vs GCP, US EPA vs OECD differences, 21 CFR Part 11, study director vs QA vs archivist roles, and classic exam traps
 
 ### Route Selection
 - Should match **intended human exposure route** (if known)

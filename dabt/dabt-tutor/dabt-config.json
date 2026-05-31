@@ -1,5 +1,5 @@
 {
-  "config_version": "1.0.0",
+  "config_version": "1.2.0",
   "last_updated": "2026-05-30",
   "project": {
     "name": "DABT Tutor",
@@ -28,20 +28,20 @@
           "B. Execute": 9,
           "C. Interpret": 16
         },
-        "db_questions": 981,
-        "db_pct": 25.8,
-        "weight_gap": -10.2,
-        "status": "UNDERWEIGHT -- 25.8% of DB for 36% of exam; Interpret sub-domain (16%) best covered with 136 Qs"
+        "db_questions": 1125,
+        "db_pct": 21.0,
+        "weight_gap": -15.0,
+        "status": "UNDERWEIGHT -- 21.0% of DB for 36% of exam"
       },
       "II. Mechanistic Toxicology": {
         "weight_pct": 13,
         "tasks": 8,
         "knowledge_topics": 27,
         "sub_domains": {},
-        "db_questions": 675,
-        "db_pct": 17.8,
-        "weight_gap": 4.8,
-        "status": "OVERWEIGHT -- 17.8% of DB for 13% of exam; adequate within margin"
+        "db_questions": 927,
+        "db_pct": 17.3,
+        "weight_gap": 4.3,
+        "status": "OVERWEIGHT -- 17.3% of DB for 13% of exam"
       },
       "III. Risk Assessment": {
         "weight_pct": 38,
@@ -53,10 +53,10 @@
           "C. Dose Response Assessment": 9,
           "D. Risk Characterization & Management": 9
         },
-        "db_questions": 210,
-        "db_pct": 5.5,
-        "weight_gap": -32.5,
-        "status": "CRITICAL -- 5.5% of DB for 38% of exam; 172/210 Qs have no sub-domain assigned",
+        "db_questions": 287,
+        "db_pct": 5.4,
+        "weight_gap": -32.6,
+        "status": "CRITICAL -- 5.4% of DB for 38% of exam; 172/287 Qs have no sub-domain assigned",
         "synthetic_questions_target": 600,
         "depletion_warning_at": 50
       },
@@ -65,10 +65,10 @@
         "tasks": 12,
         "knowledge_topics": 25,
         "sub_domains": {},
-        "db_questions": 2851,
-        "db_pct": 75.1,
-        "weight_gap": 62.1,
-        "status": "OVERWEIGHT -- 75.1% of DB for 13% of exam; useful for targeted organ-system drilling"
+        "db_questions": 3026,
+        "db_pct": 56.4,
+        "weight_gap": 43.4,
+        "status": "OVERWEIGHT -- 56.4% of DB for 13% of exam"
       }
     }
   },
@@ -76,79 +76,115 @@
     "primary": {
       "path": "reference/data/dabt.db",
       "type": "sqlite",
-      "total_questions": 3796,
+      "total_questions": 5360,
       "domain_coverage_pct": 100.0,
       "quality": {
-        "with_explanation": 3796,
+        "with_explanation": 5360,
         "explanation_pct": 100.0,
-        "with_bloom_level": 3796,
-        "bloom_level_pct": 100.0,
-        "notes": "Post-quarantine: 3796 Qs remain after quarantine. All have explanations + bloom levels. 1 Q missing correct_answer_text (3795/3796)."
+        "with_bloom_level": 4838,
+        "bloom_level_pct": 90.3,
+        "notes": "5360 Qs total. 790 flagged no_answer_key=1 (269 Past ABT PDFs src7 + 401 2017 Cert src9 + 120 2015 Recert src10). 128 Qs lack answer_options (matching items from 2000Q Bank). 522 Qs lack bloom_level. 3 questions have dual domain assignments (DABT-4628, 4629, 4630). 0 domainless questions remain."
       },
       "domain_distribution": {
         "Domain I": {
-          "count": 981,
-          "pct": 25.8
+          "count": 1125,
+          "pct": 21.0
         },
         "Domain II": {
-          "count": 675,
-          "pct": 17.8
+          "count": 927,
+          "pct": 17.3
         },
         "Domain III": {
-          "count": 210,
-          "pct": 5.5
+          "count": 287,
+          "pct": 5.4
         },
         "Domain IV": {
-          "count": 2851,
-          "pct": 75.1
+          "count": 3026,
+          "pct": 56.4
         }
       },
       "source_banks": {
         "2000Q Bank": {
           "format": "comprehensive",
-          "count": 1351,
-          "pct": 35.6
+          "count": 1801,
+          "pct": 34.4,
+          "source_file_id": 2
         },
         "Chapter Tests": {
           "format": "chapter-based",
-          "count": 904,
-          "pct": 23.8
+          "count": 1119,
+          "pct": 21.4,
+          "source_file_id": 3
         },
         "Past ABT Exams (2008-2014)": {
           "format": "real-exam",
-          "count": 763,
-          "pct": 20.1
+          "count": 766,
+          "pct": 14.6,
+          "source_file_id": 6
         },
         "Mini-ABT 1-11": {
           "format": "mini-exam",
-          "count": 399,
-          "pct": 10.5
+          "count": 446,
+          "pct": 8.5,
+          "source_file_id": 1
         },
-        "Kristen Mini Exams": {
-          "format": "mini-exam",
-          "count": 182,
-          "pct": 4.8
-        },
-        "Kristen Topic Tests": {
-          "format": "topic-based",
-          "count": 112,
-          "pct": 3.0
+        "2017 ABT Certification Exam": {
+          "format": "real-exam",
+          "count": 401,
+          "pct": 7.7,
+          "source_file_id": 9,
+          "handling": "no_answer_key — 401 questions from Part A-D PDFs"
         },
         "Past ABT Exams (PDFs)": {
           "format": "real-exam",
-          "count": 82,
-          "pct": 2.2
+          "count": 351,
+          "pct": 6.7,
+          "source_file_id": 7
+        },
+        "Kristen Mini Exams": {
+          "format": "mini-exam",
+          "count": 208,
+          "pct": 4.0,
+          "source_file_id": 4
+        },
+        "Kristen Topic Tests": {
+          "format": "topic-based",
+          "count": 145,
+          "pct": 2.8,
+          "source_file_id": 5
         },
         "User-Contributed": {
           "format": "user-contributed",
           "count": 3,
-          "pct": 0.1
+          "pct": 0.1,
+          "source_file_id": 8
+        },
+        "2015 ABT Recertification Exam": {
+          "format": "real-exam",
+          "count": 120,
+          "pct": 2.2,
+          "source_file_id": 10,
+          "handling": "no_answer_key — 120 questions from Parts A-C PPTXs + PDF"
         }
       },
       "domain_iii_detail": {
         "unassigned_sub_domain": 172,
-        "D.RiskChar&Mgmt": 38,
-        "notes": "172 of 210 Domain III Qs (81.9%) unassigned at sub-domain level. No questions assigned to Hazard ID, Exposure Assessment, or Dose Response Assessment sub-domains. Sub-domain classification needed before synthetic question generation."
+        "D.RiskChar&Mgmt": 65,
+        "A.Hazard ID": 16,
+        "C.Dose-Response": 27,
+        "B.Exposure": 7,
+        "notes": "172 of 287 Domain III Qs (59.9%) unassigned at sub-domain level. RiskChar&Mgmt: 65, Hazard ID: 16, Dose-Response: 27, Exposure: 7. Sub-domain classification still needed for 172 core Qs before synthetic generation can proceed."
+      },
+      "no_answer_key_questions": {
+        "count": 790,
+        "source": "Past ABT Exams (PDFs) + 2017 ABT Certification Exam + 2015 ABT Recertification Exam",
+        "sources": {
+          "Past ABT Exams (PDFs)": 269,
+          "2017 ABT Certification Exam": 401,
+          "2015 ABT Recertification Exam": 120
+        },
+        "years": "2012-2017",
+        "handling": "discussion prompt during drills — no answer key available"
       }
     },
     "legacy": {
@@ -163,32 +199,44 @@
     "searchable_sources": [
       {
         "name": "casarett-doull-9e",
-        "path": "extracted/casarett-doull-9e",
-        "chapters": 35,
+        "path": "reference/extracted/casarett-doull-9e",
+        "chapters": 72,
         "size_kb": 9998,
         "searchable": true
       },
       {
         "name": "hayes-7e",
-        "path": "extracted/hayes-7e",
-        "chapters": 39,
+        "path": "reference/extracted/hayes-7e",
+        "chapters": 80,
         "size_kb": 11140,
         "searchable": true
       },
       {
         "name": "regulations",
-        "path": "extracted/regulations",
-        "documents": 29,
+        "path": "reference/extracted/regulations",
+        "documents": 172,
         "size_kb": 4192,
         "searchable": true
       },
       {
         "name": "abt-handbook",
-        "path": "extracted/abt-handbook",
-        "files": 2,
+        "path": "reference/extracted/abt-handbook",
+        "files": 6,
         "size_kb": 99,
         "searchable": true,
         "added": "2026-05-20"
+      },
+      {
+        "name": "tox-2000-notecards",
+        "path": "reference/extracted/tox-2000-notecards",
+        "file": "tox-2000-notecards.txt",
+        "pages": 1484,
+        "size_kb": 422,
+        "content_type": "multiple-choice flashcards",
+        "has_answers": false,
+        "searchable": true,
+        "added": "2026-05-30",
+        "notes": "PDF extracted with pdftotext. No answer keys in source — questions only."
       }
     ],
     "handbook": {
@@ -201,7 +249,7 @@
       "status": "Wired into reference search pipeline as of 2026-05-20"
     },
     "not_searchable": {
-      "notes": "Mid-Amer Tox Course summaries, C&D Chapter Support slides/notes/lectures, and Study_Aids are intentionally excluded \u2014 user determined they add noise."
+      "notes": "Mid-Amer Tox Course summaries, C&D Chapter Support slides/notes/lectures, and Study_Aids are intentionally excluded — user determined they add noise."
     }
   },
   "exam_materials": {
@@ -219,21 +267,21 @@
         "file": "practice-exams/abt-2015-recert/",
         "files_count": 13,
         "format": "PDF + PPTX",
-        "ingested": false
+        "ingested": true
       },
       {
         "name": "2017 Cert",
         "file": "practice-exams/abt-2017-cert/",
         "files_count": 4,
         "format": "PDF",
-        "ingested": false
+        "ingested": true
       },
       {
         "name": "Mini-ABT 1-11",
         "file": "practice-exams/mini-abt-*/",
         "files_count": 22,
         "format": "DOCX",
-        "ingested": "Partial \u2014 446 Qs from legacy xlsx in DB; full docx pairs exist as originals"
+        "ingested": "Partial — 446 Qs from legacy xlsx in DB; full docx pairs exist as originals"
       },
       {
         "name": "Tox 2000 Notecards",
@@ -267,14 +315,628 @@
     },
     "anti_clustering": true,
     "source_spread_minimum": 3,
-    "weight_config_source": "This file (dabt-config.json) \u2014 exam_blueprint.domains[*].weight_pct"
+    "weight_config_source": "This file (dabt-config.json) — exam_blueprint.domains[*].weight_pct"
   },
   "curriculum": {
-    "path": "curriculum/topics.json",
-    "exists": true,
-    "domain_entries": 5,
-    "status": "EXISTS \u2014 structured with sub-domains, topics, and prerequisites. Cross-reference with exam_blueprint for alignment. Needs review/user discussion.",
-    "notes": "Appears to be a study progression map with domain weight percentages that match the handbook. May have been auto-generated or built by a previous session. Not yet consumed by any skill."
+    "absorbed_from": "curriculum/topics.json",
+    "absorbed_at": "2026-05-30",
+    "status": "EMBEDDED — topics absorbed directly into this config. curriculum/topics.json deleted.",
+    "coverage_tracking": "Cross-reference state.json cumulative.by_topic keys against domain.topic_list and organ_systems.topic_list to compute coverage percentages.",
+    "domains": {
+      "domain-i-conduct-of-studies": {
+        "name": "Domain I: Conduct of Toxicological Studies",
+        "level": 1,
+        "exam_weight": "36%",
+        "prerequisites": [],
+        "topic_list": [
+          "General Principles & Concepts",
+          "General Toxicology",
+          "Mechanisms of Toxicity"
+        ],
+        "subdomains": {
+          "a-design": {
+            "name": "A. Design",
+            "weight": "11%",
+            "topic_list": [
+              "Study Design",
+              "OECD Test Guidelines",
+              "ICH S-series",
+              "GLP",
+              "Dose Selection"
+            ]
+          },
+          "b-execute": {
+            "name": "B. Execute",
+            "weight": "9%",
+            "topic_list": [
+              "Study Execution",
+              "Data Collection",
+              "Quality Assurance",
+              "Histopathology"
+            ]
+          },
+          "c-interpret": {
+            "name": "C. Interpret",
+            "weight": "16%",
+            "topic_list": [
+              "Data Interpretation",
+              "NOAEL/LOAEL",
+              "Statistical Analysis",
+              "Adversity Determination",
+              "Pathology Interpretation"
+            ]
+          }
+        }
+      },
+      "domain-ii-mechanistic-tox": {
+        "name": "Domain II: Mechanistic Toxicology",
+        "level": 2,
+        "exam_weight": "13%",
+        "prerequisites": [
+          "domain-i-conduct-of-studies"
+        ],
+        "topic_list": [
+          "Mechanisms of Toxicity",
+          "Biotransformation / Metabolism",
+          "Genotoxicity / DNA Damage",
+          "Carcinogenesis & Mutagenesis"
+        ],
+        "subdomains": {
+          "hypothesis-development": {
+            "name": "Hypothesis Development",
+            "weight": null,
+            "topic_list": [
+              "MOA/AOP",
+              "Hypothesis Testing"
+            ]
+          },
+          "species-differences": {
+            "name": "Species Differences",
+            "weight": null,
+            "topic_list": [
+              "Comparative Toxicology",
+              "Extrapolation"
+            ]
+          },
+          "susceptibility": {
+            "name": "Susceptibility Factors",
+            "weight": null,
+            "topic_list": [
+              "Genetic Susceptibility",
+              "Age/Sex Differences"
+            ]
+          },
+          "direct-vs-indirect": {
+            "name": "Direct vs Indirect Action",
+            "weight": null,
+            "topic_list": [
+              "Primary vs Secondary Toxicity"
+            ]
+          },
+          "translation": {
+            "name": "Translation Across Biological Levels",
+            "weight": null,
+            "topic_list": [
+              "In Vitro to In Vivo",
+              "Molecular to Organism"
+            ]
+          }
+        }
+      },
+      "domain-iii-risk-assessment": {
+        "name": "Domain III: Risk Assessment",
+        "level": 3,
+        "exam_weight": "38%",
+        "prerequisites": [
+          "domain-i-conduct-of-studies"
+        ],
+        "topic_list": [
+          "Risk Assessment & Regulatory",
+          "Toxicokinetics / ADME",
+          "Dose-Response"
+        ],
+        "subdomains": {
+          "a-hazard-id": {
+            "name": "A. Hazard Identification",
+            "weight": "12%",
+            "topic_list": [
+              "Hazard ID",
+              "Weight of Evidence",
+              "Cancer Classification"
+            ]
+          },
+          "b-exposure": {
+            "name": "B. Exposure Assessment",
+            "weight": "8%",
+            "topic_list": [
+              "Exposure Assessment",
+              "Biomonitoring",
+              "Exposure Reconstruction"
+            ]
+          },
+          "c-dose-response": {
+            "name": "C. Dose-Response Assessment",
+            "weight": "9%",
+            "topic_list": [
+              "Dose-Response Modeling",
+              "BMD",
+              "NOAEL/UF/MF",
+              "POD Selection"
+            ]
+          },
+          "d-risk-char": {
+            "name": "D. Risk Characterization & Management",
+            "weight": "9%",
+            "topic_list": [
+              "Risk Characterization",
+              "Margin of Exposure",
+              "Risk Management"
+            ]
+          }
+        }
+      },
+      "domain-iv-applied-tox": {
+        "name": "Domain IV: Applied Toxicology",
+        "level": 3,
+        "exam_weight": "13%",
+        "prerequisites": [
+          "domain-i-conduct-of-studies"
+        ],
+        "topic_list": [
+          "Metals & Metalloids",
+          "Solvents & Hydrocarbons",
+          "Pesticides – Insecticides",
+          "Pesticides – Herbicides",
+          "Pesticides – Rodenticides",
+          "Pesticides – Fumigants",
+          "Gases – Asphyxiants & Irritants",
+          "Air Pollution & Particulates",
+          "Drugs & Therapeutics – Toxicology",
+          "Plant Toxins",
+          "Animal & Microbial Venoms / Toxins",
+          "Mycotoxins",
+          "Food Additives, Cosmetics & GRAS",
+          "Alcohols & Methanol/Ethanol"
+        ],
+        "subdomains": {
+          "ecotoxicology": {
+            "name": "Ecotoxicology",
+            "weight": null,
+            "topic_list": [
+              "Environmental Toxicology",
+              "Ecosystem Exposures"
+            ]
+          },
+          "public-health": {
+            "name": "Public Health Response",
+            "weight": null,
+            "topic_list": [
+              "Emergency Response",
+              "Poison Control"
+            ]
+          },
+          "biomonitoring": {
+            "name": "Biomonitoring",
+            "weight": null,
+            "topic_list": [
+              "Biomonitoring Programs",
+              "Exposure Biomarkers"
+            ]
+          },
+          "susceptible-pop": {
+            "name": "Susceptible Subpopulations",
+            "weight": null,
+            "topic_list": [
+              "Children",
+              "Elderly",
+              "Pregnant Women"
+            ]
+          },
+          "sustainable-products": {
+            "name": "Sustainable Product Development",
+            "weight": null,
+            "topic_list": [
+              "Green Chemistry",
+              "Alternatives Assessment"
+            ]
+          }
+        }
+      }
+    },
+    "organ_systems": {
+      "name": "Organ System Toxicology",
+      "level": 2,
+      "exam_weight": "Cross-cutting",
+      "prerequisites": [
+        "domain-i-conduct-of-studies"
+      ],
+      "topic_list": [
+        "Liver / Hepatotoxicity",
+        "Kidney / Nephrotoxicity",
+        "Lung / Pulmonary Toxicity",
+        "Nervous System / Neurotoxicity",
+        "Skin / Dermatotoxicity",
+        "Eye / Ocular Toxicity",
+        "Cardiovascular Toxicity",
+        "Hematology & Blood Toxicity",
+        "Immunotoxicology / Allergy",
+        "Endocrine Toxicology",
+        "Reproductive & Developmental Toxicity"
+      ]
+    },
+    "all_topic_names": {
+      "General Principles & Concepts": {
+        "type": "domain_topic",
+        "domain": "domain-i-conduct-of-studies"
+      },
+      "General Toxicology": {
+        "type": "domain_topic",
+        "domain": "domain-i-conduct-of-studies"
+      },
+      "Mechanisms of Toxicity": {
+        "type": "domain_topic",
+        "domain": "domain-ii-mechanistic-tox"
+      },
+      "Study Design": {
+        "type": "subdomain_topic",
+        "domain": "domain-i-conduct-of-studies",
+        "subdomain": "a-design"
+      },
+      "OECD Test Guidelines": {
+        "type": "subdomain_topic",
+        "domain": "domain-i-conduct-of-studies",
+        "subdomain": "a-design"
+      },
+      "ICH S-series": {
+        "type": "subdomain_topic",
+        "domain": "domain-i-conduct-of-studies",
+        "subdomain": "a-design"
+      },
+      "GLP": {
+        "type": "subdomain_topic",
+        "domain": "domain-i-conduct-of-studies",
+        "subdomain": "a-design"
+      },
+      "Dose Selection": {
+        "type": "subdomain_topic",
+        "domain": "domain-i-conduct-of-studies",
+        "subdomain": "a-design"
+      },
+      "Study Execution": {
+        "type": "subdomain_topic",
+        "domain": "domain-i-conduct-of-studies",
+        "subdomain": "b-execute"
+      },
+      "Data Collection": {
+        "type": "subdomain_topic",
+        "domain": "domain-i-conduct-of-studies",
+        "subdomain": "b-execute"
+      },
+      "Quality Assurance": {
+        "type": "subdomain_topic",
+        "domain": "domain-i-conduct-of-studies",
+        "subdomain": "b-execute"
+      },
+      "Histopathology": {
+        "type": "subdomain_topic",
+        "domain": "domain-i-conduct-of-studies",
+        "subdomain": "b-execute"
+      },
+      "Data Interpretation": {
+        "type": "subdomain_topic",
+        "domain": "domain-i-conduct-of-studies",
+        "subdomain": "c-interpret"
+      },
+      "NOAEL/LOAEL": {
+        "type": "subdomain_topic",
+        "domain": "domain-i-conduct-of-studies",
+        "subdomain": "c-interpret"
+      },
+      "Statistical Analysis": {
+        "type": "subdomain_topic",
+        "domain": "domain-i-conduct-of-studies",
+        "subdomain": "c-interpret"
+      },
+      "Adversity Determination": {
+        "type": "subdomain_topic",
+        "domain": "domain-i-conduct-of-studies",
+        "subdomain": "c-interpret"
+      },
+      "Pathology Interpretation": {
+        "type": "subdomain_topic",
+        "domain": "domain-i-conduct-of-studies",
+        "subdomain": "c-interpret"
+      },
+      "Biotransformation / Metabolism": {
+        "type": "domain_topic",
+        "domain": "domain-ii-mechanistic-tox"
+      },
+      "Genotoxicity / DNA Damage": {
+        "type": "domain_topic",
+        "domain": "domain-ii-mechanistic-tox"
+      },
+      "Carcinogenesis & Mutagenesis": {
+        "type": "domain_topic",
+        "domain": "domain-ii-mechanistic-tox"
+      },
+      "MOA/AOP": {
+        "type": "subdomain_topic",
+        "domain": "domain-ii-mechanistic-tox",
+        "subdomain": "hypothesis-development"
+      },
+      "Hypothesis Testing": {
+        "type": "subdomain_topic",
+        "domain": "domain-ii-mechanistic-tox",
+        "subdomain": "hypothesis-development"
+      },
+      "Comparative Toxicology": {
+        "type": "subdomain_topic",
+        "domain": "domain-ii-mechanistic-tox",
+        "subdomain": "species-differences"
+      },
+      "Extrapolation": {
+        "type": "subdomain_topic",
+        "domain": "domain-ii-mechanistic-tox",
+        "subdomain": "species-differences"
+      },
+      "Genetic Susceptibility": {
+        "type": "subdomain_topic",
+        "domain": "domain-ii-mechanistic-tox",
+        "subdomain": "susceptibility"
+      },
+      "Age/Sex Differences": {
+        "type": "subdomain_topic",
+        "domain": "domain-ii-mechanistic-tox",
+        "subdomain": "susceptibility"
+      },
+      "Primary vs Secondary Toxicity": {
+        "type": "subdomain_topic",
+        "domain": "domain-ii-mechanistic-tox",
+        "subdomain": "direct-vs-indirect"
+      },
+      "In Vitro to In Vivo": {
+        "type": "subdomain_topic",
+        "domain": "domain-ii-mechanistic-tox",
+        "subdomain": "translation"
+      },
+      "Molecular to Organism": {
+        "type": "subdomain_topic",
+        "domain": "domain-ii-mechanistic-tox",
+        "subdomain": "translation"
+      },
+      "Risk Assessment & Regulatory": {
+        "type": "domain_topic",
+        "domain": "domain-iii-risk-assessment"
+      },
+      "Toxicokinetics / ADME": {
+        "type": "domain_topic",
+        "domain": "domain-iii-risk-assessment"
+      },
+      "Dose-Response": {
+        "type": "domain_topic",
+        "domain": "domain-iii-risk-assessment"
+      },
+      "Hazard ID": {
+        "type": "subdomain_topic",
+        "domain": "domain-iii-risk-assessment",
+        "subdomain": "a-hazard-id"
+      },
+      "Weight of Evidence": {
+        "type": "subdomain_topic",
+        "domain": "domain-iii-risk-assessment",
+        "subdomain": "a-hazard-id"
+      },
+      "Cancer Classification": {
+        "type": "subdomain_topic",
+        "domain": "domain-iii-risk-assessment",
+        "subdomain": "a-hazard-id"
+      },
+      "Exposure Assessment": {
+        "type": "subdomain_topic",
+        "domain": "domain-iii-risk-assessment",
+        "subdomain": "b-exposure"
+      },
+      "Biomonitoring": {
+        "type": "subdomain_topic",
+        "domain": "domain-iii-risk-assessment",
+        "subdomain": "b-exposure"
+      },
+      "Exposure Reconstruction": {
+        "type": "subdomain_topic",
+        "domain": "domain-iii-risk-assessment",
+        "subdomain": "b-exposure"
+      },
+      "Dose-Response Modeling": {
+        "type": "subdomain_topic",
+        "domain": "domain-iii-risk-assessment",
+        "subdomain": "c-dose-response"
+      },
+      "BMD": {
+        "type": "subdomain_topic",
+        "domain": "domain-iii-risk-assessment",
+        "subdomain": "c-dose-response"
+      },
+      "NOAEL/UF/MF": {
+        "type": "subdomain_topic",
+        "domain": "domain-iii-risk-assessment",
+        "subdomain": "c-dose-response"
+      },
+      "POD Selection": {
+        "type": "subdomain_topic",
+        "domain": "domain-iii-risk-assessment",
+        "subdomain": "c-dose-response"
+      },
+      "Risk Characterization": {
+        "type": "subdomain_topic",
+        "domain": "domain-iii-risk-assessment",
+        "subdomain": "d-risk-char"
+      },
+      "Margin of Exposure": {
+        "type": "subdomain_topic",
+        "domain": "domain-iii-risk-assessment",
+        "subdomain": "d-risk-char"
+      },
+      "Risk Management": {
+        "type": "subdomain_topic",
+        "domain": "domain-iii-risk-assessment",
+        "subdomain": "d-risk-char"
+      },
+      "Metals & Metalloids": {
+        "type": "domain_topic",
+        "domain": "domain-iv-applied-tox"
+      },
+      "Solvents & Hydrocarbons": {
+        "type": "domain_topic",
+        "domain": "domain-iv-applied-tox"
+      },
+      "Pesticides – Insecticides": {
+        "type": "domain_topic",
+        "domain": "domain-iv-applied-tox"
+      },
+      "Pesticides – Herbicides": {
+        "type": "domain_topic",
+        "domain": "domain-iv-applied-tox"
+      },
+      "Pesticides – Rodenticides": {
+        "type": "domain_topic",
+        "domain": "domain-iv-applied-tox"
+      },
+      "Pesticides – Fumigants": {
+        "type": "domain_topic",
+        "domain": "domain-iv-applied-tox"
+      },
+      "Gases – Asphyxiants & Irritants": {
+        "type": "domain_topic",
+        "domain": "domain-iv-applied-tox"
+      },
+      "Air Pollution & Particulates": {
+        "type": "domain_topic",
+        "domain": "domain-iv-applied-tox"
+      },
+      "Drugs & Therapeutics – Toxicology": {
+        "type": "domain_topic",
+        "domain": "domain-iv-applied-tox"
+      },
+      "Plant Toxins": {
+        "type": "domain_topic",
+        "domain": "domain-iv-applied-tox"
+      },
+      "Animal & Microbial Venoms / Toxins": {
+        "type": "domain_topic",
+        "domain": "domain-iv-applied-tox"
+      },
+      "Mycotoxins": {
+        "type": "domain_topic",
+        "domain": "domain-iv-applied-tox"
+      },
+      "Food Additives, Cosmetics & GRAS": {
+        "type": "domain_topic",
+        "domain": "domain-iv-applied-tox"
+      },
+      "Alcohols & Methanol/Ethanol": {
+        "type": "domain_topic",
+        "domain": "domain-iv-applied-tox"
+      },
+      "Environmental Toxicology": {
+        "type": "subdomain_topic",
+        "domain": "domain-iv-applied-tox",
+        "subdomain": "ecotoxicology"
+      },
+      "Ecosystem Exposures": {
+        "type": "subdomain_topic",
+        "domain": "domain-iv-applied-tox",
+        "subdomain": "ecotoxicology"
+      },
+      "Emergency Response": {
+        "type": "subdomain_topic",
+        "domain": "domain-iv-applied-tox",
+        "subdomain": "public-health"
+      },
+      "Poison Control": {
+        "type": "subdomain_topic",
+        "domain": "domain-iv-applied-tox",
+        "subdomain": "public-health"
+      },
+      "Biomonitoring Programs": {
+        "type": "subdomain_topic",
+        "domain": "domain-iv-applied-tox",
+        "subdomain": "biomonitoring"
+      },
+      "Exposure Biomarkers": {
+        "type": "subdomain_topic",
+        "domain": "domain-iv-applied-tox",
+        "subdomain": "biomonitoring"
+      },
+      "Children": {
+        "type": "subdomain_topic",
+        "domain": "domain-iv-applied-tox",
+        "subdomain": "susceptible-pop"
+      },
+      "Elderly": {
+        "type": "subdomain_topic",
+        "domain": "domain-iv-applied-tox",
+        "subdomain": "susceptible-pop"
+      },
+      "Pregnant Women": {
+        "type": "subdomain_topic",
+        "domain": "domain-iv-applied-tox",
+        "subdomain": "susceptible-pop"
+      },
+      "Green Chemistry": {
+        "type": "subdomain_topic",
+        "domain": "domain-iv-applied-tox",
+        "subdomain": "sustainable-products"
+      },
+      "Alternatives Assessment": {
+        "type": "subdomain_topic",
+        "domain": "domain-iv-applied-tox",
+        "subdomain": "sustainable-products"
+      },
+      "Liver / Hepatotoxicity": {
+        "type": "organ_system",
+        "domain": "organ-systems"
+      },
+      "Kidney / Nephrotoxicity": {
+        "type": "organ_system",
+        "domain": "organ-systems"
+      },
+      "Lung / Pulmonary Toxicity": {
+        "type": "organ_system",
+        "domain": "organ-systems"
+      },
+      "Nervous System / Neurotoxicity": {
+        "type": "organ_system",
+        "domain": "organ-systems"
+      },
+      "Skin / Dermatotoxicity": {
+        "type": "organ_system",
+        "domain": "organ-systems"
+      },
+      "Eye / Ocular Toxicity": {
+        "type": "organ_system",
+        "domain": "organ-systems"
+      },
+      "Cardiovascular Toxicity": {
+        "type": "organ_system",
+        "domain": "organ-systems"
+      },
+      "Hematology & Blood Toxicity": {
+        "type": "organ_system",
+        "domain": "organ-systems"
+      },
+      "Immunotoxicology / Allergy": {
+        "type": "organ_system",
+        "domain": "organ-systems"
+      },
+      "Endocrine Toxicology": {
+        "type": "organ_system",
+        "domain": "organ-systems"
+      },
+      "Reproductive & Developmental Toxicity": {
+        "type": "organ_system",
+        "domain": "organ-systems"
+      }
+    }
   },
   "progress": {
     "state_path": "progress/state.json",
@@ -294,7 +956,7 @@
       "Antiviral MOA / Acyclovir-Genotoxicity"
     ],
     "analogy_preference": "Production-line metaphors for biochemical pathways, comparative frameworks for cross-topic consolidation",
-    "tone_preference": "Practitioner-level treatment \u2014 no regression to Novice/Apprentice. Exam-trap framing. Fact dumps rejected in favor of comparison-driven understanding."
+    "tone_preference": "Practitioner-level treatment — no regression to Novice/Apprentice. Exam-trap framing. Fact dumps rejected in favor of comparison-driven understanding."
   },
   "skills": {
     "base_path": "/root/.hermes/skills",
@@ -332,7 +994,7 @@
       "profile-call": {
         "path": "education/profile-call",
         "category": "education",
-        "function": "Persona trigger \u2014 Mike \u2192 loads all 6 DABT skills"
+        "function": "Persona trigger — Mike → loads all 6 DABT skills"
       }
     },
     "config_consumption": {
@@ -343,7 +1005,7 @@
     "1_synthetic_questions": {
       "title": "Build synthetic DABT-style MCQs for underweight domains",
       "priority": "high",
-      "scope": "Domain III (Risk Assessment) \u2192 target 600 Qs. Domain I (Conduct of Studies) \u2192 target 1,600 Qs.",
+      "scope": "Domain III (Risk Assessment) → target 600 Qs. Domain I (Conduct of Studies) → target 1,600 Qs.",
       "ground_truth_sources": [
         "Casarett Ch.4",
         "Hayes Ch.3",
@@ -365,14 +1027,14 @@
       "priority": "high",
       "scope": "~3,387 questions without explanations; one explanation each (1-3 sentences: mechanism + trap + citation)",
       "ground_truth_sources": [
-        "dabt-reference \u2192 all extracted/ sources"
+        "dabt-reference → all extracted/ sources"
       ],
       "status": "completed"
     },
     "3b_bloom_levels": {
       "title": "Classify all questions by cognitive level",
       "priority": "high",
-      "scope": "4,841 questions \u2192 Remember/Understand, Apply, or Analyze",
+      "scope": "4,841 questions → Remember/Understand, Apply, or Analyze",
       "criteria": {
         "remember-understand": "Recall facts, definitions, or recognize correct statements",
         "apply": "Apply concepts to novel scenarios, calculate, interpret data",
@@ -381,10 +1043,10 @@
       "status": "completed"
     },
     "4_curriculum_topics": {
-      "title": "Review and decide on curriculum/topics.json",
-      "priority": "medium",
-      "scope": "Existing file at curriculum/topics.json with 5 domain entries and sub-structure. Needs user discussion.",
-      "status": "needs_discussion"
+      "title": "Absorb curriculum/topics.json into dabt-config.json for coverage tracking",
+      "priority": "completed",
+      "scope": "Topics absorbed into curriculum section. curriculum/topics.json deleted. Coverage tracking: domain topic lists + organ system topic lists cross-referenced against state.json by_topic (81 indexed names).",
+      "status": "completed"
     },
     "5_integrated_workflow": {
       "title": "Make skills consume dabt-config.json at runtime",

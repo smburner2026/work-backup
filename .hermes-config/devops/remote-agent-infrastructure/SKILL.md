@@ -97,6 +97,82 @@ Ctrl+B D                        # Detach (leave running)
 tmux attach -t agentwork        # Reattach from anywhere
 ```
 
+### Auto-start tmux on boot (systemd)
+
+For a VPS that should always have a persistent Hermes session ready, wrap the tmux session in a systemd service. This survives reboots without manual SSH intervention.
+
+**Service file** (`/etc/systemd/system/tmux-workbench.service`):
+
+```ini
+[Unit]
+Description=Persistent tmux workbench with Hermes
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+User=root
+Environment=HOME=/root
+Environment=PATH=/root/.hermes/node/bin:/root/.bun/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+ExecStart=/usr/bin/tmux new-session -d -s workbench -n herm '/root/.hermes/node/bin/herm'
+ExecStop=/usr/bin/tmux kill-session -t workbench
+
+[Install]
+WantedBy=multi-user.target
+```
+
+Key design choices:
+- `Type=oneshot` + `RemainAfterExit=yes` — the ExecStart creates a detached tmux session and exits; systemd considers the service "active" because the session persists independently.
+- `ExecStop` — kills the tmux session on `systemctl stop`.
+- PATH must be explicit — tmux doesn't load non-interactive shell configs, so herm's Node.js shim and bun won't be found without it.
+
+**Install and enable:**
+```bash
+systemctl daemon-reload
+systemctl enable tmux-workbench.service
+systemctl start tmux-workbench.service
+```
+
+**.bashrc auto-attach** — so SSH logins land directly in the workbench:
+
+```bash
+# Tmux auto-attach — if SSHing in and workbench session exists, attach
+if [ -z "$TMUX" ] && [ -n "$SSH_TTY" ]; then
+    if tmux has-session -t workbench 2>/dev/null; then
+        tmux attach-session -t workbench
+    fi
+fi
+```
+
+The `[ -z "$TMUX" ]` guard prevents nesting inside an existing tmux. The `[ -n "$SSH_TTY" ]` guard skips local terminals and non-interactive sessions (scp, rsync, git-over-SSH).
+
+**Verification:**
+```bash
+systemctl status tmux-workbench.service          # Should show active (exited)
+tmux list-sessions                                # Should show 'workbench'
+tmux capture-pane -t workbench -p | head -5       # Should show Hermes running
+```
+
+**tmux.conf basics** (placed at `~/.tmux.conf`):
+```tmux
+set -g mouse on                                   # Click to focus panes, drag to resize
+set -g default-terminal "screen-256color"
+set -ga terminal-overrides ",*256col*:Tc"         # True colour support
+set -g status-style "bg=#1a1b26,fg=#a9b1d6"      # Clean dark status bar
+set -g status-left " #[fg=#7dcfff]#S #[default]"
+set -g status-right "#[fg=#7dcfff] %H:%M #[default]"
+bind -n M-Left select-pane -L                     # Alt+arrows switch panes
+bind -n M-Right select-pane -R
+bind -n M-Up select-pane -U
+bind -n M-Down select-pane -D
+set -g history-limit 50000                        # Large scrollback
+set -sg escape-time 0                             # No Esc delay
+set -g base-index 1                               # Window numbering starts at 1
+```
+
+**Pitfall — PATH in non-interactive shells:** The systemd service and tmux both run in non-interactive contexts. If `herm` or `herm --version` succeeds manually but fails when the service starts, the cause is almost always a missing PATH entry for bun or the Hermes node bin. Set PATH explicitly in the service file's `Environment=` — never rely on .bashrc or .profile.
+
 ### 4. Private Git Repo — Agent Memory Layer
 The repo is the durable memory across all your agent sessions. Agents pull context, work, commit results, merge back. Context that would die in a chat window lives in the repo instead. Same principle as Hermes skills but at the infrastructure level.
 
@@ -268,6 +344,178 @@ This uses the same SSH key/password as your laptop, no additional config needed.
 **Service persistence:** Wrap the web UI in systemd (or run via Docker with `restart: always`) so it survives VPS reboots without manual intervention. The user should never need to SSH in just to restart the workspace.
 
 **Key pitfall:** Do not publish the workspace directly to the internet even with password auth. Tailscale mesh is the only layer that keeps bot traffic, credential stuffing, and zero-day exploits away from your agent's control plane. If you need to share access, add another device to the tailnet — don't open a port.
+
+## VPS → Local Machine SSH Bridge (Reverse Direction)
+
+Beyond connecting from mobile/laptop to the VPS, an equally important pattern is having the VPS connect back to local machines (WSL, desktop, dev laptop) so the always-on hub can push work to the compute node.
+
+### Architecture
+
+```
+VPS (hub, always-on) ──[Tailscale mesh]──→ Local WSL (compute plane)
+      │                                            │
+      ├── Telegram/Discord gateway                 ├── Heavy compute (32GB RAM)
+      ├── Cron jobs                                 ├── Code compilation
+      └── File server                               └── Training/inference
+```
+
+The key requirement: **WSL needs its own Tailscale identity**, independent of the Windows host. The Windows host's Tailscale IP is not the WSL's — WSL runs inside a virtual network behind Windows NAT. Without its own Tailscale identity, the VPS cannot directly reach the WSL SSH server.
+
+### Prerequisites
+
+- Both machines on the same Tailscale tailnet
+- SSH server installed and running on the target local machine
+- Local machine has its own Tailscale identity (not just the host OS)
+
+### Setup Steps
+
+**Step 1 — Install Tailscale inside WSL (separate from Windows host)**
+
+```bash
+# Inside WSL terminal:
+curl -fsSL https://tailscale.com/install.sh | sh
+sudo tailscale up
+```
+
+Authenticate in browser when prompted. Verify:
+
+```bash
+tailscale ip -4
+# → 100.x.y.z (WSL's own tailnet IP, NOT the Windows host's)
+```
+
+**Step 2 — Enable SSH server on WSL**
+
+```bash
+sudo apt update
+sudo apt install -y openssh-server
+sudo systemctl enable ssh --now
+# Verify:
+sudo systemctl status ssh --no-pager
+```
+
+If systemd is flaky on your WSL build (common on older installs):
+
+```bash
+sudo ssh-keygen -A     # generate host keys if missing
+sudo /usr/sbin/sshd    # start manually
+```
+
+**Step 3 — Generate SSH key on the connecting machine (VPS)**
+
+```bash
+# On the machine that will initiate connections (e.g., VPS):
+ssh-keygen -t ed25519 -C "vps-to-local-wsl" -N ""
+cat ~/.ssh/id_ed25519.pub
+```
+
+Use a descriptive `-C` comment so you know which key belongs to which connection.
+
+**Step 4 — Install public key on WSL**
+
+```bash
+# On WSL:
+mkdir -p ~/.ssh && chmod 700 ~/.ssh
+echo 'ssh-ed25519 AAA... <comment>' >> ~/.ssh/authorized_keys
+chmod 600 ~/.ssh/authorized_keys
+```
+
+**Step 5 — Create SSH config entry on VPS**
+
+```bash
+# On VPS, add to ~/.ssh/config:
+cat >> ~/.ssh/config << 'EOF'
+
+Host wsl
+    HostName <WSL_TAILSCALE_IP>
+    User <wsl_username>
+    IdentityFile ~/.ssh/id_ed25519_vps2local
+EOF
+```
+
+**Step 6 — Test**
+
+```bash
+ssh wsl
+# Should connect without password, landing in WSL shell
+```
+
+### Script Everything — Worked Example
+
+Once the SSH bridge works, immediately create wrapper scripts that encode the connection, execution, and file-sync patterns. This is what "Script Everything" looks like in practice — you should never need to remember flags, paths, or hostnames.
+
+**Trio of canonical wrappers for any VPS→local bridge:**
+
+**1. `connect-local.sh`** — Drop-in SSH replacement. Run with no args for interactive shell; pass a command to execute non-interactively.
+
+```bash
+#!/bin/bash
+# Connect to local WSL machine
+# Usage: ./connect-local.sh [command]
+ssh local-machine "$@"
+```
+
+**2. `run-local.sh`** — Explicit remote-execution script. Same as `connect-local.sh` but with a `--help` guard and stricter error handling — useful when an agent or cron script needs to invoke remote commands expectably.
+
+```bash
+#!/bin/bash
+# Run a command on local WSL and return output
+# Usage: ./run-local.sh <command>
+
+if [ $# -eq 0 ]; then
+  echo "Usage: $0 <command>"
+  exit 1
+fi
+
+ssh -o ConnectTimeout=10 local-machine "$@"
+```
+
+**3. `sync-local.sh`** — Bidirectional rsync wrapper with pull/push direction control and optional single-volume mode. Prevents the common mistake (made in this session) of syncing the wrong direction and overwriting newer files with stale ones.
+
+```bash
+#!/bin/bash
+# Usage: ./sync-local.sh [pull|push] [volume]
+# pull — copies FROM local WSL TO VPS (overwrites VPS files)
+# push — copies FROM VPS TO local WSL (overwrites WSL files)
+
+ACTION=${1:-pull}
+VOL=${2:-all}
+LOCAL_DIR="/home/vthen/work/post-colonial-vietnam/sources/vstb/"
+VPS_DIR="/root/work/post-colonial-vietnam/sources/vstb/"
+PATTERN="viet-su-tan-bien-quyen-*.txt"
+
+if [ "$VOL" != "all" ]; then
+  PATTERN="viet-su-tan-bien-quyen-${VOL}.txt"
+fi
+
+if [ "$ACTION" = "push" ]; then
+  echo "PUSH: VPS → local WSL"
+  rsync -avz --include="$PATTERN" --exclude="*" "$VPS_DIR" "local-machine:${LOCAL_DIR}"
+elif [ "$ACTION" = "pull" ]; then
+  echo "PULL: local WSL → VPS"
+  rsync -avz --include="$PATTERN" --exclude="*" "local-machine:${LOCAL_DIR}" "$VPS_DIR"
+fi
+```
+
+**Common pitfalls with wrapper scripts:**
+
+- **Path hardcoding is a feature, not a bug.** Scripts that hardcode `/root/work/...` work on the VPS but fail on WSL where the user is `vthen` and paths are `/home/vthen/work/...`. Fix by either:
+  - **Symlink**: `sudo ln -sf /home/vthen/work /root/work` on WSL (requires sudo).
+  - **Copy-and-modify**: `cp ocr_resumable.sh ocr_resumable_local.sh && sed -i 's|/root/work|/home/vthen/work|g' ocr_resumable_local.sh` — run the local variant on WSL.
+- **SSH config deduplication.** Appending a duplicate `Host local-machine` block adds the keys from both blocks (SSH merges them) but creates a messy config. If you're programmatically adding a block when one already exists, remove the old one first or use `sed` to update in place. A config with duplicate Host stanzas works but is harder to debug.
+- **rsync direction matters.** The agent's `sync-local.sh` started as a `pull`-only script. When used to sync from WSL→VPS after both sides had made progress, it overwrote the VPS's newer copies with WSL's stale ones. Explicit `pull`/`push` arguments prevent this. The two-letter mnemonic: you **push** from the machine you're on, you **pull** from the machine you're not on.
+
+### Pitfalls
+
+- **WSL needs its own Tailscale IP.** The Windows host's Tailscale IP (`tailscale status` from the VPS shows `desktop-b4lb6vl windows`) is NOT the WSL's IP. WSL runs on a virtual NAT behind Windows. Installing Tailscale inside WSL gives it a separate identity on the tailnet — only then can the VPS reach it directly. Without this, port forwarding on the Windows host is required.
+- **WSL systemd can be unreliable.** `sudo systemctl enable ssh --now` may succeed without actually starting sshd. Always verify with `sudo systemctl status ssh --no-pager` — the output should show `Active: active (running)`. If systemd is broken, fall back to `sudo /usr/sbin/sshd`.
+- **Typo traps when pasting commands:**
+  - `https:tailscale.com/install.sh` → missing `//` → `curl: (3) URL rejected`
+  - `https://tailscale.com/install.sk` → `.sk` instead of `.sh` → same error
+  - `~/.ssh/authorized_keys~` → trailing tilde in filename → `chmod: cannot access`
+- **Port 22 on Windows host is not WSL.** Even if Windows runs an SSH server, it serves the Windows filesystem, not WSL. WSL's SSH server listens inside its own network namespace. Tailscale inside WSL solves this cleanly.
+- **Key file naming:** Use descriptive key names (`id_ed25519_vps2local` rather than bare `id_ed25519`) so you can manage multiple keys without confusion.
+- **Host key verification on first connection:** First `ssh wsl` will prompt `The authenticity of host '<ip>' can't be established...` — type `yes` to accept. This only happens once.
 
 ## Architecture Note
 

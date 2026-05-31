@@ -511,10 +511,10 @@
       "collection": "DABT - Risk Assessment",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-05-28T13:27:12.466858+00:00",
+      "next_review_at": "2026-06-02T08:58:43.149337+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": "Limited to tested doses, doesn't account for response curve, not accurate to true NOAEL, limited by data quality"
+      "last_user_answer": "limited to tested doses, no CI, sample-size dependent, ignores slope"
     },
     {
       "id": "abdc7077-1410-467b-8ed5-1826ed956764",
@@ -1882,6 +1882,66 @@
       "next_review_at": "2026-06-04T05:36:34.250900+00:00",
       "created_at": "2026-05-29T21:36:34.241739+00:00",
       "video_id": "conduct-of-studies-block3-stats",
+      "last_user_answer": null
+    },
+    {
+      "id": "74161cf4-1477-4f3b-8207-5750bb06967f",
+      "question": "What three organizational roles does GLP require, and what is each responsible for?",
+      "answer": "Study Director (single point of control, owns study conduct + final report), QAU (independent audit, reports to mgmt), Management (resources, cannot override SD on science)",
+      "collection": "DABT - Conduct of Studies",
+      "status": "learning",
+      "ease_streak": 0,
+      "next_review_at": "2026-05-31T15:55:04.347114+00:00",
+      "created_at": "2026-05-30T15:54:56.073204+00:00",
+      "video_id": "domain-i-blocks45",
+      "last_user_answer": null
+    },
+    {
+      "id": "140bc66e-f421-4485-85c7-bcb8db1ba906",
+      "question": "What are the three rules for raw data correction under GLP (21 CFR 58)?",
+      "answer": "Single-line strike (no erasures/white-out), initial + date, reason for correction",
+      "collection": "DABT - Conduct of Studies",
+      "status": "learning",
+      "ease_streak": 0,
+      "next_review_at": "2026-05-31T15:55:04.347114+00:00",
+      "created_at": "2026-05-30T15:54:56.073204+00:00",
+      "video_id": "domain-i-blocks45",
+      "last_user_answer": null
+    },
+    {
+      "id": "33a58245-abd8-421c-bf1d-a54534d6645c",
+      "question": "OECD TG numbers: modern default for acute oral toxicity and for 90-day repeated dose?",
+      "answer": "TG 425 (Up-and-Down Procedure) for acute oral; TG 408 for 90-day repeated dose",
+      "collection": "DABT - Conduct of Studies",
+      "status": "learning",
+      "ease_streak": 0,
+      "next_review_at": "2026-06-01T15:55:04.347114+00:00",
+      "created_at": "2026-05-30T15:54:56.073204+00:00",
+      "video_id": "domain-i-blocks45",
+      "last_user_answer": null
+    },
+    {
+      "id": "036acf0d-39dc-4a12-8238-310cdd0a8a59",
+      "question": "What distinguishes an adaptive response from an adverse effect in study interpretation?",
+      "answer": "Adaptive: homeostatic response without functional/structural impairment (CYP induction, hypertrophy without injury). Adverse: change impairing normal health, growth, or development",
+      "collection": "DABT - Conduct of Studies",
+      "status": "learning",
+      "ease_streak": 0,
+      "next_review_at": "2026-06-01T15:55:04.347114+00:00",
+      "created_at": "2026-05-30T15:54:56.073204+00:00",
+      "video_id": "domain-i-blocks45",
+      "last_user_answer": null
+    },
+    {
+      "id": "5aec0a98-eba1-4d3a-b1b7-fa878c104b51",
+      "question": "In NOAEL determination, what three factors beyond p-values must you consider?",
+      "answer": "Totality of evidence (dose-response trend, histopath, direction of changes), biological vs statistical significance, study power (underpowered not-significant likely Type II error)",
+      "collection": "DABT - Conduct of Studies",
+      "status": "learning",
+      "ease_streak": 0,
+      "next_review_at": "2026-06-02T15:55:04.347114+00:00",
+      "created_at": "2026-05-30T15:54:56.073204+00:00",
+      "video_id": "domain-i-blocks45",
       "last_user_answer": null
     }
   ],

@@ -254,7 +254,22 @@ mv <path> /root/recycle-bin/$(date +%Y-%m-%d)/
 
 This applies everywhere — work files, temp files, project directories. The recycle bin makes recovery possible if the user changes their mind. The only exception is session-specific temp files in project `temp/` dirs that the user explicitly agrees to delete.
 
-**Pitfall — Use project-specific temp/, not /tmp/:** Each project gets a `temp/` subdirectory for intermediate work (extractions, translations, drafts). Do NOT use `/tmp/` — files there get orphaned and lost when the system cleans up. When in doubt, create `temp/` inside the project directory.
+**Pitfall — Temp dir cleanup discipline:** Some workloads legitimately need `/tmp/` (OCR pages at 300 DPI produce 25MB per page — 500 pages won't fit in a project `temp/` dir). The safety rule is:
+
+1. Always use a **dedicated subdirectory** under `/tmp/`, not bare filenames: `TMPDIR=$(mktemp -d /tmp/<project>_XXXXXXXXX)`
+2. Always add **`trap 'rm -rf "$TMPDIR"' EXIT`** immediately after creating the subdirectory. Guarantees cleanup on success AND failure (SIGTERM, crash, `set -e` abort).
+3. Do NOT rely on `rm -f` at the end of a script — if `set -e` is active, any intermediate error skips the cleanup line.
+4. When in doubt, prefer a project `temp/` subdirectory for files under 100MB total. Use `/tmp/` with trap only when the intermediate data is too large.
+
+Canonical pattern:
+```bash
+TMPDIR=$(mktemp -d /tmp/project_temp_XXXXX)
+trap 'rm -rf "$TMPDIR"' EXIT
+cd "$TMPDIR"
+# ... work ...
+mv output.txt /path/to/final/
+# EXIT fires automatically, removing $TMPDIR
+```
 
 ## When to Load This Skill
 

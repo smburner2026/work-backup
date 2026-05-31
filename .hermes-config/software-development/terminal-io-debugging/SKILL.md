@@ -202,3 +202,80 @@ After applying fixes:
 
 - `debugging-hermes-tui-commands` — Hermes TUI slash command debugging (different codebase)
 - `systematic-debugging` — general 4-phase root cause debugging methodology
+
+## TUI Crash → Terminal Corruption Recovery
+
+A TUI (yazi, herm, vim, htop) that crashes or is killed unexpectedly often leaves the terminal in raw mode. The user sees "random characters" (escape sequences as literal text) or their keyboard input appears garbled.
+
+### Common causes
+
+| Cause | Pattern | Example |
+|-------|---------|---------|
+| **TUI process killed** | `SIGKILL` or crash while in raw mode | `yazi` killed during file preview, `herm` crashed mid-render |
+| **Binary file opened in TUI** | TUI tries to render binary as text | Opening a `.db`, `.zip`, or `.pdf` in `yazi`'s preview panel |
+| **SSH session reconnect** | Buffered escape sequences replay | Disconnected SSH, reconnected to same session — old raw-mode output replays |
+| **tmux state corruption** | tmux pane stuck in alternate screen | A pane exited a TUI but the alternate screen buffer wasn't restored |
+
+### The "mms" pattern
+
+When a process writes raw bytes to stdout (binary data or partial escape sequences), the terminal interprets them as characters. "mms", `~`, and other repeating characters are typical of a TUI that crashed while outputting frame data — the terminal receives mid-frame bytes that happen to decode as visible ASCII.
+
+### Recovery commands
+
+Try in order — each resets the terminal to a known good state:
+
+```bash
+# 1. Reset terminal driver (blind type — works even when screen is garbled)
+reset
+
+# 2. Alternative: sane terminal settings
+stty sane
+
+# 3. If inside tmux, kill the broken pane
+# (within tmux): Ctrl+B, then type :kill-pane
+# OR from outside: tmux kill-pane -t <session>:<window>.<pane>
+
+# 4. If a process is actively spewing, find and kill it
+ps aux | grep -E 'tail|watch|cat|loop' | grep -v grep
+kill <PID>
+
+# 5. Last resort — close SSH session and reconnect
+exit
+```
+
+### Prevention
+
+```bash
+# Guard auto-launched TUI apps from stderr noise
+# In ~/.bashrc or similar:
+workbench 2>/dev/null
+
+# Use tmux's remain-on-exit to catch crashes
+tmux set -g remain-on-exit on
+# Or per-pane: Ctrl+B :set remain-on-exit on
+
+# Disable yazi's file preview if it keeps crashing on specific file types
+# In ~/.config/yazi/yazi.toml:
+# [preview]
+# max_width = 0
+# max_height = 0
+# or: skip_files = ["*.db", "*.zip", "*.bin"]
+```
+
+### Quick triage
+
+When a user says "my terminal is showing random characters":
+
+1. Is this inside tmux? → Kill the pane, or `reset` inside it
+2. Is this a direct SSH session? → `reset` then `stty sane`
+3. Does it stop when you close and reopen? → Connection replay, not permanent
+4. Does it keep happening after reconnect? → A process is auto-starting and spewing. Check `.bashrc`, `.profile`, systemd services
+
+### Pitfalls
+
+- **`reset` sends escape sequences too** — if the terminal is truly broken, `reset` output may also be garbled. Type it blindly and press Enter. The termios driver processes it in the kernel regardless of what the screen shows.
+- **Don't confuse terminal corruption with SSH key issues** — if the "random characters" appear during SSH login (before the shell prompt), it's an SSH banner or motd issue, not a TUI crash.
+- **`stty sane` fixes termios but not the display** — after `stty sane`, the terminal mode is correct but the screen may still look garbled. Run `reset` or `clear` to redraw.
+- **When tmux reconnects to a crashed pane** — the pane's process is dead but the output buffer may still hold escape sequences. `reset -I` (initialize terminal) is more thorough than plain `reset`.
+- **Multiple users on the same machine** — one user's broken terminal doesn't affect others. Each SSH session has its own termios state.
+- **tmux `workbench` auto-launch pattern** — if `/usr/local/bin/workbench` starts `yazi` in a tmux pane, and `yazi` crashes on a file with terminal escape sequences in its content, the pane shows the corrupted output to every subsequent SSH login. Fix: remove the crashing TUI from the auto-launch, or add `2>/dev/null` guard. Refs: common workbench patterns at `engineering-discipline` and `references/` under that skill.

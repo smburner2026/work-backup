@@ -13,7 +13,7 @@ Load when: drill question needs sourced explanation (DB Explanation empty) | dee
 
 When the user asks about missing content or you discover the library is incomplete:
 
-1. **Audit what's on disk** — Compare the regulations/ directory (or relevant source dir) against the DABT exam outline. List files, count them, note what's present and what's absent.
+1. **Audit what's on disk** — Compare the source directories against the DABT exam outline. Resolve searchable source paths from `config['reference_library']['searchable_sources']`. List files, count them, note what's present and what's absent.
 2. **PRESENT findings FIRST** — Show the user the gap analysis: what's there, what's missing, prioritized by DABT exam weight. Include file counts and size estimates. **Do not start downloading.** The user needs to see the map before approving the route.
 3. **Get confirmation** — Let the user confirm the priority list and batch sizes before any downloads begin.
 4. **Cron-job exception** — When this skill is triggered from a cron job (no user present — detectable via the system prompt note: "You are running as a scheduled cron job"), steps 2-3 are skipped. The user already specified exact targets in the cron definition. Proceed directly to downloading.
@@ -23,7 +23,7 @@ When the user asks about missing content or you discover the library is incomple
    - **3+ parallel batches** → multiple cron jobs, not multiple delegate_task calls
 5. **Verify files landed** — When the background job reports back, check file sizes (not empty/truncated) before telling the user it's done.
 6. **Update index.json** — After new files arrive:
-   - Read the current `index.json` from the regulations/ (or relevant source) directory
+   - Read the current `index.json` from the relevant source directory (resolved from `config['reference_library']['searchable_sources']`)
    - Add entries for new files with `title`, `category`, `file`, and `pages` fields
    - Rebuild the full index (don't just append — recalculate `total_documents` and sort)
    - Write the updated file. The index is what makes `search_files` and G-Brain sync discover new content.
