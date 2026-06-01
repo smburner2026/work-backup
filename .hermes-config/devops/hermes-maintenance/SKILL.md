@@ -187,6 +187,30 @@ This rule is particularly important because memory has a hard character limit (2
 6. **Verify** — `cronjob(action='list')` — confirm the job is gone
 7. **Report** — Tell the user exactly what was removed (job name, script, anything else cleaned)
 
+### Script timeout configuration
+
+`no_agent` script jobs have a global timeout controlled by `cron.script_timeout_seconds` in `config.yaml` (default: 600s). If a script exceeds this, the cron runner kills it and reports `last_status: "error"` with "Script timed out after Ns".
+
+**To increase:** `sed -i 's/script_timeout_seconds: 600/script_timeout_seconds: 900/' ~/.hermes/config.yaml` — then restart the gateway (cannot be done from inside the running gateway process; use `hermes gateway restart` from a shell, or wait for next reboot).
+
+**When to increase:** Scripts that run gbrain dream cycles, large data migrations, or multi-phase maintenance loops on constrained VPS (≤2GB). 900s (15 min) is usually sufficient. If still not enough, consider splitting the script into phases rather than bumping to 1800s+.
+
+**When NOT to increase:** Leave at 600s if all scripts complete well under it — a lower timeout catches hung scripts faster.
+
+### Stale error status from manual re-runs
+
+When you trigger a cron job manually via `cronjob(action='run')`, the `last_status` and `last_run_at` update to reflect **that manual run**, not the last scheduled run. If the scheduled run succeeded but a subsequent manual re-run failed, the job shows `last_status: "error"` even though the scheduled execution was fine.
+
+**Detection:** Check the output directory timestamps — `ls ~/.hermes/cron/output/<job_id>/` — to distinguish scheduled runs from manual triggers. A successful output file at the scheduled time (e.g., `2026-05-31_06-00-50.md`) with a later failed file (e.g., `2026-05-31_11-21-08.md`) means the scheduled run worked.
+
+**Fix:** Run the job manually once more to clear the stale error status, or ignore it if the actual scheduled run is confirmed working.
+
+### Timing delays on constrained VPS
+
+On a 2GB VPS with heavy swap usage (50%+ RAM in swap), cron jobs routinely fire 3-15 minutes late. This is normal scheduler backlog, not a scheduling error or overlap issue. Jobs spaced 1+ hour apart may still show similar delays — the bottleneck is the VPS swapping, not job collision.
+
+**Action:** Only investigate if a job fires >30 minutes late, or if a job shows `last_run_at: null` when it should have fired. The 3-15 minute range is expected behavior.
+
 ### Model provider dependency
 
 Cron jobs without an explicit `model`/`provider` override inherit the global `model.provider` setting at **dispatch time** (not creation time). Changing the global provider causes existing jobs to fail on their next scheduled run:
@@ -270,6 +294,8 @@ When `cronjob(action='list')` shows a job with `no_agent=True` and `last_status:
 4. **Verify the fix** — Trigger `cronjob(action='run', job_id='<id>')` manually to confirm.
 
 **Concrete example — git backup cron fails to push:** The `work-backup.sh` script runs weekly, commits local changes, then tries `git push origin main`. If the remote `origin` was removed (git config drift) or the GitHub token expired, the commit succeeds but the push fails with exit 128. The local backup is safe (committed on main) but remote doesn't update. Fix: add the remote back, re-auth with gh, then run `git push origin main` followed by a manual cron run to clear the error status.
+
+**Transient auth failures:** Git push can fail with "Invalid username or token" even when `gh auth status` shows valid credentials. The credential helper chain (`credential.helper=store` → `gh auth git-credential`) may have a stale cached token. Before assuming the remote is broken, retry: `cd <repo> && git push origin main`. If it succeeds on retry, the error was transient — no config change needed.
 
 ## Secret Exposure Audit
 
