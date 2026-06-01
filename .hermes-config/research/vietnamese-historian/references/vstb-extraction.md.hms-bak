@@ -4,9 +4,9 @@
 
 **Việt Sử Tân Biên** (Phạm Văn Sơn) — 7 volumes, definitive Vietnamese history.
 - Location: `/root/work/post-colonial-vietnam/sources/vstb/`
-- Format: Scanned PDFs (291 MB total, ~3,500 pages)
+- Format: Scanned PDFs (291 MB total, ~3,692 pages)
 - OCR: Tesseract with `vie+fra` (Vietnamese + French)
-- Extracted text will be saved as `.txt` alongside each `.pdf`
+- Status: All 7 volumes complete, zero failures (artifacts repaired)
 
 ## Pipeline Architecture
 
@@ -16,12 +16,12 @@ PHASE 1                    PHASE 2                  PHASE 3                  PHA
 Batch OCR                  Structure Extract        Period Map               G-Brain Ingest
 │                          │                         │                        │
 ├── Vol 1 (509p) ──────►  ├── TOC parse ──────────► ├── Period tags ───────► ├── Page create
-├── Vol 2 ────────────►   ├── Chapter detect        │  (P1-P7)               │  per period
-├── Vol 3 (Nam Bắc) ──►   ├── Figure extraction     ├── Figure map           ├── Cross-link
-├── Vol 4 ────────────►   │  (names, dates, roles)  │  per period            │  per figure
-├── Vol 5 ────────────►   ├── Event extraction      ├── Timeline             └── Final QC
-├── Vol 6 ────────────►   └── Quality flags          │  building
-└── Vol 7 ────────────►                              └── Gap analysis
+├── Vol 2 (727p) ──────►  ├── Chapter detect        │  (P1-P7)               │  per period
+├── Vol 3 (499p) ──────►  ├── Figure extraction     ├── Figure map           ├── Cross-link
+├── Vol 4 (498p) ──────►  │  (names, dates, roles)  │  per period            │  per figure
+├── Vol 5 (492p) ──────►  ├── Event extraction      ├── Timeline             └── Final QC
+├── Vol 6 (502p) ──────►  └── Quality flags          │  building
+└── Vol 7 (465p) ──────►                              └── Gap analysis
 ```
 
 ## Phase 1: OCR
@@ -107,6 +107,67 @@ mv /tmp/fixed.txt "viet-su-tan-bien-quyen-${VOL_NUM}.txt"
 # Then re-run the resume script
 ```
 
+### OCR Artifact Repair
+
+After OCR completes, scan ALL volumes for failure markers. The OCR scripts write `[OCR FAILED PAGE N]` when tesseract fails and `[IMAGE MISSING PAGE N]` when pdftoppm fails. These are recoverable — the underlying page images are usually fine; the failure was transient (OOM, timeout, race condition on the 2GB VPS).
+
+**Scan for artifacts:**
+```bash
+for f in viet-su-tan-bien-quyen-*.txt; do
+  vol=$(echo "$f" | grep -oP '\d')
+  fails=$(grep -c "OCR FAILED\|IMAGE MISSING" "$f" 2>/dev/null)
+  if [ "$fails" -gt 0 ]; then
+    echo "=== Volume $vol: $fails failures ==="
+    grep -n "OCR FAILED\|IMAGE MISSING" "$f"
+  else
+    echo "=== Volume $vol: clean ==="
+  fi
+done
+```
+
+**Fix each failed page:**
+```bash
+# 1. Extract page image from PDF
+pdftoppm -f N -l N -r 150 -png <pdf> /tmp/ocr_fix_pageN
+
+# 2. Run tesseract (try psm 1 first, fallback to psm 6)
+tesseract /tmp/ocr_fix_pageN*.png stdout -l vie+fra --psm 1 2>/dev/null
+
+# 3. Replace the failure marker in the text file
+# Use Python for safe replacement (not sed — handles special characters):
+python3 -c "
+import sys
+marker = '[OCR FAILED PAGE N]'  # or [IMAGE MISSING PAGE N]
+with open('<txt_file>') as f: text = f.read()
+with open('<new_ocr_output>') as f: new_text = f.read().strip()
+text = text.replace(marker, new_text, 1)
+with open('<txt_file>', 'w') as f: f.write(text)
+"
+
+# 4. Clean up temp files
+rm -f /tmp/ocr_fix_pageN*
+```
+
+**Cross-machine sync pitfall:** After fixing artifacts, the OTHER machine may have a stale copy with unfixed markers. Always sync:
+```bash
+# Push fixed files from WSL to VPS
+scp local-machine:/home/vthen/.../viet-su-tan-bien-quyen-{N}.txt /root/work/.../sources/vstb/
+```
+
+**Common failure patterns:**
+- Pages 1-8 of a volume: usually front matter (title, preface, TOC) — pdftoppm may fail on cover pages with decorative layouts. OCR output may be garbled for image-heavy pages; that's expected.
+- Mid-volume OCR failures: usually transient tesseract errors (OOM killer on 2GB VPS). Re-OCR almost always succeeds.
+- End-of-volume IMAGE MISSING: usually an incomplete pdftoppm run that was killed before finishing. Re-run the full page range.
+
+**Verification (always run after fixing):**
+```bash
+for f in viet-su-tan-bien-quyen-*.txt; do
+  fails=$(grep -c "OCR FAILED\|IMAGE MISSING" "$f" 2>/dev/null)
+  echo "$(basename $f): $fails failures"
+done
+# Expected: all 0
+```
+
 ### Kanban Integration
 
 Each volume should be a kanban card so progress is visible:
@@ -126,6 +187,7 @@ For long-running volumes, also create a card for the Synthesis phase that depend
 | Pages done | `grep -oP '^=== PAGE \K\d+' output.txt \| tail -1` |
 | Lines extracted | `wc -l output.txt` |
 | Actual text vs noise | Sample pages: `sed -n '/=== PAGE 10 ===/,/=== PAGE 11 ===/p' output.txt` |
+| Artifact count | `grep -c "OCR FAILED\|IMAGE MISSING" output.txt` |
 
 ### Expected Output
 
@@ -133,18 +195,19 @@ For long-running volumes, also create a card for the Synthesis phase that depend
 sources/vstb/
 ├── viet-su-tan-bien-quyen-1.pdf      (52 MB, 509 pages)
 ├── viet-su-tan-bien-quyen-1.txt       (~1-3 MB OCR output)
-├── viet-su-tan-bien-quyen-2.pdf      (55 MB)
+├── viet-su-tan-bien-quyen-2.pdf      (55 MB, 727 pages)
 ├── viet-su-tan-bien-quyen-2.txt       (~1-3 MB)
-├── viet-su-tan-bien-quyen-3.pdf      (29 MB)
+├── viet-su-tan-bien-quyen-3.pdf      (29 MB, 499 pages)
 ├── viet-su-tan-bien-quyen-3.txt       (~0.5-2 MB)
-├── viet-su-tan-bien-quyen-4.pdf      (35 MB)
+├── viet-su-tan-bien-quyen-4.pdf      (35 MB, 498 pages)
 ├── viet-su-tan-bien-quyen-4.txt       (~0.5-2 MB)
-├── viet-su-tan-bien-quyen-5.pdf      (38 MB)
+├── viet-su-tan-bien-quyen-5.pdf      (38 MB, 492 pages)
 ├── viet-su-tan-bien-quyen-5.txt       (~0.5-2 MB)
-├── viet-su-tan-bien-quyen-6.pdf      (54 MB)
+├── viet-su-tan-bien-quyen-6.pdf      (54 MB, 502 pages)
 ├── viet-su-tan-bien-quyen-6.txt       (~1-3 MB)
-└── viet-su-tan-bien-quyen-7.pdf      (31 MB)
-    viet-su-tan-bien-quyen-7.txt       (~0.5-2 MB)
+├── viet-su-tan-bien-quyen-7.pdf      (31 MB, 465 pages)
+├── viet-su-tan-bien-quyen-7.txt       (~0.5-2 MB)
+└── translations/                      (cleaned source + glossary + English per chapter)
 ```
 
 ## Phase 2: Structure Extraction (Per volume, sequential)
@@ -225,6 +288,18 @@ P7 — Covert Build-Up (1963–1965)
 ```
 
 Note: VSTB covers Vietnamese history from ancient times. Only chapters within ~1800–1965 are relevant to this project's scope. Earlier content is background context.
+
+### Volume-to-Period Mapping
+
+| Volume | Title | Periods |
+|--------|-------|---------|
+| 1 | Thượng Cổ và Trung Cổ Thời Đại | Pre-P1 (background) |
+| 2 | *(ancient/medieval continued)* | Pre-P1 (background) |
+| 3 | Nam Bắc Phân Tranh | Late P1 (17th-18th c.) |
+| 4 | *(later imperial)* | P1 (Nguyen Dynasty) |
+| 5 | *(mid-19th c.)* | P1-P2 transition |
+| 6 | Cách Mạng Cận Sử | P2-P3 (French colonial, resistance, 1885-1910s) |
+| 7 | *(early 20th c.)* | P3-P4 (resistance, occupation) |
 
 ### Mapping Rules
 
@@ -317,6 +392,7 @@ content: |
 | G1 | All 7 PDFs present | Parent |
 | G2 | OCR text files exist, non-zero size | Parent |
 | G3 | Sample 5 pages per vol — readable Vietnamese | Parent |
-| G4 | Structure JSON valid, TOC parsed | Synthesis |
-| G5 | Period map covers all 7 periods | Parent |
-| G6 | G-Brain pages created, cross-linked | Parent |
+| G4 | Zero OCR FAILED / IMAGE MISSING markers | Parent |
+| G5 | Structure JSON valid, TOC parsed | Synthesis |
+| G6 | Period map covers all 7 periods | Parent |
+| G7 | G-Brain pages created, cross-linked | Parent |

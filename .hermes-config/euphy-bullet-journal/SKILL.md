@@ -82,7 +82,7 @@ This prevents date-less tasks from accumulating in the journal.
 ### 5. Mandatory Recording Rules
 When the user instructs you to add or record a task, event, or note:
 
-**You MUST write to the journal file** — the authoritative task store is `/root/.hermes/profiles/euphy/journal/study-schedule.md`.
+**You MUST write to the journal file** — the authoritative task store is `/root/.hermes/profiles/euphy/journal/study-schedule.md`. **Important:** This path is only accessible when the session runs under the `euphy` Hermes profile. Running under the default profile or any other profile will fail with a permission error — the cron job must specify `--profile euphy`.
 - Use the `euphy-add` CLI tool: `euphy-add "Task text" YYYY-MM-DD "•"` (or other bullet symbol)
 - **Date convention**: Every entry must carry a clear due date. When using `euphy-add`, the tool automatically appends `[due:YYYY-MM-DD]` to the entry text. This tag enables the cron jobs to filter by horizon (daily → 3 days, weekly → 14 days, monthly → 90 days).
 - Or use `write_file` / `patch` to update the journal file directly.

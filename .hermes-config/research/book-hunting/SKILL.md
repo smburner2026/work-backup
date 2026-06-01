@@ -8,6 +8,24 @@ tags: [libgen, pdf, books, research, isbn, public-domain, oll]
 
 # Book Hunting
 
+## When to Use
+
+User asks to find/download/retrieve a specific academic book, or any request to locate and retrieve a scholarly monograph or textbook.
+
+## Source Identification
+
+When the source is a **social media post** (X/Twitter, Bluesky, etc.):
+
+- **Preferred: Lightpanda** — `lightpanda fetch <url> --dump markdown --wait-ms 8000`
+  - Fast, no API keys, no Chrome needed
+  - Works for public X posts (renders JS)
+- **Fallback: vxtwitter API** — `curl -s https://api.vxtwitter.com/i/status/POST_ID`
+  - Returns JSON with tweet text, media URLs, user info
+- **Fallback: fxtwitter proxy** — `curl -s https://api.fxtwitter.com/status/POST_ID | jq '.tweet.text'`
+- **Verify visual content**: If the post has a book cover image, analyze it with `vision_analyze` to confirm title/author/edition.
+
+Extract: title, author, edition, ISBN (if visible), publisher, year.
+
 ## Primary workflow (libgen.li)
 
 1. Search by ISBN on libgen.li:
@@ -19,13 +37,18 @@ tags: [libgen, pdf, books, research, isbn, public-domain, oll]
    - Pages ~400-500 for a monograph
    - Extension: pdf
    - Size: 2-15 MB typical
+   - **Book badge** (`l` badge) = full book; **Article badge** (`a` badge) = journal article
 
-3. Get the edition ID (e.g. `edition.php?id=136504831`), scrape the `get.php?md5=...&key=...` URL from the ads page:
+3. Open the edition details page (`edition.php?id=...`) and verify:
+   - Title, author(s), publisher, year, ISBN all match expected
+   - Page count confirms it's a full book (200+ pages)
+
+4. Get the edition ID (e.g. `edition.php?id=136504831`), scrape the `get.php?md5=...&key=...` URL from the ads page:
    ```
    curl -sL "https://libgen.li/ads.php?md5=<MD5>" | grep -oP 'get\.php\?md5=[^"]+'
    ```
 
-4. Download using the extracted URL:
+5. Download using the extracted URL:
    ```
    curl -sL "https://libgen.li/get.php?md5=<MD5>&key=<KEY>" -o <output.pdf>
    ```
@@ -51,10 +74,8 @@ For public-domain classics (pre-1928), skip libgen entirely — cleaner PDFs are
 
 **Detail**: `references/public-domain-sources.md`
 
-## Pitfalls
-- libgen.li may timeout on first attempt; retry with longer timeout
-- The `key` parameter in get.php is dynamically generated — must scrape fresh each time
-- Some editions on libgen are journal articles, not the full book — verify page count
-- Always verify downloaded file: check for `%PDF` header and reasonable size
-- **Tool selection**: use Lightpanda for the source URL (X/Twitter post), curl for the actual download. Don't use Lightpanda for libgen/archive downloads.
-- **Reference:** `references/efficient-workflow.md` — optimized turn-by-turn sequence from the 2026-05-27 session.
+## Network quirks and mirror fallbacks
+
+- `libgen.rs` may return empty responses from some IP ranges; prefer `libgen.li` for author search.
+- `get.php?md5=...` requires a `key` parameter scraped from `ads.php?md5=...` first. A bare `get.php?md5=...` without key returns a short HTML interstitial, not the file.
+- Anna's Archive (`annas-archive.org`) is JS-heavy. Both curl and Lightpanda can return empty responses from cloud VPS. Do not retry the same host with multiple fetch methods; record it as `acquisition_blocker` and pivot.

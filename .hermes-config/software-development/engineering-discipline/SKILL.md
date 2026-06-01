@@ -8,7 +8,7 @@ platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [coding-conduct, discipline, simplicity, goal-driven, surgical-changes]
-    related_skills: [writing-plans, requesting-code-review, test-driven-development, systematic-debugging]
+    related_skills: [writing-plans, requesting-code-review, test-driven-development, systematic-debugging, workflow-pattern-kit]
 ---
 
 # Engineering Discipline
@@ -259,7 +259,7 @@ This applies everywhere — work files, temp files, project directories. The rec
 1. Always use a **dedicated subdirectory** under `/tmp/`, not bare filenames: `TMPDIR=$(mktemp -d /tmp/<project>_XXXXXXXXX)`
 2. Always add **`trap 'rm -rf "$TMPDIR"' EXIT`** immediately after creating the subdirectory. Guarantees cleanup on success AND failure (SIGTERM, crash, `set -e` abort).
 3. Do NOT rely on `rm -f` at the end of a script — if `set -e` is active, any intermediate error skips the cleanup line.
-4. When in doubt, prefer a project `temp/` subdirectory for files under 100MB total. Use `/tmp/` with trap only when the intermediate data is too large.
+- When in doubt, prefer a project `temp/` subdirectory for files under 100MB total. Use `/tmp/` with trap only when the intermediate data is too large.
 
 Canonical pattern:
 ```bash
@@ -271,7 +271,73 @@ mv output.txt /path/to/final/
 # EXIT fires automatically, removing $TMPDIR
 ```
 
-## When to Load This Skill
+### 8. Codebase Analysis Protocol — Hype vs Substance
+
+> READMEs market; codebases reveal. Star counts reflect virality, not quality.
+> Before concluding a project is useful, verify at the code level.
+
+When evaluating an unfamiliar OSS project (as done this session with browser-use and Vibe-Trading), use this sequence. Each step answers one question. Stop when you have enough evidence to form a judgment.
+
+**Step 1 — README + metadata (what does it claim?)**
+- Read the README critically. Count marketing claims vs technical specifics.
+- Check the version number and release date. v0.1.x is a prototype.
+- Note the author/org. Academic lab? Solo dev? Startup?
+
+**Step 2 — pyproject.toml / package.json / Cargo.toml (what does it depend on?)**
+- Dependencies reveal architecture: `swarms` library → thin wrapper; custom `swarm/` package → real orchestration.
+- Check build system. Poetry? Hatchling? Raw setuptools? Indicates maturity.
+- Look at optional dependencies. Not a quality signal but reveals priorities.
+
+**Step 3 — Directory tree (what are the module boundaries?)**
+- Run tree or list the top-level package dir. Each subdirectory is a concern.
+- Count the ratio: configuration/prompts vs. actual execution code.
+- A `prompts.py` with no `engine.py` means the repo is prompts-with-a-wrapper.
+
+**Step 4 — Core source files (how does it actually execute?)**
+- Read the main entry point (`__main__.py`, `cli.py`, `main.py`).
+- Read the central orchestration file. Look for the actual loop: is it an LLM call in a for-loop, or is it a state machine with proper error handling?
+- Count lines of core logic vs. lines of CLI/UI/README.
+
+**Step 5 — Data models (what types reveal about design)**
+- Read the Pydantic/dataclass models first. They are the ground truth of what the system considers important.
+- Look for: proper error states, status enums, optionality in fields (reveals incomplete design), frozen/hashable types.
+
+**Step 6 — Execution flow (how things actually run)**
+- Trace one complete path: input → agent → tool call → result → output.
+- Does it handle: rate limits, timeouts, partial failures, cancellation?
+- Are there unit tests for the core loop, or just integration smoke tests?
+
+**Step 7 — Tradeoff analysis (what's real vs presentation)**
+- Separate the repo into three layers:\n    a. **Core logic** — the actual execution engine. Count LOC.\n    b. **Wrapper/UI** — CLI, rich formatting, REPL. Count LOC.\n    c. **Prompts/marketing** — system prompts, README claims, social proof.\n- If (b) + (c) >> (a), the repo is presentation-heavy.
+- Star count ÷ age in months gives a rough viral coefficient. 10k stars in 1 month = hype wave. 9k stars over 2 years with incremental releases = real usage.
+
+**Signals that separate substance from hype:**
+
+| Hype pattern | Substance pattern |
+|---|---|
+| "Enterprise-grade" in README | Unit tests for error paths |
+| Multiple LLM-powered agents | One critical agent with well-defined state machine |
+| "Autonomous X" claim | Disambiguation of human-in-loop vs fully autonomous |
+| AI-generated architecture diagrams | Actual module-level docstrings |
+| "pip install and run" with no error handling | Graceful degradation on API failure |
+| README demos of best-case success | Documented failure modes |
+| One-person repo with 5k+ stars in 2 weeks | Academic lab or team with incremental releases |
+
+**Pitfall — Presentation layer confusion:** A repo can have a polished CLI (Rich formatting, ASCII art welcome screen) but the actual orchestration is 50 lines of `director_agent.run(task)`. The presentation layer makes it look substantial. Always count core-logic LOC separately from UI LOC.
+
+**Pitfall — Star count as a proxy:** Stars measure interest, not correctness. The swing-trading, autonomous-agent, and "vibe coding" categories in particular have inflated star counts because they are exciting to browse, not because the code works. A 2.9k-star repo can be 300 lines of prompts; a 200-star repo can be a well-engineered crate. Always verify before reporting.
+
+**Pitfall — Dependency-driven substance illusion:** A repo that depends on `swarms`, `langchain`, or `llama-cpp-python` inherits that library's capability in README claims. The actual code may only call `agent.run()` — the sophistication is in the dependency, not the repo. Check what the *repo itself* implements, not what its imports can theoretically do.
+
+**When to use this protocol:**
+- The user asks "is this useful or just hype?" about a specific project
+- You need to understand an unfamiliar codebase before integrating or forking it
+- Evaluating whether to recommend a tool, adopt a pattern, or adapt an architecture
+- Any time star count would be the first signal but shouldn't be the only one
+
+**Related skills:** `workflow-pattern-kit` — the four patterns in that kit were extracted using this analysis protocol.
+
+## When To Load This Skill
 
 - At the start of any non-trivial coding task (feature, refactor, bug fix)
 - Before writing plans (`writing-plans` skill)
@@ -279,13 +345,33 @@ mv output.txt /path/to/final/
 - Whenever user shares a specification or requirements document
 - Whenever performing file mutations that will be reported to the user as completed
 
+## Foundation Patterns (Co-load with workflow-pattern-kit)
+
+These patterns are baked into the operating model. The `workflow-pattern-kit` skill implements them as reusable Python modules. Load it alongside this skill for any non-trivial workflow.
+
+**OutputGate before completing any agent deliverable.** Every result from a subagent, Kanban worker, cron job, or agent task runs through OutputGate.check_deliverable() before being accepted. If the gate returns a reason string, the output is not done — send it back for rework. This catches plan stubs, mock data, raw tool envelopes, and empty results.
+
+**DAG for parallelism.** Any task with ≥2 independent subtasks gets a DAG. Research topic A + research topic B run in parallel; synthesis runs when both finish. Multi-page OCR uses the DAG. Any fan-in pattern (multiple sources → one summary) uses the DAG. When a task fails, downstream tasks are skipped (cascade) but parallel tasks in the same layer are unaffected.
+
+**ToolRegistry for new agent tools.** New actions use the registry: typed Pydantic params, signature-based context injection (browser_session, file_system, etc.), domain filtering. Tool functions never import infrastructure — they receive injected context. This makes tools testable (pass mocks) and swappable (change the injector, not 15 tools).
+
+**LoopDetector for interaction loops.** Any browser, search, or API-call loop tracks actions with LoopDetector. Before each LLM call, check get_nudge_message() and inject the nudge if present. Escalating nudges at 5/8/12 repeats. Prevents wasted token budgets on stuck loops. Only applies to long-running loops (20+ actions), not trivial single-turn tasks.
+
 **Do NOT load for:** conversation-only modes, research, reading code without
 modifying it, trivial one-line changes.
+
+**Exception:** Load section 8 (Codebase Analysis Protocol) independently when
+evaluating an unfamiliar OSS project, even if no coding work follows. That
+section is standalone and does not require loading the full skill.
 
 ## Reference Files
 
 - `references/CLAUDE.md` — the full source document these guidelines derive from
 - `references/hermes-migration-pattern.md` — Hermes installation transfer to a new machine (backup, optimize, restore)
+
+## Related Skills
+
+- `workflow-pattern-kit` — reusable agent architecture patterns (tool registry, loop detection, output gates, DAG orchestration). The four patterns in that kit were extracted using the Codebase Analysis Protocol in section 8 above. Use together when evaluating an OSS project and then building from its patterns.
 
 ## Verification
 
@@ -294,3 +380,5 @@ This skill is working if:
 - Fewer rewrites due to overcomplication
 - Clarifying questions come before implementation rather than after mistakes
 - Orphan cleanup is scoped to what your changes made unused
+- Codebase analysis uses the 7-step protocol from section 8 rather than README-first impression
+- Pattern extractions are scoped to actual code paths, not star count or README claims

@@ -1,0 +1,690 @@
+I
+
+Introduction
+
+IN THE LAST three decades the study of the early middle ages has been
+transformed. Far more people write about its documentary history; what we
+can say about its archaeology has multiplied tenfold—in some countries, a
+hundredfold. The sorts of questions asked about the material have changed
+radically too, with far more sophisticated analyses of political process and
+cultural change being now offered than ever existed before. This develop-
+ment is, of course, common to the historical profession as a whole; all the
+same, in some areas—the analysis of the construction of sanctity, for ex-
+ample—the period 400-800 is a trendsetter. The community of scholars is
+also more international than it was: this is an ongoing process, started for
+early medievalists above all by the Centro Italiano di Studi sull’Alto Med-
+ioevo and their Spoleto conferences from 1953 onwards, and in the last
+decade channelled, in highly stimulating ways, by the European Science
+Foundation’s Transformation of the Roman World project of 1993-8.
+These are all wholly positive developments. What has not developed,
+however, is a set of interpretative paradigms that fully reflect this flowering
+of scholarship. When I was a student around 1970, we looked for an
+overview of western European development in this period to Alfons Dopsch
+and Henri Pirenne, both born in the 1860s, who worked out their major
+rival contributions in the 1920s. Today, although Dopsch has (unjustly)
+faded a little into the background, he has not been replaced by any successor,
+and Pirenne is still a key point of reference, cited all the time. Historians of
+other periods argue over the theories of scholars who are often still living;
+the early middle ages, despite the fact that its scholarship (and even its
+evidence-base, thanks to archaeology) has been transformed more than
+those of most periods, has not seen a successful revision of its founding
+paradigms, and actually not even many unsuccessful ones. This is particu-
+larly the case for social and economic history, my principal interest in
+this book. There are some good economic surveys, but they are usually fairly
+summary accounts, as with Georges Duby’s stimulating foray into the
+period, Guerriers et paysans, of 1975, or Richard Hodges’s and David
+Whitehouse’s archaeological rewriting of Pirenne, Mohammed, Charle-
+magne and the origins of Europe, of 1982, although our understanding
+of long-distance exchange has recently been transformed by Michael
+2 Introduction
+
+McCormick’s major survey, The origins of the European economy, of 2001.
+The very recent inclusion of early medieval western society in the topics for
+study for the French agrégation has also generated several excellent over-
+views.! But if one wants to go further, in social history in particular, one has
+to go back to Dopsch.
+
+One reason for this is that the internationalism of scholarship is even now
+only skin deep. The early middle ages is a visceral period: it is the period
+when the polities first formed that are the genealogical ancestors of the
+nation states of today. The importance of these foundations continues to
+matter greatly to historians, whether consciously or unconsciously. All the
+sharpest debates about the period have always been about what are per-
+ceived as the major elements in national genealogies—the formation of
+unitary kingdoms in Denmark or England, their absence in Italy or Ireland,
+the reality and nature of the Arab break in Spanish or Palestinian history, the
+division on linguistic lines between France and Germany, and, all through
+every country of western Europe, the old issue of the exact role that ‘Ger-
+manic’ immigrants into the Roman empire had in the creation of those
+elements of national identity that are locally regarded as most significant.
+This latter issue remained important even in a decade like the 1990s, in
+which the pendulum moved resolutely in a Romanist direction, and against
+an overemphasis on the Germanic influence in any Roman province, a
+development which has some internationalist implications, as we shall see.
+The problem about all these debates is that, in their national forms, they
+make most sense only to scholars from one country, and sometimes no sense
+at all outside its borders—if indeed they are known about at all to other
+scholars, caged inside their own country-specific preoccupations. I called
+this situation ‘cultural solipsism’ when I lamented it a decade ago,” and,
+although the situation has eased slightly, as more people go to conferences
+abroad, it has by no means gone away: everybody who has done so has had
+the experience of finding in at least some international conferences that
+people from other countries were in reality talking about wholly different
+things, even when they were apparently using the same scientific language.
+Another development that could also potentially dissolve the national cul-
+tural traditions that dominate the field, the existence of a sizeable and
+
+! Dopsch, Economic and social foundations; idem, Die Wirtschaftsentwicklung; Pirenne,
+Mohammed and Charlemagne; Duby, Early growth (the English translation of Guerriers et
+paysans); Hodges and Whitehouse, Mohammed, Charlemagne; McCormick, Origins; Depreux,
+Les sociétés occidentales; Le Jan, La société; Devroey, Economie rurale. See further the com-
+parative social history of war in Halsall, Warfare. Pirenne, but not Dopsch, has been the focus of
+some historiographical interest recently, largely in Italian—perhaps paradoxically, given his
+relative lack of interest in Italy: Petralia, ‘A proposito dell’immortalita’; Delogu, ‘Reading
+Pirenne again’; Violante, Uno storico europeo. Note that throughout this book citations are
+given in short-title form, to save space.
+
+2 Wickham, Land and power, p. 203. But Marc Bloch made the point first, as usual, in 1928:
+Mélanges historiques, 1, pp. 37-40. See further Geary, Myth of nations.
+Introduction 3
+
+increasing contingent of scholars who study another country, has mostly up
+to now not had that effect either: by and large, such scholars have the choice
+between being absorbed into the national debates of the country they study,
+or else keeping a distance from them, but only because they have remained
+attached to the debates of their country of origin. In the latter situation they
+can add a critical element, and sometimes do, but in that case they have often
+been ignored by the historians in the country they study.
+
+The other démarche chosen by recent scholars to get around these traps is
+continuity. A genuine arena for relatively neutral international scholarship is
+the Roman empire, given the size, the transnational scale, of its political
+system. Indeed, the Roman empire is too often seen as a whole, too seldom
+as a collection of provinces. This is a position that I shall argue against on
+occasion in the pages that follow; but at least the solipsism of the early
+middle ages is less often felt in its study, and people argue about issues
+covering wide geographical areas, often using a wide variety of foreign
+languages as they do so. The history of the Byzantine empire has carried
+on this international tradition, for the obvious reason that it can be regarded
+as the most direct heir of Rome. (I leave aside the issue of Orientalism here,
+the western European construction of the East as the history-less Other,
+which is these days less serious an issue for Byzantine than for Islamic
+studies.* There is, anyway, Greek scholarship on Byzantium—though less
+Turkish scholarship—which is integrated into the international network.) It
+cannot be said, unfortunately, that the study of Byzantium has had much
+impact on the West; only a handful of scholars, such as Dietrich Claude or
+Michael McCormick, have ever studied both with equal attention. All the
+same, it seems to me significant that one of the contexts in which inter-
+nationally orientated scholarship of the post-Roman western world, too, has
+felt most at ease is the study of Roman continuity. In a sense, if the sixth-
+century West is refigured as still-Roman, and the seventh for that matter—
+indeed, even the Carolingians for some people—then national history-writ-
+ing can be put off till later. This is fully legitimate in some areas—intellectual
+culture, most notably; religious history, perhaps; political practice, with
+more difficulty. But it comes at a price. Much of the most fruitful inter-
+national debate has been achieved in the framework of the illusion that
+nothing of major importance had changed in the post-Roman world at all.
+This is further emphasized, I think, by the impact of two separate cultural
+traditions in ‘late late Roman’ studies. One is the by now considerable
+volume of British scholarship on continental European topics, for there is
+a strong strand of British (particularly English) national culture that seeks to
+stress historical continuities at all costs, and to play down any breaks, as can
+be seen in, for example, much recent English writing on the English/British
+Civil War, or the French Revolution. The second is a Catholic tradition,
+
+3 Said, Orientalism; the book does not discuss Byzantium.
+4 Introduction
+
+largely French in recent years, which sees the real caesura as the Christian-
+ization of the Roman empire, and the religious continuity between the late
+empire and the early middle ages as more important than any political/
+institutional break (and even this latter has recently been denied by some).
+These two elements are very different, and have little influence on each
+other; nor do they by any means encompass all such scholarship on the
+period. But they contribute to continuitist readings in the same sort of ways,
+all the more because they are in general unconscious. This is why, perhaps,
+there are so few overviews, even in the framework of what one could call the
+‘Romanist paradigm’: because it is so unconscious that it has not even
+reached paradigmatic status. It is not like this that we will substitute for
+Pirenne.
+
+I am restricting myself to generalities here, because I wish to avoid
+critiquing individuals. Pretty well all early medievalists (including myself)
+are anyway implicated in this situation, all the more so because the param-
+eters outlined here are largely unperceived, and their importance in debates
+is largely instinctive. It could be argued, however, that the basic problems
+derive from a failure to confront difference, whether temporal or spatial, ina
+comparative way: before versus after a major change like the replacement of
+the western Roman empire by a dozen successor states, or the loss by the
+eastern empire of most of its provinces to the Arabs; or the geographical
+differences between parallel regional experiences, of both continuity and
+change. Major generalizations have been made either simply by taking one
+region as normal, and analysing divergent patterns, if at all, as exceptions
+(Dopsch and Pirenne already did this), or simply by concentrating on one
+country, one series of nationally focused questions, and attempting to solve
+these alone. The main national syntheses of the 19408-19508, which are still
+points of reference for debates in their respective countries, illustrate the
+latter point: it would be absurd even to imagine stitching, for example,
+Frank Stenton, Robert Latouche, Eugen Ewig, Gianpiero Bognetti, and
+Claudio Sanchez-Albornoz together in order to produce a history of early
+medieval western Europe. None of these people, although all excellent
+scholars in their own context, were interested in comparison; their separate
+concerns virtually created a Europe of islands, separated by treacherous
+channels. Their successors (mostly living) have sometimes made a better
+job of their syntheses, but they are often just as national-focused, to the
+exclusion of any outside reference-point—and in some countries they have
+not had successors at all. Hence the sense one sometimes feels of a lack of
+rootedness about early medieval scholarship, even when it avoids the wilder
+edges of unsupported or deluded theorizing that is only too common for the
+period (as is inevitable really: any period which has both very little evidence
+and a major importance for national identity is bound to generate it).
+Debates about continuity and discontinuity, in particular, continue to float
+without anchors in the sea of current research, with the continuitism of some
+Introduction 5
+
+(largely historical) scholarship, already referred to, fully matched by the
+catastrophe theories of other scholars, largely archaeologists, which are
+equally unclear in their articulation as real historical phenomena, in oper-
+ation on the ground. It is that rooting, or anchoring, that we could usefully
+attempt in the immediate future, before we get near to shifting our para-
+digms; and this will only come, it seems to me, through more systematic
+regional comparison.
+
+I have argued for more comparison in early medieval studies before, and
+I have attempted it in analyses of the central middle ages.* So it seemed to me
+appropriate to follow my own precepts and try the same for the earlier
+period. This book is focused on the period 400-800, long enough to include
+the Roman empire before its crisis period, and to explore the changes that
+derived from that crisis for some time thereafter. The cut-off date of 800 is
+arbitrary, but it means that I do not have to consider the effects of the
+Carolingian and ‘Abbasid takeovers, which introduce several new problems;
+the Carolingian period in Francia and Italy also coincides with a substantial
+increase in documentary evidence, which I have for the most part avoided
+using—in Francia this book in part stops in 751. The area covered by
+the book is western Europe and the Mediterranean, or, in other terms, the
+former Roman empire and some of its northern outliers. From North to
+South and West to East, the regions I have focused on, for comparative
+purposes, are: Denmark, Ireland, England and Wales, Gaul/Francia, Spain,
+Italy, North Africa, the Byzantine heartland of the Aegean and western
+Anatolia, Syria and Palestine, and Egypt.’ Of these, only Denmark and
+Ireland were not once Roman. I chose Denmark as my major non-Roman
+parallel because, unlike the other Scandinavian countries, it was close
+enough to continental political and economic networks to accumulate
+quite a lot of diagnostic archaeological material; and because its state-
+building process, unlike those in the otherwise ecologically similar regions
+of Frisia and Saxony, was not interrupted by the Franks. Ireland, for its part,
+simply has so much early medieval documentation that it would have been
+wrong to exclude it, although its development was sufficiently sui generis
+that incorporating it has not been as easy as I hoped (see below, pp. 354-64).
+I excluded the Slav lands, both in the Roman empire (in the Balkans) and
+outside it, because of my own linguistic weaknesses. Armenia was excluded
+for the same reason, and also because its development ran along such
+
+4 Wickham, Mountains; idem, Community and clientele; idem, ‘La signoria rurale’.
+
+5 These regional names deserve some comment. They are generally the easiest translations of
+Roman terms, so Spain means the whole Iberian peninsula, Roman Hispania, with due apolo-
+gies to the Portuguese, Catalans, and Basques; Palestine means the region now constituted by the
+states of Israel, Palestine, and Jordan; North Africa (more usually, Africa) means the area from
+Tripolitania in modern western Libya to the Atlantic, north of the Sahara. Similarly, I shall use
+Britain as a synonym for England and Wales, stopping at Hadrian’s Wall. I use Gaul and Francia
+more or less interchangeably to mean the whole area from the Pyrenees to the Rhine; after 550
+or so, I use Francia more often than Gaul.
+6 Introduction
+
+genuinely different lines; if it had been included, it would have been hard to
+exclude Iran, and then the book would really have got out of hand. There are
+other absences, but ten major regions are already hard to manipulate—
+adding each new one, I found, is quite like the qualitative leap in difficulty
+produced by adding each new ball while juggling.*
+
+In the framework of that set of regions, I have concentrated on certain
+specific issues, each of which has a substantive chapter, or a group of
+chapters, to itself: the form of the state (in particular its financing), the
+aristocracy (in particular its wealth), the peasantry and the structures of
+local rural society, urban society and economy, and networks of exchange. In
+each case the regions have been treated as separate case studies, compared
+with each other in the course of presentation, and summed up in a com-
+parative analysis at the end of each chapter. This method of exposition is
+imperfect, and I chose it with some misgivings; it seemed to me that it risked
+simply being a wearisome set of too many examples, strung together with
+relatively weak links between them. The reader will have to decide how far
+those fears are justified. One could argue, however, that the alternatives
+would be worse. The book could have simply consisted of a set of giant
+regional analyses, all of England then all of Francia, and so on. Actually, this
+is how I did the research, and it would have been easier to write. But drawing
+out the comparative elements in what would simply have been a set of
+separate histories, in effect national histories of a partially traditional type,
+seemed hard to envisage: particularly as one of the things that interests me
+most is what happened to aristocracies as a whole (in their different regional
+experiences), cities as a whole (in their different regional experiences), not
+just the regions themselves. An alternative procedure, to have looked at, for
+example, ‘the city’ and its development as a single unit, would conversely
+have involved a melting down of the comparative element that was, pre-
+cisely, one of the main aims of this project.
+
+Comparative analysis also requires a standard vocabulary. History, as is
+well known, uses an ‘ordinary-language’ vocabulary, with relatively little
+use of technical neologisms, unlike other social sciences or literary discip-
+lines. This means that it uses words that have developed their meanings and
+overtones in daily use, which are not always consistent even inside single
+countries, and which are often substantially divergent across different
+languages. History also, not being a very self-reflexive discipline, has some-
+times developed technical meanings for these words which vary greatly
+from one end of the discipline to the other, or else are fought over by
+practitioners, too often concerned as they are to lay claim to the ‘right’
+meanings of words in technical historical language. (‘Feudal’ and ‘feudalism’
+
+6 Three smaller absences which I regret are Scotland, Bavaria, and Cyrenaica; I left them out
+because in each case it seemed to me that the information available for them had parallels
+elsewhere.
+Introduction 7
+
+are the most famously contested of such words, but there are plenty of
+others.) I do not believe that there are ‘right’ and ‘wrong’ examples of such
+usages—although some do seem to me unhelpful—and no policing is pos-
+sible, anyway. All that one can do, when one uses words, is to have a clear
+and consistent idea of what they mean, and to explain them to the reader if
+necessary. I shall do this, in different chapters, for the words ‘state’, ‘aris-
+tocracy’, ‘peasant’, ‘feudal’, ‘tribal’, ‘estate’, ‘village’, and ‘town/city’,
+among others. Not everyone will agree with the meanings used here (and
+the level of agreement will vary from country to country: my use of the term
+‘feudal’ is closest to that common in Spanish, for example, while that of
+‘town’ is closest to uses in English); but I hope that it will not be found that
+the usages here are internally inconsistent. Most of these words evoke a
+sufficiently complex pattern of meanings that it is best to think of them as
+Weberian ideal types, and they will be presented as that when they are
+discussed, in the relevant chapters.”
+
+The themes chosen for the book are those of a fairly classic social and
+economic history. This book does not offer a political narrative, except a
+minimum outline for each region in Chapter 2. Intellectual culture is cer-
+tainly not part of its remit. It is more difficult to exclude the wider concep-
+tion of culture that an anthropologist or cultural historian would mean by
+the word—values, attitudes, representations, discursive strategies, material
+culture, imagery—for these underpin all political and social action, and
+indeed give meaning to all our source material. Such cultural analysis will
+therefore appear in several chapters; but it is fair to warn the reader that a
+fully fledged cultural history of the period has simply been squeezed out by
+a feeling, as I wrote, that the book was already pretty long and should be tied
+down to its core themes. It will be treated more fully in a future work,
+volume 2 of the Penguin History of Europe.
+
+My overall research procedure, as I went from region to region, was to
+treat each in the same way, and to ask the same questions of each, insofar as
+that was possible. This meant that I had to base my research on primary
+sources, whether written texts or archaeological reports, before engaging
+with the interpretations of modern historians/archaeologists, the premises of
+whom anyway often caused me difficulties, for reasons already outlined. In
+the end, of course, one learns whom to trust among modern scholars, and
+I hope I have properly recognized my great debts to them, in footnotes and
+acknowledgements—A. H. M. Jones’s explanations of why he cited so few
+scholars, set out in his preface to his still marvellous late Roman synthesis,
+do not appeal to me, any more than does his mystifying neglect of archae-
+ology.* Indeed, in this period secondary sources often overwhelm the scarce
+
+7 For a discussion of ideal types and of the diversities of the usages of the word ‘feudalism’,
+see Wickham, ‘Le forme del feudalesimo’.
+8 Jones, LRE, pp. vi-vii.
+8 Introduction
+
+primary material they are commenting on, even when substantially pruned,
+as here. But I have tried to read all the texts myself which were actually
+written in the period (or which report archaeological finds datable to the
+period), at least all those that seemed relevant. There are too many, and Iam
+sure there must be serious omissions. If there are, they are the result of my
+error, not of any predetermined research strategy; that strategy was
+restricted to excluding later sources, even if they recounted events from the
+period, with certain clear exceptions that could not easily be done without,
+such as the Vita Eligii or al-Baladhuri. I have not looked at every cemetery
+report, or every sermon, but I should have done, and if the information
+contained in them undermines an argument then it is my fault. My Greek
+and Anglo-Saxon are pretty imperfect, and my Arabic, Coptic, and Irish
+almost non-existent (here I have relied on translations), but I have taken
+advice over interpretative cruxes in each, and I will stand by them.
+
+The way I read sources needs a little comment. Sources used to be
+regarded as unproblematic; the statements they made were true or false,
+one could develop criteria for telling which, and then one believed their true
+information and reproduced it. In more recent years this has come to be
+regarded as a naive strategy. Indeed, every narrative text for the late Roman
+and early medieval period has recently been (or soon will be) analysed as a
+piece of free-standing rhetoric, often separated entirely from anything ex-
+cept the textual traditions its author was operating inside, and presented as
+useless for understanding anything except the mind and the education of the
+author. This is certainly more satisfactory than the positivism of a generation
+ago (except, at least, when scholars do both at the same time, which they
+often do), but neglects the fact that authors did also write in a contemporary
+environment, and for a contemporary audience. How we navigate this
+epistemological and practical minefield is of crucial importance, but com-
+plex: I could have spent ten pages discussing each reference to a source as a
+result. In practice, it was of course not possible to do this, so I had to get
+round the issue. I have usually taken legal documents more or less at face
+value, while recognizing of course the problems of typicality they represent,
+for, if genuine, they had at least some legal force in nearly all our societies, as
+court cases show. Normative sources I have treated as guides to the minds of
+legislators, rather than as reportage (see below, p. 383). As for narrative
+sources, I have, in general, tended to disbelieve them, but I have presumed
+that they reflect a rhetorical field, of acceptance of what was plausible to say
+to someone at any given moment. So it matters, for example, that Salvian
+(and his presumed audience) thought that in the 440s a corrupt tax system
+was something that one should emphasize in a denunciation of the age; that
+Gregory of Tours (and his presumed audience) in the 570s—590s paid atten-
+tion to aristocratic and royal violence; that the author of the Life of Theo-
+dore of Sykedn (and his presumed audience) in the 620s—630s thought that
+individual peasant greed could cause demons to take over villages. This does
+Introduction 9
+
+not mean that the exact details of fiscal corruption, or violence, or demonic
+possession actually ever happened at all, but it does mean that people
+thought they were possible: this is what could be said. This is a different
+procedure from ‘there’s no smoke without fire’, or from the belief, shared by
+surprisingly many historians, that a historical source must be ‘reliable’ if
+even one member of the presumed audience was an eyewitness to events,
+because in that case the writer would not have been able to get away with
+inaccuracy. As has been said often before, it should be enough to read a day’s
+newspapers to lose either of these illusions. But the image of the newspaper
+is a positive one, too: if you read the main stories, and even the editorials, of
+even the most irresponsible newspapers, across a decade, or else across
+different countries (say Belfast, Dublin, and London on Northern Irish
+issues, not to go farther afield), you will get a sense of the mindset and the
+reactions to daily events of significant sections of the population that you
+can (unfortunately) trust. So it is with Salvian, even if all his facts are wrong.
+
+A final warning: I have not found it easy to keep a balance between general
+overview and the detailed explication des textes that early medievalists love.
+This book is long enough, but it also treats a large amount of material, often
+at much more restricted length than the experts in any given country are used
+to reading. Those experts—you, the reader—often also know far more than
+I about a given set of material, and may well find my treatment superficial.
+I have, of course, elided much detail, while also trying to respect difference.
+As a result, my image of Italy may ignore the special case of Tuscany, my
+image of Tuscany may ignore the special case of Pisa, and so on down, for
+every one of my regions. I have here done my best, however. Michael Mann,
+in his magnum opus on historical sociology, said: ‘Having covered a large
+slice of recorded history, I have doubtless committed errors of fact, and
+probably a few howlers. I ask whether correcting them would invalidate
+the overall arguments.’? This book covers less ground than Mann’s, but the
+question is still a fair one. If the errors do invalidate the arguments, however,
+that is another matter. I hope not; but I shall find out.
+
+These warnings to the reader, partially apologetic in tone, are not insincere;
+but if I did not have confidence in the project I would not have embarked on
+it. Now does seem to be a good moment to write this book. The archaeo-
+logical advances of the last generation offer a particularly good framework
+for comparison, of like with like, for the technology of cutting stone or
+throwing pots has fewer cultural barriers than textual strategies do (not
+none, but fewer). I shall be using pot-making technology and ceramic
+distribution as one of my main comparative elements, in fact. This proced-
+ure will be defended in Chapter 11 (pp. 700-6), but it underpins many of the
+earlier chapters in the book as well—indeed, the realization of how much
+
+° Mann, Sources, I, p. 31.
+ate) Introduction
+
+one could now say about ceramic distributions (almost none of which could
+have been said in 1970) was one of the major impetuses behind the concep-
+tion of the book in the first place. It is, equally, in the archaeological arena
+that the book’s conclusions risk being outdated earliest; it needs to be stated
+explicitly that the period in which evidence was collected for this book was
+1997-2000, with less systematic updating thereafter. (The last moment the
+bibliography was updated was April 2004.) I believe, all the same, that
+the materials already in existence are a secure enough basis for at least
+some of my generalizations.
+
+I want to propose here two basic points about the early middle ages. The
+first concerns break-up. The Roman empire was a coherent political and
+economic system, operating on a scale that has seldom since been matched
+in Europe and the Mediterranean, and never for so long. (The early caliphate
+matched its scale, but the period of full economic centralization of the
+caliphate was a century at most, c.770-870; the Roman empire lasted four
+times that and more.) However much the successor states managed to
+imitate Roman political and economic patterns, which they did in very
+varying degrees, they did not match that scale. Anything in their local
+infrastructure that depended on a wider geographical framework, like the
+supply of grain from Africa to Rome, or the huge wealth of some late Roman
+senators, could not survive political localization. Areas like the Aegean,
+which were particularly closely linked into a wider exchange network,
+would similarly suffer when that network broke down. In general, there
+were parts of the empire that were more linked into a Mediterranean world-
+system, like southern Italy, the Aegean, and Africa, and other parts that were
+relatively separate from it, like inland Spain and northern Gaul. Other things
+being equal, one would expect more continuities in the latter than the
+former, and indeed, to an extent, this can be shown. It may be added that,
+although the ‘fall of the Roman empire’ is such a potent symbol that it has
+had the ill luck to be reinterpreted through every idée fixe of every decade
+and every national group in the last two centuries or longer, it has become at
+least easier, recently, to make this sort of analysis with the fall of the Soviet
+Union in mind; the unprepossessing successor states, with their regional
+economies in greater or lesser degrees of chaos, fare better or worse depend-
+ing on how far from or how close to the former command economy they had
+been. The analogy cannot be pressed too far, for we actually at present have
+a clearer idea of the internal working of the post-Roman polities than of
+many of the post-Soviet ones, but it has been in my mind, so it is fair to make
+that fact explicit.
+
+More generally, what happened when the empire broke up into its various
+pieces was that each piece took the surviving elements of Roman social,
+economic, and political structures and developed them in its own way.
+The parallel developments of the successor states are thus a very rough-
+and-ready research laboratory of alternatives: what happens to the way
+Introduction Ir
+
+social change takes place if in any given region, each starting from an at least
+analogous starting-point, you have more urbanism (as in Egypt, in Palestine,
+and to an extent in Italy), more internal exchange (as in Egypt), richer
+aristocrats (as in Gaul), or a more centralized fiscal system (as in Byzan-
+tium)? Of course, many of these, and other, differences themselves go back
+to the Roman empire, and can also retrospectively illuminate regional
+identities there. More important for the arguments in this book is the
+recognition that some such differences also derive from the trauma of
+the break-up of the empire itself, which included in most cases the conquest
+of a given region by an external army and (partially) new ruling class.
+I would argue, however, that in each case the new elites essentially had to
+make the best of what they found; pre-existing differences were more
+important than the culture and economy of incoming groups in every case,
+even when we are dealing with situations of the most extreme change, as in
+Britain. This is to an extent a ‘Romanist’ reading, at least in the sense that it
+plays down the socio-economic effect of immigrant populations, who were
+always small minorities. It is not, however, a narrowly continuitist reading,
+for major social changes undoubtedly took place, nearly everywhere, across
+our period.
+
+The second point leads on from this, for it concerns ‘continuity’ itself. This
+is a much misused concept, for it is often invoked for such specific things, in
+such isolation from wider problems of social change. People who invoke it
+often write as if the use of a Romano-British wall-building technique in an
+Anglo-Saxon house, the accessibility of manuscripts of Ovid in a Frankish
+monastery, the genealogical longevity of a local ruling family on the Chris-
+tian—Muslim frontier in Spain, the squared street plan of a city in Carolin-
+gian Italy, the availability of Egyptian papyrus in the West, the existence of
+a Roman senatorial title in the Byzantium of 800, the match-up between
+provincial boundaries of the Roman and the Arab periods in Palestine, each,
+in themselves, simply represent ‘continuity’. Well, on one level they certainly
+do; but the continuity they represent is in each case of a different order from
+the others. (If one had them all in any given region in 800, say, one could
+certainly invoke the concept of pretty slow social change; but one does not.)
+Historians or archaeologists who seize on these individual strands as signs of
+a wider development too often appear to have no conception of how the
+strands actually might fit into such wider developments. Nor, often, con-
+versely, do the catastrophists who can in each case be found to deny the
+existence of these continuities, or others. One has to have a model for how
+social development takes place, which would allow one to say what elements
+were significant for what. And one has also to recognize that even the most
+extreme situations of social change are also full of elements of continuity,
+unless the entire population of a given region were to be killed or expelled
+and wholly replaced by another, an interpretation of the late Roman/early
+medieval change that was indeed once believed for some places, but is no
+12 Introduction
+
+longer accepted except on the fringes of scholarship. (Such radical replace-
+ments of populations are actually logistically very hard to achieve before the
+technological advances of the last century, and are in most cases so pointless
+that only unusually organized and ideologically driven invaders would
+conceive of them—the Athenians on Melos, the Mongols at Herat, the
+Europeans in the Americas. The average Germanic tribe looking for its
+place in the sun hardly fits.) Where population continuities can be assumed,
+so will continuities of daily practice: agriculture, much ritual, most elements
+of social exchange. These in themselves do not disprove the existence of
+crisis in other elements of a social system, state structures, or exchange
+networks. One has to put them all together, and assess them as a whole, if
+one wants to get a sense of how social change as a whole takes place.
+
+It must be added that this is, of course, the sort of debate that historians
+have all the time. How much of a break was the English Civil War? The
+French Revolution? The Russian Revolution? These debates are often not
+much more sophisticated than those around the fall of the Roman empire,
+for they too are full of people seizing isolated strands of continuity or change
+and claiming that they are widely representative, just as our debates are.
+Perhaps the only advantage they have over early medieval ones is that the
+theorists who dominate their debates are still alive, or only recently dead.
+These homologies are a product of the lack of interest historians have in
+social theory, in the understanding of how societies work as systems. Here, it
+is illusory to hope that the problem will go away soon; but a recognition that
+our debates are close in their own structure to those in other periods is
+something that could usefully be more widely felt.
+
+I would argue, in general, for elements of both continuity and radical
+change. Broadly, the peasantry saw least change in the period 400-800, and
+they were around 90 per cent of the population in most regions (outside
+Egypt, and maybe Syria-Palestine, where cities were bigger). Not that noth-
+ing changed for them. Their landlords changed sometimes, and sometimes,
+indeed, faded away; they paid less tax in many places; the intensity of their
+exploitation in general decreased temporarily (this was often already chan-
+ging back by 800); their numbers probably decreased for a few centuries;
+and in many cases they had less access to artisanal products of decent
+quality. These shifts, taken together, are substantial. But they are not so
+radical that one needs to posit fundamental changes in peasant societies or
+household economies. I have argued this before (and been labelled a con-
+tinuitist for it), and I would stand by the picture: I shall seek to demonstrate
+it here most fully in Chapters 7-9. Conversely, the arena which saw most
+change was in the form of the state. In the Romano-Germanic kingdoms, the
+Roman state collapsed—not immediately in the fifth century (except in
+Britain), but steadily between 400 and 700; its entire fiscal basis dissolved,
+and all parameters of political power had to be constructed anew, even if
+many of their elements had older origins. I have argued this before as well
+Introduction 13
+
+(and been labelled a catastrophist for it), and I would only slightly modify
+the picture, as can be seen in Chapter 3, where the major Romano-Germanic
+kingdoms are set against the surviving—also changed, but to a far smaller
+extent—states of the eastern Mediterranean.!°
+
+In the other themes of this book, above all aristocracies, urbanism, and
+exchange (themselves all closely linked, as we shall see), the answer to
+questions of continuity and change lies much more in regional difference.
+Different provinces of the Roman empire had different experiences of each,
+and these experiences changed across time. I shall try to set these differences
+side by side and compare them, using them as guides to how similar and
+divergent developments took place, in all our regions, for such comparison
+is, as said above, one of the main aims of the book. It is worth noting,
+however, that I shall systematically in this book resist deus ex machina
+disaster theories for any major changes. Cities get burnt by enemies, or hit
+by earthquakes, throughout history, but if they are not rebuilt afterwards it
+is because of longer-term causes than one disaster encompasses on its own.
+This is so even when, conversely, the slow decline of such a city in previous
+centuries might have remained unnoticed, and maybe eventually have been
+reversed, had it not been for that crisis. The same sort of considerations can
+often be used for a polity defeated in war which then dissolves, or an
+aristocratic family that dies out (or is killed or expelled) whose local
+power is not replicated by another. These crises can best be seen as the
+flips in the ‘catastrophe theory’ of mathematicians, the modelling of when
+slow change finally reaches a situation where previous patterns cannot be
+sustained, and trends flip over into often precipitous crisis. Such patterns do
+not need external disasters to act as the catalyst, either; the sudden end of
+ceramic networks, for example, at different times between 500 and 700,
+often had nothing to do with immediate external crises—the catastrophe-
+flips happened on their own, as declining markets meant that, one day,
+transport and production costs made products just too expensive or too
+intermittent, and production plunged. The end of the Mediterranean Red
+Slip/terra sigillata networks, for example, seem often to have occurred like
+this: see below, pp. 712-13. Settlement change can take place in this way
+too.!! I shall use the image of the catastrophe-flip in later pages, but it must
+be distinguished from the catastrophism of writers who seek an external
+cause for all major change in plague, volcanic eruption, or the old mantras of
+war and destruction. Rapid change did sometimes occur; you can indeed call
+it catastrophic if you like (as I will in this mathematical sense); but each time
+
+10 For earlier discussions of the issues referred to in this paragraph and the next, see
+Wickham, Land and power.
+
+11 For the mathematical image of catastrophe theory applied to settlement change, see
+Renfrew and Poston, ‘Discontinuities’; applied to state breakdown, see Tainter, The collapse
+of complex societies, pp. 118-26, a more sociological version.
+14 Introduction
+
+it had longer roots, which are more interesting and important to explore
+than the often contingent crisis.
+
+This stress on regional difference is not intended to dissolve all general
+patterns into a mass of separate local experiences; far from it. The experi-
+ences of all the post-Roman regions—even their northern, un-Roman neigh-
+bours, like Denmark—can be paralleled. It is my aim to isolate the different
+trends in each region for each of my main themes, but then to put them
+together again, in generalizations that are rooted in the recognition of
+difference, rather than the pretence of uniformity, and in models of how
+societies work that are, whether right or wrong, at least more conscious than
+those often used by historians and archaeologists.'2 This will produce a
+series of generalizations that are too qualified for them simply to be able to
+replace the bolder paradigms of three generations ago, and in this respect the
+book is not, at all, aimed at a real paradigm shift; but it will, I hope, produce
+the raw material that will allow a better synthesist to do so in the future.
+
+Researching this book has been pure pleasure. Never in my life have I been
+paid (thanks to the generosity of the British Academy) to tread on so many
+other people’s territories. I discovered something excitingly new (to me)
+almost every day. I hope they do not become routinized and dull in my
+discussion of them here. I look forward to presenting here some of the things
+that surprised me most: the amazing documentation for some Egyptian
+villages, the startlingly well-preserved rural sites of Syria and Palestine, the
+real vigour of the late Visigothic state, the strangeness of Anglo-Saxon land
+tenure, the remarkable wealth of recent excavations in Denmark. These fit
+into wider patterns of parallelism and difference too, but they are interesting
+in themselves. Knowing that there is more like that to find in part makes up
+for the vertigo one feels in having taken on too much, with too much not
+accounted for.
+
+12 Two books which offer a standard to aim at when constructing coherent models for
+ancient and medieval societies are Runciman, Treatise, Il, and Haldon, The state and the
+tributary mode.
+Part I
+
+States
+This page intentionally left blank
+2
+
+Geography and politics
+
+THIS CHAPTER, LIKE the last, is substantially introductory. In it, an
+overview of the geography and the political history (from 400 to 800) of
+each of the regions that this book will focus on will be set out as a point of
+reference. The regions are presented here in the form of a spiral, starting
+from North Africa, going anti-clockwise around the Mediterranean to
+Spain, then moving northwards to Denmark. The chapter is not intended
+to be particularly original, and will essentially be based on secondary litera-
+ture; the footnotes cite fairly obvious guides. But it does need to be here, for
+not every reader has a very detailed knowledge of every part of western
+Europe and the Mediterranean, and an orientation point thus seems useful.
+I shall also include brief characterizations of some of the historiographical
+problems that are a feature of each region. But it must be stressed that my
+aim is to be introductory—an analysis of political history is not one of the
+purposes of this book (there are plenty of alternative guides); and a proper
+discussion of national historiographies would require a complex, book-
+length, characterization of national cultures, and of the role of historians,
+and national images of the past, in each. That task is much needed, but it will
+have to be carried out elsewhere.
+
+1. Africa
+
+Roman Africa consisted of a strip of the Mediterranean coast and its usually
+mountainous hinterland, running from Tanger to the Gulf of Syrtis (see Maps
+I, 3, 8), essentially the western half of the part of the African continent north
+of the Sahara. Its economic powerhouse was beyond doubt the twin prov-
+inces of Proconsularis (or Zeugitania) and Byzacena, in modern terms
+northern and southern Tunisia and the eastern fringe of Algeria. Proconsu-
+laris was the grain-growing province par excellence, with a complex urban
+network focused on Africa’s largest city by far, Carthage. Byzacena, notably
+drier and less urbanized except on the coast, was more an oil producer,
+though one should not be too schematic here—there were olives in the north
+and grain-fields in the south as well. Together, the two ‘Tunisian’ provinces
+produced one of the largest agrarian surpluses of the empire, second only to

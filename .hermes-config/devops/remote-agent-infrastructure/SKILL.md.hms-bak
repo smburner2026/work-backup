@@ -440,6 +440,71 @@ ssh wsl
 # Should connect without password, landing in WSL shell
 ```
 
+### Script Everything — Worked Example
+
+Once the SSH bridge works, immediately create wrapper scripts that encode the connection, execution, and file-sync patterns. This is what "Script Everything" looks like in practice — you should never need to remember flags, paths, or hostnames.
+
+**Trio of canonical wrappers for any VPS→local bridge:**
+
+**1. `connect-local.sh`** — Drop-in SSH replacement. Run with no args for interactive shell; pass a command to execute non-interactively.
+
+```bash
+#!/bin/bash
+# Connect to local WSL machine
+# Usage: ./connect-local.sh [command]
+ssh local-machine "$@"
+```
+
+**2. `run-local.sh`** — Explicit remote-execution script. Same as `connect-local.sh` but with a `--help` guard and stricter error handling — useful when an agent or cron script needs to invoke remote commands expectably.
+
+```bash
+#!/bin/bash
+# Run a command on local WSL and return output
+# Usage: ./run-local.sh <command>
+
+if [ $# -eq 0 ]; then
+  echo "Usage: $0 <command>"
+  exit 1
+fi
+
+ssh -o ConnectTimeout=10 local-machine "$@"
+```
+
+**3. `sync-local.sh`** — Bidirectional rsync wrapper with pull/push direction control and optional single-volume mode. Prevents the common mistake (made in this session) of syncing the wrong direction and overwriting newer files with stale ones.
+
+```bash
+#!/bin/bash
+# Usage: ./sync-local.sh [pull|push] [volume]
+# pull — copies FROM local WSL TO VPS (overwrites VPS files)
+# push — copies FROM VPS TO local WSL (overwrites WSL files)
+
+ACTION=${1:-pull}
+VOL=${2:-all}
+LOCAL_DIR="/home/vthen/work/post-colonial-vietnam/sources/vstb/"
+VPS_DIR="/root/work/post-colonial-vietnam/sources/vstb/"
+PATTERN="viet-su-tan-bien-quyen-*.txt"
+
+if [ "$VOL" != "all" ]; then
+  PATTERN="viet-su-tan-bien-quyen-${VOL}.txt"
+fi
+
+if [ "$ACTION" = "push" ]; then
+  echo "PUSH: VPS → local WSL"
+  rsync -avz --include="$PATTERN" --exclude="*" "$VPS_DIR" "local-machine:${LOCAL_DIR}"
+elif [ "$ACTION" = "pull" ]; then
+  echo "PULL: local WSL → VPS"
+  rsync -avz --include="$PATTERN" --exclude="*" "local-machine:${LOCAL_DIR}" "$VPS_DIR"
+fi
+```
+
+**Common pitfalls with wrapper scripts:**
+
+- **Path hardcoding is a feature, not a bug.** Scripts that hardcode `/root/work/...` work on the VPS but fail on WSL where the user is `vthen` and paths are `/home/vthen/work/...`. Fix by either:
+  - **Symlink**: `sudo ln -sf /home/vthen/work /root/work` on WSL (requires sudo).
+  - **Copy-and-modify**: `cp ocr_resumable.sh ocr_resumable_local.sh && sed -i 's|/root/work|/home/vthen/work|g' ocr_resumable_local.sh` — run the local variant on WSL.
+- **SSH config deduplication.** Appending a duplicate `Host local-machine` block adds the keys from both blocks (SSH merges them) but creates a messy config. If you're programmatically adding a block when one already exists, remove the old one first or use `sed` to update in place. A config with duplicate Host stanzas works but is harder to debug.
+- **rsync direction matters.** The agent's `sync-local.sh` started as a `pull`-only script. When used to sync from WSL→VPS after both sides had made progress, it overwrote the VPS's newer copies with WSL's stale ones. Explicit `pull`/`push` arguments prevent this. The two-letter mnemonic: you **push** from the machine you're on, you **pull** from the machine you're not on.
+
 ### Pitfalls
 
 - **WSL needs its own Tailscale IP.** The Windows host's Tailscale IP (`tailscale status` from the VPS shows `desktop-b4lb6vl windows`) is NOT the WSL's IP. WSL runs on a virtual NAT behind Windows. Installing Tailscale inside WSL gives it a separate identity on the tailnet — only then can the VPS reach it directly. Without this, port forwarding on the Windows host is required.
@@ -498,3 +563,4 @@ Both distribute access to compute across nodes. The cluster version buys you mod
 - `remote-agent-infrastructure` references/secure-config-backup.md — backing up Hermes config (~/.hermes/config.yaml, SOUL.md, memories, skills) to a git repo without leaking secrets. Covers staged sync, sed redaction of tokens, .env exclusion, and GitHub secret alert recovery.
 - `remote-agent-infrastructure` references/bitwarden-secrets-manager.md — Bitwarden Secrets Manager (BWS) for Hermes Agent: BWS vs vault distinction, setup steps, Hermes config integration, secret redaction bypass for export, and VPS→local migration workflow.
 - `remote-agent-infrastructure` references/vps-security-hardening.md — four-layer VPS security model (network → OS → application → supply chain/resilience). Firewall setup, SSH lockdown, non-root user, file permissions, service audit, auto-updates, fail2ban, kernel hardening, token hygiene, skill audit, backup strategy, and a post-hardening verification checklist.
+- `remote-agent-infrastructure` references/gateway-conflicts.md — diagnosing and resolving Telegram polling conflicts when running multiple Hermes instances with the same bot token. Covers symptom identification, root cause, resolution (stop secondary gateway), and prevention.

@@ -23,14 +23,19 @@ This user's communication preference (Randoooos):
 - **Verify before assuming** — when they ask for a "command" or "script" after a long explanation, confirm WHAT it's for. Do not auto-assume it's the most recent topic — they may be pivoting.
 - **Nuke pattern** — when they say "nuke them" or "delete" they mean immediate destruction, no hesitation.
 
-## Relationship to historical-research skill
+## Relationship to Other Skills
 
-This is a project-specific wrapper. The general six-lens analytical framework, multilingual OCR pipeline, and historical source acquisition workflow are in `historical-research` (class-level skill). Load it alongside this one for full context.
+- **`historiographical-style-guide`** (absorbed from `historical-research`) — the methodological foundation for all history writing in this project. Synthesizes Burckhardt's *Reflections on World History* (the three-potencies method), Nietzsche, Luttwak, Wickham, Norwich, and Kantorowicz/Stefan George into a coherent prose and analysis standard. Load before any writing or biographical work.
+
+## Tracked Figures
+
+See `references/tracked-figures.md` for the running list of historical figures flagged for deep biographical work. Each entry includes a framework-applying primer, source references, and a status checklist. Add new figures as they surface.
 
 An independent historical research persona with:
 
 - **Trilingual fluency** — operates equally in Vietnamese, French, and English. Translation is native, not an add-on.
-- **Six-lens methodology** — Burckhardt cultural history, biography, Nietzschean vitalism, Marxist class analysis, covert apparatus analysis, and DNA/archaeology.
+- **Six-lens methodology** — **Burckhardt's Reflections method (three potencies: State, Religion, Culture)** + cross-sectional analysis + crisis-as-revelation, biography, Nietzschean vitalism, Marxist class analysis, covert apparatus analysis, and DNA/archaeology.
+- **Guiding thesis** — Burckhardt + Nietzsche synthesized: "The purpose of a people is to produce the great men." Every period analysis asks: what configuration of the three potencies (State, Religion, Culture) produced the figures that defined this era? The project is organized around the great-man ecology: mapping the soil that grows leadership.
 - **Material culture integration** — DNA analysis, archaeology, population genetics, migration patterns as evidence layers.
 - **Primary-source-first** — prioritizes declassified documents, archives, oral histories, and field evidence over secondary synthesis.
 - **No moral judgment** — examines figures through will-to-power and vital force, not good/evil framing.
@@ -47,7 +52,7 @@ An independent historical research persona with:
 - **Cite source language** — always note which language the original was in. Translation is always lossy; the reader should know what they're not seeing.
 - **Bias toward primary** — if a source exists in Vietnamese or French, prefer that over the English translation.
 
-### Translation Pipeline
+### Translation Pipeline (General)
 
 1. **Source identification** — what language is the original in? What dialect/register?
 2. **Key term extraction** — identify untranslatable or culturally loaded terms before translating
@@ -74,6 +79,117 @@ An independent historical research persona with:
 - Translate key concepts (Burckhardt, class analysis, covert apparatus) into accessible Vietnamese
 
 ---
+
+## Translation Pipeline (VSTB)
+
+Full pipeline detail in `references/vstb-translation-pipeline.md`. Summary:
+
+- **Translation-after-synthesis decision** — Translate only after synthesis. The synthesis worker reads Vietnamese natively (that's the persona's core capability). Structure extraction, TOC parsing, figure identification all work on raw Vietnamese. Translation only fires on the period-mapped output (P1-P7 relevant sections). This avoids translating ~70% pre-1800 background content.
+- **Voice**: Scholarly Burckhardtian — cultured, precise, measured prose. Vietnamese narrative voice carries into English. Phạm Văn Sơn writes with partisan energy and vivid detail; preserve that.
+- **All proper names**: stay in Vietnamese, never translate. Titles translate on first use with Vietnamese in parentheses, then English.
+- **Dates**: preserve both lunar and Western as given.
+- **Dialogue**: render in raw colloquial register (e.g. emperor's outbursts should feel raw, not sanitized).
+- **Footnotes**: weave author's footnotes into narrative. No translator footnotes, no commentary.
+- **Sample first**: translate 1-2 chapters for user sign-off before full batch.
+- **Output**: standalone text files at `/home/vthen/work/post-colonial-vietnam/sources/vstb/translations/`
+- **No G-Brain integration** until quality confirmed.
+- **Each phase = kanban card** (clean → glossary → translate → review → compile).
+
+Volume 6 ("Cách Mạng Cận Sử", ~1885-1910s) is the test volume. Chapter I sample completed — covers the political crisis at Huế court 1883-1884, deaths of emperors, French enforcement of 1884 treaty. Glossary and cleaned source saved alongside translation.
+
+### OCR Status (all complete, zero failures)
+
+| Vol | Title | Pages | Status |
+|-----|-------|-------|--------|
+| 1 | Thượng Cổ và Trung Cổ Thời Đại | 509 | ✅ complete, 0 failures |
+| 2 | *(ancient/medieval continued)* | 727 | ✅ complete, 0 failures |
+| 3 | Nam Bắc Phân Tranh | 499 | ✅ complete, 0 failures |
+| 4 | *(downloaded)* | 498 | ✅ complete, 0 failures |
+| 5 | *(downloaded)* | 492 | ✅ complete, 0 failures |
+| 6 | Cách Mạng Cận Sử | 502 | ✅ complete, 0 failures |
+| 7 | *(downloaded)* | 465 | ✅ complete, 0 failures |
+
+All artifacts repaired. Both VPS and WSL copies in sync. Total: 3,692 unique pages, ~7.4 MB text.
+
+### Machine Topology
+
+```
+VPS (178.156.199.37, 2GB)          WSL (DESKTOP-B4LB6VL, 15GB)
+┌──────────────────────┐           ┌──────────────────────────┐
+│ Kanban board          │    SSH    │ PDFs + full volume text  │
+│ Subagent dispatch     │──────────►│ Heavy compute (16 cores) │
+│ /tmp/vstb-translate/  │◄─────────│ /home/vthen/.../translations/
+│ /root/work/.../vstb/  │  scp sync │ /home/vthen/.../vstb/    │
+└──────────────────────┘           └──────────────────────────┘
+```
+
+**Key rule**: VPS orchestrates (kanban, dispatch, tracking). WSL is compute-only — no gateway, no kanban dispatcher. All file operations go via `ssh local-machine` from the VPS.
+
+### File Location Reference
+
+| Artifact | VPS Path | WSL Path |
+|----------|----------|----------|
+| Full volume text | `/root/work/.../vstb/viet-su-tan-bien-quyen-6.txt` | `/home/vthen/.../vstb/viet-su-tan-bien-quyen-6.txt` |
+| Translation output | `/tmp/vstb-translate/` + `/root/work/.../vstb/translations/` | `/home/vthen/.../vstb/translations/` |
+| Kanban board | `/root/.hermes/kanban/boards/vstb/` | N/A |
+
+**Both machines must be synced after any artifact fix.** Fixing one does not automatically update the other.
+
+### Translation Pipeline Status
+
+**Volume 6** (test volume) — **ALL 7 CHAPTERS TRANSLATED** ✅
+
+| Chapter | Content | Clean | Glossary | Translation |
+|---------|---------|-------|----------|-------------|
+| Preamble | From Kiến Phúc to Hàm Nghi (sample) | ✅ | ✅ | ✅ 11.6 KB |
+| Ch.I | De Courcy & the fall of the Citadel | ✅ | ✅ | ✅ 31.8 KB |
+| Ch.II | Hàm Nghi & Tôn Thất Thuyết flee north | ✅ | ✅ | ✅ 40.8 KB |
+| Ch.III | French install Đồng Khánh | ✅ | ✅ | ✅ 29.5 KB |
+| Ch.IV | Phong trào Cần Vương | ✅ | ✅ | ✅ 36.4 KB |
+| Ch.V | French pursue Hàm Nghi (to capture & exile) | ✅ | ✅ | ✅ 40.3 KB |
+| Ch.IX | Famous battles of Trung Kỳ resistance | ✅ | ✅ | ✅ 141.7 KB |
+| **Total** | | | | **332 KB** |
+
+Total Volume 6 chapter count: ~500 pages → ~332 KB of English translation output (clean + glossary + translation per chapter).
+
+### Translation Output File Map
+
+**Naming convention:** "ch1" = preamble section. Actual Chương I = "ch2". The mapping:
+- `ch1` → Preamble/Intro (From Kiến Phúc to Hàm Nghi)
+- `ch2` → Chương I (De Courcy / Citadel fall)
+- `ch3` → Chương II (Hàm Nghi flees north)
+- `ch4` → Chương III (French install Đồng Khánh)
+- `ch5` → Chương IV (Phong trào Cần Vương)
+- `ch6` → Chương V (French pursue Hàm Nghi)
+- `ch7` → skip (reserved)
+- `ch8` → skip (reserved)
+- `ch9` → Chương IX (Famous battles)
+
+This is confusing but consistent. Document the mapping in any dispatch context so subagents use correct file prefixes.
+
+### Very-Long-Chapter Handling
+
+Chapter IX (Famous Battles) was ~2,924 lines of raw text / 160KB source. This exceeded what a single subagent could complete in one turn (hit max_iterations on first attempt). Re-dispatched as translation-only after clean+glossary were done separately.
+
+**Rule of thumb:** Source files >50KB should be pre-split into sections before dispatching for translation. Natural section boundaries in VSTB chapters: per-battle (Ba Đình, Hùng Lĩnh, Hương Khê) or per-biography (Nguyễn Thân, Nguyễn Hiệu, Lê Thành Phương). Each section fits in a single subagent turn.
+
+### Known OCR Garbles to Correct During Translation
+
+When subagents translate, they must correct these systematic Tesseract errors:
+
+| Pattern | Example Fix |
+|---------|-------------|
+| `đẩä/đẩẩ` → `đã` | `đẩä định` → `đã định` |
+| `nghiềm'/nghiềm` → `nghiêm` | `nghiềm chỉnh` → `nghiêm chỉnh` |
+| `sï` → `sĩ` | `sï quan` → `sĩ quan` |
+| `ÿ` → `kỳ` | `Trung-ÿ` → `Trung-kỳ` |
+| `d` → `đ` (in đ contexts) | `dai-diên` → `đại diện` |
+| `o/ô/ơ` confusions | Context-dependent |
+| `a/ă/â` confusions | Context-dependent |
+| `1781884` → `17-8-1884` | Date OCR errors common |
+| `Bắcdầu bôitinh` → `Bắc Đẩu Bội Tinh` | French loanwords garbled |
+| `CHƯƠNG 1V` → `CHƯƠNG III` or `IV` | Roman numeral OCR |
+| `0` → `O` in text | `0ng` → `Ông`, `0ng Tường` → `Ông Tường`
 
 ## Primary Research Search Strategy
 
@@ -133,12 +249,15 @@ An independent historical research persona with:
 
 Apply all six lenses to every period. Record findings in G-Brain (one page per period, one page per person).
 
-### 1. Burckhardtian Cultural History
-**Question to answer:** What was the spirit of this era?
-- Read everything — letters, diaries, chronicles, art, architecture, literature, philosophy, religious texts
-- Identify patterns across source types
-- Compare across periods to identify uniqueness
-- Synthesize into a portrait of the era's cultural character
+### 1. Burckhardtian Method — *Reflections on World History*
+
+**This skill is available as a standalone foundation:** load `burckhardt-reflection-method` for the full six-step procedure.
+
+**Quick reference:** The three potencies (State, Religion, Culture) as analytical grid, cross-sectional analysis (Querschnitt), crisis as revelation, accelerations/contractions, individual vs universal, terrible simplifiers.
+
+**Core question synthesizing all six steps:** *What kind of human being did this period produce, and what kind did it destroy?*
+
+For detailed application: load the foundation skill above. This persona inherits and applies it.
 
 ### 2. Biography as Aperture
 **Question to answer:** What choices did this person make and why?
@@ -219,11 +338,10 @@ A sixth evidence layer — material and biological evidence that complements the
 ### Việt Sử Tân Biên (Phạm Văn Sơn)
 - **7-volume definitive Vietnamese history**, all downloaded
 - Location: `/root/work/post-colonial-vietnam/sources/vstb/` (VPS) and `/home/vthen/work/post-colonial-vietnam/sources/vstb/` (local WSL)
-- Format: Scanned PDFs (291 MB total, ~3,500 pages)
-- OCR status across both machines:
-  - **Complete:** Vol 2 (727/727 ✅), Vol 5 (492/492 ✅)
-  - **Running:** Vol 1 (→509), Vol 3 (→499), Vol 4 (→498) — on local WSL via tmux
-  - **Running:** Vol 6 (→502), Vol 7 (→465) — on VPS
+- Format: Scanned PDFs (291 MB total, ~3,692 pages across 7 volumes)
+- OCR: Complete — all 7 volumes, zero failures. Tesseract with `vie+fra`.
+- Translation: In progress. Volume 6 is the test volume (Chapter I sample done).
+- Translations output: `sources/vstb/translations/` (cleaned source + glossary + English translation per chapter)
 - Key scripts: `ocr_resumable.sh` (150dpi, one-at-a-time, PID-protected), `ocr_volume_v2.sh` (page-by-page, 200dpi), `ocr_volume_v3.sh` (full reprocess, 200dpi)
 - **Disk strategy**: 150 DPI PNG with page-at-a-time processing allows concurrent volumes. 2 GB VPS handles 4-5 concurrent at ~3-5 p/m each. Local WSL (15 GB RAM) handles unlimited.
 - **Persistence**: Use `at now` or tmux for volumes that must survive session end. Hermes background processes have a hard 30-min limit.
@@ -278,7 +396,9 @@ All project files live at `/root/work/post-colonial-vietnam/`
 1. Read source in original language
 2. Translate key passages
 3. Apply six-lens analysis
-4. Store findings in G-Brain (one page per period/person)
+4. Store findings in G-Brain
+
+**G-Brain + Vietnamese note:** G-Brain stores Vietnamese UTF-8 markdown without issues. Keyword search (FTS5) handles Vietnamese diacritics. Semantic search quality depends on the embedding model — verify the model supports Vietnamese before bulk ingest. For OCR'd text with artifacts, clean the text first (fix systematic Tesseract garbles) before creating G-Brain pages, otherwise both keyword and semantic search suffer. See `references/scanned-pdf-ocr.md` for the cleanup patterns.
 
 ### Phase 3 — Synthesis & Writing
 1. Create period portraits integrating all lenses

@@ -1,0 +1,560 @@
+
+[Ask the publishers](https://change.org/LetReadersRead) to restore access to 500,000\+ books.
+[Go home](https://archive.org/)
+[Wayback Machine ](https://web.archive.org)    [      Texts ](https://archive.org/details/texts)    [      Video ](https://archive.org/details/movies)    [      Audio ](https://archive.org/details/audio)    [      Software ](https://archive.org/details/software)    [      Images ](https://archive.org/details/image)    [      Donate ](https://archive.org/donate/?origin=iawww-mbhmbgrmenu)    [      More ](https://archive.org/about/)   
+["Donate to the archive" ](https://archive.org/donate/?origin=iawww-mbhrt)
+[Sign up](https://archive.org/signup) \| [Log in](https://archive.org/account/login)  
+[Upload ](https://archive.org/upload)
+
+### Internet Archive Audio
+[![](https://archive.org/services/img/etree)Live Music Archive](https://archive.org/details/etree)
+[![](https://archive.org/services/img/librivoxaudio)Librivox Free Audio](https://archive.org/details/librivoxaudio)
+
+#### Featured
+- [All Audio](https://archive.org/details/audio)  
+- [Grateful Dead](https://archive.org/details/GratefulDead)  
+- [Netlabels](https://archive.org/details/netlabels)  
+- [Old Time Radio](https://archive.org/details/oldtimeradio)   
+- [78 RPMs and Cylinder Recordings](https://archive.org/details/78rpm)  
+
+#### Top
+- [Audio Books & Poetry](https://archive.org/details/audio_bookspoetry)  
+- [Computers, Technology and Science](https://archive.org/details/audio_tech)  
+- [Music, Arts & Culture](https://archive.org/details/audio_music)  
+- [News & Public Affairs](https://archive.org/details/audio_news)  
+- [Spirituality & Religion](https://archive.org/details/audio_religion)  
+- [Podcasts](https://archive.org/details/podcasts)  
+- [Radio News Archive](https://archive.org/details/radio)  
+
+### Images
+[![](https://archive.org/services/img/metropolitanmuseumofart-gallery)Metropolitan Museum](https://archive.org/details/metropolitanmuseumofart-gallery)
+[![](https://archive.org/services/img/clevelandart)Cleveland Museum of Art](https://archive.org/details/clevelandart)
+
+#### Featured
+- [All Images](https://archive.org/details/image)  
+- [Flickr Commons](https://archive.org/details/flickrcommons)   
+- [Occupy Wall Street Flickr](https://archive.org/details/flickr-ows)  
+- [Cover Art](https://archive.org/details/coverartarchive)  
+- [USGS Maps](https://archive.org/details/maps_usgs)  
+
+#### Top
+- [NASA Images](https://archive.org/details/nasa)  
+- [Solar System Collection](https://archive.org/details/solarsystemcollection)  
+- [Ames Research Center](https://archive.org/details/amesresearchcenterimagelibrary)  
+
+### Software
+[![](https://archive.org/services/img/internetarcade)Internet Arcade](https://archive.org/details/internetarcade)
+[![](https://archive.org/services/img/consolelivingroom)Console Living Room](https://archive.org/details/consolelivingroom)
+
+#### Featured
+- [All Software](https://archive.org/details/software)   
+- [Old School Emulation](https://archive.org/details/tosec)  
+- [MS\-DOS Games](https://archive.org/details/softwarelibrary_msdos_games)   
+- [Historical Software](https://archive.org/details/historicalsoftware)  
+- [Classic PC Games](https://archive.org/details/classicpcgames)  
+- [Software Library](https://archive.org/details/softwarelibrary)  
+
+#### Top
+- [Kodi Archive and Support File](https://archive.org/details/kodi_archive)  
+- [Vintage Software](https://archive.org/details/vintagesoftware)  
+- [APK](https://archive.org/details/apkarchive)  
+- [MS\-DOS](https://archive.org/details/softwarelibrary_msdos)  
+- [CD\-ROM Software](https://archive.org/details/cd-roms)  
+- [CD\-ROM Software Library](https://archive.org/details/cdromsoftware)  
+- [Software Sites](https://archive.org/details/softwaresites)   
+- [Tucows Software Library](https://archive.org/details/tucows)  
+- [Shareware CD\-ROMs](https://archive.org/details/cdbbsarchive)  
+- [Software Capsules Compilation](https://archive.org/details/softwarecapsules)  
+- [CD\-ROM Images](https://archive.org/details/cdromimages)   
+- [ZX Spectrum](https://archive.org/details/softwarelibrary_zx_spectrum)  
+- [DOOM Level CD](https://archive.org/details/doom-cds)   
+
+### Texts
+[![](https://archive.org/images/widgetOL.png)Open Library](https://openlibrary.org/)
+[![](https://archive.org/services/img/americana)American Libraries](https://archive.org/details/americana)
+
+#### Featured
+- [All Texts](https://archive.org/details/texts)  
+- [Smithsonian Libraries](https://archive.org/details/smithsonian)  
+- [FEDLINK \(US\)](https://archive.org/details/fedlink)  
+- [Genealogy](https://archive.org/details/genealogy)  
+- [Lincoln Collection](https://archive.org/details/lincolncollection)  
+
+#### Top
+- [American Libraries](https://archive.org/details/americana)  
+- [Canadian Libraries](https://archive.org/details/toronto)  
+- [Universal Library](https://archive.org/details/universallibrary)  
+- [Project Gutenberg](https://archive.org/details/gutenberg)  
+- [Children's Library](https://archive.org/details/iacl)  
+- [Biodiversity Heritage Library](https://archive.org/details/biodiversity)  
+- [Books by Language](https://archive.org/details/booksbylanguage)  
+- [Folkscanomy](https://archive.org/details/folkscanomy)  
+- [Government Documents](https://archive.org/details/government-documents)  
+
+### Video
+[![](https://archive.org/services/img/tv)TV News](https://archive.org/details/tv)
+[![](https://archive.org/services/img/911)Understanding 9/11](https://archive.org/details/911)
+
+#### Featured
+- [All Video](https://archive.org/details/movies)  
+- [Prelinger Archives](https://archive.org/details/prelinger)  
+- [Democracy Now\!](https://archive.org/details/democracy_now_vid)   
+- [Occupy Wall Street](https://archive.org/details/occupywallstreet)  
+- [TV NSA Clip Library](https://archive.org/details/nsa)  
+
+#### Top
+- [Animation & Cartoons](https://archive.org/details/animationandcartoons)  
+- [Arts & Music](https://archive.org/details/artsandmusicvideos)   
+- [Computers & Technology](https://archive.org/details/computersandtechvideos)  
+- [Cultural & Academic Films](https://archive.org/details/culturalandacademicfilms)  
+- [Ephemeral Films](https://archive.org/details/ephemera)   
+- [Movies](https://archive.org/details/moviesandfilms)  
+- [News & Public Affairs](https://archive.org/details/newsandpublicaffairs)  
+- [Spirituality & Religion](https://archive.org/details/spiritualityandreligion)  
+- [Sports Videos](https://archive.org/details/sports)  
+- [Television](https://archive.org/details/television)  
+- [Videogame Videos](https://archive.org/details/gamevideos)  
+- [Vlogs](https://archive.org/details/vlogs)  
+- [Youth Media](https://archive.org/details/youth_media)  
+
+Search the history of more than 1 trillion [web pages](https://blog.archive.org/2016/10/23/defining-web-pages-web-sites-and-web-captures/). 
+[](https://web.archive.org) 
+Search the Wayback Machine    
+
+#### Mobile Apps
+-  [Wayback Machine \(iOS\)](https://apps.apple.com/us/app/wayback-machine/id1201888313)  
+-  [Wayback Machine \(Android\)](https://play.google.com/store/apps/details?id=com.internetarchive.waybackmachine)  
+
+#### Browser Extensions
+-  [Chrome](https://chrome.google.com/webstore/detail/wayback-machine/fpnmgdkabkmnadcjpehmlllkndpkmiak)  
+-  [Firefox](https://addons.mozilla.org/en-US/firefox/addon/wayback-machine_new/)  
+-  [Safari](https://apps.apple.com/us/app/wayback-machine/id1472432422?mt=12)  
+-  [Edge](https://microsoftedge.microsoft.com/addons/detail/wayback-machine/kjmickeoogghaimmomagaghnogelpcpn?hl=en-US)  
+
+#### Archive\-It Subscription
+-  [Explore the Collections](https://www.archive-it.org/explore)  
+-  [Learn More](https://www.archive-it.org/blog/learn-more/)  
+-  [Build Collections](https://www.archive-it.org/contact-us)  
+
+### Save Page Now
+
+Capture a web page as it appears now for use as a trusted citation in the future.
+Enter a URL to save   
+
+Please enter a valid web address
+- [About](https://archive.org/about/)  
+- [Blog](https://blog.archive.org)  
+- [Events](https://archive.org/events)  
+- [Projects](https://archive.org/projects/)  
+- [Help](https://archive.org/about/faqs.php)  
+- [Donate](https://archive.org/donate?origin=iawww-TopNavDonateButton)  
+- [Contact](https://archive.org/about/contact)  
+- [Jobs](https://archive.org/about/jobs)  
+- [Volunteer](https://archive.org/about/volunteer-positions) 
+- [  Sign up for free  ](https://archive.org/signup)  
+- [  Log in  ](https://archive.org/account/login)  
+-  [About](https://archive.org/about/)   
+-  [Blog](https://blog.archive.org)   
+-  [Events](https://archive.org/events)   
+-  [Projects](https://archive.org/projects/)   
+-  [Help](https://archive.org/about/faqs.php)   
+-  [Donate  ](https://archive.org/donate?origin=iawww-TopNavDonateButton)   
+-  [Contact](https://archive.org/about/contact)   
+-  [Jobs](https://archive.org/about/jobs)   
+-  [Volunteer](https://archive.org/about/volunteer-positions)   
+[Share on Facebook](https://web.archive.org/web/20230000000000*/https://www.luttwak.com#)
+[Share on Twitter](https://web.archive.org/web/20230000000000*/https://www.luttwak.com#)
+[DONATE](https://archive.org/donate/?origin=wbwww-CalndrDonateButton)
+[https://web.archive.org/](https://web.archive.org/)
+Explore more than 1 trillion [web pages](https://blog.archive.org/2016/10/23/defining-web-pages-web-sites-and-web-captures/) saved over time
+×Clear
+Calendar[Collections](https://web.archive.org/web/collections/20230000000000*/https://www.luttwak.com)[Changes](https://web.archive.org/web/changes/https://www.luttwak.com)[Summary](https://web.archive.org/details/https://www.luttwak.com)[Site Map](https://web.archive.org/web/sitemap/https://www.luttwak.com)[URLs](https://web.archive.org/web/*/https://www.luttwak.com*)
+Saved **52 times** between [March 5, 2001](https://web.archive.org/web/20010305192928/https://www.luttwak.com) and [July 12, 2025](https://web.archive.org/web/20250712145326/https://www.luttwak.com).
+1996199719981999200020012002200320042005200620072008200920102011201220132014201520162017201820192020202120222023202420252026
+JAN
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+FEB
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+MAR
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+APR
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+MAY
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+JUN
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+JUL
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+AUG
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+SEP
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+OCT
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+NOV
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+DEC
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+
+## Note
+
+This calendar view maps the number of times **https://www.luttwak.com** was crawled by the Wayback Machine, *not* how many times the site was actually updated. More info in the [FAQ](https://help.archive.org/help/category/the-wayback-machine/).
+[FAQ](https://help.archive.org/help/category/the-wayback-machine/) \| [Contact Us](https://archive.org/about/contact.php) \| [Terms of Service \(Dec 31, 2014\)](https://archive.org/about/terms.php)
+
+The Wayback Machine is an initiative of the [Internet Archive](https://archive.org/), a 501\(c\)\(3\) non\-profit, building a digital library of Internet sites and other cultural artifacts in digital form. 
+Other [projects](https://archive.org/projects/) include [Open Library](https://openlibrary.org/) & [archive\-it.org](https://archive-it.org). 
+
+Your use of the Wayback Machine is subject to the Internet Archive's [Terms of Use](https://archive.org/about/terms.php). 

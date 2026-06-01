@@ -1,9 +1,13 @@
 ---
 name: valledin-translation
-description: Translate Berthold Vallentin's "Napoleon" (1923, George Circle) from German to English.
+description: "Translate Berthold Vallentin's 'Napoleon' (1923, George Circle) from German to English. Loads george-circle-register foundation skill for prose rules — CFR mechanics, register modulation, and German compound handling."
 ---
 
 # Vallentin Napoleon Translation
+
+## Register
+
+**Foundation skill:** `george-circle-register` — all CFR rules, active verbs, calque avoidance, capitalization conventions, Fraktur OCR pitfalls, and register modulation are defined there. This skill carries only project-specific details: source paths, glossary, and known pitfalls.
 
 ## Source
 - Original German PDF: `/root/work/vallentin-napoleon.pdf` (553 pages, Google Books)

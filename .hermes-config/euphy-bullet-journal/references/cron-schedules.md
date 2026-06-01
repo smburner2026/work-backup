@@ -8,6 +8,8 @@ Configured schedules (as of 2026-05-28):
 
 All jobs load the euphy-bullet-journal skill and use the Proactive Update Templates.
 
+**Prerequisite:** Each cron job MUST run under the `euphy` Hermes profile (`--profile euphy`) so it can access the journal file at `/root/.hermes/profiles/euphy/journal/study-schedule.md`. Running under the default profile or any other profile will fail with a permission error on `/root/`.
+
 ## Horizon System
 
 The three cron jobs now have distinct time horizons to eliminate redundancy:

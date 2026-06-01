@@ -158,24 +158,20 @@ dabt-project-workflow (this skill)
         Reads: config.progress.wiki_dir
 ```
 
-## Data Quality Status (as of 2026-05-30, post-full-recovery)
+## Data Quality Status (as of 2026-05-31, post-answer-campaign)
 
 | Metric | Value | Impact |
 |--------|-------|--------|
-| Questions in main table | **5,368** (across 10 source banks) | Clean — expanded from 3,796 via recert import + 466 domain classifications |
-| Answer letter coverage | **87.5%** (4,698/5,368) | ✅ 670 lacking letters are legitimately flagged as no_answer_key |
-| Correct answer texts | 3,796+ | Bulk-fill from answer_options applied; recent imports carry answer text |
-| Explanations | **4,546/5,368 (84.7%)** | Missing ones are 670 no-answer-key Qs (no key → no explanation generated) |
-| No-answer-key Qs | **670** (401 2017 cert + 269 Past ABT PDFs) | Legitimate — real exam materials without published answer keys |
-| Domain III coverage | **287 Qs** (5.3% of bank vs 38% of exam weight) | **Still critical underweight** — upgraded from 170 via new classifications |
-| Domain-less Qs | **8 Qs remaining** (down from 466) | ✅ Bulk classification complete; 8 need manual review |
-| 2000Q Bank batch33 errors | **FIXED** ✅ | All 34+ corrections verified against Casarett Ch.6 |
-| 25 NULL answer_letters (2000Q Bank) | **BACKFILLED** ✅ | All "answer=E" implied-option items fixed |
-| 2015 Recert missing from DB | **IMPORTED** ✅ | 40 Qs from 2015 recert now in source_file_id=10 |
-| dabt-config.json stale | **REFRESHED** ✅ | Now reflects 5,368 actual count with all source banks |
-| Quarantine remaining | **2 items** (down from 1,048) | Bulk recovery complete; residual 2 are truly unrecoverable |
-| Synthetic Domain I Qs | **1,600 generated** ✅ | All web-verified against online sources (20% sample audit = PASS) |
-| Synthetic Domain III Qs | **600 generated** ✅ | Risk assessment coverage boosted from 170→287 via classification + synthesis |
+| Questions in main table | **5,368** (across 10 source banks) | Clean |
+| Answer letter coverage | **99.3%** (5,333/5,368) | ✅ Only 35 remain (down from 670) — all legitimately missing answer keys |
+| Correct answer texts | 5,333+ | All answered questions carry correct_answer_letter |
+| Explanations | **4,546/5,368 (84.7%)** | Missing ones are no-answer-key Qs and a few new additions |
+| No-answer-key Qs (remaining) | **35** (30 Past ABT PDFs + 5 2017 cert) | Down from 670 — 635 answered via reference-text cross-referencing |
+| Source 9 (2017 Cert Exam) | **396/401 answered** ✅ | Parts A-D all processed; 5 need figures/graphs |
+| Source 7 (Past ABT PDFs) | **321/351 answered** ✅ | 239 answered this session; 30 need calculations | 
+| Domain III coverage | **287 Qs** (5.3% of bank vs 38% of exam weight) | **Still critical underweight** |
+| Domain-less Qs | **8 Qs remaining** | Need manual review |
+| Quarantine remaining | **2 items** | Truly unrecoverable (no options, no answer text) |
 
 ## Task Roadmap (updated 2026-05-30)
 
@@ -197,7 +193,7 @@ See `references/task-roadmap.md` for full detail. Current status:
 14. **Systems integrity audit** — ✅ **COMPLETE** Skills, G-Brain, LCM, Mnemosyne, DB all verified.
 
 ### Remaining Gaps
-- **670 no-answer-key Qs** (401 from 2017 cert + 269 Past ABT PDFs) — need eventual educated-guess answers or SME review
+- **35 no-answer-key Qs** (30 Past ABT PDFs + 5 2017 cert needing figures/calculations) — down from 670; 635 answered via reference-text cross-referencing. The remaining ones need figure reference or careful calculation verification.
 - **8 unclassified Qs** — need manual review
 - **Domain III still underweight** at 287 Qs (5.3% vs 38% exam weight) — synthetic generation improved this from 170, but more would help
 - **2013/2015 recert extraction** — 2013 recert was ingested but 2015 was only done as partial recovery via the 40-Question import (t_cfd11e62); full 4-part extraction not done

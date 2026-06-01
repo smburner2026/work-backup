@@ -1,6 +1,6 @@
 ---
 name: dabt-database
-description: "Query the expanded DABT Practice Questions Database (3,796 main-table Qs, 1,048 quarantined, across 8 source banks — SQLite). Blueprint-weighted sampling, anti-clustering, dedup tracking. DB path from dabt-config.json. Legacy xlsx at reference/data/DABT_Practice_Questions_Database.xlsx."
+description: "Query the expanded DABT Practice Questions Database (5,368 main-table Qs, 2 quarantined, 670 flagged no-answer-key, across 10 source banks — SQLite). Blueprint-weighted sampling, anti-clustering, dedup tracking, no-answer-key question handling. DB path from dabt-config.json. Legacy xlsx at reference/data/DABT_Practice_Questions_Database.xlsx."
 category: education
 ---
 
@@ -138,9 +138,8 @@ Reference: `references/domain-iii-c-source-map.md` for a concrete example of sou
 
 ### No-Answer-Key Question Type
 For real exam PDFs without published answer keys (Past ABT PDFs, 2017 cert):
-- Add to DB with correct_answer_letter = NULL
-- Set synthetic_source = 'no-answer-key' for filtering
-- Do NOT generate educated guesses automatically
+- Add to DB with `correct_answer_letter = NULL`
+- Set `no_answer_key = 1` (column exists in the questions table — do NOT use `synthetic_source` which doesn't exist in the schema)
 - These become discussion prompts — when encountered during drilling they trigger review conversation rather than scoring
 
 ### Coverage Tracking via Curriculum Structure
@@ -153,5 +152,7 @@ After curriculum absorption into config, patch dabt-drill-mode to read topic lis
 
 ## Data Quality Policy
 Issues → quarantine with documented label. Do NOT leave NULL/missing markers in main table. Main table must always produce valid questions with no quality filter. File path and absolute state path: `CONFIG['database']['primary']['path']` and `CONFIG['progress']['state_path']`.
+
+**Null-answer landscape (as of 2026-05-31):** 35 Qs across 2 sources with `no_answer_key=1` — down from 670 after a batch answer-fixing campaign that answered 635 questions by partitioning exam parts across parallel subagents, each searching Casarett & Doull 9e and Hayes 7e reference texts for evidence. See `references/null-answer-landscape.md` for the per-source breakdown (IDs, content type, answer strategy, remaining items).
 
 **Current state:** All recovery work complete. 670 Qs legitimately flagged as no-answer-key (not a quality defect — these are real exam materials without published keys). 8 Qs need domain classification — prioritize next session.

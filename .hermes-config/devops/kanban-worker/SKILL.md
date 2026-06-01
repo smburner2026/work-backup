@@ -32,6 +32,25 @@ If `$HERMES_TENANT` is set, the task belongs to a tenant namespace. When reading
 
 ## Good summary + metadata shapes
 
+Before calling `kanban_complete`, run your output through the **OutputGate** (from `workflow-pattern-kit`). This catches plan stubs, mock data, and raw tool envelopes before they land on a card.
+
+```python
+from output_gate import OutputGate
+
+gate = OutputGate()
+reason = gate.check_deliverable(
+    summary=my_output_text,
+    is_data_agent=True,         # you have data tools
+    data_tool_calls=tool_count, # how many you actually called
+    report_written=bool(report_file),
+)
+if reason:
+    kanban_comment(body=f"Output rejected: {reason}")
+    # Don't complete — fix the output first
+else:
+    kanban_complete(summary=my_output_text, metadata=metadata)
+```
+
 The `kanban_complete(summary=..., metadata=...)` handoff is how downstream workers read what you did. Patterns that work:
 
 **Coding task:**

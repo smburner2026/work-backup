@@ -57,6 +57,7 @@ See `references/johnston-text-cleaning.md` for the specific cleaning patterns us
 4. **Choose PDF engine**:
    - **fpdf2** (default) — for OCR text, academic manuscripts, Liberation Serif 12pt, memory-constrained environments
    - **WeasyPrint** (see `references/weasyprint-workflow.md`) — for CSS-controlled typography, proper justification with hyphenation, font variety. Preferred font: Liberation Serif (same family as fpdf2 path). Use per-work build + pdfunite merge when corpus exceeds ~3MB to avoid memory issues.
+   - **WeasyPrint single-book** (see `references/single-book-weasyprint.md`) — lighter variant for a single translated book (30K–150K words) from a translation pipeline. Title page + auto-TOC + part breaks + running headers all from one plain text file via Python-generated HTML. No anthology merging or EPUB extraction needed.
    For large multi-work anthologies (1,000+ pp, 5+ works), see `references/weasyprint-anthology-pipeline.md` for the validated per-work → pdfunite merge approach, CSS specs, and cleanup pipeline used on the 4,402-page Nietzsche Complete Works build.
 5. **Extract chapters** from source into individual `.md` files in `md_dir/` (for EPUB sources, always use spine order, not alphabetical sort — see `references/weasyprint-anthology-pipeline.md`)
 6. **Define chapter order** via a `BOOK_ORDER` list (slugs matching filenames)

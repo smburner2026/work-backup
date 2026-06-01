@@ -303,21 +303,106 @@ fi
 
 ---
 
+## Token Expiry Recovery (Diagnostic Flow)
+
+When a previously-working backup or push cron fails with auth errors, the token may have expired. Use this diagnostic flow instead of jumping to re-setup.
+
+### Phase 1 — Identify the Failure Mode
+
+```bash
+git push origin main 2>&1
+```
+
+**Common error signatures:**
+
+| Error | Likely cause |
+|-------|-------------|
+| `fatal: Authentication failed` / `Password authentication not supported` | Token expired or credential config stale |
+| `remote: Invalid username or token` | Token expired or URL has embedded old token |
+| `fatal: 'origin' does not appear to be a git repository` | Remote origin missing — add it back |
+| `fatal: could not read Username` | No credential helper and no token in URL |
+
+### Phase 2 — Verify Token State
+
+```bash
+gh auth status 2>&1
+git config --global --list | grep credential
+git config --global --list | grep insteadOf
+```
+
+**If gh shows "Token is invalid":** token expired. Run `gh auth login` with a fresh PAT.
+
+**If gh shows OK but git push still fails:** gh has a good token but git routes through a stale URL rewrite — go to Phase 3.
+
+### Phase 3 — Clean Stale Git Config
+
+**A. Stale `insteadOf` URL with embedded expired token**
+
+If `git config --global` shows an entry like `[url "https://user:old_token@github.com/"]` with `insteadOf = https://github.com/`, every GitHub URL gets rewritten to include the dead token. gh auth login doesn't touch this.
+
+Remove it:
+```bash
+# Read exact URL from config
+grep -A2 'insteadOf' ~/.gitconfig
+# Remove it:
+git config --global --unset-all url.https://USER:OLD_TOKEN@github.com/.insteadof
+# If that fails (special chars in URL), delete the [url "..."] block from ~/.gitconfig directly
+git config --global --list | grep insteadOf   # verify gone
+```
+
+**B. gh auth setup-git credential helper conflict**
+
+If you had `credential.helper store` globally, running `gh auth setup-git` adds a URL-scoped helper that takes priority. If gh's helper fails (e.g., missing read:org), git breaks:
+
+```bash
+git config --global --unset-all credential.https://github.com.helper
+git config --global --unset-all credential.https://gist.github.com.helper
+```
+
+### Phase 4 — Repair Remote Config
+
+```bash
+git remote -v   # check what exists
+git remote add origin https://github.com/OWNER/REPO.git
+```
+
+### Phase 5 — Handle Diverged History
+
+If pushes failed for weeks, local and remote have diverged:
+
+```bash
+git log --oneline --all --decorate | head -10
+git push --force-with-lease origin main
+# or: git reset --soft origin/main && git commit -m "backup $(date +%Y-%m-%d)" && git push origin main
+```
+
+For personal backup repos, force-with-lease is acceptable. Never on shared repos.
+
+### Phase 6 — Verify
+
+```bash
+git fetch origin
+git rev-parse HEAD && git rev-parse origin/main   # should match
+git push origin main 2>&1                         # should succeed
+```
+
+---
+
 ## Troubleshooting
 
 | Problem | Solution |
 |---------|----------|
 | `git push` asks for password | GitHub disabled password auth. Use a personal access token as the password, or switch to SSH |
 | `remote: Permission to X denied` | Token may lack `repo` scope — regenerate with correct scopes |
-| `fatal: Authentication failed` | Cached credentials may be stale — run `git credential reject` then re-authenticate |
-| `gh auth login --with-token` silently does nothing | `GH_TOKEN` or `GITHUB_TOKEN` env var is set. `gh` prioritises the env var over `--with-token`. Run `unset GH_TOKEN GITHUB_TOKEN` first |
-| `gh auth login --with-token` fails: `error validating token: missing required scope 'read:org'` | The gh CLI requires `read:org` scope for token-based login even if you never touch org repos. Regenerate the classic PAT with `read:org` ticked (it's under the `admin:org` scope group). Workaround without regenerating: use `GH_TOKEN` env var — `gh` skips scope validation when the token comes from the environment. |
-| Credentials not persisting | Check `git config --global credential.helper` — must be `store` or `cache` |
-| Multiple GitHub accounts | Use SSH with different keys per host alias in `~/.ssh/config`, or per-repo credential URLs |
-| `Resource not accessible by personal access token` on `gh repo create` | Token is fine-grained PAT (`github_pat_...`). Fine-grained PATs cannot create repos unless explicitly granted that permission. Use a classic PAT (`ghp_...`) with `repo` scope, or create the repo on github.com manually and push |
-| `git credential approve` doesn't update credential store | `git credential approve` can fail silently (non-zero exit but no error message). The credential file is at `~/.git-credentials` — write it directly: `echo 'https://user:token@github.com' > ~/.git-credentials` and set proper perms: `chmod 600 ~/.git-credentials`. Format is a single line per host. |
-| Token replacement in credential store not taking effect | Old credentials linger. Use `git credential reject` first (as above), then verify the file content with `cat ~/.git-credentials` rather than trusting `git credential approve`'s exit code. |
-| `gh repo create --source=. --push` fails with "no commits found" | `--push` tries to push the local branch to the new remote, but fails if the local branch has no commits yet. You need at least `git commit` before running this. Run `git add -A && git commit -m "initial"` first, or omit `--push` and push manually after the repo is created. |
-| `gh auth setup-git` breaks git push after store-based auth | `gh auth setup-git` installs a URL-specific credential helper (`credential.https://github.com.helper`) that takes priority over the global store helper. If gh is missing `read:org`, this helper causes all git pus pull operations to fail with "Password authentication not supported". Fix: `git config --global --unset-all credential.https://github.com.helper && git config --global --unset-all credential.https://gist.github.com.helper`. Verify with `git config --list --show-origin | grep credential`. |
-| `credential.helper=store` has correct token in `~/.git-credentials` but git push still gets 403 / "Password authentication not supported" | Known with some git versions (2.43 observed). The embedded token URL is a reliable workaround: `git remote set-url origin https://USER:TOKEN@github.com/OWNER/REPO.git`. Bypasses credential helpers entirely. To diagnose, compare `git credential fill` output against the actual file content: `python3 -c "import re; open('/root/.git-credentials').read()"` vs `echo 'url=https://github.com/...' \| git credential fill`. |
-| Cannot create repo (token lacks `read:org` or fine-grained PAT restriction) | Use the GitHub API via curl instead of gh: `curl -s -X POST -H "Authorization: token $TOKEN" https://api.github.com/user/repos -d '{"name":"REPO","description":"DESC","private":false}'`. Then `git remote add origin URL && git push -u origin main`. |
+| `fatal: Authentication failed` | Cached credentials stale — run `git credential reject` then re-authenticate. If persists, check for stale `insteadOf` URL (see Token Expiry Recovery Phase 3A) |
+| `gh auth login --with-token` silently does nothing | `GH_TOKEN` or `GITHUB_TOKEN` env var is set. `gh` prioritises the env var. Run `unset GH_TOKEN GITHUB_TOKEN` first |
+| `gh auth login --with-token` fails: `error validating token: missing required scope 'read:org'` | gh CLI requires `read:org` even for personal repos. Regenerate classic PAT with `read:org` ticked (under `admin:org` scope group). Workaround: use `GH_TOKEN` env var to skip scope validation |
+| Credentials not persisting | `git config --global credential.helper` must be `store` or `cache` |
+| Multiple GitHub accounts | SSH with different keys per host alias in `~/.ssh/config` |
+| `Resource not accessible by personal access token` on `gh repo create` | Fine-grained PAT cannot create repos unless explicitly granted that permission. Use classic PAT with `repo` scope, or create repo on github.com manually and push |
+| `git credential approve` doesn't update credential store | Can fail silently. Write directly: `echo 'https://user:token@github.com' > ~/.git-credentials && chmod 600 ~/.git-credentials` |
+| Token replacement not taking effect | Use `git credential reject` then verify file content with `cat ~/.git-credentials` |
+| `gh repo create --source=. --push` fails with "no commits found" | Need at least one commit before `--push`. Run `git add -A && git commit -m "initial"` first |
+| `gh auth setup-git` breaks git push after store-based auth | Two causes: (1) URL-specific credential helper conflict — clear URL-scoped helpers (Phase 3B). (2) Stale `insteadOf` URL with expired embedded token — remove `[url]` block from `~/.gitconfig` (Phase 3A) |
+| `credential.helper=store` has correct token but git push still gets 403 | Embedded token URL workaround: `git remote set-url origin https://USER:TOKEN@github.com/OWNER/REPO.git`. Bypasses credential helpers |
+| Cannot create repo (token lacks read:org or fine-grained restriction) | Use curl + GitHub API: `curl -s -X POST -H "Authorization: token $TOKEN" https://api.github.com/user/repos -d '{"name":"REPO"}'`. Then `git remote add origin URL && git push -u origin main` |

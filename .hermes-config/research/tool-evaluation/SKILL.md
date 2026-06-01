@@ -1,7 +1,7 @@
 ---
 name: tool-evaluation
 description: Systematic methodology for evaluating third-party tools, plugins, projects, and services for integration fit — code audit, compatibility check, stack-overlap analysis, and recommendation. Covers the full lifecycle from initial curiosity to go/no-go decision.
-version: 1.1.0
+version: 1.2.0
 ---
 
 # Tool/Project Evaluation Framework
@@ -25,16 +25,45 @@ The user shares a link or mentions a new tool/project/plugin and asks any of:
 4. **Check the version** — is it v0.1.0 (pre-alpha) or v5.2.0 (mature)?
 5. **License** — MIT/Apache (safe), AGPL (veto risk), Proprietary (cost/dead-end risk)
 
-### Phase 2 — Depth Check (does it work?)
+### Phase 2 — Depth Check (does it work? does it ACTUALLY do what it claims?)
 
-1. **Code structure** — Clone or browse the repo. Look at:
-   - File count, module decomposition, architecture quality
-   - Is engine.py 300 lines or 3000? (monolith vs modular)
-   - Does it have tests? How many? What do they cover?
-2. **CI status** — Does CI pass? Run on multiple Python/node versions? Linting?
-3. **Test quality** — Actual assertions against real behavior, or just "imports fine"?
-4. **Dependencies** — Heavy frameworks (PyTorch, Playwright) or lightweight (stdlib + requests)?
-5. **Installation path** — `pip install`, `npm install`, `git clone`, docker?
+Start with the README claims, then VERIFY them against source. AI agent repos in particular systematically exaggerate in READMEs.
+
+#### 2a — Surface-level claims audit
+
+1. **Read the README** — tagline, feature list, architecture diagram, supported modes
+2. **Check `pyproject.toml` / `package.json`** — version number, actual dependencies, author identity. v0.1.x with "enterprise-grade" in README is a red flag.
+3. **Check file structure** — GitHub API `contents/` endpoint for the project root:
+   - How many source files vs config/tooling boilerplate?
+   - Is the core logic 300 lines wrapped in 2K lines of CLI/README/docs?
+   - Agent repos: separate `agent/`, `orchestration/`, `tools/` dirs? Or everything in one file?
+4. **Authorship** — Solo dev vs org/research group? Cross-reference with project's real scope.
+
+#### 2b — Deep code inspection (the gap between README and source)
+
+For AI agent repos, READMEs describe ideal behavior. Source code reveals actual behavior.
+
+1. **Read the orchestration entry point** — don't just scan file names, read the actual `main.py` / `run()` / `execute()` method:
+   - Does it chain agents sequentially (simple LLM call → LLM call) or does it have a real orchestration loop with state management?
+   - Is the "multi-agent" pipeline just prompted text generation passed between LLM calls, or does it have structured inter-agent communication (typed outputs, validation gates, retry logic)?
+   - Are the "autonomous" claims backed by actual loops, or is it `max_loops=1` with pretty logging?
+2. **Read the workers/agents** — not just system prompts, but how they're instantiated and wired:
+   - Each agent = `Agent(system_prompt=..., max_loops=1)`? That's prompt chaining, not multi-agent orchestration.
+   - Check for actual tool implementations — does the tool code do something real, or is it a stub that returns "analysis complete"?
+3. **Read the tools/** — separate from agent code:
+   - Are the trading/execution tools actually wired into the main loop, or do they exist as independent modules never called?
+   - Do they use real APIs with real credentials (check .env.example), or are they simulation/mock?
+4. **Read `pyproject.toml` deps carefully** — Agent repos often depend on the author's own library (e.g. `swarms`, `swarm-models`). This is often a distribution channel, not a technical necessity. Evaluate: does it add value, or is it dependency marketing?
+5. **Trace the actual data flow** — From user input → agent reasoning → tool call → output:
+   - Is there a backtesting/validation step? Or does it go straight from LLM output → "trade signal"?
+   - For trading/agent repos specifically: zero backtesting = zero credibility regardless of star count.
+
+#### 2c — Standard integrity checks
+
+1. **CI status** — Does CI pass? Run on multiple Python/node versions? Linting?
+2. **Test quality** — Actual assertions against real behavior, or just "imports fine"?
+3. **Dependencies** — Heavy frameworks (PyTorch, Playwright) or lightweight (stdlib + requests)?
+4. **Installation path** — `pip install`, `npm install`, `git clone`, docker?
 
 ### Phase 3 — Compatibility Check (does it work HERE?)
 
@@ -130,3 +159,4 @@ See `references/` for session-specific evaluation transcripts:
 - `browse-sh-evaluation.md` — Evaluation of browse.sh browser automation CLI (conditional: needs Browserbase key for protected sites)
 - `doga-evaluation.md` — Full audit of DOGA (probabilistic thinking layer plugin for Hermes): Monte Carlo engine, De Bono hats, recursive reasoning, security review, installation. GO verdict — installed and enabled.
 - `gbrain-evaluation.md` — Evaluation of gbrain (Garry Tan's open-source Hermes/OpenClaw fork): `gbrain think` with gap analysis, self-wiring knowledge graph, cost matrix, integration as brain layer under Hermes. CONDITIONAL GO — complementary for DABT/history research, needs OpenAI API key.
+- `autoned-vibe-trading-evaluation.md` — Evaluation of AutoHedge (thinnish swarms-library wrapper, hype) and Vibe-Trading (substantial HKU research project with DAG orchestration, grounding pre-fetch, ReAct worker, Shadow Account). Demonstrates the claims-vs-source gap inspection methodology.

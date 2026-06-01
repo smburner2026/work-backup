@@ -187,12 +187,89 @@ This rule is particularly important because memory has a hard character limit (2
 6. **Verify** — `cronjob(action='list')` — confirm the job is gone
 7. **Report** — Tell the user exactly what was removed (job name, script, anything else cleaned)
 
+### Model provider dependency
+
+Cron jobs without an explicit `model`/`provider` override inherit the global `model.provider` setting at **dispatch time** (not creation time). Changing the global provider causes existing jobs to fail on their next scheduled run:
+
+```
+RuntimeError: Unknown provider 'nous:custom:stepfun'. Check 'hermes model' for available providers
+```
+
+**Detection:**
+- `cronjob(action='list')` — check `last_status: "error"` on jobs that previously ran fine
+- The error message names the stale provider directly
+
+**Fix:**
+1. If the new provider is the intended global default, jobs **self-heal** on the next tick — no action needed beyond the global change
+2. If a specific job needs a different provider, set an explicit override:
+   `cronjob(action='update', job_id='<id>', model={'model': 'model-name', 'provider': 'provider-name'})`
+3. Trigger a manual run to verify: `cronjob(action='run', job_id='<id>')`
+
+**Prevention:**
+- Before changing `model.provider`, list jobs that lack explicit model overrides — those are the ones that will break
+- For mission-critical cron jobs, pin an explicit provider at creation time so global changes don't affect them
+
+### Manual archiving of hub/builtin skills
+
+The `hermes curator archive` command only works on **agent-created** skills. Bundled and hub-installed skills are protected — the curator refuses with:
+
+```
+curator: skill '<name>' is bundled or hub-installed; never archive
+```
+
+These skills appear in every session's system prompt and consume tokens even if never used. To remove them from the prompt without deleting them (they are recoverable):
+
+```bash
+# Move the skill directory to .archive/ — excluded from the prompt
+ARCHIVE=~/.hermes/skills/.archive
+mkdir -p $ARCHIVE/<category>
+mv ~/.hermes/skills/<category>/<skill-name> $ARCHIVE/<category>/
+```
+
+**Recovery:** move it back — `mv ~/.hermes/skills/.archive/<category>/<skill-name> ~/.hermes/skills/<category>/`
+
+**Rules of thumb for deciding what to archive:**
+
+| Category | Likely dead weight for most users | Likely useful |
+|----------|----------------------------------|---------------|
+| gaming/ | minecraft-modpack-server, pokemon-player | — |
+| creative/ | ascii-art, ascii-video, baoyu-comic, baoyu-infographic, claude-design, comfyui, design-md, eikon*, excalidraw, humanizer, manim-video, p5js, pixel-art, pretext, sketch, songwriting*, touchdesigner-mcp | architecture-diagram, baoyu-article-illustrator, ideation |
+| email/ | himalaya | — |
+| media/ | gif-search, heartmula, songsee | youtube-content, spotify |
+| smart-home/ | openhue | — |
+| social-media/ | xurl | — |
+| education/ | ai-tutor | All DABT skills |
+| apple/ | All 5 (useless on Linux) | — |
+| red-teaming/ | — | godmode (keep if adversarial-testing models) |
+
+**Recovering from too-aggressive archiving:** If a skill was archived but later needed, just move it back from `.archive/` to its original category directory. No config changes needed — the prompt picks it up on the next session.
+
+**Pitfall:** The curator's auto-archive and auto-prune phases scan agent-created skills only. Manually-archived hub skills are NOT tracked by the curator — they will never auto-restore. Recover them manually if needed.
+
 ### When NOT to remove
 
 - Jobs the user created themselves without asking you to remove them
 - Jobs with `deliver: 'local'` that serve internal infrastructure (G-Brain dream cycle, weekly maintenance)
 - The scheduler's own internal jobs — only remove entries visible via `cronjob(action='list')`
 - Jobs where you're uncertain about their purpose — ask the user first (use `clarify`)
+
+### Diagnosing no_agent Script Failures
+
+When `cronjob(action='list')` shows a job with `no_agent=True` and `last_status: "error"`, the script ran but exited non-zero. Diagnosis pattern:
+
+1. **Read the output log** — `~/.hermes/cron/output/<job_id>/<timestamp>.md` shows exit code and stdout. Exit code 128 is typical for git command failures.
+
+2. **Trace through the script** — Read `~/.hermes/scripts/<name>.sh`. Look for `set -e` which causes failure-on-first-error. The commit appears in stdout but the push fails afterward.
+
+3. **Check git dependency chain**:
+   - `git remote -v` → if empty, remote was deleted. Fix: `git remote add origin <url>`
+   - `gh auth status` → if token invalid, re-auth with `gh auth login -h github.com`
+   - `cat ~/.git-credentials` → if 0 bytes, no stored auth
+   - `git config --list | grep insteadof` → checks for URL rewriting config
+
+4. **Verify the fix** — Trigger `cronjob(action='run', job_id='<id>')` manually to confirm.
+
+**Concrete example — git backup cron fails to push:** The `work-backup.sh` script runs weekly, commits local changes, then tries `git push origin main`. If the remote `origin` was removed (git config drift) or the GitHub token expired, the commit succeeds but the push fails with exit 128. The local backup is safe (committed on main) but remote doesn't update. Fix: add the remote back, re-auth with gh, then run `git push origin main` followed by a manual cron run to clear the error status.
 
 ## Secret Exposure Audit
 
@@ -567,7 +644,8 @@ systemctl --user status hermes-gateway
 
 ### Pitfalls
 
-- **TUI gateway + systemd gateway is the most common conflict pattern** — the TUI is often started from a tmux session at login, unaware that systemd already runs the same service. Always check both before adding a second gateway.
+| **TUI gateway + systemd gateway is the most common local conflict pattern** — the TUI is often started from a tmux session at login, unaware that systemd already runs the same service. Always check both before adding a second gateway.
+- **Cross-machine (VPS + WSL) conflicts are the most common multi-instance pattern** — both machines having `hermes-gateway.service` enabled with the same Telegram bot token causes polling conflicts every ~40s. The VPS should be the sole gateway host (always-on). WSL's gateway must be disabled. Detection: `ssh <wsl-host> 'systemctl --user is-active hermes-gateway.service'`. Fix: `systemctl --user disable hermes-gateway` on the non-gateway machine, then restart the gateway on the VPS. After setting up HMS sync, always verify only the VPS has the gateway enabled.
 - **Changing `.env` requires a gateway restart** — env vars are read at gateway startup, not hot-reloaded. Use `systemctl --user restart hermes-gateway` after any `.env` edit.
 - **Pairing directory is empty after a restart** — pending codes are stored in `~/.hermes/pairing/` files and are memory-only until the gateway persists them. After a gateway restart during a pairing flow, the pending code is lost and the user must request a new one.
 - **`TELEGRAM_ALLOWED_USERS` with an empty/invalid value is treated as "not set"** — the env var must contain a non-empty string. `TELEGRAM_ALLOWED_USERS=` (empty) or `TELEGRAM_ALLOWED_USERS=#comment` both skip rule 3 and fall through to `"pair"`.
@@ -912,6 +990,12 @@ du -sh /root/.[!.]* 2>/dev/null | sort -rh | head -20  # Hidden dirs in home
 | Compact Mnemosyne via `hermes mnemosyne sleep --all-sessions` | 0.1-0.3 GB | None — pure compaction |
 | Clear session DB (via curator retention) | 0.1-0.3 GB | Low — old sessions unavailable for search |
 | Clear `/tmp/` temp files | 0.1-2 GB | Low — only if user hasn't stored work there |
+
+### Work directory audit (VPS vs WSL)
+
+See `references/work-directory-audit.md` for the full methodology — audit commands, cross-machine comparison, reclaimable item identification, and the `hermes-local` wrapper for dispatching Hermes commands to WSL from the VPS.
+
+Use when the user says "clean up the work directory" or whenever VPS disk needs attention.
 
 ### Pitfalls
 

@@ -37,6 +37,29 @@ Use one of these:
 
 Cache the result in your working memory for the rest of the conversation. Re-asking every turn wastes a tool call.
 
+**Step 0b — pre-flight: update Hermes + Mnemosyne before kanban dispatch.**
+Some users enforce a rule: before kanban board work starts, update Hermes Agent and Mnemosyne to their latest versions. This prevents mid-work surprises (stale MCP servers, session DB format mismatch, missed fixes). Run both checks and apply updates before creating any cards:
+
+```bash
+# Check Hermes version vs latest
+hermes --version
+cd /usr/local/lib/hermes-agent
+git log -1 --oneline
+
+# Update if behind
+hermes update
+
+# Check Mnemosyne status
+hermes memory status 2>/dev/null || echo "mnemosyne provider active (or graceful fallback)"
+```
+
+Skip this step if:
+- The setup is knowingly pinned at a specific version (user will tell you)
+- Network is unavailable (VPS without internet, cron-only session)
+- You just updated in a previous step (avoid redundant updates)
+
+This is a user-specific pre-flight guard — encode it when the user explicitly sets the rule, but do not apply it universally. When the rule is in effect, run this step immediately after profile discovery and before any `kanban_create` calls.
+
 ## When to use the board (vs. just doing the work)
 
 Create Kanban tasks when any of these are true:
@@ -116,6 +139,7 @@ Your job description says "route, don't execute." The rules that enforce that:
 - **Never create dependent work as independent ready cards.** If a card must wait for another card, pass `parents=[...]` in the original `kanban_create` call. Do not create it first and link it later, and do not rely on prose like "wait for T1" inside the body.
 - **Figure out the profile, don't ask.** If no existing profile fits the task, create one. The user wants frictionless delegation — asking "which profile?" or "how should I handle this?" defeats the purpose. Create, assign, dispatch, done. Only ask if you hit a genuine ambiguity that blocks execution entirely.
 - **Fire and forget after dispatch.** Once a card is created, assigned, and dispatched, your job is done. Do NOT poll `kanban show`, do NOT wait for the worker, do NOT check its status. The system notifies the user when a task completes. Sitting around monitoring wastes turns — the user will ask for results when they want them.
+- **Exception: verify before clearing.** The "don't poll" rule applies to *waiting for completion during execution*. It does NOT apply when you're about to *act on a card's `done` or `ready` status* — e.g., clearing a ready card, starting a dependent card, or telling the user work is finished. A `done` status means the worker claimed completion; it does not mean the output artifact is correct or complete. Before acting on status, verify the actual work product. Common verification checks for file-producing cards: file exists and has expected size, page/record count matches expectations, grep for placeholder/error markers (`IMAGE MISSING`, `TODO`, `Error:`), check no lingering processes or scheduled jobs still run for that task. The kanban board is a workflow-visibility layer, not a truth layer. Treat every card's `done` flag as a claim to verify, not a fact to trust.
 
 - **Post-pipeline infrastructure teardown.** When a multi-card pipeline completes (all cards done, no more work in that track), check for ancillary infrastructure that was set up to support the pipeline and tear it down proactively. This includes: cron job watchers polling for completion, temporary cron jobs created for monitoring, skill references pointing at now-completed tasks, and any "completion watch" scripts. The user's "nuke them" cleanup ethic applies to infrastructure too — leaving stale watchers or pollers running after the pipeline is done is the cron-job equivalent of leaving temp files behind. Perform the teardown scan immediately upon recognizing the pipeline is finished, not at a later review.
 - **Do not invent profile names.** Verify the profile exists first with `hermes profile list`. If you need to create one, use `hermes profile create`. The dispatcher silently drops unknown assignees.

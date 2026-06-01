@@ -198,6 +198,7 @@ results = delegate_task(tasks=tasks)  # up to 3 concurrent subagents
 - **Rule: loading this skill means you WILL use Lightpanda for the task at hand.** If you read this skill and then fall back to curl or the Hermes browser for something Lightpanda can handle (X/Twitter posts, JS-rendered pages, markdown extraction), the user will flag this as tool-avoidance. When this skill matches the class of task, execute it — don't just read it.
 - **When to use Lightpanda:** JS-heavy pages (X/Twitter, SPAs, login-walled public content), markdown extraction from rendered pages, any URL where curl returns HTML but not the rendered text content.
 - **When NOT to use Lightpanda:** Shadow-library searches (libgen, Anna's Archive), direct download URLs (PDFs, files), REST API endpoints that return JSON, or any URL where curl works cleanly. Lightpanda is heavier than curl for simple fetches.
+- **Data volume warning:** `--dump markdown` on large dynamic pages (libgen search results with 25+ entries) can produce 20–90 KB of HTML noise. Pair with `--strip-mode full` and/or post-process with a regex/tag-strip before parsing. If you need structured fields, search for `get.php`, `edition.php?id=`, or `md5=` in the rendered output.
 
 ### Technical pitfalls
 

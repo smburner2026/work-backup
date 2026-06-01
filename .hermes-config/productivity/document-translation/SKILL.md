@@ -63,6 +63,20 @@ Extract proper nouns, domain terms, rank names, place names, organization names.
 - Dialogue rendered in natural spoken English
 - Poems → English verse with rhyme where possible
 
+**Voice variant — Burckhardtian Scholarly (for historical non-fiction):**
+When the source is a scholarly history (e.g. Phạm Văn Sơn's Việt Sử Tân Biên), use a different register:
+- Cultured, precise, measured prose — the voice of a cultivated historian writing for intelligent readers
+- NOT stiff academic, NOT folksy storytelling — somewhere between Burckhardt and a good essayist
+- The author's partisan energy and vivid detail should carry through; do not flatten into neutral summary
+- Formal register for diplomatic correspondence and official documents quoted in the text
+- Dialogue and outbursts rendered in natural spoken register (the emperor's fury should feel raw)
+- First use of a title: translate with Vietnamese in parentheses, then use English thereafter. E.g. "the Resident (Khâm sứ)" first, then "the Resident"
+- Preserve both lunar and Western dates as given
+- Weave author's footnotes into the narrative as parenthetical notes — never add translator footnotes
+- Clean text output — no markdown headers, no bullet lists, just flowing prose
+
+**Delivery preference**: Always state the output file path prominently in the response — do not bury it in narrative. User reads in terminal and needs to find the file quickly.
+
 **Preserve:** all dates (lunar + Western), signatures, document metadata (signatories, attendees, locations)
 
 **Sample first:** Always translate chapters 1-3 (or the prologue/introduction) as a sample for user sign-off before committing to full batch. User feedback on sample voice/register/idiom choices is binding for the rest of the document. A 3-chapter sample costs far less than retranslating 50+ chapters.
@@ -124,6 +138,41 @@ Estimate total source text size and select the right parallelism level:
 | 50–200K chars | 2–3 batches, sequential |
 | Over 200K chars | Parallel batches of 3 chapters each via `delegate_task(tasks=[...])` |
 
+### Kanban Batching — Multi-Segment Books
+
+For full-book translations (especially French colonial texts or 60K+ word works), split by part/chapter and batch via kanban + parallel subagents:
+
+1. **Split** the cleaned source text into per-part segment files by page range
+2. **Create kanban board + cards** for the project:
+   ```bash
+   hermes kanban boards create <slug> --name "Project Name" --switch
+   hermes kanban create --body "Source: /path/to/source.txt\nVoice ref: /path/to/voice-ref.txt" "Translate: Part N — Title"
+   ```
+3. **Save the approved sample** as a voice-reference file for subagents
+4. **Dispatch** segments in parallel batches of up to 3 via `delegate_task`
+5. **Verify** all output files exist with expected sizes
+6. **Consolidate** into single translation file
+7. **Mark cards complete** via `hermes kanban complete <task_id>`
+
+### Voice — Register Selection by Source Type
+
+| Source type | Voice | Example | Foundation skill |
+|---|---|---|---|
+| Vietnamese narrative/novel | Colloquial storytelling ("guy telling a story over a beer") | Bảy Viễn | — |
+| Vietnamese scholarly history | Burckhardtian — cultured, precise, carries author's energy | VSTB (Phạm Văn Sơn) | `burckhardt-reflection-method` |
+| Vietnamese documentary compilation | Clear expository, formal for letters | Cao Đài Army | — |
+| French colonial adventure/history | Conrad-Kipling adventure register — weighted, vivid, sensory; third register bowen between George Circle elevation and Kipling adventure voice | Hoang-Tham (Paul Chack) | `george-circle-register` |
+| German historical biography (George Circle) | Kantorowicz-level elevated epic — beautiful, weighty, formally precise | Vallentin Napoleon | `george-circle-register` |
+| Technical/academic | Precise, register-neutral | — | — |
+
+**Universal rules (all registers):**
+- Proper names: ALWAYS keep in source language, never anglicize or translate
+- Titles/ranks: translate on first use with original in parentheses, then English thereafter
+- Idioms: adapt to closest natural English equivalent
+- No footnotes, no translator commentary
+- Dialogue: natural spoken register
+- Output: plain text, not markdown
+
 ### Tone Consistency Across Batches
 
 When using parallel subagents for batch translation, include BOTH the glossary AND a tone/voice note in every delegate_task context so all subagents maintain the same register:
@@ -140,6 +189,24 @@ Key consistency rules:
 - **Subagent filenames**: Verify after batch completion — subagents may save with English filenames instead of original. Rename if needed for sorted chapter order.
 - **Poetry translation**: Allow creative license — preserve meaning and emotion, not syllable count. Rhymed verse preferred.
 - **Spot-check**: Verify first 3 paragraphs of each batch for voice consistency. Confirm proper names are preserved (not translated).
+
+## Scholarly Vietnamese→English Translation (VSTB and similar)
+
+When translating Vietnamese scholarly/academic historical texts (as opposed to narrative non-fiction like the Bảy Viễn book), the voice shifts:
+
+**Voice**: Burckhardtian — cultured, precise, measured prose. Not stiff academic, not casual. Think Burckhardt's "Civilization of the Renaissance in Italy." The Vietnamese author's voice should carry through into English — don't flatten partisan energy or vivid narrative detail into neutral academic prose.
+
+**Tone rules for scholarly Vietnamese**:
+- Author's political register must be preserved — if the author calls the French "thực dân" (colonizers/colonialists), don't soften to "the French administration"
+- Dialogue from historical figures: render in raw colloquial register, even if the surrounding prose is formal
+- Author's footnotes: weave into narrative as parenthetical notes or integrate into text body. NO translator footnotes.
+- Chapter headings: translate them fully
+- Page markers: remove from output
+- OCR failures: note briefly ("[Page N — original text could not be recovered from OCR]") and continue
+- Output as plain text, not markdown
+
+**Delegation pattern for scholarly translation**:
+Always include BOTH the cleaned source text AND a glossary in the sub-agent context. The glossary is essential for consistency across batches. See `vstb-ocr-workflow` skill for the full glossary template.
 
 ## Pitfalls
 

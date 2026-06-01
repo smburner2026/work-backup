@@ -9,7 +9,7 @@ metadata:
   hermes:
     tags: [history, primary-sources, archives, PDF, OCR, research, provenance]
     category: research
-    related_skills: [ocr-and-documents, academic-book-retrieval, book-hunting, document-translation]
+    related_skills: [ocr-and-documents, book-hunting, document-translation]
     requires_toolsets: [web, terminal, file]
 ---
 
@@ -50,12 +50,12 @@ If the user only gives a vague reference ("a 19th century Vietnamese census"), a
 | **Internet Archive** (archive.org) | Books, government docs, newspapers, manuscripts | `web_search` + `web_extract` on identifier pages |
 | **Google Books** (books.google.com) | Published books, especially pre-1900 | `web_search` with `site:books.google.com` |
 | **HathiTrust** (hathitrust.org) | Academic library collections | `web_search` with `site:hathitrust.org` |
-| **Project Gutenberg** (gutenberg.org) | Public domain texts | Direct search API or `web_search` |
+| **Project Gutenberg** (gutenberg.org) | Public domain texts | Direct search API or `web_search` — see `references/gutenberg-download-workflow.md` for EPUB download, multi-volume handling, and Telegram delivery |
 | **WorldCat** (worldcat.org) | Find which libraries hold a copy | `web_search` for catalog records |
 
 ### Tier 0.5 — API Fallback (when web search / browser tools fail)
 
-When `web_search`, `web_extract`, and `browser_navigate` all fail (rates exhausted, CAPTCHAs, Chrome unavailable), fall back to direct API calls via `curl`. These are no-auth endpoints that return reliable bibliographic data.
+When `web_search`, `web_extract`, and `browser_navigate` all fail (Tavily 432 error, rates exhausted, CAPTCHAs, Chrome unavailable), fall back to direct API calls via `curl`. These are no-auth endpoints that return reliable bibliographic data.
 
 | Source | Endpoint | Best for |
 |--------|----------|----------|
@@ -132,7 +132,7 @@ curl -sL "https://archive.org/download/<IDENTIFIER>/<IDENTIFIER>_djvu.txt" -o ou
 - Snippet view only: note this to user, suggest archive.org or LibGen for full text
 
 ### From LibGen
-Use the `academic-book-retrieval` or `book-hunting` skill workflow:
+Use the `book-hunting` skill workflow:
 - Search by ISBN or title
 - Verify edition details on the edition page
 - Download via the `get.php` link
@@ -163,6 +163,97 @@ head -c 5 output.pdf  # Should start with %PDF-
 - Large files (>100MB) may trigger virus scan warning — use `&confirm=t` parameter
 - Folder contents may be partially hidden — what's publicly visible may not be the full set
 - The folder owner may have download restrictions enabled (usually just prevents direct link sharing, not downloads)
+
+### Post-Download: Tesseract OCR Pipeline for French Colonial Books
+
+After extracting a French colonial-era book from Gallica IIIF (page images + compiled PDF), the next step is OCR → clean → translate. This section covers the Tesseract-based OCR pipeline specifically for French text from 19th/early-20th century scans.
+
+**When to use Tesseract vs other OCR methods:**
+
+| Condition | Method | Reason |
+|-----------|--------|--------|
+| Clean 20th-century French typography (roman type) | `tesseract -l fra` | Fast (~1s/page on VPS), no model download needed |
+| Mixed French/Vietnamese | `tesseract -l fra+vie` | Handles both alphabets |
+| Fraktur/Gothic German | marker-pdf | Tesseract scores poorly on Fraktur |
+| Handwritten marginalia | vision_analyze (VLM) | Tesseract cannot handle handwriting |
+| Poor scan quality / faded ink | marker-pdf | Better denoising and layout detection |
+
+**Performance characteristics (real-world, May 2026, VPS 2GB/2 cores):**
+
+| Language | Speed (VPS) | Notes |
+|----------|-------------|-------|
+| French (fra) | ~0.8-1.0 s/page | Simple roman script, few diacritics |
+| Vietnamese (vie) | ~8-10 s/page | Complex diacritics, wider glyph set |
+| Vie+Fra mixed | ~10-12 s/page | Combined model, more computation |
+
+French is ~10x faster than Vietnamese on the same hardware because tesseract's French model has fewer glyphs and simpler character morphology. The VPS handles 279 French pages in ~4 minutes sequential — no need for WSL or parallel batching.
+
+**Resumable sequential OCR pattern (adapts to any source):**
+
+This is the same proven pattern from the `vstb-ocr-workflow` skill, generalized for any page-image collection:
+
+```bash
+#!/usr/bin/env bash
+# Resumable OCR — one page at a time, checks for already-done pages
+# before launching tesseract. Writes === PAGE N === markers.
+
+PAGE_DIR="/path/to/page-images"
+OUTPUT="/path/to/output-ocr.txt"
+TOTAL=279
+LANG="fra"  # or "fra+vie", "eng", etc.
+
+for i in $(seq 1 $TOTAL); do
+    PAGE_FILE=$(printf "p%04d.jpg" "$i")
+    PAGE_PATH="$PAGE_DIR/$PAGE_FILE"
+
+    # Resume: skip if already processed
+    if grep -q "^=== PAGE $i ===" "$OUTPUT" 2>/dev/null; then
+        echo "  [$i/$TOTAL] — already done, skipping"
+        continue
+    fi
+
+    if [ ! -f "$PAGE_PATH" ]; then
+        echo "=== PAGE $i ===" >> "$OUTPUT"
+        echo "[IMAGE MISSING PAGE $i]" >> "$OUTPUT"
+        continue
+    fi
+
+    echo "=== PAGE $i ===" >> "$OUTPUT"
+    if ! tesseract "$PAGE_PATH" stdout -l "$LANG" --psm 6 2>/dev/null >> "$OUTPUT"; then
+        echo "[OCR FAILED PAGE $i]" >> "$OUTPUT"
+    else
+        echo "" >> "$OUTPUT"
+    fi
+done
+```
+
+Key design decisions:
+- **Page markers before OCR text** — enables resume detection (scan for === PAGE N === in output)
+- **Sequential, not parallel** — avoids OOM on memory-constrained VPS (tesseract uses ~90-170MB RAM per instance)
+- **Write marker first** — if the script is killed mid-page, the partial page is incomplete but the next run skips it (minor tradeoff vs losing a partial page)
+- **--psm 6** — assumes uniform block of text (best for book pages)
+
+**Post-OCR cleaning workflow for French colonial texts:**
+
+French OCR has systematic errors different from Vietnamese. The cleaning pipeline:
+
+1. **Join hyphenated line breaks** — pro-production (French hyphenates compound words and multi-syllable words at line breaks)
+2. **Fix running headers** — Colonial-era books often repeat the author name at page tops (e.g. PAUL. CHACK). Strip these.
+3. **Restore dropped accents** — Tesseract occasionally drops é/è/ê/ô, especially on page edges
+4. **Fix ligature substitutions** — oe may appear where œ belongs (coeur cœr)
+5. **Handle old French typography** — 1930s books sometimes use long-s typography that OCR misreads
+6. **Strip stray symbols** — image border artifacts: <, >, [, ], {, } at line starts/ends
+7. **Collapse paragraph fragments** — lines ending with lowercase and next line starting lowercase are almost always the same paragraph
+
+See `references/french-ocr-cleaning-patterns.md` for a runnable Python cleaning script and the full French OCR substitution table.
+
+**Post-clean Translation pipeline:**
+
+Once the French text is clean, the pipeline follows the same structure as `vstb-ocr-workflow`'s translation phase:
+1. Build a glossary of proper names (people, places, period terms) — never translate these
+2. Translate to English using a scholarly historical voice (Burckhardtian register for colonial-era works)
+3. Sample-first: translate 1-2 chapters as a sample before committing to the full batch
+4. Delegate chapters to parallel cheaper-model workers after voice is validated
 
 ### From Gallica (BnF digital library) — IIIF extraction
 
@@ -327,6 +418,7 @@ mcp_gbrain_add_tag(slug=f"historical-sources/<source-slug>", tag="<region>")
 - **LibGen timeouts** — the `get.php` link uses dynamic keys that expire. Scrape fresh each time.
 - **OCR quality varies wildly** — pre-1900 printing, Fraktur type, faded ink, and handwritten marginalia all degrade OCR. Always spot-check the first few pages.
 - **Duplicate editions** — the same book may appear under multiple editions/years. Verify you have the right one.
+- **Tavily 432 error (ephemeral)** — `web_search` and `web_extract` may return HTTP 432 from Tavily. This is a service-side transient failure; do NOT retry more than once. Switch immediately to the Tier 0.5 API fallback (Wikipedia API, OpenLibrary, Project Gutenberg curl). The error usually resolves within minutes on its own.
 - **Copyright status** — pre-1928 US publications are public domain. Post-1928 varies. International sources vary by country. Note the copyright status in metadata.
 - **In-copyright books (post-1970)** — when ebook_access="no_ebook" and has_fulltext=false, no free electronic copy exists anywhere legitimate. Do not spend time trying Archive.org/LibGen/Google Books for a free copy — it's protected by copyright. Instead, report paid ebook options (Kindle, Google Play, Kobo — found via Goodreads API fallback) and used physical copies (AbeBooks, Alibris).
 - **French colonial-era books — copyright depends on author death date, not publication date.** Under French law: public domain = author died >70 years ago + WWII extensions for authors who died in 1945 (collaboration executions). Books from the 1930s by authors executed in 1945 (e.g. Paul Chack, Hoang-Tham pirate, 1933) **ARE public domain** in France—check Gallica first. Books from the 1970s by living-then authors (e.g. Pierre Darcourt, Bay Vien, 1977) are NOT. Triage rule:
@@ -334,6 +426,35 @@ mcp_gbrain_add_tag(slug=f"historical-sources/<source-slug>", tag="<region>")
   - **Author lived past 1955** → no free copy, pivot to paid/used (Goodreads → Kindle/AbeBooks)
 - **PDF vs DJVU** — some Internet Archive items are DJVU format, not PDF. Convert with `djvudjvu` or use the text version.
 - **No editorializing about historical figures** — never characterize a person's politics, ideology, or views as yours-to-judge. No "troubling," "controversial," "problematic" equivalents. State facts (they lived at these dates, wrote these books, held these roles, took these actions). Let readers draw their own conclusions. This is an iron rule — applies to every figure, every context, always.
+- **Paywalls and IP blocks have no universal bypass.** Lightpanda and Jina AI do not bypass auth gates. See `references/paywall-and-ip-block-bypass.md` for tested bypass paths, what requires user credentials, and the credential-free fallback chain.
+
+**Second-pass polish pattern:** After the main cleaning pass, some books have remaining artifacts from decorative borders (stray `|` pipes, underscores from ornamental rules, running header variants missed by the first pass). Run a quick targeted pass:
+
+```python
+text = re.sub(r'\|+', '', text)         # remove decorative pipes
+text = re.sub(r'_+', '', text)          # remove decorative underscores
+text = re.sub(r'^PAUL\.?\s*CHACK\s*\n', '', text, flags=re.MULTILINE)  # any missed headers
+text = re.sub(r'\n{3,}', '\n\n', text)  # collapse whitespace
+```
+
+The key insight is that decorative book elements (ornamental borders, running headers, page furniture) produce different artifact patterns than OCR errors. The main cleaning pass targets OCR errors; the polish pass removes layout artifacts.
+
+**Primary Source Self-Curation Analysis**
+
+When evaluating a historical figure's memoirs, letters, or proclamations for what they reveal about the author's mind — what they thought important, what they wanted to hide, and whether they were a good writer — use `references/primary-source-self-curation-analysis.md`. It provides:
+- Source typology by "guard level" (private letters vs. public memoirs vs. deathbed dictations)
+- The Two-Quiver method (what they emphasize vs. what they minimize)
+- Framework for assessing writing quality across four dimensions
+- Specific concealment patterns to look for
+- The Iron Rule: no editorializing about the figure's character
+
+This applies directly to colonial-era figures (Paul Chack, French military memoirists, Vietnamese imperial authors) whose writings the user encounters during source acquisition.
+
+**Post-Clean: Author Voice Analysis for Translation**
+
+Once the French text is cleaned, the next step before translating is to characterise the author's literary voice. Colonial-era French authors are not neutral academic historians — they write from specific political positions with distinct period registers (novelistic adventure, memoir, polemic, etc.). Translating in the wrong voice loses the original's character.
+
+See `references/colonial-author-voice-analysis.md` for the systematic method (4-sample technique, characterisation dimensions, translation voice matching). This determines whether the English translation should read as adventure narrative, scholarly history, memoir, or other register before a single word is translated.
 
 ## Verification
 

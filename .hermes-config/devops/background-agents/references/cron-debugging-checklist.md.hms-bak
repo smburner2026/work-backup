@@ -101,6 +101,85 @@ Note: the output log shows the full prompt+skill context, not just the delivered
 
 A one-shot job with `repeat=1` that already fired (completed count = 1) won't fire again. The `cronjob` tool's `list` output shows `last_run_at` and `repeat` to distinguish idle from finished.
 
+## 9. Diagnosing Script-Based (no_agent) Cron Failures
+
+When a cron job has `no_agent=True` and `last_status: "error"`, the script ran but exited with a non-zero code. Here's how to diagnose.
+
+### Step 1 — Read the failure output
+
+Each cron run saves an output file at `~/.hermes/cron/output/<job_id>/<timestamp>.md`. For a no_agent job, the file shows:
+
+```
+**Status:** script failed
+Script exited with code 128
+stdout:
+[main abc1234] backup 2026-05-31 06:00 UTC
+ 1156 files changed...
+fatal: 'origin' does not appear to be a git repository
+```
+
+Key signals:
+- **Exit code 128** = git command failure (the script likely has `set -e` which aborts on ANY non-zero exit)
+- **Commit succeeded** (SHA appears in stdout) but **push failed** (fatal error after commit)
+- Empty stdout with exit code 1 or 127 = runtime error (missing file, bad command) or syntax error
+
+### Step 2 — Read the script to find the failing line
+
+```bash
+cat ~/.hermes/scripts/<script-name>.sh
+```
+
+Look for `set -e` at the top — this makes the script exit on ANY failure. Work backward from the last visible stdout line:
+- Commit appeared but nothing after → failing command is right after the commit
+- No stdout at all → failure near the top (cd, rsync, git commands)
+
+### Step 3 — Check the dependency chain
+
+For git backup scripts specifically:
+
+```bash
+# 1. Does the git repo exist?
+cd /root/work && git status
+
+# 2. Is the remote configured?
+git remote -v
+# Empty = remote was deleted or never set. Fix: git remote add origin <url>
+
+# 3. Is auth valid?
+gh auth status
+# If token invalid, git push fails with 128.
+
+# 4. If insteadOf URL rewriting is used, check git config:
+git config --list | grep insteadof
+# This rewrites https://github.com/ URLs to include embedded tokens.
+# If token expired, ALL git operations fail.
+
+# 5. Check branch name matches script
+git branch
+# Script pushes to "main" — verify the repo actually uses main, not master
+```
+
+### Step 4 — Fix and re-test
+
+```bash
+git remote add origin https://github.com/<user>/<repo>.git
+gh auth login -h github.com
+cd /root/work && git push origin main
+```
+
+Then trigger a manual run:
+```python
+cronjob(action='run', job_id='<id>')
+```
+
+### Pitfalls
+
+- **`set -e` hides partial progress** — The script may succeed at steps 1-4 and only fail at step 5. The local commit IS created; don't assume the whole backup failed.
+- **GitHub token expiry** — Classic PATs expire. `gh auth status` tells you immediately. `~/.git-credentials` at 0 bytes = no stored auth.
+- **`insteadOf` URL config** — `url.https://user:token@github.com/.insteadof=https://github.com/` rewrites ALL github URLs to include auth. If token is bad, every git operation fails, even to public repos.
+- **No delivery of failure** — A no_agent script that fails does NOT deliver the failure to the user (script aborts before `echo`). The scheduler records `last_status: "error"` but the user isn't notified unless they check. **LLM-driven jobs produce better failure output.**
+- **Remote deletion** — If the remote was removed (via `git remote remove origin` or `.git/config` reset), commit works locally but push fails. Check `git remote -v`.
+
 ## Common Failure Modes
 
 | Symptom | Likely Cause |

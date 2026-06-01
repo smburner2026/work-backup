@@ -4,7 +4,7 @@
 
 **Six lenses** (not pillars — they interpenetrate):
 
-1. **Burckhardtian Cultural History** — total cultural immersion. Art, religion, daily life, intellectual currents, social rituals. Not just "what happened" but the spirit of each era.
+1. **Burckhardtian *Reflections* Method** — the three potencies (State, Religion, Culture) as analytical grid, cross-sectional analysis (Querschnitt), crisis-as-revelation, accelerations/contractions, individual vs universal, terrible simplifiers. See `vietnamese-historian` skill for full extraction.
 
 2. **Biography as Aperture** — lives of individuals illuminate the period. Through specific people, you see the era refracted through personal circumstances, choices, constraints.
 

@@ -1,7 +1,7 @@
 ---
 name: gbrain
 description: "Install, configure, and operate G-Brain (garrytan/gbrain) — a production-grade brain layer for Hermes with synthesis, graph traversal, gap analysis, and self-wiring knowledge graph."
-version: 1.5.0
+version: 1.7.0
 author: Hermes Agent
 tags: [gbrain, brain-layer, knowledge-management, rag, synthesis, knowledge-graph]
 related_skills: [hermes-maintenance, remote-agent-infrastructure]
@@ -93,12 +93,19 @@ The source code contained hardcoded `'claude-sonnet-4-6'` defaults in `propose-t
 1. Source code patches (hardcoded defaults → your model) — see [`references/dream-cycle-model-patching.md`](./references/dream-cycle-model-patching.md)
 2. Config keys set in the PGLite DB (not just `~/.gbrain/config.json`):
    ```bash
+   gbrain config set chat_model "deepseek:deepseek-v4-flash"
    gbrain config set models.default "deepseek:deepseek-v4-flash"
    gbrain config set models.chat "deepseek:deepseek-v4-flash"
    gbrain config set models.think "deepseek:deepseek-v4-flash"
    gbrain config set models.tier.utility "deepseek:deepseek-v4-flash"
    gbrain config set models.tier.reasoning "deepseek:deepseek-v4-flash"
    gbrain config set models.tier.deep "deepseek:deepseek-v4-flash"
+   gbrain config set models.tier.subagent "deepseek:deepseek-v4-flash"
+   # CRITICAL: provider_base_urls MUST be set in the DB when using
+   # a custom OpenAI-compatible endpoint like OpenCode Go.
+   # Without this, the deepseek recipe routes to DeepSeek's API, not yours.
+   # JSON notation required — dot-notation silently fails (v0.41.10.1 confirmed):
+   gbrain config set provider_base_urls '{"deepseek":"https://opencode.ai/zen/go/v1"}'
    ```
    Then sync the JSON: manually edit `~/.gbrain/config.json` to match.
 
@@ -510,16 +517,20 @@ cd ~/gbrain
 # ...
 
 # Step 3: SELF-HEALING CONFIG — survives DB wipes and git pulls
-# Every run re-asserts these so we never regress to hardcoded Anthropic
+# Every run re-asserts ALL model keys + provider_base_urls so we never regress.
+# Missing just one key (even models.chat or provider_base_urls) silently
+# reverts that path to Anthropic tier defaults. This exact set was confirmed
+# to fix real production regressions.
 echo "[3/6] Self-healing gbrain config..."
-gbrain config set agent.use_gateway_loop true --force 2>/dev/null || true
+gbrain config set chat_model deepseek:deepseek-v4-flash --force 2>/dev/null || true
 gbrain config set models.default deepseek:deepseek-v4-flash --force 2>/dev/null || true
 gbrain config set models.think deepseek:deepseek-v4-flash --force 2>/dev/null || true
+gbrain config set models.chat deepseek:deepseek-v4-flash --force 2>/dev/null || true
 gbrain config set models.tier.utility deepseek:deepseek-v4-flash --force 2>/dev/null || true
 gbrain config set models.tier.reasoning deepseek:deepseek-v4-flash --force 2>/dev/null || true
 gbrain config set models.tier.deep deepseek:deepseek-v4-flash --force 2>/dev/null || true
 gbrain config set models.tier.subagent deepseek:deepseek-v4-flash --force 2>/dev/null || true
-gbrain config set chat_model deepseek:deepseek-v4-flash --force 2>/dev/null || true
+gbrain config set provider_base_urls '{"deepseek":"https://opencode.ai/zen/go/v1"}' --force 2>/dev/null || true
 
 # Step 4: Run dream cycle — ONE pass handles lint/backlinks/sync/embed/extract/etc.
 echo "[4/6] Running gbrain dream cycle..."
@@ -545,7 +556,7 @@ Then create the cron:
 ```
 
 **Critical:**
-- **Self-healing config is the durable fix for recurring Anthropic regressions.** The script re-asserts all 8 config keys before every dream cycle run. This is the ONLY approach that survives: DB wipes, gbrain init --pglite re-initialization, git pulls, and full MCP server restarts. Without this, any DB rebuild silently regresses to Anthropic tier defaults because source patches alone can't fix the getChatModel() -> resolveModel() fallback chain.
+- **Self-healing config is the durable fix for recurring Anthropic regressions.** The script re-asserts all 9 config keys (8 model keys + provider_base_urls) before every dream cycle run. This is the ONLY approach that survives: DB wipes, gbrain init --pglite re-initialization, git pulls, full MCP server restarts, and individual `gbrain config set chat_model` regressions. Without this, any DB rebuild or partial config edit silently regresses parts of the model resolution chain to Anthropic tier defaults because source patches alone can't fix the getChatModel() -> resolveModel() fallback chain.
 - MCP server MUST be stopped before CLI commands. gbrain serve holds an exclusive PGLite lock -- CLI commands hang with a lock timeout if it's running. Hermes auto-restarts it on the next tool call. Kill ALL MCP servers (tradingview-mcp, wundertrading) to free ~120MB additional RAM before the dream cycle.
 - set -a; source .env; set +a is REQUIRED. Without it, env vars are set in the script shell but NOT exported to gbrain child processes.
 - If gbrain dream is OOM-killed, it leaves a stale row in gbrain_cycle_locks. Fix: DELETE FROM gbrain_cycle_locks WHERE id='gbrain-cycle' via direct PGLite query (included in the script).
@@ -629,7 +640,7 @@ gbrain doctor --json
 - **Cost depends on chat model, not dream itself.** A user who turns on dream cycles with GPT-5.2 via OpenRouter will pay ~5-10× more per cycle than with Ling 2.6 Flash. Always surface the cost implication.
 - **Dream is NOT optional for knowledge compounding.** Without it, imported documents sit as flat chunks — the graph never builds itself, entities never get enriched, and gaps never get flagged. The brain stays at "dump of files" level.
 - **MCP server holds exclusive PGLite lock.** The gbrain MCP server (`gbrain serve`) keeps a persistent PGLite connection. Separate CLI commands (sync, embed, extract) timeout with "Timed out waiting for PGLite lock" when the MCP server is running. The dream cycle script MUST stop the MCP server (`pgrep -f "gbrain serve" | xargs kill`) before running CLI commands. Hermes auto-restarts the MCP server on the next tool call.
-- **OOM-killed dream processes leave stale cycle lock.** If `gbrain dream` is killed by OOM or timeout, it leaves a row in `gbrain_cycle_locks` with `id='gbrain-cycle'`. Subsequent dream runs fail with "cycle_already_running" even after a fresh start. Fix: `DELETE FROM gbrain_cycle_locks WHERE id='gbrain-cycle'` via direct PGLite query (use `bun -e` with `PGlite.create({dataDir})`). The dream cycle script should include this cleanup step.
+- **OOM-killed dream processes leave stale cycle lock.** If `gbrain dream` is killed by OOM or timeout, it leaves a row in `gbrain_cycle_locks` with `id='gbrain-cycle'`. Subsequent dream runs fail with "cycle_already_running" even after a fresh start. **Quick fix:** `rm -f /root/.gbrain/cycle.lock` (removes the filesystem-level marker). **Full fix:** `DELETE FROM gbrain_cycle_locks WHERE id='gbrain-cycle'` via direct PGLite query (use `bun -e` with `PGlite.create({dataDir})`). The dream cycle script should include this cleanup step.
 - **120s default timeout for no_agent cron scripts (configurable).** Hermes no_agent cron jobs default to 120s. The dream cycle's mechanical phases (lint, backlinks, sync, embed, extract, consolidate) complete in ~62s, but LLM-based phases (propose_takes, grade_takes) take longer and get SIGTERM'd. Increase via `cron.script_timeout_seconds` in `~/.hermes/config.yaml` or the `HERMES_CRON_SCRIPT_TIMEOUT` env var (see [cron internals docs](https://hermes-agent.nousresearch.com/docs/developer-guide/cron-internals#skill--script-backing)). This install uses **600s** for the dream cycle. Acceptable for nightly maintenance — the critical mechanical phases run. Use a completion marker file (~/.gbrain/.dream-last-run) and have the nightly audit check its freshness.
 - **`set -a` is required before source .env in cron scripts.** Cron jobs run in a sanitized environment. `source /root/.hermes/.env` sets variables in the script's shell but does NOT export them to child processes unless `set -a` is active first. Without it, `gbrain` subprocesses can't find OPENROUTER_API_KEY or other env vars. Always use: `set -a; source .env; set +a`.
 
@@ -652,11 +663,36 @@ mcp_servers:
     timeout: 180
 ```
 
-### API Key Caveat (Critical)
+### CLI Env Wrapper Pattern (Interactive Sessions)
+
+When running `gbrain think`, `gbrain dream`, or any command that needs API keys from a Hermes interactive session, the keys must be in the shell environment. The Hermes `.env` file isn't auto-sourced for subprocesses.
+
+Create a wrapper that sources Hermes env before every gbrain invocation:
+
+**`/usr/local/bin/gbrain-env`:**
+```bash
+#!/bin/bash
+# Source Hermes env vars (API keys) then run gbrain
+while IFS='=' read -r key val; do
+  [[ "$key" =~ ^[A-Z_] ]] && export "$key=$val"
+done < <(grep -v '^#' /root/.hermes/.env | grep -v '^$')
+exec /usr/local/bin/gbrain "$@"
+```
+
+```bash
+chmod +x /usr/local/bin/gbrain-env
+alias gbrain="gbrain-env"  # add to ~/.bashrc for persistence
+```
+
+**Why this matters:** `gbrain think --model deepseek:deepseek-v4-flash` still needs `DEEPSEEK_API_KEY` (or whichever key the recipe's `auth_env` declares) in the environment. Without it, the gateway catches `AIConfigError` and degrades to `"(no LLM available — set anthropic_api_key via gbrain config or ANTHROPIC_API_KEY env)"`. This message is misleading — it's a generic fallback, not actually about Anthropic. 100% of the time, the real cause is the provider's API key missing from env, regardless of what model you pass with `--model`.
+
+**Verification:** `gbrain-env think "test" --model deepseek:deepseek-v4-flash` returns a real answer, not the degraded stub.
+
+### MCP Server Wrapper Pattern
 
 The **Hermes native MCP client filters environment variables** — it only passes safe baseline vars (`PATH`, `HOME`, `USER`, etc.) plus anything you explicitly add in the `env:` block. If gbrain needs API keys at runtime (e.g., `OPENROUTER_API_KEY`, `ANTHROPIC_API_KEY`), they must be explicitly listed there.
 
-Since API keys are sensitive and shouldn't be hardcoded in config.yaml, use a **wrapper script** instead:
+Since API keys are sensitive and shouldn't be hardcoded in config.yaml, use the same source-pattern as a **wrapper script**:
 
 **`~/.hermes/scripts/gbrain-mcp-wrapper.sh`:**
 ```bash
@@ -686,7 +722,7 @@ mcp_servers:
 | Hermes tool name | What it does | Requires API key? |
 |-----------------|-------------|-------------------|
 | `mcp_gbrain_search` | Semantic vector search across brain pages | No (uses configured embedding model) |
-| `mcp_gbrain_think` | Multi-hop synthesis + gap analysis | Yes — `ANTHROPIC_API_KEY` |
+| `mcp_gbrain_think` | Multi-hop synthesis + gap analysis | Yes — the provider's API key for whichever model the server's config resolves to. With a proper env wrapper, OpenRouter/DeepSeek keys work (not just Anthropic). |
 | `mcp_gbrain_doctor` | Health check | No |
 | `mcp_gbrain_import` | Import markdown files | No |
 | `mcp_gbrain_embed` | Embed stale content | No |
@@ -731,6 +767,9 @@ When installed, add to `~/.hermes/community-manifest.json`:
 
 ## Related
 
+| `devops/gbrain/references/gbrain-config-regression-detection.md` — detection & recovery protocol for the config-split regression: how to spot when DB and JSON diverge, the exact set of keys that must be in the DB, and verification steps after fixing
+| `devops/gbrain/references/embedding-dimension-mismatch-recovery.md` — step-by-step recovery sequence when embedding model returns different dimensions than the DB schema expects: config change → kill MCP → remove stale PGLite locks → restart → re-embed
+| `devops/gbrain/references/source-isolation-pattern.md` — using isolated sources (federated: false) to keep multiple projects in the same G-Brain without cross-contamination
 - `devops/gbrain/references/teknium-mcp-performance-tweet.md` — Teknium's real-world analysis of gbrain MCP context bloat and Tier A/B/C skill routing fix
 - `devops/hermes-maintenance` — community manifest governance, long-term Hermes care
 - `devops/gbrain/references/session-install-transcript.md` — detailed session-specific install transcript with error resolution
@@ -741,6 +780,7 @@ When installed, add to `~/.hermes/community-manifest.json`:
 - `devops/gbrain/references/opencode-go-config.md` — using OpenCode Go as a custom OpenAI-compatible chat provider for gbrain, with split-provider config pattern
 - `devops/gbrain/references/dream-cycle-model-patching.md` — code-level patch analysis: which lines to change in propose-takes.ts and grade-takes.ts to make dream cycle LLM phases work with OpenRouter/OpenAI
 - `devops/gbrain/references/pglite-database-recovery.md` — data directory corruption diagnostic flow: how to distinguish lock/stale-PID from corruption, test fresh vs existing, and recovery options
+- `devops/gbrain/references/pglite-backup-restoration.md` — step-by-step backup restoration sequence after PGLite WASM corruption: swap to backup, re-import DABT references, re-run dream cycle, restart MCP server
 - `devops/gbrain/references/dream-cycle-memory-optimization.md` — OOM analysis, phase-by-phase execution, swap sizing, and low-RAM operation recipes for ≤2GB machines
 
 ## Pitfalls
@@ -787,6 +827,8 @@ When installed, add to `~/.hermes/community-manifest.json`:
 - **`gbrain providers test --model` fails pre-init for chat models:** The `providers test` command validates the FULL provider pipeline including embedding configuration. Before `gbrain init`, it cannot test chat models because no embedding provider is configured. To verify a custom chat endpoint before init, use direct curl against the endpoint instead.
 - **`DEEPSEEK_API_KEY` env var naming:** When using the `deepseek` recipe with a custom endpoint (e.g., OpenCode Go), the env var name is `DEEPSEEK_API_KEY` because that's what the deepseek recipe's `auth_env` declares. The actual key is your custom endpoint's key, not DeepSeek's. gbrain just reads the env var and sends `Authorization: Bearer*** This is confusing but harmless.
 
+- **Split-path auth: `deepseek:` recipe + OpenCode base URL breaks `gbrain think` but dream cycle phases still work.** The dream cycle's LLM phases (`propose_takes`, `grade_takes`, `extract_facts`) call `gatewayChat()` directly — when `modelHint` is omitted, the gateway resolves auth using the endpoint's metadata and succeeds against the OpenCode URL with `DEEPSEEK_API_KEY`. But `gbrain think` routes through `tryBuildGatewayClient()` which **always passes an explicit model** to `gatewayChat()`. With the model resolved to `deepseek:` provider, the gateway tries to auth as the DeepSeek recipe against the OpenCode base URL — the auth mechanisms differ (OpenCode expects a different Bearer token format than the deepseek recipe's standard `DEEPSEEK_API_KEY`), and `gatewayChat` throws `AIConfigError`, caught and degraded to `"(no LLM available — set anthropic_api_key...)"`. **Fix: route think through OpenRouter** — `gbrain config set models.think openrouter:deepseek/deepseek-chat` (uses `OPENROUTER_API_KEY`, proper auth). The dream cycle phases continue using the `deepseek:` recipe + OpenCode URL just fine since they don't always pass a model hint. See also `references/pglite-backup-restoration.md` for the full recovery sequence if the DB gets corrupted during this split-config operation.
+
 - **Broken CLI symlink after bun global install cleanup:** `bun link` creates a symlink at `~/.bun/bin/gbrain` → `../install/global/node_modules/gbrain/src/cli.ts`. If the global install directory gets deleted or the Bun global registry is corrupted (missing package.json), the symlink goes dead — `gbrain` returns "No such file or directory" but the binary symlink still shows. The brain data at `~/.gbrain/` (PGLite, config, markdown) is unaffected.
 
   **Recovery:**
@@ -804,3 +846,5 @@ When installed, add to `~/.hermes/community-manifest.json`:
   - **Dirty data directory:** A stale `postmaster.pid` from a prior crash prevents PGLite from starting. Fix: test fresh dir vs existing dir to isolate the cause, then either remove the stale pid or swap to the clean `brain.pglite.bak` backup.
   - **Data directory corruption** (distinct from lock/stale-pid): Fresh PGLite instances work fine but opening the existing `brain.pglite` data directory crashes with a WASM abort. Indicates corrupted internal Postgres state — not recoverable by removing pid files. See `references/pglite-database-recovery.md` for full diagnostic flow.
   See `references/pglite-wasm-cli-workaround.md` for the standard lock/pid workaround, and `references/pglite-database-recovery.md` for the corruption recovery flow.
+
+- **`gbrain dream` needs `--dir` or `sync.repo_path` config — `database_path` is not enough.** The dream command's `resolveBrainDir()` only checks two sources: (1) an explicit `--dir <path>` argument, or (2) the `sync.repo_path` config key in the PGLite DB. The `database_path` config key is NOT checked. If you restored from a backup or the brain repo path was never configured, `sync.repo_path` may be unset and `gbrain dream` fails with "No brain directory found" even though the DB exists. The `--dir` flag is the quick workaround: `gbrain dream --dir <brain-repo-path>`. To make it permanent: `gbrain config set sync.repo_path /path/to/brain/repo`.
