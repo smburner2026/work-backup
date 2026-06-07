@@ -1,7 +1,7 @@
 ---
 name: kanban-orchestrator
 description: Decomposition playbook + anti-temptation rules for an orchestrator profile routing work through Kanban. The "don't do the work yourself" rule and the basic lifecycle are auto-injected into every kanban worker's system prompt; this skill is the deeper playbook when you're specifically playing the orchestrator role.
-version: 3.2.0
+version: 3.3.0
 platforms: [linux, macos, windows]
 metadata:
   hermes:
@@ -19,7 +19,11 @@ metadata:
 >
 > **New to the discover→review→execute pattern?** Load `references/discover-review-execute-pattern.md` for the human-gated workflow where a worker discovers/recommends and the main agent executes after human review. This is the "kanban for sysadmin/research" pattern — worker finds, human decides, main agent acts.
 >
-> **Dashboard UI**: The kanban board has a dedicated drag-drop dashboard tab at the Dashboard's `/kanban` route. Enable it with `hermes plugins enable kanban/dashboard` — it's a bundled dashboard plugin (manifest.json + JS bundle, separate from regular plugins). If the user asks for a visual kanban UI or how to see their board in a browser, this is the answer: point them to the Dashboard + the kanban tab. The Dashboard itself (port 9119 by default, localhost-only unless proxied) also shows session history, logs, profiles, and cron — the full agent tracking surface.
+> **Planning an overnight multi-stage research project?** Load `references/overnight-multi-stage-pattern.md` for a worked example of the audit → fan-out → synthesis → human-gated wire-up shape, with actual card IDs, timing pitfalls, and the SQLite fallback for verifying state when the gateway is defensive.
+>
+> **Dashboard UI (web only — NOT in the desktop app)**: The kanban board has a dedicated drag-drop dashboard tab at the web Dashboard's `/kanban` route. Enable it with `hermes plugins enable kanban/dashboard` — it's a bundled dashboard plugin (manifest.json + JS bundle, separate from regular plugins). If the user asks for a visual kanban UI or how to see their board, this is the answer: point them to the **web Dashboard** (`hermes dashboard`) + the kanban tab. The Dashboard itself (port 9119 by default, localhost-only unless proxied) also shows session history, logs, profiles, and cron — the full agent tracking surface.
+>
+> **Pitfall — Desktop app ≠ Dashboard for kanban.** The Hermes Desktop app (Electron, `hermes desktop`) does **not** include the kanban board panel. It has a `/kanban` slash command that sends the command to the agent (text response only), but no visual board with columns, cards, or drag-drop. The kanban board UI is exclusive to the web Dashboard. Users migrating from the TUI (`herm`) or expecting feature parity between the desktop app and dashboard will look for kanban display and not find it. If the user wants visual kanban, route them to `hermes dashboard`.
 
 ## Profiles are user-configured — not a fixed roster
 
@@ -139,10 +143,32 @@ Your job description says "route, don't execute." The rules that enforce that:
 - **Never create dependent work as independent ready cards.** If a card must wait for another card, pass `parents=[...]` in the original `kanban_create` call. Do not create it first and link it later, and do not rely on prose like "wait for T1" inside the body.
 - **Figure out the profile, don't ask.** If no existing profile fits the task, create one. The user wants frictionless delegation — asking "which profile?" or "how should I handle this?" defeats the purpose. Create, assign, dispatch, done. Only ask if you hit a genuine ambiguity that blocks execution entirely.
 - **Fire and forget after dispatch.** Once a card is created, assigned, and dispatched, your job is done. Do NOT poll `kanban show`, do NOT wait for the worker, do NOT check its status. The system notifies the user when a task completes. Sitting around monitoring wastes turns — the user will ask for results when they want them.
-- **Exception: verify before clearing.** The "don't poll" rule applies to *waiting for completion during execution*. It does NOT apply when you're about to *act on a card's `done` or `ready` status* — e.g., clearing a ready card, starting a dependent card, or telling the user work is finished. A `done` status means the worker claimed completion; it does not mean the output artifact is correct or complete. Before acting on status, verify the actual work product. Common verification checks for file-producing cards: file exists and has expected size, page/record count matches expectations, grep for placeholder/error markers (`IMAGE MISSING`, `TODO`, `Error:`), check no lingering processes or scheduled jobs still run for that task. The kanban board is a workflow-visibility layer, not a truth layer. Treat every card's `done` flag as a claim to verify, not a fact to trust.
+- **Exception: verify before clearing.** The "don't poll" rule applies to *waiting for completion during execution*. It does NOT apply when you're about to *act on a card's `done` or `ready` status* — e.g., clearing a ready card, starting a dependent card, telling the user work is finished, or **unblocking a review-required card**. A `done` status means the worker claimed completion; it does not mean the output artifact is correct or complete. Before acting on status, verify the actual work product. **Verification must match the side-effect type:**
+
+- **File-producing cards:** file exists and has expected size, page/record count matches expectations, grep for placeholder/error markers (`IMAGE MISSING`, `TODO`, `Error:`), check no lingering processes or scheduled jobs still run for that task.
+- **DB-write cards:** run independent queries to confirm data landed — row count delta matches expected import, foreign key relationships intact, no orphaned records. Example: if a card claims "imported 1,600 questions," run `SELECT COUNT(*) FROM table WHERE source=X` before trusting the claim. Subagent self-reports are inputs, not proof.
+- **API-call cards:** verify the external state changed (check the API response, confirm the resource exists on the remote side).
+
+The kanban board is a workflow-visibility layer, not a truth layer. Treat every card's `done` flag as a claim to verify, not a fact to trust. **Phantom completions** (card marked done, side effects never happened) are the most common failure mode — especially with subagent delegation where the context window may close before the final write.
+
+**Critical: Unblocking a review-required card IS a clearing action.** When you unblock a card that was blocked with a "review-required" reason, the dependency engine may immediately promote child cards to `ready` and the dispatcher may claim them — executing downstream work before the human has reviewed the upstream decision. Before unblocking any card that:
+
+- Has a "review-required" block reason (the worker left a memo/analysis for human review)
+- Has children (the pipeline will auto-propagate)
+- Would trigger irreversible side effects (config changes, installs, paid API signups)
+
+**You MUST:** (1) read the card's comment thread to extract the deliverable, (2) present it to the user in full, (3) get explicit go-ahead or modification instructions before unblocking. Unblocking and presenting in the same turn is too fast — the dispatcher may claim child cards before the user has read your summary.
 
 - **Post-pipeline infrastructure teardown.** When a multi-card pipeline completes (all cards done, no more work in that track), check for ancillary infrastructure that was set up to support the pipeline and tear it down proactively. This includes: cron job watchers polling for completion, temporary cron jobs created for monitoring, skill references pointing at now-completed tasks, and any "completion watch" scripts. The user's "nuke them" cleanup ethic applies to infrastructure too — leaving stale watchers or pollers running after the pipeline is done is the cron-job equivalent of leaving temp files behind. Perform the teardown scan immediately upon recognizing the pipeline is finished, not at a later review.
 - **Do not invent profile names.** Verify the profile exists first with `hermes profile list`. If you need to create one, use `hermes profile create`. The dispatcher silently drops unknown assignees.
+
+**Pitfall — `hermes profile create` flag set is minimal.** The subcommand accepts only: `--clone`, `--clone-all`, `--clone-from SOURCE`, `--no-alias`, `--no-skills`, `--description DESCRIPTION`. It does NOT accept `--model` or `--skills`. Profile models are inherited from the global `~/.hermes/config.yaml` (or a per-profile `profile.yaml` that you edit yourself). Skills are controlled at the global `~/.hermes/skills/` tree plus per-profile opt-in/opt-out via `hermes skills config`. So the "create a profile specialized for X" sequence is:
+1. `hermes profile create <name> --description "what it's good at"` — gets a working empty profile.
+2. Optionally edit `~/.hermes/profiles/<name>/profile.yaml` to set a model override (the `description` field already exists; add model via a `model:` key, but verify the format against an existing profile first).
+3. `hermes setup` on the new profile to wire API keys (or rely on shell env inheritance).
+4. Verify with `hermes profile list` — the new profile appears in the roster.
+
+Don't waste a turn guessing flag names; the `--help` output is the source of truth.
 - **Decompose, route, and summarize — that's the whole job.** Summarize only when the user asks, not proactively.
 
 ### Task classification: discuss-before-card vs. create-and-dispatch
@@ -355,6 +381,17 @@ The progression is correct as a *build-up strategy* — test at Level 1, extract
 
 **Human-in-the-loop:** Any task can `kanban_block()` to wait for input. Dispatcher respawns after `/unblock`. The comment thread carries the full context.
 
+**Multi-stage discovery → synthesis → human-gated implementation** (overnight research/audit pattern): the canonical pattern when the user says "I want an overnight project to figure out X, I'll review the report in the morning, then we act." Shape:
+1. **Phase 0** — `infra` card to create any missing specialist profiles.
+2. **Phase 1** — single `audit`/`discovery` card that does the gap analysis and probe-calls the existing stack (don't add tools until you've audited what you have). This card is small but must finish before Phase 2 fans out, because Phase 2 cards depend on its findings.
+3. **Phase 2** — N evaluation/discovery cards, fan-out from the audit. Each tests one candidate (Tavily, browser/Lightpanda, Jina/Exa, archive APIs, etc.). Run in parallel on same/different profiles — they're read-only probes.
+4. **Phase 3** — `synthesis` card, `parents=[all Phase 2 cards]`. Produces a decision memo: go/no-go per candidate with evidence and confidence bands.
+5. **Phase 4** — `implementation` cards (wire config, install plugins, harden scripts), `parents=[synthesis]`, but **created in `--initial-status blocked` with reason "Human gate — user reviews synthesis before any wire-up."** The orchestrator parks here overnight. The user unblocks after reviewing the memo.
+
+The key design point: Phases 0–3 dispatch immediately, Phase 4 is parked behind the human gate. No auto-promotion to "permanent config change" happens without the user reading the report. The synthesis card is the natural checkpoint — not the discovery cards individually.
+
+**When to use this pattern vs. plain discover→execute:** use multi-stage when (a) the work crosses 4+ cards, (b) there's a meaningful cost/irreversibility risk in the implementation phase (config changes, paid services, plugin installs), or (c) the user explicitly says "overnight" / "I'll review tomorrow" / "human gate before phase N". For 1–2 card audits where implementation is cheap, plain discover→execute is enough.
+
 ## Pitfalls
 
 **Inventing profile names that don't exist.** The dispatcher silently fails to spawn unknown assignees — the card just sits in `ready` forever. Always assign to a profile from your Step 0 discovery; ask the user if you're unsure.
@@ -377,11 +414,22 @@ The progression is correct as a *build-up strategy* — test at Level 1, extract
 
 **Reassignment vs. new task.** If a reviewer blocks with "needs changes," create a NEW task linked from the reviewer's task — don't re-run the same task with a stern look. The new task is assigned to the original implementer profile.
 
+**Unblocking a review-required card before the user sees its output.** When a card is blocked with "review-required," the worker has left a deliberative artifact (memo, recommendation, analysis) specifically for human review. Unblocking it without surfacing that artifact triggers the dependency engine — child cards auto-promote to `ready` and the dispatcher executes downstream work (config changes, script installs, API integrations) before the user has approved the upstream decision. Always: extract the output → present to user → get explicit go-ahead → then unblock. (See "Exception: verify before clearing" above for the full rule.)
+
 **Asking operational questions when the goal is clear.** The user told you what they want. Asking "which profile?" or "how should I handle this?" creates friction, not clarity. You have the tools to figure it out (profile list, skill list, terminal). Use them. If you need a profile that doesn't exist, create it. Only ask when the goal itself is ambiguous enough that you can't execute at all.
 
 **Argument order for links.** `kanban_link(parent_id=..., child_id=...)` — parent first. Mixing them up demotes the wrong task to `todo`.
 
 **Don't pre-create the whole graph if the shape depends on intermediate findings.** If T3's structure depends on what T1 and T2 find, let T3 exist as a "synthesize findings" task whose own first step is to read parent handoffs and plan the rest. Orchestrators can spawn orchestrators.
+
+**Audit cards finish fast — wire downstream immediately, not "in the next batch."** When the Phase 1 audit card is a short read-only probe (5–10 min of config inspection + API key verification), it will likely be `done` before you've finished creating the Phase 2 fan-out. This is fine — the dispatcher is just being efficient. The trap: if you batched all your `kanban_create` calls into one big multi-line command, a timeout partway through leaves you with the audit done and *zero* downstream cards. Worse, the IDs you mentally drafted (e.g. "T2a will be `t_xxxx`") don't exist, so the parent links in your mental model are wrong. **The right pattern:**
+1. Create the audit card first in its own command, capture its returned `task_id`.
+2. Create the Phase 2 fan-out cards immediately after (separate command, don't combine). Use the audit's actual ID as their parent.
+3. After Phase 2 dispatches, do a quick SQLite peek (`sqlite3 ~/.hermes/kanban/boards/<board>/kanban.db "SELECT id, status FROM tasks WHERE ..."`) to capture the *actual* Phase 2 IDs — these may differ from your mental draft.
+4. Create Phase 3 (synthesis) with the *actual* Phase 2 IDs as parents. Do this in its own command, not batched.
+5. Create Phase 4 (implementation) with the synthesis ID as parent, in `--initial-status blocked` state with the human-gate reason.
+
+If a multi-line `kanban_create` batch times out, fall back to: `hermes kanban list --json` to discover what was actually created, then continue with the surviving IDs. Don't try to "guess" missing IDs — let the dispatcher and the SQLite table be the source of truth.
 
 **Tenant inheritance.** If `HERMES_TENANT` is set in your env, pass `tenant=os.environ.get("HERMES_TENANT")` on every `kanban_create` call so child tasks stay in the same namespace.
 

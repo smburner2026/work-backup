@@ -21,7 +21,7 @@ Spawn a background autonomous agent via cronjob when:
 | Method | When |
 |--------|------|
 | `terminal(background=true, notify_on_complete=true)` | Scriptable tasks with deterministic output — compilers, linters, test suites, file conversions |
-| `delegate_task(tasks=[...])` | Reasoning-heavy tasks that must complete within the turn and return structured results — DO NOT use for large file downloads (>5 files) or long-running web research. delegate_task blocks the LLM turn; if the subagent exceeds the model provider's timeout window (~600s), the entire session is dropped with zero output delivered. **Concrete failure pattern:** firing 3 concurrent delegate_task calls for 40+ regulatory PDFs — each subagent needed to search, download, and convert government documents. The cumulative time exceeded the timeout, the session was killed mid-flight, and the user saw nothing. The files that DID complete were orphaned with no index update and no G-Brain sync. |
+| `delegate_task(tasks=[...])` | Reasoning-heavy tasks that must complete within the turn and return structured results — DO NOT use for large file downloads (>5 files) or long-running web research. delegate_task blocks the LLM turn; if the subagent exceeds the model provider's timeout window (~600s), the entire session is dropped with zero output delivered. **Concrete failure pattern:** firing 3 concurrent delegate_task calls for 40+ regulatory PDFs — each subagent needed to search, download, and convert government documents. The cumulative time exceeded the timeout, the session was killed mid-flight, and the user saw nothing. The files that DID complete were orphaned with no index update. |
 | Direct tool calls | Single-file reads, writes, or simple web lookups under 10 seconds |
 
 ## Setup Parameters
@@ -60,7 +60,7 @@ Every cron job should run with the **minimum toolset** it needs. This reduces to
 1. **Enumerate the job's actual actions** — read/write files? run shell commands? search past sessions? make web requests? persist state? load domain skills?
 2. **Map each action to the corresponding Hermes toolset:**
    - File I/O → `file`
-   - Shell commands (scripts, MCP access, G-Brain) → `terminal`
+   - Shell commands (scripts, MCP access) → `terminal`
    - Search past conversations → `search`, `session_search`
    - Web lookups → `web`
    - Memory persistence → `memory`
@@ -74,7 +74,7 @@ Every cron job should run with the **minimum toolset** it needs. This reduces to
 | Job Type | Typical `enabled_toolsets` | Rationale |
 |----------|---------------------------|-----------|
 | Personal journal entry | `terminal`, `file`, `memory`, `search`, `skills` | Reads/writes journal files, loads the journal skill, checks prior entries |
-| Domain maintenance | `terminal`, `file` | Runs MCP/G-Brain commands, logs results |
+| Domain maintenance | `terminal`, `file` | Runs MCP commands, logs results |
 | Domain truth audit | `terminal`, `file`, `search` | Queries knowledge base via MCP, cross-references files, searches past sessions |
 | Miss journal synthesis | `terminal`, `file`, `memory`, `search`, `web` | Aggregates entries, may fact-check against external references |
 | Self-improvement loop | `terminal`, `file`, `memory`, `search`, `skills` | Reads skills/memory, runs audits, updates artifacts |
@@ -96,7 +96,7 @@ See `references/cron-tool-scoping-examples.md` for concrete audit records from p
 3. **Create the cronjob** — use the parameters above
 4. **Continue conversation** — the agent runs independently, reports back when done
 5. **Verify output** — when the report arrives, check file paths and sizes before telling the user it's done
-6. **Update dependent artifacts** — if the background job added files to a reference library, update the index and sync to search/vector stores (e.g., rebuild `index.json`, run G-Brain import) so the new content is actually discoverable
+6. **Update dependent artifacts** — if the background job added files to a reference library, update the index and sync to search/vector stores (e.g., rebuild `index.json`, rebuild index.json) so the new content is actually discoverable
 
 ## Phased Execution Pattern (Anti-Overstretch)
 
@@ -108,7 +108,7 @@ When a task has multiple independent phases (e.g., catalog → download → inde
 Phase 1: Research/audit → present findings → get confirmation
 Phase 2: Execute (async via cron or background terminal) → confirm output landed
 Phase 3: Update metadata (indexes, configs, state files) → confirm
-Phase 4: Sync to search/store (G-Brain, database, etc.) → confirm
+Phase 4: Sync to search/store (database, index) → confirm
 ```
 
 Each phase should:
@@ -127,7 +127,7 @@ For complex multi-phase tasks, run complementary async methods simultaneously:
 | Method | Best for | Example |
 |--------|----------|---------|
 | Cron job (`schedule='1m', repeat=1`) | Web-dependent work (searches, downloads, API calls) | Downloading 11 regulatory PDFs from government websites |
-| Background terminal (`notify_on_complete=true`) | Script-able batch work on local files | Running `gbrain capture --file FILE --slug SLUG` on 32 files in a loop |
+| Background terminal (`notify_on_complete=true`) | Script-able batch work on local files | Running `batch processing command` on 32 files in a loop |
 
 ### Why both
 - Cron jobs handle the slow, network-dependent parts (individual web searches, PDF downloads)

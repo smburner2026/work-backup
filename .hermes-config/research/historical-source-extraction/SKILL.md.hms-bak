@@ -219,29 +219,13 @@ id,name,occupation,address,page,confidence
 1,John Smith,Carpenter,123 Main St,42,high
 ```
 
-## G-Brain Ingestion
+## Data Storage
 
-After extraction, ingest structured data to G-Brain:
+After extraction, store structured data to your knowledge base:
 
 ```python
 # Create a summary page for the extraction
-mcp_gbrain_put_page(
-    slug=f"historical-sources/<source-slug>/extraction",
-    content="<extraction summary + key findings>",
-    source_kind="put_page"
-)
-mcp_gbrain_add_tag(slug=f"historical-sources/<source-slug>/extraction", tag="extraction")
-mcp_gbrain_add_tag(slug=f"historical-sources/<source-slug>/extraction", tag="<data-type>")
-
-# For each record, add a timeline entry
-for record in records:
-    mcp_gbrain_add_timeline_entry(
-        slug=f"historical-sources/<source-slug>/extraction",
-        date=record["data"].get("date", ""),
-        summary=f"{record['data']['name']}: {record['data'].get('occupation', '')}",
-        detail=record["provenance"]["page_text_excerpt"],
-        source=f"page {record['provenance']['page']}"
-    )
+# Use whatever storage backend is available (memory, files, or a knowledge base tool)
 ```
 
 ## Pitfalls
@@ -262,4 +246,4 @@ After completing the pipeline:
 3. ✅ Batch extraction completed with quality scores
 4. ✅ Spot-check performed on 3-5 random pages
 5. ✅ Structured output saved with full provenance
-6. ✅ Results ingested to G-Brain
+6. ✅ Results ingested to knowledge base

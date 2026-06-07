@@ -47,7 +47,7 @@ Domain I deep dives + Genotoxicology fundamentals. Completed in drill sessions b
 ## Supporting Infrastructure
 
 - **Flashcard deck** — built during Phases 0-1, maintained through Phase 2. 150-200 cards by Phase 3.
-- **Miss journal** — persisted in G-Brain via `education/dabt-gbrain-miss-journal` skill. After each session, write structured session summary + weak areas. Before each session, query G-Brain recall for gap patterns. Enables data-driven Phase 2 triage across 30+ sessions. The 1-2 sentence summary is the minimum — G-Brain stores it durably across context resets.
+- **Miss journal** — persisted in the project directory. After each session, write structured session summary + weak areas. Before each session, review past entries for gap patterns. Enables data-driven Phase 2 triage across 30+ sessions.
 - **DB access** — 3,796 clean questions in SQLite at `reference/data/dabt.db`. Use blueprint-weighted sampling. Domain III is scarce (170 Qs) — conserve for Phase 3 mocks.
 - **Reference texts** — C&D during Phase 0 only. By Phase 1, settle disputes only. By Phase 2, textbooks collect dust.
 

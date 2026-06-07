@@ -57,6 +57,13 @@ Load when: "deep dive" | "explain" | "I don't understand" | "teach me" | "dive i
    - Update `progress/state.json` → `deep_dived_topics` list. Verify write-back.
    - Update memory: `dabt.deep_dive` (completed, active→null)
    - Schedule follow-up drill at 1/3/7 days
+6. **VAULT UPDATE — concept note expansion** (mandatory, gate before session end):
+   - Identify the primary concept(s) the dive covered (e.g., "Adversity Determination")
+   - Check `wiki/concepts/<slug>.md` for an existing note (use the slug from `dabt-notebook` rules: lowercase-hyphen)
+   - If a stub exists, expand it with the synthesis: definition refinement, key points, exam traps, source citations with line numbers
+   - If no note exists, offer to create one. Default: create it, populated from the dive's synthesis
+   - Add a `## Backlinks` section listing any miss journal entries that reference this concept (look in `wiki/miss-journal/*.md` for `[[<slug>]]`)
+   - The deep-dive synthesis becomes the authoritative content for the concept note; future drills fill in the precision gaps
 
 ## Key Protocols (see references/ for full detail)
 

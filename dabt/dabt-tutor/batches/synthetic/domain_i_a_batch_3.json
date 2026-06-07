@@ -1,0 +1,752 @@
+[
+  {
+    "question_text": "Which of the following correctly describes absorption?",
+    "options": {
+      "A": "Always rapid and complete",
+      "B": "Requires active transport for all xenobiotics",
+      "C": "Independent of physicochemical properties",
+      "D": "Oral absorption of heavy metals: ~10% lead, 4% manganese, 1.5% cadmium, 1% chromium"
+    },
+    "correct_answer": "D",
+    "explanation": "Oral absorption of heavy metals: ~10% lead, 4% manganese, 1.5% cadmium, 1% chromium. EDTA increases absorption of complexed metal ions",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Recall",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes absorption?",
+    "options": {
+      "A": "Occurs only through GI tract",
+      "B": "Requires active transport for all xenobiotics",
+      "C": "Always rapid and complete",
+      "D": "Particle absorption is inversely related to particle diameter; nanoparticles (<100 nm) are most readily absorbed"
+    },
+    "correct_answer": "D",
+    "explanation": "Particle absorption is inversely related to particle diameter; nanoparticles (<100 nm) are most readily absorbed. Hydrophobic nonionized particles are more extensively absorbed",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Recall",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes absorption?",
+    "options": {
+      "A": "Occurs only through GI tract",
+      "B": "Independent of physicochemical properties",
+      "C": "Requires active transport for all xenobiotics",
+      "D": "Intestinal microflora reduce nitroaromatic compounds to potentially carcinogenic aromatic amines"
+    },
+    "correct_answer": "D",
+    "explanation": "Intestinal microflora reduce nitroaromatic compounds to potentially carcinogenic aromatic amines. 2,6-dinitrotoluene is reduced to mutagenic 2,6-diaminotoluene",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Recall",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes absorption?",
+    "options": {
+      "A": "Always rapid and complete",
+      "B": "Requires active transport for all xenobiotics",
+      "C": "Occurs only through GI tract",
+      "D": "Pulmonary absorption of gases depends on blood:gas partition coefficient"
+    },
+    "correct_answer": "D",
+    "explanation": "Pulmonary absorption of gases depends on blood:gas partition coefficient. High coefficient (ethanol) = high absorption; low (N2O) = rapid equilibrium",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Recall",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes absorption?",
+    "options": {
+      "A": "Requires active transport for all xenobiotics",
+      "B": "Always rapid and complete",
+      "C": "Grapefruit juice inhibits MDR1 through naringin, increasing bioavailability of co-administered drugs",
+      "D": "Independent of physicochemical properties"
+    },
+    "correct_answer": "C",
+    "explanation": "Grapefruit juice inhibits MDR1 through naringin, increasing bioavailability of co-administered drugs. Naringin is a flavonoid found in grapefruit",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Recall",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes distribution?",
+    "options": {
+      "A": "Uniform throughout all tissues",
+      "B": "Independent of lipid solubility",
+      "C": "Determined solely by blood flow",
+      "D": "Volume of distribution relates amount of chemical in body to concentration in blood/plasma"
+    },
+    "correct_answer": "D",
+    "explanation": "Volume of distribution relates amount of chemical in body to concentration in blood/plasma. Large Vd = extensive tissue distribution; small Vd = confinement to plasma",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Recall",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes distribution?",
+    "options": {
+      "A": "Independent of lipid solubility",
+      "B": "Uniform throughout all tissues",
+      "C": "Does not affect toxicity",
+      "D": "DDT achieves high concentrations in fat but is not toxic to adipose tissue"
+    },
+    "correct_answer": "D",
+    "explanation": "DDT achieves high concentrations in fat but is not toxic to adipose tissue. Tissue of highest concentration is not necessarily the target organ",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Recall",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes distribution?",
+    "options": {
+      "A": "Uniform throughout all tissues",
+      "B": "Determined solely by blood flow",
+      "C": "Does not affect toxicity",
+      "D": "Plasma proteins (especially albumin) serve as storage depot for acidic drugs and toxicants"
+    },
+    "correct_answer": "D",
+    "explanation": "Plasma proteins (especially albumin) serve as storage depot for acidic drugs and toxicants. Only unbound chemical is available for distribution and effects",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Recall",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes distribution?",
+    "options": {
+      "A": "Determined solely by blood flow",
+      "B": "Does not affect toxicity",
+      "C": "The blood-brain barrier limits entry of polar and large molecules into the CNS",
+      "D": "Independent of lipid solubility"
+    },
+    "correct_answer": "C",
+    "explanation": "The blood-brain barrier limits entry of polar and large molecules into the CNS. Tight junctions and P-gp efflux maintain the barrier",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Recall",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes distribution?",
+    "options": {
+      "A": "Does not affect toxicity",
+      "B": "Determined solely by blood flow",
+      "C": "Uniform throughout all tissues",
+      "D": "Lipophilic chemicals can cross the placenta; P-gp provides protection by efflux back to maternal circulation"
+    },
+    "correct_answer": "D",
+    "explanation": "Lipophilic chemicals can cross the placenta; P-gp provides protection by efflux back to maternal circulation. Fetus is particularly vulnerable due to immature detoxification",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Recall",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes excretion?",
+    "options": {
+      "A": "Independent of compound polarity",
+      "B": "Does not involve enterohepatic circulation",
+      "C": "Urinary excretion involves glomerular filtration, active tubular secretion, and passive tubular reabsorption",
+      "D": "Only through urinary excretion"
+    },
+    "correct_answer": "C",
+    "explanation": "Urinary excretion involves glomerular filtration, active tubular secretion, and passive tubular reabsorption. Molecules <60 kDa pass through glomerular pores; ionized forms are reabsorbed less",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Recall",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes excretion?",
+    "options": {
+      "A": "Independent of compound polarity",
+      "B": "Enterohepatic circulation involves biliary excretion followed by reabsorption from intestine",
+      "C": "Does not involve enterohepatic circulation",
+      "D": "Always rapid and complete"
+    },
+    "correct_answer": "B",
+    "explanation": "Enterohepatic circulation involves biliary excretion followed by reabsorption from intestine. Bacterial glucuronidases hydrolyze conjugates, releasing parent compound",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Recall",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes excretion?",
+    "options": {
+      "A": "Breast milk serves as a route of elimination for lipophilic xenobiotics",
+      "B": "Always rapid and complete",
+      "C": "Independent of compound polarity",
+      "D": "Only through urinary excretion"
+    },
+    "correct_answer": "A",
+    "explanation": "Breast milk serves as a route of elimination for lipophilic xenobiotics. This is also a route of infant exposure",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Recall",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes excretion?",
+    "options": {
+      "A": "Always rapid and complete",
+      "B": "Independent of compound polarity",
+      "C": "Fecal excretion includes nonabsorbed ingesta, biliary excretion, and direct intestinal secretion",
+      "D": "Only through urinary excretion"
+    },
+    "correct_answer": "C",
+    "explanation": "Fecal excretion includes nonabsorbed ingesta, biliary excretion, and direct intestinal secretion. MRP2 and BCRP actively secrete compounds into intestinal lumen",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes toxicokinetics?",
+    "options": {
+      "A": "Toxicokinetics is the quantitative study of ADME through measurement of concentrations in biological matrices vs time",
+      "B": "Always linear across all doses",
+      "C": "Does not account for metabolism",
+      "D": "Cannot be used for risk assessment"
+    },
+    "correct_answer": "A",
+    "explanation": "Toxicokinetics is the quantitative study of ADME through measurement of concentrations in biological matrices vs time. Derived from pharmacokinetics studies with drugs",
+    "source_citation": "Casarett & Doull Ch.7, pp. 420-449",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes toxicokinetics?",
+    "options": {
+      "A": "Always linear across all doses",
+      "B": "Only applies to drugs",
+      "C": "Cannot be used for risk assessment",
+      "D": "Cmax and AUC are the two most common dose metrics in toxicokinetic studies"
+    },
+    "correct_answer": "D",
+    "explanation": "Cmax and AUC are the two most common dose metrics in toxicokinetic studies. Cmax is peak concentration; AUC is area under concentration-time curve",
+    "source_citation": "Casarett & Doull Ch.7, pp. 420-449",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes toxicokinetics?",
+    "options": {
+      "A": "The trapezoidal method calculates AUC by summing areas of trapezoids from the concentration-time curve",
+      "B": "Cannot be used for risk assessment",
+      "C": "Always linear across all doses",
+      "D": "Only applies to drugs"
+    },
+    "correct_answer": "A",
+    "explanation": "The trapezoidal method calculates AUC by summing areas of trapezoids from the concentration-time curve. AUC0-inf adds Clast/Kel for terminal area",
+    "source_citation": "Casarett & Doull Ch.7, pp. 420-449",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes toxicokinetics?",
+    "options": {
+      "A": "Always linear across all doses",
+      "B": "Cannot be used for risk assessment",
+      "C": "Mean residence time (MRT) = AUMC/AUC",
+      "D": "Only applies to drugs"
+    },
+    "correct_answer": "C",
+    "explanation": "Mean residence time (MRT) = AUMC/AUC. AUMC is area under first moment curve (concentration x time)",
+    "source_citation": "Casarett & Doull Ch.7, pp. 420-449",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes toxicokinetics?",
+    "options": {
+      "A": "At least 2 early and 3 terminal elimination phase time points needed for TK studies",
+      "B": "Does not account for metabolism",
+      "C": "Cannot be used for risk assessment",
+      "D": "Always linear across all doses"
+    },
+    "correct_answer": "A",
+    "explanation": "At least 2 early and 3 terminal elimination phase time points needed for TK studies. Samples should show concentration changes by factor of 2 or order of magnitude",
+    "source_citation": "Casarett & Doull Ch.7, pp. 420-449",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes toxicokinetics?",
+    "options": {
+      "A": "No more than 10% of blood volume should be drawn during AUC sampling interval",
+      "B": "Cannot be used for risk assessment",
+      "C": "Does not account for metabolism",
+      "D": "Always linear across all doses"
+    },
+    "correct_answer": "A",
+    "explanation": "No more than 10% of blood volume should be drawn during AUC sampling interval. Prevents compromising physiological status",
+    "source_citation": "Casarett & Doull Ch.7, pp. 420-449",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes toxicokinetics?",
+    "options": {
+      "A": "Cannot be used for risk assessment",
+      "B": "Does not account for metabolism",
+      "C": "One-compartment model assumes body as single homogeneous compartment with instantaneous distribution",
+      "D": "Always linear across all doses"
+    },
+    "correct_answer": "C",
+    "explanation": "One-compartment model assumes body as single homogeneous compartment with instantaneous distribution. Appropriate for rapidly distributing compounds",
+    "source_citation": "Casarett & Doull Ch.7, pp. 420-449",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes toxicokinetics?",
+    "options": {
+      "A": "Only applies to drugs",
+      "B": "Cannot be used for risk assessment",
+      "C": "PBTK models incorporate actual anatomical and physiological parameters (tissue volumes, blood flows, partition coefficients)",
+      "D": "Always linear across all doses"
+    },
+    "correct_answer": "C",
+    "explanation": "PBTK models incorporate actual anatomical and physiological parameters (tissue volumes, blood flows, partition coefficients). Allows mechanistic prediction of tissue concentrations",
+    "source_citation": "Casarett & Doull Ch.7, pp. 420-449",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes toxicokinetics?",
+    "options": {
+      "A": "Cannot be used for risk assessment",
+      "B": "Always linear across all doses",
+      "C": "Does not account for metabolism",
+      "D": "Clearance is the volume of blood completely cleared of chemical per unit time"
+    },
+    "correct_answer": "D",
+    "explanation": "Clearance is the volume of blood completely cleared of chemical per unit time. Hepatic clearance depends on intrinsic clearance, blood flow, and protein binding",
+    "source_citation": "Casarett & Doull Ch.7, pp. 420-449",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes toxicokinetics?",
+    "options": {
+      "A": "Does not account for metabolism",
+      "B": "Only applies to drugs",
+      "C": "Elimination half-life: t1/2 = 0.693/ke for first-order elimination",
+      "D": "Cannot be used for risk assessment"
+    },
+    "correct_answer": "C",
+    "explanation": "Elimination half-life: t1/2 = 0.693/ke for first-order elimination. Half-life doubles when clearance decreases by half",
+    "source_citation": "Casarett & Doull Ch.7, pp. 420-449",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes toxicokinetics?",
+    "options": {
+      "A": "Always linear across all doses",
+      "B": "Bioavailability F = AUC_oral / (AUC_IV x dose_oral/dose_IV) x 100%",
+      "C": "Cannot be used for risk assessment",
+      "D": "Only applies to drugs"
+    },
+    "correct_answer": "B",
+    "explanation": "Bioavailability F = AUC_oral / (AUC_IV x dose_oral/dose_IV) x 100%. F < 100% indicates incomplete absorption or first-pass metabolism",
+    "source_citation": "Casarett & Doull Ch.7, pp. 420-449",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes toxicokinetics?",
+    "options": {
+      "A": "Nonlinear kinetics occur when elimination processes become saturated at high doses",
+      "B": "Always linear across all doses",
+      "C": "Cannot be used for risk assessment",
+      "D": "Only applies to drugs"
+    },
+    "correct_answer": "A",
+    "explanation": "Nonlinear kinetics occur when elimination processes become saturated at high doses. AUC increases disproportionately; half-life may increase",
+    "source_citation": "Casarett & Doull Ch.7, pp. 420-449",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes air pollution?",
+    "options": {
+      "A": "Only affects respiratory system",
+      "B": "Measured solely by PM10",
+      "C": "Exclusively outdoor phenomenon",
+      "D": "PM2.5 is more harmful than PM10 because smaller particles penetrate deeper into alveoli"
+    },
+    "correct_answer": "D",
+    "explanation": "PM2.5 is more harmful than PM10 because smaller particles penetrate deeper into alveoli. PM10 is largely deposited in upper airways",
+    "source_citation": "Casarett & Doull Ch.31, pp. 720-755",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes air pollution?",
+    "options": {
+      "A": "Only affects respiratory system",
+      "B": "Exclusively outdoor phenomenon",
+      "C": "Ground-level ozone is a secondary pollutant formed by photochemical reactions of NOx and VOCs",
+      "D": "Measured solely by PM10"
+    },
+    "correct_answer": "C",
+    "explanation": "Ground-level ozone is a secondary pollutant formed by photochemical reactions of NOx and VOCs. Causes respiratory inflammation and decreased lung function",
+    "source_citation": "Casarett & Doull Ch.31, pp. 720-755",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "All of the following are correct regarding air pollution EXCEPT:",
+    "options": {
+      "A": "Measured solely by PM10",
+      "B": "No health effects at ambient levels",
+      "C": "Only affects respiratory system",
+      "D": "EPA NAAQS set limits for criteria pollutants including PM2.5, PM10, O3, CO, SO2, NO2, and lead"
+    },
+    "correct_answer": "A",
+    "explanation": "EPA NAAQS set limits for criteria pollutants including PM2.5, PM10, O3, CO, SO2, NO2, and lead. NAAQS are set to protect public health with adequate margin of safety",
+    "source_citation": "Casarett & Doull Ch.31, pp. 720-755",
+    "bloom_level": "Application",
+    "format": "EXCEPT/NOT",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "All of the following are correct regarding analytical tox EXCEPT:",
+    "options": {
+      "A": "GC-MS cannot detect volatiles",
+      "B": "LC-MS/MS less specific than immunoassay",
+      "C": "Immunoassays provide definitive ID",
+      "D": "GC-MS is the gold standard for volatile and semi-volatile compound identification in forensic toxicology"
+    },
+    "correct_answer": "C",
+    "explanation": "GC-MS is the gold standard for volatile and semi-volatile compound identification in forensic toxicology. Provides chromatographic separation and mass spectral identification",
+    "source_citation": "Casarett & Doull Ch.32, pp. 756-779",
+    "bloom_level": "Application",
+    "format": "EXCEPT/NOT",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "All of the following are correct regarding analytical tox EXCEPT:",
+    "options": {
+      "A": "GC-MS cannot detect volatiles",
+      "B": "Immunoassays provide definitive ID",
+      "C": "LC-MS/MS has replaced immunoassay for confirmatory drug testing due to higher specificity",
+      "D": "LC-MS/MS less specific than immunoassay"
+    },
+    "correct_answer": "A",
+    "explanation": "LC-MS/MS has replaced immunoassay for confirmatory drug testing due to higher specificity. MRM provides excellent selectivity and sensitivity",
+    "source_citation": "Casarett & Doull Ch.32, pp. 756-779",
+    "bloom_level": "Application",
+    "format": "EXCEPT/NOT",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "All of the following are correct regarding analytical tox EXCEPT:",
+    "options": {
+      "A": "Immunoassays provide definitive ID",
+      "B": "LC-MS/MS less specific than immunoassay",
+      "C": "Immunoassays are used for initial screening but can produce false positives due to cross-reactivity",
+      "D": "GC-MS cannot detect volatiles"
+    },
+    "correct_answer": "B",
+    "explanation": "Immunoassays are used for initial screening but can produce false positives due to cross-reactivity. Confirmation by GC-MS or LC-MS/MS is required",
+    "source_citation": "Casarett & Doull Ch.32, pp. 756-779",
+    "bloom_level": "Application",
+    "format": "EXCEPT/NOT",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "All of the following are correct regarding clinical tox EXCEPT:",
+    "options": {
+      "A": "Activated charcoal contraindicated always",
+      "B": "All poisonings require chelation",
+      "C": "Gastric lavage always indicated",
+      "D": "N-acetylcysteine (NAC) is the antidote for acetaminophen toxicity, replenishing glutathione"
+    },
+    "correct_answer": "B",
+    "explanation": "N-acetylcysteine (NAC) is the antidote for acetaminophen toxicity, replenishing glutathione. Most effective within 8-10 hours of ingestion",
+    "source_citation": "Casarett & Doull Ch.33, pp. 780-802",
+    "bloom_level": "Application",
+    "format": "EXCEPT/NOT",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "All of the following are correct regarding clinical tox EXCEPT:",
+    "options": {
+      "A": "Atropine blocks muscarinic effects in organophosphate poisoning but does not reverse nicotinic effects",
+      "B": "All poisonings require chelation",
+      "C": "Gastric lavage always indicated",
+      "D": "Activated charcoal contraindicated always"
+    },
+    "correct_answer": "D",
+    "explanation": "Atropine blocks muscarinic effects in organophosphate poisoning but does not reverse nicotinic effects. Pralidoxime is needed for AChE reactivation",
+    "source_citation": "Casarett & Doull Ch.33, pp. 780-802",
+    "bloom_level": "Application",
+    "format": "EXCEPT/NOT",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "All of the following are correct regarding occupational tox EXCEPT:",
+    "options": {
+      "A": "TLV-TWA is the 8-hour time-weighted average; TLV-STEL is 15-minute; TLV-C is ceiling",
+      "B": "TLV-TWA is enforceable law",
+      "C": "Occupational exposures always safe",
+      "D": "BEIs replace air monitoring"
+    },
+    "correct_answer": "D",
+    "explanation": "TLV-TWA is the 8-hour time-weighted average; TLV-STEL is 15-minute; TLV-C is ceiling. TLVs are guidelines, not legally enforceable (unlike OSHA PELs)",
+    "source_citation": "Casarett & Doull Ch.34, pp. 803-825",
+    "bloom_level": "Application",
+    "format": "EXCEPT/NOT",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "All of the following are correct regarding occupational tox EXCEPT:",
+    "options": {
+      "A": "PPE is only protection needed",
+      "B": "Biological Exposure Indices (BEIs) complement air monitoring by reflecting total exposure via all routes",
+      "C": "TLV-TWA is enforceable law",
+      "D": "BEIs replace air monitoring"
+    },
+    "correct_answer": "A",
+    "explanation": "Biological Exposure Indices (BEIs) complement air monitoring by reflecting total exposure via all routes. BEIs are guidelines for levels in biological specimens",
+    "source_citation": "Casarett & Doull Ch.34, pp. 803-825",
+    "bloom_level": "Application",
+    "format": "EXCEPT/NOT",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which quantitative relationship correctly describes regulatory tox?",
+    "options": {
+      "A": "TSCA regulates chemical substances in commerce through EPA pre-manufacture notification",
+      "B": "GLP compliance is optional",
+      "C": "Regulatory requirements identical worldwide",
+      "D": "TSCA regulates all chemicals immediately"
+    },
+    "correct_answer": "A",
+    "explanation": "TSCA regulates chemical substances in commerce through EPA pre-manufacture notification. EPA can require testing and restrict new chemicals",
+    "source_citation": "Casarett & Doull Ch.35, pp. 826-846",
+    "bloom_level": "Application",
+    "format": "calculation",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which quantitative relationship correctly describes regulatory tox?",
+    "options": {
+      "A": "Regulatory requirements identical worldwide",
+      "B": "FIFRA requires EPA registration of all pesticides with mammalian toxicity, environmental fate, and efficacy data",
+      "C": "GLP compliance is optional",
+      "D": "TSCA regulates all chemicals immediately"
+    },
+    "correct_answer": "B",
+    "explanation": "FIFRA requires EPA registration of all pesticides with mammalian toxicity, environmental fate, and efficacy data. Registration must be renewed periodically",
+    "source_citation": "Casarett & Doull Ch.35, pp. 826-846",
+    "bloom_level": "Application",
+    "format": "calculation",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which quantitative relationship correctly describes study design?",
+    "options": {
+      "A": "Only one dose level needed",
+      "B": "Subchronic studies are 90-day rodent and 6-month non-rodent studies to identify target organs",
+      "C": "Chronic studies only in rats",
+      "D": "Satellite groups always sacrificed at interim"
+    },
+    "correct_answer": "B",
+    "explanation": "Subchronic studies are 90-day rodent and 6-month non-rodent studies to identify target organs. Used to establish dose ranges for chronic studies",
+    "source_citation": "Hayes Ch.25, pp. 669-702",
+    "bloom_level": "Analysis",
+    "format": "calculation",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which quantitative relationship correctly describes study design?",
+    "options": {
+      "A": "Chronic rodent studies are typically 2 years (lifetime) to detect carcinogenic potential",
+      "B": "Only one dose level needed",
+      "C": "Chronic studies only in rats",
+      "D": "Satellite groups always sacrificed at interim"
+    },
+    "correct_answer": "A",
+    "explanation": "Chronic rodent studies are typically 2 years (lifetime) to detect carcinogenic potential. Minimum 50 animals/sex/group for carcinogenicity studies",
+    "source_citation": "Hayes Ch.25, pp. 669-702",
+    "bloom_level": "Analysis",
+    "format": "calculation",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which quantitative relationship correctly describes study design?",
+    "options": {
+      "A": "Satellite groups provide interim sacrifices or recovery assessments in toxicity studies",
+      "B": "Satellite groups always sacrificed at interim",
+      "C": "Historical controls not important",
+      "D": "Only one dose level needed"
+    },
+    "correct_answer": "A",
+    "explanation": "Satellite groups provide interim sacrifices or recovery assessments in toxicity studies. Recovery groups assess reversibility of treatment effects",
+    "source_citation": "Hayes Ch.25, pp. 669-702",
+    "bloom_level": "Analysis",
+    "format": "calculation",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which quantitative relationship correctly describes study design?",
+    "options": {
+      "A": "Chronic studies only in rats",
+      "B": "Satellite groups always sacrificed at interim",
+      "C": "The maximum tolerated dose (MTD) is the highest dose that does not shorten survival by >10%",
+      "D": "Historical controls not important"
+    },
+    "correct_answer": "C",
+    "explanation": "The maximum tolerated dose (MTD) is the highest dose that does not shorten survival by >10%. Used as high dose in carcinogenicity bioassays",
+    "source_citation": "Hayes Ch.25, pp. 669-702",
+    "bloom_level": "Analysis",
+    "format": "calculation",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which quantitative relationship correctly describes carcinogenicity?",
+    "options": {
+      "A": "Historical controls not used",
+      "B": "Tumor incidence not adjusted for mortality",
+      "C": "The 2-year rodent bioassay is the gold standard for carcinogenicity assessment",
+      "D": "Only one species required"
+    },
+    "correct_answer": "C",
+    "explanation": "The 2-year rodent bioassay is the gold standard for carcinogenicity assessment. Uses rats and mice at 3 dose levels plus controls",
+    "source_citation": "Hayes Ch.27, pp. 739-778",
+    "bloom_level": "Analysis",
+    "format": "calculation",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "A toxicologist evaluating carcinogenicity should consider which of the following?",
+    "options": {
+      "A": "Tumor incidence not adjusted for mortality",
+      "B": "The polyk adjustment accounts for differential mortality in carcinogenicity bioassays",
+      "C": "MTD = dose killing 50% of animals",
+      "D": "Only one species required"
+    },
+    "correct_answer": "B",
+    "explanation": "The polyk adjustment accounts for differential mortality in carcinogenicity bioassays. Adjusts tumor incidence for animals that died early",
+    "source_citation": "Hayes Ch.27, pp. 739-778",
+    "bloom_level": "Analysis",
+    "format": "vignette",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "A toxicologist evaluating carcinogenicity should consider which of the following?",
+    "options": {
+      "A": "Only one species required",
+      "B": "Tumor incidence not adjusted for mortality",
+      "C": "Peto analysis is the preferred statistical method for evaluating tumor incidence",
+      "D": "Historical controls not used"
+    },
+    "correct_answer": "C",
+    "explanation": "Peto analysis is the preferred statistical method for evaluating tumor incidence. Accounts for competing risks of non-tumor death",
+    "source_citation": "Hayes Ch.27, pp. 739-778",
+    "bloom_level": "Analysis",
+    "format": "vignette",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "A toxicologist evaluating genetic tox should consider which of the following?",
+    "options": {
+      "A": "The Ames test uses Salmonella typhimurium strains to detect bacterial reverse mutations",
+      "B": "Micronucleus detects only clastogenic effects",
+      "C": "Metabolic activation not needed",
+      "D": "Ames test uses mammalian cells"
+    },
+    "correct_answer": "A",
+    "explanation": "The Ames test uses Salmonella typhimurium strains to detect bacterial reverse mutations. Strains TA98, TA100 detect different mutation types; S9 provides metabolic activation",
+    "source_citation": "Hayes Ch.26, pp. 703-738",
+    "bloom_level": "Analysis",
+    "format": "vignette",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "A toxicologist evaluating genetic tox should consider which of the following?",
+    "options": {
+      "A": "In vivo micronucleus test detects clastogenic and aneugenic effects in bone marrow or blood",
+      "B": "Metabolic activation not needed",
+      "C": "Ames test uses mammalian cells",
+      "D": "In vitro sufficient for assessment"
+    },
+    "correct_answer": "A",
+    "explanation": "In vivo micronucleus test detects clastogenic and aneugenic effects in bone marrow or blood. OECD TG 474; micronuclei contain chromosome fragments or whole chromosomes",
+    "source_citation": "Hayes Ch.26, pp. 703-738",
+    "bloom_level": "Analysis",
+    "format": "vignette",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "A toxicologist evaluating genetic tox should consider which of the following?",
+    "options": {
+      "A": "Micronucleus detects only clastogenic effects",
+      "B": "In vitro sufficient for assessment",
+      "C": "Metabolic activation not needed",
+      "D": "The comet assay (single-cell gel electrophoresis) detects DNA strand breaks"
+    },
+    "correct_answer": "D",
+    "explanation": "The comet assay (single-cell gel electrophoresis) detects DNA strand breaks. Measures tail length and tail moment as indicators of DNA damage",
+    "source_citation": "Hayes Ch.26, pp. 703-738",
+    "bloom_level": "Analysis",
+    "format": "vignette",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "A toxicologist evaluating genetic tox should consider which of the following?",
+    "options": {
+      "A": "Micronucleus detects only clastogenic effects",
+      "B": "Metabolic activation not needed",
+      "C": "In vitro sufficient for assessment",
+      "D": "ICH M3 requires genotoxicity testing battery: Ames, in vitro chromosomal aberration, in vivo micronucleus"
+    },
+    "correct_answer": "D",
+    "explanation": "ICH M3 requires genotoxicity testing battery: Ames, in vitro chromosomal aberration, in vivo micronucleus. Must be completed before first human dosing",
+    "source_citation": "ICH M3(R2) Guideline",
+    "bloom_level": "Analysis",
+    "format": "vignette",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "A toxicologist evaluating epigenetic should consider which of the following?",
+    "options": {
+      "A": "DNA methylation at CpG islands typically silences gene expression",
+      "B": "Methylation activates expression",
+      "C": "Deacetylation activates transcription",
+      "D": "No role in disease"
+    },
+    "correct_answer": "A",
+    "explanation": "DNA methylation at CpG islands typically silences gene expression. Global hypomethylation and gene-specific hypermethylation are common in cancer",
+    "source_citation": "Hayes Ch.26, pp. 703-738",
+    "bloom_level": "Analysis",
+    "format": "vignette",
+    "sub_domain": "A.Design"
+  }
+]

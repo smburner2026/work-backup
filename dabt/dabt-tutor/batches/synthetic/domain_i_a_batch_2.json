@@ -1,0 +1,752 @@
+[
+  {
+    "question_text": "Which of the following correctly describes regulatory tox?",
+    "options": {
+      "A": "TSCA regulates all chemicals immediately",
+      "B": "Regulatory requirements identical worldwide",
+      "C": "FIFRA does not require efficacy data",
+      "D": "TSCA regulates chemical substances in commerce through EPA pre-manufacture notification"
+    },
+    "correct_answer": "D",
+    "explanation": "TSCA regulates chemical substances in commerce through EPA pre-manufacture notification. EPA can require testing and restrict new chemicals",
+    "source_citation": "Casarett & Doull Ch.35, pp. 826-846",
+    "bloom_level": "Recall",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes regulatory tox?",
+    "options": {
+      "A": "TSCA regulates all chemicals immediately",
+      "B": "GLP compliance is optional",
+      "C": "FIFRA does not require efficacy data",
+      "D": "FIFRA requires EPA registration of all pesticides with mammalian toxicity, environmental fate, and efficacy data"
+    },
+    "correct_answer": "D",
+    "explanation": "FIFRA requires EPA registration of all pesticides with mammalian toxicity, environmental fate, and efficacy data. Registration must be renewed periodically",
+    "source_citation": "Casarett & Doull Ch.35, pp. 826-846",
+    "bloom_level": "Recall",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes study design?",
+    "options": {
+      "A": "Chronic studies only in rats",
+      "B": "Subchronic studies are 90-day rodent and 6-month non-rodent studies to identify target organs",
+      "C": "Historical controls not important",
+      "D": "Only one dose level needed"
+    },
+    "correct_answer": "B",
+    "explanation": "Subchronic studies are 90-day rodent and 6-month non-rodent studies to identify target organs. Used to establish dose ranges for chronic studies",
+    "source_citation": "Hayes Ch.25, pp. 669-702",
+    "bloom_level": "Recall",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes study design?",
+    "options": {
+      "A": "Satellite groups always sacrificed at interim",
+      "B": "Chronic rodent studies are typically 2 years (lifetime) to detect carcinogenic potential",
+      "C": "Only one dose level needed",
+      "D": "Chronic studies only in rats"
+    },
+    "correct_answer": "B",
+    "explanation": "Chronic rodent studies are typically 2 years (lifetime) to detect carcinogenic potential. Minimum 50 animals/sex/group for carcinogenicity studies",
+    "source_citation": "Hayes Ch.25, pp. 669-702",
+    "bloom_level": "Recall",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes study design?",
+    "options": {
+      "A": "Satellite groups always sacrificed at interim",
+      "B": "Satellite groups provide interim sacrifices or recovery assessments in toxicity studies",
+      "C": "Only one dose level needed",
+      "D": "Chronic studies only in rats"
+    },
+    "correct_answer": "B",
+    "explanation": "Satellite groups provide interim sacrifices or recovery assessments in toxicity studies. Recovery groups assess reversibility of treatment effects",
+    "source_citation": "Hayes Ch.25, pp. 669-702",
+    "bloom_level": "Recall",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes study design?",
+    "options": {
+      "A": "Only one dose level needed",
+      "B": "The maximum tolerated dose (MTD) is the highest dose that does not shorten survival by >10%",
+      "C": "Chronic studies only in rats",
+      "D": "Historical controls not important"
+    },
+    "correct_answer": "B",
+    "explanation": "The maximum tolerated dose (MTD) is the highest dose that does not shorten survival by >10%. Used as high dose in carcinogenicity bioassays",
+    "source_citation": "Hayes Ch.25, pp. 669-702",
+    "bloom_level": "Recall",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes carcinogenicity?",
+    "options": {
+      "A": "MTD = dose killing 50% of animals",
+      "B": "Tumor incidence not adjusted for mortality",
+      "C": "The 2-year rodent bioassay is the gold standard for carcinogenicity assessment",
+      "D": "Only one species required"
+    },
+    "correct_answer": "C",
+    "explanation": "The 2-year rodent bioassay is the gold standard for carcinogenicity assessment. Uses rats and mice at 3 dose levels plus controls",
+    "source_citation": "Hayes Ch.27, pp. 739-778",
+    "bloom_level": "Recall",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes carcinogenicity?",
+    "options": {
+      "A": "The polyk adjustment accounts for differential mortality in carcinogenicity bioassays",
+      "B": "Tumor incidence not adjusted for mortality",
+      "C": "MTD = dose killing 50% of animals",
+      "D": "Only one species required"
+    },
+    "correct_answer": "A",
+    "explanation": "The polyk adjustment accounts for differential mortality in carcinogenicity bioassays. Adjusts tumor incidence for animals that died early",
+    "source_citation": "Hayes Ch.27, pp. 739-778",
+    "bloom_level": "Recall",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes carcinogenicity?",
+    "options": {
+      "A": "Historical controls not used",
+      "B": "Only one species required",
+      "C": "MTD = dose killing 50% of animals",
+      "D": "Peto analysis is the preferred statistical method for evaluating tumor incidence"
+    },
+    "correct_answer": "D",
+    "explanation": "Peto analysis is the preferred statistical method for evaluating tumor incidence. Accounts for competing risks of non-tumor death",
+    "source_citation": "Hayes Ch.27, pp. 739-778",
+    "bloom_level": "Recall",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes genetic tox?",
+    "options": {
+      "A": "Ames test uses mammalian cells",
+      "B": "Micronucleus detects only clastogenic effects",
+      "C": "The Ames test uses Salmonella typhimurium strains to detect bacterial reverse mutations",
+      "D": "Metabolic activation not needed"
+    },
+    "correct_answer": "C",
+    "explanation": "The Ames test uses Salmonella typhimurium strains to detect bacterial reverse mutations. Strains TA98, TA100 detect different mutation types; S9 provides metabolic activation",
+    "source_citation": "Hayes Ch.26, pp. 703-738",
+    "bloom_level": "Recall",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes genetic tox?",
+    "options": {
+      "A": "In vitro sufficient for assessment",
+      "B": "Ames test uses mammalian cells",
+      "C": "In vivo micronucleus test detects clastogenic and aneugenic effects in bone marrow or blood",
+      "D": "Micronucleus detects only clastogenic effects"
+    },
+    "correct_answer": "C",
+    "explanation": "In vivo micronucleus test detects clastogenic and aneugenic effects in bone marrow or blood. OECD TG 474; micronuclei contain chromosome fragments or whole chromosomes",
+    "source_citation": "Hayes Ch.26, pp. 703-738",
+    "bloom_level": "Recall",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes genetic tox?",
+    "options": {
+      "A": "In vitro sufficient for assessment",
+      "B": "Micronucleus detects only clastogenic effects",
+      "C": "The comet assay (single-cell gel electrophoresis) detects DNA strand breaks",
+      "D": "Ames test uses mammalian cells"
+    },
+    "correct_answer": "C",
+    "explanation": "The comet assay (single-cell gel electrophoresis) detects DNA strand breaks. Measures tail length and tail moment as indicators of DNA damage",
+    "source_citation": "Hayes Ch.26, pp. 703-738",
+    "bloom_level": "Recall",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes genetic tox?",
+    "options": {
+      "A": "ICH M3 requires genotoxicity testing battery: Ames, in vitro chromosomal aberration, in vivo micronucleus",
+      "B": "Ames test uses mammalian cells",
+      "C": "Metabolic activation not needed",
+      "D": "Micronucleus detects only clastogenic effects"
+    },
+    "correct_answer": "A",
+    "explanation": "ICH M3 requires genotoxicity testing battery: Ames, in vitro chromosomal aberration, in vivo micronucleus. Must be completed before first human dosing",
+    "source_citation": "ICH M3(R2) Guideline",
+    "bloom_level": "Recall",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes epigenetic?",
+    "options": {
+      "A": "No role in disease",
+      "B": "Methylation activates expression",
+      "C": "DNA methylation at CpG islands typically silences gene expression",
+      "D": "Epigenetic changes never heritable"
+    },
+    "correct_answer": "C",
+    "explanation": "DNA methylation at CpG islands typically silences gene expression. Global hypomethylation and gene-specific hypermethylation are common in cancer",
+    "source_citation": "Hayes Ch.26, pp. 703-738",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes epigenetic?",
+    "options": {
+      "A": "Methylation activates expression",
+      "B": "Deacetylation activates transcription",
+      "C": "Histone acetylation is generally associated with active gene transcription",
+      "D": "No role in disease"
+    },
+    "correct_answer": "C",
+    "explanation": "Histone acetylation is generally associated with active gene transcription. HDACs remove acetyl groups, leading to gene silencing",
+    "source_citation": "Hayes Ch.26, pp. 703-738",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes guidelines?",
+    "options": {
+      "A": "ICH guidelines legally binding everywhere",
+      "B": "OECD guidelines optional",
+      "C": "ICH S1A requires carcinogenicity studies when drug is used clinically for 6 months or longer",
+      "D": "GLP not required for safety studies"
+    },
+    "correct_answer": "C",
+    "explanation": "ICH S1A requires carcinogenicity studies when drug is used clinically for 6 months or longer. Also required when carcinogenicity concern exists from SAR or short-term studies",
+    "source_citation": "ICH S1A Guideline",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes guidelines?",
+    "options": {
+      "A": "GLP not required for safety studies",
+      "B": "OECD guidelines optional",
+      "C": "S1A requires studies for all drugs",
+      "D": "ICH S1B allows alternative models (transgenic or 6-month) instead of two 2-year bioassays"
+    },
+    "correct_answer": "D",
+    "explanation": "ICH S1B allows alternative models (transgenic or 6-month) instead of two 2-year bioassays. Reduces animal use while maintaining detection capability",
+    "source_citation": "ICH S1B Guideline",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes guidelines?",
+    "options": {
+      "A": "GLP not required for safety studies",
+      "B": "S1A requires studies for all drugs",
+      "C": "OECD guidelines optional",
+      "D": "OECD TG 471 describes the bacterial reverse mutation test (Ames test)"
+    },
+    "correct_answer": "D",
+    "explanation": "OECD TG 471 describes the bacterial reverse mutation test (Ames test). Uses Salmonella and/or E. coli with and without metabolic activation",
+    "source_citation": "OECD TG 471",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes guidelines?",
+    "options": {
+      "A": "GLP not required for safety studies",
+      "B": "OECD guidelines optional",
+      "C": "S1A requires studies for all drugs",
+      "D": "OECD TG 474 describes the mammalian erythrocyte micronucleus test"
+    },
+    "correct_answer": "D",
+    "explanation": "OECD TG 474 describes the mammalian erythrocyte micronucleus test. Bone marrow or peripheral blood in mice or rats",
+    "source_citation": "OECD TG 474",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes guidelines?",
+    "options": {
+      "A": "GLP not required for safety studies",
+      "B": "GLP regulations require nonclinical studies to be conducted per predetermined protocols with QA oversight",
+      "C": "S1A requires studies for all drugs",
+      "D": "OECD guidelines optional"
+    },
+    "correct_answer": "B",
+    "explanation": "GLP regulations require nonclinical studies to be conducted per predetermined protocols with QA oversight. Key elements: QA unit, SOPs, study director, raw data archival",
+    "source_citation": "21 CFR Part 58 / OECD GLP",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes guidelines?",
+    "options": {
+      "A": "ICH guidelines legally binding everywhere",
+      "B": "S1A requires studies for all drugs",
+      "C": "OECD GLP requires a Quality Assurance Program separate from the study director",
+      "D": "GLP not required for safety studies"
+    },
+    "correct_answer": "C",
+    "explanation": "OECD GLP requires a Quality Assurance Program separate from the study director. QA performs inspections and audits to ensure data integrity",
+    "source_citation": "OECD GLP Principles",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes guidelines?",
+    "options": {
+      "A": "S1A requires studies for all drugs",
+      "B": "ICH Q3A requires identification of impurities above the identification threshold in drug substances",
+      "C": "ICH guidelines legally binding everywhere",
+      "D": "GLP not required for safety studies"
+    },
+    "correct_answer": "B",
+    "explanation": "ICH Q3A requires identification of impurities above the identification threshold in drug substances. Threshold depends on maximum daily dose",
+    "source_citation": "ICH Q3A(R2)",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes guidelines?",
+    "options": {
+      "A": "OECD guidelines optional",
+      "B": "GLP not required for safety studies",
+      "C": "S1A requires studies for all drugs",
+      "D": "ICH S7B requires hERG channel assay and telemetry study for QT prolongation assessment"
+    },
+    "correct_answer": "D",
+    "explanation": "ICH S7B requires hERG channel assay and telemetry study for QT prolongation assessment. In vitro hERG + in vivo conscious animal telemetry",
+    "source_citation": "ICH S7B",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes guidelines?",
+    "options": {
+      "A": "ICH S10 requires photosafety evaluation when drug has significant skin absorption",
+      "B": "OECD guidelines optional",
+      "C": "GLP not required for safety studies",
+      "D": "S1A requires studies for all drugs"
+    },
+    "correct_answer": "A",
+    "explanation": "ICH S10 requires photosafety evaluation when drug has significant skin absorption. Includes in vitro phototoxicity and in vivo photosafety assessment",
+    "source_citation": "ICH S10",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes epa regulations?",
+    "options": {
+      "A": "EPA does not require risk assessment",
+      "B": "EPA GLP (40 CFR 160) applies to FIFRA testing; 40 CFR 792 applies to TSCA testing",
+      "C": "FIFRA and TSCA identical GLP",
+      "D": "GLP voluntary for TSCA"
+    },
+    "correct_answer": "B",
+    "explanation": "EPA GLP (40 CFR 160) applies to FIFRA testing; 40 CFR 792 applies to TSCA testing. Similar to 21 CFR 58 but specific to EPA-regulated testing",
+    "source_citation": "EPA 40 CFR 160/792",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes epa regulations?",
+    "options": {
+      "A": "FIFRA and TSCA identical GLP",
+      "B": "The Red Book describes EPA's four-step risk assessment paradigm",
+      "C": "Red Book only covers cancer",
+      "D": "EPA does not require risk assessment"
+    },
+    "correct_answer": "B",
+    "explanation": "The Red Book describes EPA's four-step risk assessment paradigm. Hazard ID, dose-response, exposure assessment, risk characterization",
+    "source_citation": "EPA RedBook (1986/2005)",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes dose response?",
+    "options": {
+      "A": "NOAEL is the highest dose with no statistically significant adverse effect increase",
+      "B": "RfDs from clinical data only",
+      "C": "MOE used for threshold effects",
+      "D": "UFs only for cancer risk"
+    },
+    "correct_answer": "A",
+    "explanation": "NOAEL is the highest dose with no statistically significant adverse effect increase. LOAEL is the lowest dose with significant effect",
+    "source_citation": "EPA Risk Assessment Guidance",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes dose response?",
+    "options": {
+      "A": "MOE used for threshold effects",
+      "B": "Benchmark dose (BMD) uses the full dose-response dataset rather than relying on a single NOAEL",
+      "C": "RfDs from clinical data only",
+      "D": "UFs only for cancer risk"
+    },
+    "correct_answer": "B",
+    "explanation": "Benchmark dose (BMD) uses the full dose-response dataset rather than relying on a single NOAEL. BMD10 = dose for 10% response above background",
+    "source_citation": "EPA BMD Technical Guidance",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "All of the following are correct regarding dose response EXCEPT:",
+    "options": {
+      "A": "Uncertainty factors (UFs) are applied to NOAEL or BMD to derive RfDs or RfCs",
+      "B": "UFs only for cancer risk",
+      "C": "RfDs from clinical data only",
+      "D": "NOAEL and BMD always equal"
+    },
+    "correct_answer": "C",
+    "explanation": "Uncertainty factors (UFs) are applied to NOAEL or BMD to derive RfDs or RfCs. Standard UFs: 10x interspecies, 10x intraspecies, 3-10x LOAEL-to-NOAEL",
+    "source_citation": "EPA Risk Assessment Guidance",
+    "bloom_level": "Application",
+    "format": "EXCEPT/NOT",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "All of the following are correct regarding species selection EXCEPT:",
+    "options": {
+      "A": "Mice preferred for chronic",
+      "B": "Only one species needed for all studies",
+      "C": "Non-rodent studies never required",
+      "D": "The rat is the most commonly used species in acute toxicity studies"
+    },
+    "correct_answer": "C",
+    "explanation": "The rat is the most commonly used species in acute toxicity studies. Mice, rabbits, and guinea pigs also used per regulatory requirements",
+    "source_citation": "Hayes Ch.24, pp. 642-668",
+    "bloom_level": "Application",
+    "format": "EXCEPT/NOT",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "All of the following are correct regarding species selection EXCEPT:",
+    "options": {
+      "A": "Mice preferred for chronic",
+      "B": "Non-rodent species (dogs, NHPs) are required in subchronic studies for drugs intended for chronic use",
+      "C": "Non-rodent studies never required",
+      "D": "Only one species needed for all studies"
+    },
+    "correct_answer": "D",
+    "explanation": "Non-rodent species (dogs, NHPs) are required in subchronic studies for drugs intended for chronic use. Provides assessment in a second species",
+    "source_citation": "Hayes Ch.25, pp. 669-702",
+    "bloom_level": "Application",
+    "format": "EXCEPT/NOT",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "All of the following are correct regarding statistical EXCEPT:",
+    "options": {
+      "A": "Historical controls irrelevant",
+      "B": "Pairwise always more powerful than trend",
+      "C": "Cochran-Armitage trend test assesses dose-related trends in tumor incidence",
+      "D": "Polyk only for non-tumor endpoints"
+    },
+    "correct_answer": "B",
+    "explanation": "Cochran-Armitage trend test assesses dose-related trends in tumor incidence. More powerful than pairwise comparisons when dose-response exists",
+    "source_citation": "Hayes Ch.27, pp. 739-778",
+    "bloom_level": "Application",
+    "format": "EXCEPT/NOT",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "All of the following are correct regarding statistical EXCEPT:",
+    "options": {
+      "A": "Pairwise always more powerful than trend",
+      "B": "Dose-response not statistically assessed",
+      "C": "Historical control data account for spontaneous tumor rates varying by strain, sex, and facility",
+      "D": "Historical controls irrelevant"
+    },
+    "correct_answer": "B",
+    "explanation": "Historical control data account for spontaneous tumor rates varying by strain, sex, and facility. Essential for interpreting tumor findings in bioassays",
+    "source_citation": "Hayes Ch.27, pp. 739-778",
+    "bloom_level": "Application",
+    "format": "EXCEPT/NOT",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "All of the following are correct regarding quality assurance EXCEPT:",
+    "options": {
+      "A": "Study director also serves as QA",
+      "B": "QA unit must be independent of the study director with access to all study records",
+      "C": "QA inspections optional",
+      "D": "Raw data can be destroyed after study"
+    },
+    "correct_answer": "D",
+    "explanation": "QA unit must be independent of the study director with access to all study records. Inspects studies at intervals and reports to management",
+    "source_citation": "21 CFR Part 58",
+    "bloom_level": "Application",
+    "format": "EXCEPT/NOT",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "All of the following are correct regarding quality assurance EXCEPT:",
+    "options": {
+      "A": "Raw data can be destroyed after study",
+      "B": "QA inspections optional",
+      "C": "Study director also serves as QA",
+      "D": "Raw data must be archived for minimum 10 years for FDA-regulated studies"
+    },
+    "correct_answer": "A",
+    "explanation": "Raw data must be archived for minimum 10 years for FDA-regulated studies. Includes all original observations, records, and photographs",
+    "source_citation": "21 CFR Part 58",
+    "bloom_level": "Application",
+    "format": "EXCEPT/NOT",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "All of the following are correct regarding quality assurance EXCEPT:",
+    "options": {
+      "A": "Raw data can be destroyed after study",
+      "B": "QA inspections optional",
+      "C": "Study director also serves as QA",
+      "D": "Standard Operating Procedures (SOPs) are required for all GLP-compliant studies"
+    },
+    "correct_answer": "C",
+    "explanation": "Standard Operating Procedures (SOPs) are required for all GLP-compliant studies. SOPs ensure consistency and reproducibility of methods",
+    "source_citation": "21 CFR Part 58 / OECD GLP",
+    "bloom_level": "Application",
+    "format": "EXCEPT/NOT",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which quantitative relationship correctly describes membrane transport?",
+    "options": {
+      "A": "Small hydrophilic molecules (up to about 600 Da) permeate membranes through aqueous pores via paracellular diffusion",
+      "B": "Only occurs via active transport",
+      "C": "Limited to aqueous pores only",
+      "D": "Independent of molecular weight"
+    },
+    "correct_answer": "A",
+    "explanation": "Small hydrophilic molecules (up to about 600 Da) permeate membranes through aqueous pores via paracellular diffusion. Fick's law governs simple diffusion - chemicals move from higher to lower concentration without energy expenditure",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Application",
+    "format": "calculation",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which quantitative relationship correctly describes membrane transport?",
+    "options": {
+      "A": "Requires ATP for all transport",
+      "B": "Lipid solubility is determined by the octanol/water partition coefficient (log P), with positive values indicating high lipid solubility",
+      "C": "Limited to aqueous pores only",
+      "D": "Only occurs via active transport"
+    },
+    "correct_answer": "B",
+    "explanation": "Lipid solubility is determined by the octanol/water partition coefficient (log P), with positive values indicating high lipid solubility. DDT has log P of 6.76, TCDD has log P of 7.05",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Application",
+    "format": "calculation",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which quantitative relationship correctly describes membrane transport?",
+    "options": {
+      "A": "The Henderson-Hasselbalch equation describes pH as a function of pKa for weak organic acids and bases",
+      "B": "Limited to aqueous pores only",
+      "C": "Only occurs via active transport",
+      "D": "Independent of molecular weight"
+    },
+    "correct_answer": "A",
+    "explanation": "The Henderson-Hasselbalch equation describes pH as a function of pKa for weak organic acids and bases. For acids: pH - pKa = log([ionized]/[nonionized]); for bases: pKa - pH = log([nonionized]/[ionized])",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Analysis",
+    "format": "calculation",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which quantitative relationship correctly describes membrane transport?",
+    "options": {
+      "A": "Active transport requires energy, exhibits saturability, selectivity, and competitive inhibition",
+      "B": "Independent of molecular weight",
+      "C": "Only occurs via active transport",
+      "D": "Requires ATP for all transport"
+    },
+    "correct_answer": "A",
+    "explanation": "Active transport requires energy, exhibits saturability, selectivity, and competitive inhibition. Metabolic poisons block active transport by inhibiting ATP production",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Analysis",
+    "format": "calculation",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which quantitative relationship correctly describes membrane transport?",
+    "options": {
+      "A": "Requires ATP for all transport",
+      "B": "Limited to aqueous pores only",
+      "C": "Facilitated transport does not require energy input and is not affected by metabolic poisons",
+      "D": "Independent of molecular weight"
+    },
+    "correct_answer": "C",
+    "explanation": "Facilitated transport does not require energy input and is not affected by metabolic poisons. Glucose transport from GI tract occurs via facilitated diffusion",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Analysis",
+    "format": "calculation",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which quantitative relationship correctly describes transporters?",
+    "options": {
+      "A": "Require sodium for all functions",
+      "B": "Function exclusively as influx pumps",
+      "C": "P-glycoprotein (MDR1/ABCB1) was the first active xenobiotic transporter identified, functioning as an efflux pump",
+      "D": "Not subject to genetic polymorphisms"
+    },
+    "correct_answer": "C",
+    "explanation": "P-glycoprotein (MDR1/ABCB1) was the first active xenobiotic transporter identified, functioning as an efflux pump. ABC transporter superfamily has 7 subfamilies with 49 genes in humans",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Analysis",
+    "format": "calculation",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which quantitative relationship correctly describes transporters?",
+    "options": {
+      "A": "Not subject to genetic polymorphisms",
+      "B": "Only expressed in liver",
+      "C": "MRP2 and MRP3 efflux xenobiotic metabolites conjugated with glucuronic acid or glutathione",
+      "D": "Require sodium for all functions"
+    },
+    "correct_answer": "C",
+    "explanation": "MRP2 and MRP3 efflux xenobiotic metabolites conjugated with glucuronic acid or glutathione. Acetaminophen glucuronide is a substrate for both MRP2 and MRP3",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Analysis",
+    "format": "calculation",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "A toxicologist evaluating transporters should consider which of the following?",
+    "options": {
+      "A": "Only expressed in liver",
+      "B": "BCRP (ABCG2) functions as homodimers linked by disulfide bridges at cysteine 603, with MW ~70 kDa",
+      "C": "Not subject to genetic polymorphisms",
+      "D": "Function exclusively as influx pumps"
+    },
+    "correct_answer": "B",
+    "explanation": "BCRP (ABCG2) functions as homodimers linked by disulfide bridges at cysteine 603, with MW ~70 kDa. MDR1 is ~170 kDa, MRP1 is ~190 kDa",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Analysis",
+    "format": "vignette",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "A toxicologist evaluating transporters should consider which of the following?",
+    "options": {
+      "A": "Require sodium for all functions",
+      "B": "OATP1B1 polymorphisms decrease hepatic extraction, increasing systemic exposure to substrates like statins",
+      "C": "Only expressed in liver",
+      "D": "Not subject to genetic polymorphisms"
+    },
+    "correct_answer": "B",
+    "explanation": "OATP1B1 polymorphisms decrease hepatic extraction, increasing systemic exposure to substrates like statins. Decreased OATP1B1 function increases myopathy risk",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Analysis",
+    "format": "vignette",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "A toxicologist evaluating transporters should consider which of the following?",
+    "options": {
+      "A": "Function exclusively as influx pumps",
+      "B": "OCT2 mediates cisplatin uptake into kidney, contributing to dose-limiting nephrotoxicity",
+      "C": "Not subject to genetic polymorphisms",
+      "D": "Only expressed in liver"
+    },
+    "correct_answer": "B",
+    "explanation": "OCT2 mediates cisplatin uptake into kidney, contributing to dose-limiting nephrotoxicity. OCT1 mediates metformin uptake into liver",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Analysis",
+    "format": "vignette",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "A toxicologist evaluating absorption should consider which of the following?",
+    "options": {
+      "A": "Always rapid and complete",
+      "B": "The three main barriers for toxicant absorption are the GI tract, lungs, and skin",
+      "C": "Independent of physicochemical properties",
+      "D": "Requires active transport for all xenobiotics"
+    },
+    "correct_answer": "B",
+    "explanation": "The three main barriers for toxicant absorption are the GI tract, lungs, and skin. Only caustic/corrosive chemicals act directly at point of contact",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Analysis",
+    "format": "vignette",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "A toxicologist evaluating absorption should consider which of the following?",
+    "options": {
+      "A": "Requires active transport for all xenobiotics",
+      "B": "Occurs only through GI tract",
+      "C": "Always rapid and complete",
+      "D": "Weak organic acids are absorbed more readily from the stomach (pH ~2) where they are nonionized"
+    },
+    "correct_answer": "D",
+    "explanation": "Weak organic acids are absorbed more readily from the stomach (pH ~2) where they are nonionized. Organic bases are absorbed predominantly in the intestine",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Analysis",
+    "format": "vignette",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "A toxicologist evaluating absorption should consider which of the following?",
+    "options": {
+      "A": "Occurs only through GI tract",
+      "B": "Requires active transport for all xenobiotics",
+      "C": "Always rapid and complete",
+      "D": "First-pass effect (presystemic elimination) removes chemicals before systemic circulation entry"
+    },
+    "correct_answer": "D",
+    "explanation": "First-pass effect (presystemic elimination) removes chemicals before systemic circulation entry. High first-pass effect limits toxic potential",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Analysis",
+    "format": "vignette",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "A toxicologist evaluating absorption should consider which of the following?",
+    "options": {
+      "A": "The small intestine increases surface area approximately 600-fold through villi and microvilli",
+      "B": "Always rapid and complete",
+      "C": "Independent of physicochemical properties",
+      "D": "Occurs only through GI tract"
+    },
+    "correct_answer": "A",
+    "explanation": "The small intestine increases surface area approximately 600-fold through villi and microvilli. This overcomes low nonionized fraction at intestinal pH",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Analysis",
+    "format": "vignette",
+    "sub_domain": "A.Design"
+  }
+]

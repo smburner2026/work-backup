@@ -176,5 +176,5 @@ Replace hardcoded keys with env-var references sourced from `.env` or BWS. For n
 | `~/.hermes/state-snapshots/*/` | Pre-update DB/cfg snapshots | Scrub each state.db, delete auth.json, check .env for actual keys |
 | `~/.hermes/cron/output/*/` | Saved cron job reports | Check for key text, delete if found |
 | `~/.hermes/logs/*.log` | Agent/gateway logs | `redact_secrets` mitigates; lock to 0600 |
-| `~/.gbrain/brain.pglite.bak` | G-Brain PGLite backup | DB directory — impractical to scrub (PostgreSQL) |
+| *(removed — no longer exists)* | | |
 | `~/.ssh/*` | SSH keys | Already protected (0600), rotate if exposed |

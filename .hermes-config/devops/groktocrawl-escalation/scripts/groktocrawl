@@ -1,0 +1,197 @@
+#!/usr/bin/env bash
+# wsl_deploy.sh — start/stop/status the GroktoCrawl Docker stack on the VPS.
+# Option A: on-demand deployment. Stack runs on VPS localhost, not WSL.
+#
+# Usage:
+#   groktocrawl start      # cd ~/groktocrawl && docker compose up -d
+#   groktocrawl stop       # cd ~/groktocrawl && docker compose down
+#   groktocrawl status     # docker compose ps + health check
+#   groktocrawl logs       # tail last 50 lines of agent-svc logs
+#   groktocrawl minimal    # start without browser-svc/parse-svc/ofelia (~315MB)
+#
+# Install: symlink to ~/.local/bin/groktocrawl after `chmod +x wsl_deploy.sh`
+
+set -euo pipefail
+
+GROKTOCRAWL_DIR="${GROKTOCRAWL_DIR:-$HOME/groktocrawl}"
+HEALTH_URL="http://localhost:8080/health"
+
+c_green=$'\033[0;32m'
+c_red=$'\033[0;31m'
+c_yellow=$'\033[0;33m'
+c_reset=$'\033[0m'
+
+log()  { echo "[$(date +%H:%M:%S)] $*"; }
+ok()   { echo "${c_green}✓${c_reset} $*"; }
+warn() { echo "${c_yellow}!${c_reset} $*"; }
+fail() { echo "${c_red}✗${c_reset} $*" >&2; }
+
+is_up() {
+  docker compose -f "$GROKTOCRAWL_DIR/docker-compose.yml" ps --status running \
+    --services 2>/dev/null | grep -q "agent-svc"
+}
+
+health() {
+  local code
+  code=$(curl -s -o /dev/null -w '%{http_code}' --max-time 5 "$HEALTH_URL" || echo "000")
+  [[ "$code" == "200" ]]
+}
+
+ensure_docker() {
+  # Start Docker daemon if not running
+  if ! systemctl is-active --quiet docker; then
+    log "Starting Docker daemon..."
+    systemctl start docker
+    sleep 2
+    if systemctl is-active --quiet docker; then
+      ok "Docker daemon started"
+    else
+      fail "Failed to start Docker daemon"
+      exit 1
+    fi
+  fi
+}
+
+stop_docker_daemon() {
+  # Stop Docker daemon if no containers are running
+  local running
+  running=$(docker ps -q 2>/dev/null | wc -l)
+  if [[ "$running" -eq 0 ]]; then
+    log "No containers running — stopping Docker daemon to save RAM..."
+    systemctl stop docker
+    systemctl stop containerd
+    ok "Docker daemon stopped, ~100MB RAM freed"
+  fi
+}
+
+cmd_start() {
+  if [[ ! -d "$GROKTOCRAWL_DIR" ]]; then
+    fail "GroktoCrawl not installed at $GROKTOCRAWL_DIR"
+    fail "Clone first: git clone https://github.com/groktopus/groktocrawl.git ~/groktocrawl"
+    exit 1
+  fi
+  if is_up; then
+    ok "Stack already running"
+    cmd_status
+    return 0
+  fi
+  ensure_docker
+  log "Starting GroktoCrawl stack (this takes 5-10s for image cache)..."
+  cd "$GROKTOCRAWL_DIR"
+  docker compose up -d
+  # Wait for health
+  for i in 1 2 3 4 5 6 7 8 9 10; do
+    if health; then
+      ok "Stack healthy at $HEALTH_URL"
+      return 0
+    fi
+    sleep 1
+  done
+  warn "Stack started but health check didn't return 200 within 10s"
+  warn "Check logs: groktocrawl logs"
+  exit 1
+}
+
+cmd_stop() {
+  if ! is_up; then
+    ok "Stack already stopped"
+    return 0
+  fi
+  log "Stopping GroktoCrawl stack..."
+  cd "$GROKTOCRAWL_DIR"
+  docker compose down
+  ok "Stack stopped"
+  # Stop Docker daemon if no other containers running
+  stop_docker_daemon
+}
+
+cmd_status() {
+  if is_up; then
+    ok "Stack is running"
+    cd "$GROKTOCRAWL_DIR"
+    docker compose ps
+    if health; then
+      ok "Health: $HEALTH_URL → 200"
+    else
+      warn "Health: $HEALTH_URL → not 200 (stack may still be warming up)"
+    fi
+  else
+    warn "Stack is stopped"
+    log "Run: groktocrawl start"
+  fi
+}
+
+cmd_logs() {
+  cd "$GROKTOCRAWL_DIR"
+  docker compose logs --tail=50 -f agent-svc
+}
+
+cmd_minimal() {
+  # Skip browser-svc (Playwright ~300MB), parse-svc, ofelia. Saves ~440MB.
+  if [[ ! -d "$GROKTOCRAWL_DIR" ]]; then
+    fail "GroktoCrawl not installed at $GROKTOCRAWL_DIR"
+    exit 1
+  fi
+  log "Starting minimal stack (no browser, no parse, no ofelia)..."
+  cd "$GROKTOCRAWL_DIR"
+  docker compose up -d valkey searxng scraper-svc agent-svc
+  for i in 1 2 3 4 5 6 7 8 9 10; do
+    if health; then
+      ok "Minimal stack healthy"
+      return 0
+    fi
+    sleep 1
+  done
+  warn "Minimal stack started but health check failed"
+  exit 1
+}
+
+cmd_install() {
+  # Clone + chmod + symlink — idempotent
+  if [[ ! -d "$GROKTOCRAWL_DIR" ]]; then
+    log "Cloning GroktoCrawl v0.6.0..."
+    git clone --branch v0.6.0 --depth 1 \
+      https://github.com/groktopus/groktocrawl.git "$GROKTOCRAWL_DIR"
+  fi
+  if [[ ! -f "$GROKTOCRAWL_DIR/.env" ]]; then
+    log "Creating .env from sample..."
+    cp "$GROKTOCRAWL_DIR/.env.sample" "$GROKTOCRAWL_DIR/.env"
+    warn "Edit $GROKTOCRAWL_DIR/.env to set LLM_API_KEY etc."
+  fi
+  # Symlink wrapper
+  local src
+  src="$(readlink -f "${BASH_SOURCE[0]}")"
+  ln -sf "$src" "$HOME/.local/bin/groktocrawl"
+  ok "Installed. Run: groktocrawl start"
+}
+
+cmd_help() {
+  cat <<EOF
+groktocrawl — manage the GroktoCrawl Docker stack (Option A: VPS on-demand)
+
+Commands:
+  start     Bring the full stack up (auto-starts Docker daemon)
+  stop      Tear the stack down + stops Docker daemon (saves ~100MB RAM)
+  status    Show running services + health
+  logs      Tail agent-svc logs
+  minimal   Start without browser/parse/ofelia (~315MB RAM)
+  install   Clone v0.6.0 + symlink this wrapper to ~/.local/bin/
+
+Docker daemon starts on-demand with 'start' and stops with 'stop'
+when no other containers are running. Saves ~100MB RAM when idle.
+
+Environment:
+  GROKTOCRAWL_DIR  Override install location (default: ~/groktocrawl)
+EOF
+}
+
+case "${1:-help}" in
+  start)   cmd_start ;;
+  stop)    cmd_stop ;;
+  status)  cmd_status ;;
+  logs)    cmd_logs ;;
+  minimal) cmd_minimal ;;
+  install) cmd_install ;;
+  help|--help|-h) cmd_help ;;
+  *) fail "Unknown command: $1"; cmd_help; exit 1 ;;
+esac

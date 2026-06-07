@@ -24,38 +24,16 @@ Loaded via skill_view(name='hermes-agent-memory', file_path='references/memory.m
 4. Goal-driven execution
 5. Anchor first
 
-## G-Brain Factsheet
-
-- **Location**: ~/gbrain (git clone, not bun install -g)
-- **Version**: 0.41.20.0 (updated 2026-05-27)
-- **Engine**: PGLite at ~/.gbrain/brain.pglite (WASM — single process only)
-- **Embedding**: openrouter:nvidia/llama-nemotron-embed-vl-1b-v2 (1024d, free via OpenRouter)
-- **Chat**: deepseek:deepseek-v4-flash via OpenCode Go (custom endpoint, provider_base_urls)
-- **MCP server**: gbrain serve via ~/.hermes/scripts/gbrain-mcp-wrapper.sh
-- **Dream cycle**: cron at 0 2 * * * — stops MCP → sync brain → embed → extract → dream → restarts MCP
-- **PGLite quirk**: Fresh CLI invocations fail — WASM can only init once per process. MCP tools (mcp_gbrain_*) reuse the server's instance and work reliably. The dream cycle script handles this by stopping/restarting the MCP server.
-
-### Known Issues
-- **Stale postmaster.pid**: After a crash/OOM, `~/.gbrain/brain.pglite/postmaster.pid` may be left behind. Remove it before next CLI use.
-- **Stale gbrain_cycle_locks**: After OOM-killed dream, a `gbrain_cycle_locks` DB row may persist. Cleared via dream cycle script or manual DELETE.
-- **Config split**: `gbrain config set` writes to PGLite DB; `~/.gbrain/config.json` is fallback. `config get` reads DB (authoritative), `config show` reads JSON (may be stale).
-
-### Backup
-- PGLite auto-creates ~/.gbrain/brain.pglite.bak/ during init. Recovery: swap brain.pglite.dirty → brain.pglite from .bak.
-
 ## Environment Details
 
 ### Shell & Tools
 - **PATH**: `$HOME/.bun/bin:/usr/local/bin:/usr/bin:/bin`
 - **Python**: `/usr/local/lib/hermes-agent/venv/bin/python3` (VENV_PYTHON)
 - **Bun**: ~/.bun/bin/bun
-- **gbrain CLI**: ~/.bun/bin/gbrain (bun link from ~/gbrain/)
 
 ### Project Directories
 - **Work**: /root/work/
 - **Trading**: /root/work/trading/
-- **Brain (gbrain repo)**: ~/brain/
-- **gbrain install**: ~/gbrain/
 
 ### Skills Location
 - `~/.hermes/skills/<category>/<skill-name>/SKILL.md`
@@ -63,9 +41,7 @@ Loaded via skill_view(name='hermes-agent-memory', file_path='references/memory.m
 
 ## Daily/Monthly Rhythm
 
-- **02:00** — G-Brain dream cycle (sync, embed, extract, dream — all mechanical phases)
 - **06:00** — Nightly self-improvement (profile compression, memory consolidation)
-- **08:00** — Nightly self-audit (update checks, gbrain health, dream completion)
+- **08:00** — Nightly self-audit (update checks, dream completion)
 - **05:00 Sun** — DABT weekly truth audit
-- **05:00 Sun** — gbrain-dabt-maintenance
 - **06:00 Sun** — Work backup

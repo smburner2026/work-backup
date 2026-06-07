@@ -1,31 +1,11 @@
 #!/bin/bash
-# self-audit.sh — Nightly check for updates & gbrain embedding health
+# self-audit.sh — Nightly check for updates & component health
 # Silent when nothing to report (watchdog pattern — only outputs on changes)
 set -euo pipefail
 
 UPDATES=""
 HERMES_HOME="${HERMES_HOME:-$HOME/.hermes}"
 VENV_PYTHON="${VENV_PYTHON:-/usr/local/lib/hermes-agent/venv/bin/python3}"
-
-# ── 0. G-Brain OpenRouter Embedding Health ─────────────────────────
-# Checks the configured embedding model via OpenRouter API — silent if OK
-source /root/.hermes/.env 2>/dev/null || true
-if [ -n "${OPENROUTER_API_KEY:-}" ]; then
-    EMBED_RESP=$(curl -sf -w "\n%{http_code}" \
-        https://openrouter.ai/api/v1/embeddings \
-        -H "Content-Type: application/json" \
-        -H "Authorization: Bearer $OPENROUTER_API_KEY" \
-        -d '{
-            "model": "nvidia/llama-nemotron-embed-vl-1b-v2",
-            "input": "gbrain nightly embedding health check"
-        }' 2>&1 || true)
-    HTTP_CODE=$(echo "$EMBED_RESP" | tail -1)
-    if [ "$HTTP_CODE" != "200" ]; then
-        UPDATES+="• G-Brain embedding model (openrouter:nvidia/llama-nemotron-embed-vl-1b-v2): HTTP $HTTP_CODE — check OpenRouter key & model status\n"
-    elif ! echo "$EMBED_RESP" | head -n -1 | python3 -c "import sys,json; d=json.load(sys.stdin); assert 'data' in d and len(d['data'])>0" 2>/dev/null; then
-        UPDATES+="• G-Brain embedding model returned malformed response — check openrouter.ai status\n"
-    fi
-fi
 
 # ── 1. Hermes base ──────────────────────────────────────────────────
 CURRENT_SHA=$(git -C /usr/local/lib/hermes-agent rev-parse HEAD 2>/dev/null || echo "")

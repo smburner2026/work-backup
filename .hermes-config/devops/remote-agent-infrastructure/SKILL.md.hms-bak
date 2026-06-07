@@ -541,6 +541,8 @@ Both distribute access to compute across nodes. The cluster version buys you mod
 - **Git conflicts across devices** — if laptop and phone agents modify the same files, you'll hit merge conflicts. Establish a convention (e.g., phone is read-only for code, laptop is write-authoritative; or use branches per device).
 - **Git repo Permission denied after cross-machine sync** — a git repo synced from one machine/user to another (e.g., WSL `vthen`/UID 1000 → VPS `root`/UID 0) preserves the original UID ownership in `.git/`. The clone works on the target machine only because root bypasses permissions, but the UID is orphan (nonexistent user). If a script or cron tries to access it as a non-root user, it crashes with `Permission denied`. Symptom: `ls -la /root/work/.git/` shows files owned by `1000:1000` and `getent passwd 1000` returns nothing. Fix: `chown -R root:root /root/work/.git/` on the VPS (authoritative machine), or clone separate per-machine working copies. See `references/git-cross-environment.md` for full diagnostic and repair guide.
 - **Tailscale SSH vs tailscale serve** — `tailscale ssh` gives you SSH access to a machine over the mesh. `tailscale serve` exposes a local HTTP service on your tailnet. They solve different problems.
+- **WSL Tailscale does NOT carry over to Windows** — Tailscale inside WSL is its own Linux network identity. Windows-native apps (including Hermes Desktop) can't reach tailnet IPs unless Windows itself has Tailscale installed. The reverse is also true: `ping 100.x.y.z` from Windows requires Windows Tailscale, not WSL Tailscale.
+- **VPNs block Tailscale** — NordVPN, ExpressVPN, and similar can interfere with Tailscale's WireGuard connection. If ping fails over the tailnet and both sides show connected in `tailscale status`, try disconnecting the VPN as a diagnostic step.
 - **Stale Tailscale auth URL** — if the user gets `bad tailscale-authstate2 cookie` when opening the auth link, the URL has expired. Run `tailscale up` on the target machine to regenerate it. Open in a regular browser (not in-app Telegram/Discord browser).
 - **Web UI production build OOM on small VPS** — `pnpm build` spikes well over 2GB during chunk rendering on a 2600+ module codebase, getting OOM-killed on 2GB VPS. Dev mode is NOT a fix — the npm script hardcodes `--max-old-space-size=2048` and tries to spawn a second gateway process. The working fix: add 1GB swap, stop gateway, run `npm run build`, restart gateway. See "Memory-constrained VPS pitfall" section above for the exact sequence and systemd setup.
 - **Node does not auto-load .env files** — workspace's `server-entry.js` does NOT use dotenv. Setting `HOST=0.0.0.0` and `HERMES_PASSWORD=<pw>` in `.env` has zero effect at runtime. These must be actual environment variables: systemd `Environment=` directives, shell `export`, or prepended to the command. Without explicit export, the server binds to `127.0.0.1` (unreachable via Tailscale) and/or refuses to start with "HERMES_PASSWORD is unset".
@@ -554,10 +556,34 @@ Both distribute access to compute across nodes. The cluster version buys you mod
 - [ ] Can you `git pull` and `git push` from the phone?
 - [ ] Does your one-command reconnect script work?
 
+## Hermes Desktop Remote Gateway
+
+The official Hermes Desktop (Nous Research Electron app) can connect to a VPS agent via the **dashboard** service on port 9119, not the API server on port 8642. See the dedicated reference for full setup.
+
+**Quick start:**
+```bash
+# On the VPS — generate token, start dashboard
+TOKEN=$(openssl rand -hex 32)
+echo "HERMES_DASHBOARD_SESSION_TOKEN=$TOKEN" >> ~/.hermes/.env
+hermes dashboard --host 0.0.0.0 --port 9119 --insecure --no-open --tui
+```
+Desktop app → Settings → Gateway → Remote gateway → URL `http://<tailscale-ip>:9119` + session token.
+
+**After a failed connection attempt:** fully close the app (check system tray!), reopen, then re-enter URL + token. The app caches stale connection state.
+
+**Dashboard does not survive reboots** without systemd wrapping — see `references/hermes-desktop-remote-gateway.md` for the service file.
+
+### Common trap — port confusion
+- Dashboard port **9119** with `HERMES_DASHBOARD_SESSION_TOKEN` → **Desktop app remote gateway**
+- API server port **8642** with `API_SERVER_KEY` → **OpenAI-compatible API, Open WebUI, third-party tools**
+
+They are different services. Giving the desktop app the API server URL + key will fail to connect.
+
 ## Related
 
 - `personal-workspace` — workspace folder structure and rsync sync
 - `hermes-agent` references/vps-hetzner-setup.md — VPS deployment workflow
+- `remote-agent-infrastructure` references/hermes-desktop-remote-gateway.md — Hermes Desktop remote gateway setup with Tailscale (port 9119, dashboard session token, common pitfalls)
 - `remote-agent-infrastructure` references/hermes-workspace-deployment.md — detailed Workspace deployment guide including dashboard setup, OOM build fix, and systemd persistence
 - `remote-agent-infrastructure` references/git-cross-environment.md — diagnosing and fixing git repo Permission denied after syncing between environments (UID ownership mismatch, orphan UIDs, cross-machine git crashes)
 - `remote-agent-infrastructure` references/secure-config-backup.md — backing up Hermes config (~/.hermes/config.yaml, SOUL.md, memories, skills) to a git repo without leaking secrets. Covers staged sync, sed redaction of tokens, .env exclusion, and GitHub secret alert recovery.

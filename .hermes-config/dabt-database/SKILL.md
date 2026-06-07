@@ -1,6 +1,6 @@
 ---
 name: dabt-database
-description: "Query the expanded DABT Practice Questions Database (5,368 main-table Qs, 2 quarantined, 670 flagged no-answer-key, across 10 source banks — SQLite). Blueprint-weighted sampling, anti-clustering, dedup tracking, no-answer-key question handling. DB path from dabt-config.json. Legacy xlsx at reference/data/DABT_Practice_Questions_Database.xlsx."
+description: "Query the DABT Practice Questions Database (7,567 main-table Qs, 2 quarantined, 35 no-answer-key, across 17 source banks — SQLite). Blueprint-weighted sampling, anti-clustering, dedup tracking, synthetic generation with post-import verification. DB path from dabt-config.json."
 category: education
 ---
 
@@ -9,24 +9,35 @@ category: education
 ## Session Start
 Load `dabt-project-workflow` first for config. DB path from `config['database']['primary']['path']` resolved against `config['project']['workdir']`. Domain weights from `config['drill_config']['target_distribution_per_10']`.
 
-**Full recovery complete (2026-05-30):** The database now holds **5,368 questions** across 10 source banks with 5,362 domain-classified. Only **8 Qs still lack domain labels**, **670 Qs are legitimately flagged as no-answer-key** (401 from 2017 cert + 269 Past ABT PDFs), and only **2 items remain in quarantine**. Key recovery milestones: 626 Group A Qs recovered from corrupted answer keys, 273 Past ABT PDFs extracted, 466 domain-less Qs classified, 1,600 synthetic Domain I Qs and 600 synthetic Domain III Qs generated, 2015 recert exam imported. See `dabt-project-workflow` → `references/task-roadmap.md` for full tracking.
+**Phantom completion incident RESOLVED (2026-06-02):** Synthetic generation tasks that were previously marked done without data landing are now fully imported. DB verified: 2,199 synthetic Qs across 7 source banks. Domain I: 2,728, Domain III: 887.
 
-**Weekly truth audit:** Cron `DABT Weekly Truth Audit` (Sundays 05:00 UTC) — 5 merged checks: DB coverage, sample truth audit, new explanation quality, G-Brain health check, miss journal synthesis. Check latest output for new discrepancies. The last audit (t_07d66662) found 6 PASS, 2 PARTIAL FAIL, 2 FAIL — all follow-up tasks now complete.
+**Full recovery complete (2026-05-30, verified 2026-06-02):** The database holds **7,567 questions** across 17 source banks with **7,567 domain-classified** (100%). Only **35 Qs truly lack answer keys** (down from 670 after the 2026-06-01 audit cleared 635 stale `no_answer_key` flags). Only **2 items remain in quarantine**. Key recovery milestones: 626 Group A Qs recovered from corrupted answer keys, 273 Past ABT PDFs extracted, 466 domain-less Qs classified, 2015 recert exam imported. **Synthetic generation COMPLETE (2026-06-02):** 2,199 synthetic Qs across 7 source banks (IDs 11-17). Domain I: 1,600 Qs (was 1,125), Domain III: 599 Qs (was 287). All verified with answer options, explanations, domain classification.
+
+**Weekly truth audit:** Cron `DABT Weekly Truth Audit` (Sun/Wed/Fri 05:00 UTC) — now script-based. The data gathering (DB coverage, sampling, **phantom completion detection**) runs via `~/.hermes/scripts/dabt-weekly-audit.py` as a `no_agent` script. Check 6 specifically flags if Domain I/III counts are at baseline despite claimed synthetic generation — catches the failure mode where kanban tasks are marked done but data never landed. The LLM only handles reference verification and report synthesis with a minimal prompt. Check latest output for new discrepancies.
 
 ## Schema (7 tables)
-Core tables: `source_files`, `questions` (id TEXT PK, question_text, correct_answer_letter, explanation, source_file_id, bloom_level), `answer_options` (question_id, option_letter, option_text), `question_topics` (question_id, topic), `question_domains` (question_id, domain I-IV, sub_domain, task), `match_pairs` (term, match_answer), `state` (progress tracking). Full DDL in `references/schema.md`.
+Core tables: `source_files`, `questions` (id TEXT PK, question_text, correct_answer_letter, explanation, source_file_id, bloom_level), `answer_options` (question_id, option_letter, option_text), `question_topics` (question_id, topic), `question_domains` (question_id, domain I-IV, sub_domain, task), `match_pairs` (term, match_answer), `quarantine` (rejected items). Full DDL in `references/schema.md`.
+
+**⚠️ Domain is NOT in the `questions` table.** Join `question_domains` to get domain info:
+```sql
+SELECT q.*, qd.domain, qd.sub_domain 
+FROM questions q 
+JOIN question_domains qd ON q.id = qd.question_id 
+WHERE qd.domain = 'Domain III';
+```
+Questions without a `question_domains` entry are unclassified. As of 2026-06-01, all 5,368 questions have domain classifications.
 
 ## Domain Distribution
 DB is structurally skewed (56.4% Applied vs 38% exam weight for Risk Assessment). **DO NOT use raw DB proportions.** Use `config['drill_config']['target_distribution_per_10']` for sampling. 
 
-**Current domain counts (as of 2026-05-30):**
-- Domain I (Study Design | 36% exam weight): **1,125 Qs** (21.0%)
-- Domain II (Mechanistic | 13% exam weight): **925 Qs** (17.2%)
-- Domain III (Risk Assessment | 38% exam weight): **287 Qs** (5.3%) ⚠️ still critically underweight
-- Domain IV (Applied | 13% exam weight): **3,025 Qs** (56.4%)
-- Unclassified: **8 Qs**
+**Current domain counts (as of 2026-06-02):**
+- Domain I (Study Design | 36% exam weight): **2,728 Qs** (36.1%) ✅ at target
+- Domain II (Mechanistic | 13% exam weight): **929 Qs** (12.3%) — near target
+- Domain III (Risk Assessment | 38% exam weight): **887 Qs** (11.7%) — improved from 5.4% with 599 synthetic Qs
+- Domain IV (Applied | 13% exam weight): **3,026 Qs** (40.0%) — still overweight
+- Unclassified: **0 Qs** ✅
 
-Domain III (38% exam weight, 5.3% DB) has the worst ratio — conserve them during drilling. Domain IV is massively overweight and should be sampled sparingly to reflect exam proportion.
+Synthetic Qs added 1,600 to Domain I and 599 to Domain III on 2026-06-02. Domain IV is still overweight and should be sampled sparingly to reflect exam proportion.
 
 See `references/domain-distribution.md`.
 
@@ -131,10 +142,36 @@ Reference: `references/domain-iii-c-source-map.md` for a concrete example of sou
 ### Workflow
 1. Sub-topic mapping → split target count across sub-domains proportionally
 2. Pre-load reference chapter(s) for each sub-domain — extract key page ranges and numeric constants first (see `references/domain-iii-c-source-map.md` for a template)
-3. Delegate parallel batches of 50 Qs to subagents, each with source chapter in context
-4. Each batch writes: question, 4 options, correct answer, explanation (3-5 lines), source citation, bloom level, format
-5. Validate within each batch (structural + distribution)
-6. Post-generation audit (10% sample verified against reference)
+3. **Pre-register source banks** in `source_files` table before workers start — prevents duplicate/conflicting IDs. Assign source_file_id = MAX(id)+1 for each sub-domain.
+4. Delegate parallel batches of 50 Qs to subagents, each with source chapter in context
+5. Each batch writes: question, 4 options, correct answer, explanation (3-5 lines), source citation, bloom level, format
+6. Validate within each batch (structural + distribution)
+7. **Save batch JSON to disk** (e.g., `batches/synthetic_domain_i_batch_N.json`) — do NOT go directly to DB
+8. **Verify JSON file**: count records, check structure, confirm expected format
+9. Import verified JSON to DB (INSERT into questions + answer_options + question_domains + question_topics)
+10. **Post-import verification** (MANDATORY — see `dabt-project-workflow` → Post-Import Verification Protocol):
+    - `SELECT COUNT(*) FROM questions WHERE source_file_id = N` — must match expected
+    - `SELECT domain, COUNT(*) ... WHERE source_file_id = N GROUP BY domain` — must match expected distribution
+11. **Only after verification passes**: mark kanban task done, update skill description, update task-roadmap
+12. Post-generation audit (10% sample verified against reference)
+
+### Kanban Card Body Template (for synthetic generation cards)
+Each card body should include:
+- **Target count** (exact number of questions)
+- **Source material** (chapters, page ranges, key constants)
+- **Generation rules** (citation, format distribution, bloom targets)
+- **Workflow steps** (file-based intermediate → verify → import → verify DB)
+- **DONE CRITERIA** (explicit verification queries that must pass before marking done)
+
+Example DONE CRITERIA block:
+```
+## DONE CRITERIA
+1. All JSON batch files exist at batches/synthetic/domain_*_batch_*.json
+2. Total records in JSON files = [TARGET]
+3. Records imported to DB (SELECT COUNT confirms [TARGET])
+4. Domain classification verified (question_domains shows correct domain)
+5. Orchestrator confirms DB state matches task spec
+```
 
 ### No-Answer-Key Question Type
 For real exam PDFs without published answer keys (Past ABT PDFs, 2017 cert):
@@ -153,6 +190,8 @@ After curriculum absorption into config, patch dabt-drill-mode to read topic lis
 ## Data Quality Policy
 Issues → quarantine with documented label. Do NOT leave NULL/missing markers in main table. Main table must always produce valid questions with no quality filter. File path and absolute state path: `CONFIG['database']['primary']['path']` and `CONFIG['progress']['state_path']`.
 
-**Null-answer landscape (as of 2026-05-31):** 35 Qs across 2 sources with `no_answer_key=1` — down from 670 after a batch answer-fixing campaign that answered 635 questions by partitioning exam parts across parallel subagents, each searching Casarett & Doull 9e and Hayes 7e reference texts for evidence. See `references/null-answer-landscape.md` for the per-source breakdown (IDs, content type, answer strategy, remaining items).
+**Null-answer landscape (as of 2026-06-02):** 35 Qs across 3 sources with `no_answer_key=1` — Past ABT PDFs, 2017 Cert Exam, 2015 Recert Exam. Down from 670 after batch answer-fixing campaign and audit.
 
-**Current state:** All recovery work complete. 670 Qs legitimately flagged as no-answer-key (not a quality defect — these are real exam materials without published keys). 8 Qs need domain classification — prioritize next session.
+**Domain III explanation gap:** 95/287 Domain III questions (33%) lack explanations. These are mostly risk assessment topics (dose-response, hazard ID, risk characterization). Enrichment requires referencing Casarett & Doull Ch.4, Hayes Ch.3/10, and EPA guidelines. Best handled in batches during study sessions.
+
+**Current state (2026-06-02):** All recovery work complete. 35 Qs legitimately lack answer keys (not a quality defect — real exam materials without published keys). All 7,567 questions have domain classifications. Bloom levels present on 7,050/7,567 (93.2%). Synthetic generation complete: 2,199 Qs added. Cron audit runs Sun/Wed/Fri.

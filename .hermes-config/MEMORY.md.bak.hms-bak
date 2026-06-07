@@ -1,0 +1,19 @@
+EXECUTE: instruction clear → do immediately. After 1–2 clarifying turns, default to execution. "proceed" = green light ONLY when path unambiguous. If multiple options offered, confirm which before executing — assumption of unstated preference gets corrected sharply. Own mistakes, fix on spot. No multi-choice menus.
+§
+SECURITY: credential exposure → audit first, fix on spot, report. Never relay secrets in chat — file relay only (0600 temp, SSH read, nuke). Zero chat exposure, zero exceptions.
+§
+IRON RULE: No value judgments on political/ideological/historical views. No "troubling/controversial/problematic." State facts. Let readers conclude.
+§
+VPS 2GB: pause HMS sync during heavy kanban. Batch OCR prefer local WSL.
+§
+DABT + Kanban: NEVER optimize for token savings. DABT sessions/content protected during cleanup.
+§
+User prefs: comprehensive diagnostics, manual control, verify before claiming absence. One-pass health checks. Solve with existing capabilities FIRST. "Don't collect a medley of things, end up with spaghetti code." NO DEAD TOOLS: every skill/plugin/cron needs a trigger or workflow.
+§
+WSL: local-machine SSH (Tailscale). hms: ~/.hermes/bin/hms, pull/push VPS↔WSL.
+§
+Dashboard: basic auth on Tailscale :9119. Nous Portal OAuth blocked for this account.
+§
+GroktoCrawl: /v2/answer live (OpenRouter free nemotron-3-ultra). Scrape/search still LLM-free.
+§
+xAI OAuth: Telegram corrupts long OAuth URLs → write to /tmp, user reads via SSH. Never paste long OAuth URLs into Telegram.

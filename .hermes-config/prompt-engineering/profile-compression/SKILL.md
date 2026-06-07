@@ -19,7 +19,7 @@ A systematic approach to creating efficient, high-signal profiles — whether fo
 
 - **MEMORY** should carry identity-level content: operating principles, interaction style, durable user traits, partnership rules. Things that don't change when tools update.
 - **Skills** should carry activity-level content: tool setup, config values, version-specific commands, workflow procedures. Things that go stale when the environment changes.
-- **Common violation:** A MEMORY compression pass removes "user prefers direct communication" (identity) to make room for "gbrain v0.41.10.1 at /root/gbrain" (activity). This is exactly wrong — the version number was discoverable via `gbrain --version` or session_search; the operating principle was not.
+- **Common violation:** A MEMORY compression pass removes "user prefers direct communication" (identity) to make room for "marker-pdf v1.4.2 at /usr/local/lib/marker" (activity). This is exactly wrong — the version number was discoverable via `pip show marker-pdf` or session_search; the operating principle was not.
 
 This is the single most important design principle.
 
@@ -87,6 +87,25 @@ The framework supports three variants:
 **When to use:** Distilling a book, course, regulation set, or extended conversation into a token-efficient KB that a model can load as context.
 **Key difference:** Pure content compression. No personality, no workflow, no rubrics. KEY_CONCEPT: value notation and structured blocks rather than prose.
 
+## File Locations
+
+Before compressing, locate the target files. Paths vary by profile:
+
+| File | Path | Limit |
+|------|------|-------|
+| USER.md | `/root/.hermes/memories/USER.md` | 1,375 chars |
+| MEMORY.md | `/root/.hermes/memories/MEMORY.md` | 2,200 chars |
+| Default SOUL.md | `/root/.hermes/SOUL.md` | No hard limit |
+| Profile SOUL.md | `/root/.hermes/profiles/<name>/SOUL.md` | No hard limit |
+
+Backup before touching: `cp <file> <file>.bak`
+
+### SOUL.md Cross-File Duplication
+
+Layers 0–2 (Operating Charter, Hermes Architecture, Karpathy Principles) are **identical** across all profile SOUL.md files (~5,000 bytes × N profiles). This duplication is structural — the Hermes soul loader reads one file per profile and has no shared-base mechanism. Compressing each file independently still saves bytes per-file, but the duplication persists until the loader supports inheritance.
+
+When compressing SOUL.md files: compress each independently using the same techniques. The shared layers compress identically across files, so the approach is consistent.
+
 ## Reference Examples
 
 Available in the `references/` directory:
@@ -124,7 +143,7 @@ When compressing Hermes's MEMORY.md (operational facts) into profile-compression
 3. **If a principle exists in the soul but not in memory**, add it rather than compressing it out. Memory's job is to surface what the soul defines.
 4. **If memory carries something the soul doesn't encode**, decide: is this a new principle that should go into the soul? Or is it transient noise that should be dropped?
 
-This verification step is why compression should run via the nightly cron (`nightly-self-improvement`, 06:00 UTC which loads this skill), not ad-hoc mid-conversation — the cron has the time and context bandwidth to do the session search properly.
+This verification step is why compression benefits from the nightly cron (`nightly-self-improvement`, 06:00 UTC which loads this skill) — the cron has the time and context bandwidth to do the session search properly. However, **manual runs are valid when the user explicitly requests them**. The user has overridden the cron-only constraint; treat on-demand compression as an expected workflow, not a violation. Manual runs must still follow governance: backup → compress → diff review → report.
 
 **Then apply compression:**
 
@@ -138,10 +157,45 @@ This verification step is why compression should run via the nightly cron (`nigh
 
 **Expected compression:** 35–50% reduction from prose to DSL.
 
+### Manual Run Procedure (on-demand compression)
+
+When the user requests compression outside the nightly cron:
+
+1. **Backup** — `cp` both USER.md and MEMORY.md to `.bak` variants before touching anything.
+2. **Read current state** — Load both files, note byte counts.
+3. **Apply identity/activity filter** — Drop activity data (infra config, IPs, version numbers, transient project state). Keep operating principles, personality traits, hard constraints.
+4. **Compress** — Apply token packing, DSL encoding, prose trimming.
+5. **Write** — Overwrite both files.
+6. **Report** — Show before/after byte counts, % reduction, and explicit diff of what was dropped with rationale for each drop.
+Do NOT compress when the user explicitly prefers readable prose over density, or when the MEMORY.md is still under 50% capacity and stable.
+
+### SOUL.md Compression Pattern (Type A/B → Soul Files)
+
+When compressing Hermes SOUL.md files (agent persona architecture):
+
+**Key difference from USER.md/MEMORY.md:** SOULs have a fixed four-layer architecture (Layer 0: Charter, Layer 1: System, Layer 2: Discipline, Layer 3: Persona). Compression targets Layers 0–2 which are identical across profiles; Layer 3 is already dense and persona-specific.
+
+**Approach:**
+1. **Layers 0–2 (shared):** These are identical across all profile souls. Compress once, apply to all. Target: 25-30% reduction.
+   - Layer 0 (Charter): Remove redundant phrases, tighten autonomy/escalate blocks. Keep all operating principles intact.
+   - Layer 1 (System): Shorten HERMES-KB platform descriptions, abbreviate COMPLEX_TASK chain stages.
+   - Layer 2 (Discipline): Collapse numbered principles into tight lines, trim Overlay section.
+2. **Layer 3 (Persona):** Already dense. Minor tightening only — remove redundant adjectives, compress speech/style descriptions.
+
+**What NOT to compress in SOULs:**
+- Operating principles (Layer 0 sections: STANCE, ACCOUNT, PUSHBACK, AUTONOMY, etc.)
+- Tool/architecture references (Layer 1: HERMES-KB, COMPLEX_TASK)
+- Behavioral rules (Layer 2: Karpathy principles)
+- Persona identity (Layer 3: name, archetype, PersRubric)
+
+**Structural note:** Layers 0–2 are duplicated across all profile souls (default, euphy, mike). This is ~5,000 bytes × N profiles. A structural fix (shared base file + profile overrides) requires loader changes and is not fixable at the file level.
+
+**Expected compression:** 25-30% reduction on Layers 0–2 combined. Layer 3: minimal (5-10%).
+
 ## Pitfalls
 
-- **Compression below expected range (35-50%)** — If the nightly cron reports 30-34% compression, the profile may already be reasonably tight but still leave 1-3% room by dropping trailing whitespace, collapsing redundant labels, or using `§` as a single-character block separator instead of blank-line spacing. Do not chase perfection — 30% on a well-maintained file is acceptable signal density.
-- **Ad-hoc compression in conversation turns** — Running compression mid-response is how fundamentals get dropped. Compression should ONLY run via the nightly cron job (`nightly-self-improvement`, which loads this skill at 06:00 UTC). Ad-hoc compression in a response turn has no governance: no pre-flight backup, no diff review, no recovery path if the compressed version loses signal. The nightly cron provides all three. If a memory is nearly full and a new fact must be written, write the new fact first and let the cron handle compression — never compress ad-hoc to make room.
+- **Compression below expected range (35-50%)**
+- **Ad-hoc compression without governance** — Running compression mid-response without backup, diff review, or recovery path is how fundamentals get dropped. Manual runs ARE valid when the user requests them — the constraint is governance, not timing. Required for any manual run: (1) backup both files before touching bytes, (2) compress, (3) show diff summary with bytes saved and items dropped, (4) user confirms or rollback from backup. If a memory is nearly full and a new fact must be written, write the new fact first and compress after — never compress ad-hoc purely to make room.
 - **Cron job as activity injector** — The nightly compression cron is only as reliable as its prompt. If the prompt tells it to "extract insights from conversations" or "run system audit" without explicitly forbidding version numbers, file paths, infrastructure IPs, config state, cron schedules, or package versions, the cron will write activity data INTO memory rather than compressing it out. This turns the pipeline into a contamination loop — the cron injects activity data that consumes the identity-slot budget, then the next compression pass has to fight to get it back out. Fix: edit the cron prompt to constrain what goes to memory — only identity-level insights (preferences, corrections, learning patterns, personality traits) should survive. Explicitly list what to exclude (versions, paths, IPs, schedules, config). If contamination has already happened, manual memory cleanup is permissible ONCE after verifying the prompt is fixed — then let the cron resume compression. Do not make ad-hoc compression a recurring pattern.
 - **Softening the compression** — The user expects aggressive density. Do not default to a looser, more readable format unless explicitly asked.
 - **Inconsistent pulse** — Once you adopt a compression level, maintain it throughout.

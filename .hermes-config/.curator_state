@@ -1,9 +1,9 @@
 {
-  "last_report_path": "/root/.hermes/logs/curator/20260525-235838",
-  "last_run_at": "2026-05-25T23:58:38.125320+00:00",
-  "last_run_duration_seconds": 149.338721,
-  "last_run_summary": "auto: no changes; llm: ## Cluster Analysis & Consolidation Summary\n\nI scanned all 26 agent-created skills and identified **2 consolidation clusters** — every other skill is already a distinct class-level entry with no meaningful overlap.\n\n### Cluster 1: G-Brain (…\narchived 2 skill(s):\n  • document-translation-pipeline → document-translation\n  • gbrain-install → gbrain\nfull report: hermes curator status\nkeep an umbrella stable: hermes curator pin document-translation",
-  "last_run_summary_shown_at": "2026-05-25T23:58:38.125320+00:00",
+  "last_report_path": "/root/.hermes/logs/curator/20260602-003841",
+  "last_run_at": "2026-06-02T00:38:41.045183+00:00",
+  "last_run_duration_seconds": 355.933203,
+  "last_run_summary": "auto: no changes; llm: ## Summary of Consolidation Pass\n\n### Clusters Processed\n\n**1. G-Brain cluster** (`gbrain`, `gbrain-install`)\n- `gbrain` is the comprehensive umbrella: install, configure, operate, dream cycle, MCP wiring, model patching, 17 reference files…\narchived 3 skill(s):\n  • gbrain-install → gbrain\n  • hermes-plugins → hermes-maintenance\n  • hermes-web-ui → hermes-maintenance\nfull report: hermes curator status\nkeep an umbrella stable: hermes curator pin gbrain",
+  "last_run_summary_shown_at": "2026-06-02T00:38:41.045183+00:00",
   "paused": false,
-  "run_count": 2
+  "run_count": 3
 }

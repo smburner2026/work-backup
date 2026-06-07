@@ -23,11 +23,15 @@ The PGLite vector column was created with `<M>` dimensions (from config at init 
 ### 1. Diagnose the mismatch
 
 ```bash
+# Check what the config says vs what the DB schema has
 cat ~/.gbrain/config.json | python3 -c "
 import sys, json
 c = json.load(sys.stdin)
 print(f'Config: model={c[\"embedding_model\"]}, dims={c[\"embedding_dimensions\"]}')
 "
+
+# Check actual DB stats
+gbrain stats 2>&1 | grep -E "Pages|Chunks|Embedded"
 ```
 
 The error message tells you what the model actually returned vs what the schema expects.
@@ -36,28 +40,54 @@ The error message tells you what the model actually returned vs what the schema 
 
 | Scenario | Fix | DB impact |
 |----------|-----|-----------|
-| Model supports dimension parameter (text-embedding-3-small, text-embedding-ada-002, voyage-*) | Set config to model's native dims. Example: text-embedding-3-small → 1536. | Requires re-embed of all existing content |
-| Model DOESN'T support dimension parameter (Nemotron on OpenRouter, many openai-compatible models) | Can't passthrough dims. Must either: (a) use native dims, or (b) patch source code (see gbrain pitfalls). | Requires dimension change + re-embed |
-| Want to switch models entirely | Set both model name and dims to the new model's supported/output dimensions. | Requires dimension change + re-embed |
+| **Switching embedding models** (most common) | **`gbrain reinit-pglite`** (recommended) | Wipes + recreates DB with correct dims |
+| Model supports dimension parameter, same dims | Edit config.json only | Requires re-embed |
+| Model DOESN'T support dimension parameter | Must change dims + re-embed | Requires reinit |
 
-### 3. Update config.json dimension
+### 3. RECOMMENDED: `gbrain reinit-pglite` (one-command fix)
+
+**PGLite cannot ALTER vector column types** (pgvector ships as embedded WASM). Editing config.json alone leaves the DB schema at the old dimension — `gbrain embed` will fail with the same mismatch. `reinit-pglite` recreates the schema correctly.
+
+```bash
+# Back up first
+mv /root/.gbrain/brain.pglite /root/.gbrain/brain.pglite.bak.$(date +%Y%m%d%H%M)
+
+# Reinit with new model + dimensions
+export PATH="/root/.bun/bin:/usr/local/bin:/usr/bin:/bin"
+source /root/.hermes/.env
+export OPENROUTER_API_KEY  # or whichever key your model needs
+cd ~/gbrain
+gbrain reinit-pglite \
+  --embedding-model openrouter:openai/text-embedding-3-small \
+  --embedding-dimensions 1536 \
+  --yes
+
+# Re-import content
+gbrain import /root/brain/
+
+# Verify
+gbrain stats  # Should show correct page/chunk/embedded counts
+gbrain search "test query"  # Verify search works
+```
+
+**Gotcha:** `reinit-pglite` requires `--yes` in non-TTY environments (cron, scripts). Without it, the confirmation prompt hangs.
+
+**Gotcha:** If a backup already exists at `.bak`, move it first: `mv /root/.gbrain/brain.pglite.bak /root/.gbrain/brain.pglite.bak.$(date +%Y%m%d%H%M)`
+
+### 3b. Alternative: config-only fix (only if dimensions match)
+
+If the model supports the `dimensions` parameter AND you're keeping the same dimension count:
 
 ```bash
 python3 -c "
 import json
 with open('/root/.gbrain/config.json') as f:
     c = json.load(f)
-# Set to what the model actually outputs
 c['embedding_dimensions'] = <ACTUAL_DIMENSIONS>
 with open('/root/.gbrain/config.json', 'w') as f:
     json.dump(c, f, indent=4)
 print(f'Set dimensions to {c[\"embedding_dimensions\"]}')
 "
-```
-
-If also switching models:
-```bash
-c['embedding_model'] = 'openrouter:openai/text-embedding-3-small'
 ```
 
 ### 4. Kill all gbrain MCP servers

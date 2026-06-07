@@ -250,6 +250,30 @@ sed -i "s|^BWS_ACCESS_TOKEN=.*|BWS_ACCESS_TOKEN=0.abc:def/ghi|" ~/.hermes/.env
 
 The safest approach is **Python script file** (method 1 above) — it bypasses all shell escaping issues entirely.
 
+### BWS-Injected Tokens Override gh auth in Cron Scripts
+
+When BWS has a `GITHUB_TOKEN` secret, Hermes injects it into the process environment at startup. Cron `no_agent` scripts inherit this env var. Git's credential helper chain (`credential.helper=store` → `gh auth git-credential`) may then use the BWS-injected token instead of the valid token from `gh auth login`.
+
+**The failure mode:** BWS has a `github_pat_*` (fine-grained) token that's expired or revoked. `gh auth login` has a valid `ghp_*` (classic) token. Cron scripts fail with `fatal: Authentication failed` / `remote: Invalid username or token` even though `gh auth status` shows valid credentials and manual `git push` succeeds.
+
+**Detection:**
+```bash
+# Compare BWS token vs gh auth token
+BWS_GH=$(bws secret list 2>/dev/null | python3 -c "import sys,json; [print(s['value']) for s in json.load(sys.stdin) if s.get('key')=='GITHUB_TOKEN']")
+GH_TOK=$(gh auth token 2>/dev/null | tr -d '\n')
+echo "BWS: ${BWS_GH:0:11}... (${#BWS_GH} chars)"
+echo "gh:  ${GH_TOK:0:11}... (${#GH_TOK} chars)"
+echo "Same: $([ "$BWS_GH" = "$GH_TOK" ] && echo YES || echo NO)"
+# Test BWS token validity
+curl -s -o /dev/null -w "BWS token HTTP: %{http_code}\n" -H "Authorization: token $BWS_GH" https://api.github.com/user
+```
+
+**Fix — two options:**
+1. Update the BWS `GITHUB_TOKEN` secret to match `gh auth login`'s current token
+2. Remove `GITHUB_TOKEN` from BWS entirely (let `gh auth` handle it)
+
+**Why manual pushes work but cron fails:** When you run `git push` interactively, the terminal session may not have BWS env vars loaded. The cron runner inherits the full gateway environment including BWS-injected secrets.
+
 ### Session Key vs Access Token
 
 | | `bw` CLI (vault) | `bws` CLI (Secrets Manager) |

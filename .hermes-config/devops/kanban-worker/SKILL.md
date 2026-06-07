@@ -1,12 +1,12 @@
 ---
 name: kanban-worker
-description: Pitfalls, examples, and edge cases for Hermes Kanban workers. The lifecycle itself is auto-injected into every worker's system prompt as KANBAN_GUIDANCE (from agent/prompt_builder.py); this skill is what you load when you want deeper detail on specific scenarios.
-version: 2.0.0
+description: Pitfalls, examples, and edge cases for Hermes Kanban workers. The lifecycle itself is auto-injected into every worker's system prompt as KANBAN_GUIDANCE (from agent/prompt_builder.py); this skill is what you load when you want deeper detail on specific scenarios. References the workflow-pattern-kit Dedup module for duplicate detection and OutputGate for deliverable QA.
+version: 2.1.0
 platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [kanban, multi-agent, collaboration, workflow, pitfalls]
-    related_skills: [kanban-orchestrator]
+    related_skills: [kanban-orchestrator, kanban-scout]
 ---
 
 # Kanban Worker — Pitfalls and Examples
@@ -35,7 +35,7 @@ If `$HERMES_TENANT` is set, the task belongs to a tenant namespace. When reading
 Before calling `kanban_complete`, run your output through the **OutputGate** (from `workflow-pattern-kit`). This catches plan stubs, mock data, and raw tool envelopes before they land on a card.
 
 ```python
-from output_gate import OutputGate
+from workflow_pattern_kit import OutputGate
 
 gate = OutputGate()
 reason = gate.check_deliverable(
@@ -50,6 +50,96 @@ if reason:
 else:
     kanban_complete(summary=my_output_text, metadata=metadata)
 ```
+
+## Dedup check — before creating follow-up cards
+
+Before spawning new kanban cards from a discovery or research task, run the finding through `Dedup` (from `workflow-pattern-kit`). This prevents duplicate work — two workers researching the same topic, or the same source being ingested twice under different titles.
+
+**When to dedup:**
+
+1. **Before `kanban_create`** — if your task discovers something and wants to spawn follow-up cards, check whether a card with the same topic already exists on the board or in the intake vault
+2. **Before `kanban_complete`** on a research/discovery card — check whether your finding duplicates something already known (previous run output, memory entry, existing card)
+3. **Before completing an intake/ingestion card** — check whether the incoming item matches something already processed
+
+**Natural import** (no pip install needed — part of workflow-pattern-kit):
+
+```python
+from workflow_pattern_kit import Dedup
+
+dedup = Dedup(
+    duplicate_threshold=0.62,  # ≥ this → exact duplicate
+    possible_threshold=0.40,   # ≥ this → possible duplicate, flag for review
+)
+```
+
+**Use case 1 — dedup against existing card titles before creation:**
+
+```python
+from workflow_pattern_kit import Dedup
+
+# Gather existing card titles from the current board or intake vault
+existing_titles = [
+    "research: Postgres cost vs RDS",
+    "research: Postgres performance benchmarks",
+    "build: migration script for analytics DB",
+]
+
+dedup = Dedup()
+proposed = "benchmark Postgres vs RDS for analytics workload"
+result = dedup.compare_many(proposed, existing_titles)
+
+if result.is_duplicate:
+    kanban_comment(
+        body=f"🔄 Skipping — duplicate of **{result.matched_with}** "
+             f"(cosine: {result.score:.2f})"
+    )
+    # Don't create the card — attach finding to existing card instead
+elif result.possible_duplicates:
+    kanban_comment(
+        body=f"⚠️ Possible overlap with:\n"
+             + "\n".join(f"  - {ref}" for ref in result.possible_duplicates)
+    )
+    # Create card, flag the potential overlap in the body
+    kanban_create(
+        title=proposed,
+        body=f"{body}\n\n**Note:** May overlap with: {', '.join(result.possible_duplicates)}",
+        assignee="researcher",
+    )
+else:
+    # Clean — create directly
+    kanban_create(title=proposed, body=body, assignee="researcher")
+```
+
+**Use case 2 — dedup findings before completing a research card:**
+
+```python
+from workflow_pattern_kit import Dedup
+
+finding = "vLLM achieves 2.5x throughput over SGLang on A100-80GB"
+known_findings = [run.summary for run in existing_runs]  # from kanban_show
+
+dedup = Dedup(duplicate_threshold=0.70, possible_threshold=0.50)
+result = dedup.compare_many(finding, known_findings)
+
+if result.is_duplicate:
+    kanban_block(
+        reason=f"duplicate-finding: finding matches previous run at {result.score:.2f} — "
+               f"verify it's genuinely new before completing"
+    )
+else:
+    kanban_complete(summary=finding, metadata=...)
+```
+
+**Tuning thresholds per task type:**
+
+| Task type | duplicate_threshold | possible_threshold | Rationale |
+|-----------|-------------------|-------------------|-----------|
+| Source discovery (short titles) | 0.62 | 0.40 | Short strings need higher bar to avoid false matches on common words |
+| Research findings (long text) | 0.70 | 0.50 | Longer text has more signal overlap |
+| Code/output comparison | 0.80 | 0.60 | Code is repetitive — high bar prevents blocking on boilerplate |
+| Intake/vault dedup | 0.55 | 0.35 | Lower bar to catch semantic duplicates with different phrasing |
+
+**Why not use the model for this?** The model reinterprets similarity every run — inconsistent thresholds, inconsistent judgments. Token-cosine is deterministic, dependency-free, and returns the same answer for the same input every time. That's the fat-engine pattern: crisp operations go in code, not prose.
 
 The `kanban_complete(summary=..., metadata=...)` handoff is how downstream workers read what you did. Patterns that work:
 

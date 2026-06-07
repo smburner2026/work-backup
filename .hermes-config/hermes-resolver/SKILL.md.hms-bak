@@ -22,17 +22,15 @@ For a complete listing of ALL available skills, call `skills_list()`.
 ## DABT Study (high-frequency)
 - `dabt-drill-mode`: exam practice | MCQ drill | blueprint-weighted questions | timed test
 - `dabt-deep-dive`: concept understanding | first-principles | Socratic tutorial | toxicology deep-dive
-- `dabt-reference`: lookup | G-Brain search | Casarett | Hayes | regulation reference
+- `dabt-reference`: lookup | Casarett | Hayes | regulation reference | file search
 - `dabt-synthesis-review`: cross-topic consolidation | comparison matrices | flashcard generation
-- `dabt-gbrain-miss-journal`: miss tracking | gap analysis | weak-area persistence
 - `dabt-3-month-plan`: milestone plan | study schedule | exam prep roadmap
 - `dabt-database`: practice question DB query | source-bank selection
 - `dabt-notebook`: concept notebook | lightweight note-taking during sessions
 - `dabt-project-workflow`: session start procedure | skill coordination | DABT entry point
 - `dabt-dabt-*`: any other DABT skill
 
-## Brain & Knowledge
-- `gbrain`: brain query | synthesis | gap analysis | dream cycle | health check | embed config
+## Memory & Knowledge
 - `hermes-agent-memory`: operational memory | environment facts | procedural knowledge | cron reference
 
 ## Content & Media

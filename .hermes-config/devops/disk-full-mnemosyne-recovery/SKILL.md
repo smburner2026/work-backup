@@ -113,10 +113,14 @@ cp ~/.hermes/mnemosyne/data/mnemosyne.db \
 # 2. Dump to SQL, replacing INSERT with INSERT OR IGNORE to skip duplicates
 sqlite3 ~/.hermes/mnemosyne/data/mnemosyne.db .dump > /tmp/mnemo_dump.sql
 sed -i 's/^INSERT INTO annotations VALUES/INSERT OR IGNORE INTO annotations VALUES/' /tmp/mnemo_dump.sql
+sed -i 's/^INSERT INTO memories VALUES/INSERT OR IGNORE INTO memories VALUES/' /tmp/mnemo_dump.sql
 # Remove transaction wrapper so failures don't roll back everything
 sed -i '/^BEGIN TRANSACTION;/d; /^COMMIT;/d; /^ROLLBACK;.*/d' /tmp/mnemo_dump.sql
 # Remove trigger manipulation at end
 sed -i '/^\/\* WARNING/d; /PRAGMA writable_schema=OFF/d' /tmp/mnemo_dump.sql
+
+# Note: If the import still fails on FTS tables or sqlite_master, fall back to
+# deleting the DB so Hermes recreates a fresh one on next gateway start.
 
 # 3. Restore to fresh DB
 sqlite3 /tmp/mnemosyne_clean.db < /tmp/mnemo_dump.sql

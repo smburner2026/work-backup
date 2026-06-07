@@ -36,6 +36,13 @@ Before implementing anything:
 **Pitfall:** The default LLM behaviour is to infer the most likely interpretation
 and run with it. This rule explicitly countermands that — present options first.
 
+**Pitfall — "Proceed" ≠ approval of your preferred option:** When you offer
+the user multiple alternatives (Option A, Option B, Option C) and they respond
+with a vague affirmative ("proceed," "go ahead," "OK," "sure"), do NOT assume
+they chose your recommended option. Silent assumption of unstated preferences
+causes frustration when the user had a different option in mind. Instead,
+confirm: "Which option? A, B, or C?" One clarifying turn saves a correction turn.
+
 **Pitfall — Distinguish asking from executing:** When the user asks a question
 that starts with "how" or requests an explanation ("How does X work?", "How do
 I do Y?"), **answer the question first**. Do not jump to running commands,
@@ -184,7 +191,7 @@ This is the single most impactful behavioral fix for complex, multi-session inve
 - **Before introducing any hypothesis, theory, or explanation in a conversation**, check whether it was previously discussed and what was concluded. If you don't remember, search sessions first.
 - **Once a theory is conclusively disproven by hard evidence** (compile error, chart confirmation, explicit user correction), strike it from the working hypothesis set. Do NOT reintroduce it in a later turn, even as a "what if" or "maybe the test was wrong." This includes theories that showed superficial evidence (e.g., signal count match) but failed the definitive test (timestamp-level validation against user's CSV).
 - **When the user corrects you — on format, on conclusions, on approach — the correction is not a single-turn fix.** It must become a durable rule. If they say "stop doing X," embed "Do not X" as an explicit check in the relevant skill. Memory capture is necessary but not sufficient — skill updates lock in the lesson.
-- **Trust the user on their own system — verify before counter-arguing.** When the user states something about their own system that contradicts your assumption (e.g., "gbrain is already installed," "we switched to a different model," "feature X doesn't work"), your first action MUST be a verification tool call — config check, filesystem stat, test run, or memory read — NOT a counter-argument or explanation of why they might be wrong. The user lives in their system daily. You have stale docs. Three common failure modes: (a) reading a stale config file instead of the authoritative source, (b) citing aspirational docs that don't match actual runtime behavior, (c) not reading your own memory notes before speaking. The fix is the same in all cases: tool call first, then speak.
+- **Trust the user on their own system — verify before counter-arguing.** When the user states something about their own system that contradicts your assumption (e.g., "marker-pdf is already installed," "we switched to a different model," "feature X doesn't work"), your first action MUST be a verification tool call — config check, filesystem stat, test run, or memory read — NOT a counter-argument or explanation of why they might be wrong. The user lives in their system daily. You have stale docs. Three common failure modes: (a) reading a stale config file instead of the authoritative source, (b) citing aspirational docs that don't match actual runtime behavior, (c) not reading your own memory notes before speaking. The fix is the same in all cases: tool call first, then speak.
 - **Maintain a running list of dead-end theories** in the session's working context. When you catch yourself reaching for a disproven explanation, the list is your brake.
 - **Before proposing a new analysis, ask yourself:** "Does this require the user to test something I could test myself?" If the answer is yes, rework the approach to minimize user effort. When the user says "why can't you do it?", they are telling you that you should have done it yourself.
 
@@ -337,6 +344,151 @@ When evaluating an unfamiliar OSS project (as done this session with browser-use
 
 **Related skills:** `workflow-pattern-kit` — the four patterns in that kit were extracted using this analysis protocol.
 
+## 9. MIT Component Extraction — Clean Import from OSS Repos
+
+> *Eval the project (section 8). If the core value is in its pure-Python modules, extract them. Don't run the whole Docker stack for 200 lines of logic.*
+
+This is the natural follow-on to the Codebase Analysis Protocol (section 8). Once you've identified that a repo's value lives in specific pure-Python functions (barrier detection, quality gates, extraction logic), the question becomes: how do you use that value without adopting the full project's deployment model?
+
+### The extraction flow
+
+```
+OSS project (MIT/Apache/BSD)       Your Hermes-native module
+├── scraper-svc/                    ├── barrier_classifier.py
+│   └── scraper/                    │   (pure functions, stdlib only)
+│       ├── fetch.py  ──→  ──→  ──→│
+│       │   _classify_barrier()     │   classify_barrier()
+│       │   BarrierInfo             │   BarrierInfo
+│       └── extract.py  ──→  ──→  ├── quality_gates.py
+│           assess_quality()        │   assess_quality()
+│                                   │   (stdlib + regex only)
+├── Dockerfile                      │
+├── docker-compose.yml              │   (not copied)
+├── agent-svc/, browser-svc/, ...   │   (not copied)
+└── 6 other containers              │   (not needed)
+```
+
+### Steps
+
+**Step 1 — Identify the pure-Python core**
+
+Look at the repo's directory tree. Services that are just Python FastAPI/Flask apps without Docker-specific dependencies are candidates. The `scraper-svc/` in a crawling framework is usually a good target — it's a plain HTTP handler with the real logic in `fetch.py`, `extract.py`, etc.
+
+Not candidates: services that import Playwright, headless browser libraries, or GPU-specific packages. Those are Docker-wrapped for a reason.
+
+**Step 2 — Verify the license allows extraction**
+
+Only extract from MIT, Apache 2.0, BSD, or CC0 licensed repos. Never GPL/AGPL unless the user explicitly accepts the license implications. Check the LICENSE file or `license:` in pyproject.toml. If there's no license file, assume not safe to copy.
+
+**Step 3 — Extract the source files**
+
+Copy only the files that hold the intelligence. Every file you DON'T copy is a dependency you don't need to manage.
+
+| Include if | Exclude if |
+|---|---|
+| Pure functions with no I/O | Requires Playwright/Browser service |
+| Dataclass/Pydantic models | Talks to external Docker containers |
+| Stdlib + common deps only | Requires GPU or OS-level packages |
+| Regex-based analysis | Coupled to parent project's config/env |
+
+**Step 4 — Strip dependencies**
+
+- Remove imports that reference other services in the same repo (e.g., a scraper importing the project's own `client.py` that calls the Docker API).
+- Replace the project's custom cache layer (Valkey/Redis) with simpler: `functools.lru_cache`, `cachetools.TTLCache`, or plain SQLite.
+- For HTTP: replace async `httpx` with `urllib.request` from stdlib, or keep `requests` as a declared dependency.
+
+**Step 5 — Rename and re-export**
+
+- Give the module a clean descriptive name (`barrier_classifier.py`, not `fetch.py`).
+- Write a module docstring with source attribution: `Extracted from {project} v{version} (MIT License)`.
+- Export only the public API the parent project would expose.
+
+**Step 6 — Test independently**
+
+```python
+from barrier_classifier import classify_barrier
+result = classify_barrier(url='https://x.com/cf_chl', title='Just a moment...')
+assert result.detected and result.barrier_type == 'cloudflare'
+print('Extracted module works standalone')
+```
+
+**Step 7 — Wire into the workflow**
+
+- Import in the relevant Hermes skill's script.
+- Register with ToolRegistry if Hermes tools should discover it.
+- Ensure the module is on `sys.path` from where the driver (e.g., `escalate.py`) imports it.
+
+### When to use this vs. running the full project
+
+| Extract (this pattern) | Run the full project |
+|---|---|
+| Core logic is <500 LOC | Core logic is >5000 LOC |
+| Pure functions, no I/O | Needs browser, GPU, or external service |
+| Can be tested standalone | Needs its own DB or message queue |
+| Low-maintenance (stdlib+regex) | High-maintenance (Docker, CI, upgrades) |
+| VPS has tight RAM | Plenty of RAM for Docker stack |
+
+### Verification
+
+Before declaring the extraction complete:
+1. `python3 -c "from {module} import ...; print('OK')"` — clean import
+2. Run core functions against known inputs — same output as parent project
+3. Verify no Docker/cache/network calls triggered by basic operation
+4. Check LOC of extracted files vs. parent repo — expect 80-90% reduction
+
+### Pitfalls
+
+- **License creep**: A MIT project may have AGPL dependencies. Check `requirements.txt` for dependency licenses.
+- **Hidden Docker coupling**: A function that looks pure might try to connect to `http://valkey:6379`. Check every import and URL string literal.
+- **Version drift**: Extracted code is a snapshot. Document the source commit hash in the module docstring for future diffing.
+- **Configuration coupling**: Functions reading `os.environ` should accept params instead. Add defaults at the module top.
+- **Resist extracting the full repo**: If the core logic is <500 lines but Docker setup is 5000, extract. If the core logic IS 5000 lines, run it as-is.
+
+### Related skills
+
+- `engineering-discipline` — this section (MIT extraction follows codebase analysis)
+- `workflow-pattern-kit` — extracted modules often integrate with ToolRegistry/OutputGate/DAG
+- `groktocrawl-escalation` — real-world example (barrier_classifier.py, quality_gates.py extracted from GroktoCrawl)
+
+---
+
+## 10. User Preference: Solve With Existing Capabilities Before Proposing New Tools
+
+> The user has a strong, durable default: **edit or use existing capabilities before adding new tools/skills/plugins.** This is a workflow override, not a one-time preference.
+
+**Source of the rule (user quote):** *"I really don't like to be collecting a medley of things and then end up having spaghetti code later on down the line."*
+
+**The default hierarchy for any "how do I..." or "let's optimize X" request:**
+
+1. **Behavior change** — same tools, tighter parameters, smaller windows, better queries. No new code, no new artifacts.
+2. **Configuration change** — adjust defaults in `~/.hermes/config.yaml`, add an `AGENTS.md` rule, set a `MEMORY.md` convention. One line.
+3. **Edit existing skill/tool** — trim a bloated SKILL.md, split into core + `references/`, tighten frontmatter. The artifact already exists, you're modifying it.
+4. **New skill/tool** — only when 1-3 are insufficient. Always pair with explicit cost: "this adds N skills/plugins/dependencies."
+
+**When proposing anything in tier 4, name the cost explicitly.** A recommendation that requires 3+ new skills/plugins to implement is almost always wrong — refactor the question.
+
+**Pitfall — fluent install as default path:** When you have `skill_manage` and `terminal` available, the path of least resistance is to install something new. Resist. The user has flagged this as spaghetti-code risk. If a recommendation needs more than one new skill to implement, it's probably the wrong recommendation.
+
+**Pitfall — mistaking friction for cost:** A behavior change the user has to remember ("always pass `limit=2` to session_search") has real friction. Configuration changes (set the default once) are cheaper than behavior changes. When recommending behavior changes, suggest a config or memory line that makes the default stick.
+
+## 11. Skill Activation: Every New Skill Needs a Trigger
+
+> A skill without an automatic trigger is a dead skill. Don't create it.
+
+**Source of the rule (user quote):** *"how will this be used though? I don't want to add a dead skill and vault."*
+
+When creating a new skill, require at least ONE of these before shipping:
+- **Cron job** — scheduled scan/action that runs without agent memory
+- **Hook** — pre/post trigger on existing workflows (delegation, tool calls)
+- **Soul injection** — loaded as part of the agent's operating model so it's always in context
+- **User-invoked command** — slash command or explicit trigger the user controls
+
+**The test:** "If I forget this skill exists tomorrow, will it still do something?" If the answer is no, it's dead. Either add a trigger or don't create it.
+
+**Pitfall — manual-only skills:** A skill that requires the agent to remember to load it and run it will work for one session and then be forgotten. The agent's context is finite; untriggered skills get crowded out by active tasks.
+
+**Pitfall — "I'll add the trigger later":** Later never comes. The trigger is the skill. Ship them together or don't ship.
+
 ## When To Load This Skill
 
 - At the start of any non-trivial coding task (feature, refactor, bug fix)
@@ -344,8 +496,9 @@ When evaluating an unfamiliar OSS project (as done this session with browser-use
 - Before delegating tasks to subagents
 - Whenever user shares a specification or requirements document
 - Whenever performing file mutations that will be reported to the user as completed
+- When proposing new skills, plugins, or tools as solutions (load with `tool-evaluation`)
 
-## Foundation Patterns (Co-load with workflow-pattern-kit)
+## Reference Files
 
 These patterns are baked into the operating model. The `workflow-pattern-kit` skill implements them as reusable Python modules. Load it alongside this skill for any non-trivial workflow.
 

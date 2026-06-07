@@ -1,6 +1,6 @@
 ---
 name: dabt-reference
-description: "Primary reference lookup for DABT study — G-Brain vector search + cross-source synthesis across Casarett & Doull 9e, Hayes 7e, regulatory guidelines, ABT handbook. File search fallback for page-level depth."
+description: "Primary reference lookup for DABT study — file search + grep cross-source synthesis across Casarett & Doull 9e, Hayes 7e, regulatory guidelines, ABT handbook. Multi-pass workflow for page-level depth."
 category: education
 ---
 
@@ -10,7 +10,6 @@ category: education
 Load when: drill question needs sourced explanation (DB Explanation empty) | deep dive needs citations | "what does Casarett say about X" | "look up Y in Hayes" | "→ Read: [source]" drill feedback | truth audit | flashcard fact verification. Load `dabt-project-workflow` first for config (source directories, extracted paths).
 
 ## Content Gap Discovery (When Material Is Missing)
-
 When the user asks about missing content or you discover the library is incomplete:
 
 1. **Audit what's on disk** — Compare the source directories against the DABT exam outline. Resolve searchable source paths from `config['reference_library']['searchable_sources']`. List files, count them, note what's present and what's absent.
@@ -26,7 +25,7 @@ When the user asks about missing content or you discover the library is incomple
    - Read the current `index.json` from the relevant source directory (resolved from `config['reference_library']['searchable_sources']`)
    - Add entries for new files with `title`, `category`, `file`, and `pages` fields
    - Rebuild the full index (don't just append — recalculate `total_documents` and sort)
-   - Write the updated file. The index is what makes `search_files` and G-Brain sync discover new content.
+   - Write the updated file. The index is what makes `search_files` discover new content.
 
 **Critical pitfall — synchronous timeout cascade:** `delegate_task` blocks the LLM turn. A subagent searching/downloading/parsing 15–20 government PDFs can take several minutes. The model provider will timeout, the session will drop all work-in-progress, and zero output reaches the user. Using cron jobs for large batches decouples the download time from the conversation and avoids this entirely.
 
@@ -52,28 +51,30 @@ Extracted texts at `config['reference_library']['extracted_dir']` from `dabt-con
 
 ## Lookup Workflow (3-Pass)
 
-**CRITICAL: G-Brain is PRIMARY.** Every reference lookup starts with G-Brain. File search is fallback.
+**CRITICAL: File search is PRIMARY.** Every reference lookup starts with file search. Grep and read_file provide progressively deeper detail.
 
-### Pass 1 — Identify Target (G-Brain)
-Query gbrain for the concept + source tag. Determine which source and chapter contain the answer.
+### Pass 1 — Identify Target (File Search)
+Use `search_files` to find which source and chapter contain the answer.
 
 **Pass 1 commands:**
-- `mcp_gbrain_query(query, limit=5)` — cross-source synthesis
-- `mcp_gbrain_think(question)` — multi-hop synthesis when you need to connect concepts across sources
+- `search_files(target='files', pattern='*chapter*', path=SOURCE_DIR)` — locate chapter files
+- `search_files(target='content', pattern='keyword|synonym1|synonym2', path=SOURCE_DIR, file_glob='*.md')` — cross-source content search
 
-**Pass 1 filters to reduce token waste:**
-- Use source tags: `casarett-doull` | `hayes` | `regulation` | `abt-handbook` | `dabt`
-- Limit results to 3-5 most relevant chunks
-- When you need page-level detail, proceed to Pass 2
+**Pass 1 tips:**
+- Use multiple keyword variations (synonyms, abbreviations) to cast a wide net
+- Filter by file glob (e.g., `*.md`) to target extracted markdown files
+- Limit results to 3-5 most relevant files
+- Note the file paths and line numbers of promising matches
+- When you need the exact passage, proceed to Pass 2
 
-### Pass 2 — Extract Relevant Passage (File Search)
-Search extracted markdown for the specific passage.
+### Pass 2 — Extract Relevant Passage (Grep)
+Search within the identified file(s) for the specific passage.
 
 **Pass 2 commands:**
-- `search_files(target='content', pattern='...', path=SOURCE_DIR)` — grep extracted markdown
-- `grep` the specific chapter file for the concept
+- `search_files(target='content', pattern='...', path=SPECIFIC_FILE, context=3)` — grep with context lines
+- Narrow the pattern to the exact claim or phrase you need to verify
 
-### Pass 3 — Load Full Section (if needed)
+### Pass 3 — Load Full Section (Read File)
 Read the full section/paragraph using `read_file` with offset+limit for the relevant lines.
 
 ## Citation Format
@@ -81,12 +82,23 @@ Read the full section/paragraph using `read_file` with offset+limit for the rele
 
 ## Cross-Verification Workflow (Drill Questions)
 When a DB answer conflicts with reference text:
-1. Query G-Brain for the concept (source-tagged)
-2. Search extracted markdown for the specific claim
+1. Search extracted markdown for the specific claim (file search)
+2. Grep within matched files for the exact passage
 3. Flag discrepancy to user with both sources cited
 4. Do NOT silently correct — present both sources and let user decide
 
 Full workflow in `references/cross-verification-workflow.md`.
+
+## Vault Handoff (after every lookup)
+
+When a reference lookup produces a non-trivial finding (a passage that anchors an exam-relevant fact, a regulatory threshold, a mechanism clarification):
+
+1. **Identify the concept** — what topic does this passage most directly support? Check the topic→chapter map in `wiki/populate-vault.py` (or `wiki/concepts/<slug>.md` if a note exists).
+2. **Suggest expansion** — at the end of the lookup response, surface: "This passage is cited by `wiki/concepts/<slug>.md` (stub) — want me to add it as a source pointer?"
+3. **When user agrees (or when running unattended)**, patch the concept note's `## Source pointers` section with the chapter:line citation, OR create a new concept note stub if the topic isn't yet in the vault.
+4. **Wikilink the chapter** — if the chapter file doesn't already have a `## Cross-references (vault)` section, append one. (The `wiki/inject-wikilinks.py` script does this in bulk for the standard curriculum map; ad-hoc additions are fine.)
+
+The lookup is half the work. The other half is making the finding findable next time — the vault is the layer that makes that happen.
 
 ## Batch Download Reference (Regulatory URLs)
 When downloading regulatory documents for the reference library, consult `references/regulatory-source-urls.md` for verified source URLs across EPA, OSHA, eCFR, ECHA (REACH), UN GHS, and NTP. Documents the URL patterns, fallback sources (e.g., PubChem when UNECE is unreachable), batch extraction strategy, and file provenance conventions. New regulatory source patterns discovered during downloads should be added there.

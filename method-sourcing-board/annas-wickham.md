@@ -1,4 +1,0 @@
-
-# Navigation failed
-
-Reason: CouldntResolveHost

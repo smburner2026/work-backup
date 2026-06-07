@@ -13,7 +13,7 @@
 ```
 PHASE 1                    PHASE 2                  PHASE 3                  PHASE 4
 ══════════════             ══════════════            ══════════════            ══════════════
-Batch OCR                  Structure Extract        Period Map               G-Brain Ingest
+Batch OCR                  Structure Extract        Period Map               Obsidian / Local Files
 │                          │                         │                        │
 ├── Vol 1 (509p) ──────►  ├── TOC parse ──────────► ├── Period tags ───────► ├── Page create
 ├── Vol 2 (727p) ──────►  ├── Chapter detect        │  (P1-P7)               │  per period
@@ -321,35 +321,33 @@ sources/vstb/period-map.json
 }
 ```
 
-## Phase 4: G-Brain Ingest
+## Phase 4: Obsidian / Local Files Ingest
 
-For each period, create a G-Brain page:
+For each period, create a local markdown file in the Obsidian vault (or project research folder):
 
-```
-slug: sources/vstb-quyen-1
-content: |
-  ---
-  type: book
-  source: vstb
-  ---
-  # Việt Sử Tân Biên — Quyển I
+```markdown
+---
+type: book
+source: vstb
+---
+# Việt Sử Tân Biên — Quyển I
 
-  **Author:** Phạm Văn Sơn
-  **Period covered:** [period name]
-  **Pages:** [range]
-  **Full text:** sources/vstb/viet-su-tan-bien-quyen-1.txt
+**Author:** Phạm Văn Sơn
+**Period covered:** [period name]
+**Pages:** [range]
+**Full text:** sources/vstb/viet-su-tan-bien-quyen-1.txt
 
-  ## Table of Contents
-  ...
+## Table of Contents
+...
 
-  ## Key Figures
-  ...
+## Key Figures
+...
 
-  ## Key Events
-  ...
+## Key Events
+...
 
-  ## Notes for Project
-  ...
+## Notes for Project
+...
 ```
 
 ## Delegation Architecture
@@ -379,7 +377,7 @@ content: |
                                │
                                ▼
                     ┌────────────────────┐
-                    │  G-Brain Ingest     │
+                    │  Obsidian/Files     │
                     │  Page creation      │
                     │  Cross-linking      │
                     └────────────────────┘
@@ -395,4 +393,4 @@ content: |
 | G4 | Zero OCR FAILED / IMAGE MISSING markers | Parent |
 | G5 | Structure JSON valid, TOC parsed | Synthesis |
 | G6 | Period map covers all 7 periods | Parent |
-| G7 | G-Brain pages created, cross-linked | Parent |
+| G7 | Obsidian/local markdown files created, cross-linked | Parent |

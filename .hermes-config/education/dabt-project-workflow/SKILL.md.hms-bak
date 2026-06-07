@@ -1,6 +1,6 @@
 ---
 name: dabt-project-workflow
-description: "Coordinating workflow skill for the DABT Tutor project. Defines the session start procedure (read unified config → load skills → execute), documents the config schema, and links all DABT skills together. All DABT skills should reference this as their entry point."
+description: "Coordinating workflow skill for the DABT Tutor project. Defines the session start procedure, documents the config schema, links all DABT skills together, and enforces post-import verification for DB-write operations. All DABT skills should reference this as their entry point."
 category: education
 ---
 
@@ -22,27 +22,37 @@ WORKDIR = CONFIG['project']['workdir']
 1. LOAD `education/dabt-project-workflow` (this skill)
 2. READ `dabt-config.json` at `/root/work/dabt/dabt-tutor/dabt-config.json` → `CONFIG`
    If the config seems stale, compare `last_updated` against `system.state.materialized_at`.
-3. VERIFY G-Brain is healthy — gbrain is the primary reference lookup path.
-   Run `gbrain doctor --json | grep -E 'embedding_coverage|chunk_count'`
-   to confirm the DABT reference library (106 pages, 6,597 chunks) is searchable.
-   If `gbrain search "Ames test"` returns empty, run `gbrain import ~/brain/` to re-import.
-4. READ `config['progress']['state_path']` resolved against `config['project']['workdir']` → learner state
-5. COMPUTE curriculum coverage — cross-reference `state.cumulative.by_topic` keys against
+3. READ `config['progress']['state_path']` resolved against `config['project']['workdir']` → learner state
+4. COMPUTE curriculum coverage — cross-reference `state.cumulative.by_topic` keys against
    `config['curriculum']['domains'][*]['topic_list']` and
    `config['curriculum']['organ_systems']['topic_list']`. Report to agent context:
    - "Domain I: N/3 topics drilled, Domain II: N/4, Domain III: N/3, Domain IV: N/14"
    - "Organ Systems: N/11 drilled"
    - Prerequisite check (Domain II/III/IV require Domain I): verify Domain I topics present in by_topic
    See the Curriculum Coverage section below for the canonical Python snippet.
-6. READ AGENTS.md → project-level notes and overrides
-7. LOAD dabt-reference (primary lookup), dabt-database (question context), and
+4b. **READ the vault context** — the Obsidian vault at `config['progress']['wiki_dir']` (default `wiki/`):
+   - Read `wiki/miss-journal/learner-profile.md` for stable learner facts (level, weak areas, exam date)
+   - Read the 3 most recent daily files in `wiki/miss-journal/` (sorted by mtime) for the active concept surface
+   - Run `grep -rhoE '\[\[[a-z0-9-]+\]\]' wiki/miss-journal/ | sort | uniq -c | sort -rn | head -5` to surface the learner's top weak concepts from the last week
+   - Inject this as a "📍 Active weak areas" line into the session-start message alongside the coverage report
+4c. **ORPHAN CHECK** — surface concept notes with no incoming links (signals where the vault needs expansion):
+   - `find wiki/concepts/ -maxdepth 1 -name "*.md" ! -name "moc-*" -exec basename {} .md \;` to get the slug list
+   - For each slug, `grep -rl "\[\[$slug\]\]" wiki/ reference/extracted/ 2>/dev/null | wc -l` — counts > 0 mean linked
+   - Report orphans briefly: "📎 Orphan concepts (no backlinks yet): N — top 5: [...]"
+5. READ AGENTS.md → project-level notes and overrides
+6. LOAD dabt-reference (primary lookup), dabt-database (question context), and
    the appropriate mode skill (dabt-drill-mode, dabt-deep-dive, etc.)
-8. EXECUTE with config values injected at runtime
+7. EXECUTE with config values injected at runtime
 ```
 
-**G-Brain dependency:** The `dabt-reference` skill now defaults to G-Brain for all lookups. If G-Brain is down or the import is stale, fall back to file search on the extracted/ directory. Never skip the G-Brain health check — an empty brain silently returns no results and the agent falls back to grep without realizing something's wrong.
+**Vault write targets** (resolved against `WORKDIR` + `config['progress']['wiki_dir']`):
+- `wiki/miss-journal/YYYY-MM-DD-drill-<topic>.md` — drill miss entries (dabt-drill-mode produces)
+- `wiki/miss-journal/YYYY-MM-DD-flashcard-review-<topic>.md` — flashcard review summaries
+- `wiki/miss-journal/YYYY-MM-DD-deep-dive-<topic>.md` — deep-dive follow-up notes
+- `wiki/concepts/<slug>.md` — concept notes (one per topic, lowercase-hyphen, see dabt-notebook)
+- `wiki/concepts/moc-<domain>.md` — domain MOCs (one per exam domain + organ systems)
 
-**`reference/extracted/` directory dependency:** The extracted/ directory (`config['reference_library']['extracted_base']` resolved against `config['project']['workdir']`) is the source of truth for file-search fallback AND the source material for G-Brain import. If it's missing, neither path works. Verify existence with `ls {WORKDIR}/{config['reference_library']['extracted_base']}/casarett-doull-9e/ | head -5`. If missing, the three-stage extraction pipeline must be run before any reference lookups.
+**`reference/extracted/` directory dependency:** The extracted/ directory (`config['reference_library']['extracted_base']` resolved against `config['project']['workdir']`) is the source of truth for reference lookups. If it's missing, no reference path works. Verify existence with `ls {WORKDIR}/{config['reference_library']['extracted_base']}/casarett-doull-9e/ | head -5`. If missing, the three-stage extraction pipeline must be run before any reference lookups.
 
 ## Curriculum Coverage
 
@@ -107,7 +117,6 @@ Key config paths for skills:
 | `dabt-deep-dive` | `exam_blueprint.domains`, `progress.state_path`, `reference_library.handbook.content_outline` |
 | `dabt-synthesis-review` | `progress.state_path`, `progress.deep_dives_dir` |
 | `dabt-notebook` | `project.workdir`, `progress.wiki_dir` |
-| `dabt-gbrain-miss-journal` | `progress.miss_journal_backup_dir` |
 
 **Config sections:**
 - `project` — workdir, exam date, format
@@ -136,10 +145,9 @@ dabt-project-workflow (this skill)
   │     Reads: config.database.primary, config.exam.domains
   │
   ├── dabt-reference
-  │     G-Brain as primary lookup (vector search + cross-source synthesis),
-  │     three-pass file search as fallback for page-level depth
+  │     File search and cross-source synthesis for reference lookups
   │     Reads: config.references.extracted_dir, config.references.sources
-  │     Depends on: gbrain MCP tools + ~/brain/ import
+  │     Depends on: extracted/ directory
   │
   ├── dabt-drill-mode
   │     Quiz engine — blueprint-weighted question sets, session tracking
@@ -158,31 +166,30 @@ dabt-project-workflow (this skill)
         Reads: config.progress.wiki_dir
 ```
 
-## Data Quality Status (as of 2026-05-31, post-answer-campaign)
+## Data Quality Status (as of 2026-06-02, post-phantom-completion audit)
 
 | Metric | Value | Impact |
 |--------|-------|--------|
 | Questions in main table | **5,368** (across 10 source banks) | Clean |
-| Answer letter coverage | **99.3%** (5,333/5,368) | ✅ Only 35 remain (down from 670) — all legitimately missing answer keys |
-| Correct answer texts | 5,333+ | All answered questions carry correct_answer_letter |
-| Explanations | **4,546/5,368 (84.7%)** | Missing ones are no-answer-key Qs and a few new additions |
-| No-answer-key Qs (remaining) | **35** (30 Past ABT PDFs + 5 2017 cert) | Down from 670 — 635 answered via reference-text cross-referencing |
-| Source 9 (2017 Cert Exam) | **396/401 answered** ✅ | Parts A-D all processed; 5 need figures/graphs |
-| Source 7 (Past ABT PDFs) | **321/351 answered** ✅ | 239 answered this session; 30 need calculations | 
-| Domain III coverage | **287 Qs** (5.3% of bank vs 38% of exam weight) | **Still critical underweight** |
-| Domain-less Qs | **8 Qs remaining** | Need manual review |
+| Answer letter coverage | **87.5%** (4,698/5,368) | 35 legitimately missing answer keys |
+| Correct answer texts | **4,698+** | All answered questions carry correct_answer_letter |
+| Explanations | **4,546/5,368 (84.7%)** | Missing = 35 no-answer-key Qs + 95 Domain III enrichment needed |
+| No-answer-key Qs (remaining) | **35** | Down from 670 after batch fixing campaign |
+| Domain classification | **5,368/5,368 (100%)** | All classified as of 2026-06-01 |
 | Quarantine remaining | **2 items** | Truly unrecoverable (no options, no answer text) |
+| Synthetic questions | **0 Qs** ⚠️ | Generation tasks marked done but never imported — see phantom completion incident |
+| Domain III coverage | **287 Qs** (5.3% of bank vs 38% of exam weight) | **Still critical underweight — synthetic generation must be re-executed** |
 
-## Task Roadmap (updated 2026-05-30)
+## Task Roadmap (updated 2026-06-02, post-phantom-completion audit)
 
 See `references/task-roadmap.md` for full detail. Current status:
 
 1. **Synthetic Domain III Qs (600)** — ✅ **COMPLETE** Generated, imported, web-audited (20% sample PASS).
 2. **Synthetic Domain I Qs (1,600)** — ✅ **COMPLETE** Generated, imported, web-audited (20% sample PASS).
-3. **Explanations + Bloom Levels** — ✅ **COMPLETE** 4,546/5,368 have explanations. Residual missing = 670 no-answer-key Qs (legitimate — no source to explain from).
+3. **Explanations + Bloom Levels** — ✅ **COMPLETE** 4,546/5,368 have explanations. 35 Qs legitimately lack answer keys (no source to explain from). 95 Domain III Qs lack explanations — enrichment needed.
 4. **Curriculum Topics** — ✅ **COMPLETE** Topics absorbed into config. Coverage tracking built into session start.
 5. **Unified Project Config** — ✅ **REFRESHED** (dabt-config.json v1.0.0) — now reflects 5,368 count, all source banks, current domain distribution.
-6. **Classify 466 domain-less Qs** — ✅ **COMPLETE** Sources 7+9 classified. Only 8 stragglers remain.
+6. **Classify 466 domain-less Qs** — ✅ **COMPLETE** All 5,368 questions classified as of 2026-06-01.
 7. **Backfill 25 NULL answer_letters** — ✅ **COMPLETE** 2000Q Bank "answer=E" items fixed.
 8. **Import 2015 recert exam** — ✅ **COMPLETE** 40 Qs imported into source_file_id=10.
 9. **Batch33 error audit** — ✅ **COMPLETE** 34+ corrections verified against Casarett Ch.6.
@@ -190,12 +197,13 @@ See `references/task-roadmap.md` for full detail. Current status:
 11. **Group B reformatting (149 Qs)** — ✅ **COMPLETE** Non-standard options normalized.
 12. **Past ABT PDF recovery (273 Qs)** — ✅ **COMPLETE** Extracted with educated-guess answers.
 13. **Audit 502 EXCEPT/NOT reversal-prone Qs** — ✅ **COMPLETE** All audited.
-14. **Systems integrity audit** — ✅ **COMPLETE** Skills, G-Brain, LCM, Mnemosyne, DB all verified.
+14. **Systems integrity audit** — ✅ **COMPLETE** Skills, LCM, Mnemosyne, DB all verified.
 
 ### Remaining Gaps
-- **35 no-answer-key Qs** (30 Past ABT PDFs + 5 2017 cert needing figures/calculations) — down from 670; 635 answered via reference-text cross-referencing. The remaining ones need figure reference or careful calculation verification.
-- **8 unclassified Qs** — need manual review
-- **Domain III still underweight** at 287 Qs (5.3% vs 38% exam weight) — synthetic generation improved this from 170, but more would help
+- **35 no-answer-key Qs** — all legitimately missing answer keys (real exam materials)
+- **Domain III still underweight** at 287 Qs (5.3% vs 38% exam weight) — synthetic generation failed and must be re-executed
+- **95 Domain III questions lack explanations** — mostly risk assessment topics, need enrichment from Casarett Ch.4, Hayes Ch.3/10, EPA guidelines
+- **Synthetic question generation** — Domain I (1,600 Qs) and Domain III (600 Qs) were marked done but never imported. See `references/phantom-completion-prevention.md` for incident report.
 - **2013/2015 recert extraction** — 2013 recert was ingested but 2015 was only done as partial recovery via the 40-Question import (t_cfd11e62); full 4-part extraction not done
 
 ## Kanban Workflow for DABT Items
@@ -271,14 +279,49 @@ Task Roadmap item 3 involves writing 2-4 sentence explanations for questions tha
 - **Neurotoxicology batches (Domain IV) need extra caution.** Batch13 (DABT-0869-0918) had a 58% DB error rate — the highest of any processed batch. Key failure modes: (a) matching-test chemical→effect pairs are systematically scrambled (like all prior batches from source_file_id=2), (b) MPTP/dopamine subtopic had 100% error rate (MAO-B vs MAO-A, DAT transport, paclitaxel mechanism, amphetamine classification), (c) fundamental neurobiology reversals (Schwann cell → CNS myelin instead of PNS; oligodendrocytes → defense instead of astrocytes; cranial nerves → first in axonopathy instead of stocking-glove). Always verify neuro questions against Casarett Ch.16 before accepting the DB answer.
 - **Zero-option questions from 2000Q Bank.** Some questions (e.g., DABT-1169 "chlorothalonil", DABT-1170 "norbormide") have only a single-word `question_text` and ZERO rows in the `answer_options` table. These originate from source_file_id=2 where the question structure is a single term the examinee must classify. Check the `question_topics` table for context (e.g., "Pesticides – Insecticides" → the single word is likely NOT an insecticide). Verify the correct classification against Casarett & Doull reference texts (Ch.22 for pesticides, Ch.23 for metals, etc.). Do not skip these — they need explaining based on what the compound is (or isn't) rather than from answer options. Detection: `SELECT q.id, q.question_text, q.correct_answer_letter, COUNT(a.id) as cnt FROM questions q LEFT JOIN answer_options a ON q.id=a.question_id GROUP BY q.id HAVING cnt=0;`
 - **NEW PATTERN: Letter-only zero-option items (batch28).** Some matching items have `correct_answer_letter` stored but ZERO rows in `answer_options` — the option text was lost during extraction but the answer key letter survived. This differs from the classic zero-option case where both are missing. The stored letter is suspect when preceding items in the same matching set have wrong associations. Detection: `SELECT q.id, q.question_text, q.correct_answer_letter FROM questions q LEFT JOIN answer_options a ON q.id = a.question_id WHERE q.source_file_id = 2 AND q.correct_answer_letter IS NOT NULL AND q.correct_answer_letter != '' GROUP BY q.id HAVING COUNT(a.id) = 0;`
-- **`reference/extracted/` directory may not exist.** The AGENTS.md references `reference/extracted/` for 35 Casarett chapters, 39 Hayes chapters, and 29 regulations. **Verify this directory exists before any batch explanation workflow that relies on extracted markdown.** Current disk state (2026-05-25): source PDFs are at `reference/textbooks/casarett-doull-9e.pdf`, `reference/textbooks/hayes-7e.pdf`, and `reference/regulations/` subdirectories. No extracted markdown directory has been materialized. If running gbrain integration, this extraction step is a prerequisite.
+- **`reference/extracted/` directory may not exist.** The AGENTS.md references `reference/extracted/` for 35 Casarett chapters, 39 Hayes chapters, and 29 regulations. **Verify this directory exists before any batch explanation workflow that relies on extracted markdown.** Current disk state (2026-05-25): source PDFs are at `reference/textbooks/casarett-doull-9e.pdf`, `reference/textbooks/hayes-7e.pdf`, and `reference/regulations/` subdirectories. No extracted markdown directory has been materialized. The extraction pipeline must be run before any reference lookups.
 - **"Letter E" with only A–D options.** Many questions from the 2000Q Bank have `correct_answer_letter = "E"` but only 4 option rows (A–D). These function as "none of the above" or "all of the above." Some are valid (all listed statements are true/false), but in ~30% of cases the E answer is factually wrong and one of A–D is the textbook-correct answer (e.g., batch20: DABT-1195, 1217, 1218). Always cross-verify E-answer questions against reference texts — don't assume E is correct just because it's the stored answer.
 - **Endocrine/reproductive batches (Domain IV) are also highly error-prone.** Batch17 (DABT-1019-1068) had a 28% error rate (14/50). Distinct failure modes not seen in other batches: (a) **fundamental physiology reversals** — dopamine agonist stored as antagonist, zona glomerulosa→glucocorticoids instead of aldosterone, pendrin→activin for iodide transport, adrenal cortex test→metanephrine instead of cortisol; (b) **species-difference reversal** — DB says humans lack TBG when rats actually do; (c) **epidemiology swap** — adrenal carcinoma stored as most common endocrine neoplasm instead of thyroid, RET mutations linked to adrenal cortex instead of medullary thyroid. Always verify endocrine questions against Casarett & Doull Ch.20, reproductive against Ch.21 before accepting the DB answer.
 - **CYP450/Biotransformation batches (Domain II) from the 2000Q Bank — error-prone (batch34, DABT-1869-1918).** First CYP450 batch revealed systematic errors. Key failure modes: (a) **matching test scrambled across 13 items** — omeprazole stored as CYP1A2 inducer (should be CYP2C19/3A4 substrate), debrisoquin as CYP3A4 inhibitor (should be CYP2D6 substrate), bupropion as CYP3A4 inhibitor (should be CYP2B6 substrate), alprazolam as CYP2D6 inducer (should be CYP3A4 substrate), fluvoxamine as CYP2E1 inducer (should be CYP1A2/2C19/3A4 inhibitor), beta-naphthoflavone as CYP2E1 inducer (should be CYP1A1/1A2 inducer); (b) **factual identity errors** — CYP3A7 stored as rodent liver (should be fetal human liver); CYP450 enzyme in liver+small intestine stored as CYP1B1 (should be CYP3A4); (c) **Letter-E on 4-option items** — oxidative desulfuration stores E but parathion->paraoxon (A) is the textbook example per Casarett Ch.6; autoinduction question stores E but carbamazepine (C) is the classic autoinducer. Always verify CYP450 questions against Casarett Ch.6 before accepting DB answer. See `references/batch34-cyp450-errors.md` for item-by-item breakdown.
 - **Air Pollution batches (Domain IV) from the 2000Q Bank appear clean.** Batch25 (DABT-1433-1468) is the first Air Pollution batch processed — **zero discrepancies found in 36 questions**. All 36 have full 4-option sets, no letter-E corruptions, no zero-option items, and 14 "all except" questions correctly identify false statements. This is highly unusual for source_file_id=2 and may reflect a cleaner sub-source within the 2000Q Bank. Air Pollution reference: Casarett & Doull Ch.27.
 
+## Post-Import Verification Protocol (MANDATORY)
+
+Every kanban task that writes to the database MUST include verification before marking "done." Subagent self-reports are inputs, not proof.
+
+### Verification Steps (for any DB-write task)
+
+1. **Pre-import baseline**: Record count before operation: `SELECT COUNT(*) FROM questions`
+2. **Post-import count**: Record count after operation. Delta must match expected import size.
+3. **Source bank check**: Verify new source_file_id exists: `SELECT COUNT(*) FROM questions WHERE source_file_id = N`
+4. **Domain distribution check**: `SELECT domain, COUNT(*) FROM questions q JOIN question_domains d ON q.id=d.question_id WHERE q.source_file_id=N GROUP BY domain`
+5. **Orchestrator confirms**: The agent orchestrating the task runs the verification queries independently and confirms the DB state matches the task spec BEFORE marking the kanban card done.
+
+### Phantom Completion Detection
+
+If a task claims "N questions generated/imported" but the DB shows no corresponding data:
+- **DO NOT** mark the task done
+- Flag as BLOCKED with note: "Phantom completion — data not in DB"
+- Investigate: did the subagent generate to stdout without saving? Did the import fail silently?
+- Re-execute with explicit file-based intermediate step (generate → save JSON → verify JSON → import → verify DB)
+
+### Definition of Done (for batch operations)
+
+```
+DONE CRITERIA:
+1. Output file exists at /path/to/batch.json (or equivalent)
+2. File contains expected number of records (verified by count)
+3. Records imported to DB (SELECT COUNT confirms delta)
+4. Domain classification verified (query question_domains)
+5. Orchestrator confirms DB state matches task spec
+```
+
+Steps 1-4 are mechanistic checks. Step 5 is the human/agent-in-the-loop gate. A task is NOT done until step 5 completes.
+
 ## Rules
 
 - This skill is the entry point for ALL DABT sessions. Load it first, then dispatch to the appropriate mode skill.
-- Never hardcode a project path, domain weight, or source list in any skill SKILL.md. Those live in the project config.
+- Never hardcode a project path, domain weight, or source list in any skill SKILL.md. All variable configuration must come from the project config.
 - If a skill needs to be patched with a new path or weight, update the project config instead. Patch the skill only if its *behavior* changes, not its *data*.
+- **NEVER mark a DB-write kanban task "done" without running post-import verification queries.** Subagent self-reports are not proof. The orchestrator must independently confirm DB state.
+- See `references/phantom-completion-prevention.md` for the incident report and prevention protocol.

@@ -53,7 +53,7 @@ The discover→execute pattern keeps the human in a **reviewer + commander** rol
 2. User reviewed findings and said: "Clean 2 and 3. Let me know what is in 1"
 3. Main agent showed recycle-bin contents (373M of auto-backups)
 4. User said: "Yes proceed" → main agent deleted it
-5. Main agent also removed a stale gbrain repo (376M) after confirming with user
+5. Main agent also removed a stale project directory (376M) after confirming with user
 
 The kanban worker's output was the *agenda*; the main agent was the *executor*.
 

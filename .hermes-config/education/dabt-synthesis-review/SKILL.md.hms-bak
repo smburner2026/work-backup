@@ -138,6 +138,12 @@ When the review reveals a gap (e.g., "we have no deep dive on chromium chronic e
 - Append to `config['progress']['state_path']` → `review_sessions: [{date, topics, dimensions, flashcard_file}]`
 - Update memory: `dabt.synthesis_review.last_session` with date + dimensions covered
 
+**C. VAULT UPDATE — synthesis note (when review reveals a new cross-domain connection):**
+- If the review surfaces a unifying concept, pattern, or cross-domain linkage that doesn't yet have a concept note, offer to create one at `wiki/concepts/<slug>.md`
+- Add wikilinks from each related concept note to the new synthesis (so the backlink graph shows the cross-domain link)
+- Example: after a metals review, the "Six-Pillar Framework" or "Chelation Kinetics" might warrant a synthesis note
+- Synthesis notes are the most leveraged artifact in the vault — they connect domains, not just topics
+
 ## Compressed Soul
 
 **SOUL**

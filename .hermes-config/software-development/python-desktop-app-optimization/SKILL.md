@@ -73,11 +73,19 @@ Wire to a `ttk.Checkbutton` with a `BooleanVar` in the window footer; on toggle 
 - Never claim the app requires admin rights (it does not).
 - **PyInstaller cross-compilation**: A Linux PyInstaller build produces a Linux ELF binary, NOT a Windows .exe. To build the Windows exe, copy the source tree to the Windows side (`/mnt/c/Users/...`) and run `python build_release.py` there in PowerShell or CMD. The source, asset icons, .spec, and build script all need to be on Windows.
 - **Animation thread safety**: Never call `root.after()` from a non-main thread. Use the existing `_ui_queue` (SimpleQueue + periodic drain) pattern, or schedule via `_call_on_ui()`. The step function itself runs on the main thread since `root.after` fires there.
+- **Python 3.12+ ctypes callback strictness**: Python 3.12 enforces that Win32 API callbacks match their declared WINFUNCTYPE signature exactly. Passing a plain nested function raises `ctypes.ArgumentError: argument N: TypeError: expected WinFunctionType instance instead of function`. Fix: wrap the callback with its declared type at the call site:
+  ```python
+  MONITORENUMPROC = self.MONITORENUMPROC
+  self.user32.EnumDisplayMonitors(None, None, MONITORENUMPROC(enum_monitor_proc), None)
+  ```
+  This is a breaking change from 3.11 — code that worked fine on 3.11 crashes on 3.12+. Applies to any Win32 ctypes callback: `EnumDisplayMonitors`, `SetWinEventHook`, `EnumWindows`, `EnumChildWindows`, etc. Audit all WINFUNCTYPE definitions before shipping a 3.12+ build.
+- **Microsoft Store Python**: pip is NOT on PATH as a standalone command — use `python -m pip` instead. Store Python works fine for PyInstaller builds since the .exe bundles its own runtime.
 
 ## References
 - `references/redshift-optimization-notes.md` — concrete changes from the 2026-05 RedShift session (gamma caching, macOS reconfiguration callback, Windows safety timer reduction).
 - `references/redshift-smooth-animation.md` — smooth eased transitions via `root.after()`, Windows auto-start via ctypes+advapi32, cross-compilation pitfall.
 - `references/pyinstaller-desktop-patterns.md` — reusable patterns for tray apps using pystray + ctypes.
+- `references/python312-ctypes-callback.md` — Python 3.12+ ctypes callback strictness when passing functions to Win32 APIs; error signature, fix pattern, and affected APIs.
 
 ## Building the executable
 After editing the main script:

@@ -1,6 +1,6 @@
 {
-  "config_version": "1.2.0",
-  "last_updated": "2026-05-30",
+  "config_version": "1.3.0",
+  "last_updated": "2026-06-02",
   "project": {
     "name": "DABT Tutor",
     "workdir": "/root/work/dabt/dabt-tutor",
@@ -28,20 +28,20 @@
           "B. Execute": 9,
           "C. Interpret": 16
         },
-        "db_questions": 1125,
-        "db_pct": 21.0,
-        "weight_gap": -15.0,
-        "status": "UNDERWEIGHT -- 21.0% of DB for 36% of exam"
+        "db_questions": 2728,
+        "db_pct": 36.1,
+        "weight_gap": 0.1,
+        "status": "SYNTHETIC ADDED \u2014 36.1% of DB for 36% of exam (was 21.0%)"
       },
       "II. Mechanistic Toxicology": {
         "weight_pct": 13,
         "tasks": 8,
         "knowledge_topics": 27,
         "sub_domains": {},
-        "db_questions": 927,
-        "db_pct": 17.3,
-        "weight_gap": 4.3,
-        "status": "OVERWEIGHT -- 17.3% of DB for 13% of exam"
+        "db_questions": 929,
+        "db_pct": 12.3,
+        "weight_gap": -0.7,
+        "status": "NEAR TARGET \u2014 12.3% of DB for 13% of exam"
       },
       "III. Risk Assessment": {
         "weight_pct": 38,
@@ -53,10 +53,10 @@
           "C. Dose Response Assessment": 9,
           "D. Risk Characterization & Management": 9
         },
-        "db_questions": 287,
-        "db_pct": 5.4,
-        "weight_gap": -32.6,
-        "status": "CRITICAL -- 5.4% of DB for 38% of exam; 172/287 Qs have no sub-domain assigned",
+        "db_questions": 887,
+        "db_pct": 11.7,
+        "weight_gap": -26.3,
+        "status": "SYNTHETIC ADDED \u2014 11.7% of DB for 38% of exam (was 5.4%), synthetic_questions_target=600",
         "synthetic_questions_target": 600,
         "depletion_warning_at": 50
       },
@@ -66,9 +66,9 @@
         "knowledge_topics": 25,
         "sub_domains": {},
         "db_questions": 3026,
-        "db_pct": 56.4,
-        "weight_gap": 43.4,
-        "status": "OVERWEIGHT -- 56.4% of DB for 13% of exam"
+        "db_pct": 40.0,
+        "weight_gap": 27.0,
+        "status": "OVERWEIGHT \u2014 40.0% of DB for 13% of exam"
       }
     }
   },
@@ -76,31 +76,31 @@
     "primary": {
       "path": "reference/data/dabt.db",
       "type": "sqlite",
-      "total_questions": 5360,
+      "total_questions": 7567,
       "domain_coverage_pct": 100.0,
       "quality": {
-        "with_explanation": 5360,
-        "explanation_pct": 100.0,
-        "with_bloom_level": 4838,
-        "bloom_level_pct": 90.3,
-        "notes": "5360 Qs total. 790 flagged no_answer_key=1 (269 Past ABT PDFs src7 + 401 2017 Cert src9 + 120 2015 Recert src10). 128 Qs lack answer_options (matching items from 2000Q Bank). 522 Qs lack bloom_level. 3 questions have dual domain assignments (DABT-4628, 4629, 4630). 0 domainless questions remain."
+        "with_explanation": 6840,
+        "explanation_pct": 90.4,
+        "with_bloom_level": 7050,
+        "bloom_level_pct": 93.2,
+        "notes": "7567 Qs total. 35 flagged no_answer_key=1 (Past ABT PDFs + 2017 Cert + 2015 Recert). Synthetic: 2,199 Qs across 7 source banks (11-17). All 7,567 questions have domain classifications."
       },
       "domain_distribution": {
         "Domain I": {
-          "count": 1125,
-          "pct": 21.0
+          "count": 2728,
+          "pct": 36.1
         },
         "Domain II": {
-          "count": 927,
-          "pct": 17.3
+          "count": 929,
+          "pct": 12.3
         },
         "Domain III": {
-          "count": 287,
-          "pct": 5.4
+          "count": 887,
+          "pct": 11.7
         },
         "Domain IV": {
           "count": 3026,
-          "pct": 56.4
+          "pct": 40.0
         }
       },
       "source_banks": {
@@ -133,7 +133,7 @@
           "count": 401,
           "pct": 7.7,
           "source_file_id": 9,
-          "handling": "no_answer_key — 401 questions from Part A-D PDFs"
+          "handling": "no_answer_key \u2014 401 questions from Part A-D PDFs"
         },
         "Past ABT Exams (PDFs)": {
           "format": "real-exam",
@@ -164,16 +164,62 @@
           "count": 120,
           "pct": 2.2,
           "source_file_id": 10,
-          "handling": "no_answer_key — 120 questions from Parts A-C PPTXs + PDF"
+          "handling": "no_answer_key \u2014 120 questions from Parts A-C PPTXs + PDF"
+        },
+        "Synthetic Domain I-A Design": {
+          "format": "synthetic",
+          "count": 489,
+          "source_file_id": 11,
+          "generated": "2026-06-02"
+        },
+        "Synthetic Domain I-B Execute": {
+          "format": "synthetic",
+          "count": 400,
+          "source_file_id": 12,
+          "generated": "2026-06-02"
+        },
+        "Synthetic Domain I-C Interpret": {
+          "format": "synthetic",
+          "count": 711,
+          "source_file_id": 13,
+          "generated": "2026-06-02"
+        },
+        "Synthetic Domain III-A Hazard ID": {
+          "format": "synthetic",
+          "count": 189,
+          "source_file_id": 14,
+          "generated": "2026-06-02"
+        },
+        "Synthetic Domain III-B Exposure": {
+          "format": "synthetic",
+          "count": 126,
+          "source_file_id": 15,
+          "generated": "2026-06-02"
+        },
+        "Synthetic Domain III-C Dose-Response": {
+          "format": "synthetic",
+          "count": 142,
+          "source_file_id": 16,
+          "generated": "2026-06-02"
+        },
+        "Synthetic Domain III-D Risk Char": {
+          "format": "synthetic",
+          "count": 142,
+          "source_file_id": 17,
+          "generated": "2026-06-02"
         }
       },
       "domain_iii_detail": {
-        "unassigned_sub_domain": 172,
-        "D.RiskChar&Mgmt": 65,
-        "A.Hazard ID": 16,
-        "C.Dose-Response": 27,
-        "B.Exposure": 7,
-        "notes": "172 of 287 Domain III Qs (59.9%) unassigned at sub-domain level. RiskChar&Mgmt: 65, Hazard ID: 16, Dose-Response: 27, Exposure: 7. Sub-domain classification still needed for 172 core Qs before synthetic generation can proceed."
+        "total": 887,
+        "synthetic": 599,
+        "original": 288,
+        "sub_domains_synthetic": {
+          "A.Hazard ID": 189,
+          "B.Exposure": 126,
+          "C.Dose-Response": 142,
+          "D.Risk Char & Mgmt": 142
+        },
+        "notes": "Domain III grew from 287 to 887 with 599 synthetic Qs."
       },
       "no_answer_key_questions": {
         "count": 790,
@@ -184,7 +230,7 @@
           "2015 ABT Recertification Exam": 120
         },
         "years": "2012-2017",
-        "handling": "discussion prompt during drills — no answer key available"
+        "handling": "discussion prompt during drills \u2014 no answer key available"
       }
     },
     "legacy": {
@@ -236,7 +282,7 @@
         "has_answers": false,
         "searchable": true,
         "added": "2026-05-30",
-        "notes": "PDF extracted with pdftotext. No answer keys in source — questions only."
+        "notes": "PDF extracted with pdftotext. No answer keys in source \u2014 questions only."
       }
     ],
     "handbook": {
@@ -249,7 +295,7 @@
       "status": "Wired into reference search pipeline as of 2026-05-20"
     },
     "not_searchable": {
-      "notes": "Mid-Amer Tox Course summaries, C&D Chapter Support slides/notes/lectures, and Study_Aids are intentionally excluded — user determined they add noise."
+      "notes": "Mid-Amer Tox Course summaries, C&D Chapter Support slides/notes/lectures, and Study_Aids are intentionally excluded \u2014 user determined they add noise."
     }
   },
   "exam_materials": {
@@ -281,7 +327,7 @@
         "file": "practice-exams/mini-abt-*/",
         "files_count": 22,
         "format": "DOCX",
-        "ingested": "Partial — 446 Qs from legacy xlsx in DB; full docx pairs exist as originals"
+        "ingested": "Partial \u2014 446 Qs from legacy xlsx in DB; full docx pairs exist as originals"
       },
       {
         "name": "Tox 2000 Notecards",
@@ -315,12 +361,12 @@
     },
     "anti_clustering": true,
     "source_spread_minimum": 3,
-    "weight_config_source": "This file (dabt-config.json) — exam_blueprint.domains[*].weight_pct"
+    "weight_config_source": "This file (dabt-config.json) \u2014 exam_blueprint.domains[*].weight_pct"
   },
   "curriculum": {
     "absorbed_from": "curriculum/topics.json",
     "absorbed_at": "2026-05-30",
-    "status": "EMBEDDED — topics absorbed directly into this config. curriculum/topics.json deleted.",
+    "status": "EMBEDDED \u2014 topics absorbed directly into this config. curriculum/topics.json deleted.",
     "coverage_tracking": "Cross-reference state.json cumulative.by_topic keys against domain.topic_list and organ_systems.topic_list to compute coverage percentages.",
     "domains": {
       "domain-i-conduct-of-studies": {
@@ -485,13 +531,13 @@
         "topic_list": [
           "Metals & Metalloids",
           "Solvents & Hydrocarbons",
-          "Pesticides – Insecticides",
-          "Pesticides – Herbicides",
-          "Pesticides – Rodenticides",
-          "Pesticides – Fumigants",
-          "Gases – Asphyxiants & Irritants",
+          "Pesticides \u2013 Insecticides",
+          "Pesticides \u2013 Herbicides",
+          "Pesticides \u2013 Rodenticides",
+          "Pesticides \u2013 Fumigants",
+          "Gases \u2013 Asphyxiants & Irritants",
           "Air Pollution & Particulates",
-          "Drugs & Therapeutics – Toxicology",
+          "Drugs & Therapeutics \u2013 Toxicology",
           "Plant Toxins",
           "Animal & Microbial Venoms / Toxins",
           "Mycotoxins",
@@ -789,23 +835,23 @@
         "type": "domain_topic",
         "domain": "domain-iv-applied-tox"
       },
-      "Pesticides – Insecticides": {
+      "Pesticides \u2013 Insecticides": {
         "type": "domain_topic",
         "domain": "domain-iv-applied-tox"
       },
-      "Pesticides – Herbicides": {
+      "Pesticides \u2013 Herbicides": {
         "type": "domain_topic",
         "domain": "domain-iv-applied-tox"
       },
-      "Pesticides – Rodenticides": {
+      "Pesticides \u2013 Rodenticides": {
         "type": "domain_topic",
         "domain": "domain-iv-applied-tox"
       },
-      "Pesticides – Fumigants": {
+      "Pesticides \u2013 Fumigants": {
         "type": "domain_topic",
         "domain": "domain-iv-applied-tox"
       },
-      "Gases – Asphyxiants & Irritants": {
+      "Gases \u2013 Asphyxiants & Irritants": {
         "type": "domain_topic",
         "domain": "domain-iv-applied-tox"
       },
@@ -813,7 +859,7 @@
         "type": "domain_topic",
         "domain": "domain-iv-applied-tox"
       },
-      "Drugs & Therapeutics – Toxicology": {
+      "Drugs & Therapeutics \u2013 Toxicology": {
         "type": "domain_topic",
         "domain": "domain-iv-applied-tox"
       },
@@ -956,7 +1002,7 @@
       "Antiviral MOA / Acyclovir-Genotoxicity"
     ],
     "analogy_preference": "Production-line metaphors for biochemical pathways, comparative frameworks for cross-topic consolidation",
-    "tone_preference": "Practitioner-level treatment — no regression to Novice/Apprentice. Exam-trap framing. Fact dumps rejected in favor of comparison-driven understanding."
+    "tone_preference": "Practitioner-level treatment \u2014 no regression to Novice/Apprentice. Exam-trap framing. Fact dumps rejected in favor of comparison-driven understanding."
   },
   "skills": {
     "base_path": "/root/.hermes/skills",
@@ -994,7 +1040,7 @@
       "profile-call": {
         "path": "education/profile-call",
         "category": "education",
-        "function": "Persona trigger — Mike → loads all 6 DABT skills"
+        "function": "Persona trigger \u2014 Mike \u2192 loads all 6 DABT skills"
       }
     },
     "config_consumption": {
@@ -1005,7 +1051,7 @@
     "1_synthetic_questions": {
       "title": "Build synthetic DABT-style MCQs for underweight domains",
       "priority": "high",
-      "scope": "Domain III (Risk Assessment) → target 600 Qs. Domain I (Conduct of Studies) → target 1,600 Qs.",
+      "scope": "Domain III (Risk Assessment) \u2192 target 600 Qs. Domain I (Conduct of Studies) \u2192 target 1,600 Qs.",
       "ground_truth_sources": [
         "Casarett Ch.4",
         "Hayes Ch.3",
@@ -1027,14 +1073,14 @@
       "priority": "high",
       "scope": "~3,387 questions without explanations; one explanation each (1-3 sentences: mechanism + trap + citation)",
       "ground_truth_sources": [
-        "dabt-reference → all extracted/ sources"
+        "dabt-reference \u2192 all extracted/ sources"
       ],
       "status": "completed"
     },
     "3b_bloom_levels": {
       "title": "Classify all questions by cognitive level",
       "priority": "high",
-      "scope": "4,841 questions → Remember/Understand, Apply, or Analyze",
+      "scope": "4,841 questions \u2192 Remember/Understand, Apply, or Analyze",
       "criteria": {
         "remember-understand": "Recall facts, definitions, or recognize correct statements",
         "apply": "Apply concepts to novel scenarios, calculate, interpret data",

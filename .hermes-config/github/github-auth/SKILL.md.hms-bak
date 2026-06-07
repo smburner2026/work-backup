@@ -395,7 +395,7 @@ git push origin main 2>&1                         # should succeed
 | `git push` asks for password | GitHub disabled password auth. Use a personal access token as the password, or switch to SSH |
 | `remote: Permission to X denied` | Token may lack `repo` scope — regenerate with correct scopes |
 | `fatal: Authentication failed` | Cached credentials stale — run `git credential reject` then re-authenticate. If persists, check for stale `insteadOf` URL (see Token Expiry Recovery Phase 3A) |
-| `gh auth login --with-token` silently does nothing | `GH_TOKEN` or `GITHUB_TOKEN` env var is set. `gh` prioritises the env var. Run `unset GH_TOKEN GITHUB_TOKEN` first |
+| `gh auth login --with-token` silently does nothing | `GH_TOKEN` or `GITHUB_TOKEN` env var is set. `gh` prioritises the env var. Run `unset GH_TOKEN GITHUB_TOKEN` first. **Common hidden source:** Bitwarden Secrets Manager (BWS) injects `GITHUB_TOKEN` into the process environment at startup — check `env | grep GITHUB_TOKEN` in the failing context (e.g., cron scripts). See `secrets-management` skill for BWS-specific conflict details. |
 | `gh auth login --with-token` fails: `error validating token: missing required scope 'read:org'` | gh CLI requires `read:org` even for personal repos. Regenerate classic PAT with `read:org` ticked (under `admin:org` scope group). Workaround: use `GH_TOKEN` env var to skip scope validation |
 | Credentials not persisting | `git config --global credential.helper` must be `store` or `cache` |
 | Multiple GitHub accounts | SSH with different keys per host alias in `~/.ssh/config` |

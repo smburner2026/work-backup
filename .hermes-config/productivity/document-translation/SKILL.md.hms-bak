@@ -138,6 +138,41 @@ Estimate total source text size and select the right parallelism level:
 | 50–200K chars | 2–3 batches, sequential |
 | Over 200K chars | Parallel batches of 3 chapters each via `delegate_task(tasks=[...])` |
 
+### Kanban Batching — Multi-Segment Books
+
+For full-book translations (especially French colonial texts or 60K+ word works), split by part/chapter and batch via kanban + parallel subagents:
+
+1. **Split** the cleaned source text into per-part segment files by page range
+2. **Create kanban board + cards** for the project:
+   ```bash
+   hermes kanban boards create <slug> --name "Project Name" --switch
+   hermes kanban create --body "Source: /path/to/source.txt\nVoice ref: /path/to/voice-ref.txt" "Translate: Part N — Title"
+   ```
+3. **Save the approved sample** as a voice-reference file for subagents
+4. **Dispatch** segments in parallel batches of up to 3 via `delegate_task`
+5. **Verify** all output files exist with expected sizes
+6. **Consolidate** into single translation file
+7. **Mark cards complete** via `hermes kanban complete <task_id>`
+
+### Voice — Register Selection by Source Type
+
+| Source type | Voice | Example | Foundation skill |
+|---|---|---|---|
+| Vietnamese narrative/novel | Colloquial storytelling ("guy telling a story over a beer") | Bảy Viễn | — |
+| Vietnamese scholarly history | Burckhardtian — cultured, precise, carries author's energy | VSTB (Phạm Văn Sơn) | `burckhardt-reflection-method` |
+| Vietnamese documentary compilation | Clear expository, formal for letters | Cao Đài Army | — |
+| French colonial adventure/history | Conrad-Kipling adventure register — weighted, vivid, sensory; third register bowen between George Circle elevation and Kipling adventure voice | Hoang-Tham (Paul Chack) | `george-circle-register` |
+| German historical biography (George Circle) | Kantorowicz-level elevated epic — beautiful, weighty, formally precise | Vallentin Napoleon | `george-circle-register` |
+| Technical/academic | Precise, register-neutral | — | — |
+
+**Universal rules (all registers):**
+- Proper names: ALWAYS keep in source language, never anglicize or translate
+- Titles/ranks: translate on first use with original in parentheses, then English thereafter
+- Idioms: adapt to closest natural English equivalent
+- No footnotes, no translator commentary
+- Dialogue: natural spoken register
+- Output: plain text, not markdown
+
 ### Tone Consistency Across Batches
 
 When using parallel subagents for batch translation, include BOTH the glossary AND a tone/voice note in every delegate_task context so all subagents maintain the same register:

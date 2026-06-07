@@ -31,7 +31,7 @@ These feed each other. Drilling surfaces gaps that warrant deep dives. Deep dive
 ## Question Database
 
 /root/work/dabt/dabt-tutor/reference/data/dabt.db (SQLite — primary, expanded)
-  - 4,841 questions across 7 source banks
+  - 7,567 questions across 17 source banks (including 2,199 synthetic)
   - Tables: questions, answer_options, question_topics, question_domains, source_files, match_pairs
   - Replaces the old 446-question xlsx with a relational schema
   - See /root/dabt-curated/MASTER_INDEX.md for full domain breakdown

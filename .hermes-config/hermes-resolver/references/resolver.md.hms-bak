@@ -9,7 +9,7 @@ Loaded via `skill_view(name='hermes-resolver', file_path='references/resolver.md
 |---|---|
 | drill / practice / MCQ / exam | `dabt-drill-mode` |
 | explain / understand / why | `dabt-deep-dive` |
-| look up / search / check reference | `dabt-reference` → mcp_gbrain_query |
+| look up / search / check reference | `dabt-reference` (file search) |
 | consolidate / compare topics | `dabt-synthesis-review` |
 | post to X / Twitter | `xurl` |
 | diagram / draw / architecture | `excalidraw` or `architecture-diagram` |
@@ -73,6 +73,6 @@ their description matches the task.
 
 1. **Prefer the most specific match** — `dabt-drill-mode` over generic `dabt-database` for exam practice
 2. **Content type routing** — If the user shares a URL → `web_extract` or browser tool; if a YouTube URL → `youtube-content`
-3. **Consult always-hot memory first** — Key triggers (Euphy, Mike) and core references (G-Brain for DABT) are in MEMORY
+3. **Consult always-hot memory first** — Key triggers (Euphy, Mike) are in MEMORY
 4. **When in doubt, ask** — If 2+ skills could match equally, a 1-turn clarification prevents wrong execution
 5. **Chain when phases say so** — Some skills explicitly chain (e.g. enrich → import → embed)

@@ -333,6 +333,7 @@ A fix that looks correct in source code may not work in the running application:
 - `references/android-system-corruption.md` — diagnostic pattern for Android (especially Pixel) system corruption presenting as cascading system-app crashes, stuck OTAs, and the "up to date" paradox. Covers signal classification, known-bad Play Services builds, treatment hierarchy from safe-mode isolation through full factory image flash, and hardware NAND failure detection.
 - `references/orphan-uid-artifacts.md` — detecting cross-platform copy artifacts: files owned by a non-existent numeric UID (e.g. UID 1000 after WSL→Linux rsync), diagnosis commands, chown fix, and prevention via rsync flags.
 - `references/tui-paste-debugging.md` — debugging paste/clipboard failures in raw-mode TUI applications. Covers bracketed paste mode (`DEC 2004`) diagnostics, startup-order investigations, OpenTUI vs Ink paste handling, and the fix pattern for re-enabling paste after terminal-mode reset.
+- `references/python-ctypes-callback-strictness.md` — Python 3.12+ ctypes callback type mismatch (`expected WinFunctionType instance instead of function`). Diagnosis of `ctypes.ArgumentError` in WinAPI calls, root cause (Python 3.12 tightened callback validation), and the WINFUNCTYPE-wrapping fix pattern for callbacks like `EnumDisplayMonitors`.
 
 ## Hermes Agent Integration
 

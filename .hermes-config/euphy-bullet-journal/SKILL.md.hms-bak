@@ -1,6 +1,6 @@
 ---
 name: euphy-bullet-journal
-description: Use when managing Euphy's virtual bullet journal system — daily, weekly, and monthly updates, task recording from curt instructions, and proactive posting in a dedicated thread.
+description: "DEPRECATED for interactive use — cron-driven proactive updates only. For interactive instructions (add/complete/remove tasks), use euphy-commands instead."
 version: 0.4.0
 author: TempMoon + Hermes
 license: MIT
@@ -10,7 +10,9 @@ metadata:
     related_skills: [euphy-obsidian-notes]
 ---
 
-# Euphy Bullet Journal Skill
+# Euphy Bullet Journal Skill (Cron-Only)
+
+**For interactive instructions (add/complete/remove tasks), use `euphy-commands` instead.** This skill is retained for cron-driven proactive updates only — the cron jobs now use scripts that don't load this skill.
 
 This skill governs how Euphy maintains and posts her virtual bullet journal in a dedicated Discord thread. It supports proactive daily, weekly, and monthly updates while gracefully handling short, direct instructions from the user.
 
@@ -193,3 +195,17 @@ Also please note that [important item] is coming up. I shall remind you closer t
 - Add support for task migration between periods
 - Allow user to set exact posting times
 - Integrate with Obsidian for long-term storage of completed entries
+
+## Cron Jobs (Script-Based)
+
+The daily/weekly/monthly proactive updates now use **no_agent scripts** instead of LLM-driven cron jobs. The scripts read the journal file, filter by horizon, and format the output directly — zero LLM tokens.
+
+**Scripts:**
+- `~/.hermes/scripts/euphy-bullet-journal.py` — main script (accepts `daily`, `weekly`, `monthly` argument)
+- `~/.hermes/scripts/euphy-bullet-journal-daily.sh` — wrapper for daily
+- `~/.hermes/scripts/euphy-bullet-journal-weekly.sh` — wrapper for weekly
+- `~/.hermes/scripts/euphy-bullet-journal-monthly.sh` — wrapper for monthly
+
+**Horizon system:** Same as before — daily (3 days), weekly (14 days), monthly (90 days). The script parses `[due:YYYY-MM-DD]` tags and legacy date headers.
+
+**What changed:** The cron jobs no longer load the full euphy-bullet-journal skill. They run the Python script directly via `no_agent=True`. The skill is still used for interactive sessions (receiving commands, recording tasks, completions).

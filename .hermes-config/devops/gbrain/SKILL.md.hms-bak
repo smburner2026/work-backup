@@ -1,7 +1,7 @@
 ---
 name: gbrain
 description: "Install, configure, and operate G-Brain (garrytan/gbrain) — a production-grade brain layer for Hermes with synthesis, graph traversal, gap analysis, and self-wiring knowledge graph."
-version: 1.7.0
+version: 1.8.0
 author: Hermes Agent
 tags: [gbrain, brain-layer, knowledge-management, rag, synthesis, knowledge-graph]
 related_skills: [hermes-maintenance, remote-agent-infrastructure]
@@ -490,59 +490,40 @@ gbrain skillpack install <name>      # install one
 
 ### Setting Up
 
-**For Hermes, as a no_agent bash script cron (self-healing config pattern — survives DB wipes and git pulls):**
+**For Hermes, as a no_agent bash script cron (graceful degradation pattern):**
 
 Create the script at `~/.hermes/scripts/gbrain-dream-cycle.sh`:
 
-> **Durable fix for the recurring Anthropic issue:** The script re-asserts all model configs in the PGLite DB before each run. This survives DB wipes, rebuilds, and git updates — the config is self-healing every cycle.
+> **Key insight:** The gateway auto-restarts `gbrain serve` within seconds of being killed. Don't fight this — let the dream degrade gracefully. Filesystem-only phases (lint, backlinks, extract) run even when PGLite is locked. DB phases (sync, embed, propose_takes) are handled by the MCP server during normal operation.
 
 ```bash
 #!/bin/bash
-# gbrain-dream-cycle.sh — Nightly G-Brain maintenance (RAM-optimized + self-healing)
-#
-# Self-healing: re-asserts model configs every run so Anthropic hardcode
-# regressions can never silently return — survives DB wipes and git pulls.
+# gbrain-dream-cycle.sh — Nightly G-Brain maintenance (graceful degradation)
 set -uo pipefail
 
-set -a; source /root/.hermes/.env 2>/dev/null; set +a
-export PATH="$HOME/.bun/bin:/usr/local/bin:/usr/bin:/bin"; export HOME="$HOME"
-MARKER_FILE="$HOME/.gbrain/.dream-last-run"
+export HOME="/root"
+source /root/.hermes/.env 2>/dev/null
+export PATH="/root/.bun/bin:/usr/local/bin:/usr/bin:/bin"
 
-echo "=== GBRAIN DREAM CYCLE $(date -u +%Y-%m-%dT%H:%M:%SZ) ==="
-cd ~/gbrain
+MARKER_FILE="/root/.gbrain/.dream-last-run"
+cd /root/gbrain
 
-# Step 1: Free memory — kill ALL MCP servers
-# ... (kill MCP servers, wait, clean stale locks)
-# Step 2: Clear stale dream cycle locks
-# ...
+# Attempt to kill MCP — gateway may respawn it before dream starts
+pkill -9 -f "gbrain serve" 2>/dev/null || true
+rm -f /root/.gbrain/brain.pglite/postmaster.pid 2>/dev/null
 
-# Step 3: SELF-HEALING CONFIG — survives DB wipes and git pulls
-# Every run re-asserts ALL model keys + provider_base_urls so we never regress.
-# Missing just one key (even models.chat or provider_base_urls) silently
-# reverts that path to Anthropic tier defaults. This exact set was confirmed
-# to fix real production regressions.
-echo "[3/6] Self-healing gbrain config..."
-gbrain config set chat_model deepseek:deepseek-v4-flash --force 2>/dev/null || true
-gbrain config set models.default deepseek:deepseek-v4-flash --force 2>/dev/null || true
-gbrain config set models.think deepseek:deepseek-v4-flash --force 2>/dev/null || true
-gbrain config set models.chat deepseek:deepseek-v4-flash --force 2>/dev/null || true
-gbrain config set models.tier.utility deepseek:deepseek-v4-flash --force 2>/dev/null || true
-gbrain config set models.tier.reasoning deepseek:deepseek-v4-flash --force 2>/dev/null || true
-gbrain config set models.tier.deep deepseek:deepseek-v4-flash --force 2>/dev/null || true
-gbrain config set models.tier.subagent deepseek:deepseek-v4-flash --force 2>/dev/null || true
-gbrain config set provider_base_urls '{"deepseek":"https://opencode.ai/zen/go/v1"}' --force 2>/dev/null || true
+# Run dream — degrades gracefully if PGLite is locked
+# Filesystem phases (lint, backlinks, extract) always run
+# DB phases (sync, embed, propose_takes) skip when locked
+DREAM_OK=0
+timeout 180 gbrain dream --dir /root/brain 2>&1 || DREAM_OK=$?
 
-# Step 4: Run dream cycle — ONE pass handles lint/backlinks/sync/embed/extract/etc.
-echo "[4/6] Running gbrain dream cycle..."
-DREAM_OK=0; gbrain dream --dir ~/brain/ --json 2>&1 || DREAM_OK=$?
-
-# Step 5: Marker + Report
 date -u +%s > "$MARKER_FILE"
-echo "DREAM CYCLE: $( [ $DREAM_OK -eq 0 ] && echo completed || echo completed with code $DREAM_OK )"
-
-# Step 6: Restart gbrain MCP server (safety net)
-echo "[5/6] Restarting gbrain MCP server..."
-nohup bash /root/.hermes/scripts/gbrain-mcp-wrapper.sh >/dev/null 2>&1 &
+if [ "$DREAM_OK" -eq 0 ]; then
+    echo "DREAM CYCLE: completed successfully"
+else
+    echo "DREAM CYCLE: completed with code $DREAM_OK"
+fi
 echo "=== DREAM CYCLE DONE $(date -u +%Y-%m-%dT%H:%M:%SZ) ==="
 ```
 
@@ -556,9 +537,8 @@ Then create the cron:
 ```
 
 **Critical:**
-- **Self-healing config is the durable fix for recurring Anthropic regressions.** The script re-asserts all 9 config keys (8 model keys + provider_base_urls) before every dream cycle run. This is the ONLY approach that survives: DB wipes, gbrain init --pglite re-initialization, git pulls, full MCP server restarts, and individual `gbrain config set chat_model` regressions. Without this, any DB rebuild or partial config edit silently regresses parts of the model resolution chain to Anthropic tier defaults because source patches alone can't fix the getChatModel() -> resolveModel() fallback chain.
-- MCP server MUST be stopped before CLI commands. gbrain serve holds an exclusive PGLite lock -- CLI commands hang with a lock timeout if it's running. Hermes auto-restarts it on the next tool call. Kill ALL MCP servers (tradingview-mcp, wundertrading) to free ~120MB additional RAM before the dream cycle.
-- set -a; source .env; set +a is REQUIRED. Without it, env vars are set in the script shell but NOT exported to gbrain child processes.
+- **Graceful degradation is the correct pattern for cron.** The gateway auto-restarts `gbrain serve` within seconds — don't fight it. `gbrain dream` runs filesystem-only phases (lint, backlinks, extract) when PGLite is locked. DB phases (sync, embed, propose_takes) are handled by the MCP server during normal operation. See `references/pglite-lock-contention-gateway.md`.
+- `set -a; source .env; set +a` is REQUIRED in cron scripts. Without it, env vars are set in the script shell but NOT exported to gbrain child processes.
 - If gbrain dream is OOM-killed, it leaves a stale row in gbrain_cycle_locks. Fix: DELETE FROM gbrain_cycle_locks WHERE id='gbrain-cycle' via direct PGLite query (included in the script).
 - The dream cycle's --json output includes all 20+ phases in one efficient process. Do NOT run separate gbrain sync, gbrain embed --stale, or gbrain extract before gbrain dream -- the dream cycle handles all of them internally.
 - On low-RAM machines (<=2GB): increase cron.script_timeout_seconds to at least 600s (set in config.yaml), kill all MCP servers before running, and maintain at least 4GB swap.
@@ -639,9 +619,10 @@ gbrain doctor --json
 - **Dream cycle LLM phases can work without Anthropic, but need TWO things.** The old claim "LLM phases ARE Anthropic-gated despite docs claims" is outdated — with source patches AND config keys in the DB, `propose_takes`, `grade_takes`, `calibration_profile`, and `extract_facts` all route through non-Anthropic providers. The one truly Anthropic-gated path is `subagent dispatch` (used by `synthesize` and `autopilot`) which hard-enforces via `isAnthropicProvider()`. See [`references/dream-cycle-model-patching.md`](./references/dream-cycle-model-patching.md) for the complete fix.
 - **Cost depends on chat model, not dream itself.** A user who turns on dream cycles with GPT-5.2 via OpenRouter will pay ~5-10× more per cycle than with Ling 2.6 Flash. Always surface the cost implication.
 - **Dream is NOT optional for knowledge compounding.** Without it, imported documents sit as flat chunks — the graph never builds itself, entities never get enriched, and gaps never get flagged. The brain stays at "dump of files" level.
-- **MCP server holds exclusive PGLite lock.** The gbrain MCP server (`gbrain serve`) keeps a persistent PGLite connection. Separate CLI commands (sync, embed, extract) timeout with "Timed out waiting for PGLite lock" when the MCP server is running. The dream cycle script MUST stop the MCP server (`pgrep -f "gbrain serve" | xargs kill`) before running CLI commands. Hermes auto-restarts the MCP server on the next tool call.
+- **MCP server holds exclusive PGLite lock — gateway auto-restart creates race condition.** The gbrain MCP server (`gbrain serve`) keeps a persistent PGLite connection. The Hermes gateway auto-restarts it within ~2-5s of being killed. This means the "kill MCP → run CLI" pattern is unreliable — by the time the CLI starts, the gateway has already respawned serve. **Dream cycle gracefully degrades:** `gbrain dream` runs filesystem-only phases (lint, backlinks, extract) when PGLite is locked, skipping DB-dependent phases (sync, embed, propose_takes). It exits 0 in degraded mode. For cron jobs, accept degraded mode — the filesystem phases still provide value. For full dream, stop the gateway first (`pkill -f "hermes.*gateway"`) or run from an interactive session. See [`references/pglite-lock-contention-gateway.md`](./references/pglite-lock-contention-gateway.md) for the full analysis.
 - **OOM-killed dream processes leave stale cycle lock.** If `gbrain dream` is killed by OOM or timeout, it leaves a row in `gbrain_cycle_locks` with `id='gbrain-cycle'`. Subsequent dream runs fail with "cycle_already_running" even after a fresh start. **Quick fix:** `rm -f /root/.gbrain/cycle.lock` (removes the filesystem-level marker). **Full fix:** `DELETE FROM gbrain_cycle_locks WHERE id='gbrain-cycle'` via direct PGLite query (use `bun -e` with `PGlite.create({dataDir})`). The dream cycle script should include this cleanup step.
-- **120s default timeout for no_agent cron scripts (configurable).** Hermes no_agent cron jobs default to 120s. The dream cycle's mechanical phases (lint, backlinks, sync, embed, extract, consolidate) complete in ~62s, but LLM-based phases (propose_takes, grade_takes) take longer and get SIGTERM'd. Increase via `cron.script_timeout_seconds` in `~/.hermes/config.yaml` or the `HERMES_CRON_SCRIPT_TIMEOUT` env var (see [cron internals docs](https://hermes-agent.nousresearch.com/docs/developer-guide/cron-internals#skill--script-backing)). This install uses **600s** for the dream cycle. Acceptable for nightly maintenance — the critical mechanical phases run. Use a completion marker file (~/.gbrain/.dream-last-run) and have the nightly audit check its freshness.
+- **120s default timeout for no_agent cron scripts (configurable).** Hermes no_agent cron jobs default to 120s. The dream cycle's mechanical phases (lint, backlinks, sync, embed, extract, consolidate) complete in ~62s, but LLM-based phases (propose_takes, grade_takes) take longer and get SIGTERM'd. Increase via `cron.script_timeout_seconds` in `~/.hermes/config.yaml` or the `HERMES_CRON_SCRIPT_TIMEOUT` env var (see [cron internals docs](https://hermes-agent.nousresearch.com/docs/developer-guide/cron-internals#skill--script-backing)). This install uses **900s** for the dream cycle. Acceptable for nightly maintenance — the critical mechanical phases run. Use a completion marker file (~/.gbrain/.dream-last-run) and have the nightly audit check its freshness.
+- **Measured dream cycle runtime on constrained VPS:** On a 2GB VPS with ~327 pages, the full dream cycle (all phases including embed) takes **~7-9 minutes** (~420-540s). The embed phase alone takes ~17s for 1407 chunks (May 29 data: 32s total for 155 pages). Page count growth scales the embed phase roughly linearly. The 900s cron timeout provides ~1.7× headroom over worst-case measured time. If the cycle exceeds 900s, the likely culprit is the embed phase on a large page set — consider `--phase embed` separately or switching to a remote Postgres backend.
 - **`set -a` is required before source .env in cron scripts.** Cron jobs run in a sanitized environment. `source /root/.hermes/.env` sets variables in the script's shell but does NOT export them to child processes unless `set -a` is active first. Without it, `gbrain` subprocesses can't find OPENROUTER_API_KEY or other env vars. Always use: `set -a; source .env; set +a`.
 
 ## MCP Server Wiring (Hermes Agent)
@@ -781,12 +762,14 @@ When installed, add to `~/.hermes/community-manifest.json`:
 - `devops/gbrain/references/dream-cycle-model-patching.md` — code-level patch analysis: which lines to change in propose-takes.ts and grade-takes.ts to make dream cycle LLM phases work with OpenRouter/OpenAI
 - `devops/gbrain/references/pglite-database-recovery.md` — data directory corruption diagnostic flow: how to distinguish lock/stale-PID from corruption, test fresh vs existing, and recovery options
 - `devops/gbrain/references/pglite-backup-restoration.md` — step-by-step backup restoration sequence after PGLite WASM corruption: swap to backup, re-import DABT references, re-run dream cycle, restart MCP server
-- `devops/gbrain/references/dream-cycle-memory-optimization.md` — OOM analysis, phase-by-phase execution, swap sizing, and low-RAM operation recipes for ≤2GB machines
+| `devops/gbrain/references/pglite-lock-contention-gateway.md` — PGLite lock contention with gateway auto-restart: why "kill MCP → run CLI" is unreliable, graceful degradation pattern, cron script design
+| `devops/gbrain/references/dream-cycle-memory-optimization.md` — OOM analysis, phase-by-phase execution, swap sizing, and low-RAM operation recipes for ≤2GB machines
 
 ## Pitfalls
 
 - **Bun global install bug (#218):** Do NOT use `bun install -g github:garrytan/gbrain`. Always clone + bun link.
 - **CLI binary symlink breakage:** `~/.bun/bin/gbrain` is a symlink to `../install/global/node_modules/gbrain/src/cli.ts`. If the bun global install directory is cleaned or corrupted, the symlink becomes a dead link and `gbrain: command not found` results despite the package being installed. Fix: `rm ~/.bun/bin/gbrain && ln -sf ~/gbrain/src/cli.ts ~/.bun/bin/gbrain` (point to the cloned repo's entry point, not the global install path). Verify with `gbrain --version`.
+- **`#!/usr/bin/env bun` shebang fails in non-interactive shells (cron, scripts, tool output):** The gbrain CLI entry point uses `#!/usr/bin/env bun`. The `env` lookup requires `bun` to be in the system PATH. `.bashrc` adds `~/.bun/bin` to PATH, but cron jobs, non-interactive shells, and tool subprocesses don't source `.bashrc`. Symptoms: `gbrain: command not found` (exit 127) in cron output, or `/usr/bin/env: 'bun': No such file or directory` when running gbrain from a script. **Fix:** Create a system-level symlink so `env bun` works from any context: `ln -sf ~/.bun/bin/bun /usr/local/bin/bun`. Verify: `gbrain --version` from a bare shell (no `.bashrc` sourcing). This is the durable fix — it survives `.bashrc` changes, profile resets, and non-login shell invocations.
 - **Search mode default:** `gbrain init` auto-applies `tokenmax` unless a Haiku-tier agent or no OpenAI key is detected. Always confirm with the user.
 - **Non-TTY init without API key:** Falls immediately. Must set at least one embedding provider env var, pass `--no-embedding`, or run interactively.
 - **PGLite cannot ALTER COLUMN vector(N):** Switching embedding models requires `gbrain reinit-pglite` (wipes embeddings, re-indexes). No in-place column type change.

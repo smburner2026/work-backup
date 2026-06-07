@@ -74,12 +74,20 @@ Read a page, or list all pages with `search_files("*")` on the concepts director
 
 ## Integration with other DABT skills
 
-- **dabt-deep-dive**: At the end of a deep-dive session, offer to write or update
+- **dabt-deep-dive**: At the end of a deep-dive session, write or update
   a notebook page with the synthesis. This is the main way the notebook grows.
+  See `dabt-deep-dive` skill section "VAULT UPDATE — concept note expansion" for the
+  full procedure (check for existing stub → expand with synthesis → add backlinks).
 - **dabt-drill-mode**: When a question is missed and the explanation reveals a
-  concept gap, offer to create or update the relevant page.
-- **dabt-reference**: Use reference lookups to source the notebook page content,
-  then cite the source in the page.
+  concept gap, create or update the relevant page. The drill-mode skill already
+  writes the miss journal entry; the notebook page is the corresponding *concept*
+  side of the loop.
+- **dabt-reference**: After a reference lookup produces a substantive finding,
+  suggest a notebook page update (see `dabt-reference` skill section "Vault Handoff").
+- **dabt-miss-journal**: The miss journal is the *input* side; the notebook is the
+  *synthesis* side. When the orphan-audit cron (`4ef68bad336d`, weekly) reports a
+  concept with no backlinks, it's a signal that this concept needs a synthesis
+  note — offer to write one.
 
 ## Pitfalls
 

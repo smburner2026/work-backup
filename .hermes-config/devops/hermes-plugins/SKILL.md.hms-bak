@@ -186,6 +186,34 @@ hermes plugins install <name>    # Install from bundled/pip (NOT community)
 hermes plugins remove <name>     # Remove a plugin from registry
 ```
 
+## Community Plugin Evaluation
+
+Before installing any community plugin, run this checklist. Most "popular" plugins fail at least 2 of these gates.
+
+**Gate 1 — Environment compatibility:**
+- Does it import from a fixed path (e.g., `../evey_utils.py`)? If yes, it breaks if installed anywhere except the exact expected directory.
+- Does it assume specific env vars (`OPENAI_BASE_URL`, `OPENAI_API_KEY`)? Check if those vars point to a compatible provider on this system.
+- Does it hardcode a model name? If the model isn't available through your provider, the plugin silently degrades or fails.
+
+**Gate 2 — Maintenance reality:**
+- How many contributors? Single-author repos are high-risk for abandonment.
+- When was the last commit? >3 months stale = maintenance risk.
+- Are there open issues/PRs that haven't been addressed?
+
+**Gate 3 — Redundancy check:**
+- Does it duplicate what Hermes already does natively? (Memory → Mnemosyne, Goals → built-in, Delegation → built-in, Identity → SOUL.md)
+- Count the plugins that add real value vs. the ones that wrap existing capabilities.
+
+**Gate 4 — Token overhead:**
+- Every registered tool adds schema to the system prompt on every turn. On free models with limited context, this costs headspace.
+- Is the tool used frequently enough to justify its per-turn cost?
+
+**Gate 5 — Disk and resource impact:**
+- Does it write to disk unconditionally (logs, events, caches)? On a 2GB VPS, every MB matters.
+- Does it make external network calls that could fail or leak data?
+
+**The Parliament Method** — for weighing multiple plugins or options, simulate a parliamentary debate with committees (Infrastructure, Security, Operations, Value). Each committee presents findings, then a floor vote. This surfaces tradeoffs that a flat pro/con list misses.
+
 ## Troubleshooting
 
 | Symptom | Likely Cause |

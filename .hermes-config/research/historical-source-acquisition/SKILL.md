@@ -394,22 +394,14 @@ research/sources/
 }
 ```
 
-## Step 6 — Ingestion to Knowledge Base
+## Step 6 — Verify and Organize
 
-After extraction, ingest to G-Brain:
+After extraction, verify the file is saved to the reference library directory:
 
-```python
-# For each source:
-mcp_gbrain_put_page(
-    slug=f"historical-sources/<source-slug>",
-    content="<extracted text or summary>",
-    source_kind="put_page"
-)
-mcp_gbrain_add_tag(slug=f"historical-sources/<source-slug>", tag="primary-source")
-mcp_gbrain_add_tag(slug=f"historical-sources/<source-slug>", tag="<era>")
-mcp_gbrain_add_tag(slug=f"historical-sources/<source-slug>", tag="<language>")
-mcp_gbrain_add_tag(slug=f"historical-sources/<source-slug>", tag="<region>")
-```
+1. Confirm `original.pdf` (or source file) is in `research/sources/<source-slug>/`
+2. Confirm `extracted.txt` is present and populated
+3. Confirm `metadata.json` is complete with all provenance fields
+4. Confirm any page-level files are in the `pages/` subdirectory if applicable
 
 ## Pitfalls
 
@@ -462,7 +454,7 @@ After completing the pipeline:
 1. ✅ Original file downloaded and accessible
 2. ✅ Text extraction quality checked (first 3 pages readable)
 3. ✅ metadata.json populated with all provenance fields
-4. ✅ Source ingested to G-Brain with appropriate tags
+4. ✅ All files saved to reference library directory with correct structure
 5. ✅ User notified of any quality issues or access restrictions
 
 ## Kanban Source-Tracking Card Pattern

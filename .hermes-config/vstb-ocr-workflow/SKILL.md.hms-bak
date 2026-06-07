@@ -330,6 +330,17 @@ Board: `hermes kanban --board vstb` (created May 31, 2026)
 Board DB: `/root/.hermes/kanban/boards/vstb/kanban.db` on VPS
 Architecture: VPS owns the kanban board. WSL is a pure compute backend (SSH target, no Hermes gateway).
 
+## PHASE 6: Four-Lens Analysis (post-translation)
+
+After translation, the VSTB text becomes a primary source for historiographical analysis. The four-lens framework from `historiographical-style-guide` applies directly:
+
+1. **Burckhardt** — What is Phạm Văn Sơn's cultural moment, and how does it shape his narrative?
+2. **Vitalism** — How does he present the relationship between individual will and collective vitality?
+3. **Class** — Whose perspective is centered? Whose is marginalized?
+4. **Covert+Luttwak** — What strategic logic does he reveal or miss?
+
+See `references/vietnamese-historian-worked-example.md` in the historiographical-style-guide skill for the full analytical framework applied to VSTB passages.
+
 ### Board setup
 
 ```bash

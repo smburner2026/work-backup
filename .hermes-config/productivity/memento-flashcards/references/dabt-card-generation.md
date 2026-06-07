@@ -54,12 +54,8 @@ When user says "cards on [topic]" in the flashcard channel:
    ```
    Note: `add-quiz` requires `--video-id` — it's not optional. If you don't have a video ID, use `add` in a loop instead.
 
-6. **GBrain record (creation)**: Immediately after importing cards to Memento, write a gbrain page documenting the collection:
-   - Create/update page at `dabt/flashcards/<topic-slug>` with: collection name, card count, full concept list, domain
-   - Update `dabt/flashcards/master-index` with the new/updated collection entry
-   - Update `dabt/learner-profile` with card counts and topics
-   - Use `mcp_gbrain_put_page` for each page
-7. **Handoff — show the first card immediately.** After gbrain recording, run `memento_cards.py due --collection "COLLECTION"` and present the first card's FRONT to the user. The user sees the card in the channel and understands the conversational interface IS the review system. Without this step, the user will ask "where are the cards?"
+6. **Optional recording**: If a local log is desired, save a summary of the new collection (collection name, card count, topics) to a local markdown file (e.g., `~/.hermes/data/flashcard-log.md`). Otherwise, skip — the cards are persisted in Memento's `cards.json`.
+7. **Handoff — show the first card immediately.** After card creation, run `memento_cards.py due --collection "COLLECTION"` and present the first card's FRONT to the user. The user sees the card in the channel and understands the conversational interface IS the review system. Without this step, the user will ask "where are the cards?"
 
 ## Collection Convention
 
@@ -266,11 +262,9 @@ When user says "review" or "show cards" in the flashcard channel:
 
 The conversational rhythm is: FRONT → answer → BACK + grade → rating → next. If the user skips or truncates a step, fill the gap gracefully and keep the flow moving.
 
-## GBrain Recording After Review Sessions
+## Optional Session Logging After Review
 
-After every review session (when the user has finished all due cards or explicitly ends the session), write to gbrain:
-
-### 1. Session summary (`dabt/miss-journal/YYYY-MM-DD-flashcard-review-<topic>`)
+After every review session (when the user has finished all due cards or explicitly ends the session), optionally save a summary to a local markdown file (e.g., `~/.hermes/data/flashcard-log.md`).
 
 Document:
 - Date, collection reviewed, cards reviewed count
@@ -280,20 +274,6 @@ Document:
 - Precision gaps identified during session
 - Pattern observations (confusability clusters, compound card issues, first-pass learning)
 
-### 2. Update collection page (`dabt/flashcards/<topic>`)
+### Send confirmation
 
-Append to the Review History section:
-```markdown
-- **YYYY-MM-DD:** N cards reviewed — X easy, X good, X hard
-- **Precision gaps:** (one-liner each gap identified)
-```
-
-### 3. Update learner profile (`dabt/learner-profile`)
-
-- Update card counts if changed
-- Append new weak areas to Known Weak Areas section
-- Update flashcard table in Completed Study section
-
-### 4. Send confirmation
-
-After gbrain recording, tell the user: "N cards reviewed. Results logged in gbrain — your miss journal is updated. Next due: [time]."
+After the session, tell the user: "N cards reviewed. Next due: [time]."

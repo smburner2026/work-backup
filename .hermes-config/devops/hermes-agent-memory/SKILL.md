@@ -4,7 +4,7 @@ description: "Durable operational memory — procedural knowledge, environment f
 version: 1.0
 author: Hermes Agent
 tags: [memory, operating-principles, reference, environment, workflows]
-related_skills: [profile-compression, hermes-agent, gbrain]
+related_skills: [profile-compression, hermes-agent]
 ---
 
 # Hermes Agent Memory
@@ -23,6 +23,9 @@ Before acting on user's noun: if it resolves to ≥2 project artifacts (files, s
 ### Verify-First
 User contradicts me about their system → tool-call, never counter-argue from docs/stale files.
 
+### Claim-Nothing-Unverified
+Never claim a fix "worked" until you've verified it survives a full cycle (restart, dream cycle, MCP reconnect). Reporting "embed done" after a single successful embed command is lying — the user will catch you when it breaks next cycle. If you ran a fix, say what you ran and what the immediate output showed. Don't extrapolate to "it's fixed" unless you've seen the health check pass after a clean restart.
+
 ### Loop-Catch
 Same failing approach 2+ times → flag alternatives, pivot. "It would've been great" = trigger to acknowledge but move on.
 
@@ -37,25 +40,27 @@ Before suggesting installs, `hermes skills list` first. Don't recommend what's a
 - **Active profile**: default (profiles at ~/.hermes/profiles/<name>/)
 - **Platforms**: Telegram (primary), Discord
 - **Delivery mode**: Telegram has NO table syntax — bullet lists only
-- **Memory system**: Mnemosyne (vector + FTS5), ~2,200/2,200 chars always-hot, ~1,375/1,375 chars USER profile
-- **GBrain**: v0.41.20.0 at ~/gbrain, PGLite engine, OpenRouter NVIDIA Nemotron embeddings (1024d). MCP server via config.yaml wrapper script. Dream cycle cron at 02:00 UTC daily.
-- **DABT**: Exam Oct 15 2026. G-Brain is PRIMARY reference (mcp_gbrain_query/mcp_gbrain_think). Source tags: casarett-doull, hayes, regulation, abt-handbook, dabt.
+- **Memory system**: Mnemosyne — the built-in file-backed memory system (MEMORY.md + USER.md files in `~/.hermes/memories/`). NOT a plugin or external service. The `memory.provider: mnemosyne` config line points to this core module. Data lives in plain markdown files; the agent manages entries via the `memory` tool. Verification: check `~/.hermes/memories/MEMORY.md` exists and has content. Do NOT confuse with plugin-based providers (holographic, mem0, honcho, etc.) which appear in `discover_memory_providers()` — Mnemosyne is the default built-in, not a plugin.
+- **DABT**: Exam Oct 15 2026. Source tags: casarett-doull, hayes, regulation, abt-handbook, dabt.
 
 ## Cron Jobs Reference
 
 | Job | Schedule UTC | Local (UTC+7) | Type | Purpose |
 |-----|-------------|---------------|------|---------|
-| **Euphy Nightly Journal Prompt** | 0 1 * * * | 08:00 | agent | Morning journal invitation in Discord. |
-| **gbrain-dream-cycle** | 0 2 * * * | 09:00 | no_agent script | Nightly G-Brain sync+embed+extract+dream. ⚠️ 120s timeout — mechanical phases complete, LLM phases may be cut off. Marker file tracks freshness. |
+| **Euphy Nightly Journal Prompt** | 0 1 * * * | 08:00 | no_agent script | Morning journal invitation in Discord. Script: `euphy-nightly-journal-prompt.sh` |
 | **DABT Weekly Truth Audit** | 0 5 * * 0 | Sun 12:00 | agent | DB coverage check + random sample truth audit. |
-| **gbrain-dabt-maintenance** | 0 5 * * 0 | Sun 12:00 | agent | G-Brain DABT health check + stale embed. |
-| **nightly-self-improvement** | 0 6 * * * | 13:00 | agent | Session review → profile compression → system audit. Uses profile-compression skill. |
-| **nightly-self-audit** | 0 8 * * * | 15:00 | no_agent script | Checks Hermes/lcm/mnemosyne/doga updates, gbrain embed API health, dream cycle marker freshness, cron job errors. Silent if OK. |
+| **nightly-self-improvement** | 0 6 * * * | 13:00 | agent (script+LLM) | System check script → LLM compression + identity scan. Minimal prompt, no skill injection. |
+| **Euphy Daily Bullet Journal** | 0 12 * * * | 19:00 | no_agent script | Daily tasks (3-day horizon). Script: `euphy-bullet-journal-daily.sh` |
+| **Euphy Weekly Bullet Journal** | 0 12 * * 0 | Sun 19:00 | no_agent script | Weekly tasks (14-day horizon). Script: `euphy-bullet-journal-weekly.sh` |
+| **Euphy Monthly Bullet Journal** | 0 13 28 * * | 20:00 28th | no_agent script | Monthly tasks (90-day horizon). Script: `euphy-bullet-journal-monthly.sh` |
+| **work-backup** | 0 6 * * 0 | Sun 13:00 | no_agent script | Git commit + push /root/work. Script: `work-backup.sh` |
+
+**Paused:** disk-monitor (every 30m), daily-flashcard briefing (daily 05:00)
+**Removed:** vstb5-ocr-guardian, nightly-self-audit
 | **work-backup** | 0 6 * * 0 | Sun 13:00 | no_agent script | Weekly work directory backup. |
 | **Euphy Daily Bullet Journal** | 0 12 * * * | 19:00 | agent | Daily bullet journal generation in Discord. |
 | **Euphy Weekly Bullet Journal** | 0 12 * * 0 | Sun 19:00 | agent | Weekly overview with upcoming tasks. |
 | **Euphy Monthly Bullet Journal** | 0 13 28 * * | 20:00 on 28th | agent | Monthly update with deadlines. Schedule fixed May 27 (was 03:00 UTC+7). |
-| **DABT Miss Journal Weekly Synthesis** | 0 12 * * 0 | Sun 19:00 | agent | Cross-session miss analysis via G-Brain. |
 
 ## Communication Constraints
 
@@ -70,7 +75,6 @@ These rules reduce per-turn token waste on high-frequency operations:
 
 - **web_search**: Default to `limit=3` (not 5). Only request more when the first batch is insufficient. Prefer specific queries over broad ones.
 - **web_extract**: Only extract pages you actually need content from. For short pages, prefer curl+sed or a targeted read over full web_extract.
-- **GBrain queries**: Use `limit` parameter (`mcp_gbrain_query(query, limit=3-5)`). Don't default to 20. When you only need a citation, not full context, use search rather than think.
 - **Skill loading**: Don't load a skill until you confirm the user's request matches it. Load the most specific skill, not all related ones. If a skill has references, only load the reference if the SKILL.md is insufficient.
 - **delegate_task**: Use for parallel research or isolated subtasks — keeps intermediate results out of your context.
 - **terminal output**: Pipe to `tail` or `grep` when you only need specific lines. Avoid dumping full output of large commands.

@@ -1,7 +1,7 @@
 ---
 name: book-hunting
 description: "Find and download academic PDFs — textbook workflow for libgen.li ISBN search + direct download."
-version: 1.0.0
+version: 1.1.0
 author: Hermes Agent
 tags: [libgen, pdf, books, research, isbn, public-domain, oll]
 ---
@@ -62,6 +62,27 @@ Extract: title, author, edition, ISBN (if visible), publisher, year.
 - **X/Twitter posts**: `lightpanda fetch <url> --dump markdown --wait-ms 8000` — works where curl/browser fail
 - **NOT for**: libgen, Anna's Archive, or shadow library downloads — curl is faster and more reliable
 
+## Title variants
+
+Books translated to English may carry **different titles in US vs UK markets**. The same translation can appear under two completely different names. When ISBN-based search fails, search by:
+- Author (primary surname + first initial)
+- Original-language title (German, French, etc.)
+- UK title if the US title fails and vice versa
+
+**Example**: Paul Herrmann's *The Great Age of Discovery* (Harper, US) was published in the UK as *The World Unveiled: The Story of Exploration from Columbus to Livingstone* (Hamish Hamilton). Same translation, different title, different ISBN.
+
+## Government / Institutional repositories
+
+When shadow libraries are unreachable or the book isn't indexed, government and institutional digital archives are a strong fallback. They host scanned academic books (typically pre-2000s, often from defunct library collections) and serve them as plain PDFs with no cloudflare, no JS, no auth wall.
+
+- **IGNCA (Indira Gandhi National Centre for the Arts)** — `ignca.gov.in/Asi_data/<ID>.pdf`. Browse for books via web search with `site:ignca.gov.in` or direct title search. Direct download, no blocking.
+- **HathiTrust** — `babel.hathitrust.org`. May have cloudflare challenges. Check the catalog record — in-copyright books show limited preview, pre-1928 works have full PDF.
+- **National libraries and university repositories** — search `site:.gov.in` or `site:.ac.in` for Indian sources; similar patterns exist for other countries (e.g. `site:.bnf.fr`, `site:dbc.wroc.pl`).
+
+**Search pattern**: `"<title>" "<author>" filetype:pdf site:.gov.in OR site:.ac.in`
+
+Verify downloaded PDFs by checking the title page (first 1-3 pages) — institutional scans often have handwritten catalog numbers, stamps, or binding marks.
+
 ## Public-domain / Open-access alternative workflow
 
 For public-domain classics (pre-1928), skip libgen entirely — cleaner PDFs are available from open-access sources:
@@ -73,6 +94,19 @@ For public-domain classics (pre-1928), skip libgen entirely — cleaner PDFs are
 **When to use**: User asks for a classic work (Plutarch, Plato, Aristotle, Cicero, etc.) and specifically wants a clean PDF, not a scanned OCR mess. The OLL PDFs are tiny (~1 MB per volume, born-digital text) vs. the scanned behemoths on Archive.org.
 
 **Detail**: `references/public-domain-sources.md`
+
+## Delegation as fallback (VPS-network blocking)
+
+Some VPS/cloud IP ranges are blocked by shadow libraries (libgen, Anna's Archive) or hit aggressive rate limits, returning empty responses. Similarly, Cloudflare JS challenges on HathiTrust and some library sites may be impassable from headless environments.
+
+When direct curl/browser approaches return empty or timeout for 3+ sources in a row:
+
+1. **Use `delegate_task`** — spawn a subagent with `toolsets=['web','terminal','file']`. The subagent uses the Hermes runtime's network stack which may route through a different exit IP.
+   - Pass all known identifiers: title, author, ISBNs (US + UK if found), original-language title, publisher, year
+   - Ask it to try every mirror systematically
+   - Ask it to check government repositories (IGNCA, etc.) if shadow libraries fail
+   - Tell it to save the result to a known path and report back
+2. Subagents are **NOT guaranteed** to have different routing — but often do when the main agent's VPS has been firewalled.
 
 ## Network quirks and mirror fallbacks
 

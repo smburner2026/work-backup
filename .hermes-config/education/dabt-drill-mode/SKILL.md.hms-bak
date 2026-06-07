@@ -40,9 +40,14 @@ For every question, deliver:
    - Update `by_bloom` (correct + total per bloom_level)
    - Update `misses` array with gap tags if wrong
 6. **Memory update** — `dabt.drill.{domain|topic}.{correct|total|misses}`
+7. **VAULT UPDATE — miss journal write** (mandatory on every miss, batched at end of block):
+   - Append a `## Block: <topic>` section to today's daily file at `wiki/miss-journal/YYYY-MM-DD-drill-<topic>.md` (create the file if it doesn't exist)
+   - Use the structure from `dabt-miss-journal` skill: `Questions: <N>, Correct: <N>`, `Weak areas: [[concept-name]] (root cause: <cause>)`, `Precision gaps: <term> → <correction>`, `Related: [[concept-2]]`
+   - The wikilinks from the miss file back to concept notes are what the Obsidian backlink panel surfaces at the next study session — this is the loop
+   - On every 5-question block boundary (or end of session, whichever comes first), ensure the daily file is up to date. Don't wait until session end — sessions span days and context resets.
 
 ## State Management
 State file: `config['progress']['state_path']` from `dabt-config.json`. Structure in `references/state-schema.md`.
 
 ## Source References
-All extracted reference texts at `config['reference_library']['extracted_dir']`. Use `dabt-reference` for lookups (G-Brain first, file search fallback).
+All extracted reference texts at `config['reference_library']['extracted_dir']`. Use `dabt-reference` for lookups.

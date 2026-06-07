@@ -1,0 +1,102 @@
+HERMES DESKTOP APP — KANBAN INTEGRATION RESEARCH
+==================================================
+Date: 2026-06-04
+Status: Feasibility confirmed, implementation not started
+
+EXECUTIVE SUMMARY
+-----------------
+The kanban board UI exists only in the web dashboard plugin. The desktop
+Electron app has no kanban panel — only a /kanban slash command that sends
+text to the agent. Integration is architecturally straightforward: the
+desktop app uses lazy-loaded React views, and the kanban backend already
+exposes a clean REST+WebSocket API at /api/plugins/kanban/.
+
+CURRENT STATE
+-------------
+Desktop app views (all lazy-loaded React components):
+  - Chat (default)
+  - Skills & Tools (/skills)
+  - Messaging (/messaging)
+  - Artifacts (/artifacts)
+  - Cron (/cron) — accessible via command center, not sidebar
+  - Profiles (/profiles) — accessible via command center, not sidebar
+  - Agents (/agents) — accessible via command center, not sidebar
+  - Settings (/settings)
+  - Command Center (/command-center)
+
+Kanban plugin (web dashboard only):
+  - Backend: plugins/kanban/dashboard/plugin_api.py
+  - Frontend: plugins/kanban/dashboard/dist/index.js (IIFE bundle)
+  - Styles: plugins/kanban/dashboard/dist/style.css
+  - Manifest: plugins/kanban/dashboard/manifest.json
+  - Uses window.__HERMES_PLUGIN_SDK__ for React + shadcn primitives
+
+KANBAN API ENDPOINTS (all under /api/plugins/kanban/)
+-----------------------------------------------------
+GET    /board                    — Full board grouped by status columns
+GET    /tasks/{task_id}          — Single task detail
+POST   /tasks                    — Create task
+PATCH  /tasks/{task_id}          — Update task (move, edit, assign)
+DELETE /tasks/{task_id}          — Delete task
+POST   /tasks/{task_id}/comments — Add comment
+GET    /tasks/{task_id}/attachments — List attachments
+POST   /tasks/{task_id}/attachments — Upload attachment
+GET    /attachments/{id}         — Download attachment
+DELETE /attachments/{id}         — Remove attachment
+GET    /diagnostics              — Task diagnostics
+WS     /events                   — Live task event stream
+
+Board columns (in order):
+  triage, todo, scheduled, ready, running, blocked, review, done
+
+INTEGRATION APPROACH
+--------------------
+1. Add KANBAN_ROUTE to routes.ts
+2. Add 'kanban' to AppView and AppRouteId types
+3. Add kanban route to APP_ROUTES
+4. Create apps/desktop/src/app/kanban/index.tsx (KanbanView component)
+5. Add kanban API functions to hermes.ts (calling /api/plugins/kanban/)
+6. Add kanban types to types/hermes.ts
+7. Add lazy import in desktop-controller.tsx
+8. Add kanban to sidebar nav in chat/sidebar/index.tsx
+9. Add kanban to active view check in sidebar
+
+FILES TO MODIFY
+---------------
+  apps/desktop/src/app/routes.ts                    — add route constant + types
+  apps/desktop/src/app/desktop-controller.tsx       — add lazy import
+  apps/desktop/src/app/chat/sidebar/index.tsx       — add nav item
+  apps/desktop/src/hermes.ts                        — add API functions
+  apps/desktop/src/types/hermes.ts                  — add types
+
+FILES TO CREATE
+---------------
+  apps/desktop/src/app/kanban/index.tsx             — main KanbanView component
+
+KEY ARCHITECTURE NOTES
+----------------------
+- Desktop app uses window.hermesDesktop.api() for all HTTP calls
+- API calls go through the gateway backend (same process as dashboard)
+- Auth is session-token based (injected via window.__HERMES_SESSION_TOKEN__)
+- The kanban plugin API uses the same auth middleware as core API routes
+- WebSocket for live updates needs session token as ?token= query param
+- The kanban backend is already mounted when the gateway runs
+
+DEPENDENCIES
+------------
+- No new npm packages needed
+- Uses existing UI components (Button, Card, Badge, Input, Select, Dialog)
+- Drag-and-drop: HTML5 DnD API (no library needed)
+- State management: React hooks (useState, useEffect, useCallback)
+
+COMPLEXITY ESTIMATE
+-------------------
+- API layer (hermes.ts + types): ~150 lines
+- KanbanView component: ~400-600 lines (board layout, card rendering, drawer)
+- Route/sidebar wiring: ~20 lines
+- Total: ~600-800 lines of new code
+
+BLOCKERS
+--------
+None identified. The backend API is complete and the desktop app
+architecture supports this pattern natively.

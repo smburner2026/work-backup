@@ -1,0 +1,752 @@
+[
+  {
+    "question_text": "Which of the following correctly describes membrane transport?",
+    "options": {
+      "A": "Only occurs via active transport",
+      "B": "Limited to aqueous pores only",
+      "C": "Small hydrophilic molecules (up to about 600 Da) permeate membranes through aqueous pores via paracellular diffusion",
+      "D": "Requires ATP for all transport"
+    },
+    "correct_answer": "C",
+    "explanation": "Small hydrophilic molecules (up to about 600 Da) permeate membranes through aqueous pores via paracellular diffusion. Fick's law governs simple diffusion - chemicals move from higher to lower concentration without energy expenditure",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Recall",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes membrane transport?",
+    "options": {
+      "A": "Requires ATP for all transport",
+      "B": "Independent of molecular weight",
+      "C": "Lipid solubility is determined by the octanol/water partition coefficient (log P), with positive values indicating high lipid solubility",
+      "D": "Limited to aqueous pores only"
+    },
+    "correct_answer": "C",
+    "explanation": "Lipid solubility is determined by the octanol/water partition coefficient (log P), with positive values indicating high lipid solubility. DDT has log P of 6.76, TCDD has log P of 7.05",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Recall",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes membrane transport?",
+    "options": {
+      "A": "Requires ATP for all transport",
+      "B": "Independent of molecular weight",
+      "C": "Limited to aqueous pores only",
+      "D": "The Henderson-Hasselbalch equation describes pH as a function of pKa for weak organic acids and bases"
+    },
+    "correct_answer": "D",
+    "explanation": "The Henderson-Hasselbalch equation describes pH as a function of pKa for weak organic acids and bases. For acids: pH - pKa = log([ionized]/[nonionized]); for bases: pKa - pH = log([nonionized]/[ionized])",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Recall",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes membrane transport?",
+    "options": {
+      "A": "Limited to aqueous pores only",
+      "B": "Only occurs via active transport",
+      "C": "Active transport requires energy, exhibits saturability, selectivity, and competitive inhibition",
+      "D": "Requires ATP for all transport"
+    },
+    "correct_answer": "C",
+    "explanation": "Active transport requires energy, exhibits saturability, selectivity, and competitive inhibition. Metabolic poisons block active transport by inhibiting ATP production",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Recall",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes membrane transport?",
+    "options": {
+      "A": "Only occurs via active transport",
+      "B": "Independent of molecular weight",
+      "C": "Facilitated transport does not require energy input and is not affected by metabolic poisons",
+      "D": "Limited to aqueous pores only"
+    },
+    "correct_answer": "C",
+    "explanation": "Facilitated transport does not require energy input and is not affected by metabolic poisons. Glucose transport from GI tract occurs via facilitated diffusion",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Recall",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes transporters?",
+    "options": {
+      "A": "Only expressed in liver",
+      "B": "Not subject to genetic polymorphisms",
+      "C": "Function exclusively as influx pumps",
+      "D": "P-glycoprotein (MDR1/ABCB1) was the first active xenobiotic transporter identified, functioning as an efflux pump"
+    },
+    "correct_answer": "D",
+    "explanation": "P-glycoprotein (MDR1/ABCB1) was the first active xenobiotic transporter identified, functioning as an efflux pump. ABC transporter superfamily has 7 subfamilies with 49 genes in humans",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Recall",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes transporters?",
+    "options": {
+      "A": "Function exclusively as influx pumps",
+      "B": "Only expressed in liver",
+      "C": "Require sodium for all functions",
+      "D": "MRP2 and MRP3 efflux xenobiotic metabolites conjugated with glucuronic acid or glutathione"
+    },
+    "correct_answer": "D",
+    "explanation": "MRP2 and MRP3 efflux xenobiotic metabolites conjugated with glucuronic acid or glutathione. Acetaminophen glucuronide is a substrate for both MRP2 and MRP3",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Recall",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes transporters?",
+    "options": {
+      "A": "Only expressed in liver",
+      "B": "BCRP (ABCG2) functions as homodimers linked by disulfide bridges at cysteine 603, with MW ~70 kDa",
+      "C": "Not subject to genetic polymorphisms",
+      "D": "Require sodium for all functions"
+    },
+    "correct_answer": "B",
+    "explanation": "BCRP (ABCG2) functions as homodimers linked by disulfide bridges at cysteine 603, with MW ~70 kDa. MDR1 is ~170 kDa, MRP1 is ~190 kDa",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Recall",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes transporters?",
+    "options": {
+      "A": "Function exclusively as influx pumps",
+      "B": "Not subject to genetic polymorphisms",
+      "C": "OATP1B1 polymorphisms decrease hepatic extraction, increasing systemic exposure to substrates like statins",
+      "D": "Require sodium for all functions"
+    },
+    "correct_answer": "C",
+    "explanation": "OATP1B1 polymorphisms decrease hepatic extraction, increasing systemic exposure to substrates like statins. Decreased OATP1B1 function increases myopathy risk",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Recall",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes transporters?",
+    "options": {
+      "A": "OCT2 mediates cisplatin uptake into kidney, contributing to dose-limiting nephrotoxicity",
+      "B": "Function exclusively as influx pumps",
+      "C": "Only expressed in liver",
+      "D": "Require sodium for all functions"
+    },
+    "correct_answer": "A",
+    "explanation": "OCT2 mediates cisplatin uptake into kidney, contributing to dose-limiting nephrotoxicity. OCT1 mediates metformin uptake into liver",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Recall",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes absorption?",
+    "options": {
+      "A": "The three main barriers for toxicant absorption are the GI tract, lungs, and skin",
+      "B": "Independent of physicochemical properties",
+      "C": "Requires active transport for all xenobiotics",
+      "D": "Always rapid and complete"
+    },
+    "correct_answer": "A",
+    "explanation": "The three main barriers for toxicant absorption are the GI tract, lungs, and skin. Only caustic/corrosive chemicals act directly at point of contact",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Recall",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes absorption?",
+    "options": {
+      "A": "Independent of physicochemical properties",
+      "B": "Requires active transport for all xenobiotics",
+      "C": "Weak organic acids are absorbed more readily from the stomach (pH ~2) where they are nonionized",
+      "D": "Occurs only through GI tract"
+    },
+    "correct_answer": "C",
+    "explanation": "Weak organic acids are absorbed more readily from the stomach (pH ~2) where they are nonionized. Organic bases are absorbed predominantly in the intestine",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Recall",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes absorption?",
+    "options": {
+      "A": "Requires active transport for all xenobiotics",
+      "B": "Occurs only through GI tract",
+      "C": "First-pass effect (presystemic elimination) removes chemicals before systemic circulation entry",
+      "D": "Always rapid and complete"
+    },
+    "correct_answer": "C",
+    "explanation": "First-pass effect (presystemic elimination) removes chemicals before systemic circulation entry. High first-pass effect limits toxic potential",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Recall",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes absorption?",
+    "options": {
+      "A": "Occurs only through GI tract",
+      "B": "Independent of physicochemical properties",
+      "C": "The small intestine increases surface area approximately 600-fold through villi and microvilli",
+      "D": "Always rapid and complete"
+    },
+    "correct_answer": "C",
+    "explanation": "The small intestine increases surface area approximately 600-fold through villi and microvilli. This overcomes low nonionized fraction at intestinal pH",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes absorption?",
+    "options": {
+      "A": "Oral absorption of heavy metals: ~10% lead, 4% manganese, 1.5% cadmium, 1% chromium",
+      "B": "Independent of physicochemical properties",
+      "C": "Occurs only through GI tract",
+      "D": "Always rapid and complete"
+    },
+    "correct_answer": "A",
+    "explanation": "Oral absorption of heavy metals: ~10% lead, 4% manganese, 1.5% cadmium, 1% chromium. EDTA increases absorption of complexed metal ions",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes absorption?",
+    "options": {
+      "A": "Particle absorption is inversely related to particle diameter; nanoparticles (<100 nm) are most readily absorbed",
+      "B": "Occurs only through GI tract",
+      "C": "Requires active transport for all xenobiotics",
+      "D": "Always rapid and complete"
+    },
+    "correct_answer": "A",
+    "explanation": "Particle absorption is inversely related to particle diameter; nanoparticles (<100 nm) are most readily absorbed. Hydrophobic nonionized particles are more extensively absorbed",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes absorption?",
+    "options": {
+      "A": "Requires active transport for all xenobiotics",
+      "B": "Always rapid and complete",
+      "C": "Intestinal microflora reduce nitroaromatic compounds to potentially carcinogenic aromatic amines",
+      "D": "Independent of physicochemical properties"
+    },
+    "correct_answer": "C",
+    "explanation": "Intestinal microflora reduce nitroaromatic compounds to potentially carcinogenic aromatic amines. 2,6-dinitrotoluene is reduced to mutagenic 2,6-diaminotoluene",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes absorption?",
+    "options": {
+      "A": "Requires active transport for all xenobiotics",
+      "B": "Occurs only through GI tract",
+      "C": "Independent of physicochemical properties",
+      "D": "Pulmonary absorption of gases depends on blood:gas partition coefficient"
+    },
+    "correct_answer": "D",
+    "explanation": "Pulmonary absorption of gases depends on blood:gas partition coefficient. High coefficient (ethanol) = high absorption; low (N2O) = rapid equilibrium",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes absorption?",
+    "options": {
+      "A": "Grapefruit juice inhibits MDR1 through naringin, increasing bioavailability of co-administered drugs",
+      "B": "Independent of physicochemical properties",
+      "C": "Requires active transport for all xenobiotics",
+      "D": "Occurs only through GI tract"
+    },
+    "correct_answer": "A",
+    "explanation": "Grapefruit juice inhibits MDR1 through naringin, increasing bioavailability of co-administered drugs. Naringin is a flavonoid found in grapefruit",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes distribution?",
+    "options": {
+      "A": "Uniform throughout all tissues",
+      "B": "Does not affect toxicity",
+      "C": "Independent of lipid solubility",
+      "D": "Volume of distribution relates amount of chemical in body to concentration in blood/plasma"
+    },
+    "correct_answer": "D",
+    "explanation": "Volume of distribution relates amount of chemical in body to concentration in blood/plasma. Large Vd = extensive tissue distribution; small Vd = confinement to plasma",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes distribution?",
+    "options": {
+      "A": "Uniform throughout all tissues",
+      "B": "Does not affect toxicity",
+      "C": "DDT achieves high concentrations in fat but is not toxic to adipose tissue",
+      "D": "Determined solely by blood flow"
+    },
+    "correct_answer": "C",
+    "explanation": "DDT achieves high concentrations in fat but is not toxic to adipose tissue. Tissue of highest concentration is not necessarily the target organ",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes distribution?",
+    "options": {
+      "A": "Determined solely by blood flow",
+      "B": "Plasma proteins (especially albumin) serve as storage depot for acidic drugs and toxicants",
+      "C": "Does not affect toxicity",
+      "D": "Uniform throughout all tissues"
+    },
+    "correct_answer": "B",
+    "explanation": "Plasma proteins (especially albumin) serve as storage depot for acidic drugs and toxicants. Only unbound chemical is available for distribution and effects",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes distribution?",
+    "options": {
+      "A": "Independent of lipid solubility",
+      "B": "The blood-brain barrier limits entry of polar and large molecules into the CNS",
+      "C": "Uniform throughout all tissues",
+      "D": "Does not affect toxicity"
+    },
+    "correct_answer": "B",
+    "explanation": "The blood-brain barrier limits entry of polar and large molecules into the CNS. Tight junctions and P-gp efflux maintain the barrier",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes distribution?",
+    "options": {
+      "A": "Uniform throughout all tissues",
+      "B": "Does not affect toxicity",
+      "C": "Lipophilic chemicals can cross the placenta; P-gp provides protection by efflux back to maternal circulation",
+      "D": "Determined solely by blood flow"
+    },
+    "correct_answer": "C",
+    "explanation": "Lipophilic chemicals can cross the placenta; P-gp provides protection by efflux back to maternal circulation. Fetus is particularly vulnerable due to immature detoxification",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes excretion?",
+    "options": {
+      "A": "Independent of compound polarity",
+      "B": "Always rapid and complete",
+      "C": "Only through urinary excretion",
+      "D": "Urinary excretion involves glomerular filtration, active tubular secretion, and passive tubular reabsorption"
+    },
+    "correct_answer": "D",
+    "explanation": "Urinary excretion involves glomerular filtration, active tubular secretion, and passive tubular reabsorption. Molecules <60 kDa pass through glomerular pores; ionized forms are reabsorbed less",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes excretion?",
+    "options": {
+      "A": "Only through urinary excretion",
+      "B": "Always rapid and complete",
+      "C": "Independent of compound polarity",
+      "D": "Enterohepatic circulation involves biliary excretion followed by reabsorption from intestine"
+    },
+    "correct_answer": "D",
+    "explanation": "Enterohepatic circulation involves biliary excretion followed by reabsorption from intestine. Bacterial glucuronidases hydrolyze conjugates, releasing parent compound",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes excretion?",
+    "options": {
+      "A": "Breast milk serves as a route of elimination for lipophilic xenobiotics",
+      "B": "Independent of compound polarity",
+      "C": "Does not involve enterohepatic circulation",
+      "D": "Always rapid and complete"
+    },
+    "correct_answer": "A",
+    "explanation": "Breast milk serves as a route of elimination for lipophilic xenobiotics. This is also a route of infant exposure",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which of the following correctly describes excretion?",
+    "options": {
+      "A": "Fecal excretion includes nonabsorbed ingesta, biliary excretion, and direct intestinal secretion",
+      "B": "Only through urinary excretion",
+      "C": "Always rapid and complete",
+      "D": "Independent of compound polarity"
+    },
+    "correct_answer": "A",
+    "explanation": "Fecal excretion includes nonabsorbed ingesta, biliary excretion, and direct intestinal secretion. MRP2 and BCRP actively secrete compounds into intestinal lumen",
+    "source_citation": "Casarett & Doull Ch.5, pp. 178-211",
+    "bloom_level": "Application",
+    "format": "MC",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "All of the following are correct regarding toxicokinetics EXCEPT:",
+    "options": {
+      "A": "Toxicokinetics is the quantitative study of ADME through measurement of concentrations in biological matrices vs time",
+      "B": "Only applies to drugs",
+      "C": "Cannot be used for risk assessment",
+      "D": "Does not account for metabolism"
+    },
+    "correct_answer": "C",
+    "explanation": "Toxicokinetics is the quantitative study of ADME through measurement of concentrations in biological matrices vs time. Derived from pharmacokinetics studies with drugs",
+    "source_citation": "Casarett & Doull Ch.7, pp. 420-449",
+    "bloom_level": "Application",
+    "format": "EXCEPT/NOT",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "All of the following are correct regarding toxicokinetics EXCEPT:",
+    "options": {
+      "A": "Only applies to drugs",
+      "B": "Always linear across all doses",
+      "C": "Cmax and AUC are the two most common dose metrics in toxicokinetic studies",
+      "D": "Does not account for metabolism"
+    },
+    "correct_answer": "D",
+    "explanation": "Cmax and AUC are the two most common dose metrics in toxicokinetic studies. Cmax is peak concentration; AUC is area under concentration-time curve",
+    "source_citation": "Casarett & Doull Ch.7, pp. 420-449",
+    "bloom_level": "Application",
+    "format": "EXCEPT/NOT",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "All of the following are correct regarding toxicokinetics EXCEPT:",
+    "options": {
+      "A": "Always linear across all doses",
+      "B": "Only applies to drugs",
+      "C": "Does not account for metabolism",
+      "D": "The trapezoidal method calculates AUC by summing areas of trapezoids from the concentration-time curve"
+    },
+    "correct_answer": "C",
+    "explanation": "The trapezoidal method calculates AUC by summing areas of trapezoids from the concentration-time curve. AUC0-inf adds Clast/Kel for terminal area",
+    "source_citation": "Casarett & Doull Ch.7, pp. 420-449",
+    "bloom_level": "Application",
+    "format": "EXCEPT/NOT",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "All of the following are correct regarding toxicokinetics EXCEPT:",
+    "options": {
+      "A": "Always linear across all doses",
+      "B": "Does not account for metabolism",
+      "C": "Only applies to drugs",
+      "D": "Mean residence time (MRT) = AUMC/AUC"
+    },
+    "correct_answer": "C",
+    "explanation": "Mean residence time (MRT) = AUMC/AUC. AUMC is area under first moment curve (concentration x time)",
+    "source_citation": "Casarett & Doull Ch.7, pp. 420-449",
+    "bloom_level": "Application",
+    "format": "EXCEPT/NOT",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "All of the following are correct regarding toxicokinetics EXCEPT:",
+    "options": {
+      "A": "At least 2 early and 3 terminal elimination phase time points needed for TK studies",
+      "B": "Does not account for metabolism",
+      "C": "Only applies to drugs",
+      "D": "Always linear across all doses"
+    },
+    "correct_answer": "D",
+    "explanation": "At least 2 early and 3 terminal elimination phase time points needed for TK studies. Samples should show concentration changes by factor of 2 or order of magnitude",
+    "source_citation": "Casarett & Doull Ch.7, pp. 420-449",
+    "bloom_level": "Application",
+    "format": "EXCEPT/NOT",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "All of the following are correct regarding toxicokinetics EXCEPT:",
+    "options": {
+      "A": "No more than 10% of blood volume should be drawn during AUC sampling interval",
+      "B": "Only applies to drugs",
+      "C": "Always linear across all doses",
+      "D": "Does not account for metabolism"
+    },
+    "correct_answer": "C",
+    "explanation": "No more than 10% of blood volume should be drawn during AUC sampling interval. Prevents compromising physiological status",
+    "source_citation": "Casarett & Doull Ch.7, pp. 420-449",
+    "bloom_level": "Application",
+    "format": "EXCEPT/NOT",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "All of the following are correct regarding toxicokinetics EXCEPT:",
+    "options": {
+      "A": "Cannot be used for risk assessment",
+      "B": "Only applies to drugs",
+      "C": "Does not account for metabolism",
+      "D": "One-compartment model assumes body as single homogeneous compartment with instantaneous distribution"
+    },
+    "correct_answer": "A",
+    "explanation": "One-compartment model assumes body as single homogeneous compartment with instantaneous distribution. Appropriate for rapidly distributing compounds",
+    "source_citation": "Casarett & Doull Ch.7, pp. 420-449",
+    "bloom_level": "Application",
+    "format": "EXCEPT/NOT",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "All of the following are correct regarding toxicokinetics EXCEPT:",
+    "options": {
+      "A": "Only applies to drugs",
+      "B": "PBTK models incorporate actual anatomical and physiological parameters (tissue volumes, blood flows, partition coefficients)",
+      "C": "Always linear across all doses",
+      "D": "Does not account for metabolism"
+    },
+    "correct_answer": "D",
+    "explanation": "PBTK models incorporate actual anatomical and physiological parameters (tissue volumes, blood flows, partition coefficients). Allows mechanistic prediction of tissue concentrations",
+    "source_citation": "Casarett & Doull Ch.7, pp. 420-449",
+    "bloom_level": "Application",
+    "format": "EXCEPT/NOT",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which quantitative relationship correctly describes toxicokinetics?",
+    "options": {
+      "A": "Always linear across all doses",
+      "B": "Clearance is the volume of blood completely cleared of chemical per unit time",
+      "C": "Does not account for metabolism",
+      "D": "Cannot be used for risk assessment"
+    },
+    "correct_answer": "B",
+    "explanation": "Clearance is the volume of blood completely cleared of chemical per unit time. Hepatic clearance depends on intrinsic clearance, blood flow, and protein binding",
+    "source_citation": "Casarett & Doull Ch.7, pp. 420-449",
+    "bloom_level": "Application",
+    "format": "calculation",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which quantitative relationship correctly describes toxicokinetics?",
+    "options": {
+      "A": "Only applies to drugs",
+      "B": "Does not account for metabolism",
+      "C": "Elimination half-life: t1/2 = 0.693/ke for first-order elimination",
+      "D": "Cannot be used for risk assessment"
+    },
+    "correct_answer": "C",
+    "explanation": "Elimination half-life: t1/2 = 0.693/ke for first-order elimination. Half-life doubles when clearance decreases by half",
+    "source_citation": "Casarett & Doull Ch.7, pp. 420-449",
+    "bloom_level": "Application",
+    "format": "calculation",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which quantitative relationship correctly describes toxicokinetics?",
+    "options": {
+      "A": "Only applies to drugs",
+      "B": "Bioavailability F = AUC_oral / (AUC_IV x dose_oral/dose_IV) x 100%",
+      "C": "Cannot be used for risk assessment",
+      "D": "Does not account for metabolism"
+    },
+    "correct_answer": "B",
+    "explanation": "Bioavailability F = AUC_oral / (AUC_IV x dose_oral/dose_IV) x 100%. F < 100% indicates incomplete absorption or first-pass metabolism",
+    "source_citation": "Casarett & Doull Ch.7, pp. 420-449",
+    "bloom_level": "Analysis",
+    "format": "calculation",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which quantitative relationship correctly describes toxicokinetics?",
+    "options": {
+      "A": "Does not account for metabolism",
+      "B": "Only applies to drugs",
+      "C": "Always linear across all doses",
+      "D": "Nonlinear kinetics occur when elimination processes become saturated at high doses"
+    },
+    "correct_answer": "D",
+    "explanation": "Nonlinear kinetics occur when elimination processes become saturated at high doses. AUC increases disproportionately; half-life may increase",
+    "source_citation": "Casarett & Doull Ch.7, pp. 420-449",
+    "bloom_level": "Analysis",
+    "format": "calculation",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which quantitative relationship correctly describes air pollution?",
+    "options": {
+      "A": "Only affects respiratory system",
+      "B": "No health effects at ambient levels",
+      "C": "Exclusively outdoor phenomenon",
+      "D": "PM2.5 is more harmful than PM10 because smaller particles penetrate deeper into alveoli"
+    },
+    "correct_answer": "D",
+    "explanation": "PM2.5 is more harmful than PM10 because smaller particles penetrate deeper into alveoli. PM10 is largely deposited in upper airways",
+    "source_citation": "Casarett & Doull Ch.31, pp. 720-755",
+    "bloom_level": "Analysis",
+    "format": "calculation",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which quantitative relationship correctly describes air pollution?",
+    "options": {
+      "A": "Measured solely by PM10",
+      "B": "Ground-level ozone is a secondary pollutant formed by photochemical reactions of NOx and VOCs",
+      "C": "No health effects at ambient levels",
+      "D": "Exclusively outdoor phenomenon"
+    },
+    "correct_answer": "B",
+    "explanation": "Ground-level ozone is a secondary pollutant formed by photochemical reactions of NOx and VOCs. Causes respiratory inflammation and decreased lung function",
+    "source_citation": "Casarett & Doull Ch.31, pp. 720-755",
+    "bloom_level": "Analysis",
+    "format": "calculation",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "Which quantitative relationship correctly describes air pollution?",
+    "options": {
+      "A": "EPA NAAQS set limits for criteria pollutants including PM2.5, PM10, O3, CO, SO2, NO2, and lead",
+      "B": "Exclusively outdoor phenomenon",
+      "C": "Measured solely by PM10",
+      "D": "Only affects respiratory system"
+    },
+    "correct_answer": "A",
+    "explanation": "EPA NAAQS set limits for criteria pollutants including PM2.5, PM10, O3, CO, SO2, NO2, and lead. NAAQS are set to protect public health with adequate margin of safety",
+    "source_citation": "Casarett & Doull Ch.31, pp. 720-755",
+    "bloom_level": "Analysis",
+    "format": "calculation",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "A toxicologist evaluating analytical tox should consider which of the following?",
+    "options": {
+      "A": "GC-MS cannot detect volatiles",
+      "B": "Sample preparation not required",
+      "C": "GC-MS is the gold standard for volatile and semi-volatile compound identification in forensic toxicology",
+      "D": "LC-MS/MS less specific than immunoassay"
+    },
+    "correct_answer": "C",
+    "explanation": "GC-MS is the gold standard for volatile and semi-volatile compound identification in forensic toxicology. Provides chromatographic separation and mass spectral identification",
+    "source_citation": "Casarett & Doull Ch.32, pp. 756-779",
+    "bloom_level": "Analysis",
+    "format": "vignette",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "A toxicologist evaluating analytical tox should consider which of the following?",
+    "options": {
+      "A": "GC-MS cannot detect volatiles",
+      "B": "LC-MS/MS less specific than immunoassay",
+      "C": "LC-MS/MS has replaced immunoassay for confirmatory drug testing due to higher specificity",
+      "D": "Immunoassays provide definitive ID"
+    },
+    "correct_answer": "C",
+    "explanation": "LC-MS/MS has replaced immunoassay for confirmatory drug testing due to higher specificity. MRM provides excellent selectivity and sensitivity",
+    "source_citation": "Casarett & Doull Ch.32, pp. 756-779",
+    "bloom_level": "Analysis",
+    "format": "vignette",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "A toxicologist evaluating analytical tox should consider which of the following?",
+    "options": {
+      "A": "Sample preparation not required",
+      "B": "Immunoassays provide definitive ID",
+      "C": "LC-MS/MS less specific than immunoassay",
+      "D": "Immunoassays are used for initial screening but can produce false positives due to cross-reactivity"
+    },
+    "correct_answer": "D",
+    "explanation": "Immunoassays are used for initial screening but can produce false positives due to cross-reactivity. Confirmation by GC-MS or LC-MS/MS is required",
+    "source_citation": "Casarett & Doull Ch.32, pp. 756-779",
+    "bloom_level": "Analysis",
+    "format": "vignette",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "A toxicologist evaluating clinical tox should consider which of the following?",
+    "options": {
+      "A": "All poisonings require chelation",
+      "B": "N-acetylcysteine (NAC) is the antidote for acetaminophen toxicity, replenishing glutathione",
+      "C": "Activated charcoal contraindicated always",
+      "D": "Gastric lavage always indicated"
+    },
+    "correct_answer": "B",
+    "explanation": "N-acetylcysteine (NAC) is the antidote for acetaminophen toxicity, replenishing glutathione. Most effective within 8-10 hours of ingestion",
+    "source_citation": "Casarett & Doull Ch.33, pp. 780-802",
+    "bloom_level": "Analysis",
+    "format": "vignette",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "A toxicologist evaluating clinical tox should consider which of the following?",
+    "options": {
+      "A": "All poisonings require chelation",
+      "B": "Activated charcoal contraindicated always",
+      "C": "Gastric lavage always indicated",
+      "D": "Atropine blocks muscarinic effects in organophosphate poisoning but does not reverse nicotinic effects"
+    },
+    "correct_answer": "D",
+    "explanation": "Atropine blocks muscarinic effects in organophosphate poisoning but does not reverse nicotinic effects. Pralidoxime is needed for AChE reactivation",
+    "source_citation": "Casarett & Doull Ch.33, pp. 780-802",
+    "bloom_level": "Analysis",
+    "format": "vignette",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "A toxicologist evaluating occupational tox should consider which of the following?",
+    "options": {
+      "A": "TLV-TWA is the 8-hour time-weighted average; TLV-STEL is 15-minute; TLV-C is ceiling",
+      "B": "TLV-TWA is enforceable law",
+      "C": "BEIs replace air monitoring",
+      "D": "Occupational exposures always safe"
+    },
+    "correct_answer": "A",
+    "explanation": "TLV-TWA is the 8-hour time-weighted average; TLV-STEL is 15-minute; TLV-C is ceiling. TLVs are guidelines, not legally enforceable (unlike OSHA PELs)",
+    "source_citation": "Casarett & Doull Ch.34, pp. 803-825",
+    "bloom_level": "Analysis",
+    "format": "vignette",
+    "sub_domain": "A.Design"
+  },
+  {
+    "question_text": "A toxicologist evaluating occupational tox should consider which of the following?",
+    "options": {
+      "A": "Occupational exposures always safe",
+      "B": "Biological Exposure Indices (BEIs) complement air monitoring by reflecting total exposure via all routes",
+      "C": "BEIs replace air monitoring",
+      "D": "PPE is only protection needed"
+    },
+    "correct_answer": "B",
+    "explanation": "Biological Exposure Indices (BEIs) complement air monitoring by reflecting total exposure via all routes. BEIs are guidelines for levels in biological specimens",
+    "source_citation": "Casarett & Doull Ch.34, pp. 803-825",
+    "bloom_level": "Analysis",
+    "format": "vignette",
+    "sub_domain": "A.Design"
+  }
+]

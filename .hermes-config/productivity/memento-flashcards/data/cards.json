@@ -427,10 +427,11 @@
       "collection": "DABT - Risk Assessment",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-05-31T22:26:10.683961+00:00",
+      "next_review_at": "2026-06-05T23:36:00.010749+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": null
+      "last_user_answer": "Hazard, dose response, exposure, risk characterization",
+      "last_rated_at": "2026-06-01T23:02:40.982465+00:00"
     },
     {
       "id": "e1fc76fa-f3a5-48ee-a0a2-b7860049d54c",
@@ -438,11 +439,12 @@
       "answer": "Whether an agent CAN cause adverse effects and under what circumstances (qualitative, WoE-based)",
       "collection": "DABT - Risk Assessment",
       "status": "learning",
-      "ease_streak": 0,
-      "next_review_at": "2026-05-31T22:26:10.683961+00:00",
+      "ease_streak": 1,
+      "next_review_at": "2026-06-06T12:00:00+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": null
+      "last_user_answer": "Whether a chemical has potential for harm",
+      "last_rated_at": "2026-06-01T23:02:40.982465+00:00"
     },
     {
       "id": "91107ec9-b7c1-43df-baf9-19fd43078867",
@@ -450,11 +452,12 @@
       "answer": "The quantitative relationship between dose and the incidence/severity of adverse effects",
       "collection": "DABT - Risk Assessment",
       "status": "learning",
-      "ease_streak": 0,
-      "next_review_at": "2026-05-31T22:26:10.683961+00:00",
+      "ease_streak": 1,
+      "next_review_at": "2026-06-07T12:00:00+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": null
+      "last_user_answer": "Relationship between increasing dose and toxic response",
+      "last_rated_at": "2026-06-01T23:02:40.982465+00:00"
     },
     {
       "id": "3dbe4cc5-6d49-47b2-b7b6-2b01e0abf345",
@@ -462,11 +465,12 @@
       "answer": "The magnitude, frequency, duration, and routes of human or environmental exposure to a toxicant",
       "collection": "DABT - Risk Assessment",
       "status": "learning",
-      "ease_streak": 0,
-      "next_review_at": "2026-05-31T22:26:10.683961+00:00",
+      "ease_streak": 1,
+      "next_review_at": "2026-06-07T12:00:00+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": null
+      "last_user_answer": "Amount of exposure a population receives for a toxicant",
+      "last_rated_at": "2026-06-01T23:02:40.982465+00:00"
     },
     {
       "id": "5efce4fe-09c6-4a3a-a8af-1014a73840e2",
@@ -474,11 +478,12 @@
       "answer": "Integrates hazard, dose-response, and exposure data to estimate the probability and magnitude of risk",
       "collection": "DABT - Risk Assessment",
       "status": "learning",
-      "ease_streak": 0,
-      "next_review_at": "2026-05-31T22:26:10.683961+00:00",
+      "ease_streak": 1,
+      "next_review_at": "2026-06-08T12:00:00+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": null
+      "last_user_answer": "Determines potential risk for specific dose/exposure amounts",
+      "last_rated_at": "2026-06-01T23:02:40.982465+00:00"
     },
     {
       "id": "a683a12d-a442-48bd-837f-a8a2134dd6dc",
@@ -487,10 +492,11 @@
       "collection": "DABT - Risk Assessment",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-05-31T22:26:10.683961+00:00",
+      "next_review_at": "2026-06-05T23:36:55.464911+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": null
+      "last_user_answer": "The highest dose at which no adverse effects are observed in a study, the point of departure for calculating the reference dose",
+      "last_rated_at": "2026-06-01T23:03:10.230352+00:00"
     },
     {
       "id": "ddd9f4c8-8a89-4db0-9769-20be7117cb25",
@@ -499,10 +505,11 @@
       "collection": "DABT - Risk Assessment",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-05-31T22:26:10.683961+00:00",
+      "next_review_at": "2026-06-08T21:37:35.987973+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": null
+      "last_user_answer": "Lowest observed adverse effect level",
+      "last_rated_at": "2026-06-01T23:03:10.230352+00:00"
     },
     {
       "id": "a2dba1e7-1eaf-49bb-92fe-2f248ab71a11",
@@ -511,10 +518,10 @@
       "collection": "DABT - Risk Assessment",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-06-02T08:58:43.149337+00:00",
+      "next_review_at": "2026-06-06T00:24:26.293762+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": "limited to tested doses, no CI, sample-size dependent, ignores slope"
+      "last_user_answer": "Limited to a dose, doesn't account for slope of toxicity, can be skewed by quality of data, doesn't account for a confidence interval"
     },
     {
       "id": "abdc7077-1410-467b-8ed5-1826ed956764",
@@ -522,11 +529,12 @@
       "answer": "NOAEL allows non-adverse effects (e.g., mild body weight decrease without histopathology). NOEL requires no effect at all.",
       "collection": "DABT - Risk Assessment",
       "status": "learning",
-      "ease_streak": 0,
-      "next_review_at": "2026-05-30T13:24:41.495639+00:00",
+      "ease_streak": 1,
+      "next_review_at": "2026-06-07T12:00:00+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": "NOAEL is non-adverse effect level implying an effect, NOEL is no effect"
+      "last_user_answer": "Non-observable adverse effect level",
+      "last_rated_at": "2026-06-01T23:02:40.982465+00:00"
     },
     {
       "id": "ccf143e3-47e5-4e82-9ebd-8f6eeb620b1a",
@@ -534,11 +542,12 @@
       "answer": "The dose that produces a pre-specified benchmark response (BMR, e.g., 10% extra risk) as estimated from a fitted statistical dose-response model",
       "collection": "DABT - Risk Assessment",
       "status": "learning",
-      "ease_streak": 0,
-      "next_review_at": "2026-05-30T13:28:20.275449+00:00",
+      "ease_streak": 1,
+      "next_review_at": "2026-06-07T12:00:00+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": "Benchmark dose is the dose where the defined benchmark response is modeled to be at"
+      "last_user_answer": "Relationship between increasing dose and toxic response",
+      "last_rated_at": "2026-06-01T23:03:10.230352+00:00"
     },
     {
       "id": "804f2a71-c07a-4b50-a9be-12576fa8c564",
@@ -547,10 +556,11 @@
       "collection": "DABT - Risk Assessment",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-05-31T22:26:10.683961+00:00",
+      "next_review_at": "2026-06-07T23:28:55.878559+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": null
+      "last_user_answer": "10% extra risk above background — correct quantal default, missed 1 SD continuous default",
+      "last_rated_at": "2026-06-01T23:03:10.230352+00:00"
     },
     {
       "id": "f3a1536a-48ef-490c-b088-d2dd7394ef18",
@@ -558,11 +568,12 @@
       "answer": "Benchmark Dose Lower bound — the 95% lower confidence limit on the BMD. We are 95% confident the true BMD ≥ BMDL",
       "collection": "DABT - Risk Assessment",
       "status": "learning",
-      "ease_streak": 0,
-      "next_review_at": "2026-05-30T13:29:48.630842+00:00",
+      "ease_streak": 1,
+      "next_review_at": "2026-06-07T12:00:00+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": "BMDL is the lower bound of the confidence interval where someone would be 95% confident the true BMD is not lower than it"
+      "last_user_answer": "Determines potential risk for specific dose/exposure amounts",
+      "last_rated_at": "2026-06-01T23:03:10.230352+00:00"
     },
     {
       "id": "912f0574-2bbe-4479-b2fb-85f2a0dddc37",
@@ -571,10 +582,11 @@
       "collection": "DABT - Risk Assessment",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-05-31T22:26:10.683961+00:00",
+      "next_review_at": "2026-06-07T23:29:45.905020+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": null
+      "last_user_answer": "More conservative, accounts for statistical modeling flaws — correct direction, missing 95% lower confidence bound terminology",
+      "last_rated_at": "2026-06-01T23:03:10.230352+00:00"
     },
     {
       "id": "46d892eb-1be7-4713-a6a4-ad52782c9660",
@@ -582,11 +594,12 @@
       "answer": "High uncertainty in the dose-response data (small sample size, high variability, poor model fit)",
       "collection": "DABT - Risk Assessment",
       "status": "learning",
-      "ease_streak": 0,
-      "next_review_at": "2026-05-31T22:26:10.683961+00:00",
+      "ease_streak": 1,
+      "next_review_at": "2026-06-08T23:02:40.982465+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": null
+      "last_user_answer": "Benchmark Dose and Benchmark Dose Lower, preferred due to statistical modeling",
+      "last_rated_at": "2026-06-01T23:02:40.982465+00:00"
     },
     {
       "id": "faa56b84-1aa1-41e8-b568-1f181ae38e1a",
@@ -594,11 +607,12 @@
       "answer": "When dose-response data are insufficient for BMD modeling (e.g., only 2 dose groups, poor model fit)",
       "collection": "DABT - Risk Assessment",
       "status": "learning",
-      "ease_streak": 0,
-      "next_review_at": "2026-05-31T22:26:10.683961+00:00",
+      "ease_streak": 1,
+      "next_review_at": "2026-06-06T12:00:00+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": null
+      "last_user_answer": "Non-observable adverse effect level",
+      "last_rated_at": "2026-06-01T23:03:10.230352+00:00"
     },
     {
       "id": "79dd1252-b7dd-4dbe-b58c-af4975aeb15c",
@@ -606,11 +620,12 @@
       "answer": "The point on the dose-response curve used as the starting point for low-dose extrapolation. Can be NOAEL, LOAEL, BMDL, or BMD",
       "collection": "DABT - Risk Assessment",
       "status": "learning",
-      "ease_streak": 0,
-      "next_review_at": "2026-05-31T22:26:10.683961+00:00",
+      "ease_streak": 1,
+      "next_review_at": "2026-06-08T23:03:10.230352+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": null
+      "last_user_answer": "Lowest observable adverse effect level",
+      "last_rated_at": "2026-06-01T23:03:10.230352+00:00"
     },
     {
       "id": "f2030717-9cdc-4878-a369-96a05d504a18",
@@ -619,10 +634,11 @@
       "collection": "DABT - Risk Assessment",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-05-31T22:26:10.683961+00:00",
+      "next_review_at": "2026-06-08T21:38:33.897381+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": null
+      "last_user_answer": "Divisors applied to POD for uncertainty in extrapolation from study conditions to real-world human populations",
+      "last_rated_at": "2026-06-01T23:03:10.230352+00:00"
     },
     {
       "id": "a5d87110-872d-4870-aa18-05be0e55d3f1",
@@ -630,11 +646,12 @@
       "answer": "100× = UFₐ (10× interspecies) × UFₕ (10× intraspecies)",
       "collection": "DABT - Risk Assessment",
       "status": "learning",
-      "ease_streak": 0,
-      "next_review_at": "2026-05-30T13:31:22.468545+00:00",
+      "ease_streak": 1,
+      "next_review_at": "2026-06-06T12:00:00+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": "10x for interspecies, 10x for interspecies so 100. Another 10x if subchronic"
+      "last_user_answer": "Non-observable adverse effect level",
+      "last_rated_at": "2026-06-01T23:02:40.982465+00:00"
     },
     {
       "id": "d2834079-e82b-4e47-8409-6a104b9ef917",
@@ -642,11 +659,12 @@
       "answer": "1000× = UFₐ (10) × UFₕ (10) × UFₛ (10)",
       "collection": "DABT - Risk Assessment",
       "status": "learning",
-      "ease_streak": 0,
-      "next_review_at": "2026-05-31T22:26:10.683961+00:00",
+      "ease_streak": 1,
+      "next_review_at": "2026-06-07T12:00:00+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": null
+      "last_user_answer": "Non-observable adverse effect level",
+      "last_rated_at": "2026-06-01T23:02:40.982465+00:00"
     },
     {
       "id": "56ab79e7-2274-473a-b280-50633aaec401",
@@ -654,11 +672,12 @@
       "answer": "Interspecies extrapolation — differences between test animals and humans in toxicokinetics (4×) and toxicodynamics (2.5×)",
       "collection": "DABT - Risk Assessment",
       "status": "learning",
-      "ease_streak": 0,
-      "next_review_at": "2026-05-31T22:26:10.683961+00:00",
+      "ease_streak": 1,
+      "next_review_at": "2026-06-08T12:00:00+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": null
+      "last_user_answer": "Point of departure dose divided by uncertainty factor",
+      "last_rated_at": "2026-06-01T23:03:10.230352+00:00"
     },
     {
       "id": "6f6f969b-cc60-45a2-9e88-6a136c474acb",
@@ -666,11 +685,12 @@
       "answer": "TK = 10^0.6 ≈ 4× (clearance, metabolism, distribution). TD = 10^0.4 ≈ 2.5× (target tissue sensitivity)",
       "collection": "DABT - Risk Assessment",
       "status": "learning",
-      "ease_streak": 0,
-      "next_review_at": "2026-05-30T13:36:12.046507+00:00",
+      "ease_streak": 1,
+      "next_review_at": "2026-06-08T23:03:10.230352+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": "Accounts for differences in metabolism and receptor differences"
+      "last_user_answer": "Benchmark Dose and Benchmark Dose Lower, preferred due to statistical modeling",
+      "last_rated_at": "2026-06-01T23:03:10.230352+00:00"
     },
     {
       "id": "fc52d442-4b0f-4412-bdc4-1dfb0b77c126",
@@ -678,11 +698,12 @@
       "answer": "TK = 10^0.5 ≈ 3.2× (individual differences in metabolism/clearance). TD = 10^0.5 ≈ 3.2× (individual differences in tissue sensitivity)",
       "collection": "DABT - Risk Assessment",
       "status": "learning",
-      "ease_streak": 0,
-      "next_review_at": "2026-05-31T22:26:10.683961+00:00",
+      "ease_streak": 1,
+      "next_review_at": "2026-06-10T00:24:57.971748+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": null
+      "last_user_answer": "Toxicodynamics and toxicokinetics, 3.2 times 3.2 for both",
+      "last_rated_at": "2026-06-01T23:03:10.230352+00:00"
     },
     {
       "id": "100f8e6d-f22d-4fec-8a6b-686aedb21fe4",
@@ -690,11 +711,12 @@
       "answer": "Subchronic-to-chronic extrapolation — effects that may appear only after longer exposure (accumulation, late-manifesting pathology)",
       "collection": "DABT - Risk Assessment",
       "status": "learning",
-      "ease_streak": 0,
-      "next_review_at": "2026-05-31T22:26:10.683961+00:00",
+      "ease_streak": 1,
+      "next_review_at": "2026-06-08T12:00:00+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": null
+      "last_user_answer": "RfD is oral, RfC is for inhalation",
+      "last_rated_at": "2026-06-01T23:03:10.230352+00:00"
     },
     {
       "id": "093f7734-d2b4-44d1-9a95-f4e0329b89ac",
@@ -703,10 +725,11 @@
       "collection": "DABT - Risk Assessment",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-05-31T22:26:10.683961+00:00",
+      "next_review_at": "2026-06-05T23:30:27.858021+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": null
+      "last_user_answer": "NOAEL to LOAEL — direction reversed, should be LOAEL to NOAEL",
+      "last_rated_at": "2026-06-01T23:03:10.230352+00:00"
     },
     {
       "id": "e147a5d0-5c1c-4667-9826-8de5ec96080e",
@@ -714,11 +737,12 @@
       "answer": "An additional factor (1-10×) applied for study quality concerns, database deficiencies, or other uncertainties not captured by standard UFs",
       "collection": "DABT - Risk Assessment",
       "status": "learning",
-      "ease_streak": 0,
-      "next_review_at": "2026-05-31T22:26:10.683961+00:00",
+      "ease_streak": 1,
+      "next_review_at": "2026-06-06T12:00:00+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": null
+      "last_user_answer": "Genotoxic = linear, non-genotoxic = dependent on data/non-linear threshold",
+      "last_rated_at": "2026-06-01T23:03:10.230352+00:00"
     },
     {
       "id": "fdd29411-ddab-43c2-9bff-42104aaff210",
@@ -727,10 +751,11 @@
       "collection": "DABT - Risk Assessment",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-05-31T22:26:10.683961+00:00",
+      "next_review_at": "2026-06-07T23:31:33.719572+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": null
+      "last_user_answer": "Chemical-specific data, affects TK/TD portion of UF — correct, missing replaces-default-UF-component precision",
+      "last_rated_at": "2026-06-01T23:03:10.230352+00:00"
     },
     {
       "id": "1a140ee4-1ecd-4a19-9fd8-a925c17ce91e",
@@ -738,11 +763,12 @@
       "answer": "Yes — a single PBPK model can inform UFₐ_TK (species differences) AND UFₕ_TK (human variability) if the model includes a population distribution",
       "collection": "DABT - Risk Assessment",
       "status": "learning",
-      "ease_streak": 0,
-      "next_review_at": "2026-05-31T22:26:10.683961+00:00",
+      "ease_streak": 1,
+      "next_review_at": "2026-06-08T23:03:10.230352+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": null
+      "last_user_answer": "Given exposure divided by RfD, >1 hazardous, <1 safe",
+      "last_rated_at": "2026-06-01T23:03:10.230352+00:00"
     },
     {
       "id": "e1a24c05-5725-4fb1-b267-478374c12e03",
@@ -750,11 +776,12 @@
       "answer": "An estimate of daily oral exposure to the human population (including sensitive subgroups) likely without appreciable risk of adverse effects over a lifetime",
       "collection": "DABT - Risk Assessment",
       "status": "learning",
-      "ease_streak": 0,
-      "next_review_at": "2026-05-30T13:39:16.409965+00:00",
+      "ease_streak": 1,
+      "next_review_at": "2026-06-08T23:03:10.230352+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": "Reference dose is the lowest known dose to be considered safe"
+      "last_user_answer": "Sum of hazard quotients of multiple chemicals",
+      "last_rated_at": "2026-06-01T23:03:10.230352+00:00"
     },
     {
       "id": "753bf33b-0fa7-45a2-b7fc-152d804ffc01",
@@ -762,11 +789,12 @@
       "answer": "RfD = POD / UF_total. Example: BMDL₁₀ of 7.8 mg/kg ÷ 57 UF = 0.137 mg/kg/day",
       "collection": "DABT - Risk Assessment",
       "status": "learning",
-      "ease_streak": 0,
-      "next_review_at": "2026-05-31T22:26:10.683961+00:00",
+      "ease_streak": 1,
+      "next_review_at": "2026-06-08T23:03:10.230352+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": null
+      "last_user_answer": "Absorption, distribution, metabolism, excretion",
+      "last_rated_at": "2026-06-01T23:03:10.230352+00:00"
     },
     {
       "id": "bb52e0e5-78c4-4bc6-ad24-e824572d31c3",
@@ -774,11 +802,12 @@
       "answer": "Same concept as RfD but for inhalation exposure. Units: mg/m³ instead of mg/kg/day",
       "collection": "DABT - Risk Assessment",
       "status": "learning",
-      "ease_streak": 0,
-      "next_review_at": "2026-05-31T22:26:10.683961+00:00",
+      "ease_streak": 1,
+      "next_review_at": "2026-06-08T23:03:10.230352+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": null
+      "last_user_answer": "Limited to the doses tested",
+      "last_rated_at": "2026-06-01T23:03:10.230352+00:00"
     },
     {
       "id": "11441890-0b12-46fa-adc7-3ed284ba6980",
@@ -786,11 +815,12 @@
       "answer": "Essentially the same as RfD — the safe daily dose. Used specifically for food additives and pesticide residues (WHO/FAO/FDA)",
       "collection": "DABT - Risk Assessment",
       "status": "learning",
-      "ease_streak": 0,
-      "next_review_at": "2026-05-31T22:26:10.683961+00:00",
+      "ease_streak": 1,
+      "next_review_at": "2026-06-08T23:03:10.230352+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": null
+      "last_user_answer": "10x, accounts for toxicokinetics and toxicodynamics",
+      "last_rated_at": "2026-06-01T23:03:10.230352+00:00"
     },
     {
       "id": "a37482a9-adae-42a7-b0e9-291347c6c806",
@@ -799,10 +829,11 @@
       "collection": "DABT - Risk Assessment",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-05-31T22:26:10.683961+00:00",
+      "next_review_at": "2026-06-08T21:39:04.417290+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": null
+      "last_user_answer": "Same concept - RfD for EPA (environmental contaminants), ADI for WHO/FAO (food additives/pesticides)",
+      "last_rated_at": "2026-06-01T23:02:40.982465+00:00"
     },
     {
       "id": "744fa7b5-3abb-4553-9643-e8a191132cf4",
@@ -811,10 +842,11 @@
       "collection": "DABT - Risk Assessment",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-05-30T13:37:34.574479+00:00",
+      "next_review_at": "2026-06-08T21:40:05.618828+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": "Linear assumes every dose has adverse effect (cancer). Nonlinear needs a threshold before toxicity"
+      "last_user_answer": "Assumes even one molecule can cause cancer, no threshold, risk proportional to dose. Used for genotoxic carcinogens.",
+      "last_rated_at": "2026-06-01T23:02:40.982465+00:00"
     },
     {
       "id": "33fcc7ef-9b6a-487b-86a9-8e52e1bad3c3",
@@ -822,11 +854,12 @@
       "answer": "Assumes a dose exists below which no adverse effect occurs. Used for non-cancer endpoints and non-genotoxic carcinogens. Results in RfD/RfC",
       "collection": "DABT - Risk Assessment",
       "status": "learning",
-      "ease_streak": 0,
-      "next_review_at": "2026-05-31T22:26:10.683961+00:00",
+      "ease_streak": 1,
+      "next_review_at": "2026-06-06T12:00:00+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": null
+      "last_user_answer": "Non-observable adverse effect level",
+      "last_rated_at": "2026-06-01T23:02:40.982465+00:00"
     },
     {
       "id": "3fc61bb8-7782-46ad-8d3f-7abaf920cfaa",
@@ -835,10 +868,11 @@
       "collection": "DABT - Risk Assessment",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-05-31T22:26:10.683961+00:00",
+      "next_review_at": "2026-06-08T21:40:39.924192+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": null
+      "last_user_answer": "Single DNA-reactive molecule can mutate a critical gene, no theoretical threshold",
+      "last_rated_at": "2026-06-01T23:03:10.230352+00:00"
     },
     {
       "id": "04e92886-ecf5-4c6d-ae61-a5a3a61b907a",
@@ -847,10 +881,11 @@
       "collection": "DABT - Risk Assessment",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-05-31T22:26:10.683961+00:00",
+      "next_review_at": "2026-06-08T21:41:18.923997+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": null
+      "last_user_answer": "Non-genotoxic carcinogens don't directly damage DNA - tumor requires sustained cytotoxicity or receptor activation above a threshold",
+      "last_rated_at": "2026-06-01T23:03:10.230352+00:00"
     },
     {
       "id": "e8f8e40c-f22c-4eff-888c-3634e8d08284",
@@ -859,10 +894,11 @@
       "collection": "DABT - Risk Assessment",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-05-31T22:26:10.683961+00:00",
+      "next_review_at": "2026-06-06T21:42:27.906185+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": null
+      "last_user_answer": "Linear threshold - Ames positive means genotoxic",
+      "last_rated_at": "2026-06-01T23:02:40.982465+00:00"
     },
     {
       "id": "03f6bb65-1fd2-4e85-9f25-51736d4cfe60",
@@ -871,10 +907,11 @@
       "collection": "DABT - Risk Assessment",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-05-30T13:32:42.542340+00:00",
+      "next_review_at": "2026-06-08T21:43:36.693710+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": "Cancer slope factor is a modeled ratio to account for the cancer risk for a given dose of a carcinogen"
+      "last_user_answer": "Upper-bound 95% estimate of excess cancer risk per unit dose, units (mg/kg/day)-1, Risk = CSF × Dose",
+      "last_rated_at": "2026-06-01T23:03:10.230352+00:00"
     },
     {
       "id": "96b5d24a-7b36-48f2-a567-62858cbf70d3",
@@ -882,11 +919,12 @@
       "answer": "To avoid underestimating risk when data are sparse. Same philosophy as using BMDL instead of BMD — builds in a margin for study uncertainty",
       "collection": "DABT - Risk Assessment",
       "status": "learning",
-      "ease_streak": 0,
-      "next_review_at": "2026-05-31T22:26:10.683961+00:00",
+      "ease_streak": 1,
+      "next_review_at": "2026-06-06T12:00:00+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": null
+      "last_user_answer": "Class of enzymes doing vast majority of Phase I metabolism",
+      "last_rated_at": "2026-06-01T23:03:10.230352+00:00"
     },
     {
       "id": "4f54d2db-9196-4ecb-bdd0-0bfbfcd3fb9f",
@@ -894,11 +932,12 @@
       "answer": "Cancer risk per unit environmental concentration — same concept as CSF but expressed in environmental units (per µg/m³ air or per µg/L water)",
       "collection": "DABT - Risk Assessment",
       "status": "learning",
-      "ease_streak": 0,
-      "next_review_at": "2026-05-31T22:26:10.683961+00:00",
+      "ease_streak": 1,
+      "next_review_at": "2026-06-07T12:00:00+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": null
+      "last_user_answer": "Xenobiotic enters GI tract, shipped to liver for metabolism without entering circulation",
+      "last_rated_at": "2026-06-01T23:03:10.230352+00:00"
     },
     {
       "id": "ce50be0d-33b4-4341-a5f3-d5b78b960807",
@@ -906,11 +945,12 @@
       "answer": "10⁻⁴ (1 in 10,000) to 10⁻⁶ (1 in 1,000,000), depending on the regulatory context",
       "collection": "DABT - Risk Assessment",
       "status": "learning",
-      "ease_streak": 0,
-      "next_review_at": "2026-05-31T22:26:10.683961+00:00",
+      "ease_streak": 1,
+      "next_review_at": "2026-06-06T12:00:00+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": null
+      "last_user_answer": "Non-observable adverse effect level",
+      "last_rated_at": "2026-06-01T23:02:40.982465+00:00"
     },
     {
       "id": "24a9ffea-ce23-46a0-9fa5-6f2a0415b581",
@@ -919,10 +959,11 @@
       "collection": "DABT - Risk Assessment",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-05-30T13:34:32.198740+00:00",
+      "next_review_at": "2026-06-08T21:44:09.129240+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": "MOE is the ratio of POD/treatment dose"
+      "last_user_answer": "NOAEL divided by human exposure dose",
+      "last_rated_at": "2026-06-01T23:02:40.982465+00:00"
     },
     {
       "id": "77491df6-d511-4930-98be-7ba86240d19b",
@@ -930,11 +971,12 @@
       "answer": "Greater margin of safety. MOE is compared to a target (e.g., 100–1000) based on data quality. MOE > target = acceptable",
       "collection": "DABT - Risk Assessment",
       "status": "learning",
-      "ease_streak": 0,
-      "next_review_at": "2026-05-31T22:26:10.683961+00:00",
+      "ease_streak": 1,
+      "next_review_at": "2026-06-08T23:03:10.230352+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": null
+      "last_user_answer": "How much of xenobiotic enters bloodstream when orally ingested",
+      "last_rated_at": "2026-06-01T23:03:10.230352+00:00"
     },
     {
       "id": "6834f9c3-8adc-4663-a510-1ede78f168a1",
@@ -942,11 +984,12 @@
       "answer": "Exposure / RfD. HQ < 1 = acceptable risk. HQ > 1 = potential concern",
       "collection": "DABT - Risk Assessment",
       "status": "learning",
-      "ease_streak": 0,
-      "next_review_at": "2026-05-31T22:26:10.683961+00:00",
+      "ease_streak": 1,
+      "next_review_at": "2026-06-08T23:02:40.982465+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": null
+      "last_user_answer": "Given exposure divided by RfD, >1 hazardous, <1 safe",
+      "last_rated_at": "2026-06-01T23:02:40.982465+00:00"
     },
     {
       "id": "316b3c51-e3ea-46b2-b142-09ca7e3b6882",
@@ -954,11 +997,12 @@
       "answer": "Sum of HQs for multiple chemicals affecting the same target organ or endpoint. HI < 1 = acceptable",
       "collection": "DABT - Risk Assessment",
       "status": "learning",
-      "ease_streak": 0,
-      "next_review_at": "2026-05-31T22:26:10.683961+00:00",
+      "ease_streak": 1,
+      "next_review_at": "2026-06-08T23:02:40.982465+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": null
+      "last_user_answer": "Sum of hazard quotients of multiple chemicals",
+      "last_rated_at": "2026-06-01T23:02:40.982465+00:00"
     },
     {
       "id": "7001611a-eb3d-4f12-bab4-9e8542ce0870",
@@ -967,10 +1011,11 @@
       "collection": "DABT - Risk Assessment",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-05-31T22:26:10.683961+00:00",
+      "next_review_at": "2026-06-08T21:44:53.797821+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": null
+      "last_user_answer": "Genotoxic - directly DNA-reactive, linear model. Non-genotoxic - threshold via secondary mechanisms (cytotoxicity, hormonal, immunosuppression)",
+      "last_rated_at": "2026-06-01T23:02:40.982465+00:00"
     },
     {
       "id": "e23917d2-2a2d-497d-85c0-c6a97073e88f",
@@ -979,22 +1024,24 @@
       "collection": "DABT - Risk Assessment",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-05-31T22:26:10.683961+00:00",
+      "next_review_at": "2026-06-08T21:45:10.500424+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": null
+      "last_user_answer": "Threshold (nonlinear) - tumors secondary to cytotoxicity",
+      "last_rated_at": "2026-06-01T23:02:40.982465+00:00"
     },
     {
       "id": "33618f04-c1ce-41ec-bfa8-6cb9040d38f2",
-      "question": "Name the key safety thresholds and when each is used.",
+      "question": "Name the 5 safety threshold standards and match each to its regulatory agency: EPA, WHO, Health Canada, OSHA/ACGIH, ECHA/REACH.",
       "answer": "RfD (EPA, environmental) / ADI (WHO, food) / TDI (Health Canada, contaminants) / OEL (OSHA/ACGIH, workplace) / DNEL (ECHA, REACH)",
       "collection": "DABT - Risk Assessment",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-05-31T22:26:10.683961+00:00",
+      "next_review_at": "2026-06-07T23:28:21.144470+00:00",
       "created_at": "2026-05-26T23:48:48.157124+00:00",
       "video_id": "dose-response-ladder",
-      "last_user_answer": null
+      "last_user_answer": "10% higher than background — correct quantal default, missed 1 SD continuous default",
+      "last_rated_at": "2026-06-01T23:03:10.230352+00:00"
     },
     {
       "id": "8e1ffe5e-a68d-48a2-9121-d8c95df1bbcd",
@@ -1363,10 +1410,10 @@
       "collection": "DABT - Conduct of Studies",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-06-01T20:08:37.632171+00:00",
+      "next_review_at": "2026-06-05T23:02:37.028270+00:00",
       "created_at": "2026-05-28T23:10:35.796690+00:00",
       "video_id": "conduct-of-studies-block1",
-      "last_user_answer": "Acute ≤24h, subchronic 90-day, chronic 6-12mo (corrected: chronic ≥12mo, missed subacute/28-day)"
+      "last_user_answer": "Acute <24h, subacute 28d, subchronic 90d, chronic 12mo — but missed exact subchronic=90d and chronic=12mo on first pass"
     },
     {
       "id": "809d0e87-7892-4a44-9f0b-5808a0eb37df",
@@ -1375,10 +1422,10 @@
       "collection": "DABT - Conduct of Studies",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-06-01T20:10:11.346345+00:00",
+      "next_review_at": "2026-06-05T23:03:43.957832+00:00",
       "created_at": "2026-05-28T23:10:35.796690+00:00",
       "video_id": "conduct-of-studies-block1",
-      "last_user_answer": "Cohort produces Relative Risk (RR), best for rare exposures"
+      "last_user_answer": "Cohort is exposure and effects, backwards looking — missed RR, missed direction, missed when preferred"
     },
     {
       "id": "72768355-b706-449e-a534-f8834d373118",
@@ -1387,10 +1434,10 @@
       "collection": "DABT - Conduct of Studies",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-06-01T20:11:31.147420+00:00",
+      "next_review_at": "2026-06-05T23:06:48.163392+00:00",
       "created_at": "2026-05-28T23:10:35.796690+00:00",
       "video_id": "conduct-of-studies-block1",
-      "last_user_answer": "Cohort = rare exposures, case-control = rare outcomes"
+      "last_user_answer": "Case control generates incidents — confused with cohort, missed OR, missed outcome-rare criterion"
     },
     {
       "id": "cef7965d-33f4-4fd8-bb7b-9b138e39f614",
@@ -1399,10 +1446,10 @@
       "collection": "DABT - Conduct of Studies",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-06-01T20:12:51.447851+00:00",
+      "next_review_at": "2026-06-07T23:09:44.639745+00:00",
       "created_at": "2026-05-28T23:10:35.796690+00:00",
       "video_id": "conduct-of-studies-block1",
-      "last_user_answer": "Logarithmic spacing, 3.2x or 2x intervals, at least 3 dose groups"
+      "last_user_answer": "Logarithmic 2x or 3x, proper spacing to get idea of toxic level — correct pattern, reasoning slightly vague"
     },
     {
       "id": "68df6431-5ef3-42cf-b4cf-624d194404f6",
@@ -1411,10 +1458,10 @@
       "collection": "DABT - Conduct of Studies",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-06-01T20:14:54.254738+00:00",
+      "next_review_at": "2026-06-05T23:08:19.075255+00:00",
       "created_at": "2026-05-28T23:10:35.796690+00:00",
       "video_id": "conduct-of-studies-block1",
-      "last_user_answer": "Cross-sectional prevalence ratio, temporal ambiguity (no causation), hypothesis generation"
+      "last_user_answer": "Large population across groups, measures incidence, weakness is sheer variables — missed prevalence, missed temporal ambiguity, missed snapshot design"
     },
     {
       "id": "388c240e-e02e-4336-8c0e-98f164a0f66b",
@@ -1423,10 +1470,10 @@
       "collection": "DABT - Conduct of Studies",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-06-01T20:15:33.658393+00:00",
+      "next_review_at": "2026-06-07T23:12:53.747105+00:00",
       "created_at": "2026-05-28T23:52:16.905101+00:00",
       "video_id": "conduct-of-studies-block2-adme",
-      "last_user_answer": "Non-ionized HA — ionized can't passively diffuse"
+      "last_user_answer": "Non-ionized form — correct"
     },
     {
       "id": "a7f2bf0d-2197-4772-af87-4ad7b28cc601",
@@ -1435,10 +1482,10 @@
       "collection": "DABT - Conduct of Studies",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-06-01T20:16:11.711477+00:00",
+      "next_review_at": "2026-06-07T23:17:33.222776+00:00",
       "created_at": "2026-05-28T23:52:16.905101+00:00",
       "video_id": "conduct-of-studies-block2-adme",
-      "last_user_answer": "Small intestine, weak bases protonated in acidic stomach, can't cross"
+      "last_user_answer": "Small intestine because charged in stomach — correct"
     },
     {
       "id": "e113e3aa-82b2-4afa-8ef3-372279572f6e",
@@ -1447,10 +1494,10 @@
       "collection": "DABT - Conduct of Studies",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-06-01T20:18:22.363045+00:00",
+      "next_review_at": "2026-06-07T23:19:10.730485+00:00",
       "created_at": "2026-05-28T23:52:16.905101+00:00",
       "video_id": "conduct-of-studies-block2-adme",
-      "last_user_answer": "High E normally low F, saturation of first-pass causes F to rise, supraproportional AUC increase"
+      "last_user_answer": "Bioavailability will increase by a lot — direction correct, missing disproportionate/supraproportional precision"
     },
     {
       "id": "0542e825-ee66-4b65-85fc-6641169e9cf6",
@@ -1459,10 +1506,10 @@
       "collection": "DABT - Conduct of Studies",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-06-01T20:22:20.046318+00:00",
+      "next_review_at": "2026-06-07T23:20:38.553261+00:00",
       "created_at": "2026-05-28T23:52:16.905101+00:00",
       "video_id": "conduct-of-studies-block2-adme",
-      "last_user_answer": "Phase I = functionalization, can bioactivate. Phase II = conjugation, almost always detoxifies"
+      "last_user_answer": "Phase I modifies and can increase toxicity, Phase II reduces toxicity — correct concept"
     },
     {
       "id": "548ed302-907d-408a-bb6d-c629c462af80",
@@ -1471,10 +1518,10 @@
       "collection": "DABT - Conduct of Studies",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-06-01T20:49:19.795740+00:00",
+      "next_review_at": "2026-06-07T23:22:32.036872+00:00",
       "created_at": "2026-05-28T23:52:16.905101+00:00",
       "video_id": "conduct-of-studies-block2-adme",
-      "last_user_answer": "Free fraction increases — saturation means every extra mg goes to unbound pool"
+      "last_user_answer": "Free unbound fraction increases by a lot — correct, missing nonlinear PK framing"
     },
     {
       "id": "9b841d4a-257f-4d60-9eac-d88f7b738c69",
@@ -1482,11 +1529,11 @@
       "answer": "FALSE. High Vd means the compound is sequestered in peripheral tissues (fat, bone) and must slowly redistribute back to the central compartment before it can be eliminated. High Vd → LONG t½, not fast elimination. Common misconception trap.",
       "collection": "DABT - Conduct of Studies",
       "status": "learning",
-      "ease_streak": 0,
-      "next_review_at": "2026-06-01T20:51:04.885639+00:00",
+      "ease_streak": 1,
+      "next_review_at": "2026-06-11T23:23:14.052328+00:00",
       "created_at": "2026-05-28T23:52:16.905101+00:00",
       "video_id": "conduct-of-studies-block2-adme",
-      "last_user_answer": "False — high Vd = sequestered in peripheral tissues, longer t1/2"
+      "last_user_answer": "False — high Vd means sequestered, elimination very slow — correct"
     },
     {
       "id": "75673456-7e66-459c-80f2-c2eaaf2142c0",
@@ -1494,11 +1541,11 @@
       "answer": "t½ doubles (increases 2×). CL is the variable that decreased. Since t½ = 0.693 × Vd / CL, halving CL doubles t½ (inverse relationship, Vd constant).",
       "collection": "DABT - Conduct of Studies",
       "status": "learning",
-      "ease_streak": 0,
-      "next_review_at": "2026-06-01T20:53:17.937370+00:00",
+      "ease_streak": 1,
+      "next_review_at": "2026-06-11T23:23:57.528691+00:00",
       "created_at": "2026-05-28T23:52:16.905101+00:00",
       "video_id": "conduct-of-studies-block2-adme",
-      "last_user_answer": "t1/2 doubles because CL was halved"
+      "last_user_answer": "CL is the variable, halving CL doubles t½ — correct math and reasoning"
     },
     {
       "id": "b2ae2255-80b7-4b48-8ebc-c82ed759bbdd",
@@ -1507,10 +1554,10 @@
       "collection": "DABT - Conduct of Studies",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-06-01T20:54:18.866352+00:00",
+      "next_review_at": "2026-06-07T23:25:30.243547+00:00",
       "created_at": "2026-05-28T23:52:16.905101+00:00",
       "video_id": "conduct-of-studies-block2-adme",
-      "last_user_answer": "Compound sequestered in Peripheral (fat), slow redistribution back to Central is rate-limiting for clearance"
+      "last_user_answer": "Lipophilic in fat, hard to get out — correct concept, missing rate-limiting step = Peripheral to Central redistribution"
     },
     {
       "id": "b67b8366-16fc-41da-9277-c3e859006abc",
@@ -1519,10 +1566,10 @@
       "collection": "DABT - Conduct of Studies",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-05-30T20:04:38.076043+00:00",
+      "next_review_at": "2026-06-07T23:26:30.478994+00:00",
       "created_at": "2026-05-29T20:04:30.849042+00:00",
       "video_id": "domain-i-blocks1-2-supplement",
-      "last_user_answer": null
+      "last_user_answer": "Clinical outcomes, organ systems, imperfect view — correct concept, missed ADME terminology, confused mechanism limitation with mechanism strength"
     },
     {
       "id": "2e969eca-7ba4-49cc-909a-cbadbd1635cc",
@@ -1530,11 +1577,11 @@
       "answer": "LOWER. Chronic exposure is longer — cumulative damage amplifies. Chronic high dose should be below the subchronic LOAEL, often around the subchronic NOAEL or lower. Common exam trap: \"longer study = need higher doses\" is backward.",
       "collection": "DABT - Conduct of Studies",
       "status": "learning",
-      "ease_streak": 0,
-      "next_review_at": "2026-05-30T20:04:38.076043+00:00",
+      "ease_streak": 1,
+      "next_review_at": "2026-06-11T23:27:43.716590+00:00",
       "created_at": "2026-05-29T20:04:30.849042+00:00",
       "video_id": "domain-i-blocks1-2-supplement",
-      "last_user_answer": null
+      "last_user_answer": "Lower — cumulative damage, animals would die early — correct with strong reasoning"
     },
     {
       "id": "85bd3a79-a22a-4dbc-91f3-d55a72dcb139",
@@ -1543,10 +1590,10 @@
       "collection": "DABT - Conduct of Studies",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-05-31T20:04:38.076043+00:00",
+      "next_review_at": "2026-06-06T00:28:44.166217+00:00",
       "created_at": "2026-05-29T20:04:30.849042+00:00",
       "video_id": "domain-i-blocks1-2-supplement",
-      "last_user_answer": null
+      "last_user_answer": "Limit dose is one thousand mg per kg"
     },
     {
       "id": "69c4ea9a-d603-4f6d-b4bb-02f5088f1437",
@@ -1555,7 +1602,7 @@
       "collection": "DABT - Conduct of Studies",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-05-31T20:04:38.076043+00:00",
+      "next_review_at": "2026-06-06T12:00:00+00:00",
       "created_at": "2026-05-29T20:04:30.849042+00:00",
       "video_id": "domain-i-blocks1-2-supplement",
       "last_user_answer": null
@@ -1567,10 +1614,10 @@
       "collection": "DABT - Conduct of Studies",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-06-01T20:04:38.076043+00:00",
+      "next_review_at": "2026-06-06T21:45:52.506960+00:00",
       "created_at": "2026-05-29T20:04:30.849042+00:00",
       "video_id": "domain-i-blocks1-2-supplement",
-      "last_user_answer": null
+      "last_user_answer": "Risk ratio - good for backwards looking exposure"
     },
     {
       "id": "37c4163c-7600-4a36-b9a8-9f280f812168",
@@ -1579,7 +1626,7 @@
       "collection": "DABT - Conduct of Studies",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-06-01T20:04:38.076043+00:00",
+      "next_review_at": "2026-06-07T12:00:00+00:00",
       "created_at": "2026-05-29T20:04:30.849042+00:00",
       "video_id": "domain-i-blocks1-2-supplement",
       "last_user_answer": null
@@ -1591,10 +1638,10 @@
       "collection": "DABT - Conduct of Studies",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-06-02T20:04:38.076043+00:00",
+      "next_review_at": "2026-06-08T21:46:14.747349+00:00",
       "created_at": "2026-05-29T20:04:30.849042+00:00",
       "video_id": "domain-i-blocks1-2-supplement",
-      "last_user_answer": null
+      "last_user_answer": "Temporal ambiguity - cannot establish causation because exposure and outcome measured simultaneously"
     },
     {
       "id": "277595ed-521c-49b4-a897-4df39298773f",
@@ -1603,10 +1650,10 @@
       "collection": "DABT - Conduct of Studies",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-06-02T20:04:38.076043+00:00",
+      "next_review_at": "2026-06-06T21:46:41.106145+00:00",
       "created_at": "2026-05-29T20:04:30.849042+00:00",
       "video_id": "domain-i-blocks1-2-supplement",
-      "last_user_answer": null
+      "last_user_answer": "IV"
     },
     {
       "id": "acebddf2-6560-4bd0-b84e-759fe319ba09",
@@ -1615,10 +1662,10 @@
       "collection": "DABT - Conduct of Studies",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-06-03T20:04:38.076043+00:00",
+      "next_review_at": "2026-06-08T21:47:15.616700+00:00",
       "created_at": "2026-05-29T20:04:30.849042+00:00",
       "video_id": "domain-i-blocks1-2-supplement",
-      "last_user_answer": null
+      "last_user_answer": "Metabolized before systemic circulation via portal vein - decreases oral F"
     },
     {
       "id": "e9c45ebf-a184-49c5-b78c-21eba7bceaac",
@@ -1627,7 +1674,7 @@
       "collection": "DABT - Conduct of Studies",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-06-03T20:04:38.076043+00:00",
+      "next_review_at": "2026-06-07T12:00:00+00:00",
       "created_at": "2026-05-29T20:04:30.849042+00:00",
       "video_id": "domain-i-blocks1-2-supplement",
       "last_user_answer": null
@@ -1639,10 +1686,10 @@
       "collection": "DABT - Conduct of Studies",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-06-04T20:04:38.076043+00:00",
+      "next_review_at": "2026-06-08T21:48:30.257237+00:00",
       "created_at": "2026-05-29T20:04:30.849042+00:00",
       "video_id": "domain-i-blocks1-2-supplement",
-      "last_user_answer": null
+      "last_user_answer": "Phase II saturates at overdose, CYP2E1/3A4 converts APAP to NAPQI, GSH depleted, liver necrosis. Antidote NAC."
     },
     {
       "id": "ebbf8840-d614-4593-b395-49eec92db4b1",
@@ -1651,10 +1698,10 @@
       "collection": "DABT - Conduct of Studies",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-06-04T20:04:38.076043+00:00",
+      "next_review_at": "2026-06-08T21:49:06.127230+00:00",
       "created_at": "2026-05-29T20:04:30.849042+00:00",
       "video_id": "domain-i-blocks1-2-supplement",
-      "last_user_answer": null
+      "last_user_answer": "High Vd = slow elimination, formula Vd = Dose/C0"
     },
     {
       "id": "e4fd52f2-a5ea-4d2d-ab4a-26311c62fedb",
@@ -1663,10 +1710,10 @@
       "collection": "DABT - Conduct of Studies",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-06-05T20:04:38.076043+00:00",
+      "next_review_at": "2026-06-08T21:49:59.614137+00:00",
       "created_at": "2026-05-29T20:04:30.849042+00:00",
       "video_id": "domain-i-blocks1-2-supplement",
-      "last_user_answer": null
+      "last_user_answer": "Excreted in bile, gut bacteria deconjugate, reabsorbed into portal circulation - prolongs half-life"
     },
     {
       "id": "3ecc64ec-b400-4e1d-b080-258306f5ebb5",
@@ -1675,10 +1722,10 @@
       "collection": "DABT - Conduct of Studies",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-06-05T20:04:38.076043+00:00",
+      "next_review_at": "2026-06-08T21:51:17.207782+00:00",
       "created_at": "2026-05-29T20:04:30.849042+00:00",
       "video_id": "domain-i-blocks1-2-supplement",
-      "last_user_answer": null
+      "last_user_answer": "Renal (urine), biliary (feces), pulmonary (exhalation)"
     },
     {
       "id": "624fecf4-0fd0-4cad-9721-7cf7db25ff3a",
@@ -1771,7 +1818,7 @@
       "collection": "DABT - Conduct of Studies",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-05-31T05:36:34.250900+00:00",
+      "next_review_at": "2026-06-06T12:00:00+00:00",
       "created_at": "2026-05-29T21:36:34.241739+00:00",
       "video_id": "conduct-of-studies-block3-stats",
       "last_user_answer": null
@@ -1783,7 +1830,7 @@
       "collection": "DABT - Conduct of Studies",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-05-31T05:36:34.250900+00:00",
+      "next_review_at": "2026-06-05T21:37:09.718391+00:00",
       "created_at": "2026-05-29T21:36:34.241739+00:00",
       "video_id": "conduct-of-studies-block3-stats",
       "last_user_answer": null
@@ -1795,7 +1842,7 @@
       "collection": "DABT - Conduct of Studies",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-06-01T05:36:34.250900+00:00",
+      "next_review_at": "2026-06-06T12:00:00+00:00",
       "created_at": "2026-05-29T21:36:34.241739+00:00",
       "video_id": "conduct-of-studies-block3-stats",
       "last_user_answer": null
@@ -1807,7 +1854,7 @@
       "collection": "DABT - Conduct of Studies",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-06-01T05:36:34.250900+00:00",
+      "next_review_at": "2026-06-06T12:00:00+00:00",
       "created_at": "2026-05-29T21:36:34.241739+00:00",
       "video_id": "conduct-of-studies-block3-stats",
       "last_user_answer": null
@@ -1819,7 +1866,7 @@
       "collection": "DABT - Conduct of Studies",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-06-02T05:36:34.250900+00:00",
+      "next_review_at": "2026-06-07T12:00:00+00:00",
       "created_at": "2026-05-29T21:36:34.241739+00:00",
       "video_id": "conduct-of-studies-block3-stats",
       "last_user_answer": null
@@ -1831,7 +1878,7 @@
       "collection": "DABT - Conduct of Studies",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-06-02T05:36:34.250900+00:00",
+      "next_review_at": "2026-06-06T12:00:00+00:00",
       "created_at": "2026-05-29T21:36:34.241739+00:00",
       "video_id": "conduct-of-studies-block3-stats",
       "last_user_answer": null
@@ -1843,7 +1890,7 @@
       "collection": "DABT - Conduct of Studies",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-06-03T05:36:34.250900+00:00",
+      "next_review_at": "2026-06-06T12:00:00+00:00",
       "created_at": "2026-05-29T21:36:34.241739+00:00",
       "video_id": "conduct-of-studies-block3-stats",
       "last_user_answer": null
@@ -1855,7 +1902,7 @@
       "collection": "DABT - Conduct of Studies",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-06-03T05:36:34.250900+00:00",
+      "next_review_at": "2026-06-08T12:00:00+00:00",
       "created_at": "2026-05-29T21:36:34.241739+00:00",
       "video_id": "conduct-of-studies-block3-stats",
       "last_user_answer": null
@@ -1867,7 +1914,7 @@
       "collection": "DABT - Conduct of Studies",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-06-04T05:36:34.250900+00:00",
+      "next_review_at": "2026-06-08T12:00:00+00:00",
       "created_at": "2026-05-29T21:36:34.241739+00:00",
       "video_id": "conduct-of-studies-block3-stats",
       "last_user_answer": null
@@ -1879,7 +1926,7 @@
       "collection": "DABT - Conduct of Studies",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-06-04T05:36:34.250900+00:00",
+      "next_review_at": "2026-06-07T12:00:00+00:00",
       "created_at": "2026-05-29T21:36:34.241739+00:00",
       "video_id": "conduct-of-studies-block3-stats",
       "last_user_answer": null
@@ -1891,7 +1938,7 @@
       "collection": "DABT - Conduct of Studies",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-05-31T15:55:04.347114+00:00",
+      "next_review_at": "2026-06-08T12:00:00+00:00",
       "created_at": "2026-05-30T15:54:56.073204+00:00",
       "video_id": "domain-i-blocks45",
       "last_user_answer": null
@@ -1903,7 +1950,7 @@
       "collection": "DABT - Conduct of Studies",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-05-31T15:55:04.347114+00:00",
+      "next_review_at": "2026-06-07T12:00:00+00:00",
       "created_at": "2026-05-30T15:54:56.073204+00:00",
       "video_id": "domain-i-blocks45",
       "last_user_answer": null
@@ -1915,7 +1962,7 @@
       "collection": "DABT - Conduct of Studies",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-06-01T15:55:04.347114+00:00",
+      "next_review_at": "2026-06-09T12:00:00+00:00",
       "created_at": "2026-05-30T15:54:56.073204+00:00",
       "video_id": "domain-i-blocks45",
       "last_user_answer": null
@@ -1927,7 +1974,7 @@
       "collection": "DABT - Conduct of Studies",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-06-01T15:55:04.347114+00:00",
+      "next_review_at": "2026-06-06T12:00:00+00:00",
       "created_at": "2026-05-30T15:54:56.073204+00:00",
       "video_id": "domain-i-blocks45",
       "last_user_answer": null
@@ -1939,10 +1986,70 @@
       "collection": "DABT - Conduct of Studies",
       "status": "learning",
       "ease_streak": 0,
-      "next_review_at": "2026-06-02T15:55:04.347114+00:00",
+      "next_review_at": "2026-06-08T21:52:10.998634+00:00",
       "created_at": "2026-05-30T15:54:56.073204+00:00",
       "video_id": "domain-i-blocks45",
-      "last_user_answer": null
+      "last_user_answer": "Magnitude, incidence, endpoints - totality of evidence, biological significance, study power"
+    },
+    {
+      "id": "cf70b382-edc8-4297-a126-a88ad7313746",
+      "question": "Name the 4 uncertainty factors used in RfD derivation, and what each accounts for.",
+      "answer": "1. Interspecies (animal to human) — default 10× 2. Intraspecies (human variability) — default 10× 3. Subchronic → Chronic — default 10× 4. LOAEL → NOAEL — default 10× (used when NOAEL not available)",
+      "collection": "DABT - Risk Assessment",
+      "status": "learning",
+      "ease_streak": 1,
+      "next_review_at": "2026-06-10T00:30:58.685835+00:00",
+      "created_at": "2026-06-03T00:30:20.960221+00:00",
+      "video_id": null,
+      "last_user_answer": "LOAEL to NOAEL, downward extrapolation"
+    },
+    {
+      "id": "ca10d866-960d-4a24-971e-cbf2a5bab544",
+      "question": "What is the difference between irritation, corrosion, and sensitization?",
+      "answer": "Irritation: direct, reversible tissue damage (no immune system). Corrosion: irreversible tissue destruction. Sensitization: immune-mediated, worsens with re-exposure.",
+      "collection": "DABT - Risk Assessment",
+      "status": "learning",
+      "ease_streak": 1,
+      "next_review_at": "2026-06-10T00:31:43.803440+00:00",
+      "created_at": "2026-06-03T00:31:34.995811+00:00",
+      "video_id": null,
+      "last_user_answer": "Irritation = tissue response, corrosion = extreme tissue damage, sensitization = immune response"
+    },
+    {
+      "id": "57bd8151-c3f6-4723-af25-295149c5ff6d",
+      "question": "Name the IARC classification groups for carcinogenicity.",
+      "answer": "Group 1: Carcinogenic to humans. Group 2A: Probably carcinogenic. Group 2B: Possibly carcinogenic. Group 3: Not classifiable. Group 4: Probably not carcinogenic.",
+      "collection": "DABT - Risk Assessment",
+      "status": "learning",
+      "ease_streak": 0,
+      "next_review_at": "2026-06-06T00:32:24.499721+00:00",
+      "created_at": "2026-06-03T00:32:19.407981+00:00",
+      "video_id": null,
+      "last_user_answer": "Class 1, 2A, 2B, 3, 4"
+    },
+    {
+      "id": "03503ef5-c113-4a33-a32e-85c6bc897b34",
+      "question": "What is the difference between a carcinogenicity bioassay and a chronic toxicity study?",
+      "answer": "Bioassay: 2-year, 2 species, tumor incidence endpoint. Chronic tox: 6mo–1yr, 1 species, non-cancer organ pathology endpoint.",
+      "collection": "DABT - Risk Assessment",
+      "status": "learning",
+      "ease_streak": 0,
+      "next_review_at": "2026-06-06T00:34:17.576435+00:00",
+      "created_at": "2026-06-03T00:34:14.073274+00:00",
+      "video_id": null,
+      "last_user_answer": "Bioassay = cancer outcomes, chronic tox = full gamut of organ toxicity"
+    },
+    {
+      "id": "935a1a71-3e04-4f49-b3e5-124bdc79fb0c",
+      "question": "Name the OECD test guidelines for reproductive/developmental toxicity.",
+      "answer": "OECD 414: prenatal developmental toxicity (teratogenicity). OECD 416: two-generation reproduction. OECD 443: extended one-generation (replaces 416).",
+      "collection": "DABT - Risk Assessment",
+      "status": "learning",
+      "ease_streak": 0,
+      "next_review_at": "2026-06-08T12:00:00+00:00",
+      "created_at": "2026-06-03T00:34:58.835522+00:00",
+      "video_id": null,
+      "last_user_answer": "407, 409, F1/F2 generation"
     }
   ],
   "version": 1

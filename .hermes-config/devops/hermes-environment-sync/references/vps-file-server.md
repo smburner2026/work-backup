@@ -41,5 +41,5 @@ A lightweight Python HTTP server bound to the VPS's Tailscale IP, serving a ~/de
 
 - The Python http.server module is single-threaded -- large file transfers block other connections. Acceptable for one-off delivery.
 - For production continuous access, use tailscale serve or a production-grade server.
-- Start the server only when files need to be delivered; stop it after. The user requested minimal surface area ("shutdown all online services except the gbrain and gateway").
+- Start the server only when files need to be delivered; stop it after. The user requested minimal surface area ("shutdown all online services except the gateway").
 - The deliver script assumes ~/.hermes/bin is in PATH.

@@ -16,7 +16,7 @@ Source: Hermes session reviewing Shann Holmberg's 9-step agent design framework 
 |------|------|--------|
 | work-backup | shell script, weekly | Left as-is |
 | nightly-self-audit | shell script, daily | Left as-is |
-| gbrain-dream-cycle | shell script, nightly | Left as-is |
+| *(removed — no longer exists)* | | |
 | Daily flashcard briefing | python script, paused | Left as-is |
 | Saturday flashcard kickoff | python script, one-shot | Left as-is |
 
@@ -45,18 +45,13 @@ Source: Hermes session reviewing Shann Holmberg's 9-step agent design framework 
 **Scoped to:** `terminal`, `file`, `search`
 **Note:** Already had least-privilege scope before this audit. Exemplar.
 
-#### gbrain-dabt-maintenance
-
-**What it does:** Runs G-Brain health checks (via MCP/terminal), logs results
-**Scoped to:** `terminal`, `file`
-**Cut:** Everything else (14+ toolsets removed)
-**Rationale:** This is purely a maintenance script runner. It starts G-Brain, checks health, logs to file. Needs nothing else.
+#### *(removed — no longer exists)*
 
 #### DABT Miss Journal Weekly Synthesis
 
-**What it does:** Queries G-Brain for new miss journal entries, aggregates gaps, may cross-reference against external sources
+**What it does:** Aggregates gaps from existing data, may cross-reference against external sources
 **Scoped to:** `terminal`, `file`, `memory`, `search`, `web`
-**Rationale:** G-Brain access via terminal, file for reading/writing synthesis output, memory/search for past patterns, web for optional external fact-checking. Browser and sub-agents would distract from the synthesis goal.
+**Rationale:** Terminal for data access, file for reading/writing synthesis output, memory/search for past patterns, web for optional external fact-checking. Browser and sub-agents would distract from the synthesis goal.
 
 ## Key Insights
 

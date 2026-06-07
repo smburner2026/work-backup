@@ -1,6 +1,6 @@
 ---
 name: terminal-workbench
-description: "Set up a beginner-friendly terminal workbench on a Linux VPS — file browser (yazi) + agent TUI (herm/Hermes) side by side in tmux. Designed for non-CS users who need a visual file tree alongside their agent chat."
+description: "Set up a beginner-friendly terminal workbench on a Linux VPS — Hermes agent TUI in tmux. Designed for non-CS users who need a visual file tree alongside their agent chat."
 version: 1.1.0
 author: Hermes Agent
 platforms: [linux]
@@ -13,7 +13,7 @@ metadata:
 
 # Terminal Workbench
 
-A one-command workbench that opens a tmux split-screen session with your agent TUI on one side and a terminal file browser (yazi) on the other.
+A one-command workbench that opens a tmux session with your Hermes agent TUI.
 
 ## When to use
 
@@ -126,8 +126,7 @@ This is the single entry point. It auto-creates or resumes the session.
 cat > /usr/local/bin/workbench << 'SCRIPT'
 #!/bin/bash
 SESSION="workbench"
-HERM_PATH="/root/.hermes/node/bin/herm"
-BUN_PATH="/root/.bun/bin/bun"
+HERMES_PATH="$(which hermes)"
 WORK_DIR="/root/work"
 
 tmux has-session -t "$SESSION" 2>/dev/null && {
@@ -135,20 +134,16 @@ tmux has-session -t "$SESSION" 2>/dev/null && {
 }
 
 tmux new-session -d -s "$SESSION" -c "$WORK_DIR"
-tmux send-keys -t "$SESSION" "PATH=\"$HOME/.bun/bin:\$PATH\" $HERM_PATH" Enter
+tmux send-keys -t "$SESSION" "$HERMES_PATH --tui" Enter
 
-# Yazi file browser was removed — preview crashes on large/binary files
-# left terminal corrupted on reconnect. See Pitfalls section.
 exec tmux attach-session -t "$SESSION"
 SCRIPT
 chmod +x /usr/local/bin/workbench
 ```
 
-> **Important:** Make sure the agent CLI (`herm` or `hermes --tui`) and `bun` (if needed by herm) are on PATH for non-interactive shells. Add to `~/.bashrc`:
+> **Important:** Make sure `hermes` is on PATH for non-interactive shells. Add to `~/.bashrc`:
 > ```bash
-> export BUN_INSTALL="$HOME/.bun"
-> export PATH="$BUN_INSTALL/bin:$PATH"
-> export PATH="$PATH:/root/.hermes/node/bin"
+> export PATH="$PATH:/usr/local/lib/hermes-agent/venv/bin"
 > ```
 
 ### 4. Verify
@@ -163,8 +158,8 @@ yazi --version
 # Script creates session without errors
 timeout 3 /usr/local/bin/workbench 2>/dev/null; tmux kill-session -t workbench 2>/dev/null
 
-# herm accessible
-PATH="$HOME/.bun/bin:$PATH" /root/.hermes/node/bin/herm --version
+# hermes accessible
+hermes --version
 ```
 
 ---
@@ -214,7 +209,7 @@ This only fires on interactive shells (the `$PS1` guard at the top of `.bashrc` 
 
 ## Variants
 
-- **No herm installed?** Replace with `hermes --tui` in the script.
+- **No hermes installed?** Run the Hermes install script first: `curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash`
 - **Prefer ranger over yazi?** Swap the command (ranger is older, slower, more dependencies).
 - **Auto-launch on login?** See "Auto-launch: zero commands" in the Usage section above.
 - **Boot-persistent (systemd)?** Instead of the workbench script, wrap the session in a systemd service so it starts on VPS boot automatically, without anyone SSHing in. See `devops/remote-agent-infrastructure` → section 3 (tmux) for the full service file pattern (`Type=oneshot + RemainAfterExit=yes`). For a 2-window setup (Window 1: Hermes, Window 2: shell/yazi), add an extra `ExecStart=/usr/bin/tmux new-window -t workbench -n files` after the Hermes window creation.
@@ -225,7 +220,7 @@ This only fires on interactive shells (the `$PS1` guard at the top of `.bashrc` 
 
 ## Pitfalls
 
-- **bun on PATH for non-interactive shells** — herm's launcher is a Node.js shim that execs `bun`. If bun isn't on PATH when tmux starts the pane, herm fails silently. Always set PATH explicitly in the script or .bashrc.
+- **hermes on PATH for non-interactive shells** — the workbench script starts hermes in a tmux pane. If hermes isn't on PATH when tmux starts the pane, it fails silently. Always set PATH explicitly in the script or .bashrc.
 - **yazi deps** — the .deb pulls in heavy optional deps (imagemagick, 7zip, etc.). For a minimal server without image previews, consider installing yazi via a static binary instead.
 - **mouse not working in SSH** — the SSH client must support mouse forwarding. Windows Terminal, iTerm2, and Kitty all do natively. PuTTY needs `Shift+click` to select text.
 - **Alt+arrows captured by local terminal** — Windows Terminal may eat Alt+arrows for tab navigation. If so, user falls back to mouse clicks.
