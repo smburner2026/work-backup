@@ -4,6 +4,7 @@ Use when the user asks for an artifact sweep across multiple vaults or "find eve
 
 ## Sources to Scan
 - Sibling Obsidian vaults: `/root/obsidian-vault-mike`, `/root/obsidian-vault-historian`, `/root/obsidian-vault`
+- Active project directories: `/root/work/dabt/`, `/root/work/post-colonial-vietnam/`
 - Artifact directories: `/root/.hermes/cron/output/`, `/root/.hermes/lcm-large-outputs/`, `/root/.hermes/backups/`
 - Staging directories: `/tmp/` (esp. `/tmp/ich-import/`, outputs from imports)
 - Cache artifacts: `/root/.hermes/cache/substack/` when substantive content is cached

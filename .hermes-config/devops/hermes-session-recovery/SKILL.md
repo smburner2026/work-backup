@@ -141,10 +141,60 @@ The WSL registry (`/root/.hermes/sessions/sessions-wsl.json`, 851 lines) is a me
 Use this ordering when users say session history is missing; it is not just file presence but whether search indexes those IDs.
 - Old sessions may contain copy-paste degradation from prior compaction.
 - Session hygiene settings may delete older entries again unless adjusted.
+ 
+## LCM Timestamp Limitation (2026-06-08)
 
+Archive `.json.gz` session files only store `session_start` at the session level — NOT per-message timestamps. The import script assigns `session_start` to ALL messages in a session. This means:
+- `session_search` by date range is **imprecise** for recovered sessions (all messages in a session share the same timestamp)
+- FTS5 topic/content search works correctly
+- For details, see `references/lcm-timestamp-limitation.md`
+
+## Cross-Store Verification (2026-06-08)
+
+After any recovery operation, verify both LCM and Mnemosyne show continuous, overlapping coverage to ensure no gaps in the historical record. This prevents situations where sessions are imported but memories are missing (or vice versa), which creates the illusion of recovery while losing verifiable knowledge.
+
+**Verification procedure:**
+```bash
+# 1. Check LCM session coverage (should be continuous after import)
+sqlite3 ~/.hermes/lcm.db "SELECT 
+    SUBSTR(session_id,1,8) as day, 
+    COUNT(DISTINCT session_id) as sessions 
+    FROM messages 
+    WHERE session_id GLOB '2026*' 
+    GROUP BY day 
+    ORDER BY day;"
+
+# 2. Check Mnemosyne memory coverage (should show continuous daily accumulation)
+sqlite3 ~/.hermes/mnemosyne/data/mnemosyne.db "SELECT 
+    DATE(timestamp) as day, 
+    COUNT(*) as memories 
+    FROM working_memory 
+    WHERE timestamp >= '2026-05-18' 
+    GROUP BY day 
+    ORDER BY day;"
+
+# 3. Verify overlap exists (both stores should have data for same dates)
+# Expected: LCM may have earlier sessions (pre-Mnemosyne install), 
+# but post-install dates should show overlap in both stores
+
+# 4. Spot-check known recovered content
+session_search(query=\"Obsidian vault\", limit=3)
+mnemosyne_recall(query=\"Obsidian vault\", limit=3)
+```
+
+**Expected results:**
+- LCM: Sessions from May 16 onward (includes pre-Mnemosyne WSL sessions)
+- Mnemosyne: Memories from May 18 onward (install date) 
+- Overlap: May 18 onward should appear in both stores
+- Gaps: May 16-17 may appear in LCM only (expected - pre-Mnemosyne)
+- Continuity: No major gaps in daily counts within each store
+
+**Key insight:** True recovery requires both stores to be healthy. Recovering only LCM sessions makes history "findable" but not "usable" for Mnemosyne-powered features like contextual recall and semantic search.
+ 
 ## User Preference
 
 - "Recovered sessions should be immediately searchable" — any recovery action must include validation via `session_search`, not just file restoration.
 - Disk hygiene: prefer bundled archive format, remove loose file collections after archiving.
 - Direct action: "just run them" — no analysis menus, no confirmation loops.
 - Frustration signals: empty responses, cut-offs, re-proposing completed work.
+- **Cross-store verification**: After any recovery, verify both LCM and Mnemosyne show continuous, overlapping coverage to ensure no gaps in historical record.

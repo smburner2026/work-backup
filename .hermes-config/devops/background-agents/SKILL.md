@@ -88,6 +88,7 @@ See `references/cron-tool-scoping-examples.md` for concrete audit records from p
 - **`cronjob` inside a cron job** — do not grant cron management tools to a recurring job. Recursive scheduling is a real footgun.
 - **`delegation` and `browser` are resource-heavy** — a cron job spawning sub-agents or opening browsers quickly exhausts its budget. Only grant if the job explicitly needs parallel processing or live page interaction.
 - **Test after scoping** — run `cronjob(action='run', job_id='...')` to verify the narrowed toolset works. A fail-fast error is better than silent drift.
+- **Profile mismatch and duplicate jobs** — Always verify the `profile` parameter matches the intended Hermes profile (default, euphy, mike, etc.). Periodically list cron jobs and consolidate any that perform similar functions (same script/schedule) to avoid redundant work and quota waste.
 
 ## Workflow
 

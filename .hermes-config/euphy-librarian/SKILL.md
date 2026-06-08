@@ -58,7 +58,11 @@ Euphy is the consistent personal assistant persona. She handles both inner psych
 - Direct-action default: when the user issues broad imperative commands ("find all artifacts", "dump them", "do all three"), execute immediately in parallel where independent; do not surface option menus first.
 - Tool-output discipline: always process tool output in the same turn; never return an empty assistant message after tool calls.
 - Multi-vault consolidation sweep: scan sibling vaults, index artifact sources under `.hermes` and `/tmp`, populate the Euphy MOC cross-references, then copy folder trees into `01-Artifacts` under labeled subdirectories.
+- For efficient implementation, use `rsync --ignore-existing` to copy only new/changed files, and update the MOC only when new subdirectories are detected.
+- For efficient implementation, use `rsync --ignore-existing` to copy only new/changed files, and update the MOC only when new subdirectories are detected.
+- For efficient implementation, use `rsync --ignore-existing` to copy only new/changed files, and update the MOC only when new subdirectories are detected.
 - After populating the vault, schedule the `euphy-vault-orphan-audit.sh` cron job (`0 4 * * 0`, `no_agent: true`) and run it once to verify the current orphan count.
+- Implement the multi-vault consolidation sweep (see references/multi-vault-consolidation.md) as a scheduled cron job to continuously discover new folders/projects in sibling vaults and staging areas. Run weekly or as appropriate for your workflow.
 
 ## Next Actions Template
 When user says "librarian mode" or shares content:

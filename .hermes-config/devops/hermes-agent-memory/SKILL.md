@@ -44,15 +44,26 @@ Before suggesting installs, `hermes skills list` first. Don't recommend what's a
 - **DABT**: Exam Oct 15 2026. Source tags: casarett-doull, hayes, regulation, abt-handbook, dabt.
 
 ### Backup Reality (2026-06-08)
-- `work-backup` cron (`c4fe96ac01a9`) now runs `~/.hermes/scripts/combined-backup.sh` on Sundays at 06:00 UTC.
-- `combined-backup.sh` runs three steps in order:
-  1. `work-backup.sh` → commit+pushed `/root/work` git repo
-  2. `backup-archive-sessions.sh` → gzip `.jsonl` sessions older than 7 days into `~/.hermes/backups/archive/old-sessions/` plus prune old config backups
-  3. `backup-mnemosyne.sh` → timestamped copy of live Mnemosyne DB to `~/.hermes/backups/`
+- `work-backup` cron (`c4fe96ac01a9`) runs `~/.hermes/scripts/combined-backup.sh` on Sundays at 06:00 UTC.
+- `combined-backup.sh` runs five steps in order:
+  1. `work-backup.sh` → commit+push `/root/work` git repo (config, skills, memories)
+  2. `backup-archive-sessions.sh` → gzip `.jsonl` sessions older than 7 days, prune old config backups
+  3. `backup-mnemosyne.sh` → daily snapshot of Mnemosyne DB to `~/.hermes/backups/mnemosyne/`, keep 7 daily, promote to `/root/work/.hermes-config/mnemosyne/` on Sundays
+  4. `backup-lcm.sh` → weekly snapshot of LCM DB to `~/.hermes/backups/lcm/`, keep 4 weekly, promote on Sundays
+  5. `backup-other-dbs.sh` → weekly snapshot of kanban.db, response_store.db, state.db to `~/.hermes/backups/dbs/`, keep 2 weekly
 - Mnemosyne live DB: `~/.hermes/mnemosyne/data/mnemosyne.db`
-- Old/legacy Mnemosyne snapshot: `~/.hermes/backups/mnemosyne-pre-context-rules-1780670129.db` — different schema in `working_memory` (`profile_id` removed), do NOT merge into live DB.
-- `/root/work` span: 2026-05-18 → 2026-06-07. Contains `.hermes-config`, `dabt/`, `post-colonial-vietnam/`, `trading/`, `obsidian-vault/`, and more.
-- Archived Hermes session restore path: `~/.hermes/backups/archive/old-sessions/session_*.json.gz` → `~/.hermes/sessions/*.jsonl` (skip if exists). Oldest archived session: 2026-04-23 coverage start date.
+- LCM live DB: `~/.hermes/lcm.db` (68K messages, 472 sessions, May 16–present)
+- Old/legacy Mnemosyne snapshot: `~/.hermes/backups/mnemosyne-pre-context-rules-[PHONE].db` — different schema, do NOT merge.
+- `/root/work` git span: 2026-05-18 → present. Contains `.hermes-config`, `dabt/`, `post-colonial-vietnam/`, `trading/`, `obsidian-vault/`, etc.
+- Cloud backup: **NOT configured yet** — B2/GDrive discussed but not set up. All backups are local+git only.
+
+### Mnemosyne (updated 2026-06-08)
+- **Installed: May 18, 2026** (original install), DB recreated June 7 during schema migration
+- **Full coverage: May 18 → present** (~5,361 working memories, ~2,196 facts)
+- Pre-June-7 data was recovered from corrupt backup DBs (`mnemosyne.db.corrupt`) via SQL dump → clean rebuild → Python merge
+- Recovery procedure: `sqlite3 corrupt.db ".dump" | sqlite3 clean.db` then Python `sqlite3` module to merge (sqlite3 ATTACH fails on WAL-corrupt DBs)
+- See `references/db-recovery.md` for full procedure
+- Live DB: `~/.hermes/mnemosyne/data/mnemosyne.db`
 
 ## Communication Constraints
 

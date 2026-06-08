@@ -1,14 +1,8 @@
-[BILL] Avoid billable Nous(browser/img-gen/TTS/Firecrawl/GroktoCrawl); use OpenRouter.
-[DABT] `mike` profile for all DABT work. Workflow audits/reviews→kanban cards w/ concrete system examples.
-[QUALITY] Stability over new features when degraded. (2026-06-07 abandonment risk noted)
-[EXEC] Execute immediately on request—no analysis/pre-flight menus. Return outcomes.
-[ARTIFACT] Session JSON>cutoff→gzip ~/backups/archive/old-sessions/; keep sessions.json/db protected. Config backups→latest 1 only. Weekly cron cleanup preferred.
-[DIRS] Extreme clean-dir preference: no temp files, orphan dirs, merged folders. Delete .hms-bak aggressively.
-[ISOLATION] Strict 5-profile isolation. Default=orchestrator. Controlled 1-way skill push to jacob/mike/euphy only. orchestrator-profile-skill-pusher skill governs this.
-[STYLE] Direct, non-repetitive output. No repetitive sign-offs. No incomplete/cut-off responses.
-[SOURCE] Text analysis→primary source first, direct quotes. No framework-only without grounding.
-[MEMORY] Session history is recoverable memory—high-value, do not delete casually. Backup repo `/root/work`. Archived sessions→~/.hermes/backups/archive/old-sessions/ as .jsonl.
+[RECOVERY] Corrupt DB data IS recoverable: dump to SQL→rebuild clean DB→Python merge. sqlite3 ATTACH fails on WAL-corrupt DBs; use Python sqlite3 instead. Check `.corrupt` files before assuming data loss.
+[MNEMOSYNE] Installed May 18 2026 (not June 7). Pre-June-7 data recovered from corrupt backups (3,898 working memories + 1,771 facts merged). Full coverage: May 18→present (~5,361 working memories).
+[BACKUP] combined-backup.sh Sundays 06:00 UTC: git push → session archive → Mnemosyne (7 daily) → LCM (4 weekly) → other DBs (2 weekly). Cloud (B2) NOT set up yet.
+[LCM] 472 sessions, 68K messages, May 18→June 8. Timestamps = session_start (archive lacks per-message). FTS5 text search OK.
 §
-Session recovery via backup archive is actual but incomplete. Recovery of old sessions does NOT auto-merge into live session_search DB. WSL history in /root/.hermes/sessions/sessions-wsl.json (851 lines, May 21+). Live session_search only returns post-hygiene cluster (May 30+). Aggressive compression/hygiene settings: threshold 0.75, target_ratio 0.2, hygiene_hard_message_limit 600, protect_first_n=3, protect_last_n=20. Output truncation issue observed in delivered messages. Disk pressure: root 55% used (20G/38G), sessions dir 303M. Active session count ~32k messages.
+[2026-06-08] Skill updates: disk-full-mnemosyne-recovery patched with Python cross-schema merge technique + .corrupt file recovery path. hermes-session-recovery patched with cross-store verification checklist + reference file. Key learning: sqlite3 ATTACH fails silently across different schema versions; Python executemany with explicit column lists is the reliable merge strategy.
 §
-Skill library disciplined update required during tool review pass. Execute skill_manage updates only within memory/skill tools scope.
+User needs guidance to create Backblaze B2 account and bucket for Hermes backup. Provide step-by-step instructions.

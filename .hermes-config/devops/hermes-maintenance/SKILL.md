@@ -9,6 +9,8 @@ author: Hermes Agent
 
 Governance patterns for managing a Hermes Agent instance over time — tracking what's been added beyond base Hermes, checking for updates, auditing the full installation, and protecting durable state through archival + backup.
 
+See `references/autonomous-system-admin.md` for patterns enabling autonomous documentation scanning and system administration actions.
+
 ## Philosophy
 
 Base Hermes is updated via `hermes update`. But community additions (plugins, pip packages, custom scripts, cloned repos, hub skills) have no unified update path. Left untracked, they drift stale silently. These patterns solve that.
@@ -19,9 +21,11 @@ Durable data faces the same drift problem. Mnemosyne, sessions, and config need 
 
 Treat backup like a dependency: it should be scheduled, repeatable, and verify restore often enough that you do not learn it is broken at recovery time.
 
-### Recommended cron
+### Backup Chain (updated 2026-06-08)
 
-A single combined Sunday backup covers both work artifacts and Hermes session history:
+`combined-backup.sh` runs Sundays 06:00 UTC: git push → session archive (7-day cutoff) → Mnemosyne daily (keep 7) → LCM weekly (keep 4) → other DBs weekly (keep 2). Promotes canonical copies to `/root/work/.hermes-config/` on Sundays. Cloud backup (B2) NOT set up — all local+git only.
+
+**Recovery:** Corrupt DBs → `.dump` → clean rebuild → Python merge (sqlite3 ATTACH fails on WAL-corrupt files). Pre-June-7 Mnemosyne data (3,898 memories) recovered from `mnemosyne.db.corrupt` on 2026-06-08.
 
 - Script: `~/.hermes/scripts/combined-backup.sh`
 - Schedule: Sundays at `06:00 UTC`

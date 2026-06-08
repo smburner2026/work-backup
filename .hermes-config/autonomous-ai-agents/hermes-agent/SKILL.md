@@ -17,6 +17,8 @@ metadata:
 ## User Interaction Style (Critical)
 - Just-run triggers: "just run them", "dispatch all of them", "do all three", "execute immediately". Switch to execution mode. Do not add analysis, kanban cards, or extra menus.
 - Re-reading loop: never re-propose actions already completed in the conversation. If in doubt, search past tool output first.
+- Depth requests: When user asks for an in-depth version or summary, provide a detailed textual answer without referencing external videos; synthesize from available sources.
+- Setup checks: Before creating profiles, artifacts setups, or kanban boards, list existing ones to avoid duplication.
 
 ## Free-Tier Billing Hygiene
 See `references/delegation-drift-fix.md` for the recurring failure modes: subagent 404s caused by empty `delegation.provider/model`, auxiliary credit drain when auto resolves to the paid provider, and how to normalize all profiles to the same free-tier stack.

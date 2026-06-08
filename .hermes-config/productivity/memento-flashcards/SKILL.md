@@ -226,11 +226,60 @@ for card in due_cards:
             schedule[day] -= 1
             break
 
-cards_file.write_text(json.dumps(data, indent=2, ensure_ascii=False) + '\n')
+cards_file.write_text(json.dumps(data, indent=2, ensure_ascii=False) + '\\n')
 ```
 
 ### Pitfall: Staggering mid-session
 If the user interrupts a review session to request staggering, the cards already rated in that session have future `next_review_at` dates. Only the remaining unrated due cards get spread. Run the stagger script AFTER the interruption, not before — otherwise you'd reschedule cards the user just answered.
+
+
+## Resetting and spreading due dates (e.g., 10-20 per day)
+
+When you want to clear the current due backlog and spread reviews evenly over the coming days (e.g., 10‑20 cards per day), use the following procedure. This is useful after a large batch of new cards or when the review schedule has become uneven.
+
+```python
+import json
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
+
+cards_file = Path.home() / '.hermes/skills/productivity/memento-flashcards/data/cards.json'
+data = json.loads(cards_file.read_text())
+now = datetime.now(timezone.utc)
+
+# Desired cards per day (adjust as needed)
+CARDS_PER_DAY = 15  # change to 10‑20 as preferred
+
+# Reset all learning cards to have no review date (they will be scheduled from today)
+for card in data['cards']:
+    if card['status'] == 'learning':
+        # Remove any existing next_review_at; we will set fresh schedule below
+        pass
+
+# Build list of learning cards
+learning_cards = [c for c in data['cards'] if c['status'] == 'learning']
+
+# Distribute starting tomorrow (you can change start date)
+start_date = datetime(now.year, now.month, now.day, 0, 0, 0, tzinfo=timezone.utc) + timedelta(days=1)
+for idx, card in enumerate(learning_cards):
+    day_offset = idx // CARDS_PER_DAY
+    due_date = start_date + timedelta(days=day_offset)
+    # Set to noon UTC for consistency
+    card['next_review_at'] = datetime.combine(due_date.date(), datetime.min.time().replace(hour=12), tzinfo=timezone.utc).isoformat()
+
+# Save
+cards_file.write_text(json.dumps(data, indent=2, ensure_ascii=False) + '\\n')
+print(f\"Rescheduled {len(learning_cards)} cards to ~{CARDS_PER_DAY} per day starting {start_date.date()}.\")
+```
+
+After running this script, verify the new distribution with:
+
+```bash
+$MEMENTO stats
+```
+
+You should see a manageable due count (roughly CARDS_PER_DAY) for the next days.
+
+**Note:** This operation discards the current spaced‑repetition intervals and starts a fresh schedule. Use it only when you want to reset the clock (e.g., after a large import or when the review backlog has grown unevenly). For routine adjustments, prefer the daily‑cap stagger script described earlier.
 
 ## Mid-Session Resumption
 

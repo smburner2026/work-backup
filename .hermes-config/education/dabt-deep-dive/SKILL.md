@@ -67,6 +67,8 @@ Load when: "deep dive" | "explain" | "I don't understand" | "teach me" | "dive i
 
 ## Key Protocols (see references/ for full detail)
 
+- Recent session example: `references/bmd-deep-dive-session.md` (Benchmark Dose deep‑dive notes)
+
 - **Think-out-loud:** Before revealing answer, say "Think out loud." Let learner exhaust reasoning before correcting. Probe edges, don't immediately correct.
 - **Answer-change probe:** When learner changes answer, probe why. The change reveals where their mental model flexed.
 - **Distractor breakdown:** Every MCQ → full distractor analysis: why each option is wrong, what reasoning error it targets, which exam trap it maps to.
