@@ -1,21 +1,14 @@
-Avoid billable Nous services (browser, image gen, TTS, Firecrawl, GroktoCrawl); use free OpenRouter when possible.
+[BILL] Avoid billable Nous(browser/img-gen/TTS/Firecrawl/GroktoCrawl); use OpenRouter.
+[DABT] `mike` profile for all DABT work. Workflow audits/reviews→kanban cards w/ concrete system examples.
+[QUALITY] Stability over new features when degraded. (2026-06-07 abandonment risk noted)
+[EXEC] Execute immediately on request—no analysis/pre-flight menus. Return outcomes.
+[ARTIFACT] Session JSON>cutoff→gzip ~/backups/archive/old-sessions/; keep sessions.json/db protected. Config backups→latest 1 only. Weekly cron cleanup preferred.
+[DIRS] Extreme clean-dir preference: no temp files, orphan dirs, merged folders. Delete .hms-bak aggressively.
+[ISOLATION] Strict 5-profile isolation. Default=orchestrator. Controlled 1-way skill push to jacob/mike/euphy only. orchestrator-profile-skill-pusher skill governs this.
+[STYLE] Direct, non-repetitive output. No repetitive sign-offs. No incomplete/cut-off responses.
+[SOURCE] Text analysis→primary source first, direct quotes. No framework-only without grounding.
+[MEMORY] Session history is recoverable memory—high-value, do not delete casually. Backup repo `/root/work`. Archived sessions→~/.hermes/backups/archive/old-sessions/ as .jsonl.
 §
-`mike` profile is the designated home for all DABT work. User prefers workflow audits and reviews to be delivered as kanban cards with concrete system examples.
+Session recovery via backup archive is actual but incomplete. Recovery of old sessions does NOT auto-merge into live session_search DB. WSL history in /root/.hermes/sessions/sessions-wsl.json (851 lines, May 21+). Live session_search only returns post-hygiene cluster (May 30+). Aggressive compression/hygiene settings: threshold 0.75, target_ratio 0.2, hygiene_hard_message_limit 600, protect_first_n=3, protect_last_n=20. Output truncation issue observed in delivered messages. Disk pressure: root 55% used (20G/38G), sessions dir 303M. Active session count ~32k messages.
 §
-User may abandon Hermes if quality issues continue (stated 2026-06-07). Prefers stability over new features when degraded.
-§
-When user requests execution without analysis, execute immediately without menus. Expected behavior: run commands, return outcomes. Avoid pre-flight explanations before execution.
-§
-Artifact governance for Hermes: session JSON older than cutoff should be gzip-compressed into ~/backups/archive/old-sessions/ with protected files (sessions.json, sessions.db) excluded. Config backups should be pruned to the latest 1. Weekly cron-driven cleanup is preferred over ad hoc analysis-only responses.
-§
-User prefers extremely clean directories - no temp files, orphan dirs, merged folders. Delete .hms-bak and cleanup aggressively.
-§
-Profile ownership and isolation rules remain.
-§
-User expects default profile to act as orchestrator with controlled, audited, one-way capability to push skills into isolated profiles (jacob, mike, euphy) without unrestricted access. Created orchestrator-profile-skill-pusher skill for this purpose. Strict 5-profile isolation model must be preserved.
-§
-User dislikes repetitive sign-offs, recurring phrases, and responses that feel cut off or incomplete. Prefers direct, non-repetitive output.
-§
-When user requests analysis of a specific text, read the primary source first and use direct quotes. Do not produce abstract framework-only analysis without source grounding.
-§
-User values session history as recoverable memory — reacted to deletion as "months worth of memories gone." Comprehensive Hermes backup repo exists at `/root/work` with config, skills, DABT, Vietnam research, trading, and notes spanning at least 2026-05-18→2026-06-07. Archived Hermes session files are stored in `~/.hermes/backups/archive/old-sessions/` and can be restored as `.jsonl` files into the active session store.
+Skill library disciplined update required during tool review pass. Execute skill_manage updates only within memory/skill tools scope.
