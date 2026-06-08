@@ -7,11 +7,37 @@ author: Hermes Agent
 
 # Hermes Instance Maintenance
 
-Governance patterns for managing a Hermes Agent instance over time — tracking what's been added beyond base Hermes, checking for updates, and auditing the full installation.
+Governance patterns for managing a Hermes Agent instance over time — tracking what's been added beyond base Hermes, checking for updates, auditing the full installation, and protecting durable state through archival + backup.
 
 ## Philosophy
 
 Base Hermes is updated via `hermes update`. But community additions (plugins, pip packages, custom scripts, cloned repos, hub skills) have no unified update path. Left untracked, they drift stale silently. These patterns solve that.
+
+Durable data faces the same drift problem. Mnemosyne, sessions, and config need scheduled protection or recovery becomes expensive and loss-prone.
+
+## Weekly Backup Ritual
+
+Treat backup like a dependency: it should be scheduled, repeatable, and verify restore often enough that you do not learn it is broken at recovery time.
+
+### Recommended cron
+
+A single combined Sunday backup covers both work artifacts and Hermes session history:
+
+- Script: `~/.hermes/scripts/combined-backup.sh`
+- Schedule: Sundays at `06:00 UTC`
+- Workdir: `/root/work` for the git-backed portion
+
+### What the wrapper must do
+
+1. Run the existing workspace backup. This pushes `/root/work` to git after rsync-syncing selected Hermes config, skills, and memory files.
+2. Run session archival. Delegate session pruning to one of:
+   - a wrapper script that gzip-compresses session `.jsonl` files older than a cutoff and moves them into the existing archive directory, and
+   - cleanup of old config backups so only the latest `config.yaml.bak` remains.
+3. Exit successfully on no-op; report only when the wrapper archived or removed something.
+
+### Mnemosyne exclusion warning
+
+The standard session archiver does **not** cover `mnemosyne.db`. That is intentional unless the user has explicitly added it. Mnemosyne backups should stay separate and explicit because they are stateful/metadata-rich, and automated generic rotation can destroy useful memory context.
 
 ## Community Additions Manifest
 

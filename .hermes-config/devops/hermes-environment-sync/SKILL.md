@@ -17,7 +17,8 @@ When running Hermes on multiple machines (e.g., local WSL for heavy coding, VPS 
 - Troubleshooting out-of-sync skills, sessions, or memories
 - Setting up cron-based auto-sync
 
-## CRITICAL RULE — Always use HMS, never raw rsync
+- **WSL Mnemosyne safety**: WSL Mnemosyne often has a larger, more complete DB than the VPS live copy. HMS must snapshot both sides and prefer the larger row-count DB when choosing a restore source. Do not let a VPS sync silently overwrite a richer WSL Mnemosyne state.
+- **CRITICAL RULE — Always use HMS, never raw rsync**
 
 When the user wants to sync Hermes state between machines, **the answer is `hms pull` or `hms push`** — never propose raw rsync commands. The `hms` script handles:
 - Safe SQLite snapshotting via VACUUM INTO (no corrupted DB)

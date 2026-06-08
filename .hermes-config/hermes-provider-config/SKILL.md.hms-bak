@@ -79,18 +79,13 @@ Note: Each `--manual-paste` invocation generates a NEW PKCE challenge. The autho
 
 ## Delegation Config Drift (CRITICAL PITFALL)
 
-When the active model is switched mid-session (e.g. via `/model` or `hermes config set model.default X`), **`delegation.provider` and `delegation.model` do NOT auto-update.** If they remain empty strings, subagents silently fall back to the stale top-level provider — which may be a dead or quota-exhausted backend.
+When the active model is switched mid-session (e.g. via `/model` or `hermes config set model.default X`), **`delegation.provider` and `delegation.model` do NOT auto-update.** If they remain empty strings, subagents silently fall back to the stale top-level provider.
 
-**Symptoms:**
-- All `delegate_task` calls return `HTTP 404 — Not Found` or `HTTP 429` from the old provider
-- Sessions logs show: `provider=opencode-go base_url=https://opencode.ai/zen/go/v1 model=<old-model>` even though the parent session is running fine on a different provider
-- The parent session itself works — only subagents fail
-
-**Fix — two commands:**
+**Fix — two commands (run for the active profile):**
 ```bash
-hermes config set delegation.provider nous
-hermes config set delegation.model deepseek/deepseek-v4-flash:free
-# Use the actual working provider + model from your session, not these literals
+hermes --profile <profile-name> config set delegation.provider xai
+hermes --profile <profile-name> config set delegation.model x-ai/grok-4.3
+# Use the actual working provider + model from your session
 ```
 
 **Verification:**
@@ -99,8 +94,36 @@ grep -A 10 '^delegation:' ~/.hermes/config.yaml
 # Should show non-empty provider and model values
 ```
 
-**Prevention:** After any model/provider switch, always verify `delegation.provider` and `delegation.model` are set. Empty strings cause silent fallback to the stale top-level config.
+**Prevention:** After any model/provider switch, always verify `delegation.provider` and `delegation.model` are set. Empty strings cause silent fallback.
+
+**Never reference deleted infrastructure** (GBrain, PGLite, old deepseek mandates). The user has explicitly removed the entire system. Any lingering references in responses, skills, or memory must be retired immediately. This is a hard user preference.
 
 ## OpenCode Go Topology
 
 See `references/opencode-go-setup.md` for the verified DeepSeek V4 setup, model-name caveats, and known provider quirks including Why dots must be preserved.
+
+## Profile-Specific Grok Model Assignment (User Preference — June 2026)
+
+See `references/grok-profile-mapping.md` for the canonical, user-approved mapping after full conversation review.
+
+**Key preferences to always follow:**
+- Assign models per profile based on persona and workload (class-level pattern).
+- Use lighter/non-reasoning variants for soft or mechanical profiles (**Euphy** especially — user explicitly stated it does not need high-spec).
+- Use high-reasoning or flagship (Grok 4.3) for intellectual depth (mike, research).
+- **Never reference deleted systems** (GBrain, PGLite, old deepseek mandates, or related memory). The user has completely removed this infrastructure. Any mention is a hard style violation. This skill must actively prevent it.
+
+**Approved mapping (user confirmed):**
+- default: `x-ai/grok-4.3`
+- euphy: `x-ai/grok-4.2-non-reasoning`
+- mike: `x-ai/grok-4.2-reasoning`
+- research: `x-ai/grok-4.3`
+- scraper: `x-ai/grok-4.2-non-reasoning`
+- worker: `x-ai/grok-4.2-multi-agent`
+
+**Update method (preferred):**
+```bash
+hermes --profile <name> config set model.provider xai
+hermes --profile <name> config set model.default x-ai/grok-4.3
+```
+
+Always verify with `hermes --profile <name> config show model` after changes. This pattern emerged from multiple iterations where the user corrected model choices and outdated references.

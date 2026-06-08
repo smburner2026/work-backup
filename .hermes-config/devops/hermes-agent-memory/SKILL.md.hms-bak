@@ -43,24 +43,16 @@ Before suggesting installs, `hermes skills list` first. Don't recommend what's a
 - **Memory system**: Mnemosyne — the built-in file-backed memory system (MEMORY.md + USER.md files in `~/.hermes/memories/`). NOT a plugin or external service. The `memory.provider: mnemosyne` config line points to this core module. Data lives in plain markdown files; the agent manages entries via the `memory` tool. Verification: check `~/.hermes/memories/MEMORY.md` exists and has content. Do NOT confuse with plugin-based providers (holographic, mem0, honcho, etc.) which appear in `discover_memory_providers()` — Mnemosyne is the default built-in, not a plugin.
 - **DABT**: Exam Oct 15 2026. Source tags: casarett-doull, hayes, regulation, abt-handbook, dabt.
 
-## Cron Jobs Reference
-
-| Job | Schedule UTC | Local (UTC+7) | Type | Purpose |
-|-----|-------------|---------------|------|---------|
-| **Euphy Nightly Journal Prompt** | 0 1 * * * | 08:00 | no_agent script | Morning journal invitation in Discord. Script: `euphy-nightly-journal-prompt.sh` |
-| **DABT Weekly Truth Audit** | 0 5 * * 0 | Sun 12:00 | agent | DB coverage check + random sample truth audit. |
-| **nightly-self-improvement** | 0 6 * * * | 13:00 | agent (script+LLM) | System check script → LLM compression + identity scan. Minimal prompt, no skill injection. |
-| **Euphy Daily Bullet Journal** | 0 12 * * * | 19:00 | no_agent script | Daily tasks (3-day horizon). Script: `euphy-bullet-journal-daily.sh` |
-| **Euphy Weekly Bullet Journal** | 0 12 * * 0 | Sun 19:00 | no_agent script | Weekly tasks (14-day horizon). Script: `euphy-bullet-journal-weekly.sh` |
-| **Euphy Monthly Bullet Journal** | 0 13 28 * * | 20:00 28th | no_agent script | Monthly tasks (90-day horizon). Script: `euphy-bullet-journal-monthly.sh` |
-| **work-backup** | 0 6 * * 0 | Sun 13:00 | no_agent script | Git commit + push /root/work. Script: `work-backup.sh` |
-
-**Paused:** disk-monitor (every 30m), daily-flashcard briefing (daily 05:00)
-**Removed:** vstb5-ocr-guardian, nightly-self-audit
-| **work-backup** | 0 6 * * 0 | Sun 13:00 | no_agent script | Weekly work directory backup. |
-| **Euphy Daily Bullet Journal** | 0 12 * * * | 19:00 | agent | Daily bullet journal generation in Discord. |
-| **Euphy Weekly Bullet Journal** | 0 12 * * 0 | Sun 19:00 | agent | Weekly overview with upcoming tasks. |
-| **Euphy Monthly Bullet Journal** | 0 13 28 * * | 20:00 on 28th | agent | Monthly update with deadlines. Schedule fixed May 27 (was 03:00 UTC+7). |
+### Backup Reality (2026-06-08)
+- `work-backup` cron (`c4fe96ac01a9`) now runs `~/.hermes/scripts/combined-backup.sh` on Sundays at 06:00 UTC.
+- `combined-backup.sh` runs three steps in order:
+  1. `work-backup.sh` → commit+pushed `/root/work` git repo
+  2. `backup-archive-sessions.sh` → gzip `.jsonl` sessions older than 7 days into `~/.hermes/backups/archive/old-sessions/` plus prune old config backups
+  3. `backup-mnemosyne.sh` → timestamped copy of live Mnemosyne DB to `~/.hermes/backups/`
+- Mnemosyne live DB: `~/.hermes/mnemosyne/data/mnemosyne.db`
+- Old/legacy Mnemosyne snapshot: `~/.hermes/backups/mnemosyne-pre-context-rules-1780670129.db` — different schema in `working_memory` (`profile_id` removed), do NOT merge into live DB.
+- `/root/work` span: 2026-05-18 → 2026-06-07. Contains `.hermes-config`, `dabt/`, `post-colonial-vietnam/`, `trading/`, `obsidian-vault/`, and more.
+- Archived Hermes session restore path: `~/.hermes/backups/archive/old-sessions/session_*.json.gz` → `~/.hermes/sessions/*.jsonl` (skip if exists). Oldest archived session: 2026-04-23 coverage start date.
 
 ## Communication Constraints
 
@@ -90,6 +82,28 @@ These rules reduce per-turn token waste on high-frequency operations:
 - `execute_code` for 3+ sequential tool calls with processing logic
 - `web_extract` for URL content, PDF extraction
 - `terminal` for builds, installs, git, processes (background=true for long-lived)
+
+## Memory Decay Under Compression
+
+Working memory degrades under aggressive compression. When compression is raised (`threshold` closer to 1, `hygiene_hard_message_limit` increased), update user memory, MEMORY.md, and mnemosyne every 3–5 turns to keep essential context stable. Without this, the agent loses anchor and starts repeating or hallucinating prior work.
+
+Symptoms:
+- Responses cut off mid-message
+- Context quality degrades without engine changes
+- Agent appears to "give up" or truncate
+
+Safe defaults from production:
+- `threshold: 0.75`
+- `hygiene_hard_message_limit: 600`
+
+Fix sequence:
+```bash
+grep -E '^compression:' ~/.hermes/profiles/*/config.yaml
+grep -E 'threshold|hygiene_hard_message_limit' ~/.hermes/profiles/*/config.yaml
+mnemosyne_stats
+mnemosyne_diagnose
+mnemosyne_sleep --all-sessions
+```
 
 ## Triggers
 

@@ -373,6 +373,8 @@ hermes kanban --board vstb stats
 hermes kanban --board vstb list
 ```
 
+**Task context rule (user correction 2026-06-07):**  
+When the user refers to "Kanban tasks scheduled to run overnight" while discussing VSTB, they mean cards on the `vstb` board (`hermes kanban --board vstb list`), **not** generic cron jobs. Always check the VSTB board first before falling back to `cronjob list`.
 ## Critical Lessons (don't repeat these)
 
 ### File Sync & Stale Copies

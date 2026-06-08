@@ -45,3 +45,11 @@ Loaded via skill_view(name='hermes-agent-memory', file_path='references/memory.m
 - **08:00** — Nightly self-audit (update checks, dream completion)
 - **05:00 Sun** — DABT weekly truth audit
 - **06:00 Sun** — Work backup
+
+## Mnemosyne Backup Reality
+
+- Live DB: `~/.hermes/mnemosyne/data/mnemosyne.db` (current schema, active)
+- Legacy snapshot: `~/.hermes/backups/mnemosyne-pre-context-rules-1780670129.db` (older schema, more rows, not mergeable)
+- Live DB `working_memory` schema differs from old snapshot; contains 28 columns including profile_id in old schema.
+- Do NOT merge old snapshot into live DB; keep separate by schema version.
+- Weekly cron now backs up live Mnemosyne DB via `backup-mnemosyne.sh`.

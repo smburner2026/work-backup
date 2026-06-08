@@ -25,7 +25,7 @@ github-issues:429ec06cde7578e4ebba451d8106f008
 github-pr-workflow:48b6aceaae5333f6d3ed2d72f595331b
 github-repo-management:c5c05bc85dfcda2b7ac2f2006be9efe0
 godmode:630115b2ea1e331a960fc49817b6affc
-google-workspace:fec4a0ad32141f47cfae59ff01e2f9cd
+google-workspace:95a0ff7299f92be6107d9051ab723e6b
 heartmula:96a5927a5f221065260ddb2e0f1d77ec
 hermes-agent:166e68c17dec7adf1f91b20f904f251d
 hermes-agent-skill-authoring:373715126bca9172a6acd28bdd424f10
@@ -56,7 +56,7 @@ popular-web-designs:b3fd685e8fbcf981755609ce98a4eea9
 powerpoint:00a6eb2ad4b7be22c1eabf6c19158836
 pretext:f17f2b6211eb81b96e1fc5d48ecc96a4
 python-debugpy:b87e0abf179c14ea51c7559dc99eb22c
-requesting-code-review:9944f54e8ba5c294b47ee93f3e8f239d
+requesting-code-review:f7e902570802e21f340955384385abda
 research-paper-writing:dbe2d301baeaab5c5b0539a733233a34
 segment-anything-model:7f1317da421fb8eada27aeacdbb21d30
 serving-llms-vllm:92d66ae1f1112924634fcdcff2f86bc7
@@ -66,7 +66,7 @@ songwriting-and-ai-music:52be403c894c7bd7d6fe70f7eeaf9460
 spike:f8b8dc6f7b65c8fc9a832cb5bea1497e
 systematic-debugging:55a23d83e936d3c7c04d4e5fa803558e
 teams-meeting-pipeline:810d4862830d1eb3daccf898f7c5ee85
-test-driven-development:31fb75eff421db47e527bce28c493df3
+test-driven-development:dbf41a28c00e9bdf25b6497287231fa0
 touchdesigner-mcp:0664ded9138795d5518def4d16037650
 weights-and-biases:8f0e1ee92fdf7b42a1dad448176d7c64
 xurl:113313cc0bfb95c795074f350bb05ef7

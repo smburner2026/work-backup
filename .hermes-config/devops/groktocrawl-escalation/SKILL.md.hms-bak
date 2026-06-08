@@ -225,10 +225,10 @@ curl -X POST http://localhost:8080/v2/answer \
 # ── CLI ────────────────────────────────────────────────────────────
 cd ~/groktocrawl && ./groktocrawl answer "your question" --num-sources 5 --json
 
-# ── Stack Management ───────────────────────────────────────────────
-groktocrawl start     # wraps: cd ~/groktocrawl && docker compose up -d
-groktocrawl stop      # wraps: cd ~/groktocrawl && docker compose down
-groktocrawl status    # wraps: docker compose ps
+Stack Management ──────────────────────────────────────────────
+cd ~/groktocrawl && ./groktocrawl start   # starts Docker stack
+cd ~/groktocrawl && ./groktocrawl stop    # stops Docker stack
+cd ~/groktocrawl && docker compose ps     # check running services (wrapper has no `status` subcommand)
 ```
 
 ## Pitfalls

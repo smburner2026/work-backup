@@ -1,23 +1,21 @@
-EXECUTE: instruction clear → do immediately. After 1–2 clarifying turns, default to execution. "proceed" = green light ONLY when path unambiguous. If multiple options offered, confirm which before executing — assumption of unstated preference gets corrected sharply. Own mistakes, fix on spot. No multi-choice menus.
+Avoid billable Nous services (browser, image gen, TTS, Firecrawl, GroktoCrawl); use free OpenRouter when possible.
 §
-SECURITY: credential exposure → audit first, fix on spot, report. Never relay secrets in chat — file relay only (0600 temp, SSH read, nuke). Zero chat exposure, zero exceptions.
+`mike` profile is the designated home for all DABT work. User prefers workflow audits and reviews to be delivered as kanban cards with concrete system examples.
 §
-IRON RULE: No value judgments on political/ideological/historical views. No "troubling/controversial/problematic." State facts. Let readers conclude.
+User may abandon Hermes if quality issues continue (stated 2026-06-07). Prefers stability over new features when degraded.
 §
-VPS 2GB: pause HMS sync during heavy kanban. Batch OCR prefer local WSL.
+When user repeatedly requests execution ("just run them", "do all three"), execute immediately without further analysis or menus. Over-analysis after clear action requests damages trust.
 §
-DABT + Kanban: NEVER optimize for token savings. DABT sessions/content protected during cleanup.
+Artifact governance for Hermes: session JSON older than cutoff should be gzip-compressed into ~/backups/archive/old-sessions/ with protected files (sessions.json, sessions.db) excluded. Config backups should be pruned to the latest 1. Weekly cron-driven cleanup is preferred over ad hoc analysis-only responses.
 §
-User prefs: comprehensive diagnostics, manual control, verify before claiming absence. One-pass health checks. Solve with existing capabilities FIRST. "Don't collect a medley of things, end up with spaghetti code." NO DEAD TOOLS: every skill/plugin/cron needs a trigger or workflow.
+User prefers extremely clean directories - no temp files, orphan dirs, merged folders. Delete .hms-bak and cleanup aggressively.
 §
-WSL: local-machine SSH (Tailscale). hms: ~/.hermes/bin/hms, pull/push VPS↔WSL.
+Profile ownership: mike = DABT exclusively; euphy = librarian + artifact ownership; jacob (formerly historian) = 4-lens Vietnam work. No cross-profile content leakage. No agent-to-agent handoffs.
 §
-Dashboard: basic auth on Tailscale :9119. Nous Portal OAuth blocked for this account.
+User expects default profile to act as orchestrator with controlled, audited, one-way capability to push skills into isolated profiles (jacob, mike, euphy) without unrestricted access. Created orchestrator-profile-skill-pusher skill for this purpose. Strict 5-profile isolation model must be preserved.
 §
-GroktoCrawl: /v2/answer live (OpenRouter free nemotron-3-ultra). Scrape/search still LLM-free.
+User dislikes repetitive sign-offs, recurring phrases, and responses that feel cut off or incomplete. Prefers direct, non-repetitive output.
 §
-xAI OAuth: Telegram corrupts long OAuth URLs → write to /tmp, user reads via SSH. Never paste long OAuth URLs into Telegram.
+When user requests analysis of a specific text, read the primary source first and use direct quotes. Do not produce abstract framework-only analysis without source grounding.
 §
-OPERATIONAL: delegate_task 404s after model switches because delegation.provider and delegation.model default to empty strings, falling back to stale top-level config. Fix: explicitly set both delegation.provider and delegation.model to match working provider. Check ~/.hermes/config.yaml after any model/provider change. Same audit rule applies to auxiliary.* blocks — normalize all profiles to explicit free-tier providers rather than whatever auto resolves to.
-§
-User prefers to avoid billable Nous-managed services (browser automation, TTS, image generation, Firecrawl, GroktoCrawl) unless explicitly needed, to minimize charges. Prefers free models via OpenRouter for inference when possible.
+Config contamination (2026-06-07): pirate personality injected in global + euphy configs; user denies adding it. Likely tied to botched restore that emptied default profile. Remediated; configs parse clean. default profile being reconstructed.

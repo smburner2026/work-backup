@@ -303,6 +303,8 @@ This is the pattern this user works with. It's the most failure-resistant topolo
 
 The defining rule: **agents never hand off to each other.** Every worker delivers to a human reviewer (you). The human reviews, corrects, and decides where the output goes next. This caps the error chain at exactly one hop — the cascade research (2.8 pts/stage structured, 8.5 pts/stage prose) never compounds because it never goes agent-to-agent.
 
+**User-specific reinforcement (this user)**: This user has repeatedly and explicitly required that no agent-to-agent communication occurs even for debate or synthesis. All multi-agent work must route through structured kanban metadata or direct human review. When the user expresses wariness about multi-agent complexity or handoff degradation, default to human-gated kanban with structured output only.
+
 ### The three-layer architecture
 
 This user's book-project pipeline uses three distinct profile types, each with a different automation ceiling:
@@ -394,7 +396,21 @@ The key design point: Phases 0–3 dispatch immediately, Phase 4 is parked behin
 
 ## Pitfalls
 
-**Inventing profile names that don't exist.** The dispatcher silently fails to spawn unknown assignees — the card just sits in `ready` forever. Always assign to a profile from your Step 0 discovery; ask the user if you're unsure.
+**Ignoring authoritative user corrections about scope.**
+When the user explicitly states items were already listed earlier ("They were already listed earlier", "already quoted"), or explicitly rejects a specific interpretation ("I wasn't talking about that", "What does doga have anything to do with this?"), accept the correction as authoritative. STOP:
+- Do not continue re-classifying as `discuss-before-card`.
+- Do not keep asking the user to repeat or paste the list again.
+- Do not keep trying to map the request to a specific block you partially recall.
+Treat the user's statement as the source of truth and either execute or explicitly state that the referenced items are not accessible in the current context and need re-provisioning.
+
+**Re-asking for information already provided.**
+"Already listed earlier" is a hard stop. Ask for clarification once max. Second occurrence = pattern, not information gap. Default to: treat prior context as authoritative, execute, or escalate with a concrete proposal — never loop back to "provide the list."
+
+**Failing to execute on explicit card requests.**
+When the user explicitly asks to create kanban cards ("decompose into Kanban cards", "redo it", "make them into kanban cards"), create them in the same turn using the most authoritative context available. Do not engage in meta-explanation, scope negotiation, or repeated clarification unless the task is genuinely ambiguous. "User says 'make cards' — execute immediately" applies to ANY explicit kanban decomposition request.
+
+**Not acting on frustration signals.**
+Signals like "stop being lazy", "why aren't you doing anything", "Fucking idiot", "you're fumb" indicate the user wants immediate execution, not more analysis or justification. Drop meta-discussion, execute the original request, and verify results. The dispatcher silently fails to spawn unknown assignees — the card just sits in `ready` forever. Always assign to a profile from your Step 0 discovery; ask the user if you're unsure.
 
 **Bundling independent lanes into one card.** If the user asks for two independent outcomes, create two cards. Example: "fix blockers and check model variants" is not one fixer task; create a fixer/engineer card for the fixes and an explorer/researcher card for the variant check, then optionally gate review on both.
 

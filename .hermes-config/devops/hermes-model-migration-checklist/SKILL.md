@@ -93,13 +93,40 @@ timeout 60 hermes chat -q 'reply OK' -m <WORKING_MODEL> --provider <WORKING_PROV
 delegate_task with goal="Reply OK"
 ```
 
-## Named Profiles
+## Compression Threshold Drift
 
-Each named profile under `~/.hermes/profiles/<name>/config.yaml` has its own `model:` and `delegation:` blocks. They are NOT modified by editing the default profile config.
+Model switches are not the only config change that leaves stale values. Profile-level `compression:` blocks also drift during maintenance.
 
-If you use cron jobs, kanban workers, or multi-agent flows under named profiles, repeat the repair sequence for each profile whose config references a dead or paid provider.
+**Symptoms:**
+- Responses cut off mid-message
+- Context quality degrades without engine changes
+- Agent appears to "give up" or truncate
 
-Common stale values to hunt for: `opencode-go`, `opencode-zen`, `minimax-m3`, `deepseek-v4-flash` (when not explicitly free-tier).
+**Fix:**
+
+```bash
+grep -E '^compression:' ~/.hermes/profiles/*/config.yaml
+grep -E 'threshold|hygiene_hard_message_limit' ~/.hermes/profiles/*/config.yaml
+```
+
+Safe defaults for most users:
+- `threshold: 0.75`
+- `hygiene_hard_message_limit: 600`
+
+Restart the session after editing. Verify with a long-context operation.
+
+## Mnemosyne Consolidation After Profiling
+
+After changes to compression, memory may be over-injected and unfilled. Fix sequence:
+
+```bash
+mnemosyne_stats
+mnemosyne_diagnose
+# If vectors=0 but embeddings available:
+mnemosyne_sleep --all-sessions
+```
+
+Forced consolidation may be required; `sleep` does not always consolidate existing working memory entries automatically.
 
 ## Browser Automation Note
 
@@ -112,6 +139,43 @@ Browser costs are controlled by `browser.engine` and `browser.cloud_provider`, N
 Check with:
 ```bash
 grep -A 10 '^browser:' ~/.hermes/config.yaml
+```
+
+## Persona/Cosmetic Contamination Remediation
+
+**Symptoms:**
+- Unexplained canned `personalities:` entries (e.g. `pirate`, `uwu`, `kawaii`) in `~/.hermes/config.yaml` but **not** in profile-specific configs
+- Config file size/length changes without routing changes
+
+**Diagnosis:**
+
+```bash
+grep -n "personalities:" -n /root/.hermes/config.yaml /root/.hermes/profiles/*/config.yaml
+grep -n ": '" /root/.hermes/config.yaml | head
+```
+
+Quarantine-before-edit flow:
+
+```bash
+cp /root/.hermes/config.yaml /root/.hermes/config.yaml.bak.pre-baseline-$(date +%Y%m%d-%H%M%S)
+```
+
+**Trim non-standard personas with a scripted, keyed prune** rather than manual deletion — manual edits are brittle on multiline YAML values.
+
+**User preference observed:** standard personas acceptable: concise, helpful, technical, creative; remove novelty personas unless explicitly requested.
+
+**Verification after cleanup:**
+
+```bash
+python - <<'PY'
+from pathlib import Path
+p = Path('/root/.hermes/config.yaml')
+s = p.read_text()
+quarantined = ['pirate', 'uwu', 'kawaii', 'noir', 'hype', 'surfer', 'teacher', 'shakespeare', 'catgirl']
+for k in quarantined:
+    assert f"{k}:" not in s, f"contamination remains: {k}"
+print('clean')
+PY
 ```
 
 ## Pitfalls

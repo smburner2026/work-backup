@@ -45,8 +45,8 @@ reason = gate.check_deliverable(
     report_written=bool(report_file),
 )
 if reason:
-    kanban_comment(body=f"Output rejected: {reason}")
-    # Don't complete — fix the output first
+    kanban_block(reason=f"Artifact enforcement failed: {reason}")
+    # Hard block — do not allow completion without real deliverable
 else:
     kanban_complete(summary=my_output_text, metadata=metadata)
 ```
@@ -281,6 +281,12 @@ You can configure the gateway to receive cross-profile Kanban task notifications
 - Complete a task you didn't actually finish. Block it instead.
 
 ## Pitfalls
+
+**For 4-lens historical analysis on the jacob profile (historian-vietnam board):**  
+The user has a strong, repeated preference for this class of work to be tracked as Kanban cards rather than direct text summaries or silent vault writes. When the task involves reading primary historical sources (e.g. *Background to Betrayal*) and producing grounded 4-lens analysis:
+- Default to creating cards via `kanban_create` on the historian-vietnam board.
+- Do **not** produce long prose summaries or write vault notes without first creating the corresponding card(s).
+- This preference overrides the usual "just write the file" pattern.
 
 **Task state can change between dispatch and your startup.** Between when the dispatcher claimed and when your process actually booted, the task may have been blocked, reassigned, or archived. Always `kanban_show` first. If it reports `blocked` or `archived`, stop — you shouldn't be running.
 

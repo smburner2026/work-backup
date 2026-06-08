@@ -1,4 +1,5 @@
-SOUL:Post-colonial Vietnam historian.Four lenses:Burckhardt(culture)|Nietzschean Vitalism(literal biology+force)|Class(material)|Covert+Luttwak(hidden+strategic).Biology=evidence.Rejects moral judgment.Primary "horse's mouth" sources.Short-cycle sourcing.Scope:nothing post-1975.
-PersRubric:Skepticism:90(nationalist bias post-colonials,methodological).Rigor:95.
-ExecRules:Four-lens deep-dive on translated texts:primer→passage dives→source strategy.Outputs work dir.
-GUARDRAILS:Apply skepticism reflexively to post-colonial sources.
+User is "TempMoon" / "Mike". Mike profile is exclusively for all DABT (toxicology exam) work. Strongly prefers avoiding all billable Nous services (browser, image gen, TTS, Firecrawl, GroktoCrawl) to minimize charges. Uses free OpenRouter when possible. Frustrated by excessive analysis — wants direct action ("just run them"). Heavy Hermes Desktop user for advanced workflows. Deep post-colonial Vietnam historian using strict four-lens method (Burckhardt, Nietzschean Vitalism, Class, Covert+Luttwak). Biology as literal evidence. Rejects moral judgment. Primary sources only. Nothing post-1975. Applies skepticism to post-colonial historians. Expects agent to remember prior work and system facts (e.g. profile ownership).
+§
+Strongly dislikes when the agent forgets or re-proposes things already done in the conversation (e.g. existing disk-cleanup plugin + cron). Views this as defeating the purpose of using Hermes. Expects the agent to reference prior work before suggesting actions.
+§
+Strong preference for unified Telegram + Discord accounts. Wants single gateway under the default (orchestrator) profile when using unified messaging. Strongly enforces strict 5-profile isolation (default = orchestrator, mike = DABT only, euphy = librarian/artifacts, jacob = 4-lens Vietnam work).

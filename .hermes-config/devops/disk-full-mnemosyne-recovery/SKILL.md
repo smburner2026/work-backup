@@ -11,6 +11,15 @@ trigger: Mnemosyne returns "database or disk is full" OR any Hermes tool fails w
 
 When Mnemosyne returns `OperationalError: database or disk is full`, FIRST determine whether disk is actually full or it's a stale cached error.
 
+## Mnemosyne backup selection
+
+When multiple Mnemosyne snapshots exist (`mnemosyne.db`, `mnemosyne.db.backup-YYYYMMDD-HHMMSS`, imported WSL backups), **choose the newest file whose schema/layout matches the running Hermes version**, not the largest file. If schemas match but row counts differ, prefer the higher count.
+
+**Decision rule:**
+1. Run `sqlite3 <db> "PRAGMA user_version;"` and compare column lists with `PRAGMA table_info(...)` on candidate DBs.
+2. Prefer the DB with more rows when schemas match.
+3. Only refuse to replace the live DB if the candidate is smaller OR schema-mismatched.
+
 ## Triage: Is disk actually full?
 
 ```bash
@@ -42,7 +51,7 @@ After gateway restart, the error clears for:
 
 **Still seeing the error in your current CLI session?** That's expected — each `hermes chat` process has its own Python process with its own Mnemosyne connection and its own cached error. Issue `/reset` or start a fresh `hermes` invocation to get a clean memory connection.
 
-**DB integrity check failed?** Then the DB is genuinely corrupt despite having disk space — fall through to "Step 4: Recover Corrupted Mnemosyne DB" below. The `rm` of `.corrupt` files in step 1 is still safe to run.
+- **DB integrity check failed?** Then the DB is genuinely corrupt despite having disk space — fall through to "Step 4: Recover Corrupted Mnemosyne DB" below. The `rm` of `.corrupt` files in step 1 is still safe to run.
 
 ## Full Disk Recovery (Disk WAS Full)
 
@@ -137,6 +146,15 @@ cp /tmp/mnemosyne_clean.db ~/.hermes/mnemosyne/data/mnemosyne.db
 # 6. Cleanup temp files
 rm -f /tmp/mnemo_dump.sql /tmp/mnemosyne_clean.db
 ```
+
+## Mnemosyne backup selection
+
+When multiple Mnemosyne snapshots exist (`mnemosyne.db`, `mnemosyne.db.backup-YYYYMMDD-HHMMSS`, imported WSL backups), **choose the newest file whose schema/layout matches the running Hermes version**, not the largest file. If schemas match but row counts differ, prefer the higher count.
+
+**Decision rule:**
+1. Run `sqlite3 <db> "PRAGMA user_version;"` and compare column lists with `PRAGMA table_info(...)` on candidate DBs.
+2. Prefer the DB with more rows when schemas match.
+3. Only refuse to replace the live DB if the candidate is smaller OR schema-mismatched.
 
 ## Step 5: Release Database Locks
 

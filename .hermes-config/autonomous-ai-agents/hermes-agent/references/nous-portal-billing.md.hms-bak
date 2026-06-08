@@ -1,39 +1,46 @@
-# Nous Portal Billing Disambiguation
+# Nous Portal Billing Diagnosis (Session 2026-06-07)
 
-**Observed:** `stepfun/step-3.7-flash:free` returns `"pricing":{"prompt":"0","completion":"0"}` via the Nous Portal models endpoint. The API does not bill for inference on free-tier models.
+## User's Core Question
+"Why am I still seeing non-inference charges on Nous Portal even when main model is Grok?"
 
-This document captures why a user on a free model may still see charges, and how to diagnose the source.
+## Root Cause (from full config audit)
+Even when:
+- Main model = `grok-4.3` / `xai-oauth`
+- Delegation = `grok-4.3` / `xai-oauth`
+- Most `auxiliary:` services = `grok-4.3` / `xai-oauth`
 
-## The split: inference vs. infrastructure
+The following still routed through Nous infrastructure:
 
-Nous Portal bundles free inference with **managed services** that are tracked separately:
+- `browser`: `cloud_provider: browser-use` + `use_gateway: true`
+- `image_gen`: `use_gateway: true` (FAL)
+- `video_gen`: `use_gateway: true` (FAL)
+- Persistent `nous` provider block with `default_model: openrouter/qwen3-coder:free`
 
-| Service | Toolset | Billing signal |
-|---|---|---|
-| Browser automation | browser | Browserbase session minutes |
-| TTS | tts | OpenRouter / ElevenLabs / edge char counts |
-| Image generation | image_gen | FAL backend generations |
-| Web extraction (Firecrawl) | web | Firecrawl crawl / scrape units |
-| Web search (Tavily, etc.) | web/search | Third-party search provider queries |
-| Modal execution | execute_code | Modal runtime hours |
+"Non-inference" line items are typically from these **gateway-managed tool backends**, not LLM tokens.
 
-None of these show up in the model's pricing block. They are tracked by the respective backend provider.
+## User's Explicit Preferences (embed in all future responses)
+- "no lock grok in as the aux" — do not force Grok for auxiliary models unless explicitly requested.
+- When user says "just run them", "dispatch all of them", or similar — switch to immediate execution. Do not produce additional analysis or kanban cards.
+- `mike` profile = **all DABT work only**. Do not mix DABT context into `default`.
 
-## Quick charge-localization checklist
+## Resolution Steps Taken
+1. Disabled gateway entirely (`use_gateway: false` across config).
+2. Removed `cloud_provider: browser-use`.
+3. Restarted gateway.
+4. Updated `hermes-agent` skill with this diagnostic and user preferences.
 
-1. Check hermes status --all — which managed tools are marked active?
-2. Check recent tool call volume: hermes insights --days 1 — high browser/web counts point there.
-3. Check whether the Nous Portal UI exposes per-service breakdown (browser, TTS, image, Firecrawl).
-4. env | grep -iE 'BROWSER|FAL|TAVILY|EDGE|ELEVEN' — an injected key means that service is wired up.
+## Verification Commands
+```bash
+hermes config get browser.use_gateway
+hermes config get image_gen.use_gateway
+hermes config get video_gen.use_gateway
+hermes gateway status
+```
 
-## Cost controls
+Expected: all should show `false`.
 
-- Disable tool authentication keys in ~/.hermes/.env to disable a managed service.
-- hermes tools disable browser / hermes tools disable image_gen to remove tool access.
-- Avoid text_to_speech, image_generate, and browser_* calls on free-tier plans unless confirmed unlimited.
+## Future Prevention
+- Always audit the full `auxiliary:`, `gateway:`, `image_gen:`, `video_gen:`, and `browser:` sections after any model change.
+- When user expresses frustration with over-analysis ("why aren't you doing them"), immediately update the governing skill (`hermes-agent` or `orchestration-workflow`) with the preference.
 
-## Why the confusion happens
-
-The parent chat model is stepfun/step-3.7-flash:free with $0 pricing. Subagents, web hooks, and non-inference tools have independent billing paths. A single delegate_task call appears free; a single browser_navigate call may not.
-
-The appearance of a charge for "non-inference" almost always means one of the managed services above — not the LLM API.
+This reference file should be consulted whenever billing or gateway issues appear.
