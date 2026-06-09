@@ -1,6 +1,6 @@
 ---
 name: dabt-miss-journal
-description: "Persistent miss journal for DABT prep using plain markdown in the Obsidian vault. During each session, inline-write misses, weak areas, and precision gaps to wiki/miss-journal/. Before each session, read recent entries for pattern detection. Replaces the G-Brain-coupled version after G-Brain decommissioning 2026-06-05."
+description: "Persistent miss journal for DABT prep using plain markdown in the Obsidian vault. During each session, inline-write misses, weak areas, and precision gaps to wiki/miss-journal/. Before each session, read recent entries for pattern detection."
 category: education
 ---
 
@@ -131,8 +131,8 @@ The weak-areas script is essentially Phase B (Before-Session) automated — same
 
 Full pattern, scripts, and cron registration: see the `obsidian` skill's `references/vault-maintenance-cron.md`.
 
-## Migration from G-Brain Version
+## Migration note
 
-The previous skill `dabt-gbrain-miss-journal` is preserved at `/root/work/.hermes-config/education/dabt-gbrain-miss-journal/` for reference. All G-Brain tooling (mcp_gbrain_*, gbrain put/get/recall/think) is no longer used. If you find yourself reaching for those tools, write to the filesystem instead.
+The previous `dabt-gbrain-miss-journal` skill was deprecated and removed when G-Brain was decommissioned. All G-Brain tooling (`mcp_gbrain_*`, `gbrain put/get/recall/think`) is no longer available. Write to the filesystem instead.
 
-Historical miss journal entries that lived in G-Brain are presumed lost. If you have specific old entries you want to preserve, write them as a backfill file at `wiki/miss-journal/backfill-2026-06-05.md` with the original date and a "backfilled from memory" note.
+Historical miss journal entries that lived in G-Brain are lost. If you have specific old entries you want to preserve, write them as a backfill file at `wiki/miss-journal/backfill-YYYY-MM-DD.md` with the original date and a "backfilled from memory" note.

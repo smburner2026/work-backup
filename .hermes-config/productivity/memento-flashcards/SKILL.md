@@ -429,7 +429,17 @@ print(f"Restored {count} cards in '{target_collection}' — due in 1 hour")
 - The archive is date-based only, not flagged in a separate metadata field. If the user has cards due naturally in >365 days (from `easy` ratings), those survive the archive sweep unintentionally — but in practice, `easy` ratings only push 7 days out, so 365 is a clean sweep.
 - Always confirm the *exact* collection name with the user before archiving. If they say "archive Metal Talks" and there's both `DABT - Metals` and `DABT - AsCdCr Deepdive`, clarify which one.
 
-### Pitfall: Rating the wrong card
+### Pitfall: Daily Reminder Script Crashes on Empty Subprocess Output
+
+The `daily-flashcard-reminder.py` script at `~/.hermes/scripts/daily-flashcard-reminder.py` calls `memento_cards.py` via `subprocess.run()` and immediately does `json.loads(result.stdout)`. If the subprocess returns empty stdout (e.g., `HERMES_HOME` not set, script not found, or Python error), this produces the unhelpful error `Expecting value: line 1 column 1 (char 0)`.
+
+**Fix:** The `run_cmd()` function must check `result.returncode` and `result.stdout.strip()` before calling `json.loads`. A fixed version of the script is at `scripts/daily-flashcard-reminder-fixed.py` within this skill directory. To apply the fix:
+
+```bash
+cp ~/.hermes/skills/productivity/memento-flashcards/scripts/daily-flashcard-reminder-fixed.py ~/.hermes/scripts/daily-flashcard-reminder.py
+```
+
+**Verification after fix:** Run `python3 ~/.hermes/scripts/daily-flashcard-reminder.py` — should output a formatted briefing card with per-collection due counts, not an error.
 When pulling due cards by question text (e.g., searching for "BMR"), verify the card ID matches the question you're discussing before calling `rate`. It's easy to accidentally rate a different card with a similar question. Always confirm the ID from the due list output, not from memory.
 
 ### Pitfall: Vague Card FRONT

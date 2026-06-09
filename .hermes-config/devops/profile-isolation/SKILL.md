@@ -34,7 +34,23 @@ Never route work across these boundaries without explicit approval.
 - Assuming "link the vaults" means creating shared folders or symlinks.
 - Creating convenience symlinks without confirmation (user has rejected this multiple times).
 - Treating profile renaming (historian → jacob) as creating orphans — always verify cron and reference cleanup.
+- **active_profile drift:** `~/.hermes/active_profile` is the sticky profile selector. If this file contains a non-default name, every `hermes` TUI/terminal session boots into that profile — silently. After updates or gateway restarts, always verify `active_profile` is absent (canonical default state) or contains the intended profile. See `scripts/active_profile_guard.sh` for an automated drift guard.
+
+## active_profile Mechanics
+- **File absent** = default profile (canonical "hermes profile use default" state — it *deletes* the file, not writes "default")
+- **File present with name** = that profile is used for every terminal/TUI session without explicit `-p` flag
+- `hermes profile use <name>` writes to this file with an atomic rename
+- `hermes profile use default` deletes the file entirely
+- The main gateway process spawns profile-specific gateway children; the active_profile file determines which profile the TUI connects to
+
+## Preventing Drift
+Use the guard script at `scripts/active_profile_guard.sh` to detect and auto-correct drift. Schedule it as a cron job (every 30 min) to catch unintended changes:
+```
+cronjob create: "bash ~/.hermes/skills/devops/profile-isolation/scripts/active_profile_guard.sh" every 30m
+```
+The guard only acts when `active_profile` contains a non-default value — it stays silent otherwise.
 
 ## Related Patterns
 - When consolidating profiles or moving artifacts, always confirm the new ownership boundary first.
 - For Obsidian work, default to fully separate vaults unless the user specifies the linking style.
+- After removing a profile, check for orphaned systemd services (`/etc/systemd/system/hermes-gateway-<name>.service`) and remove them.

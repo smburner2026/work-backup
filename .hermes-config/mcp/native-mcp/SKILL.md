@@ -1,6 +1,6 @@
 ---
 name: native-mcp
-description: "MCP client: connect servers, register tools (stdio/HTTP)."
+description: "MCP client: connect servers, register tools (stdio/HTTP) - updated."
 version: 1.0.0
 author: Hermes Agent
 license: MIT
@@ -357,3 +357,44 @@ Disable sampling for untrusted servers with `sampling: { enabled: false }`.
 - The native MCP client is independent of `mcporter` -- you can use both simultaneously
 - Server connections are persistent and shared across all conversations in the same agent process
 - Adding or removing servers requires restarting the agent (no hot-reload currently)
+
+
+## Building Your Own MCP Servers
+
+While Hermes excels as an MCP client, you can also build MCP servers that Hermes (or other agents) connect to. This enables:
+- Exposing your internal tools/data as MCP services
+- Creating reusable AI workflows across agents
+- Building composable tool ecosystems
+
+### Quick Start: Python MCP Server
+1. Install MCP SDK: pip install mcp[server]
+2. Create a simple server (e.g., hello.py):
+   ```python
+   from mcp.server import Server
+   from mcp.server.stdio import stdio_server
+   app = Server('hello')
+   @app.tool()
+   def greet(name: str) -> str:
+       return f'Hello, {name}!'
+   if __name__ == '__main__':
+       stdio_server(app).run()
+   ```
+3. Configure Hermes to connect:
+   ```yaml
+   mcp_servers:
+     hello:
+       command: python
+       args: [/path/to/hello.py]
+   ```
+4. Restart Hermes and use the tools (e.g., mcp_hello_greet).
+
+### Security Notes
+- Validate inputs and sanitize outputs in your tools.
+- For stdio servers, only pass needed environment variables via the env config.
+- Consider using a token refresh sidecar for OAuth2 services.
+
+### Testing
+Use the MCP Inspector to debug your server before connecting to Hermes.
+
+
+Append test.

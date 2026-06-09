@@ -21,7 +21,7 @@ When the user is preparing for a board exam (DABT, USMLE, CFA, PE, bar, etc.) an
 | Vault path points inside a `dabt-tutor/`, `bar-prep/`, `cfa/`, etc. project dir | study-projects |
 | User has extracted textbook chapters in `reference/extracted/` | study-projects |
 | User has a `dabt.db`, `questions.json`, or similar question bank | study-projects |
-| User mentions a previous AI tool that "crashed" or was "decommissioned" | study-projects (also use gbrain-to-plain-markdown-migration) |
+|| User mentions a previous AI tool that "crashed" or was "decommissioned" | study-projects |
 | Otherwise | generic vault-bootstrap.md |
 
 ## The 5-step recipe (proof-of-concept, low-risk rollout)
@@ -81,7 +81,7 @@ If the project has a miss journal skill that's coupled to a now-decommissioned t
 5. Create the `wiki/miss-journal/README.md` MOC and a `learner-profile.md` template
 6. Keep the old skill on disk as a `.bak` or in a deprecated skills dir for reference — historical entries may need to be reconstructed from session_search
 
-**Backfill nuance:** historical entries may also be sitting in plain markdown inside the project (e.g., `reference/data/miss-journal-2026-05-28-risk-assessment-flashcards.md`). Before declaring them "presumed lost," `find` the project for any file matching `*miss-journal*` and migrate them into `wiki/miss-journal/` with a `source: backfilled` frontmatter note. The G-Brain → plain markdown migration reference covers the broader pattern.
+**Backfill nuance:** historical entries may also be sitting in plain markdown inside the project (e.g., `reference/data/miss-journal-2026-05-28-risk-assessment-flashcards.md`). Before declaring them "presumed lost," `find` the project for any file matching `*miss-journal*` and migrate them into `wiki/miss-journal/` with a `source: backfilled` frontmatter note.
 
 ### Step 5 — Hand off, then iterate
 

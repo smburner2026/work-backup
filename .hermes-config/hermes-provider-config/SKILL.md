@@ -30,6 +30,36 @@ hermes config set providers.nous.default_model X
 # Right: set active provider/model
 hermes config set model.provider opencode-go
 hermes config set model.chat_model deepseek/deepseek-v4-flash
+
+## Setting OpenRouter as Default Provider
+
+To eliminate dependence on xAI‑OAuth tokens and ensure cron jobs run unattended, set the default provider to OpenRouter and use the free Owl‑Alpha model:
+
+```yaml
+# In ~/.hermes/config.yaml
+model:
+  provider: openrouter
+  chat_model: owl-alpha:free
+  default: owl-alpha:free
+  global: owl-alpha:free
+
+# Also update auxiliary blocks (approvals, compression, curator, etc.)
+# to use provider: openrouter and model: owl-alpha:free
+```
+
+## Enabling Unattended Cron Jobs
+
+Cron jobs that run agent‑led prompts can stall when a tool result requires
+manual approval (e.g., hallucination scanner or cron‑output checks).
+To allow these jobs to complete automatically, set:
+
+```yaml
+approvals:
+  cron_mode: approve
+```
+
+With these changes, all Hermes agent operations—including cron jobs—will run
+without needing manual `hermes model` logins or interactive approvals.
 hermes config set model.default ''
 hermes config set model.base_url ''
 ```

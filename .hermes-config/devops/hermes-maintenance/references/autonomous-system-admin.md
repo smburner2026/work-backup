@@ -69,11 +69,23 @@ When stale profile entries accumulate:
 
 ### Critical Skill Pinning
 To prevent important skills from being archived:
-```
-# Identify skills with high strategic value but low recent use
-# Propose pinning via:
+```bash
+# The curator CLI only accepts ONE skill per invocation:
 hermes curator pin <skill-name>
+
+# To pin multiple skills, use a loop:
+cd ~/.hermes/skills && for skill in skill-a skill-b skill-c; do
+  hermes curator pin "$skill"
+done
+
+# Verify pinned status:
+hermes curator status
 ```
+
+**Pin strategy — three tiers:**
+1. **Infrastructure** (pin first): hermes-maintenance, background-agents, profile-guard-*, secrets-management, hermes-session-recovery, disk-full-mnemosyne-recovery
+2. **High-use domain**: dabt-*, book-pdf-compilation, engineering-discipline, document-pipelines
+3. **New/fragile** (pin immediately): Any skill created today/yesterday with 0 uses — the curator runs weekly and flags 30-day-unused skills as stale; brand-new skills need pinning before first real use
 
 ## Safety Guidelines
 
@@ -82,6 +94,26 @@ hermes curator pin <skill-name>
 3. **Backup before change**: Ensure checkpoints exist for config/memory modifications
 4. **Atomic actions**: Group related changes where possible to reduce intermediate states
 5. **Verification step**: Confirm actions had intended effect after execution
+
+## Curator Scope Limitation (Important)
+
+The `hermes curator` commands (pin, archive, status, etc.) only operate on skills where `created_by: "agent"` in `~/.hermes/skills/.usage.json`. Skills with `created_by: null` (local/builtin/hub-installed) are **not** under curator control and will be rejected with "skill not found".
+
+**Before attempting to archive/pin a skill, verify it's agent-created:**
+```bash
+grep '"skill-name"' ~/.hermes/skills/.usage.json
+```
+Look for `"created_by": "agent"` adjacent to the skill name. If it's `null`, the curator cannot manage it — those skills won't be auto-archived either, so they're safe but untracked.
+
+**Typical curator-manageable skills include:**
+- background-agents, hermes-maintenance, hermes-soul-design
+- profile-guard-mike, profile-guard-jacob, profile-isolation
+- agent-memory-hygiene, cronjob-management
+- Most skills in `~/.hermes/skills/devops/` created by the agent
+
+**Typical non-manageable skills:**
+- All skills in subdirectories with `source: builtin` or `source: local` installed manually
+- Skills cloned from git repos where `created_by` was never set to `"agent"`
 
 ## Integration with hermes-maintenance
 

@@ -1,8 +1,9 @@
-[RECOVERY] Corrupt DB data IS recoverable: dump to SQL→rebuild clean DB→Python merge. sqlite3 ATTACH fails on WAL-corrupt DBs; use Python sqlite3 instead. Check `.corrupt` files before assuming data loss.
-[MNEMOSYNE] Installed May 18 2026 (not June 7). Pre-June-7 data recovered from corrupt backups (3,898 working memories + 1,771 facts merged). Full coverage: May 18→present (~5,361 working memories).
-[BACKUP] combined-backup.sh Sundays 06:00 UTC: git push → session archive → Mnemosyne (7 daily) → LCM (4 weekly) → other DBs (2 weekly). Cloud (B2) NOT set up yet.
-[LCM] 472 sessions, 68K messages, May 18→June 8. Timestamps = session_start (archive lacks per-message). FTS5 text search OK.
-§
 [2026-06-08] Skill updates: disk-full-mnemosyne-recovery patched with Python cross-schema merge technique + .corrupt file recovery path. hermes-session-recovery patched with cross-store verification checklist + reference file. Key learning: sqlite3 ATTACH fails silently across different schema versions; Python executemany with explicit column lists is the reliable merge strategy.
 §
 User needs guidance to create Backblaze B2 account and bucket for Hermes backup. Provide step-by-step instructions.
+§
+[2026-06-08] Skill audit session: Pinned 22 skills across 3 tiers (infrastructure, high-use domain, new/fragile). Discovered curator scope limitation: only manages skills with created_by="agent" in .usage.json (74 total). Skills with created_by=null (local/builtin) are NOT under curator control and curator archive/pin rejects them with "skill not found". Updated hermes-maintenance references/autonomous-system-admin.md with curator scope limitation and pinning workflow details.
+§
+User's system no longer has gbrain installed (binary not found, /root/gbrain and /root/.gbrain directories missing). Scripts that depended on gbrain (gbrain-dream-cycle.sh, gbrain-mcp-wrapper.sh, gbrain-self-heal.sh) are now orphaned. No active cron jobs were found referencing these scripts in the current cron job list. When removing dependencies, review cron jobs and scripts for orphaned dependencies and either update them to handle missing dependencies gracefully, update to use alternatives, or remove them.
+§
+[2026-06-09] Profile routing fix: active_profile file was set to "mike" after Hermes update, causing all terminal sessions to default to mike instead of default/orchestrator. Fix: deleted the file (canonical default = file absent). Created guard script in profile-isolation/scripts/active_profile_guard.sh + 30min cron job. Key: `hermes profile use default` DELETES the file; `hermes profile use <name>` writes to it.

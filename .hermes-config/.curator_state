@@ -1,9 +1,9 @@
 {
-  "last_report_path": "/root/.hermes/logs/curator/20260602-003841",
-  "last_run_at": "2026-06-02T00:38:41.045183+00:00",
-  "last_run_duration_seconds": 355.933203,
-  "last_run_summary": "auto: no changes; llm: ## Summary of Consolidation Pass\n\n### Clusters Processed\n\n**1. G-Brain cluster** (`gbrain`, `gbrain-install`)\n- `gbrain` is the comprehensive umbrella: install, configure, operate, dream cycle, MCP wiring, model patching, 17 reference files…\narchived 3 skill(s):\n  • gbrain-install → gbrain\n  • hermes-plugins → hermes-maintenance\n  • hermes-web-ui → hermes-maintenance\nfull report: hermes curator status\nkeep an umbrella stable: hermes curator pin gbrain",
-  "last_run_summary_shown_at": "2026-06-02T00:38:41.045183+00:00",
+  "last_report_path": "/root/.hermes/logs/curator/20260609-012324",
+  "last_run_at": "2026-06-09T01:23:24.837914+00:00",
+  "last_run_duration_seconds": 71.195306,
+  "last_run_summary": "auto: no changes; llm: **Umbrella consolidation pass complete.** Processed 12+ prefix/domain clusters from the 113 agent-created skills (hermes-*, github-*, kanban-*, dabt-*, euphy-*, terminal-*, python-*, historical-*, git-*, and several narrow singletons with s…\narchived 1 skill(s):\n  • dabt-synthesis-review → dabt-project-workflow\nfull report: hermes curator status\nkeep an umbrella stable: hermes curator pin dabt-project-workflow",
+  "last_run_summary_shown_at": "2026-06-09T01:23:24.837914+00:00",
   "paused": false,
-  "run_count": 3
+  "run_count": 4
 }

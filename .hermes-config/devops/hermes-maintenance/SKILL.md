@@ -10,6 +10,7 @@ author: Hermes Agent
 Governance patterns for managing a Hermes Agent instance over time — tracking what's been added beyond base Hermes, checking for updates, auditing the full installation, and protecting durable state through archival + backup.
 
 See `references/autonomous-system-admin.md` for patterns enabling autonomous documentation scanning and system administration actions.
+See `references/orphaned-systemd-services.md` for cleanup of orphaned per-profile gateway services.
 
 ## Philosophy
 

@@ -3,9 +3,11 @@
 import json
 import subprocess
 import sys
+import os
 from pathlib import Path
 
-MEMENTO = Path.home() / '.hermes/skills/productivity/memento-flashcards/scripts/memento_cards.py'
+hermes_home = Path(os.environ.get('HERMES_HOME', Path.home() / '.hermes'))
+MEMENTO = hermes_home / 'skills' / 'productivity' / 'memento-flashcards' / 'scripts' / 'memento_cards.py'
 
 def run_cmd(*args):
     result = subprocess.run(

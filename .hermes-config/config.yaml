@@ -22,7 +22,7 @@ agent:
   task_completion_guidance: true
   tool_use_enforcement: auto
 approvals:
-  cron_mode: deny
+  cron_mode: approve
   destructive_slash_confirm: false
   mcp_reload_confirm: true
   mode: manual
@@ -32,87 +32,87 @@ auxiliary:
     api_key: ''
     base_url: ''
     extra_body: {}
-    model: grok-4.3
-    provider: xai-oauth
+    model: owl-alpha
+    provider: openrouter
     timeout: 30
   compression:
     api_key: ''
     base_url: ''
     extra_body: {}
-    model: grok-4.3
-    provider: xai-oauth
+    model: owl-alpha
+    provider: openrouter
     timeout: 120
   curator:
     api_key: ''
     base_url: ''
     extra_body: {}
-    model: grok-4.3
-    provider: xai-oauth
+    model: owl-alpha
+    provider: openrouter
     timeout: 600
   kanban_decomposer:
     api_key: ''
     base_url: ''
     extra_body: {}
-    model: grok-4.3
-    provider: xai-oauth
+    model: owl-alpha
+    provider: openrouter
     timeout: 180
   mcp:
     api_key: ''
     base_url: ''
     extra_body: {}
-    model: grok-4.3
-    provider: xai-oauth
+    model: owl-alpha
+    provider: openrouter
     timeout: 30
   profile_describer:
     api_key: ''
     base_url: ''
     extra_body: {}
-    model: grok-4.3
-    provider: xai-oauth
+    model: owl-alpha
+    provider: openrouter
     timeout: 60
   session_search:
     api_key: ''
     base_url: ''
     extra_body: {}
     max_concurrency: 3
-    model: grok-4.3
-    provider: xai-oauth
+    model: owl-alpha
+    provider: openrouter
     timeout: 30
   skills_hub:
     api_key: ''
     base_url: ''
     extra_body: {}
-    model: grok-4.3
-    provider: xai-oauth
+    model: owl-alpha
+    provider: openrouter
     timeout: 30
   title_generation:
     api_key: ''
     base_url: ''
     extra_body: {}
-    model: grok-4.3
-    provider: xai-oauth
+    model: owl-alpha
+    provider: openrouter
     timeout: 30
   triage_specifier:
     api_key: ''
     base_url: ''
     extra_body: {}
-    model: grok-4.3
-    provider: xai-oauth
+    model: owl-alpha
+    provider: openrouter
     timeout: 120
   vision:
     api_key: ''
     base_url: ''
     download_timeout: 30
     extra_body: {}
-    model: grok-4.3
-    provider: xai-oauth
+    model: owl-alpha
+    provider: openrouter
     timeout: 120
   web_extract:
     api_key: ''
     base_url: ''
     extra_body: {}
-    model: grok-4.3
-    provider: xai-oauth
+    model: owl-alpha
+    provider: openrouter
     timeout: 360
 bedrock:
   discovery:
@@ -158,15 +158,16 @@ code_execution:
   mode: project
   timeout: 300
 command_allowlist:
-- recursive delete
+- stop/restart hermes gateway (kills running agents)
 - script execution via -e/-c flag
+- execute_code
+- recursive delete
+- delete in root path
+- stop/restart system service
+- overwrite project env/config file
+- script execution via heredoc
 - shell command via -c/-lc flag
 - docker compose restart/stop/kill/down (container lifecycle)
-- script execution via heredoc
-- stop/restart hermes gateway (kills running agents)
-- overwrite project env/config file
-- stop/restart system service
-- delete in root path
 compression:
   abort_on_summary_failure: false
   codex_gpt55_autoraise: true
@@ -215,9 +216,9 @@ delegation:
   max_concurrent_children: 3
   max_iterations: 50
   max_spawn_depth: 1
-  model: grok-4.3
+  model: owl-alpha
   orchestrator_enabled: true
-  provider: xai
+  provider: openrouter
   reasoning_effort: ''
   subagent_auto_approve: false
 desktop:
@@ -426,10 +427,10 @@ memory:
   user_char_limit: 1375
   user_profile_enabled: true
 model:
-  base_url: https://openrouter.ai/api/v1
-  chat_model: grok-4.3
-  default: nvidia/nemotron-3-super-120b-a12b:free
-  global: stepfun/step-3.7-flash:free
+  base_url: ''
+  chat_model: owl-alpha
+  default: owl-alpha
+  global: owl-alpha
   provider: openrouter
 model_catalog:
   enabled: true
@@ -439,6 +440,7 @@ model_catalog:
 network:
   force_ipv4: false
 onboarding:
+  profile_build: ask
   seen:
     busy_input_prompt: true
     openclaw_residue_cleanup: true
@@ -516,6 +518,13 @@ prompt_caching:
   long_lived_prefix: true
   long_lived_ttl: 1h
 providers:
+  nim:
+    api: https://integrate.api.nvidia.com/v1
+    api_key: REDACTED
+    default_model: nvidia/nemotron-3-super-120b-a12b
+    name: nim
+    transport: chat_completions
+    extra_body: '{"chat_template_kwargs":{"enable_thinking":true},"reasoning_budget":16384}'
   nous:
     api: https://inference-api.nousresearch.com/v1
     default_model: openrouter/qwen3-coder:free

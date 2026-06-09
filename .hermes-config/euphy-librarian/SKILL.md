@@ -62,6 +62,7 @@ Euphy is the consistent personal assistant persona. She handles both inner psych
 - For efficient implementation, use `rsync --ignore-existing` to copy only new/changed files, and update the MOC only when new subdirectories are detected.
 - For efficient implementation, use `rsync --ignore-existing` to copy only new/changed files, and update the MOC only when new subdirectories are detected.
 - After populating the vault, schedule the `euphy-vault-orphan-audit.sh` cron job (`0 4 * * 0`, `no_agent: true`) and run it once to verify the current orphan count.
+- **Artifact & Vault Housekeeping**: On each scheduled run, load the `artifact-pyramids` skill and follow its full workflow (scan → L1/L2 creation → orphan audit → index update). Record results in the housekeeping report delivered to the user.
 - Implement the multi-vault consolidation sweep (see references/multi-vault-consolidation.md) as a scheduled cron job to continuously discover new folders/projects in sibling vaults and staging areas. Run weekly or as appropriate for your workflow.
 
 ## Next Actions Template

@@ -42,6 +42,7 @@ WORKDIR = CONFIG['project']['workdir']
 5. READ AGENTS.md → project-level notes and overrides
 6. LOAD dabt-reference (primary lookup), dabt-database (question context), and
    the appropriate mode skill (dabt-drill-mode, dabt-deep-dive, etc.)
+6b. **VERIFY deep-dive artifacts** — if the mode skill was `dabt-deep-dive`, ensure that a concept note has been created under `wiki/concepts/` (lowercase‑hyphen slug) and that a set of self‑generated practice questions / flashcards exists; optionally run a quick spot‑check against the question bank to confirm terminology matches.
 7. EXECUTE with config values injected at runtime
 ```
 
@@ -157,7 +158,7 @@ dabt-project-workflow (this skill)
   │     Socratic tutoring — first-principles topic exploration, artifacts
   │     Reads: config.exam.domains (for topic priority), config.progress
   │
-  ├── dabt-synthesis-review
+  ├── dabt-synthesis-review (CONSOLIDATED — see Synthesis Review Mode section below)
   │     Cross-topic consolidation — comparison matrices, flashcards
   │     Reads: config.progress.deep_dives_dir (for completed topics)
   │
@@ -166,19 +167,35 @@ dabt-project-workflow (this skill)
         Reads: config.progress.wiki_dir
 ```
 
-## Data Quality Status (as of 2026-06-02, post-phantom-completion audit)
+## Synthesis Review Mode (absorbed from dabt-synthesis-review)
+
+**Trigger:** User requests cross-topic review, comparison matrices, biomarker time-window models, flashcard generation, or consolidation after multiple deep dives.
+
+**Core Procedure (condensed):**
+1. Scope the review dimensions (default: Entry transporter, Half-life, Biomarkers, Signature acute/chronic syndromes, Chelator/treatment).
+2. Build comparison matrix from completed deep-dive artifacts only (mark gaps explicitly).
+3. Walk dimensions with contrast-focused questions ("Why does this difference matter?").
+4. Anchor to six-pillar framework (Valence/Form, Half-Life Spectrum, Target Organ, Biomarker, Chelator, Carcinogenic Mechanism).
+5. Offer flashcard generation (markdown or Memento) and save review artifact to `reviews/YYYY-MM-DD-<topic>-review.md`.
+6. Update state and vault with synthesis notes when new cross-domain links are discovered.
+
+**Rules:** Only populate cells for topics with completed deep dives. Never invent data. OneDimensionAtATimeDownTheRow. End with a one-sentence synthesis that packages the contrast.
+
+Full original workflow details were narrow-session-specific and have been folded into this coordinating skill. Load `dabt-project-workflow` first for any DABT session; it dispatches to the appropriate mode logic.
+
+## Data Quality Status (as of 2026-06-09, post-synthetic-import audit)
 
 | Metric | Value | Impact |
 |--------|-------|--------|
-| Questions in main table | **5,368** (across 10 source banks) | Clean |
-| Answer letter coverage | **87.5%** (4,698/5,368) | 35 legitimately missing answer keys |
-| Correct answer texts | **4,698+** | All answered questions carry correct_answer_letter |
-| Explanations | **4,546/5,368 (84.7%)** | Missing = 35 no-answer-key Qs + 95 Domain III enrichment needed |
-| No-answer-key Qs (remaining) | **35** | Down from 670 after batch fixing campaign |
-| Domain classification | **5,368/5,368 (100%)** | All classified as of 2026-06-01 |
-| Quarantine remaining | **2 items** | Truly unrecoverable (no options, no answer text) |
-| Synthetic questions | **0 Qs** ⚠️ | Generation tasks marked done but never imported — see phantom completion incident |
-| Domain III coverage | **287 Qs** (5.3% of bank vs 38% of exam weight) | **Still critical underweight — synthetic generation must be re-executed** |
+| Questions in main table | **7,567** (across 17 source banks) | ✅ All banks loaded |
+| Answer letter coverage | **99.6%** (7,536/7,567) | 31 legitimately missing answer keys (real exam PDFs) |
+| Explanations | **90.4%** (6,840/7,567) | 727 Qs need enrichment — see domain breakdown below |
+| Bloom levels | **93.2%** (7,050/7,567) | ✅ |
+| Domain classification | **100%** (7,567/7,567) | ✅ All classified |
+| Synthetic questions | **2,199 Qs** across 7 synthetic banks | ✅ Domain I (1,600) + Domain III (599) imported and audited |
+| Domain III coverage | **887 Qs** (11.7% of bank vs 38% of exam weight) | 🔴 **Still critical underweight — gap narrowed from 5.3% → 11.7%, but needs further work** |
+| Zero-option Qs | **128 total** | ⚠️ D-I: 59, D-II: 22, D-III: 1, D-IV: 46 |
+| Low-confidence classifications | **192 (2.5%)** | ⚠️ 5,852 (77.3%) have no confidence value |
 
 ## Task Roadmap (updated 2026-06-02, post-phantom-completion audit)
 
@@ -200,11 +217,12 @@ See `references/task-roadmap.md` for full detail. Current status:
 14. **Systems integrity audit** — ✅ **COMPLETE** Skills, LCM, Mnemosyne, DB all verified.
 
 ### Remaining Gaps
-- **35 no-answer-key Qs** — all legitimately missing answer keys (real exam materials)
-- **Domain III still underweight** at 287 Qs (5.3% vs 38% exam weight) — synthetic generation failed and must be re-executed
-- **95 Domain III questions lack explanations** — mostly risk assessment topics, need enrichment from Casarett Ch.4, Hayes Ch.3/10, EPA guidelines
-- **Synthetic question generation** — Domain I (1,600 Qs) and Domain III (600 Qs) were marked done but never imported. See `references/phantom-completion-prevention.md` for incident report.
-- **2013/2015 recert extraction** — 2013 recert was ingested but 2015 was only done as partial recovery via the 40-Question import (t_cfd11e62); full 4-part extraction not done
+- **31 no-answer-key Qs** — all legitimately missing answer keys (real exam materials from PDFs)
+- **Domain III still underweight** at 887 Qs (11.7% vs 38% exam weight) — synthetic generation added 599 Qs but gap remains large; additional generation or Domain III-focused study recommended
+- **727 questions lack explanations** — Domain I: 165, Domain II: 212, Domain IV: 350; enrichment needed from Casarett/Hayes/regulations
+- **128 zero-option Qs** — need explanation writing based on compound classification rather than answer options
+- **192 low-confidence domain classifications** — should be reviewed and upgraded
+- **5,852 Qs with no confidence value** — classification confidence not yet assigned
 
 ## Kanban Workflow for DABT Items
 

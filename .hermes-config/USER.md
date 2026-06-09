@@ -4,3 +4,5 @@ COMMS: Direct action("just run them"). No re-proposing completed work. Unified T
 STYLE: CLI-only, no CS. High intellectual, Nietzsche-inclined. Values simplicity, concrete "how to" steps. Architectural precision. Trigger words (brainstorm/propose/discuss) = talk mode. Never correct typos.
 PROFILES: default=orchestrator, mike=DABT, euphy=librarian/artifacts, jacob=4lens Vietnam. Strict 5-profile isolation. 1-way skill push default→others.
 WORKFLOW: Test locally before VPS. Telegram research digests. Disk: zstd bundles, no loose files. Session hygiene aggressive — may re-prune.
+§
+TECH: Has NVIDIA NIM account with API key. Wants keys backed up to Bitwarden Secrets Manager for centralized rotation. Prefers direct action over manual steps.
